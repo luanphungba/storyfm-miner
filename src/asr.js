@@ -13,6 +13,13 @@ const ENDPOINT = 'https://api.assemblyai.com/v2/transcript';
 const POLL_INTERVAL_MS = 5_000;
 const POLL_TIMEOUT_MS = 40 * 60 * 1_000;
 
+// Naming a model is not optional in practice. Left out, the request falls through to the legacy
+// engine, which transcribes Chinese accurately but returns it with no punctuation at all — and
+// with nothing to split on, every sentence here degrades into a fixed-length slice of characters.
+// The newest model builds punctuation into its output and attributes speakers in the same pass.
+// Valid values, straight from the API: universal-3-5-pro, universal-3-pro, universal-2.
+const SPEECH_MODEL = 'universal-3-5-pro';
+
 /**
  * @typedef {object} AsrWord
  * @property {string} text
@@ -49,6 +56,7 @@ export async function transcribe(audioUrl, apiKey, onProgress) {
     body: JSON.stringify({
       audio_url: audioUrl,
       language_code: 'zh',
+      speech_models: [SPEECH_MODEL],
       speaker_labels: true,
       punctuate: true,
       format_text: true,
