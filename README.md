@@ -1,65 +1,69 @@
 # storyfm-miner
 
-Nghe podcast [故事FM](https://storyfm.cn) kèm transcript chạy theo tiếng, rồi bôi đen từ để tạo thẻ Anki
-bằng extension [youtube-chinese-miner](../youtube-chinese-miner).
+Listen to the Mandarin podcast [故事FM](https://storyfm.cn) with a transcript that follows the audio,
+then select a word to turn it into an Anki card with the
+[CI Chinese](../youtube-chinese-miner) browser extension.
 
-故事FM không công bố 文字稿 ở bất cứ đâu — RSS, trang chủ và 小宇宙 đều chỉ có shownotes, và podcaster
-đã tắt tính năng 文稿 của 小宇宙. Repo này tự sinh transcript, lưu lên git, rồi phục vụ qua GitHub Pages.
+> **Personal use only.** A private study tool for learning Mandarin. It stores transcripts I
+> generate for my own listening practice and hosts no audio — playback streams from the publisher's
+> own CDN. Not affiliated with 故事FM.
 
-**Audio không được lưu ở đây.** Chỉ transcript (~80KB/tập, text). Trang phát thẳng từ CDN gốc lấy
-trong RSS, nên không tốn dung lượng và không phát tán lại file có bản quyền.
+故事FM publishes no transcript anywhere: the RSS feed, storyfm.cn and 小宇宙 all carry show notes
+only, and the podcaster has 小宇宙's transcript feature switched off. So this generates them.
 
-## Cài đặt
+## Setup
 
 ```bash
-cp .env.example .env     # rồi điền ASSEMBLYAI_API_KEY
+cp .env.example .env     # add ASSEMBLYAI_API_KEY
 node bin/storyfm.js sync
 ```
 
-## Dùng
+## Commands
 
 ```bash
-storyfm sync                  # tải lại RSS về data/feed.xml
-storyfm list --limit 20       # liệt kê tập (✓ = đã có transcript)
-storyfm add E910              # transcribe một tập  (~$0.13)
-storyfm add E910 --force      # chạy lại tập đã có
-storyfm add E910 --narrator B # chỉ định speaker nào là người dẫn
+storyfm sync                  # refresh data/feed.xml from the RSS feed
+storyfm list --limit 20       # list episodes (✓ = transcript exists)
+storyfm add E077              # transcribe one episode (~$0.06 for 13 minutes)
+storyfm add E077 --force      # redo an episode that already has one
+storyfm add E077 --narrator B # override which speaker is the host
 
-npm test                      # unit test
+npm test                      # unit tests
 npm run serve                 # http://localhost:8080
 ```
 
-`add` không tự commit. Xem kết quả xong thì tự `git add docs/data data/raw && git commit`.
+`add` does not commit. Review the result, then commit `docs/data` and `data/raw` yourself.
 
-## Cách hoạt động
+## How it works
 
 ```
 RSS (data/feed.xml)
-  └─ enclosure mp3 ──► AssemblyAI (audio_url: server họ tự tải, máy mình không upload gì)
-                          └─ words[] ──► segment.js ──► roles.js ──► docs/data/E910.json
+  └─ enclosure URL ──► AssemblyAI (audio_url — their servers fetch it, nothing is uploaded)
+                          └─ words[] ──► segment.js ──► roles.js ──► docs/data/E077.json
                                                                         │
                             docs/player.html ◄───────────────────────────┘
-                                 └─ postMessage cues ──► extension CI Chinese ──► thẻ Anki
+                                 └─ postMessage cues ──► CI Chinese extension ──► Anki
 ```
 
-| File | Vai trò |
+| | |
 |---|---|
-| `src/feed.js` | Tải + parse RSS. Nguồn sự thật cho id, tiêu đề, URL audio |
-| `src/asr.js` | AssemblyAI: gửi `audio_url`, poll tới khi xong |
-| `src/segment.js` | Cắt word list thành câu. Hàm thuần, có test |
-| `src/roles.js` | Đoán speaker nào là người dẫn 爱哲. Hàm thuần, có test |
-| `src/build.js` | Ráp episode JSON, cập nhật index. Ghi một lần qua file tạm |
-| `docs/` | GitHub Pages root. Vanilla HTML/CSS/JS, không build step |
+| `src/feed.js` | Fetch and parse the RSS feed — the source of truth for ids, titles and audio URLs |
+| `src/asr.js` | AssemblyAI: submit `audio_url`, poll until done |
+| `src/segment.js` | Cut the word list into sentences. Pure, tested |
+| `src/roles.js` | Guess which speaker is the host 爱哲. Pure, tested |
+| `src/build.js` | Assemble the episode file and index. Written once, via a temp file |
+| `docs/` | GitHub Pages root. Vanilla HTML/CSS/JS, no build step |
 
-## Ghi chú
+## Notes
 
-- **Không dùng LLM để chấm lại câu.** AssemblyAI đã trả về có dấu câu; để model viết lại text sẽ làm
-  trôi timestamp, mà timestamp là thứ cả highlight, nút lặp và thẻ Anki đều dựa vào. `add` in ra tỉ lệ
-  câu kết thúc bằng 。！？ — dưới 50% là dấu hiệu ASR chấm câu kém, cần xem lại tập đó.
-- **Response thô của AssemblyAI được commit** vào `data/raw/`. Nếu sau muốn karaoke theo từng chữ thì
-  đọc lại từ đó, không phải trả tiền transcribe lần hai.
-- **Thứ tự DOM của `.cue` phải khớp mảng `cues`.** Extension ánh xạ vùng bôi đen về cue theo vị trí
-  DOM, nên bộ lọc "chỉ người kể" ẩn bằng CSS chứ không xoá phần tử.
-- **Đừng dùng `static.storyfm.cn`.** Đo thực tế: 198 KB/s và chặn hotlink bằng Referer ACL (403 với
-  mọi site khác, kể cả khi không gửi Referer). CDN trong RSS nhanh gấp 7 lần và cho CORS.
-- `docs/data/DEMO.json` là fixture giả để thử giao diện, đã bị gitignore.
+- **No LLM re-punctuates the text.** The ASR already punctuates, and letting a model rewrite it
+  would put every timestamp at risk — and the highlight, the loop button and the Anki card all rest
+  on timestamps. `add` reports the share of cues ending in 。！？ instead; under 50% means the ASR
+  barely punctuated and the episode needs a look.
+- **Raw ASR responses are committed** to `data/raw/`, so adding word-level features later never
+  costs a second transcription.
+- **`.cue` DOM order must match the `cues` array.** The extension maps a selection back to a cue by
+  position, which is why the storyteller filter hides cues with CSS instead of removing them.
+- **Do not use `static.storyfm.cn`.** Measured: 198 KB/s, and a referer ACL that 403s every other
+  site, including requests that send no referer. The CDN in the RSS feed is 7× faster and allows
+  CORS.
+- `docs/data/DEMO.json` is a fake transcript for eyeballing the player; it is gitignored.
