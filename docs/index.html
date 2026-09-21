@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>故事FM — nghe có transcript</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="wrap">
+  <h1>故事FM</h1>
+  <p class="meta" id="meta">Đang tải…</p>
+  <div id="list"></div>
+</div>
+
+<script type="module">
+  const formatDuration = (seconds) =>
+    `${Math.floor(seconds / 60)}:${String(Math.round(seconds % 60)).padStart(2, '0')}`;
+
+  const list = document.getElementById('list');
+  const meta = document.getElementById('meta');
+
+  try {
+    const response = await fetch('data/index.json');
+    if (!response.ok) throw new Error(String(response.status));
+    const { episodes } = await response.json();
+
+    meta.textContent = `${episodes.length} tập đã có transcript`;
+    list.replaceChildren(...episodes.map((episode) => {
+      const link = document.createElement('a');
+      link.className = 'episode';
+      link.href = `player.html?ep=${encodeURIComponent(episode.id)}`;
+      link.innerHTML = '<div class="title"></div><div class="sub"></div>';
+      link.querySelector('.title').textContent = episode.title;
+      link.querySelector('.sub').textContent = `${episode.pubDate} · ${formatDuration(episode.duration)}`;
+      return link;
+    }));
+  } catch {
+    meta.textContent = 'Chưa có tập nào. Chạy `storyfm add <mã tập>` rồi tải lại trang.';
+  }
+</script>
+</body>
+</html>

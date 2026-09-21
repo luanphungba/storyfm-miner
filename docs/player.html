@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<!-- The audio CDN is fine with hotlinking, but there is no reason to leak the page URL to it. -->
+<meta name="referrer" content="no-referrer">
+<title>故事FM</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="wrap">
+  <h1 id="title">Đang tải…</h1>
+  <p class="meta" id="meta"></p>
+
+  <div class="toolbar">
+    <button class="chip" id="filter-all" aria-pressed="true">Tất cả</button>
+    <button class="chip" id="filter-storyteller" aria-pressed="false">Chỉ người kể</button>
+    <button class="chip" id="copy" type="button" title="Chép các câu đang hiện, mỗi câu một dòng">Copy text</button>
+    <a class="chip" href="index.html" style="text-decoration:none">← Danh sách</a>
+  </div>
+
+  <div id="cues"></div>
+</div>
+
+<div class="player">
+  <audio id="audio" controls preload="metadata"></audio>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

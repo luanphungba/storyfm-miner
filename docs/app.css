@@ -1,0 +1,167 @@
+:root {
+  color-scheme: light dark;
+  --bg: #fbfaf8;
+  --surface: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #6b7280;
+  --line: #e6e3de;
+  --accent: #c0392b;
+  --accent-soft: #fdf0ee;
+  --narrator: #8b6f3e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16181c;
+    --surface: #1e2126;
+    --fg: #e8eaed;
+    --muted: #9aa2ad;
+    --line: #2c3037;
+    --accent: #ff7a6b;
+    --accent-soft: #2e2320;
+    --narrator: #c2a56b;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+}
+
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-block: 24px 120px;
+  padding-inline: 16px;
+}
+
+a { color: var(--accent); }
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 22px;
+  line-height: 1.35;
+  font-weight: 650;
+}
+
+.meta { margin: 0 0 20px; color: var(--muted); font-size: 14px; }
+
+/* ---------- episode list ---------- */
+
+.episode {
+  display: block;
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: inherit;
+  text-decoration: none;
+}
+
+.episode:hover { border-color: var(--accent); }
+.episode .title { font-size: 16px; line-height: 1.45; }
+.episode .sub { margin-top: 4px; color: var(--muted); font-size: 13px; }
+
+/* ---------- transcript ---------- */
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.chip {
+  padding: 5px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.chip[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.cue {
+  position: relative;
+  display: flex;
+  gap: 12px;
+  padding: 8px 40px 8px 12px;
+  border-radius: 8px;
+  border-left: 2px solid transparent;
+  cursor: pointer;
+  scroll-margin-block: 120px;
+}
+
+.cue:hover { background: var(--surface); }
+
+.cue.is-now {
+  background: var(--accent-soft);
+  border-left-color: var(--accent);
+}
+
+.cue.is-narrator .zh { color: var(--narrator); }
+
+/* Hidden, not removed: the extension maps a selection back to a cue by DOM position. */
+#cues.only-storyteller .cue.is-narrator { display: none; }
+
+.cue .time {
+  flex: none;
+  width: 44px;
+  padding-top: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Chinese needs the extra leading and size to stay readable at a glance while listening. */
+.cue .zh {
+  font-size: 19px;
+  line-height: 1.75;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  user-select: text;
+}
+
+.cue .loop {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+  color: var(--muted);
+  font-size: 15px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.cue:hover .loop, .cue .loop[aria-pressed="true"] { opacity: 1; }
+.cue .loop[aria-pressed="true"] { color: var(--accent); background: var(--surface); }
+
+/* ---------- player ---------- */
+
+.player {
+  position: fixed;
+  inset: auto 0 0 0;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+}
+
+.player audio { display: block; width: 100%; max-width: 720px; margin: 0 auto; }
+
+.note { color: var(--muted); font-size: 14px; }

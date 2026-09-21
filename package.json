@@ -1,0 +1,17 @@
+{
+  "name": "storyfm-miner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Transcribe 故事FM episodes and serve them as a listening page that the CI Chinese extension can mine.",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "storyfm": "bin/storyfm.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "serve": "python3 -m http.server -d docs 8080"
+  }
+}
