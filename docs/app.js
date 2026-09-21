@@ -1,12 +1,12 @@
 // @ts-check
 // The listening page: audio at the bottom, transcript above it, the line being spoken lit up.
 //
-// It also speaks the CI Chinese extension's cue protocol. That extension is site-agnostic — it
-// already drives a bare media element and takes cues over postMessage, which is exactly how it
-// works on bilibili — so answering the same messages here is the whole integration. The .cue/.zh
-// markup is what its site adapter selects on, and it maps a selection back to a cue by DOM
-// position, so the rendered order must always match the cues array. Filtering therefore hides
-// cues with CSS rather than removing them.
+// It also broadcasts its cues over postMessage for a local browser extension that turns a selected
+// word into a flashcard. That extension is site-agnostic — it drives a bare media element and takes
+// cues over this same message shape elsewhere — so answering these messages is the whole
+// integration. It selects on the .cue/.zh markup below and maps a selection back to a cue by DOM
+// position, so the rendered order must always match the cues array. Filtering therefore hides cues
+// with CSS rather than removing them.
 
 const CUE_LANG = 'zh-Hans';
 const CHANNEL = 'ci-timedtext';

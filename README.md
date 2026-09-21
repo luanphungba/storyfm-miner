@@ -1,8 +1,6 @@
 # storyfm-miner
 
-Listen to the Mandarin podcast [故事FM](https://storyfm.cn) with a transcript that follows the audio,
-then select a word to turn it into an Anki card with the
-[CI Chinese](../youtube-chinese-miner) browser extension.
+Listen to the Mandarin podcast [故事FM](https://storyfm.cn) with a transcript that follows the audio.
 
 > **Personal use only.** A private study tool for learning Mandarin. It stores transcripts I
 > generate for my own listening practice and hosts no audio — playback streams from the publisher's
@@ -41,7 +39,6 @@ RSS (data/feed.xml)
                           └─ words[] ──► segment.js ──► roles.js ──► docs/data/E077.json
                                                                         │
                             docs/player.html ◄───────────────────────────┘
-                                 └─ postMessage cues ──► CI Chinese extension ──► Anki
 ```
 
 | | |
@@ -61,8 +58,8 @@ RSS (data/feed.xml)
   barely punctuated and the episode needs a look.
 - **Raw ASR responses are committed** to `data/raw/`, so adding word-level features later never
   costs a second transcription.
-- **`.cue` DOM order must match the `cues` array.** The extension maps a selection back to a cue by
-  position, which is why the storyteller filter hides cues with CSS instead of removing them.
+- **`.cue` DOM order must match the `cues` array.** A text selection is mapped back to a cue by DOM
+  position, so the storyteller filter hides cues with CSS rather than removing them.
 - **Do not use `static.storyfm.cn`.** Measured: 198 KB/s, and a referer ACL that 403s every other
   site, including requests that send no referer. The CDN in the RSS feed is 7× faster and allows
   CORS.
