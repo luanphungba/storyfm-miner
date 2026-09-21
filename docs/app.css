@@ -152,6 +152,11 @@ h1 {
 .cue:hover .loop, .cue .loop[aria-pressed="true"] { opacity: 1; }
 .cue .loop[aria-pressed="true"] { color: var(--accent); background: var(--surface); }
 
+/* The browser extension appends a loop button of its own inside .zh, and its version pads the end
+   of the sentence and answers the R key. Two buttons doing one job is worse than either, so when
+   its button shows up, this one steps aside. */
+.cue .zh:has(.ci-loop) ~ .loop { display: none; }
+
 /* ---------- player ---------- */
 
 .player {
