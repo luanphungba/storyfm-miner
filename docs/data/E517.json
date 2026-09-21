@@ -1,0 +1,3245 @@
+{
+  "id": "E517",
+  "title": "E517.我是三本学生：社会不是「看不起」我，是「看不见」我",
+  "guid": "50a67490-2e96-4059-855f-59e5991efaec",
+  "pubDate": "2021-06-25",
+  "duration": 2294,
+  "audio": {
+    "mp3": "https://tk.wavpub.com/WPDL_CUhmghMvQURjrYQREHnxfmHCgEFWEyhrpqBdXfGbvmMVgXqJmVVfZxgrwx-84.mp3"
+  },
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "start": 0,
+      "end": 11.37,
+      "text": "你好，欢迎收听故事F M，我是艾哲，一个收集故事的人。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 1,
+      "start": 11.44,
+      "end": 14.08,
+      "text": "在这里，我们用你的声音讲述你的故事。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 2,
+      "start": 14.08,
+      "end": 16.09,
+      "text": "每周一、三、五，咱们不见不散。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 3,
+      "start": 19.38,
+      "end": 25.86,
+      "text": "这两天各地的高考分数线公布了，网络上铺天盖地的都是分享着高分考生的喜悦，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 4,
+      "start": 25.86,
+      "end": 29.62,
+      "text": "却很少有人能关注到那些刚刚达到本科线的考生。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 5,
+      "start": 29.62,
+      "end": 29.98,
+      "text": "如果你是多年以前参加高，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "start": 31.9,
+      "end": 39.74,
+      "text": "考的话可能会注意到，全国绝大多数省市已经取消了本科第三批次的招生，把它和二本合并。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 7,
+      "start": 39.74,
+      "end": 44.25,
+      "text": "也就是说，我们俗称的三本已经基本退出了高考的历史舞台。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 8,
+      "start": 44.78,
+      "end": 50.78,
+      "text": "在很长的一段时间里，三本学生作为本科生笔试链的底端，遭受着各种尴尬、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 9,
+      "start": 50.78,
+      "end": 52.55,
+      "text": "污名和不公平的待遇。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 10,
+      "start": 53.06,
+      "end": 58.08,
+      "text": "三本虽然已经取消了，但曾经的三本学生并没有因此摆脱这个标签。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 11,
+      "start": 58.44,
+      "end": 61.88,
+      "text": "这些学生比任何人都能体会，那一场考试的影响将继续伴随着他们。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 12,
+      "start": 70.62,
+      "end": 74.06,
+      "text": "我叫小高，我今年二十五岁。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 13,
+      "start": 74.06,
+      "end": 76.52,
+      "text": "我目前在非洲工作。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 14,
+      "start": 76.52,
+      "end": 79.45,
+      "text": "呃，我是一所三本院校毕业的学生。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 15,
+      "start": 79.98,
+      "end": 85.9,
+      "text": "我高三还是蛮努力的，就是年级前二十左右，状态也挺好的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "start": 85.9,
+      "end": 90.94,
+      "text": "而且我自认为我自己有一所目标院校，就是北京外国语大学。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "start": 91.71,
+      "end": 99.22,
+      "text": "二零一四年，小高参加了传说中的江苏高考，在平安闯过了语文和数学两道难关之后，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 18,
+      "start": 99.22,
+      "end": 102.62,
+      "text": "小高以为后面自己拿手的英语应该十拿九稳了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 19,
+      "start": 102.98,
+      "end": 108.38,
+      "text": "可偏偏那一天发生了一个非常致命的意外情况，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 20,
+      "start": 108.38,
+      "end": 110.68,
+      "text": "就怕什么来什么。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "start": 110.68,
+      "end": 117.4,
+      "text": "当时坐在我后面的一个男生，他在听听力的过程中不断的用。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "start": 117.65,
+      "end": 121.77,
+      "text": "身份证敲那个桌子，声音非常小。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "start": 121.77,
+      "end": 128.21,
+      "text": "但是作为他前桌的一个考生的话，其实听得非常清楚的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "start": 128.21,
+      "end": 134.59,
+      "text": "但这种清楚不足以让我听不到老师放的听力的录音。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "start": 134.59,
+      "end": 139.29,
+      "text": "其实我只要专心，其实我还是能听得很清晰的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "start": 139.29,
+      "end": 143.47,
+      "text": "但是我的心绪就被他打扰到了，我就。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "start": 143.63,
+      "end": 148.32,
+      "text": "一边怕自己听不见，就一边又听不进去那种状态。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "start": 149.25,
+      "end": 158.13,
+      "text": "最后基本上我记得好像是二十道听力吧，我基本上都是懵的，就完全是一个失智的状态。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "start": 160.49,
+      "end": 166.93,
+      "text": "因为我们家当时开了一个小饭店，我其实自己知道自己考的不是很好了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "start": 166.97,
+      "end": 171.15,
+      "text": "但是我觉得最起码有个二本读吧，结果。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "start": 171.35,
+      "end": 177.19,
+      "text": "最后连二本线都没有上，然后当时我就完全就崩溃了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "start": 177.19,
+      "end": 184.53,
+      "text": "然后因为我们家还有客人，然后就是大哭，就完全克制不了自己那种哭。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "start": 184.53,
+      "end": 191.21,
+      "text": "然后我爸就说：“嗯，不要哭，还有人在吃饭，你让别人看到像什么样子？”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "start": 191.21,
+      "end": 193.51,
+      "text": "我就哭的不行了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "start": 193.51,
+      "end": 197.79,
+      "text": "当时我爸也知道那那个我考试的结果，但是他就是很平静。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "start": 197.9,
+      "end": 204.26,
+      "text": "因为我爸是个残疾人，他就拿那个拐倒了我两下，然后我就觉得我整个人都受不了了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "start": 205.14,
+      "end": 211.74,
+      "text": "其实我没有考虑到三本的问题，就是我在高考之前我都没有想过自己会去三本，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "start": 211.74,
+      "end": 215.23,
+      "text": "我完全没有没有去关注这一方面。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "start": 215.8,
+      "end": 223.08,
+      "text": "然后那个时候我就从，因为我爸那个钱包就在桌子上嘛，我从我爸钱包里拿了一沓钱。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "start": 223.43,
+      "end": 231.57,
+      "text": "全是一百的，我就要离家出走，因为本来心里就很委屈，然后再加上他在那个情况下吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "start": 231.57,
+      "end": 238.21,
+      "text": "他打了我两下，我就更那个委屈那个劲儿就更上来了，然后我就就跑掉了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "start": 238.21,
+      "end": 245.25,
+      "text": "然后我妈就在后面追我，大哥打了好几天电话让我回家，我都没有回，很搞笑。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "start": 245.25,
+      "end": 248.07,
+      "text": "到了徐州火车站，我想我要去哪？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "start": 248.07,
+      "end": 251.83,
+      "text": "我也不知道我要去哪，但是我就是很难去面对这个事情。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "start": 254.69,
+      "end": 263.52,
+      "text": "其实当时是在填报志愿的时候，就是大家会说是复读还是说报一个三本。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "start": 263.52,
+      "end": 268.32,
+      "text": "家里人嘛就说女孩子可能早一点毕业好一些。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "start": 268.39,
+      "end": 274.72,
+      "text": "之前我感觉大家对我就抱有蛮大期待的，但是就当时报志愿的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "start": 274.72,
+      "end": 278.1,
+      "text": "家里人是一种安慰的心态跟我说说。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "start": 278.73,
+      "end": 281.5,
+      "text": "嗯，考上三本其实也没有什么的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "start": 281.5,
+      "end": 289.36,
+      "text": "读三本以后可能进场也不错，那一下子就把我拉到了一个我我从来没有幻想过的世界，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "start": 289.36,
+      "end": 290.72,
+      "text": "我从来没有接触的世界。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "start": 290.72,
+      "end": 298.85,
+      "text": "我我以前一直想做一个哎外交官，天天理想的那种女性形象就是就是吴怡那种形象，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "start": 299.1,
+      "end": 306.52,
+      "text": "然后就一下子被拉到现实，就是流水线，就这种词就在我面前就浮现了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "start": 306.71,
+      "end": 310.17,
+      "text": "一下子就是整个人生都反转了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "start": 311.57,
+      "end": 315.71,
+      "text": "小高最后选择去了省内一所二幺幺大学下属的独立学院，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 56,
+      "start": 315.71,
+      "end": 319.1,
+      "text": "还阴差阳错的进了自己高考考砸的英语系。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 57,
+      "start": 320.19,
+      "end": 327.66,
+      "text": "我之前对三本的了解就是，三本就是混个文凭嘛，就是拿高价的学费买一个文凭嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "start": 327.95,
+      "end": 331.93,
+      "text": "当我进去之后，其实并不是这样的，进三本的学生。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "start": 332.53,
+      "end": 341.72,
+      "text": "有钱的很少，其实都是家里，就我们学校而言，家里都是情况不是很好的，可能农村来的偏多一些。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "start": 341.9,
+      "end": 345.4,
+      "text": "大家会很默契的避开高考的话题，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "start": 345.4,
+      "end": 352.8,
+      "text": "其实大家都是带着很大的挫败和感和愧疚感来到这所学校的，很明显能感受到那种气场。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "start": 353.44,
+      "end": 360.08,
+      "text": "我们的老师既带二幺幺也带我们，他上课总喜欢说二幺幺的学生和我们就是不一样。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "start": 360.38,
+      "end": 367.33,
+      "text": "就是这种打压式，不是说在你学习方面，它是渗透在你的生活的方方面面。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "start": 367.64,
+      "end": 375.54,
+      "text": "确实，老师上课的时候，他可能会觉得这些学生本来就不咋地，然后以后也不会有什么大的成就。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "start": 375.54,
+      "end": 383.34,
+      "text": "他们反正上课也不好好听，就他预设了我们是这样一群人的话，他自己的教学态度也不会太端正。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "start": 384.34,
+      "end": 387.64,
+      "text": "大一进了学校之后，我变得不合群了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "start": 387.89,
+      "end": 394.56,
+      "text": "其实我自己都意识不到我的转变，我开始把自己缩在一个角落里。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "start": 394.59,
+      "end": 404.08,
+      "text": "图书馆我也喜欢坐在那种靠墙角的位置，就是可能潜意识里就会往往后缩，往人少的地方缩。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "start": 405.23,
+      "end": 414.47,
+      "text": "我基本上和人没有什么沟通，然后慢慢和大家有一些疏远，然后大家就开始都孤立我。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "start": 414.64,
+      "end": 421.08,
+      "text": "我记得当时他们为了不让我进宿舍，还换了宿舍的锁。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "start": 421.52,
+      "end": 430.86,
+      "text": "就是我那种觉得自己不属于这个环境的那种状态和心态，可能会让别人觉得我自视甚高。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "start": 431.7,
+      "end": 436.92,
+      "text": "我大一商学习考的是专业第二名。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "start": 436.92,
+      "end": 442.84,
+      "text": "我记得当时在寝室，我也没有说我的成绩，有发到那个群里嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "start": 443.29,
+      "end": 447.38,
+      "text": "就室友会说：“哎，其实有什么啊？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "start": 447.38,
+      "end": 449.38,
+      "text": "就在在这个学校，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "start": 449.38,
+      "end": 451.1,
+      "text": "就考什么样都一样。”",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 77,
+      "start": 451.1,
+      "end": 455.99,
+      "text": "在现实生活中受到冷遇的小高开始在网络上寻找同伴。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 78,
+      "start": 456.08,
+      "end": 462.49,
+      "text": "他当时很喜欢逛知乎论坛，回答一些有关英语翻译的问题，也意外的收到了一些人的关注。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 79,
+      "start": 463.29,
+      "end": 470,
+      "text": "当然，知乎作为一个总是被外界揶揄为人均九八五的知识分享社区，经常让小高倍感压力。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 80,
+      "start": 473.5,
+      "end": 480.42,
+      "text": "我看知乎特别压抑，就是感觉知乎上有好多问题，就是我我现在还能记得几个，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "start": 480.72,
+      "end": 484.86,
+      "text": "就是三本学生为什么居然会强调G PA？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "start": 484.87,
+      "end": 489.31,
+      "text": "不是一本的学生为什么要说自己是双非学校的？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "start": 489.62,
+      "end": 491.74,
+      "text": "三本和大专有什么区别？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "start": 492.08,
+      "end": 495.96,
+      "text": "三本的学生为什么不学习，天天吃喝玩乐？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "start": 496.02,
+      "end": 498.2,
+      "text": "就这种问题看得我很有压迫感。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 86,
+      "start": 498.26,
+      "end": 503.31,
+      "text": "我看完这种问题之后，我会看那种三本学生如何逆袭。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 87,
+      "start": 503.76,
+      "end": 509.3,
+      "text": "呃，有一个特别当时特别火的一个live，就是从三本到牛津，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "start": 509.3,
+      "end": 513.01,
+      "text": "就会看这种帖子再去安慰自己一下，给自己找个平衡。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 89,
+      "start": 514,
+      "end": 524.43,
+      "text": "然后就在知乎上认识了我的第一个男朋友，他是那种非常优秀、非常顶尖大学的高材生，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 90,
+      "start": 524.46,
+      "end": 528.24,
+      "text": "就是我从小就对特别聪明的男孩子特别有好感。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 91,
+      "start": 528.92,
+      "end": 533.29,
+      "text": "但是上大学之后，这种感觉就尤为强烈。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 92,
+      "start": 533.82,
+      "end": 546.8,
+      "text": "我们一开始会聊一些比较宏大的命题，然后我也想借此来展现我事实上的和他的亲密感。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "start": 547.76,
+      "end": 554.57,
+      "text": "慢慢的，在我一步一步的引导下，在我的那个城市雨下特别大的一个晚上。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 94,
+      "start": 554.96,
+      "end": 559.63,
+      "text": "然后那个时候我们就打了一通语音，他就跟我表白了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 95,
+      "start": 561.12,
+      "end": 571.96,
+      "text": "我当时并没有直接的接受他，就有跟他确认我的学校其实是一所不是很好的学校，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 96,
+      "start": 571.96,
+      "end": 580.55,
+      "text": "大概就是旁敲侧击的有让他再仔细思考一下，但是他当时就是很笃定的跟我说。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 97,
+      "start": 580.99,
+      "end": 583.69,
+      "text": "他喜欢我，他说这些都不重要。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 98,
+      "start": 584.65,
+      "end": 591.05,
+      "text": "当时我就带着那么一点点小小的自卑和怯懦，就和他在一起了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 99,
+      "start": 591.79,
+      "end": 596.87,
+      "text": "其实我还是相对敏感和自尊心比较强的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 100,
+      "start": 596.87,
+      "end": 603.8,
+      "text": "他是一个比较木讷的人，但是我还是能感受到他有小心翼翼的在维护我的自尊心。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 101,
+      "start": 607.01,
+      "end": 614.96,
+      "text": "我记得和我第一次去他们学校看他的时候，我知道他的同学都在实验室，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 102,
+      "start": 615.2,
+      "end": 623.52,
+      "text": "然后我就买了呃人数相当的奶茶，嗯，吭哧吭哧上了二楼，然后进去之后就给大家问好嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 103,
+      "start": 623.52,
+      "end": 631.23,
+      "text": "大家就打趣的让他介绍我，他就介绍我是一所二幺幺大学的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 104,
+      "start": 631.67,
+      "end": 642.15,
+      "text": "学生，我到现在还不知道他是出于他的面子考虑，还是想维护我的自尊心。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 105,
+      "start": 642.21,
+      "end": 647.11,
+      "text": "嗯，但是我当时那种心里那种失落感是很强的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 106,
+      "start": 647.11,
+      "end": 657.63,
+      "text": "虽然说我还是笑着跟他们打招呼，因为他。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 107,
+      "start": 657.83,
+      "end": 666.74,
+      "text": "要做实验嘛，当时，呃，我就自己去学校里面溜达，嗯，溜达看学校哪哪都特别好。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 108,
+      "start": 667.03,
+      "end": 674.57,
+      "text": "我自己在学校里散步的时候，我是有一种很强烈的那种异乡人的感觉。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 109,
+      "start": 675.11,
+      "end": 683.07,
+      "text": "食堂也好，然后他们学校有一个特别大的，大概是艺术馆吧，当时还放《暗恋桃花源》。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 110,
+      "start": 683.36,
+      "end": 689.58,
+      "text": "然后有一个比较大的小树林，还有好多那种黑色的天鹅。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 111,
+      "start": 689.58,
+      "end": 698.94,
+      "text": "就中午去吃饭，看到学生那种面貌，包括走在学校校园里那种面貌，就觉得真自信、真好。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 112,
+      "start": 698.94,
+      "end": 708.72,
+      "text": "会想自己如果能在这样一所大学学习的话，可能自己的未来可能会有无限种可能。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 113,
+      "start": 708.89,
+      "end": 719.42,
+      "text": "我会在心里假装一下自己就是这个学校的学生，然后去感受一下，越感受越觉得悲凉。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 114,
+      "start": 719.85,
+      "end": 725.86,
+      "text": "他毕业的时候，他也来我的城市看过我，但是我没有带他去我的学校。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 115,
+      "start": 726.21,
+      "end": 734.79,
+      "text": "我的学校大概就高中这么大，就是特别像八九十年代那种感觉的校舍。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 116,
+      "start": 737.02,
+      "end": 745.87,
+      "text": "其实我们最后分手的原因之一吧，就是当时他是在深圳，他就跟我说让我去他那里。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 117,
+      "start": 745.87,
+      "end": 750.03,
+      "text": "我说我在深圳找不到什么好工作的，我还想考个研。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 118,
+      "start": 750.07,
+      "end": 756.3,
+      "text": "他说没关系啊，就是我能挣钱，然后你在家里把家照顾好就行。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 119,
+      "start": 756.63,
+      "end": 760.23,
+      "text": "他没有任何恶意，但是他已经给我做了这么一种定位了，就是。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 120,
+      "start": 760.61,
+      "end": 768.8,
+      "text": "我赚的肯定不如他多，或者说我事业上的成就肯定不如他，那么就是两个人的分工就比较明确了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 121,
+      "start": 769.63,
+      "end": 778.15,
+      "text": "我心里想着我还有还可以打一个翻身仗，但是其实，在他眼里，我的未来是非常确定的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 122,
+      "start": 778.19,
+      "end": 784.8,
+      "text": "他会把自己的未来看得很重要，而我的未来是附着于他的未来之上的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 123,
+      "start": 785.37,
+      "end": 787,
+      "text": "我以前就老觉得。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 124,
+      "start": 787.61,
+      "end": 795.49,
+      "text": "像我前男友那种学校的学生，特别看不起我们这种三本生。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 125,
+      "start": 795.49,
+      "end": 800.85,
+      "text": "后来我发现不是这样的，他们根本就看不见我们。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 126,
+      "start": 804.5,
+      "end": 811.39,
+      "text": "小高一直非常介意让父母来支付他的学费，所以自从进校开始，他就不停的打工找实习，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 127,
+      "start": 811.49,
+      "end": 813.05,
+      "text": "没有再找家里要过一分钱。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 128,
+      "start": 813.37,
+      "end": 818.82,
+      "text": "同时，为了能给自己的人生多一份保险，在重新规划了就业方向之后，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 129,
+      "start": 818.82,
+      "end": 823.63,
+      "text": "小高在大一的下学期又以第一名的成绩转系去学了会计。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 130,
+      "start": 825.04,
+      "end": 836.82,
+      "text": "当时有一个机会去一个呃外企单位实习，因为当时的同事怀孕了要休产假，所以说实习要全勤。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 131,
+      "start": 836.82,
+      "end": 841.06,
+      "text": "那个时候我还没有绩点的概念，就是觉得。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 132,
+      "start": 841.28,
+      "end": 843.7,
+      "text": "无所谓嘛，反正已经三本了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 133,
+      "start": 844.18,
+      "end": 847.6,
+      "text": "当时我就跟老师说，老师不同意。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 134,
+      "start": 847.77,
+      "end": 855.18,
+      "text": "那他说：“那这样的话不公平的，同学们都在上课，和你嗯一学期都不来给的分数一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 135,
+      "start": 855.18,
+      "end": 856.14,
+      "text": "那不公平的。”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 136,
+      "start": 856.14,
+      "end": 864.37,
+      "text": "后来就是呃初勤的分只有及格的分，那就能不能过就看考试了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 137,
+      "start": 864.58,
+      "end": 867.58,
+      "text": "嗯，我记得我当时特别努力。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "start": 867.81,
+      "end": 873.59,
+      "text": "因为会计专业要考会计证嘛，我当时已经比别人晚了一年。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "start": 873.59,
+      "end": 883.62,
+      "text": "因为实习的地点离学校非常远，我早上就坐学那个公司的班车，我要五点多就要起床。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "start": 883.71,
+      "end": 892.89,
+      "text": "然后那个时候我上车就开始用手机去刷那种会计的题库，然后刷到我上班。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "start": 892.89,
+      "end": 895.07,
+      "text": "那时候同事都叫我睡神。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "start": 895.54,
+      "end": 897.75,
+      "text": "我们中午是不休息的，然后下午是四点半下班。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 143,
+      "start": 899.57,
+      "end": 902.73,
+      "text": "哦，我上了我们班车就会睡觉。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 144,
+      "start": 902.73,
+      "end": 908.37,
+      "text": "路上不堵的时候，可能五点半就到学校，可能还有半节课，我就会去听课。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 145,
+      "start": 909.31,
+      "end": 920.05,
+      "text": "那个时候挺努力的，在这之前我也一直做驾校招生，嗯，在食堂给同学打饭，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 146,
+      "start": 920.05,
+      "end": 924.32,
+      "text": "反正只要能赚钱的不违法的情况下，我都会去做。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 147,
+      "start": 924.97,
+      "end": 929.55,
+      "text": "我当时非常想证明自己，好的时候一个月收入能达到。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "start": 931.47,
+      "end": 932.77,
+      "text": "一万多。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 149,
+      "start": 933.83,
+      "end": 939.6,
+      "text": "为了弥补三本学生这个身份带来的劣势，小高真的可以说是把技能武装到了脚趾。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 150,
+      "start": 939.93,
+      "end": 947.1,
+      "text": "大学期间，他考下了各种含金量非常高的资质和证书，只求能让H R在他的简历上多停留一秒。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 151,
+      "start": 947.51,
+      "end": 950.85,
+      "text": "但经历了校招之后，他认识到现实没有那么简单。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 152,
+      "start": 952.97,
+      "end": 956.97,
+      "text": "我的简历一直都还挺好看的，我记得。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 153,
+      "start": 957.21,
+      "end": 966.9,
+      "text": "当时校招的时候，有一家上海的国企是在学校进行初试，就是大家学历都很好，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 154,
+      "start": 967.23,
+      "end": 974.17,
+      "text": "只有我一个三本院校的通过了第一轮的面试，进入到了第二轮。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 155,
+      "start": 974.39,
+      "end": 983.43,
+      "text": "那个时候我又又我有一种很错综复杂的感觉，就是又自卑又有一点点小小的骄傲那种感觉，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 156,
+      "start": 983.43,
+      "end": 986.37,
+      "text": "就是哎，我是这里面最差的骄傲就是看。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 157,
+      "start": 986.64,
+      "end": 992.03,
+      "text": "我也站到了和你们一样的位置，当然最后的结果就是我还是被刷了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "start": 993.34,
+      "end": 1002.1,
+      "text": "这四年对我来说是比较魔幻的，我会在两种不同的认知当中把自己反复的拉扯。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 159,
+      "start": 1002.18,
+      "end": 1012,
+      "text": "我一方面觉得自己很厉害，但是一旦被拉到现实生活中，就会觉得唉，自己也就那个样子。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 160,
+      "start": 1013.11,
+      "end": 1022.41,
+      "text": "当时校招的时候，我自己还跑到，因为我们来校招企业都不是很好嘛，我自己还跑到上海去应聘。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 161,
+      "start": 1023.01,
+      "end": 1033.63,
+      "text": "虚荣心也比较强吧，就我没有写我的本科院校的学院，我写的是某某大学什么什么校区，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 162,
+      "start": 1033.87,
+      "end": 1040.85,
+      "text": "就是想打一个擦边球，就会有H R问到说：“哎，这个校区是什么？”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 163,
+      "start": 1041.27,
+      "end": 1047.33,
+      "text": "然后他们如果问到，我就会说：“啊，这实际上是一所就是独立院校。”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 164,
+      "start": 1047.33,
+      "end": 1049.77,
+      "text": "那他们就会哦一声。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 165,
+      "start": 1049.77,
+      "end": 1055.37,
+      "text": "其实我知道，就自己这次面试已经结束了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 166,
+      "start": 1056.79,
+      "end": 1064.75,
+      "text": "这几年吧，一直在寻找外界对我的认可，但是很难找到。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 167,
+      "start": 1065.15,
+      "end": 1069.37,
+      "text": "呃，有人跟我给我说，我经常会给人一种错觉，就是。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 168,
+      "start": 1069.86,
+      "end": 1078.8,
+      "text": "我是一所很好的大学毕业的，就这个话会让我觉得又可悲，又又会有点小自豪，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 169,
+      "start": 1078.8,
+      "end": 1081.75,
+      "text": "就是看我脱离了那个群体。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "start": 1082.42,
+      "end": 1094.35,
+      "text": "但是可悲就在于我已经没机会了，我已经被定在了这个本科院校是三本的这个很大一号的储柱上。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 171,
+      "start": 1105.52,
+      "end": 1111.9,
+      "text": "二零一八年大学毕业的时候，小高手上已经拿到几份不错的off er，但他想多赚点钱，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 172,
+      "start": 1112.01,
+      "end": 1115.16,
+      "text": "也是因为好奇心决定前往非洲工作。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 173,
+      "start": 1115.73,
+      "end": 1121.93,
+      "text": "小高说自己曾经的梦想是当一名外交官，现在每天在非洲和国际化的团队合作。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 174,
+      "start": 1121.94,
+      "end": 1127.86,
+      "text": "也不算离自己的梦想太远，而人生充满戏剧性的导致他高考失利的英语，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 175,
+      "start": 1127.86,
+      "end": 1133.31,
+      "text": "后来反而成了他脱颖而出的能力，一直在帮助他往更广阔的地方前行。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 176,
+      "start": 1133.92,
+      "end": 1139.74,
+      "text": "如今，小高已经在非洲工作了三年，赚足了明年前往海外攻读研究生的钱。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 177,
+      "start": 1139.86,
+      "end": 1142.49,
+      "text": "小高的第二人生可能才刚刚开始。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 178,
+      "start": 1143.88,
+      "end": 1147.48,
+      "text": "第二个故事，为了保护讲述人的隐私，我们做了变声处理。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 179,
+      "start": 1148.91,
+      "end": 1152.79,
+      "text": "嗯，我叫哈哈，我是一个北京人。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 180,
+      "start": 1153.16,
+      "end": 1158.32,
+      "text": "北京这边的环境确实没有那么的压抑和那个啥嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 181,
+      "start": 1158.32,
+      "end": 1162.42,
+      "text": "然后另外就是我可能就是心比较大嘛，还是怎？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 182,
+      "start": 1162.42,
+      "end": 1163.22,
+      "text": "我是哪一种？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 183,
+      "start": 1163.22,
+      "end": 1167.27,
+      "text": "就是我我其实上学时候也没谈恋爱什么的，但是我就是学习不好。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 184,
+      "start": 1167.72,
+      "end": 1168.46,
+      "text": "你说我干啥了？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 185,
+      "start": 1168.46,
+      "end": 1173.44,
+      "text": "我也没干啥，我也不像人家有的时候因为什么早恋啊，因为什么玩游戏啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 186,
+      "start": 1173.44,
+      "end": 1175.36,
+      "text": "乱七八糟那些我也没有，但我就是。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 187,
+      "start": 1175.88,
+      "end": 1181.4,
+      "text": "我觉得我好像就是不精于学习这这个领域，就是一本啊什么的是不可能的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 188,
+      "start": 1181.4,
+      "end": 1183.99,
+      "text": "当时我们的计划就是说保二嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 189,
+      "start": 1184.94,
+      "end": 1191.1,
+      "text": "哈哈是二零零七年参加的高考，那个时候北京实行的高考政策是考前先报志愿，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 190,
+      "start": 1191.3,
+      "end": 1198.19,
+      "text": "这种报志愿的方法也算是时代的眼泪了，每年都会造成很多高分的考生因为保守的心理而落榜。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 191,
+      "start": 1198.65,
+      "end": 1201.38,
+      "text": "当然，这种风险和哈哈是没有什么关系的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 192,
+      "start": 1202.23,
+      "end": 1208.25,
+      "text": "其实我说真的，我们家填志愿还真没说别人家就是抱着那大本儿，就是怒翻，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 193,
+      "start": 1208.25,
+      "end": 1209.51,
+      "text": "然后什么你上这个上那个。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 194,
+      "start": 1209.51,
+      "end": 1213.35,
+      "text": "因为我的分数，其实他们也都知道，好多都考虑不了，你知道？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 195,
+      "start": 1213.35,
+      "end": 1216.25,
+      "text": "那本儿可能百分之八十都淘汰了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 196,
+      "start": 1216.59,
+      "end": 1223.67,
+      "text": "因为我爸有朋友在一个嗯大学里，然后家长的意思就是说想让我第一志愿填那个，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 197,
+      "start": 1223.67,
+      "end": 1226.9,
+      "text": "因为如果分数低一点的话，就是也可以上。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 198,
+      "start": 1227.47,
+      "end": 1230.03,
+      "text": "呃，所以我当时第一志愿填的就是那个学校。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 199,
+      "start": 1230.2,
+      "end": 1235.04,
+      "text": "但是因为那学校不是在北京，就是我妈是一个特别拧巴的人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 200,
+      "start": 1235.24,
+      "end": 1240.22,
+      "text": "就是她一方面会希望啊你赶紧离我远远的，然后就是当这件事可能真的要发生的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 201,
+      "start": 1240.22,
+      "end": 1243.93,
+      "text": "她又会特别舍不得，就是会跟我闹别扭或者什么的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 202,
+      "start": 1243.96,
+      "end": 1246,
+      "text": "所以后来我觉得就算了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 203,
+      "start": 1246,
+      "end": 1252.44,
+      "text": "我实际上最后上的这个学校呢，是其实就是一个我兜底的，就是瞎填的一个学校，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 204,
+      "start": 1252.44,
+      "end": 1257.77,
+      "text": "因为就是即便我对那个高考这件事没有特别大的那种。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 205,
+      "start": 1257.87,
+      "end": 1261.71,
+      "text": "对野心，但是同学之间也会开玩笑嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 206,
+      "start": 1261.87,
+      "end": 1267.65,
+      "text": "就是因为这学校在北京的那个学校里算是一个怎么说也是比较有名儿，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 207,
+      "start": 1267.65,
+      "end": 1272.07,
+      "text": "但是不是特别好的那种名儿的学校嘛，叫北京成人学院啊，就是海跑嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 208,
+      "start": 1272.07,
+      "end": 1279.71,
+      "text": "就是因为它是跑读嘛，然后我们就都说你他住不了校，你每天上学还得回家嘛，是这样。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 209,
+      "start": 1279.71,
+      "end": 1284.39,
+      "text": "就是刚好那两天特别热，然后尤其是第二天下午，我记得考英语的时候。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 210,
+      "start": 1284.72,
+      "end": 1288.6,
+      "text": "我以为那个学校，因为实习学校在北京是一个挺不错的学校。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 211,
+      "start": 1288.92,
+      "end": 1290.75,
+      "text": "对我以为它是有空调的，结果它没有空调。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 212,
+      "start": 1291.1,
+      "end": 1295.61,
+      "text": "然后我我记忆里我不知道是不是真的了啊，因为现在已经很久过去了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 213,
+      "start": 1295.76,
+      "end": 1302.04,
+      "text": "我感觉我那天其实有点中暑，而且我那天考完英语之后，我出来我觉得特别好考的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 214,
+      "start": 1302.04,
+      "end": 1303.77,
+      "text": "结果英语分才得九十多。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 215,
+      "start": 1304.12,
+      "end": 1307.81,
+      "text": "就是我我正常发挥的话，英语一至少都得在一百一以上。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 216,
+      "start": 1308.04,
+      "end": 1309.72,
+      "text": "但是我当时考试我觉得特好。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 217,
+      "start": 1310.49,
+      "end": 1316.05,
+      "text": "就是我一直很担心查分，而且查分那天其实我根本就没查，就是打电话查分。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 218,
+      "start": 1316.05,
+      "end": 1321.17,
+      "text": "我们当时是是我妈打的，我就是很难面对那个那个未知的结果。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 219,
+      "start": 1321.35,
+      "end": 1326.25,
+      "text": "所以查完了之后，嗯，确实也比预想的要低了一点儿。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 220,
+      "start": 1326.27,
+      "end": 1330.87,
+      "text": "就是我实际分数是比二本线低了应该是七分呗。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 221,
+      "start": 1331.71,
+      "end": 1336.22,
+      "text": "报的那个肯定是没戏了嘛，就是第一志愿那个，我妈又不愿意让我去，因为离家太远。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 222,
+      "start": 1336.38,
+      "end": 1342.54,
+      "text": "当时想的就是说，呃，因为不是有补录嘛，所以想的就是看看补录有什么学校，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 223,
+      "start": 1342.54,
+      "end": 1345.1,
+      "text": "然后去再重新报一个。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 224,
+      "start": 1345.76,
+      "end": 1352.5,
+      "text": "结果补录，嗯，我都选好学校，都提交系统了，才发现我就是我的档案已经被调走了，我都傻了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 225,
+      "start": 1352.7,
+      "end": 1363.29,
+      "text": "然后一查，就是海报已经把我给录了，可能是我人生中最灰暗的一段时间。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 226,
+      "start": 1363.5,
+      "end": 1370.33,
+      "text": "早上起来之后，然后就躲在那个自己床下边，因为我那个床是上边是床，下边书桌的那种。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 227,
+      "start": 1370.48,
+      "end": 1376.37,
+      "text": "对，然后我都躲在那桌子下边，因为那是我们家唯一一个我能找到三面能把我环住的一个地方。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 228,
+      "start": 1376.68,
+      "end": 1379.47,
+      "text": "对，我会觉得那个地方非常安全，而且特别黑。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 229,
+      "start": 1380.22,
+      "end": 1382.98,
+      "text": "然后我妈如果说我的话，我可能就会哭。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 230,
+      "start": 1382.98,
+      "end": 1385.2,
+      "text": "对，就是那段时间反正每天都是那样。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 231,
+      "start": 1386.54,
+      "end": 1391.76,
+      "text": "我妈她不会因为就只因为这个成绩的原因跟我生气，但是她会从你。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 232,
+      "start": 1392.35,
+      "end": 1397.14,
+      "text": "别的就是方方面面，三百六十度给你找一些事儿来说你。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 233,
+      "start": 1397.64,
+      "end": 1405.06,
+      "text": "然后有一次我我记得我跟我妈闹得最厉害的一次就是，我后来就是就是大吵嘛，我们俩先是，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 234,
+      "start": 1405.06,
+      "end": 1411.14,
+      "text": "然后吵完了之后，我就自己躲到那个厕所里，然后拿了一个本儿，拿了一支笔，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 235,
+      "start": 1411.18,
+      "end": 1418,
+      "text": "就在厕所里一边哭一边写我所有的缺点，对非常强烈的否定，就会觉得自己。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 236,
+      "start": 1418.27,
+      "end": 1424.64,
+      "text": "什么都做不好，然后有很多缺点，然后因为要上这个学校也会就是花钱更多嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 237,
+      "start": 1424.64,
+      "end": 1428.48,
+      "text": "就是人家其他同学可能一年就三四千那样，但是我这个就是一万多，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 238,
+      "start": 1428.48,
+      "end": 1431.44,
+      "text": "而且当时我们家的经济情况并不是特别的好。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 239,
+      "start": 1431.44,
+      "end": 1435.84,
+      "text": "我觉得那真的是我人生特别崩溃的一刻，因为我这个人记性不好，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 240,
+      "start": 1436.36,
+      "end": 1439.86,
+      "text": "就是好多事儿过去就过去了，但是这件事一直深深的在我脑子里。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 241,
+      "start": 1440.06,
+      "end": 1443.99,
+      "text": "对我，我甚至现在都能就是感觉到那种。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 242,
+      "start": 1444.45,
+      "end": 1452.64,
+      "text": "特别绝望的那种感觉，因为当时这个事儿闹的就家里亲戚肯定都知道嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 243,
+      "start": 1452.99,
+      "end": 1457.14,
+      "text": "然后我小姨就想那个带着我出去玩儿散散心什么的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 244,
+      "start": 1457.19,
+      "end": 1461.01,
+      "text": "我当时就跟我小姨就一块儿，还有我妹就一块儿去南戴河了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 245,
+      "start": 1461.23,
+      "end": 1466.99,
+      "text": "然后去之前，因为我特别喜欢看电视嘛，然后我就是非常清楚的知道哪个台演什么，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 246,
+      "start": 1466.99,
+      "end": 1468.16,
+      "text": "然后什么时间演。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 247,
+      "start": 1468.45,
+      "end": 1473.19,
+      "text": "我跟我妈一般都一块儿看电视，所以她都不记这些，就是到点了都是我去播嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 248,
+      "start": 1473.45,
+      "end": 1474.03,
+      "text": "然后我就想，那如果我不在家了，我妈也。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 249,
+      "start": 1475.95,
+      "end": 1481.15,
+      "text": "不知道怎么怎么看了，然后我就把那些都给列出来了，就是什么节目、哪个台、哪天演，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 250,
+      "start": 1481.81,
+      "end": 1484.69,
+      "text": "然后包括又给我妈写了一长很长一封很长的信。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 251,
+      "start": 1484.99,
+      "end": 1491.42,
+      "text": "我现在记不清楚是具体内容了，但是我我觉得应该大概意思就是考不好啊，很对不起他们呀，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 252,
+      "start": 1491.51,
+      "end": 1496.6,
+      "text": "然后嗯，很感谢他们这这些年付出啊，表达了一下我对自己比较失望。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 253,
+      "start": 1496.65,
+      "end": 1503.92,
+      "text": "就是这次去，我听说南戴河水草特别多，然后说就是可能这次去要是游泳的话，也不知道。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 254,
+      "start": 1504.03,
+      "end": 1506.07,
+      "text": "会不会溺水什么的？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 255,
+      "start": 1506.07,
+      "end": 1511.25,
+      "text": "但是没关系，就是即便我那个溺水了，但是我把这些都给你写下来了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 256,
+      "start": 1511.25,
+      "end": 1513.15,
+      "text": "你以后也能也能知道就是怎么看。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 257,
+      "start": 1514.07,
+      "end": 1516.49,
+      "text": "然后后来我就就是就跟我小姨继续玩了嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 258,
+      "start": 1516.49,
+      "end": 1521.59,
+      "text": "然后去玩之后，当天晚上我妈给我小姨打了电话，应该就是把这事说了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 259,
+      "start": 1521.59,
+      "end": 1526.25,
+      "text": "对，说完了之后，因为那天我们正好在吃饭，在海边吃饭呢，也是我第一次喝啤酒。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 260,
+      "start": 1526.25,
+      "end": 1528.27,
+      "text": "然后小姨大概跟我聊了一下这个事儿。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 261,
+      "start": 1528.37,
+      "end": 1529.33,
+      "text": "最巧的是什么？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 262,
+      "start": 1529.33,
+      "end": 1529.73,
+      "text": "我觉得。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 263,
+      "start": 1529.95,
+      "end": 1533.75,
+      "text": "我觉得人的身体健康可能真的和心理有很大的关系。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 264,
+      "start": 1533.75,
+      "end": 1537.63,
+      "text": "就是我那一次是，就是非常明明确的那种表现出来了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 265,
+      "start": 1537.63,
+      "end": 1540.89,
+      "text": "就是当时那天晚上回去之后，我就发高烧了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 266,
+      "start": 1541.15,
+      "end": 1545.43,
+      "text": "就是我觉得这种高烧可能是我那段时间心理上的一些压力，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 267,
+      "start": 1545.43,
+      "end": 1549.79,
+      "text": "还有那些抑郁的那种情况的一个生理表达。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 268,
+      "start": 1549.99,
+      "end": 1552.77,
+      "text": "但是那天烧完了之后，第二天就没事儿了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 269,
+      "start": 1559.43,
+      "end": 1564.94,
+      "text": "哈哈就读的这所学校叫北京城市学院，是一所民办的全日制高等学校。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 270,
+      "start": 1564.94,
+      "end": 1570.62,
+      "text": "它的前身叫海淀走读大学，可能是为了突出对这所学校的嫌弃，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 271,
+      "start": 1570.62,
+      "end": 1575.48,
+      "text": "哈哈的同学们把它戏称为“海淀跑读大学”，简称“海跑”。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 272,
+      "start": 1575.96,
+      "end": 1581.98,
+      "text": "当哈哈鼓起勇气开始读这段三本生活的时候，竟然发现其实远没有想象中那么糟糕。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 273,
+      "start": 1583.34,
+      "end": 1590.06,
+      "text": "我的专业是信息管理与信息系统，其实是理科专业，但我高中学的是文科。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 274,
+      "start": 1590.67,
+      "end": 1595.93,
+      "text": "第一天进校的时候呢，一推门就是看见班里的同学，我是惊呆了一下。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 275,
+      "start": 1596.21,
+      "end": 1600.47,
+      "text": "对，因为确实和我想象的起码外表的差异就很大。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 276,
+      "start": 1600.67,
+      "end": 1608.15,
+      "text": "我以为是一些就是比较花枝招展，然后对山马特那种同学，但是其实嗯，大家都特别正常，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 277,
+      "start": 1608.15,
+      "end": 1609.27,
+      "text": "特别朴实。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 278,
+      "start": 1609.36,
+      "end": 1616.97,
+      "text": "我们班除了北京就是新疆的，新疆人有钱可能就特别炫富的那种，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 279,
+      "start": 1617.67,
+      "end": 1626.78,
+      "text": "说家里那个大门有四辆奥迪横着开那么大什么的，然后说男朋友家是开百货商场的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 280,
+      "start": 1626.93,
+      "end": 1631.81,
+      "text": "他进去买东西从来都不要钱，拿完就走，然后家里养鹰，就这种。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 281,
+      "start": 1631.87,
+      "end": 1634.95,
+      "text": "因为我就是一直都是一个学渣，你知道吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 282,
+      "start": 1634.95,
+      "end": 1635.69,
+      "text": "所以我。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 283,
+      "start": 1636.07,
+      "end": 1638.53,
+      "text": "也没见过特别努力的那种啊！",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 284,
+      "start": 1638.53,
+      "end": 1643.82,
+      "text": "我见过一个特别努力，就是我上高中的时候，我们班有女生就是学习学到吐血，特别夸张。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 285,
+      "start": 1644.09,
+      "end": 1645.75,
+      "text": "有时候你觉得特特心疼，你知道吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 286,
+      "start": 1646.17,
+      "end": 1650.65,
+      "text": "就是你说都这么努力了，然后你就是成绩应该特别好才对，结果就是学习还一般的那种。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 287,
+      "start": 1650.65,
+      "end": 1654.89,
+      "text": "所以可能我是不是也是由于看了她，所以觉得干脆不要那么努力好了？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 288,
+      "start": 1655.61,
+      "end": 1661.81,
+      "text": "我们班相对我见过最夸张的就是我下铺她的那个床一年四季都围着那个蚊帐。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 289,
+      "start": 1661.83,
+      "end": 1670.07,
+      "text": "就我们一般是夏天的时候才围嘛，他每天就是进了那个宿舍之后，就是钻进他的那个，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 290,
+      "start": 1670.07,
+      "end": 1672.03,
+      "text": "我们管他叫盘丝洞。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 291,
+      "start": 1672.16,
+      "end": 1676.66,
+      "text": "对，就是每天就进盘丝洞之后，然后就一直在那儿读英语，挺认真的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 292,
+      "start": 1677.05,
+      "end": 1685.11,
+      "text": "但我们剩下人每天就是都出去玩啊啥吃东西啊什么K TV，但是他就比我学习好一点吧，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 293,
+      "start": 1685.23,
+      "end": 1687.43,
+      "text": "因为我也不知道为什么，就可能是因为。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 294,
+      "start": 1687.57,
+      "end": 1695.51,
+      "text": "我感觉好多人就是考上大学之后就不努力了，但是我好像是因为前期没有很努力，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 295,
+      "start": 1695.51,
+      "end": 1702.94,
+      "text": "所以呢上大学之后吧，我还是保持着一个惯性，就是我觉得我还是应该把我要做的事做好。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 296,
+      "start": 1702.99,
+      "end": 1708.81,
+      "text": "所以每年我都是那个就拿奖学金，就是我会特别早就开始复习，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 297,
+      "start": 1708.81,
+      "end": 1713.07,
+      "text": "就比如说考试前一两个月我就开始复习，然后就把那些题就是背的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 298,
+      "start": 1713.17,
+      "end": 1715.94,
+      "text": "就是倒背如流，就一点都不夸张，真的可以说倒背如流。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 299,
+      "start": 1715.94,
+      "end": 1717.06,
+      "text": "但是我考完就完啊！",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 300,
+      "start": 1717.06,
+      "end": 1722.6,
+      "text": "但然后考试的时候以飞快的速度做完，就我基本上三十到四十分钟就可以交卷儿。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 301,
+      "start": 1722.6,
+      "end": 1727.8,
+      "text": "就是其他同学还跟那儿，就是咬着笔跟那儿看题呢，我就是很快就做完了，然后我就出去了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 302,
+      "start": 1727.8,
+      "end": 1728.41,
+      "text": "就那种。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 303,
+      "start": 1728.64,
+      "end": 1732.22,
+      "text": "但好像这种行为有点招人讨厌哈，就是会给别人造成压力。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 304,
+      "start": 1732.54,
+      "end": 1734.82,
+      "text": "每科基本上都是第二名、第三名吧。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 305,
+      "start": 1735.68,
+      "end": 1738.56,
+      "text": "哈哈，也像很多考入三本的普通家庭的孩子一样。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 306,
+      "start": 1738.72,
+      "end": 1742.44,
+      "text": "为了给父母减轻负担，很早就开始打工做实习。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 307,
+      "start": 1742.69,
+      "end": 1748.55,
+      "text": "他的第一份正式的实习工作干得非常愉快，也没有人向哈哈提起过他的三本身份。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 308,
+      "start": 1748.96,
+      "end": 1752.39,
+      "text": "但最终因为薪资太低，哈哈最后没有入职。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 309,
+      "start": 1753.78,
+      "end": 1757.5,
+      "text": "然后我就又换了一份工作，但是换的其实也是那个人力资源实习生，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 310,
+      "start": 1758.22,
+      "end": 1763.5,
+      "text": "那个是在一个相当于是国企控股的那么一个公司。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 311,
+      "start": 1763.66,
+      "end": 1765,
+      "text": "然后我当时主要是负责。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 312,
+      "start": 1765.36,
+      "end": 1769.77,
+      "text": "前期筛简历就招聘这一块的业务，我不能说我干得多好啊。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 313,
+      "start": 1769.77,
+      "end": 1775.71,
+      "text": "但是他们后来招了几个就是level特别高的那种人，都是我筛的简历中，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 314,
+      "start": 1775.87,
+      "end": 1780.03,
+      "text": "就是他们最后面试通过呀，然后再入职这样的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 315,
+      "start": 1780.03,
+      "end": 1782.77,
+      "text": "而且当时就是我跟同事相处的也都挺好的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 316,
+      "start": 1783.43,
+      "end": 1791.1,
+      "text": "所以说我这之前一直都没有感觉到学历对我来说有什么压力或者是有什么。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 317,
+      "start": 1791.19,
+      "end": 1799.65,
+      "text": "瓶颈，直到就是我当时跟那个我的上级提出，我说我想转正，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 318,
+      "start": 1799.65,
+      "end": 1801.75,
+      "text": "因为转正不是要签一个三方的协议吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 319,
+      "start": 1801.99,
+      "end": 1803.93,
+      "text": "然后他说：“他说我再想想。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 320,
+      "start": 1803.93,
+      "end": 1804.99,
+      "text": "他说：“我明天给你答复。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 321,
+      "start": 1804.99,
+      "end": 1806.27,
+      "text": "我说：“行。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 322,
+      "start": 1806.27,
+      "end": 1810.77,
+      "text": "等到第二天的时候，就是当时都快下班了，然后我一个同事跟我说：",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 323,
+      "start": 1810.77,
+      "end": 1814.37,
+      "text": "“他说那个谁谁叫你去办公室，就是我的上级叫我去办公室。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 324,
+      "start": 1814.37,
+      "end": 1814.87,
+      "text": "我说：“行。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 325,
+      "start": 1814.87,
+      "end": 1817.93,
+      "text": "然后我就进去了，就是那是一个特别大的那种会议室。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 326,
+      "start": 1818.08,
+      "end": 1822.36,
+      "text": "特别国企范儿的那种会议室，就是一大长条桌，红木色。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 327,
+      "start": 1823.53,
+      "end": 1828.1,
+      "text": "就两个人距离非常远，然后他呢就是坐在一边儿，然后我坐在另外一边儿。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 328,
+      "start": 1828.53,
+      "end": 1832.99,
+      "text": "然后我当时进去之后呢，我就坐在他对面了，我就看着他，他就是翘着二郎腿在那抽烟。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 329,
+      "start": 1833.63,
+      "end": 1835.91,
+      "text": "他就跟我说：“他说他说你想转正是吗？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 330,
+      "start": 1835.91,
+      "end": 1836.87,
+      "text": "我说：“对。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 331,
+      "start": 1836.87,
+      "end": 1839.49,
+      "text": "他说：“你就是那意思，就是你凭什么觉得自己能转正？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 332,
+      "start": 1839.49,
+      "end": 1843.55,
+      "text": "然后我就大概跟他说了一下，我说：“我觉得我来这段时间就是做的工作什么。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 333,
+      "start": 1843.57,
+      "end": 1852.25,
+      "text": "的就是各方面表现都还不错，他用特别轻蔑的语气说：“你知道咱们这儿的人都什么背景吗？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 334,
+      "start": 1852.25,
+      "end": 1859.03,
+      "text": "然后我当时就愣了，我就觉得什么背景跟我有什么关系？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 335,
+      "start": 1859.13,
+      "end": 1861.09,
+      "text": "我只是想把活干好嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 336,
+      "start": 1861.13,
+      "end": 1867.53,
+      "text": "然后他又说，就开始说这个这个人是什么什么背景，是什么什么什么大学毕业的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 337,
+      "start": 1867.53,
+      "end": 1869.65,
+      "text": "是什么什么博士，什么什么双学位。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 338,
+      "start": 1870.11,
+      "end": 1874.27,
+      "text": "就说了一大堆，我说那您的意思就是说我转不了呗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 339,
+      "start": 1874.83,
+      "end": 1879.89,
+      "text": "我说但是我前两天就是看我们那儿有一个财务的那个，就是实习生转正了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 340,
+      "start": 1879.89,
+      "end": 1882.16,
+      "text": "我说他为啥能转正呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 341,
+      "start": 1882.37,
+      "end": 1891.55,
+      "text": "然后那领导就说，他说一是他们家有关系，第二就是他是中央财经大学双学位的本科毕业的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 342,
+      "start": 1891.61,
+      "end": 1896.8,
+      "text": "然后我当时经历了第一次，就是我觉得哦原来我的学历其实是。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 343,
+      "start": 1897.07,
+      "end": 1899.83,
+      "text": "会成为一种阻碍的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 344,
+      "start": 1902.79,
+      "end": 1909.05,
+      "text": "我当时有点哭了，对，因为我觉得，我觉得我就是这段时间工作各方面都不错，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 345,
+      "start": 1909.05,
+      "end": 1910.59,
+      "text": "而且我们那儿同事还都挺喜欢我的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 346,
+      "start": 1911.25,
+      "end": 1918.98,
+      "text": "然后结果突然说你学历不行，我就觉得学历这东西真的这么重要吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 347,
+      "start": 1919.05,
+      "end": 1923.09,
+      "text": "就是进入社会之后，难道不是应该先看能力再看学历吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 348,
+      "start": 1928.84,
+      "end": 1935.75,
+      "text": "老板又提出了第二个方案，就是可以留下来，但签外包的合同，不作为正式员工算，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 349,
+      "start": 1935.95,
+      "end": 1938.65,
+      "text": "且每个月只有两千出头的薪资。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 350,
+      "start": 1939.23,
+      "end": 1944.62,
+      "text": "哈哈当然不愿意接受，但他没有直接说出来，他和老板说让我先考虑一晚。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 351,
+      "start": 1945.97,
+      "end": 1949.83,
+      "text": "所以我第二天就是去了公司之后。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 352,
+      "start": 1949.97,
+      "end": 1956.84,
+      "text": "然后我就跟他说了，我说那个，我说我考虑了一下，然后嗯，我就不打算留在这儿了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 353,
+      "start": 1956.84,
+      "end": 1964.38,
+      "text": "然后等到也是快下班那个时间，然后我同事把我叫到会室，我说我进会的时候我就有点呆，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 354,
+      "start": 1964.38,
+      "end": 1968.84,
+      "text": "就是我们部门人都在那儿，我们领导就说了一下，就是他夸了我一番。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 355,
+      "start": 1968.84,
+      "end": 1974.6,
+      "text": "先是就是他说，他说就是我来的这段时间就是做了一些工作什么的，然后做的不错，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 356,
+      "start": 1975.08,
+      "end": 1979.84,
+      "text": "然后他代表就是大家所有人感谢我，然后让所有人站起来给我鞠了个躬，我当时都惊呆了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 357,
+      "start": 1982.49,
+      "end": 1984.62,
+      "text": "就是特别抓嘛，你知道吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 358,
+      "start": 1984.62,
+      "end": 1992.65,
+      "text": "就那种感觉，就是你前几天你还翘着二郎腿叼着烟，然后在蔑视我，然后你今天在给我鞠躬。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 359,
+      "start": 1992.9,
+      "end": 1996.62,
+      "text": "我我当时就说：“我说不用不用，我说千万别，我说我是折寿。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 360,
+      "start": 1996.62,
+      "end": 2004.18,
+      "text": "对，我觉得我成长环境教给我最重要一件事儿就是我得靠自己，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 361,
+      "start": 2004.18,
+      "end": 2008.02,
+      "text": "所以我可能就包括我又比较早的就是打工。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 362,
+      "start": 2008.29,
+      "end": 2013.14,
+      "text": "然后实习，然后包括所有的就这些工作都是我自己找的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 363,
+      "start": 2013.31,
+      "end": 2019.27,
+      "text": "对我就一直是在靠自己走这每一步，所以我觉得如果靠自己的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 364,
+      "start": 2019.27,
+      "end": 2021.11,
+      "text": "好像好多事儿就没有那么焦虑了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 365,
+      "start": 2021.23,
+      "end": 2027.63,
+      "text": "但是我觉得那件事儿现在我回想起来，我觉得也是好事儿，就是它可能是更激励了我，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 366,
+      "start": 2027.63,
+      "end": 2034.91,
+      "text": "它让我觉得，嗯，假设说我在这方面有一些，比如说缺陷或者不足，那么我。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 367,
+      "start": 2034.92,
+      "end": 2043.09,
+      "text": "必须要在其他的方面更努力，这样我才能可能说跟人家持平，或者是比他们更好。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 368,
+      "start": 2044.58,
+      "end": 2051.12,
+      "text": "嗯，我觉得很多人的努力都停止在高考那一刻了，因为我也接触过一些，比如一本啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 369,
+      "start": 2051.12,
+      "end": 2054.4,
+      "text": "或者是呃很多好学校，或者是从国外留学回来的人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 370,
+      "start": 2054.88,
+      "end": 2062.9,
+      "text": "但是他们好像并没有在工作这个环境下特别努力，所以我觉得就是你在这个职场上到底是。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 371,
+      "start": 2063.04,
+      "end": 2065.33,
+      "text": "能得到一个什么样的结果？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 372,
+      "start": 2066.1,
+      "end": 2074.2,
+      "text": "你的学历确实是一个敲门砖或者入场券，但是它并不意味着你可以在这个接下来的环境里，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 373,
+      "start": 2074.2,
+      "end": 2077.8,
+      "text": "或者在接下来的你的整个工作过程中会有更好的结果。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 374,
+      "start": 2078.04,
+      "end": 2082.63,
+      "text": "就我举一个特别简单的例子：我最开始做助理的时候，我们当时那个部门是一百多人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 375,
+      "start": 2083.5,
+      "end": 2084.88,
+      "text": "你就每个月都要算考勤嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 376,
+      "start": 2085.32,
+      "end": 2089.72,
+      "text": "然后算考勤的时候呢，我每个月是用半天的时间就可以把考勤算好。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 377,
+      "start": 2089.76,
+      "end": 2091.62,
+      "text": "而且从来没有出过错。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 378,
+      "start": 2091.62,
+      "end": 2096.87,
+      "text": "我其实一直以为所有人都是这样的，直到就是后来我们又招了实习生，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 379,
+      "start": 2097.06,
+      "end": 2101.7,
+      "text": "就是我不再去负责这个工作，去做更重要的事儿的时候，然后我让那个女孩算，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 380,
+      "start": 2101.7,
+      "end": 2105.08,
+      "text": "那女孩算了三天没算明白，而且她的学校比我更好。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 381,
+      "start": 2106.36,
+      "end": 2108.46,
+      "text": "然后我当时其实有点意外，你知道吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 382,
+      "start": 2108.46,
+      "end": 2112.48,
+      "text": "因为那相当于是我带她嘛，我告诉她怎么做，而且我是连我告诉她，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 383,
+      "start": 2112.48,
+      "end": 2115.62,
+      "text": "就是我都告诉你这事儿怎么做了，你一去做什么，二去做什么。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 384,
+      "start": 2115.65,
+      "end": 2123.06,
+      "text": "结果他三天都没做完，我确实是在那一刻第一次意识到人和人之间的差距是蛮大的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 385,
+      "start": 2127.02,
+      "end": 2132.93,
+      "text": "哈哈已经毕业十年了，他靠着自己的能力一步一步地走到现在年薪五十万的岗位，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 386,
+      "start": 2133.41,
+      "end": 2140.18,
+      "text": "他并没有虚伪地感谢命运，他感谢的是自己，是过去做的所有选择才让他变成了现在的自己。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 387,
+      "start": 2141.86,
+      "end": 2151.68,
+      "text": "就有一次我在路上然后跟我老公就是那一次我忘了我是为什么特别悲伤然后整个的工作环境特别",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 388,
+      "start": 2151.68,
+      "end": 2160.06,
+      "text": "压抑就那段时间感觉压力挺大的就每天都特别不高兴然后有一次就是我老公接我下班往回家开的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 389,
+      "start": 2160.06,
+      "end": 2168.68,
+      "text": "路上我就大哭我好像是觉得自己特别不容易就是这些年就是我这么多年吧就可以说靠自己然后嗯，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 390,
+      "start": 2168.68,
+      "end": 2178.78,
+      "text": "很努力到现在，其实特别想跟小时候的那个自己说：“你不要那么难过，或者不要那么绝望，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 391,
+      "start": 2178.78,
+      "end": 2181.58,
+      "text": "因为你以后会会过得很好的。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 392,
+      "start": 2181.58,
+      "end": 2187.68,
+      "text": "哈哈说：“假如他有超能力的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 393,
+      "start": 2187.74,
+      "end": 2194.82,
+      "text": "他希望穿越回高考结束的那个暑假，在写满自己缺点的本子上留下来自十年之后的寄语。”",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 394,
+      "start": 2195.58,
+      "end": 2203.68,
+      "text": "嘿，听着，在未来你已经成为一个善良、包容、异常强大的你，所以不要害怕，接着走下去吧。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 395,
+      "start": 2204.82,
+      "end": 2207.12,
+      "text": "一定要相信自己。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 396,
+      "start": 2207.12,
+      "end": 2215.74,
+      "text": "我从来都不觉得高考是一个结束，我认为高考是只是你中学生涯的一个结束，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 397,
+      "start": 2215.74,
+      "end": 2221.1,
+      "text": "但是是你未来就是更大、更有可能性的一个生活。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 398,
+      "start": 2221.13,
+      "end": 2228.79,
+      "text": "我的开始，不管考得好或者不好，就千万不要把它当成一个嗯终结了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 399,
+      "start": 2228.81,
+      "end": 2236.23,
+      "text": "就是你一定要把它当成一个新的开始，去做你想做的事儿，去成为你想成为的人。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 400,
+      "start": 2252.06,
+      "end": 2256.79,
+      "text": "你现在正在收听的是亲历者自述的声音节目《故事F M》，我是主播艾哲。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 401,
+      "start": 2256.79,
+      "end": 2259.91,
+      "text": "本期节目由野补制作，声音设计孙泽宇。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 402,
+      "start": 2259.99,
+      "end": 2261.74,
+      "text": "感谢你的收听，咱们下期再见。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 403,
+      "start": 2272.82,
+      "end": 2277.28,
+      "text": "嗯。",
+      "speaker": "C",
+      "role": "storyteller"
+    }
+  ]
+}
