@@ -50,6 +50,7 @@ async function add(/** @type {string[]} */ argv) {
     allowPositionals: true,
     options: {
       force: { type: 'boolean', default: false },
+      resegment: { type: 'boolean', default: false },
       narrator: { type: 'string' },
     },
   });
@@ -58,7 +59,11 @@ async function add(/** @type {string[]} */ argv) {
 
   const episode = findEpisode(await loadFeed(), id);
   const { buildEpisode } = await import('../src/build.js');
-  await buildEpisode(episode, { force: values.force, narrator: values.narrator });
+  await buildEpisode(episode, {
+    force: values.force,
+    resegment: values.resegment,
+    narrator: values.narrator,
+  });
 }
 
 const COMMANDS = { sync, list, add };
@@ -68,7 +73,8 @@ const USAGE = `storyfm — transcript cho 故事FM
   storyfm sync                  tải lại RSS về data/feed.xml
   storyfm list [--limit 20]     liệt kê tập (✓ = đã có transcript)
   storyfm add E910              transcribe một tập
-    --force                     chạy lại dù đã có transcript
+    --force                     transcribe lại dù đã có (tốn tiền)
+    --resegment                 cắt lại câu từ data/raw/, không gọi API (miễn phí)
     --narrator B                chỉ định speaker nào là người dẫn
 `;
 

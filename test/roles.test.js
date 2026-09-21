@@ -8,25 +8,15 @@ const cue = (i, start, end, speaker) => ({ i, start, end, speaker, text: '…' }
 
 const roles = (/** @type {{role: string}[]} */ cues) => cues.map((c) => c.role);
 
-test('calls the speaker who dominates the opening the narrator', () => {
-  const result = assignRoles([
-    cue(0, 0, 60, 'A'),
-    cue(1, 60, 80, 'B'),
-    cue(2, 300, 900, 'B'),
-  ]);
+test('calls whoever opens the episode the narrator', () => {
+  const result = assignRoles([cue(0, 0, 60, 'A'), cue(1, 60, 80, 'B'), cue(2, 300, 900, 'B')]);
   assert.deepEqual(roles(result), ['narrator', 'storyteller', 'storyteller']);
 });
 
-test('ignores speaking time after the opening window', () => {
-  // B talks for ten minutes, but only after the window — A still opened the episode.
-  const result = assignRoles([cue(0, 0, 100, 'A'), cue(1, 200, 800, 'B')]);
-  assert.deepEqual(roles(result), ['narrator', 'storyteller']);
-});
-
-test('counts only the part of a cue inside the window', () => {
-  // B's cue starts inside the window but runs long; only its first 20s count, so A still wins.
-  const result = assignRoles([cue(0, 0, 100, 'A'), cue(1, 160, 600, 'B')]);
-  assert.deepEqual(roles(result), ['narrator', 'storyteller']);
+test('does not hand the role to whoever talks the most', () => {
+  // E077's shape: a 50s intro from the host, then the guest holds the rest of the episode.
+  const result = assignRoles([cue(0, 0, 50, 'A'), cue(1, 53, 180, 'B'), cue(2, 180, 770, 'B')]);
+  assert.deepEqual(roles(result), ['narrator', 'storyteller', 'storyteller']);
 });
 
 test('labels everything storyteller when diarization found one voice', () => {
