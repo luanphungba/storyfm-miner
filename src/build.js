@@ -12,10 +12,13 @@ import { paths } from './paths.js';
 import { loadFeed } from './feed.js';
 import { transcribe } from './asr.js';
 import { toCues, punctuationRate } from './segment.js';
-import { assignRoles, speakingTime } from './roles.js';
+import { assignRoles, speakingTime, narratorShare } from './roles.js';
 
 /** Below this share of cues ending on 。！？ the ASR barely punctuated and the cuts are guesses. */
 const POOR_PUNCTUATION = 0.5;
+
+/** 爱哲 holds well under a third of an episode; past this the two roles are too close to call. */
+const UNCERTAIN_NARRATOR_SHARE = 0.35;
 
 /** Single write, via a temp file, so a crash mid-write cannot leave a partial JSON behind. */
 async function writeJson(/** @type {string} */ path, /** @type {unknown} */ value) {
@@ -104,9 +107,10 @@ function report(id, cues) {
   if (rate < POOR_PUNCTUATION) {
     console.log('  ⚠ ASR chấm câu kém — nhiều câu bị cắt theo độ dài, nên xem lại trước khi tin.');
   }
-  // 爱哲 frames the story; the guest tells it. The other way round means the opening cue misled us.
-  if (narrated > cues.length / 2) {
-    console.log(`  ⚠ Người dẫn nói nhiều hơn người kể — có thể đoán nhầm. Thử --narrator <speaker khác>.`);
+  const share = narratorShare(cues);
+  if (share > UNCERTAIN_NARRATOR_SHARE) {
+    console.log(`  ⚠ Người dẫn chiếm ${Math.round(share * 100)}% thời lượng — chia vai không chắc.`);
+    console.log('    Xem vài câu đầu rồi chỉnh bằng --narrator <speaker> --resegment.');
   }
   console.log(`\nXem thử:  npm run serve  →  http://localhost:8080/player.html?ep=${id}`);
 }

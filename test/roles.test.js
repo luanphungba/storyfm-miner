@@ -8,15 +8,19 @@ const cue = (i, start, end, speaker) => ({ i, start, end, speaker, text: '…' }
 
 const roles = (/** @type {{role: string}[]} */ cues) => cues.map((c) => c.role);
 
-test('calls whoever opens the episode the narrator', () => {
+test('calls the speaker who talks least the narrator', () => {
   const result = assignRoles([cue(0, 0, 60, 'A'), cue(1, 60, 80, 'B'), cue(2, 300, 900, 'B')]);
   assert.deepEqual(roles(result), ['narrator', 'storyteller', 'storyteller']);
 });
 
-test('does not hand the role to whoever talks the most', () => {
-  // E077's shape: a 50s intro from the host, then the guest holds the rest of the episode.
+test('E077: host opens with a 50s intro, then the guest holds the episode', () => {
   const result = assignRoles([cue(0, 0, 50, 'A'), cue(1, 53, 180, 'B'), cue(2, 180, 770, 'B')]);
   assert.deepEqual(roles(result), ['narrator', 'storyteller', 'storyteller']);
+});
+
+test('E062: the guest cold-opens before the host says anything', () => {
+  const result = assignRoles([cue(0, 0, 8, 'A'), cue(1, 8, 23, 'B'), cue(2, 23, 641, 'A')]);
+  assert.deepEqual(roles(result), ['storyteller', 'narrator', 'storyteller']);
 });
 
 test('labels everything storyteller when diarization found one voice', () => {

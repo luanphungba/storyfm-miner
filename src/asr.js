@@ -15,9 +15,9 @@ const POLL_TIMEOUT_MS = 40 * 60 * 1_000;
 
 // Naming a model is not optional in practice. Left out, the request falls through to the legacy
 // engine, which transcribes Chinese accurately but returns it with no punctuation at all — and
-// with nothing to split on, every sentence here degrades into a fixed-length slice of characters.
-// The newest model builds punctuation into its output and attributes speakers in the same pass.
-// Valid values, straight from the API: universal-3-5-pro, universal-3-pro, universal-2.
+// with nothing to split on, every sentence degrades into a fixed-length slice of characters.
+// Always the newest: it builds punctuation into its output and attributes speakers in one pass.
+// Run `storyfm models` to see whether something newer has shipped.
 const SPEECH_MODEL = 'universal-3-5-pro';
 
 /**
@@ -41,6 +41,25 @@ async function request(/** @type {string} */ url, /** @type {string} */ apiKey, 
     throw new Error(`AssemblyAI trả về ${response.status}: ${detail.slice(0, 300)}`);
   }
   return response.json();
+}
+
+/**
+ * The API publishes no endpoint that lists models, but it does name every valid one when it
+ * rejects a bad value — and rejection happens before any audio is touched, so asking is free.
+ * @param {string} apiKey
+ * @returns {Promise<{ models: string[], inUse: string }>}
+ */
+export async function listModels(apiKey) {
+  const response = await fetch(ENDPOINT, {
+    method: 'POST',
+    headers: { authorization: apiKey, 'content-type': 'application/json' },
+    body: JSON.stringify({ audio_url: 'https://example.com/probe.mp3', speech_models: ['?'] }),
+  });
+
+  const { error = '' } = await response.json().catch(() => ({}));
+  const models = [...error.matchAll(/"([a-z0-9-]+)"/g)].map(([, name]) => name);
+  if (!models.length) throw new Error(`Không đọc được danh sách model. API trả về: ${error}`);
+  return { models, inUse: SPEECH_MODEL };
 }
 
 /**

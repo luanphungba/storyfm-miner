@@ -66,7 +66,20 @@ async function add(/** @type {string[]} */ argv) {
   });
 }
 
-const COMMANDS = { sync, list, add };
+async function models() {
+  const apiKey = process.env.ASSEMBLYAI_API_KEY;
+  if (!apiKey) throw new Error('Thiếu ASSEMBLYAI_API_KEY trong .env.');
+
+  const { models: available, inUse } = await (await import('../src/asr.js')).listModels(apiKey);
+  for (const name of available) {
+    console.log(`${name === inUse ? '→' : ' '} ${name}`);
+  }
+  if (!available.includes(inUse)) {
+    console.log(`\n⚠ Đang dùng "${inUse}" nhưng API không còn nhận. Sửa SPEECH_MODEL trong src/asr.js.`);
+  }
+}
+
+const COMMANDS = { sync, list, add, models };
 
 const USAGE = `storyfm — transcript cho 故事FM
 
@@ -76,6 +89,8 @@ const USAGE = `storyfm — transcript cho 故事FM
     --force                     transcribe lại dù đã có (tốn tiền)
     --resegment                 cắt lại câu từ data/raw/, không gọi API (miễn phí)
     --narrator B                chỉ định speaker nào là người dẫn
+
+  storyfm models                liệt kê model ASR, → là cái đang dùng
 `;
 
 async function main() {
