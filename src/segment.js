@@ -49,14 +49,22 @@ const joinWords = (/** @type {Word[]} */ words) =>
 
 const round = (/** @type {number} */ ms) => Math.round(ms / 10) / 100;
 
+/** Past this, a word's own (end - start) is almost certainly trailing music or silence the ASR
+ * folded into its last word rather than the word itself — real speech never runs this long per
+ * word (99% of words across a checked episode ran under 900ms; the rest were forced-alignment
+ * artifacts up to 7-8s). Clamping keeps the loop button and Anki cards from replaying that tail. */
+const MAX_WORD_MS = 1_200;
+
 /**
  * @param {Word[]} words
  * @returns {Omit<Cue, 'i'>}
  */
 function toCue(words) {
+  const last = words[words.length - 1];
+  const end = last.end - last.start > MAX_WORD_MS ? last.start + MAX_WORD_MS : last.end;
   return {
     start: round(words[0].start),
-    end: round(words[words.length - 1].end),
+    end: round(end),
     text: joinWords(words),
     speaker: words[0].speaker ?? 'A',
   };

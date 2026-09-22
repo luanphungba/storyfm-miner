@@ -53,6 +53,24 @@ test('takes timestamps from the first and last word, in seconds', () => {
   assert.equal(cue.end, 12.9);
 });
 
+test('clamps a last word whose own duration looks like trailing silence or music', () => {
+  const words = [
+    { text: '嗯', start: 0, end: 200, speaker: 'A' },
+    { text: '。', start: 200, end: 7740, speaker: 'A' },
+  ];
+  const [cue] = toCues(words);
+  assert.equal(cue.end, 1.4);
+});
+
+test('leaves a normal last word alone even near the clamp threshold', () => {
+  const words = [
+    { text: '好', start: 0, end: 1100, speaker: 'A' },
+    { text: '。', start: 1100, end: 1190, speaker: 'A' },
+  ];
+  const [cue] = toCues(words);
+  assert.equal(cue.end, 1.19);
+});
+
 test('glues CJK but keeps spaces between Latin words', () => {
   const at = (/** @type {string} */ text, /** @type {number} */ i) => ({
     text, start: i * 100, end: (i + 1) * 100, speaker: 'A',
