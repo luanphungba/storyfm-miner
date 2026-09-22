@@ -1,0 +1,115 @@
+{
+  "episode": "E517",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-09-22",
+  "fixes": [
+    {
+      "cueIndex": 0,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"FM\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 400,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"FM\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 81,
+      "before": "G PA",
+      "after": "GPA",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"GPA\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 150,
+      "before": "H R",
+      "after": "HR",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"HR\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 162,
+      "before": "H R",
+      "after": "HR",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"HR\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 171,
+      "before": "off er",
+      "after": "offer",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"offer\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 292,
+      "before": "K TV",
+      "after": "KTV",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"KTV\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 0,
+      "before": "艾哲",
+      "after": "爱哲",
+      "source": "known-phrase",
+      "reason": "Founder's real name is 寇爱哲 (web search).",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 400,
+      "before": "艾哲",
+      "after": "爱哲",
+      "source": "known-phrase",
+      "reason": "Founder's real name is 寇爱哲 (web search).",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 170,
+      "before": "储柱",
+      "after": "耻辱柱",
+      "source": "llm-review",
+      "reason": "\"储柱\" isn't a word; \"被钉/定在耻辱柱上\" (nailed to the pillar of shame) is a common idiom that fits the sentence about being permanently stuck at a third-tier college.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 353,
+      "before": "会室",
+      "after": "会议室",
+      "source": "llm-review",
+      "reason": "\"会室\" isn't a word; \"会议室\" (meeting room) is the standard term and fits a colleague calling them in for a farewell speech.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 207,
+      "before": "北京成人学院",
+      "after": "北京城市学院",
+      "source": "llm-review",
+      "reason": "The narrator independently confirms the real name at i:269 (\"哈哈就读的这所学校叫北京城市学院\") and its nickname 海跑 at i:270-271 (formerly 海淀走读大学) — matching \"就是海跑嘛\" right after the storyteller's line. 成人 vs 城市 is a near-homophone (chéngrén vs chéngshì).",
+      "appliedAt": "2026-09-22"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 101,
+      "text": "我记得和我第一次去他们学校看他的时候",
+      "reason": "\"和我\" reads slightly awkwardly (possibly a spurious 和 or misheard filler) but no confident replacement without the audio."
+    },
+    {
+      "cueIndex": 401,
+      "text": "本期节目由野补制作",
+      "reason": "\"野补\" doesn't read as a real name; other episodes' producer credits (梁科/梁珂, confirmed real) don't match this phonetically, and a search for 故事FM's producer roster didn't surface a matching name. Likely a mis-transcribed staff credit, unresolved."
+    }
+  ]
+}

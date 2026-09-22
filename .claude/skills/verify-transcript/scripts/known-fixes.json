@@ -1,0 +1,18 @@
+[
+  {
+    "wrong": "清理者自述",
+    "right": "亲历者自述",
+    "note": "故事FM's fixed tagline is \"亲历者自述的声音节目\" (confirmed via web search). The string is specific enough to replace anywhere it appears."
+  },
+  {
+    "wrong": "艾哲",
+    "right": "爱哲",
+    "matchContext": "我是|主播",
+    "note": "Founder's real name is 寇爱哲 (confirmed via web search). ASR sometimes mishears it as 艾哲 in the show's fixed self-introduction (\"我是爱哲\" / \"我是主播爱哲\"). Scoped to cues that also say 我是 or 主播 so a guest who happens to share the name isn't touched."
+  },
+  {
+    "wrong": "酷杀FM",
+    "right": "故事FM",
+    "note": "The show's own name is 故事FM (confirmed self-referentially — every intro in this corpus says 故事FM correctly). A one-off mishearing seen in E077's outro; kept here in case it recurs."
+  }
+]

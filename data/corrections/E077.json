@@ -1,0 +1,123 @@
+{
+  "episode": "E077",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-09-22",
+  "fixes": [
+    {
+      "cueIndex": 1,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"FM\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 6,
+      "before": "mod elly",
+      "after": "modelly",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split this word/handle into fragments with a 0ms gap; joined back together. The exact right spelling of the handle itself is still unconfirmed — see flagged.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 151,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"FM\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 151,
+      "before": "清理者自述",
+      "after": "亲历者自述",
+      "source": "known-phrase",
+      "reason": "故事FM's fixed tagline (web search).",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 151,
+      "before": "艾哲",
+      "after": "爱哲",
+      "source": "known-phrase",
+      "reason": "Founder's real name is 寇爱哲 (web search).",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 151,
+      "before": "酷杀FM",
+      "after": "故事FM",
+      "source": "known-phrase",
+      "reason": "The show's own name; self-referentially confirmed elsewhere in this same episode (i:1).",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 37,
+      "before": "果蔻网",
+      "after": "果壳网",
+      "source": "llm-review",
+      "reason": "果壳网 (Guokr) is a real, well-known Chinese science-media company; 果蔻 isn't a word.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 63,
+      "before": "执法",
+      "after": "植发",
+      "source": "llm-review",
+      "reason": "The whole episode is about hair transplants (植发); \"执法\" (law enforcement) is topically nonsensical here.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 64,
+      "before": "执法",
+      "after": "植发",
+      "source": "llm-review",
+      "reason": "Same as i:63.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 65,
+      "before": "执过法",
+      "after": "植过发",
+      "source": "llm-review",
+      "reason": "Same as i:63 — talking about Musk and LeBron James rumoured to have had hair transplants.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 65,
+      "before": "马克思",
+      "after": "马斯克",
+      "source": "llm-review",
+      "reason": "Same sentence already correctly says 艾隆马斯克 (Elon Musk) earlier; 马克思 (Karl Marx) a few words later is an internal inconsistency, and the sentence is about Musk and Tesla.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 66,
+      "before": "改编",
+      "after": "改变",
+      "source": "llm-review",
+      "reason": "\"这改编真挺好的\" (this adaptation is quite good) doesn't fit; \"改变\" (this change is quite good) matches the context (noticing Musk's hair got denser).",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 152,
+      "before": "两科",
+      "after": "梁科",
+      "source": "llm-review",
+      "reason": "梁珂/梁科 is a real, confirmed 故事FM producer (web search); \"两科\" isn't a name and is a near-homophone of 梁科 (liǎngkē vs liángkē). Same producer credit appears correctly as 梁科 in E062 i:148.",
+      "appliedAt": "2026-09-22"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 6,
+      "text": "我是modelly自由职业者",
+      "reason": "The spacing bug is fixed (mod elly → modelly), but whether \"modelly\" is the storyteller's actual handle is unconfirmed — flagged confidence on this word was 0.38, the lowest in the episode."
+    },
+    {
+      "cueIndex": 37,
+      "text": "因为我是一个科白哈",
+      "reason": "\"科白\" isn't a standard word (context: explaining why he distrusts traditional medicine, having worked at 果壳网). Possibly 科普控 or similar, but no confident guess."
+    }
+  ]
+}

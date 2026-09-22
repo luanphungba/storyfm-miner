@@ -1,0 +1,104 @@
+{
+  "episode": "E001-2",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-09-22",
+  "fixes": [
+    {
+      "cueIndex": 4,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"FM\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 6,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"FM\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 278,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"FM\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 19,
+      "before": "Q Q",
+      "after": "QQ",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"QQ\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 24,
+      "before": "Q Q",
+      "after": "QQ",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"QQ\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 37,
+      "before": "Q Q",
+      "after": "QQ",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"QQ\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 11,
+      "before": "S har on",
+      "after": "Sharon",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split the name into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 4,
+      "before": "艾哲",
+      "after": "爱哲",
+      "source": "known-phrase",
+      "reason": "Founder's real name is 寇爱哲 (web search). Matches the show's fixed self-introduction.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 6,
+      "before": "FM ”",
+      "after": "FM”",
+      "source": "llm-review",
+      "reason": "Stray space left over from the original \"F M \\\"\" glue-bug text; cosmetic cleanup.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 194,
+      "before": "洗澡",
+      "after": "洗脑",
+      "source": "llm-review",
+      "reason": "\"原来就是洗澡\" (turns out it's just a bath) doesn't fit; \"洗脑\" (brainwashing) is the standard term for cult/MLM indoctrination and phonetically close (xǐzǎo vs xǐnǎo).",
+      "appliedAt": "2026-09-22"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndexes": [
+        7,
+        11,
+        271,
+        274
+      ],
+      "text": "Sarah (i:7) / Sharon (i:11) / 萨尔 (i:271) / 萨瑞 (i:274)",
+      "reason": "The storyteller's chosen English name is transcribed four different ways across the episode. Sharon (i:11) is only glue-bug-fixed spacing, not confirmed as the right name — could genuinely be Sarah. No confident way to pick one without the audio."
+    },
+    {
+      "cueIndex": 189,
+      "text": "第一时间我就想传销的课程来了名字叫商商法我不知道三三法是什么鬼",
+      "reason": "The same MLM course name is transcribed two different ways (商商法, 三三法) within one cue — clearly an ASR inconsistency, but the real name of this specific course isn't something a general search or context can confirm."
+    }
+  ]
+}

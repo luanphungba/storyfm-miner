@@ -1,0 +1,80 @@
+{
+  "episode": "E062",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-09-22",
+  "fixes": [
+    {
+      "cueIndex": 43,
+      "before": "W ord",
+      "after": "Word",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"Word\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 147,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"FM\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 150,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split \"FM\" into fragments; joined back together.",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 147,
+      "before": "清理者自述",
+      "after": "亲历者自述",
+      "source": "known-phrase",
+      "reason": "故事FM's fixed tagline (web search).",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 147,
+      "before": "艾哲",
+      "after": "爱哲",
+      "source": "known-phrase",
+      "reason": "Founder's real name is 寇爱哲 (web search).",
+      "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 98,
+      "before": "挣钱行",
+      "after": "正前方",
+      "source": "llm-review",
+      "reason": "\"挣钱行\" isn't a phrase; \"正前方\" (right in front of) fits the sentence about where the passbook was taped, and is phonetically close (zhèngqiánháng vs zhèngqiánfāng).",
+      "appliedAt": "2026-09-22"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 14,
+      "text": "黑棋一户的那些什么手办啊",
+      "reason": "\"黑棋一户\" isn't a real term — likely a mis-heard anime/franchise name (context: 魔兽世界 and figurines) — but no confident guess at the real name."
+    },
+    {
+      "cueIndex": 23,
+      "text": "他第一反应是是不是走小偷了？",
+      "reason": "\"走小偷了\" is unusual phrasing for \"a thief got in\" — possibly 进小偷/招贼, but not confident enough to pick one without the audio."
+    },
+    {
+      "cueIndex": 56,
+      "text": "有一句话传过三个那儿了之后就变味儿了",
+      "reason": "Reads a little garbled (\"传过三个那儿了\") but the overall meaning — a rumor changing as it spreads — comes through; no confident specific fix."
+    },
+    {
+      "cueIndex": 140,
+      "text": "这个常有的事儿，就是需要辞没有需要赶紧你再去需要辞辞",
+      "reason": "\"辞\" repeated three times doesn't parse (security-check false-alarm scene); genuinely unclear what was actually said."
+    }
+  ],
+  "notes": [
+    "i:148 \"本期节目由梁科制作\" was checked, not fixed — 梁珂/梁科 is a real, confirmed 故事FM producer (web search), so this line is correct as transcribed."
+  ]
+}
