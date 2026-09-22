@@ -35,7 +35,7 @@ body {
 .wrap {
   max-width: 720px;
   margin: 0 auto;
-  padding-block: 24px 120px;
+  padding-block: 24px 176px;
   padding-inline: 16px;
 }
 
@@ -92,6 +92,11 @@ h1 {
   border-color: var(--accent);
   background: var(--accent-soft);
   color: var(--accent);
+}
+
+.chip:disabled {
+  opacity: 0.4;
+  cursor: default;
 }
 
 .cue {
@@ -162,11 +167,69 @@ h1 {
 .player {
   position: fixed;
   inset: auto 0 0 0;
-  padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  padding: 8px 16px calc(10px + env(safe-area-inset-bottom));
   background: var(--surface);
   border-top: 1px solid var(--line);
 }
 
 .player audio { display: block; width: 100%; max-width: 720px; margin: 0 auto; }
+
+/* ---------- loop segment ---------- */
+
+.loopbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  max-width: 720px;
+  margin: 0 auto 8px;
+}
+
+.time-field {
+  display: inline-flex;
+  align-items: stretch;
+  height: 30px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.time-field:focus-within { border-color: var(--accent); }
+.time-field:has(.time-input[aria-invalid="true"]) { border-color: var(--accent); }
+
+.time-input {
+  width: 58px;
+  min-width: 0;
+  border: 0;
+  background: none;
+  color: var(--fg);
+  font: inherit;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+  padding: 0 4px;
+}
+
+.time-input:focus { outline: none; }
+
+.time-now {
+  flex: none;
+  border: 0;
+  border-left: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+  font: inherit;
+  font-size: 12px;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.time-now:hover { color: var(--accent); }
+
+.loopbar-arrow { color: var(--muted); font-size: 13px; }
+
+#loop-toggle { height: 30px; }
+#loop-clear { height: 30px; padding-inline: 10px; }
 
 .note { color: var(--muted); font-size: 14px; }

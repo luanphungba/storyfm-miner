@@ -222,8 +222,112 @@ function applyDeepLink() {
   const times = Number(params.get('loop')) || 1;
 
   // Safari and mobile refuse play() without a gesture; the controls are right there if it does.
-  audio.addEventListener('loadedmetadata', () => startLoop(start, end, times), { once: true });
+  audio.addEventListener('loadedmetadata', () => startLoop(start, end, times, loopToggle), { once: true });
 }
+
+// ---------- loop segment (hand-picked start/end, kept in the URL to share or bookmark) ----------
+
+const loopStartInput = /** @type {HTMLInputElement} */ ($('loop-start'));
+const loopEndInput = /** @type {HTMLInputElement} */ ($('loop-end'));
+const loopToggle = /** @type {HTMLButtonElement} */ ($('loop-toggle'));
+const loopClear = /** @type {HTMLButtonElement} */ ($('loop-clear'));
+
+/** Accepts "1:23", "1:23.4" or bare seconds; null when the text isn't a time. */
+function parseTimeField(/** @type {string} */ text) {
+  const trimmed = text.trim();
+  if (!trimmed) return null;
+
+  const parts = trimmed.split(':');
+  if (parts.length > 2 || parts.some((part) => part === '')) return null;
+
+  const numbers = parts.map(Number);
+  if (numbers.some(Number.isNaN)) return null;
+
+  return parts.length === 2 ? numbers[0] * 60 + numbers[1] : numbers[0];
+}
+
+/** One decimal place, so a phrase a fraction of a second long can still be trimmed precisely. */
+function formatTimeField(/** @type {number} */ seconds) {
+  const minutes = Math.floor(seconds / 60);
+  const rest = seconds - minutes * 60;
+  return `${minutes}:${rest.toFixed(1).padStart(4, '0')}`;
+}
+
+/** Null unless both fields hold a real, ordered range. */
+function loopFieldRange() {
+  const start = parseTimeField(loopStartInput.value);
+  const end = parseTimeField(loopEndInput.value);
+  return start !== null && end !== null && end > start ? { start, end } : null;
+}
+
+/** Re-validates the fields, live-updates a loop already in progress, and syncs the URL. */
+function refreshLoopBar() {
+  const startText = loopStartInput.value.trim();
+  const endText = loopEndInput.value.trim();
+  const start = parseTimeField(startText);
+  const end = parseTimeField(endText);
+  const range = start !== null && end !== null && end > start ? { start, end } : null;
+
+  loopStartInput.setAttribute('aria-invalid', String(startText !== '' && start === null));
+  loopEndInput.setAttribute('aria-invalid', String(endText !== '' && (end === null || (start !== null && end <= start))));
+  loopToggle.disabled = !range;
+  loopClear.hidden = !startText && !endText;
+
+  if (range && loop?.button === loopToggle) {
+    loop.start = range.start;
+    loop.end = range.end;
+  }
+
+  const url = new URL(location.href);
+  if (range) {
+    url.searchParams.set('start', String(Math.round(range.start * 10) / 10));
+    url.searchParams.set('end', String(Math.round(range.end * 10) / 10));
+  } else {
+    url.searchParams.delete('start');
+    url.searchParams.delete('end');
+  }
+  history.replaceState(null, '', url);
+}
+
+for (const input of [loopStartInput, loopEndInput]) {
+  input.addEventListener('change', refreshLoopBar);
+}
+
+$('loop-start-now').addEventListener('click', () => {
+  loopStartInput.value = formatTimeField(audio.currentTime);
+  refreshLoopBar();
+});
+
+$('loop-end-now').addEventListener('click', () => {
+  loopEndInput.value = formatTimeField(audio.currentTime);
+  refreshLoopBar();
+});
+
+loopToggle.addEventListener('click', () => {
+  if (loop?.button === loopToggle) {
+    stopLoop();
+    return;
+  }
+  const range = loopFieldRange();
+  if (range) startLoop(range.start, range.end, Infinity, loopToggle);
+});
+
+loopClear.addEventListener('click', () => {
+  if (loop?.button === loopToggle) stopLoop();
+  loopStartInput.value = '';
+  loopEndInput.value = '';
+  refreshLoopBar();
+});
+
+function initLoopBar() {
+  const start = Number(params.get('start'));
+  const end = Number(params.get('end'));
+  if (params.has('start') && !Number.isNaN(start)) loopStartInput.value = formatTimeField(start);
+  if (params.has('end') && !Number.isNaN(end)) loopEndInput.value = formatTimeField(end);
+  refreshLoopBar();
+}
+
+initLoopBar();
 
 // ---------- extension bridge ----------
 

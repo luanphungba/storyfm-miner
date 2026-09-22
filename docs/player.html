@@ -25,6 +25,19 @@
 </div>
 
 <div class="player">
+  <div class="loopbar" id="loopbar">
+    <span class="time-field">
+      <input class="time-input" id="loop-start" type="text" inputmode="decimal" placeholder="0:00" aria-label="Điểm bắt đầu lặp">
+      <button class="time-now" id="loop-start-now" type="button" title="Lấy thời điểm đang phát">Từ đây</button>
+    </span>
+    <span class="loopbar-arrow" aria-hidden="true">→</span>
+    <span class="time-field">
+      <input class="time-input" id="loop-end" type="text" inputmode="decimal" placeholder="0:00" aria-label="Điểm kết thúc lặp">
+      <button class="time-now" id="loop-end-now" type="button" title="Lấy thời điểm đang phát">Đến đây</button>
+    </span>
+    <button class="chip" id="loop-toggle" type="button" aria-pressed="false" disabled>↻ Lặp</button>
+    <button class="chip" id="loop-clear" type="button" title="Xoá đoạn lặp" hidden>✕</button>
+  </div>
   <audio id="audio" controls preload="metadata"></audio>
 </div>
 
