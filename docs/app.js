@@ -71,9 +71,13 @@ function render() {
   cueBox.replaceChildren(...cues.map((cue) => {
     const row = document.createElement('div');
     row.className = `cue${cue.role === 'narrator' ? ' is-narrator' : ''}`;
+    // ci-start/ci-end, not start/end: the CI extension treats these rows as the native
+    // transcript and reads those keys. Without them it falls back to parsing the visible
+    // "0:12" (losing the decimals) and to holding each line until the next one starts —
+    // which here means looping through the music in the gap.
     row.dataset.i = String(cue.i);
-    row.dataset.start = String(cue.start);
-    row.dataset.end = String(cue.end);
+    row.dataset.ciStart = String(cue.start);
+    row.dataset.ciEnd = String(cue.end);
 
     const time = document.createElement('span');
     time.className = 'time';
@@ -164,8 +168,8 @@ cueBox.addEventListener('click', (event) => {
   const row = /** @type {HTMLElement | null} */ (target.closest('.cue'));
   if (!row) return;
 
-  const start = Number(row.dataset.start);
-  const end = Number(row.dataset.end);
+  const start = Number(row.dataset.ciStart);
+  const end = Number(row.dataset.ciEnd);
 
   if (target.classList.contains('loop')) {
     if (loop?.button === target) stopLoop();
