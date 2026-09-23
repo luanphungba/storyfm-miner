@@ -137,16 +137,18 @@ function startLoop(/** @type {number} */ start, /** @type {number} */ end, times
   audio.play();
 }
 
+/** Stops the audio too: a loop switched off mid-line otherwise runs on into whatever follows,
+ * and on 故事FM that is usually several seconds of outro music before the next line starts. */
 function stopLoop() {
   loop?.button?.setAttribute('aria-pressed', 'false');
   loop = null;
+  audio.pause();
 }
 
 audio.addEventListener('timeupdate', () => {
   if (loop && audio.currentTime >= loop.end) {
     if (loop.left <= 1) {
       stopLoop();
-      audio.pause();
     } else {
       loop.left -= 1;
       audio.currentTime = loop.start;
