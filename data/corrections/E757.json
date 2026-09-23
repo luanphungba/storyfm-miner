@@ -1,0 +1,157 @@
+{
+  "episode": "E757",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-09-23",
+  "fixes": [
+    {
+      "cueIndex": 5,
+      "before": "艾",
+      "after": "爱",
+      "source": "known-phrase",
+      "reason": "Matches a known recurring mistake in the show's fixed script (scripts/known-fixes.json).",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 181,
+      "before": "海洋宁",
+      "after": "海医安宁",
+      "source": "llm-review",
+      "reason": "The org's name is established explicitly at cue 15 (\"海淀医院安宁疗护中心也被业内人简称为'海医安宁'\"); ASR misheard it here.",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 183,
+      "before": "海燕宁",
+      "after": "海医安宁",
+      "source": "llm-review",
+      "reason": "Same established org name (海医安宁, cue 15), misheard.",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 184,
+      "before": "海燕宁",
+      "after": "海医安宁",
+      "source": "llm-review",
+      "reason": "Same established org name (海医安宁, cue 15), misheard.",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 251,
+      "before": "海一安宁",
+      "after": "海医安宁",
+      "source": "llm-review",
+      "reason": "Same established org name (海医安宁, cue 15); 医/一 are homophones (both yī).",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 252,
+      "before": "海一安宁",
+      "after": "海医安宁",
+      "source": "llm-review",
+      "reason": "Same established org name (海医安宁, cue 15); 医/一 are homophones (both yī).",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 252,
+      "before": "手工师",
+      "after": "社工师",
+      "source": "llm-review",
+      "reason": "\"手工师\" (handicraft master) isn't a real job title and doesn't fit pairing with 心理师 (psychologist) on a hospice case team; 社工师 (social worker) is the standard title that fits, and 手工/社工 are a plausible ASR confusion.",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 269,
+      "before": "海一安宁",
+      "after": "海医安宁",
+      "source": "llm-review",
+      "reason": "Same established org name (海医安宁, cue 15); 医/一 are homophones (both yī).",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 324,
+      "before": "流行肺炎复发的时候",
+      "after": "入性肺炎复发的时候",
+      "source": "llm-review",
+      "reason": "Cue 323 cuts off mid-word (\"后来第二次吸。\"); combined with this cue it should read \"第二次吸入性肺炎复发\", matching the established term 吸入性肺炎 (aspiration pneumonia) from cue 316. \"流行肺炎\" as transcribed doesn't complete the sentence grammatically.",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 331,
+      "before": "然后杨老师说",
+      "after": "然后洋老师说",
+      "source": "llm-review",
+      "reason": "王洋老师 (the psychologist) is established at cues 184/205/208; 杨/洋 are exact homophones (both yáng), and no other 杨-surnamed person appears anywhere else in the episode.",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 333,
+      "before": "方向合伙团队",
+      "after": "芳香呵护团队",
+      "source": "llm-review",
+      "reason": "Matches the established program name 芳香呵护团队 (aromatherapy care team, cue 261); 方向/芳香 and 合伙/呵护 are close-sounding pairs, and \"direction partnership team\" isn't a real term.",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 339,
+      "before": "做方向呵护",
+      "after": "做芳香呵护",
+      "source": "llm-review",
+      "reason": "Same established term 芳香呵护 (cue 261); 方向/芳香 are close-sounding.",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 339,
+      "before": "赖他叔",
+      "after": "赖大叔",
+      "source": "llm-review",
+      "reason": "赖大叔 (赖佩文老师) is established by name at cue 262; \"赖他叔\" isn't a coherent phrase, and t/d-initial confusion (他/大) is a common Mandarin ASR error.",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 341,
+      "before": "精油辅触",
+      "after": "精油抚触",
+      "source": "llm-review",
+      "reason": "抚触 (fǔchù, massage/touch) is a real term matching \"我们用手和他的肌肤身体接触\" from cue 264; 辅/抚 are exact homophones (both fǔ), whereas \"辅触\" isn't a word.",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 344,
+      "before": "方前和后",
+      "after": "芳香呵护",
+      "source": "llm-review",
+      "reason": "Same established term 芳香呵护 (cue 261); 方前和后/芳香呵护 are close-sounding as a four-syllable unit.",
+      "appliedAt": "2026-09-23"
+    },
+    {
+      "cueIndex": 346,
+      "before": "方前和后",
+      "after": "芳香呵护",
+      "source": "llm-review",
+      "reason": "Same established term 芳香呵护 (cue 261); 方前和后/芳香呵护 are close-sounding as a four-syllable unit.",
+      "appliedAt": "2026-09-23"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 124,
+      "text": "呃，七月，我妈妈的楼上的邻居就是海淀医院安宁病房的主任秦院。",
+      "reason": "\"秦院\" doesn't clearly resolve to anything — the person is called just \"主任\" everywhere else in the episode, and there's no public record to check this private individual's name against. Left as-is."
+    },
+    {
+      "cueIndex": 324,
+      "text": "入性肺炎复发的时候，我正好在去延庆的路上，养老院跟我说了进，说我爸又发烧了什么的，",
+      "reason": "\"说了进，\" doesn't parse and AssemblyAI's own confidence on it is low (0.4), but no candidate replacement is clearly right. Left as-is."
+    },
+    {
+      "cueIndex": 331,
+      "text": "然后这次我就下定决心不送医院，然后洋老师说赶紧叫护救护车。",
+      "reason": "\"叫护救护车\" is ungrammatical (duplicated 护) and confidence is low across most of this cue (然后 0.5, 护 0.5, 救 0.41), but no confident replacement presents itself. Left as-is beyond the 杨→洋 fix already applied."
+    },
+    {
+      "cueIndex": 471,
+      "text": "你现在正在收听的是《亲历者自述的声音》节目故事F M，我是主办者。",
+      "reason": "\"我是主办者\" doesn't match the host's established self-introduction elsewhere (\"我是爱哲\", cue 5) and no other episode in this corpus closes with this recap-style line to compare against. Not phonetically close enough to 爱哲 to confidently substitute — worth checking against the audio."
+    }
+  ]
+}
