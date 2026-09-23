@@ -225,6 +225,26 @@ function applyDeepLink() {
   audio.addEventListener('loadedmetadata', () => startLoop(start, end, times, loopToggle), { once: true });
 }
 
+// ---------- playback speed (remembered across episodes, for slow-listen study) ----------
+
+const SPEED_STORAGE_KEY = 'ci-playback-rate';
+const speedButtons = [...document.querySelectorAll('.speed')];
+
+function setRate(/** @type {number} */ rate) {
+  audio.playbackRate = rate;
+  for (const button of speedButtons) {
+    button.setAttribute('aria-pressed', String(Number(button.dataset.rate) === rate));
+  }
+  localStorage.setItem(SPEED_STORAGE_KEY, String(rate));
+}
+
+for (const button of speedButtons) {
+  button.addEventListener('click', () => setRate(Number(button.dataset.rate)));
+}
+
+const savedRate = Number(localStorage.getItem(SPEED_STORAGE_KEY));
+if (savedRate) setRate(savedRate);
+
 // ---------- loop segment (hand-picked start/end, kept in the URL to share or bookmark) ----------
 
 const loopStartInput = /** @type {HTMLInputElement} */ ($('loop-start'));

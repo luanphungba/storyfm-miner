@@ -176,7 +176,7 @@ h1 {
 
 /* ---------- loop segment ---------- */
 
-.loopbar {
+.loopbar, .speedbar {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
