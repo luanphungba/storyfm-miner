@@ -4,7 +4,8 @@ description: >
   Add a new 故事FM transcript to storyfm-miner end-to-end, starting from a
   小宇宙 (xiaoyuzhoufm.com) episode link (or an episode id like E757, or a
   故事FM episode name). Covers everything from resolving the link to an
-  episode id, transcribing it, checking transcript quality, through staging
+  episode id, transcribing it, checking transcript quality, writing the
+  vocabulary gloss the player shows when a word is tapped, through staging
   the result for commit. Use this whenever the user says something like
   "thêm cho tôi podcast này: https://www.xiaoyuzhoufm.com/episode/...",
   "add this episode", "transcribe E910", or pastes a xiaoyuzhoufm.com/episode
@@ -67,16 +68,58 @@ transcript against the raw ASR response and has its own confidence bar for what 
 genuine fix versus something to flag — don't duplicate or second-guess its judgment here, just
 chain into it and relay what it reports back (fixes made, and anything it flagged as uncertain).
 
-## 4. Stage, summarize, confirm — don't commit or push on your own
+## 4. Build the word data and gloss the new vocabulary
 
-`add` and `verify-transcript` together touch: `data/raw/<id>.json`, `docs/data/<id>.json`,
-`docs/data/index.json`, and `data/corrections/<id>.json`. Run `git status --short` to show exactly
+The player renders each line as tappable words and shows a card with the reading, Hán Việt, a
+one-line Vietnamese meaning and the HSK band. A new episode has none of that until it is built, and
+a word with no meaning shows "chưa có nghĩa" — which is what the reader hits, because they tap the
+words they do not know, and those are exactly the rare ones. **An episode is not done until every
+word has a meaning.** README's "Tap a word, get its meaning" section has the full design.
+
+```
+python3 tools/build_tokens.py <ID>   # cut into words (also recounts frequencies across all episodes)
+node tools/build_gloss.mjs <ID>      # readings + whatever is already written by hand
+node tools/todo_gloss.mjs <ID>       # what is left to write
+```
+
+`todo_gloss` prints one line per word: the word, the reading that will ship, its HSK band (or `—`
+for off-list, `TÊN` for a name), and CC-CEDICT's English sense. Expect **500–800 words** for a new
+episode: `tools/gloss-vi.json` is shared across every episode, so most vocabulary is already there.
+
+Write entries into `tools/gloss-vi.json` as `"词": ["HÁN VIỆT", "nghĩa tiếng Việt"]`, in batches of
+~350, rebuilding after each. Four rules, all of them learned the hard way:
+
+- **Only those two fields are written by hand.** The reading, the HSK band and the name tag are
+  looked up by the tools. Never type a pinyin or a band from memory — that is precisely the mistake
+  that put a wrong HSK level on 189 of the user's Anki cards.
+- **Write the meaning from the CC-CEDICT sense on the line**, not from recall, and keep it to one
+  short phrase. It is the only field no tool can check afterwards.
+- **Leave the Hán Việt as `""` rather than guess.** Interjections and rare colloquialisms often
+  have no settled reading; a blank line is harmless, a confident wrong one teaches the user an error.
+  Same bar as the transcript: certain, or say nothing.
+- **Mis-segmented fragments still get an entry.** jieba sometimes cuts a phrase oddly (了看, 我会);
+  gloss it as what it is, e.g. `"(cắt từ chưa chuẩn của 掀了看: lật lên xem)"`, so the card is never
+  blank.
+
+Then run `node tools/audit.mjs` and read what it prints **before** reporting anything. It re-derives
+every mechanical field from a source other than the one that built it. Leftover items are normally
+just polyphonic characters with two legitimate Hán Việt readings (中 TRUNG/TRÚNG, 乐 LẠC/NHẠC) —
+check each is assigned correctly rather than assuming.
+
+## 5. Stage, summarize, confirm — don't commit or push on your own
+
+These steps together touch: `data/raw/<id>.json`, `docs/data/<id>.json`, `docs/data/index.json`,
+`data/corrections/<id>.json`, the two sidecars `docs/data/<id>.tok.json` and
+`docs/data/<id>.gloss.json`, and `tools/gloss-vi.json`. Note that `build_tokens.py` recounts word
+frequencies across every episode, so the other episodes' `.tok.json` files change too — that is
+expected, not a stray edit. Run `git status --short` to show exactly
 what changed, then give the user a short summary:
 
 - episode id + title
 - punctuation-quality % (and whether it's a concern)
 - how many fixes verify-transcript made, and — this is the important part — every `flagged` entry
   by name, since those are the spots where the transcript might not match the audio
+- how many words were glossed, that `todo_gloss` now reports 0 left, and what `audit.mjs` printed
 
 Committing is a visible, shared action (it goes into the user's git history), and pushing publishes
 it to GitHub Pages, so **do not commit or push without the user explicitly saying to.** Once they

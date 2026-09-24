@@ -233,3 +233,23 @@ h1 {
 #loop-clear { height: 30px; padding-inline: 10px; }
 
 .note { color: var(--muted); font-size: 14px; }
+
+/* A tapped word and the card that answers it. Words carry no marking of their own: every attempt to
+   mark them by HSK band lit up three quarters of the page, because almost everything spoken is
+   common vocabulary, and a mark that covers everything says nothing. */
+.cue .zh .w { cursor: pointer; border-radius: 3px; }
+.cue .zh .w.is-open { background: var(--accent); color: #fff; }
+
+#gloss {
+  max-width: 720px;
+  margin: 0 auto 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--accent-soft);
+}
+#gloss .g-word { font-size: 22px; font-weight: 600; }
+#gloss .g-reading { margin-top: 2px; font-size: 14px; color: var(--accent); letter-spacing: .3px; }
+#gloss .g-meaning { margin-top: 6px; font-size: 16px; }
+#gloss .g-meaning.is-empty { color: var(--muted); font-style: italic; }
+#gloss .g-meta { margin-top: 6px; font-size: 13px; color: var(--muted); }

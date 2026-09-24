@@ -27,6 +27,10 @@ storyfm add E077 --narrator B # override which speaker is the host
 
 npm test                      # unit tests
 npm run serve                 # http://localhost:8080
+
+python3 tools/build_tokens.py # cut every transcript into tappable words
+node tools/build_gloss.mjs    # build the gloss the player shows on a tap
+node tools/audit.mjs          # cross-check both against sources that did not build them
 ```
 
 `add` does not commit. Review the result, then commit `docs/data` and `data/raw` yourself.
@@ -49,6 +53,36 @@ RSS (data/feed.xml)
 | `src/roles.js` | Guess which speaker is the host 爱哲. Pure, tested |
 | `src/build.js` | Assemble the episode file and index. Written once, via a temp file |
 | `docs/` | GitHub Pages root. Vanilla HTML/CSS/JS, no build step |
+
+## Tap a word, get its meaning
+
+The player renders each line as word spans and shows a card when one is tapped: reading, Hán Việt,
+a one-line Vietnamese meaning, then the HSK band and how often the word is said. Tapping a word does
+not move the audio; tapping anywhere else on the line still seeks, as it always did. Nothing on the
+transcript is marked, because marking was measured and did not pay: colouring every word at HSK 1-3
+lit up 73% of the page, since almost everything spoken is common vocabulary.
+
+Each field comes from wherever it can be looked up, and only the last two are written by hand:
+
+| Field | Source |
+|---|---|
+| word boundaries | jieba, offline — browsers cut 互联网 into 互/联/网 |
+| HSK band | `tools/hsk-bands.json`, the 2021 syllabus |
+| proper noun | jieba's tag, minus anything the HSK list or CC-CEDICT calls an ordinary word |
+| times said | counted across every episode present |
+| pinyin | pinyin-pro reading the line, with CC-CEDICT's neutral tones merged in |
+| Hán Việt, meaning | `tools/gloss-vi.json`, written by hand, shared by every episode |
+
+Two sidecars are built per episode and fetched after the transcript is already on screen, so a page
+with no sidecar — or a phone on a bad connection — still reads: `EXXX.tok.json` (spans) and
+`EXXX.gloss.json` (what the card shows).
+
+`tools/audit.mjs` re-derives each field from a direction other than the one that built it and prints
+the disagreements. It has caught, in order: the pinyin taken from CC-CEDICT's first entry (说 as
+*shuì*), 124 lines whose readings were shifted by a run of digits, 168 ordinary words tagged proper
+nouns (孝顺, 东西, 老公), and 248 words whose neutral tone was rendered as a full one (朋友 as
+*péng yǒu*). The Vietnamese meanings are the one field it cannot check — there is no second source
+to hold them against, so they stay a reading job.
 
 ## Notes
 

@@ -4,3 +4,4 @@ node_modules/
 
 # Fake transcript used to eyeball the player before a real episode exists.
 docs/data/DEMO.json
+tools/.cache/

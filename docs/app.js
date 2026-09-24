@@ -28,6 +28,14 @@ const episodeId = params.get('ep');
 
 /** @type {{ i: number, start: number, end: number, text: string, speaker: string, role: string }[]} */
 let cues = [];
+
+/** Word spans and their glosses, both built offline — see tools/build_tokens.py and build_gloss.py.
+ * They arrive after the transcript is already on screen: the page has to be readable without them,
+ * because older episodes have no sidecar and a phone on a bad connection should still get the text. */
+/** @type {number[][][] | null} */
+let tokens = null;
+/** @type {Record<string, string[]> | null} */
+let gloss = null;
 /** @type {{ start: number, end: number, left: number, button: HTMLElement | null } | null} */
 let loop = null;
 let currentIndex = -1;
@@ -63,6 +71,7 @@ async function load() {
   render();
   announce('cues', { lang: CUE_LANG, cues });
   applyDeepLink();
+  loadWords();
 }
 
 // ---------- render ----------
@@ -97,6 +106,96 @@ function render() {
     row.append(time, text, loopButton);
     return row;
   }));
+}
+
+// ---------- words ----------
+
+/** Chinese runs together, so a tap has to know where the word it landed in begins and ends. The
+ * browser cannot work that out: its own segmenter splits 互联网 into 互/联/网 and 面试官 into
+ * 面试/官. The spans are therefore cut offline by jieba and only rendered here. */
+async function loadWords() {
+  const [tok, gl] = await Promise.all([
+    fetch(`data/${episodeId}.tok.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+    fetch(`data/${episodeId}.gloss.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+  ]);
+  if (!tok || !gl) return;
+  tokens = tok.cues;
+  gloss = gl;
+  decorate();
+}
+
+/** Rewrites each line as word spans plus the punctuation between them. The cue order and the
+ * .cue/.zh shape stay exactly as they were: the extension maps a selection back to a cue by DOM
+ * position, so only the inside of .zh changes. */
+function decorate() {
+  if (!tokens) return;
+  cues.forEach((cue, index) => {
+    const spans = tokens[index];
+    const host = cueBox.children[index]?.querySelector('.zh');
+    if (!spans || !host) return;
+    const parts = [];
+    let at = 0;
+    for (const [start, length, band, count, isName] of spans) {
+      if (start > at) parts.push(cue.text.slice(at, start));
+      const word = document.createElement('span');
+      word.className = 'w';
+      word.textContent = cue.text.slice(start, start + length);
+      // Carried on the span so the card can answer "how common is this, and is it worth a card?"
+      // without going back to the token file for every tap.
+      if (band) word.dataset.band = String(band);
+      if (isName) word.dataset.name = '1';
+      word.dataset.count = String(count);
+      parts.push(word);
+      at = start + length;
+    }
+    if (at < cue.text.length) parts.push(cue.text.slice(at));
+    host.replaceChildren(...parts);
+  });
+}
+
+const card = $('gloss');
+let openWord = null;
+
+/** The card sits above the audio bar rather than floating by the word: on a phone a tooltip next to
+ * the text either covers the line being read or lands off-screen, and the reader is looking down at
+ * the controls anyway. */
+function showGloss(/** @type {HTMLElement} */ span) {
+  const word = span.textContent ?? '';
+  const entry = gloss?.[word];
+  const [reading, hanviet, meaning] = entry ?? [];
+  openWord?.classList.remove('is-open');
+  span.classList.add('is-open');
+  openWord = span;
+
+  card.innerHTML = '';
+  const line = (className, text) => {
+    if (!text) return;
+    const element = document.createElement('div');
+    element.className = className;
+    element.textContent = text;
+    card.append(element);
+  };
+  line('g-word', word);
+  line('g-reading', [reading, hanviet?.toUpperCase()].filter(Boolean).join('   ·   '));
+  // An unauthored word says so. A guess here would be worse than a blank: the reader cannot tell a
+  // wrong meaning from a right one, and a wrong one is what ends up on a flashcard.
+  line('g-meaning', meaning || 'chưa có nghĩa');
+  if (!meaning) card.lastElementChild?.classList.add('is-empty');
+
+  // The level says how much of spoken Chinese this word buys: band 1 words are 50% of everything
+  // said, band 7-9 words are the long tail. A word on no list is not a failure to know it — 播客 and
+  // 面试官 are ordinary speech that the syllabus simply does not cover — so it says so plainly.
+  const band = span.dataset.band;
+  const level = span.dataset.name ? 'tên riêng' : band ? `HSK ${band === '7' ? '7-9' : band}` : 'ngoài HSK';
+  const times = Number(span.dataset.count);
+  line('g-meta', `${level} · gặp ${times} lần trong các tập đã có`);
+  card.hidden = false;
+}
+
+function hideGloss() {
+  card.hidden = true;
+  openWord?.classList.remove('is-open');
+  openWord = null;
 }
 
 // ---------- playback ----------
@@ -177,6 +276,14 @@ cueBox.addEventListener('click', (event) => {
     return;
   }
 
+  // Tapping a word is reading, not listening: it must not move the audio, or looking a word up
+  // throws away the line you were on. The rest of the row still seeks, as it always did.
+  if (target.classList.contains('w')) {
+    showGloss(target);
+    return;
+  }
+
+  hideGloss();
   stopLoop();
   audio.currentTime = start;
   audio.play();
