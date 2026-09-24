@@ -1,0 +1,8358 @@
+{
+ "的": [
+  "ĐÍCH",
+  "trợ từ sở hữu / định ngữ: của, cái mà"
+ ],
+ "我": [
+  "NGÃ",
+  "tôi, tớ, mình"
+ ],
+ "就": [
+  "TỰU",
+  "liền, ngay; chính là"
+ ],
+ "了": [
+  "LIỄU",
+  "trợ từ: việc đã xong, đã rồi"
+ ],
+ "他": [
+  "THA",
+  "anh ấy, ông ấy, nó"
+ ],
+ "是": [
+  "THỊ",
+  "là; đúng, phải"
+ ],
+ "然后": [
+  "NHIÊN HẬU",
+  "sau đó, rồi thì"
+ ],
+ "你": [
+  "NHĨ",
+  "bạn, anh, chị"
+ ],
+ "就是": [
+  "TỰU THỊ",
+  "chính là; chỉ là, có điều"
+ ],
+ "在": [
+  "TẠI",
+  "ở; đang (làm gì)"
+ ],
+ "那个": [
+  "NA CÁ",
+  "cái đó, cái kia; (đệm) cái... ấy"
+ ],
+ "说": [
+  "THUYẾT",
+  "nói, bảo, kể"
+ ],
+ "有": [
+  "HỮU",
+  "có"
+ ],
+ "也": [
+  "DÃ",
+  "cũng"
+ ],
+ "自己": [
+  "TỰ KỶ",
+  "bản thân, chính mình"
+ ],
+ "时候": [
+  "THỜI HẬU",
+  "lúc, khi, thời điểm"
+ ],
+ "人": [
+  "NHÂN",
+  "người"
+ ],
+ "一个": [
+  "NHẤT CÁ",
+  "một (cái, người)"
+ ],
+ "不": [
+  "BẤT",
+  "không"
+ ],
+ "都": [
+  "ĐÔ",
+  "đều, cả"
+ ],
+ "去": [
+  "KHỨ",
+  "đi, đi tới"
+ ],
+ "这个": [
+  "GIÁ CÁ",
+  "cái này"
+ ],
+ "妈": [
+  "MA",
+  "mẹ, má"
+ ],
+ "特别": [
+  "ĐẶC BIỆT",
+  "đặc biệt; rất, nhất là"
+ ],
+ "把": [
+  "BẢ",
+  "trợ từ đưa tân ngữ lên trước động từ; nắm, cầm"
+ ],
+ "那": [
+  "NA",
+  "kia, đó; vậy thì"
+ ],
+ "他们": [
+  "THA MÔN",
+  "họ, bọn họ"
+ ],
+ "呢": [
+  "NE",
+  "trợ từ cuối câu hỏi; còn... thì sao"
+ ],
+ "她": [
+  "THA",
+  "cô ấy, bà ấy"
+ ],
+ "给": [
+  "CẤP",
+  "cho, đưa cho; giúp"
+ ],
+ "我们": [
+  "NGÃ MÔN",
+  "chúng tôi, chúng ta"
+ ],
+ "这": [
+  "GIÁ",
+  "này, đây"
+ ],
+ "和": [
+  "HÒA",
+  "và, với; hòa thuận"
+ ],
+ "到": [
+  "ĐÁO",
+  "đến, tới; (bổ ngữ) được, thấy"
+ ],
+ "但是": [
+  "ĐÃN THỊ",
+  "nhưng, thế nhưng"
+ ],
+ "想": [
+  "TƯỞNG",
+  "nghĩ; muốn; nhớ"
+ ],
+ "让": [
+  "NHƯỢNG",
+  "để cho, bảo ai làm gì; nhường"
+ ],
+ "啊": [
+  "A",
+  "à, a (thán từ, trợ từ cảm thán)"
+ ],
+ "觉着": [
+  "GIÁC TRƯỚC",
+  "cảm thấy, thấy rằng (khẩu ngữ)"
+ ],
+ "医院": [
+  "Y VIỆN",
+  "bệnh viện"
+ ],
+ "安宁": [
+  "AN NINH",
+  "yên ổn, thanh thản; (y tế) giảm nhẹ"
+ ],
+ "所以": [
+  "SỞ DĨ",
+  "cho nên, vì vậy"
+ ],
+ "因为": [
+  "NHÂN VI",
+  "bởi vì, vì"
+ ],
+ "跟": [
+  "CÂN",
+  "với, cùng; đi theo"
+ ],
+ "要": [
+  "YẾU",
+  "cần, muốn; sẽ, phải"
+ ],
+ "着": [
+  "TRƯỚC",
+  "trợ từ: đang, ở trạng thái đó"
+ ],
+ "患者": [
+  "HOẠN GIẢ",
+  "bệnh nhân"
+ ],
+ "老师": [
+  "LÃO SƯ",
+  "thầy giáo, cô giáo"
+ ],
+ "嗯": [
+  "",
+  "ừ, ờ (tiếng đệm)"
+ ],
+ "会": [
+  "HỘI",
+  "biết làm; sẽ, có thể; cuộc họp"
+ ],
+ "能": [
+  "NĂNG",
+  "có thể, đủ sức, được phép"
+ ],
+ "怎么": [
+  "CHẨM MA",
+  "thế nào, làm sao"
+ ],
+ "事儿": [
+  "SỰ NHI",
+  "việc, chuyện"
+ ],
+ "什么": [
+  "THẬP MA",
+  "cái gì, gì"
+ ],
+ "讲": [
+  "GIẢNG",
+  "nói, kể; giảng giải"
+ ],
+ "最后": [
+  "TỐI HẬU",
+  "cuối cùng, sau cùng"
+ ],
+ "这样": [
+  "GIÁ DẠNG",
+  "như thế này, như vậy"
+ ],
+ "感觉": [
+  "CẢM GIÁC",
+  "cảm giác; cảm thấy"
+ ],
+ "死亡": [
+  "TỬ VONG",
+  "cái chết, tử vong"
+ ],
+ "出来": [
+  "XUẤT LAI",
+  "ra, đi ra; (bổ ngữ) nhận ra"
+ ],
+ "志愿者": [
+  "CHÍ NGUYỆN GIẢ",
+  "tình nguyện viên"
+ ],
+ "后来": [
+  "HẬU LAI",
+  "về sau, sau đó"
+ ],
+ "病房": [
+  "BỆNH PHÒNG",
+  "phòng bệnh (trong bệnh viện)"
+ ],
+ "没有": [
+  "MỘT HỮU",
+  "không có; chưa (làm gì)"
+ ],
+ "开始": [
+  "KHAI THỦY",
+  "bắt đầu; lúc đầu"
+ ],
+ "好": [
+  "HẢO",
+  "tốt, được, ổn"
+ ],
+ "可以": [
+  "KHẢ DĨ",
+  "có thể, được phép"
+ ],
+ "为": [
+  "VI",
+  "vì, cho; làm, coi là"
+ ],
+ "妈妈": [
+  "MA MA",
+  "mẹ"
+ ],
+ "以后": [
+  "DĨ HẬU",
+  "sau này, về sau"
+ ],
+ "那种": [
+  "NA CHỦNG",
+  "loại đó, kiểu đó"
+ ],
+ "做": [
+  "TỐ",
+  "làm, chế tạo; đảm nhận"
+ ],
+ "母亲": [
+  "MẪU THÂN",
+  "mẹ, người mẹ (trang trọng)"
+ ],
+ "对": [
+  "ĐỐI",
+  "đúng; đối với, với"
+ ],
+ "知道": [
+  "TRI ĐẠO",
+  "biết, hay biết"
+ ],
+ "当时": [
+  "ĐƯƠNG THỜI",
+  "lúc đó, hồi đó"
+ ],
+ "之后": [
+  "CHI HẬU",
+  "sau đó, sau khi"
+ ],
+ "个": [
+  "CÁ",
+  "lượng từ chung: cái, người"
+ ],
+ "又": [
+  "HỰU",
+  "lại, lại nữa"
+ ],
+ "走": [
+  "TẨU",
+  "đi, bước đi; rời đi"
+ ],
+ "故事": [
+  "CỐ SỰ",
+  "câu chuyện"
+ ],
+ "爱": [
+  "ÁI",
+  "yêu, thương; thích"
+ ],
+ "现在": [
+  "HIỆN TẠI",
+  "bây giờ, hiện giờ"
+ ],
+ "还是": [
+  "HOÀN THỊ",
+  "vẫn (như cũ); hay là"
+ ],
+ "东西": [
+  "ĐÔNG TÂY",
+  "đồ, thứ, món"
+ ],
+ "吗": [
+  "MA",
+  "trợ từ nghi vấn: ... không?"
+ ],
+ "很": [
+  "NGẬN",
+  "rất"
+ ],
+ "这种": [
+  "GIÁ CHỦNG",
+  "loại này, kiểu này"
+ ],
+ "团队": [
+  "ĐOÀN ĐỘI",
+  "đội, ê-kíp, nhóm làm việc"
+ ],
+ "爸": [
+  "BA",
+  "bố, ba"
+ ],
+ "生命": [
+  "SINH MỆNH",
+  "sinh mệnh, sự sống"
+ ],
+ "这些": [
+  "GIÁ TA",
+  "những cái này"
+ ],
+ "父亲": [
+  "PHỤ THÂN",
+  "cha, bố (trang trọng)"
+ ],
+ "还": [
+  "HOÀN",
+  "còn, vẫn; thêm nữa"
+ ],
+ "一": [
+  "NHẤT",
+  "một"
+ ],
+ "上": [
+  "THƯỢNG",
+  "trên; lên, đi tới"
+ ],
+ "没": [
+  "MỘT",
+  "không, chưa (phủ định động từ)"
+ ],
+ "嘛": [
+  "MA",
+  "trợ từ nhấn: mà, thì"
+ ],
+ "得": [
+  "ĐẮC",
+  "trợ từ nối bổ ngữ mức độ; được, phải"
+ ],
+ "服务": [
+  "PHỤC VỤ",
+  "phục vụ; dịch vụ"
+ ],
+ "从": [
+  "TÒNG",
+  "từ (mốc thời gian, nơi chốn)"
+ ],
+ "看": [
+  "KHÁN",
+  "nhìn, xem; khám (bệnh)"
+ ],
+ "来": [
+  "LAI",
+  "đến, tới; (bổ ngữ) lại đây"
+ ],
+ "呵护": [
+  "HA HỘ",
+  "chở che, chăm chút"
+ ],
+ "还有": [
+  "HOÀN HỮU",
+  "còn có, ngoài ra"
+ ],
+ "活": [
+  "HOẠT",
+  "sống; việc làm"
+ ],
+ "用": [
+  "DỤNG",
+  "dùng, sử dụng"
+ ],
+ "里": [
+  "LÝ",
+  "trong, bên trong"
+ ],
+ "已经": [
+  "DĨ KINH",
+  "đã, đã rồi"
+ ],
+ "陪": [
+  "BỒI",
+  "đi cùng, ở bên"
+ ],
+ "可能": [
+  "KHẢ NĂNG",
+  "có thể, có lẽ; khả năng"
+ ],
+ "感受": [
+  "CẢM THỤ",
+  "cảm nhận; điều cảm thấy"
+ ],
+ "一次": [
+  "NHẤT THỨ",
+  "một lần"
+ ],
+ "很多": [
+  "NGẬN ĐA",
+  "rất nhiều"
+ ],
+ "被": [
+  "BỊ",
+  "bị, được (câu bị động)"
+ ],
+ "多": [
+  "ĐA",
+  "nhiều"
+ ],
+ "啥": [
+  "",
+  "gì, cái gì (khẩu ngữ)"
+ ],
+ "不是": [
+  "BẤT THỊ",
+  "không phải"
+ ],
+ "挺": [
+  "ĐĨNH",
+  "khá, rất (khẩu ngữ)"
+ ],
+ "一直": [
+  "NHẤT TRỰC",
+  "suốt, luôn, mãi"
+ ],
+ "过程": [
+  "QUÁ TRÌNH",
+  "quá trình"
+ ],
+ "一些": [
+  "NHẤT TA",
+  "một ít, vài"
+ ],
+ "别人": [
+  "BIỆT NHÂN",
+  "người khác"
+ ],
+ "人生": [
+  "NHÂN SINH",
+  "đời người, cuộc đời"
+ ],
+ "学": [
+  "HỌC",
+  "học, học tập"
+ ],
+ "大家": [
+  "ĐẠI GIA",
+  "mọi người"
+ ],
+ "治疗": [
+  "TRỊ LIỆU",
+  "điều trị, chữa trị"
+ ],
+ "一种": [
+  "NHẤT CHỦNG",
+  "một loại, một kiểu"
+ ],
+ "癌症": [
+  "NHAM CHỨNG",
+  "bệnh ung thư"
+ ],
+ "送": [
+  "TỐNG",
+  "đưa, tiễn; tặng"
+ ],
+ "状态": [
+  "TRẠNG THÁI",
+  "trạng thái, tình trạng"
+ ],
+ "有些": [
+  "HỮU TA",
+  "một số; có phần, hơi"
+ ],
+ "疼": [
+  "ĐÔNG",
+  "đau; thương, cưng"
+ ],
+ "再": [
+  "TÁI",
+  "lại, nữa; rồi hãy"
+ ],
+ "这么": [
+  "GIÁ MA",
+  "thế này, đến thế"
+ ],
+ "里边": [
+  "LÝ BIÊN",
+  "bên trong"
+ ],
+ "觉得": [
+  "GIÁC ĐẮC",
+  "cảm thấy, thấy rằng"
+ ],
+ "不能": [
+  "BẤT NĂNG",
+  "không thể, không được"
+ ],
+ "不会": [
+  "BẤT HỘI",
+  "sẽ không; không biết làm"
+ ],
+ "中": [
+  "TRUNG",
+  "trong, giữa; Trung Quốc"
+ ],
+ "离世": [
+  "LY THẾ",
+  "qua đời, lìa đời"
+ ],
+ "内心": [
+  "NỘI TÂM",
+  "trong lòng, nội tâm"
+ ],
+ "过": [
+  "QUÁ",
+  "qua; trợ từ: đã từng"
+ ],
+ "照顾": [
+  "CHIẾU CỐ",
+  "chăm sóc, trông nom"
+ ],
+ "结果": [
+  "KẾT QUẢ",
+  "kết quả; rốt cuộc"
+ ],
+ "拿": [
+  "NÃ",
+  "cầm, lấy, mang"
+ ],
+ "那儿": [
+  "NA NHI",
+  "ở đó, đằng kia"
+ ],
+ "哎呀": [
+  "AI NHA",
+  "ôi, chao ôi (thán từ)"
+ ],
+ "完": [
+  "HOÀN",
+  "xong, hết"
+ ],
+ "身体": [
+  "THÂN THỂ",
+  "cơ thể; sức khỏe"
+ ],
+ "温暖": [
+  "ÔN NOÃN",
+  "ấm áp"
+ ],
+ "一边": [
+  "NHẤT BIÊN",
+  "một bên; vừa... vừa"
+ ],
+ "过去": [
+  "QUÁ KHỨ",
+  "quá khứ, trước kia; đi qua"
+ ],
+ "芳香": [
+  "PHƯƠNG HƯƠNG",
+  "hương thơm, thơm ngát"
+ ],
+ "养老院": [
+  "DƯỠNG LÃO VIỆN",
+  "viện dưỡng lão"
+ ],
+ "之前": [
+  "CHI TIỀN",
+  "trước đó, trước khi"
+ ],
+ "痛苦": [
+  "THỐNG KHỔ",
+  "đau khổ, đau đớn"
+ ],
+ "贴": [
+  "THIẾP",
+  "dán, đắp; sát vào"
+ ],
+ "话": [
+  "THOẠI",
+  "lời nói, câu chuyện"
+ ],
+ "真的": [
+  "CHÂN ĐÍCH",
+  "thật, thật sự"
+ ],
+ "不了": [
+  "BẤT LIỄU",
+  "không nổi, không xong"
+ ],
+ "哎": [
+  "AI",
+  "này, ơ (thán từ gọi, ngạc nhiên)"
+ ],
+ "或者": [
+  "HOẶC GIẢ",
+  "hoặc, hay là"
+ ],
+ "不好": [
+  "BẤT HẢO",
+  "không tốt, không ổn"
+ ],
+ "自责": [
+  "TỰ TRÁCH",
+  "tự trách mình"
+ ],
+ "如果": [
+  "NHƯ QUẢ",
+  "nếu, nếu như"
+ ],
+ "所有": [
+  "SỞ HỮU",
+  "tất cả, toàn bộ"
+ ],
+ "心里": [
+  "TÂM LÝ",
+  "trong lòng, trong bụng"
+ ],
+ "灿烂": [
+  "XÁN LẠN",
+  "rực rỡ, chói lọi"
+ ],
+ "孩子": [
+  "HÀI TỬ",
+  "đứa trẻ; con"
+ ],
+ "而且": [
+  "NHI THẢ",
+  "hơn nữa, mà còn"
+ ],
+ "不想": [
+  "BẤT TƯỞNG",
+  "không muốn"
+ ],
+ "告诉": [
+  "CÁO TỐ",
+  "nói cho biết, bảo"
+ ],
+ "生活": [
+  "SINH HOẠT",
+  "cuộc sống; sinh sống"
+ ],
+ "满意": [
+  "MÃN Ý",
+  "hài lòng, vừa ý"
+ ],
+ "今天": [
+  "KIM THIÊN",
+  "hôm nay"
+ ],
+ "节目": [
+  "TIẾT MỤC",
+  "chương trình (phát thanh, truyền hình)"
+ ],
+ "一下": [
+  "NHẤT HẠ",
+  "một chút, thử một cái"
+ ],
+ "吃": [
+  "NGẬT",
+  "ăn"
+ ],
+ "舒适": [
+  "THƯ THÍCH",
+  "dễ chịu, thoải mái"
+ ],
+ "带": [
+  "ĐÁI",
+  "mang theo, dẫn; dải, băng"
+ ],
+ "海淀": [
+  "HẢI ĐIẾN",
+  "Hải Điến (quận ở Bắc Kinh)"
+ ],
+ "不再": [
+  "BẤT TÁI",
+  "không còn nữa"
+ ],
+ "家里": [
+  "GIA LÝ",
+  "trong nhà, ở nhà"
+ ],
+ "虽然": [
+  "TUY NHIÊN",
+  "tuy, mặc dù"
+ ],
+ "干嘛": [
+  "CAN MA",
+  "làm gì; sao lại (khẩu ngữ)"
+ ],
+ "下来": [
+  "HẠ LAI",
+  "xuống; (bổ ngữ) kéo dài suốt"
+ ],
+ "放": [
+  "PHÓNG",
+  "đặt, để; thả, bỏ"
+ ],
+ "一件": [
+  "NHẤT KIỆN",
+  "một (việc, chiếc áo)"
+ ],
+ "身边": [
+  "THÂN BIÊN",
+  "bên cạnh, bên mình"
+ ],
+ "样子": [
+  "DẠNG TỬ",
+  "dáng vẻ, bộ dạng"
+ ],
+ "家": [
+  "GIA",
+  "nhà, gia đình"
+ ],
+ "小": [
+  "TIỂU",
+  "nhỏ, bé"
+ ],
+ "一点": [
+  "NHẤT ĐIỂM",
+  "một chút, một ít"
+ ],
+ "呀": [
+  "NHA",
+  "à, nhé (trợ từ cảm thán)"
+ ],
+ "好好": [
+  "HẢO HẢO",
+  "tử tế, đàng hoàng, cho ra trò"
+ ],
+ "那么": [
+  "NA MA",
+  "vậy thì; đến thế, như thế"
+ ],
+ "大": [
+  "ĐẠI",
+  "to, lớn; nhiều tuổi hơn"
+ ],
+ "药": [
+  "DƯỢC",
+  "thuốc"
+ ],
+ "抱": [
+  "BÃO",
+  "ôm, bế"
+ ],
+ "说话": [
+  "THUYẾT THOẠI",
+  "nói, nói chuyện"
+ ],
+ "深深": [
+  "THÂM THÂM",
+  "sâu sắc, sâu đậm"
+ ],
+ "恐惧": [
+  "KHỦNG CỤ",
+  "sợ hãi, khiếp sợ"
+ ],
+ "像": [
+  "TƯỢNG",
+  "giống, như; hình tượng"
+ ],
+ "实际上": [
+  "THỰC TẾ THƯỢNG",
+  "thực ra, trên thực tế"
+ ],
+ "进": [
+  "TIẾN",
+  "vào, đi vào; tiến lên"
+ ],
+ "一样": [
+  "NHẤT DẠNG",
+  "giống nhau, như nhau"
+ ],
+ "儿": [
+  "NHI",
+  "con (trai); hậu tố nhi hóa"
+ ],
+ "或者说": [
+  "HOẶC GIẢ THUYẾT",
+  "hay nói cách khác"
+ ],
+ "每个": [
+  "MỖI CÁ",
+  "mỗi (cái, người)"
+ ],
+ "生死": [
+  "SINH TỬ",
+  "sống chết, sinh tử"
+ ],
+ "提": [
+  "ĐỀ",
+  "nhắc đến, nêu ra; xách"
+ ],
+ "希望": [
+  "HY VỌNG",
+  "hy vọng, mong"
+ ],
+ "放在": [
+  "PHÓNG TẠI",
+  "đặt ở, để vào"
+ ],
+ "三个": [
+  "TAM CÁ",
+  "ba (cái, người)"
+ ],
+ "照片": [
+  "CHIẾU PHIẾN",
+  "bức ảnh"
+ ],
+ "马甲": [
+  "MÃ GIÁP",
+  "áo gi-lê, áo ba lỗ"
+ ],
+ "精油": [
+  "TINH DU",
+  "tinh dầu"
+ ],
+ "儿子": [
+  "NHI TỬ",
+  "con trai"
+ ],
+ "烧": [
+  "THIÊU",
+  "đốt, thiêu; sốt"
+ ],
+ "先": [
+  "TIÊN",
+  "trước, trước hết"
+ ],
+ "回来": [
+  "HỒI LAI",
+  "trở về, quay lại"
+ ],
+ "亲人": [
+  "THÂN NHÂN",
+  "người thân"
+ ],
+ "决定": [
+  "QUYẾT ĐỊNH",
+  "quyết định"
+ ],
+ "日子": [
+  "NHẬT TỬ",
+  "ngày tháng, cuộc sống thường ngày"
+ ],
+ "遗憾": [
+  "DI HÁM",
+  "tiếc nuối, đáng tiếc"
+ ],
+ "告别": [
+  "CÁO BIỆT",
+  "từ biệt, chia tay"
+ ],
+ "疗护": [
+  "LIỆU HỘ",
+  "chăm sóc điều trị (trong 安宁疗护: chăm sóc giảm nhẹ)"
+ ],
+ "得到": [
+  "ĐẮC ĐÁO",
+  "có được, nhận được"
+ ],
+ "确诊": [
+  "XÁC CHẨN",
+  "chẩn đoán xác định"
+ ],
+ "只": [
+  "CHỈ",
+  "chỉ, chỉ có"
+ ],
+ "心愿": [
+  "TÂM NGUYỆN",
+  "tâm nguyện, điều mong mỏi"
+ ],
+ "一定": [
+  "NHẤT ĐỊNH",
+  "nhất định, chắc chắn"
+ ],
+ "家属": [
+  "GIA THUỘC",
+  "người nhà, thân nhân"
+ ],
+ "为什么": [
+  "VI THẬP MA",
+  "tại sao, vì sao"
+ ],
+ "太": [
+  "THÁI",
+  "quá, rất"
+ ],
+ "起来": [
+  "KHỞI LAI",
+  "đứng dậy; (bổ ngữ) bắt đầu lên"
+ ],
+ "有点": [
+  "HỮU ĐIỂM",
+  "hơi, có chút"
+ ],
+ "比如说": [
+  "TỶ NHƯ THUYẾT",
+  "ví dụ như, chẳng hạn"
+ ],
+ "写": [
+  "TẢ",
+  "viết"
+ ],
+ "吧": [
+  "BA",
+  "trợ từ: nhé, đi, chắc là"
+ ],
+ "看到": [
+  "KHÁN ĐÁO",
+  "nhìn thấy, trông thấy"
+ ],
+ "地方": [
+  "ĐỊA PHƯƠNG",
+  "nơi, chỗ; địa phương"
+ ],
+ "处理": [
+  "XỬ LÝ",
+  "xử lý, giải quyết"
+ ],
+ "穿": [
+  "XUYÊN",
+  "mặc, đi (giày); xuyên qua"
+ ],
+ "至少": [
+  "CHÍ THIỂU",
+  "ít nhất"
+ ],
+ "死": [
+  "TỬ",
+  "chết"
+ ],
+ "去世": [
+  "KHỨ THẾ",
+  "qua đời"
+ ],
+ "一段时间": [
+  "NHẤT ĐOẠN THỜI GIAN",
+  "một khoảng thời gian"
+ ],
+ "呃": [
+  "",
+  "ờ, ừm (tiếng ngập ngừng)"
+ ],
+ "主任": [
+  "CHỦ NHIỆM",
+  "chủ nhiệm, trưởng khoa"
+ ],
+ "拍": [
+  "PHÁCH",
+  "vỗ, đập; chụp ảnh, quay phim"
+ ],
+ "你们": [
+  "NHĨ MÔN",
+  "các bạn, các anh chị"
+ ],
+ "好多": [
+  "HẢO ĐA",
+  "rất nhiều"
+ ],
+ "做好": [
+  "TỐ HẢO",
+  "làm xong, chuẩn bị sẵn"
+ ],
+ "什么样": [
+  "THẬP MA DẠNG",
+  "như thế nào, kiểu gì"
+ ],
+ "能够": [
+  "NĂNG CẤU",
+  "có thể, đủ sức"
+ ],
+ "发自内心": [
+  "PHÁT TỰ NỘI TÂM",
+  "xuất phát từ đáy lòng"
+ ],
+ "两个": [
+  "LƯỠNG CÁ",
+  "hai (cái, người)"
+ ],
+ "多久": [
+  "ĐA CỬU",
+  "bao lâu"
+ ],
+ "浑浑噩噩": [
+  "HỖN HỖN NGẠC NGẠC",
+  "sống lơ mơ, không biết mình làm gì"
+ ],
+ "每": [
+  "MỖI",
+  "mỗi, từng"
+ ],
+ "不要": [
+  "BẤT YẾU",
+  "đừng, không được"
+ ],
+ "罪恶感": [
+  "TỘI ÁC CẢM",
+  "cảm giác tội lỗi"
+ ],
+ "忽然": [
+  "HỐT NHIÊN",
+  "bỗng nhiên, đột nhiên"
+ ],
+ "干": [
+  "CAN",
+  "làm (việc); khô"
+ ],
+ "爸爸": [
+  "BA BA",
+  "bố, ba"
+ ],
+ "意义": [
+  "Ý NGHĨA",
+  "ý nghĩa"
+ ],
+ "生日": [
+  "SINH NHẬT",
+  "sinh nhật"
+ ],
+ "生日会": [
+  "SINH NHẬT HỘI",
+  "tiệc sinh nhật"
+ ],
+ "夫人": [
+  "PHU NHÂN",
+  "phu nhân, bà (cách gọi lịch sự)"
+ ],
+ "老": [
+  "LÃO",
+  "già, cũ; (tiền tố thân mật) lão, ông"
+ ],
+ "活着": [
+  "HOẠT TRƯỚC",
+  "còn sống, đang sống"
+ ],
+ "女儿": [
+  "NỮ NHI",
+  "con gái"
+ ],
+ "习惯": [
+  "TẬP QUÁN",
+  "thói quen; quen với"
+ ],
+ "自私": [
+  "TỰ TƯ",
+  "ích kỷ"
+ ],
+ "假期": [
+  "GIẢ KỲ",
+  "kỳ nghỉ"
+ ],
+ "睡": [
+  "THÙY",
+  "ngủ"
+ ],
+ "咱们": [
+  "",
+  "chúng ta (gồm cả người nghe)"
+ ],
+ "收听": [
+  "THU THÍNH",
+  "nghe (đài, podcast)"
+ ],
+ "声音": [
+  "THANH ÂM",
+  "giọng nói, âm thanh"
+ ],
+ "时间": [
+  "THỜI GIAN",
+  "thời gian"
+ ],
+ "尽快": [
+  "TẬN KHOÁI",
+  "càng sớm càng tốt"
+ ],
+ "一般": [
+  "NHẤT BAN",
+  "bình thường, thông thường"
+ ],
+ "末期": [
+  "MẠT KỲ",
+  "giai đoạn cuối"
+ ],
+ "安详": [
+  "AN TƯỜNG",
+  "an nhiên, thanh thản"
+ ],
+ "成为": [
+  "THÀNH VI",
+  "trở thành"
+ ],
+ "救赎": [
+  "CỨU THỤC",
+  "cứu chuộc, cứu rỗi"
+ ],
+ "重新": [
+  "TRÙNG TÂN",
+  "lại từ đầu, làm lại"
+ ],
+ "三年": [
+  "TAM NIÊN",
+  "ba năm"
+ ],
+ "选择": [
+  "TUYỂN TRẠCH",
+  "lựa chọn, chọn"
+ ],
+ "开心": [
+  "KHAI TÂM",
+  "vui, vui vẻ"
+ ],
+ "七月": [
+  "THẤT NGUYỆT",
+  "tháng Bảy"
+ ],
+ "徐叔": [
+  "TỪ THÚC",
+  "chú Từ (cách gọi người trong tập)"
+ ],
+ "二零一": [
+  "NHỊ LINH NHẤT",
+  "hai không một (đọc từng chữ số)"
+ ],
+ "我会": [
+  "NGÃ HỘI",
+  "tôi sẽ, tôi biết (cụm hai từ)"
+ ],
+ "这件": [
+  "GIÁ KIỆN",
+  "việc này, chiếc này (cụm hai từ)"
+ ],
+ "解决": [
+  "GIẢI QUYẾT",
+  "giải quyết"
+ ],
+ "于是": [
+  "VU THỊ",
+  "thế là, do đó"
+ ],
+ "大学": [
+  "ĐẠI HỌC",
+  "đại học"
+ ],
+ "骨转移": [
+  "CỐT CHUYỂN DI",
+  "di căn xương"
+ ],
+ "疼痛": [
+  "ĐÔNG THỐNG",
+  "đau, cơn đau"
+ ],
+ "不行": [
+  "BẤT HÀNH",
+  "không được, không ổn"
+ ],
+ "问题": [
+  "VẤN ĐỀ",
+  "vấn đề; câu hỏi"
+ ],
+ "透": [
+  "THẤU",
+  "thấu, thấm qua; hiểu rõ"
+ ],
+ "商量": [
+  "THƯƠNG LƯỢNG",
+  "bàn bạc, thương lượng"
+ ],
+ "认知": [
+  "NHẬN TRI",
+  "nhận thức"
+ ],
+ "医生": [
+  "Y SINH",
+  "bác sĩ"
+ ],
+ "那天": [
+  "NA THIÊN",
+  "hôm đó"
+ ],
+ "忍": [
+  "NHẪN",
+  "chịu đựng, nhịn"
+ ],
+ "护士": [
+  "HỘ SĨ",
+  "y tá, điều dưỡng"
+ ],
+ "情况": [
+  "TÌNH HUỐNG",
+  "tình hình, tình trạng"
+ ],
+ "泪流满面": [
+  "LỆ LƯU MÃN DIỆN",
+  "nước mắt giàn giụa"
+ ],
+ "小时": [
+  "TIỂU THỜI",
+  "giờ (đơn vị thời gian)"
+ ],
+ "躺": [
+  "THẢNG",
+  "nằm"
+ ],
+ "盖": [
+  "CÁI",
+  "đắp, đậy; xây"
+ ],
+ "单子": [
+  "ĐƠN TỬ",
+  "tờ đơn, phiếu"
+ ],
+ "表达": [
+  "BIỂU ĐẠT",
+  "bày tỏ, diễn đạt"
+ ],
+ "早": [
+  "TẢO",
+  "sớm; buổi sáng"
+ ],
+ "想着": [
+  "TƯỞNG TRƯỚC",
+  "đang nghĩ, nghĩ rằng"
+ ],
+ "那样": [
+  "NA DẠNG",
+  "như thế, kiểu đó"
+ ],
+ "问": [
+  "VẤN",
+  "hỏi"
+ ],
+ "怎么样": [
+  "CHẨM MA DẠNG",
+  "thế nào, ra sao"
+ ],
+ "那一刻": [
+  "NA NHẤT KHẮC",
+  "khoảnh khắc đó"
+ ],
+ "悲伤": [
+  "BI THƯƠNG",
+  "buồn đau, thương tâm"
+ ],
+ "住": [
+  "TRÚ",
+  "ở, sống; dừng lại"
+ ],
+ "管子": [
+  "QUẢN TỬ",
+  "cái ống"
+ ],
+ "那些": [
+  "NA TA",
+  "những cái đó"
+ ],
+ "找": [
+  "TRẢO",
+  "tìm, kiếm"
+ ],
+ "不停": [
+  "BẤT ĐÌNH",
+  "không ngừng"
+ ],
+ "往外": [
+  "VÃNG NGOẠI",
+  "ra phía ngoài"
+ ],
+ "垃圾": [
+  "LẠP TÍCH",
+  "rác"
+ ],
+ "而": [
+  "NHI",
+  "mà, còn"
+ ],
+ "期间": [
+  "KỲ GIAN",
+  "trong thời gian"
+ ],
+ "哪怕": [
+  "NA PHẠ",
+  "dù cho, dẫu là"
+ ],
+ "七年": [
+  "THẤT NIÊN",
+  "bảy năm"
+ ],
+ "更": [
+  "CÁNH",
+  "càng, hơn"
+ ],
+ "当": [
+  "ĐƯƠNG",
+  "làm, đảm nhận; khi"
+ ],
+ "轻松": [
+  "KHINH TÙNG",
+  "nhẹ nhõm, thoải mái"
+ ],
+ "依然": [
+  "Y NHIÊN",
+  "vẫn như cũ"
+ ],
+ "走向": [
+  "TẨU HƯỚNG",
+  "đi tới, hướng về"
+ ],
+ "群": [
+  "QUẦN",
+  "đàn, nhóm"
+ ],
+ "摄影": [
+  "NHIẾP ẢNH",
+  "nhiếp ảnh, chụp ảnh"
+ ],
+ "那会儿": [
+  "NA HỘI NHI",
+  "hồi đó, lúc ấy"
+ ],
+ "接受": [
+  "TIẾP THỤ",
+  "tiếp nhận, chấp nhận"
+ ],
+ "回事儿": [
+  "HỒI SỰ NHI",
+  "chuyện, sự việc (怎么回事儿: chuyện gì vậy)"
+ ],
+ "坐": [
+  "TỌA",
+  "ngồi"
+ ],
+ "理解": [
+  "LÝ GIẢI",
+  "hiểu, thấu hiểu"
+ ],
+ "应该": [
+  "ƯNG CAI",
+  "nên, đáng lẽ"
+ ],
+ "不同": [
+  "BẤT ĐỒNG",
+  "khác nhau"
+ ],
+ "首先": [
+  "THỦ TIÊN",
+  "trước hết"
+ ],
+ "慢慢": [
+  "MẠN MẠN",
+  "từ từ, dần dần"
+ ],
+ "装": [
+  "TRANG",
+  "đựng, lắp; giả vờ"
+ ],
+ "该": [
+  "CAI",
+  "nên, phải; đáng"
+ ],
+ "教育": [
+  "GIÁO DỤC",
+  "giáo dục"
+ ],
+ "课堂": [
+  "KHÓA ĐƯỜNG",
+  "lớp học"
+ ],
+ "心理": [
+  "TÂM LÝ",
+  "tâm lý"
+ ],
+ "分享": [
+  "PHÂN HƯỞNG",
+  "chia sẻ"
+ ],
+ "自闭": [
+  "TỰ BẾ",
+  "khép mình, tự kỷ"
+ ],
+ "心情": [
+  "TÂM TÌNH",
+  "tâm trạng"
+ ],
+ "遇到": [
+  "NGỘ ĐÁO",
+  "gặp phải"
+ ],
+ "看见": [
+  "KHÁN KIẾN",
+  "nhìn thấy"
+ ],
+ "车": [
+  "XA",
+  "xe"
+ ],
+ "人家": [
+  "NHÂN GIA",
+  "người ta; nhà người khác"
+ ],
+ "最": [
+  "TỐI",
+  "nhất"
+ ],
+ "按照": [
+  "ÁN CHIẾU",
+  "theo, dựa theo"
+ ],
+ "否定": [
+  "PHỦ ĐỊNH",
+  "phủ nhận"
+ ],
+ "世界": [
+  "THẾ GIỚI",
+  "thế giới"
+ ],
+ "感": [
+  "CẢM",
+  "cảm thấy; cảm giác"
+ ],
+ "向": [
+  "HƯỚNG",
+  "về phía, hướng về"
+ ],
+ "干什么": [
+  "CAN THẬP MA",
+  "làm gì"
+ ],
+ "老爸": [
+  "LÃO BA",
+  "bố (cách gọi thân mật)"
+ ],
+ "支持": [
+  "CHI TRÌ",
+  "ủng hộ, hỗ trợ"
+ ],
+ "等": [
+  "ĐẲNG",
+  "đợi, chờ; vân vân"
+ ],
+ "完成": [
+  "HOÀN THÀNH",
+  "hoàn thành"
+ ],
+ "大叔": [
+  "ĐẠI THÚC",
+  "chú (đàn ông trung niên)"
+ ],
+ "主要": [
+  "CHỦ YẾU",
+  "chủ yếu"
+ ],
+ "不用": [
+  "BẤT DỤNG",
+  "không cần"
+ ],
+ "手": [
+  "THỦ",
+  "tay"
+ ],
+ "放松": [
+  "PHÓNG TÙNG",
+  "thả lỏng, thư giãn"
+ ],
+ "们": [
+  "MÔN",
+  "hậu tố số nhiều: các, những"
+ ],
+ "一起": [
+  "NHẤT KHỞI",
+  "cùng nhau"
+ ],
+ "朋友": [
+  "BẰNG HỮU",
+  "bạn bè"
+ ],
+ "留下": [
+  "LƯU HẠ",
+  "để lại; ở lại"
+ ],
+ "以前": [
+  "DĨ TIỀN",
+  "trước đây"
+ ],
+ "油画": [
+  "DU HỌA",
+  "tranh sơn dầu"
+ ],
+ "看看": [
+  "KHÁN KHÁN",
+  "xem thử, ngó qua"
+ ],
+ "落泪": [
+  "LẠC LỆ",
+  "rơi nước mắt"
+ ],
+ "小伙伴": [
+  "TIỂU HỎA BẠN",
+  "bạn nhỏ, đồng bạn"
+ ],
+ "这次": [
+  "GIÁ THỨ",
+  "lần này"
+ ],
+ "复发": [
+  "PHỤC PHÁT",
+  "tái phát"
+ ],
+ "手舞足蹈": [
+  "THỦ VŨ TÚC ĐÁO",
+  "múa tay múa chân (vì quá vui)"
+ ],
+ "老人": [
+  "LÃO NHÂN",
+  "người già"
+ ],
+ "点点头": [
+  "ĐIỂM ĐIỂM ĐẦU",
+  "gật gật đầu"
+ ],
+ "但": [
+  "ĐÃN",
+  "nhưng"
+ ],
+ "总是": [
+  "TỔNG THỊ",
+  "luôn luôn"
+ ],
+ "一年": [
+  "NHẤT NIÊN",
+  "một năm"
+ ],
+ "数学": [
+  "SỐ HỌC",
+  "toán học"
+ ],
+ "喜欢": [
+  "HỶ HOAN",
+  "thích"
+ ],
+ "丈夫": [
+  "TRƯỢNG PHU",
+  "chồng"
+ ],
+ "哈": [
+  "",
+  "ha (tiếng cười, đệm cuối câu)"
+ ],
+ "更新": [
+  "CANH TÂN",
+  "cập nhật; ra tập mới"
+ ],
+ "节后": [
+  "TIẾT HẬU",
+  "sau kỳ nghỉ lễ"
+ ],
+ "恢复": [
+  "KHÔI PHỤC",
+  "hồi phục, khôi phục"
+ ],
+ "见": [
+  "KIẾN",
+  "gặp; thấy"
+ ],
+ "这里": [
+  "GIÁ LÝ",
+  "ở đây"
+ ],
+ "得知": [
+  "ĐẮC TRI",
+  "được biết, hay tin"
+ ],
+ "不仅": [
+  "BẤT CẬN",
+  "không chỉ"
+ ],
+ "忍受": [
+  "NHẪN THỤ",
+  "chịu đựng"
+ ],
+ "各种": [
+  "CÁC CHỦNG",
+  "đủ loại"
+ ],
+ "有没有": [
+  "HỮU MỘT HỮU",
+  "có... không"
+ ],
+ "方式": [
+  "PHƯƠNG THỨC",
+  "cách thức"
+ ],
+ "尊重": [
+  "TÔN TRỌNG",
+  "tôn trọng"
+ ],
+ "逐渐": [
+  "TRỤC TIỆM",
+  "dần dần"
+ ],
+ "全国": [
+  "TOÀN QUỐC",
+  "toàn quốc"
+ ],
+ "中心": [
+  "TRUNG TÂM",
+  "trung tâm"
+ ],
+ "北京": [
+  "BẮC KINH",
+  "Bắc Kinh"
+ ],
+ "理念": [
+  "LÝ NIỆM",
+  "quan niệm, triết lý"
+ ],
+ "并": [
+  "TỊNH",
+  "và; (nhấn phủ định) hề, hoàn toàn"
+ ],
+ "善终": [
+  "THIỆN CHUNG",
+  "ra đi thanh thản, chết lành"
+ ],
+ "肺癌": [
+  "PHẾ NHAM",
+  "ung thư phổi"
+ ],
+ "剩下": [
+  "THẶNG HẠ",
+  "còn lại"
+ ],
+ "两": [
+  "LƯỠNG",
+  "hai"
+ ],
+ "一切": [
+  "NHẤT THIẾT",
+  "tất cả, mọi thứ"
+ ],
+ "尽可能": [
+  "TẬN KHẢ NĂNG",
+  "hết mức có thể"
+ ],
+ "式": [
+  "THỨC",
+  "kiểu, dạng"
+ ],
+ "无法": [
+  "VÔ PHÁP",
+  "không thể, không có cách"
+ ],
+ "急救": [
+  "CẤP CỨU",
+  "cấp cứu"
+ ],
+ "曾经": [
+  "TẰNG KINH",
+  "đã từng"
+ ],
+ "晚期": [
+  "VÃN KỲ",
+  "giai đoạn cuối"
+ ],
+ "迷茫": [
+  "MÊ MANG",
+  "mơ hồ, mất phương hướng"
+ ],
+ "出现": [
+  "XUẤT HIỆN",
+  "xuất hiện"
+ ],
+ "吃饭": [
+  "NGẬT PHẠN",
+  "ăn cơm"
+ ],
+ "解决不了": [
+  "GIẢI QUYẾT BẤT LIỄU",
+  "không giải quyết nổi"
+ ],
+ "即使": [
+  "TỨC SỬ",
+  "cho dù"
+ ],
+ "头皮": [
+  "ĐẦU BÌ",
+  "da đầu"
+ ],
+ "难受": [
+  "NAN THỤ",
+  "khó chịu, khổ sở"
+ ],
+ "周日": [
+  "CHU NHẬT",
+  "chủ nhật"
+ ],
+ "当天": [
+  "ĐƯƠNG THIÊN",
+  "ngay hôm đó"
+ ],
+ "明天": [
+  "MINH THIÊN",
+  "ngày mai"
+ ],
+ "打招呼": [
+  "ĐẢ CHIÊU HÔ",
+  "chào hỏi; báo trước một tiếng"
+ ],
+ "贴着": [
+  "THIẾP TRƯỚC",
+  "dán sát, áp vào"
+ ],
+ "离开": [
+  "LY KHAI",
+  "rời đi"
+ ],
+ "估计": [
+  "CƯỚC KẾ",
+  "ước chừng, chắc là"
+ ],
+ "新": [
+  "TÂN",
+  "mới"
+ ],
+ "忍痛": [
+  "NHẪN THỐNG",
+  "nén đau; đành lòng"
+ ],
+ "一夜": [
+  "NHẤT DẠ",
+  "một đêm"
+ ],
+ "第二天": [
+  "ĐỆ NHỊ THIÊN",
+  "hôm sau"
+ ],
+ "手脚": [
+  "THỦ CƯỚC",
+  "tay chân"
+ ],
+ "绑": [
+  "BẢNG",
+  "trói, buộc"
+ ],
+ "突然": [
+  "ĐỘT NHIÊN",
+  "đột nhiên"
+ ],
+ "挣扎": [
+  "TRANH TRÁT",
+  "giãy giụa, vùng vẫy"
+ ],
+ "中风": [
+  "TRÚNG PHONG",
+  "đột quỵ, trúng gió"
+ ],
+ "孤独": [
+  "CÔ ĐỘC",
+  "cô độc"
+ ],
+ "床上": [
+  "SÀNG THƯỢNG",
+  "trên giường"
+ ],
+ "动": [
+  "ĐỘNG",
+  "động, cử động"
+ ],
+ "平时": [
+  "BÌNH THỜI",
+  "ngày thường, bình thường"
+ ],
+ "在家": [
+  "TẠI GIA",
+  "ở nhà"
+ ],
+ "变成": [
+  "BIẾN THÀNH",
+  "biến thành"
+ ],
+ "吹": [
+  "XUY",
+  "thổi"
+ ],
+ "弄": [
+  "LỘNG",
+  "làm, xoay xở"
+ ],
+ "正好": [
+  "CHÍNH HẢO",
+  "vừa hay, vừa vặn"
+ ],
+ "没法": [
+  "MỘT PHÁP",
+  "không có cách nào"
+ ],
+ "俩": [
+  "LƯỠNG",
+  "hai (người)"
+ ],
+ "回避": [
+  "HỒI TỴ",
+  "né tránh"
+ ],
+ "说不出来": [
+  "THUYẾT BẤT XUẤT LAI",
+  "không nói nên lời"
+ ],
+ "只是": [
+  "CHỈ THỊ",
+  "chỉ là"
+ ],
+ "不到": [
+  "BẤT ĐÁO",
+  "chưa tới, không đến"
+ ],
+ "晚上": [
+  "VÃN THƯỢNG",
+  "buổi tối"
+ ],
+ "穿衣服": [
+  "XUYÊN Y PHỤC",
+  "mặc quần áo"
+ ],
+ "洞": [
+  "ĐỘNG",
+  "lỗ, hang"
+ ],
+ "钱": [
+  "TIỀN",
+  "tiền"
+ ],
+ "想想": [
+  "TƯỞNG TƯỞNG",
+  "nghĩ thử xem"
+ ],
+ "它": [
+  "THA",
+  "nó (vật)"
+ ],
+ "才": [
+  "TÀI",
+  "mới, vừa mới"
+ ],
+ "衣服": [
+  "Y PHỤC",
+  "quần áo"
+ ],
+ "吸": [
+  "HẤP",
+  "hít, hút"
+ ],
+ "刺激": [
+  "THÍCH KÍCH",
+  "kích thích; gây sốc"
+ ],
+ "住院": [
+  "TRÚ VIỆN",
+  "nằm viện"
+ ],
+ "后": [
+  "HẬU",
+  "sau"
+ ],
+ "没想到": [
+  "MỘT TƯỞNG ĐÁO",
+  "không ngờ"
+ ],
+ "患上": [
+  "HOẠN THƯỢNG",
+  "mắc (bệnh)"
+ ],
+ "乳腺癌": [
+  "NHŨ TUYẾN NHAM",
+  "ung thư vú"
+ ],
+ "路上": [
+  "LỘ THƯỢNG",
+  "trên đường"
+ ],
+ "自": [
+  "TỰ",
+  "tự; từ"
+ ],
+ "好像": [
+  "HẢO TƯỢNG",
+  "hình như, giống như"
+ ],
+ "机会": [
+  "CƠ HỘI",
+  "cơ hội"
+ ],
+ "愿意": [
+  "NGUYỆN Ý",
+  "bằng lòng, muốn"
+ ],
+ "手术": [
+  "THỦ THUẬT",
+  "phẫu thuật"
+ ],
+ "抢救": [
+  "THƯƠNG CỨU",
+  "cấp cứu, cứu chữa"
+ ],
+ "不适": [
+  "BẤT THÍCH",
+  "khó chịu, không khỏe"
+ ],
+ "比较": [
+  "TỶ GIẢO",
+  "so sánh; khá, tương đối"
+ ],
+ "九年": [
+  "CỬU NIÊN",
+  "chín năm"
+ ],
+ "第一次": [
+  "ĐỆ NHẤT THỨ",
+  "lần đầu tiên"
+ ],
+ "背着": [
+  "BỐI TRƯỚC",
+  "cõng trên lưng; giấu không cho biết"
+ ],
+ "相机": [
+  "TƯƠNG CƠ",
+  "máy ảnh"
+ ],
+ "内": [
+  "NỘI",
+  "trong"
+ ],
+ "了解": [
+  "LIỄU GIẢI",
+  "hiểu rõ; tìm hiểu"
+ ],
+ "硬着头皮": [
+  "NGẠNH TRƯỚC ĐẦU BÌ",
+  "đánh liều, cố gượng mà làm"
+ ],
+ "聊聊天": [
+  "LIÊU LIÊU THIÊN",
+  "trò chuyện đôi câu"
+ ],
+ "洗洗": [
+  "TẨY TẨY",
+  "rửa, giặt qua"
+ ],
+ "头": [
+  "ĐẦU",
+  "đầu"
+ ],
+ "下去": [
+  "HẠ KHỨ",
+  "đi xuống; (bổ ngữ) tiếp tục"
+ ],
+ "演出": [
+  "DIỄN XUẤT",
+  "biểu diễn"
+ ],
+ "表情": [
+  "BIỂU TÌNH",
+  "nét mặt, biểu cảm"
+ ],
+ "笑容": [
+  "TIẾU DUNG",
+  "nụ cười"
+ ],
+ "眼神": [
+  "NHÃN THẦN",
+  "ánh mắt"
+ ],
+ "表现": [
+  "BIỂU HIỆN",
+  "thể hiện, biểu hiện"
+ ],
+ "第二次": [
+  "ĐỆ NHỊ THỨ",
+  "lần thứ hai"
+ ],
+ "容易": [
+  "DUNG DỊ",
+  "dễ, dễ dàng"
+ ],
+ "就是说": [
+  "TỰU THỊ THUYẾT",
+  "tức là, nói cách khác"
+ ],
+ "可是": [
+  "KHẢ THỊ",
+  "nhưng, thế mà"
+ ],
+ "笑": [
+  "TIẾU",
+  "cười"
+ ],
+ "控制": [
+  "KHỐNG CHẾ",
+  "kiểm soát, khống chế"
+ ],
+ "要是": [
+  "YẾU THỊ",
+  "nếu như"
+ ],
+ "赶上": [
+  "CẢN THƯỢNG",
+  "bắt kịp; gặp đúng lúc"
+ ],
+ "过头": [
+  "QUÁ ĐẦU",
+  "quá mức"
+ ],
+ "反而": [
+  "PHẢN NHI",
+  "trái lại, ngược lại"
+ ],
+ "更多": [
+  "CÁNH ĐA",
+  "nhiều hơn"
+ ],
+ "层面": [
+  "TẦNG DIỆN",
+  "phương diện, tầng nấc"
+ ],
+ "极端": [
+  "CỰC ĐOAN",
+  "cực đoan"
+ ],
+ "对不起": [
+  "ĐỐI BẤT KHỞI",
+  "xin lỗi; có lỗi với"
+ ],
+ "出去": [
+  "XUẤT KHỨ",
+  "đi ra ngoài"
+ ],
+ "离": [
+  "LY",
+  "rời, cách"
+ ],
+ "最近": [
+  "TỐI CẬN",
+  "gần đây"
+ ],
+ "哪": [
+  "NA",
+  "nào, đâu"
+ ],
+ "一组": [
+  "NHẤT TỔ",
+  "một nhóm, một bộ"
+ ],
+ "谁": [
+  "THÙY",
+  "ai"
+ ],
+ "看着": [
+  "KHÁN TRƯỚC",
+  "nhìn, trông chừng"
+ ],
+ "编": [
+  "BIÊN",
+  "biên soạn; bịa ra"
+ ],
+ "讲完": [
+  "GIẢNG HOÀN",
+  "kể xong"
+ ],
+ "帮助": [
+  "BANG TRỢ",
+  "giúp đỡ"
+ ],
+ "哭": [
+  "KHỐC",
+  "khóc"
+ ],
+ "现场": [
+  "HIỆN TRƯỜNG",
+  "tại chỗ, hiện trường"
+ ],
+ "认为": [
+  "NHẬN VI",
+  "cho rằng"
+ ],
+ "尽心尽力": [
+  "TẬN TÂM TẬN LỰC",
+  "hết lòng hết sức"
+ ],
+ "尽管": [
+  "TẬN QUẢN",
+  "mặc dù; cứ việc"
+ ],
+ "确实": [
+  "XÁC THỰC",
+  "quả thực"
+ ],
+ "自我": [
+  "TỰ NGÃ",
+  "bản thân, cái tôi"
+ ],
+ "角度看": [
+  "GIÁC ĐỘ KHÁN",
+  "nhìn từ góc độ (cụm)"
+ ],
+ "事情": [
+  "SỰ TÌNH",
+  "sự việc, chuyện"
+ ],
+ "用爱": [
+  "DỤNG ÁI",
+  "bằng tình thương (cụm)"
+ ],
+ "时刻": [
+  "THỜI KHẮC",
+  "thời khắc; luôn luôn"
+ ],
+ "回到": [
+  "HỒI ĐÁO",
+  "trở về"
+ ],
+ "也好": [
+  "DÃ HẢO",
+  "cũng được, cũng hay"
+ ],
+ "遗像": [
+  "DI TƯỢNG",
+  "ảnh thờ"
+ ],
+ "对面": [
+  "ĐỐI DIỆN",
+  "đối diện, phía trước mặt"
+ ],
+ "坐在": [
+  "TỌA TẠI",
+  "ngồi ở (cụm)"
+ ],
+ "重要": [
+  "TRỌNG YẾU",
+  "quan trọng"
+ ],
+ "事": [
+  "SỰ",
+  "việc, chuyện"
+ ],
+ "快": [
+  "KHOÁI",
+  "nhanh; sắp"
+ ],
+ "点": [
+  "ĐIỂM",
+  "chấm; giờ; một chút"
+ ],
+ "学习": [
+  "HỌC TẬP",
+  "học tập"
+ ],
+ "一下子": [
+  "NHẤT HẠ TỬ",
+  "bỗng chốc, đột ngột"
+ ],
+ "送走": [
+  "TỐNG TẨU",
+  "tiễn đi"
+ ],
+ "包括": [
+  "BAO QUÁT",
+  "bao gồm"
+ ],
+ "自然": [
+  "TỰ NHIÊN",
+  "tự nhiên"
+ ],
+ "思考": [
+  "TƯ KHẢO",
+  "suy nghĩ, ngẫm"
+ ],
+ "与": [
+  "DỮ",
+  "và, với"
+ ],
+ "变得": [
+  "BIẾN ĐẮC",
+  "trở nên"
+ ],
+ "清明": [
+  "THANH MINH",
+  "tiết Thanh minh; trong sáng"
+ ],
+ "心态": [
+  "TÂM THÁI",
+  "tâm thế, thái độ sống"
+ ],
+ "师": [
+  "SƯ",
+  "thầy"
+ ],
+ "背后": [
+  "BỐI HẬU",
+  "phía sau, đằng sau"
+ ],
+ "即将": [
+  "TỨC TƯƠNG",
+  "sắp sửa"
+ ],
+ "想要": [
+  "TƯỞNG YẾU",
+  "muốn"
+ ],
+ "社会": [
+  "XÃ HỘI",
+  "xã hội"
+ ],
+ "过来": [
+  "QUÁ LAI",
+  "lại đây, qua đây"
+ ],
+ "接纳": [
+  "TIẾP NẠP",
+  "tiếp nhận, dung nạp"
+ ],
+ "引导": [
+  "DẪN ĐẠO",
+  "dẫn dắt"
+ ],
+ "印象": [
+  "ẤN TƯỢNG",
+  "ấn tượng"
+ ],
+ "进入": [
+  "TIẾN NHẬP",
+  "bước vào"
+ ],
+ "会上": [
+  "HỘI THƯỢNG",
+  "tại buổi họp (cụm)"
+ ],
+ "问候": [
+  "VẤN HẬU",
+  "hỏi thăm"
+ ],
+ "几乎": [
+  "KỶ HỒ",
+  "hầu như"
+ ],
+ "送给": [
+  "TỐNG CẤP",
+  "tặng cho"
+ ],
+ "电视": [
+  "ĐIỆN THỊ",
+  "tivi, truyền hình"
+ ],
+ "时光": [
+  "THỜI QUANG",
+  "thời gian, năm tháng"
+ ],
+ "相册": [
+  "TƯƠNG SÁCH",
+  "album ảnh"
+ ],
+ "没什么": [
+  "MỘT THẬP MA",
+  "không sao, không có gì"
+ ],
+ "陪伴": [
+  "BỒI BẠN",
+  "bầu bạn, ở bên"
+ ],
+ "方向": [
+  "PHƯƠNG HƯỚNG",
+  "phương hướng"
+ ],
+ "肺炎": [
+  "PHẾ VIÊM",
+  "viêm phổi"
+ ],
+ "赶紧": [
+  "CẢN KHẨN",
+  "vội vàng, mau lên"
+ ],
+ "疫情": [
+  "DỊCH TÌNH",
+  "tình hình dịch bệnh"
+ ],
+ "怕": [
+  "PHẠ",
+  "sợ"
+ ],
+ "不让": [
+  "BẤT NHƯỢNG",
+  "không cho, không để"
+ ],
+ "生病": [
+  "SINH BỆNH",
+  "ốm, đổ bệnh"
+ ],
+ "发烧": [
+  "PHÁT THIÊU",
+  "sốt"
+ ],
+ "返回": [
+  "PHẢN HỒI",
+  "quay về"
+ ],
+ "敷上": [
+  "PHU THƯỢNG",
+  "đắp lên"
+ ],
+ "叫": [
+  "KHIẾU",
+  "gọi, kêu"
+ ],
+ "实在": [
+  "THỰC TẠI",
+  "thật là, quả thực"
+ ],
+ "只能": [
+  "CHỈ NĂNG",
+  "chỉ có thể"
+ ],
+ "我哥": [
+  "NGÃ CA",
+  "anh trai tôi (cụm)"
+ ],
+ "哥": [
+  "CA",
+  "anh trai"
+ ],
+ "辅助": [
+  "PHỤ TRỢ",
+  "hỗ trợ"
+ ],
+ "安全": [
+  "AN TOÀN",
+  "an toàn"
+ ],
+ "只要": [
+  "CHỈ YẾU",
+  "chỉ cần"
+ ],
+ "行": [
+  "HÀNH",
+  "được, ổn; đi"
+ ],
+ "安静下来": [
+  "AN TĨNH HẠ LAI",
+  "lắng xuống, yên trở lại"
+ ],
+ "口服": [
+  "KHẨU PHỤC",
+  "uống (thuốc)"
+ ],
+ "起": [
+  "KHỞI",
+  "dậy, nổi lên"
+ ],
+ "医务室": [
+  "Y VỤ THẤT",
+  "phòng y tế"
+ ],
+ "折腾": [
+  "CHIẾT ĐẰNG",
+  "hành hạ, vật vã"
+ ],
+ "可": [
+  "KHẢ",
+  "có thể; nhưng mà"
+ ],
+ "拽": [
+  "DUỆ",
+  "kéo, giật"
+ ],
+ "回去": [
+  "HỒI KHỨ",
+  "về, quay lại"
+ ],
+ "打": [
+  "ĐẢ",
+  "đánh; gọi (điện)"
+ ],
+ "两天": [
+  "LƯỠNG THIÊN",
+  "hai ngày"
+ ],
+ "美好": [
+  "MỸ HẢO",
+  "tốt đẹp"
+ ],
+ "口气": [
+  "KHẨU KHÍ",
+  "giọng điệu"
+ ],
+ "没了": [
+  "MỘT LIỄU",
+  "mất rồi, không còn"
+ ],
+ "教训": [
+  "GIÁO HUẤN",
+  "mắng dạy; bài học"
+ ],
+ "边": [
+  "BIÊN",
+  "bên, cạnh"
+ ],
+ "月": [
+  "NGUYỆT",
+  "tháng; mặt trăng"
+ ],
+ "遗书": [
+  "DI THƯ",
+  "thư tuyệt mệnh, di thư"
+ ],
+ "哪儿": [
+  "NA NHI",
+  "ở đâu"
+ ],
+ "安排": [
+  "AN BÀI",
+  "sắp xếp"
+ ],
+ "六十五岁": [
+  "LỤC THẬP NGŨ TUẾ",
+  "sáu mươi lăm tuổi"
+ ],
+ "不管": [
+  "BẤT QUẢN",
+  "bất kể, mặc kệ"
+ ],
+ "数理化": [
+  "SỐ LÝ HÓA",
+  "toán lý hóa"
+ ],
+ "我报": [
+  "NGÃ BÁO",
+  "tôi đăng ký/thi (cụm)"
+ ],
+ "数学系": [
+  "SỐ HỌC HỆ",
+  "khoa toán"
+ ],
+ "天天": [
+  "THIÊN THIÊN",
+  "ngày nào cũng"
+ ],
+ "盼": [
+  "PHÁN",
+  "mong, ngóng"
+ ],
+ "毕业": [
+  "TẤT NGHIỆP",
+  "tốt nghiệp"
+ ],
+ "从小到大": [
+  "TÒNG TIỂU ĐÁO ĐẠI",
+  "từ bé đến lớn"
+ ],
+ "错": [
+  "THỐ",
+  "sai"
+ ],
+ "离婚": [
+  "LY HÔN",
+  "ly hôn"
+ ],
+ "尽": [
+  "TẬN",
+  "hết mức, tận"
+ ],
+ "责任": [
+  "TRÁCH NHIỆM",
+  "trách nhiệm"
+ ],
+ "快乐": [
+  "KHOÁI LẠC",
+  "vui vẻ"
+ ],
+ "越": [
+  "VIỆT",
+  "càng (越…越: càng… càng)"
+ ],
+ "顾及": [
+  "CỐ CẬP",
+  "để ý tới, lo tới"
+ ],
+ "通知": [
+  "THÔNG TRI",
+  "thông báo"
+ ],
+ "期": [
+  "KỲ",
+  "kỳ, số (của chương trình)"
+ ],
+ "十一": [
+  "THẬP NHẤT",
+  "mồng 1/10 (Quốc khánh Trung Quốc)"
+ ],
+ "前": [
+  "TIỀN",
+  "trước"
+ ],
+ "一期": [
+  "NHẤT KỲ",
+  "một số, một tập"
+ ],
+ "休息": [
+  "HƯU TỨC",
+  "nghỉ ngơi"
+ ],
+ "暂停": [
+  "TẠM ĐÌNH",
+  "tạm dừng"
+ ],
+ "一周": [
+  "NHẤT CHU",
+  "một tuần"
+ ],
+ "周一": [
+  "CHU NHẤT",
+  "thứ Hai"
+ ],
+ "十月": [
+  "THẬP NGUYỆT",
+  "tháng Mười"
+ ],
+ "九号": [
+  "CỬU HIỆU",
+  "mồng 9"
+ ],
+ "祝": [
+  "CHÚC",
+  "chúc"
+ ],
+ "爽": [
+  "SẢNG",
+  "sảng khoái, đã"
+ ],
+ "喝得": [
+  "HÁT ĐẮC",
+  "uống (kèm bổ ngữ mức độ)"
+ ],
+ "嗨": [
+  "",
+  "hây, ôi (thán từ)"
+ ],
+ "香": [
+  "HƯƠNG",
+  "thơm; (ngủ) ngon"
+ ],
+ "玩": [
+  "NGOẠN",
+  "chơi"
+ ],
+ "你好": [
+  "NHĨ HẢO",
+  "xin chào"
+ ],
+ "欢迎": [
+  "HOAN NGHÊNH",
+  "chào mừng, hoan nghênh"
+ ],
+ "哲": [
+  "TRIẾT",
+  "sáng suốt; (tên) Triết"
+ ],
+ "收集": [
+  "THU TẬP",
+  "thu thập, sưu tầm"
+ ],
+ "讲述": [
+  "GIẢNG THUẬT",
+  "kể lại, thuật lại"
+ ],
+ "重病": [
+  "TRỌNG BỆNH",
+  "bệnh nặng"
+ ],
+ "第一": [
+  "ĐỆ NHẤT",
+  "thứ nhất, đầu tiên"
+ ],
+ "本能": [
+  "BẢN NĂNG",
+  "bản năng"
+ ],
+ "想到": [
+  "TƯỞNG ĐÁO",
+  "nghĩ đến"
+ ],
+ "送到": [
+  "TỐNG ĐÁO",
+  "đưa đến"
+ ],
+ "即便": [
+  "TỨC TIỆN",
+  "cho dù"
+ ],
+ "告知": [
+  "CÁO TRI",
+  "báo cho biết"
+ ],
+ "所患": [
+  "SỞ HOẠN",
+  "(bệnh) mắc phải"
+ ],
+ "绝症": [
+  "TUYỆT CHỨNG",
+  "bệnh nan y"
+ ],
+ "且": [
+  "THẢ",
+  "hơn nữa, mà lại"
+ ],
+ "时日无多": [
+  "THỜI NHẬT VÔ ĐA",
+  "không còn sống được bao lâu"
+ ],
+ "难以": [
+  "NAN DĨ",
+  "khó mà"
+ ],
+ "做出": [
+  "TỐ XUẤT",
+  "đưa ra (quyết định)"
+ ],
+ "放弃": [
+  "PHÓNG KHÍ",
+  "từ bỏ"
+ ],
+ "深爱": [
+  "THÂM ÁI",
+  "yêu sâu đậm"
+ ],
+ "往往": [
+  "VÃNG VÃNG",
+  "thường thường"
+ ],
+ "病痛": [
+  "BỆNH THỐNG",
+  "đau đớn vì bệnh"
+ ],
+ "还要": [
+  "HOÀN YẾU",
+  "còn phải"
+ ],
+ "承受": [
+  "THỪA THỤ",
+  "gánh chịu"
+ ],
+ "带来": [
+  "ĐÁI LAI",
+  "mang lại"
+ ],
+ "无尽": [
+  "VÔ TẬN",
+  "vô tận"
+ ],
+ "折磨": [
+  "CHIẾT MA",
+  "giày vò, hành hạ"
+ ],
+ "年": [
+  "NIÊN",
+  "năm"
+ ],
+ "质量": [
+  "CHẤT LƯỢNG",
+  "chất lượng"
+ ],
+ "临终": [
+  "LÂM CHUNG",
+  "lúc lâm chung"
+ ],
+ "越来越": [
+  "VIỆT LAI VIỆT",
+  "ngày càng"
+ ],
+ "关注": [
+  "QUAN CHÚ",
+  "quan tâm, theo dõi"
+ ],
+ "话题": [
+  "THOẠI ĐỀ",
+  "chủ đề bàn luận"
+ ],
+ "中国": [
+  "TRUNG QUỐC",
+  "Trung Quốc"
+ ],
+ "事业": [
+  "SỰ NGHIỆP",
+  "sự nghiệp"
+ ],
+ "不断": [
+  "BẤT ĐOẠN",
+  "không ngừng"
+ ],
+ "成长": [
+  "THÀNH TRƯỞNG",
+  "lớn lên, trưởng thành"
+ ],
+ "壮大": [
+  "TRÁNG ĐẠI",
+  "lớn mạnh"
+ ],
+ "目前": [
+  "MỤC TIỀN",
+  "hiện nay"
+ ],
+ "提供": [
+  "ĐỀ CUNG",
+  "cung cấp"
+ ],
+ "机构": [
+  "CƠ CẤU",
+  "cơ sở, tổ chức"
+ ],
+ "六十": [
+  "LỤC THẬP",
+  "sáu mươi"
+ ],
+ "首批": [
+  "THỦ PHÊ",
+  "đợt đầu tiên"
+ ],
+ "示范": [
+  "THỊ PHẠM",
+  "làm mẫu, thí điểm"
+ ],
+ "基地": [
+  "CƠ ĐỊA",
+  "cơ sở, căn cứ"
+ ],
+ "业内": [
+  "NGHIỆP NỘI",
+  "trong ngành"
+ ],
+ "简称": [
+  "GIẢN XƯNG",
+  "gọi tắt là"
+ ],
+ "讲述者": [
+  "GIẢNG THUẬT GIẢ",
+  "người kể chuyện"
+ ],
+ "一名": [
+  "NHẤT DANH",
+  "một (người)"
+ ],
+ "哀伤": [
+  "AI THƯƠNG",
+  "đau buồn, tang thương"
+ ],
+ "治愈": [
+  "TRỊ DŨ",
+  "chữa khỏi; chữa lành (lòng)"
+ ],
+ "因而": [
+  "NHÂN NHI",
+  "do đó"
+ ],
+ "走出": [
+  "TẨU XUẤT",
+  "bước ra khỏi"
+ ],
+ "感到恐惧": [
+  "CẢM ĐÁO KHỦNG CỤ",
+  "cảm thấy sợ hãi"
+ ],
+ "学会": [
+  "HỌC HỘI",
+  "học được; hội, hiệp hội"
+ ],
+ "如何": [
+  "NHƯ HÀ",
+  "như thế nào"
+ ],
+ "拥抱": [
+  "ỦNG BÃO",
+  "ôm"
+ ],
+ "保守": [
+  "BẢO THỦ",
+  "bảo thủ; giữ kín (保守治疗: điều trị bảo tồn)"
+ ],
+ "三": [
+  "TAM",
+  "ba"
+ ],
+ "年间": [
+  "NIÊN GIAN",
+  "trong những năm"
+ ],
+ "王洋": [
+  "VƯƠNG DƯƠNG",
+  "Vương Dương (tên người)"
+ ],
+ "孝顺": [
+  "HIẾU THUẬN",
+  "hiếu thảo, có hiếu với cha mẹ"
+ ],
+ "里面": [
+  "LÝ DIỆN",
+  "bên trong"
+ ],
+ "打电话": [
+  "ĐẢ ĐIỆN THOẠI",
+  "gọi điện thoại"
+ ],
+ "认识": [
+  "NHẬN THỨC",
+  "quen biết; biết (mặt chữ)"
+ ],
+ "男": [
+  "NAM",
+  "nam, đàn ông"
+ ],
+ "全部": [
+  "TOÀN BỘ",
+  "toàn bộ"
+ ],
+ "海医": [
+  "HẢI Y",
+  "cách gọi tắt bệnh viện trong tập"
+ ],
+ "网友": [
+  "VÕNG HỮU",
+  "bạn quen trên mạng"
+ ],
+ "电话": [
+  "ĐIỆN THOẠI",
+  "điện thoại"
+ ],
+ "女孩子": [
+  "NỮ HÀI TỬ",
+  "con gái, cô gái"
+ ],
+ "大概": [
+  "ĐẠI KHÁI",
+  "đại khái, khoảng chừng"
+ ],
+ "房间": [
+  "PHÒNG GIAN",
+  "căn phòng"
+ ],
+ "蹲": [
+  "TỒN",
+  "ngồi xổm; ở lì một chỗ"
+ ],
+ "手机": [
+  "THỦ CƠ",
+  "điện thoại di động"
+ ],
+ "杀": [
+  "SÁT",
+  "giết"
+ ],
+ "传销": [
+  "TRUYỀN TIÊU",
+  "bán hàng đa cấp"
+ ],
+ "每天": [
+  "MỖI THIÊN",
+  "mỗi ngày"
+ ],
+ "几个": [
+  "KỶ CÁ",
+  "mấy cái, mấy người"
+ ],
+ "多少": [
+  "ĐA THIỂU",
+  "bao nhiêu"
+ ],
+ "女": [
+  "NỮ",
+  "nữ, con gái"
+ ],
+ "老大": [
+  "LÃO ĐẠI",
+  "đại ca, thủ lĩnh; con cả"
+ ],
+ "窗": [
+  "SONG",
+  "cửa sổ"
+ ],
+ "直接": [
+  "TRỰC TIẾP",
+  "trực tiếp, thẳng"
+ ],
+ "听": [
+  "THÍNH",
+  "nghe"
+ ],
+ "大明": [
+  "ĐẠI MINH",
+  "Đại Minh (tên người trong tập)"
+ ],
+ "以为": [
+  "DĨ VI",
+  "cứ tưởng là"
+ ],
+ "所谓": [
+  "SỞ VỊ",
+  "cái gọi là"
+ ],
+ "身上": [
+  "THÂN THƯỢNG",
+  "trên người"
+ ],
+ "家人": [
+  "GIA NHÂN",
+  "người nhà"
+ ],
+ "找到": [
+  "TRẢO ĐÁO",
+  "tìm thấy"
+ ],
+ "接": [
+  "TIẾP",
+  "đón; nhận; nối"
+ ],
+ "帮": [
+  "BANG",
+  "giúp"
+ ],
+ "其实": [
+  "KỲ THỰC",
+  "thực ra"
+ ],
+ "门口": [
+  "MÔN KHẨU",
+  "cửa ra vào, trước cửa"
+ ],
+ "布": [
+  "BỐ",
+  "vải"
+ ],
+ "摁": [
+  "ÁN",
+  "ấn, bấm"
+ ],
+ "旁边": [
+  "BÀNG BIÊN",
+  "bên cạnh"
+ ],
+ "撞": [
+  "TRÀNG",
+  "đụng, va phải"
+ ],
+ "民警": [
+  "DÂN CẢNH",
+  "công an khu vực"
+ ],
+ "六年": [
+  "LỤC NIÊN",
+  "sáu năm"
+ ],
+ "皮贴": [
+  "BÌ THIẾP",
+  "miếng dán ngoài da (dán thuốc)"
+ ],
+ "下": [
+  "HẠ",
+  "xuống; dưới"
+ ],
+ "早上": [
+  "TẢO THƯỢNG",
+  "buổi sáng"
+ ],
+ "星期": [
+  "TINH KỲ",
+  "tuần lễ"
+ ],
+ "擦": [
+  "SÁT",
+  "lau, chùi"
+ ],
+ "终于": [
+  "CHUNG VU",
+  "cuối cùng thì"
+ ],
+ "发现": [
+  "PHÁT HIỆN",
+  "phát hiện, nhận ra"
+ ],
+ "发": [
+  "PHÁT",
+  "gửi, phát ra"
+ ],
+ "根本": [
+  "CĂN BẢN",
+  "căn bản; (kèm phủ định) hoàn toàn"
+ ],
+ "不敢": [
+  "BẤT CẢM",
+  "không dám"
+ ],
+ "左右": [
+  "TẢ HỮU",
+  "trái phải; khoảng chừng"
+ ],
+ "数": [
+  "SỐ",
+  "đếm; con số"
+ ],
+ "反应": [
+  "PHẢN ỨNG",
+  "phản ứng"
+ ],
+ "广东": [
+  "QUẢNG ĐÔNG",
+  "Quảng Đông (tỉnh)"
+ ],
+ "奇怪": [
+  "KỲ QUÁI",
+  "kỳ lạ, lạ lùng"
+ ],
+ "哪里": [
+  "NA LÝ",
+  "ở đâu"
+ ],
+ "旅游": [
+  "LỮ DU",
+  "du lịch"
+ ],
+ "丹阳": [
+  "ĐAN DƯƠNG",
+  "Đan Dương (địa danh)"
+ ],
+ "酒店": [
+  "TỬU ĐIẾM",
+  "khách sạn"
+ ],
+ "睡觉": [
+  "THÙY GIÁC",
+  "ngủ"
+ ],
+ "包包": [
+  "BAO BAO",
+  "cái túi xách"
+ ],
+ "准备": [
+  "CHUẨN BỊ",
+  "chuẩn bị"
+ ],
+ "烟": [
+  "YÊN",
+  "thuốc lá; khói"
+ ],
+ "行业": [
+  "HÀNH NGHIỆP",
+  "ngành nghề"
+ ],
+ "就让": [
+  "TỰU NHƯỢNG",
+  "thế là để cho (cụm)"
+ ],
+ "主人": [
+  "CHỦ NHÂN",
+  "chủ nhà, chủ nhân"
+ ],
+ "我家": [
+  "NGÃ GIA",
+  "nhà tôi (cụm)"
+ ],
+ "窝点": [
+  "OA ĐIỂM",
+  "ổ, sào huyệt"
+ ],
+ "见到": [
+  "KIẾN ĐÁO",
+  "gặp được"
+ ],
+ "间": [
+  "GIAN",
+  "gian, phòng (lượng từ)"
+ ],
+ "脖子": [
+  "BỘT TỬ",
+  "cổ"
+ ],
+ "很大": [
+  "NGẬN ĐẠI",
+  "rất lớn"
+ ],
+ "小区": [
+  "TIỂU KHU",
+  "khu dân cư"
+ ],
+ "肯定": [
+  "KHẲNG ĐỊNH",
+  "chắc chắn"
+ ],
+ "门": [
+  "MÔN",
+  "cửa"
+ ],
+ "赖": [
+  "LẠI",
+  "ỳ ra, ăn vạ; đổ lỗi"
+ ],
+ "一会儿": [
+  "NHẤT HỘI NHI",
+  "một lát"
+ ],
+ "深": [
+  "THÂM",
+  "sâu"
+ ],
+ "工作": [
+  "CÔNG TÁC",
+  "công việc; làm việc"
+ ],
+ "感动": [
+  "CẢM ĐỘNG",
+  "cảm động"
+ ],
+ "够": [
+  "CẤU",
+  "đủ"
+ ],
+ "打开": [
+  "ĐẢ KHAI",
+  "mở ra"
+ ],
+ "一天": [
+  "NHẤT THIÊN",
+  "một ngày"
+ ],
+ "一遍": [
+  "NHẤT BIẾN",
+  "một lượt, một lần"
+ ],
+ "哦": [
+  "Ồ",
+  "ồ, à"
+ ],
+ "是不是": [
+  "THỊ BẤT THỊ",
+  "có phải… không"
+ ],
+ "自由": [
+  "TỰ DO",
+  "tự do"
+ ],
+ "由": [
+  "DO",
+  "do, bởi"
+ ],
+ "受不了": [
+  "THỤ BẤT LIỄU",
+  "chịu không nổi"
+ ],
+ "的话": [
+  "ĐÍCH THOẠI",
+  "nếu… thì"
+ ],
+ "聊天": [
+  "LIÊU THIÊN",
+  "tán gẫu, trò chuyện"
+ ],
+ "感情": [
+  "CẢM TÌNH",
+  "tình cảm"
+ ],
+ "或": [
+  "HOẶC",
+  "hoặc"
+ ],
+ "江苏": [
+  "GIANG TÔ",
+  "Giang Tô (tỉnh)"
+ ],
+ "兄弟": [
+  "HUYNH ĐỆ",
+  "anh em"
+ ],
+ "女朋友": [
+  "NỮ BẰNG HỮU",
+  "bạn gái"
+ ],
+ "下楼": [
+  "HẠ LÂU",
+  "xuống lầu"
+ ],
+ "上面": [
+  "THƯỢNG DIỆN",
+  "bên trên"
+ ],
+ "信": [
+  "TÍN",
+  "tin tưởng; lá thư"
+ ],
+ "外面": [
+  "NGOẠI DIỆN",
+  "bên ngoài"
+ ],
+ "十几个": [
+  "THẬP KỶ CÁ",
+  "mười mấy cái/người"
+ ],
+ "站": [
+  "TRẠM",
+  "đứng; nhà ga"
+ ],
+ "脸": [
+  "KIỂM",
+  "mặt"
+ ],
+ "罗国栋": [
+  "LA QUỐC ĐỐNG",
+  "La Quốc Đống (tên người)"
+ ],
+ "这边": [
+  "GIÁ BIÊN",
+  "bên này"
+ ],
+ "名字": [
+  "DANH TỰ",
+  "tên"
+ ],
+ "一张": [
+  "NHẤT TRƯƠNG",
+  "một tờ, một tấm"
+ ],
+ "张": [
+  "TRƯƠNG",
+  "tờ, tấm (lượng từ)"
+ ],
+ "铁丝网": [
+  "THIẾT TY VÕNG",
+  "lưới thép gai"
+ ],
+ "跑": [
+  "BÀO",
+  "chạy"
+ ],
+ "洗手间": [
+  "TẨY THỦ GIAN",
+  "nhà vệ sinh"
+ ],
+ "呐": [
+  "NẠP",
+  "nhé, đấy (trợ từ)"
+ ],
+ "骗": [
+  "PHIẾN",
+  "lừa, lừa gạt"
+ ],
+ "讲课": [
+  "GIẢNG KHÓA",
+  "giảng bài"
+ ],
+ "五万": [
+  "NGŨ VẠN",
+  "năm vạn (50.000)"
+ ],
+ "惠泽苑": [
+  "HUỆ TRẠCH UYỂN",
+  "Huệ Trạch Uyển (tên khu nhà)"
+ ],
+ "今年": [
+  "KIM NIÊN",
+  "năm nay"
+ ],
+ "直": [
+  "TRỰC",
+  "thẳng; cứ thế"
+ ],
+ "恐怖": [
+  "KHỦNG BỐ",
+  "đáng sợ, kinh khủng"
+ ],
+ "二十四": [
+  "NHỊ THẬP TỨ",
+  "hai mươi tư"
+ ],
+ "马上": [
+  "MÃ THƯỢNG",
+  "ngay lập tức"
+ ],
+ "床": [
+  "SÀNG",
+  "giường"
+ ],
+ "位置": [
+  "VỊ TRÍ",
+  "vị trí, chỗ"
+ ],
+ "开": [
+  "KHAI",
+  "mở; lái xe"
+ ],
+ "基本上": [
+  "CƠ BẢN THƯỢNG",
+  "về cơ bản"
+ ],
+ "纸": [
+  "CHỈ",
+  "giấy"
+ ],
+ "整个": [
+  "CHỈNH CÁ",
+  "cả, toàn bộ"
+ ],
+ "交流": [
+  "GIAO LƯU",
+  "trao đổi, giao tiếp"
+ ],
+ "恍惚": [
+  "HOẢNG HỐT",
+  "mơ màng, thất thần"
+ ],
+ "上去": [
+  "THƯỢNG KHỨ",
+  "đi lên"
+ ],
+ "留": [
+  "LƯU",
+  "để lại, giữ lại"
+ ],
+ "六号": [
+  "LỤC HIỆU",
+  "mồng 6"
+ ],
+ "进来": [
+  "TIẾN LAI",
+  "đi vào"
+ ],
+ "阳光": [
+  "DƯƠNG QUANG",
+  "ánh nắng"
+ ],
+ "反正": [
+  "PHẢN CHÍNH",
+  "dù sao thì"
+ ],
+ "段时间": [
+  "ĐOẠN THỜI GIAN",
+  "khoảng thời gian (cụm)"
+ ],
+ "算": [
+  "TOÁN",
+  "tính; coi như"
+ ],
+ "地": [
+  "ĐỊA",
+  "đất; trợ từ nối trạng ngữ"
+ ],
+ "默默": [
+  "MẶC MẶC",
+  "lặng lẽ"
+ ],
+ "刚": [
+  "CƯƠNG",
+  "vừa mới"
+ ],
+ "记得": [
+  "KÝ ĐẮC",
+  "nhớ"
+ ],
+ "发生": [
+  "PHÁT SINH",
+  "xảy ra"
+ ],
+ "仪式": [
+  "NGHI THỨC",
+  "nghi thức, buổi lễ"
+ ],
+ "放到": [
+  "PHÓNG ĐÁO",
+  "đặt vào"
+ ],
+ "聊": [
+  "LIÊU",
+  "trò chuyện"
+ ],
+ "早上好": [
+  "TẢO THƯỢNG HẢO",
+  "chào buổi sáng"
+ ],
+ "一句": [
+  "NHẤT CÚ",
+  "một câu"
+ ],
+ "课程": [
+  "KHÓA TRÌNH",
+  "khóa học"
+ ],
+ "号": [
+  "HIỆU",
+  "ngày (mồng); số"
+ ],
+ "叫做": [
+  "KHIẾU TỐ",
+  "gọi là"
+ ],
+ "筹划": [
+  "TRÙ HOẠCH",
+  "trù tính, lên kế hoạch"
+ ],
+ "通过": [
+  "THÔNG QUÁ",
+  "thông qua, bằng cách"
+ ],
+ "视频": [
+  "THỊ TẦN",
+  "video"
+ ],
+ "脸上": [
+  "KIỂM THƯỢNG",
+  "trên mặt"
+ ],
+ "假装": [
+  "GIẢ TRANG",
+  "giả vờ"
+ ],
+ "花": [
+  "HOA",
+  "hoa; tiêu (tiền)"
+ ],
+ "需要": [
+  "NHU YẾU",
+  "cần"
+ ],
+ "进行": [
+  "TIẾN HÀNH",
+  "tiến hành"
+ ],
+ "几次": [
+  "KỶ THỨ",
+  "mấy lần"
+ ],
+ "其中": [
+  "KỲ TRUNG",
+  "trong đó"
+ ],
+ "进去": [
+  "TIẾN KHỨ",
+  "đi vào"
+ ],
+ "入": [
+  "NHẬP",
+  "vào"
+ ],
+ "再说": [
+  "TÁI THUYẾT",
+  "tính sau; hơn nữa"
+ ],
+ "联系": [
+  "LIÊN HỆ",
+  "liên lạc"
+ ],
+ "语音": [
+  "NGỮ ÂM",
+  "tin nhắn thoại"
+ ],
+ "第三天": [
+  "ĐỆ TAM THIÊN",
+  "ngày thứ ba"
+ ],
+ "正常": [
+  "CHÍNH THƯỜNG",
+  "bình thường"
+ ],
+ "那次": [
+  "NA THỨ",
+  "lần đó"
+ ],
+ "眼睛": [
+  "NHÃN TINH",
+  "mắt"
+ ],
+ "醒": [
+  "TỈNH",
+  "tỉnh dậy"
+ ],
+ "整整": [
+  "CHỈNH CHỈNH",
+  "tròn, đúng (một khoảng thời gian)"
+ ],
+ "那边": [
+  "NA BIÊN",
+  "bên kia"
+ ],
+ "十二月": [
+  "THẬP NHỊ NGUYỆT",
+  "tháng Mười hai"
+ ],
+ "记": [
+  "KÝ",
+  "ghi; nhớ"
+ ],
+ "脑子里": [
+  "NÃO TỬ LÝ",
+  "trong đầu"
+ ],
+ "舒服": [
+  "THƯ PHỤC",
+  "dễ chịu, thoải mái"
+ ],
+ "几年": [
+  "KỶ NIÊN",
+  "mấy năm"
+ ],
+ "楼下": [
+  "LÂU HẠ",
+  "dưới lầu"
+ ],
+ "掉": [
+  "ĐIỆU",
+  "rơi, rớt; mất"
+ ],
+ "一个多": [
+  "NHẤT CÁ ĐA",
+  "hơn một (tháng, năm)"
+ ],
+ "经常": [
+  "KINH THƯỜNG",
+  "thường xuyên"
+ ],
+ "跟着": [
+  "CÂN TRƯỚC",
+  "đi theo, theo sau"
+ ],
+ "本期": [
+  "BẢN KỲ",
+  "số này, tập này"
+ ],
+ "制作": [
+  "CHẾ TÁC",
+  "sản xuất, thực hiện"
+ ],
+ "感谢": [
+  "CẢM TẠ",
+  "cảm ơn"
+ ],
+ "第十一天": [
+  "ĐỆ THẬP NHẤT THIÊN",
+  "ngày thứ mười một"
+ ],
+ "半夜三更": [
+  "BÁN DẠ TAM CANH",
+  "nửa đêm gà gáy"
+ ],
+ "偏偏": [
+  "THIÊN THIÊN",
+  "cứ nhất định; oái oăm thay"
+ ],
+ "微信": [
+  "VI TÍN",
+  "WeChat"
+ ],
+ "六月": [
+  "LỤC NGUYỆT",
+  "tháng Sáu"
+ ],
+ "来自": [
+  "LAI TỰ",
+  "đến từ"
+ ],
+ "深圳": [
+  "THÂM QUYẾN",
+  "Thâm Quyến (thành phố)"
+ ],
+ "中间": [
+  "TRUNG GIAN",
+  "ở giữa"
+ ],
+ "纯粹": [
+  "THUẦN TÚY",
+  "thuần túy, hoàn toàn"
+ ],
+ "单纯": [
+  "ĐƠN THUẦN",
+  "đơn thuần; ngây thơ"
+ ],
+ "过年": [
+  "QUÁ NIÊN",
+  "ăn Tết"
+ ],
+ "连续": [
+  "LIÊN TỤC",
+  "liên tục"
+ ],
+ "几天": [
+  "KỶ THIÊN",
+  "mấy ngày"
+ ],
+ "并不知道": [
+  "TỊNH BẤT TRI ĐẠO",
+  "hoàn toàn không hay biết (cụm)"
+ ],
+ "上海": [
+  "THƯỢNG HẢI",
+  "Thượng Hải"
+ ],
+ "端午节": [
+  "ĐOAN NGỌ TIẾT",
+  "Tết Đoan Ngọ"
+ ],
+ "确定": [
+  "XÁC ĐỊNH",
+  "xác định; chắc chắn"
+ ],
+ "镇江": [
+  "TRẤN GIANG",
+  "Trấn Giang (thành phố)"
+ ],
+ "广场": [
+  "QUẢNG TRƯỜNG",
+  "quảng trường"
+ ],
+ "真人": [
+  "CHÂN NHÂN",
+  "người thật"
+ ],
+ "的士": [
+  "ĐÍCH SĨ",
+  "taxi"
+ ],
+ "辛苦": [
+  "TÂN KHỔ",
+  "vất vả"
+ ],
+ "喝": [
+  "HÁT",
+  "uống"
+ ],
+ "更加": [
+  "CÁNH GIA",
+  "càng thêm"
+ ],
+ "房子": [
+  "PHÒNG TỬ",
+  "căn nhà"
+ ],
+ "装修": [
+  "TRANG TU",
+  "sửa sang, trang trí nhà"
+ ],
+ "楼": [
+  "LÂU",
+  "tòa nhà; tầng lầu"
+ ],
+ "开门": [
+  "KHAI MÔN",
+  "mở cửa"
+ ],
+ "掰": [
+  "",
+  "bẻ ra, tách ra"
+ ],
+ "门帘": [
+  "MÔN LIÊM",
+  "rèm cửa"
+ ],
+ "被子": [
+  "BỊ TỬ",
+  "cái chăn"
+ ],
+ "嘻嘻哈哈": [
+  "HY HY HA HA",
+  "cười hì hì ha ha, đùa cợt"
+ ],
+ "一点点": [
+  "NHẤT ĐIỂM ĐIỂM",
+  "một chút xíu"
+ ],
+ "黑": [
+  "HẮC",
+  "đen; tối"
+ ],
+ "抢": [
+  "THƯƠNG",
+  "cướp, giành"
+ ],
+ "饭": [
+  "PHẠN",
+  "cơm"
+ ],
+ "推进": [
+  "THÔI TIẾN",
+  "đẩy tới, thúc đẩy"
+ ],
+ "两三个": [
+  "LƯỠNG TAM CÁ",
+  "hai ba cái/người"
+ ],
+ "脚": [
+  "CƯỚC",
+  "chân"
+ ],
+ "另外": [
+  "LÍNH NGOẠI",
+  "ngoài ra"
+ ],
+ "六七点": [
+  "LỤC THẤT ĐIỂM",
+  "sáu bảy giờ"
+ ],
+ "四处": [
+  "TỨ XỨ",
+  "khắp nơi"
+ ],
+ "灰壁": [
+  "HÔI BÍCH",
+  "tường vôi xám"
+ ],
+ "关掉": [
+  "QUAN ĐIỆU",
+  "tắt đi"
+ ],
+ "定位": [
+  "ĐỊNH VỊ",
+  "định vị"
+ ],
+ "二十": [
+  "NHỊ THẬP",
+  "hai mươi"
+ ],
+ "总共": [
+  "TỔNG CỘNG",
+  "tổng cộng"
+ ],
+ "盒子": [
+  "HẠP TỬ",
+  "cái hộp"
+ ],
+ "清楚": [
+  "THANH SỞ",
+  "rõ ràng; hiểu rõ"
+ ],
+ "皮鞋": [
+  "BÌ HÀI",
+  "giày da"
+ ],
+ "排队": [
+  "BÀI ĐỘI",
+  "xếp hàng"
+ ],
+ "教": [
+  "GIÁO",
+  "dạy"
+ ],
+ "紧紧": [
+  "KHẨN KHẨN",
+  "chặt, khít"
+ ],
+ "这帮": [
+  "GIÁ BANG",
+  "đám này, bọn này"
+ ],
+ "打手": [
+  "ĐẢ THỦ",
+  "tay chân, kẻ đánh thuê"
+ ],
+ "掐着": [
+  "KHÁP TRƯỚC",
+  "bóp, kẹp chặt"
+ ],
+ "逃跑": [
+  "ĐÀO BÀO",
+  "bỏ trốn"
+ ],
+ "爬": [
+  "BÀ",
+  "bò, trèo"
+ ],
+ "人口": [
+  "NHÂN KHẨU",
+  "nhân khẩu, dân số"
+ ],
+ "音乐": [
+  "ÂM NHẠC",
+  "âm nhạc"
+ ],
+ "你家": [
+  "NHĨ GIA",
+  "nhà bạn (cụm)"
+ ],
+ "听得懂": [
+  "THÍNH ĐẮC ĐỔNG",
+  "nghe hiểu được"
+ ],
+ "客家话": [
+  "KHÁCH GIA THOẠI",
+  "tiếng Khách Gia (Hakka)"
+ ],
+ "听不懂": [
+  "THÍNH BẤT ĐỔNG",
+  "nghe không hiểu"
+ ],
+ "挂": [
+  "QUẢI",
+  "treo; gác máy"
+ ],
+ "考察": [
+  "KHẢO SÁT",
+  "khảo sát, đi xem thực tế"
+ ],
+ "原来": [
+  "NGUYÊN LAI",
+  "hóa ra; vốn dĩ"
+ ],
+ "耗": [
+  "HAO",
+  "hao tốn; lì ra chờ"
+ ],
+ "墙": [
+  "TƯỜNG",
+  "tường"
+ ],
+ "晕倒": [
+  "VỰNG ĐẢO",
+  "ngất xỉu"
+ ],
+ "三次": [
+  "TAM THỨ",
+  "ba lần"
+ ],
+ "挣": [
+  "TRANH",
+  "kiếm (tiền); giãy ra"
+ ],
+ "态度": [
+  "THÁI ĐỘ",
+  "thái độ"
+ ],
+ "几万": [
+  "KỶ VẠN",
+  "mấy vạn"
+ ],
+ "基本": [
+  "CƠ BẢN",
+  "cơ bản"
+ ],
+ "十万": [
+  "THẬP VẠN",
+  "mười vạn (100.000)"
+ ],
+ "准时": [
+  "CHUẨN THỜI",
+  "đúng giờ"
+ ],
+ "要钱": [
+  "YẾU TIỀN",
+  "đòi tiền"
+ ],
+ "头发": [
+  "ĐẦU PHÁT",
+  "tóc"
+ ],
+ "长": [
+  "TRƯỜNG",
+  "dài"
+ ],
+ "司机": [
+  "TY CƠ",
+  "tài xế"
+ ],
+ "丹凤": [
+  "ĐAN PHƯỢNG",
+  "Đan Phượng (tên riêng)"
+ ],
+ "派出所": [
+  "PHÁI XUẤT SỞ",
+  "đồn công an"
+ ],
+ "囚禁": [
+  "TÙ CẤM",
+  "giam giữ, nhốt"
+ ],
+ "满足": [
+  "MÃN TÚC",
+  "thỏa mãn, đáp ứng"
+ ],
+ "身体状况": [
+  "THÂN THỂ TRẠNG HUỐNG",
+  "tình trạng sức khỏe"
+ ],
+ "断崖": [
+  "ĐOẠN NHAI",
+  "vách dựng đứng (断崖式: tụt dốc không phanh)"
+ ],
+ "恶化": [
+  "ÁC HÓA",
+  "xấu đi, trở nặng"
+ ],
+ "六十六岁": [
+  "LỤC THẬP LỤC TUẾ",
+  "sáu mươi sáu tuổi"
+ ],
+ "服装": [
+  "PHỤC TRANG",
+  "trang phục"
+ ],
+ "设计师": [
+  "THIẾT KẾ SƯ",
+  "nhà thiết kế"
+ ],
+ "吞咽": [
+  "THÔN YẾT",
+  "nuốt"
+ ],
+ "障碍": [
+  "CHƯỚNG NGẠI",
+  "rối loạn; trở ngại"
+ ],
+ "脚趾": [
+  "CƯỚC CHỈ",
+  "ngón chân"
+ ],
+ "坏死": [
+  "HOẠI TỬ",
+  "hoại tử"
+ ],
+ "忍不住": [
+  "NHẪN BẤT TRÚ",
+  "không nhịn được"
+ ],
+ "收进": [
+  "THU TIẾN",
+  "thu vào, nhận vào"
+ ],
+ "由于": [
+  "DO VU",
+  "do, bởi vì"
+ ],
+ "好喝": [
+  "HẢO HÁT",
+  "ngon (đồ uống)"
+ ],
+ "说走就走": [
+  "THUYẾT TẨU TỰU TẨU",
+  "nói đi là đi ngay"
+ ],
+ "毒": [
+  "ĐỘC",
+  "độc; ma túy"
+ ],
+ "麻药": [
+  "MA DƯỢC",
+  "thuốc tê, thuốc mê"
+ ],
+ "止痛": [
+  "CHỈ THỐNG",
+  "giảm đau"
+ ],
+ "早晨": [
+  "TẢO THẦN",
+  "sáng sớm"
+ ],
+ "八点": [
+  "BÁT ĐIỂM",
+  "tám giờ"
+ ],
+ "才能": [
+  "TÀI NĂNG",
+  "mới có thể"
+ ],
+ "没关系": [
+  "MỘT QUAN HỆ",
+  "không sao, không hề gì"
+ ],
+ "值班": [
+  "TRỰC BAN",
+  "trực ca"
+ ],
+ "透皮": [
+  "THẤU BÌ",
+  "thấm qua da"
+ ],
+ "透皮贴": [
+  "THẤU BÌ THIẾP",
+  "miếng dán thấm qua da"
+ ],
+ "掀": [
+  "HIÊN",
+  "lật, vén"
+ ],
+ "了看": [
+  "LIỄU KHÁN",
+  "(cắt từ chưa chuẩn của 掀了看: lật lên xem)"
+ ],
+ "看没": [
+  "KHÁN MỘT",
+  "(cắt từ chưa chuẩn của 看没看: xem có… không)"
+ ],
+ "粘": [
+  "NIÊM",
+  "dính"
+ ],
+ "皮肤": [
+  "BÌ PHU",
+  "da"
+ ],
+ "接下来": [
+  "TIẾP HẠ LAI",
+  "tiếp theo"
+ ],
+ "回不去": [
+  "HỒI BẤT KHỨ",
+  "không về được nữa"
+ ],
+ "药效": [
+  "DƯỢC HIỆU",
+  "tác dụng của thuốc"
+ ],
+ "湿度": [
+  "THẤP ĐỘ",
+  "độ ẩm"
+ ],
+ "镇痛": [
+  "TRẤN THỐNG",
+  "giảm đau"
+ ],
+ "说不出": [
+  "THUYẾT BẤT XUẤT",
+  "không nói ra được"
+ ],
+ "口眼歪斜": [
+  "KHẨU NHÃN OAI TÀ",
+  "méo miệng lệch mắt"
+ ],
+ "绑上": [
+  "BẢNG THƯỢNG",
+  "buộc lên"
+ ],
+ "掀开": [
+  "HIÊN KHAI",
+  "lật ra, vén lên"
+ ],
+ "脑子": [
+  "NÃO TỬ",
+  "đầu óc"
+ ],
+ "嗡": [
+  "ONG",
+  "ù ù (tiếng ù trong đầu)"
+ ],
+ "痛彻": [
+  "THỐNG TRIỆT",
+  "đau thấu"
+ ],
+ "心扉": [
+  "TÂM PHI",
+  "tâm can (痛彻心扉: đau thấu tâm can)"
+ ],
+ "疼疼": [
+  "ĐÔNG ĐÔNG",
+  "đau đau"
+ ],
+ "一动": [
+  "NHẤT ĐỘNG",
+  "hễ động vào là"
+ ],
+ "摸": [
+  "MÔ",
+  "sờ, mò"
+ ],
+ "空调": [
+  "KHÔNG ĐIỀU",
+  "máy lạnh"
+ ],
+ "正对着": [
+  "CHÍNH ĐỐI TRƯỚC",
+  "chĩa thẳng vào"
+ ],
+ "撤": [
+  "TRIỆT",
+  "rút đi, dẹp đi"
+ ],
+ "胸口": [
+  "HUNG KHẨU",
+  "trước ngực"
+ ],
+ "肩": [
+  "KIÊN",
+  "vai"
+ ],
+ "露": [
+  "LỘ",
+  "hở ra, lộ ra"
+ ],
+ "风": [
+  "PHONG",
+  "gió"
+ ],
+ "下边": [
+  "HẠ BIÊN",
+  "bên dưới"
+ ],
+ "冷": [
+  "LÃNH",
+  "lạnh"
+ ],
+ "护": [
+  "HỘ",
+  "che chở, giữ gìn"
+ ],
+ "毯子": [
+  "THẢM TỬ",
+  "tấm chăn mỏng"
+ ],
+ "掖": [
+  "DỊCH",
+  "giắt, nhét (mép chăn)"
+ ],
+ "上盖": [
+  "THƯỢNG CÁI",
+  "đắp lên trên"
+ ],
+ "相对无言": [
+  "TƯƠNG ĐỐI VÔ NGÔN",
+  "nhìn nhau không nói nên lời"
+ ],
+ "说不清": [
+  "THUYẾT BẤT THANH",
+  "không nói cho rõ được"
+ ],
+ "摇头": [
+  "DAO ĐẦU",
+  "lắc đầu"
+ ],
+ "不疼": [
+  "BẤT ĐÔNG",
+  "không đau"
+ ],
+ "交代": [
+  "GIAO ĐẠI",
+  "dặn dò, trăng trối"
+ ],
+ "毕业生": [
+  "TẤT NGHIỆP SINH",
+  "sinh viên tốt nghiệp"
+ ],
+ "算是": [
+  "TOÁN THỊ",
+  "coi như là"
+ ],
+ "上过学": [
+  "THƯỢNG QUÁ HỌC",
+  "từng đi học"
+ ],
+ "避讳": [
+  "TỴ HÚY",
+  "kiêng, tránh nhắc tới"
+ ],
+ "早去": [
+  "TẢO KHỨ",
+  "ra đi sớm"
+ ],
+ "讨论": [
+  "THẢO LUẬN",
+  "bàn bạc"
+ ],
+ "到来": [
+  "ĐÁO LAI",
+  "đến, ập tới"
+ ],
+ "似的": [
+  "TỰ ĐÍCH",
+  "như là, giống như"
+ ],
+ "下意识": [
+  "HẠ Ý THỨC",
+  "theo phản xạ, vô thức"
+ ],
+ "头脑": [
+  "ĐẦU NÃO",
+  "đầu óc"
+ ],
+ "清醒": [
+  "THANH TỈNH",
+  "tỉnh táo"
+ ],
+ "等到": [
+  "ĐẲNG ĐÁO",
+  "đợi đến khi"
+ ],
+ "妈会": [
+  "MA HỘI",
+  "mẹ sẽ (cụm)"
+ ],
+ "告": [
+  "CÁO",
+  "báo, nói cho biết"
+ ],
+ "个别": [
+  "CÁ BIỆT",
+  "cá biệt, một vài"
+ ],
+ "流眼泪": [
+  "LƯU NHÃN LỆ",
+  "chảy nước mắt"
+ ],
+ "凭": [
+  "BẰNG",
+  "dựa vào, căn cứ vào"
+ ],
+ "怎": [
+  "CHẨM",
+  "sao, thế nào"
+ ],
+ "放心": [
+  "PHÓNG TÂM",
+  "yên tâm"
+ ],
+ "着急": [
+  "TRƯỚC CẤP",
+  "sốt ruột, lo lắng"
+ ],
+ "手划": [
+  "THỦ HOẠCH",
+  "khua tay (cụm)"
+ ],
+ "笔": [
+  "BÚT",
+  "bút"
+ ],
+ "绝望": [
+  "TUYỆT VỌNG",
+  "tuyệt vọng"
+ ],
+ "洞口": [
+  "ĐỘNG KHẨU",
+  "miệng lỗ, cửa hang"
+ ],
+ "五五分": [
+  "NGŨ NGŨ PHÂN",
+  "chia năm năm, 50-50"
+ ],
+ "硬币": [
+  "NGẠNH TỆ",
+  "đồng xu"
+ ],
+ "很疼": [
+  "NGẬN ĐÔNG",
+  "rất đau"
+ ],
+ "好几根": [
+  "HẢO KỶ CĂN",
+  "mấy cái (vật dài)"
+ ],
+ "撤出来": [
+  "TRIỆT XUẤT LAI",
+  "rút ra"
+ ],
+ "冒": [
+  "MẠO",
+  "bốc ra, trào ra"
+ ],
+ "水": [
+  "THỦY",
+  "nước"
+ ],
+ "白水": [
+  "BẠCH THỦY",
+  "nước lọc, nước đun sôi"
+ ],
+ "连": [
+  "LIÊN",
+  "liền; đến cả"
+ ],
+ "血液": [
+  "HUYẾT DỊCH",
+  "máu"
+ ],
+ "七根": [
+  "THẤT CĂN",
+  "bảy cái (vật dài)"
+ ],
+ "同时": [
+  "ĐỒNG THỜI",
+  "đồng thời"
+ ],
+ "输输": [
+  "THÂU THÂU",
+  "(nói lắp của 输液: truyền dịch)"
+ ],
+ "输液": [
+  "THÂU DỊCH",
+  "truyền dịch"
+ ],
+ "涌": [
+  "DŨNG",
+  "trào, dâng lên"
+ ],
+ "好多好多": [
+  "HẢO ĐA HẢO ĐA",
+  "rất nhiều rất nhiều"
+ ],
+ "不往": [
+  "BẤT VÃNG",
+  "không về phía (cụm)"
+ ],
+ "外": [
+  "NGOẠI",
+  "ngoài"
+ ],
+ "涌水": [
+  "DŨNG THỦY",
+  "nước trào ra"
+ ],
+ "忘记": [
+  "VONG KÝ",
+  "quên"
+ ],
+ "后背": [
+  "HẬU BỐI",
+  "lưng"
+ ],
+ "湿透": [
+  "THẤP THẤU",
+  "ướt sũng"
+ ],
+ "冰冷": [
+  "BĂNG LÃNH",
+  "lạnh buốt"
+ ],
+ "液体": [
+  "DỊCH THỂ",
+  "chất lỏng"
+ ],
+ "通道": [
+  "THÔNG ĐẠO",
+  "lối đi, hành lang"
+ ],
+ "一路上": [
+  "NHẤT LỘ THƯỢNG",
+  "suốt dọc đường"
+ ],
+ "垃圾桶": [
+  "LẠP TÍCH THỐNG",
+  "thùng rác"
+ ],
+ "垃圾站": [
+  "LẠP TÍCH TRẠM",
+  "điểm tập kết rác"
+ ],
+ "绕": [
+  "NHIỄU",
+  "đi vòng, lượn quanh"
+ ],
+ "太平街": [
+  "THÁI BÌNH NHAI",
+  "phố Thái Bình (địa danh)"
+ ],
+ "照料": [
+  "CHIẾU LIỆU",
+  "chăm nom"
+ ],
+ "痛成": [
+  "THỐNG THÀNH",
+  "đau đến mức (cụm)"
+ ],
+ "痛风": [
+  "THỐNG PHONG",
+  "bệnh gút"
+ ],
+ "送来": [
+  "TỐNG LAI",
+  "đưa tới"
+ ],
+ "偷": [
+  "THÂU",
+  "trộm; lén lút"
+ ],
+ "怀里": [
+  "HOÀI LÝ",
+  "trong lòng, trong vòng tay"
+ ],
+ "痛到": [
+  "THỐNG ĐÁO",
+  "đau đến (cụm)"
+ ],
+ "决策": [
+  "QUYẾT SÁCH",
+  "quyết sách, quyết định"
+ ],
+ "失误": [
+  "THẤT NGỘ",
+  "sai sót"
+ ],
+ "造成": [
+  "TẠO THÀNH",
+  "gây ra"
+ ],
+ "不久": [
+  "BẤT CỬU",
+  "không lâu sau"
+ ],
+ "初": [
+  "SƠ",
+  "đầu (tháng, năm)"
+ ],
+ "体检": [
+  "THỂ KIỂM",
+  "khám sức khỏe"
+ ],
+ "患有": [
+  "HOẠN HỮU",
+  "mắc (bệnh)"
+ ],
+ "患癌": [
+  "HOẠN NHAM",
+  "mắc ung thư"
+ ],
+ "像是": [
+  "TƯỢNG THỊ",
+  "như thể là"
+ ],
+ "解脱": [
+  "GIẢI THOÁT",
+  "giải thoát"
+ ],
+ "有时候": [
+  "HỮU THỜI HẬU",
+  "có lúc, đôi khi"
+ ],
+ "开车": [
+  "KHAI XA",
+  "lái xe"
+ ],
+ "危险": [
+  "NGUY HIỂM",
+  "nguy hiểm"
+ ],
+ "撞死": [
+  "TRÀNG TỬ",
+  "đâm chết"
+ ],
+ "愧对": [
+  "QUÝ ĐỐI",
+  "thấy có lỗi với"
+ ],
+ "充分": [
+  "SUNG PHÂN",
+  "đầy đủ, thừa sức"
+ ],
+ "理由": [
+  "LÝ DO",
+  "lý do"
+ ],
+ "赎罪": [
+  "THỤC TỘI",
+  "chuộc tội"
+ ],
+ "本身": [
+  "BẢN THÂN",
+  "bản thân nó"
+ ],
+ "受罪": [
+  "THỤ TỘI",
+  "chịu khổ, chịu hành hạ"
+ ],
+ "宁可": [
+  "NINH KHẢ",
+  "thà rằng"
+ ],
+ "跳楼": [
+  "KHIÊU LÂU",
+  "nhảy lầu"
+ ],
+ "跳海": [
+  "KHIÊU HẢI",
+  "nhảy biển"
+ ],
+ "幸运": [
+  "HẠNH VẬN",
+  "may mắn"
+ ],
+ "二月": [
+  "NHỊ NGUYỆT",
+  "tháng Hai"
+ ],
+ "楼上": [
+  "LÂU THƯỢNG",
+  "trên lầu"
+ ],
+ "邻居": [
+  "LÂN CƯ",
+  "hàng xóm"
+ ],
+ "秦院": [
+  "TẦN VIỆN",
+  "Tần Viện (cách gọi trong tập)"
+ ],
+ "业主": [
+  "NGHIỆP CHỦ",
+  "chủ hộ, cư dân"
+ ],
+ "圈儿": [
+  "QUYỂN NHI",
+  "vòng tròn; nhóm người"
+ ],
+ "成立": [
+  "THÀNH LẬP",
+  "thành lập"
+ ],
+ "介绍": [
+  "GIỚI THIỆU",
+  "giới thiệu"
+ ],
+ "而是": [
+  "NHI THỊ",
+  "mà là"
+ ],
+ "缓解": [
+  "HOÃN GIẢI",
+  "làm dịu, giảm nhẹ"
+ ],
+ "症状": [
+  "CHỨNG TRẠNG",
+  "triệu chứng"
+ ],
+ "品质": [
+  "PHẨM CHẤT",
+  "phẩm chất, chất lượng"
+ ],
+ "尊严": [
+  "TÔN NGHIÊM",
+  "phẩm giá"
+ ],
+ "考虑": [
+  "KHẢO LỰ",
+  "cân nhắc"
+ ],
+ "招聘": [
+  "CHIÊU SÍNH",
+  "tuyển dụng"
+ ],
+ "小窗": [
+  "TIỂU SONG",
+  "cửa sổ nhỏ"
+ ],
+ "接近": [
+  "TIẾP CẬN",
+  "gần, sắp tới"
+ ],
+ "资料": [
+  "TƯ LIỆU",
+  "tư liệu, hồ sơ"
+ ],
+ "素材": [
+  "TỐ TÀI",
+  "chất liệu, tư liệu"
+ ],
+ "放疗": [
+  "PHÓNG LIỆU",
+  "xạ trị"
+ ],
+ "哀嚎": [
+  "AI HÀO",
+  "rên rỉ, gào khóc"
+ ],
+ "想象": [
+  "TƯỞNG TƯỢNG",
+  "tưởng tượng"
+ ],
+ "着会": [
+  "TRƯỚC HỘI",
+  "(cụm bị cắt từ chưa chuẩn)"
+ ],
+ "窗台上": [
+  "SONG ĐÀI THƯỢNG",
+  "trên bệ cửa sổ"
+ ],
+ "花盆": [
+  "HOA BỒN",
+  "chậu hoa"
+ ],
+ "聊天儿": [
+  "LIÊU THIÊN NHI",
+  "trò chuyện, tán gẫu"
+ ],
+ "阳光明媚": [
+  "DƯƠNG QUANG MINH MỊ",
+  "nắng đẹp rực rỡ"
+ ],
+ "起不来": [
+  "KHỞI BẤT LAI",
+  "không dậy nổi"
+ ],
+ "俯身": [
+  "PHỦ THÂN",
+  "cúi người xuống"
+ ],
+ "温和": [
+  "ÔN HÒA",
+  "ôn hòa, dịu dàng"
+ ],
+ "学雷锋": [
+  "HỌC LÔI PHONG",
+  "học tập Lôi Phong (làm việc tốt)"
+ ],
+ "第三次": [
+  "ĐỆ TAM THỨ",
+  "lần thứ ba"
+ ],
+ "日期": [
+  "NHẬT KỲ",
+  "ngày tháng"
+ ],
+ "统一": [
+  "THỐNG NHẤT",
+  "thống nhất"
+ ],
+ "训练": [
+  "HUẤN LUYỆN",
+  "huấn luyện"
+ ],
+ "拿不出": [
+  "NÃ BẤT XUẤT",
+  "không đưa ra được"
+ ],
+ "不屑于": [
+  "BẤT TIẾT VU",
+  "không thèm, coi thường việc"
+ ],
+ "表演": [
+  "BIỂU DIỄN",
+  "biểu diễn"
+ ],
+ "夸夸": [
+  "KHOA KHOA",
+  "khen vài câu"
+ ],
+ "瞬间": [
+  "THUẤN GIAN",
+  "trong nháy mắt"
+ ],
+ "出门": [
+  "XUẤT MÔN",
+  "ra khỏi nhà"
+ ],
+ "变样": [
+  "BIẾN DẠNG",
+  "đổi khác"
+ ],
+ "出了门": [
+  "XUẤT LIỄU MÔN",
+  "ra khỏi cửa rồi"
+ ],
+ "照样": [
+  "CHIẾU DẠNG",
+  "vẫn như thường"
+ ],
+ "复盘": [
+  "PHỤC BÀN",
+  "xem lại, rút kinh nghiệm"
+ ],
+ "面对": [
+  "DIỆN ĐỐI",
+  "đối mặt"
+ ],
+ "癌": [
+  "NHAM",
+  "ung thư"
+ ],
+ "末": [
+  "MẠT",
+  "cuối, giai đoạn cuối"
+ ],
+ "负": [
+  "PHỤ",
+  "âm, tiêu cực; gánh vác"
+ ],
+ "能量": [
+  "NĂNG LƯỢNG",
+  "năng lượng"
+ ],
+ "久": [
+  "CỬU",
+  "lâu"
+ ],
+ "做到": [
+  "TỐ ĐÁO",
+  "làm được"
+ ],
+ "比": [
+  "TỶ",
+  "so với"
+ ],
+ "幸福": [
+  "HẠNH PHÚC",
+  "hạnh phúc"
+ ],
+ "别管": [
+  "BIỆT QUẢN",
+  "đừng bận tâm"
+ ],
+ "沟通": [
+  "CÂU THÔNG",
+  "trao đổi, giao tiếp"
+ ],
+ "疼成": [
+  "ĐÔNG THÀNH",
+  "đau đến mức (cụm)"
+ ],
+ "洗": [
+  "TẨY",
+  "rửa, gội, giặt"
+ ],
+ "洗头": [
+  "TẨY ĐẦU",
+  "gội đầu"
+ ],
+ "坚持": [
+  "KIÊN TRÌ",
+  "kiên trì"
+ ],
+ "反差": [
+  "PHẢN SAI",
+  "sự tương phản"
+ ],
+ "安慰": [
+  "AN ỦY",
+  "an ủi"
+ ],
+ "弥补": [
+  "DI BỔ",
+  "bù đắp"
+ ],
+ "享受": [
+  "HƯỞNG THỤ",
+  "hưởng thụ, tận hưởng"
+ ],
+ "明明": [
+  "MINH MINH",
+  "rõ ràng là"
+ ],
+ "纠结": [
+  "CỨU KẾT",
+  "giằng xé, rối lòng"
+ ],
+ "推开": [
+  "THÔI KHAI",
+  "đẩy ra"
+ ],
+ "忘": [
+  "VONG",
+  "quên"
+ ],
+ "极其": [
+  "CỰC KỲ",
+  "cực kỳ"
+ ],
+ "平台": [
+  "BÌNH ĐÀI",
+  "nền tảng, sân chơi"
+ ],
+ "举办": [
+  "CỬ BIỆN",
+  "tổ chức"
+ ],
+ "针对": [
+  "CHÂM ĐỐI",
+  "nhắm vào, dành riêng cho"
+ ],
+ "首席": [
+  "THỦ TỊCH",
+  "trưởng, chủ chốt"
+ ],
+ "师王洋": [
+  "SƯ VƯƠNG DƯƠNG",
+  "thầy Vương Dương (tên người)"
+ ],
+ "上课": [
+  "THƯỢNG KHÓA",
+  "lên lớp, đi học"
+ ],
+ "关于": [
+  "QUAN VU",
+  "về, liên quan đến"
+ ],
+ "长时间": [
+  "TRƯỜNG THỜI GIAN",
+  "thời gian dài"
+ ],
+ "堵": [
+  "ĐỔ",
+  "bịt, tắc; nghẹn lòng"
+ ],
+ "等说": [
+  "ĐẲNG THUYẾT",
+  "(cụm bị cắt từ chưa chuẩn)"
+ ],
+ "绝对": [
+  "TUYỆT ĐỐI",
+  "tuyệt đối"
+ ],
+ "宠物": [
+  "SỦNG VẬT",
+  "thú cưng"
+ ],
+ "外婆": [
+  "NGOẠI BÀ",
+  "bà ngoại"
+ ],
+ "两两": [
+  "LƯỠNG LƯỠNG",
+  "từng đôi một"
+ ],
+ "分组": [
+  "PHÂN TỔ",
+  "chia nhóm"
+ ],
+ "不熟": [
+  "BẤT THỤC",
+  "chưa thân, chưa quen"
+ ],
+ "目光": [
+  "MỤC QUANG",
+  "ánh mắt"
+ ],
+ "笑盈盈": [
+  "TIẾU DOANH DOANH",
+  "tươi cười rạng rỡ"
+ ],
+ "上分": [
+  "THƯỢNG PHÂN",
+  "(cụm bị cắt từ chưa chuẩn)"
+ ],
+ "别的": [
+  "BIỆT ĐÍCH",
+  "cái khác"
+ ],
+ "交": [
+  "GIAO",
+  "nộp; kết giao"
+ ],
+ "作业": [
+  "TÁC NGHIỆP",
+  "bài tập"
+ ],
+ "轮到": [
+  "LUÂN ĐÁO",
+  "đến lượt"
+ ],
+ "动员": [
+  "ĐỘNG VIÊN",
+  "vận động, huy động"
+ ],
+ "或许": [
+  "HOẶC HỨA",
+  "có lẽ"
+ ],
+ "憋": [
+  "BIỆT",
+  "nén, nín, dồn lại"
+ ],
+ "释放": [
+  "THÍCH PHÓNG",
+  "giải phóng, trút ra"
+ ],
+ "小组": [
+  "TIỂU TỔ",
+  "nhóm nhỏ"
+ ],
+ "说一说": [
+  "THUYẾT NHẤT THUYẾT",
+  "nói thử xem"
+ ],
+ "认真": [
+  "NHẬN CHÂN",
+  "nghiêm túc"
+ ],
+ "程度": [
+  "TRÌNH ĐỘ",
+  "mức độ"
+ ],
+ "最深": [
+  "TỐI THÂM",
+  "sâu nhất"
+ ],
+ "案例": [
+  "ÁN LỆ",
+  "ca, trường hợp"
+ ],
+ "进步": [
+  "TIẾN BỘ",
+  "tiến bộ"
+ ],
+ "谴责": [
+  "KHIỂN TRÁCH",
+  "lên án, trách cứ"
+ ],
+ "昨天": [
+  "TẠC THIÊN",
+  "hôm qua"
+ ],
+ "当下": [
+  "ĐƯƠNG HẠ",
+  "ngay lúc này"
+ ],
+ "最好": [
+  "TỐI HẢO",
+  "tốt nhất"
+ ],
+ "欣赏": [
+  "HÂN THƯỞNG",
+  "thưởng thức; quý mến"
+ ],
+ "结局": [
+  "KẾT CỤC",
+  "kết cục"
+ ],
+ "第二个": [
+  "ĐỆ NHỊ CÁ",
+  "cái thứ hai"
+ ],
+ "相当于": [
+  "TƯƠNG ĐƯƠNG VU",
+  "tương đương với"
+ ],
+ "自杀": [
+  "TỰ SÁT",
+  "tự sát"
+ ],
+ "换": [
+  "HOÁN",
+  "đổi, thay"
+ ],
+ "所": [
+  "SỞ",
+  "chỗ; (lượng từ cho nhà, viện)"
+ ],
+ "角度": [
+  "GIÁC ĐỘ",
+  "góc độ"
+ ],
+ "以": [
+  "DĨ",
+  "lấy, bằng, theo"
+ ],
+ "满满的": [
+  "MÃN MÃN ĐÍCH",
+  "đầy ắp"
+ ],
+ "爱心": [
+  "ÁI TÂM",
+  "lòng yêu thương"
+ ],
+ "全身心": [
+  "TOÀN THÂN TÂM",
+  "toàn tâm toàn ý"
+ ],
+ "建议": [
+  "KIẾN NGHỊ",
+  "đề nghị, góp ý"
+ ],
+ "遗物": [
+  "DI VẬT",
+  "di vật"
+ ],
+ "面前": [
+  "DIỆN TIỀN",
+  "trước mặt"
+ ],
+ "说说话": [
+  "THUYẾT THUYẾT THOẠI",
+  "nói dăm ba câu"
+ ],
+ "道歉": [
+  "ĐẠO KHIỂM",
+  "xin lỗi"
+ ],
+ "床头": [
+  "SÀNG ĐẦU",
+  "đầu giường"
+ ],
+ "盘腿": [
+  "BÀN THOÁI",
+  "ngồi xếp bằng"
+ ],
+ "一块": [
+  "NHẤT KHỐI",
+  "một khối, một hòn"
+ ],
+ "石头": [
+  "THẠCH ĐẦU",
+  "hòn đá"
+ ],
+ "摘出去": [
+  "TRÍCH XUẤT KHỨ",
+  "gỡ bỏ ra ngoài"
+ ],
+ "压抑": [
+  "ÁP ỨC",
+  "dồn nén"
+ ],
+ "憋闷": [
+  "BIỆT MUỘN",
+  "bức bối, ngột ngạt"
+ ],
+ "呼出": [
+  "HÔ XUẤT",
+  "thở ra"
+ ],
+ "一口气": [
+  "NHẤT KHẨU KHÍ",
+  "một hơi"
+ ],
+ "藏": [
+  "TÀNG",
+  "giấu, cất"
+ ],
+ "书房": [
+  "THƯ PHÒNG",
+  "phòng sách"
+ ],
+ "打个招呼": [
+  "ĐẢ CÁ CHIÊU HÔ",
+  "chào một tiếng"
+ ],
+ "改变": [
+  "CẢI BIẾN",
+  "thay đổi"
+ ],
+ "抱歉": [
+  "BÃO KHIỂM",
+  "xin lỗi, áy náy"
+ ],
+ "今后": [
+  "KIM HẬU",
+  "từ nay về sau"
+ ],
+ "更好": [
+  "CÁNH HẢO",
+  "tốt hơn"
+ ],
+ "努力学习": [
+  "NỖ LỰC HỌC TẬP",
+  "học hành chăm chỉ"
+ ],
+ "私心": [
+  "TƯ TÂM",
+  "lòng riêng, ý nghĩ ích kỷ"
+ ],
+ "溢出": [
+  "DẬT XUẤT",
+  "tràn ra"
+ ],
+ "充盈": [
+  "SUNG DOANH",
+  "đầy ắp"
+ ],
+ "流露出来": [
+  "LƯU LỘ XUẤT LAI",
+  "bộc lộ ra"
+ ],
+ "对方": [
+  "ĐỐI PHƯƠNG",
+  "đối phương, người kia"
+ ],
+ "教育课": [
+  "GIÁO DỤC KHÓA",
+  "buổi học"
+ ],
+ "低谷": [
+  "ĐÊ CỐC",
+  "đáy, lúc sa sút nhất"
+ ],
+ "培训": [
+  "BỒI HUẤN",
+  "đào tạo, tập huấn"
+ ],
+ "巨大": [
+  "CỰ ĐẠI",
+  "to lớn"
+ ],
+ "转折点": [
+  "CHUYỂN CHIẾT ĐIỂM",
+  "bước ngoặt"
+ ],
+ "和解": [
+  "HÒA GIẢI",
+  "hòa giải, làm hòa"
+ ],
+ "志愿": [
+  "CHÍ NGUYỆN",
+  "tình nguyện"
+ ],
+ "完全": [
+  "HOÀN TOÀN",
+  "hoàn toàn"
+ ],
+ "几种": [
+  "KỶ CHỦNG",
+  "mấy loại"
+ ],
+ "颜色": [
+  "NHAN SẮC",
+  "màu sắc"
+ ],
+ "红色": [
+  "HỒNG SẮC",
+  "màu đỏ"
+ ],
+ "个案": [
+  "CÁ ÁN",
+  "ca riêng lẻ"
+ ],
+ "社工": [
+  "XÃ CÔNG",
+  "nhân viên công tác xã hội"
+ ],
+ "情绪": [
+  "TÌNH TỰ",
+  "cảm xúc, tâm trạng"
+ ],
+ "内容": [
+  "NỘI DUNG",
+  "nội dung"
+ ],
+ "之间": [
+  "CHI GIAN",
+  "giữa, ở giữa"
+ ],
+ "尽可能少": [
+  "TẬN KHẢ NĂNG THIỂU",
+  "càng ít càng tốt"
+ ],
+ "协助": [
+  "HIỆP TRỢ",
+  "hỗ trợ"
+ ],
+ "的未": [
+  "ĐÍCH VỊ",
+  "(cụm bị cắt từ chưa chuẩn)"
+ ],
+ "绿色": [
+  "LỤC SẮC",
+  "màu xanh lá"
+ ],
+ "普通": [
+  "PHỔ THÔNG",
+  "bình thường, phổ thông"
+ ],
+ "打打牌": [
+  "ĐẢ ĐẢ BÀI",
+  "đánh bài chơi"
+ ],
+ "唱": [
+  "XƯỚNG",
+  "hát"
+ ],
+ "歌": [
+  "CA",
+  "bài hát"
+ ],
+ "基础": [
+  "CƠ SỞ",
+  "cơ sở, nền tảng"
+ ],
+ "专业": [
+  "CHUYÊN NGHIỆP",
+  "chuyên môn; chuyên nghiệp"
+ ],
+ "理发师": [
+  "LÝ PHÁT SƯ",
+  "thợ cắt tóc"
+ ],
+ "受欢迎": [
+  "THỤ HOAN NGHÊNH",
+  "được yêu thích"
+ ],
+ "排": [
+  "BÀI",
+  "xếp; dãy"
+ ],
+ "理发": [
+  "LÝ PHÁT",
+  "cắt tóc"
+ ],
+ "打扮": [
+  "ĐẢ BAN",
+  "trang điểm, chưng diện"
+ ],
+ "美美": [
+  "MỸ MỸ",
+  "Mỹ Mỹ (tên người)"
+ ],
+ "绿": [
+  "LỤC",
+  "xanh lá"
+ ],
+ "招募": [
+  "CHIÊU MỘ",
+  "tuyển mộ"
+ ],
+ "心想": [
+  "TÂM TƯỞNG",
+  "trong bụng nghĩ"
+ ],
+ "黄": [
+  "HOÀNG",
+  "vàng"
+ ],
+ "领头人": [
+  "LĨNH ĐẦU NHÂN",
+  "người đứng đầu"
+ ],
+ "台湾": [
+  "ĐÀI LOAN",
+  "Đài Loan"
+ ],
+ "赖佩文": [
+  "LẠI BỘI VĂN",
+  "Lại Bội Văn (tên người)"
+ ],
+ "肌肤": [
+  "CƠ PHU",
+  "da thịt"
+ ],
+ "接触": [
+  "TIẾP XÚC",
+  "tiếp xúc"
+ ],
+ "包": [
+  "BAO",
+  "bọc, gói; cái túi"
+ ],
+ "包覆": [
+  "BAO PHÚC",
+  "bao bọc"
+ ],
+ "抚摸": [
+  "PHỦ MÔ",
+  "vuốt ve"
+ ],
+ "全然": [
+  "TOÀN NHIÊN",
+  "hoàn toàn"
+ ],
+ "关爱": [
+  "QUAN ÁI",
+  "quan tâm yêu thương"
+ ],
+ "随着": [
+  "TÙY TRƯỚC",
+  "cùng với, theo"
+ ],
+ "语": [
+  "NGỮ",
+  "lời, tiếng"
+ ],
+ "身心": [
+  "THÂN TÂM",
+  "thân và tâm"
+ ],
+ "舒舒服服": [
+  "THƯ THƯ PHỤC PHỤC",
+  "thoải mái dễ chịu"
+ ],
+ "四十岁": [
+  "TỨ THẬP TUẾ",
+  "bốn mươi tuổi"
+ ],
+ "刚好": [
+  "CƯƠNG HẢO",
+  "vừa hay, vừa đúng"
+ ],
+ "提前": [
+  "ĐỀ TIỀN",
+  "trước thời hạn"
+ ],
+ "病情": [
+  "BỆNH TÌNH",
+  "bệnh tình"
+ ],
+ "年轻": [
+  "NIÊN KHINH",
+  "trẻ"
+ ],
+ "任何人": [
+  "NHẬM HÀ NHÂN",
+  "bất kỳ ai"
+ ],
+ "妻子": [
+  "THÊ TỬ",
+  "vợ"
+ ],
+ "相爱": [
+  "TƯƠNG ÁI",
+  "yêu nhau"
+ ],
+ "过生日": [
+  "QUÁ SINH NHẬT",
+  "tổ chức sinh nhật"
+ ],
+ "办": [
+  "BIỆN",
+  "làm, lo liệu, tổ chức"
+ ],
+ "办好": [
+  "BIỆN HẢO",
+  "lo liệu xong xuôi"
+ ],
+ "同龄人": [
+  "ĐỒNG LINH NHÂN",
+  "người cùng tuổi"
+ ],
+ "感同身受": [
+  "CẢM ĐỒNG THÂN THỤ",
+  "thấu cảm như chính mình trải qua"
+ ],
+ "各个": [
+  "CÁC CÁ",
+  "từng cái, mỗi"
+ ],
+ "阶段": [
+  "GIAI ĐOẠN",
+  "giai đoạn"
+ ],
+ "一部分": [
+  "NHẤT BỘ PHẬN",
+  "một phần"
+ ],
+ "他家": [
+  "THA GIA",
+  "nhà anh ấy (cụm)"
+ ],
+ "亲属": [
+  "THÂN THUỘC",
+  "người thân"
+ ],
+ "录": [
+  "LỤC",
+  "ghi âm, ghi lại"
+ ],
+ "一段话": [
+  "NHẤT ĐOẠN THOẠI",
+  "một đoạn lời"
+ ],
+ "网恋": [
+  "VÕNG LUYẾN",
+  "yêu qua mạng"
+ ],
+ "女孩": [
+  "NỮ HÀI",
+  "cô gái"
+ ],
+ "骄纵": [
+  "KIÊU TÚNG",
+  "được nuông chiều sinh hư"
+ ],
+ "成": [
+  "THÀNH",
+  "thành, trở thành"
+ ],
+ "开朗": [
+  "KHAI LÃNG",
+  "cởi mở, vui vẻ"
+ ],
+ "出差": [
+  "XUẤT SAI",
+  "đi công tác"
+ ],
+ "世界各地": [
+  "THẾ GIỚI CÁC ĐỊA",
+  "khắp nơi trên thế giới"
+ ],
+ "母子俩": [
+  "MẪU TỬ LƯỠNG",
+  "hai mẹ con"
+ ],
+ "一趟": [
+  "NHẤT THẢNG",
+  "một chuyến"
+ ],
+ "愿望": [
+  "NGUYỆN VỌNG",
+  "mong ước"
+ ],
+ "实现": [
+  "THỰC HIỆN",
+  "thực hiện, biến thành sự thật"
+ ],
+ "病倒": [
+  "BỆNH ĐẢO",
+  "ngã bệnh"
+ ],
+ "负责": [
+  "PHỤ TRÁCH",
+  "phụ trách"
+ ],
+ "小姑娘": [
+  "TIỂU CÔ NƯƠNG",
+  "cô bé"
+ ],
+ "用心": [
+  "DỤNG TÂM",
+  "dụng tâm, tận tình"
+ ],
+ "老婆": [
+  "LÃO BÀ",
+  "vợ"
+ ],
+ "欧洲": [
+  "ÂU CHÂU",
+  "châu Âu"
+ ],
+ "一家": [
+  "NHẤT GIA",
+  "một nhà, cả nhà"
+ ],
+ "三口": [
+  "TAM KHẨU",
+  "ba người (một nhà ba người)"
+ ],
+ "从头到尾": [
+  "TÒNG ĐẦU ĐÁO VĨ",
+  "từ đầu đến cuối"
+ ],
+ "结尾": [
+  "KẾT VĨ",
+  "phần kết"
+ ],
+ "男人": [
+  "NAM NHÂN",
+  "đàn ông"
+ ],
+ "幅画": [
+  "PHÚC HỌA",
+  "bức tranh"
+ ],
+ "流泪": [
+  "LƯU LỆ",
+  "rơi nước mắt"
+ ],
+ "十岁": [
+  "THẬP TUẾ",
+  "mười tuổi"
+ ],
+ "男子汉": [
+  "NAM TỬ HÁN",
+  "đàn ông con trai"
+ ],
+ "面朝": [
+  "DIỆN TRIỀU",
+  "quay mặt về phía"
+ ],
+ "伸手": [
+  "THÂN THỦ",
+  "đưa tay ra"
+ ],
+ "背对着": [
+  "BỐI ĐỐI TRƯỚC",
+  "quay lưng lại"
+ ],
+ "看电视": [
+  "KHÁN ĐIỆN THỊ",
+  "xem tivi"
+ ],
+ "大屏幕": [
+  "ĐẠI BÌNH MẠC",
+  "màn hình lớn"
+ ],
+ "拉过来": [
+  "LẠP QUÁ LAI",
+  "kéo lại gần"
+ ],
+ "小手": [
+  "TIỂU THỦ",
+  "bàn tay nhỏ"
+ ],
+ "手里": [
+  "THỦ LÝ",
+  "trong tay"
+ ],
+ "屏幕": [
+  "BÌNH MẠC",
+  "màn hình"
+ ],
+ "展示": [
+  "TRIỂN THỊ",
+  "trưng ra, cho xem"
+ ],
+ "做成": [
+  "TỐ THÀNH",
+  "làm thành"
+ ],
+ "打印": [
+  "ĐẢ ẤN",
+  "in ra"
+ ],
+ "撒手": [
+  "TÁT THỦ",
+  "buông tay; qua đời"
+ ],
+ "睡梦中": [
+  "THÙY MỘNG TRUNG",
+  "trong giấc ngủ"
+ ],
+ "前期工作": [
+  "TIỀN KỲ CÔNG TÁC",
+  "công việc chuẩn bị"
+ ],
+ "一场": [
+  "NHẤT TRƯỜNG",
+  "một trận, một buổi"
+ ],
+ "相安": [
+  "TƯƠNG AN",
+  "yên ổn với nhau"
+ ],
+ "礼式": [
+  "LỄ THỨC",
+  "nghi lễ"
+ ],
+ "努力": [
+  "NỖ LỰC",
+  "nỗ lực, cố gắng"
+ ],
+ "奉献": [
+  "PHỤNG HIẾN",
+  "cống hiến"
+ ],
+ "竭尽所能": [
+  "KIỆT TẬN SỞ NĂNG",
+  "dốc hết sức mình"
+ ],
+ "心灵": [
+  "TÂM LINH",
+  "tâm hồn"
+ ],
+ "技巧": [
+  "KỸ XẢO",
+  "kỹ năng, kỹ thuật"
+ ],
+ "积累": [
+  "TÍCH LŨY",
+  "tích lũy"
+ ],
+ "经验": [
+  "KINH NGHIỆM",
+  "kinh nghiệm"
+ ],
+ "最大": [
+  "TỐI ĐẠI",
+  "lớn nhất"
+ ],
+ "所学": [
+  "SỞ HỌC",
+  "những gì đã học"
+ ],
+ "将来": [
+  "TƯƠNG LAI",
+  "tương lai"
+ ],
+ "平静": [
+  "BÌNH TĨNH",
+  "bình yên, tĩnh lặng"
+ ],
+ "老伴儿": [
+  "LÃO BẠN NHI",
+  "người bạn đời (lớn tuổi)"
+ ],
+ "日渐": [
+  "NHẬT TIỆM",
+  "ngày một, dần dần"
+ ],
+ "衰弱": [
+  "SUY NHƯỢC",
+  "suy nhược"
+ ],
+ "抑郁症": [
+  "ỨC UẤT CHỨNG",
+  "bệnh trầm cảm"
+ ],
+ "阿兹海": [
+  "A TƯ HẢI",
+  "(phần đầu của 阿兹海默症: bệnh Alzheimer)"
+ ],
+ "默症": [
+  "MẶC CHỨNG",
+  "(phần sau của 阿兹海默症: bệnh Alzheimer)"
+ ],
+ "经常出现": [
+  "KINH THƯỜNG XUẤT HIỆN",
+  "thường xuyên xuất hiện"
+ ],
+ "神情恍惚": [
+  "THẦN TÌNH HOẢNG HỐT",
+  "thần sắc thất thần"
+ ],
+ "状况": [
+  "TRẠNG HUỐNG",
+  "tình trạng"
+ ],
+ "原本": [
+  "NGUYÊN BẢN",
+  "vốn dĩ, ban đầu"
+ ],
+ "全职": [
+  "TOÀN CHỨC",
+  "toàn thời gian"
+ ],
+ "送去": [
+  "TỐNG KHỨ",
+  "đưa đi"
+ ],
+ "客户": [
+  "KHÁCH HỘ",
+  "khách hàng"
+ ],
+ "吸入性": [
+  "HẤP NHẬP TÍNH",
+  "do hít phải (吸入性肺炎: viêm phổi hít)"
+ ],
+ "救治": [
+  "CỨU TRỊ",
+  "cứu chữa"
+ ],
+ "喊": [
+  "HẢM",
+  "hét, gọi to"
+ ],
+ "门诊": [
+  "MÔN CHẨN",
+  "khám ngoại trú"
+ ],
+ "各项": [
+  "CÁC HẠNG",
+  "các hạng mục"
+ ],
+ "检查": [
+  "KIỂM TRA",
+  "kiểm tra, xét nghiệm"
+ ],
+ "五个": [
+  "NGŨ CÁ",
+  "năm cái, năm người"
+ ],
+ "疲惫": [
+  "BÌ BỆ",
+  "mệt mỏi rã rời"
+ ],
+ "救过来": [
+  "CỨU QUÁ LAI",
+  "cứu sống lại được"
+ ],
+ "再再": [
+  "TÁI TÁI",
+  "(nói lắp của 再)"
+ ],
+ "性肺炎": [
+  "TÍNH PHẾ VIÊM",
+  "(phần sau của 吸入性肺炎)"
+ ],
+ "延庆": [
+  "DIÊN KHÁNH",
+  "Diên Khánh (quận ở Bắc Kinh)"
+ ],
+ "瞻望": [
+  "CHIÊM VỌNG",
+  "trông ngóng"
+ ],
+ "说胡话": [
+  "THUYẾT HỒ THOẠI",
+  "nói mê sảng"
+ ],
+ "药店": [
+  "DƯỢC ĐIẾM",
+  "hiệu thuốc"
+ ],
+ "祛痰": [
+  "KHU ĐÀM",
+  "long đờm"
+ ],
+ "消炎": [
+  "TIÊU VIÊM",
+  "kháng viêm"
+ ],
+ "买来": [
+  "MÃI LAI",
+  "mua về"
+ ],
+ "六点": [
+  "LỤC ĐIỂM",
+  "sáu giờ"
+ ],
+ "下定决心": [
+  "HẠ ĐỊNH QUYẾT TÂM",
+  "hạ quyết tâm"
+ ],
+ "洋": [
+  "DƯƠNG",
+  "biển lớn; (tên người) Dương"
+ ],
+ "叫护": [
+  "KHIẾU HỘ",
+  "(cắt từ chưa chuẩn của 叫护士: gọi y tá)"
+ ],
+ "救护车": [
+  "CỨU HỘ XA",
+  "xe cấp cứu"
+ ],
+ "网上": [
+  "VÕNG THƯỢNG",
+  "trên mạng"
+ ],
+ "病危": [
+  "BỆNH NGUY",
+  "nguy kịch"
+ ],
+ "高烧": [
+  "CAO THIÊU",
+  "sốt cao"
+ ],
+ "老年": [
+  "LÃO NIÊN",
+  "tuổi già"
+ ],
+ "请求": [
+  "THỈNH CẦU",
+  "yêu cầu, khẩn khoản xin"
+ ],
+ "闪送": [
+  "THIỂM TỐNG",
+  "giao hàng hỏa tốc"
+ ],
+ "调好": [
+  "ĐIỀU HẢO",
+  "chỉnh sẵn, pha sẵn"
+ ],
+ "送过来": [
+  "TỐNG QUÁ LAI",
+  "đưa tới đây"
+ ],
+ "同频": [
+  "ĐỒNG TẦN",
+  "cùng nhịp, đồng điệu"
+ ],
+ "同一个": [
+  "ĐỒNG NHẤT CÁ",
+  "cùng một"
+ ],
+ "时间段": [
+  "THỜI GIAN ĐOẠN",
+  "khung giờ"
+ ],
+ "白光": [
+  "BẠCH QUANG",
+  "ánh sáng trắng"
+ ],
+ "祝福": [
+  "CHÚC PHÚC",
+  "chúc phúc"
+ ],
+ "二十三": [
+  "NHỊ THẬP TAM",
+  "hai mươi ba"
+ ],
+ "分钟": [
+  "PHÂN CHUNG",
+  "phút"
+ ],
+ "抚触": [
+  "PHỦ XÚC",
+  "xoa chạm nhẹ (liệu pháp vuốt ve)"
+ ],
+ "安静": [
+  "AN TĨNH",
+  "yên tĩnh"
+ ],
+ "一摸": [
+  "NHẤT MÔ",
+  "sờ một cái"
+ ],
+ "体温": [
+  "THỂ ÔN",
+  "thân nhiệt"
+ ],
+ "当然": [
+  "ĐƯƠNG NHIÊN",
+  "đương nhiên"
+ ],
+ "作用": [
+  "TÁC DỤNG",
+  "tác dụng"
+ ],
+ "在场": [
+  "TẠI TRƯỜNG",
+  "có mặt tại chỗ"
+ ],
+ "主管": [
+  "CHỦ QUẢN",
+  "người phụ trách"
+ ],
+ "震惊": [
+  "CHẤN KINH",
+  "sững sờ, chấn động"
+ ],
+ "好多天": [
+  "HẢO ĐA THIÊN",
+  "nhiều ngày liền"
+ ],
+ "疲惫不堪": [
+  "BÌ BỆ BẤT KHAM",
+  "mệt lả không chịu nổi"
+ ],
+ "下好": [
+  "HẠ HẢO",
+  "(cắt từ chưa chuẩn)"
+ ],
+ "很快": [
+  "NGẬN KHOÁI",
+  "rất nhanh"
+ ],
+ "病": [
+  "BỆNH",
+  "bệnh; ốm"
+ ],
+ "护理": [
+  "HỘ LÝ",
+  "chăm sóc y tế, điều dưỡng"
+ ],
+ "没病": [
+  "MỘT BỆNH",
+  "không có bệnh"
+ ],
+ "啥意思": [
+  "SÁ Ý TỨ",
+  "nghĩa là sao"
+ ],
+ "呗": [
+  "",
+  "thì thế thôi (trợ từ)"
+ ],
+ "特": [
+  "ĐẶC",
+  "rất, đặc biệt"
+ ],
+ "第四天": [
+  "ĐỆ TỨ THIÊN",
+  "ngày thứ tư"
+ ],
+ "退": [
+  "THOÁI",
+  "lui; hạ (sốt)"
+ ],
+ "成功": [
+  "THÀNH CÔNG",
+  "thành công"
+ ],
+ "夜里": [
+  "DẠ LÝ",
+  "ban đêm"
+ ],
+ "徐老": [
+  "TỪ LÃO",
+  "cụ Từ (cách gọi kính trọng)"
+ ],
+ "老年痴呆": [
+  "LÃO NIÊN SI NGAI",
+  "sa sút trí tuệ tuổi già"
+ ],
+ "空洞": [
+  "KHÔNG ĐỘNG",
+  "trống rỗng"
+ ],
+ "和蔼": [
+  "HÒA ÁI",
+  "hiền hòa, phúc hậu"
+ ],
+ "不管怎样": [
+  "BẤT QUẢN CHẨM DẠNG",
+  "dù thế nào đi nữa"
+ ],
+ "朝着": [
+  "TRIỀU TRƯỚC",
+  "hướng về phía"
+ ],
+ "阳光灿烂": [
+  "DƯƠNG QUANG XÁN LẠN",
+  "nắng rực rỡ"
+ ],
+ "姑": [
+  "CÔ",
+  "cô (chị em gái của bố)"
+ ],
+ "无条件": [
+  "VÔ ĐIỀU KIỆN",
+  "vô điều kiện"
+ ],
+ "临死": [
+  "LÂM TỬ",
+  "lúc sắp chết"
+ ],
+ "无助": [
+  "VÔ TRỢ",
+  "bơ vơ, không ai giúp"
+ ],
+ "描绘": [
+  "MIÊU HỘI",
+  "vẽ ra, mô tả"
+ ],
+ "关键": [
+  "QUAN KIỆN",
+  "mấu chốt"
+ ],
+ "好吃": [
+  "HẢO NGẬT",
+  "ngon"
+ ],
+ "抻": [
+  "",
+  "kéo giãn ra"
+ ],
+ "懒腰": [
+  "LÃN YÊU",
+  "(伸懒腰: vươn vai)"
+ ],
+ "哈欠": [
+  "HA KHIẾM",
+  "cái ngáp"
+ ],
+ "呼吸": [
+  "HÔ HẤP",
+  "hô hấp, thở"
+ ],
+ "惬意": [
+  "KHIẾP Ý",
+  "khoan khoái, dễ chịu"
+ ],
+ "真是太": [
+  "CHÂN THỊ THÁI",
+  "thật là quá (cụm)"
+ ],
+ "真好": [
+  "CHÂN HẢO",
+  "thật tốt, thật thích"
+ ],
+ "成就感": [
+  "THÀNH TỰU CẢM",
+  "cảm giác làm được việc"
+ ],
+ "任何": [
+  "NHẬM HÀ",
+  "bất kỳ"
+ ],
+ "回过头来": [
+  "HỒI QUÁ ĐẦU LAI",
+  "ngoảnh lại mà nhìn"
+ ],
+ "充满": [
+  "SUNG MÃN",
+  "tràn đầy"
+ ],
+ "好奇": [
+  "HIẾU KỲ",
+  "tò mò"
+ ],
+ "畏惧": [
+  "ÚY CỤ",
+  "sợ hãi"
+ ],
+ "死而生": [
+  "TỬ NHI SINH",
+  "(向死而生: sống với ý thức về cái chết)"
+ ],
+ "深刻": [
+  "THÂM KHẮC",
+  "sâu sắc"
+ ],
+ "收拾": [
+  "THU THẬP",
+  "dọn dẹp, thu xếp"
+ ],
+ "很久很久": [
+  "NGẬN CỬU NGẬN CỬU",
+  "rất lâu rất lâu"
+ ],
+ "来说": [
+  "LAI THUYẾT",
+  "mà nói (đối với… mà nói)"
+ ],
+ "筛": [
+  "SÀNG",
+  "sàng lọc"
+ ],
+ "拣": [
+  "GIẢN",
+  "lựa, nhặt ra"
+ ],
+ "剪到": [
+  "TIỄN ĐÁO",
+  "(cắt từ chưa chuẩn)"
+ ],
+ "一两件": [
+  "NHẤT LƯỠNG KIỆN",
+  "một hai món"
+ ],
+ "甚至": [
+  "THẬM CHÍ",
+  "thậm chí"
+ ],
+ "不留": [
+  "BẤT LƯU",
+  "không giữ lại"
+ ],
+ "断": [
+  "ĐOẠN",
+  "cắt đứt (断舍离: dứt bỏ)"
+ ],
+ "舍离": [
+  "XẢ LY",
+  "buông bỏ (断舍离)"
+ ],
+ "一封": [
+  "NHẤT PHONG",
+  "một phong (thư)"
+ ],
+ "本来": [
+  "BẢN LAI",
+  "vốn dĩ"
+ ],
+ "真": [
+  "CHÂN",
+  "thật, thật sự"
+ ],
+ "可写": [
+  "KHẢ TẢ",
+  "có gì để viết"
+ ],
+ "作为": [
+  "TÁC VI",
+  "với tư cách là"
+ ],
+ "女主人": [
+  "NỮ CHỦ NHÂN",
+  "bà chủ nhà"
+ ],
+ "有数": [
+  "HỮU SỐ",
+  "trong bụng đã rõ"
+ ],
+ "在经济上": [
+  "TẠI KINH TẾ THƯỢNG",
+  "về mặt kinh tế"
+ ],
+ "财产": [
+  "TÀI SẢN",
+  "tài sản"
+ ],
+ "除了": [
+  "TRỪ LIỄU",
+  "ngoài… ra"
+ ],
+ "嘱咐": [
+  "CHÚC PHÓ",
+  "dặn dò"
+ ],
+ "遗言": [
+  "DI NGÔN",
+  "lời trăng trối"
+ ],
+ "意愿": [
+  "Ý NGUYỆN",
+  "ý nguyện"
+ ],
+ "上苍": [
+  "THƯỢNG THƯƠNG",
+  "trời cao"
+ ],
+ "尤其": [
+  "VƯU KỲ",
+  "nhất là"
+ ],
+ "请": [
+  "THỈNH",
+  "mời; xin"
+ ],
+ "原谅": [
+  "NGUYÊN LƯỢNG",
+  "tha thứ"
+ ],
+ "到别": [
+  "ĐÁO BIỆT",
+  "(cắt từ chưa chuẩn)"
+ ],
+ "位": [
+  "VỊ",
+  "vị (lượng từ lịch sự cho người)"
+ ],
+ "怀着": [
+  "HOÀI TRƯỚC",
+  "mang trong lòng"
+ ],
+ "良好": [
+  "LƯƠNG HẢO",
+  "tốt đẹp"
+ ],
+ "积极": [
+  "TÍCH CỰC",
+  "tích cực, chủ động"
+ ],
+ "配合": [
+  "PHỐI HỢP",
+  "phối hợp"
+ ],
+ "半年": [
+  "BÁN NIÊN",
+  "nửa năm"
+ ],
+ "癌胚抗原": [
+  "NHAM PHÔI KHÁNG NGUYÊN",
+  "kháng nguyên ung thư phôi (chỉ số CEA)"
+ ],
+ "竟然": [
+  "CÁNH NHIÊN",
+  "không ngờ lại"
+ ],
+ "下降": [
+  "HẠ GIÁNG",
+  "giảm xuống"
+ ],
+ "正常值": [
+  "CHÍNH THƯỜNG TRỊ",
+  "ngưỡng bình thường"
+ ],
+ "短短": [
+  "ĐOẢN ĐOẢN",
+  "vỏn vẹn"
+ ],
+ "经历": [
+  "KINH LỊCH",
+  "trải qua; trải nghiệm"
+ ],
+ "两位": [
+  "LƯỠNG VỊ",
+  "hai vị"
+ ],
+ "至亲": [
+  "CHÍ THÂN",
+  "người thân ruột thịt"
+ ],
+ "却": [
+  "KHƯỚC",
+  "thế mà, lại"
+ ],
+ "从未": [
+  "TÒNG VỊ",
+  "chưa từng"
+ ],
+ "低": [
+  "ĐÊ",
+  "thấp"
+ ],
+ "回忆": [
+  "HỒI ỨC",
+  "hồi ức, nhớ lại"
+ ],
+ "剩": [
+  "THẶNG",
+  "còn thừa lại"
+ ],
+ "待见": [
+  "ĐÃI KIẾN",
+  "ưa, thích (不待见: không ưa)"
+ ],
+ "失望": [
+  "THẤT VỌNG",
+  "thất vọng"
+ ],
+ "讨好": [
+  "THẢO HẢO",
+  "lấy lòng"
+ ],
+ "父母": [
+  "PHỤ MẪU",
+  "cha mẹ"
+ ],
+ "认可": [
+  "NHẬN KHẢ",
+  "công nhận, thừa nhận"
+ ],
+ "高考": [
+  "CAO KHẢO",
+  "kỳ thi đại học"
+ ],
+ "就学": [
+  "TỰU HỌC",
+  "đi học"
+ ],
+ "明白": [
+  "MINH BẠCH",
+  "hiểu rõ"
+ ],
+ "霸": [
+  "BÁ",
+  "ngang ngược, bá đạo"
+ ],
+ "疯": [
+  "PHONG",
+  "điên"
+ ],
+ "从小": [
+  "TÒNG TIỂU",
+  "từ nhỏ"
+ ],
+ "反抗": [
+  "PHẢN KHÁNG",
+  "phản kháng, chống lại"
+ ],
+ "几句话": [
+  "KỶ CÚ THOẠI",
+  "mấy câu"
+ ],
+ "顶回来": [
+  "ĐỈNH HỒI LAI",
+  "cãi lại"
+ ],
+ "学好": [
+  "HỌC HẢO",
+  "học cho giỏi"
+ ],
+ "走遍": [
+  "TẨU BIẾN",
+  "đi khắp"
+ ],
+ "天下": [
+  "THIÊN HẠ",
+  "thiên hạ, khắp nơi"
+ ],
+ "不怕": [
+  "BẤT PHẠ",
+  "không sợ"
+ ],
+ "画画": [
+  "HỌA HỌA",
+  "vẽ tranh"
+ ],
+ "落榜": [
+  "LẠC BẢNG",
+  "trượt (kỳ thi)"
+ ],
+ "考不上": [
+  "KHẢO BẤT THƯỢNG",
+  "thi không đỗ"
+ ],
+ "通知书": [
+  "THÔNG TRI THƯ",
+  "giấy báo trúng tuyển"
+ ],
+ "考上": [
+  "KHẢO THƯỢNG",
+  "thi đỗ"
+ ],
+ "四年": [
+  "TỨ NIÊN",
+  "bốn năm"
+ ],
+ "艺术系": [
+  "NGHỆ THUẬT HỆ",
+  "khoa nghệ thuật"
+ ],
+ "画": [
+  "HỌA",
+  "vẽ; bức tranh"
+ ],
+ "夹子": [
+  "GIÁP TỬ",
+  "cái kẹp"
+ ],
+ "外边": [
+  "NGOẠI BIÊN",
+  "bên ngoài"
+ ],
+ "委屈": [
+  "ỦY KHUẤT",
+  "tủi thân, chịu ấm ức"
+ ],
+ "眼泪": [
+  "NHÃN LỆ",
+  "nước mắt"
+ ],
+ "转系": [
+  "CHUYỂN HỆ",
+  "chuyển khoa"
+ ],
+ "分到": [
+  "PHÂN ĐÁO",
+  "được phân về"
+ ],
+ "数学老师": [
+  "SỐ HỌC LÃO SƯ",
+  "thầy dạy toán"
+ ],
+ "忍无可忍": [
+  "NHẪN VÔ KHẢ NHẪN",
+  "nhịn hết nổi"
+ ],
+ "数学课": [
+  "SỐ HỌC KHÓA",
+  "giờ toán"
+ ],
+ "吐": [
+  "THỔ",
+  "nôn; nhổ ra"
+ ],
+ "高级职称": [
+  "CAO CẤP CHỨC XƯNG",
+  "chức danh cao cấp"
+ ],
+ "不管不顾": [
+  "BẤT QUẢN BẤT CỐ",
+  "bất chấp tất cả"
+ ],
+ "辞职": [
+  "TỪ CHỨC",
+  "nghỉ việc"
+ ],
+ "结婚": [
+  "KẾT HÔN",
+  "kết hôn"
+ ],
+ "自卑感": [
+  "TỰ TI CẢM",
+  "mặc cảm tự ti"
+ ],
+ "婚姻": [
+  "HÔN NHÂN",
+  "hôn nhân"
+ ],
+ "强词夺理": [
+  "CƯỠNG TỪ ĐOẠT LÝ",
+  "cãi cùn, lý sự cùn"
+ ],
+ "反省": [
+  "PHẢN TỈNH",
+  "tự nhìn lại mình"
+ ],
+ "形成": [
+  "HÌNH THÀNH",
+  "hình thành"
+ ],
+ "好了吗": [
+  "HẢO LIỄU MA",
+  "xong chưa"
+ ],
+ "未必": [
+  "VỊ TẤT",
+  "chưa chắc"
+ ],
+ "挫": [
+  "TỎA",
+  "vấp, bị chặn lại"
+ ],
+ "挫败": [
+  "TỎA BẠI",
+  "thất bại, vấp ngã"
+ ],
+ "承担": [
+  "THỪA ĐẢM",
+  "gánh vác"
+ ],
+ "活一": [
+  "HOẠT NHẤT",
+  "(cắt từ chưa chuẩn)"
+ ],
+ "这份": [
+  "GIÁ PHẬN",
+  "cái này, phần này"
+ ],
+ "家庭": [
+  "GIA ĐÌNH",
+  "gia đình"
+ ],
+ "四个": [
+  "TỨ CÁ",
+  "bốn cái, bốn người"
+ ],
+ "独立": [
+  "ĐỘC LẬP",
+  "độc lập"
+ ],
+ "脸色": [
+  "KIỂM SẮC",
+  "sắc mặt"
+ ],
+ "活成": [
+  "HOẠT THÀNH",
+  "sống thành ra"
+ ],
+ "徐": [
+  "TỪ",
+  "Từ (họ người)"
+ ],
+ "年纪": [
+  "NIÊN KỶ",
+  "tuổi tác"
+ ],
+ "越越": [
+  "VIỆT VIỆT",
+  "(nói lắp của 越来越)"
+ ],
+ "青春": [
+  "THANH XUÂN",
+  "thanh xuân"
+ ],
+ "风光": [
+  "PHONG QUANG",
+  "phong cảnh; vẻ vang"
+ ],
+ "驾驶": [
+  "GIÁ SỬ",
+  "lái, điều khiển"
+ ],
+ "无人机": [
+  "VÔ NHÂN CƠ",
+  "máy bay không người lái, flycam"
+ ],
+ "旅": [
+  "LỮ",
+  "chuyến đi"
+ ],
+ "扩大": [
+  "KHUẾCH ĐẠI",
+  "mở rộng"
+ ],
+ "拍摄": [
+  "PHÁCH NHIẾP",
+  "quay phim, chụp ảnh"
+ ],
+ "美景": [
+  "MỸ CẢNH",
+  "cảnh đẹp"
+ ],
+ "捐赠": [
+  "QUYÊN TẶNG",
+  "hiến tặng"
+ ],
+ "一刻": [
+  "NHẤT KHẮC",
+  "một khoảnh khắc"
+ ],
+ "人间": [
+  "NHÂN GIAN",
+  "cõi người"
+ ],
+ "飞": [
+  "PHI",
+  "bay"
+ ],
+ "哇": [
+  "OA",
+  "oa, chao (thán từ)"
+ ],
+ "游": [
+  "DU",
+  "đi chơi, ngao du; bơi"
+ ],
+ "由内而外": [
+  "DO NỘI NHI NGOẠI",
+  "từ trong ra ngoài"
+ ],
+ "属于": [
+  "THUỘC VU",
+  "thuộc về"
+ ],
+ "主宰": [
+  "CHỦ TỂ",
+  "làm chủ, định đoạt"
+ ],
+ "刚刚": [
+  "CƯƠNG CƯƠNG",
+  "vừa mới"
+ ],
+ "珍惜": [
+  "TRÂN TÍCH",
+  "trân trọng"
+ ],
+ "正在": [
+  "CHÍNH TẠI",
+  "đang"
+ ],
+ "亲历者": [
+  "THÂN LỊCH GIẢ",
+  "người trong cuộc"
+ ],
+ "自述": [
+  "TỰ THUẬT",
+  "tự kể"
+ ],
+ "主办者": [
+  "CHỦ BIỆN GIẢ",
+  "người tổ chức"
+ ],
+ "杜浩言": [
+  "ĐỖ HẠO NGÔN",
+  "Đỗ Hạo Ngôn (tên người)"
+ ],
+ "设计": [
+  "THIẾT KẾ",
+  "thiết kế"
+ ],
+ "桑泉": [
+  "TANG TUYỀN",
+  "Tang Tuyền (tên người)"
+ ],
+ "下期": [
+  "HẠ KỲ",
+  "số sau, tập sau"
+ ],
+ "再见": [
+  "TÁI KIẾN",
+  "tạm biệt"
+ ],
+ "纪录片": [
+  "KỶ LỤC PHIẾN",
+  "phim tài liệu"
+ ],
+ "形式": [
+  "HÌNH THỨC",
+  "hình thức"
+ ],
+ "跨过": [
+  "KHOA QUÁ",
+  "bước qua"
+ ],
+ "田埂": [
+  "ĐIỀN CANH",
+  "bờ ruộng"
+ ],
+ "穿过": [
+  "XUYÊN QUÁ",
+  "xuyên qua, đi qua"
+ ],
+ "胡同": [
+  "HỒ ĐỒNG",
+  "ngõ hẻm (kiểu Bắc Kinh)"
+ ],
+ "动人": [
+  "ĐỘNG NHÂN",
+  "cảm động, lay động"
+ ],
+ "真实": [
+  "CHÂN THỰC",
+  "chân thực"
+ ],
+ "搜索": [
+  "SƯU SÁCH",
+  "tìm kiếm"
+ ],
+ "订阅": [
+  "ĐÍNH DUYỆT",
+  "đăng ký theo dõi"
+ ],
+ "九零": [
+  "CỬU LINH",
+  "chín mươi (九零后: thế hệ 9x)"
+ ],
+ "二十三岁": [
+  "NHỊ THẬP TAM TUẾ",
+  "hai mươi ba tuổi"
+ ],
+ "九日": [
+  "CỬU NHẬT",
+  "ngày mồng chín"
+ ],
+ "从来": [
+  "TÒNG LAI",
+  "từ trước tới nay"
+ ],
+ "词儿": [
+  "TỪ NHI",
+  "lời, từ ngữ"
+ ],
+ "扯": [
+  "XÍCH",
+  "kéo; nói lan man"
+ ],
+ "关系": [
+  "QUAN HỆ",
+  "quan hệ, mối quan hệ"
+ ],
+ "阴暗": [
+  "ÂM ÁM",
+  "u ám, đen tối"
+ ],
+ "三四年": [
+  "TAM TỨ NIÊN",
+  "ba bốn năm"
+ ],
+ "九月份": [
+  "CỬU NGUYỆT PHẬN",
+  "tháng Chín"
+ ],
+ "男生": [
+  "NAM SINH",
+  "nam sinh, con trai"
+ ],
+ "知心朋友": [
+  "TRI TÂM BẰNG HỮU",
+  "bạn tri kỷ"
+ ],
+ "诉一": [
+  "TỐ NHẤT",
+  "(cắt từ chưa chuẩn của 诉一诉)"
+ ],
+ "诉": [
+  "TỐ",
+  "kể lể, giãi bày"
+ ],
+ "诉诉": [
+  "TỐ TỐ",
+  "giãi bày đôi chút"
+ ],
+ "苦水": [
+  "KHỔ THỦY",
+  "nỗi khổ (倒苦水: trút nỗi khổ)"
+ ],
+ "五年": [
+  "NGŨ NIÊN",
+  "năm năm"
+ ],
+ "不见": [
+  "BẤT KIẾN",
+  "không gặp; biến mất"
+ ],
+ "无论": [
+  "VÔ LUẬN",
+  "bất kể"
+ ],
+ "呼叫": [
+  "HÔ KHIẾU",
+  "gọi (điện)"
+ ],
+ "不守信用": [
+  "BẤT THỦ TÍN DỤNG",
+  "không giữ chữ tín"
+ ],
+ "心思": [
+  "TÂM TƯ",
+  "tâm tư, ý nghĩ"
+ ],
+ "散开": [
+  "TÁN KHAI",
+  "tản ra, tan đi"
+ ],
+ "别": [
+  "BIỆT",
+  "đừng; khác"
+ ],
+ "二月份": [
+  "NHỊ NGUYỆT PHẬN",
+  "tháng Hai"
+ ],
+ "窗口": [
+  "SONG KHẨU",
+  "cửa sổ; quầy"
+ ],
+ "抖动": [
+  "ĐẨU ĐỘNG",
+  "rung, run"
+ ],
+ "理": [
+  "LÝ",
+  "để ý tới; lý lẽ"
+ ],
+ "直到": [
+  "TRỰC ĐÁO",
+  "mãi cho đến"
+ ],
+ "心酸": [
+  "TÂM TOAN",
+  "chua xót"
+ ],
+ "语句": [
+  "NGỮ CÚ",
+  "câu chữ"
+ ],
+ "多年": [
+  "ĐA NIÊN",
+  "nhiều năm"
+ ],
+ "丢": [
+  "",
+  "mất; vứt bỏ"
+ ],
+ "弃": [
+  "KHÍ",
+  "bỏ, vứt"
+ ],
+ "办法": [
+  "BIỆN PHÁP",
+  "cách, biện pháp"
+ ],
+ "解释": [
+  "GIẢI THÍCH",
+  "giải thích"
+ ],
+ "心软": [
+  "TÂM NHUYỄN",
+  "mềm lòng"
+ ],
+ "来讲": [
+  "LAI GIẢNG",
+  "mà nói"
+ ],
+ "缘分": [
+  "DUYÊN PHẬN",
+  "duyên phận"
+ ],
+ "奇妙": [
+  "KỲ DIỆU",
+  "kỳ diệu"
+ ],
+ "平常": [
+  "BÌNH THƯỜNG",
+  "bình thường, thường ngày"
+ ],
+ "知心": [
+  "TRI TÂM",
+  "tri kỷ, hiểu lòng nhau"
+ ],
+ "中途": [
+  "TRUNG ĐỒ",
+  "giữa chừng"
+ ],
+ "联想": [
+  "LIÊN TƯỞNG",
+  "liên tưởng"
+ ],
+ "骗入": [
+  "PHIẾN NHẬP",
+  "lừa vào"
+ ],
+ "组织": [
+  "TỔ CHỨC",
+  "tổ chức"
+ ],
+ "操控": [
+  "THAO KHỐNG",
+  "thao túng, điều khiển"
+ ],
+ "频繁": [
+  "TẦN PHỒN",
+  "thường xuyên, liên tục"
+ ],
+ "看望": [
+  "KHÁN VỌNG",
+  "thăm hỏi"
+ ],
+ "非常": [
+  "PHI THƯỜNG",
+  "rất, vô cùng"
+ ],
+ "近": [
+  "CẬN",
+  "gần"
+ ],
+ "挺好": [
+  "ĐĨNH HẢO",
+  "khá tốt"
+ ],
+ "去过": [
+  "KHỨ QUÁ",
+  "đã từng đi"
+ ],
+ "三天": [
+  "TAM THIÊN",
+  "ba ngày"
+ ],
+ "回": [
+  "HỒI",
+  "về; lần"
+ ],
+ "汇合": [
+  "HỘI HỢP",
+  "hội ngộ, gặp nhau"
+ ],
+ "订票": [
+  "ĐÍNH PHIẾU",
+  "đặt vé"
+ ],
+ "票价": [
+  "PHIẾU GIÁ",
+  "giá vé"
+ ],
+ "一千六": [
+  "NHẤT THIÊN LỤC",
+  "một nghìn sáu"
+ ],
+ "截": [
+  "TIỆT",
+  "cắt (截图: chụp màn hình)"
+ ],
+ "图": [
+  "ĐỒ",
+  "hình, ảnh"
+ ],
+ "买票": [
+  "MÃI PHIẾU",
+  "mua vé"
+ ],
+ "关心": [
+  "QUAN TÂM",
+  "quan tâm"
+ ],
+ "很早": [
+  "NGẬN TẢO",
+  "rất sớm"
+ ],
+ "飞机场": [
+  "PHI CƠ TRƯỜNG",
+  "sân bay"
+ ],
+ "飞机": [
+  "PHI CƠ",
+  "máy bay"
+ ],
+ "信号": [
+  "TÍN HIỆU",
+  "tín hiệu, sóng"
+ ],
+ "常州": [
+  "THƯỜNG CHÂU",
+  "Thường Châu (thành phố)"
+ ],
+ "到底": [
+  "ĐÁO ĐỂ",
+  "rốt cuộc"
+ ],
+ "迷": [
+  "MÊ",
+  "mê; lạc lối"
+ ],
+ "迷糊": [
+  "MÊ HỒ",
+  "lơ mơ, mụ mị"
+ ],
+ "糊": [
+  "HỒ",
+  "mờ mịt; hồ dán"
+ ],
+ "说好": [
+  "THUYẾT HẢO",
+  "hẹn trước, thống nhất"
+ ],
+ "那里": [
+  "NA LÝ",
+  "ở đó"
+ ],
+ "十点钟": [
+  "THẬP ĐIỂM CHUNG",
+  "mười giờ"
+ ],
+ "累": [
+  "LỤY",
+  "mệt"
+ ],
+ "短信": [
+  "ĐOẢN TÍN",
+  "tin nhắn"
+ ],
+ "空": [
+  "KHÔNG",
+  "trống, rỗng"
+ ],
+ "号码": [
+  "HIỆU MÃ",
+  "số (điện thoại)"
+ ],
+ "必胜客": [
+  "TẤT THẮNG KHÁCH",
+  "Pizza Hut"
+ ],
+ "粉色": [
+  "PHẤN SẮC",
+  "màu hồng"
+ ],
+ "莫名其妙": [
+  "MẠC DANH KỲ DIỆU",
+  "khó hiểu, chẳng đâu vào đâu"
+ ],
+ "九": [
+  "CỬU",
+  "chín"
+ ],
+ "看上去": [
+  "KHÁN THƯỢNG KHỨ",
+  "trông có vẻ"
+ ],
+ "四十几岁": [
+  "TỨ THẬP KỶ TUẾ",
+  "bốn mươi mấy tuổi"
+ ],
+ "妇女": [
+  "PHỤ NỮ",
+  "phụ nữ"
+ ],
+ "煲汤": [
+  "BẢO THANG",
+  "hầm canh"
+ ],
+ "傻乎乎": [
+  "SỌA HỒ HỒ",
+  "ngờ nghệch"
+ ],
+ "十几": [
+  "THẬP KỶ",
+  "mười mấy"
+ ],
+ "二十分钟": [
+  "NHỊ THẬP PHÂN CHUNG",
+  "hai mươi phút"
+ ],
+ "环境": [
+  "HOÀN CẢNH",
+  "môi trường, hoàn cảnh"
+ ],
+ "高级": [
+  "CAO CẤP",
+  "cao cấp"
+ ],
+ "公寓": [
+  "CÔNG NGỤ",
+  "căn hộ"
+ ],
+ "保安": [
+  "BẢO AN",
+  "bảo vệ"
+ ],
+ "两层楼": [
+  "LƯỠNG TẦNG LÂU",
+  "hai tầng lầu"
+ ],
+ "很脏": [
+  "NGẬN TÁNG",
+  "rất bẩn"
+ ],
+ "捡": [
+  "GIẢN",
+  "nhặt"
+ ],
+ "老公": [
+  "LÃO CÔNG",
+  "chồng"
+ ],
+ "好客": [
+  "HIẾU KHÁCH",
+  "hiếu khách"
+ ],
+ "房": [
+  "PHÒNG",
+  "phòng, nhà"
+ ],
+ "看不到": [
+  "KHÁN BẤT ĐÁO",
+  "không nhìn thấy"
+ ],
+ "内景": [
+  "NỘI CẢNH",
+  "cảnh bên trong"
+ ],
+ "侧边": [
+  "TRẮC BIÊN",
+  "bên hông"
+ ],
+ "太阳": [
+  "THÁI DƯƠNG",
+  "mặt trời, nắng"
+ ],
+ "热": [
+  "NHIỆT",
+  "nóng"
+ ],
+ "开窗": [
+  "KHAI SONG",
+  "mở cửa sổ"
+ ],
+ "不对劲": [
+  "BẤT ĐỐI KÌNH",
+  "không ổn, có gì đó sai sai"
+ ],
+ "阶梯": [
+  "GIAI THÊ",
+  "bậc thang"
+ ],
+ "醒目": [
+  "TỈNH MỤC",
+  "bắt mắt, dễ thấy"
+ ],
+ "下楼来": [
+  "HẠ LÂU LAI",
+  "đi xuống lầu"
+ ],
+ "美女": [
+  "MỸ NỮ",
+  "cô gái xinh; (cách gọi) cô ơi"
+ ],
+ "拎": [
+  "",
+  "xách (bằng tay)"
+ ],
+ "菜": [
+  "THÁI",
+  "rau; món ăn"
+ ],
+ "下午": [
+  "HẠ NGỌ",
+  "buổi chiều"
+ ],
+ "听说": [
+  "THÍNH THUYẾT",
+  "nghe nói"
+ ],
+ "请客": [
+  "THỈNH KHÁCH",
+  "đãi khách, mời ăn"
+ ],
+ "抢去": [
+  "THƯƠNG KHỨ",
+  "giành lấy đi"
+ ],
+ "进门": [
+  "TIẾN MÔN",
+  "bước vào cửa"
+ ],
+ "锁门": [
+  "TỎA MÔN",
+  "khóa cửa"
+ ],
+ "转头": [
+  "CHUYỂN ĐẦU",
+  "quay đầu lại"
+ ],
+ "往里面": [
+  "VÃNG LÝ DIỆN",
+  "vào phía trong"
+ ],
+ "天": [
+  "THIÊN",
+  "trời; ngày"
+ ],
+ "家具": [
+  "GIA CỤ",
+  "đồ đạc, nội thất"
+ ],
+ "大厅": [
+  "ĐẠI SẢNH",
+  "đại sảnh, phòng lớn"
+ ],
+ "一个床": [
+  "NHẤT CÁ SÀNG",
+  "một cái giường"
+ ],
+ "绑架": [
+  "BẢNG GIÁ",
+  "bắt cóc"
+ ],
+ "冲": [
+  "XUNG",
+  "lao tới, xông vào"
+ ],
+ "肩膀": [
+  "KIÊN BẢNG",
+  "bả vai"
+ ],
+ "抬进去": [
+  "ĐÀI TIẾN KHỨ",
+  "khiêng vào trong"
+ ],
+ "抬到": [
+  "ĐÀI ĐÁO",
+  "khiêng đến"
+ ],
+ "使劲": [
+  "SỬ KÌNH",
+  "dùng sức, ráng sức"
+ ],
+ "按": [
+  "ÁN",
+  "đè, ấn; theo"
+ ],
+ "死死的": [
+  "TỬ TỬ ĐÍCH",
+  "chặt cứng, không nhúc nhích được"
+ ],
+ "轮流": [
+  "LUÂN LƯU",
+  "thay phiên nhau"
+ ],
+ "捂住": [
+  "Ô TRÚ",
+  "bịt chặt"
+ ],
+ "嘴": [
+  "CHỦY",
+  "miệng"
+ ],
+ "湿": [
+  "THẤP",
+  "ướt"
+ ],
+ "黑色": [
+  "HẮC SẮC",
+  "màu đen"
+ ],
+ "迷魂药": [
+  "MÊ HỒN DƯỢC",
+  "thuốc mê"
+ ],
+ "凶": [
+  "HUNG",
+  "hung dữ"
+ ],
+ "强奸": [
+  "CƯỠNG GIAN",
+  "hiếp dâm"
+ ],
+ "进到": [
+  "TIẾN ĐÁO",
+  "vào đến"
+ ],
+ "粗鲁": [
+  "THÔ LỖ",
+  "thô lỗ"
+ ],
+ "没动": [
+  "MỘT ĐỘNG",
+  "không đụng tới"
+ ],
+ "办完": [
+  "BIỆN HOÀN",
+  "làm xong"
+ ],
+ "水泥": [
+  "THỦY NÊ",
+  "xi măng"
+ ],
+ "搞": [
+  "CẢO",
+  "làm, xoay xở"
+ ],
+ "只有": [
+  "CHỈ HỮU",
+  "chỉ có"
+ ],
+ "矮矮的": [
+  "ẢI ẢI ĐÍCH",
+  "thâm thấp"
+ ],
+ "凳子": [
+  "ĐĂNG TỬ",
+  "cái ghế đẩu"
+ ],
+ "监狱": [
+  "GIÁM NGỤC",
+  "nhà tù"
+ ],
+ "拖鞋": [
+  "THA HÀI",
+  "dép lê"
+ ],
+ "神色": [
+  "THẦN SẮC",
+  "thần sắc, vẻ mặt"
+ ],
+ "恶狠狠": [
+  "ÁC NGOAN NGOAN",
+  "hung tợn, dữ dằn"
+ ],
+ "搜身": [
+  "SƯU THÂN",
+  "khám người"
+ ],
+ "拿走": [
+  "NÃ TẨU",
+  "lấy đi"
+ ],
+ "开锁": [
+  "KHAI TỎA",
+  "mở khóa"
+ ],
+ "锁": [
+  "TỎA",
+  "khóa"
+ ],
+ "键盘": [
+  "KIỆN BÀN",
+  "bàn phím"
+ ],
+ "功能": [
+  "CÔNG NĂNG",
+  "chức năng"
+ ],
+ "拼命": [
+  "PHANH MỆNH",
+  "liều mạng, hết sức"
+ ],
+ "翻": [
+  "PHIÊN",
+  "lật, lục lọi"
+ ],
+ "翻出来": [
+  "PHIÊN XUẤT LAI",
+  "lục ra được"
+ ],
+ "抽": [
+  "TRỪU",
+  "rút ra; hút (thuốc)"
+ ],
+ "说来": [
+  "THUYẾT LAI",
+  "nói ra thì"
+ ],
+ "可找": [
+  "KHẢ TRẢO",
+  "(cắt từ chưa chuẩn)"
+ ],
+ "国家": [
+  "QUỐC GIA",
+  "quốc gia, nhà nước"
+ ],
+ "暗中": [
+  "ÁM TRUNG",
+  "ngấm ngầm"
+ ],
+ "冷门": [
+  "LÃNH MÔN",
+  "ngành ít người biết, ít ai để ý"
+ ],
+ "人际": [
+  "NHÂN TẾ",
+  "giữa người với người"
+ ],
+ "网络营销": [
+  "VÕNG LẠC DOANH TIÊU",
+  "tiếp thị qua mạng"
+ ],
+ "钱包": [
+  "TIỀN BAO",
+  "ví tiền"
+ ],
+ "倒": [
+  "ĐẢO",
+  "đổ, trút ra"
+ ],
+ "桌子": [
+  "TRÁC TỬ",
+  "cái bàn"
+ ],
+ "十块": [
+  "THẬP KHỐI",
+  "mười tệ"
+ ],
+ "五块": [
+  "NGŨ KHỐI",
+  "năm tệ"
+ ],
+ "四百": [
+  "TỨ BÁCH",
+  "bốn trăm"
+ ],
+ "七十块": [
+  "THẤT THẬP KHỐI",
+  "bảy mươi tệ"
+ ],
+ "五毛": [
+  "NGŨ MAO",
+  "năm hào"
+ ],
+ "叠好": [
+  "ĐIỆP HẢO",
+  "xếp gọn lại"
+ ],
+ "身份证号": [
+  "THÂN PHẬN CHỨNG HIỆU",
+  "số chứng minh thư"
+ ],
+ "住址": [
+  "TRÚ CHỈ",
+  "địa chỉ"
+ ],
+ "趴在": [
+  "PHA TẠI",
+  "nằm sấp trên"
+ ],
+ "地上": [
+  "ĐỊA THƯỢNG",
+  "trên mặt đất"
+ ],
+ "狗爬": [
+  "CẨU BÀ",
+  "bò như chó"
+ ],
+ "土": [
+  "THỔ",
+  "đất"
+ ],
+ "右脚": [
+  "HỮU CƯỚC",
+  "chân phải"
+ ],
+ "嘴巴": [
+  "CHỦY BA",
+  "miệng, má"
+ ],
+ "气": [
+  "KHÍ",
+  "tức giận; hơi"
+ ],
+ "擦皮鞋": [
+  "SÁT BÌ HÀI",
+  "đánh giày"
+ ],
+ "鞋子": [
+  "HÀI TỬ",
+  "giày dép"
+ ],
+ "继续": [
+  "KẾ TỤC",
+  "tiếp tục"
+ ],
+ "一个个": [
+  "NHẤT CÁ CÁ",
+  "từng người một"
+ ],
+ "争先恐后": [
+  "TRANH TIÊN KHỦNG HẬU",
+  "tranh nhau, sợ chậm chân"
+ ],
+ "握手": [
+  "ÁC THỦ",
+  "bắt tay"
+ ],
+ "懂": [
+  "ĐỔNG",
+  "hiểu"
+ ],
+ "师傅": [
+  "SƯ PHÓ",
+  "sư phụ; (cách gọi) bác tài, anh thợ"
+ ],
+ "广西": [
+  "QUẢNG TÂY",
+  "Quảng Tây"
+ ],
+ "茂名": [
+  "MẬU DANH",
+  "Mậu Danh (thành phố Quảng Đông)"
+ ],
+ "邪教": [
+  "TÀ GIÁO",
+  "tà giáo"
+ ],
+ "手要": [
+  "THỦ YẾU",
+  "(cắt từ chưa chuẩn)"
+ ],
+ "紧握着": [
+  "KHẨN ÁC TRƯỚC",
+  "nắm chặt lấy"
+ ],
+ "握住": [
+  "ÁC TRÚ",
+  "nắm lấy"
+ ],
+ "真诚": [
+  "CHÂN THÀNH",
+  "chân thành"
+ ],
+ "弯着腰": [
+  "LOAN TRƯỚC YÊU",
+  "khom lưng"
+ ],
+ "向上": [
+  "HƯỚNG THƯỢNG",
+  "ngước lên; vươn lên"
+ ],
+ "仰望": [
+  "NGƯỠNG VỌNG",
+  "ngước nhìn, ngưỡng vọng"
+ ],
+ "尊敬": [
+  "TÔN KÍNH",
+  "tôn kính"
+ ],
+ "名叫": [
+  "DANH KHIẾU",
+  "tên là"
+ ],
+ "听成": [
+  "THÍNH THÀNH",
+  "nghe nhầm thành"
+ ],
+ "狗养": [
+  "CẨU DƯỠNG",
+  "(nghe nhầm thành 狗养)"
+ ],
+ "吃完饭": [
+  "NGẬT HOÀN PHẠN",
+  "ăn cơm xong"
+ ],
+ "待": [
+  "ĐÃI",
+  "ở lại; đối xử"
+ ],
+ "节能灯": [
+  "TIẾT NĂNG ĐĂNG",
+  "bóng đèn tiết kiệm điện"
+ ],
+ "有个": [
+  "HỮU CÁ",
+  "có một"
+ ],
+ "网": [
+  "VÕNG",
+  "lưới; mạng"
+ ],
+ "半截": [
+  "BÁN TIỆT",
+  "nửa đoạn"
+ ],
+ "网住": [
+  "VÕNG TRÚ",
+  "chắn bằng lưới"
+ ],
+ "半夜": [
+  "BÁN DẠ",
+  "nửa đêm"
+ ],
+ "最快": [
+  "TỐI KHOÁI",
+  "nhanh nhất"
+ ],
+ "速度": [
+  "TỐC ĐỘ",
+  "tốc độ"
+ ],
+ "爬出去": [
+  "BÀ XUẤT KHỨ",
+  "bò ra ngoài"
+ ],
+ "左边": [
+  "TẢ BIÊN",
+  "bên trái"
+ ],
+ "右边": [
+  "HỮU BIÊN",
+  "bên phải"
+ ],
+ "睡熟": [
+  "THÙY THỤC",
+  "ngủ say"
+ ],
+ "转来转去": [
+  "CHUYỂN LAI CHUYỂN KHỨ",
+  "xoay qua xoay lại"
+ ],
+ "睡不着": [
+  "THÙY BẤT TRƯỚC",
+  "không ngủ được"
+ ],
+ "守夜": [
+  "THỦ DẠ",
+  "canh đêm"
+ ],
+ "是夜": [
+  "THỊ DẠ",
+  "đêm hôm ấy"
+ ],
+ "深夜": [
+  "THÂM DẠ",
+  "đêm khuya"
+ ],
+ "去上": [
+  "KHỨ THƯỢNG",
+  "(cắt từ chưa chuẩn)"
+ ],
+ "缝隙": [
+  "PHÙNG KHÍCH",
+  "khe hở"
+ ],
+ "毛毛虫": [
+  "MAO MAO TRÙNG",
+  "con sâu róm"
+ ],
+ "一点一点": [
+  "NHẤT ĐIỂM NHẤT ĐIỂM",
+  "từng chút từng chút"
+ ],
+ "爬到": [
+  "BÀ ĐÁO",
+  "bò tới"
+ ],
+ "尾部": [
+  "VĨ BỘ",
+  "phần đuôi"
+ ],
+ "爬下去": [
+  "BÀ HẠ KHỨ",
+  "bò xuống"
+ ],
+ "有用": [
+  "HỮU DỤNG",
+  "có ích"
+ ],
+ "试图": [
+  "THÍ ĐỒ",
+  "thử, toan"
+ ],
+ "生锈": [
+  "SINH TÚ",
+  "gỉ sét"
+ ],
+ "打不开": [
+  "ĐẢ BẤT KHAI",
+  "không mở được"
+ ],
+ "三秒": [
+  "TAM MIỄU",
+  "ba giây"
+ ],
+ "越过": [
+  "VIỆT QUÁ",
+  "vượt qua"
+ ],
+ "正": [
+  "CHÍNH",
+  "đúng lúc; ngay ngắn"
+ ],
+ "抓下来": [
+  "TRẢO HẠ LAI",
+  "lôi xuống"
+ ],
+ "再敢": [
+  "TÁI CẢM",
+  "còn dám"
+ ],
+ "轮奸": [
+  "LUÂN GIAN",
+  "hiếp dâm tập thể"
+ ],
+ "烟头": [
+  "YÊN ĐẦU",
+  "đầu mẩu thuốc lá"
+ ],
+ "烫": [
+  "THANG",
+  "dí nóng, làm bỏng"
+ ],
+ "疤": [
+  "BA",
+  "cái sẹo"
+ ],
+ "喜不喜欢": [
+  "HỶ BẤT HỶ HOAN",
+  "có thích hay không"
+ ],
+ "抖": [
+  "ĐẨU",
+  "run"
+ ],
+ "差": [
+  "SAI",
+  "kém; thiếu, cách"
+ ],
+ "五": [
+  "NGŨ",
+  "năm"
+ ],
+ "厘米": [
+  "LY MỄ",
+  "xăng-ti-mét"
+ ],
+ "眼珠": [
+  "NHÃN CHÂU",
+  "con ngươi"
+ ],
+ "烟灰": [
+  "YÊN HÔI",
+  "tàn thuốc"
+ ],
+ "碰": [
+  "BÍNH",
+  "chạm, đụng"
+ ],
+ "眼睫毛": [
+  "NHÃN TIỆP MAO",
+  "lông mi"
+ ],
+ "烫掉": [
+  "THANG ĐIỆU",
+  "làm cháy mất"
+ ],
+ "如果说": [
+  "NHƯ QUẢ THUYẾT",
+  "nếu nói rằng"
+ ],
+ "不通": [
+  "BẤT THÔNG",
+  "không thông, không liên lạc được"
+ ],
+ "失踪": [
+  "THẤT TUNG",
+  "mất tích"
+ ],
+ "警察": [
+  "CẢNH SÁT",
+  "cảnh sát"
+ ],
+ "失踪案": [
+  "THẤT TUNG ÁN",
+  "vụ mất tích"
+ ],
+ "严重": [
+  "NGHIÊM TRỌNG",
+  "nghiêm trọng"
+ ],
+ "扬声器": [
+  "DƯƠNG THANH KHÍ",
+  "loa"
+ ],
+ "假": [
+  "GIẢ",
+  "giả"
+ ],
+ "放电影": [
+  "PHÓNG ĐIỆN ẢNH",
+  "chiếu phim"
+ ],
+ "制造": [
+  "CHẾ TẠO",
+  "chế tạo, tạo ra"
+ ],
+ "假象": [
+  "GIẢ TƯỢNG",
+  "giả cảnh, vẻ bề ngoài đánh lừa"
+ ],
+ "电影": [
+  "ĐIỆN ẢNH",
+  "phim"
+ ],
+ "粤语": [
+  "VIỆT NGỮ",
+  "tiếng Quảng Đông"
+ ],
+ "紧张": [
+  "KHẨN TRƯƠNG",
+  "căng thẳng, hồi hộp"
+ ],
+ "试探": [
+  "THÍ THÁM",
+  "dò ý, thăm dò"
+ ],
+ "明显": [
+  "MINH HIỂN",
+  "rõ ràng"
+ ],
+ "表姐": [
+  "BIỂU TỶ",
+  "chị họ"
+ ],
+ "难道": [
+  "NAN ĐẠO",
+  "chẳng lẽ"
+ ],
+ "听不出": [
+  "THÍNH BẤT XUẤT",
+  "nghe không nhận ra"
+ ],
+ "妹妹": [
+  "MUỘI MUỘI",
+  "em gái"
+ ],
+ "赶过来": [
+  "CẢN QUÁ LAI",
+  "chạy tới ngay"
+ ],
+ "工程师": [
+  "CÔNG TRÌNH SƯ",
+  "kỹ sư"
+ ],
+ "销售": [
+  "TIÊU THỤ",
+  "bán hàng, kinh doanh"
+ ],
+ "适合": [
+  "THÍCH HỢP",
+  "phù hợp"
+ ],
+ "阴诈": [
+  "ÂM TRÁ",
+  "thâm hiểm, gian trá"
+ ],
+ "黑板": [
+  "HẮC BẢN",
+  "bảng đen"
+ ],
+ "粉底": [
+  "PHẤN ĐỂ",
+  "kem nền; nền phấn"
+ ],
+ "商": [
+  "THƯƠNG",
+  "buôn bán; bàn bạc"
+ ],
+ "商法": [
+  "THƯƠNG PHÁP",
+  "luật thương mại"
+ ],
+ "法": [
+  "PHÁP",
+  "luật; cách"
+ ],
+ "鬼": [
+  "QUỶ",
+  "ma quỷ"
+ ],
+ "天津": [
+  "THIÊN TÂN",
+  "Thiên Tân (thành phố)"
+ ],
+ "天师": [
+  "THIÊN SƯ",
+  "Thiên Sư (trong tên công ty)"
+ ],
+ "科技": [
+  "KHOA KỸ",
+  "khoa học công nghệ"
+ ],
+ "发展": [
+  "PHÁT TRIỂN",
+  "phát triển"
+ ],
+ "有限公司": [
+  "HỮU HẠN CÔNG TY",
+  "công ty trách nhiệm hữu hạn"
+ ],
+ "合作": [
+  "HỢP TÁC",
+  "hợp tác"
+ ],
+ "十天": [
+  "THẬP THIÊN",
+  "mười ngày"
+ ],
+ "洗脑": [
+  "TẨY NÃO",
+  "tẩy não"
+ ],
+ "认同": [
+  "NHẬN ĐỒNG",
+  "đồng tình, thừa nhận"
+ ],
+ "加入": [
+  "GIA NHẬP",
+  "gia nhập"
+ ],
+ "无所谓": [
+  "VÔ SỞ VỊ",
+  "không sao cả, thế nào cũng được"
+ ],
+ "耗到": [
+  "HAO ĐÁO",
+  "lì ra cho đến khi"
+ ],
+ "为止": [
+  "VI CHỈ",
+  "cho đến khi"
+ ],
+ "不准": [
+  "BẤT CHUẨN",
+  "không cho phép"
+ ],
+ "靠墙": [
+  "KHÁO TƯỜNG",
+  "dựa tường"
+ ],
+ "地板": [
+  "ĐỊA BẢN",
+  "sàn nhà"
+ ],
+ "那时": [
+  "NA THỜI",
+  "lúc đó"
+ ],
+ "蹲到": [
+  "TỒN ĐÁO",
+  "ngồi xổm đến"
+ ],
+ "把手": [
+  "BẢ THỦ",
+  "tay nắm; nắm tay lại"
+ ],
+ "伸出": [
+  "THÂN XUẤT",
+  "đưa ra, thò ra"
+ ],
+ "撞墙": [
+  "TRÀNG TƯỜNG",
+  "đập đầu vào tường"
+ ],
+ "最起码": [
+  "TỐI KHỞI MÃ",
+  "ít nhất thì"
+ ],
+ "稍微": [
+  "SẢO VI",
+  "hơi, một chút"
+ ],
+ "面": [
+  "DIỆN",
+  "mặt; phía"
+ ],
+ "四五天": [
+  "TỨ NGŨ THIÊN",
+  "bốn năm ngày"
+ ],
+ "妥协": [
+  "THỎA HIỆP",
+  "thỏa hiệp"
+ ],
+ "大力": [
+  "ĐẠI LỰC",
+  "mạnh mẽ, ra sức"
+ ],
+ "跪下": [
+  "QUỴ HẠ",
+  "quỳ xuống"
+ ],
+ "拜佛": [
+  "BÁI PHẬT",
+  "lạy Phật"
+ ],
+ "有钱": [
+  "HỮU TIỀN",
+  "có tiền, giàu"
+ ],
+ "以来": [
+  "DĨ LAI",
+  "từ… đến nay"
+ ],
+ "不听话": [
+  "BẤT THÍNH THOẠI",
+  "không nghe lời"
+ ],
+ "谦虚": [
+  "KHIÊM HƯ",
+  "khiêm tốn"
+ ],
+ "投资": [
+  "ĐẦU TƯ",
+  "đầu tư"
+ ],
+ "最低": [
+  "TỐI ĐÊ",
+  "thấp nhất"
+ ],
+ "起步": [
+  "KHỞI BỘ",
+  "khởi điểm, bắt đầu"
+ ],
+ "三五万": [
+  "TAM NGŨ VẠN",
+  "ba năm vạn"
+ ],
+ "六万": [
+  "LỤC VẠN",
+  "sáu vạn"
+ ],
+ "变": [
+  "BIẾN",
+  "biến đổi, thành"
+ ],
+ "后面": [
+  "HẬU DIỆN",
+  "phía sau; về sau"
+ ],
+ "开了个": [
+  "KHAI LIỄU CÁ",
+  "mở một cái (cửa hàng)"
+ ],
+ "店铺": [
+  "ĐIẾM PHỐ",
+  "cửa hàng"
+ ],
+ "装修费": [
+  "TRANG TU PHÍ",
+  "tiền sửa sang"
+ ],
+ "同学": [
+  "ĐỒNG HỌC",
+  "bạn học"
+ ],
+ "帮忙": [
+  "BANG MANG",
+  "giúp đỡ"
+ ],
+ "反话": [
+  "PHẢN THOẠI",
+  "nói ngược, nói mỉa"
+ ],
+ "晚": [
+  "VÃN",
+  "muộn; tối"
+ ],
+ "暴风雨": [
+  "BẠO PHONG VŨ",
+  "mưa bão"
+ ],
+ "雨": [
+  "VŨ",
+  "mưa"
+ ],
+ "雷": [
+  "LÔI",
+  "sấm"
+ ],
+ "劈": [
+  "PHÁCH",
+  "bổ xuống, giáng xuống"
+ ],
+ "响": [
+  "HƯỞNG",
+  "vang, kêu"
+ ],
+ "说实话": [
+  "THUYẾT THỰC THOẠI",
+  "nói thật thì"
+ ],
+ "左": [
+  "TẢ",
+  "trái"
+ ],
+ "眼皮跳": [
+  "NHÃN BÌ KHIÊU",
+  "giật mí mắt"
+ ],
+ "遣散": [
+  "KHIỂN TÁN",
+  "giải tán, cho về"
+ ],
+ "意味深长": [
+  "Ý VỊ THÂM TRƯỜNG",
+  "ẩn ý sâu xa"
+ ],
+ "搞了个": [
+  "CẢO LIỄU CÁ",
+  "làm một cái"
+ ],
+ "鸡飞狗跳": [
+  "KÊ PHI CẨU KHIÊU",
+  "náo loạn, gà bay chó sủa"
+ ],
+ "夜": [
+  "DẠ",
+  "đêm"
+ ],
+ "今晚": [
+  "KIM VÃN",
+  "tối nay"
+ ],
+ "上要": [
+  "THƯỢNG YẾU",
+  "(cắt từ chưa chuẩn)"
+ ],
+ "火车站": [
+  "HỎA XA TRẠM",
+  "ga tàu hỏa"
+ ],
+ "不人鬼不鬼": [
+  "",
+  "không ra người không ra quỷ (nói vấp của 人不人鬼不鬼)"
+ ],
+ "门牌": [
+  "MÔN BÀI",
+  "số nhà"
+ ],
+ "人员": [
+  "NHÂN VIÊN",
+  "nhân viên, người của"
+ ],
+ "附近": [
+  "PHỤ CẬN",
+  "gần đó"
+ ],
+ "把风": [
+  "BẢ PHONG",
+  "canh chừng, cảnh giới"
+ ],
+ "转移": [
+  "CHUYỂN DI",
+  "chuyển đi nơi khác"
+ ],
+ "滴滴": [
+  "TÍCH TÍCH",
+  "Didi (ứng dụng gọi xe)"
+ ],
+ "打车": [
+  "ĐẢ XA",
+  "gọi xe, bắt xe"
+ ],
+ "十家": [
+  "THẬP GIA",
+  "mười nhà"
+ ],
+ "半路": [
+  "BÁN LỘ",
+  "giữa đường"
+ ],
+ "下车": [
+  "HẠ XA",
+  "xuống xe"
+ ],
+ "一路": [
+  "NHẤT LỘ",
+  "suốt dọc đường"
+ ],
+ "保重": [
+  "BẢO TRỌNG",
+  "bảo trọng"
+ ],
+ "先生": [
+  "TIÊN SINH",
+  "ông, ngài"
+ ],
+ "一千": [
+  "NHẤT THIÊN",
+  "một nghìn"
+ ],
+ "块钱": [
+  "KHỐI TIỀN",
+  "tệ (đơn vị tiền)"
+ ],
+ "十分钟": [
+  "THẬP PHÂN CHUNG",
+  "mười phút"
+ ],
+ "大雨": [
+  "ĐẠI VŨ",
+  "mưa lớn"
+ ],
+ "没下": [
+  "MỘT HẠ",
+  "không rơi, chưa mưa"
+ ],
+ "雨水": [
+  "VŨ THỦY",
+  "nước mưa"
+ ],
+ "天空": [
+  "THIÊN KHÔNG",
+  "bầu trời"
+ ],
+ "回所": [
+  "HỒI SỞ",
+  "về đồn"
+ ],
+ "所长": [
+  "SỞ TRƯỞNG",
+  "trưởng đồn"
+ ],
+ "大人": [
+  "ĐẠI NHÂN",
+  "người lớn"
+ ],
+ "精力": [
+  "TINH LỰC",
+  "sức lực, tinh thần"
+ ],
+ "多星期": [
+  "ĐA TINH KỲ",
+  "hơn một tuần"
+ ],
+ "回家": [
+  "HỒI GIA",
+  "về nhà"
+ ],
+ "为了": [
+  "VI LIỄU",
+  "để, vì"
+ ],
+ "不好意思": [
+  "BẤT HẢO Ý TỨ",
+  "ngại quá, xin lỗi"
+ ],
+ "十二个": [
+  "THẬP NHỊ CÁ",
+  "mười hai cái/người"
+ ],
+ "玻璃": [
+  "PHA LY",
+  "kính, thủy tinh"
+ ],
+ "前面": [
+  "TIỀN DIỆN",
+  "phía trước"
+ ],
+ "哪几个": [
+  "NA KỶ CÁ",
+  "mấy người nào"
+ ],
+ "女人": [
+  "NỮ NHÂN",
+  "đàn bà, phụ nữ"
+ ],
+ "认出": [
+  "NHẬN XUẤT",
+  "nhận ra"
+ ],
+ "低着头": [
+  "ĐÊ TRƯỚC ĐẦU",
+  "cúi gằm mặt"
+ ],
+ "化成灰": [
+  "HÓA THÀNH HÔI",
+  "hóa thành tro (化成灰我都认得: cháy thành tro tôi cũng nhận ra)"
+ ],
+ "认不": [
+  "NHẬN BẤT",
+  "(cắt từ chưa chuẩn)"
+ ],
+ "抬起头来": [
+  "ĐÀI KHỞI ĐẦU LAI",
+  "ngẩng đầu lên"
+ ],
+ "一下头": [
+  "NHẤT HẠ ĐẦU",
+  "(ngẩng) đầu một cái"
+ ],
+ "弟弟": [
+  "ĐỆ ĐỆ",
+  "em trai"
+ ],
+ "确保": [
+  "XÁC BẢO",
+  "bảo đảm chắc chắn"
+ ],
+ "过于": [
+  "QUÁ VU",
+  "quá mức"
+ ],
+ "注重": [
+  "CHÚ TRỌNG",
+  "chú trọng"
+ ],
+ "拍电影": [
+  "PHÁCH ĐIỆN ẢNH",
+  "quay phim"
+ ],
+ "电视剧": [
+  "ĐIỆN THỊ KỊCH",
+  "phim truyền hình"
+ ],
+ "一阵": [
+  "NHẤT TRẬN",
+  "một trận, một hồi"
+ ],
+ "痛哭": [
+  "THỐNG KHỐC",
+  "khóc nức nở"
+ ],
+ "不在乎": [
+  "BẤT TẠI HỒ",
+  "không bận tâm"
+ ],
+ "扔掉": [
+  "NHƯNG ĐIỆU",
+  "vứt đi"
+ ],
+ "丢掉": [
+  "",
+  "vứt bỏ, đánh mất"
+ ],
+ "撕掉": [
+  "TI ĐIỆU",
+  "xé bỏ"
+ ],
+ "准点": [
+  "CHUẨN ĐIỂM",
+  "đúng giờ"
+ ],
+ "按时": [
+  "ÁN THỜI",
+  "đúng giờ, theo giờ"
+ ],
+ "中午": [
+  "TRUNG NGỌ",
+  "buổi trưa"
+ ],
+ "带我去": [
+  "ĐÁI NGÃ KHỨ",
+  "dẫn tôi đi"
+ ],
+ "食堂": [
+  "THỰC ĐƯỜNG",
+  "nhà ăn, căng tin"
+ ],
+ "几十个": [
+  "KỶ THẬP CÁ",
+  "mấy chục cái/người"
+ ],
+ "丢脸": [
+  "",
+  "mất mặt, xấu hổ"
+ ],
+ "害怕": [
+  "HẠI PHẠ",
+  "sợ hãi"
+ ],
+ "出动": [
+  "XUẤT ĐỘNG",
+  "xuất quân, ra quân"
+ ],
+ "珍贵": [
+  "TRÂN QUÝ",
+  "quý giá"
+ ],
+ "美味": [
+  "MỸ VỊ",
+  "ngon, món ngon"
+ ],
+ "萨尔": [
+  "TÁT NHĨ",
+  "Tát Nhĩ (tên riêng)"
+ ],
+ "一共": [
+  "NHẤT CỘNG",
+  "tổng cộng"
+ ],
+ "十八天": [
+  "THẬP BÁT THIÊN",
+  "mười tám ngày"
+ ],
+ "逃出": [
+  "ĐÀO XUẤT",
+  "trốn thoát ra"
+ ],
+ "根据": [
+  "CĂN CỨ",
+  "căn cứ vào"
+ ],
+ "记忆": [
+  "KÝ ỨC",
+  "ký ức"
+ ],
+ "人去楼空": [
+  "NHÂN KHỨ LÂU KHÔNG",
+  "người đi lầu trống, chẳng còn ai"
+ ],
+ "萨瑞": [
+  "TÁT THỤY",
+  "Tát Thụy (tên riêng)"
+ ],
+ "哥哥": [
+  "CA CA",
+  "anh trai"
+ ],
+ "亲哥哥": [
+  "THÂN CA CA",
+  "anh ruột"
+ ],
+ "拉": [
+  "LẠP",
+  "kéo"
+ ],
+ "编辑": [
+  "BIÊN TẬP",
+  "biên tập; biên tập viên"
+ ],
+ "彭涵": [
+  "BÀNH HÀM",
+  "Bành Hàm (tên người)"
+ ],
+ "到微": [
+  "ĐÁO VI",
+  "(cắt từ chưa chuẩn của 到微信)"
+ ],
+ "公众": [
+  "CÔNG CHÚNG",
+  "công chúng (公众号: tài khoản công khai WeChat)"
+ ],
+ "联系方式": [
+  "LIÊN HỆ PHƯƠNG THỨC",
+  "cách thức liên lạc"
+ ],
+ "推荐": [
+  "THÔI TIẾN",
+  "giới thiệu, đề xuất"
+ ],
+ "使用": [
+  "SỬ DỤNG",
+  "sử dụng"
+ ],
+ "留言": [
+  "LƯU NGÔN",
+  "để lại lời nhắn"
+ ],
+ "听见": [
+  "THÍNH KIẾN",
+  "nghe thấy"
+ ]
+}
