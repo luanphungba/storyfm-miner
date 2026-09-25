@@ -92,7 +92,27 @@ async function toLines(id, words) {
   if (errors.length) {
     throw new Error(`Không dựng được ${id} — sửa data/corrections/ hoặc data/cuts/:\n${errors.join('\n')}`);
   }
-  return joinSentences(lines, plan.joins ?? []).map((line, i) => ({ i, ...line }));
+  return withUnits(joinSentences(lines, plan.joins ?? []), plan.joins ?? []).map((line, i) => ({ i, ...line }));
+}
+
+/**
+ * Marks the lines of a sentence that was joined onto the one before with `u`, the sentence its run
+ * of joins starts at. tools/build_tokens.py and build_gloss.mjs cut words over a whole unit — the
+ * sentence, or a run of joined ones — never a single line, so re-cutting lines leaves the word list
+ * alone and never turns up a new word to gloss.
+ * @template {{ s: number }} Line
+ * @param {Line[]} lines
+ * @param {number[]} joins
+ */
+function withUnits(lines, joins) {
+  const joined = new Set(joins);
+  /** @type {Map<number, number>} */
+  const unit = new Map();
+  const unitOf = (/** @type {number} */ s) => {
+    if (!unit.has(s)) unit.set(s, joined.has(s - 1) ? unitOf(s - 1) : s);
+    return /** @type {number} */ (unit.get(s));
+  };
+  return lines.map((line) => (unitOf(line.s) === line.s ? line : { ...line, u: unitOf(line.s) }));
 }
 
 /** A rebuild keeps whichever speaker was the narrator, so a past --narrator is not silently lost. */

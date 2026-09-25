@@ -126,7 +126,7 @@ what changed, then give the user a short summary:
 
 - episode id + title
 - punctuation-quality % (and whether it's a concern)
-- sentences → lines from split-cues, and any line it left over 22 characters
+- sentences → lines from split-cues, and any line it left over 15 characters
 - how many fixes verify-transcript made, and — this is the important part — every `flagged` entry
   by name, since those are the spots where the transcript might not match the audio
 - how many words were glossed, that `todo_gloss` now reports 0 left, and what `audit.mjs` printed

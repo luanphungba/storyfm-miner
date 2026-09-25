@@ -4871,10 +4871,6 @@
   "TIẾU DOANH DOANH",
   "tươi cười rạng rỡ"
  ],
- "上分": [
-  "THƯỢNG PHÂN",
-  "(cụm bị cắt từ chưa chuẩn)"
- ],
  "别的": [
   "BIỆT ĐÍCH",
   "cái khác"
@@ -8351,8 +8347,12 @@
   "MÊ MÊ HỒ HỒ",
   "mơ mơ màng màng, lơ mơ"
  ],
- "人不人鬼不鬼": [
-  "NHÂN BẤT NHÂN QUỶ BẤT QUỶ",
-  "người không ra người, ma không ra ma (tiều tụy thảm hại)"
+ "不人鬼不鬼": [
+  "",
+  "không ra người không ra quỷ (nói vấp của 人不人鬼不鬼)"
+ ],
+ "分": [
+  "PHÂN",
+  "chia, phân ra; phút; điểm"
  ]
 }

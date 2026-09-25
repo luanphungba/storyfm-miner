@@ -3,7 +3,7 @@
 // The split-cues skill's hands. The skill decides where a sentence is cut; this checks each cut
 // against the ASR and saves it in data/cuts/<id>.json. See src/cuts.js for what a cut may not do.
 //
-//   node tools/cuts.mjs show E757 [--over 18] [--all]   sentences to cut, one per line: "<s> <text>"
+//   node tools/cuts.mjs show E757 [--over 15] [--all]   sentences to cut, one per line: "<s> <text>"
 //   node tools/cuts.mjs apply E757 marked.txt           "<s> <text with / at each cut>" per line;
 //                                                       a trailing + joins its last line onto the
 //                                                       next sentence's first
@@ -18,8 +18,8 @@ import { paths } from '../src/paths.js';
 import { toSentences, joinWords } from '../src/segment.js';
 import { applyFixes, planFromMarks, splitSentence } from '../src/cuts.js';
 
-/** A line past this is still too long to mine; `report` lists them. */
-const LONG = 22;
+/** A line past this many characters (punctuation not counted) is still too long to mine. */
+const LONG = 15;
 
 const readJson = async (/** @type {string} */ path, /** @type {any} */ fallback) =>
   existsSync(path) ? JSON.parse(await readFile(path, 'utf8')) : fallback;
@@ -30,7 +30,8 @@ async function writeJson(/** @type {string} */ path, /** @type {unknown} */ valu
   await rename(`${path}.tmp`, path);
 }
 
-const length = (/** @type {string} */ text) => [...text].length;
+/** Characters a learner reads — punctuation and quote marks don't make a line harder to hold. */
+const length = (/** @type {string} */ text) => [...text.replace(/[\s，。！？、；：,.!?;:“”"‘’《》（）()\/+]/g, '')].length;
 
 async function load(/** @type {string} */ id) {
   const raw = await readJson(paths.raw(id), null);
@@ -52,13 +53,14 @@ function marked(/** @type {any[]} */ words, /** @type {any[]} */ fixes, /** @typ
 }
 
 async function show(/** @type {string} */ id, /** @type {string[]} */ flags) {
-  const over = Number(flags[flags.indexOf('--over') + 1]) || 18;
+  const over = Number(flags[flags.indexOf('--over') + 1]) || LONG;
   const all = flags.includes('--all');
   const { sentences, fixes, plan } = await load(id);
   for (const [s, words] of sentences.entries()) {
     const text = marked(words, fixes.get(s) ?? [], plan.cuts[s]) + (plan.joins.includes(s) ? '+' : '');
-    if (!all && plan.cuts[s]) continue;
-    if (length(text.replaceAll('/', '')) > over) console.log(`${s} ${text}`);
+    // --all: every sentence with a line still too long, cut or not. Without it: only uncut ones.
+    const tooLong = text.replace(/\+$/, '').split('/').some((line) => length(line) > over);
+    if (all ? tooLong : !plan.cuts[s] && length(text) > over) console.log(`${s} ${text}`);
   }
 }
 
@@ -111,7 +113,7 @@ async function report(/** @type {string} */ id) {
   const sizes = episode.cues.map((/** @type {any} */ cue) => length(cue.text)).sort((a, b) => a - b);
   const at = (/** @type {number} */ p) => sizes[Math.floor(p * (sizes.length - 1))];
   const sentences = new Set(episode.cues.map((/** @type {any} */ cue) => cue.s)).size;
-  console.log(`${id}: ${sentences} câu → ${sizes.length} dòng · trung vị ${at(0.5)} chữ · 90% ≤ ${at(0.9)} · dài nhất ${sizes.at(-1)}`);
+  console.log(`${id}: ${sentences} câu → ${sizes.length} dòng · trung vị ${at(0.5)} chữ · 90% ≤ ${at(0.9)} · dài nhất ${sizes.at(-1)} (không tính dấu câu)`);
   const long = episode.cues.filter((/** @type {any} */ cue) => length(cue.text) > LONG);
   for (const cue of long) console.log(`  câu ${cue.s} còn ${length(cue.text)} chữ: ${cue.text}`);
 }

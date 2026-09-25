@@ -126,8 +126,19 @@ for (const file of files) {
   const gloss = {};
   let written = 0;
 
+  // Read each unit — the sentence, or a run of joined ones, as build_tokens.py cuts words — whole,
+  // so a polyphone keeps the context it had before the page cut the sentence into short lines.
+  const unitReadings = new Map();
+  let offset = 0;
   episode.cues.forEach((cue, index) => {
-    const readings = readLine(cue.text);
+    const key = cue.u ?? cue.s ?? cue.i;
+    if (!unitReadings.has(key)) {
+      const text = episode.cues.filter((c) => (c.u ?? c.s ?? c.i) === key).map((c) => c.text).join('');
+      unitReadings.set(key, readLine(text));
+      offset = 0;
+    }
+    const readings = unitReadings.get(key).slice(offset, offset + cue.text.length);
+    offset += cue.text.length;
     for (const [start, length] of tokens.cues[index] ?? []) {
       const word = cue.text.slice(start, start + length);
       if (gloss[word]) continue;

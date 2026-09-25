@@ -1,7 +1,8 @@
 ---
 name: split-cues
 description: >
-  Cut a storyfm-miner episode's spoken sentences into short, meaningful lines (~8-20 characters)
+  Cut a storyfm-miner episode's spoken sentences into short, meaningful lines (15 characters or
+  fewer)
   so each line works as a sentence-mining card in Anki and as a short loop in the player. Use
   after verify-transcript when adding an episode (the add-episode skill chains into it), and
   whenever the user says lines/sentences on the page are too long, "câu dài quá", "cắt câu ngắn",
@@ -14,13 +15,16 @@ description: >
 The ASR punctuates only where the speaker clearly stops, so a sentence is often 25-45 characters,
 and a stretch it never punctuated gets chopped at a length limit, sometimes mid-word
 (`迷迷糊 | 糊的`). Each line on the page is what the CI Miner extension puts on an Anki card, with
-exactly that line's audio. The user mines these, and a long line makes a bad card. **Aim for lines
-of 20 characters or less; treat anything over 22 as needing a cut.** Being careful with grammar is
-not a reason to leave a line long. Splitting a long subject off its predicate is fine:
+exactly that line's audio. The user mines these, and a long line makes a bad card. **A line holds
+15 characters or fewer, punctuation not counted. Anything longer needs a cut.** The user checks
+this against the page and has twice caught lines left at 19-20 because a rule here was too timid,
+so being careful with grammar is not a reason to leave a line long. Splitting a long subject off
+its predicate is fine, and so is splitting a list:
 
 ```
 今天的讲述者徐叔 / 就是北京海医安宁的一名志愿者。
 海淀医院安宁疗护中心 / 也被业内人简称为"海医安宁"。
+祝大家假期吃得爽、喝得嗨、 / 睡得香、玩得好，
 ```
 
 You decide where to cut. `tools/cuts.mjs` checks each cut and saves it in `data/cuts/<id>.json`.
@@ -30,8 +34,8 @@ fixes in `data/corrections/`, so a rebuild never loses either.
 ## 1. List the sentences to cut
 
 ```bash
-node tools/cuts.mjs show <ID> --over 18      # not cut yet: "<s> <text>" per line
-node tools/cuts.mjs show <ID> --over 18 --all  # every long sentence, with current cuts as "/"
+node tools/cuts.mjs show <ID>         # not cut yet and over 15: "<s> <text>" per line
+node tools/cuts.mjs show <ID> --all   # every sentence with a line still over 15, current cuts as "/"
 ```
 
 `<s>` is the sentence index, the same index `data/corrections/` uses. The text shown already has
@@ -49,8 +53,8 @@ except for a `/` at each cut:
 Rules, in order of how often they matter:
 
 - **Every line is one idea that makes sense on a card by itself.** Cut after a comma between
-  clauses, before a connective (然后 / 所以 / 但是 / 因为 / 后来 / 结果), and between a long
-  subject and its predicate.
+  clauses, before a connective (然后 / 所以 / 但是 / 因为 / 后来 / 结果), between a long subject
+  and its predicate, and between items of a list (after a `、`).
 - **Don't leave fragments.** `很正常。`, `我很累，`, `就是没了。` are useless cards, so keep them
   with a neighbour. A short sentence that stands alone (`你呢？`, `嗯。`) is fine. Only fragments
   cut out of a longer sentence are not.
@@ -89,26 +93,27 @@ Fix the refused lines in the same file and apply again. It's safe to re-run.
 
 ```bash
 node bin/storyfm.js add <ID> --resegment   # docs/data from raw + corrections + cuts
-node tools/cuts.mjs report <ID>            # line lengths, and every line still over 22
+node tools/cuts.mjs report <ID>            # line lengths, and every line still over 15
 ```
 
-`report` should list only lines you couldn't cut (collapsed timestamps). Anything else over 22
-means another pass. Then rebuild the tap-a-word data, because it is indexed by line and goes stale
-after a re-cut:
+`report` should list only lines you couldn't cut (collapsed timestamps). Anything else over 15
+means another pass. Then rebuild the tap-a-word data, which is indexed by line:
 
 ```bash
 python3 tools/build_tokens.py <ID>
 node tools/build_gloss.mjs <ID>
-node tools/todo_gloss.mjs <ID>      # new words a re-cut exposed (迷迷糊 → 迷迷糊糊); gloss them
-node tools/audit.mjs
+node tools/todo_gloss.mjs <ID>
 ```
 
-Gloss new words by the add-episode skill's rules (meaning from the CC-CEDICT sense, Hán Việt
-left blank rather than guessed). If `audit.mjs` lists a gloss no episode uses any more, it is
-usually a fragment of the old cut (`不人鬼不鬼`), so delete it. A real word (`迷糊`) can stay.
+This costs no tokens. Words are cut over the whole sentence, not per line, so re-cutting lines
+never changes the word list and never turns up a word that needs a meaning written. The only
+exception is a `+` join, which hands jieba a sentence it never saw whole (迷迷糊 + 糊 →
+迷迷糊糊). Gloss such a word by the add-episode skill's rules. If `build_tokens.py` says a cut split
+a word (`chỗ cắt tách 是因为`), look at it: usually jieba glued two words across a clause and the
+cut is right, but if it really is one word, move the cut.
 
 ## 5. Report
 
 Tell the user, in their language: sentences → lines, the median and longest line from `report`,
-any line left over 22 and why, and how many new words were glossed. Don't commit. Commits and
+any line left over 15 and why, and any word glossed after a join. Don't commit. Commits and
 pushes wait for the user, as in add-episode.

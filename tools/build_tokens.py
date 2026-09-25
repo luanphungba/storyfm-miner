@@ -1,4 +1,4 @@
-"""Cuts an episode's cues into words, so a tap on the transcript lands on a whole word.
+"""Cuts an episode's lines into words, so a tap on the transcript lands on a whole word.
 
 The page cannot do this itself: browser word segmentation splits Chinese compounds wrongly (互联网
 into 互/联/网, 面试官 into 面试/官), and shipping a segmenter plus the 11000-word HSK list to a
@@ -35,6 +35,27 @@ def HAN(text):
 def episodes():
     """The transcripts themselves — not the sidecars this script and build_gloss.mjs write beside them."""
     return sorted(p for p in DATA.glob("E*.json") if p.name.count(".") == 1)
+
+
+def units(cues):
+    """The runs of lines that were one sentence before the page cut them short.
+
+    Words are cut over a whole unit, never a single line: jieba reads a sentence differently once it
+    is chopped up (迷迷糊 | 糊的 gave 迷迷糊 and 糊), so cutting per line would change the word list —
+    and turn up words with no meaning written — every time the lines are re-cut. Yields
+    (unit text, [(cue index, offset of that line in the unit)]).
+    """
+    run, text = [], ""
+    for index, cue in enumerate(cues):
+        key = cue.get("u", cue.get("s", cue["i"]))
+        if run and key != run_key:
+            yield text, run
+            run, text = [], ""
+        run_key = key
+        run.append((index, len(text)))
+        text += cue["text"]
+    if run:
+        yield text, run
 
 
 def cut(text):
@@ -81,8 +102,8 @@ def names(paths):
     """
     tags = {}
     for path in paths:
-        for cue in json.loads(path.read_text())["cues"]:
-            for word, pos in pseg.cut(cue["text"]):
+        for text, _ in units(json.loads(path.read_text())["cues"]):
+            for word, pos in pseg.cut(text):
                 if HAN(word):
                     counts = tags.setdefault(word, Counter())
                     counts[pos in NAME_TAGS] += 1
@@ -107,24 +128,34 @@ def main(ids):
     # worth learning because it keeps coming back across the show, not because it repeats in one story.
     corpus = Counter()
     for path in episodes():
-        for cue in json.loads(path.read_text())["cues"]:
-            corpus.update(w for w, _, _ in cut(cue["text"]))
+        for text, _ in units(json.loads(path.read_text())["cues"]):
+            corpus.update(w for w, _, _ in cut(text))
     proper = names(episodes())
 
     for path in files:
         episode = json.loads(path.read_text())
-        cues = []
-        for cue in episode["cues"]:
-            tokens = []
-            for word, pos, start in cut(cue["text"]):
-                tokens.append([
-                    start,
-                    len(word),
-                    BANDS.get(word, 0),          # 0 = not on the HSK list at all
-                    corpus[word],                 # occurrences across every episode
-                    1 if word in proper else 0,   # a name is worth reading, rarely worth a card
-                ])
-            cues.append(tokens)
+        cues = [[] for _ in episode["cues"]]
+        straddling = []
+        for text, lines in units(episode["cues"]):
+            bounds = [offset for _, offset in lines] + [len(text)]
+            for word, pos, start in cut(text):
+                end = start + len(word)
+                # A word the cut runs through is split at it. Usually jieba is the one that erred —
+                # it glued 是因为 or 心理师王洋 across a clause — and the pieces are the real words.
+                pieces = [(max(start, lo), min(end, hi), n) for n, (lo, hi) in enumerate(zip(bounds, bounds[1:])) if lo < end and start < hi]
+                if len(pieces) > 1:
+                    straddling.append(word)
+                for lo, hi, n in pieces:
+                    piece = text[lo:hi]   # the word itself, or its part on this line
+                    cues[lines[n][0]].append([
+                        lo - bounds[n],
+                        hi - lo,
+                        BANDS.get(piece, 0),          # 0 = not on the HSK list at all
+                        corpus[piece],                 # occurrences across every episode
+                        1 if piece in proper else 0,   # a name is worth reading, rarely worth a card
+                    ])
+        for straddled in straddling:
+            print(f"  · {episode['id']}: chỗ cắt tách {straddled} — thường là jieba ghép sai; nếu đó thật là một từ thì dời chỗ cắt")
         out = path.with_suffix(".tok.json")
         out.write_text(json.dumps({"id": episode["id"], "cues": cues}, separators=(",", ":")))
         size = out.stat().st_size / 1024

@@ -30,6 +30,7 @@
  * @property {string} text
  * @property {string} speaker
  * @property {number} [s]  The sentence a line was cut from (src/cuts.js); equals i when uncut.
+ * @property {number} [u]  Set when s was joined onto the sentence before: where that run starts.
  */
 
 const SENTENCE_END = /[。！？!?]/;
