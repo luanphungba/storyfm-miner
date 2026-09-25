@@ -11,62 +11,178 @@
   "cues": [
     {
       "i": 0,
+      "s": 0,
       "start": 0,
-      "end": 6.22,
-      "text": "提示一下，本期故事有一些很有画面感的描述，你可以自行决定是否继续收听。",
+      "end": 1.02,
+      "text": "提示一下，",
       "speaker": "A",
       "role": "narrator"
     },
     {
       "i": 1,
-      "start": 10.36,
-      "end": 19.1,
-      "text": "你好，欢迎收听故事FM，我是爱哲，一个收集故事的人，",
+      "s": 0,
+      "start": 1.02,
+      "end": 3.7,
+      "text": "本期故事有一些很有画面感的描述，",
       "speaker": "A",
       "role": "narrator"
     },
     {
       "i": 2,
-      "start": 19.1,
-      "end": 24.5,
-      "text": "在这里我们用你的声音讲述你的故事，每周一三五咱们不见不散。",
+      "s": 0,
+      "start": 3.7,
+      "end": 6.22,
+      "text": "你可以自行决定是否继续收听。",
       "speaker": "A",
       "role": "narrator"
     },
     {
       "i": 3,
-      "start": 30.34,
-      "end": 35.88,
-      "text": "最近两三年，尤其在互联网行业，很多年轻人开始焦虑脱发的问题。",
+      "s": 1,
+      "start": 10.36,
+      "end": 17.14,
+      "text": "你好，欢迎收听故事FM，我是爱哲，",
       "speaker": "A",
       "role": "narrator"
     },
     {
       "i": 4,
-      "start": 37.22,
-      "end": 41.16,
-      "text": "甚至有媒体放言说，第一批九零后已经秃了。",
+      "s": 1,
+      "start": 17.14,
+      "end": 19.1,
+      "text": "一个收集故事的人，",
       "speaker": "A",
       "role": "narrator"
     },
     {
       "i": 5,
-      "start": 41.66,
-      "end": 48.55,
-      "text": "今天故事的主人公猫多利是一位B站UP主，二十五岁的年纪，他发现自己居然脱发了。",
+      "s": 2,
+      "start": 19.1,
+      "end": 22,
+      "text": "在这里我们用你的声音讲述你的故事，",
       "speaker": "A",
       "role": "narrator"
     },
     {
       "i": 6,
+      "s": 2,
+      "start": 22,
+      "end": 24.5,
+      "text": "每周一三五咱们不见不散。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 7,
+      "s": 3,
+      "start": 30.34,
+      "end": 31.68,
+      "text": "最近两三年，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 8,
+      "s": 3,
+      "start": 31.68,
+      "end": 33.24,
+      "text": "尤其在互联网行业，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 9,
+      "s": 3,
+      "start": 33.24,
+      "end": 35.88,
+      "text": "很多年轻人开始焦虑脱发的问题。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 10,
+      "s": 4,
+      "start": 37.22,
+      "end": 39.12,
+      "text": "甚至有媒体放言说，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 11,
+      "s": 4,
+      "start": 39.12,
+      "end": 41.16,
+      "text": "第一批九零后已经秃了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 12,
+      "s": 5,
+      "start": 41.66,
+      "end": 43.3,
+      "text": "今天故事的主人公猫多利",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 13,
+      "s": 5,
+      "start": 43.3,
+      "end": 45.3,
+      "text": "是一位B站UP主，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 14,
+      "s": 5,
+      "start": 45.3,
+      "end": 46.4,
+      "text": "二十五岁的年纪，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 15,
+      "s": 5,
+      "start": 46.4,
+      "end": 48.55,
+      "text": "他发现自己居然脱发了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 16,
+      "s": 6,
       "start": 53.68,
-      "end": 59.32,
-      "text": "我是modelly自由职业者，我今年是二十九，但应该就四五年前，",
+      "end": 56.14,
+      "text": "我是modelly自由职业者，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 7,
+      "i": 17,
+      "s": 6,
+      "start": 56.14,
+      "end": 57.8,
+      "text": "我今年是二十九，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 6,
+      "start": 57.8,
+      "end": 59.32,
+      "text": "但应该就四五年前，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 7,
       "start": 59.32,
       "end": 61.36,
       "text": "是不是新陈代谢到了一个某个时期？",
@@ -74,7 +190,8 @@
       "role": "storyteller"
     },
     {
-      "i": 8,
+      "i": 20,
+      "s": 8,
       "start": 61.36,
       "end": 63.04,
       "text": "是不是身体发生一些改变了？",
@@ -82,23 +199,62 @@
       "role": "storyteller"
     },
     {
-      "i": 9,
+      "i": 21,
+      "s": 9,
       "start": 63.22,
+      "end": 65.14,
+      "text": "我休息习惯一直都不好，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 9,
+      "start": 65.14,
+      "end": 69.34,
+      "text": "从小到大就是从小大家都都是熬夜打游戏，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 9,
+      "start": 69.34,
       "end": 71,
-      "text": "我休息习惯一直都不好，从小到大就是从小大家都都是熬夜打游戏，就是夜猫子型吧。",
+      "text": "就是夜猫子型吧。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 10,
+      "i": 24,
+      "s": 10,
       "start": 71.46,
-      "end": 78.6,
-      "text": "可能白天就睡得特别多，然后呢那阵儿啊是归精神压力有点大，然后就抽烟，",
+      "end": 73.43,
+      "text": "可能白天就睡得特别多，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 11,
+      "i": 25,
+      "s": 10,
+      "start": 73.96,
+      "end": 77.2,
+      "text": "然后呢那阵儿啊是归精神压力有点大，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 10,
+      "start": 77.2,
+      "end": 78.6,
+      "text": "然后就抽烟，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 11,
       "start": 78.6,
       "end": 80.86,
       "text": "以及那时候喝酒的量比平时要多一些。",
@@ -106,39 +262,116 @@
       "role": "storyteller"
     },
     {
-      "i": 12,
+      "i": 28,
+      "s": 12,
       "start": 80.94,
+      "end": 82.62,
+      "text": "就这两个东西啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 12,
+      "start": 82.62,
       "end": 84.49,
-      "text": "就这两个东西啊，它就是加速了这个进程吧。",
+      "text": "它就是加速了这个进程吧。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 13,
+      "i": 30,
+      "s": 13,
       "start": 84.68,
+      "end": 85.7,
+      "text": "所以烟跟酒啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 13,
+      "start": 85.7,
       "end": 87.85,
-      "text": "所以烟跟酒啊，这个年轻的朋友们千万不要碰。",
+      "text": "这个年轻的朋友们千万不要碰。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 14,
+      "i": 32,
+      "s": 14,
       "start": 88.16,
+      "end": 89.42,
+      "text": "就是你会发现，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 14,
+      "start": 89.42,
+      "end": 90.68,
+      "text": "这个你洗头发，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 14,
+      "start": 90.68,
+      "end": 93.76,
+      "text": "这个掉的这个发量不是明显感知的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 14,
+      "start": 93.76,
       "end": 94.76,
-      "text": "就是你会发现，这个你洗头发，这个掉的这个发量不是明显感知的，就因为它很细微。",
+      "text": "就因为它很细微。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 15,
+      "i": 36,
+      "s": 15,
       "start": 94.76,
-      "end": 99.58,
-      "text": "但是你会发现，可能就是生长速度没有你的这个掉的速度，就是收支不平衡嘛。",
+      "end": 95.64,
+      "text": "但是你会发现，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 16,
+      "i": 37,
+      "s": 15,
+      "start": 95.64,
+      "end": 96.6,
+      "text": "可能就是生长速度",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 15,
+      "start": 96.6,
+      "end": 98.5,
+      "text": "没有你的这个掉的速度，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 15,
+      "start": 98.5,
+      "end": 99.58,
+      "text": "就是收支不平衡嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 16,
       "start": 99.58,
       "end": 102.06,
       "text": "所以逐渐的你会发现，哎，发量偏少了。",
@@ -146,55 +379,161 @@
       "role": "storyteller"
     },
     {
-      "i": 17,
+      "i": 41,
+      "s": 17,
       "start": 102.08,
+      "end": 103.04,
+      "text": "因为正常人脱发",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 17,
+      "start": 103.04,
       "end": 106.24,
-      "text": "因为正常人脱发每天应该脱脱五十根以内是正常的。",
+      "text": "每天应该脱脱五十根以内是正常的。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 18,
+      "i": 43,
+      "s": 18,
       "start": 106.47,
+      "end": 107.99,
+      "text": "就是你正常洗头，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 18,
+      "start": 107.99,
+      "end": 110.09,
+      "text": "你抓一把头发下来其实还好，你数一数，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 18,
+      "start": 110.09,
       "end": 112.05,
-      "text": "就是你正常洗头，你抓一把头发下来其实还好，你数一数，只要数量别太多应该还行。",
+      "text": "只要数量别太多应该还行。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 19,
+      "i": 46,
+      "s": 19,
       "start": 113.51,
+      "end": 116.49,
+      "text": "有一次就是外地吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 19,
+      "start": 116.63,
+      "end": 118.75,
+      "text": "去陪我妈回家吧，回老家，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 19,
+      "start": 118.75,
       "end": 121.01,
-      "text": "有一次就是外地吧，去陪我妈回家吧，回老家，然后呢，我们在重庆也住了一天。",
+      "text": "然后呢，我们在重庆也住了一天。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 20,
+      "i": 49,
+      "s": 20,
       "start": 121.01,
+      "end": 122.97,
+      "text": "那天就在酒店的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 20,
+      "start": 123.37,
+      "end": 125.45,
+      "text": "然后那个顶灯就是直射打下来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "s": 20,
+      "start": 125.45,
       "end": 126.47,
-      "text": "那天就在酒店的时候，然后那个顶灯就是直射打下来，然后我当时发现啊，",
+      "text": "然后我当时发现啊，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 21,
+      "i": 52,
+      "s": 21,
       "start": 126.47,
+      "end": 127.37,
+      "text": "梳头时发现",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 21,
+      "start": 127.37,
+      "end": 130.45,
+      "text": "就是脑袋的这个左右两边好像空了一大块儿，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 21,
+      "start": 130.45,
       "end": 131.75,
-      "text": "梳头时发现就是脑袋的这个左右两边好像空了一大块儿，当时看着就是一个。",
+      "text": "当时看着就是一个。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 22,
+      "i": 55,
+      "s": 22,
       "start": 132.04,
-      "end": 137.08,
-      "text": "特别ugly的自己，当时一想，我靠，这个不就是电影里边反派的那个形象吗？",
+      "end": 133.88,
+      "text": "特别ugly的自己，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 23,
+      "i": 56,
+      "s": 22,
+      "start": 133.88,
+      "end": 134.76,
+      "text": "当时一想，我靠，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 22,
+      "start": 134.76,
+      "end": 137.08,
+      "text": "这个不就是电影里边反派的那个形象吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 23,
       "start": 137.8,
       "end": 138.46,
       "text": "就是你知道吧？",
@@ -202,39 +541,98 @@
       "role": "storyteller"
     },
     {
-      "i": 24,
+      "i": 59,
+      "s": 24,
       "start": 138.46,
+      "end": 141.04,
+      "text": "就是反派都喜欢搞得特别没眉毛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 24,
+      "start": 141.04,
+      "end": 141.82,
+      "text": "就是又是秃顶啊",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 24,
+      "start": 141.82,
       "end": 143.94,
-      "text": "就是反派都喜欢搞得特别没眉毛，就是又是秃顶啊什么地中海的都老老像样的。",
+      "text": "什么地中海的都老老像样的。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 25,
+      "i": 62,
+      "s": 25,
       "start": 143.94,
+      "end": 144.72,
+      "text": "当时一看，我靠，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 25,
+      "start": 144.72,
       "end": 146.82,
-      "text": "当时一看，我靠，我怎么成了这个电影里边的反派角色了？",
+      "text": "我怎么成了这个电影里边的反派角色了？",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 26,
+      "i": 64,
+      "s": 26,
       "start": 146.82,
+      "end": 148.24,
+      "text": "因为以以前我一直觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 26,
+      "start": 148.24,
       "end": 149.84,
-      "text": "因为以以前我一直觉得自己应该是正面角色，是吧？",
+      "text": "自己应该是正面角色，是吧？",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 27,
+      "i": 66,
+      "s": 27,
       "start": 150.08,
-      "end": 156.1,
-      "text": "就那一瞬间，就是就像是突然间给你宣布一个噩耗一样，真的那种感觉，就像是哦，",
+      "end": 151.72,
+      "text": "就那一瞬间，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 28,
+      "i": 67,
+      "s": 27,
+      "start": 151.72,
+      "end": 154.76,
+      "text": "就是就像是突然间给你宣布一个噩耗一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 27,
+      "start": 154.76,
+      "end": 156.1,
+      "text": "真的那种感觉，就像是哦，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 28,
       "start": 156.1,
       "end": 157.36,
       "text": "我是不是得癌了那种感觉。",
@@ -242,39 +640,134 @@
       "role": "storyteller"
     },
     {
-      "i": 29,
+      "i": 70,
+      "s": 29,
       "start": 157.66,
-      "end": 165.69,
-      "text": "因为我从小到大一直外界评价是说应该属于帅哥类型是吧但突然间发现我靠我怎么走向丑的角色",
+      "end": 160.59,
+      "text": "因为我从小到大一直外界评价是说",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 30,
-      "start": 165.69,
-      "end": 174.17,
-      "text": "了是不是然后那一阵我还专门去就是去打听了一下就看我们各家亲戚看到底谁家有兔子啊就看这个",
+      "i": 71,
+      "s": 29,
+      "start": 160.59,
+      "end": 162.71,
+      "text": "应该属于帅哥类型是吧",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 31,
-      "start": 174.17,
-      "end": 180.99,
-      "text": "血缘上是从哪儿来的然后发现基本没有然后这个事儿就让我觉得很很蹊跷当时就是从来不会觉得",
+      "i": 72,
+      "s": 29,
+      "start": 162.71,
+      "end": 163.71,
+      "text": "但突然间发现",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 32,
-      "start": 180.99,
+      "i": 73,
+      "s": 29,
+      "start": 163.71,
+      "end": 166.65,
+      "text": "我靠我怎么走向丑的角色了是不是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 30,
+      "start": 167.21,
+      "end": 170.95,
+      "text": "然后那一阵我还专门去就是去打听了一下",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 30,
+      "start": 170.95,
+      "end": 172.13,
+      "text": "就看我们各家亲戚",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "s": 30,
+      "start": 172.13,
+      "end": 173.49,
+      "text": "看到底谁家有兔子啊",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 77,
+      "s": 30,
+      "start": 173.49,
+      "end": 175.63,
+      "text": "就看这个血缘上是从哪儿来的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 31,
+      "start": 175.85,
+      "end": 177.57,
+      "text": "然后发现基本没有",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 79,
+      "s": 31,
+      "start": 177.57,
+      "end": 179.59,
+      "text": "然后这个事儿就让我觉得很很蹊跷",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 80,
+      "s": 31,
+      "start": 179.59,
+      "end": 181.43,
+      "text": "当时就是从来不会觉得说自己",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 32,
+      "start": 181.43,
+      "end": 183.03,
+      "text": "怎么会进入这个行列的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 32,
+      "start": 183.18,
+      "end": 184.94,
+      "text": "那时候还没想到去植发的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 32,
+      "start": 184.94,
       "end": 186.68,
-      "text": "说自己怎么会进入这个行列的那时候还没想到去植发的，那时候也不知道植发，",
+      "text": "那时候也不知道植发，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 33,
+      "i": 84,
+      "s": 33,
       "start": 186.68,
       "end": 188.74,
       "text": "但这这听着像广告了啊！",
@@ -282,7 +775,8 @@
       "role": "storyteller"
     },
     {
-      "i": 34,
+      "i": 85,
+      "s": 34,
       "start": 188.74,
       "end": 189.82,
       "text": "对，就感觉是什么？",
@@ -290,7 +784,8 @@
       "role": "storyteller"
     },
     {
-      "i": 35,
+      "i": 86,
+      "s": 35,
       "start": 189.92,
       "end": 192.24,
       "text": "其实不是啊，就是讲讲一下心路历程。",
@@ -298,23 +793,62 @@
       "role": "storyteller"
     },
     {
-      "i": 36,
+      "i": 87,
+      "s": 36,
       "start": 192.24,
+      "end": 195.1,
+      "text": "就那时候就改变生活习惯嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 36,
+      "start": 195.1,
+      "end": 196.32,
+      "text": "就是包括也看网上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 89,
+      "s": 36,
+      "start": 196.32,
       "end": 198.28,
-      "text": "就那时候就改变生活习惯嘛，就是包括也看网上一些什么养发的乱七八糟东西啊。",
+      "text": "一些什么养发的乱七八糟东西啊。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 37,
+      "i": 90,
+      "s": 37,
       "start": 198.28,
-      "end": 203.94,
-      "text": "当然，因为我是一个科白哈，就我以前在那个果壳网工作过，就本身我是不信什么中医啊、",
+      "end": 199.82,
+      "text": "当然，因为我是一个科白哈，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 38,
+      "i": 91,
+      "s": 37,
+      "start": 199.82,
+      "end": 202.06,
+      "text": "就我以前在那个果壳网工作过，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 92,
+      "s": 37,
+      "start": 202.06,
+      "end": 203.94,
+      "text": "就本身我是不信什么中医啊、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "s": 38,
       "start": 203.94,
       "end": 205.24,
       "text": "何首乌、生姜这些东西的。",
@@ -322,15 +856,26 @@
       "role": "storyteller"
     },
     {
-      "i": 39,
+      "i": 94,
+      "s": 39,
       "start": 205.24,
-      "end": 209.07,
-      "text": "因为要说生姜有这个生发作用，那生姜早就脱销了，对不对？",
+      "end": 207.24,
+      "text": "因为要说生姜有这个生发作用，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 40,
+      "i": 95,
+      "s": 39,
+      "start": 207.24,
+      "end": 209.07,
+      "text": "那生姜早就脱销了，对不对？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 96,
+      "s": 40,
       "start": 209.4,
       "end": 210.44,
       "text": "还用这些什么？",
@@ -338,7 +883,8 @@
       "role": "storyteller"
     },
     {
-      "i": 41,
+      "i": 97,
+      "s": 41,
       "start": 211.02,
       "end": 212.18,
       "text": "医生干嘛呢？",
@@ -346,47 +892,125 @@
       "role": "storyteller"
     },
     {
-      "i": 42,
+      "i": 98,
+      "s": 42,
       "start": 212.18,
+      "end": 214.96,
+      "text": "就当时又回到一个冷血的一个思考状况嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 99,
+      "s": 42,
+      "start": 214.96,
       "end": 216.12,
-      "text": "就当时又回到一个冷血的一个思考状况嘛，就是我就想，我操，",
+      "text": "就是我就想，我操，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 43,
+      "i": 100,
+      "s": 43,
       "start": 216.12,
+      "end": 218.7,
+      "text": "这个人的身体就说白了也是个机器而已，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 101,
+      "s": 43,
+      "start": 219.44,
+      "end": 220.36,
+      "text": "就是你的各个零部件",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 102,
+      "s": 43,
+      "start": 220.36,
       "end": 222.48,
-      "text": "这个人的身体就说白了也是个机器而已，就是你的各个零部件它肯定会在一定时期发生老化。",
+      "text": "它肯定会在一定时期发生老化。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 44,
+      "i": 103,
+      "s": 44,
       "start": 222.48,
+      "end": 224.16,
+      "text": "然后我就想就接受这个过程嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 104,
+      "s": 44,
+      "start": 224.16,
       "end": 225.54,
-      "text": "然后我就想就接受这个过程嘛，就是调整心理的一个问题。",
+      "text": "就是调整心理的一个问题。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 45,
+      "i": 105,
+      "s": 45,
       "start": 225.9,
+      "end": 227.14,
+      "text": "当时就是接受了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 106,
+      "s": 45,
+      "start": 227.14,
+      "end": 228.36,
+      "text": "就是掉就掉呗，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 107,
+      "s": 45,
+      "start": 228.36,
       "end": 229.35,
-      "text": "当时就是接受了，就是掉就掉呗，掉了就光头呗。",
+      "text": "掉了就光头呗。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 46,
+      "i": 108,
+      "s": 46,
       "start": 229.72,
-      "end": 235.44,
-      "text": "当时还看特意去找了一些这个男性光头明星的照片来欣赏一下，对吧？",
+      "end": 231.76,
+      "text": "当时还看特意去找了一些",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 47,
+      "i": 109,
+      "s": 46,
+      "start": 231.76,
+      "end": 233.88,
+      "text": "这个男性光头明星的照片",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 110,
+      "s": 46,
+      "start": 233.88,
+      "end": 235.44,
+      "text": "来欣赏一下，对吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 111,
+      "s": 47,
       "start": 235.44,
       "end": 237.34,
       "text": "什么郭德纲、孟非啊，什么。",
@@ -394,71 +1018,224 @@
       "role": "storyteller"
     },
     {
-      "i": 48,
+      "i": 112,
+      "s": 48,
       "start": 237.54,
-      "end": 245.02,
-      "text": "那个叫什么家来着乐嘉呀什么张卫健呀之类的就看一下就觉得其实光头还好嘛我当时想就不如剃",
+      "end": 239.02,
+      "text": "那个叫什么家来着",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 49,
-      "start": 245.02,
-      "end": 254.06,
-      "text": "个光头是就没想后来就剃了个光头剃完了前几天看着还没没什么事儿但是越看吧我靠觉得发现我",
+      "i": 113,
+      "s": 48,
+      "start": 239.02,
+      "end": 241.78,
+      "text": "乐嘉呀什么张卫健呀之类的",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 50,
-      "start": 254.06,
-      "end": 261.26,
-      "text": "靠就穿衣风格跟这个头搭不上你知道吧因为这个人没头发会会露胸项当时我就想哎要压一下这个",
+      "i": 114,
+      "s": 48,
+      "start": 241.78,
+      "end": 242.76,
+      "text": "就看一下就觉得",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 51,
-      "start": 261.26,
+      "i": 115,
+      "s": 48,
+      "start": 242.76,
+      "end": 243.8,
+      "text": "其实光头还好嘛",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 116,
+      "s": 48,
+      "start": 243.8,
+      "end": 245.46,
+      "text": "我当时想就不如剃个光头",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 117,
+      "s": 49,
+      "start": 245.46,
+      "end": 248.36,
+      "text": "是就没想后来就剃了个光头",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 118,
+      "s": 49,
+      "start": 248.36,
+      "end": 252.3,
+      "text": "剃完了前几天看着还没没什么事儿",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 119,
+      "s": 49,
+      "start": 252.3,
+      "end": 254.18,
+      "text": "但是越看吧我靠觉得发现我靠",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 120,
+      "s": 50,
+      "start": 254.18,
+      "end": 256.62,
+      "text": "就穿衣风格跟这个头搭不上你知道吧",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 121,
+      "s": 50,
+      "start": 256.62,
+      "end": 259.2,
+      "text": "因为这个人没头发会会露胸项",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 122,
+      "s": 50,
+      "start": 259.2,
+      "end": 261.76,
+      "text": "当时我就想哎要压一下这个胸项",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 123,
+      "s": 51,
+      "start": 261.76,
+      "end": 265.83,
+      "text": "那怎么办呢我就得穿的穿的那个柔和一点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 124,
+      "s": 51,
+      "start": 265.83,
+      "end": 266.93,
+      "text": "然后我就去买了些",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 125,
+      "s": 51,
+      "start": 266.93,
       "end": 268.77,
-      "text": "胸项那怎么办呢我就得穿的穿的那个柔和一点，然后我就去买了些就是比较佛系一点的衣服，",
+      "text": "就是比较佛系一点的衣服，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 52,
+      "i": 126,
+      "s": 52,
       "start": 268.81,
+      "end": 270.57,
+      "text": "就是往那个道家呀，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 127,
+      "s": 52,
+      "start": 270.57,
       "end": 272.19,
-      "text": "就是往那个道家呀，就是往那个宗教那方向走吧。",
+      "text": "就是往那个宗教那方向走吧。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 53,
+      "i": 128,
+      "s": 53,
       "start": 273.09,
+      "end": 276.21,
+      "text": "然后整个穿衣风格也改了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 129,
+      "s": 53,
+      "start": 276.21,
+      "end": 277.43,
+      "text": "改完了以后呢，发现我操，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 130,
+      "s": 53,
+      "start": 277.43,
       "end": 279.11,
-      "text": "然后整个穿衣风格也改了，改完了以后呢，发现我操，真的就是变成大师了。",
+      "text": "真的就是变成大师了。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 54,
+      "i": 131,
+      "s": 54,
       "start": 285.17,
+      "end": 287.71,
+      "text": "因为我之前有朋友他也植过发，对，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 132,
+      "s": 54,
+      "start": 287.71,
+      "end": 289.15,
+      "text": "这是以以前有，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 133,
+      "s": 54,
+      "start": 289.15,
       "end": 290.73,
-      "text": "因为我之前有朋友他也植过发，对，这是以以前有，而且他们还给我看来着。",
+      "text": "而且他们还给我看来着。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 55,
+      "i": 134,
+      "s": 55,
       "start": 290.73,
-      "end": 293.47,
-      "text": "我当时看了，我我第一反应说这植植什么发呀？",
+      "end": 291.71,
+      "text": "我当时看了，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 56,
+      "i": 135,
+      "s": 55,
+      "start": 291.71,
+      "end": 293.47,
+      "text": "我我第一反应说这植植什么发呀？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 136,
+      "s": 56,
       "start": 293.47,
       "end": 293.47,
       "text": "我说这没什么，因为我一直对。",
@@ -466,47 +1243,143 @@
       "role": "storyteller"
     },
     {
-      "i": 57,
+      "i": 137,
+      "s": 57,
       "start": 295.39,
+      "end": 298.03,
+      "text": "对于什么做这个美容手术啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "s": 57,
+      "start": 298.03,
+      "end": 299.41,
+      "text": "就是动刀削骨哈，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 57,
+      "start": 299.41,
       "end": 299.97,
-      "text": "对于什么做这个美容手术啊，就是动刀削骨哈，拉个双眼皮儿。",
+      "text": "拉个双眼皮儿。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 58,
+      "i": 140,
+      "s": 58,
       "start": 299.97,
+      "end": 301.23,
+      "text": "就我老对这些事儿，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "s": 58,
+      "start": 301.23,
+      "end": 301.99,
+      "text": "我觉得我靠，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "s": 58,
+      "start": 301.99,
       "end": 303.3,
-      "text": "就我老对这些事儿，我觉得我靠，这种东西有有必要吗？",
+      "text": "这种东西有有必要吗？",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 59,
+      "i": 143,
+      "s": 59,
       "start": 303.55,
+      "end": 307.33,
+      "text": "因为我觉得这女生爱往自己身上这个折腾，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 144,
+      "s": 59,
+      "start": 307.33,
       "end": 309.76,
-      "text": "因为我觉得这女生爱往自己身上这个折腾，我觉得可能她是不是被这些东西骗了？",
+      "text": "我觉得可能她是不是被这些东西骗了？",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 60,
+      "i": 145,
+      "s": 60,
       "start": 309.95,
+      "end": 311.47,
+      "text": "我觉得这种事儿，我靠，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 146,
+      "s": 60,
+      "start": 311.47,
+      "end": 313.05,
+      "text": "一听什么什么机构啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 147,
+      "s": 60,
+      "start": 313.05,
+      "end": 314.11,
+      "text": "以及什么专科，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "s": 60,
+      "start": 314.11,
       "end": 315.71,
-      "text": "我觉得这种事儿，我靠，一听什么什么机构啊，以及什么专科，一听你就特别害怕的。",
+      "text": "一听你就特别害怕的。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 61,
+      "i": 149,
+      "s": 61,
       "start": 315.95,
-      "end": 320.71,
-      "text": "而且你你也想到百度上那些就是万恶的百度啊，我们深深讨一下，",
+      "end": 317.91,
+      "text": "而且你你也想到百度上那些",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 62,
+      "i": 150,
+      "s": 61,
+      "start": 317.91,
+      "end": 319.03,
+      "text": "就是万恶的百度啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 151,
+      "s": 61,
+      "start": 319.03,
+      "end": 320.71,
+      "text": "我们深深讨一下，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 152,
+      "s": 62,
       "start": 320.71,
       "end": 322.98,
       "text": "就是就百度上那些乱七八糟的什么广告。",
@@ -514,47 +1387,161 @@
       "role": "storyteller"
     },
     {
-      "i": 63,
+      "i": 153,
+      "s": 63,
       "start": 323.69,
-      "end": 331.35,
-      "text": "然后就挺抵触的就身边没见案例的话我是不会去植发的这个东西就是它只能是延缓你没有任何办",
+      "end": 325.71,
+      "text": "然后就挺抵触的",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 64,
-      "start": 331.35,
-      "end": 341.63,
-      "text": "法逆转就只有去植发就是现在唯一的一种途径包括那些我还看到那个艾隆马斯克刚铁侠还有那个",
+      "i": 154,
+      "s": 63,
+      "start": 325.71,
+      "end": 327.01,
+      "text": "就身边没见案例的话",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 65,
-      "start": 341.63,
-      "end": 349.51,
-      "text": "勒布朗詹姆斯是吧打篮球的这俩人都植过发尤其是艾隆马斯克特别明显因为他以前他头发就完全",
+      "i": 155,
+      "s": 63,
+      "start": 327.01,
+      "end": 328.77,
+      "text": "我是不会去植发的",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 66,
-      "start": 349.51,
+      "i": 156,
+      "s": 63,
+      "start": 328.77,
+      "end": 330.43,
+      "text": "这个东西就是它只能是延缓你",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 157,
+      "s": 63,
+      "start": 330.43,
+      "end": 331.69,
+      "text": "没有任何办法逆转",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "s": 64,
+      "start": 331.69,
+      "end": 333.43,
+      "text": "就只有去植发",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 159,
+      "s": 64,
+      "start": 333.43,
+      "end": 336.77,
+      "text": "就是现在唯一的一种途径",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 160,
+      "s": 64,
+      "start": 336.77,
+      "end": 340.37,
+      "text": "包括那些我还看到那个艾隆马斯克刚铁侠",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 161,
+      "s": 64,
+      "start": 340.37,
+      "end": 344.15,
+      "text": "还有那个勒布朗詹姆斯是吧打篮球的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 162,
+      "s": 65,
+      "start": 344.15,
+      "end": 345.55,
+      "text": "这俩人都植过发",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 163,
+      "s": 65,
+      "start": 345.55,
+      "end": 347.95,
+      "text": "尤其是艾隆马斯克特别明显",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 164,
+      "s": 65,
+      "start": 347.95,
+      "end": 350.57,
+      "text": "因为他以前他头发就完全是秃了的但是现在",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 165,
+      "s": 66,
+      "start": 350.57,
+      "end": 351.61,
+      "text": "后来在特斯拉之后",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 166,
+      "s": 66,
+      "start": 351.61,
+      "end": 352.59,
+      "text": "他头发就特别浓密",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 167,
+      "s": 66,
+      "start": 352.85,
       "end": 355.47,
-      "text": "是秃了的但是现在后来在特斯拉之后他头发就特别浓密就是看了这些，我一发现这改变真挺好的。",
+      "text": "就是看了这些，我一发现这改变真挺好的。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 67,
+      "i": 168,
+      "s": 67,
       "start": 355.95,
-      "end": 359.96,
-      "text": "其实我觉得这个有一个还有一个因素是因为我这个人生没上过手术台，你知道吧？",
+      "end": 357.69,
+      "text": "其实我觉得这个有一个还有一个因素是",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 68,
+      "i": 169,
+      "s": 67,
+      "start": 357.69,
+      "end": 359.96,
+      "text": "因为我这个人生没上过手术台，你知道吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "s": 68,
       "start": 360.29,
       "end": 362.31,
       "text": "就老觉得这个人生是不是缺一点？",
@@ -562,63 +1549,179 @@
       "role": "storyteller"
     },
     {
-      "i": 69,
+      "i": 171,
+      "s": 69,
       "start": 362.31,
+      "end": 365.21,
+      "text": "这个就老老把自己当成一个戏剧里边角色了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 172,
+      "s": 69,
+      "start": 365.21,
+      "end": 366.99,
+      "text": "就老觉得人生都没经过手术室，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 173,
+      "s": 69,
+      "start": 366.99,
       "end": 368.37,
-      "text": "这个就老老把自己当成一个戏剧里边角色了，就老觉得人生都没经过手术室，是不是该体验一下？",
+      "text": "是不是该体验一下？",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 70,
+      "i": 174,
+      "s": 70,
       "start": 368.93,
+      "end": 371.63,
+      "text": "当时就恰好是一个节日吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 175,
+      "s": 70,
+      "start": 371.63,
+      "end": 373.27,
+      "text": "清明节放假三天嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 176,
+      "s": 70,
+      "start": 373.27,
       "end": 376.31,
-      "text": "当时就恰好是一个节日吧，清明节放假三天嘛，我想就狠心改变一下。",
+      "text": "我想就狠心改变一下。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 71,
+      "i": 177,
+      "s": 71,
       "start": 380.43,
+      "end": 381.45,
+      "text": "它其实就是一家",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 178,
+      "s": 71,
+      "start": 381.45,
+      "end": 383.95,
+      "text": "专门做这个植发的这么一个医院，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 179,
+      "s": 71,
+      "start": 383.95,
       "end": 386.24,
-      "text": "它其实就是一家专门做这个植发的这么一个医院，应该是国内应该是应该是最大的吧。",
+      "text": "应该是国内应该是应该是最大的吧。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 72,
+      "i": 180,
+      "s": 72,
       "start": 386.29,
+      "end": 388.23,
+      "text": "因为我我也我也是听朋友说的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 181,
+      "s": 72,
+      "start": 388.23,
+      "end": 389.69,
+      "text": "当时就去试了一下呗，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 182,
+      "s": 72,
+      "start": 389.69,
       "end": 390.99,
-      "text": "因为我我也我也是听朋友说的，当时就去试了一下呗，就去找那个大夫聊了一下。",
+      "text": "就去找那个大夫聊了一下。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 73,
+      "i": 183,
+      "s": 73,
       "start": 390.99,
+      "end": 393.31,
+      "text": "他先做这个头皮检测嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 184,
+      "s": 73,
+      "start": 393.57,
+      "end": 395.43,
+      "text": "检测他就是有一个机器，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 185,
+      "s": 73,
+      "start": 395.43,
       "end": 397.95,
-      "text": "他先做这个头皮检测嘛，检测他就是有一个机器，那个机器呢就是像显微镜似的，",
+      "text": "那个机器呢就是像显微镜似的，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 74,
+      "i": 186,
+      "s": 74,
       "start": 398.28,
+      "end": 403.51,
+      "text": "就是嗯拿一个灯和一个一就像一支笔的东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 187,
+      "s": 74,
+      "start": 403.51,
       "end": 404.59,
-      "text": "就是嗯拿一个灯和一个一就像一支笔的东西，然后放在你的头皮上，",
+      "text": "然后放在你的头皮上，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 75,
+      "i": 188,
+      "s": 75,
       "start": 404.59,
-      "end": 407.51,
-      "text": "然后就会从屏幕上投影出你的头皮状况来。",
+      "end": 405.97,
+      "text": "然后就会从屏幕上",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 76,
+      "i": 189,
+      "s": 75,
+      "start": 405.97,
+      "end": 407.51,
+      "text": "投影出你的头皮状况来。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 190,
+      "s": 76,
       "start": 407.73,
       "end": 408.47,
       "text": "比如两额这种地方的话，你会发现那个毛囊。",
@@ -626,31 +1729,80 @@
       "role": "storyteller"
     },
     {
-      "i": 77,
+      "i": 191,
+      "s": 77,
       "start": 410.39,
+      "end": 412.67,
+      "text": "就里边只有一两根头发，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 192,
+      "s": 77,
+      "start": 412.67,
+      "end": 413.57,
+      "text": "有的时候只有一个，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 193,
+      "s": 77,
+      "start": 413.57,
       "end": 415.27,
-      "text": "就里边只有一两根头发，有的时候只有一个，然后而且那个头发比较细软。",
+      "text": "然后而且那个头发比较细软。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 78,
+      "i": 194,
+      "s": 78,
       "start": 415.65,
+      "end": 418.53,
+      "text": "然后我当时应该属于还算轻度吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 195,
+      "s": 78,
+      "start": 418.53,
       "end": 419.56,
-      "text": "然后我当时应该属于还算轻度吧，不算重度的。",
+      "text": "不算重度的。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 79,
+      "i": 196,
+      "s": 79,
       "start": 420.15,
-      "end": 425.73,
-      "text": "对，但是我没想到这个给我的一个植发量发量单位最终一计算还挺高的，有点出乎我的意料。",
+      "end": 422.23,
+      "text": "对，但是我没想到这个给我的一个植发量",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 80,
+      "i": 197,
+      "s": 79,
+      "start": 422.23,
+      "end": 424.67,
+      "text": "发量单位最终一计算还挺高的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 198,
+      "s": 79,
+      "start": 424.67,
+      "end": 425.73,
+      "text": "有点出乎我的意料。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 199,
+      "s": 80,
       "start": 425.73,
       "end": 428.08,
       "text": "我我现在还有点耿耿于怀。",
@@ -658,31 +1810,80 @@
       "role": "storyteller"
     },
     {
-      "i": 81,
+      "i": 200,
+      "s": 81,
       "start": 429.11,
+      "end": 434.77,
+      "text": "医生是一个四五十岁的一个一个女阿姨，对，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 201,
+      "s": 81,
+      "start": 434.77,
       "end": 435.95,
-      "text": "医生是一个四五十岁的一个一个女阿姨，对，还说话还挺温柔的。",
+      "text": "还说话还挺温柔的。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 82,
+      "i": 202,
+      "s": 82,
       "start": 436.07,
+      "end": 438.97,
+      "text": "就全程挺耐心的一个一这么一个人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 203,
+      "s": 82,
+      "start": 438.97,
+      "end": 441.05,
+      "text": "他直接就把脑袋搬过来，就光头嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 204,
+      "s": 82,
+      "start": 441.05,
       "end": 442.35,
-      "text": "就全程挺耐心的一个一这么一个人，他直接就把脑袋搬过来，就光头嘛，然后开始在上面画画了。",
+      "text": "然后开始在上面画画了。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 83,
+      "i": 205,
+      "s": 83,
       "start": 442.35,
-      "end": 448.39,
-      "text": "就是对他画那个就是设计你的发际线，因为他给你设计你的发际线不可能跟以前完全一样，",
+      "end": 445.21,
+      "text": "就是对他画那个就是设计你的发际线，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 84,
+      "i": 206,
+      "s": 83,
+      "start": 445.21,
+      "end": 446.73,
+      "text": "因为他给你设计你的发际线",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 207,
+      "s": 83,
+      "start": 446.73,
+      "end": 448.39,
+      "text": "不可能跟以前完全一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 208,
+      "s": 84,
       "start": 448.39,
       "end": 450.21,
       "text": "因为它直的话肯定是往后一点的。",
@@ -690,159 +1891,458 @@
       "role": "storyteller"
     },
     {
-      "i": 85,
+      "i": 209,
+      "s": 85,
       "start": 450.39,
+      "end": 451.53,
+      "text": "他就是画了一个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 210,
+      "s": 85,
+      "start": 451.53,
       "end": 453.01,
-      "text": "他就是画了一个就挺正常的一个发际线嘛。",
+      "text": "就挺正常的一个发际线嘛。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 86,
+      "i": 211,
+      "s": 86,
       "start": 453.01,
+      "end": 455.31,
+      "text": "当时我我画了我还我就有点歪，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 212,
+      "s": 86,
+      "start": 455.31,
       "end": 456.29,
-      "text": "当时我我画了我还我就有点歪，我说是不是画歪了？",
+      "text": "我说是不是画歪了？",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 87,
+      "i": 213,
+      "s": 87,
       "start": 456.29,
+      "end": 459.35,
+      "text": "他说这个是按你的你脑袋生长的形状来画的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 214,
+      "s": 87,
+      "start": 459.35,
+      "end": 460.49,
+      "text": "他说要不然就不正，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 215,
+      "s": 87,
+      "start": 460.49,
       "end": 461.65,
-      "text": "他说这个是按你的你脑袋生长的形状来画的，他说要不然就不正，就看的不自然了。",
+      "text": "就看的不自然了。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 88,
+      "i": 216,
+      "s": 88,
       "start": 461.8,
+      "end": 463.16,
+      "text": "他不可能给你画的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 217,
+      "s": 88,
+      "start": 463.16,
+      "end": 465,
+      "text": "特别就是按一条什么完美线，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 218,
+      "s": 88,
+      "start": 465,
       "end": 466.8,
-      "text": "他不可能给你画的特别就是按一条什么完美线，因为你植出来你会发现，哎，",
+      "text": "因为你植出来你会发现，哎，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 89,
+      "i": 219,
+      "s": 89,
       "start": 466.8,
+      "end": 468.6,
+      "text": "这个这线有你就你就有点明显",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 220,
+      "s": 89,
+      "start": 468.6,
       "end": 469.89,
-      "text": "这个这线有你就你就有点明显那种整容痕迹了。",
+      "text": "那种整容痕迹了。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 90,
+      "i": 221,
+      "s": 90,
       "start": 470.5,
+      "end": 473.54,
+      "text": "那个医院里边挺多四五十岁去植发的，嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 222,
+      "s": 90,
+      "start": 473.54,
       "end": 475.2,
-      "text": "那个医院里边挺多四五十岁去植发的，嗯，年纪偏长的应该偏多吧，",
+      "text": "年纪偏长的应该偏多吧，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 91,
+      "i": 223,
+      "s": 91,
       "start": 475.24,
+      "end": 477.62,
+      "text": "年纪轻的可能还真偏少一些，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 224,
+      "s": 91,
+      "start": 477.62,
+      "end": 480.04,
+      "text": "因为这个东西还真是需要花点小钱，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 225,
+      "s": 91,
+      "start": 480.04,
       "end": 482.34,
-      "text": "年纪轻的可能还真偏少一些，因为这个东西还真是需要花点小钱，但是其实这也不算太多，",
+      "text": "但是其实这也不算太多，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 92,
+      "i": 226,
+      "s": 92,
       "start": 482.34,
+      "end": 484.08,
+      "text": "它其实有三个档次的吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 227,
+      "s": 92,
+      "start": 484.08,
+      "end": 485.9,
+      "text": "我当时选的是一个中档的一个，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 228,
+      "s": 92,
+      "start": 485.9,
       "end": 487.69,
-      "text": "它其实有三个档次的吧，我当时选的是一个中档的一个，太高的估计得来十来万吧。",
+      "text": "太高的估计得来十来万吧。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 93,
+      "i": 229,
+      "s": 93,
       "start": 487.81,
+      "end": 489.22,
+      "text": "我就选个中间的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 230,
+      "s": 93,
+      "start": 489.22,
       "end": 491.39,
-      "text": "我就选个中间的，所以我的花费就是总体十五万左右吧。",
+      "text": "所以我的花费就是总体十五万左右吧。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 94,
+      "i": 231,
+      "s": 94,
       "start": 492.04,
+      "end": 493.46,
+      "text": "我看到的不应该不是我上一台数字，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 232,
+      "s": 94,
+      "start": 493.46,
       "end": 495.11,
-      "text": "我看到的不应该不是我上一台数字，但我看到有一些包着脑袋的，",
+      "text": "但我看到有一些包着脑袋的，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 95,
+      "i": 233,
+      "s": 95,
       "start": 495.38,
+      "end": 496.16,
+      "text": "基本上做过的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 234,
+      "s": 95,
+      "start": 496.16,
       "end": 499.45,
-      "text": "基本上做过的都是脑脑袋前顶着一块纱布出来的。",
+      "text": "都是脑脑袋前顶着一块纱布出来的。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 96,
+      "i": 235,
+      "s": 96,
       "start": 499.56,
+      "end": 500.92,
+      "text": "然后我还特意看了一下他们，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 236,
+      "s": 96,
+      "start": 500.92,
       "end": 501.94,
-      "text": "然后我还特意看了一下他们，我说这怎么样啊？",
+      "text": "我说这怎么样啊？",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 97,
+      "i": 237,
+      "s": 97,
       "start": 501.94,
+      "end": 505.04,
+      "text": "就问他们说这个过程怎么样怎么样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 238,
+      "s": 97,
+      "start": 505.04,
+      "end": 505.74,
+      "text": "就是看了一下，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 239,
+      "s": 97,
+      "start": 505.74,
       "end": 507.48,
-      "text": "就问他们说这个过程怎么样怎么样，就是看了一下，看一下就觉得哎还好哎，",
+      "text": "看一下就觉得哎还好哎，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 98,
+      "i": 240,
+      "s": 98,
       "start": 507.48,
+      "end": 509.3,
+      "text": "看就是头发密密麻麻的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 241,
+      "s": 98,
+      "start": 509.3,
+      "end": 510.88,
+      "text": "然后就挺整齐条线，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 242,
+      "s": 98,
+      "start": 510.88,
       "end": 514.52,
-      "text": "看就是头发密密麻麻的，然后就挺整齐条线，因为植发其实还那个刀斧的痕迹还是挺。",
+      "text": "因为植发其实还那个刀斧的痕迹还是挺。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 99,
+      "i": 243,
+      "s": 99,
       "start": 514.61,
+      "end": 515.99,
+      "text": "挺明显的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 244,
+      "s": 99,
+      "start": 515.99,
+      "end": 517.89,
+      "text": "就是说你能感觉那条线很整齐，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 245,
+      "s": 99,
+      "start": 517.89,
       "end": 520.82,
-      "text": "挺明显的，就是说你能感觉那条线很整齐，就是一条非常很有有点略微不自然那条线。",
+      "text": "就是一条非常很有有点略微不自然那条线。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 100,
+      "i": 246,
+      "s": 100,
       "start": 521.11,
-      "end": 526.31,
-      "text": "我当时就等了等到下午的话，上一台手术就还算顺利嘛，然后我就接上去了，",
+      "end": 522.78,
+      "text": "我当时就等了等到下午的话，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 101,
+      "i": 247,
+      "s": 100,
+      "start": 523.13,
+      "end": 525.09,
+      "text": "上一台手术就还算顺利嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 248,
+      "s": 100,
+      "start": 525.09,
+      "end": 526.31,
+      "text": "然后我就接上去了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 249,
+      "s": 101,
       "start": 526.31,
+      "end": 528.03,
+      "text": "当天就做了",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 250,
+      "s": 101,
+      "start": 528.25,
+      "end": 532.63,
+      "text": "植发手术的原理是这样的：第一步，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 251,
+      "s": 101,
+      "start": 532.63,
+      "end": 533.95,
+      "text": "用显微外科技术",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 252,
+      "s": 101,
+      "start": 533.95,
       "end": 536.49,
-      "text": "当天就做了植发手术的原理是这样的：第一步，用显微外科技术取出一部分健康的毛囊组织；",
+      "text": "取出一部分健康的毛囊组织；",
       "speaker": "A",
       "role": "narrator"
     },
     {
-      "i": 102,
+      "i": 253,
+      "s": 102,
       "start": 536.49,
+      "end": 539.55,
+      "text": "第二步，把取出的毛囊组织加工培养之后，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 254,
+      "s": 102,
+      "start": 539.67,
+      "end": 541.51,
+      "text": "按照自然的头发生长方向",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 255,
+      "s": 102,
+      "start": 541.51,
       "end": 542.93,
-      "text": "第二步，把取出的毛囊组织加工培养之后，按照自然的头发生长方向移植到脱发的位置。",
+      "text": "移植到脱发的位置。",
       "speaker": "A",
       "role": "narrator"
     },
     {
-      "i": 103,
+      "i": 256,
+      "s": 103,
       "start": 543.42,
-      "end": 549.05,
-      "text": "猫多利做的这台手术是把从后脑勺取的毛囊移植到前额的位置，",
+      "end": 545.02,
+      "text": "猫多利做的这台手术",
       "speaker": "A",
       "role": "narrator"
     },
     {
-      "i": 104,
+      "i": 257,
+      "s": 103,
+      "start": 545.02,
+      "end": 547.34,
+      "text": "是把从后脑勺取的毛囊",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 258,
+      "s": 103,
+      "start": 547.34,
+      "end": 549.05,
+      "text": "移植到前额的位置，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 259,
+      "s": 104,
       "start": 550.24,
       "end": 551.66,
       "text": "应该是一个机器啊！",
@@ -850,47 +2350,143 @@
       "role": "storyteller"
     },
     {
-      "i": 105,
+      "i": 260,
+      "s": 105,
       "start": 551.66,
+      "end": 552.84,
+      "text": "大家想象一下科幻那种场景，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 261,
+      "s": 105,
+      "start": 552.84,
+      "end": 553.62,
+      "text": "因为我看不到啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 262,
+      "s": 105,
+      "start": 553.62,
       "end": 554.46,
-      "text": "大家想象一下科幻那种场景，因为我看不到啊，因为在脑后。",
+      "text": "因为在脑后。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 106,
+      "i": 263,
+      "s": 106,
       "start": 554.93,
+      "end": 555.7,
+      "text": "你你你打了麻药，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 264,
+      "s": 106,
+      "start": 555.7,
+      "end": 559.13,
+      "text": "你整个头皮就会变得特别麻木、特别硬，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 265,
+      "s": 106,
+      "start": 559.7,
       "end": 561.18,
-      "text": "你你你打了麻药，你整个头皮就会变得特别麻木、特别硬，就是你感觉那个针扎进去，",
+      "text": "就是你感觉那个针扎进去，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 107,
+      "i": 266,
+      "s": 107,
       "start": 561.18,
+      "end": 563.33,
+      "text": "感觉就像是扎到一个泡沫板上，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 267,
+      "s": 107,
+      "start": 563.46,
       "end": 565.07,
-      "text": "感觉就像是扎到一个泡沫板上，咔哧咔哧这么一下。",
+      "text": "咔哧咔哧这么一下。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 108,
+      "i": 268,
+      "s": 108,
       "start": 565.4,
+      "end": 566.2,
+      "text": "那个机器应该是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 269,
+      "s": 108,
+      "start": 566.2,
+      "end": 568.36,
+      "text": "先把你的那个毛囊先取出来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 270,
+      "s": 108,
+      "start": 568.36,
       "end": 569.46,
-      "text": "那个机器应该是先把你的那个毛囊先取出来，一个一个毛孔的取。",
+      "text": "一个一个毛孔的取。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 109,
+      "i": 271,
+      "s": 109,
       "start": 569.79,
-      "end": 576.47,
-      "text": "取完了以后呢，放在一个培养的器皿里边，还那个毛囊跟上还带着血迹，还端过来给你确认。",
+      "end": 570.81,
+      "text": "取完了以后呢，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 110,
+      "i": 272,
+      "s": 109,
+      "start": 570.81,
+      "end": 573.49,
+      "text": "放在一个培养的器皿里边，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 273,
+      "s": 109,
+      "start": 573.49,
+      "end": 575.27,
+      "text": "还那个毛囊跟上还带着血迹，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 274,
+      "s": 109,
+      "start": 575.27,
+      "end": 576.47,
+      "text": "还端过来给你确认。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 275,
+      "s": 110,
       "start": 576.47,
       "end": 578.69,
       "text": "然后我看了一下，哦，这个像不像劲儿？",
@@ -898,15 +2494,35 @@
       "role": "storyteller"
     },
     {
-      "i": 111,
+      "i": 276,
+      "s": 111,
       "start": 578.91,
-      "end": 582.43,
-      "text": "你因为因为那时候我剃的光头，但是因为它取出来的时候，你会发现啊，",
+      "end": 580.35,
+      "text": "你因为因为那时候我剃的光头，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 112,
+      "i": 277,
+      "s": 111,
+      "start": 580.37,
+      "end": 581.79,
+      "text": "但是因为它取出来的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 278,
+      "s": 111,
+      "start": 581.79,
+      "end": 582.43,
+      "text": "你会发现啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 279,
+      "s": 112,
       "start": 582.43,
       "end": 584.83,
       "text": "其实你长在头皮里边还有一部分头发，",
@@ -914,55 +2530,134 @@
       "role": "storyteller"
     },
     {
-      "i": 113,
+      "i": 280,
+      "s": 113,
       "start": 584.99,
+      "end": 586.55,
+      "text": "所以取出来时候是差不多",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 281,
+      "s": 113,
+      "start": 586.55,
+      "end": 589.99,
+      "text": "有接近一粒米的这么一个小发茬儿，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 282,
+      "s": 113,
+      "start": 589.99,
       "end": 590.86,
-      "text": "所以取出来时候是差不多有接近一粒米的这么一个小发茬儿，跟韭菜似的，",
+      "text": "跟韭菜似的，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 114,
+      "i": 283,
+      "s": 114,
       "start": 590.87,
+      "end": 593.31,
+      "text": "小韭菜就是一种割韭菜的感觉啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 284,
+      "s": 114,
+      "start": 593.93,
       "end": 596.51,
-      "text": "小韭菜就是一种割韭菜的感觉啊，就就一株一株株的排列在那儿，很整齐。",
+      "text": "就就一株一株株的排列在那儿，很整齐。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 115,
+      "i": 285,
+      "s": 115,
       "start": 596.57,
+      "end": 599.21,
+      "text": "但看着有点有点渗人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 286,
+      "s": 115,
+      "start": 599.21,
       "end": 601.73,
-      "text": "但看着有点有点渗人，就是你感觉那根根上还有的还带着肉似的。",
+      "text": "就是你感觉那根根上还有的还带着肉似的。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 116,
+      "i": 287,
+      "s": 116,
       "start": 601.73,
+      "end": 604.29,
+      "text": "这不完了就三个面呗，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 288,
+      "s": 116,
+      "start": 604.29,
+      "end": 605.57,
+      "text": "翻过来因为后边取完",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 289,
+      "s": 116,
+      "start": 605.57,
       "end": 609.59,
-      "text": "这不完了就三个面呗，翻过来因为后边取完就开始要往脑袋上要要要去打麻药了。",
+      "text": "就开始要往脑袋上要要要去打麻药了。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 117,
+      "i": 290,
+      "s": 117,
       "start": 609.81,
+      "end": 612.53,
+      "text": "然后这时候那个培养腻那个也培养完了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 291,
+      "s": 117,
+      "start": 612.53,
       "end": 613.93,
-      "text": "然后这时候那个培养腻那个也培养完了，就差不就是六个护士吧。",
+      "text": "就差不就是六个护士吧。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 118,
+      "i": 292,
+      "s": 118,
       "start": 613.93,
-      "end": 617.78,
-      "text": "我想这个东西贵也有道理，这么多人人工费也也不算便宜是吧？",
+      "end": 615.37,
+      "text": "我想这个东西贵也有道理，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 119,
+      "i": 293,
+      "s": 118,
+      "start": 615.37,
+      "end": 617.78,
+      "text": "这么多人人工费也也不算便宜是吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 294,
+      "s": 119,
       "start": 618.21,
       "end": 620.73,
       "text": "一个个就在伺候你，跟绣花似的。",
@@ -970,7 +2665,8 @@
       "role": "storyteller"
     },
     {
-      "i": 120,
+      "i": 295,
+      "s": 120,
       "start": 621.27,
       "end": 622.75,
       "text": "就他们为什么要细呢？",
@@ -978,55 +2674,161 @@
       "role": "storyteller"
     },
     {
-      "i": 121,
+      "i": 296,
+      "s": 121,
       "start": 622.75,
+      "end": 625.49,
+      "text": "就是因为要照着你那个生长方向去植，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 297,
+      "s": 121,
+      "start": 625.49,
       "end": 626.55,
-      "text": "就是因为要照着你那个生长方向去植，这样的话你头发才自然。",
+      "text": "这样的话你头发才自然。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 122,
+      "i": 298,
+      "s": 122,
       "start": 627.06,
+      "end": 628.7,
+      "text": "所以那个非常耗时间，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 299,
+      "s": 122,
+      "start": 628.72,
+      "end": 630.08,
+      "text": "就基本上跟叼西瓜一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 300,
+      "s": 122,
+      "start": 630.08,
       "end": 631.24,
-      "text": "所以那个非常耗时间，就基本上跟叼西瓜一样，一点儿点儿在那儿叼，",
+      "text": "一点儿点儿在那儿叼，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 123,
+      "i": 301,
+      "s": 123,
       "start": 631.24,
+      "end": 633.12,
+      "text": "然后也是拿一个针一样的东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 302,
+      "s": 123,
+      "start": 633.24,
+      "end": 635.19,
+      "text": "感觉我的脑袋上在钉东西似的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 303,
+      "s": 123,
+      "start": 635.48,
       "end": 636.96,
-      "text": "然后也是拿一个针一样的东西，感觉我的脑袋上在钉东西似的，但是没有痛觉啊，",
+      "text": "但是没有痛觉啊，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 124,
+      "i": 304,
+      "s": 124,
       "start": 637.12,
+      "end": 638.36,
+      "text": "就这么一一株一株的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 305,
+      "s": 124,
+      "start": 638.36,
       "end": 639.58,
-      "text": "就这么一一株一株的把那个头发给植进去。",
+      "text": "把那个头发给植进去。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 125,
+      "i": 306,
+      "s": 125,
       "start": 640.14,
+      "end": 641.24,
+      "text": "因为那个麻药，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 307,
+      "s": 125,
+      "start": 641.24,
+      "end": 642.18,
+      "text": "可能就是困了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 308,
+      "s": 125,
+      "start": 642.18,
+      "end": 644.84,
+      "text": "下午我我下午就有睡午觉的习惯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 309,
+      "s": 125,
+      "start": 644.84,
       "end": 645.74,
-      "text": "因为那个麻药，可能就是困了，下午我我下午就有睡午觉的习惯，然后当时就困了，",
+      "text": "然后当时就困了，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 126,
+      "i": 310,
+      "s": 126,
       "start": 645.74,
-      "end": 651.52,
-      "text": "就睡着了，就听着就是不停在我脑袋上一点儿的咔嗒咔嗒咔嗒咔嗒咔嗒咔嗒咔嗒，",
+      "end": 646.85,
+      "text": "就睡着了，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 127,
+      "i": 311,
+      "s": 126,
+      "start": 647.38,
+      "end": 649.26,
+      "text": "就听着就是不停在我脑袋上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 312,
+      "s": 126,
+      "start": 649.26,
+      "end": 651.52,
+      "text": "一点儿的咔嗒咔嗒咔嗒咔嗒咔嗒咔嗒咔嗒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 313,
+      "s": 127,
       "start": 651.52,
       "end": 652.85,
       "text": "就这么不停的在弄。",
@@ -1034,47 +2836,116 @@
       "role": "storyteller"
     },
     {
-      "i": 128,
+      "i": 314,
+      "s": 128,
       "start": 659,
+      "end": 661.16,
+      "text": "这台手术做了四五个小时，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 315,
+      "s": 128,
+      "start": 661.16,
       "end": 662.67,
-      "text": "这台手术做了四五个小时，直到七点钟才结束。",
+      "text": "直到七点钟才结束。",
       "speaker": "A",
       "role": "narrator"
     },
     {
-      "i": 129,
+      "i": 316,
+      "s": 129,
       "start": 663.02,
-      "end": 669.12,
-      "text": "做完手术，猫多利就顶着满头纱布回了家，安心等待刚刚种下的毛囊长出小苗。",
+      "end": 663.64,
+      "text": "做完手术，",
       "speaker": "A",
       "role": "narrator"
     },
     {
-      "i": 130,
+      "i": 317,
+      "s": 129,
+      "start": 663.64,
+      "end": 666.3,
+      "text": "猫多利就顶着满头纱布回了家，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 318,
+      "s": 129,
+      "start": 666.3,
+      "end": 669.12,
+      "text": "安心等待刚刚种下的毛囊长出小苗。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 319,
+      "s": 130,
       "start": 669.24,
+      "end": 670.68,
+      "text": "那三天之后的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 320,
+      "s": 130,
+      "start": 670.68,
+      "end": 671.96,
+      "text": "已经有一小茬了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 321,
+      "s": 130,
+      "start": 671.96,
       "end": 673.89,
-      "text": "那三天之后的时候，已经有一小茬了，因为就是原来头发也长出来一点了，",
+      "text": "因为就是原来头发也长出来一点了，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 131,
+      "i": 322,
+      "s": 131,
       "start": 674.54,
+      "end": 677.56,
+      "text": "看着的感觉就是一密密麻麻的小黑点儿呗，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 323,
+      "s": 131,
+      "start": 677.56,
       "end": 679.08,
-      "text": "看着的感觉就是一密密麻麻的小黑点儿呗，但是就感觉发现变了。",
+      "text": "但是就感觉发现变了。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 132,
+      "i": 324,
+      "s": 132,
       "start": 679.38,
-      "end": 681.6,
-      "text": "哎，但是一照镜子就觉得，哎，怎么又帅了？",
+      "end": 680.94,
+      "text": "哎，但是一照镜子就觉得，哎，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 133,
+      "i": 325,
+      "s": 132,
+      "start": 680.94,
+      "end": 681.6,
+      "text": "怎么又帅了？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 326,
+      "s": 133,
       "start": 681.6,
       "end": 682.8,
       "text": "是吧？",
@@ -1082,7 +2953,8 @@
       "role": "storyteller"
     },
     {
-      "i": 134,
+      "i": 327,
+      "s": 134,
       "start": 683.72,
       "end": 685.51,
       "text": "突然间感觉有重新有一些自信吧。",
@@ -1090,23 +2962,62 @@
       "role": "storyteller"
     },
     {
-      "i": 135,
+      "i": 328,
+      "s": 135,
       "start": 685.52,
+      "end": 687.18,
+      "text": "因为之前就是脱发的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 329,
+      "s": 135,
+      "start": 687.18,
+      "end": 689.92,
+      "text": "真是觉得有点儿，就说白了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 330,
+      "s": 135,
+      "start": 689.92,
       "end": 692.52,
-      "text": "因为之前就是脱发的时候，真是觉得有点儿，就说白了，你你好像永远都是一个人生赢家的样子。",
+      "text": "你你好像永远都是一个人生赢家的样子。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 136,
+      "i": 331,
+      "s": 136,
       "start": 692.52,
-      "end": 699.86,
-      "text": "因为我从小学习特别好，学霸，就是一切感觉从来都是人生赢家那种，就是从来都是被人仰视的。",
+      "end": 694.58,
+      "text": "因为我从小学习特别好，学霸，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 137,
+      "i": 332,
+      "s": 136,
+      "start": 694.58,
+      "end": 697.76,
+      "text": "就是一切感觉从来都是人生赢家那种，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 333,
+      "s": 136,
+      "start": 697.76,
+      "end": 699.86,
+      "text": "就是从来都是被人仰视的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 334,
+      "s": 137,
       "start": 699.86,
       "end": 701.04,
       "text": "怎么突然间变成那样？",
@@ -1114,15 +3025,35 @@
       "role": "storyteller"
     },
     {
-      "i": 138,
+      "i": 335,
+      "s": 138,
       "start": 701.04,
-      "end": 705.7,
-      "text": "其实心理落差非常大的，就是你感觉好像落幕了，你的人生开始落幕了。",
+      "end": 702.94,
+      "text": "其实心理落差非常大的，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 139,
+      "i": 336,
+      "s": 138,
+      "start": 702.94,
+      "end": 704.5,
+      "text": "就是你感觉好像落幕了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 337,
+      "s": 138,
+      "start": 704.5,
+      "end": 705.7,
+      "text": "你的人生开始落幕了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 338,
+      "s": 139,
       "start": 705.96,
       "end": 709.32,
       "text": "就还没还没怎么着，你人生开始落幕了。",
@@ -1130,23 +3061,44 @@
       "role": "storyteller"
     },
     {
-      "i": 140,
+      "i": 339,
+      "s": 140,
       "start": 710.15,
+      "end": 711.79,
+      "text": "然后同一直观投化以后，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 340,
+      "s": 140,
+      "start": 711.79,
       "end": 714.89,
-      "text": "然后同一直观投化以后，你就觉得就是就恢复了一个正常的自己吧。",
+      "text": "你就觉得就是就恢复了一个正常的自己吧。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 141,
+      "i": 341,
+      "s": 141,
       "start": 714.89,
-      "end": 718.45,
-      "text": "你会觉得很多人回避这个问题，甚至谈秃色变。",
+      "end": 716.99,
+      "text": "你会觉得很多人回避这个问题，",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 142,
+      "i": 342,
+      "s": 141,
+      "start": 716.99,
+      "end": 718.45,
+      "text": "甚至谈秃色变。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 343,
+      "s": 142,
       "start": 718.45,
       "end": 719.31,
       "text": "这真的是啊！",
@@ -1154,15 +3106,35 @@
       "role": "storyteller"
     },
     {
-      "i": 143,
+      "i": 344,
+      "s": 143,
       "start": 719.31,
-      "end": 724.43,
-      "text": "我之前有同有有朋友就是也有这样的问题，我给他提个我的方案吧，",
+      "end": 721.05,
+      "text": "我之前有同有有朋友",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 144,
+      "i": 345,
+      "s": 143,
+      "start": 721.05,
+      "end": 722.97,
+      "text": "就是也有这样的问题，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 346,
+      "s": 143,
+      "start": 722.97,
+      "end": 724.43,
+      "text": "我给他提个我的方案吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 347,
+      "s": 144,
       "start": 724.43,
       "end": 726.33,
       "text": "因为我其实就分享我的这个方案而已。",
@@ -1170,47 +3142,98 @@
       "role": "storyteller"
     },
     {
-      "i": 145,
+      "i": 348,
+      "s": 145,
       "start": 726.33,
+      "end": 730.25,
+      "text": "其实谈脸色就刷那人眼脸色就变了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 349,
+      "s": 145,
+      "start": 730.25,
       "end": 731.93,
-      "text": "其实谈脸色就刷那人眼脸色就变了，就这字儿不能提的，你知道吗？",
+      "text": "就这字儿不能提的，你知道吗？",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 146,
+      "i": 350,
+      "s": 146,
       "start": 731.93,
+      "end": 732.91,
+      "text": "秃字儿不要提，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 351,
+      "s": 146,
+      "start": 732.91,
       "end": 734.35,
-      "text": "秃字儿不要提，你一提他心里边估计就一紧。",
+      "text": "你一提他心里边估计就一紧。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 147,
+      "i": 352,
+      "s": 147,
       "start": 734.54,
+      "end": 736.6,
+      "text": "当时我就跟他讲这个这个人啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 353,
+      "s": 147,
+      "start": 736.6,
       "end": 737.96,
-      "text": "当时我就跟他讲这个这个人啊，他当然就是打打哈哈就过去了。",
+      "text": "他当然就是打打哈哈就过去了。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 148,
+      "i": 354,
+      "s": 148,
       "start": 737.96,
+      "end": 740.54,
+      "text": "但是他根本就别哎可能有别的心事，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 355,
+      "s": 148,
+      "start": 740.54,
       "end": 743,
-      "text": "但是他根本就别哎可能有别的心事，也不是因为说OK谈这个秃顶这事儿啊。",
+      "text": "也不是因为说OK谈这个秃顶这事儿啊。",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 149,
+      "i": 356,
+      "s": 149,
       "start": 743,
-      "end": 747.76,
-      "text": "但是就是是哪个人愿意说OK自己跟秃顶扯上关系呢？",
+      "end": 745.6,
+      "text": "但是就是是哪个人愿意说",
       "speaker": "B",
       "role": "storyteller"
     },
     {
-      "i": 150,
+      "i": 357,
+      "s": 149,
+      "start": 745.6,
+      "end": 747.76,
+      "text": "OK自己跟秃顶扯上关系呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 358,
+      "s": 150,
       "start": 747.76,
       "end": 749.04,
       "text": "对吧？",
@@ -1218,15 +3241,35 @@
       "role": "narrator"
     },
     {
-      "i": 151,
+      "i": 359,
+      "s": 151,
       "start": 753.34,
-      "end": 759.62,
-      "text": "你现在正在收听的是亲历者自述的声音节目《故事FM》，我是主播爱哲。",
+      "end": 756.6,
+      "text": "你现在正在收听的是",
       "speaker": "A",
       "role": "narrator"
     },
     {
-      "i": 152,
+      "i": 360,
+      "s": 151,
+      "start": 756.6,
+      "end": 758.7,
+      "text": "亲历者自述的声音节目《故事FM》，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 361,
+      "s": 151,
+      "start": 758.7,
+      "end": 759.62,
+      "text": "我是主播爱哲。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 362,
+      "s": 152,
       "start": 760.07,
       "end": 761.63,
       "text": "本期节目由梁科制作，",
@@ -1234,7 +3277,8 @@
       "role": "storyteller"
     },
     {
-      "i": 153,
+      "i": 363,
+      "s": 153,
       "start": 761.63,
       "end": 764.28,
       "text": "声音设计杨帆。",
@@ -1242,15 +3286,26 @@
       "role": "narrator"
     },
     {
-      "i": 154,
+      "i": 364,
+      "s": 154,
       "start": 764.59,
-      "end": 767.92,
-      "text": "如果你也开始脱发了，你会选择光头还是植发？",
+      "end": 765.79,
+      "text": "如果你也开始脱发了，",
       "speaker": "A",
       "role": "narrator"
     },
     {
-      "i": 155,
+      "i": 365,
+      "s": 154,
+      "start": 765.79,
+      "end": 767.92,
+      "text": "你会选择光头还是植发？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 366,
+      "s": 155,
       "start": 768.01,
       "end": 769.77,
       "text": "欢迎在留言里和我们聊聊。",
@@ -1258,7 +3313,8 @@
       "role": "narrator"
     },
     {
-      "i": 156,
+      "i": 367,
+      "s": 156,
       "start": 769.87,
       "end": 771.65,
       "text": "感谢你的收听，咱们下期再见。",

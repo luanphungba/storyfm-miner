@@ -18,8 +18,11 @@
 
 import { readFile, writeFile, mkdir, rename } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { toSentences, joinWords } from '../../../../src/segment.js';
+import { applyFixes } from '../../../../src/cuts.js';
 
 const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(SCRIPT_DIR, '..', '..', '..', '..');
@@ -108,15 +111,23 @@ function diffSpan(/** @type {string} */ before, /** @type {string} */ after) {
   return { before: before.slice(prefix, before.length - suffix), after: after.slice(prefix, after.length - suffix) };
 }
 
-/** Best-effort: which cue a word's timestamp falls into, for marking the low-confidence hint. */
-function cueForWord(/** @type {any[]} */ cues, /** @type {any} */ word) {
-  const seconds = word.start / 1000;
-  return (
-    cues.find((cue) => seconds >= cue.start - 0.02 && seconds <= cue.end + 0.02) ??
-    cues.reduce((closest, cue) =>
-      Math.abs(cue.start - seconds) < Math.abs(closest.start - seconds) ? cue : closest
-    )
-  );
+/**
+ * The episode as the ledger sees it: one entry per spoken sentence, fixes already applied. The page
+ * cuts these further into short lines (data/cuts/), but a fix belongs to the sentence — that is
+ * the index `cueIndex` means, and the build replays fixes onto sentences before cutting them.
+ */
+function sentencesOf(/** @type {any} */ raw, /** @type {any} */ ledger) {
+  return toSentences(raw.words ?? []).map((words, i) => ({
+    i,
+    words,
+    speaker: words[0].speaker ?? 'A',
+    text: applyFixes(joinWords(words), ledger.fixes.filter((/** @type {any} */ f) => f.cueIndex === i)).text,
+  }));
+}
+
+/** docs/data is built from data/raw + the ledger + data/cuts, never edited by hand. */
+function rebuild(/** @type {string} */ id) {
+  execFileSync('node', [join(ROOT, 'bin', 'storyfm.js'), 'add', id, '--resegment'], { stdio: 'ignore' });
 }
 
 async function main() {
@@ -148,7 +159,7 @@ async function main() {
   const alreadyFixed = new Set(ledger.fixes.map((f) => `${f.cueIndex}:${f.before}:${f.after}`));
   let changed = false;
 
-  for (const cue of episode.cues) {
+  for (const cue of sentencesOf(raw, ledger)) {
     const original = cue.text;
     let text = applyGlueFixes(original, glueFixes);
     text = applyKnownFixes(text, knownFixes);
@@ -168,15 +179,12 @@ async function main() {
         });
         alreadyFixed.add(key);
       }
-      cue.text = text;
       changed = true;
     }
   }
 
-  if (changed) {
-    await writeJson(paths.episode(id), episode);
-  }
   await writeJson(paths.corrections(id), ledger);
+  if (changed) rebuild(id);
 
   // --- The part that costs tokens: only printed when a full read hasn't happened yet. ---
   if (ledger.fullyReviewed && !recheck) {
@@ -188,17 +196,19 @@ async function main() {
     return;
   }
 
+  const sentences = sentencesOf(raw, ledger);
   const lowConfidenceByCue = new Map();
-  (raw.words ?? []).forEach((word) => {
-    if (word.confidence >= LOW_CONFIDENCE) return;
-    const cue = cueForWord(episode.cues, word);
-    if (!cue) return;
-    const list = lowConfidenceByCue.get(cue.i) ?? [];
-    list.push({ word: word.text, confidence: Math.round(word.confidence * 100) / 100 });
-    lowConfidenceByCue.set(cue.i, list);
-  });
+  for (const cue of sentences) {
+    const low = cue.words.filter((/** @type {any} */ word) => word.confidence < LOW_CONFIDENCE);
+    if (low.length) {
+      lowConfidenceByCue.set(
+        cue.i,
+        low.map((/** @type {any} */ word) => ({ word: word.text, confidence: Math.round(word.confidence * 100) / 100 }))
+      );
+    }
+  }
 
-  const transcript = episode.cues.map((cue) => ({
+  const transcript = sentences.map((cue) => ({
     i: cue.i,
     speaker: cue.speaker,
     text: cue.text,

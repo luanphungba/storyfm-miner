@@ -4819,10 +4819,6 @@
   "THỦ TỊCH",
   "trưởng, chủ chốt"
  ],
- "师王洋": [
-  "SƯ VƯƠNG DƯƠNG",
-  "thầy Vương Dương (tên người)"
- ],
  "上课": [
   "THƯỢNG KHÓA",
   "lên lớp, đi học"
@@ -8023,10 +8019,6 @@
   "HỎA XA TRẠM",
   "ga tàu hỏa"
  ],
- "不人鬼不鬼": [
-  "",
-  "không ra người không ra quỷ (nói vấp của 人不人鬼不鬼)"
- ],
  "门牌": [
   "MÔN BÀI",
   "số nhà"
@@ -8354,5 +8346,13 @@
  "听见": [
   "THÍNH KIẾN",
   "nghe thấy"
+ ],
+ "迷迷糊糊": [
+  "MÊ MÊ HỒ HỒ",
+  "mơ mơ màng màng, lơ mơ"
+ ],
+ "人不人鬼不鬼": [
+  "NHÂN BẤT NHÂN QUỶ BẤT QUỶ",
+  "người không ra người, ma không ra ma (tiều tụy thảm hại)"
  ]
 }

@@ -2,14 +2,17 @@
 // Turns the ASR's flat word list into cues — one sentence each, with the exact start and end of the
 // words that make it up.
 //
-// A cue is not just a display unit: whatever lands here is the sentence that ends up on the Anki
-// card and the span the loop button replays. One cue per spoken sentence, which is why the only
-// guard here is MAX_CHARS — a run of speech the ASR never punctuated would otherwise become a
-// single unusable 90-second cue. Short cues are left alone: "你呢？" is a whole sentence, and the
-// extension already hands the model the neighbouring cues as context when a card is made.
+// These sentences are the unit the rest of the pipeline indexes: transcript fixes in
+// data/corrections/ and cuts in data/cuts/ both name a sentence by its position here. The lines on
+// the page — what becomes an Anki card and what the loop button replays — are these sentences cut
+// shorter by src/cuts.js. The only guard here is MAX_CHARS: a run of speech the ASR never
+// punctuated would otherwise become a single unusable 90-second sentence. Short ones are left
+// alone: "你呢？" is a whole sentence.
 //
-// No LLM is involved. The ASR already punctuates, and having a model rewrite the text would put
-// every timestamp at risk for a cosmetic gain.
+// Changing how this splits renumbers every sentence after the change and so invalidates both files
+// above — the build then stops rather than guess. No LLM is involved here: the ASR already
+// punctuates, and where to cut further is decided by a model but only ever applied by cuts.js,
+// which cannot change a character or a timestamp.
 
 /**
  * @typedef {object} Word
@@ -26,6 +29,7 @@
  * @property {number} end    Seconds.
  * @property {string} text
  * @property {string} speaker
+ * @property {number} [s]  The sentence a line was cut from (src/cuts.js); equals i when uncut.
  */
 
 const SENTENCE_END = /[。！？!?]/;
@@ -41,10 +45,10 @@ const countChars = (/** @type {Word[]} */ words) =>
   words.reduce((total, word) => total + word.text.length, 0);
 
 /** Latin runs keep their spaces ("996 一年后" stays readable); CJK never takes one. */
-const glue = (/** @type {string} */ left, /** @type {string} */ right) =>
+export const glue = (/** @type {string} */ left, /** @type {string} */ right) =>
   CJK.test(left.slice(-1)) || CJK.test(right.slice(0, 1)) ? left + right : `${left} ${right}`;
 
-const joinWords = (/** @type {Word[]} */ words) =>
+export const joinWords = (/** @type {Word[]} */ words) =>
   words.reduce((text, word, index) => (index === 0 ? word.text : glue(text, word.text)), '');
 
 const round = (/** @type {number} */ ms) => Math.round(ms / 10) / 100;
@@ -59,7 +63,7 @@ const MAX_WORD_MS = 1_200;
  * @param {Word[]} words
  * @returns {Omit<Cue, 'i'>}
  */
-function toCue(words) {
+export function toCue(words) {
   const last = words[words.length - 1];
   const end = last.end - last.start > MAX_WORD_MS ? last.start + MAX_WORD_MS : last.end;
   return {
@@ -79,17 +83,19 @@ function lastSoftBreak(/** @type {Word[]} */ words) {
 }
 
 /**
+ * The words behind each cue, in order. src/cuts.js needs them to split a sentence further: a line
+ * can only start where an ASR word starts, and its timing comes from those words.
  * @param {Word[]} words  In order, as the ASR returned them.
- * @returns {Cue[]}
+ * @returns {Word[][]}
  */
-export function toCues(words) {
-  /** @type {Omit<Cue, 'i'>[]} */
-  const cues = [];
+export function toSentences(words) {
+  /** @type {Word[][]} */
+  const sentences = [];
   /** @type {Word[]} */
   let buffer = [];
 
   const flush = () => {
-    if (buffer.length) cues.push(toCue(buffer));
+    if (buffer.length) sentences.push(buffer);
     buffer = [];
   };
 
@@ -113,7 +119,15 @@ export function toCues(words) {
   }
   flush();
 
-  return cues.map((cue, i) => ({ i, ...cue }));
+  return sentences;
+}
+
+/**
+ * @param {Word[]} words  In order, as the ASR returned them.
+ * @returns {Cue[]}
+ */
+export function toCues(words) {
+  return toSentences(words).map((sentence, i) => ({ i, ...toCue(sentence) }));
 }
 
 /**

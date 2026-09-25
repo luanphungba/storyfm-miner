@@ -4,7 +4,8 @@ description: >
   Add a new 故事FM transcript to storyfm-miner end-to-end, starting from a
   小宇宙 (xiaoyuzhoufm.com) episode link (or an episode id like E757, or a
   故事FM episode name). Covers everything from resolving the link to an
-  episode id, transcribing it, checking transcript quality, writing the
+  episode id, transcribing it, checking transcript quality, cutting sentences
+  into short mining-sized lines, writing the
   vocabulary gloss the player shows when a word is tapped, through staging
   the result for commit. Use this whenever the user says something like
   "thêm cho tôi podcast này: https://www.xiaoyuzhoufm.com/episode/...",
@@ -68,7 +69,15 @@ transcript against the raw ASR response and has its own confidence bar for what 
 genuine fix versus something to flag — don't duplicate or second-guess its judgment here, just
 chain into it and relay what it reports back (fixes made, and anything it flagged as uncertain).
 
-## 4. Build the word data and gloss the new vocabulary
+## 4. Cut sentences into short lines
+
+Invoke the `split-cues` skill for this episode. The ASR leaves half its sentences at 25+
+characters, and every line on the page becomes an Anki card with exactly that line's audio, so
+long lines make bad cards. That skill marks where each long sentence is cut (its own rules, its
+own checks) and rebuilds the episode. Run it after `verify-transcript`: it cuts the fixed text.
+Relay its report: sentences → lines, the longest line, and anything it had to leave long.
+
+## 5. Build the word data and gloss the new vocabulary
 
 The player renders each line as tappable words and shows a card with the reading, Hán Việt, a
 one-line Vietnamese meaning and the HSK band. A new episode has none of that until it is built, and
@@ -106,10 +115,10 @@ every mechanical field from a source other than the one that built it. Leftover 
 just polyphonic characters with two legitimate Hán Việt readings (中 TRUNG/TRÚNG, 乐 LẠC/NHẠC) —
 check each is assigned correctly rather than assuming.
 
-## 5. Stage, summarize, confirm — don't commit or push on your own
+## 6. Stage, summarize, confirm — don't commit or push on your own
 
 These steps together touch: `data/raw/<id>.json`, `docs/data/<id>.json`, `docs/data/index.json`,
-`data/corrections/<id>.json`, the two sidecars `docs/data/<id>.tok.json` and
+`data/corrections/<id>.json`, `data/cuts/<id>.json`, the two sidecars `docs/data/<id>.tok.json` and
 `docs/data/<id>.gloss.json`, and `tools/gloss-vi.json`. Note that `build_tokens.py` recounts word
 frequencies across every episode, so the other episodes' `.tok.json` files change too — that is
 expected, not a stray edit. Run `git status --short` to show exactly
@@ -117,6 +126,7 @@ what changed, then give the user a short summary:
 
 - episode id + title
 - punctuation-quality % (and whether it's a concern)
+- sentences → lines from split-cues, and any line it left over 22 characters
 - how many fixes verify-transcript made, and — this is the important part — every `flagged` entry
   by name, since those are the spots where the transcript might not match the audio
 - how many words were glossed, that `todo_gloss` now reports 0 left, and what `audit.mjs` printed

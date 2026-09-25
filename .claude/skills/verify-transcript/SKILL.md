@@ -75,12 +75,16 @@ result, not a failure to produce one.
 
 ### 3. Apply fixes and update the ledger
 
-For each cue you're fixing: edit the `text` field directly in `docs/data/<id>.json` (Read then Edit
-— the JSON is pretty-printed with 2-space indent, so this is a normal string replace). Never touch
-`data/raw/<id>.json` — it's the untouched AssemblyAI response, kept exactly as returned so a
-resegment never has to pay for transcription again. Never touch `start`, `end`, `speaker`, `role`,
-or merge/split cues — the loop button, the highlight and the Anki card all rest on those
-timestamps, and this workflow only ever substitutes characters inside an existing cue's text.
+A fix lives in `data/corrections/<id>.json`, not in `docs/data/<id>.json`. The page file is built
+from `data/raw/` + this ledger + `data/cuts/` (how sentences are cut into short lines), so a fix
+typed straight into `docs/data` is erased by the next rebuild. The script prints one entry per
+spoken **sentence** — its `i` is the `cueIndex` to write, and it is the `s` field on the page's
+lines, not their `i` (one sentence is usually two or three lines on the page).
+
+Never touch `data/raw/<id>.json` — it's the untouched AssemblyAI response, kept exactly as returned
+so a rebuild never has to pay for transcription again. Only ever substitute characters inside a
+sentence: never timing, speaker or role, and never where a sentence is cut — that is the
+`split-cues` skill's job.
 
 Then update `data/corrections/<id>.json` (create it if missing):
 
@@ -100,6 +104,16 @@ Then update `data/corrections/<id>.json` (create it if missing):
   ]
 }
 ```
+
+Then rebuild, and read what it prints — a fix whose `before` is not in its sentence, or one
+that lands across a cut in `data/cuts/`, stops the build and names the sentence:
+
+```bash
+node bin/storyfm.js add <id> --resegment
+```
+
+If a fix lands across a cut, re-mark that sentence with the `split-cues` skill's tool
+(`node tools/cuts.mjs show <id> --all` shows the current cuts) and rebuild.
 
 Set `fullyReviewed: true` and `fullyReviewedAt` once you've read every cue in the episode — that's
 what lets a future run skip straight to the summary instead of re-reading everything. `fixes` needs

@@ -12,6 +12,10 @@ export const paths = {
   feed: join(ROOT, 'data', 'feed.xml'),
   /** Raw ASR response, kept so a re-run never has to pay for transcription twice. */
   raw: (/** @type {string} */ id) => join(ROOT, 'data', 'raw', `${id}.json`),
+  /** Transcript fixes, keyed by sentence — replayed on every build. */
+  corrections: (/** @type {string} */ id) => join(ROOT, 'data', 'corrections', `${id}.json`),
+  /** Where each sentence is cut into lines — see src/cuts.js. */
+  cuts: (/** @type {string} */ id) => join(ROOT, 'data', 'cuts', `${id}.json`),
   episode: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.json`),
   index: join(ROOT, 'docs', 'data', 'index.json'),
 };

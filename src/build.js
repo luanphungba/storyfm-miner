@@ -11,7 +11,8 @@ import { dirname } from 'node:path';
 import { paths } from './paths.js';
 import { loadFeed } from './feed.js';
 import { transcribe } from './asr.js';
-import { toCues, punctuationRate } from './segment.js';
+import { toSentences, punctuationRate } from './segment.js';
+import { splitSentence, joinSentences } from './cuts.js';
 import { assignRoles, speakingTime, narratorShare } from './roles.js';
 
 /** Below this share of cues ending on 。！？ the ASR barely punctuated and the cuts are guesses. */
@@ -42,7 +43,8 @@ export async function buildEpisode(episode, { force = false, resegment = false, 
 
   console.log(`${episode.id} · ${episode.title}`);
   const raw = resegment ? await loadRaw(episode.id) : await runAsr(episode);
-  const cues = assignRoles(toCues(raw.words ?? []), narrator);
+  const lines = await toLines(episode.id, raw.words ?? []);
+  const cues = assignRoles(lines, narrator ?? (resegment ? await currentNarrator(episode.id) : undefined));
   if (!cues.length) {
     throw new Error('AssemblyAI không trả về câu nào — xem data/raw/ để biết nó nghe ra gì.');
   }
@@ -60,6 +62,48 @@ export async function buildEpisode(episode, { force = false, resegment = false, 
   await rebuildIndex();
 
   report(episode.id, cues);
+}
+
+/**
+ * Sentences from the ASR, with the reviewed fixes replayed and each one cut into lines as
+ * data/cuts/ says. Both files index sentences the same way, so rebuilding from data/raw/ never
+ * loses a fix or a cut.
+ * @param {string} id
+ * @param {import('./segment.js').Word[]} words
+ */
+async function toLines(id, words) {
+  const ledger = await readJsonOr(paths.corrections(id), { fixes: [] });
+  const plan = await readJsonOr(paths.cuts(id), { cuts: {}, joins: [] });
+
+  /** @type {Map<number, {before: string, after: string}[]>} */
+  const fixes = new Map();
+  for (const fix of ledger.fixes) fixes.set(fix.cueIndex, [...(fixes.get(fix.cueIndex) ?? []), fix]);
+
+  const sentences = toSentences(words);
+  const errors = [];
+  const lines = [];
+  for (const [s, sentence] of sentences.entries()) {
+    try {
+      for (const line of splitSentence(sentence, fixes.get(s) ?? [], plan.cuts[s])) lines.push({ s, ...line });
+    } catch (error) {
+      errors.push(`  câu ${s}: ${/** @type {Error} */ (error).message}`);
+    }
+  }
+  if (errors.length) {
+    throw new Error(`Không dựng được ${id} — sửa data/corrections/ hoặc data/cuts/:\n${errors.join('\n')}`);
+  }
+  return joinSentences(lines, plan.joins ?? []).map((line, i) => ({ i, ...line }));
+}
+
+/** A rebuild keeps whichever speaker was the narrator, so a past --narrator is not silently lost. */
+async function currentNarrator(/** @type {string} */ id) {
+  const episode = await readJsonOr(paths.episode(id), { cues: [] });
+  return episode.cues.find((/** @type {any} */ cue) => cue.role === 'narrator')?.speaker;
+}
+
+async function readJsonOr(/** @type {string} */ path, /** @type {any} */ fallback) {
+  if (!existsSync(path)) return fallback;
+  return JSON.parse(await readFile(path, 'utf8'));
 }
 
 /** Re-cutting sentences from a saved response costs nothing, so changing segment.js never re-bills. */
@@ -93,10 +137,12 @@ async function runAsr(/** @type {import('./feed.js').Episode} */ episode) {
  * @param {import('./roles.js').RoledCue[]} cues
  */
 function report(id, cues) {
-  const rate = punctuationRate(cues);
+  // Punctuation is judged on whole sentences: a line cut out of one ends on a comma by design.
+  const lastLines = cues.filter((cue, n) => cues[n + 1]?.s !== cue.s);
+  const rate = punctuationRate(lastLines);
   const narrated = cues.filter((cue) => cue.role === 'narrator').length;
 
-  console.log(`\n✓ ${cues.length} câu · ${narrated} của người dẫn, ${cues.length - narrated} của người kể`);
+  console.log(`\n✓ ${lastLines.length} câu → ${cues.length} dòng · ${narrated} dòng của người dẫn, ${cues.length - narrated} của người kể`);
   console.log(`  dấu câu: ${Math.round(rate * 100)}% câu kết thúc bằng 。！？`);
 
   for (const [speaker, seconds] of speakingTime(cues)) {

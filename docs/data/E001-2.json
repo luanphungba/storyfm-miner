@@ -11,14 +11,34 @@
   "cues": [
     {
       "i": 0,
+      "s": 0,
       "start": 0.09,
-      "end": 5.56,
-      "text": "到了第十一天左右了，半夜三更有一天晚上，我受不了了。",
+      "end": 2.84,
+      "text": "到了第十一天左右了，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
       "i": 1,
+      "s": 0,
+      "start": 2.84,
+      "end": 4.72,
+      "text": "半夜三更有一天晚上，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 2,
+      "s": 0,
+      "start": 4.72,
+      "end": 5.56,
+      "text": "我受不了了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 3,
+      "s": 1,
       "start": 5.56,
       "end": 7.88,
       "text": "我跟他们说：“我说你把我杀了。”",
@@ -26,15 +46,26 @@
       "role": "storyteller"
     },
     {
-      "i": 2,
+      "i": 4,
+      "s": 2,
       "start": 7.88,
-      "end": 10.62,
-      "text": "他说：“我还没有折磨够，我为什么要杀你？”",
+      "end": 9.6,
+      "text": "他说：“我还没有折磨够，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 3,
+      "i": 5,
+      "s": 2,
+      "start": 9.6,
+      "end": 10.62,
+      "text": "我为什么要杀你？”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 3,
       "start": 10.62,
       "end": 11.89,
       "text": "我偏偏不杀。",
@@ -42,31 +73,71 @@
       "role": "storyteller"
     },
     {
-      "i": 4,
-      "start": 21.33,
-      "end": 29.98,
-      "text": "你好，欢迎收听故事FM，我是爱哲，一个收集故事的人，在这里我会用声音纪录片的形式带你。",
-      "speaker": "B",
-      "role": "narrator"
-    },
-    {
-      "i": 5,
-      "start": 30.48,
-      "end": 35.41,
-      "text": "跨过田埂，穿过胡同，收集那些动人的真实故事。",
-      "speaker": "B",
-      "role": "narrator"
-    },
-    {
-      "i": 6,
-      "start": 36.24,
-      "end": 41.85,
-      "text": "如果你想第一时间收听，可以在微信里搜索“故事FM”，订阅关注。",
-      "speaker": "B",
-      "role": "narrator"
-    },
-    {
       "i": 7,
+      "s": 4,
+      "start": 21.33,
+      "end": 24.32,
+      "text": "你好，欢迎收听故事FM，我是爱哲，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 8,
+      "s": 4,
+      "start": 24.32,
+      "end": 26.66,
+      "text": "一个收集故事的人，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 9,
+      "s": 4,
+      "start": 26.66,
+      "end": 29.98,
+      "text": "在这里我会用声音纪录片的形式带你。",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 10,
+      "s": 5,
+      "start": 30.48,
+      "end": 32.9,
+      "text": "跨过田埂，穿过胡同，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 11,
+      "s": 5,
+      "start": 32.9,
+      "end": 35.41,
+      "text": "收集那些动人的真实故事。",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 12,
+      "s": 6,
+      "start": 36.24,
+      "end": 37.92,
+      "text": "如果你想第一时间收听，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 13,
+      "s": 6,
+      "start": 37.92,
+      "end": 41.85,
+      "text": "可以在微信里搜索“故事FM”，订阅关注。",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 14,
+      "s": 7,
       "start": 55.58,
       "end": 57.16,
       "text": "Sarah是一个九零后。",
@@ -74,23 +145,53 @@
       "role": "narrator"
     },
     {
-      "i": 8,
+      "i": 15,
+      "s": 8,
       "start": 57.3,
+      "end": 58.41,
+      "text": "今年二十三岁，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 16,
+      "s": 8,
+      "start": 58.68,
       "end": 60.47,
-      "text": "今年二十三岁，二零一六年六月九日之前，",
+      "text": "二零一六年六月九日之前，",
       "speaker": "B",
       "role": "narrator"
     },
     {
-      "i": 9,
+      "i": 17,
+      "s": 9,
       "start": 60.7,
-      "end": 68.26,
-      "text": "他从来没有想过“传销”这个词儿会和自己扯上关系，更没有想到传销的方式阴暗恐怖，",
+      "end": 61.78,
+      "text": "他从来没有想过",
       "speaker": "B",
       "role": "narrator"
     },
     {
-      "i": 10,
+      "i": 18,
+      "s": 9,
+      "start": 61.78,
+      "end": 64.54,
+      "text": "“传销”这个词儿会和自己扯上关系，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 19,
+      "s": 9,
+      "start": 64.88,
+      "end": 68.26,
+      "text": "更没有想到传销的方式阴暗恐怖，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 20,
+      "s": 10,
       "start": 68.56,
       "end": 70.96,
       "text": "而且可能就在你的身边。",
@@ -98,23 +199,53 @@
       "role": "narrator"
     },
     {
-      "i": 11,
+      "i": 21,
+      "s": 11,
       "start": 71.26,
+      "end": 72.7,
+      "text": "呃，我叫Sharon呢，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 11,
+      "start": 72.7,
       "end": 74.36,
-      "text": "呃，我叫Sharon呢，来自广东深圳。",
+      "text": "来自广东深圳。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 12,
+      "i": 23,
+      "s": 12,
       "start": 74.36,
-      "end": 81.28,
-      "text": "我跟这个网友很奇怪，我们认识有三四年了，二零一三年的九月份认识到现在，",
+      "end": 76.12,
+      "text": "我跟这个网友很奇怪，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 13,
+      "i": 24,
+      "s": 12,
+      "start": 76.12,
+      "end": 78.04,
+      "text": "我们认识有三四年了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 12,
+      "start": 78.04,
+      "end": 81.28,
+      "text": "二零一三年的九月份认识到现在，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 13,
       "start": 81.28,
       "end": 83.26,
       "text": "算起来时间有三年多。",
@@ -122,7 +253,8 @@
       "role": "storyteller"
     },
     {
-      "i": 14,
+      "i": 27,
+      "s": 14,
       "start": 83.63,
       "end": 86.9,
       "text": "在这中间的话，是每天都有聊天。",
@@ -130,31 +262,62 @@
       "role": "storyteller"
     },
     {
-      "i": 15,
+      "i": 28,
+      "s": 15,
       "start": 92.19,
+      "end": 95.59,
+      "text": "那时候纯粹觉得这个男生特别单纯，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 15,
+      "start": 95.59,
       "end": 97.76,
-      "text": "那时候纯粹觉得这个男生特别单纯，那我就比较喜欢单纯的人。",
+      "text": "那我就比较喜欢单纯的人。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 16,
+      "i": 30,
+      "s": 16,
       "start": 98.31,
+      "end": 101.03,
+      "text": "嗯，后来变成了知心朋友一样，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 16,
+      "start": 101.03,
       "end": 102.85,
-      "text": "嗯，后来变成了知心朋友一样，就觉得有一个特别好的朋友，",
+      "text": "就觉得有一个特别好的朋友，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 17,
+      "i": 32,
+      "s": 17,
       "start": 102.87,
-      "end": 108.07,
-      "text": "每天诉一诉当天发生的所有的事情，诉诉苦水什么的。",
+      "end": 106.26,
+      "text": "每天诉一诉当天发生的所有的事情，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 18,
+      "i": 33,
+      "s": 17,
+      "start": 106.59,
+      "end": 108.07,
+      "text": "诉诉苦水什么的。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 18,
       "start": 110.34,
       "end": 115.38,
       "text": "后来，二零一五年的十二月不见了。",
@@ -162,31 +325,80 @@
       "role": "storyteller"
     },
     {
-      "i": 19,
+      "i": 35,
+      "s": 19,
       "start": 115.38,
+      "end": 117.22,
+      "text": "我无论怎么找他，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 19,
+      "start": 117.22,
       "end": 120.67,
-      "text": "我无论怎么找他，然后QQ、微信怎么呼叫都不在。",
+      "text": "然后QQ、微信怎么呼叫都不在。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 20,
+      "i": 37,
+      "s": 20,
       "start": 121,
+      "end": 122.36,
+      "text": "当时也是觉得",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 20,
+      "start": 122.36,
+      "end": 124.82,
+      "text": "怎么会这么不守信用的朋友，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 20,
+      "start": 124.82,
+      "end": 126.88,
+      "text": "就觉得没感情嘛，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 20,
+      "start": 126.88,
       "end": 128.72,
-      "text": "当时也是觉得怎么会这么不守信用的朋友，就觉得没感情嘛，所以我就决定放弃，",
+      "text": "所以我就决定放弃，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 21,
+      "i": 41,
+      "s": 21,
       "start": 128.72,
-      "end": 134.1,
-      "text": "我不要再这样自己的心思就是散开，别放到他身上。",
+      "end": 132.56,
+      "text": "我不要再这样自己的心思就是散开，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 22,
+      "i": 42,
+      "s": 21,
+      "start": 132.56,
+      "end": 134.1,
+      "text": "别放到他身上。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 22,
       "start": 137.6,
       "end": 145.87,
       "text": "后来，二零一六年的二月份不是过年嘛？",
@@ -194,7 +406,8 @@
       "role": "storyteller"
     },
     {
-      "i": 23,
+      "i": 44,
+      "s": 23,
       "start": 145.87,
       "end": 149.39,
       "text": "就是他有发窗口抖动，然后来找我。",
@@ -202,55 +415,152 @@
       "role": "storyteller"
     },
     {
-      "i": 24,
+      "i": 45,
+      "s": 24,
       "start": 149.39,
+      "end": 151.93,
+      "text": "后来他连续在QQ找了我几次，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 24,
+      "start": 151.93,
       "end": 153.02,
-      "text": "后来他连续在QQ找了我几次，我都没有理他。",
+      "text": "我都没有理他。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 25,
+      "i": 47,
+      "s": 25,
       "start": 153.29,
+      "end": 155.87,
+      "text": "直到两个星期以后，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 25,
+      "start": 155.87,
+      "end": 157.07,
+      "text": "我被感动了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 25,
+      "start": 157.07,
+      "end": 159.33,
+      "text": "因为他一直发那些",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 25,
+      "start": 159.33,
       "end": 163.33,
-      "text": "直到两个星期以后，我被感动了，因为他一直发那些就是说特别就是很让人很心酸的语句。",
+      "text": "就是说特别就是很让人很心酸的语句。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 26,
+      "i": 51,
+      "s": 26,
       "start": 163.5,
+      "end": 166.96,
+      "text": "他就是说，这么多年的感情，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "s": 26,
+      "start": 166.96,
       "end": 169.92,
-      "text": "他就是说，这么多年的感情，你怎么可以就是说一丢而弃？",
+      "text": "你怎么可以就是说一丢而弃？",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 27,
+      "i": 53,
+      "s": 27,
       "start": 169.92,
+      "end": 171.66,
+      "text": "我没有做错什么，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 27,
+      "start": 171.66,
+      "end": 173.54,
+      "text": "我只是因为有一些事情，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 27,
+      "start": 173.54,
       "end": 175.8,
-      "text": "我没有做错什么，我只是因为有一些事情，但是我现在没有办法跟你解释。",
+      "text": "但是我现在没有办法跟你解释。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 28,
+      "i": 56,
+      "s": 28,
       "start": 175.8,
+      "end": 177.14,
+      "text": "那我心软，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 28,
+      "start": 177.14,
+      "end": 181.55,
+      "text": "觉得再怎么来讲缘分这种东西很奇妙，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 28,
+      "start": 181.56,
       "end": 182.78,
-      "text": "那我心软，觉得再怎么来讲缘分这种东西很奇妙，认识几年了，",
+      "text": "认识几年了，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 29,
+      "i": 59,
+      "s": 29,
       "start": 182.78,
-      "end": 187.94,
-      "text": "不像那些人平常的那种网友一样，就这么几个月或几天。",
+      "end": 185.78,
+      "text": "不像那些人平常的那种网友一样，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 30,
+      "i": 60,
+      "s": 29,
+      "start": 185.78,
+      "end": 187.94,
+      "text": "就这么几个月或几天。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 30,
       "start": 188.02,
       "end": 191.12,
       "text": "后来还是聊上去了，就是像以前一样哈。",
@@ -258,7 +568,8 @@
       "role": "storyteller"
     },
     {
-      "i": 31,
+      "i": 62,
+      "s": 31,
       "start": 191.13,
       "end": 192.77,
       "text": "每天问你吃饭了吗？",
@@ -266,7 +577,8 @@
       "role": "storyteller"
     },
     {
-      "i": 32,
+      "i": 63,
+      "s": 32,
       "start": 192.77,
       "end": 194.21,
       "text": "你今天去哪里呀？",
@@ -274,7 +586,8 @@
       "role": "storyteller"
     },
     {
-      "i": 33,
+      "i": 64,
+      "s": 33,
       "start": 194.21,
       "end": 195.94,
       "text": "特别知心那种聊天。",
@@ -282,15 +595,26 @@
       "role": "storyteller"
     },
     {
-      "i": 34,
+      "i": 65,
+      "s": 34,
       "start": 196.21,
-      "end": 201.42,
-      "text": "到了快过年的时候吧，他跟我说你的电话是多少？",
+      "end": 198.79,
+      "text": "到了快过年的时候吧，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 35,
+      "i": 66,
+      "s": 34,
+      "start": 198.79,
+      "end": 201.42,
+      "text": "他跟我说你的电话是多少？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 35,
       "start": 201.57,
       "end": 202.94,
       "text": "呃，我打电话给你。",
@@ -298,23 +622,62 @@
       "role": "storyteller"
     },
     {
-      "i": 36,
+      "i": 68,
+      "s": 36,
       "start": 203.07,
+      "end": 204.69,
+      "text": "那天晚上我把电话给他，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 36,
+      "start": 204.81,
       "end": 207.01,
-      "text": "那天晚上我把电话给他，其实在跟他聊天那个中途，",
+      "text": "其实在跟他聊天那个中途，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 37,
+      "i": 70,
+      "s": 37,
       "start": 207.01,
-      "end": 215.77,
-      "text": "我就没有联想过他那个时候已经被骗入了传销组织，就是QQ是由别人操控着，我并不知道。",
+      "end": 208.63,
+      "text": "我就没有联想过",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 38,
+      "i": 71,
+      "s": 37,
+      "start": 208.63,
+      "end": 212.25,
+      "text": "他那个时候已经被骗入了传销组织，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 37,
+      "start": 212.29,
+      "end": 214.89,
+      "text": "就是QQ是由别人操控着，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 37,
+      "start": 214.89,
+      "end": 215.77,
+      "text": "我并不知道。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 38,
       "start": 216.13,
       "end": 218.71,
       "text": "他开始给我打电话特别频繁。",
@@ -322,7 +685,8 @@
       "role": "storyteller"
     },
     {
-      "i": 39,
+      "i": 75,
+      "s": 39,
       "start": 218.73,
       "end": 222.37,
       "text": "叫我去看望他，他跟我说去旅游。",
@@ -330,15 +694,26 @@
       "role": "storyteller"
     },
     {
-      "i": 40,
+      "i": 76,
+      "s": 40,
       "start": 222.55,
-      "end": 226.75,
-      "text": "他说他们江苏离上海是非常近的，然后叫我去旅游。",
+      "end": 225.39,
+      "text": "他说他们江苏离上海是非常近的，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 41,
+      "i": 77,
+      "s": 40,
+      "start": 225.39,
+      "end": 226.75,
+      "text": "然后叫我去旅游。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 41,
       "start": 227.17,
       "end": 229.67,
       "text": "我当时想了一下，还挺好的去旅游。",
@@ -346,15 +721,44 @@
       "role": "storyteller"
     },
     {
-      "i": 42,
+      "i": 79,
+      "s": 42,
       "start": 229.67,
-      "end": 237.35,
-      "text": "我还没有去过上海呢，我就打电话跟他说：“我说我决定端午节过来旅游三天，住两天一夜，",
+      "end": 231.53,
+      "text": "我还没有去过上海呢，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 43,
+      "i": 80,
+      "s": 42,
+      "start": 231.53,
+      "end": 233.53,
+      "text": "我就打电话跟他说：",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 42,
+      "start": 233.53,
+      "end": 236.19,
+      "text": "“我说我决定端午节过来旅游三天，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 42,
+      "start": 236.19,
+      "end": 237.35,
+      "text": "住两天一夜，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 43,
       "start": 237.35,
       "end": 238.49,
       "text": "我就回深圳。”",
@@ -362,23 +766,53 @@
       "role": "storyteller"
     },
     {
-      "i": 44,
+      "i": 84,
+      "s": 44,
       "start": 238.49,
+      "end": 242.59,
+      "text": "然后他说让我到江苏去汇合之后，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "s": 44,
+      "start": 242.59,
       "end": 243.87,
-      "text": "然后他说让我到江苏去汇合之后，我就订票。",
+      "text": "我就订票。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 45,
+      "i": 86,
+      "s": 45,
       "start": 244.26,
-      "end": 251.48,
-      "text": "当时我记得那票价是一千六嘛，他还让我截个图给他看，他要确定你有买票，你知道吧？",
+      "end": 247,
+      "text": "当时我记得那票价是一千六嘛，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 46,
+      "i": 87,
+      "s": 45,
+      "start": 247,
+      "end": 248.88,
+      "text": "他还让我截个图给他看，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 45,
+      "start": 248.88,
+      "end": 251.48,
+      "text": "他要确定你有买票，你知道吧？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 89,
+      "s": 46,
       "start": 251.62,
       "end": 254.67,
       "text": "但是我并不知道，我认为只是关心。",
@@ -386,15 +820,35 @@
       "role": "storyteller"
     },
     {
-      "i": 47,
+      "i": 90,
+      "s": 47,
       "start": 257.58,
-      "end": 263.72,
-      "text": "那天早上，我早上很早起来，就月九号那天早上，然后后来到了飞机场，",
+      "end": 259.58,
+      "text": "那天早上，我早上很早起来，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 48,
+      "i": 91,
+      "s": 47,
+      "start": 259.58,
+      "end": 261.34,
+      "text": "就月九号那天早上，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 92,
+      "s": 47,
+      "start": 261.34,
+      "end": 263.72,
+      "text": "然后后来到了飞机场，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "s": 48,
       "start": 263.72,
       "end": 266.13,
       "text": "我打电话给那个网友，他不接。",
@@ -402,79 +856,215 @@
       "role": "storyteller"
     },
     {
-      "i": 49,
+      "i": 94,
+      "s": 49,
       "start": 266.14,
+      "end": 268.82,
+      "text": "等我下飞机的时候有信号了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 95,
+      "s": 49,
+      "start": 268.82,
       "end": 271.06,
-      "text": "等我下飞机的时候有信号了，他跟我我打电话问他我去哪里。",
+      "text": "他跟我我打电话问他我去哪里。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 50,
+      "i": 96,
+      "s": 50,
       "start": 271.4,
-      "end": 279.4,
-      "text": "他说一会儿说镇江一会儿说丹阳然后我就问他我现在已经在常州你到底要我去哪里后来他迷迷糊",
+      "end": 274.66,
+      "text": "他说一会儿说镇江一会儿说丹阳",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 51,
-      "start": 279.4,
-      "end": 289.38,
-      "text": "糊的就是说丹阳就这样子然后我就说好吧那我去丹阳然后我到了那里是十点钟嘛我很累所以我就",
+      "i": 97,
+      "s": 50,
+      "start": 274.66,
+      "end": 275.54,
+      "text": "然后我就问他",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 52,
-      "start": 289.38,
-      "end": 298.12,
-      "text": "去开个酒店睡觉很正常然后他发了一个短信跟我说我没有空来接你然后我给你一个号码你去见这个",
+      "i": 98,
+      "s": 50,
+      "start": 275.54,
+      "end": 276.76,
+      "text": "我现在已经在常州",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 53,
-      "start": 298.12,
+      "i": 99,
+      "s": 50,
+      "start": 276.76,
+      "end": 278.16,
+      "text": "你到底要我去哪里",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 100,
+      "s": 50,
+      "start": 278.16,
+      "end": 282.12,
+      "text": "后来他迷迷糊糊的就是说丹阳就这样子",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 101,
+      "s": 51,
+      "start": 282.12,
+      "end": 285.02,
+      "text": "然后我就说好吧那我去丹阳",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 102,
+      "s": 51,
+      "start": 285.36,
+      "end": 288.02,
+      "text": "然后我到了那里是十点钟嘛",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 103,
+      "s": 51,
+      "start": 288.02,
+      "end": 291.38,
+      "text": "我很累所以我就去开个酒店睡觉很正常",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 104,
+      "s": 52,
+      "start": 291.38,
+      "end": 293.56,
+      "text": "然后他发了一个短信跟我说",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 105,
+      "s": 52,
+      "start": 293.56,
+      "end": 295.5,
+      "text": "我没有空来接你",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 106,
+      "s": 52,
+      "start": 295.5,
+      "end": 296.94,
+      "text": "然后我给你一个号码",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 107,
+      "s": 52,
+      "start": 297.06,
       "end": 300.47,
-      "text": "女孩子，她是我兄弟的女朋友。",
+      "text": "你去见这个女孩子，她是我兄弟的女朋友。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 54,
+      "i": 108,
+      "s": 54,
       "start": 300.82,
+      "end": 302.22,
+      "text": "他要我去一个广场，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 109,
+      "s": 54,
+      "start": 302.22,
       "end": 305.14,
-      "text": "他要我去一个广场，他说他会带你来我这里。",
+      "text": "他说他会带你来我这里。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 55,
+      "i": 110,
+      "s": 55,
       "start": 305.4,
+      "end": 306.42,
+      "text": "去到那广场以后，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 111,
+      "s": 55,
+      "start": 306.42,
       "end": 309.46,
-      "text": "去到那广场以后，我给那个他兄弟的女朋友打电话，",
+      "text": "我给那个他兄弟的女朋友打电话，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 56,
+      "i": 112,
+      "s": 56,
       "start": 309.46,
+      "end": 311.1,
+      "text": "他这个兄弟女朋友说",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 113,
+      "s": 56,
+      "start": 311.1,
       "end": 314.37,
-      "text": "他这个兄弟女朋友说在必胜客穿了个粉色的衣服等我。",
+      "text": "在必胜客穿了个粉色的衣服等我。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 57,
+      "i": 114,
+      "s": 57,
       "start": 314.82,
-      "end": 321.4,
-      "text": "我下楼看到他真人，当时心里莫名其妙的在想，为什么网友说九七年？",
+      "end": 316.88,
+      "text": "我下楼看到他真人，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 58,
+      "i": 115,
+      "s": 57,
+      "start": 316.88,
+      "end": 319.24,
+      "text": "当时心里莫名其妙的在想，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 116,
+      "s": 57,
+      "start": 319.24,
+      "end": 321.4,
+      "text": "为什么网友说九七年？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 117,
+      "s": 58,
       "start": 321.4,
       "end": 324,
       "text": "他真人看上去像四十几岁。",
@@ -482,15 +1072,26 @@
       "role": "storyteller"
     },
     {
-      "i": 59,
+      "i": 118,
+      "s": 59,
       "start": 325.06,
-      "end": 332.71,
-      "text": "然后我跟他到了门口去打的，在的士上面那个妇女她很会讲哦，她说：“哎，",
+      "end": 328.27,
+      "text": "然后我跟他到了门口去打的，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 60,
+      "i": 119,
+      "s": 59,
+      "start": 328.27,
+      "end": 332.71,
+      "text": "在的士上面那个妇女她很会讲哦，她说：“哎，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 120,
+      "s": 60,
       "start": 332.71,
       "end": 334.73,
       "text": "她在这里工作很辛苦的。”",
@@ -498,7 +1099,8 @@
       "role": "storyteller"
     },
     {
-      "i": 61,
+      "i": 121,
+      "s": 61,
       "start": 334.73,
       "end": 337.33,
       "text": "然后我经常有煲汤给她喝。",
@@ -506,15 +1108,35 @@
       "role": "storyteller"
     },
     {
-      "i": 62,
+      "i": 122,
+      "s": 62,
       "start": 337.33,
-      "end": 342.57,
-      "text": "她说我的网友嘛，还有把我一些生活上的东西都知道，我就更加信她了。",
+      "end": 338.83,
+      "text": "她说我的网友嘛，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 63,
+      "i": 123,
+      "s": 62,
+      "start": 338.83,
+      "end": 341.23,
+      "text": "还有把我一些生活上的东西都知道，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 124,
+      "s": 62,
+      "start": 341.23,
+      "end": 342.57,
+      "text": "我就更加信她了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 125,
+      "s": 63,
       "start": 342.57,
       "end": 344.64,
       "text": "我也傻乎乎的更加信她。",
@@ -522,47 +1144,98 @@
       "role": "storyteller"
     },
     {
-      "i": 64,
+      "i": 126,
+      "s": 64,
       "start": 344.65,
+      "end": 346.85,
+      "text": "大概那个车走了十几二十分钟，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 127,
+      "s": 64,
+      "start": 346.85,
       "end": 348.05,
-      "text": "大概那个车走了十几二十分钟，到了一个小区。",
+      "text": "到了一个小区。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 65,
+      "i": 128,
+      "s": 65,
       "start": 348.05,
+      "end": 349.87,
+      "text": "他让我进那个小区的时候，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 129,
+      "s": 65,
+      "start": 349.87,
       "end": 352.51,
-      "text": "他让我进那个小区的时候，我当时还有在看这个环境是怎么样的。",
+      "text": "我当时还有在看这个环境是怎么样的。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 66,
+      "i": 130,
+      "s": 66,
       "start": 352.53,
+      "end": 355.59,
+      "text": "那房子都像高级公寓一样，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 131,
+      "s": 66,
+      "start": 355.59,
       "end": 356.83,
-      "text": "那房子都像高级公寓一样，就是装修都很好嘛。",
+      "text": "就是装修都很好嘛。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 67,
+      "i": 132,
+      "s": 67,
       "start": 356.83,
+      "end": 359.57,
+      "text": "当时上了那个楼的时候，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 133,
+      "s": 67,
+      "start": 359.63,
       "end": 363.09,
-      "text": "当时上了那个楼的时候，我看到楼下哎还挺多保安的，就没多想。",
+      "text": "我看到楼下哎还挺多保安的，就没多想。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 68,
+      "i": 134,
+      "s": 68,
       "start": 363.21,
-      "end": 368.62,
-      "text": "然后我上了两层楼，我就有一个男的开门了。",
+      "end": 365.87,
+      "text": "然后我上了两层楼，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 69,
+      "i": 135,
+      "s": 68,
+      "start": 365.87,
+      "end": 368.62,
+      "text": "我就有一个男的开门了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 136,
+      "s": 69,
       "start": 368.63,
       "end": 372.51,
       "text": "那个男的开门，那个手是掰着一个布。",
@@ -570,15 +1243,35 @@
       "role": "storyteller"
     },
     {
-      "i": 70,
+      "i": 137,
+      "s": 70,
       "start": 372.69,
-      "end": 379.65,
-      "text": "我当时以为那个布是门帘，其实他那不是门帘，它是一个很大的一个被子，然后就很脏啊，",
+      "end": 375.09,
+      "text": "我当时以为那个布是门帘，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 71,
+      "i": 138,
+      "s": 70,
+      "start": 375.09,
+      "end": 376.37,
+      "text": "其实他那不是门帘，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 70,
+      "start": 376.37,
+      "end": 379.65,
+      "text": "它是一个很大的一个被子，然后就很脏啊，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "s": 71,
       "start": 379.65,
       "end": 381.35,
       "text": "好像外面捡的那种啊。",
@@ -586,7 +1279,8 @@
       "role": "storyteller"
     },
     {
-      "i": 72,
+      "i": 141,
+      "s": 72,
       "start": 381.36,
       "end": 384.49,
       "text": "当时那个女的呢，她说这是我老公。",
@@ -594,31 +1288,71 @@
       "role": "storyteller"
     },
     {
-      "i": 73,
+      "i": 142,
+      "s": 73,
       "start": 385.06,
+      "end": 387.72,
+      "text": "那个男的就嘻嘻哈哈的笑说你来了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 143,
+      "s": 73,
+      "start": 387.72,
       "end": 389.95,
-      "text": "那个男的就嘻嘻哈哈的笑说你来了，还特别好客的那种表情。",
+      "text": "还特别好客的那种表情。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 74,
+      "i": 144,
+      "s": 74,
       "start": 392.85,
+      "end": 394.96,
+      "text": "我我就我又看那个房，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 145,
+      "s": 74,
+      "start": 394.96,
+      "end": 397.64,
+      "text": "因为你看不到里面房间的内景嘛，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 146,
+      "s": 74,
+      "start": 397.64,
       "end": 400.29,
-      "text": "我我就我又看那个房，因为你看不到里面房间的内景嘛，然后我只是看得到它一点点的侧边。",
+      "text": "然后我只是看得到它一点点的侧边。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 75,
+      "i": 147,
+      "s": 75,
       "start": 400.54,
-      "end": 404.32,
-      "text": "我说外面太阳这么热，怎么里面那么黑呢？",
+      "end": 402.46,
+      "text": "我说外面太阳这么热，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 76,
+      "i": 148,
+      "s": 75,
+      "start": 402.46,
+      "end": 404.32,
+      "text": "怎么里面那么黑呢？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 149,
+      "s": 76,
       "start": 404.32,
       "end": 406.28,
       "text": "是没开窗还是什么？",
@@ -626,7 +1360,8 @@
       "role": "storyteller"
     },
     {
-      "i": 77,
+      "i": 150,
+      "s": 77,
       "start": 406.7,
       "end": 410.2,
       "text": "我当时觉得奇怪，我心里就有一点。",
@@ -634,7 +1369,8 @@
       "role": "storyteller"
     },
     {
-      "i": 78,
+      "i": 151,
+      "s": 78,
       "start": 410.25,
       "end": 414.11,
       "text": "觉得不对劲嘛，我就想下楼。",
@@ -642,31 +1378,62 @@
       "role": "storyteller"
     },
     {
-      "i": 79,
+      "i": 152,
+      "s": 79,
       "start": 414.15,
+      "end": 416.59,
+      "text": "当时还有大概三个阶梯吧，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 153,
+      "s": 79,
+      "start": 416.59,
       "end": 418.05,
-      "text": "当时还有大概三个阶梯吧，就到他的门口了。",
+      "text": "就到他的门口了。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 80,
+      "i": 154,
+      "s": 80,
       "start": 418.05,
+      "end": 419.61,
+      "text": "那个女的很醒目，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 155,
+      "s": 80,
+      "start": 419.61,
       "end": 421.75,
-      "text": "那个女的很醒目，她直接下楼来抢我的包包。",
+      "text": "她直接下楼来抢我的包包。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 81,
+      "i": 156,
+      "s": 81,
       "start": 421.75,
-      "end": 425.65,
-      "text": "她说：“哎，我帮你拿，我帮你拿，美女，这个东西我帮你拿。”",
+      "end": 424.13,
+      "text": "她说：“哎，我帮你拿，我帮你拿，美女，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 82,
+      "i": 157,
+      "s": 81,
+      "start": 424.13,
+      "end": 425.65,
+      "text": "这个东西我帮你拿。”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "s": 82,
       "start": 425.65,
       "end": 428.01,
       "text": "然后我说：“哎，不用你拿，不用你拿。”",
@@ -674,15 +1441,26 @@
       "role": "storyteller"
     },
     {
-      "i": 83,
+      "i": 159,
+      "s": 83,
       "start": 428.01,
-      "end": 432.58,
-      "text": "她说：“你拎着那么辛苦，我帮你拿，先放在房间里，先坐一下。",
+      "end": 430.57,
+      "text": "她说：“你拎着那么辛苦，我帮你拿，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 84,
+      "i": 160,
+      "s": 83,
+      "start": 430.57,
+      "end": 432.58,
+      "text": "先放在房间里，先坐一下。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 161,
+      "s": 84,
       "start": 432.69,
       "end": 436.35,
       "text": "那个菜呀、饭啊都准备好了，现在过。”",
@@ -690,15 +1468,35 @@
       "role": "storyteller"
     },
     {
-      "i": 85,
+      "i": 162,
+      "s": 85,
       "start": 436.38,
-      "end": 442.26,
-      "text": "端午节准备了一个下午，听说你要来，我说不用了，不用了，我们去外面吃吧。",
+      "end": 438.94,
+      "text": "端午节准备了一个下午，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 86,
+      "i": 163,
+      "s": 85,
+      "start": 438.94,
+      "end": 440.1,
+      "text": "听说你要来，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 164,
+      "s": 85,
+      "start": 440.1,
+      "end": 442.26,
+      "text": "我说不用了，不用了，我们去外面吃吧。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 165,
+      "s": 86,
       "start": 442.26,
       "end": 444.57,
       "text": "我请客，我还这样跟他们说。",
@@ -706,71 +1504,188 @@
       "role": "storyteller"
     },
     {
-      "i": 87,
+      "i": 166,
+      "s": 87,
       "start": 445.2,
+      "end": 448.32,
+      "text": "后来他把我的包包抢去了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 167,
+      "s": 87,
+      "start": 448.32,
       "end": 449.86,
-      "text": "后来他把我的包包抢去了，他直接就进门了。",
+      "text": "他直接就进门了。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 88,
+      "i": 168,
+      "s": 88,
       "start": 450.3,
+      "end": 451.36,
+      "text": "那我第一反应",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 169,
+      "s": 88,
+      "start": 451.36,
       "end": 453.65,
-      "text": "那我第一反应肯定是要把我包包抢回来嘛，对吧？",
+      "text": "肯定是要把我包包抢回来嘛，对吧？",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 89,
+      "i": 170,
+      "s": 89,
       "start": 453.66,
+      "end": 455.48,
+      "text": "然后我就上了这个楼，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 171,
+      "s": 89,
+      "start": 455.48,
+      "end": 456.92,
+      "text": "结果我没反应过来，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 172,
+      "s": 89,
+      "start": 456.92,
+      "end": 458.54,
+      "text": "那个男的就把我推进去了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 173,
+      "s": 89,
+      "start": 458.54,
       "end": 459.86,
-      "text": "然后我就上了这个楼，结果我没反应过来，那个男的就把我推进去了，他就赶紧锁门。",
+      "text": "他就赶紧锁门。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 90,
+      "i": 174,
+      "s": 90,
       "start": 459.86,
+      "end": 462.76,
+      "text": "当时我转头往里面一看，天哪，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 175,
+      "s": 90,
+      "start": 462.76,
       "end": 463.98,
-      "text": "当时我转头往里面一看，天哪，什么家具都没有。",
+      "text": "什么家具都没有。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 91,
+      "i": 176,
+      "s": 91,
       "start": 464.16,
+      "end": 466.8,
+      "text": "然后就大厅一个床，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 177,
+      "s": 91,
+      "start": 466.8,
       "end": 469.89,
-      "text": "然后就大厅一个床，然后我反应过来了，完了绑架。",
+      "text": "然后我反应过来了，完了绑架。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 92,
+      "i": 178,
+      "s": 92,
       "start": 471.72,
+      "end": 474.52,
+      "text": "之后十几个男的从那个房间冲出来，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 179,
+      "s": 92,
+      "start": 475.24,
+      "end": 476.28,
+      "text": "直接摁住我，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 180,
+      "s": 92,
+      "start": 476.54,
       "end": 478.53,
-      "text": "之后十几个男的从那个房间冲出来，直接摁住我，两三个男的摁住我的脚，",
+      "text": "两三个男的摁住我的脚，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 93,
+      "i": 181,
+      "s": 93,
       "start": 478.64,
+      "end": 481.34,
+      "text": "然后有三个摁住我的手跟肩膀，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 182,
+      "s": 93,
+      "start": 481.34,
+      "end": 482.9,
+      "text": "直接把我抬进去，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 183,
+      "s": 93,
+      "start": 482.9,
       "end": 484.88,
-      "text": "然后有三个摁住我的手跟肩膀，直接把我抬进去，抬到他们的房间里面。",
+      "text": "抬到他们的房间里面。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 94,
+      "i": 184,
+      "s": 94,
       "start": 485.1,
-      "end": 488.94,
-      "text": "之后我使劲的挣扎没有用，我被他们按得死死的。",
+      "end": 487.32,
+      "text": "之后我使劲的挣扎没有用，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 95,
+      "i": 185,
+      "s": 94,
+      "start": 487.32,
+      "end": 488.94,
+      "text": "我被他们按得死死的。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 186,
+      "s": 95,
       "start": 488.94,
       "end": 492.72,
       "text": "然后我叫他们就拿那个布轮流捂住我的嘴。",
@@ -778,15 +1693,35 @@
       "role": "storyteller"
     },
     {
-      "i": 96,
+      "i": 187,
+      "s": 96,
       "start": 492.96,
-      "end": 499.58,
-      "text": "就是湿的黑色的布，我当时脑子里是想这个布里面是不是有迷魂药？",
+      "end": 494.88,
+      "text": "就是湿的黑色的布，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 97,
+      "i": 188,
+      "s": 96,
+      "start": 494.88,
+      "end": 497.1,
+      "text": "我当时脑子里是想",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 189,
+      "s": 96,
+      "start": 497.1,
+      "end": 499.58,
+      "text": "这个布里面是不是有迷魂药？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 190,
+      "s": 97,
       "start": 499.58,
       "end": 502.79,
       "text": "我当时就想完了，我现在完了。",
@@ -794,15 +1729,26 @@
       "role": "storyteller"
     },
     {
-      "i": 98,
+      "i": 191,
+      "s": 98,
       "start": 505.33,
-      "end": 509.96,
-      "text": "有几个很凶的人就跟我说：“你再叫我就强奸你。”",
+      "end": 508.24,
+      "text": "有几个很凶的人就跟我说：",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 99,
+      "i": 192,
+      "s": 98,
+      "start": 508.24,
+      "end": 509.96,
+      "text": "“你再叫我就强奸你。”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 193,
+      "s": 99,
       "start": 509.96,
       "end": 511.84,
       "text": "然后我就不叫了。",
@@ -810,15 +1756,35 @@
       "role": "storyteller"
     },
     {
-      "i": 100,
+      "i": 194,
+      "s": 100,
       "start": 511.84,
-      "end": 517.76,
-      "text": "我进到那房间，我才发现还有另外两个女的，其中一个女孩子说：“不要那么粗鲁。”",
+      "end": 512.78,
+      "text": "我进到那房间，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 101,
+      "i": 195,
+      "s": 100,
+      "start": 512.78,
+      "end": 514.86,
+      "text": "我才发现还有另外两个女的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 196,
+      "s": 100,
+      "start": 514.86,
+      "end": 517.76,
+      "text": "其中一个女孩子说：“不要那么粗鲁。”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 197,
+      "s": 101,
       "start": 517.76,
       "end": 519.02,
       "text": "他们就没动我了。",
@@ -826,23 +1792,71 @@
       "role": "storyteller"
     },
     {
-      "i": 102,
+      "i": 198,
+      "s": 102,
       "start": 519.03,
+      "end": 520.11,
+      "text": "叫我站起来，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 199,
+      "s": 102,
+      "start": 520.11,
+      "end": 521.85,
+      "text": "当时已经六七点了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 200,
+      "s": 102,
+      "start": 521.85,
+      "end": 523.19,
+      "text": "大概都办完了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 201,
+      "s": 102,
+      "start": 523.19,
       "end": 524.19,
-      "text": "叫我站起来，当时已经六七点了，大概都办完了，然后就很黑。",
+      "text": "然后就很黑。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 103,
+      "i": 202,
+      "s": 103,
       "start": 524.53,
-      "end": 530.49,
-      "text": "我是看到它里面是四处灰壁，就没装修啊，那种用水泥搞的那种，",
+      "end": 527.51,
+      "text": "我是看到它里面是四处灰壁，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 104,
+      "i": 203,
+      "s": 103,
+      "start": 527.51,
+      "end": 528.73,
+      "text": "就没装修啊，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 204,
+      "s": 103,
+      "start": 528.73,
+      "end": 530.49,
+      "text": "那种用水泥搞的那种，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 205,
+      "s": 104,
       "start": 530.49,
       "end": 533.27,
       "text": "就只有那种矮矮的那种小凳子啊。",
@@ -850,39 +1864,125 @@
       "role": "storyteller"
     },
     {
-      "i": 105,
+      "i": 206,
+      "s": 105,
       "start": 533.27,
+      "end": 535.07,
+      "text": "当时眼睛是不敢看他们的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 207,
+      "s": 105,
+      "start": 535.07,
+      "end": 536.33,
+      "text": "因为有十几个人，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 208,
+      "s": 105,
+      "start": 536.33,
       "end": 537.6,
-      "text": "当时眼睛是不敢看他们的，因为有十几个人，我根本不敢看。",
+      "text": "我根本不敢看。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 106,
+      "i": 209,
+      "s": 106,
       "start": 537.91,
+      "end": 539.11,
+      "text": "每个人都穿了",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 210,
+      "s": 106,
+      "start": 539.11,
+      "end": 542.19,
+      "text": "那个像监狱里面穿的那种大拖鞋，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 211,
+      "s": 106,
+      "start": 542.19,
       "end": 545.83,
-      "text": "每个人都穿了那个像监狱里面穿的那种大拖鞋，然后那个人的脸基本上都是一个神色的，他们。",
+      "text": "然后那个人的脸基本上都是一个神色的，他们。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 107,
+      "i": 212,
+      "s": 107,
       "start": 545.91,
+      "end": 548.15,
+      "text": "就是很恶狠狠的看着我，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 213,
+      "s": 107,
+      "start": 548.27,
+      "end": 550.17,
+      "text": "就然后叫我站直，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 214,
+      "s": 107,
+      "start": 550.17,
+      "end": 552.5,
+      "text": "要那个女孩子给我搜身，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 215,
+      "s": 107,
+      "start": 555.89,
       "end": 557.23,
-      "text": "就是很恶狠狠的看着我，就然后叫我站直，要那个女孩子给我搜身，把我手机拿走，",
+      "text": "把我手机拿走，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 108,
+      "i": 216,
+      "s": 108,
       "start": 557.23,
-      "end": 565.73,
-      "text": "叫我开锁，给我关掉那个定位，把我的那个锁键盘的功能给关掉，然后把我包包拼命的翻，",
+      "end": 560.19,
+      "text": "叫我开锁，给我关掉那个定位，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 109,
+      "i": 217,
+      "s": 108,
+      "start": 560.19,
+      "end": 562.9,
+      "text": "把我的那个锁键盘的功能给关掉，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 218,
+      "s": 108,
+      "start": 562.99,
+      "end": 565.73,
+      "text": "然后把我包包拼命的翻，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 219,
+      "s": 109,
       "start": 565.73,
       "end": 568.25,
       "text": "把那东西全部都翻出来了。",
@@ -890,15 +1990,35 @@
       "role": "storyteller"
     },
     {
-      "i": 110,
+      "i": 220,
+      "s": 110,
       "start": 568.25,
-      "end": 573.51,
-      "text": "我就在看着那个老大，他们所谓的老大，他就抽着烟问我。",
+      "end": 569.79,
+      "text": "我就在看着那个老大，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 111,
+      "i": 221,
+      "s": 110,
+      "start": 569.79,
+      "end": 571.23,
+      "text": "他们所谓的老大，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 222,
+      "s": 110,
+      "start": 571.23,
+      "end": 573.51,
+      "text": "他就抽着烟问我。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 223,
+      "s": 111,
       "start": 573.54,
       "end": 574.58,
       "text": "来找谁？",
@@ -906,15 +2026,26 @@
       "role": "storyteller"
     },
     {
-      "i": 112,
+      "i": 224,
+      "s": 112,
       "start": 574.72,
-      "end": 578.73,
-      "text": "我说来找罗国栋，他就说你找罗国栋是吗？",
+      "end": 576.52,
+      "text": "我说来找罗国栋，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 113,
+      "i": 225,
+      "s": 112,
+      "start": 576.52,
+      "end": 578.73,
+      "text": "他就说你找罗国栋是吗？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 226,
+      "s": 113,
       "start": 578.92,
       "end": 579.98,
       "text": "罗国栋人呢？",
@@ -922,7 +2053,8 @@
       "role": "storyteller"
     },
     {
-      "i": 114,
+      "i": 227,
+      "s": 114,
       "start": 580.14,
       "end": 582.74,
       "text": "那你怎么找找到我这里来的呢？",
@@ -930,7 +2062,8 @@
       "role": "storyteller"
     },
     {
-      "i": 115,
+      "i": 228,
+      "s": 115,
       "start": 582.74,
       "end": 584.31,
       "text": "我说我不知道你这是什么地方。",
@@ -938,7 +2071,8 @@
       "role": "storyteller"
     },
     {
-      "i": 116,
+      "i": 229,
+      "s": 116,
       "start": 584.68,
       "end": 588.38,
       "text": "他们就说，那你可找对地方了呀！",
@@ -946,39 +2080,89 @@
       "role": "storyteller"
     },
     {
-      "i": 117,
+      "i": 230,
+      "s": 117,
       "start": 588.38,
+      "end": 592.88,
+      "text": "我们这边是国家暗中进行的冷门行业，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 231,
+      "s": 117,
+      "start": 592.88,
       "end": 595.6,
-      "text": "我们这边是国家暗中进行的冷门行业，名字叫做人际网络营销。",
+      "text": "名字叫做人际网络营销。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 118,
+      "i": 232,
+      "s": 118,
       "start": 595.74,
+      "end": 598.54,
+      "text": "我当时并没有去听他这些东西是什么东西，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 233,
+      "s": 118,
+      "start": 598.54,
       "end": 600.74,
-      "text": "我当时并没有去听他这些东西是什么东西，因为我怕我不知道你们要干嘛。",
+      "text": "因为我怕我不知道你们要干嘛。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 119,
+      "i": 234,
+      "s": 119,
       "start": 600.81,
+      "end": 602.77,
+      "text": "他们把我那些钱嘛，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 235,
+      "s": 119,
+      "start": 602.77,
+      "end": 605.89,
+      "text": "就是钱包里面钱全部倒在那个桌子上面，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 236,
+      "s": 119,
+      "start": 605.89,
       "end": 607.89,
-      "text": "他们把我那些钱嘛，就是钱包里面钱全部倒在那个桌子上面，叫我一张一张的数。",
+      "text": "叫我一张一张的数。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 120,
+      "i": 237,
+      "s": 120,
       "start": 607.91,
-      "end": 610.87,
-      "text": "我当时觉得很奇怪，你们不需要我的钱吗？",
+      "end": 609.53,
+      "text": "我当时觉得很奇怪，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 121,
+      "i": 238,
+      "s": 120,
+      "start": 609.53,
+      "end": 610.87,
+      "text": "你们不需要我的钱吗？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 239,
+      "s": 121,
       "start": 610.87,
       "end": 611.97,
       "text": "为什么要我数？",
@@ -986,31 +2170,80 @@
       "role": "storyteller"
     },
     {
-      "i": 122,
+      "i": 240,
+      "s": 122,
       "start": 611.97,
+      "end": 614.11,
+      "text": "这张是二十，这张是十块，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 241,
+      "s": 122,
+      "start": 614.11,
+      "end": 615.63,
+      "text": "这张是五块，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 242,
+      "s": 122,
+      "start": 615.63,
       "end": 619.17,
-      "text": "这张是二十，这张是十块，这张是五块，数好了以后总共有有四百七十块五毛。",
+      "text": "数好了以后总共有有四百七十块五毛。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 123,
+      "i": 243,
+      "s": 123,
       "start": 619.17,
+      "end": 621.73,
+      "text": "之后他们就让他拿一个烟盒子，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 244,
+      "s": 123,
+      "start": 621.73,
       "end": 624.67,
-      "text": "之后他们就让他拿一个烟盒子，把那钱全部叠好放在烟盒子里面，",
+      "text": "把那钱全部叠好放在烟盒子里面，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 124,
+      "i": 245,
+      "s": 124,
       "start": 624.91,
-      "end": 630.79,
-      "text": "拿了一张纸写清楚我叫什么名字、身份证号多少、住址是在哪里，总共身上多少钱。",
+      "end": 626.13,
+      "text": "拿了一张纸写清楚",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 125,
+      "i": 246,
+      "s": 124,
+      "start": 626.13,
+      "end": 629.65,
+      "text": "我叫什么名字、身份证号多少、住址是在哪里，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 247,
+      "s": 124,
+      "start": 629.65,
+      "end": 630.79,
+      "text": "总共身上多少钱。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 248,
+      "s": 125,
       "start": 633.59,
       "end": 637.5,
       "text": "突然间，他们来了一个老大还是什么的。",
@@ -1018,39 +2251,98 @@
       "role": "storyteller"
     },
     {
-      "i": 126,
+      "i": 249,
+      "s": 126,
       "start": 637.5,
+      "end": 639.44,
+      "text": "结果呢，那个门打开以后，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 250,
+      "s": 126,
+      "start": 639.44,
+      "end": 641.82,
+      "text": "他们那个所谓的那个主任进，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 251,
+      "s": 126,
+      "start": 641.82,
       "end": 644.8,
-      "text": "结果呢，那个门打开以后，他们那个所谓的那个主任进，他们叫主任进来了，你知道吗？",
+      "text": "他们叫主任进来了，你知道吗？",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 127,
+      "i": 252,
+      "s": 127,
       "start": 644.8,
+      "end": 647.56,
+      "text": "有两个人直接趴在地上，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 253,
+      "s": 127,
+      "start": 647.56,
+      "end": 650.14,
+      "text": "就是跟狗爬那个土一样那种啊，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 254,
+      "s": 127,
+      "start": 650.14,
       "end": 653.3,
-      "text": "有两个人直接趴在地上，就是跟狗爬那个土一样那种啊，给他们所谓的那个老大擦那个皮鞋，",
+      "text": "给他们所谓的那个老大擦那个皮鞋，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 128,
+      "i": 255,
+      "s": 128,
       "start": 653.3,
+      "end": 656.3,
+      "text": "拿那个衣服脚去擦他的皮鞋，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 256,
+      "s": 128,
+      "start": 656.3,
       "end": 657.76,
-      "text": "拿那个衣服脚去擦他的皮鞋，还有一个在右脚。",
+      "text": "还有一个在右脚。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 129,
+      "i": 257,
+      "s": 129,
       "start": 657.81,
-      "end": 662.39,
-      "text": "用那个嘴巴喝那个气出来呀，给他擦皮鞋。",
+      "end": 660.87,
+      "text": "用那个嘴巴喝那个气出来呀，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 130,
+      "i": 258,
+      "s": 129,
+      "start": 660.87,
+      "end": 662.39,
+      "text": "给他擦皮鞋。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 259,
+      "s": 130,
       "start": 662.39,
       "end": 665.79,
       "text": "那些人擦完鞋子以后，又继续去排队，",
@@ -1058,23 +2350,53 @@
       "role": "storyteller"
     },
     {
-      "i": 131,
+      "i": 260,
+      "s": 131,
       "start": 665.79,
+      "end": 667.39,
+      "text": "排队就是一个个",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 261,
+      "s": 131,
+      "start": 667.39,
       "end": 672.1,
-      "text": "排队就是一个个好像争先恐后的去跟那个所谓的主任握手嘛。",
+      "text": "好像争先恐后的去跟那个所谓的主任握手嘛。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 132,
+      "i": 262,
+      "s": 132,
       "start": 672.11,
-      "end": 678.69,
-      "text": "我是不懂，他们说安排一个师傅给我，就是那个广西广东茂名那个女孩子，",
+      "end": 673.03,
+      "text": "我是不懂，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 133,
+      "i": 263,
+      "s": 132,
+      "start": 673.03,
+      "end": 675.35,
+      "text": "他们说安排一个师傅给我，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 264,
+      "s": 132,
+      "start": 675.35,
+      "end": 678.69,
+      "text": "就是那个广西广东茂名那个女孩子，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 265,
+      "s": 133,
       "start": 678.69,
       "end": 681.01,
       "text": "那个女孩子教我去做仪式。",
@@ -1082,7 +2404,8 @@
       "role": "storyteller"
     },
     {
-      "i": 134,
+      "i": 266,
+      "s": 134,
       "start": 681.31,
       "end": 682.77,
       "text": "我当时以为是邪教。",
@@ -1090,31 +2413,107 @@
       "role": "storyteller"
     },
     {
-      "i": 135,
+      "i": 267,
+      "s": 135,
       "start": 685.25,
+      "end": 687.84,
+      "text": "然后那个女孩子教我，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 268,
+      "s": 135,
+      "start": 687.84,
+      "end": 691.29,
+      "text": "就是手要紧握着她所谓的主任的手，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 269,
+      "s": 135,
+      "start": 691.7,
       "end": 694,
-      "text": "然后那个女孩子教我，就是手要紧握着她所谓的主任的手，紧紧握住，特别真诚，",
+      "text": "紧紧握住，特别真诚，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 136,
+      "i": 270,
+      "s": 136,
       "start": 694,
+      "end": 696.84,
+      "text": "弯着腰头向上仰望，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 271,
+      "s": 136,
+      "start": 696.84,
+      "end": 698.56,
+      "text": "要笑着对她说：",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 272,
+      "s": 136,
+      "start": 698.56,
+      "end": 700.04,
+      "text": "“尊敬的主任，早上好，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 273,
+      "s": 136,
+      "start": 700.04,
+      "end": 701.24,
+      "text": "我来自广东，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 274,
+      "s": 136,
+      "start": 701.24,
       "end": 702.82,
-      "text": "弯着腰头向上仰望，要笑着对她说：“尊敬的主任，早上好，我来自广东，名叫什么什么什么。”",
+      "text": "名叫什么什么什么。”",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 137,
+      "i": 275,
+      "s": 137,
       "start": 702.82,
-      "end": 708.53,
-      "text": "我当时以为是主人，我听成了主人，我就以为那个主人把这帮人都当狗养。",
+      "end": 704.4,
+      "text": "我当时以为是主人，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 138,
+      "i": 276,
+      "s": 137,
+      "start": 704.4,
+      "end": 705.62,
+      "text": "我听成了主人，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 277,
+      "s": 137,
+      "start": 705.62,
+      "end": 708.53,
+      "text": "我就以为那个主人把这帮人都当狗养。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 278,
+      "s": 138,
       "start": 708.6,
       "end": 712.84,
       "text": "然后我就被那个打手嘛掐着我的脖子说。",
@@ -1122,7 +2521,8 @@
       "role": "storyteller"
     },
     {
-      "i": 139,
+      "i": 279,
+      "s": 139,
       "start": 713.1,
       "end": 717.36,
       "text": "听清楚一点，是主任不是主人。",
@@ -1130,7 +2530,8 @@
       "role": "storyteller"
     },
     {
-      "i": 140,
+      "i": 280,
+      "s": 140,
       "start": 717.36,
       "end": 720.4,
       "text": "再给我说一遍，然后我就再说一遍。",
@@ -1138,71 +2539,188 @@
       "role": "storyteller"
     },
     {
-      "i": 141,
+      "i": 281,
+      "s": 141,
       "start": 721.42,
+      "end": 723.78,
+      "text": "当天晚上吃完饭已经六七点，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 282,
+      "s": 141,
+      "start": 723.78,
       "end": 726.4,
-      "text": "当天晚上吃完饭已经六七点，我待在一个另外一个房间以后呢，",
+      "text": "我待在一个另外一个房间以后呢，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 142,
+      "i": 283,
+      "s": 142,
       "start": 726.4,
+      "end": 729.64,
+      "text": "然后那个房间也是四处灰壁嘛，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 284,
+      "s": 142,
+      "start": 729.64,
       "end": 731.32,
-      "text": "然后那个房间也是四处灰壁嘛，中间就一个节能灯的。",
+      "text": "中间就一个节能灯的。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 143,
+      "i": 285,
+      "s": 143,
       "start": 731.32,
+      "end": 733.16,
+      "text": "我看到有个窗特别大，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 286,
+      "s": 143,
+      "start": 733.16,
+      "end": 735.9,
+      "text": "那个窗他们都是拿铁丝网网着嘛，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 287,
+      "s": 143,
+      "start": 735.9,
       "end": 737.16,
-      "text": "我看到有个窗特别大，那个窗他们都是拿铁丝网网着嘛，怕你逃跑嘛。",
+      "text": "怕你逃跑嘛。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 144,
+      "i": 288,
+      "s": 144,
       "start": 737.16,
+      "end": 738.64,
+      "text": "那个窗最上面",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 289,
+      "s": 144,
+      "start": 738.64,
       "end": 741.36,
-      "text": "那个窗最上面有半截铁丝网没有把它网住嘛。",
+      "text": "有半截铁丝网没有把它网住嘛。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 145,
+      "i": 290,
+      "s": 145,
       "start": 741.39,
+      "end": 742.69,
+      "text": "我就想着说，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 291,
+      "s": 145,
+      "start": 742.69,
+      "end": 745.73,
+      "text": "我半夜我要通过最快的速度，我要爬出去，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 292,
+      "s": 145,
+      "start": 745.85,
       "end": 748.42,
-      "text": "我就想着说，我半夜我要通过最快的速度，我要爬出去，然后就让两个女孩子睡我旁边，",
+      "text": "然后就让两个女孩子睡我旁边，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 146,
+      "i": 293,
+      "s": 146,
       "start": 748.47,
+      "end": 749.78,
+      "text": "左边一个，右边一个，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 294,
+      "s": 146,
+      "start": 749.99,
       "end": 751.98,
-      "text": "左边一个，右边一个，就紧紧的看着我，不让我跑。",
+      "text": "就紧紧的看着我，不让我跑。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 147,
+      "i": 295,
+      "s": 147,
       "start": 752.49,
+      "end": 755.07,
+      "text": "后来我等他们睡熟，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 296,
+      "s": 147,
+      "start": 755.07,
+      "end": 757.99,
+      "text": "我大概就是嗯，就是说转来转去睡不着，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 297,
+      "s": 147,
+      "start": 757.99,
       "end": 759.49,
-      "text": "后来我等他们睡熟，我大概就是嗯，就是说转来转去睡不着，我就假装睡嘛。",
+      "text": "我就假装睡嘛。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 148,
+      "i": 298,
+      "s": 148,
       "start": 759.49,
-      "end": 766.7,
-      "text": "门口还有一个男的在守夜，就是看着你们房子里面逃跑，就是夜深夜很深很深的时候。",
+      "end": 761.39,
+      "text": "门口还有一个男的在守夜，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 149,
+      "i": 299,
+      "s": 148,
+      "start": 761.39,
+      "end": 763.89,
+      "text": "就是看着你们房子里面逃跑，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 300,
+      "s": 148,
+      "start": 763.89,
+      "end": 766.7,
+      "text": "就是夜深夜很深很深的时候。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 301,
+      "s": 149,
       "start": 766.92,
       "end": 769.12,
       "text": "那个门口那个男的呢？",
@@ -1210,15 +2728,26 @@
       "role": "storyteller"
     },
     {
-      "i": 150,
+      "i": 302,
+      "s": 150,
       "start": 769.12,
-      "end": 773.28,
-      "text": "他好像去上洗手间了，因为我房间旁边就是洗手间呐。",
+      "end": 771.16,
+      "text": "他好像去上洗手间了，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 151,
+      "i": 303,
+      "s": 150,
+      "start": 771.16,
+      "end": 773.28,
+      "text": "因为我房间旁边就是洗手间呐。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 304,
+      "s": 151,
       "start": 773.28,
       "end": 775.43,
       "text": "他在上洗手间，我就有机会跑了。",
@@ -1226,31 +2755,71 @@
       "role": "storyteller"
     },
     {
-      "i": 152,
+      "i": 305,
+      "s": 152,
       "start": 775.72,
+      "end": 779.65,
+      "text": "之后我就从两个女孩子的缝隙里面，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 306,
+      "s": 152,
+      "start": 779.98,
       "end": 782.04,
-      "text": "之后我就从两个女孩子的缝隙里面，我就像那个毛毛虫一样，",
+      "text": "我就像那个毛毛虫一样，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 153,
+      "i": 307,
+      "s": 153,
       "start": 782.04,
+      "end": 783.2,
+      "text": "一点一点的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 308,
+      "s": 153,
+      "start": 783.2,
       "end": 787.97,
-      "text": "一点一点的就从那个被子里面一直爬到了床的那个尾部。",
+      "text": "就从那个被子里面一直爬到了床的那个尾部。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 154,
+      "i": 309,
+      "s": 154,
       "start": 788.3,
-      "end": 795.06,
-      "text": "我爬下去以后，我就开始爬那个窗，因为当时我有用手去试图掰那个窗。",
+      "end": 789.74,
+      "text": "我爬下去以后，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 155,
+      "i": 310,
+      "s": 154,
+      "start": 789.74,
+      "end": 791.62,
+      "text": "我就开始爬那个窗，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 311,
+      "s": 154,
+      "start": 791.62,
+      "end": 795.06,
+      "text": "因为当时我有用手去试图掰那个窗。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 312,
+      "s": 155,
       "start": 795.27,
       "end": 799.03,
       "text": "他那个窗是已经生锈了，根本打不开。",
@@ -1258,31 +2827,89 @@
       "role": "storyteller"
     },
     {
-      "i": 156,
+      "i": 313,
+      "s": 156,
       "start": 799.23,
+      "end": 801.61,
+      "text": "而且你用两三秒时间",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 314,
+      "s": 156,
+      "start": 801.61,
       "end": 804.95,
-      "text": "而且你用两三秒时间越过那个铁丝网是根本不可能的事情。",
+      "text": "越过那个铁丝网是根本不可能的事情。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 157,
+      "i": 315,
+      "s": 157,
       "start": 805.15,
+      "end": 807.34,
+      "text": "之后我就正准备要爬的时候，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 316,
+      "s": 157,
+      "start": 807.63,
+      "end": 809.26,
+      "text": "那个门就被打开了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 317,
+      "s": 157,
+      "start": 811.64,
       "end": 813.73,
-      "text": "之后我就正准备要爬的时候，那个门就被打开了，他们就把我抓下来啊！",
+      "text": "他们就把我抓下来啊！",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 158,
+      "i": 318,
+      "s": 158,
       "start": 813.73,
-      "end": 821.97,
-      "text": "全部人都醒了，有两三个男的掐着我脖子说：“就说你要是再敢跑，你我就让这几个人、",
+      "end": 815.11,
+      "text": "全部人都醒了，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 159,
+      "i": 319,
+      "s": 158,
+      "start": 815.11,
+      "end": 817.41,
+      "text": "有两三个男的掐着我脖子说：",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 320,
+      "s": 158,
+      "start": 817.41,
+      "end": 819.27,
+      "text": "“就说你要是再敢跑，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 321,
+      "s": 158,
+      "start": 820.17,
+      "end": 821.97,
+      "text": "你我就让这几个人、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 322,
+      "s": 159,
       "start": 821.97,
       "end": 823.91,
       "text": "这十几个全部轮奸你。”",
@@ -1290,15 +2917,26 @@
       "role": "storyteller"
     },
     {
-      "i": 160,
+      "i": 323,
+      "s": 160,
       "start": 824.9,
-      "end": 830.03,
-      "text": "然后呢，拿那个烟头啊，准备想烫我的脸。",
+      "end": 827.39,
+      "text": "然后呢，拿那个烟头啊，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 161,
+      "i": 324,
+      "s": 160,
+      "start": 827.39,
+      "end": 830.03,
+      "text": "准备想烫我的脸。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 325,
+      "s": 161,
       "start": 830.03,
       "end": 832.72,
       "text": "他说：“你是不是很喜欢动？",
@@ -1306,23 +2944,62 @@
       "role": "storyteller"
     },
     {
-      "i": 162,
+      "i": 326,
+      "s": 162,
       "start": 832.95,
+      "end": 835.01,
+      "text": "要不要在你脸上留两个疤，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 327,
+      "s": 162,
+      "start": 835.01,
       "end": 836.27,
-      "text": "要不要在你脸上留两个疤，看你喜不喜欢动？”",
+      "text": "看你喜不喜欢动？”",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 163,
+      "i": 328,
+      "s": 163,
       "start": 836.27,
-      "end": 846.88,
-      "text": "我就抖啊，就是怕呀，因为当时那个烟的话，应该就差五厘米吧，就已经到我眼珠了。",
+      "end": 840.41,
+      "text": "我就抖啊，就是怕呀，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 164,
+      "i": 329,
+      "s": 163,
+      "start": 840.97,
+      "end": 843.07,
+      "text": "因为当时那个烟的话，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 330,
+      "s": 163,
+      "start": 843.07,
+      "end": 845.01,
+      "text": "应该就差五厘米吧，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 331,
+      "s": 163,
+      "start": 845.01,
+      "end": 846.88,
+      "text": "就已经到我眼珠了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 332,
+      "s": 164,
       "start": 847.21,
       "end": 850.59,
       "text": "那个烟灰还是碰我的脸掉的。",
@@ -1330,7 +3007,8 @@
       "role": "storyteller"
     },
     {
-      "i": 165,
+      "i": 333,
+      "s": 165,
       "start": 850.74,
       "end": 852.69,
       "text": "把我眼睫毛都给烫掉了。",
@@ -1338,63 +3016,161 @@
       "role": "storyteller"
     },
     {
-      "i": 166,
+      "i": 334,
+      "s": 166,
       "start": 853.64,
+      "end": 859.4,
+      "text": "后来，当时是第三天嘛，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 335,
+      "s": 166,
+      "start": 859.4,
+      "end": 861.16,
+      "text": "他们我家人有给我打电话，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 336,
+      "s": 166,
+      "start": 861.16,
       "end": 862.98,
-      "text": "后来，当时是第三天嘛，他们我家人有给我打电话，然后他们让我听电话嘛，",
+      "text": "然后他们让我听电话嘛，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 167,
+      "i": 337,
+      "s": 167,
       "start": 862.98,
+      "end": 864.86,
+      "text": "因为他们也知道啊，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 338,
+      "s": 167,
+      "start": 864.86,
+      "end": 868.34,
+      "text": "如果说你电话打不通了，人口失踪，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 339,
+      "s": 167,
+      "start": 868.34,
       "end": 870.08,
-      "text": "因为他们也知道啊，如果说你电话打不通了，人口失踪，警察肯定会找人的呀。",
+      "text": "警察肯定会找人的呀。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 168,
+      "i": 340,
+      "s": 168,
       "start": 870.08,
+      "end": 872.18,
+      "text": "人口失踪案很严重的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 341,
+      "s": 168,
+      "start": 872.18,
+      "end": 874.7,
+      "text": "然后他电话是这样子的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 342,
+      "s": 168,
+      "start": 874.7,
       "end": 876.68,
-      "text": "人口失踪案很严重的，然后他电话是这样子的，要把你手机放扬声器。",
+      "text": "要把你手机放扬声器。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 169,
+      "i": 343,
+      "s": 169,
       "start": 876.69,
+      "end": 880.04,
+      "text": "然后他会放一个假的手机在旁边，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 344,
+      "s": 169,
+      "start": 880.19,
       "end": 883.06,
-      "text": "然后他会放一个假的手机在旁边，放音乐或放电影，制造假象，",
+      "text": "放音乐或放电影，制造假象，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 170,
+      "i": 345,
+      "s": 170,
       "start": 883.13,
+      "end": 885.15,
+      "text": "让你家人打过来跟你讲电话的时候，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 346,
+      "s": 170,
+      "start": 885.15,
       "end": 887.25,
-      "text": "让你家人打过来跟你讲电话的时候，他都以为你在听音乐或在看电影。",
+      "text": "他都以为你在听音乐或在看电影。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 171,
+      "i": 347,
+      "s": 171,
       "start": 887.31,
+      "end": 889.33,
+      "text": "因为我里面有一个广东人嘛，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 348,
+      "s": 171,
+      "start": 889.33,
       "end": 891.03,
-      "text": "因为我里面有一个广东人嘛，他听得懂粤语啊。",
+      "text": "他听得懂粤语啊。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 172,
+      "i": 349,
+      "s": 172,
       "start": 891.03,
-      "end": 895.83,
-      "text": "那我是用客家话跟我家人交流，他们听不懂。",
+      "end": 894.61,
+      "text": "那我是用客家话跟我家人交流，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 173,
+      "i": 350,
+      "s": 172,
+      "start": 894.61,
+      "end": 895.83,
+      "text": "他们听不懂。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 351,
+      "s": 173,
       "start": 896.25,
       "end": 899.13,
       "text": "我妈妈，我很紧张吧？",
@@ -1402,7 +3178,8 @@
       "role": "storyteller"
     },
     {
-      "i": 174,
+      "i": 352,
+      "s": 174,
       "start": 899.13,
       "end": 902.41,
       "text": "然后我跟他说，用手机定位找我。",
@@ -1410,15 +3187,35 @@
       "role": "storyteller"
     },
     {
-      "i": 175,
+      "i": 353,
+      "s": 175,
       "start": 902.43,
-      "end": 908.37,
-      "text": "我就这样讲的，因为我当时要第一次打电话，我是要试探他们听不听得懂客家话呀，",
+      "end": 903.67,
+      "text": "我就这样讲的，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 176,
+      "i": 354,
+      "s": 175,
+      "start": 903.67,
+      "end": 905.67,
+      "text": "因为我当时要第一次打电话，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 355,
+      "s": 175,
+      "start": 905.67,
+      "end": 908.37,
+      "text": "我是要试探他们听不听得懂客家话呀，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 356,
+      "s": 176,
       "start": 908.37,
       "end": 910.11,
       "text": "所以我不能讲的太明显。",
@@ -1426,7 +3223,8 @@
       "role": "storyteller"
     },
     {
-      "i": 177,
+      "i": 357,
+      "s": 177,
       "start": 910.11,
       "end": 913.71,
       "text": "然后我妈妈就听不懂，她挂了。",
@@ -1434,31 +3232,62 @@
       "role": "storyteller"
     },
     {
-      "i": 178,
+      "i": 358,
+      "s": 178,
       "start": 913.87,
+      "end": 916.78,
+      "text": "第二次嘛，就是大概是过了几个小时，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 359,
+      "s": 178,
+      "start": 917.05,
       "end": 919.43,
-      "text": "第二次嘛，就是大概是过了几个小时，我的表姐打电话给我了，她说：",
+      "text": "我的表姐打电话给我了，她说：",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 179,
+      "i": 360,
+      "s": 179,
       "start": 919.43,
+      "end": 922.25,
+      "text": "“为什么我们这几天这几个人打电话给你，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 361,
+      "s": 179,
+      "start": 922.25,
       "end": 923.01,
-      "text": "“为什么我们这几天这几个人打电话给你，你都不接？”",
+      "text": "你都不接？”",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 180,
+      "i": 362,
+      "s": 180,
       "start": 923.01,
-      "end": 926.69,
-      "text": "我就跟她说：“你难道听不出我声音吗？”",
+      "end": 924.49,
+      "text": "我就跟她说：",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 181,
+      "i": 363,
+      "s": 180,
+      "start": 924.49,
+      "end": 926.69,
+      "text": "“你难道听不出我声音吗？”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 364,
+      "s": 181,
       "start": 926.69,
       "end": 928.73,
       "text": "后来她挂了电话以后，她。",
@@ -1466,15 +3295,26 @@
       "role": "storyteller"
     },
     {
-      "i": 182,
+      "i": 365,
+      "s": 182,
       "start": 928.83,
-      "end": 932.69,
-      "text": "他就跟我的妹妹说：“他说他一定有事情了。”",
+      "end": 930.71,
+      "text": "他就跟我的妹妹说：",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 183,
+      "i": 366,
+      "s": 182,
+      "start": 930.71,
+      "end": 932.69,
+      "text": "“他说他一定有事情了。”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 367,
+      "s": 183,
       "start": 932.69,
       "end": 935.91,
       "text": "他说：“因为平时讲电话的声音不是这样子。”",
@@ -1482,23 +3322,53 @@
       "role": "storyteller"
     },
     {
-      "i": 184,
+      "i": 368,
+      "s": 184,
       "start": 935.91,
+      "end": 936.95,
+      "text": "然后第二天，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 369,
+      "s": 184,
+      "start": 936.95,
+      "end": 939.21,
+      "text": "我家人就赶过来了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 370,
+      "s": 184,
+      "start": 939.21,
       "end": 941.37,
-      "text": "然后第二天，我家人就赶过来了，整整找了我一个星期。",
+      "text": "整整找了我一个星期。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 185,
+      "i": 371,
+      "s": 185,
       "start": 945.89,
-      "end": 955.15,
-      "text": "到了第二天，大概来了一个工程师吧，他就问我：“他说？”",
+      "end": 948.07,
+      "text": "到了第二天，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 186,
+      "i": 372,
+      "s": 185,
+      "start": 948.13,
+      "end": 955.15,
+      "text": "大概来了一个工程师吧，他就问我：“他说？”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 373,
+      "s": 186,
       "start": 955.61,
       "end": 958.03,
       "text": "你以前是做什么的?",
@@ -1506,39 +3376,116 @@
       "role": "storyteller"
     },
     {
-      "i": 187,
+      "i": 374,
+      "s": 187,
       "start": 958.03,
-      "end": 968.39,
-      "text": "我骗他说我做销售他说那你很适合我这行业啊他嘻嘻哈哈很阴诈地对我说然后他就问旁边的人有",
+      "end": 960.09,
+      "text": "我骗他说我做销售",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 188,
-      "start": 968.39,
-      "end": 981.93,
-      "text": "没有给他讲课他们讲课是这样子的就是一个黑板然后有粉底第一时间我就想传销的课程来了名字",
+      "i": 375,
+      "s": 187,
+      "start": 960.09,
+      "end": 962.73,
+      "text": "他说那你很适合我这行业啊",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 189,
-      "start": 981.93,
+      "i": 376,
+      "s": 187,
+      "start": 962.73,
+      "end": 965.19,
+      "text": "他嘻嘻哈哈很阴诈地对我说",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 377,
+      "s": 187,
+      "start": 965.19,
+      "end": 969.81,
+      "text": "然后他就问旁边的人有没有给他讲课",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 378,
+      "s": 188,
+      "start": 969.81,
+      "end": 972.73,
+      "text": "他们讲课是这样子的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 379,
+      "s": 188,
+      "start": 972.73,
+      "end": 975.39,
+      "text": "就是一个黑板然后有粉底",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 380,
+      "s": 188,
+      "start": 975.39,
+      "end": 979.37,
+      "text": "第一时间我就想传销的课程来了",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 381,
+      "s": 188,
+      "start": 979.37,
+      "end": 982.87,
+      "text": "名字叫商商法",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 382,
+      "s": 189,
+      "start": 983.04,
+      "end": 985.31,
+      "text": "我不知道三三法是什么鬼，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 383,
+      "s": 189,
+      "start": 985.46,
       "end": 990.05,
-      "text": "叫商商法我不知道三三法是什么鬼，与天津天师科技发展有限公司合作，",
+      "text": "与天津天师科技发展有限公司合作，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 190,
+      "i": 384,
+      "s": 190,
       "start": 990.36,
-      "end": 994.54,
-      "text": "就是跟你说现在社会做什么都不行，就做他们那个行。",
+      "end": 992.99,
+      "text": "就是跟你说现在社会做什么都不行，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 191,
+      "i": 385,
+      "s": 190,
+      "start": 993.16,
+      "end": 994.54,
+      "text": "就做他们那个行。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 386,
+      "s": 191,
       "start": 994.54,
       "end": 997.92,
       "text": "每天都会来不同的主任来跟你讲课。",
@@ -1546,15 +3493,35 @@
       "role": "storyteller"
     },
     {
-      "i": 192,
+      "i": 387,
+      "s": 192,
       "start": 1000.2,
-      "end": 1006.78,
-      "text": "刚开始的前十天嘛，他们每天都问我考察的怎么样啊，然后就是问你，",
+      "end": 1002.8,
+      "text": "刚开始的前十天嘛，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 193,
+      "i": 388,
+      "s": 192,
+      "start": 1002.8,
+      "end": 1005.52,
+      "text": "他们每天都问我考察的怎么样啊，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 389,
+      "s": 192,
+      "start": 1005.52,
+      "end": 1006.78,
+      "text": "然后就是问你，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 390,
+      "s": 193,
       "start": 1006.78,
       "end": 1009.14,
       "text": "我其实也很想知道什么是考察。",
@@ -1562,7 +3529,8 @@
       "role": "storyteller"
     },
     {
-      "i": 194,
+      "i": 391,
+      "s": 194,
       "start": 1009.26,
       "end": 1011.85,
       "text": "然后后来我才知道，原来就是洗脑。",
@@ -1570,7 +3538,8 @@
       "role": "storyteller"
     },
     {
-      "i": 195,
+      "i": 392,
+      "s": 195,
       "start": 1011.85,
       "end": 1014.38,
       "text": "认同他的行业，然后你就加入。",
@@ -1578,63 +3547,170 @@
       "role": "storyteller"
     },
     {
-      "i": 196,
+      "i": 393,
+      "s": 196,
       "start": 1016.05,
+      "end": 1017.87,
+      "text": "我心里就这样想，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 394,
+      "s": 196,
+      "start": 1017.87,
+      "end": 1019.71,
+      "text": "我觉得无所谓，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 395,
+      "s": 196,
+      "start": 1019.71,
+      "end": 1021.87,
+      "text": "反正你们耗我跟着你们耗，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 396,
+      "s": 196,
+      "start": 1021.87,
       "end": 1024.3,
-      "text": "我心里就这样想，我觉得无所谓，反正你们耗我跟着你们耗，我一直耗到他们找到我为止。",
+      "text": "我一直耗到他们找到我为止。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 197,
+      "i": 397,
+      "s": 197,
       "start": 1029.29,
+      "end": 1032.05,
+      "text": "然后到了第十一天左右了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 398,
+      "s": 197,
+      "start": 1032.05,
       "end": 1033.51,
-      "text": "然后到了第十一天左右了，他们要不用做了。",
+      "text": "他们要不用做了。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 198,
+      "i": 399,
+      "s": 198,
       "start": 1033.51,
+      "end": 1035.49,
+      "text": "他说：“你这样做着太舒服了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 400,
+      "s": 198,
+      "start": 1035.49,
       "end": 1036.23,
-      "text": "他说：“你这样做着太舒服了，不用做了。”",
+      "text": "不用做了。”",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 199,
+      "i": 401,
+      "s": 199,
       "start": 1036.32,
+      "end": 1038.42,
+      "text": "然后就让我蹲着，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 402,
+      "s": 199,
+      "start": 1038.42,
+      "end": 1041.22,
+      "text": "然后那个打手在旁边看着，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 403,
+      "s": 199,
+      "start": 1041.22,
       "end": 1044.14,
-      "text": "然后就让我蹲着，然后那个打手在旁边看着，不准你靠墙或者说是坐地板。",
+      "text": "不准你靠墙或者说是坐地板。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 200,
+      "i": 404,
+      "s": 200,
       "start": 1044.28,
+      "end": 1047.18,
+      "text": "我以为是让我蹲几个小时就可以了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 405,
+      "s": 200,
+      "start": 1047.18,
       "end": 1050.05,
-      "text": "我以为是让我蹲几个小时就可以了，我没想到的是他们让我二十四小时蹲。",
+      "text": "我没想到的是他们让我二十四小时蹲。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 201,
+      "i": 406,
+      "s": 201,
       "start": 1050.8,
+      "end": 1053.16,
+      "text": "我那时蹲到我蹲不下去，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 407,
+      "s": 201,
+      "start": 1053.16,
       "end": 1054.61,
-      "text": "我那时蹲到我蹲不下去，他还要摁着我蹲。",
+      "text": "他还要摁着我蹲。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 202,
+      "i": 408,
+      "s": 202,
       "start": 1055.18,
-      "end": 1061.1,
-      "text": "到了半夜三更，有一天晚上我受不了了，我跟他们说，我蹲着那个女男的说：",
+      "end": 1056.2,
+      "text": "到了半夜三更，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 203,
+      "i": 409,
+      "s": 202,
+      "start": 1056.2,
+      "end": 1058.36,
+      "text": "有一天晚上我受不了了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 410,
+      "s": 202,
+      "start": 1058.36,
+      "end": 1061.1,
+      "text": "我跟他们说，我蹲着那个女男的说：",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 411,
+      "s": 203,
       "start": 1061.1,
       "end": 1062.62,
       "text": "“我说我说你把我杀了。”",
@@ -1642,15 +3718,26 @@
       "role": "storyteller"
     },
     {
-      "i": 204,
+      "i": 412,
+      "s": 204,
       "start": 1062.63,
-      "end": 1065.8,
-      "text": "我把手伸出去跟他说的，我说你把我杀了。",
+      "end": 1064.65,
+      "text": "我把手伸出去跟他说的，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 205,
+      "i": 413,
+      "s": 204,
+      "start": 1064.65,
+      "end": 1065.8,
+      "text": "我说你把我杀了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 414,
+      "s": 205,
       "start": 1065.91,
       "end": 1068.67,
       "text": "他说我还没有折磨够我，为什么要杀你？",
@@ -1658,7 +3745,8 @@
       "role": "storyteller"
     },
     {
-      "i": 206,
+      "i": 415,
+      "s": 206,
       "start": 1068.67,
       "end": 1069.8,
       "text": "我偏偏不杀。",
@@ -1666,15 +3754,44 @@
       "role": "storyteller"
     },
     {
-      "i": 207,
+      "i": 416,
+      "s": 207,
       "start": 1069.81,
-      "end": 1077.99,
-      "text": "然后后来我受不了了，我就去撞墙，撞了墙最起码我会晕倒，晕倒的时候我才稍微好一点点，",
+      "end": 1071.95,
+      "text": "然后后来我受不了了，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 208,
+      "i": 417,
+      "s": 207,
+      "start": 1071.95,
+      "end": 1073.17,
+      "text": "我就去撞墙，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 418,
+      "s": 207,
+      "start": 1073.17,
+      "end": 1075.32,
+      "text": "撞了墙最起码我会晕倒，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 419,
+      "s": 207,
+      "start": 1075.55,
+      "end": 1077.99,
+      "text": "晕倒的时候我才稍微好一点点，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 420,
+      "s": 208,
       "start": 1077.99,
       "end": 1079.89,
       "text": "就是休息一下什么的。",
@@ -1682,7 +3799,8 @@
       "role": "storyteller"
     },
     {
-      "i": 209,
+      "i": 421,
+      "s": 209,
       "start": 1079.89,
       "end": 1084.14,
       "text": "一直蹲到最后面这四五天吧，我妥协了。",
@@ -1690,47 +3808,134 @@
       "role": "storyteller"
     },
     {
-      "i": 210,
+      "i": 422,
+      "s": 210,
       "start": 1086.17,
+      "end": 1087.95,
+      "text": "我撞了最后一次墙，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 423,
+      "s": 210,
+      "start": 1087.95,
+      "end": 1089.07,
+      "text": "我撞得很疼，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 424,
+      "s": 210,
+      "start": 1089.07,
+      "end": 1090.85,
+      "text": "我大概那次撞了三次，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 425,
+      "s": 210,
+      "start": 1090.85,
       "end": 1092.03,
-      "text": "我撞了最后一次墙，我撞得很疼，我大概那次撞了三次，连续三次吧。",
+      "text": "连续三次吧。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 211,
+      "i": 426,
+      "s": 211,
       "start": 1092.15,
+      "end": 1096.69,
+      "text": "很大力的撞，然后我就跪下来，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 427,
+      "s": 211,
+      "start": 1096.69,
+      "end": 1097.75,
+      "text": "我哭着跟他说，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 428,
+      "s": 211,
+      "start": 1097.75,
       "end": 1101.48,
-      "text": "很大力的撞，然后我就跪下来，我哭着跟他说，我就像拜佛一样的对他说，我说我错了，",
+      "text": "我就像拜佛一样的对他说，我说我错了，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 212,
+      "i": 429,
+      "s": 212,
       "start": 1101.73,
+      "end": 1104.07,
+      "text": "我说我真的知道你们对我好，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 430,
+      "s": 212,
+      "start": 1104.07,
       "end": 1106.18,
-      "text": "我说我真的知道你们对我好，有钱挣我干嘛不挣呢？",
+      "text": "有钱挣我干嘛不挣呢？",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 213,
+      "i": 431,
+      "s": 213,
       "start": 1106.33,
+      "end": 1108.55,
+      "text": "一直都是以来都是我不听话，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 432,
+      "s": 213,
+      "start": 1108.55,
+      "end": 1110.99,
+      "text": "我就这样子把态度放谦虚了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 433,
+      "s": 213,
+      "start": 1110.99,
       "end": 1112.39,
-      "text": "一直都是以来都是我不听话，我就这样子把态度放谦虚了，我就这样子跟他说的。",
+      "text": "我就这样子跟他说的。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 214,
+      "i": 434,
+      "s": 214,
       "start": 1112.81,
-      "end": 1116.82,
-      "text": "之后他们就问我，OK好，那你投资多少钱？",
+      "end": 1115.55,
+      "text": "之后他们就问我，OK好，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 215,
+      "i": 435,
+      "s": 214,
+      "start": 1115.55,
+      "end": 1116.82,
+      "text": "那你投资多少钱？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 436,
+      "s": 215,
       "start": 1117.27,
       "end": 1118.69,
       "text": "他说我们最低都是。",
@@ -1738,7 +3943,8 @@
       "role": "storyteller"
     },
     {
-      "i": 216,
+      "i": 437,
+      "s": 216,
       "start": 1118.76,
       "end": 1122.36,
       "text": "几万起步，我说几万是多少钱？",
@@ -1746,31 +3952,71 @@
       "role": "storyteller"
     },
     {
-      "i": 217,
+      "i": 438,
+      "s": 217,
       "start": 1122.4,
+      "end": 1123.32,
+      "text": "他说我们这边的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 439,
+      "s": 217,
+      "start": 1123.32,
       "end": 1125.72,
-      "text": "他说我们这边的基本都是三五万、六万、十万都有。",
+      "text": "基本都是三五万、六万、十万都有。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 218,
+      "i": 440,
+      "s": 218,
       "start": 1126.38,
+      "end": 1127.44,
+      "text": "我说我给五万，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 441,
+      "s": 218,
+      "start": 1127.44,
+      "end": 1129.52,
+      "text": "他们就开始态度变了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 442,
+      "s": 218,
+      "start": 1129.52,
       "end": 1132.13,
-      "text": "我说我给五万，他们就开始态度变了，都让我睡觉，每天要我准时睡觉。",
+      "text": "都让我睡觉，每天要我准时睡觉。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 219,
+      "i": 443,
+      "s": 219,
       "start": 1132.14,
-      "end": 1140.09,
-      "text": "然后呢，后面的工作就是让几个人来筹划，让你如何去骗家人要钱。",
+      "end": 1137.78,
+      "text": "然后呢，后面的工作就是让几个人来筹划，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 220,
+      "i": 444,
+      "s": 219,
+      "start": 1137.78,
+      "end": 1140.09,
+      "text": "让你如何去骗家人要钱。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 445,
+      "s": 220,
       "start": 1140.42,
       "end": 1144.26,
       "text": "说在江苏开了个店铺，装修费是要十万。",
@@ -1778,23 +4024,62 @@
       "role": "storyteller"
     },
     {
-      "i": 221,
+      "i": 446,
+      "s": 221,
       "start": 1144.29,
+      "end": 1146.67,
+      "text": "我的同学给了五万，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 447,
+      "s": 221,
+      "start": 1146.67,
+      "end": 1149.37,
+      "text": "家里要给五万帮忙支持一下，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 448,
+      "s": 221,
+      "start": 1149.37,
       "end": 1151.75,
-      "text": "我的同学给了五万，家里要给五万帮忙支持一下，然后让我去给家人打电话这样说。",
+      "text": "然后让我去给家人打电话这样说。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 222,
+      "i": 449,
+      "s": 222,
       "start": 1152.51,
-      "end": 1158.99,
-      "text": "其实我家人都知道啊，我打电话纯粹就是说反话嘛，就说这帮人终于要钱了吗？",
+      "end": 1154.11,
+      "text": "其实我家人都知道啊，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 223,
+      "i": 450,
+      "s": 222,
+      "start": 1154.11,
+      "end": 1156.71,
+      "text": "我打电话纯粹就是说反话嘛，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 451,
+      "s": 222,
+      "start": 1156.71,
+      "end": 1158.99,
+      "text": "就说这帮人终于要钱了吗？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 452,
+      "s": 223,
       "start": 1161.38,
       "end": 1163.13,
       "text": "嗯，那天晚。",
@@ -1802,7 +4087,8 @@
       "role": "narrator"
     },
     {
-      "i": 224,
+      "i": 453,
+      "s": 224,
       "start": 1169.82,
       "end": 1172.64,
       "text": "像暴风雨，真的是很大雨。",
@@ -1810,7 +4096,8 @@
       "role": "storyteller"
     },
     {
-      "i": 225,
+      "i": 454,
+      "s": 225,
       "start": 1172.64,
       "end": 1175.54,
       "text": "那个雷啊，劈的那个窗都响了。",
@@ -1818,39 +4105,98 @@
       "role": "storyteller"
     },
     {
-      "i": 226,
+      "i": 455,
+      "s": 226,
       "start": 1175.8,
+      "end": 1176.84,
+      "text": "说实话也很奇怪，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 456,
+      "s": 226,
+      "start": 1176.84,
+      "end": 1178.82,
+      "text": "我当时左眼皮跳了一下，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 457,
+      "s": 226,
+      "start": 1178.82,
       "end": 1181.02,
-      "text": "说实话也很奇怪，我当时左眼皮跳了一下，结果他们突然间遣散。",
+      "text": "结果他们突然间遣散。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 227,
+      "i": 458,
+      "s": 227,
       "start": 1181.34,
+      "end": 1184.6,
+      "text": "他们那个窝点的老大，他来跟我说，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 459,
+      "s": 227,
+      "start": 1184.66,
+      "end": 1186.87,
+      "text": "就很意味深长的跟我说，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 460,
+      "s": 227,
+      "start": 1187.2,
       "end": 1189.1,
-      "text": "他们那个窝点的老大，他来跟我说，就很意味深长的跟我说，好像很有感情一样的，",
+      "text": "好像很有感情一样的，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 228,
+      "i": 461,
+      "s": 228,
       "start": 1189.1,
+      "end": 1191.51,
+      "text": "说你家人已经找到丹阳来了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 462,
+      "s": 228,
+      "start": 1192.04,
       "end": 1195.42,
-      "text": "说你家人已经找到丹阳来了，然后把这边搞了个鸡飞狗跳的行业。",
+      "text": "然后把这边搞了个鸡飞狗跳的行业。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 229,
+      "i": 463,
+      "s": 229,
       "start": 1195.44,
-      "end": 1199.87,
-      "text": "夜里面的老大决定，我今晚上要把你送到镇江火车站去。",
+      "end": 1197.06,
+      "text": "夜里面的老大决定，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 230,
+      "i": 464,
+      "s": 229,
+      "start": 1197.06,
+      "end": 1199.87,
+      "text": "我今晚上要把你送到镇江火车站去。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 465,
+      "s": 230,
       "start": 1200.7,
       "end": 1204.1,
       "text": "然后我现在就打的把你送到那边去。",
@@ -1858,55 +4204,143 @@
       "role": "storyteller"
     },
     {
-      "i": 231,
+      "i": 466,
+      "s": 231,
       "start": 1204.46,
+      "end": 1207.58,
+      "text": "然后我就看到他手机摁了个惠泽苑，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 467,
+      "s": 231,
+      "start": 1207.58,
       "end": 1210.11,
-      "text": "然后我就看到他手机摁了个惠泽苑，那个我就知道那个地方叫惠泽苑。",
+      "text": "那个我就知道那个地方叫惠泽苑。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 232,
+      "i": 468,
+      "s": 232,
       "start": 1211.04,
+      "end": 1212.74,
+      "text": "当时我已经是真的是",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 469,
+      "s": 232,
+      "start": 1212.74,
       "end": 1214.52,
-      "text": "当时我已经是真的是人不人鬼不鬼的出来了。",
+      "text": "人不人鬼不鬼的出来了。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 233,
+      "i": 470,
+      "s": 233,
       "start": 1214.52,
+      "end": 1216.2,
+      "text": "我头发很长，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 471,
+      "s": 233,
+      "start": 1216.2,
+      "end": 1220.02,
+      "text": "他下楼的时候我看了一下门牌嘛，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 472,
+      "s": 233,
+      "start": 1220.02,
       "end": 1221.4,
-      "text": "我头发很长，他下楼的时候我看了一下门牌嘛，我心里默默的记着。",
+      "text": "我心里默默的记着。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 234,
+      "i": 473,
+      "s": 234,
       "start": 1221.42,
+      "end": 1224.48,
+      "text": "这里是叫惠泽苑嘛，下到门口，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 474,
+      "s": 234,
+      "start": 1224.48,
       "end": 1229.46,
-      "text": "这里是叫惠泽苑嘛，下到门口，我发现那个传销窝点里面的人员在附近蹲着。",
+      "text": "我发现那个传销窝点里面的人员在附近蹲着。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 235,
+      "i": 475,
+      "s": 235,
       "start": 1229.62,
+      "end": 1230.54,
+      "text": "后来我才发现，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 476,
+      "s": 235,
+      "start": 1230.54,
+      "end": 1232.28,
+      "text": "原来他们是在把风，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 477,
+      "s": 235,
+      "start": 1232.28,
       "end": 1235.07,
-      "text": "后来我才发现，原来他们是在把风，看我一出去马上转移窝点。",
+      "text": "看我一出去马上转移窝点。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 236,
+      "i": 478,
+      "s": 236,
       "start": 1235.1,
-      "end": 1243.79,
-      "text": "我出去以后来了一个的士嘛，他们滴滴打车叫了十家车之后，他们所谓的老大在半路下车了，",
+      "end": 1237.24,
+      "text": "我出去以后来了一个的士嘛，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 237,
+      "i": 479,
+      "s": 236,
+      "start": 1237.24,
+      "end": 1240.68,
+      "text": "他们滴滴打车叫了十家车之后，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 480,
+      "s": 236,
+      "start": 1240.68,
+      "end": 1243.79,
+      "text": "他们所谓的老大在半路下车了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 481,
+      "s": 237,
       "start": 1243.98,
       "end": 1246.66,
       "text": "然后他跟我说了一句话：“一路保重。”",
@@ -1914,7 +4348,8 @@
       "role": "storyteller"
     },
     {
-      "i": 238,
+      "i": 482,
+      "s": 238,
       "start": 1246.66,
       "end": 1247.56,
       "text": "然后他走了。",
@@ -1922,63 +4357,170 @@
       "role": "storyteller"
     },
     {
-      "i": 239,
+      "i": 483,
+      "s": 239,
       "start": 1247.77,
+      "end": 1250.56,
+      "text": "我就跟司机说：“我说，司机先生，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 484,
+      "s": 239,
+      "start": 1250.56,
+      "end": 1251.48,
+      "text": "不管多少钱，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 485,
+      "s": 239,
+      "start": 1251.48,
+      "end": 1252.86,
+      "text": "我身上有一千来块钱，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 486,
+      "s": 239,
+      "start": 1252.86,
       "end": 1254.09,
-      "text": "我就跟司机说：“我说，司机先生，不管多少钱，我身上有一千来块钱，我全部给你都可以。",
+      "text": "我全部给你都可以。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 240,
+      "i": 487,
+      "s": 240,
       "start": 1254.44,
+      "end": 1257.16,
+      "text": "我说你把我送到那个丹凤酒店去，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 488,
+      "s": 240,
+      "start": 1257.16,
       "end": 1260.39,
-      "text": "我说你把我送到那个丹凤酒店去，那我就去了丹凤酒店嘛。",
+      "text": "那我就去了丹凤酒店嘛。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 241,
+      "i": 489,
+      "s": 241,
       "start": 1261.38,
+      "end": 1266.04,
+      "text": "在那个酒店大概十分钟左右吧，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 490,
+      "s": 241,
+      "start": 1266.04,
       "end": 1268.18,
-      "text": "在那个酒店大概十分钟左右吧，那个派出所的人就来接我嘛。",
+      "text": "那个派出所的人就来接我嘛。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 242,
+      "i": 491,
+      "s": 242,
       "start": 1269.3,
+      "end": 1271.8,
+      "text": "我当时人都是恍惚的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 492,
+      "s": 242,
+      "start": 1271.8,
       "end": 1274.08,
-      "text": "我当时人都是恍惚的，因为当时下大雨要又没下了嘛。”",
+      "text": "因为当时下大雨要又没下了嘛。”",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 243,
+      "i": 493,
+      "s": 243,
       "start": 1274.1,
+      "end": 1276.72,
+      "text": "我当时觉得我终于见到阳光，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 494,
+      "s": 243,
+      "start": 1276.72,
+      "end": 1278.78,
+      "text": "终于见到那个雨水了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 495,
+      "s": 243,
+      "start": 1278.78,
       "end": 1280.98,
-      "text": "我当时觉得我终于见到阳光，终于见到那个雨水了，就基本的天空我都见到了。",
+      "text": "就基本的天空我都见到了。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 244,
+      "i": 496,
+      "s": 244,
       "start": 1282.78,
+      "end": 1284.52,
+      "text": "之后回所里以后，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 497,
+      "s": 244,
+      "start": 1284.52,
+      "end": 1286.16,
+      "text": "所长大人跟我说：",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 498,
+      "s": 244,
+      "start": 1286.16,
       "end": 1288.84,
-      "text": "之后回所里以后，所长大人跟我说：“他说你知道我花了多少精力吗？",
+      "text": "“他说你知道我花了多少精力吗？",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 245,
+      "i": 499,
+      "s": 245,
       "start": 1288.86,
-      "end": 1294.08,
-      "text": "我们他一个多星期、两个多星期都没回家了，天天就为了找你。”",
+      "end": 1292.1,
+      "text": "我们他一个多星期、两个多星期都没回家了，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 246,
+      "i": 500,
+      "s": 245,
+      "start": 1292.1,
+      "end": 1294.08,
+      "text": "天天就为了找你。”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 501,
+      "s": 246,
       "start": 1294.08,
       "end": 1296.66,
       "text": "然后我也很不好意思嘛。",
@@ -1986,63 +4528,197 @@
       "role": "storyteller"
     },
     {
-      "i": 247,
+      "i": 502,
+      "s": 247,
       "start": 1296.66,
+      "end": 1299.42,
+      "text": "之后他就叫了十二个人出来，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 503,
+      "s": 247,
+      "start": 1299.42,
+      "end": 1300.6,
+      "text": "然后叫出来以后，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 504,
+      "s": 247,
+      "start": 1300.6,
       "end": 1302.38,
-      "text": "之后他就叫了十二个人出来，然后叫出来以后，我就站在那个玻璃前面。",
+      "text": "我就站在那个玻璃前面。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 248,
+      "i": 505,
+      "s": 248,
       "start": 1302.51,
-      "end": 1310.95,
-      "text": "他说你去看看有哪几个认识的结果呢那个带我走的那个女人她一出来我就认出她来了就头发长了",
+      "end": 1305.19,
+      "text": "他说你去看看有哪几个认识的",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 249,
-      "start": 1310.95,
-      "end": 1320.13,
-      "text": "很多她低着头不敢看我我说那个带我走的这个女的我认识然后那些民警就说你要确定好我说那女",
+      "i": 506,
+      "s": 248,
+      "start": 1305.19,
+      "end": 1307.53,
+      "text": "结果呢那个带我走的那个女人",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 250,
-      "start": 1320.13,
-      "end": 1328.81,
-      "text": "的化成灰我的认识就是她把我推进去的当时那些民警有问那个女的认不认识我然后她抬起头来她",
+      "i": 507,
+      "s": 248,
+      "start": 1307.53,
+      "end": 1309.87,
+      "text": "她一出来我就认出她来了",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 251,
-      "start": 1328.81,
+      "i": 508,
+      "s": 248,
+      "start": 1309.87,
+      "end": 1311.4,
+      "text": "就头发长了很多",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 509,
+      "s": 249,
+      "start": 1311.65,
+      "end": 1313.83,
+      "text": "她低着头不敢看我",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 510,
+      "s": 249,
+      "start": 1313.83,
+      "end": 1316.73,
+      "text": "我说那个带我走的这个女的我认识",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 511,
+      "s": 249,
+      "start": 1316.73,
+      "end": 1319.47,
+      "text": "然后那些民警就说你要确定好",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 512,
+      "s": 249,
+      "start": 1319.47,
+      "end": 1321.77,
+      "text": "我说那女的化成灰我的认识",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 513,
+      "s": 250,
+      "start": 1321.77,
+      "end": 1323.53,
+      "text": "就是她把我推进去的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 514,
+      "s": 250,
+      "start": 1323.53,
+      "end": 1326.83,
+      "text": "当时那些民警有问那个女的认不认识我",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 515,
+      "s": 250,
+      "start": 1326.83,
+      "end": 1330.43,
+      "text": "然后她抬起头来她就点了一下头说认识啊",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 516,
+      "s": 251,
+      "start": 1333.64,
+      "end": 1336.38,
+      "text": "那天晚上就是跟家人视频嘛，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 517,
+      "s": 251,
+      "start": 1337.24,
       "end": 1339.72,
-      "text": "就点了一下头说认识啊那天晚上就是跟家人视频嘛，就是我妈妈、我弟弟他们呐，",
+      "text": "就是我妈妈、我弟弟他们呐，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 252,
+      "i": 518,
+      "s": 252,
       "start": 1339.72,
+      "end": 1342.3,
+      "text": "就就是要确保我安全呐，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 519,
+      "s": 252,
+      "start": 1342.3,
       "end": 1347.12,
-      "text": "就就是要确保我安全呐，然后就是一直在问我里面的生活是怎么样的呀。",
+      "text": "然后就是一直在问我里面的生活是怎么样的呀。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 253,
+      "i": 520,
+      "s": 253,
       "start": 1347.12,
-      "end": 1354.52,
-      "text": "当时没什么感觉哦，就没有太过于去注重见到家人，像拍电影、拍电视剧那样子啊，",
+      "end": 1349.1,
+      "text": "当时没什么感觉哦，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 254,
+      "i": 521,
+      "s": 253,
+      "start": 1349.1,
+      "end": 1352.2,
+      "text": "就没有太过于去注重见到家人，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 522,
+      "s": 253,
+      "start": 1352.2,
+      "end": 1354.52,
+      "text": "像拍电影、拍电视剧那样子啊，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 523,
+      "s": 254,
       "start": 1354.52,
       "end": 1356,
       "text": "一一阵痛哭啊什么。",
@@ -2050,31 +4726,71 @@
       "role": "storyteller"
     },
     {
-      "i": 255,
+      "i": 524,
+      "s": 255,
       "start": 1356.03,
+      "end": 1357.61,
+      "text": "那种没有，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 525,
+      "s": 255,
+      "start": 1357.63,
       "end": 1360.25,
-      "text": "那种没有，当时的感觉就觉得什么都不在乎了。",
+      "text": "当时的感觉就觉得什么都不在乎了。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 256,
+      "i": 526,
+      "s": 256,
       "start": 1360.69,
+      "end": 1361.79,
+      "text": "我觉得我身上的钱",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 527,
+      "s": 256,
+      "start": 1361.79,
       "end": 1364.61,
-      "text": "我觉得我身上的钱都可以拿去扔掉、丢掉、撕掉都可以。",
+      "text": "都可以拿去扔掉、丢掉、撕掉都可以。",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 257,
+      "i": 528,
+      "s": 257,
       "start": 1364.95,
-      "end": 1371.35,
-      "text": "我就觉得我什么都不想要了，我只想要个自由，可以有自己的自由，",
+      "end": 1367.11,
+      "text": "我就觉得我什么都不想要了，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 258,
+      "i": 529,
+      "s": 257,
+      "start": 1367.11,
+      "end": 1369.11,
+      "text": "我只想要个自由，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 530,
+      "s": 257,
+      "start": 1369.63,
+      "end": 1371.35,
+      "text": "可以有自己的自由，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 531,
+      "s": 258,
       "start": 1371.35,
       "end": 1375.7,
       "text": "可以每天准时准点按时睡觉休息都好。",
@@ -2082,7 +4798,8 @@
       "role": "storyteller"
     },
     {
-      "i": 259,
+      "i": 532,
+      "s": 259,
       "start": 1378.07,
       "end": 1381.53,
       "text": "后来到了中午，他们带我去吃饭，那些。",
@@ -2090,15 +4807,26 @@
       "role": "storyteller"
     },
     {
-      "i": 260,
+      "i": 533,
+      "s": 260,
       "start": 1381.56,
-      "end": 1387.06,
-      "text": "民警全部在看着我，整个食堂几十个人都在看着我。",
+      "end": 1383.92,
+      "text": "民警全部在看着我，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 261,
+      "i": 534,
+      "s": 260,
+      "start": 1383.92,
+      "end": 1387.06,
+      "text": "整个食堂几十个人都在看着我。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 535,
+      "s": 261,
       "start": 1387.08,
       "end": 1388.9,
       "text": "我当时觉得好丢脸啊！",
@@ -2106,7 +4834,8 @@
       "role": "storyteller"
     },
     {
-      "i": 262,
+      "i": 536,
+      "s": 262,
       "start": 1388.9,
       "end": 1390.88,
       "text": "他们为什么全部看着我？",
@@ -2114,15 +4843,35 @@
       "role": "storyteller"
     },
     {
-      "i": 263,
+      "i": 537,
+      "s": 263,
       "start": 1392.64,
-      "end": 1398.5,
-      "text": "后来一个老民警跟我说：“他说这里的人全部都认识你，你不用害怕。”",
+      "end": 1394.96,
+      "text": "后来一个老民警跟我说：",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 264,
+      "i": 538,
+      "s": 263,
+      "start": 1394.96,
+      "end": 1397.36,
+      "text": "“他说这里的人全部都认识你，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 539,
+      "s": 263,
+      "start": 1397.36,
+      "end": 1398.5,
+      "text": "你不用害怕。”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 540,
+      "s": 264,
       "start": 1398.5,
       "end": 1401.56,
       "text": "我说：“我说为什么会全部都认识我呢？”",
@@ -2130,7 +4879,8 @@
       "role": "storyteller"
     },
     {
-      "i": 265,
+      "i": 541,
+      "s": 265,
       "start": 1401.56,
       "end": 1405.12,
       "text": "他说：“他们每个人的手机里面都有你的照片。”",
@@ -2138,15 +4888,26 @@
       "role": "storyteller"
     },
     {
-      "i": 266,
+      "i": 542,
+      "s": 266,
       "start": 1405.12,
-      "end": 1408.18,
-      "text": "他说：“当时找你的时候啊，所有的人都有出动啊。”",
+      "end": 1406.92,
+      "text": "他说：“当时找你的时候啊，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 267,
+      "i": 543,
+      "s": 266,
+      "start": 1406.92,
+      "end": 1408.18,
+      "text": "所有的人都有出动啊。”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 544,
+      "s": 267,
       "start": 1408.36,
       "end": 1412,
       "text": "然后我就觉得很感动。",
@@ -2154,15 +4915,35 @@
       "role": "storyteller"
     },
     {
-      "i": 268,
+      "i": 545,
+      "s": 268,
       "start": 1413.12,
-      "end": 1421.72,
-      "text": "那时候吃的话，吃好多饭了，觉得觉得这些东西就觉得好像好珍贵啊！",
+      "end": 1414.34,
+      "text": "那时候吃的话，",
       "speaker": "A",
       "role": "storyteller"
     },
     {
-      "i": 269,
+      "i": 546,
+      "s": 268,
+      "start": 1414.34,
+      "end": 1415.66,
+      "text": "吃好多饭了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 547,
+      "s": 268,
+      "start": 1415.66,
+      "end": 1421.72,
+      "text": "觉得觉得这些东西就觉得好像好珍贵啊！",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 548,
+      "s": 269,
       "start": 1421.74,
       "end": 1423.92,
       "text": "我觉得好美味啊，你知道吗？",
@@ -2170,7 +4951,8 @@
       "role": "storyteller"
     },
     {
-      "i": 270,
+      "i": 549,
+      "s": 270,
       "start": 1423.92,
       "end": 1425.64,
       "text": "其实就很想哭吧。",
@@ -2178,23 +4960,53 @@
       "role": "storyteller"
     },
     {
-      "i": 271,
+      "i": 550,
+      "s": 271,
       "start": 1430.86,
+      "end": 1433.26,
+      "text": "从二零一六年六月九号到七月六号，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 551,
+      "s": 271,
+      "start": 1433.26,
       "end": 1434.66,
-      "text": "从二零一六年六月九号到七月六号，萨尔一共被囚禁了二十。",
+      "text": "萨尔一共被囚禁了二十。",
       "speaker": "B",
       "role": "narrator"
     },
     {
-      "i": 272,
+      "i": 552,
+      "s": 272,
       "start": 1434.69,
-      "end": 1441.29,
-      "text": "十八天，逃出当天，派出所的民警就根据他的记忆找到了那个传销窝点的位置，",
+      "end": 1436.87,
+      "text": "十八天，逃出当天，",
       "speaker": "B",
       "role": "narrator"
     },
     {
-      "i": 273,
+      "i": 553,
+      "s": 272,
+      "start": 1436.87,
+      "end": 1437.61,
+      "text": "派出所的民警",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 554,
+      "s": 272,
+      "start": 1437.61,
+      "end": 1441.29,
+      "text": "就根据他的记忆找到了那个传销窝点的位置，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 555,
+      "s": 273,
       "start": 1441.29,
       "end": 1442.53,
       "text": "但是已经人去楼空。",
@@ -2202,23 +5014,44 @@
       "role": "narrator"
     },
     {
-      "i": 274,
+      "i": 556,
+      "s": 274,
       "start": 1443.55,
+      "end": 1446.47,
+      "text": "萨瑞一直就没有见过那个骗他进去的网友，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 557,
+      "s": 274,
+      "start": 1446.85,
       "end": 1448.91,
-      "text": "萨瑞一直就没有见过那个骗他进去的网友，但是在被囚禁的那段时间里，",
+      "text": "但是在被囚禁的那段时间里，",
       "speaker": "B",
       "role": "narrator"
     },
     {
-      "i": 275,
+      "i": 558,
+      "s": 275,
       "start": 1448.91,
-      "end": 1454.48,
-      "text": "他见过那个网友的哥哥，那个网友就是被自己的亲哥哥拉入传销的。",
+      "end": 1450.51,
+      "text": "他见过那个网友的哥哥，",
       "speaker": "B",
       "role": "narrator"
     },
     {
-      "i": 276,
+      "i": 559,
+      "s": 275,
+      "start": 1450.85,
+      "end": 1454.48,
+      "text": "那个网友就是被自己的亲哥哥拉入传销的。",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 560,
+      "s": 276,
       "start": 1460.76,
       "end": 1468.15,
       "text": "你好，我是爱哲，感谢你的收听。",
@@ -2226,7 +5059,8 @@
       "role": "narrator"
     },
     {
-      "i": 277,
+      "i": 561,
+      "s": 277,
       "start": 1468.24,
       "end": 1470.82,
       "text": "本期节目由我制作，声音编辑彭涵。",
@@ -2234,15 +5068,26 @@
       "role": "narrator"
     },
     {
-      "i": 278,
+      "i": 562,
+      "s": 278,
       "start": 1471.18,
-      "end": 1476.94,
-      "text": "如果你有故事愿意讲出来，欢迎到微信公众号“故事FM”留下你的联系方式，",
+      "end": 1473.14,
+      "text": "如果你有故事愿意讲出来，",
       "speaker": "B",
       "role": "narrator"
     },
     {
-      "i": 279,
+      "i": 563,
+      "s": 278,
+      "start": 1473.14,
+      "end": 1476.94,
+      "text": "欢迎到微信公众号“故事FM”留下你的联系方式，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 564,
+      "s": 279,
       "start": 1476.94,
       "end": 1478.67,
       "text": "我会第一时间联系到你。",
@@ -2250,15 +5095,26 @@
       "role": "narrator"
     },
     {
-      "i": 280,
+      "i": 565,
+      "s": 280,
       "start": 1478.92,
-      "end": 1482.83,
-      "text": "推荐使用语音留言，让我也能听见你的声音。",
+      "end": 1480.68,
+      "text": "推荐使用语音留言，",
       "speaker": "B",
       "role": "narrator"
     },
     {
-      "i": 281,
+      "i": 566,
+      "s": 280,
+      "start": 1480.68,
+      "end": 1482.83,
+      "text": "让我也能听见你的声音。",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 567,
+      "s": 281,
       "start": 1486.29,
       "end": 1487.49,
       "text": "嗯。",

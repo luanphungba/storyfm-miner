@@ -87,7 +87,7 @@ const USAGE = `storyfm — transcript cho 故事FM
   storyfm list [--limit 20]     liệt kê tập (✓ = đã có transcript)
   storyfm add E910              transcribe một tập
     --force                     transcribe lại dù đã có (tốn tiền)
-    --resegment                 cắt lại câu từ data/raw/, không gọi API (miễn phí)
+    --resegment                 dựng lại từ data/raw/ + corrections + cuts, không gọi API
     --narrator B                chỉ định speaker nào là người dẫn
 
   storyfm models                liệt kê model ASR, → là cái đang dùng
