@@ -260,9 +260,26 @@ h1 {
 
 #gloss { position: relative; }
 
-.g-mine {
+.g-actions {
   float: right;
-  margin: 0 0 4px 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0 -4px 4px 8px;
+}
+
+.g-close {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--muted);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.g-mine {
   padding: 6px 12px;
   border: 1px solid var(--accent);
   border-radius: 999px;

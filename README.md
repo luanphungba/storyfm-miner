@@ -84,8 +84,9 @@ Not yet: generated word/example audio (the card's link replays the real line ins
 ## Tap a word, get its meaning
 
 The player renders each line as word spans and shows a card when one is tapped: reading, Hán Việt,
-a one-line Vietnamese meaning, then the HSK band and how often the word is said. Tapping a word does
-not move the audio; tapping anywhere else on the line still seeks, as it always did. Nothing on the
+a one-line Vietnamese meaning, then the HSK band and how often the word is said. Tapping a word pauses
+the audio while the card is read, and its ✕ carries on from the same place; tapping anywhere else on
+the line still seeks and plays, as it always did. Nothing on the
 transcript is marked, because marking was measured and did not pay: colouring every word at HSK 1-3
 lit up 73% of the page, since almost everything spoken is common vocabulary.
 

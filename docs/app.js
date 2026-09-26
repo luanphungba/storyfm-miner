@@ -45,6 +45,8 @@ let gloss = null;
 let loop = null;
 let currentIndex = -1;
 let lastManualScrollAt = 0;
+/** Set when a tapped word paused the audio, so closing its card picks the listening back up. */
+let resumeOnClose = false;
 
 const formatTime = (/** @type {number} */ seconds) =>
   `${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, '0')}`;
@@ -196,7 +198,16 @@ function showGloss(/** @type {HTMLElement} */ span) {
   const level = span.dataset.name ? 'tên riêng' : band ? `HSK ${band === '7' ? '7-9' : band}` : 'ngoài HSK';
   const times = Number(span.dataset.count);
   line('g-meta', `${level} · gặp ${times} lần trong các tập đã có`);
-  card.prepend(miner.button(wordContext(span)));
+  const actions = document.createElement('div');
+  actions.className = 'g-actions';
+  const close = document.createElement('button');
+  close.className = 'g-close';
+  close.type = 'button';
+  close.textContent = '✕';
+  close.setAttribute('aria-label', 'Đóng và nghe tiếp');
+  close.onclick = hideGloss;
+  actions.append(miner.button(wordContext(span)), close);
+  card.prepend(actions);
   card.hidden = false;
 }
 
@@ -227,7 +238,12 @@ function hideGloss() {
   card.hidden = true;
   openWord?.classList.remove('is-open');
   openWord = null;
+  if (resumeOnClose) audio.play();
+  resumeOnClose = false;
 }
+
+// Pressing play by hand has already resumed; closing the card later must not replay anything.
+audio.addEventListener('play', () => { resumeOnClose = false; });
 
 // ---------- playback ----------
 
@@ -307,19 +323,24 @@ cueBox.addEventListener('click', (event) => {
     return;
   }
 
-  // Tapping a word is reading, not listening: it must not move the audio, or looking a word up
-  // throws away the line you were on. The rest of the row still seeks, as it always did.
-  // The exception is a loop on some other line: tapping here means you have moved on from it.
+  // Tapping a word is reading, not listening: the audio stops while the card is read, and closing
+  // the card carries on from the same place. Playing on would only lose the line, as nobody takes in
+  // speech while reading a meaning. The rest of the row still seeks and plays, as it always did.
+  // The exception is a loop on some other line: tapping here means you have moved on from it, so
+  // the audio waits at the start of this line instead.
   if (target.classList.contains('w')) {
+    const wasPlaying = !audio.paused;
     showGloss(target);
     if (loop && !(start < loop.end && loop.start < end)) {
       stopLoop();
       audio.currentTime = start;
-      audio.play();
     }
+    audio.pause();
+    resumeOnClose ||= wasPlaying;
     return;
   }
 
+  resumeOnClose = false; // this line plays instead
   hideGloss();
   stopLoop();
   audio.currentTime = start;
