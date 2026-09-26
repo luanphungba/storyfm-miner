@@ -62,6 +62,23 @@ The command reports the share of cues ending in 。！？ as a punctuation-quali
 means the ASR barely punctuated and the episode needs a look** before going further — tell the user
 and ask whether to continue rather than pushing ahead silently.
 
+### Put back the first word of lines that skip it
+
+AssemblyAI gives some words no length at all and parks them on the start of the next word, so a line
+starting on one plays without its first syllable (E001's 就是装修都很好嘛 looped as 装修都很好嘛). Right
+after transcribing, read the real starts off the audio and rebuild:
+
+```
+node tools/onsets.mjs <ID>                      # downloads the mp3 once to tools/.cache/, needs ffmpeg
+node bin/storyfm.js add <ID> --resegment        # free, replays data/onsets/ onto the words
+```
+
+It prints how many words were collapsed and how many it moved — across the first five episodes it moved
+about one in ten. It only ever moves a start back to the end of a pause no more than 400ms a character away, and
+leaves the rest alone, so there is nothing to review by hand. Every later `--resegment` (corrections,
+cuts) replays the same ledger. After a `--force` transcription the ledger is stale and the build
+says so: rerun `tools/onsets.mjs`.
+
 ## 3. Check transcript quality
 
 Invoke the `verify-transcript` skill for this episode id. It does its own full read of the
@@ -118,7 +135,7 @@ check each is assigned correctly rather than assuming.
 ## 6. Stage, summarize, confirm — don't commit or push on your own
 
 These steps together touch: `data/raw/<id>.json`, `docs/data/<id>.json`, `docs/data/index.json`,
-`data/corrections/<id>.json`, `data/cuts/<id>.json`, the two sidecars `docs/data/<id>.tok.json` and
+`data/onsets/<id>.json`, `data/corrections/<id>.json`, `data/cuts/<id>.json`, the two sidecars `docs/data/<id>.tok.json` and
 `docs/data/<id>.gloss.json`, and `tools/gloss-vi.json`. Note that `build_tokens.py` recounts word
 frequencies across every episode, so the other episodes' `.tok.json` files change too — that is
 expected, not a stray edit. Run `git status --short` to show exactly
@@ -126,6 +143,7 @@ what changed, then give the user a short summary:
 
 - episode id + title
 - punctuation-quality % (and whether it's a concern)
+- how many words `tools/onsets.mjs` moved
 - sentences → lines from split-cues, and any line it left over 15 characters
 - how many fixes verify-transcript made, and — this is the important part — every `flagged` entry
   by name, since those are the spots where the transcript might not match the audio

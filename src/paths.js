@@ -16,6 +16,8 @@ export const paths = {
   corrections: (/** @type {string} */ id) => join(ROOT, 'data', 'corrections', `${id}.json`),
   /** Where each sentence is cut into lines — see src/cuts.js. */
   cuts: (/** @type {string} */ id) => join(ROOT, 'data', 'cuts', `${id}.json`),
+  /** Where words the ASR collapsed really start, found in the audio — see tools/onsets.mjs. */
+  onsets: (/** @type {string} */ id) => join(ROOT, 'data', 'onsets', `${id}.json`),
   episode: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.json`),
   index: join(ROOT, 'docs', 'data', 'index.json'),
 };

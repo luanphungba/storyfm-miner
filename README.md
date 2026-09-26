@@ -23,7 +23,8 @@ storyfm sync                  # refresh data/feed.xml from the RSS feed
 storyfm list --limit 20       # list episodes (✓ = transcript exists)
 storyfm add E077              # transcribe one episode (~$0.06 for 13 minutes)
 storyfm add E077 --force      # redo an episode that already has one
-storyfm add E077 --resegment  # rebuild from data/raw + corrections + cuts (free, no API call)
+node tools/onsets.mjs E077    # find in the audio where words the ASR collapsed really start
+storyfm add E077 --resegment  # rebuild from data/raw + onsets + corrections + cuts (free, no API call)
 storyfm add E077 --narrator B # override which speaker is the host
 
 npm test                      # unit tests
@@ -34,25 +35,27 @@ node tools/build_gloss.mjs    # build the gloss the player shows on a tap
 node tools/audit.mjs          # cross-check both against sources that did not build them
 ```
 
-`add` does not commit. Review the result, then commit `docs/data`, `data/raw`, `data/corrections` and `data/cuts` yourself.
+`add` does not commit. Review the result, then commit `docs/data`, `data/raw`, `data/onsets`, `data/corrections` and `data/cuts` yourself.
 
 ## How it works
 
 ```
 RSS (data/feed.xml)
   └─ enclosure URL ──► AssemblyAI (audio_url — their servers fetch it, nothing is uploaded)
-                          └─ words[] ──► segment.js ──► cuts.js ──► roles.js ──► docs/data/E077.json
-                                         (sentences)     ▲
-                                  data/corrections/ ─────┤  fixes, by sentence
-                                  data/cuts/ ────────────┘  where each sentence is cut into lines
-                                                                        │
-                            docs/player.html ◄───────────────────────────┘
+                          └─ words[] ──► onsets.js ──► segment.js ──► cuts.js ──► roles.js ──► docs/data/E077.json
+                             data/onsets/ ───┘          (sentences)      ▲
+                                                 data/corrections/ ──────┤  fixes, by sentence
+                                                 data/cuts/ ─────────────┘  where each sentence is cut into lines
+                                                                                                   │
+                            docs/player.html ◄─────────────────────────────────────────────────────┘
 ```
 
 | | |
 |---|---|
 | `src/feed.js` | Fetch and parse the RSS feed — the source of truth for ids, titles and audio URLs |
 | `src/asr.js` | AssemblyAI: submit `audio_url`, poll until done |
+| `src/onsets.js` | AssemblyAI gives some words no length and parks them on the next word, so a line starting on one skips its first syllable (就是装修… plays as 装修…). Moves each such word back to the end of the pause before it, as `data/onsets/` says. Pure, tested |
+| `tools/onsets.mjs` | Writes `data/onsets/<id>.json` from the episode's audio (downloaded once to `tools/.cache/`, decoded with ffmpeg) |
 | `src/segment.js` | Cut the word list into sentences. Pure, tested |
 | `src/cuts.js` | Replay the transcript fixes, then cut each sentence into short lines (~13 characters) as `data/cuts/` says. Refuses any cut that would change a character or split audio the ASR stacked on one timestamp. Pure, tested |
 | `tools/cuts.mjs` | Where the `split-cues` skill marks cuts: `show`, `apply`, `report` |

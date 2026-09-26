@@ -13,6 +13,7 @@ import { loadFeed } from './feed.js';
 import { transcribe } from './asr.js';
 import { toSentences, punctuationRate } from './segment.js';
 import { splitSentence, joinSentences } from './cuts.js';
+import { applyOnsets } from './onsets.js';
 import { assignRoles, speakingTime, narratorShare } from './roles.js';
 
 /** Below this share of cues ending on 。！？ the ASR barely punctuated and the cuts are guesses. */
@@ -43,7 +44,7 @@ export async function buildEpisode(episode, { force = false, resegment = false, 
 
   console.log(`${episode.id} · ${episode.title}`);
   const raw = resegment ? await loadRaw(episode.id) : await runAsr(episode);
-  const lines = await toLines(episode.id, raw.words ?? []);
+  const lines = await toLines(episode.id, await withOnsets(episode.id, raw.words ?? []));
   const cues = assignRoles(lines, narrator ?? (resegment ? await currentNarrator(episode.id) : undefined));
   if (!cues.length) {
     throw new Error('AssemblyAI không trả về câu nào — xem data/raw/ để biết nó nghe ra gì.');
@@ -113,6 +114,16 @@ function withUnits(lines, joins) {
     return /** @type {number} */ (unit.get(s));
   };
   return lines.map((line) => (unitOf(line.s) === line.s ? line : { ...line, u: unitOf(line.s) }));
+}
+
+/** The ASR words with data/onsets/ replayed: where the audio says the collapsed ones start. */
+async function withOnsets(/** @type {string} */ id, /** @type {import('./segment.js').Word[]} */ words) {
+  const ledger = await readJsonOr(paths.onsets(id), { words: {} });
+  try {
+    return applyOnsets(words, ledger.words);
+  } catch (error) {
+    throw new Error(`data/onsets/${id}.json lệch với data/raw/ (${/** @type {Error} */ (error).message}) — chạy lại node tools/onsets.mjs ${id}`);
+  }
 }
 
 /** A rebuild keeps whichever speaker was the narrator, so a past --narrator is not silently lost. */
