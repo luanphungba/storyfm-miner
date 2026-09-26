@@ -8,6 +8,7 @@
   --accent: #c0392b;
   --accent-soft: #fdf0ee;
   --narrator: #8b6f3e;
+  --zh-size: 19px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -125,7 +126,8 @@ h1 {
 .cue .time {
   flex: none;
   width: 44px;
-  padding-top: 5px;
+  /* Keeps the timestamp level with the first line of Chinese at any reading size. */
+  padding-top: calc(var(--zh-size) * 0.875 - 11px);
   color: var(--muted);
   font-size: 12px;
   font-variant-numeric: tabular-nums;
@@ -133,7 +135,7 @@ h1 {
 
 /* Chinese needs the extra leading and size to stay readable at a glance while listening. */
 .cue .zh {
-  font-size: 19px;
+  font-size: var(--zh-size);
   line-height: 1.75;
   font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
   user-select: text;

@@ -364,6 +364,39 @@ for (const button of speedButtons) {
 const savedRate = Number(localStorage.getItem(SPEED_STORAGE_KEY));
 if (savedRate) setRate(savedRate);
 
+// ---------- reading size (remembered across episodes, bigger for tired eyes) ----------
+
+const FONT_STORAGE_KEY = 'ci-zh-font-size';
+const FONT_SIZES = [15, 17, 19, 22, 25, 29, 33, 38];
+const DEFAULT_FONT_SIZE = 19;
+const fontSmaller = /** @type {HTMLButtonElement} */ ($('font-smaller'));
+const fontLarger = /** @type {HTMLButtonElement} */ ($('font-larger'));
+let fontSize = DEFAULT_FONT_SIZE;
+
+function setFontSize(/** @type {number} */ size) {
+  fontSize = size;
+  document.documentElement.style.setProperty('--zh-size', `${size}px`);
+  fontSmaller.disabled = size <= FONT_SIZES[0];
+  fontLarger.disabled = size >= FONT_SIZES[FONT_SIZES.length - 1];
+  localStorage.setItem(FONT_STORAGE_KEY, String(size));
+}
+
+/** Resizing reflows every line above, so keep the line being heard where it was on screen. */
+function stepFontSize(/** @type {number} */ step) {
+  const index = FONT_SIZES.indexOf(fontSize) + step;
+  if (index < 0 || index >= FONT_SIZES.length) return;
+  const anchor = cueBox.querySelector('.cue.is-now');
+  const before = anchor?.getBoundingClientRect().top;
+  setFontSize(FONT_SIZES[index]);
+  if (anchor && before !== undefined) scrollBy(0, anchor.getBoundingClientRect().top - before);
+}
+
+fontSmaller.addEventListener('click', () => stepFontSize(-1));
+fontLarger.addEventListener('click', () => stepFontSize(1));
+
+const savedFontSize = Number(localStorage.getItem(FONT_STORAGE_KEY));
+setFontSize(FONT_SIZES.includes(savedFontSize) ? savedFontSize : DEFAULT_FONT_SIZE);
+
 // ---------- loop segment (hand-picked start/end, kept in the URL to share or bookmark) ----------
 
 const loopStartInput = /** @type {HTMLInputElement} */ ($('loop-start'));
