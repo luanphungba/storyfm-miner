@@ -8,6 +8,9 @@
 // position, so the rendered order must always match the cues array. Filtering therefore hides cues
 // with CSS rather than removing them.
 
+import { CONTEXT_LINES, markLine } from './card.js';
+import { initMiner } from './miner.js';
+
 const CUE_LANG = 'zh-Hans';
 const CHANNEL = 'ci-timedtext';
 const REQUEST = 'ci-timedtext-req';
@@ -28,6 +31,8 @@ const episodeId = params.get('ep');
 
 /** @type {{ i: number, start: number, end: number, text: string, speaker: string, role: string }[]} */
 let cues = [];
+/** @type {{ id: string, title: string }} */
+let episode = { id: '', title: '' };
 
 /** Word spans and their glosses, both built offline — see tools/build_tokens.py and build_gloss.py.
  * They arrive after the transcript is already on screen: the page has to be readable without them,
@@ -60,14 +65,15 @@ async function load() {
     return;
   }
 
-  const episode = await response.json();
-  cues = episode.cues;
+  const data = await response.json();
+  cues = data.cues;
+  episode = { id: data.id, title: data.title };
 
-  document.title = episode.title;
-  $('title').textContent = episode.title;
-  $('meta').textContent = `${episode.pubDate} · ${formatTime(episode.duration)} · ${cues.length} câu`;
+  document.title = data.title;
+  $('title').textContent = data.title;
+  $('meta').textContent = `${data.pubDate} · ${formatTime(data.duration)} · ${cues.length} câu`;
 
-  audio.src = episode.audio.m4a ?? episode.audio.mp3;
+  audio.src = data.audio.m4a ?? data.audio.mp3;
   render();
   announce('cues', { lang: CUE_LANG, cues });
   applyDeepLink();
@@ -167,6 +173,7 @@ function showGloss(/** @type {HTMLElement} */ span) {
   span.classList.add('is-open');
   openWord = span;
 
+  card.classList.remove('is-mining');
   card.innerHTML = '';
   const line = (className, text) => {
     if (!text) return;
@@ -189,8 +196,32 @@ function showGloss(/** @type {HTMLElement} */ span) {
   const level = span.dataset.name ? 'tên riêng' : band ? `HSK ${band === '7' ? '7-9' : band}` : 'ngoài HSK';
   const times = Number(span.dataset.count);
   line('g-meta', `${level} · gặp ${times} lần trong các tập đã có`);
+  card.prepend(miner.button(wordContext(span)));
   card.hidden = false;
 }
+
+/** The tapped word as the miner needs it: its line with the word marked, and the lines around it. */
+function wordContext(/** @type {HTMLElement} */ span) {
+  const index = [...cueBox.children].indexOf(/** @type {Element} */ (span.closest('.cue')));
+  const cue = cues[index];
+  const word = span.textContent ?? '';
+  let start = 0;
+  for (let node = span.previousSibling; node; node = node.previousSibling) start += node.textContent?.length ?? 0;
+  return {
+    word,
+    cue,
+    marked: markLine(cue.text, start, word.length),
+    context: cues.slice(Math.max(0, index - CONTEXT_LINES), index + CONTEXT_LINES + 1).map((c) => c.text),
+    episode,
+    audioSrc: audio.currentSrc || audio.src,
+  };
+}
+
+const miner = initMiner({
+  card,
+  close: hideGloss,
+  playLine: (cue) => startLoop(cue.start, cue.end, 1),
+});
 
 function hideGloss() {
   card.hidden = true;

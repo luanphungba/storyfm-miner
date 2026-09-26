@@ -20,6 +20,7 @@
     <button class="chip" id="copy" type="button" title="Chép các câu đang hiện, mỗi câu một dòng">Copy text</button>
     <button class="chip" id="font-smaller" type="button" title="Chữ nhỏ hơn" aria-label="Chữ nhỏ hơn">A−</button>
     <button class="chip" id="font-larger" type="button" title="Chữ to hơn" aria-label="Chữ to hơn">A+</button>
+    <button class="chip" id="anki-settings" type="button" title="Kết nối server Anki">Anki</button>
     <a class="chip" href="index.html" style="text-decoration:none">← Danh sách</a>
   </div>
 
@@ -51,6 +52,26 @@
   </div>
   <audio id="audio" controls preload="metadata"></audio>
 </div>
+
+<dialog id="anki-dialog">
+  <form id="anki-form">
+    <h2>Kết nối Anki</h2>
+    <p class="note">Server giữ một bản collection và sync qua AnkiWeb. Nhập một lần, trình duyệt này sẽ nhớ.</p>
+    <label>Địa chỉ server
+      <input id="anki-url" type="url" required placeholder="https://anki.luanphung.com" autocomplete="off" autocapitalize="off" spellcheck="false">
+    </label>
+    <label>Token
+      <input id="anki-token" type="password" required autocomplete="off">
+    </label>
+    <p class="anki-status" id="anki-status" role="status"></p>
+    <div class="dialog-actions">
+      <button class="chip" id="anki-forget" type="button" hidden>Ngắt kết nối</button>
+      <span class="spacer"></span>
+      <button class="chip" id="anki-cancel" type="button">Huỷ</button>
+      <button class="chip is-primary" id="anki-save" type="submit">Lưu &amp; kiểm tra</button>
+    </div>
+  </form>
+</dialog>
 
 <script type="module" src="app.js"></script>
 </body>

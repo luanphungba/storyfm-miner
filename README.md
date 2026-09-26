@@ -60,6 +60,27 @@ RSS (data/feed.xml)
 | `src/build.js` | Assemble the episode file and index. Written once, via a temp file |
 | `docs/` | GitHub Pages root. Vanilla HTML/CSS/JS, no build step |
 
+## Tap ＋ Anki, get a card — on the phone too
+
+The word card has a **＋ Anki** button. DeepSeek reads the tapped word in its line (and may widen it to
+the phrase it belongs to), the card shows what it found — meaning editable — and one more tap adds a
+`CI-Chinese-YouTube` note to `Chinese::Mining`: the same note, field for field, as the CI Miner
+extension adds on the desktop. A word already in Anki offers **↺ Học lại** instead, as the extension does.
+
+The page talks to `server/miner.py`, which keeps its own copy of the collection and syncs it through
+AnkiWeb like any other device. It only ever downloads a full collection, never uploads one, so reviews
+done elsewhere cannot be overwritten from it. The first time, the **Anki** chip asks for the server
+address and token; the browser remembers them.
+
+```bash
+uv venv server/.venv && uv pip install --python server/.venv/bin/python -r server/requirements.txt
+cp server/.env.example server/.env        # token, DeepSeek key
+server/.venv/bin/python server/miner.py login   # AnkiWeb account, then the first download
+server/.venv/bin/python server/miner.py serve   # behind HTTPS (Caddy) in production
+```
+
+Not yet: generated word/example audio (the card's link replays the real line instead) and stroke order.
+
 ## Tap a word, get its meaning
 
 The player renders each line as word spans and shows a card when one is tapped: reading, Hán Việt,

@@ -5,3 +5,8 @@ node_modules/
 # Fake transcript used to eyeball the player before a real episode exists.
 docs/data/DEMO.json
 tools/.cache/
+
+# The server's copy of the Anki collection, and its secrets.
+server/data/
+server/.env
+server/.venv/
