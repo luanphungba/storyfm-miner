@@ -1,0 +1,248 @@
+{
+  "episode": "E081",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-09-27",
+  "fixes": [
+    {
+      "cueIndex": 0,
+      "before": " M，我是艾",
+      "after": "M，我是爱",
+      "source": "known-phrase",
+      "reason": "Matches a known recurring mistake in the show's fixed script (scripts/known-fixes.json).",
+      "appliedAt": "2026-09-26"
+    },
+    {
+      "cueIndex": 10,
+      "before": " ace ",
+      "after": "ace",
+      "source": "known-phrase",
+      "reason": "Matches a known recurring mistake in the show's fixed script (scripts/known-fixes.json).",
+      "appliedAt": "2026-09-26"
+    },
+    {
+      "cueIndex": 20,
+      "before": " uchi Travel ",
+      "after": "uchiTravel",
+      "source": "known-phrase",
+      "reason": "Matches a known recurring mistake in the show's fixed script (scripts/known-fixes.json).",
+      "appliedAt": "2026-09-26"
+    },
+    {
+      "cueIndex": 78,
+      "before": " ace ",
+      "after": "ace",
+      "source": "known-phrase",
+      "reason": "Matches a known recurring mistake in the show's fixed script (scripts/known-fixes.json).",
+      "appliedAt": "2026-09-26"
+    },
+    {
+      "cueIndex": 86,
+      "before": " art ",
+      "after": "art",
+      "source": "known-phrase",
+      "reason": "Matches a known recurring mistake in the show's fixed script (scripts/known-fixes.json).",
+      "appliedAt": "2026-09-26"
+    },
+    {
+      "cueIndex": 287,
+      "before": " ",
+      "after": "",
+      "source": "known-phrase",
+      "reason": "Matches a known recurring mistake in the show's fixed script (scripts/known-fixes.json).",
+      "appliedAt": "2026-09-26"
+    },
+    {
+      "cueIndex": 311,
+      "before": " M》，我是主播艾",
+      "after": "M》，我是主播爱",
+      "source": "known-phrase",
+      "reason": "Matches a known recurring mistake in the show's fixed script (scripts/known-fixes.json).",
+      "appliedAt": "2026-09-26"
+    },
+    {
+      "cueIndex": 5,
+      "before": "史祥普",
+      "after": "史祥莆",
+      "source": "llm-review",
+      "reason": "史祥莆 — 大象公会《大史记》 creator; LinkedIn profile confirms the spelling.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 8,
+      "before": "史祥普",
+      "after": "史祥莆",
+      "source": "llm-review",
+      "reason": "史祥莆 — 大象公会《大史记》 creator; LinkedIn profile confirms the spelling.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 9,
+      "before": "史祥普",
+      "after": "史祥莆",
+      "source": "llm-review",
+      "reason": "史祥莆 — 大象公会《大史记》 creator; LinkedIn profile confirms the spelling.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 298,
+      "before": "石祥普",
+      "after": "史祥莆",
+      "source": "llm-review",
+      "reason": "史祥莆 — 大象公会《大史记》 creator; LinkedIn profile confirms the spelling.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 14,
+      "before": "今日城广场",
+      "after": "金日成广场",
+      "source": "llm-review",
+      "reason": "Kim Il-sung (金日成); the same name appears correctly in cues 30–31.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 15,
+      "before": "今日城综合大学",
+      "after": "金日成综合大学",
+      "source": "llm-review",
+      "reason": "Kim Il-sung (金日成); the same name appears correctly in cues 30–31.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 20,
+      "before": "JuchiTravelService",
+      "after": "Juche Travel Service",
+      "source": "llm-review",
+      "reason": "The London agency is Juche Travel Services (confirmed by search); glue pass had also removed the real spaces.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 31,
+      "before": "金亨济师范大学",
+      "after": "金亨稷师范大学",
+      "source": "llm-review",
+      "reason": "Kim Hyong Jik University of Education — 金亨稷, Kim Il-sung's father; Juche Travel's summer school is held there.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 154,
+      "before": "新一周",
+      "after": "新义州",
+      "source": "llm-review",
+      "reason": "新义州 (Sinuiju), the border city across the Yalu; correct in cues 184–189.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 159,
+      "before": "新益州",
+      "after": "新义州",
+      "source": "llm-review",
+      "reason": "新义州 (Sinuiju), the border city across the Yalu; correct in cues 184–189.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 160,
+      "before": "新益州",
+      "after": "新义州",
+      "source": "llm-review",
+      "reason": "新义州 (Sinuiju), the border city across the Yalu; correct in cues 184–189.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 198,
+      "before": "新一周",
+      "after": "新义州",
+      "source": "llm-review",
+      "reason": "新义州 (Sinuiju), the border city across the Yalu; correct in cues 184–189.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 200,
+      "before": "新一周",
+      "after": "新义州",
+      "source": "llm-review",
+      "reason": "新义州 (Sinuiju), the border city across the Yalu; correct in cues 184–189.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 202,
+      "before": "新一周",
+      "after": "新义州",
+      "source": "llm-review",
+      "reason": "新义州 (Sinuiju), the border city across the Yalu; correct in cues 184–189.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 162,
+      "before": "单东",
+      "after": "丹东",
+      "source": "llm-review",
+      "reason": "丹东 is the Chinese city facing Sinuiju; 丹东 appears correctly in cues 236 and 238.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 229,
+      "before": "平邑县",
+      "after": "平义线",
+      "source": "llm-review",
+      "reason": "平义线 (Pyongyang–Sinuiju line), named in cue 155; 平邑县 is a county in Shandong.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 178,
+      "before": "i Pad",
+      "after": "iPad",
+      "source": "llm-review",
+      "reason": "Latin glue: iPad split into two tokens.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 185,
+      "before": "集中语言",
+      "after": "几种语言",
+      "source": "llm-review",
+      "reason": "集中语言 doesn't parse; 几种语言都会粗通一些 (roughly knows several languages) fits.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 268,
+      "before": "十锅拌饭",
+      "after": "石锅拌饭",
+      "source": "llm-review",
+      "reason": "石锅拌饭 (stone-pot bibimbap), next to 泡菜.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 287,
+      "before": "Soulas",
+      "after": "SOAS",
+      "source": "llm-review",
+      "reason": "伦敦大学亚非学院 is SOAS, said right before it.",
+      "appliedAt": "2026-09-27"
+    },
+    {
+      "cueIndex": 294,
+      "before": "合制汉语",
+      "after": "和制汉语",
+      "source": "llm-review",
+      "reason": "和制汉语 (Japanese-coined Sino words), the term the context describes.",
+      "appliedAt": "2026-09-27"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 13,
+      "text": "上面是人民大学学习堂",
+      "reason": "The building is 人民大学习堂 (Grand People's Study House); left as is because the speaker may really have said the extra 学."
+    },
+    {
+      "cueIndex": 237,
+      "text": "写不断千笔万字火柴这种东西",
+      "reason": "Doesn't parse (a list of train snacks/goods); no confident reading found."
+    },
+    {
+      "cueIndex": 209,
+      "text": "一是怎么写？然后一是跟金正日的日是一个音",
+      "reason": "Probably about 一心 (일심) — 一 sounds like 日 (il); '一是' may be a mishearing, unresolved."
+    }
+  ]
+}
