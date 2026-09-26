@@ -264,11 +264,24 @@ class Api:
             return {"deck": self.deck, "notes": self.anki.col.note_count(), "synced": self.anki.auth() is not None}
 
     def lookup(self, body):
+        # Synced while DeepSeek is thinking, so "already in Anki" also sees a card added on another
+        # device a minute ago — at no cost in time, since the model takes longer than the sync.
+        syncing = threading.Thread(target=self.sync_quietly)
+        syncing.start()
         result = deepseek_lookup(body.get("marked", ""), body.get("context", []), body.get("title", ""))
         result.update(hsk_level(result.get("word", "")))
+        syncing.join()
         with self.anki.lock:
             result["existing"] = self.anki.status(result.get("word") or body.get("selected", ""))
         return result
+
+    def sync_quietly(self):
+        """A sync that only reads ahead: failing it must not fail the lookup, as add syncs again."""
+        with self.anki.lock:
+            try:
+                self.anki.sync()
+            except Exception as err:  # noqa: BLE001
+                print(f"sync before lookup failed: {err!r}", file=sys.stderr)
 
     def add(self, body):
         with self.anki.lock:
