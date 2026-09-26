@@ -373,6 +373,17 @@ h1 {
   font-weight: 600;
   cursor: pointer;
 }
+.m-ask {
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--fg);
+  font: inherit;
+  font-size: 15px;
+  cursor: pointer;
+}
 .m-add:disabled { opacity: .6; cursor: default; }
 .m-add.is-done { opacity: 1; background: #2e7d32; }
 .m-status { color: var(--muted); font-size: 13px; }

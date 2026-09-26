@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { markLine, highlight, pickSentence, noteData } from '../docs/card.js';
+import { markLine, highlight, pickSentence, noteData, plainText } from '../docs/card.js';
 
 test('marks the tapped word inside its line', () => {
   assert.equal(markLine('我终于下定决心了', 5, 2), '我终于下定【决心】了');
@@ -44,4 +44,8 @@ test('builds the same note the extension builds for a storyfm line', () => {
     '<a href="https://luanphungba.github.io/storyfm-miner/player.html?ep=E757&amp;start=65.2&amp;end=67.9&amp;loop=10&amp;src=https%3A%2F%2Fcdn.example%2Fa.mp3">▶ E757.标题 · 1:05</a>',
   );
   assert.deepEqual(tags, ['storyfm', 'sfm_E757', 'HSK::7-9']);
+});
+
+test('reads a saved field back as the text it shows', () => {
+  assert.equal(plainText('我终于<b>下定决心</b>了 &amp; &lt;好&gt;'), '我终于下定决心了 & <好>');
 });

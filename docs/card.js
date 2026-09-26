@@ -13,6 +13,12 @@ export const CONTEXT_LINES = 4;
 export const esc = (/** @type {unknown} */ s) =>
   String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c] ?? c);
 
+/** A field as saved on a card — HTML — back to the text it shows. */
+export function plainText(/** @type {string} */ html = '') {
+  const entities = /** @type {Record<string, string>} */ ({ amp: '&', lt: '<', gt: '>', quot: '"', '#39': "'", nbsp: ' ' });
+  return html.replace(/<[^>]*>/g, '').replace(/&(amp|lt|gt|quot|#39|nbsp);/g, (_, e) => entities[e]).trim();
+}
+
 /** The line with the tapped word wrapped in 【】, the way the model is told to expect it. */
 export function markLine(/** @type {string} */ text, /** @type {number} */ start, /** @type {number} */ length) {
   return `${text.slice(0, start)}【${text.slice(start, start + length)}】${text.slice(start + length)}`;

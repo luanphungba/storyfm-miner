@@ -212,6 +212,13 @@ class Anki:
     def status(self, word):
         return [{"noteId": note.id, "model": note.note_type()["name"]} for note in self.notes_with_word(word)]
 
+    def saved_card(self, word):
+        """Our own note for word, as field name -> value, or None."""
+        for note in self.notes_with_word(word):
+            if note.note_type()["name"] == MODEL_NAME:
+                return dict(note.items())
+        return None
+
     def add(self, fields, tags, deck):
         model = self.model()
         note = self.col.new_note(model)
@@ -275,8 +282,14 @@ class Api:
             result["existing"] = self.anki.status(result.get("word") or body.get("selected", ""))
         return result
 
+    def peek(self, body):
+        """The saved card for the tapped word, so a known word is shown without asking DeepSeek."""
+        self.sync_quietly()
+        with self.anki.lock:
+            return {"card": self.anki.saved_card(body.get("word", ""))}
+
     def sync_quietly(self):
-        """A sync that only reads ahead: failing it must not fail the lookup, as add syncs again."""
+        """A sync that only reads ahead: failing it must not fail a read, as every write syncs again."""
         with self.anki.lock:
             try:
                 self.anki.sync()
@@ -304,7 +317,13 @@ def serve():
         sys.exit("MINER_TOKEN is too short: use `openssl rand -base64 32`.")
     origins = set(env("ALLOWED_ORIGINS", "https://luanphungba.github.io").split(","))
     api = Api(Anki(Path(env("ANKI_DIR", str(ROOT / "server/data")))))
-    routes = {"/health": api.health, "/lookup": api.lookup, "/add": api.add, "/relearn": api.relearn}
+    routes = {
+        "/health": api.health,
+        "/peek": api.peek,
+        "/lookup": api.lookup,
+        "/add": api.add,
+        "/relearn": api.relearn,
+    }
     failures = {}  # address -> times of recent wrong tokens
 
     class Handler(BaseHTTPRequestHandler):

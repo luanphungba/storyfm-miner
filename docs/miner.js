@@ -5,7 +5,7 @@
 //
 // The server's address and token are typed in once and kept in this browser only.
 
-import { esc, formatTime, highlight, noteData, pickSentence } from './card.js';
+import { esc, formatTime, highlight, noteData, pickSentence, plainText } from './card.js';
 
 const STORAGE_KEY = 'ci-anki-server';
 const REQUEST_TIMEOUT_MS = 60_000;
@@ -134,20 +134,27 @@ export function initMiner({ card, close, playLine }) {
 
   // ---------- one word ----------
 
+  /** A word already in Anki is shown from its own card, at once and without a token; only a new
+   * word goes to DeepSeek. The check uses the word as tapped, so a card saved as a longer phrase is
+   * still found, one step later, by the lookup itself. */
   async function mine(/** @type {WordContext} */ ctx) {
     const connection = savedConnection();
     if (!connection) return openDialog(() => mine(ctx));
 
-    card.classList.add('is-mining');
-    card.innerHTML = `
-      ${head(ctx.word)}
-      <div class="m-loading">DeepSeek đang đọc câu…</div>
-      <div class="m-zh">${esc(ctx.marked).replace('【', '<b>').replace('】', '</b>')}</div>`;
-    bindClose();
-    // The card may be showing another word by the time the answer comes back; this goes with it.
-    const marker = card.firstElementChild;
-    const pinyin = loadPinyin();
+    const marker = showLoading(ctx, 'Đang xem trong Anki…');
+    try {
+      const { card: saved } = await call(connection, '/peek', { word: ctx.word });
+      if (!card.contains(marker)) return;
+      if (saved) showSaved(connection, ctx, saved);
+      else await ask(connection, ctx);
+    } catch (err) {
+      showError(marker, /** @type {Error} */ (err), () => mine(ctx));
+    }
+  }
 
+  async function ask(/** @type {Connection} */ connection, /** @type {WordContext} */ ctx) {
+    const marker = showLoading(ctx, 'DeepSeek đang đọc câu…');
+    const pinyin = loadPinyin();
     try {
       const lookup = await call(connection, '/lookup', {
         selected: ctx.word, marked: ctx.marked, context: ctx.context, title: ctx.episode.title,
@@ -155,9 +162,60 @@ export function initMiner({ card, close, playLine }) {
       const py = await pinyin;
       if (card.contains(marker)) showLookup(connection, ctx, lookup, py);
     } catch (err) {
-      if (!card.contains(marker)) return;
-      card.querySelector('.m-loading')?.replaceWith(errorLine(/** @type {Error} */ (err).message, () => mine(ctx)));
+      showError(marker, /** @type {Error} */ (err), () => ask(connection, ctx));
     }
+  }
+
+  /** Returns the element that goes away once the card shows something else — another word, or the
+   * answer — so a late reply can tell it has nowhere to go. */
+  function showLoading(/** @type {WordContext} */ ctx, /** @type {string} */ message) {
+    card.classList.add('is-mining');
+    card.innerHTML = `
+      ${head(ctx.word)}
+      <div class="m-loading">${esc(message)}</div>
+      <div class="m-zh">${esc(ctx.marked).replace('【', '<b>').replace('】', '</b>')}</div>`;
+    bindClose();
+    return card.firstElementChild;
+  }
+
+  function showError(/** @type {Element | null} */ marker, /** @type {Error} */ err, /** @type {() => void} */ retry) {
+    if (card.contains(marker)) card.querySelector('.m-loading')?.replaceWith(errorLine(err.message, retry));
+  }
+
+  /** The saved card, read back. Relearning keeps it as it is; for the line on screen to go onto the
+   * card it needs a translation, which is what "Hỏi DeepSeek" is for. */
+  function showSaved(/** @type {Connection} */ connection, /** @type {WordContext} */ ctx, /** @type {Record<string, string>} */ fields) {
+    const field = (/** @type {string} */ name) => plainText(fields[name] ?? '');
+    const word = field('Word');
+    const saved = field('Sentence');
+    const line = ctx.marked.replace(/[【】]/g, '');
+    const strip = (/** @type {string} */ text) => text.replace(/[\s\p{P}]/gu, '');
+    const heardHere = strip(saved) === strip(line);
+
+    card.innerHTML = `
+      ${head(word, [field('Pinyin'), field('HanViet')].filter(Boolean).join('   ·   '), field('Level'), field('Level') === 'ngoài HSK')}
+      <div class="m-meaning">
+        ${field('PartOfSpeech') ? `<span class="m-pos">${esc(field('PartOfSpeech'))}</span>` : ''}
+        <span>${esc(field('Meaning'))}</span>
+      </div>
+      ${field('OtherMeanings') ? `<div class="m-other">${esc(field('OtherMeanings'))}</div>` : ''}
+      ${field('Notes') ? `<div class="m-notes">💡 ${esc(field('Notes'))}</div>` : ''}
+      ${heardHere
+        ? section(lineLabel(ctx), saved, word, field('SentencePinyin'), field('SentenceMeaning'))
+        : section(lineLabel(ctx), line, word) + (saved ? section('Câu trên thẻ', saved, word, field('SentencePinyin'), field('SentenceMeaning')) : '')}
+      ${field('Example') ? section('Ví dụ', field('Example'), word, field('ExamplePinyin'), field('ExampleMeaning')) : ''}
+      <div class="m-actions">
+        <button class="m-add" type="button">↺ Học lại</button>
+        <button class="m-ask" type="button" title="Giải nghĩa theo câu đang nghe và đưa câu này lên thẻ">🔄 Hỏi DeepSeek</button>
+        <span class="m-status">📇 Từ thẻ Anki · 0 token</span>
+      </div>`;
+    bindClose();
+    bindPlay(ctx);
+    /** @type {HTMLElement} */ (card.querySelector('.m-ask')).onclick = () => ask(connection, ctx);
+    bindSave('Đang cập nhật…', async () => {
+      await call(connection, '/relearn', { word });
+      return ['✓ Đã đưa về học lại', 'Thẻ giữ nguyên câu cũ'];
+    });
   }
 
   function showLookup(/** @type {Connection} */ connection, /** @type {WordContext} */ ctx, /** @type {any} */ d, /** @type {(text: string) => string} */ py) {
@@ -165,58 +223,67 @@ export function initMiner({ card, close, playLine }) {
     const sentence = pickSentence(d.sentence, ctx.marked, word);
     const example = d.example ?? {};
     const existing = d.existing ?? [];
-    const reading = [d.pinyin || py(word), d.hanViet].filter(Boolean).join('   ·   ');
 
     card.innerHTML = `
-      ${head(word, reading, d.level, d.levelTag === 'HSK::none')}
+      ${head(word, [d.pinyin || py(word), d.hanViet].filter(Boolean).join('   ·   '), d.level, d.levelTag === 'HSK::none')}
       <div class="m-meaning">
         ${d.pos ? `<span class="m-pos">${esc(d.pos)}</span>` : ''}
         <span class="m-edit" contenteditable="plaintext-only" spellcheck="false" title="Sửa được trước khi thêm">${esc(d.meaning)}</span>
       </div>
       ${d.otherMeanings?.length ? `<div class="m-other">${esc(d.otherMeanings.join('; '))}</div>` : ''}
       ${d.notes ? `<div class="m-notes">💡 ${esc(d.notes)}</div>` : ''}
-      <section class="m-sec">
-        <div class="m-label">Trong tập · ${formatTime(ctx.cue.start)}
-          <button class="m-play" type="button">▶ Nghe</button></div>
-        <div class="m-zh">${highlight(sentence, word)}</div>
-        <div class="m-py">${esc(py(sentence))}</div>
-        <div class="m-tr">${esc(d.sentenceTranslation)}</div>
-      </section>
-      ${example.zh ? `
-      <section class="m-sec">
-        <div class="m-label">Ví dụ</div>
-        <div class="m-zh">${highlight(example.zh, word)}</div>
-        <div class="m-py">${esc(py(example.zh))}</div>
-        <div class="m-tr">${esc(example.translation)}</div>
-      </section>` : ''}
+      ${section(lineLabel(ctx), sentence, word, py(sentence), d.sentenceTranslation)}
+      ${example.zh ? section('Ví dụ', example.zh, word, py(example.zh), example.translation) : ''}
       <div class="m-actions">
         <button class="m-add" type="button">${existing.length ? '↺ Học lại + dùng câu này' : '＋ Thêm vào Anki'}</button>
         <span class="m-status">${existing.length ? 'Đã có trong Anki' : ''}</span>
       </div>`;
     bindClose();
-    /** @type {HTMLElement} */ (card.querySelector('.m-play')).onclick = () => playLine(ctx.cue);
+    bindPlay(ctx);
 
-    const button = /** @type {HTMLButtonElement} */ (card.querySelector('.m-add'));
-    const status = /** @type {HTMLElement} */ (card.querySelector('.m-status'));
-    button.onclick = async () => {
+    bindSave(existing.length ? 'Đang cập nhật…' : 'Đang thêm…', async () => {
       // The meaning is editable, so the card takes what is on screen, not what came back.
       const meaning = card.querySelector('.m-edit')?.textContent?.trim() || d.meaning || '';
       const note = noteData({ lookup: d, word, meaning, sentence, episode: ctx.episode, cue: ctx.cue, audioSrc: ctx.audioSrc, py });
+      if (existing.length) {
+        const { updated } = await call(connection, '/relearn', { word, ...note });
+        return ['✓ Đã đưa về học lại', updated ? 'Thẻ đã đổi sang câu này' : 'Thẻ ở note type khác nên giữ nguyên'];
+      }
+      const { deck } = await call(connection, '/add', note);
+      return ['✓ Đã thêm vào Anki', deck];
+    });
+  }
+
+  const lineLabel = (/** @type {WordContext} */ ctx) =>
+    `Trong tập · ${formatTime(ctx.cue.start)} <button class="m-play" type="button">▶ Nghe</button>`;
+
+  /** One sentence block: label (trusted markup), the line with word in bold, and its two glosses. */
+  function section(/** @type {string} */ label, /** @type {string} */ zh, /** @type {string} */ word, py = '', translation = '') {
+    return `
+      <section class="m-sec">
+        <div class="m-label">${label}</div>
+        <div class="m-zh">${highlight(zh, word)}</div>
+        ${py ? `<div class="m-py">${esc(py)}</div>` : ''}
+        ${translation ? `<div class="m-tr">${esc(translation)}</div>` : ''}
+      </section>`;
+  }
+
+  function bindPlay(/** @type {WordContext} */ ctx) {
+    /** @type {HTMLElement} */ (card.querySelector('.m-play')).onclick = () => playLine(ctx.cue);
+  }
+
+  /** Wires the main button to one write to Anki: busy while it runs, then [button text, status]. */
+  function bindSave(/** @type {string} */ busy, /** @type {() => Promise<[string, string]>} */ write) {
+    const button = /** @type {HTMLButtonElement} */ (card.querySelector('.m-add'));
+    const status = /** @type {HTMLElement} */ (card.querySelector('.m-status'));
+    button.onclick = async () => {
       const label = button.textContent;
       button.disabled = true;
-      button.textContent = existing.length ? 'Đang cập nhật…' : 'Đang thêm…';
+      button.textContent = busy;
       status.className = 'm-status';
       status.textContent = '';
       try {
-        if (existing.length) {
-          const { updated } = await call(connection, '/relearn', { word, ...note });
-          button.textContent = '✓ Đã đưa về học lại';
-          status.textContent = updated ? 'Thẻ đã đổi sang câu này' : 'Thẻ ở note type khác nên giữ nguyên';
-        } else {
-          const { deck } = await call(connection, '/add', note);
-          button.textContent = '✓ Đã thêm vào Anki';
-          status.textContent = deck;
-        }
+        [button.textContent, status.textContent] = await write();
         button.classList.add('is-done');
       } catch (err) {
         button.disabled = false;
