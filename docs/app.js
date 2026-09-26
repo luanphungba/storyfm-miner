@@ -278,8 +278,14 @@ cueBox.addEventListener('click', (event) => {
 
   // Tapping a word is reading, not listening: it must not move the audio, or looking a word up
   // throws away the line you were on. The rest of the row still seeks, as it always did.
+  // The exception is a loop on some other line: tapping here means you have moved on from it.
   if (target.classList.contains('w')) {
     showGloss(target);
+    if (loop && !(start < loop.end && loop.start < end)) {
+      stopLoop();
+      audio.currentTime = start;
+      audio.play();
+    }
     return;
   }
 
