@@ -32,7 +32,7 @@ const authored = JSON.parse(readFileSync(join(ROOT, 'tools/gloss-vi.json'), 'utf
 const senses = new Map();
 const cedict = join(ROOT, 'tools/.cache/cedict.txt');
 if (existsSync(cedict)) {
-  for (const line of readFileSync(cedict, 'utf8').split('\n')) {
+  for (const line of readFileSync(cedict, 'utf8').split(/\r?\n/)) {
     if (line.startsWith('#')) continue;
     const m = line.match(/^\S+ (\S+) \[[^\]]+\] \/(.+)\/$/);
     if (m && !senses.has(m[1])) senses.set(m[1], m[2].split('/').slice(0, 2).join('; ').slice(0, 46));
