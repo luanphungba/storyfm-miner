@@ -163,7 +163,10 @@ class Anki:
     def auth(self):
         if not self.auth_file.exists():
             return None
-        return SyncAuth(**json.loads(self.auth_file.read_text()))
+        saved = json.loads(self.auth_file.read_text())
+        # An empty endpoint means AnkiWeb's default. Passed as "" rather than left unset, Anki reads
+        # it as a server address and refuses it.
+        return SyncAuth(hkey=saved["hkey"], endpoint=saved.get("endpoint") or None)
 
     def login(self, username, password):
         auth = self.col.sync_login(username=username, password=password, endpoint=None)
