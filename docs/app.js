@@ -29,7 +29,7 @@ const cueBox = $('cues');
 const params = new URLSearchParams(location.search);
 const episodeId = params.get('ep');
 
-/** @type {{ i: number, start: number, end: number, text: string, speaker: string, role: string }[]} */
+/** @type {{ i: number, s: number, u?: number, start: number, end: number, text: string, speaker: string, role: string }[]} */
 let cues = [];
 /** @type {{ id: string, title: string }} */
 let episode = { id: '', title: '' };
@@ -80,6 +80,7 @@ async function load() {
   announce('cues', { lang: CUE_LANG, cues });
   applyDeepLink();
   loadWords();
+  loadTranslation();
 }
 
 // ---------- render ----------
@@ -160,6 +161,63 @@ function decorate() {
     host.replaceChildren(...parts);
   });
 }
+
+// ---------- Vietnamese translation ----------
+
+/** Built offline, one entry per spoken sentence — see src/translations.js. Each sits under the last
+ * line of its sentence, hidden until asked for: the point is to listen first and check after, and a
+ * translation already on screen gets read instead of the Chinese being heard. The summary is the
+ * exception, open above everything, because knowing the story going in is what lets the ear spend
+ * itself on the words it does not know yet. */
+async function loadTranslation() {
+  const data = await fetch(`data/${episodeId}.vi.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  if (!data) return;
+
+  if (data.summary?.length) {
+    $('summary-body').replaceChildren(...data.summary.map((/** @type {string} */ text) => {
+      const paragraph = document.createElement('p');
+      paragraph.textContent = text;
+      return paragraph;
+    }));
+    $('summary').hidden = false;
+  }
+
+  let any = false;
+  cues.forEach((cue, index) => {
+    const unit = cue.u ?? cue.s;
+    const text = data.vi?.[unit];
+    if (!text || (cues[index + 1]?.u ?? cues[index + 1]?.s) === unit) return;
+    const row = cueBox.children[index];
+    const button = document.createElement('button');
+    button.className = 'vi-toggle';
+    button.type = 'button';
+    button.textContent = 'VI';
+    button.title = 'Hiện bản dịch câu này';
+    button.setAttribute('aria-pressed', 'false');
+    const line = document.createElement('div');
+    line.className = 'vi';
+    line.lang = 'vi';
+    line.textContent = text;
+    row.classList.add('has-vi');
+    row.append(button, line);
+    any = true;
+  });
+  $('show-vi').hidden = !any;
+}
+
+$('show-vi').addEventListener('click', (event) => {
+  const button = /** @type {HTMLElement} */ (event.currentTarget);
+  const on = button.getAttribute('aria-pressed') !== 'true';
+  button.setAttribute('aria-pressed', String(on));
+  cueBox.classList.toggle('show-vi', on);
+  // Switching everything off starts clean, rather than leaving the few opened one by one.
+  if (!on) {
+    for (const row of cueBox.querySelectorAll('.vi-open')) {
+      row.classList.remove('vi-open');
+      row.querySelector('.vi-toggle')?.setAttribute('aria-pressed', 'false');
+    }
+  }
+});
 
 const card = $('gloss');
 let openWord = null;
@@ -316,6 +374,15 @@ cueBox.addEventListener('click', (event) => {
 
   const start = Number(row.dataset.ciStart);
   const end = Number(row.dataset.ciEnd);
+
+  if (target.classList.contains('vi-toggle')) {
+    const open = row.classList.toggle('vi-open');
+    target.setAttribute('aria-pressed', String(open));
+    return;
+  }
+
+  // The translation is for reading, and selecting a phrase of it should not jump the audio.
+  if (target.closest('.vi')) return;
 
   if (target.classList.contains('loop')) {
     if (loop?.button === target) stopLoop();

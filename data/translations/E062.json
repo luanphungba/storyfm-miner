@@ -1,0 +1,606 @@
+{
+  "episode": "E062",
+  "summary": [
+    "Tiểu Hắc năm nay khoảng 20 tuổi, đang học năm ba ở một trường nghệ thuật ở Bắc Kinh. Năm lớp 6, bố mẹ quyết định để cậu tự quản lý tiền mừng tuổi: họ gửi 1.000 tệ vào một sổ tiết kiệm, viết mật khẩu ở mặt sau rồi để trên tủ, dặn tiêu hay để dành là do cậu chọn. Vài tháng sau, cậu tiêu khoảng 600–700 tệ mua mô hình nhân vật.",
+    "Một buổi chiều, bố cậu phát hiện tiền trong sổ vơi đi thì nổi giận: điều bố mẹ để tâm là cậu đã không nói với họ. Bố không nói chuyện với cậu suốt một tháng. Trong một lần say rượu, bố kể chuyện này cho chú W, một đồng nghiệp đang cạnh tranh chức vụ với ông. Vợ chú W thêm mắm thêm muối, và chẳng bao lâu cả khu tập thể đồn rằng Tiểu Hắc lấy trộm tiền của nhà.",
+    "Lời xin lỗi sau đó chẳng thay đổi được gì. Nhiều năm sau, cậu vẫn ngồi thật khép nép mỗi khi đến nhà người khác, vẫn hoảng sợ mỗi lần cửa an ninh ở siêu thị kêu, và không dám chơi cả trò Ma Sói."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "我是小黑，我现在二十岁左右，在北京的一所艺术学院里面读大三。",
+      "vi": "Tôi là Tiểu Hắc, giờ tôi tầm 20 tuổi, đang học năm ba ở một trường nghệ thuật tại Bắc Kinh."
+    },
+    "1": {
+      "zh": "八九十年代长大的孩子恐怕都经历过这种事儿：每年过节，",
+      "vi": "Những đứa trẻ lớn lên vào thập niên 80, 90 chắc ai cũng từng trải qua chuyện này: năm nào đến Tết,"
+    },
+    "2": {
+      "zh": "父母都会以替你保管的名义没收你的压岁钱，小黑也不例外。",
+      "vi": "bố mẹ cũng lấy danh nghĩa giữ hộ để tịch thu tiền mừng tuổi của bạn, Tiểu Hắc cũng không ngoại lệ."
+    },
+    "3": {
+      "zh": "但是小学六年级那年，他的父母改了主意。",
+      "vi": "Nhưng năm lớp 6, bố mẹ cậu đổi ý."
+    },
+    "4": {
+      "zh": "在一年寒假之后吧，我收完钱之后要开学了，他们突然间把这些钱拿出来说：“那个孩子从。”",
+      "vi": "Sau kỳ nghỉ đông năm đó, tôi nhận tiền xong thì sắp đến ngày khai giảng, họ đột nhiên lấy số tiền đó ra nói: \"Con à, bắt"
+    },
+    "5": {
+      "zh": "从今天开始呢，我跟你爸决定了，嗯，你也要培养自己的理财意识了。",
+      "vi": "đầu từ hôm nay, mẹ với bố con quyết định rồi, ừm, con cũng phải tập ý thức quản lý tiền bạc."
+    },
+    "6": {
+      "zh": "这笔钱呢，爸妈妈以前一直帮你收着，今天呢，这笔钱就先给你，呃呃，",
+      "vi": "Số tiền này trước giờ bố mẹ vẫn giữ giúp con, hôm nay thì đưa trước cho con số này, ờ ờ,"
+    },
+    "7": {
+      "zh": "但我们不会给你所有的，就先把今年的所有压岁钱都给你，我们把它存到一个存折里，密码，",
+      "vi": "nhưng bố mẹ sẽ không đưa hết đâu, trước mắt đưa con toàn bộ tiền mừng tuổi năm nay, bố mẹ gửi nó vào một cuốn sổ tiết kiệm, còn mật khẩu,\""
+    },
+    "8": {
+      "zh": "然后他帮我写到了存折的后面，嗯，当时是一千块钱，就是放到我的柜子上面。",
+      "vi": "rồi ông viết giúp tôi ở mặt sau cuốn sổ, ừm, lúc đó là 1.000 tệ, cứ thế để trên tủ của tôi."
+    },
+    "9": {
+      "zh": "我爸妈当时特意说了一句话，就是我妈说她说，呃，我不管你是一夜之间把这一千块钱花掉，",
+      "vi": "Lúc đó bố mẹ tôi còn cố ý dặn một câu, là mẹ tôi nói, ờ, mẹ không quan tâm con tiêu hết 1.000 tệ này trong một đêm,"
+    },
+    "10": {
+      "zh": "还是把这一千块钱存了三年，她说我都不管，因为每个都是你自己的选择。",
+      "vi": "hay để dành nó ba năm, mẹ bảo mẹ đều không quan tâm, vì cái nào cũng là lựa chọn của con."
+    },
+    "11": {
+      "zh": "所以一开始我没把这个事当回事儿，直到后来就是过了几个月之后，我突然间开始想花钱了，",
+      "vi": "Nên lúc đầu tôi không để tâm chuyện này, mãi đến mấy tháng sau, tôi đột nhiên bắt đầu muốn tiêu tiền,"
+    },
+    "12": {
+      "zh": "我才记起来我有这么一大批当时所说的巨款。",
+      "vi": "tôi mới nhớ ra mình có cả một khoản mà hồi đó gọi là tiền to."
+    },
+    "13": {
+      "zh": "嗯，因为当时接触到动漫和手办的店，然后需要买一些玩具、钥匙链啊，",
+      "vi": "Ừm, vì hồi đó biết đến mấy cửa hàng anime và mô hình, rồi cần mua ít đồ chơi, móc khóa,"
+    },
+    "14": {
+      "zh": "还有一些当时魔兽世界那种动漫啊、黑棋一户的那些什么手办啊，嗯。",
+      "vi": "với lại mấy mô hình nhân vật anime kiểu World of Warcraft hồi đó, ừm."
+    },
+    "15": {
+      "zh": "当时大概花了有六到七百吧，买一个手办其实，嗯，花也就是花四十到三十到四十一个。",
+      "vi": "Lúc đó tiêu chắc khoảng 600 đến 700 tệ, mua một mô hình thật ra, ừm, cũng chỉ tầm 30 đến 40 tệ một con."
+    },
+    "16": {
+      "zh": "当然不是那种特别精致的手办，就是我仅仅满足我编故事需要的那种。",
+      "vi": "Dĩ nhiên không phải loại mô hình tinh xảo gì, chỉ là loại đủ để tôi bịa chuyện chơi thôi."
+    },
+    "17": {
+      "zh": "好像就是一个夏天的末尾，因为当时，嗯，我记住卧室外面是太阳就要落山了。",
+      "vi": "Hình như là cuối một mùa hè, vì lúc đó, ừm, tôi nhớ bên ngoài phòng ngủ mặt trời sắp lặn."
+    },
+    "18": {
+      "zh": "我爸爸在屋里面拖地呢，然后他就开始拿各种麻布啊什么开始擦柜子。",
+      "vi": "Bố tôi đang lau nhà trong phòng, rồi ông bắt đầu lấy đủ thứ giẻ lau ra lau tủ."
+    },
+    "19": {
+      "zh": "然后当时家里特别其乐融融，我妈妈在那儿饭桌上那儿嗑瓜子儿，我在那儿玩游戏呢，",
+      "vi": "Rồi lúc đó cả nhà đang vui vẻ đầm ấm lắm, mẹ tôi ngồi cắn hạt dưa ở bàn ăn, tôi thì đang chơi,"
+    },
+    "20": {
+      "zh": "就是玩这个手手办那些游戏。",
+      "vi": "tức là chơi mấy trò với mô hình ấy."
+    },
+    "21": {
+      "zh": "我爸就说：“哎，我看看儿子这还剩多少钱。”",
+      "vi": "Bố tôi nói: \"Ơ, để bố xem con trai còn lại bao nhiêu tiền nào.\""
+    },
+    "22": {
+      "zh": "然后当时我觉得情形有点不对劲儿，因为他当时拿起来之后突然间他不说话了。",
+      "vi": "Rồi lúc đó tôi thấy tình hình hơi không ổn, vì ông cầm sổ lên xong thì đột nhiên im bặt."
+    },
+    "23": {
+      "zh": "我一抬头发现他他一直在念，他第一反应是是不是走小偷了？",
+      "vi": "Tôi ngẩng lên thấy ông cứ lẩm bẩm mãi, phản ứng đầu tiên của ông là có phải nhà bị trộm vào rồi không?"
+    },
+    "24": {
+      "zh": "他说他说。",
+      "vi": "Ông nói, ông nói."
+    },
+    "25": {
+      "zh": "哎，那个他就叫我妈妈，他说你快过来，这个钱怎么变得就是数目怎么少这么多？",
+      "vi": "Này, ông gọi mẹ tôi, bảo em mau lại đây, sao tiền này lại thành ra, sao số tiền lại ít đi nhiều thế này?"
+    },
+    "26": {
+      "zh": "然后我妈妈就说那个，他说儿子是你是你花钱了吗？",
+      "vi": "Rồi mẹ tôi hỏi, con trai, con, con tiêu tiền à?"
+    },
+    "27": {
+      "zh": "我说是啊。",
+      "vi": "Tôi bảo vâng."
+    },
+    "28": {
+      "zh": "然后我爸我妈突然间就特别生气，但我也不知道为什么。",
+      "vi": "Rồi bố mẹ tôi đột nhiên giận lắm, nhưng tôi cũng không biết tại sao."
+    },
+    "29": {
+      "zh": "他们在意的不是说我花没花这个钱，而是说我没有告诉过他们，",
+      "vi": "Điều họ để tâm không phải tôi có tiêu tiền hay không, mà là tôi đã không nói với họ,"
+    },
+    "30": {
+      "zh": "所以当时我爸爸已经有点生气和暴怒了，我当时也被吓到。",
+      "vi": "nên lúc đó bố tôi đã hơi tức giận rồi nổi khùng lên, tôi cũng bị dọa sợ."
+    },
+    "31": {
+      "zh": "因为我妈妈威胁我说，她说她拿起一个那个，就是我手里一个玩具，就问我这个多少钱，",
+      "vi": "Vì mẹ tôi dọa tôi, bà cầm lên một cái, tức là món đồ chơi trong tay tôi, hỏi cái này bao nhiêu tiền,"
+    },
+    "32": {
+      "zh": "那个多少钱。",
+      "vi": "cái kia bao nhiêu tiền."
+    },
+    "33": {
+      "zh": "她说，然后她非常认真的吓唬我，她说她会跟那个老板一笔一笔的去对这个账。",
+      "vi": "Bà nói, rồi bà dọa tôi rất nghiêm túc, bảo sẽ đến đối chiếu với ông chủ cửa hàng từng khoản một."
+    },
+    "34": {
+      "zh": "然后我妈妈装模作样拿出一个本儿开始记这个的价格。",
+      "vi": "Rồi mẹ tôi làm bộ lấy ra một cuốn sổ bắt đầu ghi giá từng món."
+    },
+    "35": {
+      "zh": "而且其实我爸妈他俩无法理解一个手办价格这么高，他们第一反应是我是不是？",
+      "vi": "Mà thật ra bố mẹ tôi không thể hiểu sao một mô hình lại đắt như thế, phản ứng đầu tiên của họ là có phải tôi"
+    },
+    "36": {
+      "zh": "把钱花到了别的更难以启齿的地方，或者是更有一点违法乱纪的地方。",
+      "vi": "đã tiêu tiền vào những chỗ khó nói hơn, hoặc những chỗ có phần vi phạm pháp luật không."
+    },
+    "37": {
+      "zh": "所以说，或者甚至以为我被人勒索这种。",
+      "vi": "Cho nên, hoặc thậm chí còn tưởng tôi bị ai đó tống tiền."
+    },
+    "38": {
+      "zh": "我就记得我爸那个拖把放在我那个屋一直都没有拿走，然后拖了一半地也他也没有拖了。",
+      "vi": "Tôi chỉ nhớ cây lau nhà của bố tôi để trong phòng tôi mãi không cầm đi, nhà lau được một nửa ông cũng bỏ đó."
+    },
+    "39": {
+      "zh": "我爸当时家里夏天比较热嘛，他当时是穿着一个短裤，光着膀子，",
+      "vi": "Mùa hè nhà khá nóng mà, lúc đó bố tôi mặc quần đùi, cởi trần,"
+    },
+    "40": {
+      "zh": "然后当时就特别就是在屋里来回走。",
+      "vi": "rồi cứ đi đi lại lại trong phòng."
+    },
+    "41": {
+      "zh": "然后一个劲儿念叨说，反正就说了一些脏话，说这什么孩子，这什么孩子。",
+      "vi": "Rồi cứ lẩm bẩm mãi, nói mấy câu chửi thề, bảo đứa con kiểu gì thế này, đứa con kiểu gì thế này."
+    },
+    "42": {
+      "zh": "然后埋怨我妈，然后在此之后他一个月都没有理我。",
+      "vi": "Rồi trách mẹ tôi, rồi sau đó cả tháng trời ông không thèm để ý đến tôi."
+    },
+    "43": {
+      "zh": "然后我爸爸还特意写了一个Word文档，叫什么反思自己的教育那个题目。",
+      "vi": "Rồi bố tôi còn cố ý viết một file Word, tiêu đề kiểu như \"Tự kiểm điểm cách giáo dục của mình\"."
+    },
+    "44": {
+      "zh": "我记得开头第一句话就是今天我特别难过，因为我觉得我的教育方法出了问题。",
+      "vi": "Tôi nhớ câu mở đầu là: hôm nay tôi rất buồn, vì tôi thấy phương pháp giáo dục của mình có vấn đề."
+    },
+    "45": {
+      "zh": "其实他那篇文章写的特别次，就是语句也不同顺，也不啥，因为他是在特别暴怒情况下写的。",
+      "vi": "Thật ra bài đó ông viết rất tệ, câu cú cũng không trôi chảy, chẳng ra sao, vì ông viết trong lúc đang cực kỳ giận dữ."
+    },
+    "46": {
+      "zh": "写出他也没又再去改，他一一共这辈子用过的文档就写过两篇文章。",
+      "vi": "Viết xong ông cũng không sửa lại, cả đời ông dùng Word tổng cộng chỉ viết đúng hai bài."
+    },
+    "47": {
+      "zh": "第一篇文章是怀念我那个我爷爷，然后第二篇文章就是反思自己的教育。",
+      "vi": "Bài thứ nhất là tưởng nhớ ông nội tôi, bài thứ hai chính là tự kiểm điểm cách giáo dục của mình."
+    },
+    "48": {
+      "zh": "故事到这里并没有结束，事实上才刚刚开始。",
+      "vi": "Câu chuyện đến đây vẫn chưa kết thúc, thật ra mới chỉ bắt đầu."
+    },
+    "49": {
+      "zh": "就在小黑的爸爸和他冷战的那一个月里，这场家庭闹剧也变成了一桩丑闻。",
+      "vi": "Ngay trong tháng bố Tiểu Hắc chiến tranh lạnh với cậu, trò ồn ào trong nhà này cũng biến thành một vụ tai tiếng."
+    },
+    "50": {
+      "zh": "而将它变成丑闻的那个人被小黑称为W叔叔。",
+      "vi": "Và người biến nó thành tai tiếng được Tiểu Hắc gọi là chú W."
+    },
+    "51": {
+      "zh": "然后传到我那个叔叔那里，是因为我爸爸那一个月跟我冷战期间，他经常回去去喝酒。",
+      "vi": "Rồi chuyện đến tai ông chú đó là vì trong tháng bố tôi chiến tranh lạnh với tôi, ông hay đi uống rượu."
+    },
+    "52": {
+      "zh": "嗯，他在单位里是一个，当时是在跟一个人竞争领导，那个人还是他的好朋友。",
+      "vi": "Ừm, ở cơ quan, lúc đó ông đang cạnh tranh một vị trí lãnh đạo với một người, người đó lại còn là bạn thân của ông."
+    },
+    "53": {
+      "zh": "有一次借着酒劲儿的时候，那W叔叔说：“现在的孩子越来越难管了。”",
+      "vi": "Có một lần đang ngà ngà say, chú W nói: \"Trẻ con bây giờ càng ngày càng khó dạy.\""
+    },
+    "54": {
+      "zh": "就这一句话，突然间就把我爸爸这个倾诉欲就牵扯进去了，所以他就特意的就。",
+      "vi": "Chỉ một câu đó thôi mà đột nhiên khơi lên nhu cầu muốn trút bầu tâm sự của bố tôi, thế là ông cố ý"
+    },
+    "55": {
+      "zh": "非常社会的，就把我的这个事儿说出去了。",
+      "vi": "rất xã giao, kể chuyện của tôi ra."
+    },
+    "56": {
+      "zh": "结果，但是你知道有一句话传过三个那儿了之后就变味儿了，所以说他就这件事就变味儿了。",
+      "vi": "Kết quả, nhưng bạn biết đấy, một câu chuyện qua ba người là tam sao thất bản, nên chuyện này cũng bị biến dạng."
+    },
+    "57": {
+      "zh": "就阿喝多了之后回家把这件事告诉他的老婆，而他的老婆是一个极其之长舌妇的人，",
+      "vi": "Tức là ông ta uống say về nhà kể chuyện này với vợ, mà vợ ông ta là một người cực kỳ lắm điều,"
+    },
+    "58": {
+      "zh": "而且这个人还特别喜欢添油加醋，所以说就第二天就彻底就又都传出去了。",
+      "vi": "lại còn rất thích thêm mắm thêm muối, nên hôm sau là chuyện đã lan ra hết."
+    },
+    "59": {
+      "zh": "就是我就是说我爸爸妈妈。",
+      "vi": "Tức là kể rằng bố mẹ tôi"
+    },
+    "60": {
+      "zh": "嗯，把存有钱的存折放到那儿，然后他俩不在家的时候，我把这个存折偷出去，把钱偷偷了，",
+      "vi": "ừm, để cuốn sổ có tiền ở đó, rồi lúc hai người không có nhà, tôi lấy trộm cuốn sổ đi, lén lấy hết tiền,"
+    },
+    "61": {
+      "zh": "就属于一个我是变成一个小偷去偷钱花了。",
+      "vi": "tức là tôi thành một đứa ăn trộm, đi trộm tiền để tiêu."
+    },
+    "62": {
+      "zh": "我一开始其实不知道，后来有一次我在跟我妈妈吵架的时候，我妈妈突然间把这件事说事说出来了。",
+      "vi": "Lúc đầu thật ra tôi không biết, sau này có lần tôi cãi nhau với mẹ, mẹ tôi đột nhiên nói ra chuyện này."
+    },
+    "63": {
+      "zh": "我妈妈当时非常绝望的告诉我，外面就是这么说的。",
+      "vi": "Lúc đó mẹ tôi tuyệt vọng nói với tôi rằng bên ngoài người ta nói như thế đấy."
+    },
+    "64": {
+      "zh": "当时我爸爸还不在我身边。",
+      "vi": "Lúc đó bố tôi còn không ở bên tôi."
+    },
+    "65": {
+      "zh": "所以说，我第一次知道这个事儿的时候，我也有点崩溃，",
+      "vi": "Nên lần đầu biết chuyện này, tôi cũng hơi suy sụp,"
+    },
+    "66": {
+      "zh": "就突然间变成感觉自己是一个被全世界都抛弃的人啊那种。",
+      "vi": "tự nhiên thấy mình như một người bị cả thế giới bỏ rơi vậy."
+    },
+    "67": {
+      "zh": "结果后来发现，回去之后发现确实是这样，因为好多小孩也不愿意跟我玩了。",
+      "vi": "Kết quả về sau, về nhà mới thấy đúng là như vậy, vì nhiều đứa trẻ không muốn chơi với tôi nữa."
+    },
+    "68": {
+      "zh": "后来就是我跟那个叔叔的儿子在高中的时候，我们俩一起去打球，他的儿子比我小一级。",
+      "vi": "Sau này hồi cấp ba, tôi với con trai ông chú đó cùng đi chơi bóng, con ông ta học dưới tôi một lớp."
+    },
+    "69": {
+      "zh": "我俩在球场的时候打完球之后，他儿子突然间说了：“他说那个当时。”",
+      "vi": "Hai đứa ở sân bóng, chơi xong thì con ông ta đột nhiên nói: \"Hồi đó"
+    },
+    "70": {
+      "zh": "是他俩工作的时候遇到竞争了，但是我爸爸比他先升上去了，所以当时他就他有点不爽，",
+      "vi": "hai người ở cơ quan cạnh tranh với nhau, nhưng bố anh được thăng chức trước ông ấy, nên lúc đó ông ấy hơi bực,"
+    },
+    "71": {
+      "zh": "他想给我爸爸添点堵。",
+      "vi": "muốn gây khó dễ cho bố anh.\""
+    },
+    "72": {
+      "zh": "他跟我说是他在屋子里面睡觉的时候听到他爸爸晚上回来喝醉了酒跟他妈妈去说这个事儿的，",
+      "vi": "Cậu ta kể với tôi là lúc đang ngủ trong phòng, nghe thấy bố cậu ta tối về say rượu kể chuyện này với mẹ cậu ta,"
+    },
+    "73": {
+      "zh": "而且他妈妈还是一个这种人，所以说就把这事彻底就传遍味儿了。",
+      "vi": "mà mẹ cậu ta lại là loại người như thế, nên chuyện bị đồn khắp nơi, biến dạng hoàn toàn."
+    },
+    "74": {
+      "zh": "嗯，其实高中的时候我都不是特别在乎这个事儿了。",
+      "vi": "Ừm, thật ra hồi cấp ba tôi cũng không còn để tâm lắm đến chuyện này nữa."
+    },
+    "75": {
+      "zh": "但是听到他这个事儿之后，我感觉又是，感觉又打开了一新大门。",
+      "vi": "Nhưng nghe cậu ta kể xong, tôi lại thấy như vừa mở ra một cánh cửa mới."
+    },
+    "76": {
+      "zh": "我才知道原来是这个意思。",
+      "vi": "Giờ tôi mới biết hóa ra là như vậy."
+    },
+    "77": {
+      "zh": "我觉得最大的伤害，其实我不是特别在乎这些留言啊什么的。",
+      "vi": "Tôi thấy tổn thương lớn nhất, thật ra tôi không để tâm lắm mấy lời đồn đại gì đó."
+    },
+    "78": {
+      "zh": "嗯，我其实比较在乎的是这个阿姨和这个叔叔，因为我觉得我对我，",
+      "vi": "Ừm, cái tôi để tâm hơn là cô và chú này, vì tôi thấy tôi đối với…"
+    },
+    "79": {
+      "zh": "因为我一直觉得他们对我还挺好的，但我没想到就是人可以是这样子。",
+      "vi": "vì trước giờ tôi vẫn thấy họ đối xử với tôi khá tốt, nhưng tôi không ngờ con người lại có thể như thế."
+    },
+    "80": {
+      "zh": "他俩是同一批到的工作单位，是在我爸爸结婚之前他们就认识了。",
+      "vi": "Hai người họ về cơ quan cùng một đợt, quen nhau từ trước khi bố tôi lấy vợ."
+    },
+    "81": {
+      "zh": "关系还都挺好的他在我小时候经常当时还买不起汽车的时候我爸爸骑着摩托车带着我们娘俩他骑着摩托车带着我们娘俩一起去那个那种松树林就去森林里因为我们家离森林还挺近是一个北方的城市所以说还经常去那里去采果采蘑菇而且我爸爸关系好的时候把个仓房借给他去养鸽子了，",
+      "vi": "Quan hệ vẫn khá tốt, hồi tôi còn nhỏ, lúc chưa mua nổi ô tô, bố tôi hay chở mẹ con tôi bằng xe máy, chở hai mẹ con đến rừng thông, vào rừng, vì nhà tôi khá gần rừng, là một thành phố phương Bắc, nên hay đến đó hái quả, hái nấm, mà lúc bố tôi còn thân với ông ta, bố còn cho ông ta mượn một cái nhà kho để nuôi bồ câu,"
+    },
+    "84": {
+      "zh": "他养了大概有五十只鸽子。",
+      "vi": "ông ta nuôi khoảng 50 con bồ câu."
+    },
+    "85": {
+      "zh": "这个可能会引起不适啊，就是说，呃，很多呃小鸽子他可能会拿来给我们吃。",
+      "vi": "Đoạn này có thể gây khó chịu, tức là, ờ, nhiều con bồ câu non ông ta có khi mang sang cho nhà tôi ăn."
+    },
+    "86": {
+      "zh": "其实对我还是挺好的，然后我也再也没有去提过这个叔叔。",
+      "vi": "Thật ra ông ta đối với tôi vẫn khá tốt, rồi tôi cũng không bao giờ nhắc đến ông chú này nữa."
+    },
+    "87": {
+      "zh": "我爸爸现在跟他关系还是有来往的，但是我从那之后，即使在大街上他见到我，",
+      "vi": "Bố tôi bây giờ vẫn qua lại với ông ta, nhưng từ đó trở đi, dù ông ta có gặp tôi ngoài đường,"
+    },
+    "88": {
+      "zh": "我也再也没有跟他说过一句话。",
+      "vi": "tôi cũng không bao giờ nói với ông ta một câu nào nữa."
+    },
+    "89": {
+      "zh": "然后他再给我们送鸽子，我也再也没有吃过他的鸽子。",
+      "vi": "Rồi ông ta có mang bồ câu sang, tôi cũng không bao giờ ăn bồ câu của ông ta nữa."
+    },
+    "90": {
+      "zh": "就各种事儿我的。",
+      "vi": "Mọi chuyện, trong lời"
+    },
+    "91": {
+      "zh": "言语之中没有再提过这个人，我爸妈即使说，我也会直接跟他说：",
+      "vi": "nói của tôi không còn nhắc đến người này nữa, bố mẹ tôi có nhắc, tôi cũng sẽ nói thẳng:"
+    },
+    "92": {
+      "zh": "“我说不要在我面前提这个人。”",
+      "vi": "\"Con bảo đừng nhắc đến người này trước mặt con.\""
+    },
+    "93": {
+      "zh": "我甚至特别蠢的初中的时候，我甚至想把他鸽子全毒死。",
+      "vi": "Hồi cấp hai tôi còn ngốc đến mức muốn đầu độc chết hết đàn bồ câu của ông ta."
+    },
+    "94": {
+      "zh": "后来我觉得我这样做没有意义，因为这个这个鸽子本身没做错什么。",
+      "vi": "Về sau tôi thấy làm vậy chẳng có ý nghĩa gì, vì mấy con bồ câu đó có làm gì sai đâu."
+    },
+    "95": {
+      "zh": "再说这鸽子要是他把他不知道咋死的，再送给我爸妈吃了咋办？",
+      "vi": "Hơn nữa lỡ ông ta không biết bồ câu chết thế nào, lại mang sang cho bố mẹ tôi ăn thì sao?"
+    },
+    "96": {
+      "zh": "我爸妈在吃了有毒鸽子对吧？",
+      "vi": "Bố mẹ tôi mà ăn phải bồ câu có độc thì sao, đúng không?"
+    },
+    "97": {
+      "zh": "再过几年之后，大家开始用银行卡了，那个存折就跟一个纪念品一样，但是。",
+      "vi": "Vài năm sau, mọi người bắt đầu dùng thẻ ngân hàng, cuốn sổ tiết kiệm đó thành như một món đồ kỷ niệm, nhưng"
+    },
+    "98": {
+      "zh": "那个存折后来被我爸爸用胶带粘到了我书桌的正前方，但已经褪色了，",
+      "vi": "cuốn sổ đó sau này bị bố tôi dùng băng dính dán ngay phía trước bàn học của tôi, nhưng đã phai màu rồi,"
+    },
+    "99": {
+      "zh": "就就是那种表面的字儿都有点泛黄了的那种感觉。",
+      "vi": "kiểu chữ trên bìa đều đã hơi ngả vàng."
+    },
+    "100": {
+      "zh": "我们家人自从那件事之后特别避讳那个东西，因为后来我们家搬家的时候，",
+      "vi": "Từ sau chuyện đó, nhà tôi rất kiêng kỵ thứ đó, vì sau này lúc nhà tôi chuyển nhà,"
+    },
+    "101": {
+      "zh": "那个存折贴到那个墙上，我一开始没有主动去把那个撕下来，",
+      "vi": "cuốn sổ vẫn dán trên tường, lúc đầu tôi không chủ động gỡ nó xuống,"
+    },
+    "102": {
+      "zh": "但是当我出去一趟晚上回来的时候，那个存折已经不知道去哪儿了，",
+      "vi": "nhưng khi tôi ra ngoài một chuyến, tối về thì cuốn sổ không biết đã đi đâu mất,"
+    },
+    "103": {
+      "zh": "应该是我妈妈已经把它撕下来藏到别的地方了。",
+      "vi": "chắc là mẹ tôi đã gỡ xuống cất đi chỗ khác."
+    },
+    "104": {
+      "zh": "嗯，我妈妈也是个澄清，但是后来我妈妈是一个特别高傲、特别傻的人，",
+      "vi": "Ừm, mẹ tôi cũng từng đi thanh minh, nhưng mẹ tôi là người rất kiêu hãnh, cũng rất khờ,"
+    },
+    "105": {
+      "zh": "最后来她就有点心灰意冷了。",
+      "vi": "cuối cùng bà cũng hơi nản lòng."
+    },
+    "106": {
+      "zh": "而且他们发现有的事儿越解释就会越乱，",
+      "vi": "Mà họ nhận ra có những chuyện càng giải thích càng rối,"
+    },
+    "107": {
+      "zh": "他们最后要求的就是说那个叔叔的老婆做了一次口头上的道歉，",
+      "vi": "cuối cùng họ chỉ yêu cầu vợ ông chú kia xin lỗi một lần bằng lời,"
+    },
+    "108": {
+      "zh": "就是跟他们所有传播过的人说：“哎呀，这事这事没有那么准，其实是什么什么什么什么。”",
+      "vi": "tức là nói với tất cả những người bà ta đã kể: \"Ôi dào, chuyện này không đúng lắm đâu, thật ra là thế này thế này thế này.\""
+    },
+    "109": {
+      "zh": "但是那个时候人们更在意的是这个故事性，而不是真相了。",
+      "vi": "Nhưng lúc đó người ta để ý đến tính câu chuyện hơn là sự thật."
+    },
+    "110": {
+      "zh": "因为对于那些听到满城风雨和传播流言蜚语的这些人来说，他们在意的可能仅仅就是这个谈资。",
+      "vi": "Vì với những người nghe chuyện đồn khắp thành phố và truyền tai lời đồn, cái họ để ý có lẽ chỉ là chuyện để bàn tán."
+    },
+    "111": {
+      "zh": "他们有时候可能记不住这些真相，但你让时隔十年或者几年之后第一次提到我这个人，",
+      "vi": "Có khi họ không nhớ nổi sự thật, nhưng để mười năm hay vài năm sau lần đầu nhắc đến tôi,"
+    },
+    "112": {
+      "zh": "他们可能还是印象中不是说这个人最后被澄清了。",
+      "vi": "ấn tượng của họ có lẽ vẫn không phải là người này cuối cùng đã được minh oan."
+    },
+    "113": {
+      "zh": "第一句可能还是说这个人以前那就是偷过家里钱或什么的。",
+      "vi": "Câu đầu tiên có lẽ vẫn là người này hồi trước từng trộm tiền nhà hay gì đó."
+    },
+    "114": {
+      "zh": "比如说是我呃在跟别人说一件事情，别人不信的时候，我说你咋不信我呢？",
+      "vi": "Ví dụ khi tôi, ờ, kể với người khác một chuyện, người ta không tin, tôi bảo sao cậu không tin tôi?"
+    },
+    "115": {
+      "zh": "然后他们有时候可能就会是意思就是说你这都钱都。",
+      "vi": "Rồi có khi họ sẽ có ý là, cậu đến tiền cũng"
+    },
+    "116": {
+      "zh": "能偷的人就是这种话怎么能信呢？",
+      "vi": "trộm được, thì lời người như thế sao mà tin được?"
+    },
+    "117": {
+      "zh": "就有的时候，比如说我跟一个小女孩说一句话的时候，那个小女孩犹豫着信不信的时候，",
+      "vi": "Có lúc, chẳng hạn tôi nói với một cô bé một câu, cô bé đang phân vân tin hay không,"
+    },
+    "118": {
+      "zh": "别人可能会轻飘飘就就来这么一句。",
+      "vi": "người khác có khi lại nhẹ tênh buông một câu như thế."
+    },
+    "119": {
+      "zh": "所以说我从此之后我对家乡的那个归属感不是特别强，一个是因为我从小就在别的地方念书，",
+      "vi": "Nên từ đó trở đi, tôi không có cảm giác gắn bó lắm với quê nhà, một là vì từ nhỏ tôi đã đi học nơi khác,"
+    },
+    "120": {
+      "zh": "第二个我觉得家乡我可能下意识在回避这种地方，因为我们那个是一个大院儿的感觉，",
+      "vi": "hai là tôi thấy quê nhà có lẽ là nơi tôi vô thức né tránh, vì chỗ tôi giống kiểu một khu tập thể,"
+    },
+    "121": {
+      "zh": "我们是一个职工的所有子弟。",
+      "vi": "bọn tôi đều là con em công nhân viên cùng một đơn vị."
+    },
+    "122": {
+      "zh": "他们那几百人的子弟，我们一起上的小学、初中、幼儿园。",
+      "vi": "Mấy trăm đứa con em đó cùng học mẫu giáo, tiểu học, cấp hai với nhau."
+    },
+    "123": {
+      "zh": "所以说，一旦有一家人出了什么事儿，第二天整个大院的人都会知道。",
+      "vi": "Cho nên hễ nhà nào có chuyện gì, hôm sau cả khu tập thể đều biết."
+    },
+    "124": {
+      "zh": "所以爸妈会特别在乎这种名声的问题。",
+      "vi": "Nên bố mẹ rất để tâm đến chuyện danh tiếng."
+    },
+    "125": {
+      "zh": "然后我妈妈小时候告诉我，不要去别人家玩，因为我们那个城市特别闭塞的小城市。",
+      "vi": "Rồi hồi nhỏ mẹ tôi dặn tôi đừng sang nhà người khác chơi, vì chỗ bọn tôi là một thành phố nhỏ rất khép kín."
+    },
+    "126": {
+      "zh": "我妈妈给我的理由竟然是怕别人家丢东西之后我说不清楚。",
+      "vi": "Lý do mẹ tôi đưa ra lại là sợ nhà người ta mất đồ thì tôi không nói rõ được."
+    },
+    "127": {
+      "zh": "所以说现在我去别人家。",
+      "vi": "Nên bây giờ đến nhà người khác,"
+    },
+    "128": {
+      "zh": "第一次做客，我绝对会特别老实的坐到那个客厅里面。",
+      "vi": "lần đầu làm khách, tôi nhất định sẽ ngồi thật ngoan ở phòng khách."
+    },
+    "129": {
+      "zh": "即使是去我朋友家，我也会特别老实坐在坐在客厅里面，很少去别的屋子去活动，",
+      "vi": "Kể cả đến nhà bạn, tôi cũng ngồi ngoan ở phòng khách, rất ít khi đi sang phòng khác,"
+    },
+    "130": {
+      "zh": "永远是坐的最拘谨，然后永远都是除非是别人主动给我来拿水喝啥，",
+      "vi": "lúc nào cũng ngồi khép nép nhất, và lúc nào cũng vậy, trừ khi người ta chủ động lấy nước cho uống,"
+    },
+    "131": {
+      "zh": "我从来不会主动去碰别人家东西。",
+      "vi": "tôi không bao giờ chủ động động vào đồ nhà người khác."
+    },
+    "132": {
+      "zh": "我觉得说完全结束还是不可能的，因为只要是呃我现在比如说一过那个商场的安检，",
+      "vi": "Tôi thấy nói là hoàn toàn chấm dứt thì vẫn không thể, vì chỉ cần, ờ, bây giờ chẳng hạn tôi đi qua cửa an ninh ở trung tâm thương mại,"
+    },
+    "133": {
+      "zh": "比如说我刚才从优衣库里出来。",
+      "vi": "ví dụ vừa từ Uniqlo đi ra,"
+    },
+    "134": {
+      "zh": "那上船就往外走了，但是我可能我我会我会特别害怕说我我过那个机器突然低，",
+      "vi": "là đi thẳng ra ngoài thôi, nhưng có khi tôi, tôi sẽ, tôi sẽ rất sợ đi qua cái máy đó mà nó đột nhiên kêu \"bíp\","
+    },
+    "135": {
+      "zh": "然后所有人把我拦下说那个先生，请您检查一下这个包什么，我会特别害怕这种。",
+      "vi": "rồi mọi người chặn tôi lại bảo: \"Anh ơi, mời anh kiểm tra cái túi này\", tôi sẽ rất sợ chuyện như vậy."
+    },
+    "136": {
+      "zh": "而且在去年过年的时候真的出现了这种状况，我们去沃尔玛尝试去买一个裤子，",
+      "vi": "Mà Tết năm ngoái đúng là đã xảy ra chuyện đó, bọn tôi đến Walmart thử mua một cái quần,"
+    },
+    "137": {
+      "zh": "结果这个裤子削瓷的程度不够，我出去正好低一，当时感觉大脑一下嗡的一下子，",
+      "vi": "kết quả cái quần khử từ chưa đủ, tôi đi ra đúng lúc máy kêu \"bíp\", lúc đó đầu óc ù lên một cái,"
+    },
+    "138": {
+      "zh": "感觉就又毁掉那种感觉似的，然后。",
+      "vi": "cảm giác như lại bị hủy hoại lần nữa vậy, rồi"
+    },
+    "139": {
+      "zh": "我就赶紧掏出我的什么购物小票，就是就特别急切的去证明这一点。",
+      "vi": "tôi vội vàng lôi hóa đơn mua hàng ra, rất cuống quýt muốn chứng minh điều đó."
+    },
+    "140": {
+      "zh": "但是他们说啊，这个常有的事儿，就是需要辞没有需要赶紧你再去需要辞辞。",
+      "vi": "Nhưng họ bảo à, chuyện này thường xảy ra lắm, chỉ cần khử từ lại thôi, không sao, anh quay lại khử từ lại là được."
+    },
+    "141": {
+      "zh": "但是我当时就特别害怕那种，比如突然有保安把我带走啊，就这种事儿，所以会特别紧张的、",
+      "vi": "Nhưng lúc đó tôi rất sợ kiểu như đột nhiên có bảo vệ đến dẫn tôi đi, những chuyện như vậy, nên tôi rất căng thẳng,"
+    },
+    "142": {
+      "zh": "特别过激的拿出各种小票来证明我自己这个身份。",
+      "vi": "rất quá khích lôi đủ loại hóa đơn ra để chứng minh bản thân mình."
+    },
+    "143": {
+      "zh": "其实到这种情况下的时候，还是会有影响的。",
+      "vi": "Thật ra đến những lúc như thế, nó vẫn còn ảnh hưởng."
+    },
+    "144": {
+      "zh": "在小黑看来，这桩童年往事给他造成的阴影是持久的。",
+      "vi": "Với Tiểu Hắc, bóng ma mà chuyện thời thơ ấu này để lại cho cậu kéo dài rất lâu."
+    },
+    "145": {
+      "zh": "时至今日，他甚至连狼人杀这样的桌游都不敢玩，",
+      "vi": "Đến tận hôm nay, cậu thậm chí không dám chơi cả những trò board game như Ma Sói,"
+    },
+    "146": {
+      "zh": "因为他实在太害怕那种被人怀疑却又百口莫辩的感觉。",
+      "vi": "vì cậu thật sự quá sợ cảm giác bị người khác nghi ngờ mà có trăm miệng cũng không cãi được."
+    },
+    "147": {
+      "zh": "你现在正在收听的是亲历者自述的声音节目故事FM，我是主播爱哲。",
+      "vi": "Bạn đang nghe Cố Sự FM, chương trình âm thanh nơi người trong cuộc tự kể chuyện của mình, tôi là người dẫn Ái Triết."
+    },
+    "148": {
+      "zh": "本期节目由梁科制作，声音设计杨帆。",
+      "vi": "Kỳ này do Lương Khoa sản xuất, thiết kế âm thanh: Dương Phàm."
+    },
+    "149": {
+      "zh": "如果你喜欢今天这个故事的话，帮我们把它转发给身边的朋友吧。",
+      "vi": "Nếu bạn thích câu chuyện hôm nay, hãy chia sẻ nó cho bạn bè xung quanh nhé."
+    },
+    "150": {
+      "zh": "这是对故事FM最大的帮助感谢您的收听咱们下期再见",
+      "vi": "Đó là sự giúp đỡ lớn nhất cho Cố Sự FM, cảm ơn bạn đã lắng nghe, hẹn gặp lại kỳ sau."
+    }
+  }
+}

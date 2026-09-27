@@ -6,7 +6,8 @@ description: >
   故事FM episode name). Covers everything from resolving the link to an
   episode id, transcribing it, checking transcript quality, cutting sentences
   into short mining-sized lines, writing the
-  vocabulary gloss the player shows when a word is tapped, through staging
+  vocabulary gloss the player shows when a word is tapped, translating the
+  episode into Vietnamese (a summary plus every sentence), through staging
   the result for commit. Use this whenever the user says something like
   "thêm cho tôi podcast này: https://www.xiaoyuzhoufm.com/episode/...",
   "add this episode", "transcribe E910", or pastes a xiaoyuzhoufm.com/episode
@@ -132,11 +133,68 @@ every mechanical field from a source other than the one that built it. Leftover 
 just polyphonic characters with two legitimate Hán Việt readings (中 TRUNG/TRÚNG, 乐 LẠC/NHẠC) —
 check each is assigned correctly rather than assuming.
 
-## 6. Stage, summarize, confirm — don't commit or push on your own
+## 6. Translate the episode into Vietnamese
+
+The page opens with a Vietnamese summary, and every sentence carries a Vietnamese translation hidden
+behind a **VI** button. The user reads the summary before listening so they already know the story,
+and their ear can go to the words they don't know; the per-sentence translation is for checking a
+sentence after hearing it. Both are only worth having if they are right: a smooth sentence that says
+something the Chinese does not is worse than no translation, because the reader trusts it.
+
+Run this after `split-cues` and `verify-transcript` — it translates the fixed text, and a later fix
+drops the translation of the sentence it touched (the build names it).
+
+```
+node tools/translate.mjs show <ID>          # the whole episode, one sentence a line: "<n> <speaker·role> <text>"
+node tools/translate.mjs apply <ID> vi.txt  # write translations; merges, so it can be done in batches
+node tools/translate.mjs show <ID> --todo   # what is still missing or stale
+```
+
+A sentence here is the spoken sentence (or run of sentences `split-cues` joined), never a single
+short line, so `<n>` is not a line number. Write `vi.txt` in the scratchpad: `<n> <bản dịch>` per
+line, plus `> ` lines for the summary paragraphs (they replace the old summary).
+
+**Read the whole episode before writing a single line.** The translation has to be right for the
+whole piece, not sentence by sentence: who is speaking, who "他/她" is (the ASR often writes 他 for a
+woman), what a name refers to, what a joke or callback points back to. Then translate in order:
+
+- **Faithful first, natural second — never fluent at the cost of meaning.** Keep what is said, how
+  much is said, and the speaker's register. Chatty speech stays chatty (ờ, ừm, kiểu, tức là); a
+  sentence that trails off stays unfinished; one the ASR cut mid-clause is translated as the same
+  fragment, so it lines up with its Chinese.
+- **Natural Vietnamese, not calqued Chinese.** Word order, particles (mà, đấy, chứ, nhé) and phrasing
+  as a Vietnamese speaker would say it. Numbers as digits where a Vietnamese text would use them.
+- **One set of names and forms of address for the whole episode**, decided before starting:
+  - the host 爱哲 is *Ái Triết*, the show 故事FM is *Cố Sự FM*; the listener is *bạn*;
+  - Chinese people's names in Hán Việt (史祥莆 → Sử Tường Bồ); Western names in their own spelling
+    (本杰明 → Benjamin); Korean names and places as Vietnamese press writes them (金正日 → Kim
+    Jong-il, 新义州 → Sinuiju, 平壤 → Bình Nhưỡng); Chinese places in Hán Việt (丹东 → Đan Đông);
+  - a nickname that is a Chinese name stays Hán Việt (小黑 → Tiểu Hắc, 徐叔 → Từ Thúc); an online
+    handle is kept as the speaker's own romanisation with the Chinese once (猫多利 → Maoduoli);
+    one person the ASR spells several ways (E001's Sarah/Sharon/萨尔/萨瑞) gets one name throughout;
+  - **decide each person's gender from the whole episode, never from 他/她 or the nickname.** The ASR
+    writes 他 for nearly everyone, and a name can mislead: E757's 徐叔 ("Uncle Xu") is a woman — her
+    mother calls her 我女儿, she has breast cancer and divorces her husband. Then pick *anh ấy / cô ấy
+    / cậu ấy / ông ấy / bà* by age and relationship, and keep it.
+- **A term the story itself is about stays in Chinese too** — when the speaker is remarking on a
+  word (讲政治, 有组织), write the meaning and put the Chinese after it, since that word is the point.
+- **Never guess past the ASR.** Where the transcript is garbled and the meaning can't be recovered from
+  context, translate only what is certain and keep it vague rather than invent (E081's
+  写不断千笔万字火柴 became "mấy món lặt vặt kiểu hộp diêm"). If the gap matters, flag it.
+
+Summary: **5–10 sentences in 1–3 paragraphs**, the story in order — who the speaker is, what
+happens, where this episode ends (and that it is one part of a series, if it is). Plain and concrete,
+no reviewer tone; it is read right before listening, so it should make the Chinese easier to follow.
+
+`apply` must end with `<n>/<n> câu có bản dịch · tóm tắt k đoạn` and exit 0. Then read a stretch of
+the page with the translations shown (`npm run serve`, **Hiện dịch**) to see it reads as one text.
+
+## 7. Stage, summarize, confirm — don't commit or push on your own
 
 These steps together touch: `data/raw/<id>.json`, `docs/data/<id>.json`, `docs/data/index.json`,
 `data/onsets/<id>.json`, `data/corrections/<id>.json`, `data/cuts/<id>.json`, the two sidecars `docs/data/<id>.tok.json` and
-`docs/data/<id>.gloss.json`, and `tools/gloss-vi.json`. Note that `build_tokens.py` recounts word
+`docs/data/<id>.gloss.json`, `tools/gloss-vi.json`, and the translation `data/translations/<id>.json`
+with what the page loads of it, `docs/data/<id>.vi.json`. Note that `build_tokens.py` recounts word
 frequencies across every episode, so the other episodes' `.tok.json` files change too — that is
 expected, not a stray edit. Run `git status --short` to show exactly
 what changed, then give the user a short summary:
@@ -148,6 +206,8 @@ what changed, then give the user a short summary:
 - how many fixes verify-transcript made, and — this is the important part — every `flagged` entry
   by name, since those are the spots where the transcript might not match the audio
 - how many words were glossed, that `todo_gloss` now reports 0 left, and what `audit.mjs` printed
+- how many sentences were translated, the summary, and any spot where the ASR was too garbled to
+  translate with certainty
 
 Committing is a visible, shared action (it goes into the user's git history), and pushing publishes
 it to GitHub Pages, so **do not commit or push without the user explicitly saying to.** Once they

@@ -1,0 +1,602 @@
+{
+  "episode": "E077",
+  "summary": [
+    "Maoduoli (猫多利) là một UP主 trên Bilibili, làm nghề tự do. Năm 25 tuổi, trong một lần đứng dưới đèn trần ở khách sạn, anh bàng hoàng thấy hai bên đầu mình đã thưa trống một mảng lớn. Người từ nhỏ được khen đẹp trai, học giỏi, bỗng thấy mình giống vai phản diện trong phim.",
+    "Ban đầu anh chọn chấp nhận: cạo trọc đầu, đổi sang mặc đồ kiểu \"Phật hệ\" cho đỡ dữ tướng, rồi đâm ra trông như một \"đại sư\". Sau đó, thấy bạn bè và cả Elon Musk, LeBron James đều cấy tóc, anh quyết định đi cấy vào kỳ nghỉ Thanh Minh.",
+    "Anh kể tỉ mỉ ca phẫu thuật kéo dài bốn, năm tiếng: lấy nang tóc ở gáy, sáu y tá cấy từng sợi lên trán. Tóc mọc lại cũng mang theo sự tự tin. Cuối tập, anh nói về chuyện nhiều người né tránh, \"nghe đến chữ hói là biến sắc\"."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "提示一下，本期故事有一些很有画面感的描述，你可以自行决定是否继续收听。",
+      "vi": "Lưu ý một chút, câu chuyện kỳ này có vài đoạn miêu tả rất có hình ảnh, bạn có thể tự quyết định có nghe tiếp hay không."
+    },
+    "1": {
+      "zh": "你好，欢迎收听故事FM，我是爱哲，一个收集故事的人，",
+      "vi": "Xin chào, chào mừng bạn đến với Cố Sự FM, tôi là Ái Triết, người đi sưu tầm những câu chuyện,"
+    },
+    "2": {
+      "zh": "在这里我们用你的声音讲述你的故事，每周一三五咱们不见不散。",
+      "vi": "ở đây chúng tôi dùng chính giọng của bạn để kể câu chuyện của bạn, thứ Hai, thứ Tư, thứ Sáu hằng tuần, hẹn gặp bạn nhé."
+    },
+    "3": {
+      "zh": "最近两三年，尤其在互联网行业，很多年轻人开始焦虑脱发的问题。",
+      "vi": "Hai ba năm gần đây, nhất là trong ngành internet, rất nhiều người trẻ bắt đầu lo lắng chuyện rụng tóc."
+    },
+    "4": {
+      "zh": "甚至有媒体放言说，第一批九零后已经秃了。",
+      "vi": "Thậm chí có báo còn tuyên bố rằng lứa 9x đầu tiên đã hói rồi."
+    },
+    "5": {
+      "zh": "今天故事的主人公猫多利是一位B站UP主，二十五岁的年纪，他发现自己居然脱发了。",
+      "vi": "Nhân vật chính của câu chuyện hôm nay là Maoduoli, một UP主 trên Bilibili, ở tuổi 25, anh phát hiện mình lại bị rụng tóc."
+    },
+    "6": {
+      "zh": "我是modelly自由职业者，我今年是二十九，但应该就四五年前，",
+      "vi": "Tôi là Maoduoli, làm nghề tự do, năm nay tôi 29 tuổi, nhưng chắc là khoảng bốn năm năm trước,"
+    },
+    "7": {
+      "zh": "是不是新陈代谢到了一个某个时期？",
+      "vi": "có phải quá trình trao đổi chất đã đến một giai đoạn nào đó?"
+    },
+    "8": {
+      "zh": "是不是身体发生一些改变了？",
+      "vi": "Có phải cơ thể có thay đổi gì rồi không?"
+    },
+    "9": {
+      "zh": "我休息习惯一直都不好，从小到大就是从小大家都都是熬夜打游戏，就是夜猫子型吧。",
+      "vi": "Thói quen nghỉ ngơi của tôi trước giờ vẫn không tốt, từ nhỏ đến lớn, từ bé ai cũng thức khuya chơi game, kiểu cú đêm ấy."
+    },
+    "10": {
+      "zh": "可能白天就睡得特别多，然后呢那阵儿啊是归精神压力有点大，然后就抽烟，",
+      "vi": "Có khi ban ngày ngủ rất nhiều, rồi thì dạo đó áp lực tinh thần hơi lớn, rồi hút thuốc,"
+    },
+    "11": {
+      "zh": "以及那时候喝酒的量比平时要多一些。",
+      "vi": "với lại hồi đó uống rượu nhiều hơn bình thường một chút."
+    },
+    "12": {
+      "zh": "就这两个东西啊，它就是加速了这个进程吧。",
+      "vi": "Chính hai thứ đó, nó đẩy nhanh quá trình này lên."
+    },
+    "13": {
+      "zh": "所以烟跟酒啊，这个年轻的朋友们千万不要碰。",
+      "vi": "Cho nên thuốc lá với rượu, các bạn trẻ tuyệt đối đừng động vào."
+    },
+    "14": {
+      "zh": "就是你会发现，这个你洗头发，这个掉的这个发量不是明显感知的，就因为它很细微。",
+      "vi": "Tức là bạn sẽ thấy, lúc gội đầu, lượng tóc rụng không cảm nhận rõ được, vì nó rất ít."
+    },
+    "15": {
+      "zh": "但是你会发现，可能就是生长速度没有你的这个掉的速度，就是收支不平衡嘛。",
+      "vi": "Nhưng bạn sẽ thấy, có lẽ tốc độ mọc không bằng tốc độ rụng, tức là thu chi không cân bằng ấy mà."
+    },
+    "16": {
+      "zh": "所以逐渐的你会发现，哎，发量偏少了。",
+      "vi": "Nên dần dần bạn sẽ thấy, ơ, tóc thưa đi rồi."
+    },
+    "17": {
+      "zh": "因为正常人脱发每天应该脱脱五十根以内是正常的。",
+      "vi": "Vì người bình thường mỗi ngày rụng dưới 50 sợi là bình thường."
+    },
+    "18": {
+      "zh": "就是你正常洗头，你抓一把头发下来其实还好，你数一数，只要数量别太多应该还行。",
+      "vi": "Tức là bạn gội đầu bình thường, vuốt xuống một nắm tóc thì cũng không sao, bạn đếm thử, miễn là số lượng đừng nhiều quá thì chắc vẫn ổn."
+    },
+    "19": {
+      "zh": "有一次就是外地吧，去陪我妈回家吧，回老家，然后呢，我们在重庆也住了一天。",
+      "vi": "Có một lần đi tỉnh ngoài, đưa mẹ tôi về nhà, về quê, rồi bọn tôi ở lại Trùng Khánh một ngày."
+    },
+    "20": {
+      "zh": "那天就在酒店的时候，然后那个顶灯就是直射打下来，然后我当时发现啊，",
+      "vi": "Hôm đó ở khách sạn, cái đèn trần chiếu thẳng xuống, rồi lúc đó tôi phát hiện,"
+    },
+    "21": {
+      "zh": "梳头时发现就是脑袋的这个左右两边好像空了一大块儿，当时看着就是一个。",
+      "vi": "lúc chải đầu thấy hai bên trái phải của đầu hình như trống mất một mảng lớn, lúc đó nhìn thấy một"
+    },
+    "22": {
+      "zh": "特别ugly的自己，当时一想，我靠，这个不就是电影里边反派的那个形象吗？",
+      "vi": "bản thân cực kỳ xấu xí, lúc đó nghĩ, trời đất, đây chẳng phải hình tượng mấy vai phản diện trong phim sao?"
+    },
+    "23": {
+      "zh": "就是你知道吧？",
+      "vi": "Bạn hiểu không?"
+    },
+    "24": {
+      "zh": "就是反派都喜欢搞得特别没眉毛，就是又是秃顶啊什么地中海的都老老像样的。",
+      "vi": "Tức là vai phản diện toàn thích làm cho không có lông mày, rồi thì hói đầu, hói kiểu \"Địa Trung Hải\", đều na ná như vậy."
+    },
+    "25": {
+      "zh": "当时一看，我靠，我怎么成了这个电影里边的反派角色了？",
+      "vi": "Lúc đó nhìn một cái, trời đất, sao mình lại thành vai phản diện trong phim thế này?"
+    },
+    "26": {
+      "zh": "因为以以前我一直觉得自己应该是正面角色，是吧？",
+      "vi": "Vì trước giờ tôi vẫn luôn nghĩ mình phải là vai chính diện, đúng không?"
+    },
+    "27": {
+      "zh": "就那一瞬间，就是就像是突然间给你宣布一个噩耗一样，真的那种感觉，就像是哦，",
+      "vi": "Ngay khoảnh khắc đó, giống như đột nhiên có người báo cho bạn một tin dữ vậy, thật sự là cảm giác đó, kiểu như ồ,"
+    },
+    "28": {
+      "zh": "我是不是得癌了那种感觉。",
+      "vi": "có phải mình bị ung thư rồi không, cảm giác như thế."
+    },
+    "29": {
+      "zh": "因为我从小到大一直外界评价是说应该属于帅哥类型是吧但突然间发现我靠我怎么走向丑的角色了是不是然后那一阵我还专门去就是去打听了一下就看我们各家亲戚看到底谁家有兔子啊就看这个血缘上是从哪儿来的然后发现基本没有然后这个事儿就让我觉得很很蹊跷当时就是从来不会觉得说自己怎么会进入这个行列的那时候还没想到去植发的，那时候也不知道植发，",
+      "vi": "Vì từ nhỏ đến lớn người ngoài vẫn nhận xét tôi thuộc kiểu đẹp trai đúng không, nhưng đột nhiên phát hiện, trời đất, sao mình lại chuyển sang vai xấu rồi thế này, rồi dạo đó tôi còn cất công đi dò hỏi, xem trong họ hàng các nhà rốt cuộc nhà ai có người hói, xem về huyết thống thì nó từ đâu ra, rồi phát hiện gần như không có ai, rồi chuyện này làm tôi thấy rất rất kỳ lạ, lúc đó chưa bao giờ nghĩ sao mình lại gia nhập hàng ngũ này, hồi đó cũng chưa nghĩ đến chuyện cấy tóc, hồi đó còn chẳng biết cấy tóc là gì,"
+    },
+    "33": {
+      "zh": "但这这听着像广告了啊！",
+      "vi": "nhưng nghe thế này, nghe giống quảng cáo quá!"
+    },
+    "34": {
+      "zh": "对，就感觉是什么？",
+      "vi": "Đúng, cảm giác như là gì ấy nhỉ?"
+    },
+    "35": {
+      "zh": "其实不是啊，就是讲讲一下心路历程。",
+      "vi": "Thật ra không phải đâu, chỉ là kể lại quá trình suy nghĩ thôi."
+    },
+    "36": {
+      "zh": "就那时候就改变生活习惯嘛，就是包括也看网上一些什么养发的乱七八糟东西啊。",
+      "vi": "Hồi đó thì thay đổi thói quen sinh hoạt thôi, kể cả xem trên mạng mấy thứ linh tinh về dưỡng tóc."
+    },
+    "37": {
+      "zh": "当然，因为我是一个科白哈，就我以前在那个果壳网工作过，就本身我是不信什么中医啊、",
+      "vi": "Dĩ nhiên, vì tôi là dân tin khoa học mà, trước tôi từng làm ở trang Guokr, vốn dĩ tôi không tin mấy thứ như Đông y,"
+    },
+    "38": {
+      "zh": "何首乌、生姜这些东西的。",
+      "vi": "hà thủ ô, gừng tươi."
+    },
+    "39": {
+      "zh": "因为要说生姜有这个生发作用，那生姜早就脱销了，对不对？",
+      "vi": "Vì nếu gừng mà có tác dụng mọc tóc thì gừng đã cháy hàng từ lâu rồi, đúng không?"
+    },
+    "40": {
+      "zh": "还用这些什么？",
+      "vi": "Cần gì mấy thứ khác nữa?"
+    },
+    "41": {
+      "zh": "医生干嘛呢？",
+      "vi": "Bác sĩ để làm gì?"
+    },
+    "42": {
+      "zh": "就当时又回到一个冷血的一个思考状况嘛，就是我就想，我操，",
+      "vi": "Lúc đó lại quay về trạng thái suy nghĩ lạnh lùng thôi, tức là tôi nghĩ, mẹ nó,"
+    },
+    "43": {
+      "zh": "这个人的身体就说白了也是个机器而已，就是你的各个零部件它肯定会在一定时期发生老化。",
+      "vi": "cơ thể con người nói trắng ra cũng chỉ là một cỗ máy, các bộ phận của bạn chắc chắn đến một lúc nào đó sẽ lão hóa."
+    },
+    "44": {
+      "zh": "然后我就想就接受这个过程嘛，就是调整心理的一个问题。",
+      "vi": "Rồi tôi nghĩ thôi thì chấp nhận quá trình này, tức là vấn đề điều chỉnh tâm lý thôi."
+    },
+    "45": {
+      "zh": "当时就是接受了，就是掉就掉呗，掉了就光头呗。",
+      "vi": "Lúc đó thì chấp nhận rồi, rụng thì rụng thôi, rụng hết thì để đầu trọc."
+    },
+    "46": {
+      "zh": "当时还看特意去找了一些这个男性光头明星的照片来欣赏一下，对吧？",
+      "vi": "Lúc đó tôi còn cố ý tìm ảnh mấy ngôi sao nam đầu trọc để ngắm, đúng không?"
+    },
+    "47": {
+      "zh": "什么郭德纲、孟非啊，什么。",
+      "vi": "Nào là Quách Đức Cương, Mạnh Phi, nào là…"
+    },
+    "48": {
+      "zh": "那个叫什么家来着乐嘉呀什么张卫健呀之类的就看一下就觉得其实光头还好嘛我当时想就不如剃个光头是就没想后来就剃了个光头剃完了前几天看着还没没什么事儿但是越看吧我靠觉得发现我靠就穿衣风格跟这个头搭不上你知道吧因为这个人没头发会会露胸项当时我就想哎要压一下这个胸项那怎么办呢我就得穿的穿的那个柔和一点，然后我就去买了些就是比较佛系一点的衣服，",
+      "vi": "cái ông tên gì ấy nhỉ, Nhạc Gia, rồi Trương Vệ Kiện các thứ, xem xong thấy thật ra đầu trọc cũng được mà, lúc đó tôi nghĩ hay là cạo trọc luôn, thế là không nghĩ nhiều, cạo trọc luôn, cạo xong mấy ngày đầu nhìn cũng không sao, nhưng càng nhìn thì, trời đất, phát hiện ra, trời đất, phong cách ăn mặc không hợp với cái đầu này, bạn biết không, vì người ta không có tóc thì sẽ lộ ra vẻ dữ tướng, lúc đó tôi nghĩ, phải dìu cái vẻ dữ tướng này xuống, thế thì làm sao? Tôi phải mặc đồ nhẹ nhàng hơn, rồi tôi đi mua mấy bộ quần áo kiểu hơi \"Phật hệ\","
+    },
+    "52": {
+      "zh": "就是往那个道家呀，就是往那个宗教那方向走吧。",
+      "vi": "tức là theo hướng Đạo gia, theo hướng tôn giáo ấy."
+    },
+    "53": {
+      "zh": "然后整个穿衣风格也改了，改完了以后呢，发现我操，真的就是变成大师了。",
+      "vi": "Rồi cả phong cách ăn mặc cũng đổi, đổi xong thì, mẹ nó, thật sự biến thành đại sư luôn."
+    },
+    "54": {
+      "zh": "因为我之前有朋友他也植过发，对，这是以以前有，而且他们还给我看来着。",
+      "vi": "Vì trước đây có bạn tôi cũng từng cấy tóc, đúng, hồi trước có, mà họ còn cho tôi xem nữa."
+    },
+    "55": {
+      "zh": "我当时看了，我我第一反应说这植植什么发呀？",
+      "vi": "Lúc đó tôi xem xong, phản ứng đầu tiên của tôi là cấy tóc làm gì chứ?"
+    },
+    "56": {
+      "zh": "我说这没什么，因为我一直对。",
+      "vi": "Tôi bảo cái này có gì đâu, vì tôi xưa nay đối với"
+    },
+    "57": {
+      "zh": "对于什么做这个美容手术啊，就是动刀削骨哈，拉个双眼皮儿。",
+      "vi": "mấy chuyện phẫu thuật thẩm mỹ, kiểu đụng dao gọt xương, cắt mí mắt."
+    },
+    "58": {
+      "zh": "就我老对这些事儿，我觉得我靠，这种东西有有必要吗？",
+      "vi": "Tôi cứ nghĩ về mấy chuyện đó là, trời ạ, có cần thiết không?"
+    },
+    "59": {
+      "zh": "因为我觉得这女生爱往自己身上这个折腾，我觉得可能她是不是被这些东西骗了？",
+      "vi": "Vì tôi thấy con gái hay thích hành hạ bản thân, tôi nghĩ có khi nào cô ấy bị mấy thứ này lừa không?"
+    },
+    "60": {
+      "zh": "我觉得这种事儿，我靠，一听什么什么机构啊，以及什么专科，一听你就特别害怕的。",
+      "vi": "Tôi thấy mấy chuyện này, trời ạ, cứ nghe đến \"cơ sở\" này \"cơ sở\" nọ, rồi \"chuyên khoa\" gì đó là bạn sợ lắm rồi."
+    },
+    "61": {
+      "zh": "而且你你也想到百度上那些就是万恶的百度啊，我们深深讨一下，",
+      "vi": "Mà bạn cũng nghĩ ngay đến mấy thứ trên Baidu, cái Baidu tội lỗi ấy, xin phép chê một chút,"
+    },
+    "62": {
+      "zh": "就是就百度上那些乱七八糟的什么广告。",
+      "vi": "tức là mấy cái quảng cáo linh tinh trên Baidu ấy."
+    },
+    "63": {
+      "zh": "然后就挺抵触的就身边没见案例的话我是不会去植发的这个东西就是它只能是延缓你没有任何办法逆转就只有去植发就是现在唯一的一种途径包括那些我还看到那个艾隆马斯克刚铁侠还有那个勒布朗詹姆斯是吧打篮球的这俩人都植过发尤其是艾隆马斯克特别明显因为他以前他头发就完全是秃了的但是现在后来在特斯拉之后他头发就特别浓密就是看了这些，我一发现这改变真挺好的。",
+      "vi": "Rồi thì khá là bài xích, nếu xung quanh không thấy trường hợp nào thì tôi sẽ không đi cấy tóc. Cái này thì các cách khác chỉ làm chậm lại thôi, không có cách nào đảo ngược, chỉ có đi cấy tóc, tức là con đường duy nhất hiện nay. Kể cả tôi còn thấy Elon Musk \"Người Sắt\", rồi LeBron James đúng không, người chơi bóng rổ ấy, hai người này đều từng cấy tóc, nhất là Elon Musk rất rõ, vì trước đây tóc anh ấy hói hẳn rồi, nhưng bây giờ, sau này, sau Tesla thì tóc anh ấy rất dày, xem mấy chuyện đó xong, tôi phát hiện sự thay đổi này thật sự rất tốt."
+    },
+    "67": {
+      "zh": "其实我觉得这个有一个还有一个因素是因为我这个人生没上过手术台，你知道吧？",
+      "vi": "Thật ra tôi thấy chuyện này còn một yếu tố nữa là đời tôi chưa từng lên bàn mổ, bạn biết không?"
+    },
+    "68": {
+      "zh": "就老觉得这个人生是不是缺一点？",
+      "vi": "Cứ thấy đời mình có phải thiếu thiếu cái gì không?"
+    },
+    "69": {
+      "zh": "这个就老老把自己当成一个戏剧里边角色了，就老觉得人生都没经过手术室，是不是该体验一下？",
+      "vi": "Cái này là do tôi cứ coi mình như nhân vật trong kịch, cứ thấy đời mà chưa từng vào phòng mổ thì có nên trải nghiệm thử không?"
+    },
+    "70": {
+      "zh": "当时就恰好是一个节日吧，清明节放假三天嘛，我想就狠心改变一下。",
+      "vi": "Lúc đó vừa đúng dịp lễ, nghỉ Thanh Minh ba ngày, tôi nghĩ thôi quyết tâm thay đổi một lần."
+    },
+    "71": {
+      "zh": "它其实就是一家专门做这个植发的这么一个医院，应该是国内应该是应该是最大的吧。",
+      "vi": "Nó thật ra là một bệnh viện chuyên làm cấy tóc, chắc là lớn nhất trong nước rồi."
+    },
+    "72": {
+      "zh": "因为我我也我也是听朋友说的，当时就去试了一下呗，就去找那个大夫聊了一下。",
+      "vi": "Vì tôi, tôi cũng nghe bạn bè nói, lúc đó đi thử xem sao, đến gặp bác sĩ nói chuyện một chút."
+    },
+    "73": {
+      "zh": "他先做这个头皮检测嘛，检测他就是有一个机器，那个机器呢就是像显微镜似的，",
+      "vi": "Đầu tiên họ kiểm tra da đầu, kiểm tra thì có một cái máy, cái máy đó giống kính hiển vi,"
+    },
+    "74": {
+      "zh": "就是嗯拿一个灯和一个一就像一支笔的东西，然后放在你的头皮上，",
+      "vi": "tức là, ừm, cầm một cái đèn và một cái giống như cây bút, rồi đặt lên da đầu bạn,"
+    },
+    "75": {
+      "zh": "然后就会从屏幕上投影出你的头皮状况来。",
+      "vi": "rồi tình trạng da đầu của bạn sẽ hiện lên màn hình."
+    },
+    "76": {
+      "zh": "比如两额这种地方的话，你会发现那个毛囊。",
+      "vi": "Ví dụ như chỗ hai bên trán, bạn sẽ thấy nang tóc"
+    },
+    "77": {
+      "zh": "就里边只有一两根头发，有的时候只有一个，然后而且那个头发比较细软。",
+      "vi": "bên trong chỉ có một hai sợi, có khi chỉ một sợi, mà tóc lại khá mảnh và mềm."
+    },
+    "78": {
+      "zh": "然后我当时应该属于还算轻度吧，不算重度的。",
+      "vi": "Rồi lúc đó tôi chắc là thuộc mức còn nhẹ, không tính là nặng."
+    },
+    "79": {
+      "zh": "对，但是我没想到这个给我的一个植发量发量单位最终一计算还挺高的，有点出乎我的意料。",
+      "vi": "Đúng, nhưng tôi không ngờ lượng tóc cần cấy, tính ra đơn vị cuối cùng lại khá cao, hơi ngoài dự đoán của tôi."
+    },
+    "80": {
+      "zh": "我我现在还有点耿耿于怀。",
+      "vi": "Đến giờ tôi vẫn còn hơi ấm ức."
+    },
+    "81": {
+      "zh": "医生是一个四五十岁的一个一个女阿姨，对，还说话还挺温柔的。",
+      "vi": "Bác sĩ là một cô tầm bốn năm mươi tuổi, đúng, nói chuyện còn khá dịu dàng."
+    },
+    "82": {
+      "zh": "就全程挺耐心的一个一这么一个人，他直接就把脑袋搬过来，就光头嘛，然后开始在上面画画了。",
+      "vi": "Cả quá trình rất kiên nhẫn, một người như vậy, bà ấy kéo thẳng đầu tôi lại, vì đầu trọc mà, rồi bắt đầu vẽ lên đó."
+    },
+    "83": {
+      "zh": "就是对他画那个就是设计你的发际线，因为他给你设计你的发际线不可能跟以前完全一样，",
+      "vi": "Đúng, bà ấy vẽ là để thiết kế đường chân tóc cho bạn, vì đường chân tóc thiết kế cho bạn không thể giống hệt ngày xưa được,"
+    },
+    "84": {
+      "zh": "因为它直的话肯定是往后一点的。",
+      "vi": "vì nếu thẳng thì chắc chắn phải lùi ra sau một chút."
+    },
+    "85": {
+      "zh": "他就是画了一个就挺正常的一个发际线嘛。",
+      "vi": "Bà ấy vẽ một đường chân tóc khá bình thường thôi."
+    },
+    "86": {
+      "zh": "当时我我画了我还我就有点歪，我说是不是画歪了？",
+      "vi": "Lúc đó tôi, tôi thấy vẽ ra hơi lệch, tôi hỏi có phải vẽ lệch rồi không?"
+    },
+    "87": {
+      "zh": "他说这个是按你的你脑袋生长的形状来画的，他说要不然就不正，就看的不自然了。",
+      "vi": "Bà ấy bảo cái này vẽ theo hình dáng đầu của cậu, không thì sẽ không cân, nhìn không tự nhiên."
+    },
+    "88": {
+      "zh": "他不可能给你画的特别就是按一条什么完美线，因为你植出来你会发现，哎，",
+      "vi": "Bà ấy không thể vẽ cho bạn theo một đường hoàn hảo nào đó, vì cấy xong bạn sẽ thấy, ơ,"
+    },
+    "89": {
+      "zh": "这个这线有你就你就有点明显那种整容痕迹了。",
+      "vi": "đường này có, bạn sẽ có dấu vết phẫu thuật thẩm mỹ hơi lộ liễu."
+    },
+    "90": {
+      "zh": "那个医院里边挺多四五十岁去植发的，嗯，年纪偏长的应该偏多吧，",
+      "vi": "Trong bệnh viện đó khá nhiều người bốn năm mươi tuổi đi cấy tóc, ừm, chắc người lớn tuổi nhiều hơn,"
+    },
+    "91": {
+      "zh": "年纪轻的可能还真偏少一些，因为这个东西还真是需要花点小钱，但是其实这也不算太多，",
+      "vi": "người trẻ có khi lại ít hơn thật, vì cái này đúng là phải tốn chút tiền, nhưng thật ra cũng không nhiều lắm,"
+    },
+    "92": {
+      "zh": "它其实有三个档次的吧，我当时选的是一个中档的一个，太高的估计得来十来万吧。",
+      "vi": "thật ra nó có ba mức giá, lúc đó tôi chọn mức trung bình, mức cao nhất chắc phải tầm hơn trăm nghìn tệ."
+    },
+    "93": {
+      "zh": "我就选个中间的，所以我的花费就是总体十五万左右吧。",
+      "vi": "Tôi chọn mức giữa, nên tổng chi phí của tôi khoảng 150 nghìn tệ."
+    },
+    "94": {
+      "zh": "我看到的不应该不是我上一台数字，但我看到有一些包着脑袋的，",
+      "vi": "Những người tôi thấy chắc là ca trước tôi, tôi thấy có mấy người quấn đầu,"
+    },
+    "95": {
+      "zh": "基本上做过的都是脑脑袋前顶着一块纱布出来的。",
+      "vi": "gần như ai làm xong cũng đội một miếng gạc trên đỉnh đầu phía trước mà ra."
+    },
+    "96": {
+      "zh": "然后我还特意看了一下他们，我说这怎么样啊？",
+      "vi": "Rồi tôi còn cố ý nhìn họ, hỏi thế nào rồi?"
+    },
+    "97": {
+      "zh": "就问他们说这个过程怎么样怎么样，就是看了一下，看一下就觉得哎还好哎，",
+      "vi": "Hỏi họ quá trình thế nào thế nào, nhìn một chút, nhìn xong thấy ơ, cũng được đấy,"
+    },
+    "98": {
+      "zh": "看就是头发密密麻麻的，然后就挺整齐条线，因为植发其实还那个刀斧的痕迹还是挺。",
+      "vi": "nhìn thì tóc dày chi chít, rồi đường tóc khá gọn gàng, vì cấy tóc thật ra dấu vết dao kéo vẫn khá"
+    },
+    "99": {
+      "zh": "挺明显的，就是说你能感觉那条线很整齐，就是一条非常很有有点略微不自然那条线。",
+      "vi": "khá rõ, tức là bạn có thể thấy đường đó rất ngay ngắn, một đường rất, có hơi thiếu tự nhiên."
+    },
+    "100": {
+      "zh": "我当时就等了等到下午的话，上一台手术就还算顺利嘛，然后我就接上去了，",
+      "vi": "Lúc đó tôi đợi, đợi đến buổi chiều, ca mổ trước cũng khá suôn sẻ, rồi tôi vào tiếp,"
+    },
+    "101": {
+      "zh": "当天就做了植发手术的原理是这样的：第一步，用显微外科技术取出一部分健康的毛囊组织；",
+      "vi": "làm luôn trong ngày. Nguyên lý của phẫu thuật cấy tóc là thế này: bước một, dùng kỹ thuật vi phẫu lấy ra một phần mô nang tóc khỏe mạnh;"
+    },
+    "102": {
+      "zh": "第二步，把取出的毛囊组织加工培养之后，按照自然的头发生长方向移植到脱发的位置。",
+      "vi": "bước hai, xử lý và nuôi các mô nang tóc vừa lấy ra, rồi cấy vào chỗ bị rụng theo hướng mọc tự nhiên của tóc."
+    },
+    "103": {
+      "zh": "猫多利做的这台手术是把从后脑勺取的毛囊移植到前额的位置，",
+      "vi": "Ca phẫu thuật của Maoduoli là lấy nang tóc ở vùng gáy cấy lên phía trán,"
+    },
+    "104": {
+      "zh": "应该是一个机器啊！",
+      "vi": "chắc là một cái máy!"
+    },
+    "105": {
+      "zh": "大家想象一下科幻那种场景，因为我看不到啊，因为在脑后。",
+      "vi": "Mọi người thử tưởng tượng cảnh trong phim khoa học viễn tưởng, vì tôi không nhìn thấy mà, vì nó ở sau đầu."
+    },
+    "106": {
+      "zh": "你你你打了麻药，你整个头皮就会变得特别麻木、特别硬，就是你感觉那个针扎进去，",
+      "vi": "Bạn, bạn, bạn tiêm thuốc tê rồi, cả da đầu sẽ trở nên rất tê, rất cứng, tức là bạn cảm thấy cây kim đâm vào,"
+    },
+    "107": {
+      "zh": "感觉就像是扎到一个泡沫板上，咔哧咔哧这么一下。",
+      "vi": "cảm giác như đâm vào một tấm xốp, sột soạt một cái."
+    },
+    "108": {
+      "zh": "那个机器应该是先把你的那个毛囊先取出来，一个一个毛孔的取。",
+      "vi": "Cái máy đó chắc là lấy nang tóc của bạn ra trước, lấy từng lỗ chân lông một."
+    },
+    "109": {
+      "zh": "取完了以后呢，放在一个培养的器皿里边，还那个毛囊跟上还带着血迹，还端过来给你确认。",
+      "vi": "Lấy xong thì đặt vào một cái đĩa nuôi cấy, nang tóc còn dính cả vết máu, còn bưng đến cho bạn xác nhận."
+    },
+    "110": {
+      "zh": "然后我看了一下，哦，这个像不像劲儿？",
+      "vi": "Rồi tôi nhìn một cái, ồ, trông thế này à?"
+    },
+    "111": {
+      "zh": "你因为因为那时候我剃的光头，但是因为它取出来的时候，你会发现啊，",
+      "vi": "Vì hồi đó tôi cạo trọc đầu mà, nhưng lúc lấy ra bạn sẽ thấy,"
+    },
+    "112": {
+      "zh": "其实你长在头皮里边还有一部分头发，",
+      "vi": "thật ra trong da đầu vẫn còn một phần tóc,"
+    },
+    "113": {
+      "zh": "所以取出来时候是差不多有接近一粒米的这么一个小发茬儿，跟韭菜似的，",
+      "vi": "nên lúc lấy ra có một mẩu tóc lởm chởm nhỏ gần bằng hạt gạo, giống như hẹ,"
+    },
+    "114": {
+      "zh": "小韭菜就是一种割韭菜的感觉啊，就就一株一株株的排列在那儿，很整齐。",
+      "vi": "hẹ non ấy, cảm giác như cắt hẹ vậy, xếp từng cây từng cây ở đó, rất ngay ngắn."
+    },
+    "115": {
+      "zh": "但看着有点有点渗人，就是你感觉那根根上还有的还带着肉似的。",
+      "vi": "Nhưng nhìn thì hơi rợn, cảm giác như có cái chân còn dính cả thịt."
+    },
+    "116": {
+      "zh": "这不完了就三个面呗，翻过来因为后边取完就开始要往脑袋上要要要去打麻药了。",
+      "vi": "Xong phần đó thì lật người lại, vì phía sau lấy xong rồi là bắt đầu tiêm thuốc tê lên đầu."
+    },
+    "117": {
+      "zh": "然后这时候那个培养腻那个也培养完了，就差不就是六个护士吧。",
+      "vi": "Rồi lúc này phần nuôi trong đĩa cũng xong rồi, có khoảng sáu y tá."
+    },
+    "118": {
+      "zh": "我想这个东西贵也有道理，这么多人人工费也也不算便宜是吧？",
+      "vi": "Tôi nghĩ cái này đắt cũng có lý, bằng này người thì tiền công cũng chẳng rẻ, đúng không?"
+    },
+    "119": {
+      "zh": "一个个就在伺候你，跟绣花似的。",
+      "vi": "Từng người một ngồi phục vụ bạn, như thêu hoa vậy."
+    },
+    "120": {
+      "zh": "就他们为什么要细呢？",
+      "vi": "Tại sao họ phải tỉ mỉ thế?"
+    },
+    "121": {
+      "zh": "就是因为要照着你那个生长方向去植，这样的话你头发才自然。",
+      "vi": "Là vì phải cấy theo hướng mọc của tóc bạn, như vậy tóc mới tự nhiên."
+    },
+    "122": {
+      "zh": "所以那个非常耗时间，就基本上跟叼西瓜一样，一点儿点儿在那儿叼，",
+      "vi": "Nên việc đó rất tốn thời gian, gần như là tỉa dưa hấu, tỉa từng chút từng chút,"
+    },
+    "123": {
+      "zh": "然后也是拿一个针一样的东西，感觉我的脑袋上在钉东西似的，但是没有痛觉啊，",
+      "vi": "rồi cũng cầm một thứ giống cái kim, cảm giác như có người đang đóng cái gì lên đầu tôi, nhưng không thấy đau,"
+    },
+    "124": {
+      "zh": "就这么一一株一株的把那个头发给植进去。",
+      "vi": "cứ thế cấy từng sợi, từng sợi tóc vào."
+    },
+    "125": {
+      "zh": "因为那个麻药，可能就是困了，下午我我下午就有睡午觉的习惯，然后当时就困了，",
+      "vi": "Vì thuốc tê, có lẽ là buồn ngủ, buổi chiều tôi, tôi có thói quen ngủ trưa, lúc đó buồn ngủ,"
+    },
+    "126": {
+      "zh": "就睡着了，就听着就是不停在我脑袋上一点儿的咔嗒咔嗒咔嗒咔嗒咔嗒咔嗒咔嗒，",
+      "vi": "thế là ngủ thiếp đi, chỉ nghe thấy trên đầu mình không ngừng lách cách lách cách lách cách lách cách,"
+    },
+    "127": {
+      "zh": "就这么不停的在弄。",
+      "vi": "cứ làm không ngừng như vậy."
+    },
+    "128": {
+      "zh": "这台手术做了四五个小时，直到七点钟才结束。",
+      "vi": "Ca phẫu thuật kéo dài bốn năm tiếng, đến tận 7 giờ mới xong."
+    },
+    "129": {
+      "zh": "做完手术，猫多利就顶着满头纱布回了家，安心等待刚刚种下的毛囊长出小苗。",
+      "vi": "Mổ xong, Maoduoli đội nguyên đầu băng gạc về nhà, yên tâm chờ những nang tóc vừa cấy nhú mầm."
+    },
+    "130": {
+      "zh": "那三天之后的时候，已经有一小茬了，因为就是原来头发也长出来一点了，",
+      "vi": "Ba ngày sau đã có một lớp lởm chởm, vì tóc cũ cũng mọc ra một chút rồi,"
+    },
+    "131": {
+      "zh": "看着的感觉就是一密密麻麻的小黑点儿呗，但是就感觉发现变了。",
+      "vi": "nhìn thì chỉ là những chấm đen nhỏ chi chít thôi, nhưng cảm giác là đã thay đổi rồi."
+    },
+    "132": {
+      "zh": "哎，但是一照镜子就觉得，哎，怎么又帅了？",
+      "vi": "Ơ, soi gương một cái thấy, ơ, sao lại đẹp trai rồi?"
+    },
+    "133": {
+      "zh": "是吧？",
+      "vi": "Đúng không?"
+    },
+    "134": {
+      "zh": "突然间感觉有重新有一些自信吧。",
+      "vi": "Đột nhiên thấy có lại chút tự tin."
+    },
+    "135": {
+      "zh": "因为之前就是脱发的时候，真是觉得有点儿，就说白了，你你好像永远都是一个人生赢家的样子。",
+      "vi": "Vì trước đó lúc rụng tóc, thật sự thấy hơi, nói trắng ra là, bạn cứ như lúc nào cũng phải là người thắng cuộc trong đời."
+    },
+    "136": {
+      "zh": "因为我从小学习特别好，学霸，就是一切感觉从来都是人生赢家那种，就是从来都是被人仰视的。",
+      "vi": "Vì từ nhỏ tôi học rất giỏi, là học bá, mọi thứ lúc nào cũng thấy mình là kẻ thắng trong đời, lúc nào cũng được người ta ngưỡng mộ."
+    },
+    "137": {
+      "zh": "怎么突然间变成那样？",
+      "vi": "Sao đột nhiên lại thành ra như thế?"
+    },
+    "138": {
+      "zh": "其实心理落差非常大的，就是你感觉好像落幕了，你的人生开始落幕了。",
+      "vi": "Thật ra hụt hẫng rất lớn, cảm giác như hạ màn rồi, cuộc đời bạn bắt đầu hạ màn rồi."
+    },
+    "139": {
+      "zh": "就还没还没怎么着，你人生开始落幕了。",
+      "vi": "Còn chưa làm được gì, đời bạn đã bắt đầu hạ màn."
+    },
+    "140": {
+      "zh": "然后同一直观投化以后，你就觉得就是就恢复了一个正常的自己吧。",
+      "vi": "Rồi sau đó, bạn sẽ thấy mình trở lại làm con người bình thường của mình."
+    },
+    "141": {
+      "zh": "你会觉得很多人回避这个问题，甚至谈秃色变。",
+      "vi": "Bạn sẽ thấy nhiều người né tránh chuyện này, thậm chí nghe đến chữ \"hói\" là biến sắc."
+    },
+    "142": {
+      "zh": "这真的是啊！",
+      "vi": "Thật sự là vậy đấy!"
+    },
+    "143": {
+      "zh": "我之前有同有有朋友就是也有这样的问题，我给他提个我的方案吧，",
+      "vi": "Trước đây tôi có bạn cũng gặp vấn đề này, tôi góp ý cho cậu ấy cách của tôi,"
+    },
+    "144": {
+      "zh": "因为我其实就分享我的这个方案而已。",
+      "vi": "vì thật ra tôi chỉ chia sẻ cách làm của mình thôi."
+    },
+    "145": {
+      "zh": "其实谈脸色就刷那人眼脸色就变了，就这字儿不能提的，你知道吗？",
+      "vi": "Thật ra vừa nhắc đến là mặt người ta biến sắc ngay, chữ này không được nhắc đến, bạn biết không?"
+    },
+    "146": {
+      "zh": "秃字儿不要提，你一提他心里边估计就一紧。",
+      "vi": "Đừng nhắc đến chữ \"hói\", bạn vừa nhắc là trong lòng người ta chắc thắt lại."
+    },
+    "147": {
+      "zh": "当时我就跟他讲这个这个人啊，他当然就是打打哈哈就过去了。",
+      "vi": "Lúc đó tôi nói với người bạn đó, dĩ nhiên cậu ấy chỉ cười xòa cho qua."
+    },
+    "148": {
+      "zh": "但是他根本就别哎可能有别的心事，也不是因为说OK谈这个秃顶这事儿啊。",
+      "vi": "Nhưng có khi cậu ấy có chuyện khác trong lòng, cũng không phải vì nói chuyện hói đầu này."
+    },
+    "149": {
+      "zh": "但是就是是哪个人愿意说OK自己跟秃顶扯上关系呢？",
+      "vi": "Nhưng mà có ai muốn tự nhận mình dính dáng đến chuyện hói đầu đâu?"
+    },
+    "150": {
+      "zh": "对吧？",
+      "vi": "Đúng không?"
+    },
+    "151": {
+      "zh": "你现在正在收听的是亲历者自述的声音节目《故事FM》，我是主播爱哲。",
+      "vi": "Bạn đang nghe Cố Sự FM, chương trình âm thanh nơi người trong cuộc tự kể chuyện của mình, tôi là người dẫn Ái Triết."
+    },
+    "152": {
+      "zh": "本期节目由梁科制作，",
+      "vi": "Kỳ này do Lương Khoa sản xuất,"
+    },
+    "153": {
+      "zh": "声音设计杨帆。",
+      "vi": "thiết kế âm thanh: Dương Phàm."
+    },
+    "154": {
+      "zh": "如果你也开始脱发了，你会选择光头还是植发？",
+      "vi": "Nếu bạn cũng bắt đầu rụng tóc, bạn sẽ chọn cạo trọc hay cấy tóc?"
+    },
+    "155": {
+      "zh": "欢迎在留言里和我们聊聊。",
+      "vi": "Mời bạn để lại bình luận trò chuyện với chúng tôi."
+    },
+    "156": {
+      "zh": "感谢你的收听，咱们下期再见。",
+      "vi": "Cảm ơn bạn đã lắng nghe, hẹn gặp lại kỳ sau."
+    }
+  }
+}

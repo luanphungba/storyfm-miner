@@ -15,6 +15,7 @@ import { toSentences, punctuationRate } from './segment.js';
 import { splitSentence, joinSentences } from './cuts.js';
 import { applyOnsets } from './onsets.js';
 import { assignRoles, speakingTime, narratorShare } from './roles.js';
+import { buildSidecar } from './translations.js';
 
 /** Below this share of cues ending on 。！？ the ASR barely punctuated and the cuts are guesses. */
 const POOR_PUNCTUATION = 0.5;
@@ -61,8 +62,27 @@ export async function buildEpisode(episode, { force = false, resegment = false, 
     cues,
   });
   await rebuildIndex();
+  await rebuildTranslation(episode.id, cues);
 
   report(episode.id, cues);
+}
+
+/**
+ * Rewrites the translation the page loads against the lines just built. A fix or a re-cut can move
+ * a sentence out from under its translation; those drop off the page here and are named, so they are
+ * translated again rather than shown wrong.
+ * @param {string} id
+ * @param {import('./translations.js').Line[]} lines
+ */
+export async function rebuildTranslation(id, lines) {
+  if (!existsSync(paths.translations(id))) return null;
+  const result = buildSidecar(lines, await readJsonOr(paths.translations(id), {}));
+  await writeJson(paths.vi(id), result.sidecar);
+  const { missing, stale } = result;
+  if (missing.length || stale.length) {
+    console.log(`  ⚠ Bản dịch: ${missing.length} câu chưa dịch, ${stale.length} câu đã đổi chữ Hán — node tools/translate.mjs show ${id} --todo`);
+  }
+  return result;
 }
 
 /**

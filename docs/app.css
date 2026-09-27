@@ -164,6 +164,52 @@ h1 {
    its button shows up, this one steps aside. */
 .cue .zh:has(.ci-loop) ~ .loop { display: none; }
 
+/* ---------- Vietnamese translation ---------- */
+
+.summary {
+  margin: 0 0 16px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+}
+.summary > summary { cursor: pointer; color: var(--muted); font-size: 14px; }
+#summary-body p { margin: 10px 0 0; line-height: 1.6; }
+
+/* The last line of a sentence carries its translation underneath, so the row becomes a grid: the
+   Chinese keeps its column, the VI button sits at its end, the translation spans below. */
+.cue.has-vi {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) auto;
+  column-gap: 12px;
+}
+
+.cue .vi-toggle {
+  align-self: start;
+  margin-top: calc(var(--zh-size) * 0.875 - 11px);
+  padding: 1px 6px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: none;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: .5px;
+  cursor: pointer;
+}
+.cue .vi-toggle[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+#cues.show-vi .vi-toggle { display: none; }
+
+.cue .vi {
+  display: none;
+  grid-column: 2 / 4;
+  margin: 2px 0 4px;
+  color: var(--muted);
+  font-size: max(15px, calc(var(--zh-size) * 0.8));
+  line-height: 1.5;
+  cursor: text;
+}
+.cue.vi-open .vi, #cues.show-vi .vi { display: block; }
+
 /* ---------- player ---------- */
 
 .player {
