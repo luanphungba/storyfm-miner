@@ -523,18 +523,24 @@ const loopEndInput = /** @type {HTMLInputElement} */ ($('loop-end'));
 const loopToggle = /** @type {HTMLButtonElement} */ ($('loop-toggle'));
 const loopClear = /** @type {HTMLButtonElement} */ ($('loop-clear'));
 
-/** Accepts "1:23", "1:23.4" or bare seconds; null when the text isn't a time. */
+/**
+ * Accepts "1:23", "1:23.4" or bare seconds. A phone's number pad has no ":", so "." or ","
+ * stands in for it: "1.23.4" is 1:23.4, and "1.23" (two digits after) is 1:23 while "83.4"
+ * stays 83.4 seconds. Null when the text isn't a time.
+ */
 function parseTimeField(/** @type {string} */ text) {
   const trimmed = text.trim();
   if (!trimmed) return null;
 
-  const parts = trimmed.split(':');
-  if (parts.length > 2 || parts.some((part) => part === '')) return null;
+  const parts = trimmed.split(/[:.,]/);
+  if (parts.length > 3 || parts.some((part) => !/^\d+$/.test(part))) return null;
 
-  const numbers = parts.map(Number);
-  if (numbers.some(Number.isNaN)) return null;
+  const [first, second, third] = parts;
+  if (parts.length === 1) return Number(first);
+  if (parts.length === 2 && !trimmed.includes(':') && second.length !== 2) return Number(`${first}.${second}`);
 
-  return parts.length === 2 ? numbers[0] * 60 + numbers[1] : numbers[0];
+  const seconds = Number(third === undefined ? second : `${second}.${third}`);
+  return seconds < 60 ? Number(first) * 60 + seconds : null;
 }
 
 /** One decimal place, so a phrase a fraction of a second long can still be trimmed precisely. */
@@ -581,7 +587,12 @@ function refreshLoopBar() {
 }
 
 for (const input of [loopStartInput, loopEndInput]) {
-  input.addEventListener('change', refreshLoopBar);
+  input.addEventListener('change', () => {
+    // Echo what was understood, so "1.23" visibly becomes 1:23.0 rather than 1.23 seconds.
+    const seconds = parseTimeField(input.value);
+    if (seconds !== null) input.value = formatTimeField(seconds);
+    refreshLoopBar();
+  });
 }
 
 $('loop-start-now').addEventListener('click', () => {

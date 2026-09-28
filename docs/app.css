@@ -280,6 +280,13 @@ h1 {
 #loop-toggle { height: 30px; }
 #loop-clear { height: 30px; padding-inline: 10px; }
 
+/* Fingers need a taller target, and under 16px iOS zooms the page when a time field is focused. */
+@media (pointer: coarse) {
+  .time-field, #loop-toggle, #loop-clear { height: 38px; }
+  .time-input { width: 76px; font-size: 16px; }
+  .time-now { padding: 0 10px; font-size: 13px; }
+}
+
 .note { color: var(--muted); font-size: 14px; }
 
 /* A tapped word and the card that answers it. Words carry no marking of their own: every attempt to
