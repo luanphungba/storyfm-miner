@@ -1110,7 +1110,8 @@
           "mp3": "https://m.cdn.firstory.me/track/cko0g8j5m1toy0984t6s7mqtk/cko9v3ym6wyl80899vxx75wdz/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fcko0g8j5m1toy0984t6s7mqtk%2F1620122501718.mp3?v=1620122506455",
           "link": "https://open.firstory.fm/story/cko9v3ym6wyl80899vxx75wdz",
           "pubDate": "2021-05-04",
-          "duration": 1831
+          "duration": 1831,
+          "m4a": "https://storyfm-audio.luanphungba.workers.dev/CC2.m4a"
         },
         {
           "id": "CC1",
@@ -1119,7 +1120,8 @@
           "mp3": "https://m.cdn.firstory.me/track/cko0g8j5m1toy0984t6s7mqtk/cko0i31ww1y4909842bj2ot2u/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fcko0g8j5m1toy0984t6s7mqtk%2F1619556430103.mp3?v=1619556431919",
           "link": "https://open.firstory.fm/story/cko0i31ww1y4909842bj2ot2u",
           "pubDate": "2021-04-27",
-          "duration": 195
+          "duration": 195,
+          "m4a": "https://storyfm-audio.luanphungba.workers.dev/CC1.m4a"
         }
       ]
     }

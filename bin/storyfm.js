@@ -64,7 +64,7 @@ async function add(/** @type {string[]} */ argv) {
   if (!id) throw new Error('Thiếu mã tập. Ví dụ: storyfm add E910');
 
   const { buildEpisode, loadEpisodes } = await import('../src/build.js');
-  const episode = findEpisode(await loadEpisodes(), id);
+  const episode = await hosted(findEpisode(await loadEpisodes(), id));
   await buildEpisode(episode, {
     force: values.force,
     resegment: values.resegment,
@@ -119,7 +119,20 @@ Thêm một tập: storyfm add ${show.episodes[0]?.id ?? `${show.prefix}1`}`);
   const found = show.episodes.find((episode) => episode.title.trim() === episodeTitle.trim());
   if (!found) throw new Error(`Không thấy tập "${episodeTitle}" trong RSS của ${show.title}. Xem danh sách: storyfm podcast ${show.feed}`);
   const { buildEpisode, loadEpisodes } = await import('../src/build.js');
-  await buildEpisode(findEpisode(await loadEpisodes(), found.id), { narrator: values.narrator });
+  await buildEpisode(await hosted(findEpisode(await loadEpisodes(), found.id)), { narrator: values.narrator });
+}
+
+/**
+ * A podcast episode is played from our own copy (see src/podcasts.js), hosted before anything is
+ * built — also on --resegment, which is how an episode added before that switches over.
+ * @template T
+ * @param {T & { source?: string, m4a?: string }} episode
+ * @returns {Promise<T>}
+ */
+async function hosted(episode) {
+  if (episode.source !== 'podcast' || episode.m4a) return episode;
+  const { hostAudio } = await import('../src/podcasts.js');
+  return { ...episode, m4a: await hostAudio(/** @type {any} */ (episode)) };
 }
 
 async function models() {
@@ -149,7 +162,8 @@ const USAGE = `storyfm — transcript cho 故事FM
   storyfm bili <link|BV…>       tải audio Bilibili, đẩy lên Pages, transcribe
                                 (sau đó dùng add BV… --resegment như tập thường)
 
-  storyfm podcast <link>        thêm một podcast khác (link Spotify / Apple / Firstory / RSS)
+  storyfm podcast <link>        thêm một podcast khác (link Spotify / Apple / Firstory / RSS);
+                                audio được nén lại và đẩy lên Cloudflare trước khi transcribe
     --prefix CC                 mã đầu cho tập của show mới (mặc định: chữ đầu tên Latin)
                                 link show → liệt kê tập; link một tập → transcribe tập đó
                                 (sau đó dùng add CC119 như tập thường)

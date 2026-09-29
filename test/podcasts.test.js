@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parsePodcastFeed, defaultPrefix } from '../src/podcasts.js';
+import { parsePodcastFeed, defaultPrefix, keepHosted } from '../src/podcasts.js';
 
 const item = (title, date, duration = '120') => `<item><title><![CDATA[${title}]]></title>
 <link>https://open.firstory.fm/story/x</link><guid isPermaLink="false">g-${title}</guid>
@@ -25,4 +25,15 @@ ${item('EPISODE 1 | Trailer', 'Tue, 27 Apr 2021 20:51:29 GMT', '1:00:05')}
 test('the default prefix is the initials of the Latin words', () => {
   assert.equal(defaultPrefix('瞎扯学中文 Convo Chinese'), 'CC');
   assert.equal(defaultPrefix('故事FM'), 'F'); // too short: syncShow then asks for --prefix
+});
+
+test('a re-synced feed keeps the copies already hosted', () => {
+  const ep = (guid, extra = {}) => ({ id: guid, title: guid, guid, mp3: `https://feed/${guid}.mp3`, pubDate: '2021-05-04', duration: 60, ...extra });
+  const known = [ep('a', { m4a: 'https://cdn/a.m4a' }), ep('b')];
+  const fresh = [ep('c'), ep('a', { title: 'renamed' }), ep('b')];
+  assert.deepEqual(keepHosted(known, fresh), [
+    ep('c'),
+    ep('a', { title: 'renamed', m4a: 'https://cdn/a.m4a' }),
+    ep('b'),
+  ]);
 });

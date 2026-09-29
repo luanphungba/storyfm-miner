@@ -1,7 +1,14 @@
 // @ts-check
 // Other podcasts as listening episodes, next to 故事FM. Any show with an RSS feed works the same way:
-// the feed's <enclosure> is a plain mp3 that AssemblyAI and the player both fetch directly, so unlike
-// Bilibili nothing is downloaded or re-hosted.
+// the feed's <enclosure> is a plain mp3.
+//
+// That mp3 is not what the player plays, though: each episode is re-encoded and hosted on the
+// storyfm-audio Worker like Bilibili's audio (hostAudio), and AssemblyAI transcribes the same copy.
+// Firstory's mp3s carry a VBR "Xing" header, and Chrome seeks one through its coarse table of 100
+// points: measured on CC2, a seek landed anywhere from 3.7s early to 1.4s late while currentTime
+// reported the time asked for, so every tapped line, loop and Anki card played the wrong words.
+// 故事FM's mp3s carry a CBR "Info" header and seek to within 15ms, as does an MP4 copy, whose sample
+// table leaves nothing to estimate.
 //
 // The user pastes whatever link their podcast app shares — Spotify, Apple Podcasts, Firstory, or the
 // RSS itself — and resolveFeed turns it into the feed. Spotify hides a show's feed, so its show name is
@@ -12,10 +19,13 @@
 // Convo Chinese) and none of that is used. Episode ids are the show's prefix plus the number in the
 // title ("Episode 119 | …" → CC119); an unnumbered one falls back to the date, as in 故事FM.
 
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, rename, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { execFile } from 'node:child_process';
 import { dirname } from 'node:path';
+import { promisify } from 'node:util';
 import { paths } from './paths.js';
+import { publishAudio, assertFits } from './cdn.js';
 
 /** Spotify answers a full browser user agent with an empty web-player shell; this gets the real page. */
 const UA = 'Mozilla/5.0';
@@ -41,7 +51,8 @@ const DURATION = /<itunes:duration>([\d:]+)<\/itunes:duration>/;
  * @property {string} id
  * @property {string} title
  * @property {string} guid
- * @property {string} mp3
+ * @property {string} mp3      As the feed has it.
+ * @property {string} [m4a]     Our copy on the storyfm-audio Worker, once hosted: what the player plays.
  * @property {string} [link]    The episode's own page, where its show notes are.
  * @property {string} pubDate   ISO date.
  * @property {number} duration  Seconds.
@@ -182,7 +193,7 @@ export async function syncShow(feed, prefix) {
   if (clash) throw new Error(`Prefix ${chosen} đã dùng cho "${clash.title}". Chọn prefix khác: --prefix XX`);
 
   const { title, episodes } = parsePodcastFeed(xml, chosen);
-  const show = { prefix: chosen, title, feed, episodes };
+  const show = { prefix: chosen, title, feed, episodes: keepHosted(known?.episodes ?? [], episodes) };
   await saveShows([...shows.filter((other) => other.feed !== feed), show]);
   return show;
 }
@@ -192,4 +203,50 @@ export async function loadPodcastEpisodes() {
   return (await loadShows()).flatMap((show) =>
     show.episodes.map((episode) => ({ ...episode, source: 'podcast', owner: show.title })),
   );
+}
+
+/**
+ * A fresh snapshot of the feed, with the copies already hosted carried over: the feed knows nothing
+ * of them, and losing one would put the episode back on the mp3 that seeks wrong.
+ * @param {PodcastEpisode[]} known
+ * @param {PodcastEpisode[]} fresh
+ */
+export function keepHosted(known, fresh) {
+  const hosted = new Map(known.filter((episode) => episode.m4a).map((episode) => [episode.guid, episode.m4a]));
+  return fresh.map((episode) => (hosted.has(episode.guid) ? { ...episode, m4a: hosted.get(episode.guid) } : episode));
+}
+
+/**
+ * Downloads the episode's mp3, re-encodes it into data/audio/<id>.m4a, publishes it and records the
+ * URL in data/podcasts.json. Returns that URL.
+ *
+ * A remux that only dropped the Xing header would seek exactly too (the stream itself is CBR), but at
+ * 128k stereo most episodes are over Cloudflare's 25 MiB. 64k mono AAC is plenty for two people
+ * talking, and 15 MB for 30 minutes. The re-encode keeps the mp3's timeline — the transcript's timestamps —
+ * to within 15ms, measured by seeking the copy in Chrome and matching what it played to the mp3.
+ * @param {PodcastEpisode} episode
+ */
+export async function hostAudio(episode) {
+  const file = paths.audio(episode.id);
+  console.log(`${episode.id} · tải mp3 và nén thành data/audio/${episode.id}.m4a…`);
+  const response = await fetch(episode.mp3, { headers: { 'User-Agent': UA } });
+  if (!response.ok) throw new Error(`Tải audio lỗi ${response.status}.`);
+  await mkdir(dirname(file), { recursive: true });
+  const mp3 = `${file}.mp3`;
+  await writeFile(mp3, Buffer.from(await response.arrayBuffer()));
+  try {
+    await promisify(execFile)('ffmpeg', ['-v', 'error', '-y', '-i', mp3, '-vn', '-ac', '1', '-c:a', 'aac', '-b:a', '64k', '-movflags', '+faststart', `${file}.tmp.m4a`]);
+    await rename(`${file}.tmp.m4a`, file);
+  } finally {
+    await rm(mp3, { force: true });
+  }
+  await assertFits(file);
+
+  const m4a = await publishAudio(episode.id);
+  const shows = await loadShows();
+  for (const show of shows) {
+    show.episodes = show.episodes.map((known) => (known.guid === episode.guid ? { ...known, m4a } : known));
+  }
+  await saveShows(shows);
+  return m4a;
 }

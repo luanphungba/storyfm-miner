@@ -13,22 +13,15 @@
 // data/bilibili.json is the catalogue of videos added, the counterpart of 故事FM's feed snapshot.
 
 import { spawn, execFile } from 'node:child_process';
-import { mkdtemp, rm, readFile, writeFile, mkdir, rename, stat } from 'node:fs/promises';
+import { mkdtemp, rm, readFile, writeFile, mkdir, rename } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
 import { promisify } from 'node:util';
 import { paths } from './paths.js';
+import { publishAudio, assertFits } from './cdn.js';
 
 const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
-
-/** Pinned rather than `npx wrangler`, so a deploy never runs whatever version npm serves that day. */
-const WRANGLER = 'wrangler@4.142.0';
-/** Must match the name in cdn/wrangler.jsonc. */
-export const AUDIO_WORKER = 'storyfm-audio';
-
-/** Cloudflare refuses static assets over 25 MiB. */
-const ASSET_FILE_LIMIT = 25 * 1024 * 1024;
 
 const BVID = /BV[0-9A-Za-z]{10}/;
 
@@ -78,9 +71,7 @@ export async function importVideo(input) {
   await downloadAudio(page.audioUrl, file);
   console.log(`  đã tải audio → data/audio/${bvid}.m4a`);
 
-  const origin = await publishAudio();
-  const m4a = `${origin}/${bvid}.m4a`;
-  await assertServed(m4a);
+  const m4a = await publishAudio(bvid);
 
   const video = { id: bvid, title: page.title, owner: page.owner, pubDate: page.pubDate, duration: page.duration, m4a };
   await saveVideo(video);
@@ -220,33 +211,5 @@ async function downloadAudio(/** @type {string} */ url, /** @type {string} */ fi
     await rm(dash, { force: true });
   }
 
-  const { size } = await stat(file);
-  if (size > ASSET_FILE_LIMIT) {
-    throw new Error(`Audio ${Math.round(size / 1e6)}MB vượt giới hạn 25MB của Cloudflare — cần nén lại (opus 32k).`);
-  }
-}
-
-/**
- * Deploys cdn/ — a Worker that serves data/audio/ as its static assets; only files Cloudflare does
- * not already hold are uploaded. Returns the Worker's origin, which wrangler prints.
- */
-async function publishAudio() {
-  console.log(`  đẩy data/audio/ lên Cloudflare (${AUDIO_WORKER})…`);
-  const { stdout } = await promisify(execFile)('npx', ['--yes', WRANGLER, 'deploy'], {
-    cwd: join(paths.root, 'cdn'),
-    maxBuffer: 16 * 1024 * 1024,
-  });
-  const origin = stdout.match(/https:\/\/[\w.-]+\.workers\.dev/)?.[0];
-  if (!origin) throw new Error(`Deploy xong nhưng không thấy địa chỉ workers.dev trong output:\n${stdout}`);
-  return origin;
-}
-
-/** A fresh Worker can take a moment to answer on its domain; AssemblyAI must not get a 404. */
-async function assertServed(/** @type {string} */ url) {
-  for (let attempt = 0; attempt < 12; attempt += 1) {
-    const response = await fetch(url, { method: 'HEAD' }).catch(() => null);
-    if (response?.ok) return;
-    await new Promise((resolve) => setTimeout(resolve, 5_000));
-  }
-  throw new Error(`Đã deploy nhưng ${url} chưa trả về file.`);
+  await assertFits(file);
 }

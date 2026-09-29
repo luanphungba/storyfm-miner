@@ -24,7 +24,7 @@ export const paths = {
   bilibili: join(ROOT, 'data', 'bilibili.json'),
   /** The other podcasts added and a snapshot of each one's episodes — see src/podcasts.js. */
   podcasts: join(ROOT, 'data', 'podcasts.json'),
-  /** Downloaded Bilibili audio, published to Cloudflare Pages and kept out of git. */
+  /** Audio hosted on the storyfm-audio Worker (Bilibili's, other podcasts'), kept out of git. */
   audio: (/** @type {string} */ id) => join(ROOT, 'data', 'audio', `${id}.m4a`),
   episode: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.json`),
   /** What the page loads of the translation — see src/translations.js. */
