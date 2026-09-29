@@ -10,6 +10,7 @@
 
 import { CONTEXT_LINES, markLine } from './card.js';
 import { initMiner } from './miner.js';
+import { strokeToggle } from './strokes.js';
 
 const CUE_LANG = 'zh-Hans';
 const CHANNEL = 'ci-timedtext';
@@ -243,6 +244,8 @@ function showGloss(/** @type {HTMLElement} */ span) {
     card.append(element);
   };
   line('g-word', word);
+  const strokes = strokeToggle(word);
+  if (strokes) card.lastElementChild?.append(strokes.button);
   line('g-reading', [reading, hanviet?.toUpperCase()].filter(Boolean).join('   ·   '));
   // An unauthored word says so. A guess here would be worse than a blank: the reader cannot tell a
   // wrong meaning from a right one, and a wrong one is what ends up on a flashcard.
@@ -256,6 +259,7 @@ function showGloss(/** @type {HTMLElement} */ span) {
   const level = span.dataset.name ? 'tên riêng' : band ? `HSK ${band === '7' ? '7-9' : band}` : 'ngoài HSK';
   const times = Number(span.dataset.count);
   line('g-meta', `${level} · gặp ${times} lần trong các tập đã có`);
+  if (strokes) card.append(strokes.panel);
   const actions = document.createElement('div');
   actions.className = 'g-actions';
   const close = document.createElement('button');

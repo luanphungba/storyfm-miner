@@ -486,3 +486,51 @@ h1 {
 .dialog-actions .spacer { flex: 1; }
 .dialog-actions .chip { padding: 8px 14px; font-size: 14px; }
 .chip.is-primary { border-color: var(--accent); background: var(--accent); color: #fff; }
+
+/* ---------- stroke order (docs/strokes.js) ---------- */
+
+.g-strokes-toggle {
+  margin-left: 8px;
+  padding: 0 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  vertical-align: 3px;
+  cursor: pointer;
+}
+.g-strokes-toggle[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+
+.g-strokes { clear: both; margin-top: 10px; }
+.g-strokes .s-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.g-strokes .s-char {
+  width: 96px;
+  height: 96px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  cursor: pointer;
+  touch-action: none; /* a stroke drawn in the quiz must not scroll the page */
+}
+.g-strokes .s-char.is-missing {
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-size: 56px;
+  cursor: default;
+}
+.g-strokes .s-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 8px; }
+.g-strokes .s-tools button {
+  padding: 4px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--fg);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.g-strokes .s-note { color: var(--muted); font-size: 13px; }
