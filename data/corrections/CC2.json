@@ -1,0 +1,288 @@
+{
+  "episode": "CC2",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-09-29",
+  "fixes": [
+    {
+      "cueIndex": 1,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 2,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 3,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 4,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 6,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 11,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 21,
+      "before": " ere ",
+      "after": "ere",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 23,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 30,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 65,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 66,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 67,
+      "before": " know四川ese ",
+      "after": "know四川ese",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 109,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 148,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 195,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 261,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 365,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 374,
+      "before": " yeah ",
+      "after": "yeah",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 66,
+      "before": "esefood",
+      "after": "ese food",
+      "source": "llm-review",
+      "reason": "Glue pass fused two words: \"Sichuanese food\" (四川 said in Chinese).",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 67,
+      "before": "Iknow",
+      "after": "I know",
+      "source": "llm-review",
+      "reason": "Glue pass fused two English words.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 67,
+      "before": "esefood",
+      "after": "ese food",
+      "source": "llm-review",
+      "reason": "Glue pass fused two words: \"Sichuanese food\".",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 77,
+      "before": "传大",
+      "after": "川大",
+      "source": "llm-review",
+      "reason": "传大 isn't a school; 川大 (四川大学) in Chengdu is what's being asked about.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 132,
+      "before": "Camera，",
+      "after": "Cameron，",
+      "source": "llm-review",
+      "reason": "The guest's name, Cameron, as everywhere else in the episode.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 163,
+      "before": "钱钱",
+      "after": "签签",
+      "source": "llm-review",
+      "reason": "Talking about skewers (签子) made of wood scraps; 钱钱 (money) makes no sense, 签签 is the same sound.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 192,
+      "before": "呼牌",
+      "after": "胡牌",
+      "source": "llm-review",
+      "reason": "胡牌 is the mahjong term for a winning hand.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 253,
+      "before": "gr ingo",
+      "after": "gringo",
+      "source": "llm-review",
+      "reason": "One English word split by the ASR: Latin American nickname for Americans.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 266,
+      "before": "di pl om acy",
+      "after": "diplomacy",
+      "source": "llm-review",
+      "reason": "One English word split by the ASR; glossed as 外交 right after.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 277,
+      "before": "小羊生煎",
+      "after": "小杨生煎",
+      "source": "llm-review",
+      "reason": "The Shanghai shengjian chain is 小杨生煎; the ASR spells it both ways.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 283,
+      "before": "那小羊生煎",
+      "after": "那小杨生煎",
+      "source": "llm-review",
+      "reason": "The Shanghai shengjian chain is 小杨生煎.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 283,
+      "before": "小羊生煎是",
+      "after": "小杨生煎是",
+      "source": "llm-review",
+      "reason": "The Shanghai shengjian chain is 小杨生煎.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 307,
+      "before": "小羊生煎",
+      "after": "小杨生煎",
+      "source": "llm-review",
+      "reason": "The Shanghai shengjian chain is 小杨生煎.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 365,
+      "before": "Ohmygod",
+      "after": "Oh my god",
+      "source": "llm-review",
+      "reason": "Glue pass fused three English words.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 374,
+      "before": "Yeahyeahyeah",
+      "after": "Yeah yeah yeah",
+      "source": "llm-review",
+      "reason": "Glue pass fused three repeated words.",
+      "appliedAt": "2026-09-29"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 23,
+      "text": "纽约是一个behold过过滤掉。",
+      "reason": "Garbled: 'behold' (confidence 0.18) doesn't fit and the meaning isn't recoverable from context."
+    },
+    {
+      "cueIndex": 231,
+      "text": "北京、上海都算是像郊区",
+      "reason": "像 (0.30) reads oddly; likely 算上郊区 but not certain."
+    },
+    {
+      "cueIndex": 338,
+      "text": "可是中国第一比较大。",
+      "reason": "第一 (0.49) doesn't fit; possibly 地域 (region) — sounds close, unconfirmed."
+    }
+  ]
+}

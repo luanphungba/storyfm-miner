@@ -1,0 +1,7265 @@
+{
+  "id": "CC2",
+  "title": "EPISODE 2 | 为什么番茄炒蛋是中国国菜？ 来自成都人和上海人的瞎扯",
+  "guid": "cko9v3ym6wyl80899vxx75wdz",
+  "pubDate": "2021-05-04",
+  "duration": 1831,
+  "audio": {
+    "mp3": "https://m.cdn.firstory.me/track/cko0g8j5m1toy0984t6s7mqtk/cko9v3ym6wyl80899vxx75wdz/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fcko0g8j5m1toy0984t6s7mqtk%2F1620122501718.mp3?v=1620122506455"
+  },
+  "source": "podcast",
+  "owner": "瞎扯学中文 Convo Chinese",
+  "link": "https://open.firstory.fm/story/cko9v3ym6wyl80899vxx75wdz",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 8.98,
+      "end": 10.36,
+      "text": "Hello，大家好。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 1,
+      "s": 1,
+      "start": 10.36,
+      "end": 12.3,
+      "text": "今天是我们的正式的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 2,
+      "s": 1,
+      "start": 12.3,
+      "end": 13.97,
+      "text": "Podcast第一期。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 3,
+      "s": 2,
+      "start": 14.2,
+      "end": 15.02,
+      "text": "那今天呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 4,
+      "s": 2,
+      "start": 15.02,
+      "end": 18.26,
+      "text": "我邀请了一个在德国的小伙伴，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 5,
+      "s": 2,
+      "start": 18.26,
+      "end": 19.95,
+      "text": "他的名字叫Cameron。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 6,
+      "s": 3,
+      "start": 20,
+      "end": 20.5,
+      "text": "Cameron，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 7,
+      "s": 3,
+      "start": 20.5,
+      "end": 21.98,
+      "text": "你要不要自我介绍一下？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 8,
+      "s": 4,
+      "start": 22.7,
+      "end": 24.94,
+      "text": "OK啊，大家好，我叫Cameron，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 4,
+      "start": 24.94,
+      "end": 27.86,
+      "text": "我现在在德国做我的博士研究。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 5,
+      "start": 29.21,
+      "end": 29.86,
+      "text": "Yeah，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 11,
+      "s": 5,
+      "start": 29.86,
+      "end": 33.04,
+      "text": "那我觉得我们第一期的话呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 12,
+      "s": 5,
+      "start": 33.04,
+      "end": 35.3,
+      "text": "可以聊一些比较轻松、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 13,
+      "s": 5,
+      "start": 35.3,
+      "end": 37.1,
+      "text": "比较简单的话题。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 14,
+      "s": 6,
+      "start": 37.26,
+      "end": 39.88,
+      "text": "Cameron他来自四川，对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 15,
+      "s": 7,
+      "start": 39.88,
+      "end": 40.88,
+      "text": "你是哪个？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 16,
+      "s": 8,
+      "start": 41.52,
+      "end": 43.25,
+      "text": "嗯，在成都。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 9,
+      "start": 44.2,
+      "end": 45.74,
+      "text": "嗯，我是上海。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 18,
+      "s": 10,
+      "start": 45.74,
+      "end": 48.36,
+      "text": "然后成都和上海虽然很不一样，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 19,
+      "s": 10,
+      "start": 48.36,
+      "end": 51.32,
+      "text": "但算是中国比较重要的两个大城市。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 20,
+      "s": 11,
+      "start": 51.34,
+      "end": 53.6,
+      "text": "然后呢，其实我没有Cameron，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 21,
+      "s": 11,
+      "start": 53.6,
+      "end": 55.39,
+      "text": "我还没有和你好好聊过。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 22,
+      "s": 12,
+      "start": 55.47,
+      "end": 58.43,
+      "text": "关于家乡，但我其实去过成都一次。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 23,
+      "s": 13,
+      "start": 58.71,
+      "end": 60.28,
+      "text": "嗯，可是我没去过上海。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 14,
+      "start": 60.83,
+      "end": 62.83,
+      "text": "对我特别不能理解，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 25,
+      "s": 14,
+      "start": 62.83,
+      "end": 65.75,
+      "text": "作为一个中国人，竟然没有去过上海。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 26,
+      "s": 15,
+      "start": 65.75,
+      "end": 68.45,
+      "text": "是中国人就必须要去过上海吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 16,
+      "start": 68.85,
+      "end": 71.53,
+      "text": "上海就和北京的地位差不多。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 28,
+      "s": 17,
+      "start": 71.89,
+      "end": 73.41,
+      "text": "你作为一个中国人，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 29,
+      "s": 17,
+      "start": 73.41,
+      "end": 75.11,
+      "text": "那没有去过北京或者上海？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 30,
+      "s": 18,
+      "start": 75.11,
+      "end": 75.95,
+      "text": "我去过北京，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 18,
+      "start": 75.95,
+      "end": 77.64,
+      "text": "而且我觉得北京挺好玩的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 19,
+      "start": 78.55,
+      "end": 80.43,
+      "text": "嗯，我觉得这可能有点像",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 33,
+      "s": 19,
+      "start": 80.43,
+      "end": 83.69,
+      "text": "美国人没有去过纽约的感觉吧。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 34,
+      "s": 20,
+      "start": 84.44,
+      "end": 86.38,
+      "text": "可是我觉得这很正常啊",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 35,
+      "s": 20,
+      "start": 86.38,
+      "end": 87.24,
+      "text": "你问一个美国人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 36,
+      "s": 20,
+      "start": 87.24,
+      "end": 89.32,
+      "text": "比如说你去南方有的州",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 37,
+      "s": 20,
+      "start": 89.32,
+      "end": 91.86,
+      "text": "他们可能就是没有去过纽约",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 38,
+      "s": 20,
+      "start": 91.86,
+      "end": 93.2,
+      "text": "嗯好吧",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 39,
+      "s": 21,
+      "start": 93.2,
+      "end": 95.78,
+      "text": "但是我作为一个骄傲的上海人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 40,
+      "s": 21,
+      "start": 95.78,
+      "end": 99.44,
+      "text": "你知道就是上海人一直都有这个",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 41,
+      "s": 21,
+      "start": 99.44,
+      "end": 100.8,
+      "text": "英文叫stereotype",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 42,
+      "s": 21,
+      "start": 100.8,
+      "end": 101.84,
+      "text": "刻板印象",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 43,
+      "s": 22,
+      "start": 101.84,
+      "end": 104.04,
+      "text": "就是其实和纽约人有点像",
+      "speaker": "A",
+      "u": 21,
+      "role": "narrator"
+    },
+    {
+      "i": 44,
+      "s": 22,
+      "start": 104.04,
+      "end": 105.4,
+      "text": "我们就特别骄傲",
+      "speaker": "A",
+      "u": 21,
+      "role": "narrator"
+    },
+    {
+      "i": 45,
+      "s": 22,
+      "start": 105.4,
+      "end": 108.06,
+      "text": "然后呢上海人会纽约人不骄傲",
+      "speaker": "A",
+      "u": 21,
+      "role": "narrator"
+    },
+    {
+      "i": 46,
+      "s": 22,
+      "start": 108.06,
+      "end": 111.25,
+      "text": "我跟你讲纽约人都觉得",
+      "speaker": "A",
+      "u": 21,
+      "role": "narrator"
+    },
+    {
+      "i": 47,
+      "s": 23,
+      "start": 111.25,
+      "end": 115.12,
+      "text": "纽约是一个behold过过滤掉。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 48,
+      "s": 24,
+      "start": 116.23,
+      "end": 117.85,
+      "text": "OK，OK，好吧，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 49,
+      "s": 25,
+      "start": 117.85,
+      "end": 119.49,
+      "text": "我觉得上海人的这个",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 50,
+      "s": 25,
+      "start": 119.49,
+      "end": 121.29,
+      "text": "大家对上海人的印象是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 51,
+      "s": 25,
+      "start": 121.29,
+      "end": 124.19,
+      "text": "我们看其他城市的中国人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 52,
+      "s": 25,
+      "start": 124.19,
+      "end": 125.91,
+      "text": "就觉得是外地人。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 53,
+      "s": 26,
+      "start": 126.09,
+      "end": 127.13,
+      "text": "本来就是啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 26,
+      "start": 127.13,
+      "end": 130.09,
+      "text": "比如说这种什么上海妈妈找女婿",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 26,
+      "start": 130.09,
+      "end": 132.41,
+      "text": "不都是不让找外地人？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 27,
+      "start": 132.41,
+      "end": 134.15,
+      "text": "对，只找本地人。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 28,
+      "start": 134.17,
+      "end": 136.13,
+      "text": "对这个词外地人。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 58,
+      "s": 29,
+      "start": 136.38,
+      "end": 138.81,
+      "text": "虽然听起来是比较中立的，但其实，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 59,
+      "s": 30,
+      "start": 138.93,
+      "end": 140.38,
+      "text": "在上海人说起来的时候",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 60,
+      "s": 30,
+      "start": 140.38,
+      "end": 143.16,
+      "text": "是有一点点就是负面的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 61,
+      "s": 30,
+      "start": 143.16,
+      "end": 144.25,
+      "text": "negative的意思。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 62,
+      "s": 31,
+      "start": 144.56,
+      "end": 146.46,
+      "text": "外地人肯定的肯定的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 31,
+      "start": 146.58,
+      "end": 148.99,
+      "text": "不过我也能理解，我也能理解，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 31,
+      "start": 149.36,
+      "end": 151.68,
+      "text": "因为我之前没有意识到，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 32,
+      "start": 151.68,
+      "end": 154.14,
+      "text": "比如说就算成都和房上海",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 32,
+      "start": 154.14,
+      "end": 156.32,
+      "text": "他们的房价差距有多大，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 32,
+      "start": 156.32,
+      "end": 158.26,
+      "text": "可是那天我看了一眼，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 33,
+      "start": 158.26,
+      "end": 159.74,
+      "text": "因为我有一个朋友",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 33,
+      "start": 159.74,
+      "end": 161.83,
+      "text": "他要让我帮他寄一个快递。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 34,
+      "start": 161.91,
+      "end": 164.35,
+      "text": "然后他没给我他的邮政编号，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 34,
+      "start": 164.35,
+      "end": 166.5,
+      "text": "我就把他的地址输到百度里查。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 35,
+      "start": 166.81,
+      "end": 168.07,
+      "text": "结果那个第二个网页",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 35,
+      "start": 168.07,
+      "end": 169.31,
+      "text": "就是那个一个房价",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 35,
+      "start": 169.31,
+      "end": 170.81,
+      "text": "关于那儿的房价的网页。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 36,
+      "start": 170.83,
+      "end": 174.27,
+      "text": "我看了一眼，一平米十八万人民币，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "s": 36,
+      "start": 174.27,
+      "end": 176.35,
+      "text": "我就想我勒个天呐！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 77,
+      "s": 37,
+      "start": 176.35,
+      "end": 179.73,
+      "text": "我这这我还好我不是上海，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 37,
+      "start": 179.73,
+      "end": 180.59,
+      "text": "也可能也不是。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 79,
+      "s": 38,
+      "start": 180.59,
+      "end": 182.01,
+      "text": "如果我是上海人，那当然好，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 80,
+      "s": 38,
+      "start": 182.01,
+      "end": 183.23,
+      "text": "我有一套这样的房子。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 39,
+      "start": 183.23,
+      "end": 184.61,
+      "text": "不过我还好，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 39,
+      "start": 184.61,
+      "end": 187.77,
+      "text": "我没有打算去上海工作或者怎么样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 39,
+      "start": 187.77,
+      "end": 189.89,
+      "text": "因为我觉得这样压力实在太大了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 40,
+      "start": 190.03,
+      "end": 192.72,
+      "text": "一平方米十八万人民币",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 85,
+      "s": 40,
+      "start": 192.72,
+      "end": 194.88,
+      "text": "真的是一年的年薪",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 86,
+      "s": 40,
+      "start": 194.88,
+      "end": 196.46,
+      "text": "我觉得一个中产阶级",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 87,
+      "s": 40,
+      "start": 196.46,
+      "end": 198.38,
+      "text": "或者其实工作比较好的话",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 88,
+      "s": 40,
+      "start": 198.38,
+      "end": 199.38,
+      "text": "一年年薪可能就",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 89,
+      "s": 41,
+      "start": 199.38,
+      "end": 201.62,
+      "text": "三十万五十万这样子",
+      "speaker": "A",
+      "u": 40,
+      "role": "narrator"
+    },
+    {
+      "i": 90,
+      "s": 41,
+      "start": 201.62,
+      "end": 203.78,
+      "text": "那个算很好了那个算很好了",
+      "speaker": "A",
+      "u": 40,
+      "role": "narrator"
+    },
+    {
+      "i": 91,
+      "s": 41,
+      "start": 203.78,
+      "end": 205.22,
+      "text": "我觉得一般如果说",
+      "speaker": "A",
+      "u": 40,
+      "role": "narrator"
+    },
+    {
+      "i": 92,
+      "s": 41,
+      "start": 205.22,
+      "end": 207.72,
+      "text": "比较好的层次也就二三十万",
+      "speaker": "A",
+      "u": 40,
+      "role": "narrator"
+    },
+    {
+      "i": 93,
+      "s": 42,
+      "start": 207.72,
+      "end": 211.2,
+      "text": "对那你在上海做一年的工作",
+      "speaker": "A",
+      "u": 40,
+      "role": "narrator"
+    },
+    {
+      "i": 94,
+      "s": 42,
+      "start": 211.2,
+      "end": 213.98,
+      "text": "其实只能买一平米到两平米的房子",
+      "speaker": "A",
+      "u": 40,
+      "role": "narrator"
+    },
+    {
+      "i": 95,
+      "s": 42,
+      "start": 213.98,
+      "end": 215.34,
+      "text": "就是大家开玩笑",
+      "speaker": "A",
+      "u": 40,
+      "role": "narrator"
+    },
+    {
+      "i": 96,
+      "s": 42,
+      "start": 215.34,
+      "end": 217.98,
+      "text": "有时候说一个卫生间都买不起，",
+      "speaker": "A",
+      "u": 40,
+      "role": "narrator"
+    },
+    {
+      "i": 97,
+      "s": 44,
+      "start": 218.18,
+      "end": 219.61,
+      "text": "而且是不吃不喝，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 98,
+      "s": 44,
+      "start": 219.61,
+      "end": 221.75,
+      "text": "你是把那钱全部存下来。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 99,
+      "s": 45,
+      "start": 222.47,
+      "end": 224.35,
+      "text": "对，哎，那成都的房价是多少？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 100,
+      "s": 46,
+      "start": 225.31,
+      "end": 228.33,
+      "text": "成都的话，就算是最贵的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 101,
+      "s": 46,
+      "start": 228.33,
+      "end": 231.57,
+      "text": "就是成都现在南边高新区那儿，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 102,
+      "s": 46,
+      "start": 231.57,
+      "end": 235.27,
+      "text": "可能也就三万吧，最贵的三四万。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 103,
+      "s": 47,
+      "start": 236.25,
+      "end": 237.75,
+      "text": "嗯，其实我去，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 104,
+      "s": 47,
+      "start": 237.75,
+      "end": 239.19,
+      "text": "我虽然去过成都一次，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 105,
+      "s": 47,
+      "start": 239.19,
+      "end": 241.17,
+      "text": "但我也不是很有印象。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 106,
+      "s": 48,
+      "start": 241.17,
+      "end": 242.46,
+      "text": "成都的市中心。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 107,
+      "s": 49,
+      "start": 242.76,
+      "end": 245.52,
+      "text": "市中心是算哪儿啊？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 108,
+      "s": 50,
+      "start": 245.52,
+      "end": 247.34,
+      "text": "就是老城区的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 109,
+      "s": 50,
+      "start": 247.34,
+      "end": 250.36,
+      "text": "就是算那个三环以内最中间的地方，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 110,
+      "s": 50,
+      "start": 250.36,
+      "end": 252.59,
+      "text": "就是那个天府广场，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 111,
+      "s": 51,
+      "start": 252.88,
+      "end": 256.05,
+      "text": "上面有一个毛主席的雕像。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 112,
+      "s": 52,
+      "start": 256.16,
+      "end": 259.32,
+      "text": "成都好像是中国唯一的两个城市，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 113,
+      "s": 52,
+      "start": 259.32,
+      "end": 260.92,
+      "text": "或者是两个大城市",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 114,
+      "s": 52,
+      "start": 260.92,
+      "end": 263.6,
+      "text": "还有毛泽东雕像的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 115,
+      "s": 53,
+      "start": 263.98,
+      "end": 265.75,
+      "text": "这是为什么呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 116,
+      "s": 54,
+      "start": 265.78,
+      "end": 266.72,
+      "text": "不知道，可是对，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 117,
+      "s": 54,
+      "start": 266.72,
+      "end": 269.02,
+      "text": "在成都的天府广场上就可以看见。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 118,
+      "s": 55,
+      "start": 269.04,
+      "end": 272.96,
+      "text": "巨大的毛主席雕像，天哪！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 119,
+      "s": 56,
+      "start": 272.96,
+      "end": 274.38,
+      "text": "我但是我怎么没有印象？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 120,
+      "s": 57,
+      "start": 274.38,
+      "end": 276.48,
+      "text": "我去过成都，哎，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 121,
+      "s": 57,
+      "start": 276.48,
+      "end": 278.72,
+      "text": "我记得我对成都唯一的印象",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 122,
+      "s": 57,
+      "start": 278.72,
+      "end": 280.76,
+      "text": "就是两个三件事情：",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 123,
+      "s": 57,
+      "start": 280.76,
+      "end": 283.38,
+      "text": "大熊猫、麻将和火锅。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 124,
+      "s": 58,
+      "start": 285.1,
+      "end": 286.28,
+      "text": "我我去了看了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 125,
+      "s": 58,
+      "start": 286.28,
+      "end": 288.2,
+      "text": "因为大家可能也知道，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 126,
+      "s": 58,
+      "start": 288.2,
+      "end": 290.02,
+      "text": "就是大熊猫呃基地",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 127,
+      "s": 58,
+      "start": 290.02,
+      "end": 292.48,
+      "text": "在成都是非常有名的一个景点，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 128,
+      "s": 59,
+      "start": 292.48,
+      "end": 294.46,
+      "text": "然后成都基本上。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 129,
+      "s": 60,
+      "start": 294.57,
+      "end": 296.31,
+      "text": "就是被外国人所知道，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 130,
+      "s": 60,
+      "start": 296.31,
+      "end": 299.83,
+      "text": "也是因为熊猫的熊猫的家乡吧，算是。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 131,
+      "s": 61,
+      "start": 300.45,
+      "end": 302.89,
+      "text": "对，因为尤其是在德国，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 132,
+      "s": 61,
+      "start": 302.89,
+      "end": 305.43,
+      "text": "我跟德国讲我来自哪里，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 133,
+      "s": 61,
+      "start": 305.43,
+      "end": 307.47,
+      "text": "我说成都，他们都一般不知道；",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 134,
+      "s": 62,
+      "start": 307.47,
+      "end": 308.79,
+      "text": "说四川也不知道，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 135,
+      "s": 62,
+      "start": 308.79,
+      "end": 312.47,
+      "text": "我就直接讲啊，就是熊猫的地方。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 136,
+      "s": 63,
+      "start": 312.47,
+      "end": 314.21,
+      "text": "然后他们其实可能说了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 137,
+      "s": 63,
+      "start": 314.21,
+      "end": 315.31,
+      "text": "他们也还是不知道了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "s": 63,
+      "start": 315.31,
+      "end": 316.69,
+      "text": "因为我觉得成都、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 64,
+      "start": 316.69,
+      "end": 318.65,
+      "text": "四川这个概念在德国",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "s": 64,
+      "start": 318.65,
+      "end": 321.11,
+      "text": "并不是一个非常被人所知的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "s": 65,
+      "start": 321.27,
+      "end": 322.93,
+      "text": "可是，在美国就不一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "s": 65,
+      "start": 322.93,
+      "end": 324.58,
+      "text": "因为我发现在美国，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 143,
+      "s": 65,
+      "start": 325.39,
+      "end": 326.93,
+      "text": "四川restaurant、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 144,
+      "s": 66,
+      "start": 326.93,
+      "end": 328.85,
+      "text": "四川ese food这个东西",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 145,
+      "s": 66,
+      "start": 328.85,
+      "end": 331.33,
+      "text": "比比在德国人们知道的更多。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 146,
+      "s": 67,
+      "start": 331.33,
+      "end": 333.13,
+      "text": "所以说，我在美国有的时候说四川，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 147,
+      "s": 67,
+      "start": 333.13,
+      "end": 333.91,
+      "text": "他们知道啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "s": 67,
+      "start": 333.91,
+      "end": 335.34,
+      "text": "I know四川ese food。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 149,
+      "s": 68,
+      "start": 335.93,
+      "end": 338.67,
+      "text": "嗯，但其实成都现在越来越国际化。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 150,
+      "s": 69,
+      "start": 338.67,
+      "end": 340.09,
+      "text": "我觉得在中国的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 151,
+      "s": 69,
+      "start": 340.09,
+      "end": 342.51,
+      "text": "一票所有的大城市里面，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 152,
+      "s": 69,
+      "start": 342.51,
+      "end": 345.93,
+      "text": "成都算是比较成长的比较快，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 153,
+      "s": 69,
+      "start": 345.93,
+      "end": 347.43,
+      "text": "然后也比较国际化的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 154,
+      "s": 70,
+      "start": 347.64,
+      "end": 349.52,
+      "text": "因为我之前看到一个数据",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 155,
+      "s": 70,
+      "start": 349.52,
+      "end": 352.82,
+      "text": "成都的机场叫天府机场对吧",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 156,
+      "s": 70,
+      "start": 352.82,
+      "end": 354.38,
+      "text": "那个是新的还没开始用",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 157,
+      "s": 70,
+      "start": 354.38,
+      "end": 356.18,
+      "text": "老的叫双流机场",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 158,
+      "s": 70,
+      "start": 356.18,
+      "end": 359.14,
+      "text": "对双流机场其实是中国",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 159,
+      "s": 71,
+      "start": 359.14,
+      "end": 362.06,
+      "text": "就是国际航班最多的几个机场",
+      "speaker": "A",
+      "u": 70,
+      "role": "narrator"
+    },
+    {
+      "i": 160,
+      "s": 71,
+      "start": 362.06,
+      "end": 364.12,
+      "text": "某几个机场之一了",
+      "speaker": "A",
+      "u": 70,
+      "role": "narrator"
+    },
+    {
+      "i": 161,
+      "s": 71,
+      "start": 364.12,
+      "end": 365.74,
+      "text": "所以我当时还挺惊讶的",
+      "speaker": "A",
+      "u": 70,
+      "role": "narrator"
+    },
+    {
+      "i": 162,
+      "s": 71,
+      "start": 365.74,
+      "end": 368.66,
+      "text": "就是成都是要把它打造成",
+      "speaker": "A",
+      "u": 70,
+      "role": "narrator"
+    },
+    {
+      "i": 163,
+      "s": 72,
+      "start": 368.66,
+      "end": 372.1,
+      "text": "中国的一个算是西部中部的",
+      "speaker": "A",
+      "u": 70,
+      "role": "narrator"
+    },
+    {
+      "i": 164,
+      "s": 72,
+      "start": 372.1,
+      "end": 374.56,
+      "text": "一个国际航线中转枢纽",
+      "speaker": "A",
+      "u": 70,
+      "role": "narrator"
+    },
+    {
+      "i": 165,
+      "s": 72,
+      "start": 374.56,
+      "end": 377.73,
+      "text": "这么一个这么一个品牌，",
+      "speaker": "A",
+      "u": 70,
+      "role": "narrator"
+    },
+    {
+      "i": 166,
+      "s": 73,
+      "start": 377.73,
+      "end": 379.41,
+      "text": "对，因为本来它就是西边嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 167,
+      "s": 73,
+      "start": 379.41,
+      "end": 380.65,
+      "text": "然后西边可以算是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 168,
+      "s": 73,
+      "start": 380.65,
+      "end": 382,
+      "text": "差不多最大的城市，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 169,
+      "s": 73,
+      "start": 382.07,
+      "end": 383.77,
+      "text": "所以有的比如说往欧洲、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "s": 74,
+      "start": 383.77,
+      "end": 384.95,
+      "text": "往西飞啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 171,
+      "s": 74,
+      "start": 385.47,
+      "end": 387.88,
+      "text": "从成都飞可能比较方便一点。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 172,
+      "s": 75,
+      "start": 388.21,
+      "end": 390.61,
+      "text": "对，而且上一次我去成都",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 173,
+      "s": 75,
+      "start": 390.61,
+      "end": 392.09,
+      "text": "其实是因为什么呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 174,
+      "s": 76,
+      "start": 392.09,
+      "end": 395.35,
+      "text": "是因为我有一个外国的同学，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 175,
+      "s": 76,
+      "start": 395.35,
+      "end": 396.45,
+      "text": "呃，他是丹麦人，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 176,
+      "s": 76,
+      "start": 396.45,
+      "end": 398.85,
+      "text": "是我在牛津的同班同学，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 177,
+      "s": 76,
+      "start": 398.85,
+      "end": 400.93,
+      "text": "他其实在成都学习中文。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 178,
+      "s": 77,
+      "start": 401.19,
+      "end": 403.47,
+      "text": "一年在川大吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 179,
+      "s": 78,
+      "start": 403.55,
+      "end": 405.71,
+      "text": "我不记得是哪个学校了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 180,
+      "s": 79,
+      "start": 405.85,
+      "end": 408.02,
+      "text": "OK，但我为了去看他，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 181,
+      "s": 79,
+      "start": 408.07,
+      "end": 409.51,
+      "text": "然后呢，我去了成都，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 182,
+      "s": 79,
+      "start": 409.51,
+      "end": 411.29,
+      "text": "所以可能是因为圈子，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 183,
+      "s": 80,
+      "start": 411.29,
+      "end": 412.83,
+      "text": "他就是给我介绍了很多",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 184,
+      "s": 80,
+      "start": 412.83,
+      "end": 415.51,
+      "text": "在成都留学的呃外国人，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 185,
+      "s": 80,
+      "start": 415.51,
+      "end": 417.07,
+      "text": "所以我当时就觉得哇，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 186,
+      "s": 81,
+      "start": 417.07,
+      "end": 418.53,
+      "text": "成都的国际化程度",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 187,
+      "s": 81,
+      "start": 418.53,
+      "end": 421.19,
+      "text": "真的和上海差不多，给我的感觉是。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 188,
+      "s": 82,
+      "start": 421.39,
+      "end": 422.51,
+      "text": "可是我在成都，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 189,
+      "s": 82,
+      "start": 422.51,
+      "end": 424.69,
+      "text": "我怎么觉得不怎么能见得到外国人？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 190,
+      "s": 83,
+      "start": 424.69,
+      "end": 426.71,
+      "text": "我觉得真正比起来",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 191,
+      "s": 83,
+      "start": 426.71,
+      "end": 428.23,
+      "text": "肯定还是没有上海、北京。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 192,
+      "s": 84,
+      "start": 428.43,
+      "end": 429.65,
+      "text": "外国人那么多，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 193,
+      "s": 84,
+      "start": 429.65,
+      "end": 430.97,
+      "text": "不过也有可能这几年",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 194,
+      "s": 84,
+      "start": 430.97,
+      "end": 432.21,
+      "text": "你是什么时候去的？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 195,
+      "s": 85,
+      "start": 432.69,
+      "end": 434.93,
+      "text": "我是二零一六年吧。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 196,
+      "s": 86,
+      "start": 435.29,
+      "end": 437.69,
+      "text": "啊，那那那那个时候我也还在，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 197,
+      "s": 86,
+      "start": 438.57,
+      "end": 439.75,
+      "text": "嗯，可能这几年",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 198,
+      "s": 86,
+      "start": 439.75,
+      "end": 441.11,
+      "text": "我不知道会不会有不一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 199,
+      "s": 87,
+      "start": 441.11,
+      "end": 442.65,
+      "text": "因为我这几年都在国外。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 200,
+      "s": 88,
+      "start": 442.65,
+      "end": 444.83,
+      "text": "可是总的来说，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 201,
+      "s": 88,
+      "start": 444.83,
+      "end": 447.65,
+      "text": "肯定还是比不上北京、上海。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 202,
+      "s": 89,
+      "start": 448.01,
+      "end": 449.71,
+      "text": "对，对，但至少我觉得",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 203,
+      "s": 89,
+      "start": 449.71,
+      "end": 451.61,
+      "text": "可能是中国第四、第五大",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 204,
+      "s": 89,
+      "start": 451.61,
+      "end": 453.61,
+      "text": "比较国际化的城市。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 205,
+      "s": 90,
+      "start": 453.87,
+      "end": 454.53,
+      "text": "可能是吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 206,
+      "s": 90,
+      "start": 454.53,
+      "end": 457.49,
+      "text": "因为本来不就是说北上广深。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 207,
+      "s": 91,
+      "start": 457.89,
+      "end": 462.07,
+      "text": "这四个城市之外，可能也就成都了吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 208,
+      "s": 92,
+      "start": 462.07,
+      "end": 463.93,
+      "text": "现在，嗯，哎，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 209,
+      "s": 92,
+      "start": 463.93,
+      "end": 466.13,
+      "text": "我忽然想到一件比较好笑的事情，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 210,
+      "s": 92,
+      "start": 466.13,
+      "end": 467.13,
+      "text": "关于成都啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 211,
+      "s": 93,
+      "start": 467.29,
+      "end": 470.65,
+      "text": "就是我刚才说到的这个丹麦朋友，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 212,
+      "s": 93,
+      "start": 470.65,
+      "end": 472.49,
+      "text": "他在学中文，但是呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 213,
+      "s": 93,
+      "start": 472.49,
+      "end": 475.03,
+      "text": "当时他的中文虽然讲的还不错，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 214,
+      "s": 94,
+      "start": 475.03,
+      "end": 476.98,
+      "text": "但是发音就一直不太好。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 215,
+      "s": 95,
+      "start": 477.39,
+      "end": 480.25,
+      "text": "然后他学上四川话的发音了吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 216,
+      "s": 96,
+      "start": 480.27,
+      "end": 482.83,
+      "text": "没有没有，他当时想和我说，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 217,
+      "s": 96,
+      "start": 482.83,
+      "end": 485.29,
+      "text": "他要去成都看熊猫。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 218,
+      "s": 97,
+      "start": 485.78,
+      "end": 488.62,
+      "text": "但是呢，大家学过中文的都知道，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 219,
+      "s": 97,
+      "start": 488.62,
+      "end": 490.76,
+      "text": "中文的这四个音调非常的难。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 220,
+      "s": 98,
+      "start": 491.14,
+      "end": 493.36,
+      "text": "所以他当时跟我说的是：",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 221,
+      "s": 98,
+      "start": 493.36,
+      "end": 497.6,
+      "text": "“我要去四川看胸毛。”",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 222,
+      "s": 99,
+      "start": 497.6,
+      "end": 500.81,
+      "text": "胸毛对，但是胸毛是什么呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 223,
+      "s": 100,
+      "start": 501.44,
+      "end": 504.16,
+      "text": "就是胸上的毛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 224,
+      "s": 101,
+      "start": 504.16,
+      "end": 504.54,
+      "text": "对，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 225,
+      "s": 102,
+      "start": 504.54,
+      "end": 509.12,
+      "text": "然后我就就是把熊猫发音成胸毛，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 226,
+      "s": 102,
+      "start": 509.12,
+      "end": 509.96,
+      "text": "然后我就说：“哎，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 227,
+      "s": 103,
+      "start": 509.96,
+      "end": 511.78,
+      "text": "你是去四川看胸毛？”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 228,
+      "s": 104,
+      "start": 511.95,
+      "end": 513.32,
+      "text": "我觉得这个要看他",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 229,
+      "s": 104,
+      "start": 513.32,
+      "end": 514.68,
+      "text": "到底当时是怎么说的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 230,
+      "s": 105,
+      "start": 514.68,
+      "end": 516.2,
+      "text": "如果是以那种",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 231,
+      "s": 105,
+      "start": 516.2,
+      "end": 519.08,
+      "text": "普通的标准外国人中文，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 232,
+      "s": 105,
+      "start": 519.08,
+      "end": 520.5,
+      "text": "就是不分音调的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 233,
+      "s": 105,
+      "start": 520.5,
+      "end": 522.88,
+      "text": "那可能听起来还觉得不会很奇怪。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 234,
+      "s": 106,
+      "start": 522.88,
+      "end": 525.96,
+      "text": "比如说“我要去成都看熊猫”，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 235,
+      "s": 106,
+      "start": 525.96,
+      "end": 526.82,
+      "text": "就是我觉得是种",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 236,
+      "s": 106,
+      "start": 526.82,
+      "end": 528.56,
+      "text": "外国人中文这种发音。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 237,
+      "s": 107,
+      "start": 528.56,
+      "end": 530.42,
+      "text": "可是如果是他是那种一本正经的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 238,
+      "s": 107,
+      "start": 530.42,
+      "end": 532.18,
+      "text": "在发啊啊啊啊那样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 239,
+      "s": 107,
+      "start": 532.18,
+      "end": 533.72,
+      "text": "那那那是有点好玩。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 240,
+      "s": 108,
+      "start": 534.22,
+      "end": 535.38,
+      "text": "对对，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 241,
+      "s": 109,
+      "start": 535.38,
+      "end": 537.34,
+      "text": "但是anyways就是说，呃，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 242,
+      "s": 109,
+      "start": 537.34,
+      "end": 539.56,
+      "text": "还有另外两个事情给我印象很深的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 243,
+      "s": 109,
+      "start": 539.56,
+      "end": 540.38,
+      "text": "在成都。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 244,
+      "s": 110,
+      "start": 540.57,
+      "end": 542.69,
+      "text": "就是我第一次在成都",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 245,
+      "s": 110,
+      "start": 542.69,
+      "end": 544.93,
+      "text": "吃真正的四川火锅。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 246,
+      "s": 111,
+      "start": 545.17,
+      "end": 547.17,
+      "text": "嗯，我是一个上海人，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 247,
+      "s": 111,
+      "start": 547.17,
+      "end": 549.67,
+      "text": "我在北京或者或者上海吃火锅",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 248,
+      "s": 111,
+      "start": 549.67,
+      "end": 551.83,
+      "text": "都是用麻酱，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 249,
+      "s": 111,
+      "start": 551.83,
+      "end": 553.49,
+      "text": "或者麻酱其实就是芝麻酱。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 250,
+      "s": 112,
+      "start": 553.49,
+      "end": 557.05,
+      "text": "芝麻酱上海的话呢是用酱油一般。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 251,
+      "s": 113,
+      "start": 557.15,
+      "end": 558.27,
+      "text": "What？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 252,
+      "s": 114,
+      "start": 558.94,
+      "end": 561.62,
+      "text": "你们上海吃火锅蘸酱油？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 253,
+      "s": 115,
+      "start": 561.67,
+      "end": 563.27,
+      "text": "对，叫海鲜酱油。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 254,
+      "s": 116,
+      "start": 563.27,
+      "end": 565.03,
+      "text": "我的老天爷呀！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 255,
+      "s": 117,
+      "start": 565.03,
+      "end": 567.17,
+      "text": "是跟那种日本味淋比较差不多的吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 256,
+      "s": 118,
+      "start": 567.17,
+      "end": 568.17,
+      "text": "就是没有那么咸的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 257,
+      "s": 119,
+      "start": 568.17,
+      "end": 568.55,
+      "text": "是不是？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 258,
+      "s": 120,
+      "start": 568.64,
+      "end": 569.84,
+      "text": "对，很淡的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 259,
+      "s": 120,
+      "start": 569.84,
+      "end": 572.44,
+      "text": "然后甜的比较鲜的一种酱油，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 260,
+      "s": 120,
+      "start": 572.44,
+      "end": 575.18,
+      "text": "然后里面会放一些葱姜蒜之类的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 261,
+      "s": 121,
+      "start": 575.18,
+      "end": 577.96,
+      "text": "那不就是吃蒸鱼蘸的那玩意儿？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 262,
+      "s": 122,
+      "start": 577.96,
+      "end": 579.55,
+      "text": "对，那种酱油。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 263,
+      "s": 123,
+      "start": 579.84,
+      "end": 579.66,
+      "text": "啊！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 264,
+      "s": 124,
+      "start": 579.79,
+      "end": 581.4,
+      "text": "哈哈哈哈哈！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 265,
+      "s": 125,
+      "start": 581.4,
+      "end": 583.02,
+      "text": "我我第一次知道，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 266,
+      "s": 125,
+      "start": 583.02,
+      "end": 585.12,
+      "text": "所以说你们涮涮东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 267,
+      "s": 125,
+      "start": 585.12,
+      "end": 586.54,
+      "text": "比如说涮个肉片什么的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 268,
+      "s": 126,
+      "start": 586.54,
+      "end": 587.36,
+      "text": "也蘸那个。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 269,
+      "s": 127,
+      "start": 587.57,
+      "end": 590.76,
+      "text": "对，就比如说你去上海吃呃一个，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 270,
+      "s": 127,
+      "start": 590.76,
+      "end": 593.16,
+      "text": "比如说小的小锅的一些火锅，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 271,
+      "s": 127,
+      "start": 593.16,
+      "end": 595.32,
+      "text": "然后上海人吃的一般比较清淡。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 272,
+      "s": 128,
+      "start": 595.35,
+      "end": 597.23,
+      "text": "也不怎么吃辣的火锅锅底，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 273,
+      "s": 129,
+      "start": 597.23,
+      "end": 599.33,
+      "text": "你们是清水清水火锅吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 274,
+      "s": 130,
+      "start": 599.35,
+      "end": 599.69,
+      "text": "对，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 275,
+      "s": 131,
+      "start": 599.69,
+      "end": 602.2,
+      "text": "清水或者是菌菇的火锅锅底。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 276,
+      "s": 132,
+      "start": 602.45,
+      "end": 604.69,
+      "text": "OK，嗯，然后你可以想象",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 277,
+      "s": 132,
+      "start": 604.69,
+      "end": 608.59,
+      "text": "我第一次去四川看到油碟，来，Cameron，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 278,
+      "s": 133,
+      "start": 608.59,
+      "end": 609.77,
+      "text": "你可以给大家介绍一下",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 279,
+      "s": 133,
+      "start": 609.77,
+      "end": 611.09,
+      "text": "什么是油碟吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 280,
+      "s": 134,
+      "start": 611.47,
+      "end": 615.07,
+      "text": "油碟就是一个碟子里面全都是油，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 281,
+      "s": 134,
+      "start": 615.07,
+      "end": 618.09,
+      "text": "然后这个油其实就是芝麻油、香油，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 282,
+      "s": 134,
+      "start": 618.09,
+      "end": 620.77,
+      "text": "我们四川话叫香油，然后。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 283,
+      "s": 135,
+      "start": 621.84,
+      "end": 623.99,
+      "text": "因为我其实从小就这么吃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 284,
+      "s": 135,
+      "start": 623.99,
+      "end": 624.85,
+      "text": "所以说我从来不会觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 285,
+      "s": 135,
+      "start": 624.85,
+      "end": 625.8,
+      "text": "它有什么问题。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 286,
+      "s": 136,
+      "start": 626.25,
+      "end": 629.97,
+      "text": "可是可能后来想起来会有点奇怪，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 287,
+      "s": 136,
+      "start": 629.97,
+      "end": 632.05,
+      "text": "对，就是把东西泡到芝麻油里",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 288,
+      "s": 136,
+      "start": 632.05,
+      "end": 632.99,
+      "text": "然后再吃。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 289,
+      "s": 137,
+      "start": 633.27,
+      "end": 634.45,
+      "text": "可是的确那样吃起来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 290,
+      "s": 137,
+      "start": 634.45,
+      "end": 636.31,
+      "text": "我觉得有两个好处：",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 291,
+      "s": 137,
+      "start": 636.31,
+      "end": 638.45,
+      "text": "第一个是吃起来不会那么烫，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 292,
+      "s": 138,
+      "start": 638.45,
+      "end": 640.64,
+      "text": "然后第二可以减轻一点辣味。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 293,
+      "s": 139,
+      "start": 641.45,
+      "end": 643.61,
+      "text": "然后而且本来蘸上芝麻油",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 294,
+      "s": 139,
+      "start": 643.61,
+      "end": 645.53,
+      "text": "也会比较香一点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 295,
+      "s": 139,
+      "start": 645.65,
+      "end": 648.47,
+      "text": "所以对我还觉得吃火锅就是应该。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 296,
+      "s": 140,
+      "start": 648.6,
+      "end": 651.28,
+      "text": "蘸香油，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 297,
+      "s": 141,
+      "start": 651.64,
+      "end": 652.06,
+      "text": "对。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 298,
+      "s": 142,
+      "start": 652.06,
+      "end": 653.95,
+      "text": "但是当时我的想法就是，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 299,
+      "s": 142,
+      "start": 654.03,
+      "end": 656,
+      "text": "首先这个火锅很辣，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 300,
+      "s": 142,
+      "start": 656,
+      "end": 658.01,
+      "text": "而且锅底已经很油了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 301,
+      "s": 143,
+      "start": 658.06,
+      "end": 660.24,
+      "text": "然后呢，为了解除这个辣味，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 302,
+      "s": 143,
+      "start": 660.24,
+      "end": 662.32,
+      "text": "还要再刷一层油。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 303,
+      "s": 144,
+      "start": 662.94,
+      "end": 664.14,
+      "text": "所以你还记得你当时",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 304,
+      "s": 144,
+      "start": 664.14,
+      "end": 666.48,
+      "text": "吃的是叫什么餐厅吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 305,
+      "s": 145,
+      "start": 667,
+      "end": 668.26,
+      "text": "我不记得了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 306,
+      "s": 146,
+      "start": 668.26,
+      "end": 670.6,
+      "text": "但可能就是搜在网上",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 307,
+      "s": 146,
+      "start": 670.6,
+      "end": 672.11,
+      "text": "搜到点评比较好的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 308,
+      "s": 147,
+      "start": 672.6,
+      "end": 674.58,
+      "text": "嗯，后来我还去吃了串串。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 309,
+      "s": 148,
+      "start": 674.76,
+      "end": 676.26,
+      "text": "串串是什么，Cameron？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 310,
+      "s": 149,
+      "start": 676.26,
+      "end": 676.7,
+      "text": "你能介绍一下吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 311,
+      "s": 150,
+      "start": 676.7,
+      "end": 677.96,
+      "text": "串串香应该叫。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 312,
+      "s": 151,
+      "start": 678.12,
+      "end": 681.06,
+      "text": "对，对，串串香就是他们事先",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 313,
+      "s": 151,
+      "start": 681.06,
+      "end": 683.93,
+      "text": "把一些东西串在串子上串好，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 314,
+      "s": 151,
+      "start": 684.2,
+      "end": 686.94,
+      "text": "然后你就去直接拿那一串一串的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 315,
+      "s": 152,
+      "start": 687.14,
+      "end": 689.74,
+      "text": "然后你会有一个像火锅一样的大锅，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 316,
+      "s": 152,
+      "start": 689.74,
+      "end": 690.98,
+      "text": "或者现在也有小锅，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 317,
+      "s": 152,
+      "start": 690.98,
+      "end": 693.16,
+      "text": "你就把那个串串放到锅里去煮，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 318,
+      "s": 153,
+      "start": 693.16,
+      "end": 694.38,
+      "text": "然后就吃就好了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 319,
+      "s": 154,
+      "start": 694.86,
+      "end": 696.92,
+      "text": "其实串串香和火锅差不多，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 320,
+      "s": 154,
+      "start": 696.92,
+      "end": 699.09,
+      "text": "只是把东西放在了一个串上。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 321,
+      "s": 155,
+      "start": 699.48,
+      "end": 701.02,
+      "text": "对，可以这么讲。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 322,
+      "s": 156,
+      "start": 701.07,
+      "end": 704.97,
+      "text": "但是反正我其实比较少吃串串香，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 323,
+      "s": 156,
+      "start": 705.09,
+      "end": 706.47,
+      "text": "因为我也不知道为什么，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 324,
+      "s": 156,
+      "start": 706.47,
+      "end": 708.01,
+      "text": "我就不太喜欢吃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 325,
+      "s": 156,
+      "start": 708.01,
+      "end": 709.17,
+      "text": "可能觉得太麻烦了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 326,
+      "s": 157,
+      "start": 709.17,
+      "end": 711.95,
+      "text": "拿那个签子搞得满嘴都是油的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 327,
+      "s": 158,
+      "start": 711.95,
+      "end": 715.01,
+      "text": "然后还对对对，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 328,
+      "s": 158,
+      "start": 715.01,
+      "end": 717.57,
+      "text": "那个串的东西叫签子，中文对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 329,
+      "s": 159,
+      "start": 717.57,
+      "end": 717.79,
+      "text": "对，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 330,
+      "s": 160,
+      "start": 717.79,
+      "end": 721.39,
+      "text": "签子签它一般是木头的或者铁的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 331,
+      "s": 161,
+      "start": 721.39,
+      "end": 723.75,
+      "text": "木头的，一般是木头的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 332,
+      "s": 161,
+      "start": 723.75,
+      "end": 726.89,
+      "text": "而且我不知道现在是怎么样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 333,
+      "s": 161,
+      "start": 726.89,
+      "end": 729.55,
+      "text": "不过我知道以前他们是要回收用的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 334,
+      "s": 162,
+      "start": 730.57,
+      "end": 732.37,
+      "text": "但是其实不回收用",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 335,
+      "s": 162,
+      "start": 732.37,
+      "end": 734.05,
+      "text": "其实也挺不环保的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 336,
+      "s": 162,
+      "start": 734.05,
+      "end": 737.85,
+      "text": "对啊就像一次性筷子一样",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 337,
+      "s": 162,
+      "start": 737.95,
+      "end": 739.89,
+      "text": "对不过一般那种",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 338,
+      "s": 162,
+      "start": 739.89,
+      "end": 740.95,
+      "text": "应该不是原木的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 339,
+      "s": 162,
+      "start": 740.95,
+      "end": 744.57,
+      "text": "应该是拿木头渣子做的签签",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 340,
+      "s": 163,
+      "start": 744.57,
+      "end": 746.43,
+      "text": "所以还好对",
+      "speaker": "A",
+      "u": 162,
+      "role": "narrator"
+    },
+    {
+      "i": 341,
+      "s": 163,
+      "start": 746.43,
+      "end": 748.91,
+      "text": "然后第三件事情就是麻将",
+      "speaker": "A",
+      "u": 162,
+      "role": "narrator"
+    },
+    {
+      "i": 342,
+      "s": 163,
+      "start": 748.91,
+      "end": 750.35,
+      "text": "OK这个麻将",
+      "speaker": "A",
+      "u": 162,
+      "role": "narrator"
+    },
+    {
+      "i": 343,
+      "s": 163,
+      "start": 750.35,
+      "end": 751.45,
+      "text": "不是我刚才说的",
+      "speaker": "A",
+      "u": 162,
+      "role": "narrator"
+    },
+    {
+      "i": 344,
+      "s": 163,
+      "start": 751.45,
+      "end": 753.13,
+      "text": "吃火锅蘸的那个麻将",
+      "speaker": "A",
+      "u": 162,
+      "role": "narrator"
+    },
+    {
+      "i": 345,
+      "s": 164,
+      "start": 753.13,
+      "end": 757.72,
+      "text": "是中国的国怎么说呢？",
+      "speaker": "A",
+      "u": 162,
+      "role": "narrator"
+    },
+    {
+      "i": 346,
+      "s": 165,
+      "start": 757.72,
+      "end": 760.66,
+      "text": "国粹，国粹游戏麻将。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 347,
+      "s": 166,
+      "start": 760.66,
+      "end": 762.44,
+      "text": "但是这个麻将呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 348,
+      "s": 166,
+      "start": 762.44,
+      "end": 764.52,
+      "text": "其实其实有很多很多种打法，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 349,
+      "s": 166,
+      "start": 764.52,
+      "end": 765.62,
+      "text": "不一样的方法。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 350,
+      "s": 167,
+      "start": 765.8,
+      "end": 767.64,
+      "text": "那上海的有上海麻将，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 351,
+      "s": 167,
+      "start": 767.64,
+      "end": 769.35,
+      "text": "四川有四川麻将。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 352,
+      "s": 168,
+      "start": 769.42,
+      "end": 772.91,
+      "text": "但是四川人特别喜欢打麻将，对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 353,
+      "s": 169,
+      "start": 773.52,
+      "end": 773.62,
+      "text": "嗯，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 354,
+      "s": 170,
+      "start": 773.62,
+      "end": 774.94,
+      "text": "对，应该可以这么说。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 355,
+      "s": 171,
+      "start": 774.94,
+      "end": 776.99,
+      "text": "但是我不会打麻将，你知道吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 356,
+      "s": 172,
+      "start": 777.04,
+      "end": 778.98,
+      "text": "所以就很多人就听到很惊讶啊！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 357,
+      "s": 173,
+      "start": 778.98,
+      "end": 780.88,
+      "text": "你是一个成都人，你都不会打麻将。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 358,
+      "s": 174,
+      "start": 781.41,
+      "end": 784.65,
+      "text": "的确，可能是有点惊讶，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 359,
+      "s": 174,
+      "start": 784.65,
+      "end": 786.67,
+      "text": "在这种耳濡目染的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 360,
+      "s": 174,
+      "start": 786.67,
+      "end": 789.09,
+      "text": "这种环境里面来长大，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 361,
+      "s": 174,
+      "start": 789.09,
+      "end": 789.81,
+      "text": "我还不会。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 362,
+      "s": 175,
+      "start": 789.9,
+      "end": 790.91,
+      "text": "我跟你讲一个事情：",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 363,
+      "s": 175,
+      "start": 790.91,
+      "end": 792.55,
+      "text": "以前初中的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 364,
+      "s": 175,
+      "start": 792.71,
+      "end": 794.51,
+      "text": "我们同学他们",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 365,
+      "s": 175,
+      "start": 794.51,
+      "end": 796.43,
+      "text": "就有买那种小麻将，你知道，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 366,
+      "s": 176,
+      "start": 796.43,
+      "end": 799.58,
+      "text": "每个麻将是指甲盖儿那种大小的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 367,
+      "s": 176,
+      "start": 800.47,
+      "end": 802.68,
+      "text": "然后就我们拿到班上去打。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 368,
+      "s": 177,
+      "start": 804.13,
+      "end": 807.17,
+      "text": "对，因为因为我在成都旅游的时候。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 369,
+      "s": 178,
+      "start": 807.54,
+      "end": 808.86,
+      "text": "我走在街上，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 370,
+      "s": 178,
+      "start": 808.86,
+      "end": 810.44,
+      "text": "可能每过五十米",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 371,
+      "s": 178,
+      "start": 810.44,
+      "end": 812.94,
+      "text": "就可以看到一个麻将馆。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 372,
+      "s": 179,
+      "start": 813.08,
+      "end": 814.4,
+      "text": "麻将馆或者茶馆，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 373,
+      "s": 180,
+      "start": 814.4,
+      "end": 816,
+      "text": "一般在茶馆是喝茶",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 374,
+      "s": 180,
+      "start": 816,
+      "end": 817.28,
+      "text": "顺带打麻将也可以。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 375,
+      "s": 181,
+      "start": 817.62,
+      "end": 818.82,
+      "text": "对，是的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 376,
+      "s": 182,
+      "start": 818.82,
+      "end": 820.56,
+      "text": "然后特别有意思的是，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 377,
+      "s": 182,
+      "start": 820.8,
+      "end": 822.8,
+      "text": "我因为我是去跟这个",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 378,
+      "s": 182,
+      "start": 822.8,
+      "end": 824.15,
+      "text": "丹麦的外国朋友，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 379,
+      "s": 182,
+      "start": 824.46,
+      "end": 825.36,
+      "text": "然后呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 380,
+      "s": 183,
+      "start": 825.36,
+      "end": 827.44,
+      "text": "他叫了另外两个外国人，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 381,
+      "s": 183,
+      "start": 827.44,
+      "end": 829.96,
+      "text": "三个外国人和我一个中国人，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 382,
+      "s": 183,
+      "start": 829.96,
+      "end": 831.57,
+      "text": "我们四个人打麻将，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 383,
+      "s": 183,
+      "start": 831.68,
+      "end": 832.94,
+      "text": "但他们其实都会打。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 384,
+      "s": 184,
+      "start": 833.16,
+      "end": 835.82,
+      "text": "但是比较搞笑的一件事情是什么呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 385,
+      "s": 185,
+      "start": 836.54,
+      "end": 839.58,
+      "text": "就是他们学中文的时候没有学认字，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 386,
+      "s": 185,
+      "start": 839.58,
+      "end": 842.04,
+      "text": "因为他们只学了发音和说话，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 387,
+      "s": 185,
+      "start": 842.04,
+      "end": 843.62,
+      "text": "所以他们看不懂一万、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 388,
+      "s": 186,
+      "start": 843.62,
+      "end": 845.77,
+      "text": "二万、三万到九万。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 389,
+      "s": 187,
+      "start": 847.63,
+      "end": 849.8,
+      "text": "可是，一二三四五六七八九",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 390,
+      "s": 187,
+      "start": 849.8,
+      "end": 853.38,
+      "text": "这个数字还是比较简单的吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 391,
+      "s": 188,
+      "start": 853.38,
+      "end": 854.8,
+      "text": "虽然很简单，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 392,
+      "s": 188,
+      "start": 854.8,
+      "end": 856.92,
+      "text": "但是如果你从来没有学过，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 393,
+      "s": 188,
+      "start": 856.92,
+      "end": 858.76,
+      "text": "然后你去打麻将的时候。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 394,
+      "s": 189,
+      "start": 859.08,
+      "end": 862.64,
+      "text": "他们就会拿一张表在手机上，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 395,
+      "s": 189,
+      "start": 862.64,
+      "end": 864.32,
+      "text": "然后每次摸到一张牌，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 396,
+      "s": 189,
+      "start": 864.32,
+      "end": 865.76,
+      "text": "他们就要对着表去看。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 397,
+      "s": 190,
+      "start": 865.76,
+      "end": 868.32,
+      "text": "哎，这个是数字几？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 398,
+      "s": 191,
+      "start": 868.32,
+      "end": 869.56,
+      "text": "那岂不是很慢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 399,
+      "s": 192,
+      "start": 869.86,
+      "end": 871.94,
+      "text": "就要哎，等一下我看一下这个是什么，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 400,
+      "s": 192,
+      "start": 871.94,
+      "end": 874.19,
+      "text": "然后再来想一下怎么样可以胡牌。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 401,
+      "s": 193,
+      "start": 874.58,
+      "end": 875.8,
+      "text": "对，非常慢。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 402,
+      "s": 194,
+      "start": 875.8,
+      "end": 878.66,
+      "text": "但是，但是我们现在说的有一点快，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 403,
+      "s": 195,
+      "start": 878.66,
+      "end": 879.88,
+      "text": "可能有很多听我们",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 404,
+      "s": 195,
+      "start": 879.88,
+      "end": 881.18,
+      "text": "podcast的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 405,
+      "s": 195,
+      "start": 881.18,
+      "end": 882.52,
+      "text": "呃这个外国朋友",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 406,
+      "s": 195,
+      "start": 882.52,
+      "end": 884.76,
+      "text": "都不知道麻将具体是怎么玩的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 407,
+      "s": 196,
+      "start": 885.08,
+      "end": 888.39,
+      "text": "我其实也不知道，因为我也不会打。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 408,
+      "s": 197,
+      "start": 889.32,
+      "end": 891.38,
+      "text": "但是反正就是简单的说，对吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 409,
+      "s": 198,
+      "start": 891.38,
+      "end": 893.98,
+      "text": "有四个人坐在一个桌子上，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 410,
+      "s": 198,
+      "start": 894.26,
+      "end": 897.12,
+      "text": "然后就会有这种麻将的小方块，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 411,
+      "s": 198,
+      "start": 897.64,
+      "end": 900.93,
+      "text": "然后你就像打扑克牌一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 412,
+      "s": 199,
+      "start": 901.18,
+      "end": 904.53,
+      "text": "你在你这你的这边会有一副牌，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 413,
+      "s": 199,
+      "start": 904.64,
+      "end": 906.66,
+      "text": "这种牌就是各种各样小方块，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 414,
+      "s": 200,
+      "start": 906.86,
+      "end": 908.4,
+      "text": "然后你就要用各种的方法",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 415,
+      "s": 200,
+      "start": 908.4,
+      "end": 910.94,
+      "text": "把这些小方块，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 416,
+      "s": 201,
+      "start": 910.94,
+      "end": 911.68,
+      "text": "怎么讲呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 417,
+      "s": 202,
+      "start": 911.79,
+      "end": 913.13,
+      "text": "排列组合，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 418,
+      "s": 202,
+      "start": 913.13,
+      "end": 918.01,
+      "text": "排列组合成一个比较可以赢的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 419,
+      "s": 202,
+      "start": 918.01,
+      "end": 919.63,
+      "text": "呃，可以赢这个游戏的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 420,
+      "s": 202,
+      "start": 919.63,
+      "end": 920.94,
+      "text": "排列组合的方法。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 421,
+      "s": 203,
+      "start": 921.77,
+      "end": 922.57,
+      "text": "对对，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 422,
+      "s": 204,
+      "start": 922.57,
+      "end": 924.53,
+      "text": "然后最后你就赢了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 423,
+      "s": 205,
+      "start": 924.53,
+      "end": 926.87,
+      "text": "对，但是其实还是挺复杂的，我觉得，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 424,
+      "s": 205,
+      "start": 926.87,
+      "end": 931.35,
+      "text": "因为我以前试着去学过麻将的规则，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 425,
+      "s": 205,
+      "start": 931.35,
+      "end": 932.42,
+      "text": "可是我看不懂，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 426,
+      "s": 206,
+      "start": 932.65,
+      "end": 933.62,
+      "text": "我看不明白，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 427,
+      "s": 206,
+      "start": 934.37,
+      "end": 936.87,
+      "text": "所以也不是那么简单，我觉得。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 428,
+      "s": 207,
+      "start": 936.87,
+      "end": 937.21,
+      "text": "嗯。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 429,
+      "s": 208,
+      "start": 937.32,
+      "end": 938.68,
+      "text": "但是麻将呢，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 430,
+      "s": 209,
+      "start": 938.68,
+      "end": 940.4,
+      "text": "其实比较是靠运气，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 431,
+      "s": 209,
+      "start": 940.4,
+      "end": 943.16,
+      "text": "我觉得没有特别多的技巧，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 432,
+      "s": 209,
+      "start": 943.16,
+      "end": 945.89,
+      "text": "所以我个人也不是特别喜欢打麻将。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 433,
+      "s": 210,
+      "start": 946.24,
+      "end": 949.08,
+      "text": "可是我知道有那种麻将比赛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 434,
+      "s": 210,
+      "start": 949.08,
+      "end": 950.83,
+      "text": "还有国际的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 435,
+      "s": 210,
+      "start": 950.92,
+      "end": 953.49,
+      "text": "所以可能也并不完全是运气，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 436,
+      "s": 211,
+      "start": 953.7,
+      "end": 955.88,
+      "text": "就是你可能要记牌，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 437,
+      "s": 211,
+      "start": 955.88,
+      "end": 957.46,
+      "text": "就是把那些打出去的牌",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 438,
+      "s": 211,
+      "start": 957.46,
+      "end": 959.64,
+      "text": "和你手上有的牌都记住，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 439,
+      "s": 211,
+      "start": 959.64,
+      "end": 961.86,
+      "text": "这个就算是比较高级的打。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 440,
+      "s": 212,
+      "start": 961.86,
+      "end": 962.54,
+      "text": "对对，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 441,
+      "s": 213,
+      "start": 962.54,
+      "end": 964.56,
+      "text": "这个记忆力我觉得比较重要。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 442,
+      "s": 214,
+      "start": 964.77,
+      "end": 968.01,
+      "text": "其实我觉得就是像打扑克一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 443,
+      "s": 214,
+      "start": 968.61,
+      "end": 971.14,
+      "text": "你可能运气是一部分，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 444,
+      "s": 214,
+      "start": 971.35,
+      "end": 974.37,
+      "text": "可是你也需要懂一些技术，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 445,
+      "s": 215,
+      "start": 974.37,
+      "end": 976.58,
+      "text": "同时你也要有好的记忆力，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 446,
+      "s": 215,
+      "start": 976.89,
+      "end": 979.36,
+      "text": "然后你就可以去赢。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 447,
+      "s": 216,
+      "start": 987.59,
+      "end": 990.75,
+      "text": "哎，成都说了这么多，可以聊一下上海。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 448,
+      "s": 217,
+      "start": 990.98,
+      "end": 991.94,
+      "text": "那Cameron，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 449,
+      "s": 217,
+      "start": 991.94,
+      "end": 994.08,
+      "text": "你对上海有什么印象吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 450,
+      "s": 218,
+      "start": 994.08,
+      "end": 995.63,
+      "text": "虽然你没有去过，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 451,
+      "s": 219,
+      "start": 995.73,
+      "end": 997.82,
+      "text": "有什么印象啊？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 452,
+      "s": 220,
+      "start": 999,
+      "end": 1000.12,
+      "text": "我其实真的不知道。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 453,
+      "s": 221,
+      "start": 1000.12,
+      "end": 1003.96,
+      "text": "我就是可能首先觉得上海很大，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 454,
+      "s": 221,
+      "start": 1004.05,
+      "end": 1006.53,
+      "text": "上海会比成都市区更大吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 455,
+      "s": 222,
+      "start": 1007.36,
+      "end": 1008.5,
+      "text": "其实你知道吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 456,
+      "s": 223,
+      "start": 1008.5,
+      "end": 1010.16,
+      "text": "中国最大的城市不是上海，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 457,
+      "s": 223,
+      "start": 1010.16,
+      "end": 1011.81,
+      "text": "也不是北京，是重庆。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 458,
+      "s": 224,
+      "start": 1011.96,
+      "end": 1014.3,
+      "text": "你是说城区啊？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 459,
+      "s": 225,
+      "start": 1014.42,
+      "end": 1016.72,
+      "text": "可是你是说整个的面积是吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 460,
+      "s": 226,
+      "start": 1016.83,
+      "end": 1018.47,
+      "text": "和人口，对啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 461,
+      "s": 226,
+      "start": 1018.57,
+      "end": 1021.44,
+      "text": "因为重庆包括了很多那种",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 462,
+      "s": 226,
+      "start": 1021.44,
+      "end": 1023.76,
+      "text": "县城在山里的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 463,
+      "s": 226,
+      "start": 1023.76,
+      "end": 1025.66,
+      "text": "它但是真正市区的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 464,
+      "s": 226,
+      "start": 1025.66,
+      "end": 1027.68,
+      "text": "它其实很挺小的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 465,
+      "s": 227,
+      "start": 1027.68,
+      "end": 1028.24,
+      "text": "因为重庆，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 466,
+      "s": 227,
+      "start": 1028.24,
+      "end": 1031.08,
+      "text": "因为我在我我在重庆读过大学，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 467,
+      "s": 227,
+      "start": 1031.08,
+      "end": 1033.46,
+      "text": "所以我对重庆也比较了解。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 468,
+      "s": 228,
+      "start": 1033.46,
+      "end": 1035.38,
+      "text": "重庆本来的市区其实很小，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 469,
+      "s": 228,
+      "start": 1035.38,
+      "end": 1039.3,
+      "text": "因为它是在山上半山腰的地方，对。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 470,
+      "s": 229,
+      "start": 1039.3,
+      "end": 1041.32,
+      "text": "但是上海大吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 471,
+      "s": 230,
+      "start": 1041.72,
+      "end": 1043.46,
+      "text": "上海也有很多郊区。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 472,
+      "s": 231,
+      "start": 1043.7,
+      "end": 1046.38,
+      "text": "所以刚才我在说这个数据的时候，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 473,
+      "s": 231,
+      "start": 1046.38,
+      "end": 1048.94,
+      "text": "北京、上海都算是像郊区，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 474,
+      "s": 231,
+      "start": 1048.94,
+      "end": 1050.38,
+      "text": "但还是重庆最大。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 475,
+      "s": 232,
+      "start": 1050.38,
+      "end": 1051.28,
+      "text": "那上海的人口",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 476,
+      "s": 232,
+      "start": 1051.28,
+      "end": 1054.45,
+      "text": "应该是两千二百万左右吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 477,
+      "s": 233,
+      "start": 1054.58,
+      "end": 1056.45,
+      "text": "我不太记得具体数据了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 478,
+      "s": 234,
+      "start": 1056.52,
+      "end": 1058.92,
+      "text": "但是重庆好像有三千多万，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 479,
+      "s": 234,
+      "start": 1058.92,
+      "end": 1059.91,
+      "text": "所以是最大的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 480,
+      "s": 235,
+      "start": 1060.54,
+      "end": 1060.98,
+      "text": "对，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 481,
+      "s": 236,
+      "start": 1060.98,
+      "end": 1065.08,
+      "text": "但是这重庆我觉得可以算一个省了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 482,
+      "s": 236,
+      "start": 1065.08,
+      "end": 1067.58,
+      "text": "所以这个我觉得不不能这么类比。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 483,
+      "s": 237,
+      "start": 1067.58,
+      "end": 1068.74,
+      "text": "不过对我第一个印象",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 484,
+      "s": 237,
+      "start": 1068.74,
+      "end": 1070.49,
+      "text": "可能觉得上海会比较大。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 485,
+      "s": 238,
+      "start": 1070.67,
+      "end": 1071.65,
+      "text": "第二个印象",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 486,
+      "s": 238,
+      "start": 1071.65,
+      "end": 1074.27,
+      "text": "就觉得上海international",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 487,
+      "s": 238,
+      "start": 1074.27,
+      "end": 1076.36,
+      "text": "非常的国际化，你知道吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 488,
+      "s": 239,
+      "start": 1076.49,
+      "end": 1081.39,
+      "text": "老外外国人特别多，这个是真的对吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 489,
+      "s": 240,
+      "start": 1082.09,
+      "end": 1084.25,
+      "text": "说到这个呃老外，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 490,
+      "s": 240,
+      "start": 1084.25,
+      "end": 1087.22,
+      "text": "我也觉得我一直觉得这个名字老外，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 491,
+      "s": 240,
+      "start": 1087.38,
+      "end": 1089.61,
+      "text": "你会觉得是一个中性的词，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 492,
+      "s": 241,
+      "start": 1089.61,
+      "end": 1093.13,
+      "text": "还是有一点点负面倾向的词？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 493,
+      "s": 242,
+      "start": 1093.13,
+      "end": 1095.39,
+      "text": "我觉得是中性的，而且还是有一点。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 494,
+      "s": 243,
+      "start": 1096.2,
+      "end": 1099.68,
+      "text": "这是一个口语化的老外，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 495,
+      "s": 243,
+      "start": 1099.68,
+      "end": 1101.38,
+      "text": "我反而觉得说外国人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 496,
+      "s": 243,
+      "start": 1101.38,
+      "end": 1102.38,
+      "text": "你是一个外国人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 497,
+      "s": 243,
+      "start": 1102.38,
+      "end": 1104.81,
+      "text": "这个才感觉有一点生疏了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 498,
+      "s": 244,
+      "start": 1105.76,
+      "end": 1108.98,
+      "text": "我我觉得老外反而会比较亲切一点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 499,
+      "s": 244,
+      "start": 1109.14,
+      "end": 1111.46,
+      "text": "但是可能也会啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 500,
+      "s": 244,
+      "start": 1111.46,
+      "end": 1114.56,
+      "text": "因为你知道现在是二零二一年了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 501,
+      "s": 245,
+      "start": 1114.56,
+      "end": 1116.64,
+      "text": "很多事情变得比较复杂，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 502,
+      "s": 245,
+      "start": 1116.64,
+      "end": 1117.8,
+      "text": "所以可能有的时候",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 503,
+      "s": 245,
+      "start": 1117.8,
+      "end": 1121.1,
+      "text": "大家也会有不同的感觉对这个词。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 504,
+      "s": 246,
+      "start": 1121.1,
+      "end": 1122.69,
+      "text": "不过我是觉得这个词。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 505,
+      "s": 247,
+      "start": 1123.18,
+      "end": 1128.71,
+      "text": "是一个OK偏亲切的词",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 506,
+      "s": 247,
+      "start": 1128.71,
+      "end": 1133.29,
+      "text": "对其实老外可能是很多外国人学的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 507,
+      "s": 247,
+      "start": 1133.29,
+      "end": 1135.85,
+      "text": "最重要或者最一开始学的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 508,
+      "s": 247,
+      "start": 1135.85,
+      "end": 1137.07,
+      "text": "几个中文单词",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 509,
+      "s": 248,
+      "start": 1137.1,
+      "end": 1140.93,
+      "text": "因为如果要去中国工作学习的话",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 510,
+      "s": 248,
+      "start": 1140.93,
+      "end": 1142.93,
+      "text": "这个词会经常听到",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 511,
+      "s": 248,
+      "start": 1142.93,
+      "end": 1145.21,
+      "text": "有的时候哪怕在地铁里",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 512,
+      "s": 248,
+      "start": 1145.21,
+      "end": 1149.5,
+      "text": "会听到别人说哎你看老外对，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 513,
+      "s": 250,
+      "start": 1149.6,
+      "end": 1151.69,
+      "text": "不过好像这样想起来的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 514,
+      "s": 250,
+      "start": 1151.69,
+      "end": 1154.35,
+      "text": "现在好像说这个词比较少一点了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 515,
+      "s": 250,
+      "start": 1154.35,
+      "end": 1155.94,
+      "text": "比以前可能少一点。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 516,
+      "s": 251,
+      "start": 1156.37,
+      "end": 1157.61,
+      "text": "因为很多语言里面",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 517,
+      "s": 251,
+      "start": 1157.61,
+      "end": 1158.75,
+      "text": "其实对于外国人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 518,
+      "s": 251,
+      "start": 1158.75,
+      "end": 1160.85,
+      "text": "都有一个所谓的昵称，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 519,
+      "s": 252,
+      "start": 1160.85,
+      "end": 1162.85,
+      "text": "但大多数语言对外国人的昵称",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 520,
+      "s": 252,
+      "start": 1162.85,
+      "end": 1165.5,
+      "text": "都是偏负面倾向的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 521,
+      "s": 253,
+      "start": 1165.65,
+      "end": 1167.67,
+      "text": "比如说在拉美的话，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 522,
+      "s": 253,
+      "start": 1167.67,
+      "end": 1169.68,
+      "text": "他们会管美国人叫gringo。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 523,
+      "s": 254,
+      "start": 1169.84,
+      "end": 1172.01,
+      "text": "嗯哼，可是我觉得，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 524,
+      "s": 254,
+      "start": 1172.01,
+      "end": 1173.47,
+      "text": "可是我觉得这个不一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 525,
+      "s": 254,
+      "start": 1173.47,
+      "end": 1175.89,
+      "text": "就是我们说的其他语言里面这种，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 526,
+      "s": 255,
+      "start": 1175.89,
+      "end": 1178.26,
+      "text": "它是针对某一个特定的国家。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 527,
+      "s": 256,
+      "start": 1178.46,
+      "end": 1181.62,
+      "text": "某一个特定的族群来有一个词，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 528,
+      "s": 256,
+      "start": 1181.62,
+      "end": 1183.46,
+      "text": "可是我觉得“老外”这个词",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 529,
+      "s": 256,
+      "start": 1183.46,
+      "end": 1186.95,
+      "text": "就是一个没有针对谁。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 530,
+      "s": 257,
+      "start": 1187,
+      "end": 1188.16,
+      "text": "可能你说要针对的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 531,
+      "s": 257,
+      "start": 1188.16,
+      "end": 1190.86,
+      "text": "就是针对全世界七十亿人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 532,
+      "s": 257,
+      "start": 1190.86,
+      "end": 1193.18,
+      "text": "减十四亿的是多少？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 533,
+      "s": 258,
+      "start": 1193.18,
+      "end": 1196.58,
+      "text": "呃，六十六亿人。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 534,
+      "s": 259,
+      "start": 1198.06,
+      "end": 1200.32,
+      "text": "对上海的老外是挺多的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 535,
+      "s": 259,
+      "start": 1200.32,
+      "end": 1201.5,
+      "text": "但这个其实因为",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 536,
+      "s": 259,
+      "start": 1201.5,
+      "end": 1203.76,
+      "text": "我在上海和北京都住过。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 537,
+      "s": 260,
+      "start": 1203.99,
+      "end": 1206.95,
+      "text": "就是我在北京也待了可能有五六年，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 538,
+      "s": 261,
+      "start": 1207.04,
+      "end": 1208.65,
+      "text": "然后我对两个城市的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 539,
+      "s": 261,
+      "start": 1208.65,
+      "end": 1210.65,
+      "text": "老外的这个群体",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 540,
+      "s": 261,
+      "start": 1210.65,
+      "end": 1211.35,
+      "text": "community",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 541,
+      "s": 261,
+      "start": 1211.35,
+      "end": 1213.03,
+      "text": "都有一些了解。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 542,
+      "s": 262,
+      "start": 1213.05,
+      "end": 1214.35,
+      "text": "其实你知道吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 543,
+      "s": 263,
+      "start": 1214.35,
+      "end": 1217.16,
+      "text": "北京和上海的老外是很不一样的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 544,
+      "s": 264,
+      "start": 1217.65,
+      "end": 1218.97,
+      "text": "嗯，怎么不一样？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 545,
+      "s": 265,
+      "start": 1219.19,
+      "end": 1220.61,
+      "text": "上海的老外呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 546,
+      "s": 265,
+      "start": 1220.61,
+      "end": 1223.36,
+      "text": "他们一般都在金融服务业工作，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 547,
+      "s": 265,
+      "start": 1223.39,
+      "end": 1225.71,
+      "text": "比如说咨询的、金融的；",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 548,
+      "s": 266,
+      "start": 1225.71,
+      "end": 1229.15,
+      "text": "但是北京的老外最多的是做嗯",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 549,
+      "s": 266,
+      "start": 1229.15,
+      "end": 1230.81,
+      "text": "diplomacy外交行业，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 550,
+      "s": 266,
+      "start": 1230.81,
+      "end": 1232.59,
+      "text": "或者是新闻，或者是。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 551,
+      "s": 267,
+      "start": 1232.73,
+      "end": 1234.69,
+      "text": "政治类的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 552,
+      "s": 267,
+      "start": 1234.69,
+      "end": 1236.23,
+      "text": "然后北京的老外学生",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 553,
+      "s": 267,
+      "start": 1236.23,
+      "end": 1237.81,
+      "text": "也会比上海多很多。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 554,
+      "s": 268,
+      "start": 1238.05,
+      "end": 1240.97,
+      "text": "虽然上海有复旦一些交换生，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 555,
+      "s": 268,
+      "start": 1240.97,
+      "end": 1242.59,
+      "text": "但是北京有外国语学校，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 556,
+      "s": 269,
+      "start": 1242.59,
+      "end": 1246.01,
+      "text": "对北京大学总体来说还是更多一点。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 557,
+      "s": 270,
+      "start": 1246.23,
+      "end": 1246.91,
+      "text": "对，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 558,
+      "s": 271,
+      "start": 1246.91,
+      "end": 1248.31,
+      "text": "所以我个人感觉",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 559,
+      "s": 271,
+      "start": 1248.31,
+      "end": 1251.97,
+      "text": "北京的老外群体会更加偏一点点",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 560,
+      "s": 271,
+      "start": 1251.97,
+      "end": 1254.71,
+      "text": "文化和政治上，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 561,
+      "s": 272,
+      "start": 1254.81,
+      "end": 1257.75,
+      "text": "而中上海的老外会更多偏一点点",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 562,
+      "s": 272,
+      "start": 1257.75,
+      "end": 1259.71,
+      "text": "商业和就是金融上。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 563,
+      "s": 273,
+      "start": 1259.71,
+      "end": 1260.59,
+      "text": "可是这不就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 564,
+      "s": 273,
+      "start": 1260.59,
+      "end": 1262.71,
+      "text": "跟城市的属性是相关的，对吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 565,
+      "s": 274,
+      "start": 1263.54,
+      "end": 1264.94,
+      "text": "对对，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 566,
+      "s": 275,
+      "start": 1264.94,
+      "end": 1268.02,
+      "text": "所以其实我在上海和北京",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 567,
+      "s": 275,
+      "start": 1268.02,
+      "end": 1270.52,
+      "text": "和老外们打交道的活动啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 568,
+      "s": 275,
+      "start": 1270.52,
+      "end": 1273.46,
+      "text": "或者我自己参加的一些聚会活动，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 569,
+      "s": 276,
+      "start": 1273.58,
+      "end": 1276.52,
+      "text": "感觉氛围和聊的话题挺不一样的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 570,
+      "s": 276,
+      "start": 1276.52,
+      "end": 1277.79,
+      "text": "还挺有意思的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 571,
+      "s": 277,
+      "start": 1279.71,
+      "end": 1282.22,
+      "text": "嗯，然后其他我对上海",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 572,
+      "s": 277,
+      "start": 1282.22,
+      "end": 1284.02,
+      "text": "也并没有太多什么了解，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 573,
+      "s": 277,
+      "start": 1284.02,
+      "end": 1285.88,
+      "text": "另外就是些吃的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 574,
+      "s": 277,
+      "start": 1285.88,
+      "end": 1289.52,
+      "text": "什么小杨生煎，还有什么？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 575,
+      "s": 278,
+      "start": 1289.67,
+      "end": 1292.65,
+      "text": "你可以解释一下什么是生煎吗",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 576,
+      "s": 278,
+      "start": 1292.65,
+      "end": 1296.31,
+      "text": "生煎我来一个外地人来解释一下",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 577,
+      "s": 278,
+      "start": 1296.31,
+      "end": 1298.57,
+      "text": "就是这种小包子",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 578,
+      "s": 278,
+      "start": 1298.57,
+      "end": 1300.85,
+      "text": "然后先拿油煎一煎",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 579,
+      "s": 279,
+      "start": 1300.85,
+      "end": 1303.57,
+      "text": "然后煎了之后又盖上盖子",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 580,
+      "s": 279,
+      "start": 1303.57,
+      "end": 1305.85,
+      "text": "拿蒸汽蒸一蒸",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 581,
+      "s": 279,
+      "start": 1305.85,
+      "end": 1307.51,
+      "text": "然后就变成生煎了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 582,
+      "s": 279,
+      "start": 1307.51,
+      "end": 1310.77,
+      "text": "生煎包生煎包的重点是什么呢",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 583,
+      "s": 279,
+      "start": 1310.77,
+      "end": 1311.41,
+      "text": "重点就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 584,
+      "s": 280,
+      "start": 1311.41,
+      "end": 1313.41,
+      "text": "我觉得作为一个上海人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 585,
+      "s": 280,
+      "start": 1313.41,
+      "end": 1315.31,
+      "text": "好的生煎包有两个特点",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 586,
+      "s": 280,
+      "start": 1315.31,
+      "end": 1319.05,
+      "text": "第一个就是底要变得很脆，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 587,
+      "s": 281,
+      "start": 1319.05,
+      "end": 1320.41,
+      "text": "因为这个生煎包的底",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 588,
+      "s": 281,
+      "start": 1320.41,
+      "end": 1321.82,
+      "text": "是在油里面炸的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 589,
+      "s": 282,
+      "start": 1322.44,
+      "end": 1326.45,
+      "text": "对，第二个就是汤包里面有要有汤汁，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 590,
+      "s": 282,
+      "start": 1326.45,
+      "end": 1329.33,
+      "text": "这个和小笼包的属性是一样的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 591,
+      "s": 282,
+      "start": 1329.33,
+      "end": 1330.52,
+      "text": "特点是一样的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 592,
+      "s": 283,
+      "start": 1332.23,
+      "end": 1336.21,
+      "text": "嗯，那小杨生煎就是顺便解释一下，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 593,
+      "s": 283,
+      "start": 1336.21,
+      "end": 1339.15,
+      "text": "小杨生煎是一个上海非常有名的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 594,
+      "s": 283,
+      "start": 1339.15,
+      "end": 1341.47,
+      "text": "传统的生煎包品牌，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 595,
+      "s": 284,
+      "start": 1341.47,
+      "end": 1342.73,
+      "text": "生煎包的连锁。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 596,
+      "s": 285,
+      "start": 1342.95,
+      "end": 1344.25,
+      "text": "餐厅，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 597,
+      "s": 286,
+      "start": 1344.33,
+      "end": 1346.37,
+      "text": "所以所以它真的很好吃吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 598,
+      "s": 287,
+      "start": 1346.86,
+      "end": 1350.41,
+      "text": "我觉得挺好吃的，而且是最便宜，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 599,
+      "s": 287,
+      "start": 1350.59,
+      "end": 1353.13,
+      "text": "但是就是质量可以保证的一家餐厅，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 600,
+      "s": 287,
+      "start": 1353.13,
+      "end": 1354.64,
+      "text": "因为它是连锁店嘛。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 601,
+      "s": 288,
+      "start": 1355.23,
+      "end": 1358.53,
+      "text": "OK，所以它的配方啊、质量啊、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 602,
+      "s": 288,
+      "start": 1358.53,
+      "end": 1361.14,
+      "text": "口味啊都是很标准化的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 603,
+      "s": 289,
+      "start": 1361.35,
+      "end": 1363.11,
+      "text": "OK，对。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 604,
+      "s": 290,
+      "start": 1363.11,
+      "end": 1366.59,
+      "text": "然后我另外对上海的印象就是，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 605,
+      "s": 290,
+      "start": 1366.59,
+      "end": 1369.41,
+      "text": "上海这边吃的东西都比较甜。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 606,
+      "s": 291,
+      "start": 1370.06,
+      "end": 1372.72,
+      "text": "是偏甜的啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 607,
+      "s": 291,
+      "start": 1372.72,
+      "end": 1376.14,
+      "text": "然后可能就跟四川就很不一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 608,
+      "s": 291,
+      "start": 1376.14,
+      "end": 1377.58,
+      "text": "因为像四川我们这边",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 609,
+      "s": 291,
+      "start": 1377.58,
+      "end": 1379.84,
+      "text": "就会都吃比较辣的东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 610,
+      "s": 292,
+      "start": 1380.04,
+      "end": 1382.38,
+      "text": "什么东西都要放点辣椒。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 611,
+      "s": 293,
+      "start": 1382.88,
+      "end": 1385.44,
+      "text": "对我们什么东西都要放一点糖。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 612,
+      "s": 294,
+      "start": 1387.84,
+      "end": 1390.3,
+      "text": "对，不过我过后有机会，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 613,
+      "s": 294,
+      "start": 1390.3,
+      "end": 1393.42,
+      "text": "我其实还是很想去上海玩一玩的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 614,
+      "s": 295,
+      "start": 1393.42,
+      "end": 1395.84,
+      "text": "对，上海的确是，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 615,
+      "s": 295,
+      "start": 1395.84,
+      "end": 1397.32,
+      "text": "是好像有一点说不过去，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 616,
+      "s": 295,
+      "start": 1397.32,
+      "end": 1399.3,
+      "text": "我长这么大了都没去过上海。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 617,
+      "s": 296,
+      "start": 1400.12,
+      "end": 1403.02,
+      "text": "所以有机会我肯定要去玩一玩。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 618,
+      "s": 297,
+      "start": 1403.02,
+      "end": 1404.88,
+      "text": "你觉得你如果去上海的话，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 619,
+      "s": 297,
+      "start": 1405.01,
+      "end": 1406.71,
+      "text": "最想看什么景点？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 620,
+      "s": 298,
+      "start": 1408.36,
+      "end": 1410.86,
+      "text": "啊，或者说你最想做什么事情吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 621,
+      "s": 299,
+      "start": 1410.86,
+      "end": 1412.44,
+      "text": "比如说我去成都，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 622,
+      "s": 299,
+      "start": 1412.44,
+      "end": 1414.37,
+      "text": "我最想做的就是看大熊猫。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 623,
+      "s": 300,
+      "start": 1415.22,
+      "end": 1418.38,
+      "text": "其实好像也没有什么特别想看的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 624,
+      "s": 301,
+      "start": 1418.38,
+      "end": 1421.36,
+      "text": "因为我这个人本来好像",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 625,
+      "s": 301,
+      "start": 1421.36,
+      "end": 1425.2,
+      "text": "对城市这种参观旅游",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 626,
+      "s": 301,
+      "start": 1425.2,
+      "end": 1426.94,
+      "text": "好像兴趣本来就不太大。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 627,
+      "s": 302,
+      "start": 1428.39,
+      "end": 1430.32,
+      "text": "嗯，不过就随便逛逛、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 628,
+      "s": 302,
+      "start": 1430.32,
+      "end": 1432.18,
+      "text": "吃吃、玩玩就挺好的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 629,
+      "s": 303,
+      "start": 1432.18,
+      "end": 1435.44,
+      "text": "因为我这个人其实我很讨厌",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 630,
+      "s": 303,
+      "start": 1435.44,
+      "end": 1438.78,
+      "text": "那种旅游的时候非要去景点打卡，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 631,
+      "s": 304,
+      "start": 1438.78,
+      "end": 1440.48,
+      "text": "我们今天要把这些地方",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 632,
+      "s": 304,
+      "start": 1440.48,
+      "end": 1442.82,
+      "text": "一个一个全部走完。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 633,
+      "s": 305,
+      "start": 1443.12,
+      "end": 1444.86,
+      "text": "我就随便，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 634,
+      "s": 305,
+      "start": 1444.86,
+      "end": 1446,
+      "text": "我甚至我甚至",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 635,
+      "s": 305,
+      "start": 1446,
+      "end": 1447.71,
+      "text": "在酒店里躺着我都可以。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 636,
+      "s": 306,
+      "start": 1448.22,
+      "end": 1450.4,
+      "text": "虽然听听起来就是浪费钱，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 637,
+      "s": 306,
+      "start": 1450.4,
+      "end": 1452.76,
+      "text": "可是我觉得反正就放松怎么。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 638,
+      "s": 307,
+      "start": 1452.99,
+      "end": 1455.23,
+      "text": "放松怎么来就好对反正",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 639,
+      "s": 307,
+      "start": 1455.23,
+      "end": 1457.09,
+      "text": "所以说如果去上海的话",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 640,
+      "s": 307,
+      "start": 1457.09,
+      "end": 1460.03,
+      "text": "吃吃啊吃吃小杨生煎啊",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 641,
+      "s": 307,
+      "start": 1460.03,
+      "end": 1462.19,
+      "text": "然后去黄浦江边上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 642,
+      "s": 307,
+      "start": 1462.19,
+      "end": 1464.57,
+      "text": "去外滩走走逛逛啊",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 643,
+      "s": 308,
+      "start": 1464.57,
+      "end": 1467.85,
+      "text": "然后去老的那个老城区的",
+      "speaker": "B",
+      "u": 307,
+      "role": "storyteller"
+    },
+    {
+      "i": 644,
+      "s": 308,
+      "start": 1467.85,
+      "end": 1470.17,
+      "text": "什么黄浦庙啊不是什么黄浦庙",
+      "speaker": "B",
+      "u": 307,
+      "role": "storyteller"
+    },
+    {
+      "i": 645,
+      "s": 308,
+      "start": 1470.17,
+      "end": 1474.89,
+      "text": "城隍庙这些地方去走走看看",
+      "speaker": "B",
+      "u": 307,
+      "role": "storyteller"
+    },
+    {
+      "i": 646,
+      "s": 308,
+      "start": 1474.89,
+      "end": 1476.03,
+      "text": "也就差不多了",
+      "speaker": "B",
+      "u": 307,
+      "role": "storyteller"
+    },
+    {
+      "i": 647,
+      "s": 309,
+      "start": 1476.03,
+      "end": 1477.99,
+      "text": "刚才有一个词我觉得挺好的",
+      "speaker": "B",
+      "u": 307,
+      "role": "storyteller"
+    },
+    {
+      "i": 648,
+      "s": 309,
+      "start": 1477.99,
+      "end": 1479.95,
+      "text": "打卡打卡是什么意思？",
+      "speaker": "B",
+      "u": 307,
+      "role": "storyteller"
+    },
+    {
+      "i": 649,
+      "s": 310,
+      "start": 1480.06,
+      "end": 1481.19,
+      "text": "可以解释一下吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 650,
+      "s": 311,
+      "start": 1481.52,
+      "end": 1484.16,
+      "text": "我觉得打卡它最开始的来源",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 651,
+      "s": 311,
+      "start": 1484.16,
+      "end": 1487.25,
+      "text": "应该就是大家上班要去打卡，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 652,
+      "s": 311,
+      "start": 1487.38,
+      "end": 1489.1,
+      "text": "然后下班要打卡。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 653,
+      "s": 312,
+      "start": 1490.68,
+      "end": 1492.3,
+      "text": "卡就是卡呢，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 654,
+      "s": 313,
+      "start": 1492.3,
+      "end": 1494.19,
+      "text": "就是你每次上班就是要，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 655,
+      "s": 313,
+      "start": 1495.02,
+      "end": 1496.06,
+      "text": "就是可以大家可以想象",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 656,
+      "s": 313,
+      "start": 1496.06,
+      "end": 1498.67,
+      "text": "有一个卡片上面可能会打一个洞，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 657,
+      "s": 314,
+      "start": 1498.7,
+      "end": 1500.98,
+      "text": "就证明你今天来上班了",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 658,
+      "s": 314,
+      "start": 1500.98,
+      "end": 1502.62,
+      "text": "或者这个时间准时到了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 659,
+      "s": 315,
+      "start": 1502.62,
+      "end": 1505,
+      "text": "对，这个是最最早的打卡方式。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 660,
+      "s": 316,
+      "start": 1505.22,
+      "end": 1506.9,
+      "text": "而且应该是从美国开始的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 661,
+      "s": 316,
+      "start": 1506.9,
+      "end": 1509.83,
+      "text": "美国工厂率先开始搞这种。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 662,
+      "s": 317,
+      "start": 1510.24,
+      "end": 1511.66,
+      "text": "然后现在打卡的意思，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 663,
+      "s": 317,
+      "start": 1511.66,
+      "end": 1512.9,
+      "text": "尤其是旅游打卡，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 664,
+      "s": 317,
+      "start": 1513.9,
+      "end": 1515.56,
+      "text": "就是就像是你在上班一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 665,
+      "s": 317,
+      "start": 1515.56,
+      "end": 1516.96,
+      "text": "你非要到一个景点、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 666,
+      "s": 318,
+      "start": 1516.96,
+      "end": 1518.02,
+      "text": "到一个地方去，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 667,
+      "s": 318,
+      "start": 1518.44,
+      "end": 1519.58,
+      "text": "然后你到了那儿了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 668,
+      "s": 318,
+      "start": 1519.58,
+      "end": 1521.27,
+      "text": "你就算打了卡了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 669,
+      "s": 318,
+      "start": 1521.28,
+      "end": 1522.89,
+      "text": "然后接下来又去下一个地方，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 670,
+      "s": 319,
+      "start": 1523.3,
+      "end": 1525.78,
+      "text": "然后就这样，嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 671,
+      "s": 319,
+      "start": 1525.78,
+      "end": 1528,
+      "text": "跑马灯一样的不停的走来走去，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 672,
+      "s": 319,
+      "start": 1528,
+      "end": 1531.1,
+      "text": "走来走去挨个挨个走，就很累。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 673,
+      "s": 320,
+      "start": 1532.44,
+      "end": 1533.44,
+      "text": "嗯，对。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 674,
+      "s": 321,
+      "start": 1533.44,
+      "end": 1536.04,
+      "text": "然后我还记得有一句，呃，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 675,
+      "s": 321,
+      "start": 1536.04,
+      "end": 1538.66,
+      "text": "算是吐槽嘲笑",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 676,
+      "s": 321,
+      "start": 1538.66,
+      "end": 1540.52,
+      "text": "这个旅游方式的一句话，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 677,
+      "s": 322,
+      "start": 1540.52,
+      "end": 1543.27,
+      "text": "在中文里我们叫“上车睡觉，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 678,
+      "s": 322,
+      "start": 1543.58,
+      "end": 1546.4,
+      "text": "下车拍照，停车撒尿”，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 679,
+      "s": 322,
+      "start": 1546.4,
+      "end": 1547.52,
+      "text": "是这么说的吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 680,
+      "s": 323,
+      "start": 1547.82,
+      "end": 1550.8,
+      "text": "对，这就是说以前的旅行团嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 681,
+      "s": 324,
+      "start": 1551.04,
+      "end": 1552.78,
+      "text": "对，因为本来打卡，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 682,
+      "s": 324,
+      "start": 1552.78,
+      "end": 1554.16,
+      "text": "你要是自己出去玩，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 683,
+      "s": 324,
+      "start": 1554.16,
+      "end": 1557,
+      "text": "还是要打卡景景点，打卡一个一个来。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 684,
+      "s": 325,
+      "start": 1557.15,
+      "end": 1559.49,
+      "text": "那不就是相当于是参加旅行团了？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 685,
+      "s": 326,
+      "start": 1559.49,
+      "end": 1561.41,
+      "text": "那你还不如去参加旅行团，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 686,
+      "s": 326,
+      "start": 1561.41,
+      "end": 1563.45,
+      "text": "你还不用担心交通什么的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 687,
+      "s": 327,
+      "start": 1563.97,
+      "end": 1565.39,
+      "text": "嗯，对。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 688,
+      "s": 328,
+      "start": 1565.39,
+      "end": 1567.15,
+      "text": "但我觉得比较有意思的是，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 689,
+      "s": 328,
+      "start": 1567.31,
+      "end": 1569.61,
+      "text": "刚才我们在说城市的印象呀，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 690,
+      "s": 328,
+      "start": 1569.61,
+      "end": 1572.12,
+      "text": "或者是旅游的时候想做什么，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 691,
+      "s": 329,
+      "start": 1572.19,
+      "end": 1575.81,
+      "text": "好像三句都不离离不开吃的东西。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 692,
+      "s": 330,
+      "start": 1575.99,
+      "end": 1577.69,
+      "text": "看起来吃的东西",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 693,
+      "s": 330,
+      "start": 1577.69,
+      "end": 1580.23,
+      "text": "在中国人的心目中真的是很重要。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 694,
+      "s": 331,
+      "start": 1580.33,
+      "end": 1583.81,
+      "text": "就是在里提到去上海有什么印象啊？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 695,
+      "s": 332,
+      "start": 1583.81,
+      "end": 1584.93,
+      "text": "就是小杨生煎。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 696,
+      "s": 333,
+      "start": 1585.2,
+      "end": 1587.12,
+      "text": "要吃什么东西，对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 697,
+      "s": 334,
+      "start": 1587.12,
+      "end": 1588.64,
+      "text": "然后成都就是火锅。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 698,
+      "s": 335,
+      "start": 1588.72,
+      "end": 1590.9,
+      "text": "对，因为我觉得是就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 699,
+      "s": 335,
+      "start": 1590.9,
+      "end": 1594.34,
+      "text": "这个每个地方的菜系，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 700,
+      "s": 335,
+      "start": 1594.34,
+      "end": 1598,
+      "text": "中文叫菜系，这个菜系差异很大。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 701,
+      "s": 336,
+      "start": 1598.16,
+      "end": 1600.26,
+      "text": "比如说我们如果说在德国啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 702,
+      "s": 336,
+      "start": 1600.26,
+      "end": 1603.7,
+      "text": "我如果我我比如说我住在汉堡，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 703,
+      "s": 336,
+      "start": 1603.7,
+      "end": 1604.91,
+      "text": "我去法兰克福，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 704,
+      "s": 337,
+      "start": 1605.41,
+      "end": 1606.68,
+      "text": "我第一个想到的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 705,
+      "s": 337,
+      "start": 1606.68,
+      "end": 1608.74,
+      "text": "不会是去吃法兰克福什么好吃的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 706,
+      "s": 337,
+      "start": 1608.74,
+      "end": 1611.36,
+      "text": "因为它没有什么太大的差异。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 707,
+      "s": 338,
+      "start": 1611.36,
+      "end": 1612.98,
+      "text": "可是中国第一比较大。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 708,
+      "s": 339,
+      "start": 1613.7,
+      "end": 1615.45,
+      "text": "然后不同的地方、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 709,
+      "s": 339,
+      "start": 1615.45,
+      "end": 1617.57,
+      "text": "不同的省份就有不同的菜系，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 710,
+      "s": 339,
+      "start": 1617.57,
+      "end": 1619.93,
+      "text": "然后口味就是完全不一样的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 711,
+      "s": 340,
+      "start": 1619.93,
+      "end": 1622.19,
+      "text": "所以说，我认为这种很大的差异",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 712,
+      "s": 340,
+      "start": 1622.19,
+      "end": 1625.15,
+      "text": "就会让人们想要去尝试一下",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 713,
+      "s": 340,
+      "start": 1625.15,
+      "end": 1626.61,
+      "text": "各种各样的吃的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 714,
+      "s": 341,
+      "start": 1627.11,
+      "end": 1630.63,
+      "text": "对，而且中国的很多城市之间的区别",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 715,
+      "s": 341,
+      "start": 1630.63,
+      "end": 1632.47,
+      "text": "或者是南北差异，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 716,
+      "s": 342,
+      "start": 1632.47,
+      "end": 1634.43,
+      "text": "很多可以体现在菜系",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 717,
+      "s": 342,
+      "start": 1634.43,
+      "end": 1636.41,
+      "text": "或者吃饭的口味上，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 718,
+      "s": 342,
+      "start": 1636.41,
+      "end": 1639.11,
+      "text": "然后还经常会因为口味的不同。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 719,
+      "s": 343,
+      "start": 1639.29,
+      "end": 1642.24,
+      "text": "在网上，呃，引发一些争论，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 720,
+      "s": 343,
+      "start": 1642.35,
+      "end": 1644.23,
+      "text": "比如说什么东西，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 721,
+      "s": 343,
+      "start": 1644.23,
+      "end": 1647.43,
+      "text": "比如说豆腐脑应该是甜的还是咸的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 722,
+      "s": 344,
+      "start": 1647.67,
+      "end": 1650.47,
+      "text": "或者汤圆应该是甜的还是咸的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 723,
+      "s": 344,
+      "start": 1650.67,
+      "end": 1651.79,
+      "text": "还有粽子，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 724,
+      "s": 345,
+      "start": 1651.79,
+      "end": 1654.67,
+      "text": "粽子里面应该是包肉呢",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 725,
+      "s": 345,
+      "start": 1654.67,
+      "end": 1656.65,
+      "text": "还是包豆沙呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 726,
+      "s": 346,
+      "start": 1656.65,
+      "end": 1657.53,
+      "text": "这些，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 727,
+      "s": 347,
+      "start": 1657.53,
+      "end": 1660.6,
+      "text": "对对，还有包括上海人很爱吃甜的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 728,
+      "s": 348,
+      "start": 1660.67,
+      "end": 1662.47,
+      "text": "然后我记得有一次",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 729,
+      "s": 348,
+      "start": 1662.47,
+      "end": 1665.03,
+      "text": "有一次争论是番茄炒蛋。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 730,
+      "s": 349,
+      "start": 1665.12,
+      "end": 1666.77,
+      "text": "应不应该放糖？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 731,
+      "s": 350,
+      "start": 1669.08,
+      "end": 1671.88,
+      "text": "嗯，我觉得可以放一点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 732,
+      "s": 350,
+      "start": 1671.88,
+      "end": 1674.3,
+      "text": "但是不要最后就是全是甜味。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 733,
+      "s": 351,
+      "start": 1674.3,
+      "end": 1675.52,
+      "text": "比如说上海炒这个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 734,
+      "s": 351,
+      "start": 1675.52,
+      "end": 1678.51,
+      "text": "会是最后完全就是甜口吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 735,
+      "s": 352,
+      "start": 1679.6,
+      "end": 1680.92,
+      "text": "就吃不出咸味了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 736,
+      "s": 353,
+      "start": 1682.28,
+      "end": 1683.44,
+      "text": "What？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 737,
+      "s": 354,
+      "start": 1683.98,
+      "end": 1687.72,
+      "text": "OK，那那那那这个我是接受不了的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 738,
+      "s": 354,
+      "start": 1687.72,
+      "end": 1688.88,
+      "text": "因为我会放一点糖，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 739,
+      "s": 354,
+      "start": 1688.88,
+      "end": 1689.8,
+      "text": "我可以放点糖，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 740,
+      "s": 355,
+      "start": 1689.8,
+      "end": 1691.46,
+      "text": "我也我可以放一点番茄酱。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 741,
+      "s": 356,
+      "start": 1691.64,
+      "end": 1694.19,
+      "text": "就让它变得有一点点甜味，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 742,
+      "s": 356,
+      "start": 1694.39,
+      "end": 1698.25,
+      "text": "但是它主要还是这种咸的味道。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 743,
+      "s": 357,
+      "start": 1698.28,
+      "end": 1699.84,
+      "text": "嗯，但是番茄炒蛋",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 744,
+      "s": 357,
+      "start": 1699.84,
+      "end": 1701.86,
+      "text": "真的是一道中国的国菜，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 745,
+      "s": 357,
+      "start": 1701.86,
+      "end": 1704.68,
+      "text": "就是把番茄和蛋",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 746,
+      "s": 357,
+      "start": 1704.68,
+      "end": 1706.02,
+      "text": "非常literally的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 747,
+      "s": 357,
+      "start": 1706.02,
+      "end": 1707.05,
+      "text": "炒在一起。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 748,
+      "s": 358,
+      "start": 1707.42,
+      "end": 1709.24,
+      "text": "但是几乎每一个中国人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 749,
+      "s": 358,
+      "start": 1709.24,
+      "end": 1710.54,
+      "text": "都会做的第一道菜，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 750,
+      "s": 358,
+      "start": 1710.54,
+      "end": 1712.02,
+      "text": "可能就是番茄炒蛋。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 751,
+      "s": 359,
+      "start": 1713.3,
+      "end": 1714.7,
+      "text": "对，其实挺奇怪，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 752,
+      "s": 359,
+      "start": 1714.7,
+      "end": 1717.1,
+      "text": "就是这番茄炒蛋到底是什么菜系、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 753,
+      "s": 359,
+      "start": 1717.1,
+      "end": 1718.18,
+      "text": "什么地方发源的？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 754,
+      "s": 360,
+      "start": 1719.02,
+      "end": 1721.42,
+      "text": "不知道成都吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 755,
+      "s": 360,
+      "start": 1722,
+      "end": 1725.54,
+      "text": "而且可能番茄这种东西进入中国",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 756,
+      "s": 360,
+      "start": 1725.54,
+      "end": 1728.05,
+      "text": "也并不是也并不是太久，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 757,
+      "s": 361,
+      "start": 1728.38,
+      "end": 1730.68,
+      "text": "所以这可能也不算什么传统菜。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 758,
+      "s": 362,
+      "start": 1731.5,
+      "end": 1735.46,
+      "text": "所以对，的确可能算是个国菜了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 759,
+      "s": 363,
+      "start": 1735.68,
+      "end": 1738.48,
+      "text": "但是它一个是比较有营养，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 760,
+      "s": 363,
+      "start": 1738.48,
+      "end": 1740.58,
+      "text": "我觉得第二个是比较好做，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 761,
+      "s": 363,
+      "start": 1740.58,
+      "end": 1741.88,
+      "text": "比较容易做；",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 762,
+      "s": 364,
+      "start": 1741.88,
+      "end": 1743.26,
+      "text": "第三个是它的颜色",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 763,
+      "s": 364,
+      "start": 1743.26,
+      "end": 1745.34,
+      "text": "跟中国的国旗是一样的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 764,
+      "s": 364,
+      "start": 1745.34,
+      "end": 1747.98,
+      "text": "所以我觉得这个可能有一点关系。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 765,
+      "s": 365,
+      "start": 1747.98,
+      "end": 1748.32,
+      "text": "Oh my god！",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 766,
+      "s": 366,
+      "start": 1748.32,
+      "end": 1748.32,
+      "text": "我就知道你要。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 767,
+      "s": 367,
+      "start": 1750.24,
+      "end": 1751.86,
+      "text": "说这个，你知道吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 768,
+      "s": 368,
+      "start": 1751.86,
+      "end": 1755.9,
+      "text": "我就觉得这个真的是扯的也太远了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 769,
+      "s": 369,
+      "start": 1756.16,
+      "end": 1757.26,
+      "text": "因为我以前听到这个，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 770,
+      "s": 369,
+      "start": 1757.26,
+      "end": 1761.12,
+      "text": "我就觉得OK，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 771,
+      "s": 369,
+      "start": 1761.12,
+      "end": 1764.24,
+      "text": "但是就是啊，但是你知道吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 772,
+      "s": 370,
+      "start": 1764.24,
+      "end": 1767.54,
+      "text": "就比如说当年中国办奥运会的时候，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 773,
+      "s": 370,
+      "start": 1767.84,
+      "end": 1769,
+      "text": "因为我们的队服",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 774,
+      "s": 370,
+      "start": 1769,
+      "end": 1771.12,
+      "text": "都是和中国国旗的颜色一样，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 775,
+      "s": 371,
+      "start": 1771.12,
+      "end": 1773.84,
+      "text": "是红色和黄色作为主色调，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 776,
+      "s": 371,
+      "start": 1773.84,
+      "end": 1775.36,
+      "text": "但当时大家都管这个",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 777,
+      "s": 371,
+      "start": 1775.36,
+      "end": 1776.8,
+      "text": "叫番茄炒蛋颜色。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 778,
+      "s": 372,
+      "start": 1776.88,
+      "end": 1779.48,
+      "text": "所以可以证明番茄炒蛋",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 779,
+      "s": 372,
+      "start": 1779.48,
+      "end": 1781.42,
+      "text": "有一点点会想到这个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 780,
+      "s": 372,
+      "start": 1781.42,
+      "end": 1782.56,
+      "text": "它是有相像",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 781,
+      "s": 372,
+      "start": 1782.56,
+      "end": 1784.86,
+      "text": "可是就是有人为什么说",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 782,
+      "s": 372,
+      "start": 1784.86,
+      "end": 1785.9,
+      "text": "就是有人说为什么",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 783,
+      "s": 373,
+      "start": 1785.9,
+      "end": 1788,
+      "text": "番茄炒蛋是很流行",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 784,
+      "s": 373,
+      "start": 1788,
+      "end": 1789.16,
+      "text": "说是因为它是什么",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 785,
+      "s": 373,
+      "start": 1789.16,
+      "end": 1791.46,
+      "text": "跟国旗颜色一样什么之类的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 786,
+      "s": 373,
+      "start": 1791.46,
+      "end": 1793.84,
+      "text": "这个就有点扯太远了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 787,
+      "s": 373,
+      "start": 1793.84,
+      "end": 1794.94,
+      "text": "我不知道Anyways",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 788,
+      "s": 374,
+      "start": 1795.59,
+      "end": 1797.7,
+      "text": "我们今天已经不知不觉",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 789,
+      "s": 374,
+      "start": 1797.7,
+      "end": 1798.78,
+      "text": "聊了三十分钟",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 790,
+      "s": 374,
+      "start": 1798.78,
+      "end": 1800.94,
+      "text": "还还挺好玩的你觉得呢",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 791,
+      "s": 374,
+      "start": 1800.94,
+      "end": 1803.52,
+      "text": "Yeah yeah yeah嗯好，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 792,
+      "s": 375,
+      "start": 1803.62,
+      "end": 1805.37,
+      "text": "那我们先聊到这儿。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 793,
+      "s": 376,
+      "start": 1805.37,
+      "end": 1808.05,
+      "text": "如果有什么不懂的单词，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 794,
+      "s": 376,
+      "start": 1808.05,
+      "end": 1809.63,
+      "text": "可以看我们的留言区，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 795,
+      "s": 377,
+      "start": 1809.63,
+      "end": 1811.77,
+      "text": "我会把比较重要的单词",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 796,
+      "s": 377,
+      "start": 1811.77,
+      "end": 1814.85,
+      "text": "呃和解释放在我们的留言区里。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 797,
+      "s": 378,
+      "start": 1815.63,
+      "end": 1816.73,
+      "text": "是的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 798,
+      "s": 379,
+      "start": 1816.73,
+      "end": 1818.89,
+      "text": "好的，那就这样，谢谢Cameron。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 799,
+      "s": 380,
+      "start": 1819.17,
+      "end": 1822.09,
+      "text": "没有关系，我们下次再见吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 800,
+      "s": 381,
+      "start": 1822.09,
+      "end": 1823.53,
+      "text": "Maybe OK。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 801,
+      "s": 382,
+      "start": 1823.53,
+      "end": 1826.71,
+      "text": "下次再见，拜拜，拜拜。",
+      "speaker": "B",
+      "role": "storyteller"
+    }
+  ]
+}
