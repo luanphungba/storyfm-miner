@@ -1,0 +1,126 @@
+{
+  "episode": "CC1",
+  "summary": [
+    "Đây là tập mở đầu (trailer) của podcast 瞎扯学中文 Convo Chinese, chỉ có một mình host nói. Cô giới thiệu tên mình (ASR nghe là 周安 Chu An, tên tiếng Trung phiên từ tên tiếng Anh Joanne của cô) và lý do làm podcast: muốn tạo cho người học tiếng Trung trình độ trung cấp một môi trường nghe hội thoại hằng ngày thật tự nhiên.",
+    "Cô kể mình mê học ngoại ngữ: học tiếng Anh từ tiểu học, tiếng Tây Ban Nha bảy tám năm trước, tiếng Đức hơn một năm trước, giờ đang học tiếng Pháp. Theo cô, học ngôn ngữ nào cũng vậy, phải đắm mình vào môi trường của ngôn ngữ đó; với cô, cách hiệu quả nhất là nghe podcast hội thoại dài 30–40 phút. Bạn bè người nước ngoài học tiếng Trung than rằng chưa có podcast kiểu này bằng tiếng Trung, nên cô quyết định tự làm.",
+    "Cô hứa mỗi tuần hoặc mỗi tháng ra vài tập, và tập sau sẽ mời một người bạn đến tán gẫu về chuyện thường ngày, có khi cả thời sự, tin tức, chính trị."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "Hello，大家好，欢迎大家来到我们这个瞎扯学中文的Podcast第一期。",
+      "vi": "Hello, chào mọi người, chào mừng mọi người đến với tập đầu tiên của podcast 瞎扯学中文 (Tán dóc học tiếng Trung) của chúng mình."
+    },
+    "1": {
+      "zh": "那也是我们这个Podcast的一个小小的trailer。",
+      "vi": "Đây cũng là một đoạn trailer nho nhỏ của podcast chúng mình."
+    },
+    "2": {
+      "zh": "我的名字叫周安啊，我也有很多朋友叫我炯安，炯安是我的英语名字Joanne的一个中文音译。",
+      "vi": "Mình tên là Chu An (周安), cũng có nhiều bạn gọi mình là Quýnh An (炯安); Quýnh An là cách phiên âm tiếng Trung của tên tiếng Anh Joanne của mình."
+    },
+    "3": {
+      "zh": "那我创造这个Podcast的初衷呢？",
+      "vi": "Vậy ý định ban đầu khi mình làm podcast này là gì?"
+    },
+    "4": {
+      "zh": "是希望给中等水平左右的中文学习的学习者、外国朋友们一个比较自然的嗯日常对话这么一个语言学习环境。",
+      "vi": "Là mong đem đến cho những người học tiếng Trung trình độ tầm trung cấp, các bạn nước ngoài, một môi trường học ngôn ngữ kiểu ừm hội thoại thường ngày tương đối tự nhiên."
+    },
+    "6": {
+      "zh": "我自己本身呢也是呃学习了很多门语言，是一个学习语言的爱好者。",
+      "vi": "Bản thân mình cũng ờ học rất nhiều ngôn ngữ, là một người mê học ngoại ngữ."
+    },
+    "7": {
+      "zh": "我大概从小学的时候开始学英语，然后七八年前学习了西班牙语，一年多以前学习德语。",
+      "vi": "Mình bắt đầu học tiếng Anh từ khoảng hồi tiểu học, rồi bảy tám năm trước học tiếng Tây Ban Nha, hơn một năm trước học tiếng Đức."
+    },
+    "8": {
+      "zh": "然后现在正在学法语，那我自己对于学语言也有一些心得。",
+      "vi": "Rồi bây giờ đang học tiếng Pháp, nên về chuyện học ngôn ngữ mình cũng có chút kinh nghiệm."
+    },
+    "9": {
+      "zh": "我也认识了周围很多学习中文的朋友，大家都说中文很难学，特别是语音语调，嗯，",
+      "vi": "Mình cũng quen nhiều bạn xung quanh đang học tiếng Trung, ai cũng bảo tiếng Trung khó học, nhất là phát âm với ngữ điệu, ừm,"
+    },
+    "10": {
+      "zh": "汉字的书写也非常困难。",
+      "vi": "viết chữ Hán cũng rất khó."
+    },
+    "11": {
+      "zh": "但是我觉得学很多的语言的话，其实技巧和经验最终都是一样的，",
+      "vi": "Nhưng mình thấy học nhiều ngôn ngữ rồi thì thật ra kỹ thuật và kinh nghiệm rốt cuộc đều giống nhau,"
+    },
+    "12": {
+      "zh": "都是需要把自己沉浸在目标语言的学习的环境当中。",
+      "vi": "đều cần đắm mình vào môi trường học của ngôn ngữ mình đang học."
+    },
+    "13": {
+      "zh": "那对我自己而言，呃，我我觉得非常有用的一点是听podcast，",
+      "vi": "Với bản thân mình thì, ờ, mình mình thấy một điều rất có ích là nghe podcast,"
+    },
+    "14": {
+      "zh": "特别是听三十分钟到四十分钟这样比较长时间，而且是自然的日常的交流和对话。",
+      "vi": "nhất là nghe loại dài kiểu 30 đến 40 phút, mà lại là giao tiếp, trò chuyện thường ngày tự nhiên."
+    },
+    "15": {
+      "zh": "这样的话比较有助于呃比较自然的真实的日常用语，而且听听起来也不会太无聊。",
+      "vi": "Như vậy sẽ khá có ích cho ờ những câu nói thường ngày tương đối tự nhiên, chân thực, mà nghe cũng không đến nỗi chán."
+    },
+    "16": {
+      "zh": "所以我自己在语言学习的过程当中。",
+      "vi": "Cho nên trong quá trình học ngoại ngữ của mình."
+    },
+    "17": {
+      "zh": "嗯，我的德语和法语都是听像这样三十到四十分钟日常对话交流的podcast，",
+      "vi": "ừm, tiếng Đức với tiếng Pháp của mình đều là nhờ nghe những podcast hội thoại thường ngày dài 30 đến 40 phút như thế này,"
+    },
+    "18": {
+      "zh": "然后对我的水平提高非常的有帮助。",
+      "vi": "và nó giúp trình độ của mình tiến bộ rất nhiều."
+    },
+    "19": {
+      "zh": "但是，呃，我的很多中文学习的外国朋友和我反映说，",
+      "vi": "Nhưng mà, ờ, nhiều bạn nước ngoài học tiếng Trung nói với mình rằng,"
+    },
+    "20": {
+      "zh": "在中文的市场上并没有这样子一款podcast，所以我就想，那嗯，",
+      "vi": "trên thị trường tiếng Trung chưa hề có một podcast kiểu này, nên mình nghĩ, thì ừm,"
+    },
+    "21": {
+      "zh": "这个也不是特别困难，我也是第一次入门做这个podcast。",
+      "vi": "việc này cũng không khó lắm, mình cũng là lần đầu bắt tay làm podcast."
+    },
+    "22": {
+      "zh": "但是我自己认为我的普通话说的还是比较标准的，嗯，我觉得我可以抽一些时间，",
+      "vi": "Nhưng mình tự thấy tiếng Phổ thông của mình nói cũng khá chuẩn, ừm, mình nghĩ mình có thể dành chút thời gian,"
+    },
+    "23": {
+      "zh": "每每周或者每个月至少更新几次。",
+      "vi": "mỗi tuần hoặc mỗi tháng ra ít nhất vài tập."
+    },
+    "24": {
+      "zh": "那希望呃我的这个宏宏图伟志不要半途而废。",
+      "vi": "Mong là ờ hoài bão lớn này của mình không bị bỏ dở giữa chừng."
+    },
+    "25": {
+      "zh": "那今天我就短短的录一期trailer，",
+      "vi": "Hôm nay mình chỉ thu một tập trailer ngắn thôi,"
+    },
+    "26": {
+      "zh": "下一期的话我会准备邀请一个朋友来和我就聊一些生活当中的琐事。",
+      "vi": "tập sau mình sẽ mời một người bạn đến cùng mình nói về mấy chuyện vặt trong cuộc sống."
+    },
+    "27": {
+      "zh": "无论是我们日常中、日常生活中的困惑呀、开心的事啊，或者是可能会聊到时事、新闻、政治，都可能。",
+      "vi": "Dù là những điều băn khoăn, những chuyện vui trong cuộc sống hằng ngày của chúng mình, hay cũng có thể sẽ nói đến thời sự, tin tức, chính trị, đều có thể."
+    },
+    "29": {
+      "zh": "嗯，我的目的就是为大家创造一个非常自然的、有趣的语言学习环境。",
+      "vi": "Ừm, mục đích của mình là tạo cho mọi người một môi trường học ngôn ngữ thật tự nhiên, thú vị."
+    },
+    "30": {
+      "zh": "那就说到这里了，我们下一次正式的节目再见。",
+      "vi": "Vậy nói đến đây thôi, hẹn gặp lại mọi người ở chương trình chính thức lần sau nhé."
+    }
+  }
+}

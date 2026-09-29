@@ -1,0 +1,675 @@
+{
+  "id": "CC1",
+  "title": "EPISODE 1 | Trailer - 我是谁？为什么我要做这个podcast？",
+  "guid": "cko0i31ww1y4909842bj2ot2u",
+  "pubDate": "2021-04-27",
+  "duration": 195,
+  "audio": {
+    "mp3": "https://m.cdn.firstory.me/track/cko0g8j5m1toy0984t6s7mqtk/cko0i31ww1y4909842bj2ot2u/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fcko0g8j5m1toy0984t6s7mqtk%2F1619556430103.mp3?v=1619556431919"
+  },
+  "source": "podcast",
+  "owner": "瞎扯学中文 Convo Chinese",
+  "link": "https://open.firstory.fm/story/cko0i31ww1y4909842bj2ot2u",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 6.02,
+      "end": 8.18,
+      "text": "Hello，大家好，欢迎大家",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 1,
+      "s": 0,
+      "start": 8.18,
+      "end": 10.72,
+      "text": "来到我们这个瞎扯学中文的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 2,
+      "s": 0,
+      "start": 10.72,
+      "end": 12.5,
+      "text": "Podcast第一期。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 3,
+      "s": 1,
+      "start": 12.6,
+      "end": 14.2,
+      "text": "那也是我们这个Podcast的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 4,
+      "s": 1,
+      "start": 14.2,
+      "end": 15.77,
+      "text": "一个小小的trailer。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 5,
+      "s": 2,
+      "start": 15.94,
+      "end": 18.38,
+      "text": "我的名字叫周安啊，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 2,
+      "start": 18.38,
+      "end": 20.38,
+      "text": "我也有很多朋友叫我炯安，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 2,
+      "start": 20.38,
+      "end": 22.24,
+      "text": "炯安是我的英语名字Joanne",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 2,
+      "start": 22.24,
+      "end": 23.85,
+      "text": "的一个中文音译。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 3,
+      "start": 23.86,
+      "end": 25.46,
+      "text": "那我创造这个",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 3,
+      "start": 25.46,
+      "end": 26.76,
+      "text": "Podcast的初衷呢？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 11,
+      "s": 4,
+      "start": 27,
+      "end": 29.42,
+      "text": "是希望给中等水平左右的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 4,
+      "start": 29.42,
+      "end": 32.98,
+      "text": "中文学习的学习者、外国朋友们",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 13,
+      "s": 5,
+      "start": 32.98,
+      "end": 36.54,
+      "text": "一个比较自然的嗯日常对话",
+      "speaker": "A",
+      "u": 4,
+      "role": "storyteller"
+    },
+    {
+      "i": 14,
+      "s": 5,
+      "start": 36.54,
+      "end": 38.54,
+      "text": "这么一个语言学习环境。",
+      "speaker": "A",
+      "u": 4,
+      "role": "storyteller"
+    },
+    {
+      "i": 15,
+      "s": 6,
+      "start": 39.1,
+      "end": 40.76,
+      "text": "我自己本身呢也是",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 6,
+      "start": 40.76,
+      "end": 43.08,
+      "text": "呃学习了很多门语言，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 6,
+      "start": 43.08,
+      "end": 44.95,
+      "text": "是一个学习语言的爱好者。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 7,
+      "start": 45.12,
+      "end": 48.66,
+      "text": "我大概从小学的时候开始学英语，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 7,
+      "start": 48.66,
+      "end": 51.92,
+      "text": "然后七八年前学习了西班牙语，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 7,
+      "start": 51.92,
+      "end": 54.72,
+      "text": "一年多以前学习德语。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 8,
+      "start": 54.87,
+      "end": 57.43,
+      "text": "然后现在正在学法语，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 8,
+      "start": 57.43,
+      "end": 59.95,
+      "text": "那我自己对于学语言也有一些心得。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 9,
+      "start": 60.29,
+      "end": 61.67,
+      "text": "我也认识了周围",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 9,
+      "start": 61.67,
+      "end": 64.01,
+      "text": "很多学习中文的朋友，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 9,
+      "start": 64.01,
+      "end": 66.29,
+      "text": "大家都说中文很难学，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 9,
+      "start": 66.29,
+      "end": 68.49,
+      "text": "特别是语音语调，嗯，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 10,
+      "start": 68.49,
+      "end": 70.44,
+      "text": "汉字的书写也非常困难。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 11,
+      "start": 70.49,
+      "end": 73.41,
+      "text": "但是我觉得学很多的语言的话，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 11,
+      "start": 73.41,
+      "end": 76.99,
+      "text": "其实技巧和经验最终都是一样的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 12,
+      "start": 76.99,
+      "end": 79.29,
+      "text": "都是需要把自己沉浸在",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 12,
+      "start": 79.29,
+      "end": 81.47,
+      "text": "目标语言的学习的环境当中。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 13,
+      "start": 81.78,
+      "end": 84.88,
+      "text": "那对我自己而言，呃，我我觉得",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 13,
+      "start": 84.88,
+      "end": 86.2,
+      "text": "非常有用的一点",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 13,
+      "start": 86.2,
+      "end": 88.13,
+      "text": "是听podcast，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 14,
+      "start": 88.14,
+      "end": 91.16,
+      "text": "特别是听三十分钟到四十分钟",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 14,
+      "start": 91.16,
+      "end": 93,
+      "text": "这样比较长时间，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 14,
+      "start": 93.22,
+      "end": 96.88,
+      "text": "而且是自然的日常的交流和对话。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 15,
+      "start": 96.9,
+      "end": 99.16,
+      "text": "这样的话比较有助于",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 15,
+      "start": 99.16,
+      "end": 103,
+      "text": "呃比较自然的真实的日常用语，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 15,
+      "start": 103,
+      "end": 106.12,
+      "text": "而且听听起来也不会太无聊。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 16,
+      "start": 106.12,
+      "end": 109.14,
+      "text": "所以我自己在语言学习的过程当中。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 17,
+      "start": 109.47,
+      "end": 113.25,
+      "text": "嗯，我的德语和法语都是听",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 17,
+      "start": 113.25,
+      "end": 115.23,
+      "text": "像这样三十到四十分钟",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 17,
+      "start": 115.23,
+      "end": 117.91,
+      "text": "日常对话交流的podcast，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 18,
+      "start": 118.13,
+      "end": 120.7,
+      "text": "然后对我的水平提高非常的有帮助。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 19,
+      "start": 121.03,
+      "end": 123.73,
+      "text": "但是，呃，我的很多中文学习的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 19,
+      "start": 123.73,
+      "end": 125.7,
+      "text": "外国朋友和我反映说，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 20,
+      "start": 125.87,
+      "end": 127.45,
+      "text": "在中文的市场上",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 20,
+      "start": 127.45,
+      "end": 130.71,
+      "text": "并没有这样子一款podcast，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 20,
+      "start": 130.73,
+      "end": 133.23,
+      "text": "所以我就想，那嗯，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "s": 21,
+      "start": 133.23,
+      "end": 134.79,
+      "text": "这个也不是特别困难，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "s": 21,
+      "start": 134.79,
+      "end": 136.41,
+      "text": "我也是第一次入门",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 21,
+      "start": 136.41,
+      "end": 137.69,
+      "text": "做这个podcast。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 22,
+      "start": 137.88,
+      "end": 140.02,
+      "text": "但是我自己认为",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 22,
+      "start": 140.02,
+      "end": 143.06,
+      "text": "我的普通话说的还是比较标准的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 22,
+      "start": 143.12,
+      "end": 146.16,
+      "text": "嗯，我觉得我可以抽一些时间，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 23,
+      "start": 146.16,
+      "end": 149.2,
+      "text": "每每周或者每个月至少更新几次。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 24,
+      "start": 149.4,
+      "end": 153.38,
+      "text": "那希望呃我的这个宏宏图伟志",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "s": 24,
+      "start": 153.38,
+      "end": 154.8,
+      "text": "不要半途而废。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 25,
+      "start": 155.08,
+      "end": 156.82,
+      "text": "那今天我就短短的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 25,
+      "start": 156.82,
+      "end": 158.3,
+      "text": "录一期trailer，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 26,
+      "start": 158.3,
+      "end": 161.68,
+      "text": "下一期的话我会准备邀请一个朋友",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 26,
+      "start": 161.68,
+      "end": 165.02,
+      "text": "来和我就聊一些生活当中的琐事。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 27,
+      "start": 165.15,
+      "end": 167.53,
+      "text": "无论是我们日常中、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 27,
+      "start": 167.53,
+      "end": 171.15,
+      "text": "日常生活中的困惑呀、开心的事啊，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 27,
+      "start": 171.15,
+      "end": 172.77,
+      "text": "或者是可能会聊到",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 27,
+      "start": 172.77,
+      "end": 175.43,
+      "text": "时事、新闻、政治，都可能。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 29,
+      "start": 175.63,
+      "end": 177.51,
+      "text": "嗯，我的目的就是",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 29,
+      "start": 177.51,
+      "end": 180.13,
+      "text": "为大家创造一个非常自然的、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 29,
+      "start": 180.13,
+      "end": 182.93,
+      "text": "有趣的语言学习环境。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 30,
+      "start": 183.29,
+      "end": 184.89,
+      "text": "那就说到这里了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 30,
+      "start": 184.89,
+      "end": 187.24,
+      "text": "我们下一次正式的节目再见。",
+      "speaker": "A",
+      "role": "storyteller"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "episode": "CC1",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-09-29",
+  "fixes": [
+    {
+      "cueIndex": 0,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 1,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 3,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 13,
+      "before": "pod cast",
+      "after": "podcast",
+      "source": "llm-review",
+      "reason": "One English word the ASR split with a short gap, so the glue pass missed it; the host's own transcript writes podcast.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 17,
+      "before": "pod cast",
+      "after": "podcast",
+      "source": "llm-review",
+      "reason": "One English word the ASR split with a short gap, so the glue pass missed it; the host's own transcript writes podcast.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 20,
+      "before": "pod cast",
+      "after": "podcast",
+      "source": "llm-review",
+      "reason": "One English word the ASR split with a short gap, so the glue pass missed it; the host's own transcript writes podcast.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 21,
+      "before": "pod cast",
+      "after": "podcast",
+      "source": "llm-review",
+      "reason": "One English word the ASR split with a short gap, so the glue pass missed it; the host's own transcript writes podcast.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 25,
+      "before": "tra iler",
+      "after": "trailer",
+      "source": "llm-review",
+      "reason": "One English word split in two; sentence 1 and the host's transcript both say trailer.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 2,
+      "before": "英语名字周安",
+      "after": "英语名字Joanne",
+      "source": "llm-review",
+      "reason": "The sentence names the English name that 周安 transliterates; the show's feed credits the host as Xinqing (Joanne).",
+      "appliedAt": "2026-09-29"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 2,
+      "text": "我的名字叫周安啊，我也有很多朋友叫我炯安，炯安是…",
+      "reason": "Whisper hears the same name all four times (周安/卓安); she may say Joanne first and 周安 after, and 炯安 is likely 周安, but neither is certain from the audio. Left as heard."
+    },
+    {
+      "cueIndex": 15,
+      "text": "这样的话比较有助于呃比较自然的真实的日常用语",
+      "reason": "The host's show-notes transcript adds 能够能够学习到 here, but neither AssemblyAI nor whisper hears it — the show notes are edited, so the ASR is kept."
+    }
+  ]
+}

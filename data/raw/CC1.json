@@ -1,0 +1,8530 @@
+{
+  "id": "4056ba11-9941-4206-9778-051ca1ba2bbd",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "zh",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://m.cdn.firstory.me/track/cko0g8j5m1toy0984t6s7mqtk/cko0i31ww1y4909842bj2ot2u/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fcko0g8j5m1toy0984t6s7mqtk%2F1619556430103.mp3?v=1619556431919",
+  "text": "Hello， 大家好，欢迎大家来到我们这个瞎扯学中文的 Pod cast 第一期。那也是我们这个 Pod cast 的一个小小的 tra iler。 我的名字叫周安啊，我也有很多朋友叫我炯安，炯安是我的英语名字周安的一个中文音译。那我创造这个 Pod cast 的初衷呢？是希望给中等水平左右的中文学习的学习者、外国朋友们一个比较自然的嗯日常对话这么一个语言学习环境。我自己本身呢也是呃学习了很多门语言，是一个学习语言的爱好者。我大概从小学的时候开始学英语，然后七八年前学习了西班牙语，一年多以前学习德语。然后现在正在学法语，那我自己对于学语言也有一些心得。我也认识了周围很多学习中文的朋友，大家都说中文很难学，特别是语音语调，嗯，汉字的书写也非常困难。但是我觉得学很多的语言的话，其实技巧和经验最终都是一样的，都是需要把自己沉浸在目标语言的学习的环境当中。那对我自己而言，呃，我我觉得非常有用的一点是听 pod cast， 特别是听三十分钟到四十分钟这样比较长时间，而且是自然的日常的交流和对话。这样的话比较有助于呃比较自然的真实的日常用语，而且听听起来也不会太无聊。所以我自己在语言学习的过程当中。嗯，我的德语和法语都是听像这样三十到四十分钟日常对话交流的 pod cast， 然后对我的水平提高非常的有帮助。但是，呃，我的很多中文学习的外国朋友和我反映说，在中文的市场上并没有这样子一款 pod cast， 所以我就想，那嗯，这个也不是特别困难，我也是第一次入门做这个 pod cast。 但是我自己认为我的普通话说的还是比较标准的，嗯，我觉得我可以抽一些时间，每每周或者每个月至少更新几次。那希望呃我的这个宏宏图伟志不要半途而废。那今天我就短短的录一期 tra iler， 下一期的话我会准备邀请一个朋友来和我就聊一些生活当中的琐事。无论是我们日常中、日常生活中的困惑呀、开心的事啊，或者是可能会聊到时事、新闻、政治，都可能。嗯，我的目的就是为大家创造一个非常自然的、有趣的语言学习环境。那就说到这里了，我们下一次正式的节目再见。",
+  "words": [
+    {
+      "text": "Hello，",
+      "start": 6020,
+      "end": 6620,
+      "confidence": 0.9505082,
+      "speaker": "A"
+    },
+    {
+      "text": "大家好，",
+      "start": 6620,
+      "end": 7520,
+      "confidence": 0.9049753,
+      "speaker": "A"
+    },
+    {
+      "text": "欢",
+      "start": 7520,
+      "end": 7520,
+      "confidence": 0.99997795,
+      "speaker": "A"
+    },
+    {
+      "text": "迎",
+      "start": 7520,
+      "end": 7660,
+      "confidence": 1,
+      "speaker": "A"
+    },
+    {
+      "text": "大家",
+      "start": 7660,
+      "end": 8180,
+      "confidence": 0.9999989,
+      "speaker": "A"
+    },
+    {
+      "text": "来",
+      "start": 8180,
+      "end": 8420,
+      "confidence": 0.9999827,
+      "speaker": "A"
+    },
+    {
+      "text": "到",
+      "start": 8420,
+      "end": 8720,
+      "confidence": 0.9999871,
+      "speaker": "A"
+    },
+    {
+      "text": "我们",
+      "start": 8720,
+      "end": 9000,
+      "confidence": 0.9999676,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 9000,
+      "end": 9420,
+      "confidence": 0.9999937,
+      "speaker": "A"
+    },
+    {
+      "text": "瞎",
+      "start": 9420,
+      "end": 9720,
+      "confidence": 0.9968777,
+      "speaker": "A"
+    },
+    {
+      "text": "扯",
+      "start": 9720,
+      "end": 9940,
+      "confidence": 1,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 9940,
+      "end": 10160,
+      "confidence": 0.9995522,
+      "speaker": "A"
+    },
+    {
+      "text": "中",
+      "start": 10160,
+      "end": 10320,
+      "confidence": 0.9999827,
+      "speaker": "A"
+    },
+    {
+      "text": "文",
+      "start": 10320,
+      "end": 10580,
+      "confidence": 0.9999827,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 10580,
+      "end": 10720,
+      "confidence": 0.9997578,
+      "speaker": "A"
+    },
+    {
+      "text": "Pod",
+      "start": 10720,
+      "end": 10880,
+      "confidence": 0.66435945,
+      "speaker": "A"
+    },
+    {
+      "text": "cast",
+      "start": 10880,
+      "end": 11260,
+      "confidence": 0.99990654,
+      "speaker": "A"
+    },
+    {
+      "text": "第一",
+      "start": 11260,
+      "end": 11800,
+      "confidence": 0.99040717,
+      "speaker": "A"
+    },
+    {
+      "text": "期。",
+      "start": 11800,
+      "end": 12500,
+      "confidence": 0.7588324,
+      "speaker": "A"
+    },
+    {
+      "text": "那",
+      "start": 12600,
+      "end": 12780,
+      "confidence": 0.5176783,
+      "speaker": "A"
+    },
+    {
+      "text": "也是",
+      "start": 12780,
+      "end": 13060,
+      "confidence": 0.9999827,
+      "speaker": "A"
+    },
+    {
+      "text": "我们",
+      "start": 13060,
+      "end": 13340,
+      "confidence": 0.99998236,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 13340,
+      "end": 13520,
+      "confidence": 0.9999932,
+      "speaker": "A"
+    },
+    {
+      "text": "Pod",
+      "start": 13520,
+      "end": 13720,
+      "confidence": 0.9983298,
+      "speaker": "A"
+    },
+    {
+      "text": "cast",
+      "start": 13720,
+      "end": 13980,
+      "confidence": 0.9999709,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 13980,
+      "end": 14200,
+      "confidence": 0.9983272,
+      "speaker": "A"
+    },
+    {
+      "text": "一个",
+      "start": 14200,
+      "end": 14540,
+      "confidence": 0.9983272,
+      "speaker": "A"
+    },
+    {
+      "text": "小",
+      "start": 14540,
+      "end": 14760,
+      "confidence": 0.9999951,
+      "speaker": "A"
+    },
+    {
+      "text": "小",
+      "start": 14760,
+      "end": 14960,
+      "confidence": 0.9999691,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 14960,
+      "end": 15220,
+      "confidence": 0.99992573,
+      "speaker": "A"
+    },
+    {
+      "text": "tra",
+      "start": 15220,
+      "end": 15220,
+      "confidence": 0.6917166,
+      "speaker": "A"
+    },
+    {
+      "text": "iler。",
+      "start": 15220,
+      "end": 15770,
+      "confidence": 0.9986091,
+      "speaker": "A"
+    },
+    {
+      "text": "我的",
+      "start": 15940,
+      "end": 16160,
+      "confidence": 0.9999418,
+      "speaker": "A"
+    },
+    {
+      "text": "名",
+      "start": 16160,
+      "end": 16440,
+      "confidence": 0.99999905,
+      "speaker": "A"
+    },
+    {
+      "text": "字",
+      "start": 16440,
+      "end": 16660,
+      "confidence": 0.99999905,
+      "speaker": "A"
+    },
+    {
+      "text": "叫",
+      "start": 16660,
+      "end": 17200,
+      "confidence": 0.99999917,
+      "speaker": "A"
+    },
+    {
+      "text": "周",
+      "start": 17200,
+      "end": 17480,
+      "confidence": 0.4331991,
+      "speaker": "A"
+    },
+    {
+      "text": "安",
+      "start": 17480,
+      "end": 17660,
+      "confidence": 0.94992673,
+      "speaker": "A"
+    },
+    {
+      "text": "啊，",
+      "start": 17660,
+      "end": 18380,
+      "confidence": 0.9527959,
+      "speaker": "A"
+    },
+    {
+      "text": "我也",
+      "start": 18380,
+      "end": 18580,
+      "confidence": 0.997511,
+      "speaker": "A"
+    },
+    {
+      "text": "有",
+      "start": 18580,
+      "end": 18740,
+      "confidence": 0.99998116,
+      "speaker": "A"
+    },
+    {
+      "text": "很多",
+      "start": 18740,
+      "end": 19020,
+      "confidence": 0.99999857,
+      "speaker": "A"
+    },
+    {
+      "text": "朋友",
+      "start": 19020,
+      "end": 19440,
+      "confidence": 0.99999917,
+      "speaker": "A"
+    },
+    {
+      "text": "叫",
+      "start": 19440,
+      "end": 19680,
+      "confidence": 0.9999968,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 19680,
+      "end": 19940,
+      "confidence": 0.99999475,
+      "speaker": "A"
+    },
+    {
+      "text": "炯",
+      "start": 19940,
+      "end": 20100,
+      "confidence": 0.538964,
+      "speaker": "A"
+    },
+    {
+      "text": "安，",
+      "start": 20100,
+      "end": 20380,
+      "confidence": 0.8229832,
+      "speaker": "A"
+    },
+    {
+      "text": "炯",
+      "start": 20380,
+      "end": 20620,
+      "confidence": 0.9998065,
+      "speaker": "A"
+    },
+    {
+      "text": "安",
+      "start": 20620,
+      "end": 20760,
+      "confidence": 0.99998116,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 20760,
+      "end": 21060,
+      "confidence": 0.99994147,
+      "speaker": "A"
+    },
+    {
+      "text": "我的",
+      "start": 21060,
+      "end": 21320,
+      "confidence": 0.9999994,
+      "speaker": "A"
+    },
+    {
+      "text": "英",
+      "start": 21320,
+      "end": 21600,
+      "confidence": 0.99935716,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 21600,
+      "end": 21660,
+      "confidence": 0.99935716,
+      "speaker": "A"
+    },
+    {
+      "text": "名",
+      "start": 21660,
+      "end": 21840,
+      "confidence": 0.99997973,
+      "speaker": "A"
+    },
+    {
+      "text": "字",
+      "start": 21840,
+      "end": 21940,
+      "confidence": 0.99997973,
+      "speaker": "A"
+    },
+    {
+      "text": "周",
+      "start": 21940,
+      "end": 22140,
+      "confidence": 0.8372919,
+      "speaker": "A"
+    },
+    {
+      "text": "安",
+      "start": 22140,
+      "end": 22240,
+      "confidence": 0.9990472,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 22240,
+      "end": 22400,
+      "confidence": 0.99998724,
+      "speaker": "A"
+    },
+    {
+      "text": "一个",
+      "start": 22400,
+      "end": 22620,
+      "confidence": 0.99998724,
+      "speaker": "A"
+    },
+    {
+      "text": "中",
+      "start": 22620,
+      "end": 22800,
+      "confidence": 0.99997354,
+      "speaker": "A"
+    },
+    {
+      "text": "文",
+      "start": 22800,
+      "end": 23000,
+      "confidence": 0.99997354,
+      "speaker": "A"
+    },
+    {
+      "text": "音",
+      "start": 23000,
+      "end": 23300,
+      "confidence": 0.99785006,
+      "speaker": "A"
+    },
+    {
+      "text": "译。",
+      "start": 23300,
+      "end": 23850,
+      "confidence": 0.99992037,
+      "speaker": "A"
+    },
+    {
+      "text": "那",
+      "start": 23860,
+      "end": 24400,
+      "confidence": 0.9998702,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 24400,
+      "end": 24600,
+      "confidence": 0.99997044,
+      "speaker": "A"
+    },
+    {
+      "text": "创",
+      "start": 24600,
+      "end": 24780,
+      "confidence": 0.9999324,
+      "speaker": "A"
+    },
+    {
+      "text": "造",
+      "start": 24780,
+      "end": 25000,
+      "confidence": 0.9999578,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 25000,
+      "end": 25460,
+      "confidence": 0.99999654,
+      "speaker": "A"
+    },
+    {
+      "text": "Pod",
+      "start": 25460,
+      "end": 25700,
+      "confidence": 0.9985946,
+      "speaker": "A"
+    },
+    {
+      "text": "cast",
+      "start": 25700,
+      "end": 25900,
+      "confidence": 0.9999752,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 25900,
+      "end": 26160,
+      "confidence": 0.99633116,
+      "speaker": "A"
+    },
+    {
+      "text": "初",
+      "start": 26160,
+      "end": 26280,
+      "confidence": 0.99999857,
+      "speaker": "A"
+    },
+    {
+      "text": "衷",
+      "start": 26280,
+      "end": 26440,
+      "confidence": 1,
+      "speaker": "A"
+    },
+    {
+      "text": "呢？",
+      "start": 26440,
+      "end": 26760,
+      "confidence": 0.97490567,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 27000,
+      "end": 27160,
+      "confidence": 0.98777664,
+      "speaker": "A"
+    },
+    {
+      "text": "希望",
+      "start": 27160,
+      "end": 27560,
+      "confidence": 0.999915,
+      "speaker": "A"
+    },
+    {
+      "text": "给",
+      "start": 27560,
+      "end": 27920,
+      "confidence": 0.9998851,
+      "speaker": "A"
+    },
+    {
+      "text": "中",
+      "start": 27920,
+      "end": 28160,
+      "confidence": 0.9978637,
+      "speaker": "A"
+    },
+    {
+      "text": "等",
+      "start": 28160,
+      "end": 28500,
+      "confidence": 0.9999908,
+      "speaker": "A"
+    },
+    {
+      "text": "水",
+      "start": 28500,
+      "end": 28620,
+      "confidence": 0.9999782,
+      "speaker": "A"
+    },
+    {
+      "text": "平",
+      "start": 28620,
+      "end": 28900,
+      "confidence": 0.9999782,
+      "speaker": "A"
+    },
+    {
+      "text": "左右",
+      "start": 28900,
+      "end": 29180,
+      "confidence": 0.9999877,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 29180,
+      "end": 29420,
+      "confidence": 0.9996886,
+      "speaker": "A"
+    },
+    {
+      "text": "中",
+      "start": 29420,
+      "end": 29500,
+      "confidence": 0.9992304,
+      "speaker": "A"
+    },
+    {
+      "text": "文",
+      "start": 29500,
+      "end": 29740,
+      "confidence": 0.9992304,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 29740,
+      "end": 29900,
+      "confidence": 0.9999422,
+      "speaker": "A"
+    },
+    {
+      "text": "习",
+      "start": 29900,
+      "end": 30260,
+      "confidence": 0.9999422,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 30260,
+      "end": 30880,
+      "confidence": 0.9993462,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 30880,
+      "end": 30980,
+      "confidence": 0.9995795,
+      "speaker": "A"
+    },
+    {
+      "text": "习",
+      "start": 30980,
+      "end": 31200,
+      "confidence": 0.9995795,
+      "speaker": "A"
+    },
+    {
+      "text": "者、",
+      "start": 31200,
+      "end": 31860,
+      "confidence": 0.8318689,
+      "speaker": "A"
+    },
+    {
+      "text": "外",
+      "start": 31860,
+      "end": 31920,
+      "confidence": 0.99998105,
+      "speaker": "A"
+    },
+    {
+      "text": "国",
+      "start": 31920,
+      "end": 32080,
+      "confidence": 0.99997973,
+      "speaker": "A"
+    },
+    {
+      "text": "朋友",
+      "start": 32080,
+      "end": 32420,
+      "confidence": 0.99999106,
+      "speaker": "A"
+    },
+    {
+      "text": "们",
+      "start": 32420,
+      "end": 32980,
+      "confidence": 0.9999931,
+      "speaker": "A"
+    },
+    {
+      "text": "一个",
+      "start": 32980,
+      "end": 33280,
+      "confidence": 0.94653994,
+      "speaker": "A"
+    },
+    {
+      "text": "比",
+      "start": 33280,
+      "end": 33440,
+      "confidence": 0.9999945,
+      "speaker": "A"
+    },
+    {
+      "text": "较",
+      "start": 33440,
+      "end": 34280,
+      "confidence": 0.9999945,
+      "speaker": "A"
+    },
+    {
+      "text": "自",
+      "start": 34280,
+      "end": 34520,
+      "confidence": 0.999923,
+      "speaker": "A"
+    },
+    {
+      "text": "然",
+      "start": 34520,
+      "end": 34840,
+      "confidence": 0.999923,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 34840,
+      "end": 35740,
+      "confidence": 0.9997553,
+      "speaker": "A"
+    },
+    {
+      "text": "嗯",
+      "start": 35740,
+      "end": 35760,
+      "confidence": 0.8026692,
+      "speaker": "A"
+    },
+    {
+      "text": "日",
+      "start": 35760,
+      "end": 35800,
+      "confidence": 0.9886263,
+      "speaker": "A"
+    },
+    {
+      "text": "常",
+      "start": 35800,
+      "end": 36060,
+      "confidence": 0.99999785,
+      "speaker": "A"
+    },
+    {
+      "text": "对",
+      "start": 36060,
+      "end": 36260,
+      "confidence": 0.99993265,
+      "speaker": "A"
+    },
+    {
+      "text": "话",
+      "start": 36260,
+      "end": 36540,
+      "confidence": 0.99998605,
+      "speaker": "A"
+    },
+    {
+      "text": "这么",
+      "start": 36540,
+      "end": 36780,
+      "confidence": 0.9939845,
+      "speaker": "A"
+    },
+    {
+      "text": "一个",
+      "start": 36780,
+      "end": 37140,
+      "confidence": 0.999995,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 37140,
+      "end": 37340,
+      "confidence": 0.9999733,
+      "speaker": "A"
+    },
+    {
+      "text": "言",
+      "start": 37340,
+      "end": 37440,
+      "confidence": 0.9999733,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 37440,
+      "end": 37600,
+      "confidence": 0.99999464,
+      "speaker": "A"
+    },
+    {
+      "text": "习",
+      "start": 37600,
+      "end": 37780,
+      "confidence": 0.99999464,
+      "speaker": "A"
+    },
+    {
+      "text": "环",
+      "start": 37780,
+      "end": 37940,
+      "confidence": 0.9999896,
+      "speaker": "A"
+    },
+    {
+      "text": "境。",
+      "start": 37940,
+      "end": 38540,
+      "confidence": 0.9993479,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 39100,
+      "end": 39220,
+      "confidence": 0.9987062,
+      "speaker": "A"
+    },
+    {
+      "text": "自己",
+      "start": 39220,
+      "end": 39520,
+      "confidence": 0.9999964,
+      "speaker": "A"
+    },
+    {
+      "text": "本",
+      "start": 39520,
+      "end": 39680,
+      "confidence": 0.999997,
+      "speaker": "A"
+    },
+    {
+      "text": "身",
+      "start": 39680,
+      "end": 40000,
+      "confidence": 0.99999106,
+      "speaker": "A"
+    },
+    {
+      "text": "呢",
+      "start": 40000,
+      "end": 40300,
+      "confidence": 0.99999475,
+      "speaker": "A"
+    },
+    {
+      "text": "也是",
+      "start": 40300,
+      "end": 40760,
+      "confidence": 0.8836513,
+      "speaker": "A"
+    },
+    {
+      "text": "呃",
+      "start": 40760,
+      "end": 41600,
+      "confidence": 0.99592125,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 41600,
+      "end": 41640,
+      "confidence": 0.9941551,
+      "speaker": "A"
+    },
+    {
+      "text": "习",
+      "start": 41640,
+      "end": 41860,
+      "confidence": 0.9941551,
+      "speaker": "A"
+    },
+    {
+      "text": "了",
+      "start": 41860,
+      "end": 42020,
+      "confidence": 0.99998987,
+      "speaker": "A"
+    },
+    {
+      "text": "很多",
+      "start": 42020,
+      "end": 42260,
+      "confidence": 0.99999714,
+      "speaker": "A"
+    },
+    {
+      "text": "门",
+      "start": 42260,
+      "end": 42520,
+      "confidence": 0.9999757,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 42520,
+      "end": 42700,
+      "confidence": 0.99996674,
+      "speaker": "A"
+    },
+    {
+      "text": "言，",
+      "start": 42700,
+      "end": 43079,
+      "confidence": 0.99569166,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 43079,
+      "end": 43079,
+      "confidence": 0.99141663,
+      "speaker": "A"
+    },
+    {
+      "text": "一个",
+      "start": 43079,
+      "end": 43300,
+      "confidence": 0.9999924,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 43300,
+      "end": 43440,
+      "confidence": 0.99998415,
+      "speaker": "A"
+    },
+    {
+      "text": "习",
+      "start": 43440,
+      "end": 43660,
+      "confidence": 0.99998415,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 43660,
+      "end": 43760,
+      "confidence": 0.99999344,
+      "speaker": "A"
+    },
+    {
+      "text": "言",
+      "start": 43760,
+      "end": 43920,
+      "confidence": 0.99999344,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 43920,
+      "end": 44120,
+      "confidence": 0.99996233,
+      "speaker": "A"
+    },
+    {
+      "text": "爱",
+      "start": 44120,
+      "end": 44180,
+      "confidence": 0.99999905,
+      "speaker": "A"
+    },
+    {
+      "text": "好",
+      "start": 44180,
+      "end": 44400,
+      "confidence": 0.9999845,
+      "speaker": "A"
+    },
+    {
+      "text": "者。",
+      "start": 44400,
+      "end": 44950,
+      "confidence": 0.9992753,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 45120,
+      "end": 45720,
+      "confidence": 0.99855417,
+      "speaker": "A"
+    },
+    {
+      "text": "大概",
+      "start": 45720,
+      "end": 45980,
+      "confidence": 0.99996364,
+      "speaker": "A"
+    },
+    {
+      "text": "从",
+      "start": 45980,
+      "end": 46280,
+      "confidence": 0.9999927,
+      "speaker": "A"
+    },
+    {
+      "text": "小",
+      "start": 46280,
+      "end": 46500,
+      "confidence": 0.99996114,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 46500,
+      "end": 46660,
+      "confidence": 0.99996114,
+      "speaker": "A"
+    },
+    {
+      "text": "的时候",
+      "start": 46660,
+      "end": 47060,
+      "confidence": 0.9999981,
+      "speaker": "A"
+    },
+    {
+      "text": "开始",
+      "start": 47060,
+      "end": 47400,
+      "confidence": 0.99999857,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 47400,
+      "end": 47700,
+      "confidence": 0.99994504,
+      "speaker": "A"
+    },
+    {
+      "text": "英",
+      "start": 47700,
+      "end": 48060,
+      "confidence": 0.99999213,
+      "speaker": "A"
+    },
+    {
+      "text": "语，",
+      "start": 48060,
+      "end": 48660,
+      "confidence": 0.999977,
+      "speaker": "A"
+    },
+    {
+      "text": "然后",
+      "start": 48660,
+      "end": 49280,
+      "confidence": 0.99996185,
+      "speaker": "A"
+    },
+    {
+      "text": "七",
+      "start": 49280,
+      "end": 49660,
+      "confidence": 0.99991846,
+      "speaker": "A"
+    },
+    {
+      "text": "八",
+      "start": 49660,
+      "end": 49800,
+      "confidence": 0.99999535,
+      "speaker": "A"
+    },
+    {
+      "text": "年前",
+      "start": 49800,
+      "end": 50260,
+      "confidence": 0.99999666,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 50260,
+      "end": 50540,
+      "confidence": 0.999972,
+      "speaker": "A"
+    },
+    {
+      "text": "习",
+      "start": 50540,
+      "end": 50660,
+      "confidence": 0.999972,
+      "speaker": "A"
+    },
+    {
+      "text": "了",
+      "start": 50660,
+      "end": 50840,
+      "confidence": 0.9999777,
+      "speaker": "A"
+    },
+    {
+      "text": "西",
+      "start": 50840,
+      "end": 50980,
+      "confidence": 0.9999784,
+      "speaker": "A"
+    },
+    {
+      "text": "班",
+      "start": 50980,
+      "end": 51080,
+      "confidence": 0.9999989,
+      "speaker": "A"
+    },
+    {
+      "text": "牙",
+      "start": 51080,
+      "end": 51260,
+      "confidence": 0.99999976,
+      "speaker": "A"
+    },
+    {
+      "text": "语，",
+      "start": 51260,
+      "end": 51920,
+      "confidence": 0.9985392,
+      "speaker": "A"
+    },
+    {
+      "text": "一",
+      "start": 51920,
+      "end": 52120,
+      "confidence": 0.9970874,
+      "speaker": "A"
+    },
+    {
+      "text": "年",
+      "start": 52120,
+      "end": 52480,
+      "confidence": 0.9999962,
+      "speaker": "A"
+    },
+    {
+      "text": "多",
+      "start": 52480,
+      "end": 52760,
+      "confidence": 0.9999989,
+      "speaker": "A"
+    },
+    {
+      "text": "以前",
+      "start": 52760,
+      "end": 53220,
+      "confidence": 0.9999926,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 53220,
+      "end": 53580,
+      "confidence": 0.9999405,
+      "speaker": "A"
+    },
+    {
+      "text": "习",
+      "start": 53580,
+      "end": 54000,
+      "confidence": 0.9999405,
+      "speaker": "A"
+    },
+    {
+      "text": "德",
+      "start": 54000,
+      "end": 54380,
+      "confidence": 0.99998844,
+      "speaker": "A"
+    },
+    {
+      "text": "语。",
+      "start": 54380,
+      "end": 54720,
+      "confidence": 0.9967419,
+      "speaker": "A"
+    },
+    {
+      "text": "然后",
+      "start": 54870,
+      "end": 55070,
+      "confidence": 0.9996111,
+      "speaker": "A"
+    },
+    {
+      "text": "现在",
+      "start": 55070,
+      "end": 55450,
+      "confidence": 0.99796534,
+      "speaker": "A"
+    },
+    {
+      "text": "正",
+      "start": 55450,
+      "end": 55770,
+      "confidence": 0.99995494,
+      "speaker": "A"
+    },
+    {
+      "text": "在",
+      "start": 55770,
+      "end": 56450,
+      "confidence": 0.99995494,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 56450,
+      "end": 56610,
+      "confidence": 0.99977905,
+      "speaker": "A"
+    },
+    {
+      "text": "法",
+      "start": 56610,
+      "end": 56930,
+      "confidence": 0.99996865,
+      "speaker": "A"
+    },
+    {
+      "text": "语，",
+      "start": 56930,
+      "end": 57430,
+      "confidence": 0.94082993,
+      "speaker": "A"
+    },
+    {
+      "text": "那",
+      "start": 57430,
+      "end": 57470,
+      "confidence": 0.8816628,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 57470,
+      "end": 57630,
+      "confidence": 0.9999962,
+      "speaker": "A"
+    },
+    {
+      "text": "自己",
+      "start": 57630,
+      "end": 57890,
+      "confidence": 0.9999962,
+      "speaker": "A"
+    },
+    {
+      "text": "对",
+      "start": 57890,
+      "end": 58030,
+      "confidence": 0.99997497,
+      "speaker": "A"
+    },
+    {
+      "text": "于",
+      "start": 58030,
+      "end": 58290,
+      "confidence": 0.99997497,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 58290,
+      "end": 58410,
+      "confidence": 0.9993844,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 58410,
+      "end": 58550,
+      "confidence": 0.9999502,
+      "speaker": "A"
+    },
+    {
+      "text": "言",
+      "start": 58550,
+      "end": 58690,
+      "confidence": 0.9999502,
+      "speaker": "A"
+    },
+    {
+      "text": "也",
+      "start": 58690,
+      "end": 58830,
+      "confidence": 0.99997973,
+      "speaker": "A"
+    },
+    {
+      "text": "有一",
+      "start": 58830,
+      "end": 59010,
+      "confidence": 0.9999728,
+      "speaker": "A"
+    },
+    {
+      "text": "些",
+      "start": 59010,
+      "end": 59390,
+      "confidence": 0.9999813,
+      "speaker": "A"
+    },
+    {
+      "text": "心",
+      "start": 59390,
+      "end": 59450,
+      "confidence": 0.9999814,
+      "speaker": "A"
+    },
+    {
+      "text": "得。",
+      "start": 59450,
+      "end": 59950,
+      "confidence": 0.9154505,
+      "speaker": "A"
+    },
+    {
+      "text": "我也",
+      "start": 60290,
+      "end": 60690,
+      "confidence": 0.91544473,
+      "speaker": "A"
+    },
+    {
+      "text": "认",
+      "start": 60690,
+      "end": 60970,
+      "confidence": 0.99999905,
+      "speaker": "A"
+    },
+    {
+      "text": "识",
+      "start": 60970,
+      "end": 61150,
+      "confidence": 0.99999905,
+      "speaker": "A"
+    },
+    {
+      "text": "了",
+      "start": 61150,
+      "end": 61310,
+      "confidence": 0.99998367,
+      "speaker": "A"
+    },
+    {
+      "text": "周",
+      "start": 61310,
+      "end": 61410,
+      "confidence": 0.9999963,
+      "speaker": "A"
+    },
+    {
+      "text": "围",
+      "start": 61410,
+      "end": 61670,
+      "confidence": 0.99999785,
+      "speaker": "A"
+    },
+    {
+      "text": "很多",
+      "start": 61670,
+      "end": 62070,
+      "confidence": 0.9998877,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 62070,
+      "end": 62290,
+      "confidence": 0.9999893,
+      "speaker": "A"
+    },
+    {
+      "text": "习",
+      "start": 62290,
+      "end": 62510,
+      "confidence": 0.9999893,
+      "speaker": "A"
+    },
+    {
+      "text": "中",
+      "start": 62510,
+      "end": 62650,
+      "confidence": 0.9999901,
+      "speaker": "A"
+    },
+    {
+      "text": "文",
+      "start": 62650,
+      "end": 62810,
+      "confidence": 0.9999901,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 62810,
+      "end": 62970,
+      "confidence": 0.99995303,
+      "speaker": "A"
+    },
+    {
+      "text": "朋友，",
+      "start": 62970,
+      "end": 64010,
+      "confidence": 0.9988511,
+      "speaker": "A"
+    },
+    {
+      "text": "大家都",
+      "start": 64010,
+      "end": 64450,
+      "confidence": 0.99999404,
+      "speaker": "A"
+    },
+    {
+      "text": "说",
+      "start": 64450,
+      "end": 64830,
+      "confidence": 0.9999926,
+      "speaker": "A"
+    },
+    {
+      "text": "中",
+      "start": 64830,
+      "end": 65050,
+      "confidence": 0.9999671,
+      "speaker": "A"
+    },
+    {
+      "text": "文",
+      "start": 65050,
+      "end": 65250,
+      "confidence": 0.9999671,
+      "speaker": "A"
+    },
+    {
+      "text": "很",
+      "start": 65250,
+      "end": 65410,
+      "confidence": 0.9999964,
+      "speaker": "A"
+    },
+    {
+      "text": "难",
+      "start": 65410,
+      "end": 65650,
+      "confidence": 0.99999654,
+      "speaker": "A"
+    },
+    {
+      "text": "学，",
+      "start": 65650,
+      "end": 66290,
+      "confidence": 0.9999199,
+      "speaker": "A"
+    },
+    {
+      "text": "特",
+      "start": 66290,
+      "end": 66450,
+      "confidence": 0.99999726,
+      "speaker": "A"
+    },
+    {
+      "text": "别",
+      "start": 66450,
+      "end": 66610,
+      "confidence": 0.99999726,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 66610,
+      "end": 66910,
+      "confidence": 0.9999244,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 66910,
+      "end": 66990,
+      "confidence": 0.99984705,
+      "speaker": "A"
+    },
+    {
+      "text": "音",
+      "start": 66990,
+      "end": 67190,
+      "confidence": 0.9999316,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 67190,
+      "end": 67410,
+      "confidence": 0.6879697,
+      "speaker": "A"
+    },
+    {
+      "text": "调，",
+      "start": 67410,
+      "end": 68350,
+      "confidence": 0.9503805,
+      "speaker": "A"
+    },
+    {
+      "text": "嗯，",
+      "start": 68350,
+      "end": 68490,
+      "confidence": 0.86198777,
+      "speaker": "A"
+    },
+    {
+      "text": "汉",
+      "start": 68490,
+      "end": 68590,
+      "confidence": 0.99999106,
+      "speaker": "A"
+    },
+    {
+      "text": "字",
+      "start": 68590,
+      "end": 68710,
+      "confidence": 0.99994874,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 68710,
+      "end": 68930,
+      "confidence": 0.99992454,
+      "speaker": "A"
+    },
+    {
+      "text": "书",
+      "start": 68930,
+      "end": 69050,
+      "confidence": 0.99978596,
+      "speaker": "A"
+    },
+    {
+      "text": "写",
+      "start": 69050,
+      "end": 69170,
+      "confidence": 0.9999938,
+      "speaker": "A"
+    },
+    {
+      "text": "也",
+      "start": 69170,
+      "end": 69330,
+      "confidence": 0.9999926,
+      "speaker": "A"
+    },
+    {
+      "text": "非常",
+      "start": 69330,
+      "end": 69610,
+      "confidence": 0.999998,
+      "speaker": "A"
+    },
+    {
+      "text": "困",
+      "start": 69610,
+      "end": 69890,
+      "confidence": 0.99999905,
+      "speaker": "A"
+    },
+    {
+      "text": "难。",
+      "start": 69890,
+      "end": 70440,
+      "confidence": 0.9997487,
+      "speaker": "A"
+    },
+    {
+      "text": "但是",
+      "start": 70490,
+      "end": 70750,
+      "confidence": 0.99629414,
+      "speaker": "A"
+    },
+    {
+      "text": "我觉得",
+      "start": 70750,
+      "end": 71330,
+      "confidence": 0.9976903,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 71330,
+      "end": 71630,
+      "confidence": 0.9748098,
+      "speaker": "A"
+    },
+    {
+      "text": "很多",
+      "start": 71630,
+      "end": 72070,
+      "confidence": 0.99920005,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 72070,
+      "end": 72350,
+      "confidence": 0.99992645,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 72350,
+      "end": 72470,
+      "confidence": 0.99999726,
+      "speaker": "A"
+    },
+    {
+      "text": "言",
+      "start": 72470,
+      "end": 72710,
+      "confidence": 0.99999726,
+      "speaker": "A"
+    },
+    {
+      "text": "的话，",
+      "start": 72710,
+      "end": 73410,
+      "confidence": 0.999935,
+      "speaker": "A"
+    },
+    {
+      "text": "其实",
+      "start": 73410,
+      "end": 73890,
+      "confidence": 0.99970144,
+      "speaker": "A"
+    },
+    {
+      "text": "技",
+      "start": 73890,
+      "end": 74470,
+      "confidence": 0.99999857,
+      "speaker": "A"
+    },
+    {
+      "text": "巧",
+      "start": 74470,
+      "end": 74710,
+      "confidence": 1,
+      "speaker": "A"
+    },
+    {
+      "text": "和",
+      "start": 74710,
+      "end": 74990,
+      "confidence": 0.9999863,
+      "speaker": "A"
+    },
+    {
+      "text": "经",
+      "start": 74990,
+      "end": 75290,
+      "confidence": 0.99999285,
+      "speaker": "A"
+    },
+    {
+      "text": "验",
+      "start": 75290,
+      "end": 75830,
+      "confidence": 0.99999285,
+      "speaker": "A"
+    },
+    {
+      "text": "最",
+      "start": 75830,
+      "end": 76010,
+      "confidence": 0.99985814,
+      "speaker": "A"
+    },
+    {
+      "text": "终",
+      "start": 76010,
+      "end": 76270,
+      "confidence": 0.999995,
+      "speaker": "A"
+    },
+    {
+      "text": "都是",
+      "start": 76270,
+      "end": 76570,
+      "confidence": 0.99996823,
+      "speaker": "A"
+    },
+    {
+      "text": "一",
+      "start": 76570,
+      "end": 76730,
+      "confidence": 0.99998987,
+      "speaker": "A"
+    },
+    {
+      "text": "样",
+      "start": 76730,
+      "end": 76850,
+      "confidence": 0.9999676,
+      "speaker": "A"
+    },
+    {
+      "text": "的，",
+      "start": 76850,
+      "end": 76990,
+      "confidence": 0.9997525,
+      "speaker": "A"
+    },
+    {
+      "text": "都是",
+      "start": 76990,
+      "end": 77210,
+      "confidence": 0.9999982,
+      "speaker": "A"
+    },
+    {
+      "text": "需要",
+      "start": 77210,
+      "end": 77570,
+      "confidence": 0.9999989,
+      "speaker": "A"
+    },
+    {
+      "text": "把",
+      "start": 77570,
+      "end": 77690,
+      "confidence": 0.9999964,
+      "speaker": "A"
+    },
+    {
+      "text": "自己",
+      "start": 77690,
+      "end": 78050,
+      "confidence": 0.99999833,
+      "speaker": "A"
+    },
+    {
+      "text": "沉",
+      "start": 78050,
+      "end": 78410,
+      "confidence": 0.99999595,
+      "speaker": "A"
+    },
+    {
+      "text": "浸",
+      "start": 78410,
+      "end": 78570,
+      "confidence": 0.99999094,
+      "speaker": "A"
+    },
+    {
+      "text": "在",
+      "start": 78570,
+      "end": 79290,
+      "confidence": 0.99998426,
+      "speaker": "A"
+    },
+    {
+      "text": "目",
+      "start": 79290,
+      "end": 79470,
+      "confidence": 0.99998987,
+      "speaker": "A"
+    },
+    {
+      "text": "标",
+      "start": 79470,
+      "end": 79690,
+      "confidence": 0.99998987,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 79690,
+      "end": 79870,
+      "confidence": 0.99992776,
+      "speaker": "A"
+    },
+    {
+      "text": "言",
+      "start": 79870,
+      "end": 79930,
+      "confidence": 0.99992776,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 79930,
+      "end": 80190,
+      "confidence": 0.9999136,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 80190,
+      "end": 80210,
+      "confidence": 0.9999951,
+      "speaker": "A"
+    },
+    {
+      "text": "习",
+      "start": 80210,
+      "end": 80450,
+      "confidence": 0.9999951,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 80450,
+      "end": 80610,
+      "confidence": 0.9998692,
+      "speaker": "A"
+    },
+    {
+      "text": "环",
+      "start": 80610,
+      "end": 80710,
+      "confidence": 0.99999785,
+      "speaker": "A"
+    },
+    {
+      "text": "境",
+      "start": 80710,
+      "end": 80990,
+      "confidence": 0.99999785,
+      "speaker": "A"
+    },
+    {
+      "text": "当",
+      "start": 80990,
+      "end": 81170,
+      "confidence": 0.99999285,
+      "speaker": "A"
+    },
+    {
+      "text": "中。",
+      "start": 81170,
+      "end": 81470,
+      "confidence": 0.9999611,
+      "speaker": "A"
+    },
+    {
+      "text": "那",
+      "start": 81780,
+      "end": 81940,
+      "confidence": 0.99710685,
+      "speaker": "A"
+    },
+    {
+      "text": "对",
+      "start": 81940,
+      "end": 82080,
+      "confidence": 0.9998233,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 82080,
+      "end": 82400,
+      "confidence": 0.9999883,
+      "speaker": "A"
+    },
+    {
+      "text": "自己",
+      "start": 82400,
+      "end": 82560,
+      "confidence": 0.99999356,
+      "speaker": "A"
+    },
+    {
+      "text": "而",
+      "start": 82560,
+      "end": 82860,
+      "confidence": 0.9999964,
+      "speaker": "A"
+    },
+    {
+      "text": "言，",
+      "start": 82860,
+      "end": 83580,
+      "confidence": 0.9404999,
+      "speaker": "A"
+    },
+    {
+      "text": "呃，",
+      "start": 83580,
+      "end": 84000,
+      "confidence": 0.9936677,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 84000,
+      "end": 84400,
+      "confidence": 0.98758686,
+      "speaker": "A"
+    },
+    {
+      "text": "我觉得",
+      "start": 84400,
+      "end": 84880,
+      "confidence": 0.99951625,
+      "speaker": "A"
+    },
+    {
+      "text": "非常",
+      "start": 84880,
+      "end": 85180,
+      "confidence": 0.9999976,
+      "speaker": "A"
+    },
+    {
+      "text": "有",
+      "start": 85180,
+      "end": 85440,
+      "confidence": 0.99999154,
+      "speaker": "A"
+    },
+    {
+      "text": "用",
+      "start": 85440,
+      "end": 85640,
+      "confidence": 0.9998747,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 85640,
+      "end": 85860,
+      "confidence": 0.99999666,
+      "speaker": "A"
+    },
+    {
+      "text": "一点",
+      "start": 85860,
+      "end": 86200,
+      "confidence": 0.9999942,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 86200,
+      "end": 86880,
+      "confidence": 0.9999094,
+      "speaker": "A"
+    },
+    {
+      "text": "听",
+      "start": 86880,
+      "end": 87180,
+      "confidence": 0.99992406,
+      "speaker": "A"
+    },
+    {
+      "text": "pod",
+      "start": 87180,
+      "end": 87380,
+      "confidence": 0.62655026,
+      "speaker": "A"
+    },
+    {
+      "text": "cast，",
+      "start": 87380,
+      "end": 88130,
+      "confidence": 0.9990083,
+      "speaker": "A"
+    },
+    {
+      "text": "特",
+      "start": 88140,
+      "end": 88340,
+      "confidence": 0.99999344,
+      "speaker": "A"
+    },
+    {
+      "text": "别",
+      "start": 88340,
+      "end": 88580,
+      "confidence": 0.99999344,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 88580,
+      "end": 88920,
+      "confidence": 0.9999471,
+      "speaker": "A"
+    },
+    {
+      "text": "听",
+      "start": 88920,
+      "end": 89340,
+      "confidence": 0.99999356,
+      "speaker": "A"
+    },
+    {
+      "text": "三",
+      "start": 89340,
+      "end": 89640,
+      "confidence": 0.9903334,
+      "speaker": "A"
+    },
+    {
+      "text": "十",
+      "start": 89640,
+      "end": 89880,
+      "confidence": 0.99998283,
+      "speaker": "A"
+    },
+    {
+      "text": "分",
+      "start": 89880,
+      "end": 90120,
+      "confidence": 0.9999994,
+      "speaker": "A"
+    },
+    {
+      "text": "钟",
+      "start": 90120,
+      "end": 90260,
+      "confidence": 0.9999994,
+      "speaker": "A"
+    },
+    {
+      "text": "到",
+      "start": 90260,
+      "end": 90380,
+      "confidence": 0.9999958,
+      "speaker": "A"
+    },
+    {
+      "text": "四",
+      "start": 90380,
+      "end": 90560,
+      "confidence": 0.9999931,
+      "speaker": "A"
+    },
+    {
+      "text": "十",
+      "start": 90560,
+      "end": 90740,
+      "confidence": 0.9999362,
+      "speaker": "A"
+    },
+    {
+      "text": "分",
+      "start": 90740,
+      "end": 90940,
+      "confidence": 0.99999964,
+      "speaker": "A"
+    },
+    {
+      "text": "钟",
+      "start": 90940,
+      "end": 91160,
+      "confidence": 0.99999964,
+      "speaker": "A"
+    },
+    {
+      "text": "这样",
+      "start": 91160,
+      "end": 91480,
+      "confidence": 0.9995221,
+      "speaker": "A"
+    },
+    {
+      "text": "比",
+      "start": 91480,
+      "end": 91860,
+      "confidence": 0.9999815,
+      "speaker": "A"
+    },
+    {
+      "text": "较",
+      "start": 91860,
+      "end": 92080,
+      "confidence": 0.9999815,
+      "speaker": "A"
+    },
+    {
+      "text": "长",
+      "start": 92080,
+      "end": 92400,
+      "confidence": 0.9999989,
+      "speaker": "A"
+    },
+    {
+      "text": "时间，",
+      "start": 92400,
+      "end": 93000,
+      "confidence": 0.99472284,
+      "speaker": "A"
+    },
+    {
+      "text": "而且",
+      "start": 93220,
+      "end": 93520,
+      "confidence": 0.98421544,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 93520,
+      "end": 94020,
+      "confidence": 0.9998066,
+      "speaker": "A"
+    },
+    {
+      "text": "自",
+      "start": 94020,
+      "end": 94240,
+      "confidence": 0.9999654,
+      "speaker": "A"
+    },
+    {
+      "text": "然",
+      "start": 94240,
+      "end": 94580,
+      "confidence": 0.9999654,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 94580,
+      "end": 95100,
+      "confidence": 0.9999534,
+      "speaker": "A"
+    },
+    {
+      "text": "日",
+      "start": 95100,
+      "end": 95180,
+      "confidence": 0.97321916,
+      "speaker": "A"
+    },
+    {
+      "text": "常",
+      "start": 95180,
+      "end": 95420,
+      "confidence": 0.99999774,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 95420,
+      "end": 95660,
+      "confidence": 0.99991083,
+      "speaker": "A"
+    },
+    {
+      "text": "交",
+      "start": 95660,
+      "end": 95720,
+      "confidence": 0.9999995,
+      "speaker": "A"
+    },
+    {
+      "text": "流",
+      "start": 95720,
+      "end": 95960,
+      "confidence": 0.9999995,
+      "speaker": "A"
+    },
+    {
+      "text": "和",
+      "start": 95960,
+      "end": 96140,
+      "confidence": 0.9999876,
+      "speaker": "A"
+    },
+    {
+      "text": "对",
+      "start": 96140,
+      "end": 96280,
+      "confidence": 0.9999374,
+      "speaker": "A"
+    },
+    {
+      "text": "话。",
+      "start": 96280,
+      "end": 96880,
+      "confidence": 0.9494125,
+      "speaker": "A"
+    },
+    {
+      "text": "这样",
+      "start": 96900,
+      "end": 97240,
+      "confidence": 0.99998295,
+      "speaker": "A"
+    },
+    {
+      "text": "的话",
+      "start": 97240,
+      "end": 97800,
+      "confidence": 0.99999225,
+      "speaker": "A"
+    },
+    {
+      "text": "比",
+      "start": 97800,
+      "end": 98019,
+      "confidence": 0.82966137,
+      "speaker": "A"
+    },
+    {
+      "text": "较",
+      "start": 98019,
+      "end": 98180,
+      "confidence": 0.82966137,
+      "speaker": "A"
+    },
+    {
+      "text": "有",
+      "start": 98180,
+      "end": 98480,
+      "confidence": 0.99999297,
+      "speaker": "A"
+    },
+    {
+      "text": "助",
+      "start": 98480,
+      "end": 98640,
+      "confidence": 0.9999838,
+      "speaker": "A"
+    },
+    {
+      "text": "于",
+      "start": 98640,
+      "end": 99160,
+      "confidence": 0.9999957,
+      "speaker": "A"
+    },
+    {
+      "text": "呃",
+      "start": 99160,
+      "end": 99460,
+      "confidence": 0.81235284,
+      "speaker": "A"
+    },
+    {
+      "text": "比",
+      "start": 99460,
+      "end": 99620,
+      "confidence": 0.9661944,
+      "speaker": "A"
+    },
+    {
+      "text": "较",
+      "start": 99620,
+      "end": 99900,
+      "confidence": 0.9661944,
+      "speaker": "A"
+    },
+    {
+      "text": "自",
+      "start": 99900,
+      "end": 100100,
+      "confidence": 0.99995065,
+      "speaker": "A"
+    },
+    {
+      "text": "然",
+      "start": 100100,
+      "end": 100340,
+      "confidence": 0.99995065,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 100340,
+      "end": 101100,
+      "confidence": 0.9992617,
+      "speaker": "A"
+    },
+    {
+      "text": "真",
+      "start": 101100,
+      "end": 101220,
+      "confidence": 0.8103652,
+      "speaker": "A"
+    },
+    {
+      "text": "实",
+      "start": 101220,
+      "end": 101540,
+      "confidence": 0.9999945,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 101540,
+      "end": 101900,
+      "confidence": 0.99995136,
+      "speaker": "A"
+    },
+    {
+      "text": "日",
+      "start": 101900,
+      "end": 101920,
+      "confidence": 0.99998915,
+      "speaker": "A"
+    },
+    {
+      "text": "常",
+      "start": 101920,
+      "end": 102180,
+      "confidence": 0.9999989,
+      "speaker": "A"
+    },
+    {
+      "text": "用",
+      "start": 102180,
+      "end": 102440,
+      "confidence": 0.9989022,
+      "speaker": "A"
+    },
+    {
+      "text": "语，",
+      "start": 102440,
+      "end": 103000,
+      "confidence": 0.9994226,
+      "speaker": "A"
+    },
+    {
+      "text": "而且",
+      "start": 103000,
+      "end": 103440,
+      "confidence": 0.9988753,
+      "speaker": "A"
+    },
+    {
+      "text": "听",
+      "start": 103440,
+      "end": 104300,
+      "confidence": 0.99964595,
+      "speaker": "A"
+    },
+    {
+      "text": "听",
+      "start": 104300,
+      "end": 104380,
+      "confidence": 0.99996424,
+      "speaker": "A"
+    },
+    {
+      "text": "起",
+      "start": 104380,
+      "end": 104600,
+      "confidence": 0.99998796,
+      "speaker": "A"
+    },
+    {
+      "text": "来",
+      "start": 104600,
+      "end": 104740,
+      "confidence": 0.99998796,
+      "speaker": "A"
+    },
+    {
+      "text": "也",
+      "start": 104740,
+      "end": 104880,
+      "confidence": 0.9999839,
+      "speaker": "A"
+    },
+    {
+      "text": "不会",
+      "start": 104880,
+      "end": 105080,
+      "confidence": 0.99999714,
+      "speaker": "A"
+    },
+    {
+      "text": "太",
+      "start": 105080,
+      "end": 105380,
+      "confidence": 0.9999974,
+      "speaker": "A"
+    },
+    {
+      "text": "无",
+      "start": 105380,
+      "end": 105580,
+      "confidence": 0.9999949,
+      "speaker": "A"
+    },
+    {
+      "text": "聊。",
+      "start": 105580,
+      "end": 106120,
+      "confidence": 0.93534374,
+      "speaker": "A"
+    },
+    {
+      "text": "所以",
+      "start": 106120,
+      "end": 106560,
+      "confidence": 0.9999896,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 106560,
+      "end": 106800,
+      "confidence": 0.931386,
+      "speaker": "A"
+    },
+    {
+      "text": "自己",
+      "start": 106800,
+      "end": 107180,
+      "confidence": 0.9999937,
+      "speaker": "A"
+    },
+    {
+      "text": "在",
+      "start": 107180,
+      "end": 107460,
+      "confidence": 0.9999684,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 107460,
+      "end": 107680,
+      "confidence": 0.99949396,
+      "speaker": "A"
+    },
+    {
+      "text": "言",
+      "start": 107680,
+      "end": 107780,
+      "confidence": 0.99949396,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 107780,
+      "end": 107940,
+      "confidence": 0.9999914,
+      "speaker": "A"
+    },
+    {
+      "text": "习",
+      "start": 107940,
+      "end": 108080,
+      "confidence": 0.9999914,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 108080,
+      "end": 108240,
+      "confidence": 0.9999912,
+      "speaker": "A"
+    },
+    {
+      "text": "过",
+      "start": 108240,
+      "end": 108360,
+      "confidence": 0.99999833,
+      "speaker": "A"
+    },
+    {
+      "text": "程",
+      "start": 108360,
+      "end": 108620,
+      "confidence": 0.99999833,
+      "speaker": "A"
+    },
+    {
+      "text": "当",
+      "start": 108620,
+      "end": 108780,
+      "confidence": 0.99999297,
+      "speaker": "A"
+    },
+    {
+      "text": "中。",
+      "start": 108780,
+      "end": 109140,
+      "confidence": 0.93605524,
+      "speaker": "A"
+    },
+    {
+      "text": "嗯，",
+      "start": 109470,
+      "end": 109850,
+      "confidence": 0.80916476,
+      "speaker": "A"
+    },
+    {
+      "text": "我的",
+      "start": 109850,
+      "end": 110010,
+      "confidence": 0.9999926,
+      "speaker": "A"
+    },
+    {
+      "text": "德",
+      "start": 110010,
+      "end": 110430,
+      "confidence": 0.9999933,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 110430,
+      "end": 110610,
+      "confidence": 0.9999989,
+      "speaker": "A"
+    },
+    {
+      "text": "和",
+      "start": 110610,
+      "end": 111410,
+      "confidence": 0.999964,
+      "speaker": "A"
+    },
+    {
+      "text": "法",
+      "start": 111410,
+      "end": 111790,
+      "confidence": 0.9999664,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 111790,
+      "end": 111950,
+      "confidence": 0.9999989,
+      "speaker": "A"
+    },
+    {
+      "text": "都是",
+      "start": 111950,
+      "end": 112410,
+      "confidence": 0.9999976,
+      "speaker": "A"
+    },
+    {
+      "text": "听",
+      "start": 112410,
+      "end": 113250,
+      "confidence": 0.9999938,
+      "speaker": "A"
+    },
+    {
+      "text": "像",
+      "start": 113250,
+      "end": 113610,
+      "confidence": 0.99980015,
+      "speaker": "A"
+    },
+    {
+      "text": "这样",
+      "start": 113610,
+      "end": 114010,
+      "confidence": 0.999985,
+      "speaker": "A"
+    },
+    {
+      "text": "三",
+      "start": 114010,
+      "end": 114190,
+      "confidence": 0.99695945,
+      "speaker": "A"
+    },
+    {
+      "text": "十",
+      "start": 114190,
+      "end": 114390,
+      "confidence": 0.99999166,
+      "speaker": "A"
+    },
+    {
+      "text": "到",
+      "start": 114390,
+      "end": 114550,
+      "confidence": 0.99999106,
+      "speaker": "A"
+    },
+    {
+      "text": "四",
+      "start": 114550,
+      "end": 114710,
+      "confidence": 0.9999926,
+      "speaker": "A"
+    },
+    {
+      "text": "十",
+      "start": 114710,
+      "end": 114870,
+      "confidence": 0.9998801,
+      "speaker": "A"
+    },
+    {
+      "text": "分",
+      "start": 114870,
+      "end": 115130,
+      "confidence": 0.99999917,
+      "speaker": "A"
+    },
+    {
+      "text": "钟",
+      "start": 115130,
+      "end": 115230,
+      "confidence": 0.99999917,
+      "speaker": "A"
+    },
+    {
+      "text": "日",
+      "start": 115230,
+      "end": 115410,
+      "confidence": 0.9998171,
+      "speaker": "A"
+    },
+    {
+      "text": "常",
+      "start": 115410,
+      "end": 115650,
+      "confidence": 0.99999833,
+      "speaker": "A"
+    },
+    {
+      "text": "对",
+      "start": 115650,
+      "end": 115770,
+      "confidence": 0.99992406,
+      "speaker": "A"
+    },
+    {
+      "text": "话",
+      "start": 115770,
+      "end": 116130,
+      "confidence": 0.9999722,
+      "speaker": "A"
+    },
+    {
+      "text": "交",
+      "start": 116130,
+      "end": 116350,
+      "confidence": 0.9999819,
+      "speaker": "A"
+    },
+    {
+      "text": "流",
+      "start": 116350,
+      "end": 116590,
+      "confidence": 0.9999819,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 116590,
+      "end": 117050,
+      "confidence": 0.9998511,
+      "speaker": "A"
+    },
+    {
+      "text": "pod",
+      "start": 117050,
+      "end": 117310,
+      "confidence": 0.5342012,
+      "speaker": "A"
+    },
+    {
+      "text": "cast，",
+      "start": 117310,
+      "end": 117910,
+      "confidence": 0.99918526,
+      "speaker": "A"
+    },
+    {
+      "text": "然后",
+      "start": 118130,
+      "end": 118230,
+      "confidence": 0.99683076,
+      "speaker": "A"
+    },
+    {
+      "text": "对",
+      "start": 118230,
+      "end": 118410,
+      "confidence": 0.99998593,
+      "speaker": "A"
+    },
+    {
+      "text": "我的",
+      "start": 118410,
+      "end": 118790,
+      "confidence": 0.99999726,
+      "speaker": "A"
+    },
+    {
+      "text": "水",
+      "start": 118790,
+      "end": 118910,
+      "confidence": 0.99996555,
+      "speaker": "A"
+    },
+    {
+      "text": "平",
+      "start": 118910,
+      "end": 119110,
+      "confidence": 0.99996555,
+      "speaker": "A"
+    },
+    {
+      "text": "提",
+      "start": 119110,
+      "end": 119290,
+      "confidence": 0.99990904,
+      "speaker": "A"
+    },
+    {
+      "text": "高",
+      "start": 119290,
+      "end": 119450,
+      "confidence": 0.99990904,
+      "speaker": "A"
+    },
+    {
+      "text": "非常的",
+      "start": 119450,
+      "end": 119830,
+      "confidence": 0.9997871,
+      "speaker": "A"
+    },
+    {
+      "text": "有",
+      "start": 119830,
+      "end": 120130,
+      "confidence": 0.9999931,
+      "speaker": "A"
+    },
+    {
+      "text": "帮",
+      "start": 120130,
+      "end": 120250,
+      "confidence": 0.9999927,
+      "speaker": "A"
+    },
+    {
+      "text": "助。",
+      "start": 120250,
+      "end": 120700,
+      "confidence": 0.9998133,
+      "speaker": "A"
+    },
+    {
+      "text": "但是，",
+      "start": 121030,
+      "end": 122010,
+      "confidence": 0.8464229,
+      "speaker": "A"
+    },
+    {
+      "text": "呃，",
+      "start": 122010,
+      "end": 122210,
+      "confidence": 0.9972808,
+      "speaker": "A"
+    },
+    {
+      "text": "我的",
+      "start": 122210,
+      "end": 122390,
+      "confidence": 0.99999785,
+      "speaker": "A"
+    },
+    {
+      "text": "很多",
+      "start": 122390,
+      "end": 122770,
+      "confidence": 0.9999988,
+      "speaker": "A"
+    },
+    {
+      "text": "中",
+      "start": 122770,
+      "end": 123010,
+      "confidence": 0.999765,
+      "speaker": "A"
+    },
+    {
+      "text": "文",
+      "start": 123010,
+      "end": 123190,
+      "confidence": 0.999765,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 123190,
+      "end": 123390,
+      "confidence": 0.9999733,
+      "speaker": "A"
+    },
+    {
+      "text": "习",
+      "start": 123390,
+      "end": 123510,
+      "confidence": 0.9999733,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 123510,
+      "end": 123730,
+      "confidence": 0.9999347,
+      "speaker": "A"
+    },
+    {
+      "text": "外",
+      "start": 123730,
+      "end": 123830,
+      "confidence": 0.99999535,
+      "speaker": "A"
+    },
+    {
+      "text": "国",
+      "start": 123830,
+      "end": 123950,
+      "confidence": 0.99997973,
+      "speaker": "A"
+    },
+    {
+      "text": "朋友",
+      "start": 123950,
+      "end": 124250,
+      "confidence": 0.99999154,
+      "speaker": "A"
+    },
+    {
+      "text": "和",
+      "start": 124250,
+      "end": 124490,
+      "confidence": 0.9999522,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 124490,
+      "end": 124730,
+      "confidence": 0.99999416,
+      "speaker": "A"
+    },
+    {
+      "text": "反",
+      "start": 124730,
+      "end": 124810,
+      "confidence": 0.99579877,
+      "speaker": "A"
+    },
+    {
+      "text": "映",
+      "start": 124810,
+      "end": 125150,
+      "confidence": 0.9999908,
+      "speaker": "A"
+    },
+    {
+      "text": "说，",
+      "start": 125150,
+      "end": 125700,
+      "confidence": 0.99875885,
+      "speaker": "A"
+    },
+    {
+      "text": "在",
+      "start": 125870,
+      "end": 126010,
+      "confidence": 0.9979335,
+      "speaker": "A"
+    },
+    {
+      "text": "中",
+      "start": 126010,
+      "end": 126250,
+      "confidence": 0.9999125,
+      "speaker": "A"
+    },
+    {
+      "text": "文",
+      "start": 126250,
+      "end": 126410,
+      "confidence": 0.9999125,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 126410,
+      "end": 126510,
+      "confidence": 0.99988854,
+      "speaker": "A"
+    },
+    {
+      "text": "市",
+      "start": 126510,
+      "end": 126710,
+      "confidence": 0.99999106,
+      "speaker": "A"
+    },
+    {
+      "text": "场",
+      "start": 126710,
+      "end": 126830,
+      "confidence": 0.99999106,
+      "speaker": "A"
+    },
+    {
+      "text": "上",
+      "start": 126830,
+      "end": 127450,
+      "confidence": 0.9999391,
+      "speaker": "A"
+    },
+    {
+      "text": "并",
+      "start": 127450,
+      "end": 127610,
+      "confidence": 0.96165735,
+      "speaker": "A"
+    },
+    {
+      "text": "没有",
+      "start": 127610,
+      "end": 128050,
+      "confidence": 0.99999297,
+      "speaker": "A"
+    },
+    {
+      "text": "这样",
+      "start": 128050,
+      "end": 128370,
+      "confidence": 0.9999933,
+      "speaker": "A"
+    },
+    {
+      "text": "子",
+      "start": 128370,
+      "end": 129290,
+      "confidence": 0.9999795,
+      "speaker": "A"
+    },
+    {
+      "text": "一",
+      "start": 129290,
+      "end": 129490,
+      "confidence": 0.9999788,
+      "speaker": "A"
+    },
+    {
+      "text": "款",
+      "start": 129490,
+      "end": 129730,
+      "confidence": 0.9999912,
+      "speaker": "A"
+    },
+    {
+      "text": "pod",
+      "start": 129730,
+      "end": 130110,
+      "confidence": 0.9987318,
+      "speaker": "A"
+    },
+    {
+      "text": "cast，",
+      "start": 130110,
+      "end": 130710,
+      "confidence": 0.99591595,
+      "speaker": "A"
+    },
+    {
+      "text": "所以",
+      "start": 130730,
+      "end": 131010,
+      "confidence": 0.9797854,
+      "speaker": "A"
+    },
+    {
+      "text": "我就",
+      "start": 131010,
+      "end": 131330,
+      "confidence": 0.99899936,
+      "speaker": "A"
+    },
+    {
+      "text": "想，",
+      "start": 131330,
+      "end": 132090,
+      "confidence": 0.9258133,
+      "speaker": "A"
+    },
+    {
+      "text": "那",
+      "start": 132090,
+      "end": 132650,
+      "confidence": 0.8516476,
+      "speaker": "A"
+    },
+    {
+      "text": "嗯，",
+      "start": 132650,
+      "end": 133230,
+      "confidence": 0.8176571,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 133230,
+      "end": 133370,
+      "confidence": 0.9692133,
+      "speaker": "A"
+    },
+    {
+      "text": "也",
+      "start": 133370,
+      "end": 133550,
+      "confidence": 0.99999535,
+      "speaker": "A"
+    },
+    {
+      "text": "不是",
+      "start": 133550,
+      "end": 133770,
+      "confidence": 0.999997,
+      "speaker": "A"
+    },
+    {
+      "text": "特",
+      "start": 133770,
+      "end": 133990,
+      "confidence": 0.9999988,
+      "speaker": "A"
+    },
+    {
+      "text": "别",
+      "start": 133990,
+      "end": 134150,
+      "confidence": 0.9999988,
+      "speaker": "A"
+    },
+    {
+      "text": "困",
+      "start": 134150,
+      "end": 134450,
+      "confidence": 0.99999404,
+      "speaker": "A"
+    },
+    {
+      "text": "难，",
+      "start": 134450,
+      "end": 134790,
+      "confidence": 0.7598922,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 134790,
+      "end": 135070,
+      "confidence": 0.5197914,
+      "speaker": "A"
+    },
+    {
+      "text": "也是",
+      "start": 135070,
+      "end": 135490,
+      "confidence": 0.9999951,
+      "speaker": "A"
+    },
+    {
+      "text": "第一",
+      "start": 135490,
+      "end": 135810,
+      "confidence": 0.9999896,
+      "speaker": "A"
+    },
+    {
+      "text": "次",
+      "start": 135810,
+      "end": 136090,
+      "confidence": 0.9999896,
+      "speaker": "A"
+    },
+    {
+      "text": "入",
+      "start": 136090,
+      "end": 136290,
+      "confidence": 0.99999535,
+      "speaker": "A"
+    },
+    {
+      "text": "门",
+      "start": 136290,
+      "end": 136410,
+      "confidence": 0.9999809,
+      "speaker": "A"
+    },
+    {
+      "text": "做",
+      "start": 136410,
+      "end": 136630,
+      "confidence": 0.9999943,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 136630,
+      "end": 136850,
+      "confidence": 0.99999785,
+      "speaker": "A"
+    },
+    {
+      "text": "pod",
+      "start": 136850,
+      "end": 137090,
+      "confidence": 0.9994715,
+      "speaker": "A"
+    },
+    {
+      "text": "cast。",
+      "start": 137090,
+      "end": 137690,
+      "confidence": 0.99456733,
+      "speaker": "A"
+    },
+    {
+      "text": "但是",
+      "start": 137880,
+      "end": 138460,
+      "confidence": 0.9665306,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 138460,
+      "end": 139040,
+      "confidence": 0.99999034,
+      "speaker": "A"
+    },
+    {
+      "text": "自己",
+      "start": 139040,
+      "end": 139420,
+      "confidence": 0.9997514,
+      "speaker": "A"
+    },
+    {
+      "text": "认",
+      "start": 139420,
+      "end": 139740,
+      "confidence": 0.999466,
+      "speaker": "A"
+    },
+    {
+      "text": "为",
+      "start": 139740,
+      "end": 140020,
+      "confidence": 0.999466,
+      "speaker": "A"
+    },
+    {
+      "text": "我的",
+      "start": 140020,
+      "end": 140360,
+      "confidence": 0.9628122,
+      "speaker": "A"
+    },
+    {
+      "text": "普",
+      "start": 140360,
+      "end": 140500,
+      "confidence": 0.99999607,
+      "speaker": "A"
+    },
+    {
+      "text": "通",
+      "start": 140500,
+      "end": 140640,
+      "confidence": 0.99999607,
+      "speaker": "A"
+    },
+    {
+      "text": "话",
+      "start": 140640,
+      "end": 140940,
+      "confidence": 0.99999285,
+      "speaker": "A"
+    },
+    {
+      "text": "说",
+      "start": 140940,
+      "end": 141100,
+      "confidence": 0.9637997,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 141100,
+      "end": 141320,
+      "confidence": 0.9637997,
+      "speaker": "A"
+    },
+    {
+      "text": "还是",
+      "start": 141320,
+      "end": 141580,
+      "confidence": 0.9999566,
+      "speaker": "A"
+    },
+    {
+      "text": "比",
+      "start": 141580,
+      "end": 141700,
+      "confidence": 0.999959,
+      "speaker": "A"
+    },
+    {
+      "text": "较",
+      "start": 141700,
+      "end": 141840,
+      "confidence": 0.999959,
+      "speaker": "A"
+    },
+    {
+      "text": "标",
+      "start": 141840,
+      "end": 142060,
+      "confidence": 0.9999883,
+      "speaker": "A"
+    },
+    {
+      "text": "准",
+      "start": 142060,
+      "end": 142360,
+      "confidence": 0.9999883,
+      "speaker": "A"
+    },
+    {
+      "text": "的，",
+      "start": 142360,
+      "end": 143060,
+      "confidence": 0.6753364,
+      "speaker": "A"
+    },
+    {
+      "text": "嗯，",
+      "start": 143120,
+      "end": 143420,
+      "confidence": 0.9931891,
+      "speaker": "A"
+    },
+    {
+      "text": "我觉得",
+      "start": 143420,
+      "end": 143680,
+      "confidence": 0.9972999,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 143680,
+      "end": 144160,
+      "confidence": 0.99996674,
+      "speaker": "A"
+    },
+    {
+      "text": "可以",
+      "start": 144160,
+      "end": 144560,
+      "confidence": 0.99999666,
+      "speaker": "A"
+    },
+    {
+      "text": "抽",
+      "start": 144560,
+      "end": 144920,
+      "confidence": 0.9999702,
+      "speaker": "A"
+    },
+    {
+      "text": "一些",
+      "start": 144920,
+      "end": 145260,
+      "confidence": 0.99998236,
+      "speaker": "A"
+    },
+    {
+      "text": "时间，",
+      "start": 145260,
+      "end": 146160,
+      "confidence": 0.9030149,
+      "speaker": "A"
+    },
+    {
+      "text": "每",
+      "start": 146160,
+      "end": 146180,
+      "confidence": 0.7090574,
+      "speaker": "A"
+    },
+    {
+      "text": "每",
+      "start": 146180,
+      "end": 146360,
+      "confidence": 0.99790037,
+      "speaker": "A"
+    },
+    {
+      "text": "周",
+      "start": 146360,
+      "end": 146560,
+      "confidence": 0.9999747,
+      "speaker": "A"
+    },
+    {
+      "text": "或者",
+      "start": 146560,
+      "end": 146900,
+      "confidence": 0.9999869,
+      "speaker": "A"
+    },
+    {
+      "text": "每",
+      "start": 146900,
+      "end": 147120,
+      "confidence": 0.9999957,
+      "speaker": "A"
+    },
+    {
+      "text": "个",
+      "start": 147120,
+      "end": 147320,
+      "confidence": 0.99997675,
+      "speaker": "A"
+    },
+    {
+      "text": "月",
+      "start": 147320,
+      "end": 147780,
+      "confidence": 0.9999962,
+      "speaker": "A"
+    },
+    {
+      "text": "至",
+      "start": 147780,
+      "end": 148000,
+      "confidence": 0.9992587,
+      "speaker": "A"
+    },
+    {
+      "text": "少",
+      "start": 148000,
+      "end": 148140,
+      "confidence": 0.9992587,
+      "speaker": "A"
+    },
+    {
+      "text": "更",
+      "start": 148140,
+      "end": 148300,
+      "confidence": 0.9999778,
+      "speaker": "A"
+    },
+    {
+      "text": "新",
+      "start": 148300,
+      "end": 148540,
+      "confidence": 0.9999778,
+      "speaker": "A"
+    },
+    {
+      "text": "几",
+      "start": 148540,
+      "end": 148700,
+      "confidence": 0.99999654,
+      "speaker": "A"
+    },
+    {
+      "text": "次。",
+      "start": 148700,
+      "end": 149200,
+      "confidence": 0.9815699,
+      "speaker": "A"
+    },
+    {
+      "text": "那",
+      "start": 149400,
+      "end": 149580,
+      "confidence": 0.96315145,
+      "speaker": "A"
+    },
+    {
+      "text": "希望",
+      "start": 149580,
+      "end": 150120,
+      "confidence": 0.9999945,
+      "speaker": "A"
+    },
+    {
+      "text": "呃",
+      "start": 150120,
+      "end": 150800,
+      "confidence": 0.9487738,
+      "speaker": "A"
+    },
+    {
+      "text": "我的",
+      "start": 150800,
+      "end": 151140,
+      "confidence": 0.92063,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 151140,
+      "end": 152080,
+      "confidence": 0.9999932,
+      "speaker": "A"
+    },
+    {
+      "text": "宏",
+      "start": 152080,
+      "end": 152580,
+      "confidence": 0.95978683,
+      "speaker": "A"
+    },
+    {
+      "text": "宏",
+      "start": 152580,
+      "end": 152700,
+      "confidence": 0.99998915,
+      "speaker": "A"
+    },
+    {
+      "text": "图",
+      "start": 152700,
+      "end": 152920,
+      "confidence": 0.9998462,
+      "speaker": "A"
+    },
+    {
+      "text": "伟",
+      "start": 152920,
+      "end": 153220,
+      "confidence": 0.99904054,
+      "speaker": "A"
+    },
+    {
+      "text": "志",
+      "start": 153220,
+      "end": 153380,
+      "confidence": 0.999928,
+      "speaker": "A"
+    },
+    {
+      "text": "不要",
+      "start": 153380,
+      "end": 153620,
+      "confidence": 0.9995055,
+      "speaker": "A"
+    },
+    {
+      "text": "半",
+      "start": 153620,
+      "end": 153840,
+      "confidence": 0.99997973,
+      "speaker": "A"
+    },
+    {
+      "text": "途",
+      "start": 153840,
+      "end": 153980,
+      "confidence": 0.99999976,
+      "speaker": "A"
+    },
+    {
+      "text": "而",
+      "start": 153980,
+      "end": 154200,
+      "confidence": 0.99999833,
+      "speaker": "A"
+    },
+    {
+      "text": "废。",
+      "start": 154200,
+      "end": 154800,
+      "confidence": 0.9995659,
+      "speaker": "A"
+    },
+    {
+      "text": "那",
+      "start": 155080,
+      "end": 155460,
+      "confidence": 0.99913245,
+      "speaker": "A"
+    },
+    {
+      "text": "今天",
+      "start": 155460,
+      "end": 155860,
+      "confidence": 0.99999666,
+      "speaker": "A"
+    },
+    {
+      "text": "我就",
+      "start": 155860,
+      "end": 156180,
+      "confidence": 0.9999736,
+      "speaker": "A"
+    },
+    {
+      "text": "短",
+      "start": 156180,
+      "end": 156380,
+      "confidence": 0.999998,
+      "speaker": "A"
+    },
+    {
+      "text": "短",
+      "start": 156380,
+      "end": 156560,
+      "confidence": 0.999998,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 156560,
+      "end": 156820,
+      "confidence": 0.98857147,
+      "speaker": "A"
+    },
+    {
+      "text": "录",
+      "start": 156820,
+      "end": 156980,
+      "confidence": 0.99999535,
+      "speaker": "A"
+    },
+    {
+      "text": "一",
+      "start": 156980,
+      "end": 157300,
+      "confidence": 0.9997538,
+      "speaker": "A"
+    },
+    {
+      "text": "期",
+      "start": 157300,
+      "end": 157500,
+      "confidence": 0.9999945,
+      "speaker": "A"
+    },
+    {
+      "text": "tra",
+      "start": 157500,
+      "end": 157780,
+      "confidence": 0.69353026,
+      "speaker": "A"
+    },
+    {
+      "text": "iler，",
+      "start": 157780,
+      "end": 158300,
+      "confidence": 0.95938325,
+      "speaker": "A"
+    },
+    {
+      "text": "下一",
+      "start": 158300,
+      "end": 158580,
+      "confidence": 0.99984384,
+      "speaker": "A"
+    },
+    {
+      "text": "期",
+      "start": 158580,
+      "end": 158820,
+      "confidence": 0.99998236,
+      "speaker": "A"
+    },
+    {
+      "text": "的话",
+      "start": 158820,
+      "end": 159180,
+      "confidence": 0.9999995,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 159180,
+      "end": 159400,
+      "confidence": 0.97713906,
+      "speaker": "A"
+    },
+    {
+      "text": "会",
+      "start": 159400,
+      "end": 159720,
+      "confidence": 0.999977,
+      "speaker": "A"
+    },
+    {
+      "text": "准",
+      "start": 159720,
+      "end": 159820,
+      "confidence": 0.99999475,
+      "speaker": "A"
+    },
+    {
+      "text": "备",
+      "start": 159820,
+      "end": 160100,
+      "confidence": 0.99999475,
+      "speaker": "A"
+    },
+    {
+      "text": "邀",
+      "start": 160100,
+      "end": 160400,
+      "confidence": 0.99999946,
+      "speaker": "A"
+    },
+    {
+      "text": "请",
+      "start": 160400,
+      "end": 160980,
+      "confidence": 0.9999901,
+      "speaker": "A"
+    },
+    {
+      "text": "一个",
+      "start": 160980,
+      "end": 161260,
+      "confidence": 0.9999957,
+      "speaker": "A"
+    },
+    {
+      "text": "朋友",
+      "start": 161260,
+      "end": 161680,
+      "confidence": 0.9999963,
+      "speaker": "A"
+    },
+    {
+      "text": "来",
+      "start": 161680,
+      "end": 161900,
+      "confidence": 0.99999535,
+      "speaker": "A"
+    },
+    {
+      "text": "和",
+      "start": 161900,
+      "end": 162080,
+      "confidence": 0.9995005,
+      "speaker": "A"
+    },
+    {
+      "text": "我就",
+      "start": 162080,
+      "end": 163000,
+      "confidence": 0.99675816,
+      "speaker": "A"
+    },
+    {
+      "text": "聊",
+      "start": 163000,
+      "end": 163260,
+      "confidence": 0.99999726,
+      "speaker": "A"
+    },
+    {
+      "text": "一些",
+      "start": 163260,
+      "end": 163540,
+      "confidence": 0.99992967,
+      "speaker": "A"
+    },
+    {
+      "text": "生活",
+      "start": 163540,
+      "end": 163800,
+      "confidence": 0.9999994,
+      "speaker": "A"
+    },
+    {
+      "text": "当",
+      "start": 163800,
+      "end": 164040,
+      "confidence": 0.99999523,
+      "speaker": "A"
+    },
+    {
+      "text": "中",
+      "start": 164040,
+      "end": 164220,
+      "confidence": 0.99998534,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 164220,
+      "end": 164340,
+      "confidence": 0.99998534,
+      "speaker": "A"
+    },
+    {
+      "text": "琐",
+      "start": 164340,
+      "end": 164480,
+      "confidence": 1,
+      "speaker": "A"
+    },
+    {
+      "text": "事。",
+      "start": 164480,
+      "end": 165020,
+      "confidence": 0.99994373,
+      "speaker": "A"
+    },
+    {
+      "text": "无",
+      "start": 165150,
+      "end": 165330,
+      "confidence": 0.98660177,
+      "speaker": "A"
+    },
+    {
+      "text": "论",
+      "start": 165330,
+      "end": 165450,
+      "confidence": 0.9999981,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 165450,
+      "end": 166330,
+      "confidence": 0.99967337,
+      "speaker": "A"
+    },
+    {
+      "text": "我们",
+      "start": 166330,
+      "end": 166690,
+      "confidence": 0.9996375,
+      "speaker": "A"
+    },
+    {
+      "text": "日",
+      "start": 166690,
+      "end": 166770,
+      "confidence": 0.99997044,
+      "speaker": "A"
+    },
+    {
+      "text": "常",
+      "start": 166770,
+      "end": 167090,
+      "confidence": 0.9999887,
+      "speaker": "A"
+    },
+    {
+      "text": "中、",
+      "start": 167090,
+      "end": 167530,
+      "confidence": 0.8004089,
+      "speaker": "A"
+    },
+    {
+      "text": "日",
+      "start": 167530,
+      "end": 167710,
+      "confidence": 0.999979,
+      "speaker": "A"
+    },
+    {
+      "text": "常",
+      "start": 167710,
+      "end": 167910,
+      "confidence": 0.9999989,
+      "speaker": "A"
+    },
+    {
+      "text": "生活",
+      "start": 167910,
+      "end": 168210,
+      "confidence": 0.99999964,
+      "speaker": "A"
+    },
+    {
+      "text": "中",
+      "start": 168210,
+      "end": 168730,
+      "confidence": 0.9999918,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 168730,
+      "end": 169390,
+      "confidence": 0.9999918,
+      "speaker": "A"
+    },
+    {
+      "text": "困",
+      "start": 169390,
+      "end": 169610,
+      "confidence": 0.99999785,
+      "speaker": "A"
+    },
+    {
+      "text": "惑",
+      "start": 169610,
+      "end": 169710,
+      "confidence": 0.99999964,
+      "speaker": "A"
+    },
+    {
+      "text": "呀、",
+      "start": 169710,
+      "end": 170070,
+      "confidence": 0.9595386,
+      "speaker": "A"
+    },
+    {
+      "text": "开",
+      "start": 170070,
+      "end": 170190,
+      "confidence": 0.99999464,
+      "speaker": "A"
+    },
+    {
+      "text": "心",
+      "start": 170190,
+      "end": 170370,
+      "confidence": 0.9999975,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 170370,
+      "end": 170630,
+      "confidence": 0.99996924,
+      "speaker": "A"
+    },
+    {
+      "text": "事",
+      "start": 170630,
+      "end": 170770,
+      "confidence": 0.99996924,
+      "speaker": "A"
+    },
+    {
+      "text": "啊，",
+      "start": 170770,
+      "end": 171150,
+      "confidence": 0.99910635,
+      "speaker": "A"
+    },
+    {
+      "text": "或者",
+      "start": 171150,
+      "end": 171150,
+      "confidence": 0.999995,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 171150,
+      "end": 171750,
+      "confidence": 0.9998834,
+      "speaker": "A"
+    },
+    {
+      "text": "可能",
+      "start": 171750,
+      "end": 172010,
+      "confidence": 0.9999845,
+      "speaker": "A"
+    },
+    {
+      "text": "会",
+      "start": 172010,
+      "end": 172310,
+      "confidence": 0.9999931,
+      "speaker": "A"
+    },
+    {
+      "text": "聊",
+      "start": 172310,
+      "end": 172390,
+      "confidence": 0.9999968,
+      "speaker": "A"
+    },
+    {
+      "text": "到",
+      "start": 172390,
+      "end": 172770,
+      "confidence": 0.9999547,
+      "speaker": "A"
+    },
+    {
+      "text": "时",
+      "start": 172770,
+      "end": 173070,
+      "confidence": 0.9998926,
+      "speaker": "A"
+    },
+    {
+      "text": "事、",
+      "start": 173070,
+      "end": 173410,
+      "confidence": 0.8984842,
+      "speaker": "A"
+    },
+    {
+      "text": "新",
+      "start": 173410,
+      "end": 173610,
+      "confidence": 0.9999964,
+      "speaker": "A"
+    },
+    {
+      "text": "闻、",
+      "start": 173610,
+      "end": 173890,
+      "confidence": 0.9962977,
+      "speaker": "A"
+    },
+    {
+      "text": "政治，",
+      "start": 173890,
+      "end": 174710,
+      "confidence": 0.9367358,
+      "speaker": "A"
+    },
+    {
+      "text": "都",
+      "start": 174710,
+      "end": 174730,
+      "confidence": 0.8106315,
+      "speaker": "A"
+    },
+    {
+      "text": "可能。",
+      "start": 174730,
+      "end": 175430,
+      "confidence": 0.9713596,
+      "speaker": "A"
+    },
+    {
+      "text": "嗯，",
+      "start": 175630,
+      "end": 176150,
+      "confidence": 0.9985689,
+      "speaker": "A"
+    },
+    {
+      "text": "我的",
+      "start": 176150,
+      "end": 176270,
+      "confidence": 0.9999943,
+      "speaker": "A"
+    },
+    {
+      "text": "目",
+      "start": 176270,
+      "end": 176510,
+      "confidence": 0.9998852,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 176510,
+      "end": 176710,
+      "confidence": 0.9998852,
+      "speaker": "A"
+    },
+    {
+      "text": "就是",
+      "start": 176710,
+      "end": 177510,
+      "confidence": 0.9999802,
+      "speaker": "A"
+    },
+    {
+      "text": "为",
+      "start": 177510,
+      "end": 178090,
+      "confidence": 0.99538875,
+      "speaker": "A"
+    },
+    {
+      "text": "大家",
+      "start": 178090,
+      "end": 178450,
+      "confidence": 0.9999995,
+      "speaker": "A"
+    },
+    {
+      "text": "创",
+      "start": 178450,
+      "end": 178710,
+      "confidence": 0.9999646,
+      "speaker": "A"
+    },
+    {
+      "text": "造",
+      "start": 178710,
+      "end": 178870,
+      "confidence": 0.99999726,
+      "speaker": "A"
+    },
+    {
+      "text": "一个",
+      "start": 178870,
+      "end": 179110,
+      "confidence": 0.9999981,
+      "speaker": "A"
+    },
+    {
+      "text": "非常",
+      "start": 179110,
+      "end": 179450,
+      "confidence": 0.9999989,
+      "speaker": "A"
+    },
+    {
+      "text": "自",
+      "start": 179450,
+      "end": 179790,
+      "confidence": 0.99995065,
+      "speaker": "A"
+    },
+    {
+      "text": "然",
+      "start": 179790,
+      "end": 179890,
+      "confidence": 0.99995065,
+      "speaker": "A"
+    },
+    {
+      "text": "的、",
+      "start": 179890,
+      "end": 180130,
+      "confidence": 0.98760563,
+      "speaker": "A"
+    },
+    {
+      "text": "有",
+      "start": 180130,
+      "end": 180190,
+      "confidence": 0.9999944,
+      "speaker": "A"
+    },
+    {
+      "text": "趣",
+      "start": 180190,
+      "end": 180670,
+      "confidence": 0.99999976,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 180670,
+      "end": 181250,
+      "confidence": 0.99974006,
+      "speaker": "A"
+    },
+    {
+      "text": "语",
+      "start": 181250,
+      "end": 181430,
+      "confidence": 0.9994319,
+      "speaker": "A"
+    },
+    {
+      "text": "言",
+      "start": 181430,
+      "end": 181529,
+      "confidence": 0.9994319,
+      "speaker": "A"
+    },
+    {
+      "text": "学",
+      "start": 181529,
+      "end": 181890,
+      "confidence": 0.9999969,
+      "speaker": "A"
+    },
+    {
+      "text": "习",
+      "start": 181890,
+      "end": 182090,
+      "confidence": 0.9999969,
+      "speaker": "A"
+    },
+    {
+      "text": "环",
+      "start": 182090,
+      "end": 182330,
+      "confidence": 0.99998045,
+      "speaker": "A"
+    },
+    {
+      "text": "境。",
+      "start": 182330,
+      "end": 182930,
+      "confidence": 0.9998925,
+      "speaker": "A"
+    },
+    {
+      "text": "那就",
+      "start": 183290,
+      "end": 183770,
+      "confidence": 0.9998597,
+      "speaker": "A"
+    },
+    {
+      "text": "说",
+      "start": 183770,
+      "end": 183990,
+      "confidence": 0.99995124,
+      "speaker": "A"
+    },
+    {
+      "text": "到",
+      "start": 183990,
+      "end": 184190,
+      "confidence": 0.9999968,
+      "speaker": "A"
+    },
+    {
+      "text": "这里",
+      "start": 184190,
+      "end": 184390,
+      "confidence": 0.99999785,
+      "speaker": "A"
+    },
+    {
+      "text": "了，",
+      "start": 184390,
+      "end": 184890,
+      "confidence": 0.9815561,
+      "speaker": "A"
+    },
+    {
+      "text": "我们",
+      "start": 184890,
+      "end": 185250,
+      "confidence": 0.9767592,
+      "speaker": "A"
+    },
+    {
+      "text": "下",
+      "start": 185250,
+      "end": 185590,
+      "confidence": 0.9999974,
+      "speaker": "A"
+    },
+    {
+      "text": "一次",
+      "start": 185590,
+      "end": 185890,
+      "confidence": 0.6008255,
+      "speaker": "A"
+    },
+    {
+      "text": "正",
+      "start": 185890,
+      "end": 186090,
+      "confidence": 0.999974,
+      "speaker": "A"
+    },
+    {
+      "text": "式",
+      "start": 186090,
+      "end": 186270,
+      "confidence": 0.999974,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 186270,
+      "end": 186470,
+      "confidence": 0.9999542,
+      "speaker": "A"
+    },
+    {
+      "text": "节",
+      "start": 186470,
+      "end": 186550,
+      "confidence": 0.99999964,
+      "speaker": "A"
+    },
+    {
+      "text": "目",
+      "start": 186550,
+      "end": 186690,
+      "confidence": 0.9999341,
+      "speaker": "A"
+    },
+    {
+      "text": "再见。",
+      "start": 186690,
+      "end": 187240,
+      "confidence": 0.9901783,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "Hello， 大家好， 欢 迎 大家 来 到 我们 这个 瞎 扯 学 中 文 的 Pod cast 第一 期。 那 也是 我们 这个 Pod cast 的 一个 小 小 的 tra iler。 我的 名 字 叫 周 安 啊， 我也 有 很多 朋友 叫 我 炯 安， 炯 安 是 我的 英 语 名 字 周 安 的 一个 中 文 音 译。 那 我 创 造 这个 Pod cast 的 初 衷 呢？ 是 希望 给 中 等 水 平 左右 的 中 文 学 习 的 学 习 者、 外 国 朋友 们 一个 比 较 自 然 的 嗯 日 常 对 话 这么 一个 语 言 学 习 环 境。 我 自己 本 身 呢 也是 呃 学 习 了 很多 门 语 言， 是 一个 学 习 语 言 的 爱 好 者。 我 大概 从 小 学 的时候 开始 学 英 语， 然后 七 八 年前 学 习 了 西 班 牙 语， 一 年 多 以前 学 习 德 语。 然后 现在 正 在 学 法 语， 那 我 自己 对 于 学 语 言 也 有一 些 心 得。 我也 认 识 了 周 围 很多 学 习 中 文 的 朋友， 大家都 说 中 文 很 难 学， 特 别 是 语 音 语 调， 嗯， 汉 字 的 书 写 也 非常 困 难。 但是 我觉得 学 很多 的 语 言 的话， 其实 技 巧 和 经 验 最 终 都是 一 样 的， 都是 需要 把 自己 沉 浸 在 目 标 语 言 的 学 习 的 环 境 当 中。 那 对 我 自己 而 言， 呃， 我 我觉得 非常 有 用 的 一点 是 听 pod cast， 特 别 是 听 三 十 分 钟 到 四 十 分 钟 这样 比 较 长 时间， 而且 是 自 然 的 日 常 的 交 流 和 对 话。 这样 的话 比 较 有 助 于 呃 比 较 自 然 的 真 实 的 日 常 用 语， 而且 听 听 起 来 也 不会 太 无 聊。 所以 我 自己 在 语 言 学 习 的 过 程 当 中。 嗯， 我的 德 语 和 法 语 都是 听 像 这样 三 十 到 四 十 分 钟 日 常 对 话 交 流 的 pod cast， 然后 对 我的 水 平 提 高 非常的 有 帮 助。 但是， 呃， 我的 很多 中 文 学 习 的 外 国 朋友 和 我 反 映 说， 在 中 文 的 市 场 上 并 没有 这样 子 一 款 pod cast， 所以 我就 想， 那 嗯， 这个 也 不是 特 别 困 难， 我 也是 第一 次 入 门 做 这个 pod cast。 但是 我 自己 认 为 我的 普 通 话 说 的 还是 比 较 标 准 的， 嗯， 我觉得 我 可以 抽 一些 时间， 每 每 周 或者 每 个 月 至 少 更 新 几 次。 那 希望 呃 我的 这个 宏 宏 图 伟 志 不要 半 途 而 废。 那 今天 我就 短 短 的 录 一 期 tra iler， 下一 期 的话 我 会 准 备 邀 请 一个 朋友 来 和 我就 聊 一些 生活 当 中 的 琐 事。 无 论 是 我们 日 常 中、 日 常 生活 中 的 困 惑 呀、 开 心 的 事 啊， 或者 是 可能 会 聊 到 时 事、 新 闻、 政治， 都 可能。 嗯， 我的 目 的 就是 为 大家 创 造 一个 非常 自 然 的、 有 趣 的 语 言 学 习 环 境。 那就 说 到 这里 了， 我们 下 一次 正 式 的 节 目 再见。",
+      "confidence": 0.9821545,
+      "start": 6020,
+      "end": 187240,
+      "words": [
+        {
+          "text": "Hello，",
+          "start": 6020,
+          "end": 6620,
+          "confidence": 0.9505082,
+          "speaker": "A"
+        },
+        {
+          "text": "大家好，",
+          "start": 6620,
+          "end": 7520,
+          "confidence": 0.9049753,
+          "speaker": "A"
+        },
+        {
+          "text": "欢",
+          "start": 7520,
+          "end": 7520,
+          "confidence": 0.99997795,
+          "speaker": "A"
+        },
+        {
+          "text": "迎",
+          "start": 7520,
+          "end": 7660,
+          "confidence": 1,
+          "speaker": "A"
+        },
+        {
+          "text": "大家",
+          "start": 7660,
+          "end": 8180,
+          "confidence": 0.9999989,
+          "speaker": "A"
+        },
+        {
+          "text": "来",
+          "start": 8180,
+          "end": 8420,
+          "confidence": 0.9999827,
+          "speaker": "A"
+        },
+        {
+          "text": "到",
+          "start": 8420,
+          "end": 8720,
+          "confidence": 0.9999871,
+          "speaker": "A"
+        },
+        {
+          "text": "我们",
+          "start": 8720,
+          "end": 9000,
+          "confidence": 0.9999676,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 9000,
+          "end": 9420,
+          "confidence": 0.9999937,
+          "speaker": "A"
+        },
+        {
+          "text": "瞎",
+          "start": 9420,
+          "end": 9720,
+          "confidence": 0.9968777,
+          "speaker": "A"
+        },
+        {
+          "text": "扯",
+          "start": 9720,
+          "end": 9940,
+          "confidence": 1,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 9940,
+          "end": 10160,
+          "confidence": 0.9995522,
+          "speaker": "A"
+        },
+        {
+          "text": "中",
+          "start": 10160,
+          "end": 10320,
+          "confidence": 0.9999827,
+          "speaker": "A"
+        },
+        {
+          "text": "文",
+          "start": 10320,
+          "end": 10580,
+          "confidence": 0.9999827,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 10580,
+          "end": 10720,
+          "confidence": 0.9997578,
+          "speaker": "A"
+        },
+        {
+          "text": "Pod",
+          "start": 10720,
+          "end": 10880,
+          "confidence": 0.66435945,
+          "speaker": "A"
+        },
+        {
+          "text": "cast",
+          "start": 10880,
+          "end": 11260,
+          "confidence": 0.99990654,
+          "speaker": "A"
+        },
+        {
+          "text": "第一",
+          "start": 11260,
+          "end": 11800,
+          "confidence": 0.99040717,
+          "speaker": "A"
+        },
+        {
+          "text": "期。",
+          "start": 11800,
+          "end": 12500,
+          "confidence": 0.7588324,
+          "speaker": "A"
+        },
+        {
+          "text": "那",
+          "start": 12600,
+          "end": 12780,
+          "confidence": 0.5176783,
+          "speaker": "A"
+        },
+        {
+          "text": "也是",
+          "start": 12780,
+          "end": 13060,
+          "confidence": 0.9999827,
+          "speaker": "A"
+        },
+        {
+          "text": "我们",
+          "start": 13060,
+          "end": 13340,
+          "confidence": 0.99998236,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 13340,
+          "end": 13520,
+          "confidence": 0.9999932,
+          "speaker": "A"
+        },
+        {
+          "text": "Pod",
+          "start": 13520,
+          "end": 13720,
+          "confidence": 0.9983298,
+          "speaker": "A"
+        },
+        {
+          "text": "cast",
+          "start": 13720,
+          "end": 13980,
+          "confidence": 0.9999709,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 13980,
+          "end": 14200,
+          "confidence": 0.9983272,
+          "speaker": "A"
+        },
+        {
+          "text": "一个",
+          "start": 14200,
+          "end": 14540,
+          "confidence": 0.9983272,
+          "speaker": "A"
+        },
+        {
+          "text": "小",
+          "start": 14540,
+          "end": 14760,
+          "confidence": 0.9999951,
+          "speaker": "A"
+        },
+        {
+          "text": "小",
+          "start": 14760,
+          "end": 14960,
+          "confidence": 0.9999691,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 14960,
+          "end": 15220,
+          "confidence": 0.99992573,
+          "speaker": "A"
+        },
+        {
+          "text": "tra",
+          "start": 15220,
+          "end": 15220,
+          "confidence": 0.6917166,
+          "speaker": "A"
+        },
+        {
+          "text": "iler。",
+          "start": 15220,
+          "end": 15770,
+          "confidence": 0.9986091,
+          "speaker": "A"
+        },
+        {
+          "text": "我的",
+          "start": 15940,
+          "end": 16160,
+          "confidence": 0.9999418,
+          "speaker": "A"
+        },
+        {
+          "text": "名",
+          "start": 16160,
+          "end": 16440,
+          "confidence": 0.99999905,
+          "speaker": "A"
+        },
+        {
+          "text": "字",
+          "start": 16440,
+          "end": 16660,
+          "confidence": 0.99999905,
+          "speaker": "A"
+        },
+        {
+          "text": "叫",
+          "start": 16660,
+          "end": 17200,
+          "confidence": 0.99999917,
+          "speaker": "A"
+        },
+        {
+          "text": "周",
+          "start": 17200,
+          "end": 17480,
+          "confidence": 0.4331991,
+          "speaker": "A"
+        },
+        {
+          "text": "安",
+          "start": 17480,
+          "end": 17660,
+          "confidence": 0.94992673,
+          "speaker": "A"
+        },
+        {
+          "text": "啊，",
+          "start": 17660,
+          "end": 18380,
+          "confidence": 0.9527959,
+          "speaker": "A"
+        },
+        {
+          "text": "我也",
+          "start": 18380,
+          "end": 18580,
+          "confidence": 0.997511,
+          "speaker": "A"
+        },
+        {
+          "text": "有",
+          "start": 18580,
+          "end": 18740,
+          "confidence": 0.99998116,
+          "speaker": "A"
+        },
+        {
+          "text": "很多",
+          "start": 18740,
+          "end": 19020,
+          "confidence": 0.99999857,
+          "speaker": "A"
+        },
+        {
+          "text": "朋友",
+          "start": 19020,
+          "end": 19440,
+          "confidence": 0.99999917,
+          "speaker": "A"
+        },
+        {
+          "text": "叫",
+          "start": 19440,
+          "end": 19680,
+          "confidence": 0.9999968,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 19680,
+          "end": 19940,
+          "confidence": 0.99999475,
+          "speaker": "A"
+        },
+        {
+          "text": "炯",
+          "start": 19940,
+          "end": 20100,
+          "confidence": 0.538964,
+          "speaker": "A"
+        },
+        {
+          "text": "安，",
+          "start": 20100,
+          "end": 20380,
+          "confidence": 0.8229832,
+          "speaker": "A"
+        },
+        {
+          "text": "炯",
+          "start": 20380,
+          "end": 20620,
+          "confidence": 0.9998065,
+          "speaker": "A"
+        },
+        {
+          "text": "安",
+          "start": 20620,
+          "end": 20760,
+          "confidence": 0.99998116,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 20760,
+          "end": 21060,
+          "confidence": 0.99994147,
+          "speaker": "A"
+        },
+        {
+          "text": "我的",
+          "start": 21060,
+          "end": 21320,
+          "confidence": 0.9999994,
+          "speaker": "A"
+        },
+        {
+          "text": "英",
+          "start": 21320,
+          "end": 21600,
+          "confidence": 0.99935716,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 21600,
+          "end": 21660,
+          "confidence": 0.99935716,
+          "speaker": "A"
+        },
+        {
+          "text": "名",
+          "start": 21660,
+          "end": 21840,
+          "confidence": 0.99997973,
+          "speaker": "A"
+        },
+        {
+          "text": "字",
+          "start": 21840,
+          "end": 21940,
+          "confidence": 0.99997973,
+          "speaker": "A"
+        },
+        {
+          "text": "周",
+          "start": 21940,
+          "end": 22140,
+          "confidence": 0.8372919,
+          "speaker": "A"
+        },
+        {
+          "text": "安",
+          "start": 22140,
+          "end": 22240,
+          "confidence": 0.9990472,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 22240,
+          "end": 22400,
+          "confidence": 0.99998724,
+          "speaker": "A"
+        },
+        {
+          "text": "一个",
+          "start": 22400,
+          "end": 22620,
+          "confidence": 0.99998724,
+          "speaker": "A"
+        },
+        {
+          "text": "中",
+          "start": 22620,
+          "end": 22800,
+          "confidence": 0.99997354,
+          "speaker": "A"
+        },
+        {
+          "text": "文",
+          "start": 22800,
+          "end": 23000,
+          "confidence": 0.99997354,
+          "speaker": "A"
+        },
+        {
+          "text": "音",
+          "start": 23000,
+          "end": 23300,
+          "confidence": 0.99785006,
+          "speaker": "A"
+        },
+        {
+          "text": "译。",
+          "start": 23300,
+          "end": 23850,
+          "confidence": 0.99992037,
+          "speaker": "A"
+        },
+        {
+          "text": "那",
+          "start": 23860,
+          "end": 24400,
+          "confidence": 0.9998702,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 24400,
+          "end": 24600,
+          "confidence": 0.99997044,
+          "speaker": "A"
+        },
+        {
+          "text": "创",
+          "start": 24600,
+          "end": 24780,
+          "confidence": 0.9999324,
+          "speaker": "A"
+        },
+        {
+          "text": "造",
+          "start": 24780,
+          "end": 25000,
+          "confidence": 0.9999578,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 25000,
+          "end": 25460,
+          "confidence": 0.99999654,
+          "speaker": "A"
+        },
+        {
+          "text": "Pod",
+          "start": 25460,
+          "end": 25700,
+          "confidence": 0.9985946,
+          "speaker": "A"
+        },
+        {
+          "text": "cast",
+          "start": 25700,
+          "end": 25900,
+          "confidence": 0.9999752,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 25900,
+          "end": 26160,
+          "confidence": 0.99633116,
+          "speaker": "A"
+        },
+        {
+          "text": "初",
+          "start": 26160,
+          "end": 26280,
+          "confidence": 0.99999857,
+          "speaker": "A"
+        },
+        {
+          "text": "衷",
+          "start": 26280,
+          "end": 26440,
+          "confidence": 1,
+          "speaker": "A"
+        },
+        {
+          "text": "呢？",
+          "start": 26440,
+          "end": 26760,
+          "confidence": 0.97490567,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 27000,
+          "end": 27160,
+          "confidence": 0.98777664,
+          "speaker": "A"
+        },
+        {
+          "text": "希望",
+          "start": 27160,
+          "end": 27560,
+          "confidence": 0.999915,
+          "speaker": "A"
+        },
+        {
+          "text": "给",
+          "start": 27560,
+          "end": 27920,
+          "confidence": 0.9998851,
+          "speaker": "A"
+        },
+        {
+          "text": "中",
+          "start": 27920,
+          "end": 28160,
+          "confidence": 0.9978637,
+          "speaker": "A"
+        },
+        {
+          "text": "等",
+          "start": 28160,
+          "end": 28500,
+          "confidence": 0.9999908,
+          "speaker": "A"
+        },
+        {
+          "text": "水",
+          "start": 28500,
+          "end": 28620,
+          "confidence": 0.9999782,
+          "speaker": "A"
+        },
+        {
+          "text": "平",
+          "start": 28620,
+          "end": 28900,
+          "confidence": 0.9999782,
+          "speaker": "A"
+        },
+        {
+          "text": "左右",
+          "start": 28900,
+          "end": 29180,
+          "confidence": 0.9999877,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 29180,
+          "end": 29420,
+          "confidence": 0.9996886,
+          "speaker": "A"
+        },
+        {
+          "text": "中",
+          "start": 29420,
+          "end": 29500,
+          "confidence": 0.9992304,
+          "speaker": "A"
+        },
+        {
+          "text": "文",
+          "start": 29500,
+          "end": 29740,
+          "confidence": 0.9992304,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 29740,
+          "end": 29900,
+          "confidence": 0.9999422,
+          "speaker": "A"
+        },
+        {
+          "text": "习",
+          "start": 29900,
+          "end": 30260,
+          "confidence": 0.9999422,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 30260,
+          "end": 30880,
+          "confidence": 0.9993462,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 30880,
+          "end": 30980,
+          "confidence": 0.9995795,
+          "speaker": "A"
+        },
+        {
+          "text": "习",
+          "start": 30980,
+          "end": 31200,
+          "confidence": 0.9995795,
+          "speaker": "A"
+        },
+        {
+          "text": "者、",
+          "start": 31200,
+          "end": 31860,
+          "confidence": 0.8318689,
+          "speaker": "A"
+        },
+        {
+          "text": "外",
+          "start": 31860,
+          "end": 31920,
+          "confidence": 0.99998105,
+          "speaker": "A"
+        },
+        {
+          "text": "国",
+          "start": 31920,
+          "end": 32080,
+          "confidence": 0.99997973,
+          "speaker": "A"
+        },
+        {
+          "text": "朋友",
+          "start": 32080,
+          "end": 32420,
+          "confidence": 0.99999106,
+          "speaker": "A"
+        },
+        {
+          "text": "们",
+          "start": 32420,
+          "end": 32980,
+          "confidence": 0.9999931,
+          "speaker": "A"
+        },
+        {
+          "text": "一个",
+          "start": 32980,
+          "end": 33280,
+          "confidence": 0.94653994,
+          "speaker": "A"
+        },
+        {
+          "text": "比",
+          "start": 33280,
+          "end": 33440,
+          "confidence": 0.9999945,
+          "speaker": "A"
+        },
+        {
+          "text": "较",
+          "start": 33440,
+          "end": 34280,
+          "confidence": 0.9999945,
+          "speaker": "A"
+        },
+        {
+          "text": "自",
+          "start": 34280,
+          "end": 34520,
+          "confidence": 0.999923,
+          "speaker": "A"
+        },
+        {
+          "text": "然",
+          "start": 34520,
+          "end": 34840,
+          "confidence": 0.999923,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 34840,
+          "end": 35740,
+          "confidence": 0.9997553,
+          "speaker": "A"
+        },
+        {
+          "text": "嗯",
+          "start": 35740,
+          "end": 35760,
+          "confidence": 0.8026692,
+          "speaker": "A"
+        },
+        {
+          "text": "日",
+          "start": 35760,
+          "end": 35800,
+          "confidence": 0.9886263,
+          "speaker": "A"
+        },
+        {
+          "text": "常",
+          "start": 35800,
+          "end": 36060,
+          "confidence": 0.99999785,
+          "speaker": "A"
+        },
+        {
+          "text": "对",
+          "start": 36060,
+          "end": 36260,
+          "confidence": 0.99993265,
+          "speaker": "A"
+        },
+        {
+          "text": "话",
+          "start": 36260,
+          "end": 36540,
+          "confidence": 0.99998605,
+          "speaker": "A"
+        },
+        {
+          "text": "这么",
+          "start": 36540,
+          "end": 36780,
+          "confidence": 0.9939845,
+          "speaker": "A"
+        },
+        {
+          "text": "一个",
+          "start": 36780,
+          "end": 37140,
+          "confidence": 0.999995,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 37140,
+          "end": 37340,
+          "confidence": 0.9999733,
+          "speaker": "A"
+        },
+        {
+          "text": "言",
+          "start": 37340,
+          "end": 37440,
+          "confidence": 0.9999733,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 37440,
+          "end": 37600,
+          "confidence": 0.99999464,
+          "speaker": "A"
+        },
+        {
+          "text": "习",
+          "start": 37600,
+          "end": 37780,
+          "confidence": 0.99999464,
+          "speaker": "A"
+        },
+        {
+          "text": "环",
+          "start": 37780,
+          "end": 37940,
+          "confidence": 0.9999896,
+          "speaker": "A"
+        },
+        {
+          "text": "境。",
+          "start": 37940,
+          "end": 38540,
+          "confidence": 0.9993479,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 39100,
+          "end": 39220,
+          "confidence": 0.9987062,
+          "speaker": "A"
+        },
+        {
+          "text": "自己",
+          "start": 39220,
+          "end": 39520,
+          "confidence": 0.9999964,
+          "speaker": "A"
+        },
+        {
+          "text": "本",
+          "start": 39520,
+          "end": 39680,
+          "confidence": 0.999997,
+          "speaker": "A"
+        },
+        {
+          "text": "身",
+          "start": 39680,
+          "end": 40000,
+          "confidence": 0.99999106,
+          "speaker": "A"
+        },
+        {
+          "text": "呢",
+          "start": 40000,
+          "end": 40300,
+          "confidence": 0.99999475,
+          "speaker": "A"
+        },
+        {
+          "text": "也是",
+          "start": 40300,
+          "end": 40760,
+          "confidence": 0.8836513,
+          "speaker": "A"
+        },
+        {
+          "text": "呃",
+          "start": 40760,
+          "end": 41600,
+          "confidence": 0.99592125,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 41600,
+          "end": 41640,
+          "confidence": 0.9941551,
+          "speaker": "A"
+        },
+        {
+          "text": "习",
+          "start": 41640,
+          "end": 41860,
+          "confidence": 0.9941551,
+          "speaker": "A"
+        },
+        {
+          "text": "了",
+          "start": 41860,
+          "end": 42020,
+          "confidence": 0.99998987,
+          "speaker": "A"
+        },
+        {
+          "text": "很多",
+          "start": 42020,
+          "end": 42260,
+          "confidence": 0.99999714,
+          "speaker": "A"
+        },
+        {
+          "text": "门",
+          "start": 42260,
+          "end": 42520,
+          "confidence": 0.9999757,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 42520,
+          "end": 42700,
+          "confidence": 0.99996674,
+          "speaker": "A"
+        },
+        {
+          "text": "言，",
+          "start": 42700,
+          "end": 43079,
+          "confidence": 0.99569166,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 43079,
+          "end": 43079,
+          "confidence": 0.99141663,
+          "speaker": "A"
+        },
+        {
+          "text": "一个",
+          "start": 43079,
+          "end": 43300,
+          "confidence": 0.9999924,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 43300,
+          "end": 43440,
+          "confidence": 0.99998415,
+          "speaker": "A"
+        },
+        {
+          "text": "习",
+          "start": 43440,
+          "end": 43660,
+          "confidence": 0.99998415,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 43660,
+          "end": 43760,
+          "confidence": 0.99999344,
+          "speaker": "A"
+        },
+        {
+          "text": "言",
+          "start": 43760,
+          "end": 43920,
+          "confidence": 0.99999344,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 43920,
+          "end": 44120,
+          "confidence": 0.99996233,
+          "speaker": "A"
+        },
+        {
+          "text": "爱",
+          "start": 44120,
+          "end": 44180,
+          "confidence": 0.99999905,
+          "speaker": "A"
+        },
+        {
+          "text": "好",
+          "start": 44180,
+          "end": 44400,
+          "confidence": 0.9999845,
+          "speaker": "A"
+        },
+        {
+          "text": "者。",
+          "start": 44400,
+          "end": 44950,
+          "confidence": 0.9992753,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 45120,
+          "end": 45720,
+          "confidence": 0.99855417,
+          "speaker": "A"
+        },
+        {
+          "text": "大概",
+          "start": 45720,
+          "end": 45980,
+          "confidence": 0.99996364,
+          "speaker": "A"
+        },
+        {
+          "text": "从",
+          "start": 45980,
+          "end": 46280,
+          "confidence": 0.9999927,
+          "speaker": "A"
+        },
+        {
+          "text": "小",
+          "start": 46280,
+          "end": 46500,
+          "confidence": 0.99996114,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 46500,
+          "end": 46660,
+          "confidence": 0.99996114,
+          "speaker": "A"
+        },
+        {
+          "text": "的时候",
+          "start": 46660,
+          "end": 47060,
+          "confidence": 0.9999981,
+          "speaker": "A"
+        },
+        {
+          "text": "开始",
+          "start": 47060,
+          "end": 47400,
+          "confidence": 0.99999857,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 47400,
+          "end": 47700,
+          "confidence": 0.99994504,
+          "speaker": "A"
+        },
+        {
+          "text": "英",
+          "start": 47700,
+          "end": 48060,
+          "confidence": 0.99999213,
+          "speaker": "A"
+        },
+        {
+          "text": "语，",
+          "start": 48060,
+          "end": 48660,
+          "confidence": 0.999977,
+          "speaker": "A"
+        },
+        {
+          "text": "然后",
+          "start": 48660,
+          "end": 49280,
+          "confidence": 0.99996185,
+          "speaker": "A"
+        },
+        {
+          "text": "七",
+          "start": 49280,
+          "end": 49660,
+          "confidence": 0.99991846,
+          "speaker": "A"
+        },
+        {
+          "text": "八",
+          "start": 49660,
+          "end": 49800,
+          "confidence": 0.99999535,
+          "speaker": "A"
+        },
+        {
+          "text": "年前",
+          "start": 49800,
+          "end": 50260,
+          "confidence": 0.99999666,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 50260,
+          "end": 50540,
+          "confidence": 0.999972,
+          "speaker": "A"
+        },
+        {
+          "text": "习",
+          "start": 50540,
+          "end": 50660,
+          "confidence": 0.999972,
+          "speaker": "A"
+        },
+        {
+          "text": "了",
+          "start": 50660,
+          "end": 50840,
+          "confidence": 0.9999777,
+          "speaker": "A"
+        },
+        {
+          "text": "西",
+          "start": 50840,
+          "end": 50980,
+          "confidence": 0.9999784,
+          "speaker": "A"
+        },
+        {
+          "text": "班",
+          "start": 50980,
+          "end": 51080,
+          "confidence": 0.9999989,
+          "speaker": "A"
+        },
+        {
+          "text": "牙",
+          "start": 51080,
+          "end": 51260,
+          "confidence": 0.99999976,
+          "speaker": "A"
+        },
+        {
+          "text": "语，",
+          "start": 51260,
+          "end": 51920,
+          "confidence": 0.9985392,
+          "speaker": "A"
+        },
+        {
+          "text": "一",
+          "start": 51920,
+          "end": 52120,
+          "confidence": 0.9970874,
+          "speaker": "A"
+        },
+        {
+          "text": "年",
+          "start": 52120,
+          "end": 52480,
+          "confidence": 0.9999962,
+          "speaker": "A"
+        },
+        {
+          "text": "多",
+          "start": 52480,
+          "end": 52760,
+          "confidence": 0.9999989,
+          "speaker": "A"
+        },
+        {
+          "text": "以前",
+          "start": 52760,
+          "end": 53220,
+          "confidence": 0.9999926,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 53220,
+          "end": 53580,
+          "confidence": 0.9999405,
+          "speaker": "A"
+        },
+        {
+          "text": "习",
+          "start": 53580,
+          "end": 54000,
+          "confidence": 0.9999405,
+          "speaker": "A"
+        },
+        {
+          "text": "德",
+          "start": 54000,
+          "end": 54380,
+          "confidence": 0.99998844,
+          "speaker": "A"
+        },
+        {
+          "text": "语。",
+          "start": 54380,
+          "end": 54720,
+          "confidence": 0.9967419,
+          "speaker": "A"
+        },
+        {
+          "text": "然后",
+          "start": 54870,
+          "end": 55070,
+          "confidence": 0.9996111,
+          "speaker": "A"
+        },
+        {
+          "text": "现在",
+          "start": 55070,
+          "end": 55450,
+          "confidence": 0.99796534,
+          "speaker": "A"
+        },
+        {
+          "text": "正",
+          "start": 55450,
+          "end": 55770,
+          "confidence": 0.99995494,
+          "speaker": "A"
+        },
+        {
+          "text": "在",
+          "start": 55770,
+          "end": 56450,
+          "confidence": 0.99995494,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 56450,
+          "end": 56610,
+          "confidence": 0.99977905,
+          "speaker": "A"
+        },
+        {
+          "text": "法",
+          "start": 56610,
+          "end": 56930,
+          "confidence": 0.99996865,
+          "speaker": "A"
+        },
+        {
+          "text": "语，",
+          "start": 56930,
+          "end": 57430,
+          "confidence": 0.94082993,
+          "speaker": "A"
+        },
+        {
+          "text": "那",
+          "start": 57430,
+          "end": 57470,
+          "confidence": 0.8816628,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 57470,
+          "end": 57630,
+          "confidence": 0.9999962,
+          "speaker": "A"
+        },
+        {
+          "text": "自己",
+          "start": 57630,
+          "end": 57890,
+          "confidence": 0.9999962,
+          "speaker": "A"
+        },
+        {
+          "text": "对",
+          "start": 57890,
+          "end": 58030,
+          "confidence": 0.99997497,
+          "speaker": "A"
+        },
+        {
+          "text": "于",
+          "start": 58030,
+          "end": 58290,
+          "confidence": 0.99997497,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 58290,
+          "end": 58410,
+          "confidence": 0.9993844,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 58410,
+          "end": 58550,
+          "confidence": 0.9999502,
+          "speaker": "A"
+        },
+        {
+          "text": "言",
+          "start": 58550,
+          "end": 58690,
+          "confidence": 0.9999502,
+          "speaker": "A"
+        },
+        {
+          "text": "也",
+          "start": 58690,
+          "end": 58830,
+          "confidence": 0.99997973,
+          "speaker": "A"
+        },
+        {
+          "text": "有一",
+          "start": 58830,
+          "end": 59010,
+          "confidence": 0.9999728,
+          "speaker": "A"
+        },
+        {
+          "text": "些",
+          "start": 59010,
+          "end": 59390,
+          "confidence": 0.9999813,
+          "speaker": "A"
+        },
+        {
+          "text": "心",
+          "start": 59390,
+          "end": 59450,
+          "confidence": 0.9999814,
+          "speaker": "A"
+        },
+        {
+          "text": "得。",
+          "start": 59450,
+          "end": 59950,
+          "confidence": 0.9154505,
+          "speaker": "A"
+        },
+        {
+          "text": "我也",
+          "start": 60290,
+          "end": 60690,
+          "confidence": 0.91544473,
+          "speaker": "A"
+        },
+        {
+          "text": "认",
+          "start": 60690,
+          "end": 60970,
+          "confidence": 0.99999905,
+          "speaker": "A"
+        },
+        {
+          "text": "识",
+          "start": 60970,
+          "end": 61150,
+          "confidence": 0.99999905,
+          "speaker": "A"
+        },
+        {
+          "text": "了",
+          "start": 61150,
+          "end": 61310,
+          "confidence": 0.99998367,
+          "speaker": "A"
+        },
+        {
+          "text": "周",
+          "start": 61310,
+          "end": 61410,
+          "confidence": 0.9999963,
+          "speaker": "A"
+        },
+        {
+          "text": "围",
+          "start": 61410,
+          "end": 61670,
+          "confidence": 0.99999785,
+          "speaker": "A"
+        },
+        {
+          "text": "很多",
+          "start": 61670,
+          "end": 62070,
+          "confidence": 0.9998877,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 62070,
+          "end": 62290,
+          "confidence": 0.9999893,
+          "speaker": "A"
+        },
+        {
+          "text": "习",
+          "start": 62290,
+          "end": 62510,
+          "confidence": 0.9999893,
+          "speaker": "A"
+        },
+        {
+          "text": "中",
+          "start": 62510,
+          "end": 62650,
+          "confidence": 0.9999901,
+          "speaker": "A"
+        },
+        {
+          "text": "文",
+          "start": 62650,
+          "end": 62810,
+          "confidence": 0.9999901,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 62810,
+          "end": 62970,
+          "confidence": 0.99995303,
+          "speaker": "A"
+        },
+        {
+          "text": "朋友，",
+          "start": 62970,
+          "end": 64010,
+          "confidence": 0.9988511,
+          "speaker": "A"
+        },
+        {
+          "text": "大家都",
+          "start": 64010,
+          "end": 64450,
+          "confidence": 0.99999404,
+          "speaker": "A"
+        },
+        {
+          "text": "说",
+          "start": 64450,
+          "end": 64830,
+          "confidence": 0.9999926,
+          "speaker": "A"
+        },
+        {
+          "text": "中",
+          "start": 64830,
+          "end": 65050,
+          "confidence": 0.9999671,
+          "speaker": "A"
+        },
+        {
+          "text": "文",
+          "start": 65050,
+          "end": 65250,
+          "confidence": 0.9999671,
+          "speaker": "A"
+        },
+        {
+          "text": "很",
+          "start": 65250,
+          "end": 65410,
+          "confidence": 0.9999964,
+          "speaker": "A"
+        },
+        {
+          "text": "难",
+          "start": 65410,
+          "end": 65650,
+          "confidence": 0.99999654,
+          "speaker": "A"
+        },
+        {
+          "text": "学，",
+          "start": 65650,
+          "end": 66290,
+          "confidence": 0.9999199,
+          "speaker": "A"
+        },
+        {
+          "text": "特",
+          "start": 66290,
+          "end": 66450,
+          "confidence": 0.99999726,
+          "speaker": "A"
+        },
+        {
+          "text": "别",
+          "start": 66450,
+          "end": 66610,
+          "confidence": 0.99999726,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 66610,
+          "end": 66910,
+          "confidence": 0.9999244,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 66910,
+          "end": 66990,
+          "confidence": 0.99984705,
+          "speaker": "A"
+        },
+        {
+          "text": "音",
+          "start": 66990,
+          "end": 67190,
+          "confidence": 0.9999316,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 67190,
+          "end": 67410,
+          "confidence": 0.6879697,
+          "speaker": "A"
+        },
+        {
+          "text": "调，",
+          "start": 67410,
+          "end": 68350,
+          "confidence": 0.9503805,
+          "speaker": "A"
+        },
+        {
+          "text": "嗯，",
+          "start": 68350,
+          "end": 68490,
+          "confidence": 0.86198777,
+          "speaker": "A"
+        },
+        {
+          "text": "汉",
+          "start": 68490,
+          "end": 68590,
+          "confidence": 0.99999106,
+          "speaker": "A"
+        },
+        {
+          "text": "字",
+          "start": 68590,
+          "end": 68710,
+          "confidence": 0.99994874,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 68710,
+          "end": 68930,
+          "confidence": 0.99992454,
+          "speaker": "A"
+        },
+        {
+          "text": "书",
+          "start": 68930,
+          "end": 69050,
+          "confidence": 0.99978596,
+          "speaker": "A"
+        },
+        {
+          "text": "写",
+          "start": 69050,
+          "end": 69170,
+          "confidence": 0.9999938,
+          "speaker": "A"
+        },
+        {
+          "text": "也",
+          "start": 69170,
+          "end": 69330,
+          "confidence": 0.9999926,
+          "speaker": "A"
+        },
+        {
+          "text": "非常",
+          "start": 69330,
+          "end": 69610,
+          "confidence": 0.999998,
+          "speaker": "A"
+        },
+        {
+          "text": "困",
+          "start": 69610,
+          "end": 69890,
+          "confidence": 0.99999905,
+          "speaker": "A"
+        },
+        {
+          "text": "难。",
+          "start": 69890,
+          "end": 70440,
+          "confidence": 0.9997487,
+          "speaker": "A"
+        },
+        {
+          "text": "但是",
+          "start": 70490,
+          "end": 70750,
+          "confidence": 0.99629414,
+          "speaker": "A"
+        },
+        {
+          "text": "我觉得",
+          "start": 70750,
+          "end": 71330,
+          "confidence": 0.9976903,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 71330,
+          "end": 71630,
+          "confidence": 0.9748098,
+          "speaker": "A"
+        },
+        {
+          "text": "很多",
+          "start": 71630,
+          "end": 72070,
+          "confidence": 0.99920005,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 72070,
+          "end": 72350,
+          "confidence": 0.99992645,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 72350,
+          "end": 72470,
+          "confidence": 0.99999726,
+          "speaker": "A"
+        },
+        {
+          "text": "言",
+          "start": 72470,
+          "end": 72710,
+          "confidence": 0.99999726,
+          "speaker": "A"
+        },
+        {
+          "text": "的话，",
+          "start": 72710,
+          "end": 73410,
+          "confidence": 0.999935,
+          "speaker": "A"
+        },
+        {
+          "text": "其实",
+          "start": 73410,
+          "end": 73890,
+          "confidence": 0.99970144,
+          "speaker": "A"
+        },
+        {
+          "text": "技",
+          "start": 73890,
+          "end": 74470,
+          "confidence": 0.99999857,
+          "speaker": "A"
+        },
+        {
+          "text": "巧",
+          "start": 74470,
+          "end": 74710,
+          "confidence": 1,
+          "speaker": "A"
+        },
+        {
+          "text": "和",
+          "start": 74710,
+          "end": 74990,
+          "confidence": 0.9999863,
+          "speaker": "A"
+        },
+        {
+          "text": "经",
+          "start": 74990,
+          "end": 75290,
+          "confidence": 0.99999285,
+          "speaker": "A"
+        },
+        {
+          "text": "验",
+          "start": 75290,
+          "end": 75830,
+          "confidence": 0.99999285,
+          "speaker": "A"
+        },
+        {
+          "text": "最",
+          "start": 75830,
+          "end": 76010,
+          "confidence": 0.99985814,
+          "speaker": "A"
+        },
+        {
+          "text": "终",
+          "start": 76010,
+          "end": 76270,
+          "confidence": 0.999995,
+          "speaker": "A"
+        },
+        {
+          "text": "都是",
+          "start": 76270,
+          "end": 76570,
+          "confidence": 0.99996823,
+          "speaker": "A"
+        },
+        {
+          "text": "一",
+          "start": 76570,
+          "end": 76730,
+          "confidence": 0.99998987,
+          "speaker": "A"
+        },
+        {
+          "text": "样",
+          "start": 76730,
+          "end": 76850,
+          "confidence": 0.9999676,
+          "speaker": "A"
+        },
+        {
+          "text": "的，",
+          "start": 76850,
+          "end": 76990,
+          "confidence": 0.9997525,
+          "speaker": "A"
+        },
+        {
+          "text": "都是",
+          "start": 76990,
+          "end": 77210,
+          "confidence": 0.9999982,
+          "speaker": "A"
+        },
+        {
+          "text": "需要",
+          "start": 77210,
+          "end": 77570,
+          "confidence": 0.9999989,
+          "speaker": "A"
+        },
+        {
+          "text": "把",
+          "start": 77570,
+          "end": 77690,
+          "confidence": 0.9999964,
+          "speaker": "A"
+        },
+        {
+          "text": "自己",
+          "start": 77690,
+          "end": 78050,
+          "confidence": 0.99999833,
+          "speaker": "A"
+        },
+        {
+          "text": "沉",
+          "start": 78050,
+          "end": 78410,
+          "confidence": 0.99999595,
+          "speaker": "A"
+        },
+        {
+          "text": "浸",
+          "start": 78410,
+          "end": 78570,
+          "confidence": 0.99999094,
+          "speaker": "A"
+        },
+        {
+          "text": "在",
+          "start": 78570,
+          "end": 79290,
+          "confidence": 0.99998426,
+          "speaker": "A"
+        },
+        {
+          "text": "目",
+          "start": 79290,
+          "end": 79470,
+          "confidence": 0.99998987,
+          "speaker": "A"
+        },
+        {
+          "text": "标",
+          "start": 79470,
+          "end": 79690,
+          "confidence": 0.99998987,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 79690,
+          "end": 79870,
+          "confidence": 0.99992776,
+          "speaker": "A"
+        },
+        {
+          "text": "言",
+          "start": 79870,
+          "end": 79930,
+          "confidence": 0.99992776,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 79930,
+          "end": 80190,
+          "confidence": 0.9999136,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 80190,
+          "end": 80210,
+          "confidence": 0.9999951,
+          "speaker": "A"
+        },
+        {
+          "text": "习",
+          "start": 80210,
+          "end": 80450,
+          "confidence": 0.9999951,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 80450,
+          "end": 80610,
+          "confidence": 0.9998692,
+          "speaker": "A"
+        },
+        {
+          "text": "环",
+          "start": 80610,
+          "end": 80710,
+          "confidence": 0.99999785,
+          "speaker": "A"
+        },
+        {
+          "text": "境",
+          "start": 80710,
+          "end": 80990,
+          "confidence": 0.99999785,
+          "speaker": "A"
+        },
+        {
+          "text": "当",
+          "start": 80990,
+          "end": 81170,
+          "confidence": 0.99999285,
+          "speaker": "A"
+        },
+        {
+          "text": "中。",
+          "start": 81170,
+          "end": 81470,
+          "confidence": 0.9999611,
+          "speaker": "A"
+        },
+        {
+          "text": "那",
+          "start": 81780,
+          "end": 81940,
+          "confidence": 0.99710685,
+          "speaker": "A"
+        },
+        {
+          "text": "对",
+          "start": 81940,
+          "end": 82080,
+          "confidence": 0.9998233,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 82080,
+          "end": 82400,
+          "confidence": 0.9999883,
+          "speaker": "A"
+        },
+        {
+          "text": "自己",
+          "start": 82400,
+          "end": 82560,
+          "confidence": 0.99999356,
+          "speaker": "A"
+        },
+        {
+          "text": "而",
+          "start": 82560,
+          "end": 82860,
+          "confidence": 0.9999964,
+          "speaker": "A"
+        },
+        {
+          "text": "言，",
+          "start": 82860,
+          "end": 83580,
+          "confidence": 0.9404999,
+          "speaker": "A"
+        },
+        {
+          "text": "呃，",
+          "start": 83580,
+          "end": 84000,
+          "confidence": 0.9936677,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 84000,
+          "end": 84400,
+          "confidence": 0.98758686,
+          "speaker": "A"
+        },
+        {
+          "text": "我觉得",
+          "start": 84400,
+          "end": 84880,
+          "confidence": 0.99951625,
+          "speaker": "A"
+        },
+        {
+          "text": "非常",
+          "start": 84880,
+          "end": 85180,
+          "confidence": 0.9999976,
+          "speaker": "A"
+        },
+        {
+          "text": "有",
+          "start": 85180,
+          "end": 85440,
+          "confidence": 0.99999154,
+          "speaker": "A"
+        },
+        {
+          "text": "用",
+          "start": 85440,
+          "end": 85640,
+          "confidence": 0.9998747,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 85640,
+          "end": 85860,
+          "confidence": 0.99999666,
+          "speaker": "A"
+        },
+        {
+          "text": "一点",
+          "start": 85860,
+          "end": 86200,
+          "confidence": 0.9999942,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 86200,
+          "end": 86880,
+          "confidence": 0.9999094,
+          "speaker": "A"
+        },
+        {
+          "text": "听",
+          "start": 86880,
+          "end": 87180,
+          "confidence": 0.99992406,
+          "speaker": "A"
+        },
+        {
+          "text": "pod",
+          "start": 87180,
+          "end": 87380,
+          "confidence": 0.62655026,
+          "speaker": "A"
+        },
+        {
+          "text": "cast，",
+          "start": 87380,
+          "end": 88130,
+          "confidence": 0.9990083,
+          "speaker": "A"
+        },
+        {
+          "text": "特",
+          "start": 88140,
+          "end": 88340,
+          "confidence": 0.99999344,
+          "speaker": "A"
+        },
+        {
+          "text": "别",
+          "start": 88340,
+          "end": 88580,
+          "confidence": 0.99999344,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 88580,
+          "end": 88920,
+          "confidence": 0.9999471,
+          "speaker": "A"
+        },
+        {
+          "text": "听",
+          "start": 88920,
+          "end": 89340,
+          "confidence": 0.99999356,
+          "speaker": "A"
+        },
+        {
+          "text": "三",
+          "start": 89340,
+          "end": 89640,
+          "confidence": 0.9903334,
+          "speaker": "A"
+        },
+        {
+          "text": "十",
+          "start": 89640,
+          "end": 89880,
+          "confidence": 0.99998283,
+          "speaker": "A"
+        },
+        {
+          "text": "分",
+          "start": 89880,
+          "end": 90120,
+          "confidence": 0.9999994,
+          "speaker": "A"
+        },
+        {
+          "text": "钟",
+          "start": 90120,
+          "end": 90260,
+          "confidence": 0.9999994,
+          "speaker": "A"
+        },
+        {
+          "text": "到",
+          "start": 90260,
+          "end": 90380,
+          "confidence": 0.9999958,
+          "speaker": "A"
+        },
+        {
+          "text": "四",
+          "start": 90380,
+          "end": 90560,
+          "confidence": 0.9999931,
+          "speaker": "A"
+        },
+        {
+          "text": "十",
+          "start": 90560,
+          "end": 90740,
+          "confidence": 0.9999362,
+          "speaker": "A"
+        },
+        {
+          "text": "分",
+          "start": 90740,
+          "end": 90940,
+          "confidence": 0.99999964,
+          "speaker": "A"
+        },
+        {
+          "text": "钟",
+          "start": 90940,
+          "end": 91160,
+          "confidence": 0.99999964,
+          "speaker": "A"
+        },
+        {
+          "text": "这样",
+          "start": 91160,
+          "end": 91480,
+          "confidence": 0.9995221,
+          "speaker": "A"
+        },
+        {
+          "text": "比",
+          "start": 91480,
+          "end": 91860,
+          "confidence": 0.9999815,
+          "speaker": "A"
+        },
+        {
+          "text": "较",
+          "start": 91860,
+          "end": 92080,
+          "confidence": 0.9999815,
+          "speaker": "A"
+        },
+        {
+          "text": "长",
+          "start": 92080,
+          "end": 92400,
+          "confidence": 0.9999989,
+          "speaker": "A"
+        },
+        {
+          "text": "时间，",
+          "start": 92400,
+          "end": 93000,
+          "confidence": 0.99472284,
+          "speaker": "A"
+        },
+        {
+          "text": "而且",
+          "start": 93220,
+          "end": 93520,
+          "confidence": 0.98421544,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 93520,
+          "end": 94020,
+          "confidence": 0.9998066,
+          "speaker": "A"
+        },
+        {
+          "text": "自",
+          "start": 94020,
+          "end": 94240,
+          "confidence": 0.9999654,
+          "speaker": "A"
+        },
+        {
+          "text": "然",
+          "start": 94240,
+          "end": 94580,
+          "confidence": 0.9999654,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 94580,
+          "end": 95100,
+          "confidence": 0.9999534,
+          "speaker": "A"
+        },
+        {
+          "text": "日",
+          "start": 95100,
+          "end": 95180,
+          "confidence": 0.97321916,
+          "speaker": "A"
+        },
+        {
+          "text": "常",
+          "start": 95180,
+          "end": 95420,
+          "confidence": 0.99999774,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 95420,
+          "end": 95660,
+          "confidence": 0.99991083,
+          "speaker": "A"
+        },
+        {
+          "text": "交",
+          "start": 95660,
+          "end": 95720,
+          "confidence": 0.9999995,
+          "speaker": "A"
+        },
+        {
+          "text": "流",
+          "start": 95720,
+          "end": 95960,
+          "confidence": 0.9999995,
+          "speaker": "A"
+        },
+        {
+          "text": "和",
+          "start": 95960,
+          "end": 96140,
+          "confidence": 0.9999876,
+          "speaker": "A"
+        },
+        {
+          "text": "对",
+          "start": 96140,
+          "end": 96280,
+          "confidence": 0.9999374,
+          "speaker": "A"
+        },
+        {
+          "text": "话。",
+          "start": 96280,
+          "end": 96880,
+          "confidence": 0.9494125,
+          "speaker": "A"
+        },
+        {
+          "text": "这样",
+          "start": 96900,
+          "end": 97240,
+          "confidence": 0.99998295,
+          "speaker": "A"
+        },
+        {
+          "text": "的话",
+          "start": 97240,
+          "end": 97800,
+          "confidence": 0.99999225,
+          "speaker": "A"
+        },
+        {
+          "text": "比",
+          "start": 97800,
+          "end": 98019,
+          "confidence": 0.82966137,
+          "speaker": "A"
+        },
+        {
+          "text": "较",
+          "start": 98019,
+          "end": 98180,
+          "confidence": 0.82966137,
+          "speaker": "A"
+        },
+        {
+          "text": "有",
+          "start": 98180,
+          "end": 98480,
+          "confidence": 0.99999297,
+          "speaker": "A"
+        },
+        {
+          "text": "助",
+          "start": 98480,
+          "end": 98640,
+          "confidence": 0.9999838,
+          "speaker": "A"
+        },
+        {
+          "text": "于",
+          "start": 98640,
+          "end": 99160,
+          "confidence": 0.9999957,
+          "speaker": "A"
+        },
+        {
+          "text": "呃",
+          "start": 99160,
+          "end": 99460,
+          "confidence": 0.81235284,
+          "speaker": "A"
+        },
+        {
+          "text": "比",
+          "start": 99460,
+          "end": 99620,
+          "confidence": 0.9661944,
+          "speaker": "A"
+        },
+        {
+          "text": "较",
+          "start": 99620,
+          "end": 99900,
+          "confidence": 0.9661944,
+          "speaker": "A"
+        },
+        {
+          "text": "自",
+          "start": 99900,
+          "end": 100100,
+          "confidence": 0.99995065,
+          "speaker": "A"
+        },
+        {
+          "text": "然",
+          "start": 100100,
+          "end": 100340,
+          "confidence": 0.99995065,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 100340,
+          "end": 101100,
+          "confidence": 0.9992617,
+          "speaker": "A"
+        },
+        {
+          "text": "真",
+          "start": 101100,
+          "end": 101220,
+          "confidence": 0.8103652,
+          "speaker": "A"
+        },
+        {
+          "text": "实",
+          "start": 101220,
+          "end": 101540,
+          "confidence": 0.9999945,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 101540,
+          "end": 101900,
+          "confidence": 0.99995136,
+          "speaker": "A"
+        },
+        {
+          "text": "日",
+          "start": 101900,
+          "end": 101920,
+          "confidence": 0.99998915,
+          "speaker": "A"
+        },
+        {
+          "text": "常",
+          "start": 101920,
+          "end": 102180,
+          "confidence": 0.9999989,
+          "speaker": "A"
+        },
+        {
+          "text": "用",
+          "start": 102180,
+          "end": 102440,
+          "confidence": 0.9989022,
+          "speaker": "A"
+        },
+        {
+          "text": "语，",
+          "start": 102440,
+          "end": 103000,
+          "confidence": 0.9994226,
+          "speaker": "A"
+        },
+        {
+          "text": "而且",
+          "start": 103000,
+          "end": 103440,
+          "confidence": 0.9988753,
+          "speaker": "A"
+        },
+        {
+          "text": "听",
+          "start": 103440,
+          "end": 104300,
+          "confidence": 0.99964595,
+          "speaker": "A"
+        },
+        {
+          "text": "听",
+          "start": 104300,
+          "end": 104380,
+          "confidence": 0.99996424,
+          "speaker": "A"
+        },
+        {
+          "text": "起",
+          "start": 104380,
+          "end": 104600,
+          "confidence": 0.99998796,
+          "speaker": "A"
+        },
+        {
+          "text": "来",
+          "start": 104600,
+          "end": 104740,
+          "confidence": 0.99998796,
+          "speaker": "A"
+        },
+        {
+          "text": "也",
+          "start": 104740,
+          "end": 104880,
+          "confidence": 0.9999839,
+          "speaker": "A"
+        },
+        {
+          "text": "不会",
+          "start": 104880,
+          "end": 105080,
+          "confidence": 0.99999714,
+          "speaker": "A"
+        },
+        {
+          "text": "太",
+          "start": 105080,
+          "end": 105380,
+          "confidence": 0.9999974,
+          "speaker": "A"
+        },
+        {
+          "text": "无",
+          "start": 105380,
+          "end": 105580,
+          "confidence": 0.9999949,
+          "speaker": "A"
+        },
+        {
+          "text": "聊。",
+          "start": 105580,
+          "end": 106120,
+          "confidence": 0.93534374,
+          "speaker": "A"
+        },
+        {
+          "text": "所以",
+          "start": 106120,
+          "end": 106560,
+          "confidence": 0.9999896,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 106560,
+          "end": 106800,
+          "confidence": 0.931386,
+          "speaker": "A"
+        },
+        {
+          "text": "自己",
+          "start": 106800,
+          "end": 107180,
+          "confidence": 0.9999937,
+          "speaker": "A"
+        },
+        {
+          "text": "在",
+          "start": 107180,
+          "end": 107460,
+          "confidence": 0.9999684,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 107460,
+          "end": 107680,
+          "confidence": 0.99949396,
+          "speaker": "A"
+        },
+        {
+          "text": "言",
+          "start": 107680,
+          "end": 107780,
+          "confidence": 0.99949396,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 107780,
+          "end": 107940,
+          "confidence": 0.9999914,
+          "speaker": "A"
+        },
+        {
+          "text": "习",
+          "start": 107940,
+          "end": 108080,
+          "confidence": 0.9999914,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 108080,
+          "end": 108240,
+          "confidence": 0.9999912,
+          "speaker": "A"
+        },
+        {
+          "text": "过",
+          "start": 108240,
+          "end": 108360,
+          "confidence": 0.99999833,
+          "speaker": "A"
+        },
+        {
+          "text": "程",
+          "start": 108360,
+          "end": 108620,
+          "confidence": 0.99999833,
+          "speaker": "A"
+        },
+        {
+          "text": "当",
+          "start": 108620,
+          "end": 108780,
+          "confidence": 0.99999297,
+          "speaker": "A"
+        },
+        {
+          "text": "中。",
+          "start": 108780,
+          "end": 109140,
+          "confidence": 0.93605524,
+          "speaker": "A"
+        },
+        {
+          "text": "嗯，",
+          "start": 109470,
+          "end": 109850,
+          "confidence": 0.80916476,
+          "speaker": "A"
+        },
+        {
+          "text": "我的",
+          "start": 109850,
+          "end": 110010,
+          "confidence": 0.9999926,
+          "speaker": "A"
+        },
+        {
+          "text": "德",
+          "start": 110010,
+          "end": 110430,
+          "confidence": 0.9999933,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 110430,
+          "end": 110610,
+          "confidence": 0.9999989,
+          "speaker": "A"
+        },
+        {
+          "text": "和",
+          "start": 110610,
+          "end": 111410,
+          "confidence": 0.999964,
+          "speaker": "A"
+        },
+        {
+          "text": "法",
+          "start": 111410,
+          "end": 111790,
+          "confidence": 0.9999664,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 111790,
+          "end": 111950,
+          "confidence": 0.9999989,
+          "speaker": "A"
+        },
+        {
+          "text": "都是",
+          "start": 111950,
+          "end": 112410,
+          "confidence": 0.9999976,
+          "speaker": "A"
+        },
+        {
+          "text": "听",
+          "start": 112410,
+          "end": 113250,
+          "confidence": 0.9999938,
+          "speaker": "A"
+        },
+        {
+          "text": "像",
+          "start": 113250,
+          "end": 113610,
+          "confidence": 0.99980015,
+          "speaker": "A"
+        },
+        {
+          "text": "这样",
+          "start": 113610,
+          "end": 114010,
+          "confidence": 0.999985,
+          "speaker": "A"
+        },
+        {
+          "text": "三",
+          "start": 114010,
+          "end": 114190,
+          "confidence": 0.99695945,
+          "speaker": "A"
+        },
+        {
+          "text": "十",
+          "start": 114190,
+          "end": 114390,
+          "confidence": 0.99999166,
+          "speaker": "A"
+        },
+        {
+          "text": "到",
+          "start": 114390,
+          "end": 114550,
+          "confidence": 0.99999106,
+          "speaker": "A"
+        },
+        {
+          "text": "四",
+          "start": 114550,
+          "end": 114710,
+          "confidence": 0.9999926,
+          "speaker": "A"
+        },
+        {
+          "text": "十",
+          "start": 114710,
+          "end": 114870,
+          "confidence": 0.9998801,
+          "speaker": "A"
+        },
+        {
+          "text": "分",
+          "start": 114870,
+          "end": 115130,
+          "confidence": 0.99999917,
+          "speaker": "A"
+        },
+        {
+          "text": "钟",
+          "start": 115130,
+          "end": 115230,
+          "confidence": 0.99999917,
+          "speaker": "A"
+        },
+        {
+          "text": "日",
+          "start": 115230,
+          "end": 115410,
+          "confidence": 0.9998171,
+          "speaker": "A"
+        },
+        {
+          "text": "常",
+          "start": 115410,
+          "end": 115650,
+          "confidence": 0.99999833,
+          "speaker": "A"
+        },
+        {
+          "text": "对",
+          "start": 115650,
+          "end": 115770,
+          "confidence": 0.99992406,
+          "speaker": "A"
+        },
+        {
+          "text": "话",
+          "start": 115770,
+          "end": 116130,
+          "confidence": 0.9999722,
+          "speaker": "A"
+        },
+        {
+          "text": "交",
+          "start": 116130,
+          "end": 116350,
+          "confidence": 0.9999819,
+          "speaker": "A"
+        },
+        {
+          "text": "流",
+          "start": 116350,
+          "end": 116590,
+          "confidence": 0.9999819,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 116590,
+          "end": 117050,
+          "confidence": 0.9998511,
+          "speaker": "A"
+        },
+        {
+          "text": "pod",
+          "start": 117050,
+          "end": 117310,
+          "confidence": 0.5342012,
+          "speaker": "A"
+        },
+        {
+          "text": "cast，",
+          "start": 117310,
+          "end": 117910,
+          "confidence": 0.99918526,
+          "speaker": "A"
+        },
+        {
+          "text": "然后",
+          "start": 118130,
+          "end": 118230,
+          "confidence": 0.99683076,
+          "speaker": "A"
+        },
+        {
+          "text": "对",
+          "start": 118230,
+          "end": 118410,
+          "confidence": 0.99998593,
+          "speaker": "A"
+        },
+        {
+          "text": "我的",
+          "start": 118410,
+          "end": 118790,
+          "confidence": 0.99999726,
+          "speaker": "A"
+        },
+        {
+          "text": "水",
+          "start": 118790,
+          "end": 118910,
+          "confidence": 0.99996555,
+          "speaker": "A"
+        },
+        {
+          "text": "平",
+          "start": 118910,
+          "end": 119110,
+          "confidence": 0.99996555,
+          "speaker": "A"
+        },
+        {
+          "text": "提",
+          "start": 119110,
+          "end": 119290,
+          "confidence": 0.99990904,
+          "speaker": "A"
+        },
+        {
+          "text": "高",
+          "start": 119290,
+          "end": 119450,
+          "confidence": 0.99990904,
+          "speaker": "A"
+        },
+        {
+          "text": "非常的",
+          "start": 119450,
+          "end": 119830,
+          "confidence": 0.9997871,
+          "speaker": "A"
+        },
+        {
+          "text": "有",
+          "start": 119830,
+          "end": 120130,
+          "confidence": 0.9999931,
+          "speaker": "A"
+        },
+        {
+          "text": "帮",
+          "start": 120130,
+          "end": 120250,
+          "confidence": 0.9999927,
+          "speaker": "A"
+        },
+        {
+          "text": "助。",
+          "start": 120250,
+          "end": 120700,
+          "confidence": 0.9998133,
+          "speaker": "A"
+        },
+        {
+          "text": "但是，",
+          "start": 121030,
+          "end": 122010,
+          "confidence": 0.8464229,
+          "speaker": "A"
+        },
+        {
+          "text": "呃，",
+          "start": 122010,
+          "end": 122210,
+          "confidence": 0.9972808,
+          "speaker": "A"
+        },
+        {
+          "text": "我的",
+          "start": 122210,
+          "end": 122390,
+          "confidence": 0.99999785,
+          "speaker": "A"
+        },
+        {
+          "text": "很多",
+          "start": 122390,
+          "end": 122770,
+          "confidence": 0.9999988,
+          "speaker": "A"
+        },
+        {
+          "text": "中",
+          "start": 122770,
+          "end": 123010,
+          "confidence": 0.999765,
+          "speaker": "A"
+        },
+        {
+          "text": "文",
+          "start": 123010,
+          "end": 123190,
+          "confidence": 0.999765,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 123190,
+          "end": 123390,
+          "confidence": 0.9999733,
+          "speaker": "A"
+        },
+        {
+          "text": "习",
+          "start": 123390,
+          "end": 123510,
+          "confidence": 0.9999733,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 123510,
+          "end": 123730,
+          "confidence": 0.9999347,
+          "speaker": "A"
+        },
+        {
+          "text": "外",
+          "start": 123730,
+          "end": 123830,
+          "confidence": 0.99999535,
+          "speaker": "A"
+        },
+        {
+          "text": "国",
+          "start": 123830,
+          "end": 123950,
+          "confidence": 0.99997973,
+          "speaker": "A"
+        },
+        {
+          "text": "朋友",
+          "start": 123950,
+          "end": 124250,
+          "confidence": 0.99999154,
+          "speaker": "A"
+        },
+        {
+          "text": "和",
+          "start": 124250,
+          "end": 124490,
+          "confidence": 0.9999522,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 124490,
+          "end": 124730,
+          "confidence": 0.99999416,
+          "speaker": "A"
+        },
+        {
+          "text": "反",
+          "start": 124730,
+          "end": 124810,
+          "confidence": 0.99579877,
+          "speaker": "A"
+        },
+        {
+          "text": "映",
+          "start": 124810,
+          "end": 125150,
+          "confidence": 0.9999908,
+          "speaker": "A"
+        },
+        {
+          "text": "说，",
+          "start": 125150,
+          "end": 125700,
+          "confidence": 0.99875885,
+          "speaker": "A"
+        },
+        {
+          "text": "在",
+          "start": 125870,
+          "end": 126010,
+          "confidence": 0.9979335,
+          "speaker": "A"
+        },
+        {
+          "text": "中",
+          "start": 126010,
+          "end": 126250,
+          "confidence": 0.9999125,
+          "speaker": "A"
+        },
+        {
+          "text": "文",
+          "start": 126250,
+          "end": 126410,
+          "confidence": 0.9999125,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 126410,
+          "end": 126510,
+          "confidence": 0.99988854,
+          "speaker": "A"
+        },
+        {
+          "text": "市",
+          "start": 126510,
+          "end": 126710,
+          "confidence": 0.99999106,
+          "speaker": "A"
+        },
+        {
+          "text": "场",
+          "start": 126710,
+          "end": 126830,
+          "confidence": 0.99999106,
+          "speaker": "A"
+        },
+        {
+          "text": "上",
+          "start": 126830,
+          "end": 127450,
+          "confidence": 0.9999391,
+          "speaker": "A"
+        },
+        {
+          "text": "并",
+          "start": 127450,
+          "end": 127610,
+          "confidence": 0.96165735,
+          "speaker": "A"
+        },
+        {
+          "text": "没有",
+          "start": 127610,
+          "end": 128050,
+          "confidence": 0.99999297,
+          "speaker": "A"
+        },
+        {
+          "text": "这样",
+          "start": 128050,
+          "end": 128370,
+          "confidence": 0.9999933,
+          "speaker": "A"
+        },
+        {
+          "text": "子",
+          "start": 128370,
+          "end": 129290,
+          "confidence": 0.9999795,
+          "speaker": "A"
+        },
+        {
+          "text": "一",
+          "start": 129290,
+          "end": 129490,
+          "confidence": 0.9999788,
+          "speaker": "A"
+        },
+        {
+          "text": "款",
+          "start": 129490,
+          "end": 129730,
+          "confidence": 0.9999912,
+          "speaker": "A"
+        },
+        {
+          "text": "pod",
+          "start": 129730,
+          "end": 130110,
+          "confidence": 0.9987318,
+          "speaker": "A"
+        },
+        {
+          "text": "cast，",
+          "start": 130110,
+          "end": 130710,
+          "confidence": 0.99591595,
+          "speaker": "A"
+        },
+        {
+          "text": "所以",
+          "start": 130730,
+          "end": 131010,
+          "confidence": 0.9797854,
+          "speaker": "A"
+        },
+        {
+          "text": "我就",
+          "start": 131010,
+          "end": 131330,
+          "confidence": 0.99899936,
+          "speaker": "A"
+        },
+        {
+          "text": "想，",
+          "start": 131330,
+          "end": 132090,
+          "confidence": 0.9258133,
+          "speaker": "A"
+        },
+        {
+          "text": "那",
+          "start": 132090,
+          "end": 132650,
+          "confidence": 0.8516476,
+          "speaker": "A"
+        },
+        {
+          "text": "嗯，",
+          "start": 132650,
+          "end": 133230,
+          "confidence": 0.8176571,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 133230,
+          "end": 133370,
+          "confidence": 0.9692133,
+          "speaker": "A"
+        },
+        {
+          "text": "也",
+          "start": 133370,
+          "end": 133550,
+          "confidence": 0.99999535,
+          "speaker": "A"
+        },
+        {
+          "text": "不是",
+          "start": 133550,
+          "end": 133770,
+          "confidence": 0.999997,
+          "speaker": "A"
+        },
+        {
+          "text": "特",
+          "start": 133770,
+          "end": 133990,
+          "confidence": 0.9999988,
+          "speaker": "A"
+        },
+        {
+          "text": "别",
+          "start": 133990,
+          "end": 134150,
+          "confidence": 0.9999988,
+          "speaker": "A"
+        },
+        {
+          "text": "困",
+          "start": 134150,
+          "end": 134450,
+          "confidence": 0.99999404,
+          "speaker": "A"
+        },
+        {
+          "text": "难，",
+          "start": 134450,
+          "end": 134790,
+          "confidence": 0.7598922,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 134790,
+          "end": 135070,
+          "confidence": 0.5197914,
+          "speaker": "A"
+        },
+        {
+          "text": "也是",
+          "start": 135070,
+          "end": 135490,
+          "confidence": 0.9999951,
+          "speaker": "A"
+        },
+        {
+          "text": "第一",
+          "start": 135490,
+          "end": 135810,
+          "confidence": 0.9999896,
+          "speaker": "A"
+        },
+        {
+          "text": "次",
+          "start": 135810,
+          "end": 136090,
+          "confidence": 0.9999896,
+          "speaker": "A"
+        },
+        {
+          "text": "入",
+          "start": 136090,
+          "end": 136290,
+          "confidence": 0.99999535,
+          "speaker": "A"
+        },
+        {
+          "text": "门",
+          "start": 136290,
+          "end": 136410,
+          "confidence": 0.9999809,
+          "speaker": "A"
+        },
+        {
+          "text": "做",
+          "start": 136410,
+          "end": 136630,
+          "confidence": 0.9999943,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 136630,
+          "end": 136850,
+          "confidence": 0.99999785,
+          "speaker": "A"
+        },
+        {
+          "text": "pod",
+          "start": 136850,
+          "end": 137090,
+          "confidence": 0.9994715,
+          "speaker": "A"
+        },
+        {
+          "text": "cast。",
+          "start": 137090,
+          "end": 137690,
+          "confidence": 0.99456733,
+          "speaker": "A"
+        },
+        {
+          "text": "但是",
+          "start": 137880,
+          "end": 138460,
+          "confidence": 0.9665306,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 138460,
+          "end": 139040,
+          "confidence": 0.99999034,
+          "speaker": "A"
+        },
+        {
+          "text": "自己",
+          "start": 139040,
+          "end": 139420,
+          "confidence": 0.9997514,
+          "speaker": "A"
+        },
+        {
+          "text": "认",
+          "start": 139420,
+          "end": 139740,
+          "confidence": 0.999466,
+          "speaker": "A"
+        },
+        {
+          "text": "为",
+          "start": 139740,
+          "end": 140020,
+          "confidence": 0.999466,
+          "speaker": "A"
+        },
+        {
+          "text": "我的",
+          "start": 140020,
+          "end": 140360,
+          "confidence": 0.9628122,
+          "speaker": "A"
+        },
+        {
+          "text": "普",
+          "start": 140360,
+          "end": 140500,
+          "confidence": 0.99999607,
+          "speaker": "A"
+        },
+        {
+          "text": "通",
+          "start": 140500,
+          "end": 140640,
+          "confidence": 0.99999607,
+          "speaker": "A"
+        },
+        {
+          "text": "话",
+          "start": 140640,
+          "end": 140940,
+          "confidence": 0.99999285,
+          "speaker": "A"
+        },
+        {
+          "text": "说",
+          "start": 140940,
+          "end": 141100,
+          "confidence": 0.9637997,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 141100,
+          "end": 141320,
+          "confidence": 0.9637997,
+          "speaker": "A"
+        },
+        {
+          "text": "还是",
+          "start": 141320,
+          "end": 141580,
+          "confidence": 0.9999566,
+          "speaker": "A"
+        },
+        {
+          "text": "比",
+          "start": 141580,
+          "end": 141700,
+          "confidence": 0.999959,
+          "speaker": "A"
+        },
+        {
+          "text": "较",
+          "start": 141700,
+          "end": 141840,
+          "confidence": 0.999959,
+          "speaker": "A"
+        },
+        {
+          "text": "标",
+          "start": 141840,
+          "end": 142060,
+          "confidence": 0.9999883,
+          "speaker": "A"
+        },
+        {
+          "text": "准",
+          "start": 142060,
+          "end": 142360,
+          "confidence": 0.9999883,
+          "speaker": "A"
+        },
+        {
+          "text": "的，",
+          "start": 142360,
+          "end": 143060,
+          "confidence": 0.6753364,
+          "speaker": "A"
+        },
+        {
+          "text": "嗯，",
+          "start": 143120,
+          "end": 143420,
+          "confidence": 0.9931891,
+          "speaker": "A"
+        },
+        {
+          "text": "我觉得",
+          "start": 143420,
+          "end": 143680,
+          "confidence": 0.9972999,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 143680,
+          "end": 144160,
+          "confidence": 0.99996674,
+          "speaker": "A"
+        },
+        {
+          "text": "可以",
+          "start": 144160,
+          "end": 144560,
+          "confidence": 0.99999666,
+          "speaker": "A"
+        },
+        {
+          "text": "抽",
+          "start": 144560,
+          "end": 144920,
+          "confidence": 0.9999702,
+          "speaker": "A"
+        },
+        {
+          "text": "一些",
+          "start": 144920,
+          "end": 145260,
+          "confidence": 0.99998236,
+          "speaker": "A"
+        },
+        {
+          "text": "时间，",
+          "start": 145260,
+          "end": 146160,
+          "confidence": 0.9030149,
+          "speaker": "A"
+        },
+        {
+          "text": "每",
+          "start": 146160,
+          "end": 146180,
+          "confidence": 0.7090574,
+          "speaker": "A"
+        },
+        {
+          "text": "每",
+          "start": 146180,
+          "end": 146360,
+          "confidence": 0.99790037,
+          "speaker": "A"
+        },
+        {
+          "text": "周",
+          "start": 146360,
+          "end": 146560,
+          "confidence": 0.9999747,
+          "speaker": "A"
+        },
+        {
+          "text": "或者",
+          "start": 146560,
+          "end": 146900,
+          "confidence": 0.9999869,
+          "speaker": "A"
+        },
+        {
+          "text": "每",
+          "start": 146900,
+          "end": 147120,
+          "confidence": 0.9999957,
+          "speaker": "A"
+        },
+        {
+          "text": "个",
+          "start": 147120,
+          "end": 147320,
+          "confidence": 0.99997675,
+          "speaker": "A"
+        },
+        {
+          "text": "月",
+          "start": 147320,
+          "end": 147780,
+          "confidence": 0.9999962,
+          "speaker": "A"
+        },
+        {
+          "text": "至",
+          "start": 147780,
+          "end": 148000,
+          "confidence": 0.9992587,
+          "speaker": "A"
+        },
+        {
+          "text": "少",
+          "start": 148000,
+          "end": 148140,
+          "confidence": 0.9992587,
+          "speaker": "A"
+        },
+        {
+          "text": "更",
+          "start": 148140,
+          "end": 148300,
+          "confidence": 0.9999778,
+          "speaker": "A"
+        },
+        {
+          "text": "新",
+          "start": 148300,
+          "end": 148540,
+          "confidence": 0.9999778,
+          "speaker": "A"
+        },
+        {
+          "text": "几",
+          "start": 148540,
+          "end": 148700,
+          "confidence": 0.99999654,
+          "speaker": "A"
+        },
+        {
+          "text": "次。",
+          "start": 148700,
+          "end": 149200,
+          "confidence": 0.9815699,
+          "speaker": "A"
+        },
+        {
+          "text": "那",
+          "start": 149400,
+          "end": 149580,
+          "confidence": 0.96315145,
+          "speaker": "A"
+        },
+        {
+          "text": "希望",
+          "start": 149580,
+          "end": 150120,
+          "confidence": 0.9999945,
+          "speaker": "A"
+        },
+        {
+          "text": "呃",
+          "start": 150120,
+          "end": 150800,
+          "confidence": 0.9487738,
+          "speaker": "A"
+        },
+        {
+          "text": "我的",
+          "start": 150800,
+          "end": 151140,
+          "confidence": 0.92063,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 151140,
+          "end": 152080,
+          "confidence": 0.9999932,
+          "speaker": "A"
+        },
+        {
+          "text": "宏",
+          "start": 152080,
+          "end": 152580,
+          "confidence": 0.95978683,
+          "speaker": "A"
+        },
+        {
+          "text": "宏",
+          "start": 152580,
+          "end": 152700,
+          "confidence": 0.99998915,
+          "speaker": "A"
+        },
+        {
+          "text": "图",
+          "start": 152700,
+          "end": 152920,
+          "confidence": 0.9998462,
+          "speaker": "A"
+        },
+        {
+          "text": "伟",
+          "start": 152920,
+          "end": 153220,
+          "confidence": 0.99904054,
+          "speaker": "A"
+        },
+        {
+          "text": "志",
+          "start": 153220,
+          "end": 153380,
+          "confidence": 0.999928,
+          "speaker": "A"
+        },
+        {
+          "text": "不要",
+          "start": 153380,
+          "end": 153620,
+          "confidence": 0.9995055,
+          "speaker": "A"
+        },
+        {
+          "text": "半",
+          "start": 153620,
+          "end": 153840,
+          "confidence": 0.99997973,
+          "speaker": "A"
+        },
+        {
+          "text": "途",
+          "start": 153840,
+          "end": 153980,
+          "confidence": 0.99999976,
+          "speaker": "A"
+        },
+        {
+          "text": "而",
+          "start": 153980,
+          "end": 154200,
+          "confidence": 0.99999833,
+          "speaker": "A"
+        },
+        {
+          "text": "废。",
+          "start": 154200,
+          "end": 154800,
+          "confidence": 0.9995659,
+          "speaker": "A"
+        },
+        {
+          "text": "那",
+          "start": 155080,
+          "end": 155460,
+          "confidence": 0.99913245,
+          "speaker": "A"
+        },
+        {
+          "text": "今天",
+          "start": 155460,
+          "end": 155860,
+          "confidence": 0.99999666,
+          "speaker": "A"
+        },
+        {
+          "text": "我就",
+          "start": 155860,
+          "end": 156180,
+          "confidence": 0.9999736,
+          "speaker": "A"
+        },
+        {
+          "text": "短",
+          "start": 156180,
+          "end": 156380,
+          "confidence": 0.999998,
+          "speaker": "A"
+        },
+        {
+          "text": "短",
+          "start": 156380,
+          "end": 156560,
+          "confidence": 0.999998,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 156560,
+          "end": 156820,
+          "confidence": 0.98857147,
+          "speaker": "A"
+        },
+        {
+          "text": "录",
+          "start": 156820,
+          "end": 156980,
+          "confidence": 0.99999535,
+          "speaker": "A"
+        },
+        {
+          "text": "一",
+          "start": 156980,
+          "end": 157300,
+          "confidence": 0.9997538,
+          "speaker": "A"
+        },
+        {
+          "text": "期",
+          "start": 157300,
+          "end": 157500,
+          "confidence": 0.9999945,
+          "speaker": "A"
+        },
+        {
+          "text": "tra",
+          "start": 157500,
+          "end": 157780,
+          "confidence": 0.69353026,
+          "speaker": "A"
+        },
+        {
+          "text": "iler，",
+          "start": 157780,
+          "end": 158300,
+          "confidence": 0.95938325,
+          "speaker": "A"
+        },
+        {
+          "text": "下一",
+          "start": 158300,
+          "end": 158580,
+          "confidence": 0.99984384,
+          "speaker": "A"
+        },
+        {
+          "text": "期",
+          "start": 158580,
+          "end": 158820,
+          "confidence": 0.99998236,
+          "speaker": "A"
+        },
+        {
+          "text": "的话",
+          "start": 158820,
+          "end": 159180,
+          "confidence": 0.9999995,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 159180,
+          "end": 159400,
+          "confidence": 0.97713906,
+          "speaker": "A"
+        },
+        {
+          "text": "会",
+          "start": 159400,
+          "end": 159720,
+          "confidence": 0.999977,
+          "speaker": "A"
+        },
+        {
+          "text": "准",
+          "start": 159720,
+          "end": 159820,
+          "confidence": 0.99999475,
+          "speaker": "A"
+        },
+        {
+          "text": "备",
+          "start": 159820,
+          "end": 160100,
+          "confidence": 0.99999475,
+          "speaker": "A"
+        },
+        {
+          "text": "邀",
+          "start": 160100,
+          "end": 160400,
+          "confidence": 0.99999946,
+          "speaker": "A"
+        },
+        {
+          "text": "请",
+          "start": 160400,
+          "end": 160980,
+          "confidence": 0.9999901,
+          "speaker": "A"
+        },
+        {
+          "text": "一个",
+          "start": 160980,
+          "end": 161260,
+          "confidence": 0.9999957,
+          "speaker": "A"
+        },
+        {
+          "text": "朋友",
+          "start": 161260,
+          "end": 161680,
+          "confidence": 0.9999963,
+          "speaker": "A"
+        },
+        {
+          "text": "来",
+          "start": 161680,
+          "end": 161900,
+          "confidence": 0.99999535,
+          "speaker": "A"
+        },
+        {
+          "text": "和",
+          "start": 161900,
+          "end": 162080,
+          "confidence": 0.9995005,
+          "speaker": "A"
+        },
+        {
+          "text": "我就",
+          "start": 162080,
+          "end": 163000,
+          "confidence": 0.99675816,
+          "speaker": "A"
+        },
+        {
+          "text": "聊",
+          "start": 163000,
+          "end": 163260,
+          "confidence": 0.99999726,
+          "speaker": "A"
+        },
+        {
+          "text": "一些",
+          "start": 163260,
+          "end": 163540,
+          "confidence": 0.99992967,
+          "speaker": "A"
+        },
+        {
+          "text": "生活",
+          "start": 163540,
+          "end": 163800,
+          "confidence": 0.9999994,
+          "speaker": "A"
+        },
+        {
+          "text": "当",
+          "start": 163800,
+          "end": 164040,
+          "confidence": 0.99999523,
+          "speaker": "A"
+        },
+        {
+          "text": "中",
+          "start": 164040,
+          "end": 164220,
+          "confidence": 0.99998534,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 164220,
+          "end": 164340,
+          "confidence": 0.99998534,
+          "speaker": "A"
+        },
+        {
+          "text": "琐",
+          "start": 164340,
+          "end": 164480,
+          "confidence": 1,
+          "speaker": "A"
+        },
+        {
+          "text": "事。",
+          "start": 164480,
+          "end": 165020,
+          "confidence": 0.99994373,
+          "speaker": "A"
+        },
+        {
+          "text": "无",
+          "start": 165150,
+          "end": 165330,
+          "confidence": 0.98660177,
+          "speaker": "A"
+        },
+        {
+          "text": "论",
+          "start": 165330,
+          "end": 165450,
+          "confidence": 0.9999981,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 165450,
+          "end": 166330,
+          "confidence": 0.99967337,
+          "speaker": "A"
+        },
+        {
+          "text": "我们",
+          "start": 166330,
+          "end": 166690,
+          "confidence": 0.9996375,
+          "speaker": "A"
+        },
+        {
+          "text": "日",
+          "start": 166690,
+          "end": 166770,
+          "confidence": 0.99997044,
+          "speaker": "A"
+        },
+        {
+          "text": "常",
+          "start": 166770,
+          "end": 167090,
+          "confidence": 0.9999887,
+          "speaker": "A"
+        },
+        {
+          "text": "中、",
+          "start": 167090,
+          "end": 167530,
+          "confidence": 0.8004089,
+          "speaker": "A"
+        },
+        {
+          "text": "日",
+          "start": 167530,
+          "end": 167710,
+          "confidence": 0.999979,
+          "speaker": "A"
+        },
+        {
+          "text": "常",
+          "start": 167710,
+          "end": 167910,
+          "confidence": 0.9999989,
+          "speaker": "A"
+        },
+        {
+          "text": "生活",
+          "start": 167910,
+          "end": 168210,
+          "confidence": 0.99999964,
+          "speaker": "A"
+        },
+        {
+          "text": "中",
+          "start": 168210,
+          "end": 168730,
+          "confidence": 0.9999918,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 168730,
+          "end": 169390,
+          "confidence": 0.9999918,
+          "speaker": "A"
+        },
+        {
+          "text": "困",
+          "start": 169390,
+          "end": 169610,
+          "confidence": 0.99999785,
+          "speaker": "A"
+        },
+        {
+          "text": "惑",
+          "start": 169610,
+          "end": 169710,
+          "confidence": 0.99999964,
+          "speaker": "A"
+        },
+        {
+          "text": "呀、",
+          "start": 169710,
+          "end": 170070,
+          "confidence": 0.9595386,
+          "speaker": "A"
+        },
+        {
+          "text": "开",
+          "start": 170070,
+          "end": 170190,
+          "confidence": 0.99999464,
+          "speaker": "A"
+        },
+        {
+          "text": "心",
+          "start": 170190,
+          "end": 170370,
+          "confidence": 0.9999975,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 170370,
+          "end": 170630,
+          "confidence": 0.99996924,
+          "speaker": "A"
+        },
+        {
+          "text": "事",
+          "start": 170630,
+          "end": 170770,
+          "confidence": 0.99996924,
+          "speaker": "A"
+        },
+        {
+          "text": "啊，",
+          "start": 170770,
+          "end": 171150,
+          "confidence": 0.99910635,
+          "speaker": "A"
+        },
+        {
+          "text": "或者",
+          "start": 171150,
+          "end": 171150,
+          "confidence": 0.999995,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 171150,
+          "end": 171750,
+          "confidence": 0.9998834,
+          "speaker": "A"
+        },
+        {
+          "text": "可能",
+          "start": 171750,
+          "end": 172010,
+          "confidence": 0.9999845,
+          "speaker": "A"
+        },
+        {
+          "text": "会",
+          "start": 172010,
+          "end": 172310,
+          "confidence": 0.9999931,
+          "speaker": "A"
+        },
+        {
+          "text": "聊",
+          "start": 172310,
+          "end": 172390,
+          "confidence": 0.9999968,
+          "speaker": "A"
+        },
+        {
+          "text": "到",
+          "start": 172390,
+          "end": 172770,
+          "confidence": 0.9999547,
+          "speaker": "A"
+        },
+        {
+          "text": "时",
+          "start": 172770,
+          "end": 173070,
+          "confidence": 0.9998926,
+          "speaker": "A"
+        },
+        {
+          "text": "事、",
+          "start": 173070,
+          "end": 173410,
+          "confidence": 0.8984842,
+          "speaker": "A"
+        },
+        {
+          "text": "新",
+          "start": 173410,
+          "end": 173610,
+          "confidence": 0.9999964,
+          "speaker": "A"
+        },
+        {
+          "text": "闻、",
+          "start": 173610,
+          "end": 173890,
+          "confidence": 0.9962977,
+          "speaker": "A"
+        },
+        {
+          "text": "政治，",
+          "start": 173890,
+          "end": 174710,
+          "confidence": 0.9367358,
+          "speaker": "A"
+        },
+        {
+          "text": "都",
+          "start": 174710,
+          "end": 174730,
+          "confidence": 0.8106315,
+          "speaker": "A"
+        },
+        {
+          "text": "可能。",
+          "start": 174730,
+          "end": 175430,
+          "confidence": 0.9713596,
+          "speaker": "A"
+        },
+        {
+          "text": "嗯，",
+          "start": 175630,
+          "end": 176150,
+          "confidence": 0.9985689,
+          "speaker": "A"
+        },
+        {
+          "text": "我的",
+          "start": 176150,
+          "end": 176270,
+          "confidence": 0.9999943,
+          "speaker": "A"
+        },
+        {
+          "text": "目",
+          "start": 176270,
+          "end": 176510,
+          "confidence": 0.9998852,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 176510,
+          "end": 176710,
+          "confidence": 0.9998852,
+          "speaker": "A"
+        },
+        {
+          "text": "就是",
+          "start": 176710,
+          "end": 177510,
+          "confidence": 0.9999802,
+          "speaker": "A"
+        },
+        {
+          "text": "为",
+          "start": 177510,
+          "end": 178090,
+          "confidence": 0.99538875,
+          "speaker": "A"
+        },
+        {
+          "text": "大家",
+          "start": 178090,
+          "end": 178450,
+          "confidence": 0.9999995,
+          "speaker": "A"
+        },
+        {
+          "text": "创",
+          "start": 178450,
+          "end": 178710,
+          "confidence": 0.9999646,
+          "speaker": "A"
+        },
+        {
+          "text": "造",
+          "start": 178710,
+          "end": 178870,
+          "confidence": 0.99999726,
+          "speaker": "A"
+        },
+        {
+          "text": "一个",
+          "start": 178870,
+          "end": 179110,
+          "confidence": 0.9999981,
+          "speaker": "A"
+        },
+        {
+          "text": "非常",
+          "start": 179110,
+          "end": 179450,
+          "confidence": 0.9999989,
+          "speaker": "A"
+        },
+        {
+          "text": "自",
+          "start": 179450,
+          "end": 179790,
+          "confidence": 0.99995065,
+          "speaker": "A"
+        },
+        {
+          "text": "然",
+          "start": 179790,
+          "end": 179890,
+          "confidence": 0.99995065,
+          "speaker": "A"
+        },
+        {
+          "text": "的、",
+          "start": 179890,
+          "end": 180130,
+          "confidence": 0.98760563,
+          "speaker": "A"
+        },
+        {
+          "text": "有",
+          "start": 180130,
+          "end": 180190,
+          "confidence": 0.9999944,
+          "speaker": "A"
+        },
+        {
+          "text": "趣",
+          "start": 180190,
+          "end": 180670,
+          "confidence": 0.99999976,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 180670,
+          "end": 181250,
+          "confidence": 0.99974006,
+          "speaker": "A"
+        },
+        {
+          "text": "语",
+          "start": 181250,
+          "end": 181430,
+          "confidence": 0.9994319,
+          "speaker": "A"
+        },
+        {
+          "text": "言",
+          "start": 181430,
+          "end": 181529,
+          "confidence": 0.9994319,
+          "speaker": "A"
+        },
+        {
+          "text": "学",
+          "start": 181529,
+          "end": 181890,
+          "confidence": 0.9999969,
+          "speaker": "A"
+        },
+        {
+          "text": "习",
+          "start": 181890,
+          "end": 182090,
+          "confidence": 0.9999969,
+          "speaker": "A"
+        },
+        {
+          "text": "环",
+          "start": 182090,
+          "end": 182330,
+          "confidence": 0.99998045,
+          "speaker": "A"
+        },
+        {
+          "text": "境。",
+          "start": 182330,
+          "end": 182930,
+          "confidence": 0.9998925,
+          "speaker": "A"
+        },
+        {
+          "text": "那就",
+          "start": 183290,
+          "end": 183770,
+          "confidence": 0.9998597,
+          "speaker": "A"
+        },
+        {
+          "text": "说",
+          "start": 183770,
+          "end": 183990,
+          "confidence": 0.99995124,
+          "speaker": "A"
+        },
+        {
+          "text": "到",
+          "start": 183990,
+          "end": 184190,
+          "confidence": 0.9999968,
+          "speaker": "A"
+        },
+        {
+          "text": "这里",
+          "start": 184190,
+          "end": 184390,
+          "confidence": 0.99999785,
+          "speaker": "A"
+        },
+        {
+          "text": "了，",
+          "start": 184390,
+          "end": 184890,
+          "confidence": 0.9815561,
+          "speaker": "A"
+        },
+        {
+          "text": "我们",
+          "start": 184890,
+          "end": 185250,
+          "confidence": 0.9767592,
+          "speaker": "A"
+        },
+        {
+          "text": "下",
+          "start": 185250,
+          "end": 185590,
+          "confidence": 0.9999974,
+          "speaker": "A"
+        },
+        {
+          "text": "一次",
+          "start": 185590,
+          "end": 185890,
+          "confidence": 0.6008255,
+          "speaker": "A"
+        },
+        {
+          "text": "正",
+          "start": 185890,
+          "end": 186090,
+          "confidence": 0.999974,
+          "speaker": "A"
+        },
+        {
+          "text": "式",
+          "start": 186090,
+          "end": 186270,
+          "confidence": 0.999974,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 186270,
+          "end": 186470,
+          "confidence": 0.9999542,
+          "speaker": "A"
+        },
+        {
+          "text": "节",
+          "start": 186470,
+          "end": 186550,
+          "confidence": 0.99999964,
+          "speaker": "A"
+        },
+        {
+          "text": "目",
+          "start": 186550,
+          "end": 186690,
+          "confidence": 0.9999341,
+          "speaker": "A"
+        },
+        {
+          "text": "再见。",
+          "start": 186690,
+          "end": 187240,
+          "confidence": 0.9901783,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.9821545,
+  "audio_duration": 196,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "redact_static_entities": null,
+  "speaker_labels": true,
+  "speaker_options": {
+    "min_speakers_expected": null,
+    "max_speakers_expected": null,
+    "advanced_speaker_segmentation": true
+  },
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": false,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-3-5-pro"
+  ],
+  "speech_model_used": "universal-3-5-pro",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": null,
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 1623026,
+  "token_id": 1639457
+}
