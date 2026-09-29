@@ -71,6 +71,32 @@ seconds to a couple minutes depending on episode length — it's not instant, so
 hung. Pass `--narrator B` only if the user tells you the wrong speaker was picked as host, and
 `--force` only per step 1.5 above.
 
+### Podcast episodes play from our own copy
+
+For a podcast episode (`CC…` and any other show from `storyfm podcast`), `add` first downloads the
+feed's mp3, re-encodes it to `data/audio/<id>.m4a` (64k mono AAC, not in git), deploys it to the
+`storyfm-audio` Worker and records the URL as `m4a` in `data/podcasts.json`. AssemblyAI and the
+player both use that copy. This adds a minute or so (the wrangler deploy) — it has not hung.
+
+Never let a podcast episode play from the feed's mp3. Firstory's mp3s carry a VBR "Xing" header,
+and Chrome seeks one through its coarse table: on CC2 a tapped line landed anywhere from 3.7s early
+to 1.4s late, so the user heard the sentence before (or after) its line lit up, and every loop and
+Anki card played the wrong words. The m4a seeks to within 15ms. So after the build, check:
+
+```
+node -e 'console.log(JSON.parse(require("fs").readFileSync("docs/data/<ID>.json")).audio)'
+```
+
+It must be `{ m4a: 'https://storyfm-audio….workers.dev/<ID>.m4a' }`. If it still says `mp3`, or the
+deploy failed (wrangler not logged in, file over 25 MiB), stop and tell the user — do not carry on
+with the episode on the mp3. An old podcast episode still on `mp3` moves over with
+`storyfm add <ID> --resegment` (free, no AssemblyAI call; it hosts the audio first).
+
+If the user ever says a line plays ahead of or behind its highlight — any source — measure before
+blaming the timestamps: seek the real `<audio>` in Chrome, record what it plays and match it to the
+file (the "verify the player in real Chrome" memory has the method). Timestamps off by a word are
+~0.1s; a whole second or more is the audio file seeking wrong.
+
 The command reports the share of cues ending in 。！？ as a punctuation-quality signal. **Under 50%
 means the ASR barely punctuated and the episode needs a look** before going further — tell the user
 and ask whether to continue rather than pushing ahead silently.
@@ -82,7 +108,7 @@ starting on one plays without its first syllable (E001's 就是装修都很好�
 after transcribing, read the real starts off the audio and rebuild:
 
 ```
-node tools/onsets.mjs <ID>                      # downloads the mp3 once to tools/.cache/, needs ffmpeg
+node tools/onsets.mjs <ID>                      # needs ffmpeg; reads data/audio/<ID>.m4a if hosted, else caches the mp3 in tools/.cache/
 node bin/storyfm.js add <ID> --resegment        # free, replays data/onsets/ onto the words
 ```
 
@@ -208,7 +234,9 @@ the page with the translations shown (`npm run serve`, **Hiện dịch**) to see
 These steps together touch: `data/raw/<id>.json`, `docs/data/<id>.json`, `docs/data/index.json`,
 `data/onsets/<id>.json`, `data/corrections/<id>.json`, `data/cuts/<id>.json`, the two sidecars `docs/data/<id>.tok.json` and
 `docs/data/<id>.gloss.json`, `tools/gloss-vi.json`, and the translation `data/translations/<id>.json`
-with what the page loads of it, `docs/data/<id>.vi.json`. Note that `build_tokens.py` recounts word
+with what the page loads of it, `docs/data/<id>.vi.json`; for a podcast episode also
+`data/podcasts.json`, which records the hosted `m4a` (the file itself lives on the Worker, not in
+git). Note that `build_tokens.py` recounts word
 frequencies across every episode, so the other episodes' `.tok.json` files change too — that is
 expected, not a stray edit. Run `git status --short` to show exactly
 what changed, then give the user a short summary:

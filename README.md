@@ -58,6 +58,7 @@ RSS (data/feed.xml)
 |---|---|
 | `src/feed.js` | Fetch and parse the RSS feed — the source of truth for ids, titles and audio URLs |
 | `src/podcasts.js` | Other podcasts: turn a Spotify / Apple / Firstory link into the show's RSS, snapshot its episodes into `data/podcasts.json`, id them `<prefix><number>` (CC119) |
+| `src/cdn.js` | The `storyfm-audio` Worker (`cdn/`) that serves audio we host: Bilibili's, and every other podcast's re-encoded to m4a — Firstory's mp3s have a VBR Xing header that Chrome seeks up to 4s off |
 | `src/asr.js` | AssemblyAI: submit `audio_url`, poll until done |
 | `src/onsets.js` | AssemblyAI gives some words no length and parks them on the next word, so a line starting on one skips its first syllable (就是装修… plays as 装修…). Moves each such word back to the end of the pause before it, as `data/onsets/` says. Pure, tested |
 | `tools/onsets.mjs` | Writes `data/onsets/<id>.json` from the episode's audio (downloaded once to `tools/.cache/`, decoded with ffmpeg) |
