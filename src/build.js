@@ -11,6 +11,7 @@ import { dirname } from 'node:path';
 import { paths } from './paths.js';
 import { loadFeed } from './feed.js';
 import { loadBilibiliEpisodes } from './bilibili.js';
+import { loadPodcastEpisodes } from './podcasts.js';
 import { transcribe } from './asr.js';
 import { toSentences, punctuationRate } from './segment.js';
 import { splitSentence, joinSentences } from './cuts.js';
@@ -36,16 +37,19 @@ const formatDuration = (/** @type {number} */ seconds) =>
   `${Math.floor(seconds / 60)}:${String(Math.round(seconds % 60)).padStart(2, '0')}`;
 
 /**
- * A 故事FM episode from the feed, or a Bilibili video from data/bilibili.json.
- * @typedef {import('./feed.js').Episode | (import('./bilibili.js').Video & { guid: string, source: 'bilibili' })} Source
+ * A 故事FM episode from the feed, a Bilibili video from data/bilibili.json, or another podcast's
+ * episode from data/podcasts.json.
+ * @typedef {import('./feed.js').Episode
+ *   | (import('./bilibili.js').Video & { guid: string, source: 'bilibili' })
+ *   | (import('./podcasts.js').PodcastEpisode & { source: 'podcast', owner: string })} Source
  */
 
 /** The audio URL AssemblyAI fetches and the player plays. */
 const audioUrl = (/** @type {Source} */ episode) => ('m4a' in episode ? episode.m4a : episode.mp3);
 
-/** Every episode that can be built, 故事FM's and Bilibili's alike. */
+/** Every episode that can be built, 故事FM's, Bilibili's and the other podcasts' alike. */
 export async function loadEpisodes() {
-  return [...(await loadFeed()), ...(await loadBilibiliEpisodes())];
+  return [...(await loadFeed()), ...(await loadBilibiliEpisodes()), ...(await loadPodcastEpisodes())];
 }
 
 /**
@@ -73,6 +77,7 @@ export async function buildEpisode(episode, { force = false, resegment = false, 
     duration: episode.duration,
     audio: 'm4a' in episode ? { m4a: episode.m4a } : { mp3: episode.mp3 },
     ...('source' in episode && { source: episode.source, owner: episode.owner }),
+    ...('link' in episode && { link: episode.link }),
     engine: 'assemblyai',
     cues,
   });
@@ -227,7 +232,7 @@ function report(id, cues) {
   console.log(`\nXem thử:  npm run serve  →  http://localhost:8080/player.html?ep=${id}`);
 }
 
-/** The index is derived from the feed and data/bilibili.json so titles and dates have exactly one source. */
+/** The index is derived from the feed, data/bilibili.json and data/podcasts.json so titles and dates have exactly one source. */
 export async function rebuildIndex() {
   const episodes = await loadEpisodes();
   const entries = episodes

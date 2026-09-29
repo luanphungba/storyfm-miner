@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>故事FM · Bilibili — nghe có transcript</title>
+<title>故事FM · Podcast · Bilibili — nghe có transcript</title>
 <link rel="stylesheet" href="app.css">
 </head>
 <body>
@@ -12,6 +12,7 @@
   <h1>故事FM</h1>
   <p class="meta" id="meta">Đang tải…</p>
   <div id="list"></div>
+  <div id="podcasts"></div>
   <h2 class="section" id="bili-heading" hidden>Bilibili</h2>
   <div id="bili-list"></div>
 </div>
@@ -29,7 +30,15 @@
     const { episodes } = await response.json();
 
     const videos = episodes.filter((episode) => episode.source === 'bilibili');
-    const stories = episodes.filter((episode) => episode.source !== 'bilibili');
+    const stories = episodes.filter((episode) => !episode.source);
+    // Each other podcast gets its own heading, named after the show; its episodes need not repeat it.
+    const shows = Map.groupBy(episodes.filter((episode) => episode.source === 'podcast'), (episode) => episode.owner);
+    document.getElementById('podcasts').replaceChildren(...[...shows].flatMap(([show, items]) => {
+      const heading = document.createElement('h2');
+      heading.className = 'section';
+      heading.textContent = show;
+      return [heading, ...items.map((episode) => toLink({ ...episode, owner: undefined }))];
+    }));
     meta.textContent = `${stories.length} tập đã có transcript`;
     document.getElementById('bili-heading').hidden = !videos.length;
     document.getElementById('bili-list').replaceChildren(...videos.map(toLink));

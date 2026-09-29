@@ -78,6 +78,7 @@ async function load() {
 
   audio.src = data.audio.m4a ?? data.audio.mp3;
   if (data.source === 'bilibili') showBilibili(data);
+  if (data.source === 'podcast') showPodcast(data);
   render();
   announce('cues', { lang: CUE_LANG, cues });
   applyDeepLink();
@@ -106,6 +107,23 @@ function showBilibili(/** @type {{ id: string, owner?: string }} */ data) {
   point();
   link.addEventListener('pointerdown', point);
   link.addEventListener('focus', point);
+}
+
+/** Another podcast: the meta line names the show and links the episode's page, whose show notes
+ * carry the host's own vocabulary list and transcript. Two people talking have no narrator and
+ * storyteller to filter between, so the filter goes; the colours still tell the voices apart. */
+function showPodcast(/** @type {{ owner?: string, link?: string }} */ data) {
+  $('meta').prepend(data.owner ? `${data.owner} · ` : '');
+  if (data.link) {
+    const notes = document.createElement('a');
+    notes.href = data.link;
+    notes.target = '_blank';
+    notes.rel = 'noopener';
+    notes.textContent = 'Show notes ↗';
+    $('meta').append(' · ', notes);
+  }
+  $('filter-all').hidden = true;
+  $('filter-storyteller').hidden = true;
 }
 
 // ---------- render ----------

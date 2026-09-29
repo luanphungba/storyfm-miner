@@ -23,9 +23,15 @@ const formatDuration = (/** @type {number} */ seconds) =>
 
 async function sync() {
   const episodes = await syncFeed();
+  console.log(`Đã lưu data/feed.xml — ${episodes.length} tập.`);
+  const { loadShows, syncShow } = await import('../src/podcasts.js');
+  for (const { feed } of await loadShows()) {
+    const show = await syncShow(feed);
+    console.log(`Đã cập nhật ${show.title} — ${show.episodes.length} tập.`);
+  }
   const { rebuildIndex } = await import('../src/build.js');
   const indexed = await rebuildIndex();
-  console.log(`Đã lưu data/feed.xml — ${episodes.length} tập, ${indexed.length} tập đã có transcript.`);
+  console.log(`${indexed.length} tập đã có transcript.`);
 }
 
 async function list(/** @type {string[]} */ argv) {
@@ -82,6 +88,40 @@ async function bili(/** @type {string[]} */ argv) {
   await buildEpisode(episode, { force: values.force, narrator: values.narrator });
 }
 
+async function podcast(/** @type {string[]} */ argv) {
+  const { values, positionals } = parseArgs({
+    args: argv,
+    allowPositionals: true,
+    options: {
+      prefix: { type: 'string' },
+      limit: { type: 'string' },
+      narrator: { type: 'string' },
+    },
+  });
+  const [link] = positionals;
+  if (!link) throw new Error('Thiếu link. Ví dụ: storyfm podcast https://open.spotify.com/show/42STZ89SIiroukDHp20GBp');
+
+  const { resolveFeed, syncShow } = await import('../src/podcasts.js');
+  const { feed, episodeTitle } = await resolveFeed(link);
+  const show = await syncShow(feed, values.prefix);
+  console.log(`${show.title} · ${show.episodes.length} tập · mã ${show.prefix}… · ${feed}`);
+
+  if (!episodeTitle) {
+    for (const episode of show.episodes.slice(0, Number(values.limit ?? DEFAULT_LIST_LIMIT))) {
+      const mark = existsSync(paths.episode(episode.id)) ? '✓' : ' ';
+      console.log(`${mark} ${episode.id.padEnd(12)} ${episode.pubDate}  ${formatDuration(episode.duration).padStart(6)}  ${episode.title}`);
+    }
+    console.log(`
+Thêm một tập: storyfm add ${show.episodes[0]?.id ?? `${show.prefix}1`}`);
+    return;
+  }
+
+  const found = show.episodes.find((episode) => episode.title.trim() === episodeTitle.trim());
+  if (!found) throw new Error(`Không thấy tập "${episodeTitle}" trong RSS của ${show.title}. Xem danh sách: storyfm podcast ${show.feed}`);
+  const { buildEpisode, loadEpisodes } = await import('../src/build.js');
+  await buildEpisode(findEpisode(await loadEpisodes(), found.id), { narrator: values.narrator });
+}
+
 async function models() {
   const apiKey = process.env.ASSEMBLYAI_API_KEY;
   if (!apiKey) throw new Error('Thiếu ASSEMBLYAI_API_KEY trong .env.');
@@ -95,11 +135,11 @@ async function models() {
   }
 }
 
-const COMMANDS = { sync, list, add, bili, models };
+const COMMANDS = { sync, list, add, bili, podcast, models };
 
 const USAGE = `storyfm — transcript cho 故事FM
 
-  storyfm sync                  tải lại RSS về data/feed.xml
+  storyfm sync                  tải lại RSS của 故事FM và các podcast đã thêm
   storyfm list [--limit 20]     liệt kê tập (✓ = đã có transcript)
   storyfm add E910              transcribe một tập
     --force                     transcribe lại dù đã có (tốn tiền)
@@ -108,6 +148,11 @@ const USAGE = `storyfm — transcript cho 故事FM
 
   storyfm bili <link|BV…>       tải audio Bilibili, đẩy lên Pages, transcribe
                                 (sau đó dùng add BV… --resegment như tập thường)
+
+  storyfm podcast <link>        thêm một podcast khác (link Spotify / Apple / Firstory / RSS)
+    --prefix CC                 mã đầu cho tập của show mới (mặc định: chữ đầu tên Latin)
+                                link show → liệt kê tập; link một tập → transcribe tập đó
+                                (sau đó dùng add CC119 như tập thường)
 
   storyfm models                liệt kê model ASR, → là cái đang dùng
 `;

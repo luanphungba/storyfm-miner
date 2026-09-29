@@ -12,6 +12,9 @@ description: >
   "thêm cho tôi podcast này: https://www.xiaoyuzhoufm.com/episode/...",
   "add this episode", "transcribe E910", or pastes a xiaoyuzhoufm.com/episode
   link and asks for it to be added — even if they don't spell out the steps.
+  Also covers other podcasts (瞎扯学中文 Convo Chinese and any show with an
+  RSS feed): a Spotify, Apple Podcasts or Firstory episode/show link, or an
+  id like CC119.
   Do not just run `storyfm add` directly for a xiaoyuzhoufm link without this
   skill's id-resolution and quality-check steps.
 ---
@@ -41,6 +44,15 @@ URL — there's no code in this repo that talks to xiaoyuzhoufm directly, and �
    `node bin/storyfm.js list --limit 1000 | grep -i E<number>` (or grep by a distinctive title
    substring if there's no leading number). Check the title and pubDate roughly match what
    xiaoyuzhoufm showed you.
+   **A link from Spotify, Apple Podcasts or Firstory is another podcast, not 故事FM** (e.g. 瞎扯学中文
+   Convo Chinese). `node bin/storyfm.js podcast <show link>` resolves the show's RSS, snapshots its
+   episodes into `data/podcasts.json` and lists them with ids `<prefix><number>` (Convo Chinese is
+   `CC`, so "Episode 119 | …" is `CC119`). For a link to a single episode, find its title
+   (`WebFetch`, or the Spotify page's `<title>`), run the show link once to sync, and pick the id
+   from the list — then continue with `storyfm add CC119` below exactly as for 故事FM. A new show
+   takes `--prefix XX` if its title has no Latin words to take initials from; ask the user which
+   prefix they want rather than inventing one. (`podcast <episode link>` also transcribes directly,
+   but going through the list lets you do step 5's check first.)
 4. If nothing matches — the episode isn't in 故事FM's feed yet, or the titles disagree enough that
    you're not sure — **stop and ask the user** rather than guessing an id. A wrong id transcribes
    the wrong episode and costs real AssemblyAI money to undo.
@@ -165,7 +177,9 @@ woman), what a name refers to, what a joke or callback points back to. Then tran
 - **Natural Vietnamese, not calqued Chinese.** Word order, particles (mà, đấy, chứ, nhé) and phrasing
   as a Vietnamese speaker would say it. Numbers as digits where a Vietnamese text would use them.
 - **One set of names and forms of address for the whole episode**, decided before starting:
-  - the host 爱哲 is *Ái Triết*, the show 故事FM is *Cố Sự FM*; the listener is *bạn*;
+  - the host 爱哲 is *Ái Triết*, the show 故事FM is *Cố Sự FM*; the listener is *bạn*; for another
+    podcast, take the hosts' names from the episode itself and its show notes (the `link` in the
+    episode file), not from the ASR's spelling alone;
   - Chinese people's names in Hán Việt (史祥莆 → Sử Tường Bồ); Western names in their own spelling
     (本杰明 → Benjamin); Korean names and places as Vietnamese press writes them (金正日 → Kim
     Jong-il, 新义州 → Sinuiju, 平壤 → Bình Nhưỡng); Chinese places in Hán Việt (丹东 → Đan Đông);

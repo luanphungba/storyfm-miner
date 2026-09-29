@@ -65,6 +65,16 @@ Stop and think when something doesn't fit:
 - **A verifiable real-world fact.** A company name, a public figure — use WebSearch rather than
   memory, and only fix if the search actually confirms it. (This is how 果壳网, 梁科, and the host's
   name 爱哲 got confirmed in this corpus — all checkable, not guessed.)
+- **The host's own transcript, when the show publishes one.** 故事FM doesn't, but 瞎扯学中文 Convo
+  Chinese (ids `CC…`) does: the episode's show notes in its RSS (feed URL in `data/podcasts.json`,
+  item `<description>`) either hold the transcript itself (early episodes, e.g. CC1) or link it on
+  yaya.press (newer ones — that page renders with JavaScript, so read it through the installed
+  Chrome, not curl). Read it side by side with the cues. Where it confirms a different word — a
+  name, a term, an English word the ASR split — that is a fix. **It is edited, not verbatim**: the
+  host drops 嗯/呃 and repeats and sometimes rewords (CC1's sentence 15 adds 能够能够学习到, which
+  neither AssemblyAI nor whisper hears). The page must match the audio, so never copy it over
+  wholesale; where the two differ by more than a mis-heard word, listen (whisper on an ffmpeg slice
+  of `tools/.cache/audio/<id>.mp3`) and keep what was said.
 
 **Fix it** when one of these gets you to real confidence. **Leave it and note it** when you can't —
 an unverifiable name, a low-confidence function word that reads fine either way, a producer credit

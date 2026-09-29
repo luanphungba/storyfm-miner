@@ -33,8 +33,9 @@ def HAN(text):
 
 
 def episodes():
-    """The transcripts themselves — not the sidecars this script and build_gloss.mjs write beside them."""
-    return sorted(p for p in DATA.glob("E*.json") if p.name.count(".") == 1)
+    """Every built episode — 故事FM, Bilibili and the other podcasts alike — as the index lists them."""
+    listed = json.loads((DATA / "index.json").read_text(encoding="utf-8"))["episodes"]
+    return sorted(DATA / f"{episode['id']}.json" for episode in listed)
 
 
 def units(cues):

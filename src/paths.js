@@ -22,6 +22,8 @@ export const paths = {
   translations: (/** @type {string} */ id) => join(ROOT, 'data', 'translations', `${id}.json`),
   /** The Bilibili videos added, the counterpart of feed.xml — see src/bilibili.js. */
   bilibili: join(ROOT, 'data', 'bilibili.json'),
+  /** The other podcasts added and a snapshot of each one's episodes — see src/podcasts.js. */
+  podcasts: join(ROOT, 'data', 'podcasts.json'),
   /** Downloaded Bilibili audio, published to Cloudflare Pages and kept out of git. */
   audio: (/** @type {string} */ id) => join(ROOT, 'data', 'audio', `${id}.m4a`),
   episode: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.json`),

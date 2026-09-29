@@ -72,7 +72,7 @@ function sameReading(listed, ours) {
 const problems = {};
 const note = (kind, detail) => (problems[kind] ||= []).push(detail);
 
-const episodes = readdirSync(DATA).filter((f) => /^(E|BV)[^.]*\.json$/.test(f)).sort();
+const episodes = JSON.parse(readFileSync(join(DATA, 'index.json'), 'utf8')).episodes.map((/** @type {{id: string}} */ e) => `${e.id}.json`).sort();
 const seen = new Map();
 
 for (const file of episodes) {

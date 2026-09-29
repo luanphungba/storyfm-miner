@@ -19,13 +19,15 @@ node bin/storyfm.js sync
 ## Commands
 
 ```bash
-storyfm sync                  # refresh data/feed.xml from the RSS feed
+storyfm sync                  # refresh data/feed.xml from the RSS feed, and every podcast added
 storyfm list --limit 20       # list episodes (✓ = transcript exists)
 storyfm add E077              # transcribe one episode (~$0.06 for 13 minutes)
 storyfm add E077 --force      # redo an episode that already has one
 node tools/onsets.mjs E077    # find in the audio where words the ASR collapsed really start
 storyfm add E077 --resegment  # rebuild from data/raw + onsets + corrections + cuts (free, no API call)
 storyfm add E077 --narrator B # override which speaker is the host
+storyfm podcast <link>        # add another podcast from a Spotify / Apple / Firstory / RSS link and list its
+                              # episodes (ids like CC119); a link to one episode transcribes it
 
 npm test                      # unit tests
 npm run serve                 # http://localhost:8080
@@ -55,6 +57,7 @@ RSS (data/feed.xml)
 | | |
 |---|---|
 | `src/feed.js` | Fetch and parse the RSS feed — the source of truth for ids, titles and audio URLs |
+| `src/podcasts.js` | Other podcasts: turn a Spotify / Apple / Firstory link into the show's RSS, snapshot its episodes into `data/podcasts.json`, id them `<prefix><number>` (CC119) |
 | `src/asr.js` | AssemblyAI: submit `audio_url`, poll until done |
 | `src/onsets.js` | AssemblyAI gives some words no length and parks them on the next word, so a line starting on one skips its first syllable (就是装修… plays as 装修…). Moves each such word back to the end of the pause before it, as `data/onsets/` says. Pure, tested |
 | `tools/onsets.mjs` | Writes `data/onsets/<id>.json` from the episode's audio (downloaded once to `tools/.cache/`, decoded with ffmpeg) |
