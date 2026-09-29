@@ -66,16 +66,29 @@ async function writeJson(/** @type {string} */ path, /** @type {unknown} */ valu
  * corpus: 100% of zero-gap Latin-Latin pairs are a split single word, never two real ones, so this
  * is safe to auto-fix. (segment.js itself is left untouched — its own glue() is a pure, tested
  * function and changing it risks the "996 is hard" case where two real words happen to abut.)
+ *
+ * The one exception is real English speech or song (a Bilibili video's closing song: "Ever since
+ * I was young"), where sung words abut too. A run of MIN_ENGLISH_RUN or more Latin tokens in a row
+ * is taken as English, not as a split product name, and left alone.
  */
+const MIN_ENGLISH_RUN = 4;
+/** A word of that run may carry its punctuation ("on,", "won", "'t"). */
+const isLatinWord = (/** @type {string} */ text) => /^[A-Za-z']+[,.!?]*$/.test(text);
+
 function findGlueFixes(/** @type {any[]} */ words) {
   /** @type {Map<string, string>} */
   const fixes = new Map();
-  for (let i = 1; i < words.length; i += 1) {
-    const prev = words[i - 1];
-    const cur = words[i];
-    if (isAsciiAlpha(prev.text) && isAsciiAlpha(cur.text) && cur.start - prev.end <= 0) {
-      fixes.set(`${prev.text} ${cur.text}`, `${prev.text}${cur.text}`);
+  let runStart = 0;
+  for (let i = 0; i <= words.length; i += 1) {
+    if (i < words.length && isLatinWord(words[i].text)) continue;
+    if (i - runStart < MIN_ENGLISH_RUN) {
+      for (let j = runStart + 1; j < i; j += 1) {
+        const prev = words[j - 1];
+        const cur = words[j];
+        if (isAsciiAlpha(prev.text) && isAsciiAlpha(cur.text) && cur.start - prev.end <= 0) fixes.set(`${prev.text} ${cur.text}`, `${prev.text}${cur.text}`);
+      }
     }
+    runStart = i + 1;
   }
   return fixes;
 }
@@ -161,8 +174,8 @@ async function main() {
 
   for (const cue of sentencesOf(raw, ledger)) {
     const original = cue.text;
-    let text = applyGlueFixes(original, glueFixes);
-    text = applyKnownFixes(text, knownFixes);
+    const glued = applyGlueFixes(original, glueFixes);
+    const text = applyKnownFixes(glued, knownFixes);
     if (text !== original) {
       const { before, after } = diffSpan(original, text);
       const key = `${cue.i}:${before}:${after}`;
@@ -171,8 +184,8 @@ async function main() {
           cueIndex: cue.i,
           before,
           after,
-          source: glueFixes.has(before) ? 'glue-bug' : 'known-phrase',
-          reason: glueFixes.has(before)
+          source: glued !== original ? 'glue-bug' : 'known-phrase',
+          reason: glued !== original
             ? 'AssemblyAI split one Latin word/acronym into fragments; joined back together.'
             : 'Matches a known recurring mistake in the show\'s fixed script (scripts/known-fixes.json).',
           appliedAt: new Date().toISOString().slice(0, 10),

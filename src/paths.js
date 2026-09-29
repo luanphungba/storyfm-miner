@@ -20,6 +20,10 @@ export const paths = {
   onsets: (/** @type {string} */ id) => join(ROOT, 'data', 'onsets', `${id}.json`),
   /** The Vietnamese translation and summary, each sentence with the Chinese it was written for. */
   translations: (/** @type {string} */ id) => join(ROOT, 'data', 'translations', `${id}.json`),
+  /** The Bilibili videos added, the counterpart of feed.xml — see src/bilibili.js. */
+  bilibili: join(ROOT, 'data', 'bilibili.json'),
+  /** Downloaded Bilibili audio, published to Cloudflare Pages and kept out of git. */
+  audio: (/** @type {string} */ id) => join(ROOT, 'data', 'audio', `${id}.m4a`),
   episode: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.json`),
   /** What the page loads of the translation — see src/translations.js. */
   vi: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.vi.json`),

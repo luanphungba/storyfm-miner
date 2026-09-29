@@ -77,11 +77,35 @@ async function load() {
   $('meta').textContent = `${data.pubDate} · ${formatTime(data.duration)} · ${cues.length} câu`;
 
   audio.src = data.audio.m4a ?? data.audio.mp3;
+  if (data.source === 'bilibili') showBilibili(data);
   render();
   announce('cues', { lang: CUE_LANG, cues });
   applyDeepLink();
   loadWords();
   loadTranslation();
+}
+
+/** A Bilibili video is heard here but watched there: the meta line links the original under the
+ * title, the toolbar link opens it at the second being heard, and the narrator filter has nothing
+ * to split, so it goes. */
+function showBilibili(/** @type {{ id: string, owner?: string }} */ data) {
+  const bvid = data.id;
+  const original = document.createElement('a');
+  original.href = `https://www.bilibili.com/video/${bvid}/`;
+  original.target = '_blank';
+  original.rel = 'noopener';
+  original.textContent = 'Xem video gốc trên Bilibili ↗';
+  $('meta').prepend(data.owner ? `${data.owner} · ` : '');
+  $('meta').append(' · ', original);
+
+  $('filter-all').hidden = true;
+  $('filter-storyteller').hidden = true;
+  const link = /** @type {HTMLAnchorElement} */ ($('open-bilibili'));
+  link.hidden = false;
+  const point = () => { link.href = `https://www.bilibili.com/video/${bvid}/?t=${Math.floor(audio.currentTime)}`; };
+  point();
+  link.addEventListener('pointerdown', point);
+  link.addEventListener('focus', point);
 }
 
 // ---------- render ----------

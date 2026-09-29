@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>故事FM — nghe có transcript</title>
+<title>故事FM · Bilibili — nghe có transcript</title>
 <link rel="stylesheet" href="app.css">
 </head>
 <body>
@@ -12,6 +12,8 @@
   <h1>故事FM</h1>
   <p class="meta" id="meta">Đang tải…</p>
   <div id="list"></div>
+  <h2 class="section" id="bili-heading" hidden>Bilibili</h2>
+  <div id="bili-list"></div>
 </div>
 
 <script type="module">
@@ -26,18 +28,24 @@
     if (!response.ok) throw new Error(String(response.status));
     const { episodes } = await response.json();
 
-    meta.textContent = `${episodes.length} tập đã có transcript`;
-    list.replaceChildren(...episodes.map((episode) => {
-      const link = document.createElement('a');
-      link.className = 'episode';
-      link.href = `player.html?ep=${encodeURIComponent(episode.id)}`;
-      link.innerHTML = '<div class="title"></div><div class="sub"></div>';
-      link.querySelector('.title').textContent = episode.title;
-      link.querySelector('.sub').textContent = `${episode.pubDate} · ${formatDuration(episode.duration)}`;
-      return link;
-    }));
+    const videos = episodes.filter((episode) => episode.source === 'bilibili');
+    const stories = episodes.filter((episode) => episode.source !== 'bilibili');
+    meta.textContent = `${stories.length} tập đã có transcript`;
+    document.getElementById('bili-heading').hidden = !videos.length;
+    document.getElementById('bili-list').replaceChildren(...videos.map(toLink));
+    list.replaceChildren(...stories.map(toLink));
   } catch {
     meta.textContent = 'Chưa có tập nào. Chạy `storyfm add <mã tập>` rồi tải lại trang.';
+  }
+
+  function toLink(episode) {
+    const link = document.createElement('a');
+    link.className = 'episode';
+    link.href = `player.html?ep=${encodeURIComponent(episode.id)}`;
+    link.innerHTML = '<div class="title"></div><div class="sub"></div>';
+    link.querySelector('.title').textContent = episode.title;
+    link.querySelector('.sub').textContent = [episode.owner, episode.pubDate, formatDuration(episode.duration)].filter(Boolean).join(' · ');
+    return link;
   }
 </script>
 </body>

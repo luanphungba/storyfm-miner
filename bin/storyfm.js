@@ -57,13 +57,29 @@ async function add(/** @type {string[]} */ argv) {
   const [id] = positionals;
   if (!id) throw new Error('Thiếu mã tập. Ví dụ: storyfm add E910');
 
-  const episode = findEpisode(await loadFeed(), id);
-  const { buildEpisode } = await import('../src/build.js');
+  const { buildEpisode, loadEpisodes } = await import('../src/build.js');
+  const episode = findEpisode(await loadEpisodes(), id);
   await buildEpisode(episode, {
     force: values.force,
     resegment: values.resegment,
     narrator: values.narrator,
   });
+}
+
+async function bili(/** @type {string[]} */ argv) {
+  const { values, positionals } = parseArgs({
+    args: argv,
+    allowPositionals: true,
+    options: { force: { type: 'boolean', default: false }, narrator: { type: 'string' } },
+  });
+  const [link] = positionals;
+  if (!link) throw new Error('Thiếu link. Ví dụ: storyfm bili https://www.bilibili.com/video/BV1f9t86REx8/');
+
+  const { importVideo, loadBilibiliEpisodes } = await import('../src/bilibili.js');
+  const { buildEpisode } = await import('../src/build.js');
+  const video = await importVideo(link);
+  const episode = findEpisode(await loadBilibiliEpisodes(), video.id);
+  await buildEpisode(episode, { force: values.force, narrator: values.narrator });
 }
 
 async function models() {
@@ -79,7 +95,7 @@ async function models() {
   }
 }
 
-const COMMANDS = { sync, list, add, models };
+const COMMANDS = { sync, list, add, bili, models };
 
 const USAGE = `storyfm — transcript cho 故事FM
 
@@ -89,6 +105,9 @@ const USAGE = `storyfm — transcript cho 故事FM
     --force                     transcribe lại dù đã có (tốn tiền)
     --resegment                 dựng lại từ data/raw/ + corrections + cuts, không gọi API
     --narrator B                chỉ định speaker nào là người dẫn
+
+  storyfm bili <link|BV…>       tải audio Bilibili, đẩy lên Pages, transcribe
+                                (sau đó dùng add BV… --resegment như tập thường)
 
   storyfm models                liệt kê model ASR, → là cái đang dùng
 `;

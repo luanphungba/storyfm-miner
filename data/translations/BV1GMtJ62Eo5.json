@@ -1,0 +1,310 @@
+{
+  "episode": "BV1GMtJ62Eo5",
+  "summary": [
+    "Một tiểu phẩm ngắn của kênh Trần Tường Sáu Giờ Rưỡi (陈翔六点半). Đêm muộn, trời mưa to, Selina và đồng nghiệp tan làm gọi xe về. Xe đầu tiên 5 phút nữa là tới, nhưng Selina vẫn gọi thêm trên một ứng dụng khác, vì \"chưa lên xe thì mình còn quyền chọn\".",
+    "Cô thấy có chiếc xe 200 nghìn tệ nên hủy chiếc rẻ tiền, bị tài xế gọi điện trách. Rồi chê chiếc thứ hai đã chạy 5 năm, đổi sang một chiếc 300 nghìn tệ mới một năm, chịu mất 3 tệ tiền phạt hủy. Chiếc này lại chỉ được 3,8 điểm, đánh giá toàn chê, nên cô hủy luôn, dù bạn nhắc trời đã khuya lại mưa to.",
+    "Đến lúc gọi lại thì đâu cũng phải xếp hàng: nửa tiếng mới có một chiếc xe đời cũ 10 năm, mà tài xế còn chê xa, bảo cô tự hủy. Xe của đồng nghiệp tới, bạn về trước, quán sắp đóng cửa. Selina gọi lại cho bác tài đầu tiên, năn nỉ trả thêm tiền, nhưng bác đã nhận khách khác. Cuối cùng cô đành đi bộ về nhà, tự an ủi là đi bộ cũng tốt cho sức khỏe."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "瑟琳娜，你打车了吗？",
+      "vi": "Selina, cậu gọi xe chưa?"
+    },
+    "1": {
+      "zh": "我刚打了一辆，五分钟到。",
+      "vi": "Tớ vừa gọi được một chiếc, 5 phút nữa tới."
+    },
+    "2": {
+      "zh": "我也打到了，也是五分钟到。",
+      "vi": "Tớ cũng gọi được rồi, cũng 5 phút nữa tới."
+    },
+    "3": {
+      "zh": "我换个平台呀，再打一辆。",
+      "vi": "Tớ đổi sang ứng dụng khác, gọi thêm một chiếc nữa."
+    },
+    "4": {
+      "zh": "你不是刚打了一辆吗？",
+      "vi": "Chẳng phải cậu vừa gọi một chiếc rồi à?"
+    },
+    "5": {
+      "zh": "都在来的路上了，怎么又打？",
+      "vi": "Xe đang trên đường tới rồi, sao lại gọi nữa?"
+    },
+    "6": {
+      "zh": "我这不是还没上车吗？",
+      "vi": "Thì tớ đã lên xe đâu?"
+    },
+    "7": {
+      "zh": "没上车之前我就有选择的权利啊！",
+      "vi": "Chưa lên xe thì tớ vẫn có quyền chọn chứ!"
+    },
+    "8": {
+      "zh": "多打一辆，哪辆车先到我就坐哪辆。",
+      "vi": "Gọi thêm một chiếc, chiếc nào tới trước thì tớ đi chiếc đó."
+    },
+    "9": {
+      "zh": "总比在一棵树上吊死的强吧？",
+      "vi": "Còn hơn là cứ bám chết một chỗ chứ nhỉ?"
+    },
+    "10": {
+      "zh": "司机已接单。哎，",
+      "vi": "Tài xế đã nhận cuốc. Ơ,"
+    },
+    "11": {
+      "zh": "你看，又打到了一辆。",
+      "vi": "cậu xem, lại gọi được thêm một chiếc này."
+    },
+    "12": {
+      "zh": "哎，还是一辆二十万的车。",
+      "vi": "Ô, lại còn là xe 200 nghìn tệ nữa."
+    },
+    "13": {
+      "zh": "我刚才打的那辆就是个几万块钱的，哪有这个坐的舒服呀？",
+      "vi": "Cái chiếc tớ gọi lúc nãy chỉ là xe vài chục nghìn tệ, sao ngồi sướng bằng chiếc này được?"
+    },
+    "14": {
+      "zh": "那你刚刚打的那辆都已经在路上了，怎么办？取消呗。",
+      "vi": "Thế chiếc cậu gọi lúc nãy đang trên đường tới rồi, tính sao? Hủy thôi."
+    },
+    "15": {
+      "zh": "不然留着过年啊！",
+      "vi": "Chứ để dành ăn Tết à!"
+    },
+    "16": {
+      "zh": "订单已取消。",
+      "vi": "Đơn đã được hủy."
+    },
+    "17": {
+      "zh": "你看，取消了。",
+      "vi": "Cậu xem, hủy rồi đấy."
+    },
+    "18": {
+      "zh": "喂，我是刚才接你单的司机，我这油钱都烧了多少了？",
+      "vi": "Alô, tôi là tài xế vừa nhận cuốc của cô đây, tôi đốt bao nhiêu tiền xăng rồi đấy?"
+    },
+    "19": {
+      "zh": "你怎么取消了？",
+      "vi": "Sao cô lại hủy?"
+    },
+    "20": {
+      "zh": "师傅，平台规定没上车之前可以取消的吧？",
+      "vi": "Bác tài, ứng dụng quy định chưa lên xe thì được hủy mà?"
+    },
+    "21": {
+      "zh": "你再接其他乘客不就好了？",
+      "vi": "Bác nhận khách khác là được chứ gì?"
+    },
+    "22": {
+      "zh": "我还有事，先挂。",
+      "vi": "Tôi đang bận, cúp máy trước nhé."
+    },
+    "23": {
+      "zh": "是。",
+      "vi": "Ừ."
+    },
+    "24": {
+      "zh": "哎，怎么第二辆是一辆五年的宝车呀？",
+      "vi": "Ơ, sao chiếc thứ hai lại là một chiếc xe đã chạy 5 năm thế?"
+    },
+    "25": {
+      "zh": "五年也还好吧，能坐就行了。",
+      "vi": "5 năm cũng được mà, ngồi được là được rồi."
+    },
+    "26": {
+      "zh": "那能一样吗？",
+      "vi": "Sao mà giống nhau được?"
+    },
+    "27": {
+      "zh": "五年的车。",
+      "vi": "Xe 5 năm đấy."
+    },
+    "28": {
+      "zh": "你想一下，那座椅都得包浆了。",
+      "vi": "Cậu nghĩ xem, ghế ngồi chắc bóng nhẫy cả lên rồi."
+    },
+    "29": {
+      "zh": "算了，我再打一辆吧。",
+      "vi": "Thôi, tớ gọi thêm chiếc nữa."
+    },
+    "30": {
+      "zh": "你刚打的第二辆车都在来的路上了，有更好的呀就换。",
+      "vi": "Chiếc thứ hai cậu vừa gọi cũng đang trên đường tới rồi. Có chiếc tốt hơn thì đổi chứ."
+    },
+    "31": {
+      "zh": "司机已接待。",
+      "vi": "Tài xế đã nhận cuốc."
+    },
+    "32": {
+      "zh": "哎，你看，我又打到了一辆，还是一辆三十万的车，车龄才一年一分钟就到了，",
+      "vi": "Ơ, cậu xem, tớ lại gọi được một chiếc, còn là xe 300 nghìn tệ, xe mới chạy có một năm, một phút nữa là tới,"
+    },
+    "33": {
+      "zh": "是我运气也太好了吧？",
+      "vi": "tớ may quá đi mất nhỉ?"
+    },
+    "34": {
+      "zh": "不是，怎么取消上一辆还要扣我三块钱啊？",
+      "vi": "Ơ kìa, sao hủy chiếc trước lại bị trừ tớ 3 tệ?"
+    },
+    "35": {
+      "zh": "那要不别取消了，也不是很老。",
+      "vi": "Hay là đừng hủy nữa, xe cũng đâu có cũ lắm."
+    },
+    "36": {
+      "zh": "三块就三块，总比呀坐五年的老车强。",
+      "vi": "3 tệ thì 3 tệ, dù sao cũng hơn ngồi xe cũ 5 năm."
+    },
+    "37": {
+      "zh": "订单已取消，你这都折腾三辆了。",
+      "vi": "Đơn đã được hủy. Cậu hành đến chiếc thứ ba rồi đấy."
+    },
+    "38": {
+      "zh": "哎呀，遇到满意的呀就得换。",
+      "vi": "Ôi dào, gặp cái vừa ý hơn thì phải đổi chứ."
+    },
+    "39": {
+      "zh": "我我刚才没注意看，怎么司机的评分才三点八呀？",
+      "vi": "Tớ… lúc nãy tớ không để ý, sao tài xế chỉ được có 3,8 điểm thế này?"
+    },
+    "40": {
+      "zh": "司机态度极差，一路甩脸色，车里异味重，不讲卫生，明明不是拼车。",
+      "vi": "\"Tài xế thái độ cực tệ, cả đường mặt nặng mày nhẹ, trong xe mùi hôi nồng, không giữ vệ sinh, rõ ràng không phải đi ghép xe,"
+    },
+    "41": {
+      "zh": "司机还多接了其他人，不是这种车谁敢坐呀？",
+      "vi": "vậy mà tài xế còn đón thêm người khác.\" Thôi, xe thế này ai dám ngồi?"
+    },
+    "42": {
+      "zh": "算了，还是取消了吧。艾瑟琳娜，现在都那么晚了，雨又这么大，你再挑，万一找不到怎么办？",
+      "vi": "Thôi, hủy đi vậy. Này Selina, giờ đã khuya thế rồi, mưa lại to thế này, cậu còn kén nữa, nhỡ không gọi được xe thì làm sao?"
+    },
+    "44": {
+      "zh": "哎，怎么可能找不到啊？",
+      "vi": "Ơ, sao mà không gọi được chứ?"
+    },
+    "45": {
+      "zh": "我就不信了，这么大的城市，我找不到一辆距离近、牌子硬、车龄新、评分又高的好车。",
+      "vi": "Tớ không tin đấy, thành phố to thế này mà tớ không tìm được một chiếc xe tử tế, ở gần, hãng xịn, xe mới, điểm đánh giá lại cao."
+    },
+    "46": {
+      "zh": "订单已取消，取消了，我再打一辆。",
+      "vi": "Đơn đã được hủy. Hủy rồi, tớ gọi chiếc khác."
+    },
+    "47": {
+      "zh": "怎么回事啊？",
+      "vi": "Chuyện gì thế này?"
+    },
+    "48": {
+      "zh": "怎么都需要排队啊？",
+      "vi": "Sao chỗ nào cũng phải xếp hàng thế?"
+    },
+    "49": {
+      "zh": "司机已经来，打到了，打到了。",
+      "vi": "Tài xế đã… gọi được rồi, gọi được rồi."
+    },
+    "50": {
+      "zh": "多久吧？",
+      "vi": "Bao lâu nữa?"
+    },
+    "51": {
+      "zh": "半个小时，还是一辆十年车龄的老款。",
+      "vi": "Nửa tiếng, lại còn là xe đời cũ đã chạy 10 năm."
+    },
+    "52": {
+      "zh": "半个小时，还是老车，老车就老车吧。",
+      "vi": "Nửa tiếng, lại còn xe cũ… Xe cũ thì xe cũ vậy."
+    },
+    "53": {
+      "zh": "总比打不着车，回不了家强，凑合坐了。",
+      "vi": "Dù sao cũng hơn là không gọi được xe, không về được nhà. Đi tạm vậy."
+    },
+    "54": {
+      "zh": "嗯。",
+      "vi": "Ừm."
+    },
+    "55": {
+      "zh": "喂，你好。",
+      "vi": "Alô, chào bác."
+    },
+    "56": {
+      "zh": "姑娘，不好意思啊，离得太远了，你把订单取消了吧？",
+      "vi": "Cô gái à, xin lỗi nhé, xa quá, cô hủy đơn đi nhé?"
+    },
+    "57": {
+      "zh": "不是，你个老车，你还挑上我？",
+      "vi": "Không phải chứ, cái xe cũ như ông mà còn kén tôi à?"
+    },
+    "58": {
+      "zh": "喂！",
+      "vi": "Alô!"
+    },
+    "59": {
+      "zh": "哎呀，什么？",
+      "vi": "Ôi, gì cơ?"
+    },
+    "60": {
+      "zh": "被警告了？",
+      "vi": "Bị… hả?"
+    },
+    "61": {
+      "zh": "哎，我再打一辆。",
+      "vi": "Hừ, tớ gọi chiếc khác."
+    },
+    "62": {
+      "zh": "哼。",
+      "vi": "Hừ."
+    },
+    "63": {
+      "zh": "我车到了，那我就先走了，明天见。",
+      "vi": "Xe tớ tới rồi, tớ về trước nhé, mai gặp."
+    },
+    "64": {
+      "zh": "还不走吗？",
+      "vi": "Còn chưa về à?"
+    },
+    "65": {
+      "zh": "我要关门了。",
+      "vi": "Tôi sắp đóng cửa rồi đấy."
+    },
+    "66": {
+      "zh": "哎，马上，马上啦！",
+      "vi": "Vâng, xong ngay, xong ngay đây ạ!"
+    },
+    "67": {
+      "zh": "喂，师傅您好，哎，我是刚才取消您订单的那个乘客。",
+      "vi": "Alô, chào bác tài, ơ, cháu là cái người vừa nãy hủy đơn của bác đấy ạ."
+    },
+    "68": {
+      "zh": "师傅是这样的，其实啊，我打的第一辆车就是您的，要不您来接一下我？",
+      "vi": "Bác ơi chuyện là thế này, thật ra chiếc xe đầu tiên cháu gọi là xe của bác, hay là bác qua đón cháu nhé?"
+    },
+    "69": {
+      "zh": "我给你加钱，我给你加钱行不行？",
+      "vi": "Cháu trả thêm tiền cho bác, cháu trả thêm tiền được không ạ?"
+    },
+    "70": {
+      "zh": "不好意思，姑娘，我已经接了别的乘客了。",
+      "vi": "Xin lỗi cô gái nhé, tôi nhận khách khác rồi."
+    },
+    "71": {
+      "zh": "打不到车，那我走路回家吧。",
+      "vi": "Không gọi được xe thì mình đi bộ về vậy."
+    },
+    "72": {
+      "zh": "一个人走路回家也挺好，还健康呢。",
+      "vi": "Một mình đi bộ về nhà cũng hay, lại còn khỏe người nữa."
+    },
+    "73": {
+      "zh": "回家啦！",
+      "vi": "Về nhà thôi!"
+    },
+    "74": {
+      "zh": "咻咻咻咻咻，躲完。",
+      "vi": "Vút vút vút vút vút, (tiếng hiệu ứng)."
+    },
+    "75": {
+      "zh": "陈翔六点半。",
+      "vi": "Trần Tường Sáu Giờ Rưỡi."
+    }
+  }
+}

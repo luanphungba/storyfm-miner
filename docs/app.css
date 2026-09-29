@@ -50,6 +50,8 @@ h1 {
 }
 
 .meta { margin: 0 0 20px; color: var(--muted); font-size: 14px; }
+.meta a { white-space: nowrap; }
+.section { margin: 32px 0 12px; font-size: 18px; }
 
 /* ---------- episode list ---------- */
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-29",
   "episodes": [
     {
       "id": "E757",
@@ -36,6 +36,30 @@
       "title": "E001.我被传销组织囚禁的 28 天",
       "pubDate": "2017-07-06",
       "duration": 1500
+    },
+    {
+      "id": "BV1GMtJ62Eo5",
+      "title": "陈翔六点半：渴望远方，却困在楼下",
+      "pubDate": "2026-09-02",
+      "duration": 261,
+      "source": "bilibili",
+      "owner": "陈翔六点半"
+    },
+    {
+      "id": "BV15b42177rL",
+      "title": "【何同学】你再也回不到19岁的夏天了...",
+      "pubDate": "2024-08-01",
+      "duration": 911,
+      "source": "bilibili",
+      "owner": "老师好我叫何同学"
+    },
+    {
+      "id": "BV1f9t86REx8",
+      "title": "AI工作台将成为普通人最大杠杆，独家渠道，百大up主亲自教！！",
+      "pubDate": "2026-08-31",
+      "duration": 167,
+      "source": "bilibili",
+      "owner": "GenJi是真想教会你AI"
     }
   ]
 }

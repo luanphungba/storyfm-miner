@@ -17,10 +17,12 @@ const RATE = 16_000;
 const CACHE = join(paths.root, 'tools', '.cache', 'audio');
 
 async function audioFile(/** @type {string} */ id) {
+  // A Bilibili video's audio was downloaded when it was added; ffmpeg reads m4a as well as mp3.
+  if (existsSync(paths.audio(id))) return paths.audio(id);
   const file = join(CACHE, `${id}.mp3`);
   if (existsSync(file)) return file;
   const episode = JSON.parse(await readFile(paths.episode(id), 'utf8'));
-  const response = await fetch(episode.audio.mp3);
+  const response = await fetch(episode.audio.m4a ?? episode.audio.mp3);
   if (!response.ok) throw new Error(`${id}: tải audio lỗi ${response.status}`);
   await mkdir(CACHE, { recursive: true });
   await writeFile(file, Buffer.from(await response.arrayBuffer()));

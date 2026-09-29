@@ -1,0 +1,895 @@
+{
+  "id": "BV1f9t86REx8",
+  "title": "AI工作台将成为普通人最大杠杆，独家渠道，百大up主亲自教！！",
+  "guid": "BV1f9t86REx8",
+  "pubDate": "2026-08-31",
+  "duration": 167,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/BV1f9t86REx8.m4a"
+  },
+  "source": "bilibili",
+  "owner": "GenJi是真想教会你AI",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 0.03,
+      "end": 2.52,
+      "text": "其实很多人用AI赚的第一单啊，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 1,
+      "s": 0,
+      "start": 2.52,
+      "end": 4.48,
+      "text": "不是广告，也不是短剧，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 2,
+      "s": 1,
+      "start": 4.48,
+      "end": 6.64,
+      "text": "而是把自己正在用的工作台",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 3,
+      "s": 1,
+      "start": 6.64,
+      "end": 8.27,
+      "text": "复制一份卖给别人。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 4,
+      "s": 2,
+      "start": 8.42,
+      "end": 8.98,
+      "text": "举个例子啊，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 5,
+      "s": 2,
+      "start": 8.98,
+      "end": 10.89,
+      "text": "这就是我每天都在用的工作台。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 3,
+      "start": 10.96,
+      "end": 13.18,
+      "text": "那近期呢，哪些话题有热度？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 4,
+      "start": 13.18,
+      "end": 14.81,
+      "text": "那AI圈又出了什么大事件？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 5,
+      "start": 14.86,
+      "end": 16.48,
+      "text": "它都会先帮我整理一份，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 5,
+      "start": 16.48,
+      "end": 19.02,
+      "text": "然后自己去分类摘出重要的信息，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 5,
+      "start": 19.02,
+      "end": 21.44,
+      "text": "最后综合一个分数来供我参考。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 11,
+      "s": 6,
+      "start": 21.44,
+      "end": 22.34,
+      "text": "不仅帮我省去了",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 6,
+      "start": 22.34,
+      "end": 24.6,
+      "text": "大量找选题、筛信息的麻烦，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 13,
+      "s": 6,
+      "start": 24.6,
+      "end": 25.92,
+      "text": "而现在多出来的时间，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 14,
+      "s": 6,
+      "start": 25.92,
+      "end": 27.14,
+      "text": "我还能多接两个订单，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 15,
+      "s": 7,
+      "start": 27.14,
+      "end": 28.46,
+      "text": "多回两条客户的微信。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 8,
+      "start": 28.65,
+      "end": 31.05,
+      "text": "那类似像这种客户需求、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 8,
+      "start": 31.05,
+      "end": 32.35,
+      "text": "脚本进度这些事儿，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 8,
+      "start": 32.35,
+      "end": 33.77,
+      "text": "我都会放在同一个页面中",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 8,
+      "start": 33.77,
+      "end": 34.67,
+      "text": "进行统一的管理，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 9,
+      "start": 34.67,
+      "end": 36.07,
+      "text": "这样既能省时省事儿，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 9,
+      "start": 36.07,
+      "end": 37.78,
+      "text": "也能够提高咱的产出效率。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 10,
+      "start": 37.87,
+      "end": 38.21,
+      "text": "怎么样？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 11,
+      "start": 38.21,
+      "end": 39.26,
+      "text": "是不是听起来还不错？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 12,
+      "start": 39.51,
+      "end": 40.97,
+      "text": "那除了能够提高效率之外呢？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 13,
+      "start": 40.97,
+      "end": 42.47,
+      "text": "这个工作台最值钱的地方",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 13,
+      "start": 42.47,
+      "end": 44.05,
+      "text": "其实就是打包成一套",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 13,
+      "start": 44.05,
+      "end": 46.37,
+      "text": "别人也能够用的解决方案卖出去。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 14,
+      "start": 46.63,
+      "end": 48.43,
+      "text": "注意啊，我这里不是让你去",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 14,
+      "start": 48.43,
+      "end": 50.29,
+      "text": "倒买别人的这个工程文件，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 14,
+      "start": 50.29,
+      "end": 52.81,
+      "text": "而是把你真正用过、跑通过的工作流",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 15,
+      "start": 52.81,
+      "end": 53.95,
+      "text": "整理成模板。",
+      "speaker": "A",
+      "u": 14,
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 16,
+      "start": 53.95,
+      "end": 55.51,
+      "text": "那有人是不知道怎么做，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 16,
+      "start": 55.51,
+      "end": 57.27,
+      "text": "有人呢是没有时间从头研究，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 16,
+      "start": 57.27,
+      "end": 58.63,
+      "text": "那你就可以把普通人遇到的门槛儿。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 17,
+      "start": 59.49,
+      "end": 60.93,
+      "text": "变成你手中的商品",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 17,
+      "start": 60.93,
+      "end": 62.27,
+      "text": "用户付费购买的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 17,
+      "start": 62.27,
+      "end": 63.87,
+      "text": "其实从来都不是一份文件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 17,
+      "start": 63.87,
+      "end": 66.11,
+      "text": "而是你替他省下来的时间精力",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 17,
+      "start": 66.11,
+      "end": 67.29,
+      "text": "还有试错成本",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 18,
+      "start": 67.29,
+      "end": 69.03,
+      "text": "嗨大家好我是GenJi",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 18,
+      "start": 69.03,
+      "end": 70.11,
+      "text": "作为AI区的卷王",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 18,
+      "start": 70.11,
+      "end": 71.65,
+      "text": "我的每个月都在坚持更新",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 18,
+      "start": 71.65,
+      "end": 72.95,
+      "text": "这个AI的教学视频",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 18,
+      "start": 72.95,
+      "end": 75.29,
+      "text": "从AI的科普教程到创作等等",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 19,
+      "start": 75.29,
+      "end": 77.09,
+      "text": "也收获了不少粉丝的喜爱",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 19,
+      "start": 77.09,
+      "end": 79.61,
+      "text": "承蒙大家厚爱今年入选的百大博主",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 19,
+      "start": 79.61,
+      "end": 80.73,
+      "text": "那我知道一发出来",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 20,
+      "start": 80.73,
+      "end": 81.69,
+      "text": "弹幕应该在发什么",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 20,
+      "start": 81.69,
+      "end": 82.77,
+      "text": "求分享求教程",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 20,
+      "start": 82.77,
+      "end": 83.89,
+      "text": "这个是怎么做到的",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "s": 20,
+      "start": 83.89,
+      "end": 85.87,
+      "text": "其实这个操作是很简单的",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "s": 20,
+      "start": 85.98,
+      "end": 87.58,
+      "text": "一打开电脑里的Agent，",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 21,
+      "start": 87.62,
+      "end": 89.9,
+      "text": "按照咱们的模板把自己诉求说清楚，",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 21,
+      "start": 90.12,
+      "end": 91.6,
+      "text": "以及你想要一个什么样的功能，",
+      "speaker": "A",
+      "u": 17,
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 22,
+      "start": 91.6,
+      "end": 93.56,
+      "text": "就能够做出一模一样的。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 23,
+      "start": 93.68,
+      "end": 95.84,
+      "text": "但是问题就在于，那听起来很简单，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 23,
+      "start": 95.84,
+      "end": 97.84,
+      "text": "但实际上手了还是会遇到一堆问题。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 24,
+      "start": 97.98,
+      "end": 98.88,
+      "text": "那需求怎么拆？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "s": 25,
+      "start": 98.9,
+      "end": 99.76,
+      "text": "提示词怎么写？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 26,
+      "start": 99.9,
+      "end": 101.67,
+      "text": "做出来的结果不满意怎么修改？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 27,
+      "start": 101.76,
+      "end": 103.68,
+      "text": "所以这就是为什么有一些人呢",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 27,
+      "start": 103.68,
+      "end": 105.5,
+      "text": "只是卖他的这种安装或者使用教程，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 27,
+      "start": 105.5,
+      "end": 106.45,
+      "text": "其实就能赚钱。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 28,
+      "start": 106.68,
+      "end": 108.28,
+      "text": "那么为了感谢咱们大家的喜爱，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 28,
+      "start": 108.28,
+      "end": 109.8,
+      "text": "也为了让大家更少的时间",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 28,
+      "start": 109.8,
+      "end": 111.14,
+      "text": "就可以把这条路径跑通，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 29,
+      "start": 111.26,
+      "end": 113.34,
+      "text": "我在评论区的置顶链接直播课中",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 29,
+      "start": 113.34,
+      "end": 114.38,
+      "text": "会完整的展示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 29,
+      "start": 114.38,
+      "end": 115.96,
+      "text": "我是如何搭建这套工作台的，以及全套的模板资源。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 30,
+      "start": 117.88,
+      "end": 118.94,
+      "text": "我都会免费分享，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 30,
+      "start": 119.24,
+      "end": 120.87,
+      "text": "你点进去只要跟着我做，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 31,
+      "start": 120.92,
+      "end": 121.86,
+      "text": "我会花两个小时",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 31,
+      "start": 121.86,
+      "end": 123.4,
+      "text": "从最基础的地方开始",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 31,
+      "start": 123.4,
+      "end": 125.96,
+      "text": "带你完整的走一遍我搭建的过程，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 32,
+      "start": 126.16,
+      "end": 127.08,
+      "text": "手把手的教会你怎么",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "s": 32,
+      "start": 127.08,
+      "end": 129.55,
+      "text": "把模糊的需求拆解成具体的需求，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 77,
+      "s": 33,
+      "start": 129.62,
+      "end": 130.92,
+      "text": "不用写一行代码",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 33,
+      "start": 130.92,
+      "end": 133.21,
+      "text": "就能够让AI帮你把成品做出来。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 79,
+      "s": 34,
+      "start": 133.6,
+      "end": 134.84,
+      "text": "当然最后这个作品",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 80,
+      "s": 34,
+      "start": 134.84,
+      "end": 136.52,
+      "text": "你也可以整理成模板去卖。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 35,
+      "start": 136.72,
+      "end": 138.82,
+      "text": "那说到底，其实很多AI赚钱的机会",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 35,
+      "start": 138.82,
+      "end": 140.56,
+      "text": "就是把我已经会了",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 35,
+      "start": 140.56,
+      "end": 142.74,
+      "text": "整理成你拿过去也能用，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 36,
+      "start": 142.74,
+      "end": 145.78,
+      "text": "因为当你的经验能够被复制、被交付。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "s": 37,
+      "start": 145.84,
+      "end": 148.36,
+      "text": "那被别人拿来直接解决问题的时候，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 86,
+      "s": 37,
+      "start": 148.36,
+      "end": 149.9,
+      "text": "它才真正从一个工具",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 87,
+      "s": 37,
+      "start": 149.9,
+      "end": 151.86,
+      "text": "变成了一份可以卖的商品。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 38,
+      "start": 152.14,
+      "end": 153.58,
+      "text": "那如果你也想看看",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 89,
+      "s": 38,
+      "start": 153.58,
+      "end": 155.48,
+      "text": "一个咱们自己在用的AI工作台",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 90,
+      "s": 38,
+      "start": 155.48,
+      "end": 156.82,
+      "text": "到底是怎么一步一步",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 91,
+      "s": 38,
+      "start": 156.82,
+      "end": 158.16,
+      "text": "整理成可以交付、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 92,
+      "s": 39,
+      "start": 158.16,
+      "end": 159.63,
+      "text": "可以卖出去的产品的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "s": 39,
+      "start": 159.66,
+      "end": 161.7,
+      "text": "那点击我们评论区的置顶链接，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 94,
+      "s": 39,
+      "start": 161.7,
+      "end": 164.02,
+      "text": "我把完整的过程全都放在那里了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 95,
+      "s": 40,
+      "start": 164.04,
+      "end": 165.74,
+      "text": "那就让我们正式课程中再会吧。",
+      "speaker": "A",
+      "role": "storyteller"
+    }
+  ]
+}

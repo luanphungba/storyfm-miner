@@ -1,0 +1,7690 @@
+{
+  "id": "95be0a4b-d83c-42f4-a25a-afd1f07a09a2",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "zh",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://storyfm-audio.luanphungba.workers.dev/BV1GMtJ62Eo5.m4a",
+  "text": "司令长，你打车了吗？我刚打了一辆，五分钟到。我也打到了，也是五分钟到。我换个平台呀，再打一辆。你不是刚打了一辆吗？都在来的路上了，怎么又打？我这不是还没上车吗？没上车之前我就有选择的权利啊！多打一辆，哪辆车先到我就坐哪辆。总比在一棵树上吊死的强吧？司机已接单。哎，你看，又打到了一辆。哎，还是一辆二十万的车。我刚才打的那辆就是个几万块钱的，哪有这个坐的舒服呀？那你刚刚打的那辆都已经在路上了，怎么办？取消呗。不然留着过年啊！订单已取消。你看，取消了。喂，我是刚才接你单的司机，我这油钱都烧了多少了？你怎么取消了？师傅，平台规定没上车之前可以取消的吧？你再接其他乘客不就好了？我还有事，先挂。是。哎，怎么第二辆是辆五年的宝车呀？五年也还好吧，能坐就行了。那能一样吗？五年的车。你想一下，那座椅都得包浆了。算了，我再打一辆吧。一张打不第二辆的车都在来的路上了，有更好的呀就换。司机已接待。哎，你看，我又打到了一辆，还是一辆三十万的车，车龄才一年一分钟就到了，是我运气也太好了吧？不是，怎么取消上一辆还要扣我三块钱啊？那要不别取消了，也不是很老。三块就三块，总比呀坐五年的老车强。第三一取消，你这都折腾翻了。哎呀，遇到满意的呀就得换。我我刚才没注意看，怎么司机的评分才三点八呀？司机态度极差，一路甩脸色，车里异味重，不讲卫生，明明不是拼车。自己还多劫了其他人，不是这种事谁敢做呀？算了，还是取消了吧。艾瑟琳娜，现在都那么晚了，理由这么大，你再挑，万一找到怎么办？哎，怎么可能找不到啊？我就不信了，这么大的城市，我找不到一辆距离近、牌子硬、车流行、评分又刚好的车。订单已取消，取消了，我再打一辆。怎么回事啊？怎么都需要排队啊？司机已经来，打到了，打到了。多久吧？半个小时，还是一辆十年车龄的老款。半个小时，还是老车，老车就老车吧。封闭打不着车，回不了家抢，凑合坐了。嗯。喂，你好。姑娘，不好意思啊，离得太远了，你把订单取消了吧？不是，你个老车，你还敲上我？喂！哎呀，什么？被警告了？哎，我再打一辆。哼。我车到了，那我就先走了，明天见。还不走吗？我要关门了。哎，马上，马上啦！喂，师傅您好，哎，我是刚才取消您订单的那个乘客。师傅是这样的，其实啊，我打的第一辆车就是您的，要不您来接一下我？我给你加钱，我给你加钱行不行？不好意思，姑娘，我已经接了别的乘客了。打不到车，那我走路回家吧。一个人走路回家也挺好，还健康呢。回家啦！收收收收收，躲完。晨翔六点半。",
+  "words": [
+    {
+      "text": "司令",
+      "start": 0,
+      "end": 280,
+      "confidence": 0.9980229,
+      "speaker": "A"
+    },
+    {
+      "text": "长，你",
+      "start": 280,
+      "end": 600,
+      "confidence": 0.95,
+      "speaker": "A"
+    },
+    {
+      "text": "打车",
+      "start": 600,
+      "end": 820,
+      "confidence": 0.9996057,
+      "speaker": "A"
+    },
+    {
+      "text": "了",
+      "start": 820,
+      "end": 1000,
+      "confidence": 0.9996674,
+      "speaker": "A"
+    },
+    {
+      "text": "吗？",
+      "start": 1000,
+      "end": 1220,
+      "confidence": 0.99997765,
+      "speaker": "A"
+    },
+    {
+      "text": "我刚",
+      "start": 1220,
+      "end": 1420,
+      "confidence": 0.99980855,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 1420,
+      "end": 1560,
+      "confidence": 0.999882,
+      "speaker": "A"
+    },
+    {
+      "text": "了",
+      "start": 1560,
+      "end": 1700,
+      "confidence": 0.9435593,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆，",
+      "start": 1700,
+      "end": 1960,
+      "confidence": 0.9636774,
+      "speaker": "A"
+    },
+    {
+      "text": "五分钟",
+      "start": 1960,
+      "end": 2240,
+      "confidence": 0.98955625,
+      "speaker": "A"
+    },
+    {
+      "text": "到。",
+      "start": 2240,
+      "end": 2590,
+      "confidence": 0.8955646,
+      "speaker": "A"
+    },
+    {
+      "text": "我也",
+      "start": 2680,
+      "end": 2800,
+      "confidence": 0.8968879,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 2800,
+      "end": 2940,
+      "confidence": 0.99998605,
+      "speaker": "A"
+    },
+    {
+      "text": "到了，",
+      "start": 2940,
+      "end": 3200,
+      "confidence": 0.9980489,
+      "speaker": "A"
+    },
+    {
+      "text": "也是",
+      "start": 3200,
+      "end": 3400,
+      "confidence": 0.99833125,
+      "speaker": "A"
+    },
+    {
+      "text": "五分钟",
+      "start": 3400,
+      "end": 3740,
+      "confidence": 0.99999577,
+      "speaker": "A"
+    },
+    {
+      "text": "到。",
+      "start": 3740,
+      "end": 4240,
+      "confidence": 0.996223,
+      "speaker": "A"
+    },
+    {
+      "text": "我换个",
+      "start": 4340,
+      "end": 4820,
+      "confidence": 0.9975062,
+      "speaker": "A"
+    },
+    {
+      "text": "平台",
+      "start": 4820,
+      "end": 4980,
+      "confidence": 0.9996588,
+      "speaker": "A"
+    },
+    {
+      "text": "呀，",
+      "start": 4980,
+      "end": 5140,
+      "confidence": 0.975475,
+      "speaker": "A"
+    },
+    {
+      "text": "再",
+      "start": 5140,
+      "end": 5260,
+      "confidence": 0.9964264,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 5260,
+      "end": 5380,
+      "confidence": 0.99998045,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆。",
+      "start": 5380,
+      "end": 6020,
+      "confidence": 0.82313514,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 6320,
+      "end": 6440,
+      "confidence": 0.99800044,
+      "speaker": "A"
+    },
+    {
+      "text": "不是",
+      "start": 6440,
+      "end": 6600,
+      "confidence": 0.99996805,
+      "speaker": "A"
+    },
+    {
+      "text": "刚",
+      "start": 6600,
+      "end": 6760,
+      "confidence": 0.99996626,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 6760,
+      "end": 6920,
+      "confidence": 0.9996482,
+      "speaker": "A"
+    },
+    {
+      "text": "了",
+      "start": 6920,
+      "end": 7020,
+      "confidence": 0.9923977,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆",
+      "start": 7020,
+      "end": 7240,
+      "confidence": 0.9961842,
+      "speaker": "A"
+    },
+    {
+      "text": "吗？",
+      "start": 7240,
+      "end": 7420,
+      "confidence": 0.99912006,
+      "speaker": "A"
+    },
+    {
+      "text": "都",
+      "start": 7420,
+      "end": 7600,
+      "confidence": 0.99562955,
+      "speaker": "A"
+    },
+    {
+      "text": "在",
+      "start": 7600,
+      "end": 7700,
+      "confidence": 0.9989857,
+      "speaker": "A"
+    },
+    {
+      "text": "来",
+      "start": 7700,
+      "end": 7800,
+      "confidence": 0.9540788,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 7800,
+      "end": 7860,
+      "confidence": 0.9540788,
+      "speaker": "A"
+    },
+    {
+      "text": "路上",
+      "start": 7860,
+      "end": 8160,
+      "confidence": 0.98696506,
+      "speaker": "A"
+    },
+    {
+      "text": "了，",
+      "start": 8160,
+      "end": 8320,
+      "confidence": 0.98628145,
+      "speaker": "A"
+    },
+    {
+      "text": "怎么",
+      "start": 8320,
+      "end": 8480,
+      "confidence": 0.999819,
+      "speaker": "A"
+    },
+    {
+      "text": "又",
+      "start": 8480,
+      "end": 8660,
+      "confidence": 0.9997892,
+      "speaker": "A"
+    },
+    {
+      "text": "打？",
+      "start": 8660,
+      "end": 9060,
+      "confidence": 0.99874973,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 9340,
+      "end": 9480,
+      "confidence": 0.99981767,
+      "speaker": "A"
+    },
+    {
+      "text": "这",
+      "start": 9480,
+      "end": 9620,
+      "confidence": 0.9999895,
+      "speaker": "A"
+    },
+    {
+      "text": "不是",
+      "start": 9620,
+      "end": 9820,
+      "confidence": 0.9999852,
+      "speaker": "A"
+    },
+    {
+      "text": "还",
+      "start": 9820,
+      "end": 10080,
+      "confidence": 0.9999931,
+      "speaker": "A"
+    },
+    {
+      "text": "没",
+      "start": 10080,
+      "end": 10200,
+      "confidence": 0.9999937,
+      "speaker": "A"
+    },
+    {
+      "text": "上车",
+      "start": 10200,
+      "end": 10540,
+      "confidence": 0.99999577,
+      "speaker": "A"
+    },
+    {
+      "text": "吗？",
+      "start": 10540,
+      "end": 10860,
+      "confidence": 0.99728656,
+      "speaker": "A"
+    },
+    {
+      "text": "没",
+      "start": 10860,
+      "end": 11020,
+      "confidence": 0.9999852,
+      "speaker": "A"
+    },
+    {
+      "text": "上车",
+      "start": 11020,
+      "end": 11280,
+      "confidence": 0.99999654,
+      "speaker": "A"
+    },
+    {
+      "text": "之前",
+      "start": 11280,
+      "end": 11640,
+      "confidence": 0.99999833,
+      "speaker": "A"
+    },
+    {
+      "text": "我就",
+      "start": 11640,
+      "end": 11900,
+      "confidence": 0.7681964,
+      "speaker": "A"
+    },
+    {
+      "text": "有",
+      "start": 11900,
+      "end": 12060,
+      "confidence": 0.99998724,
+      "speaker": "A"
+    },
+    {
+      "text": "选择",
+      "start": 12060,
+      "end": 12360,
+      "confidence": 0.9999993,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 12360,
+      "end": 12600,
+      "confidence": 0.9999759,
+      "speaker": "A"
+    },
+    {
+      "text": "权利",
+      "start": 12600,
+      "end": 12860,
+      "confidence": 0.9982512,
+      "speaker": "A"
+    },
+    {
+      "text": "啊！",
+      "start": 12860,
+      "end": 13380,
+      "confidence": 0.914886,
+      "speaker": "A"
+    },
+    {
+      "text": "多",
+      "start": 13380,
+      "end": 13580,
+      "confidence": 0.99980086,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 13580,
+      "end": 13740,
+      "confidence": 0.99999404,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆，",
+      "start": 13740,
+      "end": 14160,
+      "confidence": 0.99865055,
+      "speaker": "A"
+    },
+    {
+      "text": "哪",
+      "start": 14160,
+      "end": 14340,
+      "confidence": 0.9999794,
+      "speaker": "A"
+    },
+    {
+      "text": "辆车",
+      "start": 14340,
+      "end": 14660,
+      "confidence": 0.8234726,
+      "speaker": "A"
+    },
+    {
+      "text": "先到",
+      "start": 14660,
+      "end": 15020,
+      "confidence": 0.99997944,
+      "speaker": "A"
+    },
+    {
+      "text": "我就",
+      "start": 15020,
+      "end": 15260,
+      "confidence": 0.9758925,
+      "speaker": "A"
+    },
+    {
+      "text": "坐",
+      "start": 15260,
+      "end": 15480,
+      "confidence": 0.99778265,
+      "speaker": "A"
+    },
+    {
+      "text": "哪辆。",
+      "start": 15480,
+      "end": 16020,
+      "confidence": 0.81393135,
+      "speaker": "A"
+    },
+    {
+      "text": "总比",
+      "start": 16020,
+      "end": 16239,
+      "confidence": 0.69827175,
+      "speaker": "A"
+    },
+    {
+      "text": "在",
+      "start": 16239,
+      "end": 16420,
+      "confidence": 0.9981645,
+      "speaker": "A"
+    },
+    {
+      "text": "一棵树上吊死",
+      "start": 16420,
+      "end": 17100,
+      "confidence": 0.9996966,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 17100,
+      "end": 17280,
+      "confidence": 0.9914751,
+      "speaker": "A"
+    },
+    {
+      "text": "强",
+      "start": 17280,
+      "end": 17440,
+      "confidence": 0.9999844,
+      "speaker": "A"
+    },
+    {
+      "text": "吧？",
+      "start": 17440,
+      "end": 17840,
+      "confidence": 0.95769066,
+      "speaker": "A"
+    },
+    {
+      "text": "司机",
+      "start": 18400,
+      "end": 18500,
+      "confidence": 0.9999839,
+      "speaker": "A"
+    },
+    {
+      "text": "已",
+      "start": 18500,
+      "end": 18680,
+      "confidence": 0.99379164,
+      "speaker": "A"
+    },
+    {
+      "text": "接单。哎，",
+      "start": 18680,
+      "end": 19040,
+      "confidence": 0.9369,
+      "speaker": "A"
+    },
+    {
+      "text": "你看，",
+      "start": 19040,
+      "end": 19380,
+      "confidence": 0.8338331,
+      "speaker": "A"
+    },
+    {
+      "text": "又",
+      "start": 19380,
+      "end": 19480,
+      "confidence": 0.505526,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 19480,
+      "end": 19640,
+      "confidence": 0.999915,
+      "speaker": "A"
+    },
+    {
+      "text": "到了",
+      "start": 19640,
+      "end": 19800,
+      "confidence": 0.9999115,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆。",
+      "start": 19800,
+      "end": 20380,
+      "confidence": 0.9759136,
+      "speaker": "A"
+    },
+    {
+      "text": "哎，",
+      "start": 21830,
+      "end": 22380,
+      "confidence": 0.9762003,
+      "speaker": "A"
+    },
+    {
+      "text": "还是",
+      "start": 22380,
+      "end": 22680,
+      "confidence": 0.99983394,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆",
+      "start": 22680,
+      "end": 22920,
+      "confidence": 0.97736114,
+      "speaker": "A"
+    },
+    {
+      "text": "二十万",
+      "start": 22920,
+      "end": 23380,
+      "confidence": 0.99997926,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 23380,
+      "end": 23520,
+      "confidence": 0.9999298,
+      "speaker": "A"
+    },
+    {
+      "text": "车。",
+      "start": 23520,
+      "end": 23840,
+      "confidence": 0.8794058,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 23840,
+      "end": 24020,
+      "confidence": 0.75881404,
+      "speaker": "A"
+    },
+    {
+      "text": "刚才",
+      "start": 24020,
+      "end": 24340,
+      "confidence": 0.99969804,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 24340,
+      "end": 24460,
+      "confidence": 0.99957746,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 24460,
+      "end": 24580,
+      "confidence": 0.99994934,
+      "speaker": "A"
+    },
+    {
+      "text": "那辆",
+      "start": 24580,
+      "end": 24840,
+      "confidence": 0.99942154,
+      "speaker": "A"
+    },
+    {
+      "text": "就是",
+      "start": 24840,
+      "end": 25060,
+      "confidence": 0.9998976,
+      "speaker": "A"
+    },
+    {
+      "text": "个",
+      "start": 25060,
+      "end": 25280,
+      "confidence": 0.9999387,
+      "speaker": "A"
+    },
+    {
+      "text": "几万块",
+      "start": 25280,
+      "end": 25680,
+      "confidence": 0.9999962,
+      "speaker": "A"
+    },
+    {
+      "text": "钱",
+      "start": 25680,
+      "end": 25860,
+      "confidence": 0.99999833,
+      "speaker": "A"
+    },
+    {
+      "text": "的，",
+      "start": 25860,
+      "end": 26200,
+      "confidence": 0.9734333,
+      "speaker": "A"
+    },
+    {
+      "text": "哪有",
+      "start": 26200,
+      "end": 26460,
+      "confidence": 0.9988702,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 26460,
+      "end": 26720,
+      "confidence": 0.9999552,
+      "speaker": "A"
+    },
+    {
+      "text": "坐",
+      "start": 26720,
+      "end": 26860,
+      "confidence": 0.9926454,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 26860,
+      "end": 27300,
+      "confidence": 0.70400494,
+      "speaker": "A"
+    },
+    {
+      "text": "舒服",
+      "start": 27300,
+      "end": 27360,
+      "confidence": 0.9999903,
+      "speaker": "A"
+    },
+    {
+      "text": "呀？",
+      "start": 27360,
+      "end": 27710,
+      "confidence": 0.997225,
+      "speaker": "A"
+    },
+    {
+      "text": "那",
+      "start": 28020,
+      "end": 28220,
+      "confidence": 0.9999758,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 28220,
+      "end": 28380,
+      "confidence": 0.99993706,
+      "speaker": "A"
+    },
+    {
+      "text": "刚刚",
+      "start": 28380,
+      "end": 28700,
+      "confidence": 0.9999111,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 28700,
+      "end": 28820,
+      "confidence": 0.999845,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 28820,
+      "end": 28980,
+      "confidence": 0.995033,
+      "speaker": "A"
+    },
+    {
+      "text": "那辆",
+      "start": 28980,
+      "end": 29360,
+      "confidence": 0.997155,
+      "speaker": "A"
+    },
+    {
+      "text": "都",
+      "start": 29360,
+      "end": 29920,
+      "confidence": 0.7543848,
+      "speaker": "A"
+    },
+    {
+      "text": "已经在路上了，怎么办？取消呗。",
+      "start": 29920,
+      "end": 29980,
+      "confidence": 0.9763,
+      "speaker": "A"
+    },
+    {
+      "text": "不然",
+      "start": 31940,
+      "end": 32440,
+      "confidence": 0.6389274,
+      "speaker": "A"
+    },
+    {
+      "text": "留着",
+      "start": 32440,
+      "end": 32700,
+      "confidence": 0.9985364,
+      "speaker": "A"
+    },
+    {
+      "text": "过年",
+      "start": 32700,
+      "end": 33380,
+      "confidence": 0.99990726,
+      "speaker": "A"
+    },
+    {
+      "text": "啊！",
+      "start": 33380,
+      "end": 33720,
+      "confidence": 0.93300146,
+      "speaker": "A"
+    },
+    {
+      "text": "订单",
+      "start": 33720,
+      "end": 33980,
+      "confidence": 0.9992211,
+      "speaker": "A"
+    },
+    {
+      "text": "已",
+      "start": 33980,
+      "end": 34180,
+      "confidence": 0.9992157,
+      "speaker": "A"
+    },
+    {
+      "text": "取消。",
+      "start": 34180,
+      "end": 34480,
+      "confidence": 0.9071882,
+      "speaker": "A"
+    },
+    {
+      "text": "你看，",
+      "start": 34480,
+      "end": 34940,
+      "confidence": 0.7308452,
+      "speaker": "A"
+    },
+    {
+      "text": "取消",
+      "start": 34940,
+      "end": 35120,
+      "confidence": 0.99999464,
+      "speaker": "A"
+    },
+    {
+      "text": "了。",
+      "start": 35120,
+      "end": 36270,
+      "confidence": 0.9971644,
+      "speaker": "A"
+    },
+    {
+      "text": "喂，",
+      "start": 37220,
+      "end": 37700,
+      "confidence": 0.89076865,
+      "speaker": "A"
+    },
+    {
+      "text": "我是",
+      "start": 37700,
+      "end": 37940,
+      "confidence": 0.89080596,
+      "speaker": "A"
+    },
+    {
+      "text": "刚才",
+      "start": 37940,
+      "end": 38420,
+      "confidence": 0.9999664,
+      "speaker": "A"
+    },
+    {
+      "text": "接",
+      "start": 38420,
+      "end": 38600,
+      "confidence": 0.9999466,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 38600,
+      "end": 38760,
+      "confidence": 0.9948643,
+      "speaker": "A"
+    },
+    {
+      "text": "单",
+      "start": 38760,
+      "end": 38900,
+      "confidence": 0.999666,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 38900,
+      "end": 39040,
+      "confidence": 0.99969196,
+      "speaker": "A"
+    },
+    {
+      "text": "司机，",
+      "start": 39040,
+      "end": 39580,
+      "confidence": 0.9834237,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 39580,
+      "end": 39700,
+      "confidence": 0.93374133,
+      "speaker": "A"
+    },
+    {
+      "text": "这",
+      "start": 39700,
+      "end": 39840,
+      "confidence": 0.98057747,
+      "speaker": "A"
+    },
+    {
+      "text": "油钱",
+      "start": 39840,
+      "end": 40160,
+      "confidence": 0.98943746,
+      "speaker": "A"
+    },
+    {
+      "text": "都",
+      "start": 40160,
+      "end": 40420,
+      "confidence": 0.99993145,
+      "speaker": "A"
+    },
+    {
+      "text": "烧",
+      "start": 40420,
+      "end": 40500,
+      "confidence": 0.99754673,
+      "speaker": "A"
+    },
+    {
+      "text": "了",
+      "start": 40500,
+      "end": 40680,
+      "confidence": 0.9999627,
+      "speaker": "A"
+    },
+    {
+      "text": "多少",
+      "start": 40680,
+      "end": 41020,
+      "confidence": 0.9999511,
+      "speaker": "A"
+    },
+    {
+      "text": "了？",
+      "start": 41020,
+      "end": 41440,
+      "confidence": 0.9840002,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 41440,
+      "end": 41620,
+      "confidence": 0.9995208,
+      "speaker": "A"
+    },
+    {
+      "text": "怎么",
+      "start": 41620,
+      "end": 41840,
+      "confidence": 0.99599457,
+      "speaker": "A"
+    },
+    {
+      "text": "取消",
+      "start": 41840,
+      "end": 42320,
+      "confidence": 0.99999213,
+      "speaker": "A"
+    },
+    {
+      "text": "了？",
+      "start": 42320,
+      "end": 42870,
+      "confidence": 0.9948979,
+      "speaker": "A"
+    },
+    {
+      "text": "师傅，",
+      "start": 42880,
+      "end": 43800,
+      "confidence": 0.9956465,
+      "speaker": "A"
+    },
+    {
+      "text": "平台",
+      "start": 43800,
+      "end": 44080,
+      "confidence": 0.99999046,
+      "speaker": "A"
+    },
+    {
+      "text": "规定",
+      "start": 44080,
+      "end": 44580,
+      "confidence": 0.9999697,
+      "speaker": "A"
+    },
+    {
+      "text": "没",
+      "start": 44580,
+      "end": 44900,
+      "confidence": 0.9517999,
+      "speaker": "A"
+    },
+    {
+      "text": "上车",
+      "start": 44900,
+      "end": 45220,
+      "confidence": 0.99999374,
+      "speaker": "A"
+    },
+    {
+      "text": "之前",
+      "start": 45220,
+      "end": 45480,
+      "confidence": 0.99959165,
+      "speaker": "A"
+    },
+    {
+      "text": "可以",
+      "start": 45480,
+      "end": 45740,
+      "confidence": 0.99997747,
+      "speaker": "A"
+    },
+    {
+      "text": "取消",
+      "start": 45740,
+      "end": 46080,
+      "confidence": 0.9999975,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 46080,
+      "end": 46240,
+      "confidence": 0.96512777,
+      "speaker": "A"
+    },
+    {
+      "text": "吧？",
+      "start": 46240,
+      "end": 46540,
+      "confidence": 0.99664634,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 46540,
+      "end": 46760,
+      "confidence": 0.9997707,
+      "speaker": "A"
+    },
+    {
+      "text": "再",
+      "start": 46760,
+      "end": 46860,
+      "confidence": 0.9985209,
+      "speaker": "A"
+    },
+    {
+      "text": "接",
+      "start": 46860,
+      "end": 46940,
+      "confidence": 0.7266641,
+      "speaker": "A"
+    },
+    {
+      "text": "其他",
+      "start": 46940,
+      "end": 47240,
+      "confidence": 0.9999794,
+      "speaker": "A"
+    },
+    {
+      "text": "乘客",
+      "start": 47240,
+      "end": 47380,
+      "confidence": 0.99802446,
+      "speaker": "A"
+    },
+    {
+      "text": "不",
+      "start": 47380,
+      "end": 47560,
+      "confidence": 0.99992824,
+      "speaker": "A"
+    },
+    {
+      "text": "就",
+      "start": 47560,
+      "end": 47660,
+      "confidence": 0.99999714,
+      "speaker": "A"
+    },
+    {
+      "text": "好了？",
+      "start": 47660,
+      "end": 47959,
+      "confidence": 0.99438816,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 48119,
+      "end": 48279,
+      "confidence": 0.9990922,
+      "speaker": "A"
+    },
+    {
+      "text": "还有",
+      "start": 48279,
+      "end": 48400,
+      "confidence": 0.9998355,
+      "speaker": "A"
+    },
+    {
+      "text": "事，",
+      "start": 48400,
+      "end": 48660,
+      "confidence": 0.7825337,
+      "speaker": "A"
+    },
+    {
+      "text": "先挂。",
+      "start": 48660,
+      "end": 48940,
+      "confidence": 0.948704,
+      "speaker": "A"
+    },
+    {
+      "text": "是。",
+      "start": 48940,
+      "end": 49480,
+      "confidence": 0.28777358,
+      "speaker": "A"
+    },
+    {
+      "text": "哎，",
+      "start": 52250,
+      "end": 52900,
+      "confidence": 0.821351,
+      "speaker": "A"
+    },
+    {
+      "text": "怎么",
+      "start": 52900,
+      "end": 53120,
+      "confidence": 0.9996196,
+      "speaker": "A"
+    },
+    {
+      "text": "第二辆",
+      "start": 53120,
+      "end": 53800,
+      "confidence": 0.999769,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 53800,
+      "end": 54240,
+      "confidence": 0.6521241,
+      "speaker": "A"
+    },
+    {
+      "text": "辆",
+      "start": 54240,
+      "end": 54360,
+      "confidence": 0.99948967,
+      "speaker": "A"
+    },
+    {
+      "text": "五年的",
+      "start": 54360,
+      "end": 54700,
+      "confidence": 0.99988884,
+      "speaker": "A"
+    },
+    {
+      "text": "宝车",
+      "start": 54700,
+      "end": 55200,
+      "confidence": 0.7387789,
+      "speaker": "A"
+    },
+    {
+      "text": "呀？",
+      "start": 55200,
+      "end": 55850,
+      "confidence": 0.999941,
+      "speaker": "A"
+    },
+    {
+      "text": "五年",
+      "start": 56560,
+      "end": 57280,
+      "confidence": 0.9999018,
+      "speaker": "A"
+    },
+    {
+      "text": "也",
+      "start": 57280,
+      "end": 57480,
+      "confidence": 0.99915063,
+      "speaker": "A"
+    },
+    {
+      "text": "还好吧，",
+      "start": 57480,
+      "end": 58180,
+      "confidence": 0.99708766,
+      "speaker": "A"
+    },
+    {
+      "text": "能",
+      "start": 58180,
+      "end": 58360,
+      "confidence": 0.9986248,
+      "speaker": "A"
+    },
+    {
+      "text": "坐",
+      "start": 58360,
+      "end": 58440,
+      "confidence": 0.9878384,
+      "speaker": "A"
+    },
+    {
+      "text": "就行了。",
+      "start": 58440,
+      "end": 59100,
+      "confidence": 0.9854316,
+      "speaker": "A"
+    },
+    {
+      "text": "那能",
+      "start": 59260,
+      "end": 59720,
+      "confidence": 0.99737626,
+      "speaker": "A"
+    },
+    {
+      "text": "一样",
+      "start": 59720,
+      "end": 60040,
+      "confidence": 0.9976452,
+      "speaker": "A"
+    },
+    {
+      "text": "吗？",
+      "start": 60040,
+      "end": 60500,
+      "confidence": 0.999962,
+      "speaker": "A"
+    },
+    {
+      "text": "五年的",
+      "start": 60500,
+      "end": 61100,
+      "confidence": 0.9987401,
+      "speaker": "A"
+    },
+    {
+      "text": "车。",
+      "start": 61100,
+      "end": 61600,
+      "confidence": 0.92335343,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 61660,
+      "end": 61920,
+      "confidence": 0.9993674,
+      "speaker": "A"
+    },
+    {
+      "text": "想",
+      "start": 61920,
+      "end": 62140,
+      "confidence": 0.99997306,
+      "speaker": "A"
+    },
+    {
+      "text": "一下，",
+      "start": 62140,
+      "end": 62740,
+      "confidence": 0.98194623,
+      "speaker": "A"
+    },
+    {
+      "text": "那",
+      "start": 62740,
+      "end": 62960,
+      "confidence": 0.95091265,
+      "speaker": "A"
+    },
+    {
+      "text": "座椅",
+      "start": 62960,
+      "end": 63160,
+      "confidence": 0.9920113,
+      "speaker": "A"
+    },
+    {
+      "text": "都",
+      "start": 63160,
+      "end": 63340,
+      "confidence": 0.9999745,
+      "speaker": "A"
+    },
+    {
+      "text": "得",
+      "start": 63340,
+      "end": 63480,
+      "confidence": 0.9999567,
+      "speaker": "A"
+    },
+    {
+      "text": "包浆",
+      "start": 63480,
+      "end": 63960,
+      "confidence": 0.9977235,
+      "speaker": "A"
+    },
+    {
+      "text": "了。",
+      "start": 63960,
+      "end": 64510,
+      "confidence": 0.8425411,
+      "speaker": "A"
+    },
+    {
+      "text": "算了，",
+      "start": 64580,
+      "end": 64860,
+      "confidence": 0.999887,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 64860,
+      "end": 64880,
+      "confidence": 0.9998049,
+      "speaker": "A"
+    },
+    {
+      "text": "再",
+      "start": 64880,
+      "end": 65000,
+      "confidence": 0.9998449,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 65000,
+      "end": 65120,
+      "confidence": 0.99997485,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆",
+      "start": 65120,
+      "end": 65340,
+      "confidence": 0.99997246,
+      "speaker": "A"
+    },
+    {
+      "text": "吧。",
+      "start": 65340,
+      "end": 65640,
+      "confidence": 0.6581482,
+      "speaker": "A"
+    },
+    {
+      "text": "一张",
+      "start": 66400,
+      "end": 66560,
+      "confidence": 0.6039089,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 66560,
+      "end": 66700,
+      "confidence": 0.99940956,
+      "speaker": "A"
+    },
+    {
+      "text": "不",
+      "start": 66700,
+      "end": 66800,
+      "confidence": 0.565141,
+      "speaker": "A"
+    },
+    {
+      "text": "第二辆",
+      "start": 66800,
+      "end": 67100,
+      "confidence": 0.9730686,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 67100,
+      "end": 67260,
+      "confidence": 0.9989002,
+      "speaker": "A"
+    },
+    {
+      "text": "车",
+      "start": 67260,
+      "end": 67300,
+      "confidence": 0.9999788,
+      "speaker": "A"
+    },
+    {
+      "text": "都",
+      "start": 67300,
+      "end": 67460,
+      "confidence": 0.9689106,
+      "speaker": "A"
+    },
+    {
+      "text": "在",
+      "start": 67460,
+      "end": 67520,
+      "confidence": 0.98205733,
+      "speaker": "A"
+    },
+    {
+      "text": "来",
+      "start": 67520,
+      "end": 67600,
+      "confidence": 0.84456986,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 67600,
+      "end": 67720,
+      "confidence": 0.84456986,
+      "speaker": "A"
+    },
+    {
+      "text": "路上",
+      "start": 67720,
+      "end": 68020,
+      "confidence": 0.9994717,
+      "speaker": "A"
+    },
+    {
+      "text": "了，",
+      "start": 68020,
+      "end": 68640,
+      "confidence": 0.9091237,
+      "speaker": "A"
+    },
+    {
+      "text": "有",
+      "start": 68640,
+      "end": 68820,
+      "confidence": 0.8192995,
+      "speaker": "A"
+    },
+    {
+      "text": "更好的",
+      "start": 68820,
+      "end": 69320,
+      "confidence": 0.9997581,
+      "speaker": "A"
+    },
+    {
+      "text": "呀",
+      "start": 69320,
+      "end": 69560,
+      "confidence": 0.99946505,
+      "speaker": "A"
+    },
+    {
+      "text": "就",
+      "start": 69560,
+      "end": 69800,
+      "confidence": 0.5741486,
+      "speaker": "A"
+    },
+    {
+      "text": "换。",
+      "start": 69800,
+      "end": 70200,
+      "confidence": 0.9316953,
+      "speaker": "A"
+    },
+    {
+      "text": "司机",
+      "start": 71920,
+      "end": 72140,
+      "confidence": 0.99990666,
+      "speaker": "A"
+    },
+    {
+      "text": "已",
+      "start": 72140,
+      "end": 72380,
+      "confidence": 0.9963276,
+      "speaker": "A"
+    },
+    {
+      "text": "接待。",
+      "start": 72380,
+      "end": 72580,
+      "confidence": 0.8868751,
+      "speaker": "A"
+    },
+    {
+      "text": "哎，",
+      "start": 72580,
+      "end": 72720,
+      "confidence": 0.92300934,
+      "speaker": "A"
+    },
+    {
+      "text": "你看，",
+      "start": 72720,
+      "end": 73280,
+      "confidence": 0.9346596,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 73280,
+      "end": 73380,
+      "confidence": 0.8086125,
+      "speaker": "A"
+    },
+    {
+      "text": "又",
+      "start": 73380,
+      "end": 73500,
+      "confidence": 0.9999938,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 73500,
+      "end": 73680,
+      "confidence": 0.99983895,
+      "speaker": "A"
+    },
+    {
+      "text": "到了",
+      "start": 73680,
+      "end": 73880,
+      "confidence": 0.9999261,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆，",
+      "start": 73880,
+      "end": 75320,
+      "confidence": 0.991274,
+      "speaker": "A"
+    },
+    {
+      "text": "还是",
+      "start": 75320,
+      "end": 75760,
+      "confidence": 0.96102387,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆",
+      "start": 75760,
+      "end": 75980,
+      "confidence": 0.9971188,
+      "speaker": "A"
+    },
+    {
+      "text": "三十万",
+      "start": 75980,
+      "end": 76560,
+      "confidence": 0.99994934,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 76560,
+      "end": 76680,
+      "confidence": 0.99993074,
+      "speaker": "A"
+    },
+    {
+      "text": "车，",
+      "start": 76680,
+      "end": 77300,
+      "confidence": 0.96384656,
+      "speaker": "A"
+    },
+    {
+      "text": "车龄",
+      "start": 77300,
+      "end": 77520,
+      "confidence": 0.99478453,
+      "speaker": "A"
+    },
+    {
+      "text": "才",
+      "start": 77520,
+      "end": 77719,
+      "confidence": 0.99999523,
+      "speaker": "A"
+    },
+    {
+      "text": "一年",
+      "start": 77719,
+      "end": 78100,
+      "confidence": 0.9999683,
+      "speaker": "A"
+    },
+    {
+      "text": "一分钟",
+      "start": 78100,
+      "end": 78580,
+      "confidence": 0.88474107,
+      "speaker": "A"
+    },
+    {
+      "text": "就",
+      "start": 78580,
+      "end": 78740,
+      "confidence": 0.99963236,
+      "speaker": "A"
+    },
+    {
+      "text": "到了，",
+      "start": 78740,
+      "end": 79320,
+      "confidence": 0.97005266,
+      "speaker": "A"
+    },
+    {
+      "text": "是我",
+      "start": 79320,
+      "end": 79580,
+      "confidence": 0.9539484,
+      "speaker": "A"
+    },
+    {
+      "text": "运气",
+      "start": 79580,
+      "end": 79900,
+      "confidence": 0.9999903,
+      "speaker": "A"
+    },
+    {
+      "text": "也",
+      "start": 79900,
+      "end": 80040,
+      "confidence": 0.8750848,
+      "speaker": "A"
+    },
+    {
+      "text": "太好了",
+      "start": 80040,
+      "end": 80660,
+      "confidence": 0.9999741,
+      "speaker": "A"
+    },
+    {
+      "text": "吧？",
+      "start": 80660,
+      "end": 81110,
+      "confidence": 0.96262497,
+      "speaker": "A"
+    },
+    {
+      "text": "不是，",
+      "start": 83910,
+      "end": 84360,
+      "confidence": 0.97899395,
+      "speaker": "A"
+    },
+    {
+      "text": "怎么",
+      "start": 84360,
+      "end": 84740,
+      "confidence": 0.9999771,
+      "speaker": "A"
+    },
+    {
+      "text": "取消",
+      "start": 84740,
+      "end": 85100,
+      "confidence": 0.9999931,
+      "speaker": "A"
+    },
+    {
+      "text": "上",
+      "start": 85100,
+      "end": 85280,
+      "confidence": 0.99985397,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆",
+      "start": 85280,
+      "end": 85760,
+      "confidence": 0.99994844,
+      "speaker": "A"
+    },
+    {
+      "text": "还要",
+      "start": 85760,
+      "end": 86200,
+      "confidence": 0.8333715,
+      "speaker": "A"
+    },
+    {
+      "text": "扣",
+      "start": 86200,
+      "end": 86220,
+      "confidence": 0.9999734,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 86220,
+      "end": 86400,
+      "confidence": 0.95726633,
+      "speaker": "A"
+    },
+    {
+      "text": "三块",
+      "start": 86400,
+      "end": 86560,
+      "confidence": 0.99997854,
+      "speaker": "A"
+    },
+    {
+      "text": "钱",
+      "start": 86560,
+      "end": 86740,
+      "confidence": 0.99999785,
+      "speaker": "A"
+    },
+    {
+      "text": "啊？",
+      "start": 86740,
+      "end": 87140,
+      "confidence": 0.98487747,
+      "speaker": "A"
+    },
+    {
+      "text": "那要",
+      "start": 87190,
+      "end": 87750,
+      "confidence": 0.95797527,
+      "speaker": "A"
+    },
+    {
+      "text": "不别",
+      "start": 87750,
+      "end": 88090,
+      "confidence": 0.7217637,
+      "speaker": "A"
+    },
+    {
+      "text": "取消",
+      "start": 88090,
+      "end": 88350,
+      "confidence": 0.98185676,
+      "speaker": "A"
+    },
+    {
+      "text": "了，也",
+      "start": 88350,
+      "end": 88850,
+      "confidence": 0.6339,
+      "speaker": "A"
+    },
+    {
+      "text": "不是",
+      "start": 88850,
+      "end": 89090,
+      "confidence": 0.99999106,
+      "speaker": "A"
+    },
+    {
+      "text": "很",
+      "start": 89090,
+      "end": 89290,
+      "confidence": 0.9974413,
+      "speaker": "A"
+    },
+    {
+      "text": "老。",
+      "start": 89290,
+      "end": 89790,
+      "confidence": 0.6351188,
+      "speaker": "A"
+    },
+    {
+      "text": "三块",
+      "start": 90930,
+      "end": 91170,
+      "confidence": 0.9992593,
+      "speaker": "A"
+    },
+    {
+      "text": "就",
+      "start": 91170,
+      "end": 91290,
+      "confidence": 0.997684,
+      "speaker": "A"
+    },
+    {
+      "text": "三块，",
+      "start": 91290,
+      "end": 91910,
+      "confidence": 0.999944,
+      "speaker": "A"
+    },
+    {
+      "text": "总比",
+      "start": 91910,
+      "end": 92290,
+      "confidence": 0.9999268,
+      "speaker": "A"
+    },
+    {
+      "text": "呀",
+      "start": 92290,
+      "end": 92550,
+      "confidence": 0.98253137,
+      "speaker": "A"
+    },
+    {
+      "text": "坐",
+      "start": 92550,
+      "end": 92610,
+      "confidence": 0.9632647,
+      "speaker": "A"
+    },
+    {
+      "text": "五年的",
+      "start": 92610,
+      "end": 92950,
+      "confidence": 0.9999609,
+      "speaker": "A"
+    },
+    {
+      "text": "老车",
+      "start": 92950,
+      "end": 93370,
+      "confidence": 0.99998206,
+      "speaker": "A"
+    },
+    {
+      "text": "强。",
+      "start": 93370,
+      "end": 93790,
+      "confidence": 0.7350716,
+      "speaker": "A"
+    },
+    {
+      "text": "第三",
+      "start": 93790,
+      "end": 94090,
+      "confidence": 0.44239223,
+      "speaker": "A"
+    },
+    {
+      "text": "一",
+      "start": 94090,
+      "end": 94250,
+      "confidence": 0.48384017,
+      "speaker": "A"
+    },
+    {
+      "text": "取消，",
+      "start": 94250,
+      "end": 94690,
+      "confidence": 0.87792325,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 94690,
+      "end": 94910,
+      "confidence": 0.52479947,
+      "speaker": "A"
+    },
+    {
+      "text": "这",
+      "start": 94910,
+      "end": 95410,
+      "confidence": 0.9992792,
+      "speaker": "A"
+    },
+    {
+      "text": "都",
+      "start": 95410,
+      "end": 95790,
+      "confidence": 0.9700198,
+      "speaker": "A"
+    },
+    {
+      "text": "折腾",
+      "start": 95790,
+      "end": 96030,
+      "confidence": 0.99999946,
+      "speaker": "A"
+    },
+    {
+      "text": "翻",
+      "start": 96030,
+      "end": 96370,
+      "confidence": 0.49939382,
+      "speaker": "A"
+    },
+    {
+      "text": "了。",
+      "start": 96370,
+      "end": 97050,
+      "confidence": 0.7034414,
+      "speaker": "A"
+    },
+    {
+      "text": "哎呀，",
+      "start": 97050,
+      "end": 97630,
+      "confidence": 0.943188,
+      "speaker": "A"
+    },
+    {
+      "text": "遇到",
+      "start": 97630,
+      "end": 97850,
+      "confidence": 0.99997514,
+      "speaker": "A"
+    },
+    {
+      "text": "满意",
+      "start": 97850,
+      "end": 98170,
+      "confidence": 0.99995583,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 98170,
+      "end": 98410,
+      "confidence": 0.9999881,
+      "speaker": "A"
+    },
+    {
+      "text": "呀",
+      "start": 98410,
+      "end": 98490,
+      "confidence": 0.999969,
+      "speaker": "A"
+    },
+    {
+      "text": "就",
+      "start": 98490,
+      "end": 98590,
+      "confidence": 0.9913693,
+      "speaker": "A"
+    },
+    {
+      "text": "得",
+      "start": 98590,
+      "end": 98770,
+      "confidence": 0.99995375,
+      "speaker": "A"
+    },
+    {
+      "text": "换。",
+      "start": 98770,
+      "end": 99120,
+      "confidence": 0.98168695,
+      "speaker": "A"
+    },
+    {
+      "text": "我我",
+      "start": 102630,
+      "end": 103030,
+      "confidence": 0.7353,
+      "speaker": "A"
+    },
+    {
+      "text": "刚才",
+      "start": 103030,
+      "end": 103269,
+      "confidence": 0.99341327,
+      "speaker": "A"
+    },
+    {
+      "text": "没",
+      "start": 103269,
+      "end": 103390,
+      "confidence": 0.9999722,
+      "speaker": "A"
+    },
+    {
+      "text": "注意",
+      "start": 103390,
+      "end": 103550,
+      "confidence": 0.9999815,
+      "speaker": "A"
+    },
+    {
+      "text": "看，",
+      "start": 103550,
+      "end": 104930,
+      "confidence": 0.9859386,
+      "speaker": "A"
+    },
+    {
+      "text": "怎么",
+      "start": 104930,
+      "end": 105350,
+      "confidence": 0.99955016,
+      "speaker": "A"
+    },
+    {
+      "text": "司机",
+      "start": 105350,
+      "end": 105690,
+      "confidence": 0.9999622,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 105690,
+      "end": 105890,
+      "confidence": 0.99985623,
+      "speaker": "A"
+    },
+    {
+      "text": "评分",
+      "start": 105890,
+      "end": 106010,
+      "confidence": 0.9997845,
+      "speaker": "A"
+    },
+    {
+      "text": "才",
+      "start": 106010,
+      "end": 106170,
+      "confidence": 0.99998057,
+      "speaker": "A"
+    },
+    {
+      "text": "三点",
+      "start": 106170,
+      "end": 106570,
+      "confidence": 0.9993178,
+      "speaker": "A"
+    },
+    {
+      "text": "八",
+      "start": 106570,
+      "end": 106770,
+      "confidence": 0.9998242,
+      "speaker": "A"
+    },
+    {
+      "text": "呀？",
+      "start": 106770,
+      "end": 107170,
+      "confidence": 0.9997327,
+      "speaker": "A"
+    },
+    {
+      "text": "司机",
+      "start": 107330,
+      "end": 107970,
+      "confidence": 0.999971,
+      "speaker": "A"
+    },
+    {
+      "text": "态度",
+      "start": 107970,
+      "end": 108390,
+      "confidence": 0.9999916,
+      "speaker": "A"
+    },
+    {
+      "text": "极差，",
+      "start": 108390,
+      "end": 109010,
+      "confidence": 0.99984586,
+      "speaker": "A"
+    },
+    {
+      "text": "一路",
+      "start": 109010,
+      "end": 109390,
+      "confidence": 0.9997747,
+      "speaker": "A"
+    },
+    {
+      "text": "甩",
+      "start": 109390,
+      "end": 109530,
+      "confidence": 0.99995756,
+      "speaker": "A"
+    },
+    {
+      "text": "脸色，",
+      "start": 109530,
+      "end": 110510,
+      "confidence": 0.9935021,
+      "speaker": "A"
+    },
+    {
+      "text": "车里",
+      "start": 110510,
+      "end": 110850,
+      "confidence": 0.9998995,
+      "speaker": "A"
+    },
+    {
+      "text": "异味",
+      "start": 110850,
+      "end": 111070,
+      "confidence": 0.9576562,
+      "speaker": "A"
+    },
+    {
+      "text": "重，",
+      "start": 111070,
+      "end": 111610,
+      "confidence": 0.9598297,
+      "speaker": "A"
+    },
+    {
+      "text": "不",
+      "start": 111610,
+      "end": 111910,
+      "confidence": 0.9212411,
+      "speaker": "A"
+    },
+    {
+      "text": "讲卫生，",
+      "start": 111910,
+      "end": 112430,
+      "confidence": 0.9876129,
+      "speaker": "A"
+    },
+    {
+      "text": "明明",
+      "start": 112430,
+      "end": 112870,
+      "confidence": 0.9999761,
+      "speaker": "A"
+    },
+    {
+      "text": "不是",
+      "start": 112870,
+      "end": 113270,
+      "confidence": 0.99905735,
+      "speaker": "A"
+    },
+    {
+      "text": "拼车。",
+      "start": 113270,
+      "end": 113790,
+      "confidence": 0.9742689,
+      "speaker": "A"
+    },
+    {
+      "text": "自己",
+      "start": 114190,
+      "end": 114430,
+      "confidence": 0.78900397,
+      "speaker": "A"
+    },
+    {
+      "text": "还",
+      "start": 114430,
+      "end": 114710,
+      "confidence": 0.99963033,
+      "speaker": "A"
+    },
+    {
+      "text": "多",
+      "start": 114710,
+      "end": 114870,
+      "confidence": 0.98346716,
+      "speaker": "A"
+    },
+    {
+      "text": "劫",
+      "start": 114870,
+      "end": 114930,
+      "confidence": 0.5261009,
+      "speaker": "A"
+    },
+    {
+      "text": "了",
+      "start": 114930,
+      "end": 115030,
+      "confidence": 0.99194145,
+      "speaker": "A"
+    },
+    {
+      "text": "其他人，不是",
+      "start": 115030,
+      "end": 115930,
+      "confidence": 0.9126,
+      "speaker": "A"
+    },
+    {
+      "text": "这种",
+      "start": 115930,
+      "end": 116290,
+      "confidence": 0.992413,
+      "speaker": "A"
+    },
+    {
+      "text": "事",
+      "start": 116290,
+      "end": 116390,
+      "confidence": 0.76040435,
+      "speaker": "A"
+    },
+    {
+      "text": "谁",
+      "start": 116390,
+      "end": 116630,
+      "confidence": 0.8450675,
+      "speaker": "A"
+    },
+    {
+      "text": "敢",
+      "start": 116630,
+      "end": 116850,
+      "confidence": 0.9941917,
+      "speaker": "A"
+    },
+    {
+      "text": "做",
+      "start": 116850,
+      "end": 117410,
+      "confidence": 0.999777,
+      "speaker": "A"
+    },
+    {
+      "text": "呀？",
+      "start": 117410,
+      "end": 117750,
+      "confidence": 0.9832588,
+      "speaker": "A"
+    },
+    {
+      "text": "算了，还是",
+      "start": 117750,
+      "end": 118110,
+      "confidence": 0.716,
+      "speaker": "A"
+    },
+    {
+      "text": "取消",
+      "start": 118110,
+      "end": 118450,
+      "confidence": 0.9999871,
+      "speaker": "A"
+    },
+    {
+      "text": "了吧。艾瑟",
+      "start": 118450,
+      "end": 118890,
+      "confidence": 0.8276,
+      "speaker": "A"
+    },
+    {
+      "text": "琳娜，",
+      "start": 118890,
+      "end": 120010,
+      "confidence": 0.91564643,
+      "speaker": "A"
+    },
+    {
+      "text": "现在",
+      "start": 120010,
+      "end": 120370,
+      "confidence": 0.99611497,
+      "speaker": "A"
+    },
+    {
+      "text": "都",
+      "start": 120370,
+      "end": 120570,
+      "confidence": 0.99990964,
+      "speaker": "A"
+    },
+    {
+      "text": "那么",
+      "start": 120570,
+      "end": 120770,
+      "confidence": 0.9998553,
+      "speaker": "A"
+    },
+    {
+      "text": "晚",
+      "start": 120770,
+      "end": 120970,
+      "confidence": 0.9999933,
+      "speaker": "A"
+    },
+    {
+      "text": "了，",
+      "start": 120970,
+      "end": 121430,
+      "confidence": 0.961487,
+      "speaker": "A"
+    },
+    {
+      "text": "理由",
+      "start": 121430,
+      "end": 121570,
+      "confidence": 0.88997644,
+      "speaker": "A"
+    },
+    {
+      "text": "这么",
+      "start": 121570,
+      "end": 121830,
+      "confidence": 0.99586713,
+      "speaker": "A"
+    },
+    {
+      "text": "大，",
+      "start": 121830,
+      "end": 122730,
+      "confidence": 0.9963483,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 122730,
+      "end": 122870,
+      "confidence": 0.9927503,
+      "speaker": "A"
+    },
+    {
+      "text": "再",
+      "start": 122870,
+      "end": 123110,
+      "confidence": 0.9952236,
+      "speaker": "A"
+    },
+    {
+      "text": "挑，",
+      "start": 123110,
+      "end": 124350,
+      "confidence": 0.8860985,
+      "speaker": "A"
+    },
+    {
+      "text": "万一",
+      "start": 124350,
+      "end": 125190,
+      "confidence": 0.9995174,
+      "speaker": "A"
+    },
+    {
+      "text": "找到",
+      "start": 125190,
+      "end": 125730,
+      "confidence": 0.81879485,
+      "speaker": "A"
+    },
+    {
+      "text": "怎么办？",
+      "start": 125730,
+      "end": 126840,
+      "confidence": 0.7421483,
+      "speaker": "A"
+    },
+    {
+      "text": "哎，",
+      "start": 129350,
+      "end": 130150,
+      "confidence": 0.96116096,
+      "speaker": "A"
+    },
+    {
+      "text": "怎么",
+      "start": 130150,
+      "end": 130390,
+      "confidence": 0.9999877,
+      "speaker": "A"
+    },
+    {
+      "text": "可能",
+      "start": 130390,
+      "end": 130710,
+      "confidence": 0.9999963,
+      "speaker": "A"
+    },
+    {
+      "text": "找",
+      "start": 130710,
+      "end": 130870,
+      "confidence": 0.9999976,
+      "speaker": "A"
+    },
+    {
+      "text": "不到",
+      "start": 130870,
+      "end": 131230,
+      "confidence": 0.999765,
+      "speaker": "A"
+    },
+    {
+      "text": "啊？",
+      "start": 131230,
+      "end": 131410,
+      "confidence": 0.7612186,
+      "speaker": "A"
+    },
+    {
+      "text": "我就",
+      "start": 131410,
+      "end": 131610,
+      "confidence": 0.99996096,
+      "speaker": "A"
+    },
+    {
+      "text": "不信",
+      "start": 131610,
+      "end": 131990,
+      "confidence": 0.9999891,
+      "speaker": "A"
+    },
+    {
+      "text": "了，",
+      "start": 131990,
+      "end": 132350,
+      "confidence": 0.83190423,
+      "speaker": "A"
+    },
+    {
+      "text": "这么",
+      "start": 132350,
+      "end": 132470,
+      "confidence": 0.8324268,
+      "speaker": "A"
+    },
+    {
+      "text": "大的",
+      "start": 132470,
+      "end": 132810,
+      "confidence": 0.9999919,
+      "speaker": "A"
+    },
+    {
+      "text": "城市，",
+      "start": 132810,
+      "end": 133330,
+      "confidence": 0.93425757,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 133330,
+      "end": 133450,
+      "confidence": 0.73712105,
+      "speaker": "A"
+    },
+    {
+      "text": "找",
+      "start": 133450,
+      "end": 133570,
+      "confidence": 0.999984,
+      "speaker": "A"
+    },
+    {
+      "text": "不到",
+      "start": 133570,
+      "end": 133770,
+      "confidence": 0.99999046,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆",
+      "start": 133770,
+      "end": 133990,
+      "confidence": 0.9999852,
+      "speaker": "A"
+    },
+    {
+      "text": "距离",
+      "start": 133990,
+      "end": 134310,
+      "confidence": 0.9821263,
+      "speaker": "A"
+    },
+    {
+      "text": "近、",
+      "start": 134310,
+      "end": 134650,
+      "confidence": 0.61029094,
+      "speaker": "A"
+    },
+    {
+      "text": "牌子",
+      "start": 134650,
+      "end": 134910,
+      "confidence": 0.9177435,
+      "speaker": "A"
+    },
+    {
+      "text": "硬、",
+      "start": 134910,
+      "end": 135390,
+      "confidence": 0.98333085,
+      "speaker": "A"
+    },
+    {
+      "text": "车",
+      "start": 135390,
+      "end": 135470,
+      "confidence": 0.99963045,
+      "speaker": "A"
+    },
+    {
+      "text": "流行、",
+      "start": 135470,
+      "end": 136050,
+      "confidence": 0.8204475,
+      "speaker": "A"
+    },
+    {
+      "text": "评分",
+      "start": 136050,
+      "end": 136210,
+      "confidence": 0.9974308,
+      "speaker": "A"
+    },
+    {
+      "text": "又",
+      "start": 136210,
+      "end": 136410,
+      "confidence": 0.99984,
+      "speaker": "A"
+    },
+    {
+      "text": "刚好的",
+      "start": 136410,
+      "end": 136830,
+      "confidence": 0.65410906,
+      "speaker": "A"
+    },
+    {
+      "text": "车。",
+      "start": 136830,
+      "end": 137330,
+      "confidence": 0.91057944,
+      "speaker": "A"
+    },
+    {
+      "text": "订单",
+      "start": 137790,
+      "end": 138090,
+      "confidence": 0.9992901,
+      "speaker": "A"
+    },
+    {
+      "text": "已",
+      "start": 138090,
+      "end": 138250,
+      "confidence": 0.99955004,
+      "speaker": "A"
+    },
+    {
+      "text": "取消，",
+      "start": 138250,
+      "end": 138670,
+      "confidence": 0.9194333,
+      "speaker": "A"
+    },
+    {
+      "text": "取消",
+      "start": 138670,
+      "end": 138930,
+      "confidence": 0.99999905,
+      "speaker": "A"
+    },
+    {
+      "text": "了，",
+      "start": 138930,
+      "end": 139270,
+      "confidence": 0.9501977,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 139270,
+      "end": 139450,
+      "confidence": 0.9052511,
+      "speaker": "A"
+    },
+    {
+      "text": "再",
+      "start": 139450,
+      "end": 139570,
+      "confidence": 0.9999459,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 139570,
+      "end": 139690,
+      "confidence": 0.9998796,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆。",
+      "start": 139690,
+      "end": 139970,
+      "confidence": 0.9685443,
+      "speaker": "A"
+    },
+    {
+      "text": "怎么回事",
+      "start": 141460,
+      "end": 143200,
+      "confidence": 0.99998075,
+      "speaker": "A"
+    },
+    {
+      "text": "啊？",
+      "start": 143200,
+      "end": 144600,
+      "confidence": 0.81712997,
+      "speaker": "A"
+    },
+    {
+      "text": "怎么",
+      "start": 145560,
+      "end": 147360,
+      "confidence": 0.986743,
+      "speaker": "A"
+    },
+    {
+      "text": "都",
+      "start": 147360,
+      "end": 147580,
+      "confidence": 0.9866463,
+      "speaker": "A"
+    },
+    {
+      "text": "需要",
+      "start": 147580,
+      "end": 147720,
+      "confidence": 0.99970645,
+      "speaker": "A"
+    },
+    {
+      "text": "排队",
+      "start": 147720,
+      "end": 148620,
+      "confidence": 0.9999975,
+      "speaker": "A"
+    },
+    {
+      "text": "啊？",
+      "start": 148620,
+      "end": 150420,
+      "confidence": 0.6635992,
+      "speaker": "A"
+    },
+    {
+      "text": "司机",
+      "start": 153480,
+      "end": 153640,
+      "confidence": 0.99870676,
+      "speaker": "A"
+    },
+    {
+      "text": "已经",
+      "start": 153640,
+      "end": 153840,
+      "confidence": 0.4604704,
+      "speaker": "A"
+    },
+    {
+      "text": "来，",
+      "start": 153840,
+      "end": 154380,
+      "confidence": 0.56421524,
+      "speaker": "A"
+    },
+    {
+      "text": "打到了，",
+      "start": 154380,
+      "end": 155560,
+      "confidence": 0.8886632,
+      "speaker": "A"
+    },
+    {
+      "text": "打到了。",
+      "start": 155560,
+      "end": 155720,
+      "confidence": 0.9323112,
+      "speaker": "A"
+    },
+    {
+      "text": "多久",
+      "start": 155720,
+      "end": 155840,
+      "confidence": 0.98567724,
+      "speaker": "A"
+    },
+    {
+      "text": "吧？",
+      "start": 155840,
+      "end": 156090,
+      "confidence": 0.8855264,
+      "speaker": "A"
+    },
+    {
+      "text": "半个",
+      "start": 160140,
+      "end": 160420,
+      "confidence": 0.9998187,
+      "speaker": "A"
+    },
+    {
+      "text": "小时，",
+      "start": 160420,
+      "end": 161260,
+      "confidence": 0.9235544,
+      "speaker": "A"
+    },
+    {
+      "text": "还是",
+      "start": 161260,
+      "end": 161760,
+      "confidence": 0.99993634,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆",
+      "start": 161760,
+      "end": 162300,
+      "confidence": 0.99997896,
+      "speaker": "A"
+    },
+    {
+      "text": "十年",
+      "start": 162300,
+      "end": 162880,
+      "confidence": 0.9979519,
+      "speaker": "A"
+    },
+    {
+      "text": "车龄",
+      "start": 162880,
+      "end": 163140,
+      "confidence": 0.99997973,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 163140,
+      "end": 163300,
+      "confidence": 0.99998164,
+      "speaker": "A"
+    },
+    {
+      "text": "老款。",
+      "start": 163300,
+      "end": 163990,
+      "confidence": 0.9732763,
+      "speaker": "A"
+    },
+    {
+      "text": "半个",
+      "start": 164160,
+      "end": 164400,
+      "confidence": 0.99998355,
+      "speaker": "A"
+    },
+    {
+      "text": "小时，",
+      "start": 164400,
+      "end": 165100,
+      "confidence": 0.8749994,
+      "speaker": "A"
+    },
+    {
+      "text": "还是",
+      "start": 165100,
+      "end": 165280,
+      "confidence": 0.9999511,
+      "speaker": "A"
+    },
+    {
+      "text": "老车，",
+      "start": 165280,
+      "end": 165740,
+      "confidence": 0.9292349,
+      "speaker": "A"
+    },
+    {
+      "text": "老车",
+      "start": 165740,
+      "end": 166000,
+      "confidence": 0.9999768,
+      "speaker": "A"
+    },
+    {
+      "text": "就",
+      "start": 166000,
+      "end": 166100,
+      "confidence": 0.9972178,
+      "speaker": "A"
+    },
+    {
+      "text": "老车",
+      "start": 166100,
+      "end": 166380,
+      "confidence": 0.999994,
+      "speaker": "A"
+    },
+    {
+      "text": "吧。",
+      "start": 166380,
+      "end": 166660,
+      "confidence": 0.9994946,
+      "speaker": "A"
+    },
+    {
+      "text": "封闭",
+      "start": 166920,
+      "end": 167490,
+      "confidence": 0.9903714,
+      "speaker": "A"
+    },
+    {
+      "text": "打不着",
+      "start": 167490,
+      "end": 167930,
+      "confidence": 0.9967332,
+      "speaker": "A"
+    },
+    {
+      "text": "车，",
+      "start": 167930,
+      "end": 168610,
+      "confidence": 0.97179997,
+      "speaker": "A"
+    },
+    {
+      "text": "回",
+      "start": 168610,
+      "end": 168630,
+      "confidence": 0.99908364,
+      "speaker": "A"
+    },
+    {
+      "text": "不了",
+      "start": 168630,
+      "end": 168790,
+      "confidence": 0.99995804,
+      "speaker": "A"
+    },
+    {
+      "text": "家",
+      "start": 168790,
+      "end": 168990,
+      "confidence": 0.993258,
+      "speaker": "A"
+    },
+    {
+      "text": "抢，",
+      "start": 168990,
+      "end": 169670,
+      "confidence": 0.67247874,
+      "speaker": "A"
+    },
+    {
+      "text": "凑合",
+      "start": 169670,
+      "end": 169850,
+      "confidence": 0.8656946,
+      "speaker": "A"
+    },
+    {
+      "text": "坐",
+      "start": 169850,
+      "end": 170030,
+      "confidence": 0.6910473,
+      "speaker": "A"
+    },
+    {
+      "text": "了。",
+      "start": 170030,
+      "end": 170480,
+      "confidence": 0.87715685,
+      "speaker": "A"
+    },
+    {
+      "text": "嗯。",
+      "start": 171230,
+      "end": 173330,
+      "confidence": 0.7110145,
+      "speaker": "A"
+    },
+    {
+      "text": "喂，",
+      "start": 173330,
+      "end": 173590,
+      "confidence": 0.95599836,
+      "speaker": "A"
+    },
+    {
+      "text": "你好。",
+      "start": 173590,
+      "end": 173910,
+      "confidence": 0.8158516,
+      "speaker": "A"
+    },
+    {
+      "text": "姑娘，不好意思",
+      "start": 173910,
+      "end": 174650,
+      "confidence": 0.9982,
+      "speaker": "A"
+    },
+    {
+      "text": "啊，",
+      "start": 174650,
+      "end": 175110,
+      "confidence": 0.64095145,
+      "speaker": "A"
+    },
+    {
+      "text": "离得",
+      "start": 175110,
+      "end": 175310,
+      "confidence": 0.9806976,
+      "speaker": "A"
+    },
+    {
+      "text": "太远",
+      "start": 175310,
+      "end": 175690,
+      "confidence": 0.9999973,
+      "speaker": "A"
+    },
+    {
+      "text": "了，",
+      "start": 175690,
+      "end": 176050,
+      "confidence": 0.99498296,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 176050,
+      "end": 176130,
+      "confidence": 0.9899719,
+      "speaker": "A"
+    },
+    {
+      "text": "把",
+      "start": 176130,
+      "end": 176270,
+      "confidence": 0.99998176,
+      "speaker": "A"
+    },
+    {
+      "text": "订单",
+      "start": 176270,
+      "end": 176530,
+      "confidence": 0.9995283,
+      "speaker": "A"
+    },
+    {
+      "text": "取消",
+      "start": 176530,
+      "end": 176870,
+      "confidence": 0.99999654,
+      "speaker": "A"
+    },
+    {
+      "text": "了吧？",
+      "start": 176870,
+      "end": 177220,
+      "confidence": 0.9181404,
+      "speaker": "A"
+    },
+    {
+      "text": "不是，",
+      "start": 177800,
+      "end": 178250,
+      "confidence": 0.9806264,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 178250,
+      "end": 178390,
+      "confidence": 0.94200486,
+      "speaker": "A"
+    },
+    {
+      "text": "个",
+      "start": 178390,
+      "end": 178490,
+      "confidence": 0.69350433,
+      "speaker": "A"
+    },
+    {
+      "text": "老车，",
+      "start": 178490,
+      "end": 179190,
+      "confidence": 0.9975331,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 179190,
+      "end": 179290,
+      "confidence": 0.99503976,
+      "speaker": "A"
+    },
+    {
+      "text": "还",
+      "start": 179290,
+      "end": 179410,
+      "confidence": 0.9999728,
+      "speaker": "A"
+    },
+    {
+      "text": "敲",
+      "start": 179410,
+      "end": 179590,
+      "confidence": 0.87621564,
+      "speaker": "A"
+    },
+    {
+      "text": "上",
+      "start": 179590,
+      "end": 179710,
+      "confidence": 0.9866251,
+      "speaker": "A"
+    },
+    {
+      "text": "我？",
+      "start": 179710,
+      "end": 180160,
+      "confidence": 0.69554585,
+      "speaker": "A"
+    },
+    {
+      "text": "喂！",
+      "start": 181150,
+      "end": 181950,
+      "confidence": 0.8837079,
+      "speaker": "A"
+    },
+    {
+      "text": "哎呀，",
+      "start": 181950,
+      "end": 182870,
+      "confidence": 0.8761788,
+      "speaker": "A"
+    },
+    {
+      "text": "什么？",
+      "start": 182870,
+      "end": 183230,
+      "confidence": 0.5822864,
+      "speaker": "A"
+    },
+    {
+      "text": "被",
+      "start": 183230,
+      "end": 183450,
+      "confidence": 0.39822668,
+      "speaker": "A"
+    },
+    {
+      "text": "警告",
+      "start": 183450,
+      "end": 183610,
+      "confidence": 0.45090023,
+      "speaker": "A"
+    },
+    {
+      "text": "了？",
+      "start": 183610,
+      "end": 184160,
+      "confidence": 0.81023574,
+      "speaker": "A"
+    },
+    {
+      "text": "哎，",
+      "start": 184370,
+      "end": 184550,
+      "confidence": 0.83150876,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 184550,
+      "end": 184730,
+      "confidence": 0.7600547,
+      "speaker": "A"
+    },
+    {
+      "text": "再",
+      "start": 184730,
+      "end": 184870,
+      "confidence": 0.9999399,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 184870,
+      "end": 185010,
+      "confidence": 0.99998426,
+      "speaker": "A"
+    },
+    {
+      "text": "一辆。",
+      "start": 185010,
+      "end": 185640,
+      "confidence": 0.95836765,
+      "speaker": "A"
+    },
+    {
+      "text": "哼。",
+      "start": 187570,
+      "end": 188020,
+      "confidence": 0.64075106,
+      "speaker": "A"
+    },
+    {
+      "text": "我车",
+      "start": 196420,
+      "end": 197199,
+      "confidence": 0.9980542,
+      "speaker": "A"
+    },
+    {
+      "text": "到了，那",
+      "start": 197199,
+      "end": 200640,
+      "confidence": 0.9737,
+      "speaker": "A"
+    },
+    {
+      "text": "我就",
+      "start": 200640,
+      "end": 200800,
+      "confidence": 0.999864,
+      "speaker": "A"
+    },
+    {
+      "text": "先",
+      "start": 200800,
+      "end": 201040,
+      "confidence": 0.999977,
+      "speaker": "A"
+    },
+    {
+      "text": "走了，",
+      "start": 201040,
+      "end": 201760,
+      "confidence": 0.855074,
+      "speaker": "A"
+    },
+    {
+      "text": "明天",
+      "start": 201760,
+      "end": 201880,
+      "confidence": 0.9997504,
+      "speaker": "A"
+    },
+    {
+      "text": "见。",
+      "start": 201880,
+      "end": 202480,
+      "confidence": 0.9933034,
+      "speaker": "A"
+    },
+    {
+      "text": "还",
+      "start": 207280,
+      "end": 211280,
+      "confidence": 0.9953525,
+      "speaker": "A"
+    },
+    {
+      "text": "不",
+      "start": 211280,
+      "end": 211600,
+      "confidence": 0.9997466,
+      "speaker": "A"
+    },
+    {
+      "text": "走",
+      "start": 211600,
+      "end": 215880,
+      "confidence": 0.9998233,
+      "speaker": "A"
+    },
+    {
+      "text": "吗？",
+      "start": 215880,
+      "end": 216240,
+      "confidence": 0.7267445,
+      "speaker": "A"
+    },
+    {
+      "text": "我要",
+      "start": 216240,
+      "end": 216360,
+      "confidence": 0.998316,
+      "speaker": "A"
+    },
+    {
+      "text": "关门",
+      "start": 216360,
+      "end": 217040,
+      "confidence": 0.48911977,
+      "speaker": "A"
+    },
+    {
+      "text": "了。",
+      "start": 217040,
+      "end": 217220,
+      "confidence": 0.9641337,
+      "speaker": "A"
+    },
+    {
+      "text": "哎，",
+      "start": 217220,
+      "end": 217700,
+      "confidence": 0.9936321,
+      "speaker": "A"
+    },
+    {
+      "text": "马上，",
+      "start": 217700,
+      "end": 218060,
+      "confidence": 0.9243317,
+      "speaker": "A"
+    },
+    {
+      "text": "马上",
+      "start": 218060,
+      "end": 218240,
+      "confidence": 0.9101901,
+      "speaker": "A"
+    },
+    {
+      "text": "啦！",
+      "start": 218240,
+      "end": 218840,
+      "confidence": 0.555587,
+      "speaker": "A"
+    },
+    {
+      "text": "喂，",
+      "start": 221860,
+      "end": 222210,
+      "confidence": 0.97131187,
+      "speaker": "A"
+    },
+    {
+      "text": "师傅",
+      "start": 222210,
+      "end": 222290,
+      "confidence": 0.99446654,
+      "speaker": "A"
+    },
+    {
+      "text": "您好，",
+      "start": 222290,
+      "end": 223270,
+      "confidence": 0.90404713,
+      "speaker": "A"
+    },
+    {
+      "text": "哎，",
+      "start": 223270,
+      "end": 223470,
+      "confidence": 0.9943531,
+      "speaker": "A"
+    },
+    {
+      "text": "我是",
+      "start": 223470,
+      "end": 223510,
+      "confidence": 0.9946652,
+      "speaker": "A"
+    },
+    {
+      "text": "刚才",
+      "start": 223510,
+      "end": 223810,
+      "confidence": 0.99996567,
+      "speaker": "A"
+    },
+    {
+      "text": "取消",
+      "start": 223810,
+      "end": 224030,
+      "confidence": 0.9916114,
+      "speaker": "A"
+    },
+    {
+      "text": "您",
+      "start": 224030,
+      "end": 224250,
+      "confidence": 0.9992085,
+      "speaker": "A"
+    },
+    {
+      "text": "订单",
+      "start": 224250,
+      "end": 224410,
+      "confidence": 0.9905471,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 224410,
+      "end": 224570,
+      "confidence": 0.9999826,
+      "speaker": "A"
+    },
+    {
+      "text": "那个",
+      "start": 224570,
+      "end": 224770,
+      "confidence": 0.99999535,
+      "speaker": "A"
+    },
+    {
+      "text": "乘客。",
+      "start": 224770,
+      "end": 225350,
+      "confidence": 0.9787386,
+      "speaker": "A"
+    },
+    {
+      "text": "师傅",
+      "start": 225889,
+      "end": 226010,
+      "confidence": 0.97307765,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 226010,
+      "end": 226130,
+      "confidence": 0.99797374,
+      "speaker": "A"
+    },
+    {
+      "text": "这样",
+      "start": 226130,
+      "end": 226330,
+      "confidence": 0.9996916,
+      "speaker": "A"
+    },
+    {
+      "text": "的，",
+      "start": 226330,
+      "end": 226690,
+      "confidence": 0.99684703,
+      "speaker": "A"
+    },
+    {
+      "text": "其实",
+      "start": 226690,
+      "end": 227010,
+      "confidence": 0.9969963,
+      "speaker": "A"
+    },
+    {
+      "text": "啊，",
+      "start": 227010,
+      "end": 227190,
+      "confidence": 0.89394015,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 227190,
+      "end": 227210,
+      "confidence": 0.78904057,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 227210,
+      "end": 227330,
+      "confidence": 0.9999243,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 227330,
+      "end": 227430,
+      "confidence": 0.98839605,
+      "speaker": "A"
+    },
+    {
+      "text": "第一辆",
+      "start": 227430,
+      "end": 227710,
+      "confidence": 0.9996715,
+      "speaker": "A"
+    },
+    {
+      "text": "车",
+      "start": 227710,
+      "end": 227810,
+      "confidence": 0.99999833,
+      "speaker": "A"
+    },
+    {
+      "text": "就是",
+      "start": 227810,
+      "end": 227970,
+      "confidence": 0.9999869,
+      "speaker": "A"
+    },
+    {
+      "text": "您",
+      "start": 227970,
+      "end": 228210,
+      "confidence": 0.9959138,
+      "speaker": "A"
+    },
+    {
+      "text": "的，",
+      "start": 228210,
+      "end": 228510,
+      "confidence": 0.9913791,
+      "speaker": "A"
+    },
+    {
+      "text": "要",
+      "start": 228510,
+      "end": 228650,
+      "confidence": 0.9868443,
+      "speaker": "A"
+    },
+    {
+      "text": "不",
+      "start": 228650,
+      "end": 228710,
+      "confidence": 0.99990284,
+      "speaker": "A"
+    },
+    {
+      "text": "您",
+      "start": 228710,
+      "end": 228830,
+      "confidence": 0.99965537,
+      "speaker": "A"
+    },
+    {
+      "text": "来",
+      "start": 228830,
+      "end": 229050,
+      "confidence": 0.99980754,
+      "speaker": "A"
+    },
+    {
+      "text": "接",
+      "start": 229050,
+      "end": 229070,
+      "confidence": 0.9999186,
+      "speaker": "A"
+    },
+    {
+      "text": "一下",
+      "start": 229070,
+      "end": 229290,
+      "confidence": 0.9755965,
+      "speaker": "A"
+    },
+    {
+      "text": "我？",
+      "start": 229290,
+      "end": 229640,
+      "confidence": 0.9058736,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 230510,
+      "end": 230590,
+      "confidence": 0.9662328,
+      "speaker": "A"
+    },
+    {
+      "text": "给",
+      "start": 230590,
+      "end": 230670,
+      "confidence": 0.9994752,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 230670,
+      "end": 230930,
+      "confidence": 0.9997999,
+      "speaker": "A"
+    },
+    {
+      "text": "加钱，",
+      "start": 230930,
+      "end": 231790,
+      "confidence": 0.9949241,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 231790,
+      "end": 231810,
+      "confidence": 0.98095495,
+      "speaker": "A"
+    },
+    {
+      "text": "给",
+      "start": 231810,
+      "end": 231950,
+      "confidence": 0.9999212,
+      "speaker": "A"
+    },
+    {
+      "text": "你",
+      "start": 231950,
+      "end": 232050,
+      "confidence": 0.9999232,
+      "speaker": "A"
+    },
+    {
+      "text": "加钱",
+      "start": 232050,
+      "end": 232290,
+      "confidence": 0.9999762,
+      "speaker": "A"
+    },
+    {
+      "text": "行不行？",
+      "start": 232290,
+      "end": 232710,
+      "confidence": 0.94726664,
+      "speaker": "A"
+    },
+    {
+      "text": "不好意思，",
+      "start": 235290,
+      "end": 235510,
+      "confidence": 0.9515821,
+      "speaker": "A"
+    },
+    {
+      "text": "姑娘，",
+      "start": 235510,
+      "end": 236230,
+      "confidence": 0.9999146,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 236230,
+      "end": 236350,
+      "confidence": 0.99966,
+      "speaker": "A"
+    },
+    {
+      "text": "已经",
+      "start": 236350,
+      "end": 236590,
+      "confidence": 0.9999933,
+      "speaker": "A"
+    },
+    {
+      "text": "接",
+      "start": 236590,
+      "end": 236810,
+      "confidence": 0.99964297,
+      "speaker": "A"
+    },
+    {
+      "text": "了",
+      "start": 236810,
+      "end": 236990,
+      "confidence": 0.9992105,
+      "speaker": "A"
+    },
+    {
+      "text": "别的",
+      "start": 236990,
+      "end": 237270,
+      "confidence": 0.99997485,
+      "speaker": "A"
+    },
+    {
+      "text": "乘客",
+      "start": 237270,
+      "end": 237730,
+      "confidence": 0.99999547,
+      "speaker": "A"
+    },
+    {
+      "text": "了。",
+      "start": 237730,
+      "end": 238280,
+      "confidence": 0.9786975,
+      "speaker": "A"
+    },
+    {
+      "text": "打",
+      "start": 250650,
+      "end": 250690,
+      "confidence": 0.9512826,
+      "speaker": "A"
+    },
+    {
+      "text": "不到",
+      "start": 250690,
+      "end": 250970,
+      "confidence": 0.99992216,
+      "speaker": "A"
+    },
+    {
+      "text": "车，",
+      "start": 250970,
+      "end": 251390,
+      "confidence": 0.9992268,
+      "speaker": "A"
+    },
+    {
+      "text": "那",
+      "start": 251390,
+      "end": 251550,
+      "confidence": 0.9984553,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 251550,
+      "end": 251670,
+      "confidence": 0.9999745,
+      "speaker": "A"
+    },
+    {
+      "text": "走路回家吧。",
+      "start": 251670,
+      "end": 251810,
+      "confidence": 0.9999,
+      "speaker": "A"
+    },
+    {
+      "text": "一个",
+      "start": 252550,
+      "end": 252900,
+      "confidence": 0.9999987,
+      "speaker": "A"
+    },
+    {
+      "text": "人",
+      "start": 252900,
+      "end": 253120,
+      "confidence": 0.9999987,
+      "speaker": "A"
+    },
+    {
+      "text": "走路",
+      "start": 253120,
+      "end": 253320,
+      "confidence": 0.99998707,
+      "speaker": "A"
+    },
+    {
+      "text": "回家",
+      "start": 253320,
+      "end": 253520,
+      "confidence": 0.9999526,
+      "speaker": "A"
+    },
+    {
+      "text": "也",
+      "start": 253520,
+      "end": 253660,
+      "confidence": 0.9999685,
+      "speaker": "A"
+    },
+    {
+      "text": "挺",
+      "start": 253660,
+      "end": 253800,
+      "confidence": 0.9999964,
+      "speaker": "A"
+    },
+    {
+      "text": "好，",
+      "start": 253800,
+      "end": 254220,
+      "confidence": 0.9980285,
+      "speaker": "A"
+    },
+    {
+      "text": "还",
+      "start": 254220,
+      "end": 254240,
+      "confidence": 0.9961416,
+      "speaker": "A"
+    },
+    {
+      "text": "健康",
+      "start": 254240,
+      "end": 255260,
+      "confidence": 0.99997914,
+      "speaker": "A"
+    },
+    {
+      "text": "呢。",
+      "start": 255260,
+      "end": 255420,
+      "confidence": 0.970717,
+      "speaker": "A"
+    },
+    {
+      "text": "回家",
+      "start": 255420,
+      "end": 255720,
+      "confidence": 0.99997675,
+      "speaker": "A"
+    },
+    {
+      "text": "啦！",
+      "start": 255720,
+      "end": 258020,
+      "confidence": 0.93140984,
+      "speaker": "A"
+    },
+    {
+      "text": "收收",
+      "start": 258020,
+      "end": 258260,
+      "confidence": 0.58335656,
+      "speaker": "A"
+    },
+    {
+      "text": "收收",
+      "start": 258260,
+      "end": 258940,
+      "confidence": 0.9615903,
+      "speaker": "A"
+    },
+    {
+      "text": "收，",
+      "start": 258940,
+      "end": 258960,
+      "confidence": 0.8053,
+      "speaker": "A"
+    },
+    {
+      "text": "躲",
+      "start": 258960,
+      "end": 259100,
+      "confidence": 0.8142216,
+      "speaker": "A"
+    },
+    {
+      "text": "完。",
+      "start": 259100,
+      "end": 259600,
+      "confidence": 0.50204545,
+      "speaker": "A"
+    },
+    {
+      "text": "晨翔",
+      "start": 259940,
+      "end": 260220,
+      "confidence": 0.8192902,
+      "speaker": "A"
+    },
+    {
+      "text": "六点半。",
+      "start": 260220,
+      "end": 260820,
+      "confidence": 0.99970484,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "司令 长，你 打车 了 吗？ 我刚 打 了 一辆， 五分钟 到。 我也 打 到了， 也是 五分钟 到。 我换个 平台 呀， 再 打 一辆。 你 不是 刚 打 了 一辆 吗？ 都 在 来 的 路上 了， 怎么 又 打？ 我 这 不是 还 没 上车 吗？ 没 上车 之前 我就 有 选择 的 权利 啊！ 多 打 一辆， 哪 辆车 先到 我就 坐 哪辆。 总比 在 一棵树上吊死 的 强 吧？ 司机 已 接单。哎， 你看， 又 打 到了 一辆。 哎， 还是 一辆 二十万 的 车。 我 刚才 打 的 那辆 就是 个 几万块 钱 的， 哪有 这个 坐 的 舒服 呀？ 那 你 刚刚 打 的 那辆 都 已经在路上了，怎么办？取消呗。 不然 留着 过年 啊！ 订单 已 取消。 你看， 取消 了。 喂， 我是 刚才 接 你 单 的 司机， 我 这 油钱 都 烧 了 多少 了？ 你 怎么 取消 了？ 师傅， 平台 规定 没 上车 之前 可以 取消 的 吧？ 你 再 接 其他 乘客 不 就 好了？ 我 还有 事， 先挂。 是。 哎， 怎么 第二辆 是 辆 五年的 宝车 呀？ 五年 也 还好吧， 能 坐 就行了。 那能 一样 吗？ 五年的 车。 你 想 一下， 那 座椅 都 得 包浆 了。 算了， 我 再 打 一辆 吧。 一张 打 不 第二辆 的 车 都 在 来 的 路上 了， 有 更好的 呀 就 换。 司机 已 接待。 哎， 你看， 我 又 打 到了 一辆， 还是 一辆 三十万 的 车， 车龄 才 一年 一分钟 就 到了， 是我 运气 也 太好了 吧？ 不是， 怎么 取消 上 一辆 还要 扣 我 三块 钱 啊？ 那要 不别 取消 了，也 不是 很 老。 三块 就 三块， 总比 呀 坐 五年的 老车 强。 第三 一 取消， 你 这 都 折腾 翻 了。 哎呀， 遇到 满意 的 呀 就 得 换。 我我 刚才 没 注意 看， 怎么 司机 的 评分 才 三点 八 呀？ 司机 态度 极差， 一路 甩 脸色， 车里 异味 重， 不 讲卫生， 明明 不是 拼车。 自己 还 多 劫 了 其他人，不是 这种 事 谁 敢 做 呀？ 算了，还是 取消 了吧。艾瑟 琳娜， 现在 都 那么 晚 了， 理由 这么 大， 你 再 挑， 万一 找到 怎么办？ 哎， 怎么 可能 找 不到 啊？ 我就 不信 了， 这么 大的 城市， 我 找 不到 一辆 距离 近、 牌子 硬、 车 流行、 评分 又 刚好的 车。 订单 已 取消， 取消 了， 我 再 打 一辆。 怎么回事 啊？ 怎么 都 需要 排队 啊？ 司机 已经 来， 打到了， 打到了。 多久 吧？ 半个 小时， 还是 一辆 十年 车龄 的 老款。 半个 小时， 还是 老车， 老车 就 老车 吧。 封闭 打不着 车， 回 不了 家 抢， 凑合 坐 了。 嗯。 喂， 你好。 姑娘，不好意思 啊， 离得 太远 了， 你 把 订单 取消 了吧？ 不是， 你 个 老车， 你 还 敲 上 我？ 喂！ 哎呀， 什么？ 被 警告 了？ 哎， 我 再 打 一辆。 哼。 我车 到了，那 我就 先 走了， 明天 见。 还 不 走 吗？ 我要 关门 了。 哎， 马上， 马上 啦！ 喂， 师傅 您好， 哎， 我是 刚才 取消 您 订单 的 那个 乘客。 师傅 是 这样 的， 其实 啊， 我 打 的 第一辆 车 就是 您 的， 要 不 您 来 接 一下 我？ 我 给 你 加钱， 我 给 你 加钱 行不行？ 不好意思， 姑娘， 我 已经 接 了 别的 乘客 了。 打 不到 车， 那 我 走路回家吧。 一个 人 走路 回家 也 挺 好， 还 健康 呢。 回家 啦！ 收收 收收 收， 躲 完。 晨翔 六点半。",
+      "confidence": 0.9412264,
+      "start": 0,
+      "end": 260820,
+      "words": [
+        {
+          "text": "司令",
+          "start": 0,
+          "end": 280,
+          "confidence": 0.9980229,
+          "speaker": "A"
+        },
+        {
+          "text": "长，你",
+          "start": 280,
+          "end": 600,
+          "confidence": 0.95,
+          "speaker": "A"
+        },
+        {
+          "text": "打车",
+          "start": 600,
+          "end": 820,
+          "confidence": 0.9996057,
+          "speaker": "A"
+        },
+        {
+          "text": "了",
+          "start": 820,
+          "end": 1000,
+          "confidence": 0.9996674,
+          "speaker": "A"
+        },
+        {
+          "text": "吗？",
+          "start": 1000,
+          "end": 1220,
+          "confidence": 0.99997765,
+          "speaker": "A"
+        },
+        {
+          "text": "我刚",
+          "start": 1220,
+          "end": 1420,
+          "confidence": 0.99980855,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 1420,
+          "end": 1560,
+          "confidence": 0.999882,
+          "speaker": "A"
+        },
+        {
+          "text": "了",
+          "start": 1560,
+          "end": 1700,
+          "confidence": 0.9435593,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆，",
+          "start": 1700,
+          "end": 1960,
+          "confidence": 0.9636774,
+          "speaker": "A"
+        },
+        {
+          "text": "五分钟",
+          "start": 1960,
+          "end": 2240,
+          "confidence": 0.98955625,
+          "speaker": "A"
+        },
+        {
+          "text": "到。",
+          "start": 2240,
+          "end": 2590,
+          "confidence": 0.8955646,
+          "speaker": "A"
+        },
+        {
+          "text": "我也",
+          "start": 2680,
+          "end": 2800,
+          "confidence": 0.8968879,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 2800,
+          "end": 2940,
+          "confidence": 0.99998605,
+          "speaker": "A"
+        },
+        {
+          "text": "到了，",
+          "start": 2940,
+          "end": 3200,
+          "confidence": 0.9980489,
+          "speaker": "A"
+        },
+        {
+          "text": "也是",
+          "start": 3200,
+          "end": 3400,
+          "confidence": 0.99833125,
+          "speaker": "A"
+        },
+        {
+          "text": "五分钟",
+          "start": 3400,
+          "end": 3740,
+          "confidence": 0.99999577,
+          "speaker": "A"
+        },
+        {
+          "text": "到。",
+          "start": 3740,
+          "end": 4240,
+          "confidence": 0.996223,
+          "speaker": "A"
+        },
+        {
+          "text": "我换个",
+          "start": 4340,
+          "end": 4820,
+          "confidence": 0.9975062,
+          "speaker": "A"
+        },
+        {
+          "text": "平台",
+          "start": 4820,
+          "end": 4980,
+          "confidence": 0.9996588,
+          "speaker": "A"
+        },
+        {
+          "text": "呀，",
+          "start": 4980,
+          "end": 5140,
+          "confidence": 0.975475,
+          "speaker": "A"
+        },
+        {
+          "text": "再",
+          "start": 5140,
+          "end": 5260,
+          "confidence": 0.9964264,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 5260,
+          "end": 5380,
+          "confidence": 0.99998045,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆。",
+          "start": 5380,
+          "end": 6020,
+          "confidence": 0.82313514,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 6320,
+          "end": 6440,
+          "confidence": 0.99800044,
+          "speaker": "A"
+        },
+        {
+          "text": "不是",
+          "start": 6440,
+          "end": 6600,
+          "confidence": 0.99996805,
+          "speaker": "A"
+        },
+        {
+          "text": "刚",
+          "start": 6600,
+          "end": 6760,
+          "confidence": 0.99996626,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 6760,
+          "end": 6920,
+          "confidence": 0.9996482,
+          "speaker": "A"
+        },
+        {
+          "text": "了",
+          "start": 6920,
+          "end": 7020,
+          "confidence": 0.9923977,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆",
+          "start": 7020,
+          "end": 7240,
+          "confidence": 0.9961842,
+          "speaker": "A"
+        },
+        {
+          "text": "吗？",
+          "start": 7240,
+          "end": 7420,
+          "confidence": 0.99912006,
+          "speaker": "A"
+        },
+        {
+          "text": "都",
+          "start": 7420,
+          "end": 7600,
+          "confidence": 0.99562955,
+          "speaker": "A"
+        },
+        {
+          "text": "在",
+          "start": 7600,
+          "end": 7700,
+          "confidence": 0.9989857,
+          "speaker": "A"
+        },
+        {
+          "text": "来",
+          "start": 7700,
+          "end": 7800,
+          "confidence": 0.9540788,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 7800,
+          "end": 7860,
+          "confidence": 0.9540788,
+          "speaker": "A"
+        },
+        {
+          "text": "路上",
+          "start": 7860,
+          "end": 8160,
+          "confidence": 0.98696506,
+          "speaker": "A"
+        },
+        {
+          "text": "了，",
+          "start": 8160,
+          "end": 8320,
+          "confidence": 0.98628145,
+          "speaker": "A"
+        },
+        {
+          "text": "怎么",
+          "start": 8320,
+          "end": 8480,
+          "confidence": 0.999819,
+          "speaker": "A"
+        },
+        {
+          "text": "又",
+          "start": 8480,
+          "end": 8660,
+          "confidence": 0.9997892,
+          "speaker": "A"
+        },
+        {
+          "text": "打？",
+          "start": 8660,
+          "end": 9060,
+          "confidence": 0.99874973,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 9340,
+          "end": 9480,
+          "confidence": 0.99981767,
+          "speaker": "A"
+        },
+        {
+          "text": "这",
+          "start": 9480,
+          "end": 9620,
+          "confidence": 0.9999895,
+          "speaker": "A"
+        },
+        {
+          "text": "不是",
+          "start": 9620,
+          "end": 9820,
+          "confidence": 0.9999852,
+          "speaker": "A"
+        },
+        {
+          "text": "还",
+          "start": 9820,
+          "end": 10080,
+          "confidence": 0.9999931,
+          "speaker": "A"
+        },
+        {
+          "text": "没",
+          "start": 10080,
+          "end": 10200,
+          "confidence": 0.9999937,
+          "speaker": "A"
+        },
+        {
+          "text": "上车",
+          "start": 10200,
+          "end": 10540,
+          "confidence": 0.99999577,
+          "speaker": "A"
+        },
+        {
+          "text": "吗？",
+          "start": 10540,
+          "end": 10860,
+          "confidence": 0.99728656,
+          "speaker": "A"
+        },
+        {
+          "text": "没",
+          "start": 10860,
+          "end": 11020,
+          "confidence": 0.9999852,
+          "speaker": "A"
+        },
+        {
+          "text": "上车",
+          "start": 11020,
+          "end": 11280,
+          "confidence": 0.99999654,
+          "speaker": "A"
+        },
+        {
+          "text": "之前",
+          "start": 11280,
+          "end": 11640,
+          "confidence": 0.99999833,
+          "speaker": "A"
+        },
+        {
+          "text": "我就",
+          "start": 11640,
+          "end": 11900,
+          "confidence": 0.7681964,
+          "speaker": "A"
+        },
+        {
+          "text": "有",
+          "start": 11900,
+          "end": 12060,
+          "confidence": 0.99998724,
+          "speaker": "A"
+        },
+        {
+          "text": "选择",
+          "start": 12060,
+          "end": 12360,
+          "confidence": 0.9999993,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 12360,
+          "end": 12600,
+          "confidence": 0.9999759,
+          "speaker": "A"
+        },
+        {
+          "text": "权利",
+          "start": 12600,
+          "end": 12860,
+          "confidence": 0.9982512,
+          "speaker": "A"
+        },
+        {
+          "text": "啊！",
+          "start": 12860,
+          "end": 13380,
+          "confidence": 0.914886,
+          "speaker": "A"
+        },
+        {
+          "text": "多",
+          "start": 13380,
+          "end": 13580,
+          "confidence": 0.99980086,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 13580,
+          "end": 13740,
+          "confidence": 0.99999404,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆，",
+          "start": 13740,
+          "end": 14160,
+          "confidence": 0.99865055,
+          "speaker": "A"
+        },
+        {
+          "text": "哪",
+          "start": 14160,
+          "end": 14340,
+          "confidence": 0.9999794,
+          "speaker": "A"
+        },
+        {
+          "text": "辆车",
+          "start": 14340,
+          "end": 14660,
+          "confidence": 0.8234726,
+          "speaker": "A"
+        },
+        {
+          "text": "先到",
+          "start": 14660,
+          "end": 15020,
+          "confidence": 0.99997944,
+          "speaker": "A"
+        },
+        {
+          "text": "我就",
+          "start": 15020,
+          "end": 15260,
+          "confidence": 0.9758925,
+          "speaker": "A"
+        },
+        {
+          "text": "坐",
+          "start": 15260,
+          "end": 15480,
+          "confidence": 0.99778265,
+          "speaker": "A"
+        },
+        {
+          "text": "哪辆。",
+          "start": 15480,
+          "end": 16020,
+          "confidence": 0.81393135,
+          "speaker": "A"
+        },
+        {
+          "text": "总比",
+          "start": 16020,
+          "end": 16239,
+          "confidence": 0.69827175,
+          "speaker": "A"
+        },
+        {
+          "text": "在",
+          "start": 16239,
+          "end": 16420,
+          "confidence": 0.9981645,
+          "speaker": "A"
+        },
+        {
+          "text": "一棵树上吊死",
+          "start": 16420,
+          "end": 17100,
+          "confidence": 0.9996966,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 17100,
+          "end": 17280,
+          "confidence": 0.9914751,
+          "speaker": "A"
+        },
+        {
+          "text": "强",
+          "start": 17280,
+          "end": 17440,
+          "confidence": 0.9999844,
+          "speaker": "A"
+        },
+        {
+          "text": "吧？",
+          "start": 17440,
+          "end": 17840,
+          "confidence": 0.95769066,
+          "speaker": "A"
+        },
+        {
+          "text": "司机",
+          "start": 18400,
+          "end": 18500,
+          "confidence": 0.9999839,
+          "speaker": "A"
+        },
+        {
+          "text": "已",
+          "start": 18500,
+          "end": 18680,
+          "confidence": 0.99379164,
+          "speaker": "A"
+        },
+        {
+          "text": "接单。哎，",
+          "start": 18680,
+          "end": 19040,
+          "confidence": 0.9369,
+          "speaker": "A"
+        },
+        {
+          "text": "你看，",
+          "start": 19040,
+          "end": 19380,
+          "confidence": 0.8338331,
+          "speaker": "A"
+        },
+        {
+          "text": "又",
+          "start": 19380,
+          "end": 19480,
+          "confidence": 0.505526,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 19480,
+          "end": 19640,
+          "confidence": 0.999915,
+          "speaker": "A"
+        },
+        {
+          "text": "到了",
+          "start": 19640,
+          "end": 19800,
+          "confidence": 0.9999115,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆。",
+          "start": 19800,
+          "end": 20380,
+          "confidence": 0.9759136,
+          "speaker": "A"
+        },
+        {
+          "text": "哎，",
+          "start": 21830,
+          "end": 22380,
+          "confidence": 0.9762003,
+          "speaker": "A"
+        },
+        {
+          "text": "还是",
+          "start": 22380,
+          "end": 22680,
+          "confidence": 0.99983394,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆",
+          "start": 22680,
+          "end": 22920,
+          "confidence": 0.97736114,
+          "speaker": "A"
+        },
+        {
+          "text": "二十万",
+          "start": 22920,
+          "end": 23380,
+          "confidence": 0.99997926,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 23380,
+          "end": 23520,
+          "confidence": 0.9999298,
+          "speaker": "A"
+        },
+        {
+          "text": "车。",
+          "start": 23520,
+          "end": 23840,
+          "confidence": 0.8794058,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 23840,
+          "end": 24020,
+          "confidence": 0.75881404,
+          "speaker": "A"
+        },
+        {
+          "text": "刚才",
+          "start": 24020,
+          "end": 24340,
+          "confidence": 0.99969804,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 24340,
+          "end": 24460,
+          "confidence": 0.99957746,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 24460,
+          "end": 24580,
+          "confidence": 0.99994934,
+          "speaker": "A"
+        },
+        {
+          "text": "那辆",
+          "start": 24580,
+          "end": 24840,
+          "confidence": 0.99942154,
+          "speaker": "A"
+        },
+        {
+          "text": "就是",
+          "start": 24840,
+          "end": 25060,
+          "confidence": 0.9998976,
+          "speaker": "A"
+        },
+        {
+          "text": "个",
+          "start": 25060,
+          "end": 25280,
+          "confidence": 0.9999387,
+          "speaker": "A"
+        },
+        {
+          "text": "几万块",
+          "start": 25280,
+          "end": 25680,
+          "confidence": 0.9999962,
+          "speaker": "A"
+        },
+        {
+          "text": "钱",
+          "start": 25680,
+          "end": 25860,
+          "confidence": 0.99999833,
+          "speaker": "A"
+        },
+        {
+          "text": "的，",
+          "start": 25860,
+          "end": 26200,
+          "confidence": 0.9734333,
+          "speaker": "A"
+        },
+        {
+          "text": "哪有",
+          "start": 26200,
+          "end": 26460,
+          "confidence": 0.9988702,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 26460,
+          "end": 26720,
+          "confidence": 0.9999552,
+          "speaker": "A"
+        },
+        {
+          "text": "坐",
+          "start": 26720,
+          "end": 26860,
+          "confidence": 0.9926454,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 26860,
+          "end": 27300,
+          "confidence": 0.70400494,
+          "speaker": "A"
+        },
+        {
+          "text": "舒服",
+          "start": 27300,
+          "end": 27360,
+          "confidence": 0.9999903,
+          "speaker": "A"
+        },
+        {
+          "text": "呀？",
+          "start": 27360,
+          "end": 27710,
+          "confidence": 0.997225,
+          "speaker": "A"
+        },
+        {
+          "text": "那",
+          "start": 28020,
+          "end": 28220,
+          "confidence": 0.9999758,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 28220,
+          "end": 28380,
+          "confidence": 0.99993706,
+          "speaker": "A"
+        },
+        {
+          "text": "刚刚",
+          "start": 28380,
+          "end": 28700,
+          "confidence": 0.9999111,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 28700,
+          "end": 28820,
+          "confidence": 0.999845,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 28820,
+          "end": 28980,
+          "confidence": 0.995033,
+          "speaker": "A"
+        },
+        {
+          "text": "那辆",
+          "start": 28980,
+          "end": 29360,
+          "confidence": 0.997155,
+          "speaker": "A"
+        },
+        {
+          "text": "都",
+          "start": 29360,
+          "end": 29920,
+          "confidence": 0.7543848,
+          "speaker": "A"
+        },
+        {
+          "text": "已经在路上了，怎么办？取消呗。",
+          "start": 29920,
+          "end": 29980,
+          "confidence": 0.9763,
+          "speaker": "A"
+        },
+        {
+          "text": "不然",
+          "start": 31940,
+          "end": 32440,
+          "confidence": 0.6389274,
+          "speaker": "A"
+        },
+        {
+          "text": "留着",
+          "start": 32440,
+          "end": 32700,
+          "confidence": 0.9985364,
+          "speaker": "A"
+        },
+        {
+          "text": "过年",
+          "start": 32700,
+          "end": 33380,
+          "confidence": 0.99990726,
+          "speaker": "A"
+        },
+        {
+          "text": "啊！",
+          "start": 33380,
+          "end": 33720,
+          "confidence": 0.93300146,
+          "speaker": "A"
+        },
+        {
+          "text": "订单",
+          "start": 33720,
+          "end": 33980,
+          "confidence": 0.9992211,
+          "speaker": "A"
+        },
+        {
+          "text": "已",
+          "start": 33980,
+          "end": 34180,
+          "confidence": 0.9992157,
+          "speaker": "A"
+        },
+        {
+          "text": "取消。",
+          "start": 34180,
+          "end": 34480,
+          "confidence": 0.9071882,
+          "speaker": "A"
+        },
+        {
+          "text": "你看，",
+          "start": 34480,
+          "end": 34940,
+          "confidence": 0.7308452,
+          "speaker": "A"
+        },
+        {
+          "text": "取消",
+          "start": 34940,
+          "end": 35120,
+          "confidence": 0.99999464,
+          "speaker": "A"
+        },
+        {
+          "text": "了。",
+          "start": 35120,
+          "end": 36270,
+          "confidence": 0.9971644,
+          "speaker": "A"
+        },
+        {
+          "text": "喂，",
+          "start": 37220,
+          "end": 37700,
+          "confidence": 0.89076865,
+          "speaker": "A"
+        },
+        {
+          "text": "我是",
+          "start": 37700,
+          "end": 37940,
+          "confidence": 0.89080596,
+          "speaker": "A"
+        },
+        {
+          "text": "刚才",
+          "start": 37940,
+          "end": 38420,
+          "confidence": 0.9999664,
+          "speaker": "A"
+        },
+        {
+          "text": "接",
+          "start": 38420,
+          "end": 38600,
+          "confidence": 0.9999466,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 38600,
+          "end": 38760,
+          "confidence": 0.9948643,
+          "speaker": "A"
+        },
+        {
+          "text": "单",
+          "start": 38760,
+          "end": 38900,
+          "confidence": 0.999666,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 38900,
+          "end": 39040,
+          "confidence": 0.99969196,
+          "speaker": "A"
+        },
+        {
+          "text": "司机，",
+          "start": 39040,
+          "end": 39580,
+          "confidence": 0.9834237,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 39580,
+          "end": 39700,
+          "confidence": 0.93374133,
+          "speaker": "A"
+        },
+        {
+          "text": "这",
+          "start": 39700,
+          "end": 39840,
+          "confidence": 0.98057747,
+          "speaker": "A"
+        },
+        {
+          "text": "油钱",
+          "start": 39840,
+          "end": 40160,
+          "confidence": 0.98943746,
+          "speaker": "A"
+        },
+        {
+          "text": "都",
+          "start": 40160,
+          "end": 40420,
+          "confidence": 0.99993145,
+          "speaker": "A"
+        },
+        {
+          "text": "烧",
+          "start": 40420,
+          "end": 40500,
+          "confidence": 0.99754673,
+          "speaker": "A"
+        },
+        {
+          "text": "了",
+          "start": 40500,
+          "end": 40680,
+          "confidence": 0.9999627,
+          "speaker": "A"
+        },
+        {
+          "text": "多少",
+          "start": 40680,
+          "end": 41020,
+          "confidence": 0.9999511,
+          "speaker": "A"
+        },
+        {
+          "text": "了？",
+          "start": 41020,
+          "end": 41440,
+          "confidence": 0.9840002,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 41440,
+          "end": 41620,
+          "confidence": 0.9995208,
+          "speaker": "A"
+        },
+        {
+          "text": "怎么",
+          "start": 41620,
+          "end": 41840,
+          "confidence": 0.99599457,
+          "speaker": "A"
+        },
+        {
+          "text": "取消",
+          "start": 41840,
+          "end": 42320,
+          "confidence": 0.99999213,
+          "speaker": "A"
+        },
+        {
+          "text": "了？",
+          "start": 42320,
+          "end": 42870,
+          "confidence": 0.9948979,
+          "speaker": "A"
+        },
+        {
+          "text": "师傅，",
+          "start": 42880,
+          "end": 43800,
+          "confidence": 0.9956465,
+          "speaker": "A"
+        },
+        {
+          "text": "平台",
+          "start": 43800,
+          "end": 44080,
+          "confidence": 0.99999046,
+          "speaker": "A"
+        },
+        {
+          "text": "规定",
+          "start": 44080,
+          "end": 44580,
+          "confidence": 0.9999697,
+          "speaker": "A"
+        },
+        {
+          "text": "没",
+          "start": 44580,
+          "end": 44900,
+          "confidence": 0.9517999,
+          "speaker": "A"
+        },
+        {
+          "text": "上车",
+          "start": 44900,
+          "end": 45220,
+          "confidence": 0.99999374,
+          "speaker": "A"
+        },
+        {
+          "text": "之前",
+          "start": 45220,
+          "end": 45480,
+          "confidence": 0.99959165,
+          "speaker": "A"
+        },
+        {
+          "text": "可以",
+          "start": 45480,
+          "end": 45740,
+          "confidence": 0.99997747,
+          "speaker": "A"
+        },
+        {
+          "text": "取消",
+          "start": 45740,
+          "end": 46080,
+          "confidence": 0.9999975,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 46080,
+          "end": 46240,
+          "confidence": 0.96512777,
+          "speaker": "A"
+        },
+        {
+          "text": "吧？",
+          "start": 46240,
+          "end": 46540,
+          "confidence": 0.99664634,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 46540,
+          "end": 46760,
+          "confidence": 0.9997707,
+          "speaker": "A"
+        },
+        {
+          "text": "再",
+          "start": 46760,
+          "end": 46860,
+          "confidence": 0.9985209,
+          "speaker": "A"
+        },
+        {
+          "text": "接",
+          "start": 46860,
+          "end": 46940,
+          "confidence": 0.7266641,
+          "speaker": "A"
+        },
+        {
+          "text": "其他",
+          "start": 46940,
+          "end": 47240,
+          "confidence": 0.9999794,
+          "speaker": "A"
+        },
+        {
+          "text": "乘客",
+          "start": 47240,
+          "end": 47380,
+          "confidence": 0.99802446,
+          "speaker": "A"
+        },
+        {
+          "text": "不",
+          "start": 47380,
+          "end": 47560,
+          "confidence": 0.99992824,
+          "speaker": "A"
+        },
+        {
+          "text": "就",
+          "start": 47560,
+          "end": 47660,
+          "confidence": 0.99999714,
+          "speaker": "A"
+        },
+        {
+          "text": "好了？",
+          "start": 47660,
+          "end": 47959,
+          "confidence": 0.99438816,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 48119,
+          "end": 48279,
+          "confidence": 0.9990922,
+          "speaker": "A"
+        },
+        {
+          "text": "还有",
+          "start": 48279,
+          "end": 48400,
+          "confidence": 0.9998355,
+          "speaker": "A"
+        },
+        {
+          "text": "事，",
+          "start": 48400,
+          "end": 48660,
+          "confidence": 0.7825337,
+          "speaker": "A"
+        },
+        {
+          "text": "先挂。",
+          "start": 48660,
+          "end": 48940,
+          "confidence": 0.948704,
+          "speaker": "A"
+        },
+        {
+          "text": "是。",
+          "start": 48940,
+          "end": 49480,
+          "confidence": 0.28777358,
+          "speaker": "A"
+        },
+        {
+          "text": "哎，",
+          "start": 52250,
+          "end": 52900,
+          "confidence": 0.821351,
+          "speaker": "A"
+        },
+        {
+          "text": "怎么",
+          "start": 52900,
+          "end": 53120,
+          "confidence": 0.9996196,
+          "speaker": "A"
+        },
+        {
+          "text": "第二辆",
+          "start": 53120,
+          "end": 53800,
+          "confidence": 0.999769,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 53800,
+          "end": 54240,
+          "confidence": 0.6521241,
+          "speaker": "A"
+        },
+        {
+          "text": "辆",
+          "start": 54240,
+          "end": 54360,
+          "confidence": 0.99948967,
+          "speaker": "A"
+        },
+        {
+          "text": "五年的",
+          "start": 54360,
+          "end": 54700,
+          "confidence": 0.99988884,
+          "speaker": "A"
+        },
+        {
+          "text": "宝车",
+          "start": 54700,
+          "end": 55200,
+          "confidence": 0.7387789,
+          "speaker": "A"
+        },
+        {
+          "text": "呀？",
+          "start": 55200,
+          "end": 55850,
+          "confidence": 0.999941,
+          "speaker": "A"
+        },
+        {
+          "text": "五年",
+          "start": 56560,
+          "end": 57280,
+          "confidence": 0.9999018,
+          "speaker": "A"
+        },
+        {
+          "text": "也",
+          "start": 57280,
+          "end": 57480,
+          "confidence": 0.99915063,
+          "speaker": "A"
+        },
+        {
+          "text": "还好吧，",
+          "start": 57480,
+          "end": 58180,
+          "confidence": 0.99708766,
+          "speaker": "A"
+        },
+        {
+          "text": "能",
+          "start": 58180,
+          "end": 58360,
+          "confidence": 0.9986248,
+          "speaker": "A"
+        },
+        {
+          "text": "坐",
+          "start": 58360,
+          "end": 58440,
+          "confidence": 0.9878384,
+          "speaker": "A"
+        },
+        {
+          "text": "就行了。",
+          "start": 58440,
+          "end": 59100,
+          "confidence": 0.9854316,
+          "speaker": "A"
+        },
+        {
+          "text": "那能",
+          "start": 59260,
+          "end": 59720,
+          "confidence": 0.99737626,
+          "speaker": "A"
+        },
+        {
+          "text": "一样",
+          "start": 59720,
+          "end": 60040,
+          "confidence": 0.9976452,
+          "speaker": "A"
+        },
+        {
+          "text": "吗？",
+          "start": 60040,
+          "end": 60500,
+          "confidence": 0.999962,
+          "speaker": "A"
+        },
+        {
+          "text": "五年的",
+          "start": 60500,
+          "end": 61100,
+          "confidence": 0.9987401,
+          "speaker": "A"
+        },
+        {
+          "text": "车。",
+          "start": 61100,
+          "end": 61600,
+          "confidence": 0.92335343,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 61660,
+          "end": 61920,
+          "confidence": 0.9993674,
+          "speaker": "A"
+        },
+        {
+          "text": "想",
+          "start": 61920,
+          "end": 62140,
+          "confidence": 0.99997306,
+          "speaker": "A"
+        },
+        {
+          "text": "一下，",
+          "start": 62140,
+          "end": 62740,
+          "confidence": 0.98194623,
+          "speaker": "A"
+        },
+        {
+          "text": "那",
+          "start": 62740,
+          "end": 62960,
+          "confidence": 0.95091265,
+          "speaker": "A"
+        },
+        {
+          "text": "座椅",
+          "start": 62960,
+          "end": 63160,
+          "confidence": 0.9920113,
+          "speaker": "A"
+        },
+        {
+          "text": "都",
+          "start": 63160,
+          "end": 63340,
+          "confidence": 0.9999745,
+          "speaker": "A"
+        },
+        {
+          "text": "得",
+          "start": 63340,
+          "end": 63480,
+          "confidence": 0.9999567,
+          "speaker": "A"
+        },
+        {
+          "text": "包浆",
+          "start": 63480,
+          "end": 63960,
+          "confidence": 0.9977235,
+          "speaker": "A"
+        },
+        {
+          "text": "了。",
+          "start": 63960,
+          "end": 64510,
+          "confidence": 0.8425411,
+          "speaker": "A"
+        },
+        {
+          "text": "算了，",
+          "start": 64580,
+          "end": 64860,
+          "confidence": 0.999887,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 64860,
+          "end": 64880,
+          "confidence": 0.9998049,
+          "speaker": "A"
+        },
+        {
+          "text": "再",
+          "start": 64880,
+          "end": 65000,
+          "confidence": 0.9998449,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 65000,
+          "end": 65120,
+          "confidence": 0.99997485,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆",
+          "start": 65120,
+          "end": 65340,
+          "confidence": 0.99997246,
+          "speaker": "A"
+        },
+        {
+          "text": "吧。",
+          "start": 65340,
+          "end": 65640,
+          "confidence": 0.6581482,
+          "speaker": "A"
+        },
+        {
+          "text": "一张",
+          "start": 66400,
+          "end": 66560,
+          "confidence": 0.6039089,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 66560,
+          "end": 66700,
+          "confidence": 0.99940956,
+          "speaker": "A"
+        },
+        {
+          "text": "不",
+          "start": 66700,
+          "end": 66800,
+          "confidence": 0.565141,
+          "speaker": "A"
+        },
+        {
+          "text": "第二辆",
+          "start": 66800,
+          "end": 67100,
+          "confidence": 0.9730686,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 67100,
+          "end": 67260,
+          "confidence": 0.9989002,
+          "speaker": "A"
+        },
+        {
+          "text": "车",
+          "start": 67260,
+          "end": 67300,
+          "confidence": 0.9999788,
+          "speaker": "A"
+        },
+        {
+          "text": "都",
+          "start": 67300,
+          "end": 67460,
+          "confidence": 0.9689106,
+          "speaker": "A"
+        },
+        {
+          "text": "在",
+          "start": 67460,
+          "end": 67520,
+          "confidence": 0.98205733,
+          "speaker": "A"
+        },
+        {
+          "text": "来",
+          "start": 67520,
+          "end": 67600,
+          "confidence": 0.84456986,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 67600,
+          "end": 67720,
+          "confidence": 0.84456986,
+          "speaker": "A"
+        },
+        {
+          "text": "路上",
+          "start": 67720,
+          "end": 68020,
+          "confidence": 0.9994717,
+          "speaker": "A"
+        },
+        {
+          "text": "了，",
+          "start": 68020,
+          "end": 68640,
+          "confidence": 0.9091237,
+          "speaker": "A"
+        },
+        {
+          "text": "有",
+          "start": 68640,
+          "end": 68820,
+          "confidence": 0.8192995,
+          "speaker": "A"
+        },
+        {
+          "text": "更好的",
+          "start": 68820,
+          "end": 69320,
+          "confidence": 0.9997581,
+          "speaker": "A"
+        },
+        {
+          "text": "呀",
+          "start": 69320,
+          "end": 69560,
+          "confidence": 0.99946505,
+          "speaker": "A"
+        },
+        {
+          "text": "就",
+          "start": 69560,
+          "end": 69800,
+          "confidence": 0.5741486,
+          "speaker": "A"
+        },
+        {
+          "text": "换。",
+          "start": 69800,
+          "end": 70200,
+          "confidence": 0.9316953,
+          "speaker": "A"
+        },
+        {
+          "text": "司机",
+          "start": 71920,
+          "end": 72140,
+          "confidence": 0.99990666,
+          "speaker": "A"
+        },
+        {
+          "text": "已",
+          "start": 72140,
+          "end": 72380,
+          "confidence": 0.9963276,
+          "speaker": "A"
+        },
+        {
+          "text": "接待。",
+          "start": 72380,
+          "end": 72580,
+          "confidence": 0.8868751,
+          "speaker": "A"
+        },
+        {
+          "text": "哎，",
+          "start": 72580,
+          "end": 72720,
+          "confidence": 0.92300934,
+          "speaker": "A"
+        },
+        {
+          "text": "你看，",
+          "start": 72720,
+          "end": 73280,
+          "confidence": 0.9346596,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 73280,
+          "end": 73380,
+          "confidence": 0.8086125,
+          "speaker": "A"
+        },
+        {
+          "text": "又",
+          "start": 73380,
+          "end": 73500,
+          "confidence": 0.9999938,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 73500,
+          "end": 73680,
+          "confidence": 0.99983895,
+          "speaker": "A"
+        },
+        {
+          "text": "到了",
+          "start": 73680,
+          "end": 73880,
+          "confidence": 0.9999261,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆，",
+          "start": 73880,
+          "end": 75320,
+          "confidence": 0.991274,
+          "speaker": "A"
+        },
+        {
+          "text": "还是",
+          "start": 75320,
+          "end": 75760,
+          "confidence": 0.96102387,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆",
+          "start": 75760,
+          "end": 75980,
+          "confidence": 0.9971188,
+          "speaker": "A"
+        },
+        {
+          "text": "三十万",
+          "start": 75980,
+          "end": 76560,
+          "confidence": 0.99994934,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 76560,
+          "end": 76680,
+          "confidence": 0.99993074,
+          "speaker": "A"
+        },
+        {
+          "text": "车，",
+          "start": 76680,
+          "end": 77300,
+          "confidence": 0.96384656,
+          "speaker": "A"
+        },
+        {
+          "text": "车龄",
+          "start": 77300,
+          "end": 77520,
+          "confidence": 0.99478453,
+          "speaker": "A"
+        },
+        {
+          "text": "才",
+          "start": 77520,
+          "end": 77719,
+          "confidence": 0.99999523,
+          "speaker": "A"
+        },
+        {
+          "text": "一年",
+          "start": 77719,
+          "end": 78100,
+          "confidence": 0.9999683,
+          "speaker": "A"
+        },
+        {
+          "text": "一分钟",
+          "start": 78100,
+          "end": 78580,
+          "confidence": 0.88474107,
+          "speaker": "A"
+        },
+        {
+          "text": "就",
+          "start": 78580,
+          "end": 78740,
+          "confidence": 0.99963236,
+          "speaker": "A"
+        },
+        {
+          "text": "到了，",
+          "start": 78740,
+          "end": 79320,
+          "confidence": 0.97005266,
+          "speaker": "A"
+        },
+        {
+          "text": "是我",
+          "start": 79320,
+          "end": 79580,
+          "confidence": 0.9539484,
+          "speaker": "A"
+        },
+        {
+          "text": "运气",
+          "start": 79580,
+          "end": 79900,
+          "confidence": 0.9999903,
+          "speaker": "A"
+        },
+        {
+          "text": "也",
+          "start": 79900,
+          "end": 80040,
+          "confidence": 0.8750848,
+          "speaker": "A"
+        },
+        {
+          "text": "太好了",
+          "start": 80040,
+          "end": 80660,
+          "confidence": 0.9999741,
+          "speaker": "A"
+        },
+        {
+          "text": "吧？",
+          "start": 80660,
+          "end": 81110,
+          "confidence": 0.96262497,
+          "speaker": "A"
+        },
+        {
+          "text": "不是，",
+          "start": 83910,
+          "end": 84360,
+          "confidence": 0.97899395,
+          "speaker": "A"
+        },
+        {
+          "text": "怎么",
+          "start": 84360,
+          "end": 84740,
+          "confidence": 0.9999771,
+          "speaker": "A"
+        },
+        {
+          "text": "取消",
+          "start": 84740,
+          "end": 85100,
+          "confidence": 0.9999931,
+          "speaker": "A"
+        },
+        {
+          "text": "上",
+          "start": 85100,
+          "end": 85280,
+          "confidence": 0.99985397,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆",
+          "start": 85280,
+          "end": 85760,
+          "confidence": 0.99994844,
+          "speaker": "A"
+        },
+        {
+          "text": "还要",
+          "start": 85760,
+          "end": 86200,
+          "confidence": 0.8333715,
+          "speaker": "A"
+        },
+        {
+          "text": "扣",
+          "start": 86200,
+          "end": 86220,
+          "confidence": 0.9999734,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 86220,
+          "end": 86400,
+          "confidence": 0.95726633,
+          "speaker": "A"
+        },
+        {
+          "text": "三块",
+          "start": 86400,
+          "end": 86560,
+          "confidence": 0.99997854,
+          "speaker": "A"
+        },
+        {
+          "text": "钱",
+          "start": 86560,
+          "end": 86740,
+          "confidence": 0.99999785,
+          "speaker": "A"
+        },
+        {
+          "text": "啊？",
+          "start": 86740,
+          "end": 87140,
+          "confidence": 0.98487747,
+          "speaker": "A"
+        },
+        {
+          "text": "那要",
+          "start": 87190,
+          "end": 87750,
+          "confidence": 0.95797527,
+          "speaker": "A"
+        },
+        {
+          "text": "不别",
+          "start": 87750,
+          "end": 88090,
+          "confidence": 0.7217637,
+          "speaker": "A"
+        },
+        {
+          "text": "取消",
+          "start": 88090,
+          "end": 88350,
+          "confidence": 0.98185676,
+          "speaker": "A"
+        },
+        {
+          "text": "了，也",
+          "start": 88350,
+          "end": 88850,
+          "confidence": 0.6339,
+          "speaker": "A"
+        },
+        {
+          "text": "不是",
+          "start": 88850,
+          "end": 89090,
+          "confidence": 0.99999106,
+          "speaker": "A"
+        },
+        {
+          "text": "很",
+          "start": 89090,
+          "end": 89290,
+          "confidence": 0.9974413,
+          "speaker": "A"
+        },
+        {
+          "text": "老。",
+          "start": 89290,
+          "end": 89790,
+          "confidence": 0.6351188,
+          "speaker": "A"
+        },
+        {
+          "text": "三块",
+          "start": 90930,
+          "end": 91170,
+          "confidence": 0.9992593,
+          "speaker": "A"
+        },
+        {
+          "text": "就",
+          "start": 91170,
+          "end": 91290,
+          "confidence": 0.997684,
+          "speaker": "A"
+        },
+        {
+          "text": "三块，",
+          "start": 91290,
+          "end": 91910,
+          "confidence": 0.999944,
+          "speaker": "A"
+        },
+        {
+          "text": "总比",
+          "start": 91910,
+          "end": 92290,
+          "confidence": 0.9999268,
+          "speaker": "A"
+        },
+        {
+          "text": "呀",
+          "start": 92290,
+          "end": 92550,
+          "confidence": 0.98253137,
+          "speaker": "A"
+        },
+        {
+          "text": "坐",
+          "start": 92550,
+          "end": 92610,
+          "confidence": 0.9632647,
+          "speaker": "A"
+        },
+        {
+          "text": "五年的",
+          "start": 92610,
+          "end": 92950,
+          "confidence": 0.9999609,
+          "speaker": "A"
+        },
+        {
+          "text": "老车",
+          "start": 92950,
+          "end": 93370,
+          "confidence": 0.99998206,
+          "speaker": "A"
+        },
+        {
+          "text": "强。",
+          "start": 93370,
+          "end": 93790,
+          "confidence": 0.7350716,
+          "speaker": "A"
+        },
+        {
+          "text": "第三",
+          "start": 93790,
+          "end": 94090,
+          "confidence": 0.44239223,
+          "speaker": "A"
+        },
+        {
+          "text": "一",
+          "start": 94090,
+          "end": 94250,
+          "confidence": 0.48384017,
+          "speaker": "A"
+        },
+        {
+          "text": "取消，",
+          "start": 94250,
+          "end": 94690,
+          "confidence": 0.87792325,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 94690,
+          "end": 94910,
+          "confidence": 0.52479947,
+          "speaker": "A"
+        },
+        {
+          "text": "这",
+          "start": 94910,
+          "end": 95410,
+          "confidence": 0.9992792,
+          "speaker": "A"
+        },
+        {
+          "text": "都",
+          "start": 95410,
+          "end": 95790,
+          "confidence": 0.9700198,
+          "speaker": "A"
+        },
+        {
+          "text": "折腾",
+          "start": 95790,
+          "end": 96030,
+          "confidence": 0.99999946,
+          "speaker": "A"
+        },
+        {
+          "text": "翻",
+          "start": 96030,
+          "end": 96370,
+          "confidence": 0.49939382,
+          "speaker": "A"
+        },
+        {
+          "text": "了。",
+          "start": 96370,
+          "end": 97050,
+          "confidence": 0.7034414,
+          "speaker": "A"
+        },
+        {
+          "text": "哎呀，",
+          "start": 97050,
+          "end": 97630,
+          "confidence": 0.943188,
+          "speaker": "A"
+        },
+        {
+          "text": "遇到",
+          "start": 97630,
+          "end": 97850,
+          "confidence": 0.99997514,
+          "speaker": "A"
+        },
+        {
+          "text": "满意",
+          "start": 97850,
+          "end": 98170,
+          "confidence": 0.99995583,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 98170,
+          "end": 98410,
+          "confidence": 0.9999881,
+          "speaker": "A"
+        },
+        {
+          "text": "呀",
+          "start": 98410,
+          "end": 98490,
+          "confidence": 0.999969,
+          "speaker": "A"
+        },
+        {
+          "text": "就",
+          "start": 98490,
+          "end": 98590,
+          "confidence": 0.9913693,
+          "speaker": "A"
+        },
+        {
+          "text": "得",
+          "start": 98590,
+          "end": 98770,
+          "confidence": 0.99995375,
+          "speaker": "A"
+        },
+        {
+          "text": "换。",
+          "start": 98770,
+          "end": 99120,
+          "confidence": 0.98168695,
+          "speaker": "A"
+        },
+        {
+          "text": "我我",
+          "start": 102630,
+          "end": 103030,
+          "confidence": 0.7353,
+          "speaker": "A"
+        },
+        {
+          "text": "刚才",
+          "start": 103030,
+          "end": 103269,
+          "confidence": 0.99341327,
+          "speaker": "A"
+        },
+        {
+          "text": "没",
+          "start": 103269,
+          "end": 103390,
+          "confidence": 0.9999722,
+          "speaker": "A"
+        },
+        {
+          "text": "注意",
+          "start": 103390,
+          "end": 103550,
+          "confidence": 0.9999815,
+          "speaker": "A"
+        },
+        {
+          "text": "看，",
+          "start": 103550,
+          "end": 104930,
+          "confidence": 0.9859386,
+          "speaker": "A"
+        },
+        {
+          "text": "怎么",
+          "start": 104930,
+          "end": 105350,
+          "confidence": 0.99955016,
+          "speaker": "A"
+        },
+        {
+          "text": "司机",
+          "start": 105350,
+          "end": 105690,
+          "confidence": 0.9999622,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 105690,
+          "end": 105890,
+          "confidence": 0.99985623,
+          "speaker": "A"
+        },
+        {
+          "text": "评分",
+          "start": 105890,
+          "end": 106010,
+          "confidence": 0.9997845,
+          "speaker": "A"
+        },
+        {
+          "text": "才",
+          "start": 106010,
+          "end": 106170,
+          "confidence": 0.99998057,
+          "speaker": "A"
+        },
+        {
+          "text": "三点",
+          "start": 106170,
+          "end": 106570,
+          "confidence": 0.9993178,
+          "speaker": "A"
+        },
+        {
+          "text": "八",
+          "start": 106570,
+          "end": 106770,
+          "confidence": 0.9998242,
+          "speaker": "A"
+        },
+        {
+          "text": "呀？",
+          "start": 106770,
+          "end": 107170,
+          "confidence": 0.9997327,
+          "speaker": "A"
+        },
+        {
+          "text": "司机",
+          "start": 107330,
+          "end": 107970,
+          "confidence": 0.999971,
+          "speaker": "A"
+        },
+        {
+          "text": "态度",
+          "start": 107970,
+          "end": 108390,
+          "confidence": 0.9999916,
+          "speaker": "A"
+        },
+        {
+          "text": "极差，",
+          "start": 108390,
+          "end": 109010,
+          "confidence": 0.99984586,
+          "speaker": "A"
+        },
+        {
+          "text": "一路",
+          "start": 109010,
+          "end": 109390,
+          "confidence": 0.9997747,
+          "speaker": "A"
+        },
+        {
+          "text": "甩",
+          "start": 109390,
+          "end": 109530,
+          "confidence": 0.99995756,
+          "speaker": "A"
+        },
+        {
+          "text": "脸色，",
+          "start": 109530,
+          "end": 110510,
+          "confidence": 0.9935021,
+          "speaker": "A"
+        },
+        {
+          "text": "车里",
+          "start": 110510,
+          "end": 110850,
+          "confidence": 0.9998995,
+          "speaker": "A"
+        },
+        {
+          "text": "异味",
+          "start": 110850,
+          "end": 111070,
+          "confidence": 0.9576562,
+          "speaker": "A"
+        },
+        {
+          "text": "重，",
+          "start": 111070,
+          "end": 111610,
+          "confidence": 0.9598297,
+          "speaker": "A"
+        },
+        {
+          "text": "不",
+          "start": 111610,
+          "end": 111910,
+          "confidence": 0.9212411,
+          "speaker": "A"
+        },
+        {
+          "text": "讲卫生，",
+          "start": 111910,
+          "end": 112430,
+          "confidence": 0.9876129,
+          "speaker": "A"
+        },
+        {
+          "text": "明明",
+          "start": 112430,
+          "end": 112870,
+          "confidence": 0.9999761,
+          "speaker": "A"
+        },
+        {
+          "text": "不是",
+          "start": 112870,
+          "end": 113270,
+          "confidence": 0.99905735,
+          "speaker": "A"
+        },
+        {
+          "text": "拼车。",
+          "start": 113270,
+          "end": 113790,
+          "confidence": 0.9742689,
+          "speaker": "A"
+        },
+        {
+          "text": "自己",
+          "start": 114190,
+          "end": 114430,
+          "confidence": 0.78900397,
+          "speaker": "A"
+        },
+        {
+          "text": "还",
+          "start": 114430,
+          "end": 114710,
+          "confidence": 0.99963033,
+          "speaker": "A"
+        },
+        {
+          "text": "多",
+          "start": 114710,
+          "end": 114870,
+          "confidence": 0.98346716,
+          "speaker": "A"
+        },
+        {
+          "text": "劫",
+          "start": 114870,
+          "end": 114930,
+          "confidence": 0.5261009,
+          "speaker": "A"
+        },
+        {
+          "text": "了",
+          "start": 114930,
+          "end": 115030,
+          "confidence": 0.99194145,
+          "speaker": "A"
+        },
+        {
+          "text": "其他人，不是",
+          "start": 115030,
+          "end": 115930,
+          "confidence": 0.9126,
+          "speaker": "A"
+        },
+        {
+          "text": "这种",
+          "start": 115930,
+          "end": 116290,
+          "confidence": 0.992413,
+          "speaker": "A"
+        },
+        {
+          "text": "事",
+          "start": 116290,
+          "end": 116390,
+          "confidence": 0.76040435,
+          "speaker": "A"
+        },
+        {
+          "text": "谁",
+          "start": 116390,
+          "end": 116630,
+          "confidence": 0.8450675,
+          "speaker": "A"
+        },
+        {
+          "text": "敢",
+          "start": 116630,
+          "end": 116850,
+          "confidence": 0.9941917,
+          "speaker": "A"
+        },
+        {
+          "text": "做",
+          "start": 116850,
+          "end": 117410,
+          "confidence": 0.999777,
+          "speaker": "A"
+        },
+        {
+          "text": "呀？",
+          "start": 117410,
+          "end": 117750,
+          "confidence": 0.9832588,
+          "speaker": "A"
+        },
+        {
+          "text": "算了，还是",
+          "start": 117750,
+          "end": 118110,
+          "confidence": 0.716,
+          "speaker": "A"
+        },
+        {
+          "text": "取消",
+          "start": 118110,
+          "end": 118450,
+          "confidence": 0.9999871,
+          "speaker": "A"
+        },
+        {
+          "text": "了吧。艾瑟",
+          "start": 118450,
+          "end": 118890,
+          "confidence": 0.8276,
+          "speaker": "A"
+        },
+        {
+          "text": "琳娜，",
+          "start": 118890,
+          "end": 120010,
+          "confidence": 0.91564643,
+          "speaker": "A"
+        },
+        {
+          "text": "现在",
+          "start": 120010,
+          "end": 120370,
+          "confidence": 0.99611497,
+          "speaker": "A"
+        },
+        {
+          "text": "都",
+          "start": 120370,
+          "end": 120570,
+          "confidence": 0.99990964,
+          "speaker": "A"
+        },
+        {
+          "text": "那么",
+          "start": 120570,
+          "end": 120770,
+          "confidence": 0.9998553,
+          "speaker": "A"
+        },
+        {
+          "text": "晚",
+          "start": 120770,
+          "end": 120970,
+          "confidence": 0.9999933,
+          "speaker": "A"
+        },
+        {
+          "text": "了，",
+          "start": 120970,
+          "end": 121430,
+          "confidence": 0.961487,
+          "speaker": "A"
+        },
+        {
+          "text": "理由",
+          "start": 121430,
+          "end": 121570,
+          "confidence": 0.88997644,
+          "speaker": "A"
+        },
+        {
+          "text": "这么",
+          "start": 121570,
+          "end": 121830,
+          "confidence": 0.99586713,
+          "speaker": "A"
+        },
+        {
+          "text": "大，",
+          "start": 121830,
+          "end": 122730,
+          "confidence": 0.9963483,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 122730,
+          "end": 122870,
+          "confidence": 0.9927503,
+          "speaker": "A"
+        },
+        {
+          "text": "再",
+          "start": 122870,
+          "end": 123110,
+          "confidence": 0.9952236,
+          "speaker": "A"
+        },
+        {
+          "text": "挑，",
+          "start": 123110,
+          "end": 124350,
+          "confidence": 0.8860985,
+          "speaker": "A"
+        },
+        {
+          "text": "万一",
+          "start": 124350,
+          "end": 125190,
+          "confidence": 0.9995174,
+          "speaker": "A"
+        },
+        {
+          "text": "找到",
+          "start": 125190,
+          "end": 125730,
+          "confidence": 0.81879485,
+          "speaker": "A"
+        },
+        {
+          "text": "怎么办？",
+          "start": 125730,
+          "end": 126840,
+          "confidence": 0.7421483,
+          "speaker": "A"
+        },
+        {
+          "text": "哎，",
+          "start": 129350,
+          "end": 130150,
+          "confidence": 0.96116096,
+          "speaker": "A"
+        },
+        {
+          "text": "怎么",
+          "start": 130150,
+          "end": 130390,
+          "confidence": 0.9999877,
+          "speaker": "A"
+        },
+        {
+          "text": "可能",
+          "start": 130390,
+          "end": 130710,
+          "confidence": 0.9999963,
+          "speaker": "A"
+        },
+        {
+          "text": "找",
+          "start": 130710,
+          "end": 130870,
+          "confidence": 0.9999976,
+          "speaker": "A"
+        },
+        {
+          "text": "不到",
+          "start": 130870,
+          "end": 131230,
+          "confidence": 0.999765,
+          "speaker": "A"
+        },
+        {
+          "text": "啊？",
+          "start": 131230,
+          "end": 131410,
+          "confidence": 0.7612186,
+          "speaker": "A"
+        },
+        {
+          "text": "我就",
+          "start": 131410,
+          "end": 131610,
+          "confidence": 0.99996096,
+          "speaker": "A"
+        },
+        {
+          "text": "不信",
+          "start": 131610,
+          "end": 131990,
+          "confidence": 0.9999891,
+          "speaker": "A"
+        },
+        {
+          "text": "了，",
+          "start": 131990,
+          "end": 132350,
+          "confidence": 0.83190423,
+          "speaker": "A"
+        },
+        {
+          "text": "这么",
+          "start": 132350,
+          "end": 132470,
+          "confidence": 0.8324268,
+          "speaker": "A"
+        },
+        {
+          "text": "大的",
+          "start": 132470,
+          "end": 132810,
+          "confidence": 0.9999919,
+          "speaker": "A"
+        },
+        {
+          "text": "城市，",
+          "start": 132810,
+          "end": 133330,
+          "confidence": 0.93425757,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 133330,
+          "end": 133450,
+          "confidence": 0.73712105,
+          "speaker": "A"
+        },
+        {
+          "text": "找",
+          "start": 133450,
+          "end": 133570,
+          "confidence": 0.999984,
+          "speaker": "A"
+        },
+        {
+          "text": "不到",
+          "start": 133570,
+          "end": 133770,
+          "confidence": 0.99999046,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆",
+          "start": 133770,
+          "end": 133990,
+          "confidence": 0.9999852,
+          "speaker": "A"
+        },
+        {
+          "text": "距离",
+          "start": 133990,
+          "end": 134310,
+          "confidence": 0.9821263,
+          "speaker": "A"
+        },
+        {
+          "text": "近、",
+          "start": 134310,
+          "end": 134650,
+          "confidence": 0.61029094,
+          "speaker": "A"
+        },
+        {
+          "text": "牌子",
+          "start": 134650,
+          "end": 134910,
+          "confidence": 0.9177435,
+          "speaker": "A"
+        },
+        {
+          "text": "硬、",
+          "start": 134910,
+          "end": 135390,
+          "confidence": 0.98333085,
+          "speaker": "A"
+        },
+        {
+          "text": "车",
+          "start": 135390,
+          "end": 135470,
+          "confidence": 0.99963045,
+          "speaker": "A"
+        },
+        {
+          "text": "流行、",
+          "start": 135470,
+          "end": 136050,
+          "confidence": 0.8204475,
+          "speaker": "A"
+        },
+        {
+          "text": "评分",
+          "start": 136050,
+          "end": 136210,
+          "confidence": 0.9974308,
+          "speaker": "A"
+        },
+        {
+          "text": "又",
+          "start": 136210,
+          "end": 136410,
+          "confidence": 0.99984,
+          "speaker": "A"
+        },
+        {
+          "text": "刚好的",
+          "start": 136410,
+          "end": 136830,
+          "confidence": 0.65410906,
+          "speaker": "A"
+        },
+        {
+          "text": "车。",
+          "start": 136830,
+          "end": 137330,
+          "confidence": 0.91057944,
+          "speaker": "A"
+        },
+        {
+          "text": "订单",
+          "start": 137790,
+          "end": 138090,
+          "confidence": 0.9992901,
+          "speaker": "A"
+        },
+        {
+          "text": "已",
+          "start": 138090,
+          "end": 138250,
+          "confidence": 0.99955004,
+          "speaker": "A"
+        },
+        {
+          "text": "取消，",
+          "start": 138250,
+          "end": 138670,
+          "confidence": 0.9194333,
+          "speaker": "A"
+        },
+        {
+          "text": "取消",
+          "start": 138670,
+          "end": 138930,
+          "confidence": 0.99999905,
+          "speaker": "A"
+        },
+        {
+          "text": "了，",
+          "start": 138930,
+          "end": 139270,
+          "confidence": 0.9501977,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 139270,
+          "end": 139450,
+          "confidence": 0.9052511,
+          "speaker": "A"
+        },
+        {
+          "text": "再",
+          "start": 139450,
+          "end": 139570,
+          "confidence": 0.9999459,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 139570,
+          "end": 139690,
+          "confidence": 0.9998796,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆。",
+          "start": 139690,
+          "end": 139970,
+          "confidence": 0.9685443,
+          "speaker": "A"
+        },
+        {
+          "text": "怎么回事",
+          "start": 141460,
+          "end": 143200,
+          "confidence": 0.99998075,
+          "speaker": "A"
+        },
+        {
+          "text": "啊？",
+          "start": 143200,
+          "end": 144600,
+          "confidence": 0.81712997,
+          "speaker": "A"
+        },
+        {
+          "text": "怎么",
+          "start": 145560,
+          "end": 147360,
+          "confidence": 0.986743,
+          "speaker": "A"
+        },
+        {
+          "text": "都",
+          "start": 147360,
+          "end": 147580,
+          "confidence": 0.9866463,
+          "speaker": "A"
+        },
+        {
+          "text": "需要",
+          "start": 147580,
+          "end": 147720,
+          "confidence": 0.99970645,
+          "speaker": "A"
+        },
+        {
+          "text": "排队",
+          "start": 147720,
+          "end": 148620,
+          "confidence": 0.9999975,
+          "speaker": "A"
+        },
+        {
+          "text": "啊？",
+          "start": 148620,
+          "end": 150420,
+          "confidence": 0.6635992,
+          "speaker": "A"
+        },
+        {
+          "text": "司机",
+          "start": 153480,
+          "end": 153640,
+          "confidence": 0.99870676,
+          "speaker": "A"
+        },
+        {
+          "text": "已经",
+          "start": 153640,
+          "end": 153840,
+          "confidence": 0.4604704,
+          "speaker": "A"
+        },
+        {
+          "text": "来，",
+          "start": 153840,
+          "end": 154380,
+          "confidence": 0.56421524,
+          "speaker": "A"
+        },
+        {
+          "text": "打到了，",
+          "start": 154380,
+          "end": 155560,
+          "confidence": 0.8886632,
+          "speaker": "A"
+        },
+        {
+          "text": "打到了。",
+          "start": 155560,
+          "end": 155720,
+          "confidence": 0.9323112,
+          "speaker": "A"
+        },
+        {
+          "text": "多久",
+          "start": 155720,
+          "end": 155840,
+          "confidence": 0.98567724,
+          "speaker": "A"
+        },
+        {
+          "text": "吧？",
+          "start": 155840,
+          "end": 156090,
+          "confidence": 0.8855264,
+          "speaker": "A"
+        },
+        {
+          "text": "半个",
+          "start": 160140,
+          "end": 160420,
+          "confidence": 0.9998187,
+          "speaker": "A"
+        },
+        {
+          "text": "小时，",
+          "start": 160420,
+          "end": 161260,
+          "confidence": 0.9235544,
+          "speaker": "A"
+        },
+        {
+          "text": "还是",
+          "start": 161260,
+          "end": 161760,
+          "confidence": 0.99993634,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆",
+          "start": 161760,
+          "end": 162300,
+          "confidence": 0.99997896,
+          "speaker": "A"
+        },
+        {
+          "text": "十年",
+          "start": 162300,
+          "end": 162880,
+          "confidence": 0.9979519,
+          "speaker": "A"
+        },
+        {
+          "text": "车龄",
+          "start": 162880,
+          "end": 163140,
+          "confidence": 0.99997973,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 163140,
+          "end": 163300,
+          "confidence": 0.99998164,
+          "speaker": "A"
+        },
+        {
+          "text": "老款。",
+          "start": 163300,
+          "end": 163990,
+          "confidence": 0.9732763,
+          "speaker": "A"
+        },
+        {
+          "text": "半个",
+          "start": 164160,
+          "end": 164400,
+          "confidence": 0.99998355,
+          "speaker": "A"
+        },
+        {
+          "text": "小时，",
+          "start": 164400,
+          "end": 165100,
+          "confidence": 0.8749994,
+          "speaker": "A"
+        },
+        {
+          "text": "还是",
+          "start": 165100,
+          "end": 165280,
+          "confidence": 0.9999511,
+          "speaker": "A"
+        },
+        {
+          "text": "老车，",
+          "start": 165280,
+          "end": 165740,
+          "confidence": 0.9292349,
+          "speaker": "A"
+        },
+        {
+          "text": "老车",
+          "start": 165740,
+          "end": 166000,
+          "confidence": 0.9999768,
+          "speaker": "A"
+        },
+        {
+          "text": "就",
+          "start": 166000,
+          "end": 166100,
+          "confidence": 0.9972178,
+          "speaker": "A"
+        },
+        {
+          "text": "老车",
+          "start": 166100,
+          "end": 166380,
+          "confidence": 0.999994,
+          "speaker": "A"
+        },
+        {
+          "text": "吧。",
+          "start": 166380,
+          "end": 166660,
+          "confidence": 0.9994946,
+          "speaker": "A"
+        },
+        {
+          "text": "封闭",
+          "start": 166920,
+          "end": 167490,
+          "confidence": 0.9903714,
+          "speaker": "A"
+        },
+        {
+          "text": "打不着",
+          "start": 167490,
+          "end": 167930,
+          "confidence": 0.9967332,
+          "speaker": "A"
+        },
+        {
+          "text": "车，",
+          "start": 167930,
+          "end": 168610,
+          "confidence": 0.97179997,
+          "speaker": "A"
+        },
+        {
+          "text": "回",
+          "start": 168610,
+          "end": 168630,
+          "confidence": 0.99908364,
+          "speaker": "A"
+        },
+        {
+          "text": "不了",
+          "start": 168630,
+          "end": 168790,
+          "confidence": 0.99995804,
+          "speaker": "A"
+        },
+        {
+          "text": "家",
+          "start": 168790,
+          "end": 168990,
+          "confidence": 0.993258,
+          "speaker": "A"
+        },
+        {
+          "text": "抢，",
+          "start": 168990,
+          "end": 169670,
+          "confidence": 0.67247874,
+          "speaker": "A"
+        },
+        {
+          "text": "凑合",
+          "start": 169670,
+          "end": 169850,
+          "confidence": 0.8656946,
+          "speaker": "A"
+        },
+        {
+          "text": "坐",
+          "start": 169850,
+          "end": 170030,
+          "confidence": 0.6910473,
+          "speaker": "A"
+        },
+        {
+          "text": "了。",
+          "start": 170030,
+          "end": 170480,
+          "confidence": 0.87715685,
+          "speaker": "A"
+        },
+        {
+          "text": "嗯。",
+          "start": 171230,
+          "end": 173330,
+          "confidence": 0.7110145,
+          "speaker": "A"
+        },
+        {
+          "text": "喂，",
+          "start": 173330,
+          "end": 173590,
+          "confidence": 0.95599836,
+          "speaker": "A"
+        },
+        {
+          "text": "你好。",
+          "start": 173590,
+          "end": 173910,
+          "confidence": 0.8158516,
+          "speaker": "A"
+        },
+        {
+          "text": "姑娘，不好意思",
+          "start": 173910,
+          "end": 174650,
+          "confidence": 0.9982,
+          "speaker": "A"
+        },
+        {
+          "text": "啊，",
+          "start": 174650,
+          "end": 175110,
+          "confidence": 0.64095145,
+          "speaker": "A"
+        },
+        {
+          "text": "离得",
+          "start": 175110,
+          "end": 175310,
+          "confidence": 0.9806976,
+          "speaker": "A"
+        },
+        {
+          "text": "太远",
+          "start": 175310,
+          "end": 175690,
+          "confidence": 0.9999973,
+          "speaker": "A"
+        },
+        {
+          "text": "了，",
+          "start": 175690,
+          "end": 176050,
+          "confidence": 0.99498296,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 176050,
+          "end": 176130,
+          "confidence": 0.9899719,
+          "speaker": "A"
+        },
+        {
+          "text": "把",
+          "start": 176130,
+          "end": 176270,
+          "confidence": 0.99998176,
+          "speaker": "A"
+        },
+        {
+          "text": "订单",
+          "start": 176270,
+          "end": 176530,
+          "confidence": 0.9995283,
+          "speaker": "A"
+        },
+        {
+          "text": "取消",
+          "start": 176530,
+          "end": 176870,
+          "confidence": 0.99999654,
+          "speaker": "A"
+        },
+        {
+          "text": "了吧？",
+          "start": 176870,
+          "end": 177220,
+          "confidence": 0.9181404,
+          "speaker": "A"
+        },
+        {
+          "text": "不是，",
+          "start": 177800,
+          "end": 178250,
+          "confidence": 0.9806264,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 178250,
+          "end": 178390,
+          "confidence": 0.94200486,
+          "speaker": "A"
+        },
+        {
+          "text": "个",
+          "start": 178390,
+          "end": 178490,
+          "confidence": 0.69350433,
+          "speaker": "A"
+        },
+        {
+          "text": "老车，",
+          "start": 178490,
+          "end": 179190,
+          "confidence": 0.9975331,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 179190,
+          "end": 179290,
+          "confidence": 0.99503976,
+          "speaker": "A"
+        },
+        {
+          "text": "还",
+          "start": 179290,
+          "end": 179410,
+          "confidence": 0.9999728,
+          "speaker": "A"
+        },
+        {
+          "text": "敲",
+          "start": 179410,
+          "end": 179590,
+          "confidence": 0.87621564,
+          "speaker": "A"
+        },
+        {
+          "text": "上",
+          "start": 179590,
+          "end": 179710,
+          "confidence": 0.9866251,
+          "speaker": "A"
+        },
+        {
+          "text": "我？",
+          "start": 179710,
+          "end": 180160,
+          "confidence": 0.69554585,
+          "speaker": "A"
+        },
+        {
+          "text": "喂！",
+          "start": 181150,
+          "end": 181950,
+          "confidence": 0.8837079,
+          "speaker": "A"
+        },
+        {
+          "text": "哎呀，",
+          "start": 181950,
+          "end": 182870,
+          "confidence": 0.8761788,
+          "speaker": "A"
+        },
+        {
+          "text": "什么？",
+          "start": 182870,
+          "end": 183230,
+          "confidence": 0.5822864,
+          "speaker": "A"
+        },
+        {
+          "text": "被",
+          "start": 183230,
+          "end": 183450,
+          "confidence": 0.39822668,
+          "speaker": "A"
+        },
+        {
+          "text": "警告",
+          "start": 183450,
+          "end": 183610,
+          "confidence": 0.45090023,
+          "speaker": "A"
+        },
+        {
+          "text": "了？",
+          "start": 183610,
+          "end": 184160,
+          "confidence": 0.81023574,
+          "speaker": "A"
+        },
+        {
+          "text": "哎，",
+          "start": 184370,
+          "end": 184550,
+          "confidence": 0.83150876,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 184550,
+          "end": 184730,
+          "confidence": 0.7600547,
+          "speaker": "A"
+        },
+        {
+          "text": "再",
+          "start": 184730,
+          "end": 184870,
+          "confidence": 0.9999399,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 184870,
+          "end": 185010,
+          "confidence": 0.99998426,
+          "speaker": "A"
+        },
+        {
+          "text": "一辆。",
+          "start": 185010,
+          "end": 185640,
+          "confidence": 0.95836765,
+          "speaker": "A"
+        },
+        {
+          "text": "哼。",
+          "start": 187570,
+          "end": 188020,
+          "confidence": 0.64075106,
+          "speaker": "A"
+        },
+        {
+          "text": "我车",
+          "start": 196420,
+          "end": 197199,
+          "confidence": 0.9980542,
+          "speaker": "A"
+        },
+        {
+          "text": "到了，那",
+          "start": 197199,
+          "end": 200640,
+          "confidence": 0.9737,
+          "speaker": "A"
+        },
+        {
+          "text": "我就",
+          "start": 200640,
+          "end": 200800,
+          "confidence": 0.999864,
+          "speaker": "A"
+        },
+        {
+          "text": "先",
+          "start": 200800,
+          "end": 201040,
+          "confidence": 0.999977,
+          "speaker": "A"
+        },
+        {
+          "text": "走了，",
+          "start": 201040,
+          "end": 201760,
+          "confidence": 0.855074,
+          "speaker": "A"
+        },
+        {
+          "text": "明天",
+          "start": 201760,
+          "end": 201880,
+          "confidence": 0.9997504,
+          "speaker": "A"
+        },
+        {
+          "text": "见。",
+          "start": 201880,
+          "end": 202480,
+          "confidence": 0.9933034,
+          "speaker": "A"
+        },
+        {
+          "text": "还",
+          "start": 207280,
+          "end": 211280,
+          "confidence": 0.9953525,
+          "speaker": "A"
+        },
+        {
+          "text": "不",
+          "start": 211280,
+          "end": 211600,
+          "confidence": 0.9997466,
+          "speaker": "A"
+        },
+        {
+          "text": "走",
+          "start": 211600,
+          "end": 215880,
+          "confidence": 0.9998233,
+          "speaker": "A"
+        },
+        {
+          "text": "吗？",
+          "start": 215880,
+          "end": 216240,
+          "confidence": 0.7267445,
+          "speaker": "A"
+        },
+        {
+          "text": "我要",
+          "start": 216240,
+          "end": 216360,
+          "confidence": 0.998316,
+          "speaker": "A"
+        },
+        {
+          "text": "关门",
+          "start": 216360,
+          "end": 217040,
+          "confidence": 0.48911977,
+          "speaker": "A"
+        },
+        {
+          "text": "了。",
+          "start": 217040,
+          "end": 217220,
+          "confidence": 0.9641337,
+          "speaker": "A"
+        },
+        {
+          "text": "哎，",
+          "start": 217220,
+          "end": 217700,
+          "confidence": 0.9936321,
+          "speaker": "A"
+        },
+        {
+          "text": "马上，",
+          "start": 217700,
+          "end": 218060,
+          "confidence": 0.9243317,
+          "speaker": "A"
+        },
+        {
+          "text": "马上",
+          "start": 218060,
+          "end": 218240,
+          "confidence": 0.9101901,
+          "speaker": "A"
+        },
+        {
+          "text": "啦！",
+          "start": 218240,
+          "end": 218840,
+          "confidence": 0.555587,
+          "speaker": "A"
+        },
+        {
+          "text": "喂，",
+          "start": 221860,
+          "end": 222210,
+          "confidence": 0.97131187,
+          "speaker": "A"
+        },
+        {
+          "text": "师傅",
+          "start": 222210,
+          "end": 222290,
+          "confidence": 0.99446654,
+          "speaker": "A"
+        },
+        {
+          "text": "您好，",
+          "start": 222290,
+          "end": 223270,
+          "confidence": 0.90404713,
+          "speaker": "A"
+        },
+        {
+          "text": "哎，",
+          "start": 223270,
+          "end": 223470,
+          "confidence": 0.9943531,
+          "speaker": "A"
+        },
+        {
+          "text": "我是",
+          "start": 223470,
+          "end": 223510,
+          "confidence": 0.9946652,
+          "speaker": "A"
+        },
+        {
+          "text": "刚才",
+          "start": 223510,
+          "end": 223810,
+          "confidence": 0.99996567,
+          "speaker": "A"
+        },
+        {
+          "text": "取消",
+          "start": 223810,
+          "end": 224030,
+          "confidence": 0.9916114,
+          "speaker": "A"
+        },
+        {
+          "text": "您",
+          "start": 224030,
+          "end": 224250,
+          "confidence": 0.9992085,
+          "speaker": "A"
+        },
+        {
+          "text": "订单",
+          "start": 224250,
+          "end": 224410,
+          "confidence": 0.9905471,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 224410,
+          "end": 224570,
+          "confidence": 0.9999826,
+          "speaker": "A"
+        },
+        {
+          "text": "那个",
+          "start": 224570,
+          "end": 224770,
+          "confidence": 0.99999535,
+          "speaker": "A"
+        },
+        {
+          "text": "乘客。",
+          "start": 224770,
+          "end": 225350,
+          "confidence": 0.9787386,
+          "speaker": "A"
+        },
+        {
+          "text": "师傅",
+          "start": 225889,
+          "end": 226010,
+          "confidence": 0.97307765,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 226010,
+          "end": 226130,
+          "confidence": 0.99797374,
+          "speaker": "A"
+        },
+        {
+          "text": "这样",
+          "start": 226130,
+          "end": 226330,
+          "confidence": 0.9996916,
+          "speaker": "A"
+        },
+        {
+          "text": "的，",
+          "start": 226330,
+          "end": 226690,
+          "confidence": 0.99684703,
+          "speaker": "A"
+        },
+        {
+          "text": "其实",
+          "start": 226690,
+          "end": 227010,
+          "confidence": 0.9969963,
+          "speaker": "A"
+        },
+        {
+          "text": "啊，",
+          "start": 227010,
+          "end": 227190,
+          "confidence": 0.89394015,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 227190,
+          "end": 227210,
+          "confidence": 0.78904057,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 227210,
+          "end": 227330,
+          "confidence": 0.9999243,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 227330,
+          "end": 227430,
+          "confidence": 0.98839605,
+          "speaker": "A"
+        },
+        {
+          "text": "第一辆",
+          "start": 227430,
+          "end": 227710,
+          "confidence": 0.9996715,
+          "speaker": "A"
+        },
+        {
+          "text": "车",
+          "start": 227710,
+          "end": 227810,
+          "confidence": 0.99999833,
+          "speaker": "A"
+        },
+        {
+          "text": "就是",
+          "start": 227810,
+          "end": 227970,
+          "confidence": 0.9999869,
+          "speaker": "A"
+        },
+        {
+          "text": "您",
+          "start": 227970,
+          "end": 228210,
+          "confidence": 0.9959138,
+          "speaker": "A"
+        },
+        {
+          "text": "的，",
+          "start": 228210,
+          "end": 228510,
+          "confidence": 0.9913791,
+          "speaker": "A"
+        },
+        {
+          "text": "要",
+          "start": 228510,
+          "end": 228650,
+          "confidence": 0.9868443,
+          "speaker": "A"
+        },
+        {
+          "text": "不",
+          "start": 228650,
+          "end": 228710,
+          "confidence": 0.99990284,
+          "speaker": "A"
+        },
+        {
+          "text": "您",
+          "start": 228710,
+          "end": 228830,
+          "confidence": 0.99965537,
+          "speaker": "A"
+        },
+        {
+          "text": "来",
+          "start": 228830,
+          "end": 229050,
+          "confidence": 0.99980754,
+          "speaker": "A"
+        },
+        {
+          "text": "接",
+          "start": 229050,
+          "end": 229070,
+          "confidence": 0.9999186,
+          "speaker": "A"
+        },
+        {
+          "text": "一下",
+          "start": 229070,
+          "end": 229290,
+          "confidence": 0.9755965,
+          "speaker": "A"
+        },
+        {
+          "text": "我？",
+          "start": 229290,
+          "end": 229640,
+          "confidence": 0.9058736,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 230510,
+          "end": 230590,
+          "confidence": 0.9662328,
+          "speaker": "A"
+        },
+        {
+          "text": "给",
+          "start": 230590,
+          "end": 230670,
+          "confidence": 0.9994752,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 230670,
+          "end": 230930,
+          "confidence": 0.9997999,
+          "speaker": "A"
+        },
+        {
+          "text": "加钱，",
+          "start": 230930,
+          "end": 231790,
+          "confidence": 0.9949241,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 231790,
+          "end": 231810,
+          "confidence": 0.98095495,
+          "speaker": "A"
+        },
+        {
+          "text": "给",
+          "start": 231810,
+          "end": 231950,
+          "confidence": 0.9999212,
+          "speaker": "A"
+        },
+        {
+          "text": "你",
+          "start": 231950,
+          "end": 232050,
+          "confidence": 0.9999232,
+          "speaker": "A"
+        },
+        {
+          "text": "加钱",
+          "start": 232050,
+          "end": 232290,
+          "confidence": 0.9999762,
+          "speaker": "A"
+        },
+        {
+          "text": "行不行？",
+          "start": 232290,
+          "end": 232710,
+          "confidence": 0.94726664,
+          "speaker": "A"
+        },
+        {
+          "text": "不好意思，",
+          "start": 235290,
+          "end": 235510,
+          "confidence": 0.9515821,
+          "speaker": "A"
+        },
+        {
+          "text": "姑娘，",
+          "start": 235510,
+          "end": 236230,
+          "confidence": 0.9999146,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 236230,
+          "end": 236350,
+          "confidence": 0.99966,
+          "speaker": "A"
+        },
+        {
+          "text": "已经",
+          "start": 236350,
+          "end": 236590,
+          "confidence": 0.9999933,
+          "speaker": "A"
+        },
+        {
+          "text": "接",
+          "start": 236590,
+          "end": 236810,
+          "confidence": 0.99964297,
+          "speaker": "A"
+        },
+        {
+          "text": "了",
+          "start": 236810,
+          "end": 236990,
+          "confidence": 0.9992105,
+          "speaker": "A"
+        },
+        {
+          "text": "别的",
+          "start": 236990,
+          "end": 237270,
+          "confidence": 0.99997485,
+          "speaker": "A"
+        },
+        {
+          "text": "乘客",
+          "start": 237270,
+          "end": 237730,
+          "confidence": 0.99999547,
+          "speaker": "A"
+        },
+        {
+          "text": "了。",
+          "start": 237730,
+          "end": 238280,
+          "confidence": 0.9786975,
+          "speaker": "A"
+        },
+        {
+          "text": "打",
+          "start": 250650,
+          "end": 250690,
+          "confidence": 0.9512826,
+          "speaker": "A"
+        },
+        {
+          "text": "不到",
+          "start": 250690,
+          "end": 250970,
+          "confidence": 0.99992216,
+          "speaker": "A"
+        },
+        {
+          "text": "车，",
+          "start": 250970,
+          "end": 251390,
+          "confidence": 0.9992268,
+          "speaker": "A"
+        },
+        {
+          "text": "那",
+          "start": 251390,
+          "end": 251550,
+          "confidence": 0.9984553,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 251550,
+          "end": 251670,
+          "confidence": 0.9999745,
+          "speaker": "A"
+        },
+        {
+          "text": "走路回家吧。",
+          "start": 251670,
+          "end": 251810,
+          "confidence": 0.9999,
+          "speaker": "A"
+        },
+        {
+          "text": "一个",
+          "start": 252550,
+          "end": 252900,
+          "confidence": 0.9999987,
+          "speaker": "A"
+        },
+        {
+          "text": "人",
+          "start": 252900,
+          "end": 253120,
+          "confidence": 0.9999987,
+          "speaker": "A"
+        },
+        {
+          "text": "走路",
+          "start": 253120,
+          "end": 253320,
+          "confidence": 0.99998707,
+          "speaker": "A"
+        },
+        {
+          "text": "回家",
+          "start": 253320,
+          "end": 253520,
+          "confidence": 0.9999526,
+          "speaker": "A"
+        },
+        {
+          "text": "也",
+          "start": 253520,
+          "end": 253660,
+          "confidence": 0.9999685,
+          "speaker": "A"
+        },
+        {
+          "text": "挺",
+          "start": 253660,
+          "end": 253800,
+          "confidence": 0.9999964,
+          "speaker": "A"
+        },
+        {
+          "text": "好，",
+          "start": 253800,
+          "end": 254220,
+          "confidence": 0.9980285,
+          "speaker": "A"
+        },
+        {
+          "text": "还",
+          "start": 254220,
+          "end": 254240,
+          "confidence": 0.9961416,
+          "speaker": "A"
+        },
+        {
+          "text": "健康",
+          "start": 254240,
+          "end": 255260,
+          "confidence": 0.99997914,
+          "speaker": "A"
+        },
+        {
+          "text": "呢。",
+          "start": 255260,
+          "end": 255420,
+          "confidence": 0.970717,
+          "speaker": "A"
+        },
+        {
+          "text": "回家",
+          "start": 255420,
+          "end": 255720,
+          "confidence": 0.99997675,
+          "speaker": "A"
+        },
+        {
+          "text": "啦！",
+          "start": 255720,
+          "end": 258020,
+          "confidence": 0.93140984,
+          "speaker": "A"
+        },
+        {
+          "text": "收收",
+          "start": 258020,
+          "end": 258260,
+          "confidence": 0.58335656,
+          "speaker": "A"
+        },
+        {
+          "text": "收收",
+          "start": 258260,
+          "end": 258940,
+          "confidence": 0.9615903,
+          "speaker": "A"
+        },
+        {
+          "text": "收，",
+          "start": 258940,
+          "end": 258960,
+          "confidence": 0.8053,
+          "speaker": "A"
+        },
+        {
+          "text": "躲",
+          "start": 258960,
+          "end": 259100,
+          "confidence": 0.8142216,
+          "speaker": "A"
+        },
+        {
+          "text": "完。",
+          "start": 259100,
+          "end": 259600,
+          "confidence": 0.50204545,
+          "speaker": "A"
+        },
+        {
+          "text": "晨翔",
+          "start": 259940,
+          "end": 260220,
+          "confidence": 0.8192902,
+          "speaker": "A"
+        },
+        {
+          "text": "六点半。",
+          "start": 260220,
+          "end": 260820,
+          "confidence": 0.99970484,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.9412264,
+  "audio_duration": 261,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "redact_static_entities": null,
+  "speaker_labels": true,
+  "speaker_options": {
+    "min_speakers_expected": null,
+    "max_speakers_expected": null,
+    "advanced_speaker_segmentation": true
+  },
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": false,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-3-5-pro"
+  ],
+  "speech_model_used": "universal-3-5-pro",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": null,
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 1623026,
+  "token_id": 1639457
+}

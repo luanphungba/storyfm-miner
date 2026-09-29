@@ -10,6 +10,7 @@ import { existsSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { paths } from './paths.js';
 import { loadFeed } from './feed.js';
+import { loadBilibiliEpisodes } from './bilibili.js';
 import { transcribe } from './asr.js';
 import { toSentences, punctuationRate } from './segment.js';
 import { splitSentence, joinSentences } from './cuts.js';
@@ -35,8 +36,21 @@ const formatDuration = (/** @type {number} */ seconds) =>
   `${Math.floor(seconds / 60)}:${String(Math.round(seconds % 60)).padStart(2, '0')}`;
 
 /**
- * @param {import('./feed.js').Episode} episode
- * @param {{ force?: boolean, narrator?: string }} options
+ * A 故事FM episode from the feed, or a Bilibili video from data/bilibili.json.
+ * @typedef {import('./feed.js').Episode | (import('./bilibili.js').Video & { guid: string, source: 'bilibili' })} Source
+ */
+
+/** The audio URL AssemblyAI fetches and the player plays. */
+const audioUrl = (/** @type {Source} */ episode) => ('m4a' in episode ? episode.m4a : episode.mp3);
+
+/** Every episode that can be built, 故事FM's and Bilibili's alike. */
+export async function loadEpisodes() {
+  return [...(await loadFeed()), ...(await loadBilibiliEpisodes())];
+}
+
+/**
+ * @param {Source} episode
+ * @param {{ force?: boolean, resegment?: boolean, narrator?: string }} options
  */
 export async function buildEpisode(episode, { force = false, resegment = false, narrator } = {}) {
   if (existsSync(paths.episode(episode.id)) && !force && !resegment) {
@@ -57,7 +71,8 @@ export async function buildEpisode(episode, { force = false, resegment = false, 
     guid: episode.guid,
     pubDate: episode.pubDate,
     duration: episode.duration,
-    audio: { mp3: episode.mp3 },
+    audio: 'm4a' in episode ? { m4a: episode.m4a } : { mp3: episode.mp3 },
+    ...('source' in episode && { source: episode.source, owner: episode.owner }),
     engine: 'assemblyai',
     cues,
   });
@@ -167,14 +182,14 @@ async function loadRaw(/** @type {string} */ id) {
   }
 }
 
-async function runAsr(/** @type {import('./feed.js').Episode} */ episode) {
+async function runAsr(/** @type {Source} */ episode) {
   const apiKey = process.env.ASSEMBLYAI_API_KEY;
   if (!apiKey) {
     throw new Error('Thiếu ASSEMBLYAI_API_KEY. Copy .env.example thành .env rồi điền key.');
   }
 
   console.log(`Gửi cho AssemblyAI (${formatDuration(episode.duration)}, họ tự tải audio)…`);
-  const raw = await transcribe(episode.mp3, apiKey, (status, elapsed) => {
+  const raw = await transcribe(audioUrl(episode), apiKey, (status, elapsed) => {
     process.stdout.write(`\r  ${status} · ${elapsed}s   `);
   });
   process.stdout.write('\n');
@@ -212,12 +227,15 @@ function report(id, cues) {
   console.log(`\nXem thử:  npm run serve  →  http://localhost:8080/player.html?ep=${id}`);
 }
 
-/** The index is derived from the feed so titles and dates have exactly one source. */
+/** The index is derived from the feed and data/bilibili.json so titles and dates have exactly one source. */
 export async function rebuildIndex() {
-  const episodes = await loadFeed();
+  const episodes = await loadEpisodes();
   const entries = episodes
     .filter((episode) => existsSync(paths.episode(episode.id)))
-    .map(({ id, title, pubDate, duration }) => ({ id, title, pubDate, duration }));
+    .map((episode) => ({
+      id: episode.id, title: episode.title, pubDate: episode.pubDate, duration: episode.duration,
+      ...('source' in episode && { source: episode.source, owner: episode.owner }),
+    }));
 
   await writeJson(paths.index, { updated: new Date().toISOString().slice(0, 10), episodes: entries });
   return entries;

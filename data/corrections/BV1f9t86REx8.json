@@ -1,0 +1,24 @@
+{
+  "episode": "BV1f9t86REx8",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-09-28",
+  "fixes": [
+    { "cueIndex": 18, "before": "我是根基", "after": "我是GenJi", "source": "llm-review",
+      "reason": "The speaker introducing himself: the channel is 'GenJi是真想教会你AI'. 根基 (foundation) is the homophone, and would teach a learner the wrong word.",
+      "appliedAt": "2026-09-28" },
+    { "cueIndex": 19, "before": "成为大家厚爱", "after": "承蒙大家厚爱", "source": "llm-review",
+      "reason": "承蒙厚爱 is the fixed thank-you phrase; 成为 chéngwéi is one sound off chéngméng and does not parse. Whisper heard the same chéng…méng shape.",
+      "appliedAt": "2026-09-28" },
+    { "cueIndex": 19, "before": "百搭博主", "after": "百大博主", "source": "llm-review",
+      "reason": "Bilibili's yearly 百大UP主 award — the video's own title says 百大up主. 百搭 (goes with anything) does not fit.",
+      "appliedAt": "2026-09-28" }
+  ],
+  "flagged": [
+    { "cueIndex": 19, "text": "今年入选的百大博主",
+      "reason": "Reads ungrammatically after 承蒙大家厚爱; whisper heard 今年也入选了. Likely 今年也入选了, not certain enough to change." },
+    { "cueIndex": 14, "text": "倒买别人的这个工程文件",
+      "reason": "The standard word is 倒卖 (resell); the speaker may have said 倒买 as in 倒买倒卖. Left as heard." },
+    { "cueIndex": 16, "text": "把普通人遇到的门槛儿。变成你手中的商品",
+      "reason": "ASR put a full stop mid-sentence (s16→s17) and sentences 17–20 have no punctuation at all; the words read right, the punctuation does not." }
+  ]
+}

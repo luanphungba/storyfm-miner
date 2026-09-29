@@ -1,0 +1,872 @@
+{
+  "id": "BV1GMtJ62Eo5",
+  "title": "陈翔六点半：渴望远方，却困在楼下",
+  "guid": "BV1GMtJ62Eo5",
+  "pubDate": "2026-09-02",
+  "duration": 261,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/BV1GMtJ62Eo5.m4a"
+  },
+  "source": "bilibili",
+  "owner": "陈翔六点半",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 0,
+      "end": 1.22,
+      "text": "瑟琳娜，你打车了吗？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 1,
+      "s": 1,
+      "start": 1.22,
+      "end": 2.59,
+      "text": "我刚打了一辆，五分钟到。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 2,
+      "s": 2,
+      "start": 2.68,
+      "end": 4.24,
+      "text": "我也打到了，也是五分钟到。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 3,
+      "s": 3,
+      "start": 4.34,
+      "end": 6.02,
+      "text": "我换个平台呀，再打一辆。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 4,
+      "s": 4,
+      "start": 6.32,
+      "end": 7.42,
+      "text": "你不是刚打了一辆吗？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 5,
+      "s": 5,
+      "start": 7.42,
+      "end": 9.06,
+      "text": "都在来的路上了，怎么又打？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 6,
+      "start": 9.34,
+      "end": 10.86,
+      "text": "我这不是还没上车吗？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 7,
+      "start": 10.86,
+      "end": 13.38,
+      "text": "没上车之前我就有选择的权利啊！",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 8,
+      "start": 13.38,
+      "end": 16.02,
+      "text": "多打一辆，哪辆车先到我就坐哪辆。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 9,
+      "start": 16.02,
+      "end": 17.84,
+      "text": "总比在一棵树上吊死的强吧？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 10,
+      "start": 18.4,
+      "end": 19.04,
+      "text": "司机已接单。哎，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 11,
+      "s": 11,
+      "start": 19.04,
+      "end": 20.38,
+      "text": "你看，又打到了一辆。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 12,
+      "start": 21.83,
+      "end": 23.84,
+      "text": "哎，还是一辆二十万的车。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 13,
+      "s": 13,
+      "start": 23.84,
+      "end": 26.2,
+      "text": "我刚才打的那辆就是个几万块钱的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 14,
+      "s": 13,
+      "start": 26.2,
+      "end": 27.71,
+      "text": "哪有这个坐的舒服呀？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 15,
+      "s": 14,
+      "start": 28.02,
+      "end": 29.98,
+      "text": "那你刚刚打的那辆都已经在路上了，怎么办？取消呗。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 15,
+      "start": 31.94,
+      "end": 33.72,
+      "text": "不然留着过年啊！",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 16,
+      "start": 33.72,
+      "end": 34.48,
+      "text": "订单已取消。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 17,
+      "start": 34.48,
+      "end": 36.27,
+      "text": "你看，取消了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 18,
+      "start": 37.22,
+      "end": 39.58,
+      "text": "喂，我是刚才接你单的司机，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 18,
+      "start": 39.58,
+      "end": 41.44,
+      "text": "我这油钱都烧了多少了？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 19,
+      "start": 41.44,
+      "end": 42.87,
+      "text": "你怎么取消了？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 20,
+      "start": 42.88,
+      "end": 44.58,
+      "text": "师傅，平台规定",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 20,
+      "start": 44.58,
+      "end": 46.54,
+      "text": "没上车之前可以取消的吧？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 21,
+      "start": 46.54,
+      "end": 47.96,
+      "text": "你再接其他乘客不就好了？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 22,
+      "start": 48.12,
+      "end": 48.94,
+      "text": "我还有事，先挂。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 23,
+      "start": 48.94,
+      "end": 49.48,
+      "text": "是。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 24,
+      "start": 52.25,
+      "end": 55.85,
+      "text": "哎，怎么第二辆是一辆五年的宝车呀？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 25,
+      "start": 56.56,
+      "end": 59.1,
+      "text": "五年也还好吧，能坐就行了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 26,
+      "start": 59.26,
+      "end": 60.5,
+      "text": "那能一样吗？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 27,
+      "start": 60.5,
+      "end": 61.6,
+      "text": "五年的车。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 28,
+      "start": 61.66,
+      "end": 64.51,
+      "text": "你想一下，那座椅都得包浆了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 29,
+      "start": 64.58,
+      "end": 65.64,
+      "text": "算了，我再打一辆吧。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 30,
+      "start": 66.4,
+      "end": 68.64,
+      "text": "你刚打的第二辆车都在来的路上了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 30,
+      "start": 68.64,
+      "end": 70.2,
+      "text": "有更好的呀就换。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 31,
+      "start": 71.92,
+      "end": 72.58,
+      "text": "司机已接待。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 32,
+      "start": 72.58,
+      "end": 75.08,
+      "text": "哎，你看，我又打到了一辆，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 32,
+      "start": 75.32,
+      "end": 77.3,
+      "text": "还是一辆三十万的车，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 32,
+      "start": 77.3,
+      "end": 79.32,
+      "text": "车龄才一年一分钟就到了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 33,
+      "start": 79.32,
+      "end": 81.11,
+      "text": "是我运气也太好了吧？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 34,
+      "start": 83.91,
+      "end": 85.76,
+      "text": "不是，怎么取消上一辆",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 34,
+      "start": 85.76,
+      "end": 87.14,
+      "text": "还要扣我三块钱啊？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 35,
+      "start": 87.19,
+      "end": 89.79,
+      "text": "那要不别取消了，也不是很老。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 36,
+      "start": 90.93,
+      "end": 93.79,
+      "text": "三块就三块，总比呀坐五年的老车强。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 37,
+      "start": 93.79,
+      "end": 97.05,
+      "text": "订单已取消，你这都折腾三辆了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 38,
+      "start": 97.05,
+      "end": 99.12,
+      "text": "哎呀，遇到满意的呀就得换。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 39,
+      "start": 102.63,
+      "end": 104.75,
+      "text": "我我刚才没注意看，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 39,
+      "start": 104.93,
+      "end": 107.17,
+      "text": "怎么司机的评分才三点八呀？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 40,
+      "start": 107.33,
+      "end": 110.51,
+      "text": "司机态度极差，一路甩脸色，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 40,
+      "start": 110.51,
+      "end": 112.43,
+      "text": "车里异味重，不讲卫生，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 40,
+      "start": 112.43,
+      "end": 113.79,
+      "text": "明明不是拼车。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "s": 41,
+      "start": 114.19,
+      "end": 115.93,
+      "text": "司机还多接了其他人，不是",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "s": 41,
+      "start": 115.93,
+      "end": 117.75,
+      "text": "这种车谁敢坐呀？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 42,
+      "start": 117.75,
+      "end": 120.01,
+      "text": "算了，还是取消了吧。艾瑟琳娜，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 43,
+      "start": 120.01,
+      "end": 122.73,
+      "text": "现在都那么晚了，雨又这么大，",
+      "speaker": "A",
+      "u": 42,
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 43,
+      "start": 122.73,
+      "end": 126.84,
+      "text": "你再挑，万一找不到怎么办？",
+      "speaker": "A",
+      "u": 42,
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 44,
+      "start": 129.35,
+      "end": 131.41,
+      "text": "哎，怎么可能找不到啊？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 45,
+      "start": 131.41,
+      "end": 133.33,
+      "text": "我就不信了，这么大的城市，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 45,
+      "start": 133.33,
+      "end": 135.39,
+      "text": "我找不到一辆距离近、牌子硬、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "s": 45,
+      "start": 135.39,
+      "end": 137.33,
+      "text": "车龄新、评分又高的好车。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 46,
+      "start": 137.79,
+      "end": 139.97,
+      "text": "订单已取消，取消了，我再打一辆。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 47,
+      "start": 141.46,
+      "end": 144.4,
+      "text": "怎么回事啊？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 48,
+      "start": 145.56,
+      "end": 149.82,
+      "text": "怎么都需要排队啊？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 49,
+      "start": 153.48,
+      "end": 155.72,
+      "text": "司机已经来，打到了，打到了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 50,
+      "start": 155.72,
+      "end": 156.09,
+      "text": "多久吧？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 51,
+      "start": 160.14,
+      "end": 163.99,
+      "text": "半个小时，还是一辆十年车龄的老款。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 52,
+      "start": 164.16,
+      "end": 166.66,
+      "text": "半个小时，还是老车，老车就老车吧。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 53,
+      "start": 166.92,
+      "end": 170.48,
+      "text": "总比打不着车，回不了家强，凑合坐了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 54,
+      "start": 171.23,
+      "end": 172.43,
+      "text": "嗯。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 55,
+      "start": 173.33,
+      "end": 173.91,
+      "text": "喂，你好。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 56,
+      "start": 173.91,
+      "end": 176.05,
+      "text": "姑娘，不好意思啊，离得太远了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 56,
+      "start": 176.05,
+      "end": 177.22,
+      "text": "你把订单取消了吧？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 57,
+      "start": 177.8,
+      "end": 180.16,
+      "text": "不是，你个老车，你还挑上我？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 58,
+      "start": 181.15,
+      "end": 181.95,
+      "text": "喂！",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 59,
+      "start": 181.95,
+      "end": 183.23,
+      "text": "哎呀，什么？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 60,
+      "start": 183.23,
+      "end": 184.16,
+      "text": "被警告了？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "s": 61,
+      "start": 184.37,
+      "end": 185.64,
+      "text": "哎，我再打一辆。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 77,
+      "s": 62,
+      "start": 187.57,
+      "end": 188.02,
+      "text": "哼。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 63,
+      "start": 196.42,
+      "end": 202.48,
+      "text": "我车到了，那我就先走了，明天见。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 79,
+      "s": 64,
+      "start": 207.28,
+      "end": 216.24,
+      "text": "还不走吗？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 80,
+      "s": 65,
+      "start": 216.24,
+      "end": 217.22,
+      "text": "我要关门了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 66,
+      "start": 217.22,
+      "end": 218.84,
+      "text": "哎，马上，马上啦！",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 67,
+      "start": 221.86,
+      "end": 223.47,
+      "text": "喂，师傅您好，哎，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 67,
+      "start": 223.47,
+      "end": 225.35,
+      "text": "我是刚才取消您订单的那个乘客。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 68,
+      "start": 225.89,
+      "end": 227.19,
+      "text": "师傅是这样的，其实啊，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "s": 68,
+      "start": 227.19,
+      "end": 228.51,
+      "text": "我打的第一辆车就是您的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 86,
+      "s": 68,
+      "start": 228.51,
+      "end": 229.64,
+      "text": "要不您来接一下我？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 87,
+      "s": 69,
+      "start": 230.51,
+      "end": 232.71,
+      "text": "我给你加钱，我给你加钱行不行？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 70,
+      "start": 235.29,
+      "end": 236.23,
+      "text": "不好意思，姑娘，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 89,
+      "s": 70,
+      "start": 236.23,
+      "end": 238.28,
+      "text": "我已经接了别的乘客了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 90,
+      "s": 71,
+      "start": 250.65,
+      "end": 251.81,
+      "text": "打不到车，那我走路回家吧。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 91,
+      "s": 72,
+      "start": 252.55,
+      "end": 255.42,
+      "text": "一个人走路回家也挺好，还健康呢。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 92,
+      "s": 73,
+      "start": 255.42,
+      "end": 256.92,
+      "text": "回家啦！",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "s": 74,
+      "start": 258.02,
+      "end": 259.6,
+      "text": "咻咻咻咻咻，躲完。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 94,
+      "s": 75,
+      "start": 259.94,
+      "end": 260.82,
+      "text": "陈翔六点半。",
+      "speaker": "A",
+      "role": "storyteller"
+    }
+  ]
+}

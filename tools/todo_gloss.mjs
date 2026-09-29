@@ -24,7 +24,7 @@ const args = process.argv.slice(2);
 const limitAt = args.indexOf('--limit');
 const limit = limitAt >= 0 ? Number(args[limitAt + 1]) : Infinity;
 const ids = args.filter((a, i) => !a.startsWith('--') && !(limitAt >= 0 && i === limitAt + 1));
-const episodes = ids.length ? ids : readdirSync(DATA).filter((f) => /^E[^.]*\.json$/.test(f)).map((f) => f.replace('.json', ''));
+const episodes = ids.length ? ids : readdirSync(DATA).filter((f) => /^(E|BV)[^.]*\.json$/.test(f)).map((f) => f.replace('.json', ''));
 
 const authored = JSON.parse(readFileSync(join(ROOT, 'tools/gloss-vi.json'), 'utf8'));
 

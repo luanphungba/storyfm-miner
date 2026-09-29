@@ -1,0 +1,32 @@
+{
+  "episode": "BV1GMtJ62Eo5",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-09-29",
+  "fixes": [
+    { "cueIndex": 0, "before": "司令长", "after": "瑟琳娜", "source": "llm-review", "reason": "The heroine's name: Bilibili's subtitles say 瑟琳娜, whisper 小琳娜, and AssemblyAI itself hears 瑟…琳娜 at sentence 42/43.", "appliedAt": "2026-09-29" },
+    { "cueIndex": 24, "before": "是辆五年", "after": "是一辆五年", "source": "llm-review", "reason": "Whisper and Bilibili both hear 一辆.", "appliedAt": "2026-09-29" },
+    { "cueIndex": 30, "before": "一张打不第二辆的车", "after": "你刚打的第二辆车", "source": "llm-review", "reason": "一张打不 isn't Chinese; whisper and Bilibili both hear 你刚打的第二辆车.", "appliedAt": "2026-09-29" },
+    { "cueIndex": 37, "before": "第三一取消", "after": "订单已取消", "source": "llm-review", "reason": "The app's 订单已取消 prompt (as in 16, 46); Bilibili hears it, 第三一取消 is not a phrase.", "appliedAt": "2026-09-29" },
+    { "cueIndex": 37, "before": "折腾翻了", "after": "折腾三辆了", "source": "llm-review", "reason": "Third car cancelled; whisper (三量) and Bilibili (三辆) agree.", "appliedAt": "2026-09-29" },
+    { "cueIndex": 41, "before": "自己还多劫了", "after": "司机还多接了", "source": "llm-review", "reason": "Read-out driver review after 明明不是拼车: the driver picked up extra riders. Bilibili hears 司机…接; 劫 (rob) makes no sense.", "appliedAt": "2026-09-29" },
+    { "cueIndex": 41, "before": "这种事谁敢做", "after": "这种车谁敢坐", "source": "llm-review", "reason": "About riding the car; Bilibili hears 这种车谁敢坐 (坐/做 homophones).", "appliedAt": "2026-09-29" },
+    { "cueIndex": 43, "before": "理由这么大", "after": "雨又这么大", "source": "llm-review", "reason": "Late night, heavy rain; whisper and Bilibili both hear 雨又这么大.", "appliedAt": "2026-09-29" },
+    { "cueIndex": 43, "before": "万一找到怎么办", "after": "万一找不到怎么办", "source": "llm-review", "reason": "Whisper and Bilibili both hear 找不到, and 44 answers 怎么可能找不到.", "appliedAt": "2026-09-29" },
+    { "cueIndex": 45, "before": "车流行、评分又刚好的车", "after": "车龄新、评分又高的好车", "source": "llm-review", "reason": "List of car criteria; Bilibili 零星评分又高的好车 and whisper 除了零星…评分又高 point to 车龄新 (car age, as in 车龄才一年).", "appliedAt": "2026-09-29" },
+    { "cueIndex": 53, "before": "封闭打不着车，回不了家抢", "after": "总比打不着车，回不了家强", "source": "llm-review", "reason": "总比…强, the pattern used twice earlier; whisper and Bilibili both hear 总比.", "appliedAt": "2026-09-29" },
+    { "cueIndex": 57, "before": "敲上我", "after": "挑上我", "source": "llm-review", "reason": "She is the picky one (你再挑); whisper and Bilibili both hear 挑.", "appliedAt": "2026-09-29" },
+    { "cueIndex": 74, "before": "收收收收收", "after": "咻咻咻咻咻", "source": "llm-review", "reason": "Sound effect; whisper and Bilibili both hear 咻.", "appliedAt": "2026-09-29" },
+    { "cueIndex": 75, "before": "晨翔", "after": "陈翔", "source": "llm-review", "reason": "Channel name 陈翔六点半.", "appliedAt": "2026-09-29" }
+  ],
+  "flagged": [
+    { "cueIndex": 23, "text": "是。", "reason": "Low confidence; Bilibili hears 不是姑娘 here. Unresolved." },
+    { "cueIndex": 24, "text": "五年的宝车", "reason": "AssemblyAI and whisper hear 宝车, Bilibili 老车 (she later says 五年的老车). Left as heard." },
+    { "cueIndex": 31, "text": "司机已接待。", "reason": "App prompt is presumably 司机已接单 (as in 10), but AssemblyAI and whisper both hear 接待 here, and Bilibili heard 接待 at 10. Left as heard." },
+    { "cueIndex": 35, "text": "也不是很老", "reason": "Bilibili 冷, whisper 朗; 老 fits the 5-year car. Left as heard." },
+    { "cueIndex": 42, "text": "还是取消了吧。艾瑟|琳娜", "reason": "The name 瑟琳娜 is split across sentences 42/43 by the ASR; 艾 is probably the interjection 哎." },
+    { "cueIndex": 49, "text": "司机已经来，打到了，打到了。", "reason": "Whisper hears 已交代 (≈已接待), Bilibili 已经; likely the app prompt again. Unresolved." },
+    { "cueIndex": 50, "text": "多久吧？", "reason": "Bilibili 多久到; unresolved." },
+    { "cueIndex": 60, "text": "被警告了？", "reason": "Low confidence; Bilibili hears 是被取消了, which fits (the driver asked her to cancel). Unresolved." },
+    { "cueIndex": 74, "text": "躲完", "reason": "Sound effect DUANG (Bilibili), not words." }
+  ]
+}

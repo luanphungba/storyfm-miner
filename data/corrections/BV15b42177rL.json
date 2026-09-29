@@ -1,0 +1,292 @@
+{
+  "episode": "BV15b42177rL",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-09-29",
+  "fixes": [
+    {
+      "cueIndex": 25,
+      "before": " Phone ",
+      "after": "Phone",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 78,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 80,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 85,
+      "before": " B就发了他们的iPad ",
+      "after": "B就发了他们的iPad",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 90,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 18,
+      "before": "洪福校区",
+      "after": "宏福校区",
+      "source": "llm-review",
+      "reason": "BUPT's campus is 宏福校区 (confirmed by search).",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 25,
+      "before": "第八五零是你",
+      "after": "D850是尼康",
+      "source": "llm-review",
+      "reason": "Nikon's D850 DSLR (2017); whisper hears 你看 ≈ 尼康 — 'D850 was Nikon's new DSLR'.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 25,
+      "before": "iPhoneX",
+      "after": "iPhone X",
+      "source": "llm-review",
+      "reason": "Product name has a space; glue pass joined it.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 26,
+      "before": "鸿福校区",
+      "after": "宏福校区",
+      "source": "llm-review",
+      "reason": "Same campus as sentence 18.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 32,
+      "before": "v log",
+      "after": "vlog",
+      "source": "llm-review",
+      "reason": "One word.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 74,
+      "before": "搞四次地铁",
+      "after": "倒四次地铁",
+      "source": "llm-review",
+      "reason": "倒地铁 = change trains; whisper hears 到 (dao).",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 76,
+      "before": "在做个视频",
+      "after": "再做个视频",
+      "source": "llm-review",
+      "reason": "再 (then) — the sentence is what he planned next.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 77,
+      "before": "你跟我每期都看的",
+      "after": "一个我每期都看的",
+      "source": "llm-review",
+      "reason": "Whisper hears 一个; \"a channel I watched every episode of, called TESTV\".",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 78,
+      "before": "TestTV",
+      "after": "TESTV",
+      "source": "llm-review",
+      "reason": "The tech review channel TESTV.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 80,
+      "before": "iPadPro",
+      "after": "iPad Pro",
+      "source": "llm-review",
+      "reason": "Product name has a space; glue pass joined it.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 85,
+      "before": "TestB",
+      "after": "TESTV",
+      "source": "llm-review",
+      "reason": "The same channel as sentence 78.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 85,
+      "before": "iPadPro",
+      "after": "iPad Pro",
+      "source": "llm-review",
+      "reason": "Product name has a space; glue pass joined it.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 114,
+      "before": "老师号我叫何同学",
+      "after": "老师好我叫何同学",
+      "source": "llm-review",
+      "reason": "His channel name 老师好我叫何同学 (the Bilibili uploader name).",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 140,
+      "before": "往上回去的路上",
+      "after": "往常回去的路上",
+      "source": "llm-review",
+      "reason": "往常 (usually) — set against 但这次车上很安静 in the next sentence; 往上 does not read.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 143,
+      "before": "充上了",
+      "after": "冲上了",
+      "source": "llm-review",
+      "reason": "冲上热搜 is the fixed phrase; whisper hears 冲.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 150,
+      "before": "鸟哨",
+      "after": "鸟巢",
+      "source": "llm-review",
+      "reason": "The Bird's Nest launch event from sentence 58.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 150,
+      "before": "这台高筑",
+      "after": "债台高筑",
+      "source": "llm-review",
+      "reason": "Idiom 债台高筑 (deep in debt) — Smartisan did collapse under debt.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 161,
+      "before": "阿凡",
+      "after": "阿范",
+      "source": "llm-review",
+      "reason": "His roommate is 阿范 everywhere else.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 161,
+      "before": "租一个下午",
+      "after": "坐一个下午",
+      "source": "llm-review",
+      "reason": "坐一个下午 at the library (where he wrote scripts); whisper hears zuo.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 169,
+      "before": "妈妈妈，咖啡用TV上，色色灯串。",
+      "after": "My momma called, seen you on TV, son, said shit done changed",
+      "source": "llm-review",
+      "reason": "English lyrics of Post Malone's \"Congratulations\", which continue in sentence 170; ASR forced them into Chinese.",
+      "appliedAt": "2026-09-29"
+    },
+    {
+      "cueIndex": 172,
+      "before": "won 't",
+      "after": "won't",
+      "source": "llm-review",
+      "reason": "Contraction split by the segmenter.",
+      "appliedAt": "2026-09-29"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 11,
+      "text": "看着全是扫点的天空发呆",
+      "reason": "扫点 is not a word (噪点 \"image noise\"?) but both ASRs hear sao; left."
+    },
+    {
+      "cueIndex": 30,
+      "text": "我真正开始跟人做视频的时候",
+      "reason": "跟人 reads oddly (认真?); both ASRs hear it; left."
+    },
+    {
+      "cueIndex": 39,
+      "text": "没钱，轻的数码产品动辄五六千",
+      "reason": "Probably 新的 (new products cost 5–6k), but both ASRs hear qing; left."
+    },
+    {
+      "cueIndex": 47,
+      "text": "周六在家尽量慢改一天",
+      "reason": "慢改 is not a word; unclear what was said."
+    },
+    {
+      "cueIndex": 52,
+      "text": "长赞、收藏、点赞、评论、转发，最后让您给大家的关注",
+      "reason": "Old-video outro over music; garbled, low confidence."
+    },
+    {
+      "cueIndex": 54,
+      "text": "我是各位",
+      "reason": "Probably 我是何同学 (his old sign-off), not certain."
+    },
+    {
+      "cueIndex": 56,
+      "text": "我将要到粉丝最多的UP主",
+      "reason": "A verb is missing (成为?); low confidence."
+    },
+    {
+      "cueIndex": 65,
+      "text": "再看直播好好玩一个 / 好，真的会响",
+      "reason": "Crowd audio at the launch event; unrecoverable."
+    },
+    {
+      "cueIndex": 76,
+      "text": "我晃晒这款产品",
+      "reason": "晃晒 is not a word (好好晒晒?); left."
+    },
+    {
+      "cueIndex": 102,
+      "text": "五G基站集中采购之前结束",
+      "reason": "News clip; garbled."
+    },
+    {
+      "cueIndex": 103,
+      "text": "一位北京邮电大学的男生叫我是何同学",
+      "reason": "News clip; probably 网名叫…, unclear."
+    },
+    {
+      "cueIndex": 106,
+      "text": "他和同学大家习惯了通话",
+      "reason": "News clip; whisper hears 我叫何同学，大家习惯的称号; unclear."
+    },
+    {
+      "cueIndex": 138,
+      "text": "我还是爱之家老哥的",
+      "reason": "Probably 爱IT之家老哥 (IT之家 commenters), not certain."
+    },
+    {
+      "cueIndex": 139,
+      "text": "赛不过丁丁真",
+      "reason": "A comment meme; exact wording unclear."
+    },
+    {
+      "cueIndex": 173,
+      "text": "Work so hard for a goddamn vacation.",
+      "reason": "Song lyric is likely \"Worked so hard, forgot how to vacation\"; left as heard."
+    }
+  ]
+}
