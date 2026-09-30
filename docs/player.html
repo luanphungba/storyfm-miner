@@ -22,7 +22,6 @@
   <div class="toolbar">
     <button class="chip" id="filter-all" aria-pressed="true">Tất cả</button>
     <button class="chip" id="filter-storyteller" aria-pressed="false">Chỉ người kể</button>
-    <button class="chip" id="show-vi" type="button" aria-pressed="false" title="Hiện bản dịch tiếng Việt của mọi câu" hidden>Hiện dịch</button>
     <button class="chip" id="copy" type="button" title="Chép các câu đang hiện, mỗi câu một dòng">Copy text</button>
     <button class="chip" id="font-smaller" type="button" title="Chữ nhỏ hơn" aria-label="Chữ nhỏ hơn">A−</button>
     <button class="chip" id="font-larger" type="button" title="Chữ to hơn" aria-label="Chữ to hơn">A+</button>
@@ -48,6 +47,10 @@
     </span>
     <button class="chip" id="loop-toggle" type="button" aria-pressed="false" disabled>↻ Lặp</button>
     <button class="chip" id="loop-clear" type="button" title="Xoá đoạn lặp" hidden>✕</button>
+    <span class="player-toggles">
+      <button class="chip" id="repeat-episode" type="button" aria-pressed="false" title="Hết bài thì phát lại từ đầu">Lặp cả bài</button>
+      <button class="chip" id="show-vi" type="button" aria-pressed="false" title="Hiện bản dịch tiếng Việt của mọi câu" hidden>Hiện dịch</button>
+    </span>
   </div>
   <div class="speedbar" id="speedbar">
     <button class="chip speed" type="button" data-rate="0.5" aria-pressed="false">0.5x</button>

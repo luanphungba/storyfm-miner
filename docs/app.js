@@ -44,6 +44,8 @@ let tokens = null;
 let gloss = null;
 /** @type {{ start: number, end: number, left: number, button: HTMLElement | null } | null} */
 let loop = null;
+/** Whether the episode starts over when it ends. Off on every load: it is for this sitting. */
+let repeatEpisode = false;
 let currentIndex = -1;
 let lastManualScrollAt = 0;
 /** Set when a tapped word paused the audio, so closing its card picks the listening back up. */
@@ -248,18 +250,22 @@ async function loadTranslation() {
   $('show-vi').hidden = !any;
 }
 
+/** Pressed mid-listen, so it opens or closes every translation above the line too, and the line
+ * being heard has to stay put rather than be pushed a screen away. */
 $('show-vi').addEventListener('click', (event) => {
   const button = /** @type {HTMLElement} */ (event.currentTarget);
   const on = button.getAttribute('aria-pressed') !== 'true';
   button.setAttribute('aria-pressed', String(on));
-  cueBox.classList.toggle('show-vi', on);
-  // Switching everything off starts clean, rather than leaving the few opened one by one.
-  if (!on) {
-    for (const row of cueBox.querySelectorAll('.vi-open')) {
-      row.classList.remove('vi-open');
-      row.querySelector('.vi-toggle')?.setAttribute('aria-pressed', 'false');
+  holdLineInPlace(() => {
+    cueBox.classList.toggle('show-vi', on);
+    // Switching everything off starts clean, rather than leaving the few opened one by one.
+    if (!on) {
+      for (const row of cueBox.querySelectorAll('.vi-open')) {
+        row.classList.remove('vi-open');
+        row.querySelector('.vi-toggle')?.setAttribute('aria-pressed', 'false');
+      }
     }
-  }
+  });
 });
 
 const card = $('gloss');
@@ -383,10 +389,25 @@ function highlight(/** @type {number} */ index) {
   }
 }
 
+/** Runs a change that reflows the lines above, keeping the line being read where it was on screen:
+ * the one being heard if it is in view, otherwise the top line in view. */
+function holdLineInPlace(/** @type {() => void} */ change) {
+  const inView = (/** @type {Element} */ row) => {
+    const { top, bottom } = row.getBoundingClientRect();
+    return bottom > 0 && top < innerHeight;
+  };
+  const now = cueBox.querySelector('.cue.is-now');
+  const anchor = now && inView(now) ? now : [...cueBox.children].find(inView);
+  const before = anchor?.getBoundingClientRect().top;
+  change();
+  if (anchor && before !== undefined) scrollBy(0, anchor.getBoundingClientRect().top - before);
+}
+
 function startLoop(/** @type {number} */ start, /** @type {number} */ end, times = Infinity, button = null) {
   stopLoop();
   loop = { start, end, left: times, button };
   button?.setAttribute('aria-pressed', 'true');
+  syncRepeat();
   audio.currentTime = start;
   audio.play();
 }
@@ -396,7 +417,14 @@ function startLoop(/** @type {number} */ start, /** @type {number} */ end, times
 function stopLoop() {
   loop?.button?.setAttribute('aria-pressed', 'false');
   loop = null;
+  syncRepeat();
   audio.pause();
+}
+
+/** The element's own loop does the repeating. It stands down while a line or segment loops: a
+ * segment running to the very end would otherwise wrap to 0:00 before timeupdate saw its end. */
+function syncRepeat() {
+  audio.loop = repeatEpisode && !loop;
 }
 
 audio.addEventListener('timeupdate', () => {
@@ -461,6 +489,13 @@ cueBox.addEventListener('click', (event) => {
 });
 
 addEventListener('scroll', () => { lastManualScrollAt = Date.now(); }, { passive: true });
+
+// The bar is fixed over the bottom of the page, and its height changes with the screen width and the
+// word card. The page keeps exactly that much room under the last line, so no line ends up beneath it.
+const playerBar = /** @type {HTMLElement} */ (document.querySelector('.player'));
+new ResizeObserver(() => {
+  document.documentElement.style.setProperty('--player-height', `${playerBar.offsetHeight}px`);
+}).observe(playerBar);
 
 for (const [id, onlyStoryteller] of [['filter-all', false], ['filter-storyteller', true]]) {
   $(/** @type {string} */ (id)).addEventListener('click', () => {
@@ -529,6 +564,14 @@ for (const button of speedButtons) {
 const savedRate = Number(localStorage.getItem(SPEED_STORAGE_KEY));
 if (savedRate) setRate(savedRate);
 
+// ---------- repeat the whole episode (off by default, never remembered) ----------
+
+$('repeat-episode').addEventListener('click', (event) => {
+  repeatEpisode = !repeatEpisode;
+  /** @type {HTMLElement} */ (event.currentTarget).setAttribute('aria-pressed', String(repeatEpisode));
+  syncRepeat();
+});
+
 // ---------- reading size (remembered across episodes, bigger for tired eyes) ----------
 
 const FONT_STORAGE_KEY = 'ci-zh-font-size';
@@ -550,10 +593,7 @@ function setFontSize(/** @type {number} */ size) {
 function stepFontSize(/** @type {number} */ step) {
   const index = FONT_SIZES.indexOf(fontSize) + step;
   if (index < 0 || index >= FONT_SIZES.length) return;
-  const anchor = cueBox.querySelector('.cue.is-now');
-  const before = anchor?.getBoundingClientRect().top;
-  setFontSize(FONT_SIZES[index]);
-  if (anchor && before !== undefined) scrollBy(0, anchor.getBoundingClientRect().top - before);
+  holdLineInPlace(() => setFontSize(FONT_SIZES[index]));
 }
 
 fontSmaller.addEventListener('click', () => stepFontSize(-1));
