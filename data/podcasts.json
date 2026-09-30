@@ -21,7 +21,8 @@
           "mp3": "https://m.cdn.firstory.me/track/cko0g8j5m1toy0984t6s7mqtk/cmtg5cn911ssn01zc02h9e4ba/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fcko0g8j5m1toy0984t6s7mqtk%2Fcmtg5cn911sso01zcdz3b63aq.mp3?v=1788114807331",
           "link": "https://open.firstory.fm/story/cmtg5cn911ssn01zc02h9e4ba",
           "pubDate": "2026-09-04",
-          "duration": 1786
+          "duration": 1786,
+          "m4a": "https://storyfm-audio.luanphungba.workers.dev/CC118.m4a"
         },
         {
           "id": "CC117",

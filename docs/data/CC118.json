@@ -1,0 +1,6679 @@
+{
+  "id": "CC118",
+  "title": "Episode 118 | 大学选什么专业好呢？What should I study in the university?",
+  "guid": "cmtg5cn911ssn01zc02h9e4ba",
+  "pubDate": "2026-09-04",
+  "duration": 1786,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/CC118.m4a"
+  },
+  "source": "podcast",
+  "owner": "瞎扯学中文 Convo Chinese",
+  "link": "https://open.firstory.fm/story/cmtg5cn911ssn01zc02h9e4ba",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 12.69,
+      "end": 14.16,
+      "text": "Hello，大家好，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 1,
+      "s": 0,
+      "start": 14.16,
+      "end": 18.32,
+      "text": "欢迎大家回到新的一期瞎扯学中文。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 2,
+      "s": 1,
+      "start": 18.32,
+      "end": 20.88,
+      "text": "我是你们的host青青。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 3,
+      "s": 2,
+      "start": 20.88,
+      "end": 23.9,
+      "text": "哦，对了，今天在开始节目之前呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 4,
+      "s": 2,
+      "start": 23.9,
+      "end": 25.38,
+      "text": "正好要感谢一下",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 5,
+      "s": 2,
+      "start": 25.38,
+      "end": 27.5,
+      "text": "所有在Buy Me a Coffee的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 6,
+      "s": 3,
+      "start": 27.63,
+      "end": 30.77,
+      "text": "网站上给我买了咖啡，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 7,
+      "s": 3,
+      "start": 30.77,
+      "end": 34.15,
+      "text": "然后支持我们的播客的听众朋友们，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 8,
+      "s": 3,
+      "start": 34.15,
+      "end": 34.85,
+      "text": "谢谢大家。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 9,
+      "s": 4,
+      "start": 35.43,
+      "end": 35.85,
+      "text": "谢谢大家。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 5,
+      "start": 35.85,
+      "end": 38.27,
+      "text": "好的，然后今天的啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 11,
+      "s": 5,
+      "start": 38.97,
+      "end": 40.73,
+      "text": "听听声音，大家能猜出来",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 12,
+      "s": 5,
+      "start": 40.73,
+      "end": 43.72,
+      "text": "今天的这个嘉宾是谁吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 13,
+      "s": 6,
+      "start": 43.73,
+      "end": 46.15,
+      "text": "来，嘉宾你不要暴露名字，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 14,
+      "s": 6,
+      "start": 46.15,
+      "end": 48.87,
+      "text": "你可以说两句话让大家猜一猜。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 15,
+      "s": 7,
+      "start": 48.87,
+      "end": 50.95,
+      "text": "没问题，Hello，大家好，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 7,
+      "start": 51.03,
+      "end": 53.91,
+      "text": "大家能听出来我的声音吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 8,
+      "start": 55.87,
+      "end": 59.08,
+      "text": "我们有好多听众都特别喜欢你",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 18,
+      "s": 8,
+      "start": 59.08,
+      "end": 63.8,
+      "text": "上次我也感动了对小苏苏",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 19,
+      "s": 8,
+      "start": 63.8,
+      "end": 66.52,
+      "text": "小苏苏现在还在加拿大呢",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 20,
+      "s": 8,
+      "start": 66.52,
+      "end": 68.48,
+      "text": "所以现在是早晨的时间",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 21,
+      "s": 9,
+      "start": 68.48,
+      "end": 72.18,
+      "text": "没错没错对",
+      "speaker": "A",
+      "u": 8,
+      "role": "narrator"
+    },
+    {
+      "i": 22,
+      "s": 9,
+      "start": 72.18,
+      "end": 75.96,
+      "text": "刚才我们也唠了一会儿嗑然后对",
+      "speaker": "A",
+      "u": 8,
+      "role": "narrator"
+    },
+    {
+      "i": 23,
+      "s": 9,
+      "start": 75.96,
+      "end": 78.42,
+      "text": "然后你刚想问我什么来着小苏苏",
+      "speaker": "A",
+      "u": 8,
+      "role": "narrator"
+    },
+    {
+      "i": 24,
+      "s": 9,
+      "start": 78.42,
+      "end": 81.27,
+      "text": "我刚才是想说你今天的",
+      "speaker": "A",
+      "u": 8,
+      "role": "narrator"
+    },
+    {
+      "i": 25,
+      "s": 10,
+      "start": 81.27,
+      "end": 83.43,
+      "text": "妆容非常的精致，",
+      "speaker": "A",
+      "u": 8,
+      "role": "narrator"
+    },
+    {
+      "i": 26,
+      "s": 11,
+      "start": 83.43,
+      "end": 85.88,
+      "text": "不知道是有什么好事吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 12,
+      "start": 87.38,
+      "end": 88.99,
+      "text": "没什么好事，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 28,
+      "s": 12,
+      "start": 88.99,
+      "end": 93.13,
+      "text": "我就是上班刚回家，上班穿的衣服。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 29,
+      "s": 13,
+      "start": 93.13,
+      "end": 94.95,
+      "text": "我最近剪了头发，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 30,
+      "s": 13,
+      "start": 94.95,
+      "end": 98.36,
+      "text": "我是周末刚剪的，剪的挺短的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 31,
+      "s": 14,
+      "start": 98.53,
+      "end": 99.75,
+      "text": "为什么要剪短发？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 15,
+      "start": 99.75,
+      "end": 102.09,
+      "text": "我也是短发，你发现了吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 16,
+      "start": 102.93,
+      "end": 104.29,
+      "text": "你一直是短发，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 34,
+      "s": 16,
+      "start": 104.29,
+      "end": 106.33,
+      "text": "对小苏苏一直都是短头发。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 35,
+      "s": 17,
+      "start": 107.85,
+      "end": 110.2,
+      "text": "你为什么留短头发呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 36,
+      "s": 18,
+      "start": 110.2,
+      "end": 112.9,
+      "text": "我觉得是因为我太懒了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 18,
+      "start": 113.1,
+      "end": 117.4,
+      "text": "因为我喜欢洗头，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 19,
+      "start": 117.4,
+      "end": 119.06,
+      "text": "我可能每天都要洗头。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 20,
+      "start": 119.06,
+      "end": 121.46,
+      "text": "我的新陈代谢比较旺盛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 20,
+      "start": 121.46,
+      "end": 123,
+      "text": "所以我不希望自己的头发",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 20,
+      "start": 123,
+      "end": 126.29,
+      "text": "特别的油腻，我就每天都会洗头。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 21,
+      "start": 126.36,
+      "end": 128.8,
+      "text": "但我不想在洗头这件事上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 21,
+      "start": 128.8,
+      "end": 131.16,
+      "text": "花费太多的时间，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 22,
+      "start": 131.16,
+      "end": 133.3,
+      "text": "所以我就把头发变成了短发。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 23,
+      "start": 134,
+      "end": 136.84,
+      "text": "我也是，我也每天都洗头，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 46,
+      "s": 23,
+      "start": 137.15,
+      "end": 141.27,
+      "text": "所以我我剪头发的主要原因也是啊",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 47,
+      "s": 23,
+      "start": 141.29,
+      "end": 143.43,
+      "text": "长头发太麻烦了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 48,
+      "s": 24,
+      "start": 143.69,
+      "end": 145.32,
+      "text": "洗头要很长时间，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 49,
+      "s": 24,
+      "start": 145.49,
+      "end": 146.96,
+      "text": "吹头发也要很长时间，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 50,
+      "s": 24,
+      "start": 147.3,
+      "end": 150.41,
+      "text": "地上家里的地上全都是我的头发，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 51,
+      "s": 24,
+      "start": 150.41,
+      "end": 152.69,
+      "text": "就是很长就很明显。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 52,
+      "s": 25,
+      "start": 152.69,
+      "end": 153.83,
+      "text": "然后还有一个就是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 53,
+      "s": 25,
+      "start": 153.83,
+      "end": 157.53,
+      "text": "最近促使我剪头发的原因之一，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 54,
+      "s": 25,
+      "start": 157.53,
+      "end": 159.53,
+      "text": "就是晚上我睡觉的时候。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 55,
+      "s": 26,
+      "start": 159.72,
+      "end": 164.7,
+      "text": "我翻身会把自己就压到自己的头发，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 56,
+      "s": 26,
+      "start": 165.08,
+      "end": 167.9,
+      "text": "然后翻不了身，很麻烦，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 57,
+      "s": 27,
+      "start": 167.9,
+      "end": 170.76,
+      "text": "所以还要特地用手去把头发拨开，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 58,
+      "s": 27,
+      "start": 171.34,
+      "end": 172.94,
+      "text": "简直太麻烦了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 59,
+      "s": 28,
+      "start": 172.94,
+      "end": 174.98,
+      "text": "通过你的描述，我能想象到",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 28,
+      "start": 174.98,
+      "end": 177.28,
+      "text": "你的发量一定非常的惊人。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 29,
+      "start": 177.28,
+      "end": 180.12,
+      "text": "其实我剪短发还有另一个原因，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 29,
+      "start": 180.3,
+      "end": 183.18,
+      "text": "我觉得我最近有些聪明绝顶，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 30,
+      "start": 183.18,
+      "end": 185.2,
+      "text": "然后我觉得剪了短发之后",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 30,
+      "start": 185.2,
+      "end": 188.36,
+      "text": "会显得我发量格外的浓密和蓬松。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 31,
+      "start": 189.88,
+      "end": 193.59,
+      "text": "聪明绝顶，可以跟大家解释一下。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 66,
+      "s": 32,
+      "start": 193.83,
+      "end": 196.11,
+      "text": "嗯，聪明绝顶，嗯，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 32,
+      "start": 196.11,
+      "end": 198.79,
+      "text": "我觉得它字面意思好像是太聪明了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 32,
+      "start": 198.79,
+      "end": 202.61,
+      "text": "以至于那个头顶上的头发都没有了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 33,
+      "start": 202.61,
+      "end": 204.62,
+      "text": "所以叫聪明绝顶。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 34,
+      "start": 204.63,
+      "end": 206.45,
+      "text": "但它传统意义上就是说",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 34,
+      "start": 206.45,
+      "end": 208.65,
+      "text": "这个人无比的聪明，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 34,
+      "start": 208.65,
+      "end": 210.92,
+      "text": "已经达到了巅峰的状态。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 35,
+      "start": 212.41,
+      "end": 215.15,
+      "text": "对对，就是大家有时候自嘲嘛。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 74,
+      "s": 36,
+      "start": 215.43,
+      "end": 220.25,
+      "text": "嘲笑自己，就说自己头发掉了头发呀，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 75,
+      "s": 36,
+      "start": 220.25,
+      "end": 222.4,
+      "text": "然后发际线后移。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 76,
+      "s": 37,
+      "start": 222.48,
+      "end": 227.49,
+      "text": "发际线，发际线就是你那个头发那根，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 77,
+      "s": 37,
+      "start": 227.49,
+      "end": 229.37,
+      "text": "就是怎么说头皮那根线吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 78,
+      "s": 38,
+      "start": 229.37,
+      "end": 233.14,
+      "text": "后移嘛，然后就说啊，聪明绝顶了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 79,
+      "s": 39,
+      "start": 233.49,
+      "end": 234.37,
+      "text": "是的，是的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 80,
+      "s": 40,
+      "start": 234.37,
+      "end": 237.13,
+      "text": "但你你一直留短头发也很麻烦，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 81,
+      "s": 40,
+      "start": 237.13,
+      "end": 240.3,
+      "text": "你不需要经常去理发店剪头发吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 82,
+      "s": 41,
+      "start": 240.61,
+      "end": 243.91,
+      "text": "也还好吧，我一般会剪完短发了之后，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 41,
+      "start": 243.91,
+      "end": 245.21,
+      "text": "我不会剪齐刘海。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 42,
+      "start": 245.72,
+      "end": 248.79,
+      "text": "所以只要不是剪齐刘海的情况下，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "s": 42,
+      "start": 248.79,
+      "end": 251.16,
+      "text": "头发长长了你就拨到两边，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 86,
+      "s": 43,
+      "start": 251.25,
+      "end": 252.93,
+      "text": "然后等它长到大概",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 87,
+      "s": 43,
+      "start": 252.93,
+      "end": 255.06,
+      "text": "这个胸口的位置的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 44,
+      "start": 255.23,
+      "end": 257.25,
+      "text": "应该已经过去六个月了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 89,
+      "s": 45,
+      "start": 257.25,
+      "end": 259.88,
+      "text": "所以我只要一年理两次发就可以。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 90,
+      "s": 46,
+      "start": 260.59,
+      "end": 263.53,
+      "text": "呃，我跟你的策略是一样，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 91,
+      "s": 46,
+      "start": 263.53,
+      "end": 266.35,
+      "text": "但是我一般会留一整年哦，OK，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 92,
+      "s": 46,
+      "start": 266.35,
+      "end": 269.37,
+      "text": "我会留到头发就到那个腰左右，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 93,
+      "s": 47,
+      "start": 269.37,
+      "end": 271.65,
+      "text": "然后我就剪掉，剪特别短。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 94,
+      "s": 48,
+      "start": 272.91,
+      "end": 275.85,
+      "text": "这说明你的头发长得还是挺快的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 95,
+      "s": 48,
+      "start": 276.54,
+      "end": 277.72,
+      "text": "嗯，你说，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 96,
+      "s": 49,
+      "start": 277.72,
+      "end": 280.06,
+      "text": "嗯，今天主要想跟小苏苏聊的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 97,
+      "s": 49,
+      "start": 280.06,
+      "end": 282.14,
+      "text": "倒也不是头发这个事儿，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 98,
+      "s": 49,
+      "start": 282.48,
+      "end": 285.06,
+      "text": "就呃这个话题的契机呀，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 99,
+      "s": 50,
+      "start": 285.14,
+      "end": 289.31,
+      "text": "话题的起源是前两天我在办公室，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 100,
+      "s": 50,
+      "start": 289.62,
+      "end": 292,
+      "text": "呃，因为我是在公司里，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 101,
+      "s": 50,
+      "start": 292,
+      "end": 294.31,
+      "text": "我是做可持续发展，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 102,
+      "s": 51,
+      "start": 294.48,
+      "end": 297.32,
+      "text": "就是关于环境保护啊。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 103,
+      "s": 52,
+      "start": 297.48,
+      "end": 299.92,
+      "text": "关于一些气候变化",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 104,
+      "s": 52,
+      "start": 299.92,
+      "end": 303.2,
+      "text": "或者是防止污染之类的话题，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 105,
+      "s": 52,
+      "start": 303.54,
+      "end": 306.32,
+      "text": "然后呢，我们团队就在一起吃中饭，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 106,
+      "s": 53,
+      "start": 306.52,
+      "end": 307.82,
+      "text": "大家就说起来说，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 107,
+      "s": 53,
+      "start": 307.82,
+      "end": 310.26,
+      "text": "大家原来都是学什么专业的？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 108,
+      "s": 54,
+      "start": 310.26,
+      "end": 311.9,
+      "text": "大家是学什么专业？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 109,
+      "s": 55,
+      "start": 311.9,
+      "end": 317.54,
+      "text": "最后都最后的人生道路都怎么说呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 110,
+      "s": 56,
+      "start": 317.54,
+      "end": 320.12,
+      "text": "就把我们领到了同一个团队，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 111,
+      "s": 56,
+      "start": 320.12,
+      "end": 323.53,
+      "text": "然后我就发现我们我们团队就是。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 112,
+      "s": 57,
+      "start": 323.79,
+      "end": 326.27,
+      "text": "原来学什么专业的都有，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 113,
+      "s": 57,
+      "start": 326.27,
+      "end": 330.4,
+      "text": "大学里哈有的是学嗯机器人，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 114,
+      "s": 57,
+      "start": 330.49,
+      "end": 334.77,
+      "text": "有的学编程的，有一些学经济的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 115,
+      "s": 58,
+      "start": 334.77,
+      "end": 337.49,
+      "text": "有一些学什么什么都有嘛。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 116,
+      "s": 59,
+      "start": 337.49,
+      "end": 339.55,
+      "text": "然后就想到这个话题，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 117,
+      "s": 59,
+      "start": 339.55,
+      "end": 342.59,
+      "text": "就是当年我们怎么选专业？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 118,
+      "s": 60,
+      "start": 342.59,
+      "end": 345.04,
+      "text": "就是选专业他的考虑有什么？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 119,
+      "s": 61,
+      "start": 345.15,
+      "end": 347.15,
+      "text": "然后你觉得选专业",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 120,
+      "s": 61,
+      "start": 347.15,
+      "end": 350.57,
+      "text": "对后面的人生道路到底有什么？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 121,
+      "s": 62,
+      "start": 351,
+      "end": 353.17,
+      "text": "有没有影响？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 122,
+      "s": 63,
+      "start": 353.78,
+      "end": 354.78,
+      "text": "哎，我觉得你这个问题",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 123,
+      "s": 63,
+      "start": 354.78,
+      "end": 357.96,
+      "text": "问的特别的有趣深刻，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 124,
+      "s": 63,
+      "start": 357.96,
+      "end": 359.56,
+      "text": "但我的答案可能会显得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 125,
+      "s": 63,
+      "start": 359.56,
+      "end": 361.44,
+      "text": "非常的幼稚肤浅。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 126,
+      "s": 64,
+      "start": 361.44,
+      "end": 364.74,
+      "text": "因为我当时跟你说实话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 127,
+      "s": 64,
+      "start": 364.74,
+      "end": 367.65,
+      "text": "我这个人就是好像开窍会比较晚，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 128,
+      "s": 64,
+      "start": 367.66,
+      "end": 369.48,
+      "text": "所以我当时上高中，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 129,
+      "s": 65,
+      "start": 369.48,
+      "end": 371.38,
+      "text": "然后刚上大学的那个时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 130,
+      "s": 65,
+      "start": 371.38,
+      "end": 373.42,
+      "text": "我就是一个没有什么",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 131,
+      "s": 65,
+      "start": 373.42,
+      "end": 376,
+      "text": "太多自主思想的一个人。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 132,
+      "s": 66,
+      "start": 376,
+      "end": 378.92,
+      "text": "所以当时我选专业其实也很简单，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 133,
+      "s": 66,
+      "start": 378.92,
+      "end": 380.98,
+      "text": "就是两个原因：一，我爸让我选什么；二。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 134,
+      "s": 67,
+      "start": 383.3,
+      "end": 385.5,
+      "text": "二，那个我考上了哪个专业",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 135,
+      "s": 67,
+      "start": 385.5,
+      "end": 387.4,
+      "text": "我就上了哪个专业，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 136,
+      "s": 67,
+      "start": 387.49,
+      "end": 389.76,
+      "text": "所以当时其实很简单。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 137,
+      "s": 68,
+      "start": 390.2,
+      "end": 392.1,
+      "text": "我自己内心可能那个时候",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "s": 68,
+      "start": 392.1,
+      "end": 393.86,
+      "text": "我其实挺喜欢艺术的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 68,
+      "start": 393.86,
+      "end": 395.6,
+      "text": "我就喜欢画画儿。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "s": 69,
+      "start": 395.6,
+      "end": 397.74,
+      "text": "然后那个时候我就觉得哇哦，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "s": 69,
+      "start": 397.74,
+      "end": 399.42,
+      "text": "如果我可以学建筑，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "s": 70,
+      "start": 399.42,
+      "end": 401.78,
+      "text": "那会是一个多么酷的事情！",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 143,
+      "s": 71,
+      "start": 401.78,
+      "end": 403.68,
+      "text": "所以我当时其实考了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 144,
+      "s": 71,
+      "start": 403.68,
+      "end": 406.07,
+      "text": "那个清华的建筑系。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 145,
+      "s": 72,
+      "start": 407.16,
+      "end": 409.9,
+      "text": "同时呢，我爸又说：“哎，弯弯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 146,
+      "s": 72,
+      "start": 409.9,
+      "end": 411.56,
+      "text": "因为我的小名叫弯弯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 147,
+      "s": 72,
+      "start": 411.56,
+      "end": 412.88,
+      "text": "就你这个脑子，嗯，我觉得你就学一。”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "s": 73,
+      "start": 414.8,
+      "end": 417.7,
+      "text": "简单一点的好找工作的吧",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 149,
+      "s": 73,
+      "start": 417.7,
+      "end": 419.68,
+      "text": "你就去考一下那个会计",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 150,
+      "s": 73,
+      "start": 419.68,
+      "end": 421.64,
+      "text": "所以我当时报考志愿的时候",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 151,
+      "s": 73,
+      "start": 421.64,
+      "end": 425.1,
+      "text": "就报了那个建筑系和会计系",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 152,
+      "s": 74,
+      "start": 425.1,
+      "end": 426.98,
+      "text": "后来呢这个学校",
+      "speaker": "B",
+      "u": 73,
+      "role": "storyteller"
+    },
+    {
+      "i": 153,
+      "s": 74,
+      "start": 426.98,
+      "end": 430.44,
+      "text": "我是两个专业都勉强考上了",
+      "speaker": "B",
+      "u": 73,
+      "role": "storyteller"
+    },
+    {
+      "i": 154,
+      "s": 74,
+      "start": 430.44,
+      "end": 432.56,
+      "text": "好那你的分数也很不错了",
+      "speaker": "B",
+      "u": 73,
+      "role": "storyteller"
+    },
+    {
+      "i": 155,
+      "s": 74,
+      "start": 432.56,
+      "end": 435.56,
+      "text": "因为清华的建筑系分数是挺高的",
+      "speaker": "B",
+      "u": 73,
+      "role": "storyteller"
+    },
+    {
+      "i": 156,
+      "s": 75,
+      "start": 435.56,
+      "end": 438.5,
+      "text": "对因为我也是我们俩是大学同学嘛",
+      "speaker": "B",
+      "u": 73,
+      "role": "storyteller"
+    },
+    {
+      "i": 157,
+      "s": 75,
+      "start": 438.5,
+      "end": 442.71,
+      "text": "对对对就先给大家剧透一下吧，",
+      "speaker": "B",
+      "u": 73,
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "s": 76,
+      "start": 442.71,
+      "end": 444.23,
+      "text": "我们因为是大学同学，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 159,
+      "s": 76,
+      "start": 444.23,
+      "end": 446.13,
+      "text": "所以我们学的是一个专业。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 160,
+      "s": 77,
+      "start": 446.13,
+      "end": 447.77,
+      "text": "我们都是清华",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 161,
+      "s": 77,
+      "start": 447.77,
+      "end": 451.49,
+      "text": "经济管理学院的会计系，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 162,
+      "s": 77,
+      "start": 451.49,
+      "end": 453.27,
+      "text": "会计就是记账，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 163,
+      "s": 78,
+      "start": 453.27,
+      "end": 455.09,
+      "text": "在在公司里面这个",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 164,
+      "s": 78,
+      "start": 455.09,
+      "end": 458.81,
+      "text": "有一些这个记利润呐这些的，嗯，对。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 165,
+      "s": 79,
+      "start": 458.81,
+      "end": 461.15,
+      "text": "所以你当时报了会计和建筑",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 166,
+      "s": 79,
+      "start": 461.15,
+      "end": 462.67,
+      "text": "都都报上了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 167,
+      "s": 80,
+      "start": 462.67,
+      "end": 463.47,
+      "text": "对，报上了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 168,
+      "s": 81,
+      "start": 463.47,
+      "end": 466.75,
+      "text": "然后当时那个清华的招生办的老师",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 169,
+      "s": 81,
+      "start": 466.75,
+      "end": 470.03,
+      "text": "就问我说：“哎，小苏，你想上哪个专业呀？”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "s": 82,
+      "start": 470.03,
+      "end": 471.09,
+      "text": "然后我就说：“都行吧，我也。”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 171,
+      "s": 83,
+      "start": 473.93,
+      "end": 474.11,
+      "text": "不知道，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 172,
+      "s": 84,
+      "start": 474.19,
+      "end": 477.99,
+      "text": "然后那个，嗯，当时说实话好像是因为",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 173,
+      "s": 84,
+      "start": 477.99,
+      "end": 480.9,
+      "text": "我数学那一门分考的比较低，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 174,
+      "s": 85,
+      "start": 481.09,
+      "end": 482.67,
+      "text": "然后清华的老师觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 175,
+      "s": 85,
+      "start": 482.67,
+      "end": 486.17,
+      "text": "这孩子上建筑系应该够呛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 176,
+      "s": 85,
+      "start": 486.17,
+      "end": 489.13,
+      "text": "比较勉强，让他去学会计吧。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 177,
+      "s": 86,
+      "start": 489.29,
+      "end": 490.61,
+      "text": "然后我就去学了会计。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 178,
+      "s": 87,
+      "start": 490.61,
+      "end": 493.15,
+      "text": "建筑系所以需要数学吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 179,
+      "s": 88,
+      "start": 493.15,
+      "end": 495.07,
+      "text": "建筑系需要学物理。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 180,
+      "s": 89,
+      "start": 495.11,
+      "end": 497.99,
+      "text": "他其实我到现在也不太清楚，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 181,
+      "s": 89,
+      "start": 497.99,
+      "end": 500.29,
+      "text": "但是当时老师给我的反馈是，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 182,
+      "s": 90,
+      "start": 500.29,
+      "end": 501.31,
+      "text": "他说他觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 183,
+      "s": 90,
+      "start": 501.31,
+      "end": 502.99,
+      "text": "我的数学成绩没有那么理想，然后他。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 184,
+      "s": 91,
+      "start": 504.91,
+      "end": 508.19,
+      "text": "建筑系它其实画图要求非常高，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 185,
+      "s": 91,
+      "start": 508.25,
+      "end": 510.23,
+      "text": "就是要天天画图，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 186,
+      "s": 91,
+      "start": 510.23,
+      "end": 512.05,
+      "text": "所以我们当时也考了素描。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 187,
+      "s": 92,
+      "start": 512.05,
+      "end": 513.89,
+      "text": "虽然我的成绩过关了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 188,
+      "s": 92,
+      "start": 513.89,
+      "end": 517.13,
+      "text": "但其实我视力一直很差，你知道，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 189,
+      "s": 92,
+      "start": 517.13,
+      "end": 519.65,
+      "text": "我有一千多度的近视，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 190,
+      "s": 93,
+      "start": 519.65,
+      "end": 521.23,
+      "text": "所以考虑到这一点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 191,
+      "s": 93,
+      "start": 521.23,
+      "end": 523.85,
+      "text": "我觉得老师和我爸爸应该都觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 192,
+      "s": 93,
+      "start": 523.85,
+      "end": 528.17,
+      "text": "我不适合做用眼强度这么大的工作，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 193,
+      "s": 94,
+      "start": 528.23,
+      "end": 529.81,
+      "text": "所以我就做了会计。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 194,
+      "s": 95,
+      "start": 529.81,
+      "end": 531.05,
+      "text": "但是我说实话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 195,
+      "s": 96,
+      "start": 531.05,
+      "end": 533.5,
+      "text": "我觉得做会计用眼也挺多的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 196,
+      "s": 97,
+      "start": 533.67,
+      "end": 534.89,
+      "text": "对我刚想说，做会计不天天？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 197,
+      "s": 98,
+      "start": 536.81,
+      "end": 538.95,
+      "text": "对着电脑屏幕，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 198,
+      "s": 99,
+      "start": 538.95,
+      "end": 540.27,
+      "text": "那个更伤眼睛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 199,
+      "s": 100,
+      "start": 540.27,
+      "end": 542.67,
+      "text": "对我觉得唯一的区别是一个看图，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 200,
+      "s": 101,
+      "start": 542.67,
+      "end": 543.75,
+      "text": "一个看数字。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 201,
+      "s": 102,
+      "start": 545.07,
+      "end": 547.09,
+      "text": "对对啊，是是是。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 202,
+      "s": 103,
+      "start": 547.09,
+      "end": 548.15,
+      "text": "我觉得其实",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 203,
+      "s": 103,
+      "start": 548.15,
+      "end": 551.11,
+      "text": "我们选会计的理由都差不多，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 204,
+      "s": 103,
+      "start": 551.11,
+      "end": 554.89,
+      "text": "就可能也是我我爸妈选的专业，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 205,
+      "s": 104,
+      "start": 554.89,
+      "end": 559.73,
+      "text": "因为感觉会计就是一个非常嗯朴素、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 206,
+      "s": 104,
+      "start": 559.73,
+      "end": 562.37,
+      "text": "非常接地气、好找工作的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 207,
+      "s": 105,
+      "start": 562.46,
+      "end": 564.82,
+      "text": "这么一个专业，对不对？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 208,
+      "s": 106,
+      "start": 564.82,
+      "end": 565.36,
+      "text": "对，没错。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 209,
+      "s": 107,
+      "start": 565.36,
+      "end": 568.2,
+      "text": "我觉得会计就像万金油，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 210,
+      "s": 108,
+      "start": 568.3,
+      "end": 570.78,
+      "text": "虽然我不知道万金油是什么意思，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 211,
+      "s": 108,
+      "start": 570.88,
+      "end": 573.95,
+      "text": "但应该就是指它非常的灵活，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 212,
+      "s": 108,
+      "start": 574.12,
+      "end": 575.71,
+      "text": "适用于各种各样的场合。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 213,
+      "s": 109,
+      "start": 577.86,
+      "end": 580.44,
+      "text": "万金油肯定本来是一种油吧，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 214,
+      "s": 109,
+      "start": 580.44,
+      "end": 582.84,
+      "text": "然后那个油可能什么地方都能用，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 215,
+      "s": 110,
+      "start": 582.84,
+      "end": 584.72,
+      "text": "所以现在我们就说",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 216,
+      "s": 110,
+      "start": 584.72,
+      "end": 586.86,
+      "text": "什么什么东西是万金油。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 217,
+      "s": 111,
+      "start": 587.52,
+      "end": 589.48,
+      "text": "嗯，而且我们家是因为。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 218,
+      "s": 112,
+      "start": 589.79,
+      "end": 592.99,
+      "text": "就正好我外公也是会计，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 219,
+      "s": 112,
+      "start": 592.99,
+      "end": 595.47,
+      "text": "所以可能我我妈妈就觉得",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 220,
+      "s": 112,
+      "start": 595.47,
+      "end": 600.31,
+      "text": "这个一代衣钵相承，一代一代传下来，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 221,
+      "s": 113,
+      "start": 600.31,
+      "end": 601.88,
+      "text": "我也可以学会计。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 222,
+      "s": 114,
+      "start": 603.33,
+      "end": 607.93,
+      "text": "但是你觉得现在的小朋友，哎，就说呃，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 223,
+      "s": 114,
+      "start": 607.93,
+      "end": 610.17,
+      "text": "在我问这个问题之前，小苏苏，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 224,
+      "s": 115,
+      "start": 610.17,
+      "end": 612.29,
+      "text": "你小时候有没有什么梦想？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 225,
+      "s": 116,
+      "start": 612.29,
+      "end": 614.67,
+      "text": "你小时候就是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 226,
+      "s": 116,
+      "start": 614.67,
+      "end": 617.19,
+      "text": "比如说初中啊或者小学的时候。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 227,
+      "s": 117,
+      "start": 617.45,
+      "end": 619.85,
+      "text": "最想当什么职业，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 228,
+      "s": 118,
+      "start": 619.85,
+      "end": 621.88,
+      "text": "学什么东西？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 229,
+      "s": 119,
+      "start": 622.19,
+      "end": 624.53,
+      "text": "嗯，这个问题也问的挺有意思的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 230,
+      "s": 120,
+      "start": 624.53,
+      "end": 625.63,
+      "text": "就是我感觉",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 231,
+      "s": 120,
+      "start": 625.63,
+      "end": 629.25,
+      "text": "我其实是在我上大学之前，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 232,
+      "s": 120,
+      "start": 629.25,
+      "end": 631.62,
+      "text": "我是一个非常缺乏社会化的人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 233,
+      "s": 121,
+      "start": 631.91,
+      "end": 633.65,
+      "text": "就是我总是会有一些",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 234,
+      "s": 121,
+      "start": 633.65,
+      "end": 635.65,
+      "text": "非常不切实际的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 235,
+      "s": 122,
+      "start": 636.53,
+      "end": 638.61,
+      "text": "嗯，充满幻想的一些想法。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 236,
+      "s": 123,
+      "start": 638.85,
+      "end": 640.89,
+      "text": "所以我在小小时候",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 237,
+      "s": 123,
+      "start": 640.89,
+      "end": 643.11,
+      "text": "上小学啊或者中学的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 238,
+      "s": 123,
+      "start": 643.11,
+      "end": 645.09,
+      "text": "我特别的沉迷于这个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 239,
+      "s": 123,
+      "start": 645.09,
+      "end": 647.43,
+      "text": "武侠电视剧和古装剧。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 240,
+      "s": 124,
+      "start": 647.66,
+      "end": 648.28,
+      "text": "嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 241,
+      "s": 125,
+      "start": 648.28,
+      "end": 652.18,
+      "text": "所以我当时，你不会想成为武侠吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 242,
+      "s": 126,
+      "start": 652.42,
+      "end": 655.5,
+      "text": "武功就就是这样。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 243,
+      "s": 127,
+      "start": 655.54,
+      "end": 656.76,
+      "text": "我从小到大",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 244,
+      "s": 127,
+      "start": 656.76,
+      "end": 659.39,
+      "text": "我就觉得我自己一身侠气，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 245,
+      "s": 127,
+      "start": 659.66,
+      "end": 663.86,
+      "text": "然后我特别喜欢看那个小李飞刀，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 246,
+      "s": 128,
+      "start": 663.86,
+      "end": 665.18,
+      "text": "我不知道你有没有看过，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 247,
+      "s": 128,
+      "start": 665.18,
+      "end": 666.56,
+      "text": "就是那种金庸古龙",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 248,
+      "s": 128,
+      "start": 666.56,
+      "end": 668.92,
+      "text": "射雕英雄传这种古装剧，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 249,
+      "s": 129,
+      "start": 669.08,
+      "end": 672.42,
+      "text": "我就总想象我自己是一个飞刀大侠，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 250,
+      "s": 129,
+      "start": 672.42,
+      "end": 674.74,
+      "text": "所以我就经常会觉得啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 251,
+      "s": 130,
+      "start": 674.74,
+      "end": 676.5,
+      "text": "这个以后干什么",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 252,
+      "s": 130,
+      "start": 676.5,
+      "end": 677.64,
+      "text": "不重要，只要能够行侠仗义就可。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 253,
+      "s": 131,
+      "start": 681.32,
+      "end": 682.02,
+      "text": "可以，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 254,
+      "s": 132,
+      "start": 682.02,
+      "end": 684.7,
+      "text": "行侠仗义啊！",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 255,
+      "s": 133,
+      "start": 684.7,
+      "end": 687.1,
+      "text": "就是哦，其实我觉得中国文化里",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 256,
+      "s": 133,
+      "start": 687.1,
+      "end": 690.36,
+      "text": "这个侠的概念还挺有意思的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 257,
+      "s": 134,
+      "start": 690.36,
+      "end": 691.6,
+      "text": "它有一种，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 258,
+      "s": 134,
+      "start": 691.6,
+      "end": 695.96,
+      "text": "就我们中文把那些蜘蛛侠呀，对不对？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 259,
+      "s": 135,
+      "start": 695.96,
+      "end": 699.9,
+      "text": "闪电侠，嗯，这些超级英雄都翻译成侠。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 260,
+      "s": 136,
+      "start": 699.9,
+      "end": 702.46,
+      "text": "其实超级英雄在中国的文化里",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 261,
+      "s": 136,
+      "start": 702.46,
+      "end": 704.26,
+      "text": "对应的就是侠这个字，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 262,
+      "s": 136,
+      "start": 704.26,
+      "end": 707.68,
+      "text": "所以侠客侠客嘛，就说的是这种。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 263,
+      "s": 137,
+      "start": 708.51,
+      "end": 709.68,
+      "text": "嗯，怎么说呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 264,
+      "s": 138,
+      "start": 709.68,
+      "end": 712.52,
+      "text": "在社会上，呃惩戒",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 265,
+      "s": 138,
+      "start": 712.52,
+      "end": 715.26,
+      "text": "就是惩罚那些犯罪的人。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 266,
+      "s": 139,
+      "start": 715.26,
+      "end": 715.5,
+      "text": "对。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 267,
+      "s": 140,
+      "start": 715.5,
+      "end": 721.06,
+      "text": "然后自己会保持非常高的品德正义。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 268,
+      "s": 141,
+      "start": 721.06,
+      "end": 721.74,
+      "text": "没错没错。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 269,
+      "s": 142,
+      "start": 721.74,
+      "end": 724.78,
+      "text": "但是但是你这个你这个其实也有，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 270,
+      "s": 142,
+      "start": 724.78,
+      "end": 728.96,
+      "text": "也可以有现实当中的，呃怎么说呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 271,
+      "s": 143,
+      "start": 728.96,
+      "end": 730.48,
+      "text": "比如说你可以当警察。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 272,
+      "s": 144,
+      "start": 730.48,
+      "end": 730.88,
+      "text": "对，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 273,
+      "s": 145,
+      "start": 730.88,
+      "end": 731.54,
+      "text": "没错。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 274,
+      "s": 146,
+      "start": 731.54,
+      "end": 733.38,
+      "text": "我所以我那个时候就感觉",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 275,
+      "s": 146,
+      "start": 733.38,
+      "end": 734.54,
+      "text": "怀疑自己是不是甚至",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 276,
+      "s": 146,
+      "start": 734.54,
+      "end": 736.26,
+      "text": "有一点什么暴力倾向，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 277,
+      "s": 147,
+      "start": 736.26,
+      "end": 737.74,
+      "text": "因为我就特别喜欢运动，你知道吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 278,
+      "s": 148,
+      "start": 739.67,
+      "end": 741.64,
+      "text": "然后我的小从小到大",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 279,
+      "s": 148,
+      "start": 741.64,
+      "end": 742.98,
+      "text": "我的运动也特别好，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 280,
+      "s": 148,
+      "start": 742.98,
+      "end": 743.96,
+      "text": "我觉得我上大学的时候",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 281,
+      "s": 148,
+      "start": 743.96,
+      "end": 745.18,
+      "text": "你应该也意识到了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 282,
+      "s": 149,
+      "start": 745.4,
+      "end": 747.18,
+      "text": "所以我当时就有点那种",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 283,
+      "s": 149,
+      "start": 747.18,
+      "end": 750.27,
+      "text": "四肢发达头脑简单的那种感觉。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 284,
+      "s": 150,
+      "start": 750.44,
+      "end": 751.82,
+      "text": "然后我老动不动就是",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 285,
+      "s": 150,
+      "start": 751.82,
+      "end": 754.9,
+      "text": "想象自己要做一个伸张正义的人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 286,
+      "s": 151,
+      "start": 754.9,
+      "end": 756.2,
+      "text": "伸张正义吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 287,
+      "s": 152,
+      "start": 756.2,
+      "end": 758.62,
+      "text": "我我有时候是对我就想哎",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 288,
+      "s": 152,
+      "start": 758.62,
+      "end": 760.3,
+      "text": "我要做一个律师，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 289,
+      "s": 152,
+      "start": 760.3,
+      "end": 761.92,
+      "text": "或者是我要做一个医生，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 290,
+      "s": 153,
+      "start": 762.14,
+      "end": 765.24,
+      "text": "或者是我要做一些能够给这个社会",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 291,
+      "s": 153,
+      "start": 765.24,
+      "end": 766.36,
+      "text": "或者你可以做。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 292,
+      "s": 154,
+      "start": 766.57,
+      "end": 768.29,
+      "text": "蜘蛛侠，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 293,
+      "s": 155,
+      "start": 770.39,
+      "end": 772.67,
+      "text": "anyway的对我就是想做一些",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 294,
+      "s": 155,
+      "start": 772.67,
+      "end": 776.13,
+      "text": "能够给社会创造价值的人。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 295,
+      "s": 156,
+      "start": 779.11,
+      "end": 781.41,
+      "text": "但是因为缺乏社会化，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 296,
+      "s": 156,
+      "start": 781.41,
+      "end": 782.87,
+      "text": "脑中又没有形成什么",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 297,
+      "s": 156,
+      "start": 782.87,
+      "end": 785.16,
+      "text": "特别具体的一些想法。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 298,
+      "s": 157,
+      "start": 786.53,
+      "end": 786.71,
+      "text": "嗯，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 299,
+      "s": 158,
+      "start": 786.71,
+      "end": 791.51,
+      "text": "我小时候就我一直都很想当记者哦，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 300,
+      "s": 158,
+      "start": 791.57,
+      "end": 793.97,
+      "text": "但我觉得也是也有那种跟你一样，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 301,
+      "s": 158,
+      "start": 793.97,
+      "end": 795.63,
+      "text": "就是想创造价值啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 302,
+      "s": 159,
+      "start": 795.63,
+      "end": 796.55,
+      "text": "然后有一些梦想和追求。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 303,
+      "s": 160,
+      "start": 797.59,
+      "end": 800.37,
+      "text": "我小时候因为很喜欢写文章",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 304,
+      "s": 160,
+      "start": 800.37,
+      "end": 801.93,
+      "text": "我是一个特别文艺的人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 305,
+      "s": 160,
+      "start": 801.93,
+      "end": 804.05,
+      "text": "小时候写作文写文章",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 306,
+      "s": 160,
+      "start": 804.05,
+      "end": 807.27,
+      "text": "还经常会被报纸登出来",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 307,
+      "s": 160,
+      "start": 807.27,
+      "end": 808.03,
+      "text": "天哪",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 308,
+      "s": 161,
+      "start": 808.03,
+      "end": 809.43,
+      "text": "拿到些稿费什么的",
+      "speaker": "A",
+      "u": 160,
+      "role": "narrator"
+    },
+    {
+      "i": 309,
+      "s": 161,
+      "start": 809.43,
+      "end": 810.19,
+      "text": "太厉害了",
+      "speaker": "A",
+      "u": 160,
+      "role": "narrator"
+    },
+    {
+      "i": 310,
+      "s": 161,
+      "start": 810.19,
+      "end": 812.07,
+      "text": "稿费就是写文章",
+      "speaker": "A",
+      "u": 160,
+      "role": "narrator"
+    },
+    {
+      "i": 311,
+      "s": 161,
+      "start": 812.07,
+      "end": 815.13,
+      "text": "然后杂志会给你这个钱嘛对",
+      "speaker": "A",
+      "u": 160,
+      "role": "narrator"
+    },
+    {
+      "i": 312,
+      "s": 161,
+      "start": 815.13,
+      "end": 817.35,
+      "text": "然后我就特别想当记者",
+      "speaker": "A",
+      "u": 160,
+      "role": "narrator"
+    },
+    {
+      "i": 313,
+      "s": 162,
+      "start": 817.35,
+      "end": 821.61,
+      "text": "我就想学新闻系新闻记者",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 314,
+      "s": 162,
+      "start": 821.61,
+      "end": 825.8,
+      "text": "然后呢中国其实新闻系最好的学校",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 315,
+      "s": 162,
+      "start": 825.8,
+      "end": 829.08,
+      "text": "应该是复旦，复旦大学在上海，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 316,
+      "s": 163,
+      "start": 829.19,
+      "end": 830.76,
+      "text": "所以我当时就特别想去",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 317,
+      "s": 163,
+      "start": 830.76,
+      "end": 832.53,
+      "text": "复旦大学新闻系。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 318,
+      "s": 164,
+      "start": 832.78,
+      "end": 837.64,
+      "text": "但是我当时竟然没有被复旦大学要，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 319,
+      "s": 164,
+      "start": 837.64,
+      "end": 839.66,
+      "text": "就没有被复旦大学录取。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 320,
+      "s": 165,
+      "start": 839.82,
+      "end": 842.78,
+      "text": "我当时非常气愤啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 321,
+      "s": 165,
+      "start": 842.78,
+      "end": 845.46,
+      "text": "然后我就立志要那个",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 322,
+      "s": 165,
+      "start": 845.46,
+      "end": 847.38,
+      "text": "去就不去复旦嘛。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 323,
+      "s": 166,
+      "start": 847.38,
+      "end": 849.04,
+      "text": "后来我就去了清华，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 324,
+      "s": 166,
+      "start": 849.04,
+      "end": 850.64,
+      "text": "但两个都是很好的学校。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 325,
+      "s": 167,
+      "start": 850.75,
+      "end": 852.32,
+      "text": "所以后来我就",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 326,
+      "s": 167,
+      "start": 852.32,
+      "end": 854.84,
+      "text": "因为复旦大学没有要我，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 327,
+      "s": 167,
+      "start": 854.93,
+      "end": 857,
+      "text": "我就没有读成新闻系，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 328,
+      "s": 167,
+      "start": 857,
+      "end": 858.62,
+      "text": "所以我就没有当成记者。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 329,
+      "s": 168,
+      "start": 859.08,
+      "end": 860.6,
+      "text": "你看，天哪！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 330,
+      "s": 169,
+      "start": 860.6,
+      "end": 861.3,
+      "text": "我都不知道",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 331,
+      "s": 169,
+      "start": 861.3,
+      "end": 864.44,
+      "text": "你竟然有这样有趣的故事。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 332,
+      "s": 170,
+      "start": 864.64,
+      "end": 867.7,
+      "text": "我是确实记得你以前写作特别好，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 333,
+      "s": 170,
+      "start": 867.7,
+      "end": 869.42,
+      "text": "因为我们以前上大学的时候",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 334,
+      "s": 170,
+      "start": 869.42,
+      "end": 871.38,
+      "text": "一起会上那个写作课。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 335,
+      "s": 171,
+      "start": 871.38,
+      "end": 872.78,
+      "text": "那个时候我就觉得哇塞，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 336,
+      "s": 171,
+      "start": 872.78,
+      "end": 875.68,
+      "text": "这老师一天到晚在那云里雾里在讲，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 337,
+      "s": 171,
+      "start": 875.78,
+      "end": 877.56,
+      "text": "然后他每次安排那个作业任务，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 338,
+      "s": 172,
+      "start": 877.56,
+      "end": 878.72,
+      "text": "我都特别努力的写，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 339,
+      "s": 173,
+      "start": 878.72,
+      "end": 880.64,
+      "text": "但是每次都是不及格。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 340,
+      "s": 174,
+      "start": 880.64,
+      "end": 880.64,
+      "text": "然后但是我记得老师总是在。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 341,
+      "s": 175,
+      "start": 882.56,
+      "end": 885,
+      "text": "课上表扬某些同学，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 342,
+      "s": 175,
+      "start": 885,
+      "end": 887.65,
+      "text": "小陆陆就是那个经常拿最高分的人。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 343,
+      "s": 176,
+      "start": 887.84,
+      "end": 889.08,
+      "text": "我就想，哦天哪，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 344,
+      "s": 176,
+      "start": 889.08,
+      "end": 891.43,
+      "text": "这就是我和他的距离吧。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 345,
+      "s": 177,
+      "start": 892.88,
+      "end": 895.64,
+      "text": "我是我真的很喜欢写作，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 346,
+      "s": 177,
+      "start": 895.64,
+      "end": 896.5,
+      "text": "然后我还特别喜欢",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 347,
+      "s": 177,
+      "start": 896.5,
+      "end": 900.04,
+      "text": "我们大学有一门课叫批判性思维啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 348,
+      "s": 178,
+      "start": 900.04,
+      "end": 900.64,
+      "text": "你记得吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 349,
+      "s": 179,
+      "start": 900.64,
+      "end": 901.42,
+      "text": "我记得，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 350,
+      "s": 180,
+      "start": 901.42,
+      "end": 901.82,
+      "text": "我记得。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 351,
+      "s": 181,
+      "start": 901.82,
+      "end": 904.54,
+      "text": "我特别喜欢那门课，就是那门课",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 352,
+      "s": 181,
+      "start": 904.54,
+      "end": 907.6,
+      "text": "其实就是有一些辩论的感觉，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 353,
+      "s": 181,
+      "start": 907.6,
+      "end": 909.18,
+      "text": "他会给你一个案件。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 354,
+      "s": 182,
+      "start": 909.3,
+      "end": 911.74,
+      "text": "一个案例，然后呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 355,
+      "s": 183,
+      "start": 911.74,
+      "end": 912.54,
+      "text": "这个案例就是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 356,
+      "s": 183,
+      "start": 912.54,
+      "end": 915.22,
+      "text": "他的道德其实是怎么说呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 357,
+      "s": 184,
+      "start": 915.22,
+      "end": 917.74,
+      "text": "模棱两可，两边都可以选择。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 358,
+      "s": 185,
+      "start": 917.74,
+      "end": 920.5,
+      "text": "然后这个课上你就会辩论说",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 359,
+      "s": 185,
+      "start": 920.5,
+      "end": 922.92,
+      "text": "到底哪你会支持哪一方。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 360,
+      "s": 186,
+      "start": 922.92,
+      "end": 926.32,
+      "text": "我就觉得这跟记者也有一点关系吧，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 361,
+      "s": 186,
+      "start": 926.32,
+      "end": 928.34,
+      "text": "或者跟律师也有一点关系，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 362,
+      "s": 186,
+      "start": 928.34,
+      "end": 932.95,
+      "text": "就是要分辨黑白是非这样子。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 363,
+      "s": 187,
+      "start": 933.02,
+      "end": 934.06,
+      "text": "我还挺好奇的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 364,
+      "s": 187,
+      "start": 934.06,
+      "end": 936.78,
+      "text": "你那你当时为什么复旦他没有招你？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 365,
+      "s": 188,
+      "start": 936.78,
+      "end": 937.64,
+      "text": "是怎么回事？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 366,
+      "s": 189,
+      "start": 937.64,
+      "end": 937.8,
+      "text": "你？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 367,
+      "s": 190,
+      "start": 937.82,
+      "end": 940.11,
+      "text": "你现在想明白了吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 368,
+      "s": 191,
+      "start": 942.31,
+      "end": 944.38,
+      "text": "我我好像因为我当时是这个",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 369,
+      "s": 191,
+      "start": 944.38,
+      "end": 945.84,
+      "text": "说来还有一些复杂，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 370,
+      "s": 191,
+      "start": 945.84,
+      "end": 949.4,
+      "text": "也可以调调聊一聊中国的高考制度。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 371,
+      "s": 192,
+      "start": 949.4,
+      "end": 952.36,
+      "text": "因为我没有参加高考，嗯，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 372,
+      "s": 192,
+      "start": 952.36,
+      "end": 954.86,
+      "text": "我我是当时是通过",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 373,
+      "s": 192,
+      "start": 954.86,
+      "end": 958.24,
+      "text": "有一个东西叫做自主招生，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 374,
+      "s": 193,
+      "start": 958.24,
+      "end": 959.9,
+      "text": "我都不知道现在还有没有啊。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 375,
+      "s": 194,
+      "start": 959.9,
+      "end": 963.88,
+      "text": "反正就是当时那个呃我们那个年代，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 376,
+      "s": 194,
+      "start": 963.88,
+      "end": 966.64,
+      "text": "如果你有一些特殊的技能特长。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 377,
+      "s": 195,
+      "start": 966.8,
+      "end": 969.72,
+      "text": "比如说我是数学很好嘛",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 378,
+      "s": 195,
+      "start": 969.72,
+      "end": 973.1,
+      "text": "我是奥林匹克数学竞赛得奖",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 379,
+      "s": 195,
+      "start": 973.1,
+      "end": 975.44,
+      "text": "所以我当时不需要高考",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 380,
+      "s": 195,
+      "start": 975.44,
+      "end": 979.12,
+      "text": "我只需要去我想去的大学面试",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 381,
+      "s": 196,
+      "start": 979.12,
+      "end": 980.6,
+      "text": "自主招生就行",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 382,
+      "s": 196,
+      "start": 980.6,
+      "end": 982.14,
+      "text": "但我不知道为什么",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 383,
+      "s": 196,
+      "start": 982.14,
+      "end": 984.12,
+      "text": "我面试复旦大学的时候",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 384,
+      "s": 196,
+      "start": 984.12,
+      "end": 987.4,
+      "text": "可能没有留下好的印象",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 385,
+      "s": 196,
+      "start": 987.4,
+      "end": 989.9,
+      "text": "所以他们面试没有要我",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 386,
+      "s": 197,
+      "start": 989.9,
+      "end": 992,
+      "text": "后来清华就要了我",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 387,
+      "s": 197,
+      "start": 992,
+      "end": 994.06,
+      "text": "哦所以你没有机会",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 388,
+      "s": 197,
+      "start": 994.06,
+      "end": 998.43,
+      "text": "给他们展现出你那些惊人的文采",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 389,
+      "s": 197,
+      "start": 998.43,
+      "end": 1001.43,
+      "text": "是不是他也没机会让你写篇小作文",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 390,
+      "s": 198,
+      "start": 1001.43,
+      "end": 1003.67,
+      "text": "没有啊对啊",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 391,
+      "s": 198,
+      "start": 1003.67,
+      "end": 1005.51,
+      "text": "所以就后来就没去成复旦",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 392,
+      "s": 198,
+      "start": 1005.51,
+      "end": 1008.99,
+      "text": "太遗憾了那绝对是复旦的损失",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 393,
+      "s": 198,
+      "start": 1008.99,
+      "end": 1013.47,
+      "text": "所以咱们就走上了完全不同的道路",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 394,
+      "s": 199,
+      "start": 1013.47,
+      "end": 1015.65,
+      "text": "然后就学了会计",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 395,
+      "s": 199,
+      "start": 1015.65,
+      "end": 1019.21,
+      "text": "然后那你觉得你那你学了会计以后",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 396,
+      "s": 199,
+      "start": 1019.21,
+      "end": 1022.77,
+      "text": "觉得现在对你的后来的人生道路",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 397,
+      "s": 200,
+      "start": 1022.77,
+      "end": 1024.07,
+      "text": "有什么影响吗",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 398,
+      "s": 200,
+      "start": 1024.13,
+      "end": 1026.87,
+      "text": "我觉得影响肯定是有的，",
+      "speaker": "A",
+      "u": 195,
+      "role": "narrator"
+    },
+    {
+      "i": 399,
+      "s": 201,
+      "start": 1026.87,
+      "end": 1029.57,
+      "text": "嗯，但它可能不是那种和会计",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 400,
+      "s": 201,
+      "start": 1029.57,
+      "end": 1032.43,
+      "text": "这门学科紧密相连的一种影响。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 401,
+      "s": 202,
+      "start": 1032.43,
+      "end": 1035.49,
+      "text": "比如说我毕业，我我学完了会计之后，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 402,
+      "s": 202,
+      "start": 1035.49,
+      "end": 1037.03,
+      "text": "那我就去念研究生，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 403,
+      "s": 202,
+      "start": 1037.03,
+      "end": 1038.49,
+      "text": "研究生我念了金融，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 404,
+      "s": 203,
+      "start": 1038.49,
+      "end": 1040.27,
+      "text": "因为我觉得它跟会计有关。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 405,
+      "s": 204,
+      "start": 1040.47,
+      "end": 1042.41,
+      "text": "那我在学研究生的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 406,
+      "s": 204,
+      "start": 1042.41,
+      "end": 1043.39,
+      "text": "我也选修了很多",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 407,
+      "s": 204,
+      "start": 1043.39,
+      "end": 1045.61,
+      "text": "跟会计有关的这些课程。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 408,
+      "s": 205,
+      "start": 1045.61,
+      "end": 1047.15,
+      "text": "我就觉得，因为我现在",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 409,
+      "s": 205,
+      "start": 1047.15,
+      "end": 1049.53,
+      "text": "已经是半个会计领域的人了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 410,
+      "s": 205,
+      "start": 1049.53,
+      "end": 1052.16,
+      "text": "我就对对这个。跟会计有关的一切",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 411,
+      "s": 206,
+      "start": 1052.16,
+      "end": 1054.52,
+      "text": "都觉得特别的熟悉，特别的轻松。",
+      "speaker": "B",
+      "u": 205,
+      "role": "storyteller"
+    },
+    {
+      "i": 412,
+      "s": 207,
+      "start": 1054.86,
+      "end": 1055.92,
+      "text": "所以包括我在后来",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 413,
+      "s": 207,
+      "start": 1055.92,
+      "end": 1057.24,
+      "text": "我选择工作的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 414,
+      "s": 207,
+      "start": 1057.24,
+      "end": 1059.2,
+      "text": "我第一个工作我去的银行，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 415,
+      "s": 207,
+      "start": 1059.2,
+      "end": 1062.3,
+      "text": "银行也是去做那个财务报表嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 416,
+      "s": 208,
+      "start": 1062.3,
+      "end": 1064.06,
+      "text": "那我觉得这个工作对我来说",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 417,
+      "s": 208,
+      "start": 1064.06,
+      "end": 1065.84,
+      "text": "轻松、容易上手、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 418,
+      "s": 209,
+      "start": 1065.84,
+      "end": 1067.5,
+      "text": "游刃有余，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 419,
+      "s": 210,
+      "start": 1067.86,
+      "end": 1067.92,
+      "text": "嗯，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 420,
+      "s": 211,
+      "start": 1067.92,
+      "end": 1070.64,
+      "text": "再到后来我又去了企业的财务部门，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 421,
+      "s": 211,
+      "start": 1070.64,
+      "end": 1072.46,
+      "text": "其实我一直也是做财务。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 422,
+      "s": 212,
+      "start": 1072.46,
+      "end": 1075.14,
+      "text": "包括我现在我是在银行工作，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 423,
+      "s": 212,
+      "start": 1075.14,
+      "end": 1077.82,
+      "text": "银行专门是做这个投资方面的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 424,
+      "s": 213,
+      "start": 1077.82,
+      "end": 1079.04,
+      "text": "那投资方面的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 425,
+      "s": 213,
+      "start": 1079.04,
+      "end": 1082.63,
+      "text": "它可能。跟会计不是那么的相近，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 426,
+      "s": 214,
+      "start": 1082.63,
+      "end": 1084.65,
+      "text": "但其实我们在讲学会计的时候",
+      "speaker": "B",
+      "u": 213,
+      "role": "storyteller"
+    },
+    {
+      "i": 427,
+      "s": 214,
+      "start": 1084.65,
+      "end": 1086.65,
+      "text": "也会讲这些投资啊，",
+      "speaker": "B",
+      "u": 213,
+      "role": "storyteller"
+    },
+    {
+      "i": 428,
+      "s": 215,
+      "start": 1086.65,
+      "end": 1088.98,
+      "text": "你怎么去分析这些公司的表现。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 429,
+      "s": 216,
+      "start": 1089.21,
+      "end": 1090.69,
+      "text": "所以我觉得，嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 430,
+      "s": 216,
+      "start": 1090.69,
+      "end": 1093.91,
+      "text": "在我后来的这些职业发展路径上，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 431,
+      "s": 216,
+      "start": 1093.91,
+      "end": 1095.11,
+      "text": "我做的一些都是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 432,
+      "s": 216,
+      "start": 1095.11,
+      "end": 1097.31,
+      "text": "多多少少和会计有关的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 433,
+      "s": 217,
+      "start": 1097.31,
+      "end": 1099.05,
+      "text": "但当然，我之间",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 434,
+      "s": 217,
+      "start": 1099.05,
+      "end": 1101.89,
+      "text": "我也做过这个同传的工作，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 435,
+      "s": 217,
+      "start": 1101.89,
+      "end": 1104.15,
+      "text": "我也做过蛋糕店的这些工作。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 436,
+      "s": 218,
+      "start": 1104.15,
+      "end": 1107.51,
+      "text": "同传是同声传译，对对对，同声传译。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 437,
+      "s": 219,
+      "start": 1107.81,
+      "end": 1110.77,
+      "text": "呃，因为我葡萄牙语讲的比较好嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 438,
+      "s": 219,
+      "start": 1110.77,
+      "end": 1112.67,
+      "text": "所以我就做中文和葡萄牙语的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 439,
+      "s": 219,
+      "start": 1112.67,
+      "end": 1113.71,
+      "text": "一个翻译工作。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 440,
+      "s": 220,
+      "start": 1113.71,
+      "end": 1116.87,
+      "text": "然后我做这个蛋糕店的工作，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 441,
+      "s": 220,
+      "start": 1116.87,
+      "end": 1118.37,
+      "text": "这些工作其实看起来",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 442,
+      "s": 220,
+      "start": 1118.37,
+      "end": 1121.67,
+      "text": "它好像跟会计都没有直接的联系。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 443,
+      "s": 221,
+      "start": 1121.67,
+      "end": 1123.09,
+      "text": "但是，嗯，比如说",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 444,
+      "s": 221,
+      "start": 1123.09,
+      "end": 1125.47,
+      "text": "我在做蛋糕店经营的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 445,
+      "s": 221,
+      "start": 1125.53,
+      "end": 1127.01,
+      "text": "我也会去想：哎，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 446,
+      "s": 221,
+      "start": 1127.01,
+      "end": 1129.03,
+      "text": "那我这样的一个经营模式上，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 447,
+      "s": 222,
+      "start": 1129.03,
+      "end": 1130.73,
+      "text": "它能不能给我赚钱？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 448,
+      "s": 223,
+      "start": 1130.73,
+      "end": 1132.69,
+      "text": "那我也要去自己去分析",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 449,
+      "s": 223,
+      "start": 1132.69,
+      "end": 1134.57,
+      "text": "它的这些财务数据。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 450,
+      "s": 224,
+      "start": 1134.59,
+      "end": 1136.41,
+      "text": "那如果说我做同传，这个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 451,
+      "s": 224,
+      "start": 1136.41,
+      "end": 1137.51,
+      "text": "确实会计上用的会少一些，但是你。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 452,
+      "s": 225,
+      "start": 1139.43,
+      "end": 1142.51,
+      "text": "其实跟呃你在翻译的过程中，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 453,
+      "s": 225,
+      "start": 1142.51,
+      "end": 1143.97,
+      "text": "很多绝大多数的内容",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 454,
+      "s": 225,
+      "start": 1143.97,
+      "end": 1147.13,
+      "text": "都是跟企业经营相关的，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 455,
+      "s": 226,
+      "start": 1147.13,
+      "end": 1149.41,
+      "text": "所以说其实这些商科的背景，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 456,
+      "s": 226,
+      "start": 1149.41,
+      "end": 1151.79,
+      "text": "我觉得它是可以增强",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 457,
+      "s": 226,
+      "start": 1151.79,
+      "end": 1153.63,
+      "text": "我对很多知识的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 458,
+      "s": 226,
+      "start": 1153.63,
+      "end": 1156.05,
+      "text": "一个快速的吸收和理解的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 459,
+      "s": 227,
+      "start": 1156.05,
+      "end": 1157.27,
+      "text": "所以我觉得呃",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 460,
+      "s": 227,
+      "start": 1157.27,
+      "end": 1159.39,
+      "text": "会计它像一个硬的技能，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 461,
+      "s": 227,
+      "start": 1159.39,
+      "end": 1161.65,
+      "text": "但同时它也培养了你",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 462,
+      "s": 227,
+      "start": 1161.65,
+      "end": 1163.77,
+      "text": "快速学习的一种能力，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 463,
+      "s": 228,
+      "start": 1163.77,
+      "end": 1165.53,
+      "text": "是这么我是这么觉得。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 464,
+      "s": 229,
+      "start": 1165.96,
+      "end": 1169.06,
+      "text": "我觉得你的其实职业选择",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 465,
+      "s": 229,
+      "start": 1169.06,
+      "end": 1173.12,
+      "text": "说说起来还是跟会计真的蛮相关的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 466,
+      "s": 229,
+      "start": 1173.12,
+      "end": 1175.24,
+      "text": "因为你一直有在财务啊、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 467,
+      "s": 230,
+      "start": 1175.24,
+      "end": 1177,
+      "text": "银行啊之类的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 468,
+      "s": 231,
+      "start": 1177,
+      "end": 1178.84,
+      "text": "相对于你来说，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 469,
+      "s": 231,
+      "start": 1178.84,
+      "end": 1181.4,
+      "text": "我其实从会计出来以后，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 470,
+      "s": 231,
+      "start": 1181.4,
+      "end": 1183.06,
+      "text": "我也是读了金融，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 471,
+      "s": 232,
+      "start": 1183.06,
+      "end": 1184.3,
+      "text": "但是金融之后",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 472,
+      "s": 232,
+      "start": 1184.3,
+      "end": 1188.08,
+      "text": "我就第一份工作是去了咨询行业。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 473,
+      "s": 233,
+      "start": 1188.08,
+      "end": 1189.68,
+      "text": "那说实话，咨询行业",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 474,
+      "s": 233,
+      "start": 1189.68,
+      "end": 1193.17,
+      "text": "就不怎么需要。会计啊，或者金融，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 475,
+      "s": 234,
+      "start": 1193.17,
+      "end": 1194.93,
+      "text": "可能就是只是需要你",
+      "speaker": "A",
+      "u": 233,
+      "role": "narrator"
+    },
+    {
+      "i": 476,
+      "s": 234,
+      "start": 1194.93,
+      "end": 1197.27,
+      "text": "整个人的整体素质，",
+      "speaker": "A",
+      "u": 233,
+      "role": "narrator"
+    },
+    {
+      "i": 477,
+      "s": 234,
+      "start": 1197.35,
+      "end": 1199.49,
+      "text": "比如说想问题比较快，",
+      "speaker": "A",
+      "u": 233,
+      "role": "narrator"
+    },
+    {
+      "i": 478,
+      "s": 235,
+      "start": 1199.79,
+      "end": 1202.69,
+      "text": "然后沟通能力比较强啊之类的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 479,
+      "s": 236,
+      "start": 1202.69,
+      "end": 1206.47,
+      "text": "然后后来我的人生道路就越走越远，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 480,
+      "s": 236,
+      "start": 1206.47,
+      "end": 1208.51,
+      "text": "这个跟金融完全没关系。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 481,
+      "s": 237,
+      "start": 1208.51,
+      "end": 1210.31,
+      "text": "后来就去做了一些",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 482,
+      "s": 237,
+      "start": 1210.31,
+      "end": 1212.37,
+      "text": "这个NGO的工作，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 483,
+      "s": 237,
+      "start": 1212.37,
+      "end": 1215.19,
+      "text": "然后在非洲做一些农业啊什么的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 484,
+      "s": 237,
+      "start": 1215.19,
+      "end": 1216.26,
+      "text": "完全没关系。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 485,
+      "s": 238,
+      "start": 1216.59,
+      "end": 1218.27,
+      "text": "然后我其实。有时候",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 486,
+      "s": 239,
+      "start": 1218.27,
+      "end": 1220.46,
+      "text": "回想我的大学生活，",
+      "speaker": "A",
+      "u": 238,
+      "role": "narrator"
+    },
+    {
+      "i": 487,
+      "s": 239,
+      "start": 1220.64,
+      "end": 1224.73,
+      "text": "我觉得对我影响最大的几门课哈，",
+      "speaker": "A",
+      "u": 238,
+      "role": "narrator"
+    },
+    {
+      "i": 488,
+      "s": 239,
+      "start": 1224.73,
+      "end": 1226.03,
+      "text": "肯定不是会计课。",
+      "speaker": "A",
+      "u": 238,
+      "role": "narrator"
+    },
+    {
+      "i": 489,
+      "s": 240,
+      "start": 1226.03,
+      "end": 1229.09,
+      "text": "第一个可能是那个批判性思维，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 490,
+      "s": 240,
+      "start": 1229.09,
+      "end": 1230.73,
+      "text": "我觉得我到现在",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 491,
+      "s": 240,
+      "start": 1230.73,
+      "end": 1233.23,
+      "text": "还是很喜欢那种思考方式，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 492,
+      "s": 241,
+      "start": 1233.23,
+      "end": 1235.17,
+      "text": "很喜欢看这样的电视剧。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 493,
+      "s": 242,
+      "start": 1235.17,
+      "end": 1236.23,
+      "text": "然后还有一门课",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 494,
+      "s": 242,
+      "start": 1236.23,
+      "end": 1238.23,
+      "text": "当时对我影响挺大的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 495,
+      "s": 242,
+      "start": 1238.23,
+      "end": 1240.23,
+      "text": "叫做美国社会与文化。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 496,
+      "s": 243,
+      "start": 1242.9,
+      "end": 1244.75,
+      "text": "我我其实还挺感恩的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 497,
+      "s": 243,
+      "start": 1244.75,
+      "end": 1247.17,
+      "text": "就是在清华会有很多任选。课",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 498,
+      "s": 244,
+      "start": 1247.17,
+      "end": 1250.27,
+      "text": "可以可以看一看世界，",
+      "speaker": "A",
+      "u": 243,
+      "role": "narrator"
+    },
+    {
+      "i": 499,
+      "s": 244,
+      "start": 1250.27,
+      "end": 1252.23,
+      "text": "然后当时老师是美国人嘛，",
+      "speaker": "A",
+      "u": 243,
+      "role": "narrator"
+    },
+    {
+      "i": 500,
+      "s": 244,
+      "start": 1252.23,
+      "end": 1253.31,
+      "text": "然后还分析了一些",
+      "speaker": "A",
+      "u": 243,
+      "role": "narrator"
+    },
+    {
+      "i": 501,
+      "s": 244,
+      "start": 1253.31,
+      "end": 1255.41,
+      "text": "美国的历史啊什么的。",
+      "speaker": "A",
+      "u": 243,
+      "role": "narrator"
+    },
+    {
+      "i": 502,
+      "s": 245,
+      "start": 1255.41,
+      "end": 1258.39,
+      "text": "然后第三门课就是西班牙语，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 503,
+      "s": 245,
+      "start": 1258.39,
+      "end": 1260.29,
+      "text": "在我们一起",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 504,
+      "s": 245,
+      "start": 1260.29,
+      "end": 1262.63,
+      "text": "在我们一起学的西班牙语吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 505,
+      "s": 246,
+      "start": 1262.63,
+      "end": 1265.12,
+      "text": "在大学里，对。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 506,
+      "s": 247,
+      "start": 1265.17,
+      "end": 1267.63,
+      "text": "然后因为也是学了西班牙语，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 507,
+      "s": 247,
+      "start": 1267.63,
+      "end": 1268.97,
+      "text": "我有机会出国，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 508,
+      "s": 247,
+      "start": 1268.97,
+      "end": 1272.11,
+      "text": "然后我发现我很喜欢在国外生活，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 509,
+      "s": 248,
+      "start": 1272.11,
+      "end": 1273.75,
+      "text": "所以后来就慢慢的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 510,
+      "s": 249,
+      "start": 1273.77,
+      "end": 1276.49,
+      "text": "现在也在国外工作啊生活啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 511,
+      "s": 250,
+      "start": 1276.83,
+      "end": 1278.63,
+      "text": "哎你这一点其实我说的还挺",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 512,
+      "s": 250,
+      "start": 1278.63,
+      "end": 1281.13,
+      "text": "我这点你说的我还是很认同的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 513,
+      "s": 250,
+      "start": 1281.13,
+      "end": 1283.24,
+      "text": "尤其是你说的这个西班牙语，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 514,
+      "s": 251,
+      "start": 1283.45,
+      "end": 1286.23,
+      "text": "因为我当时刚来加拿大的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 515,
+      "s": 251,
+      "start": 1286.23,
+      "end": 1289.07,
+      "text": "其实现在加拿大工作很难找，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 516,
+      "s": 251,
+      "start": 1289.07,
+      "end": 1290.65,
+      "text": "但是我就很顺利，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 517,
+      "s": 252,
+      "start": 1290.65,
+      "end": 1293.21,
+      "text": "我就随便去了我家门口的一家银行",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 518,
+      "s": 252,
+      "start": 1293.21,
+      "end": 1295.52,
+      "text": "投了个简历，然后他就把我录取了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 519,
+      "s": 253,
+      "start": 1295.73,
+      "end": 1296.51,
+      "text": "一开始我觉得",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 520,
+      "s": 253,
+      "start": 1296.51,
+      "end": 1300.11,
+      "text": "一定是因为我各方面综合实力过人。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 521,
+      "s": 254,
+      "start": 1300.14,
+      "end": 1304.12,
+      "text": "后来上了一个月班之后，同事说：“小苏，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 522,
+      "s": 255,
+      "start": 1304.12,
+      "end": 1305.74,
+      "text": "你知道为什么你被招了吗？”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 523,
+      "s": 256,
+      "start": 1305.74,
+      "end": 1306.84,
+      "text": "我说：“为啥？”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 524,
+      "s": 257,
+      "start": 1306.84,
+      "end": 1308,
+      "text": "他说：“因为我们行里",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 525,
+      "s": 257,
+      "start": 1308,
+      "end": 1309.5,
+      "text": "缺一个讲西班牙语的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 526,
+      "s": 258,
+      "start": 1309.5,
+      "end": 1312.32,
+      "text": "这边有到有很多的墨西哥客人。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 527,
+      "s": 259,
+      "start": 1312.32,
+      "end": 1312.92,
+      "text": "我说：“哦，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 528,
+      "s": 260,
+      "start": 1312.92,
+      "end": 1314.31,
+      "text": "这么回事儿。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 529,
+      "s": 261,
+      "start": 1315.32,
+      "end": 1316.8,
+      "text": "那你最近用上了吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 530,
+      "s": 262,
+      "start": 1316.8,
+      "end": 1318.2,
+      "text": "你真的有用西班牙语吗？”",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 531,
+      "s": 263,
+      "start": 1318.2,
+      "end": 1318.72,
+      "text": "有，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 532,
+      "s": 264,
+      "start": 1318.72,
+      "end": 1321.12,
+      "text": "因为我现在是做客户经理嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 533,
+      "s": 264,
+      "start": 1321.12,
+      "end": 1324.02,
+      "text": "就会帮人处理这个银行账户啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 534,
+      "s": 264,
+      "start": 1324.02,
+      "end": 1325.52,
+      "text": "还有投资这些的东西。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 535,
+      "s": 265,
+      "start": 1325.7,
+      "end": 1327.34,
+      "text": "我们行里现在就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 536,
+      "s": 265,
+      "start": 1327.34,
+      "end": 1330.98,
+      "text": "温哥华基本上这些呃建设，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 537,
+      "s": 265,
+      "start": 1330.98,
+      "end": 1332.38,
+      "text": "因为温哥华它的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 538,
+      "s": 265,
+      "start": 1332.38,
+      "end": 1334.87,
+      "text": "一大经济支柱就是房地产，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 539,
+      "s": 266,
+      "start": 1335.22,
+      "end": 1336.52,
+      "text": "而这些建设公司",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 540,
+      "s": 266,
+      "start": 1336.52,
+      "end": 1339.18,
+      "text": "他们雇的都是拉美人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 541,
+      "s": 266,
+      "start": 1339.5,
+      "end": 1341.7,
+      "text": "所以我们银行里基本上，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 542,
+      "s": 267,
+      "start": 1341.7,
+      "end": 1342.98,
+      "text": "比如说我今天一天",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 543,
+      "s": 267,
+      "start": 1342.98,
+      "end": 1345.1,
+      "text": "如果我见八个客人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 544,
+      "s": 267,
+      "start": 1345.1,
+      "end": 1348.42,
+      "text": "那我可能有三四个客人都是拉美人。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 545,
+      "s": 268,
+      "start": 1349.24,
+      "end": 1352,
+      "text": "嗯，拉丁美洲对没错，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 546,
+      "s": 269,
+      "start": 1352,
+      "end": 1352.88,
+      "text": "对西班牙语。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 547,
+      "s": 270,
+      "start": 1353.42,
+      "end": 1356.39,
+      "text": "对，所以嗯，这个点就让我想起，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 548,
+      "s": 270,
+      "start": 1356.39,
+      "end": 1358.55,
+      "text": "我觉得说实话，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 549,
+      "s": 270,
+      "start": 1358.55,
+      "end": 1361.17,
+      "text": "专业选什么不是很重要。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 550,
+      "s": 271,
+      "start": 1361.17,
+      "end": 1363.11,
+      "text": "但是我觉得要相信我，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 551,
+      "s": 271,
+      "start": 1363.11,
+      "end": 1364.84,
+      "text": "我其实特别相信这件事情，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 552,
+      "s": 272,
+      "start": 1365.21,
+      "end": 1366.73,
+      "text": "就是人生当中",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 553,
+      "s": 272,
+      "start": 1366.73,
+      "end": 1369.84,
+      "text": "无论你学了什么东西都不会被浪费，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 554,
+      "s": 273,
+      "start": 1370.01,
+      "end": 1372.93,
+      "text": "就是它总有一天你会发现",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 555,
+      "s": 273,
+      "start": 1372.93,
+      "end": 1374.65,
+      "text": "英语就是connect the dots，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 556,
+      "s": 274,
+      "start": 1374.95,
+      "end": 1376.35,
+      "text": "就是它那些点",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 557,
+      "s": 274,
+      "start": 1376.35,
+      "end": 1378.77,
+      "text": "你以前做的事情它会被连起来，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 558,
+      "s": 274,
+      "start": 1378.77,
+      "end": 1380.07,
+      "text": "就是有一天会忽然有用。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 559,
+      "s": 275,
+      "start": 1381.11,
+      "end": 1381.61,
+      "text": "对，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 560,
+      "s": 276,
+      "start": 1381.61,
+      "end": 1383.72,
+      "text": "我觉得它也存在着一种，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 561,
+      "s": 276,
+      "start": 1383.97,
+      "end": 1386.37,
+      "text": "我不知道那个准确的那个词叫什么，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 562,
+      "s": 276,
+      "start": 1386.37,
+      "end": 1389.47,
+      "text": "就类似嗯自证的预言，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 563,
+      "s": 277,
+      "start": 1389.53,
+      "end": 1390.89,
+      "text": "或者是一种嗯正",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 564,
+      "s": 277,
+      "start": 1390.89,
+      "end": 1392.81,
+      "text": "或者是一种相互的吸引",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 565,
+      "s": 277,
+      "start": 1392.81,
+      "end": 1394.31,
+      "text": "或者正向的选择。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 566,
+      "s": 278,
+      "start": 1394.37,
+      "end": 1397.03,
+      "text": "就比如说我为什么要选择西班牙语？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 567,
+      "s": 279,
+      "start": 1397.03,
+      "end": 1398.67,
+      "text": "因为我喜欢西班牙语，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 568,
+      "s": 279,
+      "start": 1398.67,
+      "end": 1400.07,
+      "text": "我喜欢拉美文化。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 569,
+      "s": 280,
+      "start": 1400.07,
+      "end": 1401.15,
+      "text": "那这个可能意味着",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 570,
+      "s": 280,
+      "start": 1401.15,
+      "end": 1403.21,
+      "text": "在我未来的职业发展生活中，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 571,
+      "s": 280,
+      "start": 1403.21,
+      "end": 1405.37,
+      "text": "我遇到跟这个方面有关的东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 572,
+      "s": 280,
+      "start": 1405.37,
+      "end": 1406.94,
+      "text": "我就会多往前走。一点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 573,
+      "s": 281,
+      "start": 1406.94,
+      "end": 1408.42,
+      "text": "那么，那么你们之后",
+      "speaker": "B",
+      "u": 280,
+      "role": "storyteller"
+    },
+    {
+      "i": 574,
+      "s": 281,
+      "start": 1408.42,
+      "end": 1411,
+      "text": "产生这个点与点之间的连接的",
+      "speaker": "B",
+      "u": 280,
+      "role": "storyteller"
+    },
+    {
+      "i": 575,
+      "s": 281,
+      "start": 1411,
+      "end": 1412.86,
+      "text": "一个可能性就会越来越大。",
+      "speaker": "B",
+      "u": 280,
+      "role": "storyteller"
+    },
+    {
+      "i": 576,
+      "s": 282,
+      "start": 1413.12,
+      "end": 1417.28,
+      "text": "嗯嗯，对对对，所以我觉得大家就是，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 577,
+      "s": 282,
+      "start": 1417.28,
+      "end": 1419.3,
+      "text": "如果我要给现在的小朋友",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 578,
+      "s": 282,
+      "start": 1419.3,
+      "end": 1420.69,
+      "text": "一些建议的话，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 579,
+      "s": 283,
+      "start": 1421.38,
+      "end": 1422.84,
+      "text": "就是乱七八糟的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 580,
+      "s": 283,
+      "start": 1422.84,
+      "end": 1424.9,
+      "text": "什么都可以学一点，对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 581,
+      "s": 284,
+      "start": 1424.9,
+      "end": 1428.54,
+      "text": "就是任选课呀、通选课呀，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 582,
+      "s": 284,
+      "start": 1428.54,
+      "end": 1429.96,
+      "text": "然后特而且课外的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 583,
+      "s": 284,
+      "start": 1429.96,
+      "end": 1432.54,
+      "text": "就是自己什么都可以学一点，因为。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 584,
+      "s": 285,
+      "start": 1432.77,
+      "end": 1435.93,
+      "text": "我刚才之前想问你一个问题，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 585,
+      "s": 285,
+      "start": 1436.11,
+      "end": 1437.95,
+      "text": "现在有就人工智能嘛？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 586,
+      "s": 286,
+      "start": 1437.95,
+      "end": 1438.97,
+      "text": "然后大家也觉得",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 587,
+      "s": 286,
+      "start": 1438.97,
+      "end": 1442.81,
+      "text": "人工智能现在对学习的冲击也很大，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 588,
+      "s": 286,
+      "start": 1442.81,
+      "end": 1445.49,
+      "text": "然后未来对职业的冲击也很大。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 589,
+      "s": 287,
+      "start": 1445.49,
+      "end": 1449.29,
+      "text": "然后现在如果你是一个高中生，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 590,
+      "s": 287,
+      "start": 1449.29,
+      "end": 1450.97,
+      "text": "你要选择大学专业，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 591,
+      "s": 287,
+      "start": 1450.97,
+      "end": 1453.98,
+      "text": "现在的小朋友应该选什么专业呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 592,
+      "s": 288,
+      "start": 1454.17,
+      "end": 1456.69,
+      "text": "未来就是有什么职业",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 593,
+      "s": 288,
+      "start": 1456.69,
+      "end": 1459.33,
+      "text": "可能不会被人工智能取代？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 594,
+      "s": 289,
+      "start": 1460.36,
+      "end": 1462.15,
+      "text": "或者，对，还蛮难选的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 595,
+      "s": 290,
+      "start": 1462.15,
+      "end": 1463.7,
+      "text": "现在是一个转折点。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 596,
+      "s": 291,
+      "start": 1464.33,
+      "end": 1466.63,
+      "text": "对这个问题，其实包括我觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 597,
+      "s": 291,
+      "start": 1466.63,
+      "end": 1469.93,
+      "text": "不只限制于现在的这些小学生，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 598,
+      "s": 292,
+      "start": 1469.93,
+      "end": 1472.67,
+      "text": "甚至我们现在这些很多在工作的人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 599,
+      "s": 292,
+      "start": 1472.67,
+      "end": 1473.99,
+      "text": "也会感到迷茫。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 600,
+      "s": 293,
+      "start": 1473.99,
+      "end": 1476.49,
+      "text": "我们会想：OK，我现在还年轻，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 601,
+      "s": 293,
+      "start": 1476.49,
+      "end": 1477.23,
+      "text": "我可能还要",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 602,
+      "s": 293,
+      "start": 1477.23,
+      "end": 1479.57,
+      "text": "再工作个三十年才能退休。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 603,
+      "s": 294,
+      "start": 1479.57,
+      "end": 1481.91,
+      "text": "那我现在我我我我",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 604,
+      "s": 294,
+      "start": 1481.91,
+      "end": 1483.37,
+      "text": "还要在我目前的这个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 605,
+      "s": 294,
+      "start": 1483.37,
+      "end": 1485.09,
+      "text": "现有行业继续耕耘吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 606,
+      "s": 295,
+      "start": 1485.09,
+      "end": 1486.51,
+      "text": "还是在未来的五年",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 607,
+      "s": 295,
+      "start": 1486.51,
+      "end": 1488.61,
+      "text": "我的工作就要被AI替代了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 608,
+      "s": 296,
+      "start": 1488.61,
+      "end": 1489.15,
+      "text": "对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 609,
+      "s": 297,
+      "start": 1489.15,
+      "end": 1489.33,
+      "text": "所以其实大家我觉得。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 610,
+      "s": 298,
+      "start": 1490.85,
+      "end": 1492.47,
+      "text": "各个年龄段的人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 611,
+      "s": 298,
+      "start": 1492.47,
+      "end": 1495.15,
+      "text": "都对这个问题非常很焦虑。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 612,
+      "s": 299,
+      "start": 1495.31,
+      "end": 1496.49,
+      "text": "我自己的思考，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 613,
+      "s": 300,
+      "start": 1496.49,
+      "end": 1498.33,
+      "text": "我觉得可能就是多做一些",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 614,
+      "s": 300,
+      "start": 1498.33,
+      "end": 1500.6,
+      "text": "像你刚才说的批判性思维，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 615,
+      "s": 301,
+      "start": 1500.71,
+      "end": 1503.47,
+      "text": "就是做一些做一些你能够",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 616,
+      "s": 301,
+      "start": 1503.47,
+      "end": 1507.07,
+      "text": "发发挥人类主观能动性的东西吧。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 617,
+      "s": 302,
+      "start": 1507.07,
+      "end": 1508.33,
+      "text": "就我说具体一点，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 618,
+      "s": 303,
+      "start": 1508.33,
+      "end": 1510.7,
+      "text": "比如说我们在银行里工作，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 619,
+      "s": 303,
+      "start": 1510.77,
+      "end": 1513.27,
+      "text": "那我也会去想说，OK，我现在不就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 620,
+      "s": 303,
+      "start": 1513.27,
+      "end": 1515.66,
+      "text": "给银给客人卖一些产品，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 621,
+      "s": 304,
+      "start": 1515.81,
+      "end": 1517.85,
+      "text": "给他介绍一些产品的这些知识，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 622,
+      "s": 304,
+      "start": 1517.85,
+      "end": 1519.47,
+      "text": "给他推荐一个合适的产品？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 623,
+      "s": 305,
+      "start": 1519.5,
+      "end": 1521.1,
+      "text": "那现在其实也有很多",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 624,
+      "s": 305,
+      "start": 1521.1,
+      "end": 1523.46,
+      "text": "网上的那些投资平台，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 625,
+      "s": 305,
+      "start": 1523.46,
+      "end": 1525.52,
+      "text": "人家AI是动自动的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 626,
+      "s": 305,
+      "start": 1525.52,
+      "end": 1527.08,
+      "text": "给你做了一个分析，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 627,
+      "s": 306,
+      "start": 1527.18,
+      "end": 1529.1,
+      "text": "觉得这款产品适合你，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 628,
+      "s": 307,
+      "start": 1529.1,
+      "end": 1530.68,
+      "text": "然后你买了就可以了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 629,
+      "s": 308,
+      "start": 1530.68,
+      "end": 1532.28,
+      "text": "但我就会去想说，OK，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 630,
+      "s": 309,
+      "start": 1532.28,
+      "end": 1533.5,
+      "text": "我作为一个人类，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 631,
+      "s": 310,
+      "start": 1533.5,
+      "end": 1534.98,
+      "text": "我比这个东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 632,
+      "s": 310,
+      "start": 1534.98,
+      "end": 1538.07,
+      "text": "比这个AI的人工智能强在哪里？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 633,
+      "s": 311,
+      "start": 1538.28,
+      "end": 1538.9,
+      "text": "优势在哪？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 634,
+      "s": 312,
+      "start": 1538.9,
+      "end": 1541.16,
+      "text": "对，所以我其实我会，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 635,
+      "s": 312,
+      "start": 1541.16,
+      "end": 1543.16,
+      "text": "我之前就休息学习了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 636,
+      "s": 312,
+      "start": 1543.16,
+      "end": 1546.2,
+      "text": "什么这个呃蛋糕啊，然后。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 637,
+      "s": 313,
+      "start": 1546.23,
+      "end": 1549.6,
+      "text": "然后心理学呀，就是我觉得可能，嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 638,
+      "s": 313,
+      "start": 1549.66,
+      "end": 1552.49,
+      "text": "我过去会一直特别注重",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 639,
+      "s": 313,
+      "start": 1552.49,
+      "end": 1554.97,
+      "text": "这种硬技能，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 640,
+      "s": 314,
+      "start": 1554.97,
+      "end": 1557.35,
+      "text": "然后很强调人类的理性分析。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 641,
+      "s": 315,
+      "start": 1557.35,
+      "end": 1558.09,
+      "text": "但是我现在",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 642,
+      "s": 315,
+      "start": 1558.09,
+      "end": 1561.97,
+      "text": "我可能会更加专注于，呃，侧重于",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 643,
+      "s": 315,
+      "start": 1561.97,
+      "end": 1565.36,
+      "text": "对我这种人类感性的一种培养，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 644,
+      "s": 316,
+      "start": 1565.87,
+      "end": 1568.13,
+      "text": "就什么美学的认知啦、",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 645,
+      "s": 316,
+      "start": 1568.13,
+      "end": 1569.11,
+      "text": "心理学的认知啊、",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 646,
+      "s": 317,
+      "start": 1569.11,
+      "end": 1571.53,
+      "text": "对人性的了解啊这些东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 647,
+      "s": 317,
+      "start": 1571.53,
+      "end": 1574.91,
+      "text": "我觉得它不是。嗯，机器能够替代的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 648,
+      "s": 319,
+      "start": 1576.17,
+      "end": 1577.13,
+      "text": "嗯，对啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 649,
+      "s": 320,
+      "start": 1577.13,
+      "end": 1579.27,
+      "text": "特别是做蛋糕这种，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 650,
+      "s": 320,
+      "start": 1579.99,
+      "end": 1582.37,
+      "text": "确实就是如果你的工作或者",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 651,
+      "s": 320,
+      "start": 1582.37,
+      "end": 1586.97,
+      "text": "你的技能点是在现实世界跟实物，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 652,
+      "s": 321,
+      "start": 1586.97,
+      "end": 1588.35,
+      "text": "不是那个吃的食物，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 653,
+      "s": 321,
+      "start": 1588.35,
+      "end": 1589.77,
+      "text": "就跟实在的物体、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 654,
+      "s": 321,
+      "start": 1589.77,
+      "end": 1591.84,
+      "text": "现实的物体有交互的话，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 655,
+      "s": 321,
+      "start": 1592.15,
+      "end": 1595.15,
+      "text": "是比较难被人工智能取代嘛？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 656,
+      "s": 322,
+      "start": 1595.19,
+      "end": 1597.23,
+      "text": "所以像你总是以后",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 657,
+      "s": 322,
+      "start": 1597.23,
+      "end": 1599.93,
+      "text": "还需要人来做蛋糕的，我就很难想象。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 658,
+      "s": 323,
+      "start": 1599.96,
+      "end": 1603,
+      "text": "特别是食品，其实做做吃的、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 659,
+      "s": 323,
+      "start": 1603,
+      "end": 1606.3,
+      "text": "做饭还是很难被机器人取代的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 660,
+      "s": 324,
+      "start": 1606.3,
+      "end": 1607.58,
+      "text": "嗯，对，尤其是我觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 661,
+      "s": 324,
+      "start": 1607.58,
+      "end": 1610.28,
+      "text": "很多可能蓝领的一些工作吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 662,
+      "s": 324,
+      "start": 1610.28,
+      "end": 1612.96,
+      "text": "然后偏设计类啊、创造类的东西。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 663,
+      "s": 325,
+      "start": 1613.1,
+      "end": 1616.48,
+      "text": "当然，我们可能现在也有一些这个呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 664,
+      "s": 325,
+      "start": 1616.48,
+      "end": 1617.42,
+      "text": "我姐比如我姐现在",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 665,
+      "s": 325,
+      "start": 1617.42,
+      "end": 1619.72,
+      "text": "她特别沉迷于AI短剧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 666,
+      "s": 326,
+      "start": 1619.72,
+      "end": 1622.72,
+      "text": "我感觉演员都被取代了，你发现了吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 667,
+      "s": 327,
+      "start": 1622.72,
+      "end": 1626.08,
+      "text": "对啊，演员是确实是演员被取代了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 668,
+      "s": 327,
+      "start": 1626.08,
+      "end": 1627.26,
+      "text": "现在是一个潮流。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 669,
+      "s": 328,
+      "start": 1627.29,
+      "end": 1629.83,
+      "text": "太可怕了可怕的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 670,
+      "s": 328,
+      "start": 1629.83,
+      "end": 1632.45,
+      "text": "就那个我老公嘛",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 671,
+      "s": 328,
+      "start": 1632.45,
+      "end": 1634.91,
+      "text": "他特别他想如果以后",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 672,
+      "s": 328,
+      "start": 1634.91,
+      "end": 1637.67,
+      "text": "他的工作被被AI取代了",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 673,
+      "s": 328,
+      "start": 1637.67,
+      "end": 1642.19,
+      "text": "他想做一个植物学",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 674,
+      "s": 329,
+      "start": 1642.19,
+      "end": 1644.47,
+      "text": "也不能叫植物学家吧",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 675,
+      "s": 329,
+      "start": 1644.47,
+      "end": 1646.09,
+      "text": "他就想去植物园工作",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 676,
+      "s": 329,
+      "start": 1646.09,
+      "end": 1649.47,
+      "text": "然后种种花呀种种树什么的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 677,
+      "s": 329,
+      "start": 1649.47,
+      "end": 1651.09,
+      "text": "就了解植物的习性",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 678,
+      "s": 329,
+      "start": 1651.09,
+      "end": 1652.49,
+      "text": "然后去植物园工作",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 679,
+      "s": 330,
+      "start": 1652.91,
+      "end": 1654.11,
+      "text": "我觉得这个可以，",
+      "speaker": "A",
+      "u": 329,
+      "role": "narrator"
+    },
+    {
+      "i": 680,
+      "s": 330,
+      "start": 1654.11,
+      "end": 1656.65,
+      "text": "然后我就想去当按摩师。",
+      "speaker": "A",
+      "u": 329,
+      "role": "narrator"
+    },
+    {
+      "i": 681,
+      "s": 331,
+      "start": 1657.65,
+      "end": 1659.33,
+      "text": "为什么是按摩师？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 682,
+      "s": 332,
+      "start": 1660.82,
+      "end": 1663.09,
+      "text": "因为我觉得，嗯，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 683,
+      "s": 332,
+      "start": 1663.09,
+      "end": 1664.67,
+      "text": "第一我自己很喜欢按摩；",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 684,
+      "s": 332,
+      "start": 1664.67,
+      "end": 1665.55,
+      "text": "第二按摩我觉得",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 685,
+      "s": 332,
+      "start": 1665.55,
+      "end": 1668.71,
+      "text": "是很难被很难被机器人取代的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 686,
+      "s": 333,
+      "start": 1668.71,
+      "end": 1668.79,
+      "text": "哇哦！",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 687,
+      "s": 334,
+      "start": 1668.79,
+      "end": 1669.51,
+      "text": "第三呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 688,
+      "s": 334,
+      "start": 1669.51,
+      "end": 1673.13,
+      "text": "我觉得如果我以后要开一家按摩店，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 689,
+      "s": 335,
+      "start": 1673.13,
+      "end": 1674.59,
+      "text": "我是希望打造一个",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 690,
+      "s": 335,
+      "start": 1674.59,
+      "end": 1677.87,
+      "text": "就像你刚才说的整个的一个体验，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 691,
+      "s": 335,
+      "start": 1677.87,
+      "end": 1680.16,
+      "text": "它是有一种。禅修",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 692,
+      "s": 336,
+      "start": 1680.16,
+      "end": 1683.72,
+      "text": "或者是一种人性的连接，",
+      "speaker": "A",
+      "u": 335,
+      "role": "narrator"
+    },
+    {
+      "i": 693,
+      "s": 336,
+      "start": 1683.72,
+      "end": 1685.19,
+      "text": "然后也有按摩，",
+      "speaker": "A",
+      "u": 335,
+      "role": "narrator"
+    },
+    {
+      "i": 694,
+      "s": 336,
+      "start": 1685.34,
+      "end": 1687.5,
+      "text": "所以这是一个完整的体验啊，",
+      "speaker": "A",
+      "u": 335,
+      "role": "narrator"
+    },
+    {
+      "i": 695,
+      "s": 337,
+      "start": 1687.5,
+      "end": 1689.98,
+      "text": "不是就是一个冷冰冰的机器人，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 696,
+      "s": 337,
+      "start": 1689.98,
+      "end": 1692.16,
+      "text": "他给你这么按按三十分钟，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 697,
+      "s": 337,
+      "start": 1692.16,
+      "end": 1693.68,
+      "text": "或者一个按摩椅啊什么的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 698,
+      "s": 338,
+      "start": 1693.68,
+      "end": 1694.16,
+      "text": "明白？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 699,
+      "s": 339,
+      "start": 1694.16,
+      "end": 1699.12,
+      "text": "是这种精神与肉体的按摩是吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 700,
+      "s": 340,
+      "start": 1699.68,
+      "end": 1699.82,
+      "text": "对，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 701,
+      "s": 341,
+      "start": 1699.82,
+      "end": 1701.48,
+      "text": "可能就比如说你整个",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 702,
+      "s": 341,
+      "start": 1701.48,
+      "end": 1703.92,
+      "text": "我想象整个嗯体验",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 703,
+      "s": 341,
+      "start": 1703.92,
+      "end": 1705.94,
+      "text": "可能两个小时三个小时对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 704,
+      "s": 342,
+      "start": 1705.94,
+      "end": 1706.62,
+      "text": "先进来，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 705,
+      "s": 342,
+      "start": 1706.62,
+      "end": 1707.93,
+      "text": "然后我们可以先聊一会儿。天",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 706,
+      "s": 343,
+      "start": 1707.93,
+      "end": 1713.43,
+      "text": "谈一谈哲学，然后然后冥想一个小时，",
+      "speaker": "A",
+      "u": 342,
+      "role": "narrator"
+    },
+    {
+      "i": 707,
+      "s": 343,
+      "start": 1713.43,
+      "end": 1715.13,
+      "text": "然后怎么样怎么样，然后再按摩，",
+      "speaker": "A",
+      "u": 342,
+      "role": "narrator"
+    },
+    {
+      "i": 708,
+      "s": 344,
+      "start": 1715.13,
+      "end": 1717.45,
+      "text": "就是有一个整体的体验。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 709,
+      "s": 345,
+      "start": 1717.45,
+      "end": 1717.97,
+      "text": "对，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 710,
+      "s": 346,
+      "start": 1717.97,
+      "end": 1719.75,
+      "text": "我觉得你这个想法挺好的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 711,
+      "s": 346,
+      "start": 1719.75,
+      "end": 1722.07,
+      "text": "包括我们其实银行的工作现在也是，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 712,
+      "s": 347,
+      "start": 1722.17,
+      "end": 1724.83,
+      "text": "就是我们不是会在专注点",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 713,
+      "s": 347,
+      "start": 1724.83,
+      "end": 1726.33,
+      "text": "放在这个产品本身，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 714,
+      "s": 347,
+      "start": 1726.33,
+      "end": 1728.68,
+      "text": "而更多是了解你眼前的这个人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 715,
+      "s": 348,
+      "start": 1728.85,
+      "end": 1729.99,
+      "text": "然后跟这个人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 716,
+      "s": 348,
+      "start": 1729.99,
+      "end": 1733.11,
+      "text": "产生一个连接和一个共鸣，是吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 717,
+      "s": 349,
+      "start": 1733.11,
+      "end": 1735.29,
+      "text": "我觉得现在网上流行的这些东西",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 718,
+      "s": 349,
+      "start": 1735.29,
+      "end": 1738.35,
+      "text": "都是。往这个方向在发展，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 719,
+      "s": 351,
+      "start": 1738.89,
+      "end": 1743.27,
+      "text": "嗯，对对对，嗯，好的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 720,
+      "s": 352,
+      "start": 1743.27,
+      "end": 1745.45,
+      "text": "那今天我感觉我们聊的差不多了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 721,
+      "s": 352,
+      "start": 1745.45,
+      "end": 1747.81,
+      "text": "小苏苏你也要上班去了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 722,
+      "s": 353,
+      "start": 1748.17,
+      "end": 1751.61,
+      "text": "说到这个上班，好好工作，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 723,
+      "s": 353,
+      "start": 1751.69,
+      "end": 1755.6,
+      "text": "争取不要被AI替代。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 724,
+      "s": 354,
+      "start": 1756.85,
+      "end": 1759.21,
+      "text": "好的，时间总是这么快的度过，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 725,
+      "s": 354,
+      "start": 1759.21,
+      "end": 1760.48,
+      "text": "真是令人不舍。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 726,
+      "s": 355,
+      "start": 1760.54,
+      "end": 1761.95,
+      "text": "可爱的观众朋友们。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 727,
+      "s": 356,
+      "start": 1761.96,
+      "end": 1764.71,
+      "text": "不知道我们下次再见是什么时候？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 728,
+      "s": 357,
+      "start": 1765.9,
+      "end": 1767.12,
+      "text": "下周，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 729,
+      "s": 358,
+      "start": 1767.78,
+      "end": 1769.72,
+      "text": "我来约你。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 730,
+      "s": 359,
+      "start": 1769.72,
+      "end": 1770.4,
+      "text": "好的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 731,
+      "s": 360,
+      "start": 1770.4,
+      "end": 1770.8,
+      "text": "谢谢小苏。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 732,
+      "s": 361,
+      "start": 1770.8,
+      "end": 1772.74,
+      "text": "行，大家拜拜，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 733,
+      "s": 362,
+      "start": 1773.18,
+      "end": 1773.38,
+      "text": "拜拜。",
+      "speaker": "A",
+      "role": "narrator"
+    }
+  ]
+}

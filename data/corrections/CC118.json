@@ -1,0 +1,144 @@
+{
+  "episode": "CC118",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-09-30",
+  "fixes": [
+    {
+      "cueIndex": 237,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 273,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 2,
+      "before": "白米尔咖啡",
+      "after": "Buy Me a Coffee",
+      "source": "llm-review",
+      "reason": "The show notes thank listeners on buymeacoffee.com; the host transcript says buy me a coffee, whisper hears it too.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 8,
+      "before": "听你讲了",
+      "after": "感动了",
+      "source": "llm-review",
+      "reason": "Low confidence (0.31/0.43); whisper hears 感动 at those timestamps and the host transcript says 上次我也感动了.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 26,
+      "before": "压倒",
+      "after": "压到",
+      "source": "llm-review",
+      "reason": "Pressing on her own hair when turning over: 压到, as in the host transcript; 压倒 (overwhelm) does not fit.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 81,
+      "before": "招生班",
+      "after": "招生办",
+      "source": "llm-review",
+      "reason": "招生办 (admissions office), as in the host transcript and its vocab list.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 85,
+      "before": "学筷子",
+      "after": "学会计",
+      "source": "llm-review",
+      "reason": "The episode is about how both ended up in accounting (会计系); host transcript says 让他去学会计.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 86,
+      "before": "学了筷子",
+      "after": "学了会计",
+      "source": "llm-review",
+      "reason": "Same as sentence 85: she was sent to study accounting, not chopsticks.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 107,
+      "before": "快递",
+      "after": "会计",
+      "source": "llm-review",
+      "reason": "Host transcript: 我觉得会计就像万金油; accounting is the subject here, not couriers.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 125,
+      "before": "当时会想成为武侠吧，",
+      "after": "当时，你不会想成为武侠吧？",
+      "source": "llm-review",
+      "reason": "Low confidence (当 0.19, 会 0.28); whisper hears the host cut in with 你不会想成为武侠吧, as the host transcript has it.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 155,
+      "before": "艾尼贝",
+      "after": "anyway",
+      "source": "llm-review",
+      "reason": "English \"anyway\": both whisper models hear it at 770s; 艾尼贝 is not a word.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 175,
+      "before": "小鹿呢",
+      "after": "小陆陆",
+      "source": "llm-review",
+      "reason": "The host's college nickname: the host transcript writes 陆陆, whisper hears xiǎo lù lù.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 242,
+      "before": "美国社会语文",
+      "after": "美国社会与文化",
+      "source": "llm-review",
+      "reason": "Course name: 美国社会与文化, per the host transcript and whisper.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 273,
+      "before": "connectthedots",
+      "after": "connect the dots",
+      "source": "llm-review",
+      "reason": "Glue pass fused three English words.",
+      "appliedAt": "2026-09-30"
+    },
+    {
+      "cueIndex": 320,
+      "before": "在线实世界",
+      "after": "在现实世界",
+      "source": "llm-review",
+      "reason": "线实世界 is not a word; 现实世界 (the real world) is the same sound and the host transcript has it.",
+      "appliedAt": "2026-09-30"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 1,
+      "text": "我是你们的host青青。",
+      "reason": "Host's name: both ASRs hear qing qing, but the show notes only give the handle \"xinqing\" and the host transcript anonymises it as XQ — could be 晴晴. Left as heard."
+    },
+    {
+      "cueIndex": 126,
+      "text": "武功就就是这样。",
+      "reason": "Whisper hears 武功？武功什么？就是这样 — a quick back-and-forth the ASR merged; not certain enough to rewrite."
+    },
+    {
+      "cueIndex": 245,
+      "text": "然后第三门课就是西班牙语，在我们一起在我们一起学的西班牙语吗？",
+      "reason": "The two 在 are probably an interjection (诶) from the guest cutting in; meaning is clear, wording unconfirmed."
+    }
+  ]
+}

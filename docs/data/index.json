@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "episodes": [
     {
       "id": "E757",
@@ -60,6 +60,14 @@
       "duration": 167,
       "source": "bilibili",
       "owner": "GenJi是真想教会你AI"
+    },
+    {
+      "id": "CC118",
+      "title": "Episode 118 | 大学选什么专业好呢？What should I study in the university?",
+      "pubDate": "2026-09-04",
+      "duration": 1786,
+      "source": "podcast",
+      "owner": "瞎扯学中文 Convo Chinese"
     },
     {
       "id": "CC2",
