@@ -10,9 +10,13 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { readingsWithin } from '../src/readings.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = join(ROOT, 'docs', 'data');
+// A reading set by tools/readings.json disagrees with the dictionary on purpose (种种花 is not the
+// dictionary's 种种 "all kinds of"), and build_gloss.mjs has already held each syllable against it.
+const READINGS = JSON.parse(readFileSync(join(ROOT, 'tools/readings.json'), 'utf8'));
 const bundle = { exports: {} };
 new Function('module', 'exports', readFileSync(join(ROOT, 'tools/vendor/pinyin-pro.js'), 'utf8'))(bundle, bundle.exports);
 const { pinyin } = bundle.exports;
@@ -107,6 +111,7 @@ for (const file of episodes) {
   });
 
   // Pinyin: compare the reading built from context with what the dictionary lists for the word.
+  const deliberate = readingsWithin(READINGS[id] ?? {});
   for (const [word, entry] of Object.entries(gloss)) {
     const reading = entry[0] ?? '';
     if (!reading) { note('thiếu pinyin', `${id}: ${word}`); continue; }
@@ -114,7 +119,7 @@ for (const file of episodes) {
       note('số âm tiết pinyin không khớp số chữ', `${id}: ${word} → ${reading}`);
     }
     const listed = cedict.reading.get(word);
-    if (!listed) continue;
+    if (!listed || deliberate.get(word) === reading) continue;
     // Compare what actually shipped — read in context — not a fresh reading of the isolated word.
     if (!listed.some((r) => sameReading(r, reading))) {
       note('pinyin khác từ điển', `${word}: dựng "${reading}" · từ điển ${listed.map((r) => `"${r}"`).join(', ')}`);

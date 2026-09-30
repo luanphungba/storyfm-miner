@@ -152,13 +152,22 @@ for off-list, `TÊN` for a name), and CC-CEDICT's English sense. Expect **500–
 episode: `tools/gloss-vi.json` is shared across every episode, so most vocabulary is already there.
 
 Write entries into `tools/gloss-vi.json` as `"词": ["HÁN VIỆT", "nghĩa tiếng Việt"]`, in batches of
-~350, rebuilding after each. Four rules, all of them learned the hard way:
+~350, rebuilding after each. Five rules, all of them learned the hard way:
 
 - **Only those two fields are written by hand.** The reading, the HSK band and the name tag are
   looked up by the tools. Never type a pinyin or a band from memory — that is precisely the mistake
   that put a wrong HSK level on 189 of the user's Anki cards.
+- **But a looked-up reading that is certainly wrong in its sentence gets fixed, not just reported.**
+  The tools read polyphones in the wrong sense now and then (CC118: 我们行里 as xíng lǐ, 没有当成记者
+  as dàng chéng, 种种花 as CC-CEDICT's zhǒng zhǒng "all kinds of"). Add the phrase as it stands in
+  the episode to `tools/readings.json` with its reading and a reason; the build holds every syllable
+  against CC-CEDICT's readings of that character, so a mistyped tone fails instead of shipping. To
+  find them, list the episode's words with a polyphonic character (长 发 得 行 当 只 倒 种 舍 会 …)
+  next to their first sentence — the card shows the reading of a word's first occurrence.
 - **Write the meaning from the CC-CEDICT sense on the line**, not from recall, and keep it to one
-  short phrase. It is the only field no tool can check afterwards.
+  short phrase. It is the only field no tool can check afterwards. The meaning is shared by every
+  episode, so a word used in an unusual sense here gets its common sense first and this episode's in
+  brackets (`"lớp; ca làm (上班: đi làm)"`).
 - **Leave the Hán Việt as `""` rather than guess.** Interjections and rare colloquialisms often
   have no settled reading; a blank line is harmless, a confident wrong one teaches the user an error.
   Same bar as the transcript: certain, or say nothing.

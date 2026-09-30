@@ -10,6 +10,10 @@
 // gave 说 as shuì, 都 as dū, 那 as nā, 还 as huán and 个 as gě — each of them a surname or a rare
 // sense that happens to be listed first. pinyin-pro reads the whole line and picks by context.
 //
+// Where both still read a polyphone in the wrong sense (我们行里 as xíng lǐ, 种种花 as zhǒng zhǒng),
+// tools/readings.json gives the phrase's reading for that episode, checked against CC-CEDICT
+// character by character — see src/readings.js.
+//
 // Unihan's kVietnamese was tried for the Hán Việt readings and abandoned: it covers 55% of the
 // characters in these transcripts and is systematically wrong on simplified forms that merged two
 // traditional characters (安宁 comes out AN TRỮ, where the reading is AN NINH). A table that is 80%
@@ -20,6 +24,7 @@
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { checkReading, applyReadings } from '../src/readings.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = join(ROOT, 'docs', 'data');
@@ -71,6 +76,13 @@ function dictionary() {
 
 const LISTED = dictionary();
 
+const READINGS = JSON.parse(readFileSync(join(ROOT, 'tools/readings.json'), 'utf8'));
+if (LISTED.size) {
+  const problems = Object.values(READINGS).flatMap((entries) => Object.entries(entries)
+    .flatMap(([phrase, [reading]]) => checkReading(phrase, reading, (c) => [...(LISTED.get(c) ?? [])])));
+  if (problems.length) throw new Error(`tools/readings.json:\n${problems.join('\n')}`);
+}
+
 /** 一 and 不 are the two syllables whose tone depends on what follows, so pinyin-pro always wins
  * there: the dictionary lists 一个 as yi1 ge5 where it is said yí ge. */
 const isSandhi = (syllable) => /^(yi|bu)$/.test(syllable.normalize('NFD').replace(/[\u0300-\u036f]/g, ''));
@@ -80,14 +92,14 @@ const isSandhi = (syllable) => /^(yi|bu)$/.test(syllable.normalize('NFD').replac
  * wholesale. Several listed readings mean the choice belongs to context — pinyin-pro's job — and
  * only the syllables every reading agrees are unstressed are taken, which is how 起来 becomes
  * qǐ lai without guessing between qi3 and qi5. */
-function settle(word, contextual) {
+function settle(word, contextual, fixed) {
   const entries = [...(LISTED.get(word) ?? [])]
     .map((reading) => reading.split(/\s+/))
     .filter((parts) => parts.length === contextual.length);
   if (!entries.length) return contextual;
 
   return contextual.map((syllable, i) => {
-    if (isSandhi(syllable)) return syllable;
+    if (fixed[i] || isSandhi(syllable)) return syllable;
     if (entries.length === 1) return toMarks(entries[0][i]);
     const neutral = entries.every((parts) => parts[i].endsWith('5'));
     return neutral ? toMarks(entries[0][i].replace(/[1-5]$/, '5')) : syllable;
@@ -125,6 +137,8 @@ for (const file of files) {
   const tokens = JSON.parse(readFileSync(join(DATA, file), 'utf8'));
   const gloss = {};
   let written = 0;
+  const handReadings = READINGS[episode.id] ?? {};
+  const found = new Set();
 
   // Read each unit — the sentence, or a run of joined ones, as build_tokens.py cuts words — whole,
   // so a polyphone keeps the context it had before the page cut the sentence into short lines.
@@ -134,20 +148,29 @@ for (const file of files) {
     const key = cue.u ?? cue.s ?? cue.i;
     if (!unitReadings.has(key)) {
       const text = episode.cues.filter((c) => (c.u ?? c.s ?? c.i) === key).map((c) => c.text).join('');
-      unitReadings.set(key, readLine(text));
+      const unit = readLine(text);
+      const { fixed, used } = applyReadings(text, unit, handReadings);
+      used.forEach((phrase) => found.add(phrase));
+      unitReadings.set(key, { unit, fixed });
       offset = 0;
     }
-    const readings = unitReadings.get(key).slice(offset, offset + cue.text.length);
+    const { unit, fixed } = unitReadings.get(key);
+    const readings = unit.slice(offset, offset + cue.text.length);
+    const isFixed = fixed.slice(offset, offset + cue.text.length);
     offset += cue.text.length;
     for (const [start, length] of tokens.cues[index] ?? []) {
       const word = cue.text.slice(start, start + length);
       if (gloss[word]) continue;
-      const reading = settle(word, readings.slice(start, start + length)).join(' ');
+      const reading = settle(word, readings.slice(start, start + length), isFixed.slice(start, start + length)).join(' ');
       const hand = authored[word];
       if (hand) written++;
       gloss[word] = hand ? [reading, ...hand] : [reading];
     }
   });
+
+  // A phrase no longer in the transcript (a fix changed it) is a reading nothing checks any more.
+  const stale = Object.keys(handReadings).filter((phrase) => !found.has(phrase));
+  if (stale.length) throw new Error(`tools/readings.json: ${episode.id} không còn cụm ${stale.join(', ')}`);
 
   const out = join(DATA, file.replace('.tok.json', '.gloss.json'));
   writeFileSync(out, JSON.stringify(gloss));
