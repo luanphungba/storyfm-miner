@@ -5,7 +5,7 @@
 //
 // The server's address and token are typed in once and kept in this browser only.
 
-import { esc, formatTime, highlight, noteData, pickSentence, plainText } from './card.js';
+import { dailyLimit, esc, formatTime, highlight, noteData, pickSentence, plainText } from './card.js';
 
 const STORAGE_KEY = 'ci-anki-server';
 const REQUEST_TIMEOUT_MS = 60_000;
@@ -135,21 +135,42 @@ export function initMiner({ card, close, playLine }) {
   // ---------- one word ----------
 
   /** A word already in Anki is shown from its own card, at once and without a token; only a new
-   * word goes to DeepSeek. The check uses the word as tapped, so a card saved as a longer phrase is
-   * still found, one step later, by the lookup itself. */
+   * word goes to DeepSeek, and not before saying so once today's new cards fill a day of Anki. The
+   * check uses the word as tapped, so a card saved as a longer phrase is still found, one step
+   * later, by the lookup itself. */
   async function mine(/** @type {WordContext} */ ctx) {
     const connection = savedConnection();
     if (!connection) return openDialog(() => mine(ctx));
 
     const marker = showLoading(ctx, 'Đang xem trong Anki…');
     try {
-      const { card: saved } = await call(connection, '/peek', { word: ctx.word });
+      const { card: saved, today } = await call(connection, '/peek', { word: ctx.word });
       if (!card.contains(marker)) return;
+      const limit = dailyLimit(today);
       if (saved) showSaved(connection, ctx, saved);
+      else if (limit) showLimit(connection, ctx, limit);
       else await ask(connection, ctx);
     } catch (err) {
       showError(marker, /** @type {Error} */ (err), () => mine(ctx));
     }
+  }
+
+  /** Past the day's limit: back to listening is the easy tap, the lookup is still one tap away. */
+  function showLimit(/** @type {Connection} */ connection, /** @type {WordContext} */ ctx, /** @type {{ title: string, detail: string }} */ limit) {
+    card.innerHTML = `
+      ${head(ctx.word)}
+      <div class="m-limit" role="status">
+        <div class="m-limit-title">📇 ${esc(limit.title)}</div>
+        <div class="m-limit-detail">${esc(limit.detail)}</div>
+      </div>
+      <div class="m-zh">${esc(ctx.marked).replace('【', '<b>').replace('】', '</b>')}</div>
+      <div class="m-actions">
+        <button class="m-add m-resume" type="button">Nghe tiếp</button>
+        <button class="m-ask m-anyway" type="button" title="DeepSeek giải nghĩa theo câu rồi thêm vào Anki">Vẫn thêm</button>
+      </div>`;
+    bindClose();
+    /** @type {HTMLElement} */ (card.querySelector('.m-resume')).onclick = close;
+    /** @type {HTMLElement} */ (card.querySelector('.m-anyway')).onclick = () => ask(connection, ctx);
   }
 
   async function ask(/** @type {Connection} */ connection, /** @type {WordContext} */ ctx) {
@@ -249,8 +270,8 @@ export function initMiner({ card, close, playLine }) {
         const { updated } = await call(connection, '/relearn', { word, ...note });
         return ['✓ Đã đưa về học lại', updated ? 'Thẻ đã đổi sang câu này' : 'Thẻ ở note type khác nên giữ nguyên'];
       }
-      const { deck } = await call(connection, '/add', note);
-      return ['✓ Đã thêm vào Anki', deck];
+      const { deck, today } = await call(connection, '/add', note);
+      return ['✓ Đã thêm vào Anki', today?.limit > 0 ? `${deck} · hôm nay ${today.added}/${today.limit}` : deck];
     });
   }
 

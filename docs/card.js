@@ -48,6 +48,26 @@ export function pickSentence(/** @type {string} */ fromModel, /** @type {string}
   return plain;
 }
 
+/** @typedef {{ added: number, limit: number, waiting: number }} Today */
+
+/**
+ * What to say before a new word is looked up once today's new cards already fill a day of Anki, or
+ * null to go ahead: under the limit, no limit set (0 new cards a day is a pause, not a budget), or a
+ * server too old to send the counts.
+ * @param {Today | null | undefined} today
+ * @returns {{ title: string, detail: string } | null}
+ */
+export function dailyLimit(today) {
+  if (!today || !(today.limit > 0) || today.added < today.limit) return null;
+  const { added, limit, waiting } = today;
+  return {
+    title: `Hôm nay đã thêm ${added}/${limit} thẻ mới`,
+    detail: waiting > limit
+      ? `${waiting} thẻ đang chờ học, đủ cho khoảng ${Math.ceil(waiting / limit)} ngày.`
+      : `Anki cho học ${limit} thẻ mới mỗi ngày, thẻ thêm nữa sẽ chờ sang hôm sau.`,
+  };
+}
+
 export const formatTime = (/** @type {number} */ total) =>
   `${Math.floor(total / 60)}:${String(Math.floor(total % 60)).padStart(2, '0')}`;
 

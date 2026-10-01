@@ -54,6 +54,10 @@ def load_env_file(path):
 
 
 load_env_file(ROOT / "server/.env")
+# Anki turns the day at 4:00 by the clock of the machine it runs on, and a server's is not the
+# learner's: measured with TZ=UTC, "today" began at 11:00 in Vietnam, and every scheduler call
+# rewrote the synced localOffset to UTC's. Read before the collection opens, TZ fixes both.
+time.tzset()
 
 
 def env(name, default=None):
@@ -252,6 +256,22 @@ class Anki:
             self.col.sched.answerCard(card, 1)
         return {"updated": len(ours) if fields else 0, "kept": not fields}
 
+    # --- today ---
+
+    def today(self, deck):
+        """New cards added to deck today, the deck's new cards per day, and the new cards still waiting
+        to be studied: what the player warns with before it spends a lookup on another word. "Today"
+        is Anki's day by this machine's clock, which is why TZ is set (see load_env_file)."""
+        deck_id = self.col.decks.id_for_name(deck)
+        if deck_id is None:
+            return None
+        in_deck = f'"deck:{escape(deck)}"'
+        return {
+            "added": len(self.col.find_cards(f"{in_deck} added:1")),
+            "limit": self.col.decks.config_dict_for_deck_id(deck_id)["new"]["perDay"],
+            "waiting": len(self.col.find_cards(f"{in_deck} is:new -is:suspended -is:buried")),
+        }
+
 
 def escape(text):
     return "".join("\\" + c if c in '\\"*_' else c for c in str(text))
@@ -283,10 +303,11 @@ class Api:
         return result
 
     def peek(self, body):
-        """The saved card for the tapped word, so a known word is shown without asking DeepSeek."""
+        """The saved card for the tapped word, so a known word is shown without asking DeepSeek, and
+        today's count, so a new word past the day's limit can be stopped before DeepSeek is asked."""
         self.sync_quietly()
         with self.anki.lock:
-            return {"card": self.anki.saved_card(body.get("word", ""))}
+            return {"card": self.anki.saved_card(body.get("word", "")), "today": self.anki.today(self.deck)}
 
     def sync_quietly(self):
         """A sync that only reads ahead: failing it must not fail a read, as every write syncs again."""
@@ -301,7 +322,7 @@ class Api:
             self.anki.sync()
             note_id = self.anki.add(body["fields"], body.get("tags", []), self.deck)
             self.anki.sync()
-        return {"id": note_id, "deck": self.deck}
+            return {"id": note_id, "deck": self.deck, "today": self.anki.today(self.deck)}
 
     def relearn(self, body):
         with self.anki.lock:
@@ -375,7 +396,7 @@ def serve():
             self.wfile.write(data)
 
     host, port = env("HOST", "127.0.0.1"), int(env("PORT", "8787"))
-    print(f"Listening on http://{host}:{port}")
+    print(f"Listening on http://{host}:{port} · Anki's day by {time.strftime('%Z (UTC%z)')}")
     ThreadingHTTPServer((host, port), Handler).serve_forever()
 
 

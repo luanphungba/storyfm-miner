@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { markLine, highlight, pickSentence, noteData, plainText } from '../docs/card.js';
+import { markLine, highlight, pickSentence, noteData, plainText, dailyLimit } from '../docs/card.js';
 
 test('marks the tapped word inside its line', () => {
   assert.equal(markLine('我终于下定决心了', 5, 2), '我终于下定【决心】了');
@@ -48,4 +48,23 @@ test('builds the same note the extension builds for a storyfm line', () => {
 
 test('reads a saved field back as the text it shows', () => {
   assert.equal(plainText('我终于<b>下定决心</b>了 &amp; &lt;好&gt;'), '我终于下定决心了 & <好>');
+});
+
+test('lets a new word through until today\'s new cards fill the day', () => {
+  assert.equal(dailyLimit({ added: 9, limit: 10, waiting: 30 }), null);
+  assert.deepEqual(dailyLimit({ added: 10, limit: 10, waiting: 25 }), {
+    title: 'Hôm nay đã thêm 10/10 thẻ mới',
+    detail: '25 thẻ đang chờ học, đủ cho khoảng 3 ngày.',
+  });
+});
+
+test('says what one more card means when few are waiting', () => {
+  assert.equal(dailyLimit({ added: 12, limit: 10, waiting: 4 })?.detail,
+    'Anki cho học 10 thẻ mới mỗi ngày, thẻ thêm nữa sẽ chờ sang hôm sau.');
+});
+
+test('never stops a word for a server without counts or a deck paused at 0 new cards', () => {
+  assert.equal(dailyLimit(undefined), null);
+  assert.equal(dailyLimit(null), null);
+  assert.equal(dailyLimit({ added: 3, limit: 0, waiting: 3 }), null);
 });

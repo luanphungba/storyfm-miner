@@ -78,6 +78,12 @@ the phrase it belongs to), the card shows what it found — meaning editable —
 `CI-Chinese-YouTube` note to `Chinese::Mining`: the same note, field for field, as the CI Miner
 extension adds on the desktop. A word already in Anki offers **↺ Học lại** instead, as the extension does.
 
+Once today's new cards in the deck reach its *New cards/day*, a new word stops before DeepSeek is
+asked: the card says how many were added and how many days of new cards are already waiting, and
+offers **Nghe tiếp** (close, carry on listening) or **Vẫn thêm** (look it up anyway). "Today" is
+Anki's day, which turns at 4:00 by the server's clock, so `TZ` in `server/.env` is the learner's
+timezone.
+
 The page talks to `server/miner.py`, which keeps its own copy of the collection and syncs it through
 AnkiWeb like any other device. It only ever downloads a full collection, never uploads one, so reviews
 done elsewhere cannot be overwritten from it. The first time, the **Anki** chip asks for the server
