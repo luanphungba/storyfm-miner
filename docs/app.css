@@ -309,6 +309,7 @@ h1 {
 .is-studied .ch-n::before { content: "✓"; }
 #chapter-done { height: 30px; }
 #chapter-done[aria-pressed="true"] { border-color: var(--done); background: none; color: var(--done); }
+#open-listen:not([hidden]) { display: inline-flex; align-items: center; height: 30px; text-decoration: none; }
 
 /* ---------- player ---------- */
 
@@ -387,7 +388,7 @@ h1 {
 
 /* Fingers need a taller target, and under 16px iOS zooms the page when a time field is focused. */
 @media (pointer: coarse) {
-  .time-field, #loop-toggle, #loop-clear, #chapter-done, .player-toggles .chip, .chapterbar .chip { height: 38px; }
+  .time-field, #loop-toggle, #loop-clear, #chapter-done, #open-listen:not([hidden]), .player-toggles .chip, .chapterbar .chip { height: 38px; }
   .time-input { width: 76px; font-size: 16px; }
   .time-now { padding: 0 10px; font-size: 13px; }
 }
@@ -569,9 +570,9 @@ h1 {
   cursor: pointer;
 }
 
-/* ---------- Anki connection dialog ---------- */
+/* ---------- dialogs: the Anki connection, and confirming a chapter studied ---------- */
 
-#anki-dialog {
+#anki-dialog, #study-dialog {
   width: min(440px, calc(100vw - 32px));
   padding: 20px;
   border: 1px solid var(--line);
@@ -579,8 +580,9 @@ h1 {
   background: var(--surface);
   color: var(--fg);
 }
-#anki-dialog::backdrop { background: rgb(0 0 0 / .4); }
-#anki-dialog h2 { margin: 0 0 4px; font-size: 18px; }
+#anki-dialog::backdrop, #study-dialog::backdrop { background: rgb(0 0 0 / .4); }
+#anki-dialog h2, #study-dialog h2 { margin: 0 0 4px; font-size: 18px; }
+#study-dialog h2 { font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif; }
 #anki-dialog label { display: block; margin-top: 12px; font-size: 13px; color: var(--muted); }
 #anki-dialog input {
   display: block;

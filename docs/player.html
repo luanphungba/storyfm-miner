@@ -32,6 +32,7 @@
     <button class="chip" id="font-larger" type="button" title="Chữ to hơn" aria-label="Chữ to hơn">A+</button>
     <button class="chip" id="anki-settings" type="button" title="Kết nối server Anki">Anki</button>
     <a class="chip" id="open-bilibili" href="#" target="_blank" rel="noopener" style="text-decoration:none" title="Mở video trên Bilibili, đúng chỗ đang nghe" hidden>Bilibili ↗</a>
+    <a class="chip" href="listen.html" style="text-decoration:none" title="Phát lại các chương đã học">▶ Nghe lại</a>
     <a class="chip" href="index.html" style="text-decoration:none">← Danh sách</a>
   </div>
 
@@ -59,6 +60,7 @@
     <button class="chip" id="loop-toggle" type="button" aria-pressed="false" disabled>↻ Lặp</button>
     <button class="chip" id="loop-clear" type="button" title="Xoá đoạn lặp" hidden>✕</button>
     <button class="chip" id="chapter-done" type="button" aria-pressed="false" hidden>✓ Học xong</button>
+    <a class="chip" id="open-listen" href="listen.html" title="Phát lại các chương đã học" hidden>▶ Nghe lại</a>
     <span class="player-toggles">
       <a class="chip" id="to-list" href="index.html" title="Về danh sách tập">← Danh sách</a>
       <button class="chip" id="repeat-episode" type="button" aria-pressed="false" title="Hết bài thì phát lại từ đầu">Lặp cả bài</button>
@@ -92,6 +94,18 @@
       <span class="spacer"></span>
       <button class="chip" id="anki-cancel" type="button">Huỷ</button>
       <button class="chip is-primary" id="anki-save" type="submit">Lưu &amp; kiểm tra</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="study-dialog">
+  <form method="dialog">
+    <h2 id="study-title"></h2>
+    <p class="note" id="study-note"></p>
+    <div class="dialog-actions">
+      <span class="spacer"></span>
+      <button class="chip" value="cancel">Huỷ</button>
+      <button class="chip is-primary" id="study-confirm" value="confirm"></button>
     </div>
   </form>
 </dialog>

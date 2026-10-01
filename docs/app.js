@@ -424,6 +424,26 @@ function applyStudied(/** @type {{ chapters: import('./studied.js').Studied[], t
   showStudied();
 }
 
+const studyDialog = /** @type {HTMLDialogElement} */ ($('study-dialog'));
+
+/** One tap would otherwise add or drop a chapter, so the dialog says which way it goes and what
+ * happens to the list, and only "confirm" goes through: ✕, Esc and Huỷ all leave it as it was. */
+function confirmStudy(/** @type {typeof chapters[number]} */ c, /** @type {boolean} */ undo) {
+  const otherDays = (findStudied(studied, episode.id, c.start)?.dates.length ?? 0) > 1;
+  $('study-title').textContent = c.zh;
+  $('study-note').textContent = !undo
+    ? `Đánh dấu đã học hôm nay và thêm chương này vào danh sách Nghe lại. (${c.vi})`
+    : otherDays
+      ? 'Bỏ đánh dấu hôm nay? Chương vẫn ở trong Nghe lại với những ngày đã học trước.'
+      : 'Bỏ đánh dấu hôm nay? Chương sẽ bị gỡ khỏi danh sách Nghe lại.';
+  $('study-confirm').textContent = undo ? 'Bỏ đánh dấu' : '✓ Học xong';
+  studyDialog.returnValue = '';
+  studyDialog.showModal();
+  return new Promise((resolve) => {
+    studyDialog.addEventListener('close', () => resolve(studyDialog.returnValue === 'confirm'), { once: true });
+  });
+}
+
 const studiedToday = (/** @type {typeof chapters[number]} */ c) =>
   Boolean(findStudied(studied, episode.id, c.start)?.dates.includes(studyDay));
 
@@ -441,6 +461,8 @@ function showStudied() {
   studyButton.textContent = today ? '✓ Đã học hôm nay' : '✓ Học xong';
   studyButton.title = today ? 'Bấm lần nữa để bỏ đánh dấu hôm nay' : 'Đưa chương này vào danh sách Nghe lại';
   studyButton.setAttribute('aria-pressed', String(today));
+  // Right where the chapter was just added, the way to the list it went into.
+  $('open-listen').hidden = !(c && findStudied(studied, episode.id, c.start));
 }
 
 async function toggleStudied() {
@@ -451,9 +473,11 @@ async function toggleStudied() {
     miner.connect(toggleStudied);
     return;
   }
+  const undo = studiedToday(c);
+  if (!(await confirmStudy(c, undo))) return;
   studyButton.disabled = true;
   try {
-    applyStudied(studiedToday(c)
+    applyStudied(undo
       ? await call(connection, '/unstudy', { ep: episode.id, start: c.start })
       : await call(connection, '/study', {
         ep: episode.id, episode: episode.title, audio: audio.src, n: chapter.n, zh: c.zh, vi: c.vi, start: c.start, end: c.end,
