@@ -282,9 +282,11 @@ h1 {
 
 #loop-toggle { height: 30px; }
 #loop-clear { height: 30px; padding-inline: 10px; }
-/* Whole-episode switches, pushed right: apart from the segment controls, and under the thumb. */
+/* Whole-episode switches and the way back to the list, pushed right: apart from the segment
+ * controls, and under the thumb — the list link at the top of the page has scrolled away by then. */
 .player-toggles { display: flex; gap: 6px; margin-left: auto; }
 .player-toggles .chip { height: 30px; }
+.player-toggles a.chip { display: inline-flex; align-items: center; text-decoration: none; }
 
 /* Fingers need a taller target, and under 16px iOS zooms the page when a time field is focused. */
 @media (pointer: coarse) {
