@@ -8,7 +8,16 @@
   "sentences": {
     "0": {
       "zh": "Hello，大家好，欢迎大家回到新的一期瞎扯学中文。",
-      "vi": "Hello, chào mọi người, chào mừng mọi người trở lại với số mới của 瞎扯学中文."
+      "parts": [
+        {
+          "zh": "Hello，大家好，",
+          "vi": "Hello, chào mọi người,"
+        },
+        {
+          "zh": "欢迎大家回到新的一期瞎扯学中文。",
+          "vi": "chào mừng mọi người trở lại với số mới của 瞎扯学中文."
+        }
+      ]
     },
     "1": {
       "zh": "我是你们的host青青。",
@@ -16,11 +25,37 @@
     },
     "2": {
       "zh": "哦，对了，今天在开始节目之前呢，正好要感谢一下所有在Buy Me a Coffee的。",
-      "vi": "À, đúng rồi, hôm nay trước khi bắt đầu chương trình, mình muốn cảm ơn tất cả các bạn thính giả trên trang Buy Me a Coffee."
+      "parts": [
+        {
+          "zh": "哦，对了，今天在开始节目之前呢，",
+          "vi": "À, đúng rồi, hôm nay trước khi bắt đầu chương trình,"
+        },
+        {
+          "zh": "正好要感谢一下",
+          "vi": "mình muốn cảm ơn"
+        },
+        {
+          "zh": "所有在Buy Me a Coffee的。",
+          "vi": "tất cả các bạn thính giả trên Buy Me a Coffee,"
+        }
+      ]
     },
     "3": {
       "zh": "网站上给我买了咖啡，然后支持我们的播客的听众朋友们，谢谢大家。",
-      "vi": "đã mua cà phê cho mình, ủng hộ podcast của tụi mình, cảm ơn mọi người."
+      "parts": [
+        {
+          "zh": "网站上给我买了咖啡，",
+          "vi": "trên trang đó đã mua cà phê cho mình,"
+        },
+        {
+          "zh": "然后支持我们的播客的听众朋友们，",
+          "vi": "ủng hộ podcast của tụi mình,"
+        },
+        {
+          "zh": "谢谢大家。",
+          "vi": "cảm ơn mọi người."
+        }
+      ]
     },
     "4": {
       "zh": "谢谢大家。",
@@ -28,19 +63,87 @@
     },
     "5": {
       "zh": "好的，然后今天的啊，听听声音，大家能猜出来今天的这个嘉宾是谁吗？",
-      "vi": "Được rồi, thế hôm nay, à, nghe giọng thử xem, mọi người có đoán ra khách mời hôm nay là ai không?"
+      "parts": [
+        {
+          "zh": "好的，然后今天的啊，",
+          "vi": "Được rồi, thế hôm nay, à,"
+        },
+        {
+          "zh": "听听声音，大家能猜出来",
+          "vi": "nghe giọng thử xem, mọi người có đoán ra"
+        },
+        {
+          "zh": "今天的这个嘉宾是谁吗？",
+          "vi": "khách mời hôm nay là ai không?"
+        }
+      ]
     },
     "6": {
       "zh": "来，嘉宾你不要暴露名字，你可以说两句话让大家猜一猜。",
-      "vi": "Nào, khách mời đừng để lộ tên nhé, cậu nói hai câu cho mọi người đoán thử đi."
+      "parts": [
+        {
+          "zh": "来，嘉宾你不要暴露名字，",
+          "vi": "Nào, khách mời đừng để lộ tên nhé,"
+        },
+        {
+          "zh": "你可以说两句话让大家猜一猜。",
+          "vi": "cậu nói hai câu cho mọi người đoán thử đi."
+        }
+      ]
     },
     "7": {
       "zh": "没问题，Hello，大家好，大家能听出来我的声音吗？",
-      "vi": "Không vấn đề gì, hello, chào mọi người, mọi người có nghe ra giọng tớ không?"
+      "parts": [
+        {
+          "zh": "没问题，Hello，大家好，",
+          "vi": "Không vấn đề gì, hello, chào mọi người,"
+        },
+        {
+          "zh": "大家能听出来我的声音吗？",
+          "vi": "mọi người có nghe ra giọng tớ không?"
+        }
+      ]
     },
     "8": {
       "zh": "我们有好多听众都特别喜欢你上次我也感动了对小苏苏小苏苏现在还在加拿大呢所以现在是早晨的时间没错没错对刚才我们也唠了一会儿嗑然后对然后你刚想问我什么来着小苏苏我刚才是想说你今天的妆容非常的精致，",
-      "vi": "Có rất nhiều thính giả của tụi mình rất thích cậu, lần trước tớ cũng thấy cảm động. Đúng, là Tiểu Tô Tô. Tiểu Tô Tô bây giờ vẫn đang ở Canada, nên bây giờ bên đó là buổi sáng. Đúng rồi đúng rồi. Lúc nãy tụi mình cũng tán gẫu một lúc rồi, rồi thì, lúc nãy cậu định hỏi tớ gì ấy nhỉ, Tiểu Tô Tô? — Lúc nãy tớ định nói là hôm nay cậu trang điểm rất chỉn chu,"
+      "parts": [
+        {
+          "zh": "我们有好多听众都特别喜欢你",
+          "vi": "Có rất nhiều thính giả của tụi mình rất thích cậu,"
+        },
+        {
+          "zh": "上次我也感动了对小苏苏",
+          "vi": "lần trước tớ cũng thấy cảm động. Đúng, là Tiểu Tô Tô."
+        },
+        {
+          "zh": "小苏苏现在还在加拿大呢",
+          "vi": "Tiểu Tô Tô bây giờ vẫn đang ở Canada,"
+        },
+        {
+          "zh": "所以现在是早晨的时间",
+          "vi": "nên bây giờ bên đó là buổi sáng."
+        },
+        {
+          "zh": "没错没错对",
+          "vi": "Đúng rồi đúng rồi."
+        },
+        {
+          "zh": "刚才我们也唠了一会儿嗑然后对",
+          "vi": "Lúc nãy tụi mình cũng tán gẫu một lúc rồi, rồi thì,"
+        },
+        {
+          "zh": "然后你刚想问我什么来着小苏苏",
+          "vi": "lúc nãy cậu định hỏi tớ gì ấy nhỉ, Tiểu Tô Tô?"
+        },
+        {
+          "zh": "我刚才是想说你今天的",
+          "vi": "— Lúc nãy tớ định nói là hôm nay cậu"
+        },
+        {
+          "zh": "妆容非常的精致，",
+          "vi": "trang điểm rất chỉn chu,"
+        }
+      ]
     },
     "11": {
       "zh": "不知道是有什么好事吗？",
@@ -48,11 +151,29 @@
     },
     "12": {
       "zh": "没什么好事，我就是上班刚回家，上班穿的衣服。",
-      "vi": "Chẳng có chuyện gì vui đâu, tớ vừa đi làm về thôi, đây là quần áo đi làm."
+      "parts": [
+        {
+          "zh": "没什么好事，",
+          "vi": "Chẳng có chuyện gì vui đâu,"
+        },
+        {
+          "zh": "我就是上班刚回家，上班穿的衣服。",
+          "vi": "tớ vừa đi làm về thôi, đây là quần áo đi làm."
+        }
+      ]
     },
     "13": {
       "zh": "我最近剪了头发，我是周末刚剪的，剪的挺短的。",
-      "vi": "Dạo này tớ cắt tóc, cuối tuần vừa rồi mới cắt, cắt khá ngắn."
+      "parts": [
+        {
+          "zh": "我最近剪了头发，",
+          "vi": "Dạo này tớ cắt tóc,"
+        },
+        {
+          "zh": "我是周末刚剪的，剪的挺短的。",
+          "vi": "cuối tuần vừa rồi mới cắt, cắt khá ngắn."
+        }
+      ]
     },
     "14": {
       "zh": "为什么要剪短发？",
@@ -64,7 +185,16 @@
     },
     "16": {
       "zh": "你一直是短发，对小苏苏一直都是短头发。",
-      "vi": "Cậu lúc nào cũng tóc ngắn, đúng, Tiểu Tô Tô lúc nào cũng để tóc ngắn."
+      "parts": [
+        {
+          "zh": "你一直是短发，",
+          "vi": "Cậu lúc nào cũng tóc ngắn,"
+        },
+        {
+          "zh": "对小苏苏一直都是短头发。",
+          "vi": "đúng, Tiểu Tô Tô lúc nào cũng để tóc ngắn."
+        }
+      ]
     },
     "17": {
       "zh": "你为什么留短头发呢？",
@@ -72,7 +202,16 @@
     },
     "18": {
       "zh": "我觉得是因为我太懒了，因为我喜欢洗头，",
-      "vi": "Tớ nghĩ là vì tớ lười quá, vì tớ thích gội đầu,"
+      "parts": [
+        {
+          "zh": "我觉得是因为我太懒了，",
+          "vi": "Tớ nghĩ là vì tớ lười quá,"
+        },
+        {
+          "zh": "因为我喜欢洗头，",
+          "vi": "vì tớ thích gội đầu,"
+        }
+      ]
     },
     "19": {
       "zh": "我可能每天都要洗头。",
@@ -80,11 +219,33 @@
     },
     "20": {
       "zh": "我的新陈代谢比较旺盛，所以我不希望自己的头发特别的油腻，我就每天都会洗头。",
-      "vi": "Tớ trao đổi chất khá mạnh, nên tớ không muốn tóc mình bết dầu, nên ngày nào tớ cũng gội đầu."
+      "parts": [
+        {
+          "zh": "我的新陈代谢比较旺盛，",
+          "vi": "Tớ trao đổi chất khá mạnh,"
+        },
+        {
+          "zh": "所以我不希望自己的头发",
+          "vi": "nên tớ không muốn tóc mình"
+        },
+        {
+          "zh": "特别的油腻，我就每天都会洗头。",
+          "vi": "bết dầu, nên ngày nào tớ cũng gội đầu."
+        }
+      ]
     },
     "21": {
       "zh": "但我不想在洗头这件事上花费太多的时间，",
-      "vi": "Nhưng tớ không muốn tốn quá nhiều thời gian vào chuyện gội đầu,"
+      "parts": [
+        {
+          "zh": "但我不想在洗头这件事上",
+          "vi": "Nhưng tớ không muốn vào chuyện gội đầu"
+        },
+        {
+          "zh": "花费太多的时间，",
+          "vi": "mà tốn quá nhiều thời gian,"
+        }
+      ]
     },
     "22": {
       "zh": "所以我就把头发变成了短发。",
@@ -92,35 +253,123 @@
     },
     "23": {
       "zh": "我也是，我也每天都洗头，所以我我剪头发的主要原因也是啊长头发太麻烦了，",
-      "vi": "Tớ cũng vậy, tớ cũng ngày nào cũng gội đầu, nên lý do chính tớ, tớ cắt tóc cũng là, à, tóc dài phiền quá,"
+      "parts": [
+        {
+          "zh": "我也是，我也每天都洗头，",
+          "vi": "Tớ cũng vậy, tớ cũng ngày nào cũng gội đầu,"
+        },
+        {
+          "zh": "所以我我剪头发的主要原因也是啊",
+          "vi": "nên lý do chính tớ, tớ cắt tóc cũng là, à,"
+        },
+        {
+          "zh": "长头发太麻烦了，",
+          "vi": "tóc dài phiền quá,"
+        }
+      ]
     },
     "24": {
       "zh": "洗头要很长时间，吹头发也要很长时间，地上家里的地上全都是我的头发，就是很长就很明显。",
-      "vi": "gội đầu mất nhiều thời gian, sấy tóc cũng mất nhiều thời gian, dưới sàn, sàn nhà toàn là tóc tớ, tóc dài nên nhìn rõ lắm."
+      "parts": [
+        {
+          "zh": "洗头要很长时间，",
+          "vi": "gội đầu mất nhiều thời gian,"
+        },
+        {
+          "zh": "吹头发也要很长时间，",
+          "vi": "sấy tóc cũng mất nhiều thời gian,"
+        },
+        {
+          "zh": "地上家里的地上全都是我的头发，",
+          "vi": "dưới sàn, sàn nhà toàn là tóc tớ,"
+        },
+        {
+          "zh": "就是很长就很明显。",
+          "vi": "tóc dài nên nhìn rõ lắm."
+        }
+      ]
     },
     "25": {
       "zh": "然后还有一个就是最近促使我剪头发的原因之一，就是晚上我睡觉的时候。",
-      "vi": "Rồi còn một lý do nữa gần đây khiến tớ đi cắt tóc, là buổi tối lúc tớ ngủ."
+      "parts": [
+        {
+          "zh": "然后还有一个就是",
+          "vi": "Rồi còn một cái nữa là,"
+        },
+        {
+          "zh": "最近促使我剪头发的原因之一，",
+          "vi": "một trong những lý do gần đây khiến tớ đi cắt tóc,"
+        },
+        {
+          "zh": "就是晚上我睡觉的时候。",
+          "vi": "là buổi tối lúc tớ ngủ."
+        }
+      ]
     },
     "26": {
       "zh": "我翻身会把自己就压到自己的头发，然后翻不了身，很麻烦，",
-      "vi": "tớ trở mình là đè lên tóc của chính mình, rồi không trở mình được, phiền lắm,"
+      "parts": [
+        {
+          "zh": "我翻身会把自己就压到自己的头发，",
+          "vi": "tớ trở mình là đè lên tóc của chính mình,"
+        },
+        {
+          "zh": "然后翻不了身，很麻烦，",
+          "vi": "rồi không trở mình được, phiền lắm,"
+        }
+      ]
     },
     "27": {
       "zh": "所以还要特地用手去把头发拨开，简直太麻烦了。",
-      "vi": "nên còn phải cất công lấy tay vén tóc ra, đúng là phiền kinh khủng."
+      "parts": [
+        {
+          "zh": "所以还要特地用手去把头发拨开，",
+          "vi": "nên còn phải cất công lấy tay vén tóc ra,"
+        },
+        {
+          "zh": "简直太麻烦了。",
+          "vi": "đúng là phiền kinh khủng."
+        }
+      ]
     },
     "28": {
       "zh": "通过你的描述，我能想象到你的发量一定非常的惊人。",
-      "vi": "Nghe cậu tả, tớ tưởng tượng được là tóc cậu chắc phải dày kinh khủng."
+      "parts": [
+        {
+          "zh": "通过你的描述，我能想象到",
+          "vi": "Nghe cậu tả, tớ tưởng tượng được là"
+        },
+        {
+          "zh": "你的发量一定非常的惊人。",
+          "vi": "tóc cậu chắc phải dày kinh khủng."
+        }
+      ]
     },
     "29": {
       "zh": "其实我剪短发还有另一个原因，我觉得我最近有些聪明绝顶，",
-      "vi": "Thật ra tớ cắt tóc ngắn còn một lý do khác nữa, tớ thấy dạo này tớ hơi bị \"thông minh tuyệt đỉnh\" (聪明绝顶),"
+      "parts": [
+        {
+          "zh": "其实我剪短发还有另一个原因，",
+          "vi": "Thật ra tớ cắt tóc ngắn còn một lý do khác nữa,"
+        },
+        {
+          "zh": "我觉得我最近有些聪明绝顶，",
+          "vi": "tớ thấy dạo này tớ hơi bị \"thông minh tuyệt đỉnh\" (聪明绝顶),"
+        }
+      ]
     },
     "30": {
       "zh": "然后我觉得剪了短发之后会显得我发量格外的浓密和蓬松。",
-      "vi": "rồi tớ thấy cắt tóc ngắn xong thì tóc tớ sẽ trông dày và bồng bềnh hẳn lên."
+      "parts": [
+        {
+          "zh": "然后我觉得剪了短发之后",
+          "vi": "rồi tớ thấy cắt tóc ngắn xong"
+        },
+        {
+          "zh": "会显得我发量格外的浓密和蓬松。",
+          "vi": "thì tóc tớ sẽ trông dày và bồng bềnh hẳn lên."
+        }
+      ]
     },
     "31": {
       "zh": "聪明绝顶，可以跟大家解释一下。",
@@ -128,7 +377,20 @@
     },
     "32": {
       "zh": "嗯，聪明绝顶，嗯，我觉得它字面意思好像是太聪明了，以至于那个头顶上的头发都没有了，",
-      "vi": "Ừm, 聪明绝顶, ừm, tớ nghĩ nghĩa đen của nó hình như là thông minh quá, đến mức tóc trên đỉnh đầu rụng sạch,"
+      "parts": [
+        {
+          "zh": "嗯，聪明绝顶，嗯，",
+          "vi": "Ừm, 聪明绝顶, ừm,"
+        },
+        {
+          "zh": "我觉得它字面意思好像是太聪明了，",
+          "vi": "tớ nghĩ nghĩa đen của nó hình như là thông minh quá,"
+        },
+        {
+          "zh": "以至于那个头顶上的头发都没有了，",
+          "vi": "đến mức tóc trên đỉnh đầu rụng sạch,"
+        }
+      ]
     },
     "33": {
       "zh": "所以叫聪明绝顶。",
@@ -136,7 +398,20 @@
     },
     "34": {
       "zh": "但它传统意义上就是说这个人无比的聪明，已经达到了巅峰的状态。",
-      "vi": "Nhưng theo nghĩa truyền thống thì nó là nói người này thông minh vô cùng, đã đạt đến mức đỉnh cao."
+      "parts": [
+        {
+          "zh": "但它传统意义上就是说",
+          "vi": "Nhưng theo nghĩa truyền thống thì nó là nói"
+        },
+        {
+          "zh": "这个人无比的聪明，",
+          "vi": "người này thông minh vô cùng,"
+        },
+        {
+          "zh": "已经达到了巅峰的状态。",
+          "vi": "đã đạt đến mức đỉnh cao."
+        }
+      ]
     },
     "35": {
       "zh": "对对，就是大家有时候自嘲嘛。",
@@ -144,11 +419,29 @@
     },
     "36": {
       "zh": "嘲笑自己，就说自己头发掉了头发呀，然后发际线后移。",
-      "vi": "Chế giễu bản thân, kiểu nói mình rụng tóc ấy, rồi đường chân tóc lùi về sau."
+      "parts": [
+        {
+          "zh": "嘲笑自己，就说自己头发掉了头发呀，",
+          "vi": "Chế giễu bản thân, kiểu nói mình rụng tóc ấy,"
+        },
+        {
+          "zh": "然后发际线后移。",
+          "vi": "rồi đường chân tóc lùi về sau."
+        }
+      ]
     },
     "37": {
       "zh": "发际线，发际线就是你那个头发那根，就是怎么说头皮那根线吧？",
-      "vi": "Đường chân tóc, đường chân tóc là cái đường của tóc ấy, nói sao nhỉ, cái đường trên da đầu ấy?"
+      "parts": [
+        {
+          "zh": "发际线，发际线就是你那个头发那根，",
+          "vi": "Đường chân tóc, đường chân tóc là cái đường của tóc ấy,"
+        },
+        {
+          "zh": "就是怎么说头皮那根线吧？",
+          "vi": "nói sao nhỉ, cái đường trên da đầu ấy?"
+        }
+      ]
     },
     "38": {
       "zh": "后移嘛，然后就说啊，聪明绝顶了。",
@@ -160,19 +453,55 @@
     },
     "40": {
       "zh": "但你你一直留短头发也很麻烦，你不需要经常去理发店剪头发吗？",
-      "vi": "Nhưng cậu, cậu cứ để tóc ngắn suốt thì cũng phiền mà, cậu không phải thường xuyên ra tiệm cắt tóc à?"
+      "parts": [
+        {
+          "zh": "但你你一直留短头发也很麻烦，",
+          "vi": "Nhưng cậu, cậu cứ để tóc ngắn suốt thì cũng phiền mà,"
+        },
+        {
+          "zh": "你不需要经常去理发店剪头发吗？",
+          "vi": "cậu không phải thường xuyên ra tiệm cắt tóc à?"
+        }
+      ]
     },
     "41": {
       "zh": "也还好吧，我一般会剪完短发了之后，我不会剪齐刘海。",
-      "vi": "Cũng ổn thôi, tớ thường cắt tóc ngắn xong thì không cắt mái bằng."
+      "parts": [
+        {
+          "zh": "也还好吧，我一般会剪完短发了之后，",
+          "vi": "Cũng ổn thôi, tớ thường cắt tóc ngắn xong,"
+        },
+        {
+          "zh": "我不会剪齐刘海。",
+          "vi": "thì không cắt mái bằng."
+        }
+      ]
     },
     "42": {
       "zh": "所以只要不是剪齐刘海的情况下，头发长长了你就拨到两边，",
-      "vi": "Nên chỉ cần không cắt mái bằng, thì tóc mọc dài ra cậu cứ vén sang hai bên,"
+      "parts": [
+        {
+          "zh": "所以只要不是剪齐刘海的情况下，",
+          "vi": "Nên chỉ cần không cắt mái bằng,"
+        },
+        {
+          "zh": "头发长长了你就拨到两边，",
+          "vi": "thì tóc mọc dài ra cậu cứ vén sang hai bên,"
+        }
+      ]
     },
     "43": {
       "zh": "然后等它长到大概这个胸口的位置的时候，",
-      "vi": "rồi đợi đến lúc nó dài tới tầm ngực,"
+      "parts": [
+        {
+          "zh": "然后等它长到大概",
+          "vi": "rồi đợi đến lúc nó dài"
+        },
+        {
+          "zh": "这个胸口的位置的时候，",
+          "vi": "tới tầm ngực,"
+        }
+      ]
     },
     "44": {
       "zh": "应该已经过去六个月了。",
@@ -184,7 +513,20 @@
     },
     "46": {
       "zh": "呃，我跟你的策略是一样，但是我一般会留一整年哦，OK，我会留到头发就到那个腰左右，",
-      "vi": "Ờ, tớ cũng cùng chiến lược với cậu, nhưng tớ thường để nguyên cả năm, OK, tớ để tóc dài đến tầm eo,"
+      "parts": [
+        {
+          "zh": "呃，我跟你的策略是一样，",
+          "vi": "Ờ, tớ cũng cùng chiến lược với cậu,"
+        },
+        {
+          "zh": "但是我一般会留一整年哦，OK，",
+          "vi": "nhưng tớ thường để nguyên cả năm, OK,"
+        },
+        {
+          "zh": "我会留到头发就到那个腰左右，",
+          "vi": "tớ để tóc dài đến tầm eo,"
+        }
+      ]
     },
     "47": {
       "zh": "然后我就剪掉，剪特别短。",
@@ -192,15 +534,50 @@
     },
     "48": {
       "zh": "这说明你的头发长得还是挺快的，嗯，你说，",
-      "vi": "Thế chứng tỏ tóc cậu mọc cũng khá nhanh đấy, ừm, cậu nói đi,"
+      "parts": [
+        {
+          "zh": "这说明你的头发长得还是挺快的，",
+          "vi": "Thế chứng tỏ tóc cậu mọc cũng khá nhanh đấy,"
+        },
+        {
+          "zh": "嗯，你说，",
+          "vi": "ừm, cậu nói đi,"
+        }
+      ]
     },
     "49": {
       "zh": "嗯，今天主要想跟小苏苏聊的倒也不是头发这个事儿，就呃这个话题的契机呀，",
-      "vi": "Ừm, hôm nay điều mình muốn nói chuyện với Tiểu Tô Tô cũng không hẳn là chuyện tóc tai, mà là, ờ, cái dịp khơi ra chủ đề này ấy,"
+      "parts": [
+        {
+          "zh": "嗯，今天主要想跟小苏苏聊的",
+          "vi": "Ừm, hôm nay điều mình muốn nói chuyện với Tiểu Tô Tô"
+        },
+        {
+          "zh": "倒也不是头发这个事儿，",
+          "vi": "cũng không hẳn là chuyện tóc tai,"
+        },
+        {
+          "zh": "就呃这个话题的契机呀，",
+          "vi": "mà là, ờ, cái dịp khơi ra chủ đề này ấy,"
+        }
+      ]
     },
     "50": {
       "zh": "话题的起源是前两天我在办公室，呃，因为我是在公司里，我是做可持续发展，",
-      "vi": "chủ đề này bắt nguồn từ mấy hôm trước lúc tớ ở văn phòng, ờ, vì ở công ty tớ làm về phát triển bền vững,"
+      "parts": [
+        {
+          "zh": "话题的起源是前两天我在办公室，",
+          "vi": "chủ đề này bắt nguồn từ mấy hôm trước lúc tớ ở văn phòng,"
+        },
+        {
+          "zh": "呃，因为我是在公司里，",
+          "vi": "ờ, vì ở công ty,"
+        },
+        {
+          "zh": "我是做可持续发展，",
+          "vi": "tớ làm về phát triển bền vững,"
+        }
+      ]
     },
     "51": {
       "zh": "就是关于环境保护啊。",
@@ -208,11 +585,33 @@
     },
     "52": {
       "zh": "关于一些气候变化或者是防止污染之类的话题，然后呢，我们团队就在一起吃中饭，",
-      "vi": "về những chủ đề như biến đổi khí hậu hay phòng chống ô nhiễm, rồi thì nhóm tớ cùng nhau ăn trưa,"
+      "parts": [
+        {
+          "zh": "关于一些气候变化",
+          "vi": "về những chủ đề như biến đổi khí hậu"
+        },
+        {
+          "zh": "或者是防止污染之类的话题，",
+          "vi": "hay phòng chống ô nhiễm,"
+        },
+        {
+          "zh": "然后呢，我们团队就在一起吃中饭，",
+          "vi": "rồi thì nhóm tớ cùng nhau ăn trưa,"
+        }
+      ]
     },
     "53": {
       "zh": "大家就说起来说，大家原来都是学什么专业的？",
-      "vi": "mọi người mới nói chuyện, hồi trước mọi người học ngành gì?"
+      "parts": [
+        {
+          "zh": "大家就说起来说，",
+          "vi": "mọi người mới nói chuyện,"
+        },
+        {
+          "zh": "大家原来都是学什么专业的？",
+          "vi": "hồi trước mọi người học ngành gì?"
+        }
+      ]
     },
     "54": {
       "zh": "大家是学什么专业？",
@@ -224,11 +623,33 @@
     },
     "56": {
       "zh": "就把我们领到了同一个团队，然后我就发现我们我们团队就是。",
-      "vi": "lại đưa tụi tớ về cùng một nhóm, rồi tớ phát hiện nhóm tớ ấy."
+      "parts": [
+        {
+          "zh": "就把我们领到了同一个团队，",
+          "vi": "lại đưa tụi tớ về cùng một nhóm,"
+        },
+        {
+          "zh": "然后我就发现我们我们团队就是。",
+          "vi": "rồi tớ phát hiện nhóm tớ ấy."
+        }
+      ]
     },
     "57": {
       "zh": "原来学什么专业的都有，大学里哈有的是学嗯机器人，有的学编程的，有一些学经济的，",
-      "vi": "hóa ra học ngành gì cũng có, hồi đại học ấy, người thì học, ừm, robot, người học lập trình, có người học kinh tế,"
+      "parts": [
+        {
+          "zh": "原来学什么专业的都有，",
+          "vi": "hóa ra học ngành gì cũng có,"
+        },
+        {
+          "zh": "大学里哈有的是学嗯机器人，",
+          "vi": "hồi đại học ấy, người thì học, ừm, robot,"
+        },
+        {
+          "zh": "有的学编程的，有一些学经济的，",
+          "vi": "người học lập trình, có người học kinh tế,"
+        }
+      ]
     },
     "58": {
       "zh": "有一些学什么什么都有嘛。",
@@ -236,7 +657,16 @@
     },
     "59": {
       "zh": "然后就想到这个话题，就是当年我们怎么选专业？",
-      "vi": "Thế là tớ nghĩ ra chủ đề này, là hồi đó tụi mình chọn ngành như thế nào?"
+      "parts": [
+        {
+          "zh": "然后就想到这个话题，",
+          "vi": "Thế là tớ nghĩ ra chủ đề này,"
+        },
+        {
+          "zh": "就是当年我们怎么选专业？",
+          "vi": "là hồi đó tụi mình chọn ngành như thế nào?"
+        }
+      ]
     },
     "60": {
       "zh": "就是选专业他的考虑有什么？",
@@ -244,7 +674,16 @@
     },
     "61": {
       "zh": "然后你觉得选专业对后面的人生道路到底有什么？",
-      "vi": "Rồi cậu thấy chọn ngành đối với con đường đời sau này rốt cuộc có gì?"
+      "parts": [
+        {
+          "zh": "然后你觉得选专业",
+          "vi": "Rồi cậu thấy chọn ngành"
+        },
+        {
+          "zh": "对后面的人生道路到底有什么？",
+          "vi": "đối với con đường đời sau này rốt cuộc có gì?"
+        }
+      ]
     },
     "62": {
       "zh": "有没有影响？",
@@ -252,31 +691,118 @@
     },
     "63": {
       "zh": "哎，我觉得你这个问题问的特别的有趣深刻，但我的答案可能会显得非常的幼稚肤浅。",
-      "vi": "Ôi, tớ thấy câu hỏi này của cậu cực kỳ thú vị và sâu sắc, nhưng câu trả lời của tớ có lẽ sẽ nghe rất ngây ngô, nông cạn."
+      "parts": [
+        {
+          "zh": "哎，我觉得你这个问题",
+          "vi": "Ôi, tớ thấy câu hỏi này của cậu"
+        },
+        {
+          "zh": "问的特别的有趣深刻，",
+          "vi": "cực kỳ thú vị và sâu sắc,"
+        },
+        {
+          "zh": "但我的答案可能会显得",
+          "vi": "nhưng câu trả lời của tớ có lẽ sẽ nghe"
+        },
+        {
+          "zh": "非常的幼稚肤浅。",
+          "vi": "rất ngây ngô, nông cạn."
+        }
+      ]
     },
     "64": {
       "zh": "因为我当时跟你说实话，我这个人就是好像开窍会比较晚，所以我当时上高中，",
-      "vi": "Vì hồi đó, nói thật với cậu, tớ hình như là kiểu người \"mở mang đầu óc\" muộn, nên hồi tớ học cấp ba,"
+      "parts": [
+        {
+          "zh": "因为我当时跟你说实话，",
+          "vi": "Vì hồi đó, nói thật với cậu,"
+        },
+        {
+          "zh": "我这个人就是好像开窍会比较晚，",
+          "vi": "tớ hình như là kiểu người \"mở mang đầu óc\" muộn,"
+        },
+        {
+          "zh": "所以我当时上高中，",
+          "vi": "nên hồi tớ học cấp ba,"
+        }
+      ]
     },
     "65": {
       "zh": "然后刚上大学的那个时候，我就是一个没有什么太多自主思想的一个人。",
-      "vi": "rồi lúc mới vào đại học, tớ là người chẳng có mấy chính kiến riêng."
+      "parts": [
+        {
+          "zh": "然后刚上大学的那个时候，",
+          "vi": "rồi lúc mới vào đại học,"
+        },
+        {
+          "zh": "我就是一个没有什么",
+          "vi": "tớ là người chẳng có mấy"
+        },
+        {
+          "zh": "太多自主思想的一个人。",
+          "vi": "chính kiến riêng."
+        }
+      ]
     },
     "66": {
       "zh": "所以当时我选专业其实也很简单，就是两个原因：一，我爸让我选什么；二。",
-      "vi": "Nên hồi đó tớ chọn ngành thật ra cũng đơn giản lắm, vì hai lý do: một, bố tớ bảo chọn gì; hai."
+      "parts": [
+        {
+          "zh": "所以当时我选专业其实也很简单，",
+          "vi": "Nên hồi đó tớ chọn ngành thật ra cũng đơn giản lắm,"
+        },
+        {
+          "zh": "就是两个原因：一，我爸让我选什么；二。",
+          "vi": "vì hai lý do: một, bố tớ bảo chọn gì; hai."
+        }
+      ]
     },
     "67": {
       "zh": "二，那个我考上了哪个专业我就上了哪个专业，所以当时其实很简单。",
-      "vi": "hai, là tớ đỗ ngành nào thì học ngành đó, nên hồi đó thật ra rất đơn giản."
+      "parts": [
+        {
+          "zh": "二，那个我考上了哪个专业",
+          "vi": "hai, là tớ đỗ ngành nào"
+        },
+        {
+          "zh": "我就上了哪个专业，",
+          "vi": "thì học ngành đó,"
+        },
+        {
+          "zh": "所以当时其实很简单。",
+          "vi": "nên hồi đó thật ra rất đơn giản."
+        }
+      ]
     },
     "68": {
       "zh": "我自己内心可能那个时候我其实挺喜欢艺术的，我就喜欢画画儿。",
-      "vi": "Trong lòng tớ lúc đó có lẽ thật ra khá thích nghệ thuật, tớ thích vẽ."
+      "parts": [
+        {
+          "zh": "我自己内心可能那个时候",
+          "vi": "Trong lòng tớ lúc đó có lẽ"
+        },
+        {
+          "zh": "我其实挺喜欢艺术的，",
+          "vi": "thật ra khá thích nghệ thuật,"
+        },
+        {
+          "zh": "我就喜欢画画儿。",
+          "vi": "tớ thích vẽ."
+        }
+      ]
     },
     "69": {
       "zh": "然后那个时候我就觉得哇哦，如果我可以学建筑，",
-      "vi": "Rồi lúc đó tớ nghĩ, oa, nếu mình được học kiến trúc,"
+      "parts": [
+        {
+          "zh": "然后那个时候我就觉得哇哦，",
+          "vi": "Rồi lúc đó tớ nghĩ, oa,"
+        },
+        {
+          "zh": "如果我可以学建筑，",
+          "vi": "nếu mình được học kiến trúc,"
+        }
+      ]
     },
     "70": {
       "zh": "那会是一个多么酷的事情！",
@@ -284,31 +810,134 @@
     },
     "71": {
       "zh": "所以我当时其实考了那个清华的建筑系。",
-      "vi": "Nên hồi đó tớ thật ra đã thi vào khoa kiến trúc của Thanh Hoa."
+      "parts": [
+        {
+          "zh": "所以我当时其实考了",
+          "vi": "Nên hồi đó tớ thật ra đã thi"
+        },
+        {
+          "zh": "那个清华的建筑系。",
+          "vi": "vào khoa kiến trúc của Thanh Hoa."
+        }
+      ]
     },
     "72": {
       "zh": "同时呢，我爸又说：“哎，弯弯，因为我的小名叫弯弯，就你这个脑子，嗯，我觉得你就学一。”",
-      "vi": "Đồng thời, bố tớ lại bảo: \"Này, Loan Loan — vì tên ở nhà của tớ là Loan Loan — với cái đầu óc của con, ừm, bố thấy con cứ học một.\""
+      "parts": [
+        {
+          "zh": "同时呢，我爸又说：“哎，弯弯，",
+          "vi": "Đồng thời, bố tớ lại bảo: \"Này, Loan Loan,"
+        },
+        {
+          "zh": "因为我的小名叫弯弯，",
+          "vi": "— vì tên ở nhà của tớ là Loan Loan —"
+        },
+        {
+          "zh": "就你这个脑子，嗯，我觉得你就学一。”",
+          "vi": "với cái đầu óc của con, ừm, bố thấy con cứ học một.\""
+        }
+      ]
     },
     "73": {
       "zh": "简单一点的好找工作的吧你就去考一下那个会计所以我当时报考志愿的时候就报了那个建筑系和会计系后来呢这个学校我是两个专业都勉强考上了好那你的分数也很不错了因为清华的建筑系分数是挺高的对因为我也是我们俩是大学同学嘛对对对就先给大家剧透一下吧，",
-      "vi": "cái gì đơn giản một chút, dễ kiếm việc ấy, con đi thi kế toán đi. Nên hồi điền nguyện vọng, tớ đăng ký khoa kiến trúc và khoa kế toán. Sau đó thì trường này tớ đỗ cả hai ngành, dù là sát nút. — Được đấy, điểm của cậu cũng cao đấy chứ, vì điểm khoa kiến trúc Thanh Hoa khá cao. — Đúng, vì tớ cũng là, hai đứa mình là bạn học đại học mà. — Đúng đúng đúng, tiết lộ trước với mọi người luôn nhé,"
+      "parts": [
+        {
+          "zh": "简单一点的好找工作的吧",
+          "vi": "cái gì đơn giản một chút, dễ kiếm việc ấy,"
+        },
+        {
+          "zh": "你就去考一下那个会计",
+          "vi": "con đi thi kế toán đi.\""
+        },
+        {
+          "zh": "所以我当时报考志愿的时候",
+          "vi": "Nên hồi điền nguyện vọng,"
+        },
+        {
+          "zh": "就报了那个建筑系和会计系",
+          "vi": "tớ đăng ký khoa kiến trúc và khoa kế toán."
+        },
+        {
+          "zh": "后来呢这个学校",
+          "vi": "Sau đó thì trường này,"
+        },
+        {
+          "zh": "我是两个专业都勉强考上了",
+          "vi": "tớ đỗ cả hai ngành, dù là sát nút."
+        },
+        {
+          "zh": "好那你的分数也很不错了",
+          "vi": "— Được đấy, điểm của cậu cũng cao đấy chứ,"
+        },
+        {
+          "zh": "因为清华的建筑系分数是挺高的",
+          "vi": "vì điểm khoa kiến trúc Thanh Hoa khá cao."
+        },
+        {
+          "zh": "对因为我也是我们俩是大学同学嘛",
+          "vi": "— Đúng, vì tớ cũng là, hai đứa mình là bạn học đại học mà."
+        },
+        {
+          "zh": "对对对就先给大家剧透一下吧，",
+          "vi": "— Đúng đúng đúng, tiết lộ trước với mọi người luôn nhé,"
+        }
+      ]
     },
     "76": {
       "zh": "我们因为是大学同学，所以我们学的是一个专业。",
-      "vi": "vì tụi mình là bạn học đại học, nên tụi mình học cùng một ngành."
+      "parts": [
+        {
+          "zh": "我们因为是大学同学，",
+          "vi": "vì tụi mình là bạn học đại học,"
+        },
+        {
+          "zh": "所以我们学的是一个专业。",
+          "vi": "nên tụi mình học cùng một ngành."
+        }
+      ]
     },
     "77": {
       "zh": "我们都是清华经济管理学院的会计系，会计就是记账，",
-      "vi": "Tụi mình đều học khoa kế toán của Học viện Kinh tế và Quản lý Thanh Hoa, kế toán tức là ghi sổ sách,"
+      "parts": [
+        {
+          "zh": "我们都是清华",
+          "vi": "Tụi mình đều học ở Thanh Hoa,"
+        },
+        {
+          "zh": "经济管理学院的会计系，",
+          "vi": "khoa kế toán của Học viện Kinh tế và Quản lý,"
+        },
+        {
+          "zh": "会计就是记账，",
+          "vi": "kế toán tức là ghi sổ sách,"
+        }
+      ]
     },
     "78": {
       "zh": "在在公司里面这个有一些这个记利润呐这些的，嗯，对。",
-      "vi": "trong, trong công ty thì kiểu ghi chép lợi nhuận này nọ, ừm, đúng."
+      "parts": [
+        {
+          "zh": "在在公司里面这个",
+          "vi": "trong, trong công ty thì kiểu"
+        },
+        {
+          "zh": "有一些这个记利润呐这些的，嗯，对。",
+          "vi": "ghi chép lợi nhuận này nọ, ừm, đúng."
+        }
+      ]
     },
     "79": {
       "zh": "所以你当时报了会计和建筑都都报上了，",
-      "vi": "Nên hồi đó cậu đăng ký cả kế toán và kiến trúc, và đều đỗ cả,"
+      "parts": [
+        {
+          "zh": "所以你当时报了会计和建筑",
+          "vi": "Nên hồi đó cậu đăng ký cả kế toán và kiến trúc,"
+        },
+        {
+          "zh": "都都报上了，",
+          "vi": "và đều đỗ cả,"
+        }
+      ]
     },
     "80": {
       "zh": "对，报上了。",
@@ -316,7 +945,16 @@
     },
     "81": {
       "zh": "然后当时那个清华的招生办的老师就问我说：“哎，小苏，你想上哪个专业呀？”",
-      "vi": "Rồi lúc đó thầy cô phòng tuyển sinh của Thanh Hoa hỏi tớ: \"Này, Tiểu Tô, em muốn học ngành nào?\""
+      "parts": [
+        {
+          "zh": "然后当时那个清华的招生办的老师",
+          "vi": "Rồi lúc đó thầy cô phòng tuyển sinh của Thanh Hoa"
+        },
+        {
+          "zh": "就问我说：“哎，小苏，你想上哪个专业呀？”",
+          "vi": "hỏi tớ: \"Này, Tiểu Tô, em muốn học ngành nào?\""
+        }
+      ]
     },
     "82": {
       "zh": "然后我就说：“都行吧，我也。”",
@@ -328,11 +966,33 @@
     },
     "84": {
       "zh": "然后那个，嗯，当时说实话好像是因为我数学那一门分考的比较低，",
-      "vi": "rồi thì, ừm, lúc đó nói thật là hình như vì môn toán của tớ thi điểm khá thấp,"
+      "parts": [
+        {
+          "zh": "然后那个，嗯，当时说实话好像是因为",
+          "vi": "rồi thì, ừm, lúc đó nói thật là hình như vì"
+        },
+        {
+          "zh": "我数学那一门分考的比较低，",
+          "vi": "môn toán của tớ thi điểm khá thấp,"
+        }
+      ]
     },
     "85": {
       "zh": "然后清华的老师觉得这孩子上建筑系应该够呛，比较勉强，让他去学会计吧。",
-      "vi": "nên thầy cô Thanh Hoa thấy đứa này vào khoa kiến trúc chắc khó trụ nổi, hơi đuối, cho nó đi học kế toán đi."
+      "parts": [
+        {
+          "zh": "然后清华的老师觉得",
+          "vi": "nên thầy cô Thanh Hoa thấy"
+        },
+        {
+          "zh": "这孩子上建筑系应该够呛，",
+          "vi": "đứa này vào khoa kiến trúc chắc khó trụ nổi,"
+        },
+        {
+          "zh": "比较勉强，让他去学会计吧。",
+          "vi": "hơi đuối, cho nó đi học kế toán đi."
+        }
+      ]
     },
     "86": {
       "zh": "然后我就去学了会计。",
@@ -348,23 +1008,80 @@
     },
     "89": {
       "zh": "他其实我到现在也不太清楚，但是当时老师给我的反馈是，",
-      "vi": "Cái đó thật ra đến giờ tớ cũng không rõ lắm, nhưng phản hồi thầy đưa cho tớ lúc đó là,"
+      "parts": [
+        {
+          "zh": "他其实我到现在也不太清楚，",
+          "vi": "Cái đó thật ra đến giờ tớ cũng không rõ lắm,"
+        },
+        {
+          "zh": "但是当时老师给我的反馈是，",
+          "vi": "nhưng phản hồi thầy đưa cho tớ lúc đó là,"
+        }
+      ]
     },
     "90": {
       "zh": "他说他觉得我的数学成绩没有那么理想，然后他。",
-      "vi": "thầy bảo thầy thấy điểm toán của tớ không được lý tưởng lắm, rồi thầy."
+      "parts": [
+        {
+          "zh": "他说他觉得",
+          "vi": "thầy bảo thầy thấy"
+        },
+        {
+          "zh": "我的数学成绩没有那么理想，然后他。",
+          "vi": "điểm toán của tớ không được lý tưởng lắm, rồi thầy."
+        }
+      ]
     },
     "91": {
       "zh": "建筑系它其实画图要求非常高，就是要天天画图，所以我们当时也考了素描。",
-      "vi": "Khoa kiến trúc thật ra yêu cầu vẽ rất cao, tức là ngày nào cũng phải vẽ, nên hồi đó tụi tớ còn phải thi cả ký họa."
+      "parts": [
+        {
+          "zh": "建筑系它其实画图要求非常高，",
+          "vi": "Khoa kiến trúc thật ra yêu cầu vẽ rất cao,"
+        },
+        {
+          "zh": "就是要天天画图，",
+          "vi": "tức là ngày nào cũng phải vẽ,"
+        },
+        {
+          "zh": "所以我们当时也考了素描。",
+          "vi": "nên hồi đó tụi tớ còn phải thi cả ký họa."
+        }
+      ]
     },
     "92": {
       "zh": "虽然我的成绩过关了，但其实我视力一直很差，你知道，我有一千多度的近视，",
-      "vi": "Tuy điểm của tớ đạt, nhưng thật ra thị lực tớ trước giờ rất kém, cậu biết đấy, tớ cận hơn mười độ,"
+      "parts": [
+        {
+          "zh": "虽然我的成绩过关了，",
+          "vi": "Tuy điểm của tớ đạt,"
+        },
+        {
+          "zh": "但其实我视力一直很差，你知道，",
+          "vi": "nhưng thật ra thị lực tớ trước giờ rất kém, cậu biết đấy,"
+        },
+        {
+          "zh": "我有一千多度的近视，",
+          "vi": "tớ cận hơn mười độ,"
+        }
+      ]
     },
     "93": {
       "zh": "所以考虑到这一点，我觉得老师和我爸爸应该都觉得我不适合做用眼强度这么大的工作，",
-      "vi": "nên xét đến điểm này, tớ nghĩ thầy và bố tớ chắc đều thấy tớ không hợp làm công việc phải dùng mắt nhiều đến vậy,"
+      "parts": [
+        {
+          "zh": "所以考虑到这一点，",
+          "vi": "nên xét đến điểm này,"
+        },
+        {
+          "zh": "我觉得老师和我爸爸应该都觉得",
+          "vi": "tớ nghĩ thầy và bố tớ chắc đều thấy"
+        },
+        {
+          "zh": "我不适合做用眼强度这么大的工作，",
+          "vi": "tớ không hợp làm công việc phải dùng mắt nhiều đến vậy,"
+        }
+      ]
     },
     "94": {
       "zh": "所以我就做了会计。",
@@ -404,11 +1121,33 @@
     },
     "103": {
       "zh": "我觉得其实我们选会计的理由都差不多，就可能也是我我爸妈选的专业，",
-      "vi": "Tớ thấy thật ra lý do tụi mình chọn kế toán cũng na ná nhau, có lẽ cũng là ngành bố mẹ tớ chọn,"
+      "parts": [
+        {
+          "zh": "我觉得其实",
+          "vi": "Tớ thấy thật ra"
+        },
+        {
+          "zh": "我们选会计的理由都差不多，",
+          "vi": "lý do tụi mình chọn kế toán cũng na ná nhau,"
+        },
+        {
+          "zh": "就可能也是我我爸妈选的专业，",
+          "vi": "có lẽ cũng là ngành bố mẹ tớ chọn,"
+        }
+      ]
     },
     "104": {
       "zh": "因为感觉会计就是一个非常嗯朴素、非常接地气、好找工作的。",
-      "vi": "vì cảm giác kế toán là một ngành rất, ừm, giản dị, rất thực tế, dễ kiếm việc."
+      "parts": [
+        {
+          "zh": "因为感觉会计就是一个非常嗯朴素、",
+          "vi": "vì cảm giác kế toán là một ngành rất, ừm, giản dị,"
+        },
+        {
+          "zh": "非常接地气、好找工作的。",
+          "vi": "rất thực tế, dễ kiếm việc."
+        }
+      ]
     },
     "105": {
       "zh": "这么一个专业，对不对？",
@@ -424,15 +1163,46 @@
     },
     "108": {
       "zh": "虽然我不知道万金油是什么意思，但应该就是指它非常的灵活，适用于各种各样的场合。",
-      "vi": "tuy tớ không biết 万金油 là gì, nhưng chắc là để chỉ nó rất linh hoạt, dùng được trong đủ mọi hoàn cảnh."
+      "parts": [
+        {
+          "zh": "虽然我不知道万金油是什么意思，",
+          "vi": "tuy tớ không biết 万金油 là gì,"
+        },
+        {
+          "zh": "但应该就是指它非常的灵活，",
+          "vi": "nhưng chắc là để chỉ nó rất linh hoạt,"
+        },
+        {
+          "zh": "适用于各种各样的场合。",
+          "vi": "dùng được trong đủ mọi hoàn cảnh."
+        }
+      ]
     },
     "109": {
       "zh": "万金油肯定本来是一种油吧，然后那个油可能什么地方都能用，",
-      "vi": "万金油 chắc vốn là một loại dầu, rồi loại dầu đó có lẽ chỗ nào cũng dùng được,"
+      "parts": [
+        {
+          "zh": "万金油肯定本来是一种油吧，",
+          "vi": "万金油 chắc vốn là một loại dầu,"
+        },
+        {
+          "zh": "然后那个油可能什么地方都能用，",
+          "vi": "rồi loại dầu đó có lẽ chỗ nào cũng dùng được,"
+        }
+      ]
     },
     "110": {
       "zh": "所以现在我们就说什么什么东西是万金油。",
-      "vi": "nên bây giờ mình hay nói cái gì cái gì là 万金油."
+      "parts": [
+        {
+          "zh": "所以现在我们就说",
+          "vi": "nên bây giờ mình hay nói"
+        },
+        {
+          "zh": "什么什么东西是万金油。",
+          "vi": "cái gì cái gì là 万金油."
+        }
+      ]
     },
     "111": {
       "zh": "嗯，而且我们家是因为。",
@@ -440,7 +1210,20 @@
     },
     "112": {
       "zh": "就正好我外公也是会计，所以可能我我妈妈就觉得这个一代衣钵相承，一代一代传下来，",
-      "vi": "đúng lúc ông ngoại tớ cũng là kế toán, nên có lẽ mẹ tớ thấy kiểu như nối nghiệp, đời này truyền cho đời sau,"
+      "parts": [
+        {
+          "zh": "就正好我外公也是会计，",
+          "vi": "đúng lúc ông ngoại tớ cũng là kế toán,"
+        },
+        {
+          "zh": "所以可能我我妈妈就觉得",
+          "vi": "nên có lẽ mẹ tớ thấy"
+        },
+        {
+          "zh": "这个一代衣钵相承，一代一代传下来，",
+          "vi": "kiểu như nối nghiệp, đời này truyền cho đời sau,"
+        }
+      ]
     },
     "113": {
       "zh": "我也可以学会计。",
@@ -448,7 +1231,16 @@
     },
     "114": {
       "zh": "但是你觉得现在的小朋友，哎，就说呃，在我问这个问题之前，小苏苏，",
-      "vi": "Nhưng cậu thấy trẻ con bây giờ, à, nói là, ờ, trước khi tớ hỏi câu này, Tiểu Tô Tô,"
+      "parts": [
+        {
+          "zh": "但是你觉得现在的小朋友，哎，就说呃，",
+          "vi": "Nhưng cậu thấy trẻ con bây giờ, à, nói là, ờ,"
+        },
+        {
+          "zh": "在我问这个问题之前，小苏苏，",
+          "vi": "trước khi tớ hỏi câu này, Tiểu Tô Tô,"
+        }
+      ]
     },
     "115": {
       "zh": "你小时候有没有什么梦想？",
@@ -456,7 +1248,16 @@
     },
     "116": {
       "zh": "你小时候就是比如说初中啊或者小学的时候。",
-      "vi": "Hồi nhỏ ấy, ví dụ như hồi cấp hai hay tiểu học."
+      "parts": [
+        {
+          "zh": "你小时候就是",
+          "vi": "hồi nhỏ ấy,"
+        },
+        {
+          "zh": "比如说初中啊或者小学的时候。",
+          "vi": "ví dụ như hồi cấp hai hay tiểu học."
+        }
+      ]
     },
     "117": {
       "zh": "最想当什么职业，",
@@ -472,11 +1273,33 @@
     },
     "120": {
       "zh": "就是我感觉我其实是在我上大学之前，我是一个非常缺乏社会化的人，",
-      "vi": "Tớ thấy thật ra trước khi vào đại học, tớ là người rất thiếu va chạm xã hội,"
+      "parts": [
+        {
+          "zh": "就是我感觉",
+          "vi": "Tớ thấy"
+        },
+        {
+          "zh": "我其实是在我上大学之前，",
+          "vi": "thật ra trước khi vào đại học,"
+        },
+        {
+          "zh": "我是一个非常缺乏社会化的人，",
+          "vi": "tớ là người rất thiếu va chạm xã hội,"
+        }
+      ]
     },
     "121": {
       "zh": "就是我总是会有一些非常不切实际的，",
-      "vi": "tớ lúc nào cũng có những ý nghĩ rất viển vông,"
+      "parts": [
+        {
+          "zh": "就是我总是会有一些",
+          "vi": "tớ lúc nào cũng có những"
+        },
+        {
+          "zh": "非常不切实际的，",
+          "vi": "ý nghĩ rất viển vông,"
+        }
+      ]
     },
     "122": {
       "zh": "嗯，充满幻想的一些想法。",
@@ -484,7 +1307,24 @@
     },
     "123": {
       "zh": "所以我在小小时候上小学啊或者中学的时候，我特别的沉迷于这个武侠电视剧和古装剧。",
-      "vi": "Nên hồi bé tí, lúc học tiểu học hay trung học, tớ cực kỳ mê phim truyền hình võ hiệp và phim cổ trang."
+      "parts": [
+        {
+          "zh": "所以我在小小时候",
+          "vi": "Nên hồi bé tí,"
+        },
+        {
+          "zh": "上小学啊或者中学的时候，",
+          "vi": "lúc học tiểu học hay trung học,"
+        },
+        {
+          "zh": "我特别的沉迷于这个",
+          "vi": "tớ cực kỳ mê"
+        },
+        {
+          "zh": "武侠电视剧和古装剧。",
+          "vi": "phim truyền hình võ hiệp và phim cổ trang."
+        }
+      ]
     },
     "124": {
       "zh": "嗯，",
@@ -500,19 +1340,63 @@
     },
     "127": {
       "zh": "我从小到大我就觉得我自己一身侠气，然后我特别喜欢看那个小李飞刀，",
-      "vi": "Từ nhỏ đến lớn tớ luôn thấy mình đầy khí chất hiệp nghĩa, rồi tớ đặc biệt thích xem Tiểu Lý Phi Đao,"
+      "parts": [
+        {
+          "zh": "我从小到大",
+          "vi": "Từ nhỏ đến lớn"
+        },
+        {
+          "zh": "我就觉得我自己一身侠气，",
+          "vi": "tớ luôn thấy mình đầy khí chất hiệp nghĩa,"
+        },
+        {
+          "zh": "然后我特别喜欢看那个小李飞刀，",
+          "vi": "rồi tớ đặc biệt thích xem Tiểu Lý Phi Đao,"
+        }
+      ]
     },
     "128": {
       "zh": "我不知道你有没有看过，就是那种金庸古龙射雕英雄传这种古装剧，",
-      "vi": "không biết cậu xem chưa, là kiểu phim cổ trang như của Kim Dung, Cổ Long, Anh hùng xạ điêu ấy,"
+      "parts": [
+        {
+          "zh": "我不知道你有没有看过，",
+          "vi": "không biết cậu xem chưa,"
+        },
+        {
+          "zh": "就是那种金庸古龙",
+          "vi": "là kiểu của Kim Dung, Cổ Long,"
+        },
+        {
+          "zh": "射雕英雄传这种古装剧，",
+          "vi": "phim cổ trang như Anh hùng xạ điêu ấy,"
+        }
+      ]
     },
     "129": {
       "zh": "我就总想象我自己是一个飞刀大侠，所以我就经常会觉得啊，",
-      "vi": "tớ lúc nào cũng tưởng tượng mình là một đại hiệp phi đao, nên tớ hay nghĩ, à,"
+      "parts": [
+        {
+          "zh": "我就总想象我自己是一个飞刀大侠，",
+          "vi": "tớ lúc nào cũng tưởng tượng mình là một đại hiệp phi đao,"
+        },
+        {
+          "zh": "所以我就经常会觉得啊，",
+          "vi": "nên tớ hay nghĩ, à,"
+        }
+      ]
     },
     "130": {
       "zh": "这个以后干什么不重要，只要能够行侠仗义就可。",
-      "vi": "sau này làm gì không quan trọng, chỉ cần được hành hiệp trượng nghĩa là."
+      "parts": [
+        {
+          "zh": "这个以后干什么",
+          "vi": "sau này làm gì"
+        },
+        {
+          "zh": "不重要，只要能够行侠仗义就可。",
+          "vi": "không quan trọng, chỉ cần được hành hiệp trượng nghĩa là."
+        }
+      ]
     },
     "131": {
       "zh": "可以，",
@@ -524,11 +1408,29 @@
     },
     "133": {
       "zh": "就是哦，其实我觉得中国文化里这个侠的概念还挺有意思的。",
-      "vi": "Ồ, thật ra tớ thấy khái niệm 侠 (hiệp) trong văn hóa Trung Quốc khá thú vị."
+      "parts": [
+        {
+          "zh": "就是哦，其实我觉得中国文化里",
+          "vi": "Ồ, thật ra tớ thấy trong văn hóa Trung Quốc"
+        },
+        {
+          "zh": "这个侠的概念还挺有意思的。",
+          "vi": "khái niệm 侠 (hiệp) này khá thú vị."
+        }
+      ]
     },
     "134": {
       "zh": "它有一种，就我们中文把那些蜘蛛侠呀，对不对？",
-      "vi": "Nó có kiểu, tiếng Trung tụi mình dịch mấy nhân vật như Người Nhện (蜘蛛侠) ấy, đúng không?"
+      "parts": [
+        {
+          "zh": "它有一种，",
+          "vi": "Nó có kiểu,"
+        },
+        {
+          "zh": "就我们中文把那些蜘蛛侠呀，对不对？",
+          "vi": "tiếng Trung tụi mình dịch mấy nhân vật như Người Nhện (蜘蛛侠) ấy, đúng không?"
+        }
+      ]
     },
     "135": {
       "zh": "闪电侠，嗯，这些超级英雄都翻译成侠。",
@@ -536,7 +1438,20 @@
     },
     "136": {
       "zh": "其实超级英雄在中国的文化里对应的就是侠这个字，所以侠客侠客嘛，就说的是这种。",
-      "vi": "Thật ra siêu anh hùng trong văn hóa Trung Quốc tương ứng chính là chữ 侠 này, nên 侠客 (hiệp khách) ấy, là nói về kiểu người này."
+      "parts": [
+        {
+          "zh": "其实超级英雄在中国的文化里",
+          "vi": "Thật ra siêu anh hùng trong văn hóa Trung Quốc"
+        },
+        {
+          "zh": "对应的就是侠这个字，",
+          "vi": "tương ứng chính là chữ 侠 này,"
+        },
+        {
+          "zh": "所以侠客侠客嘛，就说的是这种。",
+          "vi": "nên 侠客 (hiệp khách) ấy, là nói về kiểu người này."
+        }
+      ]
     },
     "137": {
       "zh": "嗯，怎么说呢？",
@@ -544,7 +1459,16 @@
     },
     "138": {
       "zh": "在社会上，呃惩戒就是惩罚那些犯罪的人。",
-      "vi": "Trong xã hội thì, ờ, trừng trị, tức là trừng phạt những kẻ phạm tội."
+      "parts": [
+        {
+          "zh": "在社会上，呃惩戒",
+          "vi": "Trong xã hội thì, ờ, trừng trị,"
+        },
+        {
+          "zh": "就是惩罚那些犯罪的人。",
+          "vi": "tức là trừng phạt những kẻ phạm tội."
+        }
+      ]
     },
     "139": {
       "zh": "对。",
@@ -560,7 +1484,16 @@
     },
     "142": {
       "zh": "但是但是你这个你这个其实也有，也可以有现实当中的，呃怎么说呢？",
-      "vi": "Nhưng mà nhưng mà cái của cậu, cái của cậu thật ra cũng có, cũng có thể có ngoài đời thực, ờ, nói sao nhỉ?"
+      "parts": [
+        {
+          "zh": "但是但是你这个你这个其实也有，",
+          "vi": "Nhưng mà nhưng mà cái của cậu, cái của cậu thật ra cũng có,"
+        },
+        {
+          "zh": "也可以有现实当中的，呃怎么说呢？",
+          "vi": "cũng có thể có ngoài đời thực, ờ, nói sao nhỉ?"
+        }
+      ]
     },
     "143": {
       "zh": "比如说你可以当警察。",
@@ -576,7 +1509,20 @@
     },
     "146": {
       "zh": "我所以我那个时候就感觉怀疑自己是不是甚至有一点什么暴力倾向，",
-      "vi": "Tớ, nên hồi đó tớ còn nghi ngờ không biết mình có phải thậm chí có chút khuynh hướng bạo lực gì không,"
+      "parts": [
+        {
+          "zh": "我所以我那个时候就感觉",
+          "vi": "Tớ, nên hồi đó tớ còn"
+        },
+        {
+          "zh": "怀疑自己是不是甚至",
+          "vi": "nghi ngờ không biết mình có phải thậm chí"
+        },
+        {
+          "zh": "有一点什么暴力倾向，",
+          "vi": "có chút khuynh hướng bạo lực gì không,"
+        }
+      ]
     },
     "147": {
       "zh": "因为我就特别喜欢运动，你知道吗？",
@@ -584,15 +1530,50 @@
     },
     "148": {
       "zh": "然后我的小从小到大我的运动也特别好，我觉得我上大学的时候你应该也意识到了，",
-      "vi": "Rồi từ nhỏ đến lớn tớ chơi thể thao cũng rất giỏi, chắc hồi đại học cậu cũng nhận ra rồi,"
+      "parts": [
+        {
+          "zh": "然后我的小从小到大",
+          "vi": "Rồi từ nhỏ đến lớn"
+        },
+        {
+          "zh": "我的运动也特别好，",
+          "vi": "tớ chơi thể thao cũng rất giỏi,"
+        },
+        {
+          "zh": "我觉得我上大学的时候",
+          "vi": "tớ nghĩ hồi đại học"
+        },
+        {
+          "zh": "你应该也意识到了，",
+          "vi": "chắc cậu cũng nhận ra rồi,"
+        }
+      ]
     },
     "149": {
       "zh": "所以我当时就有点那种四肢发达头脑简单的那种感觉。",
-      "vi": "nên hồi đó tớ hơi có cảm giác kiểu \"tứ chi phát triển, đầu óc đơn giản\"."
+      "parts": [
+        {
+          "zh": "所以我当时就有点那种",
+          "vi": "nên hồi đó tớ hơi có cảm giác kiểu"
+        },
+        {
+          "zh": "四肢发达头脑简单的那种感觉。",
+          "vi": "\"tứ chi phát triển, đầu óc đơn giản\"."
+        }
+      ]
     },
     "150": {
       "zh": "然后我老动不动就是想象自己要做一个伸张正义的人，",
-      "vi": "Rồi tớ cứ động một tí là tưởng tượng mình phải làm một người thực thi công lý,"
+      "parts": [
+        {
+          "zh": "然后我老动不动就是",
+          "vi": "Rồi tớ cứ động một tí là"
+        },
+        {
+          "zh": "想象自己要做一个伸张正义的人，",
+          "vi": "tưởng tượng mình phải làm một người thực thi công lý,"
+        }
+      ]
     },
     "151": {
       "zh": "伸张正义吗？",
@@ -600,11 +1581,33 @@
     },
     "152": {
       "zh": "我我有时候是对我就想哎我要做一个律师，或者是我要做一个医生，",
-      "vi": "Tớ, tớ đôi lúc, đúng, tớ nghĩ, này, mình phải làm luật sư, hoặc là mình phải làm bác sĩ,"
+      "parts": [
+        {
+          "zh": "我我有时候是对我就想哎",
+          "vi": "Tớ, tớ đôi lúc, đúng, tớ nghĩ, này,"
+        },
+        {
+          "zh": "我要做一个律师，",
+          "vi": "mình phải làm luật sư,"
+        },
+        {
+          "zh": "或者是我要做一个医生，",
+          "vi": "hoặc là mình phải làm bác sĩ,"
+        }
+      ]
     },
     "153": {
       "zh": "或者是我要做一些能够给这个社会或者你可以做。",
-      "vi": "hoặc là mình phải làm gì đó có thể cho xã hội này — Hoặc cậu có thể làm."
+      "parts": [
+        {
+          "zh": "或者是我要做一些能够给这个社会",
+          "vi": "hoặc là mình phải làm gì đó có thể cho xã hội này"
+        },
+        {
+          "zh": "或者你可以做。",
+          "vi": "— Hoặc cậu có thể làm."
+        }
+      ]
     },
     "154": {
       "zh": "蜘蛛侠，",
@@ -612,11 +1615,33 @@
     },
     "155": {
       "zh": "anyway的对我就是想做一些能够给社会创造价值的人。",
-      "vi": "anyway, đúng, tớ chỉ muốn làm người tạo ra giá trị cho xã hội."
+      "parts": [
+        {
+          "zh": "anyway的对我就是想做一些",
+          "vi": "anyway, đúng, tớ chỉ muốn làm"
+        },
+        {
+          "zh": "能够给社会创造价值的人。",
+          "vi": "người tạo ra giá trị cho xã hội."
+        }
+      ]
     },
     "156": {
       "zh": "但是因为缺乏社会化，脑中又没有形成什么特别具体的一些想法。",
-      "vi": "Nhưng vì thiếu va chạm xã hội, trong đầu lại chưa hình thành ý tưởng gì thật cụ thể."
+      "parts": [
+        {
+          "zh": "但是因为缺乏社会化，",
+          "vi": "Nhưng vì thiếu va chạm xã hội,"
+        },
+        {
+          "zh": "脑中又没有形成什么",
+          "vi": "trong đầu lại chưa hình thành"
+        },
+        {
+          "zh": "特别具体的一些想法。",
+          "vi": "ý tưởng gì thật cụ thể."
+        }
+      ]
     },
     "157": {
       "zh": "嗯，",
@@ -624,7 +1649,20 @@
     },
     "158": {
       "zh": "我小时候就我一直都很想当记者哦，但我觉得也是也有那种跟你一样，就是想创造价值啊，",
-      "vi": "Hồi nhỏ tớ lúc nào cũng rất muốn làm phóng viên, nhưng tớ thấy tớ cũng có kiểu giống cậu, là muốn tạo ra giá trị,"
+      "parts": [
+        {
+          "zh": "我小时候就我一直都很想当记者哦，",
+          "vi": "Hồi nhỏ tớ lúc nào cũng rất muốn làm phóng viên,"
+        },
+        {
+          "zh": "但我觉得也是也有那种跟你一样，",
+          "vi": "nhưng tớ thấy tớ cũng có kiểu giống cậu,"
+        },
+        {
+          "zh": "就是想创造价值啊，",
+          "vi": "là muốn tạo ra giá trị,"
+        }
+      ]
     },
     "159": {
       "zh": "然后有一些梦想和追求。",
@@ -632,31 +1670,142 @@
     },
     "160": {
       "zh": "我小时候因为很喜欢写文章我是一个特别文艺的人小时候写作文写文章还经常会被报纸登出来天哪拿到些稿费什么的太厉害了稿费就是写文章然后杂志会给你这个钱嘛对然后我就特别想当记者",
-      "vi": "Hồi nhỏ vì tớ rất thích viết lách, tớ là người rất \"văn nghệ\", hồi nhỏ viết bài tập làm văn, viết bài còn hay được đăng báo. — Trời ơi! — Được ít nhuận bút này nọ. — Giỏi quá! — Nhuận bút là viết bài rồi tạp chí trả tiền cho cậu ấy. Đúng, rồi tớ rất muốn làm phóng viên."
+      "parts": [
+        {
+          "zh": "我小时候因为很喜欢写文章",
+          "vi": "Hồi nhỏ vì tớ rất thích viết lách,"
+        },
+        {
+          "zh": "我是一个特别文艺的人",
+          "vi": "tớ là người rất \"văn nghệ\","
+        },
+        {
+          "zh": "小时候写作文写文章",
+          "vi": "hồi nhỏ viết bài tập làm văn, viết bài"
+        },
+        {
+          "zh": "还经常会被报纸登出来",
+          "vi": "còn hay được đăng báo."
+        },
+        {
+          "zh": "天哪",
+          "vi": "— Trời ơi!"
+        },
+        {
+          "zh": "拿到些稿费什么的",
+          "vi": "— Được ít nhuận bút này nọ."
+        },
+        {
+          "zh": "太厉害了",
+          "vi": "— Giỏi quá!"
+        },
+        {
+          "zh": "稿费就是写文章",
+          "vi": "— Nhuận bút là viết bài"
+        },
+        {
+          "zh": "然后杂志会给你这个钱嘛对",
+          "vi": "rồi tạp chí trả tiền cho cậu ấy. Đúng,"
+        },
+        {
+          "zh": "然后我就特别想当记者",
+          "vi": "rồi tớ rất muốn làm phóng viên."
+        }
+      ]
     },
     "162": {
       "zh": "我就想学新闻系新闻记者然后呢中国其实新闻系最好的学校应该是复旦，复旦大学在上海，",
-      "vi": "Tớ muốn học khoa báo chí, làm nhà báo, rồi thì ở Trung Quốc trường có khoa báo chí tốt nhất có lẽ là Phục Đán, Đại học Phục Đán ở Thượng Hải,"
+      "parts": [
+        {
+          "zh": "我就想学新闻系新闻记者",
+          "vi": "Tớ muốn học khoa báo chí, làm nhà báo,"
+        },
+        {
+          "zh": "然后呢中国其实新闻系最好的学校",
+          "vi": "rồi thì ở Trung Quốc trường có khoa báo chí tốt nhất"
+        },
+        {
+          "zh": "应该是复旦，复旦大学在上海，",
+          "vi": "có lẽ là Phục Đán, Đại học Phục Đán ở Thượng Hải,"
+        }
+      ]
     },
     "163": {
       "zh": "所以我当时就特别想去复旦大学新闻系。",
-      "vi": "nên hồi đó tớ rất muốn vào khoa báo chí Đại học Phục Đán."
+      "parts": [
+        {
+          "zh": "所以我当时就特别想去",
+          "vi": "nên hồi đó tớ rất muốn vào"
+        },
+        {
+          "zh": "复旦大学新闻系。",
+          "vi": "khoa báo chí Đại học Phục Đán."
+        }
+      ]
     },
     "164": {
       "zh": "但是我当时竟然没有被复旦大学要，就没有被复旦大学录取。",
-      "vi": "Nhưng hồi đó tớ lại không được Phục Đán nhận, tức là không được Đại học Phục Đán tuyển."
+      "parts": [
+        {
+          "zh": "但是我当时竟然没有被复旦大学要，",
+          "vi": "Nhưng hồi đó tớ lại không được Phục Đán nhận,"
+        },
+        {
+          "zh": "就没有被复旦大学录取。",
+          "vi": "tức là không được Đại học Phục Đán tuyển."
+        }
+      ]
     },
     "165": {
       "zh": "我当时非常气愤啊，然后我就立志要那个去就不去复旦嘛。",
-      "vi": "Hồi đó tớ tức lắm, rồi tớ quyết chí, ờ, không nhận thì thôi, không thèm vào Phục Đán."
+      "parts": [
+        {
+          "zh": "我当时非常气愤啊，",
+          "vi": "Hồi đó tớ tức lắm,"
+        },
+        {
+          "zh": "然后我就立志要那个",
+          "vi": "rồi tớ quyết chí, ờ,"
+        },
+        {
+          "zh": "去就不去复旦嘛。",
+          "vi": "không nhận thì thôi, không thèm vào Phục Đán."
+        }
+      ]
     },
     "166": {
       "zh": "后来我就去了清华，但两个都是很好的学校。",
-      "vi": "Sau đó tớ vào Thanh Hoa, nhưng cả hai đều là trường rất tốt."
+      "parts": [
+        {
+          "zh": "后来我就去了清华，",
+          "vi": "Sau đó tớ vào Thanh Hoa,"
+        },
+        {
+          "zh": "但两个都是很好的学校。",
+          "vi": "nhưng cả hai đều là trường rất tốt."
+        }
+      ]
     },
     "167": {
       "zh": "所以后来我就因为复旦大学没有要我，我就没有读成新闻系，所以我就没有当成记者。",
-      "vi": "Nên sau đó vì Đại học Phục Đán không nhận tớ, tớ không học được khoa báo chí, nên tớ không làm được phóng viên."
+      "parts": [
+        {
+          "zh": "所以后来我就",
+          "vi": "Nên sau đó"
+        },
+        {
+          "zh": "因为复旦大学没有要我，",
+          "vi": "vì Đại học Phục Đán không nhận tớ,"
+        },
+        {
+          "zh": "我就没有读成新闻系，",
+          "vi": "tớ không học được khoa báo chí,"
+        },
+        {
+          "zh": "所以我就没有当成记者。",
+          "vi": "nên tớ không làm được phóng viên."
+        }
+      ]
     },
     "168": {
       "zh": "你看，天哪！",
@@ -664,15 +1813,50 @@
     },
     "169": {
       "zh": "我都不知道你竟然有这样有趣的故事。",
-      "vi": "Tớ không hề biết cậu lại có câu chuyện thú vị như vậy."
+      "parts": [
+        {
+          "zh": "我都不知道",
+          "vi": "Tớ không hề biết"
+        },
+        {
+          "zh": "你竟然有这样有趣的故事。",
+          "vi": "cậu lại có câu chuyện thú vị như vậy."
+        }
+      ]
     },
     "170": {
       "zh": "我是确实记得你以前写作特别好，因为我们以前上大学的时候一起会上那个写作课。",
-      "vi": "Tớ thì nhớ đúng là ngày xưa cậu viết rất hay, vì hồi đại học tụi mình học chung lớp viết."
+      "parts": [
+        {
+          "zh": "我是确实记得你以前写作特别好，",
+          "vi": "Tớ thì nhớ đúng là ngày xưa cậu viết rất hay,"
+        },
+        {
+          "zh": "因为我们以前上大学的时候",
+          "vi": "vì hồi đại học tụi mình"
+        },
+        {
+          "zh": "一起会上那个写作课。",
+          "vi": "học chung lớp viết."
+        }
+      ]
     },
     "171": {
       "zh": "那个时候我就觉得哇塞，这老师一天到晚在那云里雾里在讲，然后他每次安排那个作业任务，",
-      "vi": "Hồi đó tớ thấy, trời ạ, ông thầy này suốt ngày giảng cái gì mơ mơ hồ hồ, rồi mỗi lần thầy giao bài tập,"
+      "parts": [
+        {
+          "zh": "那个时候我就觉得哇塞，",
+          "vi": "Hồi đó tớ thấy, trời ạ,"
+        },
+        {
+          "zh": "这老师一天到晚在那云里雾里在讲，",
+          "vi": "ông thầy này suốt ngày giảng cái gì mơ mơ hồ hồ,"
+        },
+        {
+          "zh": "然后他每次安排那个作业任务，",
+          "vi": "rồi mỗi lần thầy giao bài tập,"
+        }
+      ]
     },
     "172": {
       "zh": "我都特别努力的写，",
@@ -688,15 +1872,46 @@
     },
     "175": {
       "zh": "课上表扬某些同学，小陆陆就是那个经常拿最高分的人。",
-      "vi": "khen vài bạn trong lớp, Tiểu Lục Lục chính là người hay được điểm cao nhất."
+      "parts": [
+        {
+          "zh": "课上表扬某些同学，",
+          "vi": "khen vài bạn trong lớp,"
+        },
+        {
+          "zh": "小陆陆就是那个经常拿最高分的人。",
+          "vi": "Tiểu Lục Lục chính là người hay được điểm cao nhất."
+        }
+      ]
     },
     "176": {
       "zh": "我就想，哦天哪，这就是我和他的距离吧。",
-      "vi": "Tớ nghĩ, ôi trời, đây chính là khoảng cách giữa tớ và cậu ấy."
+      "parts": [
+        {
+          "zh": "我就想，哦天哪，",
+          "vi": "Tớ nghĩ, ôi trời,"
+        },
+        {
+          "zh": "这就是我和他的距离吧。",
+          "vi": "đây chính là khoảng cách giữa tớ và cậu ấy."
+        }
+      ]
     },
     "177": {
       "zh": "我是我真的很喜欢写作，然后我还特别喜欢我们大学有一门课叫批判性思维啊，",
-      "vi": "Tớ thì, tớ thật sự rất thích viết, rồi tớ còn rất thích một môn ở trường đại học tụi mình tên là Tư duy phản biện,"
+      "parts": [
+        {
+          "zh": "我是我真的很喜欢写作，",
+          "vi": "Tớ thì, tớ thật sự rất thích viết,"
+        },
+        {
+          "zh": "然后我还特别喜欢",
+          "vi": "rồi tớ còn rất thích"
+        },
+        {
+          "zh": "我们大学有一门课叫批判性思维啊，",
+          "vi": "một môn ở trường đại học tụi mình tên là Tư duy phản biện,"
+        }
+      ]
     },
     "178": {
       "zh": "你记得吗？",
@@ -712,7 +1927,20 @@
     },
     "181": {
       "zh": "我特别喜欢那门课，就是那门课其实就是有一些辩论的感觉，他会给你一个案件。",
-      "vi": "Tớ rất thích môn đó, môn đó thật ra có chút giống tranh biện, thầy sẽ đưa cho cậu một vụ án."
+      "parts": [
+        {
+          "zh": "我特别喜欢那门课，就是那门课",
+          "vi": "Tớ rất thích môn đó, môn đó"
+        },
+        {
+          "zh": "其实就是有一些辩论的感觉，",
+          "vi": "thật ra có chút giống tranh biện,"
+        },
+        {
+          "zh": "他会给你一个案件。",
+          "vi": "thầy sẽ đưa cho cậu một vụ án."
+        }
+      ]
     },
     "182": {
       "zh": "一个案例，然后呢？",
@@ -720,7 +1948,16 @@
     },
     "183": {
       "zh": "这个案例就是他的道德其实是怎么说呢？",
-      "vi": "tình huống này về mặt đạo đức thật ra, nói sao nhỉ?"
+      "parts": [
+        {
+          "zh": "这个案例就是",
+          "vi": "tình huống này"
+        },
+        {
+          "zh": "他的道德其实是怎么说呢？",
+          "vi": "về mặt đạo đức thật ra, nói sao nhỉ?"
+        }
+      ]
     },
     "184": {
       "zh": "模棱两可，两边都可以选择。",
@@ -728,15 +1965,46 @@
     },
     "185": {
       "zh": "然后这个课上你就会辩论说到底哪你会支持哪一方。",
-      "vi": "Rồi trong giờ học cậu sẽ tranh luận xem rốt cuộc cậu ủng hộ bên nào."
+      "parts": [
+        {
+          "zh": "然后这个课上你就会辩论说",
+          "vi": "Rồi trong giờ học cậu sẽ tranh luận"
+        },
+        {
+          "zh": "到底哪你会支持哪一方。",
+          "vi": "xem rốt cuộc cậu ủng hộ bên nào."
+        }
+      ]
     },
     "186": {
       "zh": "我就觉得这跟记者也有一点关系吧，或者跟律师也有一点关系，就是要分辨黑白是非这样子。",
-      "vi": "Tớ thấy cái này cũng có chút liên quan đến nghề phóng viên, hoặc cũng có chút liên quan đến luật sư, tức là phải phân biệt trắng đen phải trái như vậy."
+      "parts": [
+        {
+          "zh": "我就觉得这跟记者也有一点关系吧，",
+          "vi": "Tớ thấy cái này cũng có chút liên quan đến nghề phóng viên,"
+        },
+        {
+          "zh": "或者跟律师也有一点关系，",
+          "vi": "hoặc cũng có chút liên quan đến luật sư,"
+        },
+        {
+          "zh": "就是要分辨黑白是非这样子。",
+          "vi": "tức là phải phân biệt trắng đen phải trái như vậy."
+        }
+      ]
     },
     "187": {
       "zh": "我还挺好奇的，你那你当时为什么复旦他没有招你？",
-      "vi": "Tớ tò mò lắm, thế hồi đó sao Phục Đán lại không nhận cậu?"
+      "parts": [
+        {
+          "zh": "我还挺好奇的，",
+          "vi": "Tớ tò mò lắm,"
+        },
+        {
+          "zh": "你那你当时为什么复旦他没有招你？",
+          "vi": "thế hồi đó sao Phục Đán lại không nhận cậu?"
+        }
+      ]
     },
     "188": {
       "zh": "是怎么回事？",
@@ -752,11 +2020,37 @@
     },
     "191": {
       "zh": "我我好像因为我当时是这个说来还有一些复杂，也可以调调聊一聊中国的高考制度。",
-      "vi": "Tớ, tớ hình như vì hồi đó, chuyện này kể ra cũng hơi phức tạp, cũng có thể nói chuyện một chút về chế độ thi đại học của Trung Quốc."
+      "parts": [
+        {
+          "zh": "我我好像因为我当时是这个",
+          "vi": "Tớ, tớ hình như vì hồi đó,"
+        },
+        {
+          "zh": "说来还有一些复杂，",
+          "vi": "chuyện này kể ra cũng hơi phức tạp,"
+        },
+        {
+          "zh": "也可以调调聊一聊中国的高考制度。",
+          "vi": "cũng có thể nói chuyện một chút về chế độ thi đại học của Trung Quốc."
+        }
+      ]
     },
     "192": {
       "zh": "因为我没有参加高考，嗯，我我是当时是通过有一个东西叫做自主招生，",
-      "vi": "Vì tớ không thi đại học, ừm, tớ, hồi đó tớ vào qua một con đường gọi là \"tuyển sinh tự chủ\","
+      "parts": [
+        {
+          "zh": "因为我没有参加高考，嗯，",
+          "vi": "Vì tớ không thi đại học, ừm,"
+        },
+        {
+          "zh": "我我是当时是通过",
+          "vi": "tớ, hồi đó tớ vào qua"
+        },
+        {
+          "zh": "有一个东西叫做自主招生，",
+          "vi": "một con đường gọi là \"tuyển sinh tự chủ\","
+        }
+      ]
     },
     "193": {
       "zh": "我都不知道现在还有没有啊。",
@@ -764,19 +2058,139 @@
     },
     "194": {
       "zh": "反正就是当时那个呃我们那个年代，如果你有一些特殊的技能特长。",
-      "vi": "Dù sao thì hồi đó, ờ, thời của tụi mình, nếu cậu có kỹ năng, năng khiếu đặc biệt gì đó."
+      "parts": [
+        {
+          "zh": "反正就是当时那个呃我们那个年代，",
+          "vi": "Dù sao thì hồi đó, ờ, thời của tụi mình,"
+        },
+        {
+          "zh": "如果你有一些特殊的技能特长。",
+          "vi": "nếu cậu có kỹ năng, năng khiếu đặc biệt gì đó."
+        }
+      ]
     },
     "195": {
       "zh": "比如说我是数学很好嘛我是奥林匹克数学竞赛得奖所以我当时不需要高考我只需要去我想去的大学面试自主招生就行但我不知道为什么我面试复旦大学的时候可能没有留下好的印象所以他们面试没有要我后来清华就要了我哦所以你没有机会给他们展现出你那些惊人的文采是不是他也没机会让你写篇小作文没有啊对啊所以就后来就没去成复旦太遗憾了那绝对是复旦的损失所以咱们就走上了完全不同的道路然后就学了会计然后那你觉得你那你学了会计以后觉得现在对你的后来的人生道路有什么影响吗我觉得影响肯定是有的，",
-      "vi": "Ví dụ tớ giỏi toán, tớ đoạt giải thi Olympic Toán, nên hồi đó tớ không cần thi đại học, tớ chỉ cần đến trường đại học mình muốn vào để phỏng vấn tuyển sinh tự chủ là được. Nhưng không hiểu sao lúc phỏng vấn Đại học Phục Đán có lẽ tớ không để lại ấn tượng tốt, nên họ phỏng vấn xong không nhận tớ, sau đó Thanh Hoa nhận tớ. — Ồ, vậy là cậu không có cơ hội cho họ thấy tài văn chương đáng nể của cậu à, họ cũng không cho cậu viết một bài văn ngắn? — Không có, đúng vậy, nên sau đó không vào được Phục Đán. — Tiếc quá, đó chắc chắn là tổn thất của Phục Đán. — Nên tụi mình đi lên những con đường hoàn toàn khác, rồi thì học kế toán. Rồi thế cậu thấy, cậu học kế toán xong, bây giờ nó có ảnh hưởng gì đến con đường đời sau này của cậu không? — Tớ thấy ảnh hưởng thì chắc chắn là có,"
+      "parts": [
+        {
+          "zh": "比如说我是数学很好嘛",
+          "vi": "Ví dụ tớ giỏi toán,"
+        },
+        {
+          "zh": "我是奥林匹克数学竞赛得奖",
+          "vi": "tớ đoạt giải thi Olympic Toán,"
+        },
+        {
+          "zh": "所以我当时不需要高考",
+          "vi": "nên hồi đó tớ không cần thi đại học,"
+        },
+        {
+          "zh": "我只需要去我想去的大学面试",
+          "vi": "tớ chỉ cần đến trường mình muốn vào để phỏng vấn"
+        },
+        {
+          "zh": "自主招生就行",
+          "vi": "tuyển sinh tự chủ là được."
+        },
+        {
+          "zh": "但我不知道为什么",
+          "vi": "Nhưng không hiểu sao"
+        },
+        {
+          "zh": "我面试复旦大学的时候",
+          "vi": "lúc phỏng vấn Đại học Phục Đán"
+        },
+        {
+          "zh": "可能没有留下好的印象",
+          "vi": "có lẽ tớ không để lại ấn tượng tốt,"
+        },
+        {
+          "zh": "所以他们面试没有要我",
+          "vi": "nên họ phỏng vấn xong không nhận tớ,"
+        },
+        {
+          "zh": "后来清华就要了我",
+          "vi": "sau đó Thanh Hoa nhận tớ."
+        },
+        {
+          "zh": "哦所以你没有机会",
+          "vi": "— Ồ, vậy là cậu không có cơ hội"
+        },
+        {
+          "zh": "给他们展现出你那些惊人的文采",
+          "vi": "cho họ thấy tài văn chương đáng nể của cậu à,"
+        },
+        {
+          "zh": "是不是他也没机会让你写篇小作文",
+          "vi": "họ cũng không cho cậu viết một bài văn ngắn?"
+        },
+        {
+          "zh": "没有啊对啊",
+          "vi": "— Không có, đúng vậy,"
+        },
+        {
+          "zh": "所以就后来就没去成复旦",
+          "vi": "nên sau đó không vào được Phục Đán."
+        },
+        {
+          "zh": "太遗憾了那绝对是复旦的损失",
+          "vi": "— Tiếc quá, đó chắc chắn là tổn thất của Phục Đán."
+        },
+        {
+          "zh": "所以咱们就走上了完全不同的道路",
+          "vi": "— Nên tụi mình đi lên những con đường hoàn toàn khác,"
+        },
+        {
+          "zh": "然后就学了会计",
+          "vi": "rồi thì học kế toán."
+        },
+        {
+          "zh": "然后那你觉得你那你学了会计以后",
+          "vi": "Rồi thế cậu thấy, cậu học kế toán xong,"
+        },
+        {
+          "zh": "觉得现在对你的后来的人生道路",
+          "vi": "bây giờ đối với con đường đời sau này của cậu"
+        },
+        {
+          "zh": "有什么影响吗",
+          "vi": "nó có ảnh hưởng gì không?"
+        },
+        {
+          "zh": "我觉得影响肯定是有的，",
+          "vi": "— Tớ thấy ảnh hưởng thì chắc chắn là có,"
+        }
+      ]
     },
     "201": {
       "zh": "嗯，但它可能不是那种和会计这门学科紧密相连的一种影响。",
-      "vi": "ừm, nhưng có lẽ không phải kiểu ảnh hưởng gắn chặt với môn kế toán."
+      "parts": [
+        {
+          "zh": "嗯，但它可能不是那种和会计",
+          "vi": "ừm, nhưng có lẽ không phải kiểu ảnh hưởng"
+        },
+        {
+          "zh": "这门学科紧密相连的一种影响。",
+          "vi": "gắn chặt với môn kế toán."
+        }
+      ]
     },
     "202": {
       "zh": "比如说我毕业，我我学完了会计之后，那我就去念研究生，研究生我念了金融，",
-      "vi": "Ví dụ tớ tốt nghiệp, tớ, tớ học xong kế toán, thì tớ đi học cao học, cao học tớ học tài chính,"
+      "parts": [
+        {
+          "zh": "比如说我毕业，我我学完了会计之后，",
+          "vi": "Ví dụ tớ tốt nghiệp, tớ, tớ học xong kế toán,"
+        },
+        {
+          "zh": "那我就去念研究生，",
+          "vi": "thì tớ đi học cao học,"
+        },
+        {
+          "zh": "研究生我念了金融，",
+          "vi": "cao học tớ học tài chính,"
+        }
+      ]
     },
     "203": {
       "zh": "因为我觉得它跟会计有关。",
@@ -784,19 +2198,75 @@
     },
     "204": {
       "zh": "那我在学研究生的时候，我也选修了很多跟会计有关的这些课程。",
-      "vi": "Lúc học cao học, tớ cũng học tự chọn nhiều môn liên quan đến kế toán."
+      "parts": [
+        {
+          "zh": "那我在学研究生的时候，",
+          "vi": "Lúc học cao học,"
+        },
+        {
+          "zh": "我也选修了很多",
+          "vi": "tớ cũng học tự chọn nhiều"
+        },
+        {
+          "zh": "跟会计有关的这些课程。",
+          "vi": "môn liên quan đến kế toán."
+        }
+      ]
     },
     "205": {
       "zh": "我就觉得，因为我现在已经是半个会计领域的人了，我就对对这个。跟会计有关的一切都觉得特别的熟悉，特别的轻松。",
-      "vi": "Tớ thấy, vì bây giờ tớ đã là nửa người trong ngành kế toán rồi, nên tớ đối với, đối với cái… mọi thứ liên quan đến kế toán tớ đều thấy rất quen thuộc, rất nhẹ nhàng."
+      "parts": [
+        {
+          "zh": "我就觉得，因为我现在",
+          "vi": "Tớ thấy, vì bây giờ tớ"
+        },
+        {
+          "zh": "已经是半个会计领域的人了，",
+          "vi": "đã là nửa người trong ngành kế toán rồi,"
+        },
+        {
+          "zh": "我就对对这个。跟会计有关的一切",
+          "vi": "nên tớ đối với, đối với cái… mọi thứ liên quan đến kế toán"
+        },
+        {
+          "zh": "都觉得特别的熟悉，特别的轻松。",
+          "vi": "tớ đều thấy rất quen thuộc, rất nhẹ nhàng."
+        }
+      ]
     },
     "207": {
       "zh": "所以包括我在后来我选择工作的时候，我第一个工作我去的银行，银行也是去做那个财务报表嘛。",
-      "vi": "Nên kể cả sau này lúc tớ chọn việc, công việc đầu tiên tớ vào ngân hàng, mà ngân hàng cũng là làm báo cáo tài chính."
+      "parts": [
+        {
+          "zh": "所以包括我在后来",
+          "vi": "Nên kể cả sau này"
+        },
+        {
+          "zh": "我选择工作的时候，",
+          "vi": "lúc tớ chọn việc,"
+        },
+        {
+          "zh": "我第一个工作我去的银行，",
+          "vi": "công việc đầu tiên tớ vào ngân hàng,"
+        },
+        {
+          "zh": "银行也是去做那个财务报表嘛。",
+          "vi": "mà ngân hàng cũng là làm báo cáo tài chính."
+        }
+      ]
     },
     "208": {
       "zh": "那我觉得这个工作对我来说轻松、容易上手、",
-      "vi": "Tớ thấy công việc này với tớ nhẹ nhàng, dễ bắt tay vào,"
+      "parts": [
+        {
+          "zh": "那我觉得这个工作对我来说",
+          "vi": "Tớ thấy công việc này với tớ"
+        },
+        {
+          "zh": "轻松、容易上手、",
+          "vi": "nhẹ nhàng, dễ bắt tay vào,"
+        }
+      ]
     },
     "209": {
       "zh": "游刃有余，对吧？",
@@ -808,15 +2278,50 @@
     },
     "211": {
       "zh": "再到后来我又去了企业的财务部门，其实我一直也是做财务。",
-      "vi": "Rồi sau đó tớ lại vào phòng tài chính của một doanh nghiệp, thật ra tớ vẫn luôn làm tài chính."
+      "parts": [
+        {
+          "zh": "再到后来我又去了企业的财务部门，",
+          "vi": "Rồi sau đó tớ lại vào phòng tài chính của một doanh nghiệp,"
+        },
+        {
+          "zh": "其实我一直也是做财务。",
+          "vi": "thật ra tớ vẫn luôn làm tài chính."
+        }
+      ]
     },
     "212": {
       "zh": "包括我现在我是在银行工作，银行专门是做这个投资方面的。",
-      "vi": "Kể cả bây giờ tớ làm ở ngân hàng, chuyên về mảng đầu tư."
+      "parts": [
+        {
+          "zh": "包括我现在我是在银行工作，",
+          "vi": "Kể cả bây giờ tớ làm ở ngân hàng,"
+        },
+        {
+          "zh": "银行专门是做这个投资方面的。",
+          "vi": "ngân hàng chuyên về mảng đầu tư."
+        }
+      ]
     },
     "213": {
       "zh": "那投资方面的话，它可能。跟会计不是那么的相近，但其实我们在讲学会计的时候也会讲这些投资啊，",
-      "vi": "Mảng đầu tư thì có lẽ… không gần với kế toán lắm, nhưng thật ra hồi học kế toán tụi mình cũng học về mấy chuyện đầu tư,"
+      "parts": [
+        {
+          "zh": "那投资方面的话，",
+          "vi": "Mảng đầu tư thì"
+        },
+        {
+          "zh": "它可能。跟会计不是那么的相近，",
+          "vi": "có lẽ… không gần với kế toán lắm,"
+        },
+        {
+          "zh": "但其实我们在讲学会计的时候",
+          "vi": "nhưng thật ra hồi học kế toán"
+        },
+        {
+          "zh": "也会讲这些投资啊，",
+          "vi": "tụi mình cũng học về mấy chuyện đầu tư,"
+        }
+      ]
     },
     "215": {
       "zh": "你怎么去分析这些公司的表现。",
@@ -824,11 +2329,41 @@
     },
     "216": {
       "zh": "所以我觉得，嗯，在我后来的这些职业发展路径上，我做的一些都是多多少少和会计有关的。",
-      "vi": "Nên tớ thấy, ừm, trên con đường phát triển nghề nghiệp sau này, những việc tớ làm ít nhiều đều liên quan đến kế toán."
+      "parts": [
+        {
+          "zh": "所以我觉得，嗯，",
+          "vi": "Nên tớ thấy, ừm,"
+        },
+        {
+          "zh": "在我后来的这些职业发展路径上，",
+          "vi": "trên con đường phát triển nghề nghiệp sau này,"
+        },
+        {
+          "zh": "我做的一些都是",
+          "vi": "những việc tớ làm"
+        },
+        {
+          "zh": "多多少少和会计有关的。",
+          "vi": "ít nhiều đều liên quan đến kế toán."
+        }
+      ]
     },
     "217": {
       "zh": "但当然，我之间我也做过这个同传的工作，我也做过蛋糕店的这些工作。",
-      "vi": "Nhưng tất nhiên, giữa chừng tớ cũng từng làm phiên dịch song song, cũng từng làm ở tiệm bánh ngọt."
+      "parts": [
+        {
+          "zh": "但当然，我之间",
+          "vi": "Nhưng tất nhiên, giữa chừng"
+        },
+        {
+          "zh": "我也做过这个同传的工作，",
+          "vi": "tớ cũng từng làm phiên dịch song song,"
+        },
+        {
+          "zh": "我也做过蛋糕店的这些工作。",
+          "vi": "cũng từng làm ở tiệm bánh ngọt."
+        }
+      ]
     },
     "218": {
       "zh": "同传是同声传译，对对对，同声传译。",
@@ -836,15 +2371,58 @@
     },
     "219": {
       "zh": "呃，因为我葡萄牙语讲的比较好嘛，所以我就做中文和葡萄牙语的一个翻译工作。",
-      "vi": "Ờ, vì tớ nói tiếng Bồ Đào Nha khá tốt, nên tớ làm phiên dịch tiếng Trung và tiếng Bồ Đào Nha."
+      "parts": [
+        {
+          "zh": "呃，因为我葡萄牙语讲的比较好嘛，",
+          "vi": "Ờ, vì tớ nói tiếng Bồ Đào Nha khá tốt,"
+        },
+        {
+          "zh": "所以我就做中文和葡萄牙语的",
+          "vi": "nên tớ làm tiếng Trung và tiếng Bồ Đào Nha,"
+        },
+        {
+          "zh": "一个翻译工作。",
+          "vi": "một công việc phiên dịch."
+        }
+      ]
     },
     "220": {
       "zh": "然后我做这个蛋糕店的工作，这些工作其实看起来它好像跟会计都没有直接的联系。",
-      "vi": "Rồi tớ làm ở tiệm bánh, mấy công việc này nhìn thì có vẻ chẳng liên quan trực tiếp gì đến kế toán."
+      "parts": [
+        {
+          "zh": "然后我做这个蛋糕店的工作，",
+          "vi": "Rồi tớ làm ở tiệm bánh,"
+        },
+        {
+          "zh": "这些工作其实看起来",
+          "vi": "mấy công việc này nhìn thì"
+        },
+        {
+          "zh": "它好像跟会计都没有直接的联系。",
+          "vi": "có vẻ chẳng liên quan trực tiếp gì đến kế toán."
+        }
+      ]
     },
     "221": {
       "zh": "但是，嗯，比如说我在做蛋糕店经营的时候，我也会去想：哎，那我这样的一个经营模式上，",
-      "vi": "Nhưng, ừm, ví dụ lúc tớ kinh doanh tiệm bánh, tớ cũng sẽ nghĩ: này, với mô hình kinh doanh thế này của mình,"
+      "parts": [
+        {
+          "zh": "但是，嗯，比如说",
+          "vi": "Nhưng, ừm, ví dụ"
+        },
+        {
+          "zh": "我在做蛋糕店经营的时候，",
+          "vi": "lúc tớ kinh doanh tiệm bánh,"
+        },
+        {
+          "zh": "我也会去想：哎，",
+          "vi": "tớ cũng sẽ nghĩ: này,"
+        },
+        {
+          "zh": "那我这样的一个经营模式上，",
+          "vi": "với mô hình kinh doanh thế này của mình,"
+        }
+      ]
     },
     "222": {
       "zh": "它能不能给我赚钱？",
@@ -852,23 +2430,88 @@
     },
     "223": {
       "zh": "那我也要去自己去分析它的这些财务数据。",
-      "vi": "Thì tớ cũng phải tự đi phân tích số liệu tài chính của nó."
+      "parts": [
+        {
+          "zh": "那我也要去自己去分析",
+          "vi": "thì tớ cũng phải tự đi phân tích"
+        },
+        {
+          "zh": "它的这些财务数据。",
+          "vi": "số liệu tài chính của nó."
+        }
+      ]
     },
     "224": {
       "zh": "那如果说我做同传，这个确实会计上用的会少一些，但是你。",
-      "vi": "Còn nếu tớ làm phiên dịch song song, thì về mặt kế toán đúng là dùng ít hơn, nhưng cậu."
+      "parts": [
+        {
+          "zh": "那如果说我做同传，这个",
+          "vi": "Còn nếu tớ làm phiên dịch song song, thì"
+        },
+        {
+          "zh": "确实会计上用的会少一些，但是你。",
+          "vi": "về mặt kế toán đúng là dùng ít hơn, nhưng cậu."
+        }
+      ]
     },
     "225": {
       "zh": "其实跟呃你在翻译的过程中，很多绝大多数的内容都是跟企业经营相关的，呃，",
-      "vi": "thật ra trong quá trình dịch, ờ, rất nhiều, tuyệt đại đa số nội dung đều liên quan đến kinh doanh của doanh nghiệp, ờ,"
+      "parts": [
+        {
+          "zh": "其实跟呃你在翻译的过程中，",
+          "vi": "thật ra trong quá trình dịch, ờ,"
+        },
+        {
+          "zh": "很多绝大多数的内容",
+          "vi": "rất nhiều, tuyệt đại đa số nội dung"
+        },
+        {
+          "zh": "都是跟企业经营相关的，呃，",
+          "vi": "đều liên quan đến kinh doanh của doanh nghiệp, ờ,"
+        }
+      ]
     },
     "226": {
       "zh": "所以说其实这些商科的背景，我觉得它是可以增强我对很多知识的一个快速的吸收和理解的。",
-      "vi": "nên thật ra cái nền tảng khối kinh doanh này, tớ thấy nó có thể giúp tớ tiếp thu và hiểu rất nhiều kiến thức nhanh hơn."
+      "parts": [
+        {
+          "zh": "所以说其实这些商科的背景，",
+          "vi": "nên thật ra cái nền tảng khối kinh doanh này,"
+        },
+        {
+          "zh": "我觉得它是可以增强",
+          "vi": "tớ thấy nó có thể giúp tớ"
+        },
+        {
+          "zh": "我对很多知识的",
+          "vi": "với rất nhiều kiến thức"
+        },
+        {
+          "zh": "一个快速的吸收和理解的。",
+          "vi": "tiếp thu và hiểu nhanh hơn."
+        }
+      ]
     },
     "227": {
       "zh": "所以我觉得呃会计它像一个硬的技能，但同时它也培养了你快速学习的一种能力，",
-      "vi": "Nên tớ thấy, ờ, kế toán giống một kỹ năng cứng, nhưng đồng thời nó cũng rèn cho cậu khả năng học nhanh,"
+      "parts": [
+        {
+          "zh": "所以我觉得呃",
+          "vi": "Nên tớ thấy, ờ,"
+        },
+        {
+          "zh": "会计它像一个硬的技能，",
+          "vi": "kế toán giống một kỹ năng cứng,"
+        },
+        {
+          "zh": "但同时它也培养了你",
+          "vi": "nhưng đồng thời nó cũng rèn cho cậu"
+        },
+        {
+          "zh": "快速学习的一种能力，",
+          "vi": "khả năng học nhanh,"
+        }
+      ]
     },
     "228": {
       "zh": "是这么我是这么觉得。",
@@ -876,7 +2519,20 @@
     },
     "229": {
       "zh": "我觉得你的其实职业选择说说起来还是跟会计真的蛮相关的，因为你一直有在财务啊、",
-      "vi": "Tớ thấy thật ra lựa chọn nghề nghiệp của cậu nói đi nói lại vẫn khá liên quan đến kế toán, vì cậu luôn làm trong tài chính,"
+      "parts": [
+        {
+          "zh": "我觉得你的其实职业选择",
+          "vi": "Tớ thấy thật ra lựa chọn nghề nghiệp của cậu"
+        },
+        {
+          "zh": "说说起来还是跟会计真的蛮相关的，",
+          "vi": "nói đi nói lại vẫn khá liên quan đến kế toán,"
+        },
+        {
+          "zh": "因为你一直有在财务啊、",
+          "vi": "vì cậu luôn làm trong tài chính,"
+        }
+      ]
     },
     "230": {
       "zh": "银行啊之类的。",
@@ -884,15 +2540,58 @@
     },
     "231": {
       "zh": "相对于你来说，我其实从会计出来以后，我也是读了金融，",
-      "vi": "So với cậu, tớ thì học xong kế toán, tớ cũng học tài chính,"
+      "parts": [
+        {
+          "zh": "相对于你来说，",
+          "vi": "So với cậu,"
+        },
+        {
+          "zh": "我其实从会计出来以后，",
+          "vi": "tớ thì học xong kế toán,"
+        },
+        {
+          "zh": "我也是读了金融，",
+          "vi": "tớ cũng học tài chính,"
+        }
+      ]
     },
     "232": {
       "zh": "但是金融之后我就第一份工作是去了咨询行业。",
-      "vi": "nhưng sau tài chính, công việc đầu tiên của tớ là vào ngành tư vấn."
+      "parts": [
+        {
+          "zh": "但是金融之后",
+          "vi": "nhưng sau tài chính,"
+        },
+        {
+          "zh": "我就第一份工作是去了咨询行业。",
+          "vi": "công việc đầu tiên của tớ là vào ngành tư vấn."
+        }
+      ]
     },
     "233": {
       "zh": "那说实话，咨询行业就不怎么需要。会计啊，或者金融，可能就是只是需要你整个人的整体素质，比如说想问题比较快，",
-      "vi": "Nói thật, ngành tư vấn thì không cần lắm… kế toán hay tài chính, có lẽ chỉ cần tố chất tổng thể của cả con người cậu, ví dụ nghĩ vấn đề nhanh,"
+      "parts": [
+        {
+          "zh": "那说实话，咨询行业",
+          "vi": "Nói thật, ngành tư vấn"
+        },
+        {
+          "zh": "就不怎么需要。会计啊，或者金融，",
+          "vi": "thì không cần lắm… kế toán hay tài chính,"
+        },
+        {
+          "zh": "可能就是只是需要你",
+          "vi": "có lẽ chỉ cần"
+        },
+        {
+          "zh": "整个人的整体素质，",
+          "vi": "tố chất tổng thể của cả con người cậu,"
+        },
+        {
+          "zh": "比如说想问题比较快，",
+          "vi": "ví dụ nghĩ vấn đề nhanh,"
+        }
+      ]
     },
     "235": {
       "zh": "然后沟通能力比较强啊之类的。",
@@ -900,19 +2599,75 @@
     },
     "236": {
       "zh": "然后后来我的人生道路就越走越远，这个跟金融完全没关系。",
-      "vi": "Rồi sau đó con đường đời của tớ càng đi càng xa, chẳng liên quan gì đến tài chính nữa."
+      "parts": [
+        {
+          "zh": "然后后来我的人生道路就越走越远，",
+          "vi": "Rồi sau đó con đường đời của tớ càng đi càng xa,"
+        },
+        {
+          "zh": "这个跟金融完全没关系。",
+          "vi": "chẳng liên quan gì đến tài chính nữa."
+        }
+      ]
     },
     "237": {
       "zh": "后来就去做了一些这个NGO的工作，然后在非洲做一些农业啊什么的，完全没关系。",
-      "vi": "Sau đó tớ đi làm cho NGO, rồi làm nông nghiệp này nọ ở châu Phi, hoàn toàn không liên quan."
+      "parts": [
+        {
+          "zh": "后来就去做了一些",
+          "vi": "Sau đó tớ đi làm"
+        },
+        {
+          "zh": "这个NGO的工作，",
+          "vi": "cho NGO,"
+        },
+        {
+          "zh": "然后在非洲做一些农业啊什么的，",
+          "vi": "rồi làm nông nghiệp này nọ ở châu Phi,"
+        },
+        {
+          "zh": "完全没关系。",
+          "vi": "hoàn toàn không liên quan."
+        }
+      ]
     },
     "238": {
       "zh": "然后我其实。有时候回想我的大学生活，我觉得对我影响最大的几门课哈，肯定不是会计课。",
-      "vi": "Rồi tớ thật ra… đôi khi nhớ lại đời sinh viên, tớ thấy mấy môn ảnh hưởng đến tớ nhiều nhất chắc chắn không phải môn kế toán."
+      "parts": [
+        {
+          "zh": "然后我其实。有时候",
+          "vi": "Rồi tớ thật ra… đôi khi"
+        },
+        {
+          "zh": "回想我的大学生活，",
+          "vi": "nhớ lại đời sinh viên,"
+        },
+        {
+          "zh": "我觉得对我影响最大的几门课哈，",
+          "vi": "tớ thấy mấy môn ảnh hưởng đến tớ nhiều nhất,"
+        },
+        {
+          "zh": "肯定不是会计课。",
+          "vi": "chắc chắn không phải môn kế toán."
+        }
+      ]
     },
     "240": {
       "zh": "第一个可能是那个批判性思维，我觉得我到现在还是很喜欢那种思考方式，",
-      "vi": "Thứ nhất có lẽ là môn Tư duy phản biện, tớ thấy đến giờ tớ vẫn rất thích lối suy nghĩ đó,"
+      "parts": [
+        {
+          "zh": "第一个可能是那个批判性思维，",
+          "vi": "Thứ nhất có lẽ là môn Tư duy phản biện,"
+        },
+        {
+          "zh": "我觉得我到现在",
+          "vi": "tớ thấy đến giờ"
+        },
+        {
+          "zh": "还是很喜欢那种思考方式，",
+          "vi": "tớ vẫn rất thích lối suy nghĩ đó,"
+        }
+      ]
     },
     "241": {
       "zh": "很喜欢看这样的电视剧。",
@@ -920,15 +2675,66 @@
     },
     "242": {
       "zh": "然后还有一门课当时对我影响挺大的，叫做美国社会与文化。",
-      "vi": "Rồi còn một môn hồi đó ảnh hưởng đến tớ khá lớn, tên là Xã hội và Văn hóa Mỹ."
+      "parts": [
+        {
+          "zh": "然后还有一门课",
+          "vi": "Rồi còn một môn"
+        },
+        {
+          "zh": "当时对我影响挺大的，",
+          "vi": "hồi đó ảnh hưởng đến tớ khá lớn,"
+        },
+        {
+          "zh": "叫做美国社会与文化。",
+          "vi": "tên là Xã hội và Văn hóa Mỹ."
+        }
+      ]
     },
     "243": {
       "zh": "我我其实还挺感恩的，就是在清华会有很多任选。课可以可以看一看世界，然后当时老师是美国人嘛，然后还分析了一些美国的历史啊什么的。",
-      "vi": "Tớ, tớ thật ra khá biết ơn, là ở Thanh Hoa có rất nhiều môn tự chọn, có thể nhìn ra thế giới, rồi hồi đó thầy là người Mỹ, còn phân tích một số chuyện lịch sử nước Mỹ này nọ."
+      "parts": [
+        {
+          "zh": "我我其实还挺感恩的，",
+          "vi": "Tớ, tớ thật ra khá biết ơn,"
+        },
+        {
+          "zh": "就是在清华会有很多任选。课",
+          "vi": "là ở Thanh Hoa có rất nhiều môn tự chọn,"
+        },
+        {
+          "zh": "可以可以看一看世界，",
+          "vi": "có thể nhìn ra thế giới,"
+        },
+        {
+          "zh": "然后当时老师是美国人嘛，",
+          "vi": "rồi hồi đó thầy là người Mỹ,"
+        },
+        {
+          "zh": "然后还分析了一些",
+          "vi": "còn phân tích một số"
+        },
+        {
+          "zh": "美国的历史啊什么的。",
+          "vi": "chuyện lịch sử nước Mỹ này nọ."
+        }
+      ]
     },
     "245": {
       "zh": "然后第三门课就是西班牙语，在我们一起在我们一起学的西班牙语吗？",
-      "vi": "Rồi môn thứ ba là tiếng Tây Ban Nha, — Tụi mình, tụi mình học tiếng Tây Ban Nha chung à?"
+      "parts": [
+        {
+          "zh": "然后第三门课就是西班牙语，",
+          "vi": "Rồi môn thứ ba là tiếng Tây Ban Nha,"
+        },
+        {
+          "zh": "在我们一起",
+          "vi": "— Tụi mình,"
+        },
+        {
+          "zh": "在我们一起学的西班牙语吗？",
+          "vi": "tụi mình học tiếng Tây Ban Nha chung à?"
+        }
+      ]
     },
     "246": {
       "zh": "在大学里，对。",
@@ -936,7 +2742,20 @@
     },
     "247": {
       "zh": "然后因为也是学了西班牙语，我有机会出国，然后我发现我很喜欢在国外生活，",
-      "vi": "Rồi cũng vì học tiếng Tây Ban Nha, tớ có cơ hội ra nước ngoài, rồi tớ phát hiện mình rất thích sống ở nước ngoài,"
+      "parts": [
+        {
+          "zh": "然后因为也是学了西班牙语，",
+          "vi": "Rồi cũng vì học tiếng Tây Ban Nha,"
+        },
+        {
+          "zh": "我有机会出国，",
+          "vi": "tớ có cơ hội ra nước ngoài,"
+        },
+        {
+          "zh": "然后我发现我很喜欢在国外生活，",
+          "vi": "rồi tớ phát hiện mình rất thích sống ở nước ngoài,"
+        }
+      ]
     },
     "248": {
       "zh": "所以后来就慢慢的。",
@@ -948,19 +2767,63 @@
     },
     "250": {
       "zh": "哎你这一点其实我说的还挺我这点你说的我还是很认同的，尤其是你说的这个西班牙语，",
-      "vi": "Này, điểm này thật ra tớ nói… điểm này cậu nói tớ rất đồng ý, nhất là cái cậu nói về tiếng Tây Ban Nha,"
+      "parts": [
+        {
+          "zh": "哎你这一点其实我说的还挺",
+          "vi": "Này, điểm này thật ra tớ nói…"
+        },
+        {
+          "zh": "我这点你说的我还是很认同的，",
+          "vi": "điểm này cậu nói tớ rất đồng ý,"
+        },
+        {
+          "zh": "尤其是你说的这个西班牙语，",
+          "vi": "nhất là cái cậu nói về tiếng Tây Ban Nha,"
+        }
+      ]
     },
     "251": {
       "zh": "因为我当时刚来加拿大的时候，其实现在加拿大工作很难找，但是我就很顺利，",
-      "vi": "vì hồi tớ mới đến Canada, thật ra bây giờ ở Canada tìm việc rất khó, nhưng tớ lại rất suôn sẻ,"
+      "parts": [
+        {
+          "zh": "因为我当时刚来加拿大的时候，",
+          "vi": "vì hồi tớ mới đến Canada,"
+        },
+        {
+          "zh": "其实现在加拿大工作很难找，",
+          "vi": "thật ra bây giờ ở Canada tìm việc rất khó,"
+        },
+        {
+          "zh": "但是我就很顺利，",
+          "vi": "nhưng tớ lại rất suôn sẻ,"
+        }
+      ]
     },
     "252": {
       "zh": "我就随便去了我家门口的一家银行投了个简历，然后他就把我录取了。",
-      "vi": "tớ cứ tiện nộp CV vào một ngân hàng ngay trước cửa nhà, rồi họ nhận tớ luôn."
+      "parts": [
+        {
+          "zh": "我就随便去了我家门口的一家银行",
+          "vi": "tớ cứ tiện ghé một ngân hàng ngay trước cửa nhà"
+        },
+        {
+          "zh": "投了个简历，然后他就把我录取了。",
+          "vi": "nộp CV, rồi họ nhận tớ luôn."
+        }
+      ]
     },
     "253": {
       "zh": "一开始我觉得一定是因为我各方面综合实力过人。",
-      "vi": "Lúc đầu tớ nghĩ chắc chắn là vì thực lực tổng hợp của tớ vượt trội về mọi mặt."
+      "parts": [
+        {
+          "zh": "一开始我觉得",
+          "vi": "Lúc đầu tớ nghĩ"
+        },
+        {
+          "zh": "一定是因为我各方面综合实力过人。",
+          "vi": "chắc chắn là vì thực lực tổng hợp của tớ vượt trội về mọi mặt."
+        }
+      ]
     },
     "254": {
       "zh": "后来上了一个月班之后，同事说：“小苏，",
@@ -976,7 +2839,16 @@
     },
     "257": {
       "zh": "他说：“因为我们行里缺一个讲西班牙语的，",
-      "vi": "Đồng nghiệp nói: \"Vì chi nhánh mình thiếu một người nói tiếng Tây Ban Nha,"
+      "parts": [
+        {
+          "zh": "他说：“因为我们行里",
+          "vi": "Đồng nghiệp nói: \"Vì chi nhánh mình"
+        },
+        {
+          "zh": "缺一个讲西班牙语的，",
+          "vi": "thiếu một người nói tiếng Tây Ban Nha,"
+        }
+      ]
     },
     "258": {
       "zh": "这边有到有很多的墨西哥客人。”",
@@ -1004,19 +2876,75 @@
     },
     "264": {
       "zh": "因为我现在是做客户经理嘛，就会帮人处理这个银行账户啊，还有投资这些的东西。",
-      "vi": "vì bây giờ tớ làm chuyên viên quản lý khách hàng, sẽ giúp người ta xử lý tài khoản ngân hàng, rồi mấy chuyện đầu tư."
+      "parts": [
+        {
+          "zh": "因为我现在是做客户经理嘛，",
+          "vi": "vì bây giờ tớ làm chuyên viên quản lý khách hàng,"
+        },
+        {
+          "zh": "就会帮人处理这个银行账户啊，",
+          "vi": "sẽ giúp người ta xử lý tài khoản ngân hàng,"
+        },
+        {
+          "zh": "还有投资这些的东西。",
+          "vi": "rồi mấy chuyện đầu tư."
+        }
+      ]
     },
     "265": {
       "zh": "我们行里现在就是温哥华基本上这些呃建设，因为温哥华它的一大经济支柱就是房地产，",
-      "vi": "Ngân hàng tụi tớ bây giờ, ở Vancouver thì cơ bản là mấy công ty xây dựng, ờ, vì một trụ cột kinh tế lớn của Vancouver là bất động sản,"
+      "parts": [
+        {
+          "zh": "我们行里现在就是",
+          "vi": "Ngân hàng tụi tớ bây giờ,"
+        },
+        {
+          "zh": "温哥华基本上这些呃建设，",
+          "vi": "ở Vancouver thì cơ bản là mấy công ty xây dựng, ờ,"
+        },
+        {
+          "zh": "因为温哥华它的",
+          "vi": "vì của Vancouver,"
+        },
+        {
+          "zh": "一大经济支柱就是房地产，",
+          "vi": "một trụ cột kinh tế lớn là bất động sản,"
+        }
+      ]
     },
     "266": {
       "zh": "而这些建设公司他们雇的都是拉美人，所以我们银行里基本上，",
-      "vi": "mà mấy công ty xây dựng này thuê toàn người Mỹ Latinh, nên ở ngân hàng tụi tớ cơ bản,"
+      "parts": [
+        {
+          "zh": "而这些建设公司",
+          "vi": "mà mấy công ty xây dựng này"
+        },
+        {
+          "zh": "他们雇的都是拉美人，",
+          "vi": "thuê toàn người Mỹ Latinh,"
+        },
+        {
+          "zh": "所以我们银行里基本上，",
+          "vi": "nên ở ngân hàng tụi tớ cơ bản,"
+        }
+      ]
     },
     "267": {
       "zh": "比如说我今天一天如果我见八个客人，那我可能有三四个客人都是拉美人。",
-      "vi": "ví dụ hôm nay tớ gặp tám khách, thì có thể ba bốn người là người Mỹ Latinh."
+      "parts": [
+        {
+          "zh": "比如说我今天一天",
+          "vi": "ví dụ hôm nay một ngày"
+        },
+        {
+          "zh": "如果我见八个客人，",
+          "vi": "nếu tớ gặp tám khách,"
+        },
+        {
+          "zh": "那我可能有三四个客人都是拉美人。",
+          "vi": "thì có thể ba bốn người là người Mỹ Latinh."
+        }
+      ]
     },
     "268": {
       "zh": "嗯，拉丁美洲对没错，",
@@ -1028,23 +2956,76 @@
     },
     "270": {
       "zh": "对，所以嗯，这个点就让我想起，我觉得说实话，专业选什么不是很重要。",
-      "vi": "Đúng, nên, ừm, điểm này làm tớ nhớ ra, tớ thấy nói thật, chọn ngành gì không quan trọng lắm."
+      "parts": [
+        {
+          "zh": "对，所以嗯，这个点就让我想起，",
+          "vi": "Đúng, nên, ừm, điểm này làm tớ nhớ ra,"
+        },
+        {
+          "zh": "我觉得说实话，",
+          "vi": "tớ thấy nói thật,"
+        },
+        {
+          "zh": "专业选什么不是很重要。",
+          "vi": "chọn ngành gì không quan trọng lắm."
+        }
+      ]
     },
     "271": {
       "zh": "但是我觉得要相信我，我其实特别相信这件事情，",
-      "vi": "Nhưng tớ thấy phải tin, tớ thật sự rất tin chuyện này,"
+      "parts": [
+        {
+          "zh": "但是我觉得要相信我，",
+          "vi": "Nhưng tớ thấy phải tin,"
+        },
+        {
+          "zh": "我其实特别相信这件事情，",
+          "vi": "tớ thật sự rất tin chuyện này,"
+        }
+      ]
     },
     "272": {
       "zh": "就是人生当中无论你学了什么东西都不会被浪费，",
-      "vi": "là trong đời dù cậu học gì cũng không bị lãng phí,"
+      "parts": [
+        {
+          "zh": "就是人生当中",
+          "vi": "là trong đời"
+        },
+        {
+          "zh": "无论你学了什么东西都不会被浪费，",
+          "vi": "dù cậu học gì cũng không bị lãng phí,"
+        }
+      ]
     },
     "273": {
       "zh": "就是它总有一天你会发现英语就是connect the dots，",
-      "vi": "rồi sẽ có một ngày cậu phát hiện, tiếng Anh gọi là connect the dots,"
+      "parts": [
+        {
+          "zh": "就是它总有一天你会发现",
+          "vi": "rồi sẽ có một ngày cậu phát hiện,"
+        },
+        {
+          "zh": "英语就是connect the dots，",
+          "vi": "tiếng Anh gọi là connect the dots,"
+        }
+      ]
     },
     "274": {
       "zh": "就是它那些点你以前做的事情它会被连起来，就是有一天会忽然有用。",
-      "vi": "tức là những điểm đó, những việc cậu làm trước đây sẽ được nối lại với nhau, là một ngày nào đó bỗng nhiên có ích."
+      "parts": [
+        {
+          "zh": "就是它那些点",
+          "vi": "tức là những điểm đó,"
+        },
+        {
+          "zh": "你以前做的事情它会被连起来，",
+          "vi": "những việc cậu làm trước đây sẽ được nối lại với nhau,"
+        },
+        {
+          "zh": "就是有一天会忽然有用。",
+          "vi": "là một ngày nào đó bỗng nhiên có ích."
+        }
+      ]
     },
     "275": {
       "zh": "对，",
@@ -1052,11 +3033,37 @@
     },
     "276": {
       "zh": "我觉得它也存在着一种，我不知道那个准确的那个词叫什么，就类似嗯自证的预言，",
-      "vi": "Tớ thấy nó cũng tồn tại một kiểu, tớ không biết từ chính xác gọi là gì, kiểu như, ừm, lời tiên tri tự ứng nghiệm,"
+      "parts": [
+        {
+          "zh": "我觉得它也存在着一种，",
+          "vi": "Tớ thấy nó cũng tồn tại một kiểu,"
+        },
+        {
+          "zh": "我不知道那个准确的那个词叫什么，",
+          "vi": "tớ không biết từ chính xác gọi là gì,"
+        },
+        {
+          "zh": "就类似嗯自证的预言，",
+          "vi": "kiểu như, ừm, lời tiên tri tự ứng nghiệm,"
+        }
+      ]
     },
     "277": {
       "zh": "或者是一种嗯正或者是一种相互的吸引或者正向的选择。",
-      "vi": "hoặc là một kiểu, ừm, chính… hoặc là một kiểu hấp dẫn lẫn nhau, hoặc chọn lựa theo chiều tích cực."
+      "parts": [
+        {
+          "zh": "或者是一种嗯正",
+          "vi": "hoặc là một kiểu, ừm, chính…"
+        },
+        {
+          "zh": "或者是一种相互的吸引",
+          "vi": "hoặc là một kiểu hấp dẫn lẫn nhau,"
+        },
+        {
+          "zh": "或者正向的选择。",
+          "vi": "hoặc chọn lựa theo chiều tích cực."
+        }
+      ]
     },
     "278": {
       "zh": "就比如说我为什么要选择西班牙语？",
@@ -1064,39 +3071,156 @@
     },
     "279": {
       "zh": "因为我喜欢西班牙语，我喜欢拉美文化。",
-      "vi": "Vì tớ thích tiếng Tây Ban Nha, tớ thích văn hóa Mỹ Latinh."
+      "parts": [
+        {
+          "zh": "因为我喜欢西班牙语，",
+          "vi": "Vì tớ thích tiếng Tây Ban Nha,"
+        },
+        {
+          "zh": "我喜欢拉美文化。",
+          "vi": "tớ thích văn hóa Mỹ Latinh."
+        }
+      ]
     },
     "280": {
       "zh": "那这个可能意味着在我未来的职业发展生活中，我遇到跟这个方面有关的东西，我就会多往前走。一点，那么，那么你们之后产生这个点与点之间的连接的一个可能性就会越来越大。",
-      "vi": "Thế thì điều này có lẽ có nghĩa là trong cuộc sống và sự nghiệp sau này của tớ, gặp những thứ liên quan đến mảng này, tớ sẽ tiến thêm một chút, vậy thì, vậy thì khả năng về sau nảy sinh kết nối giữa điểm này với điểm kia sẽ ngày càng lớn."
+      "parts": [
+        {
+          "zh": "那这个可能意味着",
+          "vi": "Thế thì điều này có lẽ có nghĩa là"
+        },
+        {
+          "zh": "在我未来的职业发展生活中，",
+          "vi": "trong cuộc sống và sự nghiệp sau này của tớ,"
+        },
+        {
+          "zh": "我遇到跟这个方面有关的东西，",
+          "vi": "gặp những thứ liên quan đến mảng này,"
+        },
+        {
+          "zh": "我就会多往前走。一点，",
+          "vi": "tớ sẽ tiến thêm… một chút,"
+        },
+        {
+          "zh": "那么，那么你们之后",
+          "vi": "vậy thì, vậy thì về sau"
+        },
+        {
+          "zh": "产生这个点与点之间的连接的",
+          "vi": "việc nảy sinh kết nối giữa điểm này với điểm kia,"
+        },
+        {
+          "zh": "一个可能性就会越来越大。",
+          "vi": "khả năng đó sẽ ngày càng lớn."
+        }
+      ]
     },
     "282": {
       "zh": "嗯嗯，对对对，所以我觉得大家就是，如果我要给现在的小朋友一些建议的话，",
-      "vi": "Ừm ừm, đúng đúng đúng, nên tớ thấy mọi người, nếu tớ phải cho các bạn nhỏ bây giờ vài lời khuyên,"
+      "parts": [
+        {
+          "zh": "嗯嗯，对对对，所以我觉得大家就是，",
+          "vi": "Ừm ừm, đúng đúng đúng, nên tớ thấy mọi người,"
+        },
+        {
+          "zh": "如果我要给现在的小朋友",
+          "vi": "nếu tớ phải cho các bạn nhỏ bây giờ"
+        },
+        {
+          "zh": "一些建议的话，",
+          "vi": "vài lời khuyên,"
+        }
+      ]
     },
     "283": {
       "zh": "就是乱七八糟的什么都可以学一点，对吧？",
-      "vi": "thì là học lung tung đủ thứ một chút cũng được, đúng không?"
+      "parts": [
+        {
+          "zh": "就是乱七八糟的",
+          "vi": "thì là học lung tung"
+        },
+        {
+          "zh": "什么都可以学一点，对吧？",
+          "vi": "đủ thứ một chút cũng được, đúng không?"
+        }
+      ]
     },
     "284": {
       "zh": "就是任选课呀、通选课呀，然后特而且课外的就是自己什么都可以学一点，因为。",
-      "vi": "tức là môn tự chọn, môn tự chọn chung, rồi đặc… mà cả ngoài giờ học nữa, tự mình cái gì cũng có thể học một chút, vì."
+      "parts": [
+        {
+          "zh": "就是任选课呀、通选课呀，",
+          "vi": "tức là môn tự chọn, môn tự chọn chung,"
+        },
+        {
+          "zh": "然后特而且课外的",
+          "vi": "rồi đặc… mà cả ngoài giờ học nữa,"
+        },
+        {
+          "zh": "就是自己什么都可以学一点，因为。",
+          "vi": "tự mình cái gì cũng có thể học một chút, vì."
+        }
+      ]
     },
     "285": {
       "zh": "我刚才之前想问你一个问题，现在有就人工智能嘛？",
-      "vi": "Lúc nãy tớ định hỏi cậu một câu, bây giờ có trí tuệ nhân tạo rồi đúng không?"
+      "parts": [
+        {
+          "zh": "我刚才之前想问你一个问题，",
+          "vi": "Lúc nãy tớ định hỏi cậu một câu,"
+        },
+        {
+          "zh": "现在有就人工智能嘛？",
+          "vi": "bây giờ có trí tuệ nhân tạo rồi đúng không?"
+        }
+      ]
     },
     "286": {
       "zh": "然后大家也觉得人工智能现在对学习的冲击也很大，然后未来对职业的冲击也很大。",
-      "vi": "Rồi mọi người cũng thấy trí tuệ nhân tạo bây giờ tác động rất lớn đến việc học, và tương lai cũng tác động rất lớn đến nghề nghiệp."
+      "parts": [
+        {
+          "zh": "然后大家也觉得",
+          "vi": "Rồi mọi người cũng thấy"
+        },
+        {
+          "zh": "人工智能现在对学习的冲击也很大，",
+          "vi": "trí tuệ nhân tạo bây giờ tác động rất lớn đến việc học,"
+        },
+        {
+          "zh": "然后未来对职业的冲击也很大。",
+          "vi": "và tương lai cũng tác động rất lớn đến nghề nghiệp."
+        }
+      ]
     },
     "287": {
       "zh": "然后现在如果你是一个高中生，你要选择大学专业，现在的小朋友应该选什么专业呢？",
-      "vi": "Vậy bây giờ nếu cậu là học sinh cấp ba, cậu phải chọn ngành đại học, thì trẻ bây giờ nên chọn ngành gì đây?"
+      "parts": [
+        {
+          "zh": "然后现在如果你是一个高中生，",
+          "vi": "Vậy bây giờ nếu cậu là học sinh cấp ba,"
+        },
+        {
+          "zh": "你要选择大学专业，",
+          "vi": "cậu phải chọn ngành đại học,"
+        },
+        {
+          "zh": "现在的小朋友应该选什么专业呢？",
+          "vi": "thì trẻ bây giờ nên chọn ngành gì đây?"
+        }
+      ]
     },
     "288": {
       "zh": "未来就是有什么职业可能不会被人工智能取代？",
-      "vi": "Tương lai có nghề nào có thể không bị trí tuệ nhân tạo thay thế?"
+      "parts": [
+        {
+          "zh": "未来就是有什么职业",
+          "vi": "Tương lai có nghề nào"
+        },
+        {
+          "zh": "可能不会被人工智能取代？",
+          "vi": "có thể không bị trí tuệ nhân tạo thay thế?"
+        }
+      ]
     },
     "289": {
       "zh": "或者，对，还蛮难选的。",
@@ -1108,23 +3232,76 @@
     },
     "291": {
       "zh": "对这个问题，其实包括我觉得不只限制于现在的这些小学生，",
-      "vi": "Đúng, câu hỏi này thật ra, tớ thấy không chỉ giới hạn ở các em học sinh bây giờ,"
+      "parts": [
+        {
+          "zh": "对这个问题，其实包括我觉得",
+          "vi": "Đúng, câu hỏi này thật ra, tớ thấy"
+        },
+        {
+          "zh": "不只限制于现在的这些小学生，",
+          "vi": "không chỉ giới hạn ở các em học sinh bây giờ,"
+        }
+      ]
     },
     "292": {
       "zh": "甚至我们现在这些很多在工作的人也会感到迷茫。",
-      "vi": "mà ngay cả rất nhiều người đang đi làm như tụi mình cũng thấy mông lung."
+      "parts": [
+        {
+          "zh": "甚至我们现在这些很多在工作的人",
+          "vi": "mà ngay cả rất nhiều người đang đi làm như tụi mình"
+        },
+        {
+          "zh": "也会感到迷茫。",
+          "vi": "cũng thấy mông lung."
+        }
+      ]
     },
     "293": {
       "zh": "我们会想：OK，我现在还年轻，我可能还要再工作个三十年才能退休。",
-      "vi": "Tụi mình sẽ nghĩ: OK, bây giờ mình còn trẻ, có lẽ còn phải làm thêm ba mươi năm nữa mới nghỉ hưu."
+      "parts": [
+        {
+          "zh": "我们会想：OK，我现在还年轻，",
+          "vi": "Tụi mình sẽ nghĩ: OK, bây giờ mình còn trẻ,"
+        },
+        {
+          "zh": "我可能还要",
+          "vi": "có lẽ còn phải"
+        },
+        {
+          "zh": "再工作个三十年才能退休。",
+          "vi": "làm thêm ba mươi năm nữa mới nghỉ hưu."
+        }
+      ]
     },
     "294": {
       "zh": "那我现在我我我我还要在我目前的这个现有行业继续耕耘吗？",
-      "vi": "Vậy bây giờ tớ, tớ tớ tớ, còn tiếp tục miệt mài trong cái ngành hiện tại này không?"
+      "parts": [
+        {
+          "zh": "那我现在我我我我",
+          "vi": "Vậy bây giờ tớ, tớ tớ tớ,"
+        },
+        {
+          "zh": "还要在我目前的这个",
+          "vi": "còn tiếp tục trong cái"
+        },
+        {
+          "zh": "现有行业继续耕耘吗？",
+          "vi": "ngành hiện tại này mà miệt mài nữa không?"
+        }
+      ]
     },
     "295": {
       "zh": "还是在未来的五年我的工作就要被AI替代了，",
-      "vi": "Hay là trong 5 năm tới công việc của tớ sẽ bị AI thay thế,"
+      "parts": [
+        {
+          "zh": "还是在未来的五年",
+          "vi": "Hay là trong 5 năm tới"
+        },
+        {
+          "zh": "我的工作就要被AI替代了，",
+          "vi": "công việc của tớ sẽ bị AI thay thế,"
+        }
+      ]
     },
     "296": {
       "zh": "对吧？",
@@ -1136,7 +3313,16 @@
     },
     "298": {
       "zh": "各个年龄段的人都对这个问题非常很焦虑。",
-      "vi": "người ở mọi lứa tuổi đều rất lo lắng về vấn đề này."
+      "parts": [
+        {
+          "zh": "各个年龄段的人",
+          "vi": "người ở mọi lứa tuổi"
+        },
+        {
+          "zh": "都对这个问题非常很焦虑。",
+          "vi": "đều rất lo lắng về vấn đề này."
+        }
+      ]
     },
     "299": {
       "zh": "我自己的思考，",
@@ -1144,11 +3330,29 @@
     },
     "300": {
       "zh": "我觉得可能就是多做一些像你刚才说的批判性思维，",
-      "vi": "tớ thấy có lẽ là làm nhiều hơn những thứ như tư duy phản biện cậu vừa nói,"
+      "parts": [
+        {
+          "zh": "我觉得可能就是多做一些",
+          "vi": "tớ thấy có lẽ là làm nhiều hơn những thứ"
+        },
+        {
+          "zh": "像你刚才说的批判性思维，",
+          "vi": "như tư duy phản biện cậu vừa nói,"
+        }
+      ]
     },
     "301": {
       "zh": "就是做一些做一些你能够发发挥人类主观能动性的东西吧。",
-      "vi": "tức là làm những việc có thể phát huy tính chủ động của con người."
+      "parts": [
+        {
+          "zh": "就是做一些做一些你能够",
+          "vi": "tức là làm những, làm những việc cậu có thể"
+        },
+        {
+          "zh": "发发挥人类主观能动性的东西吧。",
+          "vi": "phát huy tính chủ động của con người."
+        }
+      ]
     },
     "302": {
       "zh": "就我说具体一点，",
@@ -1156,15 +3360,54 @@
     },
     "303": {
       "zh": "比如说我们在银行里工作，那我也会去想说，OK，我现在不就是给银给客人卖一些产品，",
-      "vi": "ví dụ tụi tớ làm ở ngân hàng, tớ cũng sẽ nghĩ, OK, bây giờ tớ chẳng phải chỉ là bán vài sản phẩm cho khách,"
+      "parts": [
+        {
+          "zh": "比如说我们在银行里工作，",
+          "vi": "ví dụ tụi tớ làm ở ngân hàng,"
+        },
+        {
+          "zh": "那我也会去想说，OK，我现在不就是",
+          "vi": "tớ cũng sẽ nghĩ, OK, bây giờ tớ chẳng phải chỉ là"
+        },
+        {
+          "zh": "给银给客人卖一些产品，",
+          "vi": "bán vài sản phẩm cho khách,"
+        }
+      ]
     },
     "304": {
       "zh": "给他介绍一些产品的这些知识，给他推荐一个合适的产品？",
-      "vi": "giới thiệu cho họ kiến thức về sản phẩm, gợi ý cho họ một sản phẩm phù hợp?"
+      "parts": [
+        {
+          "zh": "给他介绍一些产品的这些知识，",
+          "vi": "giới thiệu cho họ kiến thức về sản phẩm,"
+        },
+        {
+          "zh": "给他推荐一个合适的产品？",
+          "vi": "gợi ý cho họ một sản phẩm phù hợp?"
+        }
+      ]
     },
     "305": {
       "zh": "那现在其实也有很多网上的那些投资平台，人家AI是动自动的给你做了一个分析，",
-      "vi": "Mà bây giờ thật ra cũng có rất nhiều nền tảng đầu tư trên mạng, người ta có AI tự động phân tích cho cậu,"
+      "parts": [
+        {
+          "zh": "那现在其实也有很多",
+          "vi": "Mà bây giờ thật ra cũng có rất nhiều"
+        },
+        {
+          "zh": "网上的那些投资平台，",
+          "vi": "nền tảng đầu tư trên mạng,"
+        },
+        {
+          "zh": "人家AI是动自动的",
+          "vi": "người ta có AI tự động"
+        },
+        {
+          "zh": "给你做了一个分析，",
+          "vi": "phân tích cho cậu,"
+        }
+      ]
     },
     "306": {
       "zh": "觉得这款产品适合你，",
@@ -1184,7 +3427,16 @@
     },
     "310": {
       "zh": "我比这个东西，比这个AI的人工智能强在哪里？",
-      "vi": "mình hơn cái thứ này, hơn cái AI trí tuệ nhân tạo này ở chỗ nào?"
+      "parts": [
+        {
+          "zh": "我比这个东西，",
+          "vi": "mình hơn cái thứ này,"
+        },
+        {
+          "zh": "比这个AI的人工智能强在哪里？",
+          "vi": "hơn cái AI trí tuệ nhân tạo này ở chỗ nào?"
+        }
+      ]
     },
     "311": {
       "zh": "优势在哪？",
@@ -1192,11 +3444,37 @@
     },
     "312": {
       "zh": "对，所以我其实我会，我之前就休息学习了什么这个呃蛋糕啊，然后。",
-      "vi": "Đúng, nên thật ra tớ, trước đây tớ đã nghỉ, học mấy thứ như, ờ, làm bánh, rồi."
+      "parts": [
+        {
+          "zh": "对，所以我其实我会，",
+          "vi": "Đúng, nên thật ra tớ,"
+        },
+        {
+          "zh": "我之前就休息学习了",
+          "vi": "trước đây tớ đã nghỉ, học"
+        },
+        {
+          "zh": "什么这个呃蛋糕啊，然后。",
+          "vi": "mấy thứ như, ờ, làm bánh, rồi."
+        }
+      ]
     },
     "313": {
       "zh": "然后心理学呀，就是我觉得可能，嗯，我过去会一直特别注重这种硬技能，呃，",
-      "vi": "rồi tâm lý học, tức là tớ thấy có lẽ, ừm, trước đây tớ luôn rất chú trọng kỹ năng cứng, ờ,"
+      "parts": [
+        {
+          "zh": "然后心理学呀，就是我觉得可能，嗯，",
+          "vi": "rồi tâm lý học, tức là tớ thấy có lẽ, ừm,"
+        },
+        {
+          "zh": "我过去会一直特别注重",
+          "vi": "trước đây tớ luôn rất chú trọng"
+        },
+        {
+          "zh": "这种硬技能，呃，",
+          "vi": "kỹ năng cứng, ờ,"
+        }
+      ]
     },
     "314": {
       "zh": "然后很强调人类的理性分析。",
@@ -1204,15 +3482,46 @@
     },
     "315": {
       "zh": "但是我现在我可能会更加专注于，呃，侧重于对我这种人类感性的一种培养，",
-      "vi": "Nhưng bây giờ tớ có lẽ sẽ tập trung hơn, ờ, chú trọng hơn vào việc bồi dưỡng phần cảm tính của con người,"
+      "parts": [
+        {
+          "zh": "但是我现在",
+          "vi": "nhưng bây giờ"
+        },
+        {
+          "zh": "我可能会更加专注于，呃，侧重于",
+          "vi": "tớ có lẽ sẽ tập trung hơn, ờ, chú trọng hơn"
+        },
+        {
+          "zh": "对我这种人类感性的一种培养，",
+          "vi": "vào việc bồi dưỡng phần cảm tính của con người,"
+        }
+      ]
     },
     "316": {
       "zh": "就什么美学的认知啦、心理学的认知啊、",
-      "vi": "như là hiểu biết về thẩm mỹ, hiểu biết về tâm lý học,"
+      "parts": [
+        {
+          "zh": "就什么美学的认知啦、",
+          "vi": "như là hiểu biết về thẩm mỹ,"
+        },
+        {
+          "zh": "心理学的认知啊、",
+          "vi": "hiểu biết về tâm lý học,"
+        }
+      ]
     },
     "317": {
       "zh": "对人性的了解啊这些东西，我觉得它不是。嗯，机器能够替代的。",
-      "vi": "hiểu về bản chất con người, những thứ này, tớ thấy nó không phải… ừm, thứ máy móc thay thế được."
+      "parts": [
+        {
+          "zh": "对人性的了解啊这些东西，",
+          "vi": "hiểu về bản chất con người, những thứ này,"
+        },
+        {
+          "zh": "我觉得它不是。嗯，机器能够替代的。",
+          "vi": "tớ thấy nó không phải… ừm, thứ máy móc thay thế được."
+        }
+      ]
     },
     "319": {
       "zh": "嗯，对啊，",
@@ -1220,27 +3529,101 @@
     },
     "320": {
       "zh": "特别是做蛋糕这种，确实就是如果你的工作或者你的技能点是在现实世界跟实物，",
-      "vi": "Nhất là làm bánh kiểu này, đúng là nếu công việc hay kỹ năng của cậu nằm ở thế giới thực, với vật thật (实物),"
+      "parts": [
+        {
+          "zh": "特别是做蛋糕这种，",
+          "vi": "Nhất là làm bánh kiểu này,"
+        },
+        {
+          "zh": "确实就是如果你的工作或者",
+          "vi": "đúng là nếu công việc hay"
+        },
+        {
+          "zh": "你的技能点是在现实世界跟实物，",
+          "vi": "kỹ năng của cậu nằm ở thế giới thực, với vật thật (实物),"
+        }
+      ]
     },
     "321": {
       "zh": "不是那个吃的食物，就跟实在的物体、现实的物体有交互的话，是比较难被人工智能取代嘛？",
-      "vi": "không phải 食物 (đồ ăn, cùng âm với 实物) đâu, mà là có tương tác với vật thể có thật, vật thể thực tế, thì khó bị trí tuệ nhân tạo thay thế hơn nhỉ?"
+      "parts": [
+        {
+          "zh": "不是那个吃的食物，",
+          "vi": "không phải 食物 (đồ ăn, cùng âm với 实物) đâu,"
+        },
+        {
+          "zh": "就跟实在的物体、",
+          "vi": "mà là với vật thể có thật,"
+        },
+        {
+          "zh": "现实的物体有交互的话，",
+          "vi": "vật thể thực tế, có tương tác,"
+        },
+        {
+          "zh": "是比较难被人工智能取代嘛？",
+          "vi": "thì khó bị trí tuệ nhân tạo thay thế hơn nhỉ?"
+        }
+      ]
     },
     "322": {
       "zh": "所以像你总是以后还需要人来做蛋糕的，我就很难想象。",
-      "vi": "Nên như cậu đấy, sau này kiểu gì vẫn cần người làm bánh, tớ thấy khó mà tưởng tượng."
+      "parts": [
+        {
+          "zh": "所以像你总是以后",
+          "vi": "Nên như cậu đấy, sau này"
+        },
+        {
+          "zh": "还需要人来做蛋糕的，我就很难想象。",
+          "vi": "kiểu gì vẫn cần người làm bánh, tớ thấy khó mà tưởng tượng."
+        }
+      ]
     },
     "323": {
       "zh": "特别是食品，其实做做吃的、做饭还是很难被机器人取代的。",
-      "vi": "Nhất là đồ ăn, thật ra làm đồ ăn, nấu nướng vẫn rất khó bị robot thay thế."
+      "parts": [
+        {
+          "zh": "特别是食品，其实做做吃的、",
+          "vi": "Nhất là đồ ăn, thật ra làm đồ ăn,"
+        },
+        {
+          "zh": "做饭还是很难被机器人取代的。",
+          "vi": "nấu nướng vẫn rất khó bị robot thay thế."
+        }
+      ]
     },
     "324": {
       "zh": "嗯，对，尤其是我觉得很多可能蓝领的一些工作吧，然后偏设计类啊、创造类的东西。",
-      "vi": "Ừm, đúng, nhất là tớ thấy nhiều công việc lao động chân tay, rồi những thứ thiên về thiết kế, sáng tạo."
+      "parts": [
+        {
+          "zh": "嗯，对，尤其是我觉得",
+          "vi": "Ừm, đúng, nhất là tớ thấy"
+        },
+        {
+          "zh": "很多可能蓝领的一些工作吧，",
+          "vi": "nhiều công việc lao động chân tay,"
+        },
+        {
+          "zh": "然后偏设计类啊、创造类的东西。",
+          "vi": "rồi những thứ thiên về thiết kế, sáng tạo."
+        }
+      ]
     },
     "325": {
       "zh": "当然，我们可能现在也有一些这个呃，我姐比如我姐现在她特别沉迷于AI短剧，",
-      "vi": "Tất nhiên bây giờ tụi mình cũng có vài cái, ờ, chị tớ, ví dụ chị tớ bây giờ đang cực mê phim ngắn AI,"
+      "parts": [
+        {
+          "zh": "当然，我们可能现在也有一些这个呃，",
+          "vi": "Tất nhiên bây giờ tụi mình cũng có vài cái, ờ,"
+        },
+        {
+          "zh": "我姐比如我姐现在",
+          "vi": "chị tớ, ví dụ chị tớ bây giờ"
+        },
+        {
+          "zh": "她特别沉迷于AI短剧，",
+          "vi": "đang cực mê phim ngắn AI,"
+        }
+      ]
     },
     "326": {
       "zh": "我感觉演员都被取代了，你发现了吗？",
@@ -1248,15 +3631,74 @@
     },
     "327": {
       "zh": "对啊，演员是确实是演员被取代了，现在是一个潮流。",
-      "vi": "Đúng thế, diễn viên đúng là bị thay thế rồi, bây giờ đang thành trào lưu."
+      "parts": [
+        {
+          "zh": "对啊，演员是确实是演员被取代了，",
+          "vi": "Đúng thế, diễn viên đúng là bị thay thế rồi,"
+        },
+        {
+          "zh": "现在是一个潮流。",
+          "vi": "bây giờ đang thành trào lưu."
+        }
+      ]
     },
     "328": {
       "zh": "太可怕了可怕的就那个我老公嘛他特别他想如果以后他的工作被被AI取代了他想做一个植物学",
-      "vi": "Đáng sợ quá, đáng sợ ở chỗ, chồng tớ ấy, anh ấy rất, anh ấy nghĩ nếu sau này công việc của anh ấy bị AI thay thế thì anh ấy muốn làm nhà thực vật học"
+      "parts": [
+        {
+          "zh": "太可怕了可怕的",
+          "vi": "Đáng sợ quá, đáng sợ ở chỗ,"
+        },
+        {
+          "zh": "就那个我老公嘛",
+          "vi": "chồng tớ ấy,"
+        },
+        {
+          "zh": "他特别他想如果以后",
+          "vi": "anh ấy rất, anh ấy nghĩ nếu sau này"
+        },
+        {
+          "zh": "他的工作被被AI取代了",
+          "vi": "công việc của anh ấy bị AI thay thế,"
+        },
+        {
+          "zh": "他想做一个植物学",
+          "vi": "thì anh ấy muốn làm nhà thực vật học,"
+        }
+      ]
     },
     "329": {
       "zh": "也不能叫植物学家吧他就想去植物园工作然后种种花呀种种树什么的就了解植物的习性然后去植物园工作我觉得这个可以，然后我就想去当按摩师。",
-      "vi": "cũng không hẳn gọi là nhà thực vật học được, anh ấy muốn làm ở vườn bách thảo, trồng hoa trồng cây các thứ, tìm hiểu tập tính của cây cối rồi làm ở vườn bách thảo, tớ thấy cái này được, còn tớ thì muốn đi làm thợ mát-xa."
+      "parts": [
+        {
+          "zh": "也不能叫植物学家吧",
+          "vi": "cũng không hẳn gọi là nhà thực vật học được,"
+        },
+        {
+          "zh": "他就想去植物园工作",
+          "vi": "anh ấy muốn làm ở vườn bách thảo,"
+        },
+        {
+          "zh": "然后种种花呀种种树什么的",
+          "vi": "trồng hoa trồng cây các thứ,"
+        },
+        {
+          "zh": "就了解植物的习性",
+          "vi": "tìm hiểu tập tính của cây cối,"
+        },
+        {
+          "zh": "然后去植物园工作",
+          "vi": "rồi làm ở vườn bách thảo,"
+        },
+        {
+          "zh": "我觉得这个可以，",
+          "vi": "tớ thấy cái này được,"
+        },
+        {
+          "zh": "然后我就想去当按摩师。",
+          "vi": "còn tớ thì muốn đi làm thợ mát-xa."
+        }
+      ]
     },
     "331": {
       "zh": "为什么是按摩师？",
@@ -1264,7 +3706,24 @@
     },
     "332": {
       "zh": "因为我觉得，嗯，第一我自己很喜欢按摩；第二按摩我觉得是很难被很难被机器人取代的。",
-      "vi": "Vì tớ thấy, ừm, thứ nhất tớ rất thích mát-xa; thứ hai mát-xa tớ thấy rất khó, rất khó bị robot thay thế."
+      "parts": [
+        {
+          "zh": "因为我觉得，嗯，",
+          "vi": "Vì tớ thấy, ừm,"
+        },
+        {
+          "zh": "第一我自己很喜欢按摩；",
+          "vi": "thứ nhất tớ rất thích mát-xa;"
+        },
+        {
+          "zh": "第二按摩我觉得",
+          "vi": "thứ hai mát-xa tớ thấy"
+        },
+        {
+          "zh": "是很难被很难被机器人取代的。",
+          "vi": "rất khó, rất khó bị robot thay thế."
+        }
+      ]
     },
     "333": {
       "zh": "哇哦！",
@@ -1272,15 +3731,62 @@
     },
     "334": {
       "zh": "第三呢，我觉得如果我以后要开一家按摩店，",
-      "vi": "Thứ ba, tớ thấy nếu sau này tớ mở một tiệm mát-xa,"
+      "parts": [
+        {
+          "zh": "第三呢，",
+          "vi": "Thứ ba,"
+        },
+        {
+          "zh": "我觉得如果我以后要开一家按摩店，",
+          "vi": "tớ thấy nếu sau này tớ mở một tiệm mát-xa,"
+        }
+      ]
     },
     "335": {
       "zh": "我是希望打造一个就像你刚才说的整个的一个体验，它是有一种。禅修或者是一种人性的连接，然后也有按摩，所以这是一个完整的体验啊，",
-      "vi": "tớ muốn tạo ra một, giống như cậu vừa nói, một trải nghiệm trọn vẹn, nó có một kiểu… thiền, hoặc một kiểu kết nối giữa người với người, rồi cũng có mát-xa, nên đây là một trải nghiệm hoàn chỉnh,"
+      "parts": [
+        {
+          "zh": "我是希望打造一个",
+          "vi": "tớ muốn tạo ra một,"
+        },
+        {
+          "zh": "就像你刚才说的整个的一个体验，",
+          "vi": "giống như cậu vừa nói, một trải nghiệm trọn vẹn,"
+        },
+        {
+          "zh": "它是有一种。禅修",
+          "vi": "nó có một kiểu… thiền,"
+        },
+        {
+          "zh": "或者是一种人性的连接，",
+          "vi": "hoặc một kiểu kết nối giữa người với người,"
+        },
+        {
+          "zh": "然后也有按摩，",
+          "vi": "rồi cũng có mát-xa,"
+        },
+        {
+          "zh": "所以这是一个完整的体验啊，",
+          "vi": "nên đây là một trải nghiệm hoàn chỉnh,"
+        }
+      ]
     },
     "337": {
       "zh": "不是就是一个冷冰冰的机器人，他给你这么按按三十分钟，或者一个按摩椅啊什么的。",
-      "vi": "chứ không phải chỉ là một con robot lạnh tanh bóp cho cậu ba mươi phút, hay một cái ghế mát-xa các kiểu."
+      "parts": [
+        {
+          "zh": "不是就是一个冷冰冰的机器人，",
+          "vi": "chứ không phải chỉ là một con robot lạnh tanh"
+        },
+        {
+          "zh": "他给你这么按按三十分钟，",
+          "vi": "bóp cho cậu ba mươi phút,"
+        },
+        {
+          "zh": "或者一个按摩椅啊什么的。",
+          "vi": "hay một cái ghế mát-xa các kiểu."
+        }
+      ]
     },
     "338": {
       "zh": "明白？",
@@ -1296,11 +3802,41 @@
     },
     "341": {
       "zh": "可能就比如说你整个我想象整个嗯体验可能两个小时三个小时对吧？",
-      "vi": "Có lẽ ví dụ như cả trải nghiệm, tớ tưởng tượng cả, ừm, trải nghiệm có lẽ kéo dài hai ba tiếng, đúng không?"
+      "parts": [
+        {
+          "zh": "可能就比如说你整个",
+          "vi": "Có lẽ ví dụ như cả,"
+        },
+        {
+          "zh": "我想象整个嗯体验",
+          "vi": "tớ tưởng tượng cả, ừm, trải nghiệm,"
+        },
+        {
+          "zh": "可能两个小时三个小时对吧？",
+          "vi": "có lẽ kéo dài hai ba tiếng, đúng không?"
+        }
+      ]
     },
     "342": {
       "zh": "先进来，然后我们可以先聊一会儿。天谈一谈哲学，然后然后冥想一个小时，然后怎么样怎么样，然后再按摩，",
-      "vi": "Vào trước đã, rồi tụi mình có thể nói chuyện một lúc, bàn chuyện triết học, rồi rồi thiền một tiếng, rồi thế này thế kia, rồi mới mát-xa,"
+      "parts": [
+        {
+          "zh": "先进来，",
+          "vi": "Vào trước đã,"
+        },
+        {
+          "zh": "然后我们可以先聊一会儿。天",
+          "vi": "rồi tụi mình có thể nói chuyện một lúc,"
+        },
+        {
+          "zh": "谈一谈哲学，然后然后冥想一个小时，",
+          "vi": "bàn chuyện triết học, rồi rồi thiền một tiếng,"
+        },
+        {
+          "zh": "然后怎么样怎么样，然后再按摩，",
+          "vi": "rồi thế này thế kia, rồi mới mát-xa,"
+        }
+      ]
     },
     "344": {
       "zh": "就是有一个整体的体验。",
@@ -1312,19 +3848,59 @@
     },
     "346": {
       "zh": "我觉得你这个想法挺好的，包括我们其实银行的工作现在也是，",
-      "vi": "Tớ thấy ý tưởng này của cậu hay đấy, kể cả công việc ngân hàng của tụi tớ bây giờ cũng vậy,"
+      "parts": [
+        {
+          "zh": "我觉得你这个想法挺好的，",
+          "vi": "Tớ thấy ý tưởng này của cậu hay đấy,"
+        },
+        {
+          "zh": "包括我们其实银行的工作现在也是，",
+          "vi": "kể cả công việc ngân hàng của tụi tớ bây giờ cũng vậy,"
+        }
+      ]
     },
     "347": {
       "zh": "就是我们不是会在专注点放在这个产品本身，而更多是了解你眼前的这个人，",
-      "vi": "tức là tụi tớ không đặt trọng tâm vào bản thân sản phẩm, mà nhiều hơn là tìm hiểu người trước mặt mình,"
+      "parts": [
+        {
+          "zh": "就是我们不是会在专注点",
+          "vi": "tức là tụi tớ không đặt trọng tâm"
+        },
+        {
+          "zh": "放在这个产品本身，",
+          "vi": "vào bản thân sản phẩm,"
+        },
+        {
+          "zh": "而更多是了解你眼前的这个人，",
+          "vi": "mà nhiều hơn là tìm hiểu người trước mặt mình,"
+        }
+      ]
     },
     "348": {
       "zh": "然后跟这个人产生一个连接和一个共鸣，是吧？",
-      "vi": "rồi tạo ra sự kết nối và đồng cảm với người đó, đúng không?"
+      "parts": [
+        {
+          "zh": "然后跟这个人",
+          "vi": "rồi với người đó"
+        },
+        {
+          "zh": "产生一个连接和一个共鸣，是吧？",
+          "vi": "tạo ra sự kết nối và đồng cảm, đúng không?"
+        }
+      ]
     },
     "349": {
       "zh": "我觉得现在网上流行的这些东西都是。往这个方向在发展，",
-      "vi": "Tớ thấy những thứ đang thịnh hành trên mạng bây giờ đều đang phát triển theo hướng này,"
+      "parts": [
+        {
+          "zh": "我觉得现在网上流行的这些东西",
+          "vi": "Tớ thấy những thứ đang thịnh hành trên mạng bây giờ"
+        },
+        {
+          "zh": "都是。往这个方向在发展，",
+          "vi": "đều đang… phát triển theo hướng này,"
+        }
+      ]
     },
     "351": {
       "zh": "嗯，对对对，嗯，好的。",
@@ -1332,15 +3908,42 @@
     },
     "352": {
       "zh": "那今天我感觉我们聊的差不多了，小苏苏你也要上班去了。",
-      "vi": "Vậy hôm nay tớ thấy tụi mình nói chuyện cũng gần đủ rồi, Tiểu Tô Tô cũng phải đi làm rồi."
+      "parts": [
+        {
+          "zh": "那今天我感觉我们聊的差不多了，",
+          "vi": "Vậy hôm nay tớ thấy tụi mình nói chuyện cũng gần đủ rồi,"
+        },
+        {
+          "zh": "小苏苏你也要上班去了。",
+          "vi": "Tiểu Tô Tô cũng phải đi làm rồi."
+        }
+      ]
     },
     "353": {
       "zh": "说到这个上班，好好工作，争取不要被AI替代。",
-      "vi": "Nói đến đi làm, làm việc cho tốt nhé, cố gắng đừng để bị AI thay thế."
+      "parts": [
+        {
+          "zh": "说到这个上班，好好工作，",
+          "vi": "Nói đến đi làm, làm việc cho tốt nhé,"
+        },
+        {
+          "zh": "争取不要被AI替代。",
+          "vi": "cố gắng đừng để bị AI thay thế."
+        }
+      ]
     },
     "354": {
       "zh": "好的，时间总是这么快的度过，真是令人不舍。",
-      "vi": "Được rồi, thời gian lúc nào cũng trôi nhanh như vậy, thật là không nỡ chia tay."
+      "parts": [
+        {
+          "zh": "好的，时间总是这么快的度过，",
+          "vi": "Được rồi, thời gian lúc nào cũng trôi nhanh như vậy,"
+        },
+        {
+          "zh": "真是令人不舍。",
+          "vi": "thật là không nỡ chia tay."
+        }
+      ]
     },
     "355": {
       "zh": "可爱的观众朋友们。",

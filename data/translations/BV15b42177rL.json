@@ -8,7 +8,20 @@
   "sentences": {
     "0": {
       "zh": "这就是二零一八年一月份的何同学，一个十九岁的大一学生，嘴里叼着一个运动相机，",
-      "vi": "Đây là He Tongxue vào tháng 1 năm 2018, một sinh viên năm nhất 19 tuổi, miệng ngậm một chiếc camera hành trình,"
+      "parts": [
+        {
+          "zh": "这就是二零一八年一月份的何同学，",
+          "vi": "Đây là He Tongxue vào tháng 1 năm 2018,"
+        },
+        {
+          "zh": "一个十九岁的大一学生，",
+          "vi": "một sinh viên năm nhất 19 tuổi,"
+        },
+        {
+          "zh": "嘴里叼着一个运动相机，",
+          "vi": "miệng ngậm một chiếc camera hành trình,"
+        }
+      ]
     },
     "1": {
       "zh": "在宿舍的洗手间里自拍。",
@@ -16,15 +29,66 @@
     },
     "2": {
       "zh": "我之所以在回看这段素材，是因为辅导员问我能不能回学校做个演讲，分享下自己的大学生活。",
-      "vi": "Sở dĩ mình xem lại đoạn phim này là vì cô cố vấn hỏi mình có thể về trường nói chuyện, chia sẻ chút về đời sinh viên của mình không."
+      "parts": [
+        {
+          "zh": "我之所以在回看这段素材，",
+          "vi": "Sở dĩ mình xem lại đoạn phim này,"
+        },
+        {
+          "zh": "是因为辅导员问我",
+          "vi": "là vì cô cố vấn hỏi mình"
+        },
+        {
+          "zh": "能不能回学校做个演讲，",
+          "vi": "có thể về trường nói chuyện không,"
+        },
+        {
+          "zh": "分享下自己的大学生活。",
+          "vi": "chia sẻ chút về đời sinh viên của mình."
+        }
+      ]
     },
     "3": {
       "zh": "当时刚买了这个第一人称拍摄套件的我非常激动，每天都要叼着相机到处走。",
-      "vi": "Hồi đó mình vừa mua bộ phụ kiện quay góc nhìn thứ nhất này, phấn khích lắm, ngày nào cũng ngậm camera đi khắp nơi."
+      "parts": [
+        {
+          "zh": "当时刚买了这个",
+          "vi": "Hồi đó mình vừa mua"
+        },
+        {
+          "zh": "第一人称拍摄套件的我",
+          "vi": "bộ phụ kiện quay góc nhìn thứ nhất này,"
+        },
+        {
+          "zh": "非常激动，",
+          "vi": "phấn khích lắm,"
+        },
+        {
+          "zh": "每天都要叼着相机到处走。",
+          "vi": "ngày nào cũng ngậm camera đi khắp nơi."
+        }
+      ]
     },
     "4": {
       "zh": "但这可不是寻常的一天，这是非常特殊的一天，因为就在这天，我对象没想到吧？",
-      "vi": "Nhưng đó không phải một ngày bình thường, mà là một ngày rất đặc biệt, vì đúng hôm đó, người yêu mình — không ngờ phải không?"
+      "parts": [
+        {
+          "zh": "但这可不是寻常的一天，",
+          "vi": "Nhưng đó không phải một ngày bình thường,"
+        },
+        {
+          "zh": "这是非常特殊的一天，",
+          "vi": "mà là một ngày rất đặc biệt,"
+        },
+        {
+          "zh": "因为就在这天，",
+          "vi": "vì đúng hôm đó,"
+        },
+        {
+          "zh": "我对象没想到吧？",
+          "vi": "người yêu mình — không ngờ phải không?"
+        }
+      ]
     },
     "5": {
       "zh": "你们小何是有女朋友的，和我分手了。",
@@ -32,23 +96,92 @@
     },
     "6": {
       "zh": "我现在已经想不起来为什么要分了，但是回看这段录像的时候，",
-      "vi": "Giờ mình không còn nhớ nổi tại sao lại chia tay nữa, nhưng khi xem lại đoạn phim này,"
+      "parts": [
+        {
+          "zh": "我现在已经想不起来为什么要分了，",
+          "vi": "Giờ mình không còn nhớ nổi tại sao lại chia tay nữa,"
+        },
+        {
+          "zh": "但是回看这段录像的时候，",
+          "vi": "nhưng khi xem lại đoạn phim này,"
+        }
+      ]
     },
     "7": {
       "zh": "我意识到我是一个十九岁的大一学生，嘴里叼着一个运动相机，在宿舍的洗手间里自拍，",
-      "vi": "mình nhận ra mình là một sinh viên năm nhất 19 tuổi, miệng ngậm camera hành trình, tự quay trong nhà vệ sinh ký túc xá,"
+      "parts": [
+        {
+          "zh": "我意识到",
+          "vi": "mình nhận ra"
+        },
+        {
+          "zh": "我是一个十九岁的大一学生，",
+          "vi": "mình là một sinh viên năm nhất 19 tuổi,"
+        },
+        {
+          "zh": "嘴里叼着一个运动相机，",
+          "vi": "miệng ngậm camera hành trình,"
+        },
+        {
+          "zh": "在宿舍的洗手间里自拍，",
+          "vi": "tự quay trong nhà vệ sinh ký túc xá,"
+        }
+      ]
     },
     "8": {
       "zh": "长得还像个初中生，能找到对象已经是个奇迹了。",
-      "vi": "mặt thì còn như học sinh cấp hai, kiếm được người yêu đã là một kỳ tích rồi."
+      "parts": [
+        {
+          "zh": "长得还像个初中生，",
+          "vi": "mặt thì còn như học sinh cấp hai,"
+        },
+        {
+          "zh": "能找到对象已经是个奇迹了。",
+          "vi": "kiếm được người yêu đã là một kỳ tích rồi."
+        }
+      ]
     },
     "9": {
       "zh": "我真的很喜欢她，所以坐了很长时间的车到她学校楼下，看看有没有当面聊聊的机会。",
-      "vi": "Mình thật sự rất thích cô ấy, nên ngồi xe rất lâu đến tận dưới trường cô ấy, xem có cơ hội gặp mặt nói chuyện không."
+      "parts": [
+        {
+          "zh": "我真的很喜欢她，",
+          "vi": "Mình thật sự rất thích cô ấy,"
+        },
+        {
+          "zh": "所以坐了很长时间的车",
+          "vi": "nên ngồi xe rất lâu"
+        },
+        {
+          "zh": "到她学校楼下，",
+          "vi": "đến tận dưới trường cô ấy,"
+        },
+        {
+          "zh": "看看有没有当面聊聊的机会。",
+          "vi": "xem có cơ hội gặp mặt nói chuyện không."
+        }
+      ]
     },
     "10": {
       "zh": "但她是铁了心要分，并不想来见我，所以我就坐在这个长椅上，一边沉浸在悲伤的气氛里，",
-      "vi": "Nhưng cô ấy đã quyết chia tay, không muốn xuống gặp mình, nên mình ngồi trên chiếc ghế dài này, vừa chìm trong nỗi buồn,"
+      "parts": [
+        {
+          "zh": "但她是铁了心要分，",
+          "vi": "Nhưng cô ấy đã quyết chia tay,"
+        },
+        {
+          "zh": "并不想来见我，",
+          "vi": "không muốn xuống gặp mình,"
+        },
+        {
+          "zh": "所以我就坐在这个长椅上，",
+          "vi": "nên mình ngồi trên chiếc ghế dài này,"
+        },
+        {
+          "zh": "一边沉浸在悲伤的气氛里，",
+          "vi": "vừa chìm trong nỗi buồn,"
+        }
+      ]
     },
     "11": {
       "zh": "看着全是扫点的天空发呆。",
@@ -56,11 +189,37 @@
     },
     "12": {
       "zh": "一边看起了中国近代史纲要，没有办法，第二天还有期末考试。",
-      "vi": "vừa đọc giáo trình Đề cương Lịch sử Cận đại Trung Quốc, biết làm sao được, hôm sau còn thi cuối kỳ."
+      "parts": [
+        {
+          "zh": "一边看起了中国近代史纲要，",
+          "vi": "vừa đọc giáo trình Đề cương Lịch sử Cận đại Trung Quốc,"
+        },
+        {
+          "zh": "没有办法，第二天还有期末考试。",
+          "vi": "biết làm sao được, hôm sau còn thi cuối kỳ."
+        }
+      ]
     },
     "13": {
       "zh": "坐到宿舍快要关门了，他还是不肯下来见我，我只好回去，想着不用担心，我们经常吵架，",
-      "vi": "Ngồi đến lúc ký túc xá sắp đóng cửa, cô ấy vẫn không chịu xuống gặp, mình đành về, nghĩ bụng không sao đâu, bọn mình vẫn hay cãi nhau,"
+      "parts": [
+        {
+          "zh": "坐到宿舍快要关门了，",
+          "vi": "Ngồi đến lúc ký túc xá sắp đóng cửa,"
+        },
+        {
+          "zh": "他还是不肯下来见我，",
+          "vi": "cô ấy vẫn không chịu xuống gặp,"
+        },
+        {
+          "zh": "我只好回去，想着不用担心，",
+          "vi": "mình đành về, nghĩ bụng không sao đâu,"
+        },
+        {
+          "zh": "我们经常吵架，",
+          "vi": "bọn mình vẫn hay cãi nhau,"
+        }
+      ]
     },
     "14": {
       "zh": "说不定过一阵就复合了。",
@@ -68,11 +227,33 @@
     },
     "15": {
       "zh": "走之前，我还把给他带的礼物留在了长椅上，希望他会下来拿。",
-      "vi": "Trước khi đi, mình còn để món quà mang cho cô ấy lại trên ghế, mong cô ấy sẽ xuống lấy."
+      "parts": [
+        {
+          "zh": "走之前，我还把给他带的礼物",
+          "vi": "Trước khi đi, mình còn để món quà mang cho cô ấy"
+        },
+        {
+          "zh": "留在了长椅上，",
+          "vi": "lại trên ghế,"
+        },
+        {
+          "zh": "希望他会下来拿。",
+          "vi": "mong cô ấy sẽ xuống lấy."
+        }
+      ]
     },
     "16": {
       "zh": "路上看到很多情侣在宿舍楼下吻别，真是够墨迹的。",
-      "vi": "Trên đường thấy bao nhiêu cặp đôi hôn tạm biệt dưới ký túc xá, đúng là dây dưa ghê."
+      "parts": [
+        {
+          "zh": "路上看到很多情侣在宿舍楼下吻别，",
+          "vi": "Trên đường thấy bao nhiêu cặp đôi hôn tạm biệt dưới ký túc xá,"
+        },
+        {
+          "zh": "真是够墨迹的。",
+          "vi": "đúng là dây dưa ghê."
+        }
+      ]
     },
     "17": {
       "zh": "而且这么晚回去就只能打车了。",
@@ -80,7 +261,24 @@
     },
     "18": {
       "zh": "之后我就回到了我的母校中央戏剧学院旁边的北京邮电大学宏福校区，虽然看着有些旧。",
-      "vi": "Sau đó mình về lại trường mình — Đại học Bưu điện Bắc Kinh cơ sở Hoằng Phúc, ngay cạnh Học viện Hí kịch Trung ương, trông thì hơi cũ."
+      "parts": [
+        {
+          "zh": "之后我就回到了我的母校",
+          "vi": "Sau đó mình về lại trường mình,"
+        },
+        {
+          "zh": "中央戏剧学院旁边的",
+          "vi": "ngay cạnh Học viện Hí kịch Trung ương,"
+        },
+        {
+          "zh": "北京邮电大学宏福校区，",
+          "vi": "là Đại học Bưu điện Bắc Kinh cơ sở Hoằng Phúc,"
+        },
+        {
+          "zh": "虽然看着有些旧。",
+          "vi": "trông thì hơi cũ."
+        }
+      ]
     },
     "19": {
       "zh": "但这里是我在北京的第一个家。",
@@ -92,11 +290,29 @@
     },
     "21": {
       "zh": "在了解了我的重大打击之后，阿范和我进城玩了一天。",
-      "vi": "Biết mình vừa chịu cú sốc lớn, A Phạm cùng mình vào thành phố chơi một ngày."
+      "parts": [
+        {
+          "zh": "在了解了我的重大打击之后，",
+          "vi": "Biết mình vừa chịu cú sốc lớn,"
+        },
+        {
+          "zh": "阿范和我进城玩了一天。",
+          "vi": "A Phạm cùng mình vào thành phố chơi một ngày."
+        }
+      ]
     },
     "22": {
       "zh": "所谓玩，其实就是在城里的大街上瞎晃。",
-      "vi": "Gọi là chơi, chứ thật ra là lang thang ngoài phố trong thành phố."
+      "parts": [
+        {
+          "zh": "所谓玩，",
+          "vi": "Gọi là chơi,"
+        },
+        {
+          "zh": "其实就是在城里的大街上瞎晃。",
+          "vi": "chứ thật ra là lang thang ngoài phố trong thành phố."
+        }
+      ]
     },
     "23": {
       "zh": "但是现在想起来也是很放松的一天。",
@@ -108,55 +324,208 @@
     },
     "25": {
       "zh": "那时D850是尼康刚刚推出的单反，iPhone X是苹果最新的手机。",
-      "vi": "Hồi đó D850 là máy DSLR Nikon vừa ra mắt, iPhone X là điện thoại mới nhất của Apple."
+      "parts": [
+        {
+          "zh": "那时D850是尼康",
+          "vi": "Hồi đó D850 là máy DSLR"
+        },
+        {
+          "zh": "刚刚推出的单反，",
+          "vi": "Nikon vừa ra mắt,"
+        },
+        {
+          "zh": "iPhone X是苹果最新的手机。",
+          "vi": "iPhone X là điện thoại mới nhất của Apple."
+        }
+      ]
     },
     "26": {
       "zh": "之后，我们就告别了宏福校区，搬家来到了新校区。",
-      "vi": "Sau đó, bọn mình chia tay cơ sở Hoằng Phúc, chuyển đến cơ sở mới."
+      "parts": [
+        {
+          "zh": "之后，我们就告别了宏福校区，",
+          "vi": "Sau đó, bọn mình chia tay cơ sở Hoằng Phúc,"
+        },
+        {
+          "zh": "搬家来到了新校区。",
+          "vi": "chuyển đến cơ sở mới."
+        }
+      ]
     },
     "27": {
       "zh": "这就是刚搬到这里时的我，迷茫、心碎，每天听着悲伤的歌曲入睡。",
-      "vi": "Đây là mình lúc vừa chuyển tới: hoang mang, tan nát cõi lòng, tối nào cũng nghe nhạc buồn mà ngủ."
+      "parts": [
+        {
+          "zh": "这就是刚搬到这里时的我，",
+          "vi": "Đây là mình lúc vừa chuyển tới:"
+        },
+        {
+          "zh": "迷茫、心碎，",
+          "vi": "hoang mang, tan nát cõi lòng,"
+        },
+        {
+          "zh": "每天听着悲伤的歌曲入睡。",
+          "vi": "tối nào cũng nghe nhạc buồn mà ngủ."
+        }
+      ]
     },
     "28": {
       "zh": "那时的我肯定不会想到，五年后我会开心的回到这里。",
-      "vi": "Khi đó chắc chắn mình không nghĩ tới, năm năm sau mình sẽ vui vẻ quay lại đây."
+      "parts": [
+        {
+          "zh": "那时的我肯定不会想到，",
+          "vi": "Khi đó chắc chắn mình không nghĩ tới,"
+        },
+        {
+          "zh": "五年后我会开心的回到这里。",
+          "vi": "năm năm sau mình sẽ vui vẻ quay lại đây."
+        }
+      ]
     },
     "29": {
       "zh": "大家之所以会认识我，是因为我做过很多视频。",
-      "vi": "Mọi người biết đến mình là vì mình đã làm rất nhiều video."
+      "parts": [
+        {
+          "zh": "大家之所以会认识我，",
+          "vi": "Mọi người biết đến mình,"
+        },
+        {
+          "zh": "是因为我做过很多视频。",
+          "vi": "là vì mình đã làm rất nhiều video."
+        }
+      ]
     },
     "30": {
       "zh": "而我真正开始跟人做视频的时候，其实就是我一八年的一月份刚搬到我们沙河校区的那段时间。",
-      "vi": "Còn thời điểm mình thật sự bắt đầu làm video, thực ra chính là tháng 1 năm 2018, khi vừa chuyển đến cơ sở Sa Hà."
+      "parts": [
+        {
+          "zh": "而我真正开始跟人做视频的时候，",
+          "vi": "Còn thời điểm mình thật sự bắt đầu làm video,"
+        },
+        {
+          "zh": "其实就是我一八年的一月份",
+          "vi": "thực ra chính là tháng 1 năm 2018,"
+        },
+        {
+          "zh": "刚搬到我们沙河校区的那段时间。",
+          "vi": "khi vừa chuyển đến cơ sở Sa Hà."
+        }
+      ]
     },
     "31": {
       "zh": "那时的我也在网上发了一些自制视频，比如体验盲人的生活、简单的后期教程。",
-      "vi": "Hồi đó mình cũng đăng lên mạng vài video tự làm, như trải nghiệm cuộc sống của người mù, hướng dẫn hậu kỳ đơn giản."
+      "parts": [
+        {
+          "zh": "那时的我也在网上",
+          "vi": "Hồi đó mình cũng đăng lên mạng"
+        },
+        {
+          "zh": "发了一些自制视频，",
+          "vi": "vài video tự làm,"
+        },
+        {
+          "zh": "比如体验盲人的生活、",
+          "vi": "như trải nghiệm cuộc sống của người mù,"
+        },
+        {
+          "zh": "简单的后期教程。",
+          "vi": "hướng dẫn hậu kỳ đơn giản."
+        }
+      ]
     },
     "32": {
       "zh": "我甚至拍过一个去知乎总部参观的vlog。",
-      "vi": "Mình còn quay cả một vlog đi tham quan trụ sở Zhihu."
+      "parts": [
+        {
+          "zh": "我甚至拍过一个",
+          "vi": "Mình còn quay cả"
+        },
+        {
+          "zh": "去知乎总部参观的vlog。",
+          "vi": "một vlog đi tham quan trụ sở Zhihu."
+        }
+      ]
     },
     "33": {
       "zh": "那时的我还是非常喜欢知乎的，不过遗憾的是这些视频并没有什么人看。",
-      "vi": "Hồi đó mình vẫn rất thích Zhihu, có điều tiếc là mấy video này chẳng mấy ai xem."
+      "parts": [
+        {
+          "zh": "那时的我还是非常喜欢知乎的，",
+          "vi": "Hồi đó mình vẫn rất thích Zhihu,"
+        },
+        {
+          "zh": "不过遗憾的是",
+          "vi": "có điều tiếc là"
+        },
+        {
+          "zh": "这些视频并没有什么人看。",
+          "vi": "mấy video này chẳng mấy ai xem."
+        }
+      ]
     },
     "34": {
       "zh": "到了二零一八年的一月三十一日，我的账号只有五百个粉丝。",
-      "vi": "Đến ngày 31 tháng 1 năm 2018, tài khoản của mình chỉ có 500 người theo dõi."
+      "parts": [
+        {
+          "zh": "到了二零一八年的一月三十一日，",
+          "vi": "Đến ngày 31 tháng 1 năm 2018,"
+        },
+        {
+          "zh": "我的账号只有五百个粉丝。",
+          "vi": "tài khoản của mình chỉ có 500 người theo dõi."
+        }
+      ]
     },
     "35": {
       "zh": "我意识到我得开始做最有流量的数码视频——产品评测。",
-      "vi": "Mình nhận ra mình phải bắt đầu làm loại video công nghệ hút view nhất — review sản phẩm."
+      "parts": [
+        {
+          "zh": "我意识到我得开始做",
+          "vi": "Mình nhận ra mình phải bắt đầu làm"
+        },
+        {
+          "zh": "最有流量的数码视频——产品评测。",
+          "vi": "loại video công nghệ hút view nhất — review sản phẩm."
+        }
+      ]
     },
     "36": {
       "zh": "这类视频的内容其实就是在新的手机、笔记本上市的时候分享一下产品的体验和性能。",
-      "vi": "Nội dung loại video này thực ra là khi điện thoại, laptop mới ra mắt thì chia sẻ trải nghiệm và hiệu năng của sản phẩm."
+      "parts": [
+        {
+          "zh": "这类视频的内容其实就是",
+          "vi": "Nội dung loại video này thực ra là"
+        },
+        {
+          "zh": "在新的手机、笔记本上市的时候",
+          "vi": "khi điện thoại, laptop mới ra mắt"
+        },
+        {
+          "zh": "分享一下产品的体验和性能。",
+          "vi": "thì chia sẻ trải nghiệm và hiệu năng của sản phẩm."
+        }
+      ]
     },
     "37": {
       "zh": "好消息是我从小就是看各种产品评测长大的，高中时每天偷偷刷IT之家，在这方面有一些积累。",
-      "vi": "Tin tốt là mình lớn lên cùng đủ loại video review từ nhỏ, hồi cấp ba ngày nào cũng lén lướt IT之家, nên cũng có chút vốn liếng về mảng này."
+      "parts": [
+        {
+          "zh": "好消息是我从小就是",
+          "vi": "Tin tốt là từ nhỏ mình đã"
+        },
+        {
+          "zh": "看各种产品评测长大的，",
+          "vi": "lớn lên cùng đủ loại video review,"
+        },
+        {
+          "zh": "高中时每天偷偷刷IT之家，",
+          "vi": "hồi cấp ba ngày nào cũng lén lướt IT之家,"
+        },
+        {
+          "zh": "在这方面有一些积累。",
+          "vi": "nên cũng có chút vốn liếng về mảng này."
+        }
+      ]
     },
     "38": {
       "zh": "坏消息是。",
@@ -168,19 +537,67 @@
     },
     "40": {
       "zh": "于是我想了个办法，不做新品评测，而是给那些老的产品做视频。",
-      "vi": "Thế là mình nghĩ ra một cách: không review sản phẩm mới, mà làm video về những sản phẩm cũ."
+      "parts": [
+        {
+          "zh": "于是我想了个办法，",
+          "vi": "Thế là mình nghĩ ra một cách:"
+        },
+        {
+          "zh": "不做新品评测，",
+          "vi": "không review sản phẩm mới,"
+        },
+        {
+          "zh": "而是给那些老的产品做视频。",
+          "vi": "mà làm video về những sản phẩm cũ."
+        }
+      ]
     },
     "41": {
       "zh": "这些产品可以用很便宜的价格买到，而且相比于前途未卜的新产品，",
-      "vi": "Những sản phẩm này mua được với giá rất rẻ, hơn nữa so với sản phẩm mới chưa biết tương lai ra sao,"
+      "parts": [
+        {
+          "zh": "这些产品可以用很便宜的价格买到，",
+          "vi": "Những sản phẩm này mua được với giá rất rẻ,"
+        },
+        {
+          "zh": "而且相比于前途未卜的新产品，",
+          "vi": "hơn nữa so với sản phẩm mới chưa biết tương lai ra sao,"
+        }
+      ]
     },
     "42": {
       "zh": "这些尘埃落定的老产品上沉淀了更多故事。",
-      "vi": "những sản phẩm cũ đã ngã ngũ này đọng lại nhiều câu chuyện hơn."
+      "parts": [
+        {
+          "zh": "这些尘埃落定的老产品上",
+          "vi": "những sản phẩm cũ đã ngã ngũ này"
+        },
+        {
+          "zh": "沉淀了更多故事。",
+          "vi": "đọng lại nhiều câu chuyện hơn."
+        }
+      ]
     },
     "43": {
       "zh": "没课的时候，我就会去图书馆这个我最喜欢的角落写视频的稿子，",
-      "vi": "Những lúc không có tiết, mình lại lên góc thư viện mình thích nhất này để viết kịch bản,"
+      "parts": [
+        {
+          "zh": "没课的时候，",
+          "vi": "Những lúc không có tiết,"
+        },
+        {
+          "zh": "我就会去图书馆",
+          "vi": "mình lại lên thư viện,"
+        },
+        {
+          "zh": "这个我最喜欢的角落",
+          "vi": "góc mình thích nhất này,"
+        },
+        {
+          "zh": "写视频的稿子，",
+          "vi": "để viết kịch bản video,"
+        }
+      ]
     },
     "44": {
       "zh": "但很可能一下午一个字都憋不出来。",
@@ -192,11 +609,41 @@
     },
     "46": {
       "zh": "稿子写完后，学校里并没有适合我拍产品的地方，所以我会坐高铁回山西太原的家里拍。",
-      "vi": "Viết xong kịch bản, trong trường lại chẳng có chỗ nào hợp để quay sản phẩm, nên mình đi tàu cao tốc về nhà ở Thái Nguyên, Sơn Tây để quay."
+      "parts": [
+        {
+          "zh": "稿子写完后，",
+          "vi": "Viết xong kịch bản,"
+        },
+        {
+          "zh": "学校里并没有适合我拍产品的地方，",
+          "vi": "trong trường lại chẳng có chỗ nào hợp để quay sản phẩm,"
+        },
+        {
+          "zh": "所以我会坐高铁",
+          "vi": "nên mình đi tàu cao tốc"
+        },
+        {
+          "zh": "回山西太原的家里拍。",
+          "vi": "về nhà ở Thái Nguyên, Sơn Tây để quay."
+        }
+      ]
     },
     "47": {
       "zh": "一般是周五下课回去，周六在家尽量慢改一天，把素材拍完。",
-      "vi": "Thường thì thứ Sáu tan học về, thứ Bảy ở nhà cố gắng làm một ngày, quay xong hết cảnh."
+      "parts": [
+        {
+          "zh": "一般是周五下课回去，",
+          "vi": "Thường thì thứ Sáu tan học về,"
+        },
+        {
+          "zh": "周六在家尽量慢改一天，",
+          "vi": "thứ Bảy ở nhà cố gắng làm một ngày,"
+        },
+        {
+          "zh": "把素材拍完。",
+          "vi": "quay xong hết cảnh."
+        }
+      ]
     },
     "48": {
       "zh": "周日下午再回学校。",
@@ -204,19 +651,59 @@
     },
     "49": {
       "zh": "从一八年的夏天开始，这条路我走了太多回，",
-      "vi": "Từ mùa hè năm 2018, con đường này mình đi không biết bao nhiêu lần,"
+      "parts": [
+        {
+          "zh": "从一八年的夏天开始，",
+          "vi": "Từ mùa hè năm 2018,"
+        },
+        {
+          "zh": "这条路我走了太多回，",
+          "vi": "con đường này mình đi không biết bao nhiêu lần,"
+        }
+      ]
     },
     "50": {
       "zh": "可以说我大多数有关做视频的知识都是在十九岁的夏天学会的。",
-      "vi": "có thể nói phần lớn kiến thức làm video của mình đều học được vào mùa hè năm 19 tuổi."
+      "parts": [
+        {
+          "zh": "可以说我大多数有关做视频的知识",
+          "vi": "có thể nói phần lớn kiến thức làm video của mình"
+        },
+        {
+          "zh": "都是在十九岁的夏天学会的。",
+          "vi": "đều học được vào mùa hè năm 19 tuổi."
+        }
+      ]
     },
     "51": {
       "zh": "好了，各位，这期视频就全部内容了，非常感谢你们看到这里。",
-      "vi": "Được rồi, các bạn, video kỳ này đến đây là hết, rất cảm ơn các bạn đã xem đến đây."
+      "parts": [
+        {
+          "zh": "好了，各位，这期视频就全部内容了，",
+          "vi": "Được rồi, các bạn, video kỳ này đến đây là hết,"
+        },
+        {
+          "zh": "非常感谢你们看到这里。",
+          "vi": "rất cảm ơn các bạn đã xem đến đây."
+        }
+      ]
     },
     "52": {
       "zh": "如果觉得做的不错的话，长赞、收藏、点赞、评论、转发，最后让您给大家的关注，",
-      "vi": "Nếu thấy video làm được thì like, lưu, bình luận, chia sẻ, và cuối cùng là theo dõi kênh,"
+      "parts": [
+        {
+          "zh": "如果觉得做的不错的话，",
+          "vi": "Nếu thấy video làm được thì"
+        },
+        {
+          "zh": "长赞、收藏、点赞、评论、转发，",
+          "vi": "like, lưu, bình luận, chia sẻ,"
+        },
+        {
+          "zh": "最后让您给大家的关注，",
+          "vi": "và cuối cùng là theo dõi kênh,"
+        }
+      ]
     },
     "53": {
       "zh": "各位的支持就是我视频的最大动力。",
@@ -228,7 +715,20 @@
     },
     "55": {
       "zh": "我和我的好室友阿范在取完快递回宿舍的路上，我跟他开玩笑说：",
-      "vi": "Trên đường cùng bạn cùng phòng A Phạm lấy bưu kiện xong về ký túc, mình nói đùa với cậu ấy:"
+      "parts": [
+        {
+          "zh": "我和我的好室友阿范",
+          "vi": "Mình với bạn cùng phòng A Phạm,"
+        },
+        {
+          "zh": "在取完快递回宿舍的路上，",
+          "vi": "trên đường lấy bưu kiện xong về ký túc,"
+        },
+        {
+          "zh": "我跟他开玩笑说：",
+          "vi": "mình nói đùa với cậu ấy:"
+        }
+      ]
     },
     "56": {
       "zh": "“我将要到粉丝最多的UP主。”",
@@ -236,23 +736,80 @@
     },
     "57": {
       "zh": "我的好室友跟我说：“呃，没有问题，小何，你还可以买一份粉丝最多的关东煮。”",
-      "vi": "Bạn cùng phòng bảo mình: \"Ờ, không vấn đề gì, Tiểu Hà, cậu còn mua được suất oden nhiều miến nhất nữa kìa.\" (粉丝 vừa là \"fan\" vừa là \"miến\")"
+      "parts": [
+        {
+          "zh": "我的好室友跟我说：",
+          "vi": "Bạn cùng phòng bảo mình:"
+        },
+        {
+          "zh": "“呃，没有问题，小何，",
+          "vi": "\"Ờ, không vấn đề gì, Tiểu Hà,"
+        },
+        {
+          "zh": "你还可以买一份粉丝最多的关东煮。”",
+          "vi": "cậu còn mua được suất oden nhiều miến nhất nữa kìa.\" (粉丝 vừa là \"fan\" vừa là \"miến\")"
+        }
+      ]
     },
     "58": {
       "zh": "那年夏天的数码圈有一件大事：罗永浩的锤子科技要在鸟巢举办有史以来规模最大的。",
-      "vi": "Mùa hè năm ấy giới công nghệ có một sự kiện lớn: Smartisan của La Vĩnh Hạo sẽ tổ chức ở sân vận động Tổ Chim buổi ra mắt quy mô lớn nhất từ trước tới nay,"
+      "parts": [
+        {
+          "zh": "那年夏天的数码圈有一件大事：",
+          "vi": "Mùa hè năm ấy giới công nghệ có một sự kiện lớn:"
+        },
+        {
+          "zh": "罗永浩的锤子科技要在鸟巢",
+          "vi": "Smartisan của La Vĩnh Hạo sẽ ở sân vận động Tổ Chim"
+        },
+        {
+          "zh": "举办有史以来规模最大的。",
+          "vi": "tổ chức buổi ra mắt quy mô lớn nhất từ trước tới nay,"
+        }
+      ]
     },
     "59": {
       "zh": "产品发布会发布一款革命性的产品，我和朋友买了票去现场看了这场盛会。",
-      "vi": "ra mắt một sản phẩm mang tính cách mạng, mình với bạn mua vé đến tận nơi xem sự kiện này."
+      "parts": [
+        {
+          "zh": "产品发布会发布一款革命性的产品，",
+          "vi": "ra mắt một sản phẩm mang tính cách mạng,"
+        },
+        {
+          "zh": "我和朋友买了票",
+          "vi": "mình với bạn mua vé"
+        },
+        {
+          "zh": "去现场看了这场盛会。",
+          "vi": "đến tận nơi xem sự kiện này."
+        }
+      ]
     },
     "60": {
       "zh": "我当时甚至专门做了一个视频回顾锤子的第一台手机。",
-      "vi": "Hồi đó mình còn làm riêng một video điểm lại chiếc điện thoại đầu tiên của Smartisan."
+      "parts": [
+        {
+          "zh": "我当时甚至专门做了一个视频",
+          "vi": "Hồi đó mình còn làm riêng một video"
+        },
+        {
+          "zh": "回顾锤子的第一台手机。",
+          "vi": "điểm lại chiếc điện thoại đầu tiên của Smartisan."
+        }
+      ]
     },
     "61": {
       "zh": "视频发布的当晚，我的粉丝数达到了一万。",
-      "vi": "Tối hôm video đăng lên, số người theo dõi của mình đạt 1 vạn."
+      "parts": [
+        {
+          "zh": "视频发布的当晚，",
+          "vi": "Tối hôm video đăng lên,"
+        },
+        {
+          "zh": "我的粉丝数达到了一万。",
+          "vi": "số người theo dõi của mình đạt 1 vạn."
+        }
+      ]
     },
     "62": {
       "zh": "谢谢你，锤子科技！",
@@ -260,11 +817,29 @@
     },
     "63": {
       "zh": "那也是我第一次用肉眼见到只在屏幕里见过的人物。",
-      "vi": "Đó cũng là lần đầu tiên mình tận mắt thấy những nhân vật trước giờ chỉ thấy trên màn hình."
+      "parts": [
+        {
+          "zh": "那也是我第一次用肉眼",
+          "vi": "Đó cũng là lần đầu tiên mình tận mắt"
+        },
+        {
+          "zh": "见到只在屏幕里见过的人物。",
+          "vi": "thấy những nhân vật trước giờ chỉ thấy trên màn hình."
+        }
+      ]
     },
     "64": {
       "zh": "虽然离得很远很远，但感觉还是非常神奇的。",
-      "vi": "Tuy ngồi rất rất xa, nhưng cảm giác vẫn thật kỳ diệu."
+      "parts": [
+        {
+          "zh": "虽然离得很远很远，",
+          "vi": "Tuy ngồi rất rất xa,"
+        },
+        {
+          "zh": "但感觉还是非常神奇的。",
+          "vi": "nhưng cảm giác vẫn thật kỳ diệu."
+        }
+      ]
     },
     "65": {
       "zh": "再看直播好好玩一个。",
@@ -280,11 +855,33 @@
     },
     "68": {
       "zh": "一八年暑假结束的时候，我有了两万粉丝，开始正式做新品的评测。",
-      "vi": "Hết kỳ nghỉ hè 2018, mình có 2 vạn fan, bắt đầu chính thức review sản phẩm mới."
+      "parts": [
+        {
+          "zh": "一八年暑假结束的时候，",
+          "vi": "Hết kỳ nghỉ hè 2018,"
+        },
+        {
+          "zh": "我有了两万粉丝，",
+          "vi": "mình có 2 vạn fan,"
+        },
+        {
+          "zh": "开始正式做新品的评测。",
+          "vi": "bắt đầu chính thức review sản phẩm mới."
+        }
+      ]
     },
     "69": {
       "zh": "到了一八年年底的时候，这个数字变成了六点五万。",
-      "vi": "Đến cuối năm 2018, con số này thành 6,5 vạn."
+      "parts": [
+        {
+          "zh": "到了一八年年底的时候，",
+          "vi": "Đến cuối năm 2018,"
+        },
+        {
+          "zh": "这个数字变成了六点五万。",
+          "vi": "con số này thành 6,5 vạn."
+        }
+      ]
     },
     "70": {
       "zh": "然后在这个过程中，有一个小故事。",
@@ -292,7 +889,20 @@
     },
     "71": {
       "zh": "我很想和大家分享，在二零一八年的十月份，我想给一个睡眠耳塞做个视频。",
-      "vi": "Mình rất muốn kể với mọi người: tháng 10 năm 2018, mình định làm video về một loại nút bịt tai khi ngủ."
+      "parts": [
+        {
+          "zh": "我很想和大家分享，",
+          "vi": "Mình rất muốn kể với mọi người:"
+        },
+        {
+          "zh": "在二零一八年的十月份，",
+          "vi": "tháng 10 năm 2018,"
+        },
+        {
+          "zh": "我想给一个睡眠耳塞做个视频。",
+          "vi": "mình định làm video về một loại nút bịt tai khi ngủ."
+        }
+      ]
     },
     "72": {
       "zh": "这个耳塞有多难用呢？",
@@ -300,11 +910,41 @@
     },
     "73": {
       "zh": "当时的我写道，在使用了一周后，我今天六点就起了床，马上买了火车票，",
-      "vi": "Hồi đó mình viết: sau một tuần dùng, hôm nay mình dậy lúc 6 giờ, lập tức mua vé tàu,"
+      "parts": [
+        {
+          "zh": "当时的我写道，",
+          "vi": "Hồi đó mình viết:"
+        },
+        {
+          "zh": "在使用了一周后，",
+          "vi": "sau một tuần dùng,"
+        },
+        {
+          "zh": "我今天六点就起了床，",
+          "vi": "hôm nay mình dậy lúc 6 giờ,"
+        },
+        {
+          "zh": "马上买了火车票，",
+          "vi": "lập tức mua vé tàu,"
+        }
+      ]
     },
     "74": {
       "zh": "走了半个小时路到地铁站，倒四次地铁到火车站，再坐三个小时火车到家，",
-      "vi": "đi bộ nửa tiếng ra ga tàu điện, đổi tàu điện bốn lần tới ga tàu hỏa, rồi ngồi ba tiếng tàu hỏa về nhà,"
+      "parts": [
+        {
+          "zh": "走了半个小时路到地铁站，",
+          "vi": "đi bộ nửa tiếng ra ga tàu điện,"
+        },
+        {
+          "zh": "倒四次地铁到火车站，",
+          "vi": "đổi tàu điện bốn lần tới ga tàu hỏa,"
+        },
+        {
+          "zh": "再坐三个小时火车到家，",
+          "vi": "rồi ngồi ba tiếng tàu hỏa về nhà,"
+        }
+      ]
     },
     "75": {
       "zh": "就是为了能好好睡一觉。",
@@ -316,11 +956,33 @@
     },
     "77": {
       "zh": "但就在我回家的那天上午，一个我每期都看的。",
-      "vi": "Nhưng đúng buổi sáng hôm mình về nhà, một kênh mình xem tập nào cũng không bỏ,"
+      "parts": [
+        {
+          "zh": "但就在我回家的那天上午，",
+          "vi": "Nhưng đúng buổi sáng hôm mình về nhà,"
+        },
+        {
+          "zh": "一个我每期都看的。",
+          "vi": "một kênh mình xem tập nào cũng không bỏ,"
+        }
+      ]
     },
     "78": {
       "zh": "叫TESTV的数码频道发了一期这个产品的体验视频，当时我整个人都傻了，",
-      "vi": "kênh công nghệ tên TESTV, đăng một video trải nghiệm đúng sản phẩm này, lúc đó mình đờ cả người,"
+      "parts": [
+        {
+          "zh": "叫TESTV的数码频道",
+          "vi": "kênh công nghệ tên TESTV,"
+        },
+        {
+          "zh": "发了一期这个产品的体验视频，",
+          "vi": "đăng một video trải nghiệm đúng sản phẩm này,"
+        },
+        {
+          "zh": "当时我整个人都傻了，",
+          "vi": "lúc đó mình đờ cả người,"
+        }
+      ]
     },
     "79": {
       "zh": "因为他们的粉丝量是我的五十倍。",
@@ -328,7 +990,20 @@
     },
     "80": {
       "zh": "好在那时我还在体验一个叫iPad Pro的产品，所以我在回家的车上赶快写稿子，",
-      "vi": "May mà hồi đó mình còn đang dùng thử một sản phẩm tên là iPad Pro, nên trên tàu về nhà mình vội viết kịch bản,"
+      "parts": [
+        {
+          "zh": "好在那时我还在体验",
+          "vi": "May mà hồi đó mình còn đang dùng thử"
+        },
+        {
+          "zh": "一个叫iPad Pro的产品，",
+          "vi": "một sản phẩm tên là iPad Pro,"
+        },
+        {
+          "zh": "所以我在回家的车上赶快写稿子，",
+          "vi": "nên trên tàu về nhà mình vội viết kịch bản,"
+        }
+      ]
     },
     "81": {
       "zh": "然后到家赶紧拍。",
@@ -340,15 +1015,46 @@
     },
     "83": {
       "zh": "但非常意想不到的是，这就成为了我频道当时最成功的一期视频。",
-      "vi": "Nhưng thật không ngờ, đây lại thành video thành công nhất của kênh mình lúc đó."
+      "parts": [
+        {
+          "zh": "但非常意想不到的是，",
+          "vi": "Nhưng thật không ngờ,"
+        },
+        {
+          "zh": "这就成为了我频道当时",
+          "vi": "đây lại thành video của kênh mình lúc đó"
+        },
+        {
+          "zh": "最成功的一期视频。",
+          "vi": "thành công nhất."
+        }
+      ]
     },
     "84": {
       "zh": "而更巧的事情就是，在我发完这个视频的第二天。",
-      "vi": "Mà trùng hợp hơn nữa là, ngay hôm sau khi mình đăng video này,"
+      "parts": [
+        {
+          "zh": "而更巧的事情就是，",
+          "vi": "Mà trùng hợp hơn nữa là,"
+        },
+        {
+          "zh": "在我发完这个视频的第二天。",
+          "vi": "ngay hôm sau khi mình đăng video này,"
+        }
+      ]
     },
     "85": {
       "zh": "TESTV就发了他们的iPad Pro视频，所以说对于做视频来说，",
-      "vi": "TESTV đăng video iPad Pro của họ, nên với làm video mà nói,"
+      "parts": [
+        {
+          "zh": "TESTV就发了他们的iPad Pro视频，",
+          "vi": "TESTV đăng video iPad Pro của họ,"
+        },
+        {
+          "zh": "所以说对于做视频来说，",
+          "vi": "nên với làm video mà nói,"
+        }
+      ]
     },
     "86": {
       "zh": "速度真的还是挺重要的一件事情。",
@@ -360,7 +1066,24 @@
     },
     "88": {
       "zh": "而很巧的是，有个我喜欢了很久的博主看到了这个视频，还邀请我去他们公司看看。",
-      "vi": "Mà trùng hợp là, một blogger mình thích từ lâu đã xem video này, còn mời mình đến công ty họ chơi."
+      "parts": [
+        {
+          "zh": "而很巧的是，",
+          "vi": "Mà trùng hợp là,"
+        },
+        {
+          "zh": "有个我喜欢了很久的博主",
+          "vi": "một blogger mình thích từ lâu"
+        },
+        {
+          "zh": "看到了这个视频，",
+          "vi": "đã xem video này,"
+        },
+        {
+          "zh": "还邀请我去他们公司看看。",
+          "vi": "còn mời mình đến công ty họ chơi."
+        }
+      ]
     },
     "89": {
       "zh": "事情在变得越来越好。",
@@ -368,31 +1091,122 @@
     },
     "90": {
       "zh": "我做了一个HomePod的视频，涨到了十万粉；做了一个每天只用半小时手机的视频，",
-      "vi": "Mình làm một video về HomePod, lên được 10 vạn fan; làm một video mỗi ngày chỉ dùng điện thoại nửa tiếng,"
+      "parts": [
+        {
+          "zh": "我做了一个HomePod的视频，",
+          "vi": "Mình làm một video về HomePod,"
+        },
+        {
+          "zh": "涨到了十万粉；",
+          "vi": "lên được 10 vạn fan;"
+        },
+        {
+          "zh": "做了一个每天",
+          "vi": "làm một video mỗi ngày"
+        },
+        {
+          "zh": "只用半小时手机的视频，",
+          "vi": "chỉ dùng điện thoại nửa tiếng,"
+        }
+      ]
     },
     "91": {
       "zh": "上了科技圈的排行榜；又做了一个AirPods的体验视频，有两万转发。",
-      "vi": "lên bảng xếp hạng mảng công nghệ; lại làm một video trải nghiệm AirPods, được 2 vạn lượt chia sẻ."
+      "parts": [
+        {
+          "zh": "上了科技圈的排行榜；",
+          "vi": "lên bảng xếp hạng mảng công nghệ;"
+        },
+        {
+          "zh": "又做了一个",
+          "vi": "lại làm một"
+        },
+        {
+          "zh": "AirPods的体验视频，",
+          "vi": "video trải nghiệm AirPods,"
+        },
+        {
+          "zh": "有两万转发。",
+          "vi": "được 2 vạn lượt chia sẻ."
+        }
+      ]
     },
     "92": {
       "zh": "五月份的时候，我的关注数涨到了二十五点六万。",
-      "vi": "Đến tháng 5, số người theo dõi của mình tăng lên 25,6 vạn."
+      "parts": [
+        {
+          "zh": "五月份的时候，",
+          "vi": "Đến tháng 5,"
+        },
+        {
+          "zh": "我的关注数涨到了二十五点六万。",
+          "vi": "số người theo dõi của mình tăng lên 25,6 vạn."
+        }
+      ]
     },
     "93": {
       "zh": "慢慢的，大家不再叫我何世杰，而是叫我何同学。",
-      "vi": "Dần dần, mọi người không còn gọi mình là Hà Thế Kiệt nữa, mà gọi là He Tongxue."
+      "parts": [
+        {
+          "zh": "慢慢的，大家不再叫我何世杰，",
+          "vi": "Dần dần, mọi người không còn gọi mình là Hà Thế Kiệt nữa,"
+        },
+        {
+          "zh": "而是叫我何同学。",
+          "vi": "mà gọi là He Tongxue."
+        }
+      ]
     },
     "94": {
       "zh": "在我们宿舍楼的尽头有一个自习室，如果你想通宵学习的话，就可以去那里。",
-      "vi": "Ở cuối dãy ký túc xá của bọn mình có một phòng tự học, ai muốn học thâu đêm thì có thể ra đó."
+      "parts": [
+        {
+          "zh": "在我们宿舍楼的尽头有一个自习室，",
+          "vi": "Ở cuối dãy ký túc xá của bọn mình có một phòng tự học,"
+        },
+        {
+          "zh": "如果你想通宵学习的话，",
+          "vi": "ai muốn học thâu đêm"
+        },
+        {
+          "zh": "就可以去那里。",
+          "vi": "thì có thể ra đó."
+        }
+      ]
     },
     "95": {
       "zh": "那时的我会先发一条明天更新视频的预告，然后去这个自习室通宵把视频剪完。",
-      "vi": "Hồi đó mình thường đăng trước một thông báo mai ra video mới, rồi ra phòng tự học này thức trắng dựng xong video."
+      "parts": [
+        {
+          "zh": "那时的我会先发一条",
+          "vi": "Hồi đó mình thường đăng trước một"
+        },
+        {
+          "zh": "明天更新视频的预告，",
+          "vi": "thông báo mai ra video mới,"
+        },
+        {
+          "zh": "然后去这个自习室",
+          "vi": "rồi ra phòng tự học này"
+        },
+        {
+          "zh": "通宵把视频剪完。",
+          "vi": "thức trắng dựng xong video."
+        }
+      ]
     },
     "96": {
       "zh": "最后一个我在这里剪的视频叫《有多快？",
-      "vi": "Video cuối cùng mình dựng ở đây tên là \"Nhanh đến mức nào?"
+      "parts": [
+        {
+          "zh": "最后一个我在这里剪的视频",
+          "vi": "Video cuối cùng mình dựng ở đây"
+        },
+        {
+          "zh": "叫《有多快？",
+          "vi": "tên là \"Nhanh đến mức nào?"
+        }
+      ]
     },
     "97": {
       "zh": "五G在日常生活中的真实体验》。",
@@ -404,7 +1218,20 @@
     },
     "99": {
       "zh": "那时的我只是觉得很累，而且还有一些镜头需要补拍，并没有意识到这期视频。",
-      "vi": "Khi đó mình chỉ thấy rất mệt, mà còn vài cảnh phải quay bổ sung, hoàn toàn không nhận ra video này"
+      "parts": [
+        {
+          "zh": "那时的我只是觉得很累，",
+          "vi": "Khi đó mình chỉ thấy rất mệt,"
+        },
+        {
+          "zh": "而且还有一些镜头需要补拍，",
+          "vi": "mà còn vài cảnh phải quay bổ sung,"
+        },
+        {
+          "zh": "并没有意识到这期视频。",
+          "vi": "hoàn toàn không nhận ra video này"
+        }
+      ]
     },
     "100": {
       "zh": "会对我的人生造成什么样的影响？",
@@ -412,15 +1239,46 @@
     },
     "101": {
       "zh": "说实话，可能到现在我也没有完全意识到。",
-      "vi": "Nói thật, có lẽ đến giờ mình cũng chưa nhận ra hết."
+      "parts": [
+        {
+          "zh": "说实话，",
+          "vi": "Nói thật,"
+        },
+        {
+          "zh": "可能到现在我也没有完全意识到。",
+          "vi": "có lẽ đến giờ mình cũng chưa nhận ra hết."
+        }
+      ]
     },
     "102": {
       "zh": "五G基站集中采购之前结束，在各个城市都在建设五G基站。",
-      "vi": "(bản tin) Đợt mua sắm tập trung trạm phát sóng 5G vừa kết thúc, các thành phố đều đang xây trạm 5G."
+      "parts": [
+        {
+          "zh": "五G基站集中采购之前结束，",
+          "vi": "(bản tin) Đợt mua sắm tập trung trạm phát sóng 5G vừa kết thúc,"
+        },
+        {
+          "zh": "在各个城市都在建设五G基站。",
+          "vi": "các thành phố đều đang xây trạm 5G."
+        }
+      ]
     },
     "103": {
       "zh": "前一段时间，一位北京邮电大学的男生叫我是何同学。",
-      "vi": "(bản tin) Mới đây, một nam sinh Đại học Bưu điện Bắc Kinh tên là He Tongxue…"
+      "parts": [
+        {
+          "zh": "前一段时间，",
+          "vi": "(bản tin) Mới đây,"
+        },
+        {
+          "zh": "一位北京邮电大学的男生",
+          "vi": "một nam sinh Đại học Bưu điện Bắc Kinh"
+        },
+        {
+          "zh": "叫我是何同学。",
+          "vi": "tên là He Tongxue…"
+        }
+      ]
     },
     "104": {
       "zh": "何世杰喜欢在课余时间拍摄视频。",
@@ -428,15 +1286,50 @@
     },
     "105": {
       "zh": "邮电大学大二学生何世杰、何同学发布了自己测试学校五G网络的视频。",
-      "vi": "Sinh viên năm hai Đại học Bưu điện Hà Thế Kiệt, tức He Tongxue, đã đăng video tự thử mạng 5G ở trường."
+      "parts": [
+        {
+          "zh": "邮电大学大二学生何世杰、何同学",
+          "vi": "Sinh viên năm hai Đại học Bưu điện Hà Thế Kiệt, tức He Tongxue,"
+        },
+        {
+          "zh": "发布了自己",
+          "vi": "đã đăng video"
+        },
+        {
+          "zh": "测试学校五G网络的视频。",
+          "vi": "tự thử mạng 5G ở trường."
+        }
+      ]
     },
     "106": {
       "zh": "那说到五G啊，他和同学大家习惯了通话。",
-      "vi": "(bản tin, nghe không rõ) Nói đến 5G…"
+      "parts": [
+        {
+          "zh": "那说到五G啊，",
+          "vi": "(bản tin) Nói đến 5G…"
+        },
+        {
+          "zh": "他和同学大家习惯了通话。",
+          "vi": "(nghe không rõ)"
+        }
+      ]
     },
     "107": {
       "zh": "何同学，现在有一种说法是说你是五G的唯一受益人，你对此怎么看？",
-      "vi": "He Tongxue, giờ có người nói cậu là người duy nhất được hưởng lợi từ 5G, cậu nghĩ sao?"
+      "parts": [
+        {
+          "zh": "何同学，现在有一种说法是说",
+          "vi": "He Tongxue, giờ có người nói"
+        },
+        {
+          "zh": "你是五G的唯一受益人，",
+          "vi": "cậu là người duy nhất được hưởng lợi từ 5G,"
+        },
+        {
+          "zh": "你对此怎么看？",
+          "vi": "cậu nghĩ sao?"
+        }
+      ]
     },
     "108": {
       "zh": "你认不认可这种说法？",
@@ -444,27 +1337,149 @@
     },
     "109": {
       "zh": "呃，我能理解这种表述背后的含义，因为我确实因为五G这个视频而受益。",
-      "vi": "Ừm, mình hiểu hàm ý đằng sau cách nói ấy, vì đúng là mình đã được hưởng lợi nhờ video 5G này."
+      "parts": [
+        {
+          "zh": "呃，我能理解这种表述背后的含义，",
+          "vi": "Ừm, mình hiểu hàm ý đằng sau cách nói ấy,"
+        },
+        {
+          "zh": "因为我确实",
+          "vi": "vì đúng là mình"
+        },
+        {
+          "zh": "因为五G这个视频而受益。",
+          "vi": "đã được hưởng lợi nhờ video 5G này."
+        }
+      ]
     },
     "110": {
       "zh": "发那个视频的时候是二零一九年的六月份。",
-      "vi": "Lúc đăng video đó là tháng 6 năm 2019."
+      "parts": [
+        {
+          "zh": "发那个视频的时候",
+          "vi": "Lúc đăng video đó"
+        },
+        {
+          "zh": "是二零一九年的六月份。",
+          "vi": "là tháng 6 năm 2019."
+        }
+      ]
     },
     "111": {
       "zh": "那个时候我刚刚因为做了一些产品体验视频而受到了一些关注第一次被大V转发第一次见到只在屏幕里面见过的博主第一次参加厂商的发布会很多美好的回忆都发生在那个时候当时我只是感觉",
-      "vi": "Hồi đó mình vừa được chú ý chút ít nhờ mấy video trải nghiệm sản phẩm, lần đầu được tài khoản lớn chia sẻ, lần đầu gặp những blogger trước giờ chỉ thấy trên màn hình, lần đầu dự buổi ra mắt của hãng, bao kỷ niệm đẹp đều diễn ra vào lúc đó. Khi ấy mình chỉ cảm thấy"
+      "parts": [
+        {
+          "zh": "那个时候我刚刚因为",
+          "vi": "Hồi đó mình vừa nhờ"
+        },
+        {
+          "zh": "做了一些产品体验视频",
+          "vi": "mấy video trải nghiệm sản phẩm"
+        },
+        {
+          "zh": "而受到了一些关注",
+          "vi": "mà được chú ý chút ít,"
+        },
+        {
+          "zh": "第一次被大V转发",
+          "vi": "lần đầu được tài khoản lớn chia sẻ,"
+        },
+        {
+          "zh": "第一次见到",
+          "vi": "lần đầu gặp"
+        },
+        {
+          "zh": "只在屏幕里面见过的博主",
+          "vi": "những blogger trước giờ chỉ thấy trên màn hình,"
+        },
+        {
+          "zh": "第一次参加厂商的发布会",
+          "vi": "lần đầu dự buổi ra mắt của hãng,"
+        },
+        {
+          "zh": "很多美好的回忆",
+          "vi": "bao kỷ niệm đẹp"
+        },
+        {
+          "zh": "都发生在那个时候",
+          "vi": "đều diễn ra vào lúc đó."
+        },
+        {
+          "zh": "当时我只是感觉",
+          "vi": "Khi ấy mình chỉ cảm thấy"
+        }
+      ]
     },
     "113": {
       "zh": "一扇叫做数码博主的大门在缓缓地向我打开然后这个门背后的世界既陌生又让人向往完全没有想到，一一个星期之后，老师好我叫何同学就会成为整个数码世界最出名的账号之一。",
-      "vi": "một cánh cửa tên là \"blogger công nghệ\" đang từ từ mở ra với mình, và thế giới sau cánh cửa ấy vừa xa lạ vừa khiến người ta khao khát. Hoàn toàn không ngờ rằng, một tuần sau, \"老师好我叫何同学\" sẽ trở thành một trong những tài khoản nổi tiếng nhất cả giới công nghệ."
+      "parts": [
+        {
+          "zh": "一扇叫做数码博主的大门",
+          "vi": "một cánh cửa tên là \"blogger công nghệ\""
+        },
+        {
+          "zh": "在缓缓地向我打开",
+          "vi": "đang từ từ mở ra với mình,"
+        },
+        {
+          "zh": "然后这个门背后的世界",
+          "vi": "và thế giới sau cánh cửa ấy"
+        },
+        {
+          "zh": "既陌生又让人向往",
+          "vi": "vừa xa lạ vừa khiến người ta khao khát."
+        },
+        {
+          "zh": "完全没有想到，一一个星期之后，",
+          "vi": "Hoàn toàn không ngờ rằng, một tuần sau,"
+        },
+        {
+          "zh": "老师好我叫何同学",
+          "vi": "\"老师好我叫何同学\""
+        },
+        {
+          "zh": "就会成为整个数码世界",
+          "vi": "sẽ trở thành, trong cả giới công nghệ,"
+        },
+        {
+          "zh": "最出名的账号之一。",
+          "vi": "một trong những tài khoản nổi tiếng nhất."
+        }
+      ]
     },
     "115": {
       "zh": "然后在那个视频过后，我确实觉得我们的视频质量，呃那时候还没有我们，",
-      "vi": "Rồi sau video đó, mình thật sự thấy chất lượng video của bọn mình — ờ, hồi đó còn chưa có \"bọn mình\","
+      "parts": [
+        {
+          "zh": "然后在那个视频过后，",
+          "vi": "Rồi sau video đó,"
+        },
+        {
+          "zh": "我确实觉得我们的视频质量，",
+          "vi": "mình thật sự thấy chất lượng video của bọn mình,"
+        },
+        {
+          "zh": "呃那时候还没有我们，",
+          "vi": "ờ, hồi đó còn chưa có \"bọn mình\","
+        }
+      ]
     },
     "116": {
       "zh": "就是我的视频质量很难匹配这种这么大的关注度和观众的期待，所以说努力提升视频的质量，",
-      "vi": "tức là chất lượng video của mình khó mà xứng với sự chú ý lớn như vậy và kỳ vọng của khán giả, nên mình cố gắng nâng chất lượng video,"
+      "parts": [
+        {
+          "zh": "就是我的视频质量很难匹配",
+          "vi": "tức là chất lượng video của mình khó mà xứng với"
+        },
+        {
+          "zh": "这种这么大的关注度和观众的期待，",
+          "vi": "sự chú ý lớn như vậy và kỳ vọng của khán giả,"
+        },
+        {
+          "zh": "所以说努力提升视频的质量，",
+          "vi": "nên mình cố gắng nâng chất lượng video,"
+        }
+      ]
     },
     "117": {
       "zh": "降低了这个视频的更新频率。",
@@ -472,27 +1487,113 @@
     },
     "118": {
       "zh": "一路就到了现在，一路上确实也翻了不少车，但是也做了不少我们为之骄傲的视频。",
-      "vi": "Cứ thế đến tận bây giờ, dọc đường đúng là cũng \"lật xe\" không ít lần, nhưng cũng làm được không ít video khiến bọn mình tự hào."
+      "parts": [
+        {
+          "zh": "一路就到了现在，",
+          "vi": "cứ thế đến tận bây giờ,"
+        },
+        {
+          "zh": "一路上确实也翻了不少车，",
+          "vi": "dọc đường đúng là cũng \"lật xe\" không ít lần,"
+        },
+        {
+          "zh": "但是也做了不少",
+          "vi": "nhưng cũng làm được không ít"
+        },
+        {
+          "zh": "我们为之骄傲的视频。",
+          "vi": "video khiến bọn mình tự hào."
+        }
+      ]
     },
     "119": {
       "zh": "只能说我现在还在这条道路上努力努力工作着。",
-      "vi": "Chỉ có thể nói là mình vẫn đang cố gắng, cố gắng làm việc trên con đường này."
+      "parts": [
+        {
+          "zh": "只能说我现在还在这条道路上",
+          "vi": "Chỉ có thể nói là mình vẫn đang trên con đường này"
+        },
+        {
+          "zh": "努力努力工作着。",
+          "vi": "cố gắng, cố gắng làm việc."
+        }
+      ]
     },
     "120": {
       "zh": "但是我还是觉得五G对于我们整个社会的帮助其实非常大的，因为工信部我记得有一个数据。",
-      "vi": "Nhưng mình vẫn thấy 5G thực ra giúp ích rất lớn cho cả xã hội, vì mình nhớ Bộ Công nghiệp và Công nghệ Thông tin có một số liệu."
+      "parts": [
+        {
+          "zh": "但是我还是觉得五G",
+          "vi": "Nhưng mình vẫn thấy 5G"
+        },
+        {
+          "zh": "对于我们整个社会的帮助",
+          "vi": "đối với cả xã hội mình"
+        },
+        {
+          "zh": "其实非常大的，",
+          "vi": "thực ra giúp ích rất lớn,"
+        },
+        {
+          "zh": "因为工信部我记得有一个数据。",
+          "vi": "vì mình nhớ Bộ Công nghiệp và Công nghệ Thông tin có một số liệu."
+        }
+      ]
     },
     "121": {
       "zh": "之后就又到了离别的时刻，我们学校一共有三个校区，我们要再从这里搬到城里的老校区。",
-      "vi": "Rồi lại đến lúc chia tay, trường mình có tất cả ba cơ sở, bọn mình lại phải chuyển từ đây về cơ sở cũ trong thành phố."
+      "parts": [
+        {
+          "zh": "之后就又到了离别的时刻，",
+          "vi": "Rồi lại đến lúc chia tay,"
+        },
+        {
+          "zh": "我们学校一共有三个校区，",
+          "vi": "trường mình có tất cả ba cơ sở,"
+        },
+        {
+          "zh": "我们要再从这里",
+          "vi": "bọn mình lại phải từ đây"
+        },
+        {
+          "zh": "搬到城里的老校区。",
+          "vi": "chuyển về cơ sở cũ trong thành phố."
+        }
+      ]
     },
     "122": {
       "zh": "那时我正在拍一期叫《涨粉百万后我的生活有什么变化》的视频，",
-      "vi": "Khi đó mình đang quay một video tên là \"Sau khi lên 1 triệu fan, cuộc sống của mình thay đổi thế nào\","
+      "parts": [
+        {
+          "zh": "那时我正在拍一期叫",
+          "vi": "Khi đó mình đang quay một video tên là"
+        },
+        {
+          "zh": "《涨粉百万后我的生活有什么变化》",
+          "vi": "\"Sau khi lên 1 triệu fan, cuộc sống của mình thay đổi thế nào\""
+        },
+        {
+          "zh": "的视频，",
+          "vi": "(video),"
+        }
+      ]
     },
     "123": {
       "zh": "我特别想拍到人走到教学楼的天台外面，看到蓝天豁然开朗的镜头。",
-      "vi": "mình rất muốn quay cảnh một người bước ra sân thượng tòa giảng đường, thấy bầu trời xanh bỗng mở ra rộng lớn."
+      "parts": [
+        {
+          "zh": "我特别想拍到",
+          "vi": "mình rất muốn quay được"
+        },
+        {
+          "zh": "人走到教学楼的天台外面，",
+          "vi": "cảnh một người bước ra sân thượng tòa giảng đường,"
+        },
+        {
+          "zh": "看到蓝天豁然开朗的镜头。",
+          "vi": "thấy bầu trời xanh bỗng mở ra rộng lớn."
+        }
+      ]
     },
     "124": {
       "zh": "这里是整个学校风景最好的地方。",
@@ -500,19 +1601,59 @@
     },
     "125": {
       "zh": "当时的我拍了一下午，回去才发现全过曝了。",
-      "vi": "Hồi đó mình quay cả buổi chiều, về mới phát hiện toàn bộ bị cháy sáng."
+      "parts": [
+        {
+          "zh": "当时的我拍了一下午，",
+          "vi": "Hồi đó mình quay cả buổi chiều,"
+        },
+        {
+          "zh": "回去才发现全过曝了。",
+          "vi": "về mới phát hiện toàn bộ bị cháy sáng."
+        }
+      ]
     },
     "126": {
       "zh": "那个视频里面还有一个形容两个世界交汇到一起的镜头，",
-      "vi": "Video đó còn một cảnh mô tả hai thế giới giao nhau,"
+      "parts": [
+        {
+          "zh": "那个视频里面还有一个",
+          "vi": "Video đó còn một"
+        },
+        {
+          "zh": "形容两个世界交汇到一起的镜头，",
+          "vi": "cảnh mô tả hai thế giới giao nhau,"
+        }
+      ]
     },
     "127": {
       "zh": "就是在图书馆三楼那个我写稿子的地方拍摄的。",
-      "vi": "quay ở tầng ba thư viện, chính chỗ mình ngồi viết kịch bản."
+      "parts": [
+        {
+          "zh": "就是在图书馆三楼",
+          "vi": "quay ở tầng ba thư viện,"
+        },
+        {
+          "zh": "那个我写稿子的地方拍摄的。",
+          "vi": "chính chỗ mình ngồi viết kịch bản."
+        }
+      ]
     },
     "128": {
       "zh": "拍这个镜头的时候，其实就是我在这个校区的最后一个夜晚了。",
-      "vi": "Lúc quay cảnh ấy, thật ra đã là đêm cuối cùng của mình ở cơ sở này."
+      "parts": [
+        {
+          "zh": "拍这个镜头的时候，",
+          "vi": "Lúc quay cảnh ấy,"
+        },
+        {
+          "zh": "其实就是我在这个校区的",
+          "vi": "thật ra đã là đêm cuối cùng"
+        },
+        {
+          "zh": "最后一个夜晚了。",
+          "vi": "của mình ở cơ sở này."
+        }
+      ]
     },
     "129": {
       "zh": "我和阿范在那里拍了很久。",
@@ -520,7 +1661,16 @@
     },
     "130": {
       "zh": "并没有拍到一个特别满意的镜头，但是图书馆关门的音乐响起了，",
-      "vi": "Vẫn chưa quay được cảnh nào thật ưng ý, thì nhạc báo thư viện đóng cửa vang lên,"
+      "parts": [
+        {
+          "zh": "并没有拍到一个特别满意的镜头，",
+          "vi": "Vẫn chưa quay được cảnh nào thật ưng ý,"
+        },
+        {
+          "zh": "但是图书馆关门的音乐响起了，",
+          "vi": "thì nhạc báo thư viện đóng cửa vang lên,"
+        }
+      ]
     },
     "131": {
       "zh": "我们只好赶快把东西收拾好回宿舍。",
@@ -532,7 +1682,20 @@
     },
     "133": {
       "zh": "谢谢你阿范，最后一天还在帮我拍视频，然后我们就得收拾东西离开这里了。",
-      "vi": "Cảm ơn cậu, A Phạm, ngày cuối còn giúp mình quay video, rồi bọn mình phải dọn đồ rời khỏi đây."
+      "parts": [
+        {
+          "zh": "谢谢你阿范，",
+          "vi": "Cảm ơn cậu, A Phạm,"
+        },
+        {
+          "zh": "最后一天还在帮我拍视频，",
+          "vi": "ngày cuối còn giúp mình quay video,"
+        },
+        {
+          "zh": "然后我们就得收拾东西离开这里了。",
+          "vi": "rồi bọn mình phải dọn đồ rời khỏi đây."
+        }
+      ]
     },
     "134": {
       "zh": "快走到校门口的时候，我有点想哭。",
@@ -540,7 +1703,20 @@
     },
     "135": {
       "zh": "虽然那时离毕业还有很久，但是我隐隐约约感觉离开这里后一切都会不一样了。",
-      "vi": "Tuy lúc đó còn lâu mới tốt nghiệp, nhưng mình lờ mờ cảm thấy rời khỏi đây rồi mọi thứ sẽ khác đi."
+      "parts": [
+        {
+          "zh": "虽然那时离毕业还有很久，",
+          "vi": "Tuy lúc đó còn lâu mới tốt nghiệp,"
+        },
+        {
+          "zh": "但是我隐隐约约感觉",
+          "vi": "nhưng mình lờ mờ cảm thấy"
+        },
+        {
+          "zh": "离开这里后一切都会不一样了。",
+          "vi": "rời khỏi đây rồi mọi thứ sẽ khác đi."
+        }
+      ]
     },
     "136": {
       "zh": "现在看来确实如此。",
@@ -548,7 +1724,20 @@
     },
     "137": {
       "zh": "现在我还是会每天刷IT之家，只是看评论的时候经常有种被刺的体验。",
-      "vi": "Bây giờ mình vẫn ngày nào cũng lướt IT之家, chỉ là đọc bình luận thì hay có cảm giác bị châm chọc."
+      "parts": [
+        {
+          "zh": "现在我还是会每天刷IT之家，",
+          "vi": "Bây giờ mình vẫn ngày nào cũng lướt IT之家,"
+        },
+        {
+          "zh": "只是看评论的时候",
+          "vi": "chỉ là lúc đọc bình luận"
+        },
+        {
+          "zh": "经常有种被刺的体验。",
+          "vi": "thì hay có cảm giác bị châm chọc."
+        }
+      ]
     },
     "138": {
       "zh": "这倒没啥，我还是爱之家老哥的。",
@@ -556,23 +1745,104 @@
     },
     "139": {
       "zh": "还有就是我们视频里总会有人发赛不过丁丁真，这倒也没啥，大家高兴就好。",
-      "vi": "Rồi thì dưới video của bọn mình lúc nào cũng có người bình luận kiểu \"đọ không nổi Đinh Chân\", cái đó cũng không sao, mọi người vui là được."
+      "parts": [
+        {
+          "zh": "还有就是我们视频里",
+          "vi": "Rồi thì dưới video của bọn mình"
+        },
+        {
+          "zh": "总会有人发赛不过丁丁真，",
+          "vi": "lúc nào cũng có người bình luận kiểu \"đọ không nổi Đinh Chân\","
+        },
+        {
+          "zh": "这倒也没啥，大家高兴就好。",
+          "vi": "cái đó cũng không sao, mọi người vui là được."
+        }
+      ]
     },
     "140": {
       "zh": "但我还记得有一次我刚录完节目准备回酒店，往常回去的路上，",
-      "vi": "Nhưng mình vẫn nhớ có lần mình vừa ghi hình chương trình xong, chuẩn bị về khách sạn; mọi khi trên đường về,"
+      "parts": [
+        {
+          "zh": "但我还记得有一次",
+          "vi": "Nhưng mình vẫn nhớ có lần"
+        },
+        {
+          "zh": "我刚录完节目准备回酒店，",
+          "vi": "mình vừa ghi hình chương trình xong, chuẩn bị về khách sạn;"
+        },
+        {
+          "zh": "往常回去的路上，",
+          "vi": "mọi khi trên đường về,"
+        }
+      ]
     },
     "141": {
       "zh": "我同事会跟我复盘一下今天的表现，说我话说的不够多之类的。",
-      "vi": "đồng nghiệp sẽ cùng mình rút kinh nghiệm buổi hôm đó, kiểu chê mình nói chưa đủ nhiều."
+      "parts": [
+        {
+          "zh": "我同事会跟我复盘一下今天的表现，",
+          "vi": "đồng nghiệp sẽ cùng mình rút kinh nghiệm buổi hôm đó,"
+        },
+        {
+          "zh": "说我话说的不够多之类的。",
+          "vi": "kiểu chê mình nói chưa đủ nhiều."
+        }
+      ]
     },
     "142": {
       "zh": "但这次车上很安静，只告诉我别看手机，我偷偷看了一下。",
-      "vi": "Nhưng lần này trên xe rất im lặng, họ chỉ bảo mình đừng xem điện thoại, mình lén xem một chút."
+      "parts": [
+        {
+          "zh": "但这次车上很安静，",
+          "vi": "Nhưng lần này trên xe rất im lặng,"
+        },
+        {
+          "zh": "只告诉我别看手机，",
+          "vi": "họ chỉ bảo mình đừng xem điện thoại,"
+        },
+        {
+          "zh": "我偷偷看了一下。",
+          "vi": "mình lén xem một chút."
+        }
+      ]
     },
     "143": {
       "zh": "有人给我发消息说相信你后来我才知道那天晚上是有人在豆瓣上发了一些有关我的爆料冲上了微博娱乐热搜榜一我认真看了看爆料里的内容没有一个标点符号是真的再次回到图书馆的三楼，",
-      "vi": "Có người nhắn cho mình \"tin cậu\". Sau này mình mới biết tối hôm đó có người đăng lên Douban mấy tin bóc phốt về mình, lên top 1 hot search giải trí Weibo. Mình đọc kỹ nội dung, không có lấy một dấu chấm phẩy là thật. Quay lại tầng ba thư viện,"
+      "parts": [
+        {
+          "zh": "有人给我发消息说相信你",
+          "vi": "Có người nhắn cho mình \"tin cậu\"."
+        },
+        {
+          "zh": "后来我才知道那天晚上",
+          "vi": "Sau này mình mới biết tối hôm đó"
+        },
+        {
+          "zh": "是有人在豆瓣上",
+          "vi": "có người lên Douban"
+        },
+        {
+          "zh": "发了一些有关我的爆料",
+          "vi": "đăng mấy tin bóc phốt về mình,"
+        },
+        {
+          "zh": "冲上了微博娱乐热搜榜一",
+          "vi": "lên top 1 hot search giải trí Weibo."
+        },
+        {
+          "zh": "我认真看了看爆料里的内容",
+          "vi": "Mình đọc kỹ nội dung bóc phốt,"
+        },
+        {
+          "zh": "没有一个标点符号是真的",
+          "vi": "không có lấy một dấu chấm phẩy là thật."
+        },
+        {
+          "zh": "再次回到图书馆的三楼，",
+          "vi": "Quay lại tầng ba thư viện,"
+        }
+      ]
     },
     "145": {
       "zh": "其实就是今天了。",
@@ -580,7 +1850,20 @@
     },
     "146": {
       "zh": "这里的一切还是那么熟悉，很难想象上一次来到这里还是在五年前。",
-      "vi": "Mọi thứ ở đây vẫn quen thuộc như thế, khó tưởng tượng lần trước mình đến đây đã là năm năm trước."
+      "parts": [
+        {
+          "zh": "这里的一切还是那么熟悉，",
+          "vi": "mọi thứ ở đây vẫn quen thuộc như thế,"
+        },
+        {
+          "zh": "很难想象上一次来到这里",
+          "vi": "khó tưởng tượng lần trước mình đến đây"
+        },
+        {
+          "zh": "还是在五年前。",
+          "vi": "đã là năm năm trước."
+        }
+      ]
     },
     "147": {
       "zh": "五年后，很多事情都有了结局。",
@@ -588,7 +1871,20 @@
     },
     "148": {
       "zh": "我和他没有复合，事实上从那天晚上开始，我就再也没有见过他了。",
-      "vi": "Mình với cô ấy không quay lại với nhau, thực ra từ tối hôm ấy, mình không bao giờ gặp lại cô ấy nữa."
+      "parts": [
+        {
+          "zh": "我和他没有复合，",
+          "vi": "Mình với cô ấy không quay lại với nhau,"
+        },
+        {
+          "zh": "事实上从那天晚上开始，",
+          "vi": "thực ra từ tối hôm ấy,"
+        },
+        {
+          "zh": "我就再也没有见过他了。",
+          "vi": "mình không bao giờ gặp lại cô ấy nữa."
+        }
+      ]
     },
     "149": {
       "zh": "知道她有了男朋友时，我哭了一晚上。",
@@ -596,7 +1892,24 @@
     },
     "150": {
       "zh": "那天在鸟巢发布的是一个彻底失败的产品，锤子科技在债台高筑后走向了末路。",
-      "vi": "Thứ ra mắt ở Tổ Chim hôm ấy là một sản phẩm thất bại hoàn toàn, Smartisan nợ nần chồng chất rồi đi đến đường cùng."
+      "parts": [
+        {
+          "zh": "那天在鸟巢发布的是",
+          "vi": "Thứ ra mắt ở Tổ Chim hôm ấy là"
+        },
+        {
+          "zh": "一个彻底失败的产品，",
+          "vi": "một sản phẩm thất bại hoàn toàn,"
+        },
+        {
+          "zh": "锤子科技在债台高筑后",
+          "vi": "Smartisan nợ nần chồng chất"
+        },
+        {
+          "zh": "走向了末路。",
+          "vi": "rồi đi đến đường cùng."
+        }
+      ]
     },
     "151": {
       "zh": "罗永浩开始上综艺节目。",
@@ -604,19 +1917,71 @@
     },
     "152": {
       "zh": "我和他坐过同一个座位，毕业后阿范出国读书了，我再也没有见过他。",
-      "vi": "Mình với ông ấy từng ngồi cùng một ghế; tốt nghiệp xong A Phạm ra nước ngoài học, mình không gặp lại cậu ấy nữa."
+      "parts": [
+        {
+          "zh": "我和他坐过同一个座位，",
+          "vi": "Mình với ông ấy từng ngồi cùng một ghế;"
+        },
+        {
+          "zh": "毕业后阿范出国读书了，",
+          "vi": "tốt nghiệp xong A Phạm ra nước ngoài học,"
+        },
+        {
+          "zh": "我再也没有见过他。",
+          "vi": "mình không gặp lại cậu ấy nữa."
+        }
+      ]
     },
     "153": {
       "zh": "但是当我打开他的朋友圈，第一条是他喜欢的女团的歌，再往下滑就是那期五G视频。",
-      "vi": "Nhưng khi mình mở trang cá nhân WeChat của cậu ấy, bài đầu tiên là bài hát của nhóm nhạc nữ cậu ấy thích, lướt xuống nữa là video 5G năm ấy."
+      "parts": [
+        {
+          "zh": "但是当我打开他的朋友圈，",
+          "vi": "Nhưng khi mình mở trang cá nhân WeChat của cậu ấy,"
+        },
+        {
+          "zh": "第一条是他喜欢的女团的歌，",
+          "vi": "bài đầu tiên là bài hát của nhóm nhạc nữ cậu ấy thích,"
+        },
+        {
+          "zh": "再往下滑就是那期五G视频。",
+          "vi": "lướt xuống nữa là video 5G năm ấy."
+        }
+      ]
     },
     "154": {
       "zh": "我真的很想他，我真的成了千万粉丝的UP主，我真的过上了十九岁时梦寐以求的日子。",
-      "vi": "Mình thật sự rất nhớ cậu ấy. Mình thật sự đã thành UP chủ chục triệu fan, thật sự đã sống cuộc sống năm 19 tuổi hằng mơ ước."
+      "parts": [
+        {
+          "zh": "我真的很想他，",
+          "vi": "Mình thật sự rất nhớ cậu ấy."
+        },
+        {
+          "zh": "我真的成了千万粉丝的UP主，",
+          "vi": "Mình thật sự đã thành UP chủ chục triệu fan,"
+        },
+        {
+          "zh": "我真的过上了",
+          "vi": "thật sự đã sống"
+        },
+        {
+          "zh": "十九岁时梦寐以求的日子。",
+          "vi": "cuộc sống năm 19 tuổi hằng mơ ước."
+        }
+      ]
     },
     "155": {
       "zh": "我还是在努力做着我喜欢的视频，只是一切再也不像从前那样简单了。",
-      "vi": "Mình vẫn đang cố gắng làm những video mình thích, chỉ là mọi thứ không còn đơn giản như trước nữa."
+      "parts": [
+        {
+          "zh": "我还是在努力做着我喜欢的视频，",
+          "vi": "Mình vẫn đang cố gắng làm những video mình thích,"
+        },
+        {
+          "zh": "只是一切再也不像从前那样简单了。",
+          "vi": "chỉ là mọi thứ không còn đơn giản như trước nữa."
+        }
+      ]
     },
     "156": {
       "zh": "可能这就是生活吧。",
@@ -624,11 +1989,37 @@
     },
     "157": {
       "zh": "但是这次回来，还是弥补了一个五年前的遗憾。",
-      "vi": "Nhưng lần trở về này vẫn bù đắp được một điều tiếc nuối từ năm năm trước."
+      "parts": [
+        {
+          "zh": "但是这次回来，",
+          "vi": "Nhưng lần trở về này,"
+        },
+        {
+          "zh": "还是弥补了一个五年前的遗憾。",
+          "vi": "vẫn bù đắp được một điều tiếc nuối từ năm năm trước."
+        }
+      ]
     },
     "158": {
       "zh": "但是站在这里朝远处望去，远方的天空还是那么湛蓝，落日还是那么美丽，跟五年前相比，",
-      "vi": "Nhưng đứng ở đây nhìn ra xa, bầu trời phía xa vẫn xanh thẳm như thế, hoàng hôn vẫn đẹp như thế, so với năm năm trước,"
+      "parts": [
+        {
+          "zh": "但是站在这里朝远处望去，",
+          "vi": "Nhưng đứng ở đây nhìn ra xa,"
+        },
+        {
+          "zh": "远方的天空还是那么湛蓝，",
+          "vi": "bầu trời phía xa vẫn xanh thẳm như thế,"
+        },
+        {
+          "zh": "落日还是那么美丽，",
+          "vi": "hoàng hôn vẫn đẹp như thế,"
+        },
+        {
+          "zh": "跟五年前相比，",
+          "vi": "so với năm năm trước,"
+        }
+      ]
     },
     "159": {
       "zh": "并没有什么不同。",
@@ -640,27 +2031,97 @@
     },
     "161": {
       "zh": "和阿范出去看电影，就像我一会儿还可以去图书馆坐一个下午，想想新视频该做什么。",
-      "vi": "rủ A Phạm đi xem phim; như thể lát nữa mình vẫn có thể lên thư viện ngồi cả buổi chiều, nghĩ xem video mới nên làm gì."
+      "parts": [
+        {
+          "zh": "和阿范出去看电影，",
+          "vi": "rủ A Phạm đi xem phim;"
+        },
+        {
+          "zh": "就像我一会儿还可以",
+          "vi": "như thể lát nữa mình vẫn có thể"
+        },
+        {
+          "zh": "去图书馆坐一个下午，",
+          "vi": "lên thư viện ngồi cả buổi chiều,"
+        },
+        {
+          "zh": "想想新视频该做什么。",
+          "vi": "nghĩ xem video mới nên làm gì."
+        }
+      ]
     },
     "162": {
       "zh": "就像我还会在手机响时心头一紧，忐忑是不是他发来了消息。",
-      "vi": "Như thể mình vẫn thót tim mỗi khi điện thoại reo, thấp thỏm không biết có phải cô ấy nhắn tới không."
+      "parts": [
+        {
+          "zh": "就像我还会在手机响时心头一紧，",
+          "vi": "Như thể mình vẫn thót tim mỗi khi điện thoại reo,"
+        },
+        {
+          "zh": "忐忑是不是他发来了消息。",
+          "vi": "thấp thỏm không biết có phải cô ấy nhắn tới không."
+        }
+      ]
     },
     "163": {
       "zh": "就像我最大的烦恼还是明天的实验报告和一个月后的期末考试，",
-      "vi": "Như thể nỗi lo lớn nhất của mình vẫn là báo cáo thí nghiệm ngày mai và kỳ thi cuối kỳ tháng sau,"
+      "parts": [
+        {
+          "zh": "就像我最大的烦恼",
+          "vi": "Như thể nỗi lo lớn nhất của mình"
+        },
+        {
+          "zh": "还是明天的实验报告",
+          "vi": "vẫn là báo cáo thí nghiệm ngày mai"
+        },
+        {
+          "zh": "和一个月后的期末考试，",
+          "vi": "và kỳ thi cuối kỳ tháng sau,"
+        }
+      ]
     },
     "164": {
       "zh": "而幸福的含义不会超过周末的一个披萨饼。",
-      "vi": "còn hạnh phúc thì không vượt quá một cái pizza cuối tuần."
+      "parts": [
+        {
+          "zh": "而幸福的含义",
+          "vi": "còn hạnh phúc thì"
+        },
+        {
+          "zh": "不会超过周末的一个披萨饼。",
+          "vi": "không vượt quá một cái pizza cuối tuần."
+        }
+      ]
     },
     "165": {
       "zh": "就像我还是那个十九岁的大一学生，我的大学生活才刚刚开始，",
-      "vi": "Như thể mình vẫn là cậu sinh viên năm nhất 19 tuổi ấy, đời sinh viên mới chỉ bắt đầu,"
+      "parts": [
+        {
+          "zh": "就像我还是那个十九岁的大一学生，",
+          "vi": "Như thể mình vẫn là cậu sinh viên năm nhất 19 tuổi ấy,"
+        },
+        {
+          "zh": "我的大学生活才刚刚开始，",
+          "vi": "đời sinh viên mới chỉ bắt đầu,"
+        }
+      ]
     },
     "166": {
       "zh": "未来是那么的模糊又那么的让人期待，就好像我真的回到了。",
-      "vi": "tương lai vừa mơ hồ vừa khiến người ta háo hức, như thể mình thật sự đã quay về"
+      "parts": [
+        {
+          "zh": "未来是那么的模糊",
+          "vi": "tương lai vừa mơ hồ"
+        },
+        {
+          "zh": "又那么的让人期待，",
+          "vi": "vừa khiến người ta háo hức,"
+        },
+        {
+          "zh": "就好像我真的回到了。",
+          "vi": "như thể mình thật sự đã quay về"
+        }
+      ]
     },
     "167": {
       "zh": "二零一八年的夏天。",
@@ -680,7 +2141,16 @@
     },
     "171": {
       "zh": "I dreamed it all. Ever since I was young,",
-      "vi": "Con đã mơ tất cả từ hồi còn nhỏ,"
+      "parts": [
+        {
+          "zh": "I dreamed it all. ",
+          "vi": "Con đã mơ tất cả,"
+        },
+        {
+          "zh": "Ever since I was young,",
+          "vi": "từ hồi còn nhỏ,"
+        }
+      ]
     },
     "172": {
       "zh": "they said I won't be nothing. Now they always say congratulations.",

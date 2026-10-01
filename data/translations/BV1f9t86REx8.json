@@ -8,15 +8,42 @@
   "sentences": {
     "0": {
       "zh": "其实很多人用AI赚的第一单啊，不是广告，也不是短剧，",
-      "vi": "Thật ra đơn đầu tiên mà nhiều người kiếm được nhờ AI ấy, không phải quảng cáo, cũng chẳng phải phim ngắn,"
+      "parts": [
+        {
+          "zh": "其实很多人用AI赚的第一单啊，",
+          "vi": "Thật ra đơn đầu tiên mà nhiều người kiếm được nhờ AI ấy,"
+        },
+        {
+          "zh": "不是广告，也不是短剧，",
+          "vi": "không phải quảng cáo, cũng chẳng phải phim ngắn,"
+        }
+      ]
     },
     "1": {
       "zh": "而是把自己正在用的工作台复制一份卖给别人。",
-      "vi": "mà là sao chép cái bàn làm việc mình đang dùng thành một bản rồi bán cho người khác."
+      "parts": [
+        {
+          "zh": "而是把自己正在用的工作台",
+          "vi": "mà là cái bàn làm việc mình đang dùng,"
+        },
+        {
+          "zh": "复制一份卖给别人。",
+          "vi": "sao chép thành một bản rồi bán cho người khác."
+        }
+      ]
     },
     "2": {
       "zh": "举个例子啊，这就是我每天都在用的工作台。",
-      "vi": "Lấy ví dụ nhé, đây chính là cái bàn làm việc ngày nào tôi cũng dùng."
+      "parts": [
+        {
+          "zh": "举个例子啊，",
+          "vi": "Lấy ví dụ nhé,"
+        },
+        {
+          "zh": "这就是我每天都在用的工作台。",
+          "vi": "đây chính là cái bàn làm việc ngày nào tôi cũng dùng."
+        }
+      ]
     },
     "3": {
       "zh": "那近期呢，哪些话题有热度？",
@@ -28,11 +55,41 @@
     },
     "5": {
       "zh": "它都会先帮我整理一份，然后自己去分类摘出重要的信息，最后综合一个分数来供我参考。",
-      "vi": "Nó đều sẽ tổng hợp trước cho tôi một bản, rồi tự phân loại, lọc ra những thông tin quan trọng, cuối cùng tính ra một điểm tổng hợp để tôi tham khảo."
+      "parts": [
+        {
+          "zh": "它都会先帮我整理一份，",
+          "vi": "Nó đều sẽ tổng hợp trước cho tôi một bản,"
+        },
+        {
+          "zh": "然后自己去分类摘出重要的信息，",
+          "vi": "rồi tự phân loại, lọc ra những thông tin quan trọng,"
+        },
+        {
+          "zh": "最后综合一个分数来供我参考。",
+          "vi": "cuối cùng tính ra một điểm tổng hợp để tôi tham khảo."
+        }
+      ]
     },
     "6": {
       "zh": "不仅帮我省去了大量找选题、筛信息的麻烦，而现在多出来的时间，我还能多接两个订单，",
-      "vi": "Không chỉ giúp tôi đỡ được bao nhiêu công tìm chủ đề, lọc thông tin, mà giờ có thêm thời gian, tôi còn nhận được thêm hai đơn nữa,"
+      "parts": [
+        {
+          "zh": "不仅帮我省去了",
+          "vi": "Không chỉ giúp tôi đỡ được"
+        },
+        {
+          "zh": "大量找选题、筛信息的麻烦，",
+          "vi": "bao nhiêu công tìm chủ đề, lọc thông tin,"
+        },
+        {
+          "zh": "而现在多出来的时间，",
+          "vi": "mà giờ có thêm thời gian,"
+        },
+        {
+          "zh": "我还能多接两个订单，",
+          "vi": "tôi còn nhận được thêm hai đơn nữa,"
+        }
+      ]
     },
     "7": {
       "zh": "多回两条客户的微信。",
@@ -40,11 +97,37 @@
     },
     "8": {
       "zh": "那类似像这种客户需求、脚本进度这些事儿，我都会放在同一个页面中进行统一的管理，",
-      "vi": "Rồi mấy việc kiểu như yêu cầu của khách, tiến độ kịch bản, tôi đều để chung trên một trang để quản lý tập trung,"
+      "parts": [
+        {
+          "zh": "那类似像这种客户需求、",
+          "vi": "Rồi mấy việc kiểu như yêu cầu của khách,"
+        },
+        {
+          "zh": "脚本进度这些事儿，",
+          "vi": "tiến độ kịch bản,"
+        },
+        {
+          "zh": "我都会放在同一个页面中",
+          "vi": "tôi đều để chung trên một trang"
+        },
+        {
+          "zh": "进行统一的管理，",
+          "vi": "để quản lý tập trung,"
+        }
+      ]
     },
     "9": {
       "zh": "这样既能省时省事儿，也能够提高咱的产出效率。",
-      "vi": "như vậy vừa đỡ tốn thời gian, đỡ việc, lại vừa nâng được năng suất làm ra của mình."
+      "parts": [
+        {
+          "zh": "这样既能省时省事儿，",
+          "vi": "như vậy vừa đỡ tốn thời gian, đỡ việc,"
+        },
+        {
+          "zh": "也能够提高咱的产出效率。",
+          "vi": "lại vừa nâng được năng suất làm ra của mình."
+        }
+      ]
     },
     "10": {
       "zh": "怎么样？",
@@ -60,19 +143,143 @@
     },
     "13": {
       "zh": "这个工作台最值钱的地方其实就是打包成一套别人也能够用的解决方案卖出去。",
-      "vi": "Chỗ đáng tiền nhất của cái bàn làm việc này thật ra là đóng gói nó thành một giải pháp mà người khác cũng dùng được, rồi bán đi."
+      "parts": [
+        {
+          "zh": "这个工作台最值钱的地方",
+          "vi": "Chỗ đáng tiền nhất của cái bàn làm việc này"
+        },
+        {
+          "zh": "其实就是打包成一套",
+          "vi": "thật ra là đóng gói nó thành một"
+        },
+        {
+          "zh": "别人也能够用的解决方案卖出去。",
+          "vi": "giải pháp mà người khác cũng dùng được, rồi bán đi."
+        }
+      ]
     },
     "14": {
       "zh": "注意啊，我这里不是让你去倒买别人的这个工程文件，而是把你真正用过、跑通过的工作流整理成模板。",
-      "vi": "Chú ý nhé, ở đây tôi không bảo bạn đi mua đi bán lại file dự án của người khác, mà là sắp xếp quy trình bạn thực sự đã dùng, đã chạy trơn tru, thành mẫu."
+      "parts": [
+        {
+          "zh": "注意啊，我这里不是让你去",
+          "vi": "Chú ý nhé, ở đây tôi không bảo bạn đi"
+        },
+        {
+          "zh": "倒买别人的这个工程文件，",
+          "vi": "mua đi bán lại file dự án của người khác,"
+        },
+        {
+          "zh": "而是把你真正用过、跑通过的工作流",
+          "vi": "mà là quy trình bạn thực sự đã dùng, đã chạy trơn tru,"
+        },
+        {
+          "zh": "整理成模板。",
+          "vi": "sắp xếp lại thành mẫu."
+        }
+      ]
     },
     "16": {
       "zh": "那有人是不知道怎么做，有人呢是没有时间从头研究，那你就可以把普通人遇到的门槛儿。",
-      "vi": "Có người thì không biết làm thế nào, có người thì không có thời gian nghiên cứu từ đầu, vậy thì bạn có thể biến những rào cản mà người bình thường gặp phải"
+      "parts": [
+        {
+          "zh": "那有人是不知道怎么做，",
+          "vi": "Có người thì không biết làm thế nào,"
+        },
+        {
+          "zh": "有人呢是没有时间从头研究，",
+          "vi": "có người thì không có thời gian nghiên cứu từ đầu,"
+        },
+        {
+          "zh": "那你就可以把普通人遇到的门槛儿。",
+          "vi": "vậy thì bạn có thể biến những rào cản mà người bình thường gặp phải"
+        }
+      ]
     },
     "17": {
       "zh": "变成你手中的商品用户付费购买的其实从来都不是一份文件而是你替他省下来的时间精力还有试错成本嗨大家好我是GenJi作为AI区的卷王我的每个月都在坚持更新这个AI的教学视频从AI的科普教程到创作等等也收获了不少粉丝的喜爱承蒙大家厚爱今年入选的百大博主那我知道一发出来弹幕应该在发什么求分享求教程这个是怎么做到的其实这个操作是很简单的一打开电脑里的Agent，按照咱们的模板把自己诉求说清楚，以及你想要一个什么样的功能，",
-      "vi": "thành món hàng trong tay bạn. Thứ người dùng bỏ tiền ra mua thật ra xưa nay chưa bao giờ là một cái file, mà là thời gian, công sức và chi phí thử sai mà bạn tiết kiệm giúp họ. Chào mọi người, tôi là GenJi, \"vua cày\" của khu AI, tháng nào tôi cũng đều đặn ra video dạy AI, từ phổ cập kiến thức, hướng dẫn cho đến sáng tạo, cũng nhận được sự yêu mến của không ít fan, nhờ mọi người ưu ái mà năm nay lọt vào top 100 UP主. Tôi biết video vừa đăng lên là bình luận chạy trên màn hình sẽ toàn là: xin chia sẻ, xin hướng dẫn, cái này làm thế nào vậy. Thật ra thao tác này đơn giản lắm, mở Agent trên máy tính ra, theo mẫu của mình nói rõ yêu cầu của bạn, cả việc bạn muốn một chức năng như thế nào,"
+      "parts": [
+        {
+          "zh": "变成你手中的商品",
+          "vi": "thành món hàng trong tay bạn."
+        },
+        {
+          "zh": "用户付费购买的",
+          "vi": "Thứ người dùng bỏ tiền ra mua"
+        },
+        {
+          "zh": "其实从来都不是一份文件",
+          "vi": "thật ra xưa nay chưa bao giờ là một cái file,"
+        },
+        {
+          "zh": "而是你替他省下来的时间精力",
+          "vi": "mà là thời gian, công sức bạn tiết kiệm giúp họ,"
+        },
+        {
+          "zh": "还有试错成本",
+          "vi": "cả chi phí thử sai nữa."
+        },
+        {
+          "zh": "嗨大家好我是GenJi",
+          "vi": "Chào mọi người, tôi là GenJi,"
+        },
+        {
+          "zh": "作为AI区的卷王",
+          "vi": "là \"vua cày\" của khu AI,"
+        },
+        {
+          "zh": "我的每个月都在坚持更新",
+          "vi": "tháng nào tôi cũng đều đặn ra"
+        },
+        {
+          "zh": "这个AI的教学视频",
+          "vi": "video dạy AI,"
+        },
+        {
+          "zh": "从AI的科普教程到创作等等",
+          "vi": "từ phổ cập kiến thức, hướng dẫn cho đến sáng tạo,"
+        },
+        {
+          "zh": "也收获了不少粉丝的喜爱",
+          "vi": "cũng nhận được sự yêu mến của không ít fan,"
+        },
+        {
+          "zh": "承蒙大家厚爱今年入选的百大博主",
+          "vi": "nhờ mọi người ưu ái mà năm nay lọt vào top 100 UP主."
+        },
+        {
+          "zh": "那我知道一发出来",
+          "vi": "Tôi biết video vừa đăng lên là"
+        },
+        {
+          "zh": "弹幕应该在发什么",
+          "vi": "bình luận chạy trên màn hình sẽ toàn là:"
+        },
+        {
+          "zh": "求分享求教程",
+          "vi": "xin chia sẻ, xin hướng dẫn,"
+        },
+        {
+          "zh": "这个是怎么做到的",
+          "vi": "cái này làm thế nào vậy."
+        },
+        {
+          "zh": "其实这个操作是很简单的",
+          "vi": "Thật ra thao tác này đơn giản lắm,"
+        },
+        {
+          "zh": "一打开电脑里的Agent，",
+          "vi": "mở Agent trên máy tính ra,"
+        },
+        {
+          "zh": "按照咱们的模板把自己诉求说清楚，",
+          "vi": "theo mẫu của mình nói rõ yêu cầu của bạn,"
+        },
+        {
+          "zh": "以及你想要一个什么样的功能，",
+          "vi": "cả việc bạn muốn một chức năng như thế nào,"
+        }
+      ]
     },
     "22": {
       "zh": "就能够做出一模一样的。",
@@ -80,7 +287,16 @@
     },
     "23": {
       "zh": "但是问题就在于，那听起来很简单，但实际上手了还是会遇到一堆问题。",
-      "vi": "Nhưng vấn đề là, nghe thì đơn giản đấy, nhưng bắt tay vào làm thật thì vẫn sẽ gặp cả đống vấn đề."
+      "parts": [
+        {
+          "zh": "但是问题就在于，那听起来很简单，",
+          "vi": "Nhưng vấn đề là, nghe thì đơn giản đấy,"
+        },
+        {
+          "zh": "但实际上手了还是会遇到一堆问题。",
+          "vi": "nhưng bắt tay vào làm thật thì vẫn sẽ gặp cả đống vấn đề."
+        }
+      ]
     },
     "24": {
       "zh": "那需求怎么拆？",
@@ -96,39 +312,140 @@
     },
     "27": {
       "zh": "所以这就是为什么有一些人呢只是卖他的这种安装或者使用教程，其实就能赚钱。",
-      "vi": "Cho nên đây chính là lý do vì sao có những người chỉ bán mấy cái hướng dẫn cài đặt hay hướng dẫn sử dụng kiểu này thôi, mà thật ra đã kiếm ra tiền rồi."
+      "parts": [
+        {
+          "zh": "所以这就是为什么有一些人呢",
+          "vi": "Cho nên đây chính là lý do vì sao có những người"
+        },
+        {
+          "zh": "只是卖他的这种安装或者使用教程，",
+          "vi": "chỉ bán mấy cái hướng dẫn cài đặt hay hướng dẫn sử dụng kiểu này thôi,"
+        },
+        {
+          "zh": "其实就能赚钱。",
+          "vi": "mà thật ra đã kiếm ra tiền rồi."
+        }
+      ]
     },
     "28": {
       "zh": "那么为了感谢咱们大家的喜爱，也为了让大家更少的时间就可以把这条路径跑通，",
-      "vi": "Vậy để cảm ơn sự yêu mến của mọi người, và cũng để mọi người tốn ít thời gian hơn mà vẫn đi trọn được con đường này,"
+      "parts": [
+        {
+          "zh": "那么为了感谢咱们大家的喜爱，",
+          "vi": "Vậy để cảm ơn sự yêu mến của mọi người,"
+        },
+        {
+          "zh": "也为了让大家更少的时间",
+          "vi": "và cũng để mọi người tốn ít thời gian hơn"
+        },
+        {
+          "zh": "就可以把这条路径跑通，",
+          "vi": "mà vẫn đi trọn được con đường này,"
+        }
+      ]
     },
     "29": {
       "zh": "我在评论区的置顶链接直播课中会完整的展示我是如何搭建这套工作台的，以及全套的模板资源。",
-      "vi": "trong buổi livestream ở link ghim phần bình luận, tôi sẽ cho xem đầy đủ tôi dựng bộ bàn làm việc này như thế nào, cùng trọn bộ tài nguyên mẫu."
+      "parts": [
+        {
+          "zh": "我在评论区的置顶链接直播课中",
+          "vi": "trong buổi livestream ở link ghim phần bình luận,"
+        },
+        {
+          "zh": "会完整的展示",
+          "vi": "tôi sẽ cho xem đầy đủ"
+        },
+        {
+          "zh": "我是如何搭建这套工作台的，以及全套的模板资源。",
+          "vi": "tôi dựng bộ bàn làm việc này như thế nào, cùng trọn bộ tài nguyên mẫu."
+        }
+      ]
     },
     "30": {
       "zh": "我都会免费分享，你点进去只要跟着我做，",
-      "vi": "Tôi đều chia sẻ miễn phí, bạn bấm vào, chỉ cần làm theo tôi,"
+      "parts": [
+        {
+          "zh": "我都会免费分享，",
+          "vi": "Tôi đều chia sẻ miễn phí,"
+        },
+        {
+          "zh": "你点进去只要跟着我做，",
+          "vi": "bạn bấm vào, chỉ cần làm theo tôi,"
+        }
+      ]
     },
     "31": {
       "zh": "我会花两个小时从最基础的地方开始带你完整的走一遍我搭建的过程，",
-      "vi": "tôi sẽ dành hai tiếng, bắt đầu từ chỗ cơ bản nhất, dẫn bạn đi trọn một lượt quá trình tôi dựng nó,"
+      "parts": [
+        {
+          "zh": "我会花两个小时",
+          "vi": "tôi sẽ dành hai tiếng,"
+        },
+        {
+          "zh": "从最基础的地方开始",
+          "vi": "bắt đầu từ chỗ cơ bản nhất,"
+        },
+        {
+          "zh": "带你完整的走一遍我搭建的过程，",
+          "vi": "dẫn bạn đi trọn một lượt quá trình tôi dựng nó,"
+        }
+      ]
     },
     "32": {
       "zh": "手把手的教会你怎么把模糊的需求拆解成具体的需求，",
-      "vi": "cầm tay chỉ việc dạy bạn cách chia một yêu cầu mơ hồ thành những yêu cầu cụ thể,"
+      "parts": [
+        {
+          "zh": "手把手的教会你怎么",
+          "vi": "cầm tay chỉ việc dạy bạn cách"
+        },
+        {
+          "zh": "把模糊的需求拆解成具体的需求，",
+          "vi": "chia một yêu cầu mơ hồ thành những yêu cầu cụ thể,"
+        }
+      ]
     },
     "33": {
       "zh": "不用写一行代码就能够让AI帮你把成品做出来。",
-      "vi": "không cần viết một dòng code nào mà vẫn để AI làm ra thành phẩm cho bạn."
+      "parts": [
+        {
+          "zh": "不用写一行代码",
+          "vi": "không cần viết một dòng code nào"
+        },
+        {
+          "zh": "就能够让AI帮你把成品做出来。",
+          "vi": "mà vẫn để AI làm ra thành phẩm cho bạn."
+        }
+      ]
     },
     "34": {
       "zh": "当然最后这个作品你也可以整理成模板去卖。",
-      "vi": "Tất nhiên, cuối cùng tác phẩm này bạn cũng có thể sắp xếp thành mẫu để bán."
+      "parts": [
+        {
+          "zh": "当然最后这个作品",
+          "vi": "Tất nhiên, cuối cùng tác phẩm này"
+        },
+        {
+          "zh": "你也可以整理成模板去卖。",
+          "vi": "bạn cũng có thể sắp xếp thành mẫu để bán."
+        }
+      ]
     },
     "35": {
       "zh": "那说到底，其实很多AI赚钱的机会就是把我已经会了整理成你拿过去也能用，",
-      "vi": "Nói cho cùng thì, thật ra rất nhiều cơ hội kiếm tiền bằng AI chính là biến cái tôi đã biết làm thành cái bạn cầm về cũng dùng được,"
+      "parts": [
+        {
+          "zh": "那说到底，其实很多AI赚钱的机会",
+          "vi": "Nói cho cùng thì, thật ra rất nhiều cơ hội kiếm tiền bằng AI"
+        },
+        {
+          "zh": "就是把我已经会了",
+          "vi": "chính là biến cái tôi đã biết làm"
+        },
+        {
+          "zh": "整理成你拿过去也能用，",
+          "vi": "thành cái bạn cầm về cũng dùng được,"
+        }
+      ]
     },
     "36": {
       "zh": "因为当你的经验能够被复制、被交付。",
@@ -136,15 +453,58 @@
     },
     "37": {
       "zh": "那被别人拿来直接解决问题的时候，它才真正从一个工具变成了一份可以卖的商品。",
-      "vi": "được người khác lấy về giải quyết vấn đề luôn, thì lúc đó nó mới thật sự biến từ một công cụ thành một món hàng có thể bán được."
+      "parts": [
+        {
+          "zh": "那被别人拿来直接解决问题的时候，",
+          "vi": "được người khác lấy về giải quyết vấn đề luôn,"
+        },
+        {
+          "zh": "它才真正从一个工具",
+          "vi": "thì lúc đó nó mới thật sự từ một công cụ"
+        },
+        {
+          "zh": "变成了一份可以卖的商品。",
+          "vi": "biến thành một món hàng có thể bán được."
+        }
+      ]
     },
     "38": {
       "zh": "那如果你也想看看一个咱们自己在用的AI工作台到底是怎么一步一步整理成可以交付、",
-      "vi": "Vậy nếu bạn cũng muốn xem một bàn làm việc AI mà chính chúng tôi đang dùng rốt cuộc được sắp xếp từng bước một thế nào thành một sản phẩm có thể bàn giao,"
+      "parts": [
+        {
+          "zh": "那如果你也想看看",
+          "vi": "Vậy nếu bạn cũng muốn xem"
+        },
+        {
+          "zh": "一个咱们自己在用的AI工作台",
+          "vi": "một bàn làm việc AI mà chính chúng tôi đang dùng"
+        },
+        {
+          "zh": "到底是怎么一步一步",
+          "vi": "rốt cuộc được từng bước một"
+        },
+        {
+          "zh": "整理成可以交付、",
+          "vi": "sắp xếp thế nào thành một sản phẩm có thể bàn giao,"
+        }
+      ]
     },
     "39": {
       "zh": "可以卖出去的产品的，那点击我们评论区的置顶链接，我把完整的过程全都放在那里了。",
-      "vi": "có thể bán ra được, thì bấm vào link ghim ở phần bình luận của chúng tôi, toàn bộ quá trình tôi để hết ở đó rồi."
+      "parts": [
+        {
+          "zh": "可以卖出去的产品的，",
+          "vi": "có thể bán ra được,"
+        },
+        {
+          "zh": "那点击我们评论区的置顶链接，",
+          "vi": "thì bấm vào link ghim ở phần bình luận của chúng tôi,"
+        },
+        {
+          "zh": "我把完整的过程全都放在那里了。",
+          "vi": "toàn bộ quá trình tôi để hết ở đó rồi."
+        }
+      ]
     },
     "40": {
       "zh": "那就让我们正式课程中再会吧。",

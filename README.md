@@ -35,7 +35,7 @@ npm run serve                 # http://localhost:8080
 python3 tools/build_tokens.py # cut every transcript into tappable words
 node tools/build_gloss.mjs    # build the gloss the player shows on a tap
 node tools/audit.mjs          # cross-check both against sources that did not build them
-node tools/translate.mjs show E077   # the episode by sentence, to translate into Vietnamese
+node tools/translate.mjs show E077   # the episode by sentence, lines numbered, to translate line by line
 node tools/translate.mjs apply E077 vi.txt  # save translations + summary, rebuild what the page loads
 ```
 
@@ -66,7 +66,7 @@ RSS (data/feed.xml)
 | `src/cuts.js` | Replay the transcript fixes, then cut each sentence into short lines (~13 characters) as `data/cuts/` says. Refuses any cut that would change a character or split audio the ASR stacked on one timestamp. Pure, tested |
 | `tools/cuts.mjs` | Where the `split-cues` skill marks cuts: `show`, `apply`, `report` |
 | `src/roles.js` | Guess which speaker is the host 爱哲. Pure, tested |
-| `src/translations.js` | The Vietnamese summary and one translation per spoken sentence, each kept with the Chinese it was written for; a sentence a fix changed drops off the page until translated again. Pure, tested |
+| `src/translations.js` | The Vietnamese summary and one translation per line (read against its whole sentence), each kept with the Chinese it was written for; a sentence a fix changed drops off the page until translated again, one a re-cut moved is named. Pure, tested |
 | `tools/translate.mjs` | Where translations are written: `data/translations/<id>.json` → `docs/data/<id>.vi.json` |
 | `src/build.js` | Assemble the episode file and index. Written once, via a temp file |
 | `docs/` | GitHub Pages root. Vanilla HTML/CSS/JS, no build step |

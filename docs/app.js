@@ -209,11 +209,11 @@ function decorate() {
 
 // ---------- Vietnamese translation ----------
 
-/** Built offline, one entry per spoken sentence — see src/translations.js. Each sits under the last
- * line of its sentence, hidden until asked for: the point is to listen first and check after, and a
- * translation already on screen gets read instead of the Chinese being heard. The summary is the
- * exception, open above everything, because knowing the story going in is what lets the ear spend
- * itself on the words it does not know yet. */
+/** Built offline, one entry per line (now and then a pair of lines) — see src/translations.js. Each
+ * sits under the line it translates, hidden until asked for: the point is to listen first and check
+ * after, and a translation already on screen gets read instead of the Chinese being heard. The
+ * summary is the exception, open above everything, because knowing the story going in is what lets
+ * the ear spend itself on the words it does not know yet. */
 async function loadTranslation() {
   const data = await fetch(`data/${episodeId}.vi.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
   if (!data) return;
@@ -228,16 +228,15 @@ async function loadTranslation() {
   }
 
   let any = false;
-  cues.forEach((cue, index) => {
-    const unit = cue.u ?? cue.s;
-    const text = data.vi?.[unit];
-    if (!text || (cues[index + 1]?.u ?? cues[index + 1]?.s) === unit) return;
+  for (const index of cues.keys()) {
+    const text = data.lines?.[index];
+    if (!text) continue;
     const row = cueBox.children[index];
     const button = document.createElement('button');
     button.className = 'vi-toggle';
     button.type = 'button';
     button.textContent = 'VI';
-    button.title = 'Hiện bản dịch câu này';
+    button.title = 'Hiện bản dịch dòng này';
     button.setAttribute('aria-pressed', 'false');
     const line = document.createElement('div');
     line.className = 'vi';
@@ -246,7 +245,7 @@ async function loadTranslation() {
     row.classList.add('has-vi');
     row.append(button, line);
     any = true;
-  });
+  }
   $('show-vi').hidden = !any;
 }
 

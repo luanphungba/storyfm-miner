@@ -60,7 +60,16 @@
     },
     "13": {
       "zh": "我刚才打的那辆就是个几万块钱的，哪有这个坐的舒服呀？",
-      "vi": "Cái chiếc tớ gọi lúc nãy chỉ là xe vài chục nghìn tệ, sao ngồi sướng bằng chiếc này được?"
+      "parts": [
+        {
+          "zh": "我刚才打的那辆就是个几万块钱的，",
+          "vi": "Cái chiếc tớ gọi lúc nãy chỉ là xe vài chục nghìn tệ,"
+        },
+        {
+          "zh": "哪有这个坐的舒服呀？",
+          "vi": "sao ngồi sướng bằng chiếc này được?"
+        }
+      ]
     },
     "14": {
       "zh": "那你刚刚打的那辆都已经在路上了，怎么办？取消呗。",
@@ -80,7 +89,16 @@
     },
     "18": {
       "zh": "喂，我是刚才接你单的司机，我这油钱都烧了多少了？",
-      "vi": "Alô, tôi là tài xế vừa nhận cuốc của cô đây, tôi đốt bao nhiêu tiền xăng rồi đấy?"
+      "parts": [
+        {
+          "zh": "喂，我是刚才接你单的司机，",
+          "vi": "Alô, tôi là tài xế vừa nhận cuốc của cô đây,"
+        },
+        {
+          "zh": "我这油钱都烧了多少了？",
+          "vi": "tôi đốt bao nhiêu tiền xăng rồi đấy?"
+        }
+      ]
     },
     "19": {
       "zh": "你怎么取消了？",
@@ -88,7 +106,16 @@
     },
     "20": {
       "zh": "师傅，平台规定没上车之前可以取消的吧？",
-      "vi": "Bác tài, ứng dụng quy định chưa lên xe thì được hủy mà?"
+      "parts": [
+        {
+          "zh": "师傅，平台规定",
+          "vi": "Bác tài, ứng dụng quy định"
+        },
+        {
+          "zh": "没上车之前可以取消的吧？",
+          "vi": "chưa lên xe thì được hủy mà?"
+        }
+      ]
     },
     "21": {
       "zh": "你再接其他乘客不就好了？",
@@ -128,7 +155,16 @@
     },
     "30": {
       "zh": "你刚打的第二辆车都在来的路上了，有更好的呀就换。",
-      "vi": "Chiếc thứ hai cậu vừa gọi cũng đang trên đường tới rồi. Có chiếc tốt hơn thì đổi chứ."
+      "parts": [
+        {
+          "zh": "你刚打的第二辆车都在来的路上了，",
+          "vi": "Chiếc thứ hai cậu vừa gọi cũng đang trên đường tới rồi."
+        },
+        {
+          "zh": "有更好的呀就换。",
+          "vi": "Có chiếc tốt hơn thì đổi chứ."
+        }
+      ]
     },
     "31": {
       "zh": "司机已接待。",
@@ -136,7 +172,20 @@
     },
     "32": {
       "zh": "哎，你看，我又打到了一辆，还是一辆三十万的车，车龄才一年一分钟就到了，",
-      "vi": "Ơ, cậu xem, tớ lại gọi được một chiếc, còn là xe 300 nghìn tệ, xe mới chạy có một năm, một phút nữa là tới,"
+      "parts": [
+        {
+          "zh": "哎，你看，我又打到了一辆，",
+          "vi": "Ơ, cậu xem, tớ lại gọi được một chiếc,"
+        },
+        {
+          "zh": "还是一辆三十万的车，",
+          "vi": "còn là xe 300 nghìn tệ,"
+        },
+        {
+          "zh": "车龄才一年一分钟就到了，",
+          "vi": "xe mới chạy có một năm, một phút nữa là tới,"
+        }
+      ]
     },
     "33": {
       "zh": "是我运气也太好了吧？",
@@ -144,7 +193,16 @@
     },
     "34": {
       "zh": "不是，怎么取消上一辆还要扣我三块钱啊？",
-      "vi": "Ơ kìa, sao hủy chiếc trước lại bị trừ tớ 3 tệ?"
+      "parts": [
+        {
+          "zh": "不是，怎么取消上一辆",
+          "vi": "Ơ kìa, sao hủy chiếc trước"
+        },
+        {
+          "zh": "还要扣我三块钱啊？",
+          "vi": "lại bị trừ tớ 3 tệ?"
+        }
+      ]
     },
     "35": {
       "zh": "那要不别取消了，也不是很老。",
@@ -164,19 +222,63 @@
     },
     "39": {
       "zh": "我我刚才没注意看，怎么司机的评分才三点八呀？",
-      "vi": "Tớ… lúc nãy tớ không để ý, sao tài xế chỉ được có 3,8 điểm thế này?"
+      "parts": [
+        {
+          "zh": "我我刚才没注意看，",
+          "vi": "Tớ… lúc nãy tớ không để ý,"
+        },
+        {
+          "zh": "怎么司机的评分才三点八呀？",
+          "vi": "sao tài xế chỉ được có 3,8 điểm thế này?"
+        }
+      ]
     },
     "40": {
       "zh": "司机态度极差，一路甩脸色，车里异味重，不讲卫生，明明不是拼车。",
-      "vi": "\"Tài xế thái độ cực tệ, cả đường mặt nặng mày nhẹ, trong xe mùi hôi nồng, không giữ vệ sinh, rõ ràng không phải đi ghép xe,"
+      "parts": [
+        {
+          "zh": "司机态度极差，一路甩脸色，",
+          "vi": "\"Tài xế thái độ cực tệ, cả đường mặt nặng mày nhẹ,"
+        },
+        {
+          "zh": "车里异味重，不讲卫生，",
+          "vi": "trong xe mùi hôi nồng, không giữ vệ sinh,"
+        },
+        {
+          "zh": "明明不是拼车。",
+          "vi": "rõ ràng không phải đi ghép xe,"
+        }
+      ]
     },
     "41": {
       "zh": "司机还多接了其他人，不是这种车谁敢坐呀？",
-      "vi": "vậy mà tài xế còn đón thêm người khác.\" Thôi, xe thế này ai dám ngồi?"
+      "parts": [
+        {
+          "zh": "司机还多接了其他人，不是",
+          "vi": "vậy mà tài xế còn đón thêm người khác.\" Thôi,"
+        },
+        {
+          "zh": "这种车谁敢坐呀？",
+          "vi": "xe thế này ai dám ngồi?"
+        }
+      ]
     },
     "42": {
       "zh": "算了，还是取消了吧。艾瑟琳娜，现在都那么晚了，雨又这么大，你再挑，万一找不到怎么办？",
-      "vi": "Thôi, hủy đi vậy. Này Selina, giờ đã khuya thế rồi, mưa lại to thế này, cậu còn kén nữa, nhỡ không gọi được xe thì làm sao?"
+      "parts": [
+        {
+          "zh": "算了，还是取消了吧。艾瑟琳娜，",
+          "vi": "Thôi, hủy đi vậy. Này Selina,"
+        },
+        {
+          "zh": "现在都那么晚了，雨又这么大，",
+          "vi": "giờ đã khuya thế rồi, mưa lại to thế này,"
+        },
+        {
+          "zh": "你再挑，万一找不到怎么办？",
+          "vi": "cậu còn kén nữa, nhỡ không gọi được xe thì làm sao?"
+        }
+      ]
     },
     "44": {
       "zh": "哎，怎么可能找不到啊？",
@@ -184,7 +286,20 @@
     },
     "45": {
       "zh": "我就不信了，这么大的城市，我找不到一辆距离近、牌子硬、车龄新、评分又高的好车。",
-      "vi": "Tớ không tin đấy, thành phố to thế này mà tớ không tìm được một chiếc xe tử tế, ở gần, hãng xịn, xe mới, điểm đánh giá lại cao."
+      "parts": [
+        {
+          "zh": "我就不信了，这么大的城市，",
+          "vi": "Tớ không tin đấy, thành phố to thế này,"
+        },
+        {
+          "zh": "我找不到一辆距离近、牌子硬、",
+          "vi": "mà tớ không tìm được một chiếc xe ở gần, hãng xịn,"
+        },
+        {
+          "zh": "车龄新、评分又高的好车。",
+          "vi": "xe mới, điểm đánh giá lại cao."
+        }
+      ]
     },
     "46": {
       "zh": "订单已取消，取消了，我再打一辆。",
@@ -228,7 +343,16 @@
     },
     "56": {
       "zh": "姑娘，不好意思啊，离得太远了，你把订单取消了吧？",
-      "vi": "Cô gái à, xin lỗi nhé, xa quá, cô hủy đơn đi nhé?"
+      "parts": [
+        {
+          "zh": "姑娘，不好意思啊，离得太远了，",
+          "vi": "Cô gái à, xin lỗi nhé, xa quá,"
+        },
+        {
+          "zh": "你把订单取消了吧？",
+          "vi": "cô hủy đơn đi nhé?"
+        }
+      ]
     },
     "57": {
       "zh": "不是，你个老车，你还挑上我？",
@@ -272,11 +396,33 @@
     },
     "67": {
       "zh": "喂，师傅您好，哎，我是刚才取消您订单的那个乘客。",
-      "vi": "Alô, chào bác tài, ơ, cháu là cái người vừa nãy hủy đơn của bác đấy ạ."
+      "parts": [
+        {
+          "zh": "喂，师傅您好，哎，",
+          "vi": "Alô, chào bác tài, ơ,"
+        },
+        {
+          "zh": "我是刚才取消您订单的那个乘客。",
+          "vi": "cháu là cái người vừa nãy hủy đơn của bác đấy ạ."
+        }
+      ]
     },
     "68": {
       "zh": "师傅是这样的，其实啊，我打的第一辆车就是您的，要不您来接一下我？",
-      "vi": "Bác ơi chuyện là thế này, thật ra chiếc xe đầu tiên cháu gọi là xe của bác, hay là bác qua đón cháu nhé?"
+      "parts": [
+        {
+          "zh": "师傅是这样的，其实啊，",
+          "vi": "Bác ơi chuyện là thế này, thật ra,"
+        },
+        {
+          "zh": "我打的第一辆车就是您的，",
+          "vi": "chiếc xe đầu tiên cháu gọi là xe của bác,"
+        },
+        {
+          "zh": "要不您来接一下我？",
+          "vi": "hay là bác qua đón cháu nhé?"
+        }
+      ]
     },
     "69": {
       "zh": "我给你加钱，我给你加钱行不行？",
@@ -284,7 +430,16 @@
     },
     "70": {
       "zh": "不好意思，姑娘，我已经接了别的乘客了。",
-      "vi": "Xin lỗi cô gái nhé, tôi nhận khách khác rồi."
+      "parts": [
+        {
+          "zh": "不好意思，姑娘，",
+          "vi": "Xin lỗi cô gái nhé,"
+        },
+        {
+          "zh": "我已经接了别的乘客了。",
+          "vi": "tôi nhận khách khác rồi."
+        }
+      ]
     },
     "71": {
       "zh": "打不到车，那我走路回家吧。",

@@ -7,7 +7,8 @@ description: >
   episode id, transcribing it, checking transcript quality, cutting sentences
   into short mining-sized lines, writing the
   vocabulary gloss the player shows when a word is tapped, translating the
-  episode into Vietnamese (a summary plus every sentence), through staging
+  episode into Vietnamese (a summary plus one translation per line, never a
+  whole multi-line sentence at once), through staging
   the result for commit. Use this whenever the user says something like
   "thêm cho tôi podcast này: https://www.xiaoyuzhoufm.com/episode/...",
   "add this episode", "transcribe E910", or pastes a xiaoyuzhoufm.com/episode
@@ -182,24 +183,38 @@ check each is assigned correctly rather than assuming.
 
 ## 6. Translate the episode into Vietnamese
 
-The page opens with a Vietnamese summary, and every sentence carries a Vietnamese translation hidden
-behind a **VI** button. The user reads the summary before listening so they already know the story,
-and their ear can go to the words they don't know; the per-sentence translation is for checking a
-sentence after hearing it. Both are only worth having if they are right: a smooth sentence that says
+The page opens with a Vietnamese summary, and every line carries its own Vietnamese translation
+hidden behind a **VI** button. The user reads the summary before listening so they already know the
+story, and their ear can go to the words they don't know; the per-line translation is for checking a
+line right after hearing it — so it has to be short enough to read in that moment. A paragraph under
+the last line of a long sentence does not get read (the user said so, about CC2). Both are only worth having if they are right: a smooth sentence that says
 something the Chinese does not is worse than no translation, because the reader trusts it.
 
 Run this after `split-cues` and `verify-transcript` — it translates the fixed text, and a later fix
 drops the translation of the sentence it touched (the build names it).
 
 ```
-node tools/translate.mjs show <ID>          # the whole episode, one sentence a line: "<n> <speaker·role> <text>"
+node tools/translate.mjs show <ID>          # the episode a sentence at a time, its lines numbered under it
 node tools/translate.mjs apply <ID> vi.txt  # write translations; merges, so it can be done in batches
-node tools/translate.mjs show <ID> --todo   # what is still missing or stale
+node tools/translate.mjs show <ID> --todo   # what is missing, stale, or not yet line by line
 ```
 
-A sentence here is the spoken sentence (or run of sentences `split-cues` joined), never a single
-short line, so `<n>` is not a line number. Write `vi.txt` in the scratchpad: `<n> <bản dịch>` per
-line, plus `> ` lines for the summary paragraphs (they replace the old summary).
+`show` prints each spoken sentence (or run of sentences `split-cues` joined) as `<n> <speaker·role>
+<whole sentence>`, and under a sentence of several lines, each line as `<n>.<k> <line>`. Read the
+whole sentence, then translate it **line by line**. Write `vi.txt` in the scratchpad:
+
+- `<n> <bản dịch>` for a sentence that is one line;
+- `<n>.<k> <bản dịch>` for line `k` of a longer one — every line `1…k` of the sentence, in order, in
+  the same file (`apply` refuses a sentence with a line missing);
+- `<n>.<k>-<k+1> <bản dịch>` only where two lines cannot be split without making the Vietnamese wrong
+  (never more than two). Prefer reshaping the Vietnamese so each line still says what its Chinese
+  says — move a phrase to the line it belongs to, repeat a subject, end on a comma — over pairing;
+- `> ` lines for the summary paragraphs (they replace the old summary).
+
+Each line's translation must translate *that* line: a reader checks it against the Chinese just
+heard. Vietnamese word order often runs opposite to Chinese (the 的-phrase before a noun, a place or
+time first), so a line may carry a reordered piece of the sentence — that is fine as long as the
+lines read in order make the sentence. A sentence ASR cut mid-clause stays a fragment.
 
 **Read the whole episode before writing a single line.** The translation has to be right for the
 whole piece, not sentence by sentence: who is speaking, who "他/她" is (the ASR often writes 他 for a
@@ -235,7 +250,10 @@ Summary: **5–10 sentences in 1–3 paragraphs**, the story in order — who th
 happens, where this episode ends (and that it is one part of a series, if it is). Plain and concrete,
 no reviewer tone; it is read right before listening, so it should make the Chinese easier to follow.
 
-`apply` must end with `<n>/<n> câu có bản dịch · tóm tắt k đoạn` and exit 0. Then read a stretch of
+`apply` must end with `<n>/<n> câu có bản dịch · <m>/<m> dòng mang bản dịch · tóm tắt k đoạn`
+and exit 0 — every line has its translation and no sentence is still translated as a whole. A later
+re-cut (`split-cues`) can move a line end inside a translated piece; the build then names the
+sentence as "lệch dòng" and `show --todo` lists it to translate again line by line. Then read a stretch of
 the page with the translations shown (`npm run serve`, **Hiện dịch**) to see it reads as one text.
 
 ## 7. Stage, summarize, confirm — don't commit or push on your own

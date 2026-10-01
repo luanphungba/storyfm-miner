@@ -98,9 +98,9 @@ export async function rebuildTranslation(id, lines) {
   if (!existsSync(paths.translations(id))) return null;
   const result = buildSidecar(lines, await readJsonOr(paths.translations(id), {}));
   await writeJson(paths.vi(id), result.sidecar);
-  const { missing, stale } = result;
-  if (missing.length || stale.length) {
-    console.log(`  ⚠ Bản dịch: ${missing.length} câu chưa dịch, ${stale.length} câu đã đổi chữ Hán — node tools/translate.mjs show ${id} --todo`);
+  const { missing, stale, misaligned } = result;
+  if (missing.length || stale.length || misaligned.length) {
+    console.log(`  ⚠ Bản dịch: ${missing.length} câu chưa dịch, ${stale.length} câu đã đổi chữ Hán, ${misaligned.length} câu lệch dòng — node tools/translate.mjs show ${id} --todo`);
   }
   return result;
 }

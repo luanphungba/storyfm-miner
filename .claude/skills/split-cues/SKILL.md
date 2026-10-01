@@ -112,6 +112,14 @@ exception is a `+` join, which hands jieba a sentence it never saw whole (迷迷
 a word (`chỗ cắt tách 是因为`), look at it: usually jieba glued two words across a clause and the
 cut is right, but if it really is one word, move the cut.
 
+If the episode is already translated, the translation is written one per line
+(`data/translations/<ID>.json`), so a re-cut moves line ends out from under it. `--resegment` then
+prints `⚠ Bản dịch: … câu lệch dòng` (a `+` join changes the joined sentence's Chinese, so it shows as
+`đã đổi chữ Hán`). Run
+`node tools/translate.mjs show <ID> --todo` and translate each listed sentence again line by line,
+by the add-episode skill's step 6 — never leave a sentence translated as a whole. Done when
+`node tools/translate.mjs build <ID>` exits 0.
+
 ## 5. Report
 
 Tell the user, in their language: sentences → lines, the median and longest line from `report`,

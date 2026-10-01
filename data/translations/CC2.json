@@ -12,23 +12,80 @@
     },
     "1": {
       "zh": "今天是我们的正式的Podcast第一期。",
-      "vi": "Hôm nay là tập đầu tiên chính thức của podcast chúng mình."
+      "parts": [
+        {
+          "zh": "今天是我们的正式的",
+          "vi": "Hôm nay là tập chính thức"
+        },
+        {
+          "zh": "Podcast第一期。",
+          "vi": "đầu tiên của podcast chúng mình."
+        }
+      ]
     },
     "2": {
       "zh": "那今天呢，我邀请了一个在德国的小伙伴，他的名字叫Cameron。",
-      "vi": "Hôm nay mình mời một người bạn đang ở Đức, tên là Cameron."
+      "parts": [
+        {
+          "zh": "那今天呢，",
+          "vi": "Vậy hôm nay,"
+        },
+        {
+          "zh": "我邀请了一个在德国的小伙伴，",
+          "vi": "mình mời một người bạn đang ở Đức,"
+        },
+        {
+          "zh": "他的名字叫Cameron。",
+          "vi": "tên cậu ấy là Cameron."
+        }
+      ]
     },
     "3": {
       "zh": "Cameron，你要不要自我介绍一下？",
-      "vi": "Cameron, cậu tự giới thiệu một chút nhé?"
+      "parts": [
+        {
+          "zh": "Cameron，",
+          "vi": "Cameron,"
+        },
+        {
+          "zh": "你要不要自我介绍一下？",
+          "vi": "cậu tự giới thiệu một chút nhé?"
+        }
+      ]
     },
     "4": {
       "zh": "OK啊，大家好，我叫Cameron，我现在在德国做我的博士研究。",
-      "vi": "OK, chào mọi người, mình tên Cameron, hiện mình đang làm nghiên cứu tiến sĩ ở Đức."
+      "parts": [
+        {
+          "zh": "OK啊，大家好，我叫Cameron，",
+          "vi": "OK, chào mọi người, mình tên Cameron,"
+        },
+        {
+          "zh": "我现在在德国做我的博士研究。",
+          "vi": "hiện mình đang làm nghiên cứu tiến sĩ ở Đức."
+        }
+      ]
     },
     "5": {
       "zh": "Yeah，那我觉得我们第一期的话呢，可以聊一些比较轻松、比较简单的话题。",
-      "vi": "Yeah, vậy mình nghĩ tập đầu tiên của chúng ta có thể nói về mấy chủ đề nhẹ nhàng, đơn giản một chút."
+      "parts": [
+        {
+          "zh": "Yeah，",
+          "vi": "Yeah,"
+        },
+        {
+          "zh": "那我觉得我们第一期的话呢，",
+          "vi": "vậy mình nghĩ tập đầu tiên của chúng ta,"
+        },
+        {
+          "zh": "可以聊一些比较轻松、",
+          "vi": "có thể nói chuyện gì đó nhẹ nhàng,"
+        },
+        {
+          "zh": "比较简单的话题。",
+          "vi": "đơn giản một chút."
+        }
+      ]
     },
     "6": {
       "zh": "Cameron他来自四川，对吧？",
@@ -48,11 +105,29 @@
     },
     "10": {
       "zh": "然后成都和上海虽然很不一样，但算是中国比较重要的两个大城市。",
-      "vi": "Thành Đô và Thượng Hải tuy rất khác nhau, nhưng đều được coi là hai thành phố lớn khá quan trọng của Trung Quốc."
+      "parts": [
+        {
+          "zh": "然后成都和上海虽然很不一样，",
+          "vi": "Thành Đô và Thượng Hải tuy rất khác nhau,"
+        },
+        {
+          "zh": "但算是中国比较重要的两个大城市。",
+          "vi": "nhưng đều là hai thành phố lớn khá quan trọng của Trung Quốc."
+        }
+      ]
     },
     "11": {
       "zh": "然后呢，其实我没有Cameron，我还没有和你好好聊过。",
-      "vi": "Mà thật ra mình chưa, Cameron, mình chưa từng nói chuyện đàng hoàng với cậu"
+      "parts": [
+        {
+          "zh": "然后呢，其实我没有Cameron，",
+          "vi": "Mà thật ra mình chưa, Cameron,"
+        },
+        {
+          "zh": "我还没有和你好好聊过。",
+          "vi": "mình chưa từng nói chuyện đàng hoàng với cậu."
+        }
+      ]
     },
     "12": {
       "zh": "关于家乡，但我其实去过成都一次。",
@@ -64,7 +139,16 @@
     },
     "14": {
       "zh": "对我特别不能理解，作为一个中国人，竟然没有去过上海。",
-      "vi": "Đúng, mình thật sự không hiểu nổi, là người Trung Quốc mà lại chưa từng đến Thượng Hải."
+      "parts": [
+        {
+          "zh": "对我特别不能理解，",
+          "vi": "Đúng, mình thật sự không hiểu nổi,"
+        },
+        {
+          "zh": "作为一个中国人，竟然没有去过上海。",
+          "vi": "là người Trung Quốc mà lại chưa từng đến Thượng Hải."
+        }
+      ]
     },
     "15": {
       "zh": "是中国人就必须要去过上海吗？",
@@ -76,23 +160,104 @@
     },
     "17": {
       "zh": "你作为一个中国人，那没有去过北京或者上海？",
-      "vi": "Cậu là người Trung Quốc, mà chưa đến Bắc Kinh hay Thượng Hải?"
+      "parts": [
+        {
+          "zh": "你作为一个中国人，",
+          "vi": "Cậu là người Trung Quốc,"
+        },
+        {
+          "zh": "那没有去过北京或者上海？",
+          "vi": "mà chưa đến Bắc Kinh hay Thượng Hải à?"
+        }
+      ]
     },
     "18": {
       "zh": "我去过北京，而且我觉得北京挺好玩的。",
-      "vi": "Mình đến Bắc Kinh rồi, mà mình thấy Bắc Kinh khá vui."
+      "parts": [
+        {
+          "zh": "我去过北京，",
+          "vi": "Mình đến Bắc Kinh rồi,"
+        },
+        {
+          "zh": "而且我觉得北京挺好玩的。",
+          "vi": "mà mình thấy Bắc Kinh khá vui."
+        }
+      ]
     },
     "19": {
       "zh": "嗯，我觉得这可能有点像美国人没有去过纽约的感觉吧。",
-      "vi": "Ừm, mình thấy chuyện này hơi giống kiểu người Mỹ chưa từng đến New York."
+      "parts": [
+        {
+          "zh": "嗯，我觉得这可能有点像",
+          "vi": "Ừm, mình thấy chuyện này có lẽ hơi giống"
+        },
+        {
+          "zh": "美国人没有去过纽约的感觉吧。",
+          "vi": "cảm giác người Mỹ chưa từng đến New York."
+        }
+      ]
     },
     "20": {
       "zh": "可是我觉得这很正常啊你问一个美国人比如说你去南方有的州他们可能就是没有去过纽约嗯好吧",
-      "vi": "Nhưng mình thấy vậy là bình thường mà, cậu hỏi một người Mỹ, ví dụ cậu đến mấy bang ở miền Nam, có khi họ chưa đến New York bao giờ. Ừm, thôi được."
+      "parts": [
+        {
+          "zh": "可是我觉得这很正常啊",
+          "vi": "Nhưng mình thấy vậy là bình thường mà,"
+        },
+        {
+          "zh": "你问一个美国人",
+          "vi": "cậu hỏi một người Mỹ,"
+        },
+        {
+          "zh": "比如说你去南方有的州",
+          "vi": "ví dụ cậu đến mấy bang ở miền Nam,"
+        },
+        {
+          "zh": "他们可能就是没有去过纽约",
+          "vi": "có khi họ chưa đến New York bao giờ."
+        },
+        {
+          "zh": "嗯好吧",
+          "vi": "Ừm, thôi được."
+        }
+      ]
     },
     "21": {
       "zh": "但是我作为一个骄傲的上海人你知道就是上海人一直都有这个英文叫stereotype刻板印象就是其实和纽约人有点像我们就特别骄傲然后呢上海人会纽约人不骄傲我跟你讲纽约人都觉得",
-      "vi": "Nhưng mình là một người Thượng Hải kiêu hãnh, cậu biết đấy, người Thượng Hải lúc nào cũng có cái mà tiếng Anh gọi là stereotype, tức 刻板印象 (định kiến), là thật ra khá giống người New York, bọn mình rất kiêu hãnh. Rồi người Thượng Hải… người New York không kiêu hãnh à? Mình nói cậu nghe, người New York đều cho rằng"
+      "parts": [
+        {
+          "zh": "但是我作为一个骄傲的上海人",
+          "vi": "Nhưng mình là một người Thượng Hải kiêu hãnh,"
+        },
+        {
+          "zh": "你知道就是上海人一直都有这个",
+          "vi": "cậu biết đấy, người Thượng Hải lúc nào cũng có cái"
+        },
+        {
+          "zh": "英文叫stereotype",
+          "vi": "mà tiếng Anh gọi là stereotype,"
+        },
+        {
+          "zh": "刻板印象",
+          "vi": "tức 刻板印象 (định kiến),"
+        },
+        {
+          "zh": "就是其实和纽约人有点像",
+          "vi": "là thật ra khá giống người New York,"
+        },
+        {
+          "zh": "我们就特别骄傲",
+          "vi": "bọn mình rất kiêu hãnh."
+        },
+        {
+          "zh": "然后呢上海人会纽约人不骄傲",
+          "vi": "Rồi người Thượng Hải… người New York không kiêu hãnh à?"
+        },
+        {
+          "zh": "我跟你讲纽约人都觉得",
+          "vi": "Mình nói cậu nghe, người New York đều cho rằng"
+        }
+      ]
     },
     "23": {
       "zh": "纽约是一个behold过过滤掉。",
@@ -104,11 +269,41 @@
     },
     "25": {
       "zh": "我觉得上海人的这个大家对上海人的印象是我们看其他城市的中国人就觉得是外地人。",
-      "vi": "Mình thấy ấn tượng của mọi người về người Thượng Hải là: bọn mình nhìn người Trung Quốc ở các thành phố khác đều thấy là 外地人 (người nơi khác)."
+      "parts": [
+        {
+          "zh": "我觉得上海人的这个",
+          "vi": "Mình thấy người Thượng Hải cái này…"
+        },
+        {
+          "zh": "大家对上海人的印象是",
+          "vi": "ấn tượng của mọi người về người Thượng Hải là"
+        },
+        {
+          "zh": "我们看其他城市的中国人",
+          "vi": "bọn mình nhìn người Trung Quốc ở các thành phố khác"
+        },
+        {
+          "zh": "就觉得是外地人。",
+          "vi": "đều thấy là 外地人 (người nơi khác)."
+        }
+      ]
     },
     "26": {
       "zh": "本来就是啊，比如说这种什么上海妈妈找女婿不都是不让找外地人？",
-      "vi": "Vốn dĩ là vậy mà, ví dụ mấy bà mẹ Thượng Hải tìm con rể chẳng phải đều không cho tìm người nơi khác đó sao?"
+      "parts": [
+        {
+          "zh": "本来就是啊，",
+          "vi": "Vốn dĩ là vậy mà,"
+        },
+        {
+          "zh": "比如说这种什么上海妈妈找女婿",
+          "vi": "ví dụ mấy bà mẹ Thượng Hải tìm con rể"
+        },
+        {
+          "zh": "不都是不让找外地人？",
+          "vi": "chẳng phải đều không cho tìm người nơi khác sao?"
+        }
+      ]
     },
     "27": {
       "zh": "对，只找本地人。",
@@ -124,51 +319,223 @@
     },
     "30": {
       "zh": "在上海人说起来的时候是有一点点就是负面的negative的意思。",
-      "vi": "khi người Thượng Hải nói ra thì có một chút nghĩa tiêu cực, negative."
+      "parts": [
+        {
+          "zh": "在上海人说起来的时候",
+          "vi": "khi người Thượng Hải nói ra"
+        },
+        {
+          "zh": "是有一点点就是负面的",
+          "vi": "thì có chút gì đó tiêu cực,"
+        },
+        {
+          "zh": "negative的意思。",
+          "vi": "nghĩa negative."
+        }
+      ]
     },
     "31": {
       "zh": "外地人肯定的肯定的，不过我也能理解，我也能理解，因为我之前没有意识到，",
-      "vi": "Người nơi khác chắc chắn rồi, chắc chắn rồi, nhưng mình cũng hiểu được, mình cũng hiểu được, vì trước đây mình không nhận ra,"
+      "parts": [
+        {
+          "zh": "外地人肯定的肯定的，",
+          "vi": "Người nơi khác thì chắc chắn rồi, chắc chắn rồi,"
+        },
+        {
+          "zh": "不过我也能理解，我也能理解，",
+          "vi": "nhưng mình cũng hiểu được, mình cũng hiểu được,"
+        },
+        {
+          "zh": "因为我之前没有意识到，",
+          "vi": "vì trước đây mình không nhận ra,"
+        }
+      ]
     },
     "32": {
       "zh": "比如说就算成都和房上海他们的房价差距有多大，可是那天我看了一眼，",
-      "vi": "ví dụ như Thành Đô với Thượng Hải giá nhà chênh nhau bao nhiêu, nhưng hôm nọ mình nhìn qua một cái,"
+      "parts": [
+        {
+          "zh": "比如说就算成都和房上海",
+          "vi": "ví dụ như Thành Đô với Thượng Hải"
+        },
+        {
+          "zh": "他们的房价差距有多大，",
+          "vi": "giá nhà chênh nhau bao nhiêu,"
+        },
+        {
+          "zh": "可是那天我看了一眼，",
+          "vi": "nhưng hôm nọ mình nhìn qua một cái,"
+        }
+      ]
     },
     "33": {
       "zh": "因为我有一个朋友他要让我帮他寄一个快递。",
-      "vi": "vì mình có một người bạn nhờ mình gửi giúp một bưu phẩm."
+      "parts": [
+        {
+          "zh": "因为我有一个朋友",
+          "vi": "vì mình có một người bạn"
+        },
+        {
+          "zh": "他要让我帮他寄一个快递。",
+          "vi": "nhờ mình gửi giúp một bưu phẩm."
+        }
+      ]
     },
     "34": {
       "zh": "然后他没给我他的邮政编号，我就把他的地址输到百度里查。",
-      "vi": "Rồi cậu ấy không cho mình mã bưu chính, nên mình nhập địa chỉ của cậu ấy lên Baidu để tra."
+      "parts": [
+        {
+          "zh": "然后他没给我他的邮政编号，",
+          "vi": "Rồi cậu ấy không cho mình mã bưu chính,"
+        },
+        {
+          "zh": "我就把他的地址输到百度里查。",
+          "vi": "nên mình nhập địa chỉ của cậu ấy lên Baidu để tra."
+        }
+      ]
     },
     "35": {
       "zh": "结果那个第二个网页就是那个一个房价关于那儿的房价的网页。",
-      "vi": "Kết quả là trang web thứ hai là một trang về giá nhà ở chỗ đó."
+      "parts": [
+        {
+          "zh": "结果那个第二个网页",
+          "vi": "Kết quả là trang web thứ hai"
+        },
+        {
+          "zh": "就是那个一个房价",
+          "vi": "là một trang giá nhà,"
+        },
+        {
+          "zh": "关于那儿的房价的网页。",
+          "vi": "trang về giá nhà ở chỗ đó."
+        }
+      ]
     },
     "36": {
       "zh": "我看了一眼，一平米十八万人民币，我就想我勒个天呐！",
-      "vi": "Mình nhìn qua một cái, 180 nghìn nhân dân tệ một mét vuông, mình nghĩ: trời đất ơi!"
+      "parts": [
+        {
+          "zh": "我看了一眼，一平米十八万人民币，",
+          "vi": "Mình nhìn qua một cái, 180 nghìn tệ một mét vuông,"
+        },
+        {
+          "zh": "我就想我勒个天呐！",
+          "vi": "mình nghĩ: trời đất ơi!"
+        }
+      ]
     },
     "37": {
       "zh": "我这这我还好我不是上海，也可能也不是。",
-      "vi": "Mình… mình may mà mình không phải người Thượng Hải, mà cũng có thể cũng không phải."
+      "parts": [
+        {
+          "zh": "我这这我还好我不是上海，",
+          "vi": "Mình… mình may mà mình không phải người Thượng Hải,"
+        },
+        {
+          "zh": "也可能也不是。",
+          "vi": "mà cũng có thể cũng không phải."
+        }
+      ]
     },
     "38": {
       "zh": "如果我是上海人，那当然好，我有一套这样的房子。",
-      "vi": "Nếu mình là người Thượng Hải thì tốt quá rồi, mình có một căn nhà như vậy."
+      "parts": [
+        {
+          "zh": "如果我是上海人，那当然好，",
+          "vi": "Nếu mình là người Thượng Hải thì tốt quá rồi,"
+        },
+        {
+          "zh": "我有一套这样的房子。",
+          "vi": "mình có một căn nhà như vậy."
+        }
+      ]
     },
     "39": {
       "zh": "不过我还好，我没有打算去上海工作或者怎么样，因为我觉得这样压力实在太大了。",
-      "vi": "Nhưng may là mình không định đến Thượng Hải làm việc hay gì cả, vì mình thấy áp lực như thế thật sự quá lớn."
+      "parts": [
+        {
+          "zh": "不过我还好，",
+          "vi": "Nhưng mình thì may,"
+        },
+        {
+          "zh": "我没有打算去上海工作或者怎么样，",
+          "vi": "mình không định đến Thượng Hải làm việc hay gì cả,"
+        },
+        {
+          "zh": "因为我觉得这样压力实在太大了。",
+          "vi": "vì mình thấy như thế áp lực thật sự quá lớn."
+        }
+      ]
     },
     "40": {
       "zh": "一平方米十八万人民币真的是一年的年薪我觉得一个中产阶级或者其实工作比较好的话一年年薪可能就三十万五十万这样子那个算很好了那个算很好了我觉得一般如果说比较好的层次也就二三十万对那你在上海做一年的工作其实只能买一平米到两平米的房子就是大家开玩笑有时候说一个卫生间都买不起，",
-      "vi": "180 nghìn nhân dân tệ một mét vuông thật sự là lương cả một năm. Mình nghĩ một người thuộc tầng lớp trung lưu, hoặc làm công việc khá tốt, lương năm có khi chỉ 300, 500 nghìn, vậy là tốt lắm rồi, tốt lắm rồi. Mình nghĩ bình thường nếu nói là mức khá thì cũng chỉ 200–300 nghìn. Đúng, vậy cậu làm việc một năm ở Thượng Hải thật ra chỉ mua được một đến hai mét vuông nhà, nên mọi người hay đùa là đến cái nhà vệ sinh cũng không mua nổi,"
+      "parts": [
+        {
+          "zh": "一平方米十八万人民币",
+          "vi": "180 nghìn nhân dân tệ một mét vuông"
+        },
+        {
+          "zh": "真的是一年的年薪",
+          "vi": "thật sự là lương cả một năm."
+        },
+        {
+          "zh": "我觉得一个中产阶级",
+          "vi": "Mình nghĩ một người trung lưu"
+        },
+        {
+          "zh": "或者其实工作比较好的话",
+          "vi": "hoặc làm công việc khá tốt thì"
+        },
+        {
+          "zh": "一年年薪可能就",
+          "vi": "lương năm có khi chỉ"
+        },
+        {
+          "zh": "三十万五十万这样子",
+          "vi": "khoảng 300, 500 nghìn,"
+        },
+        {
+          "zh": "那个算很好了那个算很好了",
+          "vi": "vậy là tốt lắm rồi, tốt lắm rồi."
+        },
+        {
+          "zh": "我觉得一般如果说",
+          "vi": "Mình nghĩ bình thường nếu nói"
+        },
+        {
+          "zh": "比较好的层次也就二三十万",
+          "vi": "mức khá thì cũng chỉ 200–300 nghìn."
+        },
+        {
+          "zh": "对那你在上海做一年的工作",
+          "vi": "Đúng, vậy cậu làm việc một năm ở Thượng Hải"
+        },
+        {
+          "zh": "其实只能买一平米到两平米的房子",
+          "vi": "thật ra chỉ mua được một đến hai mét vuông nhà,"
+        },
+        {
+          "zh": "就是大家开玩笑",
+          "vi": "nên mọi người hay đùa"
+        },
+        {
+          "zh": "有时候说一个卫生间都买不起，",
+          "vi": "là đến cái nhà vệ sinh cũng không mua nổi,"
+        }
+      ]
     },
     "44": {
       "zh": "而且是不吃不喝，你是把那钱全部存下来。",
-      "vi": "mà còn là nhịn ăn nhịn uống, để dành hết số tiền đó."
+      "parts": [
+        {
+          "zh": "而且是不吃不喝，",
+          "vi": "mà còn là nhịn ăn nhịn uống,"
+        },
+        {
+          "zh": "你是把那钱全部存下来。",
+          "vi": "để dành hết số tiền đó."
+        }
+      ]
     },
     "45": {
       "zh": "对，哎，那成都的房价是多少？",
@@ -176,11 +543,37 @@
     },
     "46": {
       "zh": "成都的话，就算是最贵的，就是成都现在南边高新区那儿，可能也就三万吧，最贵的三四万。",
-      "vi": "Thành Đô thì cho dù đắt nhất, như khu Cao Tân ở phía nam Thành Đô bây giờ, chắc cũng chỉ 30 nghìn thôi, đắt nhất là 30–40 nghìn."
+      "parts": [
+        {
+          "zh": "成都的话，就算是最贵的，",
+          "vi": "Thành Đô thì cho dù đắt nhất,"
+        },
+        {
+          "zh": "就是成都现在南边高新区那儿，",
+          "vi": "như khu Cao Tân ở phía nam Thành Đô bây giờ,"
+        },
+        {
+          "zh": "可能也就三万吧，最贵的三四万。",
+          "vi": "chắc cũng chỉ 30 nghìn thôi, đắt nhất là 30–40 nghìn."
+        }
+      ]
     },
     "47": {
       "zh": "嗯，其实我去，我虽然去过成都一次，但我也不是很有印象。",
-      "vi": "Ừm, thật ra mình đi… mình tuy đã đến Thành Đô một lần nhưng cũng không nhớ rõ lắm."
+      "parts": [
+        {
+          "zh": "嗯，其实我去，",
+          "vi": "Ừm, thật ra mình đi…"
+        },
+        {
+          "zh": "我虽然去过成都一次，",
+          "vi": "mình tuy đã đến Thành Đô một lần,"
+        },
+        {
+          "zh": "但我也不是很有印象。",
+          "vi": "nhưng cũng không nhớ rõ lắm."
+        }
+      ]
     },
     "48": {
       "zh": "成都的市中心。",
@@ -192,7 +585,20 @@
     },
     "50": {
       "zh": "就是老城区的话，就是算那个三环以内最中间的地方，就是那个天府广场，",
-      "vi": "Khu phố cổ thì là chỗ chính giữa trong vành đai 3, tức là quảng trường Thiên Phủ,"
+      "parts": [
+        {
+          "zh": "就是老城区的话，",
+          "vi": "Khu phố cổ thì"
+        },
+        {
+          "zh": "就是算那个三环以内最中间的地方，",
+          "vi": "là chỗ chính giữa trong vành đai 3,"
+        },
+        {
+          "zh": "就是那个天府广场，",
+          "vi": "tức là quảng trường Thiên Phủ,"
+        }
+      ]
     },
     "51": {
       "zh": "上面有一个毛主席的雕像。",
@@ -200,7 +606,20 @@
     },
     "52": {
       "zh": "成都好像是中国唯一的两个城市，或者是两个大城市还有毛泽东雕像的。",
-      "vi": "Thành Đô hình như là một trong hai thành phố duy nhất ở Trung Quốc, hoặc là hai thành phố lớn, vẫn còn tượng Mao Trạch Đông."
+      "parts": [
+        {
+          "zh": "成都好像是中国唯一的两个城市，",
+          "vi": "Thành Đô hình như là một trong hai thành phố duy nhất ở Trung Quốc,"
+        },
+        {
+          "zh": "或者是两个大城市",
+          "vi": "hoặc là hai thành phố lớn"
+        },
+        {
+          "zh": "还有毛泽东雕像的。",
+          "vi": "vẫn còn tượng Mao Trạch Đông."
+        }
+      ]
     },
     "53": {
       "zh": "这是为什么呢？",
@@ -208,7 +627,16 @@
     },
     "54": {
       "zh": "不知道，可是对，在成都的天府广场上就可以看见。",
-      "vi": "Không biết, nhưng đúng vậy, ở quảng trường Thiên Phủ Thành Đô là thấy được"
+      "parts": [
+        {
+          "zh": "不知道，可是对，",
+          "vi": "Không biết, nhưng đúng vậy,"
+        },
+        {
+          "zh": "在成都的天府广场上就可以看见。",
+          "vi": "ở quảng trường Thiên Phủ Thành Đô là thấy được."
+        }
+      ]
     },
     "55": {
       "zh": "巨大的毛主席雕像，天哪！",
@@ -220,11 +648,45 @@
     },
     "57": {
       "zh": "我去过成都，哎，我记得我对成都唯一的印象就是两个三件事情：大熊猫、麻将和火锅。",
-      "vi": "Mình đến Thành Đô rồi, ơ, mình nhớ ấn tượng duy nhất của mình về Thành Đô là hai… ba thứ: gấu trúc, mạt chược và lẩu."
+      "parts": [
+        {
+          "zh": "我去过成都，哎，",
+          "vi": "Mình đến Thành Đô rồi, ơ,"
+        },
+        {
+          "zh": "我记得我对成都唯一的印象",
+          "vi": "mình nhớ ấn tượng duy nhất của mình về Thành Đô"
+        },
+        {
+          "zh": "就是两个三件事情：",
+          "vi": "là hai… ba thứ:"
+        },
+        {
+          "zh": "大熊猫、麻将和火锅。",
+          "vi": "gấu trúc, mạt chược và lẩu."
+        }
+      ]
     },
     "58": {
       "zh": "我我去了看了，因为大家可能也知道，就是大熊猫呃基地在成都是非常有名的一个景点，",
-      "vi": "Mình… mình đã đi xem, vì chắc mọi người cũng biết, trung tâm gấu trúc ở Thành Đô là một điểm tham quan rất nổi tiếng,"
+      "parts": [
+        {
+          "zh": "我我去了看了，",
+          "vi": "Mình… mình đã đi xem,"
+        },
+        {
+          "zh": "因为大家可能也知道，",
+          "vi": "vì chắc mọi người cũng biết,"
+        },
+        {
+          "zh": "就是大熊猫呃基地",
+          "vi": "trung tâm gấu trúc, ờ,"
+        },
+        {
+          "zh": "在成都是非常有名的一个景点，",
+          "vi": "là một điểm tham quan rất nổi tiếng ở Thành Đô,"
+        }
+      ]
     },
     "59": {
       "zh": "然后成都基本上。",
@@ -232,35 +694,123 @@
     },
     "60": {
       "zh": "就是被外国人所知道，也是因为熊猫的熊猫的家乡吧，算是。",
-      "vi": "được người nước ngoài biết đến cũng là vì là quê hương của gấu trúc."
+      "parts": [
+        {
+          "zh": "就是被外国人所知道，",
+          "vi": "được người nước ngoài biết đến"
+        },
+        {
+          "zh": "也是因为熊猫的熊猫的家乡吧，算是。",
+          "vi": "cũng là vì là quê hương của gấu trúc, có thể nói vậy."
+        }
+      ]
     },
     "61": {
       "zh": "对，因为尤其是在德国，我跟德国讲我来自哪里，我说成都，他们都一般不知道；",
-      "vi": "Đúng, vì nhất là ở Đức, mình nói với người Đức mình đến từ đâu, mình nói Thành Đô, họ thường không biết;"
+      "parts": [
+        {
+          "zh": "对，因为尤其是在德国，",
+          "vi": "Đúng, vì nhất là ở Đức,"
+        },
+        {
+          "zh": "我跟德国讲我来自哪里，",
+          "vi": "mình nói với người Đức mình đến từ đâu,"
+        },
+        {
+          "zh": "我说成都，他们都一般不知道；",
+          "vi": "mình nói Thành Đô, họ thường không biết;"
+        }
+      ]
     },
     "62": {
       "zh": "说四川也不知道，我就直接讲啊，就是熊猫的地方。",
-      "vi": "nói Tứ Xuyên cũng không biết, nên mình nói thẳng luôn: là nơi có gấu trúc."
+      "parts": [
+        {
+          "zh": "说四川也不知道，",
+          "vi": "nói Tứ Xuyên cũng không biết,"
+        },
+        {
+          "zh": "我就直接讲啊，就是熊猫的地方。",
+          "vi": "nên mình nói thẳng luôn: là nơi có gấu trúc."
+        }
+      ]
     },
     "63": {
       "zh": "然后他们其实可能说了，他们也还是不知道了，因为我觉得成都、",
-      "vi": "Rồi thật ra có khi nói rồi họ vẫn không biết, vì mình thấy khái niệm Thành Đô,"
+      "parts": [
+        {
+          "zh": "然后他们其实可能说了，",
+          "vi": "Rồi thật ra có khi nói rồi"
+        },
+        {
+          "zh": "他们也还是不知道了，",
+          "vi": "họ vẫn không biết,"
+        },
+        {
+          "zh": "因为我觉得成都、",
+          "vi": "vì mình thấy Thành Đô,"
+        }
+      ]
     },
     "64": {
       "zh": "四川这个概念在德国并不是一个非常被人所知的。",
-      "vi": "Tứ Xuyên ở Đức không phải là thứ được nhiều người biết đến."
+      "parts": [
+        {
+          "zh": "四川这个概念在德国",
+          "vi": "khái niệm Tứ Xuyên ở Đức"
+        },
+        {
+          "zh": "并不是一个非常被人所知的。",
+          "vi": "không phải là thứ được nhiều người biết đến."
+        }
+      ]
     },
     "65": {
       "zh": "可是，在美国就不一样，因为我发现在美国，四川restaurant、",
-      "vi": "Nhưng ở Mỹ thì khác, vì mình phát hiện ở Mỹ, nhà hàng Tứ Xuyên,"
+      "parts": [
+        {
+          "zh": "可是，在美国就不一样，",
+          "vi": "Nhưng ở Mỹ thì khác,"
+        },
+        {
+          "zh": "因为我发现在美国，",
+          "vi": "vì mình phát hiện ở Mỹ,"
+        },
+        {
+          "zh": "四川restaurant、",
+          "vi": "nhà hàng Tứ Xuyên,"
+        }
+      ]
     },
     "66": {
       "zh": "四川ese food这个东西比比在德国人们知道的更多。",
-      "vi": "đồ ăn Tứ Xuyên (Sichuanese food) được biết đến nhiều hơn so với ở Đức."
+      "parts": [
+        {
+          "zh": "四川ese food这个东西",
+          "vi": "đồ ăn Tứ Xuyên (Sichuanese food)"
+        },
+        {
+          "zh": "比比在德国人们知道的更多。",
+          "vi": "được biết đến nhiều hơn so với ở Đức."
+        }
+      ]
     },
     "67": {
       "zh": "所以说，我在美国有的时候说四川，他们知道啊，I know四川ese food。",
-      "vi": "Nên ở Mỹ có khi mình nói Tứ Xuyên, họ biết đấy: à, I know, Sichuanese food."
+      "parts": [
+        {
+          "zh": "所以说，我在美国有的时候说四川，",
+          "vi": "Nên ở Mỹ có khi mình nói Tứ Xuyên,"
+        },
+        {
+          "zh": "他们知道啊，",
+          "vi": "họ biết đấy:"
+        },
+        {
+          "zh": "I know四川ese food。",
+          "vi": "à, I know, Sichuanese food."
+        }
+      ]
     },
     "68": {
       "zh": "嗯，但其实成都现在越来越国际化。",
@@ -268,27 +818,145 @@
     },
     "69": {
       "zh": "我觉得在中国的一票所有的大城市里面，成都算是比较成长的比较快，然后也比较国际化的。",
-      "vi": "Mình thấy trong cả loạt thành phố lớn của Trung Quốc, Thành Đô là nơi phát triển khá nhanh, và cũng khá quốc tế."
+      "parts": [
+        {
+          "zh": "我觉得在中国的",
+          "vi": "Mình thấy trong"
+        },
+        {
+          "zh": "一票所有的大城市里面，",
+          "vi": "cả loạt thành phố lớn của Trung Quốc,"
+        },
+        {
+          "zh": "成都算是比较成长的比较快，",
+          "vi": "Thành Đô là nơi phát triển khá nhanh,"
+        },
+        {
+          "zh": "然后也比较国际化的。",
+          "vi": "và cũng khá quốc tế."
+        }
+      ]
     },
     "70": {
       "zh": "因为我之前看到一个数据成都的机场叫天府机场对吧那个是新的还没开始用老的叫双流机场对双流机场其实是中国就是国际航班最多的几个机场某几个机场之一了所以我当时还挺惊讶的就是成都是要把它打造成中国的一个算是西部中部的一个国际航线中转枢纽这么一个这么一个品牌，",
-      "vi": "Vì trước đây mình xem một số liệu, sân bay Thành Đô tên là sân bay Thiên Phủ đúng không, cái đó là sân bay mới, chưa đưa vào dùng, sân bay cũ tên là Song Lưu. Đúng, sân bay Song Lưu thật ra là một trong mấy sân bay có nhiều chuyến bay quốc tế nhất Trung Quốc, nên hồi đó mình khá ngạc nhiên, tức là Thành Đô muốn biến mình thành một đầu mối trung chuyển đường bay quốc tế của miền tây, miền trung Trung Quốc, một kiểu thương hiệu như vậy,"
+      "parts": [
+        {
+          "zh": "因为我之前看到一个数据",
+          "vi": "Vì trước đây mình xem một số liệu,"
+        },
+        {
+          "zh": "成都的机场叫天府机场对吧",
+          "vi": "sân bay Thành Đô tên là Thiên Phủ đúng không,"
+        },
+        {
+          "zh": "那个是新的还没开始用",
+          "vi": "cái đó là sân bay mới, chưa đưa vào dùng,"
+        },
+        {
+          "zh": "老的叫双流机场",
+          "vi": "sân bay cũ tên là Song Lưu."
+        },
+        {
+          "zh": "对双流机场其实是中国",
+          "vi": "Đúng, sân bay Song Lưu thật ra là, ở Trung Quốc,"
+        },
+        {
+          "zh": "就是国际航班最多的几个机场",
+          "vi": "mấy sân bay có nhiều chuyến bay quốc tế nhất,"
+        },
+        {
+          "zh": "某几个机场之一了",
+          "vi": "nó là một trong số đó rồi."
+        },
+        {
+          "zh": "所以我当时还挺惊讶的",
+          "vi": "Nên hồi đó mình khá ngạc nhiên,"
+        },
+        {
+          "zh": "就是成都是要把它打造成",
+          "vi": "tức là Thành Đô muốn biến mình thành"
+        },
+        {
+          "zh": "中国的一个算是西部中部的",
+          "vi": "một… kiểu của miền tây, miền trung Trung Quốc,"
+        },
+        {
+          "zh": "一个国际航线中转枢纽",
+          "vi": "một đầu mối trung chuyển đường bay quốc tế,"
+        },
+        {
+          "zh": "这么一个这么一个品牌，",
+          "vi": "một kiểu thương hiệu như vậy,"
+        }
+      ]
     },
     "73": {
       "zh": "对，因为本来它就是西边嘛，然后西边可以算是差不多最大的城市，所以有的比如说往欧洲、",
-      "vi": "Đúng, vì vốn nó ở phía tây mà, có thể coi là thành phố gần như lớn nhất phía tây, nên có khi ví dụ bay sang châu Âu,"
+      "parts": [
+        {
+          "zh": "对，因为本来它就是西边嘛，",
+          "vi": "Đúng, vì vốn nó ở phía tây mà,"
+        },
+        {
+          "zh": "然后西边可以算是",
+          "vi": "rồi ở phía tây có thể coi là"
+        },
+        {
+          "zh": "差不多最大的城市，",
+          "vi": "thành phố gần như lớn nhất,"
+        },
+        {
+          "zh": "所以有的比如说往欧洲、",
+          "vi": "nên có khi ví dụ bay sang châu Âu,"
+        }
+      ]
     },
     "74": {
       "zh": "往西飞啊，从成都飞可能比较方便一点。",
-      "vi": "bay về phía tây, bay từ Thành Đô có thể tiện hơn một chút."
+      "parts": [
+        {
+          "zh": "往西飞啊，",
+          "vi": "bay về phía tây,"
+        },
+        {
+          "zh": "从成都飞可能比较方便一点。",
+          "vi": "bay từ Thành Đô có thể tiện hơn một chút."
+        }
+      ]
     },
     "75": {
       "zh": "对，而且上一次我去成都其实是因为什么呢？",
-      "vi": "Đúng, mà lần trước mình đến Thành Đô thật ra là vì sao?"
+      "parts": [
+        {
+          "zh": "对，而且上一次我去成都",
+          "vi": "Đúng, mà lần trước mình đến Thành Đô"
+        },
+        {
+          "zh": "其实是因为什么呢？",
+          "vi": "thật ra là vì sao?"
+        }
+      ]
     },
     "76": {
       "zh": "是因为我有一个外国的同学，呃，他是丹麦人，是我在牛津的同班同学，他其实在成都学习中文。",
-      "vi": "Là vì mình có một bạn học người nước ngoài, ờ, anh ấy là người Đan Mạch, bạn cùng lớp của mình ở Oxford, anh ấy học tiếng Trung ở Thành Đô."
+      "parts": [
+        {
+          "zh": "是因为我有一个外国的同学，",
+          "vi": "Là vì mình có một bạn học người nước ngoài,"
+        },
+        {
+          "zh": "呃，他是丹麦人，",
+          "vi": "ờ, anh ấy là người Đan Mạch,"
+        },
+        {
+          "zh": "是我在牛津的同班同学，",
+          "vi": "bạn cùng lớp của mình ở Oxford,"
+        },
+        {
+          "zh": "他其实在成都学习中文。",
+          "vi": "anh ấy học tiếng Trung ở Thành Đô."
+        }
+      ]
     },
     "77": {
       "zh": "一年在川大吗？",
@@ -300,27 +968,93 @@
     },
     "79": {
       "zh": "OK，但我为了去看他，然后呢，我去了成都，所以可能是因为圈子，",
-      "vi": "OK, mình đến Thành Đô để thăm anh ấy, nên có lẽ vì vòng bạn bè,"
+      "parts": [
+        {
+          "zh": "OK，但我为了去看他，",
+          "vi": "OK, mình đi thăm anh ấy,"
+        },
+        {
+          "zh": "然后呢，我去了成都，",
+          "vi": "thế là mình đến Thành Đô,"
+        },
+        {
+          "zh": "所以可能是因为圈子，",
+          "vi": "nên có lẽ là do vòng bạn bè,"
+        }
+      ]
     },
     "80": {
       "zh": "他就是给我介绍了很多在成都留学的呃外国人，所以我当时就觉得哇，",
-      "vi": "anh ấy giới thiệu cho mình rất nhiều người nước ngoài đang du học ở Thành Đô, nên hồi đó mình thấy: oa,"
+      "parts": [
+        {
+          "zh": "他就是给我介绍了很多",
+          "vi": "anh ấy giới thiệu cho mình rất nhiều"
+        },
+        {
+          "zh": "在成都留学的呃外国人，",
+          "vi": "người nước ngoài, ờ, đang du học ở Thành Đô,"
+        },
+        {
+          "zh": "所以我当时就觉得哇，",
+          "vi": "nên hồi đó mình thấy: oa,"
+        }
+      ]
     },
     "81": {
       "zh": "成都的国际化程度真的和上海差不多，给我的感觉是。",
-      "vi": "mức độ quốc tế hóa của Thành Đô thật sự chẳng kém Thượng Hải, mình có cảm giác vậy."
+      "parts": [
+        {
+          "zh": "成都的国际化程度",
+          "vi": "mức độ quốc tế hóa của Thành Đô"
+        },
+        {
+          "zh": "真的和上海差不多，给我的感觉是。",
+          "vi": "thật sự chẳng kém Thượng Hải, mình có cảm giác vậy."
+        }
+      ]
     },
     "82": {
       "zh": "可是我在成都，我怎么觉得不怎么能见得到外国人？",
-      "vi": "Nhưng mình ở Thành Đô, sao mình thấy chẳng mấy khi gặp người nước ngoài?"
+      "parts": [
+        {
+          "zh": "可是我在成都，",
+          "vi": "Nhưng mình ở Thành Đô,"
+        },
+        {
+          "zh": "我怎么觉得不怎么能见得到外国人？",
+          "vi": "sao mình thấy chẳng mấy khi gặp người nước ngoài?"
+        }
+      ]
     },
     "83": {
       "zh": "我觉得真正比起来肯定还是没有上海、北京。",
-      "vi": "Mình thấy so thật ra thì chắc chắn vẫn không bằng Thượng Hải, Bắc Kinh,"
+      "parts": [
+        {
+          "zh": "我觉得真正比起来",
+          "vi": "Mình thấy so thật ra"
+        },
+        {
+          "zh": "肯定还是没有上海、北京。",
+          "vi": "thì chắc chắn vẫn không bằng Thượng Hải, Bắc Kinh,"
+        }
+      ]
     },
     "84": {
       "zh": "外国人那么多，不过也有可能这几年你是什么时候去的？",
-      "vi": "người nước ngoài không nhiều bằng, nhưng cũng có thể mấy năm nay… cậu đi hồi nào?"
+      "parts": [
+        {
+          "zh": "外国人那么多，",
+          "vi": "người nước ngoài không nhiều bằng,"
+        },
+        {
+          "zh": "不过也有可能这几年",
+          "vi": "nhưng cũng có thể mấy năm nay…"
+        },
+        {
+          "zh": "你是什么时候去的？",
+          "vi": "cậu đi hồi nào?"
+        }
+      ]
     },
     "85": {
       "zh": "我是二零一六年吧。",
@@ -328,7 +1062,20 @@
     },
     "86": {
       "zh": "啊，那那那那个时候我也还在，嗯，可能这几年我不知道会不会有不一样，",
-      "vi": "À, hồi… hồi đó mình vẫn còn ở đó, ừm, có lẽ mấy năm nay không biết có khác đi không,"
+      "parts": [
+        {
+          "zh": "啊，那那那那个时候我也还在，",
+          "vi": "À, hồi… hồi đó mình vẫn còn ở đó,"
+        },
+        {
+          "zh": "嗯，可能这几年",
+          "vi": "ừm, có lẽ mấy năm nay"
+        },
+        {
+          "zh": "我不知道会不会有不一样，",
+          "vi": "không biết có khác đi không,"
+        }
+      ]
     },
     "87": {
       "zh": "因为我这几年都在国外。",
@@ -336,15 +1083,46 @@
     },
     "88": {
       "zh": "可是总的来说，肯定还是比不上北京、上海。",
-      "vi": "Nhưng nói chung chắc chắn vẫn không bằng Bắc Kinh, Thượng Hải."
+      "parts": [
+        {
+          "zh": "可是总的来说，",
+          "vi": "Nhưng nói chung,"
+        },
+        {
+          "zh": "肯定还是比不上北京、上海。",
+          "vi": "chắc chắn vẫn không bằng Bắc Kinh, Thượng Hải."
+        }
+      ]
     },
     "89": {
       "zh": "对，对，但至少我觉得可能是中国第四、第五大比较国际化的城市。",
-      "vi": "Đúng, đúng, nhưng ít ra mình thấy có thể là thành phố quốc tế hóa thứ tư, thứ năm của Trung Quốc."
+      "parts": [
+        {
+          "zh": "对，对，但至少我觉得",
+          "vi": "Đúng, đúng, nhưng ít ra mình thấy"
+        },
+        {
+          "zh": "可能是中国第四、第五大",
+          "vi": "có thể là thành phố thứ tư, thứ năm của Trung Quốc"
+        },
+        {
+          "zh": "比较国际化的城市。",
+          "vi": "về độ quốc tế hóa."
+        }
+      ]
     },
     "90": {
       "zh": "可能是吧，因为本来不就是说北上广深。",
-      "vi": "Có thể vậy, vì vốn người ta chẳng nói \"Bắc – Thượng – Quảng – Thâm\" (北上广深) đó sao."
+      "parts": [
+        {
+          "zh": "可能是吧，",
+          "vi": "Có thể vậy,"
+        },
+        {
+          "zh": "因为本来不就是说北上广深。",
+          "vi": "vì vốn người ta chẳng nói \"Bắc – Thượng – Quảng – Thâm\" (北上广深) đó sao."
+        }
+      ]
     },
     "91": {
       "zh": "这四个城市之外，可能也就成都了吗？",
@@ -352,11 +1130,37 @@
     },
     "92": {
       "zh": "现在，嗯，哎，我忽然想到一件比较好笑的事情，关于成都啊，",
-      "vi": "Giờ, ừm, ơ, mình chợt nhớ ra một chuyện khá buồn cười về Thành Đô,"
+      "parts": [
+        {
+          "zh": "现在，嗯，哎，",
+          "vi": "Giờ, ừm, ơ,"
+        },
+        {
+          "zh": "我忽然想到一件比较好笑的事情，",
+          "vi": "mình chợt nhớ ra một chuyện khá buồn cười"
+        },
+        {
+          "zh": "关于成都啊，",
+          "vi": "về Thành Đô,"
+        }
+      ]
     },
     "93": {
       "zh": "就是我刚才说到的这个丹麦朋友，他在学中文，但是呢，当时他的中文虽然讲的还不错，",
-      "vi": "là anh bạn Đan Mạch mình vừa nói, anh ấy đang học tiếng Trung, nhưng mà hồi đó tiếng Trung của anh ấy tuy nói cũng khá,"
+      "parts": [
+        {
+          "zh": "就是我刚才说到的这个丹麦朋友，",
+          "vi": "là anh bạn Đan Mạch mình vừa nói,"
+        },
+        {
+          "zh": "他在学中文，但是呢，",
+          "vi": "anh ấy đang học tiếng Trung, nhưng mà,"
+        },
+        {
+          "zh": "当时他的中文虽然讲的还不错，",
+          "vi": "hồi đó tiếng Trung của anh ấy tuy nói cũng khá,"
+        }
+      ]
     },
     "94": {
       "zh": "但是发音就一直不太好。",
@@ -368,15 +1172,42 @@
     },
     "96": {
       "zh": "没有没有，他当时想和我说，他要去成都看熊猫。",
-      "vi": "Không không, hồi đó anh ấy muốn nói với mình là anh ấy sẽ đến Thành Đô xem gấu trúc (熊猫)."
+      "parts": [
+        {
+          "zh": "没有没有，他当时想和我说，",
+          "vi": "Không không, hồi đó anh ấy muốn nói với mình"
+        },
+        {
+          "zh": "他要去成都看熊猫。",
+          "vi": "là anh ấy sẽ đến Thành Đô xem gấu trúc (熊猫)."
+        }
+      ]
     },
     "97": {
       "zh": "但是呢，大家学过中文的都知道，中文的这四个音调非常的难。",
-      "vi": "Nhưng mà, ai học tiếng Trung rồi đều biết, bốn thanh điệu của tiếng Trung rất khó."
+      "parts": [
+        {
+          "zh": "但是呢，大家学过中文的都知道，",
+          "vi": "Nhưng mà, ai học tiếng Trung rồi đều biết,"
+        },
+        {
+          "zh": "中文的这四个音调非常的难。",
+          "vi": "bốn thanh điệu của tiếng Trung rất khó."
+        }
+      ]
     },
     "98": {
       "zh": "所以他当时跟我说的是：“我要去四川看胸毛。”",
-      "vi": "Nên hồi đó anh ấy nói với mình là: \"Tôi sẽ đến Tứ Xuyên xem lông ngực (胸毛).\""
+      "parts": [
+        {
+          "zh": "所以他当时跟我说的是：",
+          "vi": "Nên hồi đó anh ấy nói với mình là:"
+        },
+        {
+          "zh": "“我要去四川看胸毛。”",
+          "vi": "\"Tôi sẽ đến Tứ Xuyên xem lông ngực (胸毛).\""
+        }
+      ]
     },
     "99": {
       "zh": "胸毛对，但是胸毛是什么呢？",
@@ -392,7 +1223,16 @@
     },
     "102": {
       "zh": "然后我就就是把熊猫发音成胸毛，然后我就说：“哎，",
-      "vi": "rồi anh ấy phát âm 熊猫 thành 胸毛, rồi mình mới nói: \"Ơ,"
+      "parts": [
+        {
+          "zh": "然后我就就是把熊猫发音成胸毛，",
+          "vi": "rồi anh ấy phát âm 熊猫 thành 胸毛,"
+        },
+        {
+          "zh": "然后我就说：“哎，",
+          "vi": "rồi mình mới nói: \"Ơ,"
+        }
+      ]
     },
     "103": {
       "zh": "你是去四川看胸毛？”",
@@ -400,19 +1240,71 @@
     },
     "104": {
       "zh": "我觉得这个要看他到底当时是怎么说的。",
-      "vi": "Mình thấy cái này phải xem lúc đó rốt cuộc anh ấy nói thế nào."
+      "parts": [
+        {
+          "zh": "我觉得这个要看他",
+          "vi": "Mình thấy cái này phải xem"
+        },
+        {
+          "zh": "到底当时是怎么说的。",
+          "vi": "lúc đó rốt cuộc anh ấy nói thế nào."
+        }
+      ]
     },
     "105": {
       "zh": "如果是以那种普通的标准外国人中文，就是不分音调的，那可能听起来还觉得不会很奇怪。",
-      "vi": "Nếu là kiểu tiếng Trung chuẩn của người nước ngoài bình thường, không phân thanh điệu, thì có khi nghe cũng không thấy lạ lắm."
+      "parts": [
+        {
+          "zh": "如果是以那种",
+          "vi": "Nếu là kiểu"
+        },
+        {
+          "zh": "普通的标准外国人中文，",
+          "vi": "tiếng Trung chuẩn của người nước ngoài bình thường,"
+        },
+        {
+          "zh": "就是不分音调的，",
+          "vi": "không phân thanh điệu,"
+        },
+        {
+          "zh": "那可能听起来还觉得不会很奇怪。",
+          "vi": "thì có khi nghe cũng không thấy lạ lắm."
+        }
+      ]
     },
     "106": {
       "zh": "比如说“我要去成都看熊猫”，就是我觉得是种外国人中文这种发音。",
-      "vi": "Ví dụ \"Tôi sẽ đến Thành Đô xem gấu trúc\", mình thấy kiểu phát âm tiếng Trung của người nước ngoài."
+      "parts": [
+        {
+          "zh": "比如说“我要去成都看熊猫”，",
+          "vi": "Ví dụ \"Tôi sẽ đến Thành Đô xem gấu trúc\","
+        },
+        {
+          "zh": "就是我觉得是种",
+          "vi": "mình thấy đó là kiểu"
+        },
+        {
+          "zh": "外国人中文这种发音。",
+          "vi": "phát âm tiếng Trung của người nước ngoài."
+        }
+      ]
     },
     "107": {
       "zh": "可是如果是他是那种一本正经的在发啊啊啊啊那样，那那那是有点好玩。",
-      "vi": "Nhưng nếu anh ấy nghiêm túc phát âm kiểu \"a a a a\" như vậy, thì… thì… thì mới hơi buồn cười."
+      "parts": [
+        {
+          "zh": "可是如果是他是那种一本正经的",
+          "vi": "Nhưng nếu anh ấy nghiêm túc"
+        },
+        {
+          "zh": "在发啊啊啊啊那样，",
+          "vi": "phát âm kiểu \"a a a a\" như vậy,"
+        },
+        {
+          "zh": "那那那是有点好玩。",
+          "vi": "thì… thì… thì mới hơi buồn cười."
+        }
+      ]
     },
     "108": {
       "zh": "对对，",
@@ -420,15 +1312,54 @@
     },
     "109": {
       "zh": "但是anyways就是说，呃，还有另外两个事情给我印象很深的，在成都。",
-      "vi": "Nhưng anyways, ờ, còn hai chuyện khác ở Thành Đô làm mình ấn tượng sâu sắc."
+      "parts": [
+        {
+          "zh": "但是anyways就是说，呃，",
+          "vi": "Nhưng anyways, ờ,"
+        },
+        {
+          "zh": "还有另外两个事情给我印象很深的，",
+          "vi": "còn hai chuyện khác làm mình ấn tượng sâu sắc,"
+        },
+        {
+          "zh": "在成都。",
+          "vi": "ở Thành Đô."
+        }
+      ]
     },
     "110": {
       "zh": "就是我第一次在成都吃真正的四川火锅。",
-      "vi": "Là lần đầu tiên mình ăn lẩu Tứ Xuyên thứ thiệt ở Thành Đô."
+      "parts": [
+        {
+          "zh": "就是我第一次在成都",
+          "vi": "Là lần đầu tiên mình ở Thành Đô"
+        },
+        {
+          "zh": "吃真正的四川火锅。",
+          "vi": "ăn lẩu Tứ Xuyên thứ thiệt."
+        }
+      ]
     },
     "111": {
       "zh": "嗯，我是一个上海人，我在北京或者或者上海吃火锅都是用麻酱，或者麻酱其实就是芝麻酱。",
-      "vi": "Ừm, mình là người Thượng Hải, mình ăn lẩu ở Bắc Kinh hay… hay Thượng Hải đều chấm tương vừng, 麻酱 thật ra chính là 芝麻酱 (tương vừng)."
+      "parts": [
+        {
+          "zh": "嗯，我是一个上海人，",
+          "vi": "Ừm, mình là người Thượng Hải,"
+        },
+        {
+          "zh": "我在北京或者或者上海吃火锅",
+          "vi": "mình ăn lẩu ở Bắc Kinh hay… hay Thượng Hải"
+        },
+        {
+          "zh": "都是用麻酱，",
+          "vi": "đều chấm 麻酱,"
+        },
+        {
+          "zh": "或者麻酱其实就是芝麻酱。",
+          "vi": "mà 麻酱 thật ra chính là 芝麻酱 (tương vừng)."
+        }
+      ]
     },
     "112": {
       "zh": "芝麻酱上海的话呢是用酱油一般。",
@@ -464,7 +1395,20 @@
     },
     "120": {
       "zh": "对，很淡的，然后甜的比较鲜的一种酱油，然后里面会放一些葱姜蒜之类的。",
-      "vi": "Đúng, rất nhạt, lại ngọt, là một loại xì dầu khá đậm vị ngọt thanh, rồi trong đó cho ít hành gừng tỏi các thứ."
+      "parts": [
+        {
+          "zh": "对，很淡的，",
+          "vi": "Đúng, rất nhạt,"
+        },
+        {
+          "zh": "然后甜的比较鲜的一种酱油，",
+          "vi": "lại là một loại xì dầu ngọt, khá đậm vị,"
+        },
+        {
+          "zh": "然后里面会放一些葱姜蒜之类的。",
+          "vi": "rồi trong đó cho ít hành gừng tỏi các thứ."
+        }
+      ]
     },
     "121": {
       "zh": "那不就是吃蒸鱼蘸的那玩意儿？",
@@ -484,7 +1428,20 @@
     },
     "125": {
       "zh": "我我第一次知道，所以说你们涮涮东西，比如说涮个肉片什么的，",
-      "vi": "Mình… lần đầu mình biết đấy, vậy là các cậu nhúng đồ ăn, ví dụ nhúng mấy lát thịt các thứ,"
+      "parts": [
+        {
+          "zh": "我我第一次知道，",
+          "vi": "Mình… lần đầu mình biết đấy,"
+        },
+        {
+          "zh": "所以说你们涮涮东西，",
+          "vi": "vậy là các cậu nhúng đồ ăn,"
+        },
+        {
+          "zh": "比如说涮个肉片什么的，",
+          "vi": "ví dụ nhúng mấy lát thịt các thứ,"
+        }
+      ]
     },
     "126": {
       "zh": "也蘸那个。",
@@ -492,7 +1449,20 @@
     },
     "127": {
       "zh": "对，就比如说你去上海吃呃一个，比如说小的小锅的一些火锅，然后上海人吃的一般比较清淡。",
-      "vi": "Đúng, ví dụ cậu đến Thượng Hải ăn, ờ, một… ví dụ mấy kiểu lẩu nồi nhỏ, người Thượng Hải thường ăn khá thanh đạm."
+      "parts": [
+        {
+          "zh": "对，就比如说你去上海吃呃一个，",
+          "vi": "Đúng, ví dụ cậu đến Thượng Hải ăn, ờ, một…"
+        },
+        {
+          "zh": "比如说小的小锅的一些火锅，",
+          "vi": "ví dụ mấy kiểu lẩu nồi nhỏ,"
+        },
+        {
+          "zh": "然后上海人吃的一般比较清淡。",
+          "vi": "người Thượng Hải thường ăn khá thanh đạm."
+        }
+      ]
     },
     "128": {
       "zh": "也不怎么吃辣的火锅锅底，",
@@ -512,27 +1482,97 @@
     },
     "132": {
       "zh": "OK，嗯，然后你可以想象我第一次去四川看到油碟，来，Cameron，",
-      "vi": "OK, ừm, vậy cậu có thể tưởng tượng lần đầu mình đến Tứ Xuyên thấy chén dầu chấm (油碟). Nào, Cameron,"
+      "parts": [
+        {
+          "zh": "OK，嗯，然后你可以想象",
+          "vi": "OK, ừm, vậy cậu có thể tưởng tượng"
+        },
+        {
+          "zh": "我第一次去四川看到油碟，来，Cameron，",
+          "vi": "lần đầu mình đến Tứ Xuyên thấy chén dầu chấm (油碟). Nào, Cameron,"
+        }
+      ]
     },
     "133": {
       "zh": "你可以给大家介绍一下什么是油碟吗？",
-      "vi": "cậu giới thiệu cho mọi người 油碟 là gì được không?"
+      "parts": [
+        {
+          "zh": "你可以给大家介绍一下",
+          "vi": "cậu giới thiệu cho mọi người"
+        },
+        {
+          "zh": "什么是油碟吗？",
+          "vi": "油碟 là gì được không?"
+        }
+      ]
     },
     "134": {
       "zh": "油碟就是一个碟子里面全都是油，然后这个油其实就是芝麻油、香油，我们四川话叫香油，然后。",
-      "vi": "油碟 là một cái đĩa nhỏ toàn dầu, dầu này thật ra là dầu vừng, 香油, tiếng Tứ Xuyên bọn mình gọi là 香油, rồi."
+      "parts": [
+        {
+          "zh": "油碟就是一个碟子里面全都是油，",
+          "vi": "油碟 là một cái đĩa nhỏ toàn dầu,"
+        },
+        {
+          "zh": "然后这个油其实就是芝麻油、香油，",
+          "vi": "dầu này thật ra là dầu vừng, 香油,"
+        },
+        {
+          "zh": "我们四川话叫香油，然后。",
+          "vi": "tiếng Tứ Xuyên bọn mình gọi là 香油, rồi."
+        }
+      ]
     },
     "135": {
       "zh": "因为我其实从小就这么吃，所以说我从来不会觉得它有什么问题。",
-      "vi": "Vì mình ăn thế từ nhỏ, nên mình chưa bao giờ thấy có vấn đề gì."
+      "parts": [
+        {
+          "zh": "因为我其实从小就这么吃，",
+          "vi": "Vì thật ra mình ăn thế từ nhỏ,"
+        },
+        {
+          "zh": "所以说我从来不会觉得",
+          "vi": "nên mình chưa bao giờ thấy"
+        },
+        {
+          "zh": "它有什么问题。",
+          "vi": "nó có vấn đề gì."
+        }
+      ]
     },
     "136": {
       "zh": "可是可能后来想起来会有点奇怪，对，就是把东西泡到芝麻油里然后再吃。",
-      "vi": "Nhưng có lẽ sau này nghĩ lại thì thấy hơi kỳ, đúng, là nhúng đồ ăn vào dầu vừng rồi mới ăn."
+      "parts": [
+        {
+          "zh": "可是可能后来想起来会有点奇怪，",
+          "vi": "Nhưng có lẽ sau này nghĩ lại thì thấy hơi kỳ,"
+        },
+        {
+          "zh": "对，就是把东西泡到芝麻油里",
+          "vi": "đúng, là nhúng đồ ăn vào dầu vừng"
+        },
+        {
+          "zh": "然后再吃。",
+          "vi": "rồi mới ăn."
+        }
+      ]
     },
     "137": {
       "zh": "可是的确那样吃起来，我觉得有两个好处：第一个是吃起来不会那么烫，",
-      "vi": "Nhưng ăn như vậy đúng là mình thấy có hai cái lợi: một là ăn không bị nóng quá,"
+      "parts": [
+        {
+          "zh": "可是的确那样吃起来，",
+          "vi": "Nhưng ăn như vậy đúng là"
+        },
+        {
+          "zh": "我觉得有两个好处：",
+          "vi": "mình thấy có hai cái lợi:"
+        },
+        {
+          "zh": "第一个是吃起来不会那么烫，",
+          "vi": "một là ăn không bị nóng quá,"
+        }
+      ]
     },
     "138": {
       "zh": "然后第二可以减轻一点辣味。",
@@ -540,7 +1580,20 @@
     },
     "139": {
       "zh": "然后而且本来蘸上芝麻油也会比较香一点，所以对我还觉得吃火锅就是应该。",
-      "vi": "Rồi vốn chấm dầu vừng vào cũng thơm hơn, nên đúng, mình vẫn thấy ăn lẩu thì phải"
+      "parts": [
+        {
+          "zh": "然后而且本来蘸上芝麻油",
+          "vi": "Rồi vốn chấm dầu vừng vào"
+        },
+        {
+          "zh": "也会比较香一点，",
+          "vi": "cũng thơm hơn,"
+        },
+        {
+          "zh": "所以对我还觉得吃火锅就是应该。",
+          "vi": "nên đúng, mình vẫn thấy ăn lẩu thì phải"
+        }
+      ]
     },
     "140": {
       "zh": "蘸香油，",
@@ -552,15 +1605,46 @@
     },
     "142": {
       "zh": "但是当时我的想法就是，首先这个火锅很辣，而且锅底已经很油了。",
-      "vi": "Nhưng hồi đó mình nghĩ: thứ nhất lẩu này rất cay, mà nước lẩu đã nhiều dầu lắm rồi."
+      "parts": [
+        {
+          "zh": "但是当时我的想法就是，",
+          "vi": "Nhưng hồi đó mình nghĩ:"
+        },
+        {
+          "zh": "首先这个火锅很辣，",
+          "vi": "thứ nhất lẩu này rất cay,"
+        },
+        {
+          "zh": "而且锅底已经很油了。",
+          "vi": "mà nước lẩu đã nhiều dầu lắm rồi."
+        }
+      ]
     },
     "143": {
       "zh": "然后呢，为了解除这个辣味，还要再刷一层油。",
-      "vi": "Vậy mà để giải cái vị cay đó, lại còn phết thêm một lớp dầu nữa."
+      "parts": [
+        {
+          "zh": "然后呢，为了解除这个辣味，",
+          "vi": "Vậy mà để giải cái vị cay đó,"
+        },
+        {
+          "zh": "还要再刷一层油。",
+          "vi": "lại còn phết thêm một lớp dầu nữa."
+        }
+      ]
     },
     "144": {
       "zh": "所以你还记得你当时吃的是叫什么餐厅吗？",
-      "vi": "Vậy cậu còn nhớ hồi đó cậu ăn ở nhà hàng tên gì không?"
+      "parts": [
+        {
+          "zh": "所以你还记得你当时",
+          "vi": "Vậy cậu còn nhớ hồi đó"
+        },
+        {
+          "zh": "吃的是叫什么餐厅吗？",
+          "vi": "cậu ăn ở nhà hàng tên gì không?"
+        }
+      ]
     },
     "145": {
       "zh": "我不记得了，",
@@ -568,7 +1652,16 @@
     },
     "146": {
       "zh": "但可能就是搜在网上搜到点评比较好的。",
-      "vi": "nhưng chắc là tìm… tìm trên mạng chỗ được đánh giá tốt."
+      "parts": [
+        {
+          "zh": "但可能就是搜在网上",
+          "vi": "nhưng chắc là tìm… tìm trên mạng"
+        },
+        {
+          "zh": "搜到点评比较好的。",
+          "vi": "chỗ được đánh giá tốt."
+        }
+      ]
     },
     "147": {
       "zh": "嗯，后来我还去吃了串串。",
@@ -588,11 +1681,37 @@
     },
     "151": {
       "zh": "对，对，串串香就是他们事先把一些东西串在串子上串好，然后你就去直接拿那一串一串的，",
-      "vi": "Đúng, đúng, 串串香 là người ta xiên sẵn đồ ăn vào que từ trước, rồi cậu cứ thế lấy từng xiên từng xiên,"
+      "parts": [
+        {
+          "zh": "对，对，串串香就是他们事先",
+          "vi": "Đúng, đúng, 串串香 là người ta"
+        },
+        {
+          "zh": "把一些东西串在串子上串好，",
+          "vi": "xiên sẵn đồ ăn vào que từ trước,"
+        },
+        {
+          "zh": "然后你就去直接拿那一串一串的，",
+          "vi": "rồi cậu cứ thế lấy từng xiên từng xiên,"
+        }
+      ]
     },
     "152": {
       "zh": "然后你会有一个像火锅一样的大锅，或者现在也有小锅，你就把那个串串放到锅里去煮，",
-      "vi": "rồi sẽ có một cái nồi to như nồi lẩu, hoặc giờ cũng có nồi nhỏ, cậu thả mấy xiên đó vào nồi nấu,"
+      "parts": [
+        {
+          "zh": "然后你会有一个像火锅一样的大锅，",
+          "vi": "rồi sẽ có một cái nồi to như nồi lẩu,"
+        },
+        {
+          "zh": "或者现在也有小锅，",
+          "vi": "hoặc giờ cũng có nồi nhỏ,"
+        },
+        {
+          "zh": "你就把那个串串放到锅里去煮，",
+          "vi": "cậu thả mấy xiên đó vào nồi nấu,"
+        }
+      ]
     },
     "153": {
       "zh": "然后就吃就好了。",
@@ -600,7 +1719,16 @@
     },
     "154": {
       "zh": "其实串串香和火锅差不多，只是把东西放在了一个串上。",
-      "vi": "Thật ra 串串香 cũng gần giống lẩu, chỉ là đồ ăn được xiên vào que."
+      "parts": [
+        {
+          "zh": "其实串串香和火锅差不多，",
+          "vi": "Thật ra 串串香 cũng gần giống lẩu,"
+        },
+        {
+          "zh": "只是把东西放在了一个串上。",
+          "vi": "chỉ là đồ ăn được xiên vào que."
+        }
+      ]
     },
     "155": {
       "zh": "对，可以这么讲。",
@@ -608,7 +1736,24 @@
     },
     "156": {
       "zh": "但是反正我其实比较少吃串串香，因为我也不知道为什么，我就不太喜欢吃，可能觉得太麻烦了。",
-      "vi": "Nhưng dù sao thật ra mình ít ăn 串串香, vì mình cũng không biết tại sao, mình không thích ăn lắm, có lẽ thấy phiền quá."
+      "parts": [
+        {
+          "zh": "但是反正我其实比较少吃串串香，",
+          "vi": "Nhưng dù sao thật ra mình ít ăn 串串香,"
+        },
+        {
+          "zh": "因为我也不知道为什么，",
+          "vi": "vì mình cũng không biết tại sao,"
+        },
+        {
+          "zh": "我就不太喜欢吃，",
+          "vi": "mình không thích ăn lắm,"
+        },
+        {
+          "zh": "可能觉得太麻烦了。",
+          "vi": "có lẽ thấy phiền quá."
+        }
+      ]
     },
     "157": {
       "zh": "拿那个签子搞得满嘴都是油的，",
@@ -616,7 +1761,16 @@
     },
     "158": {
       "zh": "然后还对对对，那个串的东西叫签子，中文对吧？",
-      "vi": "Rồi còn… đúng đúng đúng, cái que để xiên đồ tiếng Trung gọi là 签子, đúng không?"
+      "parts": [
+        {
+          "zh": "然后还对对对，",
+          "vi": "Rồi còn… đúng đúng đúng,"
+        },
+        {
+          "zh": "那个串的东西叫签子，中文对吧？",
+          "vi": "cái que để xiên tiếng Trung gọi là 签子, đúng không?"
+        }
+      ]
     },
     "159": {
       "zh": "对，",
@@ -628,11 +1782,73 @@
     },
     "161": {
       "zh": "木头的，一般是木头的，而且我不知道现在是怎么样，不过我知道以前他们是要回收用的。",
-      "vi": "Bằng gỗ, thường là bằng gỗ, mà mình không biết giờ thế nào, nhưng mình biết trước đây người ta thu hồi để dùng lại."
+      "parts": [
+        {
+          "zh": "木头的，一般是木头的，",
+          "vi": "Bằng gỗ, thường là bằng gỗ,"
+        },
+        {
+          "zh": "而且我不知道现在是怎么样，",
+          "vi": "mà mình không biết giờ thế nào,"
+        },
+        {
+          "zh": "不过我知道以前他们是要回收用的。",
+          "vi": "nhưng mình biết trước đây người ta thu hồi để dùng lại."
+        }
+      ]
     },
     "162": {
       "zh": "但是其实不回收用其实也挺不环保的对啊就像一次性筷子一样对不过一般那种应该不是原木的应该是拿木头渣子做的签签所以还好对然后第三件事情就是麻将OK这个麻将不是我刚才说的吃火锅蘸的那个麻将是中国的国怎么说呢？",
-      "vi": "Nhưng thật ra không thu hồi dùng lại cũng khá không thân thiện với môi trường. Đúng vậy, giống đũa dùng một lần. Đúng, nhưng thường mấy cái đó chắc không phải gỗ nguyên khối, mà làm bằng vụn gỗ, nên cũng không sao. Đúng, rồi chuyện thứ ba là mạt chược. OK, mạt chược (麻将) này không phải cái 麻酱 (tương vừng) mình vừa nói để chấm lẩu, mạt chược là cái… nói sao nhỉ, cái quốc… của Trung Quốc?"
+      "parts": [
+        {
+          "zh": "但是其实不回收用",
+          "vi": "Nhưng thật ra không thu hồi dùng lại"
+        },
+        {
+          "zh": "其实也挺不环保的",
+          "vi": "thì cũng khá không thân thiện với môi trường."
+        },
+        {
+          "zh": "对啊就像一次性筷子一样",
+          "vi": "Đúng vậy, giống đũa dùng một lần."
+        },
+        {
+          "zh": "对不过一般那种",
+          "vi": "Đúng, nhưng thường mấy cái đó"
+        },
+        {
+          "zh": "应该不是原木的",
+          "vi": "chắc không phải gỗ nguyên khối,"
+        },
+        {
+          "zh": "应该是拿木头渣子做的签签",
+          "vi": "mà là que làm bằng vụn gỗ,"
+        },
+        {
+          "zh": "所以还好对",
+          "vi": "nên cũng không sao. Đúng."
+        },
+        {
+          "zh": "然后第三件事情就是麻将",
+          "vi": "Rồi chuyện thứ ba là mạt chược."
+        },
+        {
+          "zh": "OK这个麻将",
+          "vi": "OK, mạt chược (麻将) này"
+        },
+        {
+          "zh": "不是我刚才说的",
+          "vi": "không phải cái mình vừa nói,"
+        },
+        {
+          "zh": "吃火锅蘸的那个麻将",
+          "vi": "cái 麻酱 (tương vừng) để chấm lẩu,"
+        },
+        {
+          "zh": "是中国的国怎么说呢？",
+          "vi": "mà là cái… nói sao nhỉ, cái quốc… của Trung Quốc?"
+        }
+      ]
     },
     "165": {
       "zh": "国粹，国粹游戏麻将。",
@@ -640,11 +1856,33 @@
     },
     "166": {
       "zh": "但是这个麻将呢，其实其实有很多很多种打法，不一样的方法。",
-      "vi": "Nhưng mạt chược thật ra, thật ra có rất rất nhiều kiểu chơi, nhiều cách khác nhau."
+      "parts": [
+        {
+          "zh": "但是这个麻将呢，",
+          "vi": "Nhưng mạt chược này,"
+        },
+        {
+          "zh": "其实其实有很多很多种打法，",
+          "vi": "thật ra, thật ra có rất rất nhiều kiểu chơi,"
+        },
+        {
+          "zh": "不一样的方法。",
+          "vi": "nhiều cách khác nhau."
+        }
+      ]
     },
     "167": {
       "zh": "那上海的有上海麻将，四川有四川麻将。",
-      "vi": "Thượng Hải có mạt chược Thượng Hải, Tứ Xuyên có mạt chược Tứ Xuyên."
+      "parts": [
+        {
+          "zh": "那上海的有上海麻将，",
+          "vi": "Thượng Hải có mạt chược Thượng Hải,"
+        },
+        {
+          "zh": "四川有四川麻将。",
+          "vi": "Tứ Xuyên có mạt chược Tứ Xuyên."
+        }
+      ]
     },
     "168": {
       "zh": "但是四川人特别喜欢打麻将，对吧？",
@@ -672,15 +1910,58 @@
     },
     "174": {
       "zh": "的确，可能是有点惊讶，在这种耳濡目染的这种环境里面来长大，我还不会。",
-      "vi": "Đúng là có hơi đáng ngạc nhiên, lớn lên trong môi trường tai nghe mắt thấy như thế mà mình vẫn không biết."
+      "parts": [
+        {
+          "zh": "的确，可能是有点惊讶，",
+          "vi": "Đúng là có hơi đáng ngạc nhiên,"
+        },
+        {
+          "zh": "在这种耳濡目染的",
+          "vi": "lớn lên trong môi trường"
+        },
+        {
+          "zh": "这种环境里面来长大，",
+          "vi": "tai nghe mắt thấy như thế,"
+        },
+        {
+          "zh": "我还不会。",
+          "vi": "mà mình vẫn không biết."
+        }
+      ]
     },
     "175": {
       "zh": "我跟你讲一个事情：以前初中的时候，我们同学他们就有买那种小麻将，你知道，",
-      "vi": "Mình kể cậu nghe một chuyện: hồi cấp hai, bạn cùng lớp mình mua kiểu bộ mạt chược mini, cậu biết đấy,"
+      "parts": [
+        {
+          "zh": "我跟你讲一个事情：",
+          "vi": "Mình kể cậu nghe một chuyện:"
+        },
+        {
+          "zh": "以前初中的时候，",
+          "vi": "hồi cấp hai,"
+        },
+        {
+          "zh": "我们同学他们",
+          "vi": "bạn cùng lớp mình"
+        },
+        {
+          "zh": "就有买那种小麻将，你知道，",
+          "vi": "mua kiểu bộ mạt chược mini, cậu biết đấy,"
+        }
+      ]
     },
     "176": {
       "zh": "每个麻将是指甲盖儿那种大小的，然后就我们拿到班上去打。",
-      "vi": "mỗi quân mạt chược chỉ to bằng móng tay, rồi bọn mình mang lên lớp đánh."
+      "parts": [
+        {
+          "zh": "每个麻将是指甲盖儿那种大小的，",
+          "vi": "mỗi quân chỉ to bằng móng tay,"
+        },
+        {
+          "zh": "然后就我们拿到班上去打。",
+          "vi": "rồi bọn mình mang lên lớp đánh."
+        }
+      ]
     },
     "177": {
       "zh": "对，因为因为我在成都旅游的时候。",
@@ -688,7 +1969,20 @@
     },
     "178": {
       "zh": "我走在街上，可能每过五十米就可以看到一个麻将馆。",
-      "vi": "mình đi trên phố, có khi cứ 50 mét là thấy một quán mạt chược."
+      "parts": [
+        {
+          "zh": "我走在街上，",
+          "vi": "mình đi trên phố,"
+        },
+        {
+          "zh": "可能每过五十米",
+          "vi": "có khi cứ 50 mét"
+        },
+        {
+          "zh": "就可以看到一个麻将馆。",
+          "vi": "là thấy một quán mạt chược."
+        }
+      ]
     },
     "179": {
       "zh": "麻将馆或者茶馆，",
@@ -696,7 +1990,16 @@
     },
     "180": {
       "zh": "一般在茶馆是喝茶顺带打麻将也可以。",
-      "vi": "Thường ở quán trà thì uống trà, tiện thể đánh mạt chược cũng được."
+      "parts": [
+        {
+          "zh": "一般在茶馆是喝茶",
+          "vi": "Thường ở quán trà thì uống trà,"
+        },
+        {
+          "zh": "顺带打麻将也可以。",
+          "vi": "tiện thể đánh mạt chược cũng được."
+        }
+      ]
     },
     "181": {
       "zh": "对，是的。",
@@ -704,11 +2007,45 @@
     },
     "182": {
       "zh": "然后特别有意思的是，我因为我是去跟这个丹麦的外国朋友，然后呢，",
-      "vi": "Rồi điều đặc biệt thú vị là, mình vì mình đi cùng anh bạn người Đan Mạch này, rồi thì,"
+      "parts": [
+        {
+          "zh": "然后特别有意思的是，",
+          "vi": "Rồi điều đặc biệt thú vị là,"
+        },
+        {
+          "zh": "我因为我是去跟这个",
+          "vi": "mình vì mình đi cùng anh bạn"
+        },
+        {
+          "zh": "丹麦的外国朋友，",
+          "vi": "người nước ngoài, người Đan Mạch này,"
+        },
+        {
+          "zh": "然后呢，",
+          "vi": "rồi thì,"
+        }
+      ]
     },
     "183": {
       "zh": "他叫了另外两个外国人，三个外国人和我一个中国人，我们四个人打麻将，但他们其实都会打。",
-      "vi": "anh ấy rủ thêm hai người nước ngoài nữa, ba người nước ngoài và một mình mình là người Trung Quốc, bốn người bọn mình đánh mạt chược, mà thật ra họ đều biết đánh."
+      "parts": [
+        {
+          "zh": "他叫了另外两个外国人，",
+          "vi": "anh ấy rủ thêm hai người nước ngoài nữa,"
+        },
+        {
+          "zh": "三个外国人和我一个中国人，",
+          "vi": "ba người nước ngoài và một mình mình là người Trung Quốc,"
+        },
+        {
+          "zh": "我们四个人打麻将，",
+          "vi": "bốn người bọn mình đánh mạt chược,"
+        },
+        {
+          "zh": "但他们其实都会打。",
+          "vi": "mà thật ra họ đều biết đánh."
+        }
+      ]
     },
     "184": {
       "zh": "但是比较搞笑的一件事情是什么呢？",
@@ -716,7 +2053,20 @@
     },
     "185": {
       "zh": "就是他们学中文的时候没有学认字，因为他们只学了发音和说话，所以他们看不懂一万、",
-      "vi": "Là lúc học tiếng Trung họ không học chữ, vì họ chỉ học phát âm và nói, nên họ không đọc được Nhất Vạn,"
+      "parts": [
+        {
+          "zh": "就是他们学中文的时候没有学认字，",
+          "vi": "Là lúc học tiếng Trung họ không học chữ,"
+        },
+        {
+          "zh": "因为他们只学了发音和说话，",
+          "vi": "vì họ chỉ học phát âm và nói,"
+        },
+        {
+          "zh": "所以他们看不懂一万、",
+          "vi": "nên họ không đọc được Nhất Vạn,"
+        }
+      ]
     },
     "186": {
       "zh": "二万、三万到九万。",
@@ -724,15 +2074,50 @@
     },
     "187": {
       "zh": "可是，一二三四五六七八九这个数字还是比较简单的吧？",
-      "vi": "Nhưng mà một hai ba bốn năm sáu bảy tám chín mấy chữ số này vẫn khá đơn giản chứ?"
+      "parts": [
+        {
+          "zh": "可是，一二三四五六七八九",
+          "vi": "Nhưng mà một hai ba bốn năm sáu bảy tám chín,"
+        },
+        {
+          "zh": "这个数字还是比较简单的吧？",
+          "vi": "mấy chữ số này vẫn khá đơn giản chứ?"
+        }
+      ]
     },
     "188": {
       "zh": "虽然很简单，但是如果你从来没有学过，然后你去打麻将的时候。",
-      "vi": "Tuy rất đơn giản, nhưng nếu cậu chưa từng học, rồi lúc cậu đánh mạt chược,"
+      "parts": [
+        {
+          "zh": "虽然很简单，",
+          "vi": "Tuy rất đơn giản,"
+        },
+        {
+          "zh": "但是如果你从来没有学过，",
+          "vi": "nhưng nếu cậu chưa từng học,"
+        },
+        {
+          "zh": "然后你去打麻将的时候。",
+          "vi": "rồi lúc cậu đánh mạt chược,"
+        }
+      ]
     },
     "189": {
       "zh": "他们就会拿一张表在手机上，然后每次摸到一张牌，他们就要对着表去看。",
-      "vi": "họ sẽ để một cái bảng trên điện thoại, rồi mỗi lần bốc được một quân, họ lại phải dò theo bảng mà xem:"
+      "parts": [
+        {
+          "zh": "他们就会拿一张表在手机上，",
+          "vi": "họ sẽ để một cái bảng trên điện thoại,"
+        },
+        {
+          "zh": "然后每次摸到一张牌，",
+          "vi": "rồi mỗi lần bốc được một quân,"
+        },
+        {
+          "zh": "他们就要对着表去看。",
+          "vi": "họ lại phải dò theo bảng mà xem:"
+        }
+      ]
     },
     "190": {
       "zh": "哎，这个是数字几？",
@@ -744,7 +2129,16 @@
     },
     "192": {
       "zh": "就要哎，等一下我看一下这个是什么，然后再来想一下怎么样可以胡牌。",
-      "vi": "Kiểu: ơ, đợi chút để mình xem con này là gì, rồi mới nghĩ xem làm sao để ù."
+      "parts": [
+        {
+          "zh": "就要哎，等一下我看一下这个是什么，",
+          "vi": "Kiểu: ơ, đợi chút để mình xem con này là gì,"
+        },
+        {
+          "zh": "然后再来想一下怎么样可以胡牌。",
+          "vi": "rồi mới nghĩ xem làm sao để ù."
+        }
+      ]
     },
     "193": {
       "zh": "对，非常慢。",
@@ -756,7 +2150,24 @@
     },
     "195": {
       "zh": "可能有很多听我们podcast的呃这个外国朋友都不知道麻将具体是怎么玩的。",
-      "vi": "có lẽ nhiều bạn nước ngoài nghe podcast của bọn mình không biết mạt chược cụ thể chơi thế nào."
+      "parts": [
+        {
+          "zh": "可能有很多听我们",
+          "vi": "có lẽ nhiều"
+        },
+        {
+          "zh": "podcast的",
+          "vi": "bạn nghe podcast"
+        },
+        {
+          "zh": "呃这个外国朋友",
+          "vi": "ờ, người nước ngoài, của bọn mình"
+        },
+        {
+          "zh": "都不知道麻将具体是怎么玩的。",
+          "vi": "không biết mạt chược cụ thể chơi thế nào."
+        }
+      ]
     },
     "196": {
       "zh": "我其实也不知道，因为我也不会打。",
@@ -768,15 +2179,46 @@
     },
     "198": {
       "zh": "有四个人坐在一个桌子上，然后就会有这种麻将的小方块，然后你就像打扑克牌一样，",
-      "vi": "Có bốn người ngồi quanh một cái bàn, rồi sẽ có mấy khối vuông nhỏ của mạt chược, rồi cậu giống như đánh bài tây,"
+      "parts": [
+        {
+          "zh": "有四个人坐在一个桌子上，",
+          "vi": "Có bốn người ngồi quanh một cái bàn,"
+        },
+        {
+          "zh": "然后就会有这种麻将的小方块，",
+          "vi": "rồi sẽ có mấy khối vuông nhỏ của mạt chược,"
+        },
+        {
+          "zh": "然后你就像打扑克牌一样，",
+          "vi": "rồi cậu giống như đánh bài tây,"
+        }
+      ]
     },
     "199": {
       "zh": "你在你这你的这边会有一副牌，这种牌就是各种各样小方块，",
-      "vi": "phía cậu sẽ có một bộ bài, bài này là đủ loại khối vuông nhỏ,"
+      "parts": [
+        {
+          "zh": "你在你这你的这边会有一副牌，",
+          "vi": "phía cậu sẽ có một bộ bài,"
+        },
+        {
+          "zh": "这种牌就是各种各样小方块，",
+          "vi": "bài này là đủ loại khối vuông nhỏ,"
+        }
+      ]
     },
     "200": {
       "zh": "然后你就要用各种的方法把这些小方块，呃，",
-      "vi": "rồi cậu phải dùng đủ mọi cách để đem mấy khối vuông nhỏ này, ờ,"
+      "parts": [
+        {
+          "zh": "然后你就要用各种的方法",
+          "vi": "rồi cậu phải dùng đủ mọi cách"
+        },
+        {
+          "zh": "把这些小方块，呃，",
+          "vi": "để đem mấy khối vuông nhỏ này, ờ,"
+        }
+      ]
     },
     "201": {
       "zh": "怎么讲呢？",
@@ -784,7 +2226,24 @@
     },
     "202": {
       "zh": "排列组合，排列组合成一个比较可以赢的，呃，可以赢这个游戏的排列组合的方法。",
-      "vi": "sắp xếp tổ hợp, sắp xếp tổ hợp thành một cách có thể thắng, ờ, một cách sắp xếp có thể thắng trò chơi này."
+      "parts": [
+        {
+          "zh": "排列组合，",
+          "vi": "sắp xếp tổ hợp,"
+        },
+        {
+          "zh": "排列组合成一个比较可以赢的，",
+          "vi": "sắp xếp tổ hợp thành một cách có thể thắng,"
+        },
+        {
+          "zh": "呃，可以赢这个游戏的",
+          "vi": "ờ, có thể thắng trò chơi này,"
+        },
+        {
+          "zh": "排列组合的方法。",
+          "vi": "một cách sắp xếp tổ hợp."
+        }
+      ]
     },
     "203": {
       "zh": "对对，",
@@ -796,11 +2255,33 @@
     },
     "205": {
       "zh": "对，但是其实还是挺复杂的，我觉得，因为我以前试着去学过麻将的规则，可是我看不懂，",
-      "vi": "Đúng, nhưng thật ra mình thấy vẫn khá phức tạp, vì trước đây mình đã thử học luật mạt chược, nhưng mình đọc không hiểu,"
+      "parts": [
+        {
+          "zh": "对，但是其实还是挺复杂的，我觉得，",
+          "vi": "Đúng, nhưng thật ra mình thấy vẫn khá phức tạp,"
+        },
+        {
+          "zh": "因为我以前试着去学过麻将的规则，",
+          "vi": "vì trước đây mình đã thử học luật mạt chược,"
+        },
+        {
+          "zh": "可是我看不懂，",
+          "vi": "nhưng mình đọc không hiểu,"
+        }
+      ]
     },
     "206": {
       "zh": "我看不明白，所以也不是那么简单，我觉得。",
-      "vi": "mình xem không hiểu, nên cũng không đơn giản vậy đâu, mình thấy thế."
+      "parts": [
+        {
+          "zh": "我看不明白，",
+          "vi": "mình xem không hiểu,"
+        },
+        {
+          "zh": "所以也不是那么简单，我觉得。",
+          "vi": "nên cũng không đơn giản vậy đâu, mình thấy thế."
+        }
+      ]
     },
     "207": {
       "zh": "嗯。",
@@ -812,15 +2293,58 @@
     },
     "209": {
       "zh": "其实比较是靠运气，我觉得没有特别多的技巧，所以我个人也不是特别喜欢打麻将。",
-      "vi": "thật ra khá dựa vào may mắn, mình thấy không có nhiều kỹ thuật lắm, nên cá nhân mình cũng không thích đánh mạt chược lắm."
+      "parts": [
+        {
+          "zh": "其实比较是靠运气，",
+          "vi": "thật ra khá dựa vào may mắn,"
+        },
+        {
+          "zh": "我觉得没有特别多的技巧，",
+          "vi": "mình thấy không có nhiều kỹ thuật lắm,"
+        },
+        {
+          "zh": "所以我个人也不是特别喜欢打麻将。",
+          "vi": "nên cá nhân mình cũng không thích đánh mạt chược lắm."
+        }
+      ]
     },
     "210": {
       "zh": "可是我知道有那种麻将比赛，还有国际的，所以可能也并不完全是运气，",
-      "vi": "Nhưng mình biết có mấy kiểu giải đấu mạt chược, còn có cả giải quốc tế, nên có lẽ cũng không hoàn toàn là may mắn,"
+      "parts": [
+        {
+          "zh": "可是我知道有那种麻将比赛，",
+          "vi": "Nhưng mình biết có mấy kiểu giải đấu mạt chược,"
+        },
+        {
+          "zh": "还有国际的，",
+          "vi": "còn có cả giải quốc tế,"
+        },
+        {
+          "zh": "所以可能也并不完全是运气，",
+          "vi": "nên có lẽ cũng không hoàn toàn là may mắn,"
+        }
+      ]
     },
     "211": {
       "zh": "就是你可能要记牌，就是把那些打出去的牌和你手上有的牌都记住，这个就算是比较高级的打。",
-      "vi": "là cậu có thể phải nhớ bài, tức là nhớ hết những quân đã đánh ra và những quân trên tay mình, cái này coi như là cách đánh khá cao tay."
+      "parts": [
+        {
+          "zh": "就是你可能要记牌，",
+          "vi": "là cậu có thể phải nhớ bài,"
+        },
+        {
+          "zh": "就是把那些打出去的牌",
+          "vi": "tức là những quân đã đánh ra"
+        },
+        {
+          "zh": "和你手上有的牌都记住，",
+          "vi": "và những quân trên tay mình đều phải nhớ hết,"
+        },
+        {
+          "zh": "这个就算是比较高级的打。",
+          "vi": "cái này coi như là cách đánh khá cao tay."
+        }
+      ]
     },
     "212": {
       "zh": "对对，",
@@ -832,11 +2356,33 @@
     },
     "214": {
       "zh": "其实我觉得就是像打扑克一样，你可能运气是一部分，可是你也需要懂一些技术，",
-      "vi": "Thật ra mình thấy giống như đánh bài, may mắn có thể là một phần, nhưng cậu cũng cần biết chút kỹ thuật,"
+      "parts": [
+        {
+          "zh": "其实我觉得就是像打扑克一样，",
+          "vi": "Thật ra mình thấy giống như đánh bài,"
+        },
+        {
+          "zh": "你可能运气是一部分，",
+          "vi": "may mắn có thể là một phần,"
+        },
+        {
+          "zh": "可是你也需要懂一些技术，",
+          "vi": "nhưng cậu cũng cần biết chút kỹ thuật,"
+        }
+      ]
     },
     "215": {
       "zh": "同时你也要有好的记忆力，然后你就可以去赢。",
-      "vi": "đồng thời phải có trí nhớ tốt, rồi mới có thể thắng."
+      "parts": [
+        {
+          "zh": "同时你也要有好的记忆力，",
+          "vi": "đồng thời cũng phải có trí nhớ tốt,"
+        },
+        {
+          "zh": "然后你就可以去赢。",
+          "vi": "rồi mới có thể thắng."
+        }
+      ]
     },
     "216": {
       "zh": "哎，成都说了这么多，可以聊一下上海。",
@@ -844,7 +2390,16 @@
     },
     "217": {
       "zh": "那Cameron，你对上海有什么印象吗？",
-      "vi": "Vậy Cameron, cậu có ấn tượng gì về Thượng Hải không?"
+      "parts": [
+        {
+          "zh": "那Cameron，",
+          "vi": "Vậy Cameron,"
+        },
+        {
+          "zh": "你对上海有什么印象吗？",
+          "vi": "cậu có ấn tượng gì về Thượng Hải không?"
+        }
+      ]
     },
     "218": {
       "zh": "虽然你没有去过，",
@@ -860,7 +2415,16 @@
     },
     "221": {
       "zh": "我就是可能首先觉得上海很大，上海会比成都市区更大吗？",
-      "vi": "Mình chắc là trước hết thấy Thượng Hải rất to, Thượng Hải có to hơn nội thành Thành Đô không?"
+      "parts": [
+        {
+          "zh": "我就是可能首先觉得上海很大，",
+          "vi": "Mình chắc là trước hết thấy Thượng Hải rất to,"
+        },
+        {
+          "zh": "上海会比成都市区更大吗？",
+          "vi": "Thượng Hải có to hơn nội thành Thành Đô không?"
+        }
+      ]
     },
     "222": {
       "zh": "其实你知道吗？",
@@ -868,7 +2432,16 @@
     },
     "223": {
       "zh": "中国最大的城市不是上海，也不是北京，是重庆。",
-      "vi": "Thành phố lớn nhất Trung Quốc không phải Thượng Hải, cũng không phải Bắc Kinh, mà là Trùng Khánh."
+      "parts": [
+        {
+          "zh": "中国最大的城市不是上海，",
+          "vi": "Thành phố lớn nhất Trung Quốc không phải Thượng Hải,"
+        },
+        {
+          "zh": "也不是北京，是重庆。",
+          "vi": "cũng không phải Bắc Kinh, mà là Trùng Khánh."
+        }
+      ]
     },
     "224": {
       "zh": "你是说城区啊？",
@@ -880,15 +2453,58 @@
     },
     "226": {
       "zh": "和人口，对啊，因为重庆包括了很多那种县城在山里的，它但是真正市区的话，它其实很挺小的。",
-      "vi": "Và dân số, đúng vậy, vì Trùng Khánh bao gồm rất nhiều huyện lỵ trong núi, nhưng nội thành thực sự thì thật ra khá nhỏ."
+      "parts": [
+        {
+          "zh": "和人口，对啊，",
+          "vi": "Và dân số, đúng vậy,"
+        },
+        {
+          "zh": "因为重庆包括了很多那种",
+          "vi": "vì Trùng Khánh bao gồm rất nhiều"
+        },
+        {
+          "zh": "县城在山里的，",
+          "vi": "huyện lỵ ở trong núi,"
+        },
+        {
+          "zh": "它但是真正市区的话，",
+          "vi": "nhưng nội thành thực sự thì"
+        },
+        {
+          "zh": "它其实很挺小的。",
+          "vi": "thật ra khá nhỏ."
+        }
+      ]
     },
     "227": {
       "zh": "因为重庆，因为我在我我在重庆读过大学，所以我对重庆也比较了解。",
-      "vi": "Vì Trùng Khánh… vì mình… mình từng học đại học ở Trùng Khánh, nên mình cũng khá hiểu Trùng Khánh."
+      "parts": [
+        {
+          "zh": "因为重庆，",
+          "vi": "Vì Trùng Khánh…"
+        },
+        {
+          "zh": "因为我在我我在重庆读过大学，",
+          "vi": "vì mình… mình từng học đại học ở Trùng Khánh,"
+        },
+        {
+          "zh": "所以我对重庆也比较了解。",
+          "vi": "nên mình cũng khá hiểu Trùng Khánh."
+        }
+      ]
     },
     "228": {
       "zh": "重庆本来的市区其实很小，因为它是在山上半山腰的地方，对。",
-      "vi": "Nội thành gốc của Trùng Khánh thật ra rất nhỏ, vì nó nằm ở lưng chừng núi, đúng."
+      "parts": [
+        {
+          "zh": "重庆本来的市区其实很小，",
+          "vi": "Nội thành gốc của Trùng Khánh thật ra rất nhỏ,"
+        },
+        {
+          "zh": "因为它是在山上半山腰的地方，对。",
+          "vi": "vì nó nằm ở lưng chừng núi, đúng."
+        }
+      ]
     },
     "229": {
       "zh": "但是上海大吗？",
@@ -900,11 +2516,33 @@
     },
     "231": {
       "zh": "所以刚才我在说这个数据的时候，北京、上海都算是像郊区，但还是重庆最大。",
-      "vi": "Nên lúc nãy khi mình nói số liệu này, Bắc Kinh, Thượng Hải đều đã tính cả ngoại ô, nhưng vẫn là Trùng Khánh lớn nhất."
+      "parts": [
+        {
+          "zh": "所以刚才我在说这个数据的时候，",
+          "vi": "Nên lúc nãy khi mình nói số liệu này,"
+        },
+        {
+          "zh": "北京、上海都算是像郊区，",
+          "vi": "Bắc Kinh, Thượng Hải đều đã tính kiểu cả ngoại ô,"
+        },
+        {
+          "zh": "但还是重庆最大。",
+          "vi": "nhưng vẫn là Trùng Khánh lớn nhất."
+        }
+      ]
     },
     "232": {
       "zh": "那上海的人口应该是两千二百万左右吧？",
-      "vi": "Dân số Thượng Hải chắc khoảng 22 triệu nhỉ?"
+      "parts": [
+        {
+          "zh": "那上海的人口",
+          "vi": "Dân số Thượng Hải"
+        },
+        {
+          "zh": "应该是两千二百万左右吧？",
+          "vi": "chắc khoảng 22 triệu nhỉ?"
+        }
+      ]
     },
     "233": {
       "zh": "我不太记得具体数据了。",
@@ -912,7 +2550,16 @@
     },
     "234": {
       "zh": "但是重庆好像有三千多万，所以是最大的。",
-      "vi": "Nhưng Trùng Khánh hình như hơn 30 triệu, nên là lớn nhất."
+      "parts": [
+        {
+          "zh": "但是重庆好像有三千多万，",
+          "vi": "Nhưng Trùng Khánh hình như hơn 30 triệu,"
+        },
+        {
+          "zh": "所以是最大的。",
+          "vi": "nên là lớn nhất."
+        }
+      ]
     },
     "235": {
       "zh": "对，",
@@ -920,15 +2567,46 @@
     },
     "236": {
       "zh": "但是这重庆我觉得可以算一个省了，所以这个我觉得不不能这么类比。",
-      "vi": "Nhưng Trùng Khánh này mình thấy có thể coi là một tỉnh rồi, nên cái này mình thấy không… không so như vậy được."
+      "parts": [
+        {
+          "zh": "但是这重庆我觉得可以算一个省了，",
+          "vi": "Nhưng Trùng Khánh này mình thấy có thể coi là một tỉnh rồi,"
+        },
+        {
+          "zh": "所以这个我觉得不不能这么类比。",
+          "vi": "nên cái này mình thấy không… không so như vậy được."
+        }
+      ]
     },
     "237": {
       "zh": "不过对我第一个印象可能觉得上海会比较大。",
-      "vi": "Nhưng đúng, ấn tượng đầu tiên của mình có lẽ là Thượng Hải khá to."
+      "parts": [
+        {
+          "zh": "不过对我第一个印象",
+          "vi": "Nhưng đúng, ấn tượng đầu tiên của mình"
+        },
+        {
+          "zh": "可能觉得上海会比较大。",
+          "vi": "có lẽ là Thượng Hải khá to."
+        }
+      ]
     },
     "238": {
       "zh": "第二个印象就觉得上海international非常的国际化，你知道吧？",
-      "vi": "Ấn tượng thứ hai là Thượng Hải international, rất quốc tế, cậu biết đấy?"
+      "parts": [
+        {
+          "zh": "第二个印象",
+          "vi": "Ấn tượng thứ hai"
+        },
+        {
+          "zh": "就觉得上海international",
+          "vi": "là thấy Thượng Hải international,"
+        },
+        {
+          "zh": "非常的国际化，你知道吧？",
+          "vi": "rất quốc tế, cậu biết đấy?"
+        }
+      ]
     },
     "239": {
       "zh": "老外外国人特别多，这个是真的对吧？",
@@ -936,7 +2614,20 @@
     },
     "240": {
       "zh": "说到这个呃老外，我也觉得我一直觉得这个名字老外，你会觉得是一个中性的词，",
-      "vi": "Nói đến, ờ, 老外 (Tây, người nước ngoài), mình cũng thấy, mình vẫn luôn thấy cái tên 老外 này, cậu thấy là một từ trung tính,"
+      "parts": [
+        {
+          "zh": "说到这个呃老外，",
+          "vi": "Nói đến, ờ, 老外 (Tây, người nước ngoài),"
+        },
+        {
+          "zh": "我也觉得我一直觉得这个名字老外，",
+          "vi": "mình cũng thấy, mình vẫn luôn thấy cái tên 老外 này,"
+        },
+        {
+          "zh": "你会觉得是一个中性的词，",
+          "vi": "cậu sẽ thấy là một từ trung tính,"
+        }
+      ]
     },
     "241": {
       "zh": "还是有一点点负面倾向的词？",
@@ -948,15 +2639,58 @@
     },
     "243": {
       "zh": "这是一个口语化的老外，我反而觉得说外国人你是一个外国人，这个才感觉有一点生疏了。",
-      "vi": "Đây là 老外 theo kiểu khẩu ngữ, mình lại thấy nói \"người nước ngoài\", \"anh là người nước ngoài\", như thế mới có cảm giác hơi xa cách."
+      "parts": [
+        {
+          "zh": "这是一个口语化的老外，",
+          "vi": "Đây là 老外 theo kiểu khẩu ngữ,"
+        },
+        {
+          "zh": "我反而觉得说外国人",
+          "vi": "mình lại thấy nói \"người nước ngoài\","
+        },
+        {
+          "zh": "你是一个外国人，",
+          "vi": "\"anh là người nước ngoài\","
+        },
+        {
+          "zh": "这个才感觉有一点生疏了。",
+          "vi": "như thế mới có cảm giác hơi xa cách."
+        }
+      ]
     },
     "244": {
       "zh": "我我觉得老外反而会比较亲切一点，但是可能也会啊，因为你知道现在是二零二一年了，",
-      "vi": "Mình… mình thấy 老外 lại thân thiện hơn một chút, nhưng có lẽ cũng sẽ, vì cậu biết đấy, bây giờ là năm 2021 rồi,"
+      "parts": [
+        {
+          "zh": "我我觉得老外反而会比较亲切一点，",
+          "vi": "Mình… mình thấy 老外 lại thân thiện hơn một chút,"
+        },
+        {
+          "zh": "但是可能也会啊，",
+          "vi": "nhưng có lẽ cũng sẽ,"
+        },
+        {
+          "zh": "因为你知道现在是二零二一年了，",
+          "vi": "vì cậu biết đấy, bây giờ là năm 2021 rồi,"
+        }
+      ]
     },
     "245": {
       "zh": "很多事情变得比较复杂，所以可能有的时候大家也会有不同的感觉对这个词。",
-      "vi": "nhiều chuyện trở nên phức tạp hơn, nên có khi mọi người cũng có cảm nhận khác nhau về từ này."
+      "parts": [
+        {
+          "zh": "很多事情变得比较复杂，",
+          "vi": "nhiều chuyện trở nên phức tạp hơn,"
+        },
+        {
+          "zh": "所以可能有的时候",
+          "vi": "nên có khi"
+        },
+        {
+          "zh": "大家也会有不同的感觉对这个词。",
+          "vi": "mọi người cũng có cảm nhận khác nhau về từ này."
+        }
+      ]
     },
     "246": {
       "zh": "不过我是觉得这个词。",
@@ -964,31 +2698,122 @@
     },
     "247": {
       "zh": "是一个OK偏亲切的词对其实老外可能是很多外国人学的最重要或者最一开始学的几个中文单词",
-      "vi": "là một từ OK, thiên về thân thiện. Đúng, thật ra 老外 có lẽ là một trong những từ tiếng Trung quan trọng nhất, hay được nhiều người nước ngoài học sớm nhất."
+      "parts": [
+        {
+          "zh": "是一个OK偏亲切的词",
+          "vi": "là một từ OK, thiên về thân thiện."
+        },
+        {
+          "zh": "对其实老外可能是很多外国人学的",
+          "vi": "Đúng, thật ra 老外 có lẽ là, với nhiều người nước ngoài học,"
+        },
+        {
+          "zh": "最重要或者最一开始学的",
+          "vi": "một trong những từ quan trọng nhất hay học sớm nhất,"
+        },
+        {
+          "zh": "几个中文单词",
+          "vi": "trong mấy từ tiếng Trung đầu tiên."
+        }
+      ]
     },
     "248": {
       "zh": "因为如果要去中国工作学习的话这个词会经常听到有的时候哪怕在地铁里会听到别人说哎你看老外对，",
-      "vi": "Vì nếu đến Trung Quốc làm việc, học tập thì sẽ thường nghe từ này, có khi ngay trong tàu điện ngầm cũng nghe người khác nói: \"Ơ, nhìn kìa, 老外.\" Đúng,"
+      "parts": [
+        {
+          "zh": "因为如果要去中国工作学习的话",
+          "vi": "Vì nếu đến Trung Quốc làm việc, học tập"
+        },
+        {
+          "zh": "这个词会经常听到",
+          "vi": "thì sẽ thường nghe từ này,"
+        },
+        {
+          "zh": "有的时候哪怕在地铁里",
+          "vi": "có khi ngay trong tàu điện ngầm"
+        },
+        {
+          "zh": "会听到别人说哎你看老外对，",
+          "vi": "cũng nghe người khác nói: \"Ơ, nhìn kìa, 老外.\" Đúng,"
+        }
+      ]
     },
     "250": {
       "zh": "不过好像这样想起来的话，现在好像说这个词比较少一点了，比以前可能少一点。",
-      "vi": "Nhưng nghĩ lại thì hình như bây giờ người ta ít nói từ này hơn, có lẽ ít hơn trước."
+      "parts": [
+        {
+          "zh": "不过好像这样想起来的话，",
+          "vi": "Nhưng nghĩ lại như vậy thì"
+        },
+        {
+          "zh": "现在好像说这个词比较少一点了，",
+          "vi": "hình như bây giờ người ta ít nói từ này hơn,"
+        },
+        {
+          "zh": "比以前可能少一点。",
+          "vi": "có lẽ ít hơn trước."
+        }
+      ]
     },
     "251": {
       "zh": "因为很多语言里面其实对于外国人都有一个所谓的昵称，",
-      "vi": "Vì trong nhiều ngôn ngữ, thật ra đều có một cái gọi là biệt danh cho người nước ngoài,"
+      "parts": [
+        {
+          "zh": "因为很多语言里面",
+          "vi": "Vì trong nhiều ngôn ngữ,"
+        },
+        {
+          "zh": "其实对于外国人",
+          "vi": "thật ra với người nước ngoài"
+        },
+        {
+          "zh": "都有一个所谓的昵称，",
+          "vi": "đều có một cái gọi là biệt danh,"
+        }
+      ]
     },
     "252": {
       "zh": "但大多数语言对外国人的昵称都是偏负面倾向的。",
-      "vi": "nhưng đa số biệt danh cho người nước ngoài trong các ngôn ngữ đều thiên về tiêu cực."
+      "parts": [
+        {
+          "zh": "但大多数语言对外国人的昵称",
+          "vi": "nhưng đa số biệt danh cho người nước ngoài"
+        },
+        {
+          "zh": "都是偏负面倾向的。",
+          "vi": "đều thiên về tiêu cực."
+        }
+      ]
     },
     "253": {
       "zh": "比如说在拉美的话，他们会管美国人叫gringo。",
-      "vi": "Ví dụ ở Mỹ Latinh, họ gọi người Mỹ là gringo."
+      "parts": [
+        {
+          "zh": "比如说在拉美的话，",
+          "vi": "Ví dụ ở Mỹ Latinh,"
+        },
+        {
+          "zh": "他们会管美国人叫gringo。",
+          "vi": "họ gọi người Mỹ là gringo."
+        }
+      ]
     },
     "254": {
       "zh": "嗯哼，可是我觉得，可是我觉得这个不一样，就是我们说的其他语言里面这种，",
-      "vi": "Ừ hử, nhưng mình thấy, nhưng mình thấy cái này khác, tức là mấy từ trong ngôn ngữ khác mà ta nói đó,"
+      "parts": [
+        {
+          "zh": "嗯哼，可是我觉得，",
+          "vi": "Ừ hử, nhưng mình thấy,"
+        },
+        {
+          "zh": "可是我觉得这个不一样，",
+          "vi": "nhưng mình thấy cái này khác,"
+        },
+        {
+          "zh": "就是我们说的其他语言里面这种，",
+          "vi": "tức là mấy từ trong ngôn ngữ khác mà ta nói đó,"
+        }
+      ]
     },
     "255": {
       "zh": "它是针对某一个特定的国家。",
@@ -996,11 +2821,37 @@
     },
     "256": {
       "zh": "某一个特定的族群来有一个词，可是我觉得“老外”这个词就是一个没有针对谁。",
-      "vi": "một nhóm tộc người cụ thể mà có một từ, còn mình thấy từ \"老外\" thì không nhằm vào ai cả."
+      "parts": [
+        {
+          "zh": "某一个特定的族群来有一个词，",
+          "vi": "là một nhóm người cụ thể thì có một từ,"
+        },
+        {
+          "zh": "可是我觉得“老外”这个词",
+          "vi": "còn mình thấy từ \"老外\""
+        },
+        {
+          "zh": "就是一个没有针对谁。",
+          "vi": "thì không nhằm vào ai cả."
+        }
+      ]
     },
     "257": {
       "zh": "可能你说要针对的就是针对全世界七十亿人减十四亿的是多少？",
-      "vi": "Nếu nói nhằm vào thì là nhằm vào 7 tỷ người trên thế giới trừ đi 1,4 tỷ, là bao nhiêu nhỉ?"
+      "parts": [
+        {
+          "zh": "可能你说要针对的",
+          "vi": "Nếu nói nhằm vào"
+        },
+        {
+          "zh": "就是针对全世界七十亿人",
+          "vi": "thì là nhằm vào 7 tỷ người trên thế giới"
+        },
+        {
+          "zh": "减十四亿的是多少？",
+          "vi": "trừ đi 1,4 tỷ, là bao nhiêu nhỉ?"
+        }
+      ]
     },
     "258": {
       "zh": "呃，六十六亿人。",
@@ -1008,7 +2859,20 @@
     },
     "259": {
       "zh": "对上海的老外是挺多的，但这个其实因为我在上海和北京都住过。",
-      "vi": "Đúng, người nước ngoài ở Thượng Hải khá nhiều, nhưng cái này thật ra vì mình đã sống ở cả Thượng Hải và Bắc Kinh."
+      "parts": [
+        {
+          "zh": "对上海的老外是挺多的，",
+          "vi": "Đúng, người nước ngoài ở Thượng Hải khá nhiều,"
+        },
+        {
+          "zh": "但这个其实因为",
+          "vi": "nhưng cái này thật ra vì"
+        },
+        {
+          "zh": "我在上海和北京都住过。",
+          "vi": "mình đã sống ở cả Thượng Hải và Bắc Kinh."
+        }
+      ]
     },
     "260": {
       "zh": "就是我在北京也待了可能有五六年，",
@@ -1016,7 +2880,24 @@
     },
     "261": {
       "zh": "然后我对两个城市的老外的这个群体community都有一些了解。",
-      "vi": "nên mình cũng hiểu phần nào cộng đồng (community) người nước ngoài ở hai thành phố."
+      "parts": [
+        {
+          "zh": "然后我对两个城市的",
+          "vi": "nên với hai thành phố,"
+        },
+        {
+          "zh": "老外的这个群体",
+          "vi": "cái cộng đồng người nước ngoài,"
+        },
+        {
+          "zh": "community",
+          "vi": "community,"
+        },
+        {
+          "zh": "都有一些了解。",
+          "vi": "mình cũng hiểu phần nào."
+        }
+      ]
     },
     "262": {
       "zh": "其实你知道吗？",
@@ -1032,19 +2913,67 @@
     },
     "265": {
       "zh": "上海的老外呢，他们一般都在金融服务业工作，比如说咨询的、金融的；",
-      "vi": "Người nước ngoài ở Thượng Hải thường làm trong ngành dịch vụ tài chính, ví dụ tư vấn, tài chính;"
+      "parts": [
+        {
+          "zh": "上海的老外呢，",
+          "vi": "Người nước ngoài ở Thượng Hải,"
+        },
+        {
+          "zh": "他们一般都在金融服务业工作，",
+          "vi": "họ thường làm trong ngành dịch vụ tài chính,"
+        },
+        {
+          "zh": "比如说咨询的、金融的；",
+          "vi": "ví dụ tư vấn, tài chính;"
+        }
+      ]
     },
     "266": {
       "zh": "但是北京的老外最多的是做嗯diplomacy外交行业，或者是新闻，或者是。",
-      "vi": "còn ở Bắc Kinh, người nước ngoài chủ yếu làm, ừm, diplomacy, ngành ngoại giao, hoặc báo chí, hoặc là"
+      "parts": [
+        {
+          "zh": "但是北京的老外最多的是做嗯",
+          "vi": "còn ở Bắc Kinh, người nước ngoài chủ yếu làm, ừm,"
+        },
+        {
+          "zh": "diplomacy外交行业，",
+          "vi": "diplomacy, ngành ngoại giao,"
+        },
+        {
+          "zh": "或者是新闻，或者是。",
+          "vi": "hoặc báo chí, hoặc là"
+        }
+      ]
     },
     "267": {
       "zh": "政治类的，然后北京的老外学生也会比上海多很多。",
-      "vi": "liên quan chính trị, rồi du học sinh nước ngoài ở Bắc Kinh cũng nhiều hơn Thượng Hải nhiều."
+      "parts": [
+        {
+          "zh": "政治类的，",
+          "vi": "liên quan chính trị,"
+        },
+        {
+          "zh": "然后北京的老外学生",
+          "vi": "rồi du học sinh nước ngoài ở Bắc Kinh"
+        },
+        {
+          "zh": "也会比上海多很多。",
+          "vi": "cũng nhiều hơn Thượng Hải nhiều."
+        }
+      ]
     },
     "268": {
       "zh": "虽然上海有复旦一些交换生，但是北京有外国语学校，",
-      "vi": "Tuy Thượng Hải có một số sinh viên trao đổi ở Phục Đán, nhưng Bắc Kinh có trường ngoại ngữ,"
+      "parts": [
+        {
+          "zh": "虽然上海有复旦一些交换生，",
+          "vi": "Tuy Thượng Hải có một số sinh viên trao đổi ở Phục Đán,"
+        },
+        {
+          "zh": "但是北京有外国语学校，",
+          "vi": "nhưng Bắc Kinh có trường ngoại ngữ,"
+        }
+      ]
     },
     "269": {
       "zh": "对北京大学总体来说还是更多一点。",
@@ -1056,15 +2985,46 @@
     },
     "271": {
       "zh": "所以我个人感觉北京的老外群体会更加偏一点点文化和政治上，",
-      "vi": "Nên cảm nhận cá nhân của mình là cộng đồng người nước ngoài ở Bắc Kinh thiên hơn một chút về văn hóa và chính trị,"
+      "parts": [
+        {
+          "zh": "所以我个人感觉",
+          "vi": "Nên cảm nhận cá nhân của mình là"
+        },
+        {
+          "zh": "北京的老外群体会更加偏一点点",
+          "vi": "cộng đồng người nước ngoài ở Bắc Kinh thiên hơn một chút"
+        },
+        {
+          "zh": "文化和政治上，",
+          "vi": "về văn hóa và chính trị,"
+        }
+      ]
     },
     "272": {
       "zh": "而中上海的老外会更多偏一点点商业和就是金融上。",
-      "vi": "còn người nước ngoài ở Thượng Hải thiên hơn một chút về thương mại, tức là tài chính."
+      "parts": [
+        {
+          "zh": "而中上海的老外会更多偏一点点",
+          "vi": "còn người nước ngoài ở Thượng Hải thiên hơn một chút"
+        },
+        {
+          "zh": "商业和就是金融上。",
+          "vi": "về thương mại, tức là tài chính."
+        }
+      ]
     },
     "273": {
       "zh": "可是这不就是跟城市的属性是相关的，对吧？",
-      "vi": "Nhưng chẳng phải cái này liên quan đến đặc tính của thành phố sao, đúng không?"
+      "parts": [
+        {
+          "zh": "可是这不就是",
+          "vi": "Nhưng chẳng phải cái này"
+        },
+        {
+          "zh": "跟城市的属性是相关的，对吧？",
+          "vi": "liên quan đến đặc tính của thành phố sao, đúng không?"
+        }
+      ]
     },
     "274": {
       "zh": "对对，",
@@ -1072,39 +3032,164 @@
     },
     "275": {
       "zh": "所以其实我在上海和北京和老外们打交道的活动啊，或者我自己参加的一些聚会活动，",
-      "vi": "Nên thật ra mấy hoạt động mình giao lưu với người nước ngoài ở Thượng Hải và Bắc Kinh, hoặc mấy buổi tụ tập mình tham gia,"
+      "parts": [
+        {
+          "zh": "所以其实我在上海和北京",
+          "vi": "Nên thật ra ở Thượng Hải và Bắc Kinh,"
+        },
+        {
+          "zh": "和老外们打交道的活动啊，",
+          "vi": "mấy hoạt động mình giao lưu với người nước ngoài,"
+        },
+        {
+          "zh": "或者我自己参加的一些聚会活动，",
+          "vi": "hoặc mấy buổi tụ tập mình tham gia,"
+        }
+      ]
     },
     "276": {
       "zh": "感觉氛围和聊的话题挺不一样的，还挺有意思的。",
-      "vi": "cảm giác bầu không khí và chủ đề nói chuyện khá khác nhau, cũng khá thú vị."
+      "parts": [
+        {
+          "zh": "感觉氛围和聊的话题挺不一样的，",
+          "vi": "cảm giác bầu không khí và chủ đề nói chuyện khá khác nhau,"
+        },
+        {
+          "zh": "还挺有意思的。",
+          "vi": "cũng khá thú vị."
+        }
+      ]
     },
     "277": {
       "zh": "嗯，然后其他我对上海也并没有太多什么了解，另外就是些吃的，什么小杨生煎，还有什么？",
-      "vi": "Ừm, ngoài ra mình cũng không hiểu gì nhiều về Thượng Hải, còn lại là mấy món ăn, như bánh áp chảo Tiểu Dương (小杨生煎), còn gì nữa nhỉ?"
+      "parts": [
+        {
+          "zh": "嗯，然后其他我对上海",
+          "vi": "Ừm, ngoài ra về Thượng Hải"
+        },
+        {
+          "zh": "也并没有太多什么了解，",
+          "vi": "mình cũng không hiểu gì nhiều,"
+        },
+        {
+          "zh": "另外就是些吃的，",
+          "vi": "còn lại là mấy món ăn,"
+        },
+        {
+          "zh": "什么小杨生煎，还有什么？",
+          "vi": "như bánh áp chảo Tiểu Dương (小杨生煎), còn gì nữa nhỉ?"
+        }
+      ]
     },
     "278": {
       "zh": "你可以解释一下什么是生煎吗生煎我来一个外地人来解释一下就是这种小包子然后先拿油煎一煎",
-      "vi": "Cậu giải thích một chút 生煎 là gì được không? 生煎 để mình, một người nơi khác, giải thích nhé: là kiểu bánh bao nhỏ, trước tiên rán bằng dầu,"
+      "parts": [
+        {
+          "zh": "你可以解释一下什么是生煎吗",
+          "vi": "Cậu giải thích một chút 生煎 là gì được không?"
+        },
+        {
+          "zh": "生煎我来一个外地人来解释一下",
+          "vi": "生煎 để mình, một người nơi khác, giải thích nhé:"
+        },
+        {
+          "zh": "就是这种小包子",
+          "vi": "là kiểu bánh bao nhỏ,"
+        },
+        {
+          "zh": "然后先拿油煎一煎",
+          "vi": "trước tiên rán bằng dầu,"
+        }
+      ]
     },
     "279": {
       "zh": "然后煎了之后又盖上盖子拿蒸汽蒸一蒸然后就变成生煎了生煎包生煎包的重点是什么呢重点就是",
-      "vi": "rán xong lại đậy nắp, hấp bằng hơi nước, thế là thành 生煎. Bánh 生煎包 thì điểm quan trọng là gì? Điểm quan trọng là"
+      "parts": [
+        {
+          "zh": "然后煎了之后又盖上盖子",
+          "vi": "rán xong lại đậy nắp,"
+        },
+        {
+          "zh": "拿蒸汽蒸一蒸",
+          "vi": "hấp bằng hơi nước,"
+        },
+        {
+          "zh": "然后就变成生煎了",
+          "vi": "thế là thành 生煎."
+        },
+        {
+          "zh": "生煎包生煎包的重点是什么呢",
+          "vi": "Bánh 生煎包 thì điểm quan trọng là gì?"
+        },
+        {
+          "zh": "重点就是",
+          "vi": "Điểm quan trọng là"
+        }
+      ]
     },
     "280": {
       "zh": "我觉得作为一个上海人好的生煎包有两个特点第一个就是底要变得很脆，",
-      "vi": "mình thấy, với tư cách một người Thượng Hải, bánh 生煎包 ngon có hai đặc điểm: một là đáy phải giòn,"
+      "parts": [
+        {
+          "zh": "我觉得作为一个上海人",
+          "vi": "mình thấy, với tư cách một người Thượng Hải,"
+        },
+        {
+          "zh": "好的生煎包有两个特点",
+          "vi": "bánh 生煎包 ngon có hai đặc điểm:"
+        },
+        {
+          "zh": "第一个就是底要变得很脆，",
+          "vi": "một là đáy phải giòn,"
+        }
+      ]
     },
     "281": {
       "zh": "因为这个生煎包的底是在油里面炸的。",
-      "vi": "vì đáy bánh 生煎包 được chiên trong dầu."
+      "parts": [
+        {
+          "zh": "因为这个生煎包的底",
+          "vi": "vì đáy bánh 生煎包"
+        },
+        {
+          "zh": "是在油里面炸的。",
+          "vi": "được chiên trong dầu."
+        }
+      ]
     },
     "282": {
       "zh": "对，第二个就是汤包里面有要有汤汁，这个和小笼包的属性是一样的，特点是一样的。",
-      "vi": "Đúng, hai là trong bánh phải có nước súp, cái này giống đặc tính của tiểu long bao, đặc điểm giống nhau."
+      "parts": [
+        {
+          "zh": "对，第二个就是汤包里面有要有汤汁，",
+          "vi": "Đúng, hai là trong bánh phải có nước súp,"
+        },
+        {
+          "zh": "这个和小笼包的属性是一样的，",
+          "vi": "cái này giống đặc tính của tiểu long bao,"
+        },
+        {
+          "zh": "特点是一样的。",
+          "vi": "đặc điểm giống nhau."
+        }
+      ]
     },
     "283": {
       "zh": "嗯，那小杨生煎就是顺便解释一下，小杨生煎是一个上海非常有名的传统的生煎包品牌，",
-      "vi": "Ừm, tiện thể giải thích luôn Tiểu Dương Sinh Tiễn, Tiểu Dương Sinh Tiễn là một thương hiệu bánh 生煎包 truyền thống rất nổi tiếng ở Thượng Hải,"
+      "parts": [
+        {
+          "zh": "嗯，那小杨生煎就是顺便解释一下，",
+          "vi": "Ừm, tiện thể giải thích luôn Tiểu Dương Sinh Tiễn,"
+        },
+        {
+          "zh": "小杨生煎是一个上海非常有名的",
+          "vi": "Tiểu Dương Sinh Tiễn là một thương hiệu rất nổi tiếng ở Thượng Hải,"
+        },
+        {
+          "zh": "传统的生煎包品牌，",
+          "vi": "thương hiệu bánh 生煎包 truyền thống,"
+        }
+      ]
     },
     "284": {
       "zh": "生煎包的连锁。",
@@ -1120,11 +3205,33 @@
     },
     "287": {
       "zh": "我觉得挺好吃的，而且是最便宜，但是就是质量可以保证的一家餐厅，因为它是连锁店嘛。",
-      "vi": "Mình thấy khá ngon, mà lại rẻ nhất, nhưng là quán đảm bảo được chất lượng, vì nó là chuỗi cửa hàng mà."
+      "parts": [
+        {
+          "zh": "我觉得挺好吃的，而且是最便宜，",
+          "vi": "Mình thấy khá ngon, mà lại rẻ nhất,"
+        },
+        {
+          "zh": "但是就是质量可以保证的一家餐厅，",
+          "vi": "nhưng là quán đảm bảo được chất lượng,"
+        },
+        {
+          "zh": "因为它是连锁店嘛。",
+          "vi": "vì nó là chuỗi cửa hàng mà."
+        }
+      ]
     },
     "288": {
       "zh": "OK，所以它的配方啊、质量啊、口味啊都是很标准化的。",
-      "vi": "OK, nên công thức, chất lượng, hương vị của nó đều rất tiêu chuẩn hóa."
+      "parts": [
+        {
+          "zh": "OK，所以它的配方啊、质量啊、",
+          "vi": "OK, nên công thức, chất lượng,"
+        },
+        {
+          "zh": "口味啊都是很标准化的。",
+          "vi": "hương vị của nó đều rất tiêu chuẩn hóa."
+        }
+      ]
     },
     "289": {
       "zh": "OK，对。",
@@ -1132,11 +3239,37 @@
     },
     "290": {
       "zh": "然后我另外对上海的印象就是，上海这边吃的东西都比较甜。",
-      "vi": "Rồi một ấn tượng khác của mình về Thượng Hải là đồ ăn bên Thượng Hải đều khá ngọt."
+      "parts": [
+        {
+          "zh": "然后我另外对上海的印象就是，",
+          "vi": "Rồi một ấn tượng khác của mình về Thượng Hải là"
+        },
+        {
+          "zh": "上海这边吃的东西都比较甜。",
+          "vi": "đồ ăn bên Thượng Hải đều khá ngọt."
+        }
+      ]
     },
     "291": {
       "zh": "是偏甜的啊，然后可能就跟四川就很不一样，因为像四川我们这边就会都吃比较辣的东西，",
-      "vi": "Thiên về ngọt, rồi có lẽ rất khác Tứ Xuyên, vì như Tứ Xuyên bên mình đều ăn đồ khá cay,"
+      "parts": [
+        {
+          "zh": "是偏甜的啊，",
+          "vi": "Thiên về ngọt,"
+        },
+        {
+          "zh": "然后可能就跟四川就很不一样，",
+          "vi": "rồi có lẽ rất khác Tứ Xuyên,"
+        },
+        {
+          "zh": "因为像四川我们这边",
+          "vi": "vì như Tứ Xuyên bên mình"
+        },
+        {
+          "zh": "就会都吃比较辣的东西，",
+          "vi": "đều ăn đồ khá cay,"
+        }
+      ]
     },
     "292": {
       "zh": "什么东西都要放点辣椒。",
@@ -1148,11 +3281,33 @@
     },
     "294": {
       "zh": "对，不过我过后有机会，我其实还是很想去上海玩一玩的。",
-      "vi": "Đúng, nhưng sau này có dịp, mình thật ra vẫn rất muốn đến Thượng Hải chơi."
+      "parts": [
+        {
+          "zh": "对，不过我过后有机会，",
+          "vi": "Đúng, nhưng sau này có dịp,"
+        },
+        {
+          "zh": "我其实还是很想去上海玩一玩的。",
+          "vi": "mình thật ra vẫn rất muốn đến Thượng Hải chơi."
+        }
+      ]
     },
     "295": {
       "zh": "对，上海的确是，呃，是好像有一点说不过去，我长这么大了都没去过上海。",
-      "vi": "Đúng, Thượng Hải đúng là, ờ, hình như hơi không phải lẽ, mình lớn thế này rồi mà chưa đến Thượng Hải bao giờ."
+      "parts": [
+        {
+          "zh": "对，上海的确是，呃，",
+          "vi": "Đúng, Thượng Hải đúng là, ờ,"
+        },
+        {
+          "zh": "是好像有一点说不过去，",
+          "vi": "hình như hơi không phải lẽ,"
+        },
+        {
+          "zh": "我长这么大了都没去过上海。",
+          "vi": "mình lớn thế này rồi mà chưa đến Thượng Hải bao giờ."
+        }
+      ]
     },
     "296": {
       "zh": "所以有机会我肯定要去玩一玩。",
@@ -1160,7 +3315,16 @@
     },
     "297": {
       "zh": "你觉得你如果去上海的话，最想看什么景点？",
-      "vi": "Cậu thấy nếu đến Thượng Hải, cậu muốn xem điểm tham quan nào nhất?"
+      "parts": [
+        {
+          "zh": "你觉得你如果去上海的话，",
+          "vi": "Cậu thấy nếu đến Thượng Hải,"
+        },
+        {
+          "zh": "最想看什么景点？",
+          "vi": "cậu muốn xem điểm tham quan nào nhất?"
+        }
+      ]
     },
     "298": {
       "zh": "啊，或者说你最想做什么事情吧？",
@@ -1168,7 +3332,16 @@
     },
     "299": {
       "zh": "比如说我去成都，我最想做的就是看大熊猫。",
-      "vi": "Ví dụ mình đến Thành Đô, điều mình muốn làm nhất là xem gấu trúc."
+      "parts": [
+        {
+          "zh": "比如说我去成都，",
+          "vi": "Ví dụ mình đến Thành Đô,"
+        },
+        {
+          "zh": "我最想做的就是看大熊猫。",
+          "vi": "điều mình muốn làm nhất là xem gấu trúc."
+        }
+      ]
     },
     "300": {
       "zh": "其实好像也没有什么特别想看的，",
@@ -1176,31 +3349,138 @@
     },
     "301": {
       "zh": "因为我这个人本来好像对城市这种参观旅游好像兴趣本来就不太大。",
-      "vi": "vì bản thân mình hình như vốn không hứng thú lắm với kiểu tham quan du lịch thành phố."
+      "parts": [
+        {
+          "zh": "因为我这个人本来好像",
+          "vi": "vì bản thân mình hình như vốn"
+        },
+        {
+          "zh": "对城市这种参观旅游",
+          "vi": "với kiểu tham quan du lịch thành phố"
+        },
+        {
+          "zh": "好像兴趣本来就不太大。",
+          "vi": "hình như không hứng thú lắm."
+        }
+      ]
     },
     "302": {
       "zh": "嗯，不过就随便逛逛、吃吃、玩玩就挺好的。",
-      "vi": "Ừm, nhưng cứ đi dạo, ăn uống, chơi bời lung tung là được rồi."
+      "parts": [
+        {
+          "zh": "嗯，不过就随便逛逛、",
+          "vi": "Ừm, nhưng cứ đi dạo,"
+        },
+        {
+          "zh": "吃吃、玩玩就挺好的。",
+          "vi": "ăn uống, chơi bời lung tung là được rồi."
+        }
+      ]
     },
     "303": {
       "zh": "因为我这个人其实我很讨厌那种旅游的时候非要去景点打卡，",
-      "vi": "Vì mình thật ra rất ghét kiểu đi du lịch mà nhất định phải đến điểm tham quan để check-in (打卡),"
+      "parts": [
+        {
+          "zh": "因为我这个人其实我很讨厌",
+          "vi": "Vì mình thật ra rất ghét"
+        },
+        {
+          "zh": "那种旅游的时候非要去景点打卡，",
+          "vi": "kiểu đi du lịch mà nhất định phải đến điểm tham quan để check-in (打卡),"
+        }
+      ]
     },
     "304": {
       "zh": "我们今天要把这些地方一个一个全部走完。",
-      "vi": "kiểu hôm nay phải đi hết từng chỗ từng chỗ một."
+      "parts": [
+        {
+          "zh": "我们今天要把这些地方",
+          "vi": "kiểu hôm nay phải đi hết những chỗ này,"
+        },
+        {
+          "zh": "一个一个全部走完。",
+          "vi": "từng chỗ từng chỗ một."
+        }
+      ]
     },
     "305": {
       "zh": "我就随便，我甚至我甚至在酒店里躺着我都可以。",
-      "vi": "Mình thì sao cũng được, mình thậm chí… thậm chí nằm trong khách sạn cũng được."
+      "parts": [
+        {
+          "zh": "我就随便，",
+          "vi": "Mình thì sao cũng được,"
+        },
+        {
+          "zh": "我甚至我甚至",
+          "vi": "mình thậm chí… thậm chí"
+        },
+        {
+          "zh": "在酒店里躺着我都可以。",
+          "vi": "nằm trong khách sạn cũng được."
+        }
+      ]
     },
     "306": {
       "zh": "虽然听听起来就是浪费钱，可是我觉得反正就放松怎么。",
-      "vi": "Tuy nghe… nghe thì có vẻ phí tiền, nhưng mình thấy dù sao thì thoải mái thế nào"
+      "parts": [
+        {
+          "zh": "虽然听听起来就是浪费钱，",
+          "vi": "Tuy nghe… nghe thì có vẻ phí tiền,"
+        },
+        {
+          "zh": "可是我觉得反正就放松怎么。",
+          "vi": "nhưng mình thấy dù sao thì thoải mái thế nào"
+        }
+      ]
     },
     "307": {
       "zh": "放松怎么来就好对反正所以说如果去上海的话吃吃啊吃吃小杨生煎啊然后去黄浦江边上去外滩走走逛逛啊然后去老的那个老城区的什么黄浦庙啊不是什么黄浦庙城隍庙这些地方去走走看看也就差不多了刚才有一个词我觉得挺好的打卡打卡是什么意思？",
-      "vi": "cứ thế mà làm là được. Đúng, dù sao thì nếu đến Thượng Hải thì ăn này ăn kia, ăn bánh áp chảo Tiểu Dương, rồi ra ven sông Hoàng Phố, đi dạo quanh Bến Thượng Hải (外滩), rồi đến khu phố cổ, cái miếu Hoàng Phố gì đó… à không, không phải miếu Hoàng Phố, miếu Thành Hoàng, mấy chỗ như thế đi dạo ngắm nghía là gần đủ rồi. Lúc nãy có một từ mình thấy hay: 打卡, 打卡 nghĩa là gì?"
+      "parts": [
+        {
+          "zh": "放松怎么来就好对反正",
+          "vi": "cứ thế mà làm là được. Đúng, dù sao thì"
+        },
+        {
+          "zh": "所以说如果去上海的话",
+          "vi": "nếu đến Thượng Hải thì"
+        },
+        {
+          "zh": "吃吃啊吃吃小杨生煎啊",
+          "vi": "ăn này ăn kia, ăn bánh áp chảo Tiểu Dương,"
+        },
+        {
+          "zh": "然后去黄浦江边上",
+          "vi": "rồi ra ven sông Hoàng Phố,"
+        },
+        {
+          "zh": "去外滩走走逛逛啊",
+          "vi": "đi dạo quanh Bến Thượng Hải (外滩),"
+        },
+        {
+          "zh": "然后去老的那个老城区的",
+          "vi": "rồi đến khu phố cổ,"
+        },
+        {
+          "zh": "什么黄浦庙啊不是什么黄浦庙",
+          "vi": "cái miếu Hoàng Phố gì đó… à không, không phải miếu Hoàng Phố,"
+        },
+        {
+          "zh": "城隍庙这些地方去走走看看",
+          "vi": "miếu Thành Hoàng, mấy chỗ như thế đi dạo ngắm nghía,"
+        },
+        {
+          "zh": "也就差不多了",
+          "vi": "là gần đủ rồi."
+        },
+        {
+          "zh": "刚才有一个词我觉得挺好的",
+          "vi": "Lúc nãy có một từ mình thấy hay:"
+        },
+        {
+          "zh": "打卡打卡是什么意思？",
+          "vi": "打卡, 打卡 nghĩa là gì?"
+        }
+      ]
     },
     "310": {
       "zh": "可以解释一下吗？",
@@ -1208,7 +3488,20 @@
     },
     "311": {
       "zh": "我觉得打卡它最开始的来源应该就是大家上班要去打卡，然后下班要打卡。",
-      "vi": "Mình nghĩ 打卡 lúc đầu bắt nguồn từ việc mọi người đi làm phải chấm công, tan làm cũng phải chấm công."
+      "parts": [
+        {
+          "zh": "我觉得打卡它最开始的来源",
+          "vi": "Mình nghĩ 打卡 lúc đầu"
+        },
+        {
+          "zh": "应该就是大家上班要去打卡，",
+          "vi": "bắt nguồn từ việc mọi người đi làm phải chấm công,"
+        },
+        {
+          "zh": "然后下班要打卡。",
+          "vi": "tan làm cũng phải chấm công."
+        }
+      ]
     },
     "312": {
       "zh": "卡就是卡呢，",
@@ -1216,11 +3509,33 @@
     },
     "313": {
       "zh": "就是你每次上班就是要，就是可以大家可以想象有一个卡片上面可能会打一个洞，",
-      "vi": "tức là mỗi lần đi làm là phải… mọi người có thể tưởng tượng có một tấm thẻ, trên đó có thể bị đục một lỗ,"
+      "parts": [
+        {
+          "zh": "就是你每次上班就是要，",
+          "vi": "tức là mỗi lần đi làm là phải…"
+        },
+        {
+          "zh": "就是可以大家可以想象",
+          "vi": "mọi người có thể tưởng tượng"
+        },
+        {
+          "zh": "有一个卡片上面可能会打一个洞，",
+          "vi": "có một tấm thẻ, trên đó có thể bị đục một lỗ,"
+        }
+      ]
     },
     "314": {
       "zh": "就证明你今天来上班了或者这个时间准时到了。",
-      "vi": "để chứng minh hôm nay bạn đã đi làm, hoặc đã đến đúng giờ."
+      "parts": [
+        {
+          "zh": "就证明你今天来上班了",
+          "vi": "để chứng minh hôm nay bạn đã đi làm,"
+        },
+        {
+          "zh": "或者这个时间准时到了。",
+          "vi": "hoặc đã đến đúng giờ."
+        }
+      ]
     },
     "315": {
       "zh": "对，这个是最最早的打卡方式。",
@@ -1228,19 +3543,75 @@
     },
     "316": {
       "zh": "而且应该是从美国开始的，美国工厂率先开始搞这种。",
-      "vi": "Mà chắc là bắt đầu từ Mỹ, nhà máy ở Mỹ đi đầu làm cái này."
+      "parts": [
+        {
+          "zh": "而且应该是从美国开始的，",
+          "vi": "Mà chắc là bắt đầu từ Mỹ,"
+        },
+        {
+          "zh": "美国工厂率先开始搞这种。",
+          "vi": "nhà máy ở Mỹ đi đầu làm cái này."
+        }
+      ]
     },
     "317": {
       "zh": "然后现在打卡的意思，尤其是旅游打卡，就是就像是你在上班一样，你非要到一个景点、",
-      "vi": "Còn bây giờ 打卡 có nghĩa là, nhất là \"check-in\" khi du lịch, là giống như đi làm vậy, cậu nhất định phải đến một điểm tham quan,"
+      "parts": [
+        {
+          "zh": "然后现在打卡的意思，",
+          "vi": "Còn bây giờ 打卡 có nghĩa là,"
+        },
+        {
+          "zh": "尤其是旅游打卡，",
+          "vi": "nhất là \"check-in\" khi du lịch,"
+        },
+        {
+          "zh": "就是就像是你在上班一样，",
+          "vi": "là giống như đi làm vậy,"
+        },
+        {
+          "zh": "你非要到一个景点、",
+          "vi": "cậu nhất định phải đến một điểm tham quan,"
+        }
+      ]
     },
     "318": {
       "zh": "到一个地方去，然后你到了那儿了，你就算打了卡了，然后接下来又去下一个地方，",
-      "vi": "đến một chỗ nào đó, rồi đến được đó rồi thì coi như đã check-in, rồi tiếp đến lại đi chỗ tiếp theo,"
+      "parts": [
+        {
+          "zh": "到一个地方去，",
+          "vi": "đến một chỗ nào đó,"
+        },
+        {
+          "zh": "然后你到了那儿了，",
+          "vi": "rồi đến được đó rồi"
+        },
+        {
+          "zh": "你就算打了卡了，",
+          "vi": "thì coi như đã check-in,"
+        },
+        {
+          "zh": "然后接下来又去下一个地方，",
+          "vi": "rồi tiếp đến lại đi chỗ tiếp theo,"
+        }
+      ]
     },
     "319": {
       "zh": "然后就这样，嗯，跑马灯一样的不停的走来走去，走来走去挨个挨个走，就很累。",
-      "vi": "rồi cứ thế, ừm, như đèn kéo quân, đi tới đi lui không ngừng, đi tới đi lui, lần lượt từng chỗ, rất mệt."
+      "parts": [
+        {
+          "zh": "然后就这样，嗯，",
+          "vi": "rồi cứ thế, ừm,"
+        },
+        {
+          "zh": "跑马灯一样的不停的走来走去，",
+          "vi": "như đèn kéo quân, đi tới đi lui không ngừng,"
+        },
+        {
+          "zh": "走来走去挨个挨个走，就很累。",
+          "vi": "đi tới đi lui, lần lượt từng chỗ, rất mệt."
+        }
+      ]
     },
     "320": {
       "zh": "嗯，对。",
@@ -1248,11 +3619,37 @@
     },
     "321": {
       "zh": "然后我还记得有一句，呃，算是吐槽嘲笑这个旅游方式的一句话，",
-      "vi": "Rồi mình còn nhớ có một câu, ờ, coi như là cà khịa chế giễu kiểu du lịch này,"
+      "parts": [
+        {
+          "zh": "然后我还记得有一句，呃，",
+          "vi": "Rồi mình còn nhớ có một câu, ờ,"
+        },
+        {
+          "zh": "算是吐槽嘲笑",
+          "vi": "coi như là cà khịa chế giễu"
+        },
+        {
+          "zh": "这个旅游方式的一句话，",
+          "vi": "kiểu du lịch này,"
+        }
+      ]
     },
     "322": {
       "zh": "在中文里我们叫“上车睡觉，下车拍照，停车撒尿”，是这么说的吗？",
-      "vi": "tiếng Trung bọn mình gọi là \"lên xe ngủ, xuống xe chụp ảnh, dừng xe đi tiểu\" (上车睡觉，下车拍照，停车撒尿), có phải nói thế không?"
+      "parts": [
+        {
+          "zh": "在中文里我们叫“上车睡觉，",
+          "vi": "tiếng Trung bọn mình gọi là \"lên xe ngủ,"
+        },
+        {
+          "zh": "下车拍照，停车撒尿”，",
+          "vi": "xuống xe chụp ảnh, dừng xe đi tiểu\","
+        },
+        {
+          "zh": "是这么说的吗？",
+          "vi": "có phải nói thế không?"
+        }
+      ]
     },
     "323": {
       "zh": "对，这就是说以前的旅行团嘛。",
@@ -1260,7 +3657,20 @@
     },
     "324": {
       "zh": "对，因为本来打卡，你要是自己出去玩，还是要打卡景景点，打卡一个一个来。",
-      "vi": "Đúng, vì vốn 打卡 là nếu cậu tự đi chơi mà vẫn phải check-in từng điểm tham quan, check-in từng chỗ một,"
+      "parts": [
+        {
+          "zh": "对，因为本来打卡，",
+          "vi": "Đúng, vì vốn 打卡 là,"
+        },
+        {
+          "zh": "你要是自己出去玩，",
+          "vi": "nếu cậu tự đi chơi"
+        },
+        {
+          "zh": "还是要打卡景景点，打卡一个一个来。",
+          "vi": "mà vẫn phải check-in từng điểm tham quan, check-in từng chỗ một,"
+        }
+      ]
     },
     "325": {
       "zh": "那不就是相当于是参加旅行团了？",
@@ -1268,7 +3678,16 @@
     },
     "326": {
       "zh": "那你还不如去参加旅行团，你还不用担心交通什么的。",
-      "vi": "Thế thì thà đi theo đoàn du lịch còn hơn, lại khỏi lo chuyện đi lại các thứ."
+      "parts": [
+        {
+          "zh": "那你还不如去参加旅行团，",
+          "vi": "thế thì thà đi theo đoàn du lịch còn hơn,"
+        },
+        {
+          "zh": "你还不用担心交通什么的。",
+          "vi": "lại khỏi lo chuyện đi lại các thứ."
+        }
+      ]
     },
     "327": {
       "zh": "嗯，对。",
@@ -1276,7 +3695,20 @@
     },
     "328": {
       "zh": "但我觉得比较有意思的是，刚才我们在说城市的印象呀，或者是旅游的时候想做什么，",
-      "vi": "Nhưng mình thấy khá thú vị là, lúc nãy bọn mình nói về ấn tượng về thành phố, hay đi du lịch muốn làm gì,"
+      "parts": [
+        {
+          "zh": "但我觉得比较有意思的是，",
+          "vi": "Nhưng mình thấy khá thú vị là,"
+        },
+        {
+          "zh": "刚才我们在说城市的印象呀，",
+          "vi": "lúc nãy bọn mình nói về ấn tượng về thành phố,"
+        },
+        {
+          "zh": "或者是旅游的时候想做什么，",
+          "vi": "hay đi du lịch muốn làm gì,"
+        }
+      ]
     },
     "329": {
       "zh": "好像三句都不离离不开吃的东西。",
@@ -1284,7 +3716,16 @@
     },
     "330": {
       "zh": "看起来吃的东西在中国人的心目中真的是很重要。",
-      "vi": "Xem ra đồ ăn trong lòng người Trung Quốc thật sự rất quan trọng."
+      "parts": [
+        {
+          "zh": "看起来吃的东西",
+          "vi": "xem ra đồ ăn"
+        },
+        {
+          "zh": "在中国人的心目中真的是很重要。",
+          "vi": "trong lòng người Trung Quốc thật sự rất quan trọng."
+        }
+      ]
     },
     "331": {
       "zh": "就是在里提到去上海有什么印象啊？",
@@ -1304,15 +3745,54 @@
     },
     "335": {
       "zh": "对，因为我觉得是就是这个每个地方的菜系，中文叫菜系，这个菜系差异很大。",
-      "vi": "Đúng, vì mình thấy là mỗi vùng có một trường phái ẩm thực, tiếng Trung gọi là 菜系, và các 菜系 này khác nhau rất nhiều."
+      "parts": [
+        {
+          "zh": "对，因为我觉得是就是",
+          "vi": "Đúng, vì mình thấy là"
+        },
+        {
+          "zh": "这个每个地方的菜系，",
+          "vi": "mỗi vùng có một trường phái ẩm thực,"
+        },
+        {
+          "zh": "中文叫菜系，这个菜系差异很大。",
+          "vi": "tiếng Trung gọi là 菜系, các 菜系 này khác nhau rất nhiều."
+        }
+      ]
     },
     "336": {
       "zh": "比如说我们如果说在德国啊，我如果我我比如说我住在汉堡，我去法兰克福，",
-      "vi": "Ví dụ nếu ở Đức, nếu mình… mình ví dụ mình sống ở Hamburg, mình đến Frankfurt,"
+      "parts": [
+        {
+          "zh": "比如说我们如果说在德国啊，",
+          "vi": "Ví dụ nếu ở Đức,"
+        },
+        {
+          "zh": "我如果我我比如说我住在汉堡，",
+          "vi": "nếu mình… mình ví dụ mình sống ở Hamburg,"
+        },
+        {
+          "zh": "我去法兰克福，",
+          "vi": "mình đến Frankfurt,"
+        }
+      ]
     },
     "337": {
       "zh": "我第一个想到的不会是去吃法兰克福什么好吃的，因为它没有什么太大的差异。",
-      "vi": "thì điều đầu tiên mình nghĩ tới sẽ không phải là đi ăn món gì ngon ở Frankfurt, vì chẳng khác nhau mấy."
+      "parts": [
+        {
+          "zh": "我第一个想到的",
+          "vi": "thì điều đầu tiên mình nghĩ tới"
+        },
+        {
+          "zh": "不会是去吃法兰克福什么好吃的，",
+          "vi": "sẽ không phải là đi ăn món gì ngon ở Frankfurt,"
+        },
+        {
+          "zh": "因为它没有什么太大的差异。",
+          "vi": "vì chẳng khác nhau mấy."
+        }
+      ]
     },
     "338": {
       "zh": "可是中国第一比较大。",
@@ -1320,31 +3800,110 @@
     },
     "339": {
       "zh": "然后不同的地方、不同的省份就有不同的菜系，然后口味就是完全不一样的。",
-      "vi": "Rồi mỗi nơi, mỗi tỉnh lại có trường phái ẩm thực khác nhau, khẩu vị hoàn toàn khác nhau."
+      "parts": [
+        {
+          "zh": "然后不同的地方、",
+          "vi": "Rồi mỗi nơi,"
+        },
+        {
+          "zh": "不同的省份就有不同的菜系，",
+          "vi": "mỗi tỉnh lại có trường phái ẩm thực khác nhau,"
+        },
+        {
+          "zh": "然后口味就是完全不一样的。",
+          "vi": "khẩu vị hoàn toàn khác nhau."
+        }
+      ]
     },
     "340": {
       "zh": "所以说，我认为这种很大的差异就会让人们想要去尝试一下各种各样的吃的。",
-      "vi": "Nên mình cho rằng chính sự khác biệt lớn này làm người ta muốn đi thử đủ món ăn các kiểu."
+      "parts": [
+        {
+          "zh": "所以说，我认为这种很大的差异",
+          "vi": "Nên mình cho rằng chính sự khác biệt lớn này"
+        },
+        {
+          "zh": "就会让人们想要去尝试一下",
+          "vi": "làm người ta muốn đi thử"
+        },
+        {
+          "zh": "各种各样的吃的。",
+          "vi": "đủ món ăn các kiểu."
+        }
+      ]
     },
     "341": {
       "zh": "对，而且中国的很多城市之间的区别或者是南北差异，",
-      "vi": "Đúng, mà sự khác biệt giữa nhiều thành phố Trung Quốc, hay khác biệt Nam – Bắc,"
+      "parts": [
+        {
+          "zh": "对，而且中国的很多城市之间的区别",
+          "vi": "Đúng, mà sự khác biệt giữa nhiều thành phố Trung Quốc,"
+        },
+        {
+          "zh": "或者是南北差异，",
+          "vi": "hay khác biệt Nam – Bắc,"
+        }
+      ]
     },
     "342": {
       "zh": "很多可以体现在菜系或者吃饭的口味上，然后还经常会因为口味的不同。",
-      "vi": "rất nhiều thể hiện ở trường phái ẩm thực hay khẩu vị ăn uống, rồi còn hay vì khẩu vị khác nhau"
+      "parts": [
+        {
+          "zh": "很多可以体现在菜系",
+          "vi": "rất nhiều thể hiện ở trường phái ẩm thực"
+        },
+        {
+          "zh": "或者吃饭的口味上，",
+          "vi": "hay khẩu vị ăn uống,"
+        },
+        {
+          "zh": "然后还经常会因为口味的不同。",
+          "vi": "rồi còn hay vì khẩu vị khác nhau"
+        }
+      ]
     },
     "343": {
       "zh": "在网上，呃，引发一些争论，比如说什么东西，比如说豆腐脑应该是甜的还是咸的，",
-      "vi": "mà trên mạng, ờ, gây ra mấy cuộc tranh cãi, ví dụ như món gì đó, ví dụ tào phớ nên ngọt hay nên mặn,"
+      "parts": [
+        {
+          "zh": "在网上，呃，引发一些争论，",
+          "vi": "mà trên mạng, ờ, gây ra mấy cuộc tranh cãi,"
+        },
+        {
+          "zh": "比如说什么东西，",
+          "vi": "ví dụ như món gì đó,"
+        },
+        {
+          "zh": "比如说豆腐脑应该是甜的还是咸的，",
+          "vi": "ví dụ tào phớ nên ngọt hay nên mặn,"
+        }
+      ]
     },
     "344": {
       "zh": "或者汤圆应该是甜的还是咸的，还有粽子，",
-      "vi": "hoặc bánh trôi nên ngọt hay mặn, còn có bánh ú,"
+      "parts": [
+        {
+          "zh": "或者汤圆应该是甜的还是咸的，",
+          "vi": "hoặc bánh trôi nên ngọt hay mặn,"
+        },
+        {
+          "zh": "还有粽子，",
+          "vi": "còn có bánh ú,"
+        }
+      ]
     },
     "345": {
       "zh": "粽子里面应该是包肉呢还是包豆沙呢？",
-      "vi": "Nhân bánh ú nên là thịt hay là đậu đỏ?"
+      "parts": [
+        {
+          "zh": "粽子里面应该是包肉呢",
+          "vi": "nhân bánh ú nên là thịt"
+        },
+        {
+          "zh": "还是包豆沙呢？",
+          "vi": "hay là đậu đỏ?"
+        }
+      ]
     },
     "346": {
       "zh": "这些，",
@@ -1356,7 +3915,16 @@
     },
     "348": {
       "zh": "然后我记得有一次有一次争论是番茄炒蛋。",
-      "vi": "Rồi mình nhớ có một lần, có một lần tranh cãi về món cà chua xào trứng:"
+      "parts": [
+        {
+          "zh": "然后我记得有一次",
+          "vi": "Rồi mình nhớ có một lần,"
+        },
+        {
+          "zh": "有一次争论是番茄炒蛋。",
+          "vi": "có một lần tranh cãi về món cà chua xào trứng:"
+        }
+      ]
     },
     "349": {
       "zh": "应不应该放糖？",
@@ -1364,11 +3932,29 @@
     },
     "350": {
       "zh": "嗯，我觉得可以放一点，但是不要最后就是全是甜味。",
-      "vi": "Ừm, mình thấy có thể cho một chút, nhưng đừng để cuối cùng toàn là vị ngọt."
+      "parts": [
+        {
+          "zh": "嗯，我觉得可以放一点，",
+          "vi": "Ừm, mình thấy có thể cho một chút,"
+        },
+        {
+          "zh": "但是不要最后就是全是甜味。",
+          "vi": "nhưng đừng để cuối cùng toàn là vị ngọt."
+        }
+      ]
     },
     "351": {
       "zh": "比如说上海炒这个会是最后完全就是甜口吗？",
-      "vi": "Ví dụ Thượng Hải xào món này cuối cùng hoàn toàn là vị ngọt à?"
+      "parts": [
+        {
+          "zh": "比如说上海炒这个",
+          "vi": "Ví dụ Thượng Hải xào món này"
+        },
+        {
+          "zh": "会是最后完全就是甜口吗？",
+          "vi": "cuối cùng hoàn toàn là vị ngọt à?"
+        }
+      ]
     },
     "352": {
       "zh": "就吃不出咸味了。",
@@ -1380,7 +3966,20 @@
     },
     "354": {
       "zh": "OK，那那那那这个我是接受不了的，因为我会放一点糖，我可以放点糖，",
-      "vi": "OK, thế… thế… cái này thì mình không chấp nhận nổi, vì mình sẽ cho một chút đường, mình có thể cho chút đường,"
+      "parts": [
+        {
+          "zh": "OK，那那那那这个我是接受不了的，",
+          "vi": "OK, thế… thế… cái này thì mình không chấp nhận nổi,"
+        },
+        {
+          "zh": "因为我会放一点糖，",
+          "vi": "vì mình sẽ cho một chút đường,"
+        },
+        {
+          "zh": "我可以放点糖，",
+          "vi": "mình có thể cho chút đường,"
+        }
+      ]
     },
     "355": {
       "zh": "我也我可以放一点番茄酱。",
@@ -1388,23 +3987,92 @@
     },
     "356": {
       "zh": "就让它变得有一点点甜味，但是它主要还是这种咸的味道。",
-      "vi": "Để nó có một chút xíu vị ngọt, nhưng chủ yếu vẫn là vị mặn."
+      "parts": [
+        {
+          "zh": "就让它变得有一点点甜味，",
+          "vi": "để nó có một chút xíu vị ngọt,"
+        },
+        {
+          "zh": "但是它主要还是这种咸的味道。",
+          "vi": "nhưng chủ yếu vẫn là vị mặn."
+        }
+      ]
     },
     "357": {
       "zh": "嗯，但是番茄炒蛋真的是一道中国的国菜，就是把番茄和蛋非常literally的炒在一起。",
-      "vi": "Ừm, nhưng cà chua xào trứng đúng là một món \"quốc hồn\" (国菜) của Trung Quốc, là đem cà chua và trứng xào chung với nhau đúng nghĩa đen (literally)."
+      "parts": [
+        {
+          "zh": "嗯，但是番茄炒蛋",
+          "vi": "Ừm, nhưng cà chua xào trứng"
+        },
+        {
+          "zh": "真的是一道中国的国菜，",
+          "vi": "đúng là một món \"quốc hồn\" (国菜) của Trung Quốc,"
+        },
+        {
+          "zh": "就是把番茄和蛋",
+          "vi": "là đem cà chua và trứng"
+        },
+        {
+          "zh": "非常literally的",
+          "vi": "đúng nghĩa đen (literally)"
+        },
+        {
+          "zh": "炒在一起。",
+          "vi": "xào chung với nhau."
+        }
+      ]
     },
     "358": {
       "zh": "但是几乎每一个中国人都会做的第一道菜，可能就是番茄炒蛋。",
-      "vi": "Mà gần như món đầu tiên mà mỗi người Trung Quốc đều biết nấu có lẽ chính là cà chua xào trứng."
+      "parts": [
+        {
+          "zh": "但是几乎每一个中国人",
+          "vi": "Mà gần như mỗi người Trung Quốc,"
+        },
+        {
+          "zh": "都会做的第一道菜，",
+          "vi": "món đầu tiên đều biết nấu"
+        },
+        {
+          "zh": "可能就是番茄炒蛋。",
+          "vi": "có lẽ chính là cà chua xào trứng."
+        }
+      ]
     },
     "359": {
       "zh": "对，其实挺奇怪，就是这番茄炒蛋到底是什么菜系、什么地方发源的？",
-      "vi": "Đúng, thật ra khá lạ, là cà chua xào trứng này rốt cuộc là thuộc trường phái ẩm thực nào, bắt nguồn từ đâu?"
+      "parts": [
+        {
+          "zh": "对，其实挺奇怪，",
+          "vi": "Đúng, thật ra khá lạ,"
+        },
+        {
+          "zh": "就是这番茄炒蛋到底是什么菜系、",
+          "vi": "là cà chua xào trứng này rốt cuộc là thuộc trường phái ẩm thực nào,"
+        },
+        {
+          "zh": "什么地方发源的？",
+          "vi": "bắt nguồn từ đâu?"
+        }
+      ]
     },
     "360": {
       "zh": "不知道成都吧，而且可能番茄这种东西进入中国也并不是也并不是太久，",
-      "vi": "Không biết Thành Đô chăng, mà có lẽ cà chua du nhập vào Trung Quốc cũng không… cũng không lâu lắm,"
+      "parts": [
+        {
+          "zh": "不知道成都吧，",
+          "vi": "Không biết, Thành Đô chăng,"
+        },
+        {
+          "zh": "而且可能番茄这种东西进入中国",
+          "vi": "mà có lẽ cà chua du nhập vào Trung Quốc"
+        },
+        {
+          "zh": "也并不是也并不是太久，",
+          "vi": "cũng không… cũng không lâu lắm,"
+        }
+      ]
     },
     "361": {
       "zh": "所以这可能也不算什么传统菜。",
@@ -1416,11 +4084,37 @@
     },
     "363": {
       "zh": "但是它一个是比较有营养，我觉得第二个是比较好做，比较容易做；",
-      "vi": "Nhưng nó một là khá bổ dưỡng, mình thấy hai là khá dễ làm, khá dễ nấu;"
+      "parts": [
+        {
+          "zh": "但是它一个是比较有营养，",
+          "vi": "Nhưng nó một là khá bổ dưỡng,"
+        },
+        {
+          "zh": "我觉得第二个是比较好做，",
+          "vi": "mình thấy hai là khá dễ làm,"
+        },
+        {
+          "zh": "比较容易做；",
+          "vi": "khá dễ nấu;"
+        }
+      ]
     },
     "364": {
       "zh": "第三个是它的颜色跟中国的国旗是一样的，所以我觉得这个可能有一点关系。",
-      "vi": "ba là màu của nó giống quốc kỳ Trung Quốc, nên mình thấy chuyện này có thể có chút liên quan."
+      "parts": [
+        {
+          "zh": "第三个是它的颜色",
+          "vi": "ba là màu của nó"
+        },
+        {
+          "zh": "跟中国的国旗是一样的，",
+          "vi": "giống quốc kỳ Trung Quốc,"
+        },
+        {
+          "zh": "所以我觉得这个可能有一点关系。",
+          "vi": "nên mình thấy chuyện này có thể có chút liên quan."
+        }
+      ]
     },
     "365": {
       "zh": "Oh my god！",
@@ -1440,27 +4134,125 @@
     },
     "369": {
       "zh": "因为我以前听到这个，我就觉得OK，呃，但是就是啊，但是你知道吗？",
-      "vi": "Vì trước đây mình nghe cái này, mình cũng thấy OK, ờ, nhưng mà, nhưng mà cậu biết không?"
+      "parts": [
+        {
+          "zh": "因为我以前听到这个，",
+          "vi": "Vì trước đây mình nghe cái này,"
+        },
+        {
+          "zh": "我就觉得OK，呃，",
+          "vi": "mình cũng thấy OK, ờ,"
+        },
+        {
+          "zh": "但是就是啊，但是你知道吗？",
+          "vi": "nhưng mà, nhưng mà cậu biết không?"
+        }
+      ]
     },
     "370": {
       "zh": "就比如说当年中国办奥运会的时候，因为我们的队服都是和中国国旗的颜色一样，",
-      "vi": "Như hồi Trung Quốc tổ chức Olympic, vì đồng phục đội tuyển bọn mình đều cùng màu với quốc kỳ Trung Quốc,"
+      "parts": [
+        {
+          "zh": "就比如说当年中国办奥运会的时候，",
+          "vi": "Như hồi Trung Quốc tổ chức Olympic,"
+        },
+        {
+          "zh": "因为我们的队服",
+          "vi": "vì đồng phục đội tuyển bọn mình"
+        },
+        {
+          "zh": "都是和中国国旗的颜色一样，",
+          "vi": "đều cùng màu với quốc kỳ Trung Quốc,"
+        }
+      ]
     },
     "371": {
       "zh": "是红色和黄色作为主色调，但当时大家都管这个叫番茄炒蛋颜色。",
-      "vi": "lấy đỏ và vàng làm tông màu chủ đạo, nên hồi đó mọi người đều gọi đó là màu cà chua xào trứng."
+      "parts": [
+        {
+          "zh": "是红色和黄色作为主色调，",
+          "vi": "lấy đỏ và vàng làm tông màu chủ đạo,"
+        },
+        {
+          "zh": "但当时大家都管这个",
+          "vi": "nên hồi đó mọi người đều gọi đó"
+        },
+        {
+          "zh": "叫番茄炒蛋颜色。",
+          "vi": "là màu cà chua xào trứng."
+        }
+      ]
     },
     "372": {
       "zh": "所以可以证明番茄炒蛋有一点点会想到这个它是有相像可是就是有人为什么说就是有人说为什么",
-      "vi": "Vậy có thể chứng minh cà chua xào trứng có một chút gợi nghĩ đến cái này, nó có nét giống, nhưng mà có người nói tại sao, có người nói tại sao"
+      "parts": [
+        {
+          "zh": "所以可以证明番茄炒蛋",
+          "vi": "Vậy có thể chứng minh cà chua xào trứng"
+        },
+        {
+          "zh": "有一点点会想到这个",
+          "vi": "có một chút gợi nghĩ đến cái này,"
+        },
+        {
+          "zh": "它是有相像",
+          "vi": "nó có nét giống,"
+        },
+        {
+          "zh": "可是就是有人为什么说",
+          "vi": "nhưng mà có người nói tại sao,"
+        },
+        {
+          "zh": "就是有人说为什么",
+          "vi": "có người nói tại sao"
+        }
+      ]
     },
     "373": {
       "zh": "番茄炒蛋是很流行说是因为它是什么跟国旗颜色一样什么之类的这个就有点扯太远了我不知道Anyways",
-      "vi": "cà chua xào trứng phổ biến, là vì nó cùng màu với quốc kỳ các kiểu, cái này thì hơi kéo xa quá. Mình không biết. Anyways,"
+      "parts": [
+        {
+          "zh": "番茄炒蛋是很流行",
+          "vi": "cà chua xào trứng phổ biến,"
+        },
+        {
+          "zh": "说是因为它是什么",
+          "vi": "nói là vì nó"
+        },
+        {
+          "zh": "跟国旗颜色一样什么之类的",
+          "vi": "cùng màu với quốc kỳ các kiểu,"
+        },
+        {
+          "zh": "这个就有点扯太远了",
+          "vi": "cái này thì hơi kéo xa quá."
+        },
+        {
+          "zh": "我不知道Anyways",
+          "vi": "Mình không biết. Anyways,"
+        }
+      ]
     },
     "374": {
       "zh": "我们今天已经不知不觉聊了三十分钟还还挺好玩的你觉得呢Yeah yeah yeah嗯好，",
-      "vi": "hôm nay bọn mình đã bất giác nói chuyện 30 phút rồi, cũng khá vui, cậu thấy sao? Yeah yeah yeah, ừm, được,"
+      "parts": [
+        {
+          "zh": "我们今天已经不知不觉",
+          "vi": "hôm nay bọn mình đã bất giác"
+        },
+        {
+          "zh": "聊了三十分钟",
+          "vi": "nói chuyện 30 phút rồi,"
+        },
+        {
+          "zh": "还还挺好玩的你觉得呢",
+          "vi": "cũng khá vui, cậu thấy sao?"
+        },
+        {
+          "zh": "Yeah yeah yeah嗯好，",
+          "vi": "Yeah yeah yeah, ừm, được,"
+        }
+      ]
     },
     "375": {
       "zh": "那我们先聊到这儿。",
@@ -1468,11 +4260,29 @@
     },
     "376": {
       "zh": "如果有什么不懂的单词，可以看我们的留言区，",
-      "vi": "Nếu có từ nào không hiểu, có thể xem ở phần bình luận của bọn mình,"
+      "parts": [
+        {
+          "zh": "如果有什么不懂的单词，",
+          "vi": "Nếu có từ nào không hiểu,"
+        },
+        {
+          "zh": "可以看我们的留言区，",
+          "vi": "có thể xem ở phần bình luận của bọn mình,"
+        }
+      ]
     },
     "377": {
       "zh": "我会把比较重要的单词呃和解释放在我们的留言区里。",
-      "vi": "mình sẽ để những từ quan trọng, ờ, và giải thích ở phần bình luận."
+      "parts": [
+        {
+          "zh": "我会把比较重要的单词",
+          "vi": "mình sẽ để những từ quan trọng"
+        },
+        {
+          "zh": "呃和解释放在我们的留言区里。",
+          "vi": "ờ, và giải thích ở phần bình luận."
+        }
+      ]
     },
     "378": {
       "zh": "是的。",

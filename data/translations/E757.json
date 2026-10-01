@@ -8,19 +8,67 @@
   "sentences": {
     "0": {
       "zh": "今天的节目开始之前，先说一个通知哈。",
-      "vi": "Trước khi chương trình hôm nay bắt đầu, xin thông báo một chút nhé."
+      "parts": [
+        {
+          "zh": "今天的节目开始之前，",
+          "vi": "Trước khi chương trình hôm nay bắt đầu,"
+        },
+        {
+          "zh": "先说一个通知哈。",
+          "vi": "xin thông báo một chút nhé."
+        }
+      ]
     },
     "1": {
       "zh": "今天这期节目是十一假期前的最后一期节目，假期我们会休息一下，暂停更新一周。",
-      "vi": "Kỳ này là kỳ cuối trước kỳ nghỉ Quốc khánh 1/10, trong kỳ nghỉ chúng tôi sẽ nghỉ ngơi một chút, tạm dừng cập nhật một tuần."
+      "parts": [
+        {
+          "zh": "今天这期节目是",
+          "vi": "Kỳ này là"
+        },
+        {
+          "zh": "十一假期前的最后一期节目，",
+          "vi": "kỳ cuối trước kỳ nghỉ Quốc khánh 1/10,"
+        },
+        {
+          "zh": "假期我们会休息一下，",
+          "vi": "trong kỳ nghỉ chúng tôi sẽ nghỉ ngơi một chút,"
+        },
+        {
+          "zh": "暂停更新一周。",
+          "vi": "tạm dừng cập nhật một tuần."
+        }
+      ]
     },
     "2": {
       "zh": "节后回来的那个周一，也就是十月九号恢复更新。",
-      "vi": "Thứ Hai đầu tiên sau kỳ nghỉ, tức là ngày 9 tháng 10, chúng tôi sẽ cập nhật trở lại."
+      "parts": [
+        {
+          "zh": "节后回来的那个周一，",
+          "vi": "Thứ Hai đầu tiên sau kỳ nghỉ,"
+        },
+        {
+          "zh": "也就是十月九号恢复更新。",
+          "vi": "tức là ngày 9 tháng 10, chúng tôi sẽ cập nhật trở lại."
+        }
+      ]
     },
     "3": {
       "zh": "祝大家假期吃得爽、喝得嗨、睡得香、玩得好，咱们节后回来见。",
-      "vi": "Chúc mọi người kỳ nghỉ ăn thật đã, uống thật vui, ngủ thật ngon, chơi thật thỏa, hẹn gặp lại sau kỳ nghỉ."
+      "parts": [
+        {
+          "zh": "祝大家假期吃得爽、喝得嗨、",
+          "vi": "Chúc mọi người kỳ nghỉ ăn thật đã, uống thật vui,"
+        },
+        {
+          "zh": "睡得香、玩得好，",
+          "vi": "ngủ thật ngon, chơi thật thỏa,"
+        },
+        {
+          "zh": "咱们节后回来见。",
+          "vi": "hẹn gặp lại sau kỳ nghỉ."
+        }
+      ]
     },
     "4": {
       "zh": "你好，欢迎收听故事F M。",
@@ -28,23 +76,84 @@
     },
     "5": {
       "zh": "我是爱哲，一个收集故事的人，在这里我们用你的声音讲述你的故事。",
-      "vi": "Tôi là Ái Triết, người đi sưu tầm những câu chuyện, ở đây chúng tôi dùng chính giọng của bạn để kể câu chuyện của bạn."
+      "parts": [
+        {
+          "zh": "我是爱哲，一个收集故事的人，",
+          "vi": "Tôi là Ái Triết, người đi sưu tầm những câu chuyện,"
+        },
+        {
+          "zh": "在这里我们用你的声音",
+          "vi": "ở đây chúng tôi dùng chính giọng của bạn"
+        },
+        {
+          "zh": "讲述你的故事。",
+          "vi": "để kể câu chuyện của bạn."
+        }
+      ]
     },
     "6": {
       "zh": "得知亲人重病的时候，我们第一时间本能的想到的就是尽快把亲人送到医院治疗。",
-      "vi": "Khi biết người thân bị bệnh nặng, phản xạ đầu tiên của chúng ta là đưa người thân vào viện chữa trị càng sớm càng tốt."
+      "parts": [
+        {
+          "zh": "得知亲人重病的时候，",
+          "vi": "Khi biết người thân bị bệnh nặng,"
+        },
+        {
+          "zh": "我们第一时间本能的想到的",
+          "vi": "phản xạ đầu tiên của chúng ta"
+        },
+        {
+          "zh": "就是尽快把亲人送到医院治疗。",
+          "vi": "là đưa người thân vào viện chữa trị càng sớm càng tốt."
+        }
+      ]
     },
     "7": {
       "zh": "即便是被告知亲人所患的是绝症，且时日无多了，一般人也难以做出放弃治疗的决定。",
-      "vi": "Kể cả khi được báo rằng người thân mắc bệnh nan y và không còn sống được bao lâu, người bình thường cũng khó mà quyết định từ bỏ điều trị."
+      "parts": [
+        {
+          "zh": "即便是被告知亲人所患的是绝症，",
+          "vi": "Kể cả khi được báo rằng người thân mắc bệnh nan y,"
+        },
+        {
+          "zh": "且时日无多了，",
+          "vi": "và không còn sống được bao lâu,"
+        },
+        {
+          "zh": "一般人也难以做出放弃治疗的决定。",
+          "vi": "người bình thường cũng khó mà quyết định từ bỏ điều trị."
+        }
+      ]
     },
     "8": {
       "zh": "所以自己深爱的人在最后的日子里，往往不仅要忍受病痛。",
-      "vi": "Nên những ngày cuối đời của người mình yêu thương, họ thường không chỉ phải chịu đựng cơn đau bệnh tật."
+      "parts": [
+        {
+          "zh": "所以自己深爱的人在最后的日子里，",
+          "vi": "Nên những ngày cuối đời của người mình yêu thương,"
+        },
+        {
+          "zh": "往往不仅要忍受病痛。",
+          "vi": "họ thường không chỉ phải chịu đựng cơn đau bệnh tật."
+        }
+      ]
     },
     "9": {
       "zh": "还要承受各种治疗带来的无尽折磨，那有没有一种方式可以让生命中末期的患者舒适安详、",
-      "vi": "mà còn phải chịu vô vàn giày vò do đủ loại điều trị mang lại, vậy có cách nào để bệnh nhân giai đoạn cuối ra đi thoải mái, bình yên,"
+      "parts": [
+        {
+          "zh": "还要承受各种治疗带来的无尽折磨，",
+          "vi": "mà còn phải chịu vô vàn giày vò do đủ loại điều trị mang lại,"
+        },
+        {
+          "zh": "那有没有一种方式",
+          "vi": "vậy có cách nào"
+        },
+        {
+          "zh": "可以让生命中末期的患者舒适安详、",
+          "vi": "để bệnh nhân giai đoạn cuối ra đi thoải mái, bình yên,"
+        }
+      ]
     },
     "10": {
       "zh": "不带遗憾的离世呢？",
@@ -52,31 +161,106 @@
     },
     "11": {
       "zh": "这些年里，死亡质量、临终告别、尊重逐渐成为越来越多的人关注的话题。",
-      "vi": "Những năm gần đây, chất lượng cái chết, lời từ biệt lúc lâm chung, sự tôn trọng dần trở thành chủ đề ngày càng nhiều người quan tâm."
+      "parts": [
+        {
+          "zh": "这些年里，",
+          "vi": "Những năm gần đây,"
+        },
+        {
+          "zh": "死亡质量、临终告别、尊重",
+          "vi": "chất lượng cái chết, lời từ biệt lúc lâm chung, sự tôn trọng"
+        },
+        {
+          "zh": "逐渐成为越来越多的人关注的话题。",
+          "vi": "dần trở thành chủ đề ngày càng nhiều người quan tâm."
+        }
+      ]
     },
     "12": {
       "zh": "中国的安宁疗护事业在不断的成长和壮大中，",
-      "vi": "Ngành chăm sóc cuối đời (安宁疗护) của Trung Quốc không ngừng phát triển và lớn mạnh,"
+      "parts": [
+        {
+          "zh": "中国的安宁疗护事业",
+          "vi": "Ngành chăm sóc cuối đời (安宁疗护) của Trung Quốc"
+        },
+        {
+          "zh": "在不断的成长和壮大中，",
+          "vi": "không ngừng phát triển và lớn mạnh,"
+        }
+      ]
     },
     "13": {
       "zh": "目前全国可以提供安宁疗护服务的机构已经有六十一个了。",
-      "vi": "hiện cả nước đã có 61 cơ sở có thể cung cấp dịch vụ chăm sóc cuối đời."
+      "parts": [
+        {
+          "zh": "目前全国可以提供",
+          "vi": "hiện cả nước đã có"
+        },
+        {
+          "zh": "安宁疗护服务的机构",
+          "vi": "cơ sở có thể cung cấp dịch vụ chăm sóc cuối đời,"
+        },
+        {
+          "zh": "已经有六十一个了。",
+          "vi": "tổng cộng 61 nơi rồi."
+        }
+      ]
     },
     "14": {
       "zh": "海淀医院安宁疗护中心就是全国首批示范基地。",
-      "vi": "Trung tâm chăm sóc cuối đời của Bệnh viện Hải Điến chính là một trong những cơ sở mẫu đầu tiên của cả nước."
+      "parts": [
+        {
+          "zh": "海淀医院安宁疗护中心",
+          "vi": "Trung tâm chăm sóc cuối đời của Bệnh viện Hải Điến"
+        },
+        {
+          "zh": "就是全国首批示范基地。",
+          "vi": "chính là một trong những cơ sở mẫu đầu tiên của cả nước."
+        }
+      ]
     },
     "15": {
       "zh": "海淀医院安宁疗护中心也被业内人简称为“海医安宁”。",
-      "vi": "Trung tâm chăm sóc cuối đời của Bệnh viện Hải Điến cũng được người trong ngành gọi tắt là \"Hải Y An Ninh\"."
+      "parts": [
+        {
+          "zh": "海淀医院安宁疗护中心",
+          "vi": "Trung tâm chăm sóc cuối đời của Bệnh viện Hải Điến"
+        },
+        {
+          "zh": "也被业内人简称为“海医安宁”。",
+          "vi": "cũng được người trong ngành gọi tắt là \"Hải Y An Ninh\"."
+        }
+      ]
     },
     "16": {
       "zh": "今天的讲述者徐叔就是北京海医安宁的一名志愿者。",
-      "vi": "Người kể chuyện hôm nay, Từ Thúc, chính là một tình nguyện viên của Hải Y An Ninh ở Bắc Kinh."
+      "parts": [
+        {
+          "zh": "今天的讲述者徐叔",
+          "vi": "Người kể chuyện hôm nay, Từ Thúc,"
+        },
+        {
+          "zh": "就是北京海医安宁的一名志愿者。",
+          "vi": "chính là một tình nguyện viên của Hải Y An Ninh ở Bắc Kinh."
+        }
+      ]
     },
     "17": {
       "zh": "安宁的理念让徐叔内心的哀伤得到了治愈和救赎，因而从母亲癌症离世的痛苦中走出，",
-      "vi": "Triết lý chăm sóc cuối đời đã chữa lành và cứu rỗi nỗi đau trong lòng Từ Thúc, giúp bà bước ra khỏi nỗi đau mất mẹ vì ung thư,"
+      "parts": [
+        {
+          "zh": "安宁的理念让徐叔内心的哀伤",
+          "vi": "Triết lý chăm sóc cuối đời đã giúp nỗi đau trong lòng Từ Thúc"
+        },
+        {
+          "zh": "得到了治愈和救赎，",
+          "vi": "được chữa lành và cứu rỗi,"
+        },
+        {
+          "zh": "因而从母亲癌症离世的痛苦中走出，",
+          "vi": "giúp bà bước ra khỏi nỗi đau mất mẹ vì ung thư,"
+        }
+      ]
     },
     "18": {
       "zh": "并为父亲善终。",
@@ -84,47 +268,170 @@
     },
     "19": {
       "zh": "他不仅不再对死亡感到恐惧，还学会了如何重新拥抱生命。",
-      "vi": "Bà không những không còn sợ cái chết, mà còn học được cách ôm lấy cuộc sống một lần nữa."
+      "parts": [
+        {
+          "zh": "他不仅不再对死亡感到恐惧，",
+          "vi": "Bà không những không còn sợ cái chết,"
+        },
+        {
+          "zh": "还学会了如何重新拥抱生命。",
+          "vi": "mà còn học được cách ôm lấy cuộc sống một lần nữa."
+        }
+      ]
     },
     "20": {
       "zh": "二零一三年，徐叔的母亲被确诊肺癌，生命只剩下两到三年的时间了。",
-      "vi": "Năm 2013, mẹ của Từ Thúc được chẩn đoán ung thư phổi, chỉ còn sống được hai đến ba năm."
+      "parts": [
+        {
+          "zh": "二零一三年，",
+          "vi": "Năm 2013,"
+        },
+        {
+          "zh": "徐叔的母亲被确诊肺癌，",
+          "vi": "mẹ của Từ Thúc được chẩn đoán ung thư phổi,"
+        },
+        {
+          "zh": "生命只剩下两到三年的时间了。",
+          "vi": "chỉ còn sống được hai đến ba năm."
+        }
+      ]
     },
     "21": {
       "zh": "因为选择保守治疗，徐叔在三年间满足母亲的一切心愿，尽可能的让母亲最后的日子过得开心。",
-      "vi": "Vì chọn điều trị bảo tồn, trong ba năm đó Từ Thúc chiều theo mọi mong muốn của mẹ, cố gắng hết sức để những ngày cuối của mẹ được vui vẻ."
+      "parts": [
+        {
+          "zh": "因为选择保守治疗，",
+          "vi": "Vì chọn điều trị bảo tồn,"
+        },
+        {
+          "zh": "徐叔在三年间",
+          "vi": "trong ba năm đó Từ Thúc"
+        },
+        {
+          "zh": "满足母亲的一切心愿，",
+          "vi": "chiều theo mọi mong muốn của mẹ,"
+        },
+        {
+          "zh": "尽可能的",
+          "vi": "cố gắng hết sức"
+        },
+        {
+          "zh": "让母亲最后的日子过得开心。",
+          "vi": "để những ngày cuối của mẹ được vui vẻ."
+        }
+      ]
     },
     "22": {
       "zh": "后来从二零一六年七月开始，母亲的身体状况断崖式恶化，",
-      "vi": "Về sau, từ tháng 7 năm 2016, sức khỏe của mẹ bà xấu đi đột ngột,"
+      "parts": [
+        {
+          "zh": "后来从二零一六年七月开始，",
+          "vi": "Về sau, từ tháng 7 năm 2016,"
+        },
+        {
+          "zh": "母亲的身体状况断崖式恶化，",
+          "vi": "sức khỏe của mẹ bà xấu đi đột ngột,"
+        }
+      ]
     },
     "23": {
       "zh": "徐叔已经无法在家里为母亲解决痛苦，于是他把母亲送去医院急救。",
-      "vi": "Từ Thúc không còn cách nào giải tỏa cơn đau cho mẹ ở nhà được nữa, nên bà đưa mẹ vào viện cấp cứu."
+      "parts": [
+        {
+          "zh": "徐叔已经无法在家里",
+          "vi": "Từ Thúc không còn cách nào ở nhà"
+        },
+        {
+          "zh": "为母亲解决痛苦，",
+          "vi": "giải tỏa cơn đau cho mẹ được nữa,"
+        },
+        {
+          "zh": "于是他把母亲送去医院急救。",
+          "vi": "nên bà đưa mẹ vào viện cấp cứu."
+        }
+      ]
     },
     "24": {
       "zh": "我是徐叔，今年六十六岁，曾经是大学的老师。",
-      "vi": "Tôi là Từ Thúc, năm nay 66 tuổi, từng là giảng viên đại học,"
+      "parts": [
+        {
+          "zh": "我是徐叔，今年六十六岁，",
+          "vi": "Tôi là Từ Thúc, năm nay 66 tuổi,"
+        },
+        {
+          "zh": "曾经是大学的老师。",
+          "vi": "từng là giảng viên đại học,"
+        }
+      ]
     },
     "25": {
       "zh": "服装设计师，现在是海淀医院安宁病房的志愿者。",
-      "vi": "nhà thiết kế thời trang, hiện là tình nguyện viên ở khoa chăm sóc cuối đời của Bệnh viện Hải Điến."
+      "parts": [
+        {
+          "zh": "服装设计师，",
+          "vi": "nhà thiết kế thời trang,"
+        },
+        {
+          "zh": "现在是海淀医院安宁病房的志愿者。",
+          "vi": "hiện là tình nguyện viên ở khoa chăm sóc cuối đời của Bệnh viện Hải Điến."
+        }
+      ]
     },
     "26": {
       "zh": "那我我母亲肺癌晚期的时候，那个时候我是一个特别迷茫的状态。",
-      "vi": "Hồi mẹ tôi bị ung thư phổi giai đoạn cuối, lúc đó tôi ở trong trạng thái đặc biệt hoang mang."
+      "parts": [
+        {
+          "zh": "那我我母亲肺癌晚期的时候，",
+          "vi": "Hồi mẹ tôi bị ung thư phổi giai đoạn cuối,"
+        },
+        {
+          "zh": "那个时候我是一个特别迷茫的状态。",
+          "vi": "lúc đó tôi ở trong trạng thái đặc biệt hoang mang."
+        }
+      ]
     },
     "27": {
       "zh": "当时她那个骨转移疼痛开始之后，她的吞咽也出现障碍了，吃饭也不行了。",
-      "vi": "Lúc đó sau khi bà bắt đầu đau vì di căn xương, bà còn bị khó nuốt, ăn cũng không được nữa."
+      "parts": [
+        {
+          "zh": "当时她那个骨转移疼痛开始之后，",
+          "vi": "Lúc đó sau khi bà bắt đầu đau vì di căn xương,"
+        },
+        {
+          "zh": "她的吞咽也出现障碍了，",
+          "vi": "bà còn bị khó nuốt,"
+        },
+        {
+          "zh": "吃饭也不行了。",
+          "vi": "ăn cũng không được nữa."
+        }
+      ]
     },
     "28": {
       "zh": "这个时候我就觉着这些问题我解决不了了。",
-      "vi": "Lúc này tôi thấy những vấn đề này mình không giải quyết được nữa."
+      "parts": [
+        {
+          "zh": "这个时候我就觉着",
+          "vi": "Lúc này tôi thấy"
+        },
+        {
+          "zh": "这些问题我解决不了了。",
+          "vi": "những vấn đề này mình không giải quyết được nữa."
+        }
+      ]
     },
     "29": {
       "zh": "虽然贴了透皮贴，但是她还是有些疼，然后她脚趾开始坏死。",
-      "vi": "Tuy đã dán miếng giảm đau qua da, nhưng bà vẫn còn đau, rồi ngón chân bà bắt đầu hoại tử."
+      "parts": [
+        {
+          "zh": "虽然贴了透皮贴，",
+          "vi": "Tuy đã dán miếng giảm đau qua da,"
+        },
+        {
+          "zh": "但是她还是有些疼，然后她脚趾开始坏死。",
+          "vi": "nhưng bà vẫn còn đau, rồi ngón chân bà bắt đầu hoại tử."
+        }
+      ]
     },
     "30": {
       "zh": "即使有头皮贴，他那个疼也忍不住。",
@@ -132,7 +439,16 @@
     },
     "31": {
       "zh": "嗯，这个时候我跟我妈商量，就决定去医院。",
-      "vi": "Ừm, lúc này tôi bàn với mẹ, quyết định vào viện."
+      "parts": [
+        {
+          "zh": "嗯，这个时候我跟我妈商量，",
+          "vi": "Ừm, lúc này tôi bàn với mẹ,"
+        },
+        {
+          "zh": "就决定去医院。",
+          "vi": "quyết định vào viện."
+        }
+      ]
     },
     "32": {
       "zh": "去医院直接就收进了IC U。",
@@ -140,11 +456,41 @@
     },
     "33": {
       "zh": "由于当时的那个认知，就是觉着我的孝顺就是妈妈不难受的时候，我把她照顾好，",
-      "vi": "Vì nhận thức lúc đó của tôi là, hiếu thảo nghĩa là lúc mẹ không khó chịu thì tôi chăm sóc mẹ thật tốt,"
+      "parts": [
+        {
+          "zh": "由于当时的那个认知，",
+          "vi": "Vì nhận thức lúc đó,"
+        },
+        {
+          "zh": "就是觉着我的孝顺就是",
+          "vi": "tôi thấy hiếu thảo nghĩa là"
+        },
+        {
+          "zh": "妈妈不难受的时候，",
+          "vi": "lúc mẹ không khó chịu,"
+        },
+        {
+          "zh": "我把她照顾好，",
+          "vi": "thì tôi chăm sóc mẹ thật tốt,"
+        }
+      ]
     },
     "34": {
       "zh": "让她吃好喝好；然后她难受的时候，我一定要送她去医院，因为有些问题我解决不了，",
-      "vi": "cho mẹ ăn ngon uống ngon; còn lúc mẹ khó chịu thì tôi nhất định phải đưa mẹ vào viện, vì có những vấn đề tôi không giải quyết được,"
+      "parts": [
+        {
+          "zh": "让她吃好喝好；然后她难受的时候，",
+          "vi": "cho mẹ ăn ngon uống ngon; còn lúc mẹ khó chịu,"
+        },
+        {
+          "zh": "我一定要送她去医院，",
+          "vi": "thì tôi nhất định phải đưa mẹ vào viện,"
+        },
+        {
+          "zh": "因为有些问题我解决不了，",
+          "vi": "vì có những vấn đề tôi không giải quyết được,"
+        }
+      ]
     },
     "35": {
       "zh": "但是医生能解决。",
@@ -156,31 +502,110 @@
     },
     "37": {
       "zh": "我们去医院的那天，我跟我妈商量说：“咱们说走就走。”",
-      "vi": "Hôm vào viện, tôi bàn với mẹ: \"Mình nói đi là đi.\""
+      "parts": [
+        {
+          "zh": "我们去医院的那天，",
+          "vi": "Hôm vào viện,"
+        },
+        {
+          "zh": "我跟我妈商量说：“咱们说走就走。”",
+          "vi": "tôi bàn với mẹ: \"Mình nói đi là đi.\""
+        }
+      ]
     },
     "38": {
       "zh": "尽快去，尽快让医院给你解决疼痛的问题。",
-      "vi": "Đi sớm, để bệnh viện sớm giải quyết cơn đau cho mẹ."
+      "parts": [
+        {
+          "zh": "尽快去，",
+          "vi": "Đi sớm,"
+        },
+        {
+          "zh": "尽快让医院给你解决疼痛的问题。",
+          "vi": "để bệnh viện sớm giải quyết cơn đau cho mẹ."
+        }
+      ]
     },
     "39": {
       "zh": "结果那天是周日，去了之后呢，当天的毒麻药是拿不出来的，",
-      "vi": "Kết quả hôm đó là Chủ nhật, đến nơi rồi thì thuốc giảm đau gây nghiện không lấy ra được trong ngày,"
+      "parts": [
+        {
+          "zh": "结果那天是周日，去了之后呢，",
+          "vi": "Kết quả hôm đó là Chủ nhật, đến nơi rồi thì,"
+        },
+        {
+          "zh": "当天的毒麻药是拿不出来的，",
+          "vi": "thuốc giảm đau gây nghiện không lấy ra được trong ngày,"
+        }
+      ]
     },
     "40": {
       "zh": "然后就说止痛明天早晨八点以后才能开始，就跟家属打招呼了。",
-      "vi": "rồi họ bảo phải sau 8 giờ sáng mai mới bắt đầu giảm đau được, họ báo trước với người nhà như vậy."
+      "parts": [
+        {
+          "zh": "然后就说止痛",
+          "vi": "rồi họ bảo giảm đau"
+        },
+        {
+          "zh": "明天早晨八点以后才能开始，",
+          "vi": "phải sau 8 giờ sáng mai mới bắt đầu được,"
+        },
+        {
+          "zh": "就跟家属打招呼了。",
+          "vi": "họ báo trước với người nhà như vậy."
+        }
+      ]
     },
     "41": {
       "zh": "然后我就说那也没关系，他现在贴着透皮贴，这个疼痛还能忍。",
-      "vi": "Rồi tôi nói vậy cũng không sao, giờ bà đang dán miếng giảm đau, cơn đau này vẫn còn chịu được."
+      "parts": [
+        {
+          "zh": "然后我就说那也没关系，",
+          "vi": "Rồi tôi nói vậy cũng không sao,"
+        },
+        {
+          "zh": "他现在贴着透皮贴，",
+          "vi": "giờ bà đang dán miếng giảm đau,"
+        },
+        {
+          "zh": "这个疼痛还能忍。",
+          "vi": "cơn đau này vẫn còn chịu được."
+        }
+      ]
     },
     "42": {
       "zh": "结果在我离开之后呢，值班的那个护士他不知道透皮贴是干嘛的，估计那是个新护士，",
-      "vi": "Kết quả sau khi tôi về, cô y tá trực không biết miếng dán giảm đau để làm gì, chắc là y tá mới,"
+      "parts": [
+        {
+          "zh": "结果在我离开之后呢，",
+          "vi": "Kết quả sau khi tôi về,"
+        },
+        {
+          "zh": "值班的那个护士",
+          "vi": "cô y tá trực"
+        },
+        {
+          "zh": "他不知道透皮贴是干嘛的，",
+          "vi": "không biết miếng dán giảm đau để làm gì,"
+        },
+        {
+          "zh": "估计那是个新护士，",
+          "vi": "chắc là y tá mới,"
+        }
+      ]
     },
     "43": {
       "zh": "他把透皮贴掀下来了看了看，一看没啥就给放那儿了。",
-      "vi": "cô ấy bóc miếng dán ra xem, thấy chẳng có gì nên để đó."
+      "parts": [
+        {
+          "zh": "他把透皮贴掀下来了看了看，",
+          "vi": "cô ấy bóc miếng dán ra xem,"
+        },
+        {
+          "zh": "一看没啥就给放那儿了。",
+          "vi": "thấy chẳng có gì nên để đó."
+        }
+      ]
     },
     "44": {
       "zh": "你知道就是粘在皮肤上的东西。",
@@ -188,11 +613,37 @@
     },
     "45": {
       "zh": "接下来再放就回不去了，他那个药效也没有了，他贴湿度也没有了。",
-      "vi": "Bóc ra rồi dán lại thì không dính lại được nữa, hiệu lực thuốc cũng mất, độ ẩm khi dán cũng không còn."
+      "parts": [
+        {
+          "zh": "接下来再放就回不去了，",
+          "vi": "Bóc ra rồi dán lại thì không dính lại được nữa,"
+        },
+        {
+          "zh": "他那个药效也没有了，",
+          "vi": "hiệu lực thuốc cũng mất,"
+        },
+        {
+          "zh": "他贴湿度也没有了。",
+          "vi": "độ ẩm khi dán cũng không còn."
+        }
+      ]
     },
     "46": {
       "zh": "然后我妈就在那儿没有透皮贴、没有镇痛的情况下忍痛忍了一夜。",
-      "vi": "Rồi mẹ tôi cứ thế nằm đó, không có miếng dán, không có thuốc giảm đau, chịu đau suốt một đêm."
+      "parts": [
+        {
+          "zh": "然后我妈就在那儿",
+          "vi": "Rồi mẹ tôi cứ thế nằm đó,"
+        },
+        {
+          "zh": "没有透皮贴、没有镇痛的情况下",
+          "vi": "không có miếng dán, không có thuốc giảm đau,"
+        },
+        {
+          "zh": "忍痛忍了一夜。",
+          "vi": "chịu đau suốt một đêm."
+        }
+      ]
     },
     "47": {
       "zh": "我当时还不在。",
@@ -200,7 +651,20 @@
     },
     "48": {
       "zh": "然后第二天早上我再去的时候，我妈已经说不出话了，我我我就这样的了，口眼歪斜。",
-      "vi": "Rồi sáng hôm sau tôi đến, mẹ tôi đã không nói được nữa, tôi, tôi, tôi thấy bà như thế này, miệng méo mắt lệch."
+      "parts": [
+        {
+          "zh": "然后第二天早上我再去的时候，",
+          "vi": "Rồi sáng hôm sau tôi đến,"
+        },
+        {
+          "zh": "我妈已经说不出话了，",
+          "vi": "mẹ tôi đã không nói được nữa,"
+        },
+        {
+          "zh": "我我我就这样的了，口眼歪斜。",
+          "vi": "tôi, tôi, tôi thấy bà như thế này, miệng méo mắt lệch."
+        }
+      ]
     },
     "49": {
       "zh": "我说怎么了？",
@@ -216,7 +680,16 @@
     },
     "52": {
       "zh": "突然间患者太疼了，然后疼得直挣扎，那个。",
-      "vi": "\"Đột nhiên bệnh nhân đau quá, rồi đau đến mức giãy giụa, nên"
+      "parts": [
+        {
+          "zh": "突然间患者太疼了，",
+          "vi": "\"Đột nhiên bệnh nhân đau quá,"
+        },
+        {
+          "zh": "然后疼得直挣扎，那个。",
+          "vi": "rồi đau đến mức giãy giụa, nên"
+        }
+      ]
     },
     "53": {
       "zh": "我们就把他手脚绑上了。",
@@ -240,11 +713,33 @@
     },
     "58": {
       "zh": "你想癌症骨转移那那种疼是痛彻心扉的。",
-      "vi": "Bạn nghĩ xem, cái đau của ung thư di căn xương là đau thấu tim gan."
+      "parts": [
+        {
+          "zh": "你想癌症骨转移",
+          "vi": "Bạn nghĩ xem, ung thư di căn xương,"
+        },
+        {
+          "zh": "那那种疼是痛彻心扉的。",
+          "vi": "cái đau đó là đau thấu tim gan."
+        }
+      ]
     },
     "59": {
       "zh": "然后我妈就这样自己忍着疼疼了一夜，第二天中风了。",
-      "vi": "Rồi mẹ tôi cứ thế một mình chịu đau suốt một đêm, sáng hôm sau thì bị đột quỵ."
+      "parts": [
+        {
+          "zh": "然后我妈就这样自己",
+          "vi": "Rồi mẹ tôi cứ thế một mình"
+        },
+        {
+          "zh": "忍着疼疼了一夜，",
+          "vi": "chịu đau suốt một đêm,"
+        },
+        {
+          "zh": "第二天中风了。",
+          "vi": "sáng hôm sau thì bị đột quỵ."
+        }
+      ]
     },
     "60": {
       "zh": "那个时候真的是泪流满面。",
@@ -252,7 +747,28 @@
     },
     "61": {
       "zh": "你就想一下，一个人这么孤独的在病房里一个人忍痛，最后挣扎的不行又被人绑在床上。",
-      "vi": "Bạn thử nghĩ xem, một người cô đơn một mình chịu đau trong phòng bệnh, giãy giụa không nổi nữa thì lại bị người ta trói vào giường."
+      "parts": [
+        {
+          "zh": "你就想一下，",
+          "vi": "Bạn thử nghĩ xem,"
+        },
+        {
+          "zh": "一个人这么孤独的在病房里",
+          "vi": "một người cô đơn trong phòng bệnh,"
+        },
+        {
+          "zh": "一个人忍痛，",
+          "vi": "một mình chịu đau,"
+        },
+        {
+          "zh": "最后挣扎的不行",
+          "vi": "cuối cùng giãy giụa không nổi nữa,"
+        },
+        {
+          "zh": "又被人绑在床上。",
+          "vi": "thì lại bị người ta trói vào giường."
+        }
+      ]
     },
     "62": {
       "zh": "动也动不了，那多恐怖的一件事儿！",
@@ -260,7 +776,20 @@
     },
     "63": {
       "zh": "那平时在家是我二十四小时陪着他，我他就在我身边躺着，他一动我就一摸他有事儿，",
-      "vi": "Bình thường ở nhà tôi ở bên bà 24 tiếng, bà nằm ngay cạnh tôi, bà cựa mình là tôi sờ thấy ngay có chuyện,"
+      "parts": [
+        {
+          "zh": "那平时在家是我二十四小时陪着他，",
+          "vi": "Bình thường ở nhà tôi ở bên bà 24 tiếng,"
+        },
+        {
+          "zh": "我他就在我身边躺着，",
+          "vi": "bà nằm ngay cạnh tôi,"
+        },
+        {
+          "zh": "他一动我就一摸他有事儿，",
+          "vi": "bà cựa mình là tôi sờ thấy ngay có chuyện,"
+        }
+      ]
     },
     "64": {
       "zh": "我马上就起来去照顾他。",
@@ -268,11 +797,33 @@
     },
     "65": {
       "zh": "然后现在就变成这个样子，然后病房里边空调正对着床吹，然后我妈身上就盖那个单子，",
-      "vi": "Rồi bây giờ lại thành ra thế này, rồi trong phòng bệnh điều hòa thổi thẳng vào giường, mà trên người mẹ tôi chỉ đắp một tấm ga,"
+      "parts": [
+        {
+          "zh": "然后现在就变成这个样子，",
+          "vi": "rồi bây giờ lại thành ra thế này,"
+        },
+        {
+          "zh": "然后病房里边空调正对着床吹，",
+          "vi": "rồi trong phòng bệnh điều hòa thổi thẳng vào giường,"
+        },
+        {
+          "zh": "然后我妈身上就盖那个单子，",
+          "vi": "mà trên người mẹ tôi chỉ đắp một tấm ga,"
+        }
+      ]
     },
     "66": {
       "zh": "他们可能弄这个弄那个的时候把单子又撤了。",
-      "vi": "có lẽ lúc họ làm cái này cái kia thì lại kéo tấm ga ra."
+      "parts": [
+        {
+          "zh": "他们可能弄这个弄那个的时候",
+          "vi": "có lẽ lúc họ làm cái này cái kia,"
+        },
+        {
+          "zh": "把单子又撤了。",
+          "vi": "thì lại kéo tấm ga ra."
+        }
+      ]
     },
     "67": {
       "zh": "你想，这单子就到胸口这个位置肩。",
@@ -284,11 +835,37 @@
     },
     "69": {
       "zh": "哎，我就觉得他很冷，我就正好从家护他来的时候带个小毯子，我就给他都掖上盖上。",
-      "vi": "Ôi, tôi thấy bà lạnh lắm, vừa hay lúc từ nhà vào tôi có mang theo một cái chăn mỏng, tôi đắp lên, dém kín cho bà."
+      "parts": [
+        {
+          "zh": "哎，我就觉得他很冷，",
+          "vi": "Ôi, tôi thấy bà lạnh lắm,"
+        },
+        {
+          "zh": "我就正好从家护他来的时候",
+          "vi": "vừa hay lúc từ nhà vào,"
+        },
+        {
+          "zh": "带个小毯子，",
+          "vi": "tôi có mang theo một cái chăn mỏng,"
+        },
+        {
+          "zh": "我就给他都掖上盖上。",
+          "vi": "tôi đắp lên, dém kín cho bà."
+        }
+      ]
     },
     "70": {
       "zh": "我和我妈相对无言，就是他已经不能表达了。",
-      "vi": "Tôi với mẹ nhìn nhau không nói nên lời, bà đã không thể diễn đạt được nữa."
+      "parts": [
+        {
+          "zh": "我和我妈相对无言，",
+          "vi": "Tôi với mẹ nhìn nhau không nói nên lời,"
+        },
+        {
+          "zh": "就是他已经不能表达了。",
+          "vi": "bà đã không thể diễn đạt được nữa."
+        }
+      ]
     },
     "71": {
       "zh": "然后我妈说不清，我说妈你还疼吗？",
@@ -308,23 +885,72 @@
     },
     "75": {
       "zh": "就是我妈有些事儿还没交代呢，没说呢。",
-      "vi": "Tức là mẹ tôi còn có những chuyện chưa dặn dò, chưa nói."
+      "parts": [
+        {
+          "zh": "就是我妈有些事儿还没交代呢，",
+          "vi": "Tức là mẹ tôi còn có những chuyện chưa dặn dò,"
+        },
+        {
+          "zh": "没说呢。",
+          "vi": "chưa nói."
+        }
+      ]
     },
     "76": {
       "zh": "虽然我们俩都是大学毕业生啊，都是那算是嗯上过学的人，但是还是都挺避讳死亡的，",
-      "vi": "Tuy hai mẹ con đều tốt nghiệp đại học, đều là, ừm, người có học, nhưng vẫn đều rất kiêng kỵ chuyện chết chóc,"
+      "parts": [
+        {
+          "zh": "虽然我们俩都是大学毕业生啊，",
+          "vi": "Tuy hai mẹ con đều tốt nghiệp đại học,"
+        },
+        {
+          "zh": "都是那算是嗯上过学的人，",
+          "vi": "đều là, ừm, người có học,"
+        },
+        {
+          "zh": "但是还是都挺避讳死亡的，",
+          "vi": "nhưng vẫn đều rất kiêng kỵ chuyện chết chóc,"
+        }
+      ]
     },
     "77": {
       "zh": "就觉着你早去讨论这个事儿，死亡就会早一点到来似的。",
-      "vi": "cứ thấy như nếu bàn chuyện này sớm thì cái chết cũng sẽ đến sớm hơn vậy."
+      "parts": [
+        {
+          "zh": "就觉着你早去讨论这个事儿，",
+          "vi": "cứ thấy như nếu bàn chuyện này sớm,"
+        },
+        {
+          "zh": "死亡就会早一点到来似的。",
+          "vi": "thì cái chết cũng sẽ đến sớm hơn vậy."
+        }
+      ]
     },
     "78": {
       "zh": "所以我妈也下意识的回避，我也回避，因为我妈头脑一直特别清醒，",
-      "vi": "Nên mẹ tôi cũng vô thức né tránh, tôi cũng né tránh, vì đầu óc mẹ tôi lúc nào cũng rất minh mẫn,"
+      "parts": [
+        {
+          "zh": "所以我妈也下意识的回避，我也回避，",
+          "vi": "Nên mẹ tôi cũng vô thức né tránh, tôi cũng né tránh,"
+        },
+        {
+          "zh": "因为我妈头脑一直特别清醒，",
+          "vi": "vì đầu óc mẹ tôi lúc nào cũng rất minh mẫn,"
+        }
+      ]
     },
     "79": {
       "zh": "一直就想着等到最后的时候，我妈会给我们开个会呀，跟我们告个别呀，就是有点那样。",
-      "vi": "tôi cứ nghĩ đến lúc cuối cùng, mẹ tôi sẽ họp cả nhà lại, nói lời từ biệt với chúng tôi, kiểu như vậy."
+      "parts": [
+        {
+          "zh": "一直就想着等到最后的时候，",
+          "vi": "tôi cứ nghĩ đến lúc cuối cùng,"
+        },
+        {
+          "zh": "我妈会给我们开个会呀，跟我们告个别呀，就是有点那样。",
+          "vi": "mẹ tôi sẽ họp cả nhà lại, nói lời từ biệt với chúng tôi, kiểu như vậy."
+        }
+      ]
     },
     "80": {
       "zh": "结果。",
@@ -332,7 +958,20 @@
     },
     "81": {
       "zh": "说不了话了，我就问我妈：“我说，嗯，你有什么想说的吗？”",
-      "vi": "bà không nói được nữa, tôi hỏi mẹ: \"Mẹ ơi, ừm, mẹ có gì muốn nói không?\""
+      "parts": [
+        {
+          "zh": "说不了话了，",
+          "vi": "bà không nói được nữa,"
+        },
+        {
+          "zh": "我就问我妈：“我说，嗯，",
+          "vi": "tôi hỏi mẹ: \"Mẹ ơi, ừm,"
+        },
+        {
+          "zh": "你有什么想说的吗？”",
+          "vi": "mẹ có gì muốn nói không?\""
+        }
+      ]
     },
     "82": {
       "zh": "然后她说不出来就流眼泪。",
@@ -340,7 +979,24 @@
     },
     "83": {
       "zh": "然后我就凭我的感觉，比如说家里我父亲或者怎以后怎么样，我我会好好照顾他，你放心啊什么。",
-      "vi": "Rồi tôi chỉ dựa vào cảm giác của mình, ví dụ như ở nhà bố con hay sau này thế nào, con, con sẽ chăm sóc bố thật tốt, mẹ yên tâm, những câu như vậy."
+      "parts": [
+        {
+          "zh": "然后我就凭我的感觉，",
+          "vi": "Rồi tôi chỉ dựa vào cảm giác của mình,"
+        },
+        {
+          "zh": "比如说家里我父亲",
+          "vi": "ví dụ như ở nhà bố con,"
+        },
+        {
+          "zh": "或者怎以后怎么样，",
+          "vi": "hay sau này thế nào,"
+        },
+        {
+          "zh": "我我会好好照顾他，你放心啊什么。",
+          "vi": "con, con sẽ chăm sóc bố thật tốt, mẹ yên tâm, những câu như vậy."
+        }
+      ]
     },
     "84": {
       "zh": "但是这只是我想的。",
@@ -364,19 +1020,71 @@
     },
     "89": {
       "zh": "后来我妈在医院住了不到一个星期吧，就一个人在病房里走了。",
-      "vi": "Sau đó mẹ tôi nằm viện chưa được một tuần, rồi ra đi một mình trong phòng bệnh."
+      "parts": [
+        {
+          "zh": "后来我妈在医院住了",
+          "vi": "Sau đó mẹ tôi nằm viện,"
+        },
+        {
+          "zh": "不到一个星期吧，",
+          "vi": "chưa được một tuần,"
+        },
+        {
+          "zh": "就一个人在病房里走了。",
+          "vi": "rồi ra đi một mình trong phòng bệnh."
+        }
+      ]
     },
     "90": {
       "zh": "走了之后，我们那天晚上去给她穿衣服，看到她这个地方有一个很大的洞，",
-      "vi": "Mẹ mất rồi, tối hôm đó chúng tôi đến mặc quần áo cho bà, thấy ở chỗ này có một cái lỗ rất to,"
+      "parts": [
+        {
+          "zh": "走了之后，",
+          "vi": "Mẹ mất rồi,"
+        },
+        {
+          "zh": "我们那天晚上去给她穿衣服，",
+          "vi": "tối hôm đó chúng tôi đến mặc quần áo cho bà,"
+        },
+        {
+          "zh": "看到她这个地方有一个很大的洞，",
+          "vi": "thấy ở chỗ này có một cái lỗ rất to,"
+        }
+      ]
     },
     "91": {
       "zh": "那个洞口跟五五分钱硬币那么大，你想想它也是很疼的。",
-      "vi": "miệng lỗ to bằng đồng xu năm xu, bạn nghĩ xem cái đó cũng đau lắm."
+      "parts": [
+        {
+          "zh": "那个洞口跟五五分钱硬币那么大，",
+          "vi": "miệng lỗ to bằng đồng xu năm xu,"
+        },
+        {
+          "zh": "你想想它也是很疼的。",
+          "vi": "bạn nghĩ xem cái đó cũng đau lắm."
+        }
+      ]
     },
     "92": {
       "zh": "然后里边好几根管子，我们家属去了以后，医生才把那些管子撤出来，然后找一个人说那个。",
-      "vi": "Rồi bên trong có mấy cái ống, người nhà chúng tôi đến rồi bác sĩ mới rút mấy cái ống đó ra, rồi tìm một người bảo"
+      "parts": [
+        {
+          "zh": "然后里边好几根管子，",
+          "vi": "Rồi bên trong có mấy cái ống,"
+        },
+        {
+          "zh": "我们家属去了以后，",
+          "vi": "người nhà chúng tôi đến rồi,"
+        },
+        {
+          "zh": "医生才把那些管子撤出来，",
+          "vi": "bác sĩ mới rút mấy cái ống đó ra,"
+        },
+        {
+          "zh": "然后找一个人说那个。",
+          "vi": "rồi tìm một người bảo"
+        }
+      ]
     },
     "93": {
       "zh": "啊，把身体处理一下。",
@@ -388,27 +1096,101 @@
     },
     "95": {
       "zh": "就从这个洞里不停的往外冒水，就是白水，连血液都没有。",
-      "vi": "Vì từ cái lỗ này nước cứ không ngừng trào ra, là nước trong, đến máu cũng không có."
+      "parts": [
+        {
+          "zh": "就从这个洞里不停的往外冒水，",
+          "vi": "Vì từ cái lỗ này nước cứ không ngừng trào ra,"
+        },
+        {
+          "zh": "就是白水，连血液都没有。",
+          "vi": "là nước trong, đến máu cũng không có."
+        }
+      ]
     },
     "96": {
       "zh": "他七根管子同时给他输输药、输液，不停的擦，不停的往外涌，那衣服基本上就穿不上。",
-      "vi": "Họ dùng bảy cái ống cùng lúc để truyền thuốc, truyền dịch cho bà, lau không ngừng, nước cứ trào ra không ngừng, quần áo gần như không mặc vào được."
+      "parts": [
+        {
+          "zh": "他七根管子同时给他输输药、输液，",
+          "vi": "Họ dùng bảy cái ống cùng lúc để truyền thuốc, truyền dịch cho bà,"
+        },
+        {
+          "zh": "不停的擦，不停的往外涌，",
+          "vi": "lau không ngừng, nước cứ trào ra không ngừng,"
+        },
+        {
+          "zh": "那衣服基本上就穿不上。",
+          "vi": "quần áo gần như không mặc vào được."
+        }
+      ]
     },
     "97": {
       "zh": "最后拿了好多好多的纸，终于感觉有点吸的不往外，就是至少不往外涌水了。",
-      "vi": "Cuối cùng lấy rất rất nhiều giấy, mãi mới thấy hút được, không trào ra nữa, tức là ít nhất nước không trào ra nữa."
+      "parts": [
+        {
+          "zh": "最后拿了好多好多的纸，",
+          "vi": "Cuối cùng lấy rất rất nhiều giấy,"
+        },
+        {
+          "zh": "终于感觉有点吸的不往外，",
+          "vi": "mãi mới thấy hút được, không trào ra nữa,"
+        },
+        {
+          "zh": "就是至少不往外涌水了。",
+          "vi": "tức là ít nhất nước không trào ra nữa."
+        }
+      ]
     },
     "98": {
       "zh": "我们才把衣服给穿上，穿上以后我忘记抱我妈妈后背又湿透了。",
-      "vi": "Chúng tôi mới mặc được quần áo cho bà, mặc xong tôi không quên được, lúc ôm mẹ, lưng bà lại ướt sũng."
+      "parts": [
+        {
+          "zh": "我们才把衣服给穿上，",
+          "vi": "Chúng tôi mới mặc được quần áo cho bà,"
+        },
+        {
+          "zh": "穿上以后我忘记抱我妈妈",
+          "vi": "mặc xong tôi không quên được, lúc ôm mẹ,"
+        },
+        {
+          "zh": "后背又湿透了。",
+          "vi": "lưng bà lại ướt sũng."
+        }
+      ]
     },
     "99": {
       "zh": "当时那种感觉就是就是她身体里都是冰冷的液体，然后我们走的是垃圾垃圾通道，",
-      "vi": "Cảm giác lúc đó là trong người bà toàn chất lỏng lạnh buốt, rồi chúng tôi đi qua lối đi chở rác,"
+      "parts": [
+        {
+          "zh": "当时那种感觉就是就是",
+          "vi": "Cảm giác lúc đó là,"
+        },
+        {
+          "zh": "她身体里都是冰冷的液体，",
+          "vi": "trong người bà toàn chất lỏng lạnh buốt,"
+        },
+        {
+          "zh": "然后我们走的是垃圾垃圾通道，",
+          "vi": "rồi chúng tôi đi qua lối đi chở rác,"
+        }
+      ]
     },
     "100": {
       "zh": "然后一路上都是垃圾桶，就从垃圾站绕到那个太平街，而那个时候就感受特别不好，",
-      "vi": "dọc đường toàn thùng rác, đi vòng từ trạm rác đến nhà xác, lúc đó cảm giác rất tệ,"
+      "parts": [
+        {
+          "zh": "然后一路上都是垃圾桶，",
+          "vi": "dọc đường toàn thùng rác,"
+        },
+        {
+          "zh": "就从垃圾站绕到那个太平街，",
+          "vi": "đi vòng từ trạm rác đến nhà xác,"
+        },
+        {
+          "zh": "而那个时候就感受特别不好，",
+          "vi": "lúc đó cảm giác rất tệ,"
+        }
+      ]
     },
     "101": {
       "zh": "就人一死了你就是一个垃圾嘛。",
@@ -416,19 +1198,67 @@
     },
     "102": {
       "zh": "就是这种感受，所以整个的这个过程对我的刺激特别大。",
-      "vi": "Cảm giác như vậy, nên cả quá trình đó là cú sốc rất lớn với tôi."
+      "parts": [
+        {
+          "zh": "就是这种感受，",
+          "vi": "cảm giác như vậy,"
+        },
+        {
+          "zh": "所以整个的这个过程",
+          "vi": "nên cả quá trình đó"
+        },
+        {
+          "zh": "对我的刺激特别大。",
+          "vi": "là cú sốc rất lớn với tôi."
+        }
+      ]
     },
     "103": {
       "zh": "就我妈妈在住院期间，我不能去看她，不能照料她，然后让她痛成那个痛风的状态，",
-      "vi": "Trong thời gian mẹ nằm viện, tôi không được vào thăm, không được chăm sóc bà, rồi để bà đau đến mức đột quỵ,"
+      "parts": [
+        {
+          "zh": "就我妈妈在住院期间，",
+          "vi": "Trong thời gian mẹ nằm viện,"
+        },
+        {
+          "zh": "我不能去看她，不能照料她，",
+          "vi": "tôi không được vào thăm, không được chăm sóc bà,"
+        },
+        {
+          "zh": "然后让她痛成那个痛风的状态，",
+          "vi": "rồi để bà đau đến mức đột quỵ,"
+        }
+      ]
     },
     "104": {
       "zh": "然后不能说话，不能交流，我就有深深的自责。",
-      "vi": "rồi không nói được, không giao tiếp được, tôi tự trách mình sâu sắc."
+      "parts": [
+        {
+          "zh": "然后不能说话，不能交流，",
+          "vi": "rồi không nói được, không giao tiếp được,"
+        },
+        {
+          "zh": "我就有深深的自责。",
+          "vi": "tôi tự trách mình sâu sắc."
+        }
+      ]
     },
     "105": {
       "zh": "我如果不是周日把妈妈送来，我如果跟妈妈商量，哪怕疼，偷皮贴我们多贴一点，",
-      "vi": "Nếu tôi không đưa mẹ đến vào Chủ nhật, nếu tôi bàn với mẹ, dù có đau thì mình dán thêm miếng giảm đau,"
+      "parts": [
+        {
+          "zh": "我如果不是周日把妈妈送来，",
+          "vi": "Nếu tôi không đưa mẹ đến vào Chủ nhật,"
+        },
+        {
+          "zh": "我如果跟妈妈商量，哪怕疼，",
+          "vi": "nếu tôi bàn với mẹ, dù có đau,"
+        },
+        {
+          "zh": "偷皮贴我们多贴一点，",
+          "vi": "thì mình dán thêm miếng giảm đau,"
+        }
+      ]
     },
     "106": {
       "zh": "但是我们不去医院。",
@@ -436,7 +1266,16 @@
     },
     "107": {
       "zh": "我就抱着他，让他死在我怀里，也不会让他这么痛苦。",
-      "vi": "Tôi sẽ ôm bà, để bà chết trong vòng tay tôi, cũng sẽ không để bà đau đớn đến vậy."
+      "parts": [
+        {
+          "zh": "我就抱着他，让他死在我怀里，",
+          "vi": "tôi sẽ ôm bà, để bà chết trong vòng tay tôi,"
+        },
+        {
+          "zh": "也不会让他这么痛苦。",
+          "vi": "cũng sẽ không để bà đau đớn đến vậy."
+        }
+      ]
     },
     "108": {
       "zh": "他至少不会痛到中风。",
@@ -444,7 +1283,16 @@
     },
     "109": {
       "zh": "所以所有的那一切，我都觉着是我的决策失误造成，",
-      "vi": "Nên tất cả những chuyện đó, tôi đều cho là do quyết định sai lầm của tôi gây ra,"
+      "parts": [
+        {
+          "zh": "所以所有的那一切，",
+          "vi": "Nên tất cả những chuyện đó,"
+        },
+        {
+          "zh": "我都觉着是我的决策失误造成，",
+          "vi": "tôi đều cho là do quyết định sai lầm của tôi gây ra,"
+        }
+      ]
     },
     "110": {
       "zh": "深深的自责。",
@@ -452,19 +1300,63 @@
     },
     "111": {
       "zh": "母亲离世后不久，没想到徐叔自己也患上了癌症。",
-      "vi": "Không lâu sau khi mẹ mất, không ngờ chính Từ Thúc cũng mắc ung thư."
+      "parts": [
+        {
+          "zh": "母亲离世后不久，",
+          "vi": "Không lâu sau khi mẹ mất,"
+        },
+        {
+          "zh": "没想到徐叔自己也患上了癌症。",
+          "vi": "không ngờ chính Từ Thúc cũng mắc ung thư."
+        }
+      ]
     },
     "112": {
       "zh": "二零一七年初，徐叔在一次体检中被发现患有乳腺癌。",
-      "vi": "Đầu năm 2017, trong một lần khám sức khỏe, Từ Thúc được phát hiện bị ung thư vú."
+      "parts": [
+        {
+          "zh": "二零一七年初，",
+          "vi": "Đầu năm 2017,"
+        },
+        {
+          "zh": "徐叔在一次体检中",
+          "vi": "trong một lần khám sức khỏe, Từ Thúc"
+        },
+        {
+          "zh": "被发现患有乳腺癌。",
+          "vi": "được phát hiện bị ung thư vú."
+        }
+      ]
     },
     "113": {
       "zh": "但是在得知自己患癌的那一刻，徐叔说他感受到的更像是一种解脱。",
-      "vi": "Nhưng khoảnh khắc biết mình bị ung thư, Từ Thúc nói điều bà cảm thấy giống như một sự giải thoát hơn."
+      "parts": [
+        {
+          "zh": "但是在得知自己患癌的那一刻，",
+          "vi": "Nhưng khoảnh khắc biết mình bị ung thư,"
+        },
+        {
+          "zh": "徐叔说他感受到的更像是一种解脱。",
+          "vi": "Từ Thúc nói điều bà cảm thấy giống như một sự giải thoát hơn."
+        }
+      ]
     },
     "114": {
       "zh": "后来我妈妈去世以后，有一段时间我特别恍惚嘛，在路上有时候开车就特别危险，",
-      "vi": "Sau khi mẹ tôi mất, có một thời gian tôi rất mơ màng, có lúc lái xe trên đường rất nguy hiểm,"
+      "parts": [
+        {
+          "zh": "后来我妈妈去世以后，",
+          "vi": "Sau khi mẹ tôi mất,"
+        },
+        {
+          "zh": "有一段时间我特别恍惚嘛，",
+          "vi": "có một thời gian tôi rất mơ màng,"
+        },
+        {
+          "zh": "在路上有时候开车就特别危险，",
+          "vi": "có lúc lái xe trên đường rất nguy hiểm,"
+        }
+      ]
     },
     "115": {
       "zh": "有的时候就想：哎呀，撞死我得了！",
@@ -472,55 +1364,208 @@
     },
     "116": {
       "zh": "我就我我觉着我愧对我妈，我就想上去陪她。",
-      "vi": "Tôi, tôi, tôi thấy mình có lỗi với mẹ, tôi muốn lên trên đó ở bên bà."
+      "parts": [
+        {
+          "zh": "我就我我觉着我愧对我妈，",
+          "vi": "Tôi, tôi, tôi thấy mình có lỗi với mẹ,"
+        },
+        {
+          "zh": "我就想上去陪她。",
+          "vi": "tôi muốn lên trên đó ở bên bà."
+        }
+      ]
     },
     "117": {
       "zh": "所以当我自自己得癌症以后确诊的那一刻，我挺轻松的，",
-      "vi": "Nên khoảnh khắc chính tôi được chẩn đoán ung thư, tôi thấy khá nhẹ nhõm,"
+      "parts": [
+        {
+          "zh": "所以当我自自己得癌症以后",
+          "vi": "Nên khi chính tôi bị ung thư,"
+        },
+        {
+          "zh": "确诊的那一刻，",
+          "vi": "khoảnh khắc được chẩn đoán,"
+        },
+        {
+          "zh": "我挺轻松的，",
+          "vi": "tôi thấy khá nhẹ nhõm,"
+        }
+      ]
     },
     "118": {
       "zh": "我觉着我可以就有一个充分的理由去找我妈妈，就是好像是给我一个赎罪的机会吧。",
-      "vi": "tôi thấy mình có một lý do chính đáng để đi tìm mẹ, như thể được cho một cơ hội chuộc lỗi vậy."
+      "parts": [
+        {
+          "zh": "我觉着我可以就有一个",
+          "vi": "tôi thấy mình có một"
+        },
+        {
+          "zh": "充分的理由去找我妈妈，",
+          "vi": "lý do chính đáng để đi tìm mẹ,"
+        },
+        {
+          "zh": "就是好像是给我一个赎罪的机会吧。",
+          "vi": "như thể được cho một cơ hội chuộc lỗi vậy."
+        }
+      ]
     },
     "119": {
       "zh": "但是我依然是恐惧死亡这个过程本身的，就是虽然我可以去陪我妈，",
-      "vi": "Nhưng tôi vẫn sợ chính quá trình đi đến cái chết, tức là dù tôi có thể đi ở bên mẹ,"
+      "parts": [
+        {
+          "zh": "但是我依然是恐惧",
+          "vi": "Nhưng tôi vẫn sợ"
+        },
+        {
+          "zh": "死亡这个过程本身的，",
+          "vi": "chính quá trình đi đến cái chết,"
+        },
+        {
+          "zh": "就是虽然我可以去陪我妈，",
+          "vi": "tức là dù tôi có thể đi ở bên mẹ,"
+        }
+      ]
     },
     "120": {
       "zh": "但是走向死亡的这个过程，如果像我妈那么痛苦，我还是不愿意的，就觉着太受罪了，太恐惧了。",
-      "vi": "nhưng quá trình đi đến cái chết, nếu đau đớn như mẹ tôi thì tôi vẫn không muốn, thấy khổ quá, đáng sợ quá."
+      "parts": [
+        {
+          "zh": "但是走向死亡的这个过程，",
+          "vi": "nhưng quá trình đi đến cái chết,"
+        },
+        {
+          "zh": "如果像我妈那么痛苦，",
+          "vi": "nếu đau đớn như mẹ tôi,"
+        },
+        {
+          "zh": "我还是不愿意的，",
+          "vi": "thì tôi vẫn không muốn,"
+        },
+        {
+          "zh": "就觉着太受罪了，太恐惧了。",
+          "vi": "thấy khổ quá, đáng sợ quá."
+        }
+      ]
     },
     "121": {
       "zh": "我就想我要到最后，我宁可跳楼、跳海，我可能也不会去医院。",
-      "vi": "Tôi nghĩ đến lúc cuối cùng, tôi thà nhảy lầu, nhảy biển, có lẽ cũng không vào viện."
+      "parts": [
+        {
+          "zh": "我就想我要到最后，",
+          "vi": "Tôi nghĩ đến lúc cuối cùng,"
+        },
+        {
+          "zh": "我宁可跳楼、跳海，",
+          "vi": "tôi thà nhảy lầu, nhảy biển,"
+        },
+        {
+          "zh": "我可能也不会去医院。",
+          "vi": "có lẽ cũng không vào viện."
+        }
+      ]
     },
     "122": {
       "zh": "所以后来就开始找有没有不那样死亡的地方。",
-      "vi": "Nên sau đó tôi bắt đầu tìm xem có nơi nào không phải chết theo kiểu đó không."
+      "parts": [
+        {
+          "zh": "所以后来就开始找",
+          "vi": "Nên sau đó tôi bắt đầu tìm xem,"
+        },
+        {
+          "zh": "有没有不那样死亡的地方。",
+          "vi": "có nơi nào không phải chết theo kiểu đó không."
+        }
+      ]
     },
     "123": {
       "zh": "实际上，实际上我挺幸运的，一七年我二月手术的，然后一七年的。",
-      "vi": "Thật ra, thật ra tôi khá may mắn, tháng 2 năm 2017 tôi mổ, rồi năm 2017,"
+      "parts": [
+        {
+          "zh": "实际上，实际上我挺幸运的，",
+          "vi": "Thật ra, thật ra tôi khá may mắn,"
+        },
+        {
+          "zh": "一七年我二月手术的，然后一七年的。",
+          "vi": "tháng 2 năm 2017 tôi mổ, rồi năm 2017,"
+        }
+      ]
     },
     "124": {
       "zh": "呃，七月，我妈妈的楼上的邻居就是海淀医院安宁病房的主任秦院。",
-      "vi": "ờ, tháng 7, hàng xóm tầng trên nhà mẹ tôi chính là trưởng khoa chăm sóc cuối đời của Bệnh viện Hải Điến, bác sĩ Tần Uyển."
+      "parts": [
+        {
+          "zh": "呃，七月，",
+          "vi": "ờ, tháng 7,"
+        },
+        {
+          "zh": "我妈妈的楼上的邻居",
+          "vi": "hàng xóm tầng trên nhà mẹ tôi"
+        },
+        {
+          "zh": "就是海淀医院安宁病房的主任秦院。",
+          "vi": "chính là trưởng khoa chăm sóc cuối đời của Bệnh viện Hải Điến, bác sĩ Tần Uyển."
+        }
+      ]
     },
     "125": {
       "zh": "我们在一个小区嘛，业主就有一个群，然后他发个圈儿说海淀医院成立安宁病房。",
-      "vi": "Chúng tôi ở cùng một khu chung cư mà, cư dân có một nhóm chat, rồi chị ấy đăng lên bảo Bệnh viện Hải Điến thành lập khoa chăm sóc cuối đời."
+      "parts": [
+        {
+          "zh": "我们在一个小区嘛，",
+          "vi": "Chúng tôi ở cùng một khu chung cư mà,"
+        },
+        {
+          "zh": "业主就有一个群，",
+          "vi": "cư dân có một nhóm chat,"
+        },
+        {
+          "zh": "然后他发个圈儿说",
+          "vi": "rồi chị ấy đăng lên bảo"
+        },
+        {
+          "zh": "海淀医院成立安宁病房。",
+          "vi": "Bệnh viện Hải Điến thành lập khoa chăm sóc cuối đời."
+        }
+      ]
     },
     "126": {
       "zh": "他介绍安宁病房是，嗯，不再抢救，而是给患者缓解不适的症状，",
-      "vi": "Chị ấy giới thiệu khoa chăm sóc cuối đời là, ừm, không cấp cứu nữa, mà giúp bệnh nhân giảm bớt những triệu chứng khó chịu,"
+      "parts": [
+        {
+          "zh": "他介绍安宁病房是，嗯，不再抢救，",
+          "vi": "Chị ấy giới thiệu khoa chăm sóc cuối đời là, ừm, không cấp cứu nữa,"
+        },
+        {
+          "zh": "而是给患者缓解不适的症状，",
+          "vi": "mà giúp bệnh nhân giảm bớt những triệu chứng khó chịu,"
+        }
+      ]
     },
     "127": {
       "zh": "让患者最后的生命呢比较有品质，比较有尊严。",
-      "vi": "để quãng đời cuối cùng của bệnh nhân có chất lượng hơn, có tôn nghiêm hơn."
+      "parts": [
+        {
+          "zh": "让患者最后的生命呢比较有品质，",
+          "vi": "để quãng đời cuối cùng của bệnh nhân có chất lượng hơn,"
+        },
+        {
+          "zh": "比较有尊严。",
+          "vi": "có tôn nghiêm hơn."
+        }
+      ]
     },
     "128": {
       "zh": "然后我想，那我生命到最后可以考虑去那儿。",
-      "vi": "Rồi tôi nghĩ, vậy cuối đời mình có thể tính đến chuyện vào đó."
+      "parts": [
+        {
+          "zh": "然后我想，",
+          "vi": "Rồi tôi nghĩ,"
+        },
+        {
+          "zh": "那我生命到最后可以考虑去那儿。",
+          "vi": "vậy cuối đời mình có thể tính đến chuyện vào đó."
+        }
+      ]
     },
     "129": {
       "zh": "后来有一次他。",
@@ -528,11 +1573,33 @@
     },
     "130": {
       "zh": "招聘志愿者，然后我就小窗问他：“我说我能做你的志愿者吗？",
-      "vi": "tuyển tình nguyện viên, tôi bèn nhắn riêng hỏi: \"Tôi làm tình nguyện viên cho chị được không?"
+      "parts": [
+        {
+          "zh": "招聘志愿者，",
+          "vi": "tuyển tình nguyện viên,"
+        },
+        {
+          "zh": "然后我就小窗问他：",
+          "vi": "tôi bèn nhắn riêng hỏi:"
+        },
+        {
+          "zh": "“我说我能做你的志愿者吗？",
+          "vi": "\"Tôi làm tình nguyện viên cho chị được không?"
+        }
+      ]
     },
     "131": {
       "zh": "因为这个是可以接近这件事儿的一个机会。”",
-      "vi": "Vì đây là một cơ hội để đến gần chuyện đó.\""
+      "parts": [
+        {
+          "zh": "因为这个是可以接近",
+          "vi": "Vì đây là một cơ hội"
+        },
+        {
+          "zh": "这件事儿的一个机会。”",
+          "vi": "để đến gần chuyện đó.\""
+        }
+      ]
     },
     "132": {
       "zh": "然后他说：“你会啥？”",
@@ -540,7 +1607,20 @@
     },
     "133": {
       "zh": "我说：“啥也不会，但是我会摄影，我可以在病房拍你们服务的这个过程，啊，",
-      "vi": "Tôi nói: \"Chẳng biết gì cả, nhưng tôi biết chụp ảnh, tôi có thể chụp lại quá trình các chị phục vụ trong phòng bệnh,"
+      "parts": [
+        {
+          "zh": "我说：“啥也不会，但是我会摄影，",
+          "vi": "Tôi nói: \"Chẳng biết gì cả, nhưng tôi biết chụp ảnh,"
+        },
+        {
+          "zh": "我可以在病房",
+          "vi": "tôi có thể ở phòng bệnh"
+        },
+        {
+          "zh": "拍你们服务的这个过程，啊，",
+          "vi": "chụp lại quá trình các chị phục vụ,"
+        }
+      ]
     },
     "134": {
       "zh": "给你们留一些资料和素材。”",
@@ -548,35 +1628,131 @@
     },
     "135": {
       "zh": "然后一九年的七月六号，那是我第一次进病房，背着相机。",
-      "vi": "Rồi ngày 6 tháng 7 năm 2019, đó là lần đầu tiên tôi vào phòng bệnh, đeo máy ảnh trên vai."
+      "parts": [
+        {
+          "zh": "然后一九年的七月六号，",
+          "vi": "Rồi ngày 6 tháng 7 năm 2019,"
+        },
+        {
+          "zh": "那是我第一次进病房，背着相机。",
+          "vi": "đó là lần đầu tiên tôi vào phòng bệnh, đeo máy ảnh trên vai."
+        }
+      ]
     },
     "136": {
       "zh": "在这之前，我陪我妈妈住，嗯，住院啊治疗的时候。",
-      "vi": "Trước đó, tôi ở cùng mẹ lúc bà, ừm, nằm viện điều trị."
+      "parts": [
+        {
+          "zh": "在这之前，",
+          "vi": "Trước đó,"
+        },
+        {
+          "zh": "我陪我妈妈住，嗯，住院啊治疗的时候。",
+          "vi": "tôi ở cùng mẹ lúc bà, ừm, nằm viện điều trị."
+        }
+      ]
     },
     "137": {
       "zh": "那会儿他骨转移，然后去做放疗，住在医院里边。",
-      "vi": "Hồi đó bà bị di căn xương, rồi đi xạ trị, nằm trong bệnh viện."
+      "parts": [
+        {
+          "zh": "那会儿他骨转移，",
+          "vi": "Hồi đó bà bị di căn xương,"
+        },
+        {
+          "zh": "然后去做放疗，住在医院里边。",
+          "vi": "rồi đi xạ trị, nằm trong bệnh viện."
+        }
+      ]
     },
     "138": {
       "zh": "那个都是癌症患者接受治疗的患者，然后好多人就是那种特别痛苦的那种哀嚎。",
-      "vi": "Ở đó toàn là bệnh nhân ung thư đang điều trị, rồi nhiều người kêu gào vô cùng đau đớn."
+      "parts": [
+        {
+          "zh": "那个都是癌症患者",
+          "vi": "Ở đó toàn là bệnh nhân ung thư,"
+        },
+        {
+          "zh": "接受治疗的患者，",
+          "vi": "bệnh nhân đang điều trị,"
+        },
+        {
+          "zh": "然后好多人就是",
+          "vi": "rồi nhiều người"
+        },
+        {
+          "zh": "那种特别痛苦的那种哀嚎。",
+          "vi": "kêu gào vô cùng đau đớn."
+        }
+      ]
     },
     "139": {
       "zh": "当时我去病房的时候，我就想象着会不会也是这样的，所以内心里还是有恐惧的。",
-      "vi": "Lúc đến phòng bệnh, tôi tưởng tượng có khi nào ở đây cũng như vậy không, nên trong lòng vẫn sợ."
+      "parts": [
+        {
+          "zh": "当时我去病房的时候，",
+          "vi": "Lúc đến phòng bệnh,"
+        },
+        {
+          "zh": "我就想象着会不会也是这样的，",
+          "vi": "tôi tưởng tượng có khi nào ở đây cũng như vậy không,"
+        },
+        {
+          "zh": "所以内心里还是有恐惧的。",
+          "vi": "nên trong lòng vẫn sợ."
+        }
+      ]
     },
     "140": {
       "zh": "但是我又想了解安宁是怎么回事儿，就真的是硬着头皮去的。",
-      "vi": "Nhưng tôi lại muốn hiểu chăm sóc cuối đời là thế nào, nên thật sự là cắn răng mà đi."
+      "parts": [
+        {
+          "zh": "但是我又想了解安宁是怎么回事儿，",
+          "vi": "Nhưng tôi lại muốn hiểu chăm sóc cuối đời là thế nào,"
+        },
+        {
+          "zh": "就真的是硬着头皮去的。",
+          "vi": "nên thật sự là cắn răng mà đi."
+        }
+      ]
     },
     "141": {
       "zh": "结果一进病房，真的感受不一样，窗台上放着小花盆儿。",
-      "vi": "Kết quả vừa vào phòng bệnh, cảm nhận thật sự khác hẳn, trên bậu cửa sổ đặt mấy chậu hoa nhỏ."
+      "parts": [
+        {
+          "zh": "结果一进病房，",
+          "vi": "Kết quả vừa vào phòng bệnh,"
+        },
+        {
+          "zh": "真的感受不一样，",
+          "vi": "cảm nhận thật sự khác hẳn,"
+        },
+        {
+          "zh": "窗台上放着小花盆儿。",
+          "vi": "trên bậu cửa sổ đặt mấy chậu hoa nhỏ."
+        }
+      ]
     },
     "142": {
       "zh": "然后那个，呃，有些患者能坐着的坐着聊天儿，然后跟志愿者一进来就打招呼什么的，啊，",
-      "vi": "Rồi thì, ờ, bệnh nhân nào ngồi được thì ngồi trò chuyện, rồi tình nguyện viên vừa vào là chào hỏi nhau các thứ,"
+      "parts": [
+        {
+          "zh": "然后那个，呃，",
+          "vi": "Rồi thì, ờ,"
+        },
+        {
+          "zh": "有些患者能坐着的坐着聊天儿，",
+          "vi": "bệnh nhân nào ngồi được thì ngồi trò chuyện,"
+        },
+        {
+          "zh": "然后跟志愿者一进来",
+          "vi": "rồi tình nguyện viên vừa vào"
+        },
+        {
+          "zh": "就打招呼什么的，啊，",
+          "vi": "là chào hỏi nhau các thứ,"
+        }
+      ]
     },
     "143": {
       "zh": "感觉挺好的，就阳光明媚的那个感觉。",
@@ -584,7 +1760,16 @@
     },
     "144": {
       "zh": "然后志愿者陪他们聊聊天儿，给他们洗洗头，嗯，然后躺着起不来的，",
-      "vi": "Rồi tình nguyện viên ngồi trò chuyện với họ, gội đầu cho họ, ừm, rồi ai nằm không dậy được"
+      "parts": [
+        {
+          "zh": "然后志愿者陪他们聊聊天儿，",
+          "vi": "Rồi tình nguyện viên ngồi trò chuyện với họ,"
+        },
+        {
+          "zh": "给他们洗洗头，嗯，然后躺着起不来的，",
+          "vi": "gội đầu cho họ, ừm, rồi ai nằm không dậy được"
+        }
+      ]
     },
     "145": {
       "zh": "那志愿者就俯身下去跟他说话。",
@@ -600,7 +1785,16 @@
     },
     "148": {
       "zh": "嗯，那笑容灿烂的，那眼神温和的，就像呵护，就像看自己家孩子一样的，",
-      "vi": "Ừm, nụ cười rạng rỡ, ánh mắt dịu dàng, như đang chở che, như nhìn con mình vậy,"
+      "parts": [
+        {
+          "zh": "嗯，那笑容灿烂的，那眼神温和的，",
+          "vi": "Ừm, nụ cười rạng rỡ, ánh mắt dịu dàng,"
+        },
+        {
+          "zh": "就像呵护，就像看自己家孩子一样的，",
+          "vi": "như đang chở che, như nhìn con mình vậy,"
+        }
+      ]
     },
     "149": {
       "zh": "或者说看自己的亲人一样的。",
@@ -608,11 +1802,41 @@
     },
     "150": {
       "zh": "我觉着那会儿学雷锋做好事儿的那种感觉应该是那种，然后是表现出来的。",
-      "vi": "Tôi nghĩ hồi đó kiểu \"học tập Lôi Phong làm việc tốt\" chắc là như vậy, là làm ra vẻ cho người ta thấy."
+      "parts": [
+        {
+          "zh": "我觉着那会儿学雷锋",
+          "vi": "Tôi nghĩ hồi đó kiểu \"học tập Lôi Phong"
+        },
+        {
+          "zh": "做好事儿的那种感觉",
+          "vi": "làm việc tốt\","
+        },
+        {
+          "zh": "应该是那种，然后是表现出来的。",
+          "vi": "chắc là như vậy, là làm ra vẻ cho người ta thấy."
+        }
+      ]
     },
     "151": {
       "zh": "但是你第二次去、第三次去，因为不同的日期去的志愿者是不同的，就他们每个人都是这样。",
-      "vi": "Nhưng bạn đến lần thứ hai, lần thứ ba, vì mỗi ngày tình nguyện viên đến là người khác nhau, mà ai cũng như vậy."
+      "parts": [
+        {
+          "zh": "但是你第二次去、第三次去，",
+          "vi": "Nhưng bạn đến lần thứ hai, lần thứ ba,"
+        },
+        {
+          "zh": "因为不同的日期",
+          "vi": "vì mỗi ngày"
+        },
+        {
+          "zh": "去的志愿者是不同的，",
+          "vi": "tình nguyện viên đến là người khác nhau,"
+        },
+        {
+          "zh": "就他们每个人都是这样。",
+          "vi": "mà ai cũng như vậy."
+        }
+      ]
     },
     "152": {
       "zh": "统一训练的吗？",
@@ -620,39 +1844,152 @@
     },
     "153": {
       "zh": "但是我自己是拿不出那个表情，而我也不屑于这么表演。",
-      "vi": "Nhưng bản thân tôi không làm ra được vẻ mặt đó, mà tôi cũng không thèm diễn như vậy."
+      "parts": [
+        {
+          "zh": "但是我自己是拿不出那个表情，",
+          "vi": "Nhưng bản thân tôi không làm ra được vẻ mặt đó,"
+        },
+        {
+          "zh": "而我也不屑于这么表演。",
+          "vi": "mà tôi cũng không thèm diễn như vậy."
+        }
+      ]
     },
     "154": {
       "zh": "我内心是什么样就是什么样，我就是来服务的。",
-      "vi": "Trong lòng tôi thế nào thì là thế ấy, tôi đến là để phục vụ."
+      "parts": [
+        {
+          "zh": "我内心是什么样就是什么样，",
+          "vi": "Trong lòng tôi thế nào thì là thế ấy,"
+        },
+        {
+          "zh": "我就是来服务的。",
+          "vi": "tôi đến là để phục vụ."
+        }
+      ]
     },
     "155": {
       "zh": "但是我我用相机夸夸拍着他们服务的那个瞬间，但是我内心里边还是觉着，哎呀，",
-      "vi": "Nhưng tôi, tôi dùng máy ảnh chụp tách tách những khoảnh khắc họ phục vụ, nhưng trong lòng vẫn nghĩ, trời ơi,"
+      "parts": [
+        {
+          "zh": "但是我我用相机",
+          "vi": "Nhưng tôi, tôi dùng máy ảnh"
+        },
+        {
+          "zh": "夸夸拍着他们服务的那个瞬间，",
+          "vi": "chụp tách tách những khoảnh khắc họ phục vụ,"
+        },
+        {
+          "zh": "但是我内心里边还是觉着，哎呀，",
+          "vi": "nhưng trong lòng vẫn nghĩ, trời ơi,"
+        }
+      ]
     },
     "156": {
       "zh": "这也不容易啊，这想演出来也不容易啊。",
-      "vi": "thế này cũng không dễ đâu, muốn diễn được thế này cũng không dễ."
+      "parts": [
+        {
+          "zh": "这也不容易啊，",
+          "vi": "thế này cũng không dễ đâu,"
+        },
+        {
+          "zh": "这想演出来也不容易啊。",
+          "vi": "muốn diễn được thế này cũng không dễ."
+        }
+      ]
     },
     "157": {
       "zh": "然后我是觉着，哎，他们出门肯定就变样了。",
-      "vi": "Rồi tôi nghĩ, hừm, ra khỏi cửa là họ chắc chắn thay đổi ngay."
+      "parts": [
+        {
+          "zh": "然后我是觉着，哎，",
+          "vi": "Rồi tôi nghĩ, hừm,"
+        },
+        {
+          "zh": "他们出门肯定就变样了。",
+          "vi": "ra khỏi cửa là họ chắc chắn thay đổi ngay."
+        }
+      ]
     },
     "158": {
       "zh": "结果他们出了门也照样是，哎，特别灿烂的。",
-      "vi": "Kết quả ra khỏi cửa họ vẫn vậy, ôi, vẫn rạng rỡ lắm."
+      "parts": [
+        {
+          "zh": "结果他们出了门也照样是，哎，",
+          "vi": "Kết quả ra khỏi cửa họ vẫn vậy, ôi,"
+        },
+        {
+          "zh": "特别灿烂的。",
+          "vi": "vẫn rạng rỡ lắm."
+        }
+      ]
     },
     "159": {
       "zh": "因为服务完了以后，他们会有一个复盘，就是说今天的服务过程中每个人的感受啊什么的。",
-      "vi": "Vì phục vụ xong, họ sẽ có một buổi nhìn lại, tức là nói về cảm nhận của từng người trong buổi phục vụ hôm nay."
+      "parts": [
+        {
+          "zh": "因为服务完了以后，",
+          "vi": "Vì phục vụ xong,"
+        },
+        {
+          "zh": "他们会有一个复盘，",
+          "vi": "họ sẽ có một buổi nhìn lại,"
+        },
+        {
+          "zh": "就是说今天的服务过程中",
+          "vi": "tức là trong buổi phục vụ hôm nay,"
+        },
+        {
+          "zh": "每个人的感受啊什么的。",
+          "vi": "cảm nhận của từng người các thứ."
+        }
+      ]
     },
     "160": {
       "zh": "哎，我觉得他们大家讲的都那个特别灿烂，笑容都特别灿烂，然后那个你就感觉他们都挺阳光的。",
-      "vi": "Ơ, tôi thấy mọi người kể chuyện đều rất rạng rỡ, nụ cười cũng rất rạng rỡ, rồi bạn cảm thấy ai cũng rất tích cực."
+      "parts": [
+        {
+          "zh": "哎，我觉得他们大家讲的",
+          "vi": "Ơ, tôi thấy mọi người kể chuyện"
+        },
+        {
+          "zh": "都那个特别灿烂，",
+          "vi": "đều rất rạng rỡ,"
+        },
+        {
+          "zh": "笑容都特别灿烂，",
+          "vi": "nụ cười cũng rất rạng rỡ,"
+        },
+        {
+          "zh": "然后那个你就感觉",
+          "vi": "rồi bạn cảm thấy"
+        },
+        {
+          "zh": "他们都挺阳光的。",
+          "vi": "ai cũng rất tích cực."
+        }
+      ]
     },
     "161": {
       "zh": "我是觉着，首先你去面对的是一些癌末的患者、生命末期的人，这是很负能量的一个东西。",
-      "vi": "Tôi nghĩ, trước hết bạn phải đối mặt với những bệnh nhân ung thư giai đoạn cuối, những người sắp hết đời, đó là một thứ rất tiêu cực."
+      "parts": [
+        {
+          "zh": "我是觉着，",
+          "vi": "Tôi nghĩ,"
+        },
+        {
+          "zh": "首先你去面对的是一些癌末的患者、",
+          "vi": "trước hết bạn phải đối mặt với những bệnh nhân ung thư giai đoạn cuối,"
+        },
+        {
+          "zh": "生命末期的人，",
+          "vi": "những người sắp hết đời,"
+        },
+        {
+          "zh": "这是很负能量的一个东西。",
+          "vi": "đó là một thứ rất tiêu cực."
+        }
+      ]
     },
     "162": {
       "zh": "可是他们怎么笑得出来？",
@@ -672,7 +2009,20 @@
     },
     "166": {
       "zh": "后来慢慢的跟他们时间久了，至少我知道，虽然我做不出来，但是他们不是装的，",
-      "vi": "Sau này dần dần ở với họ lâu, ít nhất tôi biết, dù tôi không làm được, nhưng họ không giả vờ,"
+      "parts": [
+        {
+          "zh": "后来慢慢的跟他们时间久了，",
+          "vi": "Sau này dần dần ở với họ lâu,"
+        },
+        {
+          "zh": "至少我知道，虽然我做不出来，",
+          "vi": "ít nhất tôi biết, dù tôi không làm được,"
+        },
+        {
+          "zh": "但是他们不是装的，",
+          "vi": "nhưng họ không giả vờ,"
+        }
+      ]
     },
     "167": {
       "zh": "他们是发自内心的。",
@@ -684,11 +2034,37 @@
     },
     "169": {
       "zh": "看到这些患者的时候，我觉着他们比我妈幸福。",
-      "vi": "Khi nhìn những bệnh nhân này, tôi thấy họ hạnh phúc hơn mẹ tôi."
+      "parts": [
+        {
+          "zh": "看到这些患者的时候，",
+          "vi": "Khi nhìn những bệnh nhân này,"
+        },
+        {
+          "zh": "我觉着他们比我妈幸福。",
+          "vi": "tôi thấy họ hạnh phúc hơn mẹ tôi."
+        }
+      ]
     },
     "170": {
       "zh": "他们至少别管志愿者是装出来的还是真的，他们得到的是一个温暖的呵护和沟通照顾，",
-      "vi": "Ít nhất, bất kể tình nguyện viên là giả vờ hay thật lòng, họ nhận được sự chăm sóc, trò chuyện, chở che ấm áp,"
+      "parts": [
+        {
+          "zh": "他们至少别管志愿者",
+          "vi": "Ít nhất, bất kể tình nguyện viên"
+        },
+        {
+          "zh": "是装出来的还是真的，",
+          "vi": "là giả vờ hay thật lòng,"
+        },
+        {
+          "zh": "他们得到的是一个",
+          "vi": "họ nhận được"
+        },
+        {
+          "zh": "温暖的呵护和沟通照顾，",
+          "vi": "sự chăm sóc, trò chuyện, chở che ấm áp,"
+        }
+      ]
     },
     "171": {
       "zh": "而且他们身体的不适得到控制。",
@@ -696,11 +2072,33 @@
     },
     "172": {
       "zh": "他没有像我妈疼成那个样子，我会想很多。",
-      "vi": "Họ không đau đến mức như mẹ tôi, tôi nghĩ rất nhiều."
+      "parts": [
+        {
+          "zh": "他没有像我妈疼成那个样子，",
+          "vi": "họ không đau đến mức như mẹ tôi,"
+        },
+        {
+          "zh": "我会想很多。",
+          "vi": "tôi nghĩ rất nhiều."
+        }
+      ]
     },
     "173": {
       "zh": "哎呀，我妈要是能赶上这个时候，我都没有给我妈洗过头，我都不知道躺在床上该怎么洗头，",
-      "vi": "Trời ơi, giá mà mẹ tôi được kịp lúc này, tôi còn chưa từng gội đầu cho mẹ, tôi còn không biết nằm trên giường thì gội đầu thế nào,"
+      "parts": [
+        {
+          "zh": "哎呀，我妈要是能赶上这个时候，",
+          "vi": "Trời ơi, giá mà mẹ tôi được kịp lúc này,"
+        },
+        {
+          "zh": "我都没有给我妈洗过头，",
+          "vi": "tôi còn chưa từng gội đầu cho mẹ,"
+        },
+        {
+          "zh": "我都不知道躺在床上该怎么洗头，",
+          "vi": "tôi còn không biết nằm trên giường thì gội đầu thế nào,"
+        }
+      ]
     },
     "174": {
       "zh": "就是有反而有更多更多的遗憾出来。",
@@ -708,11 +2106,41 @@
     },
     "175": {
       "zh": "所以我虽然人在那儿服务，但是内心还是是两个层面，而且这两个层面是两个极端的。",
-      "vi": "Nên dù người tôi ở đó phục vụ, nhưng trong lòng vẫn có hai tầng, mà hai tầng này lại là hai thái cực."
+      "parts": [
+        {
+          "zh": "所以我虽然人在那儿服务，",
+          "vi": "Nên dù người tôi ở đó phục vụ,"
+        },
+        {
+          "zh": "但是内心还是是两个层面，",
+          "vi": "nhưng trong lòng vẫn có hai tầng,"
+        },
+        {
+          "zh": "而且这两个层面是两个极端的。",
+          "vi": "mà hai tầng này lại là hai thái cực."
+        }
+      ]
     },
     "176": {
       "zh": "然后那段时间我我不知道我能坚持多久，就是这种反差反而刺激的我更觉着我对不起我妈，",
-      "vi": "Rồi khoảng thời gian đó tôi, tôi không biết mình trụ được bao lâu, cái tương phản đó ngược lại càng khiến tôi thấy mình có lỗi với mẹ,"
+      "parts": [
+        {
+          "zh": "然后那段时间我我不知道",
+          "vi": "Rồi khoảng thời gian đó tôi, tôi không biết"
+        },
+        {
+          "zh": "我能坚持多久，",
+          "vi": "mình trụ được bao lâu,"
+        },
+        {
+          "zh": "就是这种反差",
+          "vi": "cái tương phản đó"
+        },
+        {
+          "zh": "反而刺激的我更觉着我对不起我妈，",
+          "vi": "ngược lại càng khiến tôi thấy mình có lỗi với mẹ,"
+        }
+      ]
     },
     "177": {
       "zh": "安慰自己我说。",
@@ -720,19 +2148,63 @@
     },
     "178": {
       "zh": "哎呀，我要是能为这些人服务，然后让这些人尽可能舒适一些，会不会是对我妈的一种弥补呢？",
-      "vi": "ôi, nếu mình phục vụ những người này, để họ thoải mái nhất có thể, liệu có phải là một cách bù đắp cho mẹ không?"
+      "parts": [
+        {
+          "zh": "哎呀，我要是能为这些人服务，",
+          "vi": "ôi, nếu mình phục vụ những người này,"
+        },
+        {
+          "zh": "然后让这些人尽可能舒适一些，",
+          "vi": "để họ thoải mái nhất có thể,"
+        },
+        {
+          "zh": "会不会是对我妈的一种弥补呢？",
+          "vi": "liệu có phải là một cách bù đắp cho mẹ không?"
+        }
+      ]
     },
     "179": {
       "zh": "但是我妈又没享受到，我妈明明是痛苦的死的呀。",
-      "vi": "Nhưng mẹ tôi lại không được hưởng, mẹ tôi rõ ràng đã chết trong đau đớn."
+      "parts": [
+        {
+          "zh": "但是我妈又没享受到，",
+          "vi": "Nhưng mẹ tôi lại không được hưởng,"
+        },
+        {
+          "zh": "我妈明明是痛苦的死的呀。",
+          "vi": "mẹ tôi rõ ràng đã chết trong đau đớn."
+        }
+      ]
     },
     "180": {
       "zh": "就是自己的这种内心的纠结，有的时候就觉得自己是浑浑噩噩的，",
-      "vi": "Chính sự giằng xé trong lòng như vậy, có lúc tôi thấy mình sống vật vờ,"
+      "parts": [
+        {
+          "zh": "就是自己的这种内心的纠结，",
+          "vi": "Chính sự giằng xé trong lòng như vậy,"
+        },
+        {
+          "zh": "有的时候就觉得自己是浑浑噩噩的，",
+          "vi": "có lúc tôi thấy mình sống vật vờ,"
+        }
+      ]
     },
     "181": {
       "zh": "就是去海医安宁服务到了那儿，人就是推开门不知道干嘛，出去了也不知道干嘛忘了，",
-      "vi": "tức là đến Hải Y An Ninh phục vụ, đến nơi, đẩy cửa vào mà không biết làm gì, ra ngoài cũng không biết làm gì, quên mất,"
+      "parts": [
+        {
+          "zh": "就是去海医安宁服务到了那儿，",
+          "vi": "tức là đến Hải Y An Ninh phục vụ, đến nơi,"
+        },
+        {
+          "zh": "人就是推开门不知道干嘛，",
+          "vi": "đẩy cửa vào mà không biết làm gì,"
+        },
+        {
+          "zh": "出去了也不知道干嘛忘了，",
+          "vi": "ra ngoài cũng không biết làm gì, quên mất,"
+        }
+      ]
     },
     "182": {
       "zh": "那个状态就极其的不好。",
@@ -740,59 +2212,233 @@
     },
     "183": {
       "zh": "后来有一段时间是海医安宁平台开始那个举办针对我们志愿者的那个生死教育课堂，",
-      "vi": "Sau đó có một khoảng thời gian, Hải Y An Ninh bắt đầu tổ chức lớp giáo dục sinh tử dành cho tình nguyện viên chúng tôi,"
+      "parts": [
+        {
+          "zh": "后来有一段时间是",
+          "vi": "Sau đó có một khoảng thời gian,"
+        },
+        {
+          "zh": "海医安宁平台开始那个举办",
+          "vi": "Hải Y An Ninh bắt đầu tổ chức"
+        },
+        {
+          "zh": "针对我们志愿者的",
+          "vi": "dành cho tình nguyện viên chúng tôi"
+        },
+        {
+          "zh": "那个生死教育课堂，",
+          "vi": "một lớp giáo dục sinh tử,"
+        }
+      ]
     },
     "184": {
       "zh": "海医安宁的算首席的那个心理师王洋老师给我们上课。",
-      "vi": "cô Vương Dương, coi như nhà tâm lý trưởng của Hải Y An Ninh, lên lớp cho chúng tôi."
+      "parts": [
+        {
+          "zh": "海医安宁的算首席的那个心理师",
+          "vi": "nhà tâm lý coi như trưởng của Hải Y An Ninh,"
+        },
+        {
+          "zh": "王洋老师给我们上课。",
+          "vi": "cô Vương Dương, lên lớp cho chúng tôi."
+        }
+      ]
     },
     "185": {
       "zh": "老师让我们分享每一个人分享一个关于死亡的故事，离你最近的那个死亡的故事。",
-      "vi": "Cô bảo mỗi người chia sẻ một câu chuyện về cái chết, câu chuyện về cái chết gần bạn nhất."
+      "parts": [
+        {
+          "zh": "老师让我们分享",
+          "vi": "Cô bảo chúng tôi chia sẻ,"
+        },
+        {
+          "zh": "每一个人分享一个关于死亡的故事，",
+          "vi": "mỗi người chia sẻ một câu chuyện về cái chết,"
+        },
+        {
+          "zh": "离你最近的那个死亡的故事。",
+          "vi": "câu chuyện về cái chết gần bạn nhất."
+        }
+      ]
     },
     "186": {
       "zh": "我不想讲我妈的故事，因为在这之前我已经自闭了很长时间。",
-      "vi": "Tôi không muốn kể chuyện của mẹ, vì trước đó tôi đã khép mình rất lâu rồi."
+      "parts": [
+        {
+          "zh": "我不想讲我妈的故事，",
+          "vi": "Tôi không muốn kể chuyện của mẹ,"
+        },
+        {
+          "zh": "因为在这之前",
+          "vi": "vì trước đó"
+        },
+        {
+          "zh": "我已经自闭了很长时间。",
+          "vi": "tôi đã khép mình rất lâu rồi."
+        }
+      ]
     },
     "187": {
       "zh": "我觉着我对不起我妈，因为一提起来那个时候的心情也不好，就是就会觉得哪哪都堵的哈。",
-      "vi": "Tôi thấy mình có lỗi với mẹ, vì hễ nhắc đến là tâm trạng lúc đó cũng không tốt, tức là thấy chỗ nào cũng nghẹn lại."
+      "parts": [
+        {
+          "zh": "我觉着我对不起我妈，",
+          "vi": "Tôi thấy mình có lỗi với mẹ,"
+        },
+        {
+          "zh": "因为一提起来",
+          "vi": "vì hễ nhắc đến"
+        },
+        {
+          "zh": "那个时候的心情也不好，就是就会觉得哪哪都堵的哈。",
+          "vi": "là tâm trạng lúc đó cũng không tốt, tức là thấy chỗ nào cũng nghẹn lại."
+        }
+      ]
     },
     "188": {
       "zh": "不想说，然后还没等说的时候，就可能就会泪流满面。",
-      "vi": "Không muốn nói, rồi chưa kịp nói có khi đã nước mắt đầm đìa."
+      "parts": [
+        {
+          "zh": "不想说，然后还没等说的时候，",
+          "vi": "Không muốn nói, rồi chưa kịp nói,"
+        },
+        {
+          "zh": "就可能就会泪流满面。",
+          "vi": "có khi đã nước mắt đầm đìa."
+        }
+      ]
     },
     "189": {
       "zh": "所以在那一次老师让我们每个人讲一个死亡故事的时候，我告诉自自己绝对不能提这件事儿。",
-      "vi": "Nên lần đó cô giáo bảo mỗi người kể một câu chuyện về cái chết, tôi tự nhủ tuyệt đối không được nhắc đến chuyện này."
+      "parts": [
+        {
+          "zh": "所以在那一次",
+          "vi": "Nên lần đó,"
+        },
+        {
+          "zh": "老师让我们每个人",
+          "vi": "cô giáo bảo mỗi người"
+        },
+        {
+          "zh": "讲一个死亡故事的时候，",
+          "vi": "kể một câu chuyện về cái chết,"
+        },
+        {
+          "zh": "我告诉自自己绝对不能提这件事儿。",
+          "vi": "tôi tự nhủ tuyệt đối không được nhắc đến chuyện này."
+        }
+      ]
     },
     "190": {
       "zh": "那大家都在讲自己的故事，有的人讲他宠物，有的人讲他那外婆，",
-      "vi": "Mọi người đều kể chuyện của mình, có người kể về thú cưng, có người kể về bà ngoại,"
+      "parts": [
+        {
+          "zh": "那大家都在讲自己的故事，",
+          "vi": "Mọi người đều kể chuyện của mình,"
+        },
+        {
+          "zh": "有的人讲他宠物，有的人讲他那外婆，",
+          "vi": "có người kể về thú cưng, có người kể về bà ngoại,"
+        }
+      ]
     },
     "191": {
       "zh": "有的人讲小的时候遇到的事儿，是两两一组的讲。",
-      "vi": "có người kể chuyện gặp hồi nhỏ, kể theo nhóm hai người."
+      "parts": [
+        {
+          "zh": "有的人讲小的时候遇到的事儿，",
+          "vi": "có người kể chuyện gặp hồi nhỏ,"
+        },
+        {
+          "zh": "是两两一组的讲。",
+          "vi": "kể theo nhóm hai người."
+        }
+      ]
     },
     "192": {
       "zh": "当时分组呢，我跟谁也不熟嘛，然后就看见第一次进病房见过的那个车老师。",
-      "vi": "Lúc chia nhóm, tôi không quen ai cả, rồi thấy cô Xa mà tôi gặp lần đầu vào phòng bệnh."
+      "parts": [
+        {
+          "zh": "当时分组呢，我跟谁也不熟嘛，",
+          "vi": "Lúc chia nhóm, tôi không quen ai cả,"
+        },
+        {
+          "zh": "然后就看见",
+          "vi": "rồi thấy"
+        },
+        {
+          "zh": "第一次进病房见过的那个车老师。",
+          "vi": "cô Xa mà tôi gặp lần đầu vào phòng bệnh."
+        }
+      ]
     },
     "193": {
       "zh": "温暖的目光，笑盈盈地看着患者的那个车老师，我觉得人家是装出来的那个。",
-      "vi": "Cô Xa với ánh mắt ấm áp, cười tươi nhìn bệnh nhân, người mà tôi cho là đang giả vờ ấy."
+      "parts": [
+        {
+          "zh": "温暖的目光，",
+          "vi": "Ánh mắt ấm áp,"
+        },
+        {
+          "zh": "笑盈盈地看着患者的那个车老师，",
+          "vi": "cô Xa cười tươi nhìn bệnh nhân ấy,"
+        },
+        {
+          "zh": "我觉得人家是装出来的那个。",
+          "vi": "người mà tôi cho là đang giả vờ ấy."
+        }
+      ]
     },
     "194": {
       "zh": "他就坐那儿默默的，我说老师，我能跟你一组吗？",
-      "vi": "Cô ngồi đó lặng lẽ, tôi nói cô ơi, em ghép nhóm với cô được không?"
+      "parts": [
+        {
+          "zh": "他就坐那儿默默的，",
+          "vi": "Cô ngồi đó lặng lẽ,"
+        },
+        {
+          "zh": "我说老师，我能跟你一组吗？",
+          "vi": "tôi nói cô ơi, em ghép nhóm với cô được không?"
+        }
+      ]
     },
     "195": {
       "zh": "可以啊，我说我没心情讲，我说我妈妈刚去世什么的，",
-      "vi": "\"Được chứ\", tôi nói em không có tâm trạng kể, em nói mẹ em vừa mất các thứ,"
+      "parts": [
+        {
+          "zh": "可以啊，",
+          "vi": "\"Được chứ\","
+        },
+        {
+          "zh": "我说我没心情讲，",
+          "vi": "tôi nói em không có tâm trạng kể,"
+        },
+        {
+          "zh": "我说我妈妈刚去世什么的，",
+          "vi": "em nói mẹ em vừa mất các thứ,"
+        }
+      ]
     },
     "196": {
       "zh": "但是我不想在课堂上分就分享这件事儿，我想想你先讲吧，我想一个我别的故事，",
-      "vi": "nhưng em không muốn chia sẻ chuyện này trên lớp, em nghĩ cô cứ kể trước đi, em nghĩ một chuyện khác,"
+      "parts": [
+        {
+          "zh": "但是我不想在课堂上",
+          "vi": "nhưng em không muốn ở trên lớp"
+        },
+        {
+          "zh": "分就分享这件事儿，",
+          "vi": "chia sẻ chuyện này,"
+        },
+        {
+          "zh": "我想想你先讲吧，",
+          "vi": "em nghĩ cô cứ kể trước đi,"
+        },
+        {
+          "zh": "我想一个我别的故事，",
+          "vi": "em nghĩ một chuyện khác,"
+        }
+      ]
     },
     "197": {
       "zh": "我编一个故事，或者是嗯，就是。",
@@ -800,11 +2446,29 @@
     },
     "198": {
       "zh": "交作业就完了，然后他就讲了他的故事。",
-      "vi": "nộp bài là xong, rồi cô kể chuyện của cô."
+      "parts": [
+        {
+          "zh": "交作业就完了，",
+          "vi": "nộp bài là xong,"
+        },
+        {
+          "zh": "然后他就讲了他的故事。",
+          "vi": "rồi cô kể chuyện của cô."
+        }
+      ]
     },
     "199": {
       "zh": "我在那想我该编啥，我根本就不记得他讲了啥。",
-      "vi": "Tôi ngồi đó nghĩ nên bịa chuyện gì, tôi hoàn toàn không nhớ cô đã kể gì."
+      "parts": [
+        {
+          "zh": "我在那想我该编啥，",
+          "vi": "Tôi ngồi đó nghĩ nên bịa chuyện gì,"
+        },
+        {
+          "zh": "我根本就不记得他讲了啥。",
+          "vi": "tôi hoàn toàn không nhớ cô đã kể gì."
+        }
+      ]
     },
     "200": {
       "zh": "那个时候就人是浑浑噩噩的嘛。",
@@ -812,15 +2476,50 @@
     },
     "201": {
       "zh": "后来他讲完了以后，轮到我了，他动员我，他说：“我觉得你应该把你的故事讲出来，",
-      "vi": "Sau đó cô kể xong, đến lượt tôi, cô khuyến khích tôi, cô nói: \"Tôi nghĩ chị nên kể câu chuyện của mình ra,"
+      "parts": [
+        {
+          "zh": "后来他讲完了以后，轮到我了，",
+          "vi": "Sau đó cô kể xong, đến lượt tôi,"
+        },
+        {
+          "zh": "他动员我，他说：",
+          "vi": "cô khuyến khích tôi, cô nói:"
+        },
+        {
+          "zh": "“我觉得你应该把你的故事讲出来，",
+          "vi": "\"Tôi nghĩ chị nên kể câu chuyện của mình ra,"
+        }
+      ]
     },
     "202": {
       "zh": "因为这是有心理老师，如果你讲出来，或许可以得到他的帮助。",
-      "vi": "vì ở đây có cô giáo tâm lý, nếu chị kể ra, biết đâu có thể được cô ấy giúp đỡ."
+      "parts": [
+        {
+          "zh": "因为这是有心理老师，",
+          "vi": "vì ở đây có cô giáo tâm lý,"
+        },
+        {
+          "zh": "如果你讲出来，",
+          "vi": "nếu chị kể ra,"
+        },
+        {
+          "zh": "或许可以得到他的帮助。",
+          "vi": "biết đâu có thể được cô ấy giúp đỡ."
+        }
+      ]
     },
     "203": {
       "zh": "而且有些东西呢憋在心里不好，你讲出来也是一种释放。”",
-      "vi": "Hơn nữa có những chuyện dồn nén trong lòng không tốt, kể ra cũng là một cách giải tỏa.\""
+      "parts": [
+        {
+          "zh": "而且有些东西呢憋在心里不好，",
+          "vi": "Hơn nữa có những chuyện dồn nén trong lòng không tốt,"
+        },
+        {
+          "zh": "你讲出来也是一种释放。”",
+          "vi": "kể ra cũng là một cách giải tỏa.\""
+        }
+      ]
     },
     "204": {
       "zh": "然后我就给他讲了，一边讲一边哭。",
@@ -828,31 +2527,110 @@
     },
     "205": {
       "zh": "后来大家都讲完了，王洋老师呢让每一个小组就说一说自己的感受。",
-      "vi": "Sau đó mọi người kể xong, cô Vương Dương bảo từng nhóm nói về cảm nhận của mình."
+      "parts": [
+        {
+          "zh": "后来大家都讲完了，",
+          "vi": "Sau đó mọi người kể xong,"
+        },
+        {
+          "zh": "王洋老师呢让每一个小组",
+          "vi": "cô Vương Dương bảo từng nhóm"
+        },
+        {
+          "zh": "就说一说自己的感受。",
+          "vi": "nói về cảm nhận của mình."
+        }
+      ]
     },
     "206": {
       "zh": "到车老师讲我的这个时候呢，王洋老师听得特别认真，可能估计是在现场里边，",
-      "vi": "Đến lúc cô Xa kể chuyện của tôi, cô Vương Dương nghe rất chăm chú, có lẽ vì trong số mọi người ở đó,"
+      "parts": [
+        {
+          "zh": "到车老师讲我的这个时候呢，",
+          "vi": "Đến lúc cô Xa kể chuyện của tôi,"
+        },
+        {
+          "zh": "王洋老师听得特别认真，",
+          "vi": "cô Vương Dương nghe rất chăm chú,"
+        },
+        {
+          "zh": "可能估计是在现场里边，",
+          "vi": "có lẽ vì trong số mọi người ở đó,"
+        }
+      ]
     },
     "207": {
       "zh": "我这个悲伤是程度最最深，然后又离着最近的一件事儿。",
-      "vi": "nỗi đau của tôi là sâu nhất, mà lại là chuyện gần nhất."
+      "parts": [
+        {
+          "zh": "我这个悲伤是程度最最深，",
+          "vi": "nỗi đau của tôi là sâu nhất,"
+        },
+        {
+          "zh": "然后又离着最近的一件事儿。",
+          "vi": "mà lại là chuyện gần nhất."
+        }
+      ]
     },
     "208": {
       "zh": "然后王洋老师就用我这个案例在课堂上就开始讲。",
-      "vi": "Rồi cô Vương Dương lấy trường hợp của tôi để bắt đầu giảng trên lớp."
+      "parts": [
+        {
+          "zh": "然后王洋老师",
+          "vi": "Rồi cô Vương Dương"
+        },
+        {
+          "zh": "就用我这个案例在课堂上就开始讲。",
+          "vi": "lấy trường hợp của tôi để bắt đầu giảng trên lớp."
+        }
+      ]
     },
     "209": {
       "zh": "就说，首先我想告诉你，不要用你今天的进步去谴责昨天的自己。",
-      "vi": "Cô nói, trước hết tôi muốn nói với chị, đừng dùng sự tiến bộ của hôm nay để kết tội bản thân của hôm qua."
+      "parts": [
+        {
+          "zh": "就说，首先我想告诉你，",
+          "vi": "Cô nói, trước hết tôi muốn nói với chị,"
+        },
+        {
+          "zh": "不要用你今天的进步",
+          "vi": "đừng dùng sự tiến bộ của hôm nay"
+        },
+        {
+          "zh": "去谴责昨天的自己。",
+          "vi": "để kết tội bản thân của hôm qua."
+        }
+      ]
     },
     "210": {
       "zh": "因为在你母亲去世的那个当下，按照你的当时的认知，你认为送母亲去医院是最好的。",
-      "vi": "Vì ngay lúc mẹ chị mất, theo nhận thức của chị khi đó, chị cho rằng đưa mẹ vào viện là tốt nhất."
+      "parts": [
+        {
+          "zh": "因为在你母亲去世的那个当下，",
+          "vi": "Vì ngay lúc mẹ chị mất,"
+        },
+        {
+          "zh": "按照你的当时的认知，",
+          "vi": "theo nhận thức của chị khi đó,"
+        },
+        {
+          "zh": "你认为送母亲去医院是最好的。",
+          "vi": "chị cho rằng đưa mẹ vào viện là tốt nhất."
+        }
+      ]
     },
     "211": {
       "zh": "那你已经尽心尽力做了，你就应该欣赏这样的自己。",
-      "vi": "Chị đã tận tâm tận lực làm rồi, chị nên trân trọng con người mình như vậy."
+      "parts": [
+        {
+          "zh": "那你已经尽心尽力做了，",
+          "vi": "Chị đã tận tâm tận lực làm rồi,"
+        },
+        {
+          "zh": "你就应该欣赏这样的自己。",
+          "vi": "chị nên trân trọng con người mình như vậy."
+        }
+      ]
     },
     "212": {
       "zh": "尽管结局不是很好，但是。",
@@ -860,7 +2638,24 @@
     },
     "213": {
       "zh": "你尽心尽力了，确实我当时的感觉是早知道有安宁病房啊，我要早知道这样，",
-      "vi": "chị đã tận tâm tận lực, đúng là cảm giác của tôi lúc đó là giá mà biết sớm có khoa chăm sóc cuối đời, giá mà tôi biết sớm như vậy,"
+      "parts": [
+        {
+          "zh": "你尽心尽力了，",
+          "vi": "Chị đã tận tâm tận lực,"
+        },
+        {
+          "zh": "确实我当时的感觉是",
+          "vi": "đúng là cảm giác của tôi lúc đó là,"
+        },
+        {
+          "zh": "早知道有安宁病房啊，",
+          "vi": "giá mà biết sớm có khoa chăm sóc cuối đời,"
+        },
+        {
+          "zh": "我要早知道这样，",
+          "vi": "giá mà tôi biết sớm như vậy,"
+        }
+      ]
     },
     "214": {
       "zh": "我就不会让我妈怎么怎么样。",
@@ -872,15 +2667,58 @@
     },
     "216": {
       "zh": "然后第二个自责和这种罪恶感相当于是自杀，就自我否定嘛。",
-      "vi": "Rồi thứ hai, tự trách và cảm giác tội lỗi kiểu này tương đương với tự sát, tức là tự phủ định bản thân."
+      "parts": [
+        {
+          "zh": "然后第二个自责和这种罪恶感",
+          "vi": "Rồi thứ hai, tự trách và cảm giác tội lỗi kiểu này"
+        },
+        {
+          "zh": "相当于是自杀，",
+          "vi": "tương đương với tự sát,"
+        },
+        {
+          "zh": "就自我否定嘛。",
+          "vi": "tức là tự phủ định bản thân."
+        }
+      ]
     },
     "217": {
       "zh": "希望你能够换个角度看这个世界，看这个所你身边所有发生的事情，比如说用爱的角度。",
-      "vi": "Mong chị có thể đổi góc nhìn về thế giới này, về tất cả những gì xảy ra quanh chị, ví dụ nhìn từ góc độ của tình yêu."
+      "parts": [
+        {
+          "zh": "希望你能够换个角度看这个世界，",
+          "vi": "Mong chị có thể đổi góc nhìn về thế giới này,"
+        },
+        {
+          "zh": "看这个所你身边所有发生的事情，",
+          "vi": "về tất cả những gì xảy ra quanh chị,"
+        },
+        {
+          "zh": "比如说用爱的角度。",
+          "vi": "ví dụ nhìn từ góc độ của tình yêu."
+        }
+      ]
     },
     "218": {
       "zh": "那就是，即使在那个时刻，你依然以满满的爱心去照顾你的母亲，全身心的去呵护她了，",
-      "vi": "Tức là, ngay cả lúc đó, chị vẫn chăm sóc mẹ bằng cả tấm lòng yêu thương, dốc hết lòng che chở cho bà,"
+      "parts": [
+        {
+          "zh": "那就是，即使在那个时刻，",
+          "vi": "Tức là, ngay cả lúc đó,"
+        },
+        {
+          "zh": "你依然以满满的爱心",
+          "vi": "chị vẫn bằng cả tấm lòng yêu thương"
+        },
+        {
+          "zh": "去照顾你的母亲，",
+          "vi": "chăm sóc mẹ,"
+        },
+        {
+          "zh": "全身心的去呵护她了，",
+          "vi": "dốc hết lòng che chở cho bà,"
+        }
+      ]
     },
     "219": {
       "zh": "这样就可以了。",
@@ -888,27 +2726,101 @@
     },
     "220": {
       "zh": "如果你还是有深深的自责和罪恶感，我建议你呢回到家做一件事儿，",
-      "vi": "Nếu chị vẫn còn tự trách và cảm thấy tội lỗi sâu sắc, tôi khuyên chị về nhà làm một việc,"
+      "parts": [
+        {
+          "zh": "如果你还是有深深的自责和罪恶感，",
+          "vi": "Nếu chị vẫn còn tự trách và cảm thấy tội lỗi sâu sắc,"
+        },
+        {
+          "zh": "我建议你呢回到家做一件事儿，",
+          "vi": "tôi khuyên chị về nhà làm một việc,"
+        }
+      ]
     },
     "221": {
       "zh": "而且要让这个事儿呢特别有仪式感，说拿你母亲的遗物也好，遗像也好。",
-      "vi": "và phải làm việc này thật trang trọng, lấy di vật của mẹ chị cũng được, di ảnh cũng được."
+      "parts": [
+        {
+          "zh": "而且要让这个事儿呢特别有仪式感，",
+          "vi": "và phải làm việc này thật trang trọng,"
+        },
+        {
+          "zh": "说拿你母亲的遗物也好，遗像也好。",
+          "vi": "lấy di vật của mẹ chị cũng được, di ảnh cũng được."
+        }
+      ]
     },
     "222": {
       "zh": "放在你的对面，就像你母亲坐在你面前一样。",
-      "vi": "Đặt đối diện chị, như thể mẹ chị đang ngồi trước mặt chị vậy."
+      "parts": [
+        {
+          "zh": "放在你的对面，",
+          "vi": "Đặt đối diện chị,"
+        },
+        {
+          "zh": "就像你母亲坐在你面前一样。",
+          "vi": "như thể mẹ chị đang ngồi trước mặt chị vậy."
+        }
+      ]
     },
     "223": {
       "zh": "你要跟她聊聊天儿，你要跟她说说话，你要把你现在内心的这些所有的感受告诉她。",
-      "vi": "Chị hãy trò chuyện với mẹ, nói chuyện với mẹ, kể cho mẹ nghe tất cả những cảm xúc trong lòng chị bây giờ."
+      "parts": [
+        {
+          "zh": "你要跟她聊聊天儿，",
+          "vi": "Chị hãy trò chuyện với mẹ,"
+        },
+        {
+          "zh": "你要跟她说说话，",
+          "vi": "nói chuyện với mẹ,"
+        },
+        {
+          "zh": "你要把你现在内心的",
+          "vi": "những cảm xúc trong lòng chị bây giờ,"
+        },
+        {
+          "zh": "这些所有的感受告诉她。",
+          "vi": "tất cả hãy kể cho mẹ nghe."
+        }
+      ]
     },
     "224": {
       "zh": "比如说有些事儿没做好，你要向她道歉，然后你要告诉母亲你很爱她。",
-      "vi": "Ví dụ có những việc chưa làm tốt, chị hãy xin lỗi mẹ, rồi hãy nói với mẹ là chị rất yêu mẹ."
+      "parts": [
+        {
+          "zh": "比如说有些事儿没做好，",
+          "vi": "Ví dụ có những việc chưa làm tốt,"
+        },
+        {
+          "zh": "你要向她道歉，",
+          "vi": "chị hãy xin lỗi mẹ,"
+        },
+        {
+          "zh": "然后你要告诉母亲你很爱她。",
+          "vi": "rồi hãy nói với mẹ là chị rất yêu mẹ."
+        }
+      ]
     },
     "225": {
       "zh": "最重要的一件事是，你一定要跟她告别，然后要告诉妈妈你会好好的生活，你会照顾好父亲。",
-      "vi": "Điều quan trọng nhất là chị nhất định phải từ biệt mẹ, rồi hãy nói với mẹ rằng chị sẽ sống thật tốt, chị sẽ chăm sóc bố thật tốt."
+      "parts": [
+        {
+          "zh": "最重要的一件事是，",
+          "vi": "Điều quan trọng nhất là,"
+        },
+        {
+          "zh": "你一定要跟她告别，",
+          "vi": "chị nhất định phải từ biệt mẹ,"
+        },
+        {
+          "zh": "然后要告诉妈妈你会好好的生活，",
+          "vi": "rồi hãy nói với mẹ rằng chị sẽ sống thật tốt,"
+        },
+        {
+          "zh": "你会照顾好父亲。",
+          "vi": "chị sẽ chăm sóc bố thật tốt."
+        }
+      ]
     },
     "226": {
       "zh": "告别的这件事儿一定要做好。",
@@ -916,35 +2828,135 @@
     },
     "227": {
       "zh": "当天晚上我回到家，把我妈的遗像拿出来放到床头，我就盘腿坐在她对面，跟她聊了三个小时。",
-      "vi": "Tối hôm đó về nhà, tôi lấy di ảnh của mẹ ra đặt ở đầu giường, tôi ngồi xếp bằng đối diện mẹ, trò chuyện với mẹ ba tiếng đồng hồ."
+      "parts": [
+        {
+          "zh": "当天晚上我回到家，",
+          "vi": "Tối hôm đó về nhà,"
+        },
+        {
+          "zh": "把我妈的遗像拿出来放到床头，",
+          "vi": "tôi lấy di ảnh của mẹ ra đặt ở đầu giường,"
+        },
+        {
+          "zh": "我就盘腿坐在她对面，",
+          "vi": "tôi ngồi xếp bằng đối diện mẹ,"
+        },
+        {
+          "zh": "跟她聊了三个小时。",
+          "vi": "trò chuyện với mẹ ba tiếng đồng hồ."
+        }
+      ]
     },
     "228": {
       "zh": "因为过去就不敢提我妈，一提就泪流满面嘛。",
-      "vi": "Vì trước đây tôi không dám nhắc đến mẹ, hễ nhắc là nước mắt đầm đìa mà."
+      "parts": [
+        {
+          "zh": "因为过去就不敢提我妈，",
+          "vi": "Vì trước đây tôi không dám nhắc đến mẹ,"
+        },
+        {
+          "zh": "一提就泪流满面嘛。",
+          "vi": "hễ nhắc là nước mắt đầm đìa mà."
+        }
+      ]
     },
     "229": {
       "zh": "我依然是，但是这一次因为我把心里的很多话说出来了，",
-      "vi": "Tôi vẫn vậy, nhưng lần này vì tôi đã nói ra được rất nhiều điều trong lòng,"
+      "parts": [
+        {
+          "zh": "我依然是，",
+          "vi": "Tôi vẫn vậy,"
+        },
+        {
+          "zh": "但是这一次因为",
+          "vi": "nhưng lần này vì"
+        },
+        {
+          "zh": "我把心里的很多话说出来了，",
+          "vi": "tôi đã nói ra được rất nhiều điều trong lòng,"
+        }
+      ]
     },
     "230": {
       "zh": "就是感觉这心里的一块石头就快摘出去了，就是没了。",
-      "vi": "cảm giác như tảng đá trong lòng sắp được gỡ ra rồi, tức là không còn nữa."
+      "parts": [
+        {
+          "zh": "就是感觉这心里的一块石头",
+          "vi": "cảm giác như tảng đá trong lòng"
+        },
+        {
+          "zh": "就快摘出去了，就是没了。",
+          "vi": "sắp được gỡ ra rồi, tức là không còn nữa."
+        }
+      ]
     },
     "231": {
       "zh": "忽然就觉着内心的那种压抑、那种憋闷的感觉就好多了。",
-      "vi": "Bỗng nhiên thấy cảm giác đè nén, ngột ngạt trong lòng đỡ hơn nhiều."
+      "parts": [
+        {
+          "zh": "忽然就觉着",
+          "vi": "Bỗng nhiên thấy"
+        },
+        {
+          "zh": "内心的那种压抑、那种憋闷的感觉",
+          "vi": "cảm giác đè nén, ngột ngạt trong lòng"
+        },
+        {
+          "zh": "就好多了。",
+          "vi": "đỡ hơn nhiều."
+        }
+      ]
     },
     "232": {
       "zh": "然后就深深的呼出一口气，就感觉人就轻松了好多。",
-      "vi": "Rồi thở ra một hơi thật sâu, cảm thấy người nhẹ nhõm đi nhiều."
+      "parts": [
+        {
+          "zh": "然后就深深的呼出一口气，",
+          "vi": "Rồi thở ra một hơi thật sâu,"
+        },
+        {
+          "zh": "就感觉人就轻松了好多。",
+          "vi": "cảm thấy người nhẹ nhõm đi nhiều."
+        }
+      ]
     },
     "233": {
       "zh": "然后我把我妈那照片就不再藏起来了，我就放在我能看到的地方，放在我书房里。",
-      "vi": "Rồi tôi không giấu ảnh mẹ đi nữa, tôi đặt ở chỗ tôi nhìn thấy được, để trong phòng đọc sách."
+      "parts": [
+        {
+          "zh": "然后我把我妈那照片",
+          "vi": "Rồi ảnh mẹ tôi,"
+        },
+        {
+          "zh": "就不再藏起来了，",
+          "vi": "tôi không giấu đi nữa,"
+        },
+        {
+          "zh": "我就放在我能看到的地方，",
+          "vi": "tôi đặt ở chỗ tôi nhìn thấy được,"
+        },
+        {
+          "zh": "放在我书房里。",
+          "vi": "để trong phòng đọc sách."
+        }
+      ]
     },
     "234": {
       "zh": "我要再干点什么学习啊或者干什么的时候，我妈我现在在干干嘛干嘛？",
-      "vi": "Khi tôi định làm gì đó, học hay làm gì, \"Mẹ ơi, bây giờ con làm cái này cái kia nhé\","
+      "parts": [
+        {
+          "zh": "我要再干点什么学习啊",
+          "vi": "Khi tôi định làm gì đó, học"
+        },
+        {
+          "zh": "或者干什么的时候，",
+          "vi": "hay làm gì,"
+        },
+        {
+          "zh": "我妈我现在在干干嘛干嘛？",
+          "vi": "\"Mẹ ơi, bây giờ con làm cái này cái kia nhé\","
+        }
+      ]
     },
     "235": {
       "zh": "我会跟她打个招呼。",
@@ -960,31 +2972,118 @@
     },
     "238": {
       "zh": "就是有些东西就是感觉一下子就改变了。",
-      "vi": "Tức là có những thứ cảm thấy như thay đổi ngay tức khắc."
+      "parts": [
+        {
+          "zh": "就是有些东西",
+          "vi": "Tức là có những thứ"
+        },
+        {
+          "zh": "就是感觉一下子就改变了。",
+          "vi": "cảm thấy như thay đổi ngay tức khắc."
+        }
+      ]
     },
     "239": {
       "zh": "妈妈，我是爱你的，尽管我这些事儿没做好，我很抱歉。",
-      "vi": "\"Mẹ ơi, con yêu mẹ, dù những việc này con làm chưa tốt, con rất xin lỗi."
+      "parts": [
+        {
+          "zh": "妈妈，我是爱你的，",
+          "vi": "\"Mẹ ơi, con yêu mẹ,"
+        },
+        {
+          "zh": "尽管我这些事儿没做好，我很抱歉。",
+          "vi": "dù những việc này con làm chưa tốt, con rất xin lỗi."
+        }
+      ]
     },
     "240": {
       "zh": "但是今后我会让我让我父亲、让老爸走得更好，所以我现在在安宁努力学习，我也是有私心的。",
-      "vi": "Nhưng sau này con sẽ để bố, để bố ra đi tốt hơn\", nên bây giờ tôi chăm chỉ học ở khoa chăm sóc cuối đời, tôi cũng có lý do riêng."
+      "parts": [
+        {
+          "zh": "但是今后我会让我让我父亲、",
+          "vi": "Nhưng sau này con sẽ để bố,"
+        },
+        {
+          "zh": "让老爸走得更好，",
+          "vi": "để bố ra đi tốt hơn\","
+        },
+        {
+          "zh": "所以我现在在安宁努力学习，",
+          "vi": "nên bây giờ tôi chăm chỉ học ở khoa chăm sóc cuối đời,"
+        },
+        {
+          "zh": "我也是有私心的。",
+          "vi": "tôi cũng có lý do riêng."
+        }
+      ]
     },
     "241": {
       "zh": "我希望把爸爸好好的送走，我也希望自己能好好的走。",
-      "vi": "Tôi mong tiễn bố ra đi thật trọn vẹn, tôi cũng mong chính mình ra đi thật trọn vẹn."
+      "parts": [
+        {
+          "zh": "我希望把爸爸好好的送走，",
+          "vi": "Tôi mong tiễn bố ra đi thật trọn vẹn,"
+        },
+        {
+          "zh": "我也希望自己能好好的走。",
+          "vi": "tôi cũng mong chính mình ra đi thật trọn vẹn."
+        }
+      ]
     },
     "242": {
       "zh": "后来主任说了一句话：“人不可能把自己没有的东西给到别人，包括爱和温暖。",
-      "vi": "Sau đó chị trưởng khoa nói một câu: \"Con người không thể cho người khác thứ mà mình không có, kể cả tình yêu và sự ấm áp."
+      "parts": [
+        {
+          "zh": "后来主任说了一句话：",
+          "vi": "Sau đó chị trưởng khoa nói một câu:"
+        },
+        {
+          "zh": "“人不可能",
+          "vi": "\"Con người không thể"
+        },
+        {
+          "zh": "把自己没有的东西给到别人，",
+          "vi": "cho người khác thứ mà mình không có,"
+        },
+        {
+          "zh": "包括爱和温暖。",
+          "vi": "kể cả tình yêu và sự ấm áp."
+        }
+      ]
     },
     "243": {
       "zh": "你自己没有爱，或者说你自己的爱没有溢出来，你也不可能给到别人。”",
-      "vi": "Tự mình không có tình yêu, hay nói cách khác tình yêu của mình chưa tràn ra, thì cũng không thể trao cho người khác.\""
+      "parts": [
+        {
+          "zh": "你自己没有爱，",
+          "vi": "Tự mình không có tình yêu,"
+        },
+        {
+          "zh": "或者说你自己的爱没有溢出来，",
+          "vi": "hay nói cách khác tình yêu của mình chưa tràn ra,"
+        },
+        {
+          "zh": "你也不可能给到别人。”",
+          "vi": "thì cũng không thể trao cho người khác.\""
+        }
+      ]
     },
     "244": {
       "zh": "这个时候我就理解当时这些老师为什么是那样的了，他们是发自内心的，",
-      "vi": "Đến lúc này tôi mới hiểu vì sao các thầy cô lúc đó lại như vậy, họ xuất phát từ tận đáy lòng,"
+      "parts": [
+        {
+          "zh": "这个时候我就理解",
+          "vi": "Đến lúc này tôi mới hiểu,"
+        },
+        {
+          "zh": "当时这些老师为什么是那样的了，",
+          "vi": "vì sao các thầy cô lúc đó lại như vậy,"
+        },
+        {
+          "zh": "他们是发自内心的，",
+          "vi": "họ xuất phát từ tận đáy lòng,"
+        }
+      ]
     },
     "245": {
       "zh": "因为他们首先是一个爱自己的人。",
@@ -992,55 +3091,224 @@
     },
     "246": {
       "zh": "对患者也是一样，你自己的爱充盈了，你会自然流露出来。",
-      "vi": "Với bệnh nhân cũng vậy, tình yêu của bạn đầy đủ rồi thì sẽ tự nhiên bộc lộ"
+      "parts": [
+        {
+          "zh": "对患者也是一样，",
+          "vi": "Với bệnh nhân cũng vậy,"
+        },
+        {
+          "zh": "你自己的爱充盈了，你会自然流露出来。",
+          "vi": "tình yêu của bạn đầy đủ rồi thì sẽ tự nhiên bộc lộ"
+        }
+      ]
     },
     "247": {
       "zh": "来，然后对方也能感受到你的温暖、爱和支持。",
-      "vi": "ra, rồi người kia cũng cảm nhận được sự ấm áp, tình yêu và sự nâng đỡ của bạn."
+      "parts": [
+        {
+          "zh": "来，然后对方也能感受到",
+          "vi": "ra, rồi người kia cũng cảm nhận được"
+        },
+        {
+          "zh": "你的温暖、爱和支持。",
+          "vi": "sự ấm áp, tình yêu và sự nâng đỡ của bạn."
+        }
+      ]
     },
     "248": {
       "zh": "生死教育课等于是给我一个救赎，我从那种极端低谷的状态把我自己救赎出来了。",
-      "vi": "Lớp giáo dục sinh tử chẳng khác nào một sự cứu rỗi, tôi đã tự cứu mình ra khỏi trạng thái chạm đáy cùng cực ấy."
+      "parts": [
+        {
+          "zh": "生死教育课等于是给我一个救赎，",
+          "vi": "Lớp giáo dục sinh tử chẳng khác nào một sự cứu rỗi,"
+        },
+        {
+          "zh": "我从那种极端低谷的状态",
+          "vi": "tôi đã từ trạng thái chạm đáy cùng cực ấy"
+        },
+        {
+          "zh": "把我自己救赎出来了。",
+          "vi": "tự cứu mình ra."
+        }
+      ]
     },
     "249": {
       "zh": "生死教育培训课程是徐叔人生一个巨大的转折点，从这里他开始重新思考生命与死亡，",
-      "vi": "Lớp đào tạo giáo dục sinh tử là một bước ngoặt lớn trong cuộc đời Từ Thúc, từ đây bà bắt đầu suy nghĩ lại về sự sống và cái chết,"
+      "parts": [
+        {
+          "zh": "生死教育培训课程",
+          "vi": "Lớp đào tạo giáo dục sinh tử"
+        },
+        {
+          "zh": "是徐叔人生一个巨大的转折点，",
+          "vi": "là một bước ngoặt lớn trong cuộc đời Từ Thúc,"
+        },
+        {
+          "zh": "从这里他开始重新思考生命与死亡，",
+          "vi": "từ đây bà bắt đầu suy nghĩ lại về sự sống và cái chết,"
+        }
+      ]
     },
     "250": {
       "zh": "他从浑浑噩噩变得清明，开始用爱的角度看世界，看自己。",
-      "vi": "bà từ vật vờ trở nên minh mẫn, bắt đầu nhìn thế giới và nhìn bản thân bằng góc nhìn của tình yêu."
+      "parts": [
+        {
+          "zh": "他从浑浑噩噩变得清明，",
+          "vi": "bà từ vật vờ trở nên minh mẫn,"
+        },
+        {
+          "zh": "开始用爱的角度看世界，看自己。",
+          "vi": "bắt đầu nhìn thế giới và nhìn bản thân bằng góc nhìn của tình yêu."
+        }
+      ]
     },
     "251": {
       "zh": "并与自己和解，带着这样的心情，徐叔在海医安宁做志愿的时候，也有了和之前完全不同的心态。",
-      "vi": "Và làm hòa với bản thân, mang tâm trạng như vậy, khi làm tình nguyện ở Hải Y An Ninh, Từ Thúc cũng có một tâm thế hoàn toàn khác trước."
+      "parts": [
+        {
+          "zh": "并与自己和解，带着这样的心情，",
+          "vi": "Và làm hòa với bản thân, mang tâm trạng như vậy,"
+        },
+        {
+          "zh": "徐叔在海医安宁做志愿的时候，",
+          "vi": "khi làm tình nguyện ở Hải Y An Ninh, Từ Thúc"
+        },
+        {
+          "zh": "也有了和之前完全不同的心态。",
+          "vi": "cũng có một tâm thế hoàn toàn khác trước."
+        }
+      ]
     },
     "252": {
       "zh": "海医安宁有几种颜色的马甲，红色的呢是个案的老师，一般他们是心理师和社工师，",
-      "vi": "Hải Y An Ninh có mấy màu áo gi-lê, màu đỏ là các thầy cô phụ trách từng ca, thường là nhà tâm lý và nhân viên công tác xã hội,"
+      "parts": [
+        {
+          "zh": "海医安宁有几种颜色的马甲，",
+          "vi": "Hải Y An Ninh có mấy màu áo gi-lê,"
+        },
+        {
+          "zh": "红色的呢是个案的老师，",
+          "vi": "màu đỏ là các thầy cô phụ trách từng ca,"
+        },
+        {
+          "zh": "一般他们是心理师和社工师，",
+          "vi": "thường là nhà tâm lý và nhân viên công tác xã hội,"
+        }
+      ]
     },
     "253": {
       "zh": "他们可以去了解患者或者家属情绪背后的要表达的内容是什么，",
-      "vi": "họ có thể tìm hiểu điều mà bệnh nhân hay người nhà muốn nói đằng sau cảm xúc của họ là gì,"
+      "parts": [
+        {
+          "zh": "他们可以去了解",
+          "vi": "họ có thể tìm hiểu,"
+        },
+        {
+          "zh": "患者或者家属情绪背后的",
+          "vi": "đằng sau cảm xúc của bệnh nhân hay người nhà,"
+        },
+        {
+          "zh": "要表达的内容是什么，",
+          "vi": "điều họ muốn nói là gì,"
+        }
+      ]
     },
     "254": {
       "zh": "就是让即将离世的患者和家人之间能够尽可能少一些遗憾，最后协助他们完成患者的未完成心愿。",
-      "vi": "tức là để giữa bệnh nhân sắp ra đi và người nhà bớt được tiếc nuối nhất có thể, cuối cùng giúp họ hoàn thành những tâm nguyện còn dang dở của bệnh nhân."
+      "parts": [
+        {
+          "zh": "就是让即将离世的患者",
+          "vi": "tức là để bệnh nhân sắp ra đi"
+        },
+        {
+          "zh": "和家人之间",
+          "vi": "và người nhà,"
+        },
+        {
+          "zh": "能够尽可能少一些遗憾，",
+          "vi": "bớt được tiếc nuối nhất có thể,"
+        },
+        {
+          "zh": "最后协助他们完成患者的未完成心愿。",
+          "vi": "cuối cùng giúp họ hoàn thành những tâm nguyện còn dang dở của bệnh nhân."
+        }
+      ]
     },
     "255": {
       "zh": "然后绿色马甲呢，就是最普通的那个进病房给患者洗洗头，嗯陪着打打牌，",
-      "vi": "Rồi áo gi-lê xanh lá là loại phổ thông nhất, vào phòng bệnh gội đầu cho bệnh nhân, ừm, ngồi chơi bài cùng,"
+      "parts": [
+        {
+          "zh": "然后绿色马甲呢，",
+          "vi": "Rồi áo gi-lê xanh lá,"
+        },
+        {
+          "zh": "就是最普通的那个",
+          "vi": "là loại phổ thông nhất,"
+        },
+        {
+          "zh": "进病房给患者洗洗头，",
+          "vi": "vào phòng bệnh gội đầu cho bệnh nhân,"
+        },
+        {
+          "zh": "嗯陪着打打牌，",
+          "vi": "ừm, ngồi chơi bài cùng,"
+        }
+      ]
     },
     "256": {
       "zh": "啊唱个歌什么的啊，就是这种基础服务。",
-      "vi": "à, hát một bài các thứ, tức là kiểu phục vụ cơ bản này."
+      "parts": [
+        {
+          "zh": "啊唱个歌什么的啊，",
+          "vi": "à, hát một bài các thứ,"
+        },
+        {
+          "zh": "就是这种基础服务。",
+          "vi": "tức là kiểu phục vụ cơ bản này."
+        }
+      ]
     },
     "257": {
       "zh": "所以我们志愿者里边有那个专业理发师就特别受欢迎，然后患者会排他的号去去理发什么的，",
-      "vi": "Nên trong số tình nguyện viên chúng tôi, ai là thợ cắt tóc chuyên nghiệp thì được yêu thích lắm, bệnh nhân còn xếp hàng lấy số để cắt tóc,"
+      "parts": [
+        {
+          "zh": "所以我们志愿者里边",
+          "vi": "Nên trong số tình nguyện viên chúng tôi,"
+        },
+        {
+          "zh": "有那个专业理发师",
+          "vi": "ai là thợ cắt tóc chuyên nghiệp"
+        },
+        {
+          "zh": "就特别受欢迎，",
+          "vi": "thì được yêu thích lắm,"
+        },
+        {
+          "zh": "然后患者会排他的号",
+          "vi": "bệnh nhân còn xếp hàng lấy số"
+        },
+        {
+          "zh": "去去理发什么的，",
+          "vi": "để cắt tóc các thứ,"
+        }
+      ]
     },
     "258": {
       "zh": "就可以按照自己想要的样子，嗯，在自己最后的生命里把自己打扮的美美的。",
-      "vi": "thế là có thể làm theo kiểu mình muốn, ừm, trong quãng đời cuối cùng tự làm đẹp cho mình thật xinh."
+      "parts": [
+        {
+          "zh": "就可以按照自己想要的样子，嗯，",
+          "vi": "thế là có thể làm theo kiểu mình muốn, ừm,"
+        },
+        {
+          "zh": "在自己最后的生命里",
+          "vi": "trong quãng đời cuối cùng"
+        },
+        {
+          "zh": "把自己打扮的美美的。",
+          "vi": "tự làm đẹp cho mình thật xinh."
+        }
+      ]
     },
     "259": {
       "zh": "这个绿马甲呢，就是招募社会的。",
@@ -1048,31 +3316,98 @@
     },
     "260": {
       "zh": "志愿者就是有爱心想过来那个做一些有意义的事情的这些人，",
-      "vi": "Tình nguyện viên là những người có lòng yêu thương, muốn đến làm những việc có ý nghĩa,"
+      "parts": [
+        {
+          "zh": "志愿者就是有爱心想过来",
+          "vi": "Tình nguyện viên là những người có lòng yêu thương, muốn đến"
+        },
+        {
+          "zh": "那个做一些有意义的事情的这些人，",
+          "vi": "làm những việc có ý nghĩa,"
+        }
+      ]
     },
     "261": {
       "zh": "然后还有一个黄马甲就是芳香呵护团队。",
-      "vi": "rồi còn có áo gi-lê vàng là đội chăm sóc bằng hương liệu."
+      "parts": [
+        {
+          "zh": "然后还有一个黄马甲",
+          "vi": "rồi còn có áo gi-lê vàng"
+        },
+        {
+          "zh": "就是芳香呵护团队。",
+          "vi": "là đội chăm sóc bằng hương liệu."
+        }
+      ]
     },
     "262": {
       "zh": "这芳香呵护团队呢领头人是台湾的赖大叔赖佩文老师。",
-      "vi": "Người dẫn dắt đội chăm sóc bằng hương liệu này là chú Lại người Đài Loan, thầy Lại Bội Văn."
+      "parts": [
+        {
+          "zh": "这芳香呵护团队呢领头人是",
+          "vi": "Người dẫn dắt đội chăm sóc bằng hương liệu này là"
+        },
+        {
+          "zh": "台湾的赖大叔赖佩文老师。",
+          "vi": "chú Lại người Đài Loan, thầy Lại Bội Văn."
+        }
+      ]
     },
     "263": {
       "zh": "然后芳香呵护主要是啊精油或者是不不用精油，",
-      "vi": "Rồi chăm sóc bằng hương liệu chủ yếu là, à, dùng tinh dầu hoặc không, không dùng tinh dầu,"
+      "parts": [
+        {
+          "zh": "然后芳香呵护主要是啊",
+          "vi": "Rồi chăm sóc bằng hương liệu chủ yếu là, à,"
+        },
+        {
+          "zh": "精油或者是不不用精油，",
+          "vi": "dùng tinh dầu hoặc không, không dùng tinh dầu,"
+        }
+      ]
     },
     "264": {
       "zh": "我们用手和他的肌肤身体接触包包覆式的这种抚摸，让患者有一种。",
-      "vi": "chúng tôi dùng tay tiếp xúc với da thịt, cơ thể người bệnh, vuốt ve theo kiểu bao bọc, để người bệnh có một cảm giác"
+      "parts": [
+        {
+          "zh": "我们用手和他的肌肤身体接触",
+          "vi": "chúng tôi dùng tay tiếp xúc với da thịt, cơ thể người bệnh,"
+        },
+        {
+          "zh": "包包覆式的这种抚摸，让患者有一种。",
+          "vi": "vuốt ve theo kiểu bao bọc, để người bệnh có một cảm giác"
+        }
+      ]
     },
     "265": {
       "zh": "被全然接纳，啊，被关爱的这种感觉，然后感觉到特别温暖。",
-      "vi": "được đón nhận trọn vẹn, à, được yêu thương, rồi cảm thấy rất ấm áp."
+      "parts": [
+        {
+          "zh": "被全然接纳，啊，被关爱的这种感觉，",
+          "vi": "được đón nhận trọn vẹn, à, được yêu thương,"
+        },
+        {
+          "zh": "然后感觉到特别温暖。",
+          "vi": "rồi cảm thấy rất ấm áp."
+        }
+      ]
     },
     "266": {
       "zh": "随着我们的引导语，他可以放松身心，然后舒舒服服的睡一会儿。",
-      "vi": "Theo lời dẫn của chúng tôi, họ có thể thả lỏng thân tâm, rồi ngủ một giấc thoải mái."
+      "parts": [
+        {
+          "zh": "随着我们的引导语，",
+          "vi": "Theo lời dẫn của chúng tôi,"
+        },
+        {
+          "zh": "他可以放松身心，",
+          "vi": "họ có thể thả lỏng thân tâm,"
+        },
+        {
+          "zh": "然后舒舒服服的睡一会儿。",
+          "vi": "rồi ngủ một giấc thoải mái."
+        }
+      ]
     },
     "267": {
       "zh": "就是主要是这么三个马甲，三个团队，",
@@ -1084,7 +3419,20 @@
     },
     "269": {
       "zh": "在海医安宁做志愿者的日子里，曾经有一个叫做大明的患者让徐叔印象是深。",
-      "vi": "Trong những ngày làm tình nguyện viên ở Hải Y An Ninh, từng có một bệnh nhân tên là Đại Minh để lại ấn tượng rất sâu cho Từ Thúc."
+      "parts": [
+        {
+          "zh": "在海医安宁做志愿者的日子里，",
+          "vi": "Trong những ngày làm tình nguyện viên ở Hải Y An Ninh,"
+        },
+        {
+          "zh": "曾经有一个叫做大明的患者",
+          "vi": "từng có một bệnh nhân tên là Đại Minh,"
+        },
+        {
+          "zh": "让徐叔印象是深。",
+          "vi": "để lại ấn tượng rất sâu cho Từ Thúc."
+        }
+      ]
     },
     "270": {
       "zh": "大明还不到四十岁就到癌症晚期。",
@@ -1092,55 +3440,224 @@
     },
     "271": {
       "zh": "进入病房的时候，刚好赶上他生日，于是安宁团队的志愿者们就提前为他筹划了生日会。",
-      "vi": "Lúc vào khoa, vừa đúng dịp sinh nhật anh, nên các tình nguyện viên của đội chăm sóc cuối đời đã lên kế hoạch tổ chức sinh nhật cho anh từ trước."
+      "parts": [
+        {
+          "zh": "进入病房的时候，",
+          "vi": "Lúc vào khoa,"
+        },
+        {
+          "zh": "刚好赶上他生日，",
+          "vi": "vừa đúng dịp sinh nhật anh,"
+        },
+        {
+          "zh": "于是安宁团队的志愿者们",
+          "vi": "nên các tình nguyện viên của đội chăm sóc cuối đời"
+        },
+        {
+          "zh": "就提前为他筹划了生日会。",
+          "vi": "đã lên kế hoạch tổ chức sinh nhật cho anh từ trước."
+        }
+      ]
     },
     "272": {
       "zh": "他实际上，嗯，到安宁病房来的时候，他知道自己的病情，嗯，",
-      "vi": "Thật ra lúc anh, ừm, đến khoa chăm sóc cuối đời, anh biết bệnh tình của mình, ừm,"
+      "parts": [
+        {
+          "zh": "他实际上，嗯，到安宁病房来的时候，",
+          "vi": "Thật ra lúc anh, ừm, đến khoa chăm sóc cuối đời,"
+        },
+        {
+          "zh": "他知道自己的病情，嗯，",
+          "vi": "anh biết bệnh tình của mình, ừm,"
+        }
+      ]
     },
     "273": {
       "zh": "实际上那么年轻就即将走向死亡，他是任何人都是有点没法接受的。",
-      "vi": "thật ra trẻ như vậy mà sắp phải đi đến cái chết, ai cũng thấy có phần không thể chấp nhận được."
+      "parts": [
+        {
+          "zh": "实际上那么年轻就即将走向死亡，",
+          "vi": "thật ra trẻ như vậy mà sắp phải đi đến cái chết,"
+        },
+        {
+          "zh": "他是任何人都是有点没法接受的。",
+          "vi": "ai cũng thấy có phần không thể chấp nhận được."
+        }
+      ]
     },
     "274": {
       "zh": "他和他妻子呢又特别特别的相爱，还有一个孩子。",
-      "vi": "Anh với vợ lại rất rất yêu nhau, còn có một đứa con."
+      "parts": [
+        {
+          "zh": "他和他妻子呢又特别特别的相爱，",
+          "vi": "Anh với vợ lại rất rất yêu nhau,"
+        },
+        {
+          "zh": "还有一个孩子。",
+          "vi": "còn có một đứa con."
+        }
+      ]
     },
     "275": {
       "zh": "所以说到他要过生日，或者说给他办个什么事儿的时候，很多人就特别想办好。",
-      "vi": "Nên nói đến chuyện anh sắp đón sinh nhật, hay làm gì đó cho anh, rất nhiều người rất muốn làm cho thật tốt."
+      "parts": [
+        {
+          "zh": "所以说到他要过生日，",
+          "vi": "Nên nói đến chuyện anh sắp đón sinh nhật,"
+        },
+        {
+          "zh": "或者说给他办个什么事儿的时候，",
+          "vi": "hay làm gì đó cho anh,"
+        },
+        {
+          "zh": "很多人就特别想办好。",
+          "vi": "rất nhiều người rất muốn làm cho thật tốt."
+        }
+      ]
     },
     "276": {
       "zh": "包括工作的医生、护士很多都会都是他的同龄人，有很多东西感同身受。",
-      "vi": "Kể cả các bác sĩ, y tá làm việc ở đó, nhiều người cùng trang lứa với anh, có nhiều điều đồng cảm."
+      "parts": [
+        {
+          "zh": "包括工作的医生、护士",
+          "vi": "Kể cả các bác sĩ, y tá làm việc ở đó,"
+        },
+        {
+          "zh": "很多都会都是他的同龄人，",
+          "vi": "nhiều người cùng trang lứa với anh,"
+        },
+        {
+          "zh": "有很多东西感同身受。",
+          "vi": "có nhiều điều đồng cảm."
+        }
+      ]
     },
     "277": {
       "zh": "然后团队呢又跟他夫人一起把他的各个阶段的朋友都找到一部分，还有他家的亲属，就是想。",
-      "vi": "Rồi đội cùng với vợ anh tìm được một phần bạn bè của anh qua từng giai đoạn, cả họ hàng nhà anh nữa, là muốn"
+      "parts": [
+        {
+          "zh": "然后团队呢又跟他夫人一起",
+          "vi": "Rồi đội cùng với vợ anh,"
+        },
+        {
+          "zh": "把他的各个阶段的朋友",
+          "vi": "bạn bè của anh qua từng giai đoạn,"
+        },
+        {
+          "zh": "都找到一部分，",
+          "vi": "tìm được một phần,"
+        },
+        {
+          "zh": "还有他家的亲属，就是想。",
+          "vi": "cả họ hàng nhà anh nữa, là muốn"
+        }
+      ]
     },
     "278": {
       "zh": "在生日会上，通过视频对他的问候，在这个问候中，大家都会说你是一个什么样的人，",
-      "vi": "trong buổi sinh nhật, qua video gửi lời hỏi thăm anh, trong lời hỏi thăm, mọi người sẽ nói anh là người thế nào,"
+      "parts": [
+        {
+          "zh": "在生日会上，",
+          "vi": "trong buổi sinh nhật,"
+        },
+        {
+          "zh": "通过视频对他的问候，",
+          "vi": "qua video gửi lời hỏi thăm anh,"
+        },
+        {
+          "zh": "在这个问候中，",
+          "vi": "trong lời hỏi thăm,"
+        },
+        {
+          "zh": "大家都会说你是一个什么样的人，",
+          "vi": "mọi người sẽ nói anh là người thế nào,"
+        }
+      ]
     },
     "279": {
       "zh": "你在我心里留下个什么什么样的印象。",
-      "vi": "anh đã để lại trong lòng tôi ấn tượng ra sao."
+      "parts": [
+        {
+          "zh": "你在我心里留下个",
+          "vi": "anh đã để lại trong lòng tôi"
+        },
+        {
+          "zh": "什么什么样的印象。",
+          "vi": "ấn tượng ra sao."
+        }
+      ]
     },
     "280": {
       "zh": "然后他夫人呢也给他录了一段话，主要就是说他们俩是网恋。",
-      "vi": "Rồi vợ anh cũng ghi âm cho anh một đoạn, chủ yếu là kể hai người yêu nhau qua mạng."
+      "parts": [
+        {
+          "zh": "然后他夫人呢也给他录了一段话，",
+          "vi": "Rồi vợ anh cũng ghi âm cho anh một đoạn,"
+        },
+        {
+          "zh": "主要就是说他们俩是网恋。",
+          "vi": "chủ yếu là kể hai người yêu nhau qua mạng."
+        }
+      ]
     },
     "281": {
       "zh": "然后他夫人就说我从一个自闭、几乎自闭的一个女孩，",
-      "vi": "Rồi vợ anh nói, em từ một cô gái khép kín, gần như tự kỷ,"
+      "parts": [
+        {
+          "zh": "然后他夫人就说",
+          "vi": "Rồi vợ anh nói,"
+        },
+        {
+          "zh": "我从一个自闭、几乎自闭的一个女孩，",
+          "vi": "em từ một cô gái khép kín, gần như tự kỷ,"
+        }
+      ]
     },
     "282": {
       "zh": "然后让你把我骄纵成了一个就是你的朋友都是我的朋友，然后变成一个特别开朗。",
-      "vi": "được anh chiều chuộng đến mức bạn của anh cũng là bạn của em, rồi trở thành một người rất cởi mở,"
+      "parts": [
+        {
+          "zh": "然后让你把我骄纵成了一个",
+          "vi": "được anh chiều chuộng đến mức"
+        },
+        {
+          "zh": "就是你的朋友都是我的朋友，",
+          "vi": "bạn của anh cũng là bạn của em,"
+        },
+        {
+          "zh": "然后变成一个特别开朗。",
+          "vi": "rồi trở thành một người rất cởi mở,"
+        }
+      ]
     },
     "283": {
       "zh": "的人，然后他没完成的心愿就是他老出差嘛，世界各地走，特别希望带他们母子俩也能出去一趟。",
-      "vi": "rồi tâm nguyện chưa hoàn thành của anh là, vì anh hay đi công tác, đi khắp thế giới, anh rất muốn đưa hai mẹ con đi một chuyến."
+      "parts": [
+        {
+          "zh": "的人，",
+          "vi": "như vậy,"
+        },
+        {
+          "zh": "然后他没完成的心愿",
+          "vi": "rồi tâm nguyện chưa hoàn thành của anh"
+        },
+        {
+          "zh": "就是他老出差嘛，",
+          "vi": "là, vì anh hay đi công tác,"
+        },
+        {
+          "zh": "世界各地走，",
+          "vi": "đi khắp thế giới,"
+        },
+        {
+          "zh": "特别希望带他们母子俩",
+          "vi": "anh rất muốn đưa hai mẹ con"
+        },
+        {
+          "zh": "也能出去一趟。",
+          "vi": "cũng đi được một chuyến."
+        }
+      ]
     },
     "284": {
       "zh": "结果还没等愿望实现，自己就病倒了。",
@@ -1148,7 +3665,20 @@
     },
     "285": {
       "zh": "然后当时的那个安宁团队的那个负责他生日会的一个小姑娘也特别特别用心，",
-      "vi": "Rồi cô gái trong đội chăm sóc cuối đời phụ trách buổi sinh nhật đó cũng rất rất có tâm,"
+      "parts": [
+        {
+          "zh": "然后当时的那个安宁团队的",
+          "vi": "Rồi trong đội chăm sóc cuối đời lúc đó,"
+        },
+        {
+          "zh": "那个负责他生日会的一个小姑娘",
+          "vi": "cô gái phụ trách buổi sinh nhật của anh"
+        },
+        {
+          "zh": "也特别特别用心，",
+          "vi": "cũng rất rất có tâm,"
+        }
+      ]
     },
     "286": {
       "zh": "就把他以前他老婆拿出来的那些。",
@@ -1156,7 +3686,24 @@
     },
     "287": {
       "zh": "呃，他去欧洲的照片，然后把他们一家三口在北京拍的那个照片就就P到里边去了，",
-      "vi": "ờ, ảnh anh đi châu Âu, rồi ghép ảnh cả nhà ba người chụp ở Bắc Kinh vào trong đó,"
+      "parts": [
+        {
+          "zh": "呃，他去欧洲的照片，",
+          "vi": "ờ, ảnh anh đi châu Âu,"
+        },
+        {
+          "zh": "然后把他们一家三口",
+          "vi": "rồi ảnh cả nhà ba người"
+        },
+        {
+          "zh": "在北京拍的那个照片",
+          "vi": "chụp ở Bắc Kinh,"
+        },
+        {
+          "zh": "就就P到里边去了，",
+          "vi": "được ghép vào trong đó,"
+        }
+      ]
     },
     "288": {
       "zh": "然后在生日会上就放出来了。",
@@ -1164,19 +3711,67 @@
     },
     "289": {
       "zh": "就大明几乎是从头到尾一直在哭，就特别感动。",
-      "vi": "Đại Minh gần như khóc từ đầu đến cuối, vô cùng xúc động."
+      "parts": [
+        {
+          "zh": "就大明几乎是从头到尾一直在哭，",
+          "vi": "Đại Minh gần như khóc từ đầu đến cuối,"
+        },
+        {
+          "zh": "就特别感动。",
+          "vi": "vô cùng xúc động."
+        }
+      ]
     },
     "290": {
       "zh": "然后这个生日会完了之后，呃，结尾的时候，他儿子学油画嘛，就把那个油画拿，",
-      "vi": "Rồi sau buổi sinh nhật, ờ, lúc kết thúc, con trai anh học vẽ tranh sơn dầu mà, mang bức tranh sơn dầu đến,"
+      "parts": [
+        {
+          "zh": "然后这个生日会完了之后，呃，",
+          "vi": "Rồi sau buổi sinh nhật, ờ,"
+        },
+        {
+          "zh": "结尾的时候，",
+          "vi": "lúc kết thúc,"
+        },
+        {
+          "zh": "他儿子学油画嘛，",
+          "vi": "con trai anh học vẽ tranh sơn dầu mà,"
+        },
+        {
+          "zh": "就把那个油画拿，",
+          "vi": "mang bức tranh sơn dầu đến,"
+        }
+      ]
     },
     "291": {
       "zh": "他一个大男人就抱着油画看看完了以后，盖到自己的脸上。",
-      "vi": "một người đàn ông to lớn như anh ôm bức tranh xem xong, úp nó lên mặt mình."
+      "parts": [
+        {
+          "zh": "他一个大男人",
+          "vi": "một người đàn ông to lớn như anh,"
+        },
+        {
+          "zh": "就抱着油画看看完了以后，",
+          "vi": "ôm bức tranh xem xong,"
+        },
+        {
+          "zh": "盖到自己的脸上。",
+          "vi": "úp nó lên mặt mình."
+        }
+      ]
     },
     "292": {
       "zh": "盖完了以后，拿下来跟他夫人说：“让这幅画跟我一起走。”",
-      "vi": "Úp xong, anh bỏ xuống nói với vợ: \"Hãy để bức tranh này đi cùng anh.\""
+      "parts": [
+        {
+          "zh": "盖完了以后，拿下来跟他夫人说：",
+          "vi": "Úp xong, anh bỏ xuống nói với vợ:"
+        },
+        {
+          "zh": "“让这幅画跟我一起走。”",
+          "vi": "\"Hãy để bức tranh này đi cùng anh.\""
+        }
+      ]
     },
     "293": {
       "zh": "说这是我儿子送给我的。",
@@ -1184,15 +3779,50 @@
     },
     "294": {
       "zh": "就是他儿子也在现场，实际上也一直流泪。",
-      "vi": "Con trai anh cũng có mặt ở đó, thật ra cũng khóc suốt."
+      "parts": [
+        {
+          "zh": "就是他儿子也在现场，",
+          "vi": "Con trai anh cũng có mặt ở đó,"
+        },
+        {
+          "zh": "实际上也一直流泪。",
+          "vi": "thật ra cũng khóc suốt."
+        }
+      ]
     },
     "295": {
       "zh": "但是他儿子就是十岁左右嘛，就是那种小男子汉的样子。",
-      "vi": "Nhưng con trai anh mới khoảng mười tuổi mà, kiểu dáng vẻ một cậu bé nam nhi."
+      "parts": [
+        {
+          "zh": "但是他儿子就是十岁左右嘛，",
+          "vi": "Nhưng con trai anh mới khoảng mười tuổi mà,"
+        },
+        {
+          "zh": "就是那种小男子汉的样子。",
+          "vi": "kiểu dáng vẻ một cậu bé nam nhi."
+        }
+      ]
     },
     "296": {
       "zh": "他看着电视落泪的时候，他一定面朝电视，他不去看爸爸，不想让爸爸看见他落泪。",
-      "vi": "Lúc cậu nhìn TV mà rơi nước mắt, cậu nhất định quay mặt về phía TV, không nhìn bố, không muốn để bố thấy mình khóc."
+      "parts": [
+        {
+          "zh": "他看着电视落泪的时候，",
+          "vi": "Lúc cậu nhìn TV mà rơi nước mắt,"
+        },
+        {
+          "zh": "他一定面朝电视，",
+          "vi": "cậu nhất định quay mặt về phía TV,"
+        },
+        {
+          "zh": "他不去看爸爸，",
+          "vi": "không nhìn bố,"
+        },
+        {
+          "zh": "不想让爸爸看见他落泪。",
+          "vi": "không muốn để bố thấy mình khóc."
+        }
+      ]
     },
     "297": {
       "zh": "后来他爸爸感受到了，就伸手去够他。",
@@ -1200,7 +3830,16 @@
     },
     "298": {
       "zh": "但是他是这样的背对着他爸的嘛，假装看电视，然后看看那个大屏幕。",
-      "vi": "Nhưng cậu cứ quay lưng lại với bố như thế này, giả vờ xem TV, xem cái màn hình lớn."
+      "parts": [
+        {
+          "zh": "但是他是这样的背对着他爸的嘛，",
+          "vi": "Nhưng cậu cứ quay lưng lại với bố như thế này,"
+        },
+        {
+          "zh": "假装看电视，然后看看那个大屏幕。",
+          "vi": "giả vờ xem TV, xem cái màn hình lớn."
+        }
+      ]
     },
     "299": {
       "zh": "然后落泪。",
@@ -1208,11 +3847,37 @@
     },
     "300": {
       "zh": "后来主任这个时候特别温暖的过去，把孩子的手拉过来和父亲的手，小手放在大手里。",
-      "vi": "Sau đó lúc này chị trưởng khoa rất ấm áp bước tới, kéo tay cậu bé đặt vào tay bố, bàn tay nhỏ đặt trong bàn tay lớn."
+      "parts": [
+        {
+          "zh": "后来主任这个时候特别温暖的过去，",
+          "vi": "Sau đó lúc này chị trưởng khoa rất ấm áp bước tới,"
+        },
+        {
+          "zh": "把孩子的手拉过来和父亲的手，",
+          "vi": "kéo tay cậu bé đặt vào tay bố,"
+        },
+        {
+          "zh": "小手放在大手里。",
+          "vi": "bàn tay nhỏ đặt trong bàn tay lớn."
+        }
+      ]
     },
     "301": {
       "zh": "然后所有屏幕上展示的那些东西，那个那个照片什么的，都给他做成了一个时光相册，",
-      "vi": "Rồi tất cả những thứ trình chiếu trên màn hình, những tấm ảnh các thứ, đều được làm thành một cuốn album thời gian,"
+      "parts": [
+        {
+          "zh": "然后所有屏幕上展示的那些东西，",
+          "vi": "Rồi tất cả những thứ trình chiếu trên màn hình,"
+        },
+        {
+          "zh": "那个那个照片什么的，",
+          "vi": "những tấm ảnh các thứ,"
+        },
+        {
+          "zh": "都给他做成了一个时光相册，",
+          "vi": "đều được làm thành một cuốn album thời gian,"
+        }
+      ]
     },
     "302": {
       "zh": "打印出来了，然后送给大明。",
@@ -1220,7 +3885,20 @@
     },
     "303": {
       "zh": "大明就抱着那个时光相册，抱着他儿子的花，就没撒手，一直到最后。",
-      "vi": "Đại Minh ôm cuốn album thời gian, ôm bó hoa của con trai, không buông tay, cho đến tận cuối cùng."
+      "parts": [
+        {
+          "zh": "大明就抱着那个时光相册，",
+          "vi": "Đại Minh ôm cuốn album thời gian,"
+        },
+        {
+          "zh": "抱着他儿子的花，",
+          "vi": "ôm bó hoa của con trai,"
+        },
+        {
+          "zh": "就没撒手，一直到最后。",
+          "vi": "không buông tay, cho đến tận cuối cùng."
+        }
+      ]
     },
     "304": {
       "zh": "这个生日。",
@@ -1228,19 +3906,71 @@
     },
     "305": {
       "zh": "会之后，大明就特别满意，就觉着没什么遗憾了。",
-      "vi": "nhật đó, Đại Minh rất mãn nguyện, thấy không còn gì tiếc nuối nữa."
+      "parts": [
+        {
+          "zh": "会之后，大明就特别满意，",
+          "vi": "nhật đó, Đại Minh rất mãn nguyện,"
+        },
+        {
+          "zh": "就觉着没什么遗憾了。",
+          "vi": "thấy không còn gì tiếc nuối nữa."
+        }
+      ]
     },
     "306": {
       "zh": "然后就跟那个团队说：“我我接接纳逐渐的在睡梦中走向死亡这件事儿了。”",
-      "vi": "Rồi anh nói với đội: \"Tôi, tôi chấp nhận chuyện dần dần đi đến cái chết trong giấc ngủ rồi.\""
+      "parts": [
+        {
+          "zh": "然后就跟那个团队说：",
+          "vi": "Rồi anh nói với đội:"
+        },
+        {
+          "zh": "“我我接接纳",
+          "vi": "\"Tôi, tôi chấp nhận"
+        },
+        {
+          "zh": "逐渐的在睡梦中",
+          "vi": "chuyện dần dần trong giấc ngủ"
+        },
+        {
+          "zh": "走向死亡这件事儿了。”",
+          "vi": "đi đến cái chết rồi.\""
+        }
+      ]
     },
     "307": {
       "zh": "要团队这些团队小伙伴们前期工作做的都真的好，",
-      "vi": "Phải nhờ các bạn trong đội làm công tác chuẩn bị thật tốt,"
+      "parts": [
+        {
+          "zh": "要团队这些团队小伙伴们",
+          "vi": "Phải nhờ các bạn trong đội"
+        },
+        {
+          "zh": "前期工作做的都真的好，",
+          "vi": "làm công tác chuẩn bị thật tốt,"
+        }
+      ]
     },
     "308": {
       "zh": "每一场生日会或者说患者的这种生死两相安的礼式，没有这个团队的努力都是不行。",
-      "vi": "mỗi buổi sinh nhật, hay mỗi nghi thức \"sinh tử lưỡng an\" (người đi và người ở đều yên lòng) như thế cho bệnh nhân, không có nỗ lực của đội thì đều không thể được."
+      "parts": [
+        {
+          "zh": "每一场生日会",
+          "vi": "mỗi buổi sinh nhật,"
+        },
+        {
+          "zh": "或者说患者的这种",
+          "vi": "hay mỗi nghi thức như thế cho bệnh nhân,"
+        },
+        {
+          "zh": "生死两相安的礼式，",
+          "vi": "\"sinh tử lưỡng an\" (người đi và người ở đều yên lòng),"
+        },
+        {
+          "zh": "没有这个团队的努力都是不行。",
+          "vi": "không có nỗ lực của đội thì đều không thể được."
+        }
+      ]
     },
     "309": {
       "zh": "嗯，这背后都有大家的奉献，竭尽所能。",
@@ -1248,19 +3978,83 @@
     },
     "310": {
       "zh": "成为了海医安宁志愿者之后，徐叔接受了生死教育，学习心灵呵护技巧，积累服务经验。",
-      "vi": "Trở thành tình nguyện viên của Hải Y An Ninh, Từ Thúc được giáo dục về sinh tử, học kỹ năng chăm sóc tâm hồn, tích lũy kinh nghiệm phục vụ."
+      "parts": [
+        {
+          "zh": "成为了海医安宁志愿者之后，",
+          "vi": "Trở thành tình nguyện viên của Hải Y An Ninh,"
+        },
+        {
+          "zh": "徐叔接受了生死教育，",
+          "vi": "Từ Thúc được giáo dục về sinh tử,"
+        },
+        {
+          "zh": "学习心灵呵护技巧，积累服务经验。",
+          "vi": "học kỹ năng chăm sóc tâm hồn, tích lũy kinh nghiệm phục vụ."
+        }
+      ]
     },
     "311": {
       "zh": "他最大的心愿就是能用自己所学到的，将来帮助父亲安详的、平静的离世。",
-      "vi": "Tâm nguyện lớn nhất của bà là dùng những gì mình học được để sau này giúp bố ra đi bình yên, thanh thản."
+      "parts": [
+        {
+          "zh": "他最大的心愿",
+          "vi": "Tâm nguyện lớn nhất của bà"
+        },
+        {
+          "zh": "就是能用自己所学到的，",
+          "vi": "là dùng những gì mình học được,"
+        },
+        {
+          "zh": "将来帮助父亲",
+          "vi": "để sau này giúp bố"
+        },
+        {
+          "zh": "安详的、平静的离世。",
+          "vi": "ra đi bình yên, thanh thản."
+        }
+      ]
     },
     "312": {
       "zh": "父亲在老伴儿离世之后，身体日渐衰弱，患上了抑郁症和阿兹海默症，经常出现神情恍惚的状况。",
-      "vi": "Sau khi vợ mất, sức khỏe của bố bà ngày một suy yếu, mắc trầm cảm và Alzheimer, thường xuyên lơ mơ."
+      "parts": [
+        {
+          "zh": "父亲在老伴儿离世之后，",
+          "vi": "Sau khi vợ mất,"
+        },
+        {
+          "zh": "身体日渐衰弱，",
+          "vi": "sức khỏe của bố bà ngày một suy yếu,"
+        },
+        {
+          "zh": "患上了抑郁症和阿兹海默症，",
+          "vi": "mắc trầm cảm và Alzheimer,"
+        },
+        {
+          "zh": "经常出现神情恍惚的状况。",
+          "vi": "thường xuyên lơ mơ."
+        }
+      ]
     },
     "313": {
       "zh": "原本全职陪伴父亲的徐叔，因为确诊癌症需要在医院进行手术和治疗，无法再照顾父亲，",
-      "vi": "Từ Thúc vốn ở nhà chăm bố toàn thời gian, vì bị chẩn đoán ung thư phải vào viện phẫu thuật và điều trị nên không thể chăm sóc bố được nữa,"
+      "parts": [
+        {
+          "zh": "原本全职陪伴父亲的徐叔，",
+          "vi": "Từ Thúc vốn ở nhà chăm bố toàn thời gian,"
+        },
+        {
+          "zh": "因为确诊癌症",
+          "vi": "vì bị chẩn đoán ung thư,"
+        },
+        {
+          "zh": "需要在医院进行手术和治疗，",
+          "vi": "phải vào viện phẫu thuật và điều trị,"
+        },
+        {
+          "zh": "无法再照顾父亲，",
+          "vi": "nên không thể chăm sóc bố được nữa,"
+        }
+      ]
     },
     "314": {
       "zh": "就把父亲送去了养老院一段时间。",
@@ -1268,27 +4062,97 @@
     },
     "315": {
       "zh": "就我学了方向客户和有了安宁理念之后，我确实也是帮我父亲善终了。",
-      "vi": "Sau khi tôi học chăm sóc bằng hương liệu và có triết lý chăm sóc cuối đời, tôi thật sự đã giúp bố tôi ra đi trọn vẹn."
+      "parts": [
+        {
+          "zh": "就我学了方向客户",
+          "vi": "Sau khi tôi học chăm sóc bằng hương liệu"
+        },
+        {
+          "zh": "和有了安宁理念之后，",
+          "vi": "và có triết lý chăm sóc cuối đời,"
+        },
+        {
+          "zh": "我确实也是帮我父亲善终了。",
+          "vi": "tôi thật sự đã giúp bố tôi ra đi trọn vẹn."
+        }
+      ]
     },
     "316": {
       "zh": "他几次吸入性肺炎，然后其中有一次是到医院来救治的。",
-      "vi": "Ông mấy lần bị viêm phổi do hít sặc, rồi có một lần được đưa vào viện cấp cứu."
+      "parts": [
+        {
+          "zh": "他几次吸入性肺炎，",
+          "vi": "Ông mấy lần bị viêm phổi do hít sặc,"
+        },
+        {
+          "zh": "然后其中有一次是到医院来救治的。",
+          "vi": "rồi có một lần được đưa vào viện cấp cứu."
+        }
+      ]
     },
     "317": {
       "zh": "因为养老院一般遇到这情况就是喊家属赶紧送医院，送了医院，",
-      "vi": "Vì viện dưỡng lão gặp tình huống này thường là gọi người nhà mau đưa vào viện, đưa vào viện rồi,"
+      "parts": [
+        {
+          "zh": "因为养老院一般遇到这情况",
+          "vi": "Vì viện dưỡng lão gặp tình huống này,"
+        },
+        {
+          "zh": "就是喊家属赶紧送医院，送了医院，",
+          "vi": "thường là gọi người nhà mau đưa vào viện, đưa vào viện rồi,"
+        }
+      ]
     },
     "318": {
       "zh": "疫情期间门诊的各项检查就五个多小时，等人进去以后很疲惫了，我就特别恐惧，",
-      "vi": "thời dịch bệnh, các loại xét nghiệm ở khoa khám bệnh mất hơn năm tiếng, đến lúc người vào được thì đã rất mệt, tôi cực kỳ sợ,"
+      "parts": [
+        {
+          "zh": "疫情期间门诊的各项检查",
+          "vi": "thời dịch bệnh, các loại xét nghiệm ở khoa khám bệnh"
+        },
+        {
+          "zh": "就五个多小时，",
+          "vi": "mất hơn năm tiếng,"
+        },
+        {
+          "zh": "等人进去以后很疲惫了，",
+          "vi": "đến lúc người vào được thì đã rất mệt,"
+        },
+        {
+          "zh": "我就特别恐惧，",
+          "vi": "tôi cực kỳ sợ,"
+        }
+      ]
     },
     "319": {
       "zh": "怕再出现我妈那个情况，她一个人孤独的走。",
-      "vi": "sợ lại xảy ra chuyện như mẹ tôi, ra đi một mình cô đơn."
+      "parts": [
+        {
+          "zh": "怕再出现我妈那个情况，",
+          "vi": "sợ lại xảy ra chuyện như mẹ tôi,"
+        },
+        {
+          "zh": "她一个人孤独的走。",
+          "vi": "ra đi một mình cô đơn."
+        }
+      ]
     },
     "320": {
       "zh": "所以这次把她救过来之后，我就想以后再不让她去医院，然后不让去医院，",
-      "vi": "Nên lần này cứu được ông rồi, tôi nghĩ sau này không để ông vào viện nữa, mà không cho vào viện thì"
+      "parts": [
+        {
+          "zh": "所以这次把她救过来之后，",
+          "vi": "Nên lần này cứu được ông rồi,"
+        },
+        {
+          "zh": "我就想以后再不让她去医院，",
+          "vi": "tôi nghĩ sau này không để ông vào viện nữa,"
+        },
+        {
+          "zh": "然后不让去医院，",
+          "vi": "mà không cho vào viện thì"
+        }
+      ]
     },
     "321": {
       "zh": "你在养老院怎么处理啊？",
@@ -1296,7 +4160,16 @@
     },
     "322": {
       "zh": "人养老院不干呢，你要再再生病再发烧的。",
-      "vi": "Viện dưỡng lão người ta không chịu đâu, lỡ lại bệnh lại sốt thì sao."
+      "parts": [
+        {
+          "zh": "人养老院不干呢，",
+          "vi": "viện dưỡng lão người ta không chịu đâu,"
+        },
+        {
+          "zh": "你要再再生病再发烧的。",
+          "vi": "lỡ lại bệnh lại sốt thì sao."
+        }
+      ]
     },
     "323": {
       "zh": "后来第二次吸。",
@@ -1304,7 +4177,24 @@
     },
     "324": {
       "zh": "入性肺炎复发的时候，我正好在去延庆的路上，养老院跟我说了进，说我爸又发烧了什么的，",
-      "vi": "sặc tái phát, tôi đang trên đường đi Diên Khánh thì viện dưỡng lão báo với tôi là bố tôi lại sốt các thứ,"
+      "parts": [
+        {
+          "zh": "入性肺炎复发的时候，",
+          "vi": "sặc tái phát,"
+        },
+        {
+          "zh": "我正好在去延庆的路上，",
+          "vi": "tôi đang trên đường đi Diên Khánh,"
+        },
+        {
+          "zh": "养老院跟我说了进，",
+          "vi": "thì viện dưỡng lão báo với tôi,"
+        },
+        {
+          "zh": "说我爸又发烧了什么的，",
+          "vi": "là bố tôi lại sốt các thứ,"
+        }
+      ]
     },
     "325": {
       "zh": "我就返回来了。",
@@ -1312,11 +4202,37 @@
     },
     "326": {
       "zh": "返回来以后，我爸已经烧的就开始瞻望了，手舞足蹈的，说胡话了。",
-      "vi": "Quay về thì bố tôi đã sốt đến mức bắt đầu mê sảng, khua chân múa tay, nói lung tung."
+      "parts": [
+        {
+          "zh": "返回来以后，",
+          "vi": "Quay về,"
+        },
+        {
+          "zh": "我爸已经烧的就开始瞻望了，",
+          "vi": "thì bố tôi đã sốt đến mức bắt đầu mê sảng,"
+        },
+        {
+          "zh": "手舞足蹈的，说胡话了。",
+          "vi": "khua chân múa tay, nói lung tung."
+        }
+      ]
     },
     "327": {
       "zh": "我就去去药店把这些祛痰的和消炎的买来了，然后给他敷上。",
-      "vi": "Tôi ra hiệu thuốc mua thuốc long đờm và thuốc kháng viêm về, rồi cho ông dùng."
+      "parts": [
+        {
+          "zh": "我就去去药店",
+          "vi": "Tôi ra hiệu thuốc"
+        },
+        {
+          "zh": "把这些祛痰的和消炎的买来了，",
+          "vi": "mua thuốc long đờm và thuốc kháng viêm về,"
+        },
+        {
+          "zh": "然后给他敷上。",
+          "vi": "rồi cho ông dùng."
+        }
+      ]
     },
     "328": {
       "zh": "敷上以后呢，他还是烧。",
@@ -1324,7 +4240,16 @@
     },
     "329": {
       "zh": "那会儿是六点多吃的药，然后还是烧，还是这样手舞足蹈的。",
-      "vi": "Lúc đó hơn 6 giờ uống thuốc, rồi vẫn sốt, vẫn khua chân múa tay như vậy."
+      "parts": [
+        {
+          "zh": "那会儿是六点多吃的药，",
+          "vi": "Lúc đó hơn 6 giờ uống thuốc,"
+        },
+        {
+          "zh": "然后还是烧，还是这样手舞足蹈的。",
+          "vi": "rồi vẫn sốt, vẫn khua chân múa tay như vậy."
+        }
+      ]
     },
     "330": {
       "zh": "然后就这烧怎么控制不下去呢？",
@@ -1332,51 +4257,203 @@
     },
     "331": {
       "zh": "然后这次我就下定决心不送医院，然后洋老师说赶紧叫护救护车。",
-      "vi": "Rồi lần này tôi quyết tâm không đưa vào viện, rồi có người bảo gọi ngay xe cấp cứu."
+      "parts": [
+        {
+          "zh": "然后这次我就下定决心不送医院，",
+          "vi": "Rồi lần này tôi quyết tâm không đưa vào viện,"
+        },
+        {
+          "zh": "然后洋老师说赶紧叫护救护车。",
+          "vi": "rồi có người bảo gọi ngay xe cấp cứu."
+        }
+      ]
     },
     "332": {
       "zh": "我说这次我先不叫，我先自己看看能不能处理，实在处理不了呢再说。",
-      "vi": "Tôi nói lần này tôi tạm chưa gọi, tôi tự xem có xử lý được không, thật sự không xử lý được thì tính sau."
+      "parts": [
+        {
+          "zh": "我说这次我先不叫，",
+          "vi": "Tôi nói lần này tôi tạm chưa gọi,"
+        },
+        {
+          "zh": "我先自己看看能不能处理，",
+          "vi": "tôi tự xem có xử lý được không,"
+        },
+        {
+          "zh": "实在处理不了呢再说。",
+          "vi": "thật sự không xử lý được thì tính sau."
+        }
+      ]
     },
     "333": {
       "zh": "然后赖大叔和那个方向疫情期间嘛，和芳香呵护团队的人呢只能是我们在网上联系。",
-      "vi": "Rồi vì đang dịch bệnh mà, chú Lại và đội chăm sóc bằng hương liệu chỉ có thể liên lạc với chúng tôi qua mạng."
+      "parts": [
+        {
+          "zh": "然后赖大叔和那个方向",
+          "vi": "Rồi chú Lại và đội hương liệu,"
+        },
+        {
+          "zh": "疫情期间嘛，",
+          "vi": "vì đang dịch bệnh mà,"
+        },
+        {
+          "zh": "和芳香呵护团队的人呢",
+          "vi": "với người của đội chăm sóc bằng hương liệu,"
+        },
+        {
+          "zh": "只能是我们在网上联系。",
+          "vi": "chỉ có thể liên lạc qua mạng."
+        }
+      ]
     },
     "334": {
       "zh": "然后我就在群里说我爸病危了，然后高烧、老年肺炎有可能过去，请求老师和小伙伴们。",
-      "vi": "Rồi tôi nhắn trong nhóm là bố tôi nguy kịch rồi, sốt cao, viêm phổi người già, có thể sẽ ra đi, xin các thầy cô và các bạn"
+      "parts": [
+        {
+          "zh": "然后我就在群里说我爸病危了，",
+          "vi": "Rồi tôi nhắn trong nhóm là bố tôi nguy kịch rồi,"
+        },
+        {
+          "zh": "然后高烧、老年肺炎有可能过去，",
+          "vi": "sốt cao, viêm phổi người già, có thể sẽ ra đi,"
+        },
+        {
+          "zh": "请求老师和小伙伴们。",
+          "vi": "xin các thầy cô và các bạn"
+        }
+      ]
     },
     "335": {
       "zh": "支持，在这之前也是有一些那个，就是我们的小伙伴闪送把调好的精油就给我送过来了。",
-      "vi": "hỗ trợ, trước đó cũng đã có, tức là bạn trong nhóm gửi hỏa tốc tinh dầu đã pha sẵn đến cho tôi."
+      "parts": [
+        {
+          "zh": "支持，在这之前也是有一些那个，",
+          "vi": "hỗ trợ, trước đó cũng đã có,"
+        },
+        {
+          "zh": "就是我们的小伙伴闪送",
+          "vi": "tức là bạn trong nhóm gửi hỏa tốc"
+        },
+        {
+          "zh": "把调好的精油就给我送过来了。",
+          "vi": "tinh dầu đã pha sẵn đến cho tôi."
+        }
+      ]
     },
     "336": {
       "zh": "然后我和我哥就两个人一边一个人，我叫我哥怎么用精油给我爸做辅助。",
-      "vi": "Rồi tôi với anh trai mỗi người một bên, tôi chỉ anh cách dùng tinh dầu để hỗ trợ cho bố."
+      "parts": [
+        {
+          "zh": "然后我和我哥就两个人一边一个人，",
+          "vi": "Rồi tôi với anh trai mỗi người một bên,"
+        },
+        {
+          "zh": "我叫我哥怎么用精油给我爸做辅助。",
+          "vi": "tôi chỉ anh cách dùng tinh dầu để hỗ trợ cho bố."
+        }
+      ]
     },
     "337": {
       "zh": "我们那个那个群就我就把那个我的手机也打开了，然后那个就开始同频，在同一个时间段，",
-      "vi": "Cái nhóm của chúng tôi, tôi mở điện thoại lên, rồi bắt đầu cùng tần số, trong cùng một khung giờ,"
+      "parts": [
+        {
+          "zh": "我们那个那个群",
+          "vi": "Cái nhóm của chúng tôi,"
+        },
+        {
+          "zh": "就我就把那个我的手机也打开了，",
+          "vi": "tôi mở điện thoại lên,"
+        },
+        {
+          "zh": "然后那个就开始同频，",
+          "vi": "rồi bắt đầu cùng tần số,"
+        },
+        {
+          "zh": "在同一个时间段，",
+          "vi": "trong cùng một khung giờ,"
+        }
+      ]
     },
     "338": {
       "zh": "然后进入到那个大家一起给我爸做这种。",
-      "vi": "rồi mọi người cùng nhau làm cho bố tôi kiểu"
+      "parts": [
+        {
+          "zh": "然后进入到那个",
+          "vi": "rồi bước vào,"
+        },
+        {
+          "zh": "大家一起给我爸做这种。",
+          "vi": "mọi người cùng nhau làm cho bố tôi kiểu"
+        }
+      ]
     },
     "339": {
       "zh": "白光祝福，然后我和我哥呢就放着赖大叔那二十三分钟的那个那做芳香呵护的那个语音引导，",
-      "vi": "chúc phúc ánh sáng trắng, rồi tôi với anh trai bật đoạn hướng dẫn bằng giọng nói 23 phút chăm sóc hương liệu của chú Lại,"
+      "parts": [
+        {
+          "zh": "白光祝福，",
+          "vi": "chúc phúc ánh sáng trắng,"
+        },
+        {
+          "zh": "然后我和我哥呢就放着",
+          "vi": "rồi tôi với anh trai bật"
+        },
+        {
+          "zh": "赖大叔那二十三分钟的",
+          "vi": "đoạn 23 phút của chú Lại,"
+        },
+        {
+          "zh": "那个那做芳香呵护的那个语音引导，",
+          "vi": "đoạn hướng dẫn bằng giọng nói để chăm sóc hương liệu,"
+        }
+      ]
     },
     "340": {
       "zh": "说老爸你放松啊，我们都在你身边，你是安全的。",
-      "vi": "nói bố ơi bố thả lỏng nhé, chúng con đều ở bên bố, bố được an toàn."
+      "parts": [
+        {
+          "zh": "说老爸你放松啊，",
+          "vi": "nói bố ơi bố thả lỏng nhé,"
+        },
+        {
+          "zh": "我们都在你身边，你是安全的。",
+          "vi": "chúng con đều ở bên bố, bố được an toàn."
+        }
+      ]
     },
     "341": {
       "zh": "我和我哥在给你做精油抚触，慢慢的你身体会舒适下来，你只要放松就行。",
-      "vi": "Con với anh đang xoa tinh dầu cho bố, dần dần cơ thể bố sẽ dễ chịu lại, bố chỉ cần thả lỏng là được."
+      "parts": [
+        {
+          "zh": "我和我哥在给你做精油抚触，",
+          "vi": "Con với anh đang xoa tinh dầu cho bố,"
+        },
+        {
+          "zh": "慢慢的你身体会舒适下来，",
+          "vi": "dần dần cơ thể bố sẽ dễ chịu lại,"
+        },
+        {
+          "zh": "你只要放松就行。",
+          "vi": "bố chỉ cần thả lỏng là được."
+        }
+      ]
     },
     "342": {
       "zh": "我爸就安静下来了，安静下来了，然后他也不手舞足蹈了，然后很安静的睡了。",
-      "vi": "Bố tôi dịu lại, dịu lại rồi, cũng không khua chân múa tay nữa, rồi ngủ rất yên."
+      "parts": [
+        {
+          "zh": "我爸就安静下来了，安静下来了，",
+          "vi": "Bố tôi dịu lại, dịu lại rồi,"
+        },
+        {
+          "zh": "然后他也不手舞足蹈了，",
+          "vi": "cũng không khua chân múa tay nữa,"
+        },
+        {
+          "zh": "然后很安静的睡了。",
+          "vi": "rồi ngủ rất yên."
+        }
+      ]
     },
     "343": {
       "zh": "你一摸，体温也下来了。",
@@ -1384,23 +4461,88 @@
     },
     "344": {
       "zh": "当然之前吃过口服的药，但是芳香呵护就是这种辅助，对他还是很起作用的。",
-      "vi": "Dĩ nhiên trước đó đã uống thuốc, nhưng chăm sóc bằng hương liệu kiểu hỗ trợ này vẫn rất có tác dụng với ông."
+      "parts": [
+        {
+          "zh": "当然之前吃过口服的药，",
+          "vi": "Dĩ nhiên trước đó đã uống thuốc,"
+        },
+        {
+          "zh": "但是芳香呵护就是这种辅助，",
+          "vi": "nhưng chăm sóc bằng hương liệu kiểu hỗ trợ này,"
+        },
+        {
+          "zh": "对他还是很起作用的。",
+          "vi": "vẫn rất có tác dụng với ông."
+        }
+      ]
     },
     "345": {
       "zh": "所以当时在场的那个医务室的人，还有养老院的这个主管都很震惊，",
-      "vi": "Nên lúc đó người của phòng y tế có mặt, cả quản lý viện dưỡng lão đều rất sửng sốt,"
+      "parts": [
+        {
+          "zh": "所以当时在场的那个医务室的人，",
+          "vi": "Nên lúc đó người của phòng y tế có mặt,"
+        },
+        {
+          "zh": "还有养老院的这个主管都很震惊，",
+          "vi": "cả quản lý viện dưỡng lão đều rất sửng sốt,"
+        }
+      ]
     },
     "346": {
       "zh": "因为上一次送我爸去医院折腾了好多天，回来了老人疲惫不堪，然后这个我们就芳香呵护。",
-      "vi": "vì lần trước đưa bố tôi vào viện, loay hoay bao nhiêu ngày, về đến nơi ông cụ mệt lả, còn lần này chúng tôi chăm sóc bằng hương liệu."
+      "parts": [
+        {
+          "zh": "因为上一次送我爸去医院",
+          "vi": "vì lần trước đưa bố tôi vào viện,"
+        },
+        {
+          "zh": "折腾了好多天，",
+          "vi": "loay hoay bao nhiêu ngày,"
+        },
+        {
+          "zh": "回来了老人疲惫不堪，",
+          "vi": "về đến nơi ông cụ mệt lả,"
+        },
+        {
+          "zh": "然后这个我们就芳香呵护。",
+          "vi": "còn lần này chúng tôi chăm sóc bằng hương liệu."
+        }
+      ]
     },
     "347": {
       "zh": "然后吃点口服的药就下好了，他这就不用折腾老人去医院了，这多好啊！",
-      "vi": "Rồi uống ít thuốc là hạ sốt, thế là không phải hành ông cụ vào viện nữa, tốt biết bao!"
+      "parts": [
+        {
+          "zh": "然后吃点口服的药就下好了，",
+          "vi": "Rồi uống ít thuốc là hạ sốt,"
+        },
+        {
+          "zh": "他这就不用折腾老人去医院了，",
+          "vi": "thế là không phải hành ông cụ vào viện nữa,"
+        },
+        {
+          "zh": "这多好啊！",
+          "vi": "tốt biết bao!"
+        }
+      ]
     },
     "348": {
       "zh": "而且他恢复的还很快，到第三天就可拽了，就说：“哎，你在这干啥呢？”",
-      "vi": "Hơn nữa ông hồi phục rất nhanh, đến ngày thứ ba đã ra dáng lắm rồi, bảo: \"Ơ, con ở đây làm gì thế?\""
+      "parts": [
+        {
+          "zh": "而且他恢复的还很快，",
+          "vi": "Hơn nữa ông hồi phục rất nhanh,"
+        },
+        {
+          "zh": "到第三天就可拽了，",
+          "vi": "đến ngày thứ ba đã ra dáng lắm rồi,"
+        },
+        {
+          "zh": "就说：“哎，你在这干啥呢？”",
+          "vi": "bảo: \"Ơ, con ở đây làm gì thế?\""
+        }
+      ]
     },
     "349": {
       "zh": "我说：“我，你不是病了吗？",
@@ -1428,23 +4570,80 @@
     },
     "355": {
       "zh": "然后第四天就就是他吃饭啊什么的也都挺正常的了，烧也退了。",
-      "vi": "Rồi đến ngày thứ tư thì ông ăn uống các thứ đều bình thường, sốt cũng hạ rồi."
+      "parts": [
+        {
+          "zh": "然后第四天就就是",
+          "vi": "Rồi đến ngày thứ tư thì,"
+        },
+        {
+          "zh": "他吃饭啊什么的也都挺正常的了，",
+          "vi": "ông ăn uống các thứ đều bình thường,"
+        },
+        {
+          "zh": "烧也退了。",
+          "vi": "sốt cũng hạ rồi."
+        }
+      ]
     },
     "356": {
       "zh": "这就成功了一次，所以到我爸最后那一次走的时候，",
-      "vi": "Đó là một lần thành công, nên đến lần cuối cùng bố tôi ra đi,"
+      "parts": [
+        {
+          "zh": "这就成功了一次，",
+          "vi": "Đó là một lần thành công,"
+        },
+        {
+          "zh": "所以到我爸最后那一次走的时候，",
+          "vi": "nên đến lần cuối cùng bố tôi ra đi,"
+        }
+      ]
     },
     "357": {
       "zh": "养老院的医务室和他们的团队就特别支持我那个用我的安宁的方式送我爸走。",
-      "vi": "phòng y tế của viện dưỡng lão và đội của họ đều rất ủng hộ tôi tiễn bố theo cách chăm sóc cuối đời của tôi."
+      "parts": [
+        {
+          "zh": "养老院的医务室和他们的团队",
+          "vi": "phòng y tế của viện dưỡng lão và đội của họ"
+        },
+        {
+          "zh": "就特别支持我",
+          "vi": "đều rất ủng hộ tôi"
+        },
+        {
+          "zh": "那个用我的安宁的方式送我爸走。",
+          "vi": "tiễn bố theo cách chăm sóc cuối đời của tôi."
+        }
+      ]
     },
     "358": {
       "zh": "最后那次是他们也是夜里给我打电话，然后就说：“嗯，徐老状态不好。”",
-      "vi": "Lần cuối đó họ cũng gọi cho tôi lúc nửa đêm, nói: \"Ừm, cụ Từ tình trạng không tốt.\""
+      "parts": [
+        {
+          "zh": "最后那次是他们",
+          "vi": "Lần cuối đó họ"
+        },
+        {
+          "zh": "也是夜里给我打电话，",
+          "vi": "cũng gọi cho tôi lúc nửa đêm,"
+        },
+        {
+          "zh": "然后就说：“嗯，徐老状态不好。”",
+          "vi": "nói: \"Ừm, cụ Từ tình trạng không tốt.\""
+        }
+      ]
     },
     "359": {
       "zh": "过去我就跟他们说了，我说所有的这个急救的药。",
-      "vi": "Tôi đến nơi thì nói với họ, tôi nói tất cả các loại thuốc cấp cứu"
+      "parts": [
+        {
+          "zh": "过去我就跟他们说了，",
+          "vi": "Tôi đến nơi thì nói với họ,"
+        },
+        {
+          "zh": "我说所有的这个急救的药。",
+          "vi": "tôi nói tất cả các loại thuốc cấp cứu"
+        }
+      ]
     },
     "360": {
       "zh": "都不要再打了啊！",
@@ -1452,27 +4651,89 @@
     },
     "361": {
       "zh": "要尊重他的自然的这个过程，嗯，不要去抢救。",
-      "vi": "Hãy tôn trọng quá trình tự nhiên của ông, ừm, đừng cấp cứu."
+      "parts": [
+        {
+          "zh": "要尊重他的自然的这个过程，嗯，",
+          "vi": "Hãy tôn trọng quá trình tự nhiên của ông, ừm,"
+        },
+        {
+          "zh": "不要去抢救。",
+          "vi": "đừng cấp cứu."
+        }
+      ]
     },
     "362": {
       "zh": "我就一直陪着他就好，在那儿我又陪了他两天。",
-      "vi": "Tôi cứ ở bên ông là được, ở đó tôi lại ở bên ông thêm hai ngày."
+      "parts": [
+        {
+          "zh": "我就一直陪着他就好，",
+          "vi": "Tôi cứ ở bên ông là được,"
+        },
+        {
+          "zh": "在那儿我又陪了他两天。",
+          "vi": "ở đó tôi lại ở bên ông thêm hai ngày."
+        }
+      ]
     },
     "363": {
       "zh": "但是人到最后的那一段时间，你感觉一个老年痴呆、浑浑噩噩的那个人眼睛突然变得清明了。",
-      "vi": "Nhưng đến quãng thời gian cuối cùng, bạn cảm thấy một người lú lẫn, lơ mơ như thế mà mắt đột nhiên trở nên sáng rõ."
+      "parts": [
+        {
+          "zh": "但是人到最后的那一段时间，",
+          "vi": "Nhưng đến quãng thời gian cuối cùng,"
+        },
+        {
+          "zh": "你感觉一个老年痴呆、",
+          "vi": "bạn cảm thấy một người lú lẫn,"
+        },
+        {
+          "zh": "浑浑噩噩的那个人",
+          "vi": "lơ mơ như thế,"
+        },
+        {
+          "zh": "眼睛突然变得清明了。",
+          "vi": "mà mắt đột nhiên trở nên sáng rõ."
+        }
+      ]
     },
     "364": {
       "zh": "就是以前我们跟他说话干什么，他都那种眼神有点空洞的。",
-      "vi": "Tức là trước đây chúng tôi nói chuyện hay làm gì với ông, ánh mắt ông đều có phần trống rỗng."
+      "parts": [
+        {
+          "zh": "就是以前我们跟他说话干什么，",
+          "vi": "Tức là trước đây chúng tôi nói chuyện hay làm gì với ông,"
+        },
+        {
+          "zh": "他都那种眼神有点空洞的。",
+          "vi": "ánh mắt ông đều có phần trống rỗng."
+        }
+      ]
     },
     "365": {
       "zh": "然后最后的那两天，他他说不出来话了。",
-      "vi": "Rồi hai ngày cuối cùng, ông, ông không nói được nữa."
+      "parts": [
+        {
+          "zh": "然后最后的那两天，",
+          "vi": "Rồi hai ngày cuối cùng,"
+        },
+        {
+          "zh": "他他说不出来话了。",
+          "vi": "ông, ông không nói được nữa."
+        }
+      ]
     },
     "366": {
       "zh": "但是你能感觉到，只要他醒了，他跟我们是那种特别和蔼的笑。",
-      "vi": "Nhưng bạn cảm nhận được, chỉ cần ông tỉnh dậy là ông lại cười với chúng tôi rất hiền hậu."
+      "parts": [
+        {
+          "zh": "但是你能感觉到，只要他醒了，",
+          "vi": "Nhưng bạn cảm nhận được, chỉ cần ông tỉnh dậy,"
+        },
+        {
+          "zh": "他跟我们是那种特别和蔼的笑。",
+          "vi": "là ông lại cười với chúng tôi rất hiền hậu."
+        }
+      ]
     },
     "367": {
       "zh": "然后跟他说话，他点点头。",
@@ -1480,7 +4741,20 @@
     },
     "368": {
       "zh": "我说：“不管怎样，整整个这个过程我会陪伴在你身边，你就朝着那个温暖的、",
-      "vi": "Tôi nói: \"Dù thế nào đi nữa, cả, cả quá trình này con sẽ ở bên bố, bố cứ hướng về nơi ấm áp,"
+      "parts": [
+        {
+          "zh": "我说：“不管怎样，",
+          "vi": "Tôi nói: \"Dù thế nào đi nữa,"
+        },
+        {
+          "zh": "整整个这个过程我会陪伴在你身边，",
+          "vi": "cả, cả quá trình này con sẽ ở bên bố,"
+        },
+        {
+          "zh": "你就朝着那个温暖的、",
+          "vi": "bố cứ hướng về nơi ấm áp,"
+        }
+      ]
     },
     "369": {
       "zh": "阳光灿烂的地方去就好了。”",
@@ -1488,7 +4762,16 @@
     },
     "370": {
       "zh": "我说：“那边有我妈，有我姑，还有无条件的爱。”",
-      "vi": "Tôi nói: \"Bên đó có mẹ con, có cô con, còn có tình yêu vô điều kiện.\""
+      "parts": [
+        {
+          "zh": "我说：“那边有我妈，有我姑，",
+          "vi": "Tôi nói: \"Bên đó có mẹ con, có cô con,"
+        },
+        {
+          "zh": "还有无条件的爱。”",
+          "vi": "còn có tình yêu vô điều kiện.\""
+        }
+      ]
     },
     "371": {
       "zh": "我就是人。",
@@ -1496,11 +4779,41 @@
     },
     "372": {
       "zh": "在临死的时候都会迷茫和无助，因为每个人都不知道死亡是怎么回事儿。",
-      "vi": "lúc sắp chết đều sẽ hoang mang và bất lực, vì không ai biết cái chết là thế nào."
+      "parts": [
+        {
+          "zh": "在临死的时候都会迷茫和无助，",
+          "vi": "lúc sắp chết đều sẽ hoang mang và bất lực,"
+        },
+        {
+          "zh": "因为每个人都不知道",
+          "vi": "vì không ai biết"
+        },
+        {
+          "zh": "死亡是怎么回事儿。",
+          "vi": "cái chết là thế nào."
+        }
+      ]
     },
     "373": {
       "zh": "但是你给他描绘一些美好，关键是你告诉他你陪在他身边你是安全的，这个就特别重要。",
-      "vi": "Nhưng bạn vẽ ra cho họ những điều tốt đẹp, quan trọng là bạn nói với họ rằng bạn đang ở bên họ, họ được an toàn, điều đó cực kỳ quan trọng."
+      "parts": [
+        {
+          "zh": "但是你给他描绘一些美好，",
+          "vi": "Nhưng bạn vẽ ra cho họ những điều tốt đẹp,"
+        },
+        {
+          "zh": "关键是你告诉他",
+          "vi": "quan trọng là bạn nói với họ rằng"
+        },
+        {
+          "zh": "你陪在他身边你是安全的，",
+          "vi": "bạn đang ở bên họ, họ được an toàn,"
+        },
+        {
+          "zh": "这个就特别重要。",
+          "vi": "điều đó cực kỳ quan trọng."
+        }
+      ]
     },
     "374": {
       "zh": "你在陪着他。",
@@ -1508,7 +4821,28 @@
     },
     "375": {
       "zh": "我爸就是那种，因为以前我给他做好吃的或者干什么，他对我满意的时候就嗯，就这样的啊，",
-      "vi": "Bố tôi kiểu như, vì trước đây tôi nấu món ngon hay làm gì cho ông, lúc ông hài lòng với tôi là \"ừm\", như thế này,"
+      "parts": [
+        {
+          "zh": "我爸就是那种，",
+          "vi": "Bố tôi kiểu như,"
+        },
+        {
+          "zh": "因为以前我给他做好吃的",
+          "vi": "vì trước đây tôi nấu món ngon cho ông,"
+        },
+        {
+          "zh": "或者干什么，",
+          "vi": "hay làm gì đó,"
+        },
+        {
+          "zh": "他对我满意的时候就嗯，",
+          "vi": "lúc ông hài lòng với tôi là \"ừm\","
+        },
+        {
+          "zh": "就这样的啊，",
+          "vi": "như thế này,"
+        }
+      ]
     },
     "376": {
       "zh": "点点头，然后哎呀，抻个懒腰。",
@@ -1520,7 +4854,16 @@
     },
     "378": {
       "zh": "就是点点头，然后这口气儿就没了，就不再呼吸了。",
-      "vi": "Tức là gật gật đầu, rồi hơi thở tắt, không thở nữa."
+      "parts": [
+        {
+          "zh": "就是点点头，然后这口气儿就没了，",
+          "vi": "tức là gật gật đầu, rồi hơi thở tắt,"
+        },
+        {
+          "zh": "就不再呼吸了。",
+          "vi": "không thở nữa."
+        }
+      ]
     },
     "379": {
       "zh": "我说：“老爸，你就这样走了吗？",
@@ -1532,27 +4875,93 @@
     },
     "381": {
       "zh": "所以我父亲走的时候一点悲伤都没有。",
-      "vi": "Nên lúc bố tôi ra đi, tôi không buồn chút nào."
+      "parts": [
+        {
+          "zh": "所以我父亲走的时候",
+          "vi": "Nên lúc bố tôi ra đi,"
+        },
+        {
+          "zh": "一点悲伤都没有。",
+          "vi": "tôi không buồn chút nào."
+        }
+      ]
     },
     "382": {
       "zh": "哎呀，我爸走的真好，挺有成就感的，就是觉着他能够这么舒适，这么安详。",
-      "vi": "Ôi chao, bố tôi đi thật tốt, tôi thấy khá mãn nguyện, vì thấy ông có thể ra đi dễ chịu, bình yên đến vậy."
+      "parts": [
+        {
+          "zh": "哎呀，我爸走的真好，挺有成就感的，",
+          "vi": "Ôi chao, bố tôi đi thật tốt, tôi thấy khá mãn nguyện,"
+        },
+        {
+          "zh": "就是觉着他能够这么舒适，这么安详。",
+          "vi": "vì thấy ông có thể ra đi dễ chịu, bình yên đến vậy."
+        }
+      ]
     },
     "383": {
       "zh": "主任说：“每个生命末期的患者都是我们的老师。",
-      "vi": "Chị trưởng khoa nói: \"Mỗi bệnh nhân giai đoạn cuối đều là thầy của chúng ta."
+      "parts": [
+        {
+          "zh": "主任说：“每个生命末期的患者",
+          "vi": "Chị trưởng khoa nói: \"Mỗi bệnh nhân giai đoạn cuối"
+        },
+        {
+          "zh": "都是我们的老师。",
+          "vi": "đều là thầy của chúng ta."
+        }
+      ]
     },
     "384": {
       "zh": "你看他们的在人生最后的各种的表现和生命的状态，你就会思考自己的人生。”",
-      "vi": "Bạn nhìn những biểu hiện và trạng thái sống của họ ở cuối đời, bạn sẽ ngẫm lại cuộc đời mình.\""
+      "parts": [
+        {
+          "zh": "你看他们的在人生最后的",
+          "vi": "Bạn nhìn những gì họ thể hiện ở cuối đời,"
+        },
+        {
+          "zh": "各种的表现和生命的状态，",
+          "vi": "đủ mọi biểu hiện và trạng thái sống của họ,"
+        },
+        {
+          "zh": "你就会思考自己的人生。”",
+          "vi": "bạn sẽ ngẫm lại cuộc đời mình.\""
+        }
+      ]
     },
     "385": {
       "zh": "啊，学了这些之后呢，我就觉着我自己对死亡不恐惧了。",
-      "vi": "À, học những điều này xong, tôi thấy bản thân không còn sợ cái chết nữa."
+      "parts": [
+        {
+          "zh": "啊，学了这些之后呢，",
+          "vi": "À, học những điều này xong,"
+        },
+        {
+          "zh": "我就觉着我自己对死亡不恐惧了。",
+          "vi": "tôi thấy bản thân không còn sợ cái chết nữa."
+        }
+      ]
     },
     "386": {
       "zh": "特别想知道死亡是怎么回事儿，因为没有任何一个人死过去回过头来还能给你讲这个过程的，",
-      "vi": "Rất muốn biết cái chết là thế nào, vì chưa có ai chết đi rồi quay lại kể cho bạn nghe quá trình đó được,"
+      "parts": [
+        {
+          "zh": "特别想知道死亡是怎么回事儿，",
+          "vi": "Rất muốn biết cái chết là thế nào,"
+        },
+        {
+          "zh": "因为没有任何一个人",
+          "vi": "vì chưa có ai"
+        },
+        {
+          "zh": "死过去回过头来",
+          "vi": "chết đi rồi quay lại"
+        },
+        {
+          "zh": "还能给你讲这个过程的，",
+          "vi": "kể cho bạn nghe quá trình đó được,"
+        }
+      ]
     },
     "387": {
       "zh": "只能是活着的人。",
@@ -1564,7 +4973,24 @@
     },
     "389": {
       "zh": "二零一九年十二月，徐叔的乳腺癌复发了，但这一次他一点也不畏惧死亡，他决定向死而生，",
-      "vi": "Tháng 12 năm 2019, ung thư vú của Từ Thúc tái phát, nhưng lần này bà không hề sợ cái chết, bà quyết định hướng về cái chết mà sống,"
+      "parts": [
+        {
+          "zh": "二零一九年十二月，",
+          "vi": "Tháng 12 năm 2019,"
+        },
+        {
+          "zh": "徐叔的乳腺癌复发了，",
+          "vi": "ung thư vú của Từ Thúc tái phát,"
+        },
+        {
+          "zh": "但这一次他一点也不畏惧死亡，",
+          "vi": "nhưng lần này bà không hề sợ cái chết,"
+        },
+        {
+          "zh": "他决定向死而生，",
+          "vi": "bà quyết định hướng về cái chết mà sống,"
+        }
+      ]
     },
     "390": {
       "zh": "开心的过好剩下的每一天。",
@@ -1572,19 +4998,67 @@
     },
     "391": {
       "zh": "嗯，我妈妈去世的时候给了我一个特别深刻的教训，就是她的家。",
-      "vi": "Ừm, khi mẹ tôi mất, bà để lại cho tôi một bài học rất sâu sắc, đó là căn nhà của bà."
+      "parts": [
+        {
+          "zh": "嗯，我妈妈去世的时候",
+          "vi": "Ừm, khi mẹ tôi mất,"
+        },
+        {
+          "zh": "给了我一个特别深刻的教训，",
+          "vi": "bà để lại cho tôi một bài học rất sâu sắc,"
+        },
+        {
+          "zh": "就是她的家。",
+          "vi": "đó là căn nhà của bà."
+        }
+      ]
     },
     "392": {
       "zh": "我收拾了很久很久，就是我知道这个东西对他有意义，但是对我来说什么都不是的。",
-      "vi": "Tôi dọn dẹp rất lâu, rất lâu, tôi biết những đồ này có ý nghĩa với bà, nhưng với tôi thì chẳng là gì cả."
+      "parts": [
+        {
+          "zh": "我收拾了很久很久，",
+          "vi": "Tôi dọn dẹp rất lâu, rất lâu,"
+        },
+        {
+          "zh": "就是我知道这个东西对他有意义，",
+          "vi": "tôi biết những đồ này có ý nghĩa với bà,"
+        },
+        {
+          "zh": "但是对我来说什么都不是的。",
+          "vi": "nhưng với tôi thì chẳng là gì cả."
+        }
+      ]
     },
     "393": {
       "zh": "有很多是这样的东西，嗯，所以有我妈妈的这个教训之后，我就想过家里边不要有很多东西，",
-      "vi": "Có rất nhiều đồ như vậy, ừm, nên có bài học từ mẹ rồi, tôi nghĩ trong nhà đừng để nhiều đồ,"
+      "parts": [
+        {
+          "zh": "有很多是这样的东西，嗯，",
+          "vi": "Có rất nhiều đồ như vậy, ừm,"
+        },
+        {
+          "zh": "所以有我妈妈的这个教训之后，",
+          "vi": "nên có bài học từ mẹ rồi,"
+        },
+        {
+          "zh": "我就想过家里边不要有很多东西，",
+          "vi": "tôi nghĩ trong nhà đừng để nhiều đồ,"
+        }
+      ]
     },
     "394": {
       "zh": "而且在我活着的时候，把我觉着特别有意义的东西筛拣。",
-      "vi": "và ngay khi còn sống, tôi lọc lại những thứ tôi thấy đặc biệt có ý nghĩa,"
+      "parts": [
+        {
+          "zh": "而且在我活着的时候，",
+          "vi": "và ngay khi còn sống,"
+        },
+        {
+          "zh": "把我觉着特别有意义的东西筛拣。",
+          "vi": "tôi lọc lại những thứ tôi thấy đặc biệt có ý nghĩa,"
+        }
+      ]
     },
     "395": {
       "zh": "剪到只留下那么一两件，甚至不留。",
@@ -1592,27 +5066,93 @@
     },
     "396": {
       "zh": "就是我那个断舍离的过程也挺有意义的。",
-      "vi": "Quá trình buông bỏ đồ đạc đó của tôi cũng khá ý nghĩa."
+      "parts": [
+        {
+          "zh": "就是我那个断舍离的过程",
+          "vi": "Quá trình buông bỏ đồ đạc đó của tôi"
+        },
+        {
+          "zh": "也挺有意义的。",
+          "vi": "cũng khá ý nghĩa."
+        }
+      ]
     },
     "397": {
       "zh": "我把很多东西看了一遍，我觉着我把它记在脑子里就可以了。",
-      "vi": "Tôi xem lại rất nhiều đồ một lượt, tôi thấy mình chỉ cần ghi nhớ nó trong đầu là được."
+      "parts": [
+        {
+          "zh": "我把很多东西看了一遍，",
+          "vi": "Tôi xem lại rất nhiều đồ một lượt,"
+        },
+        {
+          "zh": "我觉着我把它记在脑子里就可以了。",
+          "vi": "tôi thấy mình chỉ cần ghi nhớ nó trong đầu là được."
+        }
+      ]
     },
     "398": {
       "zh": "那个时候觉着我生命不知道还有三个月还是三年，然后写一封遗书。",
-      "vi": "Lúc đó tôi nghĩ không biết mình còn ba tháng hay ba năm, rồi viết một bức di thư."
+      "parts": [
+        {
+          "zh": "那个时候觉着我生命不知道",
+          "vi": "Lúc đó tôi nghĩ không biết đời mình"
+        },
+        {
+          "zh": "还有三个月还是三年，",
+          "vi": "còn ba tháng hay ba năm,"
+        },
+        {
+          "zh": "然后写一封遗书。",
+          "vi": "rồi viết một bức di thư."
+        }
+      ]
     },
     "399": {
       "zh": "本来大家都说写遗书这件事儿，后来我真到写的时候没什么可写的，因为别人作为女主人，",
-      "vi": "Vốn mọi người đều nói chuyện viết di thư, về sau đến lúc thật sự viết thì tôi chẳng có gì để viết, vì người ta là nữ chủ nhân trong nhà,"
+      "parts": [
+        {
+          "zh": "本来大家都说写遗书这件事儿，",
+          "vi": "Vốn mọi người đều nói chuyện viết di thư,"
+        },
+        {
+          "zh": "后来我真到写的时候没什么可写的，",
+          "vi": "về sau đến lúc thật sự viết thì tôi chẳng có gì để viết,"
+        },
+        {
+          "zh": "因为别人作为女主人，",
+          "vi": "vì người ta là nữ chủ nhân trong nhà,"
+        }
+      ]
     },
     "400": {
       "zh": "可能家里钱放在哪儿，什么什么怎么安排的。",
-      "vi": "có khi tiền trong nhà để ở đâu, cái gì sắp xếp thế nào."
+      "parts": [
+        {
+          "zh": "可能家里钱放在哪儿，",
+          "vi": "có khi tiền trong nhà để ở đâu,"
+        },
+        {
+          "zh": "什么什么怎么安排的。",
+          "vi": "cái gì sắp xếp thế nào."
+        }
+      ]
     },
     "401": {
       "zh": "人家都有数，在经济上，在财产上没有什么可安排的。",
-      "vi": "Người nhà đều nắm rõ cả, về kinh tế, về tài sản thì chẳng có gì phải sắp xếp."
+      "parts": [
+        {
+          "zh": "人家都有数，",
+          "vi": "Người nhà đều nắm rõ cả,"
+        },
+        {
+          "zh": "在经济上，",
+          "vi": "về kinh tế,"
+        },
+        {
+          "zh": "在财产上没有什么可安排的。",
+          "vi": "về tài sản thì chẳng có gì phải sắp xếp."
+        }
+      ]
     },
     "402": {
       "zh": "那除了这个还有啥呀？",
@@ -1620,15 +5160,50 @@
     },
     "403": {
       "zh": "我不想嘱咐女儿说你爸要怎么怎么样，或者说我留下什么遗言，",
-      "vi": "Tôi không muốn dặn con gái là bố con phải thế này thế kia, hay để lại di ngôn gì đó,"
+      "parts": [
+        {
+          "zh": "我不想嘱咐女儿说",
+          "vi": "Tôi không muốn dặn con gái là"
+        },
+        {
+          "zh": "你爸要怎么怎么样，",
+          "vi": "bố con phải thế này thế kia,"
+        },
+        {
+          "zh": "或者说我留下什么遗言，",
+          "vi": "hay để lại di ngôn gì đó,"
+        }
+      ]
     },
     "404": {
       "zh": "然后让人家觉着自己重新开始新生活都是一种罪恶感。",
-      "vi": "rồi khiến người ta thấy việc bắt đầu cuộc sống mới cũng là một tội lỗi."
+      "parts": [
+        {
+          "zh": "然后让人家觉着",
+          "vi": "rồi khiến người ta thấy"
+        },
+        {
+          "zh": "自己重新开始新生活",
+          "vi": "việc bắt đầu cuộc sống mới"
+        },
+        {
+          "zh": "都是一种罪恶感。",
+          "vi": "cũng là một tội lỗi."
+        }
+      ]
     },
     "405": {
       "zh": "我希望他们就按照自己的意愿去活着就好，好吧？",
-      "vi": "Tôi mong họ cứ sống theo ý mình là được, được không?"
+      "parts": [
+        {
+          "zh": "我希望他们就按照自己的意愿",
+          "vi": "Tôi mong họ cứ sống theo ý mình,"
+        },
+        {
+          "zh": "去活着就好，好吧？",
+          "vi": "là được, được không?"
+        }
+      ]
     },
     "406": {
       "zh": "那我就说我爱他们，嗯。",
@@ -1636,51 +5211,199 @@
     },
     "407": {
       "zh": "就是上苍让我遇到你们，尤其有一个好的女儿。",
-      "vi": "Là trời xanh cho tôi gặp được các người, nhất là có một đứa con gái tốt."
+      "parts": [
+        {
+          "zh": "就是上苍让我遇到你们，",
+          "vi": "Là trời xanh cho tôi gặp được các người,"
+        },
+        {
+          "zh": "尤其有一个好的女儿。",
+          "vi": "nhất là có một đứa con gái tốt."
+        }
+      ]
     },
     "408": {
       "zh": "然后那个有些时候说的一些话、做的一些事，让他们不舒服，只请他们原谅。",
-      "vi": "Rồi có những lúc những lời tôi nói, những việc tôi làm khiến họ không vui, chỉ xin họ tha thứ."
+      "parts": [
+        {
+          "zh": "然后那个有些时候说的一些话、",
+          "vi": "Rồi có những lúc những lời tôi nói,"
+        },
+        {
+          "zh": "做的一些事，",
+          "vi": "những việc tôi làm,"
+        },
+        {
+          "zh": "让他们不舒服，",
+          "vi": "khiến họ không vui,"
+        },
+        {
+          "zh": "只请他们原谅。",
+          "vi": "chỉ xin họ tha thứ."
+        }
+      ]
     },
     "409": {
       "zh": "然后就是到别位，就是我走了以后，你们要好好生活。",
-      "vi": "Rồi là lời từ biệt, tức là sau khi tôi đi rồi, các người hãy sống thật tốt."
+      "parts": [
+        {
+          "zh": "然后就是到别位，就是我走了以后，",
+          "vi": "Rồi là lời từ biệt, tức là sau khi tôi đi rồi,"
+        },
+        {
+          "zh": "你们要好好生活。",
+          "vi": "các người hãy sống thật tốt."
+        }
+      ]
     },
     "410": {
       "zh": "没想到一边怀着良好的心态生活，一边积极配合治疗，",
-      "vi": "Không ngờ vừa sống với tâm thế tốt, vừa tích cực phối hợp điều trị,"
+      "parts": [
+        {
+          "zh": "没想到一边怀着良好的心态生活，",
+          "vi": "Không ngờ vừa sống với tâm thế tốt,"
+        },
+        {
+          "zh": "一边积极配合治疗，",
+          "vi": "vừa tích cực phối hợp điều trị,"
+        }
+      ]
     },
     "411": {
       "zh": "半年后徐叔的癌胚抗原数竟然下降到了正常值。",
-      "vi": "nửa năm sau chỉ số kháng nguyên ung thư biểu mô phôi (CEA) của Từ Thúc lại giảm về mức bình thường."
+      "parts": [
+        {
+          "zh": "半年后徐叔的癌胚抗原数",
+          "vi": "nửa năm sau chỉ số kháng nguyên ung thư biểu mô phôi (CEA) của Từ Thúc"
+        },
+        {
+          "zh": "竟然下降到了正常值。",
+          "vi": "lại giảm về mức bình thường."
+        }
+      ]
     },
     "412": {
       "zh": "这短短几年内，徐叔经历了两位至亲离世，自己确诊癌症又复发，他却从未向生活低过头。",
-      "vi": "Chỉ trong vài năm ngắn ngủi, Từ Thúc trải qua sự ra đi của hai người thân ruột thịt, bản thân bị chẩn đoán ung thư rồi tái phát, nhưng bà chưa bao giờ cúi đầu trước cuộc đời."
+      "parts": [
+        {
+          "zh": "这短短几年内，",
+          "vi": "Chỉ trong vài năm ngắn ngủi,"
+        },
+        {
+          "zh": "徐叔经历了两位至亲离世，",
+          "vi": "Từ Thúc trải qua sự ra đi của hai người thân ruột thịt,"
+        },
+        {
+          "zh": "自己确诊癌症又复发，",
+          "vi": "bản thân bị chẩn đoán ung thư rồi tái phát,"
+        },
+        {
+          "zh": "他却从未向生活低过头。",
+          "vi": "nhưng bà chưa bao giờ cúi đầu trước cuộc đời."
+        }
+      ]
     },
     "413": {
       "zh": "回忆过去的人生，徐叔觉得自己好像总是在为别人而活，所以在六十五岁这一年，",
-      "vi": "Nhìn lại cuộc đời đã qua, Từ Thúc thấy dường như mình luôn sống vì người khác, nên năm 65 tuổi,"
+      "parts": [
+        {
+          "zh": "回忆过去的人生，",
+          "vi": "Nhìn lại cuộc đời đã qua,"
+        },
+        {
+          "zh": "徐叔觉得自己好像",
+          "vi": "Từ Thúc thấy dường như mình"
+        },
+        {
+          "zh": "总是在为别人而活，",
+          "vi": "luôn sống vì người khác,"
+        },
+        {
+          "zh": "所以在六十五岁这一年，",
+          "vi": "nên năm 65 tuổi,"
+        }
+      ]
     },
     "414": {
       "zh": "徐叔决定不管之后的日子还剩多久，他都要为自己活一次。",
-      "vi": "Từ Thúc quyết định dù những ngày sau còn bao lâu, bà cũng phải sống vì mình một lần."
+      "parts": [
+        {
+          "zh": "徐叔决定不管之后的日子还剩多久，",
+          "vi": "Từ Thúc quyết định dù những ngày sau còn bao lâu,"
+        },
+        {
+          "zh": "他都要为自己活一次。",
+          "vi": "bà cũng phải sống vì mình một lần."
+        }
+      ]
     },
     "415": {
       "zh": "小的时候不是很被妈妈待见的一个孩子，因为我学不好数理化，我妈对我很失望。",
-      "vi": "Hồi nhỏ tôi là đứa trẻ không được mẹ ưa lắm, vì tôi học không giỏi toán lý hóa, mẹ tôi rất thất vọng về tôi."
+      "parts": [
+        {
+          "zh": "小的时候",
+          "vi": "Hồi nhỏ"
+        },
+        {
+          "zh": "不是很被妈妈待见的一个孩子，",
+          "vi": "tôi là đứa trẻ không được mẹ ưa lắm,"
+        },
+        {
+          "zh": "因为我学不好数理化，",
+          "vi": "vì tôi học không giỏi toán lý hóa,"
+        },
+        {
+          "zh": "我妈对我很失望。",
+          "vi": "mẹ tôi rất thất vọng về tôi."
+        }
+      ]
     },
     "416": {
       "zh": "所以我就老想讨好，然后一直就觉着自己是不被父母认可的。",
-      "vi": "Nên tôi cứ muốn lấy lòng mẹ, rồi lúc nào cũng thấy mình không được bố mẹ công nhận."
+      "parts": [
+        {
+          "zh": "所以我就老想讨好，",
+          "vi": "Nên tôi cứ muốn lấy lòng mẹ,"
+        },
+        {
+          "zh": "然后一直就觉着",
+          "vi": "rồi lúc nào cũng thấy"
+        },
+        {
+          "zh": "自己是不被父母认可的。",
+          "vi": "mình không được bố mẹ công nhận."
+        }
+      ]
     },
     "417": {
       "zh": "在高考的时候，我妈这个心里边一直就是觉着我没学数学，",
-      "vi": "Lúc thi đại học, trong lòng mẹ tôi cứ nghĩ là tôi không học toán,"
+      "parts": [
+        {
+          "zh": "在高考的时候，",
+          "vi": "Lúc thi đại học,"
+        },
+        {
+          "zh": "我妈这个心里边一直就是觉着",
+          "vi": "trong lòng mẹ tôi cứ nghĩ là"
+        },
+        {
+          "zh": "我没学数学，",
+          "vi": "tôi không học toán,"
+        }
+      ]
     },
     "418": {
       "zh": "我怎么就能就是我女儿怎么就学不明白数学呢？",
-      "vi": "sao tôi lại, tức là sao con gái tôi lại học mãi không hiểu toán chứ?"
+      "parts": [
+        {
+          "zh": "我怎么就能就是",
+          "vi": "sao tôi lại, tức là"
+        },
+        {
+          "zh": "我女儿怎么就学不明白数学呢？",
+          "vi": "sao con gái tôi lại học mãi không hiểu toán chứ?"
+        }
+      ]
     },
     "419": {
       "zh": "是我的孩子，我数学是学霸呀。",
@@ -1688,7 +5411,20 @@
     },
     "420": {
       "zh": "然后她给我报了个数学系，那个时候我就觉着自己快疯了，因为从小在家已经习惯了就是。",
-      "vi": "Rồi mẹ đăng ký cho tôi vào khoa toán, lúc đó tôi thấy mình sắp phát điên, vì từ nhỏ ở nhà đã quen"
+      "parts": [
+        {
+          "zh": "然后她给我报了个数学系，",
+          "vi": "Rồi mẹ đăng ký cho tôi vào khoa toán,"
+        },
+        {
+          "zh": "那个时候我就觉着自己快疯了，",
+          "vi": "lúc đó tôi thấy mình sắp phát điên,"
+        },
+        {
+          "zh": "因为从小在家已经习惯了就是。",
+          "vi": "vì từ nhỏ ở nhà đã quen"
+        }
+      ]
     },
     "421": {
       "zh": "不会反抗，不愿意表达了。",
@@ -1696,7 +5432,16 @@
     },
     "422": {
       "zh": "但我妈几句话就把我顶回来了：“学好数理化，走遍天下都不怕。”",
-      "vi": "Nhưng mẹ tôi chỉ vài câu đã đẩy tôi về: \"Học giỏi toán lý hóa, đi khắp thiên hạ chẳng sợ gì.\""
+      "parts": [
+        {
+          "zh": "但我妈几句话就把我顶回来了：",
+          "vi": "Nhưng mẹ tôi chỉ vài câu đã đẩy tôi về:"
+        },
+        {
+          "zh": "“学好数理化，走遍天下都不怕。”",
+          "vi": "\"Học giỏi toán lý hóa, đi khắp thiên hạ chẳng sợ gì.\""
+        }
+      ]
     },
     "423": {
       "zh": "你学我那时候喜欢画画吗？",
@@ -1712,7 +5457,16 @@
     },
     "426": {
       "zh": "那个时候我就天天盼着我落榜，天天盼着我考不上。",
-      "vi": "Hồi đó ngày nào tôi cũng mong mình trượt, ngày nào cũng mong mình không đỗ."
+      "parts": [
+        {
+          "zh": "那个时候我就天天盼着我落榜，",
+          "vi": "Hồi đó ngày nào tôi cũng mong mình trượt,"
+        },
+        {
+          "zh": "天天盼着我考不上。",
+          "vi": "ngày nào cũng mong mình không đỗ."
+        }
+      ]
     },
     "427": {
       "zh": "结果通知书下来了，你考上了。",
@@ -1720,15 +5474,50 @@
     },
     "428": {
       "zh": "这四年硬着头皮学自己不喜欢的东西，",
-      "vi": "Bốn năm đó cắn răng học thứ mình không thích,"
+      "parts": [
+        {
+          "zh": "这四年硬着头皮",
+          "vi": "Bốn năm đó cắn răng"
+        },
+        {
+          "zh": "学自己不喜欢的东西，",
+          "vi": "học thứ mình không thích,"
+        }
+      ]
     },
     "429": {
       "zh": "然后有的时候看到楼下艺术系的人背着画夹子从外边回来，我就能委屈的掉眼泪。",
-      "vi": "rồi có lúc thấy người khoa mỹ thuật ở tầng dưới đeo cặp vẽ từ ngoài về, tôi tủi thân đến rơi nước mắt."
+      "parts": [
+        {
+          "zh": "然后有的时候",
+          "vi": "rồi có lúc"
+        },
+        {
+          "zh": "看到楼下艺术系的人",
+          "vi": "thấy người khoa mỹ thuật ở tầng dưới"
+        },
+        {
+          "zh": "背着画夹子从外边回来，",
+          "vi": "đeo cặp vẽ từ ngoài về,"
+        },
+        {
+          "zh": "我就能委屈的掉眼泪。",
+          "vi": "tôi tủi thân đến rơi nước mắt."
+        }
+      ]
     },
     "430": {
       "zh": "那个时候又不能转系，然后就这样毕业了。",
-      "vi": "Hồi đó lại không được chuyển khoa, rồi cứ thế tốt nghiệp."
+      "parts": [
+        {
+          "zh": "那个时候又不能转系，",
+          "vi": "Hồi đó lại không được chuyển khoa,"
+        },
+        {
+          "zh": "然后就这样毕业了。",
+          "vi": "rồi cứ thế tốt nghiệp."
+        }
+      ]
     },
     "431": {
       "zh": "毕业了又分到大学当数学老师。",
@@ -1736,7 +5525,20 @@
     },
     "432": {
       "zh": "后来我实在忍无可忍了，就是我我想着明天要去上数学课，我就想生病，我就想吐，",
-      "vi": "Sau này tôi thật sự không chịu nổi nữa, tức là tôi, tôi nghĩ đến mai phải đi dạy toán là tôi muốn ốm, tôi muốn nôn,"
+      "parts": [
+        {
+          "zh": "后来我实在忍无可忍了，",
+          "vi": "Sau này tôi thật sự không chịu nổi nữa,"
+        },
+        {
+          "zh": "就是我我想着明天要去上数学课，",
+          "vi": "tức là tôi, tôi nghĩ đến mai phải đi dạy toán,"
+        },
+        {
+          "zh": "我就想生病，我就想吐，",
+          "vi": "là tôi muốn ốm, tôi muốn nôn,"
+        }
+      ]
     },
     "433": {
       "zh": "就是身体有反应了。",
@@ -1744,19 +5546,67 @@
     },
     "434": {
       "zh": "还有三个月我们就提高级职称了，我不管不顾我就辞职了，因为我忍受不了了。",
-      "vi": "Còn ba tháng nữa là chúng tôi được xét chức danh cao cấp, tôi mặc kệ tất cả mà nghỉ việc, vì tôi không chịu nổi nữa."
+      "parts": [
+        {
+          "zh": "还有三个月我们就提高级职称了，",
+          "vi": "Còn ba tháng nữa là chúng tôi được xét chức danh cao cấp,"
+        },
+        {
+          "zh": "我不管不顾我就辞职了，",
+          "vi": "tôi mặc kệ tất cả mà nghỉ việc,"
+        },
+        {
+          "zh": "因为我忍受不了了。",
+          "vi": "vì tôi không chịu nổi nữa."
+        }
+      ]
     },
     "435": {
       "zh": "那后来我结婚就在为丈夫活着，因为我从。",
-      "vi": "Sau đó tôi kết hôn thì lại sống vì chồng, vì tôi, từ"
+      "parts": [
+        {
+          "zh": "那后来我结婚就在为丈夫活着，",
+          "vi": "Sau đó tôi kết hôn thì lại sống vì chồng,"
+        },
+        {
+          "zh": "因为我从。",
+          "vi": "vì tôi, từ"
+        }
+      ]
     },
     "436": {
       "zh": "发自内心的那个从小到大的那个自卑感，让我在婚姻中老是选择自我否定。",
-      "vi": "tận trong lòng, cái cảm giác tự ti từ nhỏ đến lớn ấy khiến tôi trong hôn nhân lúc nào cũng chọn tự phủ định mình."
+      "parts": [
+        {
+          "zh": "发自内心的那个",
+          "vi": "tận trong lòng,"
+        },
+        {
+          "zh": "从小到大的那个自卑感，",
+          "vi": "cái cảm giác tự ti từ nhỏ đến lớn ấy,"
+        },
+        {
+          "zh": "让我在婚姻中老是选择自我否定。",
+          "vi": "khiến tôi trong hôn nhân lúc nào cũng chọn tự phủ định mình."
+        }
+      ]
     },
     "437": {
       "zh": "就是当我丈夫比如说在一件事儿上，他哪怕只是个强词夺理，不是我错了，但他认为我错了，",
-      "vi": "Tức là khi chồng tôi, chẳng hạn trong một chuyện, dù anh ta chỉ là cãi chày cãi cối, tôi không sai, nhưng anh ta cho là tôi sai,"
+      "parts": [
+        {
+          "zh": "就是当我丈夫比如说在一件事儿上，",
+          "vi": "Tức là khi chồng tôi, chẳng hạn trong một chuyện,"
+        },
+        {
+          "zh": "他哪怕只是个强词夺理，不是我错了，",
+          "vi": "dù anh ta chỉ là cãi chày cãi cối, tôi không sai,"
+        },
+        {
+          "zh": "但他认为我错了，",
+          "vi": "nhưng anh ta cho là tôi sai,"
+        }
+      ]
     },
     "438": {
       "zh": "我就开始反省自己，总是这样的。",
@@ -1764,7 +5614,16 @@
     },
     "439": {
       "zh": "然后慢慢的就形成一种习惯了，他也习惯了，他就老是否定我。",
-      "vi": "Rồi dần dần thành thói quen, anh ta cũng quen rồi, anh ta cứ phủ định tôi mãi."
+      "parts": [
+        {
+          "zh": "然后慢慢的就形成一种习惯了，",
+          "vi": "Rồi dần dần thành thói quen,"
+        },
+        {
+          "zh": "他也习惯了，他就老是否定我。",
+          "vi": "anh ta cũng quen rồi, anh ta cứ phủ định tôi mãi."
+        }
+      ]
     },
     "440": {
       "zh": "后来成为志愿者之后。",
@@ -1776,11 +5635,37 @@
     },
     "442": {
       "zh": "在我的人生里边，我一直没有为自己活过，都是在为别人活。",
-      "vi": "Trong cuộc đời mình, tôi chưa bao giờ sống vì bản thân, toàn sống vì người khác."
+      "parts": [
+        {
+          "zh": "在我的人生里边，",
+          "vi": "Trong cuộc đời mình,"
+        },
+        {
+          "zh": "我一直没有为自己活过，",
+          "vi": "tôi chưa bao giờ sống vì bản thân,"
+        },
+        {
+          "zh": "都是在为别人活。",
+          "vi": "toàn sống vì người khác."
+        }
+      ]
     },
     "443": {
       "zh": "过去呢，觉着为自己活、爱自己这是一个多自私的事儿。",
-      "vi": "Trước đây thì thấy sống vì mình, yêu bản thân là một việc ích kỷ biết bao."
+      "parts": [
+        {
+          "zh": "过去呢，",
+          "vi": "Trước đây thì,"
+        },
+        {
+          "zh": "觉着为自己活、爱自己",
+          "vi": "thấy sống vì mình, yêu bản thân,"
+        },
+        {
+          "zh": "这是一个多自私的事儿。",
+          "vi": "là một việc ích kỷ biết bao."
+        }
+      ]
     },
     "444": {
       "zh": "怎么说话多自私啊！",
@@ -1796,39 +5681,144 @@
     },
     "447": {
       "zh": "最后妈妈也未必对我多满意，我也很多深深的自责和罪恶感。",
-      "vi": "Cuối cùng mẹ chưa chắc đã hài lòng về tôi mấy, tôi cũng có nhiều tự trách và tội lỗi sâu sắc."
+      "parts": [
+        {
+          "zh": "最后妈妈也未必对我多满意，",
+          "vi": "Cuối cùng mẹ chưa chắc đã hài lòng về tôi mấy,"
+        },
+        {
+          "zh": "我也很多深深的自责和罪恶感。",
+          "vi": "tôi cũng có nhiều tự trách và tội lỗi sâu sắc."
+        }
+      ]
     },
     "448": {
       "zh": "然后女儿对我也不满意，丈夫对我也不满意。",
-      "vi": "Rồi con gái cũng không hài lòng về tôi, chồng cũng không hài lòng về tôi."
+      "parts": [
+        {
+          "zh": "然后女儿对我也不满意，",
+          "vi": "Rồi con gái cũng không hài lòng về tôi,"
+        },
+        {
+          "zh": "丈夫对我也不满意。",
+          "vi": "chồng cũng không hài lòng về tôi."
+        }
+      ]
     },
     "449": {
       "zh": "我的人生就是总是有挫，特别有挫败感。",
-      "vi": "Cuộc đời tôi lúc nào cũng có thất bại, cảm giác thất bại rất nặng nề."
+      "parts": [
+        {
+          "zh": "我的人生就是总是有挫，",
+          "vi": "Cuộc đời tôi lúc nào cũng có thất bại,"
+        },
+        {
+          "zh": "特别有挫败感。",
+          "vi": "cảm giác thất bại rất nặng nề."
+        }
+      ]
     },
     "450": {
       "zh": "就是我承担起家里的所有，在这个时刻，我觉着我的人生还有多久呢？",
-      "vi": "Tức là tôi gánh vác mọi thứ trong nhà, vào lúc này, tôi nghĩ đời mình còn bao lâu nữa?"
+      "parts": [
+        {
+          "zh": "就是我承担起家里的所有，",
+          "vi": "Tức là tôi gánh vác mọi thứ trong nhà,"
+        },
+        {
+          "zh": "在这个时刻，",
+          "vi": "vào lúc này,"
+        },
+        {
+          "zh": "我觉着我的人生还有多久呢？",
+          "vi": "tôi nghĩ đời mình còn bao lâu nữa?"
+        }
+      ]
     },
     "451": {
       "zh": "可是我没有为自己活过，我为别人活，别人不满意，我为什么不为自己活一活呢？",
-      "vi": "Vậy mà tôi chưa từng sống vì mình, tôi sống vì người khác, người khác không hài lòng, sao tôi không sống vì mình một lần?"
+      "parts": [
+        {
+          "zh": "可是我没有为自己活过，",
+          "vi": "Vậy mà tôi chưa từng sống vì mình,"
+        },
+        {
+          "zh": "我为别人活，别人不满意，",
+          "vi": "tôi sống vì người khác, người khác không hài lòng,"
+        },
+        {
+          "zh": "我为什么不为自己活一活呢？",
+          "vi": "sao tôi không sống vì mình một lần?"
+        }
+      ]
     },
     "452": {
       "zh": "就是我已经都到这份上了，我不可以自私一点吗？",
-      "vi": "Tức là tôi đã đến nước này rồi, tôi không được ích kỷ một chút sao?"
+      "parts": [
+        {
+          "zh": "就是我已经都到这份上了，",
+          "vi": "Tức là tôi đã đến nước này rồi,"
+        },
+        {
+          "zh": "我不可以自私一点吗？",
+          "vi": "tôi không được ích kỷ một chút sao?"
+        }
+      ]
     },
     "453": {
       "zh": "我忽然就想自私了，所以在六十五岁这一年我离婚了，因为我。",
-      "vi": "Tôi bỗng muốn ích kỷ, nên năm 65 tuổi tôi ly hôn, vì tôi"
+      "parts": [
+        {
+          "zh": "我忽然就想自私了，",
+          "vi": "Tôi bỗng muốn ích kỷ,"
+        },
+        {
+          "zh": "所以在六十五岁这一年",
+          "vi": "nên năm 65 tuổi,"
+        },
+        {
+          "zh": "我离婚了，因为我。",
+          "vi": "tôi ly hôn, vì tôi"
+        }
+      ]
     },
     "454": {
       "zh": "该尽的社会责任、家庭责任尽完了，四个老人送走了，孩子也独立了。",
-      "vi": "đã làm tròn trách nhiệm xã hội, trách nhiệm gia đình phải làm, đã tiễn bốn người già, con cái cũng đã tự lập."
+      "parts": [
+        {
+          "zh": "该尽的社会责任、家庭责任尽完了，",
+          "vi": "đã làm tròn trách nhiệm xã hội, trách nhiệm gia đình phải làm,"
+        },
+        {
+          "zh": "四个老人送走了，",
+          "vi": "đã tiễn bốn người già,"
+        },
+        {
+          "zh": "孩子也独立了。",
+          "vi": "con cái cũng đã tự lập."
+        }
+      ]
     },
     "455": {
       "zh": "我现在想为我自己活，不想看别人的脸色，所以我现在就选择了这样的一个人生活，",
-      "vi": "Bây giờ tôi muốn sống vì chính mình, không muốn nhìn sắc mặt người khác, nên bây giờ tôi chọn sống một mình như thế này,"
+      "parts": [
+        {
+          "zh": "我现在想为我自己活，",
+          "vi": "Bây giờ tôi muốn sống vì chính mình,"
+        },
+        {
+          "zh": "不想看别人的脸色，",
+          "vi": "không muốn nhìn sắc mặt người khác,"
+        },
+        {
+          "zh": "所以我现在就选择了",
+          "vi": "nên bây giờ tôi chọn"
+        },
+        {
+          "zh": "这样的一个人生活，",
+          "vi": "sống một mình như thế này,"
+        }
+      ]
     },
     "456": {
       "zh": "然后特别快乐。",
@@ -1836,11 +5826,37 @@
     },
     "457": {
       "zh": "不管我的人生还有多久，哪怕还有一年，我也活成自己想要的那个样子。",
-      "vi": "Dù đời tôi còn bao lâu, dù chỉ còn một năm, tôi cũng sống thành dáng vẻ mình muốn."
+      "parts": [
+        {
+          "zh": "不管我的人生还有多久，",
+          "vi": "Dù đời tôi còn bao lâu,"
+        },
+        {
+          "zh": "哪怕还有一年，",
+          "vi": "dù chỉ còn một năm,"
+        },
+        {
+          "zh": "我也活成自己想要的那个样子。",
+          "vi": "tôi cũng sống thành dáng vẻ mình muốn."
+        }
+      ]
     },
     "458": {
       "zh": "所以很多人现在说：“哦，徐老师，现在看你怎么年纪越大越越灿烂、越青春呢？”",
-      "vi": "Nên bây giờ nhiều người nói: \"Ồ, cô Từ ơi, sao em thấy cô càng lớn tuổi càng rạng rỡ, càng trẻ trung thế?\""
+      "parts": [
+        {
+          "zh": "所以很多人现在说：“哦，徐老师，",
+          "vi": "Nên bây giờ nhiều người nói: \"Ồ, cô Từ ơi,"
+        },
+        {
+          "zh": "现在看你怎么年纪越大",
+          "vi": "sao em thấy cô càng lớn tuổi"
+        },
+        {
+          "zh": "越越灿烂、越青春呢？”",
+          "vi": "càng rạng rỡ, càng trẻ trung thế?\""
+        }
+      ]
     },
     "459": {
       "zh": "我说啊，真的吗？",
@@ -1848,31 +5864,118 @@
     },
     "460": {
       "zh": "徐叔平时喜欢摄影，他现在经常跟着风光摄影老师一边驾驶无人机一边旅拍。",
-      "vi": "Từ Thúc bình thường thích chụp ảnh, giờ bà thường đi theo thầy dạy chụp ảnh phong cảnh, vừa lái flycam vừa chụp ảnh du lịch."
+      "parts": [
+        {
+          "zh": "徐叔平时喜欢摄影，",
+          "vi": "Từ Thúc bình thường thích chụp ảnh,"
+        },
+        {
+          "zh": "他现在经常跟着风光摄影老师",
+          "vi": "giờ bà thường đi theo thầy dạy chụp ảnh phong cảnh,"
+        },
+        {
+          "zh": "一边驾驶无人机一边旅拍。",
+          "vi": "vừa lái flycam vừa chụp ảnh du lịch."
+        }
+      ]
     },
     "461": {
       "zh": "徐叔说，如果病房要扩大了，他想把和老师拍摄的美景照片捐赠过来，",
-      "vi": "Từ Thúc nói, nếu khoa được mở rộng, bà muốn tặng những bức ảnh cảnh đẹp chụp cùng thầy,"
+      "parts": [
+        {
+          "zh": "徐叔说，如果病房要扩大了，",
+          "vi": "Từ Thúc nói, nếu khoa được mở rộng,"
+        },
+        {
+          "zh": "他想把和老师拍摄的",
+          "vi": "bà muốn đem những bức ảnh chụp cùng thầy,"
+        },
+        {
+          "zh": "美景照片捐赠过来，",
+          "vi": "ảnh cảnh đẹp, tặng cho khoa,"
+        }
+      ]
     },
     "462": {
       "zh": "让患者在生命的最后一刻可以带着对人间美好的感受离开这个世界。",
-      "vi": "để bệnh nhân vào giây phút cuối đời có thể mang theo cảm nhận về những điều tốt đẹp của nhân gian mà rời thế giới này."
+      "parts": [
+        {
+          "zh": "让患者在生命的最后一刻",
+          "vi": "để bệnh nhân vào giây phút cuối đời,"
+        },
+        {
+          "zh": "可以带着对人间美好的感受",
+          "vi": "có thể mang theo cảm nhận về những điều tốt đẹp của nhân gian,"
+        },
+        {
+          "zh": "离开这个世界。",
+          "vi": "mà rời thế giới này."
+        }
+      ]
     },
     "463": {
       "zh": "我离婚以后的这种感觉，就是一开始不习惯，一想着，哎，我是不是还得顾及一下什么？",
-      "vi": "Cảm giác sau khi ly hôn, lúc đầu không quen, cứ nghĩ, ơ, mình có phải còn lo cái gì nữa không?"
+      "parts": [
+        {
+          "zh": "我离婚以后的这种感觉，",
+          "vi": "Cảm giác sau khi ly hôn,"
+        },
+        {
+          "zh": "就是一开始不习惯，",
+          "vi": "lúc đầu không quen,"
+        },
+        {
+          "zh": "一想着，哎，",
+          "vi": "cứ nghĩ, ơ,"
+        },
+        {
+          "zh": "我是不是还得顾及一下什么？",
+          "vi": "mình có phải còn lo cái gì nữa không?"
+        }
+      ]
     },
     "464": {
       "zh": "忽然想，我不已经不用顾及谁了，我想我自己就行。",
-      "vi": "Bỗng nghĩ, mình đâu còn phải lo cho ai nữa, mình chỉ cần nghĩ cho mình là được."
+      "parts": [
+        {
+          "zh": "忽然想，我不已经不用顾及谁了，",
+          "vi": "Bỗng nghĩ, mình đâu còn phải lo cho ai nữa,"
+        },
+        {
+          "zh": "我想我自己就行。",
+          "vi": "mình chỉ cần nghĩ cho mình là được."
+        }
+      ]
     },
     "465": {
       "zh": "就是忽然的那种轻松和自由感，就是觉得自己一下子就能飞起来的那种那种快乐，特别开心。",
-      "vi": "Cái cảm giác nhẹ nhõm và tự do bất chợt ấy, cảm giác vui như có thể bay lên ngay lập tức, rất vui."
+      "parts": [
+        {
+          "zh": "就是忽然的那种轻松和自由感，",
+          "vi": "Cái cảm giác nhẹ nhõm và tự do bất chợt ấy,"
+        },
+        {
+          "zh": "就是觉得自己一下子就能飞起来的",
+          "vi": "cảm giác như có thể bay lên ngay lập tức,"
+        },
+        {
+          "zh": "那种那种快乐，特别开心。",
+          "vi": "niềm vui ấy, rất vui."
+        }
+      ]
     },
     "466": {
       "zh": "所以现在好多人都看见我都说：“哇，你状态怎么这么好？”",
-      "vi": "Nên bây giờ nhiều người gặp tôi đều nói: \"Oa, sao trông cô phong độ thế?\""
+      "parts": [
+        {
+          "zh": "所以现在好多人都看见我都说：",
+          "vi": "Nên bây giờ nhiều người gặp tôi đều nói:"
+        },
+        {
+          "zh": "“哇，你状态怎么这么好？”",
+          "vi": "\"Oa, sao trông cô phong độ thế?\""
+        }
+      ]
     },
     "467": {
       "zh": "就是这种游。",
@@ -1880,11 +5983,33 @@
     },
     "468": {
       "zh": "由内而外的，我属于我自己，我是我自己人生的主宰。",
-      "vi": "từ trong ra ngoài, tôi thuộc về chính mình, tôi là người làm chủ cuộc đời mình."
+      "parts": [
+        {
+          "zh": "由内而外的，我属于我自己，",
+          "vi": "từ trong ra ngoài, tôi thuộc về chính mình,"
+        },
+        {
+          "zh": "我是我自己人生的主宰。",
+          "vi": "tôi là người làm chủ cuộc đời mình."
+        }
+      ]
     },
     "469": {
       "zh": "就是这种感觉，是我从小到大刚刚有的，所以我很珍惜。",
-      "vi": "Cảm giác này là từ nhỏ đến lớn tôi mới vừa có được, nên tôi rất trân trọng."
+      "parts": [
+        {
+          "zh": "就是这种感觉，",
+          "vi": "Cảm giác này,"
+        },
+        {
+          "zh": "是我从小到大刚刚有的，",
+          "vi": "là từ nhỏ đến lớn tôi mới vừa có được,"
+        },
+        {
+          "zh": "所以我很珍惜。",
+          "vi": "nên tôi rất trân trọng."
+        }
+      ]
     },
     "470": {
       "zh": "嗯。",
@@ -1892,11 +6017,33 @@
     },
     "471": {
       "zh": "你现在正在收听的是《亲历者自述的声音》节目故事F M，我是主办者。",
-      "vi": "Bạn đang nghe Cố Sự FM, chương trình âm thanh nơi người trong cuộc tự kể chuyện của mình, tôi là người dẫn Ái Triết."
+      "parts": [
+        {
+          "zh": "你现在正在收听的是",
+          "vi": "Bạn đang nghe"
+        },
+        {
+          "zh": "《亲历者自述的声音》节目",
+          "vi": "chương trình âm thanh nơi người trong cuộc tự kể chuyện của mình,"
+        },
+        {
+          "zh": "故事F M，我是主办者。",
+          "vi": "Cố Sự FM, tôi là người dẫn Ái Triết."
+        }
+      ]
     },
     "472": {
       "zh": "本期节目由杜浩言制作，声音设计桑泉。",
-      "vi": "Kỳ này do Đỗ Hạo Ngôn sản xuất, thiết kế âm thanh: Tang Tuyền."
+      "parts": [
+        {
+          "zh": "本期节目由杜浩言制作，",
+          "vi": "Kỳ này do Đỗ Hạo Ngôn sản xuất,"
+        },
+        {
+          "zh": "声音设计桑泉。",
+          "vi": "thiết kế âm thanh: Tang Tuyền."
+        }
+      ]
     },
     "473": {
       "zh": "感谢你的收听，咱们下期再见。",
