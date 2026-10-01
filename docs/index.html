@@ -11,6 +11,9 @@
 <div class="wrap">
   <h1>故事FM</h1>
   <p class="meta" id="meta">Đang tải…</p>
+  <div class="toolbar">
+    <a class="chip" href="listen.html" style="text-decoration:none" title="Phát lại các chương đã học">▶ Nghe lại</a>
+  </div>
   <div id="list"></div>
   <div id="podcasts"></div>
   <h2 class="section" id="bili-heading" hidden>Bilibili</h2>
@@ -18,6 +21,8 @@
 </div>
 
 <script type="module">
+  import { call, savedConnection } from './server.js';
+
   const formatDuration = (seconds) =>
     `${Math.floor(seconds / 60)}:${String(Math.round(seconds % 60)).padStart(2, '0')}`;
 
@@ -46,6 +51,7 @@
   } catch {
     meta.textContent = 'Chưa có tập nào. Chạy `storyfm add <mã tập>` rồi tải lại trang.';
   }
+  showStudied();
 
   function toLink(episode) {
     const link = document.createElement('a');
@@ -55,6 +61,18 @@
     link.querySelector('.title').textContent = episode.title;
     link.querySelector('.sub').textContent = [episode.owner, episode.pubDate, formatDuration(episode.duration)].filter(Boolean).join(' · ');
     return link;
+  }
+
+  /** How many chapters of each episode were studied, from the server, under its title. */
+  async function showStudied() {
+    const connection = savedConnection();
+    if (!connection) return;
+    const { chapters } = await call(connection, '/studied').catch(() => ({ chapters: [] }));
+    const counts = Map.groupBy(chapters, (chapter) => chapter.ep);
+    for (const link of document.querySelectorAll('.episode')) {
+      const studied = counts.get(new URL(link.href).searchParams.get('ep'))?.length;
+      if (studied) link.querySelector('.sub').append(` · đã học ${studied} chương`);
+    }
   }
 </script>
 </body>

@@ -1,0 +1,28 @@
+{
+  "chapters": [
+    {
+      "zh": "我是谁，为什么做播客",
+      "vi": "Mình là ai, vì sao làm podcast",
+      "from": 0,
+      "to": 22,
+      "start": 6.02,
+      "end": 59.95
+    },
+    {
+      "zh": "学语言的秘诀：听播客",
+      "vi": "Bí quyết học ngoại ngữ: nghe podcast",
+      "from": 23,
+      "to": 45,
+      "start": 60.29,
+      "end": 120.7
+    },
+    {
+      "zh": "中文还没有这样的播客",
+      "vi": "Tiếng Trung chưa có podcast như vậy",
+      "from": 46,
+      "to": 72,
+      "start": 121.03,
+      "end": 187.24
+    }
+  ]
+}

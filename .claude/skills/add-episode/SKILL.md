@@ -8,8 +8,8 @@ description: >
   into short mining-sized lines, writing the
   vocabulary gloss the player shows when a word is tapped, translating the
   episode into Vietnamese (a summary plus one translation per line, never a
-  whole multi-line sentence at once), through staging
-  the result for commit. Use this whenever the user says something like
+  whole multi-line sentence at once), cutting it into chapters of one to two
+  minutes on one small topic each, through staging the result for commit. Use this whenever the user says something like
   "thêm cho tôi podcast này: https://www.xiaoyuzhoufm.com/episode/...",
   "add this episode", "transcribe E910", or pastes a xiaoyuzhoufm.com/episode
   link and asks for it to be added — even if they don't spell out the steps.
@@ -256,12 +256,46 @@ re-cut (`split-cues`) can move a line end inside a translated piece; the build t
 sentence as "lệch dòng" and `show --todo` lists it to translate again line by line. Then read a stretch of
 the page with the translations shown (`npm run serve`, **Hiện dịch**) to see it reads as one text.
 
-## 7. Stage, summarize, confirm — don't commit or push on your own
+## 7. Cut the episode into chapters
+
+The user studies one chapter at a time: a stretch of **one to two minutes on one small topic**,
+looped for most of an hour of active listening, then marked studied and played back later with
+studied chapters from other episodes. So a chapter has to hold together on its own, and its titles
+are how the user picks what to study next. The player shows each chapter as a heading above its first
+line and loops it from there.
+
+```
+node tools/chapters.mjs show <ID>          # the episode a sentence at a time: "<n> <m:ss> <who> <text>"
+node tools/chapters.mjs apply <ID> ch.txt  # write the whole list; refuses a chapter over 2:00
+```
+
+Read the whole episode (you already have, from translating), then write `ch.txt` in the scratchpad,
+one line per chapter in order: `<n> <tiêu đề Trung> | <tiêu đề Việt>`, where `<n>` is the sentence the
+chapter starts at. The first chapter starts at the first sentence. End with `<n> -` when the episode
+closes on outro credits and music (故事FM's "你现在正在收听的是…" and after): the last chapter then
+stops before sentence `n`, so a loop of it doesn't replay half a minute of credits every pass.
+
+- **Never over 2:00** — `apply` refuses it. Cut a long topic into consecutive parts at a natural turn,
+  each with its own title, rather than stretch one chapter.
+- **Not under ~1:00** unless the topic really is that short (`apply` marks these `ngắn`): merge a
+  fragment into a neighbour instead. A chapter is cut at a sentence, never inside one.
+- **Cut where the topic turns**, not where the clock says: a question and its answer, a story's setup
+  and its punchline, belong in one chapter. In a two-person podcast a new question is usually the turn.
+- **Titles say what happens, short**: Chinese around 5–10 characters in the episode's own words where
+  possible (爸爸发现钱少了, 去四川看“胸毛”); Vietnamese natural and short, names and terms as in the
+  translation (Ái Triết, 安宁疗护 → chăm sóc cuối đời). Never a title that gives away more than the
+  chapter says.
+
+`apply` must print every chapter with none over 2:00 and exit 0. `node tools/chapters.mjs build all`
+rechecks every episode; a later fix or join that moves a chapter's first sentence is named there.
+
+## 8. Stage, summarize, confirm — don't commit or push on your own
 
 These steps together touch: `data/raw/<id>.json`, `docs/data/<id>.json`, `docs/data/index.json`,
 `data/onsets/<id>.json`, `data/corrections/<id>.json`, `data/cuts/<id>.json`, the two sidecars `docs/data/<id>.tok.json` and
 `docs/data/<id>.gloss.json`, `tools/gloss-vi.json`, and the translation `data/translations/<id>.json`
-with what the page loads of it, `docs/data/<id>.vi.json`; for a podcast episode also
+with what the page loads of it, `docs/data/<id>.vi.json`; the chapters `data/chapters/<id>.json` and
+`docs/data/<id>.chapters.json`; for a podcast episode also
 `data/podcasts.json`, which records the hosted `m4a` (the file itself lives on the Worker, not in
 git). Note that `build_tokens.py` recounts word
 frequencies across every episode, so the other episodes' `.tok.json` files change too — that is
@@ -277,6 +311,7 @@ what changed, then give the user a short summary:
 - how many words were glossed, that `todo_gloss` now reports 0 left, and what `audit.mjs` printed
 - how many sentences were translated, the summary, and any spot where the ASR was too garbled to
   translate with certainty
+- how many chapters, their range of lengths, and the list of titles
 
 Committing is a visible, shared action (it goes into the user's git history), and pushing publishes
 it to GitHub Pages, so **do not commit or push without the user explicitly saying to.** Once they

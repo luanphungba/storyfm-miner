@@ -37,9 +37,11 @@ node tools/build_gloss.mjs    # build the gloss the player shows on a tap
 node tools/audit.mjs          # cross-check both against sources that did not build them
 node tools/translate.mjs show E077   # the episode by sentence, lines numbered, to translate line by line
 node tools/translate.mjs apply E077 vi.txt  # save translations + summary, rebuild what the page loads
+node tools/chapters.mjs show E077    # the episode by sentence, with times, to cut into chapters
+node tools/chapters.mjs apply E077 ch.txt   # save the chapters (1–2 minutes, one topic each) and rebuild
 ```
 
-`add` does not commit. Review the result, then commit `docs/data`, `data/raw`, `data/onsets`, `data/corrections`, `data/cuts` and `data/translations` yourself.
+`add` does not commit. Review the result, then commit `docs/data`, `data/raw`, `data/onsets`, `data/corrections`, `data/cuts`, `data/translations` and `data/chapters` yourself.
 
 ## How it works
 
@@ -68,8 +70,26 @@ RSS (data/feed.xml)
 | `src/roles.js` | Guess which speaker is the host 爱哲. Pure, tested |
 | `src/translations.js` | The Vietnamese summary and one translation per line (read against its whole sentence), each kept with the Chinese it was written for; a sentence a fix changed drops off the page until translated again, one a re-cut moved is named. Pure, tested |
 | `tools/translate.mjs` | Where translations are written: `data/translations/<id>.json` → `docs/data/<id>.vi.json` |
+| `src/chapters.js` | The episode cut into chapters of one to two minutes on one small topic, each starting at a sentence and keeping that sentence's Chinese, so a fix or join that moves it is named. The last can stop before the outro credits. Pure, tested |
+| `tools/chapters.mjs` | Where chapters are written: `data/chapters/<id>.json` → `docs/data/<id>.chapters.json` |
 | `src/build.js` | Assemble the episode file and index. Written once, via a temp file |
-| `docs/` | GitHub Pages root. Vanilla HTML/CSS/JS, no build step |
+| `docs/` | GitHub Pages root. Vanilla HTML/CSS/JS, no build step. `docs/studied.js` (the studied list: recent, in order, rounded links) is pure and tested |
+
+## Study one chapter at a time
+
+Every episode is cut into chapters of one to two minutes, each on one small topic, with a Chinese and
+a Vietnamese title (`tools/chapters.mjs`). Each shows as a heading above its first line, and all of
+them are listed, collapsed, under the summary. Tapping one puts it in the loop bar and loops it: the
+lines outside it dim, and a bar above the loop shows which pass is playing and how long the chapter
+has been heard. A line tapped inside the chapter plays from there and the loop carries on; ‹ › move to
+the chapter before or after, and ✕ leaves it. The loop bar holds the chapter, so the URL keeps it.
+
+**✓ Học xong** puts the chapter on the list of studied chapters, kept by the server (below) in
+`studied.json` beside its collection, not in Anki, so the phone and the laptop share it. The chapters
+studied carry a ✓, and the episode list counts them. **Nghe lại** (`listen.html`) plays that list back
+for passive listening: the last 7 days or all of it, or one episode in story order, the latest day
+first, shuffled if asked, each chapter once to three times, going round until stopped. One audio
+element plays every episode, and the lock screen's ⏮ ⏭ move between chapters.
 
 ## Tap ＋ Anki, get a card — on the phone too
 

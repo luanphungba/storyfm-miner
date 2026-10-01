@@ -1,0 +1,68 @@
+{
+  "chapters": [
+    {
+      "zh": "二十五岁开始脱发",
+      "vi": "25 tuổi bắt đầu rụng tóc",
+      "from": 0,
+      "to": 35,
+      "start": 0,
+      "end": 87.85
+    },
+    {
+      "zh": "发现自己秃了",
+      "vi": "Phát hiện mình bị hói",
+      "from": 36,
+      "to": 96,
+      "start": 88.16,
+      "end": 192.24
+    },
+    {
+      "zh": "接受脱发，剃了光头",
+      "vi": "Chấp nhận, cạo trọc đầu",
+      "from": 97,
+      "to": 144,
+      "start": 192.24,
+      "end": 279.11
+    },
+    {
+      "zh": "从抵触到想植发",
+      "vi": "Từ phản đối đến muốn cấy tóc",
+      "from": 145,
+      "to": 197,
+      "start": 285.17,
+      "end": 368.37
+    },
+    {
+      "zh": "头皮检测和画发际线",
+      "vi": "Soi da đầu và vẽ chân tóc",
+      "from": 198,
+      "to": 249,
+      "start": 368.93,
+      "end": 469.89
+    },
+    {
+      "zh": "植发的价格和原理",
+      "vi": "Giá và nguyên lý cấy tóc",
+      "from": 250,
+      "to": 292,
+      "start": 470.31,
+      "end": 549.05
+    },
+    {
+      "zh": "取毛囊，种头发",
+      "vi": "Lấy nang tóc, cấy tóc",
+      "from": 293,
+      "to": 355,
+      "start": 550.24,
+      "end": 652.85
+    },
+    {
+      "zh": "重新找回自信",
+      "vi": "Lấy lại tự tin",
+      "from": 356,
+      "to": 408,
+      "start": 659,
+      "end": 749.04
+    }
+  ]
+}

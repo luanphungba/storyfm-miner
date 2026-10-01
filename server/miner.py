@@ -277,11 +277,94 @@ def escape(text):
     return "".join("\\" + c if c in '\\"*_' else c for c in str(text))
 
 
+# ---------- studied chapters ----------
+
+# A studied chapter is matched to the one tapped by its episode and where it starts; this much apart
+# is still the same chapter, after a re-cut nudged its first line.
+SAME_START_S = 0.5
+
+
+def study_day():
+    """Today as Anki counts it, turning at 4:00, so a chapter finished after midnight counts for the
+    evening it was studied in, as its new cards do."""
+    return time.strftime("%Y-%m-%d", time.localtime(time.time() - 4 * 3600))
+
+
+class Studied:
+    """Chapters marked studied in the player, each with the days it was studied, for the list played
+    back later on any device. Not in the collection: it is not Anki's, and a full download from AnkiWeb
+    would wipe it. A small JSON file beside it, read whole and written whole through a temp file."""
+
+    def __init__(self, path):
+        self.path = path
+        self.lock = threading.Lock()
+
+    def read(self):
+        return json.loads(self.path.read_text()) if self.path.exists() else {"chapters": []}
+
+    def write(self, data):
+        temporary = self.path.with_suffix(".tmp")
+        temporary.write_text(json.dumps(data, ensure_ascii=False, indent=1))
+        temporary.replace(self.path)
+
+    @staticmethod
+    def find(chapters, ep, start):
+        return next((c for c in chapters if c["ep"] == ep and abs(c["start"] - start) < SAME_START_S), None)
+
+    def mark(self, chapter):
+        """Studied today: added with today's date, or today's date added to it."""
+        with self.lock:
+            data = self.read()
+            found = self.find(data["chapters"], chapter["ep"], chapter["start"])
+            today = study_day()
+            if found:
+                dates = found["dates"]
+                found.update(chapter)
+                found["dates"] = dates if today in dates else [*dates, today]
+            else:
+                data["chapters"].append({**chapter, "dates": [today]})
+            self.write(data)
+            return data
+
+    def unmark(self, ep, start):
+        """Takes back today's mark, and the chapter with it if today was its only day."""
+        with self.lock:
+            data = self.read()
+            found = self.find(data["chapters"], ep, start)
+            if found:
+                found["dates"] = [d for d in found["dates"] if d != study_day()]
+                if not found["dates"]:
+                    data["chapters"].remove(found)
+                self.write(data)
+            return data
+
+
+def studied_chapter(body):
+    """The chapter as the player sends it, checked: it is played back later exactly as stored."""
+    try:
+        chapter = {
+            "ep": str(body["ep"])[:40],
+            "episode": str(body.get("episode", ""))[:200],
+            "audio": str(body["audio"])[:500],
+            "n": int(body.get("n", 0)),
+            "zh": str(body.get("zh", ""))[:60],
+            "vi": str(body.get("vi", ""))[:120],
+            "start": float(body["start"]),
+            "end": float(body["end"]),
+        }
+    except (KeyError, TypeError, ValueError):
+        raise ApiError(400, "Thiếu thông tin chương.")
+    if not chapter["audio"].startswith("https://") or chapter["end"] <= chapter["start"]:
+        raise ApiError(400, "Chương không hợp lệ.")
+    return chapter
+
+
 # ---------- HTTP ----------
 
 class Api:
-    def __init__(self, anki):
+    def __init__(self, anki, studied):
         self.anki = anki
+        self.studied_chapters = studied
         self.deck = env("ANKI_DECK", "Chinese::Mining")
 
     def health(self, _body):
@@ -331,19 +414,38 @@ class Api:
             self.anki.sync()
         return result
 
+    # The studied chapters never touch the collection, so they skip its lock and its sync.
+
+    def studied(self, _body):
+        return {**self.studied_chapters.read(), "today": study_day()}
+
+    def study(self, body):
+        return {**self.studied_chapters.mark(studied_chapter(body)), "today": study_day()}
+
+    def unstudy(self, body):
+        try:
+            ep, start = str(body["ep"]), float(body["start"])
+        except (KeyError, TypeError, ValueError):
+            raise ApiError(400, "Thiếu thông tin chương.")
+        return {**self.studied_chapters.unmark(ep, start), "today": study_day()}
+
 
 def serve():
     token = env("MINER_TOKEN")
     if len(token) < 32:
         sys.exit("MINER_TOKEN is too short: use `openssl rand -base64 32`.")
     origins = set(env("ALLOWED_ORIGINS", "https://luanphungba.github.io").split(","))
-    api = Api(Anki(Path(env("ANKI_DIR", str(ROOT / "server/data")))))
+    folder = Path(env("ANKI_DIR", str(ROOT / "server/data")))
+    api = Api(Anki(folder), Studied(folder / "studied.json"))
     routes = {
         "/health": api.health,
         "/peek": api.peek,
         "/lookup": api.lookup,
         "/add": api.add,
         "/relearn": api.relearn,
+        "/studied": api.studied,
+        "/study": api.study,
+        "/unstudy": api.unstudy,
     }
     failures = {}  # address -> times of recent wrong tokens
 

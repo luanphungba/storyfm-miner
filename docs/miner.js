@@ -6,47 +6,15 @@
 // The server's address and token are typed in once and kept in this browser only.
 
 import { dailyLimit, esc, formatTime, highlight, noteData, pickSentence, plainText } from './card.js';
-
-const STORAGE_KEY = 'ci-anki-server';
-const REQUEST_TIMEOUT_MS = 60_000;
+import { STORAGE_KEY, call, savedConnection } from './server.js';
 
 /**
- * @typedef {{ url: string, token: string }} Connection
+ * @typedef {import('./server.js').Connection} Connection
  * @typedef {{ word: string, marked: string, context: string[], cue: { start: number, end: number },
  *   episode: { id: string, title: string }, audioSrc: string }} WordContext
  */
 
 const $ = (/** @type {string} */ id) => /** @type {HTMLElement} */ (document.getElementById(id));
-
-// ---------- connection ----------
-
-/** @returns {Connection | null} */
-function savedConnection() {
-  try {
-    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? 'null');
-    return saved?.url && saved?.token ? saved : null;
-  } catch {
-    return null;
-  }
-}
-
-/** POSTs to the server and returns its JSON, or throws with a message worth showing. */
-async function call(/** @type {Connection} */ connection, /** @type {string} */ path, body = {}) {
-  let response;
-  try {
-    response = await fetch(connection.url.replace(/\/+$/, '') + path, {
-      method: 'POST',
-      headers: { Authorization: `Bearer ${connection.token}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify(body),
-      signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
-    });
-  } catch {
-    throw new Error('Không kết nối được server Anki.');
-  }
-  const payload = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(payload.error ?? `Server trả lỗi ${response.status}.`);
-  return payload;
-}
 
 // ---------- pinyin (only fetched once a word is mined: it is the heaviest file on the page) ----------
 
@@ -353,5 +321,5 @@ export function initMiner({ card, close, playLine }) {
     return plus;
   }
 
-  return { button };
+  return { button, connect: openDialog };
 }

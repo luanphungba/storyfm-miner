@@ -18,6 +18,7 @@ import { splitSentence, joinSentences } from './cuts.js';
 import { applyOnsets } from './onsets.js';
 import { assignRoles, speakingTime, narratorShare } from './roles.js';
 import { buildSidecar } from './translations.js';
+import { buildChapters } from './chapters.js';
 
 /** Below this share of cues ending on 。！？ the ASR barely punctuated and the cuts are guesses. */
 const POOR_PUNCTUATION = 0.5;
@@ -83,6 +84,7 @@ export async function buildEpisode(episode, { force = false, resegment = false, 
   });
   await rebuildIndex();
   await rebuildTranslation(episode.id, cues);
+  await rebuildChapters(episode.id, cues);
 
   report(episode.id, cues);
 }
@@ -101,6 +103,23 @@ export async function rebuildTranslation(id, lines) {
   const { missing, stale, misaligned } = result;
   if (missing.length || stale.length || misaligned.length) {
     console.log(`  ⚠ Bản dịch: ${missing.length} câu chưa dịch, ${stale.length} câu đã đổi chữ Hán, ${misaligned.length} câu lệch dòng — node tools/translate.mjs show ${id} --todo`);
+  }
+  return result;
+}
+
+/**
+ * Rewrites the chapters the page loads against the lines just built, naming any chapter a fix or a
+ * join moved, so the list is written again rather than left pointing at the wrong sentence.
+ * @param {string} id
+ * @param {import('./chapters.js').Line[]} lines
+ */
+export async function rebuildChapters(id, lines) {
+  if (!existsSync(paths.chapters(id))) return null;
+  const result = buildChapters(lines, await readJsonOr(paths.chapters(id), {}));
+  await writeJson(paths.chaptersPage(id), result.sidecar);
+  const { lost, changed, long, uncovered } = result;
+  if (lost.length || changed.length || long.length || uncovered) {
+    console.log(`  ⚠ Chương: ${lost.length} chương mất câu đầu, ${changed.length} chương có câu đầu đã đổi chữ, ${long.length} chương quá 2 phút${uncovered ? ', đầu tập chưa thuộc chương nào' : ''} — node tools/chapters.mjs show ${id}`);
   }
   return result;
 }

@@ -1,0 +1,23 @@
+{
+  "episode": "CC1",
+  "chapters": [
+    {
+      "from": 0,
+      "zh": "我是谁，为什么做播客",
+      "vi": "Mình là ai, vì sao làm podcast",
+      "first": "Hello，大家好，欢迎大家来到我们这个瞎扯学中文的Podcast第一期。"
+    },
+    {
+      "from": 9,
+      "zh": "学语言的秘诀：听播客",
+      "vi": "Bí quyết học ngoại ngữ: nghe podcast",
+      "first": "我也认识了周围很多学习中文的朋友，大家都说中文很难学，特别是语音语调，嗯，"
+    },
+    {
+      "from": 19,
+      "zh": "中文还没有这样的播客",
+      "vi": "Tiếng Trung chưa có podcast như vậy",
+      "first": "但是，呃，我的很多中文学习的外国朋友和我反映说，"
+    }
+  ]
+}

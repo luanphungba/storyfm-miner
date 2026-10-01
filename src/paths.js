@@ -20,6 +20,8 @@ export const paths = {
   onsets: (/** @type {string} */ id) => join(ROOT, 'data', 'onsets', `${id}.json`),
   /** The Vietnamese translation and summary, each sentence with the Chinese it was written for. */
   translations: (/** @type {string} */ id) => join(ROOT, 'data', 'translations', `${id}.json`),
+  /** Where each chapter starts and its titles, each with the Chinese it starts at — see src/chapters.js. */
+  chapters: (/** @type {string} */ id) => join(ROOT, 'data', 'chapters', `${id}.json`),
   /** The Bilibili videos added, the counterpart of feed.xml — see src/bilibili.js. */
   bilibili: join(ROOT, 'data', 'bilibili.json'),
   /** The other podcasts added and a snapshot of each one's episodes — see src/podcasts.js. */
@@ -29,5 +31,7 @@ export const paths = {
   episode: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.json`),
   /** What the page loads of the translation — see src/translations.js. */
   vi: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.vi.json`),
+  /** What the page loads of the chapters: each one's lines and audio — see src/chapters.js. */
+  chaptersPage: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.chapters.json`),
   index: join(ROOT, 'docs', 'data', 'index.json'),
 };

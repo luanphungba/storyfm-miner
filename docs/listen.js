@@ -1,0 +1,298 @@
+// @ts-check
+// "Nghe lại": the chapters marked studied in the player, played one after another for passive
+// listening, every episode mixed in and the latest day first. The list lives on the server
+// (server/miner.py), so a chapter studied on the laptop plays on the phone.
+//
+// One audio element plays everything. A chapter of another episode swaps its source rather than
+// start a second player, so a phone with its screen off keeps a single media session going.
+
+import { formatTime } from './card.js';
+import { call, savedConnection } from './server.js';
+import { chapterLink, dayLabel, lastStudied, playlist, shuffled } from './studied.js';
+
+/** @typedef {import('./studied.js').Studied} Studied */
+/** @typedef {{ days: number | null, ep: string, shuffle: boolean, times: number }} Settings */
+
+const RECENT_DAYS = 7;
+/** The filter, shuffle and repeats chosen last time, remembered in this browser. */
+const SETTINGS_KEY = 'ci-listen-settings';
+/** The player's own key, so a speed chosen there carries over. */
+const SPEED_STORAGE_KEY = 'ci-playback-rate';
+/** ⏮ this soon after a chapter starts goes to the one before; later, back to its start. */
+const RESTART_WINDOW_S = 3;
+
+const $ = (/** @type {string} */ id) => /** @type {HTMLElement} */ (document.getElementById(id));
+
+const audio = /** @type {HTMLAudioElement} */ ($('audio'));
+const list = $('playlist');
+const meta = $('meta');
+const episodeFilter = /** @type {HTMLSelectElement} */ ($('filter-episode'));
+
+/** @type {Studied[]} */
+let all = [];
+/** Today as the server counts it: Anki's day, turning at 4:00. */
+let today = '';
+/** @type {Settings} */
+let settings = { days: RECENT_DAYS, ep: '', shuffle: false, times: 1 };
+/** The chapters as shown, in order: a tap on the list plays one of these. */
+/** @type {Studied[]} */
+let shown = [];
+/** What plays: the queue as it stood when play was pressed, where in it, and which pass of the chapter. */
+/** @type {Studied[]} */
+let queue = [];
+let index = -1;
+let pass = 1;
+/** Bumped on every chapter change, so a source still loading for an earlier one is ignored. */
+let ticket = 0;
+
+// ---------- settings ----------
+
+function loadSettings() {
+  try {
+    settings = { ...settings, ...JSON.parse(localStorage.getItem(SETTINGS_KEY) ?? '{}') };
+  } catch {
+    // Storage blocked or garbled: the defaults do.
+  }
+}
+
+function saveSettings() {
+  try {
+    localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
+  } catch {
+    // Not remembered this time; nothing else depends on it.
+  }
+}
+
+function applySpeed() {
+  const rate = Number(localStorage.getItem(SPEED_STORAGE_KEY)) || 1;
+  audio.defaultPlaybackRate = rate;
+  audio.playbackRate = rate;
+}
+
+// ---------- the list ----------
+
+/** Episode titles run to forty characters; the filter only has to tell them apart. */
+const TITLE_LENGTH = 20;
+const shorten = (/** @type {string} */ title) => (title.length > TITLE_LENGTH ? `${title.slice(0, TITLE_LENGTH)}…` : title);
+
+async function load() {
+  const connection = savedConnection();
+  if (!connection) {
+    meta.innerHTML = 'Chưa kết nối server. Mở <a href="index.html">một tập</a>, bấm nút <b>Anki</b> và nhập địa chỉ server cùng token.';
+    return;
+  }
+  try {
+    ({ chapters: all, today } = await call(connection, '/studied'));
+  } catch (error) {
+    meta.textContent = /** @type {Error} */ (error).message;
+    return;
+  }
+  const episodes = new Map(all.map((s) => [s.ep, s.episode]));
+  episodeFilter.append(...[...episodes].sort(([a], [b]) => a.localeCompare(b)).map(([ep, title]) => {
+    const option = document.createElement('option');
+    option.value = ep;
+    option.textContent = shorten(title || ep);
+    return option;
+  }));
+  if (!episodes.has(settings.ep)) settings.ep = '';
+  $('filters').hidden = false;
+  $('play-options').hidden = false;
+  render();
+}
+
+function render() {
+  shown = playlist(all, { today, days: settings.days, ep: settings.ep });
+  const minutes = Math.round(shown.reduce((sum, s) => sum + s.end - s.start, 0) / 60);
+  meta.textContent = shown.length ? `${shown.length} đoạn · ${minutes} phút`
+    : all.length ? 'Không có đoạn nào trong khoảng này.'
+      : 'Chưa có chương nào. Học xong một chương trong player thì bấm "✓ Học xong".';
+
+  list.replaceChildren(...shown.map((s, i) => {
+    const item = document.createElement('li');
+    const button = document.createElement('button');
+    button.className = 'pl-item';
+    button.type = 'button';
+    button.dataset.i = String(i);
+    button.title = s.episode;
+    const line = (/** @type {string} */ className, /** @type {string} */ text) => {
+      const span = document.createElement('span');
+      span.className = className;
+      span.textContent = text;
+      return span;
+    };
+    button.append(
+      line('pl-zh', s.zh),
+      line('pl-vi', s.vi),
+      line('pl-sub', `${s.ep} · ${formatTime(s.end - s.start)} · ${dayLabel(lastStudied(s), today)}`),
+    );
+    item.append(button);
+    return item;
+  }));
+
+  for (const chip of document.querySelectorAll('[data-days]')) {
+    const days = /** @type {HTMLElement} */ (chip).dataset.days;
+    chip.setAttribute('aria-pressed', String((days ? Number(days) : null) === settings.days));
+  }
+  for (const chip of document.querySelectorAll('[data-times]')) {
+    chip.setAttribute('aria-pressed', String(Number(/** @type {HTMLElement} */ (chip).dataset.times) === settings.times));
+  }
+  $('shuffle').setAttribute('aria-pressed', String(settings.shuffle));
+  episodeFilter.value = settings.ep;
+  /** @type {HTMLButtonElement} */ ($('play-all')).disabled = !shown.length;
+  markPlaying();
+}
+
+/** The chapter playing, lit in the list if the filter shows it. */
+function markPlaying() {
+  const playing = queue[index];
+  for (const button of list.querySelectorAll('.pl-item')) {
+    button.toggleAttribute('aria-current', shown[Number(/** @type {HTMLElement} */ (button).dataset.i)] === playing);
+  }
+}
+
+// ---------- playing ----------
+
+/** Plays the chapters shown, from `first` (the first of them when not given). */
+function play(/** @type {Studied | undefined} */ first) {
+  if (!shown.length) return;
+  queue = settings.shuffle ? shuffled(shown, first) : [...shown];
+  index = Math.max(0, first ? queue.indexOf(first) : 0);
+  start();
+}
+
+/** Starts the chapter at `index`, loading its episode's audio first when it is another one. */
+async function start() {
+  const chapter = queue[index];
+  const mine = ++ticket;
+  pass = 1;
+  showNow(chapter);
+  if (audio.src !== chapter.audio) {
+    audio.src = chapter.audio;
+    await new Promise((resolve) => {
+      audio.addEventListener('loadedmetadata', resolve, { once: true });
+      audio.addEventListener('error', resolve, { once: true });
+    });
+    if (mine !== ticket) return;
+    if (audio.error) {
+      $('now-sub').textContent = 'Không tải được audio của tập này.';
+      return;
+    }
+    applySpeed();
+  }
+  audio.currentTime = chapter.start;
+  // A phone may want a tap before it plays; ⏯ is right there.
+  await audio.play().catch(() => {});
+}
+
+/** Moves through the queue, wrapping at either end: passive listening goes round until stopped. */
+function step(/** @type {number} */ delta) {
+  if (!queue.length) return;
+  index = (index + delta + queue.length) % queue.length;
+  start();
+}
+
+function previous() {
+  const chapter = queue[index];
+  if (chapter && audio.currentTime - chapter.start > RESTART_WINDOW_S) audio.currentTime = chapter.start;
+  else step(-1);
+}
+
+function showNow(/** @type {Studied} */ chapter) {
+  $('now').hidden = false;
+  $('now-zh').textContent = chapter.zh;
+  $('now-sub').textContent = `${chapter.vi} · ${chapter.ep}`;
+  /** @type {HTMLAnchorElement} */ ($('open-chapter')).href = chapterLink(chapter);
+  showTime();
+  markPlaying();
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({ title: chapter.zh, artist: chapter.vi, album: chapter.episode });
+  }
+}
+
+function showTime() {
+  const chapter = queue[index];
+  if (!chapter) return;
+  const at = Math.max(0, Math.min(audio.currentTime, chapter.end) - chapter.start);
+  const round = settings.times > 1 ? ` · lượt ${pass}/${settings.times}` : '';
+  $('now-time').textContent = `${index + 1}/${queue.length} · ${formatTime(at)}/${formatTime(chapter.end - chapter.start)}${round}`;
+}
+
+audio.addEventListener('timeupdate', () => {
+  const chapter = queue[index];
+  if (chapter && audio.currentTime >= chapter.end) {
+    if (pass < settings.times) {
+      pass += 1;
+      audio.currentTime = chapter.start;
+    } else {
+      step(1);
+      return;
+    }
+  }
+  showTime();
+});
+
+for (const event of ['play', 'pause']) {
+  audio.addEventListener(event, () => { $('toggle').textContent = audio.paused ? '▶' : '⏸'; });
+}
+
+// ---------- controls ----------
+
+list.addEventListener('click', (event) => {
+  const button = /** @type {HTMLElement | null} */ (/** @type {HTMLElement} */ (event.target).closest('.pl-item'));
+  if (button) play(shown[Number(button.dataset.i)]);
+});
+
+for (const chip of document.querySelectorAll('[data-days]')) {
+  chip.addEventListener('click', () => {
+    const days = /** @type {HTMLElement} */ (chip).dataset.days;
+    settings.days = days ? Number(days) : null;
+    saveSettings();
+    render();
+  });
+}
+
+for (const chip of document.querySelectorAll('[data-times]')) {
+  chip.addEventListener('click', () => {
+    settings.times = Number(/** @type {HTMLElement} */ (chip).dataset.times);
+    saveSettings();
+    render();
+    showTime();
+  });
+}
+
+episodeFilter.addEventListener('change', () => {
+  settings.ep = episodeFilter.value;
+  saveSettings();
+  render();
+});
+
+$('shuffle').addEventListener('click', () => {
+  settings.shuffle = !settings.shuffle;
+  saveSettings();
+  render();
+});
+
+$('play-all').addEventListener('click', () => play(undefined));
+$('prev').addEventListener('click', previous);
+$('next').addEventListener('click', () => step(1));
+$('toggle').addEventListener('click', () => {
+  if (index < 0) play(undefined);
+  else if (audio.paused) audio.play().catch(() => {});
+  else audio.pause();
+});
+
+if ('mediaSession' in navigator) {
+  navigator.mediaSession.setActionHandler('previoustrack', previous);
+  navigator.mediaSession.setActionHandler('nexttrack', () => step(1));
+  navigator.mediaSession.setActionHandler('play', () => { audio.play().catch(() => {}); });
+  navigator.mediaSession.setActionHandler('pause', () => audio.pause());
+}
+
+// The bar is fixed over the bottom of the page; the page keeps that much room under the last chapter.
+const nowBar = $('now');
+new ResizeObserver(() => {
+  document.documentElement.style.setProperty('--player-height', `${nowBar.offsetHeight}px`);
+}).observe(nowBar);
+
+loadSettings();
+await load();

@@ -1,0 +1,28 @@
+{
+  "chapters": [
+    {
+      "zh": "多打几辆，挑辆好车",
+      "vi": "Gọi nhiều xe để chọn xe tốt",
+      "from": 0,
+      "to": 45,
+      "start": 0,
+      "end": 99.12
+    },
+    {
+      "zh": "越挑越打不到车",
+      "vi": "Càng kén càng không gọi được xe",
+      "from": 46,
+      "to": 77,
+      "start": 102.63,
+      "end": 188.02
+    },
+    {
+      "zh": "只能走路回家",
+      "vi": "Đành đi bộ về nhà",
+      "from": 78,
+      "to": 94,
+      "start": 196.42,
+      "end": 260.82
+    }
+  ]
+}

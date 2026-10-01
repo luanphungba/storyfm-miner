@@ -1,0 +1,23 @@
+{
+  "episode": "BV1GMtJ62Eo5",
+  "chapters": [
+    {
+      "from": 0,
+      "zh": "多打几辆，挑辆好车",
+      "vi": "Gọi nhiều xe để chọn xe tốt",
+      "first": "瑟琳娜，你打车了吗？"
+    },
+    {
+      "from": 39,
+      "zh": "越挑越打不到车",
+      "vi": "Càng kén càng không gọi được xe",
+      "first": "我我刚才没注意看，怎么司机的评分才三点八呀？"
+    },
+    {
+      "from": 63,
+      "zh": "只能走路回家",
+      "vi": "Đành đi bộ về nhà",
+      "first": "我车到了，那我就先走了，明天见。"
+    }
+  ]
+}

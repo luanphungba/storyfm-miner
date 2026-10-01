@@ -8,6 +8,7 @@
   --accent: #c0392b;
   --accent-soft: #fdf0ee;
   --narrator: #8b6f3e;
+  --done: #2e7d32;
   --zh-size: 19px;
 }
 
@@ -21,6 +22,7 @@
     --accent: #ff7a6b;
     --accent-soft: #2e2320;
     --narrator: #c2a56b;
+    --done: #66bb6a;
   }
 }
 
@@ -213,6 +215,101 @@ h1 {
 }
 .cue.vi-open .vi, #cues.show-vi .vi { display: block; }
 
+/* ---------- chapters ---------- */
+
+/* A heading above each chapter's first line, in the same columns as the lines: the number where the
+   time is, the titles over the Chinese, the length at the end. The whole heading loops the chapter. */
+.chapter {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) auto;
+  column-gap: 12px;
+  align-items: baseline;
+  width: 100%;
+  margin: 20px 0 4px;
+  padding: 10px 12px 6px;
+  border: 0;
+  border-top: 1px solid var(--line);
+  background: none;
+  color: var(--fg);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  scroll-margin-top: 12px;
+}
+.chapter:first-child { margin-top: 0; }
+.chapter:hover .ch-zh { color: var(--accent); }
+.ch-n { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.ch-n::before { content: "§"; }
+.ch-titles { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 10px; }
+.ch-zh {
+  font-size: 16px;
+  font-weight: 650;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+.ch-vi { color: var(--muted); font-size: 14px; }
+.ch-len { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.chapter.is-current { border-top-color: var(--accent); }
+.chapter.is-current .ch-zh, .chapter.is-current .ch-n { color: var(--accent); }
+
+/* Inside a chapter the rest of the episode steps back, still readable for the line before or after. */
+#cues.has-chapter .cue:not(.in-chapter) { opacity: .4; }
+#cues.has-chapter .chapter:not(.is-current) { opacity: .6; }
+
+.toc { margin: 8px 0 0; padding: 0; list-style: none; }
+.toc-item {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  column-gap: 8px;
+  align-items: baseline;
+  width: 100%;
+  padding: 7px 4px;
+  border: 0;
+  border-top: 1px solid var(--line);
+  background: none;
+  color: var(--fg);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.toc li:first-child .toc-item { border-top: 0; }
+.toc-item .ch-zh { font-size: 15px; }
+.toc-item .ch-vi { font-size: 13px; }
+.toc-item[aria-current] .ch-zh, .toc-item[aria-current] .ch-n { color: var(--accent); }
+
+/* The chapter being looped, above the loop bar: where it is in the episode, which time round, how long. */
+.chapterbar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 720px;
+  margin: 0 auto 8px;
+}
+.chapterbar .chip { height: 30px; padding-inline: 12px; font-size: 16px; line-height: 1; }
+.chapter-now {
+  flex: 1;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.chapter-stats { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.player.has-chapter .loopbar .time-field, .player.has-chapter .loopbar-arrow { display: none; }
+
+/* Studied: a ✓ in place of the § on the heading and in the list, and the button that marks it. */
+.is-studied .ch-n, .is-studied .ch-n::before { color: var(--done); }
+.is-studied .ch-n::before { content: "✓"; }
+#chapter-done { height: 30px; }
+#chapter-done[aria-pressed="true"] { border-color: var(--done); background: none; color: var(--done); }
+
 /* ---------- player ---------- */
 
 .player {
@@ -290,7 +387,7 @@ h1 {
 
 /* Fingers need a taller target, and under 16px iOS zooms the page when a time field is focused. */
 @media (pointer: coarse) {
-  .time-field, #loop-toggle, #loop-clear, .player-toggles .chip { height: 38px; }
+  .time-field, #loop-toggle, #loop-clear, #chapter-done, .player-toggles .chip, .chapterbar .chip { height: 38px; }
   .time-input { width: 76px; font-size: 16px; }
   .time-now { padding: 0 10px; font-size: 13px; }
 }
@@ -554,3 +651,62 @@ h1 {
   cursor: pointer;
 }
 .g-strokes .s-note { color: var(--muted); font-size: 13px; }
+
+/* ---------- Nghe lại: the studied chapters played back (docs/listen.js) ---------- */
+
+.playlist { margin: 0; padding: 0; list-style: none; }
+
+.pl-item {
+  display: grid;
+  row-gap: 2px;
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--fg);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.pl-item:hover { border-color: var(--accent); }
+.pl-item[aria-current] { border-color: var(--accent); background: var(--accent-soft); }
+.pl-zh {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+.pl-item[aria-current] .pl-zh { color: var(--accent); }
+.pl-vi { font-size: 14px; }
+.pl-sub { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+
+.repeat-label { margin-left: 6px; color: var(--muted); font-size: 13px; }
+/* A select is as wide as its longest option; capped, it can never push the page wider than a phone. */
+#filter-episode { min-width: 0; max-width: 100%; }
+
+.now-row, .now-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 720px;
+  margin: 0 auto 8px;
+}
+.now-titles { flex: 1; min-width: 0; }
+.now-zh, .now-sub { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.now-zh {
+  color: var(--accent);
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+.now-sub { color: var(--muted); font-size: 13px; }
+.now-time { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.now-controls .chip { min-width: 52px; height: 40px; font-size: 16px; }
+.now-controls #open-chapter {
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+  font-size: 13px;
+  text-decoration: none;
+}

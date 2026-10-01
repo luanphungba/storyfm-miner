@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Nghe lại</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="wrap">
+  <h1>Nghe lại</h1>
+  <p class="meta" id="meta">Đang tải…</p>
+
+  <div class="toolbar" id="filters" hidden>
+    <button class="chip" type="button" data-days="7" aria-pressed="true">7 ngày</button>
+    <button class="chip" type="button" data-days="" aria-pressed="false">Tất cả</button>
+    <select class="chip" id="filter-episode" aria-label="Chỉ một tập">
+      <option value="">Mọi tập</option>
+    </select>
+    <a class="chip" href="index.html" style="text-decoration:none">← Danh sách</a>
+  </div>
+
+  <div class="toolbar" id="play-options" hidden>
+    <button class="chip is-primary" id="play-all" type="button">▶ Phát</button>
+    <button class="chip" id="shuffle" type="button" aria-pressed="false" title="Phát theo thứ tự ngẫu nhiên">Trộn</button>
+    <span class="repeat-label">Mỗi đoạn</span>
+    <button class="chip" type="button" data-times="1" aria-pressed="true">×1</button>
+    <button class="chip" type="button" data-times="2" aria-pressed="false">×2</button>
+    <button class="chip" type="button" data-times="3" aria-pressed="false">×3</button>
+  </div>
+
+  <ol class="playlist" id="playlist"></ol>
+</div>
+
+<div class="player now-playing" id="now" hidden>
+  <div class="now-row">
+    <div class="now-titles">
+      <div class="now-zh" id="now-zh"></div>
+      <div class="now-sub" id="now-sub"></div>
+    </div>
+    <span class="now-time" id="now-time"></span>
+  </div>
+  <div class="now-controls">
+    <button class="chip" id="prev" type="button" aria-label="Đoạn trước">⏮</button>
+    <button class="chip is-primary" id="toggle" type="button" aria-label="Phát / tạm dừng">⏸</button>
+    <button class="chip" id="next" type="button" aria-label="Đoạn sau">⏭</button>
+    <a class="chip" id="open-chapter" href="#" title="Mở chương này trong player để học lại">Mở trong tập ↗</a>
+  </div>
+  <audio id="audio" preload="metadata"></audio>
+</div>
+
+<script type="module" src="listen.js"></script>
+</body>
+</html>

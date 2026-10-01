@@ -1,0 +1,84 @@
+{
+  "chapters": [
+    {
+      "zh": "爸妈把压岁钱交给我",
+      "vi": "Bố mẹ giao tiền mừng tuổi cho mình",
+      "from": 0,
+      "to": 30,
+      "start": 0,
+      "end": 60.31
+    },
+    {
+      "zh": "一千块花在了手办上",
+      "vi": "Một nghìn tệ tiêu vào mô hình",
+      "from": 31,
+      "to": 55,
+      "start": 61.44,
+      "end": 126.46
+    },
+    {
+      "zh": "爸爸发现钱少了",
+      "vi": "Bố phát hiện tiền vơi đi",
+      "from": 56,
+      "to": 87,
+      "start": 126.5,
+      "end": 180.41
+    },
+    {
+      "zh": "爸爸的暴怒和“反思”",
+      "vi": "Cơn giận và bài \"tự kiểm điểm\" của bố",
+      "from": 88,
+      "to": 120,
+      "start": 184.68,
+      "end": 256.07
+    },
+    {
+      "zh": "W叔叔把事传了出去",
+      "vi": "Chú W đem chuyện đi kể",
+      "from": 121,
+      "to": 159,
+      "start": 257.43,
+      "end": 337.42
+    },
+    {
+      "zh": "我成了“小偷”",
+      "vi": "Mình thành \"kẻ trộm\"",
+      "from": 160,
+      "to": 198,
+      "start": 337.93,
+      "end": 411.14
+    },
+    {
+      "zh": "再也不跟他说话",
+      "vi": "Không bao giờ nói chuyện với chú ấy nữa",
+      "from": 199,
+      "to": 245,
+      "start": 411.59,
+      "end": 503.9
+    },
+    {
+      "zh": "存折不见了，流言还在",
+      "vi": "Sổ tiết kiệm mất, lời đồn vẫn còn",
+      "from": 246,
+      "to": 289,
+      "start": 505.61,
+      "end": 587.3
+    },
+    {
+      "zh": "大院里的名声",
+      "vi": "Tiếng xấu trong khu tập thể",
+      "from": 290,
+      "to": 331,
+      "start": 587.38,
+      "end": 663.39
+    },
+    {
+      "zh": "最怕安检门响",
+      "vi": "Sợ nhất cổng an ninh kêu",
+      "from": 332,
+      "to": 368,
+      "start": 665.03,
+      "end": 743.02
+    }
+  ]
+}

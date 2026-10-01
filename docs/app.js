@@ -10,7 +10,9 @@
 
 import { CONTEXT_LINES, markLine } from './card.js';
 import { initMiner } from './miner.js';
+import { call, savedConnection } from './server.js';
 import { strokeToggle } from './strokes.js';
+import { ceilTenth, findStudied, floorTenth } from './studied.js';
 
 const CUE_LANG = 'zh-Hans';
 const CHANNEL = 'ci-timedtext';
@@ -32,6 +34,9 @@ const episodeId = params.get('ep');
 
 /** @type {{ i: number, s: number, u?: number, start: number, end: number, text: string, speaker: string, role: string }[]} */
 let cues = [];
+/** One .cue row per cue, in order. Not cueBox.children: chapter headings sit between the rows. */
+/** @type {HTMLElement[]} */
+let rows = [];
 /** @type {{ id: string, title: string }} */
 let episode = { id: '', title: '' };
 
@@ -86,6 +91,7 @@ async function load() {
   applyDeepLink();
   loadWords();
   loadTranslation();
+  loadChapters();
 }
 
 /** A Bilibili video is heard here but watched there: the meta line links the original under the
@@ -131,7 +137,7 @@ function showPodcast(/** @type {{ owner?: string, link?: string }} */ data) {
 // ---------- render ----------
 
 function render() {
-  cueBox.replaceChildren(...cues.map((cue) => {
+  rows = cues.map((cue) => {
     const row = document.createElement('div');
     row.className = `cue${cue.role === 'narrator' ? ' is-narrator' : ''}`;
     // ci-start/ci-end, not start/end: the CI extension treats these rows as the native
@@ -159,7 +165,8 @@ function render() {
 
     row.append(time, text, loopButton);
     return row;
-  }));
+  });
+  cueBox.replaceChildren(...rows);
 }
 
 // ---------- words ----------
@@ -185,7 +192,7 @@ function decorate() {
   if (!tokens) return;
   cues.forEach((cue, index) => {
     const spans = tokens[index];
-    const host = cueBox.children[index]?.querySelector('.zh');
+    const host = rows[index]?.querySelector('.zh');
     if (!spans || !host) return;
     const parts = [];
     let at = 0;
@@ -231,7 +238,7 @@ async function loadTranslation() {
   for (const index of cues.keys()) {
     const text = data.lines?.[index];
     if (!text) continue;
-    const row = cueBox.children[index];
+    const row = rows[index];
     const button = document.createElement('button');
     button.className = 'vi-toggle';
     button.type = 'button';
@@ -266,6 +273,200 @@ $('show-vi').addEventListener('click', (event) => {
     }
   });
 });
+
+// ---------- chapters ----------
+
+/** Built offline, one to two minutes each on one small topic — see src/chapters.js. A chapter is what
+ * a day of active listening loops: picked by its topic, looped in the loop bar, the lines outside it
+ * dimmed. The loop bar holds it rather than some state of its own, so the URL keeps it, ↻ Lặp restarts
+ * it, and editing or clearing the fields leaves it. */
+/** @type {{ zh: string, vi: string, from: number, to: number, start: number, end: number }[]} */
+let chapters = [];
+/** The chapter the loop bar holds: which pass of it is playing, and how long it has played this sitting. */
+/** @type {{ n: number, pass: number, seconds: number } | null} */
+let chapter = null;
+/** One heading per chapter, in the transcript above its first line. */
+/** @type {HTMLElement[]} */
+let headings = [];
+
+const chapterBar = $('chapterbar');
+
+async function loadChapters() {
+  const data = await fetch(`data/${episodeId}.chapters.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  if (!data?.chapters?.length) return;
+  chapters = data.chapters;
+
+  const part = (/** @type {string} */ className, /** @type {string} */ text, lang = '') => {
+    const span = document.createElement('span');
+    span.className = className;
+    span.textContent = text;
+    if (lang) span.lang = lang;
+    return span;
+  };
+  const describe = (/** @type {typeof chapters[number]} */ c, /** @type {number} */ n, /** @type {string} */ className) => {
+    const button = document.createElement('button');
+    button.className = className;
+    button.type = 'button';
+    button.dataset.n = String(n);
+    const titles = document.createElement('span');
+    titles.className = 'ch-titles';
+    titles.append(part('ch-zh', c.zh), part('ch-vi', c.vi, 'vi'));
+    button.append(part('ch-n', String(n + 1)), titles, part('ch-len', formatTime(c.end - c.start)));
+    return button;
+  };
+
+  headings = chapters.map((c, n) => {
+    const heading = describe(c, n, 'chapter');
+    heading.title = 'Lặp chương này';
+    rows[c.from]?.before(heading);
+    return heading;
+  });
+  $('chapter-list').replaceChildren(...chapters.map((c, n) => {
+    const item = document.createElement('li');
+    item.append(describe(c, n, 'toc-item'));
+    return item;
+  }));
+  $('chapters').hidden = false;
+  refreshLoopBar(); // a chapter already in the URL
+  showStudied();
+  loadStudied();
+}
+
+/** Puts chapter n in the loop bar and loops it from its start. */
+function selectChapter(/** @type {number} */ n) {
+  const c = chapters[n];
+  if (!c) return;
+  hideGloss();
+  loopStartInput.value = formatTimeField(floorTenth(c.start));
+  loopEndInput.value = formatTimeField(ceilTenth(c.end));
+  refreshLoopBar();
+  startLoop(floorTenth(c.start), ceilTenth(c.end), Infinity, loopToggle);
+  headings[n]?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+}
+
+/** Called with the loop bar's range whenever it changes: a range that is exactly a chapter selects
+ * it, anything else leaves chapter mode. */
+function syncChapter(/** @type {{ start: number, end: number } | null} */ range) {
+  const n = range
+    ? chapters.findIndex((c) => Math.abs(floorTenth(c.start) - range.start) < 0.01 && Math.abs(ceilTenth(c.end) - range.end) < 0.01)
+    : -1;
+  if (n === (chapter?.n ?? -1)) return;
+  chapter = n < 0 ? null : { n, pass: 1, seconds: 0 };
+  // A chapter loops until told otherwise, even when a link to it started a loop of one pass.
+  if (chapter && loop?.button === loopToggle) loop.left = Infinity;
+
+  cueBox.classList.toggle('has-chapter', !!chapter);
+  const c = chapter && chapters[chapter.n];
+  rows.forEach((row, index) => row.classList.toggle('in-chapter', !!c && index >= c.from && index <= c.to));
+  headings.forEach((heading, k) => heading.classList.toggle('is-current', k === chapter?.n));
+  for (const item of document.querySelectorAll('.toc-item')) {
+    item.toggleAttribute('aria-current', Number(/** @type {HTMLElement} */ (item).dataset.n) === chapter?.n);
+  }
+  chapterBar.hidden = !chapter;
+  // The fields would only repeat the chapter's own start and end; ✕ leaves the chapter and brings them back.
+  chapterBar.closest('.player')?.classList.toggle('has-chapter', !!chapter);
+  if (c) $('chapter-title').textContent = `${(chapter?.n ?? 0) + 1}/${chapters.length} · ${c.zh}`;
+  /** @type {HTMLButtonElement} */ ($('chapter-prev')).disabled = !chapter || chapter.n === 0;
+  /** @type {HTMLButtonElement} */ ($('chapter-next')).disabled = !chapter || chapter.n === chapters.length - 1;
+  studyButton.hidden = !chapter;
+  showChapterStats();
+  showStudied();
+}
+
+function showChapterStats() {
+  if (!chapter) return;
+  $('chapter-stats').textContent = `lượt ${chapter.pass} · ${formatTime(chapter.seconds)}`;
+}
+
+/** Counts the time the chapter itself is heard: a line of it looped counts, listening on past its end does not. */
+setInterval(() => {
+  const c = chapter && chapters[chapter.n];
+  if (!chapter || !c || audio.paused || audio.currentTime < c.start - 0.5 || audio.currentTime > c.end + 0.5) return;
+  chapter.seconds += 1;
+  showChapterStats();
+}, 1000);
+
+$('chapter-list').addEventListener('click', (event) => {
+  const item = /** @type {HTMLElement | null} */ (/** @type {HTMLElement} */ (event.target).closest('.toc-item'));
+  if (item) selectChapter(Number(item.dataset.n));
+});
+$('chapter-prev').addEventListener('click', () => chapter && selectChapter(chapter.n - 1));
+$('chapter-next').addEventListener('click', () => chapter && selectChapter(chapter.n + 1));
+$('chapter-now').addEventListener('click', () => {
+  if (chapter) headings[chapter.n]?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+});
+
+// ---------- studied chapters ----------
+
+/** "Học xong" puts the chapter on the server's list of studied chapters, which the "Nghe lại" page
+ * plays back on any device; the chapters studied carry a ✓ here. Without a server the page works
+ * as before and the button asks for one. Pressed again the same day, it takes the mark back. */
+/** @type {import('./studied.js').Studied[]} */
+let studied = [];
+/** Today as the server counts it: Anki's day, turning at 4:00. */
+let studyDay = '';
+
+const studyButton = /** @type {HTMLButtonElement} */ ($('chapter-done'));
+
+async function loadStudied() {
+  const connection = savedConnection();
+  if (!connection) return;
+  try {
+    applyStudied(await call(connection, '/studied'));
+  } catch {
+    // No marks until the server answers; pressing the button says what is wrong.
+  }
+}
+
+function applyStudied(/** @type {{ chapters: import('./studied.js').Studied[], today: string }} */ data) {
+  studied = data.chapters.filter((s) => s.ep === episode.id);
+  studyDay = data.today;
+  showStudied();
+}
+
+const studiedToday = (/** @type {typeof chapters[number]} */ c) =>
+  Boolean(findStudied(studied, episode.id, c.start)?.dates.includes(studyDay));
+
+function showStudied() {
+  const done = chapters.map((c) => Boolean(findStudied(studied, episode.id, c.start)));
+  headings.forEach((heading, n) => heading.classList.toggle('is-studied', done[n]));
+  for (const item of document.querySelectorAll('.toc-item')) {
+    item.classList.toggle('is-studied', done[Number(/** @type {HTMLElement} */ (item).dataset.n)]);
+  }
+  const count = done.filter(Boolean).length;
+  $('chapters-label').textContent = `${chapters.length} chương · mỗi chương một chủ đề nhỏ${count ? ` · đã học ${count}` : ''}`;
+
+  const c = chapter && chapters[chapter.n];
+  const today = Boolean(c && studiedToday(c));
+  studyButton.textContent = today ? '✓ Đã học hôm nay' : '✓ Học xong';
+  studyButton.title = today ? 'Bấm lần nữa để bỏ đánh dấu hôm nay' : 'Đưa chương này vào danh sách Nghe lại';
+  studyButton.setAttribute('aria-pressed', String(today));
+}
+
+async function toggleStudied() {
+  const c = chapter && chapters[chapter.n];
+  if (!chapter || !c) return;
+  const connection = savedConnection();
+  if (!connection) {
+    miner.connect(toggleStudied);
+    return;
+  }
+  studyButton.disabled = true;
+  try {
+    applyStudied(studiedToday(c)
+      ? await call(connection, '/unstudy', { ep: episode.id, start: c.start })
+      : await call(connection, '/study', {
+        ep: episode.id, episode: episode.title, audio: audio.src, n: chapter.n, zh: c.zh, vi: c.vi, start: c.start, end: c.end,
+      }));
+  } catch (error) {
+    studyButton.textContent = /** @type {Error} */ (error).message;
+    setTimeout(showStudied, COPY_FEEDBACK_MS);
+  } finally {
+    studyButton.disabled = false;
+  }
+}
+
+studyButton.addEventListener('click', toggleStudied);
 
 const card = $('gloss');
 let openWord = null;
@@ -322,7 +523,7 @@ function showGloss(/** @type {HTMLElement} */ span) {
 
 /** The tapped word as the miner needs it: its line with the word marked, and the lines around it. */
 function wordContext(/** @type {HTMLElement} */ span) {
-  const index = [...cueBox.children].indexOf(/** @type {Element} */ (span.closest('.cue')));
+  const index = rows.indexOf(/** @type {HTMLElement} */ (span.closest('.cue')));
   const cue = cues[index];
   const word = span.textContent ?? '';
   let start = 0;
@@ -376,10 +577,10 @@ function indexAt(/** @type {number} */ time) {
 
 function highlight(/** @type {number} */ index) {
   if (index === currentIndex) return;
-  cueBox.children[currentIndex]?.classList.remove('is-now');
+  rows[currentIndex]?.classList.remove('is-now');
   currentIndex = index;
 
-  const row = cueBox.children[index];
+  const row = rows[index];
   if (!row) return;
   row.classList.add('is-now');
 
@@ -433,6 +634,10 @@ audio.addEventListener('timeupdate', () => {
     } else {
       loop.left -= 1;
       audio.currentTime = loop.start;
+      if (chapter && loop.button === loopToggle) {
+        chapter.pass += 1;
+        showChapterStats();
+      }
     }
   }
   highlight(indexAt(audio.currentTime));
@@ -442,6 +647,11 @@ audio.addEventListener('timeupdate', () => {
 
 cueBox.addEventListener('click', (event) => {
   const target = /** @type {HTMLElement} */ (event.target);
+  const heading = /** @type {HTMLElement | null} */ (target.closest('.chapter'));
+  if (heading) {
+    selectChapter(Number(heading.dataset.n));
+    return;
+  }
   const row = /** @type {HTMLElement | null} */ (target.closest('.cue'));
   if (!row) return;
 
@@ -482,6 +692,16 @@ cueBox.addEventListener('click', (event) => {
 
   resumeOnClose = false; // this line plays instead
   hideGloss();
+  // A line inside the segment or chapter being drilled plays from there and the loop carries on: it
+  // is a jump back to hear one line again, not leaving. A chapter whose loop was stopped picks it
+  // back up the same way.
+  const segment = loop?.button === loopToggle ? loop : chapter ? loopFieldRange() : null;
+  if (segment && start >= segment.start - 0.05 && end <= segment.end + 0.05) {
+    if (loop?.button !== loopToggle) startLoop(segment.start, segment.end, Infinity, loopToggle);
+    audio.currentTime = start;
+    audio.play();
+    return;
+  }
   stopLoop();
   audio.currentTime = start;
   audio.play();
@@ -540,7 +760,7 @@ function applyDeepLink() {
   const times = Number(params.get('loop')) || 1;
 
   // Safari and mobile refuse play() without a gesture; the controls are right there if it does.
-  audio.addEventListener('loadedmetadata', () => startLoop(start, end, times, loopToggle), { once: true });
+  audio.addEventListener('loadedmetadata', () => startLoop(start, end, chapter ? Infinity : times, loopToggle), { once: true });
 }
 
 // ---------- playback speed (remembered across episodes, for slow-listen study) ----------
@@ -654,6 +874,7 @@ function refreshLoopBar() {
   loopEndInput.setAttribute('aria-invalid', String(endText !== '' && (end === null || (start !== null && end <= start))));
   loopToggle.disabled = !range;
   loopClear.hidden = !startText && !endText;
+  syncChapter(range);
 
   if (range && loop?.button === loopToggle) {
     loop.start = range.start;

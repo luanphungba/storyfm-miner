@@ -19,6 +19,11 @@
     <div id="summary-body" lang="vi"></div>
   </details>
 
+  <details class="summary chapters" id="chapters" hidden>
+    <summary id="chapters-label">Chương</summary>
+    <ol class="toc" id="chapter-list"></ol>
+  </details>
+
   <div class="toolbar">
     <button class="chip" id="filter-all" aria-pressed="true">Tất cả</button>
     <button class="chip" id="filter-storyteller" aria-pressed="false">Chỉ người kể</button>
@@ -35,6 +40,12 @@
 
 <div class="player">
   <div id="gloss" hidden></div>
+  <div class="chapterbar" id="chapterbar" hidden>
+    <button class="chip" id="chapter-prev" type="button" title="Chương trước" aria-label="Chương trước">‹</button>
+    <button class="chapter-now" id="chapter-now" type="button" title="Cuộn tới đầu chương"><span id="chapter-title"></span></button>
+    <span class="chapter-stats" id="chapter-stats" title="Lượt đang nghe · thời gian đã nghe chương này"></span>
+    <button class="chip" id="chapter-next" type="button" title="Chương sau" aria-label="Chương sau">›</button>
+  </div>
   <div class="loopbar" id="loopbar">
     <span class="time-field">
       <input class="time-input" id="loop-start" type="text" inputmode="decimal" placeholder="0:00" aria-label="Điểm bắt đầu lặp">
@@ -47,6 +58,7 @@
     </span>
     <button class="chip" id="loop-toggle" type="button" aria-pressed="false" disabled>↻ Lặp</button>
     <button class="chip" id="loop-clear" type="button" title="Xoá đoạn lặp" hidden>✕</button>
+    <button class="chip" id="chapter-done" type="button" aria-pressed="false" hidden>✓ Học xong</button>
     <span class="player-toggles">
       <a class="chip" id="to-list" href="index.html" title="Về danh sách tập">← Danh sách</a>
       <button class="chip" id="repeat-episode" type="button" aria-pressed="false" title="Hết bài thì phát lại từ đầu">Lặp cả bài</button>

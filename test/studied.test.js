@@ -1,0 +1,52 @@
+// @ts-check
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { chapterLink, dayLabel, findStudied, playlist, shuffled } from '../docs/studied.js';
+
+const studied = (ep, start, dates) => ({ ep, episode: '', audio: 'https://a/x.m4a', n: 0, zh: '', vi: '', start, end: start + 90, dates });
+
+test('a chapter on the page is the studied one starting within half a second of it', () => {
+  const list = [studied('E517', 607.01, ['2026-10-01'])];
+  assert.equal(findStudied(list, 'E517', 607.3), list[0]);
+  assert.equal(findStudied(list, 'E517', 608), undefined);
+  assert.equal(findStudied(list, 'E062', 607.01), undefined);
+});
+
+test('says how long ago a day was', () => {
+  assert.deepEqual(
+    ['2026-10-01', '2026-09-30', '2026-09-24'].map((day) => dayLabel(day, '2026-10-01')),
+    ['hôm nay', 'hôm qua', '7 ngày trước'],
+  );
+});
+
+test('the last seven days count today and go by the latest day a chapter was studied', () => {
+  const list = [studied('E062', 0, ['2026-09-20']), studied('E077', 0, ['2026-09-20', '2026-09-25']), studied('E081', 0, ['2026-09-24'])];
+  assert.deepEqual(playlist(list, { today: '2026-10-01', days: 7 }).map((s) => s.ep), ['E077']);
+  assert.equal(playlist(list, { today: '2026-10-01', days: null }).length, 3);
+});
+
+test('plays the latest day first, and each episode of a day in story order', () => {
+  const list = [
+    studied('E517', 300, ['2026-09-30']),
+    studied('CC2', 90, ['2026-10-01']),
+    studied('E517', 100, ['2026-09-30']),
+    studied('CC2', 10, ['2026-10-01']),
+  ];
+  assert.deepEqual(
+    playlist(list, { today: '2026-10-01', days: null }).map((s) => `${s.ep}@${s.start}`),
+    ['CC2@10', 'CC2@90', 'E517@100', 'E517@300'],
+  );
+  assert.deepEqual(playlist(list, { today: '2026-10-01', days: null, ep: 'E517' }).map((s) => s.start), [100, 300]);
+});
+
+test('shuffles everything but the chapter tapped, which plays first', () => {
+  const items = [1, 2, 3, 4, 5];
+  const once = shuffled(items, 3, () => 0);
+  assert.equal(once[0], 3);
+  assert.deepEqual([...once].sort(), items);
+  assert.deepEqual(items, [1, 2, 3, 4, 5]);
+});
+
+test('links the chapter rounded the way the loop bar holds a chapter', () => {
+  assert.equal(chapterLink(studied('E001-2', 607.01, [])), 'player.html?ep=E001-2&start=607&end=697.1');
+});
