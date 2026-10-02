@@ -47,15 +47,21 @@ export function dayLabel(/** @type {string} */ day, /** @type {string} */ today)
 
 /**
  * The chapters to play: studied within the last `days` days counting today (all of them when
- * null), of one episode when `ep` is given. The latest day comes first, because what was studied
- * yesterday is what most needs hearing again; within a day, each episode in story order.
+ * null), of one episode when `ep` is given. Each episode plays whole and in story order, so a pass
+ * tells its story as it was told, even when its chapters were studied days apart. The episode
+ * studied latest comes first, because what was studied yesterday most needs hearing again.
  * @param {Studied[]} list
  * @param {{ today: string, days: number | null, ep?: string }} filter
  */
 export function playlist(list, { today, days, ep }) {
-  return list
-    .filter((s) => (days === null || daysBetween(lastStudied(s), today) < days) && (!ep || s.ep === ep))
-    .sort((a, b) => lastStudied(b).localeCompare(lastStudied(a)) || a.ep.localeCompare(b.ep) || a.start - b.start);
+  const shown = list.filter((s) => (days === null || daysBetween(lastStudied(s), today) < days) && (!ep || s.ep === ep));
+  /** @type {Map<string, string>} */
+  const latest = new Map();
+  for (const s of shown) {
+    if (lastStudied(s) > (latest.get(s.ep) ?? '')) latest.set(s.ep, lastStudied(s));
+  }
+  const episodeDay = (/** @type {Studied} */ s) => latest.get(s.ep) ?? '';
+  return shown.sort((a, b) => episodeDay(b).localeCompare(episodeDay(a)) || a.ep.localeCompare(b.ep) || a.start - b.start);
 }
 
 /**
@@ -72,6 +78,27 @@ export function shuffled(items, first, random = Math.random) {
     [rest[i], rest[j]] = [rest[j], rest[i]];
   }
   return first === undefined ? rest : [first, ...rest];
+}
+
+/**
+ * The chapters with their episodes shuffled, each episode's chapters still together and in the
+ * order given: a shuffle changes which story comes next, never the order a story is told in. The
+ * episode of `first`, the chapter tapped, comes first, so it plays now.
+ * @template {{ ep: string }} T
+ * @param {T[]} chapters
+ * @param {T | undefined} first
+ * @param {() => number} random
+ */
+export function shuffledByEpisode(chapters, first, random = Math.random) {
+  /** @type {Map<string, T[]>} */
+  const episodes = new Map();
+  for (const chapter of chapters) {
+    let episode = episodes.get(chapter.ep);
+    if (!episode) episodes.set(chapter.ep, (episode = []));
+    episode.push(chapter);
+  }
+  const groups = [...episodes.values()];
+  return shuffled(groups, groups.find((episode) => first !== undefined && episode.includes(first)), random).flat();
 }
 
 /** The player opened on the chapter, looped: rounded as the loop bar holds a chapter, so the player

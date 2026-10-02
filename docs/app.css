@@ -682,6 +682,8 @@ h1 {
 .pl-item[aria-current] .pl-zh { color: var(--accent); }
 .pl-vi { font-size: 14px; }
 .pl-sub { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.pl-episode { margin: 18px 0 8px; color: var(--muted); font-size: 13px; font-weight: 600; }
+.pl-episode:first-child { margin-top: 4px; }
 
 .repeat-label { margin-left: 6px; color: var(--muted); font-size: 13px; }
 /* A select is as wide as its longest option; capped, it can never push the page wider than a phone. */

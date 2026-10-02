@@ -87,8 +87,10 @@ the chapter before or after, and ✕ leaves it. The loop bar holds the chapter, 
 **✓ Học xong** puts the chapter on the list of studied chapters, kept by the server (below) in
 `studied.json` beside its collection, not in Anki, so the phone and the laptop share it. The chapters
 studied carry a ✓, and the episode list counts them. **Nghe lại** (`listen.html`) plays that list back
-for passive listening: the last 7 days or all of it, or one episode in story order, the latest day
-first, shuffled if asked, each chapter once to three times, going round until stopped. One audio
+for passive listening: the last 7 days or all of it, or one episode. Each episode plays whole and in
+story order, even when its chapters were studied days apart, the one studied latest first; a shuffle
+moves whole episodes, never the chapters within one. Each chapter plays once to three times, going
+round until stopped. One audio
 element plays every episode, and the lock screen's ⏮ ⏭ move between chapters.
 
 ## Tap ＋ Anki, get a card — on the phone too

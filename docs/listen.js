@@ -1,6 +1,6 @@
 // @ts-check
 // "Nghe lại": the chapters marked studied in the player, played one after another for passive
-// listening, every episode mixed in and the latest day first. The list lives on the server
+// listening, each episode whole and in story order, the one studied latest first. The list lives on the server
 // (server/miner.py), so a chapter studied on the laptop plays on the phone.
 //
 // One audio element plays everything. A chapter of another episode swaps its source rather than
@@ -10,7 +10,7 @@ import { formatTime } from './card.js';
 import { meterListening, showHours } from './meter.js';
 import { formatPasses, heardTotals, passes } from './progress.js';
 import { call, savedConnection } from './server.js';
-import { ceilTenth, chapterLink, dayLabel, floorTenth, lastStudied, playlist, shuffled } from './studied.js';
+import { ceilTenth, chapterLink, dayLabel, floorTenth, lastStudied, playlist, shuffledByEpisode } from './studied.js';
 
 /** @typedef {import('./studied.js').Studied} Studied */
 /** @typedef {import('./progress.js').Heard} Heard */
@@ -115,30 +115,8 @@ function render() {
     : all.length ? 'Không có đoạn nào trong khoảng này.'
       : 'Chưa có chương nào. Học xong một chương trong player thì bấm "✓ Học xong".';
 
-  list.replaceChildren(...shown.map((s, i) => {
-    const item = document.createElement('li');
-    const button = document.createElement('button');
-    button.className = 'pl-item';
-    button.type = 'button';
-    button.dataset.i = String(i);
-    button.title = s.episode;
-    const line = (/** @type {string} */ className, /** @type {string} */ text) => {
-      const span = document.createElement('span');
-      span.className = className;
-      span.textContent = text;
-      return span;
-    };
-    button.append(
-      line('pl-zh', s.zh),
-      line('pl-vi', s.vi),
-      line('pl-sub', [
-        s.ep, formatTime(s.end - s.start), dayLabel(lastStudied(s), today),
-        formatPasses(passes(heardTotals(heard, s.ep, s.start).audio, s.end - s.start)),
-      ].join(' · ')),
-    );
-    item.append(button);
-    return item;
-  }));
+  list.replaceChildren(...shown.flatMap((s, i) => (
+    s.ep === shown[i - 1]?.ep ? [chapterItem(s, i)] : [episodeHeading(s), chapterItem(s, i)])));
 
   for (const chip of document.querySelectorAll('[data-days]')) {
     const days = /** @type {HTMLElement} */ (chip).dataset.days;
@@ -151,6 +129,39 @@ function render() {
   episodeFilter.value = settings.ep;
   /** @type {HTMLButtonElement} */ ($('play-all')).disabled = !shown.length;
   markPlaying();
+}
+
+/** The episode's title above its chapters: the list plays it as one story. */
+function episodeHeading(/** @type {Studied} */ s) {
+  const item = document.createElement('li');
+  item.className = 'pl-episode';
+  item.textContent = `${s.episode || s.ep} · ${s.ep}`;
+  return item;
+}
+
+/** One chapter, tapped to play from it: `i` is where it stands in the chapters shown. */
+function chapterItem(/** @type {Studied} */ s, /** @type {number} */ i) {
+  const item = document.createElement('li');
+  const button = document.createElement('button');
+  button.className = 'pl-item';
+  button.type = 'button';
+  button.dataset.i = String(i);
+  const line = (/** @type {string} */ className, /** @type {string} */ text) => {
+    const span = document.createElement('span');
+    span.className = className;
+    span.textContent = text;
+    return span;
+  };
+  button.append(
+    line('pl-zh', s.zh),
+    line('pl-vi', s.vi),
+    line('pl-sub', [
+      `chương ${s.n + 1}`, formatTime(s.end - s.start), dayLabel(lastStudied(s), today),
+      formatPasses(passes(heardTotals(heard, s.ep, s.start).audio, s.end - s.start)),
+    ].join(' · ')),
+  );
+  item.append(button);
+  return item;
 }
 
 /** The chapter playing, lit in the list if the filter shows it. */
@@ -166,7 +177,7 @@ function markPlaying() {
 /** Plays the chapters shown, from `first` (the first of them when not given). */
 function play(/** @type {Studied | undefined} */ first) {
   if (!shown.length) return;
-  queue = settings.shuffle ? shuffled(shown, first) : [...shown];
+  queue = settings.shuffle ? shuffledByEpisode(shown, first) : [...shown];
   index = Math.max(0, first ? queue.indexOf(first) : 0);
   start();
 }
@@ -220,17 +231,21 @@ function showNow(/** @type {Studied} */ chapter) {
   }
 }
 
+/** Until a new source has loaded, Chrome can still report the position asked of the last one: ⏭
+ * twice on a slow network read the last episode's 190 s as the end of the next chapter, and skipped it. */
+const loaded = () => audio.readyState >= HTMLMediaElement.HAVE_METADATA;
+
 function showTime() {
   const chapter = queue[index];
   if (!chapter) return;
-  const at = Math.max(0, Math.min(audio.currentTime, chapter.end) - chapter.start);
+  const at = loaded() ? Math.max(0, Math.min(audio.currentTime, chapter.end) - chapter.start) : 0;
   const round = settings.times > 1 ? ` · lượt ${pass}/${settings.times}` : '';
   $('now-time').textContent = `${index + 1}/${queue.length} · ${formatTime(at)}/${formatTime(chapter.end - chapter.start)}${round}`;
 }
 
 audio.addEventListener('timeupdate', () => {
   const chapter = queue[index];
-  if (chapter && audio.currentTime >= chapter.end) {
+  if (chapter && loaded() && audio.currentTime >= chapter.end) {
     if (pass < settings.times) {
       pass += 1;
       audio.currentTime = chapter.start;

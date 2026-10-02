@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { chapterLink, dayLabel, findStudied, playlist, shuffled } from '../docs/studied.js';
+import { chapterLink, dayLabel, findStudied, playlist, shuffled, shuffledByEpisode } from '../docs/studied.js';
 
 const studied = (ep, start, dates) => ({ ep, episode: '', audio: 'https://a/x.m4a', n: 0, zh: '', vi: '', start, end: start + 90, dates });
 
@@ -25,7 +25,22 @@ test('the last seven days count today and go by the latest day a chapter was stu
   assert.equal(playlist(list, { today: '2026-10-01', days: null }).length, 3);
 });
 
-test('plays the latest day first, and each episode of a day in story order', () => {
+test('plays an episode whole and in story order, though its chapters were studied days apart', () => {
+  const list = [
+    studied('CC1', 60, ['2026-10-02']),
+    studied('CC2', 190, ['2026-10-02']),
+    studied('CC1', 6, ['2026-10-01']),
+    studied('E062', 0, ['2026-09-30']),
+    studied('CC2', 9, ['2026-10-01']),
+    studied('CC1', 121, ['2026-10-02']),
+  ];
+  assert.deepEqual(
+    playlist(list, { today: '2026-10-02', days: null }).map((s) => `${s.ep}@${s.start}`),
+    ['CC1@6', 'CC1@60', 'CC1@121', 'CC2@9', 'CC2@190', 'E062@0'],
+  );
+});
+
+test('plays the episode studied latest first, and each episode in story order', () => {
   const list = [
     studied('E517', 300, ['2026-09-30']),
     studied('CC2', 90, ['2026-10-01']),
@@ -45,6 +60,27 @@ test('shuffles everything but the chapter tapped, which plays first', () => {
   assert.equal(once[0], 3);
   assert.deepEqual([...once].sort(), items);
   assert.deepEqual(items, [1, 2, 3, 4, 5]);
+});
+
+test('a shuffle moves whole episodes, each still in story order, the tapped one first', () => {
+  const shown = playlist([
+    studied('CC1', 6, ['2026-10-01']), studied('CC1', 60, ['2026-10-02']), studied('CC1', 121, ['2026-10-02']),
+    studied('CC2', 9, ['2026-10-01']), studied('CC2', 93, ['2026-10-01']), studied('CC2', 190, ['2026-10-02']),
+    studied('E001-2', 0, ['2026-10-02']),
+  ], { today: '2026-10-02', days: null });
+  const tapped = shown.find((s) => s.ep === 'CC2' && s.start === 93);
+  assert.deepEqual(
+    shuffledByEpisode(shown, tapped, () => 0).map((s) => `${s.ep}@${s.start}`),
+    ['CC2@9', 'CC2@93', 'CC2@190', 'E001-2@0', 'CC1@6', 'CC1@60', 'CC1@121'],
+  );
+  for (let round = 0; round < 20; round += 1) {
+    const queue = shuffledByEpisode(shown, undefined);
+    const episodes = queue.map((s) => s.ep).filter((ep, i, all) => ep !== all[i - 1]);
+    assert.deepEqual([...episodes].sort(), ['CC1', 'CC2', 'E001-2']);
+    for (const ep of episodes) {
+      assert.deepEqual(queue.filter((s) => s.ep === ep), shown.filter((s) => s.ep === ep));
+    }
+  }
 });
 
 test('links the chapter rounded the way the loop bar holds a chapter', () => {
