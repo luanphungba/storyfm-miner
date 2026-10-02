@@ -793,6 +793,9 @@ const SPEED_STORAGE_KEY = 'ci-playback-rate';
 const speedButtons = [...document.querySelectorAll('.speed')];
 
 function setRate(/** @type {number} */ rate) {
+  // Loading a source resets the speed to the default one, and the remembered speed is set before
+  // the episode's source is: as the default too, it survives the load.
+  audio.defaultPlaybackRate = rate;
   audio.playbackRate = rate;
   for (const button of speedButtons) {
     button.setAttribute('aria-pressed', String(Number(button.dataset.rate) === rate));
