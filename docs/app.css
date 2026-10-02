@@ -712,3 +712,97 @@ h1 {
   font-size: 13px;
   text-decoration: none;
 }
+
+/* ---------- Thống kê: the dashboard (docs/stats.js), and the hours line linking to it ---------- */
+
+/* The two kinds of listening, as the chart and its keys colour them: categorical slots 1 and 2,
+   checked for colour-blind separation on these surfaces in both modes. */
+:root {
+  --series-player: #2a78d6;
+  --series-listen: #eb6834;
+  --meter-track: #cde2fb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --series-player: #3987e5;
+    --series-listen: #d95926;
+    --meter-track: #1f3550;
+  }
+}
+
+.hours { display: block; text-decoration: none; }
+.hours strong { color: var(--fg); font-weight: 600; }
+.hours::after { content: " ›"; }
+
+.stat-card {
+  margin: 0 0 16px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+}
+.stat-card h2 { margin: 0 0 12px; font-size: 16px; font-weight: 600; }
+.stat-card .toolbar { margin-bottom: 12px; }
+.stat-card .note { margin: 0 0 12px; font-size: 13px; }
+
+.hero-label { color: var(--muted); font-size: 14px; }
+.hero { font-size: 48px; line-height: 1.15; font-weight: 650; letter-spacing: -0.5px; }
+.hero-split { margin-top: 2px; color: var(--muted); font-size: 14px; }
+
+.tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 16px; }
+.tile { padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; }
+.tile-label { color: var(--muted); font-size: 12px; line-height: 1.3; }
+.tile-value { margin-top: 2px; font-size: 22px; font-weight: 600; line-height: 1.3; }
+
+.goal-figure { margin-bottom: 8px; }
+.goal-value { font-size: 28px; font-weight: 650; }
+.goal-of { color: var(--muted); font-size: 14px; }
+.goal-note { margin: 8px 0 0; color: var(--muted); font-size: 14px; }
+
+.meter { height: 10px; border-radius: 999px; background: var(--meter-track); overflow: hidden; }
+.meter.is-thin { height: 4px; margin-top: 8px; }
+.meter-fill { height: 100%; border-radius: 999px; background: var(--series-player); }
+
+.chart { position: relative; margin: 0; }
+.chart svg { display: block; width: 100%; overflow: visible; }
+.chart .grid { stroke: var(--line); stroke-width: 1; }
+.chart .tick { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.chart .seg-player { fill: var(--series-player); }
+.chart .seg-listen { fill: var(--series-listen); }
+.chart .hit { fill: transparent; cursor: pointer; outline: none; }
+.chart .col { transition: opacity .15s; }
+.chart.has-hot .col:not(.is-hot) { opacity: .4; }
+
+.legend { display: flex; gap: 16px; margin-bottom: 8px; color: var(--muted); font-size: 13px; }
+.key { display: inline-block; width: 10px; height: 10px; margin-right: 6px; border-radius: 2px; vertical-align: -1px; }
+.key-player { background: var(--series-player); }
+.key-listen { background: var(--series-listen); }
+
+.tooltip {
+  position: absolute;
+  z-index: 1;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 4px 16px rgb(0 0 0 / .12);
+  font-size: 13px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.tt-day, .tt-sub { color: var(--muted); font-size: 12px; }
+.tt-value { font-size: 16px; font-weight: 650; }
+.line-key { display: inline-block; width: 12px; height: 2px; margin-right: 6px; vertical-align: middle; }
+.line-key.key-player { background: var(--series-player); }
+.line-key.key-listen { background: var(--series-listen); }
+
+.day-table { width: 100%; margin-top: 12px; border-collapse: collapse; font-size: 14px; }
+.day-table th { padding: 6px 4px; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 12px; font-weight: 500; text-align: left; }
+.day-table td { padding: 8px 4px; border-bottom: 1px solid var(--line); vertical-align: top; font-variant-numeric: tabular-nums; }
+.day-table .num { text-align: right; }
+.day-table .sub { color: var(--muted); font-size: 12px; }
+
+a.pl-item { color: inherit; text-decoration: none; }
+.pl-stat { font-size: 13px; font-weight: 600; }
+.pl-done { color: var(--done); }

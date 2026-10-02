@@ -9,6 +9,7 @@
 // with CSS rather than removing them.
 
 import { CONTEXT_LINES, markLine } from './card.js';
+import { meterListening } from './meter.js';
 import { initMiner } from './miner.js';
 import { call, savedConnection } from './server.js';
 import { strokeToggle } from './strokes.js';
@@ -984,4 +985,10 @@ addEventListener('message', (event) => {
   }
 });
 
+meterListening(audio, 'player', {
+  where: (position) => ({
+    ep: episode.id,
+    start: chapters.find((c) => position >= floorTenth(c.start) && position < ceilTenth(c.end))?.start ?? null,
+  }),
+});
 await load();

@@ -76,6 +76,6 @@ export function shuffled(items, first, random = Math.random) {
 
 /** The player opened on the chapter, looped: rounded as the loop bar holds a chapter, so the player
  * recognises the range as that chapter. */
-export function chapterLink(/** @type {Studied} */ s) {
+export function chapterLink(/** @type {Pick<Studied, 'ep' | 'start' | 'end'>} */ s) {
   return `player.html?ep=${encodeURIComponent(s.ep)}&start=${floorTenth(s.start)}&end=${ceilTenth(s.end)}`;
 }

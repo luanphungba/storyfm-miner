@@ -7,10 +7,13 @@
 // start a second player, so a phone with its screen off keeps a single media session going.
 
 import { formatTime } from './card.js';
+import { meterListening, showHours } from './meter.js';
+import { formatPasses, heardTotals, passes } from './progress.js';
 import { call, savedConnection } from './server.js';
-import { chapterLink, dayLabel, lastStudied, playlist, shuffled } from './studied.js';
+import { ceilTenth, chapterLink, dayLabel, floorTenth, lastStudied, playlist, shuffled } from './studied.js';
 
 /** @typedef {import('./studied.js').Studied} Studied */
+/** @typedef {import('./progress.js').Heard} Heard */
 /** @typedef {{ days: number | null, ep: string, shuffle: boolean, times: number }} Settings */
 
 const RECENT_DAYS = 7;
@@ -30,6 +33,9 @@ const episodeFilter = /** @type {HTMLSelectElement} */ ($('filter-episode'));
 
 /** @type {Studied[]} */
 let all = [];
+/** How much of each chapter has been heard, for its passes in the list. */
+/** @type {Heard[]} */
+let heard = [];
 /** Today as the server counts it: Anki's day, turning at 4:00. */
 let today = '';
 /** @type {Settings} */
@@ -81,12 +87,14 @@ async function load() {
     meta.innerHTML = 'Chưa kết nối server. Mở <a href="index.html">một tập</a>, bấm nút <b>Anki</b> và nhập địa chỉ server cùng token.';
     return;
   }
+  const listened = call(connection, '/listened').catch(() => null);
   try {
     ({ chapters: all, today } = await call(connection, '/studied'));
   } catch (error) {
     meta.textContent = /** @type {Error} */ (error).message;
     return;
   }
+  heard = (await listened)?.chapters ?? [];
   const episodes = new Map(all.map((s) => [s.ep, s.episode]));
   episodeFilter.append(...[...episodes].sort(([a], [b]) => a.localeCompare(b)).map(([ep, title]) => {
     const option = document.createElement('option');
@@ -123,7 +131,10 @@ function render() {
     button.append(
       line('pl-zh', s.zh),
       line('pl-vi', s.vi),
-      line('pl-sub', `${s.ep} · ${formatTime(s.end - s.start)} · ${dayLabel(lastStudied(s), today)}`),
+      line('pl-sub', [
+        s.ep, formatTime(s.end - s.start), dayLabel(lastStudied(s), today),
+        formatPasses(passes(heardTotals(heard, s.ep, s.start).audio, s.end - s.start)),
+      ].join(' · ')),
     );
     item.append(button);
     return item;
@@ -294,5 +305,15 @@ new ResizeObserver(() => {
   document.documentElement.style.setProperty('--player-height', `${nowBar.offsetHeight}px`);
 }).observe(nowBar);
 
+meterListening(audio, 'listen', {
+  // By the playhead, not the queue: at a switch the queue has moved on while the playhead still
+  // stands at the end of the chapter just heard.
+  where: (position) => {
+    const ep = queue[index]?.ep ?? '';
+    const playing = all.find((s) => s.ep === ep && position >= floorTenth(s.start) && position < ceilTenth(s.end));
+    return { ep, start: playing?.start ?? null };
+  },
+  onReport: (days) => showHours($('hours'), days),
+});
 loadSettings();
 await load();

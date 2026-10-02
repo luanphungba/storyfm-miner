@@ -18,6 +18,7 @@ import getpass
 import hmac
 import json
 import os
+import sqlite3
 import sys
 import threading
 import time
@@ -272,6 +273,15 @@ class Anki:
             "waiting": len(self.col.find_cards(f"{in_deck} is:new -is:suspended -is:buried")),
         }
 
+    def added_days(self, deck):
+        """How many notes went into deck on each day. A note's id is the moment it was made, in
+        milliseconds, so this needs nothing but the ids."""
+        days = {}
+        for note_id in self.col.find_notes(f'"deck:{escape(deck)}"'):
+            day = study_day(note_id / 1000)
+            days[day] = days.get(day, 0) + 1
+        return days
+
 
 def escape(text):
     return "".join("\\" + c if c in '\\"*_' else c for c in str(text))
@@ -284,10 +294,10 @@ def escape(text):
 SAME_START_S = 0.5
 
 
-def study_day():
+def study_day(moment=None):
     """Today as Anki counts it, turning at 4:00, so a chapter finished after midnight counts for the
-    evening it was studied in, as its new cards do."""
-    return time.strftime("%Y-%m-%d", time.localtime(time.time() - 4 * 3600))
+    evening it was studied in, as its new cards do. Or the day of another moment, in epoch seconds."""
+    return time.strftime("%Y-%m-%d", time.localtime((time.time() if moment is None else moment) - 4 * 3600))
 
 
 class Studied:
@@ -359,12 +369,111 @@ def studied_chapter(body):
     return chapter
 
 
+# ---------- listening hours ----------
+
+LISTENING_PAGES = {"player", "listen"}
+DAY_S = 24 * 3600
+# The player's fastest speed, so a day of listening holds at most twice a day of audio.
+MAX_RATE = 2
+
+
+class ListeningLog:
+    """The time the pages played audio (see docs/meter.js), toward a goal of a thousand hours, and the
+    chapter it was spent on. Each page load sends its running totals, one row per day and chapter it
+    played, and a row is only ever raised to what is sent, never lowered or removed: two devices
+    playing at once each add rows of their own, and a report sent twice, or overtaken by a later one,
+    counts once.
+
+    SQLite, where the studied chapters are a JSON file: these rows grow by the minute, and a report
+    should write only its own rows, all of them or none."""
+
+    def __init__(self, path):
+        self.db = sqlite3.connect(path, check_same_thread=False)
+        self.lock = threading.Lock()
+        with self.lock, self.db:
+            self.db.execute(
+                """CREATE TABLE IF NOT EXISTS listened (
+                    session TEXT NOT NULL,  -- one page load
+                    day TEXT NOT NULL,      -- YYYY-MM-DD, as study_day counts it
+                    page TEXT NOT NULL,     -- player or listen
+                    ep TEXT NOT NULL,
+                    start REAL,             -- the chapter's start; NULL between chapters
+                    seconds REAL NOT NULL,  -- time spent listening
+                    audio REAL NOT NULL     -- audio heard: that time times the speed
+                )"""
+            )
+            self.db.execute("CREATE INDEX IF NOT EXISTS listened_by_session ON listened (session, day)")
+
+    def record(self, entries):
+        """Raises each row to what was sent, adds the rows not seen before, and returns the hours per day."""
+        with self.lock:
+            with self.db:
+                for entry in entries:
+                    raised = self.db.execute(
+                        "UPDATE listened SET seconds = MAX(seconds, :seconds), audio = MAX(audio, :audio)"
+                        " WHERE session = :session AND day = :day AND ep = :ep AND start IS :start",
+                        entry,
+                    ).rowcount
+                    if not raised:
+                        self.db.execute(
+                            "INSERT INTO listened VALUES (:session, :day, :page, :ep, :start, :seconds, :audio)", entry
+                        )
+            return self.days()
+
+    def days(self):
+        """Seconds spent listening per day and page: {"2026-10-02": {"player": 2400.0, "listen": 1920.0}}.
+        The caller holds the lock."""
+        days = {}
+        for day, page, seconds in self.db.execute("SELECT day, page, SUM(seconds) FROM listened GROUP BY day, page"):
+            days.setdefault(day, {})[page] = round(seconds, 1)
+        return days
+
+    def summary(self):
+        """What the dashboard shows: the days, and each chapter heard with how long, how much of its audio
+        (its passes, whatever the speed) and on how many days."""
+        with self.lock:
+            chapters = [
+                {"ep": ep, "start": start, "seconds": round(seconds, 1), "audio": round(audio, 1), "days": days, "last": last}
+                for ep, start, seconds, audio, days, last in self.db.execute(
+                    "SELECT ep, start, SUM(seconds), SUM(audio), COUNT(DISTINCT day), MAX(day) FROM listened"
+                    " WHERE start IS NOT NULL GROUP BY ep, start"
+                )
+            ]
+            return {"days": self.days(), "chapters": chapters}
+
+
+def listened_entry(entry):
+    """One page load's count for one day and chapter, as the page sends it, checked."""
+    try:
+        checked = {
+            "session": str(entry["session"])[:64],
+            "day": str(entry["day"]),
+            "page": str(entry["page"]),
+            "ep": str(entry.get("ep", ""))[:40],
+            "start": None if entry.get("start") is None else float(entry["start"]),
+            "seconds": round(float(entry["seconds"]), 1),
+            "audio": round(float(entry["audio"]), 1),
+        }
+        time.strptime(checked["day"], "%Y-%m-%d")
+    except (AttributeError, KeyError, TypeError, ValueError):
+        raise ApiError(400, "Thiếu thông tin giờ nghe.")
+    if (
+        checked["page"] not in LISTENING_PAGES
+        or not 0 <= checked["seconds"] <= DAY_S
+        or not 0 <= checked["audio"] <= MAX_RATE * DAY_S
+        or (checked["start"] is not None and not 0 <= checked["start"] <= DAY_S)
+    ):
+        raise ApiError(400, "Giờ nghe không hợp lệ.")
+    return checked
+
+
 # ---------- HTTP ----------
 
 class Api:
-    def __init__(self, anki, studied):
+    def __init__(self, anki, studied, listening_log):
         self.anki = anki
         self.studied_chapters = studied
+        self.listening_log = listening_log
         self.deck = env("ANKI_DECK", "Chinese::Mining")
 
     def health(self, _body):
@@ -429,6 +538,23 @@ class Api:
             raise ApiError(400, "Thiếu thông tin chương.")
         return {**self.studied_chapters.unmark(ep, start), "today": study_day()}
 
+    def listening(self, body):
+        """Records what the pages heard, if they send any, and returns the hours per day."""
+        entries = body.get("entries", [])
+        if not isinstance(entries, list):
+            raise ApiError(400, "Thiếu thông tin giờ nghe.")
+        return {"days": self.listening_log.record([listened_entry(entry) for entry in entries])}
+
+    def listened(self, _body):
+        return self.listening_log.summary()
+
+    def words(self, _body):
+        """The notes added each day, for the dashboard; synced first, so a word added on the desktop
+        counts too."""
+        self.sync_quietly()
+        with self.anki.lock:
+            return {"days": self.anki.added_days(self.deck), "today": self.anki.today(self.deck)}
+
 
 def serve():
     token = env("MINER_TOKEN")
@@ -436,7 +562,7 @@ def serve():
         sys.exit("MINER_TOKEN is too short: use `openssl rand -base64 32`.")
     origins = set(env("ALLOWED_ORIGINS", "https://luanphungba.github.io").split(","))
     folder = Path(env("ANKI_DIR", str(ROOT / "server/data")))
-    api = Api(Anki(folder), Studied(folder / "studied.json"))
+    api = Api(Anki(folder), Studied(folder / "studied.json"), ListeningLog(folder / "listening.db"))
     routes = {
         "/health": api.health,
         "/peek": api.peek,
@@ -446,6 +572,9 @@ def serve():
         "/studied": api.studied,
         "/study": api.study,
         "/unstudy": api.unstudy,
+        "/listening": api.listening,
+        "/listened": api.listened,
+        "/words": api.words,
     }
     failures = {}  # address -> times of recent wrong tokens
 

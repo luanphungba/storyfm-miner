@@ -10,9 +10,11 @@
 <body>
 <div class="wrap">
   <h1>故事FM</h1>
+  <a class="meta hours" id="hours" href="stats.html" title="Xem thống kê" hidden></a>
   <p class="meta" id="meta">Đang tải…</p>
   <div class="toolbar">
     <a class="chip" href="listen.html" style="text-decoration:none" title="Phát lại các chương đã học">▶ Nghe lại</a>
+    <a class="chip" href="stats.html" style="text-decoration:none" title="Giờ nghe, chương và từ mỗi ngày">Thống kê</a>
   </div>
   <div id="list"></div>
   <div id="podcasts"></div>
@@ -21,6 +23,7 @@
 </div>
 
 <script type="module">
+  import { report, showHours } from './meter.js';
   import { call, savedConnection } from './server.js';
 
   const formatDuration = (seconds) =>
@@ -52,6 +55,7 @@
     meta.textContent = 'Chưa có tập nào. Chạy `storyfm add <mã tập>` rồi tải lại trang.';
   }
   showStudied();
+  showListening();
 
   function toLink(episode) {
     const link = document.createElement('a');
@@ -73,6 +77,14 @@
       const studied = counts.get(new URL(link.href).searchParams.get('ep'))?.length;
       if (studied) link.querySelector('.sub').append(` · đã học ${studied} chương`);
     }
+  }
+
+  /** Today's listening and the way to a thousand hours, sending first what a page left unsent. */
+  async function showListening() {
+    const connection = savedConnection();
+    if (!connection) return;
+    const days = await report(connection).catch(() => null);
+    if (days) showHours(document.getElementById('hours'), days);
   }
 </script>
 </body>

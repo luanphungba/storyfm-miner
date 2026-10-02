@@ -10,6 +10,7 @@ tools/.cache/
 server/data/
 server/.env
 server/.venv/
+__pycache__/
 
 # Bilibili audio lives on Cloudflare (the storyfm-audio Worker in cdn/), not in git.
 data/audio/

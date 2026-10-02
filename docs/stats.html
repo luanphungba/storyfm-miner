@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Thống kê</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="wrap">
+  <h1>Thống kê</h1>
+  <div class="toolbar">
+    <a class="chip" href="index.html" style="text-decoration:none">← Danh sách</a>
+    <a class="chip" href="listen.html" style="text-decoration:none">▶ Nghe lại</a>
+  </div>
+  <p class="meta" id="status">Đang tải…</p>
+
+  <div id="dashboard" hidden>
+    <section class="stat-card" aria-labelledby="today-label">
+      <div class="hero-label" id="today-label">Hôm nay nghe</div>
+      <div class="hero" id="today-hours"></div>
+      <div class="hero-split" id="today-split"></div>
+      <div class="tiles">
+        <div class="tile"><div class="tile-label">Chương học</div><div class="tile-value" id="today-chapters"></div></div>
+        <div class="tile"><div class="tile-label">Từ mới</div><div class="tile-value" id="today-words">…</div></div>
+        <div class="tile"><div class="tile-label">Ngày liên tiếp</div><div class="tile-value" id="streak"></div></div>
+      </div>
+    </section>
+
+    <section class="stat-card" aria-labelledby="goal-label">
+      <h2 id="goal-label">Mục tiêu <span id="goal-hours"></span> giờ</h2>
+      <div class="goal-figure"><span class="goal-value" id="goal-total"></span> <span class="goal-of" id="goal-share"></span></div>
+      <div class="meter" role="progressbar" id="goal-meter" aria-valuemin="0"><div class="meter-fill" id="goal-fill"></div></div>
+      <p class="goal-note" id="goal-note"></p>
+      <div class="tiles">
+        <div class="tile"><div class="tile-label">Chương đã học</div><div class="tile-value" id="total-chapters"></div></div>
+        <div class="tile"><div class="tile-label">Từ đã thêm</div><div class="tile-value" id="total-words">…</div></div>
+        <div class="tile"><div class="tile-label">Ngày có nghe</div><div class="tile-value" id="total-days"></div></div>
+      </div>
+    </section>
+
+    <section class="stat-card" aria-labelledby="days-label">
+      <h2 id="days-label">Mỗi ngày</h2>
+      <div class="toolbar" role="group" aria-label="Khoảng thời gian">
+        <button class="chip" type="button" data-range="7" aria-pressed="true">7 ngày</button>
+        <button class="chip" type="button" data-range="30" aria-pressed="false">30 ngày</button>
+        <button class="chip" type="button" data-range="90" aria-pressed="false">90 ngày</button>
+      </div>
+      <figure class="chart" id="chart-box">
+        <div class="legend">
+          <span><span class="key key-player"></span>Học</span>
+          <span><span class="key key-listen"></span>Nghe lại</span>
+        </div>
+        <svg id="chart" role="img" aria-label="Giờ nghe mỗi ngày, học và nghe lại"></svg>
+        <div class="tooltip" id="tooltip" role="status" hidden></div>
+      </figure>
+      <table class="day-table">
+        <thead><tr><th>Ngày</th><th>Nghe</th><th class="num">Chương</th><th class="num">Từ</th></tr></thead>
+        <tbody id="day-rows"></tbody>
+      </table>
+    </section>
+
+    <section class="stat-card" aria-labelledby="chapters-label">
+      <h2 id="chapters-label">Chương</h2>
+      <div class="toolbar" role="group" aria-label="Thứ tự">
+        <button class="chip" type="button" data-order="recent" aria-pressed="true">Gần đây</button>
+        <button class="chip" type="button" data-order="most" aria-pressed="false">Nhiều lượt</button>
+        <button class="chip" type="button" data-order="least" aria-pressed="false">Ít lượt</button>
+        <select class="chip" id="chapter-episode" aria-label="Chỉ một tập">
+          <option value="">Mọi tập</option>
+        </select>
+      </div>
+      <p class="note">Lượt = phần audio của chương đã nghe ÷ độ dài chương: nghe 2x vẫn là một lượt mỗi lần, lặp một câu trong chương thì được tính phần của câu đó.</p>
+      <ol class="playlist" id="chapter-rows"></ol>
+    </section>
+
+    <section class="stat-card" aria-labelledby="episodes-label">
+      <h2 id="episodes-label">Tập</h2>
+      <div id="episode-rows"></div>
+    </section>
+  </div>
+</div>
+
+<script type="module" src="stats.js"></script>
+</body>
+</html>
