@@ -2,93 +2,189 @@
   "chapters": [
     {
       "from": 0,
-      "zh": "Apple账户 · 家人共享 · iCloud · iCloud云备份",
-      "vi": "Tài khoản Apple · Chia sẻ trong gia đình · iCloud · Sao lưu iCloud",
+      "zh": "设置",
+      "vi": "Cài đặt",
+      "first": "设置"
+    },
+    {
+      "from": 32,
+      "zh": "Apple账户",
+      "vi": "Tài khoản Apple",
       "first": "Apple账户"
     },
     {
-      "from": 62,
-      "zh": "Wi-Fi · 蓝牙",
-      "vi": "Wi-Fi · Bluetooth",
+      "from": 44,
+      "zh": "家人共享",
+      "vi": "Chia sẻ trong gia đình",
+      "first": "添加成员"
+    },
+    {
+      "from": 56,
+      "zh": "Wi-Fi",
+      "vi": "Wi-Fi",
       "first": "编辑"
     },
     {
-      "from": 78,
-      "zh": "蜂窝网络 · 个人热点 · VPN",
-      "vi": "Di động · Điểm truy cập cá nhân · VPN",
+      "from": 67,
+      "zh": "蓝牙",
+      "vi": "Bluetooth",
+      "first": "蓝牙"
+    },
+    {
+      "from": 72,
+      "zh": "蜂窝网络",
+      "vi": "Di động",
       "first": "蜂窝网络"
     },
     {
-      "from": 150,
+      "from": 106,
       "zh": "电池",
       "vi": "Pin",
       "first": "电池"
     },
     {
-      "from": 167,
-      "zh": "通用 · 软件更新",
-      "vi": "Cài đặt chung · Cập nhật phần mềm",
+      "from": 123,
+      "zh": "VPN",
+      "vi": "VPN",
+      "first": "VPN状态"
+    },
+    {
+      "from": 129,
+      "zh": "通用",
+      "vi": "Cài đặt chung",
       "first": "通用"
     },
     {
-      "from": 194,
+      "from": 152,
+      "zh": "通用 › 软件更新",
+      "vi": "Cài đặt chung › Cập nhật phần mềm",
+      "first": "软件更新"
+    },
+    {
+      "from": 156,
       "zh": "辅助功能",
       "vi": "Trợ năng",
       "first": "辅助功能"
     },
     {
-      "from": 237,
-      "zh": "操作按钮 · 相机",
-      "vi": "Nút Tác vụ · Camera",
+      "from": 199,
+      "zh": "操作按钮",
+      "vi": "Nút Tác vụ",
       "first": "静音模式"
     },
     {
-      "from": 275,
-      "zh": "Apple智能与Siri · 搜索",
-      "vi": "Apple Intelligence & Siri · Tìm kiếm",
-      "first": "BETA版"
+      "from": 201,
+      "zh": "待机显示",
+      "vi": "Chế độ chờ",
+      "first": "待机显示"
     },
     {
-      "from": 316,
-      "zh": "控制中心 · 显示与亮度",
-      "vi": "Trung tâm điều khiển · Màn hình & Độ sáng",
+      "from": 209,
+      "zh": "控制中心",
+      "vi": "Trung tâm điều khiển",
       "first": "控制中心"
     },
     {
-      "from": 347,
-      "zh": "主屏幕与App资源库 · 待机显示 · 墙纸",
-      "vi": "Màn hình chính & Thư viện ứng dụng · Chế độ chờ · Hình nền",
+      "from": 216,
+      "zh": "墙纸",
+      "vi": "Hình nền",
+      "first": "墙纸"
+    },
+    {
+      "from": 225,
+      "zh": "搜索",
+      "vi": "Tìm kiếm",
+      "first": "搜索"
+    },
+    {
+      "from": 234,
+      "zh": "显示与亮度",
+      "vi": "Màn hình & Độ sáng",
+      "first": "显示与亮度"
+    },
+    {
+      "from": 258,
+      "zh": "相机",
+      "vi": "Camera",
+      "first": "相机"
+    },
+    {
+      "from": 294,
+      "zh": "主屏幕与App资源库",
+      "vi": "Màn hình chính & Thư viện ứng dụng",
       "first": "主屏幕与App资源库"
     },
     {
-      "from": 372,
+      "from": 302,
+      "zh": "Apple智能与Siri",
+      "vi": "Apple Intelligence & Siri",
+      "first": "BETA版"
+    },
+    {
+      "from": 334,
       "zh": "通知",
       "vi": "Thông báo",
       "first": "通知"
     },
     {
-      "from": 387,
-      "zh": "声效与触感反馈 · 专注模式",
-      "vi": "Âm thanh & Cảm ứng · Tập trung",
+      "from": 349,
+      "zh": "声效与触感反馈",
+      "vi": "Âm thanh & Cảm ứng",
       "first": "声效与触感反馈"
     },
     {
-      "from": 441,
+      "from": 389,
+      "zh": "专注模式",
+      "vi": "Tập trung",
+      "first": "添加"
+    },
+    {
+      "from": 403,
       "zh": "屏幕时间",
       "vi": "Thời gian sử dụng",
       "first": "屏幕时间"
     },
     {
-      "from": 467,
-      "zh": "SOS紧急联络 · 隐私与安全性",
-      "vi": "SOS khẩn cấp · Quyền riêng tư & Bảo mật",
+      "from": 429,
+      "zh": "SOS紧急联络",
+      "vi": "SOS khẩn cấp",
       "first": "SOS紧急联络"
     },
     {
-      "from": 527,
-      "zh": "钱包与Apple Pay · Game Center · App",
-      "vi": "Ví & Apple Pay · Game Center · Ứng dụng",
+      "from": 442,
+      "zh": "隐私与安全性",
+      "vi": "Quyền riêng tư & Bảo mật",
+      "first": "隐私与安全性"
+    },
+    {
+      "from": 489,
+      "zh": "钱包与Apple Pay",
+      "vi": "Ví & Apple Pay",
       "first": "钱包与Apple Pay"
+    },
+    {
+      "from": 503,
+      "zh": "Game Center",
+      "vi": "Game Center",
+      "first": "个人资料"
+    },
+    {
+      "from": 520,
+      "zh": "iCloud",
+      "vi": "iCloud",
+      "first": "储存空间"
+    },
+    {
+      "from": 548,
+      "zh": "iCloud › iCloud云备份",
+      "vi": "iCloud › Sao lưu iCloud",
+      "first": "备份"
+    },
+    {
+      "from": 558,
+      "zh": "App",
+      "vi": "Ứng dụng",
+      "first": "默认App"
     },
     {
       "from": 560,

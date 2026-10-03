@@ -41,6 +41,15 @@
 
 <div class="player">
   <div id="gloss" hidden></div>
+  <div id="shot-viewer" class="shot-viewer" role="dialog" aria-label="Màn hình trên máy" hidden>
+    <div class="sv-bar">
+      <button id="sv-prev" type="button" aria-label="Ảnh trước">‹</button>
+      <span id="sv-title"></span>
+      <button id="sv-next" type="button" aria-label="Ảnh sau">›</button>
+      <button id="sv-close" type="button" aria-label="Đóng">✕</button>
+    </div>
+    <div class="sv-body"><div class="sv-frame" id="sv-frame"><img id="sv-img" alt=""><div id="sv-box" class="sv-box" hidden></div></div></div>
+  </div>
   <div class="chapterbar" id="chapterbar" hidden>
     <button class="chip" id="chapter-prev" type="button" title="Chương trước" aria-label="Chương trước">‹</button>
     <button class="chapter-now" id="chapter-now" type="button" title="Cuộn tới đầu chương"><span id="chapter-title"></span></button>

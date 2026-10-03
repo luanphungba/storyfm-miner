@@ -1,123 +1,251 @@
 {
   "chapters": [
     {
-      "zh": "Apple账户 · 家人共享 · iCloud · iCloud云备份",
-      "vi": "Tài khoản Apple · Chia sẻ trong gia đình · iCloud · Sao lưu iCloud",
+      "zh": "设置",
+      "vi": "Cài đặt",
       "from": 0,
-      "to": 79,
+      "to": 31,
       "start": 0,
-      "end": 445.29
+      "end": 141.34
     },
     {
-      "zh": "Wi-Fi · 蓝牙",
-      "vi": "Wi-Fi · Bluetooth",
-      "from": 80,
-      "to": 100,
-      "start": 449.99,
-      "end": 570
+      "zh": "Apple账户",
+      "vi": "Tài khoản Apple",
+      "from": 32,
+      "to": 43,
+      "start": 144.2,
+      "end": 196.46
     },
     {
-      "zh": "蜂窝网络 · 个人热点 · VPN",
-      "vi": "Di động · Điểm truy cập cá nhân · VPN",
-      "from": 101,
-      "to": 181,
-      "start": 573.17,
-      "end": 1009.91
+      "zh": "家人共享",
+      "vi": "Chia sẻ trong gia đình",
+      "from": 44,
+      "to": 65,
+      "start": 199.64,
+      "end": 332.9
+    },
+    {
+      "zh": "Wi-Fi",
+      "vi": "Wi-Fi",
+      "from": 66,
+      "to": 80,
+      "start": 336.8,
+      "end": 423.02
+    },
+    {
+      "zh": "蓝牙",
+      "vi": "Bluetooth",
+      "from": 81,
+      "to": 86,
+      "start": 427.32,
+      "end": 456.8
+    },
+    {
+      "zh": "蜂窝网络",
+      "vi": "Di động",
+      "from": 87,
+      "to": 128,
+      "start": 459.98,
+      "end": 711.38
     },
     {
       "zh": "电池",
       "vi": "Pin",
-      "from": 182,
-      "to": 198,
-      "start": 1013.89,
-      "end": 1086.52
+      "from": 129,
+      "to": 145,
+      "start": 715.04,
+      "end": 787.67
     },
     {
-      "zh": "通用 · 软件更新",
-      "vi": "Cài đặt chung · Cập nhật phần mềm",
-      "from": 199,
-      "to": 227,
-      "start": 1089.75,
-      "end": 1243.24
+      "zh": "VPN",
+      "vi": "VPN",
+      "from": 146,
+      "to": 152,
+      "start": 790.9,
+      "end": 828.38
+    },
+    {
+      "zh": "通用",
+      "vi": "Cài đặt chung",
+      "from": 153,
+      "to": 177,
+      "start": 832.36,
+      "end": 967.67
+    },
+    {
+      "zh": "通用 › 软件更新",
+      "vi": "Cài đặt chung › Cập nhật phần mềm",
+      "from": 178,
+      "to": 181,
+      "start": 970.6,
+      "end": 985.85
     },
     {
       "zh": "辅助功能",
       "vi": "Trợ năng",
-      "from": 228,
-      "to": 272,
-      "start": 1246.98,
-      "end": 1461.98
+      "from": 182,
+      "to": 226,
+      "start": 989.59,
+      "end": 1204.59
     },
     {
-      "zh": "操作按钮 · 相机",
-      "vi": "Nút Tác vụ · Camera",
-      "from": 273,
-      "to": 320,
-      "start": 1466.03,
-      "end": 1776
+      "zh": "操作按钮",
+      "vi": "Nút Tác vụ",
+      "from": 227,
+      "to": 228,
+      "start": 1208.64,
+      "end": 1220.11
     },
     {
-      "zh": "Apple智能与Siri · 搜索",
-      "vi": "Apple Intelligence & Siri · Tìm kiếm",
-      "from": 321,
-      "to": 373,
-      "start": 1780.62,
-      "end": 2114.18
+      "zh": "待机显示",
+      "vi": "Chế độ chờ",
+      "from": 229,
+      "to": 240,
+      "start": 1225.58,
+      "end": 1303.56
     },
     {
-      "zh": "控制中心 · 显示与亮度",
-      "vi": "Trung tâm điều khiển · Màn hình & Độ sáng",
-      "from": 374,
-      "to": 415,
-      "start": 2117.2,
-      "end": 2363.2
+      "zh": "控制中心",
+      "vi": "Trung tâm điều khiển",
+      "from": 241,
+      "to": 253,
+      "start": 1307.15,
+      "end": 1390.75
     },
     {
-      "zh": "主屏幕与App资源库 · 待机显示 · 墙纸",
-      "vi": "Màn hình chính & Thư viện ứng dụng · Chế độ chờ · Hình nền",
-      "from": 416,
-      "to": 446,
-      "start": 2365.98,
-      "end": 2550.78
+      "zh": "墙纸",
+      "vi": "Hình nền",
+      "from": 254,
+      "to": 264,
+      "start": 1394.95,
+      "end": 1452.89
+    },
+    {
+      "zh": "搜索",
+      "vi": "Tìm kiếm",
+      "from": 265,
+      "to": 280,
+      "start": 1457.97,
+      "end": 1564.21
+    },
+    {
+      "zh": "显示与亮度",
+      "vi": "Màn hình & Độ sáng",
+      "from": 281,
+      "to": 309,
+      "start": 1567.23,
+      "end": 1725.44
+    },
+    {
+      "zh": "相机",
+      "vi": "Camera",
+      "from": 310,
+      "to": 355,
+      "start": 1728.22,
+      "end": 2021.25
+    },
+    {
+      "zh": "主屏幕与App资源库",
+      "vi": "Màn hình chính & Thư viện ứng dụng",
+      "from": 356,
+      "to": 363,
+      "start": 2025.87,
+      "end": 2067.5
+    },
+    {
+      "zh": "Apple智能与Siri",
+      "vi": "Apple Intelligence & Siri",
+      "from": 364,
+      "to": 400,
+      "start": 2071.16,
+      "end": 2294.09
     },
     {
       "zh": "通知",
       "vi": "Thông báo",
-      "from": 447,
-      "to": 461,
-      "start": 2555.86,
-      "end": 2613.95
+      "from": 401,
+      "to": 415,
+      "start": 2298.47,
+      "end": 2356.56
     },
     {
-      "zh": "声效与触感反馈 · 专注模式",
-      "vi": "Âm thanh & Cảm ứng · Tập trung",
+      "zh": "声效与触感反馈",
+      "vi": "Âm thanh & Cảm ứng",
+      "from": 416,
+      "to": 461,
+      "start": 2359.9,
+      "end": 2598.83
+    },
+    {
+      "zh": "专注模式",
+      "vi": "Tập trung",
       "from": 462,
-      "to": 527,
-      "start": 2617.29,
-      "end": 2975.36
+      "to": 481,
+      "start": 2602.55,
+      "end": 2717.97
     },
     {
       "zh": "屏幕时间",
       "vi": "Thời gian sử dụng",
-      "from": 528,
-      "to": 556,
-      "start": 2980.29,
-      "end": 3156.8
+      "from": 482,
+      "to": 510,
+      "start": 2722.9,
+      "end": 2899.41
     },
     {
-      "zh": "SOS紧急联络 · 隐私与安全性",
-      "vi": "SOS khẩn cấp · Quyền riêng tư & Bảo mật",
-      "from": 557,
-      "to": 637,
-      "start": 3161.1,
-      "end": 3651.76
+      "zh": "SOS紧急联络",
+      "vi": "SOS khẩn cấp",
+      "from": 511,
+      "to": 537,
+      "start": 2903.71,
+      "end": 3120.2
     },
     {
-      "zh": "钱包与Apple Pay · Game Center · App",
-      "vi": "Ví & Apple Pay · Game Center · Ứng dụng",
-      "from": 638,
+      "zh": "隐私与安全性",
+      "vi": "Quyền riêng tư & Bảo mật",
+      "from": 538,
+      "to": 591,
+      "start": 3125.19,
+      "end": 3394.37
+    },
+    {
+      "zh": "钱包与Apple Pay",
+      "vi": "Ví & Apple Pay",
+      "from": 592,
+      "to": 610,
+      "start": 3397.71,
+      "end": 3512.79
+    },
+    {
+      "zh": "Game Center",
+      "vi": "Game Center",
+      "from": 611,
+      "to": 632,
+      "start": 3515.96,
+      "end": 3634.95
+    },
+    {
+      "zh": "iCloud",
+      "vi": "iCloud",
+      "from": 633,
+      "to": 662,
+      "start": 3638.84,
+      "end": 3784.7
+    },
+    {
+      "zh": "iCloud › iCloud云备份",
+      "vi": "iCloud › Sao lưu iCloud",
+      "from": 663,
+      "to": 678,
+      "start": 3790.2,
+      "end": 3891.52
+    },
+    {
+      "zh": "App",
+      "vi": "Ứng dụng",
+      "from": 679,
       "to": 680,
-      "start": 3655.1,
+      "start": 3896.22,
       "end": 3904.41
     },
     {

@@ -20,7 +20,7 @@ import { promisify } from 'node:util';
 import { createHash, randomUUID } from 'node:crypto';
 import { join } from 'node:path';
 import { paths } from '../src/paths.js';
-import { loadContent, piecesOf, spoken, timeline, planChapters, translationLedger } from '../src/ui.js';
+import { loadContent, piecesOf, spoken, timeline, planChapters, shotsSidecar, translationLedger } from '../src/ui.js';
 import { writeJson, rebuildIndex, rebuildTranslation, rebuildChapters } from '../src/build.js';
 import { publishAudio } from '../src/cdn.js';
 
@@ -172,7 +172,12 @@ async function build() {
     source: 'ui', owner: entry.owner, engine: 'tts', cues,
   });
   await writeJson(paths.translations(id), translationLedger(content));
-  await writeJson(paths.chapters(id), { chapters: planChapters(content.pages, content.chapters) });
+  await writeJson(paths.chapters(id), { chapters: planChapters(content.pages) });
+  const shots = shotsSidecar(content);
+  await writeJson(paths.shots(id), shots);
+  const missingShots = [...new Set(shots.lines.flatMap((place) => (place ? [place[0]] : [])))]
+    .filter((shot) => !existsSync(join(paths.shotImages(id), `${shot}.webp`)));
+  if (missingShots.length) console.log(`  ⚠ Thiếu ảnh màn hình: ${missingShots.join(', ')}`);
   await rebuildIndex();
   await rebuildTranslation(id, cues);
   const chapters = await rebuildChapters(id, cues, { capped: false });

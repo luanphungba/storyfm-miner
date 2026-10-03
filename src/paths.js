@@ -30,6 +30,10 @@ export const paths = {
   ui: join(ROOT, 'data', 'ui.json'),
   /** One app interface as its device shows it, page by page, line by line — see src/ui.js. */
   uiContent: (/** @type {string} */ id) => join(ROOT, 'data', 'ui', `${id}.json`),
+  /** Where each line of an interface episode sits on its screen — see src/ui.js. */
+  shots: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.shots.json`),
+  /** The screenshots an interface episode shows, its owner's details covered. */
+  shotImages: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.shots`),
   /** Each piece of an interface episode as the voice read it, kept so a rebuild never pays twice. */
   tts: join(ROOT, 'tools', '.cache', 'tts'),
   /** Audio hosted on the storyfm-audio Worker (Bilibili's, other podcasts'), kept out of git. */

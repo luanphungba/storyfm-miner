@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { piecesOf, spoken, timeline, planChapters, translationLedger, partsBySentence, SELF_MARK } from '../src/ui.js';
+import { piecesOf, spoken, timeline, planChapters, shotsSidecar, translationLedger, partsBySentence, SELF_MARK } from '../src/ui.js';
 import { buildChapters } from '../src/chapters.js';
 import { buildSidecar } from '../src/translations.js';
 
@@ -53,20 +53,31 @@ test('the cues fit the chapter and translation sidecars every other episode uses
   assert.deepEqual([missing, stale, misaligned], [[], [], []]);
   assert.equal(sidecar.lines[3], 'Mạng đã biết sẽ tự kết nối.', 'the first sentence sits under its own piece');
   assert.equal(sidecar.lines[5], 'Nếu không có, bạn sẽ được báo.');
-  const chapters = buildChapters(cues, { chapters: planChapters(pages, [['通用'], ['Wi-Fi']]) });
+  const chapters = buildChapters(cues, { chapters: planChapters(pages) });
   assert.deepEqual([chapters.lost, chapters.changed], [[], []]);
   assert.deepEqual(chapters.sidecar.chapters.map((c) => [c.zh, c.from, c.to]), [['通用', 0, 1], ['Wi-Fi', 2, 5]]);
 });
 
-test('a chapter is a group of pages that belong together, however long it runs', () => {
-  const long = { zh: '隐私', vi: 'Riêng tư', en: 'Privacy', lines: Array.from({ length: 6 }, (_, k) => line(`行${k}`)) };
-  const short = { zh: '短', vi: 'Ngắn', en: 'Short', lines: [line('一')] };
-  const next = { zh: '下', vi: 'Sau', en: 'Next', lines: [line('二')] };
-  assert.deepEqual(planChapters([long, short, next], [['隐私'], ['短', '下']]), [
-    { from: 0, zh: '隐私', vi: 'Riêng tư', first: '行0' },
-    { from: 6, zh: '短 · 下', vi: 'Ngắn · Sau', first: '一' },
+test('each screen is a chapter, however long, and one opened from another is named with it', () => {
+  const general = { zh: '通用', vi: 'Cài đặt chung', en: 'General', lines: Array.from({ length: 6 }, (_, k) => line(`行${k}`)) };
+  const update = { zh: '软件更新', vi: 'Cập nhật phần mềm', en: 'Software Update', parent: '通用', lines: [line('自动更新')] };
+  const empty = { zh: '空', vi: 'Trống', en: 'Empty', lines: [] };
+  assert.deepEqual(planChapters([general, update, empty]), [
+    { from: 0, zh: '通用', vi: 'Cài đặt chung', first: '行0' },
+    { from: 6, zh: '通用 › 软件更新', vi: 'Cài đặt chung › Cập nhật phần mềm', first: '自动更新' },
   ]);
-  assert.throws(() => planChapters([long, short, next], [['短'], ['隐私', '下']]), /đúng thứ tự/);
+});
+
+test('every piece of a line points at the screenshot and frame the line was read from', () => {
+  const at = { shot: 'p06-00', box: [20, 300, 200, 22] };
+  const content = {
+    id: 'T', title: 't', summary: [], screen: { width: 430, height: 932 },
+    pages: [{ zh: 'Wi-Fi', vi: 'Wi-Fi', en: 'Wi-Fi', lines: [line('网络', 'x', { at }), line('甲乙', 'x', { cuts: ['甲', '乙'], at }), line('丙')] }],
+  };
+  assert.deepEqual(shotsSidecar(content), {
+    screen: { width: 430, height: 932 },
+    lines: [['p06-00', 20, 300, 200, 22], ['p06-00', 20, 300, 200, 22], ['p06-00', 20, 300, 200, 22], null],
+  });
 });
 
 test('a translation is split by sentence only where the cuts end with the sentences', () => {

@@ -11,6 +11,9 @@
 // There is no recording to transcribe, so the audio is made: a TTS voice reads each piece (a line, or
 // a long line's cuts) and tools/ui.mjs lays the clips out on one timeline. Each piece is read twice,
 // then left silent as long as it takes to say it back — heard, heard again, shadowed.
+//
+// A chapter is one screen, as it is opened on the phone, and carries that screen's screenshots: each
+// line keeps where the walk read it (`at`), so the page can show the screen and frame the line heard.
 
 import { readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -24,11 +27,13 @@ export const PACE = { again: 0.6, sayBack: 0.8, page: 1.5 };
 export const SELF_MARK = '✎ ';
 
 /**
- * @typedef {{ zh: string, vi: string, en: string, source: 'apple' | 'self', cuts?: string[] }} UiLine
+ * @typedef {{ shot: string, box: number[] }} Place
+ *   The screenshot a line was read from, and its frame there `[x, y, width, height]` in screen points.
+ * @typedef {{ zh: string, vi: string, en: string, source: 'apple' | 'self', cuts?: string[], at?: Place }} UiLine
  *   `cuts` tile `zh` in order when the line is too long to mine or loop as one.
- * @typedef {{ zh: string, vi: string, en: string, lines: UiLine[] }} UiPage
- * @typedef {{ id: string, title: string, summary: string[], chapters: string[][], pages: UiPage[] }} UiContent
- *   `chapters` groups the pages that belong together, by title, in the order the pages run.
+ * @typedef {{ zh: string, vi: string, en: string, parent?: string, lines: UiLine[] }} UiPage
+ *   `parent` names the screen this one opens from, when that is not Settings itself.
+ * @typedef {{ id: string, title: string, summary: string[], screen: { width: number, height: number }, pages: UiPage[] }} UiContent
  * @typedef {{ id: string, title: string, owner: string, pubDate: string, duration: number, m4a?: string }} UiEpisode
  * @typedef {{ text: string, s: number, page: number }} Piece
  *   `s` is the line the piece belongs to — the unit a translation is written against.
@@ -111,33 +116,38 @@ const round = (/** @type {number} */ seconds) => Math.round(seconds * 100) / 100
 
 
 /**
- * The chapters as data/ui/<id>.json groups the pages: screens that belong together — Wi-Fi with
- * Bluetooth, the Camera with the Action Button that opens it — in the ledger shape src/chapters.js
- * reads. An interface is learned by what its screens are for, so a chapter is a group however long it
- * runs; the two-minute rule of a podcast's chapters is about holding one topic in mind, and a group
- * already is one. The groups must take the pages in order, each once.
+ * One chapter per screen, in the ledger shape src/chapters.js reads. An interface is learned by where
+ * things are, so a chapter is what one screen holds however long it runs — the two-minute rule of a
+ * podcast's chapters is about keeping a topic in mind, and a screen already is one. A screen opened
+ * from another is named with it (通用 › 软件更新), which is also the way to it on the phone.
  * @param {UiPage[]} pages
- * @param {string[][]} groups each chapter's pages, by their Chinese title
  * @returns {{ from: number, zh: string, vi: string, first: string }[]}
  */
-export function planChapters(pages, groups) {
-  const order = groups.flat();
-  const titles = pages.map((page) => page.zh);
-  if (order.join('\n') !== titles.join('\n')) {
-    throw new Error(`Nhóm chương phải đi qua các trang theo đúng thứ tự, mỗi trang một lần.\n  nhóm: ${order.join(', ')}\n  trang: ${titles.join(', ')}`);
-  }
+export function planChapters(pages) {
+  const byTitle = new Map(pages.map((page) => [page.zh, page]));
   const chapters = [];
   let s = 0;
-  let p = 0;
-  for (const group of groups) {
-    const members = pages.slice(p, p + group.length);
-    p += group.length;
-    const from = s;
-    s += members.reduce((n, page) => n + page.lines.length, 0);
-    const first = members.find((page) => page.lines.length)?.lines[0].zh;
-    if (first) chapters.push({ from, zh: group.join(' · '), vi: members.map((page) => page.vi).join(' · '), first });
+  for (const page of pages) {
+    const parent = page.parent ? byTitle.get(page.parent) : undefined;
+    const name = (/** @type {'zh' | 'vi'} */ key) => (parent ? `${parent[key]} › ${page[key]}` : page[key]);
+    if (page.lines.length) chapters.push({ from: s, zh: name('zh'), vi: name('vi'), first: page.lines[0].zh });
+    s += page.lines.length;
   }
   return chapters;
+}
+
+/**
+ * What the page loads to show each line on its screen: per cue, the screenshot and the frame, or null
+ * for a line the walk did not place. Cues follow piecesOf, so every piece of a cut line shares its
+ * line's place.
+ * @param {UiContent} content
+ */
+export function shotsSidecar(content) {
+  const places = content.pages.flatMap((page) => page.lines.flatMap((line) => (line.cuts ?? [line.zh]).map(() => line.at ?? null)));
+  return {
+    screen: content.screen,
+    lines: places.map((at) => (at ? [at.shot, ...at.box] : null)),
+  };
 }
 
 /**

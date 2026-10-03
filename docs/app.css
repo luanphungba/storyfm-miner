@@ -266,8 +266,48 @@ h1 {
 }
 .ch-word:hover, .ch-word:focus-visible { border-color: var(--accent); color: var(--accent); }
 .ch-word.is-easy { color: var(--muted); border-color: transparent; }
-#cues.has-chapter .ch-words { opacity: .6; }
-#cues.has-chapter .chapter.is-current + .ch-words { opacity: 1; }
+#cues.has-chapter .ch-words:not(.is-current), #cues.has-chapter .ch-shots:not(.is-current) { opacity: .6; }
+
+/* An interface chapter's screen, under its heading: the screenshots as the screen scrolls down. */
+.ch-shots { display: flex; gap: 8px; overflow-x: auto; margin: 2px 0 8px 56px; padding-bottom: 2px; }
+.ch-shot { flex: none; padding: 0; border: 1px solid var(--line); border-radius: 8px; background: none; overflow: hidden; cursor: pointer; }
+.ch-shot img { display: block; height: 104px; width: auto; }
+.ch-shot:hover, .ch-shot:focus-visible { border-color: var(--accent); }
+
+/* One screenshot, large, over the page; the line being heard framed on it. */
+.shot-viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px);
+  background: rgba(16, 17, 20, .96);
+}
+.shot-viewer[hidden] { display: none; }
+.sv-bar { display: flex; align-items: center; gap: 8px; padding: 10px 12px; color: #fff; }
+.sv-bar span { flex: 1; text-align: center; font-size: 14px; }
+.sv-bar button {
+  min-width: 36px;
+  padding: 4px 10px;
+  border: 1px solid rgba(255, 255, 255, .4);
+  border-radius: 999px;
+  background: none;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+.sv-bar button:disabled { opacity: .3; cursor: default; }
+.sv-body { flex: 1; overflow: auto; padding: 0 12px 16px; }
+.sv-frame { position: relative; width: min(100%, 430px); margin: 0 auto; overflow: hidden; border-radius: 14px; }
+.sv-frame img { display: block; width: 100%; height: 100%; }
+.sv-box {
+  position: absolute;
+  border: 3px solid var(--accent);
+  border-radius: 8px;
+  box-shadow: 0 0 0 2000px rgba(0, 0, 0, .18);
+  pointer-events: none;
+}
 
 /* Inside a chapter the rest of the episode steps back, still readable for the line before or after. */
 #cues.has-chapter .cue:not(.in-chapter) { opacity: .4; }

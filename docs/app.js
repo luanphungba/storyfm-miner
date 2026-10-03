@@ -10,6 +10,7 @@
 
 import { CONTEXT_LINES, markLine } from './card.js';
 import { newWords } from './chapterwords.js';
+import { chapterShots, framePercent } from './shots.js';
 import { meterListening } from './meter.js';
 import { initMiner } from './miner.js';
 import { call, savedConnection } from './server.js';
@@ -95,6 +96,7 @@ async function load() {
   loadWords();
   loadTranslation();
   loadChapters();
+  if (data.source === 'ui') loadShots();
 }
 
 /** A Bilibili video is heard here but watched there: the meta line links the original under the
@@ -343,6 +345,7 @@ async function loadChapters() {
   showStudied();
   loadStudied();
   showNewWords();
+  showShots();
 }
 
 /** An app's interface is learned a page at a time, so under each chapter's heading go the words that
@@ -356,6 +359,7 @@ function showNewWords() {
     if (!words.length) return;
     const box = document.createElement('div');
     box.className = 'ch-words';
+    box.dataset.n = String(n);
     box.setAttribute('aria-label', 'Từ mới của chương');
     for (const { word, line, band } of words) {
       const chip = document.createElement('button');
@@ -366,9 +370,104 @@ function showNewWords() {
       chip.dataset.line = String(line);
       box.append(chip);
     }
-    headings[n]?.after(box);
+    // Under the chapter's screenshots when they came first, so the screen always shows above its words.
+    const strip = headings[n]?.nextElementSibling;
+    (strip?.classList.contains('ch-shots') ? strip : headings[n])?.after(box);
   });
 }
+
+// ---------- screens (app interfaces) ----------
+
+/** Where each line of an app's interface sits on its screen — see src/ui.js. A chapter of an interface
+ * is one screen, so its screenshots sit under its heading. Opened, one shows with a frame around the
+ * line being heard, and follows the audio from line to line and from screen to screen. */
+/** @type {{ screen: { width: number, height: number }, lines: import('./shots.js').Place[] } | null} */
+let shots = null;
+/** The chapter and which of its screenshots the viewer shows, while it is open. */
+/** @type {{ n: number, k: number } | null} */
+let viewing = null;
+const viewer = $('shot-viewer');
+const shotUrl = (/** @type {string} */ shot) => `data/${encodeURIComponent(episodeId ?? '')}.shots/${shot}.webp`;
+
+async function loadShots() {
+  shots = await fetch(`data/${episodeId}.shots.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  if (shots) $('sv-frame').style.aspectRatio = `${shots.screen.width} / ${shots.screen.height}`;
+  showShots();
+}
+
+let shotsShown = false;
+function showShots() {
+  if (!shots || !chapters.length || shotsShown) return;
+  shotsShown = true;
+  const places = shots.lines;
+  chapters.forEach((c, n) => {
+    const list = chapterShots(places, c);
+    if (!list.length) return;
+    const strip = document.createElement('div');
+    strip.className = 'ch-shots';
+    strip.dataset.n = String(n);
+    list.forEach((shot, k) => {
+      const thumb = document.createElement('button');
+      thumb.type = 'button';
+      thumb.className = 'ch-shot';
+      thumb.dataset.n = String(n);
+      thumb.dataset.k = String(k);
+      thumb.setAttribute('aria-label', `Xem màn hình ${k + 1}/${list.length}`);
+      const image = document.createElement('img');
+      image.loading = 'lazy';
+      image.alt = '';
+      image.src = shotUrl(shot);
+      thumb.append(image);
+      strip.append(thumb);
+    });
+    headings[n]?.after(strip);
+  });
+}
+
+function openShot(/** @type {number} */ n, /** @type {number} */ k) {
+  viewing = { n, k };
+  viewer.hidden = false;
+  drawShot();
+}
+
+function closeShot() {
+  viewing = null;
+  viewer.hidden = true;
+}
+
+/** Shows the screenshot the viewer is on, with the frame around the line being heard when it is there. */
+function drawShot() {
+  if (!viewing || !shots) return;
+  const list = chapterShots(shots.lines, chapters[viewing.n]);
+  const shot = list[viewing.k];
+  /** @type {HTMLImageElement} */ ($('sv-img')).src = shotUrl(shot);
+  $('sv-title').textContent = `${chapters[viewing.n].zh} · ${viewing.k + 1}/${list.length}`;
+  /** @type {HTMLButtonElement} */ ($('sv-prev')).disabled = viewing.k === 0;
+  /** @type {HTMLButtonElement} */ ($('sv-next')).disabled = viewing.k === list.length - 1;
+  const place = shots.lines[currentIndex];
+  const box = $('sv-box');
+  box.hidden = !place || place[0] !== shot;
+  if (!place || box.hidden) return;
+  const frame = framePercent(place.slice(1), shots.screen);
+  Object.assign(box.style, { left: `${frame.left}%`, top: `${frame.top}%`, width: `${frame.width}%`, height: `${frame.height}%` });
+  box.scrollIntoView({ block: 'center' });
+}
+
+/** While open, the viewer goes wherever the line being heard is. */
+function followShot(/** @type {number} */ index) {
+  const place = shots?.lines[index];
+  if (!viewing || !shots || !place) return;
+  const n = chapters.findIndex((c) => index >= c.from && index <= c.to);
+  if (n < 0) return;
+  viewing = { n, k: chapterShots(shots.lines, chapters[n]).indexOf(place[0]) };
+  drawShot();
+}
+
+$('sv-prev').addEventListener('click', () => { if (viewing) { viewing.k -= 1; drawShot(); } });
+$('sv-next').addEventListener('click', () => { if (viewing) { viewing.k += 1; drawShot(); } });
+$('sv-close').addEventListener('click', closeShot);
+viewer.addEventListener('click', (event) => { if (event.target === viewer) closeShot(); });
+document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && viewing) closeShot(); });
 
 /** Puts chapter n in the loop bar and loops it from its start. */
 function selectChapter(/** @type {number} */ n) {
@@ -397,6 +496,9 @@ function syncChapter(/** @type {{ start: number, end: number } | null} */ range)
   const c = chapter && chapters[chapter.n];
   rows.forEach((row, index) => row.classList.toggle('in-chapter', !!c && index >= c.from && index <= c.to));
   headings.forEach((heading, k) => heading.classList.toggle('is-current', k === chapter?.n));
+  for (const extra of cueBox.querySelectorAll('.ch-words, .ch-shots')) {
+    extra.classList.toggle('is-current', Number(/** @type {HTMLElement} */ (extra).dataset.n) === chapter?.n);
+  }
   for (const item of document.querySelectorAll('.toc-item')) {
     item.toggleAttribute('aria-current', Number(/** @type {HTMLElement} */ (item).dataset.n) === chapter?.n);
   }
@@ -641,6 +743,7 @@ function highlight(/** @type {number} */ index) {
   if (index === currentIndex) return;
   rows[currentIndex]?.classList.remove('is-now');
   currentIndex = index;
+  followShot(index);
 
   const row = rows[index];
   if (!row) return;
@@ -709,6 +812,11 @@ audio.addEventListener('timeupdate', () => {
 
 cueBox.addEventListener('click', (event) => {
   const target = /** @type {HTMLElement} */ (event.target);
+  const thumb = /** @type {HTMLElement | null} */ (target.closest('.ch-shot'));
+  if (thumb) {
+    openShot(Number(thumb.dataset.n), Number(thumb.dataset.k));
+    return;
+  }
   const chip = /** @type {HTMLElement | null} */ (target.closest('.ch-word'));
   if (chip) {
     const spans = rows[Number(chip.dataset.line)]?.querySelectorAll('.w') ?? [];

@@ -76,8 +76,9 @@ RSS (data/feed.xml)
 | `src/chapters.js` | The episode cut into chapters of one to two minutes on one small topic, each starting at a sentence and keeping that sentence's Chinese, so a fix or join that moves it is named. The last can stop before the outro credits. Pure, tested |
 | `tools/chapters.mjs` | Where chapters are written: `data/chapters/<id>.json` → `docs/data/<id>.chapters.json` |
 | `src/build.js` | Assemble the episode file and index. Written once, via a temp file |
-| `src/ui.js` | An app's interface as an episode: each line read twice with room to say it back, laid out on one timeline; chapters as `data/ui/<id>.json` groups the pages; Apple's own Vietnamese as the translation. Pure, tested |
-| `tools/ui.mjs` | Voices `data/ui/<id>.json` through Runware (Qwen3-TTS cloning a reference clip), caches each line in `tools/.cache/tts/`, writes the episode, its translation and chapters, and checks the voice with whisper |
+| `src/ui.js` | An app's interface as an episode: each line read twice with room to say it back, laid out on one timeline; a chapter per screen; each line's place on its screenshot; Apple's own Vietnamese as the translation. Pure, tested |
+| `tools/ui.mjs` | Voices `data/ui/<id>.json` through Runware (Qwen3-TTS cloning a reference clip), caches each line in `tools/.cache/tts/`, writes the episode, its translation, chapters and screenshot places, and checks the voice with whisper |
+| `docs/shots.js` | Which screenshots a chapter shows and where on one a line sits, in percent of the picture. Pure, tested |
 | `docs/` | GitHub Pages root. Vanilla HTML/CSS/JS, no build step. `docs/studied.js` (the studied list: recent, in order, rounded links) is pure and tested |
 
 ## Study one chapter at a time
@@ -110,10 +111,16 @@ lines are cut into pieces of 15 characters or fewer, so each one loops and mines
 There is nothing to transcribe, so the audio is made: `tools/ui.mjs` has a TTS voice read each piece
 twice, then leaves a silence as long as the piece to say it back. The clips are laid out sample by
 sample, so every line's start is where its first reading begins (measured on the encoded file: speech
-starts 0–90 ms after each line's start, never before). A chapter is a group of related screens — Wi-Fi
-with Bluetooth, the Camera with the Action Button — however long it runs, and under each chapter's
-heading are the words it brings in; a tap opens the same card as a tap in the line, strokes and
-＋ Anki included. Everything else — ✓ Học xong, Nghe lại, the stats — is the same as for any episode.
+starts 0–90 ms after each line's start, never before). A chapter is one screen, as it is opened on the
+phone — a screen opened from another is named with it, 通用 › 软件更新 — however long it runs. Under its
+heading are the screen's screenshots and the words it brings in. A screenshot opens large with a frame
+around the line being heard, and follows the audio from line to line and screen to screen; a word opens
+the same card as a tap in the line, strokes and ＋ Anki included. Everything else — ✓ Học xong, Nghe
+lại, the stats — is the same as for any episode.
+
+The screenshots are the ones the walk took, and the site is public, so before one is published every
+piece of text on it that is not one of Apple's own strings is boxed over — a name, an email, a network,
+a phone number, a password — and so are the photos of people (`docs/data/UI1.shots/`).
 
 ## Tap ＋ Anki, get a card — on the phone too
 
