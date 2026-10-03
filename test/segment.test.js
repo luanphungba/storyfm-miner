@@ -77,6 +77,7 @@ test('glues CJK but keeps spaces between Latin words', () => {
   });
   assert.equal(toCues([at('她在', 0), at('ICU', 1), at('里。', 2)])[0].text, '她在ICU里。');
   assert.equal(toCues([at('996', 0), at('is', 1), at('hard。', 2)])[0].text, '996 is hard。');
+  assert.equal(toCues([at('叫做', 0), at("J'", 1), at('adore。', 2)])[0].text, "叫做J'adore。");
 });
 
 test('punctuationRate reports how many cues end on a real sentence mark', () => {

@@ -26,6 +26,8 @@ import jieba.posseg as pseg
 jieba.suggest_freq(("上", "将"), tune=True)
 for word in ("调暗", "轻扫", "墙纸"):
     jieba.suggest_freq(word, tune=True)
+# A name its dictionary lacks is scattered too (奥/朗德 for Hollande); added as one, tagged a name.
+jieba.add_word("奥朗德", tag="nr")
 # ...the rest its HMM puts back together whatever the dictionary says (中和 "neutralize" in App中和任何,
 # 上向 in 屏幕上向左轻扫, 隔/空投/送 for 隔空投送), so they are cut again after it, token by token. The
 # same table puts back words it scatters (小组/件 for 小组件 "widget", 帧/率 for 帧率, 本/机 for 本机), and

@@ -62,14 +62,16 @@ async function writeJson(/** @type {string} */ path, /** @type {unknown} */ valu
 /**
  * AssemblyAI sometimes splits one Latin word or acronym into fragment tokens with a 0ms gap
  * between them ("F"+"M", "W"+"ord"). segment.js's glue() then inserts a space between any two
- * Latin tokens, producing "F M", "W ord" in the transcript. Checked against every episode in this
- * corpus: 100% of zero-gap Latin-Latin pairs are a split single word, never two real ones, so this
- * is safe to auto-fix. (segment.js itself is left untouched — its own glue() is a pure, tested
- * function and changing it risks the "996 is hard" case where two real words happen to abut.)
+ * Latin tokens, producing "F M", "W ord" in the transcript. Nearly every zero-gap Latin-Latin pair
+ * is a split single word, so this is auto-fixed. (segment.js itself is left untouched — its own
+ * glue() is a pure, tested function and changing it risks the "996 is hard" case where two real
+ * words happen to abut.)
  *
- * The one exception is real English speech or song (a Bilibili video's closing song: "Ever since
- * I was young"), where sung words abut too. A run of MIN_ENGLISH_RUN or more Latin tokens in a row
- * is taken as English, not as a split product name, and left alone.
+ * Real English speech or song abuts too (a Bilibili video's closing song: "Ever since I was
+ * young"). A run of MIN_ENGLISH_RUN or more Latin tokens in a row is taken as English, not as a
+ * split product name, and left alone. A shorter run of real words said inside Chinese ("I like",
+ * "moi aussi", "iPad Pro") is fused all the same; the review writes it apart again, and
+ * keptApart() stops the next run fusing it back.
  */
 const MIN_ENGLISH_RUN = 4;
 /** A word of that run may carry its punctuation ("on,", "won", "'t"). */
@@ -93,9 +95,21 @@ function findGlueFixes(/** @type {any[]} */ words) {
   return fixes;
 }
 
-function applyGlueFixes(/** @type {string} */ text, /** @type {Map<string, string>} */ fixes) {
+/** What the review wrote in a sentence: a glued pair found in it was split back on purpose. */
+function keptApart(/** @type {any[]} */ fixes, /** @type {number} */ cueIndex) {
+  return fixes.filter((f) => f.cueIndex === cueIndex && f.source === 'llm-review').map((f) => f.after);
+}
+
+function applyGlueFixes(
+  /** @type {string} */ text,
+  /** @type {Map<string, string>} */ fixes,
+  /** @type {string[]} */ apart = []
+) {
   let result = text;
-  for (const [wrong, right] of fixes) result = result.split(wrong).join(right);
+  for (const [wrong, right] of fixes) {
+    if (apart.some((written) => written.includes(wrong))) continue;
+    result = result.split(wrong).join(right);
+  }
   return result;
 }
 
@@ -174,7 +188,7 @@ async function main() {
 
   for (const cue of sentencesOf(raw, ledger)) {
     const original = cue.text;
-    const glued = applyGlueFixes(original, glueFixes);
+    const glued = applyGlueFixes(original, glueFixes, keptApart(ledger.fixes, cue.i));
     const text = applyKnownFixes(glued, knownFixes);
     if (text !== original) {
       const { before, after } = diffSpan(original, text);

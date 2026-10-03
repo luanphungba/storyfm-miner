@@ -45,9 +45,10 @@ const MAX_CHARS = 42;
 const countChars = (/** @type {Word[]} */ words) =>
   words.reduce((total, word) => total + word.text.length, 0);
 
-/** Latin runs keep their spaces ("996 一年后" stays readable); CJK never takes one. */
+/** Latin runs keep their spaces ("996 一年后" stays readable); CJK never takes one, nor a French
+ * elision the ASR hands over as its own word (J' + adore is J'adore). */
 export const glue = (/** @type {string} */ left, /** @type {string} */ right) =>
-  CJK.test(left.slice(-1)) || CJK.test(right.slice(0, 1)) ? left + right : `${left} ${right}`;
+  CJK.test(left.slice(-1)) || CJK.test(right.slice(0, 1)) || /['’]$/.test(left) ? left + right : `${left} ${right}`;
 
 export const joinWords = (/** @type {Word[]} */ words) =>
   words.reduce((text, word, index) => (index === 0 ? word.text : glue(text, word.text)), '');
