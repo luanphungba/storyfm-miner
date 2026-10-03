@@ -1,0 +1,3289 @@
+{
+  "episode": "CC3",
+  "summary": [
+    "Đây là tập chính thức thứ hai của podcast 瞎扯学中文 Convo Chinese. Host Joanne (Xinqing), đang du học và học tiếng Pháp ở Pháp, mời Paul — người bạn học tiếng Pháp cùng cô, trước đây học chuyên ngành tiếng Pháp — để cùng \"吐槽\" (phàn nàn cho vui) về những cú sốc văn hóa khi sống ở Pháp. Paul sang Pháp năm 2015 làm sinh viên trao đổi một học kỳ, sau đó về nước học xong đại học rồi sang Pháp học cao học, và sắp đi làm ở đó.",
+    "Chuyện đầu tiên là thủ tục hành chính: ở Pháp nhiều việc phải gửi thư bảo đảm (挂号信); làm thẻ ngân hàng phải đặt hẹn, rồi chờ hai tuần nhận mật khẩu qua thư mới quay lại lấy thẻ; việc gì cũng phải hẹn trước — Paul từng bị một tiệm cắt tóc không có ai từ chối vì chưa gọi điện hẹn. Rồi Joanne kể người Pháp đọc sai và viết sai tên cô, còn Paul kể người Pháp không phát âm chữ h: một bạn họ 何 bị gọi thành \"é\", và giai thoại Hollande chào Hồ Cẩm Đào là \"President Wu\".",
+    "Sau đó hai người so sánh: người Pháp thích gặp mặt, gọi điện và xếp hàng (ở thư viện, ở rạp phim vé không ghi số ghế), còn ở Trung Quốc mọi thứ đều có app để khỏi phải xếp hàng. Joanne than rạp ở Anh và Tây Ban Nha chiếu quảng cáo, trailer tới 20 phút trước phim; Paul kể chuyện cười về quảng cáo nước hoa Dior J'adore và ông cụ người Pháp ngồi cạnh nói \"moi aussi\". Tập kết thúc bằng lời nhắn rằng tất cả chỉ là phàn nàn cho vui, cả hai đều rất thích nước Pháp."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "Hello，大家好，欢迎大家来收听我们瞎扯学中文的第二期正式的podcast。",
+      "parts": [
+        {
+          "zh": "Hello，大家好，",
+          "vi": "Hello, chào mọi người,"
+        },
+        {
+          "zh": "欢迎大家来收听我们瞎扯学中文的",
+          "vi": "chào mừng mọi người đến nghe 瞎扯学中文 của tụi mình,"
+        },
+        {
+          "zh": "第二期正式的podcast。",
+          "vi": "số podcast chính thức thứ hai."
+        }
+      ]
+    },
+    "1": {
+      "zh": "那今天呢，有邀请到另外一位好朋友，嗯，请他来自我介绍一下吧。",
+      "parts": [
+        {
+          "zh": "那今天呢，有邀请到另外一位好朋友，",
+          "vi": "Hôm nay thì mình đã mời được thêm một người bạn thân nữa,"
+        },
+        {
+          "zh": "嗯，请他来自我介绍一下吧。",
+          "vi": "ừm, mời bạn ấy tự giới thiệu một chút nhé."
+        }
+      ]
+    },
+    "2": {
+      "zh": "大家好，很高兴见到大家。",
+      "vi": "Chào mọi người, rất vui được gặp mọi người."
+    },
+    "3": {
+      "zh": "呃，我的名字叫Paul，其实就是英语单词“Paul”的法语发音。",
+      "parts": [
+        {
+          "zh": "呃，我的名字叫Paul，其实就是",
+          "vi": "Ờ, mình tên là Paul, thật ra chính là"
+        },
+        {
+          "zh": "英语单词“Paul”的法语发音。",
+          "vi": "cách đọc kiểu Pháp của từ tiếng Anh “Paul”."
+        }
+      ]
+    },
+    "4": {
+      "zh": "然后我现在是曾经在法国读过书，现在即将在法国工作，",
+      "parts": [
+        {
+          "zh": "然后我现在是曾经在法国读过书，",
+          "vi": "Rồi mình thì trước đây từng học ở Pháp,"
+        },
+        {
+          "zh": "现在即将在法国工作，",
+          "vi": "giờ sắp đi làm ở Pháp,"
+        }
+      ]
+    },
+    "5": {
+      "zh": "很高兴在这个podcast里和大家见面。",
+      "parts": [
+        {
+          "zh": "很高兴在这个podcast里",
+          "vi": "rất vui được ở trong podcast này"
+        },
+        {
+          "zh": "和大家见面。",
+          "vi": "gặp gỡ mọi người."
+        }
+      ]
+    },
+    "6": {
+      "zh": "对我和Paul认识呢，其实是因为我现在也在法国读书，然后我在学法语。",
+      "parts": [
+        {
+          "zh": "对我和Paul认识呢，",
+          "vi": "Đúng, mình với Paul quen nhau"
+        },
+        {
+          "zh": "其实是因为我现在也在法国读书，",
+          "vi": "thật ra là vì bây giờ mình cũng đang học ở Pháp,"
+        },
+        {
+          "zh": "然后我在学法语。",
+          "vi": "rồi mình đang học tiếng Pháp."
+        }
+      ]
+    },
+    "7": {
+      "zh": "Paul的法语特别好，因为他原来是法语专业的，对吧？",
+      "parts": [
+        {
+          "zh": "Paul的法语特别好，",
+          "vi": "Tiếng Pháp của Paul cực giỏi,"
+        },
+        {
+          "zh": "因为他原来是法语专业的，对吧？",
+          "vi": "vì trước đây cậu ấy học chuyên ngành tiếng Pháp, đúng không?"
+        }
+      ]
+    },
+    "8": {
+      "zh": "然后我就和Paul呢一起在学法语，",
+      "parts": [
+        {
+          "zh": "然后我就和Paul呢",
+          "vi": "Rồi mình với Paul"
+        },
+        {
+          "zh": "一起在学法语，",
+          "vi": "cùng học tiếng Pháp với nhau,"
+        }
+      ]
+    },
+    "9": {
+      "zh": "然后就有请Paul今天来和我们瞎扯聊一聊我们在法国生活和留学的经历，",
+      "parts": [
+        {
+          "zh": "然后就有请Paul",
+          "vi": "rồi xin mời Paul"
+        },
+        {
+          "zh": "今天来和我们瞎扯聊一聊",
+          "vi": "hôm nay đến tán dóc với tụi mình về"
+        },
+        {
+          "zh": "我们在法国生活和留学的经历，",
+          "vi": "những trải nghiệm sống và du học ở Pháp của tụi mình,"
+        }
+      ]
+    },
+    "10": {
+      "zh": "特别是作为一个中国人吧，第一次来到欧洲，来到法国，肯定会有很多的文化文化冲突、",
+      "parts": [
+        {
+          "zh": "特别是作为一个中国人吧，",
+          "vi": "nhất là khi là một người Trung Quốc,"
+        },
+        {
+          "zh": "第一次来到欧洲，来到法国，",
+          "vi": "lần đầu đến châu Âu, đến Pháp,"
+        },
+        {
+          "zh": "肯定会有很多的文化文化冲突、",
+          "vi": "chắc chắn sẽ có rất nhiều xung đột văn hóa văn hóa,"
+        }
+      ]
+    },
+    "11": {
+      "zh": "文化冲击。就是所谓的cultural shock。",
+      "parts": [
+        {
+          "zh": "文化冲击。就是所谓的",
+          "vi": "sốc văn hóa. Tức là cái gọi là"
+        },
+        {
+          "zh": "cultural shock。",
+          "vi": "cultural shock."
+        }
+      ]
+    },
+    "13": {
+      "zh": "那Paul，我不知道你是哪一年来法国的呢？",
+      "parts": [
+        {
+          "zh": "那Paul，我不知道",
+          "vi": "Vậy Paul, mình không biết"
+        },
+        {
+          "zh": "你是哪一年来法国的呢？",
+          "vi": "cậu sang Pháp năm nào nhỉ?"
+        }
+      ]
+    },
+    "14": {
+      "zh": "啊，我在我是很早以前就来法国，那是在呃我记得很清楚，二零一五年。",
+      "parts": [
+        {
+          "zh": "啊，我在我是很早以前就来法国，",
+          "vi": "À, mình… mình sang Pháp từ lâu lắm rồi,"
+        },
+        {
+          "zh": "那是在呃我记得很清楚，二零一五年。",
+          "vi": "hồi đó là, ờ, mình nhớ rất rõ, năm 2015."
+        }
+      ]
+    },
+    "15": {
+      "zh": "我记得很清楚，主要是因为那一年恰好发生了震惊全球的恐怖袭击。",
+      "parts": [
+        {
+          "zh": "我记得很清楚，",
+          "vi": "Mình nhớ rất rõ,"
+        },
+        {
+          "zh": "主要是因为那一年恰好发生了",
+          "vi": "chủ yếu là vì đúng năm đó xảy ra"
+        },
+        {
+          "zh": "震惊全球的恐怖袭击。",
+          "vi": "vụ tấn công khủng bố chấn động toàn cầu."
+        }
+      ]
+    },
+    "16": {
+      "zh": "呃，我当时来法国的契机是进行一个学期的交换生。",
+      "parts": [
+        {
+          "zh": "呃，我当时来法国的契机",
+          "vi": "Ờ, cơ duyên mình sang Pháp hồi đó"
+        },
+        {
+          "zh": "是进行一个学期的交换生。",
+          "vi": "là đi làm sinh viên trao đổi một học kỳ."
+        }
+      ]
+    },
+    "17": {
+      "zh": "呃，当时就是因为我的本科学校跟呃就是法国这边的学校有这个签署合作协议，",
+      "parts": [
+        {
+          "zh": "呃，当时就是因为我的本科学校",
+          "vi": "Ờ, hồi đó là vì trường đại học của mình"
+        },
+        {
+          "zh": "跟呃就是法国这边的学校",
+          "vi": "với, ờ, tức là trường bên Pháp"
+        },
+        {
+          "zh": "有这个签署合作协议，",
+          "vi": "có ký một thỏa thuận hợp tác,"
+        }
+      ]
+    },
+    "18": {
+      "zh": "所以我就趁这个机会呃来到法国，然后了解这个国家，进一步的学习语言。",
+      "parts": [
+        {
+          "zh": "所以我就趁这个机会呃来到法国，",
+          "vi": "nên mình nhân cơ hội này, ờ, sang Pháp,"
+        },
+        {
+          "zh": "然后了解这个国家，",
+          "vi": "rồi tìm hiểu đất nước này,"
+        },
+        {
+          "zh": "进一步的学习语言。",
+          "vi": "học thêm ngôn ngữ."
+        }
+      ]
+    },
+    "19": {
+      "zh": "然后在那之后呢，我就呃回国完成了本科学业之后，在法国读研究生。",
+      "parts": [
+        {
+          "zh": "然后在那之后呢，",
+          "vi": "Rồi sau đó,"
+        },
+        {
+          "zh": "我就呃回国完成了本科学业之后，",
+          "vi": "mình, ờ, về nước học xong đại học,"
+        },
+        {
+          "zh": "在法国读研究生。",
+          "vi": "rồi sang Pháp học cao học."
+        }
+      ]
+    },
+    "20": {
+      "zh": "呃，在这个过程当中，呃，我除了在法国学习，当然也有。呃，简单的旅游，并且我在法国有呃基本的一些工作，并且现在将继续工作等等。",
+      "parts": [
+        {
+          "zh": "呃，在这个过程当中，",
+          "vi": "Ờ, trong quá trình đó,"
+        },
+        {
+          "zh": "呃，我除了在法国学习，",
+          "vi": "ờ, ngoài việc học ở Pháp ra,"
+        },
+        {
+          "zh": "当然也有。呃，简单的旅游，",
+          "vi": "tất nhiên cũng có. Ờ, đi du lịch đơn giản,"
+        },
+        {
+          "zh": "并且我在法国有呃基本的一些工作，",
+          "vi": "và mình cũng có làm, ờ, vài công việc cơ bản ở Pháp,"
+        },
+        {
+          "zh": "并且现在将继续工作等等。",
+          "vi": "và bây giờ sẽ tiếp tục đi làm, vân vân."
+        }
+      ]
+    },
+    "22": {
+      "zh": "你在法国当时一五年的时候是几岁啊？是大学生吗？",
+      "parts": [
+        {
+          "zh": "你在法国当时一五年的时候",
+          "vi": "Hồi năm 15 cậu ở Pháp"
+        },
+        {
+          "zh": "是几岁啊？是大学生吗？",
+          "vi": "thì mấy tuổi? Là sinh viên đại học à?"
+        }
+      ]
+    },
+    "24": {
+      "zh": "对对，那个时候我大学本科四年级好像是，对，四年级。",
+      "parts": [
+        {
+          "zh": "对对，那个时候我大学本科四年级",
+          "vi": "Đúng đúng, hồi đó mình đang năm tư đại học"
+        },
+        {
+          "zh": "好像是，对，四年级。",
+          "vi": "thì phải, đúng, năm tư."
+        }
+      ]
+    },
+    "25": {
+      "zh": "那那个时候你在来法国之前有没有去过其他的欧洲国家？",
+      "parts": [
+        {
+          "zh": "那那个时候你在来法国之前",
+          "vi": "Vậy hồi đó, trước khi sang Pháp"
+        },
+        {
+          "zh": "有没有去过其他的欧洲国家？",
+          "vi": "cậu đã từng đến nước châu Âu nào khác chưa?"
+        }
+      ]
+    },
+    "26": {
+      "zh": "有有，我在那个之前曾经有去过丹麦，也是进行类似的交换学习这样的。",
+      "parts": [
+        {
+          "zh": "有有，我在那个之前曾经有去过",
+          "vi": "Có có, trước đó mình từng đến"
+        },
+        {
+          "zh": "丹麦，也是进行类似的交换学习这样的。",
+          "vi": "Đan Mạch, cũng là đi trao đổi học tập kiểu tương tự."
+        }
+      ]
+    },
+    "27": {
+      "zh": "的一个呃经历，在当时丹麦呢是呃学习关于国际文化以及偏商科的一些知识，",
+      "parts": [
+        {
+          "zh": "的一个呃经历，在当时丹麦呢",
+          "vi": "một trải nghiệm như vậy, ờ. Hồi đó ở Đan Mạch thì"
+        },
+        {
+          "zh": "是呃学习关于国际文化",
+          "vi": "là, ờ, học về văn hóa quốc tế"
+        },
+        {
+          "zh": "以及偏商科的一些知识，",
+          "vi": "và một số kiến thức thiên về kinh doanh,"
+        }
+      ]
+    },
+    "28": {
+      "zh": "呃确实我从丹麦呃结束一个当时的学习之后再到法国有感觉到很大的不一样，",
+      "parts": [
+        {
+          "zh": "呃确实我从丹麦",
+          "vi": "Ờ, đúng là sau khi mình ở Đan Mạch"
+        },
+        {
+          "zh": "呃结束一个当时的学习之后",
+          "vi": "ờ, kết thúc đợt học hồi đó"
+        },
+        {
+          "zh": "再到法国有感觉到很大的不一样，",
+          "vi": "rồi sang Pháp thì thấy khác nhau rất nhiều,"
+        }
+      ]
+    },
+    "29": {
+      "zh": "比如说呃我觉得我第一次在国外经历丹麦那个国度呃其实感觉还是非常的。呃，自然或者说比较能够呃接受慢慢的感受他们的一些生活习惯的。",
+      "parts": [
+        {
+          "zh": "比如说呃我觉得",
+          "vi": "ví dụ, ờ, mình thấy"
+        },
+        {
+          "zh": "我第一次在国外经历丹麦那个国度",
+          "vi": "lần đầu mình trải nghiệm ở nước ngoài là ở đất nước Đan Mạch,"
+        },
+        {
+          "zh": "呃其实感觉还是非常的。呃，自然",
+          "vi": "ờ, thật ra cảm giác vẫn rất là. Ờ, tự nhiên,"
+        },
+        {
+          "zh": "或者说比较能够呃接受",
+          "vi": "hoặc nói là khá dễ, ờ, chấp nhận,"
+        },
+        {
+          "zh": "慢慢的感受他们的一些生活习惯的。",
+          "vi": "từ từ cảm nhận được một số thói quen sinh hoạt của họ."
+        }
+      ]
+    },
+    "31": {
+      "zh": "但是到了法国呢，虽然说我之前学过法语啊，我甚至没有学过丹麦语，但是我学过法语。",
+      "parts": [
+        {
+          "zh": "但是到了法国呢，",
+          "vi": "Nhưng đến Pháp thì,"
+        },
+        {
+          "zh": "虽然说我之前学过法语啊，",
+          "vi": "tuy mình từng học tiếng Pháp rồi,"
+        },
+        {
+          "zh": "我甚至没有学过丹麦语，",
+          "vi": "mình thậm chí chưa học tiếng Đan Mạch,"
+        },
+        {
+          "zh": "但是我学过法语。",
+          "vi": "nhưng mình đã học tiếng Pháp."
+        }
+      ]
+    },
+    "32": {
+      "zh": "但是我感觉到很多事情确实要花一点时间，不仅是适应，",
+      "parts": [
+        {
+          "zh": "但是我感觉到很多事情",
+          "vi": "Nhưng mình cảm thấy nhiều chuyện"
+        },
+        {
+          "zh": "确实要花一点时间，不仅是适应，",
+          "vi": "đúng là phải mất chút thời gian, không chỉ để thích nghi,"
+        }
+      ]
+    },
+    "33": {
+      "zh": "而且要理解它背后可能有特殊的做事逻辑。",
+      "parts": [
+        {
+          "zh": "而且要理解它背后",
+          "vi": "mà còn để hiểu đằng sau nó"
+        },
+        {
+          "zh": "可能有特殊的做事逻辑。",
+          "vi": "có thể có một logic làm việc đặc biệt."
+        }
+      ]
+    },
+    "34": {
+      "zh": "比如说，我最想要跟大家呃先吐露心声的就是他们很多行政事务很行很多行政上的事情都需要。",
+      "parts": [
+        {
+          "zh": "比如说，我最想要跟大家",
+          "vi": "Ví dụ, điều mình muốn nhất là cùng mọi người"
+        },
+        {
+          "zh": "呃先吐露心声的就是",
+          "vi": "ờ, trải lòng trước tiên, chính là"
+        },
+        {
+          "zh": "他们很多行政事务",
+          "vi": "nhiều việc hành chính của họ,"
+        },
+        {
+          "zh": "很行很多行政上的事情都需要。",
+          "vi": "rất… nhiều việc hành chính đều cần."
+        }
+      ]
+    },
+    "35": {
+      "zh": "呃，写信来完成啊，就是很多我可以在国内用电子版签名，或者说按一个按钮，",
+      "parts": [
+        {
+          "zh": "呃，写信来完成啊，就是很多",
+          "vi": "Ờ, viết thư để hoàn thành ấy, tức là nhiều"
+        },
+        {
+          "zh": "我可以在国内用电子版签名，",
+          "vi": "việc mà ở trong nước mình có thể ký bằng chữ ký điện tử,"
+        },
+        {
+          "zh": "或者说按一个按钮，",
+          "vi": "hoặc bấm một cái nút,"
+        }
+      ]
+    },
+    "36": {
+      "zh": "或者说用呃手机输入密码，呃这个指纹解锁来完成的事情，在法国一定要寄挂号信来完成啊。",
+      "parts": [
+        {
+          "zh": "或者说用呃手机输入密码，",
+          "vi": "hoặc dùng, ờ, điện thoại nhập mật khẩu,"
+        },
+        {
+          "zh": "呃这个指纹解锁来完成的事情，",
+          "vi": "ờ, mở khóa bằng vân tay là xong,"
+        },
+        {
+          "zh": "在法国一定要寄挂号信来完成啊。",
+          "vi": "thì ở Pháp nhất định phải gửi thư bảo đảm mới xong."
+        }
+      ]
+    },
+    "37": {
+      "zh": "这个一开始让我觉得非常麻烦。",
+      "vi": "Chuyện này lúc đầu làm mình thấy cực kỳ phiền."
+    },
+    "38": {
+      "zh": "刚才有提到一个词是挂号信，觉得这个词我们可以展开说一下，",
+      "parts": [
+        {
+          "zh": "刚才有提到一个词是挂号信，",
+          "vi": "Vừa nãy có nhắc đến một từ là 挂号信 (thư bảo đảm),"
+        },
+        {
+          "zh": "觉得这个词我们可以展开说一下，",
+          "vi": "mình thấy từ này tụi mình có thể nói rộng ra một chút,"
+        }
+      ]
+    },
+    "39": {
+      "zh": "可以稍微解释一下什么是挂号信吗？",
+      "vi": "Cậu giải thích qua một chút 挂号信 là gì được không?"
+    },
+    "40": {
+      "zh": "挂号信就是和一般的平邮信件相区别它是指这个信寄出之后如果对方收到我作为寄信人可以获得一个对方收到的通知然后在法国呢我可以收到一张条子就是一张小纸条在我的信箱里这是邮递员告诉我我的这份挂号信已经到达了对方邮箱嗯，",
+      "parts": [
+        {
+          "zh": "挂号信就是",
+          "vi": "挂号信 chính là"
+        },
+        {
+          "zh": "和一般的平邮信件相区别",
+          "vi": "khác với thư thường,"
+        },
+        {
+          "zh": "它是指这个信寄出之后",
+          "vi": "nó là chỉ sau khi thư được gửi đi"
+        },
+        {
+          "zh": "如果对方收到我作为寄信人",
+          "vi": "nếu bên kia nhận được, thì mình là người gửi"
+        },
+        {
+          "zh": "可以获得一个对方收到的通知",
+          "vi": "có thể nhận được thông báo là bên kia đã nhận."
+        },
+        {
+          "zh": "然后在法国呢我可以收到一张条子",
+          "vi": "Rồi ở Pháp thì mình có thể nhận được một tờ giấy,"
+        },
+        {
+          "zh": "就是一张小纸条在我的信箱里",
+          "vi": "tức là một mẩu giấy nhỏ trong hộp thư của mình,"
+        },
+        {
+          "zh": "这是邮递员告诉我",
+          "vi": "đây là người đưa thư báo cho mình"
+        },
+        {
+          "zh": "我的这份挂号信",
+          "vi": "lá thư bảo đảm này của mình"
+        },
+        {
+          "zh": "已经到达了对方邮箱嗯，",
+          "vi": "đã đến hộp thư của bên kia rồi, ừm,"
+        }
+      ]
+    },
+    "43": {
+      "zh": "所以说挂号信的话是就比较，然后这样比较安全。",
+      "parts": [
+        {
+          "zh": "所以说挂号信的话是就比较，",
+          "vi": "Vậy nói chung thư bảo đảm thì khá là,"
+        },
+        {
+          "zh": "然后这样比较安全。",
+          "vi": "rồi như vậy khá an toàn."
+        }
+      ]
+    },
+    "44": {
+      "zh": "是的，呃，同时挂号信也在法律上被认为是一个呃证据，",
+      "parts": [
+        {
+          "zh": "是的，呃，同时挂号信",
+          "vi": "Đúng vậy, ờ, đồng thời thư bảo đảm"
+        },
+        {
+          "zh": "也在法律上被认为是一个呃证据，",
+          "vi": "về mặt pháp luật cũng được coi là một, ờ, bằng chứng,"
+        }
+      ]
+    },
+    "45": {
+      "zh": "或者说是可以呃作为法律上的证证据呃来利用的。",
+      "parts": [
+        {
+          "zh": "或者说是可以呃",
+          "vi": "hoặc nói là có thể, ờ,"
+        },
+        {
+          "zh": "作为法律上的证证据呃来利用的。",
+          "vi": "dùng làm chứng… chứng cứ pháp lý, ờ, được."
+        }
+      ]
+    },
+    "46": {
+      "zh": "嗯嗯，对你说的这个吐槽的点，吐槽的意思就是就是抱怨吧，相当于，",
+      "parts": [
+        {
+          "zh": "嗯嗯，对你说的这个吐槽的点，",
+          "vi": "Ừm ừm, đúng, cái điểm 吐槽 cậu nói,"
+        },
+        {
+          "zh": "吐槽的意思就是就是抱怨吧，相当于，",
+          "vi": "吐槽 nghĩa là… là phàn nàn đấy, tương đương với,"
+        }
+      ]
+    },
+    "47": {
+      "zh": "但是是比较轻程度的一个抱怨。",
+      "vi": "nhưng là kiểu phàn nàn ở mức nhẹ."
+    },
+    "48": {
+      "zh": "我在法国也经常。就是碰到这种行政上的事务需要寄信，然后特别的流程特别的长，特别的冗长。",
+      "parts": [
+        {
+          "zh": "我在法国也经常。就是碰到",
+          "vi": "Ở Pháp mình cũng thường. Tức là gặp phải"
+        },
+        {
+          "zh": "这种行政上的事务需要寄信，",
+          "vi": "kiểu việc hành chính cần gửi thư thế này,"
+        },
+        {
+          "zh": "然后特别的流程",
+          "vi": "rồi quy trình đặc biệt"
+        },
+        {
+          "zh": "特别的长，特别的冗长。",
+          "vi": "đặc biệt dài, đặc biệt lê thê."
+        }
+      ]
+    },
+    "50": {
+      "zh": "比如说我刚刚来法国的时候需要办一张银行卡，",
+      "parts": [
+        {
+          "zh": "比如说我刚刚来法国的时候",
+          "vi": "Ví dụ hồi mình mới sang Pháp"
+        },
+        {
+          "zh": "需要办一张银行卡，",
+          "vi": "cần làm một cái thẻ ngân hàng,"
+        }
+      ]
+    },
+    "51": {
+      "zh": "但是呢办银行卡在中国可能有很多外国朋友不知道，但是在中国非常的容易，",
+      "parts": [
+        {
+          "zh": "但是呢办银行卡在中国",
+          "vi": "nhưng mà làm thẻ ngân hàng ở Trung Quốc"
+        },
+        {
+          "zh": "可能有很多外国朋友不知道，",
+          "vi": "có lẽ nhiều bạn nước ngoài không biết,"
+        },
+        {
+          "zh": "但是在中国非常的容易，",
+          "vi": "nhưng ở Trung Quốc thì cực kỳ dễ,"
+        }
+      ]
+    },
+    "52": {
+      "zh": "就只需要跑到银行柜台，然后拿出你的身份证和可能五十块钱人民币。",
+      "parts": [
+        {
+          "zh": "就只需要跑到银行柜台，",
+          "vi": "chỉ cần chạy ra quầy ngân hàng,"
+        },
+        {
+          "zh": "然后拿出你的身份证",
+          "vi": "rồi đưa chứng minh thư ra"
+        },
+        {
+          "zh": "和可能五十块钱人民币。",
+          "vi": "với chắc khoảng 50 tệ."
+        }
+      ]
+    },
+    "53": {
+      "zh": "大概花三十分钟、二十分钟的时间，你就可以拿着银行卡回家了。",
+      "parts": [
+        {
+          "zh": "大概花三十分钟、二十分钟的时间，",
+          "vi": "Mất chừng ba mươi phút, hai mươi phút thôi,"
+        },
+        {
+          "zh": "你就可以拿着银行卡回家了。",
+          "vi": "là bạn có thể cầm thẻ ngân hàng về nhà rồi."
+        }
+      ]
+    },
+    "54": {
+      "zh": "但是呢，在法国不可以，在法国需要先给银行做一个预约，就是做一个rendez-vous。",
+      "parts": [
+        {
+          "zh": "但是呢，在法国不可以，",
+          "vi": "Nhưng ở Pháp thì không được,"
+        },
+        {
+          "zh": "在法国需要先给银行做一个预约，",
+          "vi": "ở Pháp phải đặt hẹn với ngân hàng trước,"
+        },
+        {
+          "zh": "就是做一个",
+          "vi": "tức là làm một cái"
+        },
+        {
+          "zh": "rendez-vous。",
+          "vi": "rendez-vous."
+        }
+      ]
+    },
+    "55": {
+      "zh": "然后呢，当天去了银行柜台以后，办了一通的手续，并不能拿到银行卡。",
+      "parts": [
+        {
+          "zh": "然后呢，当天去了银行柜台以后，",
+          "vi": "Rồi đến hôm đó ra quầy ngân hàng,"
+        },
+        {
+          "zh": "办了一通的手续，并不能拿到银行卡。",
+          "vi": "làm cả một loạt thủ tục, mà vẫn không lấy được thẻ."
+        }
+      ]
+    },
+    "56": {
+      "zh": "然后要回家，我在家等邮件，等了大概两个星期才收到一个邮件。",
+      "parts": [
+        {
+          "zh": "然后要回家，我在家等邮件，",
+          "vi": "Rồi phải về nhà, mình ở nhà chờ thư,"
+        },
+        {
+          "zh": "等了大概两个星期才收到一个邮件。",
+          "vi": "chờ khoảng hai tuần mới nhận được một lá thư"
+        }
+      ]
+    },
+    "57": {
+      "zh": "告诉了我密码，是的，对吧？",
+      "vi": "báo cho mình mật khẩu, đúng rồi, phải không?"
+    },
+    "58": {
+      "zh": "然后收到密码以后，我才能再回到银行去取我的银行卡。",
+      "parts": [
+        {
+          "zh": "然后收到密码以后，",
+          "vi": "Rồi nhận được mật khẩu rồi,"
+        },
+        {
+          "zh": "我才能再回到银行去取我的银行卡。",
+          "vi": "mình mới lại quay ra ngân hàng lấy thẻ."
+        }
+      ]
+    },
+    "59": {
+      "zh": "他并不能直接寄给我这张银行卡，所以非常的麻烦。",
+      "parts": [
+        {
+          "zh": "他并不能直接寄给我这张银行卡，",
+          "vi": "Họ không gửi thẳng thẻ cho mình được,"
+        },
+        {
+          "zh": "所以非常的麻烦。",
+          "vi": "nên cực kỳ phiền."
+        }
+      ]
+    },
+    "60": {
+      "zh": "对，我觉得，我觉得确实如此。",
+      "vi": "Đúng, mình thấy, mình thấy đúng là như vậy."
+    },
+    "61": {
+      "zh": "就是在法国很多事情你得跑两三趟，",
+      "vi": "Tức là ở Pháp nhiều việc bạn phải chạy hai ba chuyến,"
+    },
+    "62": {
+      "zh": "就是你得亲身到那个办事的地点好几趟才能完成一个或许在中国只需要一点点时间就可以完成的事儿。",
+      "parts": [
+        {
+          "zh": "就是你得亲身到那个办事的地点",
+          "vi": "tức là bạn phải tự mình đến chỗ làm việc đó"
+        },
+        {
+          "zh": "好几趟才能完成一个",
+          "vi": "mấy chuyến mới xong được một việc"
+        },
+        {
+          "zh": "或许在中国只需要一点点时间",
+          "vi": "mà có lẽ ở Trung Quốc chỉ mất chút xíu thời gian"
+        },
+        {
+          "zh": "就可以完成的事儿。",
+          "vi": "là xong."
+        }
+      ]
+    },
+    "64": {
+      "zh": "而且我我最不能理解的是，他所有的事情都需要先预约一下。",
+      "parts": [
+        {
+          "zh": "而且我我最不能理解的是，",
+          "vi": "Mà điều mình khó hiểu nhất là,"
+        },
+        {
+          "zh": "他所有的事情都需要先预约一下。",
+          "vi": "việc gì họ cũng cần đặt hẹn trước."
+        }
+      ]
+    },
+    "65": {
+      "zh": "如果你不预约的话，他他就不帮你办这个事情。",
+      "parts": [
+        {
+          "zh": "如果你不预约的话，",
+          "vi": "Nếu bạn không đặt hẹn,"
+        },
+        {
+          "zh": "他他就不帮你办这个事情。",
+          "vi": "họ… họ không làm cho bạn việc đó."
+        }
+      ]
+    },
+    "66": {
+      "zh": "是的，是的，我完全完全就是感同身受。",
+      "vi": "Đúng vậy, đúng vậy, mình hoàn toàn… hoàn toàn đồng cảm."
+    },
+    "67": {
+      "zh": "嗯，他们在法国的那个文化当中，好像预约是一个看似没法立刻办，",
+      "parts": [
+        {
+          "zh": "嗯，他们在法国的那个文化当中，",
+          "vi": "Ừm, trong văn hóa ở Pháp của họ,"
+        },
+        {
+          "zh": "好像预约是一个看似没法立刻办，",
+          "vi": "hình như đặt hẹn là một việc trông thì không làm ngay được,"
+        }
+      ]
+    },
+    "68": {
+      "zh": "但是似乎可以在总体上提高效率的一件事情。",
+      "parts": [
+        {
+          "zh": "但是似乎可以在总体上",
+          "vi": "nhưng hình như về tổng thể"
+        },
+        {
+          "zh": "提高效率的一件事情。",
+          "vi": "lại nâng cao được hiệu suất."
+        }
+      ]
+    },
+    "69": {
+      "zh": "也就是后来我。就如刚刚所说，想试图理解一下他们背后的逻辑。",
+      "parts": [
+        {
+          "zh": "也就是后来我。就如刚刚所说，",
+          "vi": "Tức là sau này mình. Như vừa nói,"
+        },
+        {
+          "zh": "想试图理解一下他们背后的逻辑。",
+          "vi": "mình muốn thử hiểu logic đằng sau của họ."
+        }
+      ]
+    },
+    "71": {
+      "zh": "可能法国人觉得我给你了一个预约的时间，这样可以让你在未来安排个人生活的时候，",
+      "parts": [
+        {
+          "zh": "可能法国人觉得",
+          "vi": "Có lẽ người Pháp cho rằng"
+        },
+        {
+          "zh": "我给你了一个预约的时间，",
+          "vi": "tôi cho bạn một giờ hẹn,"
+        },
+        {
+          "zh": "这样可以让你在未来",
+          "vi": "như vậy có thể giúp bạn trong tương lai"
+        },
+        {
+          "zh": "安排个人生活的时候，",
+          "vi": "khi sắp xếp cuộc sống cá nhân,"
+        }
+      ]
+    },
+    "72": {
+      "zh": "将这个已经确定时间的预约更好的纳入你的生活日程安排当中。",
+      "parts": [
+        {
+          "zh": "将这个已经确定时间的预约",
+          "vi": "đưa cái hẹn đã chốt giờ này"
+        },
+        {
+          "zh": "更好的纳入你的生活日程安排当中。",
+          "vi": "vào lịch sinh hoạt của mình tốt hơn."
+        }
+      ]
+    },
+    "73": {
+      "zh": "这可能是他们背后做这个事情的思维方法。",
+      "parts": [
+        {
+          "zh": "这可能是他们背后",
+          "vi": "Có lẽ đằng sau đó"
+        },
+        {
+          "zh": "做这个事情的思维方法。",
+          "vi": "là lối tư duy khi họ làm việc này."
+        }
+      ]
+    },
+    "74": {
+      "zh": "嗯，但是有些事情呢，我已经习惯在国内就直接上门。立刻马上办掉，比如说我有一次就去法国的一个理发店，嗯，然后我说能不能理发？",
+      "parts": [
+        {
+          "zh": "嗯，但是有些事情呢，",
+          "vi": "Ừm, nhưng có những việc,"
+        },
+        {
+          "zh": "我已经习惯在国内",
+          "vi": "mình đã quen là ở trong nước"
+        },
+        {
+          "zh": "就直接上门。立刻马上办掉，",
+          "vi": "cứ đến tận nơi. Làm xong ngay lập tức,"
+        },
+        {
+          "zh": "比如说我有一次",
+          "vi": "ví dụ có một lần mình"
+        },
+        {
+          "zh": "就去法国的一个理发店，",
+          "vi": "đến một tiệm cắt tóc ở Pháp,"
+        },
+        {
+          "zh": "嗯，然后我说能不能理发？",
+          "vi": "ừm, rồi mình hỏi có cắt tóc được không?"
+        }
+      ]
+    },
+    "76": {
+      "zh": "他们当时确实整个理发店内没有一个人，但是他们呃就表示不行，我们一定要预约啊。",
+      "parts": [
+        {
+          "zh": "他们当时确实",
+          "vi": "Lúc đó đúng là"
+        },
+        {
+          "zh": "整个理发店内没有一个人，",
+          "vi": "cả tiệm cắt tóc không có một ai,"
+        },
+        {
+          "zh": "但是他们呃就表示不行，",
+          "vi": "nhưng họ, ờ, nói là không được,"
+        },
+        {
+          "zh": "我们一定要预约啊。",
+          "vi": "chúng tôi nhất định phải đặt hẹn."
+        }
+      ]
+    },
+    "77": {
+      "zh": "然后我说我能不能现在就在你面前预约现在这个时候？",
+      "parts": [
+        {
+          "zh": "然后我说我能不能",
+          "vi": "Rồi mình hỏi mình có thể"
+        },
+        {
+          "zh": "现在就在你面前预约现在这个时候？",
+          "vi": "đặt hẹn ngay trước mặt anh bây giờ, vào giờ này luôn được không?"
+        }
+      ]
+    },
+    "78": {
+      "zh": "他们说不行，一定要打电话。",
+      "vi": "Họ nói không được, nhất định phải gọi điện."
+    },
+    "79": {
+      "zh": "那我说能不能我走出去就在门口给你们打电话？",
+      "parts": [
+        {
+          "zh": "那我说能不能我走出去",
+          "vi": "Vậy mình hỏi mình bước ra ngoài"
+        },
+        {
+          "zh": "就在门口给你们打电话？",
+          "vi": "đứng ngay cửa gọi điện cho các anh được không?"
+        }
+      ]
+    },
+    "80": {
+      "zh": "他们说那倒是可以的。",
+      "vi": "Họ nói thế thì được."
+    },
+    "81": {
+      "zh": "但是呢，你要求的这个时间现在是不行，",
+      "parts": [
+        {
+          "zh": "但是呢，你要求的这个时间",
+          "vi": "Nhưng mà, giờ anh yêu cầu"
+        },
+        {
+          "zh": "现在是不行，",
+          "vi": "bây giờ thì không được,"
+        }
+      ]
+    },
+    "82": {
+      "zh": "因为现在这个时间段是安排给另外一位已经预约过的客人了，只是这个客人还没有到。",
+      "parts": [
+        {
+          "zh": "因为现在这个时间段",
+          "vi": "vì khung giờ bây giờ"
+        },
+        {
+          "zh": "是安排给另外一位",
+          "vi": "đã xếp cho một vị khách khác"
+        },
+        {
+          "zh": "已经预约过的客人了，",
+          "vi": "đã đặt hẹn trước rồi,"
+        },
+        {
+          "zh": "只是这个客人还没有到。",
+          "vi": "chỉ là vị khách này chưa đến thôi."
+        }
+      ]
+    },
+    "83": {
+      "zh": "啊，当时我就被深深的上了一课。",
+      "vi": "À, lúc đó mình đã được một bài học sâu sắc."
+    },
+    "84": {
+      "zh": "呃，接下来所有的事情我都知道，应该先打个电话，哪怕我不知道有没有不知道有没有预约，",
+      "parts": [
+        {
+          "zh": "呃，接下来所有的事情我都知道，",
+          "vi": "Ờ, những việc sau này mình đều biết,"
+        },
+        {
+          "zh": "应该先打个电话，",
+          "vi": "nên gọi điện trước,"
+        },
+        {
+          "zh": "哪怕我不知道有没有",
+          "vi": "cho dù mình không biết có"
+        },
+        {
+          "zh": "不知道有没有预约，",
+          "vi": "không biết có lịch hẹn không,"
+        }
+      ]
+    },
+    "85": {
+      "zh": "我得先打个电话问一问有没有预约。",
+      "vi": "mình phải gọi điện trước hỏi thử xem có lịch hẹn không."
+    },
+    "86": {
+      "zh": "这后来成了我后来的办事方法。",
+      "vi": "Sau này đó thành cách làm việc của mình."
+    },
+    "87": {
+      "zh": "对，是，但是我之前也听一个。朋友外国朋友就是英国的朋友吐槽法国的预约文化，他也是说，",
+      "parts": [
+        {
+          "zh": "对，是，但是我之前也听一个。朋友",
+          "vi": "Đúng, phải, nhưng trước đây mình cũng nghe một. Người bạn"
+        },
+        {
+          "zh": "外国朋友就是英国的朋友",
+          "vi": "người bạn nước ngoài, là một người bạn người Anh,"
+        },
+        {
+          "zh": "吐槽法国的预约文化，他也是说，",
+          "vi": "phàn nàn về văn hóa đặt hẹn ở Pháp, bạn ấy cũng nói,"
+        }
+      ]
+    },
+    "89": {
+      "zh": "他说他站在办事情的人面前说我能不能和你面对面的预约？",
+      "parts": [
+        {
+          "zh": "他说他站在办事情的人面前",
+          "vi": "bạn ấy nói bạn ấy đứng trước mặt người làm thủ tục"
+        },
+        {
+          "zh": "说我能不能和你面对面的预约？",
+          "vi": "hỏi tôi có thể đặt hẹn trực tiếp với anh không?"
+        }
+      ]
+    },
+    "90": {
+      "zh": "他说不可以，你一定要回家打电话才能预约。",
+      "parts": [
+        {
+          "zh": "他说不可以，",
+          "vi": "Người đó nói không được,"
+        },
+        {
+          "zh": "你一定要回家打电话才能预约。",
+          "vi": "anh nhất định phải về nhà gọi điện mới đặt hẹn được."
+        }
+      ]
+    },
+    "91": {
+      "zh": "这个点我觉得也是挺是的，呃，",
+      "vi": "Điểm này mình thấy cũng khá là… ờ,"
+    },
+    "92": {
+      "zh": "好像似乎对他们来说打电话是一个可以被录音或者说默认具有法律效益的东西，嗯，但。可能他们就是习惯这么做了。",
+      "parts": [
+        {
+          "zh": "好像似乎对他们来说",
+          "vi": "Hình như đối với họ"
+        },
+        {
+          "zh": "打电话是一个可以被录音",
+          "vi": "gọi điện là một thứ có thể được ghi âm"
+        },
+        {
+          "zh": "或者说默认具有法律效益的东西，",
+          "vi": "hoặc mặc định là có hiệu lực pháp lý,"
+        },
+        {
+          "zh": "嗯，但。可能他们就是习惯这么做了。",
+          "vi": "ừm, nhưng. Có lẽ họ chỉ là quen làm vậy rồi."
+        }
+      ]
+    },
+    "94": {
+      "zh": "嗯，然后我还有一个可以吐槽的点，就是关于法国人的这个发音，特别是他们读我的名字，",
+      "parts": [
+        {
+          "zh": "嗯，然后我还有一个可以吐槽的点，",
+          "vi": "Ừm, rồi mình còn một điểm có thể phàn nàn nữa,"
+        },
+        {
+          "zh": "就是关于法国人的这个发音，",
+          "vi": "là về cách phát âm của người Pháp,"
+        },
+        {
+          "zh": "特别是他们读我的名字，",
+          "vi": "nhất là khi họ đọc tên mình,"
+        }
+      ]
+    },
+    "95": {
+      "zh": "我觉得简直是一大是呃人间一大惨事、一大惨状。",
+      "parts": [
+        {
+          "zh": "我觉得简直是一大是",
+          "vi": "mình thấy đúng là một… là,"
+        },
+        {
+          "zh": "呃人间一大惨事、一大惨状。",
+          "vi": "ờ, thảm họa nhân gian, một cảnh thảm."
+        }
+      ]
+    },
+    "96": {
+      "zh": "就是我的名字呢，其实确实不是很好念，哪怕是中国人，嗯，也不是特别容易。",
+      "parts": [
+        {
+          "zh": "就是我的名字呢，",
+          "vi": "Tức là tên của mình ấy,"
+        },
+        {
+          "zh": "其实确实不是很好念，",
+          "vi": "thật ra đúng là không dễ đọc lắm,"
+        },
+        {
+          "zh": "哪怕是中国人，嗯，也不是特别容易。",
+          "vi": "kể cả người Trung Quốc, ừm, cũng không dễ lắm."
+        }
+      ]
+    },
+    "97": {
+      "zh": "它是X I N Q I N GXinqing。",
+      "parts": [
+        {
+          "zh": "它是X I N Q I N G",
+          "vi": "Nó là X-I-N-Q-I-N-G,"
+        },
+        {
+          "zh": "Xinqing。",
+          "vi": "Xinqing."
+        }
+      ]
+    },
+    "98": {
+      "zh": "然后前面这个“新”是前鼻音，后面这个“青”是后鼻音。",
+      "parts": [
+        {
+          "zh": "然后前面这个“新”是前鼻音，",
+          "vi": "Rồi chữ “新” (xin) phía trước là âm mũi trước,"
+        },
+        {
+          "zh": "后面这个“青”是后鼻音。",
+          "vi": "chữ “青” (qing) phía sau là âm mũi sau."
+        }
+      ]
+    },
+    "99": {
+      "zh": "后来呢，我把这个名字给法国人看，大多数人都会发成“青青”或者“金金”之类的。",
+      "parts": [
+        {
+          "zh": "后来呢，我把这个名字给法国人看，",
+          "vi": "Sau đó mình đưa tên này cho người Pháp xem,"
+        },
+        {
+          "zh": "大多数人都会发成",
+          "vi": "phần lớn mọi người đều đọc thành"
+        },
+        {
+          "zh": "“青青”或者“金金”之类的。",
+          "vi": "“qingqing” hoặc “jinjin” gì đó."
+        }
+      ]
+    },
+    "100": {
+      "zh": "在拼写的时候，几乎所有的人都会拼成Q U I N G。",
+      "parts": [
+        {
+          "zh": "在拼写的时候，",
+          "vi": "Khi đánh vần,"
+        },
+        {
+          "zh": "几乎所有的人都会拼成Q U I N G。",
+          "vi": "gần như ai cũng đánh vần thành Q-U-I-N-G."
+        }
+      ]
+    },
+    "101": {
+      "zh": "我觉得可能是因为法国人没有办法理解Q后面直接跟ING。",
+      "parts": [
+        {
+          "zh": "我觉得可能是因为法国人",
+          "vi": "Mình nghĩ có lẽ là vì người Pháp"
+        },
+        {
+          "zh": "没有办法理解Q后面直接跟ING。",
+          "vi": "không hiểu nổi sao sau Q lại đi liền với ING."
+        }
+      ]
+    },
+    "102": {
+      "zh": "对对对，我完全可以想象，这应该是法国人他们按照自己。",
+      "parts": [
+        {
+          "zh": "对对对，我完全可以想象，",
+          "vi": "Đúng đúng đúng, mình hoàn toàn hình dung được,"
+        },
+        {
+          "zh": "这应该是法国人他们按照自己。",
+          "vi": "chắc là người Pháp họ dựa theo"
+        }
+      ]
+    },
+    "103": {
+      "zh": "自己的发音规则，然后对你的拼写进行了法语式的改造。",
+      "parts": [
+        {
+          "zh": "自己的发音规则，",
+          "vi": "quy tắc phát âm của chính họ,"
+        },
+        {
+          "zh": "然后对你的拼写",
+          "vi": "rồi đem cách viết tên cậu"
+        },
+        {
+          "zh": "进行了法语式的改造。",
+          "vi": "cải biến theo kiểu tiếng Pháp."
+        }
+      ]
+    },
+    "104": {
+      "zh": "姑且先这么说吧，嗯，这个真的非常的法国特色，因为呃，在法语里面，",
+      "parts": [
+        {
+          "zh": "姑且先这么说吧，",
+          "vi": "Tạm cứ nói vậy đi,"
+        },
+        {
+          "zh": "嗯，这个真的非常的法国特色，",
+          "vi": "ừm, cái này đúng là rất đặc trưng kiểu Pháp,"
+        },
+        {
+          "zh": "因为呃，在法语里面，",
+          "vi": "vì, ờ, trong tiếng Pháp,"
+        }
+      ]
+    },
+    "105": {
+      "zh": "q这个在词末大多数情况下是要发音的。",
+      "parts": [
+        {
+          "zh": "q这个在词末",
+          "vi": "chữ q này ở cuối từ"
+        },
+        {
+          "zh": "大多数情况下是要发音的。",
+          "vi": "phần lớn trường hợp là phải phát âm."
+        }
+      ]
+    },
+    "106": {
+      "zh": "我的名字呢里面有个g，嗯，所以他们有时候会发完之后再加个g，我听得莫名其妙。",
+      "parts": [
+        {
+          "zh": "我的名字呢里面有个g，",
+          "vi": "Trong tên mình có chữ g,"
+        },
+        {
+          "zh": "嗯，所以他们有时候",
+          "vi": "ừm, nên đôi khi họ"
+        },
+        {
+          "zh": "会发完之后再加个g，",
+          "vi": "đọc xong còn thêm một âm g nữa,"
+        },
+        {
+          "zh": "我听得莫名其妙。",
+          "vi": "mình nghe mà chẳng hiểu gì cả."
+        }
+      ]
+    },
+    "107": {
+      "zh": "以前。课堂上点名我的名字念完之后有个歌这时的我感觉没法理解后来我就习惯了后来我比如说在新的场合认识新的法国朋友我就直接在我自我介绍的过程当中加上了这个歌他们也能理解而且我觉得你的名字一开始的那个X他们很容易习惯性的念成歌兹或者是歌斯你有没有遇到过这样的情况我觉得我遇到大多数的情况是，",
+      "parts": [
+        {
+          "zh": "以前。课堂上点名",
+          "vi": "Hồi trước. Trên lớp điểm danh"
+        },
+        {
+          "zh": "我的名字念完之后有个歌",
+          "vi": "tên mình đọc xong lại có thêm âm “ge”,"
+        },
+        {
+          "zh": "这时的我感觉没法理解",
+          "vi": "lúc đó mình thấy không hiểu nổi,"
+        },
+        {
+          "zh": "后来我就习惯了",
+          "vi": "sau rồi mình cũng quen,"
+        },
+        {
+          "zh": "后来我比如说在新的场合",
+          "vi": "sau này mình, ví dụ ở những dịp mới"
+        },
+        {
+          "zh": "认识新的法国朋友",
+          "vi": "làm quen với bạn người Pháp mới,"
+        },
+        {
+          "zh": "我就直接在我自我介绍的过程当中",
+          "vi": "mình liền trong lúc tự giới thiệu"
+        },
+        {
+          "zh": "加上了这个歌他们也能理解",
+          "vi": "thêm luôn âm “ge” đó vào, họ cũng hiểu được."
+        },
+        {
+          "zh": "而且我觉得你的名字",
+          "vi": "Với lại mình thấy tên của cậu"
+        },
+        {
+          "zh": "一开始的那个X他们很容易",
+          "vi": "cái chữ X ở đầu, họ rất dễ"
+        },
+        {
+          "zh": "习惯性的念成歌兹或者是歌斯",
+          "vi": "theo thói quen đọc thành “ge-zi” hoặc “ge-si”,"
+        },
+        {
+          "zh": "你有没有遇到过这样的情况",
+          "vi": "cậu có gặp trường hợp như vậy không?"
+        },
+        {
+          "zh": "我觉得我遇到大多数的情况是，",
+          "vi": "Mình thấy phần lớn trường hợp mình gặp là,"
+        }
+      ]
+    },
+    "112": {
+      "zh": "他们看到这个X就放弃了，他们就不知道怎么念，",
+      "parts": [
+        {
+          "zh": "他们看到这个X就放弃了，",
+          "vi": "họ thấy chữ X này là bỏ cuộc,"
+        },
+        {
+          "zh": "他们就不知道怎么念，",
+          "vi": "họ không biết đọc thế nào,"
+        }
+      ]
+    },
+    "113": {
+      "zh": "因为他们可能知道不应该念成个心或者个兹，但是因为他们觉得这个这样念很奇怪，",
+      "parts": [
+        {
+          "zh": "因为他们可能知道",
+          "vi": "vì họ có thể biết"
+        },
+        {
+          "zh": "不应该念成个心或者个兹，",
+          "vi": "không nên đọc thành “ge-xin” hay “ge-zi”,"
+        },
+        {
+          "zh": "但是因为他们觉得",
+          "vi": "nhưng vì họ thấy"
+        },
+        {
+          "zh": "这个这样念很奇怪，",
+          "vi": "đọc thế này rất kỳ,"
+        }
+      ]
+    },
+    "114": {
+      "zh": "但他们也不知道应该怎么发。",
+      "vi": "Nhưng họ cũng không biết nên phát âm thế nào."
+    },
+    "115": {
+      "zh": "然后，但其实也挺好的，这个就会变成一般老师上课点名，他们就会看到我的名字，",
+      "parts": [
+        {
+          "zh": "然后，但其实也挺好的，",
+          "vi": "Rồi, nhưng thật ra cũng hay,"
+        },
+        {
+          "zh": "这个就会变成一般老师上课点名，",
+          "vi": "chuyện này thành ra thường khi thầy cô điểm danh trên lớp,"
+        },
+        {
+          "zh": "他们就会看到我的名字，",
+          "vi": "họ sẽ nhìn thấy tên mình,"
+        }
+      ]
+    },
+    "116": {
+      "zh": "然后就直接问：哎，这位同学Lu。",
+      "vi": "rồi hỏi thẳng luôn: Ơ, bạn Lu này."
+    },
+    "117": {
+      "zh": "请问你的名字怎么念？",
+      "vi": "Xin hỏi tên bạn đọc thế nào?"
+    },
+    "118": {
+      "zh": "这样就会变成一个记忆点。",
+      "vi": "Thế là thành một điểm dễ nhớ."
+    },
+    "119": {
+      "zh": "怎么说呢？",
+      "vi": "Nói sao nhỉ?"
+    },
+    "120": {
+      "zh": "就是我我的我会比较容易被老师上课的老师记住，因为课上其他同学呀，很多法国人呀、",
+      "parts": [
+        {
+          "zh": "就是我我的我会比较容易",
+          "vi": "Tức là mình… của mình… mình sẽ dễ"
+        },
+        {
+          "zh": "被老师上课的老师记住，",
+          "vi": "được thầy cô dạy trên lớp nhớ hơn,"
+        },
+        {
+          "zh": "因为课上其他同学呀，很多法国人呀、",
+          "vi": "vì các bạn khác trong lớp, nhiều người Pháp,"
+        }
+      ]
+    },
+    "121": {
+      "zh": "欧洲人呀，名字都很普遍，什么Charlotte或者是Emma之类的。",
+      "parts": [
+        {
+          "zh": "欧洲人呀，名字都很普遍，",
+          "vi": "người châu Âu, tên đều rất phổ biến,"
+        },
+        {
+          "zh": "什么Charlotte",
+          "vi": "kiểu Charlotte"
+        },
+        {
+          "zh": "或者是Emma之类的。",
+          "vi": "hoặc Emma gì đó."
+        }
+      ]
+    },
+    "122": {
+      "zh": "然后呢，老师就会记住，哎，有一个发音很难、很非常难念的中国人。",
+      "parts": [
+        {
+          "zh": "然后呢，老师就会记住，哎，",
+          "vi": "Rồi thầy cô sẽ nhớ, à,"
+        },
+        {
+          "zh": "有一个发音很难、",
+          "vi": "có một người Trung Quốc phát âm rất khó,"
+        },
+        {
+          "zh": "很非常难念的中国人。",
+          "vi": "rất, cực kỳ khó đọc."
+        }
+      ]
+    },
+    "123": {
+      "zh": "对对，在中文里，我们这个叫给对方留下深刻印象。",
+      "parts": [
+        {
+          "zh": "对对，在中文里，",
+          "vi": "Đúng đúng, trong tiếng Trung,"
+        },
+        {
+          "zh": "我们这个叫给对方留下深刻印象。",
+          "vi": "cái này tụi mình gọi là 给对方留下深刻印象 (để lại ấn tượng sâu sắc)."
+        }
+      ]
+    },
+    "124": {
+      "zh": "一个特殊的印象，嗯，我以前说到这个姓氏，以前我有我读书的时候一个同学，",
+      "parts": [
+        {
+          "zh": "一个特殊的印象，嗯，",
+          "vi": "Một ấn tượng đặc biệt, ừm,"
+        },
+        {
+          "zh": "我以前说到这个姓氏，",
+          "vi": "trước đây nói đến chuyện họ,"
+        },
+        {
+          "zh": "以前我有我读书的时候一个同学，",
+          "vi": "hồi trước lúc mình đi học có một bạn cùng lớp,"
+        }
+      ]
+    },
+    "125": {
+      "zh": "他的姓氏当中有“何”，就是H E。",
+      "vi": "trong họ của bạn ấy có chữ “何”, tức là H-E."
+    },
+    "126": {
+      "zh": "然后我们知道在法语当中H不发音，所以前几次点名大家呃就是老师念他“鹅”的时候，",
+      "parts": [
+        {
+          "zh": "然后我们知道在法语当中H不发音，",
+          "vi": "Rồi tụi mình biết trong tiếng Pháp chữ H không phát âm,"
+        },
+        {
+          "zh": "所以前几次点名大家呃",
+          "vi": "nên mấy lần điểm danh đầu, mọi người, ờ,"
+        },
+        {
+          "zh": "就是老师念他“鹅”的时候，",
+          "vi": "tức là lúc thầy cô đọc bạn ấy thành “é” (鹅),"
+        }
+      ]
+    },
+    "127": {
+      "zh": "嗯他都没有反应过来。",
+      "vi": "ừm, bạn ấy đều không phản ứng kịp."
+    },
+    "128": {
+      "zh": "然后事后他跟我们中国同学聊起这个笑话，大家就觉得非常有意思。",
+      "parts": [
+        {
+          "zh": "然后事后他跟我们中国同学",
+          "vi": "Rồi sau đó bạn ấy kể với đám bạn người Trung Quốc tụi mình"
+        },
+        {
+          "zh": "聊起这个笑话，",
+          "vi": "chuyện cười này,"
+        },
+        {
+          "zh": "大家就觉得非常有意思。",
+          "vi": "mọi người đều thấy rất thú vị."
+        }
+      ]
+    },
+    "129": {
+      "zh": "这使得我们以前想起了那个，呃，据说奥朗德和胡锦涛进行会面的时候，呃，奥朗德走过去，",
+      "parts": [
+        {
+          "zh": "这使得我们以前想起了那个，",
+          "vi": "Chuyện này làm tụi mình nhớ lại cái,"
+        },
+        {
+          "zh": "呃，据说奥朗德和胡锦涛",
+          "vi": "ờ, nghe nói lúc Hollande và Hồ Cẩm Đào"
+        },
+        {
+          "zh": "进行会面的时候，呃，奥朗德走过去，",
+          "vi": "gặp nhau, ờ, Hollande bước tới,"
+        }
+      ]
+    },
+    "130": {
+      "zh": "呃，对着胡锦涛想打个招呼说“President Wu”，然后胡锦涛没有听懂，",
+      "parts": [
+        {
+          "zh": "呃，对着胡锦涛想打个招呼",
+          "vi": "ờ, định chào Hồ Cẩm Đào"
+        },
+        {
+          "zh": "说“President Wu”，",
+          "vi": "nói “President Wu”,"
+        },
+        {
+          "zh": "然后胡锦涛没有听懂，",
+          "vi": "rồi Hồ Cẩm Đào không hiểu,"
+        }
+      ]
+    },
+    "131": {
+      "zh": "因为他们把H发音给省略掉了。",
+      "vi": "vì họ bỏ mất âm H."
+    },
+    "132": {
+      "zh": "我不知道这是段子还是真的。",
+      "vi": "Mình không biết đây là chuyện bịa hay chuyện thật."
+    },
+    "133": {
+      "zh": "然后你还有什么其他的感触呢？",
+      "vi": "Rồi cậu còn cảm nhận gì khác không?"
+    },
+    "134": {
+      "zh": "啊，我我就顺着这个呃打电话预约这个事儿接着往下讲。",
+      "parts": [
+        {
+          "zh": "啊，我我就顺着这个呃",
+          "vi": "À, mình… mình sẽ tiếp theo cái, ờ,"
+        },
+        {
+          "zh": "打电话预约这个事儿接着往下讲。",
+          "vi": "chuyện gọi điện đặt hẹn này kể tiếp."
+        }
+      ]
+    },
+    "135": {
+      "zh": "呃，我觉得他们。呃，很多情况下坚持打电话甚至写信这个事儿，是因为尤其是打电话预约这个事儿，",
+      "parts": [
+        {
+          "zh": "呃，我觉得他们。呃，很多情况下",
+          "vi": "Ờ, mình thấy họ. Ờ, nhiều khi"
+        },
+        {
+          "zh": "坚持打电话甚至写信这个事儿，",
+          "vi": "cứ khăng khăng gọi điện, thậm chí viết thư,"
+        },
+        {
+          "zh": "是因为尤其是打电话预约这个事儿，",
+          "vi": "là vì, nhất là chuyện gọi điện đặt hẹn,"
+        }
+      ]
+    },
+    "137": {
+      "zh": "是因为他们觉得在电话当中有人与人之间的沟通，所以呃，",
+      "parts": [
+        {
+          "zh": "是因为他们觉得在电话当中",
+          "vi": "là vì họ thấy trong cuộc gọi"
+        },
+        {
+          "zh": "有人与人之间的沟通，所以呃，",
+          "vi": "có sự giao tiếp giữa người với người, nên, ờ,"
+        }
+      ]
+    },
+    "138": {
+      "zh": "我觉得他们或许对于呃将打电话预约变成网上预约可能有呃就是有一定的抵触，",
+      "parts": [
+        {
+          "zh": "我觉得他们或许对于呃",
+          "vi": "mình thấy họ có lẽ đối với, ờ,"
+        },
+        {
+          "zh": "将打电话预约变成网上预约",
+          "vi": "việc chuyển đặt hẹn qua điện thoại thành đặt hẹn trên mạng"
+        },
+        {
+          "zh": "可能有呃就是有一定的抵触，",
+          "vi": "có thể có, ờ, tức là có phần không ưa,"
+        }
+      ]
+    },
+    "139": {
+      "zh": "或者说这个变革不会那么快的的发生，这个转型可能需要一定的时间。",
+      "parts": [
+        {
+          "zh": "或者说这个变革",
+          "vi": "hoặc là sự thay đổi này"
+        },
+        {
+          "zh": "不会那么快的的发生，",
+          "vi": "sẽ không diễn ra nhanh như vậy,"
+        },
+        {
+          "zh": "这个转型可能需要一定的时间。",
+          "vi": "việc chuyển đổi này có lẽ cần một thời gian."
+        }
+      ]
+    },
+    "140": {
+      "zh": "嗯，比如说，呃，他们可能对于完全数字化了的跟键盘或者APP进行操作的界面比较抵触，",
+      "parts": [
+        {
+          "zh": "嗯，比如说，呃，他们可能对于",
+          "vi": "Ừm, ví dụ, ờ, họ có lẽ đối với"
+        },
+        {
+          "zh": "完全数字化了的",
+          "vi": "những giao diện hoàn toàn số hóa,"
+        },
+        {
+          "zh": "跟键盘或者APP进行操作的",
+          "vi": "thao tác bằng bàn phím hay app,"
+        },
+        {
+          "zh": "界面比较抵触，",
+          "vi": "thì khá là không ưa,"
+        }
+      ]
+    },
+    "141": {
+      "zh": "他们更喜欢有面对面的操作，然后有人给你解释，呃，这个可能被视为比较呃比较亲和的、",
+      "parts": [
+        {
+          "zh": "他们更喜欢有面对面的操作，",
+          "vi": "họ thích thao tác mặt đối mặt hơn,"
+        },
+        {
+          "zh": "然后有人给你解释，",
+          "vi": "rồi có người giải thích cho bạn,"
+        },
+        {
+          "zh": "呃，这个可能被视为",
+          "vi": "ờ, cái này có lẽ được coi là"
+        },
+        {
+          "zh": "比较呃比较亲和的、",
+          "vi": "khá, ờ, khá gần gũi,"
+        }
+      ]
+    },
+    "142": {
+      "zh": "比较友好的或者说比较高端的一种服务的形态，哎，这是我理解的。",
+      "parts": [
+        {
+          "zh": "比较友好的或者说比较高端的",
+          "vi": "khá thân thiện hoặc là khá cao cấp,"
+        },
+        {
+          "zh": "一种服务的形态，哎，这是我理解的。",
+          "vi": "một hình thức dịch vụ, à, đó là mình hiểu vậy."
+        }
+      ]
+    },
+    "143": {
+      "zh": "所以有时候，呃，我们发现，嗯，比如说数字银行或者说是。",
+      "parts": [
+        {
+          "zh": "所以有时候，呃，我们发现，",
+          "vi": "Nên đôi khi, ờ, tụi mình thấy,"
+        },
+        {
+          "zh": "嗯，比如说数字银行或者说是。",
+          "vi": "ừm, ví dụ ngân hàng số hoặc là."
+        }
+      ]
+    },
+    "144": {
+      "zh": "自助值机的那些机场的服务，",
+      "vi": "những dịch vụ tự check-in ở sân bay,"
+    },
+    "145": {
+      "zh": "或者说是餐厅订餐的时候这些订呃就是就是在手机应用上订餐这些服务，",
+      "parts": [
+        {
+          "zh": "或者说是餐厅订餐的时候",
+          "vi": "hoặc là lúc đặt món ở nhà hàng,"
+        },
+        {
+          "zh": "这些订呃就是就是",
+          "vi": "những cái đặt, ờ, tức là, tức là"
+        },
+        {
+          "zh": "在手机应用上订餐这些服务，",
+          "vi": "đặt món trên ứng dụng điện thoại, những dịch vụ này"
+        }
+      ]
+    },
+    "146": {
+      "zh": "或许没有像国内那么普及。",
+      "vi": "có lẽ không phổ biến như ở trong nước."
+    },
+    "147": {
+      "zh": "当然我是完全相信，",
+      "vi": "Tất nhiên mình hoàn toàn tin rằng,"
+    },
+    "148": {
+      "zh": "在法国可能要扫桌面上的二维码订餐就是点餐这个事情可能要很久很久才能发生，",
+      "parts": [
+        {
+          "zh": "在法国可能要扫桌面上的二维码",
+          "vi": "ở Pháp có lẽ việc quét mã QR trên bàn"
+        },
+        {
+          "zh": "订餐就是点餐",
+          "vi": "để đặt món, tức là gọi món,"
+        },
+        {
+          "zh": "这个事情可能要很久很久才能发生，",
+          "vi": "chuyện này có lẽ còn rất rất lâu nữa mới xảy ra,"
+        }
+      ]
+    },
+    "149": {
+      "zh": "因为在餐厅吃饭或许对他们而言就是一个。要人与人见面说话而不拿起手机的时刻。",
+      "parts": [
+        {
+          "zh": "因为在餐厅吃饭",
+          "vi": "vì ăn ở nhà hàng"
+        },
+        {
+          "zh": "或许对他们而言",
+          "vi": "có lẽ với họ"
+        },
+        {
+          "zh": "就是一个。要人与人见面说话",
+          "vi": "là một. Khoảnh khắc để gặp mặt nói chuyện với nhau"
+        },
+        {
+          "zh": "而不拿起手机的时刻。",
+          "vi": "chứ không cầm điện thoại lên."
+        }
+      ]
+    },
+    "151": {
+      "zh": "对对对，这个其实，在学校图书馆预约的这个系统里面，我也挺有感触的。",
+      "parts": [
+        {
+          "zh": "对对对，这个其实，",
+          "vi": "Đúng đúng đúng, cái này thật ra,"
+        },
+        {
+          "zh": "在学校图书馆预约的这个系统里面，",
+          "vi": "với hệ thống đặt chỗ ở thư viện trường,"
+        },
+        {
+          "zh": "我也挺有感触的。",
+          "vi": "mình cũng có cảm nhận khá nhiều."
+        }
+      ]
+    },
+    "152": {
+      "zh": "因为大家可能嗯知道，在法国我们在COVID之前，",
+      "parts": [
+        {
+          "zh": "因为大家可能嗯知道，",
+          "vi": "Vì chắc mọi người, ừm, biết,"
+        },
+        {
+          "zh": "在法国我们在COVID之前，",
+          "vi": "ở Pháp, trước COVID,"
+        }
+      ]
+    },
+    "153": {
+      "zh": "比如说我们学校的图书馆基本上是没有预约系统的，",
+      "parts": [
+        {
+          "zh": "比如说我们学校的图书馆",
+          "vi": "ví dụ thư viện trường mình"
+        },
+        {
+          "zh": "基本上是没有预约系统的，",
+          "vi": "về cơ bản là không có hệ thống đặt chỗ,"
+        }
+      ]
+    },
+    "154": {
+      "zh": "所以大家就是早晨要在图书馆外面排队排排很长的队，图书馆一开门，大家就蜂拥而入。来抢座位，但是呢，自从COVID以后，我们这个图书馆新增加了一个电子预约系统，",
+      "parts": [
+        {
+          "zh": "所以大家就是早晨",
+          "vi": "nên mọi người buổi sáng"
+        },
+        {
+          "zh": "要在图书馆外面排队排排很长的队，",
+          "vi": "phải xếp hàng… xếp một hàng rất dài bên ngoài thư viện,"
+        },
+        {
+          "zh": "图书馆一开门，",
+          "vi": "thư viện vừa mở cửa,"
+        },
+        {
+          "zh": "大家就蜂拥而入。来抢座位，",
+          "vi": "mọi người ùa vào. Để giành chỗ ngồi,"
+        },
+        {
+          "zh": "但是呢，自从COVID以后，",
+          "vi": "nhưng từ sau COVID,"
+        },
+        {
+          "zh": "我们这个图书馆",
+          "vi": "thư viện tụi mình"
+        },
+        {
+          "zh": "新增加了一个电子预约系统，",
+          "vi": "có thêm một hệ thống đặt chỗ điện tử,"
+        }
+      ]
+    },
+    "156": {
+      "zh": "大家是可以在网上预约的。",
+      "vi": "mọi người có thể đặt chỗ trên mạng."
+    },
+    "157": {
+      "zh": "这个因为我是在COVID发生以后才入学的，所以我以为这个系统是很正常的。",
+      "parts": [
+        {
+          "zh": "这个因为我是在COVID",
+          "vi": "Cái này, vì mình sau khi COVID"
+        },
+        {
+          "zh": "发生以后才入学的，",
+          "vi": "xảy ra mới nhập học,"
+        },
+        {
+          "zh": "所以我以为这个系统是很正常的。",
+          "vi": "nên mình tưởng hệ thống này là rất bình thường."
+        }
+      ]
+    },
+    "158": {
+      "zh": "因为在中国的图书馆基本上都已经有网上可以预约，",
+      "parts": [
+        {
+          "zh": "因为在中国的图书馆",
+          "vi": "Vì thư viện ở Trung Quốc"
+        },
+        {
+          "zh": "基本上都已经有网上可以预约，",
+          "vi": "về cơ bản đều đã có thể đặt trên mạng,"
+        }
+      ]
+    },
+    "159": {
+      "zh": "然后直接用你的学生卡扫一下学生卡就自己嗯自动注册了你。",
+      "parts": [
+        {
+          "zh": "然后直接用你的学生卡",
+          "vi": "rồi cứ dùng thẻ sinh viên của bạn"
+        },
+        {
+          "zh": "扫一下学生卡",
+          "vi": "quét thẻ sinh viên một cái"
+        },
+        {
+          "zh": "就自己嗯自动注册了你。",
+          "vi": "là tự, ừm, tự động đăng ký cho bạn."
+        }
+      ]
+    },
+    "160": {
+      "zh": "你占到这个座位，然后这一整天这个座位可能就是你的。",
+      "parts": [
+        {
+          "zh": "你占到这个座位，然后这一整天",
+          "vi": "Bạn giành được chỗ này, rồi cả ngày hôm đó"
+        },
+        {
+          "zh": "这个座位可能就是你的。",
+          "vi": "chỗ này có lẽ là của bạn."
+        }
+      ]
+    },
+    "161": {
+      "zh": "我就觉得这个这个系统很正常。",
+      "vi": "Mình thấy hệ thống này… hệ thống này rất bình thường."
+    },
+    "162": {
+      "zh": "但是后来我听以前的学长学姐说啊，不是的，在法国基本上图书馆都没有预约系统，",
+      "parts": [
+        {
+          "zh": "但是后来我听以前的学长学姐说啊，",
+          "vi": "Nhưng sau này mình nghe các anh chị khóa trên nói,"
+        },
+        {
+          "zh": "不是的，在法国基本上",
+          "vi": "không phải đâu, ở Pháp về cơ bản"
+        },
+        {
+          "zh": "图书馆都没有预约系统，",
+          "vi": "thư viện đều không có hệ thống đặt chỗ,"
+        }
+      ]
+    },
+    "163": {
+      "zh": "而且哪怕现在有了这个预约系统，到了图书馆以后，我们还是要跟一个真人，",
+      "parts": [
+        {
+          "zh": "而且哪怕现在有了这个预约系统，",
+          "vi": "hơn nữa dù giờ đã có hệ thống đặt chỗ này,"
+        },
+        {
+          "zh": "到了图书馆以后，",
+          "vi": "đến thư viện rồi,"
+        },
+        {
+          "zh": "我们还是要跟一个真人，",
+          "vi": "tụi mình vẫn phải gặp một người thật,"
+        }
+      ]
+    },
+    "164": {
+      "zh": "就一个图书管理员，你给他看一个注册的号码，图书管理员会在他的系统上。",
+      "parts": [
+        {
+          "zh": "就一个图书管理员，",
+          "vi": "tức là một thủ thư,"
+        },
+        {
+          "zh": "你给他看一个注册的号码，",
+          "vi": "bạn đưa họ xem một mã số đăng ký,"
+        },
+        {
+          "zh": "图书管理员会在他的系统上。",
+          "vi": "thủ thư sẽ trên hệ thống của họ"
+        }
+      ]
+    },
+    "165": {
+      "zh": "勾掉你的这个预约号码，然后确认你这个人已经到了图书馆，把这个座位给你。",
+      "parts": [
+        {
+          "zh": "勾掉你的这个预约号码，",
+          "vi": "gạch mã đặt chỗ của bạn đi,"
+        },
+        {
+          "zh": "然后确认你这个人已经到了图书馆，",
+          "vi": "rồi xác nhận bạn đã đến thư viện,"
+        },
+        {
+          "zh": "把这个座位给你。",
+          "vi": "đưa chỗ này cho bạn."
+        }
+      ]
+    },
+    "166": {
+      "zh": "但是，比如说在中国，基本上就是你扫一下学生证，完全整个过程中不需要和人交流，",
+      "parts": [
+        {
+          "zh": "但是，比如说在中国，",
+          "vi": "Nhưng ví dụ ở Trung Quốc,"
+        },
+        {
+          "zh": "基本上就是你扫一下学生证，",
+          "vi": "về cơ bản là bạn quét thẻ sinh viên một cái,"
+        },
+        {
+          "zh": "完全整个过程中不需要和人交流，",
+          "vi": "cả quá trình hoàn toàn không cần giao tiếp với ai,"
+        }
+      ]
+    },
+    "167": {
+      "zh": "就非常非常快捷、非常方便的就可以进到学图书馆里。",
+      "parts": [
+        {
+          "zh": "就非常非常快捷、非常方便的",
+          "vi": "cực kỳ, cực kỳ nhanh, cực kỳ tiện"
+        },
+        {
+          "zh": "就可以进到学图书馆里。",
+          "vi": "là vào được thư viện."
+        }
+      ]
+    },
+    "168": {
+      "zh": "对对，我完全同意你这个观察的结论。",
+      "vi": "Đúng đúng, mình hoàn toàn đồng ý với kết luận cậu quan sát được."
+    },
+    "169": {
+      "zh": "呃，这让我想起了以前类似的经历。",
+      "vi": "Ờ, chuyện này làm mình nhớ lại một trải nghiệm tương tự trước đây."
+    },
+    "170": {
+      "zh": "呃，曾经我很纳闷为什么在大街上有人排队。",
+      "parts": [
+        {
+          "zh": "呃，曾经我很纳闷",
+          "vi": "Ờ, từng có lúc mình rất thắc mắc"
+        },
+        {
+          "zh": "为什么在大街上有人排队。",
+          "vi": "sao trên phố lại có người xếp hàng."
+        }
+      ]
+    },
+    "171": {
+      "zh": "后来就是在巴黎的街道上，后来我了解到他们其实是在排电影院或者剧院的队，",
+      "parts": [
+        {
+          "zh": "后来就是在巴黎的街道上，",
+          "vi": "Sau đó là ở trên phố ở Paris,"
+        },
+        {
+          "zh": "后来我了解到他们其实是",
+          "vi": "sau này mình mới biết thật ra họ là"
+        },
+        {
+          "zh": "在排电影院或者剧院的队，",
+          "vi": "đang xếp hàng vào rạp phim hoặc nhà hát,"
+        }
+      ]
+    },
+    "172": {
+      "zh": "他们是为了去看电影或者去看话剧。",
+      "vi": "họ xếp để đi xem phim hoặc xem kịch nói."
+    },
+    "173": {
+      "zh": "这个在中国其实比较少见的，",
+      "vi": "Chuyện này ở Trung Quốc thật ra khá hiếm,"
+    },
+    "174": {
+      "zh": "因为你比如说是在手机上或者是APP或者微信小程序当中购买了电子票之后，",
+      "parts": [
+        {
+          "zh": "因为你比如说是在手机上",
+          "vi": "vì ví dụ bạn trên điện thoại"
+        },
+        {
+          "zh": "或者是APP或者微信小程序当中",
+          "vi": "hoặc trong app hay mini app WeChat"
+        },
+        {
+          "zh": "购买了电子票之后，",
+          "vi": "mua vé điện tử xong,"
+        }
+      ]
+    },
+    "175": {
+      "zh": "那个票上基本上就会标明你是几排几座的。",
+      "parts": [
+        {
+          "zh": "那个票上基本上",
+          "vi": "trên vé đó về cơ bản"
+        },
+        {
+          "zh": "就会标明你是几排几座的。",
+          "vi": "sẽ ghi rõ bạn ngồi hàng mấy ghế mấy."
+        }
+      ]
+    },
+    "176": {
+      "zh": "但是我在法国看电影的经历告诉我，大多数情况上面是不标座位的。",
+      "parts": [
+        {
+          "zh": "但是我在法国看电影的经历告诉我，",
+          "vi": "Nhưng trải nghiệm xem phim ở Pháp cho mình biết,"
+        },
+        {
+          "zh": "大多数情况上面是不标座位的。",
+          "vi": "phần lớn trường hợp trên vé không ghi chỗ ngồi."
+        }
+      ]
+    },
+    "177": {
+      "zh": "所以，比如说为了去看呃《星球大战》或者说是《复仇者联盟》，我就需要去排队。",
+      "parts": [
+        {
+          "zh": "所以，比如说为了去看呃《星球大战》",
+          "vi": "Nên ví dụ để đi xem, ờ, Star Wars"
+        },
+        {
+          "zh": "或者说是《复仇者联盟》，",
+          "vi": "hoặc là Avengers,"
+        },
+        {
+          "zh": "我就需要去排队。",
+          "vi": "mình phải đi xếp hàng."
+        }
+      ]
+    },
+    "178": {
+      "zh": "有些时候甚至上一场电影还没有结束的时候，我就要站在那个呃观影厅的门口。",
+      "parts": [
+        {
+          "zh": "有些时候甚至",
+          "vi": "Có lúc thậm chí"
+        },
+        {
+          "zh": "上一场电影还没有结束的时候，",
+          "vi": "suất phim trước còn chưa hết,"
+        },
+        {
+          "zh": "我就要站在那个呃观影厅的门口。",
+          "vi": "mình đã phải đứng ở cửa, ờ, phòng chiếu rồi."
+        }
+      ]
+    },
+    "179": {
+      "zh": "有些人可能在我面面前，那么我就必须。遵守这个秩序，所以门一开，我们进去就是为了呃，就是争取获得最好的观看电影的座位。",
+      "parts": [
+        {
+          "zh": "有些人可能在我面面前，",
+          "vi": "Có người có lẽ đứng trước… trước mình,"
+        },
+        {
+          "zh": "那么我就必须。遵守这个秩序，",
+          "vi": "thì mình bắt buộc. Phải tuân theo trật tự này,"
+        },
+        {
+          "zh": "所以门一开，我们进去",
+          "vi": "nên cửa vừa mở, tụi mình vào"
+        },
+        {
+          "zh": "就是为了呃，就是争取获得",
+          "vi": "là để, ờ, tức là để giành"
+        },
+        {
+          "zh": "最好的观看电影的座位。",
+          "vi": "chỗ ngồi xem phim tốt nhất."
+        }
+      ]
+    },
+    "181": {
+      "zh": "后来我在思考这个东西有没有什么历史渊源或者什么传统依据呢？",
+      "parts": [
+        {
+          "zh": "后来我在思考这个东西",
+          "vi": "Sau đó mình nghĩ chuyện này"
+        },
+        {
+          "zh": "有没有什么历史渊源",
+          "vi": "có nguồn gốc lịch sử gì không"
+        },
+        {
+          "zh": "或者什么传统依据呢？",
+          "vi": "hay có căn cứ truyền thống gì không?"
+        }
+      ]
+    },
+    "182": {
+      "zh": "我觉得可能是有这么一个个，就是这么一个小的原因，这纯粹是我的猜测啊。",
+      "parts": [
+        {
+          "zh": "我觉得可能是有这么一个个，",
+          "vi": "Mình thấy có lẽ có một… một,"
+        },
+        {
+          "zh": "就是这么一个小的原因，",
+          "vi": "tức là một lý do nhỏ như thế này,"
+        },
+        {
+          "zh": "这纯粹是我的猜测啊。",
+          "vi": "cái này hoàn toàn là mình đoán thôi nhé."
+        }
+      ]
+    },
+    "183": {
+      "zh": "因为在古代，呃，比如说中世纪的时候，",
+      "vi": "Vì thời xưa, ờ, ví dụ thời Trung cổ,"
+    },
+    "184": {
+      "zh": "可能呃什么贵族老爷或者说千金小姐他们的社交活动就是出去。看什么歌剧或者去去跳舞，那个时候呃他们进场之前排队做好准备，",
+      "parts": [
+        {
+          "zh": "可能呃什么贵族老爷",
+          "vi": "có lẽ, ờ, mấy ông quý tộc"
+        },
+        {
+          "zh": "或者说千金小姐他们的社交活动",
+          "vi": "hay các tiểu thư khuê các, hoạt động xã giao của họ"
+        },
+        {
+          "zh": "就是出去。看什么歌剧或者去去跳舞，",
+          "vi": "là ra ngoài. Đi xem opera hay đi khiêu vũ,"
+        },
+        {
+          "zh": "那个时候呃他们进场之前",
+          "vi": "hồi đó, ờ, trước khi họ vào cửa"
+        },
+        {
+          "zh": "排队做好准备，",
+          "vi": "thì xếp hàng chuẩn bị,"
+        }
+      ]
+    },
+    "186": {
+      "zh": "然后鱼贯而入这个过程也是社交的一部分，也是相互聊天的时时刻。",
+      "parts": [
+        {
+          "zh": "然后鱼贯而入",
+          "vi": "rồi nối đuôi nhau đi vào,"
+        },
+        {
+          "zh": "这个过程也是社交的一部分，",
+          "vi": "quá trình này cũng là một phần của xã giao,"
+        },
+        {
+          "zh": "也是相互聊天的时时刻。",
+          "vi": "cũng là lúc trò chuyện với nhau."
+        }
+      ]
+    },
+    "187": {
+      "zh": "所以或许这个传统被保留下来了，",
+      "vi": "Nên có lẽ truyền thống này được giữ lại,"
+    },
+    "188": {
+      "zh": "呃说不定大家一起看同一部电影的人因为一起在门口等待排队而相互认识，",
+      "parts": [
+        {
+          "zh": "呃说不定",
+          "vi": "ờ, biết đâu"
+        },
+        {
+          "zh": "大家一起看同一部电影的人",
+          "vi": "những người cùng xem một bộ phim"
+        },
+        {
+          "zh": "因为一起在门口等待排队",
+          "vi": "vì cùng đứng chờ xếp hàng ở cửa"
+        },
+        {
+          "zh": "而相互认识，",
+          "vi": "mà quen nhau,"
+        }
+      ]
+    },
+    "189": {
+      "zh": "进行一些简短的对话，说不定是陌生人，但是因为对于同一部电影的爱好。",
+      "parts": [
+        {
+          "zh": "进行一些简短的对话，",
+          "vi": "nói với nhau vài câu ngắn,"
+        },
+        {
+          "zh": "说不定是陌生人，",
+          "vi": "có khi là người lạ,"
+        },
+        {
+          "zh": "但是因为对于同一部电影的爱好。",
+          "vi": "nhưng vì cùng thích một bộ phim."
+        }
+      ]
+    },
+    "190": {
+      "zh": "而可以聊两句，对。",
+      "vi": "Nên có thể nói chuyện vài câu, đúng vậy."
+    },
+    "191": {
+      "zh": "但是我觉得这个特别神奇，就像你说的，法国人很喜欢排队，",
+      "parts": [
+        {
+          "zh": "但是我觉得这个特别神奇，",
+          "vi": "Nhưng mình thấy chuyện này rất thần kỳ,"
+        },
+        {
+          "zh": "就像你说的，法国人很喜欢排队，",
+          "vi": "như cậu nói, người Pháp rất thích xếp hàng,"
+        }
+      ]
+    },
+    "192": {
+      "zh": "但是在中国基本上所有可以排队的事情都被电子化的某一些电子手段或者APP给代替了。",
+      "parts": [
+        {
+          "zh": "但是在中国基本上",
+          "vi": "nhưng ở Trung Quốc về cơ bản"
+        },
+        {
+          "zh": "所有可以排队的事情",
+          "vi": "mọi việc phải xếp hàng"
+        },
+        {
+          "zh": "都被电子化的某一些电子手段",
+          "vi": "đều đã bị một số phương tiện điện tử"
+        },
+        {
+          "zh": "或者APP给代替了。",
+          "vi": "hoặc app thay thế rồi."
+        }
+      ]
+    },
+    "193": {
+      "zh": "中国人就是挺讲讲究效率，不喜欢排队。",
+      "parts": [
+        {
+          "zh": "中国人就是挺讲讲究效率，",
+          "vi": "Người Trung Quốc rất chú… chú trọng hiệu quả,"
+        },
+        {
+          "zh": "不喜欢排队。",
+          "vi": "không thích xếp hàng."
+        }
+      ]
+    },
+    "194": {
+      "zh": "就好比说，在排餐厅的时候，我们可以在餐厅拿一个号码，",
+      "parts": [
+        {
+          "zh": "就好比说，在排餐厅的时候，",
+          "vi": "Ví dụ như lúc xếp hàng chờ nhà hàng,"
+        },
+        {
+          "zh": "我们可以在餐厅拿一个号码，",
+          "vi": "tụi mình có thể lấy một số ở nhà hàng,"
+        }
+      ]
+    },
+    "195": {
+      "zh": "这个号码呢代表着你什么时候可以进入餐厅吃饭。",
+      "parts": [
+        {
+          "zh": "这个号码呢代表着",
+          "vi": "con số này cho biết"
+        },
+        {
+          "zh": "你什么时候可以进入餐厅吃饭。",
+          "vi": "khi nào bạn có thể vào nhà hàng ăn."
+        }
+      ]
+    },
+    "196": {
+      "zh": "然后在这个过程中，你可以去这个商场的其他地方走走逛逛，看看商店。",
+      "parts": [
+        {
+          "zh": "然后在这个过程中，",
+          "vi": "Rồi trong lúc đó,"
+        },
+        {
+          "zh": "你可以去这个商场的其他地方",
+          "vi": "bạn có thể đi đến chỗ khác trong trung tâm thương mại"
+        },
+        {
+          "zh": "走走逛逛，看看商店。",
+          "vi": "dạo dạo, xem cửa hàng."
+        }
+      ]
+    },
+    "197": {
+      "zh": "然后等到手机告诉你说啊，你的座位排到了，你再回去直接进入餐厅就可以，",
+      "parts": [
+        {
+          "zh": "然后等到手机告诉你说啊，",
+          "vi": "Rồi đợi đến khi điện thoại báo bạn là, à,"
+        },
+        {
+          "zh": "你的座位排到了，",
+          "vi": "đến lượt chỗ của bạn rồi,"
+        },
+        {
+          "zh": "你再回去直接进入餐厅就可以，",
+          "vi": "bạn quay lại vào thẳng nhà hàng là được,"
+        }
+      ]
+    },
+    "198": {
+      "zh": "所以就不需要人在那里排队。",
+      "vi": "nên không cần người đứng xếp hàng ở đó."
+    },
+    "199": {
+      "zh": "或者比如说做一个COVID测试，我觉得在国内的话，",
+      "parts": [
+        {
+          "zh": "或者比如说做一个COVID测试，",
+          "vi": "Hoặc ví dụ làm xét nghiệm COVID,"
+        },
+        {
+          "zh": "我觉得在国内的话，",
+          "vi": "mình thấy ở trong nước thì,"
+        }
+      ]
+    },
+    "200": {
+      "zh": "你做完测试留一个电子的号码之后呢，检测结果直接发到你的手机上。",
+      "parts": [
+        {
+          "zh": "你做完测试",
+          "vi": "bạn làm xét nghiệm xong"
+        },
+        {
+          "zh": "留一个电子的号码之后呢，",
+          "vi": "để lại một cái mã điện tử,"
+        },
+        {
+          "zh": "检测结果直接发到你的手机上。",
+          "vi": "kết quả xét nghiệm sẽ gửi thẳng vào điện thoại bạn."
+        }
+      ]
+    },
+    "201": {
+      "zh": "或者发到你的邮箱里就可以。",
+      "vi": "Hoặc gửi vào hộp thư của bạn là xong."
+    },
+    "202": {
+      "zh": "但是我在法国做COVID测试的经验告诉我，",
+      "parts": [
+        {
+          "zh": "但是我在法国",
+          "vi": "Nhưng trải nghiệm của mình ở Pháp"
+        },
+        {
+          "zh": "做COVID测试的经验告诉我，",
+          "vi": "khi làm xét nghiệm COVID cho thấy,"
+        }
+      ]
+    },
+    "203": {
+      "zh": "一般都是要在这个药店的门口排队等十五分钟，等到他给你一张纸质的电子报告单；",
+      "parts": [
+        {
+          "zh": "一般都是要在这个药店的门口",
+          "vi": "thường là phải ở cửa hiệu thuốc"
+        },
+        {
+          "zh": "排队等十五分钟，",
+          "vi": "xếp hàng đợi mười lăm phút,"
+        },
+        {
+          "zh": "等到他给你一张纸质的电子报告单；",
+          "vi": "đợi đến khi họ đưa bạn một tờ phiếu kết quả điện tử bằng giấy;"
+        }
+      ]
+    },
+    "204": {
+      "zh": "或者是餐厅，我也从来没有见过可以用电子拿号排队的经历。",
+      "parts": [
+        {
+          "zh": "或者是餐厅，我也从来没有见过",
+          "vi": "hoặc là nhà hàng, mình cũng chưa từng thấy"
+        },
+        {
+          "zh": "可以用电子拿号排队的经历。",
+          "vi": "có thể lấy số xếp hàng bằng điện tử."
+        }
+      ]
+    },
+    "205": {
+      "zh": "所以我觉得怎么说呢？",
+      "vi": "Nên mình thấy, nói sao nhỉ?"
+    },
+    "206": {
+      "zh": "就是在中国一旦有这些所谓的痛点，就是排队的痛点。",
+      "parts": [
+        {
+          "zh": "就是在中国一旦有这些所谓的痛点，",
+          "vi": "Tức là ở Trung Quốc hễ có những cái gọi là điểm đau (痛点),"
+        },
+        {
+          "zh": "就是排队的痛点。",
+          "vi": "tức là điểm đau của việc xếp hàng."
+        }
+      ]
+    },
+    "207": {
+      "zh": "就一定会有一些电子的APP出现，来帮助用户解决这个排队的无效率的痛点。",
+      "parts": [
+        {
+          "zh": "就一定会有一些电子的APP出现，",
+          "vi": "Thì nhất định sẽ có app điện tử nào đó xuất hiện,"
+        },
+        {
+          "zh": "来帮助用户解决",
+          "vi": "để giúp người dùng giải quyết"
+        },
+        {
+          "zh": "这个排队的无效率的痛点。",
+          "vi": "cái điểm đau xếp hàng kém hiệu quả này."
+        }
+      ]
+    },
+    "208": {
+      "zh": "但是在法国好像没有人觉得这是一个问题，所以他就这个痛点就一直存在着。",
+      "parts": [
+        {
+          "zh": "但是在法国",
+          "vi": "Nhưng ở Pháp"
+        },
+        {
+          "zh": "好像没有人觉得这是一个问题，",
+          "vi": "hình như không ai thấy đây là vấn đề,"
+        },
+        {
+          "zh": "所以他就这个痛点就一直存在着。",
+          "vi": "nên cái điểm đau này cứ tồn tại mãi."
+        }
+      ]
+    },
+    "209": {
+      "zh": "然后大家就也很开心的像你说，在为了可能会把排队做成变成一个社交的场合吧。",
+      "parts": [
+        {
+          "zh": "然后大家就也很开心的像你说，",
+          "vi": "Rồi mọi người cũng rất vui vẻ, như cậu nói,"
+        },
+        {
+          "zh": "在为了可能会把排队做成",
+          "vi": "vì có lẽ sẽ biến việc xếp hàng"
+        },
+        {
+          "zh": "变成一个社交的场合吧。",
+          "vi": "thành một dịp xã giao."
+        }
+      ]
+    },
+    "210": {
+      "zh": "所以呃或许这就是一个区别吧，因为你刚刚讲到在中国会有拿取号，然后再等外面呃。消费或者购物，然后闲逛回来，在在自己号码报到的时候进行就餐这个行为，",
+      "parts": [
+        {
+          "zh": "所以呃或许这就是一个区别吧，",
+          "vi": "Nên, ờ, có lẽ đây là một điểm khác biệt,"
+        },
+        {
+          "zh": "因为你刚刚讲到在中国会有拿取号，",
+          "vi": "vì cậu vừa nói ở Trung Quốc sẽ có lấy số,"
+        },
+        {
+          "zh": "然后再等外面呃。消费或者购物，",
+          "vi": "rồi chờ ở bên ngoài, ờ. Tiêu dùng hoặc mua sắm,"
+        },
+        {
+          "zh": "然后闲逛回来，",
+          "vi": "rồi dạo xong quay lại,"
+        },
+        {
+          "zh": "在在自己号码报到的时候",
+          "vi": "lúc đến số của mình"
+        },
+        {
+          "zh": "进行就餐这个行为，",
+          "vi": "thì vào ăn, cái hành vi này,"
+        }
+      ]
+    },
+    "212": {
+      "zh": "我觉得这个折射的非常清楚，就是折射出呃，在中国很多事情是非常实用主义的，",
+      "parts": [
+        {
+          "zh": "我觉得这个折射的非常清楚，",
+          "vi": "mình thấy nó phản ánh rất rõ,"
+        },
+        {
+          "zh": "就是折射出呃，在中国很多事情",
+          "vi": "tức là phản ánh, ờ, ở Trung Quốc nhiều việc"
+        },
+        {
+          "zh": "是非常实用主义的，",
+          "vi": "rất thực dụng,"
+        }
+      ]
+    },
+    "213": {
+      "zh": "或者说是讲求实效的，呃，最实怎么实际怎么来，呃，按照最高的效率进行运转，呃，",
+      "parts": [
+        {
+          "zh": "或者说是讲求实效的，呃，",
+          "vi": "hoặc nói là chú trọng hiệu quả thực tế, ờ,"
+        },
+        {
+          "zh": "最实怎么实际怎么来，",
+          "vi": "thực tế thế nào thì làm thế ấy,"
+        },
+        {
+          "zh": "呃，按照最高的效率进行运转，呃，",
+          "vi": "ờ, vận hành theo hiệu suất cao nhất, ờ,"
+        }
+      ]
+    },
+    "214": {
+      "zh": "也就是说他其实是这样的一个心理状态。",
+      "parts": [
+        {
+          "zh": "也就是说他其实是",
+          "vi": "tức là nó thật ra là"
+        },
+        {
+          "zh": "这样的一个心理状态。",
+          "vi": "một trạng thái tâm lý như vậy."
+        }
+      ]
+    },
+    "215": {
+      "zh": "我觉得这个原因有很多了。",
+      "vi": "Mình thấy nguyên nhân của chuyện này có nhiều lắm."
+    },
+    "216": {
+      "zh": "比如说跟国家经济发展速度有关，或者说我们的嗯国民心态可能是这样子的，",
+      "parts": [
+        {
+          "zh": "比如说跟国家经济发展速度有关，",
+          "vi": "Ví dụ liên quan đến tốc độ phát triển kinh tế của đất nước,"
+        },
+        {
+          "zh": "或者说我们的嗯国民心态",
+          "vi": "hoặc là tâm lý, ừm, của người dân tụi mình"
+        },
+        {
+          "zh": "可能是这样子的，",
+          "vi": "có lẽ là như vậy,"
+        }
+      ]
+    },
+    "217": {
+      "zh": "也是一个挺好的事儿。",
+      "vi": "cũng là một chuyện khá tốt."
+    },
+    "218": {
+      "zh": "嗯，但是呃有些时候呃比如说到法国这边，我有时候也觉得呃我都已经买了一张电影票了，",
+      "parts": [
+        {
+          "zh": "嗯，但是呃有些时候呃",
+          "vi": "Ừm, nhưng mà, ờ, có những lúc, ờ,"
+        },
+        {
+          "zh": "比如说到法国这边，",
+          "vi": "ví dụ ở bên Pháp này,"
+        },
+        {
+          "zh": "我有时候也觉得呃",
+          "vi": "đôi khi mình cũng thấy, ờ,"
+        },
+        {
+          "zh": "我都已经买了一张电影票了，",
+          "vi": "mình đã mua vé xem phim rồi,"
+        }
+      ]
+    },
+    "219": {
+      "zh": "还让我在门口等着。",
+      "vi": "mà còn bắt mình đứng chờ ở cửa."
+    },
+    "220": {
+      "zh": "我如果迟到了，居然没有好座位看，这个也是很闹心的事儿，也是很烦心、很糟糕的事儿。",
+      "parts": [
+        {
+          "zh": "我如果迟到了，居然没有好座位看，",
+          "vi": "Nếu mình đến muộn, vậy mà không có chỗ đẹp để xem,"
+        },
+        {
+          "zh": "这个也是很闹心的事儿，",
+          "vi": "cái này cũng là chuyện rất bực mình,"
+        },
+        {
+          "zh": "也是很烦心、很糟糕的事儿。",
+          "vi": "cũng là chuyện rất phiền, rất tệ."
+        }
+      ]
+    },
+    "221": {
+      "zh": "呃，而且我有时候在一些他是他。可以允许用户进行座位选择的电影院当中，很开心的选择了我喜欢的座位。",
+      "parts": [
+        {
+          "zh": "呃，而且我有时候",
+          "vi": "Ờ, với lại có lúc mình"
+        },
+        {
+          "zh": "在一些他是他。可以允许用户",
+          "vi": "ở một số… nó… Rạp có cho phép người xem"
+        },
+        {
+          "zh": "进行座位选择的电影院当中，",
+          "vi": "chọn chỗ ngồi,"
+        },
+        {
+          "zh": "很开心的选择了我喜欢的座位。",
+          "vi": "mình vui vẻ chọn chỗ mình thích."
+        }
+      ]
+    },
+    "223": {
+      "zh": "但是进去发现，呃，似乎大多数法国观众没有这个习惯，他大家还是乱坐的。",
+      "parts": [
+        {
+          "zh": "但是进去发现，呃，",
+          "vi": "Nhưng vào trong lại thấy, ờ,"
+        },
+        {
+          "zh": "似乎大多数法国观众没有这个习惯，",
+          "vi": "hình như phần lớn khán giả Pháp không có thói quen này,"
+        },
+        {
+          "zh": "他大家还是乱坐的。",
+          "vi": "họ… mọi người vẫn ngồi lung tung."
+        }
+      ]
+    },
+    "224": {
+      "zh": "所以，呃，这就是一个很有意思的现象。",
+      "vi": "Nên, ờ, đây là một hiện tượng rất thú vị."
+    },
+    "225": {
+      "zh": "哎，说到电影，可能。我可以吐槽最后一个点，就是我我其实在法国没有看过电影，",
+      "parts": [
+        {
+          "zh": "哎，说到电影，",
+          "vi": "À, nói đến phim,"
+        },
+        {
+          "zh": "可能。我可以吐槽最后一个点，",
+          "vi": "có lẽ. Mình có thể phàn nàn điểm cuối cùng,"
+        },
+        {
+          "zh": "就是我我其实在法国没有看过电影，",
+          "vi": "là mình… mình thật ra chưa từng xem phim ở Pháp,"
+        }
+      ]
+    },
+    "227": {
+      "zh": "但是因为我来了法国以后就发生了疫情，所以电影院全都关门了。",
+      "parts": [
+        {
+          "zh": "但是因为我来了法国以后",
+          "vi": "nhưng vì sau khi mình sang Pháp"
+        },
+        {
+          "zh": "就发生了疫情，",
+          "vi": "thì xảy ra dịch,"
+        },
+        {
+          "zh": "所以电影院全都关门了。",
+          "vi": "nên rạp chiếu phim đóng cửa hết."
+        }
+      ]
+    },
+    "228": {
+      "zh": "但是我以前在英国和西班牙看电影的时候，就发现他们开场前可能有二十分钟都是放预告片，",
+      "parts": [
+        {
+          "zh": "但是我以前在英国和西班牙",
+          "vi": "Nhưng trước đây khi mình ở Anh và Tây Ban Nha"
+        },
+        {
+          "zh": "看电影的时候，",
+          "vi": "đi xem phim,"
+        },
+        {
+          "zh": "就发现他们开场前",
+          "vi": "thì phát hiện trước khi chiếu"
+        },
+        {
+          "zh": "可能有二十分钟都是放预告片，",
+          "vi": "có khi đến hai mươi phút toàn chiếu giới thiệu phim,"
+        }
+      ]
+    },
+    "229": {
+      "zh": "就是trailer。",
+      "vi": "tức là trailer."
+    },
+    "230": {
+      "zh": "然后呢，在中国其实基本上就放五分钟吧，可能广告和预告片，电正片就开始了电影的正片。",
+      "parts": [
+        {
+          "zh": "然后呢，在中国其实",
+          "vi": "Còn ở Trung Quốc thật ra"
+        },
+        {
+          "zh": "基本上就放五分钟吧，",
+          "vi": "về cơ bản chỉ chiếu năm phút thôi,"
+        },
+        {
+          "zh": "可能广告和预告片，",
+          "vi": "có lẽ quảng cáo và trailer,"
+        },
+        {
+          "zh": "电正片就开始了电影的正片。",
+          "vi": "phim chính… là bắt đầu phần phim chính rồi."
+        }
+      ]
+    },
+    "231": {
+      "zh": "我第一次去西班牙看电影，我就在那儿等啊等啊等，就觉得哎怎么我花了电影电影票的钱，",
+      "parts": [
+        {
+          "zh": "我第一次去西班牙看电影，",
+          "vi": "Lần đầu mình đi xem phim ở Tây Ban Nha,"
+        },
+        {
+          "zh": "我就在那儿等啊等啊等，",
+          "vi": "mình ngồi đó chờ mãi chờ mãi,"
+        },
+        {
+          "zh": "就觉得哎怎么",
+          "vi": "cứ nghĩ, ơ, sao"
+        },
+        {
+          "zh": "我花了电影电影票的钱，",
+          "vi": "mình bỏ tiền mua vé phim,"
+        }
+      ]
+    },
+    "232": {
+      "zh": "然后有二十分钟都是在放预告片。",
+      "vi": "mà có hai mươi phút toàn chiếu trailer."
+    },
+    "233": {
+      "zh": "对对对对对，法国也是，他也会放个大概十五到二十分钟，十五分钟居多。",
+      "parts": [
+        {
+          "zh": "对对对对对，法国也是，",
+          "vi": "Đúng đúng đúng đúng đúng, Pháp cũng vậy,"
+        },
+        {
+          "zh": "他也会放个大概十五到二十分钟，",
+          "vi": "họ cũng chiếu chừng mười lăm đến hai mươi phút,"
+        },
+        {
+          "zh": "十五分钟居多。",
+          "vi": "mười lăm phút là chủ yếu."
+        }
+      ]
+    },
+    "234": {
+      "zh": "然后其中不仅仅是有预告片，其中还有呃一些是广告，就是纯粹商业广告。",
+      "parts": [
+        {
+          "zh": "然后其中不仅仅是有预告片，",
+          "vi": "Mà trong đó không chỉ có trailer,"
+        },
+        {
+          "zh": "其中还有呃一些是广告，",
+          "vi": "trong đó còn, ờ, có một số là quảng cáo,"
+        },
+        {
+          "zh": "就是纯粹商业广告。",
+          "vi": "tức là quảng cáo thương mại thuần túy."
+        }
+      ]
+    },
+    "235": {
+      "zh": "我讲一个笑话吧有一次我去看一部电影前面我到的比较早然后我就开始欣赏这15分钟广告加别的电影预告片然后其中有一个广告是迪奥的真我香水然后真我是中国人的翻译法国原版叫做J'adore字面翻译过来其实就是I like我喜欢当这个预告当这个商业广告放到最后呃，",
+      "parts": [
+        {
+          "zh": "我讲一个笑话吧",
+          "vi": "Mình kể một chuyện cười nhé,"
+        },
+        {
+          "zh": "有一次我去看一部电影",
+          "vi": "có một lần mình đi xem một bộ phim,"
+        },
+        {
+          "zh": "前面我到的比较早",
+          "vi": "mình đến khá sớm,"
+        },
+        {
+          "zh": "然后我就开始欣赏",
+          "vi": "rồi bắt đầu thưởng thức"
+        },
+        {
+          "zh": "这15分钟广告加别的电影预告片",
+          "vi": "15 phút quảng cáo cộng trailer của các phim khác,"
+        },
+        {
+          "zh": "然后其中有一个广告",
+          "vi": "rồi trong đó có một quảng cáo"
+        },
+        {
+          "zh": "是迪奥的真我香水",
+          "vi": "là nước hoa Dior 真我,"
+        },
+        {
+          "zh": "然后真我是中国人的翻译",
+          "vi": "mà 真我 là tên người Trung Quốc dịch,"
+        },
+        {
+          "zh": "法国原版叫做J'adore",
+          "vi": "bản gốc tiếng Pháp tên là J'adore,"
+        },
+        {
+          "zh": "字面翻译过来其实就是",
+          "vi": "dịch sát nghĩa ra thật ra là"
+        },
+        {
+          "zh": "I like我喜欢",
+          "vi": "I like, “tôi thích”,"
+        },
+        {
+          "zh": "当这个预告",
+          "vi": "khi đoạn trailer này,"
+        },
+        {
+          "zh": "当这个商业广告放到最后呃，",
+          "vi": "khi đoạn quảng cáo thương mại này chiếu đến cuối, ờ,"
+        }
+      ]
+    },
+    "238": {
+      "zh": "屏幕上出现了这个呃logo，屏幕上出现了商标，然后嗯声音响起，",
+      "parts": [
+        {
+          "zh": "屏幕上出现了这个呃logo，",
+          "vi": "trên màn hình hiện ra cái, ờ, logo,"
+        },
+        {
+          "zh": "屏幕上出现了商标，然后嗯声音响起，",
+          "vi": "trên màn hình hiện ra nhãn hiệu, rồi, ừm, tiếng vang lên,"
+        }
+      ]
+    },
+    "239": {
+      "zh": "呃这个广告片说出了最后一句广告词，呃我喜欢J'adore的时候，",
+      "parts": [
+        {
+          "zh": "呃这个广告片",
+          "vi": "ờ, đoạn quảng cáo này"
+        },
+        {
+          "zh": "说出了最后一句广告词，",
+          "vi": "nói ra câu slogan cuối cùng,"
+        },
+        {
+          "zh": "呃我喜欢J'adore的时候，",
+          "vi": "ờ, lúc “tôi thích”, J'adore ấy,"
+        }
+      ]
+    },
+    "240": {
+      "zh": "我身边坐着一个法国的老爷爷，他说了一句moi aussi就是me too就是我也是，",
+      "parts": [
+        {
+          "zh": "我身边坐着一个法国的老爷爷，",
+          "vi": "bên cạnh mình có một ông cụ người Pháp đang ngồi,"
+        },
+        {
+          "zh": "他说了一句moi aussi",
+          "vi": "ông ấy nói một câu “moi aussi”,"
+        },
+        {
+          "zh": "就是me too就是我也是，",
+          "vi": "tức là “me too”, tức là “tôi cũng vậy”,"
+        }
+      ]
+    },
+    "241": {
+      "zh": "呃后来呢呃他当然他身边的那个老伴儿就笑得很开心，后来我意识到了这个老爷爷他的这个笑话。",
+      "parts": [
+        {
+          "zh": "呃后来呢呃他当然",
+          "vi": "ờ, sau đó, ờ, ông ấy tất nhiên…"
+        },
+        {
+          "zh": "他身边的那个老伴儿就笑得很开心，",
+          "vi": "bà vợ ngồi cạnh ông cười rất vui vẻ,"
+        },
+        {
+          "zh": "后来我意识到了",
+          "vi": "sau đó mình mới nhận ra"
+        },
+        {
+          "zh": "这个老爷爷他的这个笑话。",
+          "vi": "câu đùa của ông cụ này."
+        }
+      ]
+    },
+    "242": {
+      "zh": "他其实并不是说，呃，并不是在回应电那个广告当中的我喜欢这个香水，",
+      "parts": [
+        {
+          "zh": "他其实并不是说，呃，",
+          "vi": "Ông ấy thật ra không phải nói, ờ,"
+        },
+        {
+          "zh": "并不是在回应电那个广告当中的",
+          "vi": "không phải đáp lại câu trong quảng cáo"
+        },
+        {
+          "zh": "我喜欢这个香水，",
+          "vi": "“tôi thích loại nước hoa này”,"
+        }
+      ]
+    },
+    "243": {
+      "zh": "然后那个老爷爷说我也喜欢这个香水。",
+      "parts": [
+        {
+          "zh": "然后那个老爷爷说",
+          "vi": "rồi ông cụ nói"
+        },
+        {
+          "zh": "我也喜欢这个香水。",
+          "vi": "tôi cũng thích loại nước hoa này."
+        }
+      ]
+    },
+    "244": {
+      "zh": "他其实是有暗示说我也很喜欢刚刚那个那个预告片里的模特啊，就是商业广告里的模特。",
+      "parts": [
+        {
+          "zh": "他其实是有暗示说",
+          "vi": "Ông ấy thật ra là ám chỉ"
+        },
+        {
+          "zh": "我也很喜欢刚刚那个那个",
+          "vi": "tôi cũng rất thích cái… cái người mẫu"
+        },
+        {
+          "zh": "预告片里的模特啊，",
+          "vi": "trong trailer vừa rồi,"
+        },
+        {
+          "zh": "就是商业广告里的模特。",
+          "vi": "tức là người mẫu trong quảng cáo."
+        }
+      ]
+    },
+    "245": {
+      "zh": "后来我结合那一个说话瞬间和影片中的出现的场面那个那个画面，",
+      "parts": [
+        {
+          "zh": "后来我结合那一个说话瞬间",
+          "vi": "Sau đó mình kết hợp khoảnh khắc ông ấy nói"
+        },
+        {
+          "zh": "和影片中的出现的场面",
+          "vi": "với cảnh xuất hiện trong phim,"
+        },
+        {
+          "zh": "那个那个画面，",
+          "vi": "cái… cái hình ảnh đó,"
+        }
+      ]
+    },
+    "246": {
+      "zh": "然后我就想到了其实是这个比较好笑。",
+      "parts": [
+        {
+          "zh": "然后我就想到了",
+          "vi": "rồi mình mới nghĩ ra"
+        },
+        {
+          "zh": "其实是这个比较好笑。",
+          "vi": "thật ra chuyện này khá buồn cười."
+        }
+      ]
+    },
+    "247": {
+      "zh": "好的呀，那今天我们就已经聊了很多了，先瞎扯到这里。",
+      "parts": [
+        {
+          "zh": "好的呀，",
+          "vi": "Được rồi,"
+        },
+        {
+          "zh": "那今天我们就已经聊了很多了，",
+          "vi": "vậy hôm nay tụi mình đã nói chuyện nhiều rồi,"
+        },
+        {
+          "zh": "先瞎扯到这里。",
+          "vi": "tán dóc đến đây thôi."
+        }
+      ]
+    },
+    "248": {
+      "zh": "谢谢Paul来做我们的这一期嘉宾啊！",
+      "parts": [
+        {
+          "zh": "谢谢Paul",
+          "vi": "Cảm ơn Paul"
+        },
+        {
+          "zh": "来做我们的这一期嘉宾啊！",
+          "vi": "đã làm khách mời số này của tụi mình nhé!"
+        }
+      ]
+    },
+    "249": {
+      "zh": "我觉得我们聊了很多，很好。",
+      "vi": "Mình thấy tụi mình nói được nhiều, rất tốt."
+    },
+    "250": {
+      "zh": "呃，这些都是呃，或许呃，在呃收音机前或者手机前，呃，今后想来法国呃旅游的朋友，呃，",
+      "parts": [
+        {
+          "zh": "呃，这些都是呃，或许呃，",
+          "vi": "Ờ, những điều này đều là, ờ, có lẽ, ờ,"
+        },
+        {
+          "zh": "在呃收音机前或者手机前，",
+          "vi": "các bạn đang ở trước radio hay điện thoại,"
+        },
+        {
+          "zh": "呃，今后想来法国呃旅游的朋友，呃，",
+          "vi": "ờ, sau này muốn sang Pháp, ờ, du lịch, ờ,"
+        }
+      ]
+    },
+    "251": {
+      "zh": "可能以后也可能会遇到的一些情况。",
+      "vi": "những tình huống có thể sau này cũng sẽ gặp phải."
+    },
+    "252": {
+      "zh": "对对对对对，但是最后还是要放一个disclaimer。",
+      "parts": [
+        {
+          "zh": "对对对对对，但是最后还是要",
+          "vi": "Đúng đúng đúng đúng đúng, nhưng cuối cùng vẫn phải"
+        },
+        {
+          "zh": "放一个disclaimer。",
+          "vi": "đưa ra một lời disclaimer."
+        }
+      ]
+    },
+    "253": {
+      "zh": "我们说的这些吐槽点都是小小的吐槽，但是像Paul和我，我们都很喜欢法国，",
+      "parts": [
+        {
+          "zh": "我们说的这些吐槽点",
+          "vi": "Những điểm phàn nàn tụi mình nói"
+        },
+        {
+          "zh": "都是小小的吐槽，",
+          "vi": "đều là phàn nàn nho nhỏ thôi,"
+        },
+        {
+          "zh": "但是像Paul和我，",
+          "vi": "chứ như Paul và mình,"
+        },
+        {
+          "zh": "我们都很喜欢法国，",
+          "vi": "tụi mình đều rất thích Pháp,"
+        }
+      ]
+    },
+    "254": {
+      "zh": "很喜欢巴黎的生活，所以完以上吐槽完全没有恶意。",
+      "parts": [
+        {
+          "zh": "很喜欢巴黎的生活，",
+          "vi": "rất thích cuộc sống ở Paris,"
+        },
+        {
+          "zh": "所以完以上吐槽完全没有恶意。",
+          "vi": "nên những lời phàn nàn trên hoàn toàn không có ác ý."
+        }
+      ]
+    },
+    "255": {
+      "zh": "好的，好的，那我们就期待下一次和大家第三期节目再见，",
+      "parts": [
+        {
+          "zh": "好的，好的，那我们就期待下一次",
+          "vi": "Được rồi, được rồi, vậy tụi mình mong lần sau"
+        },
+        {
+          "zh": "和大家第三期节目再见，",
+          "vi": "gặp lại mọi người ở số thứ ba nhé,"
+        }
+      ]
+    },
+    "256": {
+      "zh": "再见，拜拜。",
+      "vi": "Tạm biệt, bye bye."
+    }
+  }
+}

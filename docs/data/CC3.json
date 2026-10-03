@@ -1,0 +1,5391 @@
+{
+  "id": "CC3",
+  "title": "EPISODE 3 | 对法国的吐槽 (Jokingly) complaints about France",
+  "guid": "ckoir53nq2ed20a72te3zfsmi",
+  "pubDate": "2021-05-10",
+  "duration": 1422,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/CC3.m4a"
+  },
+  "source": "podcast",
+  "owner": "瞎扯学中文 Convo Chinese",
+  "link": "https://open.firstory.fm/story/ckoir53nq2ed20a72te3zfsmi",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 11.74,
+      "end": 12.64,
+      "text": "Hello，大家好，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 1,
+      "s": 0,
+      "start": 12.64,
+      "end": 16.24,
+      "text": "欢迎大家来收听我们瞎扯学中文的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 2,
+      "s": 0,
+      "start": 16.24,
+      "end": 19.36,
+      "text": "第二期正式的podcast。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 3,
+      "s": 1,
+      "start": 19.5,
+      "end": 23.36,
+      "text": "那今天呢，有邀请到另外一位好朋友，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 4,
+      "s": 1,
+      "start": 23.36,
+      "end": 25.16,
+      "text": "嗯，请他来自我介绍一下吧。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 5,
+      "s": 2,
+      "start": 26.15,
+      "end": 28.09,
+      "text": "大家好，很高兴见到大家。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 3,
+      "start": 28.85,
+      "end": 31.39,
+      "text": "呃，我的名字叫Paul，其实就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 3,
+      "start": 31.39,
+      "end": 34.41,
+      "text": "英语单词“Paul”的法语发音。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 4,
+      "start": 34.57,
+      "end": 38.05,
+      "text": "然后我现在是曾经在法国读过书，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 4,
+      "start": 38.05,
+      "end": 39.97,
+      "text": "现在即将在法国工作，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 5,
+      "start": 39.97,
+      "end": 41.65,
+      "text": "很高兴在这个podcast里",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 11,
+      "s": 5,
+      "start": 41.65,
+      "end": 42.62,
+      "text": "和大家见面。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 6,
+      "start": 44.35,
+      "end": 46.57,
+      "text": "对我和Paul认识呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 13,
+      "s": 6,
+      "start": 46.57,
+      "end": 49.79,
+      "text": "其实是因为我现在也在法国读书，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 14,
+      "s": 6,
+      "start": 49.79,
+      "end": 51.45,
+      "text": "然后我在学法语。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 15,
+      "s": 7,
+      "start": 51.66,
+      "end": 53.54,
+      "text": "Paul的法语特别好，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 16,
+      "s": 7,
+      "start": 53.54,
+      "end": 56.31,
+      "text": "因为他原来是法语专业的，对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 17,
+      "s": 8,
+      "start": 56.72,
+      "end": 58.4,
+      "text": "然后我就和Paul呢",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 18,
+      "s": 8,
+      "start": 58.4,
+      "end": 60.58,
+      "text": "一起在学法语，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 19,
+      "s": 9,
+      "start": 60.58,
+      "end": 62.08,
+      "text": "然后就有请Paul",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 20,
+      "s": 9,
+      "start": 62.08,
+      "end": 65.2,
+      "text": "今天来和我们瞎扯聊一聊",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 21,
+      "s": 9,
+      "start": 65.2,
+      "end": 68.66,
+      "text": "我们在法国生活和留学的经历，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 22,
+      "s": 10,
+      "start": 68.66,
+      "end": 71,
+      "text": "特别是作为一个中国人吧，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 23,
+      "s": 10,
+      "start": 71.09,
+      "end": 73.72,
+      "text": "第一次来到欧洲，来到法国，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 24,
+      "s": 10,
+      "start": 74,
+      "end": 77.52,
+      "text": "肯定会有很多的文化文化冲突、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 25,
+      "s": 11,
+      "start": 77.52,
+      "end": 79.36,
+      "text": "文化冲击。就是所谓的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 26,
+      "s": 12,
+      "start": 79.36,
+      "end": 80.3,
+      "text": "cultural shock。",
+      "speaker": "A",
+      "u": 11,
+      "role": "narrator"
+    },
+    {
+      "i": 27,
+      "s": 13,
+      "start": 80.59,
+      "end": 82.02,
+      "text": "那Paul，我不知道",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 28,
+      "s": 13,
+      "start": 82.02,
+      "end": 84.87,
+      "text": "你是哪一年来法国的呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 29,
+      "s": 14,
+      "start": 85.28,
+      "end": 88.22,
+      "text": "啊，我在我是很早以前就来法国，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 14,
+      "start": 88.22,
+      "end": 92.28,
+      "text": "那是在呃我记得很清楚，二零一五年。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 15,
+      "start": 92.6,
+      "end": 93.74,
+      "text": "我记得很清楚，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 15,
+      "start": 93.74,
+      "end": 96.42,
+      "text": "主要是因为那一年恰好发生了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 15,
+      "start": 96.42,
+      "end": 98.55,
+      "text": "震惊全球的恐怖袭击。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 16,
+      "start": 99.76,
+      "end": 101.7,
+      "text": "呃，我当时来法国的契机",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 16,
+      "start": 101.7,
+      "end": 105.02,
+      "text": "是进行一个学期的交换生。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 17,
+      "start": 105.4,
+      "end": 108.36,
+      "text": "呃，当时就是因为我的本科学校",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 17,
+      "start": 108.36,
+      "end": 111.44,
+      "text": "跟呃就是法国这边的学校",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 17,
+      "start": 111.44,
+      "end": 113.98,
+      "text": "有这个签署合作协议，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 18,
+      "start": 113.98,
+      "end": 117.51,
+      "text": "所以我就趁这个机会呃来到法国，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 18,
+      "start": 117.63,
+      "end": 119.25,
+      "text": "然后了解这个国家，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 18,
+      "start": 119.3,
+      "end": 120.65,
+      "text": "进一步的学习语言。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 19,
+      "start": 121.28,
+      "end": 122.7,
+      "text": "然后在那之后呢，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 19,
+      "start": 122.7,
+      "end": 125.84,
+      "text": "我就呃回国完成了本科学业之后，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 19,
+      "start": 125.84,
+      "end": 127.3,
+      "text": "在法国读研究生。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 20,
+      "start": 127.38,
+      "end": 128.7,
+      "text": "呃，在这个过程当中，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 20,
+      "start": 128.7,
+      "end": 130.44,
+      "text": "呃，我除了在法国学习，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 20,
+      "start": 130.44,
+      "end": 132.92,
+      "text": "当然也有。呃，简单的旅游，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 21,
+      "start": 132.92,
+      "end": 136.46,
+      "text": "并且我在法国有呃基本的一些工作，",
+      "speaker": "B",
+      "u": 20,
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 21,
+      "start": 136.46,
+      "end": 138.33,
+      "text": "并且现在将继续工作等等。",
+      "speaker": "B",
+      "u": 20,
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 22,
+      "start": 139.9,
+      "end": 142.26,
+      "text": "你在法国当时一五年的时候",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 51,
+      "s": 22,
+      "start": 142.26,
+      "end": 144.46,
+      "text": "是几岁啊？是大学生吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 52,
+      "s": 24,
+      "start": 144.46,
+      "end": 147.62,
+      "text": "对对，那个时候我大学本科四年级",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 24,
+      "start": 147.62,
+      "end": 149.65,
+      "text": "好像是，对，四年级。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 25,
+      "start": 149.8,
+      "end": 152.22,
+      "text": "那那个时候你在来法国之前",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 55,
+      "s": 25,
+      "start": 152.22,
+      "end": 155.03,
+      "text": "有没有去过其他的欧洲国家？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 56,
+      "s": 26,
+      "start": 155.14,
+      "end": 159.56,
+      "text": "有有，我在那个之前曾经有去过",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 26,
+      "start": 159.56,
+      "end": 161.2,
+      "text": "丹麦，也是进行类似的交换学习这样的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 27,
+      "start": 163.12,
+      "end": 166.42,
+      "text": "的一个呃经历，在当时丹麦呢",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "s": 27,
+      "start": 166.42,
+      "end": 169.94,
+      "text": "是呃学习关于国际文化",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 27,
+      "start": 169.94,
+      "end": 172.88,
+      "text": "以及偏商科的一些知识，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 28,
+      "start": 172.98,
+      "end": 175.14,
+      "text": "呃确实我从丹麦",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 28,
+      "start": 175.14,
+      "end": 178.36,
+      "text": "呃结束一个当时的学习之后",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 28,
+      "start": 178.36,
+      "end": 181.7,
+      "text": "再到法国有感觉到很大的不一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 29,
+      "start": 181.7,
+      "end": 182.82,
+      "text": "比如说呃我觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 29,
+      "start": 182.82,
+      "end": 186,
+      "text": "我第一次在国外经历丹麦那个国度",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 29,
+      "start": 186,
+      "end": 190.29,
+      "text": "呃其实感觉还是非常的。呃，自然",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 30,
+      "start": 190.29,
+      "end": 192.81,
+      "text": "或者说比较能够呃接受",
+      "speaker": "B",
+      "u": 29,
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 30,
+      "start": 192.81,
+      "end": 196.03,
+      "text": "慢慢的感受他们的一些生活习惯的。",
+      "speaker": "B",
+      "u": 29,
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 31,
+      "start": 196.03,
+      "end": 197.71,
+      "text": "但是到了法国呢，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 31,
+      "start": 197.71,
+      "end": 199.95,
+      "text": "虽然说我之前学过法语啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 31,
+      "start": 199.95,
+      "end": 201.09,
+      "text": "我甚至没有学过丹麦语，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 31,
+      "start": 201.09,
+      "end": 202.35,
+      "text": "但是我学过法语。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 32,
+      "start": 202.35,
+      "end": 204.13,
+      "text": "但是我感觉到很多事情",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 32,
+      "start": 204.13,
+      "end": 207.39,
+      "text": "确实要花一点时间，不仅是适应，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 33,
+      "start": 207.39,
+      "end": 208.73,
+      "text": "而且要理解它背后",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "s": 33,
+      "start": 208.73,
+      "end": 210.63,
+      "text": "可能有特殊的做事逻辑。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 77,
+      "s": 34,
+      "start": 210.63,
+      "end": 212.61,
+      "text": "比如说，我最想要跟大家",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 34,
+      "start": 212.61,
+      "end": 215.33,
+      "text": "呃先吐露心声的就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 79,
+      "s": 34,
+      "start": 215.33,
+      "end": 217.05,
+      "text": "他们很多行政事务",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 80,
+      "s": 34,
+      "start": 217.05,
+      "end": 218.63,
+      "text": "很行很多行政上的事情都需要。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 35,
+      "start": 220.55,
+      "end": 223.69,
+      "text": "呃，写信来完成啊，就是很多",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 35,
+      "start": 223.69,
+      "end": 226.93,
+      "text": "我可以在国内用电子版签名，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 35,
+      "start": 226.93,
+      "end": 228.29,
+      "text": "或者说按一个按钮，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 36,
+      "start": 228.29,
+      "end": 231.49,
+      "text": "或者说用呃手机输入密码，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "s": 36,
+      "start": 231.49,
+      "end": 234.29,
+      "text": "呃这个指纹解锁来完成的事情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 86,
+      "s": 36,
+      "start": 234.29,
+      "end": 237.31,
+      "text": "在法国一定要寄挂号信来完成啊。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 87,
+      "s": 37,
+      "start": 237.31,
+      "end": 239.73,
+      "text": "这个一开始让我觉得非常麻烦。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 38,
+      "start": 240.68,
+      "end": 243.55,
+      "text": "刚才有提到一个词是挂号信，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 89,
+      "s": 38,
+      "start": 243.55,
+      "end": 245.65,
+      "text": "觉得这个词我们可以展开说一下，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 90,
+      "s": 39,
+      "start": 245.65,
+      "end": 247.99,
+      "text": "可以稍微解释一下什么是挂号信吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 91,
+      "s": 40,
+      "start": 248.15,
+      "end": 249.49,
+      "text": "挂号信就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 92,
+      "s": 40,
+      "start": 249.49,
+      "end": 252.41,
+      "text": "和一般的平邮信件相区别",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "s": 40,
+      "start": 252.41,
+      "end": 254.95,
+      "text": "它是指这个信寄出之后",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 94,
+      "s": 40,
+      "start": 254.95,
+      "end": 258.59,
+      "text": "如果对方收到我作为寄信人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 95,
+      "s": 40,
+      "start": 258.59,
+      "end": 262.52,
+      "text": "可以获得一个对方收到的通知",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 96,
+      "s": 41,
+      "start": 262.81,
+      "end": 265.83,
+      "text": "然后在法国呢我可以收到一张条子",
+      "speaker": "B",
+      "u": 40,
+      "role": "storyteller"
+    },
+    {
+      "i": 97,
+      "s": 41,
+      "start": 265.83,
+      "end": 268.79,
+      "text": "就是一张小纸条在我的信箱里",
+      "speaker": "B",
+      "u": 40,
+      "role": "storyteller"
+    },
+    {
+      "i": 98,
+      "s": 41,
+      "start": 268.79,
+      "end": 270.41,
+      "text": "这是邮递员告诉我",
+      "speaker": "B",
+      "u": 40,
+      "role": "storyteller"
+    },
+    {
+      "i": 99,
+      "s": 42,
+      "start": 270.41,
+      "end": 271.49,
+      "text": "我的这份挂号信",
+      "speaker": "B",
+      "u": 40,
+      "role": "storyteller"
+    },
+    {
+      "i": 100,
+      "s": 42,
+      "start": 271.49,
+      "end": 275.24,
+      "text": "已经到达了对方邮箱嗯，",
+      "speaker": "B",
+      "u": 40,
+      "role": "storyteller"
+    },
+    {
+      "i": 101,
+      "s": 43,
+      "start": 275.24,
+      "end": 277.84,
+      "text": "所以说挂号信的话是就比较，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 102,
+      "s": 43,
+      "start": 277.93,
+      "end": 279.16,
+      "text": "然后这样比较安全。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 103,
+      "s": 44,
+      "start": 280.09,
+      "end": 281.82,
+      "text": "是的，呃，同时挂号信",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 104,
+      "s": 44,
+      "start": 281.82,
+      "end": 285.5,
+      "text": "也在法律上被认为是一个呃证据，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 105,
+      "s": 45,
+      "start": 285.5,
+      "end": 287.08,
+      "text": "或者说是可以呃",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 106,
+      "s": 45,
+      "start": 287.08,
+      "end": 290.51,
+      "text": "作为法律上的证证据呃来利用的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 107,
+      "s": 46,
+      "start": 291.34,
+      "end": 294.98,
+      "text": "嗯嗯，对你说的这个吐槽的点，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 108,
+      "s": 46,
+      "start": 294.98,
+      "end": 297.86,
+      "text": "吐槽的意思就是就是抱怨吧，相当于，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 109,
+      "s": 47,
+      "start": 297.86,
+      "end": 300.9,
+      "text": "但是是比较轻程度的一个抱怨。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 110,
+      "s": 48,
+      "start": 300.9,
+      "end": 304.47,
+      "text": "我在法国也经常。就是碰到",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 111,
+      "s": 49,
+      "start": 304.47,
+      "end": 307.63,
+      "text": "这种行政上的事务需要寄信，",
+      "speaker": "A",
+      "u": 48,
+      "role": "narrator"
+    },
+    {
+      "i": 112,
+      "s": 49,
+      "start": 307.85,
+      "end": 309.47,
+      "text": "然后特别的流程",
+      "speaker": "A",
+      "u": 48,
+      "role": "narrator"
+    },
+    {
+      "i": 113,
+      "s": 49,
+      "start": 309.47,
+      "end": 311.42,
+      "text": "特别的长，特别的冗长。",
+      "speaker": "A",
+      "u": 48,
+      "role": "narrator"
+    },
+    {
+      "i": 114,
+      "s": 50,
+      "start": 311.59,
+      "end": 313.49,
+      "text": "比如说我刚刚来法国的时候",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 115,
+      "s": 50,
+      "start": 313.49,
+      "end": 315.27,
+      "text": "需要办一张银行卡，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 116,
+      "s": 51,
+      "start": 315.47,
+      "end": 317.89,
+      "text": "但是呢办银行卡在中国",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 117,
+      "s": 51,
+      "start": 317.89,
+      "end": 320.55,
+      "text": "可能有很多外国朋友不知道，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 118,
+      "s": 51,
+      "start": 320.55,
+      "end": 322.75,
+      "text": "但是在中国非常的容易，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 119,
+      "s": 52,
+      "start": 322.93,
+      "end": 325.15,
+      "text": "就只需要跑到银行柜台，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 120,
+      "s": 52,
+      "start": 325.29,
+      "end": 327.63,
+      "text": "然后拿出你的身份证",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 121,
+      "s": 52,
+      "start": 327.63,
+      "end": 329.91,
+      "text": "和可能五十块钱人民币。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 122,
+      "s": 53,
+      "start": 330.05,
+      "end": 332.81,
+      "text": "大概花三十分钟、二十分钟的时间，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 123,
+      "s": 53,
+      "start": 332.81,
+      "end": 335,
+      "text": "你就可以拿着银行卡回家了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 124,
+      "s": 54,
+      "start": 335.31,
+      "end": 337.01,
+      "text": "但是呢，在法国不可以，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 125,
+      "s": 54,
+      "start": 337.01,
+      "end": 341.09,
+      "text": "在法国需要先给银行做一个预约，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 126,
+      "s": 54,
+      "start": 341.09,
+      "end": 341.43,
+      "text": "就是做一个",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 127,
+      "s": 54,
+      "start": 341.43,
+      "end": 342.34,
+      "text": "rendez-vous。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 128,
+      "s": 55,
+      "start": 342.41,
+      "end": 345.78,
+      "text": "然后呢，当天去了银行柜台以后，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 129,
+      "s": 55,
+      "start": 345.84,
+      "end": 349.37,
+      "text": "办了一通的手续，并不能拿到银行卡。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 130,
+      "s": 56,
+      "start": 349.37,
+      "end": 352.65,
+      "text": "然后要回家，我在家等邮件，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 131,
+      "s": 56,
+      "start": 352.65,
+      "end": 356.11,
+      "text": "等了大概两个星期才收到一个邮件。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 132,
+      "s": 57,
+      "start": 356.27,
+      "end": 358.99,
+      "text": "告诉了我密码，是的，对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 133,
+      "s": 58,
+      "start": 358.99,
+      "end": 360.65,
+      "text": "然后收到密码以后，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 134,
+      "s": 58,
+      "start": 360.65,
+      "end": 364.21,
+      "text": "我才能再回到银行去取我的银行卡。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 135,
+      "s": 59,
+      "start": 364.21,
+      "end": 366.69,
+      "text": "他并不能直接寄给我这张银行卡，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 136,
+      "s": 59,
+      "start": 366.69,
+      "end": 368.11,
+      "text": "所以非常的麻烦。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 137,
+      "s": 60,
+      "start": 368.39,
+      "end": 370.51,
+      "text": "对，我觉得，我觉得确实如此。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "s": 61,
+      "start": 370.51,
+      "end": 374.45,
+      "text": "就是在法国很多事情你得跑两三趟，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 62,
+      "start": 374.45,
+      "end": 377.05,
+      "text": "就是你得亲身到那个办事的地点",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "s": 62,
+      "start": 377.05,
+      "end": 379.15,
+      "text": "好几趟才能完成一个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "s": 62,
+      "start": 379.15,
+      "end": 381.77,
+      "text": "或许在中国只需要一点点时间",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "s": 62,
+      "start": 381.77,
+      "end": 382.77,
+      "text": "就可以完成的事儿。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 143,
+      "s": 64,
+      "start": 383.7,
+      "end": 386.71,
+      "text": "而且我我最不能理解的是，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 144,
+      "s": 64,
+      "start": 386.71,
+      "end": 389.83,
+      "text": "他所有的事情都需要先预约一下。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 145,
+      "s": 65,
+      "start": 389.83,
+      "end": 391.43,
+      "text": "如果你不预约的话，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 146,
+      "s": 65,
+      "start": 391.43,
+      "end": 393.18,
+      "text": "他他就不帮你办这个事情。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 147,
+      "s": 66,
+      "start": 393.73,
+      "end": 397.27,
+      "text": "是的，是的，我完全完全就是感同身受。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "s": 67,
+      "start": 397.27,
+      "end": 399.67,
+      "text": "嗯，他们在法国的那个文化当中，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 149,
+      "s": 67,
+      "start": 399.67,
+      "end": 402.97,
+      "text": "好像预约是一个看似没法立刻办，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 150,
+      "s": 68,
+      "start": 402.97,
+      "end": 405.37,
+      "text": "但是似乎可以在总体上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 151,
+      "s": 68,
+      "start": 405.37,
+      "end": 406.91,
+      "text": "提高效率的一件事情。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 152,
+      "s": 69,
+      "start": 407.19,
+      "end": 409.88,
+      "text": "也就是后来我。就如刚刚所说，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 153,
+      "s": 70,
+      "start": 409.97,
+      "end": 412.57,
+      "text": "想试图理解一下他们背后的逻辑。",
+      "speaker": "B",
+      "u": 69,
+      "role": "storyteller"
+    },
+    {
+      "i": 154,
+      "s": 71,
+      "start": 412.76,
+      "end": 414.12,
+      "text": "可能法国人觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 155,
+      "s": 71,
+      "start": 414.12,
+      "end": 417.06,
+      "text": "我给你了一个预约的时间，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 156,
+      "s": 71,
+      "start": 417.06,
+      "end": 419.78,
+      "text": "这样可以让你在未来",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 157,
+      "s": 71,
+      "start": 419.78,
+      "end": 421.34,
+      "text": "安排个人生活的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "s": 72,
+      "start": 421.34,
+      "end": 423.62,
+      "text": "将这个已经确定时间的预约",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 159,
+      "s": 72,
+      "start": 423.62,
+      "end": 427.37,
+      "text": "更好的纳入你的生活日程安排当中。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 160,
+      "s": 73,
+      "start": 427.4,
+      "end": 428.8,
+      "text": "这可能是他们背后",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 161,
+      "s": 73,
+      "start": 428.8,
+      "end": 431.26,
+      "text": "做这个事情的思维方法。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 162,
+      "s": 74,
+      "start": 431.84,
+      "end": 433.76,
+      "text": "嗯，但是有些事情呢，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 163,
+      "s": 74,
+      "start": 433.76,
+      "end": 435.1,
+      "text": "我已经习惯在国内",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 164,
+      "s": 74,
+      "start": 435.1,
+      "end": 438.06,
+      "text": "就直接上门。立刻马上办掉，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 165,
+      "s": 75,
+      "start": 438.15,
+      "end": 439.64,
+      "text": "比如说我有一次",
+      "speaker": "B",
+      "u": 74,
+      "role": "storyteller"
+    },
+    {
+      "i": 166,
+      "s": 75,
+      "start": 439.64,
+      "end": 442.72,
+      "text": "就去法国的一个理发店，",
+      "speaker": "B",
+      "u": 74,
+      "role": "storyteller"
+    },
+    {
+      "i": 167,
+      "s": 75,
+      "start": 443.16,
+      "end": 444.9,
+      "text": "嗯，然后我说能不能理发？",
+      "speaker": "B",
+      "u": 74,
+      "role": "storyteller"
+    },
+    {
+      "i": 168,
+      "s": 76,
+      "start": 444.9,
+      "end": 446.24,
+      "text": "他们当时确实",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 169,
+      "s": 76,
+      "start": 446.24,
+      "end": 448.9,
+      "text": "整个理发店内没有一个人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "s": 76,
+      "start": 448.9,
+      "end": 451.3,
+      "text": "但是他们呃就表示不行，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 171,
+      "s": 76,
+      "start": 451.3,
+      "end": 452.99,
+      "text": "我们一定要预约啊。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 172,
+      "s": 77,
+      "start": 453.3,
+      "end": 454.46,
+      "text": "然后我说我能不能",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 173,
+      "s": 77,
+      "start": 454.46,
+      "end": 457.36,
+      "text": "现在就在你面前预约现在这个时候？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 174,
+      "s": 78,
+      "start": 457.72,
+      "end": 460.21,
+      "text": "他们说不行，一定要打电话。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 175,
+      "s": 79,
+      "start": 460.26,
+      "end": 461.82,
+      "text": "那我说能不能我走出去",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 176,
+      "s": 79,
+      "start": 461.82,
+      "end": 463.71,
+      "text": "就在门口给你们打电话？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 177,
+      "s": 80,
+      "start": 464.14,
+      "end": 465.48,
+      "text": "他们说那倒是可以的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 178,
+      "s": 81,
+      "start": 465.6,
+      "end": 467.79,
+      "text": "但是呢，你要求的这个时间",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 179,
+      "s": 81,
+      "start": 467.79,
+      "end": 468.95,
+      "text": "现在是不行，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 180,
+      "s": 82,
+      "start": 468.95,
+      "end": 470.13,
+      "text": "因为现在这个时间段",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 181,
+      "s": 82,
+      "start": 470.13,
+      "end": 471.75,
+      "text": "是安排给另外一位",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 182,
+      "s": 82,
+      "start": 471.75,
+      "end": 473.33,
+      "text": "已经预约过的客人了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 183,
+      "s": 82,
+      "start": 473.33,
+      "end": 474.49,
+      "text": "只是这个客人还没有到。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 184,
+      "s": 83,
+      "start": 475.11,
+      "end": 477.61,
+      "text": "啊，当时我就被深深的上了一课。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 185,
+      "s": 84,
+      "start": 477.61,
+      "end": 479.33,
+      "text": "呃，接下来所有的事情我都知道，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 186,
+      "s": 84,
+      "start": 479.33,
+      "end": 480.41,
+      "text": "应该先打个电话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 187,
+      "s": 84,
+      "start": 480.73,
+      "end": 482.01,
+      "text": "哪怕我不知道有没有",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 188,
+      "s": 84,
+      "start": 482.01,
+      "end": 483.01,
+      "text": "不知道有没有预约，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 189,
+      "s": 85,
+      "start": 483.01,
+      "end": 485.63,
+      "text": "我得先打个电话问一问有没有预约。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 190,
+      "s": 86,
+      "start": 485.75,
+      "end": 487.82,
+      "text": "这后来成了我后来的办事方法。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 191,
+      "s": 87,
+      "start": 489.21,
+      "end": 492.17,
+      "text": "对，是，但是我之前也听一个。朋友",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 192,
+      "s": 88,
+      "start": 492.17,
+      "end": 493.93,
+      "text": "外国朋友就是英国的朋友",
+      "speaker": "A",
+      "u": 87,
+      "role": "narrator"
+    },
+    {
+      "i": 193,
+      "s": 88,
+      "start": 493.93,
+      "end": 496.97,
+      "text": "吐槽法国的预约文化，他也是说，",
+      "speaker": "A",
+      "u": 87,
+      "role": "narrator"
+    },
+    {
+      "i": 194,
+      "s": 89,
+      "start": 496.97,
+      "end": 499.83,
+      "text": "他说他站在办事情的人面前",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 195,
+      "s": 89,
+      "start": 499.83,
+      "end": 502.81,
+      "text": "说我能不能和你面对面的预约？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 196,
+      "s": 90,
+      "start": 502.81,
+      "end": 503.85,
+      "text": "他说不可以，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 197,
+      "s": 90,
+      "start": 503.85,
+      "end": 506.43,
+      "text": "你一定要回家打电话才能预约。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 198,
+      "s": 91,
+      "start": 506.43,
+      "end": 510.59,
+      "text": "这个点我觉得也是挺是的，呃，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 199,
+      "s": 92,
+      "start": 510.59,
+      "end": 512.35,
+      "text": "好像似乎对他们来说",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 200,
+      "s": 92,
+      "start": 512.35,
+      "end": 514.03,
+      "text": "打电话是一个可以被录音",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 201,
+      "s": 92,
+      "start": 514.03,
+      "end": 516.76,
+      "text": "或者说默认具有法律效益的东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 202,
+      "s": 92,
+      "start": 516.99,
+      "end": 520.1,
+      "text": "嗯，但。可能他们就是习惯这么做了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 203,
+      "s": 94,
+      "start": 520.69,
+      "end": 523.58,
+      "text": "嗯，然后我还有一个可以吐槽的点，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 204,
+      "s": 94,
+      "start": 523.58,
+      "end": 526.07,
+      "text": "就是关于法国人的这个发音，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 205,
+      "s": 94,
+      "start": 526.3,
+      "end": 528.46,
+      "text": "特别是他们读我的名字，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 206,
+      "s": 95,
+      "start": 528.46,
+      "end": 531.64,
+      "text": "我觉得简直是一大是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 207,
+      "s": 95,
+      "start": 531.64,
+      "end": 534.16,
+      "text": "呃人间一大惨事、一大惨状。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 208,
+      "s": 96,
+      "start": 534.16,
+      "end": 535.4,
+      "text": "就是我的名字呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 209,
+      "s": 96,
+      "start": 535.4,
+      "end": 537.3,
+      "text": "其实确实不是很好念，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 210,
+      "s": 96,
+      "start": 537.3,
+      "end": 541.23,
+      "text": "哪怕是中国人，嗯，也不是特别容易。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 211,
+      "s": 97,
+      "start": 541.34,
+      "end": 544.1,
+      "text": "它是X I N Q I N G",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 212,
+      "s": 97,
+      "start": 544.1,
+      "end": 545.05,
+      "text": "Xinqing。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 213,
+      "s": 98,
+      "start": 545.45,
+      "end": 547.93,
+      "text": "然后前面这个“新”是前鼻音，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 214,
+      "s": 98,
+      "start": 547.93,
+      "end": 550.04,
+      "text": "后面这个“青”是后鼻音。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 215,
+      "s": 99,
+      "start": 550.33,
+      "end": 553.31,
+      "text": "后来呢，我把这个名字给法国人看，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 216,
+      "s": 99,
+      "start": 553.31,
+      "end": 555.65,
+      "text": "大多数人都会发成",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 217,
+      "s": 99,
+      "start": 555.65,
+      "end": 558.94,
+      "text": "“青青”或者“金金”之类的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 218,
+      "s": 100,
+      "start": 559.25,
+      "end": 561.33,
+      "text": "在拼写的时候，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 219,
+      "s": 100,
+      "start": 561.35,
+      "end": 564.93,
+      "text": "几乎所有的人都会拼成Q U I N G。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 220,
+      "s": 101,
+      "start": 564.93,
+      "end": 567.07,
+      "text": "我觉得可能是因为法国人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 221,
+      "s": 101,
+      "start": 567.07,
+      "end": 571.03,
+      "text": "没有办法理解Q后面直接跟ING。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 222,
+      "s": 102,
+      "start": 571.89,
+      "end": 574.25,
+      "text": "对对对，我完全可以想象，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 223,
+      "s": 102,
+      "start": 574.25,
+      "end": 575.43,
+      "text": "这应该是法国人他们按照自己。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 224,
+      "s": 103,
+      "start": 577.35,
+      "end": 579.71,
+      "text": "自己的发音规则，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 225,
+      "s": 103,
+      "start": 580.25,
+      "end": 581.37,
+      "text": "然后对你的拼写",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 226,
+      "s": 103,
+      "start": 581.37,
+      "end": 583.54,
+      "text": "进行了法语式的改造。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 227,
+      "s": 104,
+      "start": 583.59,
+      "end": 585.18,
+      "text": "姑且先这么说吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 228,
+      "s": 104,
+      "start": 585.69,
+      "end": 588.47,
+      "text": "嗯，这个真的非常的法国特色，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 229,
+      "s": 104,
+      "start": 588.47,
+      "end": 591.47,
+      "text": "因为呃，在法语里面，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 230,
+      "s": 105,
+      "start": 591.47,
+      "end": 592.71,
+      "text": "q这个在词末",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 231,
+      "s": 105,
+      "start": 592.71,
+      "end": 595.75,
+      "text": "大多数情况下是要发音的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 232,
+      "s": 106,
+      "start": 595.75,
+      "end": 598.49,
+      "text": "我的名字呢里面有个g，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 233,
+      "s": 106,
+      "start": 598.49,
+      "end": 600.23,
+      "text": "嗯，所以他们有时候",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 234,
+      "s": 106,
+      "start": 600.23,
+      "end": 602.81,
+      "text": "会发完之后再加个g，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 235,
+      "s": 106,
+      "start": 602.81,
+      "end": 604.03,
+      "text": "我听得莫名其妙。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 236,
+      "s": 107,
+      "start": 604.03,
+      "end": 605.67,
+      "text": "以前。课堂上点名",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 237,
+      "s": 108,
+      "start": 605.67,
+      "end": 607.81,
+      "text": "我的名字念完之后有个歌",
+      "speaker": "B",
+      "u": 107,
+      "role": "storyteller"
+    },
+    {
+      "i": 238,
+      "s": 108,
+      "start": 607.81,
+      "end": 609.65,
+      "text": "这时的我感觉没法理解",
+      "speaker": "B",
+      "u": 107,
+      "role": "storyteller"
+    },
+    {
+      "i": 239,
+      "s": 108,
+      "start": 609.65,
+      "end": 610.93,
+      "text": "后来我就习惯了",
+      "speaker": "B",
+      "u": 107,
+      "role": "storyteller"
+    },
+    {
+      "i": 240,
+      "s": 108,
+      "start": 610.93,
+      "end": 613.83,
+      "text": "后来我比如说在新的场合",
+      "speaker": "B",
+      "u": 107,
+      "role": "storyteller"
+    },
+    {
+      "i": 241,
+      "s": 109,
+      "start": 613.83,
+      "end": 615.25,
+      "text": "认识新的法国朋友",
+      "speaker": "B",
+      "u": 107,
+      "role": "storyteller"
+    },
+    {
+      "i": 242,
+      "s": 109,
+      "start": 615.25,
+      "end": 618.21,
+      "text": "我就直接在我自我介绍的过程当中",
+      "speaker": "B",
+      "u": 107,
+      "role": "storyteller"
+    },
+    {
+      "i": 243,
+      "s": 109,
+      "start": 618.21,
+      "end": 621.35,
+      "text": "加上了这个歌他们也能理解",
+      "speaker": "B",
+      "u": 107,
+      "role": "storyteller"
+    },
+    {
+      "i": 244,
+      "s": 109,
+      "start": 621.35,
+      "end": 623.89,
+      "text": "而且我觉得你的名字",
+      "speaker": "B",
+      "u": 107,
+      "role": "storyteller"
+    },
+    {
+      "i": 245,
+      "s": 110,
+      "start": 623.89,
+      "end": 626.41,
+      "text": "一开始的那个X他们很容易",
+      "speaker": "B",
+      "u": 107,
+      "role": "storyteller"
+    },
+    {
+      "i": 246,
+      "s": 110,
+      "start": 626.41,
+      "end": 629.75,
+      "text": "习惯性的念成歌兹或者是歌斯",
+      "speaker": "B",
+      "u": 107,
+      "role": "storyteller"
+    },
+    {
+      "i": 247,
+      "s": 110,
+      "start": 629.75,
+      "end": 631.55,
+      "text": "你有没有遇到过这样的情况",
+      "speaker": "B",
+      "u": 107,
+      "role": "storyteller"
+    },
+    {
+      "i": 248,
+      "s": 110,
+      "start": 632.96,
+      "end": 635.85,
+      "text": "我觉得我遇到大多数的情况是，",
+      "speaker": "B",
+      "u": 107,
+      "role": "storyteller"
+    },
+    {
+      "i": 249,
+      "s": 112,
+      "start": 635.85,
+      "end": 638.27,
+      "text": "他们看到这个X就放弃了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 250,
+      "s": 112,
+      "start": 638.27,
+      "end": 639.77,
+      "text": "他们就不知道怎么念，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 251,
+      "s": 113,
+      "start": 639.77,
+      "end": 641.11,
+      "text": "因为他们可能知道",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 252,
+      "s": 113,
+      "start": 641.11,
+      "end": 643.83,
+      "text": "不应该念成个心或者个兹，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 253,
+      "s": 113,
+      "start": 643.83,
+      "end": 645.53,
+      "text": "但是因为他们觉得",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 254,
+      "s": 113,
+      "start": 645.53,
+      "end": 646.89,
+      "text": "这个这样念很奇怪，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 255,
+      "s": 114,
+      "start": 646.89,
+      "end": 649.23,
+      "text": "但他们也不知道应该怎么发。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 256,
+      "s": 115,
+      "start": 649.33,
+      "end": 651.13,
+      "text": "然后，但其实也挺好的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 257,
+      "s": 115,
+      "start": 651.13,
+      "end": 654.77,
+      "text": "这个就会变成一般老师上课点名，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 258,
+      "s": 115,
+      "start": 654.91,
+      "end": 656.51,
+      "text": "他们就会看到我的名字，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 259,
+      "s": 116,
+      "start": 656.51,
+      "end": 658.69,
+      "text": "然后就直接问：哎，这位同学Lu。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 260,
+      "s": 117,
+      "start": 658.86,
+      "end": 660.36,
+      "text": "请问你的名字怎么念？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 261,
+      "s": 118,
+      "start": 660.49,
+      "end": 663.05,
+      "text": "这样就会变成一个记忆点。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 262,
+      "s": 119,
+      "start": 663.17,
+      "end": 663.9,
+      "text": "怎么说呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 263,
+      "s": 120,
+      "start": 663.9,
+      "end": 665.74,
+      "text": "就是我我的我会比较容易",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 264,
+      "s": 120,
+      "start": 665.74,
+      "end": 668.2,
+      "text": "被老师上课的老师记住，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 265,
+      "s": 120,
+      "start": 668.2,
+      "end": 670.94,
+      "text": "因为课上其他同学呀，很多法国人呀、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 266,
+      "s": 121,
+      "start": 670.94,
+      "end": 673.01,
+      "text": "欧洲人呀，名字都很普遍，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 267,
+      "s": 121,
+      "start": 673.08,
+      "end": 674.34,
+      "text": "什么Charlotte",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 268,
+      "s": 121,
+      "start": 674.34,
+      "end": 676.7,
+      "text": "或者是Emma之类的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 269,
+      "s": 122,
+      "start": 676.7,
+      "end": 678.62,
+      "text": "然后呢，老师就会记住，哎，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 270,
+      "s": 122,
+      "start": 678.62,
+      "end": 679.98,
+      "text": "有一个发音很难、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 271,
+      "s": 122,
+      "start": 679.98,
+      "end": 682.24,
+      "text": "很非常难念的中国人。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 272,
+      "s": 123,
+      "start": 683.22,
+      "end": 684.24,
+      "text": "对对，在中文里，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 273,
+      "s": 123,
+      "start": 684.24,
+      "end": 686.94,
+      "text": "我们这个叫给对方留下深刻印象。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 274,
+      "s": 124,
+      "start": 687.52,
+      "end": 690.54,
+      "text": "一个特殊的印象，嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 275,
+      "s": 124,
+      "start": 690.54,
+      "end": 692.58,
+      "text": "我以前说到这个姓氏，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 276,
+      "s": 124,
+      "start": 692.58,
+      "end": 696.1,
+      "text": "以前我有我读书的时候一个同学，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 277,
+      "s": 125,
+      "start": 696.1,
+      "end": 700.76,
+      "text": "他的姓氏当中有“何”，就是H E。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 278,
+      "s": 126,
+      "start": 701.08,
+      "end": 703.72,
+      "text": "然后我们知道在法语当中H不发音，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 279,
+      "s": 126,
+      "start": 703.72,
+      "end": 706.56,
+      "text": "所以前几次点名大家呃",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 280,
+      "s": 126,
+      "start": 706.56,
+      "end": 708.44,
+      "text": "就是老师念他“鹅”的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 281,
+      "s": 127,
+      "start": 708.68,
+      "end": 710,
+      "text": "嗯他都没有反应过来。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 282,
+      "s": 128,
+      "start": 710,
+      "end": 711.6,
+      "text": "然后事后他跟我们中国同学",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 283,
+      "s": 128,
+      "start": 711.6,
+      "end": 712.64,
+      "text": "聊起这个笑话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 284,
+      "s": 128,
+      "start": 712.64,
+      "end": 713.9,
+      "text": "大家就觉得非常有意思。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 285,
+      "s": 129,
+      "start": 714.01,
+      "end": 716.27,
+      "text": "这使得我们以前想起了那个，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 286,
+      "s": 129,
+      "start": 716.66,
+      "end": 718.62,
+      "text": "呃，据说奥朗德和胡锦涛",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 287,
+      "s": 129,
+      "start": 718.62,
+      "end": 721.56,
+      "text": "进行会面的时候，呃，奥朗德走过去，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 288,
+      "s": 130,
+      "start": 721.62,
+      "end": 723.36,
+      "text": "呃，对着胡锦涛想打个招呼",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 289,
+      "s": 130,
+      "start": 723.36,
+      "end": 725.12,
+      "text": "说“President Wu”，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 290,
+      "s": 130,
+      "start": 725.12,
+      "end": 726.58,
+      "text": "然后胡锦涛没有听懂，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 291,
+      "s": 131,
+      "start": 726.58,
+      "end": 728.82,
+      "text": "因为他们把H发音给省略掉了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 292,
+      "s": 132,
+      "start": 728.82,
+      "end": 730.35,
+      "text": "我不知道这是段子还是真的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 293,
+      "s": 133,
+      "start": 731.02,
+      "end": 734.26,
+      "text": "然后你还有什么其他的感触呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 294,
+      "s": 134,
+      "start": 734.26,
+      "end": 735.98,
+      "text": "啊，我我就顺着这个呃",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 295,
+      "s": 134,
+      "start": 735.98,
+      "end": 738.46,
+      "text": "打电话预约这个事儿接着往下讲。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 296,
+      "s": 135,
+      "start": 738.56,
+      "end": 741.82,
+      "text": "呃，我觉得他们。呃，很多情况下",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 297,
+      "s": 136,
+      "start": 741.82,
+      "end": 744.42,
+      "text": "坚持打电话甚至写信这个事儿，",
+      "speaker": "B",
+      "u": 135,
+      "role": "storyteller"
+    },
+    {
+      "i": 298,
+      "s": 136,
+      "start": 744.42,
+      "end": 747.04,
+      "text": "是因为尤其是打电话预约这个事儿，",
+      "speaker": "B",
+      "u": 135,
+      "role": "storyteller"
+    },
+    {
+      "i": 299,
+      "s": 137,
+      "start": 747.04,
+      "end": 749.44,
+      "text": "是因为他们觉得在电话当中",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 300,
+      "s": 137,
+      "start": 749.44,
+      "end": 753.6,
+      "text": "有人与人之间的沟通，所以呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 301,
+      "s": 138,
+      "start": 753.6,
+      "end": 756.4,
+      "text": "我觉得他们或许对于呃",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 302,
+      "s": 138,
+      "start": 756.4,
+      "end": 759.32,
+      "text": "将打电话预约变成网上预约",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 303,
+      "s": 138,
+      "start": 759.32,
+      "end": 761.87,
+      "text": "可能有呃就是有一定的抵触，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 304,
+      "s": 139,
+      "start": 762.28,
+      "end": 763.56,
+      "text": "或者说这个变革",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 305,
+      "s": 139,
+      "start": 763.56,
+      "end": 765.56,
+      "text": "不会那么快的的发生，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 306,
+      "s": 139,
+      "start": 765.56,
+      "end": 767.54,
+      "text": "这个转型可能需要一定的时间。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 307,
+      "s": 140,
+      "start": 767.82,
+      "end": 771.9,
+      "text": "嗯，比如说，呃，他们可能对于",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 308,
+      "s": 140,
+      "start": 771.9,
+      "end": 773.26,
+      "text": "完全数字化了的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 309,
+      "s": 140,
+      "start": 773.26,
+      "end": 776.38,
+      "text": "跟键盘或者APP进行操作的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 310,
+      "s": 140,
+      "start": 776.38,
+      "end": 777.5,
+      "text": "界面比较抵触，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 311,
+      "s": 141,
+      "start": 777.5,
+      "end": 779.86,
+      "text": "他们更喜欢有面对面的操作，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 312,
+      "s": 141,
+      "start": 780.04,
+      "end": 781.51,
+      "text": "然后有人给你解释，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 313,
+      "s": 141,
+      "start": 781.6,
+      "end": 783.12,
+      "text": "呃，这个可能被视为",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 314,
+      "s": 141,
+      "start": 783.12,
+      "end": 785.62,
+      "text": "比较呃比较亲和的、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 315,
+      "s": 142,
+      "start": 785.62,
+      "end": 787.52,
+      "text": "比较友好的或者说比较高端的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 316,
+      "s": 142,
+      "start": 787.52,
+      "end": 790.38,
+      "text": "一种服务的形态，哎，这是我理解的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 317,
+      "s": 143,
+      "start": 790.38,
+      "end": 792.9,
+      "text": "所以有时候，呃，我们发现，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 318,
+      "s": 143,
+      "start": 792.9,
+      "end": 795.64,
+      "text": "嗯，比如说数字银行或者说是。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 319,
+      "s": 144,
+      "start": 795.66,
+      "end": 798.18,
+      "text": "自助值机的那些机场的服务，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 320,
+      "s": 145,
+      "start": 798.26,
+      "end": 800.54,
+      "text": "或者说是餐厅订餐的时候",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 321,
+      "s": 145,
+      "start": 800.54,
+      "end": 802.74,
+      "text": "这些订呃就是就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 322,
+      "s": 145,
+      "start": 802.74,
+      "end": 804.84,
+      "text": "在手机应用上订餐这些服务，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 323,
+      "s": 146,
+      "start": 804.84,
+      "end": 806.46,
+      "text": "或许没有像国内那么普及。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 324,
+      "s": 147,
+      "start": 806.46,
+      "end": 808.64,
+      "text": "当然我是完全相信，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 325,
+      "s": 148,
+      "start": 809.1,
+      "end": 812.86,
+      "text": "在法国可能要扫桌面上的二维码",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 326,
+      "s": 148,
+      "start": 812.86,
+      "end": 814.36,
+      "text": "订餐就是点餐",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 327,
+      "s": 148,
+      "start": 814.36,
+      "end": 816.87,
+      "text": "这个事情可能要很久很久才能发生，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 328,
+      "s": 149,
+      "start": 816.88,
+      "end": 818.38,
+      "text": "因为在餐厅吃饭",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 329,
+      "s": 149,
+      "start": 818.38,
+      "end": 820.2,
+      "text": "或许对他们而言",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 330,
+      "s": 149,
+      "start": 820.2,
+      "end": 823.26,
+      "text": "就是一个。要人与人见面说话",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 331,
+      "s": 150,
+      "start": 823.26,
+      "end": 825.03,
+      "text": "而不拿起手机的时刻。",
+      "speaker": "B",
+      "u": 149,
+      "role": "storyteller"
+    },
+    {
+      "i": 332,
+      "s": 151,
+      "start": 826.3,
+      "end": 828.88,
+      "text": "对对对，这个其实，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 333,
+      "s": 151,
+      "start": 829.34,
+      "end": 832.18,
+      "text": "在学校图书馆预约的这个系统里面，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 334,
+      "s": 151,
+      "start": 832.18,
+      "end": 833.62,
+      "text": "我也挺有感触的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 335,
+      "s": 152,
+      "start": 833.62,
+      "end": 836.18,
+      "text": "因为大家可能嗯知道，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 336,
+      "s": 152,
+      "start": 836.18,
+      "end": 839.57,
+      "text": "在法国我们在COVID之前，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 337,
+      "s": 153,
+      "start": 839.74,
+      "end": 841.46,
+      "text": "比如说我们学校的图书馆",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 338,
+      "s": 153,
+      "start": 841.46,
+      "end": 843.64,
+      "text": "基本上是没有预约系统的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 339,
+      "s": 154,
+      "start": 843.64,
+      "end": 845.3,
+      "text": "所以大家就是早晨",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 340,
+      "s": 154,
+      "start": 845.3,
+      "end": 849.1,
+      "text": "要在图书馆外面排队排排很长的队，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 341,
+      "s": 154,
+      "start": 849.1,
+      "end": 850.04,
+      "text": "图书馆一开门，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 342,
+      "s": 154,
+      "start": 850.04,
+      "end": 853.4,
+      "text": "大家就蜂拥而入。来抢座位，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 343,
+      "s": 155,
+      "start": 853.4,
+      "end": 855.49,
+      "text": "但是呢，自从COVID以后，",
+      "speaker": "A",
+      "u": 154,
+      "role": "narrator"
+    },
+    {
+      "i": 344,
+      "s": 155,
+      "start": 855.56,
+      "end": 856.58,
+      "text": "我们这个图书馆",
+      "speaker": "A",
+      "u": 154,
+      "role": "narrator"
+    },
+    {
+      "i": 345,
+      "s": 155,
+      "start": 856.58,
+      "end": 859.51,
+      "text": "新增加了一个电子预约系统，",
+      "speaker": "A",
+      "u": 154,
+      "role": "narrator"
+    },
+    {
+      "i": 346,
+      "s": 156,
+      "start": 859.54,
+      "end": 861.44,
+      "text": "大家是可以在网上预约的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 347,
+      "s": 157,
+      "start": 861.44,
+      "end": 863.62,
+      "text": "这个因为我是在COVID",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 348,
+      "s": 157,
+      "start": 863.62,
+      "end": 865.34,
+      "text": "发生以后才入学的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 349,
+      "s": 157,
+      "start": 865.34,
+      "end": 868.46,
+      "text": "所以我以为这个系统是很正常的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 350,
+      "s": 158,
+      "start": 868.46,
+      "end": 869.9,
+      "text": "因为在中国的图书馆",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 351,
+      "s": 158,
+      "start": 869.9,
+      "end": 872.77,
+      "text": "基本上都已经有网上可以预约，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 352,
+      "s": 159,
+      "start": 872.86,
+      "end": 874.72,
+      "text": "然后直接用你的学生卡",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 353,
+      "s": 159,
+      "start": 874.72,
+      "end": 876.08,
+      "text": "扫一下学生卡",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 354,
+      "s": 159,
+      "start": 876.08,
+      "end": 878.84,
+      "text": "就自己嗯自动注册了你。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 355,
+      "s": 160,
+      "start": 878.88,
+      "end": 881.1,
+      "text": "你占到这个座位，然后这一整天",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 356,
+      "s": 160,
+      "start": 881.1,
+      "end": 882.58,
+      "text": "这个座位可能就是你的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 357,
+      "s": 161,
+      "start": 882.64,
+      "end": 885.15,
+      "text": "我就觉得这个这个系统很正常。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 358,
+      "s": 162,
+      "start": 885.24,
+      "end": 889,
+      "text": "但是后来我听以前的学长学姐说啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 359,
+      "s": 162,
+      "start": 889,
+      "end": 890.64,
+      "text": "不是的，在法国基本上",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 360,
+      "s": 162,
+      "start": 890.64,
+      "end": 892.79,
+      "text": "图书馆都没有预约系统，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 361,
+      "s": 163,
+      "start": 893.08,
+      "end": 896.52,
+      "text": "而且哪怕现在有了这个预约系统，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 362,
+      "s": 163,
+      "start": 896.52,
+      "end": 898.02,
+      "text": "到了图书馆以后，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 363,
+      "s": 163,
+      "start": 898.02,
+      "end": 900.64,
+      "text": "我们还是要跟一个真人，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 364,
+      "s": 164,
+      "start": 900.64,
+      "end": 902.16,
+      "text": "就一个图书管理员，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 365,
+      "s": 164,
+      "start": 902.16,
+      "end": 904.4,
+      "text": "你给他看一个注册的号码，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 366,
+      "s": 164,
+      "start": 904.4,
+      "end": 906.72,
+      "text": "图书管理员会在他的系统上。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 367,
+      "s": 165,
+      "start": 906.93,
+      "end": 909.39,
+      "text": "勾掉你的这个预约号码，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 368,
+      "s": 165,
+      "start": 909.39,
+      "end": 912.63,
+      "text": "然后确认你这个人已经到了图书馆，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 369,
+      "s": 165,
+      "start": 912.63,
+      "end": 914.04,
+      "text": "把这个座位给你。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 370,
+      "s": 166,
+      "start": 914.29,
+      "end": 916.08,
+      "text": "但是，比如说在中国，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 371,
+      "s": 166,
+      "start": 916.13,
+      "end": 918.65,
+      "text": "基本上就是你扫一下学生证，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 372,
+      "s": 166,
+      "start": 918.65,
+      "end": 921.44,
+      "text": "完全整个过程中不需要和人交流，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 373,
+      "s": 167,
+      "start": 921.59,
+      "end": 923.95,
+      "text": "就非常非常快捷、非常方便的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 374,
+      "s": 167,
+      "start": 923.95,
+      "end": 926.11,
+      "text": "就可以进到学图书馆里。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 375,
+      "s": 168,
+      "start": 926.23,
+      "end": 929.56,
+      "text": "对对，我完全同意你这个观察的结论。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 376,
+      "s": 169,
+      "start": 929.69,
+      "end": 932.21,
+      "text": "呃，这让我想起了以前类似的经历。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 377,
+      "s": 170,
+      "start": 932.54,
+      "end": 934.56,
+      "text": "呃，曾经我很纳闷",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 378,
+      "s": 170,
+      "start": 934.56,
+      "end": 936.97,
+      "text": "为什么在大街上有人排队。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 379,
+      "s": 171,
+      "start": 937.08,
+      "end": 939.06,
+      "text": "后来就是在巴黎的街道上，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 380,
+      "s": 171,
+      "start": 939.06,
+      "end": 941.28,
+      "text": "后来我了解到他们其实是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 381,
+      "s": 171,
+      "start": 941.28,
+      "end": 943.84,
+      "text": "在排电影院或者剧院的队，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 382,
+      "s": 172,
+      "start": 943.84,
+      "end": 946.35,
+      "text": "他们是为了去看电影或者去看话剧。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 383,
+      "s": 173,
+      "start": 946.8,
+      "end": 948.96,
+      "text": "这个在中国其实比较少见的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 384,
+      "s": 174,
+      "start": 948.96,
+      "end": 951.88,
+      "text": "因为你比如说是在手机上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 385,
+      "s": 174,
+      "start": 951.88,
+      "end": 954.74,
+      "text": "或者是APP或者微信小程序当中",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 386,
+      "s": 174,
+      "start": 954.74,
+      "end": 956.5,
+      "text": "购买了电子票之后，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 387,
+      "s": 175,
+      "start": 956.5,
+      "end": 958,
+      "text": "那个票上基本上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 388,
+      "s": 175,
+      "start": 958,
+      "end": 960.44,
+      "text": "就会标明你是几排几座的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 389,
+      "s": 176,
+      "start": 961.02,
+      "end": 964.59,
+      "text": "但是我在法国看电影的经历告诉我，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 390,
+      "s": 176,
+      "start": 964.69,
+      "end": 967.34,
+      "text": "大多数情况上面是不标座位的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 391,
+      "s": 177,
+      "start": 967.71,
+      "end": 971.55,
+      "text": "所以，比如说为了去看呃《星球大战》",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 392,
+      "s": 177,
+      "start": 971.55,
+      "end": 973.55,
+      "text": "或者说是《复仇者联盟》，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 393,
+      "s": 177,
+      "start": 973.55,
+      "end": 975.67,
+      "text": "我就需要去排队。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 394,
+      "s": 178,
+      "start": 975.95,
+      "end": 977.09,
+      "text": "有些时候甚至",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 395,
+      "s": 178,
+      "start": 977.09,
+      "end": 979.23,
+      "text": "上一场电影还没有结束的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 396,
+      "s": 178,
+      "start": 979.23,
+      "end": 983.54,
+      "text": "我就要站在那个呃观影厅的门口。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 397,
+      "s": 179,
+      "start": 983.77,
+      "end": 985.83,
+      "text": "有些人可能在我面面前，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 398,
+      "s": 179,
+      "start": 985.83,
+      "end": 988.67,
+      "text": "那么我就必须。遵守这个秩序，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 399,
+      "s": 180,
+      "start": 988.67,
+      "end": 990.23,
+      "text": "所以门一开，我们进去",
+      "speaker": "B",
+      "u": 179,
+      "role": "storyteller"
+    },
+    {
+      "i": 400,
+      "s": 180,
+      "start": 990.23,
+      "end": 992.57,
+      "text": "就是为了呃，就是争取获得",
+      "speaker": "B",
+      "u": 179,
+      "role": "storyteller"
+    },
+    {
+      "i": 401,
+      "s": 180,
+      "start": 992.57,
+      "end": 994.43,
+      "text": "最好的观看电影的座位。",
+      "speaker": "B",
+      "u": 179,
+      "role": "storyteller"
+    },
+    {
+      "i": 402,
+      "s": 181,
+      "start": 994.43,
+      "end": 996.37,
+      "text": "后来我在思考这个东西",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 403,
+      "s": 181,
+      "start": 996.37,
+      "end": 997.97,
+      "text": "有没有什么历史渊源",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 404,
+      "s": 181,
+      "start": 997.97,
+      "end": 999.91,
+      "text": "或者什么传统依据呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 405,
+      "s": 182,
+      "start": 999.91,
+      "end": 1002.53,
+      "text": "我觉得可能是有这么一个个，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 406,
+      "s": 182,
+      "start": 1002.53,
+      "end": 1004.91,
+      "text": "就是这么一个小的原因，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 407,
+      "s": 182,
+      "start": 1004.91,
+      "end": 1006.81,
+      "text": "这纯粹是我的猜测啊。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 408,
+      "s": 183,
+      "start": 1006.81,
+      "end": 1009.91,
+      "text": "因为在古代，呃，比如说中世纪的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 409,
+      "s": 184,
+      "start": 1009.91,
+      "end": 1012.67,
+      "text": "可能呃什么贵族老爷",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 410,
+      "s": 184,
+      "start": 1012.67,
+      "end": 1015.39,
+      "text": "或者说千金小姐他们的社交活动",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 411,
+      "s": 184,
+      "start": 1015.39,
+      "end": 1019.29,
+      "text": "就是出去。看什么歌剧或者去去跳舞，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 412,
+      "s": 185,
+      "start": 1019.41,
+      "end": 1022.24,
+      "text": "那个时候呃他们进场之前",
+      "speaker": "B",
+      "u": 184,
+      "role": "storyteller"
+    },
+    {
+      "i": 413,
+      "s": 185,
+      "start": 1022.24,
+      "end": 1024.28,
+      "text": "排队做好准备，",
+      "speaker": "B",
+      "u": 184,
+      "role": "storyteller"
+    },
+    {
+      "i": 414,
+      "s": 186,
+      "start": 1024.28,
+      "end": 1025.08,
+      "text": "然后鱼贯而入",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 415,
+      "s": 186,
+      "start": 1025.08,
+      "end": 1027.82,
+      "text": "这个过程也是社交的一部分，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 416,
+      "s": 186,
+      "start": 1028.04,
+      "end": 1030.33,
+      "text": "也是相互聊天的时时刻。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 417,
+      "s": 187,
+      "start": 1030.4,
+      "end": 1032.7,
+      "text": "所以或许这个传统被保留下来了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 418,
+      "s": 188,
+      "start": 1033.12,
+      "end": 1033.72,
+      "text": "呃说不定",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 419,
+      "s": 188,
+      "start": 1033.72,
+      "end": 1035.52,
+      "text": "大家一起看同一部电影的人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 420,
+      "s": 188,
+      "start": 1035.52,
+      "end": 1038.66,
+      "text": "因为一起在门口等待排队",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 421,
+      "s": 188,
+      "start": 1038.66,
+      "end": 1040.5,
+      "text": "而相互认识，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 422,
+      "s": 189,
+      "start": 1040.57,
+      "end": 1042.36,
+      "text": "进行一些简短的对话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 423,
+      "s": 189,
+      "start": 1042.36,
+      "end": 1043.26,
+      "text": "说不定是陌生人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 424,
+      "s": 189,
+      "start": 1043.26,
+      "end": 1045.4,
+      "text": "但是因为对于同一部电影的爱好。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 425,
+      "s": 190,
+      "start": 1045.47,
+      "end": 1047.75,
+      "text": "而可以聊两句，对。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 426,
+      "s": 191,
+      "start": 1047.75,
+      "end": 1050.03,
+      "text": "但是我觉得这个特别神奇，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 427,
+      "s": 191,
+      "start": 1050.03,
+      "end": 1053.12,
+      "text": "就像你说的，法国人很喜欢排队，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 428,
+      "s": 192,
+      "start": 1053.18,
+      "end": 1055.23,
+      "text": "但是在中国基本上",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 429,
+      "s": 192,
+      "start": 1055.23,
+      "end": 1056.61,
+      "text": "所有可以排队的事情",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 430,
+      "s": 192,
+      "start": 1056.61,
+      "end": 1059.93,
+      "text": "都被电子化的某一些电子手段",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 431,
+      "s": 192,
+      "start": 1059.93,
+      "end": 1061.91,
+      "text": "或者APP给代替了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 432,
+      "s": 193,
+      "start": 1061.91,
+      "end": 1064.79,
+      "text": "中国人就是挺讲讲究效率，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 433,
+      "s": 193,
+      "start": 1064.79,
+      "end": 1065.91,
+      "text": "不喜欢排队。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 434,
+      "s": 194,
+      "start": 1065.91,
+      "end": 1068.57,
+      "text": "就好比说，在排餐厅的时候，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 435,
+      "s": 194,
+      "start": 1068.57,
+      "end": 1070.89,
+      "text": "我们可以在餐厅拿一个号码，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 436,
+      "s": 195,
+      "start": 1070.89,
+      "end": 1072.31,
+      "text": "这个号码呢代表着",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 437,
+      "s": 195,
+      "start": 1072.31,
+      "end": 1074.45,
+      "text": "你什么时候可以进入餐厅吃饭。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 438,
+      "s": 196,
+      "start": 1074.6,
+      "end": 1076.72,
+      "text": "然后在这个过程中，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 439,
+      "s": 196,
+      "start": 1076.72,
+      "end": 1079.1,
+      "text": "你可以去这个商场的其他地方",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 440,
+      "s": 196,
+      "start": 1079.1,
+      "end": 1081.73,
+      "text": "走走逛逛，看看商店。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 441,
+      "s": 197,
+      "start": 1081.74,
+      "end": 1084.26,
+      "text": "然后等到手机告诉你说啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 442,
+      "s": 197,
+      "start": 1084.26,
+      "end": 1085.44,
+      "text": "你的座位排到了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 443,
+      "s": 197,
+      "start": 1085.44,
+      "end": 1088.38,
+      "text": "你再回去直接进入餐厅就可以，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 444,
+      "s": 198,
+      "start": 1088.38,
+      "end": 1090.41,
+      "text": "所以就不需要人在那里排队。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 445,
+      "s": 199,
+      "start": 1090.6,
+      "end": 1093.64,
+      "text": "或者比如说做一个COVID测试，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 446,
+      "s": 199,
+      "start": 1093.64,
+      "end": 1095.1,
+      "text": "我觉得在国内的话，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 447,
+      "s": 200,
+      "start": 1095.1,
+      "end": 1096.08,
+      "text": "你做完测试",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 448,
+      "s": 200,
+      "start": 1096.08,
+      "end": 1098.58,
+      "text": "留一个电子的号码之后呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 449,
+      "s": 200,
+      "start": 1098.58,
+      "end": 1101.04,
+      "text": "检测结果直接发到你的手机上。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 450,
+      "s": 201,
+      "start": 1101.09,
+      "end": 1103.19,
+      "text": "或者发到你的邮箱里就可以。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 451,
+      "s": 202,
+      "start": 1103.55,
+      "end": 1104.57,
+      "text": "但是我在法国",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 452,
+      "s": 202,
+      "start": 1104.57,
+      "end": 1107.1,
+      "text": "做COVID测试的经验告诉我，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 453,
+      "s": 203,
+      "start": 1107.16,
+      "end": 1110.07,
+      "text": "一般都是要在这个药店的门口",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 454,
+      "s": 203,
+      "start": 1110.07,
+      "end": 1111.51,
+      "text": "排队等十五分钟，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 455,
+      "s": 203,
+      "start": 1111.62,
+      "end": 1115.01,
+      "text": "等到他给你一张纸质的电子报告单；",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 456,
+      "s": 204,
+      "start": 1115.01,
+      "end": 1117.39,
+      "text": "或者是餐厅，我也从来没有见过",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 457,
+      "s": 204,
+      "start": 1117.39,
+      "end": 1120.46,
+      "text": "可以用电子拿号排队的经历。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 458,
+      "s": 205,
+      "start": 1120.53,
+      "end": 1122.79,
+      "text": "所以我觉得怎么说呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 459,
+      "s": 206,
+      "start": 1122.79,
+      "end": 1126.31,
+      "text": "就是在中国一旦有这些所谓的痛点，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 460,
+      "s": 206,
+      "start": 1126.31,
+      "end": 1127.39,
+      "text": "就是排队的痛点。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 461,
+      "s": 207,
+      "start": 1127.58,
+      "end": 1131.06,
+      "text": "就一定会有一些电子的APP出现，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 462,
+      "s": 207,
+      "start": 1131.06,
+      "end": 1132.48,
+      "text": "来帮助用户解决",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 463,
+      "s": 207,
+      "start": 1132.48,
+      "end": 1135.06,
+      "text": "这个排队的无效率的痛点。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 464,
+      "s": 208,
+      "start": 1135.06,
+      "end": 1136.12,
+      "text": "但是在法国",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 465,
+      "s": 208,
+      "start": 1136.12,
+      "end": 1138.18,
+      "text": "好像没有人觉得这是一个问题，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 466,
+      "s": 208,
+      "start": 1138.18,
+      "end": 1140.74,
+      "text": "所以他就这个痛点就一直存在着。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 467,
+      "s": 209,
+      "start": 1140.74,
+      "end": 1144.12,
+      "text": "然后大家就也很开心的像你说，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 468,
+      "s": 209,
+      "start": 1144.26,
+      "end": 1147,
+      "text": "在为了可能会把排队做成",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 469,
+      "s": 209,
+      "start": 1147,
+      "end": 1149.4,
+      "text": "变成一个社交的场合吧。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 470,
+      "s": 210,
+      "start": 1149.72,
+      "end": 1152.14,
+      "text": "所以呃或许这就是一个区别吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 471,
+      "s": 210,
+      "start": 1152.14,
+      "end": 1155.84,
+      "text": "因为你刚刚讲到在中国会有拿取号，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 472,
+      "s": 210,
+      "start": 1155.84,
+      "end": 1160.25,
+      "text": "然后再等外面呃。消费或者购物，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 473,
+      "s": 211,
+      "start": 1160.43,
+      "end": 1162.13,
+      "text": "然后闲逛回来，",
+      "speaker": "B",
+      "u": 210,
+      "role": "storyteller"
+    },
+    {
+      "i": 474,
+      "s": 211,
+      "start": 1162.13,
+      "end": 1163.55,
+      "text": "在在自己号码报到的时候",
+      "speaker": "B",
+      "u": 210,
+      "role": "storyteller"
+    },
+    {
+      "i": 475,
+      "s": 211,
+      "start": 1163.55,
+      "end": 1165.14,
+      "text": "进行就餐这个行为，",
+      "speaker": "B",
+      "u": 210,
+      "role": "storyteller"
+    },
+    {
+      "i": 476,
+      "s": 212,
+      "start": 1165.35,
+      "end": 1167.69,
+      "text": "我觉得这个折射的非常清楚，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 477,
+      "s": 212,
+      "start": 1167.99,
+      "end": 1170.37,
+      "text": "就是折射出呃，在中国很多事情",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 478,
+      "s": 212,
+      "start": 1170.37,
+      "end": 1172.31,
+      "text": "是非常实用主义的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 479,
+      "s": 213,
+      "start": 1172.31,
+      "end": 1174.65,
+      "text": "或者说是讲求实效的，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 480,
+      "s": 213,
+      "start": 1174.65,
+      "end": 1176.25,
+      "text": "最实怎么实际怎么来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 481,
+      "s": 213,
+      "start": 1176.39,
+      "end": 1179.81,
+      "text": "呃，按照最高的效率进行运转，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 482,
+      "s": 214,
+      "start": 1179.81,
+      "end": 1181.31,
+      "text": "也就是说他其实是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 483,
+      "s": 214,
+      "start": 1181.31,
+      "end": 1182.59,
+      "text": "这样的一个心理状态。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 484,
+      "s": 215,
+      "start": 1182.59,
+      "end": 1184.05,
+      "text": "我觉得这个原因有很多了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 485,
+      "s": 216,
+      "start": 1184.19,
+      "end": 1187.11,
+      "text": "比如说跟国家经济发展速度有关，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 486,
+      "s": 216,
+      "start": 1187.11,
+      "end": 1190.01,
+      "text": "或者说我们的嗯国民心态",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 487,
+      "s": 216,
+      "start": 1190.01,
+      "end": 1190.99,
+      "text": "可能是这样子的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 488,
+      "s": 217,
+      "start": 1190.99,
+      "end": 1192.49,
+      "text": "也是一个挺好的事儿。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 489,
+      "s": 218,
+      "start": 1193.06,
+      "end": 1195.55,
+      "text": "嗯，但是呃有些时候呃",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 490,
+      "s": 218,
+      "start": 1195.55,
+      "end": 1196.97,
+      "text": "比如说到法国这边，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 491,
+      "s": 218,
+      "start": 1196.97,
+      "end": 1198.63,
+      "text": "我有时候也觉得呃",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 492,
+      "s": 218,
+      "start": 1198.63,
+      "end": 1200.35,
+      "text": "我都已经买了一张电影票了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 493,
+      "s": 219,
+      "start": 1200.35,
+      "end": 1201.71,
+      "text": "还让我在门口等着。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 494,
+      "s": 220,
+      "start": 1201.71,
+      "end": 1204.51,
+      "text": "我如果迟到了，居然没有好座位看，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 495,
+      "s": 220,
+      "start": 1204.51,
+      "end": 1205.97,
+      "text": "这个也是很闹心的事儿，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 496,
+      "s": 220,
+      "start": 1205.97,
+      "end": 1207.89,
+      "text": "也是很烦心、很糟糕的事儿。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 497,
+      "s": 221,
+      "start": 1208.21,
+      "end": 1209.87,
+      "text": "呃，而且我有时候",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 498,
+      "s": 221,
+      "start": 1209.87,
+      "end": 1213.62,
+      "text": "在一些他是他。可以允许用户",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 499,
+      "s": 222,
+      "start": 1213.62,
+      "end": 1216,
+      "text": "进行座位选择的电影院当中，",
+      "speaker": "B",
+      "u": 221,
+      "role": "storyteller"
+    },
+    {
+      "i": 500,
+      "s": 222,
+      "start": 1216,
+      "end": 1218.34,
+      "text": "很开心的选择了我喜欢的座位。",
+      "speaker": "B",
+      "u": 221,
+      "role": "storyteller"
+    },
+    {
+      "i": 501,
+      "s": 223,
+      "start": 1218.34,
+      "end": 1220.28,
+      "text": "但是进去发现，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 502,
+      "s": 223,
+      "start": 1220.28,
+      "end": 1222.52,
+      "text": "似乎大多数法国观众没有这个习惯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 503,
+      "s": 223,
+      "start": 1222.52,
+      "end": 1224.7,
+      "text": "他大家还是乱坐的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 504,
+      "s": 224,
+      "start": 1224.89,
+      "end": 1227.09,
+      "text": "所以，呃，这就是一个很有意思的现象。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 505,
+      "s": 225,
+      "start": 1236.58,
+      "end": 1238.12,
+      "text": "哎，说到电影，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 506,
+      "s": 225,
+      "start": 1238.12,
+      "end": 1240.62,
+      "text": "可能。我可以吐槽最后一个点，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 507,
+      "s": 226,
+      "start": 1241.38,
+      "end": 1243.72,
+      "text": "就是我我其实在法国没有看过电影，",
+      "speaker": "A",
+      "u": 225,
+      "role": "narrator"
+    },
+    {
+      "i": 508,
+      "s": 227,
+      "start": 1243.72,
+      "end": 1245.48,
+      "text": "但是因为我来了法国以后",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 509,
+      "s": 227,
+      "start": 1245.48,
+      "end": 1246.8,
+      "text": "就发生了疫情，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 510,
+      "s": 227,
+      "start": 1246.8,
+      "end": 1248.4,
+      "text": "所以电影院全都关门了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 511,
+      "s": 228,
+      "start": 1248.5,
+      "end": 1250.78,
+      "text": "但是我以前在英国和西班牙",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 512,
+      "s": 228,
+      "start": 1250.78,
+      "end": 1251.78,
+      "text": "看电影的时候，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 513,
+      "s": 228,
+      "start": 1251.96,
+      "end": 1254.3,
+      "text": "就发现他们开场前",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 514,
+      "s": 228,
+      "start": 1254.3,
+      "end": 1257.44,
+      "text": "可能有二十分钟都是放预告片，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 515,
+      "s": 229,
+      "start": 1257.44,
+      "end": 1258.64,
+      "text": "就是trailer。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 516,
+      "s": 230,
+      "start": 1258.64,
+      "end": 1260.8,
+      "text": "然后呢，在中国其实",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 517,
+      "s": 230,
+      "start": 1260.8,
+      "end": 1262.82,
+      "text": "基本上就放五分钟吧，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 518,
+      "s": 230,
+      "start": 1262.82,
+      "end": 1264.66,
+      "text": "可能广告和预告片，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 519,
+      "s": 230,
+      "start": 1264.66,
+      "end": 1266.88,
+      "text": "电正片就开始了电影的正片。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 520,
+      "s": 231,
+      "start": 1267.06,
+      "end": 1269.69,
+      "text": "我第一次去西班牙看电影，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 521,
+      "s": 231,
+      "start": 1269.69,
+      "end": 1272.17,
+      "text": "我就在那儿等啊等啊等，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 522,
+      "s": 231,
+      "start": 1272.17,
+      "end": 1273.33,
+      "text": "就觉得哎怎么",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 523,
+      "s": 231,
+      "start": 1273.33,
+      "end": 1275.76,
+      "text": "我花了电影电影票的钱，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 524,
+      "s": 232,
+      "start": 1275.91,
+      "end": 1279.23,
+      "text": "然后有二十分钟都是在放预告片。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 525,
+      "s": 233,
+      "start": 1279.77,
+      "end": 1281.37,
+      "text": "对对对对对，法国也是，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 526,
+      "s": 233,
+      "start": 1281.37,
+      "end": 1283.93,
+      "text": "他也会放个大概十五到二十分钟，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 527,
+      "s": 233,
+      "start": 1283.93,
+      "end": 1285.13,
+      "text": "十五分钟居多。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 528,
+      "s": 234,
+      "start": 1285.59,
+      "end": 1288.13,
+      "text": "然后其中不仅仅是有预告片，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 529,
+      "s": 234,
+      "start": 1288.13,
+      "end": 1291.23,
+      "text": "其中还有呃一些是广告，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 530,
+      "s": 234,
+      "start": 1291.23,
+      "end": 1292.93,
+      "text": "就是纯粹商业广告。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 531,
+      "s": 235,
+      "start": 1293.49,
+      "end": 1295.02,
+      "text": "我讲一个笑话吧",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 532,
+      "s": 235,
+      "start": 1295.02,
+      "end": 1297,
+      "text": "有一次我去看一部电影",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 533,
+      "s": 235,
+      "start": 1297,
+      "end": 1298.7,
+      "text": "前面我到的比较早",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 534,
+      "s": 235,
+      "start": 1298.7,
+      "end": 1299.74,
+      "text": "然后我就开始欣赏",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 535,
+      "s": 235,
+      "start": 1299.74,
+      "end": 1302.92,
+      "text": "这15分钟广告加别的电影预告片",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 536,
+      "s": 236,
+      "start": 1302.92,
+      "end": 1304.4,
+      "text": "然后其中有一个广告",
+      "speaker": "B",
+      "u": 235,
+      "role": "storyteller"
+    },
+    {
+      "i": 537,
+      "s": 236,
+      "start": 1304.4,
+      "end": 1307.32,
+      "text": "是迪奥的真我香水",
+      "speaker": "B",
+      "u": 235,
+      "role": "storyteller"
+    },
+    {
+      "i": 538,
+      "s": 236,
+      "start": 1307.32,
+      "end": 1309.1,
+      "text": "然后真我是中国人的翻译",
+      "speaker": "B",
+      "u": 235,
+      "role": "storyteller"
+    },
+    {
+      "i": 539,
+      "s": 236,
+      "start": 1309.1,
+      "end": 1311.64,
+      "text": "法国原版叫做J'adore",
+      "speaker": "B",
+      "u": 235,
+      "role": "storyteller"
+    },
+    {
+      "i": 540,
+      "s": 237,
+      "start": 1311.64,
+      "end": 1313.84,
+      "text": "字面翻译过来其实就是",
+      "speaker": "B",
+      "u": 235,
+      "role": "storyteller"
+    },
+    {
+      "i": 541,
+      "s": 237,
+      "start": 1313.84,
+      "end": 1315.22,
+      "text": "I like我喜欢",
+      "speaker": "B",
+      "u": 235,
+      "role": "storyteller"
+    },
+    {
+      "i": 542,
+      "s": 237,
+      "start": 1315.22,
+      "end": 1316.6,
+      "text": "当这个预告",
+      "speaker": "B",
+      "u": 235,
+      "role": "storyteller"
+    },
+    {
+      "i": 543,
+      "s": 237,
+      "start": 1316.6,
+      "end": 1319.77,
+      "text": "当这个商业广告放到最后呃，",
+      "speaker": "B",
+      "u": 235,
+      "role": "storyteller"
+    },
+    {
+      "i": 544,
+      "s": 238,
+      "start": 1319.77,
+      "end": 1323.01,
+      "text": "屏幕上出现了这个呃logo，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 545,
+      "s": 238,
+      "start": 1323.01,
+      "end": 1326.77,
+      "text": "屏幕上出现了商标，然后嗯声音响起，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 546,
+      "s": 239,
+      "start": 1327.71,
+      "end": 1328.61,
+      "text": "呃这个广告片",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 547,
+      "s": 239,
+      "start": 1328.61,
+      "end": 1330.46,
+      "text": "说出了最后一句广告词，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 548,
+      "s": 239,
+      "start": 1330.61,
+      "end": 1333.21,
+      "text": "呃我喜欢J'adore的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 549,
+      "s": 240,
+      "start": 1333.21,
+      "end": 1336.03,
+      "text": "我身边坐着一个法国的老爷爷，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 550,
+      "s": 240,
+      "start": 1336.03,
+      "end": 1337.63,
+      "text": "他说了一句moi aussi",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 551,
+      "s": 240,
+      "start": 1337.63,
+      "end": 1339.65,
+      "text": "就是me too就是我也是，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 552,
+      "s": 241,
+      "start": 1339.97,
+      "end": 1341.59,
+      "text": "呃后来呢呃他当然",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 553,
+      "s": 241,
+      "start": 1341.59,
+      "end": 1344.19,
+      "text": "他身边的那个老伴儿就笑得很开心，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 554,
+      "s": 241,
+      "start": 1344.19,
+      "end": 1345.17,
+      "text": "后来我意识到了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 555,
+      "s": 241,
+      "start": 1345.17,
+      "end": 1346.75,
+      "text": "这个老爷爷他的这个笑话。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 556,
+      "s": 242,
+      "start": 1346.82,
+      "end": 1349.54,
+      "text": "他其实并不是说，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 557,
+      "s": 242,
+      "start": 1349.54,
+      "end": 1352.4,
+      "text": "并不是在回应电那个广告当中的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 558,
+      "s": 242,
+      "start": 1352.4,
+      "end": 1353.74,
+      "text": "我喜欢这个香水，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 559,
+      "s": 243,
+      "start": 1354,
+      "end": 1355.18,
+      "text": "然后那个老爷爷说",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 560,
+      "s": 243,
+      "start": 1355.18,
+      "end": 1356.5,
+      "text": "我也喜欢这个香水。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 561,
+      "s": 244,
+      "start": 1356.62,
+      "end": 1359.2,
+      "text": "他其实是有暗示说",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 562,
+      "s": 244,
+      "start": 1359.2,
+      "end": 1361.46,
+      "text": "我也很喜欢刚刚那个那个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 563,
+      "s": 244,
+      "start": 1361.46,
+      "end": 1362.76,
+      "text": "预告片里的模特啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 564,
+      "s": 244,
+      "start": 1362.76,
+      "end": 1364.14,
+      "text": "就是商业广告里的模特。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 565,
+      "s": 245,
+      "start": 1364.14,
+      "end": 1366.46,
+      "text": "后来我结合那一个说话瞬间",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 566,
+      "s": 245,
+      "start": 1366.46,
+      "end": 1369.1,
+      "text": "和影片中的出现的场面",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 567,
+      "s": 245,
+      "start": 1369.1,
+      "end": 1370.44,
+      "text": "那个那个画面，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 568,
+      "s": 246,
+      "start": 1370.44,
+      "end": 1371.18,
+      "text": "然后我就想到了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 569,
+      "s": 246,
+      "start": 1371.18,
+      "end": 1372.62,
+      "text": "其实是这个比较好笑。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 570,
+      "s": 247,
+      "start": 1372.68,
+      "end": 1374.37,
+      "text": "好的呀，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 571,
+      "s": 247,
+      "start": 1374.47,
+      "end": 1377,
+      "text": "那今天我们就已经聊了很多了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 572,
+      "s": 247,
+      "start": 1377,
+      "end": 1378.26,
+      "text": "先瞎扯到这里。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 573,
+      "s": 248,
+      "start": 1378.26,
+      "end": 1378.86,
+      "text": "谢谢Paul",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 574,
+      "s": 248,
+      "start": 1378.86,
+      "end": 1381.32,
+      "text": "来做我们的这一期嘉宾啊！",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 575,
+      "s": 249,
+      "start": 1381.38,
+      "end": 1383.8,
+      "text": "我觉得我们聊了很多，很好。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 576,
+      "s": 250,
+      "start": 1383.8,
+      "end": 1386.34,
+      "text": "呃，这些都是呃，或许呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 577,
+      "s": 250,
+      "start": 1386.34,
+      "end": 1389.11,
+      "text": "在呃收音机前或者手机前，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 578,
+      "s": 250,
+      "start": 1389.5,
+      "end": 1393,
+      "text": "呃，今后想来法国呃旅游的朋友，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 579,
+      "s": 251,
+      "start": 1393,
+      "end": 1395.02,
+      "text": "可能以后也可能会遇到的一些情况。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 580,
+      "s": 252,
+      "start": 1395.38,
+      "end": 1397.58,
+      "text": "对对对对对，但是最后还是要",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 581,
+      "s": 252,
+      "start": 1397.58,
+      "end": 1398.7,
+      "text": "放一个disclaimer。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 582,
+      "s": 253,
+      "start": 1398.81,
+      "end": 1400.97,
+      "text": "我们说的这些吐槽点",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 583,
+      "s": 253,
+      "start": 1400.97,
+      "end": 1402.84,
+      "text": "都是小小的吐槽，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 584,
+      "s": 253,
+      "start": 1403.11,
+      "end": 1404.53,
+      "text": "但是像Paul和我，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 585,
+      "s": 253,
+      "start": 1404.53,
+      "end": 1405.85,
+      "text": "我们都很喜欢法国，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 586,
+      "s": 254,
+      "start": 1405.85,
+      "end": 1407.38,
+      "text": "很喜欢巴黎的生活，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 587,
+      "s": 254,
+      "start": 1407.79,
+      "end": 1410.59,
+      "text": "所以完以上吐槽完全没有恶意。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 588,
+      "s": 255,
+      "start": 1410.85,
+      "end": 1413.57,
+      "text": "好的，好的，那我们就期待下一次",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 589,
+      "s": 255,
+      "start": 1413.57,
+      "end": 1415.99,
+      "text": "和大家第三期节目再见，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 590,
+      "s": 256,
+      "start": 1415.99,
+      "end": 1417.44,
+      "text": "再见，拜拜。",
+      "speaker": "B",
+      "role": "storyteller"
+    }
+  ]
+}

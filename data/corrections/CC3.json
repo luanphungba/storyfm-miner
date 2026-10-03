@@ -1,0 +1,280 @@
+{
+  "episode": "CC3",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-03",
+  "fixes": [
+    {
+      "cueIndex": 121,
+      "before": "Char l otte",
+      "after": "Charlotte",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 121,
+      "before": "Em ma",
+      "after": "Emma",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 130,
+      "before": " resident ",
+      "after": "resident",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 140,
+      "before": " P ",
+      "after": "P",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 174,
+      "before": " P ",
+      "after": "P",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 192,
+      "before": " P ",
+      "after": "P",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 237,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 240,
+      "before": "moi aussi",
+      "after": "moiaussi",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 240,
+      "before": "me too",
+      "after": "metoo",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 247,
+      "before": " ut ",
+      "after": "ut",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 252,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 0,
+      "before": "Pod cast",
+      "after": "podcast",
+      "source": "llm-review",
+      "reason": "One English word split with a short gap, so the glue pass missed it; the host's transcript writes podcast.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 3,
+      "before": "“ po or”",
+      "after": "“Paul”",
+      "source": "llm-review",
+      "reason": "The English word his name comes from; the host's transcript and whisper both say Paul.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 5,
+      "before": "播的cast",
+      "after": "podcast",
+      "source": "llm-review",
+      "reason": "播的cast is not a phrase: pod-cast, as in sentence 0; the host's transcript writes Podcast.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 7,
+      "before": "泡的法语",
+      "after": "Paul的法语",
+      "source": "llm-review",
+      "reason": "The guest Paul (said the French way); the host's transcript writes Paul.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 8,
+      "before": "和泡呢",
+      "after": "和Paul呢",
+      "source": "llm-review",
+      "reason": "The guest Paul; whisper hears 和Paul呢.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 9,
+      "before": "有请泡",
+      "after": "有请Paul",
+      "source": "llm-review",
+      "reason": "The guest Paul; the host's transcript writes 有请Paul.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 34,
+      "before": "新新鲜",
+      "after": "心声",
+      "source": "llm-review",
+      "reason": "吐露心声 (pour out one's heart) — the stretch is two syllables long; the host's transcript and whisper both say 心声.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 54,
+      "before": "rendez vous",
+      "after": "rendez-vous",
+      "source": "llm-review",
+      "reason": "French spelling; the show notes write Rendez-vous.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 88,
+      "before": "外国朋就是",
+      "after": "外国朋友就是",
+      "source": "llm-review",
+      "reason": "Whisper hears 外国朋友, and the host's transcript writes it.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 97,
+      "before": "星清",
+      "after": "Xinqing",
+      "source": "llm-review",
+      "reason": "She spells her name and says it: Xinqing (the feed credits Xinqing (Joanne)). 星 is a back nasal, and the next sentence says the first syllable is a front one; the characters are unknown, so pinyin as the host's transcript writes it.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 116,
+      "before": "同学陆",
+      "after": "同学Lu",
+      "source": "llm-review",
+      "reason": "Her surname, read off the roster by a French teacher; the feed's address is xinqing.lu and the host's transcript writes Lu. 陆 is one guess among several characters.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 124,
+      "before": "音色",
+      "after": "印象",
+      "source": "llm-review",
+      "reason": "留下深刻印象，一个特殊的印象; the host's transcript and both whisper models hear 印象.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 125,
+      "before": "“和”",
+      "after": "“何”",
+      "source": "llm-review",
+      "reason": "The surname He (何), spelled H E right after; the host's transcript writes 何.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 130,
+      "before": "“ PresidentWu ”",
+      "after": "“President Wu”",
+      "source": "llm-review",
+      "reason": "Glue pass fused two English words (President Hu said without the H).",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 144,
+      "before": "直机",
+      "after": "值机",
+      "source": "llm-review",
+      "reason": "自助值机 (airport self check-in); 直机 is not a word, and the host's transcript writes 值机.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 160,
+      "before": "站到这个座位",
+      "after": "占到这个座位",
+      "source": "llm-review",
+      "reason": "占座位 (get a seat), homophone 站; the host's transcript writes 占.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 211,
+      "before": "号码报道",
+      "after": "号码报到",
+      "source": "llm-review",
+      "reason": "Your number being called (报到); 报道 is a news report. the host's transcript writes 报到.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 229,
+      "before": "tra iler",
+      "after": "trailer",
+      "source": "llm-review",
+      "reason": "One English word split in two; the host's transcript writes Trailer.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 237,
+      "before": "Ilike",
+      "after": "I like",
+      "source": "llm-review",
+      "reason": "Glue pass fused two English words.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 239,
+      "before": "你知道豆腐",
+      "after": "J'adore",
+      "source": "llm-review",
+      "reason": "The Dior ad's closing line, J'adore (sentence 236/237 names it); the host's transcript writes J’adore, and whisper hears nonsense too (一下道合).",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 240,
+      "before": "moiaussi",
+      "after": "moi aussi",
+      "source": "llm-review",
+      "reason": "Glue pass fused French moi aussi; the host's transcript and whisper agree.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 240,
+      "before": "metoo",
+      "after": "me too",
+      "source": "llm-review",
+      "reason": "Glue pass fused English me too; the host's transcript and whisper agree.",
+      "appliedAt": "2026-10-03"
+    },
+    {
+      "cueIndex": 247,
+      "before": "shutup",
+      "after": "瞎扯",
+      "source": "llm-review",
+      "reason": "先瞎扯到这里, the show's own word (瞎扯学中文); the host's transcript and whisper both hear 瞎扯.",
+      "appliedAt": "2026-10-03"
+    }
+  ],
+  "flagged": []
+}
