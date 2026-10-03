@@ -1772,7 +1772,7 @@
   "rời đi"
  ],
  "估计": [
-  "CƯỚC KẾ",
+  "CỔ KẾ",
   "ước chừng, chắc là"
  ],
  "新": [
@@ -17022,5 +17022,1941 @@
  "约": [
   "ƯỚC",
   "hẹn"
+ ],
+ "联系人": [
+  "LIÊN HỆ NHÂN",
+  "danh bạ, người liên hệ"
+ ],
+ "关闭": [
+  "QUAN BẾ",
+  "tắt, đóng"
+ ],
+ "登录": [
+  "ĐĂNG LỤC",
+  "đăng nhập"
+ ],
+ "安全性": [
+  "AN TOÀN TÍNH",
+  "tính bảo mật, độ an toàn"
+ ],
+ "配送": [
+  "PHỐI TỐNG",
+  "giao hàng"
+ ],
+ "共享": [
+  "CỘNG HƯỞNG",
+  "chia sẻ, dùng chung (khác \"cộng hưởng\" âm thanh trong tiếng Việt)"
+ ],
+ "媒体": [
+  "MÔI THỂ",
+  "phương tiện, truyền thông (media)"
+ ],
+ "退出": [
+  "THOÁI XUẤT",
+  "thoát ra (退出登录: đăng xuất)"
+ ],
+ "添加": [
+  "THIÊM GIA",
+  "thêm, bổ sung"
+ ],
+ "查看": [
+  "TRA KHÁN",
+  "xem"
+ ],
+ "访问": [
+  "PHỎNG VẤN",
+  "truy cập; thăm viếng"
+ ],
+ "设置": [
+  "THIẾT TRÍ",
+  "cài đặt, thiết lập"
+ ],
+ "未": [
+  "VỊ",
+  "chưa, không (văn viết, = 没)"
+ ],
+ "发送": [
+  "PHÁT TỐNG",
+  "gửi đi"
+ ],
+ "热点": [
+  "NHIỆT ĐIỂM",
+  "điểm nóng; điểm phát Wi-Fi (hotspot)"
+ ],
+ "询问": [
+  "TUÂN VẤN",
+  "hỏi, hỏi ý"
+ ],
+ "是否": [
+  "THỊ PHỦ",
+  "có ... hay không"
+ ],
+ "无": [
+  "VÔ",
+  "không có"
+ ],
+ "允许": [
+  "DOÃN HỨA",
+  "cho phép"
+ ],
+ "此": [
+  "THỬ",
+  "này (văn viết, = 这)"
+ ],
+ "设备": [
+  "THIẾT BỊ",
+  "thiết bị"
+ ],
+ "蓝牙": [
+  "LAM NHA",
+  "Bluetooth (dịch sát: \"răng xanh\")"
+ ],
+ "用于": [
+  "DỤNG VU",
+  "dùng cho"
+ ],
+ "播放": [
+  "BÁ PHÓNG",
+  "phát (nhạc, video)"
+ ],
+ "配件": [
+  "PHỐI KIỆN",
+  "phụ kiện"
+ ],
+ "蜂窝": [
+  "PHONG OA",
+  "tổ ong (蜂窝网络: mạng di động, mạng tế bào)"
+ ],
+ "推送": [
+  "THÔI TỐNG",
+  "đẩy (thông báo đẩy, push)"
+ ],
+ "默认": [
+  "MẶC NHẬN",
+  "mặc định"
+ ],
+ "用量": [
+  "DỤNG LƯỢNG",
+  "lượng sử dụng, mức dùng"
+ ],
+ "漫游": [
+  "MẠN DU",
+  "chuyển vùng (roaming); đi chơi khắp nơi"
+ ],
+ "卸载": [
+  "TÁ TẢI",
+  "gỡ cài đặt (uninstall/offload)"
+ ],
+ "显示": [
+  "HIỂN THỊ",
+  "hiển thị, cho thấy"
+ ],
+ "助理": [
+  "TRỢ LÝ",
+  "trợ lý"
+ ],
+ "云盘": [
+  "VÂN BÀN",
+  "ổ đĩa đám mây (iCloud Drive)"
+ ],
+ "传输": [
+  "TRUYỀN THÂU",
+  "truyền, chuyển (dữ liệu)"
+ ],
+ "文稿": [
+  "VĂN CẢO",
+  "tài liệu, bản thảo"
+ ],
+ "云": [
+  "VÂN",
+  "mây; đám mây (cloud)"
+ ],
+ "备份": [
+  "BỊ PHẬN",
+  "sao lưu"
+ ],
+ "至": [
+  "CHÍ",
+  "đến (văn viết)"
+ ],
+ "限额": [
+  "HẠN NGẠCH",
+  "hạn mức, giới hạn"
+ ],
+ "停用": [
+  "ĐÌNH DỤNG",
+  "ngừng dùng (停用时间: Giờ nghỉ)"
+ ],
+ "跟踪": [
+  "CÂN TUNG",
+  "theo dõi, bám theo (tracking)"
+ ],
+ "还原": [
+  "HOÀN NGUYÊN",
+  "đặt lại, khôi phục về ban đầu (reset)"
+ ],
+ "启用": [
+  "KHẢI DỤNG",
+  "bật, kích hoạt (enable)"
+ ],
+ "飞行": [
+  "PHI HÀNH",
+  "bay, chuyến bay (飞行模式: chế độ máy bay)"
+ ],
+ "电池": [
+  "ĐIỆN TRÌ",
+  "pin, ắc quy"
+ ],
+ "通用": [
+  "THÔNG DỤNG",
+  "dùng chung; (trang) Cài đặt chung"
+ ],
+ "按钮": [
+  "ÁN NỮU",
+  "nút bấm"
+ ],
+ "待机": [
+  "ĐÃI CƠ",
+  "chờ (máy ở chế độ chờ, standby)"
+ ],
+ "墙纸": [
+  "TƯỜNG CHỈ",
+  "giấy dán tường; hình nền"
+ ],
+ "亮度": [
+  "LƯỢNG ĐỘ",
+  "độ sáng"
+ ],
+ "资源库": [
+  "TƯ NGUYÊN KHỐ",
+  "kho tài nguyên, thư viện (App资源库: Thư viện ứng dụng)"
+ ],
+ "智能": [
+  "TRÍ NĂNG",
+  "thông minh (AI); trí tuệ"
+ ],
+ "声效": [
+  "THANH HIỆU",
+  "hiệu ứng âm thanh"
+ ],
+ "触感": [
+  "XÚC CẢM",
+  "cảm giác chạm, phản hồi rung (haptic)"
+ ],
+ "面容": [
+  "DIỆN DUNG",
+  "khuôn mặt, dung mạo (面容ID: Face ID)"
+ ],
+ "密码": [
+  "MẬT MÃ",
+  "mật khẩu, mật mã, mã PIN"
+ ],
+ "紧急": [
+  "KHẨN CẤP",
+  "khẩn cấp"
+ ],
+ "联络": [
+  "LIÊN LẠC",
+  "liên lạc"
+ ],
+ "隐私": [
+  "ẨN TƯ",
+  "quyền riêng tư, chuyện riêng"
+ ],
+ "开发者": [
+  "KHAI PHÁT GIẢ",
+  "nhà phát triển"
+ ],
+ "听写": [
+  "THÍNH TẢ",
+  "đọc chính tả (dictation)"
+ ],
+ "百分比": [
+  "BÁCH PHÂN TỶ",
+  "tỷ lệ phần trăm"
+ ],
+ "充电": [
+  "SUNG ĐIỆN",
+  "sạc pin"
+ ],
+ "锁定": [
+  "TỎA ĐỊNH",
+  "khóa"
+ ],
+ "电量": [
+  "ĐIỆN LƯỢNG",
+  "lượng pin, mức pin"
+ ],
+ "配置": [
+  "PHỐI TRÍ",
+  "cấu hình, thiết lập"
+ ],
+ "软件": [
+  "NHUYỄN KIỆN",
+  "phần mềm"
+ ],
+ "车载": [
+  "XA TẢI",
+  "gắn trên xe hơi (CarPlay车载)"
+ ],
+ "隔空": [
+  "CÁCH KHÔNG",
+  "cách không, từ xa qua không trung (dùng trong AirDrop, AirPlay)"
+ ],
+ "投送": [
+  "ĐẦU TỐNG",
+  "gửi, chuyển tới (隔空投送: AirDrop)"
+ ],
+ "本机": [
+  "BẢN CƠ",
+  "máy này (关于本机: Giới thiệu)"
+ ],
+ "储存": [
+  "TRỮ TỒN",
+  "lưu trữ"
+ ],
+ "空间": [
+  "KHÔNG GIAN",
+  "không gian; dung lượng, chỗ trống"
+ ],
+ "保修": [
+  "BẢO TU",
+  "bảo hành"
+ ],
+ "互通": [
+  "HỖ THÔNG",
+  "liên thông với nhau (连续互通: Thông suốt / Continuity)"
+ ],
+ "画中画": [
+  "HỌA TRUNG HỌA",
+  "hình trong hình (PiP)"
+ ],
+ "词典": [
+  "TỪ ĐIỂN",
+  "từ điển"
+ ],
+ "后台": [
+  "HẬU ĐÀI",
+  "hậu trường; chạy nền (background)"
+ ],
+ "刷新": [
+  "LOÁT TÂN",
+  "làm mới (refresh)"
+ ],
+ "地区": [
+  "ĐỊA KHU",
+  "vùng, khu vực"
+ ],
+ "字体": [
+  "TỰ THỂ",
+  "phông chữ, kiểu chữ"
+ ],
+ "填充": [
+  "ĐIỀN SUNG",
+  "điền vào (自动填充: tự động điền)"
+ ],
+ "提供商": [
+  "ĐỀ CUNG THƯƠNG",
+  "nhà cung cấp"
+ ],
+ "法律": [
+  "PHÁP LUẬT",
+  "pháp luật, pháp lý"
+ ],
+ "监管": [
+  "GIÁM QUẢN",
+  "quản lý giám sát, quy định"
+ ],
+ "关机": [
+  "QUAN CƠ",
+  "tắt máy"
+ ],
+ "个性化": [
+  "CÁ TÍNH HÓA",
+  "cá nhân hóa"
+ ],
+ "视觉": [
+  "THỊ GIÁC",
+  "thị giác, nhìn"
+ ],
+ "旁白": [
+  "BÀNG BẠCH",
+  "lời dẫn, thuyết minh (VoiceOver)"
+ ],
+ "缩放": [
+  "SÚC PHÓNG",
+  "phóng to thu nhỏ (zoom)"
+ ],
+ "文本": [
+  "VĂN BẢN",
+  "văn bản, chữ"
+ ],
+ "朗读": [
+  "LÃNG ĐỘC",
+  "đọc to"
+ ],
+ "口述": [
+  "KHẨU THUẬT",
+  "kể bằng lời"
+ ],
+ "影像": [
+  "ẢNH TƯỢNG",
+  "hình ảnh (口述影像: Mô tả âm thanh)"
+ ],
+ "动作": [
+  "ĐỘNG TÁC",
+  "động tác, cử động"
+ ],
+ "触控": [
+  "XÚC KHỐNG",
+  "cảm ứng (chạm để điều khiển)"
+ ],
+ "注视": [
+  "CHÚ THỊ",
+  "nhìn chăm chú, chú ý"
+ ],
+ "切换": [
+  "THIẾT HOÁN",
+  "chuyển đổi (switch)"
+ ],
+ "听觉": [
+  "THÍNH GIÁC",
+  "thính giác, nghe"
+ ],
+ "助听": [
+  "TRỢ THÍNH",
+  "trợ thính"
+ ],
+ "识别": [
+  "THỨC BIỆT",
+  "nhận dạng, nhận biết"
+ ],
+ "音频": [
+  "ÂM TẦN",
+  "âm thanh (audio)"
+ ],
+ "字幕": [
+  "TỰ MẠC",
+  "phụ đề"
+ ],
+ "隐藏式": [
+  "ẨN TÀNG THỨC",
+  "dạng ẩn (隐藏式字幕: phụ đề chi tiết, closed captions)"
+ ],
+ "实时": [
+  "THỰC THỜI",
+  "trực tiếp, thời gian thực"
+ ],
+ "人声": [
+  "NHÂN THANH",
+  "giọng người"
+ ],
+ "快捷": [
+  "KHOÁI TIỆP",
+  "nhanh, tắt (shortcut)"
+ ],
+ "指令": [
+  "CHỈ LỆNH",
+  "lệnh (快捷指令: Phím tắt / Shortcuts)"
+ ],
+ "键入": [
+  "KIỆN NHẬP",
+  "gõ, nhập (bằng phím)"
+ ],
+ "快捷键": [
+  "KHOÁI TIỆP KIỆN",
+  "phím tắt"
+ ],
+ "静音": [
+  "TĨNH ÂM",
+  "im lặng, tắt tiếng"
+ ],
+ "提醒": [
+  "ĐỀ TỈNH",
+  "nhắc nhở; cảnh báo (alert)"
+ ],
+ "小组件": [
+  "TIỂU TỔ KIỆN",
+  "tiện ích (widget)"
+ ],
+ "显示屏": [
+  "HIỂN THỊ BÌNH",
+  "màn hình"
+ ],
+ "仅": [
+  "CẬN",
+  "chỉ (văn viết, = 只)"
+ ],
+ "轻点": [
+  "KHINH ĐIỂM",
+  "chạm nhẹ (tap)"
+ ],
+ "预览": [
+  "DỰ LÃM",
+  "xem trước"
+ ],
+ "隐藏": [
+  "ẨN TÀNG",
+  "ẩn, giấu"
+ ],
+ "自定义": [
+  "TỰ ĐỊNH NGHĨA",
+  "tùy chỉnh (custom)"
+ ],
+ "调整": [
+  "ĐIỀU CHỈNH",
+  "điều chỉnh"
+ ],
+ "布局": [
+  "BỐ CỤC",
+  "bố cục, cách sắp xếp"
+ ],
+ "更改": [
+  "CANH CẢI",
+  "thay đổi"
+ ],
+ "按住": [
+  "ÁN TRÚ",
+  "nhấn giữ"
+ ],
+ "文字": [
+  "VĂN TỰ",
+  "chữ, văn bản"
+ ],
+ "改进": [
+  "CẢI TIẾN",
+  "cải thiện, cải tiến"
+ ],
+ "输入": [
+  "THÂU NHẬP",
+  "nhập"
+ ],
+ "外观": [
+  "NGOẠI QUAN",
+  "giao diện, vẻ ngoài"
+ ],
+ "浅色": [
+  "THIỂN SẮC",
+  "màu sáng (giao diện Sáng)"
+ ],
+ "深色": [
+  "THÂM SẮC",
+  "màu tối (giao diện Tối)"
+ ],
+ "粗体": [
+  "THÔ THỂ",
+  "chữ đậm"
+ ],
+ "原彩": [
+  "NGUYÊN THÁI",
+  "màu gốc (原彩显示: True Tone)"
+ ],
+ "条件": [
+  "ĐIỀU KIỆN",
+  "điều kiện (过滤条件: bộ lọc)"
+ ],
+ "夜览": [
+  "DẠ LÃM",
+  "xem ban đêm (Night Shift)"
+ ],
+ "抬起": [
+  "ĐÀI KHỞI",
+  "nhấc lên"
+ ],
+ "唤醒": [
+  "HOÁN TỈNH",
+  "đánh thức, bật màn hình"
+ ],
+ "全天候": [
+  "TOÀN THIÊN HẬU",
+  "suốt ngày đêm (全天候显示屏: màn hình luôn bật)"
+ ],
+ "录制": [
+  "LỤC CHẾ",
+  "quay, ghi (video, âm thanh)"
+ ],
+ "慢动作": [
+  "MẠN ĐỘNG TÁC",
+  "quay chậm (slo-mo)"
+ ],
+ "效果": [
+  "HIỆU QUẢ",
+  "hiệu ứng; hiệu quả"
+ ],
+ "录音": [
+  "LỤC ÂM",
+  "ghi âm"
+ ],
+ "格式": [
+  "CÁCH THỨC",
+  "định dạng (format)"
+ ],
+ "保留": [
+  "BẢO LƯU",
+  "giữ lại"
+ ],
+ "调高": [
+  "ĐIỀU CAO",
+  "tăng (âm lượng)"
+ ],
+ "连拍": [
+  "LIÊN PHÁCH",
+  "chụp liên tục"
+ ],
+ "扫描": [
+  "TẢO MIÊU",
+  "quét"
+ ],
+ "二维码": [
+  "NHỊ DUY MÃ",
+  "mã QR"
+ ],
+ "检测": [
+  "KIỂM TRẮC",
+  "phát hiện, kiểm tra"
+ ],
+ "构图": [
+  "CẤU ĐỒ",
+  "bố cục (ảnh)"
+ ],
+ "网格": [
+  "VÕNG CÁCH",
+  "lưới"
+ ],
+ "前置": [
+  "TIỀN TRÍ",
+  "phía trước (前置相机: camera trước)"
+ ],
+ "超": [
+  "SIÊU",
+  "vượt ra ngoài; siêu"
+ ],
+ "取景框": [
+  "THỦ CẢNH KHUÔNG",
+  "khung ngắm"
+ ],
+ "取景": [
+  "THỦ CẢNH",
+  "ngắm cảnh, lấy khung hình"
+ ],
+ "风格": [
+  "PHONG CÁCH",
+  "phong cách"
+ ],
+ "优先": [
+  "ƯU TIÊN",
+  "ưu tiên"
+ ],
+ "校正": [
+  "HIỆU CHÍNH",
+  "hiệu chỉnh"
+ ],
+ "微距": [
+  "VI CỰ",
+  "chụp cận (macro)"
+ ],
+ "下载": [
+  "HẠ TẢI",
+  "tải về (download)"
+ ],
+ "标记": [
+  "TIÊU KÝ",
+  "đánh dấu; huy hiệu (badge)"
+ ],
+ "版": [
+  "BẢN",
+  "bản, phiên bản (Beta版: bản beta)"
+ ],
+ "系统": [
+  "HỆ THỐNG",
+  "hệ thống"
+ ],
+ "回应": [
+  "HỒI ỨNG",
+  "phản hồi, đáp lại"
+ ],
+ "播报": [
+  "BÁ BÁO",
+  "đọc, thông báo (bằng giọng nói)"
+ ],
+ "来电": [
+  "LAI ĐIỆN",
+  "cuộc gọi đến"
+ ],
+ "历史记录": [
+  "LỊCH SỬ KÝ LỤC",
+  "lịch sử (bản ghi)"
+ ],
+ "数量": [
+  "SỐ LƯỢNG",
+  "số lượng"
+ ],
+ "叠放": [
+  "ĐIỆP PHÓNG",
+  "xếp chồng"
+ ],
+ "列表": [
+  "LIỆT BIỂU",
+  "danh sách"
+ ],
+ "定时": [
+  "ĐỊNH THỜI",
+  "theo giờ đặt sẵn, hẹn giờ"
+ ],
+ "摘要": [
+  "TRÍCH YẾU",
+  "tóm tắt"
+ ],
+ "关": [
+  "QUAN",
+  "tắt, đóng"
+ ],
+ "解锁": [
+  "GIẢI TỎA",
+  "mở khóa"
+ ],
+ "样式": [
+  "DẠNG THỨC",
+  "kiểu, kiểu dáng"
+ ],
+ "铃声": [
+  "LINH THANH",
+  "nhạc chuông"
+ ],
+ "麦克风": [
+  "MẠCH KHẮC PHONG",
+  "micrô (phiên âm \"microphone\")"
+ ],
+ "始终": [
+  "THỦY CHUNG",
+  "luôn luôn, từ đầu đến cuối"
+ ],
+ "邮件": [
+  "BƯU KIỆN",
+  "thư, email"
+ ],
+ "日历": [
+  "NHẬT LỊCH",
+  "lịch"
+ ],
+ "事项": [
+  "SỰ HẠNG",
+  "việc, mục (提醒事项: Lời nhắc)"
+ ],
+ "声": [
+  "THANH",
+  "tiếng, âm thanh"
+ ],
+ "耳机": [
+  "NHĨ CƠ",
+  "tai nghe"
+ ],
+ "勿扰": [
+  "VẬT NHIỄU",
+  "đừng làm phiền (勿扰模式: Không làm phiền)"
+ ],
+ "减少": [
+  "GIẢM THIỂU",
+  "giảm bớt"
+ ],
+ "干扰": [
+  "CAN NHIỄU",
+  "gián đoạn, quấy rầy"
+ ],
+ "设定": [
+  "THIẾT ĐỊNH",
+  "đặt, thiết lập"
+ ],
+ "通信": [
+  "THÔNG TÍN",
+  "liên lạc, giao tiếp"
+ ],
+ "限定": [
+  "HẠN ĐỊNH",
+  "giới hạn"
+ ],
+ "敏感": [
+  "MẪN CẢM",
+  "nhạy cảm"
+ ],
+ "松开": [
+  "TÙNG KHAI",
+  "thả ra"
+ ],
+ "倒计时": [
+  "ĐẢO KẾ THỜI",
+  "đếm ngược"
+ ],
+ "次": [
+  "THỨ",
+  "lần"
+ ],
+ "隐式": [
+  "ẨN THỨC",
+  "ngầm, kín (隐式呼叫: Gọi trong yên lặng)"
+ ],
+ "警示": [
+  "CẢNH THỊ",
+  "cảnh báo"
+ ],
+ "车祸": [
+  "XA HỌA",
+  "tai nạn xe"
+ ],
+ "删除": [
+  "SAN TRỪ",
+  "xóa"
+ ],
+ "接收": [
+  "TIẾP THU",
+  "nhận"
+ ],
+ "保护": [
+  "BẢO HỘ",
+  "bảo vệ"
+ ],
+ "通讯录": [
+  "THÔNG TẤN LỤC",
+  "danh bạ"
+ ],
+ "文件夹": [
+  "VĂN KIỆN GIÁP",
+  "thư mục"
+ ],
+ "健身": [
+  "KIỆN THÂN",
+  "tập thể dục, thể chất"
+ ],
+ "失窃": [
+  "THẤT THIẾT",
+  "bị mất cắp"
+ ],
+ "备忘录": [
+  "BỊ VONG LỤC",
+  "ghi chú (语音备忘录: Ghi âm)"
+ ],
+ "专用": [
+  "CHUYÊN DỤNG",
+  "dành riêng (专用代理: Chuyển tiếp bảo mật)"
+ ],
+ "代理": [
+  "ĐẠI LÝ",
+  "proxy; đại lý, thay mặt"
+ ],
+ "立即": [
+  "LẬP TỨC",
+  "ngay lập tức"
+ ],
+ "信任": [
+  "TÍN NHIỆM",
+  "tin cậy, tin tưởng"
+ ],
+ "移除": [
+  "DI TRỪ",
+  "gỡ bỏ, loại ra"
+ ],
+ "响应": [
+  "HƯỞNG ỨNG",
+  "phản hồi, đáp ứng (response)"
+ ],
+ "次数": [
+  "THỨ SỐ",
+  "số lần"
+ ],
+ "域": [
+  "VỰC",
+  "miền (tên miền, domain)"
+ ],
+ "本地": [
+  "BẢN ĐỊA",
+  "cục bộ, tại chỗ (local)"
+ ],
+ "预测": [
+  "DỰ TRẮC",
+  "dự đoán"
+ ],
+ "锁屏": [
+  "TỎA BÌNH",
+  "màn hình khóa; khóa màn hình"
+ ],
+ "固件": [
+  "CỐ KIỆN",
+  "firmware (phần mềm gắn liền phần cứng)"
+ ],
+ "横幅": [
+  "HOÀNH PHÚC",
+  "băng rôn, thông báo dạng biểu ngữ (banner)"
+ ],
+ "密钥": [
+  "MẬT THƯỢC",
+  "khóa (mật mã); 通行密钥: mã khóa truy cập (passkey)"
+ ],
+ "验证": [
+  "NGHIỆM CHỨNG",
+  "xác minh, xác thực"
+ ],
+ "个人信息": [
+  "CÁ NHÂN TÍN TỨC",
+  "thông tin cá nhân"
+ ],
+ "付款": [
+  "PHÓ KHOẢN",
+  "thanh toán, trả tiền"
+ ],
+ "查找": [
+  "TRA TRẢO",
+  "tìm; (app) Tìm (Find My)"
+ ],
+ "项目": [
+  "HẠNG MỤC",
+  "mục, hạng mục; dự án"
+ ],
+ "成人": [
+  "THÀNH NHÂN",
+  "người lớn"
+ ],
+ "组织者": [
+  "TỔ CHỨC GIẢ",
+  "người tổ chức"
+ ],
+ "家庭成员": [
+  "GIA ĐÌNH THÀNH VIÊN",
+  "thành viên gia đình"
+ ],
+ "儿童": [
+  "NHI ĐỒNG",
+  "trẻ em"
+ ],
+ "家长": [
+  "GIA TRƯỞNG",
+  "phụ huynh, cha mẹ (家长控制: kiểm soát của phụ huynh)"
+ ],
+ "详细信息": [
+  "TƯỜNG TẾ TÍN TỨC",
+  "thông tin chi tiết"
+ ],
+ "群组": [
+  "QUẦN TỔ",
+  "nhóm"
+ ],
+ "创建": [
+  "SÁNG KIẾN",
+  "tạo, lập"
+ ],
+ "接入": [
+  "TIẾP NHẬP",
+  "kết nối vào, truy cập (mạng)"
+ ],
+ "及": [
+  "CẬP",
+  "và, cùng (văn viết)"
+ ],
+ "进一步": [
+  "TIẾN NHẤT BỘ",
+  "thêm một bước (进一步了解: tìm hiểu thêm)"
+ ],
+ "已知": [
+  "DĨ TRI",
+  "đã biết"
+ ],
+ "玩游戏": [
+  "NGOẠN DU HÍ",
+  "chơi game"
+ ],
+ "浏览": [
+  "LƯU LÃM",
+  "duyệt, xem lướt (web)"
+ ],
+ "在内": [
+  "TẠI NỘI",
+  "kể cả, bao gồm trong đó"
+ ],
+ "主号": [
+  "CHỦ HIỆU",
+  "số chính (SIM chính)"
+ ],
+ "商务": [
+  "THƯƠNG VỤ",
+  "công việc, kinh doanh (nhãn SIM)"
+ ],
+ "浏览器": [
+  "LƯU LÃM KHÍ",
+  "trình duyệt"
+ ],
+ "弱": [
+  "NHƯỢC",
+  "yếu"
+ ],
+ "导致": [
+  "ĐẠO TRÍ",
+  "dẫn đến, gây ra"
+ ],
+ "套餐": [
+  "SÁO XAN",
+  "gói cước; suất ăn trọn gói"
+ ],
+ "超出": [
+  "SIÊU XUẤT",
+  "vượt quá"
+ ],
+ "累计": [
+  "LŨY KẾ",
+  "cộng dồn, tổng"
+ ],
+ "统计数据": [
+  "THỐNG KẾ SỐ CỨ",
+  "số liệu thống kê"
+ ],
+ "当前": [
+  "ĐƯƠNG TIỀN",
+  "hiện tại, hiện thời"
+ ],
+ "零": [
+  "LINH",
+  "số không"
+ ],
+ "控制中心": [
+  "KHỐNG CHẾ TRUNG TÂM",
+  "Trung tâm điều khiển"
+ ],
+ "简介": [
+  "GIẢN GIỚI",
+  "giới thiệu ngắn; thông tin"
+ ],
+ "每日": [
+  "MỖI NHẬT",
+  "mỗi ngày, hằng ngày"
+ ],
+ "全天": [
+  "TOÀN THIÊN",
+  "cả ngày"
+ ],
+ "系统活动": [
+  "HỆ THỐNG HOẠT ĐỘNG",
+  "hoạt động hệ thống"
+ ],
+ "网络流量": [
+  "VÕNG LẠC LƯU LƯỢNG",
+  "lưu lượng mạng"
+ ],
+ "路由": [
+  "LỘ DO",
+  "định tuyến (routing)"
+ ],
+ "偏好": [
+  "THIÊN HIẾU",
+  "ưa thích (偏好设置: tùy chọn)"
+ ],
+ "例如": [
+  "LỆ NHƯ",
+  "ví dụ như"
+ ],
+ "捕捉": [
+  "BỘ TRÓC",
+  "bắt, ghi lại (屏幕捕捉: chụp/quay màn hình)"
+ ],
+ "自动更新": [
+  "TỰ ĐỘNG CANH TÂN",
+  "tự động cập nhật"
+ ],
+ "肢体": [
+  "CHI THỂ",
+  "chân tay, cơ thể (vận động)"
+ ],
+ "听力": [
+  "THÍNH LỰC",
+  "thính lực, khả năng nghe"
+ ],
+ "使": [
+  "SỬ",
+  "làm cho, khiến"
+ ],
+ "其": [
+  "KỲ",
+  "nó, của nó (văn viết)"
+ ],
+ "贴合": [
+  "THIẾP HỢP",
+  "vừa khít, phù hợp sát"
+ ],
+ "悬停": [
+  "HUYỀN ĐÌNH",
+  "di chuột/ngón tay lơ lửng (hover)"
+ ],
+ "文字大小": [
+  "VĂN TỰ ĐẠI TIỂU",
+  "cỡ chữ"
+ ],
+ "动态效果": [
+  "ĐỘNG THÁI HIỆU QUẢ",
+  "hiệu ứng chuyển động"
+ ],
+ "阅读": [
+  "DUYỆT ĐỘC",
+  "đọc"
+ ],
+ "眼动": [
+  "NHÃN ĐỘNG",
+  "chuyển động mắt (眼动跟踪: theo dõi mắt)"
+ ],
+ "头部": [
+  "ĐẦU BỘ",
+  "đầu (bộ phận cơ thể)"
+ ],
+ "遥控器": [
+  "DAO KHỐNG KHÍ",
+  "điều khiển từ xa"
+ ],
+ "响铃": [
+  "HƯỞNG LINH",
+  "đổ chuông"
+ ],
+ "横向": [
+  "HOÀNH HƯỚNG",
+  "nằm ngang"
+ ],
+ "放置": [
+  "PHÓNG TRÍ",
+  "đặt, để"
+ ],
+ "时钟": [
+  "THỜI CHUNG",
+  "đồng hồ"
+ ],
+ "若": [
+  "NHƯỢC",
+  "nếu (văn viết)"
+ ],
+ "开关": [
+  "KHAI QUAN",
+  "công tắc"
+ ],
+ "仍": [
+  "NHƯNG",
+  "vẫn"
+ ],
+ "右上方": [
+  "HỮU THƯỢNG PHƯƠNG",
+  "phía trên bên phải"
+ ],
+ "边缘": [
+  "BIÊN DUYÊN",
+  "mép, cạnh"
+ ],
+ "向下": [
+  "HƯỚNG HẠ",
+  "xuống dưới"
+ ],
+ "轻扫": [
+  "KHINH TẢO",
+  "vuốt nhẹ"
+ ],
+ "重新排列": [
+  "TRÙNG TÂN BÀI LIỆT",
+  "sắp xếp lại"
+ ],
+ "任意": [
+  "NHẬM Ý",
+  "bất kỳ"
+ ],
+ "仍然": [
+  "NHƯNG NHIÊN",
+  "vẫn, vẫn còn"
+ ],
+ "出厂": [
+  "XUẤT XƯỞNG",
+  "xuất xưởng (出厂默认: mặc định của nhà sản xuất)"
+ ],
+ "查询": [
+  "TRA TUÂN",
+  "tra cứu"
+ ],
+ "物品": [
+  "VẬT PHẨM",
+  "đồ vật"
+ ],
+ "及其": [
+  "CẬP KỲ",
+  "và (cái) của nó"
+ ],
+ "合作方": [
+  "HỢP TÁC PHƯƠNG",
+  "đối tác"
+ ],
+ "搜索引擎": [
+  "SƯU SÁCH DẪN KÌNH",
+  "công cụ tìm kiếm"
+ ],
+ "关联": [
+  "QUAN LIÊN",
+  "liên kết, gắn với"
+ ],
+ "聚焦": [
+  "TỤ TIÊU",
+  "tập trung; (Apple) Spotlight"
+ ],
+ "通识": [
+  "THÔNG THỨC",
+  "kiến thức chung"
+ ],
+ "执行": [
+  "CHẤP HÀNH",
+  "thực hiện, chạy"
+ ],
+ "如": [
+  "NHƯ",
+  "như, ví dụ"
+ ],
+ "获取": [
+  "HOẠCH THỦ",
+  "lấy, nhận"
+ ],
+ "路线": [
+  "LỘ TUYẾN",
+  "đường đi, lộ trình"
+ ],
+ "透明": [
+  "THẤU MINH",
+  "trong suốt"
+ ],
+ "选取": [
+  "TUYỂN THỦ",
+  "chọn"
+ ],
+ "环境光": [
+  "HOÀN CẢNH QUANG",
+  "ánh sáng xung quanh"
+ ],
+ "色彩": [
+  "SẮC THÁI",
+  "màu sắc"
+ ],
+ "一致": [
+  "NHẤT TRÍ",
+  "nhất quán, giống nhau"
+ ],
+ "调暗": [
+  "ĐIỀU ÁM",
+  "làm tối, giảm độ sáng"
+ ],
+ "低耗电": [
+  "ĐÊ HAO ĐIỆN",
+  "tốn ít điện"
+ ],
+ "前提": [
+  "TIỀN ĐỀ",
+  "tiền đề, điều kiện"
+ ],
+ "可见": [
+  "KHẢ KIẾN",
+  "nhìn thấy được"
+ ],
+ "显示方式": [
+  "HIỂN THỊ PHƯƠNG THỨC",
+  "cách hiển thị"
+ ],
+ "更大": [
+  "CÁNH ĐẠI",
+  "lớn hơn"
+ ],
+ "项": [
+  "HẠNG",
+  "mục, hạng mục"
+ ],
+ "立体声": [
+  "LẬP THỂ THANH",
+  "âm thanh nổi (stereo)"
+ ],
+ "音量": [
+  "ÂM LƯỢNG",
+  "âm lượng"
+ ],
+ "键": [
+  "KIỆN",
+  "phím, nút"
+ ],
+ "指示器": [
+  "CHỈ THỊ KHÍ",
+  "chỉ báo, đèn báo"
+ ],
+ "审美": [
+  "THẨM MỸ",
+  "thẩm mỹ, gu"
+ ],
+ "场景": [
+  "TRƯỜNG CẢNH",
+  "cảnh, khung cảnh"
+ ],
+ "部分": [
+  "BỘ PHẬN",
+  "phần"
+ ],
+ "恰到好处": [
+  "KHÁP ĐÁO HẢO XỨ",
+  "vừa đúng mức, vừa phải"
+ ],
+ "猫": [
+  "MIÊU",
+  "mèo"
+ ],
+ "狗": [
+  "CẨU",
+  "chó"
+ ],
+ "处于": [
+  "XỬ VU",
+  "ở vào, nằm ở"
+ ],
+ "显著": [
+  "HIỂN TRỨ",
+  "nổi bật, rõ rệt"
+ ],
+ "则": [
+  "TẮC",
+  "thì (văn viết)"
+ ],
+ "景深": [
+  "CẢNH THÂM",
+  "độ sâu trường ảnh (xóa phông)"
+ ],
+ "以便": [
+  "DĨ TIỆN",
+  "để, nhằm"
+ ],
+ "稍后": [
+  "SẢO HẬU",
+  "lát nữa, sau đó"
+ ],
+ "应用": [
+  "ỨNG DỤNG",
+  "áp dụng; ứng dụng"
+ ],
+ "快门": [
+  "KHOÁI MÔN",
+  "màn trập, nút chụp"
+ ],
+ "图像": [
+  "ĐỒ TƯỢNG",
+  "hình ảnh"
+ ],
+ "超广角": [
+  "SIÊU QUẢNG GIÁC",
+  "góc siêu rộng"
+ ],
+ "扭曲": [
+  "NỮU KHÚC",
+  "méo, biến dạng"
+ ],
+ "清洁": [
+  "THANH KHIẾT",
+  "lau sạch, vệ sinh"
+ ],
+ "快速访问": [
+  "KHOÁI TỐC PHỎNG VẤN",
+  "mở nhanh, truy cập nhanh"
+ ],
+ "保存": [
+  "BẢO TỒN",
+  "lưu"
+ ],
+ "图库": [
+  "ĐỒ KHỐ",
+  "thư viện ảnh"
+ ],
+ "深度": [
+  "THÂM ĐỘ",
+  "sâu, chiều sâu"
+ ],
+ "集成": [
+  "TẬP THÀNH",
+  "tích hợp"
+ ],
+ "挂断": [
+  "QUẢI ĐOẠN",
+  "cúp máy"
+ ],
+ "发送信息": [
+  "PHÁT TỐNG TÍN TỨC",
+  "gửi tin nhắn"
+ ],
+ "语音输入": [
+  "NGỮ ÂM THÂU NHẬP",
+  "nhập bằng giọng nói"
+ ],
+ "发送给": [
+  "PHÁT TỐNG CẤP",
+  "gửi cho"
+ ],
+ "扩展": [
+  "KHUẾCH TRIỂN",
+  "mở rộng; tiện ích mở rộng"
+ ],
+ "聆听": [
+  "LINH THÍNH",
+  "lắng nghe"
+ ],
+ "专": [
+  "CHUYÊN",
+  "chuyên, riêng (专为: dành riêng cho)"
+ ],
+ "构建": [
+  "CẤU KIẾN",
+  "xây dựng"
+ ],
+ "闹钟": [
+  "NÁO CHUNG",
+  "báo thức"
+ ],
+ "计时器": [
+  "KẾ THỜI KHÍ",
+  "hẹn giờ, bộ đếm giờ"
+ ],
+ "状态栏": [
+  "TRẠNG THÁI LAN",
+  "thanh trạng thái"
+ ],
+ "短信铃声": [
+  "ĐOẢN TÍN LINH THANH",
+  "âm báo tin nhắn"
+ ],
+ "音符": [
+  "ÂM PHÙ",
+  "nốt nhạc (tên âm báo)"
+ ],
+ "水滴": [
+  "THỦY TÍCH",
+  "giọt nước (tên âm báo)"
+ ],
+ "新邮件": [
+  "TÂN BƯU KIỆN",
+  "thư mới"
+ ],
+ "嗖": [
+  "SƯU",
+  "vút (tiếng gió; tên âm báo)"
+ ],
+ "和弦": [
+  "HÒA HUYỀN",
+  "hợp âm (tên âm báo)"
+ ],
+ "反弹": [
+  "PHẢN ĐẠN",
+  "nảy lại (tên âm báo)"
+ ],
+ "系统控制": [
+  "HỆ THỐNG KHỐNG CHẾ",
+  "điều khiển hệ thống"
+ ],
+ "互动": [
+  "HỖ ĐỘNG",
+  "tương tác"
+ ],
+ "内建": [
+  "NỘI KIẾN",
+  "tích hợp sẵn (内建扬声器: loa trong)"
+ ],
+ "范围": [
+  "PHẠM VI",
+  "phạm vi, dải"
+ ],
+ "柔和": [
+  "NHU HÒA",
+  "êm dịu, nhẹ nhàng"
+ ],
+ "原始": [
+  "NGUYÊN THỦY",
+  "gốc, nguyên bản"
+ ],
+ "细节": [
+  "TẾ TIẾT",
+  "chi tiết"
+ ],
+ "许可": [
+  "HỨA KHẢ",
+  "sự cho phép"
+ ],
+ "他人": [
+  "THA NHÂN",
+  "người khác"
+ ],
+ "图表": [
+  "ĐỒ BIỂU",
+  "biểu đồ"
+ ],
+ "远离": [
+  "VIỄN LY",
+  "tránh xa"
+ ],
+ "疲劳": [
+  "BÌ LAO",
+  "mỏi, mệt mỏi"
+ ],
+ "通信安全": [
+  "THÔNG TÍN AN TOÀN",
+  "Liên lạc an toàn"
+ ],
+ "保障": [
+  "BẢO CHƯỚNG",
+  "bảo đảm, bảo vệ"
+ ],
+ "同步": [
+  "ĐỒNG BỘ",
+  "đồng bộ"
+ ],
+ "任一": [
+  "NHẬM NHẤT",
+  "bất kỳ một"
+ ],
+ "指定": [
+  "CHỈ ĐỊNH",
+  "chỉ định, chọn"
+ ],
+ "拨打": [
+  "BÁT ĐẢ",
+  "bấm số gọi"
+ ],
+ "发出": [
+  "PHÁT XUẤT",
+  "phát ra"
+ ],
+ "提示音": [
+  "ĐỀ THỊ ÂM",
+  "tiếng báo, tiếng bíp"
+ ],
+ "五次": [
+  "NGŨ THỨ",
+  "năm lần"
+ ],
+ "闪烁": [
+  "THIỂM THƯỚC",
+  "nhấp nháy"
+ ],
+ "医疗": [
+  "Y LIỆU",
+  "y tế (医疗急救卡: ID y tế)"
+ ],
+ "手机号码": [
+  "THỦ CƠ HIỆU MÃ",
+  "số điện thoại di động"
+ ],
+ "通行": [
+  "THÔNG HÀNH",
+  "đi qua (通行密钥: mã khóa truy cập, passkey)"
+ ],
+ "本地网络": [
+  "BẢN ĐỊA VÕNG LẠC",
+  "mạng cục bộ"
+ ],
+ "配对": [
+  "PHỐI ĐỐI",
+  "ghép đôi (thiết bị)"
+ ],
+ "传感器": [
+  "TRUYỀN CẢM KHÍ",
+  "cảm biến"
+ ],
+ "手记": [
+  "THỦ KÝ",
+  "ghi chép; (app) Nhật ký"
+ ],
+ "屏蔽": [
+  "BÌNH TẾ",
+  "chặn"
+ ],
+ "安全检查": [
+  "AN TOÀN KIỂM TRA",
+  "Kiểm tra an toàn"
+ ],
+ "留意": [
+  "LƯU Ý",
+  "để ý, chú ý"
+ ],
+ "有权": [
+  "HỮU QUYỀN",
+  "có quyền"
+ ],
+ "从而": [
+  "TÒNG NHI",
+  "nhờ đó, từ đó"
+ ],
+ "裸体照片": [
+  "LÕA THỂ CHIẾU PHIẾN",
+  "ảnh khỏa thân"
+ ],
+ "即": [
+  "TỨC",
+  "liền, ngay; tức là"
+ ],
+ "指导": [
+  "CHỈ ĐẠO",
+  "hướng dẫn"
+ ],
+ "作出": [
+  "TÁC XUẤT",
+  "đưa ra (quyết định, lựa chọn)"
+ ],
+ "透明度": [
+  "THẤU MINH ĐỘ",
+  "độ minh bạch"
+ ],
+ "日志": [
+  "NHẬT CHÍ",
+  "nhật ký, log"
+ ],
+ "有线": [
+  "HỮU TUYẾN",
+  "có dây"
+ ],
+ "默认设置": [
+  "MẶC NHẬN THIẾT TRÍ",
+  "cài đặt mặc định"
+ ],
+ "在线": [
+  "TẠI TUYẾN",
+  "trực tuyến"
+ ],
+ "免": [
+  "MIỄN",
+  "miễn, không cần (免接触: không chạm)"
+ ],
+ "接触式": [
+  "TIẾP XÚC THỨC",
+  "kiểu tiếp xúc (免接触式支付: thanh toán không chạm)"
+ ],
+ "支付": [
+  "CHI PHÓ",
+  "thanh toán"
+ ],
+ "无需": [
+  "VÔ NHU",
+  "không cần"
+ ],
+ "认证": [
+  "NHẬN CHỨNG",
+  "xác thực"
+ ],
+ "即可": [
+  "TỨC KHẢ",
+  "là có thể, là được"
+ ],
+ "读卡器": [
+  "ĐỘC CA KHÍ",
+  "đầu đọc thẻ"
+ ],
+ "已过期": [
+  "DĨ QUÁ KỲ",
+  "đã hết hạn"
+ ],
+ "凭证": [
+  "BẰNG CHỨNG",
+  "thẻ, vé, chứng từ (pass)"
+ ],
+ "个人资料": [
+  "CÁ NHÂN TƯ LIỆU",
+  "hồ sơ cá nhân"
+ ],
+ "玩家": [
+  "NGOẠN GIA",
+  "người chơi"
+ ],
+ "交友": [
+  "GIAO HỮU",
+  "kết bạn"
+ ],
+ "电话号码": [
+  "ĐIỆN THOẠI HIỆU MÃ",
+  "số điện thoại"
+ ],
+ "本人": [
+  "BẢN NHÂN",
+  "chính mình, bản thân"
+ ],
+ "成就": [
+  "THÀNH TỰU",
+  "thành tích"
+ ],
+ "方案": [
+  "PHƯƠNG ÁN",
+  "phương án, kế hoạch; gói (dịch vụ)"
+ ],
+ "邮件地址": [
+  "BƯU KIỆN ĐỊA CHỈ",
+  "địa chỉ email"
+ ],
+ "数据保护": [
+  "SỐ CỨ BẢO HỘ",
+  "bảo vệ dữ liệu"
+ ],
+ "遗失": [
+  "DI THẤT",
+  "đánh mất"
+ ],
+ "清除": [
+  "THANH TRỪ",
+  "xóa, dọn sạch"
+ ],
+ "受": [
+  "THỤ",
+  "chịu, được (受信任: được tin cậy)"
+ ],
+ "记录": [
+  "KÝ LỤC",
+  "bản ghi, ghi lại"
+ ],
+ "自动化": [
+  "TỰ ĐỘNG HÓA",
+  "tự động hóa"
+ ],
+ "卡顿": [
+  "CA ĐỐN",
+  "giật, lag"
+ ],
+ "调节器": [
+  "ĐIỀU TIẾT KHÍ",
+  "bộ điều chỉnh"
+ ],
+ "网络覆盖": [
+  "VÕNG LẠC PHÚ CÁI",
+  "ghi đè mạng (developer)"
+ ],
+ "测量": [
+  "TRẮC LƯỢNG",
+  "đo"
+ ],
+ "每分钟": [
+  "MỖI PHÂN CHUNG",
+  "mỗi phút"
+ ],
+ "往返": [
+  "VÃNG PHẢN",
+  "khứ hồi, đi về"
+ ],
+ "评估": [
+  "BÌNH CỔ",
+  "đánh giá"
+ ],
+ "开发": [
+  "KHAI PHÁT",
+  "phát triển (phần mềm)"
+ ],
+ "诊断": [
+  "CHẨN ĐOÁN",
+  "chẩn đoán"
+ ],
+ "生成": [
+  "SINH THÀNH",
+  "tạo ra"
+ ],
+ "管理器": [
+  "QUẢN LÝ KHÍ",
+  "trình quản lý"
+ ],
+ "开源": [
+  "KHAI NGUYÊN",
+  "mã nguồn mở"
+ ],
+ "定期": [
+  "ĐỊNH KỲ",
+  "định kỳ"
+ ],
+ "最新更新": [
+  "TỐI TÂN CANH TÂN",
+  "bản cập nhật mới nhất"
+ ],
+ "归因": [
+  "QUY NHÂN",
+  "quy kết, ghi nhận nguồn (attribution)"
+ ],
+ "回发": [
+  "HỒI PHÁT",
+  "gửi lại (postback)"
+ ],
+ "缩短": [
+  "SÚC ĐOẢN",
+  "rút ngắn"
+ ],
+ "周": [
+  "CHU",
+  "tuần"
+ ],
+ "吞吐量": [
+  "THÔN THỔ LƯỢNG",
+  "thông lượng"
+ ],
+ "运行": [
+  "VẬN HÀNH",
+  "chạy (chương trình)"
+ ],
+ "终止": [
+  "CHUNG CHỈ",
+  "dừng hẳn, kết thúc"
+ ],
+ "非": [
+  "PHI",
+  "không phải (而非: chứ không)"
+ ],
+ "强制": [
+  "CƯỠNG CHẾ",
+  "bắt buộc, ép"
+ ],
+ "前台": [
+  "TIỀN ĐÀI",
+  "chạy nổi, tiền cảnh (foreground)"
+ ],
+ "开启": [
+  "KHAI KHẢI",
+  "bật, mở"
+ ],
+ "缓存": [
+  "HOÃN TỒN",
+  "bộ nhớ đệm (cache)"
+ ],
+ "启动": [
+  "KHẢI ĐỘNG",
+  "khởi động"
+ ],
+ "元素": [
+  "NGUYÊN TỐ",
+  "phần tử, yếu tố"
+ ],
+ "索引": [
+  "SÁCH DẪN",
+  "chỉ mục"
+ ],
+ "含": [
+  "HÀM",
+  "bao gồm, chứa"
+ ],
+ "标识符": [
+  "TIÊU THỨC PHÙ",
+  "mã định danh (identifier)"
+ ],
+ "不受": [
+  "BẤT THỤ",
+  "không bị"
+ ],
+ "约束": [
+  "ƯỚC THÚC",
+  "ràng buộc, giới hạn"
+ ],
+ "调试": [
+  "ĐIỀU THÍ",
+  "gỡ lỗi (debug)"
+ ],
+ "表盘": [
+  "BIỂU BÀN",
+  "mặt đồng hồ"
+ ],
+ "临近": [
+  "LÂM CẬN",
+  "sắp tới, gần kề"
+ ],
+ "意图": [
+  "Ý ĐỒ",
+  "ý định (intent)"
+ ],
+ "手表": [
+  "THỦ BIỂU",
+  "đồng hồ đeo tay"
+ ],
+ "充电器": [
+  "SUNG ĐIỆN KHÍ",
+  "bộ sạc"
+ ],
+ "日程": [
+  "NHẬT TRÌNH",
+  "lịch trình"
+ ],
+ "未经": [
+  "VỊ KINH",
+  "chưa qua, chưa được"
+ ],
+ "批准": [
+  "PHÊ CHUẨN",
+  "phê duyệt"
+ ],
+ "绕过": [
+  "NHIỄU QUÁ",
+  "bỏ qua, vượt qua (bypass)"
+ ],
+ "真实性": [
+  "CHÂN THỰC TÍNH",
+  "tính xác thực"
+ ],
+ "预": [
+  "DỰ",
+  "trước (预发布: phát hành trước)"
+ ],
+ "图形": [
+  "ĐỒ HÌNH",
+  "đồ họa"
+ ],
+ "帧率": [
+  "TRINH SUẤT",
+  "tốc độ khung hình"
+ ],
+ "耗时": [
+  "HAO THỜI",
+  "tốn thời gian, thời gian xử lý"
+ ],
+ "内存": [
+  "NỘI TỒN",
+  "bộ nhớ (RAM)"
+ ],
+ "使用率": [
+  "SỬ DỤNG SUẤT",
+  "mức sử dụng"
+ ],
+ "心率": [
+  "TÂM SUẤT",
+  "nhịp tim"
+ ],
+ "额外": [
+  "NGẠCH NGOẠI",
+  "thêm, bổ sung"
+ ],
+ "车辆": [
+  "XA LƯỢNG",
+  "xe cộ"
+ ],
+ "前往": [
+  "TIỀN VÃNG",
+  "đi tới"
+ ],
+ "沙盒": [
+  "SA HẠP",
+  "sandbox (môi trường thử)"
+ ],
+ "提交": [
+  "ĐỀ GIAO",
+  "gửi, nộp"
+ ],
+ "得分": [
+  "ĐẮC PHÂN",
+  "điểm số"
+ ],
+ "覆盖": [
+  "PHÚ CÁI",
+  "ghi đè; phủ sóng"
+ ],
+ "体能训练": [
+  "THỂ NĂNG HUẤN LUYỆN",
+  "bài tập thể lực"
+ ],
+ "汇总": [
+  "HỐI TỔNG",
+  "tổng hợp"
+ ],
+ "无线": [
+  "VÔ TUYẾN",
+  "không dây"
+ ],
+ "分析测试": [
+  "PHÂN TÍCH TRẮC THÍ",
+  "kiểm thử phân tích"
+ ],
+ "模拟": [
+  "MÔ NGHĨ",
+  "mô phỏng"
  ]
 }

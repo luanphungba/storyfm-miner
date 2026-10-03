@@ -18,6 +18,8 @@
   </div>
   <div id="list"></div>
   <div id="podcasts"></div>
+  <h2 class="section" id="ui-heading" hidden>Giao diện app</h2>
+  <div id="ui-list"></div>
   <h2 class="section" id="bili-heading" hidden>Bilibili</h2>
   <div id="bili-list"></div>
 </div>
@@ -47,6 +49,10 @@
       heading.textContent = show;
       return [heading, ...items.map((episode) => toLink({ ...episode, owner: undefined }))];
     }));
+    // App interfaces read aloud: one heading for all of them, each naming its app.
+    const apps = episodes.filter((episode) => episode.source === 'ui');
+    document.getElementById('ui-heading').hidden = !apps.length;
+    document.getElementById('ui-list').replaceChildren(...apps.map(toLink));
     meta.textContent = `${stories.length} tập đã có transcript`;
     document.getElementById('bili-heading').hidden = !videos.length;
     document.getElementById('bili-list').replaceChildren(...videos.map(toLink));

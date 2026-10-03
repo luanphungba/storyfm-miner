@@ -26,6 +26,12 @@ export const paths = {
   bilibili: join(ROOT, 'data', 'bilibili.json'),
   /** The other podcasts added and a snapshot of each one's episodes — see src/podcasts.js. */
   podcasts: join(ROOT, 'data', 'podcasts.json'),
+  /** The app interfaces added as episodes — see src/ui.js. */
+  ui: join(ROOT, 'data', 'ui.json'),
+  /** One app interface as its device shows it, page by page, line by line — see src/ui.js. */
+  uiContent: (/** @type {string} */ id) => join(ROOT, 'data', 'ui', `${id}.json`),
+  /** Each piece of an interface episode as the voice read it, kept so a rebuild never pays twice. */
+  tts: join(ROOT, 'tools', '.cache', 'tts'),
   /** Audio hosted on the storyfm-audio Worker (Bilibili's, other podcasts'), kept out of git. */
   audio: (/** @type {string} */ id) => join(ROOT, 'data', 'audio', `${id}.m4a`),
   episode: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.json`),

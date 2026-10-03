@@ -9,6 +9,7 @@
 // with CSS rather than removing them.
 
 import { CONTEXT_LINES, markLine } from './card.js';
+import { newWords } from './chapterwords.js';
 import { meterListening } from './meter.js';
 import { initMiner } from './miner.js';
 import { call, savedConnection } from './server.js';
@@ -38,8 +39,8 @@ let cues = [];
 /** One .cue row per cue, in order. Not cueBox.children: chapter headings sit between the rows. */
 /** @type {HTMLElement[]} */
 let rows = [];
-/** @type {{ id: string, title: string }} */
-let episode = { id: '', title: '' };
+/** @type {{ id: string, title: string, source: string }} */
+let episode = { id: '', title: '', source: '' };
 
 /** Word spans and their glosses, both built offline — see tools/build_tokens.py and build_gloss.py.
  * They arrive after the transcript is already on screen: the page has to be readable without them,
@@ -78,7 +79,7 @@ async function load() {
 
   const data = await response.json();
   cues = data.cues;
-  episode = { id: data.id, title: data.title };
+  episode = { id: data.id, title: data.title, source: data.source ?? '' };
 
   document.title = data.title;
   $('title').textContent = data.title;
@@ -87,6 +88,7 @@ async function load() {
   audio.src = data.audio.m4a ?? data.audio.mp3;
   if (data.source === 'bilibili') showBilibili(data);
   if (data.source === 'podcast') showPodcast(data);
+  if (data.source === 'ui') showInterface(data);
   render();
   announce('cues', { lang: CUE_LANG, cues });
   applyDeepLink();
@@ -131,6 +133,14 @@ function showPodcast(/** @type {{ owner?: string, link?: string }} */ data) {
     notes.textContent = 'Show notes ↗';
     $('meta').append(' · ', notes);
   }
+  $('filter-all').hidden = true;
+  $('filter-storyteller').hidden = true;
+}
+
+/** An app's interface, read aloud: one voice, nobody to filter between, and the app it comes from
+ * named where a show's name would be. */
+function showInterface(/** @type {{ owner?: string }} */ data) {
+  $('meta').prepend(data.owner ? `${data.owner} · ` : '');
   $('filter-all').hidden = true;
   $('filter-storyteller').hidden = true;
 }
@@ -213,6 +223,7 @@ function decorate() {
     if (at < cue.text.length) parts.push(cue.text.slice(at));
     host.replaceChildren(...parts);
   });
+  showNewWords();
 }
 
 // ---------- Vietnamese translation ----------
@@ -331,6 +342,32 @@ async function loadChapters() {
   refreshLoopBar(); // a chapter already in the URL
   showStudied();
   loadStudied();
+  showNewWords();
+}
+
+/** An app's interface is learned a page at a time, so under each chapter's heading go the words that
+ * chapter brings in. A tap is a tap on the word where it is first heard: the same card, strokes and
+ * ＋ Anki included, with that line as the context. Waits for both the chapters and the word spans. */
+let newWordsShown = false;
+function showNewWords() {
+  if (episode.source !== 'ui' || !tokens || !chapters.length || newWordsShown) return;
+  newWordsShown = true;
+  newWords(cues.map((cue) => cue.text), tokens, chapters).forEach((words, n) => {
+    if (!words.length) return;
+    const box = document.createElement('div');
+    box.className = 'ch-words';
+    box.setAttribute('aria-label', 'Từ mới của chương');
+    for (const { word, line, band } of words) {
+      const chip = document.createElement('button');
+      chip.type = 'button';
+      // HSK 1-3 is the everyday core the reader already has; it stays listed but steps back.
+      chip.className = band && band <= 3 ? 'ch-word is-easy' : 'ch-word';
+      chip.textContent = word;
+      chip.dataset.line = String(line);
+      box.append(chip);
+    }
+    headings[n]?.after(box);
+  });
 }
 
 /** Puts chapter n in the loop bar and loops it from its start. */
@@ -672,6 +709,13 @@ audio.addEventListener('timeupdate', () => {
 
 cueBox.addEventListener('click', (event) => {
   const target = /** @type {HTMLElement} */ (event.target);
+  const chip = /** @type {HTMLElement | null} */ (target.closest('.ch-word'));
+  if (chip) {
+    const spans = rows[Number(chip.dataset.line)]?.querySelectorAll('.w') ?? [];
+    const span = /** @type {HTMLElement | undefined} */ ([...spans].find((w) => w.textContent === chip.textContent));
+    span?.click();
+    return;
+  }
   const heading = /** @type {HTMLElement | null} */ (target.closest('.chapter'));
   if (heading) {
     selectChapter(Number(heading.dataset.n));

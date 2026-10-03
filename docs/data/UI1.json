@@ -1,0 +1,7386 @@
+{
+  "id": "UI1",
+  "title": "设置 · iOS 26",
+  "guid": "UI1",
+  "pubDate": "2026-10-03",
+  "duration": 4895,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/UI1.m4a"
+  },
+  "source": "ui",
+  "owner": "iPhone",
+  "engine": "tts",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 0,
+      "end": 2.33,
+      "text": "Apple账户",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 1,
+      "s": 1,
+      "start": 4,
+      "end": 7.91,
+      "text": "联系人密钥验证",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 2,
+      "s": 2,
+      "start": 10.37,
+      "end": 11.91,
+      "text": "关闭",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 3,
+      "s": 3,
+      "start": 13.18,
+      "end": 15.54,
+      "text": "个人信息",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 4,
+      "s": 4,
+      "start": 17.21,
+      "end": 20.85,
+      "text": "登录与安全性",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 5,
+      "s": 5,
+      "start": 23.17,
+      "end": 26.17,
+      "text": "付款与配送",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 6,
+      "start": 28.17,
+      "end": 29.89,
+      "text": "订阅",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 7,
+      "start": 31.25,
+      "end": 33.7,
+      "text": "家人共享",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 8,
+      "start": 35.43,
+      "end": 37.15,
+      "text": "查找",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 9,
+      "start": 38.51,
+      "end": 42.28,
+      "text": "媒体与购买项目",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 10,
+      "start": 44.67,
+      "end": 47.83,
+      "text": "通过Apple登录",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 11,
+      "s": 11,
+      "start": 49.91,
+      "end": 52.26,
+      "text": "退出登录",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 12,
+      "start": 55.44,
+      "end": 57.89,
+      "text": "添加成员",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 13,
+      "s": 13,
+      "start": 59.61,
+      "end": 62.06,
+      "text": "家人共享",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 14,
+      "s": 14,
+      "start": 63.79,
+      "end": 65.51,
+      "text": "成人",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 15,
+      "s": 15,
+      "start": 66.87,
+      "end": 68.91,
+      "text": "组织者",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 16,
+      "start": 70.43,
+      "end": 77.07,
+      "text": "查看家庭成员可访问和共享的内容，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 16,
+      "start": 80.88,
+      "end": 87.86,
+      "text": "以及管理儿童账户设置和家长控制。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 17,
+      "start": 91.85,
+      "end": 94.37,
+      "text": "为家人推荐",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 18,
+      "start": 96.13,
+      "end": 97.85,
+      "text": "订阅",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 19,
+      "start": 99.21,
+      "end": 102.35,
+      "text": "购买项目共享",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 20,
+      "start": 104.42,
+      "end": 108.63,
+      "text": "设置购买项目共享",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 21,
+      "start": 111.24,
+      "end": 113.72,
+      "text": "位置共享",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 22,
+      "start": 115.46,
+      "end": 118.62,
+      "text": "未与家人共享",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 23,
+      "start": 120.7,
+      "end": 125.73,
+      "text": "Apple会使用你的Apple账户、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 23,
+      "start": 128.75,
+      "end": 132.71,
+      "text": "付款详细信息",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 23,
+      "start": 135.19,
+      "end": 140.75,
+      "text": "以及家人共享群组相关信息，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 23,
+      "start": 144.03,
+      "end": 149.43,
+      "text": "让你和家庭成员共享订阅内容、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 23,
+      "start": 152.63,
+      "end": 156.34,
+      "text": "购买项目和位置；",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 23,
+      "start": 158.69,
+      "end": 162.15,
+      "text": "创建儿童账户，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 23,
+      "start": 164.38,
+      "end": 168.34,
+      "text": "以及设置家长控制。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 23,
+      "start": 170.82,
+      "end": 174.46,
+      "text": "Apple可能会使用",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 23,
+      "start": 176.78,
+      "end": 181.86,
+      "text": "家人共享群组详细信息",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 23,
+      "start": 184.9,
+      "end": 188.7,
+      "text": "向你发送相关信息。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 24,
+      "start": 192.6,
+      "end": 195.12,
+      "text": "储存空间",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 25,
+      "start": 196.88,
+      "end": 198.42,
+      "text": "关闭",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 26,
+      "start": 199.69,
+      "end": 201.89,
+      "text": "下载 App",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 27,
+      "start": 203.49,
+      "end": 205.53,
+      "text": "为你推荐",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 28,
+      "start": 207.05,
+      "end": 210.06,
+      "text": "已存至 iCloud",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 29,
+      "start": 212.06,
+      "end": 214.67,
+      "text": "查看全部",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 30,
+      "start": 216.47,
+      "end": 218.19,
+      "text": "照片",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 31,
+      "start": 219.55,
+      "end": 221.41,
+      "text": "云盘",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 32,
+      "start": 222.84,
+      "end": 224.56,
+      "text": "照片",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 33,
+      "start": 225.92,
+      "end": 227.78,
+      "text": "云盘",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 34,
+      "start": 229.21,
+      "end": 231.21,
+      "text": "密码",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 35,
+      "start": 232.71,
+      "end": 234.59,
+      "text": "备忘录",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 36,
+      "start": 236.03,
+      "end": 237.91,
+      "text": "信息",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 37,
+      "start": 239.35,
+      "end": 240.91,
+      "text": "邮件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 38,
+      "start": 242.19,
+      "end": 244.07,
+      "text": "设置",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 39,
+      "start": 245.51,
+      "end": 249.47,
+      "text": "iCloud云备份",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 40,
+      "start": 251.95,
+      "end": 253.99,
+      "text": "1天前",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "s": 41,
+      "start": 255.51,
+      "end": 257.83,
+      "text": "此iPhone",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "s": 42,
+      "start": 259.49,
+      "end": 262.96,
+      "text": "iCloud+ 功能",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 43,
+      "start": 265.2,
+      "end": 267.24,
+      "text": "管理方案",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 44,
+      "start": 268.76,
+      "end": 270.48,
+      "text": "家庭",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 45,
+      "start": 271.84,
+      "end": 275.48,
+      "text": "Apple 活动邀请",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 46,
+      "start": 277.8,
+      "end": 280.14,
+      "text": "开始使用",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 47,
+      "start": 281.81,
+      "end": 284.17,
+      "text": "专用代理",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 48,
+      "start": 285.85,
+      "end": 289.01,
+      "text": "隐藏邮件地址",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "s": 49,
+      "start": 291.09,
+      "end": 294.07,
+      "text": "高级数据保护",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 50,
+      "start": 296.06,
+      "end": 301.14,
+      "text": "在网页上访问iCloud数据",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 51,
+      "start": 304.18,
+      "end": 313.9,
+      "text": "在iCloud.com和privacy.apple.com网页上",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 51,
+      "start": 319.26,
+      "end": 327.06,
+      "text": "访问邮件、通讯录、日历、照片、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 51,
+      "start": 331.46,
+      "end": 338.46,
+      "text": "备忘录、提醒事项、文件和文稿。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 52,
+      "start": 343.96,
+      "end": 345.49,
+      "text": "备份",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 53,
+      "start": 346.75,
+      "end": 350.71,
+      "text": "iCloud云备份",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 54,
+      "start": 353.19,
+      "end": 360.03,
+      "text": "自动备份iPhone，以便你在遗失设备",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 54,
+      "start": 363.95,
+      "end": 369.19,
+      "text": "或获得新设备时恢复数据。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 55,
+      "start": 372.31,
+      "end": 375.3,
+      "text": "备份此iPhone",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 56,
+      "start": 377.3,
+      "end": 381.26,
+      "text": "通过蜂窝网络备份",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 57,
+      "start": 383.74,
+      "end": 387.14,
+      "text": "未接入Wi-Fi时，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 57,
+      "start": 389.34,
+      "end": 396.02,
+      "text": "使用蜂窝网络自动备份至iCloud。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 57,
+      "start": 399.86,
+      "end": 402.7,
+      "text": "这可能会导致",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 57,
+      "start": 404.62,
+      "end": 410.49,
+      "text": "蜂窝数据套餐的使用超出限额。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 58,
+      "start": 413.93,
+      "end": 416.13,
+      "text": "立即备份",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 59,
+      "start": 417.73,
+      "end": 420.73,
+      "text": "所有设备备份",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "s": 60,
+      "start": 422.73,
+      "end": 425.09,
+      "text": "此 iPhone",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 77,
+      "s": 61,
+      "start": 426.77,
+      "end": 431.53,
+      "text": "设备在 iCloud 中备份后，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 61,
+      "start": 434.41,
+      "end": 437.73,
+      "text": "你可以使用该备份",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 79,
+      "s": 61,
+      "start": 439.89,
+      "end": 445.29,
+      "text": "来恢复信息或设置新设备。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 80,
+      "s": 62,
+      "start": 449.99,
+      "end": 451.54,
+      "text": "编辑",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 63,
+      "start": 452.82,
+      "end": 458.37,
+      "text": "接入Wi-Fi、查看可用网络，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 63,
+      "start": 461.64,
+      "end": 468.16,
+      "text": "并管理加入网络及附近热点设置。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 64,
+      "start": 471.92,
+      "end": 474.44,
+      "text": "进一步了解…",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 65,
+      "start": 476.2,
+      "end": 477.76,
+      "text": "网络",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "s": 66,
+      "start": 479.05,
+      "end": 480.77,
+      "text": "其他…",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 86,
+      "s": 67,
+      "start": 482.13,
+      "end": 486.09,
+      "text": "询问是否加入网络",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 87,
+      "s": 68,
+      "start": 488.57,
+      "end": 490.43,
+      "text": "通知",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 69,
+      "start": 491.87,
+      "end": 496.31,
+      "text": "将自动加入已知网络。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 89,
+      "s": 69,
+      "start": 499.03,
+      "end": 502.51,
+      "text": "如果没有已知网络，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 90,
+      "s": 69,
+      "start": 504.75,
+      "end": 508.64,
+      "text": "将通知你有可用网络。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 91,
+      "s": 70,
+      "start": 511.09,
+      "end": 514.25,
+      "text": "自动加入热点",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 92,
+      "s": 71,
+      "start": 516.33,
+      "end": 518.69,
+      "text": "询问加入",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "s": 72,
+      "start": 520.37,
+      "end": 527.53,
+      "text": "无可用Wi‑Fi网络时，允许此设备",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 94,
+      "s": 72,
+      "start": 531.61,
+      "end": 536.21,
+      "text": "自动查找附近的个人热点。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 95,
+      "s": 73,
+      "start": 540.51,
+      "end": 542.23,
+      "text": "蓝牙",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 96,
+      "s": 74,
+      "start": 543.59,
+      "end": 548.99,
+      "text": "连接可用于流播放音乐、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 97,
+      "s": 74,
+      "start": 552.19,
+      "end": 557.43,
+      "text": "打电话和玩游戏等活动的配件。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 98,
+      "s": 75,
+      "start": 560.55,
+      "end": 562.58,
+      "text": "我的设备",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 99,
+      "s": 76,
+      "start": 564.09,
+      "end": 566.13,
+      "text": "未连接",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 100,
+      "s": 77,
+      "start": 567.65,
+      "end": 570,
+      "text": "其他设备",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 101,
+      "s": 78,
+      "start": 573.17,
+      "end": 575.98,
+      "text": "蜂窝网络",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 102,
+      "s": 79,
+      "start": 577.89,
+      "end": 580.41,
+      "text": "蜂窝数据",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 103,
+      "s": 80,
+      "start": 582.17,
+      "end": 583.71,
+      "text": "关闭",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 104,
+      "s": 81,
+      "start": 584.98,
+      "end": 591.18,
+      "text": "关闭蜂窝数据，通过Wi-Fi使用",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 105,
+      "s": 81,
+      "start": 594.78,
+      "end": 599.86,
+      "text": "包括电子邮件、网页浏览",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 106,
+      "s": 81,
+      "start": 602.9,
+      "end": 608.3,
+      "text": "和推送通知在内的所有数据。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 107,
+      "s": 82,
+      "start": 611.5,
+      "end": 614.5,
+      "text": "默认语音号码",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 108,
+      "s": 83,
+      "start": 616.5,
+      "end": 618.06,
+      "text": "主号",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 109,
+      "s": 84,
+      "start": 619.34,
+      "end": 622.34,
+      "text": "默认语音号码",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 110,
+      "s": 85,
+      "start": 624.34,
+      "end": 625.9,
+      "text": "主号",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 111,
+      "s": 86,
+      "start": 627.18,
+      "end": 629.86,
+      "text": "SIM卡",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 112,
+      "s": 87,
+      "start": 631.7,
+      "end": 633.42,
+      "text": "打开",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 113,
+      "s": 88,
+      "start": 634.77,
+      "end": 636.65,
+      "text": "商务",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 114,
+      "s": 89,
+      "start": 638.09,
+      "end": 640.09,
+      "text": "无号码",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 115,
+      "s": 90,
+      "start": 641.59,
+      "end": 645.53,
+      "text": "添加eSIM",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 116,
+      "s": 91,
+      "start": 648,
+      "end": 650.77,
+      "text": "本期总用量",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 117,
+      "s": 92,
+      "start": 652.66,
+      "end": 655.66,
+      "text": "本期漫游用量",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 118,
+      "s": 93,
+      "start": 657.66,
+      "end": 660.29,
+      "text": "已卸载的App",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 119,
+      "s": 94,
+      "start": 662.1,
+      "end": 666.22,
+      "text": "Safari浏览器",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 120,
+      "s": 95,
+      "start": 668.78,
+      "end": 672.9,
+      "text": "Safari浏览器",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 121,
+      "s": 96,
+      "start": 675.46,
+      "end": 677.65,
+      "text": "个人热点",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 122,
+      "s": 97,
+      "start": 679.25,
+      "end": 681.77,
+      "text": "全部显示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 123,
+      "s": 98,
+      "start": 683.53,
+      "end": 685.84,
+      "text": "Wi-Fi助理",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 124,
+      "s": 99,
+      "start": 687.5,
+      "end": 689.81,
+      "text": "Wi-Fi助理",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 125,
+      "s": 100,
+      "start": 691.47,
+      "end": 698.79,
+      "text": "Wi-Fi连接信号弱时自动使用蜂窝数据。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 126,
+      "s": 101,
+      "start": 702.95,
+      "end": 706.43,
+      "text": "iCloud云盘",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 127,
+      "s": 102,
+      "start": 708.67,
+      "end": 712.14,
+      "text": "未连接Wi-Fi时，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 128,
+      "s": 102,
+      "start": 714.38,
+      "end": 720.42,
+      "text": "使用蜂窝网络传输文稿与数据。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 129,
+      "s": 103,
+      "start": 723.94,
+      "end": 727.9,
+      "text": "iCloud云备份",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 130,
+      "s": 104,
+      "start": 730.38,
+      "end": 733.78,
+      "text": "未接入Wi-Fi时，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 131,
+      "s": 104,
+      "start": 735.98,
+      "end": 742.66,
+      "text": "使用蜂窝网络自动备份至iCloud。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 132,
+      "s": 104,
+      "start": 746.5,
+      "end": 749.34,
+      "text": "这可能会导致",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 133,
+      "s": 104,
+      "start": 751.26,
+      "end": 757.13,
+      "text": "蜂窝数据套餐的使用超出限额。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 134,
+      "s": 105,
+      "start": 760.57,
+      "end": 763.25,
+      "text": "通话时长",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 135,
+      "s": 106,
+      "start": 765.09,
+      "end": 768.25,
+      "text": "本期通话时长",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 136,
+      "s": 107,
+      "start": 770.33,
+      "end": 773.65,
+      "text": "累计通话时长",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 137,
+      "s": 108,
+      "start": 775.81,
+      "end": 780.56,
+      "text": "蜂窝数据用量统计数据",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "s": 109,
+      "start": 783.44,
+      "end": 789,
+      "text": "停用蜂窝数据用量统计数据",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 109,
+      "start": 792.28,
+      "end": 798.18,
+      "text": "将停用所有蜂窝数据用量跟踪，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "s": 109,
+      "start": 801.64,
+      "end": 808.11,
+      "text": "并将任何当前跟踪的用量还原为零。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "s": 110,
+      "start": 811.85,
+      "end": 817.78,
+      "text": "启用蜂窝数据用量统计数据",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "s": 111,
+      "start": 821.25,
+      "end": 824.57,
+      "text": "还原统计数据",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 143,
+      "s": 112,
+      "start": 828.23,
+      "end": 830.11,
+      "text": "设置",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 144,
+      "s": 113,
+      "start": 831.55,
+      "end": 836.63,
+      "text": "Apple账户、iCloud+等",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 145,
+      "s": 114,
+      "start": 839.67,
+      "end": 842.13,
+      "text": "家人共享",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 146,
+      "s": 115,
+      "start": 843.85,
+      "end": 846.27,
+      "text": "飞行模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 147,
+      "s": 116,
+      "start": 847.98,
+      "end": 849.7,
+      "text": "蓝牙",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "s": 117,
+      "start": 851.07,
+      "end": 852.78,
+      "text": "打开",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 149,
+      "s": 118,
+      "start": 854.13,
+      "end": 856.95,
+      "text": "蜂窝网络",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 150,
+      "s": 119,
+      "start": 858.85,
+      "end": 860.4,
+      "text": "关闭",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 151,
+      "s": 120,
+      "start": 861.67,
+      "end": 863.86,
+      "text": "个人热点",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 152,
+      "s": 121,
+      "start": 865.45,
+      "end": 867.33,
+      "text": "电池",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 153,
+      "s": 122,
+      "start": 868.77,
+      "end": 870.79,
+      "text": "已连接",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 154,
+      "s": 123,
+      "start": 872.3,
+      "end": 873.86,
+      "text": "通用",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 155,
+      "s": 124,
+      "start": 875.14,
+      "end": 877.5,
+      "text": "辅助功能",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 156,
+      "s": 125,
+      "start": 879.18,
+      "end": 881.38,
+      "text": "操作按钮",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 157,
+      "s": 126,
+      "start": 882.98,
+      "end": 885.5,
+      "text": "待机显示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "s": 127,
+      "start": 887.26,
+      "end": 889.68,
+      "text": "控制中心",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 159,
+      "s": 128,
+      "start": 891.39,
+      "end": 893.43,
+      "text": "墙纸",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 160,
+      "s": 129,
+      "start": 894.95,
+      "end": 896.83,
+      "text": "搜索",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 161,
+      "s": 130,
+      "start": 898.27,
+      "end": 901.52,
+      "text": "显示与亮度",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 162,
+      "s": 131,
+      "start": 903.64,
+      "end": 905.52,
+      "text": "相机",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 163,
+      "s": 132,
+      "start": 906.96,
+      "end": 911.4,
+      "text": "主屏幕与App资源库",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 164,
+      "s": 133,
+      "start": 914.12,
+      "end": 917.6,
+      "text": "Apple智能与Siri",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 165,
+      "s": 134,
+      "start": 919.83,
+      "end": 921.7,
+      "text": "通知",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 166,
+      "s": 135,
+      "start": 923.14,
+      "end": 927.74,
+      "text": "声效与触感反馈",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 167,
+      "s": 136,
+      "start": 930.54,
+      "end": 932.95,
+      "text": "专注模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 168,
+      "s": 137,
+      "start": 934.65,
+      "end": 937.13,
+      "text": "屏幕时间",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 169,
+      "s": 138,
+      "start": 938.87,
+      "end": 942.5,
+      "text": "面容ID与密码",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "s": 139,
+      "start": 944.82,
+      "end": 949.1,
+      "text": "SOS紧急联络",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 171,
+      "s": 140,
+      "start": 951.74,
+      "end": 955.8,
+      "text": "隐私与安全性",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 172,
+      "s": 141,
+      "start": 958.33,
+      "end": 961.97,
+      "text": "钱包与Apple Pay",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 173,
+      "s": 142,
+      "start": 964.29,
+      "end": 966.33,
+      "text": "开发者",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 174,
+      "s": 143,
+      "start": 967.85,
+      "end": 969.57,
+      "text": "听写",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 175,
+      "s": 144,
+      "start": 972.43,
+      "end": 975.27,
+      "text": "VPN状态",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 176,
+      "s": 145,
+      "start": 977.19,
+      "end": 981.14,
+      "text": "设备VPN",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 177,
+      "s": 146,
+      "start": 983.62,
+      "end": 986.3,
+      "text": "个人VPN",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 178,
+      "s": 147,
+      "start": 988.14,
+      "end": 989.84,
+      "text": "状态",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 179,
+      "s": 148,
+      "start": 991.19,
+      "end": 994.82,
+      "text": "添加VPN配置…",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 180,
+      "s": 149,
+      "start": 997.14,
+      "end": 1002.68,
+      "text": "VPN可设置用于控制",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 181,
+      "s": 149,
+      "start": 1005.95,
+      "end": 1009.91,
+      "text": "某些网络流量的路由。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 182,
+      "s": 150,
+      "start": 1013.89,
+      "end": 1015.77,
+      "text": "电池",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 183,
+      "s": 151,
+      "start": 1017.21,
+      "end": 1020.03,
+      "text": "电池健康",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 184,
+      "s": 152,
+      "start": 1021.94,
+      "end": 1023.66,
+      "text": "正常",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 185,
+      "s": 153,
+      "start": 1025.02,
+      "end": 1027.99,
+      "text": "电池百分比",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 186,
+      "s": 154,
+      "start": 1029.98,
+      "end": 1031.7,
+      "text": "简介",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 187,
+      "s": 155,
+      "start": 1033.06,
+      "end": 1035.42,
+      "text": "正在充电",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 188,
+      "s": 156,
+      "start": 1037.1,
+      "end": 1039.94,
+      "text": "33分钟",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 189,
+      "s": 157,
+      "start": 1041.86,
+      "end": 1044.35,
+      "text": "每日用量",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 190,
+      "s": 158,
+      "start": 1046.1,
+      "end": 1047.82,
+      "text": "平均",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 191,
+      "s": 159,
+      "start": 1049.18,
+      "end": 1050.9,
+      "text": "今天",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 192,
+      "s": 160,
+      "start": 1052.26,
+      "end": 1054.14,
+      "text": "全天",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 193,
+      "s": 161,
+      "start": 1055.58,
+      "end": 1058.74,
+      "text": "App和系统活动",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 194,
+      "s": 162,
+      "start": 1060.82,
+      "end": 1064.94,
+      "text": "Safari浏览器",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 195,
+      "s": 163,
+      "start": 1067.5,
+      "end": 1071.94,
+      "text": "主屏幕与锁定屏幕",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 196,
+      "s": 164,
+      "start": 1074.66,
+      "end": 1078.55,
+      "text": "查看所有电池用量",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 197,
+      "s": 165,
+      "start": 1080.99,
+      "end": 1082.71,
+      "text": "充电",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 198,
+      "s": 166,
+      "start": 1084.07,
+      "end": 1086.52,
+      "text": "电量模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 199,
+      "s": 167,
+      "start": 1089.75,
+      "end": 1091.31,
+      "text": "通用",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 200,
+      "s": 168,
+      "start": 1092.59,
+      "end": 1098.77,
+      "text": "管理iPhone的整体设置和偏好设置，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 201,
+      "s": 168,
+      "start": 1102.37,
+      "end": 1108.24,
+      "text": "例如软件更新、设备语言、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 202,
+      "s": 168,
+      "start": 1111.68,
+      "end": 1119.28,
+      "text": "CarPlay车载、隔空投送等。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 203,
+      "s": 169,
+      "start": 1123.59,
+      "end": 1126.06,
+      "text": "关于本机",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 204,
+      "s": 170,
+      "start": 1127.8,
+      "end": 1130.44,
+      "text": "软件更新",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 205,
+      "s": 171,
+      "start": 1132.27,
+      "end": 1135.58,
+      "text": "iPhone 储存空间",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 206,
+      "s": 172,
+      "start": 1137.74,
+      "end": 1141.86,
+      "text": "AppleCare与保修",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 207,
+      "s": 173,
+      "start": 1144.42,
+      "end": 1146.94,
+      "text": "隔空投送",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 208,
+      "s": 174,
+      "start": 1148.7,
+      "end": 1153.13,
+      "text": "隔空播放与连续互通",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 209,
+      "s": 175,
+      "start": 1155.84,
+      "end": 1157.88,
+      "text": "画中画",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 210,
+      "s": 176,
+      "start": 1159.4,
+      "end": 1161.76,
+      "text": "屏幕捕捉",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 211,
+      "s": 177,
+      "start": 1163.44,
+      "end": 1167.24,
+      "text": "CarPlay车载",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 212,
+      "s": 178,
+      "start": 1169.64,
+      "end": 1171.36,
+      "text": "词典",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 213,
+      "s": 179,
+      "start": 1172.72,
+      "end": 1176.03,
+      "text": "后台App刷新",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 214,
+      "s": 180,
+      "start": 1178.19,
+      "end": 1180.07,
+      "text": "键盘",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 215,
+      "s": 181,
+      "start": 1181.51,
+      "end": 1184.51,
+      "text": "日期与时间",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 216,
+      "s": 182,
+      "start": 1186.51,
+      "end": 1189.83,
+      "text": "语言与地区",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 217,
+      "s": 183,
+      "start": 1191.99,
+      "end": 1193.55,
+      "text": "字体",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 218,
+      "s": 184,
+      "start": 1194.83,
+      "end": 1198.31,
+      "text": "自动填充与密码",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 219,
+      "s": 185,
+      "start": 1200.55,
+      "end": 1203.29,
+      "text": "电视提供商",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 220,
+      "s": 186,
+      "start": 1205.16,
+      "end": 1209.4,
+      "text": "VPN与设备管理",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 221,
+      "s": 187,
+      "start": 1212.01,
+      "end": 1214.84,
+      "text": "法律与监管",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 222,
+      "s": 188,
+      "start": 1216.75,
+      "end": 1220.71,
+      "text": "传输或还原iPhone",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 223,
+      "s": 189,
+      "start": 1223.19,
+      "end": 1225.06,
+      "text": "关机",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 224,
+      "s": 190,
+      "start": 1227.99,
+      "end": 1230.64,
+      "text": "软件更新",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 225,
+      "s": 191,
+      "start": 1232.46,
+      "end": 1234.96,
+      "text": "自动更新",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 226,
+      "s": 192,
+      "start": 1236.71,
+      "end": 1238.42,
+      "text": "打开",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 227,
+      "s": 193,
+      "start": 1239.78,
+      "end": 1243.24,
+      "text": "正在检查更新…",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 228,
+      "s": 194,
+      "start": 1246.98,
+      "end": 1249.33,
+      "text": "辅助功能",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 229,
+      "s": 195,
+      "start": 1251.01,
+      "end": 1257.68,
+      "text": "通过视力、肢体活动能力、听力、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 230,
+      "s": 195,
+      "start": 1261.52,
+      "end": 1266.57,
+      "text": "语音和认知方面的辅助功能，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 231,
+      "s": 195,
+      "start": 1269.59,
+      "end": 1276.07,
+      "text": "个性化iPhone使其更贴合你的需求。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 232,
+      "s": 196,
+      "start": 1279.81,
+      "end": 1281.81,
+      "text": "视觉",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 233,
+      "s": 197,
+      "start": 1283.32,
+      "end": 1285.04,
+      "text": "旁白",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 234,
+      "s": 198,
+      "start": 1286.4,
+      "end": 1287.94,
+      "text": "关闭",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 235,
+      "s": 199,
+      "start": 1289.21,
+      "end": 1290.93,
+      "text": "缩放",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 236,
+      "s": 200,
+      "start": 1292.29,
+      "end": 1294.81,
+      "text": "悬停文本",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 237,
+      "s": 201,
+      "start": 1296.57,
+      "end": 1299.09,
+      "text": "悬停文本",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 238,
+      "s": 202,
+      "start": 1300.85,
+      "end": 1302.4,
+      "text": "关闭",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 239,
+      "s": 203,
+      "start": 1303.67,
+      "end": 1307.63,
+      "text": "显示与文字大小",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 240,
+      "s": 204,
+      "start": 1310.11,
+      "end": 1312.57,
+      "text": "动态效果",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 241,
+      "s": 205,
+      "start": 1314.3,
+      "end": 1317.3,
+      "text": "阅读与朗读",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 242,
+      "s": 206,
+      "start": 1319.3,
+      "end": 1321.78,
+      "text": "口述影像",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 243,
+      "s": 207,
+      "start": 1323.52,
+      "end": 1326.04,
+      "text": "动作交互",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 244,
+      "s": 208,
+      "start": 1327.79,
+      "end": 1329.51,
+      "text": "触控",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 245,
+      "s": 209,
+      "start": 1330.87,
+      "end": 1334.76,
+      "text": "面容ID与注视",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 246,
+      "s": 210,
+      "start": 1337.2,
+      "end": 1339.69,
+      "text": "切换控制",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 247,
+      "s": 211,
+      "start": 1341.43,
+      "end": 1343.63,
+      "text": "语音控制",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 248,
+      "s": 212,
+      "start": 1345.23,
+      "end": 1347.85,
+      "text": "眼动跟踪",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 249,
+      "s": 213,
+      "start": 1349.66,
+      "end": 1352.08,
+      "text": "头部跟踪",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 250,
+      "s": 214,
+      "start": 1353.79,
+      "end": 1356.15,
+      "text": "侧边按钮",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 251,
+      "s": 215,
+      "start": 1357.83,
+      "end": 1360.8,
+      "text": "控制附近设备",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 252,
+      "s": 216,
+      "start": 1362.79,
+      "end": 1364.51,
+      "text": "听觉",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 253,
+      "s": 217,
+      "start": 1365.87,
+      "end": 1368.21,
+      "text": "助听设备",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 254,
+      "s": 218,
+      "start": 1369.88,
+      "end": 1373.2,
+      "text": "听觉控制中心",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 255,
+      "s": 219,
+      "start": 1375.36,
+      "end": 1378.04,
+      "text": "声音识别",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 256,
+      "s": 220,
+      "start": 1379.88,
+      "end": 1382.88,
+      "text": "音频与视觉",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 257,
+      "s": 221,
+      "start": 1384.87,
+      "end": 1389.15,
+      "text": "字幕与隐藏式字幕",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 258,
+      "s": 222,
+      "start": 1391.79,
+      "end": 1394.47,
+      "text": "实时字幕",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 259,
+      "s": 223,
+      "start": 1396.31,
+      "end": 1400.41,
+      "text": "音乐触感反馈",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 260,
+      "s": 224,
+      "start": 1402.96,
+      "end": 1404.66,
+      "text": "语音",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 261,
+      "s": 225,
+      "start": 1406.01,
+      "end": 1408.69,
+      "text": "实时语音",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 262,
+      "s": 226,
+      "start": 1410.53,
+      "end": 1412.73,
+      "text": "个人声音",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 263,
+      "s": 227,
+      "start": 1414.32,
+      "end": 1417.64,
+      "text": "人声快捷指令",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 264,
+      "s": 228,
+      "start": 1419.8,
+      "end": 1421.36,
+      "text": "配件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 265,
+      "s": 229,
+      "start": 1422.64,
+      "end": 1425.8,
+      "text": "键盘与键入",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 266,
+      "s": 230,
+      "start": 1427.88,
+      "end": 1431.52,
+      "text": "Apple TV遥控器",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 267,
+      "s": 231,
+      "start": 1433.84,
+      "end": 1435.4,
+      "text": "通用",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 268,
+      "s": 232,
+      "start": 1436.68,
+      "end": 1439.52,
+      "text": "引导式访问",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 269,
+      "s": 233,
+      "start": 1441.44,
+      "end": 1443.97,
+      "text": "辅助访问",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 270,
+      "s": 234,
+      "start": 1445.73,
+      "end": 1449.37,
+      "text": "辅助功能快捷键",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 271,
+      "s": 235,
+      "start": 1451.69,
+      "end": 1455.49,
+      "text": "按App启用设置",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 272,
+      "s": 236,
+      "start": 1457.89,
+      "end": 1461.98,
+      "text": "共享辅助功能设置",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 273,
+      "s": 237,
+      "start": 1466.03,
+      "end": 1468.71,
+      "text": "静音模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 274,
+      "s": 238,
+      "start": 1470.55,
+      "end": 1477.5,
+      "text": "为通话和提醒切换静音和响铃。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 275,
+      "s": 239,
+      "start": 1482.97,
+      "end": 1484.85,
+      "text": "相机",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 276,
+      "s": 240,
+      "start": 1486.29,
+      "end": 1488.79,
+      "text": "录制视频",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 277,
+      "s": 241,
+      "start": 1490.53,
+      "end": 1493.85,
+      "text": "录制慢动作视频",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 278,
+      "s": 242,
+      "start": 1496.01,
+      "end": 1499.81,
+      "text": "录制电影效果视频",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 279,
+      "s": 243,
+      "start": 1502.21,
+      "end": 1503.61,
+      "text": "录音",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 280,
+      "s": 244,
+      "start": 1504.81,
+      "end": 1506.83,
+      "text": "立体声",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 281,
+      "s": 245,
+      "start": 1508.34,
+      "end": 1510.06,
+      "text": "格式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 282,
+      "s": 246,
+      "start": 1511.42,
+      "end": 1513.78,
+      "text": "保留设置",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 283,
+      "s": 247,
+      "start": 1515.46,
+      "end": 1520.06,
+      "text": "使用调高音量键连拍",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 284,
+      "s": 248,
+      "start": 1522.86,
+      "end": 1525.7,
+      "text": "扫描二维码",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 285,
+      "s": 249,
+      "start": 1527.62,
+      "end": 1531.26,
+      "text": "显示检测到的文本",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 286,
+      "s": 250,
+      "start": 1533.58,
+      "end": 1535.43,
+      "text": "构图",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 287,
+      "s": 251,
+      "start": 1536.86,
+      "end": 1538.74,
+      "text": "网格",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 288,
+      "s": 252,
+      "start": 1540.18,
+      "end": 1542.22,
+      "text": "水平",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 289,
+      "s": 253,
+      "start": 1543.74,
+      "end": 1547.52,
+      "text": "镜像前置镜头",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 290,
+      "s": 254,
+      "start": 1549.91,
+      "end": 1554.66,
+      "text": "查看超取景框取景",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 291,
+      "s": 255,
+      "start": 1557.53,
+      "end": 1559.57,
+      "text": "指示器",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 292,
+      "s": 256,
+      "start": 1561.09,
+      "end": 1563.61,
+      "text": "照片拍摄",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 293,
+      "s": 257,
+      "start": 1565.37,
+      "end": 1567.82,
+      "text": "摄影风格",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 294,
+      "s": 258,
+      "start": 1569.55,
+      "end": 1575.38,
+      "text": "将你的个人审美带进摄影作品，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 295,
+      "s": 258,
+      "start": 1578.8,
+      "end": 1582.9,
+      "text": "使照片更加个性化。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 296,
+      "s": 258,
+      "start": 1585.46,
+      "end": 1592.14,
+      "text": "“摄影风格”使用先进的场景理解技术",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 297,
+      "s": 258,
+      "start": 1595.98,
+      "end": 1602.63,
+      "text": "对照片各部分进行恰到好处的调整。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 298,
+      "s": 259,
+      "start": 1606.46,
+      "end": 1608.82,
+      "text": "主相机",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 299,
+      "s": 260,
+      "start": 1610.5,
+      "end": 1613.97,
+      "text": "照片模式下的人像",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 300,
+      "s": 261,
+      "start": 1616.2,
+      "end": 1623.52,
+      "text": "照片模式下，若人物、猫狗",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 301,
+      "s": 261,
+      "start": 1627.68,
+      "end": 1632.54,
+      "text": "在取景框处于显著位置，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 302,
+      "s": 261,
+      "start": 1635.47,
+      "end": 1639.91,
+      "text": "则自动捕捉景深信息，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 303,
+      "s": 261,
+      "start": 1642.63,
+      "end": 1647.51,
+      "text": "以便你稍后应用“人像”效果。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 304,
+      "s": 262,
+      "start": 1650.45,
+      "end": 1653.86,
+      "text": "优先快速拍摄",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 305,
+      "s": 263,
+      "start": 1656.06,
+      "end": 1663.53,
+      "text": "快速按下快门时，智能调整图像质量。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 306,
+      "s": 264,
+      "start": 1667.77,
+      "end": 1670.13,
+      "text": "镜头校正",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 307,
+      "s": 265,
+      "start": 1671.82,
+      "end": 1679.4,
+      "text": "校正前置和超广角相机的镜头扭曲。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 308,
+      "s": 266,
+      "start": 1683.7,
+      "end": 1686.19,
+      "text": "微距控制",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 309,
+      "s": 267,
+      "start": 1687.94,
+      "end": 1694.61,
+      "text": "显示自动切换超广角相机的控制，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 310,
+      "s": 267,
+      "start": 1698.44,
+      "end": 1702.88,
+      "text": "拍摄微距照片和视频。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 311,
+      "s": 268,
+      "start": 1705.6,
+      "end": 1709.24,
+      "text": "镜头清洁提示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 312,
+      "s": 269,
+      "start": 1711.56,
+      "end": 1716.32,
+      "text": "在相机镜头需要清洁",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 313,
+      "s": 269,
+      "start": 1719.2,
+      "end": 1725.1,
+      "text": "以提升图像质量时，显示建议。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 314,
+      "s": 270,
+      "start": 1728.55,
+      "end": 1734.59,
+      "text": "轻扫锁定屏幕打开相机",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 315,
+      "s": 271,
+      "start": 1738.11,
+      "end": 1743.19,
+      "text": "在锁定屏幕上向左轻扫",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 316,
+      "s": 271,
+      "start": 1746.23,
+      "end": 1749.39,
+      "text": "快速访问“相机”。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 317,
+      "s": 272,
+      "start": 1751.47,
+      "end": 1753.35,
+      "text": "信息",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 318,
+      "s": 273,
+      "start": 1754.79,
+      "end": 1760.33,
+      "text": "将拍摄内容保存到照片图库",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 319,
+      "s": 274,
+      "start": 1763.6,
+      "end": 1768.04,
+      "text": "自动将“信息”中相机的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 320,
+      "s": 274,
+      "start": 1770.76,
+      "end": 1776,
+      "text": "拍摄内容保存到照片图库。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 321,
+      "s": 275,
+      "start": 1780.62,
+      "end": 1783.42,
+      "text": "BETA版",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 322,
+      "s": 276,
+      "start": 1785.33,
+      "end": 1788.8,
+      "text": "Apple智能与Siri",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 323,
+      "s": 277,
+      "start": 1791.03,
+      "end": 1800.44,
+      "text": "深度集成至iPhone、App和Siri的个人智能系统。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 324,
+      "s": 278,
+      "start": 1805.64,
+      "end": 1808.78,
+      "text": "Siri请求",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 325,
+      "s": 279,
+      "start": 1810.86,
+      "end": 1812.55,
+      "text": "语言",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 326,
+      "s": 280,
+      "start": 1813.9,
+      "end": 1817.35,
+      "text": "英语（美国）",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 327,
+      "s": 281,
+      "start": 1819.58,
+      "end": 1823.7,
+      "text": "通过说话使用Siri",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 328,
+      "s": 282,
+      "start": 1826.26,
+      "end": 1831.78,
+      "text": "锁定时允许使用Siri",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 329,
+      "s": 283,
+      "start": 1835.04,
+      "end": 1836.92,
+      "text": "声音",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 330,
+      "s": 284,
+      "start": 1838.36,
+      "end": 1841.31,
+      "text": "Siri回应",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 331,
+      "s": 285,
+      "start": 1843.29,
+      "end": 1846.11,
+      "text": "通话挂断",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 332,
+      "s": 286,
+      "start": 1848.02,
+      "end": 1849.56,
+      "text": "关闭",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 333,
+      "s": 287,
+      "start": 1850.83,
+      "end": 1853.03,
+      "text": "播报来电",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 334,
+      "s": 288,
+      "start": 1854.63,
+      "end": 1857.04,
+      "text": "播报通知",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 335,
+      "s": 289,
+      "start": 1858.75,
+      "end": 1863.18,
+      "text": "通过Siri发送信息",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 336,
+      "s": 290,
+      "start": 1865.9,
+      "end": 1870.79,
+      "text": "Siri与听写历史记录",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 337,
+      "s": 291,
+      "start": 1873.74,
+      "end": 1876.03,
+      "text": "我的信息",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 338,
+      "s": 292,
+      "start": 1877.67,
+      "end": 1878.99,
+      "text": "无",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 339,
+      "s": 293,
+      "start": 1880.15,
+      "end": 1885.35,
+      "text": "语音输入会在iPhone上处理，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 340,
+      "s": 293,
+      "start": 1888.45,
+      "end": 1894.79,
+      "text": "但请求的听写文本可能会发送给Apple。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 341,
+      "s": 294,
+      "start": 1898.47,
+      "end": 1900.13,
+      "text": "扩展",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 342,
+      "s": 295,
+      "start": 1901.47,
+      "end": 1907.91,
+      "text": "扩展Apple智能需要先启用Apple智能。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 343,
+      "s": 296,
+      "start": 1911.64,
+      "end": 1913.36,
+      "text": "建议",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 344,
+      "s": 297,
+      "start": 1914.72,
+      "end": 1918.04,
+      "text": "搜索前建议App",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 345,
+      "s": 298,
+      "start": 1920.2,
+      "end": 1924.32,
+      "text": "还原已隐藏的建议",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 346,
+      "s": 299,
+      "start": 1926.88,
+      "end": 1929.31,
+      "text": "允许通知",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 347,
+      "s": 300,
+      "start": 1931.02,
+      "end": 1935.46,
+      "text": "在App资源库中显示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 348,
+      "s": 301,
+      "start": 1938.18,
+      "end": 1941.18,
+      "text": "共享时显示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 349,
+      "s": 302,
+      "start": 1943.18,
+      "end": 1946.97,
+      "text": "显示聆听建议",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 350,
+      "s": 303,
+      "start": 1949.36,
+      "end": 1957,
+      "text": "Apple可在“搜索”、主屏幕和锁定屏幕中，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 351,
+      "s": 303,
+      "start": 1961.31,
+      "end": 1964.15,
+      "text": "在你共享内容",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 352,
+      "s": 303,
+      "start": 1966.07,
+      "end": 1970.63,
+      "text": "或可能想要聆听媒体时，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 353,
+      "s": 303,
+      "start": 1973.41,
+      "end": 1976.25,
+      "text": "为你提供建议。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 354,
+      "s": 304,
+      "start": 1978.17,
+      "end": 1983.06,
+      "text": "Apple智能和Siri的App访问",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 355,
+      "s": 305,
+      "start": 1986.01,
+      "end": 1988.05,
+      "text": "轻App",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 356,
+      "s": 306,
+      "start": 1989.57,
+      "end": 1995.38,
+      "text": "Apple智能专为隐私而构建。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 357,
+      "s": 306,
+      "start": 1998.79,
+      "end": 2003.55,
+      "text": "你的数据不会与Apple共享。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 358,
+      "s": 307,
+      "start": 2007.93,
+      "end": 2009.81,
+      "text": "搜索",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 359,
+      "s": 308,
+      "start": 2011.25,
+      "end": 2014.25,
+      "text": "显示最近搜索",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 360,
+      "s": 309,
+      "start": 2016.25,
+      "end": 2019.41,
+      "text": "显示相关内容",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 361,
+      "s": 310,
+      "start": 2021.49,
+      "end": 2028.81,
+      "text": "搜索或查询照片中的文字或物品时，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 362,
+      "s": 310,
+      "start": 2032.97,
+      "end": 2037.57,
+      "text": "允许显示来自Apple",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 363,
+      "s": 310,
+      "start": 2040.37,
+      "end": 2044.33,
+      "text": "及其他合作方的内容。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 364,
+      "s": 311,
+      "start": 2046.81,
+      "end": 2049.65,
+      "text": "搜索引擎",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 365,
+      "s": 312,
+      "start": 2051.57,
+      "end": 2055.96,
+      "text": "帮助Apple改进搜索",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 366,
+      "s": 313,
+      "start": 2058.65,
+      "end": 2064.4,
+      "text": "允许Apple以不与你关联的方式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 367,
+      "s": 313,
+      "start": 2067.77,
+      "end": 2072.99,
+      "text": "储存你输入Safari浏览器、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 368,
+      "s": 313,
+      "start": 2076.1,
+      "end": 2081.02,
+      "text": "Siri和“聚焦”的搜索内容，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 369,
+      "s": 313,
+      "start": 2083.98,
+      "end": 2087.14,
+      "text": "帮助改进搜索。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 370,
+      "s": 314,
+      "start": 2089.22,
+      "end": 2094.14,
+      "text": "搜索包括通识查询",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 371,
+      "s": 314,
+      "start": 2097.1,
+      "end": 2101.22,
+      "text": "和执行操作的请求，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 372,
+      "s": 314,
+      "start": 2103.78,
+      "end": 2109.02,
+      "text": "如播放音乐和获取路线。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 373,
+      "s": 315,
+      "start": 2112.14,
+      "end": 2114.18,
+      "text": "轻App",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 374,
+      "s": 316,
+      "start": 2117.2,
+      "end": 2119.62,
+      "text": "控制中心",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 375,
+      "s": 317,
+      "start": 2121.33,
+      "end": 2124.65,
+      "text": "自定义控制中心",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 376,
+      "s": 318,
+      "start": 2126.81,
+      "end": 2131.08,
+      "text": "从屏幕右上方边缘",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 377,
+      "s": 318,
+      "start": 2133.71,
+      "end": 2139.27,
+      "text": "向下轻扫打开控制中心。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 378,
+      "s": 318,
+      "start": 2142.55,
+      "end": 2147.29,
+      "text": "还可添加、重新排列",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 379,
+      "s": 318,
+      "start": 2150.16,
+      "end": 2154.56,
+      "text": "和调整任意控制的大小。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 380,
+      "s": 319,
+      "start": 2157.25,
+      "end": 2160.08,
+      "text": "App内访问",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 381,
+      "s": 320,
+      "start": 2161.99,
+      "end": 2167.8,
+      "text": "允许在App内访问控制中心。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 382,
+      "s": 320,
+      "start": 2171.2,
+      "end": 2175.61,
+      "text": "停用后，你仍然可以",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 383,
+      "s": 320,
+      "start": 2178.31,
+      "end": 2183.06,
+      "text": "从主屏幕访问控制中心。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 384,
+      "s": 321,
+      "start": 2185.94,
+      "end": 2189.1,
+      "text": "还原控制中心",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 385,
+      "s": 322,
+      "start": 2191.18,
+      "end": 2194.33,
+      "text": "这会将控制中心",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 386,
+      "s": 322,
+      "start": 2196.41,
+      "end": 2200.8,
+      "text": "还原为出厂默认布局。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 387,
+      "s": 323,
+      "start": 2204.99,
+      "end": 2208.24,
+      "text": "显示与亮度",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 388,
+      "s": 324,
+      "start": 2210.36,
+      "end": 2212.08,
+      "text": "外观",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 389,
+      "s": 325,
+      "start": 2213.43,
+      "end": 2215.47,
+      "text": "浅色",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 390,
+      "s": 326,
+      "start": 2216.99,
+      "end": 2218.87,
+      "text": "深色",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 391,
+      "s": 327,
+      "start": 2220.31,
+      "end": 2221.71,
+      "text": "自动",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 392,
+      "s": 328,
+      "start": 2222.91,
+      "end": 2224.63,
+      "text": "透明",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 393,
+      "s": 329,
+      "start": 2225.99,
+      "end": 2231.55,
+      "text": "选取喜欢的Liquid Glass外观。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 394,
+      "s": 330,
+      "start": 2234.83,
+      "end": 2237.25,
+      "text": "文字大小",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 395,
+      "s": 331,
+      "start": 2238.96,
+      "end": 2241.48,
+      "text": "粗体文本",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 396,
+      "s": 332,
+      "start": 2243.24,
+      "end": 2244.8,
+      "text": "亮度",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 397,
+      "s": 333,
+      "start": 2246.08,
+      "end": 2248.44,
+      "text": "屏幕亮度",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 398,
+      "s": 334,
+      "start": 2250.12,
+      "end": 2252.8,
+      "text": "原彩显示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 399,
+      "s": 335,
+      "start": 2254.64,
+      "end": 2261.48,
+      "text": "根据环境光条件自动调整iPhone屏幕",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 400,
+      "s": 335,
+      "start": 2265.4,
+      "end": 2271.76,
+      "text": "以在不同环境下保持色彩显示一致。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 401,
+      "s": 336,
+      "start": 2275.44,
+      "end": 2277.16,
+      "text": "夜览",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 402,
+      "s": 337,
+      "start": 2278.52,
+      "end": 2280.06,
+      "text": "关闭",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 403,
+      "s": 338,
+      "start": 2281.34,
+      "end": 2283.54,
+      "text": "自动锁定",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 404,
+      "s": 339,
+      "start": 2285.14,
+      "end": 2287,
+      "text": "1分钟",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 405,
+      "s": 340,
+      "start": 2288.44,
+      "end": 2291.12,
+      "text": "抬起唤醒",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 406,
+      "s": 341,
+      "start": 2292.95,
+      "end": 2295.96,
+      "text": "全天候显示屏",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 407,
+      "s": 342,
+      "start": 2297.96,
+      "end": 2304,
+      "text": "全天候显示屏会调暗锁定屏幕，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 408,
+      "s": 342,
+      "start": 2307.52,
+      "end": 2313.4,
+      "text": "但仍会在尽可能低耗电的前提下，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 409,
+      "s": 342,
+      "start": 2316.84,
+      "end": 2324,
+      "text": "保持时间、小组件和通知等信息可见。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 410,
+      "s": 343,
+      "start": 2328.08,
+      "end": 2329.96,
+      "text": "显示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 411,
+      "s": 344,
+      "start": 2331.4,
+      "end": 2335.82,
+      "text": "选取iPhone的显示方式。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 412,
+      "s": 344,
+      "start": 2338.53,
+      "end": 2345.01,
+      "text": "“更大字体”会显示更大的控制项。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 413,
+      "s": 344,
+      "start": 2348.76,
+      "end": 2353.04,
+      "text": "“默认”会显示更多的内容。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 414,
+      "s": 345,
+      "start": 2355.68,
+      "end": 2359.32,
+      "text": "缩放显示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 415,
+      "s": 346,
+      "start": 2361.64,
+      "end": 2363.2,
+      "text": "默认",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 416,
+      "s": 347,
+      "start": 2365.98,
+      "end": 2370.42,
+      "text": "主屏幕与App资源库",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 417,
+      "s": 348,
+      "start": 2373.14,
+      "end": 2375.98,
+      "text": "新下载的App",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 418,
+      "s": 349,
+      "start": 2377.9,
+      "end": 2380.9,
+      "text": "添加到主屏幕",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 419,
+      "s": 350,
+      "start": 2382.9,
+      "end": 2386.66,
+      "text": "仅App资源库",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 420,
+      "s": 351,
+      "start": 2389.04,
+      "end": 2391.88,
+      "text": "通知标记",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 421,
+      "s": 352,
+      "start": 2393.8,
+      "end": 2398.24,
+      "text": "在App资源库中显示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 422,
+      "s": 353,
+      "start": 2400.96,
+      "end": 2402.84,
+      "text": "搜索",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 423,
+      "s": 354,
+      "start": 2404.28,
+      "end": 2407.6,
+      "text": "在主屏幕上显示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 424,
+      "s": 355,
+      "start": 2411.26,
+      "end": 2413.79,
+      "text": "待机显示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 425,
+      "s": 356,
+      "start": 2415.55,
+      "end": 2420.93,
+      "text": "iPhone充电并横向放置时",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 426,
+      "s": 356,
+      "start": 2424.12,
+      "end": 2428.08,
+      "text": "将打开待机显示，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 427,
+      "s": 356,
+      "start": 2430.56,
+      "end": 2438.32,
+      "text": "以显示小组件、照片或时钟等信息。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 428,
+      "s": 357,
+      "start": 2442.7,
+      "end": 2444.74,
+      "text": "显示屏",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 429,
+      "s": 358,
+      "start": 2446.26,
+      "end": 2448.13,
+      "text": "通知",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 430,
+      "s": 359,
+      "start": 2449.56,
+      "end": 2452.08,
+      "text": "显示通知",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 431,
+      "s": 360,
+      "start": 2453.84,
+      "end": 2456.84,
+      "text": "若关闭此开关，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 432,
+      "s": 360,
+      "start": 2458.84,
+      "end": 2465.84,
+      "text": "重要通知仍将在待机显示中显示。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 433,
+      "s": 361,
+      "start": 2469.84,
+      "end": 2474.6,
+      "text": "仅轻点时显示预览",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 434,
+      "s": 362,
+      "start": 2477.48,
+      "end": 2482.87,
+      "text": "待机显示可在你轻点前",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 435,
+      "s": 362,
+      "start": 2486.06,
+      "end": 2489.25,
+      "text": "隐藏通知预览。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 436,
+      "s": 363,
+      "start": 2492.84,
+      "end": 2494.88,
+      "text": "墙纸",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 437,
+      "s": 364,
+      "start": 2496.4,
+      "end": 2498.12,
+      "text": "当前",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 438,
+      "s": 365,
+      "start": 2499.48,
+      "end": 2503.76,
+      "text": "锁定屏幕墙纸",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 439,
+      "s": 366,
+      "start": 2506.4,
+      "end": 2509.24,
+      "text": "主屏幕墙纸",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 440,
+      "s": 367,
+      "start": 2511.16,
+      "end": 2514.16,
+      "text": "添加新墙纸",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 441,
+      "s": 368,
+      "start": 2516.16,
+      "end": 2517.88,
+      "text": "添加",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 442,
+      "s": 369,
+      "start": 2519.24,
+      "end": 2521.28,
+      "text": "自定义",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 443,
+      "s": 370,
+      "start": 2522.8,
+      "end": 2527.55,
+      "text": "从锁定屏幕更改墙纸",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 444,
+      "s": 371,
+      "start": 2530.42,
+      "end": 2533.39,
+      "text": "按住锁定屏幕",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 445,
+      "s": 371,
+      "start": 2535.38,
+      "end": 2541.22,
+      "text": "添加、编辑墙纸和小组件，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 446,
+      "s": 371,
+      "start": 2544.64,
+      "end": 2550.78,
+      "text": "或在不同墙纸和小组件之间切换。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 447,
+      "s": 372,
+      "start": 2555.86,
+      "end": 2557.72,
+      "text": "通知",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 448,
+      "s": 373,
+      "start": 2559.16,
+      "end": 2561.02,
+      "text": "数量",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 449,
+      "s": 374,
+      "start": 2562.45,
+      "end": 2564.15,
+      "text": "叠放",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 450,
+      "s": 375,
+      "start": 2565.49,
+      "end": 2567.04,
+      "text": "列表",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 451,
+      "s": 376,
+      "start": 2568.31,
+      "end": 2573.07,
+      "text": "选取通知的默认显示方式。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 452,
+      "s": 377,
+      "start": 2575.95,
+      "end": 2579.24,
+      "text": "定时推送摘要",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 453,
+      "s": 378,
+      "start": 2581.39,
+      "end": 2582.62,
+      "text": "关",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 454,
+      "s": 379,
+      "start": 2583.73,
+      "end": 2586.26,
+      "text": "显示预览",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 455,
+      "s": 380,
+      "start": 2588.02,
+      "end": 2590.22,
+      "text": "解锁时",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 456,
+      "s": 381,
+      "start": 2591.82,
+      "end": 2594.3,
+      "text": "屏幕共享",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 457,
+      "s": 382,
+      "start": 2596.05,
+      "end": 2598.53,
+      "text": "关闭通知",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 458,
+      "s": 383,
+      "start": 2600.28,
+      "end": 2602.69,
+      "text": "播报通知",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 459,
+      "s": 384,
+      "start": 2604.4,
+      "end": 2605.8,
+      "text": "开",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 460,
+      "s": 385,
+      "start": 2607,
+      "end": 2609.51,
+      "text": "Siri建议",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 461,
+      "s": 386,
+      "start": 2611.27,
+      "end": 2613.95,
+      "text": "通知样式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 462,
+      "s": 387,
+      "start": 2617.29,
+      "end": 2621.89,
+      "text": "声效与触感反馈",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 463,
+      "s": 388,
+      "start": 2624.69,
+      "end": 2627.37,
+      "text": "静音模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 464,
+      "s": 389,
+      "start": 2629.21,
+      "end": 2637.81,
+      "text": "iPhone将不会播放铃声、提醒和系统声音。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 465,
+      "s": 389,
+      "start": 2642.61,
+      "end": 2648.33,
+      "text": "iPhone仍将播放闹钟、计时器、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 466,
+      "s": 389,
+      "start": 2651.69,
+      "end": 2656.1,
+      "text": "音乐和视频音频。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 467,
+      "s": 390,
+      "start": 2658.8,
+      "end": 2662.02,
+      "text": "在状态栏显示",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 468,
+      "s": 391,
+      "start": 2664.13,
+      "end": 2665.98,
+      "text": "输入",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 469,
+      "s": 392,
+      "start": 2667.41,
+      "end": 2670.71,
+      "text": "iPhone麦克风",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 470,
+      "s": 393,
+      "start": 2672.87,
+      "end": 2675.87,
+      "text": "铃声和提醒",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 471,
+      "s": 394,
+      "start": 2677.87,
+      "end": 2679.59,
+      "text": "音量",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 472,
+      "s": 395,
+      "start": 2680.95,
+      "end": 2683.77,
+      "text": "用按钮调整",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 473,
+      "s": 396,
+      "start": 2685.68,
+      "end": 2688.19,
+      "text": "触感反馈",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 474,
+      "s": 397,
+      "start": 2689.94,
+      "end": 2692.43,
+      "text": "始终提供",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 475,
+      "s": 398,
+      "start": 2694.18,
+      "end": 2698.46,
+      "text": "音量按钮不会影响",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 476,
+      "s": 398,
+      "start": 2701.1,
+      "end": 2705.22,
+      "text": "铃声和提醒的音量。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 477,
+      "s": 399,
+      "start": 2707.78,
+      "end": 2710.1,
+      "text": "电话铃声",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 478,
+      "s": 400,
+      "start": 2711.76,
+      "end": 2714.39,
+      "text": "短信铃声",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 479,
+      "s": 401,
+      "start": 2716.21,
+      "end": 2718.08,
+      "text": "音符",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 480,
+      "s": 402,
+      "start": 2719.52,
+      "end": 2723.16,
+      "text": "收到新语音留言",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 481,
+      "s": 403,
+      "start": 2725.48,
+      "end": 2727.49,
+      "text": "水滴",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 482,
+      "s": 404,
+      "start": 2728.99,
+      "end": 2731.83,
+      "text": "收到新邮件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 483,
+      "s": 405,
+      "start": 2733.75,
+      "end": 2735.07,
+      "text": "无",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 484,
+      "s": 406,
+      "start": 2736.23,
+      "end": 2738.59,
+      "text": "发送邮件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 485,
+      "s": 407,
+      "start": 2740.27,
+      "end": 2741.65,
+      "text": "嗖",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 486,
+      "s": 408,
+      "start": 2742.84,
+      "end": 2745.2,
+      "text": "发送邮件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 487,
+      "s": 409,
+      "start": 2746.88,
+      "end": 2748.27,
+      "text": "嗖",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 488,
+      "s": 410,
+      "start": 2749.46,
+      "end": 2751.98,
+      "text": "日历提醒",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 489,
+      "s": 411,
+      "start": 2753.74,
+      "end": 2755.62,
+      "text": "和弦",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 490,
+      "s": 412,
+      "start": 2757.06,
+      "end": 2760.21,
+      "text": "提醒事项的提醒",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 491,
+      "s": 413,
+      "start": 2762.29,
+      "end": 2764.72,
+      "text": "默认提醒",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 492,
+      "s": 414,
+      "start": 2766.44,
+      "end": 2768.32,
+      "text": "反弹",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 493,
+      "s": 415,
+      "start": 2769.76,
+      "end": 2772.6,
+      "text": "键盘反馈",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 494,
+      "s": 416,
+      "start": 2774.52,
+      "end": 2777.2,
+      "text": "声效反馈",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 495,
+      "s": 417,
+      "start": 2779.04,
+      "end": 2781.24,
+      "text": "锁定声",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 496,
+      "s": 418,
+      "start": 2782.84,
+      "end": 2786.64,
+      "text": "系统触感反馈",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 497,
+      "s": 419,
+      "start": 2789.04,
+      "end": 2795.85,
+      "text": "为系统控制和互动提供触感反馈。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 498,
+      "s": 420,
+      "start": 2799.76,
+      "end": 2802.73,
+      "text": "内建扬声器",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 499,
+      "s": 421,
+      "start": 2804.72,
+      "end": 2807.23,
+      "text": "音量限制",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 500,
+      "s": 422,
+      "start": 2808.98,
+      "end": 2811.62,
+      "text": "降低高音量",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 501,
+      "s": 423,
+      "start": 2813.44,
+      "end": 2817.24,
+      "text": "降低音频音量范围",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 502,
+      "s": 423,
+      "start": 2819.64,
+      "end": 2823.92,
+      "text": "并创建更柔和的声效，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 503,
+      "s": 423,
+      "start": 2826.56,
+      "end": 2834.04,
+      "text": "同时保留歌曲、电影及其他媒体中",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 504,
+      "s": 423,
+      "start": 2838.28,
+      "end": 2842.56,
+      "text": "原始音频的安静细节。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 505,
+      "s": 424,
+      "start": 2845.2,
+      "end": 2847.08,
+      "text": "耳机",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 506,
+      "s": 425,
+      "start": 2848.52,
+      "end": 2851.02,
+      "text": "耳机安全",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 507,
+      "s": 426,
+      "start": 2852.76,
+      "end": 2856.22,
+      "text": "个性化空间音频",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 508,
+      "s": 427,
+      "start": 2859.94,
+      "end": 2861.66,
+      "text": "添加",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 509,
+      "s": 428,
+      "start": 2863.02,
+      "end": 2865.43,
+      "text": "专注模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 510,
+      "s": 429,
+      "start": 2867.14,
+      "end": 2869.62,
+      "text": "勿扰模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 511,
+      "s": 430,
+      "start": 2871.36,
+      "end": 2873.88,
+      "text": "减少干扰",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 512,
+      "s": 431,
+      "start": 2875.64,
+      "end": 2877.51,
+      "text": "睡眠",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 513,
+      "s": 432,
+      "start": 2878.95,
+      "end": 2880.48,
+      "text": "个人",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 514,
+      "s": 433,
+      "start": 2881.74,
+      "end": 2883.62,
+      "text": "设置",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 515,
+      "s": 434,
+      "start": 2885.06,
+      "end": 2886.78,
+      "text": "工作",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 516,
+      "s": 435,
+      "start": 2888.14,
+      "end": 2893.68,
+      "text": "专注模式可让你自定义设备",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 517,
+      "s": 435,
+      "start": 2896.95,
+      "end": 2901.32,
+      "text": "并静音来电和通知。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 518,
+      "s": 435,
+      "start": 2904.01,
+      "end": 2910.85,
+      "text": "请在控制中心打开或关闭此功能。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 519,
+      "s": 436,
+      "start": 2914.77,
+      "end": 2918.09,
+      "text": "在设备之间共享",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 520,
+      "s": 437,
+      "start": 2920.25,
+      "end": 2925.81,
+      "text": "专注模式已在你的设备间共享。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 521,
+      "s": 437,
+      "start": 2929.09,
+      "end": 2934.33,
+      "text": "在此设备上打开一个专注模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 522,
+      "s": 437,
+      "start": 2937.45,
+      "end": 2943.45,
+      "text": "将同时在所有设备上将其打开。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 523,
+      "s": 438,
+      "start": 2946.95,
+      "end": 2949.95,
+      "text": "专注模式状态",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 524,
+      "s": 439,
+      "start": 2951.95,
+      "end": 2953.67,
+      "text": "打开",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 525,
+      "s": 440,
+      "start": 2955.02,
+      "end": 2958.18,
+      "text": "若获得你的许可，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 526,
+      "s": 440,
+      "start": 2960.26,
+      "end": 2966.1,
+      "text": "App可在你使用专注模式时，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 527,
+      "s": 440,
+      "start": 2969.51,
+      "end": 2975.36,
+      "text": "与他人共享你已静音通知。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 528,
+      "s": 441,
+      "start": 2980.29,
+      "end": 2982.76,
+      "text": "屏幕时间",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 529,
+      "s": 442,
+      "start": 2984.5,
+      "end": 2987.82,
+      "text": "每周用量图表",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 530,
+      "s": 443,
+      "start": 2989.98,
+      "end": 2994.9,
+      "text": "查看所有App与网站活动",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 531,
+      "s": 444,
+      "start": 2997.86,
+      "end": 3000.52,
+      "text": "使用限制",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 532,
+      "s": 445,
+      "start": 3002.34,
+      "end": 3004.84,
+      "text": "停用时间",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 533,
+      "s": 446,
+      "start": 3006.58,
+      "end": 3010.94,
+      "text": "设定时间远离屏幕",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 534,
+      "s": 447,
+      "start": 3013.62,
+      "end": 3016.12,
+      "text": "App限额",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 535,
+      "s": 448,
+      "start": 3017.87,
+      "end": 3022.3,
+      "text": "为App设置时间限额",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 536,
+      "s": 449,
+      "start": 3025.02,
+      "end": 3027.67,
+      "text": "始终允许",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 537,
+      "s": 450,
+      "start": 3029.5,
+      "end": 3033.46,
+      "text": "选取始终允许的App",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 538,
+      "s": 451,
+      "start": 3035.94,
+      "end": 3038.4,
+      "text": "屏幕距离",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 539,
+      "s": 452,
+      "start": 3040.12,
+      "end": 3043.28,
+      "text": "缓解视力疲劳",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 540,
+      "s": 453,
+      "start": 3045.36,
+      "end": 3047.08,
+      "text": "通信",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 541,
+      "s": 454,
+      "start": 3048.44,
+      "end": 3051.27,
+      "text": "限定通信",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 542,
+      "s": 455,
+      "start": 3053.19,
+      "end": 3057.79,
+      "text": "设定通话和信息限制",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 543,
+      "s": 456,
+      "start": 3060.59,
+      "end": 3063.11,
+      "text": "通信安全",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 544,
+      "s": 457,
+      "start": 3064.87,
+      "end": 3067.83,
+      "text": "远离敏感内容",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 545,
+      "s": 458,
+      "start": 3069.81,
+      "end": 3071.69,
+      "text": "限制",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 546,
+      "s": 459,
+      "start": 3073.13,
+      "end": 3077.07,
+      "text": "内容与隐私限制",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 547,
+      "s": 460,
+      "start": 3079.55,
+      "end": 3084.75,
+      "text": "管理内容、App和设置",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 548,
+      "s": 461,
+      "start": 3087.86,
+      "end": 3091.64,
+      "text": "锁定屏幕时间设置",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 549,
+      "s": 462,
+      "start": 3094.03,
+      "end": 3099.75,
+      "text": "使用密码保障“屏幕时间”设置。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 550,
+      "s": 463,
+      "start": 3103.11,
+      "end": 3106.43,
+      "text": "在设备之间共享",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 551,
+      "s": 464,
+      "start": 3108.59,
+      "end": 3114.94,
+      "text": "你可以在任何已登录iCloud的设备上",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 552,
+      "s": 464,
+      "start": 3118.61,
+      "end": 3125.27,
+      "text": "启用此功能，同步“屏幕时间”设置。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 553,
+      "s": 465,
+      "start": 3129.1,
+      "end": 3133.36,
+      "text": "关闭App与网站活动",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 554,
+      "s": 466,
+      "start": 3135.99,
+      "end": 3140.25,
+      "text": "关闭“App与网站活动”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 555,
+      "s": 466,
+      "start": 3142.88,
+      "end": 3148.76,
+      "text": "会停用实时报告、停用时间、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 556,
+      "s": 466,
+      "start": 3152.2,
+      "end": 3156.8,
+      "text": "App限额和“始终允许”。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 557,
+      "s": 467,
+      "start": 3161.1,
+      "end": 3165.38,
+      "text": "SOS紧急联络",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 558,
+      "s": 468,
+      "start": 3168.02,
+      "end": 3173.58,
+      "text": "按住侧边按钮和任一音量按钮",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 559,
+      "s": 468,
+      "start": 3176.86,
+      "end": 3180.02,
+      "text": "进行紧急呼叫。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 560,
+      "s": 468,
+      "start": 3182.1,
+      "end": 3184.75,
+      "text": "在某些地区，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 561,
+      "s": 468,
+      "start": 3186.57,
+      "end": 3192.77,
+      "text": "你可能需要指定要拨打的紧急服务。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 562,
+      "s": 468,
+      "start": 3196.37,
+      "end": 3202.21,
+      "text": "“自动呼叫”需要SIM卡。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 563,
+      "s": 469,
+      "start": 3205.63,
+      "end": 3210.22,
+      "text": "按住再松开进行呼叫",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 564,
+      "s": 470,
+      "start": 3213.01,
+      "end": 3217.29,
+      "text": "若持续按住侧边按钮",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 565,
+      "s": 470,
+      "start": 3219.93,
+      "end": 3223.25,
+      "text": "和任一音量按钮，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 566,
+      "s": 470,
+      "start": 3225.41,
+      "end": 3231.77,
+      "text": "会开始倒计时并发出提示音。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 567,
+      "s": 470,
+      "start": 3235.44,
+      "end": 3241.4,
+      "text": "倒计时结束后，若松开按钮，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 568,
+      "s": 470,
+      "start": 3244.87,
+      "end": 3249.47,
+      "text": "iPhone将呼叫紧急服务。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 569,
+      "s": 471,
+      "start": 3252.27,
+      "end": 3255.74,
+      "text": "按5次按钮呼叫",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 570,
+      "s": 472,
+      "start": 3257.98,
+      "end": 3263.06,
+      "text": "若快速按下侧边按钮五次，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 571,
+      "s": 472,
+      "start": 3266.1,
+      "end": 3272.46,
+      "text": "会开始倒计时并发出提示音。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 572,
+      "s": 472,
+      "start": 3276.13,
+      "end": 3283.45,
+      "text": "倒计时结束后，iPhone将呼叫紧急服务。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 573,
+      "s": 473,
+      "start": 3287.61,
+      "end": 3290.13,
+      "text": "隐式呼叫",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 574,
+      "s": 474,
+      "start": 3291.89,
+      "end": 3299.05,
+      "text": "使用“按住再松开”或“按5次按钮”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 575,
+      "s": 474,
+      "start": 3303.13,
+      "end": 3306.61,
+      "text": "进行紧急呼叫时，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 576,
+      "s": 474,
+      "start": 3308.85,
+      "end": 3316.49,
+      "text": "警示音、闪烁和旁白音频将静音。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 577,
+      "s": 475,
+      "start": 3320.81,
+      "end": 3326.37,
+      "text": "在“健康”中设置紧急联系人",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 578,
+      "s": 476,
+      "start": 3329.65,
+      "end": 3332.33,
+      "text": "车祸检测",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 579,
+      "s": 477,
+      "start": 3334.17,
+      "end": 3338.45,
+      "text": "发生严重车祸后呼叫",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 580,
+      "s": 478,
+      "start": 3341.09,
+      "end": 3345.37,
+      "text": "你可以在“医疗急救卡”中",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 581,
+      "s": 478,
+      "start": 3348.01,
+      "end": 3355.64,
+      "text": "添加或删除“SOS紧急联络”联系人。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 582,
+      "s": 478,
+      "start": 3359.95,
+      "end": 3367.4,
+      "text": "仅手机号码可接收SOS紧急联络提醒。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 583,
+      "s": 479,
+      "start": 3371.62,
+      "end": 3377.59,
+      "text": "关于SOS紧急联络与隐私",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 584,
+      "s": 480,
+      "start": 3382.58,
+      "end": 3386.63,
+      "text": "隐私与安全性",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 585,
+      "s": 481,
+      "start": 3389.16,
+      "end": 3395,
+      "text": "控制哪些App可访问你的数据、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 586,
+      "s": 481,
+      "start": 3398.41,
+      "end": 3403.64,
+      "text": "位置、相机和麦克风，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 587,
+      "s": 481,
+      "start": 3406.75,
+      "end": 3410.87,
+      "text": "以及管理安全保护。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 588,
+      "s": 482,
+      "start": 3413.43,
+      "end": 3415.92,
+      "text": "定位服务",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 589,
+      "s": 483,
+      "start": 3417.66,
+      "end": 3419.22,
+      "text": "跟踪",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 590,
+      "s": 484,
+      "start": 3420.5,
+      "end": 3422.06,
+      "text": "日历",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 591,
+      "s": 485,
+      "start": 3423.34,
+      "end": 3425.38,
+      "text": "通讯录",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 592,
+      "s": 486,
+      "start": 3426.9,
+      "end": 3430.53,
+      "text": "文件与文件夹",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 593,
+      "s": 487,
+      "start": 3432.84,
+      "end": 3435.25,
+      "text": "专注模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 594,
+      "s": 488,
+      "start": 3436.96,
+      "end": 3438.97,
+      "text": "1个App",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 595,
+      "s": 489,
+      "start": 3440.47,
+      "end": 3442.19,
+      "text": "健康",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 596,
+      "s": 490,
+      "start": 3443.55,
+      "end": 3444.87,
+      "text": "无",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 597,
+      "s": 491,
+      "start": 3446.03,
+      "end": 3447.75,
+      "text": "家庭",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 598,
+      "s": 492,
+      "start": 3449.11,
+      "end": 3453,
+      "text": "媒体与Apple Music",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 599,
+      "s": 493,
+      "start": 3455.45,
+      "end": 3460.51,
+      "text": "访问网页浏览器的通行密钥",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 600,
+      "s": 494,
+      "start": 3463.54,
+      "end": 3465.26,
+      "text": "照片",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 601,
+      "s": 495,
+      "start": 3466.62,
+      "end": 3468.98,
+      "text": "提醒事项",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 602,
+      "s": 496,
+      "start": 3470.66,
+      "end": 3472.38,
+      "text": "钱包",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 603,
+      "s": 497,
+      "start": 3473.74,
+      "end": 3475.3,
+      "text": "配件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 604,
+      "s": 498,
+      "start": 3476.58,
+      "end": 3478.3,
+      "text": "蓝牙",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 605,
+      "s": 499,
+      "start": 3479.66,
+      "end": 3481.54,
+      "text": "相机",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 606,
+      "s": 500,
+      "start": 3482.98,
+      "end": 3485.34,
+      "text": "重要信息",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 607,
+      "s": 501,
+      "start": 3487.02,
+      "end": 3489.38,
+      "text": "本地网络",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 608,
+      "s": 502,
+      "start": 3491.06,
+      "end": 3492.94,
+      "text": "麦克风",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 609,
+      "s": 503,
+      "start": 3494.38,
+      "end": 3497.52,
+      "text": "运动与健身",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 610,
+      "s": 504,
+      "start": 3499.59,
+      "end": 3502.11,
+      "text": "附近交互",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 611,
+      "s": 505,
+      "start": 3503.87,
+      "end": 3506.21,
+      "text": "配对设备",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 612,
+      "s": 506,
+      "start": 3507.88,
+      "end": 3512.77,
+      "text": "研究传感器与使用数据",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 613,
+      "s": 507,
+      "start": 3515.71,
+      "end": 3518.51,
+      "text": "语音识别",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 614,
+      "s": 508,
+      "start": 3520.41,
+      "end": 3523.01,
+      "text": "手记建议",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 615,
+      "s": 509,
+      "start": 3524.82,
+      "end": 3527.63,
+      "text": "屏蔽的联系人",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 616,
+      "s": 510,
+      "start": 3529.54,
+      "end": 3532.22,
+      "text": "安全检查",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 617,
+      "s": 511,
+      "start": 3534.06,
+      "end": 3538.82,
+      "text": "留意哪些人、App和设备",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 618,
+      "s": 511,
+      "start": 3541.7,
+      "end": 3545.75,
+      "text": "有权访问你的信息，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 619,
+      "s": 511,
+      "start": 3548.28,
+      "end": 3551.92,
+      "text": "从而保护个人安全。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 620,
+      "s": 512,
+      "start": 3554.24,
+      "end": 3557.23,
+      "text": "敏感内容警告",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 621,
+      "s": 513,
+      "start": 3559.23,
+      "end": 3560.77,
+      "text": "关闭",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 622,
+      "s": 514,
+      "start": 3562.05,
+      "end": 3568.57,
+      "text": "在iPhone上查看裸体照片和视频之前",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 623,
+      "s": 514,
+      "start": 3572.33,
+      "end": 3575.81,
+      "text": "即进行检测，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 624,
+      "s": 514,
+      "start": 3578.05,
+      "end": 3584.57,
+      "text": "并接收指导协助作出安全选择。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 625,
+      "s": 514,
+      "start": 3588.33,
+      "end": 3594.37,
+      "text": "Apple不可访问这些照片或视频。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 626,
+      "s": 515,
+      "start": 3597.89,
+      "end": 3600.84,
+      "text": "分析与改进",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 627,
+      "s": 516,
+      "start": 3602.81,
+      "end": 3605.01,
+      "text": "Apple广告",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 628,
+      "s": 517,
+      "start": 3606.61,
+      "end": 3609.35,
+      "text": "透明度日志",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 629,
+      "s": 518,
+      "start": 3611.22,
+      "end": 3614.38,
+      "text": "App隐私报告",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 630,
+      "s": 519,
+      "start": 3616.46,
+      "end": 3618.48,
+      "text": "安全性",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 631,
+      "s": 520,
+      "start": 3619.99,
+      "end": 3622.83,
+      "text": "开发者模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 632,
+      "s": 521,
+      "start": 3624.75,
+      "end": 3626.46,
+      "text": "打开",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 633,
+      "s": 522,
+      "start": 3627.81,
+      "end": 3630.22,
+      "text": "有线配件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 634,
+      "s": 523,
+      "start": 3631.92,
+      "end": 3635.88,
+      "text": "解锁后自动允许",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 635,
+      "s": 524,
+      "start": 3638.36,
+      "end": 3641.68,
+      "text": "后台安全改进",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 636,
+      "s": 525,
+      "start": 3643.84,
+      "end": 3647,
+      "text": "失窃设备保护",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 637,
+      "s": 526,
+      "start": 3649.08,
+      "end": 3651.76,
+      "text": "锁定模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 638,
+      "s": 527,
+      "start": 3655.1,
+      "end": 3658.74,
+      "text": "钱包与Apple Pay",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 639,
+      "s": 528,
+      "start": 3661.06,
+      "end": 3665.98,
+      "text": "允许钱包与Apple Pay访问",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 640,
+      "s": 529,
+      "start": 3668.93,
+      "end": 3672.41,
+      "text": "Apple智能与Siri",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 641,
+      "s": 530,
+      "start": 3674.64,
+      "end": 3676.52,
+      "text": "搜索",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 642,
+      "s": 531,
+      "start": 3677.96,
+      "end": 3679.83,
+      "text": "通知",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 643,
+      "s": 532,
+      "start": 3681.27,
+      "end": 3683.77,
+      "text": "实时活动",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 644,
+      "s": 533,
+      "start": 3685.53,
+      "end": 3689.17,
+      "text": "Apple Pay默认设置",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 645,
+      "s": 534,
+      "start": 3691.49,
+      "end": 3697.18,
+      "text": "卡片、地址、偏好设置",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 646,
+      "s": 535,
+      "start": 3700.53,
+      "end": 3702.57,
+      "text": "付款卡",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 647,
+      "s": 536,
+      "start": 3704.09,
+      "end": 3706.45,
+      "text": "添加卡片",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 648,
+      "s": 537,
+      "start": 3708.13,
+      "end": 3713.15,
+      "text": "通过iPhone在线上、App中",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 649,
+      "s": 537,
+      "start": 3716.16,
+      "end": 3722.36,
+      "text": "和任何支持免接触式支付的地方",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 650,
+      "s": 537,
+      "start": 3725.96,
+      "end": 3729.69,
+      "text": "使用Apple Pay付款。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 651,
+      "s": 537,
+      "start": 3732.06,
+      "end": 3736.5,
+      "text": "无需解锁设备或者通过",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 652,
+      "s": 537,
+      "start": 3739.22,
+      "end": 3744.14,
+      "text": "面容ID或密码认证，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 653,
+      "s": 537,
+      "start": 3747.1,
+      "end": 3753.14,
+      "text": "即可在交通读卡器上快速付款。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 654,
+      "s": 538,
+      "start": 3756.66,
+      "end": 3759.82,
+      "text": "自动填充卡片",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 655,
+      "s": 539,
+      "start": 3761.9,
+      "end": 3765.53,
+      "text": "隐藏已过期的凭证",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 656,
+      "s": 540,
+      "start": 3767.85,
+      "end": 3770.18,
+      "text": "订单跟踪",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 657,
+      "s": 541,
+      "start": 3773.35,
+      "end": 3775.67,
+      "text": "个人资料",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 658,
+      "s": 542,
+      "start": 3777.33,
+      "end": 3779.82,
+      "text": "玩家照片",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 659,
+      "s": 543,
+      "start": 3781.56,
+      "end": 3784.72,
+      "text": "自定义个人资料",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 660,
+      "s": 544,
+      "start": 3786.8,
+      "end": 3788.36,
+      "text": "朋友",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 661,
+      "s": 545,
+      "start": 3789.64,
+      "end": 3791.85,
+      "text": "所有朋友",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 662,
+      "s": 546,
+      "start": 3793.45,
+      "end": 3795.97,
+      "text": "交友邀请",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 663,
+      "s": 547,
+      "start": 3797.73,
+      "end": 3800.23,
+      "text": "邀请朋友",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 664,
+      "s": 548,
+      "start": 3801.98,
+      "end": 3804.82,
+      "text": "共享朋友列表",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 665,
+      "s": 549,
+      "start": 3806.74,
+      "end": 3808.45,
+      "text": "打开",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 666,
+      "s": 550,
+      "start": 3809.81,
+      "end": 3816.28,
+      "text": "允许App访问你的Game Center朋友列表，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 667,
+      "s": 550,
+      "start": 3820.02,
+      "end": 3822.86,
+      "text": "改进游戏体验。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 668,
+      "s": 551,
+      "start": 3824.78,
+      "end": 3828.26,
+      "text": "是否对他人可见",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 669,
+      "s": 552,
+      "start": 3830.5,
+      "end": 3833.82,
+      "text": "帮助朋友找到你",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 670,
+      "s": 553,
+      "start": 3835.98,
+      "end": 3840.1,
+      "text": "使用Apple账户关联的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 671,
+      "s": 553,
+      "start": 3842.66,
+      "end": 3847.86,
+      "text": "电子邮件地址和电话号码，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 672,
+      "s": 553,
+      "start": 3850.96,
+      "end": 3856.04,
+      "text": "让Game Center朋友轻松认出你。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 673,
+      "s": 554,
+      "start": 3859.08,
+      "end": 3861.28,
+      "text": "游戏活动",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 674,
+      "s": 555,
+      "start": 3862.88,
+      "end": 3865.21,
+      "text": "仅本人",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 675,
+      "s": 556,
+      "start": 3866.87,
+      "end": 3869.38,
+      "text": "活动共享",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 676,
+      "s": 557,
+      "start": 3871.13,
+      "end": 3876.69,
+      "text": "允许其他玩家查看你的个人资料、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 677,
+      "s": 557,
+      "start": 3879.97,
+      "end": 3885.37,
+      "text": "成就进度、排行榜更新",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 678,
+      "s": 557,
+      "start": 3888.57,
+      "end": 3892.34,
+      "text": "和最近玩过的游戏。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 679,
+      "s": 558,
+      "start": 3896.22,
+      "end": 3898.43,
+      "text": "默认App",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 680,
+      "s": 559,
+      "start": 3900.03,
+      "end": 3904.41,
+      "text": "管理iPhone上的默认App",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 681,
+      "s": 560,
+      "start": 3908.61,
+      "end": 3910.65,
+      "text": "开发者",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 682,
+      "s": 561,
+      "start": 3912.17,
+      "end": 3915.97,
+      "text": "清除受信任电脑",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 683,
+      "s": 562,
+      "start": 3918.37,
+      "end": 3923.76,
+      "text": "移除受信任电脑将删除",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 684,
+      "s": 562,
+      "start": 3926.95,
+      "end": 3931.87,
+      "text": "之前已配对的所有电脑记录。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 685,
+      "s": 563,
+      "start": 3934.83,
+      "end": 3937.78,
+      "text": "UI自动化",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 686,
+      "s": 564,
+      "start": 3939.75,
+      "end": 3943.39,
+      "text": "启用UI自动化",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 687,
+      "s": 565,
+      "start": 3945.71,
+      "end": 3947.43,
+      "text": "性能",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 688,
+      "s": 566,
+      "start": 3948.79,
+      "end": 3951.31,
+      "text": "卡顿检测",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 689,
+      "s": 567,
+      "start": 3953.07,
+      "end": 3954.61,
+      "text": "关闭",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 690,
+      "s": 568,
+      "start": 3955.88,
+      "end": 3958.56,
+      "text": "性能跟踪",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 691,
+      "s": 569,
+      "start": 3960.4,
+      "end": 3961.96,
+      "text": "网络",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 692,
+      "s": 570,
+      "start": 3963.24,
+      "end": 3967.02,
+      "text": "网络链接调节器",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 693,
+      "s": 571,
+      "start": 3969.41,
+      "end": 3971.77,
+      "text": "网络覆盖",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 694,
+      "s": 572,
+      "start": 3973.45,
+      "end": 3975.17,
+      "text": "测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 695,
+      "s": 573,
+      "start": 3976.53,
+      "end": 3979.05,
+      "text": "响应能力",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 696,
+      "s": 574,
+      "start": 3980.81,
+      "end": 3985.25,
+      "text": "响应能力会测量网络",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 697,
+      "s": 574,
+      "start": 3987.97,
+      "end": 3993.53,
+      "text": "在工作条件下的每分钟往返次数",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 698,
+      "s": 574,
+      "start": 3996.81,
+      "end": 4002.66,
+      "text": "(RPM)来评估网络质量。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 699,
+      "s": 575,
+      "start": 4006.09,
+      "end": 4008.61,
+      "text": "通用链接",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 700,
+      "s": 576,
+      "start": 4010.37,
+      "end": 4013.34,
+      "text": "关联域开发",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 701,
+      "s": 577,
+      "start": 4015.32,
+      "end": 4017.83,
+      "text": "诊断信息",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 702,
+      "s": 578,
+      "start": 4019.58,
+      "end": 4022.9,
+      "text": "认证服务测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 703,
+      "s": 579,
+      "start": 4025.06,
+      "end": 4031.74,
+      "text": "密码自动填充、保存和生成",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 704,
+      "s": 579,
+      "start": 4035.58,
+      "end": 4040.02,
+      "text": "使用了“密码管理器资源”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 705,
+      "s": 579,
+      "start": 4042.74,
+      "end": 4049.58,
+      "text": "开源项目中的App和网站特定规则。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 706,
+      "s": 579,
+      "start": 4053.5,
+      "end": 4059.06,
+      "text": "Apple会定期获取最新更新",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 707,
+      "s": 579,
+      "start": 4062.34,
+      "end": 4065.34,
+      "text": "并推送到设备。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 708,
+      "s": 580,
+      "start": 4067.34,
+      "end": 4070.63,
+      "text": "广告归因测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 709,
+      "s": 581,
+      "start": 4072.77,
+      "end": 4075.45,
+      "text": "开发回发",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 710,
+      "s": 582,
+      "start": 4077.29,
+      "end": 4082.69,
+      "text": "AdAttributionKit开发者模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 711,
+      "s": 583,
+      "start": 4085.89,
+      "end": 4093.69,
+      "text": "缩短AdAttributionKit和SKAdNetwork",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 712,
+      "s": 583,
+      "start": 4098.09,
+      "end": 4102.21,
+      "text": "发送回发的时间窗口。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 713,
+      "s": 583,
+      "start": 4104.77,
+      "end": 4109.69,
+      "text": "启用开发者模式会降低",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 714,
+      "s": 583,
+      "start": 4112.65,
+      "end": 4117.03,
+      "text": "系统提供的隐私保护。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 715,
+      "s": 583,
+      "start": 4119.71,
+      "end": 4126.66,
+      "text": "请仅在开发或测试期间使用此模式。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 716,
+      "s": 583,
+      "start": 4130.63,
+      "end": 4136.03,
+      "text": "此设置会在2周后自动关闭。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 717,
+      "s": 584,
+      "start": 4139.23,
+      "end": 4141.43,
+      "text": "吞吐量",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 718,
+      "s": 585,
+      "start": 4143.03,
+      "end": 4146.96,
+      "text": "运行吞吐量测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 719,
+      "s": 586,
+      "start": 4149.43,
+      "end": 4152.91,
+      "text": "状态恢复测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 720,
+      "s": 587,
+      "start": 4155.15,
+      "end": 4158.63,
+      "text": "快速App终止",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 721,
+      "s": 588,
+      "start": 4160.87,
+      "end": 4167.39,
+      "text": "终止而非暂停在后台运行的App",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 722,
+      "s": 588,
+      "start": 4171.15,
+      "end": 4177.96,
+      "text": "以强制其在前台运行时重新开启。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 723,
+      "s": 589,
+      "start": 4181.86,
+      "end": 4185.02,
+      "text": "轻App测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 724,
+      "s": 590,
+      "start": 4187.1,
+      "end": 4189.46,
+      "text": "本地体验",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 725,
+      "s": 591,
+      "start": 4191.14,
+      "end": 4194.94,
+      "text": "清除体验缓存",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 726,
+      "s": 592,
+      "start": 4197.34,
+      "end": 4202.26,
+      "text": "清除轻App体验缓存",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 727,
+      "s": 592,
+      "start": 4205.22,
+      "end": 4211.24,
+      "text": "以立即显示最近修改的轻App体验。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 728,
+      "s": 592,
+      "start": 4214.74,
+      "end": 4221.11,
+      "text": "本地轻App体验不使用该缓存。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 729,
+      "s": 593,
+      "start": 4224.79,
+      "end": 4227.41,
+      "text": "“钱包”测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 730,
+      "s": 594,
+      "start": 4229.23,
+      "end": 4231.7,
+      "text": "更多日志",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 731,
+      "s": 595,
+      "start": 4233.44,
+      "end": 4237.56,
+      "text": "允许HTTP服务",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 732,
+      "s": 596,
+      "start": 4240.12,
+      "end": 4243.28,
+      "text": "停用频率限制",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 733,
+      "s": 597,
+      "start": 4245.36,
+      "end": 4250.92,
+      "text": "NFC凭证密钥（可选）",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 734,
+      "s": 598,
+      "start": 4254.2,
+      "end": 4257.36,
+      "text": "媒体服务测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 735,
+      "s": 599,
+      "start": 4259.44,
+      "end": 4262.43,
+      "text": "还原媒体服务",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 736,
+      "s": 600,
+      "start": 4264.43,
+      "end": 4267.74,
+      "text": "隔空播放测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 737,
+      "s": 601,
+      "start": 4269.9,
+      "end": 4274.18,
+      "text": "使用路径共享策略",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 738,
+      "s": 602,
+      "start": 4276.82,
+      "end": 4282.7,
+      "text": "打开时，识别为长格式内容的App",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 739,
+      "s": 602,
+      "start": 4286.14,
+      "end": 4291.7,
+      "text": "在播放时将不会使用系统路径。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 740,
+      "s": 603,
+      "start": 4294.98,
+      "end": 4297.5,
+      "text": "新闻测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 741,
+      "s": 604,
+      "start": 4299.26,
+      "end": 4304.62,
+      "text": "下次启动还原本地数据",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 742,
+      "s": 605,
+      "start": 4307.8,
+      "end": 4314.48,
+      "text": "还原布局、图像和其他缓存元素。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 743,
+      "s": 605,
+      "start": 4318.32,
+      "end": 4322.42,
+      "text": "隐私数据不受影响。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 744,
+      "s": 606,
+      "start": 4324.97,
+      "end": 4328.45,
+      "text": "电视提供商测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 745,
+      "s": 607,
+      "start": 4330.68,
+      "end": 4333.42,
+      "text": "电视提供商",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 746,
+      "s": 608,
+      "start": 4335.3,
+      "end": 4338.78,
+      "text": "TV App测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 747,
+      "s": 609,
+      "start": 4341.02,
+      "end": 4345.42,
+      "text": "CoreSpotlight测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 748,
+      "s": 610,
+      "start": 4348.12,
+      "end": 4352.08,
+      "text": "重新索引所有项目",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 749,
+      "s": 611,
+      "start": 4354.56,
+      "end": 4360.92,
+      "text": "重新索引所有项目（含标识符）",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 750,
+      "s": 612,
+      "start": 4364.6,
+      "end": 4367.61,
+      "text": "小组件测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 751,
+      "s": 613,
+      "start": 4369.61,
+      "end": 4374.21,
+      "text": "WidgetKit开发者模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 752,
+      "s": 614,
+      "start": 4377.01,
+      "end": 4382.73,
+      "text": "打开时，小组件将不受标准",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 753,
+      "s": 614,
+      "start": 4386.09,
+      "end": 4392.45,
+      "text": "WidgetKit约束，以允许调试。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 754,
+      "s": 615,
+      "start": 4396.13,
+      "end": 4399.28,
+      "text": "快捷指令测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 755,
+      "s": 616,
+      "start": 4401.36,
+      "end": 4405.8,
+      "text": "显示近期使用的快捷指令",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 756,
+      "s": 617,
+      "start": 4408.52,
+      "end": 4416.16,
+      "text": "打开时，Siri建议小组件与Siri表盘",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 757,
+      "s": 617,
+      "start": 4420.48,
+      "end": 4425.85,
+      "text": "会显示最近提供的快捷指令，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 758,
+      "s": 617,
+      "start": 4429.03,
+      "end": 4432.04,
+      "text": "而非当前预测。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 759,
+      "s": 618,
+      "start": 4434.04,
+      "end": 4437.35,
+      "text": "显示临近媒体",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 760,
+      "s": 619,
+      "start": 4439.51,
+      "end": 4445.64,
+      "text": "打开时，“搜索”中的Siri建议",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 761,
+      "s": 619,
+      "start": 4449.2,
+      "end": 4456.34,
+      "text": "将显示通过INUpcomingMediaManager",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 762,
+      "s": 619,
+      "start": 4460.41,
+      "end": 4464.68,
+      "text": "共享的临近媒体意图。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 763,
+      "s": 620,
+      "start": 4467.31,
+      "end": 4472.07,
+      "text": "锁屏显示共享信息",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 764,
+      "s": 621,
+      "start": 4474.95,
+      "end": 4480.83,
+      "text": "打开时，最近共享的快捷指令",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 765,
+      "s": 621,
+      "start": 4484.27,
+      "end": 4488.55,
+      "text": "将显示在锁定屏幕上。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 766,
+      "s": 622,
+      "start": 4491.19,
+      "end": 4496.43,
+      "text": "强制同步快捷指令至手表",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 767,
+      "s": 623,
+      "start": 4499.55,
+      "end": 4504.15,
+      "text": "若要强制同步快捷指令，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 768,
+      "s": 623,
+      "start": 4506.95,
+      "end": 4513.31,
+      "text": "请确保Apple Watch已连至充电器。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 769,
+      "s": 624,
+      "start": 4516.99,
+      "end": 4521.75,
+      "text": "Siri日程建议测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 770,
+      "s": 625,
+      "start": 4524.63,
+      "end": 4527.11,
+      "text": "允许任何域",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 771,
+      "s": 626,
+      "start": 4528.85,
+      "end": 4532.77,
+      "text": "允许未验证的来源",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 772,
+      "s": 627,
+      "start": 4535.24,
+      "end": 4539.84,
+      "text": "这些设置会影响来自“邮件”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 773,
+      "s": 627,
+      "start": 4542.64,
+      "end": 4549.47,
+      "text": "和“Safari浏览器”的Siri日程建议。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 774,
+      "s": 627,
+      "start": 4553.39,
+      "end": 4561.19,
+      "text": "启用“允许任何域”以允许未经Apple批准",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 775,
+      "s": 627,
+      "start": 4565.59,
+      "end": 4572.79,
+      "text": "用于Siri日程建议的电子邮件或网页。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 776,
+      "s": 627,
+      "start": 4576.9,
+      "end": 4581.94,
+      "text": "启用“允许未验证的来源”",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 777,
+      "s": 627,
+      "start": 4584.97,
+      "end": 4590.21,
+      "text": "以在“邮件”和“Safari浏览器”中",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 778,
+      "s": 627,
+      "start": 4593.33,
+      "end": 4598.25,
+      "text": "绕过用于Siri日程建议的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 779,
+      "s": 627,
+      "start": 4601.21,
+      "end": 4607.72,
+      "text": "DKIM或SSL真实性验证。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 780,
+      "s": 628,
+      "start": 4611.48,
+      "end": 4616.56,
+      "text": "MIDI-CI测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 781,
+      "s": 629,
+      "start": 4619.59,
+      "end": 4624.51,
+      "text": "启用MIDI-CI",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 782,
+      "s": 630,
+      "start": 4627.47,
+      "end": 4630.79,
+      "text": "AirPods测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 783,
+      "s": 631,
+      "start": 4632.95,
+      "end": 4637.06,
+      "text": "预发布Beta版固件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 784,
+      "s": 632,
+      "start": 4639.61,
+      "end": 4643.09,
+      "text": "设备管理测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 785,
+      "s": 633,
+      "start": 4645.33,
+      "end": 4648.49,
+      "text": "注册SSO",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 786,
+      "s": 634,
+      "start": 4650.57,
+      "end": 4653.73,
+      "text": "图形HUD",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 787,
+      "s": 635,
+      "start": 4655.81,
+      "end": 4660.25,
+      "text": "显示HUD图形",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 788,
+      "s": 636,
+      "start": 4662.97,
+      "end": 4666.29,
+      "text": "记录图形性能",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 789,
+      "s": 637,
+      "start": 4668.45,
+      "end": 4675.41,
+      "text": "图形性能HUD可显示帧率、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 790,
+      "s": 637,
+      "start": 4679.39,
+      "end": 4685.24,
+      "text": "GPU耗时、内存使用率，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 791,
+      "s": 637,
+      "start": 4688.66,
+      "end": 4695.34,
+      "text": "并可记录性能数据用于之后的分析。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 792,
+      "s": 638,
+      "start": 4699.18,
+      "end": 4701.54,
+      "text": "蓝牙日志",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 793,
+      "s": 639,
+      "start": 4703.22,
+      "end": 4706.49,
+      "text": "HID日志",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 794,
+      "s": 640,
+      "start": 4708.63,
+      "end": 4711.95,
+      "text": "心率日志",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 795,
+      "s": 641,
+      "start": 4714.11,
+      "end": 4719.31,
+      "text": "允许通过蓝牙交换的额外数据",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 796,
+      "s": 641,
+      "start": 4722.41,
+      "end": 4726.85,
+      "text": "保存在packetlogger文件中。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 797,
+      "s": 642,
+      "start": 4729.57,
+      "end": 4733.86,
+      "text": "蓝牙车辆测试中的Siri",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 798,
+      "s": 643,
+      "start": 4736.5,
+      "end": 4741.26,
+      "text": "在“设置”中显示音频输出",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 799,
+      "s": 644,
+      "start": 4744.14,
+      "end": 4751.42,
+      "text": "允许Siri在蓝牙车辆中更改音频路径。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 800,
+      "s": 644,
+      "start": 4755.55,
+      "end": 4763.82,
+      "text": "前往“设置”->“Siri与搜索”->“Siri回应”->",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 801,
+      "s": 644,
+      "start": 4768.45,
+      "end": 4774.77,
+      "text": "“连接车载蓝牙时”更改音频路径。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 802,
+      "s": 645,
+      "start": 4778.42,
+      "end": 4782.7,
+      "text": "沙盒Apple账户",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 803,
+      "s": 646,
+      "start": 4785.34,
+      "end": 4791.19,
+      "text": "此账户将仅用于在沙盒中",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 804,
+      "s": 646,
+      "start": 4794.62,
+      "end": 4798.81,
+      "text": "测试App内购买项目。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 805,
+      "s": 647,
+      "start": 4801.41,
+      "end": 4804.39,
+      "text": "Game Center测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 806,
+      "s": 648,
+      "start": 4806.38,
+      "end": 4810.98,
+      "text": "提交得分时通知",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 807,
+      "s": 649,
+      "start": 4813.78,
+      "end": 4821.53,
+      "text": "提交排行榜得分时，显示游戏内横幅。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 808,
+      "s": 650,
+      "start": 4825.9,
+      "end": 4829.18,
+      "text": "后台资源测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 809,
+      "s": 651,
+      "start": 4831.32,
+      "end": 4833.77,
+      "text": "开发覆盖",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 810,
+      "s": 652,
+      "start": 4835.49,
+      "end": 4840.56,
+      "text": "为使用“受管理后台资源”的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 811,
+      "s": 652,
+      "start": 4843.6,
+      "end": 4849.1,
+      "text": "测试App配置覆盖。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 812,
+      "s": 653,
+      "start": 4852.36,
+      "end": 4855.49,
+      "text": "HealthKit测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 813,
+      "s": 654,
+      "start": 4857.56,
+      "end": 4862.16,
+      "text": "启用体能训练系列汇总",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 814,
+      "s": 655,
+      "start": 4864.96,
+      "end": 4869.55,
+      "text": "允许将体能训练数据",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 815,
+      "s": 655,
+      "start": 4872.34,
+      "end": 4875.82,
+      "text": "保存为实时系列。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 816,
+      "s": 656,
+      "start": 4878.06,
+      "end": 4881.22,
+      "text": "无线分析测试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 817,
+      "s": 657,
+      "start": 4883.3,
+      "end": 4885.82,
+      "text": "无线分析",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 818,
+      "s": 658,
+      "start": 4887.58,
+      "end": 4892.02,
+      "text": "模拟无线分析服务预测。",
+      "speaker": "A",
+      "role": "storyteller"
+    }
+  ]
+}

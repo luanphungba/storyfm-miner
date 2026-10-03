@@ -39,6 +39,9 @@ node tools/translate.mjs show E077   # the episode by sentence, lines numbered, 
 node tools/translate.mjs apply E077 vi.txt  # save translations + summary, rebuild what the page loads
 node tools/chapters.mjs show E077    # the episode by sentence, with times, to cut into chapters
 node tools/chapters.mjs apply E077 ch.txt   # save the chapters (1–2 minutes, one topic each) and rebuild
+node tools/ui.mjs build UI1          # an app's interface read aloud: voice data/ui/UI1.json, lay out the audio, write the episode
+node tools/ui.mjs check UI1          # whisper listens to every voiced line and names those that read something else
+node tools/ui.mjs publish UI1        # put the interface's audio on the storyfm-audio Worker
 ```
 
 `add` does not commit. Review the result, then commit `docs/data`, `data/raw`, `data/onsets`, `data/corrections`, `data/cuts`, `data/translations` and `data/chapters` yourself.
@@ -73,6 +76,8 @@ RSS (data/feed.xml)
 | `src/chapters.js` | The episode cut into chapters of one to two minutes on one small topic, each starting at a sentence and keeping that sentence's Chinese, so a fix or join that moves it is named. The last can stop before the outro credits. Pure, tested |
 | `tools/chapters.mjs` | Where chapters are written: `data/chapters/<id>.json` → `docs/data/<id>.chapters.json` |
 | `src/build.js` | Assemble the episode file and index. Written once, via a temp file |
+| `src/ui.js` | An app's interface as an episode: each line read twice with room to say it back, laid out on one timeline; chapters as `data/ui/<id>.json` groups the pages; Apple's own Vietnamese as the translation. Pure, tested |
+| `tools/ui.mjs` | Voices `data/ui/<id>.json` through Runware (Qwen3-TTS cloning a reference clip), caches each line in `tools/.cache/tts/`, writes the episode, its translation and chapters, and checks the voice with whisper |
 | `docs/` | GitHub Pages root. Vanilla HTML/CSS/JS, no build step. `docs/studied.js` (the studied list: recent, in order, rounded links) is pure and tested |
 
 ## Study one chapter at a time
@@ -92,6 +97,23 @@ story order, even when its chapters were studied days apart, the one studied lat
 moves whole episodes, never the chapters within one. Each chapter plays once to three times, going
 round until stopped. One audio
 element plays every episode, and the lock screen's ⏮ ⏭ move between chapters.
+
+## An app's interface, read aloud
+
+`data/ui/UI1.json` is every line of iPhone Settings (iOS 26) in Simplified Chinese: page titles, the
+description at the top of each page and the notes under its options. It was read off the phone, not
+written from memory: a UI test walked Settings on the device and read each page from the
+accessibility tree, and each line was matched to Apple's own localization tables for its English and
+Vietnamese. A line those tables do not hold is translated by hand and shows on the page marked ✎. Long
+lines are cut into pieces of 15 characters or fewer, so each one loops and mines like a podcast line.
+
+There is nothing to transcribe, so the audio is made: `tools/ui.mjs` has a TTS voice read each piece
+twice, then leaves a silence as long as the piece to say it back. The clips are laid out sample by
+sample, so every line's start is where its first reading begins (measured on the encoded file: speech
+starts 0–90 ms after each line's start, never before). A chapter is a group of related screens — Wi-Fi
+with Bluetooth, the Camera with the Action Button — however long it runs, and under each chapter's
+heading are the words it brings in; a tap opens the same card as a tap in the line, strokes and
+＋ Anki included. Everything else — ✓ Học xong, Nghe lại, the stats — is the same as for any episode.
 
 ## Tap ＋ Anki, get a card — on the phone too
 

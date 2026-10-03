@@ -1,0 +1,100 @@
+{
+  "chapters": [
+    {
+      "from": 0,
+      "zh": "Apple账户 · 家人共享 · iCloud · iCloud云备份",
+      "vi": "Tài khoản Apple · Chia sẻ trong gia đình · iCloud · Sao lưu iCloud",
+      "first": "Apple账户"
+    },
+    {
+      "from": 62,
+      "zh": "Wi-Fi · 蓝牙",
+      "vi": "Wi-Fi · Bluetooth",
+      "first": "编辑"
+    },
+    {
+      "from": 78,
+      "zh": "蜂窝网络 · 个人热点 · VPN",
+      "vi": "Di động · Điểm truy cập cá nhân · VPN",
+      "first": "蜂窝网络"
+    },
+    {
+      "from": 150,
+      "zh": "电池",
+      "vi": "Pin",
+      "first": "电池"
+    },
+    {
+      "from": 167,
+      "zh": "通用 · 软件更新",
+      "vi": "Cài đặt chung · Cập nhật phần mềm",
+      "first": "通用"
+    },
+    {
+      "from": 194,
+      "zh": "辅助功能",
+      "vi": "Trợ năng",
+      "first": "辅助功能"
+    },
+    {
+      "from": 237,
+      "zh": "操作按钮 · 相机",
+      "vi": "Nút Tác vụ · Camera",
+      "first": "静音模式"
+    },
+    {
+      "from": 275,
+      "zh": "Apple智能与Siri · 搜索",
+      "vi": "Apple Intelligence & Siri · Tìm kiếm",
+      "first": "BETA版"
+    },
+    {
+      "from": 316,
+      "zh": "控制中心 · 显示与亮度",
+      "vi": "Trung tâm điều khiển · Màn hình & Độ sáng",
+      "first": "控制中心"
+    },
+    {
+      "from": 347,
+      "zh": "主屏幕与App资源库 · 待机显示 · 墙纸",
+      "vi": "Màn hình chính & Thư viện ứng dụng · Chế độ chờ · Hình nền",
+      "first": "主屏幕与App资源库"
+    },
+    {
+      "from": 372,
+      "zh": "通知",
+      "vi": "Thông báo",
+      "first": "通知"
+    },
+    {
+      "from": 387,
+      "zh": "声效与触感反馈 · 专注模式",
+      "vi": "Âm thanh & Cảm ứng · Tập trung",
+      "first": "声效与触感反馈"
+    },
+    {
+      "from": 441,
+      "zh": "屏幕时间",
+      "vi": "Thời gian sử dụng",
+      "first": "屏幕时间"
+    },
+    {
+      "from": 467,
+      "zh": "SOS紧急联络 · 隐私与安全性",
+      "vi": "SOS khẩn cấp · Quyền riêng tư & Bảo mật",
+      "first": "SOS紧急联络"
+    },
+    {
+      "from": 527,
+      "zh": "钱包与Apple Pay · Game Center · App",
+      "vi": "Ví & Apple Pay · Game Center · Ứng dụng",
+      "first": "钱包与Apple Pay"
+    },
+    {
+      "from": 560,
+      "zh": "开发者",
+      "vi": "Nhà phát triển",
+      "first": "开发者"
+    }
+  ]
+}

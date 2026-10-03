@@ -251,6 +251,24 @@ h1 {
 .chapter.is-current { border-top-color: var(--accent); }
 .chapter.is-current .ch-zh, .chapter.is-current .ch-n { color: var(--accent); }
 
+/* The words a chapter of an app's interface brings in, under its heading, in the column the lines use. */
+.ch-words { display: flex; flex-wrap: wrap; gap: 6px; margin: 2px 0 8px 56px; }
+.ch-word {
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: none;
+  color: var(--fg);
+  font: inherit;
+  font-size: 15px;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  cursor: pointer;
+}
+.ch-word:hover, .ch-word:focus-visible { border-color: var(--accent); color: var(--accent); }
+.ch-word.is-easy { color: var(--muted); border-color: transparent; }
+#cues.has-chapter .ch-words { opacity: .6; }
+#cues.has-chapter .chapter.is-current + .ch-words { opacity: 1; }
+
 /* Inside a chapter the rest of the episode steps back, still readable for the line before or after. */
 #cues.has-chapter .cue:not(.in-chapter) { opacity: .4; }
 #cues.has-chapter .chapter:not(.is-current) { opacity: .6; }

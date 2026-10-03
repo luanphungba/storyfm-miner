@@ -18,7 +18,25 @@ import re
 import sys
 from collections import Counter
 
+import jieba
 import jieba.posseg as pseg
+
+# Where jieba joins two words across their boundary, the card would gloss a word that is not there.
+# The dictionary can be talked out of some (上将 "general" in 在此设备上将其打开, 会调 in 会调暗)...
+jieba.suggest_freq(("上", "将"), tune=True)
+for word in ("调暗", "轻扫", "墙纸"):
+    jieba.suggest_freq(word, tune=True)
+# ...the rest its HMM puts back together whatever the dictionary says (中和 "neutralize" in App中和任何,
+# 上向 in 屏幕上向左轻扫, 隔/空投/送 for 隔空投送), so they are cut again after it, token by token. The
+# same table puts back words it scatters (小组/件 for 小组件 "widget", 帧/率 for 帧率, 本/机 for 本机), and
+# takes the Latin off a word jieba glued it to (SIM卡), since only Chinese is tapped.
+RECUT = {
+    "中和": ("中", "和"), "上向": ("上", "向"), "隔空投送": ("隔空", "投送"), "已连": ("已", "连"),
+    "存至": ("存", "至"), "可让": ("可", "让"), "天前": ("天", "前"), "周后": ("周", "后"), "屏幕墙纸": ("屏幕", "墙纸"),
+    "访问控制中心": ("访问", "控制中心"), "更大字体": ("更大", "字体"),
+    "小组件": ("小组件",), "锁屏": ("锁屏",), "帧率": ("帧率",), "本机": ("本机",), "内建": ("内建",),
+    "调高": ("调高",), "连拍": ("连拍",), "SIM卡": ("SIM", "卡"),
+}
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
@@ -67,6 +85,28 @@ def cut(text):
         at = start + len(word)
         if HAN(word):
             out.append((word, pos, start))
+    return recut(out)
+
+
+def recut(tokens):
+    """RECUT applied: a run of up to three adjacent tokens spelling a key becomes its parts."""
+    out, k = [], 0
+    while k < len(tokens):
+        for span in (3, 2, 1):
+            run = tokens[k:k + span]
+            joined = "".join(word for word, _, _ in run)
+            adjacent = all(run[j + 1][2] == run[j][2] + len(run[j][0]) for j in range(len(run) - 1))
+            if len(run) == span and adjacent and joined in RECUT:
+                at = run[0][2]
+                for part in RECUT[joined]:
+                    if HAN(part):   # SIM in SIM卡 is not a tap target
+                        out.append((part, "x", at))
+                    at += len(part)
+                k += span
+                break
+        else:
+            out.append(tokens[k])
+            k += 1
     return out
 
 

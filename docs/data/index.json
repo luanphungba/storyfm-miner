@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-03",
   "episodes": [
     {
       "id": "E757",
@@ -84,6 +84,14 @@
       "duration": 195,
       "source": "podcast",
       "owner": "瞎扯学中文 Convo Chinese"
+    },
+    {
+      "id": "UI1",
+      "title": "设置 · iOS 26",
+      "pubDate": "2026-10-03",
+      "duration": 4895,
+      "source": "ui",
+      "owner": "iPhone"
     }
   ]
 }

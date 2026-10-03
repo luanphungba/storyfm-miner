@@ -12,6 +12,7 @@ import { paths } from './paths.js';
 import { loadFeed } from './feed.js';
 import { loadBilibiliEpisodes } from './bilibili.js';
 import { loadPodcastEpisodes } from './podcasts.js';
+import { loadUiEpisodes } from './ui.js';
 import { transcribe } from './asr.js';
 import { toSentences, punctuationRate } from './segment.js';
 import { splitSentence, joinSentences } from './cuts.js';
@@ -27,7 +28,7 @@ const POOR_PUNCTUATION = 0.5;
 const UNCERTAIN_NARRATOR_SHARE = 0.35;
 
 /** Single write, via a temp file, so a crash mid-write cannot leave a partial JSON behind. */
-async function writeJson(/** @type {string} */ path, /** @type {unknown} */ value) {
+export async function writeJson(/** @type {string} */ path, /** @type {unknown} */ value) {
   await mkdir(dirname(path), { recursive: true });
   const temporary = `${path}.tmp`;
   await writeFile(temporary, `${JSON.stringify(value, null, 2)}\n`);
@@ -38,19 +39,20 @@ const formatDuration = (/** @type {number} */ seconds) =>
   `${Math.floor(seconds / 60)}:${String(Math.round(seconds % 60)).padStart(2, '0')}`;
 
 /**
- * A 故事FM episode from the feed, a Bilibili video from data/bilibili.json, or another podcast's
- * episode from data/podcasts.json.
+ * A 故事FM episode from the feed, a Bilibili video from data/bilibili.json, another podcast's
+ * episode from data/podcasts.json, or an app interface from data/ui.json.
  * @typedef {import('./feed.js').Episode
  *   | (import('./bilibili.js').Video & { guid: string, source: 'bilibili' })
- *   | (import('./podcasts.js').PodcastEpisode & { source: 'podcast', owner: string })} Source
+ *   | (import('./podcasts.js').PodcastEpisode & { source: 'podcast', owner: string })
+ *   | (import('./ui.js').UiEpisode & { guid: string, source: 'ui' })} Source
  */
 
 /** The audio URL AssemblyAI fetches and the player plays. */
 const audioUrl = (/** @type {Source} */ episode) => ('m4a' in episode ? episode.m4a : episode.mp3);
 
-/** Every episode that can be built, 故事FM's, Bilibili's and the other podcasts' alike. */
+/** Every episode that can be built, 故事FM's, Bilibili's, the other podcasts' and the app interfaces alike. */
 export async function loadEpisodes() {
-  return [...(await loadFeed()), ...(await loadBilibiliEpisodes()), ...(await loadPodcastEpisodes())];
+  return [...(await loadFeed()), ...(await loadBilibiliEpisodes()), ...(await loadPodcastEpisodes()), ...(await loadUiEpisodes())];
 }
 
 /**
@@ -58,6 +60,9 @@ export async function loadEpisodes() {
  * @param {{ force?: boolean, resegment?: boolean, narrator?: string }} options
  */
 export async function buildEpisode(episode, { force = false, resegment = false, narrator } = {}) {
+  if ('source' in episode && episode.source === 'ui') {
+    throw new Error(`${episode.id} là giao diện app, không có gì để chép lời — dựng bằng: node tools/ui.mjs build ${episode.id}`);
+  }
   if (existsSync(paths.episode(episode.id)) && !force && !resegment) {
     throw new Error(`${episode.id} đã có transcript. Dùng --force để chạy lại, --resegment để cắt lại câu.`);
   }
@@ -110,14 +115,16 @@ export async function rebuildTranslation(id, lines) {
 /**
  * Rewrites the chapters the page loads against the lines just built, naming any chapter a fix or a
  * join moved, so the list is written again rather than left pointing at the wrong sentence.
+ * An app interface's chapters are its pages, whatever their length, so they are not held to two minutes.
  * @param {string} id
  * @param {import('./chapters.js').Line[]} lines
  */
-export async function rebuildChapters(id, lines) {
+export async function rebuildChapters(id, lines, { capped = true } = {}) {
   if (!existsSync(paths.chapters(id))) return null;
   const result = buildChapters(lines, await readJsonOr(paths.chapters(id), {}));
   await writeJson(paths.chaptersPage(id), result.sidecar);
-  const { lost, changed, long, uncovered } = result;
+  const { lost, changed, uncovered } = result;
+  const long = capped ? result.long : [];
   if (lost.length || changed.length || long.length || uncovered) {
     console.log(`  ⚠ Chương: ${lost.length} chương mất câu đầu, ${changed.length} chương có câu đầu đã đổi chữ, ${long.length} chương quá 2 phút${uncovered ? ', đầu tập chưa thuộc chương nào' : ''} — node tools/chapters.mjs show ${id}`);
   }
@@ -251,7 +258,7 @@ function report(id, cues) {
   console.log(`\nXem thử:  npm run serve  →  http://localhost:8080/player.html?ep=${id}`);
 }
 
-/** The index is derived from the feed, data/bilibili.json and data/podcasts.json so titles and dates have exactly one source. */
+/** The index is derived from the feed, data/bilibili.json, data/podcasts.json and data/ui.json so titles and dates have exactly one source. */
 export async function rebuildIndex() {
   const episodes = await loadEpisodes();
   const entries = episodes

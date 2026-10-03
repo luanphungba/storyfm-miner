@@ -1,0 +1,2796 @@
+{
+  "summary": [
+    "Toàn bộ chữ trong Cài đặt của iPhone (iOS 26) bằng tiếng Trung giản thể, đọc thẳng từ máy: tên từng mục, câu mô tả đầu trang và dòng chú thích dưới các tùy chọn. Mỗi chương là một nhóm trang liên quan — mở đúng các trang đó trên máy khi học.",
+    "Mỗi dòng được đọc hai lần, rồi lặng một quãng để nhại lại. Bản dịch là bản tiếng Việt chính thức của Apple; dòng đánh dấu ✎ không có trong dữ liệu của Apple nên được dịch tay."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "Apple账户",
+      "vi": "Tài khoản Apple"
+    },
+    "1": {
+      "zh": "联系人密钥验证",
+      "vi": "Xác minh khóa liên hệ"
+    },
+    "2": {
+      "zh": "关闭",
+      "vi": "Tắt"
+    },
+    "3": {
+      "zh": "个人信息",
+      "vi": "tin nhắn cá nhân"
+    },
+    "4": {
+      "zh": "登录与安全性",
+      "vi": "Đăng nhập & Bảo mật"
+    },
+    "5": {
+      "zh": "付款与配送",
+      "vi": "Thanh toán & Giao hàng"
+    },
+    "6": {
+      "zh": "订阅",
+      "vi": "Đăng ký"
+    },
+    "7": {
+      "zh": "家人共享",
+      "vi": "Chia sẻ trong gia đình"
+    },
+    "8": {
+      "zh": "查找",
+      "vi": "Tìm"
+    },
+    "9": {
+      "zh": "媒体与购买项目",
+      "vi": "Phương tiện & Mục mua"
+    },
+    "10": {
+      "zh": "通过Apple登录",
+      "vi": "Đăng nhập bằng Apple"
+    },
+    "11": {
+      "zh": "退出登录",
+      "vi": "Đăng xuất"
+    },
+    "12": {
+      "zh": "添加成员",
+      "vi": "Thêm thành viên"
+    },
+    "13": {
+      "zh": "家人共享",
+      "vi": "Chia sẻ trong gia đình"
+    },
+    "14": {
+      "zh": "成人",
+      "vi": "Người lớn"
+    },
+    "15": {
+      "zh": "组织者",
+      "vi": "Người tổ chức"
+    },
+    "16": {
+      "zh": "查看家庭成员可访问和共享的内容，以及管理儿童账户设置和家长控制。",
+      "vi": "Xem các thành viên gia đình có thể truy cập và chia sẻ những gì, cũng như quản lý các cài đặt tài khoản trẻ em và kiểm soát của phụ huynh."
+    },
+    "17": {
+      "zh": "为家人推荐",
+      "vi": "Được đề xuất cho gia đình bạn"
+    },
+    "18": {
+      "zh": "订阅",
+      "vi": "Đăng ký"
+    },
+    "19": {
+      "zh": "购买项目共享",
+      "vi": "Chia sẻ mục mua"
+    },
+    "20": {
+      "zh": "设置购买项目共享",
+      "vi": "Thiết lập Chia sẻ mục mua"
+    },
+    "21": {
+      "zh": "位置共享",
+      "vi": "chia sẻ vị trí"
+    },
+    "22": {
+      "zh": "未与家人共享",
+      "vi": "Đang không chia sẻ với gia đình"
+    },
+    "23": {
+      "zh": "Apple会使用你的Apple账户、付款详细信息以及家人共享群组相关信息，让你和家庭成员共享订阅内容、购买项目和位置；创建儿童账户，以及设置家长控制。Apple可能会使用家人共享群组详细信息向你发送相关信息。",
+      "vi": "Apple sử dụng Tài khoản Apple, chi tiết thanh toán và thông tin về nhóm gia đình của bạn để cho phép bạn và các thành viên gia đình chia sẻ các đăng ký, mục mua và vị trí; tạo tài khoản cho trẻ; và thiết lập quyền kiểm soát của phụ huynh. Apple có thể sử dụng các chi tiết về nhóm gia đình của bạn để gửi cho bạn các thông tin liên quan."
+    },
+    "24": {
+      "zh": "储存空间",
+      "vi": "Dung lượng"
+    },
+    "25": {
+      "zh": "关闭",
+      "vi": "Tắt"
+    },
+    "26": {
+      "zh": "下载 App",
+      "vi": "Tải về ứng dụng"
+    },
+    "27": {
+      "zh": "为你推荐",
+      "vi": "Cho bạn"
+    },
+    "28": {
+      "zh": "已存至 iCloud",
+      "vi": "Đã lưu vào iCloud"
+    },
+    "29": {
+      "zh": "查看全部",
+      "vi": "Xem tất cả"
+    },
+    "30": {
+      "zh": "照片",
+      "vi": "Ảnh"
+    },
+    "31": {
+      "zh": "云盘",
+      "vi": "Drive"
+    },
+    "32": {
+      "zh": "照片",
+      "vi": "Ảnh"
+    },
+    "33": {
+      "zh": "云盘",
+      "vi": "Drive"
+    },
+    "34": {
+      "zh": "密码",
+      "vi": "Mật khẩu"
+    },
+    "35": {
+      "zh": "备忘录",
+      "vi": "Ghi chú"
+    },
+    "36": {
+      "zh": "信息",
+      "vi": "Tin nhắn"
+    },
+    "37": {
+      "zh": "邮件",
+      "vi": "Mail"
+    },
+    "38": {
+      "zh": "设置",
+      "vi": "Cài đặt"
+    },
+    "39": {
+      "zh": "iCloud云备份",
+      "vi": "Sao lưu iCloud"
+    },
+    "40": {
+      "zh": "1天前",
+      "vi": "Trước 1 ngày"
+    },
+    "41": {
+      "zh": "此iPhone",
+      "vi": "iPhone này"
+    },
+    "42": {
+      "zh": "iCloud+ 功能",
+      "vi": "Các tính năng của iCloud+"
+    },
+    "43": {
+      "zh": "管理方案",
+      "vi": "Quản lý gói"
+    },
+    "44": {
+      "zh": "家庭",
+      "vi": "Nhà"
+    },
+    "45": {
+      "zh": "Apple 活动邀请",
+      "vi": "Lời mời Apple"
+    },
+    "46": {
+      "zh": "开始使用",
+      "vi": "Bắt đầu"
+    },
+    "47": {
+      "zh": "专用代理",
+      "vi": "Chuyển tiếp bảo mật"
+    },
+    "48": {
+      "zh": "隐藏邮件地址",
+      "vi": "Ẩn địa chỉ email"
+    },
+    "49": {
+      "zh": "高级数据保护",
+      "vi": "Bảo vệ dữ liệu nâng cao"
+    },
+    "50": {
+      "zh": "在网页上访问iCloud数据",
+      "vi": "Truy cập dữ liệu iCloud trên web"
+    },
+    "51": {
+      "zh": "在iCloud.com和privacy.apple.com网页上访问邮件、通讯录、日历、照片、备忘录、提醒事项、文件和文稿。",
+      "vi": "Truy cập thư, danh bạ, lịch, ảnh, ghi chú, lời nhắc, tệp và tài liệu trên web tại iCloud.com và privacy.apple.com."
+    },
+    "52": {
+      "zh": "备份",
+      "vi": "Sao lưu"
+    },
+    "53": {
+      "zh": "iCloud云备份",
+      "vi": "Sao lưu iCloud"
+    },
+    "54": {
+      "zh": "自动备份iPhone，以便你在遗失设备或获得新设备时恢复数据。",
+      "vi": "Tự động sao lưu iPhone để bạn có thể khôi phục dữ liệu của mình nếu bạn làm mất thiết bị hoặc có một thiết bị mới."
+    },
+    "55": {
+      "zh": "备份此iPhone",
+      "vi": "Sao lưu iPhone này"
+    },
+    "56": {
+      "zh": "通过蜂窝网络备份",
+      "vi": "Sao lưu qua mạng di động"
+    },
+    "57": {
+      "zh": "未接入Wi-Fi时，使用蜂窝网络自动备份至iCloud。这可能会导致蜂窝数据套餐的使用超出限额。",
+      "parts": [
+        {
+          "zh": "未接入Wi-Fi时，使用蜂窝网络自动备份至iCloud。",
+          "vi": "Sử dụng mạng di động của bạn để tự động sao lưu vào iCloud khi không có kết nối Wi-Fi."
+        },
+        {
+          "zh": "这可能会导致蜂窝数据套餐的使用超出限额。",
+          "vi": "Việc này có thể khiến bạn vượt quá gói cước dữ liệu di động."
+        }
+      ]
+    },
+    "58": {
+      "zh": "立即备份",
+      "vi": "Sao lưu bây giờ"
+    },
+    "59": {
+      "zh": "所有设备备份",
+      "vi": "✎ Bản sao lưu của mọi thiết bị"
+    },
+    "60": {
+      "zh": "此 iPhone",
+      "vi": "iPhone này"
+    },
+    "61": {
+      "zh": "设备在 iCloud 中备份后，你可以使用该备份来恢复信息或设置新设备。",
+      "vi": "✎ Sau khi thiết bị được sao lưu lên iCloud, bạn có thể dùng bản sao lưu đó để khôi phục thông tin hoặc thiết lập thiết bị mới."
+    },
+    "62": {
+      "zh": "编辑",
+      "vi": "Sửa"
+    },
+    "63": {
+      "zh": "接入Wi-Fi、查看可用网络，并管理加入网络及附近热点设置。",
+      "vi": "Kết nối vào Wi-Fi, xem các mạng khả dụng, cũng như quản lý cài đặt để kết nối mạng và điểm truy cập ở gần."
+    },
+    "64": {
+      "zh": "进一步了解…",
+      "vi": "Tìm hiểu thêm…"
+    },
+    "65": {
+      "zh": "网络",
+      "vi": "Mạng"
+    },
+    "66": {
+      "zh": "其他…",
+      "vi": "Khác…"
+    },
+    "67": {
+      "zh": "询问是否加入网络",
+      "vi": "Hỏi để kết nối mạng"
+    },
+    "68": {
+      "zh": "通知",
+      "vi": "Thông báo"
+    },
+    "69": {
+      "zh": "将自动加入已知网络。如果没有已知网络，将通知你有可用网络。",
+      "parts": [
+        {
+          "zh": "将自动加入已知网络。",
+          "vi": "Các mạng đã biết sẽ được kết nối tự động."
+        },
+        {
+          "zh": "如果没有已知网络，将通知你有可用网络。",
+          "vi": "Nếu không có sẵn mạng đã biết nào, bạn sẽ được thông báo về các mạng có sẵn."
+        }
+      ]
+    },
+    "70": {
+      "zh": "自动加入热点",
+      "vi": "Tự động kết nối điểm truy cập"
+    },
+    "71": {
+      "zh": "询问加入",
+      "vi": "Hỏi để kết nối"
+    },
+    "72": {
+      "zh": "无可用Wi‑Fi网络时，允许此设备自动查找附近的个人热点。",
+      "vi": "Cho phép thiết bị này tự động phát hiện điểm truy cập cá nhân ở gần khi không có mạng Wi‑Fi nào khả dụng."
+    },
+    "73": {
+      "zh": "蓝牙",
+      "vi": "Bluetooth"
+    },
+    "74": {
+      "zh": "连接可用于流播放音乐、打电话和玩游戏等活动的配件。",
+      "vi": "Kết nối với các phụ kiện mà bạn có thể sử dụng cho những hoạt động như truyền phát nhạc, gọi điện thoại và chơi trò chơi."
+    },
+    "75": {
+      "zh": "我的设备",
+      "vi": "Thiết bị của tôi"
+    },
+    "76": {
+      "zh": "未连接",
+      "vi": "Không kết nối"
+    },
+    "77": {
+      "zh": "其他设备",
+      "vi": "Các thiết bị khác"
+    },
+    "78": {
+      "zh": "蜂窝网络",
+      "vi": "Di động"
+    },
+    "79": {
+      "zh": "蜂窝数据",
+      "vi": "Dữ liệu di động"
+    },
+    "80": {
+      "zh": "关闭",
+      "vi": "Tắt"
+    },
+    "81": {
+      "zh": "关闭蜂窝数据，通过Wi-Fi使用包括电子邮件、网页浏览和推送通知在内的所有数据。",
+      "vi": "Tắt dữ liệu di động để truyền tất cả dữ liệu qua Wi-Fi, bao gồm email, duyệt web và thông báo đẩy."
+    },
+    "82": {
+      "zh": "默认语音号码",
+      "vi": "Đường dây thoại mặc định"
+    },
+    "83": {
+      "zh": "主号",
+      "vi": "Chính"
+    },
+    "84": {
+      "zh": "默认语音号码",
+      "vi": "Đường dây thoại mặc định"
+    },
+    "85": {
+      "zh": "主号",
+      "vi": "Chính"
+    },
+    "86": {
+      "zh": "SIM卡",
+      "vi": "SIM"
+    },
+    "87": {
+      "zh": "打开",
+      "vi": "Bật"
+    },
+    "88": {
+      "zh": "商务",
+      "vi": "Doanh nghiệp"
+    },
+    "89": {
+      "zh": "无号码",
+      "vi": "Không có số nào"
+    },
+    "90": {
+      "zh": "添加eSIM",
+      "vi": "Thêm eSIM"
+    },
+    "91": {
+      "zh": "本期总用量",
+      "vi": "Đến hiện tại"
+    },
+    "92": {
+      "zh": "本期漫游用量",
+      "vi": "Chuyển vùng đến hiện tại"
+    },
+    "93": {
+      "zh": "已卸载的App",
+      "vi": "Ứng dụng chưa cài đặt"
+    },
+    "94": {
+      "zh": "Safari浏览器",
+      "vi": "Safari"
+    },
+    "95": {
+      "zh": "Safari浏览器",
+      "vi": "Safari"
+    },
+    "96": {
+      "zh": "个人热点",
+      "vi": "Điểm truy cập cá nhân"
+    },
+    "97": {
+      "zh": "全部显示",
+      "vi": "Hiển thị tất cả"
+    },
+    "98": {
+      "zh": "Wi-Fi助理",
+      "vi": "Wi-Fi Assist"
+    },
+    "99": {
+      "zh": "Wi-Fi助理",
+      "vi": "Wi-Fi Assist"
+    },
+    "100": {
+      "zh": "Wi-Fi连接信号弱时自动使用蜂窝数据。",
+      "vi": "Tự động sử dụng dữ liệu di động khi tín hiệu kết nối Wi-Fi kém."
+    },
+    "101": {
+      "zh": "iCloud云盘",
+      "vi": "iCloud Drive"
+    },
+    "102": {
+      "zh": "未连接Wi-Fi时，使用蜂窝网络传输文稿与数据。",
+      "vi": "Sử dụng mạng di động để chuyển tài liệu và dữ liệu khi không có kết nối Wi-Fi."
+    },
+    "103": {
+      "zh": "iCloud云备份",
+      "vi": "Sao lưu iCloud"
+    },
+    "104": {
+      "zh": "未接入Wi-Fi时，使用蜂窝网络自动备份至iCloud。这可能会导致蜂窝数据套餐的使用超出限额。",
+      "parts": [
+        {
+          "zh": "未接入Wi-Fi时，使用蜂窝网络自动备份至iCloud。",
+          "vi": "Sử dụng mạng di động của bạn để tự động sao lưu vào iCloud khi không có kết nối Wi-Fi."
+        },
+        {
+          "zh": "这可能会导致蜂窝数据套餐的使用超出限额。",
+          "vi": "Việc này có thể khiến bạn vượt quá gói cước dữ liệu di động."
+        }
+      ]
+    },
+    "105": {
+      "zh": "通话时长",
+      "vi": "Thời gian gọi"
+    },
+    "106": {
+      "zh": "本期通话时长",
+      "vi": "Đến hiện tại"
+    },
+    "107": {
+      "zh": "累计通话时长",
+      "vi": "Thời lượng"
+    },
+    "108": {
+      "zh": "蜂窝数据用量统计数据",
+      "vi": "Thống kê sử dụng di động"
+    },
+    "109": {
+      "zh": "停用蜂窝数据用量统计数据将停用所有蜂窝数据用量跟踪，并将任何当前跟踪的用量还原为零。",
+      "vi": "Việc tắt thống kê sử dụng di động sẽ tắt tất cả hoạt động theo dõi sử dụng di động, cũng như đặt lại bất kỳ việc sử dụng hiện được theo dõi nào thành 0."
+    },
+    "110": {
+      "zh": "启用蜂窝数据用量统计数据",
+      "vi": "Bật thống kê sử dụng di động"
+    },
+    "111": {
+      "zh": "还原统计数据",
+      "vi": "Đặt lại số liệu thống kê"
+    },
+    "112": {
+      "zh": "设置",
+      "vi": "Cài đặt"
+    },
+    "113": {
+      "zh": "Apple账户、iCloud+等",
+      "vi": "Tài khoản Apple, iCloud+, v.v."
+    },
+    "114": {
+      "zh": "家人共享",
+      "vi": "Chia sẻ trong gia đình"
+    },
+    "115": {
+      "zh": "飞行模式",
+      "vi": "Chế độ máy bay"
+    },
+    "116": {
+      "zh": "蓝牙",
+      "vi": "Bluetooth"
+    },
+    "117": {
+      "zh": "打开",
+      "vi": "Bật"
+    },
+    "118": {
+      "zh": "蜂窝网络",
+      "vi": "Di động"
+    },
+    "119": {
+      "zh": "关闭",
+      "vi": "Tắt"
+    },
+    "120": {
+      "zh": "个人热点",
+      "vi": "Điểm truy cập cá nhân"
+    },
+    "121": {
+      "zh": "电池",
+      "vi": "Pin"
+    },
+    "122": {
+      "zh": "已连接",
+      "vi": "Đã kết nối"
+    },
+    "123": {
+      "zh": "通用",
+      "vi": "Cài đặt chung"
+    },
+    "124": {
+      "zh": "辅助功能",
+      "vi": "Trợ năng"
+    },
+    "125": {
+      "zh": "操作按钮",
+      "vi": "Nút Tác vụ"
+    },
+    "126": {
+      "zh": "待机显示",
+      "vi": "Chế độ chờ"
+    },
+    "127": {
+      "zh": "控制中心",
+      "vi": "Trung tâm điều khiển"
+    },
+    "128": {
+      "zh": "墙纸",
+      "vi": "Hình nền"
+    },
+    "129": {
+      "zh": "搜索",
+      "vi": "Tìm kiếm"
+    },
+    "130": {
+      "zh": "显示与亮度",
+      "vi": "Màn hình & Độ sáng"
+    },
+    "131": {
+      "zh": "相机",
+      "vi": "Camera"
+    },
+    "132": {
+      "zh": "主屏幕与App资源库",
+      "vi": "Màn hình chính & Thư viện ứng dụng"
+    },
+    "133": {
+      "zh": "Apple智能与Siri",
+      "vi": "Apple Intelligence & Siri"
+    },
+    "134": {
+      "zh": "通知",
+      "vi": "Thông báo"
+    },
+    "135": {
+      "zh": "声效与触感反馈",
+      "vi": "Âm thanh & Cảm ứng"
+    },
+    "136": {
+      "zh": "专注模式",
+      "vi": "Tập trung"
+    },
+    "137": {
+      "zh": "屏幕时间",
+      "vi": "Thời gian sử dụng"
+    },
+    "138": {
+      "zh": "面容ID与密码",
+      "vi": "Face ID & Mật mã"
+    },
+    "139": {
+      "zh": "SOS紧急联络",
+      "vi": "SOS khẩn cấp"
+    },
+    "140": {
+      "zh": "隐私与安全性",
+      "vi": "Quyền riêng tư & Bảo mật"
+    },
+    "141": {
+      "zh": "钱包与Apple Pay",
+      "vi": "Ví & Apple Pay"
+    },
+    "142": {
+      "zh": "开发者",
+      "vi": "Nhà phát triển"
+    },
+    "143": {
+      "zh": "听写",
+      "vi": "Đọc chính tả"
+    },
+    "144": {
+      "zh": "VPN状态",
+      "vi": "Trạng thái VPN"
+    },
+    "145": {
+      "zh": "设备VPN",
+      "vi": "VPN thiết bị"
+    },
+    "146": {
+      "zh": "个人VPN",
+      "vi": "VPN Cá nhân"
+    },
+    "147": {
+      "zh": "状态",
+      "vi": "Trạng thái"
+    },
+    "148": {
+      "zh": "添加VPN配置…",
+      "vi": "Thêm cấu hình VPN…"
+    },
+    "149": {
+      "zh": "VPN可设置用于控制某些网络流量的路由。",
+      "vi": "VPN có thể được thiết lập để điều khiển việc định tuyến của lưu lượng mạng nhất định."
+    },
+    "150": {
+      "zh": "电池",
+      "vi": "Pin"
+    },
+    "151": {
+      "zh": "电池健康",
+      "vi": "Tình trạng pin"
+    },
+    "152": {
+      "zh": "正常",
+      "vi": "Bình thường"
+    },
+    "153": {
+      "zh": "电池百分比",
+      "vi": "Phần trăm pin"
+    },
+    "154": {
+      "zh": "简介",
+      "vi": "Thông tin"
+    },
+    "155": {
+      "zh": "正在充电",
+      "vi": "Đang sạc"
+    },
+    "156": {
+      "zh": "33分钟",
+      "vi": "33 phút"
+    },
+    "157": {
+      "zh": "每日用量",
+      "vi": "Sử dụng hàng ngày"
+    },
+    "158": {
+      "zh": "平均",
+      "vi": "Trung bình"
+    },
+    "159": {
+      "zh": "今天",
+      "vi": "Hôm nay"
+    },
+    "160": {
+      "zh": "全天",
+      "vi": "Cả ngày"
+    },
+    "161": {
+      "zh": "App和系统活动",
+      "vi": "Ứng dụng và hoạt động hệ thống"
+    },
+    "162": {
+      "zh": "Safari浏览器",
+      "vi": "Safari"
+    },
+    "163": {
+      "zh": "主屏幕与锁定屏幕",
+      "vi": "MH chính & MH khóa"
+    },
+    "164": {
+      "zh": "查看所有电池用量",
+      "vi": "Xem tất cả mức sử dụng pin"
+    },
+    "165": {
+      "zh": "充电",
+      "vi": "Sạc"
+    },
+    "166": {
+      "zh": "电量模式",
+      "vi": "Chế độ nguồn điện"
+    },
+    "167": {
+      "zh": "通用",
+      "vi": "Cài đặt chung"
+    },
+    "168": {
+      "zh": "管理iPhone的整体设置和偏好设置，例如软件更新、设备语言、CarPlay车载、隔空投送等。",
+      "vi": "✎ Quản lý cài đặt và tùy chọn chung của iPhone, ví dụ cập nhật phần mềm, ngôn ngữ thiết bị, CarPlay, AirDrop, v.v."
+    },
+    "169": {
+      "zh": "关于本机",
+      "vi": "Giới thiệu"
+    },
+    "170": {
+      "zh": "软件更新",
+      "vi": "Cập nhật phần mềm"
+    },
+    "171": {
+      "zh": "iPhone 储存空间",
+      "vi": "Ổ lưu trữ iPhone"
+    },
+    "172": {
+      "zh": "AppleCare与保修",
+      "vi": "AppleCare & Bảo hành"
+    },
+    "173": {
+      "zh": "隔空投送",
+      "vi": "AirDrop"
+    },
+    "174": {
+      "zh": "隔空播放与连续互通",
+      "vi": "AirPlay & Thông suốt"
+    },
+    "175": {
+      "zh": "画中画",
+      "vi": "Hình trong hình"
+    },
+    "176": {
+      "zh": "屏幕捕捉",
+      "vi": "Chụp ảnh màn hình"
+    },
+    "177": {
+      "zh": "CarPlay车载",
+      "vi": "CarPlay"
+    },
+    "178": {
+      "zh": "词典",
+      "vi": "Từ điển"
+    },
+    "179": {
+      "zh": "后台App刷新",
+      "vi": "Làm mới ứng dụng trong nền"
+    },
+    "180": {
+      "zh": "键盘",
+      "vi": "Bàn phím"
+    },
+    "181": {
+      "zh": "日期与时间",
+      "vi": "Ngày & Giờ"
+    },
+    "182": {
+      "zh": "语言与地区",
+      "vi": "Ngôn ngữ & Vùng"
+    },
+    "183": {
+      "zh": "字体",
+      "vi": "Phông chữ"
+    },
+    "184": {
+      "zh": "自动填充与密码",
+      "vi": "Tự động điền & Mật khẩu"
+    },
+    "185": {
+      "zh": "电视提供商",
+      "vi": "Nhà cung cấp TV"
+    },
+    "186": {
+      "zh": "VPN与设备管理",
+      "vi": "Quản lý VPN & thiết bị"
+    },
+    "187": {
+      "zh": "法律与监管",
+      "vi": "Pháp lý & Quy định"
+    },
+    "188": {
+      "zh": "传输或还原iPhone",
+      "vi": "Chuyển hoặc đặt lại iPhone"
+    },
+    "189": {
+      "zh": "关机",
+      "vi": "Tắt máy"
+    },
+    "190": {
+      "zh": "软件更新",
+      "vi": "Cập nhật phần mềm"
+    },
+    "191": {
+      "zh": "自动更新",
+      "vi": "Tự động cập nhật"
+    },
+    "192": {
+      "zh": "打开",
+      "vi": "Bật"
+    },
+    "193": {
+      "zh": "正在检查更新…",
+      "vi": "Đang kiểm tra bản cập nhật…"
+    },
+    "194": {
+      "zh": "辅助功能",
+      "vi": "Trợ năng"
+    },
+    "195": {
+      "zh": "通过视力、肢体活动能力、听力、语音和认知方面的辅助功能，个性化iPhone使其更贴合你的需求。",
+      "vi": "Cá nhân hóa iPhone sao cho phù hợp nhất với bạn nhờ các tính năng trợ năng cho thị giác, vận động, thính giác, lời nói và nhận thức."
+    },
+    "196": {
+      "zh": "视觉",
+      "vi": "Hình ảnh"
+    },
+    "197": {
+      "zh": "旁白",
+      "vi": "VoiceOver"
+    },
+    "198": {
+      "zh": "关闭",
+      "vi": "Tắt"
+    },
+    "199": {
+      "zh": "缩放",
+      "vi": "Thu phóng"
+    },
+    "200": {
+      "zh": "悬停文本",
+      "vi": "Phóng to văn bản"
+    },
+    "201": {
+      "zh": "悬停文本",
+      "vi": "Phóng to văn bản"
+    },
+    "202": {
+      "zh": "关闭",
+      "vi": "Tắt"
+    },
+    "203": {
+      "zh": "显示与文字大小",
+      "vi": "Màn hình & Cỡ chữ"
+    },
+    "204": {
+      "zh": "动态效果",
+      "vi": "Chuyển động"
+    },
+    "205": {
+      "zh": "阅读与朗读",
+      "vi": "Đọc & Nói"
+    },
+    "206": {
+      "zh": "口述影像",
+      "vi": "Mô tả âm thanh"
+    },
+    "207": {
+      "zh": "动作交互",
+      "vi": "Thể chất và Vận động"
+    },
+    "208": {
+      "zh": "触控",
+      "vi": "Cảm ứng"
+    },
+    "209": {
+      "zh": "面容ID与注视",
+      "vi": "Face ID & Sự chú ý"
+    },
+    "210": {
+      "zh": "切换控制",
+      "vi": "Điều khiển công tắc"
+    },
+    "211": {
+      "zh": "语音控制",
+      "vi": "Khẩu lệnh"
+    },
+    "212": {
+      "zh": "眼动跟踪",
+      "vi": "Theo dõi mắt"
+    },
+    "213": {
+      "zh": "头部跟踪",
+      "vi": "Theo dõi đầu"
+    },
+    "214": {
+      "zh": "侧边按钮",
+      "vi": "Nút sườn"
+    },
+    "215": {
+      "zh": "控制附近设备",
+      "vi": "Điều khiển thiết bị ở gần"
+    },
+    "216": {
+      "zh": "听觉",
+      "vi": "Nghe"
+    },
+    "217": {
+      "zh": "助听设备",
+      "vi": "Thiết bị nghe"
+    },
+    "218": {
+      "zh": "听觉控制中心",
+      "vi": "Trung tâm điều khiển Nghe"
+    },
+    "219": {
+      "zh": "声音识别",
+      "vi": "Nhận biết âm thanh"
+    },
+    "220": {
+      "zh": "音频与视觉",
+      "vi": "Âm thanh & Hình ảnh"
+    },
+    "221": {
+      "zh": "字幕与隐藏式字幕",
+      "vi": "Phụ đề & chú thích"
+    },
+    "222": {
+      "zh": "实时字幕",
+      "vi": "Chú thích trực tiếp"
+    },
+    "223": {
+      "zh": "音乐触感反馈",
+      "vi": "Cảm ứng nhạc"
+    },
+    "224": {
+      "zh": "语音",
+      "vi": "Đọc văn bản"
+    },
+    "225": {
+      "zh": "实时语音",
+      "vi": "Lời nói trực tiếp"
+    },
+    "226": {
+      "zh": "个人声音",
+      "vi": "Giọng nói cá nhân"
+    },
+    "227": {
+      "zh": "人声快捷指令",
+      "vi": "Phím tắt giọng nói"
+    },
+    "228": {
+      "zh": "配件",
+      "vi": "Phụ kiện"
+    },
+    "229": {
+      "zh": "键盘与键入",
+      "vi": "Bàn phím & Nhập liệu"
+    },
+    "230": {
+      "zh": "Apple TV遥控器",
+      "vi": "Apple TV Remote"
+    },
+    "231": {
+      "zh": "通用",
+      "vi": "Cài đặt chung"
+    },
+    "232": {
+      "zh": "引导式访问",
+      "vi": "Truy cập được hướng dẫn"
+    },
+    "233": {
+      "zh": "辅助访问",
+      "vi": "Truy cập được hỗ trợ"
+    },
+    "234": {
+      "zh": "辅助功能快捷键",
+      "vi": "Phím tắt trợ năng"
+    },
+    "235": {
+      "zh": "按App启用设置",
+      "vi": "Cài đặt theo ứng dụng"
+    },
+    "236": {
+      "zh": "共享辅助功能设置",
+      "vi": "Chia sẻ cài đặt Trợ năng"
+    },
+    "237": {
+      "zh": "静音模式",
+      "vi": "Chế độ im lặng"
+    },
+    "238": {
+      "zh": "为通话和提醒切换静音和响铃。",
+      "vi": "Chuyển đổi giữa chế độ Im lặng và Chuông cho cuộc gọi và cảnh báo."
+    },
+    "239": {
+      "zh": "相机",
+      "vi": "Camera"
+    },
+    "240": {
+      "zh": "录制视频",
+      "vi": "Quay video"
+    },
+    "241": {
+      "zh": "录制慢动作视频",
+      "vi": "Quay chậm"
+    },
+    "242": {
+      "zh": "录制电影效果视频",
+      "vi": "Quay video Điện ảnh"
+    },
+    "243": {
+      "zh": "录音",
+      "vi": "Bản ghi âm thanh"
+    },
+    "244": {
+      "zh": "立体声",
+      "vi": "Stereo"
+    },
+    "245": {
+      "zh": "格式",
+      "vi": "Định dạng"
+    },
+    "246": {
+      "zh": "保留设置",
+      "vi": "Bảo lưu cài đặt"
+    },
+    "247": {
+      "zh": "使用调高音量键连拍",
+      "vi": "Chụp liên tục bằng nút Tăng âm lượng"
+    },
+    "248": {
+      "zh": "扫描二维码",
+      "vi": "Quét mã QR"
+    },
+    "249": {
+      "zh": "显示检测到的文本",
+      "vi": "Hiển thị văn bản đã phát hiện"
+    },
+    "250": {
+      "zh": "构图",
+      "vi": "Bố cục"
+    },
+    "251": {
+      "zh": "网格",
+      "vi": "Lưới"
+    },
+    "252": {
+      "zh": "水平",
+      "vi": "Cân bằng"
+    },
+    "253": {
+      "zh": "镜像前置镜头",
+      "vi": "✎ Đối xứng ống kính trước"
+    },
+    "254": {
+      "zh": "查看超取景框取景",
+      "vi": "Xem bên ngoài khung hình"
+    },
+    "255": {
+      "zh": "指示器",
+      "vi": "Chỉ báo"
+    },
+    "256": {
+      "zh": "照片拍摄",
+      "vi": "Chụp ảnh"
+    },
+    "257": {
+      "zh": "摄影风格",
+      "vi": "Phong cách nhiếp ảnh"
+    },
+    "258": {
+      "zh": "将你的个人审美带进摄影作品，使照片更加个性化。“摄影风格”使用先进的场景理解技术对照片各部分进行恰到好处的调整。",
+      "parts": [
+        {
+          "zh": "将你的个人审美带进摄影作品，使照片更加个性化。",
+          "vi": "Cá nhân hóa giao diện ảnh của bạn bằng cách đưa các tùy chọn của bạn vào ảnh chụp."
+        },
+        {
+          "zh": "“摄影风格”使用先进的场景理解技术对照片各部分进行恰到好处的调整。",
+          "vi": "Phong cách nhiếp ảnh sử dụng tính năng nhận biết cảnh nâng cao để áp dụng mức độ điều chỉnh phù hợp cho các phần khác nhau của ảnh."
+        }
+      ]
+    },
+    "259": {
+      "zh": "主相机",
+      "vi": "Camera chính"
+    },
+    "260": {
+      "zh": "照片模式下的人像",
+      "vi": "Chân dung trong chế độ Ảnh"
+    },
+    "261": {
+      "zh": "照片模式下，若人物、猫狗在取景框处于显著位置，则自动捕捉景深信息，以便你稍后应用“人像”效果。",
+      "vi": "Tự động thu dữ liệu thông tin chiều sâu nếu một người, một con chó hoặc một con mèo nổi bật trong khung hình ở chế độ Ảnh để bạn có thể áp dụng các hiệu ứng Chân dung sau này."
+    },
+    "262": {
+      "zh": "优先快速拍摄",
+      "vi": "Ưu tiên chụp nhanh hơn"
+    },
+    "263": {
+      "zh": "快速按下快门时，智能调整图像质量。",
+      "vi": "Điều chỉnh chất lượng hình ảnh thông minh khi nhấn nhanh nút chụp."
+    },
+    "264": {
+      "zh": "镜头校正",
+      "vi": "Hiệu chỉnh ống kính"
+    },
+    "265": {
+      "zh": "校正前置和超广角相机的镜头扭曲。",
+      "vi": "Hiệu chỉnh méo ống kính trên các camera trước và Cực rộng."
+    },
+    "266": {
+      "zh": "微距控制",
+      "vi": "Điều khiển macro"
+    },
+    "267": {
+      "zh": "显示自动切换超广角相机的控制，拍摄微距照片和视频。",
+      "vi": "Hiển thị điều khiển để tự động chuyển sang camera Cực rộng cho việc chụp ảnh và quay video macro."
+    },
+    "268": {
+      "zh": "镜头清洁提示",
+      "vi": "Gợi ý làm sạch ống kính"
+    },
+    "269": {
+      "zh": "在相机镜头需要清洁以提升图像质量时，显示建议。",
+      "vi": "Hiển thị gợi ý thời điểm cần vệ sinh ống kính camera để cải thiện chất lượng hình ảnh."
+    },
+    "270": {
+      "zh": "轻扫锁定屏幕打开相机",
+      "vi": "Vuốt màn hình khóa để mở Camera"
+    },
+    "271": {
+      "zh": "在锁定屏幕上向左轻扫快速访问“相机”。",
+      "vi": "✎ Vuốt sang trái trên Màn hình khóa để mở nhanh Camera."
+    },
+    "272": {
+      "zh": "信息",
+      "vi": "Tin nhắn"
+    },
+    "273": {
+      "zh": "将拍摄内容保存到照片图库",
+      "vi": "Lưu vào Thư viện ảnh"
+    },
+    "274": {
+      "zh": "自动将“信息”中相机的拍摄内容保存到照片图库。",
+      "vi": "Tự động lưu ảnh chụp trong ứng dụng Camera trong Tin nhắn vào Thư viện ảnh."
+    },
+    "275": {
+      "zh": "BETA版",
+      "vi": "BETA"
+    },
+    "276": {
+      "zh": "Apple智能与Siri",
+      "vi": "Apple Intelligence & Siri"
+    },
+    "277": {
+      "zh": "深度集成至iPhone、App和Siri的个人智能系统。",
+      "vi": "✎ Hệ thống trí tuệ cá nhân được tích hợp sâu vào iPhone, các ứng dụng và Siri."
+    },
+    "278": {
+      "zh": "Siri请求",
+      "vi": "Yêu cầu Siri"
+    },
+    "279": {
+      "zh": "语言",
+      "vi": "Ngôn ngữ"
+    },
+    "280": {
+      "zh": "英语（美国）",
+      "vi": "Tiếng Anh (Mỹ)"
+    },
+    "281": {
+      "zh": "通过说话使用Siri",
+      "vi": "Nói với Siri"
+    },
+    "282": {
+      "zh": "锁定时允许使用Siri",
+      "vi": "Cho phép Siri khi bị khóa"
+    },
+    "283": {
+      "zh": "声音",
+      "vi": "Giọng nói"
+    },
+    "284": {
+      "zh": "Siri回应",
+      "vi": "Phản hồi của Siri"
+    },
+    "285": {
+      "zh": "通话挂断",
+      "vi": "Gác máy cuộc gọi"
+    },
+    "286": {
+      "zh": "关闭",
+      "vi": "Tắt"
+    },
+    "287": {
+      "zh": "播报来电",
+      "vi": "Thông báo cuộc gọi"
+    },
+    "288": {
+      "zh": "播报通知",
+      "vi": "Đọc thông báo"
+    },
+    "289": {
+      "zh": "通过Siri发送信息",
+      "vi": "Nhắn tin bằng Siri"
+    },
+    "290": {
+      "zh": "Siri与听写历史记录",
+      "vi": "Lịch sử Siri & Đọc chính tả"
+    },
+    "291": {
+      "zh": "我的信息",
+      "vi": "Thông tin của tôi"
+    },
+    "292": {
+      "zh": "无",
+      "vi": "Không có"
+    },
+    "293": {
+      "zh": "语音输入会在iPhone上处理，但请求的听写文本可能会发送给Apple。",
+      "vi": "Dữ liệu nhập bằng giọng nói được xử lý trên iPhone, nhưng bản chép lại các yêu cầu của bạn có thể được gửi đến Apple."
+    },
+    "294": {
+      "zh": "扩展",
+      "vi": "Phần mở rộng"
+    },
+    "295": {
+      "zh": "扩展Apple智能需要先启用Apple智能。",
+      "vi": "Để mở rộng Apple Intelligence, bạn cần bật Apple Intelligence trước tiên."
+    },
+    "296": {
+      "zh": "建议",
+      "vi": "Gợi ý"
+    },
+    "297": {
+      "zh": "搜索前建议App",
+      "vi": "Gợi ý ứng dụng trước khi tìm kiếm"
+    },
+    "298": {
+      "zh": "还原已隐藏的建议",
+      "vi": "Đặt lại các gợi ý bị ẩn"
+    },
+    "299": {
+      "zh": "允许通知",
+      "vi": "Cho phép thông báo"
+    },
+    "300": {
+      "zh": "在App资源库中显示",
+      "vi": "Trong Thư viện ứng dụng"
+    },
+    "301": {
+      "zh": "共享时显示",
+      "vi": "Hiển thị khi đang chia sẻ"
+    },
+    "302": {
+      "zh": "显示聆听建议",
+      "vi": "Hiển thị các gợi ý nghe"
+    },
+    "303": {
+      "zh": "Apple可在“搜索”、主屏幕和锁定屏幕中，在你共享内容或可能想要聆听媒体时，为你提供建议。",
+      "vi": "Apple có thể đưa ra các gợi ý trong Tìm kiếm, trên Màn hình chính và Màn hình khóa, khi chia sẻ hoặc khi bạn có thể muốn nghe phương tiện."
+    },
+    "304": {
+      "zh": "Apple智能和Siri的App访问",
+      "vi": "Apple Intelligence và Quyền truy cập ứng dụng của Siri"
+    },
+    "305": {
+      "zh": "轻App",
+      "vi": "Ứng dụng thu nhỏ"
+    },
+    "306": {
+      "zh": "Apple智能专为隐私而构建。你的数据不会与Apple共享。",
+      "parts": [
+        {
+          "zh": "Apple智能专为隐私而构建。",
+          "vi": "Apple Intelligence được xây dựng cho quyền riêng tư."
+        },
+        {
+          "zh": "你的数据不会与Apple共享。",
+          "vi": "Dữ liệu của bạn không được chia sẻ với Apple."
+        }
+      ]
+    },
+    "307": {
+      "zh": "搜索",
+      "vi": "Tìm kiếm"
+    },
+    "308": {
+      "zh": "显示最近搜索",
+      "vi": "Hiển thị tìm kiếm gần đây"
+    },
+    "309": {
+      "zh": "显示相关内容",
+      "vi": "Hiển thị nội dung liên quan"
+    },
+    "310": {
+      "zh": "搜索或查询照片中的文字或物品时，允许显示来自Apple及其他合作方的内容。",
+      "vi": "Cho phép hiển thị nội dung từ Apple và các đối tác khác khi tìm kiếm hoặc khi tra cứu văn bản hay đối tượng trong ảnh."
+    },
+    "311": {
+      "zh": "搜索引擎",
+      "vi": "Công cụ tìm kiếm"
+    },
+    "312": {
+      "zh": "帮助Apple改进搜索",
+      "vi": "Giúp Apple cải thiện Tìm kiếm"
+    },
+    "313": {
+      "zh": "允许Apple以不与你关联的方式储存你输入Safari浏览器、Siri和“聚焦”的搜索内容，帮助改进搜索。",
+      "vi": "✎ Cho phép Apple lưu những gì bạn tìm trong Safari, Siri và Spotlight theo cách không gắn với bạn, để giúp cải thiện tìm kiếm."
+    },
+    "314": {
+      "zh": "搜索包括通识查询和执行操作的请求，如播放音乐和获取路线。",
+      "vi": "✎ Tìm kiếm gồm các câu hỏi kiến thức chung và các yêu cầu thực hiện thao tác, như phát nhạc hay chỉ đường."
+    },
+    "315": {
+      "zh": "轻App",
+      "vi": "Ứng dụng thu nhỏ"
+    },
+    "316": {
+      "zh": "控制中心",
+      "vi": "Trung tâm điều khiển"
+    },
+    "317": {
+      "zh": "自定义控制中心",
+      "vi": "Tùy chỉnh Trung tâm điều khiển"
+    },
+    "318": {
+      "zh": "从屏幕右上方边缘向下轻扫打开控制中心。还可添加、重新排列和调整任意控制的大小。",
+      "parts": [
+        {
+          "zh": "从屏幕右上方边缘向下轻扫打开控制中心。",
+          "vi": "Vuốt từ cạnh trên cùng bên phải xuống để mở Trung tâm điều khiển."
+        },
+        {
+          "zh": "还可添加、重新排列和调整任意控制的大小。",
+          "vi": "Thêm, sắp xếp lại và định cỡ lại bất kỳ điều khiển nào."
+        }
+      ]
+    },
+    "319": {
+      "zh": "App内访问",
+      "vi": "Truy cập bên trong ứng dụng"
+    },
+    "320": {
+      "zh": "允许在App内访问控制中心。停用后，你仍然可以从主屏幕访问控制中心。",
+      "parts": [
+        {
+          "zh": "允许在App内访问控制中心。",
+          "vi": "Cho phép truy cập vào Trung tâm điều khiển từ bên trong các ứng dụng."
+        },
+        {
+          "zh": "停用后，你仍然可以从主屏幕访问控制中心。",
+          "vi": "Khi được tắt, bạn vẫn có thể truy cập Trung tâm điều khiển từ Màn hình chính."
+        }
+      ]
+    },
+    "321": {
+      "zh": "还原控制中心",
+      "vi": "Đặt lại Trung tâm điều khiển"
+    },
+    "322": {
+      "zh": "这会将控制中心还原为出厂默认布局。",
+      "vi": "Thao tác này sẽ đặt lại bố cục Trung tâm điều khiển của bạn về mặc định ban đầu."
+    },
+    "323": {
+      "zh": "显示与亮度",
+      "vi": "Màn hình & Độ sáng"
+    },
+    "324": {
+      "zh": "外观",
+      "vi": "Giao diện"
+    },
+    "325": {
+      "zh": "浅色",
+      "vi": "Sáng"
+    },
+    "326": {
+      "zh": "深色",
+      "vi": "Tối"
+    },
+    "327": {
+      "zh": "自动",
+      "vi": "Tự động"
+    },
+    "328": {
+      "zh": "透明",
+      "vi": "trong suốt"
+    },
+    "329": {
+      "zh": "选取喜欢的Liquid Glass外观。",
+      "vi": "Chọn giao diện ưu tiên của bạn cho Liquid Glass."
+    },
+    "330": {
+      "zh": "文字大小",
+      "vi": "Cỡ chữ"
+    },
+    "331": {
+      "zh": "粗体文本",
+      "vi": "Chữ đậm"
+    },
+    "332": {
+      "zh": "亮度",
+      "vi": "Độ sáng"
+    },
+    "333": {
+      "zh": "屏幕亮度",
+      "vi": "Độ sáng màn hình"
+    },
+    "334": {
+      "zh": "原彩显示",
+      "vi": "True Tone"
+    },
+    "335": {
+      "zh": "根据环境光条件自动调整iPhone屏幕以在不同环境下保持色彩显示一致。",
+      "vi": "✎ Tự điều chỉnh màn hình iPhone theo ánh sáng xung quanh để màu sắc hiển thị nhất quán ở mọi môi trường."
+    },
+    "336": {
+      "zh": "夜览",
+      "vi": "Night Shift"
+    },
+    "337": {
+      "zh": "关闭",
+      "vi": "Tắt"
+    },
+    "338": {
+      "zh": "自动锁定",
+      "vi": "Tự động khóa"
+    },
+    "339": {
+      "zh": "1分钟",
+      "vi": "1 phút"
+    },
+    "340": {
+      "zh": "抬起唤醒",
+      "vi": "Đưa lên để bật"
+    },
+    "341": {
+      "zh": "全天候显示屏",
+      "vi": "Màn hình luôn bật"
+    },
+    "342": {
+      "zh": "全天候显示屏会调暗锁定屏幕，但仍会在尽可能低耗电的前提下，保持时间、小组件和通知等信息可见。",
+      "vi": "Màn hình luôn bật sẽ giảm độ sáng Màn hình khóa trong khi hiển thị các thông tin như thời gian, tiện ích và thông báo bằng nguồn điện tối thiểu."
+    },
+    "343": {
+      "zh": "显示",
+      "vi": "Màn hình"
+    },
+    "344": {
+      "zh": "选取iPhone的显示方式。“更大字体”会显示更大的控制项。“默认”会显示更多的内容。",
+      "parts": [
+        {
+          "zh": "选取iPhone的显示方式。",
+          "vi": "✎ Chọn cách iPhone hiển thị."
+        },
+        {
+          "zh": "“更大字体”会显示更大的控制项。",
+          "vi": "\"Chữ lớn hơn\" hiển thị các điều khiển lớn hơn."
+        },
+        {
+          "zh": "“默认”会显示更多的内容。",
+          "vi": "\"Mặc định\" hiển thị nhiều nội dung hơn."
+        }
+      ]
+    },
+    "345": {
+      "zh": "缩放显示",
+      "vi": "Thu phóng màn hình"
+    },
+    "346": {
+      "zh": "默认",
+      "vi": "Mặc định"
+    },
+    "347": {
+      "zh": "主屏幕与App资源库",
+      "vi": "Màn hình chính & Thư viện ứng dụng"
+    },
+    "348": {
+      "zh": "新下载的App",
+      "vi": "Ứng dụng mới tải về"
+    },
+    "349": {
+      "zh": "添加到主屏幕",
+      "vi": "Thêm vào Màn hình chính"
+    },
+    "350": {
+      "zh": "仅App资源库",
+      "vi": "Chỉ Thư viện ứng dụng"
+    },
+    "351": {
+      "zh": "通知标记",
+      "vi": "Biểu tượng thông báo"
+    },
+    "352": {
+      "zh": "在App资源库中显示",
+      "vi": "Trong Thư viện ứng dụng"
+    },
+    "353": {
+      "zh": "搜索",
+      "vi": "Tìm kiếm"
+    },
+    "354": {
+      "zh": "在主屏幕上显示",
+      "vi": "Hiển thị trên Màn hình chính"
+    },
+    "355": {
+      "zh": "待机显示",
+      "vi": "Chế độ chờ"
+    },
+    "356": {
+      "zh": "iPhone充电并横向放置时将打开待机显示，以显示小组件、照片或时钟等信息。",
+      "vi": "✎ Khi iPhone đang sạc và đặt nằm ngang, Chế độ chờ sẽ bật để hiển thị tiện ích, ảnh, đồng hồ và các thông tin khác."
+    },
+    "357": {
+      "zh": "显示屏",
+      "vi": "Màn hình"
+    },
+    "358": {
+      "zh": "通知",
+      "vi": "Thông báo"
+    },
+    "359": {
+      "zh": "显示通知",
+      "vi": "Hiển thị thông báo"
+    },
+    "360": {
+      "zh": "若关闭此开关，重要通知仍将在待机显示中显示。",
+      "vi": "✎ Nếu tắt công tắc này, thông báo quan trọng vẫn sẽ hiển thị trong Chế độ chờ."
+    },
+    "361": {
+      "zh": "仅轻点时显示预览",
+      "vi": "Chỉ hiển thị bản xem trước khi chạm"
+    },
+    "362": {
+      "zh": "待机显示可在你轻点前隐藏通知预览。",
+      "vi": "Chế độ chờ có thể ẩn bản xem trước của thông báo đến khi bạn chạm vào thông báo."
+    },
+    "363": {
+      "zh": "墙纸",
+      "vi": "Hình nền"
+    },
+    "364": {
+      "zh": "当前",
+      "vi": "Hiện tại"
+    },
+    "365": {
+      "zh": "锁定屏幕墙纸",
+      "vi": "Hình nền màn hình khóa"
+    },
+    "366": {
+      "zh": "主屏幕墙纸",
+      "vi": "Hình nền màn hình chính"
+    },
+    "367": {
+      "zh": "添加新墙纸",
+      "vi": "Thêm hình nền mới"
+    },
+    "368": {
+      "zh": "添加",
+      "vi": "Thêm"
+    },
+    "369": {
+      "zh": "自定义",
+      "vi": "Tùy chỉnh"
+    },
+    "370": {
+      "zh": "从锁定屏幕更改墙纸",
+      "vi": "Thay đổi hình nền của bạn từ Màn hình khóa"
+    },
+    "371": {
+      "zh": "按住锁定屏幕添加、编辑墙纸和小组件，或在不同墙纸和小组件之间切换。",
+      "vi": "Từ Màn hình khóa của bạn, chạm và giữ để thêm, sửa hoặc chuyển đổi giữa các hình nền và tiện ích khác nhau."
+    },
+    "372": {
+      "zh": "通知",
+      "vi": "Thông báo"
+    },
+    "373": {
+      "zh": "数量",
+      "vi": "Số lượng"
+    },
+    "374": {
+      "zh": "叠放",
+      "vi": "Ngăn xếp"
+    },
+    "375": {
+      "zh": "列表",
+      "vi": "Danh sách"
+    },
+    "376": {
+      "zh": "选取通知的默认显示方式。",
+      "vi": "Chọn cách xuất hiện mặc định cho các thông báo."
+    },
+    "377": {
+      "zh": "定时推送摘要",
+      "vi": "Tóm tắt theo lịch trình"
+    },
+    "378": {
+      "zh": "关",
+      "vi": "Tắt"
+    },
+    "379": {
+      "zh": "显示预览",
+      "vi": "Hiển thị bản xem trước"
+    },
+    "380": {
+      "zh": "解锁时",
+      "vi": "Khi mở khóa"
+    },
+    "381": {
+      "zh": "屏幕共享",
+      "vi": "Chia sẻ màn hình"
+    },
+    "382": {
+      "zh": "关闭通知",
+      "vi": "Tắt thông báo"
+    },
+    "383": {
+      "zh": "播报通知",
+      "vi": "Đọc thông báo"
+    },
+    "384": {
+      "zh": "开",
+      "vi": "Bật"
+    },
+    "385": {
+      "zh": "Siri建议",
+      "vi": "Gợi ý của Siri"
+    },
+    "386": {
+      "zh": "通知样式",
+      "vi": "Kiểu thông báo"
+    },
+    "387": {
+      "zh": "声效与触感反馈",
+      "vi": "Âm thanh & Cảm ứng"
+    },
+    "388": {
+      "zh": "静音模式",
+      "vi": "Chế độ im lặng"
+    },
+    "389": {
+      "zh": "iPhone将不会播放铃声、提醒和系统声音。iPhone仍将播放闹钟、计时器、音乐和视频音频。",
+      "parts": [
+        {
+          "zh": "iPhone将不会播放铃声、提醒和系统声音。",
+          "vi": "✎ iPhone sẽ không phát nhạc chuông, âm báo và âm thanh hệ thống."
+        },
+        {
+          "zh": "iPhone仍将播放闹钟、计时器、音乐和视频音频。",
+          "vi": "iPhone vẫn phát báo thức, hẹn giờ, nhạc và âm thanh video."
+        }
+      ]
+    },
+    "390": {
+      "zh": "在状态栏显示",
+      "vi": "Hiển thị trong Thanh trạng thái"
+    },
+    "391": {
+      "zh": "输入",
+      "vi": "Đầu vào"
+    },
+    "392": {
+      "zh": "iPhone麦克风",
+      "vi": "Micrô của iPhone"
+    },
+    "393": {
+      "zh": "铃声和提醒",
+      "vi": "Nhạc chuông và cảnh báo"
+    },
+    "394": {
+      "zh": "音量",
+      "vi": "Âm lượng"
+    },
+    "395": {
+      "zh": "用按钮调整",
+      "vi": "Thay đổi bằng nút"
+    },
+    "396": {
+      "zh": "触感反馈",
+      "vi": "Cảm ứng"
+    },
+    "397": {
+      "zh": "始终提供",
+      "vi": "Luôn phát"
+    },
+    "398": {
+      "zh": "音量按钮不会影响铃声和提醒的音量。",
+      "vi": "Các nút âm lượng sẽ không ảnh hưởng đến âm lượng của nhạc chuông và cảnh báo."
+    },
+    "399": {
+      "zh": "电话铃声",
+      "vi": "Nhạc chuông"
+    },
+    "400": {
+      "zh": "短信铃声",
+      "vi": "Âm báo tin nhắn"
+    },
+    "401": {
+      "zh": "音符",
+      "vi": "Nốt nhạc"
+    },
+    "402": {
+      "zh": "收到新语音留言",
+      "vi": "Thư thoại mới"
+    },
+    "403": {
+      "zh": "水滴",
+      "vi": "Giọt nước"
+    },
+    "404": {
+      "zh": "收到新邮件",
+      "vi": "Thư mới"
+    },
+    "405": {
+      "zh": "无",
+      "vi": "Không có"
+    },
+    "406": {
+      "zh": "发送邮件",
+      "vi": "Thư đã gửi"
+    },
+    "407": {
+      "zh": "嗖",
+      "vi": "Xoáy nước"
+    },
+    "408": {
+      "zh": "发送邮件",
+      "vi": "Thư đã gửi"
+    },
+    "409": {
+      "zh": "嗖",
+      "vi": "Xoáy nước"
+    },
+    "410": {
+      "zh": "日历提醒",
+      "vi": "Cảnh báo lịch"
+    },
+    "411": {
+      "zh": "和弦",
+      "vi": "Đàn dây"
+    },
+    "412": {
+      "zh": "提醒事项的提醒",
+      "vi": "Cảnh báo Lời nhắc"
+    },
+    "413": {
+      "zh": "默认提醒",
+      "vi": "Cảnh báo mặc định"
+    },
+    "414": {
+      "zh": "反弹",
+      "vi": "Bật nảy"
+    },
+    "415": {
+      "zh": "键盘反馈",
+      "vi": "Phản hồi bàn phím"
+    },
+    "416": {
+      "zh": "声效反馈",
+      "vi": "Âm thanh"
+    },
+    "417": {
+      "zh": "锁定声",
+      "vi": "Âm thanh khóa"
+    },
+    "418": {
+      "zh": "系统触感反馈",
+      "vi": "Cảm ứng hệ thống"
+    },
+    "419": {
+      "zh": "为系统控制和互动提供触感反馈。",
+      "vi": "Phát cảm ứng cho các tương tác và điều khiển hệ thống."
+    },
+    "420": {
+      "zh": "内建扬声器",
+      "vi": "Loa tích hợp"
+    },
+    "421": {
+      "zh": "音量限制",
+      "vi": "Giới hạn âm lượng"
+    },
+    "422": {
+      "zh": "降低高音量",
+      "vi": "Giảm âm thanh lớn"
+    },
+    "423": {
+      "zh": "降低音频音量范围并创建更柔和的声效，同时保留歌曲、电影及其他媒体中原始音频的安静细节。",
+      "vi": "Giảm mức âm lượng và tạo hiệu ứng âm thanh nhẹ nhàng hơn, nhưng vẫn duy trì các chi tiết nhỏ của âm thanh gốc từ các bài hát, phim, cũng như phương tiện khác."
+    },
+    "424": {
+      "zh": "耳机",
+      "vi": "Tai nghe"
+    },
+    "425": {
+      "zh": "耳机安全",
+      "vi": "An toàn tai nghe"
+    },
+    "426": {
+      "zh": "个性化空间音频",
+      "vi": "Âm thanh không gian cá nhân hóa"
+    },
+    "427": {
+      "zh": "添加",
+      "vi": "Thêm"
+    },
+    "428": {
+      "zh": "专注模式",
+      "vi": "Tập trung"
+    },
+    "429": {
+      "zh": "勿扰模式",
+      "vi": "Không làm phiền"
+    },
+    "430": {
+      "zh": "减少干扰",
+      "vi": "Giảm gián đoạn"
+    },
+    "431": {
+      "zh": "睡眠",
+      "vi": "Ngủ"
+    },
+    "432": {
+      "zh": "个人",
+      "vi": "Cá nhân"
+    },
+    "433": {
+      "zh": "设置",
+      "vi": "Cài đặt"
+    },
+    "434": {
+      "zh": "工作",
+      "vi": "Làm việc"
+    },
+    "435": {
+      "zh": "专注模式可让你自定义设备并静音来电和通知。请在控制中心打开或关闭此功能。",
+      "parts": [
+        {
+          "zh": "专注模式可让你自定义设备并静音来电和通知。",
+          "vi": "Chế độ tập trung cho phép bạn tùy chỉnh các thiết bị và tắt tiếng các cuộc gọi và thông báo."
+        },
+        {
+          "zh": "请在控制中心打开或关闭此功能。",
+          "vi": "Bật và tắt chế độ tập trung trong Trung tâm điều khiển."
+        }
+      ]
+    },
+    "436": {
+      "zh": "在设备之间共享",
+      "vi": "Chia sẻ trên các thiết bị"
+    },
+    "437": {
+      "zh": "专注模式已在你的设备间共享。在此设备上打开一个专注模式将同时在所有设备上将其打开。",
+      "vi": "Chế độ tập trung được chia sẻ trên các thiết bị của bạn và việc bật một chế độ cho thiết bị này sẽ bật chế độ đó cho tất cả các thiết bị."
+    },
+    "438": {
+      "zh": "专注模式状态",
+      "vi": "Trạng thái tập trung"
+    },
+    "439": {
+      "zh": "打开",
+      "vi": "Bật"
+    },
+    "440": {
+      "zh": "若获得你的许可，App可在你使用专注模式时，与他人共享你已静音通知。",
+      "vi": "Khi bạn cấp phép cho một ứng dụng, ứng dụng đó có thể chia sẻ rằng bạn đã tắt tiếng thông báo khi sử dụng chế độ tập trung."
+    },
+    "441": {
+      "zh": "屏幕时间",
+      "vi": "Thời gian sử dụng"
+    },
+    "442": {
+      "zh": "每周用量图表",
+      "vi": "Biểu đồ sử dụng hàng tuần"
+    },
+    "443": {
+      "zh": "查看所有App与网站活动",
+      "vi": "Xem Hoạt động ứng dụng & web"
+    },
+    "444": {
+      "zh": "使用限制",
+      "vi": "Giới hạn sử dụng"
+    },
+    "445": {
+      "zh": "停用时间",
+      "vi": "Giờ nghỉ"
+    },
+    "446": {
+      "zh": "设定时间远离屏幕",
+      "vi": "Đặt lịch trình thời gian không sử dụng màn hình"
+    },
+    "447": {
+      "zh": "App限额",
+      "vi": "Giới hạn ứng dụng"
+    },
+    "448": {
+      "zh": "为App设置时间限额",
+      "vi": "Đặt giới hạn thời gian cho ứng dụng"
+    },
+    "449": {
+      "zh": "始终允许",
+      "vi": "Luôn cho phép"
+    },
+    "450": {
+      "zh": "选取始终允许的App",
+      "vi": "Chọn các ứng dụng sẽ cho phép mọi lúc"
+    },
+    "451": {
+      "zh": "屏幕距离",
+      "vi": "Khoảng cách màn hình"
+    },
+    "452": {
+      "zh": "缓解视力疲劳",
+      "vi": "Giảm mỏi mắt"
+    },
+    "453": {
+      "zh": "通信",
+      "vi": "Liên lạc"
+    },
+    "454": {
+      "zh": "限定通信",
+      "vi": "Giới hạn liên lạc"
+    },
+    "455": {
+      "zh": "设定通话和信息限制",
+      "vi": "Đặt giới hạn cho việc gọi điện và nhắn tin"
+    },
+    "456": {
+      "zh": "通信安全",
+      "vi": "Liên lạc an toàn"
+    },
+    "457": {
+      "zh": "远离敏感内容",
+      "vi": "Bảo vệ khỏi nội dung nhạy cảm"
+    },
+    "458": {
+      "zh": "限制",
+      "vi": "Giới hạn"
+    },
+    "459": {
+      "zh": "内容与隐私限制",
+      "vi": "Bật giới hạn"
+    },
+    "460": {
+      "zh": "管理内容、App和设置",
+      "vi": "Quản lý nội dung, ứng dụng và cài đặt"
+    },
+    "461": {
+      "zh": "锁定屏幕时间设置",
+      "vi": "Khóa cài đặt Thời gian sử dụng"
+    },
+    "462": {
+      "zh": "使用密码保障“屏幕时间”设置。",
+      "vi": "Sử dụng mật mã để bảo mật cài đặt Thời gian sử dụng."
+    },
+    "463": {
+      "zh": "在设备之间共享",
+      "vi": "Chia sẻ trên các thiết bị"
+    },
+    "464": {
+      "zh": "你可以在任何已登录iCloud的设备上启用此功能，同步“屏幕时间”设置。",
+      "vi": "Bạn có thể bật tính năng này trên bất kỳ thiết bị nào được đăng nhập vào iCloud để đồng bộ hóa cài đặt Thời gian sử dụng."
+    },
+    "465": {
+      "zh": "关闭App与网站活动",
+      "vi": "Tắt Hoạt động ứng dụng & web"
+    },
+    "466": {
+      "zh": "关闭“App与网站活动”会停用实时报告、停用时间、App限额和“始终允许”。",
+      "vi": "Việc tắt Hoạt động ứng dụng & web sẽ tắt tính năng báo cáo thời gian thực, Giờ nghỉ, Giới hạn ứng dụng và Luôn cho phép."
+    },
+    "467": {
+      "zh": "SOS紧急联络",
+      "vi": "SOS khẩn cấp"
+    },
+    "468": {
+      "zh": "按住侧边按钮和任一音量按钮进行紧急呼叫。在某些地区，你可能需要指定要拨打的紧急服务。“自动呼叫”需要SIM卡。",
+      "parts": [
+        {
+          "zh": "按住侧边按钮和任一音量按钮进行紧急呼叫。",
+          "vi": "Nhấn và giữ nút sườn và một trong hai nút âm lượng để thực hiện cuộc gọi khẩn cấp."
+        },
+        {
+          "zh": "在某些地区，你可能需要指定要拨打的紧急服务。",
+          "vi": "Tại các vùng nhất định, có thể bạn cần chỉ định dịch vụ khẩn cấp sẽ gọi."
+        },
+        {
+          "zh": "“自动呼叫”需要SIM卡。",
+          "vi": "Tính năng Tự động gọi yêu cầu thẻ SIM."
+        }
+      ]
+    },
+    "469": {
+      "zh": "按住再松开进行呼叫",
+      "vi": "Gọi bằng cách giữ và thả"
+    },
+    "470": {
+      "zh": "若持续按住侧边按钮和任一音量按钮，会开始倒计时并发出提示音。倒计时结束后，若松开按钮，iPhone将呼叫紧急服务。",
+      "vi": "Nếu bạn giữ liên tục nút sườn và một trong hai nút âm lượng thì quá trình đếm ngược sẽ bắt đầu và âm thanh cảnh báo sẽ phát. Sau khi đếm ngược, nếu bạn thả các nút ra thì iPhone sẽ gọi các dịch vụ khẩn cấp."
+    },
+    "471": {
+      "zh": "按5次按钮呼叫",
+      "vi": "Gọi bằng cách nhấn nút 5 lần"
+    },
+    "472": {
+      "zh": "若快速按下侧边按钮五次，会开始倒计时并发出提示音。倒计时结束后，iPhone将呼叫紧急服务。",
+      "parts": [
+        {
+          "zh": "若快速按下侧边按钮五次，会开始倒计时并发出提示音。",
+          "vi": "Nếu bạn nhấn nhanh nút sườn năm lần thì quá trình đếm ngược sẽ bắt đầu và âm thanh cảnh báo sẽ phát."
+        },
+        {
+          "zh": "倒计时结束后，iPhone将呼叫紧急服务。",
+          "vi": "Khi đếm ngược kết thúc, iPhone sẽ gọi các dịch vụ khẩn cấp."
+        }
+      ]
+    },
+    "473": {
+      "zh": "隐式呼叫",
+      "vi": "Gọi trong yên lặng"
+    },
+    "474": {
+      "zh": "使用“按住再松开”或“按5次按钮”进行紧急呼叫时，警示音、闪烁和旁白音频将静音。",
+      "vi": "Âm thanh cảnh báo, đèn flash và âm thanh VoiceOver sẽ được tắt tiếng khi sử dụng “Giữ và thả” hoặc “Nhấn nút 5 lần” để thực hiện cuộc gọi khẩn cấp."
+    },
+    "475": {
+      "zh": "在“健康”中设置紧急联系人",
+      "vi": "Tạo liên hệ khẩn cấp trong Sức khỏe"
+    },
+    "476": {
+      "zh": "车祸检测",
+      "vi": "Phát hiện va chạm"
+    },
+    "477": {
+      "zh": "发生严重车祸后呼叫",
+      "vi": "Gọi sau khi va chạm mạnh"
+    },
+    "478": {
+      "zh": "你可以在“医疗急救卡”中添加或删除“SOS紧急联络”联系人。仅手机号码可接收SOS紧急联络提醒。",
+      "parts": [
+        {
+          "zh": "你可以在“医疗急救卡”中添加或删除“SOS紧急联络”联系人。",
+          "vi": "✎ Bạn có thể thêm hoặc xóa liên hệ SOS khẩn cấp trong ID y tế."
+        },
+        {
+          "zh": "仅手机号码可接收SOS紧急联络提醒。",
+          "vi": "Chỉ số điện thoại di động mới nhận được cảnh báo SOS khẩn cấp."
+        }
+      ]
+    },
+    "479": {
+      "zh": "关于SOS紧急联络与隐私",
+      "vi": "Giới thiệu về SOS khẩn cấp & Quyền riêng tư"
+    },
+    "480": {
+      "zh": "隐私与安全性",
+      "vi": "Quyền riêng tư & Bảo mật"
+    },
+    "481": {
+      "zh": "控制哪些App可访问你的数据、位置、相机和麦克风，以及管理安全保护。",
+      "vi": "✎ Kiểm soát ứng dụng nào được truy cập dữ liệu, vị trí, camera và micrô của bạn, và quản lý các lớp bảo vệ an toàn."
+    },
+    "482": {
+      "zh": "定位服务",
+      "vi": "Dịch vụ định vị"
+    },
+    "483": {
+      "zh": "跟踪",
+      "vi": "Theo dõi"
+    },
+    "484": {
+      "zh": "日历",
+      "vi": "Lịch"
+    },
+    "485": {
+      "zh": "通讯录",
+      "vi": "Danh bạ"
+    },
+    "486": {
+      "zh": "文件与文件夹",
+      "vi": "Tệp & Thư mục"
+    },
+    "487": {
+      "zh": "专注模式",
+      "vi": "Tập trung"
+    },
+    "488": {
+      "zh": "1个App",
+      "vi": "1 ứng dụng"
+    },
+    "489": {
+      "zh": "健康",
+      "vi": "Sức khỏe"
+    },
+    "490": {
+      "zh": "无",
+      "vi": "Không có"
+    },
+    "491": {
+      "zh": "家庭",
+      "vi": "Nhà"
+    },
+    "492": {
+      "zh": "媒体与Apple Music",
+      "vi": "Phương tiện & Apple Music"
+    },
+    "493": {
+      "zh": "访问网页浏览器的通行密钥",
+      "vi": "Truy cập mã khóa cho trình duyệt web"
+    },
+    "494": {
+      "zh": "照片",
+      "vi": "Ảnh"
+    },
+    "495": {
+      "zh": "提醒事项",
+      "vi": "Lời nhắc"
+    },
+    "496": {
+      "zh": "钱包",
+      "vi": "Ví"
+    },
+    "497": {
+      "zh": "配件",
+      "vi": "Phụ kiện"
+    },
+    "498": {
+      "zh": "蓝牙",
+      "vi": "Bluetooth"
+    },
+    "499": {
+      "zh": "相机",
+      "vi": "Camera"
+    },
+    "500": {
+      "zh": "重要信息",
+      "vi": "Thông báo Quan trọng"
+    },
+    "501": {
+      "zh": "本地网络",
+      "vi": "Mạng cục bộ"
+    },
+    "502": {
+      "zh": "麦克风",
+      "vi": "Micrô"
+    },
+    "503": {
+      "zh": "运动与健身",
+      "vi": "Di chuyển & Thể chất"
+    },
+    "504": {
+      "zh": "附近交互",
+      "vi": "Tương tác gần"
+    },
+    "505": {
+      "zh": "配对设备",
+      "vi": "Thiết bị đã ghép đôi"
+    },
+    "506": {
+      "zh": "研究传感器与使用数据",
+      "vi": "Dữ liệu cảm biến & sử dụng của Nghiên cứu"
+    },
+    "507": {
+      "zh": "语音识别",
+      "vi": "Nhận dạng lời nói"
+    },
+    "508": {
+      "zh": "手记建议",
+      "vi": "Gợi ý ghi nhật ký"
+    },
+    "509": {
+      "zh": "屏蔽的联系人",
+      "vi": "Liên hệ bị chặn"
+    },
+    "510": {
+      "zh": "安全检查",
+      "vi": "Kiểm tra an toàn"
+    },
+    "511": {
+      "zh": "留意哪些人、App和设备有权访问你的信息，从而保护个人安全。",
+      "vi": "Bảo vệ an toàn cá nhân của bạn bằng cách biết được những người, ứng dụng và thiết bị nào có quyền truy cập vào thông tin của bạn."
+    },
+    "512": {
+      "zh": "敏感内容警告",
+      "vi": "Cảnh báo nội dung nhạy cảm"
+    },
+    "513": {
+      "zh": "关闭",
+      "vi": "Tắt"
+    },
+    "514": {
+      "zh": "在iPhone上查看裸体照片和视频之前即进行检测，并接收指导协助作出安全选择。Apple不可访问这些照片或视频。",
+      "vi": "✎ Phát hiện ảnh và video khỏa thân trước khi bạn xem trên iPhone, và nhận hướng dẫn giúp đưa ra lựa chọn an toàn. Apple không thể truy cập những ảnh hay video này."
+    },
+    "515": {
+      "zh": "分析与改进",
+      "vi": "Phân tích & Cải tiến"
+    },
+    "516": {
+      "zh": "Apple广告",
+      "vi": "Quảng cáo của Apple"
+    },
+    "517": {
+      "zh": "透明度日志",
+      "vi": "Bản ghi Tính minh bạch"
+    },
+    "518": {
+      "zh": "App隐私报告",
+      "vi": "Báo cáo bảo mật ứng dụng"
+    },
+    "519": {
+      "zh": "安全性",
+      "vi": "Bảo mật"
+    },
+    "520": {
+      "zh": "开发者模式",
+      "vi": "Chế độ nhà phát triển"
+    },
+    "521": {
+      "zh": "打开",
+      "vi": "Bật"
+    },
+    "522": {
+      "zh": "有线配件",
+      "vi": "Phụ kiện có dây"
+    },
+    "523": {
+      "zh": "解锁后自动允许",
+      "vi": "✎ Tự động cho phép sau khi mở khóa"
+    },
+    "524": {
+      "zh": "后台安全改进",
+      "vi": "Cải tiến bảo mật trong nền"
+    },
+    "525": {
+      "zh": "失窃设备保护",
+      "vi": "Bảo vệ thiết bị khi bị đánh cắp"
+    },
+    "526": {
+      "zh": "锁定模式",
+      "vi": "Chế độ phong tỏa"
+    },
+    "527": {
+      "zh": "钱包与Apple Pay",
+      "vi": "Ví & Apple Pay"
+    },
+    "528": {
+      "zh": "允许钱包与Apple Pay访问",
+      "vi": "Cho phép Ví & Apple Pay truy cập"
+    },
+    "529": {
+      "zh": "Apple智能与Siri",
+      "vi": "Apple Intelligence & Siri"
+    },
+    "530": {
+      "zh": "搜索",
+      "vi": "Tìm kiếm"
+    },
+    "531": {
+      "zh": "通知",
+      "vi": "Thông báo"
+    },
+    "532": {
+      "zh": "实时活动",
+      "vi": "Hoạt động trực tiếp"
+    },
+    "533": {
+      "zh": "Apple Pay默认设置",
+      "vi": "Mặc định của Apple Pay"
+    },
+    "534": {
+      "zh": "卡片、地址、偏好设置",
+      "vi": "Thẻ, địa chỉ, tùy chọn"
+    },
+    "535": {
+      "zh": "付款卡",
+      "vi": "Thẻ thanh toán"
+    },
+    "536": {
+      "zh": "添加卡片",
+      "vi": "Thêm thẻ"
+    },
+    "537": {
+      "zh": "通过iPhone在线上、App中和任何支持免接触式支付的地方使用Apple Pay付款。无需解锁设备或者通过面容ID或密码认证，即可在交通读卡器上快速付款。",
+      "vi": "Sử dụng Apple Pay để thanh toán bằng iPhone của bạn – trực tuyến, trong ứng dụng và bất kỳ đâu chấp nhận thanh toán không tiếp xúc. Thanh toán nhanh tại đầu đọc trên phương tiện công cộng mà không cần mở khóa thiết bị, cũng như xác thực bằng Face ID hay mật mã."
+    },
+    "538": {
+      "zh": "自动填充卡片",
+      "vi": "Thẻ Tự động điền"
+    },
+    "539": {
+      "zh": "隐藏已过期的凭证",
+      "vi": "Ẩn thẻ đã hết hạn"
+    },
+    "540": {
+      "zh": "订单跟踪",
+      "vi": "Theo dõi đơn hàng"
+    },
+    "541": {
+      "zh": "个人资料",
+      "vi": "Hồ sơ"
+    },
+    "542": {
+      "zh": "玩家照片",
+      "vi": "Ảnh người chơi"
+    },
+    "543": {
+      "zh": "自定义个人资料",
+      "vi": "Tùy chỉnh hồ sơ"
+    },
+    "544": {
+      "zh": "朋友",
+      "vi": "Bạn bè"
+    },
+    "545": {
+      "zh": "所有朋友",
+      "vi": "Tất cả bạn bè"
+    },
+    "546": {
+      "zh": "交友邀请",
+      "vi": "Lời mời kết bạn"
+    },
+    "547": {
+      "zh": "邀请朋友",
+      "vi": "Mời bạn bè"
+    },
+    "548": {
+      "zh": "共享朋友列表",
+      "vi": "Chia sẻ danh sách bạn bè"
+    },
+    "549": {
+      "zh": "打开",
+      "vi": "Bật"
+    },
+    "550": {
+      "zh": "允许App访问你的Game Center朋友列表，改进游戏体验。",
+      "vi": "Cho phép các ứng dụng truy cập vào danh sách bạn bè Game Center của bạn để cải thiện trải nghiệm chơi trò chơi."
+    },
+    "551": {
+      "zh": "是否对他人可见",
+      "vi": "Khả năng tìm kiếm"
+    },
+    "552": {
+      "zh": "帮助朋友找到你",
+      "vi": "Giúp bạn bè tìm thấy bạn"
+    },
+    "553": {
+      "zh": "使用Apple账户关联的电子邮件地址和电话号码，让Game Center朋友轻松认出你。",
+      "vi": "Cho phép bạn bè Game Center nhận dạng bạn dễ dàng hơn bằng địa chỉ email và số điện thoại được liên kết với Tài khoản Apple của bạn."
+    },
+    "554": {
+      "zh": "游戏活动",
+      "vi": "Hoạt động trò chơi"
+    },
+    "555": {
+      "zh": "仅本人",
+      "vi": "Chỉ bạn"
+    },
+    "556": {
+      "zh": "活动共享",
+      "vi": "Chia sẻ hoạt động"
+    },
+    "557": {
+      "zh": "允许其他玩家查看你的个人资料、成就进度、排行榜更新和最近玩过的游戏。",
+      "vi": "Cho phép những người chơi khác xem hồ sơ, tiến trình thành tích, cập nhật bảng xếp hạng và các trò chơi đã chơi gần đây của bạn."
+    },
+    "558": {
+      "zh": "默认App",
+      "vi": "Ứng dụng mặc định"
+    },
+    "559": {
+      "zh": "管理iPhone上的默认App",
+      "vi": "✎ Quản lý các ứng dụng mặc định trên iPhone"
+    },
+    "560": {
+      "zh": "开发者",
+      "vi": "Nhà phát triển"
+    },
+    "561": {
+      "zh": "清除受信任电脑",
+      "vi": "Xóa máy tính được tin cậy"
+    },
+    "562": {
+      "zh": "移除受信任电脑将删除之前已配对的所有电脑记录。",
+      "vi": "Việc xóa các máy tính được tin cậy sẽ xóa tất cả bản ghi của các máy tính mà bạn đã ghép đôi trước đây."
+    },
+    "563": {
+      "zh": "UI自动化",
+      "vi": "Tự động hóa UI"
+    },
+    "564": {
+      "zh": "启用UI自动化",
+      "vi": "Bật tự động hóa UI"
+    },
+    "565": {
+      "zh": "性能",
+      "vi": "Hiệu năng"
+    },
+    "566": {
+      "zh": "卡顿检测",
+      "vi": "Phát hiện treo"
+    },
+    "567": {
+      "zh": "关闭",
+      "vi": "Tắt"
+    },
+    "568": {
+      "zh": "性能跟踪",
+      "vi": "Theo dõi hiệu năng"
+    },
+    "569": {
+      "zh": "网络",
+      "vi": "Mạng"
+    },
+    "570": {
+      "zh": "网络链接调节器",
+      "vi": "Bộ điều tiết liên kết mạng"
+    },
+    "571": {
+      "zh": "网络覆盖",
+      "vi": "Thay thế mạng"
+    },
+    "572": {
+      "zh": "测试",
+      "vi": "Kiểm tra"
+    },
+    "573": {
+      "zh": "响应能力",
+      "vi": "Mức độ phản hồi"
+    },
+    "574": {
+      "zh": "响应能力会测量网络在工作条件下的每分钟往返次数(RPM)来评估网络质量。",
+      "vi": "Mức độ phản hồi đo lường chất lượng của mạng bằng số lần trọn vòng được hoàn thành mỗi phút (RPM) trong các điều kiện làm việc."
+    },
+    "575": {
+      "zh": "通用链接",
+      "vi": "Liên kết phổ thông"
+    },
+    "576": {
+      "zh": "关联域开发",
+      "vi": "Phát triển miền được liên kết"
+    },
+    "577": {
+      "zh": "诊断信息",
+      "vi": "Chẩn đoán"
+    },
+    "578": {
+      "zh": "认证服务测试",
+      "vi": "Kiểm tra dịch vụ xác thực"
+    },
+    "579": {
+      "zh": "密码自动填充、保存和生成使用了“密码管理器资源”开源项目中的App和网站特定规则。Apple会定期获取最新更新并推送到设备。",
+      "vi": "Tính năng tự động điền, lưu và tạo mật khẩu tận dụng các quy tắc dành riêng cho ứng dụng và trang web trong dự án nguồn mở “Tài nguyên của trình quản lý mật khẩu”. Apple sẽ định kỳ thu thập các bản cập nhật mới nhất và cung cấp cho thiết bị."
+    },
+    "580": {
+      "zh": "广告归因测试",
+      "vi": "Kiểm tra thuộc tính quảng cáo"
+    },
+    "581": {
+      "zh": "开发回发",
+      "vi": "Phản hồi phát triển"
+    },
+    "582": {
+      "zh": "AdAttributionKit开发者模式",
+      "vi": "Chế độ nhà phát triển AdAttributionKit"
+    },
+    "583": {
+      "zh": "缩短AdAttributionKit和SKAdNetwork发送回发的时间窗口。启用开发者模式会降低系统提供的隐私保护。请仅在开发或测试期间使用此模式。此设置会在2周后自动关闭。",
+      "vi": "Rút ngắn khoảng thời gian AdAttributionKit và SKAdNetwork gửi phản hồi. Việc bật chế độ nhà phát triển sẽ làm giảm các biện pháp bảo vệ quyền riêng tư mà hệ thống cung cấp; chỉ sử dụng chế độ này trong quá trình phát triển hoặc kiểm tra. Cài đặt này tự động tắt sau 2 tuần."
+    },
+    "584": {
+      "zh": "吞吐量",
+      "vi": "Lưu lượng"
+    },
+    "585": {
+      "zh": "运行吞吐量测试",
+      "vi": "Chạy kiểm tra lưu lượng"
+    },
+    "586": {
+      "zh": "状态恢复测试",
+      "vi": "Kiểm tra khôi phục trạng thái"
+    },
+    "587": {
+      "zh": "快速App终止",
+      "vi": "Chấm dứt ứng dụng nhanh"
+    },
+    "588": {
+      "zh": "终止而非暂停在后台运行的App以强制其在前台运行时重新开启。",
+      "vi": "Chấm dứt thay vì ngừng các ứng dụng khi được chạy trong nền sau để buộc các ứng dụng khởi chạy lại khi chúng được chạy ở nền trước."
+    },
+    "589": {
+      "zh": "轻App测试",
+      "vi": "Kiểm tra ứng dụng thu nhỏ"
+    },
+    "590": {
+      "zh": "本地体验",
+      "vi": "Trải nghiệm cục bộ"
+    },
+    "591": {
+      "zh": "清除体验缓存",
+      "vi": "Xóa bộ nhớ đệm trải nghiệm"
+    },
+    "592": {
+      "zh": "清除轻App体验缓存以立即显示最近修改的轻App体验。本地轻App体验不使用该缓存。",
+      "parts": [
+        {
+          "zh": "清除轻App体验缓存以立即显示最近修改的轻App体验。",
+          "vi": "Xóa bộ nhớ đệm trải nghiệm ứng dụng thu nhỏ để hiển thị ngay lập tức các trải nghiệm ứng dụng thu nhỏ được sửa đổi gần đây."
+        },
+        {
+          "zh": "本地轻App体验不使用该缓存。",
+          "vi": "Trải nghiệm ứng dụng thu nhỏ cục bộ không sử dụng bộ nhớ đệm."
+        }
+      ]
+    },
+    "593": {
+      "zh": "“钱包”测试",
+      "vi": "Kiểm tra Ví"
+    },
+    "594": {
+      "zh": "更多日志",
+      "vi": "Ghi nhật ký bổ sung"
+    },
+    "595": {
+      "zh": "允许HTTP服务",
+      "vi": "Cho phép dịch vụ HTTP"
+    },
+    "596": {
+      "zh": "停用频率限制",
+      "vi": "Tắt giới hạn tốc độ"
+    },
+    "597": {
+      "zh": "NFC凭证密钥（可选）",
+      "vi": "Khóa bảo mật NFC tùy chọn"
+    },
+    "598": {
+      "zh": "媒体服务测试",
+      "vi": "Kiểm tra dịch vụ phương tiện"
+    },
+    "599": {
+      "zh": "还原媒体服务",
+      "vi": "Đặt lại dịch vụ phương tiện"
+    },
+    "600": {
+      "zh": "隔空播放测试",
+      "vi": "Kiểm tra AirPlay"
+    },
+    "601": {
+      "zh": "使用路径共享策略",
+      "vi": "Sử dụng chính sách chia sẻ đường dẫn"
+    },
+    "602": {
+      "zh": "打开时，识别为长格式内容的App在播放时将不会使用系统路径。",
+      "vi": "Khi tùy chọn được bật, các ứng dụng được xác định là ứng dụng nội dung dạng dài sẽ không sử dụng đường dẫn hệ thống khi phát."
+    },
+    "603": {
+      "zh": "新闻测试",
+      "vi": "Kiểm tra News"
+    },
+    "604": {
+      "zh": "下次启动还原本地数据",
+      "vi": "Đặt lại dữ liệu cục bộ trong lần khởi chạy tiếp theo"
+    },
+    "605": {
+      "zh": "还原布局、图像和其他缓存元素。隐私数据不受影响。",
+      "parts": [
+        {
+          "zh": "还原布局、图像和其他缓存元素。",
+          "vi": "Đặt lại bố cục, hình ảnh và các thành phần khác được lưu vào bộ nhớ đệm."
+        },
+        {
+          "zh": "隐私数据不受影响。",
+          "vi": "Dữ liệu riêng tư sẽ không bị ảnh hưởng."
+        }
+      ]
+    },
+    "606": {
+      "zh": "电视提供商测试",
+      "vi": "Kiểm tra Nhà cung cấp TV"
+    },
+    "607": {
+      "zh": "电视提供商",
+      "vi": "Nhà cung cấp TV"
+    },
+    "608": {
+      "zh": "TV App测试",
+      "vi": "Kiểm tra ứng dụng TV"
+    },
+    "609": {
+      "zh": "CoreSpotlight测试",
+      "vi": "Kiểm tra CoreSpotlight"
+    },
+    "610": {
+      "zh": "重新索引所有项目",
+      "vi": "Tạo lại chỉ mục tất cả các mục"
+    },
+    "611": {
+      "zh": "重新索引所有项目（含标识符）",
+      "vi": "Tạo lại chỉ mục tất cả các mục có mã định danh"
+    },
+    "612": {
+      "zh": "小组件测试",
+      "vi": "Kiểm tra tiện ích"
+    },
+    "613": {
+      "zh": "WidgetKit开发者模式",
+      "vi": "Chế độ nhà phát triển WidgetKit"
+    },
+    "614": {
+      "zh": "打开时，小组件将不受标准WidgetKit约束，以允许调试。",
+      "vi": "Khi tùy chọn được bật, các tiện ích của bạn sẽ không tuân theo các hạn chế WidgetKit tiêu chuẩn để cho phép gỡ lỗi."
+    },
+    "615": {
+      "zh": "快捷指令测试",
+      "vi": "Kiểm tra Phím tắt"
+    },
+    "616": {
+      "zh": "显示近期使用的快捷指令",
+      "vi": "Hiển thị phím tắt gần đây"
+    },
+    "617": {
+      "zh": "打开时，Siri建议小组件与Siri表盘会显示最近提供的快捷指令，而非当前预测。",
+      "vi": "Khi tùy chọn được bật, tiện ích Gợi ý của Siri & Mặt đồng hồ Siri hiển thị các phím tắt được cung cấp gần đây nhất thay vì các dự đoán hiện tại."
+    },
+    "618": {
+      "zh": "显示临近媒体",
+      "vi": "Hiển thị phương tiện sắp tới"
+    },
+    "619": {
+      "zh": "打开时，“搜索”中的Siri建议将显示通过INUpcomingMediaManager共享的临近媒体意图。",
+      "vi": "Khi tùy chọn được bật, Gợi ý của Siri trong Tìm kiếm sẽ hiển thị Mục đích phương tiện sắp tới được đóng góp thông qua INUpcomingMediaManager."
+    },
+    "620": {
+      "zh": "锁屏显示共享信息",
+      "vi": "Hiển thị tài trợ trên Màn hình khóa"
+    },
+    "621": {
+      "zh": "打开时，最近共享的快捷指令将显示在锁定屏幕上。",
+      "vi": "Khi tùy chọn được bật, các phím tắt được đóng góp gần đây nhất sẽ được hiển thị trên Màn hình khóa."
+    },
+    "622": {
+      "zh": "强制同步快捷指令至手表",
+      "vi": "Bắt buộc đồng bộ hóa phím tắt với Watch"
+    },
+    "623": {
+      "zh": "若要强制同步快捷指令，请确保Apple Watch已连至充电器。",
+      "vi": "Để bắt buộc đồng bộ hóa phím tắt, hãy đảm bảo rằng Apple Watch được kết nối với bộ sạc."
+    },
+    "624": {
+      "zh": "Siri日程建议测试",
+      "vi": "Kiểm tra gợi ý sự kiện của Siri"
+    },
+    "625": {
+      "zh": "允许任何域",
+      "vi": "Cho phép mọi tên miền"
+    },
+    "626": {
+      "zh": "允许未验证的来源",
+      "vi": "Cho phép nguồn chưa xác minh"
+    },
+    "627": {
+      "zh": "这些设置会影响来自“邮件”和“Safari浏览器”的Siri日程建议。启用“允许任何域”以允许未经Apple批准用于Siri日程建议的电子邮件或网页。启用“允许未验证的来源”以在“邮件”和“Safari浏览器”中绕过用于Siri日程建议的DKIM或SSL真实性验证。",
+      "vi": "Những cài đặt này ảnh hưởng đến Gợi ý sự kiện của Siri từ Mail và Safari. Bật Cho phép mọi tên miền để cho phép các email hoặc trang web chưa được Apple phê duyệt cho Gợi ý sự kiện của Siri. Bật Cho phép nguồn chưa xác minh để bỏ qua xác minh tính xác thực DKIM hoặc SSL cho Gợi ý sự kiện của Siri trong Mail và Safari."
+    },
+    "628": {
+      "zh": "MIDI-CI测试",
+      "vi": "Kiểm tra MIDI-CI"
+    },
+    "629": {
+      "zh": "启用MIDI-CI",
+      "vi": "Bật MIDI-CI"
+    },
+    "630": {
+      "zh": "AirPods测试",
+      "vi": "Kiểm tra AirPods"
+    },
+    "631": {
+      "zh": "预发布Beta版固件",
+      "vi": "Vi chương trình beta trước khi phát hành"
+    },
+    "632": {
+      "zh": "设备管理测试",
+      "vi": "Kiểm tra quản lý thiết bị"
+    },
+    "633": {
+      "zh": "注册SSO",
+      "vi": "SSO đăng ký"
+    },
+    "634": {
+      "zh": "图形HUD",
+      "vi": "✎ HUD đồ họa"
+    },
+    "635": {
+      "zh": "显示HUD图形",
+      "vi": "✎ Hiển thị HUD đồ họa"
+    },
+    "636": {
+      "zh": "记录图形性能",
+      "vi": "✎ Ghi lại hiệu năng đồ họa"
+    },
+    "637": {
+      "zh": "图形性能HUD可显示帧率、GPU耗时、内存使用率，并可记录性能数据用于之后的分析。",
+      "vi": "✎ HUD hiệu năng đồ họa hiển thị tốc độ khung hình, thời gian GPU và mức dùng bộ nhớ, và có thể ghi dữ liệu hiệu năng để phân tích sau."
+    },
+    "638": {
+      "zh": "蓝牙日志",
+      "vi": "Ghi nhật ký Bluetooth"
+    },
+    "639": {
+      "zh": "HID日志",
+      "vi": "Ghi nhật ký HID"
+    },
+    "640": {
+      "zh": "心率日志",
+      "vi": "Ghi dữ liệu nhịp tim"
+    },
+    "641": {
+      "zh": "允许通过蓝牙交换的额外数据保存在packetlogger文件中。",
+      "vi": "Cho phép lưu dữ liệu bổ sung được trao đổi qua Bluetooth trong tệp packetlogger."
+    },
+    "642": {
+      "zh": "蓝牙车辆测试中的Siri",
+      "vi": "Kiểm tra Siri trong ô tô có Bluetooth"
+    },
+    "643": {
+      "zh": "在“设置”中显示音频输出",
+      "vi": "Hiển thị Đầu ra âm thanh trong Cài đặt"
+    },
+    "644": {
+      "zh": "允许Siri在蓝牙车辆中更改音频路径。前往“设置”->“Siri与搜索”->“Siri回应”->“连接车载蓝牙时”更改音频路径。",
+      "parts": [
+        {
+          "zh": "允许Siri在蓝牙车辆中更改音频路径。",
+          "vi": "Cho phép Siri thay đổi định tuyến âm thanh trong xe có Bluetooth."
+        },
+        {
+          "zh": "前往“设置”->“Siri与搜索”->“Siri回应”->“连接车载蓝牙时”更改音频路径。",
+          "vi": "Hãy đi tới Cài đặt -> Siri & Tìm kiếm -> Phản hồi của Siri -> \"Khi kết nối với Bluetooth của ô tô\" để thay đổi định tuyến âm thanh."
+        }
+      ]
+    },
+    "645": {
+      "zh": "沙盒Apple账户",
+      "vi": "Tài khoản Apple Sandbox"
+    },
+    "646": {
+      "zh": "此账户将仅用于在沙盒中测试App内购买项目。",
+      "vi": "Tài khoản này sẽ chỉ được sử dụng để kiểm tra các mục mua in-app của bạn trong sandbox."
+    },
+    "647": {
+      "zh": "Game Center测试",
+      "vi": "Kiểm tra Game Center"
+    },
+    "648": {
+      "zh": "提交得分时通知",
+      "vi": "Thông báo về việc gửi điểm"
+    },
+    "649": {
+      "zh": "提交排行榜得分时，显示游戏内横幅。",
+      "vi": "Hiển thị một biểu ngữ trong trò chơi mỗi khi điểm trên bảng xếp hạng được gửi."
+    },
+    "650": {
+      "zh": "后台资源测试",
+      "vi": "Kiểm tra tài nguyên trong nền"
+    },
+    "651": {
+      "zh": "开发覆盖",
+      "vi": "Thay thế trong quá trình phát triển"
+    },
+    "652": {
+      "zh": "为使用“受管理后台资源”的测试App配置覆盖。",
+      "vi": "Định cấu hình mục thay thế cho các ứng dụng thử nghiệm có sử dụng Tài nguyên trong nền được quản lý."
+    },
+    "653": {
+      "zh": "HealthKit测试",
+      "vi": "Kiểm tra HealthKit"
+    },
+    "654": {
+      "zh": "启用体能训练系列汇总",
+      "vi": "Bật Tổng hợp chuỗi bài tập"
+    },
+    "655": {
+      "zh": "允许将体能训练数据保存为实时系列。",
+      "vi": "Cho phép lưu dữ liệu bài tập thành các chuỗi trực tiếp."
+    },
+    "656": {
+      "zh": "无线分析测试",
+      "vi": "Kiểm tra Nhận biết không dây"
+    },
+    "657": {
+      "zh": "无线分析",
+      "vi": "Nhận biết không dây"
+    },
+    "658": {
+      "zh": "模拟无线分析服务预测。",
+      "vi": "Mô phỏng dự đoán dịch vụ Nhận biết không dây."
+    }
+  }
+}
