@@ -1,0 +1,20 @@
+{
+  "chapters": [
+    {
+      "zh": "这块表有哪些功能",
+      "vi": "Chiếc đồng hồ này có những chức năng gì",
+      "from": 0,
+      "to": 39,
+      "start": 3.11,
+      "end": 101.27
+    },
+    {
+      "zh": "电流、芯片、软件和外壳",
+      "vi": "Dòng điện, chip, phần mềm và vỏ",
+      "from": 40,
+      "to": 78,
+      "start": 101.5,
+      "end": 175.73
+    }
+  ]
+}

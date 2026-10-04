@@ -1,0 +1,461 @@
+{
+  "episode": "BV1HQTs6FEos",
+  "summary": [
+    "Hỏa Hòa, sinh viên năm hai đại học, chủ kênh Bilibili 火禾实验室, cách một năm lại tự làm thêm một chiếc đồng hồ đeo tay, lần này dùng chip ESP32, và đã mở mã nguồn cả dự án. Đây là phần 1 trong 7 video của series, phần giới thiệu; 6 phần sau là hướng dẫn tự làm lại (tải tài liệu, mạch nguyên lý, đặt PCB và linh kiện, hàn mạch, nạp firmware, đặt và lắp vỏ).",
+    "Đầu tiên bạn ấy giới thiệu lần lượt từng chức năng: mặt đồng hồ tự chỉnh giờ qua mạng, đồng hồ Pomodoro, game bắn máy bay, danh thiếp điện tử hiện lượt xem, lượt thích và số người theo dõi trên Bilibili, thời tiết và la bàn. Gạt bánh xe xuống để vào menu, gạt lên để vào cài đặt: độ sáng, tự tắt màn hình, nhấc cổ tay để sáng màn hình, ngôn ngữ.",
+    "Sau đó là phần kỹ thuật: dòng điện khi chạy và khi chờ, phần mềm cấu hình trên máy tính viết bằng Qt, chip ESP32-S3-R8 với 16MB Flash ngoài, mạch 4 lớp 30 x 30 mm, phần mềm dựng trên ESP-IDF, FreeRTOS và LVGL theo kiểu phân lớp, và phần vỏ vẽ bằng SolidWorks. Cuối video, bạn ấy so với chiếc đồng hồ STM32 làm năm ngoái và coi dự án này là bản tổng kết năm hai đại học, rồi chuyển sang phần hướng dẫn."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "嗨，我是火禾，好久不见。",
+      "vi": "Hi, mình là Hỏa Hòa, lâu rồi không gặp."
+    },
+    "1": {
+      "zh": "时隔一年，我又造了块表，该项目已经开源了。",
+      "parts": [
+        {
+          "zh": "时隔一年，我又造了块表，",
+          "vi": "Cách một năm, mình lại làm thêm một chiếc đồng hồ,"
+        },
+        {
+          "zh": "该项目已经开源了。",
+          "vi": "dự án này đã mở mã nguồn rồi."
+        }
+      ]
+    },
+    "2": {
+      "zh": "你可以把这个项目当做毕业设计或者写进简历里。",
+      "parts": [
+        {
+          "zh": "你可以把这个项目当做毕业设计",
+          "vi": "Bạn có thể lấy dự án này làm đồ án tốt nghiệp"
+        },
+        {
+          "zh": "或者写进简历里。",
+          "vi": "hoặc ghi vào CV."
+        }
+      ]
+    },
+    "3": {
+      "zh": "我们先来看一下这块表有哪些功能。",
+      "vi": "Trước hết mình cùng xem chiếc đồng hồ này có những chức năng gì nhé."
+    },
+    "4": {
+      "zh": "首页是一个可以联网校正时间的表盘，向下拨动拨轮开关进入菜单界面。",
+      "parts": [
+        {
+          "zh": "首页是一个",
+          "vi": "Màn hình chính là một"
+        },
+        {
+          "zh": "可以联网校正时间的表盘，",
+          "vi": "mặt đồng hồ có thể kết nối mạng để chỉnh giờ,"
+        },
+        {
+          "zh": "向下拨动拨轮开关",
+          "vi": "gạt công tắc bánh xe xuống dưới"
+        },
+        {
+          "zh": "进入菜单界面。",
+          "vi": "để vào giao diện menu."
+        }
+      ]
+    },
+    "5": {
+      "zh": "第一个是番茄时钟，这里可以设置专注时长。",
+      "parts": [
+        {
+          "zh": "第一个是番茄时钟，",
+          "vi": "Đầu tiên là đồng hồ Pomodoro,"
+        },
+        {
+          "zh": "这里可以设置专注时长。",
+          "vi": "ở đây có thể đặt thời lượng tập trung."
+        }
+      ]
+    },
+    "6": {
+      "zh": "负号是倒计时，正号是正计时。",
+      "vi": "Dấu trừ là đếm ngược, dấu cộng là đếm xuôi."
+    },
+    "7": {
+      "zh": "开始计时，计时结束，红框闪烁，清零，退出。",
+      "parts": [
+        {
+          "zh": "开始计时，计时结束，",
+          "vi": "Bắt đầu tính giờ, hết giờ,"
+        },
+        {
+          "zh": "红框闪烁，清零，退出。",
+          "vi": "khung đỏ nhấp nháy, đặt lại về 0, thoát."
+        }
+      ]
+    },
+    "8": {
+      "zh": "第二个是游戏功能，我暂时只写一个飞机大战的小游戏：移动飞机发射子弹，击中敌机即可积分。",
+      "parts": [
+        {
+          "zh": "第二个是游戏功能，",
+          "vi": "Thứ hai là chức năng trò chơi,"
+        },
+        {
+          "zh": "我暂时只写一个飞机大战的小游戏：",
+          "vi": "tạm thời mình mới chỉ viết một game nhỏ bắn máy bay:"
+        },
+        {
+          "zh": "移动飞机发射子弹，",
+          "vi": "di chuyển máy bay để bắn đạn,"
+        },
+        {
+          "zh": "击中敌机即可积分。",
+          "vi": "bắn trúng máy bay địch là được cộng điểm."
+        }
+      ]
+    },
+    "9": {
+      "zh": "当错失三架敌机后，游戏结束。",
+      "vi": "Khi để lọt ba chiếc máy bay địch thì game kết thúc."
+    },
+    "10": {
+      "zh": "这里还可以查看历史记录。",
+      "vi": "Ở đây còn có thể xem lại lịch sử."
+    },
+    "11": {
+      "zh": "下面是电子名片功能，ESP三二联网获取B站播放量、点赞量、粉丝数。",
+      "parts": [
+        {
+          "zh": "下面是电子名片功能，",
+          "vi": "Tiếp theo là chức năng danh thiếp điện tử,"
+        },
+        {
+          "zh": "ESP三二联网",
+          "vi": "ESP32 kết nối mạng"
+        },
+        {
+          "zh": "获取B站播放量、点赞量、粉丝数。",
+          "vi": "để lấy lượt xem, lượt thích, số người theo dõi trên Bilibili."
+        }
+      ]
+    },
+    "12": {
+      "zh": "还可以扫这个二维码进入B站主页。",
+      "vi": "Còn có thể quét mã QR này để vào trang cá nhân trên Bilibili."
+    },
+    "13": {
+      "zh": "接下来是天气功能，联网获取实时温度，显示当天温度范围。",
+      "parts": [
+        {
+          "zh": "接下来是天气功能，",
+          "vi": "Tiếp theo là chức năng thời tiết,"
+        },
+        {
+          "zh": "联网获取实时温度，",
+          "vi": "kết nối mạng để lấy nhiệt độ hiện tại,"
+        },
+        {
+          "zh": "显示当天温度范围。",
+          "vi": "hiển thị khoảng nhiệt độ trong ngày."
+        }
+      ]
+    },
+    "14": {
+      "zh": "最后是指南针功能。",
+      "vi": "Cuối cùng là chức năng la bàn."
+    },
+    "15": {
+      "zh": "返回首页，向上拨动拨轮开关，进入设置界面，这里可以设置屏幕亮度。",
+      "parts": [
+        {
+          "zh": "返回首页，",
+          "vi": "Quay lại màn hình chính,"
+        },
+        {
+          "zh": "向上拨动拨轮开关，进入设置界面，",
+          "vi": "gạt công tắc bánh xe lên trên để vào giao diện cài đặt,"
+        },
+        {
+          "zh": "这里可以设置屏幕亮度。",
+          "vi": "ở đây có thể chỉnh độ sáng màn hình."
+        }
+      ]
+    },
+    "16": {
+      "zh": "设置是否自动息屏，如果勾选，则在十五秒内无按键操作后会自动息屏。息屏后支持抬腕亮屏，还可以通过下面这个按键控制是否息屏。",
+      "parts": [
+        {
+          "zh": "设置是否自动息屏，如果勾选，",
+          "vi": "Đặt có tự tắt màn hình hay không, nếu đánh dấu chọn,"
+        },
+        {
+          "zh": "则在十五秒内无按键操作后",
+          "vi": "thì sau 15 giây không bấm nút nào"
+        },
+        {
+          "zh": "会自动息屏。息屏后支持抬腕亮屏，",
+          "vi": "màn hình sẽ tự tắt. Tắt rồi thì nhấc cổ tay là màn hình sáng lên,"
+        },
+        {
+          "zh": "还可以通过下面这个按键",
+          "vi": "còn có thể dùng nút bên dưới này"
+        },
+        {
+          "zh": "控制是否息屏。",
+          "vi": "để điều khiển có tắt màn hình hay không."
+        }
+      ]
+    },
+    "18": {
+      "zh": "最后这里可以设置语言模式。",
+      "vi": "Cuối cùng, ở đây có thể đặt chế độ ngôn ngữ."
+    },
+    "19": {
+      "zh": "如果手表长时间不用，可以长按这个按键进行关机。",
+      "parts": [
+        {
+          "zh": "如果手表长时间不用，",
+          "vi": "Nếu lâu không dùng đồng hồ,"
+        },
+        {
+          "zh": "可以长按这个按键进行关机。",
+          "vi": "có thể nhấn giữ nút này để tắt máy."
+        }
+      ]
+    },
+    "20": {
+      "zh": "手表的工作电流在五十八毫安左右。",
+      "vi": "Dòng điện khi đồng hồ hoạt động vào khoảng 58mA."
+    },
+    "21": {
+      "zh": "待机电流在十二毫安左右，可以用电脑或者小功率充电头给手表充电。",
+      "parts": [
+        {
+          "zh": "待机电流在十二毫安左右，",
+          "vi": "Dòng điện lúc chờ khoảng 12mA,"
+        },
+        {
+          "zh": "可以用电脑或者小功率充电头",
+          "vi": "có thể dùng máy tính hoặc cục sạc công suất nhỏ"
+        },
+        {
+          "zh": "给手表充电。",
+          "vi": "để sạc cho đồng hồ."
+        }
+      ]
+    },
+    "22": {
+      "zh": "为了方便大家进行信息配置，我还用QT写了个上位机，",
+      "parts": [
+        {
+          "zh": "为了方便大家进行信息配置，",
+          "vi": "Để mọi người tiện cấu hình thông tin,"
+        },
+        {
+          "zh": "我还用QT写了个上位机，",
+          "vi": "mình còn dùng Qt viết một phần mềm cấu hình trên máy tính,"
+        }
+      ]
+    },
+    "23": {
+      "zh": "你可以把表盘背景设置成自己喜欢的任意图片。",
+      "parts": [
+        {
+          "zh": "你可以把表盘背景",
+          "vi": "bạn có thể đặt hình nền mặt đồng hồ"
+        },
+        {
+          "zh": "设置成自己喜欢的任意图片。",
+          "vi": "thành bất kỳ bức ảnh nào bạn thích."
+        }
+      ]
+    },
+    "24": {
+      "zh": "这款手表的主控芯片是ESP32-S3-R8，外接一个W25Q128，",
+      "parts": [
+        {
+          "zh": "这款手表的主控芯片",
+          "vi": "Chip điều khiển chính của chiếc đồng hồ này"
+        },
+        {
+          "zh": "是ESP32-S3-R8，",
+          "vi": "là ESP32-S3-R8,"
+        },
+        {
+          "zh": "外接一个W25Q128，",
+          "vi": "gắn ngoài thêm một con W25Q128,"
+        }
+      ]
+    },
+    "25": {
+      "zh": "提供十六兆B的外置Flash用于程序存储。",
+      "parts": [
+        {
+          "zh": "提供十六兆B的外置Flash",
+          "vi": "cung cấp 16MB Flash ngoài"
+        },
+        {
+          "zh": "用于程序存储。",
+          "vi": "để lưu chương trình."
+        }
+      ]
+    },
+    "26": {
+      "zh": "PCB大小为三十乘三十毫米，采用四层板双面布局结构。",
+      "parts": [
+        {
+          "zh": "PCB大小为三十乘三十毫米，",
+          "vi": "Kích thước PCB là 30 x 30 mm,"
+        },
+        {
+          "zh": "采用四层板双面布局结构。",
+          "vi": "dùng mạch 4 lớp, bố trí linh kiện hai mặt."
+        }
+      ]
+    },
+    "27": {
+      "zh": "代码是我花费时间最多部分，采用ESP-IDF v5.2.6作为底层软件框架，",
+      "parts": [
+        {
+          "zh": "代码是我花费时间最多部分，",
+          "vi": "Code là phần mình tốn thời gian nhất,"
+        },
+        {
+          "zh": "采用ESP-IDF v5.2.6",
+          "vi": "dùng ESP-IDF v5.2.6"
+        },
+        {
+          "zh": "作为底层软件框架，",
+          "vi": "làm khung phần mềm nền,"
+        }
+      ]
+    },
+    "28": {
+      "zh": "以FreeRTOS提供多任务调度能力，",
+      "parts": [
+        {
+          "zh": "以FreeRTOS",
+          "vi": "dựa vào FreeRTOS"
+        },
+        {
+          "zh": "提供多任务调度能力，",
+          "vi": "để có khả năng lập lịch đa tác vụ,"
+        }
+      ]
+    },
+    "29": {
+      "zh": "并使用LVGL v9.5.0构建240乘240分辨率的图形界面。",
+      "parts": [
+        {
+          "zh": "并使用LVGL v9.5.0构建",
+          "vi": "và dùng LVGL v9.5.0 để dựng"
+        },
+        {
+          "zh": "240乘240分辨率的图形界面。",
+          "vi": "giao diện đồ họa độ phân giải 240 x 240."
+        }
+      ]
+    },
+    "30": {
+      "zh": "整体软件采用分层模块化设计，将硬件驱动、系统服务、数据存储、",
+      "parts": [
+        {
+          "zh": "整体软件采用分层模块化设计，",
+          "vi": "Toàn bộ phần mềm được thiết kế phân lớp, mô-đun hóa,"
+        },
+        {
+          "zh": "将硬件驱动、系统服务、数据存储、",
+          "vi": "tách driver phần cứng, dịch vụ hệ thống, lưu trữ dữ liệu,"
+        }
+      ]
+    },
+    "31": {
+      "zh": "UI框架与应用功能解耦，便于后续维护移植和功能扩展。",
+      "parts": [
+        {
+          "zh": "UI框架与应用功能解耦，",
+          "vi": "khung UI ra khỏi các chức năng ứng dụng,"
+        },
+        {
+          "zh": "便于后续维护移植和功能扩展。",
+          "vi": "để sau này dễ bảo trì, port sang nền khác và mở rộng chức năng."
+        }
+      ]
+    },
+    "32": {
+      "zh": "最后，我用SolidWorks画了外壳。",
+      "parts": [
+        {
+          "zh": "最后，我用SolidWorks",
+          "vi": "Cuối cùng, mình dùng SolidWorks"
+        },
+        {
+          "zh": "画了外壳。",
+          "vi": "vẽ phần vỏ."
+        }
+      ]
+    },
+    "33": {
+      "zh": "永远可以相信火禾的审美。",
+      "vi": "Cứ yên tâm tin vào gu thẩm mỹ của Hỏa Hòa."
+    },
+    "34": {
+      "zh": "如果说去年我做的STM三二手表只是我自学完STM三二后的练手小项目，",
+      "parts": [
+        {
+          "zh": "如果说去年我做的STM三二手表",
+          "vi": "Nếu nói chiếc đồng hồ STM32 mình làm năm ngoái"
+        },
+        {
+          "zh": "只是我自学完STM三二后的",
+          "vi": "chỉ là, sau khi tự học xong STM32,"
+        },
+        {
+          "zh": "练手小项目，",
+          "vi": "một dự án nhỏ để luyện tay,"
+        }
+      ]
+    },
+    "35": {
+      "zh": "今年这块表在外观和实用性上都有很大提升，更接近于现实中可以用的产品，",
+      "parts": [
+        {
+          "zh": "今年这块表在外观和实用性上",
+          "vi": "thì chiếc đồng hồ năm nay, về ngoại hình và tính thực dụng,"
+        },
+        {
+          "zh": "都有很大提升，",
+          "vi": "đều đã nâng lên rất nhiều,"
+        },
+        {
+          "zh": "更接近于现实中可以用的产品，",
+          "vi": "gần hơn với một sản phẩm dùng được ngoài đời thực,"
+        }
+      ]
+    },
+    "36": {
+      "zh": "也算是对我大二这一年课外技术探索的总结。",
+      "parts": [
+        {
+          "zh": "也算是对我大二这一年",
+          "vi": "cũng coi như là, với năm hai đại học của mình,"
+        },
+        {
+          "zh": "课外技术探索的总结。",
+          "vi": "bản tổng kết những gì tự tìm tòi về kỹ thuật ngoài giờ học."
+        }
+      ]
+    },
+    "37": {
+      "zh": "好，废话不多说，下面开始我们复刻教程吧。",
+      "parts": [
+        {
+          "zh": "好，废话不多说，",
+          "vi": "Thôi, không dài dòng nữa,"
+        },
+        {
+          "zh": "下面开始我们复刻教程吧。",
+          "vi": "sau đây mình bắt đầu phần hướng dẫn làm lại nhé."
+        }
+      ]
+    }
+  }
+}

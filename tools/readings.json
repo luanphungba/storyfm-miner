@@ -32,5 +32,10 @@
   "BV1yZ421M7NR": {
     "只需要": ["zhǐ xū yào", "我们只需要在HomeAssistant上: chỉ cần — 只 là zhǐ; zhī là lượng từ"],
     "这行指令": ["zhè háng zhǐ lìng", "在终端输入这行指令: dòng lệnh này — 行 là lượng từ háng (dòng), không phải xíng"]
+  },
+  "BV1HQTs6FEos": {
+    "只写": ["zhǐ xiě", "我暂时只写一个飞机大战的小游戏: chỉ viết — 只 là zhǐ; zhī là lượng từ"],
+    "点赞量": ["diǎn zàn liàng", "B站播放量、点赞量: lượt thích — 量 là liàng (số lượng), không phải liáng (đo)"],
+    "大小为": ["dà xiǎo wéi", "PCB大小为三十乘三十毫米: kích thước là — 为 là wéi, không phải wèi (vì)"]
   }
 }

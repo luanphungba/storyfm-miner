@@ -1,0 +1,728 @@
+{
+  "id": "BV1HQTs6FEos",
+  "title": "【开源】ESP32多功能手表(含复刻教程)",
+  "guid": "BV1HQTs6FEos",
+  "pubDate": "2026-07-03",
+  "duration": 176,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/BV1HQTs6FEos.m4a"
+  },
+  "source": "bilibili",
+  "owner": "火禾实验室",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 3.11,
+      "end": 5.25,
+      "text": "嗨，我是火禾，好久不见。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 1,
+      "s": 1,
+      "start": 5.26,
+      "end": 7.08,
+      "text": "时隔一年，我又造了块表，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 2,
+      "s": 1,
+      "start": 7.08,
+      "end": 8.34,
+      "text": "该项目已经开源了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 3,
+      "s": 2,
+      "start": 8.34,
+      "end": 10.16,
+      "text": "你可以把这个项目当做毕业设计",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 4,
+      "s": 2,
+      "start": 10.16,
+      "end": 11.54,
+      "text": "或者写进简历里。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 5,
+      "s": 3,
+      "start": 11.54,
+      "end": 13.83,
+      "text": "我们先来看一下这块表有哪些功能。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 4,
+      "start": 13.84,
+      "end": 14.54,
+      "text": "首页是一个",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 4,
+      "start": 14.54,
+      "end": 16.52,
+      "text": "可以联网校正时间的表盘，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 4,
+      "start": 16.52,
+      "end": 17.74,
+      "text": "向下拨动拨轮开关",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 4,
+      "start": 17.74,
+      "end": 19,
+      "text": "进入菜单界面。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 5,
+      "start": 19,
+      "end": 20.42,
+      "text": "第一个是番茄时钟，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 11,
+      "s": 5,
+      "start": 20.42,
+      "end": 22.01,
+      "text": "这里可以设置专注时长。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 6,
+      "start": 24.52,
+      "end": 26.63,
+      "text": "负号是倒计时，正号是正计时。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 13,
+      "s": 7,
+      "start": 27.19,
+      "end": 29.78,
+      "text": "开始计时，计时结束，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 14,
+      "s": 7,
+      "start": 29.78,
+      "end": 32.4,
+      "text": "红框闪烁，清零，退出。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 15,
+      "s": 8,
+      "start": 32.7,
+      "end": 34.52,
+      "text": "第二个是游戏功能，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 8,
+      "start": 34.52,
+      "end": 37.12,
+      "text": "我暂时只写一个飞机大战的小游戏：",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 8,
+      "start": 37.12,
+      "end": 38.82,
+      "text": "移动飞机发射子弹，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 8,
+      "start": 38.82,
+      "end": 40.24,
+      "text": "击中敌机即可积分。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 9,
+      "start": 40.32,
+      "end": 43.07,
+      "text": "当错失三架敌机后，游戏结束。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 10,
+      "start": 43.2,
+      "end": 44.99,
+      "text": "这里还可以查看历史记录。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 11,
+      "start": 46.78,
+      "end": 48.68,
+      "text": "下面是电子名片功能，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 11,
+      "start": 48.68,
+      "end": 49.72,
+      "text": "ESP三二联网",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 11,
+      "start": 49.72,
+      "end": 52.74,
+      "text": "获取B站播放量、点赞量、粉丝数。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 12,
+      "start": 52.77,
+      "end": 55.33,
+      "text": "还可以扫这个二维码进入B站主页。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 13,
+      "start": 56.91,
+      "end": 58.55,
+      "text": "接下来是天气功能，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 13,
+      "start": 58.55,
+      "end": 60.17,
+      "text": "联网获取实时温度，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 13,
+      "start": 60.17,
+      "end": 61.61,
+      "text": "显示当天温度范围。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 14,
+      "start": 62.37,
+      "end": 64.09,
+      "text": "最后是指南针功能。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 15,
+      "start": 70.43,
+      "end": 72.25,
+      "text": "返回首页，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 15,
+      "start": 72.35,
+      "end": 75.03,
+      "text": "向上拨动拨轮开关，进入设置界面，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 15,
+      "start": 75.03,
+      "end": 76.53,
+      "text": "这里可以设置屏幕亮度。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 16,
+      "start": 79.82,
+      "end": 82.7,
+      "text": "设置是否自动息屏，如果勾选，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 16,
+      "start": 82.7,
+      "end": 84.48,
+      "text": "则在十五秒内无按键操作后",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 16,
+      "start": 84.48,
+      "end": 87.82,
+      "text": "会自动息屏。息屏后支持抬腕亮屏，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 17,
+      "start": 87.82,
+      "end": 89.06,
+      "text": "还可以通过下面这个按键",
+      "speaker": "A",
+      "u": 16,
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 17,
+      "start": 89.06,
+      "end": 90.33,
+      "text": "控制是否息屏。",
+      "speaker": "A",
+      "u": 16,
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 18,
+      "start": 92.2,
+      "end": 93.99,
+      "text": "最后这里可以设置语言模式。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 19,
+      "start": 97.59,
+      "end": 99.26,
+      "text": "如果手表长时间不用，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 19,
+      "start": 99.26,
+      "end": 101.27,
+      "text": "可以长按这个按键进行关机。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 20,
+      "start": 101.5,
+      "end": 103.73,
+      "text": "手表的工作电流在五十八毫安左右。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 21,
+      "start": 106.58,
+      "end": 108.69,
+      "text": "待机电流在十二毫安左右，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 21,
+      "start": 108.69,
+      "end": 110.33,
+      "text": "可以用电脑或者小功率充电头",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 21,
+      "start": 110.33,
+      "end": 111.36,
+      "text": "给手表充电。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 22,
+      "start": 111.45,
+      "end": 113.13,
+      "text": "为了方便大家进行信息配置，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 22,
+      "start": 113.13,
+      "end": 114.81,
+      "text": "我还用QT写了个上位机，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 23,
+      "start": 114.81,
+      "end": 116.13,
+      "text": "你可以把表盘背景",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 23,
+      "start": 116.13,
+      "end": 118.11,
+      "text": "设置成自己喜欢的任意图片。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 24,
+      "start": 118.11,
+      "end": 119.45,
+      "text": "这款手表的主控芯片",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 24,
+      "start": 119.45,
+      "end": 120.99,
+      "text": "是ESP32-S3-R8，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 24,
+      "start": 121.47,
+      "end": 123.43,
+      "text": "外接一个W25Q128，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "s": 25,
+      "start": 123.75,
+      "end": 125.43,
+      "text": "提供十六兆B的外置Flash",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "s": 25,
+      "start": 125.43,
+      "end": 126.89,
+      "text": "用于程序存储。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 26,
+      "start": 126.89,
+      "end": 129.17,
+      "text": "PCB大小为三十乘三十毫米，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 26,
+      "start": 129.17,
+      "end": 131.21,
+      "text": "采用四层板双面布局结构。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 27,
+      "start": 131.25,
+      "end": 133.33,
+      "text": "代码是我花费时间最多部分，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 27,
+      "start": 133.39,
+      "end": 135.77,
+      "text": "采用ESP-IDF v5.2.6",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 27,
+      "start": 135.77,
+      "end": 137.28,
+      "text": "作为底层软件框架，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 28,
+      "start": 137.43,
+      "end": 138.47,
+      "text": "以FreeRTOS",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "s": 28,
+      "start": 138.47,
+      "end": 140.14,
+      "text": "提供多任务调度能力，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 29,
+      "start": 140.25,
+      "end": 142.83,
+      "text": "并使用LVGL v9.5.0构建",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 29,
+      "start": 142.83,
+      "end": 145.21,
+      "text": "240乘240分辨率的图形界面。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 30,
+      "start": 145.21,
+      "end": 147.69,
+      "text": "整体软件采用分层模块化设计，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 30,
+      "start": 147.69,
+      "end": 150.75,
+      "text": "将硬件驱动、系统服务、数据存储、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 31,
+      "start": 150.75,
+      "end": 152.87,
+      "text": "UI框架与应用功能解耦，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 31,
+      "start": 152.87,
+      "end": 155.68,
+      "text": "便于后续维护移植和功能扩展。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 32,
+      "start": 155.77,
+      "end": 157.05,
+      "text": "最后，我用SolidWorks",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 32,
+      "start": 157.05,
+      "end": 157.91,
+      "text": "画了外壳。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 33,
+      "start": 158.07,
+      "end": 159.96,
+      "text": "永远可以相信火禾的审美。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 34,
+      "start": 159.99,
+      "end": 162.25,
+      "text": "如果说去年我做的STM三二手表",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 34,
+      "start": 162.25,
+      "end": 164.33,
+      "text": "只是我自学完STM三二后的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 34,
+      "start": 164.33,
+      "end": 165.23,
+      "text": "练手小项目，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 35,
+      "start": 165.23,
+      "end": 167.21,
+      "text": "今年这块表在外观和实用性上",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 35,
+      "start": 167.21,
+      "end": 168.17,
+      "text": "都有很大提升，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 35,
+      "start": 168.17,
+      "end": 170.1,
+      "text": "更接近于现实中可以用的产品，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 36,
+      "start": 170.39,
+      "end": 171.67,
+      "text": "也算是对我大二这一年",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "s": 36,
+      "start": 171.67,
+      "end": 173.06,
+      "text": "课外技术探索的总结。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 77,
+      "s": 37,
+      "start": 173.25,
+      "end": 174.17,
+      "text": "好，废话不多说，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 37,
+      "start": 174.17,
+      "end": 175.73,
+      "text": "下面开始我们复刻教程吧。",
+      "speaker": "A",
+      "role": "storyteller"
+    }
+  ]
+}

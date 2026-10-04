@@ -1,0 +1,104 @@
+{
+  "episode": "BV1HQTs6FEos",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-04",
+  "fixes": [
+    {
+      "cueIndex": 0,
+      "before": "火河",
+      "after": "火禾",
+      "source": "llm-review",
+      "reason": "The channel is 火禾实验室, and the video's burned-in subtitle reads 嗨，我是火禾. Same sound.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 4,
+      "before": "校准时间",
+      "after": "校正时间",
+      "source": "llm-review",
+      "reason": "Whisper medium and large-v3 both hear 校正, and the subtitle reads 联网校正时间的表盘.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 4,
+      "before": "线下拨动",
+      "after": "向下拨动",
+      "source": "llm-review",
+      "reason": "Down on the wheel opens the menu, up (sentence 15, 向上拨动拨轮开关) opens settings; the subtitle reads 向下拨动拨轮开关.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 5,
+      "before": "方节时钟",
+      "after": "番茄时钟",
+      "source": "llm-review",
+      "reason": "The pomodoro timer: whisper large-v3 hears 番茄, the firmware's menu string is 番茄钟 and the subtitle reads 番茄时钟.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 5,
+      "before": "装入时长",
+      "after": "专注时长",
+      "source": "llm-review",
+      "reason": "A pomodoro sets its focus length; the subtitle reads 这里可以设置专注时长. The speaker merges -n/-ng (线下 for 向下).",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "洪荒闪烁",
+      "after": "红框闪烁",
+      "source": "llm-review",
+      "reason": "The frame at 30s shows the timer's red border flashing, captioned 红框闪烁; whisper medium also hears 红框.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 24,
+      "before": "ESP32L3R8",
+      "after": "ESP32-S3-R8",
+      "source": "llm-review",
+      "reason": "The project README and the subtitle both name the chip ESP32-S3-R8; whisper medium hears S3R8.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 27,
+      "before": "ESP- IDFV5.2. 6",
+      "after": "ESP-IDF v5.2.6",
+      "source": "llm-review",
+      "reason": "ASR split one version string into three tokens; README and subtitle write ESP-IDF v5.2.6.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 29,
+      "before": "LVGLV9.5. 0",
+      "after": "LVGL v9.5.0",
+      "source": "llm-review",
+      "reason": "Same token split; README and subtitle write LVGL v9.5.0, and whisper large-v3 hears LVGL V9.5.0.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 29,
+      "before": "204乘204",
+      "after": "240乘240",
+      "source": "llm-review",
+      "reason": "README gives the screen as 240×240, the subtitle reads 240*240, and whisper medium and large-v3 both hear 240.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 33,
+      "before": "火河",
+      "after": "火禾",
+      "source": "llm-review",
+      "reason": "The speaker's own name, as in sentence 0; the subtitle reads 相信火禾的审美.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 37,
+      "before": "科普课教程",
+      "after": "复刻教程",
+      "source": "llm-review",
+      "reason": "The subtitle and the title say 复刻教程; 科普课 spans 320ms, two syllables' worth, and 课 is 刻's sound.",
+      "appliedAt": "2026-10-04"
+    }
+  ],
+  "flagged": []
+}

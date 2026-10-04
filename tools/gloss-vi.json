@@ -21382,5 +21382,357 @@
  "参与": [
   "THAM DỰ",
   "tham gia"
+ ],
+ "屏": [
+  "BÌNH",
+  "màn hình; bình phong (息屏: tắt màn hình, 亮屏: bật sáng màn hình)"
+ ],
+ "息": [
+  "TỨC",
+  "ngừng, nghỉ; hơi thở (息屏: tắt màn hình)"
+ ],
+ "计时": [
+  "KẾ THỜI",
+  "tính giờ, bấm giờ"
+ ],
+ "三二": [
+  "TAM NHỊ",
+  "ba hai (cách đọc số 32 trong tên chip: ESP三二 = ESP32)"
+ ],
+ "按键": [
+  "ÁN KIỆN",
+  "nút bấm, phím"
+ ],
+ "采用": [
+  "THẢI DỤNG",
+  "áp dụng, sử dụng"
+ ],
+ "这块": [
+  "GIÁ KHỐI",
+  "cái này, chiếc này (块: lượng từ cho đồng hồ, miếng)"
+ ],
+ "首页": [
+  "THỦ HIỆT",
+  "trang chủ, màn hình chính"
+ ],
+ "拨动": [
+  "BÁT ĐỘNG",
+  "gạt, khảy (công tắc, dây đàn)"
+ ],
+ "轮": [
+  "LUÂN",
+  "bánh xe; vòng, lượt (拨轮: bánh xe gạt)"
+ ],
+ "敌机": [
+  "ĐỊCH CƠ",
+  "máy bay địch"
+ ],
+ "温度": [
+  "ÔN ĐỘ",
+  "nhiệt độ"
+ ],
+ "电流": [
+  "ĐIỆN LƯU",
+  "dòng điện"
+ ],
+ "毫安": [
+  "HÀO AN",
+  "miliampe (mA)"
+ ],
+ "存储": [
+  "TỒN TRỮ",
+  "lưu trữ (dữ liệu)"
+ ],
+ "乘": [
+  "THỪA",
+  "nhân (三十乘三十: 30×30); đi, cưỡi (xe)"
+ ],
+ "框架": [
+  "KHUÔNG GIÁ",
+  "khung; khung sườn, framework"
+ ],
+ "火": [
+  "HỎA",
+  "lửa (火禾: tên kênh 火禾实验室)"
+ ],
+ "禾": [
+  "HÒA",
+  "cây lúa, cây ngũ cốc (chữ thứ hai trong tên 火禾)"
+ ],
+ "好久不见": [
+  "HẢO CỬU BẤT KIẾN",
+  "lâu rồi không gặp"
+ ],
+ "时隔": [
+  "THỜI CÁCH",
+  "cách (một khoảng thời gian)"
+ ],
+ "造": [
+  "TẠO",
+  "làm, chế tạo"
+ ],
+ "块": [
+  "KHỐI",
+  "miếng, cục; lượng từ (cho đồng hồ, miếng; đồng tiền)"
+ ],
+ "表": [
+  "BIỂU",
+  "đồng hồ (đeo tay); bảng; bề ngoài"
+ ],
+ "当做": [
+  "",
+  "coi như, xem như, dùng làm"
+ ],
+ "毕业设计": [
+  "TẤT NGHIỆP THIẾT KẾ",
+  "đồ án tốt nghiệp"
+ ],
+ "表有": [
+  "BIỂU HỮU",
+  "(cắt từ chưa chuẩn của 这块表有: chiếc đồng hồ này có)"
+ ],
+ "菜单": [
+  "THÁI ĐƠN",
+  "menu, thực đơn"
+ ],
+ "负号": [
+  "PHỤ HIỆU",
+  "dấu trừ (−)"
+ ],
+ "正号": [
+  "CHÍNH HIỆU",
+  "dấu cộng (+)"
+ ],
+ "红框": [
+  "HỒNG KHUÔNG",
+  "khung viền đỏ"
+ ],
+ "清零": [
+  "THANH LINH",
+  "đặt lại về 0, reset"
+ ],
+ "暂时": [
+  "TẠM THỜI",
+  "tạm thời"
+ ],
+ "大战": [
+  "ĐẠI CHIẾN",
+  "đại chiến, trận chiến lớn (飞机大战: game bắn máy bay)"
+ ],
+ "小游戏": [
+  "TIỂU DU HÍ",
+  "trò chơi nhỏ, minigame"
+ ],
+ "移动": [
+  "DI ĐỘNG",
+  "di chuyển; di động"
+ ],
+ "发射": [
+  "PHÁT XẠ",
+  "bắn, phóng (đạn, tên lửa)"
+ ],
+ "子弹": [
+  "TỬ ĐẠN",
+  "viên đạn"
+ ],
+ "击中": [
+  "KÍCH TRÚNG",
+  "bắn trúng, đánh trúng"
+ ],
+ "积分": [
+  "TÍCH PHÂN",
+  "điểm tích lũy, ghi điểm; (toán) tích phân"
+ ],
+ "错失": [
+  "THÁC THẤT",
+  "bỏ lỡ, để lọt; sai sót"
+ ],
+ "三架": [
+  "TAM GIÁ",
+  "ba chiếc (架: lượng từ cho máy bay)"
+ ],
+ "电子名片": [
+  "ĐIỆN TỬ DANH PHIẾN",
+  "danh thiếp điện tử"
+ ],
+ "赞量": [
+  "TÁN LƯỢNG",
+  "(cắt từ chưa chuẩn của 点赞量: số lượt thích)"
+ ],
+ "主页": [
+  "CHỦ HIỆT",
+  "trang chủ; trang cá nhân"
+ ],
+ "指南针": [
+  "CHỈ NAM CHÂM",
+  "la bàn"
+ ],
+ "勾选": [
+  "CÂU TUYỂN",
+  "đánh dấu chọn (tick vào ô)"
+ ],
+ "十五秒": [
+  "THẬP NGŨ MIỂU",
+  "15 giây"
+ ],
+ "抬": [
+  "ĐÀI",
+  "nâng lên, nhấc lên (抬腕: nhấc cổ tay)"
+ ],
+ "腕": [
+  "OẢN",
+  "cổ tay"
+ ],
+ "亮": [
+  "LƯỢNG",
+  "sáng; sáng lên (亮屏: bật sáng màn hình)"
+ ],
+ "五十八": [
+  "NGŨ THẬP BÁT",
+  "58, năm mươi tám"
+ ],
+ "十二": [
+  "THẬP NHỊ",
+  "12, mười hai"
+ ],
+ "功率": [
+  "CÔNG SUẤT",
+  "công suất"
+ ],
+ "上位": [
+  "THƯỢNG VỊ",
+  "vị trí cao (上位机: phần mềm trên máy tính dùng để cấu hình thiết bị)"
+ ],
+ "机": [
+  "CƠ",
+  "máy (上位机: phần mềm cấu hình chạy trên máy tính)"
+ ],
+ "图片": [
+  "ĐỒ PHIẾN",
+  "hình ảnh, bức ảnh"
+ ],
+ "主控": [
+  "CHỦ KHỐNG",
+  "điều khiển chính (主控芯片: chip điều khiển chính)"
+ ],
+ "芯片": [
+  "TÂM PHIẾN",
+  "chip, vi mạch"
+ ],
+ "十六": [
+  "THẬP LỤC",
+  "16, mười sáu"
+ ],
+ "兆": [
+  "TRIỆU",
+  "mega (兆B: MB); triệu; điềm báo"
+ ],
+ "外置": [
+  "NGOẠI TRÍ",
+  "gắn ngoài (không tích hợp sẵn)"
+ ],
+ "毫米": [
+  "HÀO MỄ",
+  "milimét (mm)"
+ ],
+ "四层": [
+  "TỨ TẦNG",
+  "bốn lớp, bốn tầng (四层板: mạch in 4 lớp)"
+ ],
+ "板": [
+  "BẢN",
+  "tấm, bảng; bo mạch"
+ ],
+ "双面": [
+  "SONG DIỆN",
+  "hai mặt"
+ ],
+ "底层": [
+  "ĐỂ TẦNG",
+  "tầng dưới cùng; lớp nền (底层软件框架: khung phần mềm nền)"
+ ],
+ "任务调度": [
+  "NHIỆM VỤ ĐIỀU ĐỘ",
+  "lập lịch tác vụ (task scheduling)"
+ ],
+ "分辨率": [
+  "PHÂN BIỆN SUẤT",
+  "độ phân giải"
+ ],
+ "图形界面": [
+  "ĐỒ HÌNH GIỚI DIỆN",
+  "giao diện đồ họa (GUI)"
+ ],
+ "分层": [
+  "PHÂN TẦNG",
+  "phân lớp, chia tầng"
+ ],
+ "模块化": [
+  "MÔ KHỐI HÓA",
+  "mô-đun hóa"
+ ],
+ "硬件": [
+  "NGẠNH KIỆN",
+  "phần cứng"
+ ],
+ "驱动": [
+  "KHU ĐỘNG",
+  "thúc đẩy, dẫn động; driver (硬件驱动: driver phần cứng)"
+ ],
+ "耦": [
+  "NGẪU",
+  "cặp, ghép đôi (解耦: tách rời, decouple)"
+ ],
+ "便于": [
+  "TIỆN Ư",
+  "tiện cho, dễ (làm gì)"
+ ],
+ "维护": [
+  "DUY HỘ",
+  "bảo trì; giữ gìn, bảo vệ"
+ ],
+ "移植": [
+  "DI THỰC",
+  "cấy ghép; chuyển phần mềm sang nền tảng khác (port)"
+ ],
+ "外壳": [
+  "NGOẠI XÁC",
+  "vỏ ngoài"
+ ],
+ "火禾": [
+  "HỎA HÒA",
+  "Hỏa Hòa, tên tác giả (kênh 火禾实验室)"
+ ],
+ "自学": [
+  "TỰ HỌC",
+  "tự học"
+ ],
+ "练手": [
+  "LUYỆN THỦ",
+  "luyện tay, tập cho quen tay"
+ ],
+ "实用性": [
+  "THỰC DỤNG TÍNH",
+  "tính thực dụng, tính ứng dụng"
+ ],
+ "探索": [
+  "THÁM SÁCH",
+  "khám phá, tìm tòi"
+ ],
+ "总结": [
+  "TỔNG KẾT",
+  "tổng kết"
+ ],
+ "废话": [
+  "PHẾ THOẠI",
+  "lời thừa, nói nhảm (废话不多说: không dài dòng nữa)"
+ ],
+ "不多": [
+  "BẤT ĐA",
+  "không nhiều"
+ ],
+ "复刻": [
+  "PHỤC KHẮC",
+  "tái bản; làm lại theo bản gốc (复刻教程: hướng dẫn tự làm lại)"
  ]
 }
