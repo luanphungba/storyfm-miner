@@ -1,0 +1,17 @@
+{
+  "episode": "BV1HQTs6FEos-p6",
+  "chapters": [
+    {
+      "from": 0,
+      "zh": "烧录固件",
+      "vi": "Nạp firmware",
+      "first": "板子焊好了，接下来我们进行固件的烧录。"
+    },
+    {
+      "from": 13,
+      "zh": "用上位机写入配置",
+      "vi": "Ghi cấu hình bằng phần mềm trên máy tính",
+      "first": "接下来我们解压这个压缩包，点击这个点exe文件，这是我用Qt写的上位机。"
+    }
+  ]
+}

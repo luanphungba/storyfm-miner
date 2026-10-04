@@ -1,0 +1,3868 @@
+{
+  "id": "1db1cc84-0c52-4d56-87f1-613287b9ab76",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "zh",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://storyfm-audio.luanphungba.workers.dev/BV1HQTs6FEos-p5.m4a",
+  "text": "下面我们进行 PCB 焊接，需要准备一个焊台、一把镊子、中温锡膏、一把 C 幺幺零电烙铁，还有吸气袋。像这样把需要上锡膏的板子固定好，在钢网上面均匀涂抹锡膏，把锡膏刮开。这样锡膏就上好了。对照着 PCB 图，将元器件放上去，将焊台加热到两百度，放上 PCB， 煎熬至锡膏完全融化。等板子冷却后，再对连线引脚进行处理。电烙铁设到三百二十五度左右，烙铁头对芯片引脚拖动带走多余的锡。如果没办法完全清理怜惜，可以尝试用吸气袋辅助。清理完联系后长这样。下面我们焊底层的元器件，给 TypeC 接口的焊盘涂上锡膏，把 TypeC 放上来，用电烙铁把锡融化，然后再把这四个固定银角焊一下，在银角上拖动去除联系。接来焊这个屏幕的插座，这引脚的联系需要借助吸气带才能去除。接来焊这个电容，然后是这个电阻。接下来焊 TP 四零五六芯片，先焊一个引脚，然后是其他引脚。接下来把下面的电容和电阻焊好。接下来是这两个按键。然后是旁边电阻和 LED， 下面焊这个波容开关，最后焊一下这个按键。在上电之前要用万应表的分明器测一下电源有没有短路，分别要测 VBUS 与 GND、 三 V 三与 GND。 Vbat 正与追根地， Vbat 与追根地之间有没有短路？如果有短路的话，分辨器会响。此时不能上电，检查芯片难以联系了，清楚联系直到没有短路。接下来把电池焊上去，最后把屏幕装上去。大功告成。",
+  "words": [
+    {
+      "text": "下面",
+      "start": 100,
+      "end": 500,
+      "confidence": 0.9926673,
+      "speaker": "A"
+    },
+    {
+      "text": "我们",
+      "start": 500,
+      "end": 740,
+      "confidence": 0.99853706,
+      "speaker": "A"
+    },
+    {
+      "text": "进行",
+      "start": 740,
+      "end": 1000,
+      "confidence": 0.99995756,
+      "speaker": "A"
+    },
+    {
+      "text": "PCB",
+      "start": 1000,
+      "end": 1440,
+      "confidence": 0.925673,
+      "speaker": "A"
+    },
+    {
+      "text": "焊接，",
+      "start": 1440,
+      "end": 2860,
+      "confidence": 0.9856018,
+      "speaker": "A"
+    },
+    {
+      "text": "需要",
+      "start": 2860,
+      "end": 2940,
+      "confidence": 0.999998,
+      "speaker": "A"
+    },
+    {
+      "text": "准备",
+      "start": 2940,
+      "end": 3260,
+      "confidence": 0.99999905,
+      "speaker": "A"
+    },
+    {
+      "text": "一个",
+      "start": 3260,
+      "end": 3440,
+      "confidence": 0.9996668,
+      "speaker": "A"
+    },
+    {
+      "text": "焊台、",
+      "start": 3440,
+      "end": 4880,
+      "confidence": 0.9756332,
+      "speaker": "A"
+    },
+    {
+      "text": "一把",
+      "start": 4880,
+      "end": 5140,
+      "confidence": 0.95101917,
+      "speaker": "A"
+    },
+    {
+      "text": "镊子、",
+      "start": 5140,
+      "end": 6440,
+      "confidence": 0.98992914,
+      "speaker": "A"
+    },
+    {
+      "text": "中",
+      "start": 6440,
+      "end": 6600,
+      "confidence": 0.9597943,
+      "speaker": "A"
+    },
+    {
+      "text": "温锡膏、",
+      "start": 6600,
+      "end": 8960,
+      "confidence": 0.92903876,
+      "speaker": "A"
+    },
+    {
+      "text": "一把",
+      "start": 8960,
+      "end": 9200,
+      "confidence": 0.9976948,
+      "speaker": "A"
+    },
+    {
+      "text": "C",
+      "start": 9200,
+      "end": 9400,
+      "confidence": 0.9112375,
+      "speaker": "A"
+    },
+    {
+      "text": "幺",
+      "start": 9400,
+      "end": 9500,
+      "confidence": 0.8836582,
+      "speaker": "A"
+    },
+    {
+      "text": "幺",
+      "start": 9500,
+      "end": 9740,
+      "confidence": 0.99974847,
+      "speaker": "A"
+    },
+    {
+      "text": "零",
+      "start": 9740,
+      "end": 9840,
+      "confidence": 0.99992955,
+      "speaker": "A"
+    },
+    {
+      "text": "电烙铁，",
+      "start": 9840,
+      "end": 10940,
+      "confidence": 0.96810204,
+      "speaker": "A"
+    },
+    {
+      "text": "还有",
+      "start": 10940,
+      "end": 11080,
+      "confidence": 0.95182204,
+      "speaker": "A"
+    },
+    {
+      "text": "吸气",
+      "start": 11080,
+      "end": 11380,
+      "confidence": 0.94823223,
+      "speaker": "A"
+    },
+    {
+      "text": "袋。",
+      "start": 11380,
+      "end": 11830,
+      "confidence": 0.99402577,
+      "speaker": "A"
+    },
+    {
+      "text": "像",
+      "start": 13960,
+      "end": 14040,
+      "confidence": 0.957265,
+      "speaker": "A"
+    },
+    {
+      "text": "这样",
+      "start": 14040,
+      "end": 14280,
+      "confidence": 0.9999789,
+      "speaker": "A"
+    },
+    {
+      "text": "把",
+      "start": 14280,
+      "end": 14440,
+      "confidence": 0.9617678,
+      "speaker": "A"
+    },
+    {
+      "text": "需要",
+      "start": 14440,
+      "end": 14700,
+      "confidence": 0.99999774,
+      "speaker": "A"
+    },
+    {
+      "text": "上锡膏",
+      "start": 14700,
+      "end": 15120,
+      "confidence": 0.999513,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 15120,
+      "end": 15300,
+      "confidence": 0.99996126,
+      "speaker": "A"
+    },
+    {
+      "text": "板子",
+      "start": 15300,
+      "end": 15560,
+      "confidence": 0.9998543,
+      "speaker": "A"
+    },
+    {
+      "text": "固定",
+      "start": 15560,
+      "end": 15840,
+      "confidence": 0.9999925,
+      "speaker": "A"
+    },
+    {
+      "text": "好，",
+      "start": 15840,
+      "end": 19440,
+      "confidence": 0.9934896,
+      "speaker": "A"
+    },
+    {
+      "text": "在",
+      "start": 19440,
+      "end": 19520,
+      "confidence": 0.98700315,
+      "speaker": "A"
+    },
+    {
+      "text": "钢网",
+      "start": 19520,
+      "end": 19840,
+      "confidence": 0.9998665,
+      "speaker": "A"
+    },
+    {
+      "text": "上面",
+      "start": 19840,
+      "end": 20180,
+      "confidence": 0.99915385,
+      "speaker": "A"
+    },
+    {
+      "text": "均匀",
+      "start": 20180,
+      "end": 20420,
+      "confidence": 0.99999,
+      "speaker": "A"
+    },
+    {
+      "text": "涂抹",
+      "start": 20420,
+      "end": 20700,
+      "confidence": 0.9999991,
+      "speaker": "A"
+    },
+    {
+      "text": "锡膏，",
+      "start": 20700,
+      "end": 22340,
+      "confidence": 0.99989593,
+      "speaker": "A"
+    },
+    {
+      "text": "把锡膏",
+      "start": 22340,
+      "end": 22740,
+      "confidence": 0.9998672,
+      "speaker": "A"
+    },
+    {
+      "text": "刮开。",
+      "start": 22740,
+      "end": 23270,
+      "confidence": 0.9927599,
+      "speaker": "A"
+    },
+    {
+      "text": "这样",
+      "start": 26870,
+      "end": 27270,
+      "confidence": 0.99900025,
+      "speaker": "A"
+    },
+    {
+      "text": "锡膏",
+      "start": 27270,
+      "end": 27490,
+      "confidence": 0.932968,
+      "speaker": "A"
+    },
+    {
+      "text": "就",
+      "start": 27490,
+      "end": 27750,
+      "confidence": 0.9998154,
+      "speaker": "A"
+    },
+    {
+      "text": "上",
+      "start": 27750,
+      "end": 27770,
+      "confidence": 0.9974045,
+      "speaker": "A"
+    },
+    {
+      "text": "好了。",
+      "start": 27770,
+      "end": 28420,
+      "confidence": 0.87891126,
+      "speaker": "A"
+    },
+    {
+      "text": "对照",
+      "start": 30070,
+      "end": 30170,
+      "confidence": 0.9971126,
+      "speaker": "A"
+    },
+    {
+      "text": "着",
+      "start": 30170,
+      "end": 30410,
+      "confidence": 0.9941373,
+      "speaker": "A"
+    },
+    {
+      "text": "PCB",
+      "start": 30410,
+      "end": 30770,
+      "confidence": 0.89396614,
+      "speaker": "A"
+    },
+    {
+      "text": "图，",
+      "start": 30770,
+      "end": 31030,
+      "confidence": 0.8357368,
+      "speaker": "A"
+    },
+    {
+      "text": "将",
+      "start": 31030,
+      "end": 31090,
+      "confidence": 0.67154235,
+      "speaker": "A"
+    },
+    {
+      "text": "元器件",
+      "start": 31090,
+      "end": 31470,
+      "confidence": 0.9157801,
+      "speaker": "A"
+    },
+    {
+      "text": "放上去，将",
+      "start": 31470,
+      "end": 34370,
+      "confidence": 0.8086,
+      "speaker": "A"
+    },
+    {
+      "text": "焊台",
+      "start": 34370,
+      "end": 34610,
+      "confidence": 0.99982363,
+      "speaker": "A"
+    },
+    {
+      "text": "加热",
+      "start": 34610,
+      "end": 34850,
+      "confidence": 0.9996268,
+      "speaker": "A"
+    },
+    {
+      "text": "到",
+      "start": 34850,
+      "end": 35030,
+      "confidence": 0.9999852,
+      "speaker": "A"
+    },
+    {
+      "text": "两",
+      "start": 35030,
+      "end": 35150,
+      "confidence": 0.8358693,
+      "speaker": "A"
+    },
+    {
+      "text": "百度，",
+      "start": 35150,
+      "end": 37430,
+      "confidence": 0.99273986,
+      "speaker": "A"
+    },
+    {
+      "text": "放上",
+      "start": 37430,
+      "end": 37650,
+      "confidence": 0.9999778,
+      "speaker": "A"
+    },
+    {
+      "text": "PCB，",
+      "start": 37650,
+      "end": 38950,
+      "confidence": 0.96172297,
+      "speaker": "A"
+    },
+    {
+      "text": "煎熬",
+      "start": 38950,
+      "end": 39070,
+      "confidence": 0.77597725,
+      "speaker": "A"
+    },
+    {
+      "text": "至锡膏",
+      "start": 39070,
+      "end": 39490,
+      "confidence": 0.9997125,
+      "speaker": "A"
+    },
+    {
+      "text": "完全",
+      "start": 39490,
+      "end": 39790,
+      "confidence": 0.9999944,
+      "speaker": "A"
+    },
+    {
+      "text": "融化。",
+      "start": 39790,
+      "end": 40350,
+      "confidence": 0.9562099,
+      "speaker": "A"
+    },
+    {
+      "text": "等",
+      "start": 41510,
+      "end": 41550,
+      "confidence": 0.9999012,
+      "speaker": "A"
+    },
+    {
+      "text": "板子",
+      "start": 41550,
+      "end": 41890,
+      "confidence": 0.9995266,
+      "speaker": "A"
+    },
+    {
+      "text": "冷却",
+      "start": 41890,
+      "end": 42110,
+      "confidence": 0.9997885,
+      "speaker": "A"
+    },
+    {
+      "text": "后，",
+      "start": 42110,
+      "end": 42410,
+      "confidence": 0.9839724,
+      "speaker": "A"
+    },
+    {
+      "text": "再",
+      "start": 42410,
+      "end": 42530,
+      "confidence": 0.96798295,
+      "speaker": "A"
+    },
+    {
+      "text": "对",
+      "start": 42530,
+      "end": 42590,
+      "confidence": 0.99916244,
+      "speaker": "A"
+    },
+    {
+      "text": "连线",
+      "start": 42590,
+      "end": 42850,
+      "confidence": 0.3938361,
+      "speaker": "A"
+    },
+    {
+      "text": "引脚",
+      "start": 42850,
+      "end": 43150,
+      "confidence": 0.8019285,
+      "speaker": "A"
+    },
+    {
+      "text": "进行",
+      "start": 43150,
+      "end": 43430,
+      "confidence": 0.99998343,
+      "speaker": "A"
+    },
+    {
+      "text": "处理。",
+      "start": 43430,
+      "end": 43970,
+      "confidence": 0.9756947,
+      "speaker": "A"
+    },
+    {
+      "text": "电烙铁",
+      "start": 45590,
+      "end": 45870,
+      "confidence": 0.9799745,
+      "speaker": "A"
+    },
+    {
+      "text": "设",
+      "start": 45870,
+      "end": 45990,
+      "confidence": 0.5235413,
+      "speaker": "A"
+    },
+    {
+      "text": "到",
+      "start": 45990,
+      "end": 46190,
+      "confidence": 0.923685,
+      "speaker": "A"
+    },
+    {
+      "text": "三百",
+      "start": 46190,
+      "end": 46490,
+      "confidence": 0.99990845,
+      "speaker": "A"
+    },
+    {
+      "text": "二十五",
+      "start": 46490,
+      "end": 46850,
+      "confidence": 0.9999549,
+      "speaker": "A"
+    },
+    {
+      "text": "度",
+      "start": 46850,
+      "end": 46890,
+      "confidence": 0.99996805,
+      "speaker": "A"
+    },
+    {
+      "text": "左右，",
+      "start": 46890,
+      "end": 48690,
+      "confidence": 0.9875304,
+      "speaker": "A"
+    },
+    {
+      "text": "烙铁头",
+      "start": 48690,
+      "end": 49090,
+      "confidence": 0.99971056,
+      "speaker": "A"
+    },
+    {
+      "text": "对",
+      "start": 49090,
+      "end": 49190,
+      "confidence": 0.99363494,
+      "speaker": "A"
+    },
+    {
+      "text": "芯片",
+      "start": 49190,
+      "end": 49590,
+      "confidence": 0.80595535,
+      "speaker": "A"
+    },
+    {
+      "text": "引脚",
+      "start": 49590,
+      "end": 49890,
+      "confidence": 0.99757105,
+      "speaker": "A"
+    },
+    {
+      "text": "拖动",
+      "start": 49890,
+      "end": 50230,
+      "confidence": 0.99522245,
+      "speaker": "A"
+    },
+    {
+      "text": "带走",
+      "start": 50230,
+      "end": 50570,
+      "confidence": 0.83918023,
+      "speaker": "A"
+    },
+    {
+      "text": "多余",
+      "start": 50570,
+      "end": 50790,
+      "confidence": 0.99999684,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 50790,
+      "end": 51070,
+      "confidence": 0.9999558,
+      "speaker": "A"
+    },
+    {
+      "text": "锡。",
+      "start": 51070,
+      "end": 51350,
+      "confidence": 0.99980533,
+      "speaker": "A"
+    },
+    {
+      "text": "如果",
+      "start": 52970,
+      "end": 53420,
+      "confidence": 0.99997103,
+      "speaker": "A"
+    },
+    {
+      "text": "没",
+      "start": 53420,
+      "end": 53560,
+      "confidence": 0.99962294,
+      "speaker": "A"
+    },
+    {
+      "text": "办法",
+      "start": 53560,
+      "end": 53840,
+      "confidence": 0.99987566,
+      "speaker": "A"
+    },
+    {
+      "text": "完全",
+      "start": 53840,
+      "end": 54240,
+      "confidence": 0.989062,
+      "speaker": "A"
+    },
+    {
+      "text": "清理",
+      "start": 54240,
+      "end": 54460,
+      "confidence": 0.99498206,
+      "speaker": "A"
+    },
+    {
+      "text": "怜惜，",
+      "start": 54460,
+      "end": 56040,
+      "confidence": 0.88498473,
+      "speaker": "A"
+    },
+    {
+      "text": "可以",
+      "start": 56040,
+      "end": 56100,
+      "confidence": 0.987938,
+      "speaker": "A"
+    },
+    {
+      "text": "尝试",
+      "start": 56100,
+      "end": 56420,
+      "confidence": 0.9999972,
+      "speaker": "A"
+    },
+    {
+      "text": "用",
+      "start": 56420,
+      "end": 56600,
+      "confidence": 0.99997807,
+      "speaker": "A"
+    },
+    {
+      "text": "吸气",
+      "start": 56600,
+      "end": 56760,
+      "confidence": 0.6899153,
+      "speaker": "A"
+    },
+    {
+      "text": "袋",
+      "start": 56760,
+      "end": 56900,
+      "confidence": 0.9614223,
+      "speaker": "A"
+    },
+    {
+      "text": "辅助。",
+      "start": 56900,
+      "end": 57590,
+      "confidence": 0.9999408,
+      "speaker": "A"
+    },
+    {
+      "text": "清理",
+      "start": 81470,
+      "end": 81970,
+      "confidence": 0.9998786,
+      "speaker": "A"
+    },
+    {
+      "text": "完",
+      "start": 81970,
+      "end": 82250,
+      "confidence": 0.9996835,
+      "speaker": "A"
+    },
+    {
+      "text": "联系",
+      "start": 82250,
+      "end": 82430,
+      "confidence": 0.910996,
+      "speaker": "A"
+    },
+    {
+      "text": "后长",
+      "start": 82430,
+      "end": 82750,
+      "confidence": 0.99387574,
+      "speaker": "A"
+    },
+    {
+      "text": "这样。",
+      "start": 82750,
+      "end": 83200,
+      "confidence": 0.8671861,
+      "speaker": "A"
+    },
+    {
+      "text": "下面",
+      "start": 84590,
+      "end": 84610,
+      "confidence": 0.9957202,
+      "speaker": "A"
+    },
+    {
+      "text": "我们焊",
+      "start": 84610,
+      "end": 85010,
+      "confidence": 0.9995,
+      "speaker": "A"
+    },
+    {
+      "text": "底层",
+      "start": 85010,
+      "end": 85330,
+      "confidence": 0.99999064,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 85330,
+      "end": 85530,
+      "confidence": 0.97821236,
+      "speaker": "A"
+    },
+    {
+      "text": "元器件，给",
+      "start": 85530,
+      "end": 87130,
+      "confidence": 0.9954,
+      "speaker": "A"
+    },
+    {
+      "text": "TypeC",
+      "start": 87130,
+      "end": 87550,
+      "confidence": 0.88106614,
+      "speaker": "A"
+    },
+    {
+      "text": "接口",
+      "start": 87550,
+      "end": 87850,
+      "confidence": 0.99814624,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 87850,
+      "end": 88050,
+      "confidence": 0.99992776,
+      "speaker": "A"
+    },
+    {
+      "text": "焊盘",
+      "start": 88050,
+      "end": 88250,
+      "confidence": 0.99999267,
+      "speaker": "A"
+    },
+    {
+      "text": "涂",
+      "start": 88250,
+      "end": 88390,
+      "confidence": 0.9999994,
+      "speaker": "A"
+    },
+    {
+      "text": "上锡膏，",
+      "start": 88390,
+      "end": 89260,
+      "confidence": 0.9907344,
+      "speaker": "A"
+    },
+    {
+      "text": "把",
+      "start": 90350,
+      "end": 90390,
+      "confidence": 0.9973865,
+      "speaker": "A"
+    },
+    {
+      "text": "TypeC",
+      "start": 90390,
+      "end": 90850,
+      "confidence": 0.99948037,
+      "speaker": "A"
+    },
+    {
+      "text": "放上来，",
+      "start": 90850,
+      "end": 91760,
+      "confidence": 0.9975564,
+      "speaker": "A"
+    },
+    {
+      "text": "用",
+      "start": 92130,
+      "end": 92270,
+      "confidence": 0.99980074,
+      "speaker": "A"
+    },
+    {
+      "text": "电烙铁",
+      "start": 92270,
+      "end": 92670,
+      "confidence": 0.95008016,
+      "speaker": "A"
+    },
+    {
+      "text": "把",
+      "start": 92670,
+      "end": 92930,
+      "confidence": 0.99999356,
+      "speaker": "A"
+    },
+    {
+      "text": "锡",
+      "start": 92930,
+      "end": 93050,
+      "confidence": 0.99961394,
+      "speaker": "A"
+    },
+    {
+      "text": "融化，",
+      "start": 93050,
+      "end": 93770,
+      "confidence": 0.97271633,
+      "speaker": "A"
+    },
+    {
+      "text": "然后",
+      "start": 94350,
+      "end": 94510,
+      "confidence": 0.99807006,
+      "speaker": "A"
+    },
+    {
+      "text": "再",
+      "start": 94510,
+      "end": 94670,
+      "confidence": 0.9999763,
+      "speaker": "A"
+    },
+    {
+      "text": "把",
+      "start": 94670,
+      "end": 94790,
+      "confidence": 0.9999975,
+      "speaker": "A"
+    },
+    {
+      "text": "这",
+      "start": 94790,
+      "end": 95010,
+      "confidence": 0.9999474,
+      "speaker": "A"
+    },
+    {
+      "text": "四个",
+      "start": 95010,
+      "end": 95270,
+      "confidence": 0.9998774,
+      "speaker": "A"
+    },
+    {
+      "text": "固定",
+      "start": 95270,
+      "end": 95510,
+      "confidence": 0.99929416,
+      "speaker": "A"
+    },
+    {
+      "text": "银角",
+      "start": 95510,
+      "end": 95730,
+      "confidence": 0.77067715,
+      "speaker": "A"
+    },
+    {
+      "text": "焊",
+      "start": 95730,
+      "end": 95930,
+      "confidence": 0.9999992,
+      "speaker": "A"
+    },
+    {
+      "text": "一下，",
+      "start": 95930,
+      "end": 96330,
+      "confidence": 0.98678946,
+      "speaker": "A"
+    },
+    {
+      "text": "在",
+      "start": 99690,
+      "end": 99790,
+      "confidence": 0.98217183,
+      "speaker": "A"
+    },
+    {
+      "text": "银角",
+      "start": 99790,
+      "end": 100070,
+      "confidence": 0.9983663,
+      "speaker": "A"
+    },
+    {
+      "text": "上",
+      "start": 100070,
+      "end": 100350,
+      "confidence": 0.9999596,
+      "speaker": "A"
+    },
+    {
+      "text": "拖动",
+      "start": 100350,
+      "end": 100530,
+      "confidence": 0.99774474,
+      "speaker": "A"
+    },
+    {
+      "text": "去除",
+      "start": 100530,
+      "end": 100830,
+      "confidence": 0.9980871,
+      "speaker": "A"
+    },
+    {
+      "text": "联系。",
+      "start": 100830,
+      "end": 101590,
+      "confidence": 0.9961142,
+      "speaker": "A"
+    },
+    {
+      "text": "接来",
+      "start": 103750,
+      "end": 104360,
+      "confidence": 0.858677,
+      "speaker": "A"
+    },
+    {
+      "text": "焊",
+      "start": 104360,
+      "end": 104480,
+      "confidence": 0.89493257,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 104480,
+      "end": 104740,
+      "confidence": 0.9999279,
+      "speaker": "A"
+    },
+    {
+      "text": "屏幕",
+      "start": 104740,
+      "end": 105040,
+      "confidence": 0.99997884,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 105040,
+      "end": 106340,
+      "confidence": 0.99991,
+      "speaker": "A"
+    },
+    {
+      "text": "插座，",
+      "start": 106340,
+      "end": 108560,
+      "confidence": 0.95079917,
+      "speaker": "A"
+    },
+    {
+      "text": "这",
+      "start": 108560,
+      "end": 109720,
+      "confidence": 0.8037069,
+      "speaker": "A"
+    },
+    {
+      "text": "引脚",
+      "start": 109720,
+      "end": 110020,
+      "confidence": 0.8061019,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 110020,
+      "end": 110300,
+      "confidence": 0.9999753,
+      "speaker": "A"
+    },
+    {
+      "text": "联系",
+      "start": 110300,
+      "end": 110420,
+      "confidence": 0.90268487,
+      "speaker": "A"
+    },
+    {
+      "text": "需要",
+      "start": 110420,
+      "end": 110760,
+      "confidence": 0.99991393,
+      "speaker": "A"
+    },
+    {
+      "text": "借助",
+      "start": 110760,
+      "end": 111100,
+      "confidence": 0.9994122,
+      "speaker": "A"
+    },
+    {
+      "text": "吸气",
+      "start": 111100,
+      "end": 111320,
+      "confidence": 0.6665209,
+      "speaker": "A"
+    },
+    {
+      "text": "带",
+      "start": 111320,
+      "end": 111440,
+      "confidence": 0.570746,
+      "speaker": "A"
+    },
+    {
+      "text": "才能",
+      "start": 111440,
+      "end": 111820,
+      "confidence": 0.9999629,
+      "speaker": "A"
+    },
+    {
+      "text": "去除。",
+      "start": 111820,
+      "end": 112350,
+      "confidence": 0.9976094,
+      "speaker": "A"
+    },
+    {
+      "text": "接来",
+      "start": 116760,
+      "end": 117520,
+      "confidence": 0.9975588,
+      "speaker": "A"
+    },
+    {
+      "text": "焊",
+      "start": 117520,
+      "end": 117680,
+      "confidence": 0.9999968,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 117680,
+      "end": 117920,
+      "confidence": 0.99999225,
+      "speaker": "A"
+    },
+    {
+      "text": "电容，",
+      "start": 117920,
+      "end": 124140,
+      "confidence": 0.9986668,
+      "speaker": "A"
+    },
+    {
+      "text": "然后",
+      "start": 124140,
+      "end": 124940,
+      "confidence": 0.9980204,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 124940,
+      "end": 125120,
+      "confidence": 0.99624443,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 125120,
+      "end": 125300,
+      "confidence": 0.9451121,
+      "speaker": "A"
+    },
+    {
+      "text": "电阻。",
+      "start": 125300,
+      "end": 125960,
+      "confidence": 0.9993599,
+      "speaker": "A"
+    },
+    {
+      "text": "接下来",
+      "start": 128820,
+      "end": 129470,
+      "confidence": 0.9999631,
+      "speaker": "A"
+    },
+    {
+      "text": "焊",
+      "start": 129470,
+      "end": 129590,
+      "confidence": 0.99996823,
+      "speaker": "A"
+    },
+    {
+      "text": "TP",
+      "start": 129590,
+      "end": 129830,
+      "confidence": 0.67384106,
+      "speaker": "A"
+    },
+    {
+      "text": "四零",
+      "start": 129830,
+      "end": 130170,
+      "confidence": 0.7877886,
+      "speaker": "A"
+    },
+    {
+      "text": "五六",
+      "start": 130170,
+      "end": 130450,
+      "confidence": 0.9988519,
+      "speaker": "A"
+    },
+    {
+      "text": "芯片，",
+      "start": 130450,
+      "end": 131770,
+      "confidence": 0.9842471,
+      "speaker": "A"
+    },
+    {
+      "text": "先焊",
+      "start": 131770,
+      "end": 132010,
+      "confidence": 0.99993867,
+      "speaker": "A"
+    },
+    {
+      "text": "一个",
+      "start": 132010,
+      "end": 132230,
+      "confidence": 0.9999939,
+      "speaker": "A"
+    },
+    {
+      "text": "引脚，",
+      "start": 132230,
+      "end": 134970,
+      "confidence": 0.74004847,
+      "speaker": "A"
+    },
+    {
+      "text": "然后",
+      "start": 134970,
+      "end": 135050,
+      "confidence": 0.9988269,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 135050,
+      "end": 135250,
+      "confidence": 0.9999336,
+      "speaker": "A"
+    },
+    {
+      "text": "其他",
+      "start": 135250,
+      "end": 135550,
+      "confidence": 0.9972088,
+      "speaker": "A"
+    },
+    {
+      "text": "引脚。",
+      "start": 135550,
+      "end": 138430,
+      "confidence": 0.9909203,
+      "speaker": "A"
+    },
+    {
+      "text": "接下来",
+      "start": 141810,
+      "end": 142650,
+      "confidence": 0.999843,
+      "speaker": "A"
+    },
+    {
+      "text": "把",
+      "start": 142650,
+      "end": 142750,
+      "confidence": 0.9999764,
+      "speaker": "A"
+    },
+    {
+      "text": "下面",
+      "start": 142750,
+      "end": 143030,
+      "confidence": 0.9997299,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 143030,
+      "end": 143230,
+      "confidence": 0.99996996,
+      "speaker": "A"
+    },
+    {
+      "text": "电容",
+      "start": 143230,
+      "end": 143390,
+      "confidence": 0.9974216,
+      "speaker": "A"
+    },
+    {
+      "text": "和",
+      "start": 143390,
+      "end": 143570,
+      "confidence": 0.99996436,
+      "speaker": "A"
+    },
+    {
+      "text": "电阻",
+      "start": 143570,
+      "end": 143790,
+      "confidence": 0.99986994,
+      "speaker": "A"
+    },
+    {
+      "text": "焊好。",
+      "start": 143790,
+      "end": 144610,
+      "confidence": 0.9525604,
+      "speaker": "A"
+    },
+    {
+      "text": "接下来",
+      "start": 149520,
+      "end": 150170,
+      "confidence": 0.9998667,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 150170,
+      "end": 150270,
+      "confidence": 0.8347593,
+      "speaker": "A"
+    },
+    {
+      "text": "这",
+      "start": 150270,
+      "end": 150410,
+      "confidence": 0.9992988,
+      "speaker": "A"
+    },
+    {
+      "text": "两个",
+      "start": 150410,
+      "end": 150710,
+      "confidence": 0.99998605,
+      "speaker": "A"
+    },
+    {
+      "text": "按键。",
+      "start": 150710,
+      "end": 151200,
+      "confidence": 0.9966498,
+      "speaker": "A"
+    },
+    {
+      "text": "然后",
+      "start": 154830,
+      "end": 155280,
+      "confidence": 0.99990225,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 155280,
+      "end": 155540,
+      "confidence": 0.99963963,
+      "speaker": "A"
+    },
+    {
+      "text": "旁边",
+      "start": 155540,
+      "end": 155820,
+      "confidence": 0.9955244,
+      "speaker": "A"
+    },
+    {
+      "text": "电阻",
+      "start": 155820,
+      "end": 156140,
+      "confidence": 0.9940402,
+      "speaker": "A"
+    },
+    {
+      "text": "和",
+      "start": 156140,
+      "end": 156400,
+      "confidence": 0.99500424,
+      "speaker": "A"
+    },
+    {
+      "text": "LED，",
+      "start": 156400,
+      "end": 160220,
+      "confidence": 0.6316937,
+      "speaker": "A"
+    },
+    {
+      "text": "下面",
+      "start": 160220,
+      "end": 160240,
+      "confidence": 0.9827767,
+      "speaker": "A"
+    },
+    {
+      "text": "焊",
+      "start": 160240,
+      "end": 160400,
+      "confidence": 0.97977406,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 160400,
+      "end": 160620,
+      "confidence": 0.9999131,
+      "speaker": "A"
+    },
+    {
+      "text": "波容",
+      "start": 160620,
+      "end": 160860,
+      "confidence": 0.86759394,
+      "speaker": "A"
+    },
+    {
+      "text": "开关，",
+      "start": 160860,
+      "end": 163820,
+      "confidence": 0.96175057,
+      "speaker": "A"
+    },
+    {
+      "text": "最后",
+      "start": 163820,
+      "end": 167920,
+      "confidence": 0.9998734,
+      "speaker": "A"
+    },
+    {
+      "text": "焊",
+      "start": 167920,
+      "end": 168120,
+      "confidence": 0.99999964,
+      "speaker": "A"
+    },
+    {
+      "text": "一下",
+      "start": 168120,
+      "end": 168260,
+      "confidence": 0.9581463,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 168260,
+      "end": 168520,
+      "confidence": 0.9999832,
+      "speaker": "A"
+    },
+    {
+      "text": "按键。",
+      "start": 168520,
+      "end": 169160,
+      "confidence": 0.98807746,
+      "speaker": "A"
+    },
+    {
+      "text": "在",
+      "start": 171040,
+      "end": 171120,
+      "confidence": 0.9575537,
+      "speaker": "A"
+    },
+    {
+      "text": "上",
+      "start": 171120,
+      "end": 171320,
+      "confidence": 0.9989704,
+      "speaker": "A"
+    },
+    {
+      "text": "电",
+      "start": 171320,
+      "end": 171380,
+      "confidence": 0.98865056,
+      "speaker": "A"
+    },
+    {
+      "text": "之前",
+      "start": 171380,
+      "end": 171640,
+      "confidence": 0.9999943,
+      "speaker": "A"
+    },
+    {
+      "text": "要用",
+      "start": 171640,
+      "end": 171920,
+      "confidence": 0.8610511,
+      "speaker": "A"
+    },
+    {
+      "text": "万应表",
+      "start": 171920,
+      "end": 172260,
+      "confidence": 0.6576076,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 172260,
+      "end": 172460,
+      "confidence": 0.999859,
+      "speaker": "A"
+    },
+    {
+      "text": "分",
+      "start": 172460,
+      "end": 172580,
+      "confidence": 0.84123915,
+      "speaker": "A"
+    },
+    {
+      "text": "明器",
+      "start": 172580,
+      "end": 172800,
+      "confidence": 0.6521923,
+      "speaker": "A"
+    },
+    {
+      "text": "测",
+      "start": 172800,
+      "end": 172940,
+      "confidence": 0.99980193,
+      "speaker": "A"
+    },
+    {
+      "text": "一下",
+      "start": 172940,
+      "end": 173100,
+      "confidence": 0.6094033,
+      "speaker": "A"
+    },
+    {
+      "text": "电源",
+      "start": 173100,
+      "end": 173340,
+      "confidence": 0.9999626,
+      "speaker": "A"
+    },
+    {
+      "text": "有没有",
+      "start": 173340,
+      "end": 173700,
+      "confidence": 0.9999912,
+      "speaker": "A"
+    },
+    {
+      "text": "短路，",
+      "start": 173700,
+      "end": 174760,
+      "confidence": 0.9986033,
+      "speaker": "A"
+    },
+    {
+      "text": "分别",
+      "start": 174760,
+      "end": 175080,
+      "confidence": 0.9998246,
+      "speaker": "A"
+    },
+    {
+      "text": "要测",
+      "start": 175080,
+      "end": 175400,
+      "confidence": 0.99948716,
+      "speaker": "A"
+    },
+    {
+      "text": "VBUS",
+      "start": 175400,
+      "end": 175900,
+      "confidence": 0.5106803,
+      "speaker": "A"
+    },
+    {
+      "text": "与",
+      "start": 175900,
+      "end": 176120,
+      "confidence": 0.99900764,
+      "speaker": "A"
+    },
+    {
+      "text": "GND、",
+      "start": 176120,
+      "end": 178280,
+      "confidence": 0.9283754,
+      "speaker": "A"
+    },
+    {
+      "text": "三",
+      "start": 178280,
+      "end": 178400,
+      "confidence": 0.63242525,
+      "speaker": "A"
+    },
+    {
+      "text": "V",
+      "start": 178400,
+      "end": 178460,
+      "confidence": 0.96181214,
+      "speaker": "A"
+    },
+    {
+      "text": "三",
+      "start": 178460,
+      "end": 178660,
+      "confidence": 0.92570364,
+      "speaker": "A"
+    },
+    {
+      "text": "与",
+      "start": 178660,
+      "end": 178780,
+      "confidence": 0.99938226,
+      "speaker": "A"
+    },
+    {
+      "text": "GND。",
+      "start": 178780,
+      "end": 179420,
+      "confidence": 0.9994375,
+      "speaker": "A"
+    },
+    {
+      "text": "Vbat",
+      "start": 179740,
+      "end": 180330,
+      "confidence": 0.6520257,
+      "speaker": "A"
+    },
+    {
+      "text": "正",
+      "start": 180330,
+      "end": 180610,
+      "confidence": 0.89677334,
+      "speaker": "A"
+    },
+    {
+      "text": "与",
+      "start": 180610,
+      "end": 180810,
+      "confidence": 0.99576014,
+      "speaker": "A"
+    },
+    {
+      "text": "追根",
+      "start": 180810,
+      "end": 180970,
+      "confidence": 0.4298163,
+      "speaker": "A"
+    },
+    {
+      "text": "地，",
+      "start": 180970,
+      "end": 182490,
+      "confidence": 0.67147934,
+      "speaker": "A"
+    },
+    {
+      "text": "Vbat",
+      "start": 182490,
+      "end": 183010,
+      "confidence": 0.96151793,
+      "speaker": "A"
+    },
+    {
+      "text": "与",
+      "start": 183010,
+      "end": 183150,
+      "confidence": 0.9940848,
+      "speaker": "A"
+    },
+    {
+      "text": "追根",
+      "start": 183150,
+      "end": 183470,
+      "confidence": 0.999474,
+      "speaker": "A"
+    },
+    {
+      "text": "地",
+      "start": 183470,
+      "end": 183550,
+      "confidence": 0.99973875,
+      "speaker": "A"
+    },
+    {
+      "text": "之间",
+      "start": 183550,
+      "end": 183770,
+      "confidence": 0.99973994,
+      "speaker": "A"
+    },
+    {
+      "text": "有没有",
+      "start": 183770,
+      "end": 184150,
+      "confidence": 0.9993555,
+      "speaker": "A"
+    },
+    {
+      "text": "短路？",
+      "start": 184150,
+      "end": 184870,
+      "confidence": 0.9998238,
+      "speaker": "A"
+    },
+    {
+      "text": "如果",
+      "start": 186110,
+      "end": 186210,
+      "confidence": 0.9996929,
+      "speaker": "A"
+    },
+    {
+      "text": "有",
+      "start": 186210,
+      "end": 186450,
+      "confidence": 0.999964,
+      "speaker": "A"
+    },
+    {
+      "text": "短路",
+      "start": 186450,
+      "end": 186690,
+      "confidence": 0.9999949,
+      "speaker": "A"
+    },
+    {
+      "text": "的话，",
+      "start": 186690,
+      "end": 187110,
+      "confidence": 0.9993107,
+      "speaker": "A"
+    },
+    {
+      "text": "分辨",
+      "start": 187110,
+      "end": 187270,
+      "confidence": 0.842292,
+      "speaker": "A"
+    },
+    {
+      "text": "器会响。",
+      "start": 187270,
+      "end": 188010,
+      "confidence": 0.9983849,
+      "speaker": "A"
+    },
+    {
+      "text": "此时",
+      "start": 189610,
+      "end": 190190,
+      "confidence": 0.9952238,
+      "speaker": "A"
+    },
+    {
+      "text": "不能",
+      "start": 190190,
+      "end": 190430,
+      "confidence": 0.99984705,
+      "speaker": "A"
+    },
+    {
+      "text": "上电，",
+      "start": 190430,
+      "end": 191490,
+      "confidence": 0.952714,
+      "speaker": "A"
+    },
+    {
+      "text": "检查",
+      "start": 191490,
+      "end": 191730,
+      "confidence": 0.9998198,
+      "speaker": "A"
+    },
+    {
+      "text": "芯片",
+      "start": 191730,
+      "end": 191970,
+      "confidence": 0.99996775,
+      "speaker": "A"
+    },
+    {
+      "text": "难以",
+      "start": 191970,
+      "end": 192290,
+      "confidence": 0.8253797,
+      "speaker": "A"
+    },
+    {
+      "text": "联系",
+      "start": 192290,
+      "end": 192650,
+      "confidence": 0.9856792,
+      "speaker": "A"
+    },
+    {
+      "text": "了，",
+      "start": 192650,
+      "end": 193110,
+      "confidence": 0.81824493,
+      "speaker": "A"
+    },
+    {
+      "text": "清楚",
+      "start": 193110,
+      "end": 193290,
+      "confidence": 0.5582442,
+      "speaker": "A"
+    },
+    {
+      "text": "联系",
+      "start": 193290,
+      "end": 193610,
+      "confidence": 0.9992692,
+      "speaker": "A"
+    },
+    {
+      "text": "直到",
+      "start": 193610,
+      "end": 193890,
+      "confidence": 0.8052431,
+      "speaker": "A"
+    },
+    {
+      "text": "没有",
+      "start": 193890,
+      "end": 194070,
+      "confidence": 0.9999882,
+      "speaker": "A"
+    },
+    {
+      "text": "短路。",
+      "start": 194070,
+      "end": 194770,
+      "confidence": 0.9839988,
+      "speaker": "A"
+    },
+    {
+      "text": "接下来",
+      "start": 195730,
+      "end": 195970,
+      "confidence": 0.99995404,
+      "speaker": "A"
+    },
+    {
+      "text": "把",
+      "start": 195970,
+      "end": 196070,
+      "confidence": 0.9997098,
+      "speaker": "A"
+    },
+    {
+      "text": "电池",
+      "start": 196070,
+      "end": 196350,
+      "confidence": 0.999939,
+      "speaker": "A"
+    },
+    {
+      "text": "焊上去，",
+      "start": 196350,
+      "end": 199150,
+      "confidence": 0.998574,
+      "speaker": "A"
+    },
+    {
+      "text": "最后",
+      "start": 199150,
+      "end": 199490,
+      "confidence": 0.99993527,
+      "speaker": "A"
+    },
+    {
+      "text": "把",
+      "start": 199490,
+      "end": 199610,
+      "confidence": 0.99999666,
+      "speaker": "A"
+    },
+    {
+      "text": "屏幕",
+      "start": 199610,
+      "end": 199910,
+      "confidence": 0.9999917,
+      "speaker": "A"
+    },
+    {
+      "text": "装上去。",
+      "start": 199910,
+      "end": 200550,
+      "confidence": 0.9999875,
+      "speaker": "A"
+    },
+    {
+      "text": "大功告成。",
+      "start": 210610,
+      "end": 211960,
+      "confidence": 0.99207634,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "下面 我们 进行 PCB 焊接， 需要 准备 一个 焊台、 一把 镊子、 中 温锡膏、 一把 C 幺 幺 零 电烙铁， 还有 吸气 袋。 像 这样 把 需要 上锡膏 的 板子 固定 好， 在 钢网 上面 均匀 涂抹 锡膏， 把锡膏 刮开。 这样 锡膏 就 上 好了。 对照 着 PCB 图， 将 元器件 放上去，将 焊台 加热 到 两 百度， 放上 PCB， 煎熬 至锡膏 完全 融化。 等 板子 冷却 后， 再 对 连线 引脚 进行 处理。 电烙铁 设 到 三百 二十五 度 左右， 烙铁头 对 芯片 引脚 拖动 带走 多余 的 锡。 如果 没 办法 完全 清理 怜惜， 可以 尝试 用 吸气 袋 辅助。 清理 完 联系 后长 这样。 下面 我们焊 底层 的 元器件，给 TypeC 接口 的 焊盘 涂 上锡膏， 把 TypeC 放上来， 用 电烙铁 把 锡 融化， 然后 再 把 这 四个 固定 银角 焊 一下， 在 银角 上 拖动 去除 联系。 接来 焊 这个 屏幕 的 插座， 这 引脚 的 联系 需要 借助 吸气 带 才能 去除。 接来 焊 这个 电容， 然后 是 这个 电阻。 接下来 焊 TP 四零 五六 芯片， 先焊 一个 引脚， 然后 是 其他 引脚。 接下来 把 下面 的 电容 和 电阻 焊好。 接下来 是 这 两个 按键。 然后 是 旁边 电阻 和 LED， 下面 焊 这个 波容 开关， 最后 焊 一下 这个 按键。 在 上 电 之前 要用 万应表 的 分 明器 测 一下 电源 有没有 短路， 分别 要测 VBUS 与 GND、 三 V 三 与 GND。 Vbat 正 与 追根 地， Vbat 与 追根 地 之间 有没有 短路？ 如果 有 短路 的话， 分辨 器会响。 此时 不能 上电， 检查 芯片 难以 联系 了， 清楚 联系 直到 没有 短路。 接下来 把 电池 焊上去， 最后 把 屏幕 装上去。 大功告成。",
+      "confidence": 0.9486728,
+      "start": 100,
+      "end": 211960,
+      "words": [
+        {
+          "text": "下面",
+          "start": 100,
+          "end": 500,
+          "confidence": 0.9926673,
+          "speaker": "A"
+        },
+        {
+          "text": "我们",
+          "start": 500,
+          "end": 740,
+          "confidence": 0.99853706,
+          "speaker": "A"
+        },
+        {
+          "text": "进行",
+          "start": 740,
+          "end": 1000,
+          "confidence": 0.99995756,
+          "speaker": "A"
+        },
+        {
+          "text": "PCB",
+          "start": 1000,
+          "end": 1440,
+          "confidence": 0.925673,
+          "speaker": "A"
+        },
+        {
+          "text": "焊接，",
+          "start": 1440,
+          "end": 2860,
+          "confidence": 0.9856018,
+          "speaker": "A"
+        },
+        {
+          "text": "需要",
+          "start": 2860,
+          "end": 2940,
+          "confidence": 0.999998,
+          "speaker": "A"
+        },
+        {
+          "text": "准备",
+          "start": 2940,
+          "end": 3260,
+          "confidence": 0.99999905,
+          "speaker": "A"
+        },
+        {
+          "text": "一个",
+          "start": 3260,
+          "end": 3440,
+          "confidence": 0.9996668,
+          "speaker": "A"
+        },
+        {
+          "text": "焊台、",
+          "start": 3440,
+          "end": 4880,
+          "confidence": 0.9756332,
+          "speaker": "A"
+        },
+        {
+          "text": "一把",
+          "start": 4880,
+          "end": 5140,
+          "confidence": 0.95101917,
+          "speaker": "A"
+        },
+        {
+          "text": "镊子、",
+          "start": 5140,
+          "end": 6440,
+          "confidence": 0.98992914,
+          "speaker": "A"
+        },
+        {
+          "text": "中",
+          "start": 6440,
+          "end": 6600,
+          "confidence": 0.9597943,
+          "speaker": "A"
+        },
+        {
+          "text": "温锡膏、",
+          "start": 6600,
+          "end": 8960,
+          "confidence": 0.92903876,
+          "speaker": "A"
+        },
+        {
+          "text": "一把",
+          "start": 8960,
+          "end": 9200,
+          "confidence": 0.9976948,
+          "speaker": "A"
+        },
+        {
+          "text": "C",
+          "start": 9200,
+          "end": 9400,
+          "confidence": 0.9112375,
+          "speaker": "A"
+        },
+        {
+          "text": "幺",
+          "start": 9400,
+          "end": 9500,
+          "confidence": 0.8836582,
+          "speaker": "A"
+        },
+        {
+          "text": "幺",
+          "start": 9500,
+          "end": 9740,
+          "confidence": 0.99974847,
+          "speaker": "A"
+        },
+        {
+          "text": "零",
+          "start": 9740,
+          "end": 9840,
+          "confidence": 0.99992955,
+          "speaker": "A"
+        },
+        {
+          "text": "电烙铁，",
+          "start": 9840,
+          "end": 10940,
+          "confidence": 0.96810204,
+          "speaker": "A"
+        },
+        {
+          "text": "还有",
+          "start": 10940,
+          "end": 11080,
+          "confidence": 0.95182204,
+          "speaker": "A"
+        },
+        {
+          "text": "吸气",
+          "start": 11080,
+          "end": 11380,
+          "confidence": 0.94823223,
+          "speaker": "A"
+        },
+        {
+          "text": "袋。",
+          "start": 11380,
+          "end": 11830,
+          "confidence": 0.99402577,
+          "speaker": "A"
+        },
+        {
+          "text": "像",
+          "start": 13960,
+          "end": 14040,
+          "confidence": 0.957265,
+          "speaker": "A"
+        },
+        {
+          "text": "这样",
+          "start": 14040,
+          "end": 14280,
+          "confidence": 0.9999789,
+          "speaker": "A"
+        },
+        {
+          "text": "把",
+          "start": 14280,
+          "end": 14440,
+          "confidence": 0.9617678,
+          "speaker": "A"
+        },
+        {
+          "text": "需要",
+          "start": 14440,
+          "end": 14700,
+          "confidence": 0.99999774,
+          "speaker": "A"
+        },
+        {
+          "text": "上锡膏",
+          "start": 14700,
+          "end": 15120,
+          "confidence": 0.999513,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 15120,
+          "end": 15300,
+          "confidence": 0.99996126,
+          "speaker": "A"
+        },
+        {
+          "text": "板子",
+          "start": 15300,
+          "end": 15560,
+          "confidence": 0.9998543,
+          "speaker": "A"
+        },
+        {
+          "text": "固定",
+          "start": 15560,
+          "end": 15840,
+          "confidence": 0.9999925,
+          "speaker": "A"
+        },
+        {
+          "text": "好，",
+          "start": 15840,
+          "end": 19440,
+          "confidence": 0.9934896,
+          "speaker": "A"
+        },
+        {
+          "text": "在",
+          "start": 19440,
+          "end": 19520,
+          "confidence": 0.98700315,
+          "speaker": "A"
+        },
+        {
+          "text": "钢网",
+          "start": 19520,
+          "end": 19840,
+          "confidence": 0.9998665,
+          "speaker": "A"
+        },
+        {
+          "text": "上面",
+          "start": 19840,
+          "end": 20180,
+          "confidence": 0.99915385,
+          "speaker": "A"
+        },
+        {
+          "text": "均匀",
+          "start": 20180,
+          "end": 20420,
+          "confidence": 0.99999,
+          "speaker": "A"
+        },
+        {
+          "text": "涂抹",
+          "start": 20420,
+          "end": 20700,
+          "confidence": 0.9999991,
+          "speaker": "A"
+        },
+        {
+          "text": "锡膏，",
+          "start": 20700,
+          "end": 22340,
+          "confidence": 0.99989593,
+          "speaker": "A"
+        },
+        {
+          "text": "把锡膏",
+          "start": 22340,
+          "end": 22740,
+          "confidence": 0.9998672,
+          "speaker": "A"
+        },
+        {
+          "text": "刮开。",
+          "start": 22740,
+          "end": 23270,
+          "confidence": 0.9927599,
+          "speaker": "A"
+        },
+        {
+          "text": "这样",
+          "start": 26870,
+          "end": 27270,
+          "confidence": 0.99900025,
+          "speaker": "A"
+        },
+        {
+          "text": "锡膏",
+          "start": 27270,
+          "end": 27490,
+          "confidence": 0.932968,
+          "speaker": "A"
+        },
+        {
+          "text": "就",
+          "start": 27490,
+          "end": 27750,
+          "confidence": 0.9998154,
+          "speaker": "A"
+        },
+        {
+          "text": "上",
+          "start": 27750,
+          "end": 27770,
+          "confidence": 0.9974045,
+          "speaker": "A"
+        },
+        {
+          "text": "好了。",
+          "start": 27770,
+          "end": 28420,
+          "confidence": 0.87891126,
+          "speaker": "A"
+        },
+        {
+          "text": "对照",
+          "start": 30070,
+          "end": 30170,
+          "confidence": 0.9971126,
+          "speaker": "A"
+        },
+        {
+          "text": "着",
+          "start": 30170,
+          "end": 30410,
+          "confidence": 0.9941373,
+          "speaker": "A"
+        },
+        {
+          "text": "PCB",
+          "start": 30410,
+          "end": 30770,
+          "confidence": 0.89396614,
+          "speaker": "A"
+        },
+        {
+          "text": "图，",
+          "start": 30770,
+          "end": 31030,
+          "confidence": 0.8357368,
+          "speaker": "A"
+        },
+        {
+          "text": "将",
+          "start": 31030,
+          "end": 31090,
+          "confidence": 0.67154235,
+          "speaker": "A"
+        },
+        {
+          "text": "元器件",
+          "start": 31090,
+          "end": 31470,
+          "confidence": 0.9157801,
+          "speaker": "A"
+        },
+        {
+          "text": "放上去，将",
+          "start": 31470,
+          "end": 34370,
+          "confidence": 0.8086,
+          "speaker": "A"
+        },
+        {
+          "text": "焊台",
+          "start": 34370,
+          "end": 34610,
+          "confidence": 0.99982363,
+          "speaker": "A"
+        },
+        {
+          "text": "加热",
+          "start": 34610,
+          "end": 34850,
+          "confidence": 0.9996268,
+          "speaker": "A"
+        },
+        {
+          "text": "到",
+          "start": 34850,
+          "end": 35030,
+          "confidence": 0.9999852,
+          "speaker": "A"
+        },
+        {
+          "text": "两",
+          "start": 35030,
+          "end": 35150,
+          "confidence": 0.8358693,
+          "speaker": "A"
+        },
+        {
+          "text": "百度，",
+          "start": 35150,
+          "end": 37430,
+          "confidence": 0.99273986,
+          "speaker": "A"
+        },
+        {
+          "text": "放上",
+          "start": 37430,
+          "end": 37650,
+          "confidence": 0.9999778,
+          "speaker": "A"
+        },
+        {
+          "text": "PCB，",
+          "start": 37650,
+          "end": 38950,
+          "confidence": 0.96172297,
+          "speaker": "A"
+        },
+        {
+          "text": "煎熬",
+          "start": 38950,
+          "end": 39070,
+          "confidence": 0.77597725,
+          "speaker": "A"
+        },
+        {
+          "text": "至锡膏",
+          "start": 39070,
+          "end": 39490,
+          "confidence": 0.9997125,
+          "speaker": "A"
+        },
+        {
+          "text": "完全",
+          "start": 39490,
+          "end": 39790,
+          "confidence": 0.9999944,
+          "speaker": "A"
+        },
+        {
+          "text": "融化。",
+          "start": 39790,
+          "end": 40350,
+          "confidence": 0.9562099,
+          "speaker": "A"
+        },
+        {
+          "text": "等",
+          "start": 41510,
+          "end": 41550,
+          "confidence": 0.9999012,
+          "speaker": "A"
+        },
+        {
+          "text": "板子",
+          "start": 41550,
+          "end": 41890,
+          "confidence": 0.9995266,
+          "speaker": "A"
+        },
+        {
+          "text": "冷却",
+          "start": 41890,
+          "end": 42110,
+          "confidence": 0.9997885,
+          "speaker": "A"
+        },
+        {
+          "text": "后，",
+          "start": 42110,
+          "end": 42410,
+          "confidence": 0.9839724,
+          "speaker": "A"
+        },
+        {
+          "text": "再",
+          "start": 42410,
+          "end": 42530,
+          "confidence": 0.96798295,
+          "speaker": "A"
+        },
+        {
+          "text": "对",
+          "start": 42530,
+          "end": 42590,
+          "confidence": 0.99916244,
+          "speaker": "A"
+        },
+        {
+          "text": "连线",
+          "start": 42590,
+          "end": 42850,
+          "confidence": 0.3938361,
+          "speaker": "A"
+        },
+        {
+          "text": "引脚",
+          "start": 42850,
+          "end": 43150,
+          "confidence": 0.8019285,
+          "speaker": "A"
+        },
+        {
+          "text": "进行",
+          "start": 43150,
+          "end": 43430,
+          "confidence": 0.99998343,
+          "speaker": "A"
+        },
+        {
+          "text": "处理。",
+          "start": 43430,
+          "end": 43970,
+          "confidence": 0.9756947,
+          "speaker": "A"
+        },
+        {
+          "text": "电烙铁",
+          "start": 45590,
+          "end": 45870,
+          "confidence": 0.9799745,
+          "speaker": "A"
+        },
+        {
+          "text": "设",
+          "start": 45870,
+          "end": 45990,
+          "confidence": 0.5235413,
+          "speaker": "A"
+        },
+        {
+          "text": "到",
+          "start": 45990,
+          "end": 46190,
+          "confidence": 0.923685,
+          "speaker": "A"
+        },
+        {
+          "text": "三百",
+          "start": 46190,
+          "end": 46490,
+          "confidence": 0.99990845,
+          "speaker": "A"
+        },
+        {
+          "text": "二十五",
+          "start": 46490,
+          "end": 46850,
+          "confidence": 0.9999549,
+          "speaker": "A"
+        },
+        {
+          "text": "度",
+          "start": 46850,
+          "end": 46890,
+          "confidence": 0.99996805,
+          "speaker": "A"
+        },
+        {
+          "text": "左右，",
+          "start": 46890,
+          "end": 48690,
+          "confidence": 0.9875304,
+          "speaker": "A"
+        },
+        {
+          "text": "烙铁头",
+          "start": 48690,
+          "end": 49090,
+          "confidence": 0.99971056,
+          "speaker": "A"
+        },
+        {
+          "text": "对",
+          "start": 49090,
+          "end": 49190,
+          "confidence": 0.99363494,
+          "speaker": "A"
+        },
+        {
+          "text": "芯片",
+          "start": 49190,
+          "end": 49590,
+          "confidence": 0.80595535,
+          "speaker": "A"
+        },
+        {
+          "text": "引脚",
+          "start": 49590,
+          "end": 49890,
+          "confidence": 0.99757105,
+          "speaker": "A"
+        },
+        {
+          "text": "拖动",
+          "start": 49890,
+          "end": 50230,
+          "confidence": 0.99522245,
+          "speaker": "A"
+        },
+        {
+          "text": "带走",
+          "start": 50230,
+          "end": 50570,
+          "confidence": 0.83918023,
+          "speaker": "A"
+        },
+        {
+          "text": "多余",
+          "start": 50570,
+          "end": 50790,
+          "confidence": 0.99999684,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 50790,
+          "end": 51070,
+          "confidence": 0.9999558,
+          "speaker": "A"
+        },
+        {
+          "text": "锡。",
+          "start": 51070,
+          "end": 51350,
+          "confidence": 0.99980533,
+          "speaker": "A"
+        },
+        {
+          "text": "如果",
+          "start": 52970,
+          "end": 53420,
+          "confidence": 0.99997103,
+          "speaker": "A"
+        },
+        {
+          "text": "没",
+          "start": 53420,
+          "end": 53560,
+          "confidence": 0.99962294,
+          "speaker": "A"
+        },
+        {
+          "text": "办法",
+          "start": 53560,
+          "end": 53840,
+          "confidence": 0.99987566,
+          "speaker": "A"
+        },
+        {
+          "text": "完全",
+          "start": 53840,
+          "end": 54240,
+          "confidence": 0.989062,
+          "speaker": "A"
+        },
+        {
+          "text": "清理",
+          "start": 54240,
+          "end": 54460,
+          "confidence": 0.99498206,
+          "speaker": "A"
+        },
+        {
+          "text": "怜惜，",
+          "start": 54460,
+          "end": 56040,
+          "confidence": 0.88498473,
+          "speaker": "A"
+        },
+        {
+          "text": "可以",
+          "start": 56040,
+          "end": 56100,
+          "confidence": 0.987938,
+          "speaker": "A"
+        },
+        {
+          "text": "尝试",
+          "start": 56100,
+          "end": 56420,
+          "confidence": 0.9999972,
+          "speaker": "A"
+        },
+        {
+          "text": "用",
+          "start": 56420,
+          "end": 56600,
+          "confidence": 0.99997807,
+          "speaker": "A"
+        },
+        {
+          "text": "吸气",
+          "start": 56600,
+          "end": 56760,
+          "confidence": 0.6899153,
+          "speaker": "A"
+        },
+        {
+          "text": "袋",
+          "start": 56760,
+          "end": 56900,
+          "confidence": 0.9614223,
+          "speaker": "A"
+        },
+        {
+          "text": "辅助。",
+          "start": 56900,
+          "end": 57590,
+          "confidence": 0.9999408,
+          "speaker": "A"
+        },
+        {
+          "text": "清理",
+          "start": 81470,
+          "end": 81970,
+          "confidence": 0.9998786,
+          "speaker": "A"
+        },
+        {
+          "text": "完",
+          "start": 81970,
+          "end": 82250,
+          "confidence": 0.9996835,
+          "speaker": "A"
+        },
+        {
+          "text": "联系",
+          "start": 82250,
+          "end": 82430,
+          "confidence": 0.910996,
+          "speaker": "A"
+        },
+        {
+          "text": "后长",
+          "start": 82430,
+          "end": 82750,
+          "confidence": 0.99387574,
+          "speaker": "A"
+        },
+        {
+          "text": "这样。",
+          "start": 82750,
+          "end": 83200,
+          "confidence": 0.8671861,
+          "speaker": "A"
+        },
+        {
+          "text": "下面",
+          "start": 84590,
+          "end": 84610,
+          "confidence": 0.9957202,
+          "speaker": "A"
+        },
+        {
+          "text": "我们焊",
+          "start": 84610,
+          "end": 85010,
+          "confidence": 0.9995,
+          "speaker": "A"
+        },
+        {
+          "text": "底层",
+          "start": 85010,
+          "end": 85330,
+          "confidence": 0.99999064,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 85330,
+          "end": 85530,
+          "confidence": 0.97821236,
+          "speaker": "A"
+        },
+        {
+          "text": "元器件，给",
+          "start": 85530,
+          "end": 87130,
+          "confidence": 0.9954,
+          "speaker": "A"
+        },
+        {
+          "text": "TypeC",
+          "start": 87130,
+          "end": 87550,
+          "confidence": 0.88106614,
+          "speaker": "A"
+        },
+        {
+          "text": "接口",
+          "start": 87550,
+          "end": 87850,
+          "confidence": 0.99814624,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 87850,
+          "end": 88050,
+          "confidence": 0.99992776,
+          "speaker": "A"
+        },
+        {
+          "text": "焊盘",
+          "start": 88050,
+          "end": 88250,
+          "confidence": 0.99999267,
+          "speaker": "A"
+        },
+        {
+          "text": "涂",
+          "start": 88250,
+          "end": 88390,
+          "confidence": 0.9999994,
+          "speaker": "A"
+        },
+        {
+          "text": "上锡膏，",
+          "start": 88390,
+          "end": 89260,
+          "confidence": 0.9907344,
+          "speaker": "A"
+        },
+        {
+          "text": "把",
+          "start": 90350,
+          "end": 90390,
+          "confidence": 0.9973865,
+          "speaker": "A"
+        },
+        {
+          "text": "TypeC",
+          "start": 90390,
+          "end": 90850,
+          "confidence": 0.99948037,
+          "speaker": "A"
+        },
+        {
+          "text": "放上来，",
+          "start": 90850,
+          "end": 91760,
+          "confidence": 0.9975564,
+          "speaker": "A"
+        },
+        {
+          "text": "用",
+          "start": 92130,
+          "end": 92270,
+          "confidence": 0.99980074,
+          "speaker": "A"
+        },
+        {
+          "text": "电烙铁",
+          "start": 92270,
+          "end": 92670,
+          "confidence": 0.95008016,
+          "speaker": "A"
+        },
+        {
+          "text": "把",
+          "start": 92670,
+          "end": 92930,
+          "confidence": 0.99999356,
+          "speaker": "A"
+        },
+        {
+          "text": "锡",
+          "start": 92930,
+          "end": 93050,
+          "confidence": 0.99961394,
+          "speaker": "A"
+        },
+        {
+          "text": "融化，",
+          "start": 93050,
+          "end": 93770,
+          "confidence": 0.97271633,
+          "speaker": "A"
+        },
+        {
+          "text": "然后",
+          "start": 94350,
+          "end": 94510,
+          "confidence": 0.99807006,
+          "speaker": "A"
+        },
+        {
+          "text": "再",
+          "start": 94510,
+          "end": 94670,
+          "confidence": 0.9999763,
+          "speaker": "A"
+        },
+        {
+          "text": "把",
+          "start": 94670,
+          "end": 94790,
+          "confidence": 0.9999975,
+          "speaker": "A"
+        },
+        {
+          "text": "这",
+          "start": 94790,
+          "end": 95010,
+          "confidence": 0.9999474,
+          "speaker": "A"
+        },
+        {
+          "text": "四个",
+          "start": 95010,
+          "end": 95270,
+          "confidence": 0.9998774,
+          "speaker": "A"
+        },
+        {
+          "text": "固定",
+          "start": 95270,
+          "end": 95510,
+          "confidence": 0.99929416,
+          "speaker": "A"
+        },
+        {
+          "text": "银角",
+          "start": 95510,
+          "end": 95730,
+          "confidence": 0.77067715,
+          "speaker": "A"
+        },
+        {
+          "text": "焊",
+          "start": 95730,
+          "end": 95930,
+          "confidence": 0.9999992,
+          "speaker": "A"
+        },
+        {
+          "text": "一下，",
+          "start": 95930,
+          "end": 96330,
+          "confidence": 0.98678946,
+          "speaker": "A"
+        },
+        {
+          "text": "在",
+          "start": 99690,
+          "end": 99790,
+          "confidence": 0.98217183,
+          "speaker": "A"
+        },
+        {
+          "text": "银角",
+          "start": 99790,
+          "end": 100070,
+          "confidence": 0.9983663,
+          "speaker": "A"
+        },
+        {
+          "text": "上",
+          "start": 100070,
+          "end": 100350,
+          "confidence": 0.9999596,
+          "speaker": "A"
+        },
+        {
+          "text": "拖动",
+          "start": 100350,
+          "end": 100530,
+          "confidence": 0.99774474,
+          "speaker": "A"
+        },
+        {
+          "text": "去除",
+          "start": 100530,
+          "end": 100830,
+          "confidence": 0.9980871,
+          "speaker": "A"
+        },
+        {
+          "text": "联系。",
+          "start": 100830,
+          "end": 101590,
+          "confidence": 0.9961142,
+          "speaker": "A"
+        },
+        {
+          "text": "接来",
+          "start": 103750,
+          "end": 104360,
+          "confidence": 0.858677,
+          "speaker": "A"
+        },
+        {
+          "text": "焊",
+          "start": 104360,
+          "end": 104480,
+          "confidence": 0.89493257,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 104480,
+          "end": 104740,
+          "confidence": 0.9999279,
+          "speaker": "A"
+        },
+        {
+          "text": "屏幕",
+          "start": 104740,
+          "end": 105040,
+          "confidence": 0.99997884,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 105040,
+          "end": 106340,
+          "confidence": 0.99991,
+          "speaker": "A"
+        },
+        {
+          "text": "插座，",
+          "start": 106340,
+          "end": 108560,
+          "confidence": 0.95079917,
+          "speaker": "A"
+        },
+        {
+          "text": "这",
+          "start": 108560,
+          "end": 109720,
+          "confidence": 0.8037069,
+          "speaker": "A"
+        },
+        {
+          "text": "引脚",
+          "start": 109720,
+          "end": 110020,
+          "confidence": 0.8061019,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 110020,
+          "end": 110300,
+          "confidence": 0.9999753,
+          "speaker": "A"
+        },
+        {
+          "text": "联系",
+          "start": 110300,
+          "end": 110420,
+          "confidence": 0.90268487,
+          "speaker": "A"
+        },
+        {
+          "text": "需要",
+          "start": 110420,
+          "end": 110760,
+          "confidence": 0.99991393,
+          "speaker": "A"
+        },
+        {
+          "text": "借助",
+          "start": 110760,
+          "end": 111100,
+          "confidence": 0.9994122,
+          "speaker": "A"
+        },
+        {
+          "text": "吸气",
+          "start": 111100,
+          "end": 111320,
+          "confidence": 0.6665209,
+          "speaker": "A"
+        },
+        {
+          "text": "带",
+          "start": 111320,
+          "end": 111440,
+          "confidence": 0.570746,
+          "speaker": "A"
+        },
+        {
+          "text": "才能",
+          "start": 111440,
+          "end": 111820,
+          "confidence": 0.9999629,
+          "speaker": "A"
+        },
+        {
+          "text": "去除。",
+          "start": 111820,
+          "end": 112350,
+          "confidence": 0.9976094,
+          "speaker": "A"
+        },
+        {
+          "text": "接来",
+          "start": 116760,
+          "end": 117520,
+          "confidence": 0.9975588,
+          "speaker": "A"
+        },
+        {
+          "text": "焊",
+          "start": 117520,
+          "end": 117680,
+          "confidence": 0.9999968,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 117680,
+          "end": 117920,
+          "confidence": 0.99999225,
+          "speaker": "A"
+        },
+        {
+          "text": "电容，",
+          "start": 117920,
+          "end": 124140,
+          "confidence": 0.9986668,
+          "speaker": "A"
+        },
+        {
+          "text": "然后",
+          "start": 124140,
+          "end": 124940,
+          "confidence": 0.9980204,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 124940,
+          "end": 125120,
+          "confidence": 0.99624443,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 125120,
+          "end": 125300,
+          "confidence": 0.9451121,
+          "speaker": "A"
+        },
+        {
+          "text": "电阻。",
+          "start": 125300,
+          "end": 125960,
+          "confidence": 0.9993599,
+          "speaker": "A"
+        },
+        {
+          "text": "接下来",
+          "start": 128820,
+          "end": 129470,
+          "confidence": 0.9999631,
+          "speaker": "A"
+        },
+        {
+          "text": "焊",
+          "start": 129470,
+          "end": 129590,
+          "confidence": 0.99996823,
+          "speaker": "A"
+        },
+        {
+          "text": "TP",
+          "start": 129590,
+          "end": 129830,
+          "confidence": 0.67384106,
+          "speaker": "A"
+        },
+        {
+          "text": "四零",
+          "start": 129830,
+          "end": 130170,
+          "confidence": 0.7877886,
+          "speaker": "A"
+        },
+        {
+          "text": "五六",
+          "start": 130170,
+          "end": 130450,
+          "confidence": 0.9988519,
+          "speaker": "A"
+        },
+        {
+          "text": "芯片，",
+          "start": 130450,
+          "end": 131770,
+          "confidence": 0.9842471,
+          "speaker": "A"
+        },
+        {
+          "text": "先焊",
+          "start": 131770,
+          "end": 132010,
+          "confidence": 0.99993867,
+          "speaker": "A"
+        },
+        {
+          "text": "一个",
+          "start": 132010,
+          "end": 132230,
+          "confidence": 0.9999939,
+          "speaker": "A"
+        },
+        {
+          "text": "引脚，",
+          "start": 132230,
+          "end": 134970,
+          "confidence": 0.74004847,
+          "speaker": "A"
+        },
+        {
+          "text": "然后",
+          "start": 134970,
+          "end": 135050,
+          "confidence": 0.9988269,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 135050,
+          "end": 135250,
+          "confidence": 0.9999336,
+          "speaker": "A"
+        },
+        {
+          "text": "其他",
+          "start": 135250,
+          "end": 135550,
+          "confidence": 0.9972088,
+          "speaker": "A"
+        },
+        {
+          "text": "引脚。",
+          "start": 135550,
+          "end": 138430,
+          "confidence": 0.9909203,
+          "speaker": "A"
+        },
+        {
+          "text": "接下来",
+          "start": 141810,
+          "end": 142650,
+          "confidence": 0.999843,
+          "speaker": "A"
+        },
+        {
+          "text": "把",
+          "start": 142650,
+          "end": 142750,
+          "confidence": 0.9999764,
+          "speaker": "A"
+        },
+        {
+          "text": "下面",
+          "start": 142750,
+          "end": 143030,
+          "confidence": 0.9997299,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 143030,
+          "end": 143230,
+          "confidence": 0.99996996,
+          "speaker": "A"
+        },
+        {
+          "text": "电容",
+          "start": 143230,
+          "end": 143390,
+          "confidence": 0.9974216,
+          "speaker": "A"
+        },
+        {
+          "text": "和",
+          "start": 143390,
+          "end": 143570,
+          "confidence": 0.99996436,
+          "speaker": "A"
+        },
+        {
+          "text": "电阻",
+          "start": 143570,
+          "end": 143790,
+          "confidence": 0.99986994,
+          "speaker": "A"
+        },
+        {
+          "text": "焊好。",
+          "start": 143790,
+          "end": 144610,
+          "confidence": 0.9525604,
+          "speaker": "A"
+        },
+        {
+          "text": "接下来",
+          "start": 149520,
+          "end": 150170,
+          "confidence": 0.9998667,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 150170,
+          "end": 150270,
+          "confidence": 0.8347593,
+          "speaker": "A"
+        },
+        {
+          "text": "这",
+          "start": 150270,
+          "end": 150410,
+          "confidence": 0.9992988,
+          "speaker": "A"
+        },
+        {
+          "text": "两个",
+          "start": 150410,
+          "end": 150710,
+          "confidence": 0.99998605,
+          "speaker": "A"
+        },
+        {
+          "text": "按键。",
+          "start": 150710,
+          "end": 151200,
+          "confidence": 0.9966498,
+          "speaker": "A"
+        },
+        {
+          "text": "然后",
+          "start": 154830,
+          "end": 155280,
+          "confidence": 0.99990225,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 155280,
+          "end": 155540,
+          "confidence": 0.99963963,
+          "speaker": "A"
+        },
+        {
+          "text": "旁边",
+          "start": 155540,
+          "end": 155820,
+          "confidence": 0.9955244,
+          "speaker": "A"
+        },
+        {
+          "text": "电阻",
+          "start": 155820,
+          "end": 156140,
+          "confidence": 0.9940402,
+          "speaker": "A"
+        },
+        {
+          "text": "和",
+          "start": 156140,
+          "end": 156400,
+          "confidence": 0.99500424,
+          "speaker": "A"
+        },
+        {
+          "text": "LED，",
+          "start": 156400,
+          "end": 160220,
+          "confidence": 0.6316937,
+          "speaker": "A"
+        },
+        {
+          "text": "下面",
+          "start": 160220,
+          "end": 160240,
+          "confidence": 0.9827767,
+          "speaker": "A"
+        },
+        {
+          "text": "焊",
+          "start": 160240,
+          "end": 160400,
+          "confidence": 0.97977406,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 160400,
+          "end": 160620,
+          "confidence": 0.9999131,
+          "speaker": "A"
+        },
+        {
+          "text": "波容",
+          "start": 160620,
+          "end": 160860,
+          "confidence": 0.86759394,
+          "speaker": "A"
+        },
+        {
+          "text": "开关，",
+          "start": 160860,
+          "end": 163820,
+          "confidence": 0.96175057,
+          "speaker": "A"
+        },
+        {
+          "text": "最后",
+          "start": 163820,
+          "end": 167920,
+          "confidence": 0.9998734,
+          "speaker": "A"
+        },
+        {
+          "text": "焊",
+          "start": 167920,
+          "end": 168120,
+          "confidence": 0.99999964,
+          "speaker": "A"
+        },
+        {
+          "text": "一下",
+          "start": 168120,
+          "end": 168260,
+          "confidence": 0.9581463,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 168260,
+          "end": 168520,
+          "confidence": 0.9999832,
+          "speaker": "A"
+        },
+        {
+          "text": "按键。",
+          "start": 168520,
+          "end": 169160,
+          "confidence": 0.98807746,
+          "speaker": "A"
+        },
+        {
+          "text": "在",
+          "start": 171040,
+          "end": 171120,
+          "confidence": 0.9575537,
+          "speaker": "A"
+        },
+        {
+          "text": "上",
+          "start": 171120,
+          "end": 171320,
+          "confidence": 0.9989704,
+          "speaker": "A"
+        },
+        {
+          "text": "电",
+          "start": 171320,
+          "end": 171380,
+          "confidence": 0.98865056,
+          "speaker": "A"
+        },
+        {
+          "text": "之前",
+          "start": 171380,
+          "end": 171640,
+          "confidence": 0.9999943,
+          "speaker": "A"
+        },
+        {
+          "text": "要用",
+          "start": 171640,
+          "end": 171920,
+          "confidence": 0.8610511,
+          "speaker": "A"
+        },
+        {
+          "text": "万应表",
+          "start": 171920,
+          "end": 172260,
+          "confidence": 0.6576076,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 172260,
+          "end": 172460,
+          "confidence": 0.999859,
+          "speaker": "A"
+        },
+        {
+          "text": "分",
+          "start": 172460,
+          "end": 172580,
+          "confidence": 0.84123915,
+          "speaker": "A"
+        },
+        {
+          "text": "明器",
+          "start": 172580,
+          "end": 172800,
+          "confidence": 0.6521923,
+          "speaker": "A"
+        },
+        {
+          "text": "测",
+          "start": 172800,
+          "end": 172940,
+          "confidence": 0.99980193,
+          "speaker": "A"
+        },
+        {
+          "text": "一下",
+          "start": 172940,
+          "end": 173100,
+          "confidence": 0.6094033,
+          "speaker": "A"
+        },
+        {
+          "text": "电源",
+          "start": 173100,
+          "end": 173340,
+          "confidence": 0.9999626,
+          "speaker": "A"
+        },
+        {
+          "text": "有没有",
+          "start": 173340,
+          "end": 173700,
+          "confidence": 0.9999912,
+          "speaker": "A"
+        },
+        {
+          "text": "短路，",
+          "start": 173700,
+          "end": 174760,
+          "confidence": 0.9986033,
+          "speaker": "A"
+        },
+        {
+          "text": "分别",
+          "start": 174760,
+          "end": 175080,
+          "confidence": 0.9998246,
+          "speaker": "A"
+        },
+        {
+          "text": "要测",
+          "start": 175080,
+          "end": 175400,
+          "confidence": 0.99948716,
+          "speaker": "A"
+        },
+        {
+          "text": "VBUS",
+          "start": 175400,
+          "end": 175900,
+          "confidence": 0.5106803,
+          "speaker": "A"
+        },
+        {
+          "text": "与",
+          "start": 175900,
+          "end": 176120,
+          "confidence": 0.99900764,
+          "speaker": "A"
+        },
+        {
+          "text": "GND、",
+          "start": 176120,
+          "end": 178280,
+          "confidence": 0.9283754,
+          "speaker": "A"
+        },
+        {
+          "text": "三",
+          "start": 178280,
+          "end": 178400,
+          "confidence": 0.63242525,
+          "speaker": "A"
+        },
+        {
+          "text": "V",
+          "start": 178400,
+          "end": 178460,
+          "confidence": 0.96181214,
+          "speaker": "A"
+        },
+        {
+          "text": "三",
+          "start": 178460,
+          "end": 178660,
+          "confidence": 0.92570364,
+          "speaker": "A"
+        },
+        {
+          "text": "与",
+          "start": 178660,
+          "end": 178780,
+          "confidence": 0.99938226,
+          "speaker": "A"
+        },
+        {
+          "text": "GND。",
+          "start": 178780,
+          "end": 179420,
+          "confidence": 0.9994375,
+          "speaker": "A"
+        },
+        {
+          "text": "Vbat",
+          "start": 179740,
+          "end": 180330,
+          "confidence": 0.6520257,
+          "speaker": "A"
+        },
+        {
+          "text": "正",
+          "start": 180330,
+          "end": 180610,
+          "confidence": 0.89677334,
+          "speaker": "A"
+        },
+        {
+          "text": "与",
+          "start": 180610,
+          "end": 180810,
+          "confidence": 0.99576014,
+          "speaker": "A"
+        },
+        {
+          "text": "追根",
+          "start": 180810,
+          "end": 180970,
+          "confidence": 0.4298163,
+          "speaker": "A"
+        },
+        {
+          "text": "地，",
+          "start": 180970,
+          "end": 182490,
+          "confidence": 0.67147934,
+          "speaker": "A"
+        },
+        {
+          "text": "Vbat",
+          "start": 182490,
+          "end": 183010,
+          "confidence": 0.96151793,
+          "speaker": "A"
+        },
+        {
+          "text": "与",
+          "start": 183010,
+          "end": 183150,
+          "confidence": 0.9940848,
+          "speaker": "A"
+        },
+        {
+          "text": "追根",
+          "start": 183150,
+          "end": 183470,
+          "confidence": 0.999474,
+          "speaker": "A"
+        },
+        {
+          "text": "地",
+          "start": 183470,
+          "end": 183550,
+          "confidence": 0.99973875,
+          "speaker": "A"
+        },
+        {
+          "text": "之间",
+          "start": 183550,
+          "end": 183770,
+          "confidence": 0.99973994,
+          "speaker": "A"
+        },
+        {
+          "text": "有没有",
+          "start": 183770,
+          "end": 184150,
+          "confidence": 0.9993555,
+          "speaker": "A"
+        },
+        {
+          "text": "短路？",
+          "start": 184150,
+          "end": 184870,
+          "confidence": 0.9998238,
+          "speaker": "A"
+        },
+        {
+          "text": "如果",
+          "start": 186110,
+          "end": 186210,
+          "confidence": 0.9996929,
+          "speaker": "A"
+        },
+        {
+          "text": "有",
+          "start": 186210,
+          "end": 186450,
+          "confidence": 0.999964,
+          "speaker": "A"
+        },
+        {
+          "text": "短路",
+          "start": 186450,
+          "end": 186690,
+          "confidence": 0.9999949,
+          "speaker": "A"
+        },
+        {
+          "text": "的话，",
+          "start": 186690,
+          "end": 187110,
+          "confidence": 0.9993107,
+          "speaker": "A"
+        },
+        {
+          "text": "分辨",
+          "start": 187110,
+          "end": 187270,
+          "confidence": 0.842292,
+          "speaker": "A"
+        },
+        {
+          "text": "器会响。",
+          "start": 187270,
+          "end": 188010,
+          "confidence": 0.9983849,
+          "speaker": "A"
+        },
+        {
+          "text": "此时",
+          "start": 189610,
+          "end": 190190,
+          "confidence": 0.9952238,
+          "speaker": "A"
+        },
+        {
+          "text": "不能",
+          "start": 190190,
+          "end": 190430,
+          "confidence": 0.99984705,
+          "speaker": "A"
+        },
+        {
+          "text": "上电，",
+          "start": 190430,
+          "end": 191490,
+          "confidence": 0.952714,
+          "speaker": "A"
+        },
+        {
+          "text": "检查",
+          "start": 191490,
+          "end": 191730,
+          "confidence": 0.9998198,
+          "speaker": "A"
+        },
+        {
+          "text": "芯片",
+          "start": 191730,
+          "end": 191970,
+          "confidence": 0.99996775,
+          "speaker": "A"
+        },
+        {
+          "text": "难以",
+          "start": 191970,
+          "end": 192290,
+          "confidence": 0.8253797,
+          "speaker": "A"
+        },
+        {
+          "text": "联系",
+          "start": 192290,
+          "end": 192650,
+          "confidence": 0.9856792,
+          "speaker": "A"
+        },
+        {
+          "text": "了，",
+          "start": 192650,
+          "end": 193110,
+          "confidence": 0.81824493,
+          "speaker": "A"
+        },
+        {
+          "text": "清楚",
+          "start": 193110,
+          "end": 193290,
+          "confidence": 0.5582442,
+          "speaker": "A"
+        },
+        {
+          "text": "联系",
+          "start": 193290,
+          "end": 193610,
+          "confidence": 0.9992692,
+          "speaker": "A"
+        },
+        {
+          "text": "直到",
+          "start": 193610,
+          "end": 193890,
+          "confidence": 0.8052431,
+          "speaker": "A"
+        },
+        {
+          "text": "没有",
+          "start": 193890,
+          "end": 194070,
+          "confidence": 0.9999882,
+          "speaker": "A"
+        },
+        {
+          "text": "短路。",
+          "start": 194070,
+          "end": 194770,
+          "confidence": 0.9839988,
+          "speaker": "A"
+        },
+        {
+          "text": "接下来",
+          "start": 195730,
+          "end": 195970,
+          "confidence": 0.99995404,
+          "speaker": "A"
+        },
+        {
+          "text": "把",
+          "start": 195970,
+          "end": 196070,
+          "confidence": 0.9997098,
+          "speaker": "A"
+        },
+        {
+          "text": "电池",
+          "start": 196070,
+          "end": 196350,
+          "confidence": 0.999939,
+          "speaker": "A"
+        },
+        {
+          "text": "焊上去，",
+          "start": 196350,
+          "end": 199150,
+          "confidence": 0.998574,
+          "speaker": "A"
+        },
+        {
+          "text": "最后",
+          "start": 199150,
+          "end": 199490,
+          "confidence": 0.99993527,
+          "speaker": "A"
+        },
+        {
+          "text": "把",
+          "start": 199490,
+          "end": 199610,
+          "confidence": 0.99999666,
+          "speaker": "A"
+        },
+        {
+          "text": "屏幕",
+          "start": 199610,
+          "end": 199910,
+          "confidence": 0.9999917,
+          "speaker": "A"
+        },
+        {
+          "text": "装上去。",
+          "start": 199910,
+          "end": 200550,
+          "confidence": 0.9999875,
+          "speaker": "A"
+        },
+        {
+          "text": "大功告成。",
+          "start": 210610,
+          "end": 211960,
+          "confidence": 0.99207634,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.9486728,
+  "audio_duration": 214,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "redact_static_entities": null,
+  "speaker_labels": true,
+  "speaker_options": {
+    "min_speakers_expected": null,
+    "max_speakers_expected": null,
+    "advanced_speaker_segmentation": true
+  },
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": false,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-3-5-pro"
+  ],
+  "speech_model_used": "universal-3-5-pro",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": null,
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 1623026,
+  "token_id": 1639457
+}

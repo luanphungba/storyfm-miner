@@ -1,0 +1,40 @@
+{
+  "episode": "BV1HQTs6FEos-p7",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-04",
+  "fixes": [
+    {
+      "cueIndex": 0,
+      "before": "SWModel",
+      "after": "SW-Model",
+      "source": "llm-review",
+      "reason": "The folder 04_SW-Model, as the subtitle writes it.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 1,
+      "before": "佳利创",
+      "after": "嘉立创",
+      "source": "llm-review",
+      "reason": "JLC's maker; the subtitle reads 嘉立创3D打印官网.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 3,
+      "before": "佳利创",
+      "after": "嘉立创",
+      "source": "llm-review",
+      "reason": "As in sentence 1; the subtitle reads 嘉立创下单助手.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 6,
+      "before": "哈罗威尔",
+      "after": "Hardware",
+      "source": "llm-review",
+      "reason": "The Hardware folder; the subtitle reads 我放在Hardware里了.",
+      "appliedAt": "2026-10-04"
+    }
+  ],
+  "flagged": []
+}

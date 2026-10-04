@@ -1,0 +1,2192 @@
+{
+  "id": "f65d5369-72bb-4836-ba04-7325f7bf82d3",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "zh",
+  "speech_understanding": null,
+  "translated_texts": null,
+  "status": "completed",
+  "audio_url": "https://storyfm-audio.luanphungba.workers.dev/BV1HQTs6FEos-p2.m4a",
+  "text": "我们先来下载复刻所需资料，这个链接我已经放在视频简介里了。进入这个项目的页面，点击“克隆下载”，下载压缩包，下载完成后解压压缩包，复刻所需资料都在这里了。它的 VIO 里面放的是硬件资料。包括提交给厂家进行打板的 Gerber 文件，以及用于元器件购买的 BOM 清单。下面这个是嘉利创 EDA 的工程文件。装 Ware 里面放的是固件资料，包括可以直接烧录进单片机的二进制文件、乐鑫官方的烧录工具，以及用来配置信息的上位机。 SoftwareWare 里面放的是软件资料。这是手表的源码，这是上位机的源码。 SWModel 里面放的是外壳 3D 建模资料。这两个 STP 文件是提交给厂家进行 3D 打印的。资料下载好了，下面我先来讲解一下这块板子的原理图。",
+  "words": [
+    {
+      "text": "我们",
+      "start": 0,
+      "end": 260,
+      "confidence": 0.99997115,
+      "speaker": "A"
+    },
+    {
+      "text": "先",
+      "start": 260,
+      "end": 460,
+      "confidence": 0.99969137,
+      "speaker": "A"
+    },
+    {
+      "text": "来",
+      "start": 460,
+      "end": 660,
+      "confidence": 0.9999881,
+      "speaker": "A"
+    },
+    {
+      "text": "下载",
+      "start": 660,
+      "end": 760,
+      "confidence": 0.99994504,
+      "speaker": "A"
+    },
+    {
+      "text": "复刻",
+      "start": 760,
+      "end": 1040,
+      "confidence": 0.992333,
+      "speaker": "A"
+    },
+    {
+      "text": "所",
+      "start": 1040,
+      "end": 1320,
+      "confidence": 0.9985662,
+      "speaker": "A"
+    },
+    {
+      "text": "需",
+      "start": 1320,
+      "end": 1340,
+      "confidence": 0.99961424,
+      "speaker": "A"
+    },
+    {
+      "text": "资料，",
+      "start": 1340,
+      "end": 2380,
+      "confidence": 0.6608734,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 2380,
+      "end": 3060,
+      "confidence": 0.8907576,
+      "speaker": "A"
+    },
+    {
+      "text": "链接",
+      "start": 3060,
+      "end": 3400,
+      "confidence": 0.99992347,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 3400,
+      "end": 3580,
+      "confidence": 0.9998698,
+      "speaker": "A"
+    },
+    {
+      "text": "已经",
+      "start": 3580,
+      "end": 3740,
+      "confidence": 0.999821,
+      "speaker": "A"
+    },
+    {
+      "text": "放在",
+      "start": 3740,
+      "end": 4059,
+      "confidence": 0.999856,
+      "speaker": "A"
+    },
+    {
+      "text": "视频",
+      "start": 4059,
+      "end": 4320,
+      "confidence": 0.99999595,
+      "speaker": "A"
+    },
+    {
+      "text": "简介",
+      "start": 4320,
+      "end": 4640,
+      "confidence": 0.999956,
+      "speaker": "A"
+    },
+    {
+      "text": "里",
+      "start": 4640,
+      "end": 4880,
+      "confidence": 0.9999796,
+      "speaker": "A"
+    },
+    {
+      "text": "了。",
+      "start": 4880,
+      "end": 5330,
+      "confidence": 0.99963367,
+      "speaker": "A"
+    },
+    {
+      "text": "进入",
+      "start": 6240,
+      "end": 6400,
+      "confidence": 0.9995167,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 6400,
+      "end": 6680,
+      "confidence": 0.99999535,
+      "speaker": "A"
+    },
+    {
+      "text": "项目",
+      "start": 6680,
+      "end": 6880,
+      "confidence": 0.99999285,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 6880,
+      "end": 7080,
+      "confidence": 0.99993837,
+      "speaker": "A"
+    },
+    {
+      "text": "页面，",
+      "start": 7080,
+      "end": 8880,
+      "confidence": 0.99942726,
+      "speaker": "A"
+    },
+    {
+      "text": "点击",
+      "start": 8880,
+      "end": 9120,
+      "confidence": 0.99962497,
+      "speaker": "A"
+    },
+    {
+      "text": "“",
+      "start": 9120,
+      "end": 9380,
+      "confidence": 0.65971327,
+      "speaker": "A"
+    },
+    {
+      "text": "克隆",
+      "start": 9380,
+      "end": 9560,
+      "confidence": 0.9334667,
+      "speaker": "A"
+    },
+    {
+      "text": "下载",
+      "start": 9560,
+      "end": 10400,
+      "confidence": 0.8797825,
+      "speaker": "A"
+    },
+    {
+      "text": "”，",
+      "start": 10400,
+      "end": 10960,
+      "confidence": 0.9738954,
+      "speaker": "A"
+    },
+    {
+      "text": "下载",
+      "start": 10960,
+      "end": 11080,
+      "confidence": 0.99698037,
+      "speaker": "B"
+    },
+    {
+      "text": "压缩包，",
+      "start": 11080,
+      "end": 16379,
+      "confidence": 0.9178905,
+      "speaker": "B"
+    },
+    {
+      "text": "下载",
+      "start": 16379,
+      "end": 16520,
+      "confidence": 0.9994129,
+      "speaker": "B"
+    },
+    {
+      "text": "完成",
+      "start": 16520,
+      "end": 16780,
+      "confidence": 0.88051164,
+      "speaker": "B"
+    },
+    {
+      "text": "后",
+      "start": 16780,
+      "end": 16960,
+      "confidence": 0.9999329,
+      "speaker": "B"
+    },
+    {
+      "text": "解压",
+      "start": 16960,
+      "end": 17200,
+      "confidence": 0.99923843,
+      "speaker": "B"
+    },
+    {
+      "text": "压缩包，",
+      "start": 17200,
+      "end": 20980,
+      "confidence": 0.9235438,
+      "speaker": "B"
+    },
+    {
+      "text": "复刻",
+      "start": 20980,
+      "end": 21200,
+      "confidence": 0.9998797,
+      "speaker": "B"
+    },
+    {
+      "text": "所",
+      "start": 21200,
+      "end": 21460,
+      "confidence": 0.9999616,
+      "speaker": "B"
+    },
+    {
+      "text": "需",
+      "start": 21460,
+      "end": 21520,
+      "confidence": 0.9996043,
+      "speaker": "B"
+    },
+    {
+      "text": "资料",
+      "start": 21520,
+      "end": 21800,
+      "confidence": 0.96712875,
+      "speaker": "B"
+    },
+    {
+      "text": "都",
+      "start": 21800,
+      "end": 21980,
+      "confidence": 0.99999034,
+      "speaker": "B"
+    },
+    {
+      "text": "在",
+      "start": 21980,
+      "end": 22100,
+      "confidence": 0.9999865,
+      "speaker": "B"
+    },
+    {
+      "text": "这里",
+      "start": 22100,
+      "end": 22380,
+      "confidence": 0.99999607,
+      "speaker": "B"
+    },
+    {
+      "text": "了。",
+      "start": 22380,
+      "end": 22830,
+      "confidence": 0.9915223,
+      "speaker": "B"
+    },
+    {
+      "text": "它的",
+      "start": 24020,
+      "end": 24200,
+      "confidence": 0.9623027,
+      "speaker": "A"
+    },
+    {
+      "text": "VIO",
+      "start": 24200,
+      "end": 24420,
+      "confidence": 0.15184206,
+      "speaker": "A"
+    },
+    {
+      "text": "里面",
+      "start": 24420,
+      "end": 24760,
+      "confidence": 0.9994338,
+      "speaker": "A"
+    },
+    {
+      "text": "放",
+      "start": 24760,
+      "end": 24880,
+      "confidence": 0.9999949,
+      "speaker": "A"
+    },
+    {
+      "text": "的是",
+      "start": 24880,
+      "end": 25160,
+      "confidence": 0.99896777,
+      "speaker": "A"
+    },
+    {
+      "text": "硬件",
+      "start": 25160,
+      "end": 25420,
+      "confidence": 0.9996069,
+      "speaker": "A"
+    },
+    {
+      "text": "资料。",
+      "start": 25420,
+      "end": 26100,
+      "confidence": 0.999971,
+      "speaker": "A"
+    },
+    {
+      "text": "包括",
+      "start": 26700,
+      "end": 27100,
+      "confidence": 0.9990214,
+      "speaker": "A"
+    },
+    {
+      "text": "提交",
+      "start": 27100,
+      "end": 27440,
+      "confidence": 0.9999982,
+      "speaker": "A"
+    },
+    {
+      "text": "给",
+      "start": 27440,
+      "end": 27600,
+      "confidence": 0.999982,
+      "speaker": "A"
+    },
+    {
+      "text": "厂家",
+      "start": 27600,
+      "end": 27880,
+      "confidence": 0.9998667,
+      "speaker": "A"
+    },
+    {
+      "text": "进行",
+      "start": 27880,
+      "end": 28160,
+      "confidence": 0.99998736,
+      "speaker": "A"
+    },
+    {
+      "text": "打板",
+      "start": 28160,
+      "end": 28400,
+      "confidence": 0.9203168,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 28400,
+      "end": 28620,
+      "confidence": 0.99880457,
+      "speaker": "A"
+    },
+    {
+      "text": "Gerber",
+      "start": 28620,
+      "end": 28780,
+      "confidence": 0.8652885,
+      "speaker": "A"
+    },
+    {
+      "text": "文件，",
+      "start": 28780,
+      "end": 30660,
+      "confidence": 0.98455083,
+      "speaker": "A"
+    },
+    {
+      "text": "以及",
+      "start": 30660,
+      "end": 30700,
+      "confidence": 0.9888638,
+      "speaker": "A"
+    },
+    {
+      "text": "用于",
+      "start": 30700,
+      "end": 31060,
+      "confidence": 0.9999676,
+      "speaker": "A"
+    },
+    {
+      "text": "元器件",
+      "start": 31060,
+      "end": 31460,
+      "confidence": 0.9995639,
+      "speaker": "A"
+    },
+    {
+      "text": "购买",
+      "start": 31460,
+      "end": 31740,
+      "confidence": 0.99998343,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 31740,
+      "end": 31940,
+      "confidence": 0.9990761,
+      "speaker": "A"
+    },
+    {
+      "text": "BOM",
+      "start": 31940,
+      "end": 32060,
+      "confidence": 0.782663,
+      "speaker": "A"
+    },
+    {
+      "text": "清单。",
+      "start": 32060,
+      "end": 32660,
+      "confidence": 0.9490633,
+      "speaker": "A"
+    },
+    {
+      "text": "下面",
+      "start": 33520,
+      "end": 33840,
+      "confidence": 0.9998639,
+      "speaker": "A"
+    },
+    {
+      "text": "这个",
+      "start": 33840,
+      "end": 34100,
+      "confidence": 0.9991767,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 34100,
+      "end": 34220,
+      "confidence": 0.9998393,
+      "speaker": "A"
+    },
+    {
+      "text": "嘉利创",
+      "start": 34220,
+      "end": 34500,
+      "confidence": 0.6245603,
+      "speaker": "A"
+    },
+    {
+      "text": "EDA",
+      "start": 34500,
+      "end": 34800,
+      "confidence": 0.80631685,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 34800,
+      "end": 34940,
+      "confidence": 0.9988502,
+      "speaker": "A"
+    },
+    {
+      "text": "工程",
+      "start": 34940,
+      "end": 35180,
+      "confidence": 0.9957307,
+      "speaker": "A"
+    },
+    {
+      "text": "文件。",
+      "start": 35180,
+      "end": 35740,
+      "confidence": 0.9277249,
+      "speaker": "A"
+    },
+    {
+      "text": "装",
+      "start": 38040,
+      "end": 38140,
+      "confidence": 0.35807264,
+      "speaker": "A"
+    },
+    {
+      "text": "Ware",
+      "start": 38140,
+      "end": 38460,
+      "confidence": 0.3448181,
+      "speaker": "A"
+    },
+    {
+      "text": "里面",
+      "start": 38460,
+      "end": 38800,
+      "confidence": 0.9988977,
+      "speaker": "A"
+    },
+    {
+      "text": "放",
+      "start": 38800,
+      "end": 38900,
+      "confidence": 0.9999888,
+      "speaker": "A"
+    },
+    {
+      "text": "的是",
+      "start": 38900,
+      "end": 39100,
+      "confidence": 0.99995875,
+      "speaker": "A"
+    },
+    {
+      "text": "固件",
+      "start": 39100,
+      "end": 39380,
+      "confidence": 0.9934824,
+      "speaker": "A"
+    },
+    {
+      "text": "资料，",
+      "start": 39380,
+      "end": 40120,
+      "confidence": 0.99992776,
+      "speaker": "A"
+    },
+    {
+      "text": "包括",
+      "start": 40840,
+      "end": 41020,
+      "confidence": 0.99993277,
+      "speaker": "A"
+    },
+    {
+      "text": "可以",
+      "start": 41020,
+      "end": 41280,
+      "confidence": 0.9999678,
+      "speaker": "A"
+    },
+    {
+      "text": "直接",
+      "start": 41280,
+      "end": 41620,
+      "confidence": 0.9998989,
+      "speaker": "A"
+    },
+    {
+      "text": "烧录",
+      "start": 41620,
+      "end": 41780,
+      "confidence": 0.938533,
+      "speaker": "A"
+    },
+    {
+      "text": "进",
+      "start": 41780,
+      "end": 41960,
+      "confidence": 0.90186507,
+      "speaker": "A"
+    },
+    {
+      "text": "单片机",
+      "start": 41960,
+      "end": 42340,
+      "confidence": 0.99924916,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 42340,
+      "end": 42459,
+      "confidence": 0.9997825,
+      "speaker": "A"
+    },
+    {
+      "text": "二进制",
+      "start": 42459,
+      "end": 42840,
+      "confidence": 0.98185664,
+      "speaker": "A"
+    },
+    {
+      "text": "文件、",
+      "start": 42840,
+      "end": 44600,
+      "confidence": 0.91161066,
+      "speaker": "A"
+    },
+    {
+      "text": "乐鑫",
+      "start": 44600,
+      "end": 44880,
+      "confidence": 0.731017,
+      "speaker": "A"
+    },
+    {
+      "text": "官方",
+      "start": 44880,
+      "end": 45220,
+      "confidence": 0.99973506,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 45220,
+      "end": 45340,
+      "confidence": 0.99997294,
+      "speaker": "A"
+    },
+    {
+      "text": "烧录",
+      "start": 45340,
+      "end": 45540,
+      "confidence": 0.99975973,
+      "speaker": "A"
+    },
+    {
+      "text": "工具，",
+      "start": 45540,
+      "end": 46180,
+      "confidence": 0.9163093,
+      "speaker": "A"
+    },
+    {
+      "text": "以及",
+      "start": 46620,
+      "end": 46940,
+      "confidence": 0.6673638,
+      "speaker": "A"
+    },
+    {
+      "text": "用来",
+      "start": 46940,
+      "end": 47240,
+      "confidence": 0.9999496,
+      "speaker": "A"
+    },
+    {
+      "text": "配置",
+      "start": 47240,
+      "end": 47440,
+      "confidence": 0.9998604,
+      "speaker": "A"
+    },
+    {
+      "text": "信息",
+      "start": 47440,
+      "end": 47720,
+      "confidence": 0.9999542,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 47720,
+      "end": 47920,
+      "confidence": 0.9998211,
+      "speaker": "A"
+    },
+    {
+      "text": "上位",
+      "start": 47920,
+      "end": 48120,
+      "confidence": 0.9946989,
+      "speaker": "A"
+    },
+    {
+      "text": "机。",
+      "start": 48120,
+      "end": 48470,
+      "confidence": 0.99470806,
+      "speaker": "A"
+    },
+    {
+      "text": "SoftwareWare",
+      "start": 50720,
+      "end": 51420,
+      "confidence": 0.77579856,
+      "speaker": "A"
+    },
+    {
+      "text": "里面",
+      "start": 51420,
+      "end": 51600,
+      "confidence": 0.9964187,
+      "speaker": "A"
+    },
+    {
+      "text": "放",
+      "start": 51600,
+      "end": 51700,
+      "confidence": 0.9999579,
+      "speaker": "A"
+    },
+    {
+      "text": "的是",
+      "start": 51700,
+      "end": 51940,
+      "confidence": 0.9994506,
+      "speaker": "A"
+    },
+    {
+      "text": "软件",
+      "start": 51940,
+      "end": 52280,
+      "confidence": 0.99992025,
+      "speaker": "A"
+    },
+    {
+      "text": "资料。",
+      "start": 52280,
+      "end": 52880,
+      "confidence": 0.9998687,
+      "speaker": "A"
+    },
+    {
+      "text": "这是",
+      "start": 53630,
+      "end": 54030,
+      "confidence": 0.9976793,
+      "speaker": "A"
+    },
+    {
+      "text": "手表",
+      "start": 54030,
+      "end": 54350,
+      "confidence": 0.99986875,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 54350,
+      "end": 54550,
+      "confidence": 0.41961932,
+      "speaker": "A"
+    },
+    {
+      "text": "源码，",
+      "start": 54550,
+      "end": 55250,
+      "confidence": 0.9167769,
+      "speaker": "A"
+    },
+    {
+      "text": "这是",
+      "start": 55250,
+      "end": 55510,
+      "confidence": 0.9121517,
+      "speaker": "A"
+    },
+    {
+      "text": "上位",
+      "start": 55510,
+      "end": 55830,
+      "confidence": 0.95030826,
+      "speaker": "A"
+    },
+    {
+      "text": "机",
+      "start": 55830,
+      "end": 55950,
+      "confidence": 0.9980579,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 55950,
+      "end": 56050,
+      "confidence": 0.9981686,
+      "speaker": "A"
+    },
+    {
+      "text": "源码。",
+      "start": 56050,
+      "end": 56610,
+      "confidence": 0.9833979,
+      "speaker": "A"
+    },
+    {
+      "text": "SWModel",
+      "start": 58930,
+      "end": 59670,
+      "confidence": 0.70494497,
+      "speaker": "A"
+    },
+    {
+      "text": "里面",
+      "start": 59670,
+      "end": 59970,
+      "confidence": 0.73413956,
+      "speaker": "A"
+    },
+    {
+      "text": "放",
+      "start": 59970,
+      "end": 60050,
+      "confidence": 0.9999875,
+      "speaker": "A"
+    },
+    {
+      "text": "的是",
+      "start": 60050,
+      "end": 60230,
+      "confidence": 0.9990497,
+      "speaker": "A"
+    },
+    {
+      "text": "外壳",
+      "start": 60230,
+      "end": 60550,
+      "confidence": 0.9991446,
+      "speaker": "A"
+    },
+    {
+      "text": "3D",
+      "start": 60550,
+      "end": 60830,
+      "confidence": 0.8162886,
+      "speaker": "A"
+    },
+    {
+      "text": "建模",
+      "start": 60830,
+      "end": 61090,
+      "confidence": 0.99991226,
+      "speaker": "A"
+    },
+    {
+      "text": "资料。",
+      "start": 61090,
+      "end": 61650,
+      "confidence": 0.8912093,
+      "speaker": "A"
+    },
+    {
+      "text": "这",
+      "start": 63650,
+      "end": 63730,
+      "confidence": 0.56491184,
+      "speaker": "A"
+    },
+    {
+      "text": "两个",
+      "start": 63730,
+      "end": 64050,
+      "confidence": 0.9718107,
+      "speaker": "A"
+    },
+    {
+      "text": "STP",
+      "start": 64050,
+      "end": 64590,
+      "confidence": 0.73778915,
+      "speaker": "A"
+    },
+    {
+      "text": "文件",
+      "start": 64590,
+      "end": 64830,
+      "confidence": 0.99994147,
+      "speaker": "A"
+    },
+    {
+      "text": "是",
+      "start": 64830,
+      "end": 65070,
+      "confidence": 0.9999604,
+      "speaker": "A"
+    },
+    {
+      "text": "提交",
+      "start": 65070,
+      "end": 65250,
+      "confidence": 0.99999714,
+      "speaker": "A"
+    },
+    {
+      "text": "给",
+      "start": 65250,
+      "end": 65430,
+      "confidence": 0.99999285,
+      "speaker": "A"
+    },
+    {
+      "text": "厂家",
+      "start": 65430,
+      "end": 65610,
+      "confidence": 0.99875975,
+      "speaker": "A"
+    },
+    {
+      "text": "进行",
+      "start": 65610,
+      "end": 65830,
+      "confidence": 0.9999882,
+      "speaker": "A"
+    },
+    {
+      "text": "3D",
+      "start": 65830,
+      "end": 66070,
+      "confidence": 0.9986028,
+      "speaker": "A"
+    },
+    {
+      "text": "打印",
+      "start": 66070,
+      "end": 66370,
+      "confidence": 0.9996047,
+      "speaker": "A"
+    },
+    {
+      "text": "的。",
+      "start": 66370,
+      "end": 66720,
+      "confidence": 0.8872369,
+      "speaker": "A"
+    },
+    {
+      "text": "资料",
+      "start": 67570,
+      "end": 67810,
+      "confidence": 0.78441554,
+      "speaker": "A"
+    },
+    {
+      "text": "下载",
+      "start": 67810,
+      "end": 68070,
+      "confidence": 0.99670655,
+      "speaker": "A"
+    },
+    {
+      "text": "好了，",
+      "start": 68070,
+      "end": 68770,
+      "confidence": 0.99684167,
+      "speaker": "A"
+    },
+    {
+      "text": "下面",
+      "start": 68770,
+      "end": 69070,
+      "confidence": 0.9998335,
+      "speaker": "A"
+    },
+    {
+      "text": "我",
+      "start": 69070,
+      "end": 69230,
+      "confidence": 0.99989045,
+      "speaker": "A"
+    },
+    {
+      "text": "先来",
+      "start": 69230,
+      "end": 69590,
+      "confidence": 0.9999819,
+      "speaker": "A"
+    },
+    {
+      "text": "讲解",
+      "start": 69590,
+      "end": 69810,
+      "confidence": 0.99914104,
+      "speaker": "A"
+    },
+    {
+      "text": "一下",
+      "start": 69810,
+      "end": 69970,
+      "confidence": 0.9992161,
+      "speaker": "A"
+    },
+    {
+      "text": "这块",
+      "start": 69970,
+      "end": 70170,
+      "confidence": 0.9765413,
+      "speaker": "A"
+    },
+    {
+      "text": "板子",
+      "start": 70170,
+      "end": 70450,
+      "confidence": 0.99749494,
+      "speaker": "A"
+    },
+    {
+      "text": "的",
+      "start": 70450,
+      "end": 70590,
+      "confidence": 0.9953478,
+      "speaker": "A"
+    },
+    {
+      "text": "原理图。",
+      "start": 70590,
+      "end": 71120,
+      "confidence": 0.99996656,
+      "speaker": "A"
+    }
+  ],
+  "utterances": [
+    {
+      "speaker": "A",
+      "text": "我们 先 来 下载 复刻 所 需 资料， 这个 链接 我 已经 放在 视频 简介 里 了。 进入 这个 项目 的 页面， 点击 “ 克隆 下载 ”，",
+      "confidence": 0.96244925,
+      "start": 0,
+      "end": 10960,
+      "words": [
+        {
+          "text": "我们",
+          "start": 0,
+          "end": 260,
+          "confidence": 0.99997115,
+          "speaker": "A"
+        },
+        {
+          "text": "先",
+          "start": 260,
+          "end": 460,
+          "confidence": 0.99969137,
+          "speaker": "A"
+        },
+        {
+          "text": "来",
+          "start": 460,
+          "end": 660,
+          "confidence": 0.9999881,
+          "speaker": "A"
+        },
+        {
+          "text": "下载",
+          "start": 660,
+          "end": 760,
+          "confidence": 0.99994504,
+          "speaker": "A"
+        },
+        {
+          "text": "复刻",
+          "start": 760,
+          "end": 1040,
+          "confidence": 0.992333,
+          "speaker": "A"
+        },
+        {
+          "text": "所",
+          "start": 1040,
+          "end": 1320,
+          "confidence": 0.9985662,
+          "speaker": "A"
+        },
+        {
+          "text": "需",
+          "start": 1320,
+          "end": 1340,
+          "confidence": 0.99961424,
+          "speaker": "A"
+        },
+        {
+          "text": "资料，",
+          "start": 1340,
+          "end": 2380,
+          "confidence": 0.6608734,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 2380,
+          "end": 3060,
+          "confidence": 0.8907576,
+          "speaker": "A"
+        },
+        {
+          "text": "链接",
+          "start": 3060,
+          "end": 3400,
+          "confidence": 0.99992347,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 3400,
+          "end": 3580,
+          "confidence": 0.9998698,
+          "speaker": "A"
+        },
+        {
+          "text": "已经",
+          "start": 3580,
+          "end": 3740,
+          "confidence": 0.999821,
+          "speaker": "A"
+        },
+        {
+          "text": "放在",
+          "start": 3740,
+          "end": 4059,
+          "confidence": 0.999856,
+          "speaker": "A"
+        },
+        {
+          "text": "视频",
+          "start": 4059,
+          "end": 4320,
+          "confidence": 0.99999595,
+          "speaker": "A"
+        },
+        {
+          "text": "简介",
+          "start": 4320,
+          "end": 4640,
+          "confidence": 0.999956,
+          "speaker": "A"
+        },
+        {
+          "text": "里",
+          "start": 4640,
+          "end": 4880,
+          "confidence": 0.9999796,
+          "speaker": "A"
+        },
+        {
+          "text": "了。",
+          "start": 4880,
+          "end": 5330,
+          "confidence": 0.99963367,
+          "speaker": "A"
+        },
+        {
+          "text": "进入",
+          "start": 6240,
+          "end": 6400,
+          "confidence": 0.9995167,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 6400,
+          "end": 6680,
+          "confidence": 0.99999535,
+          "speaker": "A"
+        },
+        {
+          "text": "项目",
+          "start": 6680,
+          "end": 6880,
+          "confidence": 0.99999285,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 6880,
+          "end": 7080,
+          "confidence": 0.99993837,
+          "speaker": "A"
+        },
+        {
+          "text": "页面，",
+          "start": 7080,
+          "end": 8880,
+          "confidence": 0.99942726,
+          "speaker": "A"
+        },
+        {
+          "text": "点击",
+          "start": 8880,
+          "end": 9120,
+          "confidence": 0.99962497,
+          "speaker": "A"
+        },
+        {
+          "text": "“",
+          "start": 9120,
+          "end": 9380,
+          "confidence": 0.65971327,
+          "speaker": "A"
+        },
+        {
+          "text": "克隆",
+          "start": 9380,
+          "end": 9560,
+          "confidence": 0.9334667,
+          "speaker": "A"
+        },
+        {
+          "text": "下载",
+          "start": 9560,
+          "end": 10400,
+          "confidence": 0.8797825,
+          "speaker": "A"
+        },
+        {
+          "text": "”，",
+          "start": 10400,
+          "end": 10960,
+          "confidence": 0.9738954,
+          "speaker": "A"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "text": "下载 压缩包， 下载 完成 后 解压 压缩包， 复刻 所 需 资料 都 在 这里 了。",
+      "confidence": 0.97837204,
+      "start": 10960,
+      "end": 22830,
+      "words": [
+        {
+          "text": "下载",
+          "start": 10960,
+          "end": 11080,
+          "confidence": 0.99698037,
+          "speaker": "B"
+        },
+        {
+          "text": "压缩包，",
+          "start": 11080,
+          "end": 16379,
+          "confidence": 0.9178905,
+          "speaker": "B"
+        },
+        {
+          "text": "下载",
+          "start": 16379,
+          "end": 16520,
+          "confidence": 0.9994129,
+          "speaker": "B"
+        },
+        {
+          "text": "完成",
+          "start": 16520,
+          "end": 16780,
+          "confidence": 0.88051164,
+          "speaker": "B"
+        },
+        {
+          "text": "后",
+          "start": 16780,
+          "end": 16960,
+          "confidence": 0.9999329,
+          "speaker": "B"
+        },
+        {
+          "text": "解压",
+          "start": 16960,
+          "end": 17200,
+          "confidence": 0.99923843,
+          "speaker": "B"
+        },
+        {
+          "text": "压缩包，",
+          "start": 17200,
+          "end": 20980,
+          "confidence": 0.9235438,
+          "speaker": "B"
+        },
+        {
+          "text": "复刻",
+          "start": 20980,
+          "end": 21200,
+          "confidence": 0.9998797,
+          "speaker": "B"
+        },
+        {
+          "text": "所",
+          "start": 21200,
+          "end": 21460,
+          "confidence": 0.9999616,
+          "speaker": "B"
+        },
+        {
+          "text": "需",
+          "start": 21460,
+          "end": 21520,
+          "confidence": 0.9996043,
+          "speaker": "B"
+        },
+        {
+          "text": "资料",
+          "start": 21520,
+          "end": 21800,
+          "confidence": 0.96712875,
+          "speaker": "B"
+        },
+        {
+          "text": "都",
+          "start": 21800,
+          "end": 21980,
+          "confidence": 0.99999034,
+          "speaker": "B"
+        },
+        {
+          "text": "在",
+          "start": 21980,
+          "end": 22100,
+          "confidence": 0.9999865,
+          "speaker": "B"
+        },
+        {
+          "text": "这里",
+          "start": 22100,
+          "end": 22380,
+          "confidence": 0.99999607,
+          "speaker": "B"
+        },
+        {
+          "text": "了。",
+          "start": 22380,
+          "end": 22830,
+          "confidence": 0.9915223,
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "text": "它的 VIO 里面 放 的是 硬件 资料。 包括 提交 给 厂家 进行 打板 的 Gerber 文件， 以及 用于 元器件 购买 的 BOM 清单。 下面 这个 是 嘉利创 EDA 的 工程 文件。 装 Ware 里面 放 的是 固件 资料， 包括 可以 直接 烧录 进 单片机 的 二进制 文件、 乐鑫 官方 的 烧录 工具， 以及 用来 配置 信息 的 上位 机。 SoftwareWare 里面 放 的是 软件 资料。 这是 手表 的 源码， 这是 上位 机 的 源码。 SWModel 里面 放 的是 外壳 3D 建模 资料。 这 两个 STP 文件 是 提交 给 厂家 进行 3D 打印 的。 资料 下载 好了， 下面 我 先来 讲解 一下 这块 板子 的 原理图。",
+      "confidence": 0.93092704,
+      "start": 24020,
+      "end": 71120,
+      "words": [
+        {
+          "text": "它的",
+          "start": 24020,
+          "end": 24200,
+          "confidence": 0.9623027,
+          "speaker": "A"
+        },
+        {
+          "text": "VIO",
+          "start": 24200,
+          "end": 24420,
+          "confidence": 0.15184206,
+          "speaker": "A"
+        },
+        {
+          "text": "里面",
+          "start": 24420,
+          "end": 24760,
+          "confidence": 0.9994338,
+          "speaker": "A"
+        },
+        {
+          "text": "放",
+          "start": 24760,
+          "end": 24880,
+          "confidence": 0.9999949,
+          "speaker": "A"
+        },
+        {
+          "text": "的是",
+          "start": 24880,
+          "end": 25160,
+          "confidence": 0.99896777,
+          "speaker": "A"
+        },
+        {
+          "text": "硬件",
+          "start": 25160,
+          "end": 25420,
+          "confidence": 0.9996069,
+          "speaker": "A"
+        },
+        {
+          "text": "资料。",
+          "start": 25420,
+          "end": 26100,
+          "confidence": 0.999971,
+          "speaker": "A"
+        },
+        {
+          "text": "包括",
+          "start": 26700,
+          "end": 27100,
+          "confidence": 0.9990214,
+          "speaker": "A"
+        },
+        {
+          "text": "提交",
+          "start": 27100,
+          "end": 27440,
+          "confidence": 0.9999982,
+          "speaker": "A"
+        },
+        {
+          "text": "给",
+          "start": 27440,
+          "end": 27600,
+          "confidence": 0.999982,
+          "speaker": "A"
+        },
+        {
+          "text": "厂家",
+          "start": 27600,
+          "end": 27880,
+          "confidence": 0.9998667,
+          "speaker": "A"
+        },
+        {
+          "text": "进行",
+          "start": 27880,
+          "end": 28160,
+          "confidence": 0.99998736,
+          "speaker": "A"
+        },
+        {
+          "text": "打板",
+          "start": 28160,
+          "end": 28400,
+          "confidence": 0.9203168,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 28400,
+          "end": 28620,
+          "confidence": 0.99880457,
+          "speaker": "A"
+        },
+        {
+          "text": "Gerber",
+          "start": 28620,
+          "end": 28780,
+          "confidence": 0.8652885,
+          "speaker": "A"
+        },
+        {
+          "text": "文件，",
+          "start": 28780,
+          "end": 30660,
+          "confidence": 0.98455083,
+          "speaker": "A"
+        },
+        {
+          "text": "以及",
+          "start": 30660,
+          "end": 30700,
+          "confidence": 0.9888638,
+          "speaker": "A"
+        },
+        {
+          "text": "用于",
+          "start": 30700,
+          "end": 31060,
+          "confidence": 0.9999676,
+          "speaker": "A"
+        },
+        {
+          "text": "元器件",
+          "start": 31060,
+          "end": 31460,
+          "confidence": 0.9995639,
+          "speaker": "A"
+        },
+        {
+          "text": "购买",
+          "start": 31460,
+          "end": 31740,
+          "confidence": 0.99998343,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 31740,
+          "end": 31940,
+          "confidence": 0.9990761,
+          "speaker": "A"
+        },
+        {
+          "text": "BOM",
+          "start": 31940,
+          "end": 32060,
+          "confidence": 0.782663,
+          "speaker": "A"
+        },
+        {
+          "text": "清单。",
+          "start": 32060,
+          "end": 32660,
+          "confidence": 0.9490633,
+          "speaker": "A"
+        },
+        {
+          "text": "下面",
+          "start": 33520,
+          "end": 33840,
+          "confidence": 0.9998639,
+          "speaker": "A"
+        },
+        {
+          "text": "这个",
+          "start": 33840,
+          "end": 34100,
+          "confidence": 0.9991767,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 34100,
+          "end": 34220,
+          "confidence": 0.9998393,
+          "speaker": "A"
+        },
+        {
+          "text": "嘉利创",
+          "start": 34220,
+          "end": 34500,
+          "confidence": 0.6245603,
+          "speaker": "A"
+        },
+        {
+          "text": "EDA",
+          "start": 34500,
+          "end": 34800,
+          "confidence": 0.80631685,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 34800,
+          "end": 34940,
+          "confidence": 0.9988502,
+          "speaker": "A"
+        },
+        {
+          "text": "工程",
+          "start": 34940,
+          "end": 35180,
+          "confidence": 0.9957307,
+          "speaker": "A"
+        },
+        {
+          "text": "文件。",
+          "start": 35180,
+          "end": 35740,
+          "confidence": 0.9277249,
+          "speaker": "A"
+        },
+        {
+          "text": "装",
+          "start": 38040,
+          "end": 38140,
+          "confidence": 0.35807264,
+          "speaker": "A"
+        },
+        {
+          "text": "Ware",
+          "start": 38140,
+          "end": 38460,
+          "confidence": 0.3448181,
+          "speaker": "A"
+        },
+        {
+          "text": "里面",
+          "start": 38460,
+          "end": 38800,
+          "confidence": 0.9988977,
+          "speaker": "A"
+        },
+        {
+          "text": "放",
+          "start": 38800,
+          "end": 38900,
+          "confidence": 0.9999888,
+          "speaker": "A"
+        },
+        {
+          "text": "的是",
+          "start": 38900,
+          "end": 39100,
+          "confidence": 0.99995875,
+          "speaker": "A"
+        },
+        {
+          "text": "固件",
+          "start": 39100,
+          "end": 39380,
+          "confidence": 0.9934824,
+          "speaker": "A"
+        },
+        {
+          "text": "资料，",
+          "start": 39380,
+          "end": 40120,
+          "confidence": 0.99992776,
+          "speaker": "A"
+        },
+        {
+          "text": "包括",
+          "start": 40840,
+          "end": 41020,
+          "confidence": 0.99993277,
+          "speaker": "A"
+        },
+        {
+          "text": "可以",
+          "start": 41020,
+          "end": 41280,
+          "confidence": 0.9999678,
+          "speaker": "A"
+        },
+        {
+          "text": "直接",
+          "start": 41280,
+          "end": 41620,
+          "confidence": 0.9998989,
+          "speaker": "A"
+        },
+        {
+          "text": "烧录",
+          "start": 41620,
+          "end": 41780,
+          "confidence": 0.938533,
+          "speaker": "A"
+        },
+        {
+          "text": "进",
+          "start": 41780,
+          "end": 41960,
+          "confidence": 0.90186507,
+          "speaker": "A"
+        },
+        {
+          "text": "单片机",
+          "start": 41960,
+          "end": 42340,
+          "confidence": 0.99924916,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 42340,
+          "end": 42459,
+          "confidence": 0.9997825,
+          "speaker": "A"
+        },
+        {
+          "text": "二进制",
+          "start": 42459,
+          "end": 42840,
+          "confidence": 0.98185664,
+          "speaker": "A"
+        },
+        {
+          "text": "文件、",
+          "start": 42840,
+          "end": 44600,
+          "confidence": 0.91161066,
+          "speaker": "A"
+        },
+        {
+          "text": "乐鑫",
+          "start": 44600,
+          "end": 44880,
+          "confidence": 0.731017,
+          "speaker": "A"
+        },
+        {
+          "text": "官方",
+          "start": 44880,
+          "end": 45220,
+          "confidence": 0.99973506,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 45220,
+          "end": 45340,
+          "confidence": 0.99997294,
+          "speaker": "A"
+        },
+        {
+          "text": "烧录",
+          "start": 45340,
+          "end": 45540,
+          "confidence": 0.99975973,
+          "speaker": "A"
+        },
+        {
+          "text": "工具，",
+          "start": 45540,
+          "end": 46180,
+          "confidence": 0.9163093,
+          "speaker": "A"
+        },
+        {
+          "text": "以及",
+          "start": 46620,
+          "end": 46940,
+          "confidence": 0.6673638,
+          "speaker": "A"
+        },
+        {
+          "text": "用来",
+          "start": 46940,
+          "end": 47240,
+          "confidence": 0.9999496,
+          "speaker": "A"
+        },
+        {
+          "text": "配置",
+          "start": 47240,
+          "end": 47440,
+          "confidence": 0.9998604,
+          "speaker": "A"
+        },
+        {
+          "text": "信息",
+          "start": 47440,
+          "end": 47720,
+          "confidence": 0.9999542,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 47720,
+          "end": 47920,
+          "confidence": 0.9998211,
+          "speaker": "A"
+        },
+        {
+          "text": "上位",
+          "start": 47920,
+          "end": 48120,
+          "confidence": 0.9946989,
+          "speaker": "A"
+        },
+        {
+          "text": "机。",
+          "start": 48120,
+          "end": 48470,
+          "confidence": 0.99470806,
+          "speaker": "A"
+        },
+        {
+          "text": "SoftwareWare",
+          "start": 50720,
+          "end": 51420,
+          "confidence": 0.77579856,
+          "speaker": "A"
+        },
+        {
+          "text": "里面",
+          "start": 51420,
+          "end": 51600,
+          "confidence": 0.9964187,
+          "speaker": "A"
+        },
+        {
+          "text": "放",
+          "start": 51600,
+          "end": 51700,
+          "confidence": 0.9999579,
+          "speaker": "A"
+        },
+        {
+          "text": "的是",
+          "start": 51700,
+          "end": 51940,
+          "confidence": 0.9994506,
+          "speaker": "A"
+        },
+        {
+          "text": "软件",
+          "start": 51940,
+          "end": 52280,
+          "confidence": 0.99992025,
+          "speaker": "A"
+        },
+        {
+          "text": "资料。",
+          "start": 52280,
+          "end": 52880,
+          "confidence": 0.9998687,
+          "speaker": "A"
+        },
+        {
+          "text": "这是",
+          "start": 53630,
+          "end": 54030,
+          "confidence": 0.9976793,
+          "speaker": "A"
+        },
+        {
+          "text": "手表",
+          "start": 54030,
+          "end": 54350,
+          "confidence": 0.99986875,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 54350,
+          "end": 54550,
+          "confidence": 0.41961932,
+          "speaker": "A"
+        },
+        {
+          "text": "源码，",
+          "start": 54550,
+          "end": 55250,
+          "confidence": 0.9167769,
+          "speaker": "A"
+        },
+        {
+          "text": "这是",
+          "start": 55250,
+          "end": 55510,
+          "confidence": 0.9121517,
+          "speaker": "A"
+        },
+        {
+          "text": "上位",
+          "start": 55510,
+          "end": 55830,
+          "confidence": 0.95030826,
+          "speaker": "A"
+        },
+        {
+          "text": "机",
+          "start": 55830,
+          "end": 55950,
+          "confidence": 0.9980579,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 55950,
+          "end": 56050,
+          "confidence": 0.9981686,
+          "speaker": "A"
+        },
+        {
+          "text": "源码。",
+          "start": 56050,
+          "end": 56610,
+          "confidence": 0.9833979,
+          "speaker": "A"
+        },
+        {
+          "text": "SWModel",
+          "start": 58930,
+          "end": 59670,
+          "confidence": 0.70494497,
+          "speaker": "A"
+        },
+        {
+          "text": "里面",
+          "start": 59670,
+          "end": 59970,
+          "confidence": 0.73413956,
+          "speaker": "A"
+        },
+        {
+          "text": "放",
+          "start": 59970,
+          "end": 60050,
+          "confidence": 0.9999875,
+          "speaker": "A"
+        },
+        {
+          "text": "的是",
+          "start": 60050,
+          "end": 60230,
+          "confidence": 0.9990497,
+          "speaker": "A"
+        },
+        {
+          "text": "外壳",
+          "start": 60230,
+          "end": 60550,
+          "confidence": 0.9991446,
+          "speaker": "A"
+        },
+        {
+          "text": "3D",
+          "start": 60550,
+          "end": 60830,
+          "confidence": 0.8162886,
+          "speaker": "A"
+        },
+        {
+          "text": "建模",
+          "start": 60830,
+          "end": 61090,
+          "confidence": 0.99991226,
+          "speaker": "A"
+        },
+        {
+          "text": "资料。",
+          "start": 61090,
+          "end": 61650,
+          "confidence": 0.8912093,
+          "speaker": "A"
+        },
+        {
+          "text": "这",
+          "start": 63650,
+          "end": 63730,
+          "confidence": 0.56491184,
+          "speaker": "A"
+        },
+        {
+          "text": "两个",
+          "start": 63730,
+          "end": 64050,
+          "confidence": 0.9718107,
+          "speaker": "A"
+        },
+        {
+          "text": "STP",
+          "start": 64050,
+          "end": 64590,
+          "confidence": 0.73778915,
+          "speaker": "A"
+        },
+        {
+          "text": "文件",
+          "start": 64590,
+          "end": 64830,
+          "confidence": 0.99994147,
+          "speaker": "A"
+        },
+        {
+          "text": "是",
+          "start": 64830,
+          "end": 65070,
+          "confidence": 0.9999604,
+          "speaker": "A"
+        },
+        {
+          "text": "提交",
+          "start": 65070,
+          "end": 65250,
+          "confidence": 0.99999714,
+          "speaker": "A"
+        },
+        {
+          "text": "给",
+          "start": 65250,
+          "end": 65430,
+          "confidence": 0.99999285,
+          "speaker": "A"
+        },
+        {
+          "text": "厂家",
+          "start": 65430,
+          "end": 65610,
+          "confidence": 0.99875975,
+          "speaker": "A"
+        },
+        {
+          "text": "进行",
+          "start": 65610,
+          "end": 65830,
+          "confidence": 0.9999882,
+          "speaker": "A"
+        },
+        {
+          "text": "3D",
+          "start": 65830,
+          "end": 66070,
+          "confidence": 0.9986028,
+          "speaker": "A"
+        },
+        {
+          "text": "打印",
+          "start": 66070,
+          "end": 66370,
+          "confidence": 0.9996047,
+          "speaker": "A"
+        },
+        {
+          "text": "的。",
+          "start": 66370,
+          "end": 66720,
+          "confidence": 0.8872369,
+          "speaker": "A"
+        },
+        {
+          "text": "资料",
+          "start": 67570,
+          "end": 67810,
+          "confidence": 0.78441554,
+          "speaker": "A"
+        },
+        {
+          "text": "下载",
+          "start": 67810,
+          "end": 68070,
+          "confidence": 0.99670655,
+          "speaker": "A"
+        },
+        {
+          "text": "好了，",
+          "start": 68070,
+          "end": 68770,
+          "confidence": 0.99684167,
+          "speaker": "A"
+        },
+        {
+          "text": "下面",
+          "start": 68770,
+          "end": 69070,
+          "confidence": 0.9998335,
+          "speaker": "A"
+        },
+        {
+          "text": "我",
+          "start": 69070,
+          "end": 69230,
+          "confidence": 0.99989045,
+          "speaker": "A"
+        },
+        {
+          "text": "先来",
+          "start": 69230,
+          "end": 69590,
+          "confidence": 0.9999819,
+          "speaker": "A"
+        },
+        {
+          "text": "讲解",
+          "start": 69590,
+          "end": 69810,
+          "confidence": 0.99914104,
+          "speaker": "A"
+        },
+        {
+          "text": "一下",
+          "start": 69810,
+          "end": 69970,
+          "confidence": 0.9992161,
+          "speaker": "A"
+        },
+        {
+          "text": "这块",
+          "start": 69970,
+          "end": 70170,
+          "confidence": 0.9765413,
+          "speaker": "A"
+        },
+        {
+          "text": "板子",
+          "start": 70170,
+          "end": 70450,
+          "confidence": 0.99749494,
+          "speaker": "A"
+        },
+        {
+          "text": "的",
+          "start": 70450,
+          "end": 70590,
+          "confidence": 0.9953478,
+          "speaker": "A"
+        },
+        {
+          "text": "原理图。",
+          "start": 70590,
+          "end": 71120,
+          "confidence": 0.99996656,
+          "speaker": "A"
+        }
+      ]
+    }
+  ],
+  "confidence": 0.9414863,
+  "audio_duration": 72,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "prompt": null,
+  "keyterms_prompt": [],
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_audio_options": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "redact_static_entities": null,
+  "speaker_labels": true,
+  "speaker_options": {
+    "min_speakers_expected": null,
+    "max_speakers_expected": null,
+    "advanced_speaker_segmentation": true
+  },
+  "content_safety": false,
+  "iab_categories": false,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "iab_categories_result": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_options": null,
+  "language_detection_results": null,
+  "language_confidence_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": false,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": null,
+  "speech_models": [
+    "universal-3-5-pro"
+  ],
+  "speech_model_used": "universal-3-5-pro",
+  "temperature": null,
+  "remove_audio_tags": "all",
+  "chapters": null,
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "multichannel": null,
+  "project_id": 1623026,
+  "token_id": 1639457
+}

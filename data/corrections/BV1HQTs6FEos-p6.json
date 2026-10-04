@@ -1,0 +1,88 @@
+{
+  "episode": "BV1HQTs6FEos-p6",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-04",
+  "fixes": [
+    {
+      "cueIndex": 4,
+      "before": "Comco",
+      "after": "COM口",
+      "source": "llm-review",
+      "reason": "The serial port, as sentence 10 writes it; the subtitle reads 识别COM口.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 5,
+      "before": "点并",
+      "after": "点bin",
+      "source": "llm-review",
+      "reason": "A .bin file, as sentence 9 has it; the subtitle reads 这个.bin文件.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "乐星",
+      "after": "乐鑫",
+      "source": "llm-review",
+      "reason": "Espressif, as P2 writes it; the subtitle reads 乐鑫官方.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 8,
+      "before": "ESP32S3",
+      "after": "ESP32-S3",
+      "source": "llm-review",
+      "reason": "The chip as the subtitle writes it.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 9,
+      "before": "SPSB的选",
+      "after": "SPI SPEED选",
+      "source": "llm-review",
+      "reason": "The flash tool's SPI SPEED field; the subtitle reads SPI SPEED选80MHz.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 14,
+      "before": "Comco",
+      "after": "COM口",
+      "source": "llm-review",
+      "reason": "As in sentence 4; the subtitle reads 选择板子的COM口.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 15,
+      "before": "精维度",
+      "after": "经纬度",
+      "source": "llm-review",
+      "reason": "Latitude and longitude for the weather; the subtitle reads 经纬度.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 15,
+      "before": "SESSData",
+      "after": "SESSDATA",
+      "source": "llm-review",
+      "reason": "Bilibili's cookie name, as the subtitle writes it.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 18,
+      "before": "表环",
+      "after": "表盘",
+      "source": "llm-review",
+      "reason": "The watch-face background of sentence 17; the subtitle reads 表盘背景图片.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 24,
+      "before": "ESB",
+      "after": "ESP",
+      "source": "llm-review",
+      "reason": "ESP32; the subtitle reads ESP32联网获取实时时间.",
+      "appliedAt": "2026-10-04"
+    }
+  ],
+  "flagged": []
+}

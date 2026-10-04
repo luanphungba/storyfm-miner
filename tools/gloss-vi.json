@@ -21404,7 +21404,7 @@
   "nút bấm, phím"
  ],
  "采用": [
-  "THẢI DỤNG",
+  "THÁI DỤNG",
   "áp dụng, sử dụng"
  ],
  "这块": [
@@ -21684,7 +21684,7 @@
   "cặp, ghép đôi (解耦: tách rời, decouple)"
  ],
  "便于": [
-  "TIỆN Ư",
+  "TIỆN VU",
   "tiện cho, dễ (làm gì)"
  ],
  "维护": [
@@ -21734,5 +21734,929 @@
  "复刻": [
   "PHỤC KHẮC",
   "tái bản; làm lại theo bản gốc (复刻教程: hướng dẫn tự làm lại)"
+ ],
+ "引脚": [
+  "DẪN CƯỚC",
+  "chân (linh kiện, chip)"
+ ],
+ "下单": [
+  "HẠ ĐƠN",
+  "đặt hàng"
+ ],
+ "元器件": [
+  "NGUYÊN KHÍ KIỆN",
+  "linh kiện (điện tử)"
+ ],
+ "板子": [
+  "BẢN TỬ",
+  "tấm, bảng; bo mạch"
+ ],
+ "烧录": [
+  "THIÊU LỤC",
+  "nạp (firmware vào chip); ghi đĩa"
+ ],
+ "焊": [
+  "HÃN",
+  "hàn (kim loại, mạch điện)"
+ ],
+ "供电": [
+  "CUNG ĐIỆN",
+  "cấp điện, cấp nguồn"
+ ],
+ "电路": [
+  "ĐIỆN LỘ",
+  "mạch điện"
+ ],
+ "连锡": [
+  "LIÊN TÍCH",
+  "dính thiếc, cầu hàn (thiếc nối liền các chân)"
+ ],
+ "压缩包": [
+  "ÁP SÚC BAO",
+  "file nén (zip, rar)"
+ ],
+ "嘉立": [
+  "GIA LẬP",
+  "(cắt từ 嘉立创: Gia Lập Sáng, hãng JLC làm mạch in)"
+ ],
+ "创": [
+  "SÁNG",
+  "sáng tạo, mở ra (chữ cuối của 嘉立创 / 立创)"
+ ],
+ "电阻": [
+  "ĐIỆN TRỞ",
+  "điện trở"
+ ],
+ "锡膏": [
+  "TÍCH CAO",
+  "kem hàn (thiếc dạng kem)"
+ ],
+ "锡": [
+  "TÍCH",
+  "thiếc"
+ ],
+ "电容": [
+  "ĐIỆN DUNG",
+  "tụ điện; điện dung"
+ ],
+ "焊接": [
+  "HÃN TIẾP",
+  "hàn (nối)"
+ ],
+ "电烙铁": [
+  "ĐIỆN LẠC THIẾT",
+  "mỏ hàn điện"
+ ],
+ "短路": [
+  "ĐOẢN LỘ",
+  "ngắn mạch, chập mạch"
+ ],
+ "解压": [
+  "GIẢI ÁP",
+  "giải nén (file); giải tỏa áp lực"
+ ],
+ "单片机": [
+  "ĐƠN PHIẾN CƠ",
+  "vi điều khiển (MCU)"
+ ],
+ "原理图": [
+  "NGUYÊN LÝ ĐỒ",
+  "sơ đồ nguyên lý (schematic)"
+ ],
+ "天线": [
+  "THIÊN TUYẾN",
+  "ăng-ten"
+ ],
+ "晶振": [
+  "TINH CHẤN",
+  "bộ dao động thạch anh"
+ ],
+ "复位": [
+  "PHỤC VỊ",
+  "reset, khởi động lại; đưa về chỗ cũ"
+ ],
+ "上电": [
+  "THƯỢNG ĐIỆN",
+  "cấp điện, bật nguồn"
+ ],
+ "方": [
+  "PHƯƠNG",
+  "vuông; bình phương (I方C: I²C)"
+ ],
+ "总线": [
+  "TỔNG TUYẾN",
+  "bus (đường truyền dữ liệu chung)"
+ ],
+ "焊台": [
+  "HÃN ĐÀI",
+  "bàn nhiệt hàn (hot plate)"
+ ],
+ "所需": [
+  "SỞ NHU",
+  "cần thiết, cần có"
+ ],
+ "上传": [
+  "THƯỢNG TRUYỀN",
+  "tải lên (upload)"
+ ],
+ "钢网": [
+  "CƯƠNG VÕNG",
+  "tấm thép in kem hàn (stencil)"
+ ],
+ "审核": [
+  "THẨM HẠCH",
+  "xét duyệt, kiểm duyệt"
+ ],
+ "内电层": [
+  "NỘI ĐIỆN TẦNG",
+  "lớp nguồn/mass bên trong mạch nhiều lớp (inner plane)"
+ ],
+ "螺丝": [
+  "LOA TY",
+  "ốc vít"
+ ],
+ "需": [
+  "NHU",
+  "cần"
+ ],
+ "厂家": [
+  "XƯỞNG GIA",
+  "nhà sản xuất, xưởng"
+ ],
+ "用来": [
+  "DỤNG LAI",
+  "dùng để"
+ ],
+ "射频": [
+  "XẠ TẦN",
+  "tần số vô tuyến (RF)"
+ ],
+ "贴片": [
+  "THIẾP PHIẾN",
+  "linh kiện dán (SMD); dán linh kiện (SMT)"
+ ],
+ "禁止": [
+  "CẤM CHỈ",
+  "cấm"
+ ],
+ "铺": [
+  "PHÔ",
+  "trải, phủ (铺铜: phủ đồng)"
+ ],
+ "铜": [
+  "ĐỒNG",
+  "đồng (kim loại)"
+ ],
+ "一颗": [
+  "NHẤT KHỎA",
+  "một con, một viên (颗: lượng từ cho chip, linh kiện nhỏ)"
+ ],
+ "兆赫兹": [
+  "TRIỆU HÁCH TƯ",
+  "megahertz (MHz)"
+ ],
+ "下时": [
+  "HẠ THỜI",
+  "(cắt từ chưa chuẩn của 按下时: khi nhấn xuống)"
+ ],
+ "外设": [
+  "NGOẠI THIẾT",
+  "thiết bị ngoại vi"
+ ],
+ "电压": [
+  "ĐIỆN ÁP",
+  "điện áp"
+ ],
+ "零六": [
+  "LINH LỤC",
+  "(cắt từ 二七零六轴: BMI270 sáu trục)"
+ ],
+ "三极管": [
+  "TAM CỰC QUẢN",
+  "transistor (BJT); đèn ba cực"
+ ],
+ "导通": [
+  "ĐẠO THÔNG",
+  "dẫn điện, thông mạch (transistor mở)"
+ ],
+ "调节": [
+  "ĐIỀU TIẾT",
+  "điều chỉnh"
+ ],
+ "降压": [
+  "GIÁNG ÁP",
+  "hạ áp"
+ ],
+ "栅极": [
+  "",
+  "cực cổng (gate) của MOSFET"
+ ],
+ "电平": [
+  "ĐIỆN BÌNH",
+  "mức điện áp (logic cao/thấp)"
+ ],
+ "拉低": [
+  "LẠP ĐÊ",
+  "kéo xuống mức thấp"
+ ],
+ "低电平": [
+  "ĐÊ ĐIỆN BÌNH",
+  "mức thấp (logic 0)"
+ ],
+ "大致": [
+  "ĐẠI TRÍ",
+  "đại khái, khoảng"
+ ],
+ "顶层": [
+  "ĐỈNH TẦNG",
+  "lớp trên cùng (mặt trên PCB); tầng thượng"
+ ],
+ "创下": [
+  "SÁNG HẠ",
+  "lập (kỷ lục) (ở đây cắt từ chưa chuẩn của 嘉立创下单: đặt hàng ở JLC)"
+ ],
+ "助手": [
+  "TRỢ THỦ",
+  "trợ lý, công cụ hỗ trợ (下单助手: app đặt hàng)"
+ ],
+ "定": [
+  "ĐỊNH",
+  "định, đặt (自定: tự đặt, tùy chỉnh)"
+ ],
+ "四": [
+  "TỨ",
+  "4, bốn"
+ ],
+ "重建": [
+  "TRÙNG KIẾN",
+  "xây dựng lại, tạo lại (rebuild)"
+ ],
+ "一键": [
+  "NHẤT KIỆN",
+  "một nút bấm (一键下单: đặt hàng một chạm)"
+ ],
+ "一把": [
+  "NHẤT BẢ",
+  "một cái, một cây (把: lượng từ cho vật có cán)"
+ ],
+ "上锡": [
+  "THƯỢNG TÍCH",
+  "tráng thiếc, bôi thiếc (上锡膏: bôi kem hàn)"
+ ],
+ "膏": [
+  "CAO",
+  "kem, cao (dạng sệt)"
+ ],
+ "加热": [
+  "GIA NHIỆT",
+  "làm nóng, gia nhiệt"
+ ],
+ "熔化": [
+  "DUNG HÓA",
+  "nóng chảy (kim loại)"
+ ],
+ "拖动": [
+  "THA ĐỘNG",
+  "kéo, rê"
+ ],
+ "清理": [
+  "THANH LÝ",
+  "dọn sạch, làm sạch"
+ ],
+ "去除": [
+  "KHỨ TRỪ",
+  "loại bỏ"
+ ],
+ "接来": [
+  "TIẾP LAI",
+  "(nói tắt của 接下来: tiếp theo)"
+ ],
+ "焊好": [
+  "HÃN HẢO",
+  "hàn xong"
+ ],
+ "蜂鸣器": [
+  "PHONG MINH KHÍ",
+  "còi buzzer (đồng hồ vạn năng kêu khi thông mạch)"
+ ],
+ "大功告成": [
+  "ĐẠI CÔNG CÁO THÀNH",
+  "đại công cáo thành, xong xuôi"
+ ],
+ "数据线": [
+  "SỐ CỨ TUYẾN",
+  "cáp dữ liệu (cáp USB)"
+ ],
+ "插": [
+  "SÁP",
+  "cắm vào"
+ ],
+ "大约": [
+  "ĐẠI ƯỚC",
+  "khoảng, chừng"
+ ],
+ "三十秒": [
+  "TAM THẬP MIỂU",
+  "30 giây"
+ ],
+ "背景图片": [
+  "BỐI CẢNH ĐỒ PHIẾN",
+  "ảnh nền"
+ ],
+ "压缩": [
+  "ÁP SÚC",
+  "nén (ảnh, file)"
+ ],
+ "二百": [
+  "NHỊ BÁCH",
+  "200 (二百四: 240)"
+ ],
+ "七十四": [
+  "THẤT THẬP TỨ",
+  "74"
+ ],
+ "表带": [
+  "BIỂU ĐÁI",
+  "dây đồng hồ"
+ ],
+ "克隆": [
+  "KHẮC LONG",
+  "nhân bản (clone)"
+ ],
+ "打板": [
+  "ĐẢ BẢN",
+  "làm mạch in (gửi file cho xưởng sản xuất PCB)"
+ ],
+ "清单": [
+  "THANH ĐƠN",
+  "danh sách (BOM清单: danh sách linh kiện)"
+ ],
+ "二进制": [
+  "NHỊ TIẾN CHẾ",
+  "nhị phân (二进制文件: file nhị phân)"
+ ],
+ "内置": [
+  "NỘI TRÍ",
+  "tích hợp sẵn, bên trong"
+ ],
+ "颗": [
+  "KHỎA",
+  "lượng từ cho vật nhỏ tròn (viên, hạt); con (chip, ốc)"
+ ],
+ "陶瓷": [
+  "ĐÀO TỪ",
+  "gốm sứ"
+ ],
+ "绘制": [
+  "HỘI CHẾ",
+  "vẽ (bản vẽ, sơ đồ, PCB)"
+ ],
+ "背面": [
+  "BỐI DIỆN",
+  "mặt sau"
+ ],
+ "跨层": [
+  "KHÓA TẦNG",
+  "xuyên lớp (đi dây sang lớp khác của PCB)"
+ ],
+ "走线": [
+  "TẨU TUYẾN",
+  "đi dây (vạch đường mạch trên PCB)"
+ ],
+ "四十": [
+  "TỨ THẬP",
+  "40"
+ ],
+ "下方": [
+  "HẠ PHƯƠNG",
+  "phía dưới"
+ ],
+ "纳法": [
+  "NẠP PHÁP",
+  "nanofara (nF)"
+ ],
+ "前要": [
+  "TIỀN YẾU",
+  "(cắt từ chưa chuẩn của 代码前要用到: trước khi … thì cần dùng)"
+ ],
+ "用到": [
+  "DỤNG ĐÁO",
+  "dùng đến"
+ ],
+ "名": [
+  "DANH",
+  "tên (网络名: tên net)"
+ ],
+ "上有": [
+  "THƯỢNG HỮU",
+  "(cắt từ chưa chuẩn của 总线上有: trên bus có)"
+ ],
+ "千欧": [
+  "THIÊN ÂU",
+  "kiloôm (kΩ)"
+ ],
+ "上拉": [
+  "THƯỢNG LẠP",
+  "kéo lên (上拉电阻: điện trở kéo lên, pull-up)"
+ ],
+ "拉到": [
+  "LẠP ĐÁO",
+  "kéo đến (拉到3.3伏: kéo lên 3,3V)"
+ ],
+ "伏": [
+  "PHỤC",
+  "vôn (V); nằm sấp"
+ ],
+ "器件": [
+  "KHÍ KIỆN",
+  "linh kiện, thiết bị"
+ ],
+ "电量计": [
+  "ĐIỆN LƯỢNG KẾ",
+  "chip đo dung lượng pin (fuel gauge)"
+ ],
+ "八八": [
+  "BÁT BÁT",
+  "(cắt từ 五八八三: QMC5883)"
+ ],
+ "磁力计": [
+  "TỪ LỰC KẾ",
+  "cảm biến từ trường, từ kế"
+ ],
+ "轴": [
+  "TRỤC",
+  "trục (六轴: sáu trục)"
+ ],
+ "加速度": [
+  "GIA TỐC ĐỘ",
+  "gia tốc"
+ ],
+ "角速度": [
+  "GIÁC TỐC ĐỘ",
+  "vận tốc góc"
+ ],
+ "抬腕": [
+  "ĐÀI OẢN",
+  "nhấc cổ tay (抬腕亮屏: nhấc tay sáng màn hình)"
+ ],
+ "缴": [
+  "",
+  "nộp, giao nộp (ở đây có thể ASR nghe sai: phụ đề ghi 引脚接到了)"
+ ],
+ "主动": [
+  "CHỦ ĐỘNG",
+  "chủ động"
+ ],
+ "第四个": [
+  "ĐỆ TỨ CÁ",
+  "cái thứ tư"
+ ],
+ "外接": [
+  "NGOẠI TIẾP",
+  "gắn ngoài, nối ngoài"
+ ],
+ "十二点": [
+  "THẬP NHỊ ĐIỂM",
+  "(cắt từ 三十二点七六八: 32,768)"
+ ],
+ "七六": [
+  "THẤT LỤC",
+  "(cắt từ 三十二点七六八: 32,768)"
+ ],
+ "八千": [
+  "BÁT THIÊN",
+  "(cắt từ 七六八千赫兹: …768 kHz)"
+ ],
+ "赫兹": [
+  "HÁCH TƯ",
+  "hertz (Hz)"
+ ],
+ "休眠": [
+  "HƯU MIÊN",
+  "chế độ ngủ (sleep); ngủ đông"
+ ],
+ "掉电": [
+  "ĐIỆU ĐIỆN",
+  "mất điện, sụt nguồn"
+ ],
+ "维持": [
+  "DUY TRÌ",
+  "duy trì"
+ ],
+ "设为": [
+  "THIẾT VI",
+  "đặt thành"
+ ],
+ "高电平": [
+  "CAO ĐIỆN BÌNH",
+  "mức cao (logic 1)"
+ ],
+ "背光": [
+  "BỐI QUANG",
+  "đèn nền (màn hình); ngược sáng"
+ ],
+ "波": [
+  "BA",
+  "sóng (PWM波: sóng PWM)"
+ ],
+ "占空比": [
+  "CHIẾM KHÔNG TỶ",
+  "chu kỳ nhiệm vụ (duty cycle)"
+ ],
+ "两种": [
+  "LƯỠNG CHỦNG",
+  "hai loại"
+ ],
+ "传入": [
+  "TRUYỀN NHẬP",
+  "truyền vào, đưa vào"
+ ],
+ "五伏": [
+  "NGŨ PHỤC",
+  "5 vôn"
+ ],
+ "一片": [
+  "NHẤT PHIẾN",
+  "một miếng, một con (chip)"
+ ],
+ "三伏": [
+  "TAM PHỤC",
+  "tam phục, những ngày nóng nhất (ở đây cắt từ 三点三伏: 3,3 vôn)"
+ ],
+ "开关机": [
+  "KHAI QUAN CƠ",
+  "bật tắt máy"
+ ],
+ "管导": [
+  "QUẢN ĐẠO",
+  "(cắt từ chưa chuẩn của 三极管导通 / PMOS管导通: transistor dẫn)"
+ ],
+ "拉高": [
+  "LẠP CAO",
+  "kéo lên mức cao"
+ ],
+ "开机": [
+  "KHAI CƠ",
+  "bật máy, khởi động"
+ ],
+ "十七": [
+  "THẬP THẤT",
+  "17 (R十七: điện trở R17)"
+ ],
+ "十千": [
+  "THẬP THIÊN",
+  "(cắt từ 十千欧: 10 kΩ)"
+ ],
+ "欧": [
+  "ÂU",
+  "ôm (Ω); châu Âu"
+ ],
+ "充电电流": [
+  "SUNG ĐIỆN ĐIỆN LƯU",
+  "dòng sạc"
+ ],
+ "三十六": [
+  "TAM THẬP LỤC",
+  "36 (IO三十六: chân IO36)"
+ ],
+ "大部分": [
+  "ĐẠI BỘ PHẬN",
+  "phần lớn"
+ ],
+ "体积小": [
+  "THỂ TÍCH TIỂU",
+  "kích thước nhỏ"
+ ],
+ "热风枪": [
+  "NHIỆT PHONG THƯƠNG",
+  "máy khò nhiệt"
+ ],
+ "思路": [
+  "TƯ LỘ",
+  "hướng suy nghĩ, ý tưởng (设计思路: ý tưởng thiết kế)"
+ ],
+ "生产": [
+  "SINH SẢN",
+  "sản xuất"
+ ],
+ "稿": [
+  "CẢO",
+  "bản thảo (生产稿: bản xác nhận sản xuất)"
+ ],
+ "厚": [
+  "HẬU",
+  "dày (板厚: độ dày bo mạch)"
+ ],
+ "已有": [
+  "DĨ HỮU",
+  "đã có"
+ ],
+ "层压": [
+  "TẦNG ÁP",
+  "ép lớp (层压顺序: thứ tự ép lớp)"
+ ],
+ "顺序": [
+  "THUẬN TỰ",
+  "thứ tự"
+ ],
+ "阻抗": [
+  "TRỞ KHÁNG",
+  "trở kháng"
+ ],
+ "合同": [
+  "HỢP ĐỒNG",
+  "hợp đồng"
+ ],
+ "常规": [
+  "THƯỜNG QUY",
+  "thông thường, tiêu chuẩn"
+ ],
+ "磨边": [
+  "MA BIÊN",
+  "mài cạnh"
+ ],
+ "开张": [
+  "KHAI TRƯƠNG",
+  "khai trương (ở đây: 开(一)张钢网 — làm một tấm stencil)"
+ ],
+ "尺寸": [
+  "XÍCH THỐN",
+  "kích thước"
+ ],
+ "宽高": [
+  "KHOAN CAO",
+  "rộng và cao"
+ ],
+ "纳米": [
+  "NẠP MỄ",
+  "nanomet"
+ ],
+ "真空镀膜": [
+  "CHÂN KHÔNG ĐỘ MẠC",
+  "mạ phủ chân không"
+ ],
+ "选项": [
+  "TUYỂN HẠNG",
+  "tùy chọn"
+ ],
+ "和钢网": [
+  "HÒA CƯƠNG VÕNG",
+  "(cắt từ chưa chuẩn của PCB和钢网: PCB và stencil)"
+ ],
+ "打样": [
+  "ĐẢ DẠNG",
+  "làm mẫu, sản xuất thử"
+ ],
+ "不止": [
+  "BẤT CHỈ",
+  "không chỉ, hơn (不止五十元: hơn 50 tệ)"
+ ],
+ "五十元": [
+  "NGŨ THẬP NGUYÊN",
+  "50 tệ"
+ ],
+ "导入": [
+  "ĐẠO NHẬP",
+  "nhập vào (import)"
+ ],
+ "孔": [
+  "KHỔNG",
+  "lỗ"
+ ],
+ "过孔": [
+  "QUÁ KHỔNG",
+  "lỗ via (lỗ xuyên lớp trên PCB)"
+ ],
+ "报错": [
+  "BÁO THÁC",
+  "báo lỗi"
+ ],
+ "导出": [
+  "ĐẠO XUẤT",
+  "xuất ra (export)"
+ ],
+ "总价": [
+  "TỔNG GIÁ",
+  "tổng giá"
+ ],
+ "五十": [
+  "NGŨ THẬP",
+  "50"
+ ],
+ "立": [
+  "LẬP",
+  "đứng; lập (chữ giữa của 嘉立创 / 立创)"
+ ],
+ "在立": [
+  "TẠI LẬP",
+  "(cắt từ chưa chuẩn của 在立创商城: ở trang LCSC)"
+ ],
+ "标": [
+  "TIÊU",
+  "ghi, đánh dấu (标一: ghi số 1)"
+ ],
+ "全过程": [
+  "TOÀN QUÁ TRÌNH",
+  "toàn bộ quá trình"
+ ],
+ "镊子": [
+  "NHIẾP TỬ",
+  "cái nhíp"
+ ],
+ "中温": [
+  "TRUNG ÔN",
+  "nhiệt độ vừa (中温锡膏: kem hàn nhiệt độ vừa)"
+ ],
+ "均匀": [
+  "QUÂN QUÂN",
+  "đều, đồng đều"
+ ],
+ "涂抹": [
+  "ĐỒ MẠT",
+  "bôi, quét"
+ ],
+ "刮开": [
+  "QUÁT KHAI",
+  "gạt ra, cạo đều (gạt kem hàn qua stencil)"
+ ],
+ "上好": [
+  "THƯỢNG HẢO",
+  "hảo hạng (ở đây: 上 + 好: bôi xong)"
+ ],
+ "放上去": [
+  "PHÓNG THƯỢNG KHỨ",
+  "đặt lên"
+ ],
+ "放上": [
+  "PHÓNG THƯỢNG",
+  "đặt lên"
+ ],
+ "冷却": [
+  "LÃNH KHƯỚC",
+  "làm nguội, nguội đi"
+ ],
+ "设": [
+  "THIẾT",
+  "đặt, thiết lập"
+ ],
+ "三百": [
+  "TAM BÁCH",
+  "300 (三百二十五度: 325 độ)"
+ ],
+ "烙铁头": [
+  "LẠC THIẾT ĐẦU",
+  "đầu mỏ hàn"
+ ],
+ "带走": [
+  "ĐÁI TẨU",
+  "mang đi, kéo đi"
+ ],
+ "用吸": [
+  "DỤNG HẤP",
+  "(cắt từ chưa chuẩn của 用吸锡带: dùng dây hút thiếc)"
+ ],
+ "锡带": [
+  "TÍCH ĐÁI",
+  "(cắt từ 吸锡带: dây hút thiếc)"
+ ],
+ "接口": [
+  "TIẾP KHẨU",
+  "cổng kết nối; giao diện"
+ ],
+ "焊盘": [
+  "HÃN BÀN",
+  "pad hàn (miếng đồng để hàn chân linh kiện)"
+ ],
+ "涂": [
+  "ĐỒ",
+  "bôi, quét"
+ ],
+ "放上来": [
+  "PHÓNG THƯỢNG LAI",
+  "đặt lên"
+ ],
+ "插座": [
+  "SÁP TỌA",
+  "ổ cắm, đế cắm (socket)"
+ ],
+ "借助": [
+  "TÁ TRỢ",
+  "nhờ vào, với sự trợ giúp của"
+ ],
+ "四零": [
+  "TỨ LINH",
+  "(cắt từ 四零五六: TP4056)"
+ ],
+ "五六": [
+  "NGŨ LỤC",
+  "(cắt từ 四零五六: TP4056)"
+ ],
+ "万用表": [
+  "VẠN DỤNG BIỂU",
+  "đồng hồ vạn năng"
+ ],
+ "测": [
+  "TRẮC",
+  "đo"
+ ],
+ "要测": [
+  "YẾU TRẮC",
+  "(cắt từ chưa chuẩn của 分别要测: cần đo lần lượt)"
+ ],
+ "此时": [
+  "THỬ THỜI",
+  "lúc này"
+ ],
+ "焊上去": [
+  "HÃN THƯỢNG KHỨ",
+  "hàn lên"
+ ],
+ "装上去": [
+  "TRANG THƯỢNG KHỨ",
+  "lắp lên"
+ ],
+ "稳定": [
+  "ỔN ĐỊNH",
+  "ổn định"
+ ],
+ "复制到": [
+  "PHỤC CHẾ ĐÁO",
+  "sao chép đến (copy vào)"
+ ],
+ "目标": [
+  "MỤC TIÊU",
+  "mục tiêu (目标芯片: chip đích)"
+ ],
+ "拔": [
+  "BẠT",
+  "rút ra (拔插: rút ra cắm lại)"
+ ],
+ "填入": [
+  "ĐIỀN NHẬP",
+  "điền vào"
+ ],
+ "经纬度": [
+  "KINH VĨ ĐỘ",
+  "kinh độ và vĩ độ"
+ ],
+ "四乘": [
+  "TỨ THỪA",
+  "(cắt từ 二百四乘二百四: 240×240)"
+ ],
+ "封面": [
+  "PHONG DIỆN",
+  "bìa, ảnh bìa (ở đây: hình nền mặt đồng hồ)"
+ ],
+ "图标": [
+  "ĐỒ TIÊU",
+  "biểu tượng (icon)"
+ ],
+ "连上": [
+  "LIÊN THƯỢNG",
+  "kết nối được (连上WiFi)"
+ ],
+ "官网": [
+  "QUAN VÕNG",
+  "trang web chính thức"
+ ],
+ "材料": [
+  "TÀI LIỆU",
+  "vật liệu; tài liệu"
+ ],
+ "回复": [
+  "HỒI PHỤC",
+  "trả lời, hồi đáp; hồi phục"
+ ],
+ "忽视": [
+  "HỐT THỊ",
+  "phớt lờ, bỏ qua (忽视风险: chấp nhận rủi ro)"
+ ],
+ "风险": [
+  "PHONG HIỂM",
+  "rủi ro"
+ ],
+ "加工": [
+  "GIA CÔNG",
+  "gia công"
+ ],
+ "四颗": [
+  "TỨ KHỎA",
+  "bốn con (颗: lượng từ cho ốc vít)"
+ ],
+ "组装": [
+  "TỔ TRANG",
+  "lắp ráp"
+ ],
+ "塞": [
+  "TẮC",
+  "nhét vào; bịt lại"
+ ],
+ "孔中": [
+  "KHỔNG TRUNG",
+  "(cắt từ chưa chuẩn của 固定孔中: vào lỗ cố định)"
+ ],
+ "槽口": [
+  "TÀO KHẨU",
+  "khe, rãnh (để luồn dây đồng hồ)"
  ]
 }

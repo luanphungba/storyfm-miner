@@ -1,0 +1,321 @@
+{
+  "episode": "BV1HQTs6FEos-p6",
+  "summary": [
+    "Phần 6: nạp firmware và cấu hình. Hỏa Hòa giữ nút BOOT rồi cắm cáp vào máy tính để chip vào chế độ nạp, kiểm tra cổng COM trong Device Manager, chép file .bin vào thư mục không có tiếng Trung trong đường dẫn, rồi dùng công cụ Flash Download Tool của Espressif: chọn ESP32-S3, chọn file, địa chỉ 0x0, SPI SPEED 80MHz, bấm Start, khoảng 30 giây là xong. Nạp xong phải rút ra cắm lại cáp thì màn hình mới sáng.",
+    "Sau đó bạn ấy mở phần mềm cấu hình tự viết bằng Qt: điền WiFi, kinh độ vĩ độ để lấy thời tiết chính xác hơn, UID và SESSDATA của Bilibili để lấy số người theo dõi, lượt xem, lượt thích, cùng mã QR trang cá nhân và hình nền mặt đồng hồ (ảnh nén về 240 x 240, mã QR 74 x 74). Ghi cấu hình vào NVS mất khoảng 30 giây; khi đồng hồ bắt được WiFi thì giờ, dữ liệu Bilibili và thời tiết đều hiện ra, nghĩa là nạp và cấu hình đều ổn."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "板子焊好了，接下来我们进行固件的烧录。",
+      "parts": [
+        {
+          "zh": "板子焊好了，",
+          "vi": "Bo đã hàn xong,"
+        },
+        {
+          "zh": "接下来我们进行固件的烧录。",
+          "vi": "tiếp theo mình nạp firmware."
+        }
+      ]
+    },
+    "1": {
+      "zh": "固件和烧录所需的工具我都放在firmware文件夹里了。",
+      "parts": [
+        {
+          "zh": "固件和烧录所需的工具我都放在",
+          "vi": "Firmware và công cụ cần để nạp mình để hết"
+        },
+        {
+          "zh": "firmware文件夹里了。",
+          "vi": "trong thư mục firmware rồi."
+        }
+      ]
+    },
+    "2": {
+      "zh": "按Win加X打开设备管理器，按住Boot按键，再把连接板子的数据线插到电脑上，",
+      "parts": [
+        {
+          "zh": "按Win加X打开设备管理器，",
+          "vi": "Nhấn Win+X mở Device Manager,"
+        },
+        {
+          "zh": "按住Boot按键，",
+          "vi": "giữ nút BOOT,"
+        },
+        {
+          "zh": "再把连接板子的数据线插到电脑上，",
+          "vi": "rồi cắm cáp dữ liệu nối với bo vào máy tính,"
+        }
+      ]
+    },
+    "3": {
+      "zh": "这样芯片就能强制进行下载模式。",
+      "vi": "như vậy chip sẽ bị buộc vào chế độ nạp."
+    },
+    "4": {
+      "zh": "电脑能够稳定识别COM口。",
+      "vi": "Máy tính nhận được cổng COM ổn định."
+    },
+    "5": {
+      "zh": "烧录之前先把这个点bin文件复制到没有中文路径的地方。",
+      "parts": [
+        {
+          "zh": "烧录之前先把这个点bin文件",
+          "vi": "Trước khi nạp, chép file .bin này"
+        },
+        {
+          "zh": "复制到没有中文路径的地方。",
+          "vi": "vào chỗ nào đường dẫn không có tiếng Trung."
+        }
+      ]
+    },
+    "6": {
+      "zh": "解压FlashDownloadTool压缩包，点击这个点EXE文件，",
+      "parts": [
+        {
+          "zh": "解压FlashDownloadTool压缩包，",
+          "vi": "Giải nén file nén FlashDownloadTool,"
+        },
+        {
+          "zh": "点击这个点EXE文件，",
+          "vi": "bấm vào file .exe này,"
+        }
+      ]
+    },
+    "7": {
+      "zh": "这是乐鑫官方的固件烧录工具。",
+      "vi": "đây là công cụ nạp firmware chính thức của Espressif."
+    },
+    "8": {
+      "zh": "目标芯片选择ESP32-S3，点击OK。",
+      "parts": [
+        {
+          "zh": "目标芯片选择ESP32-S3，",
+          "vi": "Chip đích chọn ESP32-S3,"
+        },
+        {
+          "zh": "点击OK。",
+          "vi": "bấm OK."
+        }
+      ]
+    },
+    "9": {
+      "zh": "点击预览，选择这个点BIN文件，前面勾选，地址填0x0，SPI SPEED选80兆赫兹，",
+      "parts": [
+        {
+          "zh": "点击预览，选择这个点BIN文件，",
+          "vi": "Bấm duyệt, chọn file .bin này,"
+        },
+        {
+          "zh": "前面勾选，地址填0x0，",
+          "vi": "tick vào ô phía trước, địa chỉ điền 0x0,"
+        },
+        {
+          "zh": "SPI SPEED选80兆赫兹，",
+          "vi": "SPI SPEED chọn 80MHz,"
+        }
+      ]
+    },
+    "10": {
+      "zh": "选择板子COM口。",
+      "vi": "chọn cổng COM của bo."
+    },
+    "11": {
+      "zh": "点击Start开始烧录，大约需要三十秒时间。",
+      "parts": [
+        {
+          "zh": "点击Start开始烧录，",
+          "vi": "Bấm Start để bắt đầu nạp,"
+        },
+        {
+          "zh": "大约需要三十秒时间。",
+          "vi": "mất khoảng 30 giây."
+        }
+      ]
+    },
+    "12": {
+      "zh": "烧录完成之后，还需要拔插一次数据线才会亮屏。",
+      "parts": [
+        {
+          "zh": "烧录完成之后，",
+          "vi": "Nạp xong rồi,"
+        },
+        {
+          "zh": "还需要拔插一次数据线才会亮屏。",
+          "vi": "còn phải rút ra cắm lại cáp một lần thì màn hình mới sáng."
+        }
+      ]
+    },
+    "13": {
+      "zh": "接下来我们解压这个压缩包，点击这个点exe文件，这是我用Qt写的上位机。",
+      "parts": [
+        {
+          "zh": "接下来我们解压这个压缩包，",
+          "vi": "Tiếp theo mình giải nén file nén này,"
+        },
+        {
+          "zh": "点击这个点exe文件，",
+          "vi": "bấm vào file .exe này,"
+        },
+        {
+          "zh": "这是我用Qt写的上位机。",
+          "vi": "đây là phần mềm cấu hình mình viết bằng Qt."
+        }
+      ]
+    },
+    "14": {
+      "zh": "选择板子COM口，填入WiFi账号和密码。",
+      "parts": [
+        {
+          "zh": "选择板子COM口，",
+          "vi": "Chọn cổng COM của bo,"
+        },
+        {
+          "zh": "填入WiFi账号和密码。",
+          "vi": "điền tên và mật khẩu WiFi."
+        }
+      ]
+    },
+    "15": {
+      "zh": "经纬度是为了让获取天气更准确些，可以在自己的B站主页获取UID和SESSDATA，",
+      "parts": [
+        {
+          "zh": "经纬度是为了让获取天气更准确些，",
+          "vi": "Kinh độ vĩ độ là để lấy thời tiết chính xác hơn,"
+        },
+        {
+          "zh": "可以在自己的B站主页",
+          "vi": "trên trang cá nhân Bilibili của mình"
+        },
+        {
+          "zh": "获取UID和SESSDATA，",
+          "vi": "có thể lấy UID và SESSDATA,"
+        }
+      ]
+    },
+    "16": {
+      "zh": "用于联网获取B站粉丝数、播放量和点赞量。",
+      "parts": [
+        {
+          "zh": "用于联网获取B站粉丝数、",
+          "vi": "để kết nối mạng lấy số người theo dõi trên Bilibili,"
+        },
+        {
+          "zh": "播放量和点赞量。",
+          "vi": "lượt xem và lượt thích."
+        }
+      ]
+    },
+    "17": {
+      "zh": "下面这里还可以设置你自己的B站主页二维码，以及自定表盘背景图片。",
+      "parts": [
+        {
+          "zh": "下面这里还可以设置",
+          "vi": "Ở dưới đây còn có thể đặt"
+        },
+        {
+          "zh": "你自己的B站主页二维码，",
+          "vi": "mã QR trang cá nhân Bilibili của bạn,"
+        },
+        {
+          "zh": "以及自定表盘背景图片。",
+          "vi": "và tự chọn ảnh nền mặt đồng hồ."
+        }
+      ]
+    },
+    "18": {
+      "zh": "表盘背景图片需要将大小压缩到二百四乘二百四，二维码图片需要压缩到七十四乘七十四。",
+      "parts": [
+        {
+          "zh": "表盘背景图片需要将大小",
+          "vi": "Ảnh nền mặt đồng hồ cần nén kích thước"
+        },
+        {
+          "zh": "压缩到二百四乘二百四，",
+          "vi": "về 240 x 240,"
+        },
+        {
+          "zh": "二维码图片",
+          "vi": "ảnh mã QR"
+        },
+        {
+          "zh": "需要压缩到七十四乘七十四。",
+          "vi": "cần nén về 74 x 74."
+        }
+      ]
+    },
+    "19": {
+      "zh": "点击连接设备，写入配置，这个过程大约需要三十秒。",
+      "parts": [
+        {
+          "zh": "点击连接设备，写入配置，",
+          "vi": "Bấm kết nối thiết bị, ghi cấu hình,"
+        },
+        {
+          "zh": "这个过程大约需要三十秒。",
+          "vi": "quá trình này mất khoảng 30 giây."
+        }
+      ]
+    },
+    "20": {
+      "zh": "现在配置已经写入NVS了，",
+      "vi": "Giờ cấu hình đã được ghi vào NVS rồi,"
+    },
+    "21": {
+      "zh": "封面图片改变了。",
+      "vi": "hình nền đã đổi rồi."
+    },
+    "22": {
+      "zh": "打开刚刚配置WiFi或者手机热点。",
+      "parts": [
+        {
+          "zh": "打开刚刚配置WiFi",
+          "vi": "Bật cái WiFi vừa cấu hình"
+        },
+        {
+          "zh": "或者手机热点。",
+          "vi": "hoặc điểm phát WiFi của điện thoại."
+        }
+      ]
+    },
+    "23": {
+      "zh": "等待一段时间，WiFi图标出现，说明手表已经连上WiFi了。",
+      "parts": [
+        {
+          "zh": "等待一段时间，WiFi图标出现，",
+          "vi": "Đợi một lúc, biểu tượng WiFi hiện lên,"
+        },
+        {
+          "zh": "说明手表已经连上WiFi了。",
+          "vi": "tức là đồng hồ đã kết nối WiFi rồi."
+        }
+      ]
+    },
+    "24": {
+      "zh": "ESP三二联网获取实时时间，联网获取B站数据，联网获取天气，",
+      "parts": [
+        {
+          "zh": "ESP三二联网获取实时时间，",
+          "vi": "ESP32 kết nối mạng lấy giờ hiện tại,"
+        },
+        {
+          "zh": "联网获取B站数据，联网获取天气，",
+          "vi": "kết nối mạng lấy dữ liệu Bilibili, kết nối mạng lấy thời tiết,"
+        }
+      ]
+    },
+    "25": {
+      "zh": "这样就说明我们的固件烧录以及信息配置没有问题了。",
+      "parts": [
+        {
+          "zh": "这样就说明我们的固件烧录",
+          "vi": "như vậy chứng tỏ việc nạp firmware"
+        },
+        {
+          "zh": "以及信息配置没有问题了。",
+          "vi": "và cấu hình thông tin của mình đều không có vấn đề gì."
+        }
+      ]
+    }
+  }
+}

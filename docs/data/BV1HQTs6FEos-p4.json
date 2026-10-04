@@ -1,0 +1,529 @@
+{
+  "id": "BV1HQTs6FEos-p4",
+  "title": "【开源】ESP32多功能手表(含复刻教程) P4 [1-2] PCB&元器件下单",
+  "guid": "BV1HQTs6FEos-p4",
+  "pubDate": "2026-07-03",
+  "duration": 205,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/BV1HQTs6FEos-p4.m4a"
+  },
+  "source": "bilibili",
+  "owner": "火禾实验室",
+  "link": "https://www.bilibili.com/video/BV1HQTs6FEos/?p=4",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 0,
+      "end": 2.26,
+      "text": "下面我们进行PCB和元器件下单。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 1,
+      "s": 1,
+      "start": 2.26,
+      "end": 3.16,
+      "text": "硬件部分的资料",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 2,
+      "s": 1,
+      "start": 3.16,
+      "end": 4.78,
+      "text": "我都放在Hardware里了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 3,
+      "s": 1,
+      "start": 5.16,
+      "end": 6.62,
+      "text": "包括PCB下单所需的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 4,
+      "s": 1,
+      "start": 6.62,
+      "end": 7.46,
+      "text": "Gerber文件，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 5,
+      "s": 2,
+      "start": 7.74,
+      "end": 9.9,
+      "text": "以及元器件下单所需的BOM表。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 3,
+      "start": 10.42,
+      "end": 11.88,
+      "text": "打开嘉立创下单助手，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 3,
+      "start": 16.8,
+      "end": 22.05,
+      "text": "点击PCB下单，点击上传PCB，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 4,
+      "start": 24.12,
+      "end": 25.68,
+      "text": "选择Hardware文件夹里的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 4,
+      "start": 25.68,
+      "end": 26.55,
+      "text": "Gerber压缩包。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 5,
+      "start": 32.13,
+      "end": 34.49,
+      "text": "板子数量选择五，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 11,
+      "s": 5,
+      "start": 34.53,
+      "end": 38.27,
+      "text": "点击立即下单，进入下单界面，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 5,
+      "start": 40.23,
+      "end": 41.61,
+      "text": "不需要确认生产稿。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 13,
+      "s": 6,
+      "start": 43.43,
+      "end": 45.59,
+      "text": "成品板厚选一毫米，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 14,
+      "s": 6,
+      "start": 45.69,
+      "end": 48.01,
+      "text": "我的文件中已有层压顺序，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 15,
+      "s": 6,
+      "start": 48.01,
+      "end": 53.71,
+      "text": "阻抗无要求，按标准合同常规处理。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 7,
+      "start": 56.64,
+      "end": 64.63,
+      "text": "不需要磨边，不需要SMT贴片，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 7,
+      "start": 67.81,
+      "end": 70.27,
+      "text": "需要开张钢网，自定尺寸，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 7,
+      "start": 70.27,
+      "end": 71.48,
+      "text": "宽高都为四厘米，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 8,
+      "start": 72.27,
+      "end": 73.75,
+      "text": "只开顶层一张钢网，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 8,
+      "start": 74.21,
+      "end": 75.83,
+      "text": "不需要纳米真空镀膜。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 9,
+      "start": 76.65,
+      "end": 78.09,
+      "text": "下面这些选项选这些。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 10,
+      "start": 79.44,
+      "end": 81.34,
+      "text": "点击确认，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 10,
+      "start": 82.66,
+      "end": 85.2,
+      "text": "现在PCB和钢网加起来",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 10,
+      "start": 85.2,
+      "end": 86.58,
+      "text": "一共需要五十块钱。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 11,
+      "start": 87.48,
+      "end": 91.18,
+      "text": "提交订单，确认并提交，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 11,
+      "start": 93.92,
+      "end": 95.92,
+      "text": "返回订单列表，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 11,
+      "start": 97.5,
+      "end": 99.73,
+      "text": "等PCB审核通过后就可以下单了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 12,
+      "start": 101.22,
+      "end": 102.18,
+      "text": "下单时有可能碰到",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 12,
+      "start": 102.18,
+      "end": 104.01,
+      "text": "打样费用不止五十元的情况。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 13,
+      "start": 105.15,
+      "end": 107.54,
+      "text": "这个时候只需要打开嘉立创EDA，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 13,
+      "start": 110.41,
+      "end": 111.61,
+      "text": "点击导入专业板，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 14,
+      "start": 112.37,
+      "end": 113.93,
+      "text": "选择Hardware文件夹中的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 14,
+      "start": 113.93,
+      "end": 123.92,
+      "text": "点epro文件，打开PCB，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 14,
+      "start": 126.17,
+      "end": 129.39,
+      "text": "点击放置，过孔，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 15,
+      "start": 129.63,
+      "end": 131.56,
+      "text": "随便在空的地方打几个GND过孔。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 16,
+      "start": 133.5,
+      "end": 138.03,
+      "text": "点击DRC，检查DRC，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 16,
+      "start": 138.19,
+      "end": 139.7,
+      "text": "这应该是软件的bug，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 16,
+      "start": 139.7,
+      "end": 140.84,
+      "text": "需要重建内电层。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 17,
+      "start": 142.16,
+      "end": 145.06,
+      "text": "点击内电层，重建内电层，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 17,
+      "start": 145.06,
+      "end": 147.24,
+      "text": "现在再来检查DRC就不会报错了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 18,
+      "start": 150.72,
+      "end": 154.48,
+      "text": "点击导出，PCB下单。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 19,
+      "start": 157.8,
+      "end": 160.51,
+      "text": "还是跟刚刚一样的下单流程，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 19,
+      "start": 165.23,
+      "end": 171.27,
+      "text": "总价五十就没问题了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 20,
+      "start": 173.62,
+      "end": 176.09,
+      "text": "接下来我们下单元器件，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 20,
+      "start": 176.25,
+      "end": 181.13,
+      "text": "进入立创商城，点击上传BOM，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 20,
+      "start": 181.81,
+      "end": 183.01,
+      "text": "选择Hardware文件夹中的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 20,
+      "start": 183.01,
+      "end": 183.5,
+      "text": "BOM表。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 21,
+      "start": 186.96,
+      "end": 189.15,
+      "text": "点击一键下单，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 21,
+      "start": 189.91,
+      "end": 193.75,
+      "text": "还有一些元器件不在立创商城购买，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 21,
+      "start": 193.75,
+      "end": 195.56,
+      "text": "购买链接放这里了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "s": 22,
+      "start": 197.01,
+      "end": 198.03,
+      "text": "虽然数量都是标一，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "s": 22,
+      "start": 198.03,
+      "end": 199.74,
+      "text": "但是大家可以多买几个。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 23,
+      "start": 199.87,
+      "end": 201.43,
+      "text": "以上就是PCB和元器件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 23,
+      "start": 201.43,
+      "end": 202.51,
+      "text": "下单全过程，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 23,
+      "start": 202.51,
+      "end": 203.29,
+      "text": "下面我来教一下",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 23,
+      "start": 203.29,
+      "end": 204.55,
+      "text": "怎么焊接这块PCB。",
+      "speaker": "A",
+      "role": "storyteller"
+    }
+  ]
+}

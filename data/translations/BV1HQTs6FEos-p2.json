@@ -1,0 +1,180 @@
+{
+  "episode": "BV1HQTs6FEos-p2",
+  "summary": [
+    "Phần 2 trong series 7 phần của Hỏa Hòa (kênh 火禾实验室) về chiếc đồng hồ ESP32 tự làm: tải tài liệu. Bạn ấy hướng dẫn vào trang dự án (link để ở phần giới thiệu video), bấm \"Clone/Tải về\" để lấy file nén rồi giải nén.",
+    "Sau đó lần lượt giới thiệu từng thư mục: Hardware chứa tài liệu phần cứng (file Gerber gửi xưởng làm mạch in, danh sách linh kiện BOM, file dự án 嘉立创EDA); Firmware chứa file nhị phân nạp thẳng vào chip, công cụ nạp của Espressif và phần mềm cấu hình trên máy tính; Software chứa mã nguồn của đồng hồ và của phần mềm cấu hình; SW-Model chứa mô hình 3D của vỏ, với hai file STEP để gửi đi in 3D. Cuối phần, bạn ấy chuyển sang giải thích sơ đồ nguyên lý."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "我们先来下载复刻所需资料，这个链接我已经放在视频简介里了。",
+      "parts": [
+        {
+          "zh": "我们先来下载复刻所需资料，",
+          "vi": "Trước tiên mình tải tài liệu cần để làm lại đã,"
+        },
+        {
+          "zh": "这个链接我已经放在视频简介里了。",
+          "vi": "link mình đã để ở phần giới thiệu video rồi."
+        }
+      ]
+    },
+    "1": {
+      "zh": "进入这个项目的页面，点击“克隆下载”，",
+      "vi": "Vào trang của dự án này, bấm \"Clone/Tải về\","
+    },
+    "2": {
+      "zh": "下载压缩包，下载完成后解压压缩包，复刻所需资料都在这里了。",
+      "parts": [
+        {
+          "zh": "下载压缩包，",
+          "vi": "tải file nén về,"
+        },
+        {
+          "zh": "下载完成后解压压缩包，",
+          "vi": "tải xong thì giải nén,"
+        },
+        {
+          "zh": "复刻所需资料都在这里了。",
+          "vi": "tài liệu cần để làm lại đều ở đây cả."
+        }
+      ]
+    },
+    "3": {
+      "zh": "Hardware里面放的是硬件资料。",
+      "parts": [
+        {
+          "zh": "Hardware里面",
+          "vi": "Trong thư mục Hardware"
+        },
+        {
+          "zh": "放的是硬件资料。",
+          "vi": "là tài liệu phần cứng."
+        }
+      ]
+    },
+    "4": {
+      "zh": "包括提交给厂家进行打板的Gerber文件，以及用于元器件购买的BOM清单。",
+      "parts": [
+        {
+          "zh": "包括提交给厂家",
+          "vi": "Gồm file gửi cho xưởng"
+        },
+        {
+          "zh": "进行打板的Gerber文件，",
+          "vi": "để làm mạch in, tức file Gerber,"
+        },
+        {
+          "zh": "以及用于元器件购买的BOM清单。",
+          "vi": "và danh sách BOM để mua linh kiện."
+        }
+      ]
+    },
+    "5": {
+      "zh": "下面这个是嘉立创EDA的工程文件。",
+      "parts": [
+        {
+          "zh": "下面这个是",
+          "vi": "Cái bên dưới này là"
+        },
+        {
+          "zh": "嘉立创EDA的工程文件。",
+          "vi": "file dự án của 嘉立创EDA (JLC EDA)."
+        }
+      ]
+    },
+    "6": {
+      "zh": "Firmware里面放的是固件资料，包括可以直接烧录进单片机的二进制文件、",
+      "parts": [
+        {
+          "zh": "Firmware里面",
+          "vi": "Trong thư mục Firmware"
+        },
+        {
+          "zh": "放的是固件资料，",
+          "vi": "là tài liệu firmware,"
+        },
+        {
+          "zh": "包括可以直接",
+          "vi": "gồm file có thể trực tiếp"
+        },
+        {
+          "zh": "烧录进单片机的二进制文件、",
+          "vi": "nạp vào vi điều khiển, tức file nhị phân,"
+        }
+      ]
+    },
+    "7": {
+      "zh": "乐鑫官方的烧录工具，以及用来配置信息的上位机。",
+      "parts": [
+        {
+          "zh": "乐鑫官方的烧录工具，",
+          "vi": "công cụ nạp chính thức của Espressif,"
+        },
+        {
+          "zh": "以及用来配置信息的上位机。",
+          "vi": "và phần mềm trên máy tính dùng để cấu hình thông tin."
+        }
+      ]
+    },
+    "8": {
+      "zh": "Software里面放的是软件资料。",
+      "parts": [
+        {
+          "zh": "Software里面",
+          "vi": "Trong thư mục Software"
+        },
+        {
+          "zh": "放的是软件资料。",
+          "vi": "là tài liệu phần mềm."
+        }
+      ]
+    },
+    "9": {
+      "zh": "这是手表的源码，这是上位机的源码。",
+      "vi": "Đây là mã nguồn của đồng hồ, đây là mã nguồn của phần mềm trên máy tính."
+    },
+    "10": {
+      "zh": "SW-Model里面放的是外壳3D建模资料。",
+      "parts": [
+        {
+          "zh": "SW-Model里面",
+          "vi": "Trong thư mục SW-Model"
+        },
+        {
+          "zh": "放的是外壳3D建模资料。",
+          "vi": "là tài liệu mô hình 3D của vỏ."
+        }
+      ]
+    },
+    "11": {
+      "zh": "这两个STEP文件是提交给厂家进行3D打印的。",
+      "parts": [
+        {
+          "zh": "这两个STEP文件",
+          "vi": "Hai file STEP này"
+        },
+        {
+          "zh": "是提交给厂家进行3D打印的。",
+          "vi": "là để gửi cho xưởng in 3D."
+        }
+      ]
+    },
+    "12": {
+      "zh": "资料下载好了，下面我先来讲解一下这块板子的原理图。",
+      "parts": [
+        {
+          "zh": "资料下载好了，",
+          "vi": "Tải tài liệu xong rồi,"
+        },
+        {
+          "zh": "下面我先来讲解一下",
+          "vi": "sau đây mình giải thích một chút"
+        },
+        {
+          "zh": "这块板子的原理图。",
+          "vi": "sơ đồ nguyên lý của bo mạch này."
+        }
+      ]
+    }
+  }
+}

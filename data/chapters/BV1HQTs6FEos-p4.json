@@ -1,0 +1,17 @@
+{
+  "episode": "BV1HQTs6FEos-p4",
+  "chapters": [
+    {
+      "from": 0,
+      "zh": "PCB下单",
+      "vi": "Đặt làm PCB",
+      "first": "下面我们进行PCB和元器件下单。"
+    },
+    {
+      "from": 12,
+      "zh": "加过孔重新下单，再买元器件",
+      "vi": "Thêm via đặt lại, rồi mua linh kiện",
+      "first": "下单时有可能碰到打样费用不止五十元的情况。"
+    }
+  ]
+}

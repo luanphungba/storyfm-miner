@@ -1,0 +1,56 @@
+{
+  "episode": "BV1HQTs6FEos-p2",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-04",
+  "fixes": [
+    {
+      "cueIndex": 3,
+      "before": "它的VIO",
+      "after": "Hardware",
+      "source": "llm-review",
+      "reason": "The folder is 01_Hardware in the repo and the subtitle reads Hardware里面放的是硬件资料; whisper large-v3 hears 它的well.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 5,
+      "before": "嘉利创",
+      "after": "嘉立创",
+      "source": "llm-review",
+      "reason": "JLCEDA's maker is 嘉立创, as the subtitle writes it; same sound.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 6,
+      "before": "装Ware",
+      "after": "Firmware",
+      "source": "llm-review",
+      "reason": "The folder is 02_Firmware and the subtitle reads Firmware里面放的是固件资料.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 8,
+      "before": "SoftwareWare",
+      "after": "Software",
+      "source": "llm-review",
+      "reason": "The folder is 03_Software; the subtitle and whisper large-v3 both have Software once.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 10,
+      "before": "SWModel",
+      "after": "SW-Model",
+      "source": "llm-review",
+      "reason": "The folder 04_SW-Model in the repo (P7 subtitle: SW-Model); whisper large-v3 hears SW Model.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 11,
+      "before": "STP文件",
+      "after": "STEP文件",
+      "source": "llm-review",
+      "reason": "The subtitle reads STEP文件 (the 3D-print exchange format); whisper large-v3 hears four letters, SCEP.",
+      "appliedAt": "2026-10-04"
+    }
+  ],
+  "flagged": []
+}

@@ -1,0 +1,493 @@
+{
+  "id": "BV1HQTs6FEos-p6",
+  "title": "【开源】ESP32多功能手表(含复刻教程) P6 [1-4]固件烧录&上位机配置",
+  "guid": "BV1HQTs6FEos-p6",
+  "pubDate": "2026-07-03",
+  "duration": 156,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/BV1HQTs6FEos-p6.m4a"
+  },
+  "source": "bilibili",
+  "owner": "火禾实验室",
+  "link": "https://www.bilibili.com/video/BV1HQTs6FEos/?p=6",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 0,
+      "end": 0.94,
+      "text": "板子焊好了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 1,
+      "s": 0,
+      "start": 0.94,
+      "end": 2.71,
+      "text": "接下来我们进行固件的烧录。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 2,
+      "s": 1,
+      "start": 2.86,
+      "end": 5.1,
+      "text": "固件和烧录所需的工具我都放在",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 3,
+      "s": 1,
+      "start": 5.1,
+      "end": 6.71,
+      "text": "firmware文件夹里了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 4,
+      "s": 2,
+      "start": 6.88,
+      "end": 9.01,
+      "text": "按Win加X打开设备管理器，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 5,
+      "s": 2,
+      "start": 9.78,
+      "end": 11,
+      "text": "按住Boot按键，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 2,
+      "start": 12.46,
+      "end": 15.02,
+      "text": "再把连接板子的数据线插到电脑上，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 3,
+      "start": 15.8,
+      "end": 18.05,
+      "text": "这样芯片就能强制进行下载模式。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 4,
+      "start": 19.26,
+      "end": 21.46,
+      "text": "电脑能够稳定识别COM口。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 5,
+      "start": 22.1,
+      "end": 23.96,
+      "text": "烧录之前先把这个点bin文件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 5,
+      "start": 23.96,
+      "end": 25.81,
+      "text": "复制到没有中文路径的地方。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 11,
+      "s": 6,
+      "start": 26.16,
+      "end": 29.18,
+      "text": "解压FlashDownloadTool压缩包，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 6,
+      "start": 30.26,
+      "end": 32.3,
+      "text": "点击这个点EXE文件，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 13,
+      "s": 7,
+      "start": 32.46,
+      "end": 34.82,
+      "text": "这是乐鑫官方的固件烧录工具。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 14,
+      "s": 8,
+      "start": 35.54,
+      "end": 37.7,
+      "text": "目标芯片选择ESP32-S3，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 15,
+      "s": 8,
+      "start": 37.98,
+      "end": 38.98,
+      "text": "点击OK。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 9,
+      "start": 39.6,
+      "end": 44.42,
+      "text": "点击预览，选择这个点BIN文件，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 9,
+      "start": 44.42,
+      "end": 47.5,
+      "text": "前面勾选，地址填0x0，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 9,
+      "start": 48.48,
+      "end": 50.92,
+      "text": "SPI SPEED选80兆赫兹，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 10,
+      "start": 50.92,
+      "end": 52.52,
+      "text": "选择板子COM口。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 11,
+      "start": 52.74,
+      "end": 55.1,
+      "text": "点击Start开始烧录，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 11,
+      "start": 55.16,
+      "end": 56.53,
+      "text": "大约需要三十秒时间。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 12,
+      "start": 60.02,
+      "end": 60.98,
+      "text": "烧录完成之后，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 23,
+      "s": 12,
+      "start": 60.98,
+      "end": 63.37,
+      "text": "还需要拔插一次数据线才会亮屏。",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 24,
+      "s": 13,
+      "start": 68.55,
+      "end": 71.08,
+      "text": "接下来我们解压这个压缩包，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 25,
+      "s": 13,
+      "start": 73.74,
+      "end": 76.46,
+      "text": "点击这个点exe文件，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 26,
+      "s": 13,
+      "start": 77.88,
+      "end": 79.88,
+      "text": "这是我用Qt写的上位机。",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 27,
+      "s": 14,
+      "start": 80.36,
+      "end": 82.38,
+      "text": "选择板子COM口，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 14,
+      "start": 82.38,
+      "end": 85.11,
+      "text": "填入WiFi账号和密码。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 15,
+      "start": 85.52,
+      "end": 87.85,
+      "text": "经纬度是为了让获取天气更准确些，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 15,
+      "start": 88.8,
+      "end": 90,
+      "text": "可以在自己的B站主页",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 15,
+      "start": 90,
+      "end": 91.98,
+      "text": "获取UID和SESSDATA，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 16,
+      "start": 92.18,
+      "end": 94.2,
+      "text": "用于联网获取B站粉丝数、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 16,
+      "start": 94.2,
+      "end": 95.31,
+      "text": "播放量和点赞量。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 17,
+      "start": 98.95,
+      "end": 100.24,
+      "text": "下面这里还可以设置",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 35,
+      "s": 17,
+      "start": 100.24,
+      "end": 102.56,
+      "text": "你自己的B站主页二维码，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 36,
+      "s": 17,
+      "start": 103.12,
+      "end": 105.04,
+      "text": "以及自定表盘背景图片。",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 37,
+      "s": 18,
+      "start": 107.42,
+      "end": 109.05,
+      "text": "表盘背景图片需要将大小",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 18,
+      "start": 109.05,
+      "end": 111.35,
+      "text": "压缩到二百四乘二百四，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 18,
+      "start": 111.35,
+      "end": 112.39,
+      "text": "二维码图片",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 18,
+      "start": 112.39,
+      "end": 114.22,
+      "text": "需要压缩到七十四乘七十四。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 19,
+      "start": 114.43,
+      "end": 118.71,
+      "text": "点击连接设备，写入配置，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 42,
+      "s": 19,
+      "start": 119.19,
+      "end": 121.13,
+      "text": "这个过程大约需要三十秒。",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 43,
+      "s": 20,
+      "start": 125.09,
+      "end": 127.87,
+      "text": "现在配置已经写入NVS了，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 44,
+      "s": 21,
+      "start": 127.95,
+      "end": 129.35,
+      "text": "封面图片改变了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 22,
+      "start": 129.71,
+      "end": 130.75,
+      "text": "打开刚刚配置WiFi",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 22,
+      "start": 130.75,
+      "end": 131.79,
+      "text": "或者手机热点。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 23,
+      "start": 132.02,
+      "end": 135.15,
+      "text": "等待一段时间，WiFi图标出现，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 23,
+      "start": 135.15,
+      "end": 136.66,
+      "text": "说明手表已经连上WiFi了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 24,
+      "start": 136.89,
+      "end": 138.72,
+      "text": "ESP三二联网获取实时时间，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 50,
+      "s": 24,
+      "start": 147.03,
+      "end": 152.73,
+      "text": "联网获取B站数据，联网获取天气，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 51,
+      "s": 25,
+      "start": 152.85,
+      "end": 154.33,
+      "text": "这样就说明我们的固件烧录",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 52,
+      "s": 25,
+      "start": 154.33,
+      "end": 155.83,
+      "text": "以及信息配置没有问题了。",
+      "speaker": "B",
+      "role": "narrator"
+    }
+  ]
+}

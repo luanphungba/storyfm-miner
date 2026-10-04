@@ -1,0 +1,20 @@
+{
+  "chapters": [
+    {
+      "zh": "烧录固件",
+      "vi": "Nạp firmware",
+      "from": 0,
+      "to": 23,
+      "start": 0,
+      "end": 63.37
+    },
+    {
+      "zh": "用上位机写入配置",
+      "vi": "Ghi cấu hình bằng phần mềm trên máy tính",
+      "from": 24,
+      "to": 52,
+      "start": 68.55,
+      "end": 155.83
+    }
+  ]
+}

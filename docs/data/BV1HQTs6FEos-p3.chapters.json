@@ -1,0 +1,28 @@
+{
+  "chapters": [
+    {
+      "zh": "主控芯片、天线和晶振",
+      "vi": "Chip chính, ăng-ten và thạch anh",
+      "from": 0,
+      "to": 36,
+      "start": 0,
+      "end": 68.21
+    },
+    {
+      "zh": "I方C总线上的外设和显示屏",
+      "vi": "Ngoại vi trên bus I²C và màn hình",
+      "from": 37,
+      "to": 72,
+      "start": 68.52,
+      "end": 139.22
+    },
+    {
+      "zh": "电源、开关机和充电",
+      "vi": "Nguồn, bật tắt máy và sạc",
+      "from": 73,
+      "to": 118,
+      "start": 139.22,
+      "end": 219.82
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chapters": [
+    {
+      "zh": "上锡膏，用焊台焊顶层",
+      "vi": "Bôi kem hàn, hàn mặt trên bằng bàn nhiệt",
+      "from": 0,
+      "to": 18,
+      "start": 0.1,
+      "end": 83.2
+    },
+    {
+      "zh": "焊底层：TypeC、插座和芯片",
+      "vi": "Hàn mặt dưới: Type-C, đế cắm, chip",
+      "from": 19,
+      "to": 30,
+      "start": 84.33,
+      "end": 136.75
+    },
+    {
+      "zh": "按键开关，测短路，装电池",
+      "vi": "Nút bấm, đo chập mạch, lắp pin",
+      "from": 31,
+      "to": 48,
+      "start": 141.81,
+      "end": 211.81
+    }
+  ]
+}

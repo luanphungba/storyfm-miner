@@ -1,0 +1,140 @@
+{
+  "episode": "BV1HQTs6FEos-p7",
+  "summary": [
+    "Phần 7, phần cuối: đặt in vỏ và lắp ráp. Hỏa Hòa vào thư mục SW-Model lấy hai file STEP, tải lên trang in 3D của 嘉立创 (JLC), chọn vật liệu màu đen (Black) rồi đặt hàng; nếu khi duyệt báo có vấn đề thì trả lời chấp nhận rủi ro và cứ gia công. Vỏ cần thêm bốn con ốc; link mua ốc và dây đeo nằm trong thư mục Hardware.",
+    "Khi vỏ về, bạn ấy nhét pin vào vỏ, đậy nắp trên, bắt bốn con ốc, luồn dây đeo qua khe là xong chiếc đồng hồ. Video kết thúc bằng lời chào và nhờ người xem ấn thích, tặng xu, lưu video (一键三连)."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "现在我们表还差一个外壳，进入SW-Model。",
+      "parts": [
+        {
+          "zh": "现在我们表还差一个外壳，",
+          "vi": "Giờ đồng hồ của mình còn thiếu cái vỏ,"
+        },
+        {
+          "zh": "进入SW-Model。",
+          "vi": "vào thư mục SW-Model."
+        }
+      ]
+    },
+    "1": {
+      "zh": "这两个STEP文件是用来3D打印的文件，进入嘉立创3D打印官网，",
+      "parts": [
+        {
+          "zh": "这两个STEP文件",
+          "vi": "Hai file STEP này"
+        },
+        {
+          "zh": "是用来3D打印的文件，",
+          "vi": "là file dùng để in 3D,"
+        },
+        {
+          "zh": "进入嘉立创3D打印官网，",
+          "vi": "vào trang in 3D chính thức của 嘉立创 (JLC),"
+        }
+      ]
+    },
+    "2": {
+      "zh": "上传这两个STEP文件，材料选择下面这个Black。",
+      "parts": [
+        {
+          "zh": "上传这两个STEP文件，",
+          "vi": "tải hai file STEP này lên,"
+        },
+        {
+          "zh": "材料选择下面这个Black。",
+          "vi": "vật liệu chọn cái Black bên dưới này."
+        }
+      ]
+    },
+    "3": {
+      "zh": "点击立即下单，进入嘉立创下单助手，",
+      "vi": "Bấm đặt hàng ngay, vào app đặt hàng của JLC,"
+    },
+    "4": {
+      "zh": "审核通过就可以支付了。",
+      "vi": "duyệt xong là có thể thanh toán."
+    },
+    "5": {
+      "zh": "如果审核提示有问题，则回复忽视风险继续加工。",
+      "parts": [
+        {
+          "zh": "如果审核提示有问题，",
+          "vi": "Nếu khi duyệt báo có vấn đề,"
+        },
+        {
+          "zh": "则回复忽视风险继续加工。",
+          "vi": "thì trả lời là bỏ qua rủi ro, cứ tiếp tục gia công."
+        }
+      ]
+    },
+    "6": {
+      "zh": "手表外壳还需要四颗螺丝进行固定，螺丝和表带的购买链接我放在Hardware里了。",
+      "parts": [
+        {
+          "zh": "手表外壳还需要四颗螺丝进行固定，",
+          "vi": "Vỏ đồng hồ còn cần bốn con ốc để cố định,"
+        },
+        {
+          "zh": "螺丝和表带的购买链接",
+          "vi": "link mua ốc và dây đeo"
+        },
+        {
+          "zh": "我放在Hardware里了。",
+          "vi": "mình để trong Hardware rồi."
+        }
+      ]
+    },
+    "7": {
+      "zh": "外壳到了，下面我们进行组装。",
+      "vi": "Vỏ về rồi, sau đây mình lắp ráp."
+    },
+    "8": {
+      "zh": "先把电池塞到外壳里，",
+      "vi": "Trước tiên nhét pin vào vỏ,"
+    },
+    "9": {
+      "zh": "然后把上盖盖上，再把四个螺丝装到固定孔中，最后再把表带穿过槽口。",
+      "parts": [
+        {
+          "zh": "然后把上盖盖上，",
+          "vi": "rồi đậy nắp trên lại,"
+        },
+        {
+          "zh": "再把四个螺丝装到固定孔中，",
+          "vi": "vặn bốn con ốc vào lỗ cố định,"
+        },
+        {
+          "zh": "最后再把表带穿过槽口。",
+          "vi": "cuối cùng luồn dây đeo qua khe."
+        }
+      ]
+    },
+    "10": {
+      "zh": "OK，大功告成。",
+      "vi": "OK, xong xuôi."
+    },
+    "11": {
+      "zh": "以上就本期视频的全部内容了。",
+      "vi": "Trên đây là toàn bộ nội dung video kỳ này."
+    },
+    "12": {
+      "zh": "如果你喜欢我的视频，记得一键三连支持一下。",
+      "parts": [
+        {
+          "zh": "如果你喜欢我的视频，",
+          "vi": "Nếu bạn thích video của mình,"
+        },
+        {
+          "zh": "记得一键三连支持一下。",
+          "vi": "nhớ ấn thích, tặng xu, lưu video (一键三连) ủng hộ nhé."
+        }
+      ]
+    },
+    "13": {
+      "zh": "我们下期视频再见。",
+      "vi": "Hẹn gặp lại ở video sau."
+    }
+  }
+}

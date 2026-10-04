@@ -1,0 +1,32 @@
+{
+  "summary": [
+    "Phần 7, phần cuối: đặt in vỏ và lắp ráp. Hỏa Hòa vào thư mục SW-Model lấy hai file STEP, tải lên trang in 3D của 嘉立创 (JLC), chọn vật liệu màu đen (Black) rồi đặt hàng; nếu khi duyệt báo có vấn đề thì trả lời chấp nhận rủi ro và cứ gia công. Vỏ cần thêm bốn con ốc; link mua ốc và dây đeo nằm trong thư mục Hardware.",
+    "Khi vỏ về, bạn ấy nhét pin vào vỏ, đậy nắp trên, bắt bốn con ốc, luồn dây đeo qua khe là xong chiếc đồng hồ. Video kết thúc bằng lời chào và nhờ người xem ấn thích, tặng xu, lưu video (一键三连)."
+  ],
+  "lines": {
+    "0": "Giờ đồng hồ của mình còn thiếu cái vỏ,",
+    "1": "vào thư mục SW-Model.",
+    "2": "Hai file STEP này",
+    "3": "là file dùng để in 3D,",
+    "4": "vào trang in 3D chính thức của 嘉立创 (JLC),",
+    "5": "tải hai file STEP này lên,",
+    "6": "vật liệu chọn cái Black bên dưới này.",
+    "7": "Bấm đặt hàng ngay, vào app đặt hàng của JLC,",
+    "8": "duyệt xong là có thể thanh toán.",
+    "9": "Nếu khi duyệt báo có vấn đề,",
+    "10": "thì trả lời là bỏ qua rủi ro, cứ tiếp tục gia công.",
+    "11": "Vỏ đồng hồ còn cần bốn con ốc để cố định,",
+    "12": "link mua ốc và dây đeo",
+    "13": "mình để trong Hardware rồi.",
+    "14": "Vỏ về rồi, sau đây mình lắp ráp.",
+    "15": "Trước tiên nhét pin vào vỏ,",
+    "16": "rồi đậy nắp trên lại,",
+    "17": "vặn bốn con ốc vào lỗ cố định,",
+    "18": "cuối cùng luồn dây đeo qua khe.",
+    "19": "OK, xong xuôi.",
+    "20": "Trên đây là toàn bộ nội dung video kỳ này.",
+    "21": "Nếu bạn thích video của mình,",
+    "22": "nhớ ấn thích, tặng xu, lưu video (一键三连) ủng hộ nhé.",
+    "23": "Hẹn gặp lại ở video sau."
+  }
+}

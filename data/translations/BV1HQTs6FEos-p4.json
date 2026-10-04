@@ -1,0 +1,332 @@
+{
+  "episode": "BV1HQTs6FEos-p4",
+  "summary": [
+    "Phần 4: đặt làm PCB và mua linh kiện. Hỏa Hòa mở app đặt hàng của 嘉立创 (JLC), tải file Gerber trong thư mục Hardware lên, rồi đi qua từng tùy chọn: 5 bo, dày 1mm, không cần mài cạnh hay dán linh kiện SMT, làm một tấm stencil lớp trên 4 x 4 cm. Tổng cộng PCB và stencil hết 50 tệ.",
+    "Nếu giá mẫu vượt quá 50 tệ, bạn ấy chỉ cách mở file .epro trong 嘉立创EDA, khoan thêm vài lỗ via GND vào chỗ trống, tạo lại lớp nguồn bên trong để DRC hết báo lỗi, rồi xuất file đặt lại. Linh kiện thì mua trên LCSC (立创商城) bằng cách tải danh sách BOM lên và đặt một chạm; vài linh kiện không có ở đó thì có link mua riêng. Phần sau là hàn mạch."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "下面我们进行PCB和元器件下单。",
+      "vi": "Sau đây mình đặt làm PCB và đặt mua linh kiện."
+    },
+    "1": {
+      "zh": "硬件部分的资料我都放在Hardware里了，包括PCB下单所需的Gerber文件，",
+      "parts": [
+        {
+          "zh": "硬件部分的资料",
+          "vi": "Tài liệu phần cứng"
+        },
+        {
+          "zh": "我都放在Hardware里了，",
+          "vi": "mình để hết trong Hardware rồi,"
+        },
+        {
+          "zh": "包括PCB下单所需的",
+          "vi": "gồm cái cần để đặt làm PCB,"
+        },
+        {
+          "zh": "Gerber文件，",
+          "vi": "tức file Gerber,"
+        }
+      ]
+    },
+    "2": {
+      "zh": "以及元器件下单所需的BOM表。",
+      "vi": "và danh sách BOM cần để đặt mua linh kiện."
+    },
+    "3": {
+      "zh": "打开嘉立创下单助手，点击PCB下单，点击上传PCB，",
+      "parts": [
+        {
+          "zh": "打开嘉立创下单助手，",
+          "vi": "Mở app đặt hàng của 嘉立创 (JLC),"
+        },
+        {
+          "zh": "点击PCB下单，点击上传PCB，",
+          "vi": "bấm đặt PCB, bấm tải PCB lên,"
+        }
+      ]
+    },
+    "4": {
+      "zh": "选择Hardware文件夹里的Gerber压缩包。",
+      "parts": [
+        {
+          "zh": "选择Hardware文件夹里的",
+          "vi": "chọn trong thư mục Hardware"
+        },
+        {
+          "zh": "Gerber压缩包。",
+          "vi": "file nén Gerber."
+        }
+      ]
+    },
+    "5": {
+      "zh": "板子数量选择五，点击立即下单，进入下单界面，不需要确认生产稿。",
+      "parts": [
+        {
+          "zh": "板子数量选择五，",
+          "vi": "Số lượng bo chọn 5,"
+        },
+        {
+          "zh": "点击立即下单，进入下单界面，",
+          "vi": "bấm đặt hàng ngay, vào trang đặt hàng,"
+        },
+        {
+          "zh": "不需要确认生产稿。",
+          "vi": "không cần xác nhận bản sản xuất."
+        }
+      ]
+    },
+    "6": {
+      "zh": "成品板厚选一毫米，我的文件中已有层压顺序，阻抗无要求，按标准合同常规处理。",
+      "parts": [
+        {
+          "zh": "成品板厚选一毫米，",
+          "vi": "Độ dày bo thành phẩm chọn 1mm,"
+        },
+        {
+          "zh": "我的文件中已有层压顺序，",
+          "vi": "file của mình đã có sẵn thứ tự ép lớp,"
+        },
+        {
+          "zh": "阻抗无要求，按标准合同常规处理。",
+          "vi": "trở kháng không yêu cầu, xử lý thông thường theo hợp đồng tiêu chuẩn."
+        }
+      ]
+    },
+    "7": {
+      "zh": "不需要磨边，不需要SMT贴片，需要开张钢网，自定尺寸，宽高都为四厘米，",
+      "parts": [
+        {
+          "zh": "不需要磨边，不需要SMT贴片，",
+          "vi": "Không cần mài cạnh, không cần dán linh kiện SMT,"
+        },
+        {
+          "zh": "需要开张钢网，自定尺寸，",
+          "vi": "cần làm một tấm stencil, tự đặt kích thước,"
+        },
+        {
+          "zh": "宽高都为四厘米，",
+          "vi": "rộng và cao đều 4cm,"
+        }
+      ]
+    },
+    "8": {
+      "zh": "只开顶层一张钢网，不需要纳米真空镀膜。",
+      "parts": [
+        {
+          "zh": "只开顶层一张钢网，",
+          "vi": "chỉ làm một tấm stencil cho lớp trên,"
+        },
+        {
+          "zh": "不需要纳米真空镀膜。",
+          "vi": "không cần mạ phủ nano chân không."
+        }
+      ]
+    },
+    "9": {
+      "zh": "下面这些选项选这些。",
+      "vi": "Mấy tùy chọn bên dưới này thì chọn như thế này."
+    },
+    "10": {
+      "zh": "点击确认，现在PCB和钢网加起来一共需要五十块钱。",
+      "parts": [
+        {
+          "zh": "点击确认，",
+          "vi": "Bấm xác nhận,"
+        },
+        {
+          "zh": "现在PCB和钢网加起来",
+          "vi": "giờ PCB và stencil cộng lại"
+        },
+        {
+          "zh": "一共需要五十块钱。",
+          "vi": "tổng cộng hết 50 tệ."
+        }
+      ]
+    },
+    "11": {
+      "zh": "提交订单，确认并提交，返回订单列表，等PCB审核通过后就可以下单了。",
+      "parts": [
+        {
+          "zh": "提交订单，确认并提交，",
+          "vi": "Gửi đơn, xác nhận và gửi,"
+        },
+        {
+          "zh": "返回订单列表，",
+          "vi": "quay lại danh sách đơn hàng,"
+        },
+        {
+          "zh": "等PCB审核通过后就可以下单了。",
+          "vi": "đợi PCB được duyệt xong là đặt được rồi."
+        }
+      ]
+    },
+    "12": {
+      "zh": "下单时有可能碰到打样费用不止五十元的情况。",
+      "parts": [
+        {
+          "zh": "下单时有可能碰到",
+          "vi": "Lúc đặt có thể gặp"
+        },
+        {
+          "zh": "打样费用不止五十元的情况。",
+          "vi": "trường hợp phí làm mẫu hơn 50 tệ."
+        }
+      ]
+    },
+    "13": {
+      "zh": "这个时候只需要打开嘉立创EDA，点击导入专业板，",
+      "parts": [
+        {
+          "zh": "这个时候只需要打开嘉立创EDA，",
+          "vi": "Lúc đó chỉ cần mở 嘉立创EDA,"
+        },
+        {
+          "zh": "点击导入专业板，",
+          "vi": "bấm nhập vào bản chuyên nghiệp,"
+        }
+      ]
+    },
+    "14": {
+      "zh": "选择Hardware文件夹中的点epro文件，打开PCB，点击放置，过孔，",
+      "parts": [
+        {
+          "zh": "选择Hardware文件夹中的",
+          "vi": "chọn trong thư mục Hardware"
+        },
+        {
+          "zh": "点epro文件，打开PCB，",
+          "vi": "file .epro, mở PCB,"
+        },
+        {
+          "zh": "点击放置，过孔，",
+          "vi": "bấm đặt, lỗ via,"
+        }
+      ]
+    },
+    "15": {
+      "zh": "随便在空的地方打几个GND过孔。",
+      "vi": "tùy ý khoan vài lỗ via GND vào chỗ trống."
+    },
+    "16": {
+      "zh": "点击DRC，检查DRC，这应该是软件的bug，需要重建内电层。",
+      "parts": [
+        {
+          "zh": "点击DRC，检查DRC，",
+          "vi": "Bấm DRC, kiểm tra DRC,"
+        },
+        {
+          "zh": "这应该是软件的bug，",
+          "vi": "cái này chắc là bug của phần mềm,"
+        },
+        {
+          "zh": "需要重建内电层。",
+          "vi": "cần tạo lại lớp nguồn bên trong."
+        }
+      ]
+    },
+    "17": {
+      "zh": "点击内电层，重建内电层，现在再来检查DRC就不会报错了。",
+      "parts": [
+        {
+          "zh": "点击内电层，重建内电层，",
+          "vi": "Bấm lớp nguồn bên trong, tạo lại lớp nguồn bên trong,"
+        },
+        {
+          "zh": "现在再来检查DRC就不会报错了。",
+          "vi": "giờ kiểm tra DRC lại sẽ không báo lỗi nữa."
+        }
+      ]
+    },
+    "18": {
+      "zh": "点击导出，PCB下单。",
+      "vi": "Bấm xuất, đặt làm PCB."
+    },
+    "19": {
+      "zh": "还是跟刚刚一样的下单流程，总价五十就没问题了。",
+      "parts": [
+        {
+          "zh": "还是跟刚刚一样的下单流程，",
+          "vi": "Vẫn quy trình đặt hàng như vừa rồi,"
+        },
+        {
+          "zh": "总价五十就没问题了。",
+          "vi": "tổng giá 50 là không sao rồi."
+        }
+      ]
+    },
+    "20": {
+      "zh": "接下来我们下单元器件，进入立创商城，点击上传BOM，选择Hardware文件夹中的BOM表。",
+      "parts": [
+        {
+          "zh": "接下来我们下单元器件，",
+          "vi": "Tiếp theo mình đặt mua linh kiện,"
+        },
+        {
+          "zh": "进入立创商城，点击上传BOM，",
+          "vi": "vào LCSC (立创商城), bấm tải BOM lên,"
+        },
+        {
+          "zh": "选择Hardware文件夹中的",
+          "vi": "chọn trong thư mục Hardware"
+        },
+        {
+          "zh": "BOM表。",
+          "vi": "file BOM."
+        }
+      ]
+    },
+    "21": {
+      "zh": "点击一键下单，还有一些元器件不在立创商城购买，购买链接放这里了。",
+      "parts": [
+        {
+          "zh": "点击一键下单，",
+          "vi": "Bấm đặt hàng một chạm,"
+        },
+        {
+          "zh": "还有一些元器件不在立创商城购买，",
+          "vi": "còn một số linh kiện không mua ở LCSC,"
+        },
+        {
+          "zh": "购买链接放这里了。",
+          "vi": "link mua mình để ở đây rồi."
+        }
+      ]
+    },
+    "22": {
+      "zh": "虽然数量都是标一，但是大家可以多买几个。",
+      "parts": [
+        {
+          "zh": "虽然数量都是标一，",
+          "vi": "Tuy số lượng đều ghi là 1,"
+        },
+        {
+          "zh": "但是大家可以多买几个。",
+          "vi": "nhưng mọi người có thể mua dư vài cái."
+        }
+      ]
+    },
+    "23": {
+      "zh": "以上就是PCB和元器件下单全过程，下面我来教一下怎么焊接这块PCB。",
+      "parts": [
+        {
+          "zh": "以上就是PCB和元器件",
+          "vi": "Trên đây là toàn bộ quá trình đặt PCB"
+        },
+        {
+          "zh": "下单全过程，",
+          "vi": "và linh kiện,"
+        },
+        {
+          "zh": "下面我来教一下",
+          "vi": "sau đây mình hướng dẫn một chút"
+        },
+        {
+          "zh": "怎么焊接这块PCB。",
+          "vi": "cách hàn bo PCB này."
+        }
+      ]
+    }
+  }
+}

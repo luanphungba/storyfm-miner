@@ -1,0 +1,232 @@
+{
+  "id": "BV1HQTs6FEos-p7",
+  "title": "【开源】ESP32多功能手表(含复刻教程) P7 [1-5] 外壳下单&组装",
+  "guid": "BV1HQTs6FEos-p7",
+  "pubDate": "2026-07-03",
+  "duration": 90,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/BV1HQTs6FEos-p7.m4a"
+  },
+  "source": "bilibili",
+  "owner": "火禾实验室",
+  "link": "https://www.bilibili.com/video/BV1HQTs6FEos/?p=7",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 0,
+      "end": 2.02,
+      "text": "现在我们表还差一个外壳，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 1,
+      "s": 0,
+      "start": 2.02,
+      "end": 4.09,
+      "text": "进入SW-Model。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 2,
+      "s": 1,
+      "start": 5.97,
+      "end": 7.68,
+      "text": "这两个STEP文件",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 3,
+      "s": 1,
+      "start": 7.68,
+      "end": 9.62,
+      "text": "是用来3D打印的文件，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 4,
+      "s": 1,
+      "start": 9.62,
+      "end": 11.49,
+      "text": "进入嘉立创3D打印官网，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 5,
+      "s": 2,
+      "start": 14.3,
+      "end": 16.24,
+      "text": "上传这两个STEP文件，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 2,
+      "start": 20.42,
+      "end": 21.85,
+      "text": "材料选择下面这个Black。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 3,
+      "start": 25.53,
+      "end": 36.91,
+      "text": "点击立即下单，进入嘉立创下单助手，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 4,
+      "start": 40.59,
+      "end": 41.93,
+      "text": "审核通过就可以支付了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 9,
+      "s": 5,
+      "start": 41.93,
+      "end": 43.95,
+      "text": "如果审核提示有问题，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 10,
+      "s": 5,
+      "start": 43.95,
+      "end": 46.44,
+      "text": "则回复忽视风险继续加工。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 11,
+      "s": 6,
+      "start": 47.25,
+      "end": 50.29,
+      "text": "手表外壳还需要四颗螺丝进行固定，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 12,
+      "s": 6,
+      "start": 50.71,
+      "end": 52.11,
+      "text": "螺丝和表带的购买链接",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 13,
+      "s": 6,
+      "start": 52.11,
+      "end": 53.51,
+      "text": "我放在Hardware里了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 14,
+      "s": 7,
+      "start": 55.94,
+      "end": 58.35,
+      "text": "外壳到了，下面我们进行组装。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 15,
+      "s": 8,
+      "start": 58.94,
+      "end": 61.32,
+      "text": "先把电池塞到外壳里，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 16,
+      "s": 9,
+      "start": 61.5,
+      "end": 63.42,
+      "text": "然后把上盖盖上，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 9,
+      "start": 63.7,
+      "end": 66.22,
+      "text": "再把四个螺丝装到固定孔中，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 9,
+      "start": 70.24,
+      "end": 76.04,
+      "text": "最后再把表带穿过槽口。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 10,
+      "start": 81.68,
+      "end": 82.92,
+      "text": "OK，大功告成。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 11,
+      "start": 83.37,
+      "end": 85.69,
+      "text": "以上就本期视频的全部内容了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 21,
+      "s": 12,
+      "start": 85.75,
+      "end": 87.09,
+      "text": "如果你喜欢我的视频，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 22,
+      "s": 12,
+      "start": 87.09,
+      "end": 88.55,
+      "text": "记得一键三连支持一下。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 23,
+      "s": 13,
+      "start": 88.55,
+      "end": 89.82,
+      "text": "我们下期视频再见。",
+      "speaker": "A",
+      "role": "narrator"
+    }
+  ]
+}

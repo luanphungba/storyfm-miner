@@ -1,0 +1,798 @@
+{
+  "episode": "BV1HQTs6FEos-p3",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-04",
+  "fixes": [
+    {
+      "cueIndex": 0,
+      "before": "ES P",
+      "after": "ESP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 1,
+      "before": "Fl ash",
+      "after": "Flash",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 2,
+      "before": "G P",
+      "after": "GP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 2,
+      "before": "P IO",
+      "after": "PIO",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 2,
+      "before": "Ty pe",
+      "after": "Type",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 2,
+      "before": "Type C",
+      "after": "TypeC",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 3,
+      "before": "ES P",
+      "after": "ESP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 3,
+      "before": "US B",
+      "after": "USB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 4,
+      "before": "W i",
+      "after": "Wi",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 4,
+      "before": "i Fi",
+      "after": "iFi",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 4,
+      "before": "PC B",
+      "after": "PCB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "ES P",
+      "after": "ESP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "XT AL",
+      "after": "XTAL",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "AL P",
+      "after": "ALP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "AL N",
+      "after": "ALN",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 8,
+      "before": "ES P",
+      "after": "ESP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 12,
+      "before": "B oot",
+      "after": "Boot",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 14,
+      "before": "i Phone",
+      "after": "iPhone",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 14,
+      "before": "Phone C",
+      "after": "PhoneC",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 15,
+      "before": "ES P",
+      "after": "ESP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 16,
+      "before": "i Phone",
+      "after": "iPhone",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 16,
+      "before": "Phone C",
+      "after": "PhoneC",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 17,
+      "before": "C W",
+      "after": "CW",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 17,
+      "before": "V B",
+      "after": "VB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 17,
+      "before": "B AT",
+      "after": "BAT",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 18,
+      "before": "ES P",
+      "after": "ESP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 19,
+      "before": "Q MC",
+      "after": "QMC",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 20,
+      "before": "B MI",
+      "after": "BMI",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 22,
+      "before": "ES P",
+      "after": "ESP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 22,
+      "before": "B MI",
+      "after": "BMI",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 24,
+      "before": "PC F",
+      "after": "PCF",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 24,
+      "before": "R TC",
+      "after": "RTC",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 25,
+      "before": "V B",
+      "after": "VB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 25,
+      "before": "B AT",
+      "after": "BAT",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 27,
+      "before": "LD K",
+      "after": "LDK",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 28,
+      "before": "P W",
+      "after": "PW",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 28,
+      "before": "W M",
+      "after": "WM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 30,
+      "before": "V B",
+      "after": "VB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 30,
+      "before": "Type C",
+      "after": "TypeC",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 30,
+      "before": "B US",
+      "after": "BUS",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 31,
+      "before": "L DO",
+      "after": "LDO",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 32,
+      "before": "V B",
+      "after": "VB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 32,
+      "before": "B AT",
+      "after": "BAT",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 33,
+      "before": "V B",
+      "after": "VB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 33,
+      "before": "B AT",
+      "after": "BAT",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 33,
+      "before": "P in",
+      "after": "Pin",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 33,
+      "before": "in bus",
+      "after": "inbus",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 34,
+      "before": "V B",
+      "after": "VB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 34,
+      "before": "B AT",
+      "after": "BAT",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 35,
+      "before": "CT L",
+      "after": "CTL",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 36,
+      "before": "V B",
+      "after": "VB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 36,
+      "before": "B AT",
+      "after": "BAT",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 36,
+      "before": "P MOS",
+      "after": "PMOS",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 38,
+      "before": "C TO",
+      "after": "CTO",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 42,
+      "before": "CH R",
+      "after": "CHR",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 42,
+      "before": "R G",
+      "after": "RG",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 44,
+      "before": "PC B",
+      "after": "PCB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 49,
+      "before": "PC B",
+      "after": "PCB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 0,
+      "before": "ESP 32 L 3 R 8",
+      "after": "ESP32-S3-R8",
+      "source": "llm-review",
+      "reason": "The chip, as the subtitle and the README name it (P1 heard the same L).",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 1,
+      "before": "W 25 Q 12 8",
+      "after": "W25Q128",
+      "source": "llm-review",
+      "reason": "One part number the ASR split into five tokens; P1 and the subtitle write W25Q128.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 1,
+      "before": "兆比",
+      "after": "兆B",
+      "source": "llm-review",
+      "reason": "比 is the letter B written as a character; P1 has 十六兆B, the subtitle 16MB.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 3,
+      "before": "ESP 32 L 3",
+      "after": "ESP32-S3",
+      "source": "llm-review",
+      "reason": "the subtitle reads ESP32-S3的射频引脚.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 3,
+      "before": "2. 4 G",
+      "after": "2.4G",
+      "source": "llm-review",
+      "reason": "One figure split into tokens; the subtitle reads 2.4G陶瓷贴片天线.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 6,
+      "before": "铺腾",
+      "after": "铺铜",
+      "source": "llm-review",
+      "reason": "A keep-out for copper pour under the antenna; the subtitle reads 禁止铺铜区域.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "ESP 32",
+      "after": "ESP32",
+      "source": "llm-review",
+      "reason": "One chip name split into tokens; the subtitle reads ESP32的.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "XTALP",
+      "after": "XTAL_P",
+      "source": "llm-review",
+      "reason": "The ESP32-S3 crystal pin XTAL_P, as the subtitle writes it.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "XTALN",
+      "after": "XTAL_N",
+      "source": "llm-review",
+      "reason": "The ESP32-S3 crystal pin XTAL_N (the subtitle mistypes it XTA_LN).",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "零一颗",
+      "after": "连一颗",
+      "source": "llm-review",
+      "reason": "The crystal is connected to those pins; the subtitle reads 需要连一颗40MHz的晶振.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "金正",
+      "after": "晶振",
+      "source": "llm-review",
+      "reason": "A 40MHz crystal oscillator; the subtitle reads 晶振.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 8,
+      "before": "ESP 32 S 3",
+      "after": "ESP32-S3",
+      "source": "llm-review",
+      "reason": "The chip as the subtitle writes it, as in sentence 3.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 9,
+      "before": "金正",
+      "after": "晶振",
+      "source": "llm-review",
+      "reason": "Same crystal as sentence 7; the subtitle reads 晶振下方.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 9,
+      "before": "铺腾",
+      "after": "铺铜",
+      "source": "llm-review",
+      "reason": "As in sentence 6; the subtitle reads 禁止铺铜区域.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 10,
+      "before": "应用引脚",
+      "after": "EN引脚",
+      "source": "llm-review",
+      "reason": "The reset circuit puts the capacitor on the EN pin; the subtitle reads 给EN引脚接100nF的电容.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 14,
+      "before": "iPhoneC",
+      "after": "I方C",
+      "source": "llm-review",
+      "reason": "I²C read as I方C, as sentence 17 writes it; whisper large-v3 hears I方C, the subtitle writes I2C.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 15,
+      "before": "ESP SL",
+      "after": "ESP_SCL",
+      "source": "llm-review",
+      "reason": "The I²C clock net, as the subtitle writes it (ESP_SCL).",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 15,
+      "before": "ESP S DA",
+      "after": "ESP_SDA",
+      "source": "llm-review",
+      "reason": "The I²C data net, as the subtitle writes it (ESP_SDA).",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 15,
+      "before": "4. 7",
+      "after": "4.7",
+      "source": "llm-review",
+      "reason": "One figure split into tokens; the subtitle reads 4.7kΩ.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 15,
+      "before": "3. 3",
+      "after": "3.3",
+      "source": "llm-review",
+      "reason": "One figure split into tokens; the subtitle reads 3.3V.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 16,
+      "before": "iPhoneC",
+      "after": "I方C",
+      "source": "llm-review",
+      "reason": "As in sentence 14.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 19,
+      "before": "持力计",
+      "after": "磁力计",
+      "source": "llm-review",
+      "reason": "A magnetometer is what a compass needs; the subtitle reads QMC5883P磁力计.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 21,
+      "before": "台湾量评",
+      "after": "抬腕亮屏",
+      "source": "llm-review",
+      "reason": "The raise-to-wake feature from P1; the subtitle reads 抬腕亮屏功能.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 22,
+      "before": "Inter一",
+      "after": "INT1",
+      "source": "llm-review",
+      "reason": "The BMI270 interrupt pin; whisper large-v3 hears INT1, the subtitle writes INT1.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 22,
+      "before": "BMI Inter",
+      "after": "BMI_INT",
+      "source": "llm-review",
+      "reason": "The net name, as the subtitle writes it; whisper large-v3 hears BMI INT.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 27,
+      "before": "TF T BL K",
+      "after": "TFT_BLK",
+      "source": "llm-review",
+      "reason": "The backlight net name, as the subtitle writes it.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 27,
+      "before": "三级光导通",
+      "after": "三极管导通",
+      "source": "llm-review",
+      "reason": "A transistor (三极管) conducts; the subtitle reads 三极管导通.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 27,
+      "before": "LDK",
+      "after": "LEDK",
+      "source": "llm-review",
+      "reason": "The backlight cathode pin, as the subtitle writes it.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 28,
+      "before": "TF T BL K",
+      "after": "TFT_BLK",
+      "source": "llm-review",
+      "reason": "Same net as sentence 27, split into tokens.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 32,
+      "before": "Keys",
+      "after": "KEY4",
+      "source": "llm-review",
+      "reason": "The power key; whisper large-v3 hears Key4 and the subtitle reads KEY4.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 32,
+      "before": "三级电平",
+      "after": "栅极电平",
+      "source": "llm-review",
+      "reason": "The PMOS gate (栅极), read shān jí — whisper hears 山脊 in sentence 36; the subtitle reads 栅极电平拉低.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 33,
+      "before": "Pinbus光导通",
+      "after": "PMOS管导通",
+      "source": "llm-review",
+      "reason": "Whisper large-v3 hears 因MOS光; the subtitle reads pmos管导通.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 35,
+      "before": "三级管",
+      "after": "三极管",
+      "source": "llm-review",
+      "reason": "A transistor; the subtitle reads 这个三极管导通.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 36,
+      "before": "三级保持",
+      "after": "栅极保持",
+      "source": "llm-review",
+      "reason": "As in sentence 32; whisper hears 山脊, the subtitle reads 栅极保持低电平.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 36,
+      "before": "VBAT这样就能",
+      "after": "VBAT正就能",
+      "source": "llm-review",
+      "reason": "VBAT+ read 正; whisper large-v3 hears 震, the subtitle reads VBAT+就能.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 38,
+      "before": "K 4",
+      "after": "KEY4",
+      "source": "llm-review",
+      "reason": "The power key of sentence 32; the subtitle reads KEY4按键.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 38,
+      "before": "CTO",
+      "after": "CTL",
+      "source": "llm-review",
+      "reason": "The pin raised in sentence 35; whisper and the subtitle both say CTL.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 40,
+      "before": "TP 40 56",
+      "after": "TP4056",
+      "source": "llm-review",
+      "reason": "One chip name split into tokens; the subtitle reads TP4056.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 44,
+      "before": "三分之三十三毫米",
+      "after": "三十乘三十毫米",
+      "source": "llm-review",
+      "reason": "The board is 30×30mm (P1, README); whisper large-v3 hears 30×30毫米.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 20,
+      "before": "IM U",
+      "after": "IMU",
+      "source": "llm-review",
+      "reason": "One acronym split into tokens; the subtitle reads BMI2706轴IMU.",
+      "appliedAt": "2026-10-04"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 22,
+      "text": "它的INT1已经缴接到了ESP三二S三的BMI_INT，",
+      "reason": "The subtitle reads INT1引脚接到了, but AssemblyAI and whisper large-v3 both hear four syllables 已经缴接; 缴接 is not a word. Left as heard."
+    }
+  ]
+}

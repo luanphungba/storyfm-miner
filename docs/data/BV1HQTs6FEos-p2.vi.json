@@ -1,0 +1,37 @@
+{
+  "summary": [
+    "Phần 2 trong series 7 phần của Hỏa Hòa (kênh 火禾实验室) về chiếc đồng hồ ESP32 tự làm: tải tài liệu. Bạn ấy hướng dẫn vào trang dự án (link để ở phần giới thiệu video), bấm \"Clone/Tải về\" để lấy file nén rồi giải nén.",
+    "Sau đó lần lượt giới thiệu từng thư mục: Hardware chứa tài liệu phần cứng (file Gerber gửi xưởng làm mạch in, danh sách linh kiện BOM, file dự án 嘉立创EDA); Firmware chứa file nhị phân nạp thẳng vào chip, công cụ nạp của Espressif và phần mềm cấu hình trên máy tính; Software chứa mã nguồn của đồng hồ và của phần mềm cấu hình; SW-Model chứa mô hình 3D của vỏ, với hai file STEP để gửi đi in 3D. Cuối phần, bạn ấy chuyển sang giải thích sơ đồ nguyên lý."
+  ],
+  "lines": {
+    "0": "Trước tiên mình tải tài liệu cần để làm lại đã,",
+    "1": "link mình đã để ở phần giới thiệu video rồi.",
+    "2": "Vào trang của dự án này, bấm \"Clone/Tải về\",",
+    "3": "tải file nén về,",
+    "4": "tải xong thì giải nén,",
+    "5": "tài liệu cần để làm lại đều ở đây cả.",
+    "6": "Trong thư mục Hardware",
+    "7": "là tài liệu phần cứng.",
+    "8": "Gồm file gửi cho xưởng",
+    "9": "để làm mạch in, tức file Gerber,",
+    "10": "và danh sách BOM để mua linh kiện.",
+    "11": "Cái bên dưới này là",
+    "12": "file dự án của 嘉立创EDA (JLC EDA).",
+    "13": "Trong thư mục Firmware",
+    "14": "là tài liệu firmware,",
+    "15": "gồm file có thể trực tiếp",
+    "16": "nạp vào vi điều khiển, tức file nhị phân,",
+    "17": "công cụ nạp chính thức của Espressif,",
+    "18": "và phần mềm trên máy tính dùng để cấu hình thông tin.",
+    "19": "Trong thư mục Software",
+    "20": "là tài liệu phần mềm.",
+    "21": "Đây là mã nguồn của đồng hồ, đây là mã nguồn của phần mềm trên máy tính.",
+    "22": "Trong thư mục SW-Model",
+    "23": "là tài liệu mô hình 3D của vỏ.",
+    "24": "Hai file STEP này",
+    "25": "là để gửi cho xưởng in 3D.",
+    "26": "Tải tài liệu xong rồi,",
+    "27": "sau đây mình giải thích một chút",
+    "28": "sơ đồ nguyên lý của bo mạch này."
+  }
+}

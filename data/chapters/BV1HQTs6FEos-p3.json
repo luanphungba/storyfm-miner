@@ -1,0 +1,23 @@
+{
+  "episode": "BV1HQTs6FEos-p3",
+  "chapters": [
+    {
+      "from": 0,
+      "zh": "主控芯片、天线和晶振",
+      "vi": "Chip chính, ăng-ten và thạch anh",
+      "first": "我先来讲解一下这个原理图是怎么画的主控芯片采用ESP32-S3-R8由于这款芯片没有内置Flash所以需要外接一个W25Q128提供16兆B的外置Flash用于程序的存储主控芯片直接通过GPIO 19和20连接TypeC的UD负和UD正所以这块板子可以直接通过USB下载和通信ESP32-S3的射频引脚通过射频匹配电路连接到这颗2.4G陶瓷贴片天线用于这个项目中的WiFi功能绘制PCB时要保证这部分的电路全都在同一层，"
+    },
+    {
+      "from": 14,
+      "zh": "I方C总线上的外设和显示屏",
+      "vi": "Ngoại vi trên bus I²C và màn hình",
+      "first": "接下来看外设，这个工程里有一条系统I方C总线，"
+    },
+    {
+      "from": 29,
+      "zh": "电源、开关机和充电",
+      "vi": "Nguồn, bật tắt máy và sạc",
+      "first": "最后再来看一下电源部分的电路。"
+    }
+  ]
+}

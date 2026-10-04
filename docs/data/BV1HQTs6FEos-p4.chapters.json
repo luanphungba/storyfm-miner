@@ -1,0 +1,20 @@
+{
+  "chapters": [
+    {
+      "zh": "PCB下单",
+      "vi": "Đặt làm PCB",
+      "from": 0,
+      "to": 27,
+      "start": 0,
+      "end": 99.73
+    },
+    {
+      "zh": "加过孔重新下单，再买元器件",
+      "vi": "Thêm via đặt lại, rồi mua linh kiện",
+      "from": 28,
+      "to": 56,
+      "start": 101.22,
+      "end": 204.55
+    }
+  ]
+}

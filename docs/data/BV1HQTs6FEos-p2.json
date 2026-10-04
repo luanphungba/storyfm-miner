@@ -1,0 +1,277 @@
+{
+  "id": "BV1HQTs6FEos-p2",
+  "title": "【开源】ESP32多功能手表(含复刻教程) P2 [1-0] 资料下载",
+  "guid": "BV1HQTs6FEos-p2",
+  "pubDate": "2026-07-03",
+  "duration": 72,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/BV1HQTs6FEos-p2.m4a"
+  },
+  "source": "bilibili",
+  "owner": "火禾实验室",
+  "link": "https://www.bilibili.com/video/BV1HQTs6FEos/?p=2",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 0,
+      "end": 2.38,
+      "text": "我们先来下载复刻所需资料，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 1,
+      "s": 0,
+      "start": 2.38,
+      "end": 5.33,
+      "text": "这个链接我已经放在视频简介里了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 2,
+      "s": 1,
+      "start": 6.24,
+      "end": 10.96,
+      "text": "进入这个项目的页面，点击“克隆下载”，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 3,
+      "s": 2,
+      "start": 10.96,
+      "end": 12.28,
+      "text": "下载压缩包，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 4,
+      "s": 2,
+      "start": 16.38,
+      "end": 18.4,
+      "text": "下载完成后解压压缩包，",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 5,
+      "s": 2,
+      "start": 20.98,
+      "end": 22.83,
+      "text": "复刻所需资料都在这里了。",
+      "speaker": "B",
+      "role": "narrator"
+    },
+    {
+      "i": 6,
+      "s": 3,
+      "start": 24.02,
+      "end": 24.76,
+      "text": "Hardware里面",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 3,
+      "start": 24.76,
+      "end": 26.1,
+      "text": "放的是硬件资料。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 4,
+      "start": 26.7,
+      "end": 27.88,
+      "text": "包括提交给厂家",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 4,
+      "start": 27.88,
+      "end": 29.98,
+      "text": "进行打板的Gerber文件，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 4,
+      "start": 30.52,
+      "end": 32.66,
+      "text": "以及用于元器件购买的BOM清单。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 11,
+      "s": 5,
+      "start": 33.52,
+      "end": 34.22,
+      "text": "下面这个是",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 5,
+      "start": 34.22,
+      "end": 35.74,
+      "text": "嘉立创EDA的工程文件。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 13,
+      "s": 6,
+      "start": 38.04,
+      "end": 38.8,
+      "text": "Firmware里面",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 14,
+      "s": 6,
+      "start": 38.8,
+      "end": 40.12,
+      "text": "放的是固件资料，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 15,
+      "s": 6,
+      "start": 40.84,
+      "end": 41.62,
+      "text": "包括可以直接",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 6,
+      "start": 41.62,
+      "end": 44.04,
+      "text": "烧录进单片机的二进制文件、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 7,
+      "start": 44.6,
+      "end": 46.18,
+      "text": "乐鑫官方的烧录工具，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 7,
+      "start": 46.62,
+      "end": 48.47,
+      "text": "以及用来配置信息的上位机。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 8,
+      "start": 50.72,
+      "end": 51.6,
+      "text": "Software里面",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 8,
+      "start": 51.6,
+      "end": 52.88,
+      "text": "放的是软件资料。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 9,
+      "start": 53.63,
+      "end": 56.61,
+      "text": "这是手表的源码，这是上位机的源码。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 10,
+      "start": 58.93,
+      "end": 59.97,
+      "text": "SW-Model里面",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 10,
+      "start": 59.97,
+      "end": 61.65,
+      "text": "放的是外壳3D建模资料。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 11,
+      "start": 63.65,
+      "end": 64.83,
+      "text": "这两个STEP文件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 11,
+      "start": 64.83,
+      "end": 66.72,
+      "text": "是提交给厂家进行3D打印的。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 12,
+      "start": 67.57,
+      "end": 68.77,
+      "text": "资料下载好了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 12,
+      "start": 68.77,
+      "end": 69.97,
+      "text": "下面我先来讲解一下",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 12,
+      "start": 69.97,
+      "end": 71.12,
+      "text": "这块板子的原理图。",
+      "speaker": "A",
+      "role": "storyteller"
+    }
+  ]
+}

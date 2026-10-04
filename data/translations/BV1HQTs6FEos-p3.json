@@ -1,0 +1,671 @@
+{
+  "episode": "BV1HQTs6FEos-p3",
+  "summary": [
+    "Phần 3: Hỏa Hòa giải thích sơ đồ nguyên lý của bo mạch. Chip chính là ESP32-S3-R8; vì nó không có Flash bên trong nên phải gắn thêm W25Q128 (16MB). Chip nối thẳng với cổng Type-C qua GPIO19/20 nên nạp code và giao tiếp qua USB được; chân RF đi qua mạch phối hợp tới ăng-ten gốm 2.4G, và bạn ấy dặn kỹ cách vẽ PCB phần này (nằm trên cùng một lớp, không đi dây xuyên lớp, không phủ đồng dưới ăng-ten). Tiếp theo là thạch anh 40MHz, mạch reset và chân BOOT.",
+    "Sau đó là bốn ngoại vi trên bus I²C: chip đo pin CW2015, cảm biến từ QMC5883P cho la bàn, IMU 6 trục BMI270 cho tính năng nhấc tay sáng màn hình, và đồng hồ thời gian thực PCF85063. Rồi đến đèn nền màn hình điều chỉnh bằng PWM, và phần nguồn: hai cách cấp điện (Type-C 5V qua LDO, hoặc pin), mạch bật tắt máy bằng nút KEY4 với transistor và PMOS, và mạch sạc TP4056.",
+    "Cuối cùng là bố trí PCB: mạch 4 lớp 30 x 30 mm, linh kiện nhỏ đặt ở mặt trên để hàn bằng bàn nhiệt, mặt dưới phải dùng mỏ hàn hoặc máy khò. Phần sau là đặt làm PCB và mua linh kiện."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "我先来讲解一下这个原理图是怎么画的主控芯片采用ESP32-S3-R8由于这款芯片没有内置Flash所以需要外接一个W25Q128提供16兆B的外置Flash用于程序的存储主控芯片直接通过GPIO 19和20连接TypeC的UD负和UD正所以这块板子可以直接通过USB下载和通信ESP32-S3的射频引脚通过射频匹配电路连接到这颗2.4G陶瓷贴片天线用于这个项目中的WiFi功能绘制PCB时要保证这部分的电路全都在同一层，",
+      "parts": [
+        {
+          "zh": "我先来讲解一下",
+          "vi": "Trước tiên mình giải thích một chút"
+        },
+        {
+          "zh": "这个原理图是怎么画的",
+          "vi": "sơ đồ nguyên lý này được vẽ thế nào."
+        },
+        {
+          "zh": "主控芯片",
+          "vi": "Chip điều khiển chính"
+        },
+        {
+          "zh": "采用ESP32-S3-R8",
+          "vi": "dùng ESP32-S3-R8."
+        },
+        {
+          "zh": "由于这款芯片没有内置Flash",
+          "vi": "Vì con chip này không có Flash tích hợp sẵn"
+        },
+        {
+          "zh": "所以需要外接一个W25Q128",
+          "vi": "nên cần gắn ngoài một con W25Q128"
+        },
+        {
+          "zh": "提供16兆B的外置Flash",
+          "vi": "cung cấp 16MB Flash ngoài"
+        },
+        {
+          "zh": "用于程序的存储",
+          "vi": "để lưu chương trình."
+        },
+        {
+          "zh": "主控芯片",
+          "vi": "Chip chính"
+        },
+        {
+          "zh": "直接通过GPIO 19和20",
+          "vi": "trực tiếp qua GPIO 19 và 20"
+        },
+        {
+          "zh": "连接TypeC的UD负和UD正",
+          "vi": "nối với UD− và UD+ của cổng Type-C,"
+        },
+        {
+          "zh": "所以这块板子",
+          "vi": "nên bo mạch này"
+        },
+        {
+          "zh": "可以直接通过USB下载和通信",
+          "vi": "có thể nạp code và giao tiếp trực tiếp qua USB."
+        },
+        {
+          "zh": "ESP32-S3的射频引脚",
+          "vi": "Chân RF của ESP32-S3"
+        },
+        {
+          "zh": "通过射频匹配电路",
+          "vi": "đi qua mạch phối hợp RF"
+        },
+        {
+          "zh": "连接到这颗2.4G陶瓷贴片天线",
+          "vi": "nối đến con ăng-ten gốm dán 2.4G này,"
+        },
+        {
+          "zh": "用于这个项目中的WiFi功能",
+          "vi": "dùng cho chức năng WiFi của dự án."
+        },
+        {
+          "zh": "绘制PCB时",
+          "vi": "Khi vẽ PCB"
+        },
+        {
+          "zh": "要保证这部分的电路全都在同一层，",
+          "vi": "phải đảm bảo mạch phần này nằm hết trên cùng một lớp,"
+        }
+      ]
+    },
+    "5": {
+      "zh": "不能把天线或者这里的电阻电容放到背面去，也不能跨层走线，不然都可能导致通信失败。",
+      "parts": [
+        {
+          "zh": "不能把天线或者这里的电阻电容",
+          "vi": "không được đặt ăng-ten hay điện trở, tụ điện ở đây"
+        },
+        {
+          "zh": "放到背面去，也不能跨层走线，",
+          "vi": "ra mặt sau, cũng không được đi dây xuyên lớp,"
+        },
+        {
+          "zh": "不然都可能导致通信失败。",
+          "vi": "nếu không đều có thể khiến kết nối thất bại."
+        }
+      ]
+    },
+    "6": {
+      "zh": "天线下面需要设置禁止铺铜区域。",
+      "vi": "Bên dưới ăng-ten cần đặt vùng cấm phủ đồng."
+    },
+    "7": {
+      "zh": "回到原理图，这里ESP32的XTAL_P和XTAL_N引脚需要连一颗四十兆赫兹的晶振，",
+      "parts": [
+        {
+          "zh": "回到原理图，这里ESP32的",
+          "vi": "Quay lại sơ đồ nguyên lý, ở đây các chân của ESP32"
+        },
+        {
+          "zh": "XTAL_P和XTAL_N引脚",
+          "vi": "XTAL_P và XTAL_N"
+        },
+        {
+          "zh": "需要连一颗四十兆赫兹的晶振，",
+          "vi": "cần nối một con thạch anh 40MHz,"
+        }
+      ]
+    },
+    "8": {
+      "zh": "这是ESP32-S3的主时钟。",
+      "vi": "Đây là xung nhịp chính của ESP32-S3."
+    },
+    "9": {
+      "zh": "晶振下方也要记得放置禁止铺铜区域。",
+      "parts": [
+        {
+          "zh": "晶振下方也要记得",
+          "vi": "Bên dưới thạch anh cũng phải nhớ"
+        },
+        {
+          "zh": "放置禁止铺铜区域。",
+          "vi": "đặt vùng cấm phủ đồng."
+        }
+      ]
+    },
+    "10": {
+      "zh": "另外这里是复位电路，给EN引脚接100纳法的电容，可以实现上电复位。",
+      "parts": [
+        {
+          "zh": "另外这里是复位电路，",
+          "vi": "Ngoài ra đây là mạch reset,"
+        },
+        {
+          "zh": "给EN引脚接100纳法的电容，",
+          "vi": "nối tụ 100nF vào chân EN,"
+        },
+        {
+          "zh": "可以实现上电复位。",
+          "vi": "là có thể reset khi cấp điện."
+        }
+      ]
+    },
+    "11": {
+      "zh": "这个按键按下时也会复位。",
+      "vi": "Nhấn nút này cũng sẽ reset."
+    },
+    "12": {
+      "zh": "Boot引脚是实现强制进入下载模式。",
+      "parts": [
+        {
+          "zh": "Boot引脚",
+          "vi": "Chân BOOT"
+        },
+        {
+          "zh": "是实现强制进入下载模式。",
+          "vi": "là để buộc chip vào chế độ nạp."
+        }
+      ]
+    },
+    "13": {
+      "zh": "这个在芯片第一次下载代码前要用到。",
+      "parts": [
+        {
+          "zh": "这个在芯片",
+          "vi": "Cái này, với con chip,"
+        },
+        {
+          "zh": "第一次下载代码前要用到。",
+          "vi": "cần dùng đến trước khi nạp code lần đầu."
+        }
+      ]
+    },
+    "14": {
+      "zh": "接下来看外设，这个工程里有一条系统I方C总线，",
+      "parts": [
+        {
+          "zh": "接下来看外设，",
+          "vi": "Tiếp theo xem các ngoại vi,"
+        },
+        {
+          "zh": "这个工程里有一条系统I方C总线，",
+          "vi": "dự án này có một bus I²C hệ thống,"
+        }
+      ]
+    },
+    "15": {
+      "zh": "网络名是ESP_SCL和ESP_SDA，总线上有4.7千欧上拉电阻，拉到3.3伏。",
+      "parts": [
+        {
+          "zh": "网络名是ESP_SCL",
+          "vi": "tên net là ESP_SCL"
+        },
+        {
+          "zh": "和ESP_SDA，",
+          "vi": "và ESP_SDA,"
+        },
+        {
+          "zh": "总线上有4.7千欧上拉电阻，",
+          "vi": "trên bus có điện trở kéo lên 4,7kΩ,"
+        },
+        {
+          "zh": "拉到3.3伏。",
+          "vi": "kéo lên 3,3V."
+        }
+      ]
+    },
+    "16": {
+      "zh": "这条I方C总线挂了四个主要器件。",
+      "vi": "Bus I²C này gắn bốn linh kiện chính."
+    },
+    "17": {
+      "zh": "第一个是CW二零幺五电量计，它连接电池VBAT正，通过I方C把电池电压、",
+      "parts": [
+        {
+          "zh": "第一个是CW二零幺五电量计，",
+          "vi": "Thứ nhất là chip đo pin CW2015,"
+        },
+        {
+          "zh": "它连接电池VBAT正，",
+          "vi": "nó nối với VBAT+ của pin,"
+        },
+        {
+          "zh": "通过I方C把电池电压、",
+          "vi": "qua I²C gửi điện áp pin,"
+        }
+      ]
+    },
+    "18": {
+      "zh": "电量估计等信息反馈给ESP三二S三。",
+      "parts": [
+        {
+          "zh": "电量估计等信息",
+          "vi": "dung lượng ước tính và các thông tin khác"
+        },
+        {
+          "zh": "反馈给ESP三二S三。",
+          "vi": "về cho ESP32-S3."
+        }
+      ]
+    },
+    "19": {
+      "zh": "第二个是QMC五八八三P磁力计，用于指南针功能。",
+      "parts": [
+        {
+          "zh": "第二个是QMC五八八三P磁力计，",
+          "vi": "Thứ hai là cảm biến từ QMC5883P,"
+        },
+        {
+          "zh": "用于指南针功能。",
+          "vi": "dùng cho chức năng la bàn."
+        }
+      ]
+    },
+    "20": {
+      "zh": "第三个是BMI二七零六轴IMU，它可以检测加速度和角速度，",
+      "parts": [
+        {
+          "zh": "第三个是BMI二七零六轴IMU，",
+          "vi": "Thứ ba là IMU 6 trục BMI270,"
+        },
+        {
+          "zh": "它可以检测加速度和角速度，",
+          "vi": "nó đo được gia tốc và vận tốc góc,"
+        }
+      ]
+    },
+    "21": {
+      "zh": "用于实现本项目中的抬腕亮屏功能。",
+      "vi": "dùng để làm chức năng nhấc tay sáng màn hình của dự án."
+    },
+    "22": {
+      "zh": "它的INT1已经缴接到了ESP三二S三的BMI_INT，",
+      "parts": [
+        {
+          "zh": "它的INT1已经缴接到了",
+          "vi": "Chân INT1 của nó đã được nối"
+        },
+        {
+          "zh": "ESP三二S三的BMI_INT，",
+          "vi": "vào BMI_INT của ESP32-S3,"
+        }
+      ]
+    },
+    "23": {
+      "zh": "可以让传感器在有事件时主动唤醒或者通知主控。",
+      "parts": [
+        {
+          "zh": "可以让传感器在有事件时",
+          "vi": "để cảm biến khi có sự kiện"
+        },
+        {
+          "zh": "主动唤醒或者通知主控。",
+          "vi": "có thể chủ động đánh thức hoặc báo cho chip chính."
+        }
+      ]
+    },
+    "24": {
+      "zh": "第四个是PCF八五零六三RTC实时时钟。",
+      "parts": [
+        {
+          "zh": "第四个是",
+          "vi": "Thứ tư là"
+        },
+        {
+          "zh": "PCF八五零六三RTC实时时钟。",
+          "vi": "đồng hồ thời gian thực RTC PCF85063."
+        }
+      ]
+    },
+    "25": {
+      "zh": "它外接三十二点七六八千赫兹的晶振，需要直接用电池的VBAT正给它供电，",
+      "parts": [
+        {
+          "zh": "它外接",
+          "vi": "Nó gắn ngoài"
+        },
+        {
+          "zh": "三十二点七六八千赫兹的晶振，",
+          "vi": "một con thạch anh 32,768kHz,"
+        },
+        {
+          "zh": "需要直接用电池的",
+          "vi": "cần dùng trực tiếp"
+        },
+        {
+          "zh": "VBAT正给它供电，",
+          "vi": "VBAT+ của pin để cấp nguồn cho nó,"
+        }
+      ]
+    },
+    "26": {
+      "zh": "用于在系统休眠或者掉电时维持时间。",
+      "parts": [
+        {
+          "zh": "用于在系统休眠",
+          "vi": "để khi hệ thống ngủ"
+        },
+        {
+          "zh": "或者掉电时维持时间。",
+          "vi": "hoặc mất điện vẫn giữ được giờ."
+        }
+      ]
+    },
+    "27": {
+      "zh": "再看显示屏，TFT_BLK设为高电平，三极管导通，LEDK接地，背光打开，屏幕亮起。",
+      "parts": [
+        {
+          "zh": "再看显示屏，",
+          "vi": "Tiếp theo xem màn hình,"
+        },
+        {
+          "zh": "TFT_BLK设为高电平，",
+          "vi": "TFT_BLK đặt ở mức cao,"
+        },
+        {
+          "zh": "三极管导通，LEDK接地，",
+          "vi": "transistor dẫn, LEDK nối đất,"
+        },
+        {
+          "zh": "背光打开，屏幕亮起。",
+          "vi": "đèn nền bật, màn hình sáng lên."
+        }
+      ]
+    },
+    "28": {
+      "zh": "通过调节TFT_BLK引脚输出的PWM波的占空比来调节屏幕亮度。",
+      "parts": [
+        {
+          "zh": "通过调节TFT_BLK引脚",
+          "vi": "Bằng cách điều chỉnh, ở chân TFT_BLK,"
+        },
+        {
+          "zh": "输出的PWM波的占空比",
+          "vi": "chu kỳ nhiệm vụ của sóng PWM xuất ra"
+        },
+        {
+          "zh": "来调节屏幕亮度。",
+          "vi": "để chỉnh độ sáng màn hình."
+        }
+      ]
+    },
+    "29": {
+      "zh": "最后再来看一下电源部分的电路。",
+      "vi": "Cuối cùng xem mạch phần nguồn."
+    },
+    "30": {
+      "zh": "一共有两种供电方式，一种是通过TypeC的VBUS引脚传入五伏电压，",
+      "parts": [
+        {
+          "zh": "一共有两种供电方式，",
+          "vi": "Tổng cộng có hai cách cấp điện,"
+        },
+        {
+          "zh": "一种是通过TypeC的",
+          "vi": "một là qua cổng Type-C,"
+        },
+        {
+          "zh": "VBUS引脚传入五伏电压，",
+          "vi": "chân VBUS đưa vào điện áp 5V,"
+        }
+      ]
+    },
+    "31": {
+      "zh": "经过一片LDO降压至三点三伏给主控芯片供电；还可以通过电池给芯片供电。",
+      "parts": [
+        {
+          "zh": "经过一片LDO降压至三点三伏",
+          "vi": "qua một con LDO hạ xuống 3,3V"
+        },
+        {
+          "zh": "给主控芯片供电；",
+          "vi": "để cấp nguồn cho chip chính;"
+        },
+        {
+          "zh": "还可以通过电池给芯片供电。",
+          "vi": "còn có thể cấp nguồn cho chip bằng pin."
+        }
+      ]
+    },
+    "32": {
+      "zh": "电池的VBAT正引脚连接开关机电路，当KEY4按下时，栅极电平拉低，",
+      "parts": [
+        {
+          "zh": "电池的VBAT正引脚",
+          "vi": "Chân VBAT+ của pin"
+        },
+        {
+          "zh": "连接开关机电路，",
+          "vi": "nối với mạch bật tắt máy,"
+        },
+        {
+          "zh": "当KEY4按下时，栅极电平拉低，",
+          "vi": "khi nhấn KEY4, mức điện áp cực cổng bị kéo xuống,"
+        }
+      ]
+    },
+    "33": {
+      "zh": "PMOS管导通，VBAT正连接到VBAT，",
+      "parts": [
+        {
+          "zh": "PMOS管导通，",
+          "vi": "PMOS dẫn,"
+        },
+        {
+          "zh": "VBAT正连接到VBAT，",
+          "vi": "VBAT+ được nối với VBAT,"
+        }
+      ]
+    },
+    "34": {
+      "zh": "VBAT经过降压芯片输入三V三给主控芯片供电。",
+      "parts": [
+        {
+          "zh": "VBAT经过降压芯片",
+          "vi": "VBAT qua chip hạ áp"
+        },
+        {
+          "zh": "输入三V三给主控芯片供电。",
+          "vi": "đưa 3V3 vào cấp nguồn cho chip chính."
+        }
+      ]
+    },
+    "35": {
+      "zh": "程序初始化拉高CTL引脚，这个三极管导通。",
+      "parts": [
+        {
+          "zh": "程序初始化拉高CTL引脚，",
+          "vi": "Chương trình khởi động kéo chân CTL lên cao,"
+        },
+        {
+          "zh": "这个三极管导通。",
+          "vi": "transistor này dẫn."
+        }
+      ]
+    },
+    "36": {
+      "zh": "PMOS管的栅极保持低电平，VBAT正就能持续给电路供电了。",
+      "parts": [
+        {
+          "zh": "PMOS管的栅极保持低电平，",
+          "vi": "Cực cổng của PMOS giữ ở mức thấp,"
+        },
+        {
+          "zh": "VBAT正就能持续给电路供电了。",
+          "vi": "VBAT+ là có thể liên tục cấp điện cho mạch rồi."
+        }
+      ]
+    },
+    "37": {
+      "zh": "这样就实现了在只有电池供电的情况下的开机功能。",
+      "parts": [
+        {
+          "zh": "这样就实现了在",
+          "vi": "Như vậy là làm được"
+        },
+        {
+          "zh": "只有电池供电的情况下的开机功能。",
+          "vi": "chức năng bật máy khi chỉ có pin cấp nguồn."
+        }
+      ]
+    },
+    "38": {
+      "zh": "如果想要关机，只需要检测KEY4按键是否长按，如果长按，则主控芯片拉低CTL电平，",
+      "parts": [
+        {
+          "zh": "如果想要关机，",
+          "vi": "Nếu muốn tắt máy,"
+        },
+        {
+          "zh": "只需要检测KEY4按键是否长按，",
+          "vi": "chỉ cần kiểm tra nút KEY4 có bị nhấn giữ không,"
+        },
+        {
+          "zh": "如果长按，",
+          "vi": "nếu nhấn giữ,"
+        },
+        {
+          "zh": "则主控芯片拉低CTL电平，",
+          "vi": "thì chip chính kéo mức CTL xuống thấp,"
+        }
+      ]
+    },
+    "39": {
+      "zh": "手表就关机了。",
+      "vi": "đồng hồ sẽ tắt."
+    },
+    "40": {
+      "zh": "最后我用一颗TP4056芯片对电池进行充电管理。",
+      "parts": [
+        {
+          "zh": "最后我用一颗TP4056芯片",
+          "vi": "Cuối cùng mình dùng một con chip TP4056"
+        },
+        {
+          "zh": "对电池进行充电管理。",
+          "vi": "để quản lý việc sạc pin."
+        }
+      ]
+    },
+    "41": {
+      "zh": "当R十七为十千欧时，充电电流大致为一百毫安。",
+      "parts": [
+        {
+          "zh": "当R十七为十千欧时，",
+          "vi": "Khi R17 là 10kΩ,"
+        },
+        {
+          "zh": "充电电流大致为一百毫安。",
+          "vi": "dòng sạc khoảng 100mA."
+        }
+      ]
+    },
+    "42": {
+      "zh": "当电池处于充电状态时，CHRG引脚会拉低。",
+      "parts": [
+        {
+          "zh": "当电池处于充电状态时，",
+          "vi": "Khi pin đang sạc,"
+        },
+        {
+          "zh": "CHRG引脚会拉低。",
+          "vi": "chân CHRG sẽ bị kéo xuống thấp."
+        }
+      ]
+    },
+    "43": {
+      "zh": "单片机的IO三十六会读取到低电平，然后在屏幕上显示充电状态。",
+      "parts": [
+        {
+          "zh": "单片机的IO三十六",
+          "vi": "Chân IO36 của vi điều khiển"
+        },
+        {
+          "zh": "会读取到低电平，",
+          "vi": "sẽ đọc được mức thấp,"
+        },
+        {
+          "zh": "然后在屏幕上显示充电状态。",
+          "vi": "rồi hiển thị trạng thái sạc trên màn hình."
+        }
+      ]
+    },
+    "44": {
+      "zh": "PCB采用四层板双面布局结构，板子大小是三十乘三十毫米。",
+      "parts": [
+        {
+          "zh": "PCB采用四层板双面布局结构，",
+          "vi": "PCB dùng mạch 4 lớp, bố trí linh kiện hai mặt,"
+        },
+        {
+          "zh": "板子大小是三十乘三十毫米。",
+          "vi": "kích thước bo là 30 x 30 mm."
+        }
+      ]
+    },
+    "45": {
+      "zh": "我把大部分体积小的元器件都放在顶层，方便大家用焊台焊接；",
+      "parts": [
+        {
+          "zh": "我把大部分体积小的元器件",
+          "vi": "Mình đặt phần lớn linh kiện nhỏ"
+        },
+        {
+          "zh": "都放在顶层，方便大家用焊台焊接；",
+          "vi": "ở mặt trên, để mọi người dễ hàn bằng bàn nhiệt;"
+        }
+      ]
+    },
+    "46": {
+      "zh": "底层的元器件只能用电烙铁或者热风枪焊接了。",
+      "parts": [
+        {
+          "zh": "底层的元器件",
+          "vi": "linh kiện ở mặt dưới"
+        },
+        {
+          "zh": "只能用电烙铁或者热风枪焊接了。",
+          "vi": "thì chỉ hàn được bằng mỏ hàn hoặc máy khò thôi."
+        }
+      ]
+    },
+    "47": {
+      "zh": "元器件还是比较多的，所以布局很关键，要根据布局灵活改变外设与单片机通信引脚。",
+      "parts": [
+        {
+          "zh": "元器件还是比较多的，",
+          "vi": "Linh kiện vẫn khá nhiều,"
+        },
+        {
+          "zh": "所以布局很关键，",
+          "vi": "nên bố trí rất quan trọng,"
+        },
+        {
+          "zh": "要根据布局灵活改变",
+          "vi": "phải tùy theo cách bố trí mà linh hoạt đổi"
+        },
+        {
+          "zh": "外设与单片机通信引脚。",
+          "vi": "các chân giao tiếp giữa ngoại vi và vi điều khiển."
+        }
+      ]
+    },
+    "48": {
+      "zh": "以上就是这块板子大致设计思路。",
+      "vi": "Trên đây là ý tưởng thiết kế đại khái của bo mạch này."
+    },
+    "49": {
+      "zh": "下面我们进行PCB和元器件下单。",
+      "vi": "Sau đây mình đặt làm PCB và đặt mua linh kiện."
+    }
+  }
+}

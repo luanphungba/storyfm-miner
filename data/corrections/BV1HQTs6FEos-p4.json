@@ -1,0 +1,272 @@
+{
+  "episode": "BV1HQTs6FEos-p4",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-04",
+  "fixes": [
+    {
+      "cueIndex": 0,
+      "before": "PC B",
+      "after": "PCB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 1,
+      "before": "PC B",
+      "after": "PCB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 1,
+      "before": "H ard",
+      "after": "Hard",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 1,
+      "before": "ard ware",
+      "after": "ardware",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 1,
+      "before": "G er",
+      "after": "Ger",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 1,
+      "before": "er ber",
+      "after": "erber",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 2,
+      "before": "B OM",
+      "after": "BOM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 3,
+      "before": "PC B",
+      "after": "PCB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 4,
+      "before": "H ard",
+      "after": "Hard",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 4,
+      "before": "ard ware",
+      "after": "ardware",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 4,
+      "before": "G er",
+      "after": "Ger",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 4,
+      "before": "er ber",
+      "after": "erber",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "SM T",
+      "after": "SMT",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 10,
+      "before": "PC B",
+      "after": "PCB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 11,
+      "before": "PC B",
+      "after": "PCB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 14,
+      "before": "PC B",
+      "after": "PCB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 14,
+      "before": "H ard",
+      "after": "Hard",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 14,
+      "before": "ard ware",
+      "after": "ardware",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 14,
+      "before": "EP L",
+      "after": "EPL",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 15,
+      "before": "G ND",
+      "after": "GND",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 16,
+      "before": "DR C",
+      "after": "DRC",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 17,
+      "before": "DR C",
+      "after": "DRC",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 18,
+      "before": "PC B",
+      "after": "PCB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 23,
+      "before": "PC B",
+      "after": "PCB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 3,
+      "before": "嘉利创",
+      "after": "嘉立创",
+      "source": "llm-review",
+      "reason": "JLC's maker, as the subtitle writes it (打开嘉立创下单助手); same sound.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 6,
+      "before": "成品板号",
+      "after": "成品板厚",
+      "source": "llm-review",
+      "reason": "A 1mm figure is the board thickness; the subtitle reads 成品板厚选1mm.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 6,
+      "before": "组抗",
+      "after": "阻抗",
+      "source": "llm-review",
+      "reason": "Impedance; whisper large-v3 hears 阻抗 and the subtitle reads 阻抗无要求.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 13,
+      "before": "加力窗ED A",
+      "after": "嘉立创EDA",
+      "source": "llm-review",
+      "reason": "The EDA tool of P2; the subtitle reads 打开嘉立创EDA.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 14,
+      "before": "点EPL",
+      "after": "点epro",
+      "source": "llm-review",
+      "reason": "The project file is .epro in the repo; whisper large-v3 hears .epoo, the subtitle reads .epro文件.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 20,
+      "before": "上传泵",
+      "after": "上传BOM",
+      "source": "llm-review",
+      "reason": "The BOM list of sentence 2; the subtitle reads 点击上传BOM.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 20,
+      "before": "哈德威尔",
+      "after": "Hardware",
+      "source": "llm-review",
+      "reason": "The Hardware folder of sentence 1; the subtitle reads Hardware文件夹中的BOM表.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 20,
+      "before": "泵表",
+      "after": "BOM表",
+      "source": "llm-review",
+      "reason": "As 上传BOM; the subtitle reads BOM表.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 21,
+      "before": "剪辑键下单",
+      "after": "点击一键下单",
+      "source": "llm-review",
+      "reason": "Whisper large-v3 hears 点击一键下单 and the subtitle reads the same.",
+      "appliedAt": "2026-10-04"
+    }
+  ],
+  "flagged": []
+}

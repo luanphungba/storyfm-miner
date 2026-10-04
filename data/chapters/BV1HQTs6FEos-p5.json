@@ -1,0 +1,23 @@
+{
+  "episode": "BV1HQTs6FEos-p5",
+  "chapters": [
+    {
+      "from": 0,
+      "zh": "上锡膏，用焊台焊顶层",
+      "vi": "Bôi kem hàn, hàn mặt trên bằng bàn nhiệt",
+      "first": "下面我们进行PCB焊接，需要准备一个焊台、一把镊子、中温锡膏、一把C二幺零电烙铁，"
+    },
+    {
+      "from": 9,
+      "zh": "焊底层：TypeC、插座和芯片",
+      "vi": "Hàn mặt dưới: Type-C, đế cắm, chip",
+      "first": "下面我们焊底层的元器件，给TypeC接口的焊盘涂上锡膏，把TypeC放上来，"
+    },
+    {
+      "from": 14,
+      "zh": "按键开关，测短路，装电池",
+      "vi": "Nút bấm, đo chập mạch, lắp pin",
+      "first": "接下来把下面的电容和电阻焊好。"
+    }
+  ]
+}

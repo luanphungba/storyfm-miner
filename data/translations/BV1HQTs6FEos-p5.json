@@ -1,0 +1,280 @@
+{
+  "episode": "BV1HQTs6FEos-p5",
+  "summary": [
+    "Phần 5: hàn mạch. Dụng cụ gồm bàn nhiệt, nhíp, kem hàn nhiệt độ vừa, mỏ hàn C210 và dây hút thiếc. Hỏa Hòa cố định bo, quét kem hàn qua stencil, đặt linh kiện mặt trên theo bản vẽ PCB, rồi đặt bo lên bàn nhiệt 200 độ cho kem hàn chảy hết. Bo nguội thì dùng mỏ hàn khoảng 325 độ kéo dọc chân chip để gỡ thiếc dính chân, chỗ khó thì dùng dây hút thiếc.",
+    "Tiếp theo là linh kiện mặt dưới, hàn bằng mỏ hàn: cổng Type-C, đế cắm màn hình, tụ, điện trở, chip TP4056, nút bấm, LED và công tắc bánh xe. Trước khi cấp điện, bạn ấy dùng chế độ còi của đồng hồ vạn năng đo xem VBUS, 3V3, VBAT+ và VBAT có chập với GND không; nếu có thì tìm chỗ dính thiếc mà gỡ. Cuối cùng hàn pin và lắp màn hình là xong."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "下面我们进行PCB焊接，需要准备一个焊台、一把镊子、中温锡膏、一把C二幺零电烙铁，",
+      "parts": [
+        {
+          "zh": "下面我们进行PCB焊接，",
+          "vi": "Sau đây mình hàn PCB,"
+        },
+        {
+          "zh": "需要准备一个焊台、一把镊子、",
+          "vi": "cần chuẩn bị một bàn nhiệt, một cái nhíp,"
+        },
+        {
+          "zh": "中温锡膏、一把C二幺零电烙铁，",
+          "vi": "kem hàn nhiệt độ vừa, một cây mỏ hàn C210,"
+        }
+      ]
+    },
+    "1": {
+      "zh": "还有吸锡带。",
+      "vi": "thêm dây hút thiếc nữa."
+    },
+    "2": {
+      "zh": "像这样把需要上锡膏的板子固定好，在钢网上面均匀涂抹锡膏，把锡膏刮开。",
+      "parts": [
+        {
+          "zh": "像这样把需要上锡膏的板子固定好，",
+          "vi": "Cố định chắc bo cần bôi kem hàn như thế này,"
+        },
+        {
+          "zh": "在钢网上面均匀涂抹锡膏，",
+          "vi": "quét đều kem hàn lên trên stencil,"
+        },
+        {
+          "zh": "把锡膏刮开。",
+          "vi": "gạt kem hàn ra."
+        }
+      ]
+    },
+    "3": {
+      "zh": "这样锡膏就上好了。",
+      "vi": "Thế là kem hàn đã bôi xong."
+    },
+    "4": {
+      "zh": "对照着PCB图，将元器件放上去，将焊台加热到两百度，放上PCB，加热至锡膏完全熔化。",
+      "parts": [
+        {
+          "zh": "对照着PCB图，将元器件放上去，将",
+          "vi": "Đối chiếu với bản vẽ PCB, đặt linh kiện lên,"
+        },
+        {
+          "zh": "焊台加热到两百度，放上PCB，",
+          "vi": "làm nóng bàn nhiệt đến 200 độ, đặt PCB lên,"
+        },
+        {
+          "zh": "加热至锡膏完全熔化。",
+          "vi": "làm nóng đến khi kem hàn chảy hết."
+        }
+      ]
+    },
+    "5": {
+      "zh": "等板子冷却后，再对连锡引脚进行处理。",
+      "parts": [
+        {
+          "zh": "等板子冷却后，",
+          "vi": "Đợi bo nguội rồi,"
+        },
+        {
+          "zh": "再对连锡引脚进行处理。",
+          "vi": "xử lý tiếp các chân bị dính thiếc."
+        }
+      ]
+    },
+    "6": {
+      "zh": "电烙铁设到三百二十五度左右，烙铁头对芯片引脚拖动带走多余的锡。",
+      "parts": [
+        {
+          "zh": "电烙铁设到三百二十五度左右，",
+          "vi": "Mỏ hàn đặt khoảng 325 độ,"
+        },
+        {
+          "zh": "烙铁头对芯片引脚拖动",
+          "vi": "đầu mỏ hàn kéo dọc chân chip"
+        },
+        {
+          "zh": "带走多余的锡。",
+          "vi": "để kéo đi chỗ thiếc thừa."
+        }
+      ]
+    },
+    "7": {
+      "zh": "如果没办法完全清理连锡，可以尝试用吸锡带辅助。",
+      "parts": [
+        {
+          "zh": "如果没办法完全清理连锡，",
+          "vi": "Nếu không gỡ hết được thiếc dính chân,"
+        },
+        {
+          "zh": "可以尝试用吸锡带辅助。",
+          "vi": "có thể thử dùng dây hút thiếc hỗ trợ."
+        }
+      ]
+    },
+    "8": {
+      "zh": "清理完连锡后长这样。",
+      "vi": "Gỡ xong thiếc dính chân thì trông như thế này."
+    },
+    "9": {
+      "zh": "下面我们焊底层的元器件，给TypeC接口的焊盘涂上锡膏，把TypeC放上来，",
+      "parts": [
+        {
+          "zh": "下面我们焊底层的元器件，给",
+          "vi": "Sau đây mình hàn linh kiện mặt dưới, cho"
+        },
+        {
+          "zh": "TypeC接口的焊盘涂上锡膏，",
+          "vi": "pad của cổng Type-C, bôi kem hàn lên,"
+        },
+        {
+          "zh": "把TypeC放上来，",
+          "vi": "đặt cổng Type-C lên,"
+        }
+      ]
+    },
+    "10": {
+      "zh": "用电烙铁把锡熔化，然后再把这四个固定引脚焊一下，在引脚上拖动去除连锡。",
+      "parts": [
+        {
+          "zh": "用电烙铁把锡熔化，",
+          "vi": "dùng mỏ hàn làm chảy thiếc,"
+        },
+        {
+          "zh": "然后再把这四个固定引脚焊一下，",
+          "vi": "rồi hàn bốn chân cố định này,"
+        },
+        {
+          "zh": "在引脚上拖动去除连锡。",
+          "vi": "kéo trên chân để gỡ thiếc dính chân."
+        }
+      ]
+    },
+    "11": {
+      "zh": "接来焊这个屏幕的插座，这引脚的连锡需要借助吸锡带才能去除。",
+      "parts": [
+        {
+          "zh": "接来焊这个屏幕的插座，",
+          "vi": "Tiếp theo hàn đế cắm màn hình này,"
+        },
+        {
+          "zh": "这引脚的连锡",
+          "vi": "chỗ chân dính thiếc ở đây"
+        },
+        {
+          "zh": "需要借助吸锡带才能去除。",
+          "vi": "phải nhờ dây hút thiếc mới gỡ được."
+        }
+      ]
+    },
+    "12": {
+      "zh": "接来焊这个电容，然后是这个电阻。",
+      "vi": "Tiếp theo hàn tụ này, rồi đến điện trở này."
+    },
+    "13": {
+      "zh": "接下来焊TP四零五六芯片，先焊一个引脚，然后是其他引脚。",
+      "parts": [
+        {
+          "zh": "接下来焊TP四零五六芯片，",
+          "vi": "Tiếp theo hàn chip TP4056,"
+        },
+        {
+          "zh": "先焊一个引脚，然后是其他引脚。",
+          "vi": "hàn một chân trước, rồi đến các chân khác."
+        }
+      ]
+    },
+    "14": {
+      "zh": "接下来把下面的电容和电阻焊好。",
+      "vi": "Tiếp theo hàn xong tụ và điện trở bên dưới."
+    },
+    "15": {
+      "zh": "接下来是这两个按键。",
+      "vi": "Tiếp theo là hai nút bấm này."
+    },
+    "16": {
+      "zh": "然后是旁边电阻和LED，下面焊这个拨轮开关，最后焊一下这个按键。",
+      "parts": [
+        {
+          "zh": "然后是旁边电阻和LED，",
+          "vi": "Rồi đến điện trở và LED bên cạnh,"
+        },
+        {
+          "zh": "下面焊这个拨轮开关，",
+          "vi": "tiếp theo hàn công tắc bánh xe này,"
+        },
+        {
+          "zh": "最后焊一下这个按键。",
+          "vi": "cuối cùng hàn nút bấm này."
+        }
+      ]
+    },
+    "17": {
+      "zh": "在上电之前要用万用表的蜂鸣器测一下电源有没有短路，分别要测VBUS与GND、",
+      "parts": [
+        {
+          "zh": "在上电之前要用万用表的蜂鸣器",
+          "vi": "Trước khi cấp điện, phải dùng chế độ còi của đồng hồ vạn năng"
+        },
+        {
+          "zh": "测一下电源有没有短路，",
+          "vi": "đo xem nguồn có bị chập không,"
+        },
+        {
+          "zh": "分别要测VBUS与GND、",
+          "vi": "lần lượt đo VBUS với GND,"
+        }
+      ]
+    },
+    "18": {
+      "zh": "三V三与GND。",
+      "vi": "3V3 với GND."
+    },
+    "19": {
+      "zh": "VBAT正与GND，VBAT与GND之间有没有短路？",
+      "parts": [
+        {
+          "zh": "VBAT正与GND，",
+          "vi": "VBAT+ với GND,"
+        },
+        {
+          "zh": "VBAT与GND之间有没有短路？",
+          "vi": "VBAT với GND có bị chập không?"
+        }
+      ]
+    },
+    "20": {
+      "zh": "如果有短路的话，蜂鸣器会响。",
+      "vi": "Nếu bị chập thì còi sẽ kêu."
+    },
+    "21": {
+      "zh": "此时不能上电，检查芯片哪里连锡了，清除连锡直到没有短路。",
+      "parts": [
+        {
+          "zh": "此时不能上电，",
+          "vi": "Lúc này không được cấp điện,"
+        },
+        {
+          "zh": "检查芯片哪里连锡了，",
+          "vi": "kiểm tra xem chip dính thiếc ở đâu,"
+        },
+        {
+          "zh": "清除连锡直到没有短路。",
+          "vi": "gỡ thiếc dính cho đến khi hết chập."
+        }
+      ]
+    },
+    "22": {
+      "zh": "接下来把电池焊上去，最后把屏幕装上去。",
+      "parts": [
+        {
+          "zh": "接下来把电池焊上去，",
+          "vi": "Tiếp theo hàn pin vào,"
+        },
+        {
+          "zh": "最后把屏幕装上去。",
+          "vi": "cuối cùng lắp màn hình vào."
+        }
+      ]
+    },
+    "23": {
+      "zh": "大功告成。",
+      "vi": "Xong xuôi."
+    }
+  }
+}

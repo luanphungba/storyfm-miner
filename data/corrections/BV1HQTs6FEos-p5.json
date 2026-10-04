@@ -1,0 +1,176 @@
+{
+  "episode": "BV1HQTs6FEos-p5",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-04",
+  "fixes": [
+    {
+      "cueIndex": 0,
+      "before": "C幺幺零",
+      "after": "C二幺零",
+      "source": "llm-review",
+      "reason": "A C210 soldering iron; whisper large-v3 and the subtitle both have C210.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 1,
+      "before": "吸气袋",
+      "after": "吸锡带",
+      "source": "llm-review",
+      "reason": "Desoldering wick; the subtitle reads 还有吸锡带.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 4,
+      "before": "煎熬至",
+      "after": "加热至",
+      "source": "llm-review",
+      "reason": "Heated until the paste melts; the subtitle reads 加热至锡膏完全熔化.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 4,
+      "before": "融化",
+      "after": "熔化",
+      "source": "llm-review",
+      "reason": "Solder melts by heat: 熔化, as the subtitle writes it; same sound.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 5,
+      "before": "连线",
+      "after": "连锡",
+      "source": "llm-review",
+      "reason": "Solder bridges on the pins; the subtitle reads 对连锡的引脚进行处理.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "怜惜",
+      "after": "连锡",
+      "source": "llm-review",
+      "reason": "Solder bridges; the subtitle reads 完全清理连锡.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 7,
+      "before": "吸气袋",
+      "after": "吸锡带",
+      "source": "llm-review",
+      "reason": "As in sentence 1; the subtitle reads 吸锡带辅助.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 8,
+      "before": "联系",
+      "after": "连锡",
+      "source": "llm-review",
+      "reason": "Solder bridges; the subtitle reads 清理完连锡后长这样.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 10,
+      "before": "融化",
+      "after": "熔化",
+      "source": "llm-review",
+      "reason": "As in sentence 4; the subtitle reads 把锡熔化.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 10,
+      "before": "银角",
+      "after": "引脚",
+      "source": "llm-review",
+      "reason": "Pins, twice in the sentence; the subtitle reads 固定引脚 and 在引脚上.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 10,
+      "before": "联系",
+      "after": "连锡",
+      "source": "llm-review",
+      "reason": "Solder bridges; the subtitle reads 去除连锡.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 11,
+      "before": "联系",
+      "after": "连锡",
+      "source": "llm-review",
+      "reason": "Solder bridges; the subtitle reads 引脚的连锡.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 11,
+      "before": "吸气带",
+      "after": "吸锡带",
+      "source": "llm-review",
+      "reason": "As in sentence 1; the subtitle reads 借助吸锡带.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 16,
+      "before": "波容开关",
+      "after": "拨轮开关",
+      "source": "llm-review",
+      "reason": "The thumbwheel switch of P1; the subtitle reads 拨轮开关.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 17,
+      "before": "万应表",
+      "after": "万用表",
+      "source": "llm-review",
+      "reason": "A multimeter; the subtitle reads 万用表.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 17,
+      "before": "分明器",
+      "after": "蜂鸣器",
+      "source": "llm-review",
+      "reason": "The multimeter's continuity buzzer; the subtitle reads 蜂鸣器.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 19,
+      "before": "追根地",
+      "after": "GND",
+      "source": "llm-review",
+      "reason": "GND, twice; whisper large-v3 hears GND both times and the subtitle reads GND.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 19,
+      "before": "Vbat",
+      "after": "VBAT",
+      "source": "llm-review",
+      "reason": "The net as the rest of the series writes it.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 20,
+      "before": "分辨器",
+      "after": "蜂鸣器",
+      "source": "llm-review",
+      "reason": "As in sentence 17; the subtitle reads 蜂鸣器会响.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 21,
+      "before": "难以联系",
+      "after": "哪里连锡",
+      "source": "llm-review",
+      "reason": "The subtitle reads 检查芯片哪里连锡了.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 21,
+      "before": "清楚联系",
+      "after": "清除连锡",
+      "source": "llm-review",
+      "reason": "The subtitle reads 清除连锡直到没有短路.",
+      "appliedAt": "2026-10-04"
+    }
+  ],
+  "flagged": []
+}

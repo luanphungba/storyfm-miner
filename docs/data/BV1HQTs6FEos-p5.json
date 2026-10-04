@@ -1,0 +1,457 @@
+{
+  "id": "BV1HQTs6FEos-p5",
+  "title": "【开源】ESP32多功能手表(含复刻教程) P5 [1-3] PCB焊接",
+  "guid": "BV1HQTs6FEos-p5",
+  "pubDate": "2026-07-03",
+  "duration": 214,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/BV1HQTs6FEos-p5.m4a"
+  },
+  "source": "bilibili",
+  "owner": "火禾实验室",
+  "link": "https://www.bilibili.com/video/BV1HQTs6FEos/?p=5",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 0.1,
+      "end": 2.64,
+      "text": "下面我们进行PCB焊接，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 1,
+      "s": 0,
+      "start": 2.86,
+      "end": 6.34,
+      "text": "需要准备一个焊台、一把镊子、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 2,
+      "s": 0,
+      "start": 6.44,
+      "end": 10.94,
+      "text": "中温锡膏、一把C二幺零电烙铁，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 3,
+      "s": 1,
+      "start": 10.94,
+      "end": 11.83,
+      "text": "还有吸锡带。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 4,
+      "s": 2,
+      "start": 13.96,
+      "end": 17.04,
+      "text": "像这样把需要上锡膏的板子固定好，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 5,
+      "s": 2,
+      "start": 19.44,
+      "end": 21.9,
+      "text": "在钢网上面均匀涂抹锡膏，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 2,
+      "start": 22.34,
+      "end": 23.27,
+      "text": "把锡膏刮开。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 3,
+      "start": 26.87,
+      "end": 28.42,
+      "text": "这样锡膏就上好了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 4,
+      "start": 30.07,
+      "end": 32.67,
+      "text": "对照着PCB图，将元器件放上去，将",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 4,
+      "start": 34.37,
+      "end": 38.85,
+      "text": "焊台加热到两百度，放上PCB，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 4,
+      "start": 38.95,
+      "end": 40.35,
+      "text": "加热至锡膏完全熔化。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 11,
+      "s": 5,
+      "start": 41.43,
+      "end": 42.41,
+      "text": "等板子冷却后，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 5,
+      "start": 42.41,
+      "end": 43.97,
+      "text": "再对连锡引脚进行处理。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 13,
+      "s": 6,
+      "start": 45.59,
+      "end": 48.09,
+      "text": "电烙铁设到三百二十五度左右，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 14,
+      "s": 6,
+      "start": 48.69,
+      "end": 50.23,
+      "text": "烙铁头对芯片引脚拖动",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 15,
+      "s": 6,
+      "start": 50.23,
+      "end": 51.35,
+      "text": "带走多余的锡。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 7,
+      "start": 52.97,
+      "end": 55.66,
+      "text": "如果没办法完全清理连锡，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 7,
+      "start": 56.04,
+      "end": 57.59,
+      "text": "可以尝试用吸锡带辅助。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 8,
+      "start": 81.47,
+      "end": 83.2,
+      "text": "清理完连锡后长这样。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 9,
+      "start": 84.33,
+      "end": 86.73,
+      "text": "下面我们焊底层的元器件，给",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 9,
+      "start": 87.13,
+      "end": 89.26,
+      "text": "TypeC接口的焊盘涂上锡膏，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 9,
+      "start": 90.27,
+      "end": 91.76,
+      "text": "把TypeC放上来，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 10,
+      "start": 92.13,
+      "end": 93.77,
+      "text": "用电烙铁把锡熔化，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 10,
+      "start": 94.35,
+      "end": 96.33,
+      "text": "然后再把这四个固定引脚焊一下，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 10,
+      "start": 99.69,
+      "end": 101.59,
+      "text": "在引脚上拖动去除连锡。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 11,
+      "start": 103.75,
+      "end": 107.54,
+      "text": "接来焊这个屏幕的插座，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 11,
+      "start": 108.56,
+      "end": 110.42,
+      "text": "这引脚的连锡",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 11,
+      "start": 110.42,
+      "end": 112.35,
+      "text": "需要借助吸锡带才能去除。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 12,
+      "start": 116.76,
+      "end": 125.96,
+      "text": "接来焊这个电容，然后是这个电阻。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 13,
+      "start": 128.82,
+      "end": 131.65,
+      "text": "接下来焊TP四零五六芯片，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 13,
+      "start": 131.77,
+      "end": 136.75,
+      "text": "先焊一个引脚，然后是其他引脚。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 14,
+      "start": 141.81,
+      "end": 144.61,
+      "text": "接下来把下面的电容和电阻焊好。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 15,
+      "start": 149.52,
+      "end": 151.2,
+      "text": "接下来是这两个按键。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 16,
+      "start": 154.83,
+      "end": 157.6,
+      "text": "然后是旁边电阻和LED，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 16,
+      "start": 159.99,
+      "end": 162.06,
+      "text": "下面焊这个拨轮开关，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 16,
+      "start": 163.82,
+      "end": 169.16,
+      "text": "最后焊一下这个按键。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 17,
+      "start": 171.04,
+      "end": 172.8,
+      "text": "在上电之前要用万用表的蜂鸣器",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 17,
+      "start": 172.8,
+      "end": 174.76,
+      "text": "测一下电源有没有短路，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 17,
+      "start": 174.76,
+      "end": 177.32,
+      "text": "分别要测VBUS与GND、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 18,
+      "start": 178.28,
+      "end": 179.42,
+      "text": "三V三与GND。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 19,
+      "start": 179.74,
+      "end": 182.17,
+      "text": "VBAT正与GND，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 19,
+      "start": 182.49,
+      "end": 184.87,
+      "text": "VBAT与GND之间有没有短路？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 20,
+      "start": 186.11,
+      "end": 188.01,
+      "text": "如果有短路的话，蜂鸣器会响。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 21,
+      "start": 189.61,
+      "end": 191.49,
+      "text": "此时不能上电，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 21,
+      "start": 191.49,
+      "end": 193.11,
+      "text": "检查芯片哪里连锡了，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 21,
+      "start": 193.11,
+      "end": 194.77,
+      "text": "清除连锡直到没有短路。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 22,
+      "start": 195.73,
+      "end": 197.55,
+      "text": "接下来把电池焊上去，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 22,
+      "start": 199.15,
+      "end": 200.55,
+      "text": "最后把屏幕装上去。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 23,
+      "start": 210.61,
+      "end": 211.81,
+      "text": "大功告成。",
+      "speaker": "A",
+      "role": "storyteller"
+    }
+  ]
+}
