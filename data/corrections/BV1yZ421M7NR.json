@@ -1,0 +1,51 @@
+{
+  "episode": "BV1yZ421M7NR",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-04",
+  "fixes": [
+    {
+      "cueIndex": 8,
+      "before": "乐欣",
+      "after": "乐鑫",
+      "source": "llm-review",
+      "reason": "The panel's wake word, written 嗨，乐鑫 in sentences 0 and 2; 乐鑫 is Espressif, maker of the ESP32. Same sound.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 29,
+      "before": "起动",
+      "after": "启动",
+      "source": "llm-review",
+      "reason": "Booting the system is 启动, as sentence 35 writes it (启动过程); 起动 is the same sound in a motor's sense.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 34,
+      "before": "区域网",
+      "after": "局域网",
+      "source": "llm-review",
+      "reason": "Whisper (medium) hears 局域网 on this slice, and sentence 73 says the same 处于同一局域网下.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 73,
+      "before": "历程",
+      "after": "例程",
+      "source": "llm-review",
+      "reason": "ESP-IDF's sample projects are its 例程 (lìchéng, same sound); 历程 'course of events' does not fit.",
+      "appliedAt": "2026-10-04"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 50,
+      "text": "可以下载小米米LTAuto",
+      "reason": "The HACS plugin Xiaomi Miot Auto, heard as 小米米IOTAuto in sentences 53 and 54; AssemblyAI and whisper both hear an L here, so left as is."
+    },
+    {
+      "cueIndex": 74,
+      "text": "直接把这个工程缝纫过来",
+      "reason": "缝纫 'sewing' does not fit (copy the example project over?); whisper hears 缝纵, no word a syllable away fits; unresolved."
+    }
+  ]
+}

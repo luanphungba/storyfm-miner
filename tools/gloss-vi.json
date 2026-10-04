@@ -21026,5 +21026,361 @@
  "喽": [
   "",
   "trợ từ cuối câu (như 了, giọng nhẹ: … nhé, … rồi nha)"
+ ],
+ "智能家居": [
+  "TRÍ NĂNG GIA CƯ",
+  "nhà thông minh (smart home)"
+ ],
+ "米": [
+  "MỄ",
+  "gạo; mét (小米米IOT: chữ Mi trong tên plugin Xiaomi Miot)"
+ ],
+ "绑定": [
+  "BẢNG ĐỊNH",
+  "liên kết, gắn (tài khoản, thiết bị)"
+ ],
+ "树莓": [
+  "THỤ MÔI",
+  "cây mâm xôi (树莓派: máy tính Raspberry Pi)"
+ ],
+ "派": [
+  "PHÁI",
+  "phe phái; cử đi (树莓派: Raspberry Pi)"
+ ],
+ "台灯": [
+  "ĐÀI ĐĂNG",
+  "đèn bàn"
+ ],
+ "小米": [
+  "TIỂU MỄ",
+  "Xiaomi (hãng điện tử); hạt kê"
+ ],
+ "触发": [
+  "XÚC PHÁT",
+  "kích hoạt, gây ra (trigger)"
+ ],
+ "插件": [
+  "SÁP KIỆN",
+  "plug-in, phần mở rộng"
+ ],
+ "加载": [
+  "GIA TẢI",
+  "tải (dữ liệu, chương trình) (加载项: add-on)"
+ ],
+ "乐鑫": [
+  "LẠC HÂM",
+  "Espressif, hãng làm chip ESP32 (嗨，乐鑫: câu đánh thức)"
+ ],
+ "生态": [
+  "SINH THÁI",
+  "sinh thái; hệ sinh thái (sản phẩm)"
+ ],
+ "联网": [
+  "LIÊN VÕNG",
+  "kết nối mạng"
+ ],
+ "部署": [
+  "BỘ THỰ",
+  "bố trí; triển khai (deploy)"
+ ],
+ "以太网": [
+  "DĨ THÁI VÕNG",
+  "Ethernet, mạng cáp"
+ ],
+ "终端": [
+  "CHUNG ĐOAN",
+  "đầu cuối; terminal (cửa sổ dòng lệnh)"
+ ],
+ "调用": [
+  "ĐIỀU DỤNG",
+  "điều động; gọi (hàm, API)"
+ ],
+ "空气": [
+  "KHÔNG KHÍ",
+  "không khí"
+ ],
+ "净化器": [
+  "TỊNH HÓA KHÍ",
+  "máy lọc (空气净化器: máy lọc không khí)"
+ ],
+ "灯带": [
+  "ĐĂNG ĐÁI",
+  "dải đèn LED"
+ ],
+ "调亮": [
+  "ĐIỀU LƯỢNG",
+  "chỉnh sáng lên"
+ ],
+ "多个": [
+  "ĐA CÁ",
+  "nhiều (cái)"
+ ],
+ "烧录器": [
+  "THIÊU LỤC KHÍ",
+  "trình ghi (flash) ảnh hệ điều hành vào thẻ nhớ"
+ ],
+ "同一": [
+  "ĐỒNG NHẤT",
+  "cùng một"
+ ],
+ "局域网": [
+  "CỤC VỰC VÕNG",
+  "mạng nội bộ (LAN)"
+ ],
+ "初始化": [
+  "SƠ THỦY HÓA",
+  "khởi tạo (initialize)"
+ ],
+ "用户名": [
+  "DỤNG HỘ DANH",
+  "tên người dùng (username)"
+ ],
+ "左下角": [
+  "TẢ HẠ GIÁC",
+  "góc dưới bên trái"
+ ],
+ "参数": [
+  "THAM SỐ",
+  "tham số"
+ ],
+ "触发器": [
+  "XÚC PHÁT KHÍ",
+  "mạch lật flip-flop (ở đây: trigger, điều kiện kích hoạt)"
+ ],
+ "某个": [
+  "MỖ CÁ",
+  "một (cái) nào đó"
+ ],
+ "预定": [
+  "DỰ ĐỊNH",
+  "định trước, đặt trước"
+ ],
+ "生效": [
+  "SINH HIỆU",
+  "có hiệu lực"
+ ],
+ "源码": [
+  "NGUYÊN MÃ",
+  "mã nguồn"
+ ],
+ "建模": [
+  "KIẾN MÔ",
+  "dựng mô hình (3D建模: mô hình 3D)"
+ ],
+ "原理": [
+  "NGUYÊN LÝ",
+  "nguyên lý"
+ ],
+ "许多": [
+  "HỨA ĐA",
+  "nhiều"
+ ],
+ "家居": [
+  "GIA CƯ",
+  "nhà ở, đồ trong nhà (智能家居: nhà thông minh)"
+ ],
+ "天猫": [
+  "THIÊN MIÊU",
+  "Tmall (nền tảng của Alibaba)"
+ ],
+ "协调": [
+  "HIỆP ĐIỀU",
+  "điều phối, phối hợp"
+ ],
+ "物": [
+  "VẬT",
+  "vật, đồ vật (cắt từ chưa chuẩn của 物联网: Internet vạn vật, IoT)"
+ ],
+ "编写": [
+  "BIÊN TẢ",
+  "biên soạn, viết (code, tài liệu)"
+ ],
+ "控制面板": [
+  "KHỐNG CHẾ DIỆN BẢN",
+  "bảng điều khiển"
+ ],
+ "官": [
+  "QUAN",
+  "quan chức (cắt từ chưa chuẩn của 官网: trang web chính thức)"
+ ],
+ "电源线": [
+  "ĐIỆN NGUYÊN TUYẾN",
+  "dây nguồn"
+ ],
+ "网线": [
+  "VÕNG TUYẾN",
+  "dây mạng, cáp LAN"
+ ],
+ "步骤": [
+  "BỘ SẬU",
+  "bước, trình tự"
+ ],
+ "版本": [
+  "BẢN BẢN",
+  "phiên bản"
+ ],
+ "操作系统": [
+  "THAO TÁC HỆ THỐNG",
+  "hệ điều hành"
+ ],
+ "写入": [
+  "TẢ NHẬP",
+  "ghi vào (dữ liệu)"
+ ],
+ "稳妥": [
+  "ỔN THỎA",
+  "chắc chắn, an toàn"
+ ],
+ "手动": [
+  "THỦ ĐỘNG",
+  "thủ công, bằng tay"
+ ],
+ "配置文件": [
+  "PHỐI TRÍ VĂN KIỆN",
+  "file cấu hình"
+ ],
+ "插入": [
+  "SÁP NHẬP",
+  "cắm vào, chèn vào"
+ ],
+ "接上": [
+  "TIẾP THƯỢNG",
+  "nối vào, cắm (dây, thiết bị)"
+ ],
+ "电源": [
+  "ĐIỆN NGUYÊN",
+  "nguồn điện"
+ ],
+ "互联网": [
+  "HỖ LIÊN VÕNG",
+  "Internet"
+ ],
+ "监视": [
+  "GIÁM THỊ",
+  "giám sát, theo dõi"
+ ],
+ "耐心": [
+  "NẠI TÂM",
+  "kiên nhẫn"
+ ],
+ "单位": [
+  "ĐƠN VỊ",
+  "đơn vị (đo lường); cơ quan"
+ ],
+ "天气": [
+  "THIÊN KHÍ",
+  "thời tiết"
+ ],
+ "商城": [
+  "THƯƠNG THÀNH",
+  "trung tâm mua sắm (ở đây: kho plugin)"
+ ],
+ "社区": [
+  "XÃ KHU",
+  "cộng đồng; khu dân cư"
+ ],
+ "格力": [
+  "CÁCH LỰC",
+  "Gree (hãng điện lạnh)"
+ ],
+ "跳出": [
+  "KHIÊU XUẤT",
+  "nhảy ra; hiện ra (cửa sổ)"
+ ],
+ "自动识别": [
+  "TỰ ĐỘNG THỨC BIỆT",
+  "tự động nhận diện"
+ ],
+ "读取": [
+  "ĐỘC THỦ",
+  "đọc (dữ liệu)"
+ ],
+ "值": [
+  "TRỊ",
+  "giá trị; đáng (预定值: giá trị định sẵn)"
+ ],
+ "灯": [
+  "ĐĂNG",
+  "đèn"
+ ],
+ "归类": [
+  "QUY LOẠI",
+  "phân loại"
+ ],
+ "后续": [
+  "HẬU TỤC",
+  "tiếp theo, về sau"
+ ],
+ "床头灯": [
+  "SÀNG ĐẦU ĐĂNG",
+  "đèn đầu giường"
+ ],
+ "开灯": [
+  "KHAI ĐĂNG",
+  "bật đèn"
+ ],
+ "调": [
+  "ĐIỀU",
+  "điều chỉnh, chỉnh (tiáo); điều động (diào)"
+ ],
+ "百分之五十": [
+  "BÁCH PHÂN CHI NGŨ THẬP",
+  "50 phần trăm"
+ ],
+ "测试工具": [
+  "TRẮC THÍ CÔNG CỤ",
+  "công cụ kiểm thử"
+ ],
+ "端口": [
+  "ĐOAN KHẨU",
+  "cổng (port)"
+ ],
+ "这部分": [
+  "GIÁ BỘ PHẬN",
+  "phần này"
+ ],
+ "非常简单": [
+  "PHI THƯỜNG GIẢN ĐƠN",
+  "rất đơn giản"
+ ],
+ "照着": [
+  "CHIẾU TRƯỚC",
+  "làm theo, dựa theo"
+ ],
+ "例程": [
+  "LỆ TRÌNH",
+  "chương trình mẫu (example)"
+ ],
+ "缝纫": [
+  "",
+  "may vá (câu này có lẽ ASR nghe nhầm)"
+ ],
+ "结构": [
+  "KẾT CẤU",
+  "cấu trúc (结构体: struct)"
+ ],
+ "体": [
+  "THỂ",
+  "thân thể; thể (结构体: struct trong lập trình)"
+ ],
+ "用法": [
+  "DỤNG PHÁP",
+  "cách dùng"
+ ],
+ "指南": [
+  "CHỈ NAM",
+  "hướng dẫn, cẩm nang"
+ ],
+ "保持一致": [
+  "BẢO TRÌ NHẤT TRÍ",
+  "giữ nhất quán, khớp nhau"
+ ],
+ "函数": [
+  "HÀM SỐ",
+  "hàm (toán học, lập trình)"
+ ],
+ "参与": [
+  "THAM DỰ",
+  "tham gia"
  ]
 }

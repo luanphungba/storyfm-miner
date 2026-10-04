@@ -1,6 +1,14 @@
 {
   "videos": [
     {
+      "id": "BV1yZ421M7NR",
+      "title": "用 ESP32 接入 Home Assistant【语音智能家居面板】",
+      "owner": "ESP_Friends",
+      "pubDate": "2024-06-20",
+      "duration": 645,
+      "m4a": "https://storyfm-audio.luanphungba.workers.dev/BV1yZ421M7NR.m4a"
+    },
+    {
       "id": "BV1GMtJ62Eo5",
       "title": "陈翔六点半：渴望远方，却困在楼下",
       "owner": "陈翔六点半",

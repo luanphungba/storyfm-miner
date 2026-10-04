@@ -1,0 +1,1051 @@
+{
+  "episode": "BV1yZ421M7NR",
+  "summary": [
+    "Video của kênh ESP_Friends giới thiệu một bảng điều khiển nhà thông minh bằng giọng nói làm từ ESP32-S3. Mở đầu là phần demo: gọi câu đánh thức \"Hi, 乐鑫\" (乐鑫 là Espressif, hãng làm chip ESP32) rồi ra lệnh bật tắt máy lọc không khí, đèn bàn, dải đèn LED, chỉnh đèn sáng tối, mở lịch, xem giờ, phát nhạc. Mã nguồn và mô hình 3D đã được công khai trên GitHub.",
+    "Nguyên lý: ESP32 gửi tin nhắn MQTT tới Home Assistant — một nền tảng mã nguồn mở gom thiết bị của nhiều hệ sinh thái (Mi Home, Tmall, HomeKit…) về một chỗ để điều khiển và tự động hóa. Tiếp theo là cách cài Home Assistant OS lên Raspberry Pi: ghi thẻ SD bằng Raspberry Pi Imager, nối mạng bằng cáp hoặc bằng file cấu hình Wi-Fi, chờ khởi tạo rồi tạo tài khoản.",
+    "Sau đó người làm video cài các add-on cần thiết (terminal trên web, Mosquitto broker), cài HACS để thêm plugin Xiaomi Miot Auto và đăng nhập tài khoản Mi Home để kéo thiết bị vào Home Assistant. Cuối cùng là tạo một tự động hóa kích hoạt khi nhận tin nhắn MQTT, thử bằng MQTTX, rồi viết code ESP32 dựa trên ví dụ MQTT của ESP-IDF để gửi tin nhắn đó."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "嗨，乐鑫！",
+      "vi": "Hi, 乐鑫!"
+    },
+    "1": {
+      "zh": "打开空气净化器。",
+      "vi": "Bật máy lọc không khí."
+    },
+    "2": {
+      "zh": "嗨，乐鑫！",
+      "vi": "Hi, 乐鑫!"
+    },
+    "3": {
+      "zh": "关闭空气净化器。",
+      "vi": "Tắt máy lọc không khí."
+    },
+    "4": {
+      "zh": "打开台灯。",
+      "vi": "Bật đèn bàn."
+    },
+    "5": {
+      "zh": "打开灯带。",
+      "vi": "Bật dải đèn LED."
+    },
+    "6": {
+      "zh": "台灯调暗。",
+      "vi": "Giảm sáng đèn bàn."
+    },
+    "7": {
+      "zh": "台灯调亮，关闭台灯，关闭灯带，打开日历，打开时间，播放音乐。",
+      "parts": [
+        {
+          "zh": "台灯调亮，关闭台灯，",
+          "vi": "Tăng sáng đèn bàn, tắt đèn bàn,"
+        },
+        {
+          "zh": "关闭灯带，打开日历，",
+          "vi": "tắt dải đèn LED, mở lịch,"
+        },
+        {
+          "zh": "打开时间，播放音乐。",
+          "vi": "mở đồng hồ, phát nhạc."
+        }
+      ]
+    },
+    "8": {
+      "zh": "嗨，乐鑫。",
+      "vi": "Hi, 乐鑫."
+    },
+    "9": {
+      "zh": "工程源码和3D建模开源在GitHub上了，欢迎大家参考。",
+      "parts": [
+        {
+          "zh": "工程源码和3D建模",
+          "vi": "Mã nguồn dự án và mô hình 3D"
+        },
+        {
+          "zh": "开源在GitHub上了，",
+          "vi": "đã công khai trên GitHub rồi,"
+        },
+        {
+          "zh": "欢迎大家参考。",
+          "vi": "mời mọi người tham khảo."
+        }
+      ]
+    },
+    "10": {
+      "zh": "控制这些设备原理是什么？",
+      "vi": "Nguyên lý điều khiển các thiết bị này là gì?"
+    },
+    "11": {
+      "zh": "我们只需要在HomeAssistant上绑定对应的设备。",
+      "parts": [
+        {
+          "zh": "我们只需要在HomeAssistant上",
+          "vi": "Chúng ta chỉ cần vào Home Assistant"
+        },
+        {
+          "zh": "绑定对应的设备。",
+          "vi": "liên kết các thiết bị tương ứng."
+        }
+      ]
+    },
+    "12": {
+      "zh": "然后使用ESP32S3通过MQTT向HomeAssistant发送消息就可以实现对智能家居的控制那么问题来了什么是HomeAssistant智能家居市场上存在许多家居生态如米家、天猫、HomeKit不同生态之间并不互通购买不同品牌的产品无法集成到一起进行控制不方便协调统一管理HomeAssistant是一款开源的家庭自动化控制管理平台用户可以绑定各个品牌的物联网设备，编写自动化规则和脚本，根据设备状态、时间、",
+      "parts": [
+        {
+          "zh": "然后使用ESP32S3通过MQTT",
+          "vi": "Sau đó dùng ESP32-S3, qua MQTT,"
+        },
+        {
+          "zh": "向HomeAssistant发送消息",
+          "vi": "gửi tin nhắn tới Home Assistant"
+        },
+        {
+          "zh": "就可以实现对智能家居的控制",
+          "vi": "là điều khiển được nhà thông minh."
+        },
+        {
+          "zh": "那么问题来了",
+          "vi": "Vậy câu hỏi đặt ra là:"
+        },
+        {
+          "zh": "什么是HomeAssistant",
+          "vi": "Home Assistant là gì?"
+        },
+        {
+          "zh": "智能家居市场上",
+          "vi": "Trên thị trường nhà thông minh"
+        },
+        {
+          "zh": "存在许多家居生态",
+          "vi": "có rất nhiều hệ sinh thái,"
+        },
+        {
+          "zh": "如米家、天猫、HomeKit",
+          "vi": "như Mi Home, Tmall, HomeKit."
+        },
+        {
+          "zh": "不同生态之间并不互通",
+          "vi": "Các hệ sinh thái không thông với nhau,"
+        },
+        {
+          "zh": "购买不同品牌的产品",
+          "vi": "mua sản phẩm của các hãng khác nhau"
+        },
+        {
+          "zh": "无法集成到一起进行控制",
+          "vi": "thì không gộp lại điều khiển chung được,"
+        },
+        {
+          "zh": "不方便协调统一管理",
+          "vi": "khó phối hợp và quản lý thống nhất."
+        },
+        {
+          "zh": "HomeAssistant是一款开源的",
+          "vi": "Home Assistant là một nền tảng mã nguồn mở"
+        },
+        {
+          "zh": "家庭自动化控制管理平台",
+          "vi": "để điều khiển và quản lý tự động hóa trong nhà."
+        },
+        {
+          "zh": "用户可以绑定各个品牌的物联网设备，",
+          "vi": "Người dùng có thể liên kết thiết bị IoT của đủ các hãng,"
+        },
+        {
+          "zh": "编写自动化规则和脚本，",
+          "vi": "viết quy tắc và script tự động hóa,"
+        },
+        {
+          "zh": "根据设备状态、时间、",
+          "vi": "dựa trên trạng thái thiết bị, thời gian,"
+        }
+      ]
+    },
+    "17": {
+      "zh": "传感器数据等触发特定动作。",
+      "vi": "dữ liệu cảm biến… để kích hoạt những hành động nhất định."
+    },
+    "18": {
+      "zh": "这样的话，我们配置好HomeAssistant就可以通过一个控制面板来控制多个平台的智能家居产品。",
+      "parts": [
+        {
+          "zh": "这样的话，我们配置好HomeAssistant",
+          "vi": "Như vậy, ta cấu hình xong Home Assistant"
+        },
+        {
+          "zh": "就可以通过一个控制面板",
+          "vi": "là có thể dùng một bảng điều khiển"
+        },
+        {
+          "zh": "来控制多个平台的智能家居产品。",
+          "vi": "để điều khiển sản phẩm nhà thông minh của nhiều nền tảng."
+        }
+      ]
+    },
+    "20": {
+      "zh": "接下来我会讲解如何部署HomeAssistant以及如何控制智能家居。",
+      "parts": [
+        {
+          "zh": "接下来我会讲解",
+          "vi": "Tiếp theo tôi sẽ giải thích"
+        },
+        {
+          "zh": "如何部署HomeAssistant",
+          "vi": "cách triển khai Home Assistant"
+        },
+        {
+          "zh": "以及如何控制智能家居。",
+          "vi": "và cách điều khiển nhà thông minh."
+        }
+      ]
+    },
+    "21": {
+      "zh": "我们在官网上可以看到。",
+      "vi": "Trên trang web chính thức, ta có thể thấy:"
+    },
+    "22": {
+      "zh": "HomeAssistantOS在Linux、MacOS、Windows上都可以完成部署，但是在树莓派上部署最方便简单。",
+      "parts": [
+        {
+          "zh": "HomeAssistantOS",
+          "vi": "Home Assistant OS"
+        },
+        {
+          "zh": "在Linux、MacOS、Windows上",
+          "vi": "trên Linux, macOS, Windows"
+        },
+        {
+          "zh": "都可以完成部署，",
+          "vi": "đều cài được,"
+        },
+        {
+          "zh": "但是在树莓派上部署最方便简单。",
+          "vi": "nhưng cài trên Raspberry Pi là tiện và đơn giản nhất."
+        }
+      ]
+    },
+    "24": {
+      "zh": "我们根据这里的提示，准备好树莓派、电源线、SD卡和网线，点击进入这个教程，跟着步骤走。",
+      "parts": [
+        {
+          "zh": "我们根据这里的提示，",
+          "vi": "Theo gợi ý ở đây,"
+        },
+        {
+          "zh": "准备好树莓派、电源线、SD卡和网线，",
+          "vi": "ta chuẩn bị Raspberry Pi, dây nguồn, thẻ SD và dây mạng,"
+        },
+        {
+          "zh": "点击进入这个教程，跟着步骤走。",
+          "vi": "bấm vào hướng dẫn này, làm theo từng bước."
+        }
+      ]
+    },
+    "25": {
+      "zh": "点击这个链接下载树莓派镜像烧录器，下载完成后通过读卡器将SD卡连接到电脑。",
+      "parts": [
+        {
+          "zh": "点击这个链接",
+          "vi": "Bấm vào link này"
+        },
+        {
+          "zh": "下载树莓派镜像烧录器，",
+          "vi": "để tải Raspberry Pi Imager,"
+        },
+        {
+          "zh": "下载完成后通过读卡器",
+          "vi": "tải xong thì dùng đầu đọc thẻ"
+        },
+        {
+          "zh": "将SD卡连接到电脑。",
+          "vi": "cắm thẻ SD vào máy tính."
+        }
+      ]
+    },
+    "26": {
+      "zh": "打开树莓派镜像烧录器，选择对应的树莓派版本，",
+      "parts": [
+        {
+          "zh": "打开树莓派镜像烧录器，",
+          "vi": "Mở Raspberry Pi Imager,"
+        },
+        {
+          "zh": "选择对应的树莓派版本，",
+          "vi": "chọn đúng phiên bản Raspberry Pi,"
+        }
+      ]
+    },
+    "27": {
+      "zh": "选择HomeAssistant操作系统，选择SD卡，点击Next开始写入。",
+      "parts": [
+        {
+          "zh": "选择HomeAssistant操作系统，",
+          "vi": "chọn hệ điều hành Home Assistant,"
+        },
+        {
+          "zh": "选择SD卡，点击Next开始写入。",
+          "vi": "chọn thẻ SD, bấm Next để bắt đầu ghi."
+        }
+      ]
+    },
+    "28": {
+      "zh": "我们可以通过以太网线联网，这个是最稳妥的方式。",
+      "parts": [
+        {
+          "zh": "我们可以通过以太网线联网，",
+          "vi": "Ta có thể nối mạng bằng cáp Ethernet,"
+        },
+        {
+          "zh": "这个是最稳妥的方式。",
+          "vi": "đây là cách chắc ăn nhất."
+        }
+      ]
+    },
+    "29": {
+      "zh": "也可以在HomeAssistant启动后手动联网。",
+      "parts": [
+        {
+          "zh": "也可以在HomeAssistant",
+          "vi": "Cũng có thể đợi Home Assistant"
+        },
+        {
+          "zh": "启动后手动联网。",
+          "vi": "khởi động xong rồi nối mạng thủ công."
+        }
+      ]
+    },
+    "30": {
+      "zh": "如果没有以太网线，也可以通过配置文件连接到WiFi。",
+      "parts": [
+        {
+          "zh": "如果没有以太网线，",
+          "vi": "Nếu không có cáp Ethernet,"
+        },
+        {
+          "zh": "也可以通过配置文件",
+          "vi": "cũng có thể dùng file cấu hình"
+        },
+        {
+          "zh": "连接到WiFi。",
+          "vi": "để kết nối Wi-Fi."
+        }
+      ]
+    },
+    "31": {
+      "zh": "我们打开SD卡，创建一个config文件夹，在文件夹里创建一个network文件夹。",
+      "parts": [
+        {
+          "zh": "我们打开SD卡，",
+          "vi": "Ta mở thẻ SD,"
+        },
+        {
+          "zh": "创建一个config文件夹，",
+          "vi": "tạo một thư mục config,"
+        },
+        {
+          "zh": "在文件夹里创建一个network文件夹。",
+          "vi": "trong thư mục đó tạo một thư mục network."
+        }
+      ]
+    },
+    "32": {
+      "zh": "然后在文件夹里创建一个mynetwork文件，把配置信息保存在这里。",
+      "parts": [
+        {
+          "zh": "然后在文件夹里",
+          "vi": "Sau đó, trong thư mục này"
+        },
+        {
+          "zh": "创建一个mynetwork文件，",
+          "vi": "tạo một file mynetwork,"
+        },
+        {
+          "zh": "把配置信息保存在这里。",
+          "vi": "lưu thông tin cấu hình vào đó."
+        }
+      ]
+    },
+    "33": {
+      "zh": "可以去我的Git上复制文本，将SD卡插入树莓派。",
+      "parts": [
+        {
+          "zh": "可以去我的Git上复制文本，",
+          "vi": "Có thể vào Git của tôi chép nội dung,"
+        },
+        {
+          "zh": "将SD卡插入树莓派。",
+          "vi": "rồi cắm thẻ SD vào Raspberry Pi."
+        }
+      ]
+    },
+    "34": {
+      "zh": "然后接上以太网线和电源，我们要确保树莓派和电脑处于同一局域网下，并且连接到互联网。",
+      "parts": [
+        {
+          "zh": "然后接上以太网线和电源，我们要确保",
+          "vi": "Sau đó cắm cáp Ethernet và nguồn, ta phải đảm bảo"
+        },
+        {
+          "zh": "树莓派和电脑处于同一局域网下，",
+          "vi": "Raspberry Pi và máy tính ở cùng một mạng LAN,"
+        },
+        {
+          "zh": "并且连接到互联网。",
+          "vi": "và có kết nối Internet."
+        }
+      ]
+    },
+    "35": {
+      "zh": "如果想监视启动过程，可以通过HDMI线接入屏幕，但一般情况下我们不需要。",
+      "parts": [
+        {
+          "zh": "如果想监视启动过程，",
+          "vi": "Nếu muốn theo dõi quá trình khởi động,"
+        },
+        {
+          "zh": "可以通过HDMI线接入屏幕，",
+          "vi": "có thể nối màn hình qua cáp HDMI,"
+        },
+        {
+          "zh": "但一般情况下我们不需要。",
+          "vi": "nhưng thường thì không cần."
+        }
+      ]
+    },
+    "36": {
+      "zh": "系统初始化完成后，我们在浏览器中打开网页，可以看到这个准备页面。",
+      "parts": [
+        {
+          "zh": "系统初始化完成后，",
+          "vi": "Hệ thống khởi tạo xong,"
+        },
+        {
+          "zh": "我们在浏览器中打开网页，",
+          "vi": "ta mở trang web trong trình duyệt,"
+        },
+        {
+          "zh": "可以看到这个准备页面。",
+          "vi": "sẽ thấy trang chuẩn bị này."
+        }
+      ]
+    },
+    "37": {
+      "zh": "我们耐心等待二十分钟，准备完成之后就可以看到这个页面。",
+      "parts": [
+        {
+          "zh": "我们耐心等待二十分钟，",
+          "vi": "Ta kiên nhẫn chờ 20 phút,"
+        },
+        {
+          "zh": "准备完成之后就可以看到这个页面。",
+          "vi": "chuẩn bị xong thì sẽ thấy trang này."
+        }
+      ]
+    },
+    "38": {
+      "zh": "我们点击创建我的智能家居。",
+      "vi": "Ta bấm \"Tạo nhà thông minh của tôi\"."
+    },
+    "39": {
+      "zh": "然后设置用户名和密码，还有这个是地址，系统会根据地址来设置时区、单位、天气信息等配置。",
+      "parts": [
+        {
+          "zh": "然后设置用户名和密码，",
+          "vi": "Sau đó đặt tên người dùng và mật khẩu,"
+        },
+        {
+          "zh": "还有这个是地址，",
+          "vi": "còn đây là địa chỉ,"
+        },
+        {
+          "zh": "系统会根据地址",
+          "vi": "hệ thống sẽ dựa vào địa chỉ"
+        },
+        {
+          "zh": "来设置时区、单位、天气信息等配置。",
+          "vi": "để cài múi giờ, đơn vị, thông tin thời tiết…"
+        }
+      ]
+    },
+    "40": {
+      "zh": "配置完成后，我们就可以使用HomeAssistant系统了。",
+      "parts": [
+        {
+          "zh": "配置完成后，",
+          "vi": "Cấu hình xong,"
+        },
+        {
+          "zh": "我们就可以使用HomeAssistant系统了。",
+          "vi": "là ta dùng được hệ thống Home Assistant rồi."
+        }
+      ]
+    },
+    "41": {
+      "zh": "不过想通过MQTT控制智能家居，我们还需要给系统安装一些插件。",
+      "parts": [
+        {
+          "zh": "不过想通过MQTT控制智能家居，",
+          "vi": "Nhưng muốn điều khiển nhà thông minh qua MQTT,"
+        },
+        {
+          "zh": "我们还需要给系统安装一些插件。",
+          "vi": "ta còn phải cài cho hệ thống vài plugin."
+        }
+      ]
+    },
+    "42": {
+      "zh": "点击界面左下角配置，进入加载项。",
+      "vi": "Bấm Cấu hình ở góc dưới bên trái, vào mục add-on."
+    },
+    "43": {
+      "zh": "在加载项商店下载所需要的加载项，这里我们要下载两个加载项，一个是网页终端，",
+      "parts": [
+        {
+          "zh": "在加载项商店下载所需要的加载项，",
+          "vi": "Vào cửa hàng add-on tải những add-on cần dùng,"
+        },
+        {
+          "zh": "这里我们要下载两个加载项，",
+          "vi": "ở đây ta cần tải hai add-on,"
+        },
+        {
+          "zh": "一个是网页终端，",
+          "vi": "một là terminal trên web,"
+        }
+      ]
+    },
+    "44": {
+      "zh": "这样我们就可以直接在网页上使用终端指令了。",
+      "parts": [
+        {
+          "zh": "这样我们就可以",
+          "vi": "như vậy ta có thể"
+        },
+        {
+          "zh": "直接在网页上使用终端指令了。",
+          "vi": "gõ lệnh terminal ngay trên trang web."
+        }
+      ]
+    },
+    "45": {
+      "zh": "另一个是MosquittoBroker，这是一个开源的MQTTBroker，",
+      "parts": [
+        {
+          "zh": "另一个是MosquittoBroker，",
+          "vi": "Cái còn lại là Mosquitto broker,"
+        },
+        {
+          "zh": "这是一个开源的MQTTBroker，",
+          "vi": "đây là một MQTT broker mã nguồn mở,"
+        }
+      ]
+    },
+    "46": {
+      "zh": "学习过MQTT的朋友应该不陌生。",
+      "vi": "bạn nào đã học MQTT chắc không lạ gì."
+    },
+    "47": {
+      "zh": "接下来我们要安装用于绑定智能家居的插件。",
+      "parts": [
+        {
+          "zh": "接下来我们要安装",
+          "vi": "Tiếp theo ta sẽ cài"
+        },
+        {
+          "zh": "用于绑定智能家居的插件。",
+          "vi": "plugin dùng để liên kết thiết bị nhà thông minh."
+        }
+      ]
+    },
+    "48": {
+      "zh": "首先，我们在终端输入这行指令安装HomeAssistantCommunityStore。",
+      "parts": [
+        {
+          "zh": "首先，我们在终端输入这行指令",
+          "vi": "Trước hết, ta gõ dòng lệnh này trong terminal"
+        },
+        {
+          "zh": "安装HomeAssistantCommunityStore。",
+          "vi": "để cài Home Assistant Community Store."
+        }
+      ]
+    },
+    "49": {
+      "zh": "这个商城可以下载社区内的各种插件，比如说，",
+      "parts": [
+        {
+          "zh": "这个商城可以下载",
+          "vi": "Cửa hàng này cho tải về"
+        },
+        {
+          "zh": "社区内的各种插件，比如说，",
+          "vi": "đủ loại plugin của cộng đồng, ví dụ,"
+        }
+      ]
+    },
+    "50": {
+      "zh": "如果想通过HomeAssistant控制米家设备，可以下载小米米LTAuto。",
+      "parts": [
+        {
+          "zh": "如果想通过HomeAssistant",
+          "vi": "nếu muốn dùng Home Assistant"
+        },
+        {
+          "zh": "控制米家设备，",
+          "vi": "để điều khiển thiết bị Mi Home,"
+        },
+        {
+          "zh": "可以下载小米米LTAuto。",
+          "vi": "có thể tải Xiaomi Miot Auto."
+        }
+      ]
+    },
+    "51": {
+      "zh": "这里还有很多其他生态的插件，比如说Haier。格力，下面我会展示如何绑定米家的设备。",
+      "parts": [
+        {
+          "zh": "这里还有很多其他生态的插件，",
+          "vi": "Ở đây còn nhiều plugin của các hệ sinh thái khác,"
+        },
+        {
+          "zh": "比如说Haier。格力，",
+          "vi": "ví dụ Haier, Gree,"
+        },
+        {
+          "zh": "下面我会展示如何绑定米家的设备。",
+          "vi": "sau đây tôi sẽ cho xem cách liên kết thiết bị Mi Home."
+        }
+      ]
+    },
+    "53": {
+      "zh": "我们下载好小米米IOTAuto后就可以绑定账号了。",
+      "parts": [
+        {
+          "zh": "我们下载好小米米IOTAuto后",
+          "vi": "Tải xong Xiaomi Miot Auto"
+        },
+        {
+          "zh": "就可以绑定账号了。",
+          "vi": "là có thể liên kết tài khoản."
+        }
+      ]
+    },
+    "54": {
+      "zh": "打开配置、设备与服务、添加集成，搜索小米米IOTAuto，",
+      "parts": [
+        {
+          "zh": "打开配置、设备与服务、添加集成，",
+          "vi": "Mở Cấu hình, Thiết bị và dịch vụ, Thêm tích hợp,"
+        },
+        {
+          "zh": "搜索小米米IOTAuto，",
+          "vi": "tìm Xiaomi Miot Auto,"
+        }
+      ]
+    },
+    "55": {
+      "zh": "选择后会跳出登录小米账号的界面。",
+      "vi": "chọn xong sẽ hiện ra màn hình đăng nhập tài khoản Xiaomi."
+    },
+    "56": {
+      "zh": "在这里，我们输入登录米家的账号和密码，之后就会自动识别米家账号已经配对的设备。",
+      "parts": [
+        {
+          "zh": "在这里，我们输入",
+          "vi": "Ở đây, ta nhập"
+        },
+        {
+          "zh": "登录米家的账号和密码，",
+          "vi": "tài khoản và mật khẩu đăng nhập Mi Home,"
+        },
+        {
+          "zh": "之后就会自动识别",
+          "vi": "sau đó nó sẽ tự động nhận ra"
+        },
+        {
+          "zh": "米家账号已经配对的设备。",
+          "vi": "các thiết bị đã ghép nối với tài khoản Mi Home."
+        }
+      ]
+    },
+    "57": {
+      "zh": "现在我们可以看到，这些设备已经绑定在了HomeAssistant系统上了。",
+      "parts": [
+        {
+          "zh": "现在我们可以看到，",
+          "vi": "Giờ ta có thể thấy,"
+        },
+        {
+          "zh": "这些设备已经绑定在了",
+          "vi": "các thiết bị này đã được liên kết vào"
+        },
+        {
+          "zh": "HomeAssistant系统上了。",
+          "vi": "hệ thống Home Assistant rồi."
+        }
+      ]
+    },
+    "58": {
+      "zh": "我们在这个页面上可以控制设备或者读取设备的参数。",
+      "parts": [
+        {
+          "zh": "我们在这个页面上",
+          "vi": "Ở trang này, ta"
+        },
+        {
+          "zh": "可以控制设备或者读取设备的参数。",
+          "vi": "có thể điều khiển thiết bị hoặc đọc thông số của thiết bị."
+        }
+      ]
+    },
+    "59": {
+      "zh": "那么，如何通过MQTT来控制这些设备呢？",
+      "parts": [
+        {
+          "zh": "那么，如何通过MQTT",
+          "vi": "Vậy làm sao qua MQTT"
+        },
+        {
+          "zh": "来控制这些设备呢？",
+          "vi": "để điều khiển các thiết bị này?"
+        }
+      ]
+    },
+    "60": {
+      "zh": "点击左下角配置自动化与场景创建自动化。",
+      "parts": [
+        {
+          "zh": "点击左下角配置",
+          "vi": "Bấm Cấu hình ở góc dưới bên trái,"
+        },
+        {
+          "zh": "自动化与场景创建自动化。",
+          "vi": "vào Tự động hóa và cảnh, tạo tự động hóa."
+        }
+      ]
+    },
+    "61": {
+      "zh": "这里有两个配置，第一个是触发器，配置触发动作的事件，比如说某个设备的参数达到预定值。",
+      "parts": [
+        {
+          "zh": "这里有两个配置，第一个是触发器，",
+          "vi": "Ở đây có hai phần cấu hình, thứ nhất là trigger,"
+        },
+        {
+          "zh": "配置触发动作的事件，",
+          "vi": "tức là sự kiện kích hoạt hành động,"
+        },
+        {
+          "zh": "比如说某个设备的参数达到预定值。",
+          "vi": "ví dụ thông số của một thiết bị nào đó đạt giá trị định sẵn,"
+        }
+      ]
+    },
+    "62": {
+      "zh": "到达某个预定的时间，或者收到MQTT消息。",
+      "parts": [
+        {
+          "zh": "到达某个预定的时间，",
+          "vi": "đến một thời điểm định sẵn,"
+        },
+        {
+          "zh": "或者收到MQTT消息。",
+          "vi": "hoặc nhận được tin nhắn MQTT."
+        }
+      ]
+    },
+    "63": {
+      "zh": "第二个是事件触发后做出的动作，比如说打开或者关闭台灯，把灯调暗或者调亮。",
+      "parts": [
+        {
+          "zh": "第二个是事件触发后做出的动作，",
+          "vi": "Thứ hai là hành động thực hiện sau khi sự kiện kích hoạt,"
+        },
+        {
+          "zh": "比如说打开或者关闭台灯，",
+          "vi": "ví dụ bật hoặc tắt đèn bàn,"
+        },
+        {
+          "zh": "把灯调暗或者调亮。",
+          "vi": "chỉnh đèn tối đi hoặc sáng lên."
+        }
+      ]
+    },
+    "64": {
+      "zh": "我们在触发器选择收到MQTT时，这里MQTT的Topic和Payload都可以随便自定义。",
+      "parts": [
+        {
+          "zh": "我们在触发器选择收到MQTT时，",
+          "vi": "Ở trigger, ta chọn \"khi nhận MQTT\","
+        },
+        {
+          "zh": "这里MQTT的Topic和Payload",
+          "vi": "ở đây Topic và Payload của MQTT"
+        },
+        {
+          "zh": "都可以随便自定义。",
+          "vi": "đều có thể tự đặt tùy ý."
+        }
+      ]
+    },
+    "65": {
+      "zh": "不过，如果打算绑定很多设备的话，最好把归类做好，方便后续管理。",
+      "parts": [
+        {
+          "zh": "不过，如果打算绑定很多设备的话，",
+          "vi": "Nhưng nếu định liên kết nhiều thiết bị,"
+        },
+        {
+          "zh": "最好把归类做好，方便后续管理。",
+          "vi": "tốt nhất nên phân loại cho gọn, để sau này dễ quản lý."
+        }
+      ]
+    },
+    "66": {
+      "zh": "在动作这里，我们可以指定一个或者多个设备，比如这里我指定一个小米床头灯，",
+      "parts": [
+        {
+          "zh": "在动作这里，",
+          "vi": "Ở phần hành động,"
+        },
+        {
+          "zh": "我们可以指定一个或者多个设备，",
+          "vi": "ta có thể chỉ định một hoặc nhiều thiết bị,"
+        },
+        {
+          "zh": "比如这里我指定一个小米床头灯，",
+          "vi": "ví dụ ở đây tôi chỉ định một đèn đầu giường Xiaomi,"
+        }
+      ]
+    },
+    "67": {
+      "zh": "配置成触发后开灯，亮度调成百分之五十，保存后就能生效了。",
+      "parts": [
+        {
+          "zh": "配置成触发后开灯，",
+          "vi": "cấu hình để khi kích hoạt thì bật đèn,"
+        },
+        {
+          "zh": "亮度调成百分之五十，",
+          "vi": "độ sáng chỉnh thành 50%,"
+        },
+        {
+          "zh": "保存后就能生效了。",
+          "vi": "lưu lại là có hiệu lực."
+        }
+      ]
+    },
+    "68": {
+      "zh": "为了验证是否生效，我们可以用MQTT测试工具，比如说MQTTX进行测试。",
+      "parts": [
+        {
+          "zh": "为了验证是否生效，",
+          "vi": "Để kiểm tra xem đã có hiệu lực chưa,"
+        },
+        {
+          "zh": "我们可以用MQTT测试工具，",
+          "vi": "ta có thể dùng công cụ test MQTT,"
+        },
+        {
+          "zh": "比如说MQTTX进行测试。",
+          "vi": "ví dụ MQTTX để thử."
+        }
+      ]
+    },
+    "69": {
+      "zh": "这里我们创建一个新的连接，Host选择MQTTHomeAssistantLocal。",
+      "parts": [
+        {
+          "zh": "这里我们创建一个新的连接，",
+          "vi": "Ở đây ta tạo một kết nối mới,"
+        },
+        {
+          "zh": "Host选择MQTTHomeAssistantLocal。",
+          "vi": "Host chọn mqtt://homeassistant.local."
+        }
+      ]
+    },
+    "70": {
+      "zh": "端口选择1883username和password就是刚才初始化界面创建的登录账号和密码然后点击连接成功后可以发一个消息验证是否可以通过MQTT控制设备接下来可以使用ESP32",
+      "parts": [
+        {
+          "zh": "端口选择1883username和password",
+          "vi": "Cổng chọn 1883, username và password"
+        },
+        {
+          "zh": "就是刚才初始化界面创建的",
+          "vi": "chính là cái đã tạo ở màn hình khởi tạo lúc nãy:"
+        },
+        {
+          "zh": "登录账号和密码",
+          "vi": "tài khoản và mật khẩu đăng nhập."
+        },
+        {
+          "zh": "然后点击连接",
+          "vi": "Sau đó bấm kết nối,"
+        },
+        {
+          "zh": "成功后可以发一个消息",
+          "vi": "thành công rồi thì có thể gửi một tin nhắn"
+        },
+        {
+          "zh": "验证是否可以",
+          "vi": "để kiểm tra xem có thể"
+        },
+        {
+          "zh": "通过MQTT控制设备",
+          "vi": "điều khiển thiết bị qua MQTT không."
+        },
+        {
+          "zh": "接下来可以使用ESP32",
+          "vi": "Tiếp theo có thể dùng ESP32"
+        }
+      ]
+    },
+    "72": {
+      "zh": "向HomeAssistant发送MQTT消息注意要保证ESP32和HomeAssistant",
+      "parts": [
+        {
+          "zh": "向HomeAssistant发送MQTT消息",
+          "vi": "gửi tin nhắn MQTT tới Home Assistant."
+        },
+        {
+          "zh": "注意要保证ESP32和HomeAssistant",
+          "vi": "Lưu ý phải đảm bảo ESP32 và Home Assistant"
+        }
+      ]
+    },
+    "73": {
+      "zh": "处于同一局域网下这部分其实非常简单，只需要照着IDF的MQTT基础例程做一些配置，",
+      "parts": [
+        {
+          "zh": "处于同一局域网下",
+          "vi": "ở cùng một mạng LAN."
+        },
+        {
+          "zh": "这部分其实非常简单，",
+          "vi": "Phần này thật ra rất đơn giản,"
+        },
+        {
+          "zh": "只需要照着IDF的",
+          "vi": "chỉ cần dựa theo IDF,"
+        },
+        {
+          "zh": "MQTT基础例程做一些配置，",
+          "vi": "lấy ví dụ MQTT cơ bản rồi cấu hình một chút,"
+        }
+      ]
+    },
+    "74": {
+      "zh": "直接把这个工程缝纫过来。",
+      "vi": "đưa thẳng project này sang."
+    },
+    "75": {
+      "zh": "在这个MQTTConfig结构体配置URI，",
+      "parts": [
+        {
+          "zh": "在这个MQTTConfig结构体",
+          "vi": "Trong struct MQTT config này,"
+        },
+        {
+          "zh": "配置URI，",
+          "vi": "cấu hình URI,"
+        }
+      ]
+    },
+    "76": {
+      "zh": "配置HomeAssistant的用户名和密码。",
+      "vi": "cấu hình tên người dùng và mật khẩu của Home Assistant."
+    },
+    "77": {
+      "zh": "然后调用这个API发布MQTT消息，API的具体用法可以参考IDF编程指南。",
+      "parts": [
+        {
+          "zh": "然后调用这个API",
+          "vi": "Sau đó gọi API này"
+        },
+        {
+          "zh": "发布MQTT消息，",
+          "vi": "để publish tin nhắn MQTT,"
+        },
+        {
+          "zh": "API的具体用法",
+          "vi": "cách dùng cụ thể của API"
+        },
+        {
+          "zh": "可以参考IDF编程指南。",
+          "vi": "có thể tham khảo hướng dẫn lập trình của IDF."
+        }
+      ]
+    },
+    "78": {
+      "zh": "MQTT消息要确认和HomeAssistant中的配置保持一致。",
+      "parts": [
+        {
+          "zh": "MQTT消息要确认",
+          "vi": "Tin nhắn MQTT phải đảm bảo"
+        },
+        {
+          "zh": "和HomeAssistant中的配置保持一致。",
+          "vi": "khớp với cấu hình trong Home Assistant."
+        }
+      ]
+    },
+    "79": {
+      "zh": "调用之前确认一下MQTT是否处于连接状态。",
+      "parts": [
+        {
+          "zh": "调用之前确认一下",
+          "vi": "Trước khi gọi, kiểm tra xem"
+        },
+        {
+          "zh": "MQTT是否处于连接状态。",
+          "vi": "MQTT có đang ở trạng thái kết nối không."
+        }
+      ]
+    },
+    "80": {
+      "zh": "当你需要控制设备时，就可以调用对应的自定义函数。",
+      "parts": [
+        {
+          "zh": "当你需要控制设备时，",
+          "vi": "Khi cần điều khiển thiết bị,"
+        },
+        {
+          "zh": "就可以调用对应的自定义函数。",
+          "vi": "là có thể gọi hàm tự định nghĩa tương ứng."
+        }
+      ]
+    },
+    "81": {
+      "zh": "打开台灯。",
+      "vi": "Bật đèn bàn."
+    },
+    "82": {
+      "zh": "感兴趣的朋友快来体验一下吧！",
+      "vi": "Bạn nào quan tâm thì mau thử ngay nhé!"
+    },
+    "83": {
+      "zh": "大家对HomeAssistant或者智能家居有什么想法？",
+      "parts": [
+        {
+          "zh": "大家对HomeAssistant",
+          "vi": "Mọi người nghĩ gì về Home Assistant"
+        },
+        {
+          "zh": "或者智能家居有什么想法？",
+          "vi": "hay nhà thông minh?"
+        }
+      ]
+    },
+    "84": {
+      "zh": "欢迎在评论区参与讨论。",
+      "vi": "Mời mọi người vào phần bình luận cùng thảo luận."
+    },
+    "85": {
+      "zh": "我们下期再见。",
+      "vi": "Hẹn gặp lại ở kỳ sau."
+    }
+  }
+}

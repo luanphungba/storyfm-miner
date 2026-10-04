@@ -1,0 +1,1738 @@
+{
+  "id": "BV1yZ421M7NR",
+  "title": "用 ESP32 接入 Home Assistant【语音智能家居面板】",
+  "guid": "BV1yZ421M7NR",
+  "pubDate": "2024-06-20",
+  "duration": 645,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/BV1yZ421M7NR.m4a"
+  },
+  "source": "bilibili",
+  "owner": "ESP_Friends",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 4.64,
+      "end": 6.34,
+      "text": "嗨，乐鑫！",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 1,
+      "s": 1,
+      "start": 6.64,
+      "end": 8.02,
+      "text": "打开空气净化器。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 2,
+      "s": 2,
+      "start": 17.49,
+      "end": 19.34,
+      "text": "嗨，乐鑫！",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 3,
+      "s": 3,
+      "start": 19.7,
+      "end": 21.31,
+      "text": "关闭空气净化器。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 4,
+      "s": 4,
+      "start": 24.92,
+      "end": 25.9,
+      "text": "打开台灯。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 5,
+      "s": 5,
+      "start": 27.42,
+      "end": 29.05,
+      "text": "打开灯带。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 6,
+      "s": 6,
+      "start": 29.94,
+      "end": 29.98,
+      "text": "台灯调暗。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 7,
+      "s": 7,
+      "start": 33.24,
+      "end": 38.18,
+      "text": "台灯调亮，关闭台灯，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 8,
+      "s": 7,
+      "start": 39.6,
+      "end": 43.78,
+      "text": "关闭灯带，打开日历，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 9,
+      "s": 7,
+      "start": 45.68,
+      "end": 49.96,
+      "text": "打开时间，播放音乐。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 10,
+      "s": 8,
+      "start": 77.26,
+      "end": 80.85,
+      "text": "嗨，乐鑫。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 11,
+      "s": 9,
+      "start": 102.79,
+      "end": 104.85,
+      "text": "工程源码和3D建模",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 9,
+      "start": 104.85,
+      "end": 106.83,
+      "text": "开源在GitHub上了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 13,
+      "s": 9,
+      "start": 106.83,
+      "end": 108.05,
+      "text": "欢迎大家参考。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 14,
+      "s": 10,
+      "start": 108.89,
+      "end": 110.69,
+      "text": "控制这些设备原理是什么？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 15,
+      "s": 11,
+      "start": 110.69,
+      "end": 112.63,
+      "text": "我们只需要在HomeAssistant上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 11,
+      "start": 112.63,
+      "end": 113.83,
+      "text": "绑定对应的设备。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 12,
+      "start": 113.89,
+      "end": 117.31,
+      "text": "然后使用ESP32S3通过MQTT",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 12,
+      "start": 117.31,
+      "end": 119.49,
+      "text": "向HomeAssistant发送消息",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 12,
+      "start": 119.49,
+      "end": 121.65,
+      "text": "就可以实现对智能家居的控制",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 13,
+      "start": 121.65,
+      "end": 123.23,
+      "text": "那么问题来了",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 13,
+      "start": 123.23,
+      "end": 124.57,
+      "text": "什么是HomeAssistant",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 13,
+      "start": 124.57,
+      "end": 126.49,
+      "text": "智能家居市场上",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 13,
+      "start": 126.49,
+      "end": 127.93,
+      "text": "存在许多家居生态",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 13,
+      "start": 127.93,
+      "end": 130.23,
+      "text": "如米家、天猫、HomeKit",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 14,
+      "start": 130.23,
+      "end": 132.61,
+      "text": "不同生态之间并不互通",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 14,
+      "start": 132.61,
+      "end": 134.45,
+      "text": "购买不同品牌的产品",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 14,
+      "start": 134.45,
+      "end": 136.73,
+      "text": "无法集成到一起进行控制",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 14,
+      "start": 136.73,
+      "end": 138.97,
+      "text": "不方便协调统一管理",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 15,
+      "start": 138.97,
+      "end": 141.21,
+      "text": "HomeAssistant是一款开源的",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 15,
+      "start": 141.21,
+      "end": 143.21,
+      "text": "家庭自动化控制管理平台",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 15,
+      "start": 143.47,
+      "end": 146.52,
+      "text": "用户可以绑定各个品牌的物联网设备，",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 16,
+      "start": 146.73,
+      "end": 148.73,
+      "text": "编写自动化规则和脚本，",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 16,
+      "start": 148.99,
+      "end": 150.45,
+      "text": "根据设备状态、时间、",
+      "speaker": "B",
+      "u": 12,
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 17,
+      "start": 150.45,
+      "end": 152.74,
+      "text": "传感器数据等触发特定动作。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 18,
+      "start": 153.29,
+      "end": 155.19,
+      "text": "这样的话，我们配置好HomeAssistant",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 18,
+      "start": 155.19,
+      "end": 157.01,
+      "text": "就可以通过一个控制面板",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 18,
+      "start": 157.01,
+      "end": 159.6,
+      "text": "来控制多个平台的智能家居产品。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 20,
+      "start": 159.61,
+      "end": 160.79,
+      "text": "接下来我会讲解",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 20,
+      "start": 160.79,
+      "end": 162.31,
+      "text": "如何部署HomeAssistant",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 20,
+      "start": 162.31,
+      "end": 164.81,
+      "text": "以及如何控制智能家居。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 21,
+      "start": 167.43,
+      "end": 169.45,
+      "text": "我们在官网上可以看到。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 22,
+      "start": 169.66,
+      "end": 170.86,
+      "text": "HomeAssistantOS",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 22,
+      "start": 170.92,
+      "end": 173.84,
+      "text": "在Linux、MacOS、Windows上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 23,
+      "start": 173.84,
+      "end": 175.46,
+      "text": "都可以完成部署，",
+      "speaker": "B",
+      "u": 22,
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 23,
+      "start": 175.58,
+      "end": 178.88,
+      "text": "但是在树莓派上部署最方便简单。",
+      "speaker": "B",
+      "u": 22,
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 24,
+      "start": 179.14,
+      "end": 181.2,
+      "text": "我们根据这里的提示，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 24,
+      "start": 181.2,
+      "end": 184.5,
+      "text": "准备好树莓派、电源线、SD卡和网线，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 24,
+      "start": 184.5,
+      "end": 186.72,
+      "text": "点击进入这个教程，跟着步骤走。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 25,
+      "start": 189.66,
+      "end": 190.7,
+      "text": "点击这个链接",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 25,
+      "start": 190.7,
+      "end": 193.36,
+      "text": "下载树莓派镜像烧录器，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "s": 25,
+      "start": 193.56,
+      "end": 195.74,
+      "text": "下载完成后通过读卡器",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "s": 25,
+      "start": 195.74,
+      "end": 197.6,
+      "text": "将SD卡连接到电脑。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 26,
+      "start": 197.87,
+      "end": 200.39,
+      "text": "打开树莓派镜像烧录器，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 26,
+      "start": 201.02,
+      "end": 203.05,
+      "text": "选择对应的树莓派版本，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 27,
+      "start": 204.9,
+      "end": 207.18,
+      "text": "选择HomeAssistant操作系统，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 27,
+      "start": 214.44,
+      "end": 221.35,
+      "text": "选择SD卡，点击Next开始写入。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 28,
+      "start": 229.32,
+      "end": 231.86,
+      "text": "我们可以通过以太网线联网，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 28,
+      "start": 232.03,
+      "end": 233.9,
+      "text": "这个是最稳妥的方式。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "s": 29,
+      "start": 234.13,
+      "end": 235.75,
+      "text": "也可以在HomeAssistant",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 29,
+      "start": 235.75,
+      "end": 237.67,
+      "text": "启动后手动联网。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 30,
+      "start": 237.67,
+      "end": 239.29,
+      "text": "如果没有以太网线，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 30,
+      "start": 239.29,
+      "end": 240.91,
+      "text": "也可以通过配置文件",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 30,
+      "start": 240.91,
+      "end": 242.07,
+      "text": "连接到WiFi。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 31,
+      "start": 242.19,
+      "end": 244.17,
+      "text": "我们打开SD卡，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 31,
+      "start": 244.17,
+      "end": 246.41,
+      "text": "创建一个config文件夹，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 31,
+      "start": 248.01,
+      "end": 251.11,
+      "text": "在文件夹里创建一个network文件夹。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 32,
+      "start": 252.89,
+      "end": 254.63,
+      "text": "然后在文件夹里",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 32,
+      "start": 254.63,
+      "end": 257.03,
+      "text": "创建一个mynetwork文件，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 32,
+      "start": 258.79,
+      "end": 261.71,
+      "text": "把配置信息保存在这里。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 33,
+      "start": 261.71,
+      "end": 264.91,
+      "text": "可以去我的Git上复制文本，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 33,
+      "start": 275.05,
+      "end": 276.95,
+      "text": "将SD卡插入树莓派。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 34,
+      "start": 277.75,
+      "end": 281.36,
+      "text": "然后接上以太网线和电源，我们要确保",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 34,
+      "start": 281.36,
+      "end": 284.42,
+      "text": "树莓派和电脑处于同一局域网下，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 34,
+      "start": 284.42,
+      "end": 285.89,
+      "text": "并且连接到互联网。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 35,
+      "start": 286.42,
+      "end": 288.02,
+      "text": "如果想监视启动过程，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "s": 35,
+      "start": 288.02,
+      "end": 290.96,
+      "text": "可以通过HDMI线接入屏幕，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 77,
+      "s": 35,
+      "start": 290.96,
+      "end": 293.26,
+      "text": "但一般情况下我们不需要。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 36,
+      "start": 293.68,
+      "end": 295.24,
+      "text": "系统初始化完成后，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 79,
+      "s": 36,
+      "start": 295.24,
+      "end": 297.6,
+      "text": "我们在浏览器中打开网页，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 80,
+      "s": 36,
+      "start": 297.6,
+      "end": 299.68,
+      "text": "可以看到这个准备页面。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 37,
+      "start": 299.78,
+      "end": 302.04,
+      "text": "我们耐心等待二十分钟，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 37,
+      "start": 302.44,
+      "end": 305.38,
+      "text": "准备完成之后就可以看到这个页面。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 38,
+      "start": 305.44,
+      "end": 307.16,
+      "text": "我们点击创建我的智能家居。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 39,
+      "start": 308.14,
+      "end": 310.95,
+      "text": "然后设置用户名和密码，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "s": 39,
+      "start": 310.95,
+      "end": 312.61,
+      "text": "还有这个是地址，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 86,
+      "s": 39,
+      "start": 312.61,
+      "end": 313.63,
+      "text": "系统会根据地址",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 87,
+      "s": 39,
+      "start": 313.63,
+      "end": 316.56,
+      "text": "来设置时区、单位、天气信息等配置。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 40,
+      "start": 316.87,
+      "end": 317.97,
+      "text": "配置完成后，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 89,
+      "s": 40,
+      "start": 317.97,
+      "end": 320.87,
+      "text": "我们就可以使用HomeAssistant系统了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 90,
+      "s": 41,
+      "start": 320.99,
+      "end": 324.03,
+      "text": "不过想通过MQTT控制智能家居，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 91,
+      "s": 41,
+      "start": 324.03,
+      "end": 326.61,
+      "text": "我们还需要给系统安装一些插件。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 92,
+      "s": 42,
+      "start": 331.51,
+      "end": 334.93,
+      "text": "点击界面左下角配置，进入加载项。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "s": 43,
+      "start": 336.08,
+      "end": 339.64,
+      "text": "在加载项商店下载所需要的加载项，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 94,
+      "s": 43,
+      "start": 339.94,
+      "end": 341.99,
+      "text": "这里我们要下载两个加载项，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 95,
+      "s": 43,
+      "start": 342.38,
+      "end": 343.75,
+      "text": "一个是网页终端，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 96,
+      "s": 44,
+      "start": 344.02,
+      "end": 344.86,
+      "text": "这样我们就可以",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 97,
+      "s": 44,
+      "start": 344.86,
+      "end": 347.46,
+      "text": "直接在网页上使用终端指令了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 98,
+      "s": 45,
+      "start": 350.72,
+      "end": 352.56,
+      "text": "另一个是MosquittoBroker，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 99,
+      "s": 45,
+      "start": 352.8,
+      "end": 355.36,
+      "text": "这是一个开源的MQTTBroker，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 100,
+      "s": 46,
+      "start": 355.74,
+      "end": 358.38,
+      "text": "学习过MQTT的朋友应该不陌生。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 101,
+      "s": 47,
+      "start": 358.6,
+      "end": 359.9,
+      "text": "接下来我们要安装",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 102,
+      "s": 47,
+      "start": 359.9,
+      "end": 361.84,
+      "text": "用于绑定智能家居的插件。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 103,
+      "s": 48,
+      "start": 366.28,
+      "end": 368.94,
+      "text": "首先，我们在终端输入这行指令",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 104,
+      "s": 48,
+      "start": 368.94,
+      "end": 370.68,
+      "text": "安装HomeAssistantCommunityStore。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 105,
+      "s": 49,
+      "start": 371.66,
+      "end": 373.46,
+      "text": "这个商城可以下载",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 106,
+      "s": 49,
+      "start": 373.46,
+      "end": 376.18,
+      "text": "社区内的各种插件，比如说，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 107,
+      "s": 50,
+      "start": 376.18,
+      "end": 377.86,
+      "text": "如果想通过HomeAssistant",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 108,
+      "s": 50,
+      "start": 377.86,
+      "end": 379.59,
+      "text": "控制米家设备，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 109,
+      "s": 50,
+      "start": 379.68,
+      "end": 381.84,
+      "text": "可以下载小米米LTAuto。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 110,
+      "s": 51,
+      "start": 384.38,
+      "end": 386.96,
+      "text": "这里还有很多其他生态的插件，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 111,
+      "s": 51,
+      "start": 386.96,
+      "end": 389.67,
+      "text": "比如说Haier。格力，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 112,
+      "s": 52,
+      "start": 390.16,
+      "end": 393.15,
+      "text": "下面我会展示如何绑定米家的设备。",
+      "speaker": "B",
+      "u": 51,
+      "role": "storyteller"
+    },
+    {
+      "i": 113,
+      "s": 53,
+      "start": 394.02,
+      "end": 396.6,
+      "text": "我们下载好小米米IOTAuto后",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 114,
+      "s": 53,
+      "start": 396.6,
+      "end": 398.5,
+      "text": "就可以绑定账号了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 115,
+      "s": 54,
+      "start": 398.68,
+      "end": 405.52,
+      "text": "打开配置、设备与服务、添加集成，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 116,
+      "s": 54,
+      "start": 406.54,
+      "end": 408.78,
+      "text": "搜索小米米IOTAuto，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 117,
+      "s": 55,
+      "start": 409.36,
+      "end": 412.08,
+      "text": "选择后会跳出登录小米账号的界面。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 118,
+      "s": 56,
+      "start": 415.18,
+      "end": 416.71,
+      "text": "在这里，我们输入",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 119,
+      "s": 56,
+      "start": 416.71,
+      "end": 420.41,
+      "text": "登录米家的账号和密码，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 120,
+      "s": 56,
+      "start": 428.31,
+      "end": 429.39,
+      "text": "之后就会自动识别",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 121,
+      "s": 56,
+      "start": 429.39,
+      "end": 431.58,
+      "text": "米家账号已经配对的设备。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 122,
+      "s": 57,
+      "start": 438.39,
+      "end": 439.39,
+      "text": "现在我们可以看到，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 123,
+      "s": 57,
+      "start": 439.39,
+      "end": 441.01,
+      "text": "这些设备已经绑定在了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 124,
+      "s": 57,
+      "start": 441.01,
+      "end": 442.37,
+      "text": "HomeAssistant系统上了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 125,
+      "s": 58,
+      "start": 442.71,
+      "end": 444.29,
+      "text": "我们在这个页面上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 126,
+      "s": 58,
+      "start": 444.29,
+      "end": 447.01,
+      "text": "可以控制设备或者读取设备的参数。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 127,
+      "s": 59,
+      "start": 447.55,
+      "end": 448.95,
+      "text": "那么，如何通过MQTT",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 128,
+      "s": 59,
+      "start": 448.95,
+      "end": 450.56,
+      "text": "来控制这些设备呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 129,
+      "s": 60,
+      "start": 452.29,
+      "end": 453.83,
+      "text": "点击左下角配置",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 130,
+      "s": 60,
+      "start": 453.83,
+      "end": 458.01,
+      "text": "自动化与场景创建自动化。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 131,
+      "s": 61,
+      "start": 461.12,
+      "end": 464.57,
+      "text": "这里有两个配置，第一个是触发器，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 132,
+      "s": 61,
+      "start": 464.57,
+      "end": 466.91,
+      "text": "配置触发动作的事件，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 133,
+      "s": 61,
+      "start": 466.91,
+      "end": 469.9,
+      "text": "比如说某个设备的参数达到预定值。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 134,
+      "s": 62,
+      "start": 469.99,
+      "end": 472.29,
+      "text": "到达某个预定的时间，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 135,
+      "s": 62,
+      "start": 472.29,
+      "end": 474.24,
+      "text": "或者收到MQTT消息。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 136,
+      "s": 63,
+      "start": 475.03,
+      "end": 477.99,
+      "text": "第二个是事件触发后做出的动作，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 137,
+      "s": 63,
+      "start": 477.99,
+      "end": 480.47,
+      "text": "比如说打开或者关闭台灯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "s": 63,
+      "start": 480.47,
+      "end": 482.46,
+      "text": "把灯调暗或者调亮。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 64,
+      "start": 483.31,
+      "end": 486.63,
+      "text": "我们在触发器选择收到MQTT时，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "s": 64,
+      "start": 491.97,
+      "end": 494.47,
+      "text": "这里MQTT的Topic和Payload",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "s": 64,
+      "start": 494.47,
+      "end": 495.89,
+      "text": "都可以随便自定义。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "s": 65,
+      "start": 496.06,
+      "end": 499.29,
+      "text": "不过，如果打算绑定很多设备的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 143,
+      "s": 65,
+      "start": 499.29,
+      "end": 502.03,
+      "text": "最好把归类做好，方便后续管理。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 144,
+      "s": 66,
+      "start": 504.43,
+      "end": 505.27,
+      "text": "在动作这里，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 145,
+      "s": 66,
+      "start": 505.27,
+      "end": 508.3,
+      "text": "我们可以指定一个或者多个设备，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 146,
+      "s": 66,
+      "start": 508.31,
+      "end": 510.76,
+      "text": "比如这里我指定一个小米床头灯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 147,
+      "s": 67,
+      "start": 513.77,
+      "end": 515.43,
+      "text": "配置成触发后开灯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "s": 67,
+      "start": 515.51,
+      "end": 516.88,
+      "text": "亮度调成百分之五十，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 149,
+      "s": 67,
+      "start": 520.15,
+      "end": 521.57,
+      "text": "保存后就能生效了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 150,
+      "s": 68,
+      "start": 533.35,
+      "end": 535.79,
+      "text": "为了验证是否生效，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 151,
+      "s": 68,
+      "start": 535.79,
+      "end": 538.13,
+      "text": "我们可以用MQTT测试工具，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 152,
+      "s": 68,
+      "start": 538.13,
+      "end": 540.69,
+      "text": "比如说MQTTX进行测试。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 153,
+      "s": 69,
+      "start": 541.33,
+      "end": 544.03,
+      "text": "这里我们创建一个新的连接，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 154,
+      "s": 69,
+      "start": 544.03,
+      "end": 546.01,
+      "text": "Host选择MQTTHomeAssistantLocal。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 155,
+      "s": 70,
+      "start": 547.12,
+      "end": 550.96,
+      "text": "端口选择1883username和password",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 156,
+      "s": 70,
+      "start": 550.96,
+      "end": 553.24,
+      "text": "就是刚才初始化界面创建的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 157,
+      "s": 70,
+      "start": 553.24,
+      "end": 556.24,
+      "text": "登录账号和密码",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "s": 71,
+      "start": 556.42,
+      "end": 558.74,
+      "text": "然后点击连接",
+      "speaker": "B",
+      "u": 70,
+      "role": "storyteller"
+    },
+    {
+      "i": 159,
+      "s": 71,
+      "start": 558.74,
+      "end": 560.62,
+      "text": "成功后可以发一个消息",
+      "speaker": "B",
+      "u": 70,
+      "role": "storyteller"
+    },
+    {
+      "i": 160,
+      "s": 71,
+      "start": 560.62,
+      "end": 561.78,
+      "text": "验证是否可以",
+      "speaker": "B",
+      "u": 70,
+      "role": "storyteller"
+    },
+    {
+      "i": 161,
+      "s": 71,
+      "start": 561.78,
+      "end": 564.06,
+      "text": "通过MQTT控制设备",
+      "speaker": "B",
+      "u": 70,
+      "role": "storyteller"
+    },
+    {
+      "i": 162,
+      "s": 71,
+      "start": 564.06,
+      "end": 569.32,
+      "text": "接下来可以使用ESP32",
+      "speaker": "B",
+      "u": 70,
+      "role": "storyteller"
+    },
+    {
+      "i": 163,
+      "s": 72,
+      "start": 569.32,
+      "end": 572.06,
+      "text": "向HomeAssistant发送MQTT消息",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 164,
+      "s": 72,
+      "start": 572.06,
+      "end": 574.9,
+      "text": "注意要保证ESP32和HomeAssistant",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 165,
+      "s": 73,
+      "start": 574.9,
+      "end": 576.52,
+      "text": "处于同一局域网下",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 166,
+      "s": 73,
+      "start": 576.74,
+      "end": 578.85,
+      "text": "这部分其实非常简单，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 167,
+      "s": 73,
+      "start": 579.01,
+      "end": 580.48,
+      "text": "只需要照着IDF的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 168,
+      "s": 73,
+      "start": 580.48,
+      "end": 583.01,
+      "text": "MQTT基础例程做一些配置，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 169,
+      "s": 74,
+      "start": 583.8,
+      "end": 585.75,
+      "text": "直接把这个工程缝纫过来。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "s": 75,
+      "start": 591.9,
+      "end": 594.34,
+      "text": "在这个MQTTConfig结构体",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 171,
+      "s": 75,
+      "start": 594.34,
+      "end": 596.04,
+      "text": "配置URI，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 172,
+      "s": 76,
+      "start": 596.38,
+      "end": 599.16,
+      "text": "配置HomeAssistant的用户名和密码。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 173,
+      "s": 77,
+      "start": 603.02,
+      "end": 604.85,
+      "text": "然后调用这个API",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 174,
+      "s": 77,
+      "start": 604.85,
+      "end": 607.09,
+      "text": "发布MQTT消息，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 175,
+      "s": 77,
+      "start": 607.09,
+      "end": 608.49,
+      "text": "API的具体用法",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 176,
+      "s": 77,
+      "start": 608.49,
+      "end": 610.93,
+      "text": "可以参考IDF编程指南。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 177,
+      "s": 78,
+      "start": 612.47,
+      "end": 614.01,
+      "text": "MQTT消息要确认",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 178,
+      "s": 78,
+      "start": 614.01,
+      "end": 616.86,
+      "text": "和HomeAssistant中的配置保持一致。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 179,
+      "s": 79,
+      "start": 617.85,
+      "end": 619.25,
+      "text": "调用之前确认一下",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 180,
+      "s": 79,
+      "start": 619.25,
+      "end": 621.77,
+      "text": "MQTT是否处于连接状态。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 181,
+      "s": 80,
+      "start": 622.09,
+      "end": 624.07,
+      "text": "当你需要控制设备时，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 182,
+      "s": 80,
+      "start": 624.07,
+      "end": 626.25,
+      "text": "就可以调用对应的自定义函数。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 183,
+      "s": 81,
+      "start": 627.7,
+      "end": 631.24,
+      "text": "打开台灯。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 184,
+      "s": 82,
+      "start": 634.06,
+      "end": 636.7,
+      "text": "感兴趣的朋友快来体验一下吧！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 185,
+      "s": 83,
+      "start": 636.7,
+      "end": 637.9,
+      "text": "大家对HomeAssistant",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 186,
+      "s": 83,
+      "start": 637.9,
+      "end": 639.99,
+      "text": "或者智能家居有什么想法？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 187,
+      "s": 84,
+      "start": 640.08,
+      "end": 642.13,
+      "text": "欢迎在评论区参与讨论。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 188,
+      "s": 85,
+      "start": 642.34,
+      "end": 643.63,
+      "text": "我们下期再见。",
+      "speaker": "B",
+      "role": "storyteller"
+    }
+  ]
+}

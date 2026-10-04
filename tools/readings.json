@@ -28,5 +28,9 @@
     "好好学": ["hǎo hǎo xué", "没有好好学: không học tử tế — 好好 là hǎo hǎo; hào là thích"],
     "太太怎么说": ["tài tài zěn me shuō", "太太怎么说呢: quá, quá… nói sao nhỉ — 太 lặp lại, không phải 太太 tài tai (bà, vợ)"],
     "差得非常远": ["chà de fēi cháng yuǎn", "离这句话差得非常远: còn cách rất xa — 得 là trợ từ de, không phải dé"]
+  },
+  "BV1yZ421M7NR": {
+    "只需要": ["zhǐ xū yào", "我们只需要在HomeAssistant上: chỉ cần — 只 là zhǐ; zhī là lượng từ"],
+    "这行指令": ["zhè háng zhǐ lìng", "在终端输入这行指令: dòng lệnh này — 行 là lượng từ háng (dòng), không phải xíng"]
   }
 }
