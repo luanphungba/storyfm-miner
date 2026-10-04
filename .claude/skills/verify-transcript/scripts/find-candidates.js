@@ -100,42 +100,34 @@ function keptApart(/** @type {any[]} */ fixes, /** @type {number} */ cueIndex) {
   return fixes.filter((f) => f.cueIndex === cueIndex && f.source === 'llm-review').map((f) => f.after);
 }
 
-function applyGlueFixes(
-  /** @type {string} */ text,
-  /** @type {Map<string, string>} */ fixes,
-  /** @type {string[]} */ apart = []
-) {
-  let result = text;
-  for (const [wrong, right] of fixes) {
-    if (apart.some((written) => written.includes(wrong))) continue;
-    result = result.split(wrong).join(right);
+/**
+ * The deterministic fixes a sentence still needs: one per glued pair and one per known phrase, in
+ * the order the build replays them, so each one's `before` is there when its turn comes. One entry
+ * each rather than one span from the first change to the last: split-cues refuses a cut inside a
+ * fixed span, and in a Latin-heavy sentence that span was most of it (BV1HQTs6FEos-p3 sentence 1:
+ * " ash所以需要外接一个W 25 Q 12 8提供16兆比的外置Fl ").
+ * @param {string} text
+ * @param {Map<string, string>} glueFixes
+ * @param {string[]} apart
+ * @param {any[]} knownFixes
+ */
+function deterministicFixes(text, glueFixes, apart, knownFixes) {
+  /** @type {{ before: string, after: string, source: 'glue-bug' | 'known-phrase' }[]} */
+  const fixes = [];
+  let current = text;
+  const apply = (/** @type {string} */ before, /** @type {string} */ after, /** @type {'glue-bug' | 'known-phrase'} */ source) => {
+    fixes.push({ before, after, source });
+    current = current.split(before).join(after);
+  };
+  for (const [wrong, right] of glueFixes) {
+    if (current.includes(wrong) && !apart.some((written) => written.includes(wrong))) apply(wrong, right, 'glue-bug');
   }
-  return result;
-}
-
-function applyKnownFixes(/** @type {string} */ text, /** @type {any[]} */ knownFixes) {
-  let result = text;
   for (const fix of knownFixes) {
-    if (!result.includes(fix.wrong)) continue;
-    if (fix.matchContext && !new RegExp(fix.matchContext).test(result)) continue;
-    result = result.split(fix.wrong).join(fix.right);
+    if (!current.includes(fix.wrong)) continue;
+    if (fix.matchContext && !new RegExp(fix.matchContext).test(current)) continue;
+    apply(fix.wrong, fix.right, 'known-phrase');
   }
-  return result;
-}
-
-/** Finds the differing middle span between two strings that match everywhere else. */
-function diffSpan(/** @type {string} */ before, /** @type {string} */ after) {
-  let prefix = 0;
-  while (prefix < before.length && prefix < after.length && before[prefix] === after[prefix]) prefix += 1;
-  let suffix = 0;
-  while (
-    suffix < before.length - prefix &&
-    suffix < after.length - prefix &&
-    before[before.length - 1 - suffix] === after[after.length - 1 - suffix]
-  ) {
-    suffix += 1;
-  }
-  return { before: before.slice(prefix, before.length - suffix), after: after.slice(prefix, after.length - suffix) };
+  return fixes;
 }
 
 /**
@@ -187,25 +179,20 @@ async function main() {
   let changed = false;
 
   for (const cue of sentencesOf(raw, ledger)) {
-    const original = cue.text;
-    const glued = applyGlueFixes(original, glueFixes, keptApart(ledger.fixes, cue.i));
-    const text = applyKnownFixes(glued, knownFixes);
-    if (text !== original) {
-      const { before, after } = diffSpan(original, text);
+    for (const { before, after, source } of deterministicFixes(cue.text, glueFixes, keptApart(ledger.fixes, cue.i), knownFixes)) {
       const key = `${cue.i}:${before}:${after}`;
-      if (!alreadyFixed.has(key)) {
-        ledger.fixes.push({
-          cueIndex: cue.i,
-          before,
-          after,
-          source: glued !== original ? 'glue-bug' : 'known-phrase',
-          reason: glued !== original
-            ? 'AssemblyAI split one Latin word/acronym into fragments; joined back together.'
-            : 'Matches a known recurring mistake in the show\'s fixed script (scripts/known-fixes.json).',
-          appliedAt: new Date().toISOString().slice(0, 10),
-        });
-        alreadyFixed.add(key);
-      }
+      if (alreadyFixed.has(key)) continue;
+      ledger.fixes.push({
+        cueIndex: cue.i,
+        before,
+        after,
+        source,
+        reason: source === 'glue-bug'
+          ? 'AssemblyAI split one Latin word/acronym into fragments; joined back together.'
+          : 'Matches a known recurring mistake in the show\'s fixed script (scripts/known-fixes.json).',
+        appliedAt: new Date().toISOString().slice(0, 10),
+      });
+      alreadyFixed.add(key);
       changed = true;
     }
   }
