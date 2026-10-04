@@ -1,0 +1,504 @@
+{
+  "episode": "CC5",
+  "summary": [
+    "Tập 5 của podcast 瞎扯学中文 Convo Chinese là một tập ngắn: host Joanne nói một mình, không có khách mời. Tuần này cô hơi bận và hơi mệt: cuối tuần trước là ngày lễ ở Pháp, thứ Hai không phải lên lớp, nên cô cùng mấy người bạn tự lái xe sang Bỉ, đi Brussels ba ngày, hôm qua mới về. Nhưng tuần nào podcast cũng ra một tập, Joanne không muốn bỏ \"truyền thống vẻ vang\" ấy, nên hôm nay cô xin \"lười một chút\" (偷个小懒) và thu một đoạn độc thoại ngắn.",
+    "Tuần sau Joanne định mời một người bạn Pháp đang học tiếng Trung, người nói tiếng Trung lưu loát nhất trong số người nước ngoài cô quen, đến chia sẻ kinh nghiệm học. Rồi cô kể mình rất vui và cảm động khi thấy chương trình trên Spotify, Google Podcast đã có khoảng hai ba chục người nghe ở khắp nơi: Đông Nam Á (Việt Nam, Malaysia, Indonesia), châu Âu, Mỹ, Canada. Cô cảm ơn người nghe và mời mọi người để lại bình luận: góp ý cho chương trình, chủ đề muốn nghe, vì sao học tiếng Trung, học bao lâu rồi và khó khăn lớn nhất là gì."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "Hello，大家好，欢迎大家来收听我们的第五期节目。",
+      "parts": [
+        {
+          "zh": "Hello，大家好，",
+          "vi": "Hello, chào mọi người,"
+        },
+        {
+          "zh": "欢迎大家来收听我们的第五期节目。",
+          "vi": "chào mừng mọi người đến nghe tập thứ năm của chúng mình."
+        }
+      ]
+    },
+    "1": {
+      "zh": "那不知不觉已经录了五期节目了。",
+      "vi": "Thế là chẳng mấy chốc đã thu được năm tập rồi."
+    },
+    "2": {
+      "zh": "一开始做的时候呢，我也没有想到我能不能坚持下来，没有想到做着做着就已经第五个星期了。",
+      "parts": [
+        {
+          "zh": "一开始做的时候呢，",
+          "vi": "Lúc mới bắt đầu làm ấy,"
+        },
+        {
+          "zh": "我也没有想到我能不能坚持下来，",
+          "vi": "mình cũng không biết mình có kiên trì nổi không,"
+        },
+        {
+          "zh": "没有想到做着做着",
+          "vi": "không ngờ làm mãi làm mãi"
+        },
+        {
+          "zh": "就已经第五个星期了。",
+          "vi": "mà đã sang tuần thứ năm rồi."
+        }
+      ]
+    },
+    "3": {
+      "zh": "今天呢，我没有请到我的好朋友或者是特邀嘉宾来跟我一起聊，因为这个星期我有一点忙，",
+      "parts": [
+        {
+          "zh": "今天呢，我没有请到我的好朋友",
+          "vi": "Hôm nay thì mình không mời được bạn thân"
+        },
+        {
+          "zh": "或者是特邀嘉宾来跟我一起聊，",
+          "vi": "hay khách mời đặc biệt nào đến nói chuyện cùng mình,"
+        },
+        {
+          "zh": "因为这个星期我有一点忙，",
+          "vi": "vì tuần này mình hơi bận,"
+        }
+      ]
+    },
+    "4": {
+      "zh": "然后我也有一点累。",
+      "vi": "rồi mình cũng hơi mệt."
+    },
+    "5": {
+      "zh": "上周末呢是法国的一个国定节假日，所以说周一的我们不用上课，",
+      "parts": [
+        {
+          "zh": "上周末呢是法国的一个国定节假日，",
+          "vi": "Cuối tuần trước là một ngày lễ quốc gia của Pháp,"
+        },
+        {
+          "zh": "所以说周一的我们不用上课，",
+          "vi": "nên thứ Hai bọn mình không phải lên lớp,"
+        }
+      ]
+    },
+    "6": {
+      "zh": "我呢就和几个小伙伴一起自驾开车去了比利时。",
+      "parts": [
+        {
+          "zh": "我呢就和几个小伙伴",
+          "vi": "mình thì cùng mấy người bạn"
+        },
+        {
+          "zh": "一起自驾开车去了比利时。",
+          "vi": "tự lái xe sang Bỉ."
+        }
+      ]
+    },
+    "7": {
+      "zh": "比利时的首都布鲁塞尔，我们做了一个三天的自驾游，所以呢，我昨天刚刚回来，感觉有一点累。",
+      "parts": [
+        {
+          "zh": "比利时的首都布鲁塞尔，",
+          "vi": "Đến thủ đô Brussels của Bỉ,"
+        },
+        {
+          "zh": "我们做了一个三天的自驾游，",
+          "vi": "bọn mình làm một chuyến tự lái ba ngày,"
+        },
+        {
+          "zh": "所以呢，我昨天刚刚回来，",
+          "vi": "nên hôm qua mình mới về,"
+        },
+        {
+          "zh": "感觉有一点累。",
+          "vi": "thấy hơi mệt."
+        }
+      ]
+    },
+    "8": {
+      "zh": "这周我就没有安排和我的朋友或者任何嘉宾来录这个节目，但是呢，我又想，呃，",
+      "parts": [
+        {
+          "zh": "这周我就没有安排和我的朋友",
+          "vi": "Tuần này mình không hẹn bạn bè"
+        },
+        {
+          "zh": "或者任何嘉宾来录这个节目，",
+          "vi": "hay khách mời nào đến thu chương trình,"
+        },
+        {
+          "zh": "但是呢，我又想，呃，",
+          "vi": "nhưng mà mình lại nghĩ, ờ,"
+        }
+      ]
+    },
+    "9": {
+      "zh": "每周我们都会更新一次，所以不能够放弃这个光荣传统，所以今天我就偷一个懒。",
+      "parts": [
+        {
+          "zh": "每周我们都会更新一次，",
+          "vi": "tuần nào chúng mình cũng ra một tập,"
+        },
+        {
+          "zh": "所以不能够放弃这个光荣传统，",
+          "vi": "nên không thể bỏ truyền thống vẻ vang này được,"
+        },
+        {
+          "zh": "所以今天我就偷一个懒。",
+          "vi": "thế nên hôm nay mình xin lười một chút."
+        }
+      ]
+    },
+    "10": {
+      "zh": "自己一个人录一小段独白，也算是交代一下这这个星期的任务。",
+      "parts": [
+        {
+          "zh": "自己一个人录一小段独白，",
+          "vi": "Tự mình thu một đoạn độc thoại ngắn,"
+        },
+        {
+          "zh": "也算是交代一下这这个星期的任务。",
+          "vi": "coi như cũng có cái nộp cho nhiệm vụ tuần này."
+        }
+      ]
+    },
+    "11": {
+      "zh": "然后呢，下个星期我有打算邀请到我一位学中文的法国好朋友，",
+      "parts": [
+        {
+          "zh": "然后呢，下个星期我有打算邀请到",
+          "vi": "Rồi thì, tuần sau mình định mời"
+        },
+        {
+          "zh": "我一位学中文的法国好朋友，",
+          "vi": "một người bạn Pháp đang học tiếng Trung,"
+        }
+      ]
+    },
+    "12": {
+      "zh": "他的中文说的真的是特别特别的流利，是我认识的所有外国人当中学中文说的最流利的，",
+      "parts": [
+        {
+          "zh": "他的中文说的",
+          "vi": "bạn ấy nói tiếng Trung"
+        },
+        {
+          "zh": "真的是特别特别的流利，",
+          "vi": "thật sự là cực kỳ, cực kỳ lưu loát,"
+        },
+        {
+          "zh": "是我认识的所有外国人当中",
+          "vi": "trong tất cả những người nước ngoài mình quen,"
+        },
+        {
+          "zh": "学中文说的最流利的，",
+          "vi": "bạn ấy là người học tiếng Trung nói lưu loát nhất,"
+        }
+      ]
+    },
+    "13": {
+      "zh": "所以我希望能够请到他来跟大家分享一下。",
+      "parts": [
+        {
+          "zh": "所以我希望能够请到他",
+          "vi": "nên mình mong là mời được bạn ấy"
+        },
+        {
+          "zh": "来跟大家分享一下。",
+          "vi": "đến chia sẻ với mọi người một chút."
+        }
+      ]
+    },
+    "14": {
+      "zh": "他在学中文的过程当中有什么心得啊、心路历程，以及他可以给大大家一些学中文的建议等等。",
+      "parts": [
+        {
+          "zh": "他在学中文的过程当中",
+          "vi": "Trong quá trình học tiếng Trung, bạn ấy"
+        },
+        {
+          "zh": "有什么心得啊、心路历程，",
+          "vi": "có những điều tâm đắc gì, đã trải qua những gì,"
+        },
+        {
+          "zh": "以及他可以给大大家",
+          "vi": "cũng như bạn ấy có thể cho mọi người"
+        },
+        {
+          "zh": "一些学中文的建议等等。",
+          "vi": "vài lời khuyên học tiếng Trung, vân vân."
+        }
+      ]
+    },
+    "15": {
+      "zh": "第二点呢，今天我其实有看到我的节目已经在各个不同的平台上，比如说Spotify呀、",
+      "parts": [
+        {
+          "zh": "第二点呢，今天我其实有看到",
+          "vi": "Điểm thứ hai nhé, hôm nay mình có thấy"
+        },
+        {
+          "zh": "我的节目已经在各个不同的平台上，",
+          "vi": "chương trình của mình trên các nền tảng khác nhau,"
+        },
+        {
+          "zh": "比如说Spotify呀、",
+          "vi": "ví dụ như Spotify này,"
+        }
+      ]
+    },
+    "16": {
+      "zh": "Google Podcast，可能有二十几个到三十几个听众。",
+      "parts": [
+        {
+          "zh": "Google Podcast，",
+          "vi": "Google Podcast,"
+        },
+        {
+          "zh": "可能有二十几个到三十几个听众。",
+          "vi": "có lẽ đã có hai mươi mấy đến ba mươi mấy người nghe."
+        }
+      ]
+    },
+    "17": {
+      "zh": "我的follower，我觉得特别开心，因为在刚开始做这个节目的时候，",
+      "parts": [
+        {
+          "zh": "我的follower，",
+          "vi": "Những follower của mình,"
+        },
+        {
+          "zh": "我觉得特别开心，",
+          "vi": "mình thấy vui lắm,"
+        },
+        {
+          "zh": "因为在刚开始做这个节目的时候，",
+          "vi": "vì lúc mới bắt đầu làm chương trình này,"
+        }
+      ]
+    },
+    "18": {
+      "zh": "我想可能只是为了我自己的周围的好朋友，那些学中文的外国的好朋友们来听、",
+      "parts": [
+        {
+          "zh": "我想可能只是为了",
+          "vi": "mình nghĩ có lẽ chỉ là để"
+        },
+        {
+          "zh": "我自己的周围的好朋友，",
+          "vi": "những người bạn thân quanh mình,"
+        },
+        {
+          "zh": "那些学中文的外国的好朋友们来听、",
+          "vi": "những người bạn nước ngoài học tiếng Trung đến nghe,"
+        }
+      ]
+    },
+    "19": {
+      "zh": "来用我的这个podcast学习中文。",
+      "parts": [
+        {
+          "zh": "来用我的这个podcast",
+          "vi": "đến dùng podcast này của mình"
+        },
+        {
+          "zh": "学习中文。",
+          "vi": "để học tiếng Trung."
+        }
+      ]
+    },
+    "20": {
+      "zh": "没有想到现在我看到来自世界各地有很多不同国家的听众。",
+      "parts": [
+        {
+          "zh": "没有想到现在我看到",
+          "vi": "Không ngờ bây giờ mình thấy"
+        },
+        {
+          "zh": "来自世界各地",
+          "vi": "từ khắp nơi trên thế giới"
+        },
+        {
+          "zh": "有很多不同国家的听众。",
+          "vi": "có rất nhiều người nghe ở các nước khác nhau"
+        }
+      ]
+    },
+    "21": {
+      "zh": "正在收听我的节目，我真的觉得很开心，然后很感动。",
+      "parts": [
+        {
+          "zh": "正在收听我的节目，",
+          "vi": "đang nghe chương trình của mình,"
+        },
+        {
+          "zh": "我真的觉得很开心，然后很感动。",
+          "vi": "mình thật sự thấy rất vui, rồi rất cảm động."
+        }
+      ]
+    },
+    "22": {
+      "zh": "比如我看到有很多东南亚国家的听众，有来自越南呀、马来西亚、印度尼西亚，",
+      "parts": [
+        {
+          "zh": "比如我看到",
+          "vi": "Ví dụ mình thấy"
+        },
+        {
+          "zh": "有很多东南亚国家的听众，",
+          "vi": "có nhiều người nghe ở các nước Đông Nam Á,"
+        },
+        {
+          "zh": "有来自越南呀、马来西亚、印度尼西亚，",
+          "vi": "có người từ Việt Nam này, Malaysia, Indonesia,"
+        }
+      ]
+    },
+    "23": {
+      "zh": "也有很多欧洲的、美国的、加拿大的朋友。",
+      "parts": [
+        {
+          "zh": "也有很多欧洲的、",
+          "vi": "cũng có nhiều bạn ở châu Âu,"
+        },
+        {
+          "zh": "美国的、加拿大的朋友。",
+          "vi": "ở Mỹ, ở Canada."
+        }
+      ]
+    },
+    "24": {
+      "zh": "虽然一共就二十几个、三十几个听众，但我还是觉得很开心。",
+      "parts": [
+        {
+          "zh": "虽然一共就二十几个、三十几个听众，",
+          "vi": "Tuy tổng cộng chỉ có hai mươi mấy, ba mươi mấy người nghe,"
+        },
+        {
+          "zh": "但我还是觉得很开心。",
+          "vi": "nhưng mình vẫn thấy rất vui."
+        }
+      ]
+    },
+    "25": {
+      "zh": "所以首先要谢谢你们。听我的节目，其次呢？其次呢？",
+      "parts": [
+        {
+          "zh": "所以首先要谢谢你们。听我的节目，",
+          "vi": "Nên trước hết phải cảm ơn các bạn đã nghe chương trình của mình,"
+        },
+        {
+          "zh": "其次呢？其次呢？",
+          "vi": "thứ hai là... thứ hai là..."
+        }
+      ]
+    },
+    "28": {
+      "zh": "我其实也很希望可以可以认识大家。",
+      "vi": "Thật ra mình cũng rất mong được làm quen với mọi người."
+    },
+    "29": {
+      "zh": "所以说，你们如果对我的节目有什么建议呀，有什么期待，或者是有什么你们感兴趣的话题，",
+      "parts": [
+        {
+          "zh": "所以说，你们如果对我的节目",
+          "vi": "Nên là, nếu về chương trình của mình"
+        },
+        {
+          "zh": "有什么建议呀，有什么期待，",
+          "vi": "các bạn có góp ý gì, có mong đợi gì,"
+        },
+        {
+          "zh": "或者是有什么你们感兴趣的话题，",
+          "vi": "hoặc có chủ đề nào các bạn thấy hứng thú,"
+        }
+      ]
+    },
+    "30": {
+      "zh": "甚至呢，你们也可以简单的介绍一下你们为什么要学中文，学中文多长时间了。",
+      "parts": [
+        {
+          "zh": "甚至呢，你们也可以简单的介绍一下",
+          "vi": "thậm chí các bạn cũng có thể giới thiệu sơ qua"
+        },
+        {
+          "zh": "你们为什么要学中文，",
+          "vi": "vì sao các bạn học tiếng Trung,"
+        },
+        {
+          "zh": "学中文多长时间了。",
+          "vi": "học tiếng Trung bao lâu rồi."
+        }
+      ]
+    },
+    "31": {
+      "zh": "以及你们在学习中文的过程当中，觉得最大的困难、最大的挑战是什么？",
+      "parts": [
+        {
+          "zh": "以及你们在学习中文的过程当中，",
+          "vi": "Cũng như trong quá trình học tiếng Trung,"
+        },
+        {
+          "zh": "觉得最大的困难、最大的挑战是什么？",
+          "vi": "các bạn thấy khó khăn lớn nhất, thử thách lớn nhất là gì?"
+        }
+      ]
+    },
+    "32": {
+      "zh": "都可以在这个Podcast下面的留言区留言。",
+      "parts": [
+        {
+          "zh": "都可以在这个Podcast",
+          "vi": "Tất cả đều có thể để lại ở podcast này,"
+        },
+        {
+          "zh": "下面的留言区留言。",
+          "vi": "trong phần bình luận phía dưới."
+        }
+      ]
+    },
+    "33": {
+      "zh": "我非常非常的希望能够收到大家的留言，希望能够跟大家交一个朋友。",
+      "parts": [
+        {
+          "zh": "我非常非常的希望",
+          "vi": "Mình rất rất mong"
+        },
+        {
+          "zh": "能够收到大家的留言，",
+          "vi": "nhận được bình luận của mọi người,"
+        },
+        {
+          "zh": "希望能够跟大家交一个朋友。",
+          "vi": "mong được kết bạn với mọi người."
+        }
+      ]
+    },
+    "34": {
+      "zh": "好呀，那今天就让我偷个懒，就说到这里吧。",
+      "parts": [
+        {
+          "zh": "好呀，那今天就让我偷个懒，",
+          "vi": "Được rồi, vậy hôm nay cho mình lười một chút,"
+        },
+        {
+          "zh": "就说到这里吧。",
+          "vi": "nói đến đây thôi nhé."
+        }
+      ]
+    },
+    "35": {
+      "zh": "我们下期节目再见喽！",
+      "vi": "Hẹn gặp lại mọi người ở tập sau nha!"
+    },
+    "36": {
+      "zh": "祝大家这个星期。工作愉快，生活愉快，学习顺利。",
+      "parts": [
+        {
+          "zh": "祝大家这个星期。工作愉快，",
+          "vi": "Chúc mọi người tuần này làm việc vui vẻ,"
+        },
+        {
+          "zh": "生活愉快，学习顺利。",
+          "vi": "sống vui vẻ, học tập thuận lợi."
+        }
+      ]
+    }
+  }
+}

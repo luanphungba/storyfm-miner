@@ -1,0 +1,3070 @@
+{
+  "episode": "CC4",
+  "summary": [
+    "Trong tập này của podcast 瞎扯学中文 Convo Chinese, host Joanne (người Thượng Hải) mời lại Cameron — người Thành Đô, khách mời của tập chính thức đầu tiên — để nói về hệ thống giáo dục Trung Quốc: mẫu giáo, 6 năm tiểu học (Thượng Hải là 5), 3 năm cấp hai, 3 năm cấp ba, rồi kỳ thi đại học 高考, thứ mà người Trung Quốc ví như \"thiên quân vạn mã qua cầu độc mộc\".",
+    "Hai người giải thích vì sao thi đại học khó: đại học chia hạng (一本, 二本, rồi nhóm 985, 211), và năm 2019 chỉ 42% thí sinh đỗ hệ cử nhân, 14% đỗ trường hạng 1. Rồi họ kể ba điều không công bằng: hộ khẩu quyết định thi ở tỉnh nào, mà trường tốt nhận nhiều học sinh ở tỉnh mình, nên thi ở Thượng Hải dễ hơn hẳn Hà Nam; mỗi tỉnh có đề và môn thi khác nhau (Thượng Hải \"3 + X\", Tứ Xuyên thêm ba môn); và chế độ tuyển thẳng 保送. Joanne được tuyển thẳng nhờ Olympic Toán, Cameron theo diện ngoại ngữ, còn bạn cùng bàn của Cameron về Tây Tạng thi để được cộng điểm và vào ngành Kiến trúc của Thanh Hoa.",
+    "Sau đó họ chuyển sang chuyện nhẹ hơn: Cameron dở toán, chọn Đại học Trùng Khánh vì diện tuyển thẳng ở đó không thi toán, và thích lịch sử; Joanne là \"mọt sách\" giỏi toán, học cả ngành toán, giờ xem lại sổ ghi chép thấy như 天书 và tiếc đã bỏ bê sử, địa. Cuối cùng họ bàn cuộc tranh luận trên mạng \"học khối tự nhiên quan trọng hơn khối xã hội\", và câu ví dụ năm 1998 trong Từ điển Tân Hoa \"Trương Hoa đỗ Bắc Đại, Lý Bình vào trường kỹ thuật, tôi làm nhân viên bán hàng — chúng tôi đều có tương lai tươi sáng\", nay đã rất xa thực tế. Joanne hẹn lần sau kể chuyện yêu sớm của mình."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "Hello Hello，大家好，欢迎大家来到我们的第四期正式节目。",
+      "parts": [
+        {
+          "zh": "Hello Hello，大家好，",
+          "vi": "Hello Hello, chào mọi người,"
+        },
+        {
+          "zh": "欢迎大家来到我们的",
+          "vi": "chào mừng mọi người đến với"
+        },
+        {
+          "zh": "第四期正式节目。",
+          "vi": "tập chính thức thứ tư của chúng mình."
+        }
+      ]
+    },
+    "1": {
+      "zh": "那今天呢，我们邀请到了第一期一样的嘉宾Cameron。",
+      "parts": [
+        {
+          "zh": "那今天呢，我们邀请到了",
+          "vi": "Hôm nay chúng mình đã mời được"
+        },
+        {
+          "zh": "第一期一样的嘉宾Cameron。",
+          "vi": "vị khách mời giống tập đầu tiên, Cameron."
+        }
+      ]
+    },
+    "2": {
+      "zh": "Cameron，你和大家打一个招呼呗。",
+      "parts": [
+        {
+          "zh": "Cameron，",
+          "vi": "Cameron,"
+        },
+        {
+          "zh": "你和大家打一个招呼呗。",
+          "vi": "cậu chào mọi người một tiếng đi."
+        }
+      ]
+    },
+    "3": {
+      "zh": "大家好，我是Cameron。",
+      "vi": "Chào mọi người, mình là Cameron."
+    },
+    "4": {
+      "zh": "你的这个招呼就好像没有来过一样，这么这么不亲切。",
+      "parts": [
+        {
+          "zh": "你的这个招呼就好像没有来过一样，",
+          "vi": "Lời chào của cậu cứ như chưa từng đến đây ấy,"
+        },
+        {
+          "zh": "这么这么不亲切。",
+          "vi": "sao mà xa cách thế."
+        }
+      ]
+    },
+    "5": {
+      "zh": "我想先问问你，第一次录完以后，你有什么感触？",
+      "parts": [
+        {
+          "zh": "我想先问问你，",
+          "vi": "Mình muốn hỏi cậu trước,"
+        },
+        {
+          "zh": "第一次录完以后，你有什么感触？",
+          "vi": "sau lần ghi âm đầu tiên, cậu có cảm nhận gì?"
+        }
+      ]
+    },
+    "6": {
+      "zh": "有没有自己听自己的节目啊？",
+      "vi": "Cậu có tự nghe chương trình của mình không?"
+    },
+    "7": {
+      "zh": "啊，我其实我一般不会喜欢去看有我的东西，比如说我连我自己的照片我都不喜欢去看，",
+      "parts": [
+        {
+          "zh": "啊，我其实我一般",
+          "vi": "À, thật ra mình thường"
+        },
+        {
+          "zh": "不会喜欢去看有我的东西，",
+          "vi": "không thích xem những thứ có mình trong đó,"
+        },
+        {
+          "zh": "比如说我连我自己的照片",
+          "vi": "ví dụ ngay cả ảnh của chính mình"
+        },
+        {
+          "zh": "我都不喜欢去看，",
+          "vi": "mình cũng không thích xem,"
+        }
+      ]
+    },
+    "8": {
+      "zh": "所以说我没有完整的听，但是我大概听了一下。",
+      "parts": [
+        {
+          "zh": "所以说我没有完整的听，",
+          "vi": "nên mình không nghe hết,"
+        },
+        {
+          "zh": "但是我大概听了一下。",
+          "vi": "nhưng mình có nghe qua."
+        }
+      ]
+    },
+    "9": {
+      "zh": "可能因为我觉得听我自己或者看我自己感觉很尴尬，",
+      "parts": [
+        {
+          "zh": "可能因为我觉得听我自己",
+          "vi": "Có lẽ vì mình thấy nghe chính mình"
+        },
+        {
+          "zh": "或者看我自己感觉很尴尬，",
+          "vi": "hay nhìn chính mình thấy ngượng lắm,"
+        }
+      ]
+    },
+    "10": {
+      "zh": "对我觉得其实我也有这个感觉，",
+      "vi": "Ừ, mình thấy thật ra mình cũng có cảm giác đó,"
+    },
+    "11": {
+      "zh": "就是听自己的声音会其实录下来的声音和你自己听到自己说话的声音是不一样的。",
+      "parts": [
+        {
+          "zh": "就是听自己的声音会",
+          "vi": "là nghe giọng của chính mình thì sẽ…"
+        },
+        {
+          "zh": "其实录下来的声音和你自己",
+          "vi": "thật ra giọng thu lại và giọng mà cậu tự"
+        },
+        {
+          "zh": "听到自己说话的声音是不一样的。",
+          "vi": "nghe thấy khi mình nói là khác nhau."
+        }
+      ]
+    },
+    "12": {
+      "zh": "Anyways，那今天呢我们想要聊的话题是关于中国的教育体制，",
+      "parts": [
+        {
+          "zh": "Anyways，那今天呢",
+          "vi": "Anyways, vậy hôm nay"
+        },
+        {
+          "zh": "我们想要聊的话题",
+          "vi": "chủ đề chúng mình muốn nói"
+        },
+        {
+          "zh": "是关于中国的教育体制，",
+          "vi": "là về hệ thống giáo dục Trung Quốc,"
+        }
+      ]
+    },
+    "13": {
+      "zh": "我们可以先说一说那中国的小学、中学、大学。",
+      "parts": [
+        {
+          "zh": "我们可以先说一说",
+          "vi": "Chúng mình có thể nói trước về"
+        },
+        {
+          "zh": "那中国的小学、中学、大学。",
+          "vi": "tiểu học, trung học, đại học ở Trung Quốc."
+        }
+      ]
+    },
+    "14": {
+      "zh": "大概分别是多少年之类的？",
+      "vi": "Mỗi cấp khoảng bao nhiêu năm chẳng hạn?"
+    },
+    "15": {
+      "zh": "OK，嗯，我觉得中国的体制其实也没有什么特别特殊的地方，",
+      "parts": [
+        {
+          "zh": "OK，嗯，我觉得中国的体制",
+          "vi": "OK, ừm, mình thấy hệ thống của Trung Quốc"
+        },
+        {
+          "zh": "其实也没有什么特别特殊的地方，",
+          "vi": "thật ra cũng không có gì đặc biệt lắm,"
+        }
+      ]
+    },
+    "16": {
+      "zh": "就是和其他很多国家比起来也比较相像。",
+      "parts": [
+        {
+          "zh": "就是和其他很多国家",
+          "vi": "so với nhiều nước khác"
+        },
+        {
+          "zh": "比起来也比较相像。",
+          "vi": "thì cũng khá giống."
+        }
+      ]
+    },
+    "17": {
+      "zh": "所以一般大概从三岁开始吧，先上幼儿园，对不对？",
+      "parts": [
+        {
+          "zh": "所以一般大概从三岁开始吧，",
+          "vi": "Thường thì khoảng từ ba tuổi,"
+        },
+        {
+          "zh": "先上幼儿园，对不对？",
+          "vi": "đi mẫu giáo trước, đúng không?"
+        }
+      ]
+    },
+    "18": {
+      "zh": "从三岁开始上幼儿园，然后到了六岁或者七岁的样子。",
+      "parts": [
+        {
+          "zh": "从三岁开始上幼儿园，",
+          "vi": "Từ ba tuổi bắt đầu đi mẫu giáo,"
+        },
+        {
+          "zh": "然后到了六岁或者七岁的样子。",
+          "vi": "rồi đến khoảng sáu hay bảy tuổi."
+        }
+      ]
+    },
+    "19": {
+      "zh": "开始上小学，然后小学一般是六年，但是上海是七五五五年，对啊，所以说上海比较特别一点。",
+      "parts": [
+        {
+          "zh": "开始上小学，然后小学一般是六年，",
+          "vi": "thì vào tiểu học, tiểu học thường là 6 năm,"
+        },
+        {
+          "zh": "但是上海是七五五五年，对啊，",
+          "vi": "nhưng Thượng Hải là… 5… 5 năm, đúng rồi,"
+        },
+        {
+          "zh": "所以说上海比较特别一点。",
+          "vi": "nên Thượng Hải hơi đặc biệt một chút."
+        }
+      ]
+    },
+    "20": {
+      "zh": "然后但是大全国大多数都是小学六年，然后就是三年的初中，",
+      "parts": [
+        {
+          "zh": "然后但是大全国大多数",
+          "vi": "Rồi nhưng mà phần lớn cả nước"
+        },
+        {
+          "zh": "都是小学六年，",
+          "vi": "đều học tiểu học 6 năm,"
+        },
+        {
+          "zh": "然后就是三年的初中，",
+          "vi": "sau đó là 3 năm cấp hai,"
+        }
+      ]
+    },
+    "21": {
+      "zh": "然后这前面六年和初中三年加起来叫做九年义务教育。",
+      "parts": [
+        {
+          "zh": "然后这前面六年和初中三年",
+          "vi": "Rồi 6 năm đầu đó cộng với 3 năm cấp hai"
+        },
+        {
+          "zh": "加起来叫做九年义务教育。",
+          "vi": "gọi là 9 năm giáo dục bắt buộc."
+        }
+      ]
+    },
+    "22": {
+      "zh": "也就是所有人都必须上，所有人都必须完成的教育。",
+      "parts": [
+        {
+          "zh": "也就是所有人都必须上，",
+          "vi": "Tức là ai cũng phải đi học,"
+        },
+        {
+          "zh": "所有人都必须完成的教育。",
+          "vi": "là bậc học ai cũng phải hoàn thành."
+        }
+      ]
+    },
+    "23": {
+      "zh": "然后在初中三年过后呢，就是三年高中。",
+      "parts": [
+        {
+          "zh": "然后在初中三年过后呢，",
+          "vi": "Rồi sau 3 năm cấp hai,"
+        },
+        {
+          "zh": "就是三年高中。",
+          "vi": "là 3 năm cấp ba."
+        }
+      ]
+    },
+    "24": {
+      "zh": "但是这个高中有点类似于德国的Gymnasium这个意思，就是你如果读高中，",
+      "parts": [
+        {
+          "zh": "但是这个高中有点类似于德国的",
+          "vi": "Nhưng cấp ba ở đây hơi giống"
+        },
+        {
+          "zh": "Gymnasium这个意思，",
+          "vi": "Gymnasium của Đức,"
+        },
+        {
+          "zh": "就是你如果读高中，",
+          "vi": "tức là nếu cậu học cấp ba,"
+        }
+      ]
+    },
+    "25": {
+      "zh": "你的唯一目的基本上就是考大学。",
+      "vi": "thì mục đích duy nhất gần như là thi đại học."
+    },
+    "26": {
+      "zh": "但是也有其他的一些职业中学。",
+      "vi": "Nhưng cũng có những trường trung học nghề khác."
+    },
+    "27": {
+      "zh": "你就可以去学一些技术，但是我觉得这个我们等一下可以讨论一下。",
+      "parts": [
+        {
+          "zh": "你就可以去学一些技术，",
+          "vi": "Ở đó cậu có thể học kỹ thuật, học nghề,"
+        },
+        {
+          "zh": "但是我觉得这个",
+          "vi": "nhưng mình nghĩ chuyện này"
+        },
+        {
+          "zh": "我们等一下可以讨论一下。",
+          "vi": "lát nữa chúng mình có thể bàn thêm."
+        }
+      ]
+    },
+    "28": {
+      "zh": "中国的职业教育，我觉得是一个非常需要发展的部分。",
+      "parts": [
+        {
+          "zh": "中国的职业教育，",
+          "vi": "Giáo dục nghề nghiệp ở Trung Quốc,"
+        },
+        {
+          "zh": "我觉得是一个非常需要发展的部分。",
+          "vi": "mình thấy là một mảng rất cần phát triển."
+        }
+      ]
+    },
+    "29": {
+      "zh": "但是一般大多数人都会去上高中三年，然后完了就是一个很大的考试，著名的高考。",
+      "parts": [
+        {
+          "zh": "但是一般大多数人",
+          "vi": "Nhưng thường thì phần lớn mọi người"
+        },
+        {
+          "zh": "都会去上高中三年，",
+          "vi": "đều học cấp ba 3 năm,"
+        },
+        {
+          "zh": "然后完了就是",
+          "vi": "rồi học xong là"
+        },
+        {
+          "zh": "一个很大的考试，著名的高考。",
+          "vi": "một kỳ thi rất lớn, kỳ thi đại học 高考 nổi tiếng."
+        }
+      ]
+    },
+    "30": {
+      "zh": "然后经过了高考，大家就会进入到大学，也就是四年本科，大概就是这个样子。",
+      "parts": [
+        {
+          "zh": "然后经过了高考，",
+          "vi": "Rồi qua kỳ thi đại học,"
+        },
+        {
+          "zh": "大家就会进入到大学，",
+          "vi": "mọi người sẽ vào đại học,"
+        },
+        {
+          "zh": "也就是四年本科，大概就是这个样子。",
+          "vi": "tức là 4 năm cử nhân, đại khái là như vậy."
+        }
+      ]
+    },
+    "31": {
+      "zh": "我觉得如果要说中国的教育体制最有意思、最值得讨论的地方，可能是高考。",
+      "parts": [
+        {
+          "zh": "我觉得如果要说",
+          "vi": "Mình nghĩ nếu nói về"
+        },
+        {
+          "zh": "中国的教育体制最有意思、",
+          "vi": "điều thú vị nhất trong hệ thống giáo dục Trung Quốc,"
+        },
+        {
+          "zh": "最值得讨论的地方，可能是高考。",
+          "vi": "đáng bàn nhất, thì có lẽ là kỳ thi đại học."
+        }
+      ]
+    },
+    "32": {
+      "zh": "因为在中国我们有这么一句话：“高考就像是千军万马过独木桥”，对吧？",
+      "parts": [
+        {
+          "zh": "因为在中国我们有这么一句话：",
+          "vi": "Vì ở Trung Quốc có một câu thế này:"
+        },
+        {
+          "zh": "“高考就像是千军万马过独木桥”，对吧？",
+          "vi": "\"Thi đại học giống như thiên quân vạn mã qua cầu độc mộc\", đúng không?"
+        }
+      ]
+    },
+    "33": {
+      "zh": "你有听说过这个这个描述吗？",
+      "vi": "Cậu đã nghe cách nói này chưa?"
+    },
+    "34": {
+      "zh": "对我有听说过。",
+      "vi": "Ừ, mình nghe rồi."
+    },
+    "35": {
+      "zh": "对，“千军万马”就是一个成语，意思就是有很多很多的人啊，独木桥就是。",
+      "parts": [
+        {
+          "zh": "对，“千军万马”就是一个成语，",
+          "vi": "Ừ, \"thiên quân vạn mã\" là một thành ngữ,"
+        },
+        {
+          "zh": "意思就是有很多很多的人啊，",
+          "vi": "nghĩa là có rất rất nhiều người,"
+        },
+        {
+          "zh": "独木桥就是。",
+          "vi": "còn cầu độc mộc thì là…"
+        }
+      ]
+    },
+    "36": {
+      "zh": "就是在河上面有一个很窄的用一根木头做成的桥，意思就是有很多很多的人。",
+      "parts": [
+        {
+          "zh": "就是在河上面有一个很窄的",
+          "vi": "là một cây cầu rất hẹp bắc trên sông,"
+        },
+        {
+          "zh": "用一根木头做成的桥，",
+          "vi": "làm bằng một thân gỗ,"
+        },
+        {
+          "zh": "意思就是有很多很多的人。",
+          "vi": "ý là có rất rất nhiều người."
+        }
+      ]
+    },
+    "37": {
+      "zh": "为什么说高考是千军万马过独木桥？",
+      "vi": "Sao lại nói thi đại học là thiên quân vạn mã qua cầu độc mộc?"
+    },
+    "38": {
+      "zh": "你觉得？",
+      "vi": "Cậu nghĩ sao?"
+    },
+    "39": {
+      "zh": "就当然，因为其实真正最后考上本科的学生的人数这个比例，你知道是多少吗？",
+      "parts": [
+        {
+          "zh": "就当然，因为其实真正最后",
+          "vi": "Đương nhiên, vì thật ra cuối cùng"
+        },
+        {
+          "zh": "考上本科的学生的人数这个比例，",
+          "vi": "tỷ lệ số học sinh thật sự đỗ hệ cử nhân,"
+        },
+        {
+          "zh": "你知道是多少吗？",
+          "vi": "cậu biết là bao nhiêu không?"
+        }
+      ]
+    },
+    "40": {
+      "zh": "我其实不知道，但我觉得其实是挺高的。",
+      "parts": [
+        {
+          "zh": "我其实不知道，",
+          "vi": "Thật ra mình không biết,"
+        },
+        {
+          "zh": "但我觉得其实是挺高的。",
+          "vi": "nhưng mình nghĩ chắc là khá cao."
+        }
+      ]
+    },
+    "41": {
+      "zh": "但是呢，本科里面有分很多不一样的等级，所以比如说在中国我们有一本和二本。",
+      "parts": [
+        {
+          "zh": "但是呢，本科里面",
+          "vi": "Nhưng mà trong hệ cử nhân"
+        },
+        {
+          "zh": "有分很多不一样的等级，",
+          "vi": "lại chia ra nhiều hạng khác nhau,"
+        },
+        {
+          "zh": "所以比如说在中国",
+          "vi": "ví dụ ở Trung Quốc"
+        },
+        {
+          "zh": "我们有一本和二本。",
+          "vi": "có trường hạng 1 (一本) và hạng 2 (二本)."
+        }
+      ]
+    },
+    "42": {
+      "zh": "所谓一本就是就是比较好的大学，那么一本里面还要分，比如说九八五、二幺幺背后这些数字背后意思并不重要，",
+      "parts": [
+        {
+          "zh": "所谓一本就是就是比较好的大学，",
+          "vi": "Cái gọi là hạng 1 là những trường đại học khá tốt,"
+        },
+        {
+          "zh": "那么一本里面还要分，",
+          "vi": "mà trong hạng 1 lại còn chia nữa,"
+        },
+        {
+          "zh": "比如说九八五、二幺幺",
+          "vi": "ví dụ như 985, 211,"
+        },
+        {
+          "zh": "背后这些数字背后意思并不重要，",
+          "vi": "ý nghĩa đằng sau mấy con số này không quan trọng,"
+        }
+      ]
+    },
+    "44": {
+      "zh": "重要的是大家都知道九八五学校是一批比较好的大学，二幺幺也是一批比较好的大学。",
+      "parts": [
+        {
+          "zh": "重要的是大家都知道",
+          "vi": "quan trọng là ai cũng biết"
+        },
+        {
+          "zh": "九八五学校是一批比较好的大学，",
+          "vi": "trường 985 là một nhóm đại học khá tốt,"
+        },
+        {
+          "zh": "二幺幺也是一批比较好的大学。",
+          "vi": "211 cũng là một nhóm đại học khá tốt."
+        }
+      ]
+    },
+    "45": {
+      "zh": "那么，如果你要想考上一本或者是这些比较好的大学，其实概率是很低的，",
+      "parts": [
+        {
+          "zh": "那么，如果你要想考上一本",
+          "vi": "Vậy nếu cậu muốn đỗ trường hạng 1"
+        },
+        {
+          "zh": "或者是这些比较好的大学，",
+          "vi": "hay những trường khá tốt này,"
+        },
+        {
+          "zh": "其实概率是很低的，",
+          "vi": "thì xác suất thật ra rất thấp,"
+        }
+      ]
+    },
+    "46": {
+      "zh": "所以就有点像有点像千军万马过独木桥。",
+      "parts": [
+        {
+          "zh": "所以就有点像有点像",
+          "vi": "nên nó hơi giống, hơi giống"
+        },
+        {
+          "zh": "千军万马过独木桥。",
+          "vi": "thiên quân vạn mã qua cầu độc mộc."
+        }
+      ]
+    },
+    "47": {
+      "zh": "对我刚刚在网上查了一下，",
+      "vi": "Ừ, mình vừa tra trên mạng,"
+    },
+    "48": {
+      "zh": "二零一九年所有参加高考的人最后考上了本科的比例是百分之四十二，然后。",
+      "parts": [
+        {
+          "zh": "二零一九年所有参加高考的人",
+          "vi": "năm 2019, trong tất cả những người dự thi đại học,"
+        },
+        {
+          "zh": "最后考上了本科的比例",
+          "vi": "tỷ lệ cuối cùng đỗ hệ cử nhân"
+        },
+        {
+          "zh": "是百分之四十二，然后。",
+          "vi": "là 42%, rồi."
+        }
+      ]
+    },
+    "49": {
+      "zh": "考上了一本，就是可以说是最好的一批学校，这个比例是百分之十四。",
+      "parts": [
+        {
+          "zh": "考上了一本，",
+          "vi": "Đỗ trường hạng 1,"
+        },
+        {
+          "zh": "就是可以说是最好的一批学校，",
+          "vi": "tức là có thể nói nhóm trường tốt nhất,"
+        },
+        {
+          "zh": "这个比例是百分之十四。",
+          "vi": "tỷ lệ này là 14%."
+        }
+      ]
+    },
+    "50": {
+      "zh": "对，所以说的确还是会比较低一点。",
+      "vi": "Ừ, nên đúng là vẫn khá thấp."
+    },
+    "51": {
+      "zh": "然后一本其实也是一个比较大的概念，可能会有快一百所学校，估计现在可能更多。",
+      "parts": [
+        {
+          "zh": "然后一本其实",
+          "vi": "Mà hạng 1 thật ra"
+        },
+        {
+          "zh": "也是一个比较大的概念，",
+          "vi": "cũng là một khái niệm khá rộng,"
+        },
+        {
+          "zh": "可能会有快一百所学校，",
+          "vi": "có thể có gần 100 trường,"
+        },
+        {
+          "zh": "估计现在可能更多。",
+          "vi": "chắc bây giờ còn nhiều hơn."
+        }
+      ]
+    },
+    "52": {
+      "zh": "然后如果真正看到国内最好的前三十、前二十。",
+      "parts": [
+        {
+          "zh": "然后如果真正看到",
+          "vi": "Rồi nếu thật sự nhìn vào"
+        },
+        {
+          "zh": "国内最好的前三十、前二十。",
+          "vi": "top 30, top 20 tốt nhất trong nước,"
+        }
+      ]
+    },
+    "53": {
+      "zh": "前十这些肯定是很很小的比例，对。",
+      "vi": "top 10, thì chắc chắn là tỷ lệ rất rất nhỏ, ừ."
+    },
+    "54": {
+      "zh": "对，然后我觉得高考的制度其中有一个很重要的部分需要给大家解释的就是户籍制度，",
+      "parts": [
+        {
+          "zh": "对，然后我觉得高考的制度",
+          "vi": "Ừ, rồi mình thấy trong chế độ thi đại học"
+        },
+        {
+          "zh": "其中有一个很重要的部分",
+          "vi": "có một phần rất quan trọng"
+        },
+        {
+          "zh": "需要给大家解释的就是户籍制度，",
+          "vi": "cần giải thích cho mọi người, đó là chế độ hộ tịch (户籍制度),"
+        }
+      ]
+    },
+    "55": {
+      "zh": "所谓的你在哪一个户口、哪一个省份来参加高考，",
+      "parts": [
+        {
+          "zh": "所谓的你在哪一个户口、",
+          "vi": "tức là cậu thi đại học theo hộ khẩu nào,"
+        },
+        {
+          "zh": "哪一个省份来参加高考，",
+          "vi": "ở tỉnh nào,"
+        }
+      ]
+    },
+    "56": {
+      "zh": "对于你是不是能够顺利的进入比较好的大学有非常大的影响。",
+      "parts": [
+        {
+          "zh": "对于你是不是能够顺利的",
+          "vi": "thì đối với việc cậu có thể suôn sẻ"
+        },
+        {
+          "zh": "进入比较好的大学",
+          "vi": "vào được trường đại học khá tốt hay không"
+        },
+        {
+          "zh": "有非常大的影响。",
+          "vi": "có ảnh hưởng rất lớn."
+        }
+      ]
+    },
+    "57": {
+      "zh": "就是嗯。",
+      "vi": "Ừm, thì…"
+    },
+    "58": {
+      "zh": "我觉得今天我们可以先不讨论户口户籍具体的，因为这个很复杂。",
+      "parts": [
+        {
+          "zh": "我觉得今天我们可以先不讨论",
+          "vi": "Mình nghĩ hôm nay chúng mình có thể tạm chưa bàn"
+        },
+        {
+          "zh": "户口户籍具体的，因为这个很复杂。",
+          "vi": "chi tiết về hộ khẩu, hộ tịch, vì cái này rất phức tạp."
+        }
+      ]
+    },
+    "59": {
+      "zh": "但是大概的意思就是，每个人他都有一个户口，你住在哪儿，你的户口就在哪儿。",
+      "parts": [
+        {
+          "zh": "但是大概的意思就是，",
+          "vi": "Nhưng đại khái ý là,"
+        },
+        {
+          "zh": "每个人他都有一个户口，",
+          "vi": "mỗi người đều có một hộ khẩu,"
+        },
+        {
+          "zh": "你住在哪儿，你的户口就在哪儿。",
+          "vi": "cậu sống ở đâu thì hộ khẩu ở đó."
+        }
+      ]
+    },
+    "60": {
+      "zh": "然后你的户口在哪儿，那你高考就要在哪里考。",
+      "parts": [
+        {
+          "zh": "然后你的户口在哪儿，",
+          "vi": "Rồi hộ khẩu của cậu ở đâu,"
+        },
+        {
+          "zh": "那你高考就要在哪里考。",
+          "vi": "thì cậu phải thi đại học ở đó."
+        }
+      ]
+    },
+    "61": {
+      "zh": "可是，在哪里考这个非常重要，因为在有的省。",
+      "parts": [
+        {
+          "zh": "可是，在哪里考这个非常重要，",
+          "vi": "Mà thi ở đâu thì cực kỳ quan trọng,"
+        },
+        {
+          "zh": "因为在有的省。",
+          "vi": "vì ở một số tỉnh."
+        }
+      ]
+    },
+    "62": {
+      "zh": "有的是，你读一个好大学会相对比较简单，可是，在有的地方会非常非常的难。",
+      "parts": [
+        {
+          "zh": "有的是，你读一个好大学",
+          "vi": "có tỉnh thì cậu vào một trường đại học tốt"
+        },
+        {
+          "zh": "会相对比较简单，",
+          "vi": "sẽ tương đối dễ,"
+        },
+        {
+          "zh": "可是，在有的地方会非常非常的难。",
+          "vi": "nhưng có nơi thì sẽ cực kỳ, cực kỳ khó."
+        }
+      ]
+    },
+    "63": {
+      "zh": "然后这个原因主要就是你要看当地的这个省有多少人，这个考生的数量、学生的数量，",
+      "parts": [
+        {
+          "zh": "然后这个原因主要就是",
+          "vi": "Rồi lý do chủ yếu là"
+        },
+        {
+          "zh": "你要看当地的这个省有多少人，",
+          "vi": "cậu phải xem tỉnh đó có bao nhiêu người,"
+        },
+        {
+          "zh": "这个考生的数量、学生的数量，",
+          "vi": "số thí sinh, số học sinh,"
+        }
+      ]
+    },
+    "64": {
+      "zh": "然后你再看到各个学校在这个省它要招多少人。",
+      "parts": [
+        {
+          "zh": "然后你再看到各个学校",
+          "vi": "rồi cậu xem tiếp các trường"
+        },
+        {
+          "zh": "在这个省它要招多少人。",
+          "vi": "tuyển bao nhiêu người ở tỉnh đó."
+        }
+      ]
+    },
+    "65": {
+      "zh": "然后有一个问题就是，一般学校会在自己本地的省招比较多的学生，所以说像北京、上海、广州等等这些地方，他们有比较多的好学校，所以其实他们去最后读好学校的名额也会变多。",
+      "parts": [
+        {
+          "zh": "然后有一个问题就是，",
+          "vi": "Rồi có một vấn đề là,"
+        },
+        {
+          "zh": "一般学校会在自己本地的省",
+          "vi": "các trường thường ở chính tỉnh của mình"
+        },
+        {
+          "zh": "招比较多的学生，",
+          "vi": "tuyển nhiều học sinh hơn,"
+        },
+        {
+          "zh": "所以说像北京、上海、广州等等",
+          "vi": "nên như Bắc Kinh, Thượng Hải, Quảng Châu…"
+        },
+        {
+          "zh": "这些地方，他们有比较多的好学校，",
+          "vi": "những nơi này có khá nhiều trường tốt,"
+        },
+        {
+          "zh": "所以其实他们去最后",
+          "vi": "nên thật ra cuối cùng"
+        },
+        {
+          "zh": "读好学校的名额也会变多。",
+          "vi": "suất vào trường tốt của họ cũng nhiều hơn."
+        }
+      ]
+    },
+    "67": {
+      "zh": "但是像有的省，比如河南省。",
+      "vi": "Nhưng như có tỉnh, ví dụ tỉnh Hà Nam."
+    },
+    "68": {
+      "zh": "河南是全国人口最多的省，可是河南没有一所九八五学校。",
+      "parts": [
+        {
+          "zh": "河南是全国人口最多的省，",
+          "vi": "Hà Nam là tỉnh đông dân nhất cả nước,"
+        },
+        {
+          "zh": "可是河南没有一所九八五学校。",
+          "vi": "nhưng Hà Nam không có lấy một trường 985 nào."
+        }
+      ]
+    },
+    "69": {
+      "zh": "二幺幺好像也只有一个吧，郑州大学好像对不知道对，所以说河南就是考生人数最多，",
+      "parts": [
+        {
+          "zh": "二幺幺好像也只有一个吧，",
+          "vi": "211 hình như cũng chỉ có một trường thôi,"
+        },
+        {
+          "zh": "郑州大学好像对不知道对，",
+          "vi": "Đại học Trịnh Châu, hình như vậy, không biết nữa,"
+        },
+        {
+          "zh": "所以说河南就是考生人数最多，",
+          "vi": "nên Hà Nam là nơi có số thí sinh đông nhất,"
+        }
+      ]
+    },
+    "70": {
+      "zh": "但是名额最少对名额最少录取好学校录取的名额最少，所以说一般。很多人就会想要去移民，叫叫做高考移民，去一些考的比较容易的城市去拿那个户口，在那边考。",
+      "parts": [
+        {
+          "zh": "但是名额最少对名额最少",
+          "vi": "nhưng suất lại ít nhất, ừ, suất ít nhất,"
+        },
+        {
+          "zh": "录取好学校录取的名额最少，",
+          "vi": "suất được trường tốt nhận là ít nhất,"
+        },
+        {
+          "zh": "所以说一般。很多人就会想要去移民，",
+          "vi": "nên thường thì nhiều người sẽ muốn di dân,"
+        },
+        {
+          "zh": "叫叫做高考移民，",
+          "vi": "gọi là \"di dân thi đại học\" (高考移民),"
+        },
+        {
+          "zh": "去一些考的比较容易的城市",
+          "vi": "đến những thành phố thi dễ hơn"
+        },
+        {
+          "zh": "去拿那个户口，在那边考。",
+          "vi": "để lấy hộ khẩu ở đó, rồi thi ở đó."
+        }
+      ]
+    },
+    "72": {
+      "zh": "对，其实这个嗯，在中国讨论的也很多，很多人会觉得不公平，因为比如说我是一个上海人，",
+      "parts": [
+        {
+          "zh": "对，其实这个嗯，在中国讨论的也很多，",
+          "vi": "Ừ, thật ra chuyện này, ừm, ở Trung Quốc bàn tán rất nhiều,"
+        },
+        {
+          "zh": "很多人会觉得不公平，",
+          "vi": "nhiều người thấy không công bằng,"
+        },
+        {
+          "zh": "因为比如说我是一个上海人，",
+          "vi": "vì ví dụ mình là người Thượng Hải,"
+        }
+      ]
+    },
+    "73": {
+      "zh": "上海有很多所好的大学，比如说复旦、交大、同济等等，那么这些学校给到上海的高中。",
+      "parts": [
+        {
+          "zh": "上海有很多所好的大学，",
+          "vi": "Thượng Hải có rất nhiều trường đại học tốt,"
+        },
+        {
+          "zh": "比如说复旦、交大、同济等等，",
+          "vi": "như Phục Đán, Giao thông, Đồng Tế…,"
+        },
+        {
+          "zh": "那么这些学校给到上海的高中。",
+          "vi": "thì những trường này dành cho các trường cấp ba ở Thượng Hải."
+        }
+      ]
+    },
+    "74": {
+      "zh": "这些好的大学给到上海的高中的高考名额是非常多的，所以在上海读高中的话，",
+      "parts": [
+        {
+          "zh": "这些好的大学给到上海的高中的",
+          "vi": "Những trường đại học tốt này dành cho cấp ba ở Thượng Hải"
+        },
+        {
+          "zh": "高考名额是非常多的，",
+          "vi": "rất nhiều suất thi đại học,"
+        },
+        {
+          "zh": "所以在上海读高中的话，",
+          "vi": "nên nếu học cấp ba ở Thượng Hải,"
+        }
+      ]
+    },
+    "75": {
+      "zh": "能够进入到这一些全国前十、前二十的好大学概率要比其他的省份高很多。",
+      "parts": [
+        {
+          "zh": "能够进入到这一些",
+          "vi": "thì xác suất vào được"
+        },
+        {
+          "zh": "全国前十、前二十的好大学",
+          "vi": "những trường top 10, top 20 cả nước"
+        },
+        {
+          "zh": "概率要比其他的省份高很多。",
+          "vi": "cao hơn các tỉnh khác rất nhiều."
+        }
+      ]
+    },
+    "76": {
+      "zh": "而且呢，我觉得除了户籍制度以外，Cameron你知道吗？",
+      "parts": [
+        {
+          "zh": "而且呢，我觉得除了户籍制度以外，",
+          "vi": "Hơn nữa, mình nghĩ ngoài chế độ hộ tịch ra,"
+        },
+        {
+          "zh": "Cameron你知道吗？",
+          "vi": "Cameron, cậu có biết không?"
+        }
+      ]
+    },
+    "77": {
+      "zh": "中国也有高考是有有全国卷，但也有省份有自己的卷子。",
+      "parts": [
+        {
+          "zh": "中国也有高考是有有全国卷，",
+          "vi": "Ở Trung Quốc thi đại học có đề chung toàn quốc,"
+        },
+        {
+          "zh": "但也有省份有自己的卷子。",
+          "vi": "nhưng cũng có tỉnh có đề riêng."
+        }
+      ]
+    },
+    "78": {
+      "zh": "那么什么叫卷子呢？",
+      "vi": "Vậy 卷子 là gì?"
+    },
+    "79": {
+      "zh": "卷子就是考试的题目，对对吧？",
+      "vi": "卷子 là đề thi, đúng, đúng không?"
+    },
+    "80": {
+      "zh": "嗯，但是比如说浙江的考试卷子一般历年来说都比较难，",
+      "parts": [
+        {
+          "zh": "嗯，但是比如说浙江的考试卷子",
+          "vi": "Ừm, nhưng ví dụ đề thi của Chiết Giang"
+        },
+        {
+          "zh": "一般历年来说都比较难，",
+          "vi": "xưa nay thường đều khá khó,"
+        }
+      ]
+    },
+    "81": {
+      "zh": "所以说浙江的考生经常也会说浙江的考试卷子高考难度会比其他的省份更难一些。",
+      "parts": [
+        {
+          "zh": "所以说浙江的考生经常也会说",
+          "vi": "nên thí sinh Chiết Giang cũng hay nói"
+        },
+        {
+          "zh": "浙江的考试卷子高考难度",
+          "vi": "đề thi đại học của Chiết Giang"
+        },
+        {
+          "zh": "会比其他的省份更难一些。",
+          "vi": "khó hơn các tỉnh khác một chút."
+        }
+      ]
+    },
+    "82": {
+      "zh": "这个具体这个试卷的难度和最后录取的比例这些，我觉得这个比较复杂，可能并不是可能虽然。",
+      "parts": [
+        {
+          "zh": "这个具体这个试卷的难度",
+          "vi": "Cái độ khó cụ thể của đề thi"
+        },
+        {
+          "zh": "和最后录取的比例这些，",
+          "vi": "với tỷ lệ trúng tuyển cuối cùng,"
+        },
+        {
+          "zh": "我觉得这个比较复杂，",
+          "vi": "mình thấy khá phức tạp,"
+        },
+        {
+          "zh": "可能并不是可能虽然。",
+          "vi": "có thể không phải là… có thể tuy…"
+        }
+      ]
+    },
+    "83": {
+      "zh": "你的题，你的问题比较难，可是大家都一样难啊。",
+      "parts": [
+        {
+          "zh": "你的题，你的问题比较难，",
+          "vi": "đề của cậu, câu hỏi của cậu khó,"
+        },
+        {
+          "zh": "可是大家都一样难啊。",
+          "vi": "nhưng ai cũng khó như nhau mà."
+        }
+      ]
+    },
+    "84": {
+      "zh": "然后你的省份如果这个好学校的名额多的话，其实也无所谓。",
+      "parts": [
+        {
+          "zh": "然后你的省份如果",
+          "vi": "Rồi tỉnh của cậu nếu"
+        },
+        {
+          "zh": "这个好学校的名额多的话，",
+          "vi": "có nhiều suất vào trường tốt,"
+        },
+        {
+          "zh": "其实也无所谓。",
+          "vi": "thì thật ra cũng không sao."
+        }
+      ]
+    },
+    "85": {
+      "zh": "而且好像现在越来越多的省，他们开始用全国卷，就是全国开始统一这样的一个试题，",
+      "parts": [
+        {
+          "zh": "而且好像现在越来越多的省，",
+          "vi": "Hơn nữa hình như bây giờ ngày càng nhiều tỉnh"
+        },
+        {
+          "zh": "他们开始用全国卷，",
+          "vi": "bắt đầu dùng đề chung toàn quốc,"
+        },
+        {
+          "zh": "就是全国开始统一这样的一个试题，",
+          "vi": "tức là cả nước bắt đầu thống nhất đề thi,"
+        }
+      ]
+    },
+    "86": {
+      "zh": "这样的一个高考题目。",
+      "vi": "một đề thi đại học như vậy."
+    },
+    "87": {
+      "zh": "可是。",
+      "vi": "Nhưng mà."
+    },
+    "88": {
+      "zh": "这又要说到另一个问题，就是教育资源的分配。",
+      "parts": [
+        {
+          "zh": "这又要说到另一个问题，",
+          "vi": "Điều này lại dẫn đến một vấn đề khác,"
+        },
+        {
+          "zh": "就是教育资源的分配。",
+          "vi": "đó là phân bổ nguồn lực giáo dục."
+        }
+      ]
+    },
+    "89": {
+      "zh": "比如说，我们如果全国这个可能就是为什么以前他们用不同的试卷，",
+      "parts": [
+        {
+          "zh": "比如说，我们如果全国这个",
+          "vi": "Ví dụ, nếu cả nước mình…"
+        },
+        {
+          "zh": "可能就是为什么",
+          "vi": "có lẽ đây chính là lý do"
+        },
+        {
+          "zh": "以前他们用不同的试卷，",
+          "vi": "trước đây họ dùng đề khác nhau,"
+        }
+      ]
+    },
+    "90": {
+      "zh": "因为比如说全国考一样的题目，",
+      "vi": "vì ví dụ cả nước thi cùng một đề,"
+    },
+    "91": {
+      "zh": "那你比如说在上海最好的学校的学生和你在其他比较偏远的地方没有那么好的教育资源的学生，",
+      "parts": [
+        {
+          "zh": "那你比如说在上海",
+          "vi": "thì ví dụ học sinh ở Thượng Hải"
+        },
+        {
+          "zh": "最好的学校的学生",
+          "vi": "học trường tốt nhất,"
+        },
+        {
+          "zh": "和你在其他比较偏远的地方",
+          "vi": "với học sinh ở những nơi khá xa xôi khác"
+        },
+        {
+          "zh": "没有那么好的教育资源的学生，",
+          "vi": "không có nguồn lực giáo dục tốt như vậy,"
+        }
+      ]
+    },
+    "92": {
+      "zh": "他们最后考试的表现肯定会不一样。",
+      "vi": "kết quả thi cuối cùng của họ chắc chắn sẽ khác nhau."
+    },
+    "93": {
+      "zh": "那这个最后怎么来平衡，怎么来有一个比较公平的办法，其实也很难。",
+      "parts": [
+        {
+          "zh": "那这个最后怎么来平衡，",
+          "vi": "Thế thì cuối cùng cân bằng thế nào,"
+        },
+        {
+          "zh": "怎么来有一个比较公平的办法，",
+          "vi": "làm sao để có một cách khá công bằng,"
+        },
+        {
+          "zh": "其实也很难。",
+          "vi": "thật ra cũng rất khó."
+        }
+      ]
+    },
+    "94": {
+      "zh": "对对对，然后正好说到考试的题目和卷子，我之前跟一些外国朋友也讨论过，",
+      "parts": [
+        {
+          "zh": "对对对，然后正好说到",
+          "vi": "Đúng đúng đúng, mà vừa hay nói đến"
+        },
+        {
+          "zh": "考试的题目和卷子，",
+          "vi": "đề thi và bài thi,"
+        },
+        {
+          "zh": "我之前跟一些外国朋友也讨论过，",
+          "vi": "trước đây mình cũng từng bàn với vài người bạn nước ngoài,"
+        }
+      ]
+    },
+    "95": {
+      "zh": "中国的话我们只需要在高考的时候学三门主要的科目，然后再选一门其他的，",
+      "parts": [
+        {
+          "zh": "中国的话我们只需要",
+          "vi": "ở Trung Quốc thì chúng mình chỉ cần"
+        },
+        {
+          "zh": "在高考的时候学三门主要的科目，",
+          "vi": "học ba môn chính cho kỳ thi đại học,"
+        },
+        {
+          "zh": "然后再选一门其他的，",
+          "vi": "rồi chọn thêm một môn khác,"
+        }
+      ]
+    },
+    "96": {
+      "zh": "所以我们当时至少是我参加高考的那一年。",
+      "parts": [
+        {
+          "zh": "所以我们当时",
+          "vi": "nên hồi đó chúng mình,"
+        },
+        {
+          "zh": "至少是我参加高考的那一年。",
+          "vi": "ít nhất là năm mình thi đại học."
+        }
+      ]
+    },
+    "97": {
+      "zh": "我们管这个叫三加X，那么这个三个主要的科目呢，主要是英语、数学和中文，就是语文。",
+      "parts": [
+        {
+          "zh": "我们管这个叫三加X，",
+          "vi": "chúng mình gọi cái này là 3 + X,"
+        },
+        {
+          "zh": "那么这个三个主要的科目呢，",
+          "vi": "ba môn chính đó,"
+        },
+        {
+          "zh": "主要是英语、数学和中文，就是语文。",
+          "vi": "chủ yếu là tiếng Anh, toán và tiếng Trung, tức là môn ngữ văn."
+        }
+      ]
+    },
+    "98": {
+      "zh": "然后一门X的话，我们在上海是可以选或物理或者化学。",
+      "parts": [
+        {
+          "zh": "然后一门X的话，我们在上海",
+          "vi": "Còn một môn X thì ở Thượng Hải chúng mình"
+        },
+        {
+          "zh": "是可以选或物理或者化学。",
+          "vi": "có thể chọn hoặc vật lý hoặc hóa học."
+        }
+      ]
+    },
+    "99": {
+      "zh": "如果选选择理科，就是可以选择物理或者化学；如果选择文啊或者生物；如果选择文科，",
+      "parts": [
+        {
+          "zh": "如果选选择理科，",
+          "vi": "Nếu chọn, chọn khối tự nhiên,"
+        },
+        {
+          "zh": "就是可以选择物理或者化学；",
+          "vi": "thì có thể chọn vật lý hoặc hóa học;"
+        },
+        {
+          "zh": "如果选择文啊或者生物；",
+          "vi": "nếu chọn văn à, hoặc sinh học;"
+        },
+        {
+          "zh": "如果选择文科，",
+          "vi": "nếu chọn khối xã hội,"
+        }
+      ]
+    },
+    "100": {
+      "zh": "那就可以选比如说历史、地理等等。",
+      "vi": "thì có thể chọn ví dụ lịch sử, địa lý, v.v."
+    },
+    "101": {
+      "zh": "所以说。",
+      "vi": "Nên là."
+    },
+    "102": {
+      "zh": "基本上在上海的话，在高中二年级的时候，我们就要去选择这一门附加的科目。",
+      "parts": [
+        {
+          "zh": "基本上在上海的话，",
+          "vi": "Về cơ bản ở Thượng Hải,"
+        },
+        {
+          "zh": "在高中二年级的时候，",
+          "vi": "vào năm lớp 11,"
+        },
+        {
+          "zh": "我们就要去选择这一门附加的科目。",
+          "vi": "chúng mình phải chọn môn thêm này."
+        }
+      ]
+    },
+    "103": {
+      "zh": "我们应该选择什么？",
+      "vi": "Chúng mình nên chọn môn gì?"
+    },
+    "104": {
+      "zh": "是学物理还是化学还是生物？",
+      "vi": "Học vật lý, hóa học hay sinh học?"
+    },
+    "105": {
+      "zh": "这个对于高考的成绩也是很重要的。",
+      "vi": "Việc này cũng rất quan trọng với điểm thi đại học."
+    },
+    "106": {
+      "zh": "然后，但是这个的话，就导致很多上海的学生，比如说我本人，",
+      "parts": [
+        {
+          "zh": "然后，但是这个的话，",
+          "vi": "Rồi, nhưng chuyện này,"
+        },
+        {
+          "zh": "就导致很多上海的学生，",
+          "vi": "dẫn đến việc nhiều học sinh Thượng Hải,"
+        },
+        {
+          "zh": "比如说我本人，",
+          "vi": "ví dụ như chính mình,"
+        }
+      ]
+    },
+    "107": {
+      "zh": "因为在高三的时候就只需要选择一门，所以说我基本上我我当时选择了化学，所以说其他的这些。科目我一直以来都学的不是很好，导致我现在的话这些科目的知识也比较薄弱。",
+      "parts": [
+        {
+          "zh": "因为在高三的时候",
+          "vi": "vì năm lớp 12"
+        },
+        {
+          "zh": "就只需要选择一门，",
+          "vi": "chỉ cần chọn một môn,"
+        },
+        {
+          "zh": "所以说我基本上",
+          "vi": "nên về cơ bản mình,"
+        },
+        {
+          "zh": "我我当时选择了化学，",
+          "vi": "hồi đó mình chọn hóa học,"
+        },
+        {
+          "zh": "所以说其他的这些。科目",
+          "vi": "nên những môn khác này"
+        },
+        {
+          "zh": "我一直以来都学的不是很好，",
+          "vi": "mình từ trước tới giờ đều học không tốt lắm,"
+        },
+        {
+          "zh": "导致我现在的话",
+          "vi": "dẫn đến bây giờ"
+        },
+        {
+          "zh": "这些科目的知识也比较薄弱。",
+          "vi": "kiến thức các môn này của mình khá yếu."
+        }
+      ]
+    },
+    "109": {
+      "zh": "比如说我的物理啊、历史啊、地理啊知识就比较薄弱，",
+      "parts": [
+        {
+          "zh": "比如说我的物理啊、历史啊、地理啊",
+          "vi": "Ví dụ vật lý này, lịch sử này, địa lý này,"
+        },
+        {
+          "zh": "知识就比较薄弱，",
+          "vi": "kiến thức của mình đều khá yếu,"
+        }
+      ]
+    },
+    "110": {
+      "zh": "就是因为我在高三那一年基本上只学了化学。",
+      "parts": [
+        {
+          "zh": "就是因为我在高三那一年",
+          "vi": "chính là vì năm lớp 12"
+        },
+        {
+          "zh": "基本上只学了化学。",
+          "vi": "về cơ bản mình chỉ học hóa học."
+        }
+      ]
+    },
+    "111": {
+      "zh": "哎，我刚刚走神了，所以说上海高考只考三门主科加一门选的，对。",
+      "parts": [
+        {
+          "zh": "哎，我刚刚走神了，",
+          "vi": "Ơ, mình vừa lơ đễnh mất,"
+        },
+        {
+          "zh": "所以说上海高考只考三门主科",
+          "vi": "vậy ra Thượng Hải thi đại học chỉ thi ba môn chính"
+        },
+        {
+          "zh": "加一门选的，对。",
+          "vi": "cộng một môn tự chọn, đúng không."
+        }
+      ]
+    },
+    "112": {
+      "zh": "那你看这个就这个就很不公平了呀因为比如说像在四川我们就是你选文科那就是语文数学英语再加三门地理物理不是地理历史和什么政治对那你看这样考的科目都不一样了然后学生需要准备的量需要去复习的东西也不一样，然后这个你看就的确，",
+      "parts": [
+        {
+          "zh": "那你看这个就这个就很不公平了呀",
+          "vi": "Thế thì cậu xem, cái này, cái này không công bằng lắm rồi,"
+        },
+        {
+          "zh": "因为比如说像在四川",
+          "vi": "vì ví dụ như ở Tứ Xuyên,"
+        },
+        {
+          "zh": "我们就是你选文科那就是",
+          "vi": "chỗ mình thì cậu chọn khối xã hội thì là"
+        },
+        {
+          "zh": "语文数学英语再加三门地理物理",
+          "vi": "ngữ văn, toán, tiếng Anh, rồi thêm ba môn địa lý, vật lý,"
+        },
+        {
+          "zh": "不是地理历史和什么政治对",
+          "vi": "không phải, địa lý, lịch sử và gì nhỉ, chính trị, đúng,"
+        },
+        {
+          "zh": "那你看这样考的科目都不一样了",
+          "vi": "thế thì cậu xem, các môn thi đã khác nhau rồi,"
+        },
+        {
+          "zh": "然后学生需要准备的量",
+          "vi": "rồi khối lượng học sinh phải chuẩn bị,"
+        },
+        {
+          "zh": "需要去复习的东西也不一样，",
+          "vi": "những thứ phải ôn tập cũng khác nhau,"
+        },
+        {
+          "zh": "然后这个你看就的确，",
+          "vi": "rồi cái này cậu xem, đúng là,"
+        }
+      ]
+    },
+    "115": {
+      "zh": "所以说很多人说中国的高考制度有不公平的地方，这个也的确是事实。",
+      "parts": [
+        {
+          "zh": "所以说很多人说",
+          "vi": "nên nhiều người nói"
+        },
+        {
+          "zh": "中国的高考制度有不公平的地方，",
+          "vi": "chế độ thi đại học của Trung Quốc có chỗ không công bằng,"
+        },
+        {
+          "zh": "这个也的确是事实。",
+          "vi": "điều này cũng đúng là sự thật."
+        }
+      ]
+    },
+    "116": {
+      "zh": "我觉得对，是的，每一个省份，特别是像北京、上海这样的直辖市啊，我们对于高考也有，",
+      "parts": [
+        {
+          "zh": "我觉得对，是的，每一个省份，",
+          "vi": "Mình thấy đúng, đúng vậy, mỗi tỉnh,"
+        },
+        {
+          "zh": "特别是像北京、上海这样的直辖市啊，",
+          "vi": "nhất là những thành phố trực thuộc trung ương như Bắc Kinh, Thượng Hải,"
+        },
+        {
+          "zh": "我们对于高考也有，",
+          "vi": "về thi đại học chúng mình cũng có,"
+        }
+      ]
+    },
+    "117": {
+      "zh": "就是我们的高考制度也和其他的省份不太一样，所以有很多不公平的地方。",
+      "parts": [
+        {
+          "zh": "就是我们的高考制度",
+          "vi": "tức là chế độ thi đại học của chúng mình"
+        },
+        {
+          "zh": "也和其他的省份不太一样，",
+          "vi": "cũng không giống các tỉnh khác lắm,"
+        },
+        {
+          "zh": "所以有很多不公平的地方。",
+          "vi": "nên có nhiều chỗ không công bằng."
+        }
+      ]
+    },
+    "118": {
+      "zh": "然后，我觉得第三个不公平的点可能在于高考保送制度。",
+      "parts": [
+        {
+          "zh": "然后，我觉得第三个不公平的点",
+          "vi": "Rồi, mình nghĩ điểm không công bằng thứ ba"
+        },
+        {
+          "zh": "可能在于高考保送制度。",
+          "vi": "có lẽ nằm ở chế độ tuyển thẳng (保送)."
+        }
+      ]
+    },
+    "119": {
+      "zh": "我我自己本人没有参加高考，就是因为我走了这个保送的制度。",
+      "parts": [
+        {
+          "zh": "我我自己本人没有参加高考，",
+          "vi": "Bản thân mình, mình không thi đại học,"
+        },
+        {
+          "zh": "就是因为我走了这个保送的制度。",
+          "vi": "chính là vì mình đi theo diện tuyển thẳng."
+        }
+      ]
+    },
+    "120": {
+      "zh": "什么叫保送呢？",
+      "vi": "Tuyển thẳng là gì?"
+    },
+    "121": {
+      "zh": "就是跳过高考直接被一些好的大学录取。",
+      "parts": [
+        {
+          "zh": "就是跳过高考",
+          "vi": "Tức là bỏ qua kỳ thi đại học,"
+        },
+        {
+          "zh": "直接被一些好的大学录取。",
+          "vi": "được một số trường đại học tốt nhận thẳng vào."
+        }
+      ]
+    },
+    "122": {
+      "zh": "那么保送，我觉得可能有几种渠道，比如说像我的话，我是因为奥林匹克数学竞赛保送的。",
+      "parts": [
+        {
+          "zh": "那么保送，我觉得可能有几种渠道，",
+          "vi": "Tuyển thẳng thì mình nghĩ có mấy con đường,"
+        },
+        {
+          "zh": "比如说像我的话，",
+          "vi": "ví dụ như mình,"
+        },
+        {
+          "zh": "我是因为奥林匹克数学竞赛保送的。",
+          "vi": "mình được tuyển thẳng nhờ kỳ thi Olympic Toán."
+        }
+      ]
+    },
+    "123": {
+      "zh": "奥林匹克数学竞赛就是英语的话，应该就是Math Olympiad。",
+      "parts": [
+        {
+          "zh": "奥林匹克数学竞赛",
+          "vi": "Kỳ thi Olympic Toán"
+        },
+        {
+          "zh": "就是英语的话，应该就是",
+          "vi": "nói bằng tiếng Anh thì chắc là"
+        },
+        {
+          "zh": "Math Olympiad。",
+          "vi": "Math Olympiad."
+        }
+      ]
+    },
+    "124": {
+      "zh": "如果能够拿到一等奖的话，就可以跳过呃跳过高考。",
+      "parts": [
+        {
+          "zh": "如果能够拿到一等奖的话，",
+          "vi": "Nếu đạt được giải nhất,"
+        },
+        {
+          "zh": "就可以跳过呃跳过高考。",
+          "vi": "là có thể bỏ qua, ờ, bỏ qua kỳ thi đại học."
+        }
+      ]
+    },
+    "125": {
+      "zh": "然后其他的话，应该还有比如说外国语和体育的特长生之类的，可以走保送。",
+      "parts": [
+        {
+          "zh": "然后其他的话，应该还有比如说",
+          "vi": "Rồi những diện khác, chắc còn có ví dụ như"
+        },
+        {
+          "zh": "外国语和体育的特长生之类的，",
+          "vi": "học sinh năng khiếu ngoại ngữ và thể thao,"
+        },
+        {
+          "zh": "可以走保送。",
+          "vi": "có thể đi diện tuyển thẳng."
+        }
+      ]
+    },
+    "126": {
+      "zh": "但是现在好像越来越少了，因为就是以前这样有的奖啊，拿一些奖啊或者体育啊。来保送的这种方法里面出现很多问题，有一些作弊呀，或者有一些啊不公平的现象，",
+      "parts": [
+        {
+          "zh": "但是现在好像越来越少了，",
+          "vi": "Nhưng bây giờ hình như ngày càng ít rồi,"
+        },
+        {
+          "zh": "因为就是以前这样有的奖啊，",
+          "vi": "vì trước đây có những giải kiểu này,"
+        },
+        {
+          "zh": "拿一些奖啊或者体育啊。来保送的",
+          "vi": "kiểu lấy được giải gì đó hay thể thao để được tuyển thẳng,"
+        },
+        {
+          "zh": "这种方法里面出现很多问题，",
+          "vi": "cách này nảy sinh nhiều vấn đề,"
+        },
+        {
+          "zh": "有一些作弊呀，",
+          "vi": "có gian lận này,"
+        },
+        {
+          "zh": "或者有一些啊不公平的现象，",
+          "vi": "hoặc có chuyện không công bằng,"
+        }
+      ]
+    },
+    "128": {
+      "zh": "所以现在很多都已经取消了。",
+      "vi": "nên bây giờ nhiều diện đã bị bỏ rồi."
+    },
+    "129": {
+      "zh": "现在好像唯一还在的就是外外语类保送。",
+      "parts": [
+        {
+          "zh": "现在好像唯一还在的",
+          "vi": "Bây giờ hình như diện duy nhất còn lại"
+        },
+        {
+          "zh": "就是外外语类保送。",
+          "vi": "là tuyển thẳng ngoại… ngoại ngữ."
+        }
+      ]
+    },
+    "130": {
+      "zh": "对对对，我就是外语类保送，因为我读的就是呃外国语学校，然后外语类保送就是。",
+      "parts": [
+        {
+          "zh": "对对对，我就是外语类保送，",
+          "vi": "Đúng đúng đúng, mình chính là tuyển thẳng diện ngoại ngữ,"
+        },
+        {
+          "zh": "因为我读的就是呃外国语学校，",
+          "vi": "vì mình học trường, ờ, ngoại ngữ,"
+        },
+        {
+          "zh": "然后外语类保送就是。",
+          "vi": "rồi tuyển thẳng diện ngoại ngữ là."
+        }
+      ]
+    },
+    "131": {
+      "zh": "你可以去，呃，你可以去直接保送到一些学校，可是你只能选外语类的专业。",
+      "parts": [
+        {
+          "zh": "你可以去，呃，你可以去直接",
+          "vi": "cậu có thể, ờ, cậu có thể trực tiếp"
+        },
+        {
+          "zh": "保送到一些学校，",
+          "vi": "được tuyển thẳng vào một số trường,"
+        },
+        {
+          "zh": "可是你只能选外语类的专业。",
+          "vi": "nhưng cậu chỉ được chọn ngành ngoại ngữ."
+        }
+      ]
+    },
+    "132": {
+      "zh": "对，除了这种加分，还有那种地区加分，就是你比如说在比较偏远地区、",
+      "parts": [
+        {
+          "zh": "对，除了这种加分，",
+          "vi": "Ừ, ngoài kiểu cộng điểm này,"
+        },
+        {
+          "zh": "还有那种地区加分，",
+          "vi": "còn có cộng điểm theo vùng,"
+        },
+        {
+          "zh": "就是你比如说在比较偏远地区、",
+          "vi": "tức là ví dụ ở những vùng khá xa xôi,"
+        }
+      ]
+    },
+    "133": {
+      "zh": "教育资源不太好的或者少数民族比较多的这个区域也有加分。",
+      "parts": [
+        {
+          "zh": "教育资源不太好的或者",
+          "vi": "nguồn lực giáo dục không tốt lắm, hoặc"
+        },
+        {
+          "zh": "少数民族比较多的",
+          "vi": "có nhiều dân tộc thiểu số,"
+        },
+        {
+          "zh": "这个区域也有加分。",
+          "vi": "những khu vực này cũng được cộng điểm."
+        }
+      ]
+    },
+    "134": {
+      "zh": "以前我们班上。",
+      "vi": "Hồi trước lớp mình."
+    },
+    "135": {
+      "zh": "我的同桌，我高中时候的一个同桌，他户口在西藏，他最后高考他没有在成都考，",
+      "parts": [
+        {
+          "zh": "我的同桌，我高中时候的一个同桌，",
+          "vi": "Bạn cùng bàn của mình, một bạn cùng bàn hồi cấp ba,"
+        },
+        {
+          "zh": "他户口在西藏，",
+          "vi": "hộ khẩu ở Tây Tạng,"
+        },
+        {
+          "zh": "他最后高考他没有在成都考，",
+          "vi": "cuối cùng thi đại học cậu ấy không thi ở Thành Đô,"
+        }
+      ]
+    },
+    "136": {
+      "zh": "他就去西藏考的。",
+      "vi": "mà về Tây Tạng thi."
+    },
+    "137": {
+      "zh": "然后他的成绩其实很一般，可是他去西藏考，然后就有当地的一些政策加分啊之类的。",
+      "parts": [
+        {
+          "zh": "然后他的成绩其实很一般，",
+          "vi": "Rồi thành tích của cậu ấy thật ra rất bình thường,"
+        },
+        {
+          "zh": "可是他去西藏考，",
+          "vi": "nhưng cậu ấy về Tây Tạng thi,"
+        },
+        {
+          "zh": "然后就有当地的",
+          "vi": "rồi được địa phương"
+        },
+        {
+          "zh": "一些政策加分啊之类的。",
+          "vi": "cộng điểm theo chính sách gì đó,"
+        }
+      ]
+    },
+    "138": {
+      "zh": "他最后去读清华建筑去了，",
+      "vi": "cuối cùng cậu ấy vào học ngành Kiến trúc ở Thanh Hoa,"
+    },
+    "139": {
+      "zh": "给大家解就是给大家这个解释一下为什么清华建筑。",
+      "parts": [
+        {
+          "zh": "给大家解就是给大家这个解释一下",
+          "vi": "Giải… để giải thích cho mọi người một chút"
+        },
+        {
+          "zh": "为什么清华建筑。",
+          "vi": "vì sao nghe đến Kiến trúc Thanh Hoa"
+        }
+      ]
+    },
+    "140": {
+      "zh": "呃，我们都笑了。",
+      "vi": "thì, ờ, chúng mình đều cười."
+    },
+    "141": {
+      "zh": "可能有很多国外的朋友也不是很清楚中国最好的几所大学分别是哪几所。",
+      "parts": [
+        {
+          "zh": "可能有很多国外的朋友",
+          "vi": "Có lẽ nhiều bạn nước ngoài"
+        },
+        {
+          "zh": "也不是很清楚",
+          "vi": "không rõ lắm"
+        },
+        {
+          "zh": "中国最好的几所大学分别是哪几所。",
+          "vi": "mấy trường đại học tốt nhất Trung Quốc là những trường nào."
+        }
+      ]
+    },
+    "142": {
+      "zh": "那中国的话，最好的我我觉得应该就是清华大学和北京大学两所都在北京。",
+      "parts": [
+        {
+          "zh": "那中国的话，最好的",
+          "vi": "Ở Trung Quốc, tốt nhất thì"
+        },
+        {
+          "zh": "我我觉得应该就是",
+          "vi": "mình… mình nghĩ chắc là"
+        },
+        {
+          "zh": "清华大学和北京大学两所都在北京。",
+          "vi": "Đại học Thanh Hoa và Đại học Bắc Kinh, cả hai đều ở Bắc Kinh."
+        }
+      ]
+    },
+    "143": {
+      "zh": "第三名、第四名的话，你觉得会是哪两所学校？",
+      "parts": [
+        {
+          "zh": "第三名、第四名的话，",
+          "vi": "Hạng ba, hạng tư thì"
+        },
+        {
+          "zh": "你觉得会是哪两所学校？",
+          "vi": "cậu nghĩ sẽ là hai trường nào?"
+        }
+      ]
+    },
+    "144": {
+      "zh": "第三名和第四名，这个浙大浙江大学或者复旦大学。",
+      "parts": [
+        {
+          "zh": "第三名和第四名，",
+          "vi": "Hạng ba và hạng tư,"
+        },
+        {
+          "zh": "这个浙大浙江大学或者复旦大学。",
+          "vi": "thì Chiết Đại, Đại học Chiết Giang, hoặc Đại học Phục Đán."
+        }
+      ]
+    },
+    "145": {
+      "zh": "浙江大学或者复旦大学吧，",
+      "vi": "Đại học Chiết Giang hoặc Đại học Phục Đán chăng,"
+    },
+    "146": {
+      "zh": "我觉得这个排名，我觉得嗯，除了第一名和第二名以外，后面的就可能要看怎么样排名。",
+      "parts": [
+        {
+          "zh": "我觉得这个排名，我觉得嗯，",
+          "vi": "Mình thấy cái xếp hạng này, mình thấy, ừm,"
+        },
+        {
+          "zh": "除了第一名和第二名以外，",
+          "vi": "ngoài hạng nhất và hạng nhì ra,"
+        },
+        {
+          "zh": "后面的就可能要看怎么样排名。",
+          "vi": "phía sau thì có lẽ còn tùy xếp hạng thế nào."
+        }
+      ]
+    },
+    "147": {
+      "zh": "但是无论如何，清华和北大就是清华大学和北京大学在中国的地位基本上是无法撼动，",
+      "parts": [
+        {
+          "zh": "但是无论如何，清华和北大",
+          "vi": "Nhưng dù sao đi nữa, Thanh Hoa và Bắc Đại,"
+        },
+        {
+          "zh": "就是清华大学和北京大学",
+          "vi": "tức là Đại học Thanh Hoa và Đại học Bắc Kinh,"
+        },
+        {
+          "zh": "在中国的地位基本上是无法撼动，",
+          "vi": "vị thế ở Trung Quốc về cơ bản là không lay chuyển được,"
+        }
+      ]
+    },
+    "148": {
+      "zh": "就有一点像英国的牛津和剑桥，对吧？",
+      "vi": "hơi giống Oxford và Cambridge của Anh, đúng không?"
+    },
+    "149": {
+      "zh": "可以这样类比。",
+      "vi": "Có thể so sánh như vậy."
+    },
+    "150": {
+      "zh": "对，差不多。",
+      "vi": "Ừ, gần như vậy."
+    },
+    "151": {
+      "zh": "然后呢，刚才说到的建筑专业又是清华。",
+      "parts": [
+        {
+          "zh": "然后呢，刚才说到的",
+          "vi": "Rồi cái vừa nói đến,"
+        },
+        {
+          "zh": "建筑专业又是清华。",
+          "vi": "ngành Kiến trúc lại là, ở Thanh Hoa,"
+        }
+      ]
+    },
+    "152": {
+      "zh": "里面最录取分数线最高的一门专业，",
+      "vi": "ngành có điểm chuẩn cao nhất trong trường,"
+    },
+    "153": {
+      "zh": "对，可以算是最好大学里面的最好的专业，",
+      "parts": [
+        {
+          "zh": "对，可以算是",
+          "vi": "Ừ, có thể coi là"
+        },
+        {
+          "zh": "最好大学里面的最好的专业，",
+          "vi": "ngành tốt nhất trong trường đại học tốt nhất,"
+        }
+      ]
+    },
+    "154": {
+      "zh": "最难上的专业。",
+      "vi": "ngành khó vào nhất."
+    },
+    "155": {
+      "zh": "对，这么说，对对。",
+      "vi": "Ừ, nói vậy đó, đúng đúng."
+    },
+    "156": {
+      "zh": "哎，我觉得我们讨论的这这个高考话题有点沉重，不如我们换一个轻松一点的话题吧。",
+      "parts": [
+        {
+          "zh": "哎，我觉得我们讨论的",
+          "vi": "Ơ, mình thấy cái chủ đề chúng mình đang bàn,"
+        },
+        {
+          "zh": "这这个高考话题有点沉重，",
+          "vi": "chủ đề thi đại học này hơi nặng nề,"
+        },
+        {
+          "zh": "不如我们换一个轻松一点的话题吧。",
+          "vi": "hay là mình đổi sang chủ đề nhẹ nhàng hơn đi."
+        }
+      ]
+    },
+    "157": {
+      "zh": "我刚才想问你啊，嗯，就是你在小学或者初中，你你你的成绩怎么样呀，Cameron？",
+      "parts": [
+        {
+          "zh": "我刚才想问你啊，嗯，",
+          "vi": "Ban nãy mình định hỏi cậu, ừm,"
+        },
+        {
+          "zh": "就是你在小学或者初中，你你",
+          "vi": "là hồi tiểu học hay cấp hai, cậu, cậu"
+        },
+        {
+          "zh": "你的成绩怎么样呀，Cameron？",
+          "vi": "học hành thế nào, Cameron?"
+        }
+      ]
+    },
+    "158": {
+      "zh": "我的成绩不太好，其实也不算不太好，因为说实话，我读的学校也算挺好的。",
+      "parts": [
+        {
+          "zh": "我的成绩不太好，其实也不算不太好，",
+          "vi": "Thành tích của mình không tốt lắm, thật ra cũng không hẳn là không tốt,"
+        },
+        {
+          "zh": "因为说实话，我读的学校也算挺好的。",
+          "vi": "vì nói thật, trường mình học cũng khá tốt."
+        }
+      ]
+    },
+    "159": {
+      "zh": "但是我在我们学校里不太好，尤其是我的数学很不好，",
+      "parts": [
+        {
+          "zh": "但是我在我们学校里不太好，",
+          "vi": "Nhưng ở trường thì mình không giỏi lắm,"
+        },
+        {
+          "zh": "尤其是我的数学很不好，",
+          "vi": "nhất là môn toán của mình rất tệ,"
+        }
+      ]
+    },
+    "160": {
+      "zh": "所以这也是为什么我最后没有选择高考，我直接选择保送。",
+      "parts": [
+        {
+          "zh": "所以这也是为什么",
+          "vi": "nên đó cũng là lý do"
+        },
+        {
+          "zh": "我最后没有选择高考，",
+          "vi": "cuối cùng mình không chọn thi đại học,"
+        },
+        {
+          "zh": "我直接选择保送。",
+          "vi": "mà chọn luôn tuyển thẳng."
+        }
+      ]
+    },
+    "161": {
+      "zh": "因为我就觉得我如果高考的话反而可能因为我的数学成绩不太好会让我考不上保送的时候可以去的大学所以我就直接不考了然后最后去的大学来说一下我的母校重庆大学也不算是最好的学校我们说实话可是也算还OK然后我反正当时为什么报重庆大学的外语类保送，是因为他们不考数学。",
+      "parts": [
+        {
+          "zh": "因为我就觉得我如果高考的话",
+          "vi": "Vì mình thấy nếu mình thi đại học"
+        },
+        {
+          "zh": "反而可能因为我的数学成绩不太好",
+          "vi": "thì ngược lại có khi vì toán của mình không tốt"
+        },
+        {
+          "zh": "会让我考不上",
+          "vi": "sẽ khiến mình không đỗ được"
+        },
+        {
+          "zh": "保送的时候可以去的大学",
+          "vi": "trường mà đi tuyển thẳng thì vào được,"
+        },
+        {
+          "zh": "所以我就直接不考了",
+          "vi": "nên mình dứt khoát không thi luôn,"
+        },
+        {
+          "zh": "然后最后去的大学",
+          "vi": "rồi trường cuối cùng mình vào,"
+        },
+        {
+          "zh": "来说一下我的母校重庆大学",
+          "vi": "nói luôn về trường cũ của mình, Đại học Trùng Khánh,"
+        },
+        {
+          "zh": "也不算是最好的学校我们说实话",
+          "vi": "cũng không phải trường tốt nhất, nói thật nhé,"
+        },
+        {
+          "zh": "可是也算还OK",
+          "vi": "nhưng cũng tạm OK,"
+        },
+        {
+          "zh": "然后我反正当时为什么",
+          "vi": "rồi dù sao hồi đó tại sao mình"
+        },
+        {
+          "zh": "报重庆大学的外语类保送，",
+          "vi": "đăng ký diện tuyển thẳng ngoại ngữ của Đại học Trùng Khánh,"
+        },
+        {
+          "zh": "是因为他们不考数学。",
+          "vi": "là vì họ không thi toán."
+        }
+      ]
+    },
+    "164": {
+      "zh": "然后其他因为保送我们外语类保送其实也还是有考试，你要通过那个考试你就可以不用去高考。",
+      "parts": [
+        {
+          "zh": "然后其他因为保送",
+          "vi": "Rồi mấy cái khác, vì tuyển thẳng —"
+        },
+        {
+          "zh": "我们外语类保送其实也还是有考试，",
+          "vi": "tuyển thẳng ngoại ngữ của chúng mình thật ra vẫn có thi,"
+        },
+        {
+          "zh": "你要通过那个考试",
+          "vi": "cậu thi qua kỳ thi đó"
+        },
+        {
+          "zh": "你就可以不用去高考。",
+          "vi": "là không cần thi đại học nữa."
+        }
+      ]
+    },
+    "165": {
+      "zh": "但是其他很多学校他们都要考数学，我看见了亲爱的重庆大学不考数学。",
+      "parts": [
+        {
+          "zh": "但是其他很多学校他们都要考数学，",
+          "vi": "Nhưng nhiều trường khác đều phải thi toán,"
+        },
+        {
+          "zh": "我看见了亲爱的重庆大学不考数学。",
+          "vi": "mình thấy Đại học Trùng Khánh thân yêu không thi toán."
+        }
+      ]
+    },
+    "166": {
+      "zh": "只考语文和英语，然后这两个我都成绩比较好，所以最后我就报的重庆大学。",
+      "parts": [
+        {
+          "zh": "只考语文和英语，",
+          "vi": "chỉ thi ngữ văn và tiếng Anh,"
+        },
+        {
+          "zh": "然后这两个我都成绩比较好，",
+          "vi": "mà hai môn này mình đều khá tốt,"
+        },
+        {
+          "zh": "所以最后我就报的重庆大学。",
+          "vi": "nên cuối cùng mình đăng ký Đại học Trùng Khánh."
+        }
+      ]
+    },
+    "167": {
+      "zh": "那你在读书的时候最喜欢哪一门学科？",
+      "parts": [
+        {
+          "zh": "那你在读书的时候",
+          "vi": "Vậy hồi đi học"
+        },
+        {
+          "zh": "最喜欢哪一门学科？",
+          "vi": "cậu thích môn nào nhất?"
+        }
+      ]
+    },
+    "168": {
+      "zh": "我最喜欢的历史吧，对，嗯，我特别喜欢历史课，可能跟我从小喜欢看百科全书比较有关系，对。",
+      "parts": [
+        {
+          "zh": "我最喜欢的历史吧，对，嗯，",
+          "vi": "Mình thích nhất chắc là lịch sử, ừ, ừm,"
+        },
+        {
+          "zh": "我特别喜欢历史课，",
+          "vi": "mình đặc biệt thích giờ lịch sử,"
+        },
+        {
+          "zh": "可能跟我从小喜欢看百科全书",
+          "vi": "có lẽ với chuyện từ nhỏ mình thích đọc bách khoa toàn thư"
+        },
+        {
+          "zh": "比较有关系，对。",
+          "vi": "thì cũng có liên quan, ừ."
+        }
+      ]
+    },
+    "169": {
+      "zh": "就喜欢这种杂七杂八的这种random facts，然后历史课上就会有比较多的这种。",
+      "parts": [
+        {
+          "zh": "就喜欢这种杂七杂八的",
+          "vi": "Thích mấy thứ linh tinh đủ loại,"
+        },
+        {
+          "zh": "这种random facts，",
+          "vi": "mấy random facts kiểu này,"
+        },
+        {
+          "zh": "然后历史课上就会有比较多的这种。",
+          "vi": "rồi trong giờ lịch sử sẽ có khá nhiều thứ kiểu đó."
+        }
+      ]
+    },
+    "170": {
+      "zh": "然后以前我的历史老师也又是比较好玩的，就会经常讲一些这种比较随机的一些有趣的东西，",
+      "parts": [
+        {
+          "zh": "然后以前我的历史老师",
+          "vi": "Rồi hồi trước giáo viên lịch sử của mình"
+        },
+        {
+          "zh": "也又是比较好玩的，",
+          "vi": "cũng khá vui tính,"
+        },
+        {
+          "zh": "就会经常讲一些这种",
+          "vi": "hay kể mấy thứ kiểu"
+        },
+        {
+          "zh": "比较随机的一些有趣的东西，",
+          "vi": "khá ngẫu nhiên, thú vị,"
+        }
+      ]
+    },
+    "171": {
+      "zh": "所以我就觉得还挺好玩的。",
+      "vi": "nên mình thấy cũng khá vui."
+    },
+    "172": {
+      "zh": "然后可能还有英语课吧，因为我的确一直。",
+      "parts": [
+        {
+          "zh": "然后可能还有英语课吧，",
+          "vi": "Rồi có lẽ còn giờ tiếng Anh nữa,"
+        },
+        {
+          "zh": "因为我的确一直。",
+          "vi": "vì mình đúng là lúc nào cũng."
+        }
+      ]
+    },
+    "173": {
+      "zh": "对英语课、对语言还是比较感兴趣。",
+      "vi": "với giờ tiếng Anh, với ngôn ngữ thì vẫn khá hứng thú."
+    },
+    "174": {
+      "zh": "我其实跟你相反，我从小就是数学比较好，可以说是一个书呆子。",
+      "parts": [
+        {
+          "zh": "我其实跟你相反，",
+          "vi": "Thật ra mình ngược với cậu,"
+        },
+        {
+          "zh": "我从小就是数学比较好，",
+          "vi": "từ nhỏ mình đã giỏi toán,"
+        },
+        {
+          "zh": "可以说是一个书呆子。",
+          "vi": "có thể nói là một đứa mọt sách."
+        }
+      ]
+    },
+    "175": {
+      "zh": "书呆子英文就是nerd，对吧？",
+      "vi": "书呆子 tiếng Anh là nerd, đúng không?"
+    },
+    "176": {
+      "zh": "嗯嗯。",
+      "vi": "Ừm ừm."
+    },
+    "177": {
+      "zh": "但是因为我当时的话就是比较专注于学习高考要考的几门课，所以我的语文、数学和英语都比较好。",
+      "parts": [
+        {
+          "zh": "但是因为我当时的话",
+          "vi": "Nhưng vì hồi đó mình"
+        },
+        {
+          "zh": "就是比较专注于",
+          "vi": "khá tập trung vào"
+        },
+        {
+          "zh": "学习高考要考的几门课，",
+          "vi": "học mấy môn thi đại học,"
+        },
+        {
+          "zh": "所以我的语文、数学和英语都比较好。",
+          "vi": "nên ngữ văn, toán và tiếng Anh của mình đều khá tốt."
+        }
+      ]
+    },
+    "179": {
+      "zh": "但相反的，其实。",
+      "vi": "Nhưng ngược lại, thật ra."
+    },
+    "180": {
+      "zh": "因呃像历史、地理、政治、社会这些科学学目，因为高考不用考，所以我就没有好好学。",
+      "parts": [
+        {
+          "zh": "因呃像历史、地理、政治、社会",
+          "vi": "Vì, ờ, như lịch sử, địa lý, chính trị, xã hội,"
+        },
+        {
+          "zh": "这些科学学目，",
+          "vi": "mấy môn học này,"
+        },
+        {
+          "zh": "因为高考不用考，",
+          "vi": "vì thi đại học không thi,"
+        },
+        {
+          "zh": "所以我就没有好好学。",
+          "vi": "nên mình không học đàng hoàng."
+        }
+      ]
+    },
+    "181": {
+      "zh": "我现在挺后悔的，因为我觉得这些知识就是在中文我们叫通识教育，",
+      "parts": [
+        {
+          "zh": "我现在挺后悔的，",
+          "vi": "Giờ mình khá hối hận,"
+        },
+        {
+          "zh": "因为我觉得这些知识",
+          "vi": "vì mình thấy những kiến thức này,"
+        },
+        {
+          "zh": "就是在中文我们叫通识教育，",
+          "vi": "trong tiếng Trung chúng mình gọi là 通识教育 (giáo dục đại cương),"
+        }
+      ]
+    },
+    "182": {
+      "zh": "通识就是普通的知识这样通识教育。",
+      "vi": "通识 tức là kiến thức phổ thông, giáo dục đại cương."
+    },
+    "183": {
+      "zh": "其实我现在挺薄弱的，但反而长大了以后，我觉得学那么多数学。也没有什么用，反而多学一些历史啊、地理知识会比较有用。",
+      "parts": [
+        {
+          "zh": "其实我现在挺薄弱的，",
+          "vi": "thật ra bây giờ mình khá yếu,"
+        },
+        {
+          "zh": "但反而长大了以后，",
+          "vi": "nhưng ngược lại lớn lên rồi,"
+        },
+        {
+          "zh": "我觉得学那么多数学。也没有什么用，",
+          "vi": "mình thấy học nhiều toán như vậy cũng chẳng có ích gì,"
+        },
+        {
+          "zh": "反而多学一些",
+          "vi": "ngược lại học thêm một chút"
+        },
+        {
+          "zh": "历史啊、地理知识会比较有用。",
+          "vi": "lịch sử, địa lý thì sẽ có ích hơn."
+        }
+      ]
+    },
+    "185": {
+      "zh": "你觉得呢？",
+      "vi": "Cậu thấy sao?"
+    },
+    "186": {
+      "zh": "可能对聊天会比较有用，因为你跟别人聊天，你不会去聊数学，你不会去聊解方程，",
+      "parts": [
+        {
+          "zh": "可能对聊天会比较有用，",
+          "vi": "Có lẽ sẽ có ích hơn khi nói chuyện,"
+        },
+        {
+          "zh": "因为你跟别人聊天，",
+          "vi": "vì cậu nói chuyện với người khác,"
+        },
+        {
+          "zh": "你不会去聊数学，你不会去聊解方程，",
+          "vi": "cậu sẽ không nói chuyện toán, cậu sẽ không nói chuyện giải phương trình,"
+        }
+      ]
+    },
+    "187": {
+      "zh": "你会去聊这种乱七八糟的这些东西啊，会比较有趣一点。",
+      "parts": [
+        {
+          "zh": "你会去聊这种乱七八糟的",
+          "vi": "cậu sẽ nói mấy thứ linh tinh lộn xộn"
+        },
+        {
+          "zh": "这些东西啊，会比较有趣一点。",
+          "vi": "kiểu này, sẽ thú vị hơn một chút."
+        }
+      ]
+    },
+    "188": {
+      "zh": "对我对对，我觉得会会让你成为一个更有趣的人，而且也会对你的人生观和价值观塑造。",
+      "parts": [
+        {
+          "zh": "对我对对，我觉得",
+          "vi": "Đúng, mình, đúng đúng, mình thấy"
+        },
+        {
+          "zh": "会会让你成为一个更有趣的人，",
+          "vi": "nó sẽ khiến cậu thành người thú vị hơn,"
+        },
+        {
+          "zh": "而且也会对你的人生观",
+          "vi": "hơn nữa với nhân sinh quan"
+        },
+        {
+          "zh": "和价值观塑造。",
+          "vi": "và giá trị quan của cậu, việc hình thành…"
+        }
+      ]
+    },
+    "189": {
+      "zh": "塑造你的人生观、价值观更有用一点。",
+      "vi": "hình thành nhân sinh quan, giá trị quan của cậu thì cũng có ích hơn."
+    },
+    "190": {
+      "zh": "对，所以反正我数学一直很差，其实也挺遗憾的，因为我觉得学数学也比较重要，",
+      "parts": [
+        {
+          "zh": "对，所以反正我数学一直很差，",
+          "vi": "Ừ, nên dù sao toán của mình lúc nào cũng tệ,"
+        },
+        {
+          "zh": "其实也挺遗憾的，",
+          "vi": "thật ra cũng khá tiếc,"
+        },
+        {
+          "zh": "因为我觉得学数学也比较重要，",
+          "vi": "vì mình thấy học toán cũng khá quan trọng,"
+        }
+      ]
+    },
+    "191": {
+      "zh": "因为你数学学好了，呃，我觉得数学的确学的很多东西没有什么用，",
+      "parts": [
+        {
+          "zh": "因为你数学学好了，呃，",
+          "vi": "vì cậu học tốt toán, ờ,"
+        },
+        {
+          "zh": "我觉得数学的确",
+          "vi": "mình thấy toán đúng là"
+        },
+        {
+          "zh": "学的很多东西没有什么用，",
+          "vi": "nhiều thứ học xong chẳng có ích gì,"
+        }
+      ]
+    },
+    "192": {
+      "zh": "可是最后是把你的思维方式、你的思维能力这些会有比较好的训练。",
+      "parts": [
+        {
+          "zh": "可是最后是把你的思维方式、",
+          "vi": "nhưng cuối cùng thì cách tư duy,"
+        },
+        {
+          "zh": "你的思维能力这些",
+          "vi": "khả năng tư duy của cậu"
+        },
+        {
+          "zh": "会有比较好的训练。",
+          "vi": "sẽ được rèn luyện khá tốt."
+        }
+      ]
+    },
+    "193": {
+      "zh": "而且可能话是这么说，但是我觉得在大学学的那些数学就已经太，",
+      "parts": [
+        {
+          "zh": "而且可能话是这么说，",
+          "vi": "Hơn nữa có lẽ — nói thì nói vậy,"
+        },
+        {
+          "zh": "但是我觉得",
+          "vi": "nhưng mình thấy"
+        },
+        {
+          "zh": "在大学学的那些数学就已经太，",
+          "vi": "toán học ở đại học thì đã quá…"
+        }
+      ]
+    },
+    "194": {
+      "zh": "甚至高中吧高二高三学的一些数学基本上太太怎么说呢？",
+      "parts": [
+        {
+          "zh": "甚至高中吧高二高三学的一些数学",
+          "vi": "thậm chí toán cấp ba, học ở lớp 11, lớp 12,"
+        },
+        {
+          "zh": "基本上太太怎么说呢？",
+          "vi": "về cơ bản quá, quá, nói sao nhỉ?"
+        }
+      ]
+    },
+    "195": {
+      "zh": "太复杂了，太复杂了。",
+      "vi": "Quá phức tạp, quá phức tạp."
+    },
+    "196": {
+      "zh": "我所以其实没有那么多用。",
+      "vi": "Mình… nên thật ra không có ích nhiều đến thế."
+    },
+    "197": {
+      "zh": "我前两天我看一个高考题，我完全看不懂。",
+      "parts": [
+        {
+          "zh": "我前两天我看一个高考题，",
+          "vi": "Mấy hôm trước mình xem một đề thi đại học,"
+        },
+        {
+          "zh": "我完全看不懂。",
+          "vi": "mình hoàn toàn không hiểu."
+        }
+      ]
+    },
+    "198": {
+      "zh": "我一我我我根本我我都觉得我的天哪，这是。",
+      "parts": [
+        {
+          "zh": "我一我我我根本我我都觉得",
+          "vi": "Mình… mình mình mình hoàn toàn, mình mình thấy"
+        },
+        {
+          "zh": "我的天哪，这是。",
+          "vi": "trời đất ơi, đây là…"
+        }
+      ]
+    },
+    "199": {
+      "zh": "高中的学生需要解的题目吗？",
+      "vi": "đề mà học sinh cấp ba phải giải sao?"
+    },
+    "200": {
+      "zh": "我完全没有任何头绪，就是各种几何，然后特别复杂的方程。",
+      "parts": [
+        {
+          "zh": "我完全没有任何头绪，",
+          "vi": "Mình hoàn toàn không biết bắt đầu từ đâu,"
+        },
+        {
+          "zh": "就是各种几何，然后特别复杂的方程。",
+          "vi": "đủ loại hình học, rồi phương trình cực kỳ phức tạp."
+        }
+      ]
+    },
+    "201": {
+      "zh": "然后我像我这种高中数学差的一塌糊涂，我我跟你讲，我高中数学考了三年试，",
+      "parts": [
+        {
+          "zh": "然后我像我这种",
+          "vi": "Rồi người như mình,"
+        },
+        {
+          "zh": "高中数学差的一塌糊涂，",
+          "vi": "toán cấp ba tệ hết chỗ nói,"
+        },
+        {
+          "zh": "我我跟你讲，我高中数学考了三年试，",
+          "vi": "mình nói cậu nghe, ba năm thi toán cấp ba,"
+        }
+      ]
+    },
+    "202": {
+      "zh": "只有一次上过平均分，其他基本上就是不及格。",
+      "parts": [
+        {
+          "zh": "只有一次上过平均分，",
+          "vi": "chỉ có một lần được trên điểm trung bình,"
+        },
+        {
+          "zh": "其他基本上就是不及格。",
+          "vi": "còn lại về cơ bản là trượt."
+        }
+      ]
+    },
+    "203": {
+      "zh": "我跟你说，我大学也是学的数学专业。",
+      "vi": "Mình nói cậu nghe, đại học mình cũng học ngành toán."
+    },
+    "204": {
+      "zh": "然后前去年的时候，我翻出了我大学的数学笔记本。",
+      "parts": [
+        {
+          "zh": "然后前去年的时候，",
+          "vi": "Rồi hồi năm… năm ngoái,"
+        },
+        {
+          "zh": "我翻出了我大学的数学笔记本。",
+          "vi": "mình lục ra cuốn sổ ghi chép toán hồi đại học."
+        }
+      ]
+    },
+    "205": {
+      "zh": "我现在看一看我大学上的那些课，我都觉得是天书。",
+      "parts": [
+        {
+          "zh": "我现在看一看我大学上的那些课，",
+          "vi": "Giờ mình xem lại những môn hồi đại học,"
+        },
+        {
+          "zh": "我都觉得是天书。",
+          "vi": "mình thấy toàn là 天书 (sách trời)."
+        }
+      ]
+    },
+    "206": {
+      "zh": "天书的意思就是天书，",
+      "vi": "天书 nghĩa là… 天书,"
+    },
+    "207": {
+      "zh": "就是这不是以前的一个神话故事嘛？",
+      "vi": "Ý là, đây chẳng phải là một truyện thần thoại ngày xưa sao?"
+    },
+    "208": {
+      "zh": "对吧？",
+      "vi": "Đúng không?"
+    },
+    "209": {
+      "zh": "那个什么，哎，这是什么故事来着？",
+      "vi": "Cái gì ấy nhỉ, ơ, chuyện gì ấy nhỉ?"
+    },
+    "210": {
+      "zh": "反正大概的意思就是像。",
+      "vi": "Dù sao đại khái ý là kiểu như."
+    },
+    "211": {
+      "zh": "老天的给你的一个书，一个经文，然后你看不懂，因为它是属于上帝的，属于天上的。",
+      "parts": [
+        {
+          "zh": "老天的给你的一个书，一个经文，",
+          "vi": "ông trời cho cậu một cuốn sách, một cuốn kinh,"
+        },
+        {
+          "zh": "然后你看不懂，",
+          "vi": "rồi cậu đọc không hiểu,"
+        },
+        {
+          "zh": "因为它是属于上帝的，属于天上的。",
+          "vi": "vì nó thuộc về thượng đế, thuộc về trên trời."
+        }
+      ]
+    },
+    "212": {
+      "zh": "对，反正天书就是在中文里面看不懂的时候，我们就会说：“哎，这个是天书吧？”",
+      "parts": [
+        {
+          "zh": "对，反正天书就是",
+          "vi": "Ừ, dù sao 天书 là"
+        },
+        {
+          "zh": "在中文里面看不懂的时候，",
+          "vi": "trong tiếng Trung khi đọc không hiểu,"
+        },
+        {
+          "zh": "我们就会说：“哎，这个是天书吧？”",
+          "vi": "chúng mình sẽ nói: \"Ơ, cái này là 天书 à?\""
+        }
+      ]
+    },
+    "213": {
+      "zh": "总而言之呢，我看我大学时候的数学笔记本，就觉得简直是天书。",
+      "parts": [
+        {
+          "zh": "总而言之呢，",
+          "vi": "Tóm lại,"
+        },
+        {
+          "zh": "我看我大学时候的数学笔记本，",
+          "vi": "mình xem sổ ghi chép toán hồi đại học,"
+        },
+        {
+          "zh": "就觉得简直是天书。",
+          "vi": "thấy đúng là 天书."
+        }
+      ]
+    },
+    "214": {
+      "zh": "我现在一点都不记得了。",
+      "vi": "Giờ mình chẳng nhớ gì nữa."
+    },
+    "215": {
+      "zh": "我大学的时候竟然学过这些东西，但是。",
+      "parts": [
+        {
+          "zh": "我大学的时候",
+          "vi": "Hồi đại học mình"
+        },
+        {
+          "zh": "竟然学过这些东西，但是。",
+          "vi": "vậy mà đã từng học những thứ này, nhưng mà."
+        }
+      ]
+    },
+    "216": {
+      "zh": "你知道前段时间在中国的社交网站上有一个讨论非常激烈的话题，",
+      "parts": [
+        {
+          "zh": "你知道前段时间",
+          "vi": "Cậu có biết dạo trước"
+        },
+        {
+          "zh": "在中国的社交网站上",
+          "vi": "trên mạng xã hội Trung Quốc"
+        },
+        {
+          "zh": "有一个讨论非常激烈的话题，",
+          "vi": "có một chủ đề tranh luận rất gay gắt,"
+        }
+      ]
+    },
+    "217": {
+      "zh": "就是中国的官方媒体说数学、物理、化学、数理化比较重要，",
+      "parts": [
+        {
+          "zh": "就是中国的官方媒体说",
+          "vi": "đó là truyền thông chính thống Trung Quốc nói"
+        },
+        {
+          "zh": "数学、物理、化学、数理化比较重要，",
+          "vi": "toán, lý, hóa — 数理化 — khá quan trọng,"
+        }
+      ]
+    },
+    "218": {
+      "zh": "所以学他们说学理科要比学文科更重要。",
+      "parts": [
+        {
+          "zh": "所以学他们说",
+          "vi": "nên học… họ nói"
+        },
+        {
+          "zh": "学理科要比学文科更重要。",
+          "vi": "học khối tự nhiên quan trọng hơn học khối xã hội."
+        }
+      ]
+    },
+    "219": {
+      "zh": "你看到过这个讨论吗？",
+      "vi": "Cậu thấy cuộc tranh luận này chưa?"
+    },
+    "220": {
+      "zh": "对我看到过，",
+      "vi": "Ừ, mình thấy rồi,"
+    },
+    "221": {
+      "zh": "我看到的是一个一个什么学者他说不要让学文科的学生变太多。",
+      "parts": [
+        {
+          "zh": "我看到的是一个一个什么学者",
+          "vi": "Mình thấy là một học giả gì đó"
+        },
+        {
+          "zh": "他说不要让学文科的学生变太多。",
+          "vi": "nói đừng để sinh viên học khối xã hội nhiều quá."
+        }
+      ]
+    },
+    "222": {
+      "zh": "要不然中国会掉进中等收入陷阱，就是反正大概的意思就是学文科对于社会没什么用。",
+      "parts": [
+        {
+          "zh": "要不然中国会掉进中等收入陷阱，",
+          "vi": "kẻo Trung Quốc sẽ rơi vào bẫy thu nhập trung bình,"
+        },
+        {
+          "zh": "就是反正大概的意思就是",
+          "vi": "tức là dù sao đại khái ý là"
+        },
+        {
+          "zh": "学文科对于社会没什么用。",
+          "vi": "học khối xã hội chẳng có ích gì cho xã hội."
+        }
+      ]
+    },
+    "223": {
+      "zh": "你太多学生去学文科了，咱们的社会没有办法发展。",
+      "parts": [
+        {
+          "zh": "你太多学生去学文科了，",
+          "vi": "Quá nhiều sinh viên đi học khối xã hội,"
+        },
+        {
+          "zh": "咱们的社会没有办法发展。",
+          "vi": "thì xã hội chúng ta không phát triển được."
+        }
+      ]
+    },
+    "224": {
+      "zh": "但是我觉得这个，说实话，我觉得它有一定的道理，它并不是完全没有道理。",
+      "parts": [
+        {
+          "zh": "但是我觉得这个，说实话，",
+          "vi": "Nhưng mình thấy, nói thật,"
+        },
+        {
+          "zh": "我觉得它有一定的道理，",
+          "vi": "mình thấy nó cũng có lý ở mức nào đó,"
+        },
+        {
+          "zh": "它并不是完全没有道理。",
+          "vi": "không phải hoàn toàn vô lý."
+        }
+      ]
+    },
+    "225": {
+      "zh": "我觉得可能要看国家的发展阶段，比如说发展初期肯定需要很多的工程师，需要很多的理科人才。",
+      "parts": [
+        {
+          "zh": "我觉得可能要看国家的发展阶段，",
+          "vi": "Mình nghĩ có lẽ còn tùy giai đoạn phát triển của đất nước,"
+        },
+        {
+          "zh": "比如说发展初期",
+          "vi": "ví dụ giai đoạn đầu phát triển"
+        },
+        {
+          "zh": "肯定需要很多的工程师，",
+          "vi": "chắc chắn cần nhiều kỹ sư,"
+        },
+        {
+          "zh": "需要很多的理科人才。",
+          "vi": "cần nhiều nhân tài khối tự nhiên."
+        }
+      ]
+    },
+    "226": {
+      "zh": "但是我觉得等到国家发展到了一定的程度，可能到了中国这个程度，可以慢慢的转型，",
+      "parts": [
+        {
+          "zh": "但是我觉得等到",
+          "vi": "Nhưng mình nghĩ khi"
+        },
+        {
+          "zh": "国家发展到了一定的程度，",
+          "vi": "đất nước phát triển đến một mức nhất định,"
+        },
+        {
+          "zh": "可能到了中国这个程度，",
+          "vi": "có lẽ đến mức như Trung Quốc bây giờ,"
+        },
+        {
+          "zh": "可以慢慢的转型，",
+          "vi": "thì có thể dần dần chuyển đổi,"
+        }
+      ]
+    },
+    "227": {
+      "zh": "需要更多的一些学习历史或者法律或者政治社会学的人。",
+      "parts": [
+        {
+          "zh": "需要更多的一些学习历史",
+          "vi": "cần nhiều người học lịch sử"
+        },
+        {
+          "zh": "或者法律或者政治社会学的人。",
+          "vi": "hoặc luật, hoặc chính trị, xã hội học hơn."
+        }
+      ]
+    },
+    "228": {
+      "zh": "就比如说，我觉得中国的领导人大多数都是学理科出身的。",
+      "parts": [
+        {
+          "zh": "就比如说，我觉得",
+          "vi": "Ví dụ, mình thấy"
+        },
+        {
+          "zh": "中国的领导人大多数",
+          "vi": "lãnh đạo Trung Quốc phần lớn"
+        },
+        {
+          "zh": "都是学理科出身的。",
+          "vi": "đều xuất thân từ khối tự nhiên."
+        }
+      ]
+    },
+    "229": {
+      "zh": "但是像美国呀或者其他一些发达国家的领导人大多数都是学政治经济历史等等出身的对吗对对我觉得这个言论最大的问题就是把文科和理科对立化但我觉得任何一个真正要对社会有用的人他应该文科和理科都去学习或者至少我觉得是一个社会要正常的运作正常的发展是各种各样的人才都需要的。",
+      "parts": [
+        {
+          "zh": "但是像美国呀",
+          "vi": "Nhưng như Mỹ"
+        },
+        {
+          "zh": "或者其他一些发达国家的领导人",
+          "vi": "hoặc lãnh đạo của một số nước phát triển khác"
+        },
+        {
+          "zh": "大多数都是学政治经济历史",
+          "vi": "phần lớn đều học chính trị, kinh tế, lịch sử"
+        },
+        {
+          "zh": "等等出身的对吗",
+          "vi": "v.v. mà ra, đúng không?"
+        },
+        {
+          "zh": "对对我觉得这个言论最大的问题",
+          "vi": "Đúng đúng. Mình thấy vấn đề lớn nhất của phát ngôn này"
+        },
+        {
+          "zh": "就是把文科和理科对立化",
+          "vi": "là đặt khối xã hội và khối tự nhiên đối lập nhau."
+        },
+        {
+          "zh": "但我觉得任何一个",
+          "vi": "Nhưng mình thấy bất kỳ ai"
+        },
+        {
+          "zh": "真正要对社会有用的人",
+          "vi": "thật sự muốn có ích cho xã hội"
+        },
+        {
+          "zh": "他应该文科和理科都去学习",
+          "vi": "đều nên học cả xã hội lẫn tự nhiên."
+        },
+        {
+          "zh": "或者至少我觉得是一个社会",
+          "vi": "Hoặc ít nhất mình thấy một xã hội"
+        },
+        {
+          "zh": "要正常的运作正常的发展",
+          "vi": "muốn vận hành bình thường, phát triển bình thường,"
+        },
+        {
+          "zh": "是各种各样的人才都需要的。",
+          "vi": "thì cần đủ loại nhân tài."
+        }
+      ]
+    },
+    "233": {
+      "zh": "这让我想起了，",
+      "vi": "Chuyện này làm mình nhớ đến,"
+    },
+    "234": {
+      "zh": "在中国的社交媒体上有一句非常有意思的话，",
+      "parts": [
+        {
+          "zh": "在中国的社交媒体上",
+          "vi": "trên mạng xã hội Trung Quốc"
+        },
+        {
+          "zh": "有一句非常有意思的话，",
+          "vi": "có một câu rất thú vị,"
+        }
+      ]
+    },
+    "235": {
+      "zh": "这个是一九九八年在新华词典上面有这么一个例句，他们是这么说的：",
+      "parts": [
+        {
+          "zh": "这个是一九九八年在新华词典上面",
+          "vi": "đó là năm 1998, trong Từ điển Tân Hoa"
+        },
+        {
+          "zh": "有这么一个例句，他们是这么说的：",
+          "vi": "có một câu ví dụ như thế này, họ viết:"
+        }
+      ]
+    },
+    "236": {
+      "zh": "“张华考上了北京大学，李萍进了中等技术学校，我在百货公司当售货员，",
+      "parts": [
+        {
+          "zh": "“张华考上了北京大学，",
+          "vi": "\"Trương Hoa đỗ Đại học Bắc Kinh,"
+        },
+        {
+          "zh": "李萍进了中等技术学校，",
+          "vi": "Lý Bình vào trường trung cấp kỹ thuật,"
+        },
+        {
+          "zh": "我在百货公司当售货员，",
+          "vi": "tôi làm nhân viên bán hàng ở cửa hàng bách hóa,"
+        }
+      ]
+    },
+    "237": {
+      "zh": "我们都有光明的前途。”",
+      "vi": "tất cả chúng tôi đều có tương lai tươi sáng.\""
+    },
+    "238": {
+      "zh": "实际上，现在的中国社会离这句话差得非常远。",
+      "parts": [
+        {
+          "zh": "实际上，现在的中国社会",
+          "vi": "Thực tế, xã hội Trung Quốc bây giờ"
+        },
+        {
+          "zh": "离这句话差得非常远。",
+          "vi": "còn cách câu này rất xa."
+        }
+      ]
+    },
+    "239": {
+      "zh": "对，啊好，那我们下一次可以聊一些轻松的话题，因为我本来还想要聊一聊我的早恋经历，",
+      "parts": [
+        {
+          "zh": "对，啊好，那我们下一次",
+          "vi": "Ừ, à được rồi, lần sau chúng mình"
+        },
+        {
+          "zh": "可以聊一些轻松的话题，",
+          "vi": "có thể nói chuyện gì nhẹ nhàng hơn,"
+        },
+        {
+          "zh": "因为我本来还想要",
+          "vi": "vì mình vốn còn định"
+        },
+        {
+          "zh": "聊一聊我的早恋经历，",
+          "vi": "kể chuyện yêu sớm của mình,"
+        }
+      ]
+    },
+    "240": {
+      "zh": "就是在初中和高中谈恋爱，然后被老师抓住的经历。",
+      "parts": [
+        {
+          "zh": "就是在初中和高中谈恋爱，",
+          "vi": "tức là yêu đương hồi cấp hai, cấp ba,"
+        },
+        {
+          "zh": "然后被老师抓住的经历。",
+          "vi": "rồi bị thầy cô bắt được."
+        }
+      ]
+    },
+    "241": {
+      "zh": "但这个我们可以留到下次再说了，好吧？",
+      "parts": [
+        {
+          "zh": "但这个我们可以",
+          "vi": "Nhưng chuyện này chúng mình có thể"
+        },
+        {
+          "zh": "留到下次再说了，好吧？",
+          "vi": "để lần sau nói, được không?"
+        }
+      ]
+    },
+    "242": {
+      "zh": "谢谢大家，谢谢Cameron，拜拜，拜拜。",
+      "parts": [
+        {
+          "zh": "谢谢大家，谢谢Cameron，",
+          "vi": "Cảm ơn mọi người, cảm ơn Cameron,"
+        },
+        {
+          "zh": "拜拜，拜拜。",
+          "vi": "bye bye, bye bye."
+        }
+      ]
+    }
+  }
+}

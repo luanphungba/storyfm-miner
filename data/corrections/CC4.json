@@ -1,0 +1,101 @@
+{
+  "episode": "CC4",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-04",
+  "fixes": [
+    {
+      "cueIndex": 123,
+      "before": " ath ",
+      "after": "ath",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 2,
+      "before": "Camer on",
+      "after": "Cameron",
+      "source": "llm-review",
+      "reason": "The guest Cameron, named in the sentence before; one word the glue pass left split.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 12,
+      "before": "Any ways",
+      "after": "Anyways",
+      "source": "llm-review",
+      "reason": "One English word split; whisper hears Anyways (the host transcript writes Anyway).",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 24,
+      "before": "G ym nas ium",
+      "after": "Gymnasium",
+      "source": "llm-review",
+      "reason": "The German Gymnasium (academic high school); the host transcript and whisper both say gymnasium.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 76,
+      "before": "Camera",
+      "after": "Cameron",
+      "source": "llm-review",
+      "reason": "The host addressing the guest Cameron; her transcript writes cameron here.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 123,
+      "before": "MathOlymp iad",
+      "after": "Math Olympiad",
+      "source": "llm-review",
+      "reason": "English for 奥林匹克数学竞赛, split into fragments; whisper hears math olympiad.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 157,
+      "before": "卡莫罗",
+      "after": "Cameron",
+      "source": "llm-review",
+      "reason": "The host calling the guest by name after 怎么样呀; whisper hears 凯姆洛 / \"come on\", i.e. Cameron.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 186,
+      "before": "去了解方程",
+      "after": "去聊解方程",
+      "source": "llm-review",
+      "reason": "Parallel to 不会去聊数学 / 会去聊这种; the host transcript and whisper both have 聊解方程.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 236,
+      "before": "李平",
+      "after": "李萍",
+      "source": "llm-review",
+      "reason": "The 1998 新华字典 example sentence reads 李萍 (confirmed by search); the host transcript writes 李萍.",
+      "appliedAt": "2026-10-04"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 19,
+      "text": "但是上海是七五五五年",
+      "reason": "A slip: whisper also hears 七 then 五五五年 (the host transcript tidies it to 上海市是五年). Kept as said; the meaning is five years."
+    },
+    {
+      "cueIndex": 195,
+      "text": "太复杂了，太复杂了。",
+      "reason": "The host transcript has 太狭窄了，太复杂了; whisper hears 太复杂 / 太高级. Unresolved, kept as the ASR heard it."
+    },
+    {
+      "cueIndex": 220,
+      "text": "对我看到过，",
+      "reason": "Said by Cameron (the host transcript gives it to him, and it answers her question) but labelled as the host; speakers are not changed here."
+    },
+    {
+      "cueIndex": 233,
+      "text": "这让我想起了，",
+      "reason": "Said by the host (her transcript, and sentence 234 continues it) but labelled as Cameron; speakers are not changed here."
+    }
+  ]
+}

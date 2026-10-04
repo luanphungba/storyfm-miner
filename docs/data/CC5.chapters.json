@@ -1,0 +1,36 @@
+{
+  "chapters": [
+    {
+      "zh": "自驾游回来有点累",
+      "vi": "Đi Bỉ về hơi mệt",
+      "from": 0,
+      "to": 18,
+      "start": 6.62,
+      "end": 64.38
+    },
+    {
+      "zh": "偷个懒，下周请法国朋友",
+      "vi": "Lười một chút, tuần sau mời bạn Pháp",
+      "from": 19,
+      "to": 38,
+      "start": 64.84,
+      "end": 121.92
+    },
+    {
+      "zh": "来自世界各地的听众",
+      "vi": "Người nghe từ khắp thế giới",
+      "from": 39,
+      "to": 63,
+      "start": 122.55,
+      "end": 186.97
+    },
+    {
+      "zh": "谢谢你们，欢迎留言",
+      "vi": "Cảm ơn và mời để lại bình luận",
+      "from": 64,
+      "to": 84,
+      "start": 186.97,
+      "end": 246.19
+    }
+  ]
+}

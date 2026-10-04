@@ -1,0 +1,56 @@
+{
+  "episode": "CC5",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-04",
+  "fixes": [
+    {
+      "cueIndex": 15,
+      "before": " ot ",
+      "after": "ot",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 16,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 17,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 19,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 32,
+      "before": " ",
+      "after": "",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-04"
+    },
+    {
+      "cueIndex": 16,
+      "before": "GooglePodcast",
+      "after": "Google Podcast",
+      "source": "llm-review",
+      "reason": "Product name has a space; glue pass joined it. Host transcript: Google podcast.",
+      "appliedAt": "2026-10-04"
+    }
+  ],
+  "flagged": []
+}

@@ -317,7 +317,7 @@
  ],
  "走": [
   "TẨU",
-  "đi, bước đi; rời đi"
+  "đi, bước đi; rời đi; theo (走保送: theo diện tuyển thẳng)"
  ],
  "故事": [
   "CỐ SỰ",
@@ -10417,7 +10417,7 @@
  ],
  "一本": [
   "NHẤT BẢN",
-  "một quyển"
+  "một quyển (一本: trường đại học hạng nhất)"
  ],
  "侦探小说": [
   "TRINH THÁM TIỂU THUYẾT",
@@ -11281,7 +11281,7 @@
  ],
  "省": [
   "TỈNH",
-  "tiết kiệm, đỡ tốn; bớt đi"
+  "tỉnh (đơn vị hành chính); tiết kiệm, bớt đi"
  ],
  "卖出去": [
   "MẠI XUẤT KHỨ",
@@ -14809,7 +14809,7 @@
  ],
  "试": [
   "THÍ",
-  "thử"
+  "thử; kỳ thi (考了三年试: thi suốt ba năm)"
  ],
  "规则": [
   "QUY TẮC",
@@ -20030,5 +20030,1001 @@
  "第三期": [
   "ĐỆ TAM KỲ",
   "số thứ ba, tập thứ ba"
+ ],
+ "保送": [
+  "BẢO TỐNG",
+  "tuyển thẳng (vào đại học, không qua thi)"
+ ],
+ "考试": [
+  "KHẢO THÍ",
+  "thi; kỳ thi"
+ ],
+ "户口": [
+  "HỘ KHẨU",
+  "hộ khẩu"
+ ],
+ "公平": [
+  "CÔNG BÌNH",
+  "công bằng"
+ ],
+ "幺": [
+  "YÊU",
+  "số một (đọc số: 二幺幺 = 211); nhỏ nhất"
+ ],
+ "名额": [
+  "DANH NGẠCH",
+  "chỉ tiêu, suất (số người được nhận)"
+ ],
+ "卷子": [
+  "QUYỂN TỬ",
+  "bài thi, tờ đề thi"
+ ],
+ "科目": [
+  "KHOA MỤC",
+  "môn học"
+ ],
+ "化学": [
+  "HÓA HỌC",
+  "hóa học"
+ ],
+ "外语类": [
+  "NGOẠI NGỮ LOẠI",
+  "diện ngoại ngữ, nhóm ngành ngoại ngữ"
+ ],
+ "天书": [
+  "THIÊN THƯ",
+  "sách trời; (bóng) thứ đọc không hiểu nổi"
+ ],
+ "比例": [
+  "TỶ LỆ",
+  "tỷ lệ"
+ ],
+ "题目": [
+  "ĐỀ MỤC",
+  "đề bài, câu hỏi thi; đề tài"
+ ],
+ "地理": [
+  "ĐỊA LÝ",
+  "địa lý"
+ ],
+ "千军万马": [
+  "THIÊN QUÂN VẠN MÃ",
+  "thiên quân vạn mã; rất đông người"
+ ],
+ "独木桥": [
+  "ĐỘC MỘC KIỀU",
+  "cầu một thân gỗ; (bóng) con đường hẹp, khó qua"
+ ],
+ "语文": [
+  "NGỮ VĂN",
+  "môn ngữ văn (tiếng Trung ở trường)"
+ ],
+ "理科": [
+  "LÝ KHOA",
+  "khối tự nhiên, các môn khoa học tự nhiên"
+ ],
+ "重庆大学": [
+  "TRÙNG KHÁNH ĐẠI HỌC",
+  "Đại học Trùng Khánh"
+ ],
+ "八五": [
+  "BÁT NGŨ",
+  "(cắt từ chưa chuẩn của 九八五: nhóm trường top 985)"
+ ],
+ "一批": [
+  "NHẤT PHÊ",
+  "một nhóm, một loạt"
+ ],
+ "考生": [
+  "KHẢO SINH",
+  "thí sinh"
+ ],
+ "最少": [
+  "TỐI THIỂU",
+  "ít nhất"
+ ],
+ "浙江": [
+  "CHIẾT GIANG",
+  "Chiết Giang (tỉnh)"
+ ],
+ "教育资源": [
+  "GIÁO DỤC TƯ NGUYÊN",
+  "nguồn lực giáo dục"
+ ],
+ "三门": [
+  "TAM MÔN",
+  "ba môn (học)"
+ ],
+ "高三": [
+  "CAO TAM",
+  "lớp 12 (năm thứ ba cấp ba)"
+ ],
+ "薄弱": [
+  "BẠC NHƯỢC",
+  "yếu, non kém"
+ ],
+ "跳": [
+  "KHIÊU",
+  "nhảy; (跳过: bỏ qua)"
+ ],
+ "西藏": [
+  "TÂY TẠNG",
+  "Tây Tạng"
+ ],
+ "招呼": [
+  "CHIÊU HÔ",
+  "chào hỏi; gọi"
+ ],
+ "教育体制": [
+  "GIÁO DỤC THỂ CHẾ",
+  "hệ thống giáo dục"
+ ],
+ "分别": [
+  "PHÂN BIỆT",
+  "lần lượt, riêng từng cái; chia tay; phân biệt"
+ ],
+ "三岁": [
+  "TAM TUẾ",
+  "ba tuổi"
+ ],
+ "幼儿园": [
+  "ẤU NHI VIÊN",
+  "trường mẫu giáo"
+ ],
+ "所有人": [
+  "SỞ HỮU NHÂN",
+  "tất cả mọi người"
+ ],
+ "要说": [
+  "YẾU THUYẾT",
+  "nếu nói đến, nói về"
+ ],
+ "概率": [
+  "KHÁI SUẤT",
+  "xác suất"
+ ],
+ "十": [
+  "THẬP",
+  "mười"
+ ],
+ "户籍制度": [
+  "HỘ TỊCH CHẾ ĐỘ",
+  "chế độ hộ tịch (đăng ký hộ khẩu)"
+ ],
+ "当地": [
+  "ĐƯƠNG ĐỊA",
+  "địa phương, tại chỗ"
+ ],
+ "移民": [
+  "DI DÂN",
+  "di dân, nhập cư"
+ ],
+ "以外": [
+  "DĨ NGOẠI",
+  "ngoài ra, ngoài … ra"
+ ],
+ "卷": [
+  "QUYỂN",
+  "quyển, tập; bài thi, đề thi (全国卷: đề chung toàn quốc)"
+ ],
+ "难度": [
+  "NAN ĐỘ",
+  "độ khó"
+ ],
+ "试卷": [
+  "THÍ QUYỂN",
+  "bài thi, đề thi"
+ ],
+ "生物": [
+  "SINH VẬT",
+  "sinh vật; môn sinh học"
+ ],
+ "体育": [
+  "THỂ DỤC",
+  "thể thao, thể dục"
+ ],
+ "奖": [
+  "TƯỞNG",
+  "giải thưởng"
+ ],
+ "同桌": [
+  "ĐỒNG TRÁC",
+  "bạn cùng bàn"
+ ],
+ "解": [
+  "GIẢI",
+  "giải; (nói dở 解释: giải thích)"
+ ],
+ "几所": [
+  "KỶ SỞ",
+  "mấy trường (所: lượng từ cho trường)"
+ ],
+ "两所": [
+  "LƯỠNG SỞ",
+  "hai trường"
+ ],
+ "第三名": [
+  "ĐỆ TAM DANH",
+  "hạng ba"
+ ],
+ "第四名": [
+  "ĐỆ TỨ DANH",
+  "hạng tư"
+ ],
+ "浙江大学": [
+  "CHIẾT GIANG ĐẠI HỌC",
+  "Đại học Chiết Giang"
+ ],
+ "排名": [
+  "BÀI DANH",
+  "xếp hạng"
+ ],
+ "不算": [
+  "BẤT TOÁN",
+  "không tính là, không hẳn là"
+ ],
+ "历史课": [
+  "LỊCH SỬ KHÓA",
+  "giờ (môn) lịch sử"
+ ],
+ "英语课": [
+  "ANH NGỮ KHÓA",
+  "giờ (môn) tiếng Anh"
+ ],
+ "相反": [
+  "TƯƠNG PHẢN",
+  "ngược lại"
+ ],
+ "书呆子": [
+  "THƯ NGAI TỬ",
+  "mọt sách"
+ ],
+ "人生观": [
+  "NHÂN SINH QUAN",
+  "nhân sinh quan, cách nhìn cuộc đời"
+ ],
+ "价值观": [
+  "GIÁ TRỊ QUAN",
+  "giá trị quan, hệ giá trị"
+ ],
+ "塑造": [
+  "TỐ TẠO",
+  "nhào nặn, hình thành"
+ ],
+ "高中数学": [
+  "CAO TRUNG SỐ HỌC",
+  "toán cấp ba"
+ ],
+ "学理科": [
+  "HỌC LÝ KHOA",
+  "học khối tự nhiên"
+ ],
+ "中等": [
+  "TRUNG ĐẲNG",
+  "trung bình, hạng trung"
+ ],
+ "人才": [
+  "NHÂN TÀI",
+  "nhân tài, người có năng lực"
+ ],
+ "领导人": [
+  "LÃNH ĐẠO NHÂN",
+  "người lãnh đạo"
+ ],
+ "出身": [
+  "XUẤT THÂN",
+  "xuất thân"
+ ],
+ "第四期": [
+  "ĐỆ TỨ KỲ",
+  "số thứ tư, tập thứ tư"
+ ],
+ "录完": [
+  "LỤC HOÀN",
+  "ghi âm xong"
+ ],
+ "看有": [
+  "KHÁN HỮU",
+  "(cắt từ chưa chuẩn của 去看有我的东西: xem thứ có mình trong đó)"
+ ],
+ "尴尬": [
+  "GIAM GIỚI",
+  "ngượng, khó xử"
+ ],
+ "录下来": [
+  "LỤC HẠ LAI",
+  "ghi lại (âm thanh, hình ảnh)"
+ ],
+ "体制": [
+  "THỂ CHẾ",
+  "thể chế, hệ thống"
+ ],
+ "六岁": [
+  "LỤC TUẾ",
+  "sáu tuổi"
+ ],
+ "七岁": [
+  "THẤT TUẾ",
+  "bảy tuổi"
+ ],
+ "七五": [
+  "THẤT NGŨ",
+  "(nói nhịu 七…五…: bảy… năm…)"
+ ],
+ "五五年": [
+  "NGŨ NGŨ NIÊN",
+  "(nói lặp: năm… năm năm)"
+ ],
+ "义务教育": [
+  "NGHĨA VỤ GIÁO DỤC",
+  "giáo dục bắt buộc"
+ ],
+ "考大学": [
+  "KHẢO ĐẠI HỌC",
+  "thi đại học"
+ ],
+ "职业中学": [
+  "CHỨC NGHIỆP TRUNG HỌC",
+  "trường trung học nghề"
+ ],
+ "讨论一下": [
+  "THẢO LUẬN NHẤT HẠ",
+  "bàn một chút"
+ ],
+ "著名": [
+  "TRỨ DANH",
+  "nổi tiếng"
+ ],
+ "经过": [
+  "KINH QUÁ",
+  "đi qua, trải qua"
+ ],
+ "值得": [
+  "TRỊ ĐẮC",
+  "đáng, đáng giá"
+ ],
+ "成语": [
+  "THÀNH NGỮ",
+  "thành ngữ"
+ ],
+ "河": [
+  "HÀ",
+  "sông"
+ ],
+ "很窄": [
+  "NGẬN TRÁCH",
+  "rất hẹp"
+ ],
+ "一根": [
+  "NHẤT CĂN",
+  "một cây, một thanh (lượng từ vật dài)"
+ ],
+ "桥": [
+  "KIỀU",
+  "cây cầu"
+ ],
+ "人数": [
+  "NHÂN SỐ",
+  "số người"
+ ],
+ "等级": [
+  "ĐẲNG CẤP",
+  "cấp bậc, hạng"
+ ],
+ "二本": [
+  "NHỊ BẢN",
+  "trường đại học hạng hai"
+ ],
+ "很低": [
+  "NGẬN ĐÊ",
+  "rất thấp"
+ ],
+ "百分之四十": [
+  "BÁCH PHÂN CHI TỨ THẬP",
+  "40 phần trăm (百分之四十二: 42%)"
+ ],
+ "百分之十四": [
+  "BÁCH PHÂN CHI THẬP TỨ",
+  "14 phần trăm"
+ ],
+ "一百": [
+  "NHẤT BÁCH",
+  "một trăm"
+ ],
+ "户籍": [
+  "HỘ TỊCH",
+  "hộ tịch, hộ khẩu"
+ ],
+ "广州": [
+  "QUẢNG CHÂU",
+  "Quảng Châu"
+ ],
+ "也会变多": [
+  "DÃ HỘI BIẾN ĐA",
+  "cũng sẽ nhiều lên"
+ ],
+ "像有": [
+  "TƯỢNG HỮU",
+  "(cắt từ chưa chuẩn của 有点像有点像: hơi giống như)"
+ ],
+ "河南省": [
+  "HÀ NAM TỈNH",
+  "tỉnh Hà Nam"
+ ],
+ "一所": [
+  "NHẤT SỞ",
+  "một trường (所: lượng từ cho trường)"
+ ],
+ "郑州大学": [
+  "TRỊNH CHÂU ĐẠI HỌC",
+  "Đại học Trịnh Châu"
+ ],
+ "数最多": [
+  "SỐ TỐI ĐA",
+  "(cắt từ chưa chuẩn của 人数最多: số người đông nhất)"
+ ],
+ "交大": [
+  "GIAO ĐẠI",
+  "Đại học Giao thông (viết tắt)"
+ ],
+ "同济": [
+  "ĐỒNG TẾ",
+  "Đại học Đồng Tế (viết tắt)"
+ ],
+ "历年来": [
+  "LỊCH NIÊN LAI",
+  "qua các năm, từ trước đến nay"
+ ],
+ "题": [
+  "ĐỀ",
+  "đề, câu hỏi; đề bài"
+ ],
+ "试题": [
+  "THÍ ĐỀ",
+  "đề thi"
+ ],
+ "分配": [
+  "PHÂN PHỐI",
+  "phân phối, phân bổ"
+ ],
+ "偏远": [
+  "THIÊN VIỄN",
+  "xa xôi, hẻo lánh"
+ ],
+ "平衡": [
+  "BÌNH HÀNH",
+  "cân bằng"
+ ],
+ "再选": [
+  "TÁI TUYỂN",
+  "chọn thêm"
+ ],
+ "文": [
+  "VĂN",
+  "văn, chữ; (nói dở 文科: khối xã hội)"
+ ],
+ "二年级": [
+  "NHỊ NIÊN CẤP",
+  "năm thứ hai, lớp hai (高中二年级: lớp 11)"
+ ],
+ "附加": [
+  "PHỤ GIA",
+  "thêm vào, phụ thêm"
+ ],
+ "都学": [
+  "ĐÔ HỌC",
+  "đều học (cụm hai từ)"
+ ],
+ "走神": [
+  "TẨU THẦN",
+  "lơ đễnh, mất tập trung"
+ ],
+ "主科": [
+  "CHỦ KHOA",
+  "môn chính"
+ ],
+ "复习": [
+  "PHỤC TẬP",
+  "ôn tập"
+ ],
+ "事实": [
+  "SỰ THỰC",
+  "sự thật"
+ ],
+ "直辖市": [
+  "TRỰC HẠT THỊ",
+  "thành phố trực thuộc trung ương"
+ ],
+ "渠道": [
+  "CỪ ĐẠO",
+  "kênh, con đường (để đạt việc gì)"
+ ],
+ "一等奖": [
+  "NHẤT ĐẲNG TƯỞNG",
+  "giải nhất"
+ ],
+ "特长生": [
+  "ĐẶC TRƯỜNG SINH",
+  "học sinh năng khiếu (được ưu tiên tuyển)"
+ ],
+ "越来越少": [
+  "VIỆT LAI VIỆT THIỂU",
+  "ngày càng ít"
+ ],
+ "作弊": [
+  "TÁC TỆ",
+  "gian lận"
+ ],
+ "偏远地区": [
+  "THIÊN VIỄN ĐỊA KHU",
+  "vùng sâu vùng xa"
+ ],
+ "少数民族": [
+  "THIỂU SỐ DÂN TỘC",
+  "dân tộc thiểu số"
+ ],
+ "区域": [
+  "KHU VỰC",
+  "khu vực"
+ ],
+ "有加": [
+  "HỮU GIA",
+  "(cắt từ chưa chuẩn của 也有加分: cũng có cộng điểm)"
+ ],
+ "政策": [
+  "CHÍNH SÁCH",
+  "chính sách"
+ ],
+ "加分": [
+  "GIA PHÂN",
+  "cộng điểm, điểm cộng"
+ ],
+ "浙大": [
+  "CHIẾT ĐẠI",
+  "Đại học Chiết Giang (viết tắt)"
+ ],
+ "第一名": [
+  "ĐỆ NHẤT DANH",
+  "hạng nhất"
+ ],
+ "第二名": [
+  "ĐỆ NHỊ DANH",
+  "hạng nhì"
+ ],
+ "无论如何": [
+  "VÔ LUẬN NHƯ HÀ",
+  "dù thế nào đi nữa"
+ ],
+ "撼动": [
+  "HÁM ĐỘNG",
+  "lay chuyển"
+ ],
+ "分数线": [
+  "PHÂN SỐ TUYẾN",
+  "điểm chuẩn, điểm sàn"
+ ],
+ "最难": [
+  "TỐI NAN",
+  "khó nhất"
+ ],
+ "沉重": [
+  "TRẦM TRỌNG",
+  "nặng nề"
+ ],
+ "不考": [
+  "BẤT KHẢO",
+  "không thi"
+ ],
+ "亲爱": [
+  "THÂN ÁI",
+  "thân yêu (亲爱的: … thân yêu)"
+ ],
+ "百科全书": [
+  "BÁCH KHOA TOÀN THƯ",
+  "bách khoa toàn thư"
+ ],
+ "杂七杂八": [
+  "TẠP THẤT TẠP BÁT",
+  "linh tinh, đủ thứ lặt vặt"
+ ],
+ "随机": [
+  "TÙY CƠ",
+  "ngẫu nhiên, tùy cơ"
+ ],
+ "感兴趣": [
+  "CẢM HỨNG THÚ",
+  "có hứng thú, quan tâm"
+ ],
+ "要考": [
+  "YẾU KHẢO",
+  "phải thi"
+ ],
+ "因": [
+  "NHÂN",
+  "vì, nguyên nhân; (nói dở 因为)"
+ ],
+ "呃像": [
+  "",
+  "(cắt từ chưa chuẩn: 呃 ờ + 像 như là)"
+ ],
+ "科学学": [
+  "KHOA HỌC HỌC",
+  "(nói nhịu 科学学目, ý là 科目/学科: môn học)"
+ ],
+ "目": [
+  "MỤC",
+  "mắt; mục (nói nhịu 学目, ý là 科目: môn học)"
+ ],
+ "好好学": [
+  "HẢO HẢO HỌC",
+  "học hành tử tế, học cho đàng hoàng"
+ ],
+ "后悔": [
+  "HẬU HỐI",
+  "hối hận"
+ ],
+ "地理知识": [
+  "ĐỊA LÝ TRI THỨC",
+  "kiến thức địa lý"
+ ],
+ "解方程": [
+  "GIẢI PHƯƠNG TRÌNH",
+  "giải phương trình"
+ ],
+ "会会": [
+  "HỘI HỘI",
+  "(nói lặp 会: sẽ… sẽ)"
+ ],
+ "思维能力": [
+  "TƯ DUY NĂNG LỰC",
+  "khả năng tư duy"
+ ],
+ "太太": [
+  "THÁI THÁI",
+  "bà, vợ (太太怎么说: nói lặp 太 — quá… quá…)"
+ ],
+ "多用": [
+  "ĐA DỤNG",
+  "đa năng (没有那么多用: không có ích nhiều đến thế)"
+ ],
+ "高考题": [
+  "CAO KHẢO ĐỀ",
+  "đề thi đại học"
+ ],
+ "我一": [
+  "NGÃ NHẤT",
+  "(nói vấp 我一我我我: tôi… tôi…)"
+ ],
+ "头绪": [
+  "ĐẦU TỰ",
+  "đầu mối, manh mối (没有头绪: không biết bắt đầu từ đâu)"
+ ],
+ "几何": [
+  "KỶ HÀ",
+  "hình học; (văn) bao nhiêu"
+ ],
+ "方程": [
+  "PHƯƠNG TRÌNH",
+  "phương trình"
+ ],
+ "一塌糊涂": [
+  "NHẤT THÁP HỒ ĐỒ",
+  "be bét, tệ hết chỗ nói"
+ ],
+ "平均分": [
+  "BÌNH QUÂN PHÂN",
+  "điểm trung bình"
+ ],
+ "翻出": [
+  "PHIÊN XUẤT",
+  "lục ra, lôi ra"
+ ],
+ "神话故事": [
+  "THẦN THOẠI CỐ SỰ",
+  "truyện thần thoại"
+ ],
+ "老天": [
+  "LÃO THIÊN",
+  "ông trời"
+ ],
+ "经文": [
+  "KINH VĂN",
+  "kinh văn, kinh sách"
+ ],
+ "上帝": [
+  "THƯỢNG ĐẾ",
+  "Thượng đế"
+ ],
+ "天上": [
+  "THIÊN THƯỢNG",
+  "trên trời"
+ ],
+ "总而言之": [
+  "TỔNG NHI NGÔN CHI",
+  "nói tóm lại"
+ ],
+ "前段时间": [
+  "TIỀN ĐOẠN THỜI GIAN",
+  "thời gian trước, dạo trước"
+ ],
+ "激烈": [
+  "KÍCH LIỆT",
+  "gay gắt, kịch liệt"
+ ],
+ "官方": [
+  "QUAN PHƯƠNG",
+  "chính thức, phía nhà nước"
+ ],
+ "比学": [
+  "TỶ HỌC",
+  "(cắt từ chưa chuẩn của 要比学文科: so với học khối xã hội)"
+ ],
+ "学者": [
+  "HỌC GIẢ",
+  "học giả"
+ ],
+ "变太": [
+  "BIẾN THÁI",
+  "(cắt từ chưa chuẩn của 变太多: trở nên quá nhiều)"
+ ],
+ "要不然": [
+  "YẾU BẤT NHIÊN",
+  "nếu không thì"
+ ],
+ "收入": [
+  "THU NHẬP",
+  "thu nhập"
+ ],
+ "陷阱": [
+  "HÃM TỈNH",
+  "cái bẫy (中等收入陷阱: bẫy thu nhập trung bình)"
+ ],
+ "初期": [
+  "SƠ KỲ",
+  "giai đoạn đầu"
+ ],
+ "社会学": [
+  "XÃ HỘI HỌC",
+  "xã hội học"
+ ],
+ "发达国家": [
+  "PHÁT ĐẠT QUỐC GIA",
+  "nước phát triển"
+ ],
+ "政治经济": [
+  "CHÍNH TRỊ KINH TẾ",
+  "chính trị, kinh tế"
+ ],
+ "的对": [
+  "ĐÍCH ĐỐI",
+  "(cắt từ chưa chuẩn của 出身的对吗: xuất thân… đúng không)"
+ ],
+ "言论": [
+  "NGÔN LUẬN",
+  "ngôn luận, phát ngôn"
+ ],
+ "对立": [
+  "ĐỐI LẬP",
+  "đối lập"
+ ],
+ "化": [
+  "HÓA",
+  "hóa, biến thành (对立化: đối lập hóa)"
+ ],
+ "运作": [
+  "VẬN TÁC",
+  "vận hành, hoạt động"
+ ],
+ "一九九八年": [
+  "NHẤT CỬU CỬU BÁT NIÊN",
+  "năm 1998"
+ ],
+ "新华": [
+  "TÂN HOA",
+  "Tân Hoa (新华词典: Từ điển Tân Hoa)"
+ ],
+ "例句": [
+  "LỆ CÚ",
+  "câu ví dụ"
+ ],
+ "张华": [
+  "TRƯƠNG HOA",
+  "Trương Hoa (tên người)"
+ ],
+ "李萍": [
+  "LÝ BÌNH",
+  "Lý Bình (tên người)"
+ ],
+ "技术学校": [
+  "KỸ THUẬT HỌC HIỆU",
+  "trường kỹ thuật, trường nghề"
+ ],
+ "百货公司": [
+  "BÁCH HÓA CÔNG TY",
+  "cửa hàng bách hóa"
+ ],
+ "售货员": [
+  "THỤ HÓA VIÊN",
+  "nhân viên bán hàng"
+ ],
+ "光明": [
+  "QUANG MINH",
+  "ánh sáng; tươi sáng"
+ ],
+ "早恋": [
+  "TẢO LUYẾN",
+  "yêu sớm (tuổi học trò)"
+ ],
+ "谈恋爱": [
+  "ĐÀM LUYẾN ÁI",
+  "yêu đương, hẹn hò"
+ ],
+ "抓住": [
+  "TRẢO TRÚ",
+  "tóm được, bắt được"
+ ],
+ "请到": [
+  "THỈNH ĐÁO",
+  "mời được (ai đó đến)"
+ ],
+ "比利时": [
+  "BỈ LỢI THỜI",
+  "nước Bỉ"
+ ],
+ "懒": [
+  "LÃN",
+  "lười (偷懒: lười biếng, lén nghỉ)"
+ ],
+ "流利": [
+  "LƯU LỢI",
+  "trôi chảy, lưu loát"
+ ],
+ "二十几个": [
+  "NHỊ THẬP KỶ CÁ",
+  "hai mươi mấy cái/người"
+ ],
+ "三十几个": [
+  "TAM THẬP KỶ CÁ",
+  "ba mươi mấy cái/người"
+ ],
+ "愉快": [
+  "DU KHOÁI",
+  "vui vẻ, dễ chịu"
+ ],
+ "第五期": [
+  "ĐỆ NGŨ KỲ",
+  "số thứ năm, tập thứ năm"
+ ],
+ "五期": [
+  "NGŨ KỲ",
+  "năm số, năm tập"
+ ],
+ "第五个": [
+  "ĐỆ NGŨ CÁ",
+  "cái thứ năm"
+ ],
+ "特邀嘉宾": [
+  "ĐẶC YÊU GIA TÂN",
+  "khách mời đặc biệt"
+ ],
+ "忙": [
+  "MANG",
+  "bận"
+ ],
+ "上周末": [
+  "THƯỢNG CHU MẠT",
+  "cuối tuần trước"
+ ],
+ "国定": [
+  "QUỐC ĐỊNH",
+  "do nhà nước quy định (国定节假日: ngày lễ quốc gia)"
+ ],
+ "节假日": [
+  "TIẾT GIẢ NHẬT",
+  "ngày lễ, ngày nghỉ lễ"
+ ],
+ "自驾": [
+  "TỰ GIÁ",
+  "tự lái xe (đi đâu đó)"
+ ],
+ "首都": [
+  "THỦ ĐÔ",
+  "thủ đô"
+ ],
+ "布鲁塞尔": [
+  "BỐ LỖ TẮC NHĨ",
+  "Brussels (thủ đô nước Bỉ)"
+ ],
+ "一个三天": [
+  "NHẤT CÁ TAM THIÊN",
+  "(cắt từ chưa chuẩn của 一个三天的自驾游: một chuyến tự lái ba ngày)"
+ ],
+ "自驾游": [
+  "TỰ GIÁ DU",
+  "du lịch tự lái xe"
+ ],
+ "这周": [
+  "GIÁ CHU",
+  "tuần này"
+ ],
+ "来录": [
+  "LAI LỤC",
+  "(cắt từ chưa chuẩn: 来 + 录, đến thu âm)"
+ ],
+ "光荣传统": [
+  "QUANG VINH TRUYỀN THỐNG",
+  "truyền thống vẻ vang"
+ ],
+ "人录": [
+  "NHÂN LỤC",
+  "(cắt từ chưa chuẩn của 一个人录: một mình thu âm)"
+ ],
+ "一小": [
+  "NHẤT TIỂU",
+  "một … nhỏ (一小段: một đoạn ngắn)"
+ ],
+ "段": [
+  "ĐOẠN",
+  "đoạn (lượng từ)"
+ ],
+ "独白": [
+  "ĐỘC BẠCH",
+  "độc thoại"
+ ],
+ "下个星期": [
+  "HẠ CÁ TINH KỲ",
+  "tuần sau"
+ ],
+ "心路历程": [
+  "TÂM LỘ LỊCH TRÌNH",
+  "hành trình trong lòng, những trải nghiệm đã qua"
+ ],
+ "第二点": [
+  "ĐỆ NHỊ ĐIỂM",
+  "điểm thứ hai"
+ ],
+ "来用": [
+  "LAI DỤNG",
+  "(cắt từ chưa chuẩn: 来 + 用, đến dùng / dùng để)"
+ ],
+ "东南亚": [
+  "ĐÔNG NAM Á",
+  "Đông Nam Á"
+ ],
+ "越南": [
+  "VIỆT NAM",
+  "Việt Nam"
+ ],
+ "马来西亚": [
+  "MÃ LAI TÂY Á",
+  "Malaysia"
+ ],
+ "印度尼西亚": [
+  "ẤN ĐỘ NI TÂY Á",
+  "Indonesia"
+ ],
+ "谢谢你们": [
+  "TẠ TẠ NHĨ MÔN",
+  "cảm ơn các bạn"
+ ],
+ "要学": [
+  "YẾU HỌC",
+  "muốn học, phải học"
+ ],
+ "多长时间": [
+  "ĐA TRƯỜNG THỜI GIAN",
+  "bao lâu"
+ ],
+ "挑战": [
+  "KHIÊU CHIẾN",
+  "thử thách; thách thức"
+ ],
+ "下面": [
+  "HẠ DIỆN",
+  "phía dưới, bên dưới"
+ ],
+ "喽": [
+  "",
+  "trợ từ cuối câu (như 了, giọng nhẹ: … nhé, … rồi nha)"
  ]
 }
