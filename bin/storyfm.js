@@ -160,6 +160,7 @@ const USAGE = `storyfm — transcript cho 故事FM
     --narrator B                chỉ định speaker nào là người dẫn
 
   storyfm bili <link|BV…>       tải audio Bilibili, đẩy lên Pages, transcribe
+                                video nhiều phần: mỗi phần một tập, BV…-p2 (hoặc link có ?p=2)
                                 (sau đó dùng add BV… --resegment như tập thường)
 
   storyfm podcast <link>        thêm một podcast khác (link Spotify / Apple / Firstory / RSS);

@@ -101,11 +101,12 @@ async function load() {
 
 /** A Bilibili video is heard here but watched there: the meta line links the original under the
  * title, the toolbar link opens it at the second being heard, and the narrator filter has nothing
- * to split, so it goes. */
-function showBilibili(/** @type {{ id: string, owner?: string }} */ data) {
-  const bvid = data.id;
+ * to split, so it goes. A multi-part video's later part carries its own link (…/?p=2); a video's
+ * first part is its id alone. */
+function showBilibili(/** @type {{ id: string, owner?: string, link?: string }} */ data) {
+  const page = data.link ?? `https://www.bilibili.com/video/${data.id}/`;
   const original = document.createElement('a');
-  original.href = `https://www.bilibili.com/video/${bvid}/`;
+  original.href = page;
   original.target = '_blank';
   original.rel = 'noopener';
   original.textContent = 'Xem video gốc trên Bilibili ↗';
@@ -116,7 +117,11 @@ function showBilibili(/** @type {{ id: string, owner?: string }} */ data) {
   $('filter-storyteller').hidden = true;
   const link = /** @type {HTMLAnchorElement} */ ($('open-bilibili'));
   link.hidden = false;
-  const point = () => { link.href = `https://www.bilibili.com/video/${bvid}/?t=${Math.floor(audio.currentTime)}`; };
+  const point = () => {
+    const at = new URL(page);
+    at.searchParams.set('t', String(Math.floor(audio.currentTime)));
+    link.href = at.href;
+  };
   point();
   link.addEventListener('pointerdown', point);
   link.addEventListener('focus', point);
