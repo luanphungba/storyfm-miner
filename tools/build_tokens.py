@@ -47,6 +47,10 @@ BANDS = json.loads((ROOT / "tools" / "hsk-bands.json").read_text())
 # out on purpose: between them they called 孝顺, 普通, 聊天, 保安, 英语 and 默契 proper nouns, which
 # is worse than missing a name — the card then tells the reader not to bother learning an ordinary word.
 NAME_TAGS = {"nr", "ns", "nt"}
+# Words jieba calls names often enough to win the vote that neither the syllabus nor CC-CEDICT can
+# overrule, all of them electronics jargon from BV1HQTs6FEos: 连锡 a solder bridge, 上锡 to tin a
+# pad, 千欧 kiloohm, 上拉 pull-up (resistor), and 孔中 cut out of 固定孔中 "into the mounting holes".
+NOT_NAMES = {"连锡", "上锡", "千欧", "上拉", "孔中"}
 def HAN(text):
     """Does this piece contain Chinese at all? Punctuation and digits are not tap targets."""
     return any("\u3400" <= character <= "\u9fff" for character in text)
@@ -161,6 +165,7 @@ def names(paths):
         if counts[True] > counts[False]
         and word not in BANDS
         and word not in common
+        and word not in NOT_NAMES
         and (word in proper or len(word) <= 3)
     }
 
