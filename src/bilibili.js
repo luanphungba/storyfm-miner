@@ -109,7 +109,8 @@ async function readVideoPage(bvid) {
       if (!v) return { error: document.title || location.href };
       const play = await (await fetch('https://api.bilibili.com/x/player/wbi/playurl?bvid=' + v.bvid + '&cid=' + v.cid + '&fnval=16', { credentials: 'include' })).json();
       const audio = (play.data?.dash?.audio ?? []).sort((a, b) => a.bandwidth - b.bandwidth)[0];
-      return { title: v.title, owner: v.owner.name, pubdate: v.pubdate, duration: v.duration, pages: v.pages.length, audioUrl: audio?.baseUrl, playError: play.message };
+      const pages = v.pages.map((p) => ({ part: p.part, duration: p.duration }));
+      return { title: v.title, owner: v.owner.name, pubdate: v.pubdate, pages, audioUrl: audio?.baseUrl, playError: play.message };
     })()`;
     const { result, exceptionDetails } = await send('Runtime.evaluate', { expression, awaitPromise: true, returnByValue: true });
     if (exceptionDetails) throw new Error(`Đọc trang Bilibili lỗi: ${exceptionDetails.exception?.description ?? exceptionDetails.text}`);
@@ -117,13 +118,18 @@ async function readVideoPage(bvid) {
     const video = result.value;
     if ('error' in video) throw new Error(`Trang ${bvid} không có dữ liệu video (tiêu đề: "${video.error}") — có thể bị 风控 hoặc video đã xoá.`);
     if (!video.audioUrl) throw new Error(`Không lấy được link audio cho ${bvid}: ${video.playError}`);
-    if (video.pages > 1) console.log(`  ⚠ Video có ${video.pages} phần — chỉ lấy phần đầu.`);
+    if (video.pages.length > 1) {
+      console.log(`  ⚠ Video có ${video.pages.length} phần — chỉ lấy phần đầu:`);
+      video.pages.forEach((/** @type {{part: string, duration: number}} */ page, /** @type {number} */ i) =>
+        console.log(`    P${i + 1} ${page.duration}s ${page.part}`));
+    }
 
     return {
       title: video.title,
       owner: video.owner,
       pubDate: new Date(video.pubdate * 1000).toISOString().slice(0, 10),
-      duration: video.duration,
+      // The video's own duration sums every part; the audio fetched is the first part's.
+      duration: video.pages[0].duration,
       audioUrl: video.audioUrl,
     };
   });
