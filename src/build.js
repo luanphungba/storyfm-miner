@@ -16,7 +16,7 @@ import { loadUiEpisodes } from './ui.js';
 import { transcribe } from './asr.js';
 import { toSentences, punctuationRate } from './segment.js';
 import { splitSentence, joinSentences } from './cuts.js';
-import { applyOnsets } from './onsets.js';
+import { applyOnsets, spreadRuns } from './onsets.js';
 import { assignRoles, speakingTime, narratorShare } from './roles.js';
 import { buildSidecar } from './translations.js';
 import { buildChapters } from './chapters.js';
@@ -182,11 +182,11 @@ function withUnits(lines, joins) {
   return lines.map((line) => (unitOf(line.s) === line.s ? line : { ...line, u: unitOf(line.s) }));
 }
 
-/** The ASR words with data/onsets/ replayed: where the audio says the collapsed ones start. */
+/** The ASR words with data/onsets/ replayed: where the audio says the collapsed ones are said. */
 async function withOnsets(/** @type {string} */ id, /** @type {import('./segment.js').Word[]} */ words) {
   const ledger = await readJsonOr(paths.onsets(id), { words: {} });
   try {
-    return applyOnsets(words, ledger.words);
+    return spreadRuns(applyOnsets(words, ledger.words), ledger.runs ?? {});
   } catch (error) {
     throw new Error(`data/onsets/${id}.json lệch với data/raw/ (${/** @type {Error} */ (error).message}) — chạy lại node tools/onsets.mjs ${id}`);
   }

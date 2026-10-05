@@ -1,4 +1,4 @@
-// Writes data/onsets/<id>.json: where the words AssemblyAI collapsed really start, read from the
+// Writes data/onsets/<id>.json: where the words AssemblyAI collapsed are really said, read from the
 // episode's audio. What it looks for and why is in src/onsets.js; src/build.js replays the ledger.
 //
 // The mp3 is downloaded once into tools/.cache/audio/ (not committed) and decoded with ffmpeg.
@@ -11,7 +11,7 @@ import { existsSync } from 'node:fs';
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { paths } from '../src/paths.js';
-import { COLLAPSED_MS, FRAME_MS, findOnsets } from '../src/onsets.js';
+import { COLLAPSED_MS, FRAME_MS, applyOnsets, findOnsets, findRuns } from '../src/onsets.js';
 
 const RATE = 16_000;
 const CACHE = join(paths.root, 'tools', '.cache', 'audio');
@@ -49,11 +49,13 @@ async function loudness(/** @type {string} */ file) {
 
 async function run(/** @type {string} */ id) {
   const { words } = JSON.parse(await readFile(paths.raw(id), 'utf8'));
-  const onsets = findOnsets(words, await loudness(await audioFile(id)));
+  const db = await loudness(await audioFile(id));
+  const onsets = findOnsets(words, db);
+  const runs = findRuns(applyOnsets(words, onsets), db);
   await mkdir(dirname(paths.onsets(id)), { recursive: true });
-  await writeFile(paths.onsets(id), `${JSON.stringify({ words: onsets }, null, 2)}\n`);
+  await writeFile(paths.onsets(id), `${JSON.stringify({ words: onsets, runs }, null, 2)}\n`);
   const collapsed = words.filter((/** @type {any} */ w) => w.end - w.start <= COLLAPSED_MS).length;
-  console.log(`${id}: ${collapsed} từ bị dồn, dời ${Object.keys(onsets).length} từ về sau khoảng lặng trước nó`);
+  console.log(`${id}: ${collapsed} từ bị dồn, dời ${Object.keys(onsets).length} từ về sau khoảng lặng trước nó, trải ${Object.keys(runs).length} cụm ra khoảng trống sau nó`);
 }
 
 const ids = process.argv.slice(2);

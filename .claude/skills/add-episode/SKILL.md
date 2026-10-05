@@ -102,19 +102,22 @@ The command reports the share of cues ending in 。！？ as a punctuation-quali
 means the ASR barely punctuated and the episode needs a look** before going further — tell the user
 and ask whether to continue rather than pushing ahead silently.
 
-### Put back the first word of lines that skip it
+### Put back the words of lines that skip them
 
 AssemblyAI gives some words no length at all and parks them on the start of the next word, so a line
-starting on one plays without its first syllable (E001's 就是装修都很好嘛 looped as 装修都很好嘛). Right
-after transcribing, read the real starts off the audio and rebuild:
+starting on one plays without its first syllable (E001's 就是装修都很好嘛 looped as 装修都很好嘛). It also
+parks whole runs on the end of the word before, then places nothing until a gap later (often exactly
+1.92s), so a line ending on the run stops before it is said (CC3's 丹麦，也是进行类似的交换学习这样的。
+looped 丹麦也是进行). Right after transcribing, read where they are really said off the audio and rebuild:
 
 ```
 node tools/onsets.mjs <ID>                      # needs ffmpeg; reads data/audio/<ID>.m4a if hosted, else caches the mp3 in tools/.cache/
 node bin/storyfm.js add <ID> --resegment        # free, replays data/onsets/ onto the words
 ```
 
-It prints how many words were collapsed and how many it moved — across the first five episodes it moved
-about one in ten. It only ever moves a start back to the end of a pause no more than 400ms a character away, and
+It prints how many words were collapsed, how many it moved — across the first five episodes it moved
+about one in ten — and how many runs it spread out. It only ever moves a start back to the end of a pause no more than 400ms a character away,
+or spreads a run over the gap after it up to the pause before the next word (again at most 400ms a character), and
 leaves the rest alone, so there is nothing to review by hand. Every later `--resegment` (corrections,
 cuts) replays the same ledger. After a `--force` transcription the ledger is stale and the build
 says so: rerun `tools/onsets.mjs`.

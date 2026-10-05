@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { findOnsets, applyOnsets, FRAME_MS } from '../src/onsets.js';
+import { findOnsets, applyOnsets, findRuns, spreadRuns, FRAME_MS } from '../src/onsets.js';
 
 /** Loudness, 10ms a frame: speech at 0dB except the quiet spans given as [fromMs, toMs). */
 function audio(/** @type {number} */ totalMs, /** @type {[number, number][]} */ quiet) {
@@ -50,4 +50,56 @@ test('does not reach further back than a collapsed character could take to say',
 
 test('refuses a ledger entry whose word has moved since it was measured', () => {
   assert.throws(() => applyOnsets(words, { 2: { was: 2500, start: 2150, prevEnd: 2000 } }), /không còn/);
+});
+
+// CC3's 丹麦，也是进行类似的交换学习这样的。: the ASR placed 进行 and parked 类似的交换学习这样的 on the end
+// of 行, the next word only at 163.12 — the run is said in that gap, and the line looped 丹麦也是进行.
+const parked = [
+  { text: '进', start: 920, end: 1100 },
+  { text: '行', start: 1100, end: 1200 },
+  { text: '类', start: 1200, end: 1200 },
+  { text: '似', start: 1200, end: 1200 },
+  { text: '这样', start: 1200, end: 1200 },
+  { text: '的。', start: 1200, end: 1200 },
+  { text: '一个', start: 3200, end: 3700 },
+];
+
+test('spreads a run parked on the word before over the gap after it, by its characters', () => {
+  const runs = findRuns(parked, audio(4000, []));
+  assert.deepEqual(runs, { 2: { was: 1200, end: 3200 } });
+  const spread = spreadRuns(parked, runs);
+  assert.deepEqual(spread.slice(2, 6).map((w) => [w.start, w.end]), [[1200, 1600], [1600, 2000], [2000, 2800], [2800, 3200]]);
+  assert.equal(parked[5].end, 1200, 'the raw words are left alone');
+});
+
+test('ends a parked run at the pause before the next word', () => {
+  assert.deepEqual(findRuns(parked, audio(4000, [[2900, 3200]])), { 2: { was: 1200, end: 2900 } });
+  assert.deepEqual(findRuns(parked, audio(4000, [[3100, 3200]])), { 2: { was: 1200, end: 3200 } }, 'a dip, not a pause');
+});
+
+test('does not spread a run further than its characters could take to say', () => {
+  const late = parked.map((w, k) => (k === 6 ? { ...w, start: 9000, end: 9500 } : w));
+  assert.deepEqual(findRuns(late, audio(10000, [])), { 2: { was: 1200, end: 1200 + 5 * 400 } });
+});
+
+test('leaves a parked run alone when the gap after it is silent', () => {
+  assert.deepEqual(findRuns(parked, audio(4000, [[1200, 3200]])), {});
+});
+
+test('leaves punctuation parked on its word alone: there is nothing to hear', () => {
+  const closing = [{ text: '走', start: 800, end: 1000 }, { text: '。”', start: 1000, end: 1000 }, { text: '然', start: 1500, end: 1700 }];
+  assert.deepEqual(findRuns(closing, audio(2000, [])), {});
+});
+
+test('does not walk a parked run back into the pause before it', () => {
+  assert.deepEqual(findOnsets(parked, audio(4000, [[600, 900]])), {});
+});
+
+test('only spreads a run with a gap after it: one parked on the next word is said before', () => {
+  assert.deepEqual(findRuns(words, audio(4000, [])), {});
+});
+
+test('refuses a run whose words have moved since it was measured', () => {
+  assert.throws(() => spreadRuns(parked, { 2: { was: 1300, end: 3200 } }), /không còn/);
+  assert.throws(() => spreadRuns(parked, { 3: { was: 1200, end: 3200 } }), /không còn/);
 });
