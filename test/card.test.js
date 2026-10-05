@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { markLine, highlight, pickSentence, noteData, plainText, dailyLimit } from '../docs/card.js';
+import { markLine, highlight, pickSentence, noteData, plainText, dailyLimit, sentenceSpan, lineLink } from '../docs/card.js';
 
 test('marks the tapped word inside its line', () => {
   assert.equal(markLine('我终于下定决心了', 5, 2), '我终于下定【决心】了');
@@ -67,4 +67,43 @@ test('never stops a word for a server without counts or a deck paused at 0 new c
   assert.equal(dailyLimit(undefined), null);
   assert.equal(dailyLimit(null), null);
   assert.equal(dailyLimit({ added: 3, limit: 0, waiting: 3 }), null);
+});
+
+// CC3 around 而且要理解它背后: the card showed the whole sentence and replayed only the tapped line.
+const around = [
+  { start: 202.35, end: 204.13, text: '但是我感觉到很多事情' },
+  { start: 204.13, end: 207.39, text: '确实要花一点时间，不仅是适应，' },
+  { start: 207.39, end: 208.73, text: '而且要理解它背后' },
+  { start: 208.73, end: 210.63, text: '可能有特殊的做事逻辑。' },
+  { start: 210.63, end: 212.61, text: '比如说，我最想要跟大家' },
+];
+
+test('spans every line the sentence runs over, not just the tapped one', () => {
+  assert.deepEqual(sentenceSpan('而且要理解它背后，可能有特殊的做事逻辑。', around, 2), { start: 207.39, end: 210.63 });
+  assert.deepEqual(sentenceSpan('可能有特殊的做事逻辑。', around, 3), { start: 208.73, end: 210.63 });
+});
+
+test('follows a sentence the model tidied up', () => {
+  // E081: the model dropped the 呃 in 英国呃男性.
+  const lines = [
+    { start: 268.7, end: 270.76, text: '本坐在圆桌中间等着我们。' },
+    { start: 271.26, end: 276.3, text: '嗯，他是一个留着这个胡子的' },
+    { start: 276.3, end: 278.72, text: '英国呃男性，' },
+    { start: 278.72, end: 280.36, text: '后来我知道他比我小一岁，' },
+  ];
+  assert.deepEqual(sentenceSpan('嗯，他是一个留着这个胡子的英国男性。', lines, 1), { start: 271.26, end: 278.72 });
+});
+
+test('does not stretch to a short neighbour that only shares a character or two', () => {
+  const lines = [
+    { start: 0, end: 1, text: '是的。' },
+    { start: 1, end: 3, text: '我觉得是这样的。' },
+    { start: 3, end: 4, text: '你的呢？' },
+  ];
+  assert.deepEqual(sentenceSpan('我觉得是这样的。', lines, 1), { start: 1, end: 3 });
+});
+
+test('rounds a link outwards to the tenth, so it never clips its line', () => {
+  const link = lineLink({ id: 'CC3', title: '' }, { start: 159.56, end: 163.12 }, '');
+  assert.match(link, /start=159\.5&end=163\.2/);
 });

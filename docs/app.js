@@ -705,11 +705,15 @@ function wordContext(/** @type {HTMLElement} */ span) {
   const word = span.textContent ?? '';
   let start = 0;
   for (let node = span.previousSibling; node; node = node.previousSibling) start += node.textContent?.length ?? 0;
+  const from = Math.max(0, index - CONTEXT_LINES);
+  const lines = cues.slice(from, index + CONTEXT_LINES + 1);
   return {
     word,
     cue,
     marked: markLine(cue.text, start, word.length),
-    context: cues.slice(Math.max(0, index - CONTEXT_LINES), index + CONTEXT_LINES + 1).map((c) => c.text),
+    context: lines.map((c) => c.text),
+    lines,
+    at: index - from,
     episode,
     audioSrc: audio.currentSrc || audio.src,
   };

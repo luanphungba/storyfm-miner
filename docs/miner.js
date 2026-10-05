@@ -5,12 +5,13 @@
 //
 // The server's address and token are typed in once and kept in this browser only.
 
-import { dailyLimit, esc, formatTime, highlight, noteData, pickSentence, plainText } from './card.js';
+import { dailyLimit, esc, formatTime, highlight, noteData, pickSentence, plainText, sentenceSpan } from './card.js';
 import { STORAGE_KEY, call, savedConnection } from './server.js';
 
 /**
  * @typedef {import('./server.js').Connection} Connection
  * @typedef {{ word: string, marked: string, context: string[], cue: { start: number, end: number },
+ *   lines: { start: number, end: number, text: string }[], at: number,
  *   episode: { id: string, title: string }, audioSrc: string }} WordContext
  */
 
@@ -233,7 +234,9 @@ export function initMiner({ card, close, playLine }) {
     bindSave(existing.length ? 'Đang cập nhật…' : 'Đang thêm…', async () => {
       // The meaning is editable, so the card takes what is on screen, not what came back.
       const meaning = card.querySelector('.m-edit')?.textContent?.trim() || d.meaning || '';
-      const note = noteData({ lookup: d, word, meaning, sentence, episode: ctx.episode, cue: ctx.cue, audioSrc: ctx.audioSrc, py });
+      // The card replays the whole sentence it shows, not just the line the word was tapped in.
+      const cue = sentenceSpan(sentence, ctx.lines, ctx.at);
+      const note = noteData({ lookup: d, word, meaning, sentence, episode: ctx.episode, cue, audioSrc: ctx.audioSrc, py });
       if (existing.length) {
         const { updated } = await call(connection, '/relearn', { word, ...note });
         return ['✓ Đã đưa về học lại', updated ? 'Thẻ đã đổi sang câu này' : 'Thẻ ở note type khác nên giữ nguyên'];

@@ -30,13 +30,14 @@ export function highlight(/** @type {string} */ text, /** @type {string} */ word
   return safeWord ? esc(text).split(safeWord).join(`<b>${safeWord}</b>`) : esc(text);
 }
 
+const strip = (/** @type {string} */ t) => t.replace(/[\s\p{P}]/gu, '');
+
 /** The model returns the line cleaned up, but sometimes answers with a different line from the
  * context that merely shares the word. The marked line is ground truth, so the model's version is
  * kept only when it demonstrably is that line. */
 export function pickSentence(/** @type {string} */ fromModel, /** @type {string} */ marked, /** @type {string} */ word) {
   const plain = marked.replace(/[【】]/g, '');
   if (!fromModel) return plain;
-  const strip = (/** @type {string} */ t) => t.replace(/[\s\p{P}]/gu, '');
   const model = strip(fromModel);
   const seen = strip(plain);
   if (!model.includes(strip(word))) return plain;
@@ -46,6 +47,44 @@ export function pickSentence(/** @type {string} */ fromModel, /** @type {string}
     if (model.includes(seen.slice(i, i + run))) return fromModel;
   }
   return plain;
+}
+
+/** How many characters a and b share in the same order, gaps allowed. */
+function commonLength(/** @type {string} */ a, /** @type {string} */ b) {
+  const right = [...b];
+  let row = new Array(right.length + 1).fill(0);
+  for (const char of a) {
+    const next = [0];
+    for (let j = 0; j < right.length; j++) next.push(char === right[j] ? row[j] + 1 : Math.max(row[j + 1], next[j]));
+    row = next;
+  }
+  return row[right.length];
+}
+
+/**
+ * Where a card's sentence is said: the tapped line and the lines either side it runs over. The model
+ * answers with the whole sentence, which often spans several lines, and a link to the tapped line
+ * alone showed all of it but replayed part (CC3's 而且要理解它背后，可能有特殊的做事逻辑。 stopped after
+ * 而且要理解它背后). The model tidies the sentence too (drops 呃, writes 地 for 的), so a neighbour joins
+ * when at least half its characters line up with the sentence, and only next to one that did: a 的
+ * or a 我 shared with a line further off never stretches the card.
+ * @param {string} sentence
+ * @param {{ start: number, end: number, text: string }[]} lines  The tapped line and those around it, in order.
+ * @param {number} at  Where the tapped line is in lines.
+ * @returns {{ start: number, end: number }}
+ */
+export function sentenceSpan(sentence, lines, at) {
+  const want = strip(sentence);
+  const said = (/** @type {number} */ from, /** @type {number} */ to) =>
+    commonLength(want, lines.slice(from, to + 1).map((line) => strip(line.text)).join(''));
+  const joins = (/** @type {number} */ gained, /** @type {number} */ line) =>
+    strip(lines[line].text).length > 0 && 2 * gained >= strip(lines[line].text).length;
+
+  let from = at;
+  let to = at;
+  while (to + 1 < lines.length && joins(said(from, to + 1) - said(from, to), to + 1)) to++;
+  while (from > 0 && joins(said(from - 1, to) - said(from, to), from - 1)) from--;
+  return { start: lines[from].start, end: lines[to].end };
 }
 
 /** @typedef {{ added: number, limit: number, waiting: number }} Today */
@@ -71,12 +110,16 @@ export function dailyLimit(today) {
 export const formatTime = (/** @type {number} */ total) =>
   `${Math.floor(total / 60)}:${String(Math.floor(total % 60)).padStart(2, '0')}`;
 
+/** A tenth of a second either side, outwards: rounding 159.56 to 159.6 clipped the start of 丹. */
+const floorTenth = (/** @type {number} */ s) => (Math.floor(s * 10 + 1e-6) / 10).toFixed(1);
+const ceilTenth = (/** @type {number} */ s) => (Math.ceil(s * 10 - 1e-6) / 10).toFixed(1);
+
 /** @param {{ id: string, title: string }} episode @param {{ start: number, end: number }} cue */
 export function lineLink(episode, cue, /** @type {string} */ audioSrc) {
   const query = new URLSearchParams({
     ep: episode.id,
-    start: cue.start.toFixed(1),
-    end: cue.end.toFixed(1),
+    start: floorTenth(cue.start),
+    end: ceilTenth(cue.end),
     loop: '10',
   });
   // Carried so replaying the line from Anki costs one request, the audio, not a transcript fetch too.
