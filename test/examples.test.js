@@ -12,6 +12,9 @@ const filed = readdirSync(WORDS).filter((f) => /^\d+\.json$/.test(f)).map((f) =>
 
 const line = (ep, cue) => toLine([ep, cue, 0, cue * 2, cue * 2 + 1.5, '特殊的']);
 const chapter = (from, to) => ({ zh: '', start: from * 2, end: to * 2 + 1.5, from, to });
+const studied = (ep, c, dates) => ({ ep, episode: '', audio: '', n: 0, zh: '', vi: '', start: c.start, end: c.end, dates });
+/** Each part as [studied?, [episode, [chapter, cues]...]...], to read at a glance. */
+const shape = (parts) => parts.map((p) => [p.studied, p.episodes.map((e) => [e.ep, e.chapters.map((c) => [c.n, c.lines.map((l) => l.cue)])])]);
 
 test('a filed line reads back by name', () => {
   assert.deepEqual(toLine(['CC3', 76, 3, 208.73, 210.63, '可能有特殊的做事逻辑。']), {
@@ -42,25 +45,47 @@ test('every filed line is still its episode\'s line — else rerun tools/build_t
   assert.deepEqual(stale.slice(0, 5), []);
 });
 
-test('lists the episode on the page first, then the others in the order they were filed', () => {
+test('with nothing studied, lists the episode on the page first, then the others as filed', () => {
   const lines = [line('BV1', 13), line('CC118', 376), line('CC3', 76), line('CC3', 274)];
-  assert.deepEqual(groupLines(lines, 'CC3', {}).map((e) => e.ep), ['CC3', 'BV1', 'CC118']);
-  assert.deepEqual(groupLines(lines, 'E062', {}).map((e) => e.ep), ['BV1', 'CC118', 'CC3']);
+  assert.deepEqual(groupLines(lines, 'CC3', {}, []).map((p) => [p.studied, p.episodes.map((e) => e.ep)]), [[false, ['CC3', 'BV1', 'CC118']]]);
+  assert.deepEqual(groupLines(lines, 'E062', {}, []).map((p) => [p.studied, p.episodes.map((e) => e.ep)]), [[false, ['BV1', 'CC118', 'CC3']]]);
 });
 
 test('groups an episode\'s lines by the chapter each falls in, in story order', () => {
   const lines = [line('CC3', 10), line('CC3', 12), line('CC3', 40), line('CC3', 90)];
   const chapters = { CC3: [chapter(0, 9), chapter(10, 30), chapter(31, 39), chapter(40, 60)] };
-  assert.deepEqual(groupLines(lines, 'CC3', chapters)[0].chapters.map((c) => [c.n, c.lines.map((l) => l.cue)]), [
-    [1, [10, 12]],
-    [3, [40]],
-    [null, [90]],
+  assert.deepEqual(shape(groupLines(lines, 'CC3', chapters, [])), [
+    [false, [['CC3', [[1, [10, 12]], [3, [40]], [null, [90]]]]]],
   ]);
 });
 
-test('lists the lines of an episode not cut into chapters yet under none', () => {
-  const groups = groupLines([line('E999', 3), line('E999', 8)], 'CC3', {});
-  assert.deepEqual(groups[0].chapters, [{ n: null, lines: [line('E999', 3), line('E999', 8)] }]);
+test('lists the lines in chapters already studied first, an episode split between the two', () => {
+  const chapters = { CC2: [chapter(0, 9), chapter(10, 19)], CC3: [chapter(0, 9), chapter(10, 19)] };
+  const lines = [line('CC2', 3), line('CC2', 12), line('CC3', 4), line('CC3', 15)];
+  const marks = [studied('CC3', chapters.CC3[1], ['2026-10-03'])];
+  assert.deepEqual(shape(groupLines(lines, 'CC2', chapters, marks)), [
+    [true, [['CC3', [[1, [15]]]]]],
+    [false, [['CC2', [[0, [3]], [1, [12]]]], ['CC3', [[0, [4]]]]]],
+  ]);
+});
+
+test('among studied episodes, the one on the page first, then the latest studied', () => {
+  const chapters = { CC1: [chapter(0, 9)], CC2: [chapter(0, 9)], CC3: [chapter(0, 9)], CC4: [chapter(0, 9)] };
+  const lines = ['CC1', 'CC2', 'CC3', 'CC4'].map((ep) => line(ep, 5));
+  const marks = [
+    studied('CC1', chapters.CC1[0], ['2026-10-01', '2026-10-04']),
+    studied('CC2', chapters.CC2[0], ['2026-10-02']),
+    studied('CC3', chapters.CC3[0], ['2026-10-03']),
+  ];
+  assert.deepEqual(groupLines(lines, 'CC2', chapters, marks).map((p) => [p.studied, p.episodes.map((e) => e.ep)]), [
+    [true, ['CC2', 'CC1', 'CC3']],
+    [false, ['CC4']],
+  ]);
+});
+
+test('lists the lines of an episode not cut into chapters yet under none, not studied', () => {
+  const parts = groupLines([line('E999', 3), line('E999', 8)], 'CC3', {}, [studied('E999', chapter(0, 9), ['2026-10-01'])]);
+  assert.deepEqual(shape(parts), [[false, [['E999', [[null, [3, 8]]]]]]]);
 });
 
 test('says when a common word lists only some of its lines', () => {

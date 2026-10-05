@@ -754,6 +754,17 @@ h1 {
   border-radius: 8px;
   background: var(--surface);
 }
+.g-examples .x-part {
+  margin-top: 6px;
+  padding: 8px 10px 0;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .3px;
+}
+.g-examples .x-part:first-child { margin-top: 0; border-top: 0; }
+.g-examples .x-part.is-studied { color: var(--done); }
 .g-examples .x-ep {
   padding: 8px 10px 0;
   overflow: hidden;

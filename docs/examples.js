@@ -6,7 +6,7 @@
 // rather than every episode's transcript.
 
 import { formatTime } from './card.js';
-import { chapterLink } from './studied.js';
+import { chapterLink, findStudied, lastStudied } from './studied.js';
 
 /** tools/build_tokens.py spreads the words over this many files, by the same sum. */
 const BUCKETS = 64;
@@ -18,6 +18,7 @@ const GAP_MS = 700;
 /** @typedef {{ title: string, audio: string }} Show */
 /** @typedef {{ zh: string, start: number, end: number, from: number, to: number }} Chapter */
 /** @typedef {{ ep: string, chapters: { n: number | null, lines: Line[] }[] }} EpisodeLines */
+/** @typedef {import('./studied.js').Studied} Studied */
 
 /** The file of docs/data/words a word is filed in: the sum of its code points, as the build adds it. */
 export const bucket = (/** @type {string} */ word) =>
@@ -28,27 +29,39 @@ export const toLine = (/** @type {any[]} */ [ep, cue, at, start, end, text]) =>
   /** @type {Line} */ ({ ep, cue, at, start, end, text });
 
 /**
- * The lines as the list shows them: the episode on the page first, then the others as the index
- * lists them; inside each, chapter by chapter in story order. A line in no chapter — an episode
- * not cut into chapters yet — is listed under none.
+ * The lines as the list shows them, the ones in chapters already studied first. A word is easiest
+ * to catch in a sentence already understood, where the ear is free for its sound; the new sentences
+ * after it show whether it is heard anywhere. In each part the episode on the page comes first,
+ * then the studied ones latest studied first and the others as the index lists them; inside each
+ * episode, chapter by chapter in story order. A line in no chapter — an episode not cut into
+ * chapters yet — is listed under none, with the ones not studied.
  * @param {Line[]} lines  as filed: episode by episode, each in story order
  * @param {string} here   the episode on the page
  * @param {Record<string, Chapter[]>} chapters  each episode's, as its .chapters.json lists them
- * @returns {EpisodeLines[]}
+ * @param {Studied[]} studied  every episode's studied chapters, from the server
+ * @returns {{ studied: boolean, episodes: EpisodeLines[] }[]}  only the parts that have lines
  */
-export function groupLines(lines, here, chapters) {
-  /** @type {EpisodeLines[]} */
-  const episodes = [];
+export function groupLines(lines, here, chapters, studied) {
+  const parts = [true, false].map((isStudied) => ({ studied: isStudied, episodes: /** @type {EpisodeLines[]} */ ([]) }));
+  /** @type {Map<string, string>} */
+  const latest = new Map();
   for (const line of lines) {
-    let episode = episodes.at(-1);
-    if (episode?.ep !== line.ep) episodes.push((episode = { ep: line.ep, chapters: [] }));
     const k = chapters[line.ep]?.findIndex((c) => c.from <= line.cue && line.cue <= c.to) ?? -1;
     const n = k < 0 ? null : k;
+    const mark = n === null ? undefined : findStudied(studied, line.ep, chapters[line.ep][n].start);
+    if (mark && lastStudied(mark) > (latest.get(line.ep) ?? '')) latest.set(line.ep, lastStudied(mark));
+    const { episodes } = parts[mark ? 0 : 1];
+    let episode = episodes.find((e) => e.ep === line.ep);
+    if (!episode) episodes.push((episode = { ep: line.ep, chapters: [] }));
     let chapter = episode.chapters.at(-1);
     if (!chapter || chapter.n !== n) episode.chapters.push((chapter = { n, lines: [] }));
     chapter.lines.push(line);
   }
-  return [...episodes.filter((e) => e.ep === here), ...episodes.filter((e) => e.ep !== here)];
+  const first = (/** @type {EpisodeLines} */ e) => (e.ep === here ? 0 : 1);
+  const day = (/** @type {EpisodeLines} */ e) => latest.get(e.ep) ?? '';
+  parts[0].episodes.sort((a, b) => first(a) - first(b) || day(b).localeCompare(day(a)));
+  parts[1].episodes.sort((a, b) => first(a) - first(b));
+  return parts.filter((part) => part.episodes.length);
 }
 
 /** What the list says it holds: every line, or the ones kept of a word said too often to list. */
@@ -86,11 +99,12 @@ function wasOpen() {
 /**
  * The lines play on an audio element of their own, never the page's: the page keeps its place in
  * the episode, and closing the card carries on listening from where the word was tapped.
- * @param {{ audio: HTMLAudioElement, openChapter: (n: number) => void }} options
+ * @param {{ audio: HTMLAudioElement, openChapter: (n: number) => void, studied: () => Studied[] }} options
  *   audio — the page's, paused while a line plays and read for the speed it is set to;
- *   openChapter — loops a chapter of the episode already on the page
+ *   openChapter — loops a chapter of the episode already on the page;
+ *   studied — the chapters studied so far, none without a server
  */
-export function initExamples({ audio, openChapter }) {
+export function initExamples({ audio, openChapter, studied }) {
   const preview = new Audio();
   preview.preload = 'none';
   let loaded = '';
@@ -167,14 +181,14 @@ export function initExamples({ audio, openChapter }) {
       await fetchJson(`data/${encodeURIComponent(ep)}.chapters.json`)
         .then((/** @type {{ chapters?: Chapter[] }} */ data) => data.chapters ?? [], () => []),
     ])));
-    const groups = groupLines(lines, here.ep, chaptersOf);
+    const parts = groupLines(lines, here.ep, chaptersOf, studied());
 
     const all = document.createElement('button');
     all.type = 'button';
     all.className = 'x-all';
     all.title = 'Nghe các câu này lần lượt, mỗi câu một lần';
     pressAll(all, false);
-    note.textContent = countNote(lines.length, said, groups.length);
+    note.textContent = countNote(lines.length, said, eps.length);
     const head = document.createElement('div');
     head.className = 'x-head';
     head.append(all, note);
@@ -183,20 +197,24 @@ export function initExamples({ audio, openChapter }) {
     const queue = [];
     const list = document.createElement('div');
     list.className = 'x-list';
-    for (const { ep, chapters } of groups) {
-      const show = shows[ep];
-      if (!show) continue;
-      const title = document.createElement('div');
-      title.className = 'x-ep';
-      title.textContent = ep === here.ep ? 'Tập đang nghe' : show.title;
-      title.title = show.title;
-      list.append(title);
-      for (const { n, lines: inChapter } of chapters) {
-        if (n !== null) list.append(chapterLine(ep, n, chaptersOf[ep][n], ep === here.ep));
-        for (const line of inChapter) {
-          const button = lineButton(line, word, line.ep === here.ep && line.cue === here.cue);
-          queue.push({ line, src: show.audio, button });
-          list.append(button);
+    for (const part of parts) {
+      // Named only when there are both: with nothing studied yet, the list reads as before.
+      if (parts.length > 1 || part.studied) list.append(partTitle(part.studied));
+      for (const { ep, chapters } of part.episodes) {
+        const show = shows[ep];
+        if (!show) continue;
+        const title = document.createElement('div');
+        title.className = 'x-ep';
+        title.textContent = ep === here.ep ? 'Tập đang nghe' : show.title;
+        title.title = show.title;
+        list.append(title);
+        for (const { n, lines: inChapter } of chapters) {
+          if (n !== null) list.append(chapterLine(ep, n, chaptersOf[ep][n], ep === here.ep));
+          for (const line of inChapter) {
+            const button = lineButton(line, word, line.ep === here.ep && line.cue === here.cue);
+            queue.push({ line, src: show.audio, button });
+            list.append(button);
+          }
         }
       }
     }
@@ -212,6 +230,13 @@ export function initExamples({ audio, openChapter }) {
       button.onclick = () => (playing?.queue === queue && playing.k === k && !playing.all ? stop() : start(k, false));
     });
     panel.replaceChildren(head, list);
+  }
+
+  function partTitle(/** @type {boolean} */ isStudied) {
+    const title = document.createElement('div');
+    title.className = `x-part${isStudied ? ' is-studied' : ''}`;
+    title.textContent = isStudied ? '✓ Chương đã học' : 'Chương chưa học';
+    return title;
   }
 
   /** The chapter a run of lines is in, as a way into it: looped right here for the episode on the

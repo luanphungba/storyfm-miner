@@ -549,6 +549,9 @@ $('chapter-now').addEventListener('click', () => {
  * as before and the button asks for one. Pressed again the same day, it takes the mark back. */
 /** @type {import('./studied.js').Studied[]} */
 let studied = [];
+/** Every episode's, for the word card's list of lines: the ones in chapters studied come first. */
+/** @type {import('./studied.js').Studied[]} */
+let studiedAnywhere = [];
 /** Today as the server counts it: Anki's day, turning at 4:00. */
 let studyDay = '';
 
@@ -565,6 +568,7 @@ async function loadStudied() {
 }
 
 function applyStudied(/** @type {{ chapters: import('./studied.js').Studied[], today: string }} */ data) {
+  studiedAnywhere = data.chapters;
   studied = data.chapters.filter((s) => s.ep === episode.id);
   studyDay = data.today;
   showStudied();
@@ -717,7 +721,7 @@ const miner = initMiner({
   playLine: (cue) => startLoop(cue.start, cue.end, 1),
 });
 
-const examples = initExamples({ audio, openChapter: selectChapter });
+const examples = initExamples({ audio, openChapter: selectChapter, studied: () => studiedAnywhere });
 
 function hideGloss() {
   examples.stop();
