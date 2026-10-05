@@ -712,6 +712,101 @@ h1 {
 }
 .g-strokes .s-note { color: var(--muted); font-size: 13px; }
 
+/* ---------- the other lines a word is said in (docs/examples.js) ---------- */
+
+.g-seen {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.g-seen::after { content: ' ▾'; }
+.g-seen[aria-expanded="true"] { color: var(--accent); }
+.g-seen[aria-expanded="true"]::after { content: ' ▴'; }
+
+.g-examples { clear: both; margin-top: 8px; }
+.g-examples .x-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.g-examples .x-note { color: var(--muted); font-size: 13px; }
+.g-examples .x-all {
+  padding: 4px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--accent);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.g-examples .x-all[aria-pressed="true"] { background: var(--accent); color: #fff; }
+
+/* Scrolls inside the card: a word said twenty times must not push the audio controls off a phone. */
+.g-examples .x-list {
+  margin-top: 8px;
+  padding: 2px 0 4px;
+  max-height: min(42vh, 360px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+.g-examples .x-ep {
+  padding: 8px 10px 0;
+  overflow: hidden;
+  color: var(--fg);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.g-examples .x-ch {
+  display: block;
+  width: 100%;
+  padding: 2px 10px;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font: inherit;
+  font-size: 13px;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+.g-examples .x-ch:hover, .g-examples .x-ch:focus-visible { color: var(--accent); }
+.g-examples .x-line {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  width: 100%;
+  min-height: 40px;
+  padding: 6px 10px 6px 7px;
+  border: 0;
+  border-left: 3px solid transparent;
+  background: none;
+  color: var(--fg);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.g-examples .x-line::before { content: '▶'; flex: none; color: var(--muted); font-size: 11px; }
+/* A phone keeps :hover on the line last tapped, where it would read as the line still playing. */
+@media (hover: hover) { .g-examples .x-line:hover { background: var(--accent-soft); } }
+.g-examples .x-line.is-here { border-left-color: var(--line); }
+.g-examples .x-line.is-playing { border-left-color: var(--accent); background: var(--accent-soft); }
+.g-examples .x-line.is-playing::before { content: '■'; color: var(--accent); }
+.g-examples .x-zh {
+  flex: 1;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.g-examples .x-zh b { color: var(--accent); font-weight: 600; }
+.g-examples .x-time { flex: none; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+
 /* ---------- Nghe lại: the studied chapters played back (docs/listen.js) ---------- */
 
 .playlist { margin: 0; padding: 0; list-style: none; }

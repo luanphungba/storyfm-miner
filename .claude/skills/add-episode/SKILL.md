@@ -301,8 +301,9 @@ with what the page loads of it, `docs/data/<id>.vi.json`; the chapters `data/cha
 `docs/data/<id>.chapters.json`; for a podcast episode also
 `data/podcasts.json`, which records the hosted `m4a` (the file itself lives on the Worker, not in
 git). Note that `build_tokens.py` recounts word
-frequencies across every episode, so the other episodes' `.tok.json` files change too — that is
-expected, not a stray edit. Run `git status --short` to show exactly
+frequencies across every episode, so the other episodes' `.tok.json` files change too, and it
+refiles every line each word is said in, so most of `docs/data/words/` changes as well — both are
+expected, not stray edits. Run `git status --short` to show exactly
 what changed, then give the user a short summary:
 
 - episode id + title

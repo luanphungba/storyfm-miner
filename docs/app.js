@@ -10,6 +10,7 @@
 
 import { CONTEXT_LINES, markLine } from './card.js';
 import { newWords } from './chapterwords.js';
+import { initExamples } from './examples.js';
 import { chapterShots, framePercent } from './shots.js';
 import { meterListening } from './meter.js';
 import { initMiner } from './miner.js';
@@ -674,8 +675,11 @@ function showGloss(/** @type {HTMLElement} */ span) {
   // 面试官 are ordinary speech that the syllabus simply does not cover — so it says so plainly.
   const band = span.dataset.band;
   const level = span.dataset.name ? 'tên riêng' : band ? `HSK ${band === '7' ? '7-9' : band}` : 'ngoài HSK';
-  const times = Number(span.dataset.count);
-  line('g-meta', `${level} · gặp ${times} lần trong các tập đã có`);
+  const here = { ep: episode.id, cue: rows.indexOf(/** @type {HTMLElement} */ (span.closest('.cue'))) };
+  const seen = examples.toggle(word, Number(span.dataset.count), here);
+  line('g-meta', `${level} · `);
+  card.lastElementChild?.append(seen?.button ?? 'chỉ gặp ở câu này');
+  if (seen) card.append(seen.panel);
   if (strokes) card.append(strokes.panel);
   const actions = document.createElement('div');
   actions.className = 'g-actions';
@@ -713,7 +717,10 @@ const miner = initMiner({
   playLine: (cue) => startLoop(cue.start, cue.end, 1),
 });
 
+const examples = initExamples({ audio, openChapter: selectChapter });
+
 function hideGloss() {
+  examples.stop();
   card.hidden = true;
   openWord?.classList.remove('is-open');
   openWord = null;

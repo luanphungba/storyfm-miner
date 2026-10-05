@@ -173,6 +173,11 @@ Two sidecars are built per episode and fetched after the transcript is already o
 with no sidecar — or a phone on a bad connection — still reads: `EXXX.tok.json` (spans) and
 `EXXX.gloss.json` (what the card shows).
 
+The card's "gặp N lần" opens every other line the word is said in, across all episodes, each
+playable right in the card and linked to its chapter — for a word the ear keeps missing.
+`build_tokens.py` files those lines under each word in `docs/data/words/`, spread over 64 files by
+the sum of the word's code points, so a lookup fetches one ~10 KB file instead of every transcript.
+
 `tools/audit.mjs` re-derives each field from a direction other than the one that built it and prints
 the disagreements. It has caught, in order: the pinyin taken from CC-CEDICT's first entry (说 as
 *shuì*), 124 lines whose readings were shifted by a run of digits, 168 ordinary words tagged proper
