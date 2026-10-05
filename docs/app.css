@@ -374,10 +374,19 @@ h1 {
 .player {
   position: fixed;
   inset: auto 0 0 0;
+  /* Never taller than the screen: a bar fixed to the bottom that grows past the top has its top out
+     of reach, and on a phone that was the word card's ✕. What gives way is the card, which scrolls
+     inside itself; the controls under it keep their size. */
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  max-height: 100dvh;
   padding: 8px 16px calc(10px + env(safe-area-inset-bottom));
   background: var(--surface);
   border-top: 1px solid var(--line);
 }
+/* As wide as in a block: a flex item with auto side margins would shrink to its content. */
+.player > * { flex: none; width: 100%; }
 
 .player audio { display: block; width: 100%; max-width: 720px; margin: 0 auto; }
 
@@ -460,11 +469,27 @@ h1 {
 .cue .zh .w.is-open { background: var(--accent); color: #fff; }
 
 #gloss {
+  flex: 0 1 auto;
+  min-height: 0;
   max-width: 720px;
+  max-height: 640px;
   margin: 0 auto 8px;
   padding: 10px 12px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   border: 1px solid var(--line);
   border-radius: 10px;
+  background: var(--accent-soft);
+}
+/* The word and its ✕ stay at the top while the rest of the card scrolls under them. */
+#gloss .g-head {
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin: -10px -12px 0;
+  padding: 10px 12px 2px;
   background: var(--accent-soft);
 }
 #gloss .g-word { font-size: 22px; font-weight: 600; }
@@ -478,11 +503,11 @@ h1 {
 #gloss { position: relative; }
 
 .g-actions {
-  float: right;
   display: flex;
   align-items: center;
   gap: 4px;
-  margin: 0 -4px 4px 8px;
+  margin: 0 -4px 0 auto;
+  padding-left: 8px;
 }
 
 .g-close {
@@ -508,9 +533,8 @@ h1 {
   cursor: pointer;
 }
 
-/* The lookup is taller than a word card; it scrolls inside the player rather than push the audio
-   controls off a phone screen. */
-#gloss.is-mining { max-height: min(62vh, 560px); overflow-y: auto; overscroll-behavior: contain; }
+/* The lookup is taller than a word card, so it is held shorter still. */
+#gloss.is-mining { max-height: min(62vh, 560px); }
 
 .m-head { display: flex; align-items: center; gap: 8px; }
 .m-word { font-size: 26px; font-weight: 600; line-height: 1.3; }
@@ -743,13 +767,10 @@ h1 {
 }
 .g-examples .x-all[aria-pressed="true"] { background: var(--accent); color: #fff; }
 
-/* Scrolls inside the card: a word said twenty times must not push the audio controls off a phone. */
+/* No scroll of its own: the card scrolls, and one scroll inside another is hard to work on a phone. */
 .g-examples .x-list {
   margin-top: 8px;
   padding: 2px 0 4px;
-  max-height: min(42vh, 360px);
-  overflow-y: auto;
-  overscroll-behavior: contain;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
@@ -789,6 +810,7 @@ h1 {
 }
 .g-examples .x-ch:hover, .g-examples .x-ch:focus-visible { color: var(--accent); }
 .g-examples .x-line {
+  scroll-margin-top: 64px; /* clear of the card's pinned row when "Nghe lần lượt" brings it into view */
   display: flex;
   align-items: baseline;
   gap: 8px;

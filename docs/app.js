@@ -694,8 +694,13 @@ function showGloss(/** @type {HTMLElement} */ span) {
   close.setAttribute('aria-label', 'Đóng và nghe tiếp');
   close.onclick = hideGloss;
   actions.append(miner.button(wordContext(span)), close);
-  card.prepend(actions);
+  // The word and the way out share a row that stays put while the rest of the card scrolls.
+  const head = document.createElement('div');
+  head.className = 'g-head';
+  head.append(/** @type {HTMLElement} */ (card.firstElementChild), actions);
+  card.prepend(head);
   card.hidden = false;
+  card.scrollTop = 0;
 }
 
 /** The tapped word as the miner needs it: its line with the word marked, and the lines around it. */
