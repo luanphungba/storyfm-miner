@@ -670,6 +670,9 @@ async function loadTapped() {
   showTapped();
 }
 
+// A word known in a chapter's list leaves every chapter's count.
+$('words-dialog').addEventListener('known', loadTapped);
+
 /** A button per chapter with a word tapped in it, last under its heading: below its screens and new words. */
 function showTapped() {
   for (const old of cueBox.querySelectorAll('.ch-tapped')) old.remove();

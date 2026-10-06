@@ -5,7 +5,7 @@
 // episode whole instead, the one studied latest first. The list lives on the server (server/miner.py),
 // so a chapter studied on the laptop plays on the phone.
 //
-// Each chapter lists the words tapped in it, the stubborn ones first, to read through before hearing
+// Each chapter lists the words tapped in it, the lowest HSK level first, to read through before hearing
 // it again. Reading the list is not a tap: only a word tapped in the player says it was not caught.
 //
 // One audio element plays everything. A chapter of another episode swaps its source rather than
@@ -290,14 +290,18 @@ function previous() {
   else step(-1);
 }
 
+function showNowWords(/** @type {Studied} */ chapter) {
+  const count = wordsOf(chapter).length;
+  $('now-words').hidden = !count;
+  $('now-words').textContent = `${count} từ`;
+}
+
 function showNow(/** @type {Studied} */ chapter) {
   $('now').hidden = false;
   $('now-zh').textContent = chapter.zh;
   $('now-sub').textContent = `${chapter.vi} · ${chapter.ep}`;
   /** @type {HTMLAnchorElement} */ ($('open-chapter')).href = chapterLink(chapter);
-  const count = wordsOf(chapter).length;
-  $('now-words').hidden = !count;
-  $('now-words').textContent = `${count} từ`;
+  showNowWords(chapter);
   showTime();
   markPlaying();
   if ('mediaSession' in navigator) {
@@ -388,6 +392,13 @@ $('shuffle').addEventListener('click', () => {
 
 $('play-all').addEventListener('click', () => play(undefined));
 $('now-words').addEventListener('click', () => { if (queue[index]) showWords(queue[index], wordsOf(queue[index])); });
+// A word known in a chapter's list leaves every chapter's count.
+$('words-dialog').addEventListener('known', (event) => {
+  const word = /** @type {CustomEvent<string>} */ (event).detail;
+  for (const chapter of tapped) chapter.words = chapter.words.filter((w) => w.word !== word);
+  render();
+  if (queue[index]) showNowWords(queue[index]);
+});
 $('prev').addEventListener('click', previous);
 $('next').addEventListener('click', () => step(1));
 $('toggle').addEventListener('click', () => {

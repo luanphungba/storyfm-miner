@@ -247,6 +247,40 @@ class TapLogTest(unittest.TestCase):
         with self.assertRaises(miner.ApiError):
             self.api.tap({"taps": "x"})
 
+    def words_of(self):
+        return [[w["word"] for w in c["words"]] for c in self.api.tapped({})["chapters"]]
+
+    def test_a_word_known_leaves_every_chapter_s_list_and_no_chapter_s_days(self):
+        self.study(70.62, 158.13)
+        self.study(160.49, 251.83)
+        self.send("", tap("尴尬", at=80.5), tap("清楚", at=90), tap("尴尬", day="2026-10-07", at=170))
+        self.assertEqual(self.api.know({"word": "尴尬", "day": "2026-10-08"}), {})
+        self.assertEqual(self.words_of(), [["清楚"], []])
+        self.assertEqual([c["days"] for c in self.api.tapped({})["chapters"]], [["2026-10-06"], ["2026-10-07"]])
+
+    def test_a_word_known_is_listed_again_once_tapped_on_a_later_day(self):
+        self.study(70.62, 158.13)
+        self.send("", tap("尴尬"))
+        self.api.know({"word": "尴尬", "day": "2026-10-06"})
+        self.send("", tap("尴尬", at=95.1))
+        self.assertEqual(self.words_of(), [[]])
+        self.send("", tap("尴尬", day="2026-10-09"))
+        self.assertEqual(self.words_of(), [["尴尬"]])
+
+    def test_a_word_known_twice_or_from_two_devices_is_one_row_and_keeps_its_taps(self):
+        self.send("", tap("尴尬"))
+        self.api.know({"word": "尴尬", "day": "2026-10-07"})
+        self.api.know({"word": "尴尬", "day": "2026-10-07"})
+        self.assertEqual(self.log.db.execute("SELECT COUNT(*) FROM known").fetchone()[0], 1)
+        self.assertEqual(self.log.days("尴尬"), 1)
+
+    def test_turns_away_a_known_word_no_page_sends(self):
+        for body in [{}, {"word": "尴尬"}, {"word": "", "day": "2026-10-07"}, {"word": "尴" * 41, "day": "2026-10-07"},
+                     {"word": "尴尬", "day": "hôm nay"}, {"word": ["尴尬"], "day": "2026-10-07"}]:
+            with self.subTest(body=body), self.assertRaises(miner.ApiError) as raised:
+                self.api.know(body)
+            self.assertEqual(raised.exception.status, 400)
+
 
 class PlayerTapsTest(unittest.TestCase):
     def test_reads_the_episode_and_line_of_a_link_back_to_the_player(self):

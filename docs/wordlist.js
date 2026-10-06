@@ -1,17 +1,23 @@
 // @ts-check
-// A chapter's tapped words in a dialog, to read through before hearing it again: the ones tapped on
-// the most days first, each with its HSK level, reading, Hán Việt and meaning as the player's word card
-// gives them, the line it was tapped in, and its stroke order a tap away. Opened from Nghe lại and from the
-// player's chapter headings, each page carrying the dialog's markup (#words-dialog) and its audio
-// (#audio). Reading the list is not a tap: only a word tapped in the player says it was not caught.
+// A chapter's tapped words in a dialog, to read through before hearing it again: the lowest HSK level
+// first, as the most of speech it buys (taps.js), each with its level, reading, Hán Việt and meaning as
+// the player's word card gives them, the line it was tapped in, and its stroke order a tap away. Opened
+// from Nghe lại and from the player's chapter headings, each page carrying the dialog's markup
+// (#words-dialog) and its audio (#audio). Reading the list is not a tap: only a word tapped in the
+// player says it was not caught.
 //
 // ▶ Nghe plays the lines one after another and round again (wordplay.js), the word playing lit and
 // kept in view; a tap on a word plays on from its line. A line's ↻ loops it, to hear it again while its
 // word is read; ↻ again plays on.
+//
+// ✓ Thuộc tells the server a word is known: it leaves every chapter's list until it is tapped again on
+// a later day. The dialog then fires `known` with the word, for the page to drop it from its counts.
 
-import { levelOf } from './hsk.js';
+import { levelLabel, levelOf, levelRank } from './hsk.js';
+import { studyDay } from './listening.js';
+import { call, savedConnection } from './server.js';
 import { strokeToggle } from './strokes.js';
-import { STUBBORN_DAYS, byStubbornness } from './taps.js';
+import { STUBBORN_DAYS, forStudy } from './taps.js';
 import { lineOf, nextWithLine } from './wordplay.js';
 
 /** @typedef {import('./taps.js').TappedWord} TappedWord */
@@ -34,11 +40,12 @@ lineAudio.preload = 'none';
 /** The chapter the dialog shows, so files arriving after another was opened are dropped. */
 /** @type {Chapter | null} */
 let open = null;
-/** The open list, once its files are in: each word's item and line, and the audio the lines are in. */
-/** @type {{ items: HTMLElement[], lines: (Line | null)[], src: string } | null} */
+/** The open list, once its files are in: its words in order, each one's item and line (none once it is
+ * known), and the audio the lines are in. */
+/** @type {{ words: TappedWord[], items: HTMLElement[], lines: (Line | null)[], src: string } | null} */
 let shown = null;
-/** The word whose line is playing, and whether it loops rather than plays on. */
-/** @type {{ k: number, loop: boolean } | null} */
+/** The word whose line is playing, that line, and whether it loops rather than plays on. */
+/** @type {{ k: number, line: Line, loop: boolean } | null} */
 let playing = null;
 let gap = 0;
 
@@ -58,20 +65,24 @@ const episodeOf = (/** @type {string} */ ep) =>
 const tokensOf = (/** @type {string} */ ep) =>
   /** @type {Promise<{ cues: (number[])[][] } | null>} */ (fetchOnce(`data/${encodeURIComponent(ep)}.tok.json`, null));
 
+const note = (/** @type {Chapter} */ chapter, /** @type {number} */ count) =>
+  `${chapter.episode || chapter.ep} · chương ${chapter.n + 1} · ${count} từ, HSK thấp ở trên`;
+
 /** Opens the dialog on `tapped`, the words tapped in `chapter`. */
 export async function showWords(/** @type {Chapter} */ chapter, /** @type {TappedWord[]} */ tapped) {
   stop();
-  const words = byStubbornness(tapped);
   open = chapter;
   shown = null;
-  playButton.disabled = true;
+  showPlaying();
   $('words-title').textContent = chapter.zh;
-  $('words-note').textContent = `${chapter.episode || chapter.ep} · chương ${chapter.n + 1} · ${words.length} từ, từ tra nhiều ngày nhất ở trên`;
+  $('words-note').textContent = note(chapter, tapped.length);
   $('words-list').replaceChildren();
   dialog.showModal();
   const [gloss, episode, tok] = await Promise.all([glossOf(chapter.ep), episodeOf(chapter.ep), tokensOf(chapter.ep)]);
   if (!dialog.open || open !== chapter) return;
   const texts = episode?.cues.map((cue) => cue.text) ?? [];
+  const levels = new Map(tapped.map(({ word }) => [word, levelOf(texts, tok?.cues ?? [], word)]));
+  const words = forStudy(tapped, (word) => levelRank(levels.get(word) ?? null));
   // The audio the player plays, as it picks it.
   const src = episode?.audio.m4a ?? episode?.audio.mp3 ?? '';
   const lines = words.map(({ word, at }) => (episode && src ? lineOf(episode.cues, word, at) : null));
@@ -81,36 +92,38 @@ export async function showWords(/** @type {Chapter} */ chapter, /** @type {Tappe
     item.className = 'wd-item';
     const head = document.createElement('div');
     head.className = 'wd-head';
-    const zh = document.createElement('span');
-    zh.className = 'wd-word';
+    const zh = element('span', 'wd-word', word);
     zh.lang = 'zh-Hans';
-    zh.textContent = word;
+    head.append(zh);
     const strokes = strokeToggle(word, { remember: false });
-    const level = levelOf(texts, tok?.cues ?? [], word);
-    const badge = document.createElement('span');
-    badge.className = 'wd-level';
-    badge.textContent = level ?? '';
-    const count = document.createElement('span');
-    count.className = days >= STUBBORN_DAYS ? 'wd-days is-stubborn' : 'wd-days';
-    count.textContent = `${days} ngày`;
-    head.append(zh, ...(strokes ? [strokes.button] : []), ...(level ? [badge] : []), count);
+    if (strokes) head.append(strokes.button);
+    const level = levels.get(word);
+    if (level) head.append(element('span', 'wd-level', levelLabel(level.band, level.isName)));
+    head.append(element('span', days >= STUBBORN_DAYS ? 'wd-days is-stubborn' : 'wd-days', `${days} ngày`));
     item.append(head);
-    const line = (/** @type {string} */ className, /** @type {string} */ text) => {
-      const element = document.createElement('div');
-      element.className = className;
-      element.textContent = text;
-      item.append(element);
-    };
-    if (reading || hanviet) line('wd-reading', [reading, hanviet?.toUpperCase()].filter(Boolean).join('   ·   '));
-    line(meaning ? 'wd-meaning' : 'wd-meaning is-empty', meaning || 'chưa có nghĩa');
+    if (reading || hanviet) item.append(element('div', 'wd-reading', [reading, hanviet?.toUpperCase()].filter(Boolean).join('   ·   ')));
+    const gist = document.createElement('div');
+    gist.className = 'wd-gist';
+    const known = element('button', 'chip wd-know', '✓ Thuộc');
+    known.setAttribute('type', 'button');
+    known.title = 'Đã thuộc: bỏ khỏi danh sách của mọi chương, tới khi tra lại nó vào một hôm khác';
+    gist.append(element('div', meaning ? 'wd-meaning' : 'wd-meaning is-empty', meaning || 'chưa có nghĩa'), known);
+    item.append(gist);
     const said = lines[k];
     if (said) item.append(sentence(said, word));
     if (strokes) item.append(strokes.panel);
     return item;
   });
   $('words-list').replaceChildren(...items);
-  shown = { items, lines, src };
-  playButton.disabled = nextWithLine(lines, -1) < 0;
+  shown = { words, items, lines, src };
+  showPlaying();
+}
+
+function element(/** @type {string} */ tag, /** @type {string} */ className, /** @type {string} */ text) {
+  const made = document.createElement(tag);
+  made.className = className;
+  made.textContent = text;
+  return made;
 }
 
 /** The line a word was tapped in, the word picked out, with its ↻. */
@@ -134,12 +147,41 @@ function sentence(/** @type {Line} */ line, /** @type {string} */ word) {
   return row;
 }
 
+/** Tells the server the `k`th word is known, and folds it away: its line no longer plays. */
+async function know(/** @type {number} */ k) {
+  const connection = savedConnection();
+  if (!shown || !open || !connection) return;
+  const list = shown;
+  const chapter = open;
+  const { word } = list.words[k];
+  const item = list.items[k];
+  const button = /** @type {HTMLButtonElement} */ (item.querySelector('.wd-know'));
+  button.disabled = true;
+  try {
+    await call(connection, '/know', { word, day: studyDay(new Date()) });
+  } catch (error) {
+    button.disabled = false;
+    if (shown === list) $('words-note').textContent = /** @type {Error} */ (error).message;
+    return;
+  }
+  dialog.dispatchEvent(new CustomEvent('known', { detail: word }));
+  if (shown !== list) return;
+  list.lines[k] = null;
+  // A line playing as its word is known plays out, and the list plays on past it.
+  if (playing?.k === k) playing.loop = false;
+  item.classList.add('is-known');
+  /** @type {HTMLElement} */ (item.querySelector('.wd-days')).textContent = 'đã thuộc';
+  $('words-note').textContent = note(chapter, list.items.filter((i) => !i.classList.contains('is-known')).length);
+  showPlaying();
+}
+
 // ---------- playing the lines ----------
 
-/** Lights the word playing, keeping it in view, and presses the buttons that say what plays. */
+/** Lights the word playing, keeping it in view, and sets the buttons that say what plays. */
 function showPlaying() {
   playButton.setAttribute('aria-pressed', String(Boolean(playing)));
   playButton.textContent = playing ? '■ Dừng' : '▶ Nghe';
+  playButton.disabled = !playing && nextWithLine(shown?.lines ?? [], -1) < 0;
   shown?.items.forEach((item, k) => {
     const lit = playing?.k === k;
     if (lit && !item.classList.contains('is-playing')) item.scrollIntoView({ block: 'center', behavior: 'smooth' });
@@ -158,16 +200,11 @@ function stop() {
 
 /** Plays the `k`th word's line, looping it or playing on from it. */
 function play(/** @type {number} */ k, /** @type {boolean} */ loop) {
-  if (!shown?.lines[k]) return;
-  clearTimeout(gap);
-  playing = { k, loop };
-  showPlaying();
-  playLine();
-}
-
-function playLine() {
-  const line = playing && shown?.lines[playing.k];
+  const line = shown?.lines[k];
   if (!shown || !line) return;
+  clearTimeout(gap);
+  playing = { k, line, loop };
+  showPlaying();
   pageAudio.pause();
   // Set before the file has loaded, the time is where it starts: no jump from 0:00 to the line.
   if (lineAudio.getAttribute('src') !== shown.src) lineAudio.src = shown.src;
@@ -179,16 +216,14 @@ function playLine() {
 lineAudio.addEventListener('timeupdate', () => {
   // Pausing fires a timeupdate of its own, still at the end of the line just heard: only a line still
   // playing can end. Loop or play on is decided once the gap is over, so a ↻ pressed in it counts.
-  const line = playing && shown?.lines[playing.k];
-  if (!shown || !line || lineAudio.paused || lineAudio.currentTime < line.end) return;
+  if (!playing || lineAudio.paused || lineAudio.currentTime < playing.line.end) return;
   lineAudio.pause();
   gap = window.setTimeout(() => {
     if (!playing || !shown) return;
-    if (!playing.loop) {
-      playing.k = nextWithLine(shown.lines, playing.k);
-      showPlaying();
-    }
-    playLine();
+    const again = playing.loop && Boolean(shown.lines[playing.k]);
+    const next = again ? playing.k : nextWithLine(shown.lines, playing.k);
+    if (next < 0) stop();
+    else play(next, again);
   }, GAP_MS);
 });
 
@@ -198,6 +233,10 @@ $('words-list').addEventListener('click', (event) => {
   const item = /** @type {HTMLElement | null} */ (target.closest('.wd-item'));
   if (!item || !shown) return;
   const k = shown.items.indexOf(item);
+  if (target.closest('.wd-know')) {
+    know(k);
+    return;
+  }
   // ↻ loops the line, or lets the one looping play on; it never restarts the line already playing.
   if (target.closest('.wd-loop')) {
     if (playing?.k === k) {

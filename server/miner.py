@@ -495,7 +495,11 @@ class TapLog:
     """The words tapped in the player for their meaning, by day and line. A word tapped on three
     different days has not stuck from listening and is worth a card; a chapter with a word tapped in it
     comes back the next day in Nghe lại. Only ever added to: a tap sent twice, or the same one from two
-    devices, is one row, so a page resends whatever it is unsure went through."""
+    devices, is one row, so a page resends whatever it is unsure went through.
+
+    A word said to be known is listed under no chapter until it is tapped again on a later day: a tap
+    says it was not caught after all. Its taps stay, and so do the days its chapters were tapped in,
+    which space them."""
 
     def __init__(self, path):
         self.db = sqlite3.connect(path, check_same_thread=False)
@@ -510,10 +514,21 @@ class TapLog:
                     PRIMARY KEY (day, word, ep, at)
                 )"""
             )
+            self.db.execute(
+                """CREATE TABLE IF NOT EXISTS known (
+                    day TEXT NOT NULL,  -- YYYY-MM-DD, as study_day counts it
+                    word TEXT NOT NULL,
+                    PRIMARY KEY (day, word)
+                )"""
+            )
 
     def record(self, taps):
         with self.lock, self.db:
             self.db.executemany("INSERT OR IGNORE INTO tapped VALUES (:day, :word, :ep, :at)", taps)
+
+    def know(self, word, day):
+        with self.lock, self.db:
+            self.db.execute("INSERT OR IGNORE INTO known VALUES (?, ?)", (day, word))
 
     def days(self, word):
         """How many different days word was tapped on, anywhere."""
@@ -523,9 +538,14 @@ class TapLog:
     def chapters(self, chapters):
         """For each chapter given ({ep, start, end}) that had anything tapped in it: the days it did, and
         each word tapped in it with the line it was first tapped in and the days it was tapped on
-        anywhere, since a word missed in one story is as missed in the next."""
+        anywhere, since a word missed in one story is as missed in the next. A word known since it was
+        last tapped is left out of the words, not the days."""
         with self.lock:
             word_days = dict(self.db.execute("SELECT word, COUNT(DISTINCT day) FROM tapped GROUP BY word"))
+            known = {word for (word,) in self.db.execute(
+                """SELECT known.word FROM known JOIN tapped USING (word)
+                   GROUP BY known.word HAVING MAX(known.day) >= MAX(tapped.day)"""
+            )}
             by_episode = {}
             for ep, at, word, day in self.db.execute("SELECT ep, at, word, day FROM tapped ORDER BY at"):
                 by_episode.setdefault(ep, []).append((at, word, day))
@@ -544,7 +564,9 @@ class TapLog:
                 "ep": chapter["ep"],
                 "start": chapter["start"],
                 "days": sorted({day for _at, _word, day in inside}),
-                "words": [{"word": word, "at": at, "days": word_days[word]} for word, at in first.items()],
+                "words": [
+                    {"word": word, "at": at, "days": word_days[word]} for word, at in first.items() if word not in known
+                ],
             })
         return found
 
@@ -564,6 +586,21 @@ def tap_entry(entry):
     if not 0 < len(checked["word"]) <= 40 or not checked["ep"] or not 0 <= checked["at"] <= DAY_S:
         raise ApiError(400, "Từ đã tra không hợp lệ.")
     return checked
+
+
+def known_word(body):
+    """A word a page says is known, and the day it says so, checked."""
+    word, day = body.get("word"), body.get("day")
+    if not isinstance(word, str) or not isinstance(day, str):
+        raise ApiError(400, "Thiếu thông tin từ đã thuộc.")
+    try:
+        time.strptime(day, "%Y-%m-%d")
+    except ValueError:
+        raise ApiError(400, "Ngày không hợp lệ.")
+    word = word.strip()
+    if not 0 < len(word) <= 40:
+        raise ApiError(400, "Từ đã thuộc không hợp lệ.")
+    return word, day
 
 
 def tapped_chapter(entry):
@@ -699,6 +736,11 @@ class Api:
             raise ApiError(400, "Thiếu thông tin chương.")
         return {"chapters": self.tap_log.chapters([tapped_chapter(chapter) for chapter in chapters])}
 
+    def know(self, body):
+        """Takes a word off the lists of words tapped, until it is tapped again on a later day."""
+        self.tap_log.know(*known_word(body))
+        return {}
+
     def words(self, _body):
         """The notes added each day, for the dashboard; synced first, so a word added on the desktop
         counts too."""
@@ -727,6 +769,7 @@ def serve():
         "/listened": api.listened,
         "/tap": api.tap,
         "/tapped": api.tapped,
+        "/know": api.know,
         "/words": api.words,
     }
     failures = {}  # address -> times of recent wrong tokens

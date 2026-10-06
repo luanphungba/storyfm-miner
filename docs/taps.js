@@ -75,7 +75,12 @@ export function tapNote({ days, inAnki }, cardsWanted) {
   return { text: stubborn ? `${text} · nên ＋ Anki` : text, stubborn };
 }
 
-/** A chapter's words as its list shows them: the ones tapped on the most days first, the rest in
- * the order they are said. */
-export const byStubbornness = (/** @type {TappedWord[]} */ words) =>
-  [...words].sort((a, b) => b.days - a.days || a.at - b.at);
+/**
+ * A chapter's words in the order they are best learned: by `rank`, the place of each word's level
+ * (hsk.js), the lowest band first; in a level the ones tapped on the most days first, then in the
+ * order they are said.
+ * @param {TappedWord[]} words
+ * @param {(word: string) => number} rank
+ */
+export const forStudy = (words, rank) =>
+  [...words].sort((a, b) => rank(a.word) - rank(b.word) || b.days - a.days || a.at - b.at);
