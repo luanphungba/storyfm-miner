@@ -387,6 +387,8 @@ h1 {
 }
 /* As wide as in a block: a flex item with auto side margins would shrink to its content. */
 .player > * { flex: none; width: 100%; }
+/* Nghe lại's bar waits hidden until something plays; the display above would show it anyway. */
+.player[hidden] { display: none; }
 
 .player audio { display: block; width: 100%; max-width: 720px; margin: 0 auto; }
 
