@@ -497,6 +497,8 @@ h1 {
 #gloss .g-meaning { margin-top: 6px; font-size: 16px; }
 #gloss .g-meaning.is-empty { color: var(--muted); font-style: italic; }
 #gloss .g-meta { margin-top: 6px; font-size: 13px; color: var(--muted); }
+#gloss .g-taps { margin-top: 2px; font-size: 13px; color: var(--muted); }
+#gloss .g-taps.is-stubborn { color: var(--accent); font-weight: 600; }
 
 /* ---------- mining a word into Anki (docs/miner.js) ---------- */
 

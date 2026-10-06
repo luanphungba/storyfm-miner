@@ -17,6 +17,7 @@ import { initMiner } from './miner.js';
 import { call, savedConnection } from './server.js';
 import { strokeToggle } from './strokes.js';
 import { ceilTenth, findStudied, floorTenth } from './studied.js';
+import { recordTap, tapNote } from './taps.js';
 
 const CUE_LANG = 'zh-Hans';
 const CHANNEL = 'ci-timedtext';
@@ -683,6 +684,8 @@ function showGloss(/** @type {HTMLElement} */ span) {
   const seen = examples.toggle(word, Number(span.dataset.count), here);
   line('g-meta', `${level} · `);
   card.lastElementChild?.append(seen?.button ?? 'chỉ gặp ở câu này');
+  const taps = countTap(span, word, here.cue);
+  if (taps) card.append(taps);
   if (seen) card.append(seen.panel);
   if (strokes) card.append(strokes.panel);
   const actions = document.createElement('div');
@@ -701,6 +704,28 @@ function showGloss(/** @type {HTMLElement} */ span) {
   card.prepend(head);
   card.hidden = false;
   card.scrollTop = 0;
+}
+
+/** Every tap is a lookup the server keeps: the card says on how many days the word has needed one,
+ * and from the third that it may be worth a card. Without a server there is no line. */
+function countTap(/** @type {HTMLElement} */ span, /** @type {string} */ word, /** @type {number} */ index) {
+  const connection = savedConnection();
+  if (!connection || !cues[index]) return null;
+  const note = document.createElement('div');
+  note.className = 'g-taps';
+  note.hidden = true;
+  recordTap(connection, { word, ep: episode.id, at: cues[index].start })
+    .then((count) => {
+      if (!count || openWord !== span) return;
+      const { text, stubborn } = tapNote(count, episode.source !== 'ui');
+      note.textContent = text;
+      note.classList.toggle('is-stubborn', stubborn);
+      note.hidden = false;
+    })
+    .catch(() => {
+      // Kept unsent; the next tap sends it.
+    });
+  return note;
 }
 
 /** The tapped word as the miner needs it: its line with the word marked, and the lines around it. */
