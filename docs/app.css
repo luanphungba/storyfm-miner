@@ -1029,16 +1029,30 @@ a.pl-item { color: inherit; text-decoration: none; }
 #words-dialog::backdrop { background: rgb(0 0 0 / .4); }
 /* The padding is the body's, so a tap on the dialog element itself is a tap on the backdrop. */
 .wd-body { padding: 16px 20px 20px; }
-.wd-top { display: flex; align-items: center; gap: 8px; }
+/* Held at the top while the list scrolls under it, so ■ Dừng and ✕ stay a tap away as the words play. */
+.wd-top {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: -16px -20px 0;
+  padding: 16px 20px 6px;
+  background: var(--surface);
+}
 .wd-top h2 {
   flex: 1;
   margin: 0;
   font-size: max(18px, calc(var(--zh-size) * 0.65));
   font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
 }
+#words-play { flex: none; padding: 6px 14px; font-size: max(14px, calc(var(--zh-size) * 0.45)); }
 .wd-note { margin: 2px 0 12px; color: var(--muted); font-size: max(13px, calc(var(--zh-size) * 0.4)); }
 .wd-list { margin: 0; padding: 0; list-style: none; }
-.wd-item { padding: 12px 0; border-top: 1px solid var(--line); }
+.wd-item { padding: 12px 0; border-top: 1px solid var(--line); cursor: pointer; }
+/* The word whose line is playing, lit to the box's edges. */
+.wd-item.is-playing { margin-inline: -20px; padding-inline: 20px; background: var(--accent-soft); }
 .wd-head { display: flex; align-items: center; }
 .wd-word {
   font-size: max(22px, var(--zh-size));
@@ -1051,3 +1065,24 @@ a.pl-item { color: inherit; text-decoration: none; }
 .wd-reading { margin-top: 2px; font-size: max(14px, calc(var(--zh-size) * 0.55)); color: var(--accent); letter-spacing: .3px; }
 .wd-meaning { margin-top: 2px; font-size: max(15px, calc(var(--zh-size) * 0.65)); line-height: 1.4; }
 .wd-meaning.is-empty { color: var(--muted); font-style: italic; }
+/* The line the word was tapped in, its ↻ at the end as on the player's lines. */
+.wd-line { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+.wd-zh {
+  flex: 1;
+  font-size: max(17px, calc(var(--zh-size) * 0.7));
+  line-height: 1.5;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+.wd-zh b { color: var(--accent); font-weight: 600; }
+.wd-loop {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 22px;
+  cursor: pointer;
+}
+.wd-loop[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
