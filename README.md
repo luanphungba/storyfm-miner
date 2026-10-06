@@ -185,6 +185,14 @@ nouns (孝顺, 东西, 老公), and 248 words whose neutral tone was rendered as
 *péng yǒu*). The Vietnamese meanings are the one field it cannot check — there is no second source
 to hold them against, so they stay a reading job.
 
+That reading is done per episode, not per word. A meaning is written once and every episode shares
+it, so one written for E757 — 交代 as "dặn dò, trăng trối", for a mother who fell ill before she
+could say what she meant to — went on to show under CC5's 交代一下这个星期的任务, "hand in this week's
+work". `tools/todo_gloss.mjs` therefore lists a word until its meaning has been read against the
+sentences of the episode at hand, adding the sense that episode uses where it was missing, and
+`tools/gloss-checked.json` records which words each episode has had read. HSK 1-2 is left out: the
+reader knows those words.
+
 ## Notes
 
 - **No LLM re-punctuates the text.** The ASR already punctuates, and letting a model rewrite it

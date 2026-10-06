@@ -148,12 +148,17 @@ word has a meaning.** README's "Tap a word, get its meaning" section has the ful
 ```
 python3 tools/build_tokens.py <ID>   # cut into words (also recounts frequencies across all episodes)
 node tools/build_gloss.mjs <ID>      # readings + whatever is already written by hand
-node tools/todo_gloss.mjs <ID>       # what is left to write
+node tools/todo_gloss.mjs <ID>       # what is left to write or read
 ```
 
 `todo_gloss` prints one line per word: the word, the reading that will ship, its HSK band (or `—`
-for off-list, `TÊN` for a name), and CC-CEDICT's English sense. Expect **500–800 words** for a new
-episode: `tools/gloss-vi.json` is shared across every episode, so most vocabulary is already there.
+for off-list, `TÊN` for a name), the meaning so far (or `(chưa có nghĩa)`), and CC-CEDICT's senses;
+then, indented, the sentences the episode says it in, the word marked 【like this】. Expect **500–800
+words with no meaning** for a new episode: `tools/gloss-vi.json` is shared across every episode, so
+most vocabulary is already there — and those already-written words are listed too, because a
+meaning written for one episode is not yet known to fit this one's sentences (CC5 showed 交代 as
+"dặn dò, trăng trối", written for E757's dying mother, under 交代一下这个星期的任务 "hand in this
+week's work"). HSK 1-2 words with a meaning are not listed: the reader knows them.
 
 Write entries into `tools/gloss-vi.json` as `"词": ["HÁN VIỆT", "nghĩa tiếng Việt"]`, in batches of
 ~350, rebuilding after each. Five rules, all of them learned the hard way:
@@ -168,10 +173,15 @@ Write entries into `tools/gloss-vi.json` as `"词": ["HÁN VIỆT", "nghĩa ti�
   against CC-CEDICT's readings of that character, so a mistyped tone fails instead of shipping. To
   find them, list the episode's words with a polyphonic character (长 发 得 行 当 只 倒 种 舍 会 …)
   next to their first sentence — the card shows the reading of a word's first occurrence.
-- **Write the meaning from the CC-CEDICT sense on the line**, not from recall, and keep it to one
-  short phrase. It is the only field no tool can check afterwards. The meaning is shared by every
+- **Write the meaning from the CC-CEDICT sense its sentences use**, not from recall, and keep it to
+  one short phrase. It is the only field no tool can check afterwards. The meaning is shared by every
   episode, so a word used in an unusual sense here gets its common sense first and this episode's in
   brackets (`"lớp; ca làm (上班: đi làm)"`).
+- **Read every already-written meaning against its sentences here.** Where it misses the sense this
+  episode uses, add that sense after a `;` (交代: `"bàn giao; dặn dò, trăng trối; báo cáo, có cái để
+  nộp"`) — never replace a sense, because another episode's card relies on it. When the whole list
+  has a meaning that fits, record it: `node tools/todo_gloss.mjs <ID> --checked` writes the words
+  into `tools/gloss-checked.json`, and the next run lists only what is still missing.
 - **Leave the Hán Việt as `""` rather than guess.** Interjections and rare colloquialisms often
   have no settled reading; a blank line is harmless, a confident wrong one teaches the user an error.
   Same bar as the transcript: certain, or say nothing.
@@ -296,7 +306,7 @@ rechecks every episode; a later fix or join that moves a chapter's first sentenc
 
 These steps together touch: `data/raw/<id>.json`, `docs/data/<id>.json`, `docs/data/index.json`,
 `data/onsets/<id>.json`, `data/corrections/<id>.json`, `data/cuts/<id>.json`, the two sidecars `docs/data/<id>.tok.json` and
-`docs/data/<id>.gloss.json`, `tools/gloss-vi.json`, and the translation `data/translations/<id>.json`
+`docs/data/<id>.gloss.json`, `tools/gloss-vi.json`, `tools/gloss-checked.json`, and the translation `data/translations/<id>.json`
 with what the page loads of it, `docs/data/<id>.vi.json`; the chapters `data/chapters/<id>.json` and
 `docs/data/<id>.chapters.json`; for a podcast episode also
 `data/podcasts.json`, which records the hosted `m4a` (the file itself lives on the Worker, not in
@@ -312,7 +322,8 @@ what changed, then give the user a short summary:
 - sentences → lines from split-cues, and any line it left over 15 characters
 - how many fixes verify-transcript made, and — this is the important part — every `flagged` entry
   by name, since those are the spots where the transcript might not match the audio
-- how many words were glossed, that `todo_gloss` now reports 0 left, and what `audit.mjs` printed
+- how many words were glossed, how many already-written meanings gained this episode's sense, that
+  `todo_gloss` now reports 0 left, and what `audit.mjs` printed
 - how many sentences were translated, the summary, and any spot where the ASR was too garbled to
   translate with certainty
 - how many chapters, their range of lengths, and the list of titles
