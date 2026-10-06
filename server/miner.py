@@ -3,8 +3,9 @@
 The extension talks to Anki desktop on the same machine. A phone has neither, so this keeps a copy
 of the collection on a server, adds notes to it, and syncs it through AnkiWeb like any other device.
 
-    python server/miner.py login   # once: AnkiWeb account, then the first download
-    python server/miner.py serve   # the API the player calls
+    python server/miner.py login       # once: AnkiWeb account, then the first download
+    python server/miner.py serve       # the API the player calls
+    python server/miner.py seed-taps   # once, server stopped: the cards added so far count as taps
 
 Settings come from the environment (see server/.env.example).
 
@@ -16,12 +17,15 @@ risk. A full upload from here would be the one way to lose them, so there is no 
 
 import getpass
 import hmac
+import html
 import json
 import os
+import re
 import sqlite3
 import sys
 import threading
 import time
+import urllib.parse
 import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -282,6 +286,18 @@ class Anki:
             days[day] = days.get(day, 0) + 1
         return days
 
+    def player_taps(self, deck):
+        """Each card in deck added from the player, as the tap it took to add it: its word, tapped on the
+        day the card was made, in the line its link plays. The cards made before taps were kept."""
+        taps = []
+        for note_id in self.col.find_notes(f'"deck:{escape(deck)}" "note:{escape(MODEL_NAME)}"'):
+            note = self.col.get_note(note_id)
+            line = player_line(note["VideoLink"])
+            if line:
+                taps.append({"day": study_day(note_id / 1000), "word": html.unescape(note["Word"]).strip(),
+                             "ep": line[0], "at": line[1]})
+        return taps
+
 
 def escape(text):
     return "".join("\\" + c if c in '\\"*_' else c for c in str(text))
@@ -430,16 +446,22 @@ class ListeningLog:
 
     def summary(self):
         """What the dashboard shows: the days, and each chapter heard with how long, how much of its audio
-        (its passes, whatever the speed) and on how many days."""
+        (its passes, whatever the speed) and on how many days. Nghe lại also needs the audio of it heard
+        on each day, to tell the days it was heard through from the days it was skimmed."""
         with self.lock:
-            chapters = [
-                {"ep": ep, "start": start, "seconds": round(seconds, 1), "audio": round(audio, 1), "days": days, "last": last}
+            chapters = {
+                (ep, start): {"ep": ep, "start": start, "seconds": round(seconds, 1), "audio": round(audio, 1),
+                              "days": days, "last": last, "byDay": {}}
                 for ep, start, seconds, audio, days, last in self.db.execute(
                     "SELECT ep, start, SUM(seconds), SUM(audio), COUNT(DISTINCT day), MAX(day) FROM listened"
                     " WHERE start IS NOT NULL GROUP BY ep, start"
                 )
-            ]
-            return {"days": self.days(), "chapters": chapters}
+            }
+            for ep, start, day, audio in self.db.execute(
+                "SELECT ep, start, day, SUM(audio) FROM listened WHERE start IS NOT NULL GROUP BY ep, start, day"
+            ):
+                chapters[(ep, start)]["byDay"][day] = round(audio, 1)
+            return {"days": self.days(), "chapters": list(chapters.values())}
 
 
 def listened_entry(entry):
@@ -467,13 +489,107 @@ def listened_entry(entry):
     return checked
 
 
+# ---------- words tapped ----------
+
+class TapLog:
+    """The words tapped in the player for their meaning, by day and line. A word tapped on three
+    different days has not stuck from listening and is worth a card; a chapter with a word tapped in it
+    comes back the next day in Nghe lại. Only ever added to: a tap sent twice, or the same one from two
+    devices, is one row, so a page resends whatever it is unsure went through."""
+
+    def __init__(self, path):
+        self.db = sqlite3.connect(path, check_same_thread=False)
+        self.lock = threading.Lock()
+        with self.lock, self.db:
+            self.db.execute(
+                """CREATE TABLE IF NOT EXISTS tapped (
+                    day TEXT NOT NULL,  -- YYYY-MM-DD, as study_day counts it
+                    word TEXT NOT NULL,
+                    ep TEXT NOT NULL,
+                    at REAL NOT NULL,   -- the start of the line the word was tapped in
+                    PRIMARY KEY (day, word, ep, at)
+                )"""
+            )
+
+    def record(self, taps):
+        with self.lock, self.db:
+            self.db.executemany("INSERT OR IGNORE INTO tapped VALUES (:day, :word, :ep, :at)", taps)
+
+    def days(self, word):
+        """How many different days word was tapped on, anywhere."""
+        with self.lock:
+            return self.db.execute("SELECT COUNT(DISTINCT day) FROM tapped WHERE word = ?", (word,)).fetchone()[0]
+
+    def chapters(self, chapters):
+        """For each chapter given ({ep, start, end}) that had anything tapped in it: the days it did, and
+        each word tapped in it with the line it was first tapped in and the days it was tapped on
+        anywhere, since a word missed in one story is as missed in the next."""
+        with self.lock:
+            word_days = dict(self.db.execute("SELECT word, COUNT(DISTINCT day) FROM tapped GROUP BY word"))
+            by_episode = {}
+            for ep, at, word, day in self.db.execute("SELECT ep, at, word, day FROM tapped ORDER BY at"):
+                by_episode.setdefault(ep, []).append((at, word, day))
+        found = []
+        for chapter in chapters:
+            inside = [
+                (at, word, day) for at, word, day in by_episode.get(chapter["ep"], [])
+                if chapter["start"] - SAME_START_S <= at < chapter["end"]
+            ]
+            if not inside:
+                continue
+            first = {}
+            for at, word, _day in inside:
+                first.setdefault(word, at)
+            found.append({
+                "ep": chapter["ep"],
+                "start": chapter["start"],
+                "days": sorted({day for _at, _word, day in inside}),
+                "words": [{"word": word, "at": at, "days": word_days[word]} for word, at in first.items()],
+            })
+        return found
+
+
+def tap_entry(entry):
+    """One tap as the player sends it, checked."""
+    try:
+        checked = {
+            "day": str(entry["day"]),
+            "word": str(entry["word"]).strip(),
+            "ep": str(entry["ep"])[:40],
+            "at": float(entry["at"]),
+        }
+        time.strptime(checked["day"], "%Y-%m-%d")
+    except (AttributeError, KeyError, TypeError, ValueError):
+        raise ApiError(400, "Thiếu thông tin từ đã tra.")
+    if not 0 < len(checked["word"]) <= 40 or not checked["ep"] or not 0 <= checked["at"] <= DAY_S:
+        raise ApiError(400, "Từ đã tra không hợp lệ.")
+    return checked
+
+
+def player_line(link):
+    """The episode and line start of a card's link back to the player, or None for a link elsewhere
+    (a YouTube card from the extension)."""
+    match = re.search(r'href="([^"]+)"', link)
+    if not match:
+        return None
+    url = urllib.parse.urlparse(html.unescape(match.group(1)))
+    query = urllib.parse.parse_qs(url.query)
+    if not url.path.endswith("/player.html") or "ep" not in query or "start" not in query:
+        return None
+    try:
+        return query["ep"][0], float(query["start"][0])
+    except ValueError:
+        return None
+
+
 # ---------- HTTP ----------
 
 class Api:
-    def __init__(self, anki, studied, listening_log):
+    def __init__(self, anki, studied, listening_log, tap_log):
         self.anki = anki
         self.studied_chapters = studied
         self.listening_log = listening_log
+        self.tap_log = tap_log
         self.deck = env("ANKI_DECK", "Chinese::Mining")
 
     def health(self, _body):
@@ -548,6 +664,24 @@ class Api:
     def listened(self, _body):
         return self.listening_log.summary()
 
+    def tap(self, body):
+        """Records the taps a page sends, and says of `word`, the one just tapped, how many days it has
+        been tapped on and whether it has a card already: what the line on its card says."""
+        taps = body.get("taps", [])
+        if not isinstance(taps, list):
+            raise ApiError(400, "Thiếu thông tin từ đã tra.")
+        self.tap_log.record([tap_entry(tap) for tap in taps])
+        word = str(body.get("word", "")).strip()
+        if not word:
+            return {"days": 0, "inAnki": False}
+        with self.anki.lock:
+            in_anki = bool(self.anki.notes_with_word(word))
+        return {"days": self.tap_log.days(word), "inAnki": in_anki}
+
+    def tapped(self, _body):
+        """The words tapped in each studied chapter, for Nghe lại."""
+        return {"chapters": self.tap_log.chapters(self.studied_chapters.read()["chapters"])}
+
     def words(self, _body):
         """The notes added each day, for the dashboard; synced first, so a word added on the desktop
         counts too."""
@@ -562,7 +696,7 @@ def serve():
         sys.exit("MINER_TOKEN is too short: use `openssl rand -base64 32`.")
     origins = set(env("ALLOWED_ORIGINS", "https://luanphungba.github.io").split(","))
     folder = Path(env("ANKI_DIR", str(ROOT / "server/data")))
-    api = Api(Anki(folder), Studied(folder / "studied.json"), ListeningLog(folder / "listening.db"))
+    api = Api(Anki(folder), Studied(folder / "studied.json"), ListeningLog(folder / "listening.db"), TapLog(folder / "taps.db"))
     routes = {
         "/health": api.health,
         "/peek": api.peek,
@@ -574,6 +708,8 @@ def serve():
         "/unstudy": api.unstudy,
         "/listening": api.listening,
         "/listened": api.listened,
+        "/tap": api.tap,
+        "/tapped": api.tapped,
         "/words": api.words,
     }
     failures = {}  # address -> times of recent wrong tokens
@@ -639,5 +775,16 @@ def login():
     print(f"Done: {anki.col.note_count()} notes.")
 
 
+def seed_taps():
+    """Once, with the server stopped (it holds the collection): every card already added from the
+    player counts as a tap of its word, so the words studied before taps were kept start counted."""
+    folder = Path(env("ANKI_DIR", str(ROOT / "server/data")))
+    deck = env("ANKI_DECK", "Chinese::Mining")
+    taps = Anki(folder).player_taps(deck)
+    TapLog(folder / "taps.db").record(taps)
+    print(f"{len(taps)} cards in {deck} kept as taps.")
+
+
 if __name__ == "__main__":
-    {"serve": serve, "login": login}.get(sys.argv[1] if len(sys.argv) > 1 else "", lambda: sys.exit(__doc__))()
+    commands = {"serve": serve, "login": login, "seed-taps": seed_taps}
+    commands.get(sys.argv[1] if len(sys.argv) > 1 else "", lambda: sys.exit(__doc__))()
