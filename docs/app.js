@@ -15,9 +15,11 @@ import { chapterShots, framePercent } from './shots.js';
 import { meterListening } from './meter.js';
 import { initMiner } from './miner.js';
 import { call, savedConnection } from './server.js';
+import { tappedOf } from './spacing.js';
 import { strokeToggle } from './strokes.js';
 import { ceilTenth, findStudied, floorTenth } from './studied.js';
 import { recordTap, tapNote } from './taps.js';
+import { showWords } from './wordlist.js';
 
 const CUE_LANG = 'zh-Hans';
 const CHANNEL = 'ci-timedtext';
@@ -351,6 +353,7 @@ async function loadChapters() {
   refreshLoopBar(); // a chapter already in the URL
   showStudied();
   loadStudied();
+  loadTapped();
   showNewWords();
   showShots();
 }
@@ -503,7 +506,7 @@ function syncChapter(/** @type {{ start: number, end: number } | null} */ range)
   const c = chapter && chapters[chapter.n];
   rows.forEach((row, index) => row.classList.toggle('in-chapter', !!c && index >= c.from && index <= c.to));
   headings.forEach((heading, k) => heading.classList.toggle('is-current', k === chapter?.n));
-  for (const extra of cueBox.querySelectorAll('.ch-words, .ch-shots')) {
+  for (const extra of cueBox.querySelectorAll('.ch-words, .ch-shots, .ch-tapped')) {
     extra.classList.toggle('is-current', Number(/** @type {HTMLElement} */ (extra).dataset.n) === chapter?.n);
   }
   for (const item of document.querySelectorAll('.toc-item')) {
@@ -643,6 +646,45 @@ async function toggleStudied() {
 
 studyButton.addEventListener('click', toggleStudied);
 
+// ---------- words tapped ----------
+
+/** Under each chapter's heading, the words tapped in it: the list Nghe lại gives a studied chapter,
+ * to read through before hearing it again. Asked for again after each tap, so a word just looked up
+ * is on it. Without a server there is no list. */
+/** @type {import('./taps.js').TappedWord[][]} */
+let tappedWords = [];
+
+async function loadTapped() {
+  const connection = savedConnection();
+  if (!connection || !chapters.length) return;
+  try {
+    /** @type {{ chapters: import('./spacing.js').Tapped[] }} */
+    const data = await call(connection, '/tapped', {
+      chapters: chapters.map((c) => ({ ep: episode.id, start: c.start, end: c.end })),
+    });
+    tappedWords = chapters.map((c) => tappedOf(data.chapters, { ep: episode.id, start: c.start })?.words ?? []);
+  } catch {
+    return; // No lists until the server answers.
+  }
+  showTapped();
+}
+
+/** A button per chapter with a word tapped in it, last under its heading: below its screens and new words. */
+function showTapped() {
+  for (const old of cueBox.querySelectorAll('.ch-tapped')) old.remove();
+  tappedWords.forEach((words, n) => {
+    if (!words.length) return;
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'chip ch-tapped';
+    button.classList.toggle('is-current', n === chapter?.n);
+    button.dataset.n = String(n);
+    button.textContent = `${words.length} từ đã tra`;
+    button.title = 'Các từ đã tra trong chương này';
+    rows[chapters[n].from]?.before(button);
+  });
+}
+
 const card = $('gloss');
 let openWord = null;
 
@@ -716,6 +758,7 @@ function countTap(/** @type {HTMLElement} */ span, /** @type {string} */ word, /
   note.hidden = true;
   recordTap(connection, { word, ep: episode.id, at: cues[index].start })
     .then((count) => {
+      if (count) loadTapped();
       if (!count || openWord !== span) return;
       const { text, stubborn } = tapNote(count, episode.source !== 'ui');
       note.textContent = text;
@@ -872,6 +915,12 @@ cueBox.addEventListener('click', (event) => {
     const spans = rows[Number(chip.dataset.line)]?.querySelectorAll('.w') ?? [];
     const span = /** @type {HTMLElement | undefined} */ ([...spans].find((w) => w.textContent === chip.textContent));
     span?.click();
+    return;
+  }
+  const tappedList = /** @type {HTMLElement | null} */ (target.closest('.ch-tapped'));
+  if (tappedList) {
+    const n = Number(tappedList.dataset.n);
+    showWords({ ep: episode.id, episode: episode.title, n, zh: chapters[n].zh }, tappedWords[n] ?? []);
     return;
   }
   const heading = /** @type {HTMLElement | null} */ (target.closest('.chapter'));

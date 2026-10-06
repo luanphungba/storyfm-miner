@@ -566,6 +566,17 @@ def tap_entry(entry):
     return checked
 
 
+def tapped_chapter(entry):
+    """A chapter a page asks for the taps of, checked."""
+    try:
+        chapter = {"ep": str(entry["ep"])[:40], "start": float(entry["start"]), "end": float(entry["end"])}
+    except (KeyError, TypeError, ValueError):
+        raise ApiError(400, "Thiếu thông tin chương.")
+    if not chapter["end"] > chapter["start"]:
+        raise ApiError(400, "Chương không hợp lệ.")
+    return chapter
+
+
 def player_line(link):
     """The episode and line start of a card's link back to the player, or None for a link elsewhere
     (a YouTube card from the extension)."""
@@ -678,9 +689,15 @@ class Api:
             in_anki = bool(self.anki.notes_with_word(word))
         return {"days": self.tap_log.days(word), "inAnki": in_anki}
 
-    def tapped(self, _body):
-        """The words tapped in each studied chapter, for Nghe lại."""
-        return {"chapters": self.tap_log.chapters(self.studied_chapters.read()["chapters"])}
+    def tapped(self, body):
+        """The words tapped in each chapter a page names, for the player's chapter headings, or else in
+        each studied chapter, for Nghe lại."""
+        chapters = body.get("chapters")
+        if chapters is None:
+            return {"chapters": self.tap_log.chapters(self.studied_chapters.read()["chapters"])}
+        if not isinstance(chapters, list):
+            raise ApiError(400, "Thiếu thông tin chương.")
+        return {"chapters": self.tap_log.chapters([tapped_chapter(chapter) for chapter in chapters])}
 
     def words(self, _body):
         """The notes added each day, for the dashboard; synced first, so a word added on the desktop

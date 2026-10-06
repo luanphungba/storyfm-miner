@@ -211,6 +211,23 @@ class TapLogTest(unittest.TestCase):
         self.send("", tap("早", at=70.3), tap("晚", at=158.13))
         self.assertEqual([w["word"] for c in self.api.tapped({})["chapters"] for w in c["words"]], ["早"])
 
+    def test_a_page_can_ask_for_the_taps_of_any_chapters_studied_or_not(self):
+        self.study(70.62, 158.13)
+        self.send("", tap("清楚", at=80.1), tap("哭", at=170), tap("别的", ep="E062", at=170))
+        asked = self.api.tapped({"chapters": [{"ep": "E517", "start": 160.49, "end": 251.83},
+                                              {"ep": "E517", "start": 251.83, "end": 300}]})
+        self.assertEqual(asked, {"chapters": [
+            {"ep": "E517", "start": 160.49, "days": ["2026-10-06"], "words": [{"word": "哭", "at": 170.0, "days": 1}]},
+        ]})
+
+    def test_turns_away_chapters_no_page_sends(self):
+        bad = ["x", [{"ep": "E517", "start": 1}], [{"ep": "E517", "start": "x", "end": 2}],
+               [{"ep": "E517", "start": 2, "end": 1}], [{"ep": "E517", "start": math.nan, "end": 2}], ["E517"]]
+        for chapters in bad:
+            with self.subTest(chapters=chapters), self.assertRaises(miner.ApiError) as raised:
+                self.api.tapped({"chapters": chapters})
+            self.assertEqual(raised.exception.status, 400)
+
     def test_keeps_everything_across_a_restart(self):
         self.send("尴尬", tap("尴尬"))
         self.assertEqual(miner.TapLog(self.folder / "taps.db").days("尴尬"), 1)

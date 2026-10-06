@@ -16,9 +16,8 @@ import { meterListening, showHours } from './meter.js';
 import { formatPasses, heardTotals, passes } from './progress.js';
 import { call, savedConnection } from './server.js';
 import { dueLabel, heardThrough, schedule, spacedPlaylist, tappedOf } from './spacing.js';
-import { strokeToggle } from './strokes.js';
 import { ceilTenth, chapterLink, dayLabel, floorTenth, lastStudied, playlist, shuffledByEpisode } from './studied.js';
-import { STUBBORN_DAYS, byStubbornness } from './taps.js';
+import { showWords } from './wordlist.js';
 
 /** @typedef {import('./studied.js').Studied} Studied */
 /** @typedef {import('./progress.js').Heard} Heard */
@@ -335,7 +334,8 @@ list.addEventListener('click', (event) => {
   const target = /** @type {HTMLElement} */ (event.target);
   const words = /** @type {HTMLElement | null} */ (target.closest('.pl-words'));
   if (words) {
-    showWords(shown[Number(words.dataset.i)]);
+    const s = shown[Number(words.dataset.i)];
+    showWords(s, wordsOf(s));
     return;
   }
   const button = /** @type {HTMLElement | null} */ (target.closest('.pl-item'));
@@ -380,7 +380,7 @@ $('shuffle').addEventListener('click', () => {
 });
 
 $('play-all').addEventListener('click', () => play(undefined));
-$('now-words').addEventListener('click', () => { if (queue[index]) showWords(queue[index]); });
+$('now-words').addEventListener('click', () => { if (queue[index]) showWords(queue[index], wordsOf(queue[index])); });
 $('prev').addEventListener('click', previous);
 $('next').addEventListener('click', () => step(1));
 $('toggle').addEventListener('click', () => {
@@ -395,67 +395,6 @@ if ('mediaSession' in navigator) {
   navigator.mediaSession.setActionHandler('play', () => { audio.play().catch(() => {}); });
   navigator.mediaSession.setActionHandler('pause', () => audio.pause());
 }
-
-// ---------- a chapter's words ----------
-
-const wordsDialog = /** @type {HTMLDialogElement} */ ($('words-dialog'));
-/** The chapter whose words the dialog shows, so a gloss arriving after another was opened is dropped. */
-/** @type {Studied | null} */
-let wordsOpen = null;
-/** Each episode's word glosses, the same the player's word card reads, fetched once a list needs them. */
-/** @type {Map<string, Promise<Record<string, string[]>>>} */
-const glosses = new Map();
-
-function glossOf(/** @type {string} */ ep) {
-  if (!glosses.has(ep)) {
-    glosses.set(ep, fetch(`data/${encodeURIComponent(ep)}.gloss.json`).then((r) => (r.ok ? r.json() : {})).catch(() => ({})));
-  }
-  return /** @type {Promise<Record<string, string[]>>} */ (glosses.get(ep));
-}
-
-/** The words tapped in a chapter, to read through before hearing it again: each with its reading,
- * Hán Việt and meaning as the player's card gives them, and its stroke order a tap away. */
-async function showWords(/** @type {Studied} */ s) {
-  const words = byStubbornness(wordsOf(s));
-  wordsOpen = s;
-  $('words-title').textContent = s.zh;
-  $('words-note').textContent = `${s.episode || s.ep} · chương ${s.n + 1} · ${words.length} từ, từ tra nhiều ngày nhất ở trên`;
-  $('words-list').replaceChildren();
-  wordsDialog.showModal();
-  const gloss = await glossOf(s.ep);
-  if (!wordsDialog.open || wordsOpen !== s) return;
-  $('words-list').replaceChildren(...words.map(({ word, days }) => {
-    const [reading, hanviet, meaning] = gloss[word] ?? [];
-    const item = document.createElement('li');
-    item.className = 'wd-item';
-    const head = document.createElement('div');
-    head.className = 'wd-head';
-    const zh = document.createElement('span');
-    zh.className = 'wd-word';
-    zh.lang = 'zh-Hans';
-    zh.textContent = word;
-    const strokes = strokeToggle(word, { remember: false });
-    const count = document.createElement('span');
-    count.className = days >= STUBBORN_DAYS ? 'wd-days is-stubborn' : 'wd-days';
-    count.textContent = `${days} ngày`;
-    head.append(zh, ...(strokes ? [strokes.button] : []), count);
-    item.append(head);
-    const line = (/** @type {string} */ className, /** @type {string} */ text) => {
-      const element = document.createElement('div');
-      element.className = className;
-      element.textContent = text;
-      item.append(element);
-    };
-    if (reading || hanviet) line('wd-reading', [reading, hanviet?.toUpperCase()].filter(Boolean).join('   ·   '));
-    line(meaning ? 'wd-meaning' : 'wd-meaning is-empty', meaning || 'chưa có nghĩa');
-    if (strokes) item.append(strokes.panel);
-    return item;
-  }));
-}
-
-$('words-close').addEventListener('click', () => wordsDialog.close());
-// A tap on the backdrop, outside the dialog's box, closes it too.
-wordsDialog.addEventListener('click', (event) => { if (event.target === wordsDialog) wordsDialog.close(); });
 
 // The bar is fixed over the bottom of the page; the page keeps that much room under the last chapter.
 const nowBar = $('now');

@@ -11,7 +11,7 @@ import { SAME_START_S, daysBetween, episodeStudied } from './studied.js';
 /** @typedef {import('./studied.js').Studied} Studied */
 /** @typedef {import('./progress.js').Heard} Heard */
 /** @typedef {{ ep: string, start: number, days: string[], words: import('./taps.js').TappedWord[] }} Tapped
- *   A studied chapter's taps as the server lists them: the days anything in it was tapped, and its words. */
+ *   A chapter's taps as the server lists them: the days anything in it was tapped, and its words. */
 /** @typedef {{ due: string, interval: number }} Schedule  The day a chapter is next due, and the days it waits for it. */
 
 /** A day this share of a chapter's audio was heard counts as heard through: a pass, give or take the
@@ -33,7 +33,7 @@ export function heardThrough(/** @type {Heard[]} */ heard, /** @type {Studied} *
 }
 
 /** A chapter's taps, if anything in it was tapped. */
-export const tappedOf = (/** @type {Tapped[]} */ tapped, /** @type {Studied} */ s) => tapped.find(isChapter(s));
+export const tappedOf = (/** @type {Tapped[]} */ tapped, /** @type {{ ep: string, start: number }} */ s) => tapped.find(isChapter(s));
 
 /**
  * When a chapter is due, from the days it was studied, heard through and had a word tapped in it.

@@ -89,6 +89,9 @@ them are listed, collapsed, under the summary. Tapping one puts it in the loop b
 lines outside it dim, and a bar above the loop shows which pass is playing and how long the chapter
 has been heard. A line tapped inside the chapter plays from there and the loop carries on; ‹ › move to
 the chapter before or after, and ✕ leaves it. The loop bar holds the chapter, so the URL keeps it.
+With the server (below) connected, a chapter with words looked up in it has **N từ đã tra** under its
+heading: those words, each with its reading, Hán Việt and meaning, the ones looked up on the most
+days first, to read through before hearing it again. Nghe lại lists a studied chapter's the same way.
 
 **✓ Học xong** puts the chapter on the list of studied chapters, kept by the server (below) in
 `studied.json` beside its collection, not in Anki, so the phone and the laptop share it. The chapters
