@@ -30,6 +30,8 @@ const RECENT_DAYS = 7;
 const SETTINGS_KEY = 'ci-listen-settings';
 /** The player's own key, so a speed chosen there carries over. */
 const SPEED_STORAGE_KEY = 'ci-playback-rate';
+/** The player's own key too, so a chapter's words read at the size its lines are read at there. */
+const FONT_STORAGE_KEY = 'ci-zh-font-size';
 /** ⏮ this soon after a chapter starts goes to the one before; later, back to its start. */
 const RESTART_WINDOW_S = 3;
 
@@ -85,6 +87,11 @@ function saveSettings() {
   } catch {
     // Not remembered this time; nothing else depends on it.
   }
+}
+
+function applyReadingSize() {
+  const size = Number(localStorage.getItem(FONT_STORAGE_KEY));
+  if (size) document.documentElement.style.setProperty('--zh-size', `${size}px`);
 }
 
 function applySpeed() {
@@ -413,4 +420,5 @@ meterListening(audio, 'listen', {
   onReport: (days) => showHours($('hours'), days),
 });
 loadSettings();
+applyReadingSize();
 await load();

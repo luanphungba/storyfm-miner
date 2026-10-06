@@ -1015,9 +1015,11 @@ a.pl-item { color: inherit; text-decoration: none; }
 
 /* ---------- a chapter's words (docs/wordlist.js), in Nghe lại and the player ---------- */
 
+/* Read at the size the player's lines are (A− / A+), so a list read before listening is as easy on the
+   eyes as the lines themselves; the box takes the screen's height to keep several words in view. */
 #words-dialog {
-  width: min(480px, calc(100vw - 32px));
-  max-height: min(640px, calc(100dvh - 48px));
+  width: min(640px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
   padding: 0;
   border: 1px solid var(--line);
   border-radius: 14px;
@@ -1031,20 +1033,21 @@ a.pl-item { color: inherit; text-decoration: none; }
 .wd-top h2 {
   flex: 1;
   margin: 0;
-  font-size: 18px;
+  font-size: max(18px, calc(var(--zh-size) * 0.65));
   font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
 }
-.wd-note { margin: 2px 0 12px; color: var(--muted); font-size: 13px; }
+.wd-note { margin: 2px 0 12px; color: var(--muted); font-size: max(13px, calc(var(--zh-size) * 0.4)); }
 .wd-list { margin: 0; padding: 0; list-style: none; }
-.wd-item { padding: 10px 0; border-top: 1px solid var(--line); }
+.wd-item { padding: 12px 0; border-top: 1px solid var(--line); }
 .wd-head { display: flex; align-items: center; }
 .wd-word {
-  font-size: 22px;
+  font-size: max(22px, var(--zh-size));
+  line-height: 1.3;
   font-weight: 600;
   font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
 }
-.wd-days { margin-left: auto; color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.wd-days { margin-left: auto; color: var(--muted); font-size: max(13px, calc(var(--zh-size) * 0.45)); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .wd-days.is-stubborn { color: var(--accent); font-weight: 600; }
-.wd-reading { font-size: 14px; color: var(--accent); letter-spacing: .3px; }
-.wd-meaning { font-size: 15px; }
+.wd-reading { margin-top: 2px; font-size: max(14px, calc(var(--zh-size) * 0.55)); color: var(--accent); letter-spacing: .3px; }
+.wd-meaning { margin-top: 2px; font-size: max(15px, calc(var(--zh-size) * 0.65)); line-height: 1.4; }
 .wd-meaning.is-empty { color: var(--muted); font-style: italic; }
