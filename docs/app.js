@@ -716,6 +716,8 @@ function showGloss(/** @type {HTMLElement} */ span) {
   // wrong meaning from a right one, and a wrong one is what ends up on a flashcard.
   line('g-meaning', meaning || 'chưa có nghĩa');
   if (!meaning) card.lastElementChild?.classList.add('is-empty');
+  // Strokes open under the meaning, not after the lines below it: those can run a screen long.
+  if (strokes) card.append(strokes.panel);
 
   // The level says how much of spoken Chinese this word buys: band 1 words are 50% of everything
   // said, band 7-9 words are the long tail. A word on no list is not a failure to know it — 播客 and
@@ -729,7 +731,6 @@ function showGloss(/** @type {HTMLElement} */ span) {
   const taps = countTap(span, word, here.cue);
   if (taps) card.append(taps);
   if (seen) card.append(seen.panel);
-  if (strokes) card.append(strokes.panel);
   const actions = document.createElement('div');
   actions.className = 'g-actions';
   const close = document.createElement('button');

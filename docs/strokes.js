@@ -76,6 +76,7 @@ export function strokeToggle(word, { remember = true } = {}) {
     const on = panel.hidden;
     if (remember) rememberOpen(on);
     set(on);
+    if (on) panel.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   };
   set(remember && wasOpen());
   return { button, panel };

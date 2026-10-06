@@ -713,7 +713,10 @@ h1 {
 .g-strokes-toggle[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
 
 .g-strokes { clear: both; margin-top: 10px; }
-.g-strokes .s-row { display: flex; flex-wrap: wrap; gap: 8px; }
+/* Opening scrolls the panel into view; in the card it must land below the sticky word row. */
+#gloss .g-strokes { scroll-margin-top: 64px; }
+/* The boxes arrive once the library loads; the row holds their height so that scroll lands. */
+.g-strokes .s-row { display: flex; flex-wrap: wrap; gap: 8px; min-height: 96px; }
 .g-strokes .s-char {
   width: 96px;
   height: 96px;
