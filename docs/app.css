@@ -1053,14 +1053,25 @@ a.pl-item { color: inherit; text-decoration: none; }
 .wd-item { padding: 12px 0; border-top: 1px solid var(--line); cursor: pointer; }
 /* The word whose line is playing, lit to the box's edges. */
 .wd-item.is-playing { margin-inline: -20px; padding-inline: 20px; background: var(--accent-soft); }
-.wd-head { display: flex; align-items: center; }
+.wd-head { display: flex; flex-wrap: wrap; align-items: center; row-gap: 4px; }
 .wd-word {
   font-size: max(22px, var(--zh-size));
   line-height: 1.3;
   font-weight: 600;
   font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
 }
-.wd-days { margin-left: auto; color: var(--muted); font-size: max(13px, calc(var(--zh-size) * 0.45)); font-variant-numeric: tabular-nums; white-space: nowrap; }
+/* The word's HSK level beside it, as its word card names it: the lower, the more of speech it buys. */
+.wd-level {
+  margin-left: 8px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: max(13px, calc(var(--zh-size) * 0.42));
+  line-height: 1.8;
+  white-space: nowrap;
+}
+.wd-days { margin-left: auto; padding-left: 8px; color: var(--muted); font-size: max(13px, calc(var(--zh-size) * 0.45)); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .wd-days.is-stubborn { color: var(--accent); font-weight: 600; }
 .wd-reading { margin-top: 2px; font-size: max(14px, calc(var(--zh-size) * 0.55)); color: var(--accent); letter-spacing: .3px; }
 .wd-meaning { margin-top: 2px; font-size: max(15px, calc(var(--zh-size) * 0.65)); line-height: 1.4; }

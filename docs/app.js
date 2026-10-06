@@ -11,6 +11,7 @@
 import { CONTEXT_LINES, markLine } from './card.js';
 import { newWords } from './chapterwords.js';
 import { initExamples } from './examples.js';
+import { levelLabel } from './hsk.js';
 import { chapterShots, framePercent } from './shots.js';
 import { meterListening } from './meter.js';
 import { initMiner } from './miner.js';
@@ -719,11 +720,8 @@ function showGloss(/** @type {HTMLElement} */ span) {
   // Strokes open under the meaning, not after the lines below it: those can run a screen long.
   if (strokes) card.append(strokes.panel);
 
-  // The level says how much of spoken Chinese this word buys: band 1 words are 50% of everything
-  // said, band 7-9 words are the long tail. A word on no list is not a failure to know it — 播客 and
-  // 面试官 are ordinary speech that the syllabus simply does not cover — so it says so plainly.
-  const band = span.dataset.band;
-  const level = span.dataset.name ? 'tên riêng' : band ? `HSK ${band === '7' ? '7-9' : band}` : 'ngoài HSK';
+  // How much of spoken Chinese this word buys (hsk.js).
+  const level = levelLabel(Number(span.dataset.band ?? 0), Boolean(span.dataset.name));
   const here = { ep: episode.id, cue: rows.indexOf(/** @type {HTMLElement} */ (span.closest('.cue'))) };
   const seen = examples.toggle(word, Number(span.dataset.count), here);
   line('g-meta', `${level} · `);

@@ -1,7 +1,7 @@
 // @ts-check
 // A chapter's tapped words in a dialog, to read through before hearing it again: the ones tapped on
-// the most days first, each with its reading, Hán Việt and meaning as the player's word card gives
-// them, the line it was tapped in, and its stroke order a tap away. Opened from Nghe lại and from the
+// the most days first, each with its HSK level, reading, Hán Việt and meaning as the player's word card
+// gives them, the line it was tapped in, and its stroke order a tap away. Opened from Nghe lại and from the
 // player's chapter headings, each page carrying the dialog's markup (#words-dialog) and its audio
 // (#audio). Reading the list is not a tap: only a word tapped in the player says it was not caught.
 //
@@ -9,6 +9,7 @@
 // kept in view; a tap on a word plays on from its line. A line's ↻ loops it, to hear it again while its
 // word is read; ↻ again plays on.
 
+import { levelOf } from './hsk.js';
 import { strokeToggle } from './strokes.js';
 import { STUBBORN_DAYS, byStubbornness } from './taps.js';
 import { lineOf, nextWithLine } from './wordplay.js';
@@ -41,7 +42,7 @@ let shown = null;
 let playing = null;
 let gap = 0;
 
-/** Each episode's word glosses, the same the player's word card reads, and each episode's file. */
+/** Each episode's word glosses and word spans, the same the player's word card reads, and each episode's file. */
 /** @type {Map<string, Promise<any>>} */
 const fetched = new Map();
 
@@ -54,6 +55,8 @@ const glossOf = (/** @type {string} */ ep) =>
   /** @type {Promise<Record<string, string[]>>} */ (fetchOnce(`data/${encodeURIComponent(ep)}.gloss.json`, {}));
 const episodeOf = (/** @type {string} */ ep) =>
   /** @type {Promise<Episode | null>} */ (fetchOnce(`data/${encodeURIComponent(ep)}.json`, null));
+const tokensOf = (/** @type {string} */ ep) =>
+  /** @type {Promise<{ cues: (number[])[][] } | null>} */ (fetchOnce(`data/${encodeURIComponent(ep)}.tok.json`, null));
 
 /** Opens the dialog on `tapped`, the words tapped in `chapter`. */
 export async function showWords(/** @type {Chapter} */ chapter, /** @type {TappedWord[]} */ tapped) {
@@ -66,8 +69,9 @@ export async function showWords(/** @type {Chapter} */ chapter, /** @type {Tappe
   $('words-note').textContent = `${chapter.episode || chapter.ep} · chương ${chapter.n + 1} · ${words.length} từ, từ tra nhiều ngày nhất ở trên`;
   $('words-list').replaceChildren();
   dialog.showModal();
-  const [gloss, episode] = await Promise.all([glossOf(chapter.ep), episodeOf(chapter.ep)]);
+  const [gloss, episode, tok] = await Promise.all([glossOf(chapter.ep), episodeOf(chapter.ep), tokensOf(chapter.ep)]);
   if (!dialog.open || open !== chapter) return;
+  const texts = episode?.cues.map((cue) => cue.text) ?? [];
   // The audio the player plays, as it picks it.
   const src = episode?.audio.m4a ?? episode?.audio.mp3 ?? '';
   const lines = words.map(({ word, at }) => (episode && src ? lineOf(episode.cues, word, at) : null));
@@ -82,10 +86,14 @@ export async function showWords(/** @type {Chapter} */ chapter, /** @type {Tappe
     zh.lang = 'zh-Hans';
     zh.textContent = word;
     const strokes = strokeToggle(word, { remember: false });
+    const level = levelOf(texts, tok?.cues ?? [], word);
+    const badge = document.createElement('span');
+    badge.className = 'wd-level';
+    badge.textContent = level ?? '';
     const count = document.createElement('span');
     count.className = days >= STUBBORN_DAYS ? 'wd-days is-stubborn' : 'wd-days';
     count.textContent = `${days} ngày`;
-    head.append(zh, ...(strokes ? [strokes.button] : []), count);
+    head.append(zh, ...(strokes ? [strokes.button] : []), ...(level ? [badge] : []), count);
     item.append(head);
     const line = (/** @type {string} */ className, /** @type {string} */ text) => {
       const element = document.createElement('div');
