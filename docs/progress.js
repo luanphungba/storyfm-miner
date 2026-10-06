@@ -16,9 +16,9 @@ const PACE_DAYS = 7;
 /** @typedef {import('./listening.js').Page} Page */
 /** @typedef {import('./studied.js').Studied} Studied */
 /** @typedef {Record<string, Partial<Record<Page, number>>>} Days  Seconds heard per day and page, as the server sums them. */
-/** @typedef {{ ep: string, start: number, seconds: number, audio: number, days: number, last: string }} Heard
+/** @typedef {{ ep: string, start: number, seconds: number, audio: number, days: number, last: string, byDay?: Record<string, number> }} Heard
  *   One chapter as the server sums it: the time spent on it, the audio of it heard (more than the time
- *   at a faster speed), on how many days, and the last of them. */
+ *   at a faster speed), on how many days, the last of them, and the audio of it heard on each. */
 /** @typedef {{ zh: string, vi: string, start: number, end: number }} Chapter  As data/<ep>.chapters.json has it. */
 /**
  * @typedef {{ today: Partial<Record<Page, number>>, total: number, pace: number, reach: string | null }} Progress

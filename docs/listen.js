@@ -1,7 +1,12 @@
 // @ts-check
 // "Nghe lại": the chapters marked studied in the player, played one after another for passive
-// listening, each episode whole and in story order, the one studied latest first. The list lives on the server
-// (server/miner.py), so a chapter studied on the laptop plays on the phone.
+// listening. By default they play by their schedule (spacing.js): the ones due today first, each
+// episode's together and in story order, then the ones due soonest. "7 ngày" and "Tất cả" play each
+// episode whole instead, the one studied latest first. The list lives on the server (server/miner.py),
+// so a chapter studied on the laptop plays on the phone.
+//
+// Each chapter lists the words tapped in it, the stubborn ones first, to read through before hearing
+// it again. Reading the list is not a tap: only a word tapped in the player says it was not caught.
 //
 // One audio element plays everything. A chapter of another episode swaps its source rather than
 // start a second player, so a phone with its screen off keeps a single media session going.
@@ -10,11 +15,16 @@ import { formatTime } from './card.js';
 import { meterListening, showHours } from './meter.js';
 import { formatPasses, heardTotals, passes } from './progress.js';
 import { call, savedConnection } from './server.js';
+import { dueLabel, heardThrough, schedule, spacedPlaylist, tappedOf } from './spacing.js';
+import { strokeToggle } from './strokes.js';
 import { ceilTenth, chapterLink, dayLabel, floorTenth, lastStudied, playlist, shuffledByEpisode } from './studied.js';
+import { STUBBORN_DAYS, byStubbornness } from './taps.js';
 
 /** @typedef {import('./studied.js').Studied} Studied */
 /** @typedef {import('./progress.js').Heard} Heard */
-/** @typedef {{ days: number | null, ep: string, shuffle: boolean, times: number }} Settings */
+/** @typedef {import('./spacing.js').Tapped} Tapped */
+/** @typedef {{ due: boolean, days: number | null, ep: string, shuffle: boolean, times: number }} Settings
+ *   `due` plays by the schedule; otherwise `days` filters by the day studied. */
 
 const RECENT_DAYS = 7;
 /** The filter, shuffle and repeats chosen last time, remembered in this browser. */
@@ -33,16 +43,25 @@ const episodeFilter = /** @type {HTMLSelectElement} */ ($('filter-episode'));
 
 /** @type {Studied[]} */
 let all = [];
-/** How much of each chapter has been heard, for its passes in the list. */
+/** How much of each chapter has been heard, for its passes in the list and its schedule. */
 /** @type {Heard[]} */
 let heard = [];
+/** The words tapped in each chapter, for its schedule and its list of words. */
+/** @type {Tapped[]} */
+let tapped = [];
+/** The day each chapter is next due. */
+/** @type {Map<Studied, string>} */
+let dueDays = new Map();
 /** Today as the server counts it: Anki's day, turning at 4:00. */
 let today = '';
 /** @type {Settings} */
-let settings = { days: RECENT_DAYS, ep: '', shuffle: false, times: 1 };
-/** The chapters as shown, in order: a tap on the list plays one of these. */
+let settings = { due: true, days: RECENT_DAYS, ep: '', shuffle: false, times: 1 };
+/** The chapters as shown, in order: a tap on the list plays one of these. By the schedule, the due
+ * ones come first and `sections` says where the rest begin; a shuffle keeps each part to itself. */
 /** @type {Studied[]} */
 let shown = [];
+/** @type {Studied[][]} */
+let sections = [];
 /** What plays: the queue as it stood when play was pressed, where in it, and which pass of the chapter. */
 /** @type {Studied[]} */
 let queue = [];
@@ -88,6 +107,7 @@ async function load() {
     return;
   }
   const listened = call(connection, '/listened').catch(() => null);
+  const taps = call(connection, '/tapped').catch(() => null);
   try {
     ({ chapters: all, today } = await call(connection, '/studied'));
   } catch (error) {
@@ -95,6 +115,10 @@ async function load() {
     return;
   }
   heard = (await listened)?.chapters ?? [];
+  tapped = (await taps)?.chapters ?? [];
+  dueDays = new Map(all.map((s) => [s, schedule({
+    studied: s.dates, heard: heardThrough(heard, s), tapped: tappedOf(tapped, s)?.days ?? [],
+  }).due]));
   const episodes = new Map(all.map((s) => [s.ep, s.episode]));
   episodeFilter.append(...[...episodes].sort(([a], [b]) => a.localeCompare(b)).map(([ep, title]) => {
     const option = document.createElement('option');
@@ -108,19 +132,41 @@ async function load() {
   render();
 }
 
+const NOTHING_STUDIED = 'Chưa có chương nào. Học xong một chương trong player thì bấm "✓ Học xong".';
+const dueOf = (/** @type {Studied} */ s) => dueDays.get(s) ?? today;
+const minutesOf = (/** @type {Studied[]} */ chapters) => Math.round(chapters.reduce((sum, s) => sum + s.end - s.start, 0) / 60);
+const wordsOf = (/** @type {Studied} */ s) => tappedOf(tapped, s)?.words ?? [];
+
 function render() {
-  shown = playlist(all, { today, days: settings.days, ep: settings.ep });
-  const minutes = Math.round(shown.reduce((sum, s) => sum + s.end - s.start, 0) / 60);
-  meta.textContent = shown.length ? `${shown.length} đoạn · ${minutes} phút`
-    : all.length ? 'Không có đoạn nào trong khoảng này.'
-      : 'Chưa có chương nào. Học xong một chương trong player thì bấm "✓ Học xong".';
+  if (settings.due) {
+    const { due, upcoming } = spacedPlaylist(all, { today, ep: settings.ep, dueOf });
+    sections = [due, upcoming];
+    meta.textContent = due.length ? `${due.length} đoạn đến hạn · ${minutesOf(due)} phút`
+      : upcoming.length ? 'Hôm nay không còn đoạn nào đến hạn. Phát thì nghe trước những đoạn sắp đến hạn.'
+        : NOTHING_STUDIED;
+  } else {
+    sections = [playlist(all, { today, days: settings.days, ep: settings.ep })];
+    const [chapters] = sections;
+    meta.textContent = chapters.length ? `${chapters.length} đoạn · ${minutesOf(chapters)} phút`
+      : all.length ? 'Không có đoạn nào trong khoảng này.' : NOTHING_STUDIED;
+  }
+  shown = sections.flat();
 
-  list.replaceChildren(...shown.flatMap((s, i) => (
-    s.ep === shown[i - 1]?.ep ? [chapterItem(s, i)] : [episodeHeading(s), chapterItem(s, i)])));
+  const headed = settings.due ? ['Đến hạn', 'Sắp đến hạn'] : [];
+  let offset = 0;
+  list.replaceChildren(...sections.flatMap((chapters, k) => {
+    const items = chapters.flatMap((s, j) => {
+      const item = chapterItem(s, offset + j);
+      return s.ep === chapters[j - 1]?.ep ? [item] : [episodeHeading(s), item];
+    });
+    offset += chapters.length;
+    return items.length && headed[k] ? [sectionHeading(headed[k]), ...items] : items;
+  }));
 
+  $('due').setAttribute('aria-pressed', String(settings.due));
   for (const chip of document.querySelectorAll('[data-days]')) {
     const days = /** @type {HTMLElement} */ (chip).dataset.days;
-    chip.setAttribute('aria-pressed', String((days ? Number(days) : null) === settings.days));
+    chip.setAttribute('aria-pressed', String(!settings.due && (days ? Number(days) : null) === settings.days));
   }
   for (const chip of document.querySelectorAll('[data-times]')) {
     chip.setAttribute('aria-pressed', String(Number(/** @type {HTMLElement} */ (chip).dataset.times) === settings.times));
@@ -129,6 +175,14 @@ function render() {
   episodeFilter.value = settings.ep;
   /** @type {HTMLButtonElement} */ ($('play-all')).disabled = !shown.length;
   markPlaying();
+}
+
+/** Where the due chapters, or the ones after them, begin. */
+function sectionHeading(/** @type {string} */ text) {
+  const item = document.createElement('li');
+  item.className = 'pl-section';
+  item.textContent = text;
+  return item;
 }
 
 /** The episode's title above its chapters: the list plays it as one story. */
@@ -156,11 +210,22 @@ function chapterItem(/** @type {Studied} */ s, /** @type {number} */ i) {
     line('pl-zh', s.zh),
     line('pl-vi', s.vi),
     line('pl-sub', [
-      `chương ${s.n + 1}`, formatTime(s.end - s.start), dayLabel(lastStudied(s), today),
+      `chương ${s.n + 1}`, formatTime(s.end - s.start),
+      settings.due ? dueLabel(dueOf(s), today) : dayLabel(lastStudied(s), today),
       formatPasses(passes(heardTotals(heard, s.ep, s.start).audio, s.end - s.start)),
     ].join(' · ')),
   );
   item.append(button);
+  const count = wordsOf(s).length;
+  if (count) {
+    const words = document.createElement('button');
+    words.className = 'chip pl-words';
+    words.type = 'button';
+    words.dataset.i = String(i);
+    words.textContent = `${count} từ`;
+    words.title = 'Các từ đã tra trong chương này';
+    item.append(words);
+  }
   return item;
 }
 
@@ -177,7 +242,7 @@ function markPlaying() {
 /** Plays the chapters shown, from `first` (the first of them when not given). */
 function play(/** @type {Studied | undefined} */ first) {
   if (!shown.length) return;
-  queue = settings.shuffle ? shuffledByEpisode(shown, first) : [...shown];
+  queue = settings.shuffle ? sections.flatMap((chapters) => shuffledByEpisode(chapters, first)) : [...shown];
   index = Math.max(0, first ? queue.indexOf(first) : 0);
   start();
 }
@@ -224,6 +289,9 @@ function showNow(/** @type {Studied} */ chapter) {
   $('now-zh').textContent = chapter.zh;
   $('now-sub').textContent = `${chapter.vi} · ${chapter.ep}`;
   /** @type {HTMLAnchorElement} */ ($('open-chapter')).href = chapterLink(chapter);
+  const count = wordsOf(chapter).length;
+  $('now-words').hidden = !count;
+  $('now-words').textContent = `${count} từ`;
   showTime();
   markPlaying();
   if ('mediaSession' in navigator) {
@@ -264,13 +332,26 @@ for (const event of ['play', 'pause']) {
 // ---------- controls ----------
 
 list.addEventListener('click', (event) => {
-  const button = /** @type {HTMLElement | null} */ (/** @type {HTMLElement} */ (event.target).closest('.pl-item'));
+  const target = /** @type {HTMLElement} */ (event.target);
+  const words = /** @type {HTMLElement | null} */ (target.closest('.pl-words'));
+  if (words) {
+    showWords(shown[Number(words.dataset.i)]);
+    return;
+  }
+  const button = /** @type {HTMLElement | null} */ (target.closest('.pl-item'));
   if (button) play(shown[Number(button.dataset.i)]);
+});
+
+$('due').addEventListener('click', () => {
+  settings.due = true;
+  saveSettings();
+  render();
 });
 
 for (const chip of document.querySelectorAll('[data-days]')) {
   chip.addEventListener('click', () => {
     const days = /** @type {HTMLElement} */ (chip).dataset.days;
+    settings.due = false;
     settings.days = days ? Number(days) : null;
     saveSettings();
     render();
@@ -299,6 +380,7 @@ $('shuffle').addEventListener('click', () => {
 });
 
 $('play-all').addEventListener('click', () => play(undefined));
+$('now-words').addEventListener('click', () => { if (queue[index]) showWords(queue[index]); });
 $('prev').addEventListener('click', previous);
 $('next').addEventListener('click', () => step(1));
 $('toggle').addEventListener('click', () => {
@@ -313,6 +395,67 @@ if ('mediaSession' in navigator) {
   navigator.mediaSession.setActionHandler('play', () => { audio.play().catch(() => {}); });
   navigator.mediaSession.setActionHandler('pause', () => audio.pause());
 }
+
+// ---------- a chapter's words ----------
+
+const wordsDialog = /** @type {HTMLDialogElement} */ ($('words-dialog'));
+/** The chapter whose words the dialog shows, so a gloss arriving after another was opened is dropped. */
+/** @type {Studied | null} */
+let wordsOpen = null;
+/** Each episode's word glosses, the same the player's word card reads, fetched once a list needs them. */
+/** @type {Map<string, Promise<Record<string, string[]>>>} */
+const glosses = new Map();
+
+function glossOf(/** @type {string} */ ep) {
+  if (!glosses.has(ep)) {
+    glosses.set(ep, fetch(`data/${encodeURIComponent(ep)}.gloss.json`).then((r) => (r.ok ? r.json() : {})).catch(() => ({})));
+  }
+  return /** @type {Promise<Record<string, string[]>>} */ (glosses.get(ep));
+}
+
+/** The words tapped in a chapter, to read through before hearing it again: each with its reading,
+ * Hán Việt and meaning as the player's card gives them, and its stroke order a tap away. */
+async function showWords(/** @type {Studied} */ s) {
+  const words = byStubbornness(wordsOf(s));
+  wordsOpen = s;
+  $('words-title').textContent = s.zh;
+  $('words-note').textContent = `${s.episode || s.ep} · chương ${s.n + 1} · ${words.length} từ, từ tra nhiều ngày nhất ở trên`;
+  $('words-list').replaceChildren();
+  wordsDialog.showModal();
+  const gloss = await glossOf(s.ep);
+  if (!wordsDialog.open || wordsOpen !== s) return;
+  $('words-list').replaceChildren(...words.map(({ word, days }) => {
+    const [reading, hanviet, meaning] = gloss[word] ?? [];
+    const item = document.createElement('li');
+    item.className = 'wd-item';
+    const head = document.createElement('div');
+    head.className = 'wd-head';
+    const zh = document.createElement('span');
+    zh.className = 'wd-word';
+    zh.lang = 'zh-Hans';
+    zh.textContent = word;
+    const strokes = strokeToggle(word, { remember: false });
+    const count = document.createElement('span');
+    count.className = days >= STUBBORN_DAYS ? 'wd-days is-stubborn' : 'wd-days';
+    count.textContent = `${days} ngày`;
+    head.append(zh, ...(strokes ? [strokes.button] : []), count);
+    item.append(head);
+    const line = (/** @type {string} */ className, /** @type {string} */ text) => {
+      const element = document.createElement('div');
+      element.className = className;
+      element.textContent = text;
+      item.append(element);
+    };
+    if (reading || hanviet) line('wd-reading', [reading, hanviet?.toUpperCase()].filter(Boolean).join('   ·   '));
+    line(meaning ? 'wd-meaning' : 'wd-meaning is-empty', meaning || 'chưa có nghĩa');
+    if (strokes) item.append(strokes.panel);
+    return item;
+  }));
+}
+
+$('words-close').addEventListener('click', () => wordsDialog.close());
+// A tap on the backdrop, outside the dialog's box, closes it too.
+wordsDialog.addEventListener('click', (event) => { if (event.target === wordsDialog) wordsDialog.close(); });
 
 // The bar is fixed over the bottom of the page; the page keeps that much room under the last chapter.
 const nowBar = $('now');

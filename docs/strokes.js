@@ -47,10 +47,12 @@ function wasOpen() {
 /**
  * The ✍ button beside the headword and the panel it opens. Open stays open for the next word too:
  * someone practising characters wants every lookup drawn, someone just listening never sees it.
+ * A list of words passes `remember: false`, as every word in it open at once would draw them all.
  * @param {string} word
+ * @param {{ remember?: boolean }} [options]
  * @returns {{ button: HTMLButtonElement, panel: HTMLElement } | null}
  */
-export function strokeToggle(word) {
+export function strokeToggle(word, { remember = true } = {}) {
   const chars = [...word].filter((c) => HAN.test(c));
   if (!chars.length) return null;
 
@@ -72,10 +74,10 @@ export function strokeToggle(word) {
   };
   button.onclick = () => {
     const on = panel.hidden;
-    rememberOpen(on);
+    if (remember) rememberOpen(on);
     set(on);
   };
-  set(wasOpen());
+  set(remember && wasOpen());
   return { button, panel };
 }
 

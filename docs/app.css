@@ -872,6 +872,13 @@ h1 {
 .pl-sub { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
 .pl-episode { margin: 18px 0 8px; color: var(--muted); font-size: 13px; font-weight: 600; }
 .pl-episode:first-child { margin-top: 4px; }
+.pl-section { margin: 22px 0 4px; font-size: 15px; font-weight: 650; }
+.pl-section:first-child { margin-top: 4px; }
+.pl-section + .pl-episode { margin-top: 4px; }
+/* A chapter's words sit in its card's corner, a button of their own beside the one that plays it. */
+.playlist li:has(> .pl-words) { position: relative; }
+.playlist li:has(> .pl-words) .pl-item { padding-right: 76px; }
+.pl-words { position: absolute; top: 10px; right: 10px; padding: 2px 10px; font-size: 13px; }
 
 .repeat-label { margin-left: 6px; color: var(--muted); font-size: 13px; }
 /* A select is as wide as its longest option; capped, it can never push the page wider than a phone. */
@@ -895,6 +902,7 @@ h1 {
 .now-sub { color: var(--muted); font-size: 13px; }
 .now-time { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .now-controls .chip { min-width: 52px; height: 40px; font-size: 16px; }
+.now-controls #now-words { font-size: 13px; }
 .now-controls #open-chapter {
   display: inline-flex;
   align-items: center;
@@ -996,3 +1004,39 @@ h1 {
 a.pl-item { color: inherit; text-decoration: none; }
 .pl-stat { font-size: 13px; font-weight: 600; }
 .pl-done { color: var(--done); }
+
+/* ---------- Nghe lại: a chapter's words (docs/listen.js) ---------- */
+
+#words-dialog {
+  width: min(480px, calc(100vw - 32px));
+  max-height: min(640px, calc(100dvh - 48px));
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--fg);
+}
+#words-dialog::backdrop { background: rgb(0 0 0 / .4); }
+/* The padding is the body's, so a tap on the dialog element itself is a tap on the backdrop. */
+.wd-body { padding: 16px 20px 20px; }
+.wd-top { display: flex; align-items: center; gap: 8px; }
+.wd-top h2 {
+  flex: 1;
+  margin: 0;
+  font-size: 18px;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+.wd-note { margin: 2px 0 12px; color: var(--muted); font-size: 13px; }
+.wd-list { margin: 0; padding: 0; list-style: none; }
+.wd-item { padding: 10px 0; border-top: 1px solid var(--line); }
+.wd-head { display: flex; align-items: center; }
+.wd-word {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+.wd-days { margin-left: auto; color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.wd-days.is-stubborn { color: var(--accent); font-weight: 600; }
+.wd-reading { font-size: 14px; color: var(--accent); letter-spacing: .3px; }
+.wd-meaning { font-size: 15px; }
+.wd-meaning.is-empty { color: var(--muted); font-style: italic; }

@@ -15,7 +15,8 @@
   <p class="meta" id="meta">Đang tải…</p>
 
   <div class="toolbar" id="filters" hidden>
-    <button class="chip" type="button" data-days="7" aria-pressed="true">7 ngày</button>
+    <button class="chip" id="due" type="button" aria-pressed="true" title="Các đoạn đến hạn nghe lại hôm nay trước, rồi các đoạn sắp đến hạn">Đến hạn</button>
+    <button class="chip" type="button" data-days="7" aria-pressed="false">7 ngày</button>
     <button class="chip" type="button" data-days="" aria-pressed="false">Tất cả</button>
     <select class="chip" id="filter-episode" aria-label="Chỉ một tập">
       <option value="">Mọi tập</option>
@@ -47,10 +48,22 @@
     <button class="chip" id="prev" type="button" aria-label="Đoạn trước">⏮</button>
     <button class="chip is-primary" id="toggle" type="button" aria-label="Phát / tạm dừng">⏸</button>
     <button class="chip" id="next" type="button" aria-label="Đoạn sau">⏭</button>
+    <button class="chip" id="now-words" type="button" title="Các từ đã tra trong chương này" hidden></button>
     <a class="chip" id="open-chapter" href="#" title="Mở chương này trong player để học lại">Mở trong tập ↗</a>
   </div>
   <audio id="audio" preload="metadata"></audio>
 </div>
+
+<dialog id="words-dialog" aria-labelledby="words-title">
+  <div class="wd-body">
+    <div class="wd-top">
+      <h2 id="words-title" lang="zh-Hans"></h2>
+      <button class="g-close" id="words-close" type="button" aria-label="Đóng">✕</button>
+    </div>
+    <p class="wd-note" id="words-note"></p>
+    <ol class="wd-list" id="words-list"></ol>
+  </div>
+</dialog>
 
 <script type="module" src="listen.js"></script>
 </body>

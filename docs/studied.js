@@ -55,13 +55,18 @@ export function dayLabel(/** @type {string} */ day, /** @type {string} */ today)
  */
 export function playlist(list, { today, days, ep }) {
   const shown = list.filter((s) => (days === null || daysBetween(lastStudied(s), today) < days) && (!ep || s.ep === ep));
+  const episodeDay = episodeStudied(shown);
+  return shown.sort((a, b) => episodeDay(b).localeCompare(episodeDay(a)) || a.ep.localeCompare(b.ep) || a.start - b.start);
+}
+
+/** The latest day any of a chapter's episode was studied, among the chapters given. */
+export function episodeStudied(/** @type {Studied[]} */ list) {
   /** @type {Map<string, string>} */
   const latest = new Map();
-  for (const s of shown) {
+  for (const s of list) {
     if (lastStudied(s) > (latest.get(s.ep) ?? '')) latest.set(s.ep, lastStudied(s));
   }
-  const episodeDay = (/** @type {Studied} */ s) => latest.get(s.ep) ?? '';
-  return shown.sort((a, b) => episodeDay(b).localeCompare(episodeDay(a)) || a.ep.localeCompare(b.ep) || a.start - b.start);
+  return (/** @type {Studied} */ s) => latest.get(s.ep) ?? '';
 }
 
 /**
