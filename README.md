@@ -185,6 +185,14 @@ playable right in the card and linked to its chapter — for a word the ear keep
 `build_tokens.py` files those lines under each word in `docs/data/words/`, spread over 64 files by
 the sum of the word's code points, so a lookup fetches one ~10 KB file instead of every transcript.
 
+"Thống kê" counts the vocabulary toward ten thousand words, in dictionary words as that goal is
+counted: `build_tokens.py` writes the words each line counts as to `EXXX.vocab.json` — a span
+CC-CEDICT and the HSK list lack is split into the dictionary words it is made of (学法语 → 学 法语,
+五十万 → 五 十 万), and a name counts as none — and `docs/data/vocab.json` holds HSK 1-2, taken as
+known, and those splits, so a tap on 很脏 is a tap on 很 and 脏. `docs/vocab.js` counts a word
+understood once heard untapped in a studied chapter, and solid once heard so in three chapters over
+two days; a tap takes it out until it is heard untapped on a later day or said to be known.
+
 `tools/audit.mjs` re-derives each field from a direction other than the one that built it and prints
 the disagreements. It has caught, in order: the pinyin taken from CC-CEDICT's first entry (说 as
 *shuì*), 124 lines whose readings were shifted by a run of digits, 168 ordinary words tagged proper

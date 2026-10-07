@@ -13,11 +13,16 @@ three quarters of the page, because almost everything spoken is common vocabular
 It also files every line a word is said in under that word (docs/data/words/), for the card's list of
 them: a word the ear keeps missing is easier to catch heard in other sentences and other voices.
 
+And it writes the words each line counts as toward the vocabulary (EXXX.vocab.json, docs/vocab.js):
+dictionary words only, as the goal of ten thousand is counted in, so a phrase jieba kept whole
+(学法语, 五十万, 是因为) counts as the words it is made of, and a name as none.
+
 Usage: python3 tools/build_tokens.py [EPISODE_ID ...]     (default: every episode in docs/data)
 Only the episodes named are cut again; every other one has its counts brought up to date, and the
 lines are filed again from all of them.
 """
 import json
+import math
 import pathlib
 import re
 import sys
@@ -63,6 +68,13 @@ NAME_TAGS = {"nr", "ns", "nt"}
 # overrule, all of them electronics jargon from BV1HQTs6FEos: 连锡 a solder bridge, 上锡 to tin a
 # pad, 千欧 kiloohm, 上拉 pull-up (resistor), and 孔中 cut out of 固定孔中 "into the mounting holes".
 NOT_NAMES = {"连锡", "上锡", "千欧", "上拉", "孔中"}
+# A number spelled out (三十, 十四) is not a word to learn once its digits are known, so a word of
+# these alone counts as none, unless the syllabus teaches it (万一 "in case").
+NUMERALS = set("零〇一二三四五六七八九十百千万亿两几")
+# The bands a learner is taken to know before listening, so they count toward the vocabulary unheard.
+BASE_BANDS = {1, 2}
+# The longest dictionary word a phrase is split into.
+LONGEST_PART = 6
 def HAN(text):
     """Does this piece contain Chinese at all? Punctuation and digits are not tap targets."""
     return any("\u3400" <= character <= "\u9fff" for character in text)
@@ -264,6 +276,71 @@ def file_lines(built):
     print(f"words/: {sum(map(len, buckets))} từ nói ở hơn một câu, {BUCKETS + 1} tệp, {size:.0f} KB")
 
 
+def countable(word, common):
+    """Is this a word that counts toward the vocabulary: in a dictionary as ordinary vocabulary, and
+    not a number spelled out."""
+    spelled_number = len(word) > 1 and set(word) <= NUMERALS and word not in BANDS
+    return (word in common or word in BANDS) and not spelled_number
+
+
+def counted_parts(span, common, known):
+    """The words a span counts as: itself when a dictionary has it as a word; else the dictionary
+    words it is made of, as jieba would cut it if it knew no others (学法语 → 学 法语, not 学法 语).
+    A name among them (四川 in 四川话) and a character no dictionary has count as nothing. `known` is
+    every word a dictionary has, names too, so a name is cut out whole rather than read as characters."""
+    if span in common or span in BANDS:
+        return [span] if countable(span, common) else []
+    total = math.log(jieba.dt.total)
+    # best[i]: the most likely cut of span[i:], as (log probability, end of its first piece); a
+    # negative end is a character skipped, at a cost no dictionary word comes near.
+    best = [(0.0, 0)] * (len(span) + 1)
+    for i in range(len(span) - 1, -1, -1):
+        options = [
+            (math.log(jieba.dt.FREQ.get(span[i:j]) or 1) - total + best[j][0], j)
+            for j in range(i + 1, min(len(span), i + LONGEST_PART) + 1)
+            if span[i:j] in known
+        ]
+        best[i] = max([*options, (-100 + best[i + 1][0], -(i + 1))])
+    parts, i = [], 0
+    while i < len(span):
+        end = best[i][1]
+        if end > 0 and countable(span[i:end], common):
+            parts.append(span[i:end])
+        i = abs(end)
+    return parts
+
+
+def count_words(built):
+    """Each episode's words as the vocabulary counts them, line by line, in EXXX.vocab.json:
+    [line start, "word word …"] for each line with any. And vocab.json beside them: the words taken
+    as known before listening, and the parts of every span that counts as other words than itself,
+    for the taps and known words, which the server keeps as the span tapped."""
+    proper, common = cedict_proper()
+    if not common:
+        print("(chưa có tools/.cache/cedict.txt — không đếm vốn từ)")
+        return
+    known = common | proper | BANDS.keys()
+    splits = {}
+    for episode, cues in built:
+        lines = []
+        for cue, spans in zip(episode["cues"], cues):
+            words = []
+            for start, length, _band, _count, is_name in spans:
+                span = cue["text"][start:start + length]
+                parts = [] if is_name else counted_parts(span, common, known)
+                if parts != [span]:
+                    splits[span] = parts
+                words += parts
+            if words:
+                lines.append([cue["start"], " ".join(words)])
+        out = DATA / f"{episode['id']}.vocab.json"
+        out.write_text(json.dumps({"id": episode["id"], "cues": lines}, ensure_ascii=False, separators=(",", ":")))
+    base = sorted(word for word, band in BANDS.items() if band in BASE_BANDS and countable(word, common))
+    vocab = {"base": base, "splits": dict(sorted(splits.items()))}
+    (DATA / "vocab.json").write_text(json.dumps(vocab, ensure_ascii=False, separators=(",", ":")))
+    print(f"vocab: {len(base)} từ HSK 1-2, {len(splits)} cụm đếm thành từ khác")
+
+
 def main(ids):
     listed = episodes()
     paths = listed + [DATA / f"{i}.json" for i in ids if DATA / f"{i}.json" not in listed]
@@ -299,6 +376,7 @@ def main(ids):
             words = [t for c in cues for t in c]
             print(f"{episode['id']}: {len(words)} từ, {out.name} {size:.0f} KB")
     file_lines(built)
+    count_words(built)
 
 
 if __name__ == "__main__":

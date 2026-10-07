@@ -12,6 +12,7 @@ import {
 } from './progress.js';
 import { call, savedConnection } from './server.js';
 import { chapterLink, dayLabel } from './studied.js';
+import { GOAL_WORDS, vocabulary } from './vocab.js';
 
 /** @typedef {import('./progress.js').Days} Days */
 /** @typedef {import('./progress.js').Heard} Heard */
@@ -19,10 +20,13 @@ import { chapterLink, dayLabel } from './studied.js';
 /** @typedef {import('./progress.js').ChapterOrder} ChapterOrder */
 /** @typedef {import('./progress.js').DayRow} DayRow */
 /** @typedef {import('./studied.js').Studied} Studied */
+/** @typedef {import('./vocab.js').Vocabulary} Vocabulary */
 /**
  * @typedef {{ days: Days, heard: Heard[], studied: Studied[], chaptersOf: Record<string, Chapter[]>,
- *   titles: Record<string, string>, words: Record<string, number> | null, wordLimit: number | null }} Stats
- *   The words stay null until Anki answers, which waits on a sync.
+ *   titles: Record<string, string>, words: Record<string, number> | null, wordLimit: number | null,
+ *   vocabulary: Vocabulary | null }} Stats
+ *   The words stay null until Anki answers, which waits on a sync; the vocabulary until each studied
+ *   episode's words are in.
  */
 /** @typedef {{ range: number, order: ChapterOrder, ep: string }} Settings */
 
@@ -38,6 +42,8 @@ const $ = (/** @type {string} */ id) => /** @type {HTMLElement} */ (document.get
 let stats = null;
 /** What the word tiles say while there is no count: still loading, or Anki did not answer. */
 let wordsPending = '…';
+/** The same for the vocabulary. */
+let vocabularyPending = '…';
 /** @type {Settings} */
 let settings = { range: 7, order: 'recent', ep: '' };
 /** The days in the chart, for its tooltip. */
@@ -79,7 +85,7 @@ async function load() {
     const chaptersOf = Object.fromEntries(await Promise.all(episodes.map(async (ep) => [ep, await loadChapters(ep)])));
     stats = {
       days: listened.days, heard: listened.chapters, studied: studied.chapters, chaptersOf, titles,
-      words: stats?.words ?? null, wordLimit: stats?.wordLimit ?? null,
+      words: stats?.words ?? null, wordLimit: stats?.wordLimit ?? null, vocabulary: stats?.vocabulary ?? null,
     };
   } catch (error) {
     // A refresh that fails keeps the numbers already shown.
@@ -90,6 +96,7 @@ async function load() {
   $('dashboard').hidden = false;
   render();
   loadWords(connection);
+  loadVocabulary(connection, stats.studied);
 }
 
 /** The words come last: the server syncs Anki before it counts them. */
@@ -101,6 +108,25 @@ async function loadWords(/** @type {import('./server.js').Connection} */ connect
     stats.wordLimit = today?.limit ?? null;
   } catch {
     wordsPending = '—';
+  }
+  render();
+}
+
+/** The words each studied episode counts as, and the last day each was tapped or known. */
+async function loadVocabulary(/** @type {import('./server.js').Connection} */ connection, /** @type {Studied[]} */ studied) {
+  const episodes = [...new Set(studied.map((s) => s.ep))];
+  try {
+    const [latest, vocab, lines] = await Promise.all([
+      call(connection, '/vocab'),
+      fetch('data/vocab.json').then((r) => (r.ok ? r.json() : Promise.reject(new Error('vocab.json')))),
+      Promise.all(episodes.map((ep) => fetch(`data/${encodeURIComponent(ep)}.vocab.json`)
+        .then((r) => (r.ok ? r.json() : null)).catch(() => null))),
+    ]);
+    if (!stats) return;
+    const linesOf = Object.fromEntries(episodes.map((ep, i) => [ep, lines[i]?.cues ?? []]));
+    stats.vocabulary = vocabulary({ studied, linesOf, vocab, latest });
+  } catch {
+    vocabularyPending = '—';
   }
   render();
 }
@@ -124,6 +150,7 @@ function render() {
   const today = studyDay(new Date());
   renderToday(stats, today);
   renderGoal(stats, today);
+  renderVocabulary(stats);
   renderDays(stats, today);
   renderChapters(stats, today);
 }
@@ -152,6 +179,24 @@ function renderGoal(/** @type {Stats} */ { days, studied, words }, /** @type {st
   $('total-chapters').textContent = String(studied.length);
   $('total-words').textContent = words ? String(Object.values(words).reduce((sum, n) => sum + n, 0)) : wordsPending;
   $('total-days').textContent = String(listenedDays(days));
+}
+
+function renderVocabulary(/** @type {Stats} */ { vocabulary }) {
+  const count = (/** @type {number} */ n) => n.toLocaleString('vi-VN');
+  $('vocab-goal').textContent = count(GOAL_WORDS);
+  $('vocab-meter').setAttribute('aria-valuemax', String(GOAL_WORDS));
+  if (!vocabulary) {
+    for (const id of ['vocab-understood', 'vocab-understood-tile', 'vocab-solid', 'vocab-heard']) $(id).textContent = vocabularyPending;
+    return;
+  }
+  const share = Math.min(1, vocabulary.understood / GOAL_WORDS);
+  $('vocab-understood').textContent = `${count(vocabulary.understood)} từ`;
+  $('vocab-share').textContent = `/ ${count(GOAL_WORDS)} · ${(share * 100).toLocaleString('vi-VN', { maximumFractionDigits: 1 })}%`;
+  $('vocab-fill').style.width = meterWidth(share);
+  $('vocab-meter').setAttribute('aria-valuenow', String(vocabulary.understood));
+  $('vocab-understood-tile').textContent = count(vocabulary.understood);
+  $('vocab-solid').textContent = count(vocabulary.solid);
+  $('vocab-heard').textContent = count(vocabulary.heard);
 }
 
 function renderDays(/** @type {Stats} */ { days, studied, words }, /** @type {string} */ today) {

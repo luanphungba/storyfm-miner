@@ -305,14 +305,14 @@ rechecks every episode; a later fix or join that moves a chapter's first sentenc
 ## 8. Stage, summarize, confirm — don't commit or push on your own
 
 These steps together touch: `data/raw/<id>.json`, `docs/data/<id>.json`, `docs/data/index.json`,
-`data/onsets/<id>.json`, `data/corrections/<id>.json`, `data/cuts/<id>.json`, the two sidecars `docs/data/<id>.tok.json` and
-`docs/data/<id>.gloss.json`, `tools/gloss-vi.json`, `tools/gloss-checked.json`, and the translation `data/translations/<id>.json`
+`data/onsets/<id>.json`, `data/corrections/<id>.json`, `data/cuts/<id>.json`, the sidecars `docs/data/<id>.tok.json`,
+`docs/data/<id>.gloss.json` and `docs/data/<id>.vocab.json`, `tools/gloss-vi.json`, `tools/gloss-checked.json`, and the translation `data/translations/<id>.json`
 with what the page loads of it, `docs/data/<id>.vi.json`; the chapters `data/chapters/<id>.json` and
 `docs/data/<id>.chapters.json`; for a podcast episode also
 `data/podcasts.json`, which records the hosted `m4a` (the file itself lives on the Worker, not in
 git). Note that `build_tokens.py` recounts word
 frequencies across every episode, so the other episodes' `.tok.json` files change too, and it
-refiles every line each word is said in, so most of `docs/data/words/` changes as well — both are
+refiles every line each word is said in, so most of `docs/data/words/` changes as well, and with them `docs/data/vocab.json` — all
 expected, not stray edits. Run `git status --short` to show exactly
 what changed, then give the user a short summary:
 

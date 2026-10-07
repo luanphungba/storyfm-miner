@@ -535,6 +535,15 @@ class TapLog:
         with self.lock:
             return self.db.execute("SELECT COUNT(DISTINCT day) FROM tapped WHERE word = ?", (word,)).fetchone()[0]
 
+    def latest(self):
+        """The last day each word was tapped on, and was said to be known on, for the vocabulary
+        (docs/vocab.js): {"tapped": {word: day}, "known": {word: day}}."""
+        with self.lock:
+            return {
+                "tapped": dict(self.db.execute("SELECT word, MAX(day) FROM tapped GROUP BY word")),
+                "known": dict(self.db.execute("SELECT word, MAX(day) FROM known GROUP BY word")),
+            }
+
     def chapters(self, chapters):
         """For each chapter given ({ep, start, end}) that had anything tapped in it: the days it did, and
         each word tapped in it with the line it was first tapped in and the days it was tapped on
@@ -741,6 +750,9 @@ class Api:
         self.tap_log.know(*known_word(body))
         return {}
 
+    def vocab(self, _body):
+        return self.tap_log.latest()
+
     def words(self, _body):
         """The notes added each day, for the dashboard; synced first, so a word added on the desktop
         counts too."""
@@ -770,6 +782,7 @@ def serve():
         "/tap": api.tap,
         "/tapped": api.tapped,
         "/know": api.know,
+        "/vocab": api.vocab,
         "/words": api.words,
     }
     failures = {}  # address -> times of recent wrong tokens
