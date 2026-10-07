@@ -12,7 +12,8 @@
 //
 // Nghĩa, off as the dialog opens, shows every word's reading, meaning and line; off, a word shows only
 // itself and its level, so it is recalled rather than recognised from the Vietnamese beside it. A tap on
-// a word turns that one over, and a tap on it once turned plays its line as before.
+// a word turns that one over and plays its line once, to check the reading recalled against the speech
+// without the next word's line giving that one away; a tap on it once turned plays on as before.
 //
 // ✓ Thuộc tells the server a word is known: it leaves every chapter's list until it is tapped again on
 // a later day. The dialog then fires `known` with the word, for the page to drop it from its counts.
@@ -50,8 +51,8 @@ let open = null;
  * known), and the audio the lines are in. */
 /** @type {{ words: TappedWord[], items: HTMLElement[], lines: (Line | null)[], src: string } | null} */
 let shown = null;
-/** The word whose line is playing, that line, and whether it loops rather than plays on. */
-/** @type {{ k: number, line: Line, loop: boolean } | null} */
+/** The word whose line is playing, that line, and what follows it: the line again, the next word's, or nothing. */
+/** @type {{ k: number, line: Line, then: 'loop' | 'next' | 'stop' } | null} */
 let playing = null;
 let gap = 0;
 
@@ -175,7 +176,7 @@ async function know(/** @type {number} */ k) {
   if (shown !== list) return;
   list.lines[k] = null;
   // A line playing as its word is known plays out, and the list plays on past it.
-  if (playing?.k === k) playing.loop = false;
+  if (playing?.k === k && playing.then === 'loop') playing.then = 'next';
   item.classList.add('is-known');
   /** @type {HTMLElement} */ (item.querySelector('.wd-days')).textContent = 'đã thuộc';
   $('words-note').textContent = note(chapter, list.items.filter((i) => !i.classList.contains('is-known')).length);
@@ -200,7 +201,7 @@ function showPlaying() {
     const lit = playing?.k === k;
     if (lit && !item.classList.contains('is-playing')) item.scrollIntoView({ block: 'center', behavior: 'smooth' });
     item.classList.toggle('is-playing', lit);
-    item.querySelector('.wd-loop')?.setAttribute('aria-pressed', String(lit && Boolean(playing?.loop)));
+    item.querySelector('.wd-loop')?.setAttribute('aria-pressed', String(lit && playing?.then === 'loop'));
   });
 }
 
@@ -212,12 +213,12 @@ function stop() {
   showPlaying();
 }
 
-/** Plays the `k`th word's line, looping it or playing on from it. */
-function play(/** @type {number} */ k, /** @type {boolean} */ loop) {
+/** Plays the `k`th word's line, and then that line again, the next word's, or nothing. */
+function play(/** @type {number} */ k, /** @type {'loop' | 'next' | 'stop'} */ then) {
   const line = shown?.lines[k];
   if (!shown || !line) return;
   clearTimeout(gap);
-  playing = { k, line, loop };
+  playing = { k, line, then };
   showPlaying();
   pageAudio.pause();
   // Set before the file has loaded, the time is where it starts: no jump from 0:00 to the line.
@@ -234,25 +235,26 @@ lineAudio.addEventListener('timeupdate', () => {
   lineAudio.pause();
   gap = window.setTimeout(() => {
     if (!playing || !shown) return;
-    const again = playing.loop && Boolean(shown.lines[playing.k]);
-    const next = again ? playing.k : nextWithLine(shown.lines, playing.k);
+    const again = playing.then === 'loop' && Boolean(shown.lines[playing.k]);
+    const next = again ? playing.k : playing.then === 'stop' ? -1 : nextWithLine(shown.lines, playing.k);
     if (next < 0) stop();
-    else play(next, again);
+    else play(next, again ? 'loop' : 'next');
   }, GAP_MS);
 });
 
-playButton.addEventListener('click', () => (playing ? stop() : play(nextWithLine(shown?.lines ?? [], -1), false)));
+playButton.addEventListener('click', () => (playing ? stop() : play(nextWithLine(shown?.lines ?? [], -1), 'next')));
 gistButton.addEventListener('click', () => showGist(gistButton.getAttribute('aria-pressed') !== 'true'));
 wordsList.addEventListener('click', (event) => {
   const target = /** @type {HTMLElement} */ (event.target);
   const item = /** @type {HTMLElement | null} */ (target.closest('.wd-item'));
   if (!item || !shown) return;
-  // A word not yet turned over is turned over first: its line plays on the next tap.
+  const k = shown.items.indexOf(item);
+  // A word not yet turned over is turned over, its line heard once.
   if (wordsList.classList.contains('is-quiz') && !item.matches('.is-revealed, .is-known')) {
     item.classList.add('is-revealed');
+    play(k, 'stop');
     return;
   }
-  const k = shown.items.indexOf(item);
   if (target.closest('.wd-know')) {
     know(k);
     return;
@@ -260,13 +262,13 @@ wordsList.addEventListener('click', (event) => {
   // ↻ loops the line, or lets the one looping play on; it never restarts the line already playing.
   if (target.closest('.wd-loop')) {
     if (playing?.k === k) {
-      playing.loop = !playing.loop;
+      playing.then = playing.then === 'loop' ? 'next' : 'loop';
       showPlaying();
-    } else play(k, true);
+    } else play(k, 'loop');
     return;
   }
   // A tap on a word plays on from its line; one on its stroke order, or in it, is the stroke order's.
-  if (!target.closest('button, .g-strokes')) play(k, false);
+  if (!target.closest('button, .g-strokes')) play(k, 'next');
 });
 // The page's audio played by hand gives the lines way.
 pageAudio.addEventListener('play', stop);
