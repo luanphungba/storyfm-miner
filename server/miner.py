@@ -535,13 +535,16 @@ class TapLog:
         with self.lock:
             return self.db.execute("SELECT COUNT(DISTINCT day) FROM tapped WHERE word = ?", (word,)).fetchone()[0]
 
-    def latest(self):
-        """The last day each word was tapped on, and was said to be known on, for the vocabulary
-        (docs/vocab.js): {"tapped": {word: day}, "known": {word: day}}."""
+    def history(self):
+        """Every day each word was tapped on, and was said to be known on, in order, for the vocabulary
+        day by day (docs/vocab.js): {"tapped": {word: [day, …]}, "known": {word: [day, …]}}."""
         with self.lock:
             return {
-                "tapped": dict(self.db.execute("SELECT word, MAX(day) FROM tapped GROUP BY word")),
-                "known": dict(self.db.execute("SELECT word, MAX(day) FROM known GROUP BY word")),
+                table: {
+                    word: sorted(days.split(","))
+                    for word, days in self.db.execute(f"SELECT word, GROUP_CONCAT(DISTINCT day) FROM {table} GROUP BY word")
+                }
+                for table in ("tapped", "known")
             }
 
     def chapters(self, chapters):
@@ -751,7 +754,7 @@ class Api:
         return {}
 
     def vocab(self, _body):
-        return self.tap_log.latest()
+        return self.tap_log.history()
 
     def words(self, _body):
         """The notes added each day, for the dashboard; synced first, so a word added on the desktop

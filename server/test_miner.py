@@ -281,13 +281,13 @@ class TapLogTest(unittest.TestCase):
                 self.api.know(body)
             self.assertEqual(raised.exception.status, 400)
 
-    def test_tells_the_vocabulary_the_last_day_each_word_was_tapped_and_known(self):
-        self.send("", tap("尴尬"), tap("尴尬", day="2026-10-08", at=95.1), tap("清楚", day="2026-10-07"))
-        self.api.know({"word": "尴尬", "day": "2026-10-07"})
+    def test_tells_the_vocabulary_every_day_each_word_was_tapped_and_known_in_order(self):
+        self.send("", tap("尴尬", day="2026-10-08", at=95.1), tap("尴尬"), tap("尴尬", at=120), tap("清楚", day="2026-10-07"))
         self.api.know({"word": "尴尬", "day": "2026-10-09"})
+        self.api.know({"word": "尴尬", "day": "2026-10-07"})
         self.assertEqual(self.api.vocab({}), {
-            "tapped": {"尴尬": "2026-10-08", "清楚": "2026-10-07"},
-            "known": {"尴尬": "2026-10-09"},
+            "tapped": {"尴尬": ["2026-10-06", "2026-10-08"], "清楚": ["2026-10-07"]},
+            "known": {"尴尬": ["2026-10-07", "2026-10-09"]},
         })
 
 

@@ -12,7 +12,7 @@ import {
 } from './progress.js';
 import { call, savedConnection } from './server.js';
 import { chapterLink, dayLabel } from './studied.js';
-import { GOAL_WORDS, vocabulary } from './vocab.js';
+import { GOAL_WORDS, formatChange, vocabularyByDay, vocabularyDays, wordTicks } from './vocab.js';
 
 /** @typedef {import('./progress.js').Days} Days */
 /** @typedef {import('./progress.js').Heard} Heard */
@@ -20,13 +20,13 @@ import { GOAL_WORDS, vocabulary } from './vocab.js';
 /** @typedef {import('./progress.js').ChapterOrder} ChapterOrder */
 /** @typedef {import('./progress.js').DayRow} DayRow */
 /** @typedef {import('./studied.js').Studied} Studied */
-/** @typedef {import('./vocab.js').Vocabulary} Vocabulary */
+/** @typedef {import('./vocab.js').VocabDay} VocabDay */
 /**
  * @typedef {{ days: Days, heard: Heard[], studied: Studied[], chaptersOf: Record<string, Chapter[]>,
  *   titles: Record<string, string>, words: Record<string, number> | null, wordLimit: number | null,
- *   vocabulary: Vocabulary | null }} Stats
- *   The words stay null until Anki answers, which waits on a sync; the vocabulary until each studied
- *   episode's words are in.
+ *   vocabulary: VocabDay[] | null }} Stats
+ *   The words stay null until Anki answers, which waits on a sync; the vocabulary, a row per day
+ *   from the first studied, until each studied episode's words are in.
  */
 /** @typedef {{ range: number, order: ChapterOrder, ep: string }} Settings */
 
@@ -112,11 +112,11 @@ async function loadWords(/** @type {import('./server.js').Connection} */ connect
   render();
 }
 
-/** The words each studied episode counts as, and the last day each was tapped or known. */
+/** The words each studied episode counts as, and every day each was tapped or known. */
 async function loadVocabulary(/** @type {import('./server.js').Connection} */ connection, /** @type {Studied[]} */ studied) {
   const episodes = [...new Set(studied.map((s) => s.ep))];
   try {
-    const [latest, vocab, lines] = await Promise.all([
+    const [history, vocab, lines] = await Promise.all([
       call(connection, '/vocab'),
       fetch('data/vocab.json').then((r) => (r.ok ? r.json() : Promise.reject(new Error('vocab.json')))),
       Promise.all(episodes.map((ep) => fetch(`data/${encodeURIComponent(ep)}.vocab.json`)
@@ -124,7 +124,7 @@ async function loadVocabulary(/** @type {import('./server.js').Connection} */ co
     ]);
     if (!stats) return;
     const linesOf = Object.fromEntries(episodes.map((ep, i) => [ep, lines[i]?.cues ?? []]));
-    stats.vocabulary = vocabulary({ studied, linesOf, vocab, latest });
+    stats.vocabulary = vocabularyByDay({ studied, linesOf, vocab, history }, vocabularyDays(studied, studyDay(new Date())));
   } catch {
     vocabularyPending = '—';
   }
@@ -150,7 +150,7 @@ function render() {
   const today = studyDay(new Date());
   renderToday(stats, today);
   renderGoal(stats, today);
-  renderVocabulary(stats);
+  renderVocabulary(stats, today);
   renderDays(stats, today);
   renderChapters(stats, today);
 }
@@ -181,22 +181,151 @@ function renderGoal(/** @type {Stats} */ { days, studied, words }, /** @type {st
   $('total-days').textContent = String(listenedDays(days));
 }
 
-function renderVocabulary(/** @type {Stats} */ { vocabulary }) {
+function renderVocabulary(/** @type {Stats} */ { vocabulary }, /** @type {string} */ today) {
   const count = (/** @type {number} */ n) => n.toLocaleString('vi-VN');
   $('vocab-goal').textContent = count(GOAL_WORDS);
   $('vocab-meter').setAttribute('aria-valuemax', String(GOAL_WORDS));
-  if (!vocabulary) {
+  const now = vocabulary?.at(-1);
+  if (!vocabulary || !now) {
     for (const id of ['vocab-understood', 'vocab-understood-tile', 'vocab-solid', 'vocab-heard']) $(id).textContent = vocabularyPending;
     return;
   }
-  const share = Math.min(1, vocabulary.understood / GOAL_WORDS);
-  $('vocab-understood').textContent = `${count(vocabulary.understood)} từ`;
+  const share = Math.min(1, now.understood / GOAL_WORDS);
+  $('vocab-understood').textContent = `${count(now.understood)} từ`;
   $('vocab-share').textContent = `/ ${count(GOAL_WORDS)} · ${(share * 100).toLocaleString('vi-VN', { maximumFractionDigits: 1 })}%`;
   $('vocab-fill').style.width = meterWidth(share);
-  $('vocab-meter').setAttribute('aria-valuenow', String(vocabulary.understood));
-  $('vocab-understood-tile').textContent = count(vocabulary.understood);
-  $('vocab-solid').textContent = count(vocabulary.solid);
-  $('vocab-heard').textContent = count(vocabulary.heard);
+  $('vocab-meter').setAttribute('aria-valuenow', String(now.understood));
+  const before = vocabulary.at(-2) ?? now;
+  $('vocab-today').textContent = `Hôm nay ${formatChange(now.understood - before.understood)} từ hiểu khi nghe · ${formatChange(now.solid - before.solid)} từ đã vững.`;
+  $('vocab-understood-tile').textContent = count(now.understood);
+  $('vocab-solid').textContent = count(now.solid);
+  $('vocab-heard').textContent = count(now.heard);
+  drawVocabChart(vocabulary, today);
+}
+
+/** The two counts day by day as lines, each ending in a dot and its value, from the first day studied. */
+function drawVocabChart(/** @type {VocabDay[]} */ rows, /** @type {string} */ today) {
+  const box = $('vocab-chart-box');
+  const chart = /** @type {SVGSVGElement} */ (/** @type {unknown} */ ($('vocab-chart')));
+  const width = Math.max(240, box.clientWidth);
+  const height = 190;
+  const top = 10;
+  const axis = 22;
+  const left = 46;
+  const right = 48; // room for the values the lines end in
+  const plotHeight = height - top - axis;
+  const plotWidth = width - left - right;
+  const ticks = wordTicks(Math.min(...rows.map((r) => r.solid)), Math.max(...rows.map((r) => r.understood)));
+  const low = ticks[0];
+  const high = ticks.at(-1) ?? low + 1;
+  const y = (/** @type {number} */ n) => top + plotHeight - ((n - low) / (high - low)) * plotHeight;
+  const x = (/** @type {number} */ i) => left + (rows.length > 1 ? (i / (rows.length - 1)) * plotWidth : plotWidth / 2);
+  chart.setAttribute('viewBox', `0 0 ${width} ${height}`);
+  chart.setAttribute('height', String(height));
+
+  /** @type {SVGElement[]} */
+  const nodes = ticks.flatMap((t) => [
+    svg('line', { class: 'grid', x1: left, x2: width - right, y1: y(t), y2: y(t) }),
+    svg('text', { class: 'tick', x: left - 8, y: y(t) + 4, 'text-anchor': 'end' }, t.toLocaleString('vi-VN')),
+  ]);
+  const series = /** @type {const} */ (['understood', 'solid']);
+  for (const key of series) {
+    nodes.push(svg('path', { class: `line line-${key}`, d: rows.map((r, i) => `${i ? 'L' : 'M'}${x(i)},${y(r[key])}`).join(' ') }));
+  }
+  // The values at the line ends, pushed apart when the lines end close together.
+  const last = rows.length - 1;
+  const ends = series.map((key) => y(rows[last][key]));
+  const apart = 14;
+  if (ends[1] - ends[0] < apart) {
+    const middle = (ends[0] + ends[1]) / 2;
+    ends[0] = middle - apart / 2;
+    ends[1] = middle + apart / 2;
+  }
+  series.forEach((key, k) => {
+    nodes.push(svg('circle', { class: `dot dot-${key}`, cx: x(last), cy: y(rows[last][key]), r: 4 }));
+    nodes.push(svg('text', { class: 'end-label', x: x(last) + 8, y: ends[k] + 4 }, rows[last][key].toLocaleString('vi-VN')));
+  });
+  const every = Math.max(1, Math.ceil(rows.length / 5));
+  rows.forEach((r, i) => {
+    if (i !== last && (i % every !== 0 || last - i < every / 2)) return;
+    const [, month, date] = r.day.split('-').map(Number);
+    const anchor = i === last ? (rows.length > 1 ? 'end' : 'middle') : i === 0 ? 'start' : 'middle';
+    nodes.push(svg('text', { class: 'tick', x: x(i), y: height - 6, 'text-anchor': anchor }, i === last ? 'Hôm nay' : `${date}/${month}`));
+  });
+
+  // The crosshair follows the pointer to the nearest day; its dots and the tooltip say that day.
+  const crosshair = svg('g', { visibility: 'hidden' });
+  const rule = svg('line', { class: 'crosshair', y1: top, y2: top + plotHeight });
+  const marks = series.map((key) => svg('circle', { class: `dot dot-${key}`, r: 4 }));
+  crosshair.append(rule, ...marks);
+  const hover = svg('rect', {
+    class: 'hover', x: left, y: top, width: plotWidth + right / 2, height: plotHeight, tabindex: 0,
+    'aria-label': `${rows.length} ngày, từ ${shortDay(rows[0].day, today)} đến hôm nay`,
+  });
+  const show = (/** @type {number} */ i) => {
+    const r = rows[i];
+    rule.setAttribute('x1', String(x(i)));
+    rule.setAttribute('x2', String(x(i)));
+    marks.forEach((mark, k) => {
+      mark.setAttribute('cx', String(x(i)));
+      mark.setAttribute('cy', String(y(r[series[k]])));
+    });
+    crosshair.setAttribute('visibility', 'visible');
+    showVocabTip(rows, i, x(i), y(r.understood), today);
+  };
+  let focused = last;
+  hover.addEventListener('pointermove', (event) => {
+    const at = (/** @type {PointerEvent} */ (event).offsetX / box.clientWidth) * width;
+    focused = Math.max(0, Math.min(last, Math.round(rows.length > 1 ? ((at - left) / plotWidth) * last : 0)));
+    show(focused);
+  });
+  hover.addEventListener('focus', () => show(focused));
+  hover.addEventListener('keydown', (event) => {
+    const step = { ArrowLeft: -1, ArrowRight: 1 }[/** @type {KeyboardEvent} */ (event).key];
+    if (!step) return;
+    event.preventDefault();
+    focused = Math.max(0, Math.min(last, focused + step));
+    show(focused);
+  });
+  const hide = () => {
+    crosshair.setAttribute('visibility', 'hidden');
+    $('vocab-tooltip').hidden = true;
+  };
+  hover.addEventListener('pointerleave', hide);
+  hover.addEventListener('blur', hide);
+  nodes.push(crosshair, hover);
+  chart.replaceChildren(...nodes);
+  $('vocab-tooltip').hidden = true;
+}
+
+/** A day of the vocabulary chart: both counts, and how each moved from the day before. */
+function showVocabTip(/** @type {VocabDay[]} */ rows, /** @type {number} */ i, /** @type {number} */ x, /** @type {number} */ lineTop, /** @type {string} */ today) {
+  const r = rows[i];
+  const before = rows[i - 1];
+  const tip = $('vocab-tooltip');
+  const line = (/** @type {number} */ value, /** @type {number | undefined} */ previous, /** @type {string} */ label, /** @type {string} */ keyClass) => {
+    const row = document.createElement('div');
+    const key = document.createElement('span');
+    key.className = `line-key ${keyClass}`;
+    const strong = document.createElement('b');
+    strong.textContent = value.toLocaleString('vi-VN');
+    row.append(key, strong, ` ${label}${previous === undefined ? '' : ` (${formatChange(value - previous)})`}`);
+    return row;
+  };
+  const day = document.createElement('div');
+  day.className = 'tt-day';
+  day.textContent = shortDay(r.day, today);
+  tip.replaceChildren(
+    day,
+    line(r.understood, before?.understood, 'hiểu khi nghe', 'key-understood'),
+    line(r.solid, before?.solid, 'đã vững', 'key-solid'),
+  );
+  tip.hidden = false;
+  const box = $('vocab-chart-box');
+  const chartTop = $('vocab-chart').getBoundingClientRect().top - box.getBoundingClientRect().top;
+  const scale = box.clientWidth / Math.max(240, box.clientWidth);
+  tip.style.left = `${Math.min(Math.max(0, x * scale - tip.offsetWidth / 2), box.clientWidth - tip.offsetWidth)}px`;
+  tip.style.top = `${Math.max(0, chartTop + lineTop * scale - tip.offsetHeight - 12)}px`;
 }
 
 function renderDays(/** @type {Stats} */ { days, studied, words }, /** @type {string} */ today) {
@@ -447,6 +576,7 @@ document.addEventListener('pointerdown', (event) => {
 });
 
 new ResizeObserver(() => { if (stats) drawChart(studyDay(new Date())); }).observe($('chart-box'));
+new ResizeObserver(() => { if (stats?.vocabulary?.length) drawVocabChart(stats.vocabulary, studyDay(new Date())); }).observe($('vocab-chart-box'));
 // Back on the page after listening elsewhere: the numbers have moved on.
 document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
 
