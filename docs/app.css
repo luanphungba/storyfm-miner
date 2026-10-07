@@ -1065,7 +1065,7 @@ a.pl-item { color: inherit; text-decoration: none; }
   font-size: max(18px, calc(var(--zh-size) * 0.65));
   font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
 }
-#words-play { flex: none; padding: 6px 14px; font-size: max(14px, calc(var(--zh-size) * 0.45)); }
+#words-play, #words-gist { flex: none; padding: 6px 14px; font-size: max(14px, calc(var(--zh-size) * 0.45)); }
 .wd-note { margin: 2px 0 12px; color: var(--muted); font-size: max(13px, calc(var(--zh-size) * 0.4)); }
 .wd-list { margin: 0; padding: 0; list-style: none; }
 .wd-item { padding: 12px 0; border-top: 1px solid var(--line); cursor: pointer; }
@@ -1101,6 +1101,10 @@ a.pl-item { color: inherit; text-decoration: none; }
 /* A word just known folds to its head, its line no longer played. */
 .wd-item.is-known { cursor: default; opacity: .5; }
 .wd-item.is-known > :not(.wd-head), .wd-item.is-known .wd-head > button { display: none; }
+/* Nghĩa off, a word shows only itself and its level, to be recalled before it is checked: a tap turns
+   that one word over. */
+.wd-list.is-quiz .wd-item:not(.is-revealed, .is-known) > :not(.wd-head),
+.wd-list.is-quiz .wd-item:not(.is-revealed, .is-known) .wd-head > :not(.wd-word, .wd-level) { display: none; }
 /* The line the word was tapped in, its ↻ at the end as on the player's lines. */
 .wd-line { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
 .wd-zh {

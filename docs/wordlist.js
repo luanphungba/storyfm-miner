@@ -10,6 +10,10 @@
 // kept in view; a tap on a word plays on from its line. A line's ↻ loops it, to hear it again while its
 // word is read; ↻ again plays on.
 //
+// Nghĩa, off as the dialog opens, shows every word's reading, meaning and line; off, a word shows only
+// itself and its level, so it is recalled rather than recognised from the Vietnamese beside it. A tap on
+// a word turns that one over, and a tap on it once turned plays its line as before.
+//
 // ✓ Thuộc tells the server a word is known: it leaves every chapter's list until it is tapped again on
 // a later day. The dialog then fires `known` with the word, for the page to drop it from its counts.
 
@@ -32,6 +36,8 @@ const $ = (/** @type {string} */ id) => /** @type {HTMLElement} */ (document.get
 
 const dialog = /** @type {HTMLDialogElement} */ ($('words-dialog'));
 const playButton = /** @type {HTMLButtonElement} */ ($('words-play'));
+const gistButton = /** @type {HTMLButtonElement} */ ($('words-gist'));
+const wordsList = $('words-list');
 /** The page's, paused while a line plays and read for the speed it is set to. */
 const pageAudio = /** @type {HTMLAudioElement} */ ($('audio'));
 /** The lines play on an audio element of their own: the page keeps its place in what it plays. */
@@ -76,7 +82,8 @@ export async function showWords(/** @type {Chapter} */ chapter, /** @type {Tappe
   showPlaying();
   $('words-title').textContent = chapter.zh;
   $('words-note').textContent = note(chapter, tapped.length);
-  $('words-list').replaceChildren();
+  wordsList.replaceChildren();
+  showGist(false);
   dialog.showModal();
   const [gloss, episode, tok] = await Promise.all([glossOf(chapter.ep), episodeOf(chapter.ep), tokensOf(chapter.ep)]);
   if (!dialog.open || open !== chapter) return;
@@ -114,7 +121,7 @@ export async function showWords(/** @type {Chapter} */ chapter, /** @type {Tappe
     if (strokes) item.append(strokes.panel);
     return item;
   });
-  $('words-list').replaceChildren(...items);
+  wordsList.replaceChildren(...items);
   shown = { words, items, lines, src };
   showPlaying();
 }
@@ -175,6 +182,13 @@ async function know(/** @type {number} */ k) {
   showPlaying();
 }
 
+/** Shows every word's reading, meaning and line, or only the word and its level, none turned over. */
+function showGist(/** @type {boolean} */ on) {
+  gistButton.setAttribute('aria-pressed', String(on));
+  wordsList.classList.toggle('is-quiz', !on);
+  for (const item of wordsList.children) item.classList.remove('is-revealed');
+}
+
 // ---------- playing the lines ----------
 
 /** Lights the word playing, keeping it in view, and sets the buttons that say what plays. */
@@ -228,10 +242,16 @@ lineAudio.addEventListener('timeupdate', () => {
 });
 
 playButton.addEventListener('click', () => (playing ? stop() : play(nextWithLine(shown?.lines ?? [], -1), false)));
-$('words-list').addEventListener('click', (event) => {
+gistButton.addEventListener('click', () => showGist(gistButton.getAttribute('aria-pressed') !== 'true'));
+wordsList.addEventListener('click', (event) => {
   const target = /** @type {HTMLElement} */ (event.target);
   const item = /** @type {HTMLElement | null} */ (target.closest('.wd-item'));
   if (!item || !shown) return;
+  // A word not yet turned over is turned over first: its line plays on the next tap.
+  if (wordsList.classList.contains('is-quiz') && !item.matches('.is-revealed, .is-known')) {
+    item.classList.add('is-revealed');
+    return;
+  }
   const k = shown.items.indexOf(item);
   if (target.closest('.wd-know')) {
     know(k);
