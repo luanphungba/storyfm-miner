@@ -25,6 +25,12 @@ export function findStudied(/** @type {Studied[]} */ list, /** @type {string} */
   return list.find((s) => s.ep === ep && Math.abs(s.start - start) < SAME_START_S);
 }
 
+/** A chapter is heard again, not studied, on a day after the first one it was studied on: listening to
+ * it then counts as "Nghe lại" whichever page plays it. */
+export function heardAgain(/** @type {Studied[]} */ list, /** @type {string} */ ep, /** @type {number} */ start, /** @type {string} */ day) {
+  return Boolean(findStudied(list, ep, start)?.dates.some((d) => d < day));
+}
+
 /** The latest day a chapter was studied, as YYYY-MM-DD. */
 export const lastStudied = (/** @type {Studied} */ s) => [...s.dates].sort().at(-1) ?? '';
 

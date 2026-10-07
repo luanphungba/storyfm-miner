@@ -18,7 +18,7 @@ import { initMiner } from './miner.js';
 import { call, savedConnection } from './server.js';
 import { tappedOf } from './spacing.js';
 import { strokeToggle } from './strokes.js';
-import { ceilTenth, findStudied, floorTenth } from './studied.js';
+import { ceilTenth, findStudied, floorTenth, heardAgain } from './studied.js';
 import { recordTap, tapNote } from './taps.js';
 import { showWords } from './wordlist.js';
 
@@ -1238,10 +1238,11 @@ addEventListener('message', (event) => {
   }
 });
 
+// A chapter studied on an earlier day is heard again here, as on the "Nghe lại" page, and counts as that.
 meterListening(audio, 'player', {
-  where: (position) => ({
-    ep: episode.id,
-    start: chapters.find((c) => position >= floorTenth(c.start) && position < ceilTenth(c.end))?.start ?? null,
-  }),
+  where: (position, day) => {
+    const start = chapters.find((c) => position >= floorTenth(c.start) && position < ceilTenth(c.end))?.start ?? null;
+    return { ep: episode.id, start, page: start !== null && heardAgain(studied, episode.id, start, day) ? 'listen' : 'player' };
+  },
 });
 await load();

@@ -67,6 +67,11 @@ class ListeningLogTest(unittest.TestCase):
         row = self.log.db.execute("SELECT seconds, audio FROM listened").fetchall()
         self.assertEqual(row, [(600.0, 900.0)])
 
+    def test_one_page_load_keeps_a_chapter_studied_apart_from_it_heard_again(self):
+        self.send(entry("a", 60), entry("a", 30, page="listen"))
+        days = self.send(entry("a", 90), entry("a", 45, page="listen"))
+        self.assertEqual(days, {"2026-10-02": {"player": 90.0, "listen": 45.0}})
+
     def test_a_growing_count_raises_its_row(self):
         for seconds in (60, 120, 180):
             days = self.send(entry("a", seconds))

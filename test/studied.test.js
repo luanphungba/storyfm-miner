@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { chapterLink, dayLabel, findStudied, playlist, shuffled, shuffledByEpisode } from '../docs/studied.js';
+import { chapterLink, dayLabel, findStudied, heardAgain, playlist, shuffled, shuffledByEpisode } from '../docs/studied.js';
 
 const studied = (ep, start, dates) => ({ ep, episode: '', audio: 'https://a/x.m4a', n: 0, zh: '', vi: '', start, end: start + 90, dates });
 
@@ -10,6 +10,14 @@ test('a chapter on the page is the studied one starting within half a second of 
   assert.equal(findStudied(list, 'E517', 607.3), list[0]);
   assert.equal(findStudied(list, 'E517', 608), undefined);
   assert.equal(findStudied(list, 'E062', 607.01), undefined);
+});
+
+test('a chapter is heard again on any day after the first it was studied on', () => {
+  const list = [studied('CC4', 69.3, ['2026-10-06'])];
+  assert.equal(heardAgain(list, 'CC4', 69.3, '2026-10-07'), true);
+  assert.equal(heardAgain(list, 'CC4', 69.3, '2026-10-06'), false, 'the day it was studied is still studying it');
+  assert.equal(heardAgain(list, 'CC4', 0, '2026-10-07'), false, 'a chapter never studied');
+  assert.equal(heardAgain([studied('CC4', 69.3, ['2026-10-06', '2026-10-07'])], 'CC4', 69.3, '2026-10-07'), true);
 });
 
 test('says how long ago a day was', () => {

@@ -421,13 +421,15 @@ class ListeningLog:
             self.db.execute("CREATE INDEX IF NOT EXISTS listened_by_session ON listened (session, day)")
 
     def record(self, entries):
-        """Raises each row to what was sent, adds the rows not seen before, and returns the hours per day."""
+        """Raises each row to what was sent, adds the rows not seen before, and returns the hours per day.
+        One page load can count a chapter as both: the player studies it, and hears it again once it was
+        studied on an earlier day."""
         with self.lock:
             with self.db:
                 for entry in entries:
                     raised = self.db.execute(
                         "UPDATE listened SET seconds = MAX(seconds, :seconds), audio = MAX(audio, :audio)"
-                        " WHERE session = :session AND day = :day AND ep = :ep AND start IS :start",
+                        " WHERE session = :session AND day = :day AND page = :page AND ep = :ep AND start IS :start",
                         entry,
                     ).rowcount
                     if not raised:

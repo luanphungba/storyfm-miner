@@ -14,7 +14,8 @@ import { call, savedConnection } from './server.js';
 
 /** @typedef {import('./listening.js').Page} Page */
 /** @typedef {import('./progress.js').Days} Days */
-/** @typedef {{ ep: string, start: number | null }} Place  The episode playing, and the chapter the playhead is in. */
+/** @typedef {{ ep: string, start: number | null, page?: Page }} Place  The episode playing, the chapter the
+ *   playhead is in, and the page the time counts for when it is not the page's own. */
 /** @typedef {{ session: string, day: string, page: Page, ep: string, start: number | null, seconds: number, audio: number }} Entry
  *   One page load's count for one day and chapter (start null between chapters): the seconds spent
  *   listening, and the seconds of audio heard. */
@@ -67,8 +68,8 @@ export function showHours(/** @type {HTMLElement} */ element, /** @type {Days} *
  * unsent), every minute while there is something new, and when the page is hidden.
  * @param {HTMLAudioElement} audio
  * @param {Page} page
- * @param {{ where: (position: number) => Place, onReport?: (days: Days) => void }} options
- *   `where` places a playhead position; `onReport` is given the hours whenever the server sends them.
+ * @param {{ where: (position: number, day: string) => Place, onReport?: (days: Days) => void }} options
+ *   `where` places a playhead position on a day; `onReport` is given the hours whenever the server sends them.
  */
 export function meterListening(audio, page, { where, onReport }) {
   const session = crypto.randomUUID();
@@ -93,9 +94,9 @@ export function meterListening(audio, page, { where, onReport }) {
     }
     if (mark && heard > 0) {
       const day = studyDay(new Date(now.time));
-      const { ep, start } = where(mark.position);
-      const key = `${day} ${ep} ${start ?? ''}`;
-      const count = counts.get(key) ?? { session, day, page, ep, start, seconds: 0, audio: 0 };
+      const { ep, start, page: counted = page } = where(mark.position, day);
+      const key = `${day} ${counted} ${ep} ${start ?? ''}`;
+      const count = counts.get(key) ?? { session, day, page: counted, ep, start, seconds: 0, audio: 0 };
       count.audio += heard;
       count.seconds += heard / rate;
       counts.set(key, count);
