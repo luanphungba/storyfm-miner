@@ -1075,7 +1075,8 @@
           "mp3": "https://m.cdn.firstory.me/track/cko0g8j5m1toy0984t6s7mqtk/ckpavtp4yi3gl0807bkz19vor/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fcko0g8j5m1toy0984t6s7mqtk%2F1622360951228.mp3?v=1622360955723",
           "link": "https://open.firstory.fm/story/ckpavtp4yi3gl0807bkz19vor",
           "pubDate": "2021-05-30",
-          "duration": 1421
+          "duration": 1421,
+          "m4a": "https://storyfm-audio.luanphungba.workers.dev/CC6.m4a"
         },
         {
           "id": "CC5",

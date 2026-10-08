@@ -1,0 +1,414 @@
+{
+  "episode": "CC6",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-08",
+  "fixes": [
+    {
+      "cueIndex": 2,
+      "before": "Se b",
+      "after": "Seb",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 2,
+      "before": "b astian",
+      "after": "bastian",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 19,
+      "before": "Se b",
+      "after": "Seb",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 19,
+      "before": "b astian",
+      "after": "bastian",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 83,
+      "before": "Se b",
+      "after": "Seb",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 83,
+      "before": "b astian",
+      "after": "bastian",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 154,
+      "before": "t ow",
+      "after": "tow",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 154,
+      "before": "ow tie",
+      "after": "owtie",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 155,
+      "before": "t ow",
+      "after": "tow",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 155,
+      "before": "ow tie",
+      "after": "owtie",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 210,
+      "before": "pod cast",
+      "after": "podcast",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 211,
+      "before": "pod cast",
+      "after": "podcast",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 212,
+      "before": "pod cast",
+      "after": "podcast",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 214,
+      "before": "pod cast",
+      "after": "podcast",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 215,
+      "before": "pod cast",
+      "after": "podcast",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 216,
+      "before": "Se b",
+      "after": "Seb",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 216,
+      "before": "b astian",
+      "after": "bastian",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 223,
+      "before": "pod cast",
+      "after": "podcast",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 224,
+      "before": "Se b",
+      "after": "Seb",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 224,
+      "before": "b astian",
+      "after": "bastian",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 2,
+      "before": "Sebastian",
+      "after": "Sebastien",
+      "source": "llm-review",
+      "reason": "He is French (Sébastien); the host labels him Sebastien throughout her transcript and whisper hears Sébastien in his self-introduction.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 4,
+      "before": "Sebastian",
+      "after": "Sebastien",
+      "source": "llm-review",
+      "reason": "He is French (Sébastien); the host labels him Sebastien throughout her transcript and whisper hears Sébastien in his self-introduction.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 5,
+      "before": "Sebastian",
+      "after": "Sebastien",
+      "source": "llm-review",
+      "reason": "He is French (Sébastien); the host labels him Sebastien throughout her transcript and whisper hears Sébastien in his self-introduction.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 19,
+      "before": "Sebastian",
+      "after": "Sebastien",
+      "source": "llm-review",
+      "reason": "He is French (Sébastien); the host labels him Sebastien throughout her transcript and whisper hears Sébastien in his self-introduction.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 83,
+      "before": "Sebastian",
+      "after": "Sebastien",
+      "source": "llm-review",
+      "reason": "He is French (Sébastien); the host labels him Sebastien throughout her transcript and whisper hears Sébastien in his self-introduction.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 216,
+      "before": "Sebastian",
+      "after": "Sebastien",
+      "source": "llm-review",
+      "reason": "He is French (Sébastien); the host labels him Sebastien throughout her transcript and whisper hears Sébastien in his self-introduction.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 224,
+      "before": "Sebastian",
+      "after": "Sebastien",
+      "source": "llm-review",
+      "reason": "He is French (Sébastien); the host labels him Sebastien throughout her transcript and whisper hears Sébastien in his self-introduction.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 9,
+      "before": "经常在",
+      "after": "加拿大",
+      "source": "llm-review",
+      "reason": "His 加拿大 comes out as 经常在 in the host's own transcript (her 7 reads 在经常在学的 where AssemblyAI hears 加拿大); whisper on a tight slice hears 加拿大; he studied and then worked in Canada before China.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 14,
+      "before": "再进来再",
+      "after": "在加拿大",
+      "source": "llm-review",
+      "reason": "Same accent as 9 (host: 然后经常在工作了几年); whisper on a tight slice hears 在加拿大工作; 再进来再 is not a phrase.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 15,
+      "before": "真真的",
+      "after": "真正的",
+      "source": "llm-review",
+      "reason": "Host transcript and whisper both hear 真正的; Joanne picks it up as 真正学习了中文 right after.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 46,
+      "before": "体力",
+      "after": "听力",
+      "source": "llm-review",
+      "reason": "Context: he did well on the weekly dictation (听写) because of his 听力; 体力 (stamina) makes no sense. Host transcript has 听力; the ASRs hear his accent as tǐlì.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 47,
+      "before": "进学",
+      "after": "听写",
+      "source": "llm-review",
+      "reason": "进学 is not a word here; the weekly 听写 was just mentioned and the host transcript has 这些听写不是很难.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 82,
+      "before": "非宠勿扰",
+      "after": "非诚勿扰",
+      "source": "llm-review",
+      "reason": "The show's name, spelled right everywhere else in the episode.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 86,
+      "before": "非宠勿扰",
+      "after": "非诚勿扰",
+      "source": "llm-review",
+      "reason": "The show's name, spelled right everywhere else in the episode.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 195,
+      "before": "非常误扰",
+      "after": "非诚勿扰",
+      "source": "llm-review",
+      "reason": "The show's name; host transcript and whisper both have 非诚勿扰.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 91,
+      "before": "就进高校",
+      "after": "就挺搞笑",
+      "source": "llm-review",
+      "reason": "进高校 (enter a university) makes no sense here; host transcript and whisper both hear 就挺搞笑, and 搞笑 is in the host's vocabulary list.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 109,
+      "before": "双边",
+      "after": "顺便",
+      "source": "llm-review",
+      "reason": "双边 (bilateral) makes no sense; he jots a character down 顺便 while memorising it. Host transcript has 顺便; his accent makes it sound like shuāngbiān.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 117,
+      "before": "即使",
+      "after": "其实",
+      "source": "llm-review",
+      "reason": "He says 其实 (host transcript and whisper both); AssemblyAI hears his 其实 as 即使 in all three.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 119,
+      "before": "即使",
+      "after": "其实",
+      "source": "llm-review",
+      "reason": "He says 其实 (host transcript and whisper both); AssemblyAI hears his 其实 as 即使 in all three.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 193,
+      "before": "即使",
+      "after": "其实",
+      "source": "llm-review",
+      "reason": "He says 其实 (host transcript and whisper both); AssemblyAI hears his 其实 as 即使 in all three.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 134,
+      "before": "回记住",
+      "after": "会记住",
+      "source": "llm-review",
+      "reason": "回记住 is not grammatical; host transcript and whisper both have 会记住.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 154,
+      "before": "“ towtie”",
+      "after": "“饕餮”",
+      "source": "llm-review",
+      "reason": "The word is 饕餮 tāotiè (first + fourth tone): host transcript and her vocabulary list have it.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 155,
+      "before": "“ towtie ”",
+      "after": "“饕餮”",
+      "source": "llm-review",
+      "reason": "Joanne repeats 饕餮 (host transcript).",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 166,
+      "before": "就是连诵",
+      "after": "就是liaison",
+      "source": "llm-review",
+      "reason": "She gives the French word after the Chinese one: host transcript has 中文叫“联诵”就是Liaison, whisper hears liè sòng.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 215,
+      "before": "周万",
+      "after": "Joanne",
+      "source": "llm-review",
+      "reason": "The host's name, as he pronounces it (host transcript: 听一下Joanne的这个podcast).",
+      "appliedAt": "2026-10-08"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 11,
+      "text": "在日本工作了呃三多年",
+      "reason": "三多年 is not grammatical (三年多?); every transcriber hears it so, the host writes 30多年. Left as heard."
+    },
+    {
+      "cueIndex": 69,
+      "text": "一个独身的男生",
+      "reason": "Kept: he says 独身; the host notes the usual word is 单身."
+    },
+    {
+      "cueIndex": 91,
+      "text": "也都是，嗯，各种各样的地方来的",
+      "reason": "Host transcript and whisper both hear 也都是跟中国(不)一样的地方来的; whether 不 is there is unclear, so not changed."
+    },
+    {
+      "cueIndex": 106,
+      "text": "我记住这么写汉字",
+      "reason": "Host has 怎么写汉字, whisper 这些汉字; 这么 reads oddly but the right word is not certain."
+    },
+    {
+      "cueIndex": 134,
+      "text": "然后我晚一点去查",
+      "reason": "晚 at 0.22 confidence; host has 往前去查, whisper 往下去查 (往后去查 would fit). Unresolved."
+    },
+    {
+      "cueIndex": 144,
+      "text": "因为基本上是意思不一样嘛",
+      "reason": "Host transcript and whisper both hear 因为经常是意思不一样的; same sense either way, not changed."
+    },
+    {
+      "cueIndex": 168,
+      "text": "咱们就是把几个词都放在一起的",
+      "reason": "Host has 而是把几个词, whisper 也就是把几个词; 咱们 is doubtful but the right word is not certain."
+    },
+    {
+      "cueIndex": 180,
+      "text": "那你就自己记常用",
+      "reason": "Host has 你就自己经常用, whisper 自己去常用; meaning is clearly \"use it often yourself\" but the sound is unsure."
+    },
+    {
+      "cueIndex": 101,
+      "text": "我觉得要是不学汉字的话…学汉字是必须的学中文的话",
+      "reason": "Speaker: this part is Sebastien (host transcript), labelled Joanne by diarization; likewise 134 starts with his 这样比较简单…去查 and 150–152 hold his 不一定是很难的中文字…第四声. Text is right."
+    }
+  ]
+}

@@ -7245,7 +7245,7 @@
  ],
  "翻": [
   "PHIÊN",
-  "lật, lục lọi"
+  "lật, lục lọi; chuyển (sang), dịch (翻中文的字幕)"
  ],
  "翻出来": [
   "PHIÊN XUẤT LAI",
@@ -10413,7 +10413,7 @@
  ],
  "本书": [
   "BẢN THƯ",
-  "(cắt từ chưa chuẩn của 一本书: một quyển sách)"
+  "(cắt từ chưa chuẩn của 一本书/这本书: một quyển sách / quyển sách này)"
  ],
  "一本": [
   "NHẤT BẢN",
@@ -13473,7 +13473,7 @@
  ],
  "哼": [
   "HANH",
-  "hừ (tiếng hừ mũi)"
+  "hừ (tiếng hừ mũi); (嗯哼) ừ hử (đồng ý)"
  ],
  "您好": [
   "NÂM HẢO",
@@ -16109,7 +16109,7 @@
  ],
  "就报": [
   "TỰU BÁO",
-  "thì đăng ký (thi)"
+  "thì đăng ký (thi); thì đăng ký (lớp học: 就报了中文课)"
  ],
  "就先": [
   "TỰU TIÊN",
@@ -24733,7 +24733,7 @@
  ],
  "学到": [
   "HỌC ĐÁO",
-  "học đến mức"
+  "học đến mức; học được (学到很多东西)"
  ],
  "吐血": [
   "THỔ HUYẾT",
@@ -26654,5 +26654,389 @@
  "感谢您": [
   "CẢM TẠ NÂM",
   "cảm ơn bạn (lịch sự)"
+ ],
+ "非诚": [
+  "PHI THÀNH",
+  "không thật lòng (非诚勿扰: tên show hẹn hò \"Không thật lòng xin đừng làm phiền\")"
+ ],
+ "语法": [
+  "NGỮ PHÁP",
+  "ngữ pháp"
+ ],
+ "相亲": [
+  "TƯƠNG THÂN",
+  "đi xem mắt, gặp mặt để tìm hiểu tiến tới hôn nhân"
+ ],
+ "句子": [
+  "CÚ TỬ",
+  "câu"
+ ],
+ "第三声": [
+  "ĐỆ TAM THANH",
+  "thanh ba (xuống rồi lên)"
+ ],
+ "科幻小说": [
+  "KHOA HUYỄN TIỂU THUYẾT",
+  "tiểu thuyết khoa học viễn tưởng"
+ ],
+ "停顿": [
+  "ĐÌNH ĐỐN",
+  "dừng lại, ngắt quãng"
+ ],
+ "留灯": [
+  "LƯU ĐĂNG",
+  "để đèn sáng (trong 非诚勿扰: vẫn muốn tìm hiểu chàng trai)"
+ ],
+ "拼音": [
+  "BÍNH ÂM",
+  "phiên âm pinyin"
+ ],
+ "声调": [
+  "THANH ĐIỆU",
+  "thanh điệu"
+ ],
+ "组合": [
+  "TỔ HỢP",
+  "kết hợp, tổ hợp"
+ ],
+ "第二声": [
+  "ĐỆ NHỊ THANH",
+  "thanh hai (đi lên)"
+ ],
+ "武侠小说": [
+  "VÕ HIỆP TIỂU THUYẾT",
+  "tiểu thuyết võ hiệp, kiếm hiệp"
+ ],
+ "三体": [
+  "TAM THỂ",
+  "Tam Thể (tiểu thuyết khoa học viễn tưởng của Lưu Từ Hân); (y) thể ba nhiễm sắc"
+ ],
+ "重复": [
+  "TRÙNG PHỤC",
+  "lặp lại, nhắc lại"
+ ],
+ "被动": [
+  "BỊ ĐỘNG",
+  "bị động"
+ ],
+ "去学": [
+  "KHỨ HỌC",
+  "đi học (cái gì), bắt tay vào học"
+ ],
+ "灭灯": [
+  "DIỆT ĐĂNG",
+  "tắt đèn (trong 非诚勿扰: từ chối chàng trai)"
+ ],
+ "诚心诚意": [
+  "THÀNH TÂM THÀNH Ý",
+  "thành tâm thành ý, thật lòng"
+ ],
+ "打扰": [
+  "ĐẢ NHIỄU",
+  "làm phiền, quấy rầy"
+ ],
+ "约会": [
+  "ƯỚC HỘI",
+  "hẹn hò; cuộc hẹn"
+ ],
+ "笔记": [
+  "BÚT KÝ",
+  "ghi chép, vở ghi"
+ ],
+ "词汇量": [
+  "TỪ VỰNG LƯỢNG",
+  "vốn từ vựng, lượng từ vựng"
+ ],
+ "自然而然": [
+  "TỰ NHIÊN NHI NHIÊN",
+  "tự nhiên mà thành, một cách tự nhiên"
+ ],
+ "练": [
+  "LUYỆN",
+  "luyện, luyện tập"
+ ],
+ "一站": [
+  "NHẤT TRẠM",
+  "một ga, một trạm"
+ ],
+ "春": [
+  "XUÂN",
+  "mùa xuân; (chữ 春 trong 知春路)"
+ ],
+ "第一声": [
+  "ĐỆ NHẤT THANH",
+  "thanh một (ngang, cao)"
+ ],
+ "第四声": [
+  "ĐỆ TỨ THANH",
+  "thanh bốn (đi xuống)"
+ ],
+ "饕餮": [
+  "THAO THIẾT",
+  "thao thiết (quái thú tham ăn trong thần thoại); kẻ tham ăn"
+ ],
+ "诵": [
+  "TỤNG",
+  "đọc to, ngâm (连诵: nối âm)"
+ ],
+ "连诵": [
+  "LIÊN TỤNG",
+  "nối âm (liaison trong tiếng Pháp)"
+ ],
+ "常用": [
+  "THƯỜNG DỤNG",
+  "thường dùng"
+ ],
+ "第六期": [
+  "ĐỆ LỤC KỲ",
+  "số thứ sáu, tập 6"
+ ],
+ "第二年": [
+  "ĐỆ NHỊ NIÊN",
+  "năm thứ hai"
+ ],
+ "移到": [
+  "DI ĐÁO",
+  "chuyển đến"
+ ],
+ "的学": [
+  "",
+  "(cắt từ chưa chuẩn của 真正的 + 学: việc học thật sự)"
+ ],
+ "嘈杂": [
+  "TÀO TẠP",
+  "ồn ào, ầm ĩ"
+ ],
+ "文学": [
+  "VĂN HỌC",
+  "văn học; (cắt từ chưa chuẩn của 中文 + 学: học tiếng Trung)"
+ ],
+ "第一年": [
+  "ĐỆ NHẤT NIÊN",
+  "năm thứ nhất, năm đầu"
+ ],
+ "博大精深": [
+  "BÁC ĐẠI TINH THÂM",
+  "rộng lớn và sâu sắc, uyên thâm"
+ ],
+ "俱乐部": [
+  "CÂU LẠC BỘ",
+  "câu lạc bộ"
+ ],
+ "二十个": [
+  "NHỊ THẬP CÁ",
+  "hai mươi (cái)"
+ ],
+ "三十个": [
+  "TAM THẬP CÁ",
+  "ba mươi (cái)"
+ ],
+ "仅靠": [
+  "CẬN KHÁO",
+  "chỉ dựa vào"
+ ],
+ "毕竟": [
+  "TẤT CÁNH",
+  "dù sao thì, suy cho cùng"
+ ],
+ "节奏": [
+  "TIẾT TẤU",
+  "nhịp, nhịp độ"
+ ],
+ "但一": [
+  "",
+  "(cắt từ chưa chuẩn của 但 + 一开始: nhưng lúc đầu)"
+ ],
+ "字典": [
+  "TỰ ĐIỂN",
+  "từ điển (tra chữ)"
+ ],
+ "划": [
+  "HOẠCH",
+  "gạch, vạch, đánh dấu (划这个字); chèo (đọc huá)"
+ ],
+ "定义": [
+  "ĐỊNH NGHĨA",
+  "định nghĩa"
+ ],
+ "剧": [
+  "KỊCH",
+  "kịch, phim truyền hình (một bộ)"
+ ],
+ "独身": [
+  "ĐỘC THÂN",
+  "độc thân"
+ ],
+ "台上": [
+  "ĐÀI THƯỢNG",
+  "trên sân khấu"
+ ],
+ "名词": [
+  "DANH TỪ",
+  "danh từ; thuật ngữ"
+ ],
+ "字合": [
+  "",
+  "(cắt từ chưa chuẩn của 四个字 + 合起来: bốn chữ ghép lại)"
+ ],
+ "爱情": [
+  "ÁI TÌNH",
+  "tình yêu"
+ ],
+ "动词": [
+  "ĐỘNG TỪ",
+  "động từ"
+ ],
+ "真人秀": [
+  "CHÂN NHÂN TÚ",
+  "chương trình truyền hình thực tế"
+ ],
+ "来学": [
+  "LAI HỌC",
+  "(đến) học, để học"
+ ],
+ "主持人": [
+  "CHỦ TRÌ NHÂN",
+  "người dẫn chương trình, MC"
+ ],
+ "足够": [
+  "TÚC CẤU",
+  "đủ"
+ ],
+ "打字": [
+  "ĐẢ TỰ",
+  "gõ chữ"
+ ],
+ "电脑打字": [
+  "ĐIỆN NÃO ĐẢ TỰ",
+  "gõ chữ trên máy tính"
+ ],
+ "用笔": [
+  "DỤNG BÚT",
+  "dùng bút, viết tay"
+ ],
+ "几千个": [
+  "KỶ THIÊN CÁ",
+  "mấy nghìn (cái)"
+ ],
+ "几百个": [
+  "KỶ BÁCH CÁ",
+  "mấy trăm (cái)"
+ ],
+ "它们": [
+  "THA MÔN",
+  "chúng nó (chỉ vật)"
+ ],
+ "蛮有意思": [
+  "MAN HỮU Ý TƯ",
+  "khá thú vị"
+ ],
+ "要练": [
+  "YẾU LUYỆN",
+  "cần luyện, phải luyện"
+ ],
+ "三千多": [
+  "TAM THIÊN ĐA",
+  "hơn ba nghìn"
+ ],
+ "五千多个": [
+  "NGŨ THIÊN ĐA CÁ",
+  "hơn năm nghìn (cái)"
+ ],
+ "晚一点": [
+  "VÃN NHẤT ĐIỂM",
+  "muộn một chút, lát nữa"
+ ],
+ "说错": [
+  "THUYẾT THÁC",
+  "nói sai"
+ ],
+ "十三号": [
+  "THẬP TAM HIỆU",
+  "số 13 (十三号线: tuyến số 13)"
+ ],
+ "知春路": [
+  "TRI XUÂN LỘ",
+  "Zhichunlu (ga tàu điện ngầm tuyến 10 và 13 ở Bắc Kinh)"
+ ],
+ "知春": [
+  "TRI XUÂN",
+  "Tri Xuân (trong tên ga 知春路)"
+ ],
+ "知": [
+  "TRI",
+  "biết; (chữ 知 trong 知春路)"
+ ],
+ "翘舌音": [
+  "KIỀU THIỆT ÂM",
+  "âm uốn lưỡi (zh, ch, sh, r)"
+ ],
+ "第": [
+  "ĐỆ",
+  "thứ (đứng trước số thứ tự: 第一, 第三声)"
+ ],
+ "连在一起": [
+  "LIÊN TẠI NHẤT KHỞI",
+  "nối liền với nhau"
+ ],
+ "连连": [
+  "LIÊN LIÊN",
+  "liên tục, liên tiếp; (连连诵: lặp chữ 连 khi nói 连诵)"
+ ],
+ "说成": [
+  "THUYẾT THÀNH",
+  "nói thành"
+ ],
+ "的的": [
+  "",
+  "(cắt từ chưa chuẩn của 什么的 + 的时候: lúc … các thứ)"
+ ],
+ "怪": [
+  "QUÁI",
+  "lạ, kỳ quặc; trách"
+ ],
+ "很怪": [
+  "NGẬN QUÁI",
+  "rất lạ, rất kỳ"
+ ],
+ "很蛮": [
+  "",
+  "(cắt từ chưa chuẩn của 很多/蛮多: người nói vấp, ý là khá nhiều)"
+ ],
+ "流畅": [
+  "LƯU SƯỚNG",
+  "trôi chảy, lưu loát"
+ ],
+ "抽空": [
+  "TRỪU KHÔNG",
+  "tranh thủ (thời gian) để làm gì"
+ ],
+ "作者": [
+  "TÁC GIẢ",
+  "tác giả"
+ ],
+ "第二本": [
+  "ĐỆ NHỊ BẢN",
+  "cuốn thứ hai"
+ ],
+ "雨果": [
+  "VŨ QUẢ",
+  "Hugo (雨果奖: giải Hugo; 雨果: Victor Hugo)"
+ ],
+ "来读": [
+  "LAI ĐỘC",
+  "(đến) đọc, hãy đọc"
+ ],
+ "两本书": [
+  "LƯỠNG BẢN THƯ",
+  "hai quyển sách"
+ ],
+ "多多": [
+  "ĐA ĐA",
+  "nhiều nhiều, nhiều vào (多多收听: hãy nghe nhiều nhé)"
+ ],
+ "录到": [
+  "LỤC ĐÁO",
+  "ghi (âm) đến (录到这里: thu đến đây)"
  ]
 }
