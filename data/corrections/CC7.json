@@ -1,0 +1,248 @@
+{
+  "episode": "CC7",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-08",
+  "fixes": [
+    {
+      "cueIndex": 1,
+      "before": "Le o",
+      "after": "Leo",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 2,
+      "before": "Le o",
+      "after": "Leo",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 5,
+      "before": "Le o",
+      "after": "Leo",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 11,
+      "before": "Am azon",
+      "after": "Amazon",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 11,
+      "before": "e Bay",
+      "after": "eBay",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 31,
+      "before": "G DP",
+      "after": "GDP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 32,
+      "before": "G DP",
+      "after": "GDP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 70,
+      "before": "D ick",
+      "after": "Dick",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 70,
+      "before": "ick ies",
+      "after": "ickies",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 139,
+      "before": "Le o",
+      "after": "Leo",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 151,
+      "before": "Group on",
+      "after": "Groupon",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 152,
+      "before": "Group on",
+      "after": "Groupon",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 225,
+      "before": "first class",
+      "after": "firstclass",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 226,
+      "before": "front line",
+      "after": "frontline",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 273,
+      "before": "Le o",
+      "after": "Leo",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 2,
+      "before": "卓岸",
+      "after": "Joanne",
+      "source": "llm-review",
+      "reason": "The host Joanne, as the ASR hears her name (卓岸/卓案/卓然/卓安/九万 across the episode); her transcript writes Joanne here.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 59,
+      "before": "定金就白白了",
+      "after": "定金就拜拜了",
+      "source": "llm-review",
+      "reason": "白白 needs a verb after it; host transcript and whisper both hear 拜拜了 (\"bye-bye\" to the deposit).",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 96,
+      "before": "卓案",
+      "after": "Joanne",
+      "source": "llm-review",
+      "reason": "Joanne just named 退货险 (s85); 卓案 (0.25) is the ASR’s spelling of her name, as in s2/s163/s274. The host’s machine transcript has 主要, which is not grammatical before 所提到的.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 163,
+      "before": "卓然",
+      "after": "Joanne",
+      "source": "llm-review",
+      "reason": "The host Joanne, as the ASR hears her name (卓岸/卓案/卓然/卓安/九万 across the episode); her transcript writes Joanne here.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 173,
+      "before": "九万",
+      "after": "Joanne",
+      "source": "llm-review",
+      "reason": "The host Joanne, as the ASR hears her name (卓岸/卓案/卓然/卓安/九万 across the episode); her transcript writes Joanne here.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 183,
+      "before": "砍一倒",
+      "after": "砍一刀",
+      "source": "llm-review",
+      "reason": "Host transcript and whisper hear 砍一刀, the ASR itself writes 砍一刀 in s190; 砍一倒 is not a word.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 184,
+      "before": "砍一倒",
+      "after": "砍一刀",
+      "source": "llm-review",
+      "reason": "Same phrase as s183/s190: 砍一刀.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 199,
+      "before": "取一个",
+      "after": "举一个",
+      "source": "llm-review",
+      "reason": "举一个例子 is the set phrase; host transcript and whisper (small and medium, tight slice) hear 举; 取 was at 0.21.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 215,
+      "before": "地域",
+      "after": "地狱",
+      "source": "llm-review",
+      "reason": "十八层地狱 (eighteen levels of hell); host transcript and vocabulary list (地狱 Hell) and whisper agree.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 216,
+      "before": "地域",
+      "after": "地狱",
+      "source": "llm-review",
+      "reason": "Same word as s215: 地狱 (hell); whisper agrees.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 225,
+      "before": "firstclass",
+      "after": "first class",
+      "source": "llm-review",
+      "reason": "Glue pass fused two English words; the host transcript writes first class.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 226,
+      "before": "雷友",
+      "after": "Leo",
+      "source": "llm-review",
+      "reason": "The guest Leo, who said 一线工人 in s222; whisper hears Leo.",
+      "appliedAt": "2026-10-08"
+    },
+    {
+      "cueIndex": 274,
+      "before": "卓安",
+      "after": "Joanne",
+      "source": "llm-review",
+      "reason": "The host Joanne, as the ASR hears her name (卓岸/卓案/卓然/卓安/九万 across the episode); her transcript writes Joanne here.",
+      "appliedAt": "2026-10-08"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 23,
+      "text": "所以是这样的。",
+      "reason": "Host transcript has 所以它是（对）所以它是想让…, whisper 对，是这样的; the ASR is kept, wording unconfirmed."
+    },
+    {
+      "cueIndex": 88,
+      "text": "这是欧元的意思。",
+      "reason": "Host transcript has 相当于0.2欧元的意思, but AssemblyAI and whisper both hear 这是欧元; kept as heard."
+    },
+    {
+      "cueIndex": 12,
+      "text": "那中国的话，主要对对于中国来说，",
+      "reason": "Speaker: 主要对对于中国来说 is Leo (host transcript), labelled Joanne. Likewise s27 不知道 and s38 不容小觑 and s185–186 砍这个动词本来其实就是用在刀 and s240 合肥是安徽的 are Joanne’s, labelled Leo; s123 单身的男生, s254 就叫做包邮区域, s260 是这样的, s269 大概就是这样了, s272 是的 and s274 谢谢Joanne are Leo’s, labelled Joanne. Speakers are not changed here."
+    }
+  ]
+}

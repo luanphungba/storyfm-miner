@@ -1,0 +1,3415 @@
+{
+  "episode": "CC7",
+  "summary": [
+    "Đây là số thứ bảy của Convo Chinese (瞎扯学中文). Joanne, người dẫn chương trình đang sống ở Paris, mời Leo, hàng xóm cùng tòa nhà mà cô tình cờ gặp trong thang máy. Anh là người miền Bắc Trung Quốc, đang học năm thứ hai ở một trường kỹ sư thuộc ParisTech. Hai người nói về thương mại điện tử (电商) ở Trung Quốc.",
+    "Đầu tiên là Taobao và ngày 双十一 (11/11): vốn được gọi đùa là 光棍节 (Ngày Độc thân) vì có bốn số 1 như bốn cây gậy, giờ thành lễ hội mua sắm lớn hơn cả Black Friday, mà 11/11 lại đúng là sinh nhật của Leo. Họ kể chuyện săn sale: bỏ hàng vào giỏ từ đêm 10/11, trả tiền đặt cọc (定金) trước rồi trả nốt phần còn lại; Leo từng phải mua chiếc áo khoác bóng chày cỡ S vì hết cỡ M. Joanne ngại mua quần áo trên mạng dù có bảo hiểm trả hàng (退货险), và mua đồ điện tử trên JD (京东).",
+    "Sau đó họ giải thích hai từ 光棍儿 và 大神, rồi nói về Pinduoduo (拼多多) với kiểu mua chung (团购) và trò 砍一刀 nhờ người thân bấm link để được giảm giá; về thành phố hạng một, hạng hai, hạng 18 (一线, 二线, 十八线城市) và hai nghĩa của 一线; cuối cùng là vì sao vùng Giang Tô – Chiết Giang – Thượng Hải (江浙沪) được gọi là 包邮区, vùng được miễn phí vận chuyển."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "Hello，大家好，欢迎大家来到我们的第七期节目。",
+      "parts": [
+        {
+          "zh": "Hello，大家好，",
+          "vi": "Hello, chào mọi người,"
+        },
+        {
+          "zh": "欢迎大家来到我们的第七期节目。",
+          "vi": "chào mừng mọi người đến với số thứ bảy của chương trình."
+        }
+      ]
+    },
+    "1": {
+      "zh": "今天我请到了一个我的邻居，他和我住在同一幢楼里，他的名字叫Leo。",
+      "parts": [
+        {
+          "zh": "今天我请到了一个我的邻居，",
+          "vi": "Hôm nay mình mời được một người hàng xóm của mình,"
+        },
+        {
+          "zh": "他和我住在同一幢楼里，",
+          "vi": "anh ấy ở cùng một tòa nhà với mình,"
+        },
+        {
+          "zh": "他的名字叫Leo。",
+          "vi": "tên anh ấy là Leo."
+        }
+      ]
+    },
+    "2": {
+      "zh": "大家好，我是Leo，我跟Joanne是有一天在电梯里面突然间碰到的，",
+      "parts": [
+        {
+          "zh": "大家好，我是Leo，",
+          "vi": "Chào mọi người, mình là Leo,"
+        },
+        {
+          "zh": "我跟Joanne是有一天",
+          "vi": "mình với Joanne là có một hôm"
+        },
+        {
+          "zh": "在电梯里面突然间碰到的，",
+          "vi": "tình cờ gặp nhau trong thang máy,"
+        }
+      ]
+    },
+    "3": {
+      "zh": "因为我们这幢楼住的中国人不是很多，所以我就主动跟他搭了话。",
+      "parts": [
+        {
+          "zh": "因为我们这幢楼",
+          "vi": "vì tòa nhà bọn mình"
+        },
+        {
+          "zh": "住的中国人不是很多，",
+          "vi": "không có nhiều người Trung Quốc ở,"
+        },
+        {
+          "zh": "所以我就主动跟他搭了话。",
+          "vi": "nên mình chủ động bắt chuyện với cô ấy."
+        }
+      ]
+    },
+    "4": {
+      "zh": "感觉也是非常奇妙的相遇方式。",
+      "vi": "Cảm giác cũng là một cách gặp gỡ rất kỳ diệu."
+    },
+    "5": {
+      "zh": "对对，因为大家之前听我的节目可能也知道我现在在巴黎，然后Leo呢现在也在巴黎，对吧？",
+      "parts": [
+        {
+          "zh": "对对，因为大家之前听我的节目",
+          "vi": "Đúng đúng, vì các bạn trước đây nghe chương trình của mình"
+        },
+        {
+          "zh": "可能也知道我现在在巴黎，",
+          "vi": "chắc cũng biết là bây giờ mình đang ở Paris,"
+        },
+        {
+          "zh": "然后Leo呢现在也在巴黎，对吧？",
+          "vi": "rồi Leo bây giờ cũng đang ở Paris, đúng không?"
+        }
+      ]
+    },
+    "6": {
+      "zh": "对我现在在巴黎高科的一所工程师学校读工程师学位，现在是第二年。",
+      "parts": [
+        {
+          "zh": "对我现在在巴黎高科的",
+          "vi": "Đúng, bây giờ mình đang ở ParisTech,"
+        },
+        {
+          "zh": "一所工程师学校读工程师学位，",
+          "vi": "học bằng kỹ sư ở một trường kỹ sư,"
+        },
+        {
+          "zh": "现在是第二年。",
+          "vi": "giờ là năm thứ hai."
+        }
+      ]
+    },
+    "7": {
+      "zh": "嗯。",
+      "vi": "Ừm."
+    },
+    "8": {
+      "zh": "OK，然后今天呢我们想和大家聊一个挺挺时尚的话题。",
+      "parts": [
+        {
+          "zh": "OK，然后今天呢我们想和大家",
+          "vi": "OK, rồi hôm nay bọn mình muốn cùng mọi người"
+        },
+        {
+          "zh": "聊一个挺挺时尚的话题。",
+          "vi": "nói về một chủ đề khá là, khá là thời thượng."
+        }
+      ]
+    },
+    "9": {
+      "zh": "中国的电商，电商就是电子商务的简称。",
+      "parts": [
+        {
+          "zh": "中国的电商，",
+          "vi": "Thương mại điện tử của Trung Quốc,"
+        },
+        {
+          "zh": "电商就是电子商务的简称。",
+          "vi": "电商 là cách gọi tắt của 电子商务 (thương mại điện tử)."
+        }
+      ]
+    },
+    "10": {
+      "zh": "说白了就是在网上面买东西。",
+      "vi": "Nói trắng ra là mua đồ trên mạng."
+    },
+    "11": {
+      "zh": "那在国外的小伙伴们肯定都知道，国外有Amazon啊，之前有eBay啊。",
+      "parts": [
+        {
+          "zh": "那在国外的小伙伴们肯定都知道，",
+          "vi": "Các bạn ở nước ngoài chắc chắn đều biết,"
+        },
+        {
+          "zh": "国外有Amazon啊，",
+          "vi": "nước ngoài thì có Amazon này,"
+        },
+        {
+          "zh": "之前有eBay啊。",
+          "vi": "trước đây có eBay này."
+        }
+      ]
+    },
+    "12": {
+      "zh": "那中国的话，主要对对于中国来说，",
+      "vi": "Còn Trung Quốc thì, chủ yếu, đối với Trung Quốc mà nói,"
+    },
+    "13": {
+      "zh": "我觉得所有几乎所有中国人都知道的一个电商的网站叫做淘宝。",
+      "parts": [
+        {
+          "zh": "我觉得所有几乎所有中国人",
+          "vi": "mình nghĩ tất cả, gần như tất cả người Trung Quốc"
+        },
+        {
+          "zh": "都知道的一个电商的网站叫做淘宝。",
+          "vi": "đều biết một trang thương mại điện tử tên là Taobao."
+        }
+      ]
+    },
+    "14": {
+      "zh": "感觉这个应该在中国的地位相当于在。中国以外地方亚马逊的地位了，",
+      "parts": [
+        {
+          "zh": "感觉这个应该在中国的地位",
+          "vi": "Cảm giác vị thế của nó ở Trung Quốc"
+        },
+        {
+          "zh": "相当于在。中国以外地方",
+          "vi": "chắc tương đương với, ở những nơi ngoài Trung Quốc,"
+        },
+        {
+          "zh": "亚马逊的地位了，",
+          "vi": "vị thế của Amazon vậy,"
+        }
+      ]
+    },
+    "16": {
+      "zh": "对淘宝就是最呃用的人现在应该还是最多的吧？",
+      "parts": [
+        {
+          "zh": "对淘宝就是最呃用的人",
+          "vi": "Đúng, Taobao là, ờ, số người dùng"
+        },
+        {
+          "zh": "现在应该还是最多的吧？",
+          "vi": "bây giờ chắc vẫn đông nhất nhỉ?"
+        }
+      ]
+    },
+    "17": {
+      "zh": "应该是对。",
+      "vi": "Chắc là vậy, đúng."
+    },
+    "18": {
+      "zh": "我记得之前我看到过一个数据，淘宝它有一个节日叫双十一，",
+      "parts": [
+        {
+          "zh": "我记得之前我看到过一个数据，",
+          "vi": "Mình nhớ trước đây mình từng xem một số liệu,"
+        },
+        {
+          "zh": "淘宝它有一个节日叫双十一，",
+          "vi": "Taobao có một ngày lễ tên là 双十一 (ngày 11/11),"
+        }
+      ]
+    },
+    "19": {
+      "zh": "对双十一的意思就是每年的十一月十一号是一个淘宝的购物节，地位相当于是外国的黑五，",
+      "parts": [
+        {
+          "zh": "对双十一的意思就是",
+          "vi": "đúng, 双十一 có nghĩa là"
+        },
+        {
+          "zh": "每年的十一月十一号",
+          "vi": "ngày 11 tháng 11 hằng năm"
+        },
+        {
+          "zh": "是一个淘宝的购物节，",
+          "vi": "là lễ hội mua sắm của Taobao,"
+        },
+        {
+          "zh": "地位相当于是外国的黑五，",
+          "vi": "vị thế tương đương với 黑五 ở nước ngoài,"
+        }
+      ]
+    },
+    "20": {
+      "zh": "就是黑色星期五。",
+      "vi": "tức là \"Thứ Sáu Đen\"."
+    },
+    "21": {
+      "zh": "呃，Black Friday，嗯，这么一个节日。",
+      "parts": [
+        {
+          "zh": "呃，Black Friday，",
+          "vi": "Ờ, Black Friday,"
+        },
+        {
+          "zh": "嗯，这么一个节日。",
+          "vi": "ừm, một ngày lễ như thế."
+        }
+      ]
+    },
+    "22": {
+      "zh": "但是你知道为什么这个双十一会成为这样的一个购物的节日吗？",
+      "parts": [
+        {
+          "zh": "但是你知道为什么这个双十一",
+          "vi": "Nhưng bạn có biết vì sao 11/11"
+        },
+        {
+          "zh": "会成为这样的一个购物的节日吗？",
+          "vi": "lại trở thành một ngày lễ mua sắm như vậy không?"
+        }
+      ]
+    },
+    "23": {
+      "zh": "对我听说是因为双十一它是四个一，然后它就有点像单身的人，所以是这样的。",
+      "parts": [
+        {
+          "zh": "对我听说是因为双十一它是四个一，",
+          "vi": "Ừ, mình nghe nói là vì 11/11 có bốn số 1,"
+        },
+        {
+          "zh": "然后它就有点像单身的人，",
+          "vi": "rồi nó hơi giống những người độc thân,"
+        },
+        {
+          "zh": "所以是这样的。",
+          "vi": "nên là như vậy."
+        }
+      ]
+    },
+    "24": {
+      "zh": "对对对，所以他是想让单身的人在这一天在网上疯狂的购物，是吗？",
+      "parts": [
+        {
+          "zh": "对对对，所以他是想让单身的人",
+          "vi": "Đúng đúng đúng, vậy là họ muốn những người độc thân"
+        },
+        {
+          "zh": "在这一天在网上疯狂的购物，是吗？",
+          "vi": "vào ngày này điên cuồng mua sắm trên mạng, phải không?"
+        }
+      ]
+    },
+    "25": {
+      "zh": "通我觉得应该是通过购物和花钱来缓解自己内心的寂寞和苦闷吧。",
+      "parts": [
+        {
+          "zh": "通我觉得应该是通过购物和花钱",
+          "vi": "Thì, mình nghĩ chắc là thông qua mua sắm và tiêu tiền"
+        },
+        {
+          "zh": "来缓解自己内心的寂寞和苦闷吧。",
+          "vi": "để xoa dịu nỗi cô đơn và buồn bực trong lòng."
+        }
+      ]
+    },
+    "26": {
+      "zh": "但是你知道我为什么会对这个故事记忆犹新吗？",
+      "parts": [
+        {
+          "zh": "但是你知道我为什么",
+          "vi": "Nhưng bạn có biết vì sao mình"
+        },
+        {
+          "zh": "会对这个故事记忆犹新吗？",
+          "vi": "lại nhớ như in câu chuyện này không?"
+        }
+      ]
+    },
+    "27": {
+      "zh": "不知道，是因为我的生日是十一月十一号，这个是真实的故事。",
+      "parts": [
+        {
+          "zh": "不知道，是因为我的生日",
+          "vi": "Không biết. — Là vì sinh nhật của mình"
+        },
+        {
+          "zh": "是十一月十一号，",
+          "vi": "là ngày 11 tháng 11,"
+        },
+        {
+          "zh": "这个是真实的故事。",
+          "vi": "đây là chuyện có thật đấy."
+        }
+      ]
+    },
+    "28": {
+      "zh": "所以在还没有双十一这个节日之前，我过生日的时候，",
+      "parts": [
+        {
+          "zh": "所以在还没有双十一这个节日之前，",
+          "vi": "Nên hồi còn chưa có ngày lễ 11/11,"
+        },
+        {
+          "zh": "我过生日的时候，",
+          "vi": "lúc mình tổ chức sinh nhật,"
+        }
+      ]
+    },
+    "29": {
+      "zh": "其实其实大家都会已经把双十一这个节日戏称为呃光棍节。",
+      "parts": [
+        {
+          "zh": "其实其实大家都会已经把双十一",
+          "vi": "thật ra, thật ra mọi người đã gọi đùa ngày 11/11"
+        },
+        {
+          "zh": "这个节日戏称为呃光棍节。",
+          "vi": "là, ờ, Ngày Độc thân (光棍节) rồi."
+        }
+      ]
+    },
+    "30": {
+      "zh": "但是有了这个双十一之后，我就感觉我的生日会变得更加有意义了一些。",
+      "parts": [
+        {
+          "zh": "但是有了这个双十一之后，",
+          "vi": "Nhưng từ khi có ngày 11/11 này,"
+        },
+        {
+          "zh": "我就感觉我的生日",
+          "vi": "mình cảm thấy sinh nhật của mình"
+        },
+        {
+          "zh": "会变得更加有意义了一些。",
+          "vi": "trở nên ý nghĩa hơn một chút."
+        }
+      ]
+    },
+    "31": {
+      "zh": "你的生日那现在非常的重要，是创造中国GDP。",
+      "parts": [
+        {
+          "zh": "你的生日那现在非常的重要，",
+          "vi": "Sinh nhật của bạn bây giờ quan trọng lắm đấy,"
+        },
+        {
+          "zh": "是创造中国GDP。",
+          "vi": "là tạo ra GDP của Trung Quốc."
+        }
+      ]
+    },
+    "32": {
+      "zh": "每年创造GDP最多的一天吧，",
+      "vi": "Ngày tạo ra nhiều GDP nhất mỗi năm ấy chứ,"
+    },
+    "33": {
+      "zh": "就感觉所有的人在双十一的那天晚上都守在或者是电脑或者是手机前面，",
+      "parts": [
+        {
+          "zh": "就感觉所有的人",
+          "vi": "Cảm giác như tất cả mọi người"
+        },
+        {
+          "zh": "在双十一的那天晚上",
+          "vi": "vào tối ngày 11/11"
+        },
+        {
+          "zh": "都守在或者是电脑或者是手机前面，",
+          "vi": "đều túc trực trước máy tính hoặc điện thoại,"
+        }
+      ]
+    },
+    "34": {
+      "zh": "就在为我庆祝生日的感觉。",
+      "vi": "như là đang mừng sinh nhật cho mình vậy."
+    },
+    "35": {
+      "zh": "因为我刚才想提到那个新闻，",
+      "vi": "Vì lúc nãy mình định nhắc đến cái tin đó,"
+    },
+    "36": {
+      "zh": "就是我看到双十一这一天淘宝上的购物这个销量已经远远超过外国，",
+      "parts": [
+        {
+          "zh": "就是我看到双十一这一天",
+          "vi": "là mình thấy trong ngày 11/11"
+        },
+        {
+          "zh": "淘宝上的购物这个销量",
+          "vi": "doanh số mua sắm trên Taobao"
+        },
+        {
+          "zh": "已经远远超过外国，",
+          "vi": "đã vượt xa nước ngoài,"
+        }
+      ]
+    },
+    "37": {
+      "zh": "比如说英国的黑五的购物节，所以中国人民的消费水平真是。",
+      "parts": [
+        {
+          "zh": "比如说英国的黑五的购物节，",
+          "vi": "ví dụ như lễ hội mua sắm Black Friday ở Anh,"
+        },
+        {
+          "zh": "所以中国人民的消费水平真是。",
+          "vi": "nên mức tiêu dùng của người dân Trung Quốc thật là…"
+        }
+      ]
+    },
+    "38": {
+      "zh": "不容小觑，是是这样的。",
+      "vi": "Không thể xem thường, đúng, đúng là vậy."
+    },
+    "39": {
+      "zh": "尤其是去年，就是二零二零年的时候，不是因为新冠肺炎嘛，就是大家基本都会怎么讲，",
+      "parts": [
+        {
+          "zh": "尤其是去年，就是二零二零年的时候，",
+          "vi": "Nhất là năm ngoái, tức là hồi năm 2020,"
+        },
+        {
+          "zh": "不是因为新冠肺炎嘛，",
+          "vi": "chẳng phải vì dịch Covid sao,"
+        },
+        {
+          "zh": "就是大家基本都会怎么讲，",
+          "vi": "thì mọi người hầu như đều, nói sao nhỉ,"
+        }
+      ]
+    },
+    "40": {
+      "zh": "待在家里面的时间比较久，所以很少有机会去线下购物。",
+      "parts": [
+        {
+          "zh": "待在家里面的时间比较久，",
+          "vi": "ở nhà khá lâu,"
+        },
+        {
+          "zh": "所以很少有机会去线下购物。",
+          "vi": "nên ít có cơ hội đi mua sắm ở cửa hàng."
+        }
+      ]
+    },
+    "41": {
+      "zh": "我觉得这样反而更加推动了二零二零年双十一期间，呃，淘宝的购物的业绩吧。",
+      "parts": [
+        {
+          "zh": "我觉得这样反而更加推动了",
+          "vi": "Mình nghĩ như vậy ngược lại càng thúc đẩy"
+        },
+        {
+          "zh": "二零二零年双十一期间，",
+          "vi": "trong dịp 11/11 năm 2020,"
+        },
+        {
+          "zh": "呃，淘宝的购物的业绩吧。",
+          "vi": "ờ, doanh số mua sắm của Taobao."
+        }
+      ]
+    },
+    "42": {
+      "zh": "双十一真的是非常夸张，就有一点像。",
+      "vi": "11/11 thật sự rất là quá đà, kiểu hơi giống…"
+    },
+    "43": {
+      "zh": "因为双十一的时候呢，有很多东西会打折，",
+      "parts": [
+        {
+          "zh": "因为双十一的时候呢，",
+          "vi": "Vì vào dịp 11/11,"
+        },
+        {
+          "zh": "有很多东西会打折，",
+          "vi": "có rất nhiều thứ được giảm giá,"
+        }
+      ]
+    },
+    "44": {
+      "zh": "但是它打折的额度或者说购买的呃你购买的数量是有限的，",
+      "parts": [
+        {
+          "zh": "但是它打折的额度",
+          "vi": "nhưng mức giảm giá"
+        },
+        {
+          "zh": "或者说购买的呃",
+          "vi": "hay nói cách khác số lượng mua, ờ,"
+        },
+        {
+          "zh": "你购买的数量是有限的，",
+          "vi": "số lượng bạn được mua là có hạn,"
+        }
+      ]
+    },
+    "45": {
+      "zh": "所以你还真的是要在十一月十号的凌晨那一天晚上把东西都放到你的购物车里。",
+      "parts": [
+        {
+          "zh": "所以你还真的是要",
+          "vi": "nên bạn thật sự phải"
+        },
+        {
+          "zh": "在十一月十号的凌晨那一天晚上",
+          "vi": "vào đêm hôm đó, rạng sáng ngày 10 tháng 11,"
+        },
+        {
+          "zh": "把东西都放到你的购物车里。",
+          "vi": "bỏ hết đồ vào giỏ hàng của bạn."
+        }
+      ]
+    },
+    "46": {
+      "zh": "购物车就是购物的那个推车，大家在网上购物过肯定都知道。",
+      "parts": [
+        {
+          "zh": "购物车就是购物的那个推车，",
+          "vi": "Giỏ hàng chính là cái xe đẩy khi đi mua sắm,"
+        },
+        {
+          "zh": "大家在网上购物过肯定都知道。",
+          "vi": "ai từng mua sắm trên mạng chắc chắn đều biết."
+        }
+      ]
+    },
+    "47": {
+      "zh": "那你要把东西放在购物车里，等到凌晨的时间一过，马上去点击购买。",
+      "parts": [
+        {
+          "zh": "那你要把东西放在购物车里，",
+          "vi": "Thế là bạn phải bỏ đồ vào giỏ hàng,"
+        },
+        {
+          "zh": "等到凌晨的时间一过，",
+          "vi": "đợi đến khi qua nửa đêm,"
+        },
+        {
+          "zh": "马上去点击购买。",
+          "vi": "là lập tức bấm mua."
+        }
+      ]
+    },
+    "48": {
+      "zh": "是要付钱，因为如果你付晚了的话，可能这个商品就已经下架了，就是说，呃，供不应求了，",
+      "parts": [
+        {
+          "zh": "是要付钱，因为如果你付晚了的话，",
+          "vi": "Là phải trả tiền, vì nếu bạn trả muộn,"
+        },
+        {
+          "zh": "可能这个商品就已经下架了，",
+          "vi": "có khi món hàng đó đã bị gỡ xuống rồi,"
+        },
+        {
+          "zh": "就是说，呃，供不应求了，",
+          "vi": "tức là, ờ, cung không đủ cầu,"
+        }
+      ]
+    },
+    "49": {
+      "zh": "因为买的人太多了嘛，就库存不够了。",
+      "vi": "vì người mua đông quá mà, hàng tồn kho không đủ."
+    },
+    "50": {
+      "zh": "但是其实你讲的这个情况是已经是双十一这个节日初期的一些购物的形态了。",
+      "parts": [
+        {
+          "zh": "但是其实你讲的这个情况",
+          "vi": "Nhưng thật ra tình huống bạn kể"
+        },
+        {
+          "zh": "是已经是双十一这个节日初期的",
+          "vi": "đã là của thời kỳ đầu của ngày lễ 11/11,"
+        },
+        {
+          "zh": "一些购物的形态了。",
+          "vi": "những kiểu mua sắm hồi đó rồi."
+        }
+      ]
+    },
+    "51": {
+      "zh": "我不知道你有没有了解过最近国内一些双十一的，呃，怎么讲一些打折的折政策？",
+      "parts": [
+        {
+          "zh": "我不知道你有没有了解过",
+          "vi": "Không biết bạn có tìm hiểu không,"
+        },
+        {
+          "zh": "最近国内一些双十一的，",
+          "vi": "gần đây ở trong nước, dịp 11/11 có mấy cái,"
+        },
+        {
+          "zh": "呃，怎么讲一些打折的折政策？",
+          "vi": "ờ, nói sao nhỉ, mấy chính sách giảm giá?"
+        }
+      ]
+    },
+    "52": {
+      "zh": "因为最近来看，现在的双十一商家们都比较喜欢搞一个叫做呃定金的东西，",
+      "parts": [
+        {
+          "zh": "因为最近来看，现在的双十一商家们",
+          "vi": "Vì xét gần đây, các nhà bán hàng dịp 11/11 bây giờ"
+        },
+        {
+          "zh": "都比较喜欢搞一个",
+          "vi": "đều khá thích bày ra một thứ"
+        },
+        {
+          "zh": "叫做呃定金的东西，",
+          "vi": "gọi là, ờ, tiền đặt cọc,"
+        }
+      ]
+    },
+    "53": {
+      "zh": "就是你在双十一之前可能提前一个月甚至提前两个月就已经呃选好了你心仪的产品，",
+      "parts": [
+        {
+          "zh": "就是你在双十一之前",
+          "vi": "tức là trước 11/11"
+        },
+        {
+          "zh": "可能提前一个月甚至提前两个月",
+          "vi": "có khi trước một tháng, thậm chí trước hai tháng,"
+        },
+        {
+          "zh": "就已经呃选好了你心仪的产品，",
+          "vi": "bạn đã, ờ, chọn xong món hàng mình ưng ý,"
+        }
+      ]
+    },
+    "54": {
+      "zh": "然后你要把它加到你的购物车里面。",
+      "vi": "rồi bạn phải cho nó vào giỏ hàng của bạn."
+    },
+    "55": {
+      "zh": "这个时候为了防止你双十一的时候忘记或者是你双十一的时候反悔，他会让你付一个定金，",
+      "parts": [
+        {
+          "zh": "这个时候为了防止你",
+          "vi": "Lúc này, để tránh việc bạn"
+        },
+        {
+          "zh": "双十一的时候忘记",
+          "vi": "đến 11/11 thì quên mất"
+        },
+        {
+          "zh": "或者是你双十一的时候反悔，",
+          "vi": "hoặc đến 11/11 thì đổi ý,"
+        },
+        {
+          "zh": "他会让你付一个定金，",
+          "vi": "họ sẽ bắt bạn trả một khoản đặt cọc,"
+        }
+      ]
+    },
+    "56": {
+      "zh": "就这个定金大概会是你这个产品价格的百分之十左右。",
+      "parts": [
+        {
+          "zh": "就这个定金大概会是",
+          "vi": "khoản đặt cọc này khoảng chừng"
+        },
+        {
+          "zh": "你这个产品价格的百分之十左右。",
+          "vi": "10% giá sản phẩm của bạn."
+        }
+      ]
+    },
+    "57": {
+      "zh": "然后在双十一的这一天晚上，你可以选择付掉剩下的尾款。",
+      "parts": [
+        {
+          "zh": "然后在双十一的这一天晚上，",
+          "vi": "Rồi vào tối ngày 11/11,"
+        },
+        {
+          "zh": "你可以选择付掉剩下的尾款。",
+          "vi": "bạn có thể chọn trả nốt số tiền còn lại."
+        }
+      ]
+    },
+    "58": {
+      "zh": "那你如果说在双十一这一天不想要了，定金就是白白浪费了的。",
+      "parts": [
+        {
+          "zh": "那你如果说在双十一这一天",
+          "vi": "Vậy nếu đến ngày 11/11"
+        },
+        {
+          "zh": "不想要了，定金就是白白浪费了的。",
+          "vi": "bạn không muốn nữa, thì tiền cọc coi như mất trắng."
+        }
+      ]
+    },
+    "59": {
+      "zh": "是的，你如果不想要了的话，或者你忘记付款了，或者你漏掉付款了，定金就拜拜了。",
+      "parts": [
+        {
+          "zh": "是的，你如果不想要了的话，",
+          "vi": "Đúng vậy, nếu bạn không muốn nữa,"
+        },
+        {
+          "zh": "或者你忘记付款了，",
+          "vi": "hoặc bạn quên trả tiền,"
+        },
+        {
+          "zh": "或者你漏掉付款了，定金就拜拜了。",
+          "vi": "hoặc bạn lỡ bỏ sót không trả, thì tiền cọc coi như \"bye bye\"."
+        }
+      ]
+    },
+    "60": {
+      "zh": "啊，我觉得这个政策，反正我自己本人从来没有在双十一的时候购物过。",
+      "parts": [
+        {
+          "zh": "啊，我觉得这个政策，",
+          "vi": "À, mình thấy chính sách này…"
+        },
+        {
+          "zh": "反正我自己本人",
+          "vi": "dù sao thì bản thân mình"
+        },
+        {
+          "zh": "从来没有在双十一的时候购物过。",
+          "vi": "chưa từng mua sắm vào dịp 11/11."
+        }
+      ]
+    },
+    "61": {
+      "zh": "你有没有抢过双十一？",
+      "vi": "Bạn đã từng săn sale 11/11 chưa?"
+    },
+    "62": {
+      "zh": "我记得我上大一的时候，就是二零零二零一四年的时候。",
+      "parts": [
+        {
+          "zh": "我记得我上大一的时候，",
+          "vi": "Mình nhớ hồi mình học năm nhất đại học,"
+        },
+        {
+          "zh": "就是二零零二零一四年的时候。",
+          "vi": "tức là hồi năm 200… 2014."
+        }
+      ]
+    },
+    "63": {
+      "zh": "那个时候双十一应该是刚刚呃兴起不久，我当时还是蛮疯狂的就买东西，",
+      "parts": [
+        {
+          "zh": "那个时候双十一",
+          "vi": "Hồi đó 11/11"
+        },
+        {
+          "zh": "应该是刚刚呃兴起不久，",
+          "vi": "chắc là mới, ờ, thịnh hành chưa lâu,"
+        },
+        {
+          "zh": "我当时还是蛮疯狂的就买东西，",
+          "vi": "hồi đó mình mua sắm khá là điên cuồng,"
+        }
+      ]
+    },
+    "64": {
+      "zh": "买了很多就所谓的需要的或者是不需要的，然后也会因为一些原因，比如说这个尺码的原因，",
+      "parts": [
+        {
+          "zh": "买了很多就所谓的需要的",
+          "vi": "mua rất nhiều thứ, gọi là cần"
+        },
+        {
+          "zh": "或者是不需要的，",
+          "vi": "hoặc không cần,"
+        },
+        {
+          "zh": "然后也会因为一些原因，",
+          "vi": "rồi cũng vì một số lý do,"
+        },
+        {
+          "zh": "比如说这个尺码的原因，",
+          "vi": "ví dụ như vì kích cỡ,"
+        }
+      ]
+    },
+    "65": {
+      "zh": "我会买了不适合我的尺码，就会进行一些勉强式的购物，你知道吧？",
+      "parts": [
+        {
+          "zh": "我会买了不适合我的尺码，就会",
+          "vi": "mình sẽ mua cỡ không hợp với mình, thế là"
+        },
+        {
+          "zh": "进行一些勉强式的购物，你知道吧？",
+          "vi": "thành ra mua sắm một cách miễn cưỡng, bạn hiểu không?"
+        }
+      ]
+    },
+    "66": {
+      "zh": "就是为了购物而去购物这样的感觉。",
+      "vi": "Kiểu như là mua sắm chỉ để mà mua sắm."
+    },
+    "67": {
+      "zh": "那你还记得当时这一次的双十一，你主要买了一些什么东西？",
+      "parts": [
+        {
+          "zh": "那你还记得当时这一次的双十一，",
+          "vi": "Vậy bạn còn nhớ lần 11/11 đó,"
+        },
+        {
+          "zh": "你主要买了一些什么东西？",
+          "vi": "bạn chủ yếu đã mua những gì không?"
+        }
+      ]
+    },
+    "68": {
+      "zh": "主要买的产品应该是衣服类型和鞋子类型。",
+      "parts": [
+        {
+          "zh": "主要买的产品应该是",
+          "vi": "Sản phẩm mua chủ yếu chắc là"
+        },
+        {
+          "zh": "衣服类型和鞋子类型。",
+          "vi": "quần áo và giày dép."
+        }
+      ]
+    },
+    "69": {
+      "zh": "我记得为什么我会提到尺码的这个问题，",
+      "parts": [
+        {
+          "zh": "我记得为什么",
+          "vi": "Mình nhớ tại sao"
+        },
+        {
+          "zh": "我会提到尺码的这个问题，",
+          "vi": "mình lại nhắc đến chuyện kích cỡ,"
+        }
+      ]
+    },
+    "70": {
+      "zh": "因为我记忆犹新的是我买了一件那个Dickies的一件外套，一件棒球外套。",
+      "parts": [
+        {
+          "zh": "因为我记忆犹新的是",
+          "vi": "vì điều mình còn nhớ như in là"
+        },
+        {
+          "zh": "我买了一件那个Dickies的",
+          "vi": "mình đã mua một chiếc của hãng Dickies,"
+        },
+        {
+          "zh": "一件外套，一件棒球外套。",
+          "vi": "một chiếc áo khoác, áo khoác bóng chày."
+        }
+      ]
+    },
+    "71": {
+      "zh": "那个外套我正常的尺码应该是M码的，但是因为双十一的关系，我只买到了S码的。",
+      "parts": [
+        {
+          "zh": "那个外套我正常的尺码",
+          "vi": "Cái áo khoác đó, cỡ bình thường của mình"
+        },
+        {
+          "zh": "应该是M码的，",
+          "vi": "phải là cỡ M,"
+        },
+        {
+          "zh": "但是因为双十一的关系，",
+          "vi": "nhưng vì là dịp 11/11,"
+        },
+        {
+          "zh": "我只买到了S码的。",
+          "vi": "mình chỉ mua được cỡ S."
+        }
+      ]
+    },
+    "72": {
+      "zh": "然后那个衣服穿在我身上就是特别像小朋友的衣服穿在我身上一样。",
+      "parts": [
+        {
+          "zh": "然后那个衣服穿在我身上",
+          "vi": "Rồi cái áo đó mặc lên người mình"
+        },
+        {
+          "zh": "就是特别像小朋友的衣服",
+          "vi": "trông y như áo của con nít"
+        },
+        {
+          "zh": "穿在我身上一样。",
+          "vi": "mặc lên người mình vậy."
+        }
+      ]
+    },
+    "73": {
+      "zh": "OK，所以说就像你说的，有一些勉强式的购物。",
+      "parts": [
+        {
+          "zh": "OK，所以说就像你说的，",
+          "vi": "OK, vậy là như bạn nói,"
+        },
+        {
+          "zh": "有一些勉强式的购物。",
+          "vi": "có kiểu mua sắm miễn cưỡng."
+        }
+      ]
+    },
+    "74": {
+      "zh": "其实你想买M嘛，但是为了享受这个折扣，反而买了一些不是很需要的东西。",
+      "parts": [
+        {
+          "zh": "其实你想买M嘛，",
+          "vi": "Thật ra bạn muốn mua cỡ M mà,"
+        },
+        {
+          "zh": "但是为了享受这个折扣，",
+          "vi": "nhưng để được hưởng giảm giá,"
+        },
+        {
+          "zh": "反而买了一些不是很需要的东西。",
+          "vi": "ngược lại lại mua những thứ không cần lắm."
+        }
+      ]
+    },
+    "75": {
+      "zh": "可能是这样的，就是在尤其是在这种打折力度很大的时候，你会有一种感觉，",
+      "parts": [
+        {
+          "zh": "可能是这样的，就是在尤其是",
+          "vi": "Có lẽ là vậy, tức là nhất là"
+        },
+        {
+          "zh": "在这种打折力度很大的时候，",
+          "vi": "vào những lúc giảm giá mạnh như thế này,"
+        },
+        {
+          "zh": "你会有一种感觉，",
+          "vi": "bạn sẽ có một cảm giác,"
+        }
+      ]
+    },
+    "76": {
+      "zh": "就好像你不买你就亏了。",
+      "vi": "như thể không mua là bạn lỗ."
+    },
+    "77": {
+      "zh": "嗯，但其实我觉得正常的逻辑或者说一个健康的逻辑是，你不买你就省钱了，",
+      "parts": [
+        {
+          "zh": "嗯，但其实我觉得正常的逻辑",
+          "vi": "Ừm, nhưng thật ra mình nghĩ logic bình thường"
+        },
+        {
+          "zh": "或者说一个健康的逻辑是，",
+          "vi": "hay nói cách khác là một logic lành mạnh, là"
+        },
+        {
+          "zh": "你不买你就省钱了，",
+          "vi": "bạn không mua là bạn tiết kiệm được tiền,"
+        }
+      ]
+    },
+    "78": {
+      "zh": "而不是你不买你就会亏了。",
+      "vi": "chứ không phải bạn không mua là bạn sẽ lỗ."
+    },
+    "79": {
+      "zh": "但我其实一直想不通的一件事情是，会不会存在这样一种现象啊？",
+      "parts": [
+        {
+          "zh": "但我其实一直想不通的一件事情是，",
+          "vi": "Nhưng có một chuyện mình mãi không hiểu nổi,"
+        },
+        {
+          "zh": "会不会存在这样一种现象啊？",
+          "vi": "là có tồn tại hiện tượng như thế này không?"
+        }
+      ]
+    },
+    "80": {
+      "zh": "有一些商家他会提前把价格提高，然后再打折呢？",
+      "parts": [
+        {
+          "zh": "有一些商家他会提前把价格提高，",
+          "vi": "Có những người bán sẽ nâng giá lên trước,"
+        },
+        {
+          "zh": "然后再打折呢？",
+          "vi": "rồi mới giảm giá?"
+        }
+      ]
+    },
+    "81": {
+      "zh": "这个问题我觉得可能在双十一的前期，就是在这个活动的前几年比较容易出现，",
+      "parts": [
+        {
+          "zh": "这个问题我觉得",
+          "vi": "Vấn đề này mình nghĩ"
+        },
+        {
+          "zh": "可能在双十一的前期，",
+          "vi": "có lẽ vào giai đoạn đầu của 11/11,"
+        },
+        {
+          "zh": "就是在这个活动的前几年",
+          "vi": "tức là mấy năm đầu của sự kiện này,"
+        },
+        {
+          "zh": "比较容易出现，",
+          "vi": "thì khá dễ xảy ra,"
+        }
+      ]
+    },
+    "82": {
+      "zh": "因为当时可能也是因为监管的方面的一些原因吧。",
+      "parts": [
+        {
+          "zh": "因为当时可能也是",
+          "vi": "vì hồi đó có lẽ cũng là"
+        },
+        {
+          "zh": "因为监管的方面的一些原因吧。",
+          "vi": "do một số nguyên nhân về mặt quản lý giám sát."
+        }
+      ]
+    },
+    "83": {
+      "zh": "但是最近几年好像这个没有怎么听说过这样的事情。",
+      "parts": [
+        {
+          "zh": "但是最近几年好像这个",
+          "vi": "Nhưng mấy năm gần đây hình như"
+        },
+        {
+          "zh": "没有怎么听说过这样的事情。",
+          "vi": "không nghe nói mấy về chuyện như vậy nữa."
+        }
+      ]
+    },
+    "84": {
+      "zh": "嗯，反正我本人我特别不喜欢在网上面买衣服，因为女生的衣服你知道合体合身是很重要的，",
+      "parts": [
+        {
+          "zh": "嗯，反正我本人我特别不喜欢",
+          "vi": "Ừm, dù sao bản thân mình thì đặc biệt không thích"
+        },
+        {
+          "zh": "在网上面买衣服，",
+          "vi": "mua quần áo trên mạng,"
+        },
+        {
+          "zh": "因为女生的衣服你知道",
+          "vi": "vì quần áo con gái, bạn biết đấy,"
+        },
+        {
+          "zh": "合体合身是很重要的，",
+          "vi": "vừa người, vừa vặn là rất quan trọng,"
+        }
+      ]
+    },
+    "85": {
+      "zh": "所以我也啊虽然现在淘宝上面买衣服吧，你可以买一个东西叫做退货险，险就是保险的险。",
+      "parts": [
+        {
+          "zh": "所以我也啊虽然现在",
+          "vi": "nên mình cũng, à, tuy bây giờ"
+        },
+        {
+          "zh": "淘宝上面买衣服吧，",
+          "vi": "mua quần áo trên Taobao,"
+        },
+        {
+          "zh": "你可以买一个东西叫做退货险，",
+          "vi": "bạn có thể mua một thứ gọi là 退货险,"
+        },
+        {
+          "zh": "险就是保险的险。",
+          "vi": "险 là chữ 险 trong 保险 (bảo hiểm)."
+        }
+      ]
+    },
+    "86": {
+      "zh": "所谓退货险的意思就是我可能在买衣服的时候多加一点点钱，",
+      "parts": [
+        {
+          "zh": "所谓退货险的意思就是",
+          "vi": "Cái gọi là bảo hiểm trả hàng nghĩa là"
+        },
+        {
+          "zh": "我可能在买衣服的时候",
+          "vi": "khi mua quần áo mình có thể"
+        },
+        {
+          "zh": "多加一点点钱，",
+          "vi": "trả thêm một chút tiền,"
+        }
+      ]
+    },
+    "87": {
+      "zh": "比如说一一块钱人民币相当于零点二。这是欧元的意思。",
+      "parts": [
+        {
+          "zh": "比如说一一块钱人民币",
+          "vi": "ví dụ như 1, 1 tệ,"
+        },
+        {
+          "zh": "相当于零点二。这是欧元的意思。",
+          "vi": "tương đương với 0,2. Ý là euro ấy."
+        }
+      ]
+    },
+    "89": {
+      "zh": "那我付了这一个退货险呢之后，如果我试到的买到的衣服不合身，我不想要了，",
+      "parts": [
+        {
+          "zh": "那我付了这一个退货险呢之后，",
+          "vi": "Vậy sau khi mình trả khoản bảo hiểm trả hàng này,"
+        },
+        {
+          "zh": "如果我试到的买到的衣服",
+          "vi": "nếu quần áo mình mặc thử, mình mua về"
+        },
+        {
+          "zh": "不合身，我不想要了，",
+          "vi": "không vừa, mình không muốn nữa,"
+        }
+      ]
+    },
+    "90": {
+      "zh": "我就可以免费的给他寄回去。",
+      "vi": "thì mình có thể gửi trả lại cho họ miễn phí."
+    },
+    "91": {
+      "zh": "所以这个叫退货险。",
+      "vi": "Nên cái này gọi là bảo hiểm trả hàng."
+    },
+    "92": {
+      "zh": "但是就算现在有了退货险，我还是觉得很懒，我就懒得去把衣服寄回去，",
+      "parts": [
+        {
+          "zh": "但是就算现在有了退货险，",
+          "vi": "Nhưng dù bây giờ có bảo hiểm trả hàng rồi,"
+        },
+        {
+          "zh": "我还是觉得很懒，",
+          "vi": "mình vẫn thấy lười lắm,"
+        },
+        {
+          "zh": "我就懒得去把衣服寄回去，",
+          "vi": "mình ngại phải gửi quần áo trả lại,"
+        }
+      ]
+    },
+    "93": {
+      "zh": "所以我特别不喜欢在网上面买衣服。",
+      "vi": "nên mình đặc biệt không thích mua quần áo trên mạng."
+    },
+    "94": {
+      "zh": "那我觉得我最多的买的东西可能是电电子商品。",
+      "parts": [
+        {
+          "zh": "那我觉得我最多的买的东西",
+          "vi": "Vậy mình nghĩ thứ mình mua nhiều nhất"
+        },
+        {
+          "zh": "可能是电电子商品。",
+          "vi": "có lẽ là đồ điện, điện tử."
+        }
+      ]
+    },
+    "95": {
+      "zh": "我觉得我和你的情况也类似，我也觉得因为网上买衣服一个最大的缺点就是你退换不是很方便。",
+      "parts": [
+        {
+          "zh": "我觉得我和你的情况也类似，",
+          "vi": "Mình thấy tình hình của mình cũng giống bạn,"
+        },
+        {
+          "zh": "我也觉得因为网上买衣服",
+          "vi": "mình cũng thấy mua quần áo trên mạng"
+        },
+        {
+          "zh": "一个最大的缺点就是",
+          "vi": "có một nhược điểm lớn nhất là"
+        },
+        {
+          "zh": "你退换不是很方便。",
+          "vi": "đổi trả không tiện lắm."
+        }
+      ]
+    },
+    "96": {
+      "zh": "就哪怕我们运用到了呃Joanne所提到的退货险，但其实还是需要等一个比较长的时间。",
+      "parts": [
+        {
+          "zh": "就哪怕我们运用到了呃",
+          "vi": "Kể cả khi mình dùng đến, ờ,"
+        },
+        {
+          "zh": "Joanne所提到的退货险，",
+          "vi": "cái bảo hiểm trả hàng mà Joanne nói,"
+        },
+        {
+          "zh": "但其实还是需要",
+          "vi": "nhưng thật ra vẫn phải"
+        },
+        {
+          "zh": "等一个比较长的时间。",
+          "vi": "đợi một thời gian khá lâu."
+        }
+      ]
+    },
+    "97": {
+      "zh": "另外，对于电子产品的话，我觉得我我不知道你作为一个女生或者说你作为一个文科学生，",
+      "parts": [
+        {
+          "zh": "另外，对于电子产品的话，",
+          "vi": "Ngoài ra, về đồ điện tử thì,"
+        },
+        {
+          "zh": "我觉得我我不知道你作为一个女生",
+          "vi": "mình nghĩ, mình không biết bạn, là con gái"
+        },
+        {
+          "zh": "或者说你作为一个文科学生，",
+          "vi": "hay nói cách khác là sinh viên khối xã hội,"
+        }
+      ]
+    },
+    "98": {
+      "zh": "你有没有很了解电子产品？",
+      "vi": "thì có rành về đồ điện tử không?"
+    },
+    "99": {
+      "zh": "因为我是学理科的嘛，所以我平常对这些电子产品也比较感兴趣。",
+      "parts": [
+        {
+          "zh": "因为我是学理科的嘛，",
+          "vi": "Vì mình học khối tự nhiên mà,"
+        },
+        {
+          "zh": "所以我平常对这些电子产品",
+          "vi": "nên bình thường với mấy món đồ điện tử này"
+        },
+        {
+          "zh": "也比较感兴趣。",
+          "vi": "mình cũng khá có hứng thú."
+        }
+      ]
+    },
+    "100": {
+      "zh": "我是其实不太推荐你从淘宝这种渠道来进行电子产品的购买。",
+      "parts": [
+        {
+          "zh": "我是其实不太推荐你",
+          "vi": "Thật ra mình không khuyên bạn lắm"
+        },
+        {
+          "zh": "从淘宝这种渠道",
+          "vi": "qua kênh như Taobao"
+        },
+        {
+          "zh": "来进行电子产品的购买。",
+          "vi": "để mua đồ điện tử."
+        }
+      ]
+    },
+    "101": {
+      "zh": "没有没有，我也不在淘宝上买，但我一般在京东上面买电子产品。",
+      "parts": [
+        {
+          "zh": "没有没有，我也不在淘宝上买，",
+          "vi": "Không không, mình cũng không mua trên Taobao,"
+        },
+        {
+          "zh": "但我一般在京东上面买电子产品。",
+          "vi": "mà mình thường mua đồ điện tử trên JD (京东)."
+        }
+      ]
+    },
+    "102": {
+      "zh": "就是刚才呢也想跟大家提到的第二个中国可能是最第二大的电子商务平台就是京东。",
+      "parts": [
+        {
+          "zh": "就是刚才呢也想跟大家提到的",
+          "vi": "Chính là cái lúc nãy mình cũng định nhắc với mọi người,"
+        },
+        {
+          "zh": "第二个中国可能是最第二大的",
+          "vi": "thứ hai, Trung Quốc có lẽ là lớn nhất… lớn thứ hai,"
+        },
+        {
+          "zh": "电子商务平台就是京东。",
+          "vi": "nền tảng thương mại điện tử đó chính là JD."
+        }
+      ]
+    },
+    "103": {
+      "zh": "然后京东和淘宝呢主要的区别可能就是。",
+      "parts": [
+        {
+          "zh": "然后京东和淘宝呢",
+          "vi": "Rồi JD với Taobao"
+        },
+        {
+          "zh": "主要的区别可能就是。",
+          "vi": "khác nhau chủ yếu có lẽ là…"
+        }
+      ]
+    },
+    "104": {
+      "zh": "京东上面会主打更多的一些电子产品，对不对？",
+      "parts": [
+        {
+          "zh": "京东上面会主打",
+          "vi": "JD sẽ tập trung"
+        },
+        {
+          "zh": "更多的一些电子产品，对不对？",
+          "vi": "nhiều hơn vào đồ điện tử, đúng không?"
+        }
+      ]
+    },
+    "105": {
+      "zh": "是这样的。",
+      "vi": "Đúng vậy."
+    },
+    "106": {
+      "zh": "正好刚才提到几个词，我觉得还挺有意思的，给大家稍微回顾一下。",
+      "parts": [
+        {
+          "zh": "正好刚才提到几个词，",
+          "vi": "Vừa nãy đúng lúc nhắc đến vài từ,"
+        },
+        {
+          "zh": "我觉得还挺有意思的，",
+          "vi": "mình thấy khá là thú vị,"
+        },
+        {
+          "zh": "给大家稍微回顾一下。",
+          "vi": "cùng mọi người ôn lại một chút."
+        }
+      ]
+    },
+    "107": {
+      "zh": "第一个词我们提到光棍儿，光棍儿是带一个儿化音的词，其实本来应该念光棍。",
+      "parts": [
+        {
+          "zh": "第一个词我们提到光棍儿，",
+          "vi": "Từ đầu tiên chúng ta nhắc đến là 光棍儿,"
+        },
+        {
+          "zh": "光棍儿是带一个儿化音的词，",
+          "vi": "光棍儿 là một từ có âm nhi hóa (儿化),"
+        },
+        {
+          "zh": "其实本来应该念光棍。",
+          "vi": "thật ra vốn dĩ phải đọc là 光棍."
+        }
+      ]
+    },
+    "108": {
+      "zh": "对，是光棍儿是三个字，但是在北方的方言里面，或者说在中国的这个普通话里面。",
+      "parts": [
+        {
+          "zh": "对，是光棍儿是三个字，",
+          "vi": "Đúng, 光棍儿 là ba chữ,"
+        },
+        {
+          "zh": "但是在北方的方言里面，",
+          "vi": "nhưng trong phương ngữ miền Bắc,"
+        },
+        {
+          "zh": "或者说在中国的这个普通话里面。",
+          "vi": "hay nói cách khác là trong tiếng phổ thông của Trung Quốc."
+        }
+      ]
+    },
+    "109": {
+      "zh": "嗯，是以北京方言为基础的嘛。",
+      "vi": "Ừm, nó lấy phương ngữ Bắc Kinh làm nền tảng mà."
+    },
+    "110": {
+      "zh": "然后我们一般会把这个儿和棍儿、棍儿和棍子念到一起，就念成棍儿。",
+      "parts": [
+        {
+          "zh": "然后我们一般会把这个儿和棍儿、",
+          "vi": "Rồi thường bọn mình sẽ đem chữ 儿 này với 棍儿,"
+        },
+        {
+          "zh": "棍儿和棍子念到一起，就念成棍儿。",
+          "vi": "棍儿 với 棍子 đọc liền nhau, thành ra đọc là 棍儿."
+        }
+      ]
+    },
+    "111": {
+      "zh": "因为我是北方人嘛，嗯，作为一个北方人，如果你碰到一些特定的词语，你不加儿化音的话，",
+      "parts": [
+        {
+          "zh": "因为我是北方人嘛，嗯，",
+          "vi": "Vì mình là người miền Bắc mà, ừm,"
+        },
+        {
+          "zh": "作为一个北方人，",
+          "vi": "là một người miền Bắc,"
+        },
+        {
+          "zh": "如果你碰到一些特定的词语，",
+          "vi": "nếu bạn gặp một số từ nhất định,"
+        },
+        {
+          "zh": "你不加儿化音的话，",
+          "vi": "mà bạn không thêm âm nhi hóa,"
+        }
+      ]
+    },
+    "112": {
+      "zh": "会感觉到这个词非常的奇怪。",
+      "vi": "thì sẽ thấy từ đó rất kỳ cục."
+    },
+    "113": {
+      "zh": "光棍儿是什么意思呢？",
+      "vi": "光棍儿 nghĩa là gì nhỉ?"
+    },
+    "114": {
+      "zh": "可以给大家解释一下吗？",
+      "vi": "Bạn giải thích cho mọi người một chút được không?"
+    },
+    "115": {
+      "zh": "光棍儿，光棍儿就是指单身的人一个。",
+      "vi": "光棍儿, 光棍儿 là chỉ người độc thân, một mình."
+    },
+    "116": {
+      "zh": "但是我觉得这个词会带有一些贬义的色彩，会有一些说这个人好可怜啊，没有另外一半，他是一个光棍儿。",
+      "parts": [
+        {
+          "zh": "但是我觉得这个词",
+          "vi": "Nhưng mình thấy từ này"
+        },
+        {
+          "zh": "会带有一些贬义的色彩，",
+          "vi": "mang một chút sắc thái chê bai,"
+        },
+        {
+          "zh": "会有一些说这个人好可怜啊，",
+          "vi": "kiểu sẽ có người nói người này tội nghiệp quá,"
+        },
+        {
+          "zh": "没有另外一半，他是一个光棍儿。",
+          "vi": "không có nửa kia, anh ta là một 光棍儿."
+        }
+      ]
+    },
+    "118": {
+      "zh": "光棍儿它本意就是一根棍子，对吧？",
+      "vi": "光棍儿 nghĩa gốc là một cây gậy, đúng không?"
+    },
+    "119": {
+      "zh": "对，是这样的。",
+      "vi": "Đúng, là vậy."
+    },
+    "120": {
+      "zh": "对，就是光光这个词其实有怎么说呢？",
+      "vi": "Đúng, chữ 光 này, thật ra có, nói sao nhỉ?"
+    },
+    "121": {
+      "zh": "你比如说你把衣服都脱完了，可以叫脱光衣服。",
+      "parts": [
+        {
+          "zh": "你比如说你把衣服都脱完了，",
+          "vi": "Ví dụ như bạn cởi hết quần áo ra,"
+        },
+        {
+          "zh": "可以叫脱光衣服。",
+          "vi": "thì có thể gọi là 脱光衣服 (cởi sạch quần áo)."
+        }
+      ]
+    },
+    "122": {
+      "zh": "所以光棍儿的意思就是什么都没有，单单的一根棍子。",
+      "parts": [
+        {
+          "zh": "所以光棍儿的意思",
+          "vi": "Nên 光棍儿 có nghĩa là"
+        },
+        {
+          "zh": "就是什么都没有，单单的一根棍子。",
+          "vi": "không có gì cả, chỉ một cây gậy trơ trọi."
+        }
+      ]
+    },
+    "123": {
+      "zh": "那现在就用来主要是称男生，我觉得是单身的男生。",
+      "parts": [
+        {
+          "zh": "那现在就用来主要是称男生，",
+          "vi": "Giờ thì chủ yếu dùng để gọi con trai,"
+        },
+        {
+          "zh": "我觉得是单身的男生。",
+          "vi": "mình nghĩ là con trai độc thân."
+        }
+      ]
+    },
+    "124": {
+      "zh": "对，所以刚才说到双十一是单身节，也可以叫光棍节，是这么一个来头。",
+      "parts": [
+        {
+          "zh": "对，所以刚才说到双十一是单身节，",
+          "vi": "Đúng, nên vừa nãy nói 11/11 là ngày lễ độc thân,"
+        },
+        {
+          "zh": "也可以叫光棍节，是这么一个来头。",
+          "vi": "cũng có thể gọi là 光棍节, nguồn gốc là như vậy."
+        }
+      ]
+    },
+    "125": {
+      "zh": "对，因为双十一有四根棍子嘛，四个一，所以会叫光棍节、光棍节。",
+      "parts": [
+        {
+          "zh": "对，因为双十一有四根棍子嘛，",
+          "vi": "Đúng, vì 11/11 có bốn cây gậy mà,"
+        },
+        {
+          "zh": "四个一，所以会叫光棍节、光棍节。",
+          "vi": "bốn số 1, nên gọi là 光棍节, 光棍节."
+        }
+      ]
+    },
+    "126": {
+      "zh": "对，然后第二个词我觉得还挺挺有用的，然后我们日常生活中也一直提的叫大神啊，大神。",
+      "parts": [
+        {
+          "zh": "对，然后第二个词",
+          "vi": "Đúng, rồi từ thứ hai"
+        },
+        {
+          "zh": "我觉得还挺挺有用的，",
+          "vi": "mình thấy cũng khá, khá hữu dụng,"
+        },
+        {
+          "zh": "然后我们日常生活中也一直提的",
+          "vi": "mà trong đời sống hằng ngày chúng ta cũng hay nhắc,"
+        },
+        {
+          "zh": "叫大神啊，大神。",
+          "vi": "là 大神, 大神."
+        }
+      ]
+    },
+    "127": {
+      "zh": "大神这个词，它应该是从网络游戏当中流行出来的一个词汇。",
+      "parts": [
+        {
+          "zh": "大神这个词，",
+          "vi": "Từ 大神 này,"
+        },
+        {
+          "zh": "它应该是从网络游戏当中",
+          "vi": "chắc là từ game online"
+        },
+        {
+          "zh": "流行出来的一个词汇。",
+          "vi": "mà trở thành một từ thịnh hành."
+        }
+      ]
+    },
+    "128": {
+      "zh": "大是大就是大小的大，神就是神仙的神。",
+      "parts": [
+        {
+          "zh": "大是大就是大小的大，",
+          "vi": "大 là chữ 大 trong 大小 (to nhỏ),"
+        },
+        {
+          "zh": "神就是神仙的神。",
+          "vi": "神 là chữ 神 trong 神仙 (thần tiên)."
+        }
+      ]
+    },
+    "129": {
+      "zh": "我觉得你理解它可以通过字面的意思来理解，就是你首先是神，你已经不是人了，",
+      "parts": [
+        {
+          "zh": "我觉得你理解它",
+          "vi": "Mình nghĩ bạn hiểu nó"
+        },
+        {
+          "zh": "可以通过字面的意思来理解，",
+          "vi": "có thể theo nghĩa đen mà hiểu,"
+        },
+        {
+          "zh": "就是你首先是神，你已经不是人了，",
+          "vi": "tức là trước hết bạn là thần, bạn không còn là người nữa,"
+        }
+      ]
+    },
+    "130": {
+      "zh": "而且你还是一个大神，就表明你在某一个领域非常的厉害，你非常了解这个领域。",
+      "parts": [
+        {
+          "zh": "而且你还是一个大神，",
+          "vi": "mà bạn còn là một vị đại thần,"
+        },
+        {
+          "zh": "就表明你在某一个领域非常的厉害，",
+          "vi": "tức là bạn cực kỳ giỏi ở một lĩnh vực nào đó,"
+        },
+        {
+          "zh": "你非常了解这个领域。",
+          "vi": "bạn rất rành lĩnh vực này."
+        }
+      ]
+    },
+    "131": {
+      "zh": "所以叫做大神，而且“大神”这个词，我觉得会用在电子产品或者是呃电脑游戏这方面比较多。",
+      "parts": [
+        {
+          "zh": "所以叫做大神，",
+          "vi": "Nên mới gọi là 大神,"
+        },
+        {
+          "zh": "而且“大神”这个词，",
+          "vi": "mà từ \"大神\" này,"
+        },
+        {
+          "zh": "我觉得会用在电子产品",
+          "vi": "mình nghĩ được dùng ở mảng đồ điện tử"
+        },
+        {
+          "zh": "或者是呃电脑游戏这方面比较多。",
+          "vi": "hoặc, ờ, game máy tính là nhiều."
+        }
+      ]
+    },
+    "132": {
+      "zh": "对，但其实我觉得各种领域如果想要描述一个人非常厉害的时候，都可以用“大神”。",
+      "parts": [
+        {
+          "zh": "对，但其实我觉得各种领域",
+          "vi": "Đúng, nhưng thật ra mình thấy ở đủ mọi lĩnh vực,"
+        },
+        {
+          "zh": "如果想要描述一个人",
+          "vi": "nếu muốn miêu tả một người"
+        },
+        {
+          "zh": "非常厉害的时候，都可以用“大神”。",
+          "vi": "cực kỳ giỏi, đều có thể dùng \"大神\"."
+        }
+      ]
+    },
+    "133": {
+      "zh": "比如说举一些外国朋友比较熟悉的例子，我们可以说费德勒是网球界的大神，",
+      "parts": [
+        {
+          "zh": "比如说举一些",
+          "vi": "Ví dụ, lấy vài"
+        },
+        {
+          "zh": "外国朋友比较熟悉的例子，",
+          "vi": "ví dụ mà các bạn nước ngoài khá quen thuộc,"
+        },
+        {
+          "zh": "我们可以说费德勒是网球界的大神，",
+          "vi": "chúng ta có thể nói Federer là 大神 của làng quần vợt,"
+        }
+      ]
+    },
+    "134": {
+      "zh": "或者说甚至你可以说梵高是绘画界的大神。",
+      "parts": [
+        {
+          "zh": "或者说甚至你可以说",
+          "vi": "hoặc thậm chí bạn có thể nói"
+        },
+        {
+          "zh": "梵高是绘画界的大神。",
+          "vi": "Van Gogh là 大神 của giới hội họa."
+        }
+      ]
+    },
+    "135": {
+      "zh": "是的。",
+      "vi": "Đúng vậy."
+    },
+    "136": {
+      "zh": "都可以，所以大神是一个比较通俗的说法。",
+      "parts": [
+        {
+          "zh": "都可以，所以大神是一个",
+          "vi": "Đều được cả, nên 大神 là một"
+        },
+        {
+          "zh": "比较通俗的说法。",
+          "vi": "cách nói khá bình dân."
+        }
+      ]
+    },
+    "137": {
+      "zh": "是，那那说回来说到这个网上电子商务的平台，刚才有介绍京东和淘宝，但是呢，",
+      "parts": [
+        {
+          "zh": "是，那那说回来",
+          "vi": "Ừ, vậy, vậy quay lại,"
+        },
+        {
+          "zh": "说到这个网上电子商务的平台，",
+          "vi": "nói về các nền tảng thương mại điện tử trên mạng,"
+        },
+        {
+          "zh": "刚才有介绍京东和淘宝，但是呢，",
+          "vi": "lúc nãy đã giới thiệu JD và Taobao, nhưng mà,"
+        }
+      ]
+    },
+    "138": {
+      "zh": "这这几年中国又出现了一个非常非常火的新的电子平台，",
+      "parts": [
+        {
+          "zh": "这这几年中国又出现了",
+          "vi": "mấy năm gần đây Trung Quốc lại xuất hiện"
+        },
+        {
+          "zh": "一个非常非常火的新的电子平台，",
+          "vi": "một nền tảng mới cực kỳ, cực kỳ hot,"
+        }
+      ]
+    },
+    "139": {
+      "zh": "也是今天为什么我想要和Leo聊这个话题。",
+      "parts": [
+        {
+          "zh": "也是今天为什么",
+          "vi": "đó cũng là lý do vì sao hôm nay"
+        },
+        {
+          "zh": "我想要和Leo聊这个话题。",
+          "vi": "mình muốn nói chủ đề này với Leo."
+        }
+      ]
+    },
+    "140": {
+      "zh": "这个电子平台叫拼多多。",
+      "vi": "Nền tảng này tên là Pinduoduo (拼多多)."
+    },
+    "141": {
+      "zh": "对，什么？",
+      "vi": "Đúng, gì nhỉ?"
+    },
+    "142": {
+      "zh": "能解释一下拼多多这个词这个来源是什么？",
+      "parts": [
+        {
+          "zh": "能解释一下拼多多",
+          "vi": "Bạn giải thích được không, Pinduoduo"
+        },
+        {
+          "zh": "这个词这个来源是什么？",
+          "vi": "cái tên này nguồn gốc là gì?"
+        }
+      ]
+    },
+    "143": {
+      "zh": "你知道吗？",
+      "vi": "Bạn có biết không?"
+    },
+    "144": {
+      "zh": "我觉得拼多多这个词的来源主要是来自于它的一个购物的模式，",
+      "parts": [
+        {
+          "zh": "我觉得拼多多这个词的来源",
+          "vi": "Mình nghĩ nguồn gốc của cái tên Pinduoduo"
+        },
+        {
+          "zh": "主要是来自于它的一个购物的模式，",
+          "vi": "chủ yếu là từ mô hình mua sắm của nó,"
+        }
+      ]
+    },
+    "145": {
+      "zh": "因为拼多多推行的一个购物的模式我们叫做团购。",
+      "parts": [
+        {
+          "zh": "因为拼多多推行的一个购物的模式",
+          "vi": "vì mô hình mua sắm mà Pinduoduo áp dụng"
+        },
+        {
+          "zh": "我们叫做团购。",
+          "vi": "bọn mình gọi là 团购 (mua chung)."
+        }
+      ]
+    },
+    "146": {
+      "zh": "就比如说你一个人买一台电脑可能要五千元，但是你二十个人一起买这台电脑，",
+      "parts": [
+        {
+          "zh": "就比如说你一个人买一台电脑",
+          "vi": "Ví dụ một mình bạn mua một cái máy tính"
+        },
+        {
+          "zh": "可能要五千元，",
+          "vi": "có khi phải mất 5.000 tệ,"
+        },
+        {
+          "zh": "但是你二十个人一起买这台电脑，",
+          "vi": "nhưng nếu 20 người các bạn cùng mua cái máy tính này,"
+        }
+      ]
+    },
+    "147": {
+      "zh": "就每个人都买一台的话，它的价格就会降低很多。",
+      "parts": [
+        {
+          "zh": "就每个人都买一台的话，",
+          "vi": "tức là mỗi người đều mua một cái,"
+        },
+        {
+          "zh": "它的价格就会降低很多。",
+          "vi": "thì giá của nó sẽ giảm đi nhiều."
+        }
+      ]
+    },
+    "148": {
+      "zh": "所以应该是在我看来，应该是拼多多第一个推广这种购物模式的人。",
+      "parts": [
+        {
+          "zh": "所以应该是在我看来，",
+          "vi": "Nên chắc là, theo mình thấy,"
+        },
+        {
+          "zh": "应该是拼多多第一个",
+          "vi": "chắc Pinduoduo là người đầu tiên"
+        },
+        {
+          "zh": "推广这种购物模式的人。",
+          "vi": "phổ biến kiểu mua sắm này."
+        }
+      ]
+    },
+    "149": {
+      "zh": "所以它会叫拼，因为就是大家拼在一起一起购物嘛。",
+      "parts": [
+        {
+          "zh": "所以它会叫拼，",
+          "vi": "Nên nó mới gọi là 拼 (ghép),"
+        },
+        {
+          "zh": "因为就是大家拼在一起一起购物嘛。",
+          "vi": "vì mọi người ghép lại với nhau, cùng nhau mua sắm mà."
+        }
+      ]
+    },
+    "150": {
+      "zh": "那多多当然就是买的越多赚的越多，我觉得可能是这个意思吧。",
+      "parts": [
+        {
+          "zh": "那多多当然就是买的越多赚的越多，",
+          "vi": "Còn 多多 thì đương nhiên là mua càng nhiều được lời càng nhiều,"
+        },
+        {
+          "zh": "我觉得可能是这个意思吧。",
+          "vi": "mình nghĩ chắc là ý đó."
+        }
+      ]
+    },
+    "151": {
+      "zh": "但是我觉得拼多多可能不是第一个，因为国外的话就有Groupon，",
+      "parts": [
+        {
+          "zh": "但是我觉得拼多多可能不是第一个，",
+          "vi": "Nhưng mình nghĩ Pinduoduo chắc không phải là đầu tiên,"
+        },
+        {
+          "zh": "因为国外的话就有Groupon，",
+          "vi": "vì ở nước ngoài đã có Groupon,"
+        }
+      ]
+    },
+    "152": {
+      "zh": "Groupon其实当年就是团购这个概念，所以买的多然后省钱这个概念并不是很新鲜。",
+      "parts": [
+        {
+          "zh": "Groupon其实当年",
+          "vi": "Groupon hồi đó"
+        },
+        {
+          "zh": "就是团购这个概念，",
+          "vi": "chính là khái niệm mua chung,"
+        },
+        {
+          "zh": "所以买的多然后省钱",
+          "vi": "nên khái niệm mua nhiều để tiết kiệm tiền"
+        },
+        {
+          "zh": "这个概念并不是很新鲜。",
+          "vi": "không mới mẻ lắm."
+        }
+      ]
+    },
+    "153": {
+      "zh": "那为什么拼多多在中国会忽然之间崛起，忽然之间做的这么大呢？",
+      "parts": [
+        {
+          "zh": "那为什么拼多多在中国",
+          "vi": "Vậy vì sao Pinduoduo ở Trung Quốc"
+        },
+        {
+          "zh": "会忽然之间崛起，",
+          "vi": "lại bỗng nhiên nổi lên,"
+        },
+        {
+          "zh": "忽然之间做的这么大呢？",
+          "vi": "bỗng nhiên làm lớn đến vậy?"
+        }
+      ]
+    },
+    "154": {
+      "zh": "这个问题我觉得可能和拼多多选择的一些产品有关系吧，",
+      "parts": [
+        {
+          "zh": "这个问题我觉得可能和拼多多",
+          "vi": "Vấn đề này mình nghĩ có lẽ liên quan đến"
+        },
+        {
+          "zh": "选择的一些产品有关系吧，",
+          "vi": "một số sản phẩm mà Pinduoduo chọn,"
+        }
+      ]
+    },
+    "155": {
+      "zh": "因为比如拼多多上面我们经常会买到的一些就是日用品方面的东西，它会以非常低的价格卖给你。",
+      "parts": [
+        {
+          "zh": "因为比如拼多多上面",
+          "vi": "vì ví dụ trên Pinduoduo"
+        },
+        {
+          "zh": "我们经常会买到的一些",
+          "vi": "những thứ bọn mình hay mua"
+        },
+        {
+          "zh": "就是日用品方面的东西，",
+          "vi": "là đồ dùng hằng ngày,"
+        },
+        {
+          "zh": "它会以非常低的价格卖给你。",
+          "vi": "nó sẽ bán cho bạn với giá rất thấp."
+        }
+      ]
+    },
+    "156": {
+      "zh": "我觉得这个是非常吸引我们就像爸爸妈妈这一辈人的消费的欲望的。",
+      "parts": [
+        {
+          "zh": "我觉得这个是非常吸引",
+          "vi": "Mình thấy điều này rất thu hút"
+        },
+        {
+          "zh": "我们就像爸爸妈妈这一辈人的",
+          "vi": "chúng ta, kiểu như thế hệ bố mẹ,"
+        },
+        {
+          "zh": "消费的欲望的。",
+          "vi": "về ham muốn tiêu dùng."
+        }
+      ]
+    },
+    "157": {
+      "zh": "就比如说你买一管牙膏，可能正常的价格要十块钱人民币左右，但是你在拼多多上。可以买到类似带引号的类似的产品的话，可能只需要五块钱人民币左右，这个是非常有吸引力的。",
+      "parts": [
+        {
+          "zh": "就比如说你买一管牙膏，",
+          "vi": "Ví dụ bạn mua một tuýp kem đánh răng,"
+        },
+        {
+          "zh": "可能正常的价格",
+          "vi": "có khi giá bình thường"
+        },
+        {
+          "zh": "要十块钱人民币左右，",
+          "vi": "khoảng 10 tệ,"
+        },
+        {
+          "zh": "但是你在拼多多上。可以买到类似",
+          "vi": "nhưng trên Pinduoduo bạn có thể mua được thứ tương tự,"
+        },
+        {
+          "zh": "带引号的类似的产品的话，",
+          "vi": "\"tương tự\" trong ngoặc kép, nếu là sản phẩm như thế,"
+        },
+        {
+          "zh": "可能只需要五块钱人民币左右，",
+          "vi": "có khi chỉ cần khoảng 5 tệ,"
+        },
+        {
+          "zh": "这个是非常有吸引力的。",
+          "vi": "điều này rất có sức hút."
+        }
+      ]
+    },
+    "159": {
+      "zh": "我觉得，我一直有这么一个印象，就是拼多多它它的目标客户啊、",
+      "parts": [
+        {
+          "zh": "我觉得，我一直有这么一个印象，",
+          "vi": "Mình thấy, mình luôn có một ấn tượng,"
+        },
+        {
+          "zh": "就是拼多多它它的目标客户啊、",
+          "vi": "là khách hàng mục tiêu của Pinduoduo,"
+        }
+      ]
+    },
+    "160": {
+      "zh": "目标群体是一些二线城市和三线城市的人。",
+      "parts": [
+        {
+          "zh": "目标群体是一些",
+          "vi": "nhóm đối tượng mục tiêu là"
+        },
+        {
+          "zh": "二线城市和三线城市的人。",
+          "vi": "người ở các thành phố hạng hai, hạng ba."
+        }
+      ]
+    },
+    "161": {
+      "zh": "你觉得我这个这个印象是是对的吗？",
+      "vi": "Bạn thấy ấn tượng này của mình có đúng không?"
+    },
+    "162": {
+      "zh": "我觉得可以这么说吧。",
+      "vi": "Mình nghĩ có thể nói như vậy."
+    },
+    "163": {
+      "zh": "呃，因为Joanne来自上海嘛，上海其实是一个便利店行业发展非常迅猛的城市。",
+      "parts": [
+        {
+          "zh": "呃，因为Joanne来自上海嘛，",
+          "vi": "Ờ, vì Joanne đến từ Thượng Hải mà,"
+        },
+        {
+          "zh": "上海其实是一个",
+          "vi": "Thượng Hải thật ra là một"
+        },
+        {
+          "zh": "便利店行业发展非常迅猛的城市。",
+          "vi": "thành phố có ngành cửa hàng tiện lợi phát triển cực nhanh."
+        }
+      ]
+    },
+    "164": {
+      "zh": "你半夜十二点出门都可以买到你想要的东西，",
+      "parts": [
+        {
+          "zh": "你半夜十二点出门",
+          "vi": "Nửa đêm 12 giờ bạn ra ngoài"
+        },
+        {
+          "zh": "都可以买到你想要的东西，",
+          "vi": "cũng mua được thứ bạn muốn,"
+        }
+      ]
+    },
+    "165": {
+      "zh": "但是在一些呃靠西部的或者说靠北部的一些二线或者说是十八线的小城市当中，",
+      "parts": [
+        {
+          "zh": "但是在一些呃靠西部的",
+          "vi": "nhưng ở một số, ờ, vùng phía tây"
+        },
+        {
+          "zh": "或者说靠北部的一些",
+          "vi": "hoặc vùng phía bắc,"
+        },
+        {
+          "zh": "二线或者说是十八线的小城市当中，",
+          "vi": "ở các thành phố nhỏ hạng hai hoặc hạng 18,"
+        }
+      ]
+    },
+    "166": {
+      "zh": "其实人们买到这种日常生活用品的途径可能是去超市或者是去小卖部，这是非常不方便的，",
+      "parts": [
+        {
+          "zh": "其实人们买到这种",
+          "vi": "thật ra cách người ta mua"
+        },
+        {
+          "zh": "日常生活用品的途径",
+          "vi": "đồ dùng sinh hoạt hằng ngày"
+        },
+        {
+          "zh": "可能是去超市或者是去小卖部，",
+          "vi": "có lẽ là đi siêu thị hoặc ra tiệm tạp hóa,"
+        },
+        {
+          "zh": "这是非常不方便的，",
+          "vi": "rất là bất tiện,"
+        }
+      ]
+    },
+    "167": {
+      "zh": "而且他们的价格其实。",
+      "vi": "Hơn nữa giá cả ở đó thật ra…"
+    },
+    "168": {
+      "zh": "会随着一个整个一个市场价格的波动，一个进行变化。",
+      "parts": [
+        {
+          "zh": "会随着一个整个一个",
+          "vi": "sẽ theo, cả cái"
+        },
+        {
+          "zh": "市场价格的波动，一个进行变化。",
+          "vi": "biến động giá thị trường mà thay đổi."
+        }
+      ]
+    },
+    "169": {
+      "zh": "所以我觉得这就是为什么拼多多的受众群体可能更多的是在一些小城市的呃家庭会选择拼多多。",
+      "parts": [
+        {
+          "zh": "所以我觉得这就是为什么",
+          "vi": "Nên mình nghĩ đây là lý do vì sao"
+        },
+        {
+          "zh": "拼多多的受众群体",
+          "vi": "đối tượng khách hàng của Pinduoduo"
+        },
+        {
+          "zh": "可能更多的是在一些小城市的",
+          "vi": "có lẽ phần nhiều là ở các thành phố nhỏ,"
+        },
+        {
+          "zh": "呃家庭会选择拼多多。",
+          "vi": "ờ, các gia đình sẽ chọn Pinduoduo."
+        }
+      ]
+    },
+    "170": {
+      "zh": "拼多多我觉得最可怕的一点，它就是它需要你经常转发一些广告，然后通过别人的点击和转发来。",
+      "parts": [
+        {
+          "zh": "拼多多我觉得最可怕的一点，",
+          "vi": "Pinduoduo, mình thấy điểm đáng sợ nhất,"
+        },
+        {
+          "zh": "它就是它需要你经常转发一些广告，",
+          "vi": "là nó bắt bạn thường xuyên chia sẻ quảng cáo,"
+        },
+        {
+          "zh": "然后通过别人的点击和转发来。",
+          "vi": "rồi nhờ người khác bấm vào và chia sẻ,"
+        }
+      ]
+    },
+    "171": {
+      "zh": "给你更多的折扣。",
+      "vi": "để cho bạn thêm giảm giá."
+    },
+    "172": {
+      "zh": "我本人因为没有用过拼多多，但是我经常会收到一些朋友或者是亲戚、亲朋好友，",
+      "parts": [
+        {
+          "zh": "我本人因为没有用过拼多多，",
+          "vi": "Bản thân mình vì chưa từng dùng Pinduoduo,"
+        },
+        {
+          "zh": "但是我经常会收到一些朋友",
+          "vi": "nhưng mình hay nhận được từ một số bạn bè"
+        },
+        {
+          "zh": "或者是亲戚、亲朋好友，",
+          "vi": "hoặc họ hàng, người thân bạn bè,"
+        }
+      ]
+    },
+    "173": {
+      "zh": "他们给我转发说：“哎，Joanne，你能不能点击一下这个链接？",
+      "parts": [
+        {
+          "zh": "他们给我转发说：“哎，Joanne，",
+          "vi": "họ chuyển cho mình, bảo: \"Này, Joanne,"
+        },
+        {
+          "zh": "你能不能点击一下这个链接？",
+          "vi": "bạn bấm vào cái link này giúp được không?"
+        }
+      ]
+    },
+    "174": {
+      "zh": "如果你点击了，就可以，我就可以享受更多的折扣。”",
+      "parts": [
+        {
+          "zh": "如果你点击了，就可以，",
+          "vi": "Nếu bạn bấm vào thì được,"
+        },
+        {
+          "zh": "我就可以享受更多的折扣。”",
+          "vi": "mình sẽ được hưởng thêm giảm giá.\""
+        }
+      ]
+    },
+    "175": {
+      "zh": "所以通过这样一种模式，相当于让更多的人来加入拼多多，来知道拼多多。",
+      "parts": [
+        {
+          "zh": "所以通过这样一种模式，",
+          "vi": "Nên thông qua cách này,"
+        },
+        {
+          "zh": "相当于让更多的人",
+          "vi": "coi như là để nhiều người hơn"
+        },
+        {
+          "zh": "来加入拼多多，来知道拼多多。",
+          "vi": "tham gia Pinduoduo, biết đến Pinduoduo."
+        }
+      ]
+    },
+    "176": {
+      "zh": "对，",
+      "vi": "Đúng,"
+    },
+    "177": {
+      "zh": "我觉得。",
+      "vi": "Mình nghĩ."
+    },
+    "178": {
+      "zh": "这个应该是他们的一种宣传的手段吧，就是为了让，其实就是相当于是一种做广告的手段。",
+      "parts": [
+        {
+          "zh": "这个应该是他们的",
+          "vi": "Đây chắc là một"
+        },
+        {
+          "zh": "一种宣传的手段吧，",
+          "vi": "chiêu tuyên truyền của họ,"
+        },
+        {
+          "zh": "就是为了让，其实就是",
+          "vi": "tức là để, thật ra là"
+        },
+        {
+          "zh": "相当于是一种做广告的手段。",
+          "vi": "một kiểu chiêu quảng cáo."
+        }
+      ]
+    },
+    "179": {
+      "zh": "你通过给客户一些呃折扣，来让大家更多的人知道你这个呃App。",
+      "parts": [
+        {
+          "zh": "你通过给客户一些呃折扣，",
+          "vi": "Bạn cho khách hàng một chút, ờ, giảm giá,"
+        },
+        {
+          "zh": "来让大家更多的人知道",
+          "vi": "để nhiều người hơn biết đến"
+        },
+        {
+          "zh": "你这个呃App。",
+          "vi": "cái, ờ, app của bạn."
+        }
+      ]
+    },
+    "180": {
+      "zh": "嗯。",
+      "vi": "Ừm."
+    },
+    "181": {
+      "zh": "同时，这个呃怎么讲？",
+      "vi": "Đồng thời, cái này, ờ, nói sao nhỉ?"
+    },
+    "182": {
+      "zh": "这个分享给大家，然后通过大家点击链接的这个行为，其实在中文的网络世界有一个更加。形象化的一个说法叫做砍一刀因为经常你会在这个尤其是在家族的群里面你会看到比如说你的姑姑会突然发来一个拼多多的链接然后请求大家说家人朋友们帮帮忙帮我来砍一刀然后点过链接的家人会在群里面回复说已砍已砍已砍这样的话砍的人越多你得到的折扣也就越多嘛砍这个动词本来其实就是用在刀，",
+      "parts": [
+        {
+          "zh": "这个分享给大家，",
+          "vi": "cái việc chia sẻ cho mọi người,"
+        },
+        {
+          "zh": "然后通过大家点击链接的这个行为，",
+          "vi": "rồi việc mọi người bấm vào link,"
+        },
+        {
+          "zh": "其实在中文的网络世界",
+          "vi": "thật ra trong thế giới mạng tiếng Trung"
+        },
+        {
+          "zh": "有一个更加。形象化的一个说法",
+          "vi": "có một cách nói hình tượng hơn,"
+        },
+        {
+          "zh": "叫做砍一刀",
+          "vi": "gọi là 砍一刀 (chặt một nhát),"
+        },
+        {
+          "zh": "因为经常你会在这个尤其是",
+          "vi": "vì bạn thường sẽ, nhất là"
+        },
+        {
+          "zh": "在家族的群里面你会看到",
+          "vi": "trong nhóm chat gia đình, bạn sẽ thấy"
+        },
+        {
+          "zh": "比如说你的姑姑会突然发来",
+          "vi": "ví dụ cô của bạn bỗng nhiên gửi đến"
+        },
+        {
+          "zh": "一个拼多多的链接",
+          "vi": "một cái link Pinduoduo,"
+        },
+        {
+          "zh": "然后请求大家说",
+          "vi": "rồi nhờ mọi người:"
+        },
+        {
+          "zh": "家人朋友们帮帮忙帮我来砍一刀",
+          "vi": "\"Người nhà, bạn bè ơi giúp với, chặt giúp một nhát\","
+        },
+        {
+          "zh": "然后点过链接的家人会在群里面",
+          "vi": "rồi những người nhà đã bấm link sẽ vào nhóm"
+        },
+        {
+          "zh": "回复说已砍已砍已砍",
+          "vi": "trả lời \"đã chặt, đã chặt, đã chặt\","
+        },
+        {
+          "zh": "这样的话砍的人越多",
+          "vi": "như vậy người chặt càng nhiều,"
+        },
+        {
+          "zh": "你得到的折扣也就越多嘛",
+          "vi": "bạn được giảm giá càng nhiều mà."
+        },
+        {
+          "zh": "砍这个动词本来其实就是用在刀，",
+          "vi": "Động từ 砍 này vốn dĩ là dùng với dao,"
+        }
+      ]
+    },
+    "187": {
+      "zh": "就是说你用刀来砍什么东西，砍树，比如说。",
+      "parts": [
+        {
+          "zh": "就是说你用刀来砍什么东西，",
+          "vi": "tức là bạn dùng dao để chặt cái gì đó,"
+        },
+        {
+          "zh": "砍树，比如说。",
+          "vi": "chặt cây chẳng hạn."
+        }
+      ]
+    },
+    "188": {
+      "zh": "那现在的话，因为其实在中文里面，如果你要价格说的更低一点，我们有一个说法叫砍价，",
+      "parts": [
+        {
+          "zh": "那现在的话，因为其实在中文里面，",
+          "vi": "Còn bây giờ thì, vì trong tiếng Trung,"
+        },
+        {
+          "zh": "如果你要价格说的更低一点，",
+          "vi": "nếu bạn muốn nói giá thấp hơn một chút,"
+        },
+        {
+          "zh": "我们有一个说法叫砍价，",
+          "vi": "chúng ta có một cách nói là 砍价 (mặc cả),"
+        }
+      ]
+    },
+    "189": {
+      "zh": "就是把价格砍得更低一点。",
+      "vi": "tức là chặt giá xuống thấp hơn một chút."
+    },
+    "190": {
+      "zh": "所以现在就在拼多多上面有这么个说法叫砍一刀。",
+      "parts": [
+        {
+          "zh": "所以现在就在拼多多上面",
+          "vi": "Nên bây giờ trên Pinduoduo"
+        },
+        {
+          "zh": "有这么个说法叫砍一刀。",
+          "vi": "mới có cách nói như vậy, gọi là 砍一刀."
+        }
+      ]
+    },
+    "191": {
+      "zh": "对，",
+      "vi": "Đúng,"
+    },
+    "192": {
+      "zh": "其实这是我觉得这还是一种蛮形象、蛮具体的说法。",
+      "parts": [
+        {
+          "zh": "其实这是我觉得",
+          "vi": "Thật ra cái này mình thấy"
+        },
+        {
+          "zh": "这还是一种蛮形象、蛮具体的说法。",
+          "vi": "vẫn là một cách nói khá hình tượng, khá cụ thể."
+        }
+      ]
+    },
+    "193": {
+      "zh": "因为就有一种符合了它企业内涵的感觉，又是拼，就是叫大家一起来，又是砍，",
+      "parts": [
+        {
+          "zh": "因为就有一种",
+          "vi": "Vì nó có cảm giác"
+        },
+        {
+          "zh": "符合了它企业内涵的感觉，",
+          "vi": "hợp với tinh thần doanh nghiệp của họ,"
+        },
+        {
+          "zh": "又是拼，就是叫大家一起来，又是砍，",
+          "vi": "vừa là 拼 (ghép), tức là gọi mọi người cùng vào, vừa là 砍 (chặt),"
+        }
+      ]
+    },
+    "194": {
+      "zh": "又可以帮你拿到更多的优惠，感觉还是蛮有趣的一个词汇。",
+      "parts": [
+        {
+          "zh": "又可以帮你拿到更多的优惠，",
+          "vi": "lại vừa giúp bạn có thêm ưu đãi,"
+        },
+        {
+          "zh": "感觉还是蛮有趣的一个词汇。",
+          "vi": "cảm giác là một từ khá thú vị."
+        }
+      ]
+    },
+    "195": {
+      "zh": "对，然后刚才又想到这个提到二线、三线和十八线城市这个词，我觉得可能也是中国独有的，",
+      "parts": [
+        {
+          "zh": "对，然后刚才又想到这个",
+          "vi": "Đúng, rồi vừa nãy lại nghĩ đến"
+        },
+        {
+          "zh": "提到二线、三线和十八线城市这个词，",
+          "vi": "chuyện nhắc tới các từ thành phố hạng hai, hạng ba, hạng 18,"
+        },
+        {
+          "zh": "我觉得可能也是中国独有的，",
+          "vi": "mình thấy có lẽ cũng là thứ chỉ Trung Quốc mới có,"
+        }
+      ]
+    },
+    "196": {
+      "zh": "就是你我们的定义里面哪些城市算是二线城市呢？",
+      "parts": [
+        {
+          "zh": "就是你我们的定义里面",
+          "vi": "tức là trong định nghĩa của chúng ta"
+        },
+        {
+          "zh": "哪些城市算是二线城市呢？",
+          "vi": "những thành phố nào được coi là thành phố hạng hai?"
+        }
+      ]
+    },
+    "197": {
+      "zh": "你觉得？",
+      "vi": "Bạn thấy sao?"
+    },
+    "198": {
+      "zh": "二线城市对于我来说我个人的理解二线城市就是一些在一线城市周边的一些省市的首府或者说是",
+      "parts": [
+        {
+          "zh": "二线城市对于我来说",
+          "vi": "Thành phố hạng hai, đối với mình mà nói,"
+        },
+        {
+          "zh": "我个人的理解二线城市就是一些",
+          "vi": "theo cách hiểu của cá nhân mình, thành phố hạng hai là"
+        },
+        {
+          "zh": "在一线城市周边的",
+          "vi": "những thành phố quanh các thành phố hạng nhất,"
+        },
+        {
+          "zh": "一些省市的首府或者说是",
+          "vi": "thủ phủ của một số tỉnh thành, hoặc là"
+        }
+      ]
+    },
+    "199": {
+      "zh": "紧邻着一线城市的一些城市举一个最恰当的例子就比如说杭州苏州或者是南京在我看来这些就是很典型的二线城市因为它首先不如北京上海广州深圳这么出名呃，其次，它距离这些中心的城市是有一定的距离的。",
+      "parts": [
+        {
+          "zh": "紧邻着一线城市的一些城市",
+          "vi": "những thành phố nằm sát cạnh thành phố hạng nhất,"
+        },
+        {
+          "zh": "举一个最恰当的例子",
+          "vi": "lấy một ví dụ thích hợp nhất,"
+        },
+        {
+          "zh": "就比如说杭州苏州或者是南京",
+          "vi": "ví dụ như Hàng Châu, Tô Châu hoặc Nam Kinh,"
+        },
+        {
+          "zh": "在我看来",
+          "vi": "theo mình thấy,"
+        },
+        {
+          "zh": "这些就是很典型的二线城市",
+          "vi": "đây là những thành phố hạng hai rất điển hình,"
+        },
+        {
+          "zh": "因为它首先不如",
+          "vi": "vì trước hết chúng không"
+        },
+        {
+          "zh": "北京上海广州深圳这么出名",
+          "vi": "nổi tiếng bằng Bắc Kinh, Thượng Hải, Quảng Châu, Thâm Quyến,"
+        },
+        {
+          "zh": "呃，其次，它距离这些中心的城市",
+          "vi": "ờ, thứ hai, chúng cách những thành phố trung tâm này"
+        },
+        {
+          "zh": "是有一定的距离的。",
+          "vi": "một khoảng cách nhất định."
+        }
+      ]
+    },
+    "202": {
+      "zh": "我觉得这就是为什么它叫做二线城市。",
+      "parts": [
+        {
+          "zh": "我觉得这就是为什么",
+          "vi": "Mình nghĩ đó chính là lý do vì sao"
+        },
+        {
+          "zh": "它叫做二线城市。",
+          "vi": "chúng được gọi là thành phố hạng hai."
+        }
+      ]
+    },
+    "203": {
+      "zh": "还有另外一个原因是，我觉得在这些城市，在这些所谓的二线城市，",
+      "parts": [
+        {
+          "zh": "还有另外一个原因是，",
+          "vi": "Còn một lý do khác là,"
+        },
+        {
+          "zh": "我觉得在这些城市，",
+          "vi": "mình thấy ở những thành phố này,"
+        },
+        {
+          "zh": "在这些所谓的二线城市，",
+          "vi": "ở những thành phố gọi là hạng hai này,"
+        }
+      ]
+    },
+    "204": {
+      "zh": "其实我们正在努力的过一种所谓的国际化的生活，就是在呃怎么讲，试图追赶一线城市的步伐吧。",
+      "parts": [
+        {
+          "zh": "其实我们正在努力的",
+          "vi": "thật ra chúng ta đang cố gắng"
+        },
+        {
+          "zh": "过一种所谓的国际化的生活，",
+          "vi": "sống một cuộc sống gọi là quốc tế hóa,"
+        },
+        {
+          "zh": "就是在呃怎么讲，",
+          "vi": "tức là, ờ, nói sao nhỉ,"
+        },
+        {
+          "zh": "试图追赶一线城市的步伐吧。",
+          "vi": "cố đuổi theo nhịp bước của các thành phố hạng nhất."
+        }
+      ]
+    },
+    "205": {
+      "zh": "这是我为什么叫它二线城市。",
+      "vi": "Đó là lý do vì sao mình gọi chúng là thành phố hạng hai."
+    },
+    "206": {
+      "zh": "二线、一线这两个词呢，我觉得也不仅仅可以用在城市，",
+      "parts": [
+        {
+          "zh": "二线、一线这两个词呢，",
+          "vi": "Hai từ 二线 (hạng hai), 一线 (hạng nhất) này,"
+        },
+        {
+          "zh": "我觉得也不仅仅可以用在城市，",
+          "vi": "mình thấy không chỉ dùng được cho thành phố,"
+        }
+      ]
+    },
+    "207": {
+      "zh": "它其实本来的意思就是第一个档次或者是第一个最好的那一批。",
+      "parts": [
+        {
+          "zh": "它其实本来的意思就是第一个档次",
+          "vi": "nghĩa gốc của nó thật ra là đẳng cấp thứ nhất"
+        },
+        {
+          "zh": "或者是第一个最好的那一批。",
+          "vi": "hay là nhóm đầu tiên, tốt nhất."
+        }
+      ]
+    },
+    "208": {
+      "zh": "二线就是不是最好的，但是也不错的那一些东西。",
+      "parts": [
+        {
+          "zh": "二线就是不是最好的，",
+          "vi": "Hạng hai là không phải tốt nhất,"
+        },
+        {
+          "zh": "但是也不错的那一些东西。",
+          "vi": "nhưng cũng là những thứ không tệ."
+        }
+      ]
+    },
+    "209": {
+      "zh": "那不仅仅是城市，比如说你可以说一线明星，明星就是演员呀。歌手呀，也有二线明星。",
+      "parts": [
+        {
+          "zh": "那不仅仅是城市，",
+          "vi": "Vậy không chỉ thành phố,"
+        },
+        {
+          "zh": "比如说你可以说一线明星，",
+          "vi": "ví dụ bạn có thể nói ngôi sao hạng nhất,"
+        },
+        {
+          "zh": "明星就是演员呀。歌手呀，",
+          "vi": "ngôi sao tức là diễn viên này, ca sĩ này,"
+        },
+        {
+          "zh": "也有二线明星。",
+          "vi": "cũng có ngôi sao hạng hai."
+        }
+      ]
+    },
+    "211": {
+      "zh": "那如果说有一些明星他没有很多的电影，或者他不是很有名，就可以管他们叫十八线明星。",
+      "parts": [
+        {
+          "zh": "那如果说有一些明星",
+          "vi": "Vậy nếu có một số ngôi sao"
+        },
+        {
+          "zh": "他没有很多的电影，",
+          "vi": "không có nhiều phim,"
+        },
+        {
+          "zh": "或者他不是很有名，",
+          "vi": "hoặc không nổi tiếng lắm,"
+        },
+        {
+          "zh": "就可以管他们叫十八线明星。",
+          "vi": "thì có thể gọi họ là ngôi sao hạng 18."
+        }
+      ]
+    },
+    "212": {
+      "zh": "这中国呢非常喜欢用“十八”这个数字，我也不知道为什么，",
+      "parts": [
+        {
+          "zh": "这中国呢非常喜欢用“十八”这个数字，",
+          "vi": "Ở Trung Quốc rất thích dùng con số \"18\","
+        },
+        {
+          "zh": "我也不知道为什么，",
+          "vi": "mình cũng không biết tại sao,"
+        }
+      ]
+    },
+    "213": {
+      "zh": "就是反正要说很就是很后面数字很很后面的时候呢，就会用“十八”这个词。",
+      "parts": [
+        {
+          "zh": "就是反正要说很就是很后面",
+          "vi": "kiểu dù sao muốn nói rất là, rất là ở phía sau,"
+        },
+        {
+          "zh": "数字很很后面的时候呢，",
+          "vi": "lúc con số rất, rất là ở phía sau,"
+        },
+        {
+          "zh": "就会用“十八”这个词。",
+          "vi": "thì sẽ dùng chữ \"18\"."
+        }
+      ]
+    },
+    "214": {
+      "zh": "我也很好奇，因为我不知道这个事情是不是只在中国的文化当中存在。",
+      "parts": [
+        {
+          "zh": "我也很好奇，",
+          "vi": "Mình cũng rất tò mò,"
+        },
+        {
+          "zh": "因为我不知道这个事情",
+          "vi": "vì mình không biết chuyện này"
+        },
+        {
+          "zh": "是不是只在中国的文化当中存在。",
+          "vi": "có phải chỉ có trong văn hóa Trung Quốc không."
+        }
+      ]
+    },
+    "215": {
+      "zh": "因为我们在说地狱的时候，我们会说十八层地狱。",
+      "parts": [
+        {
+          "zh": "因为我们在说地狱的时候，",
+          "vi": "Vì khi nói về địa ngục,"
+        },
+        {
+          "zh": "我们会说十八层地狱。",
+          "vi": "chúng ta sẽ nói 18 tầng địa ngục."
+        }
+      ]
+    },
+    "216": {
+      "zh": "我不知道为什么，可是，在我看来，在中国的文化体系里面，应该是没有地狱这个概念的吧？",
+      "parts": [
+        {
+          "zh": "我不知道为什么，可是，",
+          "vi": "Mình không biết tại sao, nhưng mà,"
+        },
+        {
+          "zh": "在我看来，在中国的文化体系里面，",
+          "vi": "theo mình thấy, trong hệ thống văn hóa Trung Quốc,"
+        },
+        {
+          "zh": "应该是没有地狱这个概念的吧？",
+          "vi": "chắc là không có khái niệm địa ngục nhỉ?"
+        }
+      ]
+    },
+    "217": {
+      "zh": "对，",
+      "vi": "Đúng,"
+    },
+    "218": {
+      "zh": "但十八确实是一个非常神奇的数字。",
+      "vi": "Nhưng 18 đúng là một con số rất thần kỳ."
+    },
+    "219": {
+      "zh": "所以刚才就说有一线城市、一线明星，也可以说一线品牌，",
+      "parts": [
+        {
+          "zh": "所以刚才就说有一线城市、",
+          "vi": "Nên vừa nãy nói có thành phố hạng nhất,"
+        },
+        {
+          "zh": "一线明星，也可以说一线品牌，",
+          "vi": "ngôi sao hạng nhất, cũng có thể nói thương hiệu hạng nhất,"
+        }
+      ]
+    },
+    "220": {
+      "zh": "反正什么反正是可以分档次的东西呢，都可以说一线、二线。",
+      "parts": [
+        {
+          "zh": "反正什么",
+          "vi": "dù sao thì gì cũng…"
+        },
+        {
+          "zh": "反正是可以分档次的东西呢，",
+          "vi": "dù sao những thứ có thể chia đẳng cấp,"
+        },
+        {
+          "zh": "都可以说一线、二线。",
+          "vi": "đều có thể nói hạng nhất, hạng hai."
+        }
+      ]
+    },
+    "221": {
+      "zh": "其实另外一线还有另外的一个用法。",
+      "vi": "Thật ra 一线 còn có một cách dùng khác."
+    },
+    "222": {
+      "zh": "就比如说一线工人、一线教师，就是指他们是冲在最前面、最直接接触到这个生产活动的人，",
+      "parts": [
+        {
+          "zh": "就比如说一线工人、一线教师，",
+          "vi": "Ví dụ như công nhân tuyến đầu, giáo viên tuyến đầu,"
+        },
+        {
+          "zh": "就是指他们是冲在最前面、",
+          "vi": "tức là chỉ những người xông pha ở phía trước nhất,"
+        },
+        {
+          "zh": "最直接接触到这个生产活动的人，",
+          "vi": "tiếp xúc trực tiếp nhất với hoạt động sản xuất,"
+        }
+      ]
+    },
+    "223": {
+      "zh": "所以会叫他们，比如一线工人、一线教师、一线医生等等等等。",
+      "parts": [
+        {
+          "zh": "所以会叫他们，比如一线工人、",
+          "vi": "nên sẽ gọi họ là, ví dụ công nhân tuyến đầu,"
+        },
+        {
+          "zh": "一线教师、一线医生等等等等。",
+          "vi": "giáo viên tuyến đầu, bác sĩ tuyến đầu, vân vân và vân vân."
+        }
+      ]
+    },
+    "224": {
+      "zh": "所以这两个一线的意思是挺不一样的。",
+      "parts": [
+        {
+          "zh": "所以这两个一线的意思",
+          "vi": "Nên hai nghĩa của 一线 này"
+        },
+        {
+          "zh": "是挺不一样的。",
+          "vi": "khá là khác nhau."
+        }
+      ]
+    },
+    "225": {
+      "zh": "刚才说的第一个一线呢，其实是first tier、first class；",
+      "parts": [
+        {
+          "zh": "刚才说的第一个一线呢，",
+          "vi": "一线 thứ nhất vừa nói,"
+        },
+        {
+          "zh": "其实是first tier、",
+          "vi": "thật ra là first tier,"
+        },
+        {
+          "zh": "first class；",
+          "vi": "first class;"
+        }
+      ]
+    },
+    "226": {
+      "zh": "然后第二个一线，刚才Leo说的一线工人，其实是frontline的意思。",
+      "parts": [
+        {
+          "zh": "然后第二个一线，",
+          "vi": "còn 一线 thứ hai,"
+        },
+        {
+          "zh": "刚才Leo说的一线工人，",
+          "vi": "công nhân tuyến đầu mà Leo vừa nói,"
+        },
+        {
+          "zh": "其实是frontline的意思。",
+          "vi": "thật ra là nghĩa frontline."
+        }
+      ]
+    },
+    "227": {
+      "zh": "所以一线有这两个不同的意思，我觉得我心目中或者传统定义上的一线城市只有四个：北上广深，对吧？",
+      "parts": [
+        {
+          "zh": "所以一线有这两个不同的意思，",
+          "vi": "Nên 一线 có hai nghĩa khác nhau như vậy,"
+        },
+        {
+          "zh": "我觉得我心目中或者传统定义上的",
+          "vi": "mình thấy trong suy nghĩ của mình hay theo định nghĩa truyền thống,"
+        },
+        {
+          "zh": "一线城市只有四个：北上广深，对吧？",
+          "vi": "thành phố hạng nhất chỉ có bốn: Bắc–Thượng–Quảng–Thâm, đúng không?"
+        }
+      ]
+    },
+    "229": {
+      "zh": "嗯。",
+      "vi": "Ừm."
+    },
+    "230": {
+      "zh": "就是北京、上海、广州、深圳。",
+      "vi": "Tức là Bắc Kinh, Thượng Hải, Quảng Châu, Thâm Quyến."
+    },
+    "231": {
+      "zh": "对。",
+      "vi": "Đúng."
+    },
+    "232": {
+      "zh": "然后二线，我觉得就像你说的是一些省会城市，比如说苏州、杭州、南京之类的。",
+      "parts": [
+        {
+          "zh": "然后二线，我觉得",
+          "vi": "Rồi hạng hai, mình thấy"
+        },
+        {
+          "zh": "就像你说的是一些省会城市，",
+          "vi": "giống như bạn nói, là một số thành phố tỉnh lỵ,"
+        },
+        {
+          "zh": "比如说苏州、杭州、南京之类的。",
+          "vi": "ví dụ như Tô Châu, Hàng Châu, Nam Kinh các kiểu."
+        }
+      ]
+    },
+    "233": {
+      "zh": "你觉得上海呃，你觉得中国大概有多少个二线城市？",
+      "parts": [
+        {
+          "zh": "你觉得上海呃，",
+          "vi": "Bạn thấy Thượng Hải, ờ,"
+        },
+        {
+          "zh": "你觉得中国大概有多少个二线城市？",
+          "vi": "bạn thấy Trung Quốc có khoảng bao nhiêu thành phố hạng hai?"
+        }
+      ]
+    },
+    "234": {
+      "zh": "这个其实比较难讲吧，我觉得，因为就像我们现在讲一线城市的这个概念，北上广深，",
+      "parts": [
+        {
+          "zh": "这个其实比较难讲吧，我觉得，",
+          "vi": "Cái này thật ra khá khó nói, mình thấy,"
+        },
+        {
+          "zh": "因为就像我们现在讲",
+          "vi": "vì giống như bây giờ chúng ta nói"
+        },
+        {
+          "zh": "一线城市的这个概念，北上广深，",
+          "vi": "khái niệm thành phố hạng nhất, Bắc–Thượng–Quảng–Thâm,"
+        }
+      ]
+    },
+    "235": {
+      "zh": "其实我们现在已经不把它叫做一线城市了，我们叫它超一线城市，",
+      "parts": [
+        {
+          "zh": "其实我们现在已经",
+          "vi": "thật ra bây giờ chúng ta đã"
+        },
+        {
+          "zh": "不把它叫做一线城市了，",
+          "vi": "không gọi chúng là thành phố hạng nhất nữa,"
+        },
+        {
+          "zh": "我们叫它超一线城市，",
+          "vi": "mà gọi là thành phố siêu hạng nhất,"
+        }
+      ]
+    },
+    "236": {
+      "zh": "就是因为我们有太多所谓之前的二线城市，慢慢通过发展变成了之前所谓上海、北上广深的模样，所以现在所现在在二零二一年这个情况下，我觉得在中国你讲二线城市。",
+      "parts": [
+        {
+          "zh": "就是因为我们有太多",
+          "vi": "vì chúng ta có quá nhiều"
+        },
+        {
+          "zh": "所谓之前的二线城市，",
+          "vi": "thành phố trước đây gọi là hạng hai,"
+        },
+        {
+          "zh": "慢慢通过发展变成了",
+          "vi": "dần dần nhờ phát triển mà trở thành"
+        },
+        {
+          "zh": "之前所谓上海、北上广深的模样，",
+          "vi": "dáng vẻ của Thượng Hải, Bắc–Thượng–Quảng–Thâm trước đây,"
+        },
+        {
+          "zh": "所以现在所现在",
+          "vi": "nên bây giờ, bây giờ"
+        },
+        {
+          "zh": "在二零二一年这个情况下，",
+          "vi": "trong tình hình năm 2021,"
+        },
+        {
+          "zh": "我觉得在中国你讲二线城市。",
+          "vi": "mình nghĩ ở Trung Quốc mà nói thành phố hạng hai,"
+        }
+      ]
+    },
+    "238": {
+      "zh": "可能是会提到更多以前你都没有听说过城市的名字，比如说合肥。",
+      "parts": [
+        {
+          "zh": "可能是会提到更多",
+          "vi": "có khi sẽ nhắc đến nhiều hơn"
+        },
+        {
+          "zh": "以前你都没有听说过城市的名字，",
+          "vi": "những cái tên thành phố mà trước đây bạn chưa từng nghe,"
+        },
+        {
+          "zh": "比如说合肥。",
+          "vi": "ví dụ như Hợp Phì."
+        }
+      ]
+    },
+    "239": {
+      "zh": "合肥怎么会没听说过呢？",
+      "vi": "Hợp Phì sao lại chưa nghe chứ?"
+    },
+    "240": {
+      "zh": "或者比如说合肥是安徽的，那是因为你是江浙沪的人，你可能会听说过这个名字。",
+      "parts": [
+        {
+          "zh": "或者比如说合肥是安徽的，",
+          "vi": "Hoặc ví dụ… Hợp Phì là của An Huy. —"
+        },
+        {
+          "zh": "那是因为你是江浙沪的人，",
+          "vi": "Đó là vì bạn là người vùng Giang–Chiết–Hộ (江浙沪),"
+        },
+        {
+          "zh": "你可能会听说过这个名字。",
+          "vi": "nên có thể bạn từng nghe cái tên này."
+        }
+      ]
+    },
+    "241": {
+      "zh": "嗯，或者比如说，嗯，呼和浩特。",
+      "vi": "Ừm, hoặc ví dụ, ừm, Hohhot (呼和浩特)."
+    },
+    "242": {
+      "zh": "嗯，这个城市就是在内蒙古的一个城市嘛。",
+      "parts": [
+        {
+          "zh": "嗯，这个城市",
+          "vi": "Ừm, thành phố này"
+        },
+        {
+          "zh": "就是在内蒙古的一个城市嘛。",
+          "vi": "là một thành phố ở Nội Mông mà."
+        }
+      ]
+    },
+    "243": {
+      "zh": "嗯，它就我觉得在目前看来，它可以算上是一个二线的城市了。",
+      "parts": [
+        {
+          "zh": "嗯，它就我觉得在目前看来，",
+          "vi": "Ừm, nó thì mình thấy xét hiện tại,"
+        },
+        {
+          "zh": "它可以算上是一个二线的城市了。",
+          "vi": "nó có thể coi là một thành phố hạng hai rồi."
+        }
+      ]
+    },
+    "244": {
+      "zh": "嗯，因为所谓我们刚才说的南京、苏州、杭州这些已经变成了一线城市。",
+      "parts": [
+        {
+          "zh": "嗯，因为所谓我们刚才说的南京、",
+          "vi": "Ừm, vì cái gọi là… những nơi ta vừa nói, Nam Kinh,"
+        },
+        {
+          "zh": "苏州、杭州这些已经变成了一线城市。",
+          "vi": "Tô Châu, Hàng Châu, đã thành thành phố hạng nhất rồi."
+        }
+      ]
+    },
+    "245": {
+      "zh": "而之前的一线城市也变成了超一线城市。",
+      "parts": [
+        {
+          "zh": "而之前的一线城市",
+          "vi": "Còn những thành phố hạng nhất trước đây"
+        },
+        {
+          "zh": "也变成了超一线城市。",
+          "vi": "cũng đã thành thành phố siêu hạng nhất."
+        }
+      ]
+    },
+    "246": {
+      "zh": "刚才正好说到江浙沪这个词，我觉得也可以展开说一下，顺便让我想到了什么叫包邮区，",
+      "parts": [
+        {
+          "zh": "刚才正好说到江浙沪这个词，",
+          "vi": "Vừa nãy đúng lúc nói đến từ 江浙沪,"
+        },
+        {
+          "zh": "我觉得也可以展开说一下，",
+          "vi": "mình thấy cũng có thể nói rộng ra một chút,"
+        },
+        {
+          "zh": "顺便让我想到了什么叫包邮区，",
+          "vi": "tiện thể làm mình nghĩ đến thế nào là 包邮区,"
+        }
+      ]
+    },
+    "247": {
+      "zh": "因为正好讲到电商。",
+      "vi": "vì đúng lúc đang nói về thương mại điện tử."
+    },
+    "248": {
+      "zh": "江浙沪呢就是三个省，江是江苏，浙是浙江，沪是上海，",
+      "parts": [
+        {
+          "zh": "江浙沪呢就是三个省，",
+          "vi": "江浙沪 là ba tỉnh,"
+        },
+        {
+          "zh": "江是江苏，浙是浙江，沪是上海，",
+          "vi": "江 là Giang Tô, 浙 là Chiết Giang, 沪 là Thượng Hải,"
+        }
+      ]
+    },
+    "249": {
+      "zh": "所以这三个省份或者上海市它是连在一起的。",
+      "parts": [
+        {
+          "zh": "所以这三个省份",
+          "vi": "nên ba tỉnh này"
+        },
+        {
+          "zh": "或者上海市它是连在一起的。",
+          "vi": "hay thành phố Thượng Hải là nằm liền nhau."
+        }
+      ]
+    },
+    "250": {
+      "zh": "然后还有一个词叫江浙沪包邮区。",
+      "vi": "Rồi còn có một từ là 江浙沪包邮区 (vùng freeship Giang–Chiết–Hộ)."
+    },
+    "251": {
+      "zh": "包邮的意思就是你在网上购物的时候，通常来说由这个东西通过邮局运到你家，",
+      "parts": [
+        {
+          "zh": "包邮的意思就是",
+          "vi": "包邮 nghĩa là"
+        },
+        {
+          "zh": "你在网上购物的时候，",
+          "vi": "khi bạn mua sắm trên mạng,"
+        },
+        {
+          "zh": "通常来说由这个东西",
+          "vi": "thông thường món hàng"
+        },
+        {
+          "zh": "通过邮局运到你家，",
+          "vi": "được bưu điện chở đến nhà bạn,"
+        }
+      ]
+    },
+    "252": {
+      "zh": "你是要交邮费的嘛？",
+      "vi": "thì bạn phải trả phí gửi đúng không?"
+    },
+    "253": {
+      "zh": "包邮就是你不需要交邮费，邮费通过商家来包揽了，",
+      "parts": [
+        {
+          "zh": "包邮就是你不需要交邮费，",
+          "vi": "包邮 là bạn không cần trả phí gửi,"
+        },
+        {
+          "zh": "邮费通过商家来包揽了，",
+          "vi": "phí gửi do người bán gánh hết,"
+        }
+      ]
+    },
+    "254": {
+      "zh": "就叫做包邮区域。",
+      "vi": "thì gọi là vùng 包邮 (miễn phí vận chuyển)."
+    },
+    "255": {
+      "zh": "对，邮费就是运费，对吧？",
+      "vi": "Đúng, 邮费 chính là 运费 (phí vận chuyển), đúng không?"
+    },
+    "256": {
+      "zh": "对。",
+      "vi": "Đúng."
+    },
+    "257": {
+      "zh": "然后所以包邮其实是在中国购物的时候经常会用到的一个词，还挺有用的。",
+      "parts": [
+        {
+          "zh": "然后所以包邮其实是",
+          "vi": "Rồi nên 包邮 thật ra là"
+        },
+        {
+          "zh": "在中国购物的时候",
+          "vi": "khi mua sắm ở Trung Quốc"
+        },
+        {
+          "zh": "经常会用到的一个词，还挺有用的。",
+          "vi": "một từ hay dùng đến, khá là hữu ích."
+        }
+      ]
+    },
+    "258": {
+      "zh": "可是你知道为什么江浙沪叫做包邮区吗？",
+      "parts": [
+        {
+          "zh": "可是你知道为什么",
+          "vi": "Nhưng bạn có biết vì sao"
+        },
+        {
+          "zh": "江浙沪叫做包邮区吗？",
+          "vi": "江浙沪 lại được gọi là 包邮区 không?"
+        }
+      ]
+    },
+    "259": {
+      "zh": "因为阿里巴巴的总部在杭州是吗？",
+      "vi": "Vì trụ sở của Alibaba ở Hàng Châu phải không?"
+    },
+    "260": {
+      "zh": "是这样的。",
+      "vi": "Đúng là vậy."
+    },
+    "261": {
+      "zh": "对，所以从杭州出发呢，江浙沪比较近，所以就可以包邮。",
+      "parts": [
+        {
+          "zh": "对，所以从杭州出发呢，",
+          "vi": "Đúng, nên xuất phát từ Hàng Châu,"
+        },
+        {
+          "zh": "江浙沪比较近，所以就可以包邮。",
+          "vi": "Giang–Chiết–Hộ khá gần, nên có thể freeship."
+        }
+      ]
+    },
+    "262": {
+      "zh": "对对，",
+      "vi": "Đúng đúng,"
+    },
+    "263": {
+      "zh": "还有一个原因是因为江浙沪本来就是一个呃一体的经济体系，",
+      "parts": [
+        {
+          "zh": "还有一个原因是",
+          "vi": "Còn một lý do nữa là"
+        },
+        {
+          "zh": "因为江浙沪本来就是",
+          "vi": "vì Giang–Chiết–Hộ vốn đã là"
+        },
+        {
+          "zh": "一个呃一体的经济体系，",
+          "vi": "một, ờ, khối kinh tế thống nhất,"
+        }
+      ]
+    },
+    "264": {
+      "zh": "所以它之间的交通啊什么的都会非常的快。",
+      "parts": [
+        {
+          "zh": "所以它之间的交通啊什么的",
+          "vi": "nên giao thông giữa các nơi đó các thứ"
+        },
+        {
+          "zh": "都会非常的快。",
+          "vi": "đều rất nhanh."
+        }
+      ]
+    },
+    "265": {
+      "zh": "在包邮区其实，在今天来看，包邮区的另外一个意思就是今天下单明天送到。",
+      "parts": [
+        {
+          "zh": "在包邮区其实，在今天来看，",
+          "vi": "Ở vùng freeship thật ra, xét ngày nay,"
+        },
+        {
+          "zh": "包邮区的另外一个意思",
+          "vi": "vùng freeship còn có một nghĩa khác"
+        },
+        {
+          "zh": "就是今天下单明天送到。",
+          "vi": "là hôm nay đặt hàng, ngày mai giao tới."
+        }
+      ]
+    },
+    "266": {
+      "zh": "在江浙沪，这个速度是可以达到的。",
+      "vi": "Ở Giang–Chiết–Hộ, tốc độ này làm được."
+    },
+    "267": {
+      "zh": "嗯，那今天我们就讲到这里。",
+      "vi": "Ừm, vậy hôm nay chúng ta nói đến đây thôi."
+    },
+    "268": {
+      "zh": "你还有什么最后要补充的吗？",
+      "vi": "Bạn còn gì muốn bổ sung cuối cùng không?"
+    },
+    "269": {
+      "zh": "关于你的中国的电商购物体验，大概就是这样了。",
+      "parts": [
+        {
+          "zh": "关于你的中国的电商购物体验，",
+          "vi": "Về trải nghiệm mua sắm online ở Trung Quốc của bạn. —"
+        },
+        {
+          "zh": "大概就是这样了。",
+          "vi": "Đại khái là vậy thôi."
+        }
+      ]
+    },
+    "270": {
+      "zh": "我觉得中国这个发展速度，可能过几年就会有新的拼多多呀，新的平台出现，",
+      "parts": [
+        {
+          "zh": "我觉得中国这个发展速度，",
+          "vi": "Mình thấy tốc độ phát triển của Trung Quốc,"
+        },
+        {
+          "zh": "可能过几年就会有新的拼多多呀，",
+          "vi": "có khi vài năm nữa lại có một Pinduoduo mới,"
+        },
+        {
+          "zh": "新的平台出现，",
+          "vi": "nền tảng mới xuất hiện,"
+        }
+      ]
+    },
+    "271": {
+      "zh": "这个更新换代真的是非常的快。",
+      "vi": "sự đổi mới, thay thế này thật sự rất nhanh."
+    },
+    "272": {
+      "zh": "是的。",
+      "vi": "Đúng vậy."
+    },
+    "273": {
+      "zh": "好了，那今天就聊到这里，谢谢Leo。",
+      "vi": "Được rồi, hôm nay nói đến đây thôi, cảm ơn Leo."
+    },
+    "274": {
+      "zh": "谢谢Joanne，好，我们下期再见，拜拜。",
+      "parts": [
+        {
+          "zh": "谢谢Joanne，",
+          "vi": "Cảm ơn Joanne."
+        },
+        {
+          "zh": "好，我们下期再见，拜拜。",
+          "vi": "Rồi, chúng ta hẹn gặp lại số sau, bye bye."
+        }
+      ]
+    }
+  }
+}

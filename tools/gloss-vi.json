@@ -3749,7 +3749,7 @@
  ],
  "另外": [
   "LÍNH NGOẠI",
-  "ngoài ra"
+  "ngoài ra; khác (另外一半: nửa kia)"
  ],
  "六七点": [
   "LỤC THẤT ĐIỂM",
@@ -3889,7 +3889,7 @@
  ],
  "基本": [
   "CƠ BẢN",
-  "cơ bản"
+  "cơ bản; hầu như (基本都: hầu như đều)"
  ],
  "十万": [
   "THẬP VẠN",
@@ -5165,7 +5165,7 @@
  ],
  "之间": [
   "CHI GIAN",
-  "giữa, ở giữa"
+  "giữa, ở giữa; (忽然之间) bỗng chốc"
  ],
  "尽可能少": [
   "TẬN KHẢ NĂNG THIỂU",
@@ -6625,7 +6625,7 @@
  ],
  "关系": [
   "QUAN HỆ",
-  "quan hệ, mối quan hệ; (没关系) không sao"
+  "quan hệ, mối quan hệ; (没关系) không sao; (因为…的关系) do, vì"
  ],
  "阴暗": [
   "ÂM ÁM",
@@ -8969,7 +8969,7 @@
  ],
  "线": [
   "TUYẾN",
-  "đường, tuyến; dây, sợi; (本科线) điểm chuẩn"
+  "đường, tuyến; dây, sợi; (本科线) điểm chuẩn; hạng (二线, 十八线: hạng hai, hạng bét)"
  ],
  "经济": [
   "KINH TẾ",
@@ -8997,7 +8997,7 @@
  ],
  "江": [
   "GIANG",
-  "sông"
+  "sông; (gọi tắt) tỉnh Giang Tô"
  ],
  "摩天轮": [
   "MA THIÊN LUÂN",
@@ -10725,7 +10725,7 @@
  ],
  "来看": [
   "LAI KHÁN",
-  "mà nói (在我来看: theo tôi thấy)"
+  "mà nói (在我来看: theo tôi thấy); xét (最近来看: xét gần đây)"
  ],
  "印证": [
   "ẤN CHỨNG",
@@ -10945,7 +10945,7 @@
  ],
  "搭": [
   "ĐÁP",
-  "(有一搭没一搭: câu được câu chăng); bắc, dựng"
+  "(有一搭没一搭: câu được câu chăng); bắc, dựng; (搭话) bắt chuyện"
  ],
  "没一搭": [
   "MỘT NHẤT ĐÁP",
@@ -14205,7 +14205,7 @@
  ],
  "拜拜": [
   "BÁI BÁI",
-  "bye bye, tạm biệt"
+  "bye bye, tạm biệt; (定金就拜拜了) mất luôn, đi tong"
  ],
  "自我介绍": [
   "TỰ NGÃ GIỚI THIỆU",
@@ -22217,7 +22217,7 @@
  ],
  "十二点": [
   "THẬP NHỊ ĐIỂM",
-  "(cắt từ 三十二点七六八: 32,768)"
+  "12 giờ (半夜十二点: 12 giờ đêm); (cắt từ 三十二点七六八: 32,768)"
  ],
  "七六": [
   "THẤT LỤC",
@@ -22777,7 +22777,7 @@
  ],
  "形象": [
   "HÌNH TƯỢNG",
-  "hình tượng, hình ảnh"
+  "hình tượng, hình ảnh; sinh động, giàu hình ảnh"
  ],
  "咋": [
   "",
@@ -27038,5 +27038,817 @@
  "录到": [
   "LỤC ĐÁO",
   "ghi (âm) đến (录到这里: thu đến đây)"
+ ],
+ "双十": [
+  "SONG THẬP",
+  "(cắt từ chưa chuẩn của 双十一: ngày 11/11, lễ hội mua sắm)"
+ ],
+ "一线": [
+  "NHẤT TUYẾN",
+  "tuyến đầu; hạng nhất (一线城市: thành phố hạng nhất)"
+ ],
+ "拼": [
+  "BÍNH",
+  "ghép, gộp lại (mua chung); liều, dốc sức"
+ ],
+ "二线": [
+  "NHỊ TUYẾN",
+  "hạng hai (二线城市: thành phố hạng hai); tuyến sau"
+ ],
+ "淘宝": [
+  "ĐÀO BẢO",
+  "Taobao (sàn thương mại điện tử của Alibaba)"
+ ],
+ "砍": [
+  "KHẢM",
+  "chặt, chém (砍一刀: chặt một nhát — nhờ người bấm link để được giảm giá)"
+ ],
+ "大神": [
+  "ĐẠI THẦN",
+  "cao thủ, \"thánh\" (giỏi trong một lĩnh vực)"
+ ],
+ "光棍儿": [
+  "QUANG CÔN NHI",
+  "trai độc thân, người ế (nhi hóa của 光棍)"
+ ],
+ "险": [
+  "HIỂM",
+  "nguy hiểm; (viết tắt của 保险) bảo hiểm (退货险: bảo hiểm trả hàng)"
+ ],
+ "江浙沪": [
+  "GIANG CHIẾT HỘ",
+  "Giang Tô, Chiết Giang và Thượng Hải (gọi chung)"
+ ],
+ "电子产品": [
+  "ĐIỆN TỬ SẢN PHẨM",
+  "đồ điện tử, sản phẩm điện tử"
+ ],
+ "退货": [
+  "THOÁI HÓA",
+  "trả hàng"
+ ],
+ "十八": [
+  "THẬP BÁT",
+  "mười tám (十八线: hạng bét)"
+ ],
+ "电商": [
+  "ĐIỆN THƯƠNG",
+  "thương mại điện tử (viết tắt của 电子商务)"
+ ],
+ "单身": [
+  "ĐƠN THÂN",
+  "độc thân"
+ ],
+ "打折": [
+  "ĐẢ CHIẾT",
+  "giảm giá"
+ ],
+ "折扣": [
+  "CHIẾT KHẤU",
+  "chiết khấu, giảm giá"
+ ],
+ "京东": [
+  "KINH ĐÔNG",
+  "JD.com (sàn thương mại điện tử)"
+ ],
+ "杭州": [
+  "HÀNG CHÂU",
+  "Hàng Châu (thủ phủ tỉnh Chiết Giang)"
+ ],
+ "邮区": [
+  "BƯU KHU",
+  "(cắt từ chưa chuẩn của 包邮区: vùng được miễn phí ship)"
+ ],
+ "包邮": [
+  "BAO BƯU",
+  "miễn phí vận chuyển, freeship"
+ ],
+ "光棍节": [
+  "QUANG CÔN TIẾT",
+  "Ngày Độc thân (11/11)"
+ ],
+ "购物车": [
+  "CẤU VẬT XA",
+  "giỏ hàng"
+ ],
+ "尺码": [
+  "XÍCH MÃ",
+  "cỡ, size (quần áo, giày)"
+ ],
+ "棍子": [
+  "CÔN TỬ",
+  "cây gậy"
+ ],
+ "邮费": [
+  "BƯU PHÍ",
+  "phí gửi, phí ship"
+ ],
+ "电子商务": [
+  "ĐIỆN TỬ THƯƠNG VỤ",
+  "thương mại điện tử"
+ ],
+ "十一月": [
+  "THẬP NHẤT NGUYỆT",
+  "tháng mười một"
+ ],
+ "节": [
+  "TIẾT",
+  "lễ, ngày hội (购物节: lễ hội mua sắm); đốt, đoạn"
+ ],
+ "付": [
+  "PHÓ",
+  "trả (tiền), thanh toán"
+ ],
+ "商家": [
+  "THƯƠNG GIA",
+  "người bán, cửa hàng, nhà kinh doanh"
+ ],
+ "外套": [
+  "NGOẠI SÁO",
+  "áo khoác"
+ ],
+ "棍儿": [
+  "CÔN NHI",
+  "cây gậy (nhi hóa của 棍)"
+ ],
+ "在我看来": [
+  "TẠI NGÃ KHÁN LAI",
+  "theo tôi thấy"
+ ],
+ "越多": [
+  "VIỆT ĐA",
+  "càng nhiều (越多…越多: càng… càng…)"
+ ],
+ "一刀": [
+  "NHẤT ĐAO",
+  "một nhát dao (砍一刀: chặt một nhát)"
+ ],
+ "苏州": [
+  "TÔ CHÂU",
+  "Tô Châu (thành phố ở Giang Tô)"
+ ],
+ "南京": [
+  "NAM KINH",
+  "Nam Kinh (thủ phủ tỉnh Giang Tô)"
+ ],
+ "地狱": [
+  "ĐỊA NGỤC",
+  "địa ngục"
+ ],
+ "工人": [
+  "CÔNG NHÂN",
+  "công nhân"
+ ],
+ "合肥": [
+  "HỢP PHÌ",
+  "Hợp Phì (thủ phủ tỉnh An Huy)"
+ ],
+ "挺挺": [
+  "ĐĨNH ĐĨNH",
+  "(nói lặp 挺) khá, rất"
+ ],
+ "十一号": [
+  "THẬP NHẤT HIỆU",
+  "ngày 11"
+ ],
+ "黑五": [
+  "HẮC NGŨ",
+  "Black Friday (viết tắt của 黑色星期五)"
+ ],
+ "疯狂": [
+  "PHONG CUỒNG",
+  "điên cuồng, cuồng nhiệt"
+ ],
+ "记忆犹新": [
+  "KÝ ỨC DO TÂN",
+  "vẫn còn nhớ như in"
+ ],
+ "二零二零年": [
+  "NHỊ LINH NHỊ LINH NIÊN",
+  "năm 2020"
+ ],
+ "凌晨": [
+  "LĂNG THẦN",
+  "rạng sáng, sau nửa đêm"
+ ],
+ "码": [
+  "MÃ",
+  "cỡ, size (M码: cỡ M); mã, số"
+ ],
+ "亏了": [
+  "KHUY LIỄU",
+  "lỗ rồi, thiệt rồi"
+ ],
+ "省钱": [
+  "TỈNH TIỀN",
+  "tiết kiệm tiền"
+ ],
+ "儿化": [
+  "NHI HÓA",
+  "nhi hóa (thêm âm \"r\" vào cuối âm tiết)"
+ ],
+ "方言": [
+  "PHƯƠNG NGÔN",
+  "phương ngữ, tiếng địa phương"
+ ],
+ "词汇": [
+  "TỪ VỰNG",
+  "từ vựng, từ ngữ"
+ ],
+ "界": [
+  "GIỚI",
+  "giới, lĩnh vực (网球界: làng quần vợt)"
+ ],
+ "团购": [
+  "ĐOÀN CẤU",
+  "mua chung, mua theo nhóm"
+ ],
+ "三线": [
+  "TAM TUYẾN",
+  "hạng ba (三线城市: thành phố hạng ba)"
+ ],
+ "教师": [
+  "GIÁO SƯ",
+  "giáo viên"
+ ],
+ "第七期": [
+  "ĐỆ THẤT KỲ",
+  "số thứ bảy, tập thứ bảy"
+ ],
+ "一幢": [
+  "NHẤT TRÀNG",
+  "một tòa (nhà)"
+ ],
+ "电梯": [
+  "ĐIỆN THÊ",
+  "thang máy"
+ ],
+ "这幢": [
+  "GIÁ TRÀNG",
+  "tòa (nhà) này"
+ ],
+ "相遇": [
+  "TƯƠNG NGỘ",
+  "gặp gỡ, tình cờ gặp"
+ ],
+ "高科": [
+  "CAO KHOA",
+  "(巴黎高科) ParisTech, nhóm trường kỹ sư ở Paris"
+ ],
+ "学位": [
+  "HỌC VỊ",
+  "học vị, bằng (đại học)"
+ ],
+ "时尚": [
+  "THỜI THƯỢNG",
+  "thời thượng, hợp mốt"
+ ],
+ "亚马逊": [
+  "Á MÃ TỐN",
+  "Amazon"
+ ],
+ "呃用": [
+  "",
+  "(cắt từ chưa chuẩn: 呃 ờ + 用 dùng — 最呃用的人: người dùng nhiều nhất)"
+ ],
+ "星期五": [
+  "TINH KỲ NGŨ",
+  "thứ sáu"
+ ],
+ "寂寞": [
+  "TỊCH MỊCH",
+  "cô đơn, buồn tẻ"
+ ],
+ "苦闷": [
+  "KHỔ MUỘN",
+  "buồn bực, phiền muộn"
+ ],
+ "守": [
+  "THỦ",
+  "giữ, canh, túc trực (守在电脑前面: túc trực trước máy tính)"
+ ],
+ "庆祝": [
+  "KHÁNH CHÚC",
+  "ăn mừng, chúc mừng"
+ ],
+ "销量": [
+  "TIÊU LƯỢNG",
+  "doanh số, lượng bán"
+ ],
+ "消费水平": [
+  "TIÊU PHÍ THỦY BÌNH",
+  "mức tiêu dùng, sức mua"
+ ],
+ "不容": [
+  "BẤT DUNG",
+  "không cho phép, không thể (不容小觑: không thể xem thường)"
+ ],
+ "小觑": [
+  "",
+  "xem thường, coi nhẹ"
+ ],
+ "新冠": [
+  "TÂN QUAN",
+  "Covid (virus corona chủng mới)"
+ ],
+ "待在家里": [
+  "ĐÃI TẠI GIA LÝ",
+  "ở nhà"
+ ],
+ "线下": [
+  "TUYẾN HẠ",
+  "ngoại tuyến, ngoài đời thực (mua ở cửa hàng)"
+ ],
+ "推动": [
+  "THÔI ĐỘNG",
+  "thúc đẩy"
+ ],
+ "业绩": [
+  "NGHIỆP TÍCH",
+  "thành tích kinh doanh, doanh số"
+ ],
+ "额度": [
+  "NGẠCH ĐỘ",
+  "hạn mức, mức (giảm giá)"
+ ],
+ "有限": [
+  "HỮU HẠN",
+  "có hạn"
+ ],
+ "十号": [
+  "THẬP HIỆU",
+  "ngày 10"
+ ],
+ "推车": [
+  "THÔI XA",
+  "xe đẩy"
+ ],
+ "付钱": [
+  "PHÓ TIỀN",
+  "trả tiền"
+ ],
+ "下架": [
+  "HẠ GIÁ",
+  "gỡ khỏi kệ, ngừng bán"
+ ],
+ "供不应求": [
+  "CUNG BẤT ỨNG CẦU",
+  "cung không đủ cầu"
+ ],
+ "库存": [
+  "KHỐ TỒN",
+  "hàng tồn kho"
+ ],
+ "折": [
+  "CHIẾT",
+  "bẻ, gãy; giảm giá (打折: giảm giá)"
+ ],
+ "心仪": [
+  "TÂM NGHI",
+  "ưng ý, yêu thích"
+ ],
+ "加到": [
+  "GIA ĐÁO",
+  "thêm vào"
+ ],
+ "反悔": [
+  "PHẢN HỐI",
+  "đổi ý, nuốt lời"
+ ],
+ "产品价格": [
+  "SẢN PHẨM GIÁ CÁCH",
+  "giá sản phẩm"
+ ],
+ "百分之十左右": [
+  "BÁCH PHÂN CHI THẬP TẢ HỮU",
+  "khoảng 10%"
+ ],
+ "付掉": [
+  "PHÓ ĐIỆU",
+  "trả hết"
+ ],
+ "尾款": [
+  "VĨ KHOẢN",
+  "số tiền còn lại phải trả"
+ ],
+ "白白浪费": [
+  "BẠCH BẠCH LÃNG PHÍ",
+  "phí hoài, mất không"
+ ],
+ "漏掉": [
+  "LẬU ĐIỆU",
+  "bỏ sót, lỡ quên"
+ ],
+ "上大": [
+  "THƯỢNG ĐẠI",
+  "(cắt từ chưa chuẩn của 上大一: học năm nhất đại học)"
+ ],
+ "兴起": [
+  "HƯNG KHỞI",
+  "nổi lên, bắt đầu thịnh hành"
+ ],
+ "棒球": [
+  "BỔNG CẦU",
+  "bóng chày (棒球外套: áo khoác bóng chày)"
+ ],
+ "力度": [
+  "LỰC ĐỘ",
+  "mức độ, cường độ (打折力度: mức giảm giá)"
+ ],
+ "想不通": [
+  "TƯỞNG BẤT THÔNG",
+  "nghĩ không ra, không hiểu nổi"
+ ],
+ "合体": [
+  "HỢP THỂ",
+  "vừa người (quần áo); hợp thể"
+ ],
+ "合身": [
+  "HỢP THÂN",
+  "vừa người"
+ ],
+ "一块钱": [
+  "NHẤT KHỐI TIỀN",
+  "một đồng (tệ)"
+ ],
+ "零点": [
+  "LINH ĐIỂM",
+  "không phẩy (零点二: 0,2); nửa đêm"
+ ],
+ "试到": [
+  "THÍ ĐÁO",
+  "(试到的: đã mặc thử)"
+ ],
+ "不合身": [
+  "BẤT HỢP THÂN",
+  "không vừa người"
+ ],
+ "懒得": [
+  "LÃN ĐẮC",
+  "lười, ngại (làm gì)"
+ ],
+ "退换": [
+  "THOÁI HOÁN",
+  "đổi trả (hàng)"
+ ],
+ "运用": [
+  "VẬN DỤNG",
+  "vận dụng, dùng"
+ ],
+ "文科学生": [
+  "VĂN KHOA HỌC SINH",
+  "sinh viên khối xã hội"
+ ],
+ "上买": [
+  "THƯỢNG MÃI",
+  "(cắt từ chưa chuẩn: 在淘宝上买: mua trên Taobao)"
+ ],
+ "主打": [
+  "CHỦ ĐẢ",
+  "tập trung vào, chủ lực (sản phẩm)"
+ ],
+ "光棍": [
+  "QUANG CÔN",
+  "trai độc thân, người ế"
+ ],
+ "词语": [
+  "TỪ NGỮ",
+  "từ ngữ"
+ ],
+ "带有": [
+  "ĐỚI HỮU",
+  "mang, có (tính chất)"
+ ],
+ "贬义": [
+  "BIẾM NGHĨA",
+  "nghĩa xấu, sắc thái chê"
+ ],
+ "本意": [
+  "BẢN Ý",
+  "nghĩa gốc; ý định ban đầu"
+ ],
+ "光光": [
+  "QUANG QUANG",
+  "trơn nhẵn, trụi trơn (光光这个词: nói lặp chữ 光)"
+ ],
+ "脱完": [
+  "THOÁT HOÀN",
+  "cởi hết"
+ ],
+ "脱光": [
+  "THOÁT QUANG",
+  "cởi sạch, lột trần"
+ ],
+ "单单": [
+  "ĐƠN ĐƠN",
+  "chỉ, trơ trọi (单单的一根棍子: chỉ một cây gậy trơ trọi)"
+ ],
+ "称": [
+  "XƯNG",
+  "gọi, xưng; cân"
+ ],
+ "来头": [
+  "LAI ĐẦU",
+  "nguồn gốc, lai lịch"
+ ],
+ "四根": [
+  "TỨ CĂN",
+  "bốn cây (que, gậy)"
+ ],
+ "网络游戏": [
+  "VÕNG LẠC DU HÍ",
+  "trò chơi trực tuyến, game online"
+ ],
+ "神仙": [
+  "THẦN TIÊN",
+  "thần tiên"
+ ],
+ "表明": [
+  "BIỂU MINH",
+  "cho thấy, chứng tỏ"
+ ],
+ "会用": [
+  "HỘI DỤNG",
+  "sẽ dùng; biết dùng"
+ ],
+ "电脑游戏": [
+  "ĐIỆN NÃO DU HÍ",
+  "trò chơi máy tính"
+ ],
+ "费德勒": [
+  "PHÍ ĐỨC LẶC",
+  "Federer (tay vợt Thụy Sĩ)"
+ ],
+ "网球": [
+  "VÕNG CẦU",
+  "quần vợt"
+ ],
+ "梵高": [
+  "PHẠN CAO",
+  "Van Gogh (họa sĩ Hà Lan)"
+ ],
+ "绘画": [
+  "HỘI HỌA",
+  "hội họa"
+ ],
+ "通俗": [
+  "THÔNG TỤC",
+  "thông dụng, bình dân, dễ hiểu"
+ ],
+ "推行": [
+  "THÔI HÀNH",
+  "thi hành, áp dụng, triển khai"
+ ],
+ "五千元": [
+  "NGŨ THIÊN NGUYÊN",
+  "5.000 tệ"
+ ],
+ "推广": [
+  "THÔI QUẢNG",
+  "phổ biến, quảng bá"
+ ],
+ "拼在一起": [
+  "BÍNH TẠI NHẤT KHỞI",
+  "ghép lại với nhau"
+ ],
+ "新鲜": [
+  "TÂN TIÊN",
+  "tươi; mới mẻ, mới lạ"
+ ],
+ "崛起": [
+  "QUẬT KHỞI",
+  "trỗi dậy, nổi lên"
+ ],
+ "日用品": [
+  "NHẬT DỤNG PHẨM",
+  "đồ dùng hằng ngày"
+ ],
+ "非常低": [
+  "PHI THƯỜNG ĐÊ",
+  "rất thấp"
+ ],
+ "一辈": [
+  "NHẤT BỐI",
+  "một thế hệ, lứa (这一辈人: thế hệ này)"
+ ],
+ "欲望": [
+  "DỤC VỌNG",
+  "ham muốn, dục vọng"
+ ],
+ "一管": [
+  "NHẤT QUẢN",
+  "một tuýp (lượng từ cho vật hình ống)"
+ ],
+ "牙膏": [
+  "NHA CAO",
+  "kem đánh răng"
+ ],
+ "十块钱": [
+  "THẬP KHỐI TIỀN",
+  "10 tệ"
+ ],
+ "引号": [
+  "DẪN HIỆU",
+  "dấu ngoặc kép"
+ ],
+ "吸引力": [
+  "HẤP DẪN LỰC",
+  "sức hấp dẫn, sức hút"
+ ],
+ "目标群体": [
+  "MỤC TIÊU QUẦN THỂ",
+  "nhóm đối tượng mục tiêu"
+ ],
+ "便利店": [
+  "TIỆN LỢI ĐIẾM",
+  "cửa hàng tiện lợi"
+ ],
+ "迅猛": [
+  "TẤN MÃNH",
+  "nhanh mạnh, vũ bão"
+ ],
+ "生活用品": [
+  "SINH HOẠT DỤNG PHẨM",
+  "đồ dùng sinh hoạt"
+ ],
+ "超市": [
+  "SIÊU THỊ",
+  "siêu thị"
+ ],
+ "小卖部": [
+  "TIỂU MẠI BỘ",
+  "tiệm tạp hóa nhỏ, quầy bán lẻ"
+ ],
+ "波动": [
+  "BA ĐỘNG",
+  "dao động, biến động"
+ ],
+ "受众": [
+  "THỤ CHÚNG",
+  "đối tượng (khách hàng, khán giả)"
+ ],
+ "亲朋好友": [
+  "THÂN BẰNG HẢO HỮU",
+  "người thân bạn bè"
+ ],
+ "做广告": [
+  "TỐ QUẢNG CÁO",
+  "làm quảng cáo"
+ ],
+ "形象化": [
+  "HÌNH TƯỢNG HÓA",
+  "hình tượng hóa, giàu hình ảnh"
+ ],
+ "家族": [
+  "GIA TỘC",
+  "gia tộc, họ hàng (家族的群: nhóm chat gia đình)"
+ ],
+ "姑姑": [
+  "CÔ CÔ",
+  "cô (chị/em gái của bố)"
+ ],
+ "帮帮忙": [
+  "BANG BANG MANG",
+  "giúp giùm, giúp một tay"
+ ],
+ "砍树": [
+  "KHẢM THỤ",
+  "chặt cây"
+ ],
+ "砍价": [
+  "KHẢM GIÁ",
+  "mặc cả, trả giá"
+ ],
+ "符合": [
+  "PHÙ HỢP",
+  "phù hợp, khớp với"
+ ],
+ "内涵": [
+  "NỘI HÀM",
+  "nội hàm, ý nghĩa bên trong"
+ ],
+ "优惠": [
+  "ƯU HUỆ",
+  "ưu đãi, giảm giá"
+ ],
+ "独有": [
+  "ĐỘC HỮU",
+  "chỉ riêng có, độc nhất"
+ ],
+ "周边": [
+  "CHU BIÊN",
+  "xung quanh, lân cận"
+ ],
+ "首府": [
+  "THỦ PHỦ",
+  "thủ phủ"
+ ],
+ "紧邻着": [
+  "KHẨN LÂN TRƯỚC",
+  "nằm sát cạnh"
+ ],
+ "恰当": [
+  "KHÁP ĐÁNG",
+  "thích hợp, đúng chỗ"
+ ],
+ "典型": [
+  "ĐIỂN HÌNH",
+  "điển hình"
+ ],
+ "追赶": [
+  "TRUY CẢN",
+  "đuổi theo, bắt kịp"
+ ],
+ "步伐": [
+  "BỘ PHẠT",
+  "bước đi, nhịp độ"
+ ],
+ "歌手": [
+  "CA THỦ",
+  "ca sĩ"
+ ],
+ "十八层": [
+  "THẬP BÁT TẦNG",
+  "mười tám tầng (十八层地狱: 18 tầng địa ngục)"
+ ],
+ "一线品牌": [
+  "NHẤT TUYẾN PHẨM BÀI",
+  "thương hiệu hạng nhất"
+ ],
+ "等等等等": [
+  "ĐẲNG ĐẲNG ĐẲNG ĐẲNG",
+  "vân vân và vân vân"
+ ],
+ "省会": [
+  "TỈNH HỘI",
+  "tỉnh lỵ, thủ phủ tỉnh"
+ ],
+ "模样": [
+  "MÔ DẠNG",
+  "dáng vẻ, diện mạo"
+ ],
+ "没听说过": [
+  "MỘT THÍNH THUYẾT QUÁ",
+  "chưa từng nghe nói"
+ ],
+ "安徽": [
+  "AN HUY",
+  "An Huy (tỉnh)"
+ ],
+ "呼和浩特": [
+  "HÔ HÒA HẠO ĐẶC",
+  "Hohhot (thủ phủ Nội Mông)"
+ ],
+ "内蒙古": [
+  "NỘI MÔNG CỔ",
+  "Nội Mông"
+ ],
+ "浙": [
+  "CHIẾT",
+  "tỉnh Chiết Giang (gọi tắt)"
+ ],
+ "沪": [
+  "HỘ",
+  "Thượng Hải (gọi tắt)"
+ ],
+ "上海市": [
+  "THƯỢNG HẢI THỊ",
+  "thành phố Thượng Hải"
+ ],
+ "通常": [
+  "THÔNG THƯỜNG",
+  "thông thường"
+ ],
+ "邮局": [
+  "BƯU CỤC",
+  "bưu điện"
+ ],
+ "运到": [
+  "VẬN ĐÁO",
+  "chở đến"
+ ],
+ "包揽": [
+  "BAO LÃM",
+  "ôm hết, gánh hết (chi phí, việc)"
+ ],
+ "运费": [
+  "VẬN PHÍ",
+  "phí vận chuyển"
+ ],
+ "阿里巴巴": [
+  "A LÝ BA BA",
+  "Alibaba (tập đoàn)"
+ ],
+ "一体": [
+  "NHẤT THỂ",
+  "một khối, thống nhất"
+ ],
+ "补充": [
+  "BỔ SUNG",
+  "bổ sung"
+ ],
+ "更新换代": [
+  "CANH TÂN HOÁN ĐẠI",
+  "đổi mới, thay thế thế hệ"
  ]
 }

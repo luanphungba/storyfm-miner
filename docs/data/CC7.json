@@ -1,0 +1,5530 @@
+{
+  "id": "CC7",
+  "title": "EPISODE 7 | 淘宝京东拼多多  Everything about Chinese E-commerce",
+  "guid": "ckpligs0f7can0814kesebc2h",
+  "pubDate": "2021-06-06",
+  "duration": 1398,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/CC7.m4a"
+  },
+  "source": "podcast",
+  "owner": "瞎扯学中文 Convo Chinese",
+  "link": "https://open.firstory.fm/story/ckpligs0f7can0814kesebc2h",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 6.72,
+      "end": 7.95,
+      "text": "Hello，大家好，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 1,
+      "s": 0,
+      "start": 8.02,
+      "end": 10.98,
+      "text": "欢迎大家来到我们的第七期节目。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 2,
+      "s": 1,
+      "start": 10.98,
+      "end": 13.62,
+      "text": "今天我请到了一个我的邻居，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 3,
+      "s": 1,
+      "start": 13.62,
+      "end": 15.5,
+      "text": "他和我住在同一幢楼里，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 4,
+      "s": 1,
+      "start": 15.5,
+      "end": 17.08,
+      "text": "他的名字叫Leo。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 5,
+      "s": 2,
+      "start": 17.08,
+      "end": 18.96,
+      "text": "大家好，我是Leo，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 2,
+      "start": 18.96,
+      "end": 20.54,
+      "text": "我跟Joanne是有一天",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 2,
+      "start": 20.54,
+      "end": 23.4,
+      "text": "在电梯里面突然间碰到的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 3,
+      "start": 23.4,
+      "end": 24.6,
+      "text": "因为我们这幢楼",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 3,
+      "start": 24.6,
+      "end": 26.23,
+      "text": "住的中国人不是很多，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 3,
+      "start": 26.26,
+      "end": 28.76,
+      "text": "所以我就主动跟他搭了话。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 11,
+      "s": 4,
+      "start": 28.95,
+      "end": 32,
+      "text": "感觉也是非常奇妙的相遇方式。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 5,
+      "start": 32.15,
+      "end": 35.05,
+      "text": "对对，因为大家之前听我的节目",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 13,
+      "s": 5,
+      "start": 35.05,
+      "end": 37.99,
+      "text": "可能也知道我现在在巴黎，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 14,
+      "s": 5,
+      "start": 37.99,
+      "end": 40.31,
+      "text": "然后Leo呢现在也在巴黎，对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 15,
+      "s": 6,
+      "start": 40.31,
+      "end": 42.69,
+      "text": "对我现在在巴黎高科的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 6,
+      "start": 42.69,
+      "end": 46.13,
+      "text": "一所工程师学校读工程师学位，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 6,
+      "start": 46.13,
+      "end": 47.96,
+      "text": "现在是第二年。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 7,
+      "start": 48.31,
+      "end": 48.67,
+      "text": "嗯。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 19,
+      "s": 8,
+      "start": 48.67,
+      "end": 50.99,
+      "text": "OK，然后今天呢我们想和大家",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 20,
+      "s": 8,
+      "start": 50.99,
+      "end": 54.37,
+      "text": "聊一个挺挺时尚的话题。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 21,
+      "s": 9,
+      "start": 54.6,
+      "end": 56.62,
+      "text": "中国的电商，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 22,
+      "s": 9,
+      "start": 56.62,
+      "end": 59.62,
+      "text": "电商就是电子商务的简称。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 23,
+      "s": 10,
+      "start": 59.74,
+      "end": 62.14,
+      "text": "说白了就是在网上面买东西。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 24,
+      "s": 11,
+      "start": 62.5,
+      "end": 65.31,
+      "text": "那在国外的小伙伴们肯定都知道，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 25,
+      "s": 11,
+      "start": 65.4,
+      "end": 67,
+      "text": "国外有Amazon啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 26,
+      "s": 11,
+      "start": 67,
+      "end": 68.35,
+      "text": "之前有eBay啊。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 27,
+      "s": 12,
+      "start": 68.42,
+      "end": 72.3,
+      "text": "那中国的话，主要对对于中国来说，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 28,
+      "s": 13,
+      "start": 72.3,
+      "end": 74.68,
+      "text": "我觉得所有几乎所有中国人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 13,
+      "start": 74.68,
+      "end": 77.91,
+      "text": "都知道的一个电商的网站叫做淘宝。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 14,
+      "start": 78.14,
+      "end": 80.46,
+      "text": "感觉这个应该在中国的地位",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 14,
+      "start": 80.46,
+      "end": 83.22,
+      "text": "相当于在。中国以外地方",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 15,
+      "start": 83.22,
+      "end": 85.4,
+      "text": "亚马逊的地位了，",
+      "speaker": "B",
+      "u": 14,
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 16,
+      "start": 85.4,
+      "end": 88.34,
+      "text": "对淘宝就是最呃用的人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 34,
+      "s": 16,
+      "start": 88.34,
+      "end": 90,
+      "text": "现在应该还是最多的吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 35,
+      "s": 17,
+      "start": 90,
+      "end": 91.34,
+      "text": "应该是对。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 18,
+      "start": 91.34,
+      "end": 93.7,
+      "text": "我记得之前我看到过一个数据，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 37,
+      "s": 18,
+      "start": 93.88,
+      "end": 96.78,
+      "text": "淘宝它有一个节日叫双十一，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 38,
+      "s": 19,
+      "start": 96.78,
+      "end": 98.4,
+      "text": "对双十一的意思就是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 39,
+      "s": 19,
+      "start": 98.4,
+      "end": 100.78,
+      "text": "每年的十一月十一号",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 40,
+      "s": 19,
+      "start": 100.78,
+      "end": 102.99,
+      "text": "是一个淘宝的购物节，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 41,
+      "s": 19,
+      "start": 103.06,
+      "end": 105.7,
+      "text": "地位相当于是外国的黑五，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 42,
+      "s": 20,
+      "start": 105.7,
+      "end": 107.22,
+      "text": "就是黑色星期五。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 43,
+      "s": 21,
+      "start": 107.37,
+      "end": 108.33,
+      "text": "呃，Black Friday，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 44,
+      "s": 21,
+      "start": 108.33,
+      "end": 109.77,
+      "text": "嗯，这么一个节日。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 45,
+      "s": 22,
+      "start": 109.79,
+      "end": 111.99,
+      "text": "但是你知道为什么这个双十一",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 22,
+      "start": 111.99,
+      "end": 114.53,
+      "text": "会成为这样的一个购物的节日吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 23,
+      "start": 114.53,
+      "end": 118.21,
+      "text": "对我听说是因为双十一它是四个一，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 48,
+      "s": 23,
+      "start": 118.21,
+      "end": 121.31,
+      "text": "然后它就有点像单身的人，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 49,
+      "s": 23,
+      "start": 121.31,
+      "end": 122.63,
+      "text": "所以是这样的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 50,
+      "s": 24,
+      "start": 122.63,
+      "end": 124.61,
+      "text": "对对对，所以他是想让单身的人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 51,
+      "s": 24,
+      "start": 124.61,
+      "end": 127.61,
+      "text": "在这一天在网上疯狂的购物，是吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 52,
+      "s": 25,
+      "start": 127.65,
+      "end": 130.09,
+      "text": "通我觉得应该是通过购物和花钱",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 25,
+      "start": 130.09,
+      "end": 133.29,
+      "text": "来缓解自己内心的寂寞和苦闷吧。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 26,
+      "start": 134.46,
+      "end": 135.56,
+      "text": "但是你知道我为什么",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 26,
+      "start": 135.56,
+      "end": 138.4,
+      "text": "会对这个故事记忆犹新吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 27,
+      "start": 138.95,
+      "end": 140.36,
+      "text": "不知道，是因为我的生日",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 27,
+      "start": 140.36,
+      "end": 142.04,
+      "text": "是十一月十一号，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 27,
+      "start": 142.04,
+      "end": 143.31,
+      "text": "这个是真实的故事。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "s": 28,
+      "start": 143.66,
+      "end": 146.76,
+      "text": "所以在还没有双十一这个节日之前，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 28,
+      "start": 146.76,
+      "end": 147.65,
+      "text": "我过生日的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 29,
+      "start": 148.28,
+      "end": 150.4,
+      "text": "其实其实大家都会已经把双十一",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 29,
+      "start": 150.4,
+      "end": 153.32,
+      "text": "这个节日戏称为呃光棍节。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 30,
+      "start": 153.9,
+      "end": 155.74,
+      "text": "但是有了这个双十一之后，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 30,
+      "start": 155.74,
+      "end": 156.9,
+      "text": "我就感觉我的生日",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 30,
+      "start": 156.9,
+      "end": 159.58,
+      "text": "会变得更加有意义了一些。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 31,
+      "start": 159.76,
+      "end": 161.66,
+      "text": "你的生日那现在非常的重要，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 67,
+      "s": 31,
+      "start": 161.66,
+      "end": 163.48,
+      "text": "是创造中国GDP。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 68,
+      "s": 32,
+      "start": 163.89,
+      "end": 166.49,
+      "text": "每年创造GDP最多的一天吧，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 69,
+      "s": 33,
+      "start": 166.49,
+      "end": 167.37,
+      "text": "就感觉所有的人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 33,
+      "start": 167.37,
+      "end": 168.83,
+      "text": "在双十一的那天晚上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 33,
+      "start": 168.83,
+      "end": 172.38,
+      "text": "都守在或者是电脑或者是手机前面，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 34,
+      "start": 172.39,
+      "end": 174.98,
+      "text": "就在为我庆祝生日的感觉。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 35,
+      "start": 175.19,
+      "end": 177.39,
+      "text": "因为我刚才想提到那个新闻，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 74,
+      "s": 36,
+      "start": 177.63,
+      "end": 179.85,
+      "text": "就是我看到双十一这一天",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 75,
+      "s": 36,
+      "start": 179.85,
+      "end": 182.49,
+      "text": "淘宝上的购物这个销量",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 76,
+      "s": 36,
+      "start": 182.49,
+      "end": 184.71,
+      "text": "已经远远超过外国，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 77,
+      "s": 37,
+      "start": 184.71,
+      "end": 186.81,
+      "text": "比如说英国的黑五的购物节，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 78,
+      "s": 37,
+      "start": 186.93,
+      "end": 189.73,
+      "text": "所以中国人民的消费水平真是。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 79,
+      "s": 38,
+      "start": 189.78,
+      "end": 192.01,
+      "text": "不容小觑，是是这样的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 80,
+      "s": 39,
+      "start": 192.08,
+      "end": 194.78,
+      "text": "尤其是去年，就是二零二零年的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 39,
+      "start": 194.9,
+      "end": 196.8,
+      "text": "不是因为新冠肺炎嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 39,
+      "start": 196.8,
+      "end": 200.16,
+      "text": "就是大家基本都会怎么讲，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 40,
+      "start": 200.29,
+      "end": 202,
+      "text": "待在家里面的时间比较久，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 40,
+      "start": 202.56,
+      "end": 204.42,
+      "text": "所以很少有机会去线下购物。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "s": 41,
+      "start": 204.42,
+      "end": 207.04,
+      "text": "我觉得这样反而更加推动了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 86,
+      "s": 41,
+      "start": 207.04,
+      "end": 209.72,
+      "text": "二零二零年双十一期间，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 87,
+      "s": 41,
+      "start": 209.72,
+      "end": 211.43,
+      "text": "呃，淘宝的购物的业绩吧。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 42,
+      "start": 211.9,
+      "end": 215.22,
+      "text": "双十一真的是非常夸张，就有一点像。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 89,
+      "s": 43,
+      "start": 215.37,
+      "end": 216.97,
+      "text": "因为双十一的时候呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 90,
+      "s": 43,
+      "start": 216.97,
+      "end": 218.69,
+      "text": "有很多东西会打折，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 91,
+      "s": 44,
+      "start": 218.69,
+      "end": 220.61,
+      "text": "但是它打折的额度",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 92,
+      "s": 44,
+      "start": 220.61,
+      "end": 222.71,
+      "text": "或者说购买的呃",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 93,
+      "s": 44,
+      "start": 222.71,
+      "end": 224.81,
+      "text": "你购买的数量是有限的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 94,
+      "s": 45,
+      "start": 224.81,
+      "end": 226.11,
+      "text": "所以你还真的是要",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 95,
+      "s": 45,
+      "start": 226.11,
+      "end": 229.37,
+      "text": "在十一月十号的凌晨那一天晚上",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 96,
+      "s": 45,
+      "start": 229.37,
+      "end": 232.35,
+      "text": "把东西都放到你的购物车里。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 97,
+      "s": 46,
+      "start": 232.35,
+      "end": 236.17,
+      "text": "购物车就是购物的那个推车，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 98,
+      "s": 46,
+      "start": 236.17,
+      "end": 238.49,
+      "text": "大家在网上购物过肯定都知道。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 99,
+      "s": 47,
+      "start": 238.49,
+      "end": 240.83,
+      "text": "那你要把东西放在购物车里，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 100,
+      "s": 47,
+      "start": 240.83,
+      "end": 242.71,
+      "text": "等到凌晨的时间一过，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 101,
+      "s": 47,
+      "start": 242.71,
+      "end": 244.75,
+      "text": "马上去点击购买。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 102,
+      "s": 48,
+      "start": 244.89,
+      "end": 248.63,
+      "text": "是要付钱，因为如果你付晚了的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 103,
+      "s": 48,
+      "start": 248.63,
+      "end": 250.71,
+      "text": "可能这个商品就已经下架了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 104,
+      "s": 48,
+      "start": 250.71,
+      "end": 252.8,
+      "text": "就是说，呃，供不应求了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 105,
+      "s": 49,
+      "start": 252.93,
+      "end": 256.35,
+      "text": "因为买的人太多了嘛，就库存不够了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 106,
+      "s": 50,
+      "start": 256.43,
+      "end": 258.07,
+      "text": "但是其实你讲的这个情况",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 107,
+      "s": 50,
+      "start": 258.07,
+      "end": 261.43,
+      "text": "是已经是双十一这个节日初期的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 108,
+      "s": 50,
+      "start": 261.43,
+      "end": 263.23,
+      "text": "一些购物的形态了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 109,
+      "s": 51,
+      "start": 263.27,
+      "end": 264.87,
+      "text": "我不知道你有没有了解过",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 110,
+      "s": 51,
+      "start": 264.87,
+      "end": 267.55,
+      "text": "最近国内一些双十一的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 111,
+      "s": 51,
+      "start": 267.55,
+      "end": 270.09,
+      "text": "呃，怎么讲一些打折的折政策？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 112,
+      "s": 52,
+      "start": 270.42,
+      "end": 273.8,
+      "text": "因为最近来看，现在的双十一商家们",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 113,
+      "s": 52,
+      "start": 273.8,
+      "end": 275.6,
+      "text": "都比较喜欢搞一个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 114,
+      "s": 52,
+      "start": 275.6,
+      "end": 278.42,
+      "text": "叫做呃定金的东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 115,
+      "s": 53,
+      "start": 278.64,
+      "end": 279.98,
+      "text": "就是你在双十一之前",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 116,
+      "s": 53,
+      "start": 279.98,
+      "end": 283.14,
+      "text": "可能提前一个月甚至提前两个月",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 117,
+      "s": 53,
+      "start": 283.14,
+      "end": 286.36,
+      "text": "就已经呃选好了你心仪的产品，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 118,
+      "s": 54,
+      "start": 286.36,
+      "end": 288.7,
+      "text": "然后你要把它加到你的购物车里面。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 119,
+      "s": 55,
+      "start": 288.74,
+      "end": 290.18,
+      "text": "这个时候为了防止你",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 120,
+      "s": 55,
+      "start": 290.18,
+      "end": 291.56,
+      "text": "双十一的时候忘记",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 121,
+      "s": 55,
+      "start": 291.56,
+      "end": 293.52,
+      "text": "或者是你双十一的时候反悔，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 122,
+      "s": 55,
+      "start": 293.52,
+      "end": 295.58,
+      "text": "他会让你付一个定金，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 123,
+      "s": 56,
+      "start": 295.64,
+      "end": 297.16,
+      "text": "就这个定金大概会是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 124,
+      "s": 56,
+      "start": 297.16,
+      "end": 299.8,
+      "text": "你这个产品价格的百分之十左右。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 125,
+      "s": 57,
+      "start": 300.06,
+      "end": 302.28,
+      "text": "然后在双十一的这一天晚上，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 126,
+      "s": 57,
+      "start": 302.28,
+      "end": 304.67,
+      "text": "你可以选择付掉剩下的尾款。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 127,
+      "s": 58,
+      "start": 305.22,
+      "end": 307.6,
+      "text": "那你如果说在双十一这一天",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 128,
+      "s": 58,
+      "start": 307.6,
+      "end": 310.8,
+      "text": "不想要了，定金就是白白浪费了的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 129,
+      "s": 59,
+      "start": 310.8,
+      "end": 312.42,
+      "text": "是的，你如果不想要了的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 130,
+      "s": 59,
+      "start": 312.42,
+      "end": 313.44,
+      "text": "或者你忘记付款了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 131,
+      "s": 59,
+      "start": 313.44,
+      "end": 315.74,
+      "text": "或者你漏掉付款了，定金就拜拜了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 132,
+      "s": 60,
+      "start": 316.22,
+      "end": 317.92,
+      "text": "啊，我觉得这个政策，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 133,
+      "s": 60,
+      "start": 317.92,
+      "end": 319.04,
+      "text": "反正我自己本人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 134,
+      "s": 60,
+      "start": 319.04,
+      "end": 321.52,
+      "text": "从来没有在双十一的时候购物过。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 135,
+      "s": 61,
+      "start": 321.52,
+      "end": 323.28,
+      "text": "你有没有抢过双十一？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 136,
+      "s": 62,
+      "start": 323.28,
+      "end": 325.66,
+      "text": "我记得我上大一的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 137,
+      "s": 62,
+      "start": 325.66,
+      "end": 327.54,
+      "text": "就是二零零二零一四年的时候。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "s": 63,
+      "start": 327.81,
+      "end": 328.89,
+      "text": "那个时候双十一",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 63,
+      "start": 328.89,
+      "end": 331.8,
+      "text": "应该是刚刚呃兴起不久，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "s": 63,
+      "start": 332.05,
+      "end": 335.82,
+      "text": "我当时还是蛮疯狂的就买东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "s": 64,
+      "start": 335.94,
+      "end": 338.21,
+      "text": "买了很多就所谓的需要的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "s": 64,
+      "start": 338.21,
+      "end": 339.35,
+      "text": "或者是不需要的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 143,
+      "s": 64,
+      "start": 339.35,
+      "end": 341.95,
+      "text": "然后也会因为一些原因，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 144,
+      "s": 64,
+      "start": 341.95,
+      "end": 343.82,
+      "text": "比如说这个尺码的原因，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 145,
+      "s": 65,
+      "start": 343.85,
+      "end": 346.37,
+      "text": "我会买了不适合我的尺码，就会",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 146,
+      "s": 65,
+      "start": 346.37,
+      "end": 348.43,
+      "text": "进行一些勉强式的购物，你知道吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 147,
+      "s": 66,
+      "start": 348.43,
+      "end": 351.12,
+      "text": "就是为了购物而去购物这样的感觉。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "s": 67,
+      "start": 351.15,
+      "end": 353.83,
+      "text": "那你还记得当时这一次的双十一，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 149,
+      "s": 67,
+      "start": 353.83,
+      "end": 355.43,
+      "text": "你主要买了一些什么东西？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 150,
+      "s": 68,
+      "start": 356.44,
+      "end": 359.03,
+      "text": "主要买的产品应该是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 151,
+      "s": 68,
+      "start": 359.03,
+      "end": 360.83,
+      "text": "衣服类型和鞋子类型。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 152,
+      "s": 69,
+      "start": 360.83,
+      "end": 361.75,
+      "text": "我记得为什么",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 153,
+      "s": 69,
+      "start": 361.75,
+      "end": 364.03,
+      "text": "我会提到尺码的这个问题，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 154,
+      "s": 70,
+      "start": 364.39,
+      "end": 365.81,
+      "text": "因为我记忆犹新的是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 155,
+      "s": 70,
+      "start": 365.81,
+      "end": 368.95,
+      "text": "我买了一件那个Dickies的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 156,
+      "s": 70,
+      "start": 368.95,
+      "end": 371.4,
+      "text": "一件外套，一件棒球外套。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 157,
+      "s": 71,
+      "start": 371.49,
+      "end": 373.25,
+      "text": "那个外套我正常的尺码",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "s": 71,
+      "start": 373.25,
+      "end": 374.47,
+      "text": "应该是M码的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 159,
+      "s": 71,
+      "start": 374.47,
+      "end": 375.89,
+      "text": "但是因为双十一的关系，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 160,
+      "s": 71,
+      "start": 375.89,
+      "end": 377.6,
+      "text": "我只买到了S码的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 161,
+      "s": 72,
+      "start": 377.67,
+      "end": 379.65,
+      "text": "然后那个衣服穿在我身上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 162,
+      "s": 72,
+      "start": 379.65,
+      "end": 381.29,
+      "text": "就是特别像小朋友的衣服",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 163,
+      "s": 72,
+      "start": 381.29,
+      "end": 382.39,
+      "text": "穿在我身上一样。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 164,
+      "s": 73,
+      "start": 382.87,
+      "end": 385.55,
+      "text": "OK，所以说就像你说的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 165,
+      "s": 73,
+      "start": 385.55,
+      "end": 387.41,
+      "text": "有一些勉强式的购物。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 166,
+      "s": 74,
+      "start": 387.41,
+      "end": 388.83,
+      "text": "其实你想买M嘛，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 167,
+      "s": 74,
+      "start": 388.83,
+      "end": 390.95,
+      "text": "但是为了享受这个折扣，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 168,
+      "s": 74,
+      "start": 390.95,
+      "end": 393.55,
+      "text": "反而买了一些不是很需要的东西。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 169,
+      "s": 75,
+      "start": 393.55,
+      "end": 395.37,
+      "text": "可能是这样的，就是在尤其是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "s": 75,
+      "start": 395.37,
+      "end": 397.07,
+      "text": "在这种打折力度很大的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 171,
+      "s": 75,
+      "start": 397.07,
+      "end": 398.37,
+      "text": "你会有一种感觉，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 172,
+      "s": 76,
+      "start": 398.37,
+      "end": 401.19,
+      "text": "就好像你不买你就亏了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 173,
+      "s": 77,
+      "start": 401.25,
+      "end": 403.35,
+      "text": "嗯，但其实我觉得正常的逻辑",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 174,
+      "s": 77,
+      "start": 403.35,
+      "end": 405.29,
+      "text": "或者说一个健康的逻辑是，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 175,
+      "s": 77,
+      "start": 405.29,
+      "end": 407.21,
+      "text": "你不买你就省钱了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 176,
+      "s": 78,
+      "start": 407.21,
+      "end": 409.13,
+      "text": "而不是你不买你就会亏了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 177,
+      "s": 79,
+      "start": 409.23,
+      "end": 412.49,
+      "text": "但我其实一直想不通的一件事情是，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 178,
+      "s": 79,
+      "start": 412.49,
+      "end": 414.79,
+      "text": "会不会存在这样一种现象啊？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 179,
+      "s": 80,
+      "start": 414.79,
+      "end": 417.95,
+      "text": "有一些商家他会提前把价格提高，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 180,
+      "s": 80,
+      "start": 417.95,
+      "end": 419.51,
+      "text": "然后再打折呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 181,
+      "s": 81,
+      "start": 420.38,
+      "end": 421.43,
+      "text": "这个问题我觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 182,
+      "s": 81,
+      "start": 421.43,
+      "end": 423.76,
+      "text": "可能在双十一的前期，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 183,
+      "s": 81,
+      "start": 424.05,
+      "end": 425.79,
+      "text": "就是在这个活动的前几年",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 184,
+      "s": 81,
+      "start": 425.79,
+      "end": 427.17,
+      "text": "比较容易出现，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 185,
+      "s": 82,
+      "start": 427.43,
+      "end": 430.03,
+      "text": "因为当时可能也是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 186,
+      "s": 82,
+      "start": 430.03,
+      "end": 432.33,
+      "text": "因为监管的方面的一些原因吧。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 187,
+      "s": 83,
+      "start": 432.33,
+      "end": 435.13,
+      "text": "但是最近几年好像这个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 188,
+      "s": 83,
+      "start": 435.13,
+      "end": 436.91,
+      "text": "没有怎么听说过这样的事情。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 189,
+      "s": 84,
+      "start": 437.21,
+      "end": 439.88,
+      "text": "嗯，反正我本人我特别不喜欢",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 190,
+      "s": 84,
+      "start": 439.88,
+      "end": 441.48,
+      "text": "在网上面买衣服，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 191,
+      "s": 84,
+      "start": 441.56,
+      "end": 443.24,
+      "text": "因为女生的衣服你知道",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 192,
+      "s": 84,
+      "start": 443.24,
+      "end": 445.96,
+      "text": "合体合身是很重要的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 193,
+      "s": 85,
+      "start": 445.96,
+      "end": 447.94,
+      "text": "所以我也啊虽然现在",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 194,
+      "s": 85,
+      "start": 447.94,
+      "end": 449.74,
+      "text": "淘宝上面买衣服吧，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 195,
+      "s": 85,
+      "start": 449.74,
+      "end": 452.78,
+      "text": "你可以买一个东西叫做退货险，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 196,
+      "s": 85,
+      "start": 453.12,
+      "end": 454.74,
+      "text": "险就是保险的险。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 197,
+      "s": 86,
+      "start": 454.74,
+      "end": 456.38,
+      "text": "所谓退货险的意思就是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 198,
+      "s": 86,
+      "start": 456.38,
+      "end": 458.08,
+      "text": "我可能在买衣服的时候",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 199,
+      "s": 86,
+      "start": 458.08,
+      "end": 459.48,
+      "text": "多加一点点钱，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 200,
+      "s": 87,
+      "start": 459.48,
+      "end": 461.66,
+      "text": "比如说一一块钱人民币",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 201,
+      "s": 87,
+      "start": 461.66,
+      "end": 465.04,
+      "text": "相当于零点二。这是欧元的意思。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 202,
+      "s": 89,
+      "start": 465.35,
+      "end": 467.71,
+      "text": "那我付了这一个退货险呢之后，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 203,
+      "s": 89,
+      "start": 467.71,
+      "end": 469.91,
+      "text": "如果我试到的买到的衣服",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 204,
+      "s": 89,
+      "start": 469.91,
+      "end": 471.73,
+      "text": "不合身，我不想要了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 205,
+      "s": 90,
+      "start": 471.73,
+      "end": 473.74,
+      "text": "我就可以免费的给他寄回去。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 206,
+      "s": 91,
+      "start": 473.95,
+      "end": 475.75,
+      "text": "所以这个叫退货险。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 207,
+      "s": 92,
+      "start": 475.91,
+      "end": 478.31,
+      "text": "但是就算现在有了退货险，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 208,
+      "s": 92,
+      "start": 478.31,
+      "end": 479.79,
+      "text": "我还是觉得很懒，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 209,
+      "s": 92,
+      "start": 479.79,
+      "end": 481.81,
+      "text": "我就懒得去把衣服寄回去，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 210,
+      "s": 93,
+      "start": 481.81,
+      "end": 484.97,
+      "text": "所以我特别不喜欢在网上面买衣服。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 211,
+      "s": 94,
+      "start": 485.25,
+      "end": 487.19,
+      "text": "那我觉得我最多的买的东西",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 212,
+      "s": 94,
+      "start": 487.19,
+      "end": 488.91,
+      "text": "可能是电电子商品。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 213,
+      "s": 95,
+      "start": 489.61,
+      "end": 493.01,
+      "text": "我觉得我和你的情况也类似，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 214,
+      "s": 95,
+      "start": 493.01,
+      "end": 495.09,
+      "text": "我也觉得因为网上买衣服",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 215,
+      "s": 95,
+      "start": 495.09,
+      "end": 496.47,
+      "text": "一个最大的缺点就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 216,
+      "s": 95,
+      "start": 496.47,
+      "end": 498.52,
+      "text": "你退换不是很方便。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 217,
+      "s": 96,
+      "start": 498.57,
+      "end": 501.09,
+      "text": "就哪怕我们运用到了呃",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 218,
+      "s": 96,
+      "start": 501.09,
+      "end": 502.73,
+      "text": "Joanne所提到的退货险，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 219,
+      "s": 96,
+      "start": 502.73,
+      "end": 503.79,
+      "text": "但其实还是需要",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 220,
+      "s": 96,
+      "start": 503.79,
+      "end": 505.66,
+      "text": "等一个比较长的时间。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 221,
+      "s": 97,
+      "start": 506.43,
+      "end": 508.47,
+      "text": "另外，对于电子产品的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 222,
+      "s": 97,
+      "start": 508.73,
+      "end": 511.75,
+      "text": "我觉得我我不知道你作为一个女生",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 223,
+      "s": 97,
+      "start": 511.75,
+      "end": 514.79,
+      "text": "或者说你作为一个文科学生，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 224,
+      "s": 98,
+      "start": 514.79,
+      "end": 516.57,
+      "text": "你有没有很了解电子产品？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 225,
+      "s": 99,
+      "start": 517.01,
+      "end": 518.94,
+      "text": "因为我是学理科的嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 226,
+      "s": 99,
+      "start": 518.94,
+      "end": 520.68,
+      "text": "所以我平常对这些电子产品",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 227,
+      "s": 99,
+      "start": 520.68,
+      "end": 521.93,
+      "text": "也比较感兴趣。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 228,
+      "s": 100,
+      "start": 522.26,
+      "end": 524.16,
+      "text": "我是其实不太推荐你",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 229,
+      "s": 100,
+      "start": 524.16,
+      "end": 526.36,
+      "text": "从淘宝这种渠道",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 230,
+      "s": 100,
+      "start": 526.36,
+      "end": 528.58,
+      "text": "来进行电子产品的购买。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 231,
+      "s": 101,
+      "start": 528.58,
+      "end": 529.86,
+      "text": "没有没有，我也不在淘宝上买，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 232,
+      "s": 101,
+      "start": 529.86,
+      "end": 532.53,
+      "text": "但我一般在京东上面买电子产品。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 233,
+      "s": 102,
+      "start": 532.62,
+      "end": 534.86,
+      "text": "就是刚才呢也想跟大家提到的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 234,
+      "s": 102,
+      "start": 534.86,
+      "end": 537.92,
+      "text": "第二个中国可能是最第二大的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 235,
+      "s": 102,
+      "start": 537.92,
+      "end": 540.34,
+      "text": "电子商务平台就是京东。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 236,
+      "s": 103,
+      "start": 540.34,
+      "end": 542,
+      "text": "然后京东和淘宝呢",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 237,
+      "s": 103,
+      "start": 542,
+      "end": 543.68,
+      "text": "主要的区别可能就是。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 238,
+      "s": 104,
+      "start": 544.08,
+      "end": 545.54,
+      "text": "京东上面会主打",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 239,
+      "s": 104,
+      "start": 545.54,
+      "end": 547.86,
+      "text": "更多的一些电子产品，对不对？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 240,
+      "s": 105,
+      "start": 547.86,
+      "end": 548.89,
+      "text": "是这样的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 241,
+      "s": 106,
+      "start": 549.03,
+      "end": 550.62,
+      "text": "正好刚才提到几个词，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 242,
+      "s": 106,
+      "start": 550.62,
+      "end": 552.52,
+      "text": "我觉得还挺有意思的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 243,
+      "s": 106,
+      "start": 552.52,
+      "end": 554.52,
+      "text": "给大家稍微回顾一下。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 244,
+      "s": 107,
+      "start": 554.68,
+      "end": 556.52,
+      "text": "第一个词我们提到光棍儿，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 245,
+      "s": 107,
+      "start": 556.52,
+      "end": 558.7,
+      "text": "光棍儿是带一个儿化音的词，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 246,
+      "s": 107,
+      "start": 558.7,
+      "end": 560.74,
+      "text": "其实本来应该念光棍。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 247,
+      "s": 108,
+      "start": 561.48,
+      "end": 565,
+      "text": "对，是光棍儿是三个字，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 248,
+      "s": 108,
+      "start": 565,
+      "end": 567.28,
+      "text": "但是在北方的方言里面，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 249,
+      "s": 108,
+      "start": 567.28,
+      "end": 570.2,
+      "text": "或者说在中国的这个普通话里面。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 250,
+      "s": 109,
+      "start": 570.33,
+      "end": 572.73,
+      "text": "嗯，是以北京方言为基础的嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 251,
+      "s": 110,
+      "start": 572.73,
+      "end": 575.79,
+      "text": "然后我们一般会把这个儿和棍儿、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 252,
+      "s": 110,
+      "start": 575.79,
+      "end": 578.67,
+      "text": "棍儿和棍子念到一起，就念成棍儿。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 253,
+      "s": 111,
+      "start": 578.67,
+      "end": 581.01,
+      "text": "因为我是北方人嘛，嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 254,
+      "s": 111,
+      "start": 581.01,
+      "end": 582.15,
+      "text": "作为一个北方人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 255,
+      "s": 111,
+      "start": 582.15,
+      "end": 584.23,
+      "text": "如果你碰到一些特定的词语，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 256,
+      "s": 111,
+      "start": 584.23,
+      "end": 585.74,
+      "text": "你不加儿化音的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 257,
+      "s": 112,
+      "start": 586.09,
+      "end": 588.5,
+      "text": "会感觉到这个词非常的奇怪。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 258,
+      "s": 113,
+      "start": 589.27,
+      "end": 590.47,
+      "text": "光棍儿是什么意思呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 259,
+      "s": 114,
+      "start": 590.47,
+      "end": 592.11,
+      "text": "可以给大家解释一下吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 260,
+      "s": 115,
+      "start": 592.11,
+      "end": 595.59,
+      "text": "光棍儿，光棍儿就是指单身的人一个。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 261,
+      "s": 116,
+      "start": 596.4,
+      "end": 597.96,
+      "text": "但是我觉得这个词",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 262,
+      "s": 116,
+      "start": 597.96,
+      "end": 600.26,
+      "text": "会带有一些贬义的色彩，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 263,
+      "s": 116,
+      "start": 600.26,
+      "end": 603,
+      "text": "会有一些说这个人好可怜啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 264,
+      "s": 116,
+      "start": 603,
+      "end": 605.54,
+      "text": "没有另外一半，他是一个光棍儿。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 265,
+      "s": 118,
+      "start": 605.62,
+      "end": 608.86,
+      "text": "光棍儿它本意就是一根棍子，对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 266,
+      "s": 119,
+      "start": 608.86,
+      "end": 609.9,
+      "text": "对，是这样的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 267,
+      "s": 120,
+      "start": 609.9,
+      "end": 615.22,
+      "text": "对，就是光光这个词其实有怎么说呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 268,
+      "s": 121,
+      "start": 615.22,
+      "end": 617.38,
+      "text": "你比如说你把衣服都脱完了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 269,
+      "s": 121,
+      "start": 617.38,
+      "end": 619.1,
+      "text": "可以叫脱光衣服。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 270,
+      "s": 122,
+      "start": 619.1,
+      "end": 620.22,
+      "text": "所以光棍儿的意思",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 271,
+      "s": 122,
+      "start": 620.22,
+      "end": 622.96,
+      "text": "就是什么都没有，单单的一根棍子。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 272,
+      "s": 123,
+      "start": 622.98,
+      "end": 626.22,
+      "text": "那现在就用来主要是称男生，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 273,
+      "s": 123,
+      "start": 626.22,
+      "end": 628.22,
+      "text": "我觉得是单身的男生。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 274,
+      "s": 124,
+      "start": 628.6,
+      "end": 632.2,
+      "text": "对，所以刚才说到双十一是单身节，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 275,
+      "s": 124,
+      "start": 632.2,
+      "end": 634.92,
+      "text": "也可以叫光棍节，是这么一个来头。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 276,
+      "s": 125,
+      "start": 634.92,
+      "end": 637.32,
+      "text": "对，因为双十一有四根棍子嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 277,
+      "s": 125,
+      "start": 637.32,
+      "end": 640.33,
+      "text": "四个一，所以会叫光棍节、光棍节。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 278,
+      "s": 126,
+      "start": 640.46,
+      "end": 642.08,
+      "text": "对，然后第二个词",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 279,
+      "s": 126,
+      "start": 642.08,
+      "end": 644.7,
+      "text": "我觉得还挺挺有用的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 280,
+      "s": 126,
+      "start": 644.7,
+      "end": 646.72,
+      "text": "然后我们日常生活中也一直提的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 281,
+      "s": 126,
+      "start": 646.72,
+      "end": 649.32,
+      "text": "叫大神啊，大神。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 282,
+      "s": 127,
+      "start": 649.38,
+      "end": 651.28,
+      "text": "大神这个词，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 283,
+      "s": 127,
+      "start": 651.28,
+      "end": 654.22,
+      "text": "它应该是从网络游戏当中",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 284,
+      "s": 127,
+      "start": 654.22,
+      "end": 656.27,
+      "text": "流行出来的一个词汇。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 285,
+      "s": 128,
+      "start": 656.92,
+      "end": 659.08,
+      "text": "大是大就是大小的大，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 286,
+      "s": 128,
+      "start": 659.08,
+      "end": 660.7,
+      "text": "神就是神仙的神。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 287,
+      "s": 129,
+      "start": 660.7,
+      "end": 662.06,
+      "text": "我觉得你理解它",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 288,
+      "s": 129,
+      "start": 662.06,
+      "end": 664.44,
+      "text": "可以通过字面的意思来理解，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 289,
+      "s": 129,
+      "start": 664.73,
+      "end": 667.68,
+      "text": "就是你首先是神，你已经不是人了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 290,
+      "s": 130,
+      "start": 667.68,
+      "end": 669.8,
+      "text": "而且你还是一个大神，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 291,
+      "s": 130,
+      "start": 669.8,
+      "end": 672.58,
+      "text": "就表明你在某一个领域非常的厉害，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 292,
+      "s": 130,
+      "start": 672.58,
+      "end": 674.76,
+      "text": "你非常了解这个领域。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 293,
+      "s": 131,
+      "start": 674.91,
+      "end": 676.17,
+      "text": "所以叫做大神，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 294,
+      "s": 131,
+      "start": 676.17,
+      "end": 677.67,
+      "text": "而且“大神”这个词，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 295,
+      "s": 131,
+      "start": 677.67,
+      "end": 679.45,
+      "text": "我觉得会用在电子产品",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 296,
+      "s": 131,
+      "start": 679.45,
+      "end": 683.26,
+      "text": "或者是呃电脑游戏这方面比较多。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 297,
+      "s": 132,
+      "start": 683.51,
+      "end": 685.99,
+      "text": "对，但其实我觉得各种领域",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 298,
+      "s": 132,
+      "start": 685.99,
+      "end": 687.45,
+      "text": "如果想要描述一个人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 299,
+      "s": 132,
+      "start": 687.45,
+      "end": 690.43,
+      "text": "非常厉害的时候，都可以用“大神”。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 300,
+      "s": 133,
+      "start": 690.43,
+      "end": 691.89,
+      "text": "比如说举一些",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 301,
+      "s": 133,
+      "start": 691.89,
+      "end": 693.75,
+      "text": "外国朋友比较熟悉的例子，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 302,
+      "s": 133,
+      "start": 693.75,
+      "end": 697.16,
+      "text": "我们可以说费德勒是网球界的大神，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 303,
+      "s": 134,
+      "start": 697.41,
+      "end": 699.87,
+      "text": "或者说甚至你可以说",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 304,
+      "s": 134,
+      "start": 699.87,
+      "end": 701.69,
+      "text": "梵高是绘画界的大神。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 305,
+      "s": 135,
+      "start": 701.69,
+      "end": 702.15,
+      "text": "是的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 306,
+      "s": 136,
+      "start": 702.24,
+      "end": 704.24,
+      "text": "都可以，所以大神是一个",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 307,
+      "s": 136,
+      "start": 704.24,
+      "end": 705.6,
+      "text": "比较通俗的说法。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 308,
+      "s": 137,
+      "start": 706.32,
+      "end": 707.18,
+      "text": "是，那那说回来",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 309,
+      "s": 137,
+      "start": 707.18,
+      "end": 709.92,
+      "text": "说到这个网上电子商务的平台，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 310,
+      "s": 137,
+      "start": 709.92,
+      "end": 713.28,
+      "text": "刚才有介绍京东和淘宝，但是呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 311,
+      "s": 138,
+      "start": 713.28,
+      "end": 715.5,
+      "text": "这这几年中国又出现了",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 312,
+      "s": 138,
+      "start": 715.5,
+      "end": 718.6,
+      "text": "一个非常非常火的新的电子平台，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 313,
+      "s": 139,
+      "start": 718.6,
+      "end": 719.6,
+      "text": "也是今天为什么",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 314,
+      "s": 139,
+      "start": 719.6,
+      "end": 722.16,
+      "text": "我想要和Leo聊这个话题。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 315,
+      "s": 140,
+      "start": 722.16,
+      "end": 724.95,
+      "text": "这个电子平台叫拼多多。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 316,
+      "s": 141,
+      "start": 725.28,
+      "end": 725.9,
+      "text": "对，什么？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 317,
+      "s": 142,
+      "start": 725.9,
+      "end": 727.64,
+      "text": "能解释一下拼多多",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 318,
+      "s": 142,
+      "start": 727.64,
+      "end": 729.4,
+      "text": "这个词这个来源是什么？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 319,
+      "s": 143,
+      "start": 729.4,
+      "end": 730,
+      "text": "你知道吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 320,
+      "s": 144,
+      "start": 730.26,
+      "end": 733.36,
+      "text": "我觉得拼多多这个词的来源",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 321,
+      "s": 144,
+      "start": 733.36,
+      "end": 736.39,
+      "text": "主要是来自于它的一个购物的模式，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 322,
+      "s": 145,
+      "start": 736.61,
+      "end": 739.24,
+      "text": "因为拼多多推行的一个购物的模式",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 323,
+      "s": 145,
+      "start": 739.24,
+      "end": 740.92,
+      "text": "我们叫做团购。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 324,
+      "s": 146,
+      "start": 741.18,
+      "end": 743.98,
+      "text": "就比如说你一个人买一台电脑",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 325,
+      "s": 146,
+      "start": 743.98,
+      "end": 745.1,
+      "text": "可能要五千元，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 326,
+      "s": 146,
+      "start": 745.1,
+      "end": 747.42,
+      "text": "但是你二十个人一起买这台电脑，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 327,
+      "s": 147,
+      "start": 747.42,
+      "end": 748.83,
+      "text": "就每个人都买一台的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 328,
+      "s": 147,
+      "start": 749.08,
+      "end": 751.29,
+      "text": "它的价格就会降低很多。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 329,
+      "s": 148,
+      "start": 751.6,
+      "end": 753.92,
+      "text": "所以应该是在我看来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 330,
+      "s": 148,
+      "start": 753.92,
+      "end": 755.38,
+      "text": "应该是拼多多第一个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 331,
+      "s": 148,
+      "start": 755.38,
+      "end": 757.22,
+      "text": "推广这种购物模式的人。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 332,
+      "s": 149,
+      "start": 757.41,
+      "end": 759.19,
+      "text": "所以它会叫拼，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 333,
+      "s": 149,
+      "start": 759.19,
+      "end": 762.11,
+      "text": "因为就是大家拼在一起一起购物嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 334,
+      "s": 150,
+      "start": 762.11,
+      "end": 765.41,
+      "text": "那多多当然就是买的越多赚的越多，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 335,
+      "s": 150,
+      "start": 765.41,
+      "end": 767.09,
+      "text": "我觉得可能是这个意思吧。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 336,
+      "s": 151,
+      "start": 767.33,
+      "end": 770.03,
+      "text": "但是我觉得拼多多可能不是第一个，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 337,
+      "s": 151,
+      "start": 770.03,
+      "end": 771.87,
+      "text": "因为国外的话就有Groupon，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 338,
+      "s": 152,
+      "start": 771.89,
+      "end": 773.49,
+      "text": "Groupon其实当年",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 339,
+      "s": 152,
+      "start": 773.49,
+      "end": 774.85,
+      "text": "就是团购这个概念，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 340,
+      "s": 152,
+      "start": 774.85,
+      "end": 777.27,
+      "text": "所以买的多然后省钱",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 341,
+      "s": 152,
+      "start": 777.27,
+      "end": 779.53,
+      "text": "这个概念并不是很新鲜。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 342,
+      "s": 153,
+      "start": 779.53,
+      "end": 781.53,
+      "text": "那为什么拼多多在中国",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 343,
+      "s": 153,
+      "start": 781.53,
+      "end": 783.23,
+      "text": "会忽然之间崛起，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 344,
+      "s": 153,
+      "start": 783.23,
+      "end": 784.69,
+      "text": "忽然之间做的这么大呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 345,
+      "s": 154,
+      "start": 785.05,
+      "end": 788.15,
+      "text": "这个问题我觉得可能和拼多多",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 346,
+      "s": 154,
+      "start": 788.15,
+      "end": 790.73,
+      "text": "选择的一些产品有关系吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 347,
+      "s": 155,
+      "start": 790.95,
+      "end": 792.45,
+      "text": "因为比如拼多多上面",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 348,
+      "s": 155,
+      "start": 792.45,
+      "end": 794.41,
+      "text": "我们经常会买到的一些",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 349,
+      "s": 155,
+      "start": 794.41,
+      "end": 796.47,
+      "text": "就是日用品方面的东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 350,
+      "s": 155,
+      "start": 796.47,
+      "end": 798.89,
+      "text": "它会以非常低的价格卖给你。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 351,
+      "s": 156,
+      "start": 798.89,
+      "end": 800.83,
+      "text": "我觉得这个是非常吸引",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 352,
+      "s": 156,
+      "start": 800.83,
+      "end": 803.77,
+      "text": "我们就像爸爸妈妈这一辈人的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 353,
+      "s": 156,
+      "start": 803.77,
+      "end": 805.05,
+      "text": "消费的欲望的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 354,
+      "s": 157,
+      "start": 805.05,
+      "end": 807.63,
+      "text": "就比如说你买一管牙膏，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 355,
+      "s": 157,
+      "start": 807.63,
+      "end": 808.51,
+      "text": "可能正常的价格",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 356,
+      "s": 157,
+      "start": 808.51,
+      "end": 810.61,
+      "text": "要十块钱人民币左右，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 357,
+      "s": 157,
+      "start": 810.61,
+      "end": 813.94,
+      "text": "但是你在拼多多上。可以买到类似",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 358,
+      "s": 158,
+      "start": 813.94,
+      "end": 816.24,
+      "text": "带引号的类似的产品的话，",
+      "speaker": "B",
+      "u": 157,
+      "role": "storyteller"
+    },
+    {
+      "i": 359,
+      "s": 158,
+      "start": 816.24,
+      "end": 818.62,
+      "text": "可能只需要五块钱人民币左右，",
+      "speaker": "B",
+      "u": 157,
+      "role": "storyteller"
+    },
+    {
+      "i": 360,
+      "s": 158,
+      "start": 818.62,
+      "end": 820.59,
+      "text": "这个是非常有吸引力的。",
+      "speaker": "B",
+      "u": 157,
+      "role": "storyteller"
+    },
+    {
+      "i": 361,
+      "s": 159,
+      "start": 820.68,
+      "end": 823.24,
+      "text": "我觉得，我一直有这么一个印象，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 362,
+      "s": 159,
+      "start": 823.24,
+      "end": 826.84,
+      "text": "就是拼多多它它的目标客户啊、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 363,
+      "s": 160,
+      "start": 826.84,
+      "end": 828.58,
+      "text": "目标群体是一些",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 364,
+      "s": 160,
+      "start": 828.58,
+      "end": 831.39,
+      "text": "二线城市和三线城市的人。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 365,
+      "s": 161,
+      "start": 831.62,
+      "end": 835.4,
+      "text": "你觉得我这个这个印象是是对的吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 366,
+      "s": 162,
+      "start": 835.4,
+      "end": 837.48,
+      "text": "我觉得可以这么说吧。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 367,
+      "s": 163,
+      "start": 837.48,
+      "end": 839.86,
+      "text": "呃，因为Joanne来自上海嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 368,
+      "s": 163,
+      "start": 839.86,
+      "end": 841.16,
+      "text": "上海其实是一个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 369,
+      "s": 163,
+      "start": 841.16,
+      "end": 844.19,
+      "text": "便利店行业发展非常迅猛的城市。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 370,
+      "s": 164,
+      "start": 844.19,
+      "end": 846.88,
+      "text": "你半夜十二点出门",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 371,
+      "s": 164,
+      "start": 846.88,
+      "end": 848.93,
+      "text": "都可以买到你想要的东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 372,
+      "s": 165,
+      "start": 849.28,
+      "end": 852.08,
+      "text": "但是在一些呃靠西部的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 373,
+      "s": 165,
+      "start": 852.08,
+      "end": 854.54,
+      "text": "或者说靠北部的一些",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 374,
+      "s": 165,
+      "start": 854.54,
+      "end": 858.39,
+      "text": "二线或者说是十八线的小城市当中，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 375,
+      "s": 166,
+      "start": 858.46,
+      "end": 859.94,
+      "text": "其实人们买到这种",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 376,
+      "s": 166,
+      "start": 859.94,
+      "end": 861.72,
+      "text": "日常生活用品的途径",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 377,
+      "s": 166,
+      "start": 861.72,
+      "end": 864.98,
+      "text": "可能是去超市或者是去小卖部，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 378,
+      "s": 166,
+      "start": 864.98,
+      "end": 866.85,
+      "text": "这是非常不方便的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 379,
+      "s": 167,
+      "start": 866.9,
+      "end": 868.8,
+      "text": "而且他们的价格其实。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 380,
+      "s": 168,
+      "start": 869.64,
+      "end": 872.69,
+      "text": "会随着一个整个一个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 381,
+      "s": 168,
+      "start": 872.69,
+      "end": 875.42,
+      "text": "市场价格的波动，一个进行变化。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 382,
+      "s": 169,
+      "start": 875.85,
+      "end": 877.59,
+      "text": "所以我觉得这就是为什么",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 383,
+      "s": 169,
+      "start": 877.59,
+      "end": 879.07,
+      "text": "拼多多的受众群体",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 384,
+      "s": 169,
+      "start": 879.07,
+      "end": 881.93,
+      "text": "可能更多的是在一些小城市的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 385,
+      "s": 169,
+      "start": 881.93,
+      "end": 884.01,
+      "text": "呃家庭会选择拼多多。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 386,
+      "s": 170,
+      "start": 884.01,
+      "end": 886.75,
+      "text": "拼多多我觉得最可怕的一点，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 387,
+      "s": 170,
+      "start": 886.75,
+      "end": 891.49,
+      "text": "它就是它需要你经常转发一些广告，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 388,
+      "s": 170,
+      "start": 891.49,
+      "end": 895.63,
+      "text": "然后通过别人的点击和转发来。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 389,
+      "s": 171,
+      "start": 895.9,
+      "end": 898.03,
+      "text": "给你更多的折扣。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 390,
+      "s": 172,
+      "start": 898.16,
+      "end": 900.2,
+      "text": "我本人因为没有用过拼多多，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 391,
+      "s": 172,
+      "start": 900.2,
+      "end": 902.96,
+      "text": "但是我经常会收到一些朋友",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 392,
+      "s": 172,
+      "start": 902.96,
+      "end": 905.54,
+      "text": "或者是亲戚、亲朋好友，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 393,
+      "s": 173,
+      "start": 905.54,
+      "end": 907.8,
+      "text": "他们给我转发说：“哎，Joanne，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 394,
+      "s": 173,
+      "start": 907.8,
+      "end": 910.14,
+      "text": "你能不能点击一下这个链接？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 395,
+      "s": 174,
+      "start": 910.14,
+      "end": 912.34,
+      "text": "如果你点击了，就可以，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 396,
+      "s": 174,
+      "start": 912.34,
+      "end": 914.44,
+      "text": "我就可以享受更多的折扣。”",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 397,
+      "s": 175,
+      "start": 914.44,
+      "end": 916.48,
+      "text": "所以通过这样一种模式，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 398,
+      "s": 175,
+      "start": 916.48,
+      "end": 917.82,
+      "text": "相当于让更多的人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 399,
+      "s": 175,
+      "start": 917.82,
+      "end": 920.06,
+      "text": "来加入拼多多，来知道拼多多。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 400,
+      "s": 176,
+      "start": 920.06,
+      "end": 920.44,
+      "text": "对，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 401,
+      "s": 177,
+      "start": 920.44,
+      "end": 920.99,
+      "text": "我觉得。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 402,
+      "s": 178,
+      "start": 921.66,
+      "end": 923.17,
+      "text": "这个应该是他们的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 403,
+      "s": 178,
+      "start": 923.17,
+      "end": 924.91,
+      "text": "一种宣传的手段吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 404,
+      "s": 178,
+      "start": 924.91,
+      "end": 927.07,
+      "text": "就是为了让，其实就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 405,
+      "s": 178,
+      "start": 927.07,
+      "end": 929.4,
+      "text": "相当于是一种做广告的手段。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 406,
+      "s": 179,
+      "start": 929.41,
+      "end": 932.97,
+      "text": "你通过给客户一些呃折扣，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 407,
+      "s": 179,
+      "start": 932.97,
+      "end": 935.33,
+      "text": "来让大家更多的人知道",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 408,
+      "s": 179,
+      "start": 935.33,
+      "end": 938.31,
+      "text": "你这个呃App。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 409,
+      "s": 180,
+      "start": 938.61,
+      "end": 938.69,
+      "text": "嗯。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 410,
+      "s": 181,
+      "start": 938.69,
+      "end": 941.39,
+      "text": "同时，这个呃怎么讲？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 411,
+      "s": 182,
+      "start": 941.39,
+      "end": 943.09,
+      "text": "这个分享给大家，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 412,
+      "s": 182,
+      "start": 943.09,
+      "end": 945.55,
+      "text": "然后通过大家点击链接的这个行为，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 413,
+      "s": 182,
+      "start": 945.55,
+      "end": 947.39,
+      "text": "其实在中文的网络世界",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 414,
+      "s": 182,
+      "start": 947.39,
+      "end": 950.38,
+      "text": "有一个更加。形象化的一个说法",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 415,
+      "s": 183,
+      "start": 950.38,
+      "end": 951.8,
+      "text": "叫做砍一刀",
+      "speaker": "B",
+      "u": 182,
+      "role": "storyteller"
+    },
+    {
+      "i": 416,
+      "s": 183,
+      "start": 951.8,
+      "end": 954.72,
+      "text": "因为经常你会在这个尤其是",
+      "speaker": "B",
+      "u": 182,
+      "role": "storyteller"
+    },
+    {
+      "i": 417,
+      "s": 183,
+      "start": 954.72,
+      "end": 956.74,
+      "text": "在家族的群里面你会看到",
+      "speaker": "B",
+      "u": 182,
+      "role": "storyteller"
+    },
+    {
+      "i": 418,
+      "s": 183,
+      "start": 956.74,
+      "end": 958.72,
+      "text": "比如说你的姑姑会突然发来",
+      "speaker": "B",
+      "u": 182,
+      "role": "storyteller"
+    },
+    {
+      "i": 419,
+      "s": 184,
+      "start": 958.72,
+      "end": 960.14,
+      "text": "一个拼多多的链接",
+      "speaker": "B",
+      "u": 182,
+      "role": "storyteller"
+    },
+    {
+      "i": 420,
+      "s": 184,
+      "start": 960.14,
+      "end": 962.3,
+      "text": "然后请求大家说",
+      "speaker": "B",
+      "u": 182,
+      "role": "storyteller"
+    },
+    {
+      "i": 421,
+      "s": 184,
+      "start": 962.3,
+      "end": 965.66,
+      "text": "家人朋友们帮帮忙帮我来砍一刀",
+      "speaker": "B",
+      "u": 182,
+      "role": "storyteller"
+    },
+    {
+      "i": 422,
+      "s": 184,
+      "start": 965.66,
+      "end": 968.28,
+      "text": "然后点过链接的家人会在群里面",
+      "speaker": "B",
+      "u": 182,
+      "role": "storyteller"
+    },
+    {
+      "i": 423,
+      "s": 185,
+      "start": 968.28,
+      "end": 970.62,
+      "text": "回复说已砍已砍已砍",
+      "speaker": "B",
+      "u": 182,
+      "role": "storyteller"
+    },
+    {
+      "i": 424,
+      "s": 185,
+      "start": 970.62,
+      "end": 972.56,
+      "text": "这样的话砍的人越多",
+      "speaker": "B",
+      "u": 182,
+      "role": "storyteller"
+    },
+    {
+      "i": 425,
+      "s": 185,
+      "start": 972.56,
+      "end": 974.3,
+      "text": "你得到的折扣也就越多嘛",
+      "speaker": "B",
+      "u": 182,
+      "role": "storyteller"
+    },
+    {
+      "i": 426,
+      "s": 185,
+      "start": 974.63,
+      "end": 978.5,
+      "text": "砍这个动词本来其实就是用在刀，",
+      "speaker": "B",
+      "u": 182,
+      "role": "storyteller"
+    },
+    {
+      "i": 427,
+      "s": 187,
+      "start": 978.5,
+      "end": 981.68,
+      "text": "就是说你用刀来砍什么东西，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 428,
+      "s": 187,
+      "start": 981.68,
+      "end": 983.19,
+      "text": "砍树，比如说。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 429,
+      "s": 188,
+      "start": 983.24,
+      "end": 985.95,
+      "text": "那现在的话，因为其实在中文里面，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 430,
+      "s": 188,
+      "start": 986.05,
+      "end": 989.14,
+      "text": "如果你要价格说的更低一点，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 431,
+      "s": 188,
+      "start": 989.14,
+      "end": 990.83,
+      "text": "我们有一个说法叫砍价，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 432,
+      "s": 189,
+      "start": 991.02,
+      "end": 993.96,
+      "text": "就是把价格砍得更低一点。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 433,
+      "s": 190,
+      "start": 993.96,
+      "end": 996.02,
+      "text": "所以现在就在拼多多上面",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 434,
+      "s": 190,
+      "start": 996.02,
+      "end": 997.78,
+      "text": "有这么个说法叫砍一刀。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 435,
+      "s": 191,
+      "start": 997.78,
+      "end": 997.98,
+      "text": "对，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 436,
+      "s": 192,
+      "start": 997.98,
+      "end": 999.02,
+      "text": "其实这是我觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 437,
+      "s": 192,
+      "start": 999.02,
+      "end": 1001.76,
+      "text": "这还是一种蛮形象、蛮具体的说法。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 438,
+      "s": 193,
+      "start": 1001.98,
+      "end": 1003.52,
+      "text": "因为就有一种",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 439,
+      "s": 193,
+      "start": 1003.52,
+      "end": 1006.49,
+      "text": "符合了它企业内涵的感觉，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 440,
+      "s": 193,
+      "start": 1006.6,
+      "end": 1009.68,
+      "text": "又是拼，就是叫大家一起来，又是砍，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 441,
+      "s": 194,
+      "start": 1009.68,
+      "end": 1011.93,
+      "text": "又可以帮你拿到更多的优惠，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 442,
+      "s": 194,
+      "start": 1012.04,
+      "end": 1014.37,
+      "text": "感觉还是蛮有趣的一个词汇。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 443,
+      "s": 195,
+      "start": 1015.02,
+      "end": 1017.22,
+      "text": "对，然后刚才又想到这个",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 444,
+      "s": 195,
+      "start": 1017.22,
+      "end": 1020.8,
+      "text": "提到二线、三线和十八线城市这个词，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 445,
+      "s": 195,
+      "start": 1020.8,
+      "end": 1023.78,
+      "text": "我觉得可能也是中国独有的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 446,
+      "s": 196,
+      "start": 1024.34,
+      "end": 1025.94,
+      "text": "就是你我们的定义里面",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 447,
+      "s": 196,
+      "start": 1025.94,
+      "end": 1028.08,
+      "text": "哪些城市算是二线城市呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 448,
+      "s": 197,
+      "start": 1028.08,
+      "end": 1028.54,
+      "text": "你觉得？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 449,
+      "s": 198,
+      "start": 1028.98,
+      "end": 1031.85,
+      "text": "二线城市对于我来说",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 450,
+      "s": 198,
+      "start": 1031.85,
+      "end": 1035.11,
+      "text": "我个人的理解二线城市就是一些",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 451,
+      "s": 198,
+      "start": 1035.11,
+      "end": 1037.43,
+      "text": "在一线城市周边的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 452,
+      "s": 198,
+      "start": 1037.43,
+      "end": 1040.47,
+      "text": "一些省市的首府或者说是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 453,
+      "s": 199,
+      "start": 1040.47,
+      "end": 1042.67,
+      "text": "紧邻着一线城市的一些城市",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 454,
+      "s": 199,
+      "start": 1042.67,
+      "end": 1044.69,
+      "text": "举一个最恰当的例子",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 455,
+      "s": 199,
+      "start": 1044.69,
+      "end": 1048.13,
+      "text": "就比如说杭州苏州或者是南京",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 456,
+      "s": 199,
+      "start": 1048.13,
+      "end": 1048.89,
+      "text": "在我看来",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 457,
+      "s": 199,
+      "start": 1048.89,
+      "end": 1051.41,
+      "text": "这些就是很典型的二线城市",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 458,
+      "s": 200,
+      "start": 1051.41,
+      "end": 1052.93,
+      "text": "因为它首先不如",
+      "speaker": "B",
+      "u": 199,
+      "role": "storyteller"
+    },
+    {
+      "i": 459,
+      "s": 200,
+      "start": 1052.93,
+      "end": 1055.99,
+      "text": "北京上海广州深圳这么出名",
+      "speaker": "B",
+      "u": 199,
+      "role": "storyteller"
+    },
+    {
+      "i": 460,
+      "s": 200,
+      "start": 1056.58,
+      "end": 1060.75,
+      "text": "呃，其次，它距离这些中心的城市",
+      "speaker": "B",
+      "u": 199,
+      "role": "storyteller"
+    },
+    {
+      "i": 461,
+      "s": 201,
+      "start": 1060.75,
+      "end": 1062.44,
+      "text": "是有一定的距离的。",
+      "speaker": "B",
+      "u": 199,
+      "role": "storyteller"
+    },
+    {
+      "i": 462,
+      "s": 202,
+      "start": 1062.47,
+      "end": 1063.53,
+      "text": "我觉得这就是为什么",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 463,
+      "s": 202,
+      "start": 1063.53,
+      "end": 1064.99,
+      "text": "它叫做二线城市。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 464,
+      "s": 203,
+      "start": 1064.99,
+      "end": 1066.43,
+      "text": "还有另外一个原因是，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 465,
+      "s": 203,
+      "start": 1066.43,
+      "end": 1068.45,
+      "text": "我觉得在这些城市，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 466,
+      "s": 203,
+      "start": 1068.45,
+      "end": 1070.38,
+      "text": "在这些所谓的二线城市，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 467,
+      "s": 204,
+      "start": 1070.71,
+      "end": 1074.51,
+      "text": "其实我们正在努力的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 468,
+      "s": 204,
+      "start": 1074.51,
+      "end": 1077.81,
+      "text": "过一种所谓的国际化的生活，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 469,
+      "s": 204,
+      "start": 1077.81,
+      "end": 1080.12,
+      "text": "就是在呃怎么讲，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 470,
+      "s": 204,
+      "start": 1080.47,
+      "end": 1082.79,
+      "text": "试图追赶一线城市的步伐吧。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 471,
+      "s": 205,
+      "start": 1082.8,
+      "end": 1085.55,
+      "text": "这是我为什么叫它二线城市。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 472,
+      "s": 206,
+      "start": 1085.74,
+      "end": 1088.32,
+      "text": "二线、一线这两个词呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 473,
+      "s": 206,
+      "start": 1088.32,
+      "end": 1091.24,
+      "text": "我觉得也不仅仅可以用在城市，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 474,
+      "s": 207,
+      "start": 1091.24,
+      "end": 1094.34,
+      "text": "它其实本来的意思就是第一个档次",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 475,
+      "s": 207,
+      "start": 1094.34,
+      "end": 1097.4,
+      "text": "或者是第一个最好的那一批。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 476,
+      "s": 208,
+      "start": 1097.4,
+      "end": 1099.8,
+      "text": "二线就是不是最好的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 477,
+      "s": 208,
+      "start": 1099.8,
+      "end": 1102.16,
+      "text": "但是也不错的那一些东西。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 478,
+      "s": 209,
+      "start": 1102.18,
+      "end": 1103.86,
+      "text": "那不仅仅是城市，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 479,
+      "s": 209,
+      "start": 1103.86,
+      "end": 1106.58,
+      "text": "比如说你可以说一线明星，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 480,
+      "s": 209,
+      "start": 1106.58,
+      "end": 1109.95,
+      "text": "明星就是演员呀。歌手呀，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 481,
+      "s": 210,
+      "start": 1109.95,
+      "end": 1111.36,
+      "text": "也有二线明星。",
+      "speaker": "A",
+      "u": 209,
+      "role": "narrator"
+    },
+    {
+      "i": 482,
+      "s": 211,
+      "start": 1111.45,
+      "end": 1113.23,
+      "text": "那如果说有一些明星",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 483,
+      "s": 211,
+      "start": 1113.23,
+      "end": 1114.54,
+      "text": "他没有很多的电影，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 484,
+      "s": 211,
+      "start": 1114.65,
+      "end": 1116.69,
+      "text": "或者他不是很有名，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 485,
+      "s": 211,
+      "start": 1116.69,
+      "end": 1119.14,
+      "text": "就可以管他们叫十八线明星。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 486,
+      "s": 212,
+      "start": 1119.17,
+      "end": 1121.95,
+      "text": "这中国呢非常喜欢用“十八”这个数字，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 487,
+      "s": 212,
+      "start": 1121.95,
+      "end": 1123.12,
+      "text": "我也不知道为什么，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 488,
+      "s": 213,
+      "start": 1123.22,
+      "end": 1126.17,
+      "text": "就是反正要说很就是很后面",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 489,
+      "s": 213,
+      "start": 1126.17,
+      "end": 1127.89,
+      "text": "数字很很后面的时候呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 490,
+      "s": 213,
+      "start": 1127.89,
+      "end": 1129.04,
+      "text": "就会用“十八”这个词。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 491,
+      "s": 214,
+      "start": 1129.09,
+      "end": 1130.45,
+      "text": "我也很好奇，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 492,
+      "s": 214,
+      "start": 1130.45,
+      "end": 1131.75,
+      "text": "因为我不知道这个事情",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 493,
+      "s": 214,
+      "start": 1131.75,
+      "end": 1134.43,
+      "text": "是不是只在中国的文化当中存在。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 494,
+      "s": 215,
+      "start": 1134.64,
+      "end": 1136.99,
+      "text": "因为我们在说地狱的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 495,
+      "s": 215,
+      "start": 1136.99,
+      "end": 1138.87,
+      "text": "我们会说十八层地狱。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 496,
+      "s": 216,
+      "start": 1138.87,
+      "end": 1140.61,
+      "text": "我不知道为什么，可是，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 497,
+      "s": 216,
+      "start": 1140.61,
+      "end": 1142.79,
+      "text": "在我看来，在中国的文化体系里面，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 498,
+      "s": 216,
+      "start": 1142.79,
+      "end": 1145.33,
+      "text": "应该是没有地狱这个概念的吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 499,
+      "s": 217,
+      "start": 1145.33,
+      "end": 1145.43,
+      "text": "对，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 500,
+      "s": 218,
+      "start": 1145.43,
+      "end": 1148.83,
+      "text": "但十八确实是一个非常神奇的数字。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 501,
+      "s": 219,
+      "start": 1148.83,
+      "end": 1150.85,
+      "text": "所以刚才就说有一线城市、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 502,
+      "s": 219,
+      "start": 1150.85,
+      "end": 1154.36,
+      "text": "一线明星，也可以说一线品牌，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 503,
+      "s": 220,
+      "start": 1154.57,
+      "end": 1155.35,
+      "text": "反正什么",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 504,
+      "s": 220,
+      "start": 1155.35,
+      "end": 1157.63,
+      "text": "反正是可以分档次的东西呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 505,
+      "s": 220,
+      "start": 1157.63,
+      "end": 1159.09,
+      "text": "都可以说一线、二线。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 506,
+      "s": 221,
+      "start": 1159.09,
+      "end": 1161.93,
+      "text": "其实另外一线还有另外的一个用法。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 507,
+      "s": 222,
+      "start": 1162.06,
+      "end": 1166.04,
+      "text": "就比如说一线工人、一线教师，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 508,
+      "s": 222,
+      "start": 1166.04,
+      "end": 1168.3,
+      "text": "就是指他们是冲在最前面、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 509,
+      "s": 222,
+      "start": 1168.3,
+      "end": 1171.46,
+      "text": "最直接接触到这个生产活动的人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 510,
+      "s": 223,
+      "start": 1171.54,
+      "end": 1174.08,
+      "text": "所以会叫他们，比如一线工人、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 511,
+      "s": 223,
+      "start": 1174.08,
+      "end": 1176.71,
+      "text": "一线教师、一线医生等等等等。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 512,
+      "s": 224,
+      "start": 1176.82,
+      "end": 1178.32,
+      "text": "所以这两个一线的意思",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 513,
+      "s": 224,
+      "start": 1178.32,
+      "end": 1179.6,
+      "text": "是挺不一样的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 514,
+      "s": 225,
+      "start": 1179.6,
+      "end": 1180.98,
+      "text": "刚才说的第一个一线呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 515,
+      "s": 225,
+      "start": 1180.98,
+      "end": 1182.78,
+      "text": "其实是first tier、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 516,
+      "s": 225,
+      "start": 1182.78,
+      "end": 1183.94,
+      "text": "first class；",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 517,
+      "s": 226,
+      "start": 1183.94,
+      "end": 1185.26,
+      "text": "然后第二个一线，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 518,
+      "s": 226,
+      "start": 1185.26,
+      "end": 1186.9,
+      "text": "刚才Leo说的一线工人，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 519,
+      "s": 226,
+      "start": 1186.9,
+      "end": 1188.54,
+      "text": "其实是frontline的意思。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 520,
+      "s": 227,
+      "start": 1188.73,
+      "end": 1191.75,
+      "text": "所以一线有这两个不同的意思，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 521,
+      "s": 227,
+      "start": 1191.75,
+      "end": 1195.37,
+      "text": "我觉得我心目中或者传统定义上的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 522,
+      "s": 227,
+      "start": 1195.37,
+      "end": 1198.77,
+      "text": "一线城市只有四个：北上广深，对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 523,
+      "s": 229,
+      "start": 1198.77,
+      "end": 1198.97,
+      "text": "嗯。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 524,
+      "s": 230,
+      "start": 1198.97,
+      "end": 1201.41,
+      "text": "就是北京、上海、广州、深圳。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 525,
+      "s": 231,
+      "start": 1201.41,
+      "end": 1201.85,
+      "text": "对。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 526,
+      "s": 232,
+      "start": 1201.85,
+      "end": 1202.89,
+      "text": "然后二线，我觉得",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 527,
+      "s": 232,
+      "start": 1202.89,
+      "end": 1205.61,
+      "text": "就像你说的是一些省会城市，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 528,
+      "s": 232,
+      "start": 1205.61,
+      "end": 1208.7,
+      "text": "比如说苏州、杭州、南京之类的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 529,
+      "s": 233,
+      "start": 1209.21,
+      "end": 1210.35,
+      "text": "你觉得上海呃，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 530,
+      "s": 233,
+      "start": 1210.35,
+      "end": 1213.55,
+      "text": "你觉得中国大概有多少个二线城市？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 531,
+      "s": 234,
+      "start": 1214.2,
+      "end": 1217.7,
+      "text": "这个其实比较难讲吧，我觉得，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 532,
+      "s": 234,
+      "start": 1217.7,
+      "end": 1219.12,
+      "text": "因为就像我们现在讲",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 533,
+      "s": 234,
+      "start": 1219.12,
+      "end": 1222.06,
+      "text": "一线城市的这个概念，北上广深，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 534,
+      "s": 235,
+      "start": 1222.06,
+      "end": 1223.08,
+      "text": "其实我们现在已经",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 535,
+      "s": 235,
+      "start": 1223.08,
+      "end": 1225.32,
+      "text": "不把它叫做一线城市了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 536,
+      "s": 235,
+      "start": 1225.32,
+      "end": 1227.6,
+      "text": "我们叫它超一线城市，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 537,
+      "s": 236,
+      "start": 1227.6,
+      "end": 1229.86,
+      "text": "就是因为我们有太多",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 538,
+      "s": 236,
+      "start": 1229.86,
+      "end": 1231.84,
+      "text": "所谓之前的二线城市，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 539,
+      "s": 236,
+      "start": 1231.84,
+      "end": 1234.06,
+      "text": "慢慢通过发展变成了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 540,
+      "s": 236,
+      "start": 1234.06,
+      "end": 1237.18,
+      "text": "之前所谓上海、北上广深的模样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 541,
+      "s": 237,
+      "start": 1237.18,
+      "end": 1239.44,
+      "text": "所以现在所现在",
+      "speaker": "B",
+      "u": 236,
+      "role": "storyteller"
+    },
+    {
+      "i": 542,
+      "s": 237,
+      "start": 1239.44,
+      "end": 1241.94,
+      "text": "在二零二一年这个情况下，",
+      "speaker": "B",
+      "u": 236,
+      "role": "storyteller"
+    },
+    {
+      "i": 543,
+      "s": 237,
+      "start": 1241.94,
+      "end": 1244.18,
+      "text": "我觉得在中国你讲二线城市。",
+      "speaker": "B",
+      "u": 236,
+      "role": "storyteller"
+    },
+    {
+      "i": 544,
+      "s": 238,
+      "start": 1244.47,
+      "end": 1246.63,
+      "text": "可能是会提到更多",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 545,
+      "s": 238,
+      "start": 1246.63,
+      "end": 1249.51,
+      "text": "以前你都没有听说过城市的名字，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 546,
+      "s": 238,
+      "start": 1249.67,
+      "end": 1251.42,
+      "text": "比如说合肥。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 547,
+      "s": 239,
+      "start": 1251.57,
+      "end": 1253.27,
+      "text": "合肥怎么会没听说过呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 548,
+      "s": 240,
+      "start": 1253.27,
+      "end": 1255.51,
+      "text": "或者比如说合肥是安徽的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 549,
+      "s": 240,
+      "start": 1255.51,
+      "end": 1257.19,
+      "text": "那是因为你是江浙沪的人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 550,
+      "s": 240,
+      "start": 1257.19,
+      "end": 1258.99,
+      "text": "你可能会听说过这个名字。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 551,
+      "s": 241,
+      "start": 1258.99,
+      "end": 1262.73,
+      "text": "嗯，或者比如说，嗯，呼和浩特。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 552,
+      "s": 242,
+      "start": 1263.27,
+      "end": 1264.23,
+      "text": "嗯，这个城市",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 553,
+      "s": 242,
+      "start": 1264.23,
+      "end": 1266.25,
+      "text": "就是在内蒙古的一个城市嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 554,
+      "s": 243,
+      "start": 1266.47,
+      "end": 1268.63,
+      "text": "嗯，它就我觉得在目前看来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 555,
+      "s": 243,
+      "start": 1268.63,
+      "end": 1270.99,
+      "text": "它可以算上是一个二线的城市了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 556,
+      "s": 244,
+      "start": 1271.04,
+      "end": 1273.33,
+      "text": "嗯，因为所谓我们刚才说的南京、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 557,
+      "s": 244,
+      "start": 1273.33,
+      "end": 1275.99,
+      "text": "苏州、杭州这些已经变成了一线城市。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 558,
+      "s": 245,
+      "start": 1276.12,
+      "end": 1277.4,
+      "text": "而之前的一线城市",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 559,
+      "s": 245,
+      "start": 1277.4,
+      "end": 1279.23,
+      "text": "也变成了超一线城市。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 560,
+      "s": 246,
+      "start": 1279.75,
+      "end": 1282.68,
+      "text": "刚才正好说到江浙沪这个词，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 561,
+      "s": 246,
+      "start": 1282.68,
+      "end": 1284.59,
+      "text": "我觉得也可以展开说一下，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 562,
+      "s": 246,
+      "start": 1284.68,
+      "end": 1287.7,
+      "text": "顺便让我想到了什么叫包邮区，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 563,
+      "s": 247,
+      "start": 1287.7,
+      "end": 1289.62,
+      "text": "因为正好讲到电商。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 564,
+      "s": 248,
+      "start": 1289.62,
+      "end": 1292.58,
+      "text": "江浙沪呢就是三个省，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 565,
+      "s": 248,
+      "start": 1292.58,
+      "end": 1296.18,
+      "text": "江是江苏，浙是浙江，沪是上海，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 566,
+      "s": 249,
+      "start": 1296.18,
+      "end": 1297.88,
+      "text": "所以这三个省份",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 567,
+      "s": 249,
+      "start": 1297.88,
+      "end": 1300.72,
+      "text": "或者上海市它是连在一起的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 568,
+      "s": 250,
+      "start": 1300.72,
+      "end": 1304.44,
+      "text": "然后还有一个词叫江浙沪包邮区。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 569,
+      "s": 251,
+      "start": 1304.96,
+      "end": 1307.11,
+      "text": "包邮的意思就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 570,
+      "s": 251,
+      "start": 1307.11,
+      "end": 1309.49,
+      "text": "你在网上购物的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 571,
+      "s": 251,
+      "start": 1309.75,
+      "end": 1311.79,
+      "text": "通常来说由这个东西",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 572,
+      "s": 251,
+      "start": 1311.79,
+      "end": 1313.27,
+      "text": "通过邮局运到你家，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 573,
+      "s": 252,
+      "start": 1313.27,
+      "end": 1315.23,
+      "text": "你是要交邮费的嘛？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 574,
+      "s": 253,
+      "start": 1315.23,
+      "end": 1317.45,
+      "text": "包邮就是你不需要交邮费，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 575,
+      "s": 253,
+      "start": 1317.45,
+      "end": 1320.21,
+      "text": "邮费通过商家来包揽了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 576,
+      "s": 254,
+      "start": 1320.21,
+      "end": 1321.85,
+      "text": "就叫做包邮区域。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 577,
+      "s": 255,
+      "start": 1321.85,
+      "end": 1323.87,
+      "text": "对，邮费就是运费，对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 578,
+      "s": 256,
+      "start": 1324.43,
+      "end": 1324.63,
+      "text": "对。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 579,
+      "s": 257,
+      "start": 1324.63,
+      "end": 1326.83,
+      "text": "然后所以包邮其实是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 580,
+      "s": 257,
+      "start": 1326.83,
+      "end": 1328.55,
+      "text": "在中国购物的时候",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 581,
+      "s": 257,
+      "start": 1328.55,
+      "end": 1331.27,
+      "text": "经常会用到的一个词，还挺有用的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 582,
+      "s": 258,
+      "start": 1331.38,
+      "end": 1332.6,
+      "text": "可是你知道为什么",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 583,
+      "s": 258,
+      "start": 1332.6,
+      "end": 1335.35,
+      "text": "江浙沪叫做包邮区吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 584,
+      "s": 259,
+      "start": 1335.4,
+      "end": 1337.92,
+      "text": "因为阿里巴巴的总部在杭州是吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 585,
+      "s": 260,
+      "start": 1337.92,
+      "end": 1338.78,
+      "text": "是这样的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 586,
+      "s": 261,
+      "start": 1338.78,
+      "end": 1341.2,
+      "text": "对，所以从杭州出发呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 587,
+      "s": 261,
+      "start": 1341.2,
+      "end": 1343.42,
+      "text": "江浙沪比较近，所以就可以包邮。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 588,
+      "s": 262,
+      "start": 1343.57,
+      "end": 1344.22,
+      "text": "对对，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 589,
+      "s": 263,
+      "start": 1344.22,
+      "end": 1345.26,
+      "text": "还有一个原因是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 590,
+      "s": 263,
+      "start": 1345.26,
+      "end": 1347.9,
+      "text": "因为江浙沪本来就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 591,
+      "s": 263,
+      "start": 1347.9,
+      "end": 1350.74,
+      "text": "一个呃一体的经济体系，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 592,
+      "s": 264,
+      "start": 1350.74,
+      "end": 1353.3,
+      "text": "所以它之间的交通啊什么的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 593,
+      "s": 264,
+      "start": 1353.3,
+      "end": 1354.77,
+      "text": "都会非常的快。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 594,
+      "s": 265,
+      "start": 1354.88,
+      "end": 1357.54,
+      "text": "在包邮区其实，在今天来看，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 595,
+      "s": 265,
+      "start": 1357.54,
+      "end": 1359.08,
+      "text": "包邮区的另外一个意思",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 596,
+      "s": 265,
+      "start": 1359.08,
+      "end": 1361.36,
+      "text": "就是今天下单明天送到。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 597,
+      "s": 266,
+      "start": 1361.68,
+      "end": 1365.32,
+      "text": "在江浙沪，这个速度是可以达到的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 598,
+      "s": 267,
+      "start": 1365.32,
+      "end": 1367.82,
+      "text": "嗯，那今天我们就讲到这里。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 599,
+      "s": 268,
+      "start": 1367.82,
+      "end": 1369.42,
+      "text": "你还有什么最后要补充的吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 600,
+      "s": 269,
+      "start": 1369.42,
+      "end": 1372.7,
+      "text": "关于你的中国的电商购物体验，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 601,
+      "s": 269,
+      "start": 1372.7,
+      "end": 1374.31,
+      "text": "大概就是这样了。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 602,
+      "s": 270,
+      "start": 1374.88,
+      "end": 1376.82,
+      "text": "我觉得中国这个发展速度，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 603,
+      "s": 270,
+      "start": 1376.82,
+      "end": 1379.86,
+      "text": "可能过几年就会有新的拼多多呀，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 604,
+      "s": 270,
+      "start": 1379.86,
+      "end": 1381.78,
+      "text": "新的平台出现，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 605,
+      "s": 271,
+      "start": 1381.78,
+      "end": 1384.29,
+      "text": "这个更新换代真的是非常的快。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 606,
+      "s": 272,
+      "start": 1384.88,
+      "end": 1386.02,
+      "text": "是的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 607,
+      "s": 273,
+      "start": 1386.02,
+      "end": 1388.86,
+      "text": "好了，那今天就聊到这里，谢谢Leo。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 608,
+      "s": 274,
+      "start": 1389.13,
+      "end": 1390.67,
+      "text": "谢谢Joanne，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 609,
+      "s": 274,
+      "start": 1390.67,
+      "end": 1393.07,
+      "text": "好，我们下期再见，拜拜。",
+      "speaker": "A",
+      "role": "narrator"
+    }
+  ]
+}
