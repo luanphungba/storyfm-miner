@@ -15,8 +15,8 @@
 // a word turns that one over and plays its line once, to check the reading recalled against the speech
 // without the next word's line giving that one away; a tap on it once turned plays on as before.
 //
-// ✓ Thuộc tells the server a word is known: it leaves every chapter's list until it is tapped again on
-// a later day. The dialog then fires `known` with the word, for the page to drop it from its counts.
+// ✓ Thuộc tells the server a word is known: it leaves every chapter's list until it is tapped again,
+// that day or later. The dialog then fires `known` with the word, for the page to drop it from its counts.
 
 import { levelLabel, levelOf, levelRank } from './hsk.js';
 import { studyDay } from './listening.js';
@@ -114,7 +114,7 @@ export async function showWords(/** @type {Chapter} */ chapter, /** @type {Tappe
     gist.className = 'wd-gist';
     const known = element('button', 'chip wd-know', '✓ Thuộc');
     known.setAttribute('type', 'button');
-    known.title = 'Đã thuộc: bỏ khỏi danh sách của mọi chương, tới khi tra lại nó vào một hôm khác';
+    known.title = 'Đã thuộc: bỏ khỏi danh sách của mọi chương, tới khi tra lại nó';
     gist.append(element('div', meaning ? 'wd-meaning' : 'wd-meaning is-empty', meaning || 'chưa có nghĩa'), known);
     item.append(gist);
     const said = lines[k];
@@ -166,7 +166,8 @@ async function know(/** @type {number} */ k) {
   const button = /** @type {HTMLButtonElement} */ (item.querySelector('.wd-know'));
   button.disabled = true;
   try {
-    await call(connection, '/know', { word, day: studyDay(new Date()) });
+    const now = new Date();
+    await call(connection, '/know', { word, day: studyDay(now), ms: now.getTime() });
   } catch (error) {
     button.disabled = false;
     if (shown === list) $('words-note').textContent = /** @type {Error} */ (error).message;

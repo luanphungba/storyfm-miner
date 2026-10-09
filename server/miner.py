@@ -499,9 +499,10 @@ class TapLog:
     comes back the next day in Nghe lại. Only ever added to: a tap sent twice, or the same one from two
     devices, is one row, so a page resends whatever it is unsure went through.
 
-    A word said to be known is listed under no chapter until it is tapped again on a later day: a tap
-    says it was not caught after all. Its taps stay, and so do the days its chapters were tapped in,
-    which space them."""
+    A word said to be known is listed under no chapter until it is tapped again, that day or later: a
+    tap says it was not caught after all. Its taps stay, and so do the days its chapters were tapped
+    in, which space them. Which came last is told by the moment the page says each happened, as a day
+    cannot tell a tap after the word was said to be known from one before it."""
 
     def __init__(self, path):
         self.db = sqlite3.connect(path, check_same_thread=False)
@@ -513,6 +514,7 @@ class TapLog:
                     word TEXT NOT NULL,
                     ep TEXT NOT NULL,
                     at REAL NOT NULL,   -- the start of the line the word was tapped in
+                    ms INTEGER,         -- the last time it was, in ms by the page's clock (page_ms)
                     PRIMARY KEY (day, word, ep, at)
                 )"""
             )
@@ -520,17 +522,30 @@ class TapLog:
                 """CREATE TABLE IF NOT EXISTS known (
                     day TEXT NOT NULL,  -- YYYY-MM-DD, as study_day counts it
                     word TEXT NOT NULL,
+                    ms INTEGER,         -- the last time it was said so, in ms by the page's clock
                     PRIMARY KEY (day, word)
                 )"""
             )
+            # A log from before the moments were kept gains the column, its rows none.
+            for table in ("tapped", "known"):
+                if "ms" not in {column for _cid, column, *_ in self.db.execute(f"PRAGMA table_info({table})")}:
+                    self.db.execute(f"ALTER TABLE {table} ADD COLUMN ms INTEGER")
 
     def record(self, taps):
         with self.lock, self.db:
-            self.db.executemany("INSERT OR IGNORE INTO tapped VALUES (:day, :word, :ep, :at)", taps)
+            self.db.executemany(
+                """INSERT INTO tapped (day, word, ep, at, ms) VALUES (:day, :word, :ep, :at, :ms)
+                   ON CONFLICT (day, word, ep, at) DO UPDATE SET ms = excluded.ms WHERE excluded.ms > IFNULL(ms, 0)""",
+                taps,
+            )
 
-    def know(self, word, day):
+    def know(self, word, day, ms=None):
         with self.lock, self.db:
-            self.db.execute("INSERT OR IGNORE INTO known VALUES (?, ?)", (day, word))
+            self.db.execute(
+                """INSERT INTO known (day, word, ms) VALUES (?, ?, ?)
+                   ON CONFLICT (day, word) DO UPDATE SET ms = excluded.ms WHERE excluded.ms > IFNULL(ms, 0)""",
+                (day, word, ms),
+            )
 
     def days(self, word):
         """How many different days word was tapped on, anywhere."""
@@ -556,10 +571,8 @@ class TapLog:
         last tapped is left out of the words, not the days."""
         with self.lock:
             word_days = dict(self.db.execute("SELECT word, COUNT(DISTINCT day) FROM tapped GROUP BY word"))
-            known = {word for (word,) in self.db.execute(
-                """SELECT known.word FROM known JOIN tapped USING (word)
-                   GROUP BY known.word HAVING MAX(known.day) >= MAX(tapped.day)"""
-            )}
+            last_tapped = self.last("tapped")
+            known = {word for word, last in self.last("known").items() if last >= last_tapped.get(word, ("", 0))}
             by_episode = {}
             for ep, at, word, day in self.db.execute("SELECT ep, at, word, day FROM tapped ORDER BY at"):
                 by_episode.setdefault(ep, []).append((at, word, day))
@@ -584,6 +597,24 @@ class TapLog:
             })
         return found
 
+    def last(self, table):
+        """Each word's last (day, ms) in table. A row from before the moments were kept counts as its
+        day's first, so a word said to be known then stays known over its taps that day, as it did."""
+        last = {}
+        for word, day, ms in self.db.execute(f"SELECT word, day, MAX(IFNULL(ms, 0)) FROM {table} GROUP BY word, day"):
+            last[word] = max(last.get(word, (day, ms)), (day, ms))
+        return last
+
+
+def page_ms(value):
+    """The moment a page says a tap or a word known happened, in ms since 1970 by its clock, or None
+    from a page older than sending it. Only ever compared with another the pages sent."""
+    if value is None:
+        return None
+    if isinstance(value, bool) or not isinstance(value, (int, float)) or not 0 < value < 2**53:
+        raise ValueError(value)
+    return int(value)
+
 
 def tap_entry(entry):
     """One tap as the player sends it, checked."""
@@ -593,6 +624,7 @@ def tap_entry(entry):
             "word": str(entry["word"]).strip(),
             "ep": str(entry["ep"])[:40],
             "at": float(entry["at"]),
+            "ms": page_ms(entry.get("ms")),
         }
         time.strptime(checked["day"], "%Y-%m-%d")
     except (AttributeError, KeyError, TypeError, ValueError):
@@ -603,18 +635,19 @@ def tap_entry(entry):
 
 
 def known_word(body):
-    """A word a page says is known, and the day it says so, checked."""
+    """A word a page says is known, and the day and moment it says so, checked."""
     word, day = body.get("word"), body.get("day")
     if not isinstance(word, str) or not isinstance(day, str):
         raise ApiError(400, "Thiếu thông tin từ đã thuộc.")
     try:
         time.strptime(day, "%Y-%m-%d")
+        ms = page_ms(body.get("ms"))
     except ValueError:
         raise ApiError(400, "Ngày không hợp lệ.")
     word = word.strip()
     if not 0 < len(word) <= 40:
         raise ApiError(400, "Từ đã thuộc không hợp lệ.")
-    return word, day
+    return word, day, ms
 
 
 def tapped_chapter(entry):
@@ -751,7 +784,7 @@ class Api:
         return {"chapters": self.tap_log.chapters([tapped_chapter(chapter) for chapter in chapters])}
 
     def know(self, body):
-        """Takes a word off the lists of words tapped, until it is tapped again on a later day."""
+        """Takes a word off the lists of words tapped, until it is tapped again."""
         self.tap_log.know(*known_word(body))
         return {}
 

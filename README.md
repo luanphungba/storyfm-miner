@@ -95,8 +95,8 @@ heading: those words, each with its HSK level, reading, Hán Việt and meaning 
 up in, the lowest level first (the most of speech it buys) and in a level the ones looked up on the most
 days, to read through before hearing it again. **▶ Nghe** plays those lines one after another and round
 again, the word playing lit; a tap on a word plays on from its line, and a line's ↻ loops it while its
-word is read. **✓ Thuộc** takes a word off every chapter's list until it is looked up again on a later
-day. Nghe lại lists a studied chapter's the same way.
+word is read. **✓ Thuộc** takes a word off every chapter's list until it is looked up again, the same
+day or later. Nghe lại lists a studied chapter's the same way.
 
 **✓ Học xong** puts the chapter on the list of studied chapters, kept by the server (below) in
 `studied.json` beside its collection, not in Anki, so the phone and the laptop share it. The chapters

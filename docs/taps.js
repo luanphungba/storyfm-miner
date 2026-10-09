@@ -18,7 +18,9 @@ const MAX_WORD = 40;
 /** The taps kept while the server cannot be reached, at most: past it the oldest go. */
 const MAX_UNSENT = 500;
 
-/** @typedef {{ day: string, word: string, ep: string, at: number }} Tap  `at` is the start of the line tapped in. */
+/** @typedef {{ day: string, word: string, ep: string, at: number, ms?: number }} Tap  `at` is the start of the
+ *   line tapped in; `ms`, when, so the server can tell a tap after the word was said to be known from one
+ *   before it that day. A tap kept unsent by an older page has none. */
 /** @typedef {{ days: number, inAnki: boolean }} TapCount */
 /** @typedef {{ word: string, at: number, days: number }} TappedWord  As the server lists a chapter's. */
 
@@ -40,7 +42,7 @@ function writeUnsent(/** @type {Tap[]} */ unsent) {
   }
 }
 
-const tapKey = (/** @type {Tap} */ t) => `${t.day} ${t.word} ${t.ep} ${t.at}`;
+const tapKey = (/** @type {Tap} */ t) => `${t.day} ${t.word} ${t.ep} ${t.at} ${t.ms}`;
 
 /**
  * Sends the tap of `word` in the line starting at `at`, with any an earlier page could not send, and
@@ -51,7 +53,8 @@ const tapKey = (/** @type {Tap} */ t) => `${t.day} ${t.word} ${t.ep} ${t.at}`;
  */
 export async function recordTap(connection, { word, ep, at }) {
   if (!word || [...word].length > MAX_WORD || !ep) return null;
-  const sent = [...readUnsent(), { day: studyDay(new Date()), word, ep, at }].slice(-MAX_UNSENT);
+  const now = new Date();
+  const sent = [...readUnsent(), { day: studyDay(now), word, ep, at, ms: now.getTime() }].slice(-MAX_UNSENT);
   writeUnsent(sent);
   /** @type {TapCount} */
   const count = await call(connection, '/tap', { taps: sent, word });

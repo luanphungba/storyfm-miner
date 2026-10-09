@@ -8,6 +8,7 @@ Where Anki is not installed it is stood in for, as nothing here opens a collecti
 import importlib.util
 import math
 import os
+import sqlite3
 import sys
 import tempfile
 import threading
@@ -145,8 +146,8 @@ class ListenedEntryTest(unittest.TestCase):
             miner.Api(None, None, None, None).listening({"entries": "x"})
 
 
-def tap(word, day="2026-10-06", ep="E517", at=80.5):
-    return {"day": day, "word": word, "ep": ep, "at": at}
+def tap(word, day="2026-10-06", ep="E517", at=80.5, ms=None):
+    return {"day": day, "word": word, "ep": ep, "at": at} | ({} if ms is None else {"ms": ms})
 
 
 class FakeAnki:
@@ -244,7 +245,8 @@ class TapLogTest(unittest.TestCase):
 
     def test_turns_away_what_no_page_sends(self):
         bad = ["x", {"word": "尴尬"}, tap(""), tap("尴" * 41), tap("尴尬", day="hôm nay"), tap("尴尬", ep=""),
-               tap("尴尬", at=-1), tap("尴尬", at="x"), tap("尴尬", at=math.nan)]
+               tap("尴尬", at=-1), tap("尴尬", at="x"), tap("尴尬", at=math.nan), tap("尴尬", ms="x"), tap("尴尬", ms=0),
+               tap("尴尬", ms=True), tap("尴尬", ms=math.nan), tap("尴尬", ms=math.inf)]
         for body in bad:
             with self.subTest(body=body), self.assertRaises(miner.ApiError) as raised:
                 miner.tap_entry(body)
@@ -263,7 +265,24 @@ class TapLogTest(unittest.TestCase):
         self.assertEqual(self.words_of(), [["清楚"], []])
         self.assertEqual([c["days"] for c in self.api.tapped({})["chapters"]], [["2026-10-06"], ["2026-10-07"]])
 
-    def test_a_word_known_is_listed_again_once_tapped_on_a_later_day(self):
+    def test_a_word_known_is_listed_again_once_tapped_after_even_that_day(self):
+        self.study(70.62, 158.13)
+        self.send("", tap("尴尬", ms=1_000))
+        self.api.know({"word": "尴尬", "day": "2026-10-06", "ms": 2_000})
+        self.assertEqual(self.words_of(), [[]])
+        self.send("", tap("尴尬", ms=3_000))
+        self.assertEqual(self.words_of(), [["尴尬"]])
+
+    def test_a_tap_from_before_the_word_was_known_sent_late_keeps_it_off(self):
+        self.study(70.62, 158.13)
+        self.api.know({"word": "尴尬", "day": "2026-10-06", "ms": 2_000})
+        self.send("", tap("尴尬", at=95.1, ms=1_000), tap("尴尬", ms=3_000), tap("尴尬", ms=1_500))
+        self.assertEqual(self.words_of(), [["尴尬"]])
+        self.api.know({"word": "尴尬", "day": "2026-10-06", "ms": 4_000})
+        self.send("", tap("尴尬", ms=3_500))
+        self.assertEqual(self.words_of(), [[]])
+
+    def test_without_moments_a_word_known_is_listed_again_once_tapped_on_a_later_day(self):
         self.study(70.62, 158.13)
         self.send("", tap("尴尬"))
         self.api.know({"word": "尴尬", "day": "2026-10-06"})
@@ -271,6 +290,29 @@ class TapLogTest(unittest.TestCase):
         self.assertEqual(self.words_of(), [[]])
         self.send("", tap("尴尬", day="2026-10-09"))
         self.assertEqual(self.words_of(), [["尴尬"]])
+
+    def test_a_word_known_before_the_moments_were_kept_is_listed_again_once_tapped_that_day(self):
+        self.study(70.62, 158.13)
+        self.send("", tap("尴尬"))
+        self.api.know({"word": "尴尬", "day": "2026-10-06"})
+        self.send("", tap("尴尬", ms=1_000))
+        self.assertEqual(self.words_of(), [["尴尬"]])
+
+    def test_a_log_from_before_the_moments_were_kept_keeps_its_rows(self):
+        path = self.folder / "old.db"
+        old = sqlite3.connect(path)
+        with old:
+            old.execute("CREATE TABLE tapped (day TEXT NOT NULL, word TEXT NOT NULL, ep TEXT NOT NULL, at REAL NOT NULL,"
+                        " PRIMARY KEY (day, word, ep, at))")
+            old.execute("CREATE TABLE known (day TEXT NOT NULL, word TEXT NOT NULL, PRIMARY KEY (day, word))")
+            old.execute("INSERT INTO tapped VALUES ('2026-10-06', '尴尬', 'E517', 80.5)")
+            old.execute("INSERT INTO known VALUES ('2026-10-06', '尴尬')")
+        old.close()
+        log = miner.TapLog(path)
+        log.record([miner.tap_entry(tap("清楚", ms=1_000))])
+        self.assertEqual(log.history(), {"tapped": {"尴尬": ["2026-10-06"], "清楚": ["2026-10-06"]},
+                                         "known": {"尴尬": ["2026-10-06"]}})
+        self.assertEqual(miner.TapLog(path).days("清楚"), 1)
 
     def test_a_word_known_twice_or_from_two_devices_is_one_row_and_keeps_its_taps(self):
         self.send("", tap("尴尬"))
@@ -281,7 +323,8 @@ class TapLogTest(unittest.TestCase):
 
     def test_turns_away_a_known_word_no_page_sends(self):
         for body in [{}, {"word": "尴尬"}, {"word": "", "day": "2026-10-07"}, {"word": "尴" * 41, "day": "2026-10-07"},
-                     {"word": "尴尬", "day": "hôm nay"}, {"word": ["尴尬"], "day": "2026-10-07"}]:
+                     {"word": "尴尬", "day": "hôm nay"}, {"word": ["尴尬"], "day": "2026-10-07"},
+                     {"word": "尴尬", "day": "2026-10-07", "ms": "x"}, {"word": "尴尬", "day": "2026-10-07", "ms": -1}]:
             with self.subTest(body=body), self.assertRaises(miner.ApiError) as raised:
                 self.api.know(body)
             self.assertEqual(raised.exception.status, 400)
