@@ -14,5 +14,10 @@
     "wrong": "酷杀FM",
     "right": "故事FM",
     "note": "The show's own name is 故事FM (confirmed self-referentially — every intro in this corpus says 故事FM correctly). A one-off mishearing seen in E077's outro; kept here in case it recurs."
+  },
+  {
+    "wrong": "主播王庆",
+    "right": "主播王磬",
+    "note": "不合时宜 (TW…) co-host 王磬 (show notes list 若含, 孟常, 王磬); ASR hears the homophone 庆 in her fixed self-introduction \"我是主播王磬\". Scoped to 主播 directly before it, so no other 王庆 is touched."
   }
 ]

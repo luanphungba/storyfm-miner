@@ -1,0 +1,595 @@
+{
+  "episode": "TW20200703",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-09",
+  "fixes": [
+    {
+      "cueIndex": 111,
+      "before": "Oh my",
+      "after": "Ohmy",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 111,
+      "before": "my god",
+      "after": "mygod",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 150,
+      "before": "b ub",
+      "after": "bub",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 150,
+      "before": "ub ble",
+      "after": "ubble",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 152,
+      "before": "Oh my",
+      "after": "Ohmy",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 152,
+      "before": "my god",
+      "after": "mygod",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 302,
+      "before": "peace and",
+      "after": "peaceand",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 302,
+      "before": "and love",
+      "after": "andlove",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 308,
+      "before": "f ocus",
+      "after": "focus",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 389,
+      "before": "Inter me",
+      "after": "Interme",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 389,
+      "before": "me zzo",
+      "after": "mezzo",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 440,
+      "before": "pass ion",
+      "after": "passion",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 479,
+      "before": "prof ile",
+      "after": "profile",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 509,
+      "before": "F ifty",
+      "after": "Fifty",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 509,
+      "before": "ifty Six",
+      "after": "iftySix",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 17,
+      "before": "主播王庆",
+      "after": "主播王磬",
+      "source": "known-phrase",
+      "reason": "Matches a known recurring mistake in the show's fixed script (scripts/known-fixes.json).",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 0,
+      "before": "Just Pod",
+      "after": "JustPod",
+      "source": "llm-review",
+      "reason": "The network jingle; show notes: 本节目由JustPod出品.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 2,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 24,
+      "before": "苟金",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 苟金.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 45,
+      "before": "苟经",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 苟经.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 93,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 108,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 117,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 142,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 155,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 156,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 161,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 171,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 175,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 193,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 195,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 258,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 316,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 353,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 366,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 391,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 478,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 481,
+      "before": "狗精",
+      "after": "苟晶",
+      "source": "llm-review",
+      "reason": "The case discussed is 苟晶 (Gou Jing), the Shandong student impersonated at university (confirmed via web search); ASR writes the homophone 狗精.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 18,
+      "before": "若涵",
+      "after": "若含",
+      "source": "llm-review",
+      "reason": "Co-host 若含 per the show notes; homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 19,
+      "before": "若涵",
+      "after": "若含",
+      "source": "llm-review",
+      "reason": "Co-host 若含 per the show notes; homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 111,
+      "before": "Ohmygod",
+      "after": "Oh my god",
+      "source": "llm-review",
+      "reason": "Glue pass fused three English words.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 138,
+      "before": "费北大清华",
+      "after": "非北大清华",
+      "source": "llm-review",
+      "reason": "非北大清华不上 is the set phrase; 费 is its homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 152,
+      "before": "Ohmygod",
+      "after": "Oh my god",
+      "source": "llm-review",
+      "reason": "Glue pass fused three English words.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 203,
+      "before": "一级大学",
+      "after": "野鸡大学",
+      "source": "llm-review",
+      "reason": "Same audio as the opening clip (sentence 9), heard there as 野鸡大学; 201 says 野鸡大学 too.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 251,
+      "before": "不平。",
+      "after": "不平",
+      "source": "llm-review",
+      "reason": "The word runs on into sentence 252 (不平衡在的); whisper hears 不平衡在的. Joined in data/cuts.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 252,
+      "before": "很在的",
+      "after": "衡在的",
+      "source": "llm-review",
+      "reason": "Second syllable of 不平衡 (see 251); whisper hears 不平衡在的.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 268,
+      "before": "呼喊",
+      "after": "互害",
+      "source": "llm-review",
+      "reason": "Show notes at 22:45: 不公平的制度最终就是让所有的受害者互害; whisper hears 互害.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 302,
+      "before": "peaceandlove",
+      "after": "peace and love",
+      "source": "llm-review",
+      "reason": "Glue pass fused three English words.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 323,
+      "before": "欺上大学",
+      "after": "替上大学",
+      "source": "llm-review",
+      "reason": "The 顶替上大学 cases; whisper hears 替上大学.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 352,
+      "before": "作题家",
+      "after": "做题家",
+      "source": "llm-review",
+      "reason": "小镇做题家, as the same speaker says it elsewhere and the show notes write it.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 354,
+      "before": "作题家",
+      "after": "做题家",
+      "source": "llm-review",
+      "reason": "小镇做题家, as the same speaker says it elsewhere and the show notes write it.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 362,
+      "before": "庆",
+      "after": "磬",
+      "source": "llm-review",
+      "reason": "Addressing co-host 王磬 by her given name; homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 369,
+      "before": "独库",
+      "after": "读库",
+      "source": "llm-review",
+      "reason": "张立宪 (老六) edits 《读库》 (confirmed via web search).",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 369,
+      "before": "柴进",
+      "after": "柴静",
+      "source": "llm-review",
+      "reason": "Journalist 柴静, a regular at 老六's Beijing 饭局 (confirmed via web search).",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 371,
+      "before": "陈小青",
+      "after": "陈晓卿",
+      "source": "llm-review",
+      "reason": "陈晓卿 (舌尖上的中国) co-hosts 老六's 饭局 (confirmed via web search).",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 372,
+      "before": "柴进",
+      "after": "柴静",
+      "source": "llm-review",
+      "reason": "Journalist 柴静, as in 369.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 372,
+      "before": "黄章进",
+      "after": "黄章晋",
+      "source": "llm-review",
+      "reason": "Media figure 黄章晋 (凤凰周刊, 大象公会), confirmed via web search.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 383,
+      "before": "天方乐坛",
+      "after": "天方乐谈",
+      "source": "llm-review",
+      "reason": "The ad's own podcast, spelled out in 386–387 (乐是音乐的乐，谈是谈话的谈).",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 412,
+      "before": "庆",
+      "after": "磬",
+      "source": "llm-review",
+      "reason": "Addressing co-host 王磬 by her given name; homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 423,
+      "before": "美，书学校",
+      "after": "美术学校",
+      "source": "llm-review",
+      "reason": "ASR put a comma inside 美术; the sentence before says 美术学校.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 449,
+      "before": "体质",
+      "after": "体制",
+      "source": "llm-review",
+      "reason": "The next sentence says 一个体制 of the same thing; homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 464,
+      "before": "隶属",
+      "after": "历数",
+      "source": "llm-review",
+      "reason": "历数自己教过的学生 \"going through the students one by one\"; whisper hears 历数; homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 509,
+      "before": "FiftySix Up",
+      "after": "Fifty Six Up",
+      "source": "llm-review",
+      "reason": "Glue pass fused the documentary title (56 Up).",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 543,
+      "before": "孑然",
+      "after": "皆然",
+      "source": "llm-review",
+      "reason": "全世界皆然, as the same speaker says it in 534 and 538.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 544,
+      "before": "孑然",
+      "after": "皆然",
+      "source": "llm-review",
+      "reason": "全世界皆然, as the same speaker says it in 534 and 538.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 591,
+      "before": "如果爸",
+      "after": "我爸",
+      "source": "llm-review",
+      "reason": "She is telling about her father (595: 那我爸当时作为那所学校的校长); whisper hears 我爸.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 617,
+      "before": "庆",
+      "after": "磬",
+      "source": "llm-review",
+      "reason": "Addressing co-host 王磬 by her given name; homophone.",
+      "appliedAt": "2026-10-09"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 18,
+      "text": "另外两位主播若含和长远",
+      "reason": "Show notes name the third host 孟常, but both AssemblyAI and whisper hear 长远; may be how she names him. Left as heard."
+    },
+    {
+      "cueIndex": 182,
+      "text": "就是陈老师刚才说的",
+      "reason": "孟常 (speaker B) is addressed as 陈/程老师 here and in 391, 上老师 in 209 (whisper: 程老师, 成尔, 上次); his real name is not public. Left as heard."
+    },
+    {
+      "cueIndex": 63,
+      "text": "几期的时候我就在练网球",
+      "reason": "Follows 大家在早自习。 Likely (早)自习的时候; whisper hears 洗洗的时候. Unresolved."
+    },
+    {
+      "cueIndex": 114,
+      "text": "所以说我完毫无震惊感",
+      "reason": "Whisper hears 完全毫无; ASR gives 完 120ms. Probably 完全, not certain."
+    },
+    {
+      "cueIndex": 140,
+      "text": "就是说好像三木号听闻有人可以",
+      "reason": "Garbled; whisper hears \"Sum好\". Unresolved."
+    },
+    {
+      "cueIndex": 337,
+      "text": "我看那个孙许阳写了一篇文章",
+      "reason": "Author not found (whisper: 孙徐阳). Unverified name."
+    },
+    {
+      "cueIndex": 358,
+      "text": "这个阶层固化在家中",
+      "reason": "Reads as 阶层固化在加重 (\"class rigidity is getting worse\"), but both AssemblyAI and whisper hear 家中 and the pitch track could not tell the tone. Left as heard."
+    },
+    {
+      "cueIndex": 360,
+      "text": "那寒门更难出出这一状元",
+      "reason": "Garbled; whisper hears 寒门更难出这种人. Meaning (poor families produce fewer top scorers) is clear, wording is not."
+    },
+    {
+      "cueIndex": 464,
+      "text": "很像这个小郑班主任的",
+      "reason": "Whisper hears 小镇班主任; zhèn/zhèng is ambiguous here. Left as heard."
+    },
+    {
+      "cueIndex": 601,
+      "text": "基本上也都会老家了",
+      "reason": "Means 回老家 (as in 599), but both engines hear 会; 都回老家了 vs 都会回老家了 is not certain."
+    }
+  ]
+}

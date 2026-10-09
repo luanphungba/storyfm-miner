@@ -76,5 +76,23 @@
     "计算的空": ["jì suàn de kòng", "不需要怎么计算的空: chỗ trống không cần tính — 空 chỗ trống (填空) là kòng"],
     "填的蒙": ["tián de mēng", "不能填的蒙: chỗ không điền được thì đoán mò — 蒙 đoán bừa là mēng"],
     "扇了一巴掌": ["shān le yì bā zhǎng", "被女同学扇了一巴掌: bị bạn nữ tát — 扇 tát là shān; shàn là cái quạt"]
+  },
+  "TW20200703": {
+    "天方乐谈": ["tiān fāng yuè tán","tên podcast 天方乐谈 — người nói tự giải thích 乐是音乐的乐: yuè, không phải lè"],
+    "都得选": ["dōu děi xuǎn","每个人都得选一个兴趣: ai cũng phải chọn — 得 là děi (phải)"],
+    "我得承认": ["wǒ děi chéng rèn","我得承认就是说: tôi phải thừa nhận — 得 là děi"],
+    "所处": ["suǒ chǔ","我所处的城市: thành phố tôi đang ở — 处 động từ là chǔ, chù là danh từ (chỗ)"],
+    "重名": ["chóng míng","两个重名的人: hai người trùng tên — 重 là chóng (lặp), không phải zhòng"],
+    "更好学校": ["gèng hǎo xué xiào","去考到更好学校: thi vào trường tốt hơn — 好 là hǎo, không phải 好学 hào xué (ham học)"],
+    "只好好学习": ["zhǐ hǎo hǎo xué xí","你只好好学习: bạn chỉ cần học hành chăm chỉ — 只 là zhǐ, 好好 là hǎo hǎo"],
+    "只取": ["zhǐ qǔ","天方乐谈只取古典: chỉ lấy nhạc cổ điển — 只 phó từ là zhǐ; zhī là lượng từ"],
+    "倒没有": ["dào méi yǒu","所以说其实倒没有听闻过: thật ra thì lại chưa nghe — 倒 phó từ là dào"],
+    "人教我": ["rén jiāo wǒ","没有任何人教我: không ai dạy tôi — 教 động từ là jiāo"],
+    "来教的": ["lái jiāo de","过去十年来教的学生: học trò đã dạy mười năm qua — 教 động từ là jiāo"],
+    "供养": ["gōng yǎng","一直供养这个女孩子读书: nuôi cô bé ăn học — 供 là gōng (chu cấp); gòng là cúng dường"],
+    "供到": ["gōng dào","然后供到最后: nuôi tới cùng — 供 là gōng"],
+    "供他": ["gōng tā","供他去自我精进: cho anh ta có cái để tự tiến bộ — 供 là gōng (cung cấp)"],
+    "归为": ["guī wéi","音乐被归为精神食粮: âm nhạc được xếp vào món ăn tinh thần — 为 là wéi (là, làm)"],
+    "铺下来": ["pū xià lái","高考它铺下来的这个东西: con đường kỳ thi trải sẵn — 铺 động từ là pū; pù là danh từ (cửa hàng)"]
   }
 }
