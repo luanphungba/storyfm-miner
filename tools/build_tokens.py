@@ -65,9 +65,10 @@ LINES_PER_WORD = 20
 # is worse than missing a name — the card then tells the reader not to bother learning an ordinary word.
 NAME_TAGS = {"nr", "ns", "nt"}
 # Words jieba calls names often enough to win the vote that neither the syllabus nor CC-CEDICT can
-# overrule, all of them electronics jargon from BV1HQTs6FEos: 连锡 a solder bridge, 上锡 to tin a
-# pad, 千欧 kiloohm, 上拉 pull-up (resistor), and 孔中 cut out of 固定孔中 "into the mounting holes".
-NOT_NAMES = {"连锡", "上锡", "千欧", "上拉", "孔中"}
+# overrule. Electronics jargon from BV1HQTs6FEos: 连锡 a solder bridge, 上锡 to tin a pad, 千欧
+# kiloohm, 上拉 pull-up (resistor), and 孔中 cut out of 固定孔中 "into the mounting holes". From E080:
+# 高三 the last year of high school, and 祝你们 "wishing you".
+NOT_NAMES = {"连锡", "上锡", "千欧", "上拉", "孔中", "高三", "祝你们"}
 # A number spelled out (三十, 十四) is not a word to learn once its digits are known, so a word of
 # these alone counts as none, unless the syllabus teaches it (万一 "in case").
 NUMERALS = set("零〇一二三四五六七八九十百千万亿两几")

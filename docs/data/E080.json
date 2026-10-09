@@ -1,0 +1,4996 @@
+{
+  "id": "E080",
+  "title": "E080.每个人的高考，都是一份独家记忆",
+  "guid": "c2ed5bfa-4c9b-4cdd-94ee-fad0ba4a6410",
+  "pubDate": "2018-06-08",
+  "duration": 1768,
+  "audio": {
+    "mp3": "https://tk.wavpub.com/WPDL_yfRMaCHWAAVjYSLrmtZzYnjeUPnSnqhXAsWkMXQkrjzpPcsULLgnpcAjHb-4e.mp3"
+  },
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 8.36,
+      "end": 15,
+      "text": "你好，欢迎收听故事FM，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 1,
+      "s": 0,
+      "start": 15,
+      "end": 17.17,
+      "text": "我是爱哲，一个收集故事的人。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 2,
+      "s": 1,
+      "start": 17.22,
+      "end": 18.88,
+      "text": "在这里，我们用你的声音",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 3,
+      "s": 1,
+      "start": 18.88,
+      "end": 20.08,
+      "text": "讲述你的故事。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 4,
+      "s": 2,
+      "start": 20.08,
+      "end": 22.58,
+      "text": "每周一、三、五，咱们不见不散。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 5,
+      "s": 3,
+      "start": 25.62,
+      "end": 27.5,
+      "text": "大概两周前的一个晚上，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 6,
+      "s": 3,
+      "start": 27.5,
+      "end": 29.62,
+      "text": "我们在故事FM微信公众号上",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 7,
+      "s": 3,
+      "start": 29.62,
+      "end": 31.04,
+      "text": "发布了一次征集，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 8,
+      "s": 4,
+      "start": 31.04,
+      "end": 33.58,
+      "text": "想收集大家和高考有关的经历。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 9,
+      "s": 5,
+      "start": 33.84,
+      "end": 35.18,
+      "text": "结果第二天早上一睁眼，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 10,
+      "s": 5,
+      "start": 35.18,
+      "end": 37.84,
+      "text": "我们就收到了五十多位朋友的来信，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 11,
+      "s": 5,
+      "start": 37.84,
+      "end": 38.53,
+      "text": "谢谢你们。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 12,
+      "s": 6,
+      "start": 39.24,
+      "end": 40.72,
+      "text": "今天我们从你们的故事中",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 13,
+      "s": 6,
+      "start": 40.72,
+      "end": 41.9,
+      "text": "选出了几个片段，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 14,
+      "s": 6,
+      "start": 41.9,
+      "end": 44.49,
+      "text": "串起了一个共同的高考回忆。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 15,
+      "s": 7,
+      "start": 57.37,
+      "end": 63.82,
+      "text": "醒醒醒醒醒醒，都给我打起劲儿来！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 8,
+      "start": 63.82,
+      "end": 65.63,
+      "text": "两眼一睁，开始竞争。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 9,
+      "start": 65.74,
+      "end": 70.1,
+      "text": "发卷子，不苦不累，高三无味，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 9,
+      "start": 70.1,
+      "end": 73.24,
+      "text": "不拼不搏等于白活，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 9,
+      "start": 73.24,
+      "end": 76.14,
+      "text": "所以就算拼个头破血流，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 9,
+      "start": 76.14,
+      "end": 78.3,
+      "text": "也要给我冲进一本的大楼。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 10,
+      "start": 78.45,
+      "end": 82.67,
+      "text": "我们要记住，累死你一个，幸福你一家，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 10,
+      "start": 82.77,
+      "end": 85.37,
+      "text": "破釜沉舟，拼它个日出日落，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 10,
+      "start": 85.37,
+      "end": 88.4,
+      "text": "背水一战，干他们不灭不还。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 11,
+      "start": 90.81,
+      "end": 92.71,
+      "text": "提到高考，我们经常听到用",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 25,
+      "s": 11,
+      "start": 92.71,
+      "end": 94.89,
+      "text": "“千军万马过独木桥”这样的说法",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 26,
+      "s": 11,
+      "start": 94.89,
+      "end": 96.65,
+      "text": "来形容高考的惨烈，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 27,
+      "s": 12,
+      "start": 96.67,
+      "end": 97.87,
+      "text": "但是这个说法",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 28,
+      "s": 12,
+      "start": 97.87,
+      "end": 100.15,
+      "text": "把所有的学生都简化成了",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 29,
+      "s": 12,
+      "start": 100.15,
+      "end": 102.91,
+      "text": "毫无个性的集体，而忽略了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 30,
+      "s": 13,
+      "start": 102.91,
+      "end": 104.92,
+      "text": "即便是面对一个统一的考试，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 31,
+      "s": 13,
+      "start": 105.27,
+      "end": 106.29,
+      "text": "每个参加高考的人",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 32,
+      "s": 13,
+      "start": 106.29,
+      "end": 109.23,
+      "text": "其实都面临着不同的困境和憧憬。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 33,
+      "s": 14,
+      "start": 110.48,
+      "end": 112.18,
+      "text": "今天让我们来听一听",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 34,
+      "s": 14,
+      "start": 112.18,
+      "end": 114.8,
+      "text": "那些更有人性的高考故事。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 35,
+      "s": 15,
+      "start": 115.46,
+      "end": 120.66,
+      "text": "嗯，其实高三的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 15,
+      "start": 121.02,
+      "end": 125.74,
+      "text": "我跟我爸妈的关系不是十分亲密，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 15,
+      "start": 125.74,
+      "end": 128.35,
+      "text": "一年到头都说不了几句话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 16,
+      "start": 128.46,
+      "end": 129.88,
+      "text": "摩擦很少的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 16,
+      "start": 130.08,
+      "end": 132.52,
+      "text": "因为我们说话的时间都少，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 16,
+      "start": 132.52,
+      "end": 134.3,
+      "text": "更何况是摩擦呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 17,
+      "start": 134.38,
+      "end": 139,
+      "text": "关系太……不亲密了，太陌生了感觉。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 18,
+      "start": 141.76,
+      "end": 145.34,
+      "text": "那时候我是在重点班，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 18,
+      "start": 145.6,
+      "end": 148.74,
+      "text": "但是是重点班里面",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 18,
+      "start": 148.74,
+      "end": 151.84,
+      "text": "倒数后十名的那几个人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 18,
+      "start": 151.84,
+      "end": 153.88,
+      "text": "每次考试都提心吊胆的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 19,
+      "start": 153.88,
+      "end": 155.84,
+      "text": "因为我们有一个规矩，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 19,
+      "start": 155.84,
+      "end": 158.51,
+      "text": "就是每次大考有年级排名的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 19,
+      "start": 158.88,
+      "end": 160.64,
+      "text": "在重点班里面",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 19,
+      "start": 160.64,
+      "end": 164.93,
+      "text": "考到。全年级超过两百名的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 20,
+      "start": 164.93,
+      "end": 167.76,
+      "text": "连续两次就要被踢出重点班。",
+      "speaker": "C",
+      "u": 19,
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "s": 21,
+      "start": 167.91,
+      "end": 169.45,
+      "text": "然后我那时候就特别害怕，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "s": 21,
+      "start": 169.45,
+      "end": 171.59,
+      "text": "因为我经常在一百九十几名、",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 21,
+      "start": 171.59,
+      "end": 173.88,
+      "text": "一百八十几名这样子徘徊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 22,
+      "start": 174.05,
+      "end": 176.37,
+      "text": "然后一不小心就会出两百名，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 22,
+      "start": 176.83,
+      "end": 179.89,
+      "text": "就是觉得被踢出重点班就很惨，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 22,
+      "start": 179.89,
+      "end": 182.01,
+      "text": "就就很羞耻啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 23,
+      "start": 182.01,
+      "end": 184.01,
+      "text": "也不知道怎么面对爸妈，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 23,
+      "start": 184.01,
+      "end": 186.08,
+      "text": "所以那时候压力还蛮大的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "s": 24,
+      "start": 187.08,
+      "end": 189.02,
+      "text": "然后就一直积压着，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 24,
+      "start": 189.86,
+      "end": 192.85,
+      "text": "然后等到了某一天高三的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 24,
+      "start": 193.14,
+      "end": 195.26,
+      "text": "有一次跟我爸吵架了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 25,
+      "start": 195.26,
+      "end": 196.5,
+      "text": "我不知道为了什么事情吵了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 25,
+      "start": 196.5,
+      "end": 197.45,
+      "text": "我都忘了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 26,
+      "start": 197.68,
+      "end": 199.8,
+      "text": "我说了很难听的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 26,
+      "start": 199.8,
+      "end": 201.52,
+      "text": "最后搞到不欢而散嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 26,
+      "start": 201.52,
+      "end": 202.93,
+      "text": "然后我就回学校了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 27,
+      "start": 204.14,
+      "end": 207.68,
+      "text": "我那时候是很少跟我爸沟通的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 27,
+      "start": 207.68,
+      "end": 211.4,
+      "text": "就也不会说主动找他道歉啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 27,
+      "start": 211.4,
+      "end": 214.54,
+      "text": "呃，然后一般都是跟我妈妈说话嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 28,
+      "start": 214.88,
+      "end": 217.99,
+      "text": "那时候我就想着，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 28,
+      "start": 218.11,
+      "end": 219.61,
+      "text": "嗯，要不要跟我妈讲呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 29,
+      "start": 219.61,
+      "end": 222.53,
+      "text": "因为就讲一下我心里的感受，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 29,
+      "start": 222.53,
+      "end": 225.12,
+      "text": "我就是跟她说一下我的压力。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 30,
+      "start": 225.69,
+      "end": 228.25,
+      "text": "然后就写了很长的一条短信，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 30,
+      "start": 228.39,
+      "end": 229.99,
+      "text": "里面就提到说，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "s": 30,
+      "start": 230.33,
+      "end": 234.17,
+      "text": "嗯，自己其实呃压力也很大，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 77,
+      "s": 31,
+      "start": 234.17,
+      "end": 235.41,
+      "text": "然后也认识到",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 31,
+      "start": 235.41,
+      "end": 237.91,
+      "text": "自己不应该这么跟我爸说话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 79,
+      "s": 31,
+      "start": 237.91,
+      "end": 239.51,
+      "text": "然后但是也说了",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 80,
+      "s": 31,
+      "start": 239.51,
+      "end": 243.49,
+      "text": "希望家里人能体谅我。压力啊什么的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 33,
+      "start": 245.82,
+      "end": 246.36,
+      "text": "嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 34,
+      "start": 246.36,
+      "end": 248.66,
+      "text": "那时候发完那条短信呢，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 34,
+      "start": 248.66,
+      "end": 253.52,
+      "text": "就会忍不住哗啦就哭了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 34,
+      "start": 253.72,
+      "end": 256.86,
+      "text": "觉得自己释放了很多压力，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "s": 35,
+      "start": 257.06,
+      "end": 259.52,
+      "text": "就是哭着入睡这样子。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 86,
+      "s": 36,
+      "start": 261.6,
+      "end": 264.78,
+      "text": "最后就是我妈收到了短信",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 87,
+      "s": 36,
+      "start": 264.78,
+      "end": 267.34,
+      "text": "也回复我了，也是很正常的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 37,
+      "start": 267.4,
+      "end": 268.12,
+      "text": "就是说什么",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 89,
+      "s": 37,
+      "start": 268.12,
+      "end": 270.99,
+      "text": "女儿不要担心啊之类的那些话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 90,
+      "s": 37,
+      "start": 271.1,
+      "end": 273.27,
+      "text": "正常发挥就好啦之类的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 91,
+      "s": 38,
+      "start": 273.27,
+      "end": 275.47,
+      "text": "虽然我最后不知道",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 92,
+      "s": 38,
+      "start": 275.47,
+      "end": 278.71,
+      "text": "我妈有没有跟我爸给我爸看，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "s": 38,
+      "start": 278.71,
+      "end": 280.48,
+      "text": "有没有告诉我爸什么的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 94,
+      "s": 39,
+      "start": 281.11,
+      "end": 283.35,
+      "text": "但是这些话我说出去了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 95,
+      "s": 39,
+      "start": 283.35,
+      "end": 284.9,
+      "text": "确实会舒服一点。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 96,
+      "s": 40,
+      "start": 286.41,
+      "end": 291.15,
+      "text": "后来是因为这件事情吧，我就觉得啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 97,
+      "s": 40,
+      "start": 291.15,
+      "end": 294.57,
+      "text": "其实家里人还是挺包容自己的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 98,
+      "s": 41,
+      "start": 294.57,
+      "end": 296.83,
+      "text": "无论自己说了多么难听的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 99,
+      "s": 41,
+      "start": 296.97,
+      "end": 299.92,
+      "text": "做了很过分的事情，但是嗯。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 100,
+      "s": 42,
+      "start": 300.42,
+      "end": 305.18,
+      "text": "他们最后还是会支持自己的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 101,
+      "s": 42,
+      "start": 305.66,
+      "end": 308.52,
+      "text": "就算我爸也没有表态或什么样的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 102,
+      "s": 42,
+      "start": 308.52,
+      "end": 311.75,
+      "text": "但是我觉得他心里也默认了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 103,
+      "s": 43,
+      "start": 312.08,
+      "end": 313.55,
+      "text": "就是原谅了我的错。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 104,
+      "s": 44,
+      "start": 317.98,
+      "end": 317.98,
+      "text": "六月六号。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 105,
+      "s": 45,
+      "start": 328.71,
+      "end": 330.93,
+      "text": "啊，不是七月六号，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 106,
+      "s": 45,
+      "start": 330.93,
+      "end": 332.49,
+      "text": "因为当时高考是在七月份。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 107,
+      "s": 46,
+      "start": 333.49,
+      "end": 334.55,
+      "text": "我确实没想到",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 108,
+      "s": 46,
+      "start": 334.55,
+      "end": 338.15,
+      "text": "这个女生直接朝我跑过来，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 109,
+      "s": 46,
+      "start": 338.15,
+      "end": 340,
+      "text": "然后狠狠的给了我一巴掌。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 110,
+      "s": 47,
+      "start": 341.05,
+      "end": 345.06,
+      "text": "啊，现在还能记得特别的疼。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 111,
+      "s": 48,
+      "start": 348.81,
+      "end": 350.97,
+      "text": "高考前三天的时候，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 112,
+      "s": 48,
+      "start": 350.97,
+      "end": 354.05,
+      "text": "是一个同宿舍的一个室友。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 113,
+      "s": 49,
+      "start": 354.24,
+      "end": 357.2,
+      "text": "他很小心很谨慎的那样",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 114,
+      "s": 49,
+      "start": 357.2,
+      "end": 359.44,
+      "text": "把我拽到一个角落",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 115,
+      "s": 49,
+      "start": 359.44,
+      "end": 362.8,
+      "text": "然后跟我说我的初恋女友",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 116,
+      "s": 49,
+      "start": 362.8,
+      "end": 365.02,
+      "text": "好像跟我同桌在一起了",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 117,
+      "s": 49,
+      "start": 365.02,
+      "end": 367.92,
+      "text": "因为他看到他俩一起吃饭",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 118,
+      "s": 50,
+      "start": 367.92,
+      "end": 371.52,
+      "text": "一起研究高考一起放松",
+      "speaker": "D",
+      "u": 49,
+      "role": "storyteller"
+    },
+    {
+      "i": 119,
+      "s": 50,
+      "start": 371.52,
+      "end": 375.36,
+      "text": "当时大脑是一片空白的",
+      "speaker": "D",
+      "u": 49,
+      "role": "storyteller"
+    },
+    {
+      "i": 120,
+      "s": 50,
+      "start": 375.36,
+      "end": 377.84,
+      "text": "因为没经历过这种事儿",
+      "speaker": "D",
+      "u": 49,
+      "role": "storyteller"
+    },
+    {
+      "i": 121,
+      "s": 50,
+      "start": 377.84,
+      "end": 378.94,
+      "text": "感情这种事儿",
+      "speaker": "D",
+      "u": 49,
+      "role": "storyteller"
+    },
+    {
+      "i": 122,
+      "s": 51,
+      "start": 379.77,
+      "end": 383.03,
+      "text": "所以就觉得完全接受不了，",
+      "speaker": "D",
+      "u": 49,
+      "role": "storyteller"
+    },
+    {
+      "i": 123,
+      "s": 51,
+      "start": 383.03,
+      "end": 384.89,
+      "text": "不知道自己该怎么办。",
+      "speaker": "D",
+      "u": 49,
+      "role": "storyteller"
+    },
+    {
+      "i": 124,
+      "s": 52,
+      "start": 389.91,
+      "end": 390.91,
+      "text": "高考前一个晚上，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 125,
+      "s": 52,
+      "start": 391.59,
+      "end": 396.24,
+      "text": "我是在学校前面的一个马路上逛街，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 126,
+      "s": 52,
+      "start": 397.19,
+      "end": 398.81,
+      "text": "也不敢走太远，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 127,
+      "s": 53,
+      "start": 398.81,
+      "end": 400.87,
+      "text": "因为心里其实还是很清楚",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 128,
+      "s": 53,
+      "start": 400.87,
+      "end": 402.49,
+      "text": "第二天是高考的，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 129,
+      "s": 53,
+      "start": 402.49,
+      "end": 405.27,
+      "text": "所以就在比较近的距离。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 130,
+      "s": 54,
+      "start": 405.48,
+      "end": 409.38,
+      "text": "从东边走到西边，再从西边走到东边。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 131,
+      "s": 55,
+      "start": 410.54,
+      "end": 411.88,
+      "text": "这个女生当时",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 132,
+      "s": 55,
+      "start": 411.88,
+      "end": 415.14,
+      "text": "是和几个朋友他们在一起，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 133,
+      "s": 55,
+      "start": 415.14,
+      "end": 417.18,
+      "text": "然后她扭头的时候，她看到我了。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 134,
+      "s": 56,
+      "start": 417.78,
+      "end": 421,
+      "text": "我们平时的关系怎么说呢？",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 135,
+      "s": 57,
+      "start": 421.12,
+      "end": 423.88,
+      "text": "我是比较害羞内向的，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 136,
+      "s": 57,
+      "start": 423.88,
+      "end": 427.54,
+      "text": "但是跟她之间还是算比较熟的，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 137,
+      "s": 57,
+      "start": 427.54,
+      "end": 429.86,
+      "text": "也经常说话，也经常开玩笑。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "s": 58,
+      "start": 430.83,
+      "end": 435.33,
+      "text": "他平常的时候就总是扎一个马尾辫，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 58,
+      "start": 435.33,
+      "end": 437.55,
+      "text": "走路是一跳一跳那种，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "s": 58,
+      "start": 437.55,
+      "end": 439.74,
+      "text": "就是很有青春活力的那种。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "s": 59,
+      "start": 440.59,
+      "end": 443.27,
+      "text": "当天也是一样的，扎个马尾辫，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "s": 59,
+      "start": 443.27,
+      "end": 445.21,
+      "text": "然后穿个牛仔裤，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 143,
+      "s": 59,
+      "start": 445.21,
+      "end": 448.16,
+      "text": "穿一个应该是一个白色的衬衣吧。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 144,
+      "s": 60,
+      "start": 450.25,
+      "end": 454.07,
+      "text": "他跑到我跟前说的第一句话是：",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 145,
+      "s": 60,
+      "start": 454.09,
+      "end": 455.11,
+      "text": "“你在干什么？”",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 146,
+      "s": 61,
+      "start": 455.11,
+      "end": 455.61,
+      "text": "然后。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 147,
+      "s": 62,
+      "start": 456.72,
+      "end": 459.16,
+      "text": "我没回答，他又说：",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "s": 62,
+      "start": 459.16,
+      "end": 462.24,
+      "text": "“他说你第二天是高考，你不知道吗？”",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 149,
+      "s": 63,
+      "start": 462.24,
+      "end": 464.5,
+      "text": "我说：“我知道。”",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 150,
+      "s": 64,
+      "start": 464.5,
+      "end": 469.7,
+      "text": "然后他就用了很大力气，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 151,
+      "s": 64,
+      "start": 469.7,
+      "end": 471.83,
+      "text": "啪的一下给了我一个耳光。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 152,
+      "s": 65,
+      "start": 474.67,
+      "end": 477.42,
+      "text": "这一下吓了我一跳啊！",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 153,
+      "s": 66,
+      "start": 477.42,
+      "end": 479.46,
+      "text": "因为当时我也我也没反应过来，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 154,
+      "s": 66,
+      "start": 479.46,
+      "end": 482.3,
+      "text": "然后就觉得啊脸上像火烧一样。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 155,
+      "s": 67,
+      "start": 485.59,
+      "end": 489.83,
+      "text": "然后接着，他就哭了。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 156,
+      "s": 68,
+      "start": 491.94,
+      "end": 496.38,
+      "text": "然后他说：“你不要放弃，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 157,
+      "s": 68,
+      "start": 496.88,
+      "end": 499.52,
+      "text": "你一定会考上一个一本。”",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "s": 69,
+      "start": 499.52,
+      "end": 502.96,
+      "text": "当时他哭的时候，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 159,
+      "s": 69,
+      "start": 503.22,
+      "end": 505.66,
+      "text": "我的眼泪其实还没有下来，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 160,
+      "s": 69,
+      "start": 505.66,
+      "end": 507.9,
+      "text": "就觉得还是要克制一下吧。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 161,
+      "s": 70,
+      "start": 508.1,
+      "end": 511.47,
+      "text": "后来他抱住我，说了这些话，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 162,
+      "s": 70,
+      "start": 511.47,
+      "end": 513.06,
+      "text": "然后我的眼泪就控制不住。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 163,
+      "s": 71,
+      "start": 518.84,
+      "end": 522.21,
+      "text": "因为当时时间也比较晚了，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 164,
+      "s": 71,
+      "start": 522.33,
+      "end": 525.65,
+      "text": "我也知道第二天还是要高考的，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 165,
+      "s": 71,
+      "start": 525.65,
+      "end": 528.7,
+      "text": "然后我就劝他回家，早点回家。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 166,
+      "s": 72,
+      "start": 530.47,
+      "end": 533.19,
+      "text": "他就问我，我还要干什么？",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 167,
+      "s": 73,
+      "start": 533.64,
+      "end": 537.72,
+      "text": "我说我再再转一会儿，然后就回宿舍。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 168,
+      "s": 74,
+      "start": 538.28,
+      "end": 541.1,
+      "text": "他就说：“你不要在这转了，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 169,
+      "s": 74,
+      "start": 541.1,
+      "end": 542.83,
+      "text": "这个路上全是车。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "s": 75,
+      "start": 543.48,
+      "end": 545.52,
+      "text": "明天是个重要的日子。”",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 171,
+      "s": 76,
+      "start": 545.52,
+      "end": 549.21,
+      "text": "然后他就一直劝我让我先回宿舍。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 172,
+      "s": 77,
+      "start": 550.62,
+      "end": 553.06,
+      "text": "后来他就目送着我，",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 173,
+      "s": 77,
+      "start": 553.06,
+      "end": 556.36,
+      "text": "我朝宿舍走，然后他才回到家。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 174,
+      "s": 78,
+      "start": 575.04,
+      "end": 579.45,
+      "text": "嗯，六月七号高考第一天凌晨十二点，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 175,
+      "s": 78,
+      "start": 579.45,
+      "end": 581.61,
+      "text": "呃，外面下起了小雨，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 176,
+      "s": 78,
+      "start": 581.61,
+      "end": 583.6,
+      "text": "那一刻我意识到我自己失眠了。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 177,
+      "s": 79,
+      "start": 584.95,
+      "end": 586.88,
+      "text": "应该是十点半，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 178,
+      "s": 79,
+      "start": 586.88,
+      "end": 590.93,
+      "text": "我就洗漱完毕，然后上床准备入睡了。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 179,
+      "s": 80,
+      "start": 591.9,
+      "end": 594.52,
+      "text": "呃，说实话，不紧张是不可能的，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 180,
+      "s": 80,
+      "start": 594.98,
+      "end": 596.78,
+      "text": "又有紧张，又有一种兴奋，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 181,
+      "s": 81,
+      "start": 596.94,
+      "end": 598.8,
+      "text": "然后还有一种",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 182,
+      "s": 81,
+      "start": 598.8,
+      "end": 601.2,
+      "text": "其实是有一点恐惧在里面，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 183,
+      "s": 81,
+      "start": 601.2,
+      "end": 605.27,
+      "text": "所以就翻来覆去一直没有睡着。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 184,
+      "s": 82,
+      "start": 606.03,
+      "end": 609.36,
+      "text": "差不多到了十二点左右的时候，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 185,
+      "s": 82,
+      "start": 609.36,
+      "end": 610.3,
+      "text": "我听见了雨声。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 186,
+      "s": 83,
+      "start": 610.5,
+      "end": 614.66,
+      "text": "那个雨声的印象，到目前为止",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 187,
+      "s": 83,
+      "start": 614.66,
+      "end": 617.62,
+      "text": "还依然留存在我的这个脑海里面。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 188,
+      "s": 84,
+      "start": 622.19,
+      "end": 625.16,
+      "text": "啊，我初中、高中都是在上海读的，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 189,
+      "s": 84,
+      "start": 625.16,
+      "end": 627.86,
+      "text": "但我并不是一个呃在上海的浦东，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 190,
+      "s": 84,
+      "start": 627.86,
+      "end": 629.21,
+      "text": "我并不是当地人。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 191,
+      "s": 85,
+      "start": 629.4,
+      "end": 630.98,
+      "text": "父母把我送到上海，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 192,
+      "s": 85,
+      "start": 630.98,
+      "end": 633.04,
+      "text": "也是因为很大的一个考量原因，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 193,
+      "s": 85,
+      "start": 633.04,
+      "end": 637.44,
+      "text": "是希望让我能接触到更好的。教育吧，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 194,
+      "s": 86,
+      "start": 638.16,
+      "end": 641.02,
+      "text": "在上海是将近五年的时间啊，",
+      "speaker": "E",
+      "u": 85,
+      "role": "storyteller"
+    },
+    {
+      "i": 195,
+      "s": 86,
+      "start": 641.02,
+      "end": 642.39,
+      "text": "我父母对我付出了很多，",
+      "speaker": "E",
+      "u": 85,
+      "role": "storyteller"
+    },
+    {
+      "i": 196,
+      "s": 87,
+      "start": 642.86,
+      "end": 645.06,
+      "text": "包括我妈曾经",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 197,
+      "s": 87,
+      "start": 645.3,
+      "end": 647.08,
+      "text": "把她的工作暂时放到一边，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 198,
+      "s": 87,
+      "start": 647.08,
+      "end": 648.97,
+      "text": "专心的就是陪读了我两年，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 199,
+      "s": 88,
+      "start": 649.94,
+      "end": 653.94,
+      "text": "所以最后在高考的那个阶段，说实话，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 200,
+      "s": 88,
+      "start": 653.94,
+      "end": 656.82,
+      "text": "我的心里除了有自己的",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 201,
+      "s": 88,
+      "start": 656.82,
+      "end": 658.68,
+      "text": "对于未来的追求的话，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 202,
+      "s": 89,
+      "start": 658.68,
+      "end": 661.62,
+      "text": "更多的还是其实是对父母的。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 203,
+      "s": 90,
+      "start": 662.32,
+      "end": 665.17,
+      "text": "这样一种希望能考出一个好成绩",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 204,
+      "s": 90,
+      "start": 665.17,
+      "end": 666.95,
+      "text": "来回报他们的付出吧，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 205,
+      "s": 90,
+      "start": 666.95,
+      "end": 668.86,
+      "text": "这种压力是一直在我心里的。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 206,
+      "s": 91,
+      "start": 669.47,
+      "end": 671.71,
+      "text": "还有一点是我个人的这个状态，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 207,
+      "s": 91,
+      "start": 671.71,
+      "end": 675.57,
+      "text": "就是说，嗯，我的高中是当地",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 208,
+      "s": 91,
+      "start": 675.57,
+      "end": 677.93,
+      "text": "还算是非常不错的一所高中，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 209,
+      "s": 92,
+      "start": 678.41,
+      "end": 680.65,
+      "text": "但是到高三的时候，我的学习成绩",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 210,
+      "s": 92,
+      "start": 680.65,
+      "end": 683.33,
+      "text": "实际上比我之前刚入学",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 211,
+      "s": 92,
+      "start": 683.33,
+      "end": 685.73,
+      "text": "包括高三之前的成绩",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 212,
+      "s": 92,
+      "start": 685.73,
+      "end": 686.83,
+      "text": "都是有所下滑的。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 213,
+      "s": 93,
+      "start": 687.75,
+      "end": 690.52,
+      "text": "呃，从骨子里我是一个挺要强的人，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 214,
+      "s": 93,
+      "start": 690.52,
+      "end": 694.72,
+      "text": "但是因为一直成绩就没有太大起色，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 215,
+      "s": 93,
+      "start": 694.72,
+      "end": 698.69,
+      "text": "到后面就有点懈怠了吧。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 216,
+      "s": 94,
+      "start": 700.38,
+      "end": 703.53,
+      "text": "呃，其实当时还有一个，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 217,
+      "s": 94,
+      "start": 704,
+      "end": 706.8,
+      "text": "当时上海的这个户籍政策",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 218,
+      "s": 94,
+      "start": 706.8,
+      "end": 709.21,
+      "text": "出现了一些变动，也就是说，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 219,
+      "s": 95,
+      "start": 709.27,
+      "end": 711,
+      "text": "其实在高考之前的两个月，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 220,
+      "s": 95,
+      "start": 711,
+      "end": 712.24,
+      "text": "我都不能确定",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 221,
+      "s": 95,
+      "start": 712.24,
+      "end": 714.64,
+      "text": "我当时是否能在上海参加高考。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 222,
+      "s": 96,
+      "start": 714.66,
+      "end": 717.28,
+      "text": "最后呢，算是幸运的，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 223,
+      "s": 96,
+      "start": 717.28,
+      "end": 719.7,
+      "text": "也就是说引进人才的子女",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 224,
+      "s": 96,
+      "start": 719.7,
+      "end": 720.96,
+      "text": "未满十八岁之前",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 225,
+      "s": 96,
+      "start": 720.96,
+      "end": 722.79,
+      "text": "是可以在上海参加高考的，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 226,
+      "s": 97,
+      "start": 723.02,
+      "end": 725.05,
+      "text": "过了十八岁之后就不能参加高考了。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 227,
+      "s": 98,
+      "start": 725.44,
+      "end": 726.96,
+      "text": "那所以对于我的还有一个压力",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 228,
+      "s": 98,
+      "start": 726.96,
+      "end": 729.11,
+      "text": "就是说我只有一次机会，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 229,
+      "s": 98,
+      "start": 729.5,
+      "end": 733.44,
+      "text": "如果今年我没有考上一所学校的话，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 230,
+      "s": 99,
+      "start": 734.38,
+      "end": 735.72,
+      "text": "呃，我们是没有办法",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 231,
+      "s": 99,
+      "start": 735.72,
+      "end": 738.02,
+      "text": "第二年再继续复读重新考的。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 232,
+      "s": 100,
+      "start": 739.66,
+      "end": 743.43,
+      "text": "一方面说告诉自己。不要再想了，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 233,
+      "s": 101,
+      "start": 743.43,
+      "end": 745.05,
+      "text": "就是明天要考试，你赶紧好好睡觉。",
+      "speaker": "E",
+      "u": 100,
+      "role": "storyteller"
+    },
+    {
+      "i": 234,
+      "s": 102,
+      "start": 745.05,
+      "end": 748.53,
+      "text": "但是另一方面又忍不住的去回忆起",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 235,
+      "s": 102,
+      "start": 748.53,
+      "end": 751.6,
+      "text": "之前的这几年经历过的种种事情。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 236,
+      "s": 103,
+      "start": 752.13,
+      "end": 753.75,
+      "text": "我现在能留存的印象就是，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 237,
+      "s": 103,
+      "start": 753.75,
+      "end": 757.12,
+      "text": "我感觉我好像一直就没有睡着，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 238,
+      "s": 103,
+      "start": 757.25,
+      "end": 758.49,
+      "text": "即使是可能睡着的话，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 239,
+      "s": 104,
+      "start": 758.49,
+      "end": 760.75,
+      "text": "也是停留在一种浅度的睡眠里面。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 240,
+      "s": 105,
+      "start": 760.85,
+      "end": 762.65,
+      "text": "因为第二天早上起来，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 241,
+      "s": 105,
+      "start": 762.65,
+      "end": 764.07,
+      "text": "你我的直观的感受就是",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 242,
+      "s": 105,
+      "start": 764.07,
+      "end": 766.15,
+      "text": "感觉昨天晚上一晚上没睡的感觉。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 243,
+      "s": 106,
+      "start": 777.08,
+      "end": 779.38,
+      "text": "唉，应该是不到七点吧。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 244,
+      "s": 107,
+      "start": 780.2,
+      "end": 783.14,
+      "text": "起来之后洗脸刷牙，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 245,
+      "s": 107,
+      "start": 783.18,
+      "end": 785.36,
+      "text": "然后母亲已经给我准备好了早饭，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 246,
+      "s": 107,
+      "start": 785.36,
+      "end": 788.46,
+      "text": "然后吃完早饭以后，七点半左右，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 247,
+      "s": 108,
+      "start": 788.46,
+      "end": 790.11,
+      "text": "我父亲陪我出的门。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 248,
+      "s": 109,
+      "start": 792.48,
+      "end": 792.98,
+      "text": "呃。",
+      "speaker": "D",
+      "role": "storyteller"
+    },
+    {
+      "i": 249,
+      "s": 110,
+      "start": 797.91,
+      "end": 801.27,
+      "text": "当卷子发下来那一刻，我觉得啊，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 250,
+      "s": 110,
+      "start": 801.27,
+      "end": 806.29,
+      "text": "实际上这些其实都抛到了脑后吧。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 251,
+      "s": 111,
+      "start": 806.29,
+      "end": 807.53,
+      "text": "你当时就卷子发下来，",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 252,
+      "s": 111,
+      "start": 807.53,
+      "end": 809,
+      "text": "就是想的就是做题。",
+      "speaker": "E",
+      "role": "storyteller"
+    },
+    {
+      "i": 253,
+      "s": 112,
+      "start": 826.1,
+      "end": 829.88,
+      "text": "各位要高考的小伙伴们，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 254,
+      "s": 113,
+      "start": 829.88,
+      "end": 833.36,
+      "text": "参加高考加油，棒棒的！",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 255,
+      "s": 114,
+      "start": 833.42,
+      "end": 835.26,
+      "text": "呃，六月八号",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 256,
+      "s": 114,
+      "start": 835.26,
+      "end": 838.28,
+      "text": "是我第二次高考的第二天。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 257,
+      "s": 115,
+      "start": 839.28,
+      "end": 841.83,
+      "text": "当时理综卷子一发下来，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 258,
+      "s": 115,
+      "start": 842.1,
+      "end": 844.84,
+      "text": "每一道题不管你是单选还是多选，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 259,
+      "s": 116,
+      "start": 844.84,
+      "end": 847.44,
+      "text": "我都可以很清楚的说出来",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 260,
+      "s": 116,
+      "start": 847.44,
+      "end": 850.22,
+      "text": "你什么地方对了，你什么地方错了。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 261,
+      "s": 117,
+      "start": 850.26,
+      "end": 852.75,
+      "text": "每一道题我都非常有把握，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 262,
+      "s": 117,
+      "start": 852.98,
+      "end": 854.09,
+      "text": "我看了一下时间，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 263,
+      "s": 117,
+      "start": 854.2,
+      "end": 856.9,
+      "text": "我做选择题用了二十五分钟啊！",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 264,
+      "s": 118,
+      "start": 856.9,
+      "end": 858.91,
+      "text": "当时候把选择题做完，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 265,
+      "s": 118,
+      "start": 859.12,
+      "end": 860.82,
+      "text": "我心里面是非常兴奋的。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 266,
+      "s": 119,
+      "start": 860.96,
+      "end": 864.2,
+      "text": "我一做完，我就绝对有那种自信，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 267,
+      "s": 119,
+      "start": 864.2,
+      "end": 867.44,
+      "text": "就是把笔一摔，全对，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 268,
+      "s": 119,
+      "start": 867.44,
+      "end": 869.38,
+      "text": "就已经有那种自信了。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 269,
+      "s": 120,
+      "start": 873.74,
+      "end": 875.48,
+      "text": "呃，第一次参加高考的时候，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 270,
+      "s": 120,
+      "start": 875.48,
+      "end": 876.76,
+      "text": "很清楚的记得。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 271,
+      "s": 121,
+      "start": 876.81,
+      "end": 881.55,
+      "text": "我考了一个，呃，三百六十三分，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 272,
+      "s": 121,
+      "start": 881.87,
+      "end": 884.53,
+      "text": "也是算是罪有应得吧。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 273,
+      "s": 122,
+      "start": 884.53,
+      "end": 886.73,
+      "text": "因为应届高中的时候",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 274,
+      "s": 122,
+      "start": 886.73,
+      "end": 889.61,
+      "text": "基本都是玩过去的，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 275,
+      "s": 122,
+      "start": 890.13,
+      "end": 897.01,
+      "text": "嗯，复读的话里面的学习氛围很浓啊。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 276,
+      "s": 123,
+      "start": 897.01,
+      "end": 899.63,
+      "text": "我当时也差不多是",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 277,
+      "s": 123,
+      "start": 899.63,
+      "end": 901.79,
+      "text": "受这种氛围的熏陶吧。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 278,
+      "s": 124,
+      "start": 901.91,
+      "end": 903.63,
+      "text": "离高考还有一百天的时候。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 279,
+      "s": 125,
+      "start": 903.9,
+      "end": 907.96,
+      "text": "啊，就是那个百日誓师大会，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 280,
+      "s": 125,
+      "start": 907.96,
+      "end": 911.14,
+      "text": "就好像战士去上战场的时候，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 281,
+      "s": 125,
+      "start": 911.14,
+      "end": 914.32,
+      "text": "他会有一个战前动员大会，啊，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 282,
+      "s": 126,
+      "start": 914.32,
+      "end": 918.16,
+      "text": "说的慷慨激昂，就好像有一种",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 283,
+      "s": 126,
+      "start": 918.16,
+      "end": 922.42,
+      "text": "马上就要扛着枪上战场的感觉。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 284,
+      "s": 127,
+      "start": 922.42,
+      "end": 926.68,
+      "text": "那时候我也比较受鼓舞，哦，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 285,
+      "s": 127,
+      "start": 926.68,
+      "end": 928.58,
+      "text": "听得热血澎湃的。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 286,
+      "s": 128,
+      "start": 928.58,
+      "end": 931.66,
+      "text": "那个时候我。理综不太好。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 287,
+      "s": 130,
+      "start": 931.66,
+      "end": 934.46,
+      "text": "那天下午，百日誓师大会结束以后，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 288,
+      "s": 130,
+      "start": 934.46,
+      "end": 937.6,
+      "text": "我扛着凳子回去，第一时间",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 289,
+      "s": 130,
+      "start": 937.6,
+      "end": 942.6,
+      "text": "我就拿着理综的练习题在做。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 290,
+      "s": 131,
+      "start": 943.8,
+      "end": 946.62,
+      "text": "那九十天，我基本上是",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 291,
+      "s": 131,
+      "start": 946.62,
+      "end": 948.98,
+      "text": "已经达到了一种疯狂的状态。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 292,
+      "s": 132,
+      "start": 949.64,
+      "end": 951.78,
+      "text": "下课了，我做理综；",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 293,
+      "s": 132,
+      "start": 951.78,
+      "end": 955.02,
+      "text": "上自习的时候，我还做理综。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 294,
+      "s": 133,
+      "start": 955.02,
+      "end": 956.26,
+      "text": "呃，有时候听课，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 295,
+      "s": 133,
+      "start": 956.26,
+      "end": 959.56,
+      "text": "我觉得。可能对我没多大作用，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 296,
+      "s": 134,
+      "start": 959.56,
+      "end": 962.4,
+      "text": "我同样的还是在做理综。",
+      "speaker": "F",
+      "u": 133,
+      "role": "storyteller"
+    },
+    {
+      "i": 297,
+      "s": 135,
+      "start": 962.47,
+      "end": 966.2,
+      "text": "放学了，然后同学们都回寝室了，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 298,
+      "s": 135,
+      "start": 966.2,
+      "end": 967.44,
+      "text": "我一样的在做理综。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 299,
+      "s": 136,
+      "start": 967.44,
+      "end": 972.8,
+      "text": "所以最后是那一本五三，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 300,
+      "s": 136,
+      "start": 972.8,
+      "end": 975.12,
+      "text": "就是五年高考三年模拟嘛，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 301,
+      "s": 136,
+      "start": 975.12,
+      "end": 979.44,
+      "text": "里面全部是高考的理综真题，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 302,
+      "s": 136,
+      "start": 979.44,
+      "end": 980.87,
+      "text": "我做了三遍。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 303,
+      "s": 137,
+      "start": 982.02,
+      "end": 985.97,
+      "text": "就这样，到了高考的时候。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 304,
+      "s": 138,
+      "start": 986.37,
+      "end": 989.11,
+      "text": "考理综的时候，我看了一下时间，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 305,
+      "s": 138,
+      "start": 989.11,
+      "end": 991.57,
+      "text": "我做选择题用了二十五分钟啊！",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 306,
+      "s": 139,
+      "start": 991.63,
+      "end": 993.95,
+      "text": "当时候把选择题做完，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 307,
+      "s": 139,
+      "start": 994.11,
+      "end": 995.81,
+      "text": "我心里面是非常兴奋的，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 308,
+      "s": 139,
+      "start": 995.97,
+      "end": 1001.37,
+      "text": "绝对有那种自信，就是把笔一摔，全对。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 309,
+      "s": 140,
+      "start": 1002.01,
+      "end": 1004.43,
+      "text": "嗯，做物理大题的时候，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 310,
+      "s": 140,
+      "start": 1004.43,
+      "end": 1007.05,
+      "text": "我到了最后一道大题的时候，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 311,
+      "s": 140,
+      "start": 1007.05,
+      "end": 1011.21,
+      "text": "嗯，都知道最后一一道大题是压轴的，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 312,
+      "s": 141,
+      "start": 1011.21,
+      "end": 1012.01,
+      "text": "就比较难。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 313,
+      "s": 142,
+      "start": 1013.84,
+      "end": 1014.93,
+      "text": "呃，那个时候",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 314,
+      "s": 142,
+      "start": 1014.93,
+      "end": 1019.19,
+      "text": "是整个人已经完全的投入了。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 315,
+      "s": 143,
+      "start": 1019.19,
+      "end": 1025.17,
+      "text": "我觉得世界上好像就只有我和卷子，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 316,
+      "s": 143,
+      "start": 1025.33,
+      "end": 1029.09,
+      "text": "还有一支笔，什么东西都没有了。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 317,
+      "s": 144,
+      "start": 1029.35,
+      "end": 1034.17,
+      "text": "呃，就一直做，估计我就是这个时候，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 318,
+      "s": 144,
+      "start": 1034.43,
+      "end": 1036.91,
+      "text": "我居然把时间给看错了，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 319,
+      "s": 144,
+      "start": 1036.91,
+      "end": 1038.55,
+      "text": "做一做题看一下时间。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 320,
+      "s": 145,
+      "start": 1039.4,
+      "end": 1041.98,
+      "text": "嗯，还早啊。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 321,
+      "s": 146,
+      "start": 1041.98,
+      "end": 1043.04,
+      "text": "实际上那个时候",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 322,
+      "s": 146,
+      "start": 1043.04,
+      "end": 1044.58,
+      "text": "我已经把时间看错了，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 323,
+      "s": 146,
+      "start": 1044.58,
+      "end": 1047.22,
+      "text": "我把时间呃看多了一个小时。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 324,
+      "s": 147,
+      "start": 1047.68,
+      "end": 1049.62,
+      "text": "看的时间我我也觉得",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 325,
+      "s": 147,
+      "start": 1049.62,
+      "end": 1052.92,
+      "text": "还有很多时间嘛，慢慢做那道大题。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 326,
+      "s": 148,
+      "start": 1052.92,
+      "end": 1054.9,
+      "text": "我这么算，我觉得没对，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 327,
+      "s": 148,
+      "start": 1054.9,
+      "end": 1056.6,
+      "text": "然后我又重来，我就那么算，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 328,
+      "s": 148,
+      "start": 1056.6,
+      "end": 1059.58,
+      "text": "那么算我觉得又没对，又重来，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 329,
+      "s": 149,
+      "start": 1059.58,
+      "end": 1061.54,
+      "text": "就这么反反复复的。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 330,
+      "s": 150,
+      "start": 1062.66,
+      "end": 1065.7,
+      "text": "等我把物理大题全部做完的时候，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 331,
+      "s": 150,
+      "start": 1065.7,
+      "end": 1067.04,
+      "text": "我开始做化学大题。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 332,
+      "s": 151,
+      "start": 1067.58,
+      "end": 1072.66,
+      "text": "第一道化学大题刚刚做完，广播提示：",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 333,
+      "s": 151,
+      "start": 1072.66,
+      "end": 1075.96,
+      "text": "“现在离考试结束还有十五分钟。”",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 334,
+      "s": 152,
+      "start": 1075.96,
+      "end": 1077.16,
+      "text": "哇！",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 335,
+      "s": 153,
+      "start": 1078.4,
+      "end": 1081.42,
+      "text": "我当时，我当时甚至怀疑，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 336,
+      "s": 153,
+      "start": 1081.42,
+      "end": 1085.01,
+      "text": "我说是不是，是不是考点搞错时间了？",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 337,
+      "s": 154,
+      "start": 1085.5,
+      "end": 1090.52,
+      "text": "然后我一抬头往讲台上面的钟，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 338,
+      "s": 154,
+      "start": 1090.9,
+      "end": 1092.68,
+      "text": "原来是我自己看错时间了。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 339,
+      "s": 155,
+      "start": 1093.79,
+      "end": 1095.74,
+      "text": "当时候整个人",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 340,
+      "s": 155,
+      "start": 1095.74,
+      "end": 1099.22,
+      "text": "都已经可以说是瘫掉了，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 341,
+      "s": 155,
+      "start": 1099.22,
+      "end": 1101.42,
+      "text": "就像一个人他突然收到",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 342,
+      "s": 155,
+      "start": 1101.42,
+      "end": 1103.67,
+      "text": "一个很不好的消息之后，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 343,
+      "s": 156,
+      "start": 1103.74,
+      "end": 1106.37,
+      "text": "身体那种瘫软的感觉，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 344,
+      "s": 156,
+      "start": 1106.84,
+      "end": 1108.33,
+      "text": "完全没有力气了。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 345,
+      "s": 157,
+      "start": 1109.96,
+      "end": 1113.98,
+      "text": "就那么起码发呆发了有一分钟吧，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 346,
+      "s": 157,
+      "start": 1113.98,
+      "end": 1115.98,
+      "text": "我觉得还是不能放弃，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 347,
+      "s": 157,
+      "start": 1115.98,
+      "end": 1117.92,
+      "text": "再怎么着把后面的。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 348,
+      "s": 158,
+      "start": 1118.25,
+      "end": 1119.68,
+      "text": "不管有多差，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 349,
+      "s": 158,
+      "start": 1119.85,
+      "end": 1123.65,
+      "text": "也把后面的题也一起完成了吧。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 350,
+      "s": 159,
+      "start": 1124.21,
+      "end": 1128.29,
+      "text": "后面的十多分钟就一直在看那种",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 351,
+      "s": 159,
+      "start": 1128.29,
+      "end": 1130.66,
+      "text": "可以一眼就可以写出答案的，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 352,
+      "s": 159,
+      "start": 1130.75,
+      "end": 1131.73,
+      "text": "一一直在写，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 353,
+      "s": 160,
+      "start": 1131.73,
+      "end": 1135.05,
+      "text": "因为后面还有很多的化学大题，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 354,
+      "s": 160,
+      "start": 1135.05,
+      "end": 1138.62,
+      "text": "还有生物大题，我一个都没动，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 355,
+      "s": 161,
+      "start": 1139.33,
+      "end": 1142.09,
+      "text": "所以我把那些不需要怎么思考、",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 356,
+      "s": 161,
+      "start": 1142.09,
+      "end": 1143.69,
+      "text": "不需要怎么计算的空。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 357,
+      "s": 162,
+      "start": 1143.87,
+      "end": 1146.97,
+      "text": "能填的都填上，不能填的蒙。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 358,
+      "s": 163,
+      "start": 1147.31,
+      "end": 1151.5,
+      "text": "最后十多分钟也就这么就过来了。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 359,
+      "s": 164,
+      "start": 1152.43,
+      "end": 1155.24,
+      "text": "当时考完以后，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 360,
+      "s": 164,
+      "start": 1155.32,
+      "end": 1158.66,
+      "text": "整个人是崩溃的那种状态。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 361,
+      "s": 165,
+      "start": 1162.45,
+      "end": 1166.31,
+      "text": "呃，我觉得，我觉得",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 362,
+      "s": 165,
+      "start": 1166.31,
+      "end": 1169.83,
+      "text": "这就是可能这就是命吧。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 363,
+      "s": 166,
+      "start": 1170.51,
+      "end": 1173.21,
+      "text": "呃，注定我考不上一个好学校。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 364,
+      "s": 167,
+      "start": 1179.21,
+      "end": 1183.19,
+      "text": "因为我小时候是在广州长大的，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 365,
+      "s": 167,
+      "start": 1183.29,
+      "end": 1185.51,
+      "text": "然后我也比较喜欢骑自行车。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 366,
+      "s": 168,
+      "start": 1185.63,
+      "end": 1190.15,
+      "text": "我在成都嘛，所以第二次高考结束，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 367,
+      "s": 168,
+      "start": 1190.15,
+      "end": 1194.31,
+      "text": "我就骑着我的自行车，我一个人，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 368,
+      "s": 168,
+      "start": 1194.43,
+      "end": 1196.09,
+      "text": "呃，算是比较疯狂了。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 369,
+      "s": 169,
+      "start": 1196.09,
+      "end": 1196.35,
+      "text": "我。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 370,
+      "s": 170,
+      "start": 1196.37,
+      "end": 1198.41,
+      "text": "我一个人骑着自行车，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 371,
+      "s": 170,
+      "start": 1198.41,
+      "end": 1201.07,
+      "text": "然后就到广州去了，",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 372,
+      "s": 170,
+      "start": 1201.07,
+      "end": 1202.62,
+      "text": "去找我以前的同学。",
+      "speaker": "F",
+      "role": "storyteller"
+    },
+    {
+      "i": 373,
+      "s": 171,
+      "start": 1224.56,
+      "end": 1228.96,
+      "text": "六月二十三号是高考查成绩的日子，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 374,
+      "s": 171,
+      "start": 1228.96,
+      "end": 1231.4,
+      "text": "那天我在看大爱音乐节。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 375,
+      "s": 172,
+      "start": 1233.66,
+      "end": 1235.16,
+      "text": "我刚好是二零一二年，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 376,
+      "s": 172,
+      "start": 1235.16,
+      "end": 1239.2,
+      "text": "正好是那一年在成都呃举办的",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 377,
+      "s": 172,
+      "start": 1239.2,
+      "end": 1240.39,
+      "text": "那一次大爱音乐节。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 378,
+      "s": 173,
+      "start": 1241.4,
+      "end": 1242.9,
+      "text": "关于那个音乐节的故事有很多，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 379,
+      "s": 173,
+      "start": 1242.9,
+      "end": 1244.13,
+      "text": "总之他们欠了很多钱。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 380,
+      "s": 174,
+      "start": 1244.34,
+      "end": 1246.2,
+      "text": "那那场音乐节这种超级豪华，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 381,
+      "s": 174,
+      "start": 1246.2,
+      "end": 1249.15,
+      "text": "音响超级好。规模超级大，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 382,
+      "s": 175,
+      "start": 1249.15,
+      "end": 1250.98,
+      "text": "然后亏的超级多。",
+      "speaker": "G",
+      "u": 174,
+      "role": "storyteller"
+    },
+    {
+      "i": 383,
+      "s": 176,
+      "start": 1252.83,
+      "end": 1255.2,
+      "text": "我们刚高考完嘛，六月二十几号，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 384,
+      "s": 176,
+      "start": 1255.91,
+      "end": 1259.25,
+      "text": "我和我的几个朋友们一起",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 385,
+      "s": 176,
+      "start": 1259.25,
+      "end": 1262.78,
+      "text": "在那个地方扎了四天的帐篷，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 386,
+      "s": 177,
+      "start": 1262.81,
+      "end": 1266.2,
+      "text": "然后就连续的看了四天的音乐节，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 387,
+      "s": 177,
+      "start": 1266.73,
+      "end": 1267.71,
+      "text": "特别爽，特别爽。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 388,
+      "s": 178,
+      "start": 1268.17,
+      "end": 1269.59,
+      "text": "基本国内的摇滚圈的",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 389,
+      "s": 178,
+      "start": 1269.59,
+      "end": 1270.75,
+      "text": "牛逼的乐队都来了，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 390,
+      "s": 178,
+      "start": 1270.75,
+      "end": 1272.93,
+      "text": "然后那个流星舞台最大的那个舞台。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 391,
+      "s": 179,
+      "start": 1272.96,
+      "end": 1278.12,
+      "text": "什么范晓萱啊、罗大佑啊、张震岳啊，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 392,
+      "s": 179,
+      "start": 1278.12,
+      "end": 1282.84,
+      "text": "什么就是能演现场的大咖都来了，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 393,
+      "s": 179,
+      "start": 1282.98,
+      "end": 1284.63,
+      "text": "特别难忘的一个音乐节。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 394,
+      "s": 180,
+      "start": 1288.03,
+      "end": 1290.12,
+      "text": "我记得六月二十三号的那天晚上，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 395,
+      "s": 180,
+      "start": 1290.12,
+      "end": 1291.18,
+      "text": "我们是刚刚看完了",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 396,
+      "s": 180,
+      "start": 1291.18,
+      "end": 1293.18,
+      "text": "一场特别嗨的演出，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 397,
+      "s": 180,
+      "start": 1293.18,
+      "end": 1294.18,
+      "text": "我具体忘了是谁了，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 398,
+      "s": 181,
+      "start": 1294.18,
+      "end": 1295.25,
+      "text": "好像是山羊皮吧。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 399,
+      "s": 182,
+      "start": 1296.54,
+      "end": 1297.32,
+      "text": "我们几个看演出",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 400,
+      "s": 182,
+      "start": 1297.32,
+      "end": 1298.5,
+      "text": "是属于那种特别疯的，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 401,
+      "s": 182,
+      "start": 1298.5,
+      "end": 1300.18,
+      "text": "你知道那种露天的音乐节吗？",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 402,
+      "s": 183,
+      "start": 1300.39,
+      "end": 1303.7,
+      "text": "就分为两种人，一种人是站得远远的，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 403,
+      "s": 183,
+      "start": 1303.7,
+      "end": 1305.52,
+      "text": "然后看着那个舞台",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 404,
+      "s": 183,
+      "start": 1305.52,
+      "end": 1307.22,
+      "text": "比较小心心的那种；",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 405,
+      "s": 184,
+      "start": 1307.22,
+      "end": 1309.2,
+      "text": "然后还有一种是冲到最前面去，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 406,
+      "s": 184,
+      "start": 1309.48,
+      "end": 1311.66,
+      "text": "然后各种跟着跳啊，各种造。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 407,
+      "s": 185,
+      "start": 1311.84,
+      "end": 1314.5,
+      "text": "然后我们就是属于那种。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 408,
+      "s": 186,
+      "start": 1314.7,
+      "end": 1316.6,
+      "text": "当时就是夏天特别热，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 409,
+      "s": 186,
+      "start": 1316.6,
+      "end": 1318.46,
+      "text": "我们看完了出来，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 410,
+      "s": 186,
+      "start": 1318.46,
+      "end": 1320.34,
+      "text": "全身就包括内裤都湿完了。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 411,
+      "s": 187,
+      "start": 1320.4,
+      "end": 1322.72,
+      "text": "就是我我非常确定，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 412,
+      "s": 187,
+      "start": 1322.72,
+      "end": 1324.49,
+      "text": "我们四一二三四，我们四个人。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 413,
+      "s": 188,
+      "start": 1325.79,
+      "end": 1328.59,
+      "text": "绝对是从头到脚到内裤都湿完了，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 414,
+      "s": 188,
+      "start": 1328.59,
+      "end": 1329.43,
+      "text": "就是也也不知道",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 415,
+      "s": 188,
+      "start": 1329.43,
+      "end": 1332.81,
+      "text": "是那个旁边的歌迷洒的水啊，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 416,
+      "s": 189,
+      "start": 1332.81,
+      "end": 1334.41,
+      "text": "还是我们的汗，反正是各种。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 417,
+      "s": 190,
+      "start": 1334.41,
+      "end": 1335.67,
+      "text": "然后还有酒什么之类的，然后",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 418,
+      "s": 190,
+      "start": 1335.67,
+      "end": 1338.6,
+      "text": "我们当时也都喝了酒啊，特别兴奋。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 419,
+      "s": 191,
+      "start": 1338.99,
+      "end": 1344.21,
+      "text": "然后醉醺醺的四个人音乐节散场了，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 420,
+      "s": 191,
+      "start": 1344.75,
+      "end": 1347.45,
+      "text": "走在那个回营地的那个路上，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 421,
+      "s": 191,
+      "start": 1347.45,
+      "end": 1349.44,
+      "text": "特别嗨，特别嗨，真的特别嗨。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 422,
+      "s": 192,
+      "start": 1349.49,
+      "end": 1351.23,
+      "text": "然后我们四个也非常高兴。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 423,
+      "s": 193,
+      "start": 1351.58,
+      "end": 1353.56,
+      "text": "就走在路上，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 424,
+      "s": 193,
+      "start": 1353.72,
+      "end": 1358.32,
+      "text": "就突然一个人的手机响了，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 425,
+      "s": 193,
+      "start": 1359.72,
+      "end": 1361.74,
+      "text": "然后紧接着第二个人手机也响，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 426,
+      "s": 194,
+      "start": 1361.74,
+      "end": 1364.02,
+      "text": "就是间隔可能就不超过两秒钟。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 427,
+      "s": 195,
+      "start": 1364.24,
+      "end": 1366.42,
+      "text": "十秒钟之后，我们所有人的手机都响。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 428,
+      "s": 196,
+      "start": 1367.3,
+      "end": 1370.4,
+      "text": "那天是高考查成绩的日子，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 429,
+      "s": 196,
+      "start": 1371.3,
+      "end": 1372.28,
+      "text": "不是发来的短信，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 430,
+      "s": 196,
+      "start": 1372.28,
+      "end": 1373.82,
+      "text": "是爸妈给我们打的电话，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 431,
+      "s": 196,
+      "start": 1373.82,
+      "end": 1375.31,
+      "text": "因为他们已经帮我们查好了。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 432,
+      "s": 197,
+      "start": 1375.88,
+      "end": 1377.82,
+      "text": "每个人都是因为全身湿透了嘛。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 433,
+      "s": 198,
+      "start": 1377.84,
+      "end": 1379.28,
+      "text": "每个人都是光着膀子，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 434,
+      "s": 198,
+      "start": 1379.28,
+      "end": 1381.88,
+      "text": "然后把那个T恤搭在肩上，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 435,
+      "s": 198,
+      "start": 1381.98,
+      "end": 1384.18,
+      "text": "然后从兜里摸出了手机，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 436,
+      "s": 198,
+      "start": 1384.18,
+      "end": 1385.26,
+      "text": "就开始讲电话。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 437,
+      "s": 199,
+      "start": 1387.52,
+      "end": 1393.46,
+      "text": "那个那个电话有一个朋友",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 438,
+      "s": 199,
+      "start": 1393.46,
+      "end": 1395.32,
+      "text": "电话打的时间特别短，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 439,
+      "s": 199,
+      "start": 1395.32,
+      "end": 1397.28,
+      "text": "有一个朋友打的电话时间特别长，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 440,
+      "s": 200,
+      "start": 1397.96,
+      "end": 1399.58,
+      "text": "然后还有一个哥们儿",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 441,
+      "s": 200,
+      "start": 1399.58,
+      "end": 1403.04,
+      "text": "他那个考的他不算好，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 442,
+      "s": 200,
+      "start": 1403.04,
+      "end": 1404.94,
+      "text": "然后但是他好像也是意料之中，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 443,
+      "s": 200,
+      "start": 1404.94,
+      "end": 1406.24,
+      "text": "就哎没事没事。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 444,
+      "s": 201,
+      "start": 1406.67,
+      "end": 1408.59,
+      "text": "哎，我们喝酒。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 445,
+      "s": 202,
+      "start": 1408.59,
+      "end": 1412.37,
+      "text": "我可能是那里面就相对最淡定的，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 446,
+      "s": 202,
+      "start": 1412.37,
+      "end": 1413.75,
+      "text": "因为我高考之前",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 447,
+      "s": 202,
+      "start": 1413.75,
+      "end": 1416.03,
+      "text": "那个考了那个自主招生嘛，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 448,
+      "s": 203,
+      "start": 1416.19,
+      "end": 1418.73,
+      "text": "签了那个协议的，就是高考对我来讲",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 449,
+      "s": 203,
+      "start": 1418.73,
+      "end": 1420.91,
+      "text": "压力没有他们那么大。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 450,
+      "s": 204,
+      "start": 1423.07,
+      "end": 1425.65,
+      "text": "就在那之前，我我知道高考",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 451,
+      "s": 204,
+      "start": 1425.65,
+      "end": 1428.08,
+      "text": "它是会决定你去哪个地方上大学嘛，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 452,
+      "s": 204,
+      "start": 1428.17,
+      "end": 1429.95,
+      "text": "然后你会读什么样的专业，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 453,
+      "s": 205,
+      "start": 1430.37,
+      "end": 1432.33,
+      "text": "就在这个概念上我是很清楚的。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 454,
+      "s": 206,
+      "start": 1433.02,
+      "end": 1435.97,
+      "text": "就当真的那一刻，就大家在在接电话，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 455,
+      "s": 206,
+      "start": 1436.98,
+      "end": 1439.29,
+      "text": "一下子高考除了一场考试之外，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 456,
+      "s": 206,
+      "start": 1439.29,
+      "end": 1441.71,
+      "text": "其他的意义，我所要面临的事情",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 457,
+      "s": 207,
+      "start": 1441.71,
+      "end": 1443.87,
+      "text": "就一下子扑面而来，",
+      "speaker": "G",
+      "u": 206,
+      "role": "storyteller"
+    },
+    {
+      "i": 458,
+      "s": 207,
+      "start": 1443.87,
+      "end": 1446.03,
+      "text": "就在那个大家的反应里面。",
+      "speaker": "G",
+      "u": 206,
+      "role": "storyteller"
+    },
+    {
+      "i": 459,
+      "s": 208,
+      "start": 1446.75,
+      "end": 1448.93,
+      "text": "我意识到，虽然高中",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 460,
+      "s": 208,
+      "start": 1448.93,
+      "end": 1451.19,
+      "text": "有种种的压力也好，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 461,
+      "s": 208,
+      "start": 1451.19,
+      "end": 1452.25,
+      "text": "各种各样的问题也好，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 462,
+      "s": 208,
+      "start": 1452.25,
+      "end": 1453.95,
+      "text": "但是它总归是你，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 463,
+      "s": 209,
+      "start": 1453.95,
+      "end": 1455.68,
+      "text": "它你总归是无忧无虑的。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 464,
+      "s": 210,
+      "start": 1456.57,
+      "end": 1457.49,
+      "text": "但是他那个时候，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 465,
+      "s": 210,
+      "start": 1457.49,
+      "end": 1459.15,
+      "text": "就在那一刻，我觉得他结束了。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 466,
+      "s": 211,
+      "start": 1459.99,
+      "end": 1462.86,
+      "text": "大家可能都有各自的路要走了。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 467,
+      "s": 212,
+      "start": 1467.01,
+      "end": 1469.76,
+      "text": "就我们之前看演出的特别投入嘛，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 468,
+      "s": 212,
+      "start": 1469.76,
+      "end": 1470.5,
+      "text": "然后也没有注意到",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 469,
+      "s": 212,
+      "start": 1470.5,
+      "end": 1472.35,
+      "text": "园区里面的是什么其他的事情。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 470,
+      "s": 213,
+      "start": 1472.64,
+      "end": 1477.31,
+      "text": "那天晚上是最后一天吧，应该是。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 471,
+      "s": 214,
+      "start": 1477.7,
+      "end": 1479.8,
+      "text": "其实就已经可以看得出来，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 472,
+      "s": 214,
+      "start": 1479.8,
+      "end": 1480.96,
+      "text": "那个园区里面的",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 473,
+      "s": 214,
+      "start": 1480.96,
+      "end": 1482.28,
+      "text": "各种各样的工作人员",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 474,
+      "s": 214,
+      "start": 1482.28,
+      "end": 1485.32,
+      "text": "就已经开始有点惴惴不安了。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 475,
+      "s": 215,
+      "start": 1485.39,
+      "end": 1487.11,
+      "text": "后来我们知道啊，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 476,
+      "s": 215,
+      "start": 1487.11,
+      "end": 1490.17,
+      "text": "就是因为那个包括连保安和卖水的",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 477,
+      "s": 215,
+      "start": 1490.17,
+      "end": 1491.74,
+      "text": "最后的工资都没结清楚，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 478,
+      "s": 216,
+      "start": 1492.31,
+      "end": 1493.78,
+      "text": "因为他们实在是没有钱，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 479,
+      "s": 216,
+      "start": 1494.11,
+      "end": 1496.78,
+      "text": "票房亏损的很严重，各种各样的问题，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 480,
+      "s": 217,
+      "start": 1496.83,
+      "end": 1499.55,
+      "text": "就总之就是秩序开始变得混乱了嘛。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 481,
+      "s": 218,
+      "start": 1499.82,
+      "end": 1502.79,
+      "text": "然后天上开始下起小雨了，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 482,
+      "s": 218,
+      "start": 1502.79,
+      "end": 1505.47,
+      "text": "整个一个就是就类似于",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 483,
+      "s": 218,
+      "start": 1505.47,
+      "end": 1509.28,
+      "text": "一场狂欢到了尾声的感觉。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 484,
+      "s": 219,
+      "start": 1519.71,
+      "end": 1522.15,
+      "text": "其其实回过头来想一想啊，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 485,
+      "s": 219,
+      "start": 1522.68,
+      "end": 1524.75,
+      "text": "总是我们聊天的时候总是会想说，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 486,
+      "s": 220,
+      "start": 1524.78,
+      "end": 1525.4,
+      "text": "哎中学的时候",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 487,
+      "s": 220,
+      "start": 1525.4,
+      "end": 1529.72,
+      "text": "哎各种各样的破壁事儿啊挺多的，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 488,
+      "s": 220,
+      "start": 1530.34,
+      "end": 1531.42,
+      "text": "哎升学压力也挺大，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 489,
+      "s": 221,
+      "start": 1532.22,
+      "end": 1533.54,
+      "text": "但真的是可能",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 490,
+      "s": 221,
+      "start": 1533.54,
+      "end": 1536.82,
+      "text": "人生最无忧无虑的最后一段时光。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 491,
+      "s": 222,
+      "start": 1536.89,
+      "end": 1538.19,
+      "text": "有时候回忆一下",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 492,
+      "s": 222,
+      "start": 1538.19,
+      "end": 1541.01,
+      "text": "还是挺想回到那个时候的。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 493,
+      "s": 223,
+      "start": 1543.75,
+      "end": 1547.97,
+      "text": "我叫柴金优，今年十九岁，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 494,
+      "s": 223,
+      "start": 1548.05,
+      "end": 1551.51,
+      "text": "我是二零一八年浙江省的考生，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 495,
+      "s": 223,
+      "start": 1551.51,
+      "end": 1553.87,
+      "text": "八天后我就要去高考了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 496,
+      "s": 224,
+      "start": 1554.49,
+      "end": 1558.09,
+      "text": "我叫兔玛丽丝，今年十八岁，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 497,
+      "s": 224,
+      "start": 1558.09,
+      "end": 1561.07,
+      "text": "我是二零一八届新疆省的考生，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 498,
+      "s": 224,
+      "start": 1561.07,
+      "end": 1563.61,
+      "text": "还有七天我就要去高考了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 499,
+      "s": 225,
+      "start": 1565.26,
+      "end": 1565.91,
+      "text": "嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 500,
+      "s": 225,
+      "start": 1565.91,
+      "end": 1570.49,
+      "text": "高考没有一个特别理想的一个成绩，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 501,
+      "s": 225,
+      "start": 1570.49,
+      "end": 1572.81,
+      "text": "我也觉得没有遗憾，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 502,
+      "s": 225,
+      "start": 1572.81,
+      "end": 1576.52,
+      "text": "因为留下了很多美好的回忆。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 503,
+      "s": 226,
+      "start": 1580.27,
+      "end": 1582.99,
+      "text": "因为担心影响最后两位考生的成绩，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 504,
+      "s": 226,
+      "start": 1582.99,
+      "end": 1584.67,
+      "text": "所以我们选择在今天",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 505,
+      "s": 226,
+      "start": 1584.67,
+      "end": 1587.89,
+      "text": "高考刚刚结束的时候发布这期节目。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 506,
+      "s": 227,
+      "start": 1588.21,
+      "end": 1591.79,
+      "text": "浙江的柴金优。和新疆的吐马利斯，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 507,
+      "s": 228,
+      "start": 1591.79,
+      "end": 1594.88,
+      "text": "祝你们取得好成绩，考上理想的大学。",
+      "speaker": "A",
+      "u": 227,
+      "role": "narrator"
+    },
+    {
+      "i": 508,
+      "s": 229,
+      "start": 1595.3,
+      "end": 1597.67,
+      "text": "和父母最终达成和解的马内，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 509,
+      "s": 229,
+      "start": 1597.67,
+      "end": 1599.39,
+      "text": "在二零一零年参加高考，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 510,
+      "s": 229,
+      "start": 1599.43,
+      "end": 1601.97,
+      "text": "后来他考上了广东外语外贸大学，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 511,
+      "s": 230,
+      "start": 1601.97,
+      "end": 1604.36,
+      "text": "现在他准备辞职去留学。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 512,
+      "s": 231,
+      "start": 1604.99,
+      "end": 1606.97,
+      "text": "被女同学扇了一巴掌的丁小让，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 513,
+      "s": 231,
+      "start": 1606.97,
+      "end": 1608.84,
+      "text": "在两千年参加高考，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 514,
+      "s": 231,
+      "start": 1609.01,
+      "end": 1610.87,
+      "text": "考上了西安电子科技大学，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 515,
+      "s": 232,
+      "start": 1610.89,
+      "end": 1611.99,
+      "text": "现在在企业里",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 516,
+      "s": 232,
+      "start": 1611.99,
+      "end": 1613.92,
+      "text": "负责信息化建设的工作。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 517,
+      "s": 233,
+      "start": 1614.27,
+      "end": 1615.91,
+      "text": "在上海高考的夏老师。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 518,
+      "s": 234,
+      "start": 1615.95,
+      "end": 1617.91,
+      "text": "二零一零年参加了高考，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 519,
+      "s": 234,
+      "start": 1617.91,
+      "end": 1619.93,
+      "text": "他考上了天津科技大学，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 520,
+      "s": 234,
+      "start": 1619.93,
+      "end": 1621.57,
+      "text": "现在在一家互联网公司",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 521,
+      "s": 234,
+      "start": 1621.57,
+      "end": 1622.68,
+      "text": "负责运营工作。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 522,
+      "s": 235,
+      "start": 1623.85,
+      "end": 1625.47,
+      "text": "考场上看错了时间的君老",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 523,
+      "s": 235,
+      "start": 1625.47,
+      "end": 1628.05,
+      "text": "是二零一一年到二零一三年",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 524,
+      "s": 235,
+      "start": 1628.05,
+      "end": 1629.44,
+      "text": "参加了三次高考，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 525,
+      "s": 236,
+      "start": 1629.73,
+      "end": 1630.87,
+      "text": "后来他考上了",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 526,
+      "s": 236,
+      "start": 1630.87,
+      "end": 1632.59,
+      "text": "电子科技大学成都学院，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 527,
+      "s": 236,
+      "start": 1632.71,
+      "end": 1634,
+      "text": "现在是一位程序员。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 528,
+      "s": 237,
+      "start": 1635.07,
+      "end": 1638.35,
+      "text": "考试后和同学去享受音乐节的彭寒，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 529,
+      "s": 237,
+      "start": 1638.35,
+      "end": 1640.25,
+      "text": "在二零一二年参加高考，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 530,
+      "s": 237,
+      "start": 1640.25,
+      "end": 1642.05,
+      "text": "后来考上了中国传媒大学。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 531,
+      "s": 238,
+      "start": 1642.28,
+      "end": 1645.66,
+      "text": "现在是故事FM的声音设计，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 532,
+      "s": 238,
+      "start": 1645.66,
+      "end": 1646.76,
+      "text": "谢谢你们的故事。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 533,
+      "s": 239,
+      "start": 1647.94,
+      "end": 1649.14,
+      "text": "你现在正在收听的是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 534,
+      "s": 239,
+      "start": 1649.14,
+      "end": 1651.46,
+      "text": "亲历者自述的声音节目《故事FM》，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 535,
+      "s": 240,
+      "start": 1651.46,
+      "end": 1652.29,
+      "text": "我是主播爱哲。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 536,
+      "s": 241,
+      "start": 1652.32,
+      "end": 1654.8,
+      "text": "本期节目由彭寒、刘军、梁珂制作，",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 537,
+      "s": 241,
+      "start": 1654.8,
+      "end": 1655.94,
+      "text": "声音设计彭寒。",
+      "speaker": "G",
+      "role": "storyteller"
+    },
+    {
+      "i": 538,
+      "s": 242,
+      "start": 1656.74,
+      "end": 1658.16,
+      "text": "你还记得自己的高考吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 539,
+      "s": 243,
+      "start": 1658.58,
+      "end": 1660.15,
+      "text": "有哪些有意思的事情？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 540,
+      "s": 244,
+      "start": 1660.18,
+      "end": 1661.95,
+      "text": "欢迎在留言里和我们分享。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 541,
+      "s": 245,
+      "start": 1662.64,
+      "end": 1664.52,
+      "text": "感谢你的收听，咱们下期再见。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 542,
+      "s": 246,
+      "start": 1667.61,
+      "end": 1672.85,
+      "text": "未来有很多不曾想过，",
+      "speaker": "H",
+      "role": "storyteller"
+    },
+    {
+      "i": 543,
+      "s": 246,
+      "start": 1676.55,
+      "end": 1682.31,
+      "text": "希望和失望不仅在中。",
+      "speaker": "H",
+      "role": "storyteller"
+    },
+    {
+      "i": 544,
+      "s": 247,
+      "start": 1686.89,
+      "end": 1693.11,
+      "text": "终于得在每个正在发生的时。",
+      "speaker": "H",
+      "role": "storyteller"
+    },
+    {
+      "i": 545,
+      "s": 248,
+      "start": 1695.12,
+      "end": 1701.44,
+      "text": "在每个不经意的瞬间，",
+      "speaker": "H",
+      "role": "storyteller"
+    },
+    {
+      "i": 546,
+      "s": 248,
+      "start": 1708.04,
+      "end": 1715.34,
+      "text": "才发现我们已走远。",
+      "speaker": "H",
+      "role": "storyteller"
+    },
+    {
+      "i": 547,
+      "s": 249,
+      "start": 1716.22,
+      "end": 1718.64,
+      "text": "去向每个人。",
+      "speaker": "H",
+      "role": "storyteller"
+    },
+    {
+      "i": 548,
+      "s": 250,
+      "start": 1718.67,
+      "end": 1730.47,
+      "text": "各自的终点，未来是一个既定结果。",
+      "speaker": "H",
+      "role": "storyteller"
+    },
+    {
+      "i": 549,
+      "s": 251,
+      "start": 1735.01,
+      "end": 1740.03,
+      "text": "相遇或错过，发展我。",
+      "speaker": "H",
+      "role": "storyteller"
+    },
+    {
+      "i": 550,
+      "s": 252,
+      "start": 1744.2,
+      "end": 1753.52,
+      "text": "进与退，在这个川流不息的世界里面，",
+      "speaker": "H",
+      "role": "storyteller"
+    },
+    {
+      "i": 551,
+      "s": 252,
+      "start": 1754.14,
+      "end": 1759.16,
+      "text": "再没有尽头的瞬间。",
+      "speaker": "H",
+      "role": "storyteller"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "episode": "E080",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-09",
+  "fixes": [
+    {
+      "cueIndex": 0,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 0,
+      "before": "艾哲",
+      "after": "爱哲",
+      "source": "known-phrase",
+      "reason": "Matches a known recurring mistake in the show's fixed script (scripts/known-fixes.json).",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 3,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 7,
+      "before": "想想想想想想",
+      "after": "醒醒醒醒醒醒",
+      "source": "llm-review",
+      "reason": "film clip from 《青春派》 (撒老师); its lines are published as \"醒醒醒醒醒醒，都给…精神\" (teacher waking a sleepy class); 想×6 means nothing here.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 9,
+      "before": "翻卷子，不同类高三会",
+      "after": "发卷子，不苦不累，高三无味，",
+      "source": "llm-review",
+      "reason": "film clip from 《青春派》 (撒老师); its lines are published as \"两眼一睁，开始竞争！发卷子！不苦不累，高三无味；不拼不搏，等于白活\"; whisper hears 发卷子 and 不…累…三…味 too.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 10,
+      "before": "类似于一个希望我起家",
+      "after": "累死你一个，幸福你一家",
+      "source": "llm-review",
+      "reason": "film clip from 《青春派》 (撒老师); its lines are published as \"累死你一个，幸福你一家\"; whisper medium hears exactly that.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 10,
+      "before": "浩瀚成舟",
+      "after": "破釜沉舟",
+      "source": "llm-review",
+      "reason": "film clip from 《青春派》 (撒老师); its lines are published as \"破釜沉舟，拼它个日出日落；背水一战…\"; 浩瀚成舟 is not an idiom.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 10,
+      "before": "拼他们",
+      "after": "拼它个",
+      "source": "llm-review",
+      "reason": "film clip from 《青春派》 (撒老师); its lines are published as \"拼它个日出日落\"; ASR 0.46 on 他们, whisper hears 拼他的.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 115,
+      "before": "李忠",
+      "after": "理综",
+      "source": "llm-review",
+      "reason": "李忠卷子 → 理综卷子: the speaker's subject all through (理综不太好, 理综的练习题).",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 117,
+      "before": "选了题",
+      "after": "选择题",
+      "source": "llm-review",
+      "reason": "单选/多选 just before; whisper hears 选择题 here and in the repeat at 138-139.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 118,
+      "before": "选了题",
+      "after": "选择题",
+      "source": "llm-review",
+      "reason": "Same clip as 139 (把选择题做完); 选了题 is not a word.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 130,
+      "before": "百日实施大会",
+      "after": "百日誓师大会",
+      "source": "llm-review",
+      "reason": "Sentence 125 names it 百日誓师大会, the standard 高考 rally; 实施/誓师 near-homophones.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 134,
+      "before": "理中",
+      "after": "理综",
+      "source": "llm-review",
+      "reason": "理中 → 理综 (science paper), as at 115/129/130.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 135,
+      "before": "理中",
+      "after": "理综",
+      "source": "llm-review",
+      "reason": "理中 → 理综 (science paper), as at 115/129/130.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 136,
+      "before": "理中",
+      "after": "理综",
+      "source": "llm-review",
+      "reason": "高考的理综真题 in 五年高考三年模拟.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 138,
+      "before": "理中",
+      "after": "理综",
+      "source": "llm-review",
+      "reason": "考理综的时候.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 138,
+      "before": "选的题",
+      "after": "选择题",
+      "source": "llm-review",
+      "reason": "whisper hears 选择题; same 25-minute claim as 117.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 139,
+      "before": "选的题",
+      "after": "选择题",
+      "source": "llm-review",
+      "reason": "whisper hears 把选择题做完.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 186,
+      "before": "吃完了",
+      "after": "湿完了",
+      "source": "llm-review",
+      "reason": "Restated at 188 as 从头到脚到内裤都湿完了 (both ASRs hear 湿 there); 内裤都吃完了 means nothing.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 237,
+      "before": "彭涵",
+      "after": "彭寒",
+      "source": "llm-review",
+      "reason": "Show notes credit 声音设计 彭寒.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 238,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 239,
+      "before": "F M",
+      "after": "FM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 240,
+      "before": "艾哲",
+      "after": "爱哲",
+      "source": "known-phrase",
+      "reason": "Matches a known recurring mistake in the show's fixed script (scripts/known-fixes.json).",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 241,
+      "before": "彭涵",
+      "after": "彭寒",
+      "source": "llm-review",
+      "reason": "Show notes: 制作人 彭寒、刘军、梁珂; 声音设计 彭寒.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 241,
+      "before": "梁柯",
+      "after": "梁珂",
+      "source": "llm-review",
+      "reason": "Show notes: 制作人 彭寒、刘军、梁珂.",
+      "appliedAt": "2026-10-09"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 10,
+      "text": "我们要记住，…背水一战，干他们不灭不还。",
+      "reason": "Film clip; the published line ends 干它个无怨无悔 and opens 你们要记住, but neither ASR hears that (whisper: 不要急 / 不要复活). Left as AssemblyAI heard it."
+    },
+    {
+      "cueIndex": 183,
+      "text": "比较小心心的那种",
+      "reason": "Both ASRs hear 小心心; 小清新 (mellow festival-goers, against those who rush the stage) would fit but is not certain."
+    },
+    {
+      "cueIndex": 220,
+      "text": "各种各样的破壁事儿",
+      "reason": "破壁 is not a word; probably the slang 破逼事儿 (crappy stuff), both ASRs hear bì. Left."
+    },
+    {
+      "cueIndex": 224,
+      "text": "我叫兔玛丽丝",
+      "reason": "Same girl as 228 吐马利斯 (Uyghur name, Tumaris); the right characters are not knowable, so both spellings left."
+    },
+    {
+      "cueIndex": 229,
+      "text": "和父母最终达成和解的马内",
+      "reason": "Storyteller's name/handle; whisper hears 妈奶. Unverifiable."
+    },
+    {
+      "cueIndex": 235,
+      "text": "考场上看错了时间的君老",
+      "reason": "Storyteller's name/handle; both ASRs hear 君老. Unverifiable."
+    },
+    {
+      "cueIndex": 246,
+      "text": "246–252: 未来有很多不曾想过…再没有尽头的瞬间",
+      "reason": "Closing song, 中央车站《没有尽头的瞬间》 cover by 彭寒; no published lyrics found. Sung lines like 不仅在中, 终于得在每个正在发生的时, 发展我 are likely misheard."
+    }
+  ]
+}

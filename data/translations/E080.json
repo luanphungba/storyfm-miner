@@ -1,0 +1,3113 @@
+{
+  "episode": "E080",
+  "summary": [
+    "Cố Sự FM kêu gọi thính giả kể kỷ niệm về kỳ thi đại học (高考), và chỉ sau một đêm đã nhận được hơn 50 lá thư. Tập này ghép vài câu chuyện trong số đó thành một hồi ức chung, mở đầu bằng đoạn cô chủ nhiệm trong phim《青春派》hô hào học sinh lớp 12.",
+    "Mã Nội kể năm lớp 12 cô ít nói chuyện với bố mẹ và luôn sợ bị đá khỏi lớp chọn; sau một trận cãi nhau với bố, cô nhắn cho mẹ một tin rất dài và nhận ra gia đình vẫn bao dung mình. Đinh Tiểu Nhượng nghe tin bạn gái mối tình đầu đã đến với bạn cùng bàn; đêm trước kỳ thi anh lang thang ngoài đường thì một cô bạn cùng lớp chạy tới tát anh một cái rồi khóc, bảo anh đừng bỏ cuộc. Thầy Hạ học ở Thượng Hải nhưng không phải người bản xứ, chỉ có đúng một cơ hội thi, nên mất ngủ cả đêm trước ngày thi, nghe tiếng mưa lúc nửa đêm.",
+    "Quân Lão đi ôn thi lại, dồn 90 ngày làm đề tổ hợp tự nhiên, nhưng trong phòng thi anh nhìn nhầm đồng hồ dư ra một tiếng, chỉ còn 15 phút cho phần Hóa và Sinh. Bành Hàn, nay làm âm thanh cho Cố Sự FM, đang ở lễ hội âm nhạc Đại Ái tại Thành Đô đúng hôm có điểm thi, khi điện thoại cả nhóm lần lượt reo, và anh nhận ra quãng đời vô lo đã khép lại. Cuối tập có lời của hai thí sinh năm 2018, Ái Triết kể mỗi người kể giờ ra sao, và một bài hát khép lại."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "你好，欢迎收听故事FM，我是爱哲，一个收集故事的人。",
+      "parts": [
+        {
+          "zh": "你好，欢迎收听故事FM，",
+          "vi": "Xin chào, chào mừng bạn đến với Cố Sự FM,"
+        },
+        {
+          "zh": "我是爱哲，一个收集故事的人。",
+          "vi": "tôi là Ái Triết, một người sưu tầm câu chuyện."
+        }
+      ]
+    },
+    "1": {
+      "zh": "在这里，我们用你的声音讲述你的故事。",
+      "parts": [
+        {
+          "zh": "在这里，我们用你的声音",
+          "vi": "Ở đây, chúng tôi dùng giọng nói của bạn"
+        },
+        {
+          "zh": "讲述你的故事。",
+          "vi": "để kể câu chuyện của bạn."
+        }
+      ]
+    },
+    "2": {
+      "zh": "每周一、三、五，咱们不见不散。",
+      "vi": "Thứ Hai, Tư, Sáu hằng tuần, chúng ta hẹn gặp nhau nhé."
+    },
+    "3": {
+      "zh": "大概两周前的一个晚上，我们在故事FM微信公众号上发布了一次征集，",
+      "parts": [
+        {
+          "zh": "大概两周前的一个晚上，",
+          "vi": "Khoảng hai tuần trước, vào một buổi tối,"
+        },
+        {
+          "zh": "我们在故事FM微信公众号上",
+          "vi": "trên tài khoản WeChat của Cố Sự FM, chúng tôi"
+        },
+        {
+          "zh": "发布了一次征集，",
+          "vi": "đã đăng một lời kêu gọi,"
+        }
+      ]
+    },
+    "4": {
+      "zh": "想收集大家和高考有关的经历。",
+      "vi": "muốn thu thập những trải nghiệm của mọi người liên quan đến kỳ thi đại học."
+    },
+    "5": {
+      "zh": "结果第二天早上一睁眼，我们就收到了五十多位朋友的来信，谢谢你们。",
+      "parts": [
+        {
+          "zh": "结果第二天早上一睁眼，",
+          "vi": "Kết quả là sáng hôm sau vừa mở mắt,"
+        },
+        {
+          "zh": "我们就收到了五十多位朋友的来信，",
+          "vi": "chúng tôi đã nhận được thư của hơn 50 người bạn,"
+        },
+        {
+          "zh": "谢谢你们。",
+          "vi": "cảm ơn các bạn."
+        }
+      ]
+    },
+    "6": {
+      "zh": "今天我们从你们的故事中选出了几个片段，串起了一个共同的高考回忆。",
+      "parts": [
+        {
+          "zh": "今天我们从你们的故事中",
+          "vi": "Hôm nay, từ những câu chuyện của các bạn, chúng tôi"
+        },
+        {
+          "zh": "选出了几个片段，",
+          "vi": "đã chọn ra vài đoạn,"
+        },
+        {
+          "zh": "串起了一个共同的高考回忆。",
+          "vi": "xâu lại thành một hồi ức chung về kỳ thi đại học."
+        }
+      ]
+    },
+    "7": {
+      "zh": "醒醒醒醒醒醒，都给我打起劲儿来！",
+      "vi": "Dậy, dậy, dậy đi, tất cả hăng hái lên cho cô!"
+    },
+    "8": {
+      "zh": "两眼一睁，开始竞争。",
+      "vi": "Hai mắt vừa mở, bắt đầu cạnh tranh."
+    },
+    "9": {
+      "zh": "发卷子，不苦不累，高三无味，不拼不搏等于白活，所以就算拼个头破血流，也要给我冲进一本的大楼。",
+      "parts": [
+        {
+          "zh": "发卷子，不苦不累，高三无味，",
+          "vi": "Phát đề! Không khổ không mệt, lớp 12 vô vị,"
+        },
+        {
+          "zh": "不拼不搏等于白活，",
+          "vi": "không liều không vật lộn là sống uổng,"
+        },
+        {
+          "zh": "所以就算拼个头破血流，",
+          "vi": "nên dù có liều đến vỡ đầu chảy máu,"
+        },
+        {
+          "zh": "也要给我冲进一本的大楼。",
+          "vi": "cũng phải xông vào được tòa nhà của trường top đầu cho cô."
+        }
+      ]
+    },
+    "10": {
+      "zh": "我们要记住，累死你一个，幸福你一家，破釜沉舟，拼它个日出日落，背水一战，干他们不灭不还。",
+      "parts": [
+        {
+          "zh": "我们要记住，累死你一个，幸福你一家，",
+          "vi": "Chúng ta phải nhớ: mệt chết một mình em, hạnh phúc cả nhà em,"
+        },
+        {
+          "zh": "破釜沉舟，拼它个日出日落，",
+          "vi": "đập nồi dìm thuyền, liều từ lúc mặt trời mọc đến khi lặn,"
+        },
+        {
+          "zh": "背水一战，干他们不灭不还。",
+          "vi": "quay lưng ra sông mà đánh, chiến tới cùng."
+        }
+      ]
+    },
+    "11": {
+      "zh": "提到高考，我们经常听到用“千军万马过独木桥”这样的说法来形容高考的惨烈，",
+      "parts": [
+        {
+          "zh": "提到高考，我们经常听到用",
+          "vi": "Nhắc đến kỳ thi đại học, ta thường nghe người ta dùng"
+        },
+        {
+          "zh": "“千军万马过独木桥”这样的说法",
+          "vi": "câu \"thiên quân vạn mã qua cầu độc mộc\""
+        },
+        {
+          "zh": "来形容高考的惨烈，",
+          "vi": "để tả sự khốc liệt của nó,"
+        }
+      ]
+    },
+    "12": {
+      "zh": "但是这个说法把所有的学生都简化成了毫无个性的集体，而忽略了，",
+      "parts": [
+        {
+          "zh": "但是这个说法",
+          "vi": "nhưng cách nói này"
+        },
+        {
+          "zh": "把所有的学生都简化成了",
+          "vi": "đã giản lược tất cả học sinh thành"
+        },
+        {
+          "zh": "毫无个性的集体，而忽略了，",
+          "vi": "một tập thể không chút cá tính, mà bỏ qua một điều:"
+        }
+      ]
+    },
+    "13": {
+      "zh": "即便是面对一个统一的考试，每个参加高考的人其实都面临着不同的困境和憧憬。",
+      "parts": [
+        {
+          "zh": "即便是面对一个统一的考试，",
+          "vi": "dù cùng đối mặt với một kỳ thi chung,"
+        },
+        {
+          "zh": "每个参加高考的人",
+          "vi": "mỗi người đi thi"
+        },
+        {
+          "zh": "其实都面临着不同的困境和憧憬。",
+          "vi": "thật ra đều đứng trước những khó khăn và mong ước khác nhau."
+        }
+      ]
+    },
+    "14": {
+      "zh": "今天让我们来听一听那些更有人性的高考故事。",
+      "parts": [
+        {
+          "zh": "今天让我们来听一听",
+          "vi": "Hôm nay, hãy cùng nghe"
+        },
+        {
+          "zh": "那些更有人性的高考故事。",
+          "vi": "những câu chuyện thi đại học đầy tính người hơn."
+        }
+      ]
+    },
+    "15": {
+      "zh": "嗯，其实高三的时候，我跟我爸妈的关系不是十分亲密，一年到头都说不了几句话，",
+      "parts": [
+        {
+          "zh": "嗯，其实高三的时候，",
+          "vi": "Ừm, thật ra hồi lớp 12,"
+        },
+        {
+          "zh": "我跟我爸妈的关系不是十分亲密，",
+          "vi": "quan hệ giữa tôi và bố mẹ không thân thiết lắm,"
+        },
+        {
+          "zh": "一年到头都说不了几句话，",
+          "vi": "quanh năm chẳng nói được mấy câu,"
+        }
+      ]
+    },
+    "16": {
+      "zh": "摩擦很少的，因为我们说话的时间都少，更何况是摩擦呢？",
+      "parts": [
+        {
+          "zh": "摩擦很少的，",
+          "vi": "va chạm thì rất ít,"
+        },
+        {
+          "zh": "因为我们说话的时间都少，",
+          "vi": "vì thời gian nói chuyện đã ít,"
+        },
+        {
+          "zh": "更何况是摩擦呢？",
+          "vi": "huống hồ là va chạm?"
+        }
+      ]
+    },
+    "17": {
+      "zh": "关系太……不亲密了，太陌生了感觉。",
+      "vi": "Quan hệ quá… không thân thiết, cảm giác quá xa lạ."
+    },
+    "18": {
+      "zh": "那时候我是在重点班，但是是重点班里面倒数后十名的那几个人，每次考试都提心吊胆的，",
+      "parts": [
+        {
+          "zh": "那时候我是在重点班，",
+          "vi": "Hồi đó tôi học lớp chọn,"
+        },
+        {
+          "zh": "但是是重点班里面",
+          "vi": "nhưng là trong lớp chọn,"
+        },
+        {
+          "zh": "倒数后十名的那几个人，",
+          "vi": "thuộc mấy đứa trong tốp 10 cuối,"
+        },
+        {
+          "zh": "每次考试都提心吊胆的，",
+          "vi": "lần thi nào cũng nơm nớp lo sợ,"
+        }
+      ]
+    },
+    "19": {
+      "zh": "因为我们有一个规矩，就是每次大考有年级排名的时候，在重点班里面考到。全年级超过两百名的，连续两次就要被踢出重点班。",
+      "parts": [
+        {
+          "zh": "因为我们有一个规矩，",
+          "vi": "vì chúng tôi có một quy định,"
+        },
+        {
+          "zh": "就是每次大考有年级排名的时候，",
+          "vi": "là mỗi kỳ thi lớn có xếp hạng toàn khối,"
+        },
+        {
+          "zh": "在重点班里面",
+          "vi": "mà ở lớp chọn"
+        },
+        {
+          "zh": "考到。全年级超过两百名的，",
+          "vi": "lại thi rớt ra ngoài hạng 200 của khối,"
+        },
+        {
+          "zh": "连续两次就要被踢出重点班。",
+          "vi": "hai lần liên tiếp là bị đá khỏi lớp chọn."
+        }
+      ]
+    },
+    "21": {
+      "zh": "然后我那时候就特别害怕，因为我经常在一百九十几名、一百八十几名这样子徘徊，",
+      "parts": [
+        {
+          "zh": "然后我那时候就特别害怕，",
+          "vi": "Thế nên hồi đó tôi rất sợ,"
+        },
+        {
+          "zh": "因为我经常在一百九十几名、",
+          "vi": "vì tôi hay lẩn quẩn ở hạng 190 mấy,"
+        },
+        {
+          "zh": "一百八十几名这样子徘徊，",
+          "vi": "180 mấy như thế,"
+        }
+      ]
+    },
+    "22": {
+      "zh": "然后一不小心就会出两百名，就是觉得被踢出重点班就很惨，就就很羞耻啊，",
+      "parts": [
+        {
+          "zh": "然后一不小心就会出两百名，",
+          "vi": "rồi sơ ý một cái là rớt ra ngoài hạng 200,"
+        },
+        {
+          "zh": "就是觉得被踢出重点班就很惨，",
+          "vi": "kiểu thấy bị đá khỏi lớp chọn thì thảm lắm,"
+        },
+        {
+          "zh": "就就很羞耻啊，",
+          "vi": "nhục lắm,"
+        }
+      ]
+    },
+    "23": {
+      "zh": "也不知道怎么面对爸妈，所以那时候压力还蛮大的。",
+      "parts": [
+        {
+          "zh": "也不知道怎么面对爸妈，",
+          "vi": "cũng không biết đối mặt với bố mẹ thế nào,"
+        },
+        {
+          "zh": "所以那时候压力还蛮大的。",
+          "vi": "nên hồi đó áp lực khá lớn."
+        }
+      ]
+    },
+    "24": {
+      "zh": "然后就一直积压着，然后等到了某一天高三的时候，有一次跟我爸吵架了，",
+      "parts": [
+        {
+          "zh": "然后就一直积压着，",
+          "vi": "Rồi cứ dồn nén mãi,"
+        },
+        {
+          "zh": "然后等到了某一天高三的时候，",
+          "vi": "cho đến một ngày năm lớp 12,"
+        },
+        {
+          "zh": "有一次跟我爸吵架了，",
+          "vi": "có lần tôi cãi nhau với bố,"
+        }
+      ]
+    },
+    "25": {
+      "zh": "我不知道为了什么事情吵了，我都忘了。",
+      "parts": [
+        {
+          "zh": "我不知道为了什么事情吵了，",
+          "vi": "tôi không biết cãi nhau vì chuyện gì,"
+        },
+        {
+          "zh": "我都忘了。",
+          "vi": "tôi quên mất rồi."
+        }
+      ]
+    },
+    "26": {
+      "zh": "我说了很难听的话，最后搞到不欢而散嘛，然后我就回学校了。",
+      "parts": [
+        {
+          "zh": "我说了很难听的话，",
+          "vi": "Tôi đã nói những lời rất khó nghe,"
+        },
+        {
+          "zh": "最后搞到不欢而散嘛，",
+          "vi": "cuối cùng thành ra chia tay trong bực bội,"
+        },
+        {
+          "zh": "然后我就回学校了。",
+          "vi": "rồi tôi quay về trường."
+        }
+      ]
+    },
+    "27": {
+      "zh": "我那时候是很少跟我爸沟通的，就也不会说主动找他道歉啊，呃，然后一般都是跟我妈妈说话嘛。",
+      "parts": [
+        {
+          "zh": "我那时候是很少跟我爸沟通的，",
+          "vi": "Hồi đó tôi rất ít khi nói chuyện với bố,"
+        },
+        {
+          "zh": "就也不会说主动找他道歉啊，",
+          "vi": "nên cũng không chủ động đi xin lỗi bố,"
+        },
+        {
+          "zh": "呃，然后一般都是跟我妈妈说话嘛。",
+          "vi": "ờ, thường thì tôi chỉ nói chuyện với mẹ."
+        }
+      ]
+    },
+    "28": {
+      "zh": "那时候我就想着，嗯，要不要跟我妈讲呢？",
+      "parts": [
+        {
+          "zh": "那时候我就想着，",
+          "vi": "Lúc đó tôi nghĩ,"
+        },
+        {
+          "zh": "嗯，要不要跟我妈讲呢？",
+          "vi": "ừm, có nên kể với mẹ không nhỉ?"
+        }
+      ]
+    },
+    "29": {
+      "zh": "因为就讲一下我心里的感受，我就是跟她说一下我的压力。",
+      "parts": [
+        {
+          "zh": "因为就讲一下我心里的感受，",
+          "vi": "Vì muốn nói ra cảm xúc trong lòng,"
+        },
+        {
+          "zh": "我就是跟她说一下我的压力。",
+          "vi": "tôi chỉ muốn kể với mẹ về áp lực của mình."
+        }
+      ]
+    },
+    "30": {
+      "zh": "然后就写了很长的一条短信，里面就提到说，嗯，自己其实呃压力也很大，",
+      "parts": [
+        {
+          "zh": "然后就写了很长的一条短信，",
+          "vi": "Thế là tôi viết một tin nhắn rất dài,"
+        },
+        {
+          "zh": "里面就提到说，",
+          "vi": "trong đó có nói rằng,"
+        },
+        {
+          "zh": "嗯，自己其实呃压力也很大，",
+          "vi": "ừm, mình thật ra, ờ, áp lực cũng rất lớn,"
+        }
+      ]
+    },
+    "31": {
+      "zh": "然后也认识到自己不应该这么跟我爸说话，然后但是也说了希望家里人能体谅我。压力啊什么的，",
+      "parts": [
+        {
+          "zh": "然后也认识到",
+          "vi": "rồi cũng nhận ra"
+        },
+        {
+          "zh": "自己不应该这么跟我爸说话，",
+          "vi": "mình không nên nói với bố như vậy,"
+        },
+        {
+          "zh": "然后但是也说了",
+          "vi": "nhưng cũng nói là"
+        },
+        {
+          "zh": "希望家里人能体谅我。压力啊什么的，",
+          "vi": "mong gia đình thông cảm cho mình, áp lực các thứ,"
+        }
+      ]
+    },
+    "33": {
+      "zh": "嗯，",
+      "vi": "Ừm,"
+    },
+    "34": {
+      "zh": "那时候发完那条短信呢，就会忍不住哗啦就哭了，觉得自己释放了很多压力，",
+      "parts": [
+        {
+          "zh": "那时候发完那条短信呢，",
+          "vi": "Hồi đó gửi xong tin nhắn ấy,"
+        },
+        {
+          "zh": "就会忍不住哗啦就哭了，",
+          "vi": "tôi không kìm được mà òa lên khóc,"
+        },
+        {
+          "zh": "觉得自己释放了很多压力，",
+          "vi": "thấy mình trút được rất nhiều áp lực,"
+        }
+      ]
+    },
+    "35": {
+      "zh": "就是哭着入睡这样子。",
+      "vi": "kiểu khóc rồi ngủ thiếp đi."
+    },
+    "36": {
+      "zh": "最后就是我妈收到了短信也回复我了，也是很正常的，",
+      "parts": [
+        {
+          "zh": "最后就是我妈收到了短信",
+          "vi": "Cuối cùng mẹ tôi nhận được tin nhắn"
+        },
+        {
+          "zh": "也回复我了，也是很正常的，",
+          "vi": "và cũng trả lời, rất bình thường thôi,"
+        }
+      ]
+    },
+    "37": {
+      "zh": "就是说什么女儿不要担心啊之类的那些话，正常发挥就好啦之类的。",
+      "parts": [
+        {
+          "zh": "就是说什么",
+          "vi": "kiểu nói mấy câu như"
+        },
+        {
+          "zh": "女儿不要担心啊之类的那些话，",
+          "vi": "con gái đừng lo lắng, đại loại vậy,"
+        },
+        {
+          "zh": "正常发挥就好啦之类的。",
+          "vi": "cứ làm bài như bình thường là được, đại loại thế."
+        }
+      ]
+    },
+    "38": {
+      "zh": "虽然我最后不知道我妈有没有跟我爸给我爸看，有没有告诉我爸什么的，",
+      "parts": [
+        {
+          "zh": "虽然我最后不知道",
+          "vi": "Dù cuối cùng tôi không biết"
+        },
+        {
+          "zh": "我妈有没有跟我爸给我爸看，",
+          "vi": "mẹ có đưa cho bố xem không,"
+        },
+        {
+          "zh": "有没有告诉我爸什么的，",
+          "vi": "có kể gì với bố không,"
+        }
+      ]
+    },
+    "39": {
+      "zh": "但是这些话我说出去了，确实会舒服一点。",
+      "parts": [
+        {
+          "zh": "但是这些话我说出去了，",
+          "vi": "nhưng những lời này tôi đã nói ra được,"
+        },
+        {
+          "zh": "确实会舒服一点。",
+          "vi": "quả thật thấy dễ chịu hơn chút."
+        }
+      ]
+    },
+    "40": {
+      "zh": "后来是因为这件事情吧，我就觉得啊，其实家里人还是挺包容自己的，",
+      "parts": [
+        {
+          "zh": "后来是因为这件事情吧，我就觉得啊，",
+          "vi": "Về sau, chắc vì chuyện này, tôi thấy,"
+        },
+        {
+          "zh": "其实家里人还是挺包容自己的，",
+          "vi": "thật ra gia đình vẫn rất bao dung với mình,"
+        }
+      ]
+    },
+    "41": {
+      "zh": "无论自己说了多么难听的话，做了很过分的事情，但是嗯。",
+      "parts": [
+        {
+          "zh": "无论自己说了多么难听的话，",
+          "vi": "dù mình có nói những lời khó nghe đến đâu,"
+        },
+        {
+          "zh": "做了很过分的事情，但是嗯。",
+          "vi": "làm những chuyện quá đáng, nhưng mà, ừm."
+        }
+      ]
+    },
+    "42": {
+      "zh": "他们最后还是会支持自己的，就算我爸也没有表态或什么样的，但是我觉得他心里也默认了，",
+      "parts": [
+        {
+          "zh": "他们最后还是会支持自己的，",
+          "vi": "Cuối cùng họ vẫn ủng hộ mình,"
+        },
+        {
+          "zh": "就算我爸也没有表态或什么样的，",
+          "vi": "dù bố tôi không bày tỏ thái độ gì,"
+        },
+        {
+          "zh": "但是我觉得他心里也默认了，",
+          "vi": "nhưng tôi nghĩ trong lòng bố cũng ngầm chấp nhận rồi,"
+        }
+      ]
+    },
+    "43": {
+      "zh": "就是原谅了我的错。",
+      "vi": "tức là đã tha thứ lỗi của tôi."
+    },
+    "44": {
+      "zh": "六月六号。",
+      "vi": "Ngày 6 tháng 6."
+    },
+    "45": {
+      "zh": "啊，不是七月六号，因为当时高考是在七月份。",
+      "parts": [
+        {
+          "zh": "啊，不是七月六号，",
+          "vi": "À không, ngày 6 tháng 7,"
+        },
+        {
+          "zh": "因为当时高考是在七月份。",
+          "vi": "vì hồi đó thi đại học vào tháng Bảy."
+        }
+      ]
+    },
+    "46": {
+      "zh": "我确实没想到这个女生直接朝我跑过来，然后狠狠的给了我一巴掌。",
+      "parts": [
+        {
+          "zh": "我确实没想到",
+          "vi": "Tôi thật sự không ngờ"
+        },
+        {
+          "zh": "这个女生直接朝我跑过来，",
+          "vi": "cô bạn ấy chạy thẳng về phía tôi,"
+        },
+        {
+          "zh": "然后狠狠的给了我一巴掌。",
+          "vi": "rồi tát tôi một cái thật mạnh."
+        }
+      ]
+    },
+    "47": {
+      "zh": "啊，现在还能记得特别的疼。",
+      "vi": "À, giờ vẫn còn nhớ là đau lắm."
+    },
+    "48": {
+      "zh": "高考前三天的时候，是一个同宿舍的一个室友。",
+      "parts": [
+        {
+          "zh": "高考前三天的时候，",
+          "vi": "Ba ngày trước kỳ thi đại học,"
+        },
+        {
+          "zh": "是一个同宿舍的一个室友。",
+          "vi": "có một cậu bạn cùng phòng ký túc."
+        }
+      ]
+    },
+    "49": {
+      "zh": "他很小心很谨慎的那样把我拽到一个角落然后跟我说我的初恋女友好像跟我同桌在一起了因为他看到他俩一起吃饭一起研究高考一起放松当时大脑是一片空白的因为没经历过这种事儿感情这种事儿所以就觉得完全接受不了，不知道自己该怎么办。",
+      "parts": [
+        {
+          "zh": "他很小心很谨慎的那样",
+          "vi": "Cậu ấy rất cẩn thận, dè dặt"
+        },
+        {
+          "zh": "把我拽到一个角落",
+          "vi": "kéo tôi ra một góc"
+        },
+        {
+          "zh": "然后跟我说我的初恋女友",
+          "vi": "rồi nói với tôi rằng bạn gái mối tình đầu của tôi"
+        },
+        {
+          "zh": "好像跟我同桌在一起了",
+          "vi": "hình như đã đến với bạn cùng bàn của tôi,"
+        },
+        {
+          "zh": "因为他看到他俩一起吃饭",
+          "vi": "vì cậu ấy thấy hai người họ cùng ăn cơm,"
+        },
+        {
+          "zh": "一起研究高考一起放松",
+          "vi": "cùng ôn thi, cùng thư giãn."
+        },
+        {
+          "zh": "当时大脑是一片空白的",
+          "vi": "Lúc đó đầu óc tôi trống rỗng,"
+        },
+        {
+          "zh": "因为没经历过这种事儿",
+          "vi": "vì chưa trải qua chuyện như vậy,"
+        },
+        {
+          "zh": "感情这种事儿",
+          "vi": "chuyện tình cảm ấy,"
+        },
+        {
+          "zh": "所以就觉得完全接受不了，",
+          "vi": "nên thấy hoàn toàn không chấp nhận nổi,"
+        },
+        {
+          "zh": "不知道自己该怎么办。",
+          "vi": "không biết mình nên làm sao."
+        }
+      ]
+    },
+    "52": {
+      "zh": "高考前一个晚上，我是在学校前面的一个马路上逛街，也不敢走太远，",
+      "parts": [
+        {
+          "zh": "高考前一个晚上，",
+          "vi": "Buổi tối trước kỳ thi,"
+        },
+        {
+          "zh": "我是在学校前面的一个马路上逛街，",
+          "vi": "tôi đi lang thang trên con đường trước cổng trường,"
+        },
+        {
+          "zh": "也不敢走太远，",
+          "vi": "cũng không dám đi xa quá,"
+        }
+      ]
+    },
+    "53": {
+      "zh": "因为心里其实还是很清楚第二天是高考的，所以就在比较近的距离。",
+      "parts": [
+        {
+          "zh": "因为心里其实还是很清楚",
+          "vi": "vì trong lòng thật ra vẫn biết rất rõ"
+        },
+        {
+          "zh": "第二天是高考的，",
+          "vi": "hôm sau là thi đại học,"
+        },
+        {
+          "zh": "所以就在比较近的距离。",
+          "vi": "nên chỉ loanh quanh gần đó."
+        }
+      ]
+    },
+    "54": {
+      "zh": "从东边走到西边，再从西边走到东边。",
+      "vi": "Đi từ đầu đông sang đầu tây, rồi từ tây về đông."
+    },
+    "55": {
+      "zh": "这个女生当时是和几个朋友他们在一起，然后她扭头的时候，她看到我了。",
+      "parts": [
+        {
+          "zh": "这个女生当时",
+          "vi": "Cô bạn ấy lúc đó"
+        },
+        {
+          "zh": "是和几个朋友他们在一起，",
+          "vi": "đang đi cùng mấy người bạn,"
+        },
+        {
+          "zh": "然后她扭头的时候，她看到我了。",
+          "vi": "rồi lúc quay đầu lại, cô ấy thấy tôi."
+        }
+      ]
+    },
+    "56": {
+      "zh": "我们平时的关系怎么说呢？",
+      "vi": "Quan hệ bình thường của chúng tôi nói sao nhỉ?"
+    },
+    "57": {
+      "zh": "我是比较害羞内向的，但是跟她之间还是算比较熟的，也经常说话，也经常开玩笑。",
+      "parts": [
+        {
+          "zh": "我是比较害羞内向的，",
+          "vi": "Tôi khá nhút nhát, hướng nội,"
+        },
+        {
+          "zh": "但是跟她之间还是算比较熟的，",
+          "vi": "nhưng với cô ấy thì cũng khá thân,"
+        },
+        {
+          "zh": "也经常说话，也经常开玩笑。",
+          "vi": "hay nói chuyện, hay đùa nhau."
+        }
+      ]
+    },
+    "58": {
+      "zh": "他平常的时候就总是扎一个马尾辫，走路是一跳一跳那种，就是很有青春活力的那种。",
+      "parts": [
+        {
+          "zh": "他平常的时候就总是扎一个马尾辫，",
+          "vi": "Ngày thường cô ấy hay buộc tóc đuôi ngựa,"
+        },
+        {
+          "zh": "走路是一跳一跳那种，",
+          "vi": "đi đường kiểu nhảy chân sáo,"
+        },
+        {
+          "zh": "就是很有青春活力的那种。",
+          "vi": "kiểu tràn đầy sức sống tuổi trẻ."
+        }
+      ]
+    },
+    "59": {
+      "zh": "当天也是一样的，扎个马尾辫，然后穿个牛仔裤，穿一个应该是一个白色的衬衣吧。",
+      "parts": [
+        {
+          "zh": "当天也是一样的，扎个马尾辫，",
+          "vi": "Hôm đó cũng vậy, buộc tóc đuôi ngựa,"
+        },
+        {
+          "zh": "然后穿个牛仔裤，",
+          "vi": "mặc quần jeans,"
+        },
+        {
+          "zh": "穿一个应该是一个白色的衬衣吧。",
+          "vi": "mặc một cái, chắc là một chiếc áo sơ mi trắng."
+        }
+      ]
+    },
+    "60": {
+      "zh": "他跑到我跟前说的第一句话是：“你在干什么？”",
+      "parts": [
+        {
+          "zh": "他跑到我跟前说的第一句话是：",
+          "vi": "Câu đầu tiên cô ấy nói khi chạy đến trước mặt tôi là:"
+        },
+        {
+          "zh": "“你在干什么？”",
+          "vi": "\"Cậu đang làm gì đấy?\""
+        }
+      ]
+    },
+    "61": {
+      "zh": "然后。",
+      "vi": "Rồi."
+    },
+    "62": {
+      "zh": "我没回答，他又说：“他说你第二天是高考，你不知道吗？”",
+      "parts": [
+        {
+          "zh": "我没回答，他又说：",
+          "vi": "Tôi không trả lời, cô ấy lại nói:"
+        },
+        {
+          "zh": "“他说你第二天是高考，你不知道吗？”",
+          "vi": "\"Mai là thi đại học rồi, cậu không biết à?\""
+        }
+      ]
+    },
+    "63": {
+      "zh": "我说：“我知道。”",
+      "vi": "Tôi nói: \"Tớ biết.\""
+    },
+    "64": {
+      "zh": "然后他就用了很大力气，啪的一下给了我一个耳光。",
+      "parts": [
+        {
+          "zh": "然后他就用了很大力气，",
+          "vi": "Rồi cô ấy dùng hết sức,"
+        },
+        {
+          "zh": "啪的一下给了我一个耳光。",
+          "vi": "\"bốp\" một cái, tát tôi một cái."
+        }
+      ]
+    },
+    "65": {
+      "zh": "这一下吓了我一跳啊！",
+      "vi": "Cú đó làm tôi giật cả mình!"
+    },
+    "66": {
+      "zh": "因为当时我也我也没反应过来，然后就觉得啊脸上像火烧一样。",
+      "parts": [
+        {
+          "zh": "因为当时我也我也没反应过来，",
+          "vi": "Vì lúc đó tôi cũng… tôi cũng chưa kịp phản ứng,"
+        },
+        {
+          "zh": "然后就觉得啊脸上像火烧一样。",
+          "vi": "rồi chỉ thấy mặt nóng rát như lửa đốt."
+        }
+      ]
+    },
+    "67": {
+      "zh": "然后接着，他就哭了。",
+      "vi": "Rồi ngay sau đó, cô ấy khóc."
+    },
+    "68": {
+      "zh": "然后他说：“你不要放弃，你一定会考上一个一本。”",
+      "parts": [
+        {
+          "zh": "然后他说：“你不要放弃，",
+          "vi": "Rồi cô ấy nói: \"Cậu đừng bỏ cuộc,"
+        },
+        {
+          "zh": "你一定会考上一个一本。”",
+          "vi": "cậu nhất định sẽ đỗ một trường top đầu.\""
+        }
+      ]
+    },
+    "69": {
+      "zh": "当时他哭的时候，我的眼泪其实还没有下来，就觉得还是要克制一下吧。",
+      "parts": [
+        {
+          "zh": "当时他哭的时候，",
+          "vi": "Lúc cô ấy khóc,"
+        },
+        {
+          "zh": "我的眼泪其实还没有下来，",
+          "vi": "nước mắt tôi thật ra vẫn chưa rơi,"
+        },
+        {
+          "zh": "就觉得还是要克制一下吧。",
+          "vi": "thấy vẫn nên kiềm chế một chút."
+        }
+      ]
+    },
+    "70": {
+      "zh": "后来他抱住我，说了这些话，然后我的眼泪就控制不住。",
+      "parts": [
+        {
+          "zh": "后来他抱住我，说了这些话，",
+          "vi": "Sau đó cô ấy ôm lấy tôi, nói những lời ấy,"
+        },
+        {
+          "zh": "然后我的眼泪就控制不住。",
+          "vi": "thế là nước mắt tôi không kìm được nữa."
+        }
+      ]
+    },
+    "71": {
+      "zh": "因为当时时间也比较晚了，我也知道第二天还是要高考的，然后我就劝他回家，早点回家。",
+      "parts": [
+        {
+          "zh": "因为当时时间也比较晚了，",
+          "vi": "Vì lúc đó cũng khá muộn rồi,"
+        },
+        {
+          "zh": "我也知道第二天还是要高考的，",
+          "vi": "tôi cũng biết hôm sau vẫn phải thi,"
+        },
+        {
+          "zh": "然后我就劝他回家，早点回家。",
+          "vi": "nên tôi khuyên cô ấy về nhà, về sớm đi."
+        }
+      ]
+    },
+    "72": {
+      "zh": "他就问我，我还要干什么？",
+      "vi": "Cô ấy hỏi tôi, tôi còn định làm gì nữa?"
+    },
+    "73": {
+      "zh": "我说我再再转一会儿，然后就回宿舍。",
+      "vi": "Tôi nói tôi đi lòng vòng thêm chút nữa rồi về ký túc."
+    },
+    "74": {
+      "zh": "他就说：“你不要在这转了，这个路上全是车。",
+      "parts": [
+        {
+          "zh": "他就说：“你不要在这转了，",
+          "vi": "Cô ấy nói: \"Cậu đừng lượn lờ ở đây nữa,"
+        },
+        {
+          "zh": "这个路上全是车。",
+          "vi": "đường này toàn xe cộ."
+        }
+      ]
+    },
+    "75": {
+      "zh": "明天是个重要的日子。”",
+      "vi": "Mai là một ngày quan trọng.\""
+    },
+    "76": {
+      "zh": "然后他就一直劝我让我先回宿舍。",
+      "vi": "Rồi cô ấy cứ khuyên tôi về ký túc trước."
+    },
+    "77": {
+      "zh": "后来他就目送着我，我朝宿舍走，然后他才回到家。",
+      "parts": [
+        {
+          "zh": "后来他就目送着我，",
+          "vi": "Sau đó cô ấy đứng nhìn theo tôi,"
+        },
+        {
+          "zh": "我朝宿舍走，然后他才回到家。",
+          "vi": "tôi đi về phía ký túc, rồi cô ấy mới về nhà."
+        }
+      ]
+    },
+    "78": {
+      "zh": "嗯，六月七号高考第一天凌晨十二点，呃，外面下起了小雨，那一刻我意识到我自己失眠了。",
+      "parts": [
+        {
+          "zh": "嗯，六月七号高考第一天凌晨十二点，",
+          "vi": "Ừm, 12 giờ đêm rạng sáng ngày 7 tháng 6, ngày thi đầu tiên,"
+        },
+        {
+          "zh": "呃，外面下起了小雨，",
+          "vi": "ờ, bên ngoài đổ mưa nhỏ,"
+        },
+        {
+          "zh": "那一刻我意识到我自己失眠了。",
+          "vi": "khoảnh khắc đó tôi nhận ra mình mất ngủ rồi."
+        }
+      ]
+    },
+    "79": {
+      "zh": "应该是十点半，我就洗漱完毕，然后上床准备入睡了。",
+      "parts": [
+        {
+          "zh": "应该是十点半，",
+          "vi": "Chắc khoảng 10 rưỡi,"
+        },
+        {
+          "zh": "我就洗漱完毕，然后上床准备入睡了。",
+          "vi": "tôi rửa mặt đánh răng xong rồi lên giường chuẩn bị ngủ."
+        }
+      ]
+    },
+    "80": {
+      "zh": "呃，说实话，不紧张是不可能的，又有紧张，又有一种兴奋，",
+      "parts": [
+        {
+          "zh": "呃，说实话，不紧张是不可能的，",
+          "vi": "Ờ, nói thật, không hồi hộp là không thể,"
+        },
+        {
+          "zh": "又有紧张，又有一种兴奋，",
+          "vi": "vừa hồi hộp, vừa có chút phấn khích,"
+        }
+      ]
+    },
+    "81": {
+      "zh": "然后还有一种其实是有一点恐惧在里面，所以就翻来覆去一直没有睡着。",
+      "parts": [
+        {
+          "zh": "然后还有一种",
+          "vi": "rồi còn có một thứ"
+        },
+        {
+          "zh": "其实是有一点恐惧在里面，",
+          "vi": "thật ra là có chút sợ hãi trong đó,"
+        },
+        {
+          "zh": "所以就翻来覆去一直没有睡着。",
+          "vi": "nên cứ trằn trọc mãi không ngủ được."
+        }
+      ]
+    },
+    "82": {
+      "zh": "差不多到了十二点左右的时候，我听见了雨声。",
+      "parts": [
+        {
+          "zh": "差不多到了十二点左右的时候，",
+          "vi": "Đến khoảng 12 giờ,"
+        },
+        {
+          "zh": "我听见了雨声。",
+          "vi": "tôi nghe thấy tiếng mưa."
+        }
+      ]
+    },
+    "83": {
+      "zh": "那个雨声的印象，到目前为止还依然留存在我的这个脑海里面。",
+      "parts": [
+        {
+          "zh": "那个雨声的印象，到目前为止",
+          "vi": "Ấn tượng về tiếng mưa đó, cho đến giờ"
+        },
+        {
+          "zh": "还依然留存在我的这个脑海里面。",
+          "vi": "vẫn còn đọng lại trong tâm trí tôi."
+        }
+      ]
+    },
+    "84": {
+      "zh": "啊，我初中、高中都是在上海读的，但我并不是一个呃在上海的浦东，我并不是当地人。",
+      "parts": [
+        {
+          "zh": "啊，我初中、高中都是在上海读的，",
+          "vi": "À, tôi học cấp hai, cấp ba đều ở Thượng Hải,"
+        },
+        {
+          "zh": "但我并不是一个呃在上海的浦东，",
+          "vi": "nhưng tôi không phải là một, ờ, ở Phố Đông, Thượng Hải,"
+        },
+        {
+          "zh": "我并不是当地人。",
+          "vi": "tôi không phải người bản xứ."
+        }
+      ]
+    },
+    "85": {
+      "zh": "父母把我送到上海，也是因为很大的一个考量原因，是希望让我能接触到更好的。教育吧，在上海是将近五年的时间啊，我父母对我付出了很多，",
+      "parts": [
+        {
+          "zh": "父母把我送到上海，",
+          "vi": "Bố mẹ đưa tôi đến Thượng Hải,"
+        },
+        {
+          "zh": "也是因为很大的一个考量原因，",
+          "vi": "cũng là vì một lý do cân nhắc rất lớn,"
+        },
+        {
+          "zh": "是希望让我能接触到更好的。教育吧，",
+          "vi": "là mong tôi được tiếp cận nền giáo dục tốt hơn,"
+        },
+        {
+          "zh": "在上海是将近五年的时间啊，",
+          "vi": "ở Thượng Hải gần 5 năm,"
+        },
+        {
+          "zh": "我父母对我付出了很多，",
+          "vi": "bố mẹ đã hy sinh cho tôi rất nhiều,"
+        }
+      ]
+    },
+    "87": {
+      "zh": "包括我妈曾经把她的工作暂时放到一边，专心的就是陪读了我两年，",
+      "parts": [
+        {
+          "zh": "包括我妈曾经",
+          "vi": "kể cả mẹ tôi đã từng"
+        },
+        {
+          "zh": "把她的工作暂时放到一边，",
+          "vi": "gác công việc của mình sang một bên,"
+        },
+        {
+          "zh": "专心的就是陪读了我两年，",
+          "vi": "chuyên tâm ở bên lo cho tôi học suốt 2 năm,"
+        }
+      ]
+    },
+    "88": {
+      "zh": "所以最后在高考的那个阶段，说实话，我的心里除了有自己的对于未来的追求的话，",
+      "parts": [
+        {
+          "zh": "所以最后在高考的那个阶段，说实话，",
+          "vi": "nên tới giai đoạn thi đại học, nói thật,"
+        },
+        {
+          "zh": "我的心里除了有自己的",
+          "vi": "trong lòng tôi, ngoài"
+        },
+        {
+          "zh": "对于未来的追求的话，",
+          "vi": "những theo đuổi của riêng mình về tương lai,"
+        }
+      ]
+    },
+    "89": {
+      "zh": "更多的还是其实是对父母的。",
+      "vi": "nhiều hơn thật ra vẫn là dành cho bố mẹ."
+    },
+    "90": {
+      "zh": "这样一种希望能考出一个好成绩来回报他们的付出吧，这种压力是一直在我心里的。",
+      "parts": [
+        {
+          "zh": "这样一种希望能考出一个好成绩",
+          "vi": "Kiểu mong thi được điểm tốt"
+        },
+        {
+          "zh": "来回报他们的付出吧，",
+          "vi": "để đền đáp công sức của họ,"
+        },
+        {
+          "zh": "这种压力是一直在我心里的。",
+          "vi": "áp lực đó lúc nào cũng nằm trong lòng tôi."
+        }
+      ]
+    },
+    "91": {
+      "zh": "还有一点是我个人的这个状态，就是说，嗯，我的高中是当地还算是非常不错的一所高中，",
+      "parts": [
+        {
+          "zh": "还有一点是我个人的这个状态，",
+          "vi": "Còn một điều nữa là trạng thái của bản thân tôi,"
+        },
+        {
+          "zh": "就是说，嗯，我的高中是当地",
+          "vi": "tức là, ừm, trường cấp ba của tôi ở địa phương"
+        },
+        {
+          "zh": "还算是非常不错的一所高中，",
+          "vi": "cũng được coi là một trường rất tốt,"
+        }
+      ]
+    },
+    "92": {
+      "zh": "但是到高三的时候，我的学习成绩实际上比我之前刚入学包括高三之前的成绩都是有所下滑的。",
+      "parts": [
+        {
+          "zh": "但是到高三的时候，我的学习成绩",
+          "vi": "nhưng đến lớp 12, kết quả học tập của tôi"
+        },
+        {
+          "zh": "实际上比我之前刚入学",
+          "vi": "thực ra so với lúc mới vào trường"
+        },
+        {
+          "zh": "包括高三之前的成绩",
+          "vi": "và cả thành tích trước lớp 12"
+        },
+        {
+          "zh": "都是有所下滑的。",
+          "vi": "đều có phần sa sút."
+        }
+      ]
+    },
+    "93": {
+      "zh": "呃，从骨子里我是一个挺要强的人，但是因为一直成绩就没有太大起色，到后面就有点懈怠了吧。",
+      "parts": [
+        {
+          "zh": "呃，从骨子里我是一个挺要强的人，",
+          "vi": "Ờ, trong máu tôi là người khá hiếu thắng,"
+        },
+        {
+          "zh": "但是因为一直成绩就没有太大起色，",
+          "vi": "nhưng vì điểm số mãi không khởi sắc mấy,"
+        },
+        {
+          "zh": "到后面就有点懈怠了吧。",
+          "vi": "về sau thì hơi buông lơi."
+        }
+      ]
+    },
+    "94": {
+      "zh": "呃，其实当时还有一个，当时上海的这个户籍政策出现了一些变动，也就是说，",
+      "parts": [
+        {
+          "zh": "呃，其实当时还有一个，",
+          "vi": "Ờ, thật ra hồi đó còn một chuyện,"
+        },
+        {
+          "zh": "当时上海的这个户籍政策",
+          "vi": "chính sách hộ khẩu của Thượng Hải khi ấy"
+        },
+        {
+          "zh": "出现了一些变动，也就是说，",
+          "vi": "có một số thay đổi, tức là,"
+        }
+      ]
+    },
+    "95": {
+      "zh": "其实在高考之前的两个月，我都不能确定我当时是否能在上海参加高考。",
+      "parts": [
+        {
+          "zh": "其实在高考之前的两个月，",
+          "vi": "thật ra đến hai tháng trước kỳ thi,"
+        },
+        {
+          "zh": "我都不能确定",
+          "vi": "tôi vẫn không chắc"
+        },
+        {
+          "zh": "我当时是否能在上海参加高考。",
+          "vi": "mình có được thi đại học ở Thượng Hải hay không."
+        }
+      ]
+    },
+    "96": {
+      "zh": "最后呢，算是幸运的，也就是说引进人才的子女未满十八岁之前是可以在上海参加高考的，",
+      "parts": [
+        {
+          "zh": "最后呢，算是幸运的，",
+          "vi": "Cuối cùng thì coi như may mắn,"
+        },
+        {
+          "zh": "也就是说引进人才的子女",
+          "vi": "tức là con cái của diện nhân tài được thu hút"
+        },
+        {
+          "zh": "未满十八岁之前",
+          "vi": "trước khi đủ 18 tuổi"
+        },
+        {
+          "zh": "是可以在上海参加高考的，",
+          "vi": "thì được thi đại học ở Thượng Hải,"
+        }
+      ]
+    },
+    "97": {
+      "zh": "过了十八岁之后就不能参加高考了。",
+      "vi": "qua 18 tuổi là không được thi nữa."
+    },
+    "98": {
+      "zh": "那所以对于我的还有一个压力就是说我只有一次机会，如果今年我没有考上一所学校的话，",
+      "parts": [
+        {
+          "zh": "那所以对于我的还有一个压力",
+          "vi": "Nên với tôi còn một áp lực nữa,"
+        },
+        {
+          "zh": "就是说我只有一次机会，",
+          "vi": "là tôi chỉ có một cơ hội,"
+        },
+        {
+          "zh": "如果今年我没有考上一所学校的话，",
+          "vi": "nếu năm nay không đỗ được trường nào,"
+        }
+      ]
+    },
+    "99": {
+      "zh": "呃，我们是没有办法第二年再继续复读重新考的。",
+      "parts": [
+        {
+          "zh": "呃，我们是没有办法",
+          "vi": "ờ, chúng tôi không có cách nào"
+        },
+        {
+          "zh": "第二年再继续复读重新考的。",
+          "vi": "năm sau ôn thi lại để thi lần nữa."
+        }
+      ]
+    },
+    "100": {
+      "zh": "一方面说告诉自己。不要再想了，就是明天要考试，你赶紧好好睡觉。",
+      "parts": [
+        {
+          "zh": "一方面说告诉自己。不要再想了，",
+          "vi": "Một mặt tự nhủ: đừng nghĩ nữa,"
+        },
+        {
+          "zh": "就是明天要考试，你赶紧好好睡觉。",
+          "vi": "mai thi rồi, mau ngủ cho ngon đi."
+        }
+      ]
+    },
+    "102": {
+      "zh": "但是另一方面又忍不住的去回忆起之前的这几年经历过的种种事情。",
+      "parts": [
+        {
+          "zh": "但是另一方面又忍不住的去回忆起",
+          "vi": "Nhưng mặt khác lại không kìm được mà nhớ lại"
+        },
+        {
+          "zh": "之前的这几年经历过的种种事情。",
+          "vi": "đủ thứ chuyện đã trải qua mấy năm trước."
+        }
+      ]
+    },
+    "103": {
+      "zh": "我现在能留存的印象就是，我感觉我好像一直就没有睡着，即使是可能睡着的话，",
+      "parts": [
+        {
+          "zh": "我现在能留存的印象就是，",
+          "vi": "Ấn tượng tôi còn giữ được bây giờ là,"
+        },
+        {
+          "zh": "我感觉我好像一直就没有睡着，",
+          "vi": "tôi cảm thấy hình như mình cứ không ngủ được,"
+        },
+        {
+          "zh": "即使是可能睡着的话，",
+          "vi": "dù có ngủ được đi nữa,"
+        }
+      ]
+    },
+    "104": {
+      "zh": "也是停留在一种浅度的睡眠里面。",
+      "vi": "thì cũng chỉ là một giấc ngủ chập chờn."
+    },
+    "105": {
+      "zh": "因为第二天早上起来，你我的直观的感受就是感觉昨天晚上一晚上没睡的感觉。",
+      "parts": [
+        {
+          "zh": "因为第二天早上起来，",
+          "vi": "Vì sáng hôm sau dậy,"
+        },
+        {
+          "zh": "你我的直观的感受就是",
+          "vi": "cảm nhận trực tiếp của tôi là"
+        },
+        {
+          "zh": "感觉昨天晚上一晚上没睡的感觉。",
+          "vi": "như thể cả tối qua không ngủ chút nào."
+        }
+      ]
+    },
+    "106": {
+      "zh": "唉，应该是不到七点吧。",
+      "vi": "À, chắc là chưa đến 7 giờ."
+    },
+    "107": {
+      "zh": "起来之后洗脸刷牙，然后母亲已经给我准备好了早饭，然后吃完早饭以后，七点半左右，",
+      "parts": [
+        {
+          "zh": "起来之后洗脸刷牙，",
+          "vi": "Dậy xong rửa mặt đánh răng,"
+        },
+        {
+          "zh": "然后母亲已经给我准备好了早饭，",
+          "vi": "mẹ đã chuẩn bị sẵn bữa sáng cho tôi,"
+        },
+        {
+          "zh": "然后吃完早饭以后，七点半左右，",
+          "vi": "ăn sáng xong, khoảng 7 rưỡi,"
+        }
+      ]
+    },
+    "108": {
+      "zh": "我父亲陪我出的门。",
+      "vi": "bố đưa tôi ra khỏi nhà."
+    },
+    "109": {
+      "zh": "呃。",
+      "vi": "Ờ."
+    },
+    "110": {
+      "zh": "当卷子发下来那一刻，我觉得啊，实际上这些其实都抛到了脑后吧。",
+      "parts": [
+        {
+          "zh": "当卷子发下来那一刻，我觉得啊，",
+          "vi": "Khoảnh khắc đề thi được phát xuống, tôi thấy,"
+        },
+        {
+          "zh": "实际上这些其实都抛到了脑后吧。",
+          "vi": "thật ra mấy chuyện này đều quên sạch."
+        }
+      ]
+    },
+    "111": {
+      "zh": "你当时就卷子发下来，就是想的就是做题。",
+      "parts": [
+        {
+          "zh": "你当时就卷子发下来，",
+          "vi": "Lúc đó đề phát xuống,"
+        },
+        {
+          "zh": "就是想的就是做题。",
+          "vi": "trong đầu chỉ nghĩ đến làm bài."
+        }
+      ]
+    },
+    "112": {
+      "zh": "各位要高考的小伙伴们，",
+      "vi": "Các bạn sắp thi đại học ơi,"
+    },
+    "113": {
+      "zh": "参加高考加油，棒棒的！",
+      "vi": "thi đại học cố lên, giỏi lắm!"
+    },
+    "114": {
+      "zh": "呃，六月八号是我第二次高考的第二天。",
+      "parts": [
+        {
+          "zh": "呃，六月八号",
+          "vi": "Ờ, ngày 8 tháng 6"
+        },
+        {
+          "zh": "是我第二次高考的第二天。",
+          "vi": "là ngày thứ hai của lần thi đại học thứ hai của tôi."
+        }
+      ]
+    },
+    "115": {
+      "zh": "当时理综卷子一发下来，每一道题不管你是单选还是多选，",
+      "parts": [
+        {
+          "zh": "当时理综卷子一发下来，",
+          "vi": "Lúc đó đề tổ hợp tự nhiên vừa phát xuống,"
+        },
+        {
+          "zh": "每一道题不管你是单选还是多选，",
+          "vi": "câu nào, dù là trắc nghiệm một đáp án hay nhiều đáp án,"
+        }
+      ]
+    },
+    "116": {
+      "zh": "我都可以很清楚的说出来你什么地方对了，你什么地方错了。",
+      "parts": [
+        {
+          "zh": "我都可以很清楚的说出来",
+          "vi": "tôi đều có thể nói rõ ràng"
+        },
+        {
+          "zh": "你什么地方对了，你什么地方错了。",
+          "vi": "chỗ nào đúng, chỗ nào sai."
+        }
+      ]
+    },
+    "117": {
+      "zh": "每一道题我都非常有把握，我看了一下时间，我做选择题用了二十五分钟啊！",
+      "parts": [
+        {
+          "zh": "每一道题我都非常有把握，",
+          "vi": "Câu nào tôi cũng rất chắc,"
+        },
+        {
+          "zh": "我看了一下时间，",
+          "vi": "tôi nhìn đồng hồ,"
+        },
+        {
+          "zh": "我做选择题用了二十五分钟啊！",
+          "vi": "tôi làm phần trắc nghiệm mất 25 phút!"
+        }
+      ]
+    },
+    "118": {
+      "zh": "当时候把选择题做完，我心里面是非常兴奋的。",
+      "parts": [
+        {
+          "zh": "当时候把选择题做完，",
+          "vi": "Lúc làm xong phần trắc nghiệm,"
+        },
+        {
+          "zh": "我心里面是非常兴奋的。",
+          "vi": "trong lòng tôi rất phấn khích."
+        }
+      ]
+    },
+    "119": {
+      "zh": "我一做完，我就绝对有那种自信，就是把笔一摔，全对，就已经有那种自信了。",
+      "parts": [
+        {
+          "zh": "我一做完，我就绝对有那种自信，",
+          "vi": "Tôi vừa làm xong là tuyệt đối tự tin,"
+        },
+        {
+          "zh": "就是把笔一摔，全对，",
+          "vi": "kiểu quăng bút xuống: đúng hết,"
+        },
+        {
+          "zh": "就已经有那种自信了。",
+          "vi": "đã tự tin đến thế rồi."
+        }
+      ]
+    },
+    "120": {
+      "zh": "呃，第一次参加高考的时候，很清楚的记得。",
+      "parts": [
+        {
+          "zh": "呃，第一次参加高考的时候，",
+          "vi": "Ờ, lần đầu thi đại học,"
+        },
+        {
+          "zh": "很清楚的记得。",
+          "vi": "tôi nhớ rất rõ."
+        }
+      ]
+    },
+    "121": {
+      "zh": "我考了一个，呃，三百六十三分，也是算是罪有应得吧。",
+      "parts": [
+        {
+          "zh": "我考了一个，呃，三百六十三分，",
+          "vi": "Tôi thi được, ờ, 363 điểm,"
+        },
+        {
+          "zh": "也是算是罪有应得吧。",
+          "vi": "cũng coi như đáng đời."
+        }
+      ]
+    },
+    "122": {
+      "zh": "因为应届高中的时候基本都是玩过去的，嗯，复读的话里面的学习氛围很浓啊。",
+      "parts": [
+        {
+          "zh": "因为应届高中的时候",
+          "vi": "Vì hồi học cấp ba khóa chính"
+        },
+        {
+          "zh": "基本都是玩过去的，",
+          "vi": "tôi gần như chỉ chơi bời cho qua,"
+        },
+        {
+          "zh": "嗯，复读的话里面的学习氛围很浓啊。",
+          "vi": "ừm, còn khi ôn thi lại thì không khí học tập trong đó rất đậm."
+        }
+      ]
+    },
+    "123": {
+      "zh": "我当时也差不多是受这种氛围的熏陶吧。",
+      "parts": [
+        {
+          "zh": "我当时也差不多是",
+          "vi": "Hồi đó tôi cũng gần như là"
+        },
+        {
+          "zh": "受这种氛围的熏陶吧。",
+          "vi": "được bầu không khí ấy hun đúc."
+        }
+      ]
+    },
+    "124": {
+      "zh": "离高考还有一百天的时候。",
+      "vi": "Lúc còn 100 ngày nữa là thi đại học."
+    },
+    "125": {
+      "zh": "啊，就是那个百日誓师大会，就好像战士去上战场的时候，他会有一个战前动员大会，啊，",
+      "parts": [
+        {
+          "zh": "啊，就是那个百日誓师大会，",
+          "vi": "À, chính là lễ tuyên thệ 100 ngày đó,"
+        },
+        {
+          "zh": "就好像战士去上战场的时候，",
+          "vi": "giống như khi người lính ra chiến trường,"
+        },
+        {
+          "zh": "他会有一个战前动员大会，啊，",
+          "vi": "sẽ có một buổi động viên trước trận, à,"
+        }
+      ]
+    },
+    "126": {
+      "zh": "说的慷慨激昂，就好像有一种马上就要扛着枪上战场的感觉。",
+      "parts": [
+        {
+          "zh": "说的慷慨激昂，就好像有一种",
+          "vi": "nói hùng hồn sục sôi, cứ như có cảm giác"
+        },
+        {
+          "zh": "马上就要扛着枪上战场的感觉。",
+          "vi": "sắp vác súng ra chiến trường."
+        }
+      ]
+    },
+    "127": {
+      "zh": "那时候我也比较受鼓舞，哦，听得热血澎湃的。",
+      "parts": [
+        {
+          "zh": "那时候我也比较受鼓舞，哦，",
+          "vi": "Lúc đó tôi cũng khá được khích lệ, ồ,"
+        },
+        {
+          "zh": "听得热血澎湃的。",
+          "vi": "nghe mà máu sôi sục."
+        }
+      ]
+    },
+    "128": {
+      "zh": "那个时候我。理综不太好。",
+      "vi": "Hồi đó tôi học tổ hợp tự nhiên không tốt lắm."
+    },
+    "130": {
+      "zh": "那天下午，百日誓师大会结束以后，我扛着凳子回去，第一时间我就拿着理综的练习题在做。",
+      "parts": [
+        {
+          "zh": "那天下午，百日誓师大会结束以后，",
+          "vi": "Chiều hôm đó, sau khi lễ tuyên thệ 100 ngày kết thúc,"
+        },
+        {
+          "zh": "我扛着凳子回去，第一时间",
+          "vi": "tôi vác ghế về, ngay lập tức"
+        },
+        {
+          "zh": "我就拿着理综的练习题在做。",
+          "vi": "cầm đề luyện tổ hợp tự nhiên ra làm."
+        }
+      ]
+    },
+    "131": {
+      "zh": "那九十天，我基本上是已经达到了一种疯狂的状态。",
+      "parts": [
+        {
+          "zh": "那九十天，我基本上是",
+          "vi": "90 ngày đó, tôi gần như"
+        },
+        {
+          "zh": "已经达到了一种疯狂的状态。",
+          "vi": "đã đạt tới trạng thái điên cuồng."
+        }
+      ]
+    },
+    "132": {
+      "zh": "下课了，我做理综；上自习的时候，我还做理综。",
+      "parts": [
+        {
+          "zh": "下课了，我做理综；",
+          "vi": "Tan tiết, tôi làm đề tổ hợp;"
+        },
+        {
+          "zh": "上自习的时候，我还做理综。",
+          "vi": "giờ tự học, tôi vẫn làm đề tổ hợp."
+        }
+      ]
+    },
+    "133": {
+      "zh": "呃，有时候听课，我觉得。可能对我没多大作用，我同样的还是在做理综。",
+      "parts": [
+        {
+          "zh": "呃，有时候听课，",
+          "vi": "Ờ, có lúc nghe giảng,"
+        },
+        {
+          "zh": "我觉得。可能对我没多大作用，",
+          "vi": "tôi thấy có lẽ không có ích mấy cho tôi,"
+        },
+        {
+          "zh": "我同样的还是在做理综。",
+          "vi": "tôi vẫn cứ làm đề tổ hợp."
+        }
+      ]
+    },
+    "135": {
+      "zh": "放学了，然后同学们都回寝室了，我一样的在做理综。",
+      "parts": [
+        {
+          "zh": "放学了，然后同学们都回寝室了，",
+          "vi": "Tan học, các bạn đều về phòng ký túc,"
+        },
+        {
+          "zh": "我一样的在做理综。",
+          "vi": "tôi vẫn làm đề tổ hợp."
+        }
+      ]
+    },
+    "136": {
+      "zh": "所以最后是那一本五三，就是五年高考三年模拟嘛，里面全部是高考的理综真题，我做了三遍。",
+      "parts": [
+        {
+          "zh": "所以最后是那一本五三，",
+          "vi": "Thế nên cuối cùng là cuốn \"Ngũ Tam\" ấy,"
+        },
+        {
+          "zh": "就是五年高考三年模拟嘛，",
+          "vi": "tức \"5 năm thi đại học, 3 năm thi thử\","
+        },
+        {
+          "zh": "里面全部是高考的理综真题，",
+          "vi": "trong đó toàn là đề thi thật môn tổ hợp tự nhiên,"
+        },
+        {
+          "zh": "我做了三遍。",
+          "vi": "tôi làm ba lượt."
+        }
+      ]
+    },
+    "137": {
+      "zh": "就这样，到了高考的时候。",
+      "vi": "Cứ thế, đến kỳ thi đại học."
+    },
+    "138": {
+      "zh": "考理综的时候，我看了一下时间，我做选择题用了二十五分钟啊！",
+      "parts": [
+        {
+          "zh": "考理综的时候，我看了一下时间，",
+          "vi": "Lúc thi tổ hợp tự nhiên, tôi nhìn đồng hồ,"
+        },
+        {
+          "zh": "我做选择题用了二十五分钟啊！",
+          "vi": "tôi làm phần trắc nghiệm mất 25 phút!"
+        }
+      ]
+    },
+    "139": {
+      "zh": "当时候把选择题做完，我心里面是非常兴奋的，绝对有那种自信，就是把笔一摔，全对。",
+      "parts": [
+        {
+          "zh": "当时候把选择题做完，",
+          "vi": "Lúc làm xong phần trắc nghiệm,"
+        },
+        {
+          "zh": "我心里面是非常兴奋的，",
+          "vi": "trong lòng tôi rất phấn khích,"
+        },
+        {
+          "zh": "绝对有那种自信，就是把笔一摔，全对。",
+          "vi": "tuyệt đối tự tin, kiểu quăng bút xuống: đúng hết."
+        }
+      ]
+    },
+    "140": {
+      "zh": "嗯，做物理大题的时候，我到了最后一道大题的时候，嗯，都知道最后一一道大题是压轴的，",
+      "parts": [
+        {
+          "zh": "嗯，做物理大题的时候，",
+          "vi": "Ừm, lúc làm các câu tự luận môn Lý,"
+        },
+        {
+          "zh": "我到了最后一道大题的时候，",
+          "vi": "đến câu lớn cuối cùng,"
+        },
+        {
+          "zh": "嗯，都知道最后一一道大题是压轴的，",
+          "vi": "ừm, ai cũng biết câu… câu lớn cuối cùng là câu chốt,"
+        }
+      ]
+    },
+    "141": {
+      "zh": "就比较难。",
+      "vi": "nên khá khó."
+    },
+    "142": {
+      "zh": "呃，那个时候是整个人已经完全的投入了。",
+      "parts": [
+        {
+          "zh": "呃，那个时候",
+          "vi": "Ờ, lúc đó"
+        },
+        {
+          "zh": "是整个人已经完全的投入了。",
+          "vi": "cả người tôi đã hoàn toàn nhập tâm."
+        }
+      ]
+    },
+    "143": {
+      "zh": "我觉得世界上好像就只有我和卷子，还有一支笔，什么东西都没有了。",
+      "parts": [
+        {
+          "zh": "我觉得世界上好像就只有我和卷子，",
+          "vi": "Tôi thấy như thế giới chỉ còn tôi và tờ đề,"
+        },
+        {
+          "zh": "还有一支笔，什么东西都没有了。",
+          "vi": "và một cây bút, chẳng còn gì khác."
+        }
+      ]
+    },
+    "144": {
+      "zh": "呃，就一直做，估计我就是这个时候，我居然把时间给看错了，做一做题看一下时间。",
+      "parts": [
+        {
+          "zh": "呃，就一直做，估计我就是这个时候，",
+          "vi": "Ờ, cứ làm mãi, chắc là đúng lúc này,"
+        },
+        {
+          "zh": "我居然把时间给看错了，",
+          "vi": "tôi lại nhìn nhầm giờ,"
+        },
+        {
+          "zh": "做一做题看一下时间。",
+          "vi": "làm một lúc lại nhìn đồng hồ."
+        }
+      ]
+    },
+    "145": {
+      "zh": "嗯，还早啊。",
+      "vi": "Ừm, còn sớm mà."
+    },
+    "146": {
+      "zh": "实际上那个时候我已经把时间看错了，我把时间呃看多了一个小时。",
+      "parts": [
+        {
+          "zh": "实际上那个时候",
+          "vi": "Thực ra lúc đó"
+        },
+        {
+          "zh": "我已经把时间看错了，",
+          "vi": "tôi đã nhìn nhầm giờ rồi,"
+        },
+        {
+          "zh": "我把时间呃看多了一个小时。",
+          "vi": "tôi, ờ, nhìn dư ra một tiếng."
+        }
+      ]
+    },
+    "147": {
+      "zh": "看的时间我我也觉得还有很多时间嘛，慢慢做那道大题。",
+      "parts": [
+        {
+          "zh": "看的时间我我也觉得",
+          "vi": "Nhìn giờ, tôi… tôi cũng thấy"
+        },
+        {
+          "zh": "还有很多时间嘛，慢慢做那道大题。",
+          "vi": "còn nhiều thời gian, cứ từ từ làm câu lớn đó."
+        }
+      ]
+    },
+    "148": {
+      "zh": "我这么算，我觉得没对，然后我又重来，我就那么算，那么算我觉得又没对，又重来，",
+      "parts": [
+        {
+          "zh": "我这么算，我觉得没对，",
+          "vi": "Tôi tính thế này, thấy không đúng,"
+        },
+        {
+          "zh": "然后我又重来，我就那么算，",
+          "vi": "rồi tôi làm lại, tính cách kia,"
+        },
+        {
+          "zh": "那么算我觉得又没对，又重来，",
+          "vi": "tính cách kia lại thấy không đúng, lại làm lại,"
+        }
+      ]
+    },
+    "149": {
+      "zh": "就这么反反复复的。",
+      "vi": "cứ đi đi lại lại như thế."
+    },
+    "150": {
+      "zh": "等我把物理大题全部做完的时候，我开始做化学大题。",
+      "parts": [
+        {
+          "zh": "等我把物理大题全部做完的时候，",
+          "vi": "Đến khi làm xong hết các câu lớn môn Lý,"
+        },
+        {
+          "zh": "我开始做化学大题。",
+          "vi": "tôi bắt đầu làm câu lớn môn Hóa."
+        }
+      ]
+    },
+    "151": {
+      "zh": "第一道化学大题刚刚做完，广播提示：“现在离考试结束还有十五分钟。”",
+      "parts": [
+        {
+          "zh": "第一道化学大题刚刚做完，广播提示：",
+          "vi": "Câu Hóa đầu tiên vừa làm xong, loa thông báo:"
+        },
+        {
+          "zh": "“现在离考试结束还有十五分钟。”",
+          "vi": "\"Còn 15 phút nữa là hết giờ thi.\""
+        }
+      ]
+    },
+    "152": {
+      "zh": "哇！",
+      "vi": "Trời!"
+    },
+    "153": {
+      "zh": "我当时，我当时甚至怀疑，我说是不是，是不是考点搞错时间了？",
+      "parts": [
+        {
+          "zh": "我当时，我当时甚至怀疑，",
+          "vi": "Lúc đó, lúc đó tôi thậm chí còn nghi,"
+        },
+        {
+          "zh": "我说是不是，是不是考点搞错时间了？",
+          "vi": "tôi nghĩ có phải, có phải điểm thi nhầm giờ không?"
+        }
+      ]
+    },
+    "154": {
+      "zh": "然后我一抬头往讲台上面的钟，原来是我自己看错时间了。",
+      "parts": [
+        {
+          "zh": "然后我一抬头往讲台上面的钟，",
+          "vi": "Rồi tôi ngẩng đầu nhìn lên đồng hồ trên bục giảng,"
+        },
+        {
+          "zh": "原来是我自己看错时间了。",
+          "vi": "hóa ra là chính tôi nhìn nhầm giờ."
+        }
+      ]
+    },
+    "155": {
+      "zh": "当时候整个人都已经可以说是瘫掉了，就像一个人他突然收到一个很不好的消息之后，",
+      "parts": [
+        {
+          "zh": "当时候整个人",
+          "vi": "Lúc đó cả người tôi"
+        },
+        {
+          "zh": "都已经可以说是瘫掉了，",
+          "vi": "có thể nói là rã rời luôn,"
+        },
+        {
+          "zh": "就像一个人他突然收到",
+          "vi": "như một người đột nhiên nhận được"
+        },
+        {
+          "zh": "一个很不好的消息之后，",
+          "vi": "một tin rất xấu,"
+        }
+      ]
+    },
+    "156": {
+      "zh": "身体那种瘫软的感觉，完全没有力气了。",
+      "parts": [
+        {
+          "zh": "身体那种瘫软的感觉，",
+          "vi": "cái cảm giác cơ thể bủn rủn,"
+        },
+        {
+          "zh": "完全没有力气了。",
+          "vi": "không còn chút sức lực nào."
+        }
+      ]
+    },
+    "157": {
+      "zh": "就那么起码发呆发了有一分钟吧，我觉得还是不能放弃，再怎么着把后面的。",
+      "parts": [
+        {
+          "zh": "就那么起码发呆发了有一分钟吧，",
+          "vi": "Cứ thế ngồi thừ ra ít nhất cũng một phút,"
+        },
+        {
+          "zh": "我觉得还是不能放弃，",
+          "vi": "tôi thấy vẫn không thể bỏ cuộc,"
+        },
+        {
+          "zh": "再怎么着把后面的。",
+          "vi": "dù thế nào thì phần phía sau…"
+        }
+      ]
+    },
+    "158": {
+      "zh": "不管有多差，也把后面的题也一起完成了吧。",
+      "parts": [
+        {
+          "zh": "不管有多差，",
+          "vi": "dù có tệ đến đâu,"
+        },
+        {
+          "zh": "也把后面的题也一起完成了吧。",
+          "vi": "cũng phải làm nốt mấy câu phía sau."
+        }
+      ]
+    },
+    "159": {
+      "zh": "后面的十多分钟就一直在看那种可以一眼就可以写出答案的，一一直在写，",
+      "parts": [
+        {
+          "zh": "后面的十多分钟就一直在看那种",
+          "vi": "Hơn mười phút sau đó tôi cứ tìm những câu"
+        },
+        {
+          "zh": "可以一眼就可以写出答案的，",
+          "vi": "nhìn một cái là viết ra được đáp án,"
+        },
+        {
+          "zh": "一一直在写，",
+          "vi": "cứ… cứ viết mãi,"
+        }
+      ]
+    },
+    "160": {
+      "zh": "因为后面还有很多的化学大题，还有生物大题，我一个都没动，",
+      "parts": [
+        {
+          "zh": "因为后面还有很多的化学大题，",
+          "vi": "vì phía sau còn nhiều câu lớn môn Hóa,"
+        },
+        {
+          "zh": "还有生物大题，我一个都没动，",
+          "vi": "còn câu lớn môn Sinh, tôi chưa đụng câu nào,"
+        }
+      ]
+    },
+    "161": {
+      "zh": "所以我把那些不需要怎么思考、不需要怎么计算的空。",
+      "parts": [
+        {
+          "zh": "所以我把那些不需要怎么思考、",
+          "vi": "nên những chỗ trống không cần suy nghĩ mấy,"
+        },
+        {
+          "zh": "不需要怎么计算的空。",
+          "vi": "không cần tính toán mấy."
+        }
+      ]
+    },
+    "162": {
+      "zh": "能填的都填上，不能填的蒙。",
+      "vi": "Điền được thì điền, không điền được thì đoán bừa."
+    },
+    "163": {
+      "zh": "最后十多分钟也就这么就过来了。",
+      "vi": "Hơn mười phút cuối cứ thế trôi qua."
+    },
+    "164": {
+      "zh": "当时考完以后，整个人是崩溃的那种状态。",
+      "parts": [
+        {
+          "zh": "当时考完以后，",
+          "vi": "Lúc thi xong,"
+        },
+        {
+          "zh": "整个人是崩溃的那种状态。",
+          "vi": "cả người trong trạng thái suy sụp."
+        }
+      ]
+    },
+    "165": {
+      "zh": "呃，我觉得，我觉得这就是可能这就是命吧。",
+      "parts": [
+        {
+          "zh": "呃，我觉得，我觉得",
+          "vi": "Ờ, tôi thấy, tôi thấy"
+        },
+        {
+          "zh": "这就是可能这就是命吧。",
+          "vi": "chắc đây là số mệnh."
+        }
+      ]
+    },
+    "166": {
+      "zh": "呃，注定我考不上一个好学校。",
+      "vi": "Ờ, số tôi định sẵn không đỗ được trường tốt."
+    },
+    "167": {
+      "zh": "因为我小时候是在广州长大的，然后我也比较喜欢骑自行车。",
+      "parts": [
+        {
+          "zh": "因为我小时候是在广州长大的，",
+          "vi": "Vì hồi nhỏ tôi lớn lên ở Quảng Châu,"
+        },
+        {
+          "zh": "然后我也比较喜欢骑自行车。",
+          "vi": "mà tôi cũng khá thích đạp xe."
+        }
+      ]
+    },
+    "168": {
+      "zh": "我在成都嘛，所以第二次高考结束，我就骑着我的自行车，我一个人，呃，算是比较疯狂了。",
+      "parts": [
+        {
+          "zh": "我在成都嘛，所以第二次高考结束，",
+          "vi": "Tôi ở Thành Đô mà, nên thi xong lần thứ hai,"
+        },
+        {
+          "zh": "我就骑着我的自行车，我一个人，",
+          "vi": "tôi đạp chiếc xe của mình, một mình,"
+        },
+        {
+          "zh": "呃，算是比较疯狂了。",
+          "vi": "ờ, cũng khá điên rồ."
+        }
+      ]
+    },
+    "169": {
+      "zh": "我。",
+      "vi": "Tôi."
+    },
+    "170": {
+      "zh": "我一个人骑着自行车，然后就到广州去了，去找我以前的同学。",
+      "parts": [
+        {
+          "zh": "我一个人骑着自行车，",
+          "vi": "Tôi một mình đạp xe,"
+        },
+        {
+          "zh": "然后就到广州去了，",
+          "vi": "đi tới Quảng Châu,"
+        },
+        {
+          "zh": "去找我以前的同学。",
+          "vi": "tìm bạn học cũ."
+        }
+      ]
+    },
+    "171": {
+      "zh": "六月二十三号是高考查成绩的日子，那天我在看大爱音乐节。",
+      "parts": [
+        {
+          "zh": "六月二十三号是高考查成绩的日子，",
+          "vi": "Ngày 23 tháng 6 là ngày tra điểm thi đại học,"
+        },
+        {
+          "zh": "那天我在看大爱音乐节。",
+          "vi": "hôm đó tôi đang xem lễ hội âm nhạc Đại Ái."
+        }
+      ]
+    },
+    "172": {
+      "zh": "我刚好是二零一二年，正好是那一年在成都呃举办的那一次大爱音乐节。",
+      "parts": [
+        {
+          "zh": "我刚好是二零一二年，",
+          "vi": "Tôi thi đúng năm 2012,"
+        },
+        {
+          "zh": "正好是那一年在成都呃举办的",
+          "vi": "đúng năm đó, ở Thành Đô, ờ, tổ chức"
+        },
+        {
+          "zh": "那一次大爱音乐节。",
+          "vi": "lễ hội âm nhạc Đại Ái lần ấy."
+        }
+      ]
+    },
+    "173": {
+      "zh": "关于那个音乐节的故事有很多，总之他们欠了很多钱。",
+      "parts": [
+        {
+          "zh": "关于那个音乐节的故事有很多，",
+          "vi": "Chuyện về lễ hội đó thì nhiều lắm,"
+        },
+        {
+          "zh": "总之他们欠了很多钱。",
+          "vi": "tóm lại là họ nợ rất nhiều tiền."
+        }
+      ]
+    },
+    "174": {
+      "zh": "那那场音乐节这种超级豪华，音响超级好。规模超级大，然后亏的超级多。",
+      "parts": [
+        {
+          "zh": "那那场音乐节这种超级豪华，",
+          "vi": "Lễ hội đó… lễ hội đó siêu hoành tráng,"
+        },
+        {
+          "zh": "音响超级好。规模超级大，",
+          "vi": "âm thanh siêu đỉnh, quy mô siêu lớn,"
+        },
+        {
+          "zh": "然后亏的超级多。",
+          "vi": "và lỗ cũng siêu nhiều."
+        }
+      ]
+    },
+    "176": {
+      "zh": "我们刚高考完嘛，六月二十几号，我和我的几个朋友们一起在那个地方扎了四天的帐篷，",
+      "parts": [
+        {
+          "zh": "我们刚高考完嘛，六月二十几号，",
+          "vi": "Chúng tôi vừa thi xong mà, khoảng 20 mấy tháng 6,"
+        },
+        {
+          "zh": "我和我的几个朋友们一起",
+          "vi": "tôi với mấy người bạn cùng nhau"
+        },
+        {
+          "zh": "在那个地方扎了四天的帐篷，",
+          "vi": "dựng lều ở đó bốn ngày,"
+        }
+      ]
+    },
+    "177": {
+      "zh": "然后就连续的看了四天的音乐节，特别爽，特别爽。",
+      "parts": [
+        {
+          "zh": "然后就连续的看了四天的音乐节，",
+          "vi": "xem lễ hội liền bốn ngày,"
+        },
+        {
+          "zh": "特别爽，特别爽。",
+          "vi": "đã lắm, đã lắm."
+        }
+      ]
+    },
+    "178": {
+      "zh": "基本国内的摇滚圈的牛逼的乐队都来了，然后那个流星舞台最大的那个舞台。",
+      "parts": [
+        {
+          "zh": "基本国内的摇滚圈的",
+          "vi": "Gần như các ban nhạc"
+        },
+        {
+          "zh": "牛逼的乐队都来了，",
+          "vi": "đỉnh nhất giới rock trong nước đều đến,"
+        },
+        {
+          "zh": "然后那个流星舞台最大的那个舞台。",
+          "vi": "rồi sân khấu Lưu Tinh, sân khấu lớn nhất ấy."
+        }
+      ]
+    },
+    "179": {
+      "zh": "什么范晓萱啊、罗大佑啊、张震岳啊，什么就是能演现场的大咖都来了，特别难忘的一个音乐节。",
+      "parts": [
+        {
+          "zh": "什么范晓萱啊、罗大佑啊、张震岳啊，",
+          "vi": "Nào là Phạm Hiểu Huyên, La Đại Hựu, Trương Chấn Nhạc,"
+        },
+        {
+          "zh": "什么就是能演现场的大咖都来了，",
+          "vi": "các ngôi sao lớn diễn live được đều đến cả,"
+        },
+        {
+          "zh": "特别难忘的一个音乐节。",
+          "vi": "một lễ hội cực kỳ khó quên."
+        }
+      ]
+    },
+    "180": {
+      "zh": "我记得六月二十三号的那天晚上，我们是刚刚看完了一场特别嗨的演出，我具体忘了是谁了，",
+      "parts": [
+        {
+          "zh": "我记得六月二十三号的那天晚上，",
+          "vi": "Tôi nhớ tối hôm 23 tháng 6,"
+        },
+        {
+          "zh": "我们是刚刚看完了",
+          "vi": "chúng tôi vừa xem xong"
+        },
+        {
+          "zh": "一场特别嗨的演出，",
+          "vi": "một buổi diễn cực sung,"
+        },
+        {
+          "zh": "我具体忘了是谁了，",
+          "vi": "cụ thể là ai thì tôi quên rồi,"
+        }
+      ]
+    },
+    "181": {
+      "zh": "好像是山羊皮吧。",
+      "vi": "hình như là Suede (山羊皮)."
+    },
+    "182": {
+      "zh": "我们几个看演出是属于那种特别疯的，你知道那种露天的音乐节吗？",
+      "parts": [
+        {
+          "zh": "我们几个看演出",
+          "vi": "Mấy đứa chúng tôi đi xem diễn"
+        },
+        {
+          "zh": "是属于那种特别疯的，",
+          "vi": "thuộc loại cực kỳ điên,"
+        },
+        {
+          "zh": "你知道那种露天的音乐节吗？",
+          "vi": "bạn biết kiểu lễ hội âm nhạc ngoài trời chứ?"
+        }
+      ]
+    },
+    "183": {
+      "zh": "就分为两种人，一种人是站得远远的，然后看着那个舞台比较小心心的那种；",
+      "parts": [
+        {
+          "zh": "就分为两种人，一种人是站得远远的，",
+          "vi": "Chia làm hai loại người, một loại đứng thật xa,"
+        },
+        {
+          "zh": "然后看着那个舞台",
+          "vi": "nhìn sân khấu"
+        },
+        {
+          "zh": "比较小心心的那种；",
+          "vi": "kiểu khá rụt rè;"
+        }
+      ]
+    },
+    "184": {
+      "zh": "然后还有一种是冲到最前面去，然后各种跟着跳啊，各种造。",
+      "parts": [
+        {
+          "zh": "然后还有一种是冲到最前面去，",
+          "vi": "còn một loại là xông lên tận hàng đầu,"
+        },
+        {
+          "zh": "然后各种跟着跳啊，各种造。",
+          "vi": "nhảy theo đủ kiểu, quậy đủ kiểu."
+        }
+      ]
+    },
+    "185": {
+      "zh": "然后我们就是属于那种。",
+      "vi": "Và chúng tôi thuộc loại đó."
+    },
+    "186": {
+      "zh": "当时就是夏天特别热，我们看完了出来，全身就包括内裤都湿完了。",
+      "parts": [
+        {
+          "zh": "当时就是夏天特别热，",
+          "vi": "Lúc đó mùa hè nóng kinh khủng,"
+        },
+        {
+          "zh": "我们看完了出来，",
+          "vi": "chúng tôi xem xong đi ra,"
+        },
+        {
+          "zh": "全身就包括内裤都湿完了。",
+          "vi": "khắp người kể cả quần lót đều ướt sũng."
+        }
+      ]
+    },
+    "187": {
+      "zh": "就是我我非常确定，我们四一二三四，我们四个人。",
+      "parts": [
+        {
+          "zh": "就是我我非常确定，",
+          "vi": "Tôi… tôi rất chắc chắn,"
+        },
+        {
+          "zh": "我们四一二三四，我们四个人。",
+          "vi": "bốn đứa, một hai ba bốn, bốn đứa chúng tôi"
+        }
+      ]
+    },
+    "188": {
+      "zh": "绝对是从头到脚到内裤都湿完了，就是也也不知道是那个旁边的歌迷洒的水啊，",
+      "parts": [
+        {
+          "zh": "绝对是从头到脚到内裤都湿完了，",
+          "vi": "chắc chắn là từ đầu đến chân tới cả quần lót đều ướt hết,"
+        },
+        {
+          "zh": "就是也也不知道",
+          "vi": "cũng… cũng không biết"
+        },
+        {
+          "zh": "是那个旁边的歌迷洒的水啊，",
+          "vi": "là nước fan bên cạnh vẩy vào,"
+        }
+      ]
+    },
+    "189": {
+      "zh": "还是我们的汗，反正是各种。",
+      "vi": "hay mồ hôi của chúng tôi, nói chung là đủ thứ."
+    },
+    "190": {
+      "zh": "然后还有酒什么之类的，然后我们当时也都喝了酒啊，特别兴奋。",
+      "parts": [
+        {
+          "zh": "然后还有酒什么之类的，然后",
+          "vi": "Rồi còn có rượu các thứ, rồi"
+        },
+        {
+          "zh": "我们当时也都喝了酒啊，特别兴奋。",
+          "vi": "lúc đó chúng tôi cũng đều uống rượu, phấn khích cực."
+        }
+      ]
+    },
+    "191": {
+      "zh": "然后醉醺醺的四个人音乐节散场了，走在那个回营地的那个路上，特别嗨，特别嗨，真的特别嗨。",
+      "parts": [
+        {
+          "zh": "然后醉醺醺的四个人音乐节散场了，",
+          "vi": "Rồi bốn đứa say khướt, lễ hội tan,"
+        },
+        {
+          "zh": "走在那个回营地的那个路上，",
+          "vi": "đi trên đường về khu cắm trại,"
+        },
+        {
+          "zh": "特别嗨，特别嗨，真的特别嗨。",
+          "vi": "cực sung, cực sung, thật sự cực sung."
+        }
+      ]
+    },
+    "192": {
+      "zh": "然后我们四个也非常高兴。",
+      "vi": "Bốn đứa chúng tôi cũng rất vui."
+    },
+    "193": {
+      "zh": "就走在路上，就突然一个人的手机响了，然后紧接着第二个人手机也响，",
+      "parts": [
+        {
+          "zh": "就走在路上，",
+          "vi": "Đang đi trên đường,"
+        },
+        {
+          "zh": "就突然一个人的手机响了，",
+          "vi": "đột nhiên điện thoại một đứa reo,"
+        },
+        {
+          "zh": "然后紧接着第二个人手机也响，",
+          "vi": "ngay sau đó điện thoại đứa thứ hai cũng reo,"
+        }
+      ]
+    },
+    "194": {
+      "zh": "就是间隔可能就不超过两秒钟。",
+      "vi": "cách nhau có lẽ chưa tới hai giây."
+    },
+    "195": {
+      "zh": "十秒钟之后，我们所有人的手机都响。",
+      "vi": "Mười giây sau, điện thoại của tất cả chúng tôi đều reo."
+    },
+    "196": {
+      "zh": "那天是高考查成绩的日子，不是发来的短信，是爸妈给我们打的电话，因为他们已经帮我们查好了。",
+      "parts": [
+        {
+          "zh": "那天是高考查成绩的日子，",
+          "vi": "Hôm đó là ngày tra điểm thi đại học,"
+        },
+        {
+          "zh": "不是发来的短信，",
+          "vi": "không phải tin nhắn gửi đến,"
+        },
+        {
+          "zh": "是爸妈给我们打的电话，",
+          "vi": "mà là bố mẹ gọi điện cho chúng tôi,"
+        },
+        {
+          "zh": "因为他们已经帮我们查好了。",
+          "vi": "vì họ đã tra điểm giúp chúng tôi rồi."
+        }
+      ]
+    },
+    "197": {
+      "zh": "每个人都是因为全身湿透了嘛。",
+      "vi": "Vì ai cũng ướt sũng cả người mà."
+    },
+    "198": {
+      "zh": "每个人都是光着膀子，然后把那个T恤搭在肩上，然后从兜里摸出了手机，就开始讲电话。",
+      "parts": [
+        {
+          "zh": "每个人都是光着膀子，",
+          "vi": "Ai cũng cởi trần,"
+        },
+        {
+          "zh": "然后把那个T恤搭在肩上，",
+          "vi": "vắt cái áo phông lên vai,"
+        },
+        {
+          "zh": "然后从兜里摸出了手机，",
+          "vi": "rồi móc điện thoại từ trong túi ra,"
+        },
+        {
+          "zh": "就开始讲电话。",
+          "vi": "bắt đầu nghe điện thoại."
+        }
+      ]
+    },
+    "199": {
+      "zh": "那个那个电话有一个朋友电话打的时间特别短，有一个朋友打的电话时间特别长，",
+      "parts": [
+        {
+          "zh": "那个那个电话有一个朋友",
+          "vi": "Cái… có một người bạn"
+        },
+        {
+          "zh": "电话打的时间特别短，",
+          "vi": "nói điện thoại rất ngắn,"
+        },
+        {
+          "zh": "有一个朋友打的电话时间特别长，",
+          "vi": "có một người bạn nói rất lâu,"
+        }
+      ]
+    },
+    "200": {
+      "zh": "然后还有一个哥们儿他那个考的他不算好，然后但是他好像也是意料之中，就哎没事没事。",
+      "parts": [
+        {
+          "zh": "然后还有一个哥们儿",
+          "vi": "rồi còn một ông bạn"
+        },
+        {
+          "zh": "他那个考的他不算好，",
+          "vi": "thi không được tốt lắm,"
+        },
+        {
+          "zh": "然后但是他好像也是意料之中，",
+          "vi": "nhưng hình như cũng trong dự liệu của cậu ấy,"
+        },
+        {
+          "zh": "就哎没事没事。",
+          "vi": "kiểu \"ôi, không sao, không sao\"."
+        }
+      ]
+    },
+    "201": {
+      "zh": "哎，我们喝酒。",
+      "vi": "\"Nào, uống rượu đi.\""
+    },
+    "202": {
+      "zh": "我可能是那里面就相对最淡定的，因为我高考之前那个考了那个自主招生嘛，",
+      "parts": [
+        {
+          "zh": "我可能是那里面就相对最淡定的，",
+          "vi": "Tôi có lẽ là người bình thản nhất trong đám,"
+        },
+        {
+          "zh": "因为我高考之前",
+          "vi": "vì trước kỳ thi đại học"
+        },
+        {
+          "zh": "那个考了那个自主招生嘛，",
+          "vi": "tôi đã thi, ờ, kỳ tuyển sinh riêng của trường,"
+        }
+      ]
+    },
+    "203": {
+      "zh": "签了那个协议的，就是高考对我来讲压力没有他们那么大。",
+      "parts": [
+        {
+          "zh": "签了那个协议的，就是高考对我来讲",
+          "vi": "đã ký thỏa thuận rồi, tức là với tôi kỳ thi đại học"
+        },
+        {
+          "zh": "压力没有他们那么大。",
+          "vi": "không áp lực bằng họ."
+        }
+      ]
+    },
+    "204": {
+      "zh": "就在那之前，我我知道高考它是会决定你去哪个地方上大学嘛，然后你会读什么样的专业，",
+      "parts": [
+        {
+          "zh": "就在那之前，我我知道高考",
+          "vi": "Trước đó, tôi… tôi biết kỳ thi đại học"
+        },
+        {
+          "zh": "它是会决定你去哪个地方上大学嘛，",
+          "vi": "sẽ quyết định bạn học đại học ở đâu,"
+        },
+        {
+          "zh": "然后你会读什么样的专业，",
+          "vi": "rồi bạn học ngành gì,"
+        }
+      ]
+    },
+    "205": {
+      "zh": "就在这个概念上我是很清楚的。",
+      "vi": "về mặt khái niệm thì tôi biết rất rõ."
+    },
+    "206": {
+      "zh": "就当真的那一刻，就大家在在接电话，一下子高考除了一场考试之外，其他的意义，我所要面临的事情就一下子扑面而来，就在那个大家的反应里面。",
+      "parts": [
+        {
+          "zh": "就当真的那一刻，就大家在在接电话，",
+          "vi": "Nhưng đúng vào khoảnh khắc ấy, khi mọi người đang… đang nghe điện thoại,"
+        },
+        {
+          "zh": "一下子高考除了一场考试之外，",
+          "vi": "bỗng chốc, ngoài việc là một kỳ thi,"
+        },
+        {
+          "zh": "其他的意义，我所要面临的事情",
+          "vi": "những ý nghĩa khác của kỳ thi đại học, những gì tôi sắp phải đối mặt"
+        },
+        {
+          "zh": "就一下子扑面而来，",
+          "vi": "bỗng ập thẳng vào mặt,"
+        },
+        {
+          "zh": "就在那个大家的反应里面。",
+          "vi": "ngay trong phản ứng của mọi người."
+        }
+      ]
+    },
+    "208": {
+      "zh": "我意识到，虽然高中有种种的压力也好，各种各样的问题也好，但是它总归是你，",
+      "parts": [
+        {
+          "zh": "我意识到，虽然高中",
+          "vi": "Tôi nhận ra, dù cấp ba"
+        },
+        {
+          "zh": "有种种的压力也好，",
+          "vi": "có đủ thứ áp lực,"
+        },
+        {
+          "zh": "各种各样的问题也好，",
+          "vi": "đủ kiểu vấn đề,"
+        },
+        {
+          "zh": "但是它总归是你，",
+          "vi": "nhưng dù sao nó vẫn là…"
+        }
+      ]
+    },
+    "209": {
+      "zh": "它你总归是无忧无虑的。",
+      "vi": "nó… dù sao bạn vẫn vô lo vô nghĩ."
+    },
+    "210": {
+      "zh": "但是他那个时候，就在那一刻，我觉得他结束了。",
+      "parts": [
+        {
+          "zh": "但是他那个时候，",
+          "vi": "Nhưng lúc đó,"
+        },
+        {
+          "zh": "就在那一刻，我觉得他结束了。",
+          "vi": "ngay khoảnh khắc ấy, tôi thấy nó đã kết thúc."
+        }
+      ]
+    },
+    "211": {
+      "zh": "大家可能都有各自的路要走了。",
+      "vi": "Có lẽ mỗi người đều có con đường riêng phải đi rồi."
+    },
+    "212": {
+      "zh": "就我们之前看演出的特别投入嘛，然后也没有注意到园区里面的是什么其他的事情。",
+      "parts": [
+        {
+          "zh": "就我们之前看演出的特别投入嘛，",
+          "vi": "Trước đó chúng tôi xem diễn rất nhập tâm,"
+        },
+        {
+          "zh": "然后也没有注意到",
+          "vi": "nên cũng không để ý"
+        },
+        {
+          "zh": "园区里面的是什么其他的事情。",
+          "vi": "trong khu lễ hội có chuyện gì khác."
+        }
+      ]
+    },
+    "213": {
+      "zh": "那天晚上是最后一天吧，应该是。",
+      "vi": "Tối hôm đó là ngày cuối, chắc vậy."
+    },
+    "214": {
+      "zh": "其实就已经可以看得出来，那个园区里面的各种各样的工作人员就已经开始有点惴惴不安了。",
+      "parts": [
+        {
+          "zh": "其实就已经可以看得出来，",
+          "vi": "Thật ra đã có thể nhìn ra,"
+        },
+        {
+          "zh": "那个园区里面的",
+          "vi": "trong khu lễ hội,"
+        },
+        {
+          "zh": "各种各样的工作人员",
+          "vi": "đủ loại nhân viên"
+        },
+        {
+          "zh": "就已经开始有点惴惴不安了。",
+          "vi": "đã bắt đầu hơi thấp thỏm không yên."
+        }
+      ]
+    },
+    "215": {
+      "zh": "后来我们知道啊，就是因为那个包括连保安和卖水的最后的工资都没结清楚，",
+      "parts": [
+        {
+          "zh": "后来我们知道啊，",
+          "vi": "Về sau chúng tôi mới biết,"
+        },
+        {
+          "zh": "就是因为那个包括连保安和卖水的",
+          "vi": "là vì kể cả bảo vệ và người bán nước"
+        },
+        {
+          "zh": "最后的工资都没结清楚，",
+          "vi": "cuối cùng cũng chưa được trả đủ lương,"
+        }
+      ]
+    },
+    "216": {
+      "zh": "因为他们实在是没有钱，票房亏损的很严重，各种各样的问题，",
+      "parts": [
+        {
+          "zh": "因为他们实在是没有钱，",
+          "vi": "vì họ thật sự không có tiền,"
+        },
+        {
+          "zh": "票房亏损的很严重，各种各样的问题，",
+          "vi": "doanh thu vé lỗ nặng, đủ thứ vấn đề,"
+        }
+      ]
+    },
+    "217": {
+      "zh": "就总之就是秩序开始变得混乱了嘛。",
+      "vi": "tóm lại là trật tự bắt đầu trở nên hỗn loạn."
+    },
+    "218": {
+      "zh": "然后天上开始下起小雨了，整个一个就是就类似于一场狂欢到了尾声的感觉。",
+      "parts": [
+        {
+          "zh": "然后天上开始下起小雨了，",
+          "vi": "Rồi trời bắt đầu đổ mưa nhỏ,"
+        },
+        {
+          "zh": "整个一个就是就类似于",
+          "vi": "toàn bộ cứ như là"
+        },
+        {
+          "zh": "一场狂欢到了尾声的感觉。",
+          "vi": "cảm giác một cuộc vui cuồng nhiệt đã đến hồi kết."
+        }
+      ]
+    },
+    "219": {
+      "zh": "其其实回过头来想一想啊，总是我们聊天的时候总是会想说，",
+      "parts": [
+        {
+          "zh": "其其实回过头来想一想啊，",
+          "vi": "Thực… thực ra nghĩ lại thì,"
+        },
+        {
+          "zh": "总是我们聊天的时候总是会想说，",
+          "vi": "mỗi lần chúng tôi tán gẫu là lại nói,"
+        }
+      ]
+    },
+    "220": {
+      "zh": "哎中学的时候哎各种各样的破壁事儿啊挺多的，哎升学压力也挺大，",
+      "parts": [
+        {
+          "zh": "哎中学的时候",
+          "vi": "hồi trung học ấy"
+        },
+        {
+          "zh": "哎各种各样的破壁事儿啊挺多的，",
+          "vi": "đủ thứ chuyện vớ vẩn nhiều lắm,"
+        },
+        {
+          "zh": "哎升学压力也挺大，",
+          "vi": "áp lực thi cử cũng lớn,"
+        }
+      ]
+    },
+    "221": {
+      "zh": "但真的是可能人生最无忧无虑的最后一段时光。",
+      "parts": [
+        {
+          "zh": "但真的是可能",
+          "vi": "nhưng thật sự có lẽ"
+        },
+        {
+          "zh": "人生最无忧无虑的最后一段时光。",
+          "vi": "là quãng thời gian vô lo vô nghĩ cuối cùng của đời người."
+        }
+      ]
+    },
+    "222": {
+      "zh": "有时候回忆一下还是挺想回到那个时候的。",
+      "parts": [
+        {
+          "zh": "有时候回忆一下",
+          "vi": "Đôi khi nhớ lại"
+        },
+        {
+          "zh": "还是挺想回到那个时候的。",
+          "vi": "vẫn rất muốn quay về thời ấy."
+        }
+      ]
+    },
+    "223": {
+      "zh": "我叫柴金优，今年十九岁，我是二零一八年浙江省的考生，八天后我就要去高考了。",
+      "parts": [
+        {
+          "zh": "我叫柴金优，今年十九岁，",
+          "vi": "Em tên là Sài Kim Ưu, năm nay 19 tuổi,"
+        },
+        {
+          "zh": "我是二零一八年浙江省的考生，",
+          "vi": "em là thí sinh năm 2018 của tỉnh Chiết Giang,"
+        },
+        {
+          "zh": "八天后我就要去高考了。",
+          "vi": "8 ngày nữa em sẽ đi thi đại học."
+        }
+      ]
+    },
+    "224": {
+      "zh": "我叫兔玛丽丝，今年十八岁，我是二零一八届新疆省的考生，还有七天我就要去高考了。",
+      "parts": [
+        {
+          "zh": "我叫兔玛丽丝，今年十八岁，",
+          "vi": "Em tên là Tumaris, năm nay 18 tuổi,"
+        },
+        {
+          "zh": "我是二零一八届新疆省的考生，",
+          "vi": "em là thí sinh khóa 2018 của Tân Cương,"
+        },
+        {
+          "zh": "还有七天我就要去高考了。",
+          "vi": "còn 7 ngày nữa em sẽ đi thi đại học."
+        }
+      ]
+    },
+    "225": {
+      "zh": "嗯，高考没有一个特别理想的一个成绩，我也觉得没有遗憾，因为留下了很多美好的回忆。",
+      "parts": [
+        {
+          "zh": "嗯，",
+          "vi": "Ừm,"
+        },
+        {
+          "zh": "高考没有一个特别理想的一个成绩，",
+          "vi": "thi đại học mà không được điểm thật lý tưởng,"
+        },
+        {
+          "zh": "我也觉得没有遗憾，",
+          "vi": "em cũng thấy không tiếc nuối,"
+        },
+        {
+          "zh": "因为留下了很多美好的回忆。",
+          "vi": "vì đã để lại rất nhiều kỷ niệm đẹp."
+        }
+      ]
+    },
+    "226": {
+      "zh": "因为担心影响最后两位考生的成绩，所以我们选择在今天高考刚刚结束的时候发布这期节目。",
+      "parts": [
+        {
+          "zh": "因为担心影响最后两位考生的成绩，",
+          "vi": "Vì sợ ảnh hưởng đến kết quả của hai thí sinh cuối,"
+        },
+        {
+          "zh": "所以我们选择在今天",
+          "vi": "nên chúng tôi chọn hôm nay,"
+        },
+        {
+          "zh": "高考刚刚结束的时候发布这期节目。",
+          "vi": "lúc kỳ thi vừa kết thúc, để phát tập này."
+        }
+      ]
+    },
+    "227": {
+      "zh": "浙江的柴金优。和新疆的吐马利斯，祝你们取得好成绩，考上理想的大学。",
+      "parts": [
+        {
+          "zh": "浙江的柴金优。和新疆的吐马利斯，",
+          "vi": "Sài Kim Ưu ở Chiết Giang và Tumaris ở Tân Cương,"
+        },
+        {
+          "zh": "祝你们取得好成绩，考上理想的大学。",
+          "vi": "chúc hai bạn đạt kết quả tốt, đỗ vào trường đại học mơ ước."
+        }
+      ]
+    },
+    "229": {
+      "zh": "和父母最终达成和解的马内，在二零一零年参加高考，后来他考上了广东外语外贸大学，",
+      "parts": [
+        {
+          "zh": "和父母最终达成和解的马内，",
+          "vi": "Mã Nội, người cuối cùng đã làm hòa với bố mẹ,"
+        },
+        {
+          "zh": "在二零一零年参加高考，",
+          "vi": "thi đại học năm 2010,"
+        },
+        {
+          "zh": "后来他考上了广东外语外贸大学，",
+          "vi": "sau đó cô ấy đỗ Đại học Ngoại ngữ Ngoại thương Quảng Đông,"
+        }
+      ]
+    },
+    "230": {
+      "zh": "现在他准备辞职去留学。",
+      "vi": "giờ cô ấy định nghỉ việc đi du học."
+    },
+    "231": {
+      "zh": "被女同学扇了一巴掌的丁小让，在两千年参加高考，考上了西安电子科技大学，",
+      "parts": [
+        {
+          "zh": "被女同学扇了一巴掌的丁小让，",
+          "vi": "Đinh Tiểu Nhượng, người bị bạn nữ cùng lớp tát một cái,"
+        },
+        {
+          "zh": "在两千年参加高考，",
+          "vi": "thi đại học năm 2000,"
+        },
+        {
+          "zh": "考上了西安电子科技大学，",
+          "vi": "đỗ Đại học Khoa học Kỹ thuật Điện tử Tây An,"
+        }
+      ]
+    },
+    "232": {
+      "zh": "现在在企业里负责信息化建设的工作。",
+      "parts": [
+        {
+          "zh": "现在在企业里",
+          "vi": "giờ làm ở doanh nghiệp,"
+        },
+        {
+          "zh": "负责信息化建设的工作。",
+          "vi": "phụ trách việc xây dựng tin học hóa."
+        }
+      ]
+    },
+    "233": {
+      "zh": "在上海高考的夏老师。",
+      "vi": "Thầy Hạ, người thi đại học ở Thượng Hải,"
+    },
+    "234": {
+      "zh": "二零一零年参加了高考，他考上了天津科技大学，现在在一家互联网公司负责运营工作。",
+      "parts": [
+        {
+          "zh": "二零一零年参加了高考，",
+          "vi": "thi đại học năm 2010,"
+        },
+        {
+          "zh": "他考上了天津科技大学，",
+          "vi": "anh ấy đỗ Đại học Khoa học Kỹ thuật Thiên Tân,"
+        },
+        {
+          "zh": "现在在一家互联网公司",
+          "vi": "giờ ở một công ty Internet"
+        },
+        {
+          "zh": "负责运营工作。",
+          "vi": "phụ trách mảng vận hành."
+        }
+      ]
+    },
+    "235": {
+      "zh": "考场上看错了时间的君老是二零一一年到二零一三年参加了三次高考，",
+      "parts": [
+        {
+          "zh": "考场上看错了时间的君老",
+          "vi": "Quân Lão, người nhìn nhầm giờ trong phòng thi,"
+        },
+        {
+          "zh": "是二零一一年到二零一三年",
+          "vi": "từ năm 2011 đến 2013"
+        },
+        {
+          "zh": "参加了三次高考，",
+          "vi": "đã thi đại học ba lần,"
+        }
+      ]
+    },
+    "236": {
+      "zh": "后来他考上了电子科技大学成都学院，现在是一位程序员。",
+      "parts": [
+        {
+          "zh": "后来他考上了",
+          "vi": "sau đó anh ấy đỗ"
+        },
+        {
+          "zh": "电子科技大学成都学院，",
+          "vi": "Học viện Thành Đô của Đại học Khoa học Kỹ thuật Điện tử,"
+        },
+        {
+          "zh": "现在是一位程序员。",
+          "vi": "giờ là một lập trình viên."
+        }
+      ]
+    },
+    "237": {
+      "zh": "考试后和同学去享受音乐节的彭寒，在二零一二年参加高考，后来考上了中国传媒大学。",
+      "parts": [
+        {
+          "zh": "考试后和同学去享受音乐节的彭寒，",
+          "vi": "Bành Hàn, người thi xong đi hưởng lễ hội âm nhạc cùng bạn bè,"
+        },
+        {
+          "zh": "在二零一二年参加高考，",
+          "vi": "thi đại học năm 2012,"
+        },
+        {
+          "zh": "后来考上了中国传媒大学。",
+          "vi": "sau đó đỗ Đại học Truyền thông Trung Quốc."
+        }
+      ]
+    },
+    "238": {
+      "zh": "现在是故事FM的声音设计，谢谢你们的故事。",
+      "parts": [
+        {
+          "zh": "现在是故事FM的声音设计，",
+          "vi": "Giờ anh ấy là người thiết kế âm thanh của Cố Sự FM,"
+        },
+        {
+          "zh": "谢谢你们的故事。",
+          "vi": "cảm ơn câu chuyện của các bạn."
+        }
+      ]
+    },
+    "239": {
+      "zh": "你现在正在收听的是亲历者自述的声音节目《故事FM》，",
+      "parts": [
+        {
+          "zh": "你现在正在收听的是",
+          "vi": "Bạn đang nghe"
+        },
+        {
+          "zh": "亲历者自述的声音节目《故事FM》，",
+          "vi": "chương trình âm thanh do người trong cuộc tự kể, Cố Sự FM,"
+        }
+      ]
+    },
+    "240": {
+      "zh": "我是主播爱哲。",
+      "vi": "tôi là người dẫn chương trình Ái Triết."
+    },
+    "241": {
+      "zh": "本期节目由彭寒、刘军、梁珂制作，声音设计彭寒。",
+      "parts": [
+        {
+          "zh": "本期节目由彭寒、刘军、梁珂制作，",
+          "vi": "Tập này do Bành Hàn, Lưu Quân, Lương Kha sản xuất,"
+        },
+        {
+          "zh": "声音设计彭寒。",
+          "vi": "thiết kế âm thanh: Bành Hàn."
+        }
+      ]
+    },
+    "242": {
+      "zh": "你还记得自己的高考吗？",
+      "vi": "Bạn còn nhớ kỳ thi đại học của mình không?"
+    },
+    "243": {
+      "zh": "有哪些有意思的事情？",
+      "vi": "Có những chuyện gì thú vị?"
+    },
+    "244": {
+      "zh": "欢迎在留言里和我们分享。",
+      "vi": "Mời bạn chia sẻ với chúng tôi trong phần bình luận."
+    },
+    "245": {
+      "zh": "感谢你的收听，咱们下期再见。",
+      "vi": "Cảm ơn bạn đã lắng nghe, hẹn gặp lại ở tập sau."
+    },
+    "246": {
+      "zh": "未来有很多不曾想过，希望和失望不仅在中。",
+      "parts": [
+        {
+          "zh": "未来有很多不曾想过，",
+          "vi": "Tương lai có nhiều điều chưa từng nghĩ tới,"
+        },
+        {
+          "zh": "希望和失望不仅在中。",
+          "vi": "hy vọng và thất vọng đều ở trong đó."
+        }
+      ]
+    },
+    "247": {
+      "zh": "终于得在每个正在发生的时。",
+      "vi": "Cuối cùng, ở mỗi lúc đang diễn ra."
+    },
+    "248": {
+      "zh": "在每个不经意的瞬间，才发现我们已走远。",
+      "parts": [
+        {
+          "zh": "在每个不经意的瞬间，",
+          "vi": "Trong mỗi khoảnh khắc vô tình,"
+        },
+        {
+          "zh": "才发现我们已走远。",
+          "vi": "mới nhận ra ta đã đi xa."
+        }
+      ]
+    },
+    "249": {
+      "zh": "去向每个人。",
+      "vi": "Đi về phía mỗi người."
+    },
+    "250": {
+      "zh": "各自的终点，未来是一个既定结果。",
+      "vi": "Điểm cuối của riêng mỗi người, tương lai là một kết quả đã định."
+    },
+    "251": {
+      "zh": "相遇或错过，发展我。",
+      "vi": "Gặp gỡ hay lỡ nhau…"
+    },
+    "252": {
+      "zh": "进与退，在这个川流不息的世界里面，再没有尽头的瞬间。",
+      "parts": [
+        {
+          "zh": "进与退，在这个川流不息的世界里面，",
+          "vi": "Tiến và lùi, trong thế giới không ngừng chảy trôi này,"
+        },
+        {
+          "zh": "再没有尽头的瞬间。",
+          "vi": "lại là khoảnh khắc không có tận cùng."
+        }
+      ]
+    }
+  }
+}
