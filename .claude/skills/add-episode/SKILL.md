@@ -307,13 +307,31 @@ stops before sentence `n`, so a loop of it doesn't replay half a minute of credi
 `apply` must print every chapter with none over 2:00 and exit 0. `node tools/chapters.mjs build all`
 rechecks every episode; a later fix or join that moves a chapter's first sentence is named there.
 
-## 8. Stage, summarize, confirm — don't commit or push on your own
+## 8. Put it in a topic
+
+The user studies one topic at a time — several episodes on one subject in a row, so its words come back
+(the list page has a chip per topic, **▶ Học tiếp** and **Nghe lại chủ đề**). `data/topics.json` lists
+each topic's episodes in the order to study them, and may already name this one as a topic's next: run
+`node bin/storyfm.js topics`, which rebuilds the index's topics and ends with the episodes in none.
+
+- **Already listed** (it was in the topic's "chưa thêm"): nothing to do — it took its place when built.
+- **Not in any topic**: you have read the whole episode, so put it where its *vocabulary* belongs, not
+  its setting. A topic is tight (高考 and university — not everything set in a school: E081, a course in
+  Pyongyang, shares almost no words with the 高考 episodes). Insert it in the topic's order: Convo
+  Chinese before 故事FM and the other shows (slower, made for learners), a series in its own order.
+  An episode can be in two topics when it is really about both; most are in one.
+- **No topic fits**: leave it out, or propose a new tight topic to the user (`id` a short ascii slug,
+  `vi`, `zh`, one-line `about`) — don't invent a broad one to have somewhere to put it.
+
+Then run `node bin/storyfm.js topics` again; it stops on an id that does not exist or is listed twice.
+
+## 9. Stage, summarize, confirm — don't commit or push on your own
 
 These steps together touch: `data/raw/<id>.json`, `docs/data/<id>.json`, `docs/data/index.json`,
 `data/onsets/<id>.json`, `data/corrections/<id>.json`, `data/cuts/<id>.json`, the sidecars `docs/data/<id>.tok.json`,
 `docs/data/<id>.gloss.json` and `docs/data/<id>.vocab.json`, `tools/gloss-vi.json`, `tools/gloss-checked.json`, and the translation `data/translations/<id>.json`
 with what the page loads of it, `docs/data/<id>.vi.json`; the chapters `data/chapters/<id>.json` and
-`docs/data/<id>.chapters.json`; for a podcast episode also
+`docs/data/<id>.chapters.json`; `data/topics.json` if the episode went into a topic; for a podcast episode also
 `data/podcasts.json`, which records the hosted `m4a` (the file itself lives on the Worker, not in
 git). Note that `build_tokens.py` recounts word
 frequencies across every episode, so the other episodes' `.tok.json` files change too, and it
@@ -332,6 +350,7 @@ what changed, then give the user a short summary:
 - how many sentences were translated, the summary, and any spot where the ASR was too garbled to
   translate with certainty
 - how many chapters, their range of lengths, and the list of titles
+- the topic it went into and its place there (or that it is in none, and why)
 
 Committing is a visible, shared action (it goes into the user's git history), and pushing publishes
 it to GitHub Pages, so **do not commit or push without the user explicitly saying to.** Once they

@@ -16,82 +16,37 @@
     <a class="chip" href="listen.html" style="text-decoration:none" title="Phát lại các chương đã học">▶ Nghe lại</a>
     <a class="chip" href="stats.html" style="text-decoration:none" title="Giờ nghe, chương và từ mỗi ngày">Thống kê</a>
   </div>
-  <div id="list"></div>
-  <div id="podcasts"></div>
-  <h2 class="section" id="ui-heading" hidden>Giao diện app</h2>
-  <div id="ui-list"></div>
-  <h2 class="section" id="bili-heading" hidden>Bilibili</h2>
-  <div id="bili-list"></div>
+  <nav class="toolbar topics" id="topics" aria-label="Chủ đề" hidden></nav>
+
+  <section class="topic" id="topic" hidden>
+    <div class="topic-card">
+      <h2 class="topic-name"><span id="topic-name"></span> <span class="topic-zh" id="topic-zh" lang="zh-Hans"></span></h2>
+      <p class="topic-about" id="topic-about"></p>
+      <div id="topic-bar"></div>
+      <p class="topic-progress" id="topic-progress"></p>
+      <a class="topic-next" id="topic-next" href="#" hidden>
+        <span id="topic-next-label"></span>
+        <span class="topic-next-where" id="topic-next-where" lang="zh-Hans"></span>
+      </a>
+      <a class="chip" id="topic-listen" href="listen.html" title="Phát lại các chương đã học trong chủ đề này">▶ Nghe lại chủ đề</a>
+    </div>
+    <ol class="topic-list" id="topic-list"></ol>
+    <div class="topic-planned" id="topic-planned" hidden>
+      <h3 id="planned-heading"></h3>
+      <ul id="planned-list"></ul>
+    </div>
+  </section>
+
+  <div id="all">
+    <div id="list"></div>
+    <div id="podcasts"></div>
+    <h2 class="section" id="ui-heading" hidden>Giao diện app</h2>
+    <div id="ui-list"></div>
+    <h2 class="section" id="bili-heading" hidden>Bilibili</h2>
+    <div id="bili-list"></div>
+  </div>
 </div>
 
-<script type="module">
-  import { report, showHours } from './meter.js';
-  import { call, savedConnection } from './server.js';
-
-  const formatDuration = (seconds) =>
-    `${Math.floor(seconds / 60)}:${String(Math.round(seconds % 60)).padStart(2, '0')}`;
-
-  const list = document.getElementById('list');
-  const meta = document.getElementById('meta');
-
-  try {
-    const response = await fetch('data/index.json');
-    if (!response.ok) throw new Error(String(response.status));
-    const { episodes } = await response.json();
-
-    const videos = episodes.filter((episode) => episode.source === 'bilibili');
-    const stories = episodes.filter((episode) => !episode.source);
-    // Each other podcast gets its own heading, named after the show; its episodes need not repeat it.
-    const shows = Map.groupBy(episodes.filter((episode) => episode.source === 'podcast'), (episode) => episode.owner);
-    document.getElementById('podcasts').replaceChildren(...[...shows].flatMap(([show, items]) => {
-      const heading = document.createElement('h2');
-      heading.className = 'section';
-      heading.textContent = show;
-      return [heading, ...items.map((episode) => toLink({ ...episode, owner: undefined }))];
-    }));
-    // App interfaces read aloud: one heading for all of them, each naming its app.
-    const apps = episodes.filter((episode) => episode.source === 'ui');
-    document.getElementById('ui-heading').hidden = !apps.length;
-    document.getElementById('ui-list').replaceChildren(...apps.map(toLink));
-    meta.textContent = `${stories.length} tập đã có transcript`;
-    document.getElementById('bili-heading').hidden = !videos.length;
-    document.getElementById('bili-list').replaceChildren(...videos.map(toLink));
-    list.replaceChildren(...stories.map(toLink));
-  } catch {
-    meta.textContent = 'Chưa có tập nào. Chạy `storyfm add <mã tập>` rồi tải lại trang.';
-  }
-  showStudied();
-  showListening();
-
-  function toLink(episode) {
-    const link = document.createElement('a');
-    link.className = 'episode';
-    link.href = `player.html?ep=${encodeURIComponent(episode.id)}`;
-    link.innerHTML = '<div class="title"></div><div class="sub"></div>';
-    link.querySelector('.title').textContent = episode.title;
-    link.querySelector('.sub').textContent = [episode.owner, episode.pubDate, formatDuration(episode.duration)].filter(Boolean).join(' · ');
-    return link;
-  }
-
-  /** How many chapters of each episode were studied, from the server, under its title. */
-  async function showStudied() {
-    const connection = savedConnection();
-    if (!connection) return;
-    const { chapters } = await call(connection, '/studied').catch(() => ({ chapters: [] }));
-    const counts = Map.groupBy(chapters, (chapter) => chapter.ep);
-    for (const link of document.querySelectorAll('.episode')) {
-      const studied = counts.get(new URL(link.href).searchParams.get('ep'))?.length;
-      if (studied) link.querySelector('.sub').append(` · đã học ${studied} chương`);
-    }
-  }
-
-  /** Today's listening and the way to a thousand hours, sending first what a page left unsent. */
-  async function showListening() {
-    const connection = savedConnection();
-    if (!connection) return;
-    const days = await report(connection).catch(() => null);
-    if (days) showHours(document.getElementById('hours'), days);
-  }
-</script>
+<script type="module" src="home.js"></script>
 </body>
 </html>

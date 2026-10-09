@@ -3,7 +3,8 @@
 // listening. By default they play by their schedule (spacing.js): the ones due today first, each
 // episode's together and in story order, then the ones due soonest. "7 ngày" and "Tất cả" play each
 // episode whole instead, the one studied latest first. The list lives on the server (server/miner.py),
-// so a chapter studied on the laptop plays on the phone.
+// so a chapter studied on the laptop plays on the phone. Any of these can be kept to one episode, or to
+// one topic's (topics.js): a subject heard again chapter after chapter, its words coming back each time.
 //
 // Each chapter lists the words tapped in it, the lowest HSK level first, to read through before hearing
 // it again. Reading the list is not a tap: only a word tapped in the player says it was not caught.
@@ -22,8 +23,10 @@ import { showWords } from './wordlist.js';
 /** @typedef {import('./studied.js').Studied} Studied */
 /** @typedef {import('./progress.js').Heard} Heard */
 /** @typedef {import('./spacing.js').Tapped} Tapped */
-/** @typedef {{ due: boolean, days: number | null, ep: string, shuffle: boolean, times: number }} Settings
- *   `due` plays by the schedule; otherwise `days` filters by the day studied. */
+/** @typedef {import('./topics.js').Topic} Topic */
+/** @typedef {{ due: boolean, days: number | null, ep: string, topic: string, shuffle: boolean, times: number }} Settings
+ *   `due` plays by the schedule; otherwise `days` filters by the day studied. `ep` or `topic`, at most
+ *   one of them, keeps it to one episode or one topic's. */
 
 const RECENT_DAYS = 7;
 /** The filter, shuffle and repeats chosen last time, remembered in this browser. */
@@ -41,6 +44,8 @@ const audio = /** @type {HTMLAudioElement} */ ($('audio'));
 const list = $('playlist');
 const meta = $('meta');
 const episodeFilter = /** @type {HTMLSelectElement} */ ($('filter-episode'));
+/** The filter's value for a topic; an episode's is its id, which never starts this way. */
+const TOPIC_VALUE = 'topic:';
 
 /** @type {Studied[]} */
 let all = [];
@@ -56,7 +61,10 @@ let dueDays = new Map();
 /** Today as the server counts it: Anki's day, turning at 4:00. */
 let today = '';
 /** @type {Settings} */
-let settings = { due: true, days: RECENT_DAYS, ep: '', shuffle: false, times: 1 };
+let settings = { due: true, days: RECENT_DAYS, ep: '', topic: '', shuffle: false, times: 1 };
+/** Every topic, from the index. */
+/** @type {Topic[]} */
+let topics = [];
 /** The chapters as shown, in order: a tap on the list plays one of these. By the schedule, the due
  * ones come first and `sections` says where the rest begin; a shuffle keeps each part to itself. */
 /** @type {Studied[]} */
@@ -100,6 +108,15 @@ function applySpeed() {
   audio.playbackRate = rate;
 }
 
+/** A topic's "Nghe lại chủ đề" opens the page on it: it is kept to that topic, and stays so next time. */
+function openedOnTopic() {
+  const topic = new URLSearchParams(location.search).get('topic');
+  if (!topic) return;
+  settings = { ...settings, topic, ep: '' };
+  saveSettings();
+  history.replaceState(null, '', location.pathname);
+}
+
 // ---------- the list ----------
 
 /** Episode titles run to forty characters; the filter only has to tell them apart. */
@@ -114,6 +131,7 @@ async function load() {
   }
   const listened = call(connection, '/listened').catch(() => null);
   const taps = call(connection, '/tapped').catch(() => null);
+  const index = fetch('data/index.json').then((r) => r.json()).catch(() => null);
   try {
     ({ chapters: all, today } = await call(connection, '/studied'));
   } catch (error) {
@@ -125,36 +143,53 @@ async function load() {
   dueDays = new Map(all.map((s) => [s, schedule({
     studied: s.dates, heard: heardThrough(heard, s), tapped: tappedOf(tapped, s)?.days ?? [],
   }).due]));
+  topics = (await index)?.topics ?? [];
   const episodes = new Map(all.map((s) => [s.ep, s.episode]));
-  episodeFilter.append(...[...episodes].sort(([a], [b]) => a.localeCompare(b)).map(([ep, title]) => {
-    const option = document.createElement('option');
-    option.value = ep;
-    option.textContent = shorten(title || ep);
-    return option;
-  }));
+  const option = (/** @type {string} */ value, /** @type {string} */ text) => {
+    const element = document.createElement('option');
+    element.value = value;
+    element.textContent = text;
+    return element;
+  };
+  const group = (/** @type {string} */ label, /** @type {HTMLOptionElement[]} */ options) => {
+    const element = document.createElement('optgroup');
+    element.label = label;
+    element.append(...options);
+    return element;
+  };
+  episodeFilter.append(
+    ...(topics.length ? [group('Chủ đề', topics.map((t) => option(`${TOPIC_VALUE}${t.id}`, `${t.vi} · ${inTopic(t).length} đoạn`)))] : []),
+    group('Tập', [...episodes].sort(([a], [b]) => a.localeCompare(b)).map(([ep, title]) => option(ep, shorten(title || ep)))),
+  );
   if (!episodes.has(settings.ep)) settings.ep = '';
+  if (!topics.some((t) => t.id === settings.topic)) settings.topic = '';
   $('filters').hidden = false;
   $('play-options').hidden = false;
   render();
 }
 
 const NOTHING_STUDIED = 'Chưa có chương nào. Học xong một chương trong player thì bấm "✓ Học xong".';
+const NOTHING_IN_TOPIC = 'Chưa học chương nào trong chủ đề này. Học xong một chương của nó trong player thì bấm "✓ Học xong".';
+const inTopic = (/** @type {Topic} */ t) => all.filter((s) => t.episodes.includes(s.ep));
 const dueOf = (/** @type {Studied} */ s) => dueDays.get(s) ?? today;
 const minutesOf = (/** @type {Studied[]} */ chapters) => Math.round(chapters.reduce((sum, s) => sum + s.end - s.start, 0) / 60);
 const wordsOf = (/** @type {Studied} */ s) => tappedOf(tapped, s)?.words ?? [];
 
 function render() {
+  const topic = topics.find((t) => t.id === settings.topic);
+  const pool = topic ? inTopic(topic) : all;
+  const nothing = topic ? NOTHING_IN_TOPIC : NOTHING_STUDIED;
   if (settings.due) {
-    const { due, upcoming } = spacedPlaylist(all, { today, ep: settings.ep, dueOf });
+    const { due, upcoming } = spacedPlaylist(pool, { today, ep: settings.ep, dueOf });
     sections = [due, upcoming];
     meta.textContent = due.length ? `${due.length} đoạn đến hạn · ${minutesOf(due)} phút`
       : upcoming.length ? 'Hôm nay không còn đoạn nào đến hạn. Phát thì nghe trước những đoạn sắp đến hạn.'
-        : NOTHING_STUDIED;
+        : nothing;
   } else {
-    sections = [playlist(all, { today, days: settings.days, ep: settings.ep })];
+    sections = [playlist(pool, { today, days: settings.days, ep: settings.ep })];
     const [chapters] = sections;
     meta.textContent = chapters.length ? `${chapters.length} đoạn · ${minutesOf(chapters)} phút`
-      : all.length ? 'Không có đoạn nào trong khoảng này.' : NOTHING_STUDIED;
+      : pool.length ? 'Không có đoạn nào trong khoảng này.' : nothing;
   }
   shown = sections.flat();
 
@@ -178,7 +213,7 @@ function render() {
     chip.setAttribute('aria-pressed', String(Number(/** @type {HTMLElement} */ (chip).dataset.times) === settings.times));
   }
   $('shuffle').setAttribute('aria-pressed', String(settings.shuffle));
-  episodeFilter.value = settings.ep;
+  episodeFilter.value = settings.topic ? `${TOPIC_VALUE}${settings.topic}` : settings.ep;
   /** @type {HTMLButtonElement} */ ($('play-all')).disabled = !shown.length;
   markPlaying();
 }
@@ -379,7 +414,9 @@ for (const chip of document.querySelectorAll('[data-times]')) {
 }
 
 episodeFilter.addEventListener('change', () => {
-  settings.ep = episodeFilter.value;
+  const { value } = episodeFilter;
+  settings.topic = value.startsWith(TOPIC_VALUE) ? value.slice(TOPIC_VALUE.length) : '';
+  settings.ep = settings.topic ? '' : value;
   saveSettings();
   render();
 });
@@ -431,5 +468,6 @@ meterListening(audio, 'listen', {
   onReport: (days) => showHours($('hours'), days),
 });
 loadSettings();
+openedOnTopic();
 applyReadingSize();
 await load();

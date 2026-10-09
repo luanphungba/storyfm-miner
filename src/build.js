@@ -20,6 +20,7 @@ import { applyOnsets, spreadRuns } from './onsets.js';
 import { assignRoles, speakingTime, narratorShare } from './roles.js';
 import { buildSidecar } from './translations.js';
 import { buildChapters } from './chapters.js';
+import { indexTopics, loadTopics } from './topics.js';
 
 /** Below this share of cues ending on 。！？ the ASR barely punctuated and the cuts are guesses. */
 const POOR_PUNCTUATION = 0.5;
@@ -258,7 +259,8 @@ function report(id, cues) {
   console.log(`\nXem thử:  npm run serve  →  http://localhost:8080/player.html?ep=${id}`);
 }
 
-/** The index is derived from the feed, data/bilibili.json, data/podcasts.json and data/ui.json so titles and dates have exactly one source. */
+/** The index is derived from the feed, data/bilibili.json, data/podcasts.json and data/ui.json so titles and dates have exactly one source;
+ * its topics from data/topics.json. */
 export async function rebuildIndex() {
   const episodes = await loadEpisodes();
   const entries = episodes
@@ -267,7 +269,8 @@ export async function rebuildIndex() {
       id: episode.id, title: episode.title, pubDate: episode.pubDate, duration: episode.duration,
       ...('source' in episode && { source: episode.source, owner: episode.owner }),
     }));
+  const topics = indexTopics(await loadTopics(), episodes, new Set(entries.map((entry) => entry.id)));
 
-  await writeJson(paths.index, { updated: new Date().toISOString().slice(0, 10), episodes: entries });
+  await writeJson(paths.index, { updated: new Date().toISOString().slice(0, 10), episodes: entries, topics });
   return entries;
 }

@@ -73,6 +73,97 @@ h1 {
 .episode .title { font-size: 16px; line-height: 1.45; }
 .episode .sub { margin-top: 4px; color: var(--muted); font-size: 13px; }
 
+/* ---------- topics ---------- */
+
+.tag {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.chip-count { margin-left: 6px; opacity: .65; font-variant-numeric: tabular-nums; }
+
+/* One row on a phone, swiped sideways and running to the screen's edges, so the list stays in view.
+ * Doubled to outrank .toolbar, which wraps. */
+.toolbar.topics { flex-wrap: nowrap; overflow-x: auto; margin-inline: -16px; padding-inline: 16px; scroll-padding-inline: 16px; scrollbar-width: none; }
+.toolbar.topics::-webkit-scrollbar { display: none; }
+.topics .chip { flex: none; white-space: nowrap; }
+
+@media (min-width: 600px) {
+  .toolbar.topics { flex-wrap: wrap; overflow: visible; margin-inline: 0; padding-inline: 0; }
+}
+
+.topic-card {
+  margin: 0 0 16px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+.topic-name { margin: 0; font-size: 20px; line-height: 1.35; }
+.topic-zh { color: var(--muted); font-size: 15px; font-weight: 400; white-space: nowrap; }
+.topic-about { margin: 2px 0 12px; color: var(--muted); font-size: 14px; }
+.topic-progress { margin: 6px 0 12px; color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+
+.bar { height: 4px; border-radius: 2px; background: var(--line); overflow: hidden; }
+.bar > span { display: block; height: 100%; background: var(--done); }
+.episode .bar { margin-top: 8px; }
+
+/* The one thing to do on a topic: go on with it. */
+.topic-next {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.topic-next-where {
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  opacity: .9;
+}
+
+#topic-listen { display: inline-block; text-decoration: none; }
+
+.topic-list { margin: 0; padding: 0; list-style: none; }
+.topic-item { display: flex; gap: 10px; align-items: flex-start; }
+.topic-item .episode { flex: 1; min-width: 0; }
+.topic-item.is-next .episode { border-color: var(--accent); }
+
+.topic-n {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  margin-top: 15px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.topic-item.is-done .topic-n { border-color: var(--done); background: var(--done); color: #fff; }
+.topic-item.is-next .topic-n { border-color: var(--accent); color: var(--accent); }
+
+.topic-planned h3 { margin: 24px 0 8px; color: var(--muted); font-size: 14px; font-weight: 600; }
+.topic-planned ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 13px; }
+
 /* ---------- transcript ---------- */
 
 .toolbar {
@@ -370,7 +461,7 @@ h1 {
 .is-studied .ch-n::before { content: "✓"; }
 #chapter-done { height: 30px; }
 #chapter-done[aria-pressed="true"] { border-color: var(--done); background: none; color: var(--done); }
-#open-listen:not([hidden]) { display: inline-flex; align-items: center; height: 30px; text-decoration: none; }
+#open-listen:not([hidden]), #next-episode:not([hidden]) { display: inline-flex; align-items: center; height: 30px; text-decoration: none; }
 
 /* ---------- player ---------- */
 
@@ -460,7 +551,7 @@ h1 {
 
 /* Fingers need a taller target, and under 16px iOS zooms the page when a time field is focused. */
 @media (pointer: coarse) {
-  .time-field, #loop-toggle, #loop-clear, #chapter-done, #open-listen:not([hidden]), .player-toggles .chip, .chapterbar .chip { height: 38px; }
+  .time-field, #loop-toggle, #loop-clear, #chapter-done, #open-listen:not([hidden]), #next-episode:not([hidden]), .player-toggles .chip, .chapterbar .chip { height: 38px; }
   .time-input { width: 76px; font-size: 16px; }
   .time-now { padding: 0 10px; font-size: 13px; }
 }

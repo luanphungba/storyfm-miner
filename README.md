@@ -44,7 +44,7 @@ node tools/ui.mjs check UI1          # whisper listens to every voiced line and 
 node tools/ui.mjs publish UI1        # put the interface's audio on the storyfm-audio Worker
 ```
 
-`add` does not commit. Review the result, then commit `docs/data`, `data/raw`, `data/onsets`, `data/corrections`, `data/cuts`, `data/translations` and `data/chapters` yourself.
+`add` does not commit. Review the result, then commit `docs/data`, `data/raw`, `data/onsets`, `data/corrections`, `data/cuts`, `data/translations`, `data/chapters` and `data/topics.json` yourself.
 
 ## How it works
 
@@ -75,6 +75,7 @@ RSS (data/feed.xml)
 | `tools/translate.mjs` | Where translations are written: `data/translations/<id>.json` → `docs/data/<id>.vi.json` |
 | `src/chapters.js` | The episode cut into chapters of one to two minutes on one small topic, each starting at a sentence and keeping that sentence's Chinese, so a fix or join that moves it is named. The last can stop before the outro credits. Pure, tested |
 | `tools/chapters.mjs` | Where chapters are written: `data/chapters/<id>.json` → `docs/data/<id>.chapters.json` |
+| `src/topics.js` | Each topic's episodes from `data/topics.json`, in the order to study them, into the index; one named there but not added yet waits as the topic's next. Pure, tested |
 | `src/build.js` | Assemble the episode file and index. Written once, via a temp file |
 | `src/ui.js` | An app's interface as an episode: each line read twice with room to say it back, laid out on one timeline; a chapter per screen; each line's place on its screenshot; Apple's own Vietnamese as the translation. Pure, tested |
 | `tools/ui.mjs` | Voices `data/ui/<id>.json` through Runware (Qwen3-TTS cloning a reference clip), caches each line in `tools/.cache/tts/`, writes the episode, its translation, chapters and screenshot places, and checks the voice with whisper |
@@ -100,11 +101,23 @@ day. Nghe lại lists a studied chapter's the same way.
 **✓ Học xong** puts the chapter on the list of studied chapters, kept by the server (below) in
 `studied.json` beside its collection, not in Anki, so the phone and the laptop share it. The chapters
 studied carry a ✓, and the episode list counts them. **Nghe lại** (`listen.html`) plays that list back
-for passive listening: the last 7 days or all of it, or one episode. Each episode plays whole and in
+for passive listening: the last 7 days or all of it, of one topic or one episode. Each episode plays whole and in
 story order, even when its chapters were studied days apart, the one studied latest first; a shuffle
 moves whole episodes, never the chapters within one. Each chapter plays once to three times, going
 round until stopped. One audio
 element plays every episode, and the lock screen's ⏮ ⏭ move between chapters.
+
+## One topic at a time
+
+A topic is a handful of episodes on one tight subject (高考 and university, not everything set in a
+school), studied one after another so its words keep coming back. `data/topics.json` lists each topic's
+episodes in the order to study them — easier Convo Chinese first — and may name episodes not added yet;
+`rebuildIndex` carries them into `docs/data/index.json`, where those wait as the topic's next ones. The
+episode list shows each episode's topics, and a chip per topic switches to that topic alone: its
+episodes numbered in order with the chapters studied out of all of them, **▶ Học tiếp** to the chapter
+after the one studied last (`docs/topics.js`), **▶ Nghe lại chủ đề**, and the episodes still to add.
+The topic chosen is remembered. The player names it with the episode's place in it and links the next
+episode, which the loop bar offers too once the last chapter is studied.
 
 ## An app's interface, read aloud
 

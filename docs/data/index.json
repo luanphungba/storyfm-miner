@@ -211,5 +211,119 @@
       "source": "ui",
       "owner": "iPhone"
     }
+  ],
+  "topics": [
+    {
+      "id": "giao-duc",
+      "vi": "Giáo dục",
+      "zh": "高考 · 大学",
+      "about": "Thi đại học, chọn ngành, đời sinh viên",
+      "episodes": [
+        "CC4",
+        "CC118",
+        "E080",
+        "TW20200703",
+        "E517",
+        "BV15b42177rL"
+      ],
+      "planned": [
+        {
+          "id": "CC39",
+          "title": "Episode 39 | 在中国和外国上大学 University experience abroad"
+        },
+        {
+          "id": "CC54",
+          "title": "Episode 54 |  在北京读大学的四年时光 Four amazing years at University in Beijing"
+        },
+        {
+          "id": "CC91",
+          "title": "Episode 91 | 在牛津上学有分院帽吗 Sorting hat at Oxford University?"
+        },
+        {
+          "id": "CC77",
+          "title": "Episode 77 | 2025年，出国留学还热门吗？Is studying abroad still popular in 2025?"
+        },
+        {
+          "id": "CC71",
+          "title": "Episode 71 | 小时侯上过的课外班 Those extracurricular activities when we were kids"
+        },
+        {
+          "id": "CC13",
+          "title": "EPISODE 13 | 小时候超级讨厌的体育课 We hated PE (physical education) classes!"
+        }
+      ]
+    },
+    {
+      "id": "esp32",
+      "vi": "Điện tử · ESP32",
+      "zh": "电子 · ESP32",
+      "about": "Tự làm mạch ESP32: sơ đồ, đặt PCB, hàn, nạp firmware",
+      "episodes": [
+        "BV1HQTs6FEos",
+        "BV1HQTs6FEos-p2",
+        "BV1HQTs6FEos-p3",
+        "BV1HQTs6FEos-p4",
+        "BV1HQTs6FEos-p5",
+        "BV1HQTs6FEos-p6",
+        "BV1HQTs6FEos-p7",
+        "BV1yZ421M7NR"
+      ],
+      "planned": []
+    },
+    {
+      "id": "suc-khoe",
+      "vi": "Sức khoẻ",
+      "zh": "健康 · 医院",
+      "about": "Bệnh, bệnh viện, phẫu thuật, chăm sóc cuối đời",
+      "episodes": [
+        "E077",
+        "E757"
+      ],
+      "planned": []
+    },
+    {
+      "id": "nuoc-ngoai",
+      "vi": "Sống ở nước ngoài",
+      "zh": "海外生活",
+      "about": "Du học, sốc văn hoá, đi du lịch",
+      "episodes": [
+        "CC3",
+        "CC5",
+        "E081"
+      ],
+      "planned": []
+    },
+    {
+      "id": "mua-sam",
+      "vi": "Tiền & mua sắm",
+      "zh": "消费 · 网购",
+      "about": "Mua sắm online, tiêu tiền, gọi xe",
+      "episodes": [
+        "CC7",
+        "E062",
+        "BV1GMtJ62Eo5"
+      ],
+      "planned": []
+    },
+    {
+      "id": "tinh-cam",
+      "vi": "Tình cảm",
+      "zh": "恋爱 · 相亲",
+      "about": "Hẹn hò, xem mắt",
+      "episodes": [
+        "CC6"
+      ],
+      "planned": []
+    },
+    {
+      "id": "thanh-pho",
+      "vi": "Thành phố & ẩm thực",
+      "zh": "城市 · 美食",
+      "about": "Quê hương, thành phố, món ăn",
+      "episodes": [
+        "CC2"
+      ],
+      "planned": []
+    }
   ]
 }

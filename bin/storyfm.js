@@ -5,6 +5,7 @@
 
 import { parseArgs } from 'node:util';
 import { existsSync } from 'node:fs';
+import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { loadFeed, syncFeed, findEpisode } from '../src/feed.js';
 import { paths } from '../src/paths.js';
@@ -135,6 +136,21 @@ async function hosted(episode) {
   return { ...episode, m4a: await hostAudio(/** @type {any} */ (episode)) };
 }
 
+/** Rebuilds the index's topics from data/topics.json, and names the episodes in none. */
+async function topics() {
+  const { rebuildIndex } = await import('../src/build.js');
+  const entries = await rebuildIndex();
+  /** @type {import('../src/topics.js').IndexedTopic[]} */
+  const indexed = JSON.parse(await readFile(paths.index, 'utf8')).topics;
+  for (const topic of indexed) {
+    const planned = topic.planned.length ? ` · chưa thêm ${topic.planned.map((episode) => episode.id).join(' ')}` : '';
+    console.log(`${topic.vi} (${topic.id}) · ${topic.episodes.join(' ')}${planned}`);
+  }
+  const tagged = new Set(indexed.flatMap((topic) => topic.episodes));
+  const untagged = entries.filter((entry) => !tagged.has(entry.id));
+  if (untagged.length) console.log(`\nChưa có chủ đề: ${untagged.map((entry) => entry.id).join(' ')}`);
+}
+
 async function models() {
   const apiKey = process.env.ASSEMBLYAI_API_KEY;
   if (!apiKey) throw new Error('Thiếu ASSEMBLYAI_API_KEY trong .env.');
@@ -148,7 +164,7 @@ async function models() {
   }
 }
 
-const COMMANDS = { sync, list, add, bili, podcast, models };
+const COMMANDS = { sync, list, add, bili, podcast, topics, models };
 
 const USAGE = `storyfm — transcript cho 故事FM
 
@@ -168,6 +184,8 @@ const USAGE = `storyfm — transcript cho 故事FM
     --prefix CC                 mã đầu cho tập của show mới (mặc định: chữ đầu tên Latin)
                                 link show → liệt kê tập; link một tập → transcribe tập đó
                                 (sau đó dùng add CC119 như tập thường)
+
+  storyfm topics                dựng lại chủ đề trong index từ data/topics.json, kể tập chưa có chủ đề
 
   storyfm models                liệt kê model ASR, → là cái đang dùng
 `;

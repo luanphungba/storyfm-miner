@@ -20,6 +20,7 @@ import { tappedOf } from './spacing.js';
 import { strokeToggle } from './strokes.js';
 import { ceilTenth, findStudied, floorTenth, heardAgain } from './studied.js';
 import { recordTap, tapNote } from './taps.js';
+import { TOPIC_KEY, nextEpisode, topicsOf } from './topics.js';
 import { showWords } from './wordlist.js';
 
 const CUE_LANG = 'zh-Hans';
@@ -101,6 +102,7 @@ async function load() {
   loadWords();
   loadTranslation();
   loadChapters();
+  loadTopic();
   if (data.source === 'ui') loadShots();
 }
 
@@ -155,6 +157,48 @@ function showInterface(/** @type {{ owner?: string }} */ data) {
   $('meta').prepend(data.owner ? `${data.owner} · ` : '');
   $('filter-all').hidden = true;
   $('filter-storyteller').hidden = true;
+}
+
+// ---------- topic ----------
+
+/** The topic's next episode, as a link to the player; empty when there is none. */
+let nextInTopic = '';
+
+/** The topic the episode is studied in: the one chosen on the list, when the episode is in it, else
+ * the first it is in. The meta line names it, says where in it the episode stands and links the next
+ * episode, which the loop bar offers too once the last chapter is studied: one topic gone through
+ * episode after episode. */
+async function loadTopic() {
+  const index = await fetch('data/index.json').then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const topics = topicsOf(index?.topics ?? [], episode.id);
+  if (!topics.length) return;
+  const topic = topics.find((t) => t.id === chosenTopic()) ?? topics[0];
+
+  const link = (/** @type {string} */ href, /** @type {string} */ text, /** @type {string} */ title) => {
+    const a = document.createElement('a');
+    a.href = href;
+    a.textContent = text;
+    a.title = title;
+    return a;
+  };
+  const place = `${topic.episodes.indexOf(episode.id) + 1}/${topic.episodes.length}`;
+  $('meta').append(' · ', link(`index.html?topic=${encodeURIComponent(topic.id)}`, `${topic.vi} ${place}`, `Các tập của chủ đề ${topic.vi} (${topic.zh})`));
+  const next = index.episodes.find((/** @type {{ id: string }} */ e) => e.id === nextEpisode(topic, episode.id));
+  if (!next) return;
+  nextInTopic = `player.html?ep=${encodeURIComponent(next.id)}`;
+  $('meta').append(' · ', link(nextInTopic, 'Tập tiếp ›', next.title));
+  const button = /** @type {HTMLAnchorElement} */ ($('next-episode'));
+  button.href = nextInTopic;
+  button.title = `Tập tiếp trong chủ đề ${topic.vi}: ${next.title}`;
+  showStudied();
+}
+
+function chosenTopic() {
+  try {
+    return localStorage.getItem(TOPIC_KEY);
+  } catch {
+    return null;
+  }
 }
 
 // ---------- render ----------
@@ -618,6 +662,8 @@ function showStudied() {
   studyButton.setAttribute('aria-pressed', String(today));
   // Right where the chapter was just added, the way to the list it went into.
   $('open-listen').hidden = !(c && findStudied(studied, episode.id, c.start));
+  // The last chapter studied, and the way on to the topic's next episode.
+  $('next-episode').hidden = !(nextInTopic && c && chapter?.n === chapters.length - 1 && findStudied(studied, episode.id, c.start));
 }
 
 async function toggleStudied() {

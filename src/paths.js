@@ -28,6 +28,8 @@ export const paths = {
   podcasts: join(ROOT, 'data', 'podcasts.json'),
   /** The app interfaces added as episodes — see src/ui.js. */
   ui: join(ROOT, 'data', 'ui.json'),
+  /** The episodes of each topic, in the order to study them — see src/topics.js. */
+  topics: join(ROOT, 'data', 'topics.json'),
   /** One app interface as its device shows it, page by page, line by line — see src/ui.js. */
   uiContent: (/** @type {string} */ id) => join(ROOT, 'data', 'ui', `${id}.json`),
   /** Where each line of an interface episode sits on its screen — see src/ui.js. */
