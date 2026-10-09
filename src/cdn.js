@@ -19,6 +19,11 @@ export const AUDIO_WORKER = 'storyfm-audio';
 /** Cloudflare refuses static assets over 25 MiB. */
 const ASSET_FILE_LIMIT = 25 * 1024 * 1024;
 
+/** Whether Cloudflare takes the file as a static asset. */
+export async function fits(/** @type {string} */ file) {
+  return (await stat(file)).size <= ASSET_FILE_LIMIT;
+}
+
 /** Throws before a deploy that Cloudflare would refuse. */
 export async function assertFits(/** @type {string} */ file) {
   const { size } = await stat(file);

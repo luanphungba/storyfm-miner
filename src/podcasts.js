@@ -25,7 +25,7 @@ import { execFile } from 'node:child_process';
 import { dirname } from 'node:path';
 import { promisify } from 'node:util';
 import { paths } from './paths.js';
-import { publishAudio, assertFits } from './cdn.js';
+import { publishAudio, assertFits, fits } from './cdn.js';
 
 /** Spotify answers a full browser user agent with an empty web-player shell; this gets the real page. */
 const UA = 'Mozilla/5.0';
@@ -222,7 +222,10 @@ export function keepHosted(known, fresh) {
  *
  * A remux that only dropped the Xing header would seek exactly too (the stream itself is CBR), but at
  * 128k stereo most episodes are over Cloudflare's 25 MiB. 64k mono AAC is plenty for two people
- * talking, and 15 MB for 30 minutes. The re-encode keeps the mp3's timeline — the transcript's timestamps —
+ * talking, and 15 MB for 30 minutes. An episode too long for that to fit (TW20200703, 54 minutes, is
+ * 25.4 MiB) gets the highest of 56k, 48k or 32k that does, read off the file, since AAC runs a few
+ * percent over its rate: measured on that episode, 56k and 48k keep every band 64k does, up to the 15 kHz
+ * the feed's mp3 stops at. The re-encode keeps the mp3's timeline — the transcript's timestamps —
  * to within 15ms, measured by seeking the copy in Chrome and matching what it played to the mp3.
  * @param {PodcastEpisode} episode
  */
@@ -235,7 +238,11 @@ export async function hostAudio(episode) {
   const mp3 = `${file}.mp3`;
   await writeFile(mp3, Buffer.from(await response.arrayBuffer()));
   try {
-    await promisify(execFile)('ffmpeg', ['-v', 'error', '-y', '-i', mp3, '-vn', '-ac', '1', '-c:a', 'aac', '-b:a', '64k', '-movflags', '+faststart', `${file}.tmp.m4a`]);
+    for (const kbps of [64, 56, 48, 32]) {
+      await promisify(execFile)('ffmpeg', ['-v', 'error', '-y', '-i', mp3, '-vn', '-ac', '1', '-c:a', 'aac', '-b:a', `${kbps}k`, '-movflags', '+faststart', `${file}.tmp.m4a`]);
+      if (await fits(`${file}.tmp.m4a`)) break;
+      console.log(`  ${kbps}k vượt 25 MiB của Cloudflare, nén lại nhỏ hơn…`);
+    }
     await rename(`${file}.tmp.m4a`, file);
   } finally {
     await rm(mp3, { force: true });

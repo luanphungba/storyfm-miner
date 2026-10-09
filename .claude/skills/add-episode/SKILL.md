@@ -54,6 +54,11 @@ URL — there's no code in this repo that talks to xiaoyuzhoufm directly, and �
    takes `--prefix XX` if its title has no Latin words to take initials from; ask the user which
    prefix they want rather than inventing one. (`podcast <episode link>` also transcribes directly,
    but going through the list lets you do step 5's check first.)
+   **A xiaoyuzhoufm link can be another show too**: the page names its podcast (TW20200703 was
+   不合时宜, not 故事FM). `podcast` cannot read a xiaoyuzhoufm link, so look the show up in Apple's
+   directory (`https://itunes.apple.com/search?media=podcast&term=<show>` → `feedUrl`, for these
+   usually `feed.xyzfm.space/…`), check the episode's `<guid>` in that feed is the id in the link,
+   and run `storyfm podcast <feed>`. An unnumbered episode's id is the prefix plus its pubDate.
 4. If nothing matches — the episode isn't in 故事FM's feed yet, or the titles disagree enough that
    you're not sure — **stop and ask the user** rather than guessing an id. A wrong id transcribes
    the wrong episode and costs real AssemblyAI money to undo.
@@ -75,7 +80,7 @@ hung. Pass `--narrator B` only if the user tells you the wrong speaker was picke
 ### Podcast episodes play from our own copy
 
 For a podcast episode (`CC…` and any other show from `storyfm podcast`), `add` first downloads the
-feed's mp3, re-encodes it to `data/audio/<id>.m4a` (64k mono AAC, not in git), deploys it to the
+feed's mp3, re-encodes it to `data/audio/<id>.m4a` (64k mono AAC — 56k or less only if an episode over ~50 minutes would not fit 25 MiB — not in git), deploys it to the
 `storyfm-audio` Worker and records the URL as `m4a` in `data/podcasts.json`. AssemblyAI and the
 player both use that copy. This adds a minute or so (the wrangler deploy) — it has not hung.
 
