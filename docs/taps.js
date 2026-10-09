@@ -84,3 +84,25 @@ export function tapNote({ days, inAnki }, cardsWanted) {
  */
 export const forStudy = (words, rank) =>
   [...words].sort((a, b) => rank(a.word) - rank(b.word) || b.days - a.days || a.at - b.at);
+
+/**
+ * How many words were tapped on each day, from every day each word was tapped on, as the server
+ * keeps them (/vocab).
+ * @param {Record<string, string[]>} daysOf
+ * @returns {Record<string, number>}
+ */
+export function tappedByDay(daysOf) {
+  /** @type {Record<string, number>} */
+  const count = {};
+  for (const days of Object.values(daysOf)) {
+    for (const day of days) count[day] = (count[day] ?? 0) + 1;
+  }
+  return count;
+}
+
+/**
+ * How many words are left to learn of the chapters given: each word tapped in one and not said to be
+ * known since, once however many it was tapped in. The server lists no known word (/tapped).
+ */
+export const unknownWords = (/** @type {{ words: TappedWord[] }[]} */ chapters) =>
+  new Set(chapters.flatMap((c) => c.words.map((w) => w.word))).size;

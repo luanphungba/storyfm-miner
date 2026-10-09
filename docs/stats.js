@@ -1,7 +1,8 @@
 // @ts-check
-// "Thống kê": today's listening, the way to a thousand hours, each day's hours, chapters and words,
-// and every chapter heard or studied with how many times. The numbers come from the server
-// (server/miner.py) and the episodes' own chapter files; progress.js does the sums.
+// "Thống kê": today's listening, the way to a thousand hours, each day's hours, chapters and words
+// tapped, the words tapped and not known yet, and every chapter heard or studied with how many
+// times. The numbers come from the server (server/miner.py) and the episodes' own chapter files;
+// progress.js does the sums.
 
 import { formatTime } from './card.js';
 import { studyDay } from './listening.js';
@@ -12,6 +13,7 @@ import {
 } from './progress.js';
 import { call, savedConnection } from './server.js';
 import { chapterLink, dayLabel } from './studied.js';
+import { tappedByDay, unknownWords } from './taps.js';
 import { GOAL_WORDS, formatChange, vocabularyByDay, vocabularyDays, wordTicks } from './vocab.js';
 
 /** @typedef {import('./progress.js').Days} Days */
@@ -21,12 +23,14 @@ import { GOAL_WORDS, formatChange, vocabularyByDay, vocabularyDays, wordTicks } 
 /** @typedef {import('./progress.js').DayRow} DayRow */
 /** @typedef {import('./studied.js').Studied} Studied */
 /** @typedef {import('./vocab.js').VocabDay} VocabDay */
+/** @typedef {import('./vocab.js').TapHistory} TapHistory */
 /**
  * @typedef {{ days: Days, heard: Heard[], studied: Studied[], chaptersOf: Record<string, Chapter[]>,
- *   titles: Record<string, string>, words: Record<string, number> | null, wordLimit: number | null,
+ *   titles: Record<string, string>, tapped: Record<string, number>, unknown: number,
  *   vocabulary: VocabDay[] | null }} Stats
- *   The words stay null until Anki answers, which waits on a sync; the vocabulary, a row per day
- *   from the first studied, until each studied episode's words are in.
+ *   `tapped` is the words tapped each day; `unknown`, the words tapped in a studied chapter and not
+ *   known since. The vocabulary, a row per day from the first studied, stays null until each studied
+ *   episode's words are in.
  */
 /** @typedef {{ range: number, order: ChapterOrder, ep: string }} Settings */
 
@@ -40,9 +44,7 @@ const $ = (/** @type {string} */ id) => /** @type {HTMLElement} */ (document.get
 
 /** @type {Stats | null} */
 let stats = null;
-/** What the word tiles say while there is no count: still loading, or Anki did not answer. */
-let wordsPending = '…';
-/** The same for the vocabulary. */
+/** What the vocabulary says while there is no count: still loading, or a file did not come. */
 let vocabularyPending = '…';
 /** @type {Settings} */
 let settings = { range: 7, order: 'recent', ep: '' };
@@ -79,14 +81,18 @@ async function load() {
   try {
     // What a page here left unsent goes first, so the numbers below have it.
     await report(connection).catch(() => {});
-    const [listened, studied, titles] = await Promise.all([call(connection, '/listened'), call(connection, '/studied'), loadTitles()]);
+    const [listened, studied, history, taps, titles] = await Promise.all([
+      call(connection, '/listened'), call(connection, '/studied'), call(connection, '/vocab'), call(connection, '/tapped'), loadTitles(),
+    ]);
     /** @type {string[]} */
     const episodes = [...new Set([...listened.chapters, ...studied.chapters].map((c) => c.ep))];
     const chaptersOf = Object.fromEntries(await Promise.all(episodes.map(async (ep) => [ep, await loadChapters(ep)])));
     stats = {
       days: listened.days, heard: listened.chapters, studied: studied.chapters, chaptersOf, titles,
-      words: stats?.words ?? null, wordLimit: stats?.wordLimit ?? null, vocabulary: stats?.vocabulary ?? null,
+      tapped: tappedByDay(history.tapped), unknown: unknownWords(taps.chapters), vocabulary: stats?.vocabulary ?? null,
     };
+    // Last in, as it fetches every studied episode's words; it draws when they are.
+    loadVocabulary(studied.chapters, history);
   } catch (error) {
     // A refresh that fails keeps the numbers already shown.
     if (!stats) $('status').textContent = /** @type {Error} */ (error).message;
@@ -95,29 +101,13 @@ async function load() {
   $('status').hidden = true;
   $('dashboard').hidden = false;
   render();
-  loadWords(connection);
-  loadVocabulary(connection, stats.studied);
 }
 
-/** The words come last: the server syncs Anki before it counts them. */
-async function loadWords(/** @type {import('./server.js').Connection} */ connection) {
-  try {
-    const { days, today } = await call(connection, '/words');
-    if (!stats) return;
-    stats.words = days;
-    stats.wordLimit = today?.limit ?? null;
-  } catch {
-    wordsPending = '—';
-  }
-  render();
-}
-
-/** The words each studied episode counts as, and every day each was tapped or known. */
-async function loadVocabulary(/** @type {import('./server.js').Connection} */ connection, /** @type {Studied[]} */ studied) {
+/** The vocabulary, from the words each studied episode counts as and every day each was tapped or known. */
+async function loadVocabulary(/** @type {Studied[]} */ studied, /** @type {TapHistory} */ history) {
   const episodes = [...new Set(studied.map((s) => s.ep))];
   try {
-    const [history, vocab, lines] = await Promise.all([
-      call(connection, '/vocab'),
+    const [vocab, lines] = await Promise.all([
       fetch('data/vocab.json').then((r) => (r.ok ? r.json() : Promise.reject(new Error('vocab.json')))),
       Promise.all(episodes.map((ep) => fetch(`data/${encodeURIComponent(ep)}.vocab.json`)
         .then((r) => (r.ok ? r.json() : null)).catch(() => null))),
@@ -155,16 +145,16 @@ function render() {
   renderChapters(stats, today);
 }
 
-function renderToday(/** @type {Stats} */ { days, studied, words, wordLimit }, /** @type {string} */ today) {
+function renderToday(/** @type {Stats} */ { days, studied, tapped }, /** @type {string} */ today) {
   const { player = 0, listen = 0 } = days[today] ?? {};
   $('today-hours').textContent = formatDuration(player + listen);
   $('today-split').textContent = `học ${formatDuration(player)} · nghe lại ${formatDuration(listen)}`;
   $('today-chapters').textContent = String(studied.filter((s) => s.dates.includes(today)).length);
-  $('today-words').textContent = words ? `${words[today] ?? 0}${wordLimit ? `/${wordLimit}` : ''}` : wordsPending;
+  $('today-tapped').textContent = String(tapped[today] ?? 0);
   $('streak').textContent = String(streak(days, today));
 }
 
-function renderGoal(/** @type {Stats} */ { days, studied, words }, /** @type {string} */ today) {
+function renderGoal(/** @type {Stats} */ { days, studied, unknown }, /** @type {string} */ today) {
   const p = progress(days, today);
   const share = Math.min(1, p.total / (GOAL_HOURS * 3600));
   $('goal-hours').textContent = String(GOAL_HOURS);
@@ -177,7 +167,7 @@ function renderGoal(/** @type {Stats} */ { days, studied, words }, /** @type {st
     : p.reach ? `Gần đây trung bình ${formatDuration(p.pace)} mỗi ngày: đủ ${GOAL_HOURS} giờ ${reachLabel(p.reach)}.`
       : 'Có giờ nghe của một ngày trọn vẹn thì sẽ ước được ngày đạt mục tiêu.';
   $('total-chapters').textContent = String(studied.length);
-  $('total-words').textContent = words ? String(Object.values(words).reduce((sum, n) => sum + n, 0)) : wordsPending;
+  $('unknown-words').textContent = String(unknown);
   $('total-days').textContent = String(listenedDays(days));
 }
 
@@ -328,8 +318,8 @@ function showVocabTip(/** @type {VocabDay[]} */ rows, /** @type {number} */ i, /
   tip.style.top = `${Math.max(0, chartTop + lineTop * scale - tip.offsetHeight - 12)}px`;
 }
 
-function renderDays(/** @type {Stats} */ { days, studied, words }, /** @type {string} */ today) {
-  charted = dayRows({ days, studied, words: words ?? {}, today, count: settings.range });
+function renderDays(/** @type {Stats} */ { days, studied, tapped }, /** @type {string} */ today) {
+  charted = dayRows({ days, studied, words: tapped, today, count: settings.range });
   for (const chip of document.querySelectorAll('[data-range]')) {
     chip.setAttribute('aria-pressed', String(Number(/** @type {HTMLElement} */ (chip).dataset.range) === settings.range));
   }
@@ -346,7 +336,7 @@ function renderDays(/** @type {Stats} */ { days, studied, words }, /** @type {st
       split.textContent = `học ${formatDuration(r.player)} · nghe lại ${formatDuration(r.listen)}`;
       listened.append(split);
     }
-    row.append(cell(shortDay(r.day, today)), listened, cell(String(r.chapters), 'num'), cell(words ? String(r.words) : wordsPending, 'num'));
+    row.append(cell(shortDay(r.day, today)), listened, cell(String(r.chapters), 'num'), cell(String(r.words), 'num'));
     return row;
   }));
 }
@@ -459,7 +449,7 @@ function showTip(/** @type {number} */ i, /** @type {SVGElement} */ column, /** 
     day, total,
     line(formatDuration(r.player), 'học', 'key-player'),
     line(formatDuration(r.listen), 'nghe lại', 'key-listen'),
-    Object.assign(document.createElement('div'), { className: 'tt-sub', textContent: `${r.chapters} chương · ${stats?.words ? r.words : wordsPending} từ` }),
+    Object.assign(document.createElement('div'), { className: 'tt-sub', textContent: `${r.chapters} chương · ${r.words} từ đã tra` }),
   );
   tip.hidden = false;
   const box = $('chart-box');

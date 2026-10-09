@@ -76,7 +76,7 @@ export const listenedDays = (/** @type {Days} */ days) =>
 
 /**
  * The `count` days up to today, oldest first: each one's hours by page, the chapters marked studied
- * on it and the words added.
+ * on it and the words tapped.
  * @param {{ days: Days, studied: Studied[], words: Record<string, number>, today: string, count: number }} input
  * @returns {DayRow[]}
  */

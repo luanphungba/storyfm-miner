@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { STUBBORN_DAYS, forStudy, tapNote } from '../docs/taps.js';
+import { STUBBORN_DAYS, forStudy, tapNote, tappedByDay, unknownWords } from '../docs/taps.js';
 
 test('the card says the days a word was tapped, and from the third that it may be worth a card', () => {
   assert.deepEqual(tapNote({ days: 1, inAnki: false }, true), { text: 'đã tra 1 ngày', stubborn: false });
@@ -20,4 +20,20 @@ test('a chapter lists its words lowest level first, in a level the ones tapped o
   const rank = (/** @type {string} */ word) => ranks.get(word) ?? 8;
   assert.deepEqual(forStudy(words, rank).map((w) => w.word), ['面子', '清楚', '哭', '尴尬', '播客']);
   assert.equal(words[0].word, '清楚');
+});
+
+test('counts the words tapped on each day, a word once a day however often it was tapped', () => {
+  assert.deepEqual(tappedByDay({ 清楚: ['2026-10-08', '2026-10-09'], 尴尬: ['2026-10-09'], 面子: ['2026-10-07'] }),
+    { '2026-10-07': 1, '2026-10-08': 1, '2026-10-09': 2 });
+  assert.deepEqual(tappedByDay({}), {});
+});
+
+test('counts the words left to learn once, however many chapters they were tapped in', () => {
+  const chapters = [
+    { words: [{ word: '清楚', at: 70.6, days: 2 }, { word: '尴尬', at: 120.2, days: 1 }] },
+    { words: [{ word: '清楚', at: 300, days: 2 }] },
+    { words: [] },
+  ];
+  assert.equal(unknownWords(chapters), 2);
+  assert.equal(unknownWords([]), 0);
 });
