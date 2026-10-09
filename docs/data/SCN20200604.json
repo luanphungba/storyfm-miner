@@ -1,0 +1,2413 @@
+{
+  "id": "SCN20200604",
+  "title": "中国的教育",
+  "guid": "ca848350-ddff-428d-9790-cd152e156627",
+  "pubDate": "2020-06-04",
+  "duration": 689,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/SCN20200604.m4a"
+  },
+  "source": "podcast",
+  "owner": "Speak Chinese Naturally -Learn Chinese (Mandarin)",
+  "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-eeqhri",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 0,
+      "end": 7.9,
+      "text": "您正在收听的是《自然而然说中文》",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 1,
+      "s": 0,
+      "start": 7.9,
+      "end": 12.24,
+      "text": "第四十一期《中国的教育》，我是佳佳，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 2,
+      "s": 1,
+      "start": 12.24,
+      "end": 13.5,
+      "text": "很高兴又与大家",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 3,
+      "s": 1,
+      "start": 13.5,
+      "end": 15.36,
+      "text": "在新的一期节目中相见。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 4,
+      "s": 2,
+      "start": 15.6,
+      "end": 17.06,
+      "text": "你们一切都好吗？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 5,
+      "s": 3,
+      "start": 17.1,
+      "end": 18.74,
+      "text": "希望如此。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 4,
+      "start": 19.38,
+      "end": 22.16,
+      "text": "每个国家的教育体制都有所不同，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 4,
+      "start": 22.16,
+      "end": 24.44,
+      "text": "在今天的节目中，我将带大家",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 8,
+      "s": 4,
+      "start": 24.44,
+      "end": 28.04,
+      "text": "一起去了解一下。中国的教育体制，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 5,
+      "start": 28.3,
+      "end": 29.2,
+      "text": "再次提醒",
+      "speaker": "A",
+      "u": 4,
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 5,
+      "start": 29.2,
+      "end": 31.32,
+      "text": "参加我们募集计划的朋友们，",
+      "speaker": "A",
+      "u": 4,
+      "role": "storyteller"
+    },
+    {
+      "i": 11,
+      "s": 6,
+      "start": 31.44,
+      "end": 32.5,
+      "text": "可以在我们的网站",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 12,
+      "s": 6,
+      "start": 32.5,
+      "end": 34.5,
+      "text": "speakchinesenaturally.com",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 13,
+      "s": 6,
+      "start": 34.5,
+      "end": 37.02,
+      "text": "下载到本期节目的完整文本。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 14,
+      "s": 8,
+      "start": 37.68,
+      "end": 39.98,
+      "text": "下面进入今天的主题，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 15,
+      "s": 8,
+      "start": 39.98,
+      "end": 42.76,
+      "text": "首先我们来说说中国的教育体制",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 16,
+      "s": 8,
+      "start": 42.76,
+      "end": 44.84,
+      "text": "分为哪几个阶段？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 17,
+      "s": 9,
+      "start": 45.12,
+      "end": 49.58,
+      "text": "它大致可分为学前教育、初等教育、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 18,
+      "s": 9,
+      "start": 49.58,
+      "end": 51.9,
+      "text": "中等教育和高等教育。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 19,
+      "s": 10,
+      "start": 52.02,
+      "end": 54.88,
+      "text": "我们先来说学前教育，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 10,
+      "start": 54.88,
+      "end": 57.42,
+      "text": "它是指三到六岁的儿童",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 10,
+      "start": 57.42,
+      "end": 60.26,
+      "text": "在幼儿园接受的教育过程。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 11,
+      "start": 60.74,
+      "end": 64.97,
+      "text": "幼儿园一般分小班、中班、大班，共三年。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 12,
+      "start": 65.38,
+      "end": 66.84,
+      "text": "这里要说明的是，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 12,
+      "start": 66.84,
+      "end": 70.72,
+      "text": "学前教育并不是强制性的，也就是说，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 13,
+      "start": 70.72,
+      "end": 71.74,
+      "text": "家长可以选择",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 13,
+      "start": 71.74,
+      "end": 74.48,
+      "text": "是否送自己的孩子去幼儿园。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 14,
+      "start": 74.64,
+      "end": 76.26,
+      "text": "虽然说不是强制性的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 14,
+      "start": 76.26,
+      "end": 78.88,
+      "text": "但大多数的家长因为工作的原因。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 15,
+      "start": 79.26,
+      "end": 82.49,
+      "text": "和想让孩子得到专业的启蒙教育，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 15,
+      "start": 82.65,
+      "end": 85.29,
+      "text": "一般都会把孩子送去幼儿园。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 16,
+      "start": 86.01,
+      "end": 88.11,
+      "text": "那么，在幼儿园里学什么呢？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 17,
+      "start": 88.81,
+      "end": 91.52,
+      "text": "幼儿园主要是帮这个阶段的孩子",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 17,
+      "start": 91.52,
+      "end": 94.62,
+      "text": "养成一些良好的行为习惯，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 17,
+      "start": 94.62,
+      "end": 97.03,
+      "text": "发展一些新的能力及兴趣，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 18,
+      "start": 97.28,
+      "end": 100.66,
+      "text": "比如帮他们养成独立自主的能力、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 18,
+      "start": 100.66,
+      "end": 102.48,
+      "text": "适应新环境的能力，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 18,
+      "start": 102.61,
+      "end": 104.78,
+      "text": "教他们如何与他人相处。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 19,
+      "start": 105,
+      "end": 107.98,
+      "text": "如何与别人分享等等。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 20,
+      "start": 108.2,
+      "end": 110.24,
+      "text": "此外，每个幼儿园的教学特色",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 20,
+      "start": 110.24,
+      "end": 111.35,
+      "text": "也有所不同。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 21,
+      "start": 111.78,
+      "end": 114.14,
+      "text": "有些幼儿园会以文体为主，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 21,
+      "start": 114.24,
+      "end": 117.34,
+      "text": "比如画画、手工、唱歌、跳舞；",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 22,
+      "start": 117.34,
+      "end": 119.5,
+      "text": "还有些幼儿园会把侧重点",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 22,
+      "start": 119.5,
+      "end": 122.97,
+      "text": "放在教授一些简单的文化知识上，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 22,
+      "start": 123.12,
+      "end": 126.24,
+      "text": "比如简单的算术、基础的英语等。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 23,
+      "start": 126.78,
+      "end": 128.82,
+      "text": "接下来六到十二岁的儿童",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 23,
+      "start": 128.82,
+      "end": 131.26,
+      "text": "在小学接受的教育过程，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 23,
+      "start": 131.26,
+      "end": 133.84,
+      "text": "我们把它称为。初等教育，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 24,
+      "start": 133.96,
+      "end": 137.35,
+      "text": "小学分六个年级，学制为六年。",
+      "speaker": "A",
+      "u": 23,
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 25,
+      "start": 138.14,
+      "end": 139.98,
+      "text": "与学前教育不同的是，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "s": 25,
+      "start": 139.98,
+      "end": 142.57,
+      "text": "初等教育是强制性的。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "s": 26,
+      "start": 142.62,
+      "end": 145.46,
+      "text": "法律规定它是免试入学、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 26,
+      "start": 145.46,
+      "end": 147.55,
+      "text": "免试就近升学。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 27,
+      "start": 147.94,
+      "end": 149.14,
+      "text": "如果家长不喜欢",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 27,
+      "start": 149.14,
+      "end": 150.96,
+      "text": "学区里的学校怎么办？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 28,
+      "start": 151.08,
+      "end": 154.02,
+      "text": "有两个方法：一是带孩子去参加",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 28,
+      "start": 154.02,
+      "end": 156.62,
+      "text": "一些有入学考试的学校，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 28,
+      "start": 156.62,
+      "end": 159.4,
+      "text": "一般是重点学校或民办学校。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "s": 29,
+      "start": 159.68,
+      "end": 161.4,
+      "text": "如果考不上呢？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 30,
+      "start": 161.57,
+      "end": 163.96,
+      "text": "这些学校都会有少量名额",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 30,
+      "start": 163.96,
+      "end": 166.42,
+      "text": "留给交赞助费的家长，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 30,
+      "start": 167.14,
+      "end": 168.51,
+      "text": "因为名额比较少，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 31,
+      "start": 168.56,
+      "end": 171.04,
+      "text": "所以一般家长还得到处托关系",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 31,
+      "start": 171.04,
+      "end": 172.88,
+      "text": "才能拿到这个名额。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 32,
+      "start": 173.36,
+      "end": 175.7,
+      "text": "所以现在很多家长在买房时",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 32,
+      "start": 175.7,
+      "end": 179.51,
+      "text": "也考虑到这个因素，会比较看重学区，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 33,
+      "start": 179.8,
+      "end": 181.46,
+      "text": "这样孩子可以直接",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 33,
+      "start": 181.46,
+      "end": 184.88,
+      "text": "免试就近就读比较好的学校。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 34,
+      "start": 184.88,
+      "end": 186.52,
+      "text": "这也是为什么在中国。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 35,
+      "start": 186.9,
+      "end": 189.52,
+      "text": "好的学区房特别贵的原因，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 35,
+      "start": 189.67,
+      "end": 191.33,
+      "text": "哪怕是一个二手房。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 36,
+      "start": 192.42,
+      "end": 194.58,
+      "text": "在小学学习的主要科目有",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 36,
+      "start": 194.58,
+      "end": 197.38,
+      "text": "语文、数学、品德、科学。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 37,
+      "start": 197.74,
+      "end": 201.14,
+      "text": "大多数的小学从三年级开始学英语。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 38,
+      "start": 201.38,
+      "end": 204,
+      "text": "需要说明的是，英语这门学科",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "s": 38,
+      "start": 204,
+      "end": 205.74,
+      "text": "在现今中国的教育中",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 77,
+      "s": 38,
+      "start": 205.74,
+      "end": 208.26,
+      "text": "占据的地位是越来越重了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 39,
+      "start": 208.46,
+      "end": 210.04,
+      "text": "记得我上小学的时候，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 79,
+      "s": 39,
+      "start": 210.04,
+      "end": 211.88,
+      "text": "是从五年级才开始学",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 80,
+      "s": 39,
+      "start": 211.88,
+      "end": 213.76,
+      "text": "一些最基本的英语知识。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 40,
+      "start": 213.96,
+      "end": 215.36,
+      "text": "可现在有些小学",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 40,
+      "start": 215.36,
+      "end": 218.15,
+      "text": "甚至从一年级就开始教英语了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 41,
+      "start": 218.72,
+      "end": 223.28,
+      "text": "小学的附属科目有体育、音乐、美术、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 41,
+      "start": 223.28,
+      "end": 227.15,
+      "text": "健康、法治、信息技术、综合实践。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "s": 42,
+      "start": 227.76,
+      "end": 230.22,
+      "text": "初等教育后是中等教育，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 86,
+      "s": 42,
+      "start": 230.22,
+      "end": 233.12,
+      "text": "也就是指十二到十七岁期间",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 87,
+      "s": 42,
+      "start": 233.12,
+      "end": 236.02,
+      "text": "在中等学校接受教育的过程。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 43,
+      "start": 236.6,
+      "end": 239.2,
+      "text": "普通中学分为初中和高中，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 89,
+      "s": 43,
+      "start": 239.2,
+      "end": 241.08,
+      "text": "学制各为三年。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 90,
+      "s": 44,
+      "start": 241.14,
+      "end": 243.3,
+      "text": "请注意，初等教育",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 91,
+      "s": 44,
+      "start": 243.3,
+      "end": 245.32,
+      "text": "和中等教育中的初中",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 92,
+      "s": 44,
+      "start": 245.32,
+      "end": 248.83,
+      "text": "属于国家九年义务教育的范畴。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "s": 45,
+      "start": 249.04,
+      "end": 251.54,
+      "text": "这九年的教育是强制性的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 94,
+      "s": 45,
+      "start": 251.54,
+      "end": 254.24,
+      "text": "也是国家提供的免费教育。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 95,
+      "s": 46,
+      "start": 254.38,
+      "end": 255.36,
+      "text": "这个政策是",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 96,
+      "s": 46,
+      "start": 255.36,
+      "end": 257.95,
+      "text": "从一九八六年开始实施的。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 97,
+      "s": 47,
+      "start": 258.28,
+      "end": 260.64,
+      "text": "也就是说，一个八零后中国人的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 98,
+      "s": 47,
+      "start": 260.64,
+      "end": 262.08,
+      "text": "最低文化水平",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 99,
+      "s": 47,
+      "start": 262.08,
+      "end": 265.05,
+      "text": "应该至少达到初中毕业。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 100,
+      "s": 48,
+      "start": 265.48,
+      "end": 267.16,
+      "text": "小学毕业后，学生们可以",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 101,
+      "s": 48,
+      "start": 267.16,
+      "end": 268.92,
+      "text": "根据自己的家庭住址",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 102,
+      "s": 48,
+      "start": 268.92,
+      "end": 271.12,
+      "text": "免试就近入学到初中。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 103,
+      "s": 49,
+      "start": 271.53,
+      "end": 274.43,
+      "text": "初中主要有以下科目：",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 104,
+      "s": 49,
+      "start": 274.43,
+      "end": 277.21,
+      "text": "语文、数学、英语、物理、化学、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 105,
+      "s": 49,
+      "start": 277.21,
+      "end": 280.89,
+      "text": "生物、道德与法治、历史、地理、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 106,
+      "s": 50,
+      "start": 280.89,
+      "end": 284.1,
+      "text": "体育、音乐、美术、信息技术。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 107,
+      "s": 51,
+      "start": 284.45,
+      "end": 286.37,
+      "text": "在初三快结束时，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 108,
+      "s": 51,
+      "start": 286.37,
+      "end": 289.09,
+      "text": "如果想继续往下学习，就得参加",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 109,
+      "s": 51,
+      "start": 289.09,
+      "end": 292.32,
+      "text": "一场非常重要的考试——中考。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 110,
+      "s": 52,
+      "start": 292.79,
+      "end": 295.17,
+      "text": "它是由各省统一安排",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 111,
+      "s": 52,
+      "start": 295.17,
+      "end": 296.77,
+      "text": "考试时间和内容的。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 112,
+      "s": 53,
+      "start": 297.06,
+      "end": 299.2,
+      "text": "通过中考，你可以升到",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 113,
+      "s": 53,
+      "start": 299.2,
+      "end": 301.34,
+      "text": "四个不同类型的学校：",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 114,
+      "s": 53,
+      "start": 301.34,
+      "end": 305.2,
+      "text": "高中、五年大专、职业高中和中专。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 115,
+      "s": 54,
+      "start": 305.44,
+      "end": 307.86,
+      "text": "高中更偏重于文化教育，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 116,
+      "s": 54,
+      "start": 307.86,
+      "end": 310.46,
+      "text": "是为了考大学而准备的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 117,
+      "s": 54,
+      "start": 310.46,
+      "end": 313.13,
+      "text": "所以相对的它的分数要求最高。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 118,
+      "s": 55,
+      "start": 313.64,
+      "end": 316.22,
+      "text": "五年大专、职业高中和中专",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 119,
+      "s": 55,
+      "start": 316.22,
+      "end": 319.04,
+      "text": "更偏向于技术性和职业性，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 120,
+      "s": 55,
+      "start": 319.04,
+      "end": 321.52,
+      "text": "比如师范、护理、餐饮、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 121,
+      "s": 55,
+      "start": 321.52,
+      "end": 323.96,
+      "text": "计算机、建筑、财经等。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 122,
+      "s": 57,
+      "start": 324,
+      "end": 327.27,
+      "text": "毕业后就可以直接进入社会工作了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 123,
+      "s": 58,
+      "start": 327.68,
+      "end": 329,
+      "text": "有一部分职高的学生",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 124,
+      "s": 58,
+      "start": 329,
+      "end": 331.32,
+      "text": "也是想考大学的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 125,
+      "s": 58,
+      "start": 331.32,
+      "end": 333.42,
+      "text": "但相对的职高录取分数线",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 126,
+      "s": 58,
+      "start": 333.42,
+      "end": 335.99,
+      "text": "和学习压力会比普通高中低。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 127,
+      "s": 59,
+      "start": 336.1,
+      "end": 337.82,
+      "text": "而五年大专毕业时",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 128,
+      "s": 59,
+      "start": 337.82,
+      "end": 340.42,
+      "text": "可以选择参加专转本的考试，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 129,
+      "s": 59,
+      "start": 340.56,
+      "end": 342.16,
+      "text": "考上了就可以继续学习",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 130,
+      "s": 59,
+      "start": 342.16,
+      "end": 344.23,
+      "text": "两年大学本科的课程。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 131,
+      "s": 60,
+      "start": 345.14,
+      "end": 348.32,
+      "text": "根据学生自身的学习成绩等需求，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 132,
+      "s": 60,
+      "start": 348.32,
+      "end": 351.07,
+      "text": "在考前需要填写一张志愿表。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 133,
+      "s": 61,
+      "start": 351.32,
+      "end": 354.14,
+      "text": "考生可以填写多个志愿，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 134,
+      "s": 61,
+      "start": 354.14,
+      "end": 356.92,
+      "text": "第一志愿就是他最想去的学校，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 135,
+      "s": 61,
+      "start": 356.92,
+      "end": 358.32,
+      "text": "比如省重点高中",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 136,
+      "s": 61,
+      "start": 358.32,
+      "end": 360.54,
+      "text": "或五年大专师范学校。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 137,
+      "s": 62,
+      "start": 360.7,
+      "end": 363.58,
+      "text": "最后一个志愿就是为了以防万一，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "s": 62,
+      "start": 363.58,
+      "end": 367.34,
+      "text": "即使考砸了也可以被录取到的学校，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 62,
+      "start": 367.34,
+      "end": 369.88,
+      "text": "比如一些中专或职高学校。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "s": 63,
+      "start": 370.32,
+      "end": 372.84,
+      "text": "录取时是从第一志愿开始的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "s": 63,
+      "start": 372.84,
+      "end": 374.1,
+      "text": "如果分数没达到",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "s": 63,
+      "start": 374.1,
+      "end": 376.68,
+      "text": "才会看第二志愿，以此类推。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 143,
+      "s": 64,
+      "start": 377.05,
+      "end": 379.55,
+      "text": "为了帮助考生填志愿，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 144,
+      "s": 64,
+      "start": 379.55,
+      "end": 381.55,
+      "text": "一般在正式中考前，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 145,
+      "s": 64,
+      "start": 381.55,
+      "end": 384.23,
+      "text": "学校都会举办几场模拟考试，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 146,
+      "s": 65,
+      "start": 384.23,
+      "end": 387.07,
+      "text": "以帮助学生了解自己的大概水平。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 147,
+      "s": 66,
+      "start": 387.87,
+      "end": 389.35,
+      "text": "普通高中和初中",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "s": 66,
+      "start": 389.35,
+      "end": 391.77,
+      "text": "学习的主要科目是差不多的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 149,
+      "s": 66,
+      "start": 391.77,
+      "end": 393.79,
+      "text": "也是在第三年快结束时",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 150,
+      "s": 66,
+      "start": 393.79,
+      "end": 396.58,
+      "text": "需要参加高考才能升大学。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 151,
+      "s": 67,
+      "start": 396.73,
+      "end": 399.41,
+      "text": "考前也是需要填写志愿表的。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 152,
+      "s": 68,
+      "start": 399.71,
+      "end": 401.79,
+      "text": "由于高考的政策一直在变，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 153,
+      "s": 68,
+      "start": 401.79,
+      "end": 403.97,
+      "text": "这里我就不再详细介绍了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 154,
+      "s": 69,
+      "start": 404.67,
+      "end": 406.66,
+      "text": "最后就是高等教育，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 155,
+      "s": 69,
+      "start": 406.81,
+      "end": 409,
+      "text": "它是中等教育后进行的",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 156,
+      "s": 69,
+      "start": 409,
+      "end": 412.07,
+      "text": "专科、本科和研究生教育。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 157,
+      "s": 70,
+      "start": 412.34,
+      "end": 414.9,
+      "text": "大学本科一般为四到五年，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "s": 70,
+      "start": 414.9,
+      "end": 417.08,
+      "text": "大学专科一般为二到三年。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 159,
+      "s": 71,
+      "start": 417.64,
+      "end": 421.04,
+      "text": "本科的学生可以申请学士学位，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 160,
+      "s": 71,
+      "start": 421.04,
+      "end": 422.87,
+      "text": "大专是没有学位的。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 161,
+      "s": 72,
+      "start": 423.52,
+      "end": 425.5,
+      "text": "怎么样申请学士学位？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 162,
+      "s": 73,
+      "start": 425.5,
+      "end": 427.18,
+      "text": "我记得我上大学时",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 163,
+      "s": 73,
+      "start": 427.18,
+      "end": 429.98,
+      "text": "申请学士学位的其中一些条件",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 164,
+      "s": 73,
+      "start": 429.98,
+      "end": 433.12,
+      "text": "包括要达到一定的课程学分。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 165,
+      "s": 74,
+      "start": 433.38,
+      "end": 435.29,
+      "text": "通过毕业论文答辩，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 166,
+      "s": 74,
+      "start": 435.41,
+      "end": 438.08,
+      "text": "通过全国大学生英语四级考试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 167,
+      "s": 74,
+      "start": 438.08,
+      "end": 440.63,
+      "text": "和全国计算机二级考试等。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 168,
+      "s": 75,
+      "start": 440.82,
+      "end": 443.05,
+      "text": "但在准备这期节目的时候，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 169,
+      "s": 75,
+      "start": 443.38,
+      "end": 446.02,
+      "text": "据我所查到的最新资料是说，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "s": 76,
+      "start": 446.02,
+      "end": 448.78,
+      "text": "现在全国大学生英语四级考试",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 171,
+      "s": 76,
+      "start": 448.78,
+      "end": 451.96,
+      "text": "已经不再作为拿学位的必要条件了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 172,
+      "s": 77,
+      "start": 452.4,
+      "end": 455.32,
+      "text": "说真的，对非英语专业的大学生来说，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 173,
+      "s": 77,
+      "start": 455.32,
+      "end": 457.72,
+      "text": "这个考试还是比较有难度的。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 174,
+      "s": 78,
+      "start": 458,
+      "end": 459.96,
+      "text": "我记得我当时有很多同学",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 175,
+      "s": 78,
+      "start": 459.96,
+      "end": 461.36,
+      "text": "没拿到学士学位，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 176,
+      "s": 78,
+      "start": 461.36,
+      "end": 463.3,
+      "text": "就是因为这个考试没通过。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 177,
+      "s": 79,
+      "start": 463.62,
+      "end": 466.42,
+      "text": "本科又根据学校专业的好坏",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 178,
+      "s": 79,
+      "start": 466.42,
+      "end": 470.2,
+      "text": "分三个等级：一本、二本、三本。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 179,
+      "s": 80,
+      "start": 470.56,
+      "end": 473.78,
+      "text": "分数最高和学费最便宜的是一本，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 180,
+      "s": 80,
+      "start": 473.78,
+      "end": 476.44,
+      "text": "只有极少数的学生能考上；",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 181,
+      "s": 80,
+      "start": 476.44,
+      "end": 479.56,
+      "text": "三本是分数最低和学费最贵的。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 182,
+      "s": 81,
+      "start": 480.68,
+      "end": 483.5,
+      "text": "本科毕业后，如果想再继续深造，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 183,
+      "s": 81,
+      "start": 483.5,
+      "end": 485.74,
+      "text": "还可以参加研究生考试。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 184,
+      "s": 82,
+      "start": 485.9,
+      "end": 487.08,
+      "text": "研究生又包括",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 185,
+      "s": 82,
+      "start": 487.08,
+      "end": 489.62,
+      "text": "硕士研究生和博士研究生。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 186,
+      "s": 83,
+      "start": 490.17,
+      "end": 492.57,
+      "text": "接下来，我想说说中国教育",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 187,
+      "s": 83,
+      "start": 492.57,
+      "end": 495.36,
+      "text": "与西方教育的一些主要不同点。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 188,
+      "s": 84,
+      "start": 496.69,
+      "end": 498.43,
+      "text": "一、在校时间，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 189,
+      "s": 84,
+      "start": 498.43,
+      "end": 499.93,
+      "text": "在西方很多国家，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 190,
+      "s": 84,
+      "start": 499.93,
+      "end": 502.61,
+      "text": "学生只用去学校半天，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 191,
+      "s": 84,
+      "start": 502.61,
+      "end": 505.98,
+      "text": "而中国学生的在校时间是比较长的。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 192,
+      "s": 85,
+      "start": 506.39,
+      "end": 508.93,
+      "text": "国家规定，学生每日学习时间",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 193,
+      "s": 85,
+      "start": 508.93,
+      "end": 511.11,
+      "text": "小学不超过六小时，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 194,
+      "s": 85,
+      "start": 511.11,
+      "end": 513.19,
+      "text": "中学不超过八小时，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 195,
+      "s": 85,
+      "start": 513.19,
+      "end": 514.86,
+      "text": "大学不超过十小时。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 196,
+      "s": 86,
+      "start": 515.16,
+      "end": 516.94,
+      "text": "初等教育和中等教育",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 197,
+      "s": 86,
+      "start": 516.94,
+      "end": 519.16,
+      "text": "一节课一般是四十分钟，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 198,
+      "s": 86,
+      "start": 519.16,
+      "end": 520.98,
+      "text": "课间休息十分钟。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 199,
+      "s": 87,
+      "start": 521.26,
+      "end": 522.98,
+      "text": "高等教育一般一节课是",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 200,
+      "s": 87,
+      "start": 522.98,
+      "end": 524.9,
+      "text": "一小时到一个半小时，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 201,
+      "s": 87,
+      "start": 524.9,
+      "end": 526.88,
+      "text": "课间休息十到二十分钟。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 202,
+      "s": 88,
+      "start": 527.94,
+      "end": 530.94,
+      "text": "二教师，西方很多学校的教师",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 203,
+      "s": 88,
+      "start": 530.94,
+      "end": 532.76,
+      "text": "都是一两个人负责",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 204,
+      "s": 88,
+      "start": 532.76,
+      "end": 535.14,
+      "text": "一个班的所有课程教学，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 205,
+      "s": 89,
+      "start": 535.38,
+      "end": 538.42,
+      "text": "而中国教师的分科是非常明确的，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 206,
+      "s": 89,
+      "start": 538.42,
+      "end": 539.62,
+      "text": "基本上一个老师",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 207,
+      "s": 89,
+      "start": 539.62,
+      "end": 541.58,
+      "text": "只负责一门主要学科。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 208,
+      "s": 90,
+      "start": 541.77,
+      "end": 543.71,
+      "text": "但会同时教几个班，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 209,
+      "s": 90,
+      "start": 543.71,
+      "end": 546.63,
+      "text": "比如我原来只教英语这门学科，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 210,
+      "s": 90,
+      "start": 546.63,
+      "end": 549.34,
+      "text": "但我要教二到三个班级的学生。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 211,
+      "s": 91,
+      "start": 550.51,
+      "end": 553.07,
+      "text": "三教学方法和侧重点：",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 212,
+      "s": 91,
+      "start": 553.07,
+      "end": 554.49,
+      "text": "西方教育比较注重",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 213,
+      "s": 91,
+      "start": 554.49,
+      "end": 556.67,
+      "text": "培养学生的综合能力，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 214,
+      "s": 91,
+      "start": 556.69,
+      "end": 559.93,
+      "text": "鼓励创新思维、个性发展；",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 215,
+      "s": 92,
+      "start": 559.93,
+      "end": 562.84,
+      "text": "而中国教育主要是填鸭式教学。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 216,
+      "s": 93,
+      "start": 563.35,
+      "end": 565.02,
+      "text": "什么是填鸭式教学？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 217,
+      "s": 94,
+      "start": 565.33,
+      "end": 567.87,
+      "text": "在鸭子生长到一定时期。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 218,
+      "s": 95,
+      "start": 567.93,
+      "end": 570.49,
+      "text": "通过按时把做成长条的饲料",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 219,
+      "s": 95,
+      "start": 570.49,
+      "end": 574.25,
+      "text": "从鸭嘴填进去，以减少鸭子的运动量，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 220,
+      "s": 95,
+      "start": 574.25,
+      "end": 576.42,
+      "text": "使其快速增加重量。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 221,
+      "s": 96,
+      "start": 576.49,
+      "end": 577.95,
+      "text": "这就是填鸭。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 222,
+      "s": 97,
+      "start": 578.35,
+      "end": 579.83,
+      "text": "所以，填鸭式教学法",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 223,
+      "s": 97,
+      "start": 579.83,
+      "end": 584.45,
+      "text": "就是指灌输式教育，以教师教为主，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 224,
+      "s": 97,
+      "start": 584.45,
+      "end": 586.57,
+      "text": "学生在很大程度上",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 225,
+      "s": 97,
+      "start": 586.57,
+      "end": 589.41,
+      "text": "只是被动的接受知识。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 226,
+      "s": 98,
+      "start": 589.83,
+      "end": 591.29,
+      "text": "最后不得不说，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 227,
+      "s": 98,
+      "start": 591.29,
+      "end": 594.19,
+      "text": "中国的学生真的是很辛苦哦。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 228,
+      "s": 99,
+      "start": 594.21,
+      "end": 596.33,
+      "text": "因为中国人口众多，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 229,
+      "s": 99,
+      "start": 596.33,
+      "end": 598.39,
+      "text": "竞争压力也随之增大，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 230,
+      "s": 99,
+      "start": 598.39,
+      "end": 600.89,
+      "text": "这是一个短期内不能改变的现实。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 231,
+      "s": 100,
+      "start": 601.21,
+      "end": 604.51,
+      "text": "中国家长对孩子的教育特别重视，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 232,
+      "s": 100,
+      "start": 604.51,
+      "end": 606.59,
+      "text": "不惜在教育上花血本。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 233,
+      "s": 101,
+      "start": 606.91,
+      "end": 609.95,
+      "text": "为了怕自己的孩子输在起跑线上，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 234,
+      "s": 101,
+      "start": 609.95,
+      "end": 611.73,
+      "text": "很多孩子从幼儿园开始",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 235,
+      "s": 101,
+      "start": 611.73,
+      "end": 614.87,
+      "text": "就在外上各种各样的补习班了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 236,
+      "s": 102,
+      "start": 615.87,
+      "end": 617.29,
+      "text": "作为一名教育者，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 237,
+      "s": 102,
+      "start": 617.29,
+      "end": 619.05,
+      "text": "我认为中国的教育模式",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 238,
+      "s": 102,
+      "start": 619.05,
+      "end": 621.45,
+      "text": "还有很多需要改进的地方。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 239,
+      "s": 103,
+      "start": 621.51,
+      "end": 624.8,
+      "text": "但从中国这样庞大的人口基数来看，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 240,
+      "s": 103,
+      "start": 624.91,
+      "end": 626.79,
+      "text": "也不可能在一个班",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 241,
+      "s": 103,
+      "start": 626.79,
+      "end": 629.55,
+      "text": "五十六十个学生的情况下，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 242,
+      "s": 104,
+      "start": 629.57,
+      "end": 632.39,
+      "text": "把侧重点放在对他们的个性发展、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 243,
+      "s": 104,
+      "start": 632.39,
+      "end": 634.11,
+      "text": "创新思维的引领上，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 244,
+      "s": 104,
+      "start": 634.49,
+      "end": 637.04,
+      "text": "因为这需要更多的师资。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 245,
+      "s": 105,
+      "start": 637.21,
+      "end": 638.95,
+      "text": "所以我认为家长的作用",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 246,
+      "s": 105,
+      "start": 638.95,
+      "end": 641.27,
+      "text": "在这个方面更显得重要。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 247,
+      "s": 106,
+      "start": 642.85,
+      "end": 645.51,
+      "text": "到这里，今天的节目也即将结束了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 248,
+      "s": 107,
+      "start": 645.51,
+      "end": 646.57,
+      "text": "我也很好奇",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 249,
+      "s": 107,
+      "start": 646.57,
+      "end": 648.95,
+      "text": "你们国家的教育体制是怎样的？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 250,
+      "s": 108,
+      "start": 649.05,
+      "end": 651.42,
+      "text": "学生的学习压力大吗？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 251,
+      "s": 109,
+      "start": 651.45,
+      "end": 652.79,
+      "text": "竞争激烈吗？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 252,
+      "s": 110,
+      "start": 653.07,
+      "end": 655.37,
+      "text": "入学升学需要考试吗？",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 253,
+      "s": 111,
+      "start": 655.47,
+      "end": 656.61,
+      "text": "欢迎来我的Twitter、",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 254,
+      "s": 111,
+      "start": 656.61,
+      "end": 657.89,
+      "text": "Facebook或主页",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 255,
+      "s": 111,
+      "start": 657.89,
+      "end": 658.82,
+      "text": "与大家分享。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 256,
+      "s": 112,
+      "start": 659.95,
+      "end": 662.59,
+      "text": "下期节目我们会说一个流行语，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 257,
+      "s": 112,
+      "start": 662.59,
+      "end": 664.93,
+      "text": "如果你对这一主题感兴趣，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 258,
+      "s": 112,
+      "start": 664.93,
+      "end": 666.37,
+      "text": "千万别错过了。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 259,
+      "s": 113,
+      "start": 666.51,
+      "end": 667.94,
+      "text": "感谢大家对我们的支持，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 260,
+      "s": 113,
+      "start": 668.29,
+      "end": 669.95,
+      "text": "感谢大家在iTunes上",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 261,
+      "s": 113,
+      "start": 669.95,
+      "end": 671.36,
+      "text": "给我们的每一个好评，",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 262,
+      "s": 114,
+      "start": 671.61,
+      "end": 672.75,
+      "text": "特别感谢",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 263,
+      "s": 114,
+      "start": 672.75,
+      "end": 674.89,
+      "text": "参与我们募集计划的朋友们。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 264,
+      "s": 115,
+      "start": 675.06,
+      "end": 678.99,
+      "text": "有你们，这个播客才能继续进行下去。",
+      "speaker": "A",
+      "role": "storyteller"
+    },
+    {
+      "i": 265,
+      "s": 116,
+      "start": 679.74,
+      "end": 683.42,
+      "text": "祝大家心情愉快，我们下周不见不散。",
+      "speaker": "A",
+      "role": "storyteller"
+    }
+  ]
+}

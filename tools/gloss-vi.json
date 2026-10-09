@@ -269,7 +269,7 @@
  ],
  "为": [
   "VI",
-  "vì, cho; làm, coi là"
+  "vì, cho; làm, coi là; là (学制为六年: hệ học là 6 năm)"
  ],
  "妈妈": [
   "MA MA",
@@ -3189,7 +3189,7 @@
  ],
  "哦": [
   "Ồ",
-  "ồ, à"
+  "ồ, à; (cuối câu) đấy, nhé"
  ],
  "是不是": [
   "THỊ BẤT THỊ",
@@ -3441,7 +3441,7 @@
  ],
  "课程": [
   "KHÓA TRÌNH",
-  "khóa học"
+  "khóa học; chương trình học, môn học"
  ],
  "号": [
   "HIỆU",
@@ -4981,7 +4981,7 @@
  ],
  "以": [
   "DĨ",
-  "lấy, bằng, theo"
+  "lấy, bằng, theo; để (以帮助, 以减少: để giúp, để giảm)"
  ],
  "满满的": [
   "MÃN MÃN ĐÍCH",
@@ -5205,7 +5205,7 @@
  ],
  "专业": [
   "CHUYÊN NGHIỆP",
-  "chuyên môn; chuyên nghiệp"
+  "chuyên môn; chuyên nghiệp; ngành học (đại học)"
  ],
  "理发师": [
   "LÝ PHÁT SƯ",
@@ -6025,7 +6025,7 @@
  ],
  "来说": [
   "LAI THUYẾT",
-  "(对…来说) đối với… mà nói; (来 + 说, như 拿出来说) ra nói, lấy ra nói"
+  "(对…来说) đối với… mà nói; (来 + 说, như 拿出来说) ra nói, lấy ra nói; (我们来说说) cùng nói về"
  ],
  "筛": [
   "SÀNG",
@@ -8141,7 +8141,7 @@
  ],
  "哪几个": [
   "NA KỶ CÁ",
-  "mấy người nào"
+  "mấy người nào; những … nào (哪几个阶段: những giai đoạn nào)"
  ],
  "女人": [
   "NỮ NHÂN",
@@ -9313,7 +9313,7 @@
  ],
  "填": [
   "ĐIỀN",
-  "điền (đơn); lấp (坑填不上: hố lấp không đầy)"
+  "điền (đơn); lấp (坑填不上: hố lấp không đầy); nhồi, nhét (填鸭: nhồi vịt)"
  ],
  "注册": [
   "CHÚ SÁCH",
@@ -10041,7 +10041,7 @@
  ],
  "文化": [
   "VĂN HÓA",
-  "văn hoá"
+  "văn hoá; học vấn (文化水平: trình độ học vấn; 文化知识: kiến thức các môn học)"
  ],
  "萨伊德": [
   "TÁT Y ĐỨC",
@@ -10689,7 +10689,7 @@
  ],
  "据": [
   "CỨ",
-  "chiếm (日据时期: thời Nhật chiếm đóng); căn cứ"
+  "chiếm (日据时期: thời Nhật chiếm đóng); căn cứ; theo (据我所查: theo tôi tra được)"
  ],
  "时期": [
   "THỜI KỲ",
@@ -12701,7 +12701,7 @@
  ],
  "只用": [
   "CHỈ DỤNG",
-  "chỉ dùng"
+  "chỉ dùng; chỉ cần, chỉ phải (只用去学校半天)"
  ],
  "半小时": [
   "BÁN TIỂU THỜI",
@@ -24349,7 +24349,7 @@
  ],
  "填志愿": [
   "ĐIỀN CHÍ NGUYỆN",
-  "điền nguyện vọng (đăng ký trường đại học)"
+  "điền nguyện vọng (đăng ký trường đại học); (trước 中考) đăng ký nguyện vọng vào cấp ba"
  ],
  "那大": [
   "NA ĐẠI",
@@ -25465,7 +25465,7 @@
  ],
  "专科": [
   "CHUYÊN KHOA",
-  "chuyên khoa; trường chuyên ngành"
+  "chuyên khoa; trường chuyên ngành; hệ cao đẳng (2–3 năm)"
  ],
  "万恶": [
   "VẠN ÁC",
@@ -31506,5 +31506,557 @@
  "欠缺": [
   "KHIẾM KHUYẾT",
   "thiếu sót, khiếm khuyết"
+ ],
+ "初等教育": [
+  "SƠ ĐẲNG GIÁO DỤC",
+  "giáo dục tiểu học (bậc sơ đẳng)"
+ ],
+ "中等教育": [
+  "TRUNG ĐẲNG GIÁO DỤC",
+  "giáo dục trung học (cấp hai và cấp ba)"
+ ],
+ "学前教育": [
+  "HỌC TIỀN GIÁO DỤC",
+  "giáo dục mầm non (trước tuổi đi học)"
+ ],
+ "强制性": [
+  "CƯỠNG CHẾ TÍNH",
+  "tính bắt buộc; bắt buộc"
+ ],
+ "免试": [
+  "MIỄN THÍ",
+  "miễn thi, không cần thi"
+ ],
+ "学士学位": [
+  "HỌC SĨ HỌC VỊ",
+  "bằng cử nhân"
+ ],
+ "侧重点": [
+  "TRẮC TRỌNG ĐIỂM",
+  "điểm chú trọng, trọng tâm"
+ ],
+ "学区": [
+  "HỌC KHU",
+  "khu vực tuyển sinh của trường (theo nơi ở)"
+ ],
+ "中专": [
+  "TRUNG CHUYÊN",
+  "trường trung cấp chuyên nghiệp"
+ ],
+ "职高": [
+  "CHỨC CAO",
+  "trường cấp ba dạy nghề (viết tắt của 职业高中)"
+ ],
+ "填写": [
+  "ĐIỀN TẢ",
+  "điền (vào đơn, phiếu)"
+ ],
+ "填鸭式": [
+  "ĐIỀN ÁP THỨC",
+  "kiểu nhồi nhét (như nhồi thức ăn cho vịt)"
+ ],
+ "有所不同": [
+  "HỮU SỞ BẤT ĐỒNG",
+  "có phần khác nhau"
+ ],
+ "募集": [
+  "MỘ TẬP",
+  "quyên góp, gây quỹ"
+ ],
+ "养成": [
+  "DƯỠNG THÀNH",
+  "hình thành, rèn thành (thói quen, năng lực)"
+ ],
+ "学制": [
+  "HỌC CHẾ",
+  "hệ học, số năm học của một cấp"
+ ],
+ "就近": [
+  "TỰU CẬN",
+  "ở gần, gần nơi ở"
+ ],
+ "法治": [
+  "PHÁP TRỊ",
+  "pháp trị; (môn học) pháp luật"
+ ],
+ "信息技术": [
+  "TÍN TỨC KỸ THUẬT",
+  "công nghệ thông tin, tin học"
+ ],
+ "中考": [
+  "TRUNG KHẢO",
+  "kỳ thi vào cấp ba"
+ ],
+ "升": [
+  "THĂNG",
+  "lên, thăng (升大学: lên đại học)"
+ ],
+ "职业高中": [
+  "CHỨC NGHIỆP CAO TRUNG",
+  "trường cấp ba dạy nghề"
+ ],
+ "计算机": [
+  "KẾ TOÁN CƠ",
+  "máy tính"
+ ],
+ "普通高中": [
+  "PHỔ THÔNG CAO TRUNG",
+  "trường cấp ba phổ thông (không phải trường nghề)"
+ ],
+ "四级": [
+  "TỨ CẤP",
+  "cấp 4 (英语四级: chứng chỉ tiếng Anh cấp 4 của sinh viên)"
+ ],
+ "在校": [
+  "TẠI HIỆU",
+  "ở trường, đang đi học"
+ ],
+ "一节课": [
+  "NHẤT TIẾT KHÓA",
+  "một tiết học"
+ ],
+ "课间休息": [
+  "KHÓA GIAN HƯU TỨC",
+  "giờ nghỉ giữa các tiết, ra chơi"
+ ],
+ "创新": [
+  "SÁNG TÂN",
+  "đổi mới, sáng tạo"
+ ],
+ "鸭子": [
+  "ÁP TỬ",
+  "con vịt"
+ ],
+ "第四十一": [
+  "ĐỆ TỨ THẬP NHẤT",
+  "thứ 41"
+ ],
+ "佳佳": [
+  "GIAI GIAI",
+  "Giai Giai (tên người dẫn, Jiajia)"
+ ],
+ "相见": [
+  "TƯƠNG KIẾN",
+  "gặp nhau"
+ ],
+ "小班": [
+  "TIỂU BAN",
+  "lớp mầm (mẫu giáo 3–4 tuổi); lớp ít học sinh"
+ ],
+ "共": [
+  "CỘNG",
+  "tổng cộng; chung"
+ ],
+ "启蒙教育": [
+  "KHẢI MÔNG GIÁO DỤC",
+  "giáo dục khai tâm (dạy những điều đầu tiên cho trẻ)"
+ ],
+ "行为习惯": [
+  "HÀNH VI TẬP QUÁN",
+  "thói quen hành vi, nề nếp"
+ ],
+ "独立自主": [
+  "ĐỘC LẬP TỰ CHỦ",
+  "độc lập tự chủ, tự lập"
+ ],
+ "此外": [
+  "THỬ NGOẠI",
+  "ngoài ra"
+ ],
+ "文体": [
+  "VĂN THỂ",
+  "thể loại văn; văn nghệ và thể thao"
+ ],
+ "手工": [
+  "THỦ CÔNG",
+  "thủ công, làm đồ thủ công"
+ ],
+ "唱歌": [
+  "XƯỚNG CA",
+  "hát"
+ ],
+ "算术": [
+  "TOÁN THUẬT",
+  "số học, làm tính"
+ ],
+ "十二岁": [
+  "THẬP NHỊ TUẾ",
+  "12 tuổi"
+ ],
+ "入学考试": [
+  "NHẬP HỌC KHẢO THÍ",
+  "kỳ thi đầu vào"
+ ],
+ "民办学校": [
+  "DÂN BIỆN HỌC HIỆU",
+  "trường dân lập, trường tư"
+ ],
+ "少量": [
+  "THIỂU LƯỢNG",
+  "một ít, số lượng nhỏ"
+ ],
+ "留给": [
+  "LƯU CẤP",
+  "để lại cho, dành cho"
+ ],
+ "赞助费": [
+  "TÁN TRỢ PHÍ",
+  "phí tài trợ (tiền đóng cho trường để con được nhận)"
+ ],
+ "托关系": [
+  "THÁC QUAN HỆ",
+  "nhờ quan hệ, chạy cửa sau"
+ ],
+ "看重": [
+  "KHÁN TRỌNG",
+  "coi trọng"
+ ],
+ "二手房": [
+  "NHỊ THỦ PHÒNG",
+  "nhà mua lại, nhà đã qua sử dụng"
+ ],
+ "科学": [
+  "KHOA HỌC",
+  "khoa học"
+ ],
+ "三年级": [
+  "TAM NIÊN CẤP",
+  "lớp ba"
+ ],
+ "现今": [
+  "HIỆN KIM",
+  "ngày nay, hiện nay"
+ ],
+ "越来越重": [
+  "VIỆT LAI VIỆT TRỌNG",
+  "ngày càng nặng, ngày càng quan trọng"
+ ],
+ "五年级": [
+  "NGŨ NIÊN CẤP",
+  "lớp năm"
+ ],
+ "一年级": [
+  "NHẤT NIÊN CẤP",
+  "lớp một"
+ ],
+ "附属": [
+  "PHỤ THUỘC",
+  "phụ, phụ thuộc (附属科目: môn phụ)"
+ ],
+ "实践": [
+  "THỰC TIỄN",
+  "thực tiễn, thực hành (综合实践: môn thực hành tổng hợp)"
+ ],
+ "十七岁": [
+  "THẬP THẤT TUẾ",
+  "17 tuổi"
+ ],
+ "中等学校": [
+  "TRUNG ĐẲNG HỌC HIỆU",
+  "trường trung học"
+ ],
+ "普通中学": [
+  "PHỔ THÔNG TRUNG HỌC",
+  "trường trung học phổ thông (cấp hai và cấp ba)"
+ ],
+ "范畴": [
+  "PHẠM TRÙ",
+  "phạm trù, phạm vi"
+ ],
+ "一九八六年": [
+  "NHẤT CỬU BÁT LỤC NIÊN",
+  "năm 1986"
+ ],
+ "实施": [
+  "THỰC THI",
+  "thực thi, áp dụng"
+ ],
+ "就近入学": [
+  "TỰU CẬN NHẬP HỌC",
+  "học ở trường gần nhà"
+ ],
+ "以下": [
+  "DĨ HẠ",
+  "dưới đây, sau đây; trở xuống"
+ ],
+ "初三": [
+  "SƠ TAM",
+  "lớp 9 (năm cuối cấp hai); mùng 3 (âm lịch)"
+ ],
+ "各省": [
+  "CÁC TỈNH",
+  "các tỉnh"
+ ],
+ "统一安排": [
+  "THỐNG NHẤT AN BÀI",
+  "sắp xếp thống nhất"
+ ],
+ "偏重于": [
+  "THIÊN TRỌNG Ư",
+  "thiên về, chú trọng vào"
+ ],
+ "文化教育": [
+  "VĂN HÓA GIÁO DỤC",
+  "giáo dục văn hóa (học kiến thức các môn, không phải học nghề)"
+ ],
+ "偏向": [
+  "THIÊN HƯỚNG",
+  "thiên về, nghiêng về"
+ ],
+ "技术性": [
+  "KỸ THUẬT TÍNH",
+  "tính kỹ thuật, thiên về kỹ thuật"
+ ],
+ "师范": [
+  "SƯ PHẠM",
+  "sư phạm"
+ ],
+ "餐饮": [
+  "XAN ẨM",
+  "ăn uống, ngành nhà hàng"
+ ],
+ "财经": [
+  "TÀI KINH",
+  "tài chính kinh tế"
+ ],
+ "社会工作": [
+  "XÃ HỘI CÔNG TÁC",
+  "công tác xã hội (进入社会工作: ra đời đi làm)"
+ ],
+ "专转本": [
+  "CHUYÊN CHUYỂN BẢN",
+  "liên thông từ cao đẳng lên đại học"
+ ],
+ "自身": [
+  "TỰ THÂN",
+  "bản thân, tự thân"
+ ],
+ "重点高中": [
+  "TRỌNG ĐIỂM CAO TRUNG",
+  "trường cấp ba trọng điểm (trường giỏi)"
+ ],
+ "师范学校": [
+  "SƯ PHẠM HỌC HIỆU",
+  "trường sư phạm"
+ ],
+ "以防万一": [
+  "DĨ PHÒNG VẠN NHẤT",
+  "để phòng hờ, phòng khi bất trắc"
+ ],
+ "以此类推": [
+  "DĨ THỬ LOẠI SUY",
+  "cứ thế suy ra, cứ như vậy tiếp"
+ ],
+ "几场": [
+  "KỶ TRƯỜNG",
+  "mấy buổi, mấy trận"
+ ],
+ "模拟考试": [
+  "MÔ NGHĨ KHẢO THÍ",
+  "thi thử"
+ ],
+ "第三年": [
+  "ĐỆ TAM NIÊN",
+  "năm thứ ba"
+ ],
+ "详细": [
+  "TƯỜNG TẾ",
+  "chi tiết, tỉ mỉ"
+ ],
+ "大学专科": [
+  "ĐẠI HỌC CHUYÊN KHOA",
+  "hệ cao đẳng (học 2–3 năm)"
+ ],
+ "学分": [
+  "HỌC PHÂN",
+  "tín chỉ"
+ ],
+ "论文答辩": [
+  "LUẬN VĂN ĐÁP BIỆN",
+  "bảo vệ luận văn"
+ ],
+ "二级": [
+  "NHỊ CẤP",
+  "cấp 2, hạng hai (计算机二级: chứng chỉ tin học cấp 2)"
+ ],
+ "查到": [
+  "TRA ĐÁO",
+  "tra được, tìm thấy"
+ ],
+ "必要条件": [
+  "TẤT YẾU ĐIỀU KIỆN",
+  "điều kiện bắt buộc, điều kiện cần"
+ ],
+ "英语专业": [
+  "ANH NGỮ CHUYÊN NGHIỆP",
+  "chuyên ngành tiếng Anh"
+ ],
+ "没拿到": [
+  "MỘT NÃ ĐÁO",
+  "không lấy được, không nhận được"
+ ],
+ "好坏": [
+  "HẢO HOẠI",
+  "tốt xấu, chất lượng"
+ ],
+ "极少数": [
+  "CỰC THIỂU SỐ",
+  "số rất ít"
+ ],
+ "深造": [
+  "THÂM TẠO",
+  "học lên cao, học sâu thêm"
+ ],
+ "不同点": [
+  "BẤT ĐỒNG ĐIỂM",
+  "điểm khác nhau"
+ ],
+ "六小时": [
+  "LỤC TIỂU THỜI",
+  "6 tiếng"
+ ],
+ "八小时": [
+  "BÁT TIỂU THỜI",
+  "8 tiếng"
+ ],
+ "十小时": [
+  "THẬP TIỂU THỜI",
+  "10 tiếng"
+ ],
+ "一个半": [
+  "NHẤT CÁ BÁN",
+  "một rưỡi"
+ ],
+ "分科": [
+  "PHÂN KHOA",
+  "phân môn (mỗi giáo viên dạy một môn)"
+ ],
+ "班级": [
+  "BAN CẤP",
+  "lớp học"
+ ],
+ "教学方法": [
+  "GIÁO HỌC PHƯƠNG PHÁP",
+  "phương pháp dạy học"
+ ],
+ "长条": [
+  "TRƯỜNG ĐIỀU",
+  "dải dài, thanh dài"
+ ],
+ "饲料": [
+  "TỰ LIỆU",
+  "thức ăn chăn nuôi"
+ ],
+ "鸭嘴": [
+  "ÁP CHỦY",
+  "mỏ vịt"
+ ],
+ "运动量": [
+  "VẬN ĐỘNG LƯỢNG",
+  "lượng vận động"
+ ],
+ "重量": [
+  "TRỌNG LƯỢNG",
+  "trọng lượng, cân nặng"
+ ],
+ "填鸭": [
+  "ĐIỀN ÁP",
+  "nhồi vịt (nhồi thức ăn cho vịt béo nhanh)"
+ ],
+ "教学法": [
+  "GIÁO HỌC PHÁP",
+  "phương pháp giảng dạy"
+ ],
+ "灌输式": [
+  "QUÁN THÂU THỨC",
+  "kiểu nhồi nhét, rót kiến thức một chiều"
+ ],
+ "人口众多": [
+  "NHÂN KHẨU CHÚNG ĐA",
+  "dân số đông"
+ ],
+ "随之": [
+  "TÙY CHI",
+  "theo đó, kéo theo"
+ ],
+ "增大": [
+  "TĂNG ĐẠI",
+  "tăng lên, lớn thêm"
+ ],
+ "短期内": [
+  "ĐOẢN KỲ NỘI",
+  "trong ngắn hạn"
+ ],
+ "重视": [
+  "TRỌNG THỊ",
+  "coi trọng"
+ ],
+ "不惜": [
+  "BẤT TÍCH",
+  "không tiếc, sẵn sàng bỏ ra"
+ ],
+ "血本": [
+  "HUYẾT BẢN",
+  "vốn liếng (tiền mồ hôi nước mắt) (花血本: dốc hết vốn liếng)"
+ ],
+ "输在": [
+  "THÂU TẠI",
+  "thua ở (输在起跑线上: thua ngay từ vạch xuất phát)"
+ ],
+ "起跑线": [
+  "KHỞI BÀO TUYẾN",
+  "vạch xuất phát"
+ ],
+ "在外": [
+  "TẠI NGOẠI",
+  "ở ngoài, bên ngoài"
+ ],
+ "补习班": [
+  "BỔ TẬP BAN",
+  "lớp học thêm"
+ ],
+ "教育者": [
+  "GIÁO DỤC GIẢ",
+  "nhà giáo dục, người làm giáo dục"
+ ],
+ "庞大": [
+  "BÀNG ĐẠI",
+  "khổng lồ, đồ sộ"
+ ],
+ "人口基数": [
+  "NHÂN KHẨU CƠ SỐ",
+  "quy mô dân số"
+ ],
+ "引领": [
+  "DẪN LĨNH",
+  "dẫn dắt"
+ ],
+ "师资": [
+  "SƯ TƯ",
+  "đội ngũ giáo viên"
+ ],
+ "怎样": [
+  "CHẨM DẠNG",
+  "thế nào, ra sao"
+ ],
+ "流行语": [
+  "LƯU HÀNH NGỮ",
+  "từ ngữ thịnh hành"
+ ],
+ "别错过": [
+  "BIỆT THÁC QUÁ",
+  "đừng bỏ lỡ"
+ ],
+ "好评": [
+  "HẢO BÌNH",
+  "đánh giá tốt"
+ ],
+ "特别感谢": [
+  "ĐẶC BIỆT CẢM TẠ",
+  "đặc biệt cảm ơn"
+ ],
+ "心情愉快": [
+  "TÂM TÌNH DU KHOÁI",
+  "tâm trạng vui vẻ"
  ]
 }

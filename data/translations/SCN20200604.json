@@ -1,0 +1,1524 @@
+{
+  "episode": "SCN20200604",
+  "summary": [
+    "Đây là số 41 của podcast 《自然而然说中文》 (Speak Chinese Naturally), chương trình dạy tiếng Trung cho người nước ngoài; người dẫn là cô giáo Giai Giai (Jiajia), trước đây từng dạy tiếng Anh. Cả số chỉ có mình cô nói, chậm và rõ, giới thiệu hệ thống giáo dục Trung Quốc.",
+    "Cô đi lần lượt từng cấp: mẫu giáo (3–6 tuổi, không bắt buộc), tiểu học 6 năm và cấp hai 3 năm, gộp thành 9 năm giáo dục bắt buộc, miễn phí, áp dụng từ năm 1986. Cô giải thích chuyện khu tuyển sinh: học sinh vào trường gần nhà mà không cần thi, nên phụ huynh muốn con học trường tốt thì phải cho con thi vào trường trọng điểm, đóng phí tài trợ và nhờ quan hệ, hoặc mua nhà trong khu của trường tốt — vì thế loại nhà này rất đắt. Hết lớp 9 là kỳ thi vào cấp ba (中考), có phiếu nguyện vọng và các đợt thi thử; sau đó có thể học cấp ba, cao đẳng 5 năm, cấp ba dạy nghề hoặc trung cấp. Rồi đến đại học: hệ cao đẳng, hệ cử nhân chia ba hạng 一本, 二本, 三本, điều kiện lấy bằng cử nhân (hồi cô học phải đỗ kỳ thi tiếng Anh cấp 4), và sau đại học.",
+    "Phần cuối so sánh với phương Tây: học sinh Trung Quốc ở trường lâu hơn, mỗi giáo viên chỉ dạy một môn nhưng nhiều lớp, và cách dạy kiểu \"nhồi vịt\" (填鸭式) — cô giải thích nghĩa đen của từ này. Cô nói học sinh Trung Quốc rất vất vả, phụ huynh dốc tiền cho con đi học thêm từ mẫu giáo vì sợ con \"thua ngay từ vạch xuất phát\", và cho rằng với những lớp năm sáu chục em, vai trò của phụ huynh càng quan trọng. Số sau sẽ nói về một từ đang thịnh hành."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "您正在收听的是《自然而然说中文》第四十一期《中国的教育》，我是佳佳，",
+      "parts": [
+        {
+          "zh": "您正在收听的是《自然而然说中文》",
+          "vi": "Bạn đang nghe «Tự nhiên mà nói tiếng Trung»,"
+        },
+        {
+          "zh": "第四十一期《中国的教育》，我是佳佳，",
+          "vi": "số 41, «Giáo dục Trung Quốc», tôi là Giai Giai,"
+        }
+      ]
+    },
+    "1": {
+      "zh": "很高兴又与大家在新的一期节目中相见。",
+      "parts": [
+        {
+          "zh": "很高兴又与大家",
+          "vi": "rất vui lại được cùng các bạn"
+        },
+        {
+          "zh": "在新的一期节目中相见。",
+          "vi": "gặp nhau trong số mới của chương trình."
+        }
+      ]
+    },
+    "2": {
+      "zh": "你们一切都好吗？",
+      "vi": "Các bạn vẫn khỏe cả chứ?"
+    },
+    "3": {
+      "zh": "希望如此。",
+      "vi": "Mong là vậy."
+    },
+    "4": {
+      "zh": "每个国家的教育体制都有所不同，在今天的节目中，我将带大家一起去了解一下。中国的教育体制，再次提醒参加我们募集计划的朋友们，",
+      "parts": [
+        {
+          "zh": "每个国家的教育体制都有所不同，",
+          "vi": "Hệ thống giáo dục của mỗi nước đều có phần khác nhau,"
+        },
+        {
+          "zh": "在今天的节目中，我将带大家",
+          "vi": "trong chương trình hôm nay, tôi sẽ đưa các bạn"
+        },
+        {
+          "zh": "一起去了解一下。中国的教育体制，",
+          "vi": "cùng tìm hiểu hệ thống giáo dục của Trung Quốc."
+        },
+        {
+          "zh": "再次提醒",
+          "vi": "Xin nhắc lại"
+        },
+        {
+          "zh": "参加我们募集计划的朋友们，",
+          "vi": "các bạn tham gia chương trình gây quỹ của chúng tôi:"
+        }
+      ]
+    },
+    "6": {
+      "zh": "可以在我们的网站speakchinesenaturally.com下载到本期节目的完整文本。",
+      "parts": [
+        {
+          "zh": "可以在我们的网站",
+          "vi": "các bạn có thể vào trang web của chúng tôi"
+        },
+        {
+          "zh": "speakchinesenaturally.com",
+          "vi": "speakchinesenaturally.com"
+        },
+        {
+          "zh": "下载到本期节目的完整文本。",
+          "vi": "để tải toàn văn bản của số này."
+        }
+      ]
+    },
+    "8": {
+      "zh": "下面进入今天的主题，首先我们来说说中国的教育体制分为哪几个阶段？",
+      "parts": [
+        {
+          "zh": "下面进入今天的主题，",
+          "vi": "Sau đây, chúng ta vào chủ đề hôm nay,"
+        },
+        {
+          "zh": "首先我们来说说中国的教育体制",
+          "vi": "trước hết hãy nói xem hệ thống giáo dục Trung Quốc"
+        },
+        {
+          "zh": "分为哪几个阶段？",
+          "vi": "chia thành những giai đoạn nào?"
+        }
+      ]
+    },
+    "9": {
+      "zh": "它大致可分为学前教育、初等教育、中等教育和高等教育。",
+      "parts": [
+        {
+          "zh": "它大致可分为学前教育、初等教育、",
+          "vi": "Đại khái có thể chia thành giáo dục mầm non, giáo dục tiểu học,"
+        },
+        {
+          "zh": "中等教育和高等教育。",
+          "vi": "giáo dục trung học và giáo dục đại học."
+        }
+      ]
+    },
+    "10": {
+      "zh": "我们先来说学前教育，它是指三到六岁的儿童在幼儿园接受的教育过程。",
+      "parts": [
+        {
+          "zh": "我们先来说学前教育，",
+          "vi": "Trước tiên nói về giáo dục mầm non,"
+        },
+        {
+          "zh": "它是指三到六岁的儿童",
+          "vi": "đó là chỉ việc trẻ em từ 3 đến 6 tuổi"
+        },
+        {
+          "zh": "在幼儿园接受的教育过程。",
+          "vi": "được giáo dục ở trường mẫu giáo."
+        }
+      ]
+    },
+    "11": {
+      "zh": "幼儿园一般分小班、中班、大班，共三年。",
+      "vi": "Mẫu giáo thường chia lớp mầm, lớp chồi, lớp lá, tổng cộng 3 năm."
+    },
+    "12": {
+      "zh": "这里要说明的是，学前教育并不是强制性的，也就是说，",
+      "parts": [
+        {
+          "zh": "这里要说明的是，",
+          "vi": "Ở đây cần nói rõ là"
+        },
+        {
+          "zh": "学前教育并不是强制性的，也就是说，",
+          "vi": "giáo dục mầm non không hề bắt buộc, tức là"
+        }
+      ]
+    },
+    "13": {
+      "zh": "家长可以选择是否送自己的孩子去幼儿园。",
+      "parts": [
+        {
+          "zh": "家长可以选择",
+          "vi": "phụ huynh có thể chọn"
+        },
+        {
+          "zh": "是否送自己的孩子去幼儿园。",
+          "vi": "có cho con mình đi mẫu giáo hay không."
+        }
+      ]
+    },
+    "14": {
+      "zh": "虽然说不是强制性的，但大多数的家长因为工作的原因。",
+      "parts": [
+        {
+          "zh": "虽然说不是强制性的，",
+          "vi": "Tuy nói là không bắt buộc,"
+        },
+        {
+          "zh": "但大多数的家长因为工作的原因。",
+          "vi": "nhưng đa số phụ huynh, vì lý do công việc"
+        }
+      ]
+    },
+    "15": {
+      "zh": "和想让孩子得到专业的启蒙教育，一般都会把孩子送去幼儿园。",
+      "parts": [
+        {
+          "zh": "和想让孩子得到专业的启蒙教育，",
+          "vi": "và vì muốn con được giáo dục khai tâm bài bản,"
+        },
+        {
+          "zh": "一般都会把孩子送去幼儿园。",
+          "vi": "thường đều gửi con đi mẫu giáo."
+        }
+      ]
+    },
+    "16": {
+      "zh": "那么，在幼儿园里学什么呢？",
+      "vi": "Vậy ở mẫu giáo thì học những gì?"
+    },
+    "17": {
+      "zh": "幼儿园主要是帮这个阶段的孩子养成一些良好的行为习惯，发展一些新的能力及兴趣，",
+      "parts": [
+        {
+          "zh": "幼儿园主要是帮这个阶段的孩子",
+          "vi": "Mẫu giáo chủ yếu giúp trẻ ở giai đoạn này"
+        },
+        {
+          "zh": "养成一些良好的行为习惯，",
+          "vi": "hình thành một số thói quen tốt,"
+        },
+        {
+          "zh": "发展一些新的能力及兴趣，",
+          "vi": "phát triển một số năng lực và sở thích mới,"
+        }
+      ]
+    },
+    "18": {
+      "zh": "比如帮他们养成独立自主的能力、适应新环境的能力，教他们如何与他人相处。",
+      "parts": [
+        {
+          "zh": "比如帮他们养成独立自主的能力、",
+          "vi": "ví dụ giúp các bé rèn khả năng tự lập,"
+        },
+        {
+          "zh": "适应新环境的能力，",
+          "vi": "khả năng thích nghi với môi trường mới,"
+        },
+        {
+          "zh": "教他们如何与他人相处。",
+          "vi": "dạy các bé cách hòa đồng với người khác,"
+        }
+      ]
+    },
+    "19": {
+      "zh": "如何与别人分享等等。",
+      "vi": "cách chia sẻ với người khác, vân vân."
+    },
+    "20": {
+      "zh": "此外，每个幼儿园的教学特色也有所不同。",
+      "parts": [
+        {
+          "zh": "此外，每个幼儿园的教学特色",
+          "vi": "Ngoài ra, nét riêng trong cách dạy của mỗi trường mẫu giáo"
+        },
+        {
+          "zh": "也有所不同。",
+          "vi": "cũng có phần khác nhau."
+        }
+      ]
+    },
+    "21": {
+      "zh": "有些幼儿园会以文体为主，比如画画、手工、唱歌、跳舞；",
+      "parts": [
+        {
+          "zh": "有些幼儿园会以文体为主，",
+          "vi": "Có trường lấy văn nghệ, thể thao làm chính,"
+        },
+        {
+          "zh": "比如画画、手工、唱歌、跳舞；",
+          "vi": "như vẽ tranh, làm thủ công, hát, múa;"
+        }
+      ]
+    },
+    "22": {
+      "zh": "还有些幼儿园会把侧重点放在教授一些简单的文化知识上，比如简单的算术、基础的英语等。",
+      "parts": [
+        {
+          "zh": "还有些幼儿园会把侧重点",
+          "vi": "cũng có trường đặt trọng tâm"
+        },
+        {
+          "zh": "放在教授一些简单的文化知识上，",
+          "vi": "vào việc dạy một ít kiến thức văn hóa đơn giản,"
+        },
+        {
+          "zh": "比如简单的算术、基础的英语等。",
+          "vi": "như làm tính đơn giản, tiếng Anh cơ bản."
+        }
+      ]
+    },
+    "23": {
+      "zh": "接下来六到十二岁的儿童在小学接受的教育过程，我们把它称为。初等教育，小学分六个年级，学制为六年。",
+      "parts": [
+        {
+          "zh": "接下来六到十二岁的儿童",
+          "vi": "Tiếp theo, quá trình trẻ em từ 6 đến 12 tuổi"
+        },
+        {
+          "zh": "在小学接受的教育过程，",
+          "vi": "được giáo dục ở trường tiểu học,"
+        },
+        {
+          "zh": "我们把它称为。初等教育，",
+          "vi": "chúng ta gọi là giáo dục sơ đẳng (tiểu học),"
+        },
+        {
+          "zh": "小学分六个年级，学制为六年。",
+          "vi": "tiểu học chia 6 khối lớp, học trong 6 năm."
+        }
+      ]
+    },
+    "25": {
+      "zh": "与学前教育不同的是，初等教育是强制性的。",
+      "parts": [
+        {
+          "zh": "与学前教育不同的是，",
+          "vi": "Khác với giáo dục mầm non,"
+        },
+        {
+          "zh": "初等教育是强制性的。",
+          "vi": "giáo dục tiểu học là bắt buộc."
+        }
+      ]
+    },
+    "26": {
+      "zh": "法律规定它是免试入学、免试就近升学。",
+      "parts": [
+        {
+          "zh": "法律规定它是免试入学、",
+          "vi": "Luật quy định vào tiểu học không cần thi,"
+        },
+        {
+          "zh": "免试就近升学。",
+          "vi": "lên cấp trên cũng không cần thi, học ở trường gần nhà."
+        }
+      ]
+    },
+    "27": {
+      "zh": "如果家长不喜欢学区里的学校怎么办？",
+      "parts": [
+        {
+          "zh": "如果家长不喜欢",
+          "vi": "Nếu phụ huynh không thích"
+        },
+        {
+          "zh": "学区里的学校怎么办？",
+          "vi": "trường trong khu tuyển sinh của mình thì sao?"
+        }
+      ]
+    },
+    "28": {
+      "zh": "有两个方法：一是带孩子去参加一些有入学考试的学校，一般是重点学校或民办学校。",
+      "parts": [
+        {
+          "zh": "有两个方法：一是带孩子去参加",
+          "vi": "Có hai cách: một là cho con đi thi"
+        },
+        {
+          "zh": "一些有入学考试的学校，",
+          "vi": "vào những trường có kỳ thi đầu vào,"
+        },
+        {
+          "zh": "一般是重点学校或民办学校。",
+          "vi": "thường là trường trọng điểm hoặc trường dân lập."
+        }
+      ]
+    },
+    "29": {
+      "zh": "如果考不上呢？",
+      "vi": "Nếu thi không đỗ thì sao?"
+    },
+    "30": {
+      "zh": "这些学校都会有少量名额留给交赞助费的家长，因为名额比较少，",
+      "parts": [
+        {
+          "zh": "这些学校都会有少量名额",
+          "vi": "Những trường này đều có một ít suất"
+        },
+        {
+          "zh": "留给交赞助费的家长，",
+          "vi": "dành cho phụ huynh đóng phí tài trợ,"
+        },
+        {
+          "zh": "因为名额比较少，",
+          "vi": "vì suất khá ít,"
+        }
+      ]
+    },
+    "31": {
+      "zh": "所以一般家长还得到处托关系才能拿到这个名额。",
+      "parts": [
+        {
+          "zh": "所以一般家长还得到处托关系",
+          "vi": "nên phụ huynh thường còn phải đi khắp nơi nhờ quan hệ"
+        },
+        {
+          "zh": "才能拿到这个名额。",
+          "vi": "mới giành được suất này."
+        }
+      ]
+    },
+    "32": {
+      "zh": "所以现在很多家长在买房时也考虑到这个因素，会比较看重学区，",
+      "parts": [
+        {
+          "zh": "所以现在很多家长在买房时",
+          "vi": "Vì thế giờ nhiều phụ huynh khi mua nhà"
+        },
+        {
+          "zh": "也考虑到这个因素，会比较看重学区，",
+          "vi": "cũng tính đến yếu tố này, khá coi trọng khu tuyển sinh,"
+        }
+      ]
+    },
+    "33": {
+      "zh": "这样孩子可以直接免试就近就读比较好的学校。",
+      "parts": [
+        {
+          "zh": "这样孩子可以直接",
+          "vi": "như vậy con có thể vào thẳng,"
+        },
+        {
+          "zh": "免试就近就读比较好的学校。",
+          "vi": "không cần thi, học một trường khá tốt gần nhà."
+        }
+      ]
+    },
+    "34": {
+      "zh": "这也是为什么在中国。",
+      "vi": "Đây cũng là lý do vì sao ở Trung Quốc"
+    },
+    "35": {
+      "zh": "好的学区房特别贵的原因，哪怕是一个二手房。",
+      "parts": [
+        {
+          "zh": "好的学区房特别贵的原因，",
+          "vi": "nhà thuộc khu trường tốt lại đắt đến vậy,"
+        },
+        {
+          "zh": "哪怕是一个二手房。",
+          "vi": "dù chỉ là một căn nhà cũ."
+        }
+      ]
+    },
+    "36": {
+      "zh": "在小学学习的主要科目有语文、数学、品德、科学。",
+      "parts": [
+        {
+          "zh": "在小学学习的主要科目有",
+          "vi": "Ở tiểu học, các môn chính gồm"
+        },
+        {
+          "zh": "语文、数学、品德、科学。",
+          "vi": "Ngữ văn, Toán, Đạo đức, Khoa học."
+        }
+      ]
+    },
+    "37": {
+      "zh": "大多数的小学从三年级开始学英语。",
+      "vi": "Đa số trường tiểu học bắt đầu học tiếng Anh từ lớp 3."
+    },
+    "38": {
+      "zh": "需要说明的是，英语这门学科在现今中国的教育中占据的地位是越来越重了。",
+      "parts": [
+        {
+          "zh": "需要说明的是，英语这门学科",
+          "vi": "Cần nói rõ là môn tiếng Anh"
+        },
+        {
+          "zh": "在现今中国的教育中",
+          "vi": "trong nền giáo dục Trung Quốc ngày nay"
+        },
+        {
+          "zh": "占据的地位是越来越重了。",
+          "vi": "có vị trí ngày càng quan trọng."
+        }
+      ]
+    },
+    "39": {
+      "zh": "记得我上小学的时候，是从五年级才开始学一些最基本的英语知识。",
+      "parts": [
+        {
+          "zh": "记得我上小学的时候，",
+          "vi": "Tôi nhớ hồi tôi học tiểu học,"
+        },
+        {
+          "zh": "是从五年级才开始学",
+          "vi": "đến lớp 5 mới bắt đầu học"
+        },
+        {
+          "zh": "一些最基本的英语知识。",
+          "vi": "chút kiến thức tiếng Anh cơ bản nhất."
+        }
+      ]
+    },
+    "40": {
+      "zh": "可现在有些小学甚至从一年级就开始教英语了。",
+      "parts": [
+        {
+          "zh": "可现在有些小学",
+          "vi": "Nhưng bây giờ có trường tiểu học"
+        },
+        {
+          "zh": "甚至从一年级就开始教英语了。",
+          "vi": "còn dạy tiếng Anh ngay từ lớp 1."
+        }
+      ]
+    },
+    "41": {
+      "zh": "小学的附属科目有体育、音乐、美术、健康、法治、信息技术、综合实践。",
+      "parts": [
+        {
+          "zh": "小学的附属科目有体育、音乐、美术、",
+          "vi": "Các môn phụ ở tiểu học có Thể dục, Âm nhạc, Mỹ thuật,"
+        },
+        {
+          "zh": "健康、法治、信息技术、综合实践。",
+          "vi": "Sức khỏe, Pháp luật, Tin học, Thực hành tổng hợp."
+        }
+      ]
+    },
+    "42": {
+      "zh": "初等教育后是中等教育，也就是指十二到十七岁期间在中等学校接受教育的过程。",
+      "parts": [
+        {
+          "zh": "初等教育后是中等教育，",
+          "vi": "Sau giáo dục tiểu học là giáo dục trung học,"
+        },
+        {
+          "zh": "也就是指十二到十七岁期间",
+          "vi": "tức là quãng từ 12 đến 17 tuổi"
+        },
+        {
+          "zh": "在中等学校接受教育的过程。",
+          "vi": "học ở trường trung học."
+        }
+      ]
+    },
+    "43": {
+      "zh": "普通中学分为初中和高中，学制各为三年。",
+      "parts": [
+        {
+          "zh": "普通中学分为初中和高中，",
+          "vi": "Trường trung học phổ thông chia thành cấp hai và cấp ba,"
+        },
+        {
+          "zh": "学制各为三年。",
+          "vi": "mỗi cấp học 3 năm."
+        }
+      ]
+    },
+    "44": {
+      "zh": "请注意，初等教育和中等教育中的初中属于国家九年义务教育的范畴。",
+      "parts": [
+        {
+          "zh": "请注意，初等教育",
+          "vi": "Xin lưu ý, giáo dục tiểu học"
+        },
+        {
+          "zh": "和中等教育中的初中",
+          "vi": "cùng cấp hai trong giáo dục trung học"
+        },
+        {
+          "zh": "属于国家九年义务教育的范畴。",
+          "vi": "thuộc phạm vi 9 năm giáo dục bắt buộc của nhà nước."
+        }
+      ]
+    },
+    "45": {
+      "zh": "这九年的教育是强制性的，也是国家提供的免费教育。",
+      "parts": [
+        {
+          "zh": "这九年的教育是强制性的，",
+          "vi": "9 năm giáo dục này là bắt buộc,"
+        },
+        {
+          "zh": "也是国家提供的免费教育。",
+          "vi": "và cũng là giáo dục miễn phí do nhà nước cung cấp."
+        }
+      ]
+    },
+    "46": {
+      "zh": "这个政策是从一九八六年开始实施的。",
+      "parts": [
+        {
+          "zh": "这个政策是",
+          "vi": "Chính sách này"
+        },
+        {
+          "zh": "从一九八六年开始实施的。",
+          "vi": "được áp dụng từ năm 1986."
+        }
+      ]
+    },
+    "47": {
+      "zh": "也就是说，一个八零后中国人的最低文化水平应该至少达到初中毕业。",
+      "parts": [
+        {
+          "zh": "也就是说，一个八零后中国人的",
+          "vi": "Tức là, với một người Trung Quốc thế hệ 8x,"
+        },
+        {
+          "zh": "最低文化水平",
+          "vi": "trình độ học vấn tối thiểu"
+        },
+        {
+          "zh": "应该至少达到初中毕业。",
+          "vi": "ít nhất cũng phải là tốt nghiệp cấp hai."
+        }
+      ]
+    },
+    "48": {
+      "zh": "小学毕业后，学生们可以根据自己的家庭住址免试就近入学到初中。",
+      "parts": [
+        {
+          "zh": "小学毕业后，学生们可以",
+          "vi": "Tốt nghiệp tiểu học xong, học sinh có thể"
+        },
+        {
+          "zh": "根据自己的家庭住址",
+          "vi": "theo địa chỉ nhà mình"
+        },
+        {
+          "zh": "免试就近入学到初中。",
+          "vi": "vào học cấp hai ở trường gần nhà mà không cần thi."
+        }
+      ]
+    },
+    "49": {
+      "zh": "初中主要有以下科目：语文、数学、英语、物理、化学、生物、道德与法治、历史、地理、",
+      "parts": [
+        {
+          "zh": "初中主要有以下科目：",
+          "vi": "Cấp hai chủ yếu có các môn sau:"
+        },
+        {
+          "zh": "语文、数学、英语、物理、化学、",
+          "vi": "Ngữ văn, Toán, Tiếng Anh, Vật lý, Hóa học,"
+        },
+        {
+          "zh": "生物、道德与法治、历史、地理、",
+          "vi": "Sinh học, Đạo đức và Pháp luật, Lịch sử, Địa lý,"
+        }
+      ]
+    },
+    "50": {
+      "zh": "体育、音乐、美术、信息技术。",
+      "vi": "Thể dục, Âm nhạc, Mỹ thuật, Tin học."
+    },
+    "51": {
+      "zh": "在初三快结束时，如果想继续往下学习，就得参加一场非常重要的考试——中考。",
+      "parts": [
+        {
+          "zh": "在初三快结束时，",
+          "vi": "Khi lớp 9 sắp kết thúc,"
+        },
+        {
+          "zh": "如果想继续往下学习，就得参加",
+          "vi": "nếu muốn học tiếp lên thì phải dự"
+        },
+        {
+          "zh": "一场非常重要的考试——中考。",
+          "vi": "một kỳ thi rất quan trọng: thi vào cấp ba (中考)."
+        }
+      ]
+    },
+    "52": {
+      "zh": "它是由各省统一安排考试时间和内容的。",
+      "parts": [
+        {
+          "zh": "它是由各省统一安排",
+          "vi": "Kỳ thi do từng tỉnh sắp xếp thống nhất"
+        },
+        {
+          "zh": "考试时间和内容的。",
+          "vi": "về thời gian và nội dung thi."
+        }
+      ]
+    },
+    "53": {
+      "zh": "通过中考，你可以升到四个不同类型的学校：高中、五年大专、职业高中和中专。",
+      "parts": [
+        {
+          "zh": "通过中考，你可以升到",
+          "vi": "Qua kỳ thi này, bạn có thể vào"
+        },
+        {
+          "zh": "四个不同类型的学校：",
+          "vi": "bốn loại trường khác nhau:"
+        },
+        {
+          "zh": "高中、五年大专、职业高中和中专。",
+          "vi": "cấp ba, cao đẳng 5 năm, cấp ba dạy nghề và trung cấp."
+        }
+      ]
+    },
+    "54": {
+      "zh": "高中更偏重于文化教育，是为了考大学而准备的，所以相对的它的分数要求最高。",
+      "parts": [
+        {
+          "zh": "高中更偏重于文化教育，",
+          "vi": "Cấp ba thiên về học văn hóa hơn,"
+        },
+        {
+          "zh": "是为了考大学而准备的，",
+          "vi": "là để chuẩn bị thi đại học,"
+        },
+        {
+          "zh": "所以相对的它的分数要求最高。",
+          "vi": "nên tương đối mà nói, điểm đòi hỏi cũng cao nhất."
+        }
+      ]
+    },
+    "55": {
+      "zh": "五年大专、职业高中和中专更偏向于技术性和职业性，比如师范、护理、餐饮、计算机、建筑、财经等。",
+      "parts": [
+        {
+          "zh": "五年大专、职业高中和中专",
+          "vi": "Cao đẳng 5 năm, cấp ba dạy nghề và trung cấp"
+        },
+        {
+          "zh": "更偏向于技术性和职业性，",
+          "vi": "thì thiên về kỹ thuật và nghề nghiệp hơn,"
+        },
+        {
+          "zh": "比如师范、护理、餐饮、",
+          "vi": "như sư phạm, điều dưỡng, nhà hàng ăn uống,"
+        },
+        {
+          "zh": "计算机、建筑、财经等。",
+          "vi": "máy tính, xây dựng, tài chính kinh tế, v.v."
+        }
+      ]
+    },
+    "57": {
+      "zh": "毕业后就可以直接进入社会工作了。",
+      "vi": "Tốt nghiệp xong là có thể ra đời đi làm ngay."
+    },
+    "58": {
+      "zh": "有一部分职高的学生也是想考大学的，但相对的职高录取分数线和学习压力会比普通高中低。",
+      "parts": [
+        {
+          "zh": "有一部分职高的学生",
+          "vi": "Có một phần học sinh trường nghề"
+        },
+        {
+          "zh": "也是想考大学的，",
+          "vi": "cũng muốn thi đại học,"
+        },
+        {
+          "zh": "但相对的职高录取分数线",
+          "vi": "nhưng nói chung điểm chuẩn của trường nghề"
+        },
+        {
+          "zh": "和学习压力会比普通高中低。",
+          "vi": "và áp lực học tập sẽ thấp hơn cấp ba phổ thông."
+        }
+      ]
+    },
+    "59": {
+      "zh": "而五年大专毕业时可以选择参加专转本的考试，考上了就可以继续学习两年大学本科的课程。",
+      "parts": [
+        {
+          "zh": "而五年大专毕业时",
+          "vi": "Còn cao đẳng 5 năm, khi tốt nghiệp"
+        },
+        {
+          "zh": "可以选择参加专转本的考试，",
+          "vi": "có thể chọn dự kỳ thi liên thông lên đại học (专转本),"
+        },
+        {
+          "zh": "考上了就可以继续学习",
+          "vi": "đỗ thì có thể học tiếp"
+        },
+        {
+          "zh": "两年大学本科的课程。",
+          "vi": "2 năm chương trình đại học hệ cử nhân."
+        }
+      ]
+    },
+    "60": {
+      "zh": "根据学生自身的学习成绩等需求，在考前需要填写一张志愿表。",
+      "parts": [
+        {
+          "zh": "根据学生自身的学习成绩等需求，",
+          "vi": "Tùy kết quả học tập và nhu cầu của bản thân học sinh,"
+        },
+        {
+          "zh": "在考前需要填写一张志愿表。",
+          "vi": "trước kỳ thi cần điền một tờ phiếu nguyện vọng."
+        }
+      ]
+    },
+    "61": {
+      "zh": "考生可以填写多个志愿，第一志愿就是他最想去的学校，比如省重点高中或五年大专师范学校。",
+      "parts": [
+        {
+          "zh": "考生可以填写多个志愿，",
+          "vi": "Thí sinh có thể điền nhiều nguyện vọng,"
+        },
+        {
+          "zh": "第一志愿就是他最想去的学校，",
+          "vi": "nguyện vọng 1 là trường mình muốn vào nhất,"
+        },
+        {
+          "zh": "比如省重点高中",
+          "vi": "ví dụ trường cấp ba trọng điểm của tỉnh"
+        },
+        {
+          "zh": "或五年大专师范学校。",
+          "vi": "hoặc trường sư phạm cao đẳng 5 năm."
+        }
+      ]
+    },
+    "62": {
+      "zh": "最后一个志愿就是为了以防万一，即使考砸了也可以被录取到的学校，比如一些中专或职高学校。",
+      "parts": [
+        {
+          "zh": "最后一个志愿就是为了以防万一，",
+          "vi": "Nguyện vọng cuối cùng là để phòng hờ,"
+        },
+        {
+          "zh": "即使考砸了也可以被录取到的学校，",
+          "vi": "là trường mà dù thi hỏng vẫn được nhận,"
+        },
+        {
+          "zh": "比如一些中专或职高学校。",
+          "vi": "như một số trường trung cấp hay cấp ba dạy nghề."
+        }
+      ]
+    },
+    "63": {
+      "zh": "录取时是从第一志愿开始的，如果分数没达到才会看第二志愿，以此类推。",
+      "parts": [
+        {
+          "zh": "录取时是从第一志愿开始的，",
+          "vi": "Khi xét tuyển thì bắt đầu từ nguyện vọng 1,"
+        },
+        {
+          "zh": "如果分数没达到",
+          "vi": "nếu điểm không đủ"
+        },
+        {
+          "zh": "才会看第二志愿，以此类推。",
+          "vi": "mới xét đến nguyện vọng 2, cứ thế tiếp tục."
+        }
+      ]
+    },
+    "64": {
+      "zh": "为了帮助考生填志愿，一般在正式中考前，学校都会举办几场模拟考试，",
+      "parts": [
+        {
+          "zh": "为了帮助考生填志愿，",
+          "vi": "Để giúp thí sinh điền nguyện vọng,"
+        },
+        {
+          "zh": "一般在正式中考前，",
+          "vi": "thường trước kỳ thi vào cấp ba chính thức,"
+        },
+        {
+          "zh": "学校都会举办几场模拟考试，",
+          "vi": "trường đều tổ chức vài đợt thi thử,"
+        }
+      ]
+    },
+    "65": {
+      "zh": "以帮助学生了解自己的大概水平。",
+      "vi": "để giúp học sinh biết đại khái trình độ của mình."
+    },
+    "66": {
+      "zh": "普通高中和初中学习的主要科目是差不多的，也是在第三年快结束时需要参加高考才能升大学。",
+      "parts": [
+        {
+          "zh": "普通高中和初中",
+          "vi": "Cấp ba phổ thông và cấp hai"
+        },
+        {
+          "zh": "学习的主要科目是差不多的，",
+          "vi": "học các môn chính gần như nhau,"
+        },
+        {
+          "zh": "也是在第三年快结束时",
+          "vi": "cũng vậy, khi năm thứ ba sắp kết thúc"
+        },
+        {
+          "zh": "需要参加高考才能升大学。",
+          "vi": "phải thi đại học (高考) mới lên được đại học."
+        }
+      ]
+    },
+    "67": {
+      "zh": "考前也是需要填写志愿表的。",
+      "vi": "Trước khi thi cũng phải điền phiếu nguyện vọng."
+    },
+    "68": {
+      "zh": "由于高考的政策一直在变，这里我就不再详细介绍了。",
+      "parts": [
+        {
+          "zh": "由于高考的政策一直在变，",
+          "vi": "Vì chính sách thi đại học luôn thay đổi,"
+        },
+        {
+          "zh": "这里我就不再详细介绍了。",
+          "vi": "nên ở đây tôi không giới thiệu chi tiết nữa."
+        }
+      ]
+    },
+    "69": {
+      "zh": "最后就是高等教育，它是中等教育后进行的专科、本科和研究生教育。",
+      "parts": [
+        {
+          "zh": "最后就是高等教育，",
+          "vi": "Cuối cùng là giáo dục đại học,"
+        },
+        {
+          "zh": "它是中等教育后进行的",
+          "vi": "tức là sau giáo dục trung học,"
+        },
+        {
+          "zh": "专科、本科和研究生教育。",
+          "vi": "học cao đẳng, đại học và sau đại học."
+        }
+      ]
+    },
+    "70": {
+      "zh": "大学本科一般为四到五年，大学专科一般为二到三年。",
+      "parts": [
+        {
+          "zh": "大学本科一般为四到五年，",
+          "vi": "Đại học hệ cử nhân thường 4 đến 5 năm,"
+        },
+        {
+          "zh": "大学专科一般为二到三年。",
+          "vi": "hệ cao đẳng thường 2 đến 3 năm."
+        }
+      ]
+    },
+    "71": {
+      "zh": "本科的学生可以申请学士学位，大专是没有学位的。",
+      "parts": [
+        {
+          "zh": "本科的学生可以申请学士学位，",
+          "vi": "Sinh viên hệ cử nhân có thể xin cấp bằng cử nhân,"
+        },
+        {
+          "zh": "大专是没有学位的。",
+          "vi": "còn cao đẳng thì không có học vị."
+        }
+      ]
+    },
+    "72": {
+      "zh": "怎么样申请学士学位？",
+      "vi": "Xin bằng cử nhân như thế nào?"
+    },
+    "73": {
+      "zh": "我记得我上大学时申请学士学位的其中一些条件包括要达到一定的课程学分。",
+      "parts": [
+        {
+          "zh": "我记得我上大学时",
+          "vi": "Tôi nhớ hồi tôi học đại học,"
+        },
+        {
+          "zh": "申请学士学位的其中一些条件",
+          "vi": "một số điều kiện để xin bằng cử nhân"
+        },
+        {
+          "zh": "包括要达到一定的课程学分。",
+          "vi": "gồm phải đạt đủ một số tín chỉ nhất định,"
+        }
+      ]
+    },
+    "74": {
+      "zh": "通过毕业论文答辩，通过全国大学生英语四级考试和全国计算机二级考试等。",
+      "parts": [
+        {
+          "zh": "通过毕业论文答辩，",
+          "vi": "bảo vệ được luận văn tốt nghiệp,"
+        },
+        {
+          "zh": "通过全国大学生英语四级考试",
+          "vi": "đỗ kỳ thi tiếng Anh cấp 4 toàn quốc cho sinh viên"
+        },
+        {
+          "zh": "和全国计算机二级考试等。",
+          "vi": "và kỳ thi tin học cấp 2 toàn quốc, v.v."
+        }
+      ]
+    },
+    "75": {
+      "zh": "但在准备这期节目的时候，据我所查到的最新资料是说，",
+      "parts": [
+        {
+          "zh": "但在准备这期节目的时候，",
+          "vi": "Nhưng khi chuẩn bị số này,"
+        },
+        {
+          "zh": "据我所查到的最新资料是说，",
+          "vi": "theo tài liệu mới nhất tôi tra được thì"
+        }
+      ]
+    },
+    "76": {
+      "zh": "现在全国大学生英语四级考试已经不再作为拿学位的必要条件了。",
+      "parts": [
+        {
+          "zh": "现在全国大学生英语四级考试",
+          "vi": "giờ kỳ thi tiếng Anh cấp 4 toàn quốc cho sinh viên"
+        },
+        {
+          "zh": "已经不再作为拿学位的必要条件了。",
+          "vi": "không còn là điều kiện bắt buộc để lấy bằng nữa."
+        }
+      ]
+    },
+    "77": {
+      "zh": "说真的，对非英语专业的大学生来说，这个考试还是比较有难度的。",
+      "parts": [
+        {
+          "zh": "说真的，对非英语专业的大学生来说，",
+          "vi": "Nói thật, với sinh viên không học chuyên ngành tiếng Anh,"
+        },
+        {
+          "zh": "这个考试还是比较有难度的。",
+          "vi": "kỳ thi này vẫn khá khó."
+        }
+      ]
+    },
+    "78": {
+      "zh": "我记得我当时有很多同学没拿到学士学位，就是因为这个考试没通过。",
+      "parts": [
+        {
+          "zh": "我记得我当时有很多同学",
+          "vi": "Tôi nhớ hồi đó có nhiều bạn cùng lớp"
+        },
+        {
+          "zh": "没拿到学士学位，",
+          "vi": "không lấy được bằng cử nhân,"
+        },
+        {
+          "zh": "就是因为这个考试没通过。",
+          "vi": "chính vì không qua kỳ thi này."
+        }
+      ]
+    },
+    "79": {
+      "zh": "本科又根据学校专业的好坏分三个等级：一本、二本、三本。",
+      "parts": [
+        {
+          "zh": "本科又根据学校专业的好坏",
+          "vi": "Hệ cử nhân lại tùy chất lượng của trường và ngành"
+        },
+        {
+          "zh": "分三个等级：一本、二本、三本。",
+          "vi": "chia ba hạng: 一本, 二本, 三本 (hạng 1, 2, 3)."
+        }
+      ]
+    },
+    "80": {
+      "zh": "分数最高和学费最便宜的是一本，只有极少数的学生能考上；三本是分数最低和学费最贵的。",
+      "parts": [
+        {
+          "zh": "分数最高和学费最便宜的是一本，",
+          "vi": "Điểm cao nhất mà học phí rẻ nhất là 一本,"
+        },
+        {
+          "zh": "只有极少数的学生能考上；",
+          "vi": "chỉ rất ít học sinh đỗ được;"
+        },
+        {
+          "zh": "三本是分数最低和学费最贵的。",
+          "vi": "三本 thì điểm thấp nhất và học phí đắt nhất."
+        }
+      ]
+    },
+    "81": {
+      "zh": "本科毕业后，如果想再继续深造，还可以参加研究生考试。",
+      "parts": [
+        {
+          "zh": "本科毕业后，如果想再继续深造，",
+          "vi": "Tốt nghiệp đại học rồi, nếu muốn học lên nữa,"
+        },
+        {
+          "zh": "还可以参加研究生考试。",
+          "vi": "còn có thể thi cao học."
+        }
+      ]
+    },
+    "82": {
+      "zh": "研究生又包括硕士研究生和博士研究生。",
+      "parts": [
+        {
+          "zh": "研究生又包括",
+          "vi": "Sau đại học lại gồm"
+        },
+        {
+          "zh": "硕士研究生和博士研究生。",
+          "vi": "thạc sĩ và tiến sĩ."
+        }
+      ]
+    },
+    "83": {
+      "zh": "接下来，我想说说中国教育与西方教育的一些主要不同点。",
+      "parts": [
+        {
+          "zh": "接下来，我想说说中国教育",
+          "vi": "Tiếp theo, tôi muốn nói về giáo dục Trung Quốc"
+        },
+        {
+          "zh": "与西方教育的一些主要不同点。",
+          "vi": "và vài điểm khác biệt chính so với giáo dục phương Tây."
+        }
+      ]
+    },
+    "84": {
+      "zh": "一、在校时间，在西方很多国家，学生只用去学校半天，而中国学生的在校时间是比较长的。",
+      "parts": [
+        {
+          "zh": "一、在校时间，",
+          "vi": "Một, thời gian ở trường:"
+        },
+        {
+          "zh": "在西方很多国家，",
+          "vi": "ở nhiều nước phương Tây,"
+        },
+        {
+          "zh": "学生只用去学校半天，",
+          "vi": "học sinh chỉ cần đến trường nửa ngày,"
+        },
+        {
+          "zh": "而中国学生的在校时间是比较长的。",
+          "vi": "còn học sinh Trung Quốc ở trường khá lâu."
+        }
+      ]
+    },
+    "85": {
+      "zh": "国家规定，学生每日学习时间小学不超过六小时，中学不超过八小时，大学不超过十小时。",
+      "parts": [
+        {
+          "zh": "国家规定，学生每日学习时间",
+          "vi": "Nhà nước quy định thời gian học mỗi ngày của học sinh"
+        },
+        {
+          "zh": "小学不超过六小时，",
+          "vi": "tiểu học không quá 6 tiếng,"
+        },
+        {
+          "zh": "中学不超过八小时，",
+          "vi": "trung học không quá 8 tiếng,"
+        },
+        {
+          "zh": "大学不超过十小时。",
+          "vi": "đại học không quá 10 tiếng."
+        }
+      ]
+    },
+    "86": {
+      "zh": "初等教育和中等教育一节课一般是四十分钟，课间休息十分钟。",
+      "parts": [
+        {
+          "zh": "初等教育和中等教育",
+          "vi": "Ở tiểu học và trung học,"
+        },
+        {
+          "zh": "一节课一般是四十分钟，",
+          "vi": "một tiết thường là 40 phút,"
+        },
+        {
+          "zh": "课间休息十分钟。",
+          "vi": "nghỉ giữa tiết 10 phút."
+        }
+      ]
+    },
+    "87": {
+      "zh": "高等教育一般一节课是一小时到一个半小时，课间休息十到二十分钟。",
+      "parts": [
+        {
+          "zh": "高等教育一般一节课是",
+          "vi": "Ở đại học, một tiết thường"
+        },
+        {
+          "zh": "一小时到一个半小时，",
+          "vi": "từ 1 tiếng đến 1 tiếng rưỡi,"
+        },
+        {
+          "zh": "课间休息十到二十分钟。",
+          "vi": "nghỉ giữa tiết 10 đến 20 phút."
+        }
+      ]
+    },
+    "88": {
+      "zh": "二教师，西方很多学校的教师都是一两个人负责一个班的所有课程教学，",
+      "parts": [
+        {
+          "zh": "二教师，西方很多学校的教师",
+          "vi": "Hai, giáo viên: ở nhiều trường phương Tây, giáo viên"
+        },
+        {
+          "zh": "都是一两个人负责",
+          "vi": "chỉ một hai người phụ trách"
+        },
+        {
+          "zh": "一个班的所有课程教学，",
+          "vi": "dạy mọi môn của một lớp,"
+        }
+      ]
+    },
+    "89": {
+      "zh": "而中国教师的分科是非常明确的，基本上一个老师只负责一门主要学科。",
+      "parts": [
+        {
+          "zh": "而中国教师的分科是非常明确的，",
+          "vi": "còn giáo viên Trung Quốc thì chia môn rất rõ ràng,"
+        },
+        {
+          "zh": "基本上一个老师",
+          "vi": "về cơ bản mỗi giáo viên"
+        },
+        {
+          "zh": "只负责一门主要学科。",
+          "vi": "chỉ phụ trách một môn chính."
+        }
+      ]
+    },
+    "90": {
+      "zh": "但会同时教几个班，比如我原来只教英语这门学科，但我要教二到三个班级的学生。",
+      "parts": [
+        {
+          "zh": "但会同时教几个班，",
+          "vi": "Nhưng sẽ dạy cùng lúc mấy lớp,"
+        },
+        {
+          "zh": "比如我原来只教英语这门学科，",
+          "vi": "như tôi trước đây chỉ dạy môn tiếng Anh,"
+        },
+        {
+          "zh": "但我要教二到三个班级的学生。",
+          "vi": "nhưng phải dạy học sinh của hai, ba lớp."
+        }
+      ]
+    },
+    "91": {
+      "zh": "三教学方法和侧重点：西方教育比较注重培养学生的综合能力，鼓励创新思维、个性发展；",
+      "parts": [
+        {
+          "zh": "三教学方法和侧重点：",
+          "vi": "Ba, phương pháp dạy và trọng tâm:"
+        },
+        {
+          "zh": "西方教育比较注重",
+          "vi": "giáo dục phương Tây khá chú trọng"
+        },
+        {
+          "zh": "培养学生的综合能力，",
+          "vi": "bồi dưỡng năng lực toàn diện của học sinh,"
+        },
+        {
+          "zh": "鼓励创新思维、个性发展；",
+          "vi": "khuyến khích tư duy sáng tạo, phát triển cá tính;"
+        }
+      ]
+    },
+    "92": {
+      "zh": "而中国教育主要是填鸭式教学。",
+      "vi": "còn giáo dục Trung Quốc chủ yếu là dạy kiểu nhồi vịt (填鸭式)."
+    },
+    "93": {
+      "zh": "什么是填鸭式教学？",
+      "vi": "Dạy kiểu nhồi vịt (填鸭式) là gì?"
+    },
+    "94": {
+      "zh": "在鸭子生长到一定时期。",
+      "vi": "Khi vịt lớn đến một giai đoạn nhất định,"
+    },
+    "95": {
+      "zh": "通过按时把做成长条的饲料从鸭嘴填进去，以减少鸭子的运动量，使其快速增加重量。",
+      "parts": [
+        {
+          "zh": "通过按时把做成长条的饲料",
+          "vi": "người ta theo giờ đem thức ăn làm thành thanh dài"
+        },
+        {
+          "zh": "从鸭嘴填进去，以减少鸭子的运动量，",
+          "vi": "nhồi vào mỏ vịt, để vịt ít vận động,"
+        },
+        {
+          "zh": "使其快速增加重量。",
+          "vi": "khiến nó tăng cân nhanh."
+        }
+      ]
+    },
+    "96": {
+      "zh": "这就是填鸭。",
+      "vi": "Đó chính là nhồi vịt (填鸭)."
+    },
+    "97": {
+      "zh": "所以，填鸭式教学法就是指灌输式教育，以教师教为主，学生在很大程度上只是被动的接受知识。",
+      "parts": [
+        {
+          "zh": "所以，填鸭式教学法",
+          "vi": "Vậy nên, phương pháp dạy kiểu nhồi vịt"
+        },
+        {
+          "zh": "就是指灌输式教育，以教师教为主，",
+          "vi": "chính là giáo dục nhồi nhét, lấy việc thầy giảng làm chính,"
+        },
+        {
+          "zh": "学生在很大程度上",
+          "vi": "học sinh phần lớn"
+        },
+        {
+          "zh": "只是被动的接受知识。",
+          "vi": "chỉ tiếp nhận kiến thức một cách bị động."
+        }
+      ]
+    },
+    "98": {
+      "zh": "最后不得不说，中国的学生真的是很辛苦哦。",
+      "parts": [
+        {
+          "zh": "最后不得不说，",
+          "vi": "Cuối cùng phải nói,"
+        },
+        {
+          "zh": "中国的学生真的是很辛苦哦。",
+          "vi": "học sinh Trung Quốc thật sự rất vất vả đấy."
+        }
+      ]
+    },
+    "99": {
+      "zh": "因为中国人口众多，竞争压力也随之增大，这是一个短期内不能改变的现实。",
+      "parts": [
+        {
+          "zh": "因为中国人口众多，",
+          "vi": "Vì Trung Quốc dân số đông,"
+        },
+        {
+          "zh": "竞争压力也随之增大，",
+          "vi": "áp lực cạnh tranh cũng theo đó tăng lên,"
+        },
+        {
+          "zh": "这是一个短期内不能改变的现实。",
+          "vi": "đây là thực tế không thể thay đổi trong ngắn hạn."
+        }
+      ]
+    },
+    "100": {
+      "zh": "中国家长对孩子的教育特别重视，不惜在教育上花血本。",
+      "parts": [
+        {
+          "zh": "中国家长对孩子的教育特别重视，",
+          "vi": "Phụ huynh Trung Quốc rất coi trọng việc học của con,"
+        },
+        {
+          "zh": "不惜在教育上花血本。",
+          "vi": "không tiếc dốc hết vốn liếng cho giáo dục."
+        }
+      ]
+    },
+    "101": {
+      "zh": "为了怕自己的孩子输在起跑线上，很多孩子从幼儿园开始就在外上各种各样的补习班了。",
+      "parts": [
+        {
+          "zh": "为了怕自己的孩子输在起跑线上，",
+          "vi": "Vì sợ con mình thua ngay từ vạch xuất phát,"
+        },
+        {
+          "zh": "很多孩子从幼儿园开始",
+          "vi": "nhiều đứa trẻ từ hồi mẫu giáo"
+        },
+        {
+          "zh": "就在外上各种各样的补习班了。",
+          "vi": "đã đi học đủ loại lớp học thêm bên ngoài."
+        }
+      ]
+    },
+    "102": {
+      "zh": "作为一名教育者，我认为中国的教育模式还有很多需要改进的地方。",
+      "parts": [
+        {
+          "zh": "作为一名教育者，",
+          "vi": "Là một người làm giáo dục,"
+        },
+        {
+          "zh": "我认为中国的教育模式",
+          "vi": "tôi cho rằng mô hình giáo dục Trung Quốc"
+        },
+        {
+          "zh": "还有很多需要改进的地方。",
+          "vi": "còn nhiều chỗ cần cải thiện."
+        }
+      ]
+    },
+    "103": {
+      "zh": "但从中国这样庞大的人口基数来看，也不可能在一个班五十六十个学生的情况下，",
+      "parts": [
+        {
+          "zh": "但从中国这样庞大的人口基数来看，",
+          "vi": "Nhưng xét với quy mô dân số khổng lồ như Trung Quốc,"
+        },
+        {
+          "zh": "也不可能在一个班",
+          "vi": "cũng không thể nào, trong một lớp"
+        },
+        {
+          "zh": "五十六十个学生的情况下，",
+          "vi": "năm sáu chục học sinh,"
+        }
+      ]
+    },
+    "104": {
+      "zh": "把侧重点放在对他们的个性发展、创新思维的引领上，因为这需要更多的师资。",
+      "parts": [
+        {
+          "zh": "把侧重点放在对他们的个性发展、",
+          "vi": "đặt trọng tâm vào phát triển cá tính"
+        },
+        {
+          "zh": "创新思维的引领上，",
+          "vi": "và dẫn dắt tư duy sáng tạo cho các em,"
+        },
+        {
+          "zh": "因为这需要更多的师资。",
+          "vi": "vì điều đó cần nhiều giáo viên hơn."
+        }
+      ]
+    },
+    "105": {
+      "zh": "所以我认为家长的作用在这个方面更显得重要。",
+      "parts": [
+        {
+          "zh": "所以我认为家长的作用",
+          "vi": "Nên tôi cho rằng vai trò của phụ huynh"
+        },
+        {
+          "zh": "在这个方面更显得重要。",
+          "vi": "ở mặt này càng trở nên quan trọng."
+        }
+      ]
+    },
+    "106": {
+      "zh": "到这里，今天的节目也即将结束了。",
+      "vi": "Đến đây, chương trình hôm nay cũng sắp kết thúc rồi."
+    },
+    "107": {
+      "zh": "我也很好奇你们国家的教育体制是怎样的？",
+      "parts": [
+        {
+          "zh": "我也很好奇",
+          "vi": "Tôi cũng rất tò mò"
+        },
+        {
+          "zh": "你们国家的教育体制是怎样的？",
+          "vi": "hệ thống giáo dục nước các bạn thế nào?"
+        }
+      ]
+    },
+    "108": {
+      "zh": "学生的学习压力大吗？",
+      "vi": "Học sinh có áp lực học tập lớn không?"
+    },
+    "109": {
+      "zh": "竞争激烈吗？",
+      "vi": "Cạnh tranh có gay gắt không?"
+    },
+    "110": {
+      "zh": "入学升学需要考试吗？",
+      "vi": "Vào trường, lên cấp có phải thi không?"
+    },
+    "111": {
+      "zh": "欢迎来我的Twitter、Facebook或主页与大家分享。",
+      "parts": [
+        {
+          "zh": "欢迎来我的Twitter、",
+          "vi": "Mời bạn đến Twitter,"
+        },
+        {
+          "zh": "Facebook或主页",
+          "vi": "Facebook hoặc trang chủ của tôi"
+        },
+        {
+          "zh": "与大家分享。",
+          "vi": "chia sẻ với mọi người."
+        }
+      ]
+    },
+    "112": {
+      "zh": "下期节目我们会说一个流行语，如果你对这一主题感兴趣，千万别错过了。",
+      "parts": [
+        {
+          "zh": "下期节目我们会说一个流行语，",
+          "vi": "Số sau chúng ta sẽ nói về một từ đang thịnh hành,"
+        },
+        {
+          "zh": "如果你对这一主题感兴趣，",
+          "vi": "nếu bạn quan tâm chủ đề này,"
+        },
+        {
+          "zh": "千万别错过了。",
+          "vi": "nhất định đừng bỏ lỡ nhé."
+        }
+      ]
+    },
+    "113": {
+      "zh": "感谢大家对我们的支持，感谢大家在iTunes上给我们的每一个好评，",
+      "parts": [
+        {
+          "zh": "感谢大家对我们的支持，",
+          "vi": "Cảm ơn mọi người đã ủng hộ chúng tôi,"
+        },
+        {
+          "zh": "感谢大家在iTunes上",
+          "vi": "cảm ơn mọi người, trên iTunes,"
+        },
+        {
+          "zh": "给我们的每一个好评，",
+          "vi": "đã cho chúng tôi từng lời đánh giá tốt,"
+        }
+      ]
+    },
+    "114": {
+      "zh": "特别感谢参与我们募集计划的朋友们。",
+      "parts": [
+        {
+          "zh": "特别感谢",
+          "vi": "đặc biệt cảm ơn"
+        },
+        {
+          "zh": "参与我们募集计划的朋友们。",
+          "vi": "các bạn tham gia chương trình gây quỹ của chúng tôi."
+        }
+      ]
+    },
+    "115": {
+      "zh": "有你们，这个播客才能继续进行下去。",
+      "vi": "Có các bạn, podcast này mới tiếp tục được."
+    },
+    "116": {
+      "zh": "祝大家心情愉快，我们下周不见不散。",
+      "vi": "Chúc mọi người vui vẻ, tuần sau không gặp không về nhé."
+    }
+  }
+}

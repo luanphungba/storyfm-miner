@@ -3757,6 +3757,2210 @@
           "duration": 1932
         }
       ]
+    },
+    {
+      "prefix": "SCN",
+      "title": "Speak Chinese Naturally -Learn Chinese (Mandarin)",
+      "feed": "https://anchor.fm/s/1d7d70a4/podcast/rss",
+      "episodes": [
+        {
+          "id": "SCN20260514",
+          "title": "【文化习俗】二十四节气——立夏",
+          "guid": "fba56d6f-8745-4495-aab5-6d1d22276860",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/119642662/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-7%2F9dbd1682-602d-03a4-a39f-3ff27486cab9.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3j1n36",
+          "pubDate": "2026-05-14",
+          "duration": 605
+        },
+        {
+          "id": "SCN20260507",
+          "title": "【神话传说】仓颉造字",
+          "guid": "54554653-d000-478c-a0a8-05986ddeafa0",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/118938468/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-23%2F54aac144-21b5-616c-d09c-0829233c92e4.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3ic7d4",
+          "pubDate": "2026-05-07",
+          "duration": 463
+        },
+        {
+          "id": "SCN20260423",
+          "title": "【文化习俗】二十四节气——谷雨",
+          "guid": "47c7e902-68b6-4ff1-bc95-f9eb2137b472",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/118564107/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-16%2F2d8c46a0-71f2-bd62-f67c-c4f0bcd8963c.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3i0pqb",
+          "pubDate": "2026-04-23",
+          "duration": 613
+        },
+        {
+          "id": "SCN20260416",
+          "title": "【民间俗语】好心当作驴肝肺",
+          "guid": "4d7fc8e2-7322-4ae6-8712-dc71cfdfcdd7",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/118254136/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-10%2F94140e45-d4b0-75f7-922d-46e7b5360407.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3hnb3o",
+          "pubDate": "2026-04-16",
+          "duration": 724
+        },
+        {
+          "id": "SCN20260409",
+          "title": "【文化习俗】二十四节气——清明",
+          "guid": "8957f908-158f-4193-a3a1-b6118c0109a2",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/118041189/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-6%2Ff485d3bd-259d-2818-e8ac-a12f51f27d84.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3hgr55",
+          "pubDate": "2026-04-09",
+          "duration": 395
+        },
+        {
+          "id": "SCN20260402",
+          "title": "【走遍中国】西安",
+          "guid": "6a20c8eb-953e-46e9-9cc7-f6d8d8c48acd",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/117566317/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-31%2Fafa49ff7-e058-3647-1036-c0bc29b51d16.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3h2bdd",
+          "pubDate": "2026-04-02",
+          "duration": 1003
+        },
+        {
+          "id": "SCN20260326",
+          "title": "【文化习俗】二十四节气——春分",
+          "guid": "11bd146d-4c59-4d7f-8678-44989f6fa9d7",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/117234383/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-20%2F420441516-44100-2-6225eb55434e9.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3go78f",
+          "pubDate": "2026-03-26",
+          "duration": 676
+        },
+        {
+          "id": "SCN20260319",
+          "title": "【其他】你对中国够了解吗？“中国通”来吧！",
+          "guid": "fb021c3e-8c1d-45cb-8ff3-1ff801477362",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/116916840/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-14%2F420005537-44100-2-a4ef41952bd86.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3geh58",
+          "pubDate": "2026-03-19",
+          "duration": 671
+        },
+        {
+          "id": "SCN20260312",
+          "title": "【文化习俗】二十四节气——惊蛰",
+          "guid": "d86a6052-151d-4e06-901f-4f566d0074b7",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/116449701/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-5%2Feddce762-ea6f-2487-a014-7cb33f247863.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3g08v5",
+          "pubDate": "2026-03-12",
+          "duration": 613
+        },
+        {
+          "id": "SCN20260305",
+          "title": "【民间俗语】是骡子是马,拉出来遛遛‌",
+          "guid": "ad1d5169-e5b4-4ccc-aaab-05259a2a8c08",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/115979232/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-24%2F20fd663e-2a2e-5d06-35fd-66b8f344f0e1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3fhth0",
+          "pubDate": "2026-03-05",
+          "duration": 613
+        },
+        {
+          "id": "SCN20260226",
+          "title": "【文化习俗】二十四节气——雨水",
+          "guid": "a3f056b9-feed-433e-a897-b7a593d369a7",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/115533546/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-15%2F9b072d6d-7adc-421f-f8cd-f1f74ec6a827.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3f4a9a",
+          "pubDate": "2026-02-26",
+          "duration": 449
+        },
+        {
+          "id": "SCN20260219",
+          "title": "【新闻热点】一女子提前退休／一男子豪掷千金买彩票",
+          "guid": "4b81de6e-0626-46f3-80c8-a717fdbbb187",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/115466209/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-13%2F86f1b654-3559-895b-66ac-3a243eb486c3.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3f28h1",
+          "pubDate": "2026-02-19",
+          "duration": 807
+        },
+        {
+          "id": "SCN20260212",
+          "title": "【文化习俗】二十四节气——立春",
+          "guid": "638576f1-e33d-4be6-b951-c8fd997b4a1e",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/115131503/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-6%2F7edde42e-2240-b98b-ad83-a91b666f17c6.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3eo1lf",
+          "pubDate": "2026-02-12",
+          "duration": 495
+        },
+        {
+          "id": "SCN20260205",
+          "title": "【网络流行语】2025 年度十大网络流行语",
+          "guid": "05abbf7a-29d3-425c-944f-af0956d7c8ef",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/115031905/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-4%2F02b1859c-737e-818a-3568-87c1e8714eef.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2025-e3el0d1",
+          "pubDate": "2026-02-05",
+          "duration": 897
+        },
+        {
+          "id": "SCN20260122",
+          "title": "【民间俗语】好了伤疤，忘了痛。",
+          "guid": "bf06054c-3d04-464d-83a1-3613df0df441",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/114315984/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-21%2F874f5b76-2008-15b1-d36b-2363b12e8dda.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3dv58g",
+          "pubDate": "2026-01-22",
+          "duration": 431
+        },
+        {
+          "id": "SCN20260115",
+          "title": "【流行语】2025 年度十大流行语",
+          "guid": "7e55a0c5-faa4-45a4-be19-107f382ccf01",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/114004493/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-14%2F416128057-44100-2-58cd52fdd04ad.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2025-e3dll2d",
+          "pubDate": "2026-01-15",
+          "duration": 1022
+        },
+        {
+          "id": "SCN20260108",
+          "title": "【文化习俗】二十四节气",
+          "guid": "56c523f1-a758-402e-bd03-3ae0b2925558",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/111663150/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-25%2F9fdeab26-c8db-8c40-c378-37103aee6f26.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3be6je",
+          "pubDate": "2026-01-08",
+          "duration": 397
+        },
+        {
+          "id": "SCN20260101",
+          "title": "【民间俗语】不撞南墙不回头",
+          "guid": "0aa0b3a7-5492-4611-b952-a8a2b4ccd646",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/111568556/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-23%2Ffc3a3f33-89e7-ef88-5cef-508e2c20aecb.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3bba7c",
+          "pubDate": "2026-01-01",
+          "duration": 628
+        },
+        {
+          "id": "SCN20251225",
+          "title": "【和佳佳一起阅读】从欧洲徒步去中国",
+          "guid": "2425d32e-52b5-41f9-b872-9581df76fdab",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/111536820/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-22%2Fdb36e2be-a425-6b21-2da4-7a147092584b.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3bab7k",
+          "pubDate": "2025-12-25",
+          "duration": 977
+        },
+        {
+          "id": "SCN20251218",
+          "title": "【古人智慧经典】生于忧患，死于安乐",
+          "guid": "65e7ac2a-6843-4e27-ba49-e92beaa9be0b",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/111438771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-20%2F2e7b9c94-83f4-230c-9257-9a3559986564.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3b7bfj",
+          "pubDate": "2025-12-18",
+          "duration": 549
+        },
+        {
+          "id": "SCN20251211",
+          "title": "【正音】这些字词，你读对了吗（11）？",
+          "guid": "1b73ea2f-7081-43b4-a41b-f34f6e170ed3",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/111388018/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-19%2Fed829ced-7338-ce30-9d19-3184b4e4ad9c.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/11-e3b5pti",
+          "pubDate": "2025-12-11",
+          "duration": 780
+        },
+        {
+          "id": "SCN20251204",
+          "title": "【社会观察】“丽春”改名要什么精神证明",
+          "guid": "40cc1529-0f6b-4742-ab57-f9123a140983",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/111385932/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-19%2F928f71e5-c7b7-6dcb-a125-d26dc3d32f25.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3b5nsc",
+          "pubDate": "2025-12-04",
+          "duration": 674
+        },
+        {
+          "id": "SCN20251127",
+          "title": "【民间俗语】捡了芝麻，丢了西瓜。",
+          "guid": "b51decd3-eb61-43e5-bdc3-74cf0976a4bf",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/110818966/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-7%2Fc3db7f06-2103-346b-2dc0-86d4fa9bc395.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3ake6m",
+          "pubDate": "2025-11-27",
+          "duration": 678
+        },
+        {
+          "id": "SCN20251120",
+          "title": "【神话传说】大禹治水",
+          "guid": "113e3cce-002b-476c-a602-a17cfbfea286",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/110768340/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-6%2F79531f8e-71e1-3631-f4e1-f2f578f14999.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3aisok",
+          "pubDate": "2025-11-20",
+          "duration": 437
+        },
+        {
+          "id": "SCN20251113",
+          "title": "【和佳佳一起阅读】《猫》（节选）",
+          "guid": "86a771b7-fb09-4ab1-91c6-59988115b8a4",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/110637230/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-3%2Fb3a89c48-a4fd-6418-c363-1527d57beabc.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3aesne",
+          "pubDate": "2025-11-13",
+          "duration": 1013
+        },
+        {
+          "id": "SCN20251106",
+          "title": "【中国人物】姚明",
+          "guid": "5c797698-dae0-43d3-b372-ddc58570ae04",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/110022019/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-21%2F0daf83df-44c8-2fe6-af5e-1f491a2da744.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e39s3u3",
+          "pubDate": "2025-11-06",
+          "duration": 734
+        },
+        {
+          "id": "SCN20251023",
+          "title": "【网络流行语】这13种女性，你遇见过吗？",
+          "guid": "f10b6439-1ebf-402e-813f-5088c2493128",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/109727375/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-15%2F59b79b6b-e6bb-09ad-0857-7f9dfd8924ac.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/13-e39j46f",
+          "pubDate": "2025-10-23",
+          "duration": 674
+        },
+        {
+          "id": "SCN20251016",
+          "title": "【民间俗语】和“老鼠”相关的俗语",
+          "guid": "8d169737-b850-4d8f-abf2-ab6e4f46fca2",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/109500830/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-10%2Fc7253d54-6844-c143-a8af-c5a8e868fb1d.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e39c6uu",
+          "pubDate": "2025-10-16",
+          "duration": 1080
+        },
+        {
+          "id": "SCN20251009",
+          "title": "【古诗词赏析】《望庐山瀑布》",
+          "guid": "2e94ceea-9a17-47d0-9b95-9f7bd9d8c1d8",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/108440126/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-1%2F2201fac4-4099-79b0-75f4-0e7cde526004.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e38br3u",
+          "pubDate": "2025-10-09",
+          "duration": 471
+        },
+        {
+          "id": "SCN20251002",
+          "title": "【和佳佳一起阅读】唯一一个永不会消失的职业——根据人工智能的预测",
+          "guid": "0d7c5011-8dc8-4a4c-a529-699a847b2331",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/108542565/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-19%2Fb29ab465-99d5-179d-2019-1bb7f8e173bd.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e38ev55",
+          "pubDate": "2025-10-02",
+          "duration": 604
+        },
+        {
+          "id": "SCN20250925",
+          "title": "【文化习俗】坐月子",
+          "guid": "384a7deb-cfd0-439b-92db-4e5818cf4bf5",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/108440158/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-17%2Fb602fb51-2448-e3e3-f2c4-96782b734012.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e38br4u",
+          "pubDate": "2025-09-25",
+          "duration": 790
+        },
+        {
+          "id": "SCN20250918",
+          "title": "【歇后语】孔雀开屏——自作多情",
+          "guid": "da70f5de-ce20-4390-8bb1-cd7a30214483",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/108120443/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-10%2F02f68788-c10b-5572-1325-837a18fae88f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3822tr",
+          "pubDate": "2025-09-18",
+          "duration": 633
+        },
+        {
+          "id": "SCN20250911",
+          "title": "【网络流行语】这15种男性，你遇见过吗？",
+          "guid": "74b61af1-4b2e-49de-9280-c52c165aa0d8",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/107887237/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-5%2F7af6335e-4828-c82a-e9a0-5959e305e01a.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/15-e37qv65",
+          "pubDate": "2025-09-11",
+          "duration": 883
+        },
+        {
+          "id": "SCN20250904",
+          "title": "【神话传说】精卫填海",
+          "guid": "968847e4-52c2-4940-95a1-42897c92e027",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/107385065/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-26%2Ff63aac7f-c535-e6dd-75c9-9a40ec90182e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e37bkp9",
+          "pubDate": "2025-09-04",
+          "duration": 400
+        },
+        {
+          "id": "SCN20250828",
+          "title": "【民间俗语】赶鸭子上架",
+          "guid": "bbc722c6-1256-4bc6-97c6-7e52ffbe9988",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/107223237/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-22%2Fc1fc906d-c6e9-2dd7-4861-01a19b17fdbd.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e376mo5",
+          "pubDate": "2025-08-28",
+          "duration": 610
+        },
+        {
+          "id": "SCN20250821",
+          "title": "【和佳佳一起阅读】心理暴力：7 个迹象表明你正在被你的伴侣情感虐待",
+          "guid": "b02140e9-8dce-4b71-899f-636873dc1eeb",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/106630760/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-8%2Fa6192d3a-a676-5c94-7b64-9eb3e8af10f7.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/7-e36kk58",
+          "pubDate": "2025-08-21",
+          "duration": 908
+        },
+        {
+          "id": "SCN20250814",
+          "title": "【文言文赏析】《醉翁亭记》",
+          "guid": "432233cf-ac79-4bc7-9561-8d5ab168bb9a",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/105977723/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-25%2F3583c677-7865-ac6e-3f68-44b108d5c29f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e360mdr",
+          "pubDate": "2025-08-14",
+          "duration": 472
+        },
+        {
+          "id": "SCN20250807",
+          "title": "【中国人物】马云",
+          "guid": "70b9da37-c91b-450b-b4d6-653520a4e241",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/105633159/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-17%2F5912c397-cd11-af32-f2f0-272444bd9499.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e35m5u7",
+          "pubDate": "2025-08-07",
+          "duration": 797
+        },
+        {
+          "id": "SCN20250724",
+          "title": "【社会观察】什么？没证在中国不能上网了？",
+          "guid": "3a5bc4d4-6c6f-453d-9c8d-c71789e8a82e",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/105316379/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-10%2Fcbc16374-2a99-9a71-6c74-a3f0ac8203d2.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e35cgir",
+          "pubDate": "2025-07-24",
+          "duration": 516
+        },
+        {
+          "id": "SCN20250717",
+          "title": "【民间俗语】吃着碗里的，看着锅里的。",
+          "guid": "58eb9e70-9677-4f2d-89b6-65ca79360981",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/105230383/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-8%2Fd0654412-06e7-0ac9-e639-cde35044c45f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e359sjf",
+          "pubDate": "2025-07-17",
+          "duration": 429
+        },
+        {
+          "id": "SCN20250710",
+          "title": "【歇后语】姜太公钓鱼——愿者上钩",
+          "guid": "ca25d6c7-8493-48fe-9af0-bb8c5ef53624",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/104764241/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-28%2F82bd8499-d746-6848-cfce-4aa8100e2bff.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e34rlch",
+          "pubDate": "2025-07-10",
+          "duration": 658
+        },
+        {
+          "id": "SCN20250703",
+          "title": "【和佳佳一起阅读】让你讨厌的同事？心理学家教你如何与他们共事。",
+          "guid": "5a2ad1ee-e023-4408-9897-3fbf377ad6a2",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/104762745/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-28%2F0e842503-c70d-ca67-6dd2-2ba7ec59c86a.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e34rjtp",
+          "pubDate": "2025-07-03",
+          "duration": 637
+        },
+        {
+          "id": "SCN20250626",
+          "title": "【正音】这些字词，你读对了吗（10）？",
+          "guid": "34fadd48-8920-49c1-a903-12cb7e8f317c",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/103882397/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-9%2F394e184f-fb49-c7db-368d-3a6e7f1eb6f7.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/10-e340o6t",
+          "pubDate": "2025-06-26",
+          "duration": 800
+        },
+        {
+          "id": "SCN20250619",
+          "title": "【古人智慧经典】山不在高，有仙则名； 水不在深，有龙则灵。",
+          "guid": "bcdc2f56-bf18-4b1c-b4e6-fe805d56a620",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/103762279/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-6%2Fdc5937a2-c1ec-8c44-1342-b0cd26f91eab.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e33t2t7",
+          "pubDate": "2025-06-19",
+          "duration": 555
+        },
+        {
+          "id": "SCN20250612",
+          "title": "【学习方法】新词学了就忘？三个建议增加你的积极词汇。",
+          "guid": "6614ca88-1d7a-451a-af07-faaf7042fdca",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/101671647/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-23%2F0041fee8-11f4-d2ed-00d7-a7ba429b679d.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e31t98v",
+          "pubDate": "2025-06-12",
+          "duration": 861
+        },
+        {
+          "id": "SCN20250605",
+          "title": "【民间俗语】前怕狼，后怕虎。",
+          "guid": "8d425adc-d8a9-46b3-8479-3989ba35bd94",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/101625737/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-22%2F037fe7a2-801b-507d-14f0-d84aac2ef200.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e31rse9",
+          "pubDate": "2025-06-05",
+          "duration": 570
+        },
+        {
+          "id": "SCN20250522",
+          "title": "【神话传说】 女娲补天",
+          "guid": "b9e009e1-c0cc-4010-8c5a-33209e369372",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/101380973/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-16%2F72dafd04-ca21-6590-a652-75b0b14d9c35.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e31kddd",
+          "pubDate": "2025-05-22",
+          "duration": 442
+        },
+        {
+          "id": "SCN20250515",
+          "title": "【社会观察】离婚冷静期",
+          "guid": "bc424efc-52e1-4413-8e78-18b8e4b19ae8",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/101422227/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-17%2F286fe0fd-e147-a340-c026-ea172ecc07dc.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e31llmj",
+          "pubDate": "2025-05-15",
+          "duration": 951
+        },
+        {
+          "id": "SCN20250508",
+          "title": "【学习方法】对你的发音不满意？十个字改善你的中文发音。",
+          "guid": "edcc6b75-e891-4185-87d5-6411939bef9a",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/101018623/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-8%2F4dcb6190-d07e-ba12-75ef-301d8140995e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e319bhv",
+          "pubDate": "2025-05-08",
+          "duration": 705
+        },
+        {
+          "id": "SCN20250501",
+          "title": "【和佳佳一起阅读】大脑对六种类型爱的不同反应",
+          "guid": "f08ae475-1641-4748-80be-e6bbdf5a47f6",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/101011578/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-8%2F69981bfc-dfd3-532b-9f36-799ef7bcbc57.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e3194lq",
+          "pubDate": "2025-05-01",
+          "duration": 785
+        },
+        {
+          "id": "SCN20250424",
+          "title": "【民间俗语】上梁不正下梁歪",
+          "guid": "a5431f24-f4b5-4723-ab38-b49190add8e9",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/100513273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-28%2F7240de9b-45a7-7a1a-93a8-c2cbf1c4ca7e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e30pu1p",
+          "pubDate": "2025-04-24",
+          "duration": 568
+        },
+        {
+          "id": "SCN20250417",
+          "title": "【网络流行语】2024 年度十大网络流行语",
+          "guid": "af49078e-f79f-49e6-bed5-b67f0a977da1",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/100460871/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-27%2F865ac574-88e9-b809-9148-534b6902686f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2024-e30oas7",
+          "pubDate": "2025-04-17",
+          "duration": 1010
+        },
+        {
+          "id": "SCN20250410",
+          "title": "【神话传说】《女娲造人》",
+          "guid": "ee0b7ead-dde4-41de-a2e4-dded5af943b8",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/100182372/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-21%2F1c689c70-6f21-56cc-88ef-9e8a85e3ed43.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e30fqt4",
+          "pubDate": "2025-04-10",
+          "duration": 541
+        },
+        {
+          "id": "SCN20250403",
+          "title": "【综合】学会感恩(下)——感恩表",
+          "guid": "d841dce7-e3b8-422a-bc2a-84f589dcda92",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/100089218/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-19%2F75e2e5d4-03eb-1f7f-f2d9-2abd93c2efd9.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e30cvu2",
+          "pubDate": "2025-04-03",
+          "duration": 1222
+        },
+        {
+          "id": "SCN20250327",
+          "title": "【综合】学会感恩(上)",
+          "guid": "e452f566-d580-4b37-9a55-3bb1009ee7f4",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/99757438/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-12%2Fe041fcf5-27ab-398b-db73-f4f3f5546308.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e302rtu",
+          "pubDate": "2025-03-27",
+          "duration": 688
+        },
+        {
+          "id": "SCN20250320",
+          "title": "【古诗词赏析】《游山西村》",
+          "guid": "f6599134-5793-405e-a2cb-4748fd295cd5",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/99365010/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-4%2F092d1770-4b12-87d8-846e-66aa69512e35.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2vmsmi",
+          "pubDate": "2025-03-20",
+          "duration": 568
+        },
+        {
+          "id": "SCN20250313",
+          "title": "【流行语】2024年度10大流行语",
+          "guid": "79a6c8d3-0dfb-4e46-b611-d8ff48198c15",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/99356734/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-4%2Fbd0713d0-5f0d-c579-55a2-c965bac2c3d4.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/202410-e2vmkju",
+          "pubDate": "2025-03-13",
+          "duration": 1179
+        },
+        {
+          "id": "SCN20250306",
+          "title": "【和佳佳一起阅读】13个简单方法让 2025 年成为最棒的一年",
+          "guid": "e16642ea-2626-4100-b69c-254f184bbf0e",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/99066175/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-26%2F99ced74c-0b63-2bdd-e676-0284d861f6e1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/13-2025-e2vdorv",
+          "pubDate": "2025-03-06",
+          "duration": 1303
+        },
+        {
+          "id": "SCN20250227",
+          "title": "【民间俗语】光打雷，不下雨",
+          "guid": "cbcca387-8ae3-4b7b-9754-b9504f9d40c0",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/98499951/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-14%2Fa57c2a9a-7bce-c252-a912-d877c2eb6b60.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2usftf",
+          "pubDate": "2025-02-27",
+          "duration": 664
+        },
+        {
+          "id": "SCN20250220",
+          "title": "【正音】这些字词，你读对了吗（9）？",
+          "guid": "c3409102-56f5-4826-965a-c3180fcefb8b",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/98121532/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-6%2Feb374693-0f53-1e23-4cda-46e13cf40955.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/9-e2ugubs",
+          "pubDate": "2025-02-20",
+          "duration": 843
+        },
+        {
+          "id": "SCN20250213",
+          "title": "【文化习俗】小年",
+          "guid": "95b07b9b-2d78-4813-86c1-b9f241261337",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/98111101/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-6%2F0715dce8-07b9-dd6d-b0b7-bfefe24c4eee.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2ugk5t",
+          "pubDate": "2025-02-13",
+          "duration": 494
+        },
+        {
+          "id": "SCN20250206",
+          "title": "【社会观察】快把全中国男人“逼死”的瑞士卷是怎么回事？",
+          "guid": "250fa951-77c1-4beb-b413-56805b384ad1",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/97681238/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-28%2F8bb4a03e-7c07-fb98-3969-25ee80e1132b.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2u3gcm",
+          "pubDate": "2025-02-06",
+          "duration": 846
+        },
+        {
+          "id": "SCN20250123",
+          "title": "【和佳佳一起阅读】终身学习的5大好处",
+          "guid": "9b9b9eb2-744d-4a3e-bbb2-f2af3f589360",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/94709252/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-20%2Fa893d31e-fa29-f87c-5dd7-faf16e84d4a3.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/5-e2r8q24",
+          "pubDate": "2025-01-23",
+          "duration": 942
+        },
+        {
+          "id": "SCN20250116",
+          "title": "【民间俗语】我吃过的盐比你吃过的饭还多,走过的桥比你走过的路还多。",
+          "guid": "bd6b5561-127d-403b-8ec6-872302b4995f",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/94469399/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-15%2Fd205ff9b-6cc4-0e80-4f9a-9e35518d2209.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2r1fqn",
+          "pubDate": "2025-01-16",
+          "duration": 679
+        },
+        {
+          "id": "SCN20250109",
+          "title": "【古诗词赏析】《水调歌头·明月几时有》",
+          "guid": "36e4574f-46f3-4a4d-ac9d-3d8a32905424",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/94418739/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-14%2F1b4dd6b7-0fe1-3c52-e492-7879548636bd.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2qvubj",
+          "pubDate": "2025-01-09",
+          "duration": 686
+        },
+        {
+          "id": "SCN20250102",
+          "title": "【中国古典四大名著】《水浒传》",
+          "guid": "12a261ce-aa17-4a47-b43d-33466def0d59",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/94362538/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-13%2F85bbee07-9d76-efd0-5c6a-297d35893745.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2qu7fa",
+          "pubDate": "2025-01-02",
+          "duration": 812
+        },
+        {
+          "id": "SCN20241226",
+          "title": "【和佳佳一起阅读】光脚的真的不怕穿鞋的吗？",
+          "guid": "787d4579-fee2-4d59-bffe-44c00cc8f1de",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/94315122/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-12%2F3694784b-47ff-4beb-9962-198c77a132c6.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2qsp5i",
+          "pubDate": "2024-12-26",
+          "duration": 688
+        },
+        {
+          "id": "SCN20241219",
+          "title": "【民间俗语】光脚的不怕穿鞋的。",
+          "guid": "8f065025-8c02-4dd9-b650-7d925caad152",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/94153583/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-8%2Fe7b38963-8767-27ff-f9a1-0466163f6d55.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2qnrdf",
+          "pubDate": "2024-12-19",
+          "duration": 660
+        },
+        {
+          "id": "SCN20241212",
+          "title": "【神话传说】《盘古化万物》",
+          "guid": "91fd4a78-98a0-4fd1-bff5-4285659a0c8d",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/94015095/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-5%2Fd8bf12a7-9d54-14cc-f51d-d9610b947b50.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2qjk5n",
+          "pubDate": "2024-12-12",
+          "duration": 400
+        },
+        {
+          "id": "SCN20241205",
+          "title": "【社会观察】蓝？粉？我猜，我猜，我猜猜猜。",
+          "guid": "3508cbf0-df8b-4990-b56b-10d07ed33179",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/94008685/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-5%2F27569564-6e02-d308-6412-79474f68335a.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2qjdtd",
+          "pubDate": "2024-12-05",
+          "duration": 757
+        },
+        {
+          "id": "SCN20241128",
+          "title": "【古人智慧经典】己所不欲，勿施于人。",
+          "guid": "724bbf9b-10fc-44c5-9ffe-097897b4ac9d",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/93541644/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-25%2F3176caa3-c741-9951-35b2-329ae889cb93.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2q55qc",
+          "pubDate": "2024-11-28",
+          "duration": 682
+        },
+        {
+          "id": "SCN20241121",
+          "title": "【和佳佳一起阅读】狗狗和猫猫做梦都梦见了什么？",
+          "guid": "bd002ccb-dd81-4c1a-9c66-fd31a9ecf916",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/93541431/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-25%2F2f58f409-8b29-f16c-9468-4492209a04b0.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2q55jn",
+          "pubDate": "2024-11-21",
+          "duration": 835
+        },
+        {
+          "id": "SCN20241114",
+          "title": "【成语故事】初生牛犊不怕虎",
+          "guid": "43c39b57-4a44-4c24-89f3-24892c5bd104",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/92844082/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-10%2F387861177-44100-2-3d763786574ca.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2pfsji",
+          "pubDate": "2024-11-14",
+          "duration": 891
+        },
+        {
+          "id": "SCN20241107",
+          "title": "【网络流行语】00后整顿职场",
+          "guid": "ce9081f2-e413-4425-a673-922edf7c7ee3",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/92763352/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-8%2F054eeb92-6648-6fb4-be8c-6cbee4696b93.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/00-e2pddoo",
+          "pubDate": "2024-11-07",
+          "duration": 767
+        },
+        {
+          "id": "SCN20241024",
+          "title": "【正音】这些字词，你读对了吗（8）？",
+          "guid": "699e54cc-a18c-4bda-8c64-4c3c0f888baf",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/92759890/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-8%2F37326c35-52c9-8aaa-e46a-1fcd4607c5b5.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/8-e2pdaci",
+          "pubDate": "2024-10-24",
+          "duration": 696
+        },
+        {
+          "id": "SCN20241017",
+          "title": "【走遍中国】香港（下）",
+          "guid": "1d7e5c1c-5126-4263-bdf8-b715a774b04d",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/92450292/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-1%2F4ed96e31-70c1-9c66-913e-83b5808e4c0e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2p3s1k",
+          "pubDate": "2024-10-17",
+          "duration": 990
+        },
+        {
+          "id": "SCN20241010",
+          "title": "【走遍中国】香港（上）",
+          "guid": "d18e3891-b03a-4673-ba93-b512f99f42b0",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/92443091/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-1%2Fa0a2a378-26c3-af3c-bfba-c3fd6963d066.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2p3l0j",
+          "pubDate": "2024-10-10",
+          "duration": 879
+        },
+        {
+          "id": "SCN20241003",
+          "title": "【成语故事】对牛弹琴",
+          "guid": "e3b425fb-203f-4b1d-b50a-090a808069a4",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/91837970/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-17%2F386539545-44100-2-db967491fe6f6.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2oh62i",
+          "pubDate": "2024-10-03",
+          "duration": 684
+        },
+        {
+          "id": "SCN20240926",
+          "title": "【社会观察】结婚不用户口本了？",
+          "guid": "a9d67057-e987-45a3-8dc5-08f4b63aa218",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/91590572/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-11%2F897836af-0d7b-84cc-6c58-18c4893347bf.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2o9kfc",
+          "pubDate": "2024-09-26",
+          "duration": 901
+        },
+        {
+          "id": "SCN20240919",
+          "title": "【歇后语】打开天窗——说亮话",
+          "guid": "fbf111dc-d308-4a47-b913-9fe78629a5ca",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/91586376/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-11%2Fd2203b76-bad8-348b-5096-8d1458b8cffb.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2o9gc8",
+          "pubDate": "2024-09-19",
+          "duration": 586
+        },
+        {
+          "id": "SCN20240912",
+          "title": "【和佳佳一起阅读】让人羡慕的8个超“酷”工作",
+          "guid": "7cb1b4a1-cf5e-4b0b-9d1b-f0a70717227f",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/91203904/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-2%2F89e4d192-0695-8611-d234-664e6de40855.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/8-e2ntqs0",
+          "pubDate": "2024-09-12",
+          "duration": 1058
+        },
+        {
+          "id": "SCN20240905",
+          "title": "【正音】“不”什么时候变调，你知道吗？",
+          "guid": "e73de99e-9047-4cb5-990b-a591232c90f8",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/90681065/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-20%2F85c615be-1ba0-bfd5-b5f6-ec3f9550517a.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2nds99",
+          "pubDate": "2024-09-05",
+          "duration": 371
+        },
+        {
+          "id": "SCN20240829",
+          "title": "【神话传说】《盘古开天》",
+          "guid": "25993033-ebcd-4f4d-b7c8-791ab93cc823",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/90677902/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-20%2F47f051fa-3f92-97e4-46e0-832b4e3b58a1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2ndp6e",
+          "pubDate": "2024-08-29",
+          "duration": 526
+        },
+        {
+          "id": "SCN20240822",
+          "title": "【古诗词赏析】《黄鹤楼》",
+          "guid": "0325b9f7-b8b2-44e3-8110-94a50c0358cf",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/90482813/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-15%2Ffd06b517-8684-ea3d-56ef-ec881e4b5559.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2n7qlt",
+          "pubDate": "2024-08-22",
+          "duration": 719
+        },
+        {
+          "id": "SCN20240815",
+          "title": "【社会观察】七年没回国，中国变样了吗？（下）",
+          "guid": "c868a797-6d73-4cf0-a3ba-eae0a475b0ad",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/89572571/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-23%2Fd40f515e-8304-566b-4a0b-4db1bbe77f3e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2mc1or",
+          "pubDate": "2024-08-15",
+          "duration": 699
+        },
+        {
+          "id": "SCN20240808",
+          "title": "【和佳佳一起阅读】极简主义——五个建议增加你的幸福感",
+          "guid": "063e9de3-5584-4514-91b5-652a30aa1113",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/89534282/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-22%2F7e89981c-d120-c623-a853-2993e15f49b1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2masca",
+          "pubDate": "2024-08-08",
+          "duration": 1023
+        },
+        {
+          "id": "SCN20240801",
+          "title": "【谚语】林子大了，什么鸟都有。",
+          "guid": "9e8dad12-813d-462e-8008-5d9c61dbb89d",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/89386250/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-18%2F259884fc-7c9d-e676-6cf8-84bd71e169d1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2m6bqa",
+          "pubDate": "2024-08-01",
+          "duration": 712
+        },
+        {
+          "id": "SCN20240725",
+          "title": "【正音】“一”什么时候变调，你知道吗？",
+          "guid": "db9b4e07-9fc4-433e-abe1-30e138a42caa",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/89107779/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-11%2F388e857c-b6ba-5a50-904d-67d379889594.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2ltrs3",
+          "pubDate": "2024-07-25",
+          "duration": 625
+        },
+        {
+          "id": "SCN20240718",
+          "title": "【网络流行语】PUA, CPU, KTV, PPT, ICU是什么“梗”，你知道吗？",
+          "guid": "a1762e6f-62aa-437d-812c-05ff32f46a17",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/89069932/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-10%2F0a02bfc2-ddec-2171-0540-36ff8614c09b.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/PUA--CPU--KTV--PPT--ICU-e2lsmtc",
+          "pubDate": "2024-07-18",
+          "duration": 844
+        },
+        {
+          "id": "SCN20240711",
+          "title": "【和佳佳一起阅读】为什么年轻人不打电话而只选择发短信？",
+          "guid": "35899b26-7c22-41d7-898a-ec3de0e8e149",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/88979062/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-8%2F8e19a79c-2558-5847-c6d3-43e23a415450.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2lpu5m",
+          "pubDate": "2024-07-11",
+          "duration": 793
+        },
+        {
+          "id": "SCN20240704",
+          "title": "【古人智慧经典】鱼和熊掌不可兼得",
+          "guid": "0a292fed-5f54-4809-b256-94c98bfb8876",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/88702379/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-1%2F35b26cd1-e69b-fee7-202e-d3ce4f1f2e63.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2lhfvb",
+          "pubDate": "2024-07-04",
+          "duration": 964
+        },
+        {
+          "id": "SCN20240627",
+          "title": "【和佳佳一起阅读】男子救人牺牲，妻子将百万体恤金交给公婆",
+          "guid": "356efeec-7a22-4bc9-b64f-56cbedd769bc",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/87416734/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-30%2F6b8804d0-19a4-5a80-01bd-22f4939148d9.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2ka8eu",
+          "pubDate": "2024-06-27",
+          "duration": 641
+        },
+        {
+          "id": "SCN20240620",
+          "title": "【走遍中国】武汉",
+          "guid": "8ac56264-25f5-477f-804b-0628888c55c1",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/87670526/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-5%2F65ebf89e-3309-4c35-d151-64b5bc2cbd4c.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2ki09u",
+          "pubDate": "2024-06-20",
+          "duration": 1315
+        },
+        {
+          "id": "SCN20240613",
+          "title": "【大家一起来互动】你投了什么？",
+          "guid": "52e301e9-89fc-44e6-9a76-da103d3a8828",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/87663081/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-5%2F71ec1401-acf8-56ea-18e9-d5ba71b1a15f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2khp19",
+          "pubDate": "2024-06-13",
+          "duration": 680
+        },
+        {
+          "id": "SCN20240606",
+          "title": "【听佳佳讲知识点啦】“临时”“暂时”“一时”，有什么区别?",
+          "guid": "6a2e2b53-7c29-4a50-96f0-634a4498d301",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/86495666/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-8%2F7304e375-58e4-64ab-41a6-df1d699f9b97.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2je4vi",
+          "pubDate": "2024-06-06",
+          "duration": 1177
+        },
+        {
+          "id": "SCN20240530",
+          "title": "【谚语】平时不烧香，临时抱佛脚。",
+          "guid": "272b2aa4-a2ef-4958-a017-bb687551c9bd",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/86490993/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-8%2F167ffdc5-b731-42ea-d0bc-1e0ee2102613.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2je0dh",
+          "pubDate": "2024-05-30",
+          "duration": 622
+        },
+        {
+          "id": "SCN20240523",
+          "title": "【听佳佳讲知识点啦】“从来”“从不”“从没”，你分得清吗？",
+          "guid": "59dd5a7b-989d-4e5c-abb4-be14390b1a6e",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/86431967/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-26%2F1b15d706-3c2c-e217-75c2-42e36a6879f0.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2jc6ov",
+          "pubDate": "2024-05-23",
+          "duration": 880
+        },
+        {
+          "id": "SCN20240516",
+          "title": "【和佳佳一起阅读】单身，也是一种奢侈吗？",
+          "guid": "09b92c76-1901-437d-b5e2-e1c69eebc021",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/86393999/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-6%2Fe063251b-400b-03e3-ffa3-9929707e3007.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2jb1mf",
+          "pubDate": "2024-05-16",
+          "duration": 1061
+        },
+        {
+          "id": "SCN20240509",
+          "title": "中国的孩子怎么越来越少了呢？（下）",
+          "guid": "5c611e49-f85d-4064-866b-70690035f8d5",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/86310281/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-4%2F376541710-44100-2-e94471b3f3a8d.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2j8fu9",
+          "pubDate": "2024-05-09",
+          "duration": 999
+        },
+        {
+          "id": "SCN20240502",
+          "title": "中国的孩子怎么越来越少了呢？（上）",
+          "guid": "301f40f4-48c2-42a8-89bd-c579aa8eea74",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/85879008/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-24%2Fcd73a3e1-dd56-c2e0-8fd9-549d951699b5.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2irap0",
+          "pubDate": "2024-05-02",
+          "duration": 1105
+        },
+        {
+          "id": "SCN20240425",
+          "title": "“i人”和“e人”，如何利用自身性格特点去学习外语？",
+          "guid": "49187f23-fdc1-4118-b3fa-58c39cf59747",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/85506763/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-16%2F745ef240-4eb5-51d6-fc60-c5d8d3cc8a3f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ie-e2ifv8b",
+          "pubDate": "2024-04-25",
+          "duration": 1540
+        },
+        {
+          "id": "SCN20240418",
+          "title": "民间俗语：苍蝇不叮无缝的蛋",
+          "guid": "5a75828b-7cb5-4f5d-8c15-7b2686935004",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/85147759/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-8%2F164cc228-7008-2067-7405-0052e6450e7c.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2i50lf",
+          "pubDate": "2024-04-18",
+          "duration": 1373
+        },
+        {
+          "id": "SCN20240404",
+          "title": "电诈（下）",
+          "guid": "cdd3f95f-bc10-488e-9005-0dcb6e81db38",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/84095850/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-15%2F1b35f7f4-0e00-74bc-7973-1e8f311ecf7e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2h4tda",
+          "pubDate": "2024-04-04",
+          "duration": 943
+        },
+        {
+          "id": "SCN20240321",
+          "title": "电诈（上）",
+          "guid": "584ab127-45ed-45b5-811c-ded1ddaa0b8f",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/84089800/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-15%2F7725c32f-c87a-cd56-03ef-4a0efb935d0b.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2h4ng8",
+          "pubDate": "2024-03-21",
+          "duration": 1367
+        },
+        {
+          "id": "SCN20240307",
+          "title": "民间俗语——酒香不怕巷子深",
+          "guid": "d89efa6a-a833-48dd-a8b2-4c99569208fe",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/83567858/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-4%2Fb7fea60e-859b-e583-9e76-44db6a82d7f1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2gkppi",
+          "pubDate": "2024-03-07",
+          "duration": 946
+        },
+        {
+          "id": "SCN20240222",
+          "title": "中国古典四大名著——《红楼梦》",
+          "guid": "bee28598-98ef-4b15-af71-8e322f2bbfd0",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/82898901/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-1-19%2F320d12b2-df53-bc55-9dba-6882591d107c.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2g0cgl",
+          "pubDate": "2024-02-22",
+          "duration": 1708
+        },
+        {
+          "id": "SCN20240208",
+          "title": "2023 年度十大网络流行语",
+          "guid": "20388ead-eb7c-45bb-adcb-b27b3e58fe00",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/82322005/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-1-6%2Fd71bbce7-4a67-b9c9-9956-9196836f0070.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2023-e2fep4l",
+          "pubDate": "2024-02-08",
+          "duration": 1722
+        },
+        {
+          "id": "SCN20240125",
+          "title": "2023 年度十大流行语",
+          "guid": "7e4edaba-67ab-4b2a-88e4-5e2f1bc65788",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/81410538/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-17%2F39ff83cf-0106-de83-eb9c-4c402356317f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2023-e2eiv1a",
+          "pubDate": "2024-01-25",
+          "duration": 1388
+        },
+        {
+          "id": "SCN20240117",
+          "title": "七年没回国，中国 变样了吗？",
+          "guid": "033c2d3f-4919-4401-9ecd-bddbcbac6ae5",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/79721769/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-14%2F5d1f5554-965d-a025-85f0-5ba027fc7cfb.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2cvdr9",
+          "pubDate": "2024-01-17",
+          "duration": 1553
+        },
+        {
+          "id": "SCN20240117-2",
+          "title": "中国结婚的人怎么越来越少了呢？",
+          "guid": "f14ce63a-4290-46c0-bf02-d411e2786d02",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/81074918/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-11%2F1d28fc10-97c0-30bf-d18d-542c344a0408.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2e8n96",
+          "pubDate": "2024-01-17",
+          "duration": 1388
+        },
+        {
+          "id": "SCN20231214",
+          "title": "歇后语：丈二和尚——摸不着头脑",
+          "guid": "4f6cfd03-f839-404a-bf56-2e2f324f71fc",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/79707028/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-14%2F8aa7ab02-5ba6-0507-a64e-ead348911e9d.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2cuvek",
+          "pubDate": "2023-12-14",
+          "duration": 933
+        },
+        {
+          "id": "SCN20231130",
+          "title": "这些字词，你读对了吗（7）？",
+          "guid": "a8bb96f8-c7af-46a1-9704-7e9bc6a51bd6",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/74983216/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-23%2F1ee9cc0e-0858-ed6d-2ad3-eddaccf93719.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/7-e28eqbg",
+          "pubDate": "2023-11-30",
+          "duration": 1521
+        },
+        {
+          "id": "SCN20231116",
+          "title": "客套话，你真的听懂了吗？（下）",
+          "guid": "2a8a212c-d3c4-4596-ac69-e7c70257c0ea",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/74977783/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-23%2F823efb6f-ab54-5b03-996a-767b766836fe.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e28el1n",
+          "pubDate": "2023-11-16",
+          "duration": 989
+        },
+        {
+          "id": "SCN20231102",
+          "title": "客套话，你真的听懂了吗？（上）",
+          "guid": "b695cc3e-586e-4c85-95a6-eeb619bea493",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/74941300/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-22%2F416cb5bb-88b1-5d09-0afa-f56a3728bb7e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e28dhdk",
+          "pubDate": "2023-11-02",
+          "duration": 1441
+        },
+        {
+          "id": "SCN20231019",
+          "title": "古人智慧经典——子非鱼，安知鱼之乐",
+          "guid": "f3cecad6-42fd-431f-a55e-946ee61b776c",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/74934675/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-22%2Fcdc7bcaa-2758-0d4c-4265-a82065981915.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e28dauj",
+          "pubDate": "2023-10-19",
+          "duration": 1261
+        },
+        {
+          "id": "SCN20231005",
+          "title": "词汇学习，“数量”和“质量”哪个更重要",
+          "guid": "bc60b8ed-bdcf-4d95-834f-b2b67891f30e",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/74891731/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-21%2F5a3a73c1-229d-f97d-1c73-d1b0d459ce90.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e28c10j",
+          "pubDate": "2023-10-05",
+          "duration": 1133
+        },
+        {
+          "id": "SCN20230921",
+          "title": "网络流行语——世界那么大，我想去看看",
+          "guid": "36db035a-aaba-4c7a-ae32-28876cfb5779",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/74884812/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-21%2Fda54715d-7041-2c2a-fdcc-4ec472ac1e33.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e28bq8c",
+          "pubDate": "2023-09-21",
+          "duration": 1005
+        },
+        {
+          "id": "SCN20230907",
+          "title": "谚语：墙头草，随风倒",
+          "guid": "90a34cdf-9d8d-4dca-a45c-a182c542fc12",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/74437487/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-9%2Ffef2ed33-1829-5abc-1c05-285fc43cd30d.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e27u5df",
+          "pubDate": "2023-09-07",
+          "duration": 1073
+        },
+        {
+          "id": "SCN20230824",
+          "title": "中国的科举考试（下）",
+          "guid": "2f89d0ee-9b47-4e9e-8290-1c401cd59f4f",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/74355426/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-7%2F69308929-73a6-0257-44f1-f730dc617ad1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e27rl92",
+          "pubDate": "2023-08-24",
+          "duration": 1469
+        },
+        {
+          "id": "SCN20230810",
+          "title": "中国的科举考试　（上）",
+          "guid": "e7fe05b3-3f8e-4b13-b02f-eb9799cc3bd9",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/74345383/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-7%2Fcac40c9b-ff72-11bc-c9c8-dd382f7914bd.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e27rbf7",
+          "pubDate": "2023-08-10",
+          "duration": 969
+        },
+        {
+          "id": "SCN20230727",
+          "title": "这些字词，你读对了吗（6）",
+          "guid": "e2b1533b-c69c-4005-a2c1-6c3a1c690569",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/73796052/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-6-24%2F00a88342-707d-eb1d-52e1-724c77b99417.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/6-e27aj0k",
+          "pubDate": "2023-07-27",
+          "duration": 1205
+        },
+        {
+          "id": "SCN20230713",
+          "title": "大熊猫（下）",
+          "guid": "08fa8230-25d2-458a-ba4b-243562e1bcc0",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/72704385/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-28%2F1942f989-17ef-df6f-cad3-d0b8dbf37062.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2698u1",
+          "pubDate": "2023-07-13",
+          "duration": 1380
+        },
+        {
+          "id": "SCN20230629",
+          "title": "大熊猫（上）",
+          "guid": "550a38eb-c527-4853-81ef-2e190eafa2a4",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/72697656/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-27%2Fc8539ada-953f-1b62-67a4-983bc55eaa52.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e2692bo",
+          "pubDate": "2023-06-29",
+          "duration": 857
+        },
+        {
+          "id": "SCN20230615",
+          "title": "成语——势如破竹",
+          "guid": "45c1f287-a05d-4180-8a78-bc456e10cb1b",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/71901843/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-9%2F94e57f0b-cebe-a748-9add-4b7fd678843f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e25gp6j",
+          "pubDate": "2023-06-15",
+          "duration": 1501
+        },
+        {
+          "id": "SCN20230601",
+          "title": "歇后语：秀才遇见兵——有理说不清",
+          "guid": "038fff76-fd60-487d-87ef-6fdfbffe13ae",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/71236354/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-29%2F6e9c970d-c5a7-e94c-ffc4-c5efac38b49b.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e24sfa2",
+          "pubDate": "2023-06-01",
+          "duration": 845
+        },
+        {
+          "id": "SCN20230518",
+          "title": "中国古典四大名著——《西游记》",
+          "guid": "8f5093e4-36d2-4088-aa21-f2b250b068fc",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/70498979/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-16%2Faccd1d0a-3d20-2087-ed33-49f06f2e5cdd.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e245v73",
+          "pubDate": "2023-05-18",
+          "duration": 1253
+        },
+        {
+          "id": "SCN20230504",
+          "title": "中国常用的民间偏方",
+          "guid": "d3bb40c4-0eef-4315-a6e9-9038333bfacb",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/69110627/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-22%2F62d3f4e0-2fc5-b83b-9453-06b796869f76.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e22rjd3",
+          "pubDate": "2023-05-04",
+          "duration": 1301
+        },
+        {
+          "id": "SCN20230420",
+          "title": "民间俗语——不管三七二十一",
+          "guid": "48dcd213-0c32-47cc-be89-6bda0ce5dbc8",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/68104477/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-6%2Fe8e07cfb-1fca-6ed4-ff11-080398b0d151.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e21ssqt",
+          "pubDate": "2023-04-20",
+          "duration": 913
+        },
+        {
+          "id": "SCN20230406",
+          "title": "认识学习外语的十大误区，帮助你快速“拿捏”一门外语 （下）",
+          "guid": "59c942d3-8989-491d-a409-68af74a32821",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/66434232/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-2-12%2F28eec50e-ad23-af96-af3a-583a2edb8867.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e209tno",
+          "pubDate": "2023-04-06",
+          "duration": 1153
+        },
+        {
+          "id": "SCN20230323",
+          "title": "认识学习外语的十大误区，帮助你快速“拿捏”一门外语 （上）",
+          "guid": "c84e1990-65ee-4b0b-880a-f1f0b698bb65",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/66430785/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-2-12%2F035f05e4-a3b4-6b48-14a2-499a8f01f3af.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e209qc1",
+          "pubDate": "2023-03-23",
+          "duration": 1097
+        },
+        {
+          "id": "SCN20230309",
+          "title": "中国的四大发明 （下）",
+          "guid": "1be5fdad-bfe5-49e5-ae0d-cdd35d9e343e",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/65702038/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-1-27%2F28867bfa-fd4b-dfd6-6840-204a2864af08.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1vjimm",
+          "pubDate": "2023-03-09",
+          "duration": 795
+        },
+        {
+          "id": "SCN20230223",
+          "title": "中国的四大发明 （上）",
+          "guid": "42108395-c5e9-467e-90b1-0f20b2d29fd2",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/65366292/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-1-20%2F914bb522-725a-47ab-f587-8ff1d0bc5784.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1v9aqk",
+          "pubDate": "2023-02-23",
+          "duration": 1215
+        },
+        {
+          "id": "SCN20230209",
+          "title": "成语——不食人间烟火",
+          "guid": "94bcd7ef-cd3f-49ed-8e2b-3207c614440b",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/64215221/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-29%2F0906ff62-e013-8955-5ade-4e973a4c529d.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1u66nl",
+          "pubDate": "2023-02-09",
+          "duration": 453
+        },
+        {
+          "id": "SCN20230126",
+          "title": "2022年度十大流行语",
+          "guid": "e0c5a089-00bd-4b11-ae7e-c34754db745e",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/63528557/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-15%2Fd53aa6b9-5b93-6bcd-0a44-aab4c4f293a0.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2022-e1th85d",
+          "pubDate": "2023-01-26",
+          "duration": 1121
+        },
+        {
+          "id": "SCN20230112",
+          "title": "这些字词，你读对了吗（5）？",
+          "guid": "2671593f-a0b6-486b-84a9-1e5e9472ec1e",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/63212984/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-8%2F9905ac5a-8795-50c2-42cb-15d5f1628c7e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/5-e1t7jvo",
+          "pubDate": "2023-01-12",
+          "duration": 810
+        },
+        {
+          "id": "SCN20221229",
+          "title": "在中国,最受欢迎的体育项目",
+          "guid": "e2c19607-ad44-496b-8bc3-4f42133864e8",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/62650234/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-24%2Fcdb414ba-1bdc-8d9f-84b4-4e7cbdd59de2.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1smedq",
+          "pubDate": "2022-12-29",
+          "duration": 1246
+        },
+        {
+          "id": "SCN20221215",
+          "title": "民间俗语——哪壶不开提哪壶",
+          "guid": "9d103744-b06f-4aa7-83ea-0e74aeb3d9bf",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/61655715/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-4%2F37afd1b2-8ab0-8657-059e-45c57455ac16.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1ro373",
+          "pubDate": "2022-12-15",
+          "duration": 804
+        },
+        {
+          "id": "SCN20221201",
+          "title": "中国功夫",
+          "guid": "9b718d30-7eb5-41a8-93fa-e3570a5b850c",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/60981710/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-21%2F02fbbbee-f576-35b3-f7b9-5e60b66dcdcc.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1r3h0e",
+          "pubDate": "2022-12-01",
+          "duration": 845
+        },
+        {
+          "id": "SCN20221117",
+          "title": "民间俗语——拿着鸡毛当令箭",
+          "guid": "e677c089-40f7-4b25-9557-0e0737c2dcef",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/60153542/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-5%2F23682ec7-9612-41ac-e9ea-006483a2ccdc.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1qa886",
+          "pubDate": "2022-11-17",
+          "duration": 730
+        },
+        {
+          "id": "SCN20221103",
+          "title": "成语——指桑骂槐",
+          "guid": "e36c7746-c20d-42d2-9f6e-a2ecb6469e5d",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/59786712/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-9-30%2Feb1934b0-4670-f55b-6a2c-3360855fec85.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1pv20o",
+          "pubDate": "2022-11-03",
+          "duration": 1665
+        },
+        {
+          "id": "SCN20221020",
+          "title": "歇后语：打肿脸充胖子——死要面子活受罪",
+          "guid": "06e29a15-2049-4d1d-a8be-e8f8cd0e34e7",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/59120594/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-9-16%2F16a3eff5-6fcc-1d94-29e4-a284f012f43d.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1pangi",
+          "pubDate": "2022-10-20",
+          "duration": 829
+        },
+        {
+          "id": "SCN20221006",
+          "title": "走遍中国——丽江",
+          "guid": "32cd0053-a728-4a89-bde5-72cb021edaa6",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/58585173/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-9-5%2Fd993fbe0-7750-47d7-cec8-35b070dd2c29.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1oqckl",
+          "pubDate": "2022-10-06",
+          "duration": 1417
+        },
+        {
+          "id": "SCN20220922",
+          "title": "民间俗语——站着说话，不腰疼",
+          "guid": "c3f28e2f-edf9-4c83-959d-014c15966407",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/57728219/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-17%2F115ce229-d47a-9f61-16ca-890131df7e5e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1o07or",
+          "pubDate": "2022-09-22",
+          "duration": 733
+        },
+        {
+          "id": "SCN20220908",
+          "title": "中国学校的课余活动",
+          "guid": "32c29831-22dd-4b4f-994b-433f5f54abab",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/57078228/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-4%2Fb6eafc95-d586-f7c3-bd44-4f926ec37df7.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1ncd0k",
+          "pubDate": "2022-09-08",
+          "duration": 878
+        },
+        {
+          "id": "SCN20220825",
+          "title": "这些字词，你读对了吗（4）？",
+          "guid": "8881d72e-990e-4498-87cf-065faeb72ce0",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/56207221/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-15%2F21ab53e8-4d16-d995-5aab-f0397770f0ff.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/4-e1mhqdl",
+          "pubDate": "2022-08-25",
+          "duration": 1246
+        },
+        {
+          "id": "SCN20220811",
+          "title": "中国民间故事——《不见棺材不落泪，不到黄河不死心》",
+          "guid": "1c10248f-d8cb-45ca-8bec-45f13e8cacd9",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/55564286/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-31%2F82c0ba95-4269-a82c-8534-77fd2700d6d4.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1lu6hu",
+          "pubDate": "2022-08-11",
+          "duration": 719
+        },
+        {
+          "id": "SCN20220728",
+          "title": "成语故事——《草船借箭》",
+          "guid": "e550fb9a-07a5-4776-86e8-15694787d472",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/55216641/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-23%2F2adad4bb-03eb-6a4c-327e-0d3cb7cd16d5.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1ljj21",
+          "pubDate": "2022-07-28",
+          "duration": 1293
+        },
+        {
+          "id": "SCN20220714",
+          "title": "“送命题”",
+          "guid": "6e23fc3b-1149-42e6-a793-745a98abcf73",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/54616910/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-9%2F94ba3b8f-bdab-c1c9-3ced-85343cb71122.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1l19ce",
+          "pubDate": "2022-07-14",
+          "duration": 775
+        },
+        {
+          "id": "SCN20220630",
+          "title": "包拯",
+          "guid": "13ab7998-1e16-445d-ada4-0b674cc0e110",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/53871151/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-22%2F5d5fe990-8f1b-c44d-1ec9-4f5901295f22.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1kah3f",
+          "pubDate": "2022-06-30",
+          "duration": 701
+        },
+        {
+          "id": "SCN20220616",
+          "title": "中国孩子的经典童年游戏",
+          "guid": "52e14527-fd75-41a9-b00b-f2b49e8a9e5d",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/53441529/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-13%2Fbefe79d3-546c-ec12-840d-f18a00d08d56.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1jtdhp",
+          "pubDate": "2022-06-16",
+          "duration": 905
+        },
+        {
+          "id": "SCN20220602",
+          "title": "网络流行语——我爸是李刚",
+          "guid": "5e416b8f-97b9-48c3-a8cc-af2b138dbfe4",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/52740627/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-29%2Fa55d7b9e-2e4d-2b79-d2ce-7c5e415c45c4.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1j812j",
+          "pubDate": "2022-06-02",
+          "duration": 675
+        },
+        {
+          "id": "SCN20220519",
+          "title": "谜语",
+          "guid": "2ad461f5-c7cf-4a6e-89ed-a9d8258ea033",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/52039704/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-18%2F195724db-5e68-6bc5-0d98-2e6731e1c291.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1iikio",
+          "pubDate": "2022-05-19",
+          "duration": 783
+        },
+        {
+          "id": "SCN20220505",
+          "title": "中国民间故事——《济公传说》",
+          "guid": "a854b0a4-da9e-48c0-98f6-315cad9db6db",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/51373421/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-1%2F9592cfd0-0d79-6c92-368b-360bd604282c.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1hu9td",
+          "pubDate": "2022-05-05",
+          "duration": 615
+        },
+        {
+          "id": "SCN20220421",
+          "title": "清明节",
+          "guid": "56978c56-7d0b-4785-8fe9-8e7d72edb5d4",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/50708465/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-17%2Fdae67e75-a7b0-6d7a-2c3c-5573083d5600.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1ha0hh",
+          "pubDate": "2022-04-21",
+          "duration": 1039
+        },
+        {
+          "id": "SCN20220407",
+          "title": "这些字词，你读对了吗（3）？",
+          "guid": "d09bf734-4662-4e63-b606-8d7ce3da7779",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/50017522/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-3%2F7aecaedc-4c65-08dc-c6fb-8d1222e6103d.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/3-e1gktpi",
+          "pubDate": "2022-04-07",
+          "duration": 795
+        },
+        {
+          "id": "SCN20220324",
+          "title": "现代中国的结婚风俗 （下）",
+          "guid": "49069495-e85b-4af1-9ae2-2412fa509013",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/48636765/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-6%2F374ba26e-647f-56ac-924a-c7c5c3b41cff.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1fapct",
+          "pubDate": "2022-03-24",
+          "duration": 947
+        },
+        {
+          "id": "SCN20220310",
+          "title": "现代中国的结婚风俗 （上）",
+          "guid": "01bf0e64-230f-4c46-b022-495d1b8c9f24",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/48635141/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-6%2Ff533214b-9762-5b2c-edf5-c89f6af700b1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1fanq5",
+          "pubDate": "2022-03-10",
+          "duration": 1031
+        },
+        {
+          "id": "SCN20220224",
+          "title": "成语故事——《柳暗花明》",
+          "guid": "194e4970-a5d6-445e-87dc-e80e9af749a1",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/47948758/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-20%2F98bf1bb3-2631-a2d1-2b91-916712911ab3.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1elpgm",
+          "pubDate": "2022-02-24",
+          "duration": 1339
+        },
+        {
+          "id": "SCN20220210",
+          "title": "五个建议加速你实现“像母语者一样流利说中文”的目标",
+          "guid": "b1794417-790c-4082-bb02-2c9f31857250",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/46916617/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-30%2F3135130d-c45a-7510-d3a6-40382471efd4.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1dm9i9",
+          "pubDate": "2022-02-10",
+          "duration": 661
+        },
+        {
+          "id": "SCN20220127",
+          "title": "祝福语",
+          "guid": "9d8e4a50-7aaf-4e6a-8af3-8050d2ad3a53",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/46564588/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-23%2Fdb9c0f3e-4ddb-975a-c337-f5b138666fc6.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1dbhpc",
+          "pubDate": "2022-01-27",
+          "duration": 428
+        },
+        {
+          "id": "SCN20220113",
+          "title": "2021年度十大网络流行语",
+          "guid": "5be152e6-4486-4f2a-b2fa-c0a123158f2c",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/45915654/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-9%2F979d1d8d-5abf-a98a-f3c2-35d4df6eb62e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2021-e1cno26",
+          "pubDate": "2022-01-13",
+          "duration": 837
+        },
+        {
+          "id": "SCN20211230",
+          "title": "现在的中国年轻人流行玩什么？",
+          "guid": "d1014632-bcc0-4154-acd0-19e1597a756c",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/45343140/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-26%2F52290c82-6886-adef-8957-3426d6444172.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1c68v4",
+          "pubDate": "2021-12-30",
+          "duration": 623
+        },
+        {
+          "id": "SCN20211216",
+          "title": "走遍中国——青岛",
+          "guid": "8c07867d-051c-4c06-84b0-f4889f08fa7c",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/44744873/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-12%2Fc248aa76-90dd-986b-44dc-d7923973bb85.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1bk0n9",
+          "pubDate": "2021-12-16",
+          "duration": 606
+        },
+        {
+          "id": "SCN20211202",
+          "title": "网络流行语——老司机， 带带我",
+          "guid": "4c807abb-4a82-4161-9ad5-9553c8a63da3",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/44043849/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-10-28%2Fd1932cd5-5f33-1813-7c2a-0ef32a8807c2.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1auk49",
+          "pubDate": "2021-12-02",
+          "duration": 523
+        },
+        {
+          "id": "SCN20211118",
+          "title": "中国古典四大名著——《三国演义》",
+          "guid": "471c1849-13d1-470d-84fd-498c80c72a0a",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/43343127/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-10-14%2Fef282e42-c418-a001-8024-c493ba2da071.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e1a97qn",
+          "pubDate": "2021-11-18",
+          "duration": 579
+        },
+        {
+          "id": "SCN20211104",
+          "title": "绕口令",
+          "guid": "79e632ad-c8b6-4d31-8b4d-d4088cf47fbb",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/42610368/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-31%2F7dab167c-294f-4ed2-2b29-17b12cbc2415.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e19is80",
+          "pubDate": "2021-11-04",
+          "duration": 770
+        },
+        {
+          "id": "SCN20211021",
+          "title": "这些字词，你读对了吗（2）？",
+          "guid": "29d7739c-2b97-4e59-b87c-533a63525038",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/41924704/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-17%2F8371cf83-a0f6-cd44-daf2-027f4c3ffa4f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2-e18tul0",
+          "pubDate": "2021-10-21",
+          "duration": 788
+        },
+        {
+          "id": "SCN20211007",
+          "title": "智伯送钟的故事",
+          "guid": "6d275f53-1a60-4838-b667-01a98148620d",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/40524014/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-19%2F79a69390-595a-fe14-1b8f-ff702c7e7b92.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e17j6pe",
+          "pubDate": "2021-10-07",
+          "duration": 484
+        },
+        {
+          "id": "SCN20210923",
+          "title": "这些小禁忌，你知道吗？",
+          "guid": "778822d7-a7ea-459b-b7c2-fa1100acd73b",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/40523640/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-19%2F87c9556e-2b31-4925-9c50-1134a52f73b1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e17j6do",
+          "pubDate": "2021-09-23",
+          "duration": 477
+        },
+        {
+          "id": "SCN20210909",
+          "title": "脑筋急转弯",
+          "guid": "1ccad9f0-1f33-4b85-8a76-64b5e1190dea",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/39856891/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-5%2F614408c4-71ae-787c-f8cb-3e7f783ae512.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e16ur9r",
+          "pubDate": "2021-09-09",
+          "duration": 609
+        },
+        {
+          "id": "SCN20210826",
+          "title": "中国民间故事——《梁山伯与祝英台》",
+          "guid": "daac863d-4032-485e-b3fa-2b78facd7132",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/39175953/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-22%2F89b83a18-dfc5-bd04-b344-1794601e32b9.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e16a2ah",
+          "pubDate": "2021-08-26",
+          "duration": 643
+        },
+        {
+          "id": "SCN20210812",
+          "title": "成语故事——《刮目相看》",
+          "guid": "3c55e97d-1f79-4bb3-b5f7-7f6c58a94737",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/38482231/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-8%2F021e10f8-24e9-b2c7-b929-11682b9cdfe1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e15ksrn",
+          "pubDate": "2021-08-12",
+          "duration": 649
+        },
+        {
+          "id": "SCN20210729",
+          "title": "这些字词，你读对了吗？",
+          "guid": "08fa6bc0-e0e3-4118-9bcd-9acfd2b12ae7",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/37809092/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-25%2F81d21f63-0f86-cd5e-eb2b-e70e7f0d49cd.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e150bg4",
+          "pubDate": "2021-07-29",
+          "duration": 811
+        },
+        {
+          "id": "SCN20210715",
+          "title": "这些网络流行词，你知道吗（2）？",
+          "guid": "a5794dea-84b6-4b0d-b870-4c6192a2bcd9",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/37024493/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-10%2F75c6e7bb-24bf-3a1a-1f4c-0ad143f61ec5.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2-e148d9d",
+          "pubDate": "2021-07-15",
+          "duration": 543
+        },
+        {
+          "id": "SCN20210701",
+          "title": "为学习外语付出那么多，值得吗？",
+          "guid": "b048ddc6-4620-452e-9545-f570aca09b14",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/36280318/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-27%2Ff35ae7b0-e3f9-ccba-7055-19b74c4001ae.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e13hmhu",
+          "pubDate": "2021-07-01",
+          "duration": 637
+        },
+        {
+          "id": "SCN20210617",
+          "title": "成语故事——鹬蚌相争，渔翁得利",
+          "guid": "36e8f07e-a82a-468a-ad0a-2797066a56c2",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/35512496/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-15%2F458cbd8e-fa63-df04-1ba5-78595c81741f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e12q8ng",
+          "pubDate": "2021-06-17",
+          "duration": 707
+        },
+        {
+          "id": "SCN20210603",
+          "title": "土味情话",
+          "guid": "11cc57b0-fbd0-4884-883a-ec5fafa9d15f",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/34529819/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-30%2F055c6393-4482-05d6-2823-d3ec3e8fd474.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e11s92r",
+          "pubDate": "2021-06-03",
+          "duration": 553
+        },
+        {
+          "id": "SCN20210520",
+          "title": "走遍中国——成都",
+          "guid": "2e21cd36-393f-4a8a-84c1-86bf11a3bb6e",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/33693590/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-17%2F33693917-263c-b3eb-563a-2e80c31ba40e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-e112oem",
+          "pubDate": "2021-05-20",
+          "duration": 741
+        },
+        {
+          "id": "SCN20210506",
+          "title": "中国父母是怎么教育孩子的？",
+          "guid": "70df5344-a511-446a-a2a3-1fcb95f2d01a",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/32188845/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-3-25%2F1f9234ef-d1ed-6f53-b6a6-5feb313fa012.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-evkqvd",
+          "pubDate": "2021-05-06",
+          "duration": 561
+        },
+        {
+          "id": "SCN20210422",
+          "title": "想进入下一个中文级别为什么那么难？",
+          "guid": "0e6d0832-9d46-4d73-bed1-5624a5cd8d3e",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/31682368/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-3-18%2Fd92afe05-4f6d-de61-4670-dadfa38a59ef.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ev5cc0",
+          "pubDate": "2021-04-22",
+          "duration": 957
+        },
+        {
+          "id": "SCN20210408",
+          "title": "十二生肖",
+          "guid": "293d0262-b0c4-44a7-8a0b-9ab285c39262",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/30691020/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-3-5%2F814f3845-d669-0bfb-0cb3-a90ae81c4f3c.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-eu748c",
+          "pubDate": "2021-04-08",
+          "duration": 663
+        },
+        {
+          "id": "SCN20210325",
+          "title": "中国的本命年",
+          "guid": "f9b0d008-2fac-4e1e-b6be-83777a4d030c",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/29582029/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-2-21%2F7b8b1b61-adfa-33ad-aeab-6d9e08b259f4.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-et598d",
+          "pubDate": "2021-03-25",
+          "duration": 661
+        },
+        {
+          "id": "SCN20210311",
+          "title": "成语故事——覆水难收",
+          "guid": "975925d0-d166-4188-8efa-32cd324ec327",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/28289711/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-2-7%2Fd397fe97-ecd6-620d-b0a5-af6aaec588db.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ertr7f",
+          "pubDate": "2021-03-11",
+          "duration": 563
+        },
+        {
+          "id": "SCN20210225",
+          "title": "谚语",
+          "guid": "6a88fd9c-5b60-4661-88fa-333d7696b7c5",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/27081361/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-1-22%2Fd53b83ad-7dae-8237-bf35-409203a27146.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-eqov6h",
+          "pubDate": "2021-02-25",
+          "duration": 603
+        },
+        {
+          "id": "SCN20210211",
+          "title": "看综艺，学中文",
+          "guid": "9261dfe0-1a2d-428a-86d2-a936369c4a7f",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/26342979/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-1-7%2Fee97db45-e7c9-0fcc-2411-64a7585397f0.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-eq2e43",
+          "pubDate": "2021-02-11",
+          "duration": 541
+        },
+        {
+          "id": "SCN20210128",
+          "title": "在中国，咱们用什么手机APP？",
+          "guid": "6fd5484a-4cd0-4205-a594-0be9dafa30a1",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/25646043/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-24%2F3c6b4b05-2815-c15e-1356-f32612ae5257.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/APP-epd5gr",
+          "pubDate": "2021-01-28",
+          "duration": 857
+        },
+        {
+          "id": "SCN20210114",
+          "title": "中国民间故事——《白蛇传》",
+          "guid": "b1cb6983-04b4-42ee-801d-d0a4c4bf52f3",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/24979303/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-10%2F7257fb69-959b-36f6-42b2-653a14647de7.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-eooqd7",
+          "pubDate": "2021-01-14",
+          "duration": 650
+        },
+        {
+          "id": "SCN20201231",
+          "title": "2020年十大流行语",
+          "guid": "767362f3-5a4b-408c-a370-0f8f69b33ef0",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/24223365/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-11-20%2F56ef2125-180f-b8ae-08e8-aac6b407feaa.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2020-eo1o65",
+          "pubDate": "2020-12-31",
+          "duration": 869
+        },
+        {
+          "id": "SCN20201217",
+          "title": "走遍中国——杭州",
+          "guid": "9cf1522f-79bf-4e27-829d-6bbdb3c966ba",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/23913939/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-11-13%2F5e4406b5-143d-1074-d1c7-8600c001d6e4.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-enoa0j",
+          "pubDate": "2020-12-17",
+          "duration": 955
+        },
+        {
+          "id": "SCN20201203",
+          "title": "歇后语：周瑜打黄盖——一个愿打，一个愿挨",
+          "guid": "f1f005fe-27f8-49b3-ac3d-a379ed394953",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/23262239/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-29%2Fa0279b82-248b-fa53-9b0e-f43ef84775be.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-en4div",
+          "pubDate": "2020-12-03",
+          "duration": 650
+        },
+        {
+          "id": "SCN20201119",
+          "title": "中国的职场文化",
+          "guid": "63af32b5-183f-49d2-8318-ddb9c5b6ff8b",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/22580324/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-14%2Ff3411832-3f8c-c35f-3061-f20f411be750.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-emfjl4",
+          "pubDate": "2020-11-19",
+          "duration": 724
+        },
+        {
+          "id": "SCN20201105",
+          "title": "成语故事——南柯一梦",
+          "guid": "bd0cdb01-7e4e-4de1-8cba-9fb72a79f2fb",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/21947266/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-1%2F10d31a7c-a51d-202c-fbaa-0ce31e3b3984.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-els9e2",
+          "pubDate": "2020-11-05",
+          "duration": 1418
+        },
+        {
+          "id": "SCN20201022",
+          "title": "这些网络流行词你知道吗？",
+          "guid": "67ef412d-4935-4f3d-a2ae-a27b573c23ea",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/20925093/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-3%2Fe92057c4-8742-3813-c487-7d968d96f02a.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ekt375",
+          "pubDate": "2020-10-22",
+          "duration": 858
+        },
+        {
+          "id": "SCN20201008",
+          "title": "募集2－004－采访 Andrew",
+          "guid": "ea9aea92-b17d-40e8-be65-c23d704a6f54",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/20596256/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-9-4%2F9c215b08-3693-6083-0020-f99f12a7cc17.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2004-Andrew-ekj230",
+          "pubDate": "2020-10-08",
+          "duration": 1089
+        },
+        {
+          "id": "SCN20200924",
+          "title": "中国俗语——人不可貌相，海水不可斗量",
+          "guid": "ed380678-0649-4c4a-98d6-d2272e973603",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/19890801/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-8-20%2Fab0778db-8af1-24e4-108c-1cdfb123f393.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ejth5h",
+          "pubDate": "2020-09-24",
+          "duration": 669
+        },
+        {
+          "id": "SCN20200910",
+          "title": "走遍中国——苏州",
+          "guid": "31c13862-50ec-49c7-b4c6-bfb5e0e2908d",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/19155270/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-8-6%2F1fc985ee-a429-b25f-0556-0441e0bfdb7a.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ej72s6",
+          "pubDate": "2020-09-10",
+          "duration": 827
+        },
+        {
+          "id": "SCN20200827",
+          "title": "歇后语",
+          "guid": "f0e0d03d-0cbe-48e2-81c0-2650bb5b6679",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/18440460/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-23%2Fc395ca0a-110f-95ba-d376-38b57c638a1e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-eih8qc",
+          "pubDate": "2020-08-27",
+          "duration": 427
+        },
+        {
+          "id": "SCN20200813",
+          "title": "成语故事——落井下石",
+          "guid": "8358816d-abcd-481c-822c-da91f16c0d3f",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/17781743/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-9%2F1c2ea3fd-b187-5981-a79e-3d9ba4e494e9.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-eht5hf",
+          "pubDate": "2020-08-13",
+          "duration": 975
+        },
+        {
+          "id": "SCN20200730",
+          "title": "怎样才能有更多开口说中文的机会？",
+          "guid": "17fc9093-8ad6-4be0-b855-efcd1a27c0aa",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/17079815/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-6-25%2F5e248edb-1291-e6b2-6528-a01ba7f908f1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-eh7o27",
+          "pubDate": "2020-07-30",
+          "duration": 859
+        },
+        {
+          "id": "SCN20200716",
+          "title": "中国的相亲文化",
+          "guid": "8c7c633f-0a64-4ce4-921e-33a5c6a07fa1",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/16461522/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-6-12%2F4c0a4bc2-cda3-62d7-60c3-f8cf007c7de5.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-egks8i",
+          "pubDate": "2020-07-16",
+          "duration": 679
+        },
+        {
+          "id": "SCN20200702",
+          "title": "中国俗语——吃不了兜着走",
+          "guid": "be72dc2c-ee0a-4203-b7eb-926a6de8bcc0",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/15830683/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-5-28%2F85979022-44100-2-6ad44a2f1606d.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-eg1k6r",
+          "pubDate": "2020-07-02",
+          "duration": 503
+        },
+        {
+          "id": "SCN20200618",
+          "title": "网络流行语——我也是醉了",
+          "guid": "bccac15a-d6ab-4e70-a2c3-f6772fbc2500",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/15213182/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-5-15%2F82429216-44100-2-0c0c399187956.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-efep5u",
+          "pubDate": "2020-06-18",
+          "duration": 663
+        },
+        {
+          "id": "SCN20200604",
+          "title": "中国的教育",
+          "guid": "ca848350-ddff-428d-9790-cd152e156627",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/14550322/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-31%2F78315707-44100-2-ec0391190eb4d.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-eeqhri",
+          "pubDate": "2020-06-04",
+          "duration": 689,
+          "m4a": "https://storyfm-audio.luanphungba.workers.dev/SCN20200604.m4a"
+        },
+        {
+          "id": "SCN20200521",
+          "title": "七个方法让你的中文听起来更地道",
+          "guid": "207d19b7-1eb7-4cde-ad26-22348112721d",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/13875326/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-17%2F73989298-44100-2-03f55b4ebe193.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ee5ulu",
+          "pubDate": "2020-05-21",
+          "duration": 1015
+        },
+        {
+          "id": "SCN20200507",
+          "title": "如何面对新型冠状病毒的危机",
+          "guid": "85781272-2bc8-4188-898a-f5192307a3ae",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/13173254/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-1%2F69366276-44100-2-5750083e6f757.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-edgh26",
+          "pubDate": "2020-05-07",
+          "duration": 737
+        },
+        {
+          "id": "SCN20200419",
+          "title": "成语故事——五十步笑百步",
+          "guid": "6ce9559b-af22-4050-b683-618d059134db",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12627445/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-19%2F65808481-44100-2-43287e3874b8e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecvs1l",
+          "pubDate": "2020-04-19",
+          "duration": 1318
+        },
+        {
+          "id": "SCN20200409",
+          "title": "中国民间故事--田螺姑娘",
+          "guid": "c663f4d4-3e17-4703-99d0-f1e652003ad0",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600150/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645712-44100-2-4e1c8967a8d56628.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1cm",
+          "pubDate": "2020-04-09",
+          "duration": 541
+        },
+        {
+          "id": "SCN20200326",
+          "title": "数字在中国的那些事儿",
+          "guid": "5a35e330-c23d-4954-a9d0-940f8dab2481",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600115/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645698-44100-2-a6c7d45ede223075.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1bj",
+          "pubDate": "2020-03-26",
+          "duration": 454
+        },
+        {
+          "id": "SCN20200312",
+          "title": "那些中国人\"奇奇怪怪\"的习惯",
+          "guid": "1b511c87-17a5-421d-a4e3-cd12947e60a4",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600139/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645721-44100-2-d48519d11c2115e5.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1cb",
+          "pubDate": "2020-03-12",
+          "duration": 1001
+        },
+        {
+          "id": "SCN20200227",
+          "title": "春节",
+          "guid": "53d0d38a-7709-4d65-a679-dacb7ed8d118",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600140/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645714-44100-2-791783abb34d81c2.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1cc",
+          "pubDate": "2020-02-27",
+          "duration": 1048
+        },
+        {
+          "id": "SCN20200213",
+          "title": "成语故事--悬梁刺股",
+          "guid": "f07dafe1-4fe3-4712-9c0f-952a6ab749c9",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600144/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645706-44100-2-650324daf8f47e69.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1cg",
+          "pubDate": "2020-02-13",
+          "duration": 844
+        },
+        {
+          "id": "SCN20200130",
+          "title": "募集 2－001－采访Adrian",
+          "guid": "ed8d8df4-442a-4055-a909-77bfc517bea1",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600151/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645725-44100-2-f953049a7a4c22d6.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2001Adrian-ecv1cn",
+          "pubDate": "2020-01-30",
+          "duration": 2129
+        },
+        {
+          "id": "SCN20200116",
+          "title": "如何正确开启你的2020年--5个建议帮你设立并达成新年目标",
+          "guid": "4cdcc9ba-37a6-4f98-b0e4-554ae6df83f5",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600118/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645691-44100-2-9c9b6fc7281997ed.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/2020--5-ecv1bm",
+          "pubDate": "2020-01-16",
+          "duration": 634
+        },
+        {
+          "id": "SCN20200102",
+          "title": "柴米油盐酱醋茶",
+          "guid": "2f829113-4083-46e1-bdfe-b4633115be85",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600124/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645692-44100-2-93117cdc3a616e45.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1bs",
+          "pubDate": "2020-01-02",
+          "duration": 803
+        },
+        {
+          "id": "SCN20191219",
+          "title": "走遍中国--南京",
+          "guid": "107792a4-54a5-4988-bfa7-0619c301d9d7",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600132/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645719-44100-2-b0ebfeb9961f753b.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1c4",
+          "pubDate": "2019-12-19",
+          "duration": 743
+        },
+        {
+          "id": "SCN20191205",
+          "title": "那些奇奇怪怪的菜名",
+          "guid": "cf3798e2-22cc-415f-92de-c2f08916b714",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600111/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645693-44100-2-7d7064afa99e93d9.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1bf",
+          "pubDate": "2019-12-05",
+          "duration": 480
+        },
+        {
+          "id": "SCN20191121",
+          "title": "成语故事--塞翁失马，焉知非福",
+          "guid": "ac5af73a-569f-4ac2-9167-1cf184a04c76",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600154/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645709-44100-2-57b42a55cbb91e5c.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1cq",
+          "pubDate": "2019-11-21",
+          "duration": 976
+        },
+        {
+          "id": "SCN20191107",
+          "title": "想学好中文一定要去中国吗？",
+          "guid": "55f6b7ba-7d24-4074-9f4c-df4bbab31b04",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600141/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645680-44100-2-ceca56249e1f9386.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1cd",
+          "pubDate": "2019-11-07",
+          "duration": 753
+        },
+        {
+          "id": "SCN20191024",
+          "title": "中国民间故事--嫦娥奔月",
+          "guid": "de281f05-e245-4f80-8848-880d1f3f52e7",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600135/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645684-44100-2-13a8735abf750f8e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1c7",
+          "pubDate": "2019-10-24",
+          "duration": 366
+        },
+        {
+          "id": "SCN20191010",
+          "title": "中秋节",
+          "guid": "a9e30e09-132e-4ff7-9a07-7faebb0a70e4",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600109/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645666-44100-2-ab3d57c73eb80e1a.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1bd",
+          "pubDate": "2019-10-10",
+          "duration": 363
+        },
+        {
+          "id": "SCN20190926",
+          "title": "三人行，必有我师",
+          "guid": "5e8894a4-392f-4c17-97ec-17fb1080d41a",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600114/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645683-44100-2-b36a7370ba6fdd46.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1bi",
+          "pubDate": "2019-09-26",
+          "duration": 497
+        },
+        {
+          "id": "SCN20190912",
+          "title": "成语故事--此地无银三百两",
+          "guid": "e3ffab65-f90a-4dba-bb5a-fb8acfb91e59",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600127/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645688-44100-2-9bfc5d2f0140d82f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1bv",
+          "pubDate": "2019-09-12",
+          "duration": 975
+        },
+        {
+          "id": "SCN20190829",
+          "title": "走遍中国--上海",
+          "guid": "c3634027-ce1f-44e4-ac66-4ead6f9ad883",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600147/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645662-44100-2-a78d3a227225d497.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1cj",
+          "pubDate": "2019-08-29",
+          "duration": 619
+        },
+        {
+          "id": "SCN20190815",
+          "title": "中国民间故事--牛郎织女",
+          "guid": "2b646b40-a598-4732-bedd-0a04817dc226",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600125/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645707-44100-2-2282a6a8927eb99a.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1bt",
+          "pubDate": "2019-08-15",
+          "duration": 729
+        },
+        {
+          "id": "SCN20190808",
+          "title": "七夕节",
+          "guid": "532d5121-7bca-42ad-8d06-3f7475d9552e",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600131/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645696-44100-2-c2abf5fa19e0d736.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1c3",
+          "pubDate": "2019-08-08",
+          "duration": 513
+        },
+        {
+          "id": "SCN20190801",
+          "title": "网络流行语--躺着也中枪",
+          "guid": "43ba556a-ca0c-4125-81d4-5512fd8f97c9",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600126/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645705-44100-2-d24257ef44a312a5.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1bu",
+          "pubDate": "2019-08-01",
+          "duration": 744
+        },
+        {
+          "id": "SCN20190725",
+          "title": "中国民间故事--孟姜女哭长城",
+          "guid": "a1ce143b-ed2d-4411-a5a0-fd5f9bc7a05d",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600142/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645700-44100-2-4b616adcaee707d1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1ce",
+          "pubDate": "2019-07-25",
+          "duration": 777
+        },
+        {
+          "id": "SCN20190718",
+          "title": "如何克服因为害怕出错而不敢开口说中文的心理障碍？",
+          "guid": "a495f270-2c65-4863-98da-e55d73a01a45",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600133/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645708-44100-2-91563e78de321592.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1c5",
+          "pubDate": "2019-07-18",
+          "duration": 1007
+        },
+        {
+          "id": "SCN20190711",
+          "title": "成语故事--掩耳盗铃",
+          "guid": "c128b2fa-a7df-44eb-a719-5da18188eec4",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600152/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645717-44100-2-13464659f4c6d4b8.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1co",
+          "pubDate": "2019-07-11",
+          "duration": 875
+        },
+        {
+          "id": "SCN20190704",
+          "title": "走遍中国--北京",
+          "guid": "a19b1a5d-c049-406b-bee5-f3f90147257a",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600149/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645690-44100-2-62d489c835f2c30a.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1cl",
+          "pubDate": "2019-07-04",
+          "duration": 622
+        },
+        {
+          "id": "SCN20190627",
+          "title": "在中国看病你不得不知道的事儿(下)",
+          "guid": "3eb4ee50-4357-409d-8485-94d277231a9b",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600113/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645685-44100-2-03e6786ac2cb3aa2.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1bh",
+          "pubDate": "2019-06-27",
+          "duration": 535
+        },
+        {
+          "id": "SCN20190620",
+          "title": "在中国看病你不得不知道的事儿(上)",
+          "guid": "320532fe-a2c7-4cad-834a-fb7e35387f1f",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600120/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645699-44100-2-d8c6438bab36293b.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1bo",
+          "pubDate": "2019-06-20",
+          "duration": 718
+        },
+        {
+          "id": "SCN20190613",
+          "title": "好记性不如烂笔头",
+          "guid": "f227221d-2400-4f98-b79e-873a509a381a",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600121/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645702-44100-2-35d77ecb259bb0f0.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1bp",
+          "pubDate": "2019-06-13",
+          "duration": 630
+        },
+        {
+          "id": "SCN20190606",
+          "title": "端午节",
+          "guid": "ac1585ff-afc0-464e-a74e-91a20a292e07",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600123/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645701-44100-2-d78858c5d24f7d04.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1br",
+          "pubDate": "2019-06-06",
+          "duration": 529
+        },
+        {
+          "id": "SCN20190530",
+          "title": "成语故事--滥竽充数",
+          "guid": "d52418be-286e-4b18-a93a-37c819510ab9",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600136/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645720-44100-2-d389fa89c8c3020c.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1c8",
+          "pubDate": "2019-05-30",
+          "duration": 859
+        },
+        {
+          "id": "SCN20190523",
+          "title": "网络流行语--打酱油。",
+          "guid": "16e9651e-e8a6-4e75-a7ae-005eee157104",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600119/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645686-44100-2-1c58df43389c05e1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1bn",
+          "pubDate": "2019-05-23",
+          "duration": 739
+        },
+        {
+          "id": "SCN20190516",
+          "title": "拿什么拯救我的拖延症？(下)",
+          "guid": "74fb01da-1272-42a4-9dbc-1c0bf5625177",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600128/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645695-44100-2-22698a3d8089e087.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1c0",
+          "pubDate": "2019-05-16",
+          "duration": 927
+        },
+        {
+          "id": "SCN20190509",
+          "title": "拿什么拯救我的拖延症？(上)",
+          "guid": "d7bccd88-2000-4d91-b7e4-6ead854073c9",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600117/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645689-44100-2-95911478eadd3e15.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1bl",
+          "pubDate": "2019-05-09",
+          "duration": 643
+        },
+        {
+          "id": "SCN20190502",
+          "title": "中国的\"吃\"文化",
+          "guid": "242997e6-93ab-41d2-b136-637e1ddb6fa1",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600130/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645704-44100-2-b9fdd142a98a1a6c.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1c2",
+          "pubDate": "2019-05-02",
+          "duration": 777
+        },
+        {
+          "id": "SCN20190425",
+          "title": "成语故事--揠苗助长",
+          "guid": "5d0d416e-34fd-4ab9-9e40-3fd1a95ba320",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600146/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645687-44100-2-a0513b7b2c162657.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1ci",
+          "pubDate": "2019-04-25",
+          "duration": 1057
+        },
+        {
+          "id": "SCN20190418",
+          "title": "没时间学习怎么办？--教你如何科学记忆和利用碎片时间学习(下)",
+          "guid": "44937c16-b73e-4cd6-a447-b0459e6d0d25",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600138/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645722-44100-2-703d8f468320093a.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1ca",
+          "pubDate": "2019-04-18",
+          "duration": 948
+        },
+        {
+          "id": "SCN20190414",
+          "title": "没时间学习怎么办？--教你如何科学记忆和利用碎片时间学习(上)",
+          "guid": "c897fece-4b63-4295-9360-d0525fcdf527",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600137/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645715-44100-2-0278a7162783f88b.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/---ecv1c9",
+          "pubDate": "2019-04-14",
+          "duration": 666
+        },
+        {
+          "id": "SCN20190412",
+          "title": "关于中文名的那些事儿。",
+          "guid": "6d5fbcce-9bc6-4ecd-b6a7-bd3d20e84ec0",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600108/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645663-44100-2-b8537942a76596b5.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1bc",
+          "pubDate": "2019-04-12",
+          "duration": 764
+        },
+        {
+          "id": "SCN20190410",
+          "title": "你好，很高兴认识你！",
+          "guid": "d0687247-5d9f-4914-be79-ae6e3f4b5f32",
+          "mp3": "https://anchor.fm/s/1d7d70a4/podcast/play/12600116/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-18%2F65645682-44100-2-f7fcc3a146bfbeae.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1bk",
+          "pubDate": "2019-04-10",
+          "duration": 609
+        }
+      ]
     }
   ]
 }

@@ -41,11 +41,13 @@ jieba.add_word("奥朗德", tag="nr")
 # ...the rest its HMM puts back together whatever the dictionary says (中和 "neutralize" in App中和任何,
 # 上向 in 屏幕上向左轻扫, 隔/空投/送 for 隔空投送), so they are cut again after it, token by token. The
 # same table puts back words it scatters (小组/件 for 小组件 "widget", 帧/率 for 帧率, 本/机 for 本机), and
-# takes the Latin off a word jieba glued it to (SIM卡), since only Chinese is tapped.
+# takes the Latin off a word jieba glued it to (SIM卡), since only Chinese is tapped. From SCN20200604:
+# 在教育上花血本, 在幼儿园里学, 还得到处托关系 (得 děi "must" + 到处, not 得到 "obtain") and 五十六十个 "fifty or sixty".
 RECUT = {
     "中和": ("中", "和"), "上向": ("上", "向"), "隔空投送": ("隔空", "投送"), "已连": ("已", "连"),
     "存至": ("存", "至"), "可让": ("可", "让"), "天前": ("天", "前"), "周后": ("周", "后"), "屏幕墙纸": ("屏幕", "墙纸"),
     "访问控制中心": ("访问", "控制中心"), "更大字体": ("更大", "字体"),
+    "上花": ("上", "花"), "里学": ("里", "学"), "得到处": ("得", "到处"), "五十六十个": ("五十", "六十", "个"),
     "小组件": ("小组件",), "锁屏": ("锁屏",), "帧率": ("帧率",), "本机": ("本机",), "内建": ("内建",),
     "调高": ("调高",), "连拍": ("连拍",), "SIM卡": ("SIM", "卡"),
 }
@@ -67,8 +69,9 @@ NAME_TAGS = {"nr", "ns", "nt"}
 # Words jieba calls names often enough to win the vote that neither the syllabus nor CC-CEDICT can
 # overrule. Electronics jargon from BV1HQTs6FEos: 连锡 a solder bridge, 上锡 to tin a pad, 千欧
 # kiloohm, 上拉 pull-up (resistor), and 孔中 cut out of 固定孔中 "into the mounting holes". From E080:
-# 高三 the last year of high school, and 祝你们 "wishing you".
-NOT_NAMES = {"连锡", "上锡", "千欧", "上拉", "孔中", "高三", "祝你们"}
+# 高三 the last year of high school, and 祝你们 "wishing you". From SCN20200604: 二本 and 三本 the second
+# and third tier of universities, 托关系 "pull strings", 鸭嘴 a duck's bill.
+NOT_NAMES = {"连锡", "上锡", "千欧", "上拉", "孔中", "高三", "祝你们", "二本", "三本", "托关系", "鸭嘴"}
 # A number spelled out (三十, 十四) is not a word to learn once its digits are known, so a word of
 # these alone counts as none, unless the syllabus teaches it (万一 "in case").
 NUMERALS = set("零〇一二三四五六七八九十百千万亿两几")

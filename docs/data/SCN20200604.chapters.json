@@ -1,0 +1,68 @@
+{
+  "chapters": [
+    {
+      "zh": "教育体制的四个阶段",
+      "vi": "Bốn giai đoạn của hệ thống giáo dục",
+      "from": 0,
+      "to": 22,
+      "start": 0,
+      "end": 64.97
+    },
+    {
+      "zh": "幼儿园学什么",
+      "vi": "Mẫu giáo học gì",
+      "from": 23,
+      "to": 45,
+      "start": 65.38,
+      "end": 126.24
+    },
+    {
+      "zh": "小学和学区房",
+      "vi": "Tiểu học và nhà khu trường tốt",
+      "from": 46,
+      "to": 71,
+      "start": 126.78,
+      "end": 191.33
+    },
+    {
+      "zh": "科目和九年义务教育",
+      "vi": "Các môn học và 9 năm giáo dục bắt buộc",
+      "from": 72,
+      "to": 106,
+      "start": 192.42,
+      "end": 284.1
+    },
+    {
+      "zh": "中考和填志愿",
+      "vi": "Thi vào cấp ba và điền nguyện vọng",
+      "from": 107,
+      "to": 146,
+      "start": 284.45,
+      "end": 387.07
+    },
+    {
+      "zh": "高考、大学和学位",
+      "vi": "Thi đại học, đại học và bằng cấp",
+      "from": 147,
+      "to": 185,
+      "start": 387.87,
+      "end": 489.62
+    },
+    {
+      "zh": "中西教育的不同",
+      "vi": "Khác biệt giữa giáo dục Trung Quốc và phương Tây",
+      "from": 186,
+      "to": 225,
+      "start": 490.17,
+      "end": 589.41
+    },
+    {
+      "zh": "中国学生很辛苦",
+      "vi": "Học sinh Trung Quốc rất vất vả",
+      "from": 226,
+      "to": 252,
+      "start": 589.83,
+      "end": 655.37
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "episode": "SCN20200604",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-09",
+  "fixes": [
+    {
+      "cueIndex": 111,
+      "before": "F ace",
+      "after": "Face",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 111,
+      "before": "ace book",
+      "after": "acebook",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 113,
+      "before": "i T",
+      "after": "iT",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 113,
+      "before": "T unes",
+      "after": "Tunes",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 6,
+      "before": "speak ch ines en at urally. com",
+      "after": "speakchinesenaturally.com",
+      "source": "llm-review",
+      "reason": "The show site, split into 7 Latin fragments (0ms gaps); the RSS links https://speakchinesenaturally.com/.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 66,
+      "before": "浦东高中",
+      "after": "普通高中",
+      "source": "llm-review",
+      "reason": "Pudong makes no sense here; the episode says 普通中学/普通高中 elsewhere and whisper on the slice hears 普通高中.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 111,
+      "before": "Tw itter",
+      "after": "Twitter",
+      "source": "llm-review",
+      "reason": "One word split Tw+itter、 (0ms gap); the glue pass skips it because of the 、.",
+      "appliedAt": "2026-10-09"
+    }
+  ],
+  "flagged": []
+}
