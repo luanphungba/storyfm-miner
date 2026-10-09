@@ -244,8 +244,8 @@ function drawVocabChart(/** @type {VocabDay[]} */ rows, /** @type {string} */ to
   });
 
   // The crosshair follows the pointer to the nearest day; its dots and the tooltip say that day.
-  const crosshair = svg('g', { visibility: 'hidden' });
-  const rule = svg('line', { class: 'crosshair', y1: top, y2: top + plotHeight });
+  const crosshair = svg('g', { class: 'crosshair', visibility: 'hidden' });
+  const rule = svg('line', { class: 'rule', y1: top, y2: top + plotHeight });
   const marks = series.map((key) => svg('circle', { class: `dot dot-${key}`, r: 4 }));
   crosshair.append(rule, ...marks);
   const hover = svg('rect', {
@@ -264,11 +264,15 @@ function drawVocabChart(/** @type {VocabDay[]} */ rows, /** @type {string} */ to
     showVocabTip(rows, i, x(i), y(r.understood), today);
   };
   let focused = last;
-  hover.addEventListener('pointermove', (event) => {
-    const at = (/** @type {PointerEvent} */ (event).offsetX / box.clientWidth) * width;
+  // A mouse moving over the chart, or a finger tapping or sliding along it.
+  const pick = (/** @type {Event} */ event) => {
+    const area = chart.getBoundingClientRect();
+    const at = ((/** @type {PointerEvent} */ (event).clientX - area.left) / area.width) * width;
     focused = Math.max(0, Math.min(last, Math.round(rows.length > 1 ? ((at - left) / plotWidth) * last : 0)));
     show(focused);
-  });
+  };
+  hover.addEventListener('pointerdown', pick);
+  hover.addEventListener('pointermove', pick);
   hover.addEventListener('focus', () => show(focused));
   hover.addEventListener('keydown', (event) => {
     const step = { ArrowLeft: -1, ArrowRight: 1 }[/** @type {KeyboardEvent} */ (event).key];
@@ -277,14 +281,16 @@ function drawVocabChart(/** @type {VocabDay[]} */ rows, /** @type {string} */ to
     focused = Math.max(0, Math.min(last, focused + step));
     show(focused);
   });
-  const hide = () => {
-    crosshair.setAttribute('visibility', 'hidden');
-    $('vocab-tooltip').hidden = true;
-  };
-  hover.addEventListener('pointerleave', hide);
-  hover.addEventListener('blur', hide);
+  // A finger leaves as it lifts, so on a phone the day stays until a tap elsewhere.
+  hover.addEventListener('pointerleave', (event) => { if (/** @type {PointerEvent} */ (event).pointerType === 'mouse') hideVocabTip(); });
+  hover.addEventListener('blur', hideVocabTip);
   nodes.push(crosshair, hover);
   chart.replaceChildren(...nodes);
+  hideVocabTip();
+}
+
+function hideVocabTip() {
+  $('vocab-chart').querySelector('.crosshair')?.setAttribute('visibility', 'hidden');
   $('vocab-tooltip').hidden = true;
 }
 
@@ -560,9 +566,11 @@ $('chapter-episode').addEventListener('change', () => {
 });
 
 $('chart').addEventListener('pointerleave', hideTip);
-// A tap anywhere else puts the tooltip away, as there is no pointer to leave on a phone.
+// A tap anywhere else puts the tooltips away, as there is no pointer to leave on a phone.
 document.addEventListener('pointerdown', (event) => {
-  if (!(/** @type {Element} */ (event.target).closest('.hit'))) hideTip();
+  const target = /** @type {Element} */ (event.target);
+  if (!target.closest('.hit')) hideTip();
+  if (!target.closest('.hover')) hideVocabTip();
 });
 
 new ResizeObserver(() => { if (stats) drawChart(studyDay(new Date())); }).observe($('chart-box'));

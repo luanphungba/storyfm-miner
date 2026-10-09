@@ -1066,7 +1066,8 @@ h1 {
 .meter.is-thin { height: 4px; margin-top: 8px; }
 .meter-fill { height: 100%; border-radius: 999px; background: var(--series-player); }
 
-.chart { position: relative; margin: 0; }
+/* Held on a phone, a chart is read, not selected or called out. */
+.chart { position: relative; margin: 0; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
 .chart svg { display: block; width: 100%; overflow: visible; }
 .chart .grid { stroke: var(--line); stroke-width: 1; }
 .chart .tick { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
@@ -1109,7 +1110,8 @@ h1 {
 .vocab-chart .dot-understood { fill: var(--series-understood); }
 .vocab-chart .dot-solid { fill: var(--series-solid); }
 .vocab-chart .end-label { fill: var(--fg); font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; }
-.vocab-chart .crosshair { stroke: var(--muted); stroke-width: 1; }
+.vocab-chart svg { touch-action: pan-y; } /* a finger sliding sideways walks the days; up and down still scrolls */
+.vocab-chart .rule { stroke: var(--muted); stroke-width: 1; }
 .vocab-chart .hover { cursor: crosshair; fill: transparent; outline: none; }
 
 .day-table { width: 100%; margin-top: 12px; border-collapse: collapse; font-size: 14px; }
