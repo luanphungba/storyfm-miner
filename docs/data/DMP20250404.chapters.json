@@ -1,0 +1,132 @@
+{
+  "chapters": [
+    {
+      "zh": "蹭热点，聊AI",
+      "vi": "Ăn theo chủ đề nóng: AI",
+      "from": 0,
+      "to": 25,
+      "start": 1.41,
+      "end": 71.41
+    },
+    {
+      "zh": "AI能做老师八九成的事",
+      "vi": "AI làm được 8–9 phần việc giáo viên",
+      "from": 26,
+      "to": 67,
+      "start": 71.61,
+      "end": 173.48
+    },
+    {
+      "zh": "AI给不了情绪价值",
+      "vi": "AI không cho được giá trị cảm xúc",
+      "from": 68,
+      "to": 96,
+      "start": 173.69,
+      "end": 251.33
+    },
+    {
+      "zh": "跟豆包聊三个小时",
+      "vi": "Nói chuyện với Doubao ba tiếng",
+      "from": 97,
+      "to": 133,
+      "start": 251.57,
+      "end": 341.53
+    },
+    {
+      "zh": "AI能成为莎士比亚吗？",
+      "vi": "AI có thành Shakespeare được không?",
+      "from": 134,
+      "to": 185,
+      "start": 341.74,
+      "end": 449.4
+    },
+    {
+      "zh": "AI治病、飞天汽车",
+      "vi": "AI chữa bệnh, ô tô bay",
+      "from": 186,
+      "to": 235,
+      "start": 449.71,
+      "end": 555.5
+    },
+    {
+      "zh": "和AI练习，没有期待感",
+      "vi": "Luyện với AI, không thấy mong chờ",
+      "from": 236,
+      "to": 287,
+      "start": 555.6,
+      "end": 660.23
+    },
+    {
+      "zh": "全用AI当老师的学校",
+      "vi": "Ngôi trường toàn giáo viên AI",
+      "from": 288,
+      "to": 320,
+      "start": 660.39,
+      "end": 749.12
+    },
+    {
+      "zh": "会把瑶瑶送去吗？",
+      "vi": "Có gửi Dao Dao đến đó không?",
+      "from": 321,
+      "to": 360,
+      "start": 749.12,
+      "end": 834.75
+    },
+    {
+      "zh": "学校也是学做人的地方",
+      "vi": "Trường cũng là nơi học làm người",
+      "from": 361,
+      "to": 396,
+      "start": 835.66,
+      "end": 910
+    },
+    {
+      "zh": "信用卡和AI老师Annie",
+      "vi": "Thẻ tín dụng và cô giáo AI Annie",
+      "from": 397,
+      "to": 434,
+      "start": 910,
+      "end": 995.97
+    },
+    {
+      "zh": "养育孩子需要真人",
+      "vi": "Nuôi dạy con cần người thật",
+      "from": 435,
+      "to": 480,
+      "start": 995.97,
+      "end": 1090.86
+    },
+    {
+      "zh": "三位AI大叔",
+      "vi": "Ba ông chú AI",
+      "from": 481,
+      "to": 513,
+      "start": 1090.86,
+      "end": 1159.85
+    },
+    {
+      "zh": "AI大叔和骗人的视频",
+      "vi": "Ông chú AI và video lừa người",
+      "from": 514,
+      "to": 564,
+      "start": 1159.91,
+      "end": 1269.5
+    },
+    {
+      "zh": "台湾的AI主播和AI歌手",
+      "vi": "Người dẫn AI và ca sĩ AI ở Đài Loan",
+      "from": 565,
+      "to": 605,
+      "start": 1269.99,
+      "end": 1373.44
+    },
+    {
+      "zh": "找一个AI取代不了的工作",
+      "vi": "Tìm việc AI không thay được",
+      "from": 606,
+      "to": 649,
+      "start": 1373.54,
+      "end": 1482.24
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "episode": "CC19",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-10",
+  "fixes": [
+    {
+      "cueIndex": 55,
+      "before": "fl at",
+      "after": "flat",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 86,
+      "before": "gen eral",
+      "after": "general",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 120,
+      "before": "H R",
+      "after": "HR",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 121,
+      "before": "H R",
+      "after": "HR",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 124,
+      "before": "H R",
+      "after": "HR",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 86,
+      "before": "general ize",
+      "after": "generalize",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split generalize into gen+eral+ize at 0ms gaps; the pair pass joined only gen+eral (ize carried 。).",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 130,
+      "before": "有每有",
+      "after": "有没有",
+      "source": "llm-review",
+      "reason": "有每有 is not Chinese; 每 (měi) for 没 (méi). The host transcript has 有没有. Whisper heard only 有可以, so the middle syllable is AssemblyAI’s alone.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 141,
+      "before": "挤迫。",
+      "after": "挤",
+      "source": "llm-review",
+      "reason": "迫 is a 20ms token before 破 (805.61–805.63s): a duplicate. Whisper and the host transcript both say 挤破了脑袋, which runs on into sentence 142 (破了脑袋…).",
+      "appliedAt": "2026-10-10"
+    }
+  ],
+  "flagged": []
+}

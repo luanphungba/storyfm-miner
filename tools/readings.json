@@ -109,5 +109,22 @@
     "只用去": ["zhǐ yòng qù","学生只用去学校半天: học sinh chỉ phải đến trường nửa ngày — 只 là zhǐ; zhī là lượng từ"],
     "只负责": ["zhǐ fù zé","一个老师只负责一门主要学科: chỉ phụ trách một môn — 只 là zhǐ"],
     "只教": ["zhǐ jiāo","我原来只教英语: tôi chỉ dạy tiếng Anh — 只 là zhǐ, 教 là jiāo"]
+  },
+  "DMP20250404": {
+    "阅读量": ["yuè dú liàng","很多人的阅读量并不少: lượng đọc — 量 danh từ là liàng; liáng là đo"],
+    "学得很": ["xué de hěn","你确实能学得很很好: học rất tốt — 得 là trợ từ de, không phải dé"],
+    "教学生": ["jiāo xué sheng","有时候教学生 / 在课堂上教学生: dạy học sinh — 教 động từ là jiāo"],
+    "能教": ["néng jiāo","能教的东西: những thứ có thể dạy — 教 là jiāo"],
+    "干不掉": ["gàn bú diào","前期他干不掉: lúc đầu nó không đánh bại được — 干 là gàn (làm), không phải gān (khô)"],
+    "给得了": ["gěi de liǎo","中文老师在课上给得了: giáo viên cho được — 得 là trợ từ de"],
+    "得向": ["děi xiàng","还是得向一个人去学习: vẫn phải học từ một con người — 得 là děi (phải)"],
+    "更地道": ["gèng dì dao","更好更地道的东西: chuẩn bản xứ hơn — 地道 nghĩa này là dì dao; dì dào là đường hầm"],
+    "又大方": ["yòu dà fang","说话谈吐又大方: ăn nói đường hoàng — 大方 nghĩa này là dà fang; dà fāng là chuyên gia"]
+  },
+  "CC19": {
+    "国开行": ["guó kāi háng","国开行国家开发银行: Ngân hàng Phát triển — 行 ngân hàng là háng, như 银行 ngay sau"],
+    "有假": ["yǒu jià","就算你有假 / 就是我有假: có ngày phép — 假 nghỉ phép là jià; jiǎ là giả"],
+    "年假": ["nián jià","关于年假的问题: phép năm — jieba có chỗ cắt 年 / 假 nên 假 đứng riêng bị đọc jiǎ; nghỉ phép là jià"],
+    "小的地方": ["xiǎo de dì fang","从小的地方来说: xét ở những điểm nhỏ — 地方 (chỗ, phương diện) là dì fang; dì fāng là địa phương"]
   }
 }

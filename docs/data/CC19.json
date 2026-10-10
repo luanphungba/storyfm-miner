@@ -1,0 +1,4190 @@
+{
+  "id": "CC19",
+  "title": "EPISODE 19 | 中国外国”职场文化“大不同 Huge difference in \"work place\" culture",
+  "guid": "cksz34jidr0vg08754ihygg8e",
+  "pubDate": "2021-08-30",
+  "duration": 1199,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/CC19.m4a"
+  },
+  "source": "podcast",
+  "owner": "瞎扯学中文 Convo Chinese",
+  "link": "https://open.firstory.fm/story/cksz34jidr0vg08754ihygg8e",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 9.03,
+      "end": 10.56,
+      "text": "Hello，大家好，欢迎大家",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 1,
+      "s": 0,
+      "start": 10.56,
+      "end": 14.3,
+      "text": "来到我们的第十九期瞎扯学中文。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 2,
+      "s": 1,
+      "start": 14.3,
+      "end": 17.94,
+      "text": "今天呢，邀请到了一位老朋友，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 3,
+      "s": 1,
+      "start": 17.94,
+      "end": 21.14,
+      "text": "他是和我们录了第第几期？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 4,
+      "s": 2,
+      "start": 21.14,
+      "end": 23.2,
+      "text": "第二期还是第三第三期吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 5,
+      "s": 3,
+      "start": 23.2,
+      "end": 25.32,
+      "text": "第一期吧，最早的一期节目。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 6,
+      "s": 4,
+      "start": 25.53,
+      "end": 28.01,
+      "text": "我应该是创始创",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 7,
+      "s": 5,
+      "start": 28.01,
+      "end": 32.65,
+      "text": "始人，元老级嘉宾啊！",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 8,
+      "s": 6,
+      "start": 32.65,
+      "end": 34.29,
+      "text": "大家好，我是Cameron，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 9,
+      "s": 6,
+      "start": 34.29,
+      "end": 36.54,
+      "text": "很高兴又回来了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 10,
+      "s": 7,
+      "start": 36.89,
+      "end": 39.53,
+      "text": "那今天呢，我们想要跟大家聊一聊",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 11,
+      "s": 7,
+      "start": 39.53,
+      "end": 42.19,
+      "text": "关于职场文化。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 12,
+      "s": 8,
+      "start": 42.33,
+      "end": 45.63,
+      "text": "所谓的职场其实就是工作的场合。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 13,
+      "s": 9,
+      "start": 45.71,
+      "end": 48.49,
+      "text": "那在中文里面把这个叫做职场",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 14,
+      "s": 9,
+      "start": 48.49,
+      "end": 50.51,
+      "text": "职业的职，嗯，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 15,
+      "s": 9,
+      "start": 50.51,
+      "end": 55.16,
+      "text": "因为呢我。其实在中国工作过三年，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 16,
+      "s": 10,
+      "start": 55.16,
+      "end": 57.64,
+      "text": "但大多数都是在外企，",
+      "speaker": "A",
+      "u": 9,
+      "role": "narrator"
+    },
+    {
+      "i": 17,
+      "s": 10,
+      "start": 57.64,
+      "end": 59.54,
+      "text": "就是外国的企业。",
+      "speaker": "A",
+      "u": 9,
+      "role": "narrator"
+    },
+    {
+      "i": 18,
+      "s": 11,
+      "start": 59.54,
+      "end": 62.3,
+      "text": "其实没有在国企工作过，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 19,
+      "s": 12,
+      "start": 62.3,
+      "end": 64.08,
+      "text": "所以我也不太好说",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 20,
+      "s": 12,
+      "start": 64.08,
+      "end": 67.48,
+      "text": "像职场文化在中国和西方",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 21,
+      "s": 12,
+      "start": 67.48,
+      "end": 70.04,
+      "text": "或者在中国和外国有什么区别。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 22,
+      "s": 13,
+      "start": 70.04,
+      "end": 74.26,
+      "text": "但是我觉得，就算在中国的外企、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 13,
+      "start": 74.26,
+      "end": 77.12,
+      "text": "外国企业，在中国。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 14,
+      "start": 77.34,
+      "end": 78.88,
+      "text": "你工作的方式",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 14,
+      "start": 78.88,
+      "end": 81.61,
+      "text": "可能还是和国外会有不一样。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 15,
+      "start": 82,
+      "end": 85.08,
+      "text": "我觉得可以先跟大家说一下，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 27,
+      "s": 15,
+      "start": 85.08,
+      "end": 88.3,
+      "text": "在中国的话，说啊不同的企业",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 28,
+      "s": 15,
+      "start": 88.3,
+      "end": 90.84,
+      "text": "可能是不是大概分这么几种？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 29,
+      "s": 16,
+      "start": 90.84,
+      "end": 94.92,
+      "text": "大家一般会说国企、私企、外企。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 30,
+      "s": 17,
+      "start": 95.42,
+      "end": 99.21,
+      "text": "嗯，差不多对，国企就是国有企业，对吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 18,
+      "start": 99.34,
+      "end": 102.74,
+      "text": "然后而且现在我觉得越来越多的人。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 19,
+      "start": 103.14,
+      "end": 106.08,
+      "text": "想要去国企，嗯，其实",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 20,
+      "start": 106.08,
+      "end": 109.34,
+      "text": "我也不是特别的清楚的一点是，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 34,
+      "s": 20,
+      "start": 109.34,
+      "end": 112.26,
+      "text": "国企和所谓的事业单位",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 35,
+      "s": 20,
+      "start": 112.26,
+      "end": 114.31,
+      "text": "就是中间的区别是什么？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 36,
+      "s": 21,
+      "start": 114.38,
+      "end": 117.5,
+      "text": "事业单位我的了解不一定正确，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 21,
+      "start": 117.5,
+      "end": 121.14,
+      "text": "但是我觉得事业单位是那种",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 21,
+      "start": 121.14,
+      "end": 123.54,
+      "text": "有点像非营利组织，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 22,
+      "start": 123.54,
+      "end": 125.62,
+      "text": "他们是非盈利性质的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 22,
+      "start": 125.68,
+      "end": 127.96,
+      "text": "也就是说他们是为了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 22,
+      "start": 127.96,
+      "end": 133.23,
+      "text": "社会的某一个。啊，功能而创造的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 24,
+      "start": 133.29,
+      "end": 138.55,
+      "text": "比如说，嗯，啊，大学呀、医院呐",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 43,
+      "s": 24,
+      "start": 138.55,
+      "end": 140.85,
+      "text": "这些是不是算事业单位？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 44,
+      "s": 25,
+      "start": 140.85,
+      "end": 142.43,
+      "text": "但就不算是对对",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 45,
+      "s": 26,
+      "start": 142.43,
+      "end": 143.39,
+      "text": "应该是的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 26,
+      "start": 143.39,
+      "end": 146.51,
+      "text": "就是他们是为了某种社会功能。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 27,
+      "start": 146.77,
+      "end": 149.39,
+      "text": "那如果我要说回来，嗯，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 48,
+      "s": 27,
+      "start": 149.39,
+      "end": 152.87,
+      "text": "在中国的职场和国外的企业",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 49,
+      "s": 27,
+      "start": 152.87,
+      "end": 154.69,
+      "text": "或者说是中国的外企",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 50,
+      "s": 27,
+      "start": 154.69,
+      "end": 156.59,
+      "text": "有什么最大的区别？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 51,
+      "s": 28,
+      "start": 156.9,
+      "end": 158.7,
+      "text": "我想到的第一条",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 52,
+      "s": 28,
+      "start": 158.7,
+      "end": 162.48,
+      "text": "可能是关于hierarchy吧，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 53,
+      "s": 28,
+      "start": 162.48,
+      "end": 164.24,
+      "text": "我不知道这个中文怎么翻译。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 54,
+      "s": 29,
+      "start": 164.24,
+      "end": 165.88,
+      "text": "职场阶级。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 30,
+      "start": 165.96,
+      "end": 167.64,
+      "text": "对，就是阶级。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 56,
+      "s": 31,
+      "start": 167.64,
+      "end": 170.46,
+      "text": "就比如说有一个很直观的例子，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 57,
+      "s": 31,
+      "start": 170.58,
+      "end": 172.78,
+      "text": "在外企的话，大家一般都会",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 58,
+      "s": 31,
+      "start": 172.78,
+      "end": 175.88,
+      "text": "直接用名字来称呼对方，呃，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 59,
+      "s": 32,
+      "start": 175.88,
+      "end": 177.32,
+      "text": "或者很常见的是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 60,
+      "s": 32,
+      "start": 177.32,
+      "end": 180.24,
+      "text": "很多人会取一个英语名字，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 61,
+      "s": 32,
+      "start": 180.42,
+      "end": 182.98,
+      "text": "而且还蛮好笑的一点是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 62,
+      "s": 32,
+      "start": 182.98,
+      "end": 185.88,
+      "text": "现在很多的。所谓的大厂，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 63,
+      "s": 33,
+      "start": 185.88,
+      "end": 187.38,
+      "text": "大厂的话，在中文的意思",
+      "speaker": "A",
+      "u": 32,
+      "role": "narrator"
+    },
+    {
+      "i": 64,
+      "s": 33,
+      "start": 187.38,
+      "end": 189.54,
+      "text": "就是那些科技企业啊，",
+      "speaker": "A",
+      "u": 32,
+      "role": "narrator"
+    },
+    {
+      "i": 65,
+      "s": 33,
+      "start": 189.54,
+      "end": 193.02,
+      "text": "比如说像腾讯啊、阿里巴巴呀，",
+      "speaker": "A",
+      "u": 32,
+      "role": "narrator"
+    },
+    {
+      "i": 66,
+      "s": 34,
+      "start": 193.02,
+      "end": 194.38,
+      "text": "或者是快手。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 67,
+      "s": 35,
+      "start": 194.42,
+      "end": 197.4,
+      "text": "那在这些大厂现在有一些新的文化",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 68,
+      "s": 35,
+      "start": 197.4,
+      "end": 201.28,
+      "text": "是要给每个员工取一个花名，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 69,
+      "s": 36,
+      "start": 201.28,
+      "end": 202.04,
+      "text": "然后花名",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 70,
+      "s": 36,
+      "start": 202.04,
+      "end": 204.88,
+      "text": "其实就有一点像昵称，对不对？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 71,
+      "s": 37,
+      "start": 204.88,
+      "end": 205,
+      "text": "对。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 38,
+      "start": 205,
+      "end": 206.8,
+      "text": "然后我也知道，像阿里",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 38,
+      "start": 206.8,
+      "end": 213.17,
+      "text": "他们的花名也都是。这种武侠风格，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 39,
+      "start": 213.97,
+      "end": 215.99,
+      "text": "所以也也还挺有意思的。",
+      "speaker": "B",
+      "u": 38,
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 40,
+      "start": 217.29,
+      "end": 221.33,
+      "text": "对，对，但我觉得可能他的目的就是，嗯，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 76,
+      "s": 40,
+      "start": 221.33,
+      "end": 223.75,
+      "text": "这样会称呼起来比较直接哈，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 77,
+      "s": 40,
+      "start": 223.75,
+      "end": 225.87,
+      "text": "就没有特别多的阶级。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 78,
+      "s": 41,
+      "start": 225.87,
+      "end": 227.67,
+      "text": "那比如说像国企里面，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 79,
+      "s": 41,
+      "start": 227.67,
+      "end": 231.11,
+      "text": "就比较会常听到要叫什么什么总、",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 80,
+      "s": 41,
+      "start": 231.11,
+      "end": 233.11,
+      "text": "什么什么哥之类的啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 81,
+      "s": 42,
+      "start": 233.11,
+      "end": 237.17,
+      "text": "比如说一般是姓后面加上你的职称。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 43,
+      "start": 237.46,
+      "end": 240.92,
+      "text": "比如说，对啊，李科长，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 43,
+      "start": 240.92,
+      "end": 244.1,
+      "text": "比如说张处长这些之类的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 44,
+      "start": 245.04,
+      "end": 249.96,
+      "text": "对，或者是刘老板、刘书记，或者是刘哥，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 85,
+      "s": 44,
+      "start": 249.96,
+      "end": 252.97,
+      "text": "那你不会说直接把这个人的名字，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 86,
+      "s": 45,
+      "start": 253.04,
+      "end": 256.36,
+      "text": "或者说呃给他取个英文名字这样子。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 87,
+      "s": 46,
+      "start": 256.36,
+      "end": 256.86,
+      "text": "所以我觉得",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 88,
+      "s": 46,
+      "start": 256.86,
+      "end": 259.74,
+      "text": "这个虽然从小的地方来说",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 89,
+      "s": 46,
+      "start": 259.74,
+      "end": 262,
+      "text": "只是称呼上的不同，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 90,
+      "s": 46,
+      "start": 262,
+      "end": 264.22,
+      "text": "但我觉得背后反映的其实是。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 91,
+      "s": 47,
+      "start": 264.3,
+      "end": 268.18,
+      "text": "这种等级啊阶级制度不太一样对",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 92,
+      "s": 48,
+      "start": 268.18,
+      "end": 272,
+      "text": "可能是在国有企业",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "s": 48,
+      "start": 272,
+      "end": 273.94,
+      "text": "或者这种事业单位",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 94,
+      "s": 48,
+      "start": 273.94,
+      "end": 275.84,
+      "text": "其实我觉得在事业单位",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 95,
+      "s": 48,
+      "start": 275.84,
+      "end": 277.92,
+      "text": "就相当于是公务员了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 96,
+      "s": 48,
+      "start": 277.92,
+      "end": 280.4,
+      "text": "就是为了政府工作的人员",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 97,
+      "s": 49,
+      "start": 280.4,
+      "end": 282.82,
+      "text": "在这两种情况里面",
+      "speaker": "B",
+      "u": 48,
+      "role": "storyteller"
+    },
+    {
+      "i": 98,
+      "s": 49,
+      "start": 282.82,
+      "end": 286.7,
+      "text": "可能的确这个阶级还是比较重要的",
+      "speaker": "B",
+      "u": 48,
+      "role": "storyteller"
+    },
+    {
+      "i": 99,
+      "s": 49,
+      "start": 286.7,
+      "end": 288.42,
+      "text": "是你需要去注意的",
+      "speaker": "B",
+      "u": 48,
+      "role": "storyteller"
+    },
+    {
+      "i": 100,
+      "s": 49,
+      "start": 288.42,
+      "end": 291.38,
+      "text": "而且短期之内我也不认为",
+      "speaker": "B",
+      "u": 48,
+      "role": "storyteller"
+    },
+    {
+      "i": 101,
+      "s": 50,
+      "start": 291.38,
+      "end": 292.8,
+      "text": "他们会有什么改变",
+      "speaker": "B",
+      "u": 48,
+      "role": "storyteller"
+    },
+    {
+      "i": 102,
+      "s": 50,
+      "start": 292.98,
+      "end": 296.81,
+      "text": "就是一直会保持这个样子。",
+      "speaker": "B",
+      "u": 48,
+      "role": "storyteller"
+    },
+    {
+      "i": 103,
+      "s": 51,
+      "start": 297.8,
+      "end": 299.9,
+      "text": "那你觉得，就是为什么",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 104,
+      "s": 51,
+      "start": 299.9,
+      "end": 303,
+      "text": "现在的互联网企业或者科技企业",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 105,
+      "s": 51,
+      "start": 303,
+      "end": 305.08,
+      "text": "要给员工取花名呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 106,
+      "s": 52,
+      "start": 305.2,
+      "end": 310.38,
+      "text": "我觉得就像你说的，他们其实就是啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 107,
+      "s": 52,
+      "start": 311.04,
+      "end": 313.46,
+      "text": "可能不太想要有这种阶级，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 108,
+      "s": 53,
+      "start": 313.46,
+      "end": 315.02,
+      "text": "然后可以这样",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 109,
+      "s": 53,
+      "start": 315.02,
+      "end": 318.44,
+      "text": "可以更加的激发员工的创造性",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 110,
+      "s": 53,
+      "start": 318.44,
+      "end": 322.02,
+      "text": "啊等等，然后。啊，各个团队之间的合作",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 111,
+      "s": 54,
+      "start": 322.02,
+      "end": 325,
+      "text": "可能也会更加顺利，也就是其实",
+      "speaker": "B",
+      "u": 53,
+      "role": "storyteller"
+    },
+    {
+      "i": 112,
+      "s": 54,
+      "start": 325,
+      "end": 329.1,
+      "text": "也就是更加现代的一种管理方式吧。",
+      "speaker": "B",
+      "u": 53,
+      "role": "storyteller"
+    },
+    {
+      "i": 113,
+      "s": 55,
+      "start": 329.1,
+      "end": 332.81,
+      "text": "比如说，我都不知道它的中文叫什么，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 114,
+      "s": 55,
+      "start": 333.08,
+      "end": 336.8,
+      "text": "flat扁平化的这种职场啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 115,
+      "s": 56,
+      "start": 336.8,
+      "end": 338.38,
+      "text": "或者根本就呃不是职场",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 116,
+      "s": 56,
+      "start": 338.38,
+      "end": 344.32,
+      "text": "呃扁平化的阶级啊这些之类的，对对。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 117,
+      "s": 57,
+      "start": 344.32,
+      "end": 347.95,
+      "text": "但说到这个，其实。也挺好笑的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 118,
+      "s": 58,
+      "start": 347.95,
+      "end": 349.91,
+      "text": "因为我有一个好朋友最近",
+      "speaker": "A",
+      "u": 57,
+      "role": "narrator"
+    },
+    {
+      "i": 119,
+      "s": 58,
+      "start": 349.91,
+      "end": 353.08,
+      "text": "也是加入了一个所谓的互联网企业，",
+      "speaker": "A",
+      "u": 57,
+      "role": "narrator"
+    },
+    {
+      "i": 120,
+      "s": 58,
+      "start": 353.13,
+      "end": 355.51,
+      "text": "然后呢，他们也有这个文化哈，",
+      "speaker": "A",
+      "u": 57,
+      "role": "narrator"
+    },
+    {
+      "i": 121,
+      "s": 59,
+      "start": 355.51,
+      "end": 357.03,
+      "text": "说你刚入职的时候",
+      "speaker": "A",
+      "u": 57,
+      "role": "narrator"
+    },
+    {
+      "i": 122,
+      "s": 59,
+      "start": 357.03,
+      "end": 360.13,
+      "text": "就要取一个花名，取一个昵称。",
+      "speaker": "A",
+      "u": 57,
+      "role": "narrator"
+    },
+    {
+      "i": 123,
+      "s": 60,
+      "start": 360.13,
+      "end": 363.39,
+      "text": "但是呢，这个企业就是已经挺大的了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 124,
+      "s": 61,
+      "start": 363.39,
+      "end": 365.55,
+      "text": "所以我这个朋友他想要取的名字",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 125,
+      "s": 61,
+      "start": 365.55,
+      "end": 368.3,
+      "text": "基本上都已经被取掉了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 126,
+      "s": 61,
+      "start": 368.41,
+      "end": 370.53,
+      "text": "就是一些比较好听的，嗯，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 127,
+      "s": 62,
+      "start": 370.53,
+      "end": 372.59,
+      "text": "跟武侠有关的名字啊等等。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 128,
+      "s": 63,
+      "start": 372.83,
+      "end": 375.38,
+      "text": "然后呢，我们他还在群里面，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 129,
+      "s": 63,
+      "start": 375.38,
+      "end": 377,
+      "text": "就是我们有一个微信群，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 130,
+      "s": 63,
+      "start": 377,
+      "end": 379.35,
+      "text": "问我们说：“哎呀，我应该叫什么名字？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 131,
+      "s": 64,
+      "start": 379.74,
+      "end": 382.92,
+      "text": "如比如说我叫自己肉包或者烧麦，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 132,
+      "s": 64,
+      "start": 382.92,
+      "end": 385.02,
+      "text": "会不会太搞笑了？”",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 133,
+      "s": 65,
+      "start": 385.02,
+      "end": 386.84,
+      "text": "就是就是你有一个分寸，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 134,
+      "s": 65,
+      "start": 386.84,
+      "end": 389.64,
+      "text": "你的花名呢也不能太搞笑，对吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 135,
+      "s": 66,
+      "start": 389.64,
+      "end": 391.13,
+      "text": "但也不能太正经。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 136,
+      "s": 67,
+      "start": 391.21,
+      "end": 391.3,
+      "text": "对",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 137,
+      "s": 68,
+      "start": 391.3,
+      "end": 393.21,
+      "text": "对，其实挺难的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "s": 69,
+      "start": 393.22,
+      "end": 396.54,
+      "text": "你想一个那种公司都是几万人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 69,
+      "start": 396.54,
+      "end": 398.62,
+      "text": "你要取一个新的名字。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "s": 70,
+      "start": 398.64,
+      "end": 403.92,
+      "text": "确实要花一番脑筋，对。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "s": 71,
+      "start": 404.51,
+      "end": 405.06,
+      "text": "嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "s": 72,
+      "start": 405.06,
+      "end": 405.62,
+      "text": "那你觉得",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 143,
+      "s": 72,
+      "start": 405.62,
+      "end": 407.7,
+      "text": "除了刚才我们说的这个以外，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 144,
+      "s": 72,
+      "start": 407.7,
+      "end": 409.35,
+      "text": "你觉得还有什么区别？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 145,
+      "s": 73,
+      "start": 409.82,
+      "end": 410.52,
+      "text": "我其实",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 146,
+      "s": 74,
+      "start": 410.52,
+      "end": 414.12,
+      "text": "觉得最大的区别还是工作压力上，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 147,
+      "s": 74,
+      "start": 414.12,
+      "end": 415.82,
+      "text": "但是一说到工作压力，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "s": 74,
+      "start": 415.82,
+      "end": 420.18,
+      "text": "又要说到老话题加班九九六等等。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 149,
+      "s": 75,
+      "start": 420.18,
+      "end": 424.92,
+      "text": "但是我觉得就除了加班这些之外，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 150,
+      "s": 75,
+      "start": 424.92,
+      "end": 427,
+      "text": "还是会压力就会感觉很大。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 151,
+      "s": 76,
+      "start": 427.2,
+      "end": 431.42,
+      "text": "比如说一种去啊升迁的压力，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 152,
+      "s": 76,
+      "start": 431.42,
+      "end": 433,
+      "text": "你要去升职的压力，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 153,
+      "s": 76,
+      "start": 433.18,
+      "end": 436.16,
+      "text": "然后同事之间的竞争啊等等，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 154,
+      "s": 77,
+      "start": 436.26,
+      "end": 438.52,
+      "text": "我感觉可能",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 155,
+      "s": 77,
+      "start": 438.52,
+      "end": 442.62,
+      "text": "国内都会比国外更加的激烈一些。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 156,
+      "s": 78,
+      "start": 442.62,
+      "end": 444.68,
+      "text": "但是这只是我自己的感觉，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 157,
+      "s": 78,
+      "start": 444.68,
+      "end": 447.56,
+      "text": "因为我说实话，我自己从来没有",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "s": 78,
+      "start": 447.56,
+      "end": 451.16,
+      "text": "在一个真正的公司里面工作过，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 159,
+      "s": 79,
+      "start": 451.16,
+      "end": 454.39,
+      "text": "因为我是属于这种。教育教育类的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 160,
+      "s": 80,
+      "start": 454.39,
+      "end": 457.17,
+      "text": "从来都是在当老师，",
+      "speaker": "B",
+      "u": 79,
+      "role": "storyteller"
+    },
+    {
+      "i": 161,
+      "s": 80,
+      "start": 457.17,
+      "end": 460.09,
+      "text": "所以说啊，老师可能呃",
+      "speaker": "B",
+      "u": 79,
+      "role": "storyteller"
+    },
+    {
+      "i": 162,
+      "s": 80,
+      "start": 460.09,
+      "end": 462.07,
+      "text": "其实也跟职场有点像了，对吧？",
+      "speaker": "B",
+      "u": 79,
+      "role": "storyteller"
+    },
+    {
+      "i": 163,
+      "s": 81,
+      "start": 462.07,
+      "end": 464.57,
+      "text": "你想一群老师在一起，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 164,
+      "s": 81,
+      "start": 464.59,
+      "end": 467.25,
+      "text": "然后你有一个管的什么主管，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 165,
+      "s": 81,
+      "start": 467.25,
+      "end": 468.65,
+      "text": "然后要升职，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 166,
+      "s": 81,
+      "start": 468.65,
+      "end": 470.83,
+      "text": "但是可能还是跟那些有些不同。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 167,
+      "s": 82,
+      "start": 470.83,
+      "end": 473.89,
+      "text": "但是就是从我个人的想法来说，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 168,
+      "s": 82,
+      "start": 473.89,
+      "end": 476.45,
+      "text": "我认为竞争等等会更加激烈。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 169,
+      "s": 83,
+      "start": 476.45,
+      "end": 477.25,
+      "text": "你觉得呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "s": 84,
+      "start": 478.39,
+      "end": 481,
+      "text": "但我觉得你刚才说的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 171,
+      "s": 84,
+      "start": 481,
+      "end": 484.26,
+      "text": "这个工作压力或者工作时间，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 172,
+      "s": 84,
+      "start": 484.26,
+      "end": 487.6,
+      "text": "在国内也不能一概而论吧？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 173,
+      "s": 85,
+      "start": 487.6,
+      "end": 488.88,
+      "text": "就是一概而论的意思，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 174,
+      "s": 86,
+      "start": 488.88,
+      "end": 492.24,
+      "text": "就是不能把这些都嗯怎么说呢",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 175,
+      "s": 86,
+      "start": 492.24,
+      "end": 494.76,
+      "text": "统称起来或者用一个概念",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 176,
+      "s": 86,
+      "start": 494.76,
+      "end": 496.1,
+      "text": "来generalize。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 177,
+      "s": 87,
+      "start": 496.1,
+      "end": 497.12,
+      "text": "那比如说，我觉得",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 178,
+      "s": 87,
+      "start": 497.12,
+      "end": 499.66,
+      "text": "像在中国的互联网企业，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 179,
+      "s": 87,
+      "start": 499.66,
+      "end": 501,
+      "text": "现在在网上面",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 180,
+      "s": 87,
+      "start": 501,
+      "end": 503.54,
+      "text": "大家争论的讨论的比较多，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 181,
+      "s": 88,
+      "start": 503.54,
+      "end": 506.04,
+      "text": "就说互联网企业的工作压力很大。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 182,
+      "s": 89,
+      "start": 506.1,
+      "end": 508.62,
+      "text": "但是中国也有很多的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 183,
+      "s": 89,
+      "start": 508.62,
+      "end": 511.83,
+      "text": "像刚才说的事业单位啊、国企啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 184,
+      "s": 90,
+      "start": 512.01,
+      "end": 513.3,
+      "text": "比如说我有一些朋友",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 185,
+      "s": 90,
+      "start": 513.3,
+      "end": 516.16,
+      "text": "在国开行国家开发银行啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 186,
+      "s": 90,
+      "start": 516.16,
+      "end": 520.14,
+      "text": "或者是这些大的央企中央企业，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 187,
+      "s": 91,
+      "start": 520.14,
+      "end": 521.9,
+      "text": "其实压力就不是很大。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 188,
+      "s": 92,
+      "start": 521.9,
+      "end": 525.58,
+      "text": "他们的话可能每天工作到六点七点，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 189,
+      "s": 92,
+      "start": 525.58,
+      "end": 528.74,
+      "text": "最多七点吧也是可以准时下班的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 190,
+      "s": 93,
+      "start": 528.74,
+      "end": 530.92,
+      "text": "所以我觉得这个可能是因为",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 191,
+      "s": 93,
+      "start": 530.92,
+      "end": 532.6,
+      "text": "最近在网上面讨论的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 192,
+      "s": 93,
+      "start": 532.6,
+      "end": 535.2,
+      "text": "互联网企业的。工作压力特别多，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 193,
+      "s": 94,
+      "start": 535.2,
+      "end": 536.46,
+      "text": "所以给我们造成这么一",
+      "speaker": "A",
+      "u": 93,
+      "role": "narrator"
+    },
+    {
+      "i": 194,
+      "s": 95,
+      "start": 536.46,
+      "end": 537.76,
+      "text": "种有一点偏见。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 195,
+      "s": 96,
+      "start": 537.76,
+      "end": 540.9,
+      "text": "其实我觉得不光是互联网企业啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 196,
+      "s": 96,
+      "start": 540.9,
+      "end": 544.1,
+      "text": "私人的企业、私企都存在这个现象。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 197,
+      "s": 97,
+      "start": 544.1,
+      "end": 546.16,
+      "text": "所以说这也是为什么",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 198,
+      "s": 97,
+      "start": 546.16,
+      "end": 549.38,
+      "text": "很多人现在想去当公务员，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 199,
+      "s": 97,
+      "start": 549.38,
+      "end": 551.47,
+      "text": "很多人现在想去国企，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 200,
+      "s": 98,
+      "start": 551.5,
+      "end": 555.1,
+      "text": "就是因为起码在呃这些企业，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 201,
+      "s": 98,
+      "start": 555.1,
+      "end": 558.14,
+      "text": "你的加班啊这些可能会少一点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 202,
+      "s": 98,
+      "start": 558.14,
+      "end": 560.58,
+      "text": "然后各种福利也会更好一点。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 203,
+      "s": 99,
+      "start": 560.73,
+      "end": 564.06,
+      "text": "这就是这些私企做的不太好的地方，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 204,
+      "s": 99,
+      "start": 564.33,
+      "end": 566.87,
+      "text": "就是会让人经常加班，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 205,
+      "s": 100,
+      "start": 567.01,
+      "end": 568.33,
+      "text": "然后可能这个加班",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 206,
+      "s": 100,
+      "start": 568.33,
+      "end": 570.47,
+      "text": "还没有加班工资啊等等，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 207,
+      "s": 100,
+      "start": 570.47,
+      "end": 572.83,
+      "text": "然后这种竞竞争更激烈。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 208,
+      "s": 101,
+      "start": 572.83,
+      "end": 574.57,
+      "text": "所以说你说的肯定是对的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 209,
+      "s": 101,
+      "start": 574.67,
+      "end": 577.13,
+      "text": "并不一定所有在中国的工作",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 210,
+      "s": 101,
+      "start": 577.13,
+      "end": 579.37,
+      "text": "都比国外压力更大，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 211,
+      "s": 101,
+      "start": 579.37,
+      "end": 580.67,
+      "text": "但是我还是觉得，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 212,
+      "s": 102,
+      "start": 581.01,
+      "end": 584.69,
+      "text": "在中国的私人企业、私企里面，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 213,
+      "s": 102,
+      "start": 584.85,
+      "end": 587.39,
+      "text": "这个还是一个非常普遍的现象。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 214,
+      "s": 103,
+      "start": 589.37,
+      "end": 592.11,
+      "text": "对，就是说到工作压力，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 215,
+      "s": 103,
+      "start": 592.11,
+      "end": 593.35,
+      "text": "我觉得另外一个点啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 216,
+      "s": 103,
+      "start": 593.35,
+      "end": 597.19,
+      "text": "我感触很深的是关于年假的问题。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 217,
+      "s": 104,
+      "start": 597.39,
+      "end": 599.17,
+      "text": "就是比如说在外企，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 218,
+      "s": 104,
+      "start": 599.17,
+      "end": 601.06,
+      "text": "哪怕是在中国的外企，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 219,
+      "s": 104,
+      "start": 601.65,
+      "end": 604.4,
+      "text": "基本上哪怕你刚刚入职，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 220,
+      "s": 104,
+      "start": 604.45,
+      "end": 607.38,
+      "text": "也会有比如说二十天啊、十五天，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 221,
+      "s": 105,
+      "start": 607.59,
+      "end": 610.51,
+      "text": "或者甚至像我刚刚开始工作的时候",
+      "speaker": "A",
+      "u": 104,
+      "role": "narrator"
+    },
+    {
+      "i": 222,
+      "s": 105,
+      "start": 610.51,
+      "end": 612.49,
+      "text": "就有二十五天的年假。",
+      "speaker": "A",
+      "u": 104,
+      "role": "narrator"
+    },
+    {
+      "i": 223,
+      "s": 106,
+      "start": 612.49,
+      "end": 615.15,
+      "text": "但是就从我和我其他的朋友聊天",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 224,
+      "s": 106,
+      "start": 615.15,
+      "end": 618.24,
+      "text": "看起来，中国的国企、私企",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 225,
+      "s": 106,
+      "start": 618.24,
+      "end": 620.68,
+      "text": "很多都是只有五天的年假，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 226,
+      "s": 107,
+      "start": 620.68,
+      "end": 622.94,
+      "text": "就是说除了五天年假以外，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 227,
+      "s": 107,
+      "start": 622.94,
+      "end": 626.44,
+      "text": "就只有像国庆节或者是五一劳动节",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 228,
+      "s": 107,
+      "start": 626.44,
+      "end": 627.56,
+      "text": "可以放一个假。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 229,
+      "s": 108,
+      "start": 627.56,
+      "end": 629.32,
+      "text": "但是在那些公共假日呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 230,
+      "s": 108,
+      "start": 629.32,
+      "end": 632.32,
+      "text": "你就要跟其他的人一起竞争，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 231,
+      "s": 108,
+      "start": 632.32,
+      "end": 634.5,
+      "text": "一起挤挤着出国旅游啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 232,
+      "s": 109,
+      "start": 634.5,
+      "end": 636.32,
+      "text": "或者去国内旅游啊等等。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 233,
+      "s": 110,
+      "start": 636.58,
+      "end": 639.52,
+      "text": "所以我觉得，因为对我个人来说呢，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 234,
+      "s": 110,
+      "start": 639.52,
+      "end": 641.66,
+      "text": "我是可以OK接受",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 235,
+      "s": 110,
+      "start": 641.66,
+      "end": 643.36,
+      "text": "每天工作时间长一点。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 236,
+      "s": 111,
+      "start": 643.44,
+      "end": 646.12,
+      "text": "但我非常的需要一个就是年假，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 237,
+      "s": 111,
+      "start": 646.12,
+      "end": 648.58,
+      "text": "让我能够说有一整段的时间",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 238,
+      "s": 111,
+      "start": 648.58,
+      "end": 650.68,
+      "text": "两个星期啊，我可以出去玩，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 239,
+      "s": 112,
+      "start": 650.68,
+      "end": 651.76,
+      "text": "然后放松一下。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 240,
+      "s": 113,
+      "start": 651.92,
+      "end": 654.42,
+      "text": "所以这个是我我觉得我无法接受",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 241,
+      "s": 113,
+      "start": 654.42,
+      "end": 656.54,
+      "text": "在国内工作的一件很重要的事情。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 242,
+      "s": 114,
+      "start": 656.54,
+      "end": 660.08,
+      "text": "对，就是我觉得在国内，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 243,
+      "s": 114,
+      "start": 660.08,
+      "end": 661.8,
+      "text": "而且就算你有假，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 244,
+      "s": 114,
+      "start": 661.8,
+      "end": 665.26,
+      "text": "有的时候你不敢请假，你有这个压力，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 245,
+      "s": 115,
+      "start": 665.26,
+      "end": 668.16,
+      "text": "就是你会觉得我请假了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 246,
+      "s": 115,
+      "start": 668.16,
+      "end": 671.24,
+      "text": "我的老板会觉得我工作不努力啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 247,
+      "s": 115,
+      "start": 671.24,
+      "end": 672.32,
+      "text": "或者怎么怎么样。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 248,
+      "s": 116,
+      "start": 672.36,
+      "end": 674.1,
+      "text": "可是我认为在国外",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 249,
+      "s": 116,
+      "start": 674.1,
+      "end": 677.03,
+      "text": "这个就是请假是很正常的事情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 250,
+      "s": 116,
+      "start": 677.2,
+      "end": 678.8,
+      "text": "就是我有假，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 251,
+      "s": 117,
+      "start": 678.8,
+      "end": 680.62,
+      "text": "然后我现在我有了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 252,
+      "s": 117,
+      "start": 680.62,
+      "end": 682.86,
+      "text": "这样一个旅行计划，我就要去做，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 253,
+      "s": 117,
+      "start": 682.86,
+      "end": 684.88,
+      "text": "然后我其他的工作安排",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 254,
+      "s": 117,
+      "start": 684.88,
+      "end": 686.64,
+      "text": "我就绕着来就行了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 255,
+      "s": 118,
+      "start": 686.64,
+      "end": 689.14,
+      "text": "但是国内是我的请假",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 256,
+      "s": 118,
+      "start": 689.14,
+      "end": 692.52,
+      "text": "是要根据我的工作安排来进行，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 257,
+      "s": 118,
+      "start": 692.52,
+      "end": 695.78,
+      "text": "也要根据我的老板的安排来进行。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 258,
+      "s": 119,
+      "start": 697.1,
+      "end": 698.04,
+      "text": "对对对。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 259,
+      "s": 120,
+      "start": 698.28,
+      "end": 698.98,
+      "text": "而且我觉得",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 260,
+      "s": 120,
+      "start": 698.98,
+      "end": 701.42,
+      "text": "像国外的一些大的企业啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 261,
+      "s": 120,
+      "start": 701.42,
+      "end": 703,
+      "text": "比如说HR或者是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 262,
+      "s": 120,
+      "start": 703,
+      "end": 705.34,
+      "text": "就是职场文化比较好的企业，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 263,
+      "s": 121,
+      "start": 705.34,
+      "end": 708.46,
+      "text": "HR都会催员工去请假的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 264,
+      "s": 122,
+      "start": 708.54,
+      "end": 710.96,
+      "text": "比如说像嗯我之前工作的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 265,
+      "s": 122,
+      "start": 710.96,
+      "end": 713.24,
+      "text": "一个一个国外的公司，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 266,
+      "s": 122,
+      "start": 713.24,
+      "end": 715.46,
+      "text": "它的话每年到十二月份，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 267,
+      "s": 123,
+      "start": 715.46,
+      "end": 717.68,
+      "text": "如果你的就是balance",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 268,
+      "s": 123,
+      "start": 717.68,
+      "end": 719.42,
+      "text": "你的这个系统里面",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 269,
+      "s": 123,
+      "start": 719.42,
+      "end": 721.64,
+      "text": "发现还有几天的年假没有请，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 270,
+      "s": 124,
+      "start": 721.78,
+      "end": 723.32,
+      "text": "HR都会发邮件说啊",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 271,
+      "s": 124,
+      "start": 723.32,
+      "end": 725.18,
+      "text": "你要记得把这个假请掉。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 272,
+      "s": 125,
+      "start": 725.22,
+      "end": 726.94,
+      "text": "要不然的话，明年可能这个假",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 273,
+      "s": 125,
+      "start": 726.94,
+      "end": 728.7,
+      "text": "就没有办法累计到",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 274,
+      "s": 125,
+      "start": 728.7,
+      "end": 730.53,
+      "text": "你明年的年假里面。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 275,
+      "s": 126,
+      "start": 731.06,
+      "end": 733.56,
+      "text": "然后，而且就举一个例子哈，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 276,
+      "s": 126,
+      "start": 733.56,
+      "end": 735.9,
+      "text": "今天嘛，嗯，因为我刚刚入职，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 277,
+      "s": 126,
+      "start": 735.9,
+      "end": 737.66,
+      "text": "我现在搬到了瑞士，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 278,
+      "s": 127,
+      "start": 737.66,
+      "end": 739.35,
+      "text": "刚刚加入了一个新的公司。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 279,
+      "s": 128,
+      "start": 739.54,
+      "end": 742.18,
+      "text": "然后今天老板问我说啊最近怎么样？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 280,
+      "s": 129,
+      "start": 742.52,
+      "end": 744.88,
+      "text": "我说我刚刚过来要搬家，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 281,
+      "s": 129,
+      "start": 745.1,
+      "end": 746.54,
+      "text": "然后他就跟我说，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 282,
+      "s": 130,
+      "start": 746.58,
+      "end": 748.88,
+      "text": "哎你知不知道我们公司有没有",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 283,
+      "s": 130,
+      "start": 748.88,
+      "end": 751.48,
+      "text": "可以请一天的搬家的年假，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 284,
+      "s": 130,
+      "start": 751.48,
+      "end": 752.56,
+      "text": "就是有一天的假期",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 285,
+      "s": 130,
+      "start": 752.56,
+      "end": 753.82,
+      "text": "是专门用来搬家的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 286,
+      "s": 131,
+      "start": 753.99,
+      "end": 755.83,
+      "text": "然后我还有点不好意思，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 287,
+      "s": 131,
+      "start": 755.83,
+      "end": 757.13,
+      "text": "我说我刚刚来，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 288,
+      "s": 131,
+      "start": 757.13,
+      "end": 759.49,
+      "text": "我也不太好意思请这一天的假。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 289,
+      "s": 132,
+      "start": 759.49,
+      "end": 762.35,
+      "text": "但是他就是特别的无所谓，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 290,
+      "s": 132,
+      "start": 762.35,
+      "end": 764.75,
+      "text": "他特别坦率的就说无所谓的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 291,
+      "s": 132,
+      "start": 764.75,
+      "end": 767.25,
+      "text": "这个假放在那里就是给你请的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 292,
+      "s": 133,
+      "start": 767.29,
+      "end": 769.93,
+      "text": "那你搬家肯定是有很多事情要做，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 293,
+      "s": 133,
+      "start": 769.93,
+      "end": 772.05,
+      "text": "所以你要请的话就请没有关系。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 294,
+      "s": 134,
+      "start": 772.47,
+      "end": 774.73,
+      "text": "所以我觉得这个对我来说",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 295,
+      "s": 134,
+      "start": 774.73,
+      "end": 776.47,
+      "text": "其实文化上是很不",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 296,
+      "s": 135,
+      "start": 776.47,
+      "end": 777.25,
+      "text": "一样的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 297,
+      "s": 136,
+      "start": 777.33,
+      "end": 779.59,
+      "text": "对对，所以就是我觉得。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 298,
+      "s": 137,
+      "start": 780.26,
+      "end": 786.23,
+      "text": "可能是劳工权益的保护吧，可能啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 299,
+      "s": 137,
+      "start": 786.25,
+      "end": 788.77,
+      "text": "我觉得在国外这方面啊",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 300,
+      "s": 137,
+      "start": 788.77,
+      "end": 790.69,
+      "text": "的确更加重视一点。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 301,
+      "s": 138,
+      "start": 791.39,
+      "end": 793.51,
+      "text": "我个人的感觉来说，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 302,
+      "s": 139,
+      "start": 793.51,
+      "end": 794.28,
+      "text": "嗯，对。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 303,
+      "s": 140,
+      "start": 794.33,
+      "end": 796.83,
+      "text": "但是你觉得为什么在国内",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 304,
+      "s": 140,
+      "start": 796.83,
+      "end": 800.69,
+      "text": "就是大家虽然工作压力这么大，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 305,
+      "s": 140,
+      "start": 800.69,
+      "end": 804.11,
+      "text": "工作时间也很长，还是怎么说呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 306,
+      "s": 141,
+      "start": 804.11,
+      "end": 805.15,
+      "text": "用中文一句话说",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 307,
+      "s": 141,
+      "start": 805.15,
+      "end": 808.23,
+      "text": "挤破了脑袋也要进这些私企",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 308,
+      "s": 143,
+      "start": 808.23,
+      "end": 808.88,
+      "text": "呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 309,
+      "s": 144,
+      "start": 809.57,
+      "end": 813.19,
+      "text": "嗯，我觉得其实这个也是另外一点。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 310,
+      "s": 145,
+      "start": 813.19,
+      "end": 815.11,
+      "text": "我想，我觉得的另外一点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 311,
+      "s": 145,
+      "start": 815.11,
+      "end": 817.85,
+      "text": "在中国工作的一个特点就是，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 312,
+      "s": 145,
+      "start": 819.23,
+      "end": 821.07,
+      "text": "咱们刚刚说竞争很大，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 313,
+      "s": 146,
+      "start": 821.07,
+      "end": 823.01,
+      "text": "然后我现在想说的第三个点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 314,
+      "s": 146,
+      "start": 823.01,
+      "end": 825.49,
+      "text": "其实跟可能是第二点五个点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 315,
+      "s": 146,
+      "start": 825.49,
+      "end": 827.91,
+      "text": "因为不是跟第二点完全不一样。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 316,
+      "s": 147,
+      "start": 827.91,
+      "end": 828.87,
+      "text": "这个点就是，我觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 317,
+      "s": 147,
+      "start": 828.87,
+      "end": 830.61,
+      "text": "这竞争是越来越大。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 318,
+      "s": 148,
+      "start": 831.44,
+      "end": 835.04,
+      "text": "就是它是在往上走的趋势，啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 319,
+      "s": 148,
+      "start": 835.04,
+      "end": 839.73,
+      "text": "也因为呃中国，嗯研究生越来越多，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 320,
+      "s": 148,
+      "start": 839.9,
+      "end": 843.32,
+      "text": "硕士越来越多，博士也越来越多，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 321,
+      "s": 149,
+      "start": 843.5,
+      "end": 846.02,
+      "text": "然后中国出国留学的",
+      "speaker": "B",
+      "u": 148,
+      "role": "storyteller"
+    },
+    {
+      "i": 322,
+      "s": 149,
+      "start": 846.02,
+      "end": 848.52,
+      "text": "然后回来的人也越来越多，",
+      "speaker": "B",
+      "u": 148,
+      "role": "storyteller"
+    },
+    {
+      "i": 323,
+      "s": 149,
+      "start": 848.52,
+      "end": 851.72,
+      "text": "所以就是有更多的人，越来越多的人",
+      "speaker": "B",
+      "u": 148,
+      "role": "storyteller"
+    },
+    {
+      "i": 324,
+      "s": 150,
+      "start": 851.72,
+      "end": 855.12,
+      "text": "进入到了这个职场里面，",
+      "speaker": "B",
+      "u": 148,
+      "role": "storyteller"
+    },
+    {
+      "i": 325,
+      "s": 150,
+      "start": 855.12,
+      "end": 856.52,
+      "text": "想要寻找一个岗位。",
+      "speaker": "B",
+      "u": 148,
+      "role": "storyteller"
+    },
+    {
+      "i": 326,
+      "s": 151,
+      "start": 856.71,
+      "end": 858.71,
+      "text": "那么这就会使得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 327,
+      "s": 151,
+      "start": 858.71,
+      "end": 861.65,
+      "text": "寻找一个岗位变得更加的困难，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 328,
+      "s": 151,
+      "start": 861.65,
+      "end": 862.73,
+      "text": "因为会有更多的人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 329,
+      "s": 151,
+      "start": 862.73,
+      "end": 866,
+      "text": "来和你抢这个位置，对吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 330,
+      "s": 152,
+      "start": 866.19,
+      "end": 869.75,
+      "text": "所以说为什么大家都挤破了头",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 331,
+      "s": 152,
+      "start": 869.75,
+      "end": 872.1,
+      "text": "想去这些互联网公司？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 332,
+      "s": 153,
+      "start": 872.37,
+      "end": 875.45,
+      "text": "第一点当然是因为他们工资比较高；",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 333,
+      "s": 153,
+      "start": 875.45,
+      "end": 879.33,
+      "text": "第二点也是就是因为人很多，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 334,
+      "s": 154,
+      "start": 879.43,
+      "end": 880.87,
+      "text": "所以随便一个职位",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 335,
+      "s": 154,
+      "start": 880.87,
+      "end": 883.23,
+      "text": "都会有很多的人去申请。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 336,
+      "s": 155,
+      "start": 883.57,
+      "end": 887.32,
+      "text": "而且这也是我比较担忧的问题，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 337,
+      "s": 155,
+      "start": 887.36,
+      "end": 889.8,
+      "text": "比如说我自己的学业，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 338,
+      "s": 155,
+      "start": 889.8,
+      "end": 892.37,
+      "text": "我的博士还有两年才结束，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 339,
+      "s": 156,
+      "start": 892.45,
+      "end": 896.1,
+      "text": "两年之后到时候在中国的竞争",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 340,
+      "s": 156,
+      "start": 896.1,
+      "end": 898.65,
+      "text": "又会比现在更加激烈，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 341,
+      "s": 157,
+      "start": 898.66,
+      "end": 902.24,
+      "text": "我就经常会担心自己以后的竞争力",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 342,
+      "s": 157,
+      "start": 902.24,
+      "end": 904.08,
+      "text": "会不会受到影响啊等等。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 343,
+      "s": 158,
+      "start": 904.48,
+      "end": 905.94,
+      "text": "我我想到另外一个点，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 344,
+      "s": 158,
+      "start": 905.94,
+      "end": 907.66,
+      "text": "我们也可以讨论一下，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 345,
+      "s": 158,
+      "start": 907.66,
+      "end": 909.78,
+      "text": "就是你觉得现在在中国？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 346,
+      "s": 159,
+      "start": 910.08,
+      "end": 913.14,
+      "text": "喝酒就是这个，嗯，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 347,
+      "s": 159,
+      "start": 913.14,
+      "end": 915.84,
+      "text": "喝酒的文化现在有没有什么改变呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 348,
+      "s": 160,
+      "start": 915.84,
+      "end": 918.68,
+      "text": "因为就给大家交代一个前提哈，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 349,
+      "s": 160,
+      "start": 918.68,
+      "end": 920.1,
+      "text": "我呢我是上海人，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 350,
+      "s": 160,
+      "start": 920.1,
+      "end": 922.38,
+      "text": "而且我是完全不能喝酒，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 351,
+      "s": 161,
+      "start": 922.38,
+      "end": 924.98,
+      "text": "所以我在中国工作的时候呢，嗯，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 352,
+      "s": 161,
+      "start": 924.98,
+      "end": 928.3,
+      "text": "一开始我会觉得还挺尴尬的，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 353,
+      "s": 162,
+      "start": 928.3,
+      "end": 931.3,
+      "text": "因为经常需要出去跟客户应酬，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 354,
+      "s": 162,
+      "start": 931.3,
+      "end": 932.77,
+      "text": "然后那个时候，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 355,
+      "s": 162,
+      "start": 932.8,
+      "end": 934.98,
+      "text": "嗯，还没有特别多喝红酒，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 356,
+      "s": 162,
+      "start": 934.98,
+      "end": 936.4,
+      "text": "就是有白酒、红酒。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 357,
+      "s": 163,
+      "start": 936.57,
+      "end": 938.97,
+      "text": "我就一律都说，哎，我不能喝酒。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 358,
+      "s": 164,
+      "start": 938.97,
+      "end": 941.85,
+      "text": "我不知道你觉得现在这个整",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 359,
+      "s": 165,
+      "start": 941.85,
+      "end": 943.5,
+      "text": "体的趋势是什么样子？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 360,
+      "s": 166,
+      "start": 943.95,
+      "end": 948.57,
+      "text": "我觉得首先啊，这个事实确实是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 361,
+      "s": 166,
+      "start": 948.57,
+      "end": 951.55,
+      "text": "在中国文化里面吃饭非常重要，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 362,
+      "s": 167,
+      "start": 951.81,
+      "end": 955.09,
+      "text": "很多事情是要大家去吃一顿饭，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 363,
+      "s": 167,
+      "start": 955.09,
+      "end": 957.01,
+      "text": "然后再来谈事情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 364,
+      "s": 167,
+      "start": 957.01,
+      "end": 960.55,
+      "text": "然后很多事情也是在饭桌上谈事情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 365,
+      "s": 168,
+      "start": 960.67,
+      "end": 963.97,
+      "text": "所以这也是为什么，尤其是在过去。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 366,
+      "s": 169,
+      "start": 964.32,
+      "end": 968.69,
+      "text": "啊，职场的一部分可能的确就是饭桌，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 367,
+      "s": 169,
+      "start": 968.69,
+      "end": 971.41,
+      "text": "你需要在饭桌上有很多应酬，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 368,
+      "s": 170,
+      "start": 971.41,
+      "end": 974.43,
+      "text": "然后在这个吃饭的过程中",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 369,
+      "s": 170,
+      "start": 974.43,
+      "end": 978.12,
+      "text": "就必不可少的有喝酒这个问题。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 370,
+      "s": 171,
+      "start": 978.39,
+      "end": 981.43,
+      "text": "然后在以前也是有听说",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 371,
+      "s": 171,
+      "start": 981.43,
+      "end": 983.58,
+      "text": "很多这种所谓的劝酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 372,
+      "s": 171,
+      "start": 983.85,
+      "end": 986.63,
+      "text": "就是说你必须把这酒喝了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 373,
+      "s": 171,
+      "start": 986.63,
+      "end": 989.07,
+      "text": "你如果不喝，你就是不尊重我，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 374,
+      "s": 172,
+      "start": 989.07,
+      "end": 990.29,
+      "text": "你就是瞧不起我。",
+      "speaker": "B",
+      "u": 171,
+      "role": "storyteller"
+    },
+    {
+      "i": 375,
+      "s": 173,
+      "start": 990.68,
+      "end": 993.77,
+      "text": "然后，如果你喝了，OK，那你尊重我，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 376,
+      "s": 173,
+      "start": 993.77,
+      "end": 995.61,
+      "text": "那么我们可以来谈生意。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 377,
+      "s": 174,
+      "start": 995.61,
+      "end": 997.91,
+      "text": "我认为在以前确实是这样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 378,
+      "s": 174,
+      "start": 997.91,
+      "end": 1000.87,
+      "text": "但是现在我认为啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 379,
+      "s": 174,
+      "start": 1000.87,
+      "end": 1002.11,
+      "text": "这个现象会比较少",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 380,
+      "s": 175,
+      "start": 1002.11,
+      "end": 1002.81,
+      "text": "一点。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 381,
+      "s": 176,
+      "start": 1003.91,
+      "end": 1007.63,
+      "text": "以前有很多的所谓的劝酒词哈，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 382,
+      "s": 176,
+      "start": 1007.63,
+      "end": 1011.83,
+      "text": "比如说感情深一口闷，你听说过吗？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 383,
+      "s": 177,
+      "start": 1011.83,
+      "end": 1014.79,
+      "text": "意思就是说，如果我跟你感情深，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 384,
+      "s": 177,
+      "start": 1014.79,
+      "end": 1016.81,
+      "text": "我跟你交情比较好的话。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 385,
+      "s": 178,
+      "start": 1017.06,
+      "end": 1020.1,
+      "text": "你就要一口把这个酒给喝完，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 386,
+      "s": 178,
+      "start": 1020.1,
+      "end": 1022.68,
+      "text": "然后经常就会在酒桌上听到说啊，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 387,
+      "s": 178,
+      "start": 1022.68,
+      "end": 1024.09,
+      "text": "你跟我是不是兄弟？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 388,
+      "s": 179,
+      "start": 1024.12,
+      "end": 1026.6,
+      "text": "所以我觉得这种劝酒文化",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 389,
+      "s": 179,
+      "start": 1026.6,
+      "end": 1029.13,
+      "text": "真的是挺很难避免的。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 390,
+      "s": 180,
+      "start": 1029.14,
+      "end": 1031.58,
+      "text": "但像你说的，我觉得现在的改变",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 391,
+      "s": 180,
+      "start": 1031.58,
+      "end": 1035.36,
+      "text": "可能是从白酒变成了红酒，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 392,
+      "s": 181,
+      "start": 1035.36,
+      "end": 1037.16,
+      "text": "但这个也是一个会被",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 393,
+      "s": 181,
+      "start": 1037.16,
+      "end": 1039.34,
+      "text": "可能会对身身体更加好一点吧，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 394,
+      "s": 182,
+      "start": 1039.34,
+      "end": 1040.62,
+      "text": "至少。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 395,
+      "s": 183,
+      "start": 1040.8,
+      "end": 1042.3,
+      "text": "我觉得不光是酒的改变，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 396,
+      "s": 183,
+      "start": 1042.3,
+      "end": 1044.12,
+      "text": "我觉得是人的观念的改变。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 397,
+      "s": 184,
+      "start": 1044.15,
+      "end": 1046.45,
+      "text": "尤其是现在年轻人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 398,
+      "s": 184,
+      "start": 1046.45,
+      "end": 1049.53,
+      "text": "我觉得更多的啊会尊重别人。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 399,
+      "s": 185,
+      "start": 1049.53,
+      "end": 1051.91,
+      "text": "就是比如说，如果呃对方",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 400,
+      "s": 185,
+      "start": 1051.91,
+      "end": 1055.01,
+      "text": "他不喜欢喝酒，或者他不太能喝酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 401,
+      "s": 185,
+      "start": 1055.01,
+      "end": 1056.93,
+      "text": "并不会去强迫人家，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 402,
+      "s": 186,
+      "start": 1056.93,
+      "end": 1060.33,
+      "text": "也不会把喝酒啊喝不喝酒这个事情",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 403,
+      "s": 186,
+      "start": 1060.33,
+      "end": 1063.83,
+      "text": "看作是一个什么天大的事情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 404,
+      "s": 186,
+      "start": 1063.83,
+      "end": 1065.05,
+      "text": "你尊不尊重我？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 405,
+      "s": 187,
+      "start": 1065.19,
+      "end": 1066.51,
+      "text": "我觉得这也是因为",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 406,
+      "s": 187,
+      "start": 1066.51,
+      "end": 1069.69,
+      "text": "在以前啊就有这种新闻出来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 407,
+      "s": 187,
+      "start": 1069.69,
+      "end": 1071.03,
+      "text": "比如说什么劝酒。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 408,
+      "s": 188,
+      "start": 1071.18,
+      "end": 1072.98,
+      "text": "然后那个人一直喝一直喝，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 409,
+      "s": 188,
+      "start": 1072.98,
+      "end": 1074.64,
+      "text": "最后喝死了啊！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 410,
+      "s": 189,
+      "start": 1074.64,
+      "end": 1075.62,
+      "text": "出了这些事情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 411,
+      "s": 189,
+      "start": 1075.72,
+      "end": 1078.23,
+      "text": "我觉得也是经过了很多这种事情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 412,
+      "s": 189,
+      "start": 1078.26,
+      "end": 1080.9,
+      "text": "然后整个社会上，尤其是年轻人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 413,
+      "s": 190,
+      "start": 1080.9,
+      "end": 1083.56,
+      "text": "对于这样的现象有一个新的看",
+      "speaker": "B",
+      "u": 189,
+      "role": "storyteller"
+    },
+    {
+      "i": 414,
+      "s": 191,
+      "start": 1083.56,
+      "end": 1084.11,
+      "text": "法。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 415,
+      "s": 192,
+      "start": 1084.7,
+      "end": 1086.92,
+      "text": "那我们今天就先聊到这儿吧。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 416,
+      "s": 193,
+      "start": 1086.92,
+      "end": 1089.08,
+      "text": "我觉得，因为Cameron和我",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 417,
+      "s": 193,
+      "start": 1089.08,
+      "end": 1092.06,
+      "text": "都蛮久没有在国内工作了，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 418,
+      "s": 194,
+      "start": 1092.06,
+      "end": 1094.06,
+      "text": "所以我们说的其实都是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 419,
+      "s": 194,
+      "start": 1094.06,
+      "end": 1096.58,
+      "text": "可能对国内的所谓的职场文化。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 420,
+      "s": 195,
+      "start": 1096.86,
+      "end": 1099.18,
+      "text": "一些想象和刻板",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 421,
+      "s": 196,
+      "start": 1099.18,
+      "end": 1100.9,
+      "text": "印象，可能算刻板印",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 422,
+      "s": 197,
+      "start": 1100.9,
+      "end": 1101.24,
+      "text": "象。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 423,
+      "s": 198,
+      "start": 1101.4,
+      "end": 1103.86,
+      "text": "对，或者是从一些新闻啊",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 424,
+      "s": 198,
+      "start": 1103.86,
+      "end": 1106.58,
+      "text": "网上面听到的道听途说，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 425,
+      "s": 198,
+      "start": 1106.58,
+      "end": 1109.7,
+      "text": "不能代表中国的可能真实的",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 426,
+      "s": 198,
+      "start": 1109.7,
+      "end": 1111.8,
+      "text": "一些一些现在的情况。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 427,
+      "s": 199,
+      "start": 1111.8,
+      "end": 1111.94,
+      "text": "但是",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 428,
+      "s": 200,
+      "start": 1111.94,
+      "end": 1114.8,
+      "text": "我认为大概可以代表，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 429,
+      "s": 200,
+      "start": 1115.3,
+      "end": 1117.26,
+      "text": "大概可以代表刻板印象",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 430,
+      "s": 200,
+      "start": 1117.26,
+      "end": 1120.92,
+      "text": "还是有它的根源，还是有它的根据的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 431,
+      "s": 201,
+      "start": 1121.7,
+      "end": 1122.18,
+      "text": "那我最",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 432,
+      "s": 202,
+      "start": 1122.18,
+      "end": 1122.96,
+      "text": "后一个问题吧。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 433,
+      "s": 203,
+      "start": 1123.17,
+      "end": 1125.53,
+      "text": "你会不会考虑回国工作呢？",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 434,
+      "s": 204,
+      "start": 1126.21,
+      "end": 1126.61,
+      "text": "在",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 435,
+      "s": 205,
+      "start": 1126.61,
+      "end": 1130.11,
+      "text": "我的这个自己的这个行业来说，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 436,
+      "s": 205,
+      "start": 1130.21,
+      "end": 1133.33,
+      "text": "我可能现在会更倾向在国外，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 437,
+      "s": 206,
+      "start": 1133.33,
+      "end": 1137.49,
+      "text": "因为我以后最有可能的工作的场所",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 438,
+      "s": 206,
+      "start": 1137.49,
+      "end": 1139.76,
+      "text": "就是大学啊。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 439,
+      "s": 207,
+      "start": 1140.53,
+      "end": 1142.33,
+      "text": "然后国内的大学现在也是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 440,
+      "s": 207,
+      "start": 1142.33,
+      "end": 1144.33,
+      "text": "就是我们刚刚说的问题，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 441,
+      "s": 207,
+      "start": 1144.33,
+      "end": 1146.13,
+      "text": "竞争越来越激烈。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 442,
+      "s": 208,
+      "start": 1146.17,
+      "end": 1147.33,
+      "text": "我认为大学可能",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 443,
+      "s": 208,
+      "start": 1147.33,
+      "end": 1151.49,
+      "text": "比普通的这种公司。这一点还更严重，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 444,
+      "s": 209,
+      "start": 1151.75,
+      "end": 1154.93,
+      "text": "尤其是因为出国留学的人越来越多，",
+      "speaker": "B",
+      "u": 208,
+      "role": "storyteller"
+    },
+    {
+      "i": 445,
+      "s": 209,
+      "start": 1155.41,
+      "end": 1157.2,
+      "text": "高学历的人越来越多，",
+      "speaker": "B",
+      "u": 208,
+      "role": "storyteller"
+    },
+    {
+      "i": 446,
+      "s": 210,
+      "start": 1157.67,
+      "end": 1159.57,
+      "text": "然后大学就是很看重",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 447,
+      "s": 210,
+      "start": 1159.57,
+      "end": 1162.09,
+      "text": "你的学历和你的学校这种，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 448,
+      "s": 210,
+      "start": 1162.09,
+      "end": 1164.33,
+      "text": "所以第一竞争很大，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 449,
+      "s": 210,
+      "start": 1164.33,
+      "end": 1166.68,
+      "text": "第二压力也很大啊。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 450,
+      "s": 211,
+      "start": 1166.93,
+      "end": 1167.83,
+      "text": "然后我这个人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 451,
+      "s": 211,
+      "start": 1167.83,
+      "end": 1170.31,
+      "text": "是很看重压力大不大的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 452,
+      "s": 211,
+      "start": 1170.31,
+      "end": 1173.15,
+      "text": "我需要一个压力不大的环境，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 453,
+      "s": 211,
+      "start": 1173.15,
+      "end": 1175.81,
+      "text": "所以我个人还是更偏向于。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 454,
+      "s": 212,
+      "start": 1175.88,
+      "end": 1180.25,
+      "text": "以后可能在啊国外寻找到一个职位，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 455,
+      "s": 212,
+      "start": 1180.32,
+      "end": 1182.96,
+      "text": "不过那也还是过后",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 456,
+      "s": 212,
+      "start": 1182.96,
+      "end": 1184.38,
+      "text": "毕业了之后才能确定的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 457,
+      "s": 213,
+      "start": 1184.38,
+      "end": 1184.88,
+      "text": "事情。",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 458,
+      "s": 214,
+      "start": 1185.62,
+      "end": 1188.64,
+      "text": "嗯，好好好，好的，那谢谢你，",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 459,
+      "s": 214,
+      "start": 1188.64,
+      "end": 1191.72,
+      "text": "那我们下次再见，拜拜，拜拜。",
+      "speaker": "A",
+      "role": "narrator"
+    }
+  ]
+}

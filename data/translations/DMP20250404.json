@@ -1,0 +1,3610 @@
+{
+  "episode": "DMP20250404",
+  "summary": [
+    "Đây là một tập của Dashu Mandarin (大叔中文), podcast của ba \"ông chú\" dạy tiếng Trung: chú Ben, chú Tra (Richard) và chú Xán. Họ mở đầu bằng giọng robot, vì chủ đề hôm nay là AI: AI có thay được giáo viên tiếng Trung không?",
+    "Chú Ben cho rằng AI làm được 80–90% việc của giáo viên, như sửa câu ngay khi bạn nói sai, đặt câu, giải thích hai từ khác nhau chỗ nào, nhưng không cho được \"giá trị cảm xúc\": sự đồng cảm và lời động viên của một người thật. Chú Tra kể học viên của mình thích nói chuyện với chatbot Doubao hơn, vì nói ba tiếng cũng không mất tiền, và thấy DeepSeek viết hay đến mức có thể thành \"Shakespeare của giới AI\". Chú Xán phản bác: nếu học hết sách vở là thành nhà văn lớn thì sao thế giới chỉ có một Shakespeare; AI giỏi ở mảng khoa học kỹ thuật, còn thầy cô thì dạy cả cách làm người.",
+    "Chú Tra đặt ra hai tình huống: một ngôi trường chỉ có giáo viên AI, các chú có cho con đi học không; và ba \"ông chú AI\" làm podcast thay họ. Chú Xán nhất quyết không tin trường học bỏ được con người, còn chú Tra lấy ví dụ thẻ tín dụng ở Đài Loan từng bị chuyên gia cho là không thể phổ biến. Cuối tập, chú Tra nói thật lòng là AI thay được giáo viên, rồi nhờ mọi người bình luận rằng ba chú không thể bị thay thế, dù chính chú cũng thấy chột dạ khi nói vậy."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "大家好，我们是大大叔中文文哦。",
+      "vi": "Chào mọi người, chúng tôi là… là Dashu Mandarin đây."
+    },
+    "1": {
+      "zh": "我们今天的声音有一点机械化，怎么回事？",
+      "parts": [
+        {
+          "zh": "我们今天的声音有一点机械化，",
+          "vi": "Hôm nay giọng tụi mình nghe hơi giống máy,"
+        },
+        {
+          "zh": "怎么回事？",
+          "vi": "chuyện gì vậy?"
+        }
+      ]
+    },
+    "2": {
+      "zh": "大叔中文文聊跟",
+      "vi": "Dashu Mandarin hôm nay nói chuyện liên quan"
+    },
+    "3": {
+      "zh": "机器人有关的吗？",
+      "vi": "đến robot à?"
+    },
+    "4": {
+      "zh": "对，呃，最近很火的话题就是中国的DeepSeek，对不对？",
+      "parts": [
+        {
+          "zh": "对，呃，最近很火的话题就是",
+          "vi": "Đúng, ờ, chủ đề đang rất hot gần đây là"
+        },
+        {
+          "zh": "中国的DeepSeek，对不对？",
+          "vi": "DeepSeek của Trung Quốc, đúng không?"
+        }
+      ]
+    },
+    "5": {
+      "zh": "嗯。",
+      "vi": "Ừ."
+    },
+    "6": {
+      "zh": "然后呃，就是这种AI的",
+      "vi": "Rồi ờ, kiểu AI này"
+    },
+    "7": {
+      "zh": "发明好像越来越多了，法国。",
+      "vi": "phát minh hình như ngày càng nhiều rồi, Pháp"
+    },
+    "8": {
+      "zh": "也在研究AI市场嘛，对不对？",
+      "vi": "cũng đang nghiên cứu thị trường AI mà, đúng không?"
+    },
+    "9": {
+      "zh": "所以我觉得AI这么流行的话题，我们怎么可以错过呢？",
+      "parts": [
+        {
+          "zh": "所以我觉得AI这么流行的话题，",
+          "vi": "Nên tôi thấy một chủ đề AI thịnh hành như vậy,"
+        },
+        {
+          "zh": "我们怎么可以错过呢？",
+          "vi": "tụi mình sao bỏ lỡ được?"
+        }
+      ]
+    },
+    "10": {
+      "zh": "我们要蹭热点，蹭热点啊！",
+      "vi": "Tụi mình phải ăn theo chủ đề nóng, ăn theo chủ đề nóng chứ!"
+    },
+    "11": {
+      "zh": "然后我们就跟咱们啊做个关联好了啊，就是你们觉得AI可以取代咱们吗？",
+      "parts": [
+        {
+          "zh": "然后我们就跟咱们啊",
+          "vi": "Rồi tụi mình lấy chính tụi mình ra"
+        },
+        {
+          "zh": "做个关联好了啊，",
+          "vi": "để liên hệ luôn nhé,"
+        },
+        {
+          "zh": "就是你们觉得AI可以取代咱们吗？",
+          "vi": "tức là các anh thấy AI có thay được tụi mình không?"
+        }
+      ]
+    },
+    "12": {
+      "zh": "AI可以取代取代我们",
+      "vi": "AI có thể thay thế, thay thế tụi mình"
+    },
+    "13": {
+      "zh": "三个零吗？",
+      "vi": "ba con số không à?"
+    },
+    "14": {
+      "zh": "还是取代中文老师？",
+      "vi": "Hay là thay giáo viên tiếng Trung?"
+    },
+    "15": {
+      "zh": "好，那这个我觉得这个话题蛮有意思的。",
+      "parts": [
+        {
+          "zh": "好，那这个我觉得",
+          "vi": "Được, vậy thì tôi thấy"
+        },
+        {
+          "zh": "这个话题蛮有意思的。",
+          "vi": "chủ đề này khá thú vị."
+        }
+      ]
+    },
+    "16": {
+      "zh": "我们先听听Ben叔的想法好了，因为他刚睡醒，清醒一下，要有点",
+      "parts": [
+        {
+          "zh": "我们先听听Ben叔的想法好了，",
+          "vi": "Tụi mình nghe ý kiến của chú Ben trước đi,"
+        },
+        {
+          "zh": "因为他刚睡醒，清醒一下，要有点",
+          "vi": "vì anh ấy vừa ngủ dậy, cho tỉnh táo một chút, phải có chút"
+        }
+      ]
+    },
+    "17": {
+      "zh": "危机感哦。",
+      "vi": "cảm giác nguy cơ chứ."
+    },
+    "18": {
+      "zh": "对，汗流浃背。",
+      "vi": "Đúng, mồ hôi đầm đìa luôn."
+    },
+    "19": {
+      "zh": "Ben叔，你觉得AI会不会取代中文老师？",
+      "parts": [
+        {
+          "zh": "Ben叔，你觉得",
+          "vi": "Chú Ben, anh thấy"
+        },
+        {
+          "zh": "AI会不会取代中文老师？",
+          "vi": "AI có thay thế giáo viên tiếng Trung không?"
+        }
+      ]
+    },
+    "20": {
+      "zh": "嗯嗯，我觉得很有意思的问题。",
+      "vi": "Ừm ừm, tôi thấy là câu hỏi rất thú vị."
+    },
+    "21": {
+      "zh": "我是觉得可以取代中文老师上课做的百分之八十到百分之九十的事情，那很多呢，",
+      "parts": [
+        {
+          "zh": "我是觉得可以取代中文老师",
+          "vi": "Tôi thì thấy nó có thể thay giáo viên tiếng Trung"
+        },
+        {
+          "zh": "上课做的百分之八十",
+          "vi": "ở 80% những việc làm trên lớp"
+        },
+        {
+          "zh": "到百分之九十的事情，那很多呢，",
+          "vi": "cho đến 90% luôn, thế là nhiều đấy,"
+        }
+      ]
+    },
+    "22": {
+      "zh": "但是不能完全取代啊。",
+      "vi": "nhưng không thể thay thế hoàn toàn đâu."
+    },
+    "23": {
+      "zh": "嗯嗯，比如现在现在我看YouTube视频，然后。",
+      "vi": "Ừm ừm, ví dụ bây giờ, bây giờ tôi xem video YouTube, rồi thì."
+    },
+    "24": {
+      "zh": "就广告啊，就是都是一个人跟AI在聊天儿，然后你你说错了，",
+      "parts": [
+        {
+          "zh": "就广告啊，就是都是",
+          "vi": "Thì quảng cáo đó, toàn là"
+        },
+        {
+          "zh": "一个人跟AI在聊天儿，",
+          "vi": "một người đang trò chuyện với AI,"
+        },
+        {
+          "zh": "然后你你说错了，",
+          "vi": "rồi bạn, bạn nói sai,"
+        }
+      ]
+    },
+    "25": {
+      "zh": "然后然后AI马上就告诉你正确的句子，然后在一个聊天的那种感觉中来纠正你。",
+      "parts": [
+        {
+          "zh": "然后然后AI马上",
+          "vi": "rồi rồi AI lập tức"
+        },
+        {
+          "zh": "就告诉你正确的句子，",
+          "vi": "nói cho bạn câu đúng,"
+        },
+        {
+          "zh": "然后在一个聊天的",
+          "vi": "rồi cứ như đang trò chuyện,"
+        },
+        {
+          "zh": "那种感觉中来纠正你。",
+          "vi": "trong cảm giác đó mà sửa lỗi cho bạn."
+        }
+      ]
+    },
+    "26": {
+      "zh": "其实中文老师不是上课也是做这种这样的事情，嗯，就是用中文纠正中文，",
+      "parts": [
+        {
+          "zh": "其实中文老师不是上课",
+          "vi": "Thật ra giáo viên tiếng Trung lên lớp chẳng phải"
+        },
+        {
+          "zh": "也是做这种这样的事情，嗯，",
+          "vi": "cũng làm những việc như thế này sao, ừm,"
+        },
+        {
+          "zh": "就是用中文纠正中文，",
+          "vi": "tức là dùng tiếng Trung để sửa tiếng Trung,"
+        }
+      ]
+    },
+    "27": {
+      "zh": "然后会就是我看那个视频的时候，现在他AI的那个人物的形象也做的比较真真人了。",
+      "parts": [
+        {
+          "zh": "然后会就是我看那个视频的时候，",
+          "vi": "Rồi thì lúc tôi xem cái video đó,"
+        },
+        {
+          "zh": "现在他AI的那个人物的形象",
+          "vi": "giờ hình ảnh nhân vật AI ấy"
+        },
+        {
+          "zh": "也做的比较真真人了。",
+          "vi": "cũng làm khá giống người thật rồi."
+        }
+      ]
+    },
+    "28": {
+      "zh": "对，比我们还帅，没有那种恐怖谷效应。",
+      "vi": "Đúng, còn đẹp trai hơn tụi mình, không có cái hiệu ứng thung lũng kỳ lạ."
+    },
+    "29": {
+      "zh": "现在对你还可以选自己感兴趣的AI的脸，嗯，那个动力也蛮有的。",
+      "parts": [
+        {
+          "zh": "现在对你还可以选",
+          "vi": "Giờ bạn còn có thể chọn"
+        },
+        {
+          "zh": "自己感兴趣的AI的脸，嗯，",
+          "vi": "khuôn mặt AI mà mình thích, ừm,"
+        },
+        {
+          "zh": "那个动力也蛮有的。",
+          "vi": "nên động lực cũng khá nhiều."
+        }
+      ]
+    },
+    "30": {
+      "zh": "我觉得比比跟大叔上课应该有意思吧？",
+      "parts": [
+        {
+          "zh": "我觉得比比跟大叔上课",
+          "vi": "Tôi thấy so với học với mấy ông chú"
+        },
+        {
+          "zh": "应该有意思吧？",
+          "vi": "chắc là thú vị hơn nhỉ?"
+        }
+      ]
+    },
+    "31": {
+      "zh": "看，然后另外就是我觉得现在呃AI真的可以创作各种各样的材料，比如嗯你学了十个词，",
+      "parts": [
+        {
+          "zh": "看，然后另外就是我觉得",
+          "vi": "Đó, rồi ngoài ra tôi thấy là"
+        },
+        {
+          "zh": "现在呃AI真的可以",
+          "vi": "giờ ờ AI thật sự có thể"
+        },
+        {
+          "zh": "创作各种各样的材料，",
+          "vi": "tạo ra đủ loại tài liệu,"
+        },
+        {
+          "zh": "比如嗯你学了十个词，",
+          "vi": "ví dụ ừm bạn học 10 từ,"
+        }
+      ]
+    },
+    "32": {
+      "zh": "你让AI用十个词写一个故事啊，对，然后或者是呃你让AI做一个。",
+      "parts": [
+        {
+          "zh": "你让AI用十个词写一个故事啊，对，",
+          "vi": "bạn bảo AI dùng 10 từ đó viết một câu chuyện, đúng,"
+        },
+        {
+          "zh": "然后或者是呃你让AI做一个。",
+          "vi": "rồi hoặc là ờ bạn bảo AI làm một."
+        }
+      ]
+    },
+    "33": {
+      "zh": "完形填空的题，嗯，或者是给你造句，给你解释到底这两个词的意思有什么不同。",
+      "parts": [
+        {
+          "zh": "完形填空的题，嗯，或者是给你造句，",
+          "vi": "bài điền từ vào chỗ trống, ừm, hoặc đặt câu cho bạn,"
+        },
+        {
+          "zh": "给你解释到底这两个词的意思",
+          "vi": "giải thích cho bạn rốt cuộc nghĩa hai từ này"
+        },
+        {
+          "zh": "有什么不同。",
+          "vi": "khác nhau chỗ nào."
+        }
+      ]
+    },
+    "34": {
+      "zh": "有时候可能老师被问到问题的时候不能够想的那么全面，对对对吧？",
+      "parts": [
+        {
+          "zh": "有时候可能老师被问到问题的时候",
+          "vi": "Có lúc giáo viên khi bị hỏi"
+        },
+        {
+          "zh": "不能够想的那么全面，对对对吧？",
+          "vi": "không nghĩ được toàn diện như thế, đúng đúng không?"
+        }
+      ]
+    },
+    "35": {
+      "zh": "对，那个AI可能就直接给你更具体的分析，然后你比如说你还是不懂，",
+      "parts": [
+        {
+          "zh": "对，那个AI可能就直接",
+          "vi": "Đúng, AI thì có thể trực tiếp"
+        },
+        {
+          "zh": "给你更具体的分析，",
+          "vi": "cho bạn phân tích cụ thể hơn,"
+        },
+        {
+          "zh": "然后你比如说你还是不懂，",
+          "vi": "rồi nếu ví dụ bạn vẫn chưa hiểu,"
+        }
+      ]
+    },
+    "36": {
+      "zh": "它立马就可以给你举出更多的例子。",
+      "vi": "nó lập tức có thể đưa ra thêm nhiều ví dụ."
+    },
+    "37": {
+      "zh": "嗯嗯，就我觉得可能。",
+      "vi": "Ừm ừm, tôi thấy có lẽ."
+    },
+    "38": {
+      "zh": "一个真人老师有时候对可能没没没办法反应过来，",
+      "parts": [
+        {
+          "zh": "一个真人老师有时候",
+          "vi": "một giáo viên thật đôi khi"
+        },
+        {
+          "zh": "对可能没没没办法反应过来，",
+          "vi": "ừ có thể không, không kịp phản ứng,"
+        }
+      ]
+    },
+    "39": {
+      "zh": "可能你下课之后觉得哎刚才我如果是那么讲的话，嗯嗯可能会那么解释可能会更好啊。",
+      "parts": [
+        {
+          "zh": "可能你下课之后觉得哎",
+          "vi": "có khi tan lớp rồi bạn mới nghĩ, ơ,"
+        },
+        {
+          "zh": "刚才我如果是那么讲的话，嗯嗯",
+          "vi": "lúc nãy nếu mình nói thế này, ừm ừm,"
+        },
+        {
+          "zh": "可能会那么解释可能会更好啊。",
+          "vi": "giải thích thế kia có khi lại hay hơn."
+        }
+      ]
+    },
+    "40": {
+      "zh": "对，所以很难说，但是我觉得有一些呃情绪价值的东西可能会中文老师在课上给得了，",
+      "parts": [
+        {
+          "zh": "对，所以很难说，但是我觉得",
+          "vi": "Đúng, nên khó nói lắm, nhưng tôi thấy"
+        },
+        {
+          "zh": "有一些呃情绪价值的东西",
+          "vi": "có những thứ ờ thuộc về giá trị cảm xúc"
+        },
+        {
+          "zh": "可能会中文老师在课上给得了，",
+          "vi": "thì giáo viên tiếng Trung trên lớp cho được,"
+        }
+      ]
+    },
+    "41": {
+      "zh": "但是那个AI给不了。",
+      "vi": "còn AI thì không cho được."
+    },
+    "42": {
+      "zh": "比如说你真的跟学生产生共鸣的时候，你分享你的真实的想法。",
+      "parts": [
+        {
+          "zh": "比如说你真的跟学生产生共鸣",
+          "vi": "Ví dụ khi bạn thật sự đồng cảm với học viên,"
+        },
+        {
+          "zh": "的时候，你分享你的真实的想法。",
+          "vi": "lúc đó bạn chia sẻ suy nghĩ thật của mình."
+        }
+      ]
+    },
+    "43": {
+      "zh": "你你做一个，就是把老师的面具拿下去，然后你分享你的这个自己的观点。",
+      "parts": [
+        {
+          "zh": "你你做一个，就是",
+          "vi": "Bạn, bạn làm một, tức là"
+        },
+        {
+          "zh": "把老师的面具拿下去，",
+          "vi": "bỏ chiếc mặt nạ giáo viên xuống,"
+        },
+        {
+          "zh": "然后你分享你的这个自己的观点。",
+          "vi": "rồi chia sẻ quan điểm của chính mình."
+        }
+      ]
+    },
+    "44": {
+      "zh": "这这些或者是你去呃激励学生去呃你的激励就不像机器人给的激励。",
+      "parts": [
+        {
+          "zh": "这这些或者是你去呃激励学生去呃",
+          "vi": "Những điều này, hoặc khi bạn ờ động viên học viên, ờ,"
+        },
+        {
+          "zh": "你的激励就不像机器人给的激励。",
+          "vi": "sự động viên của bạn không giống động viên của robot."
+        }
+      ]
+    },
+    "45": {
+      "zh": "你知道AI它是一个假的东西，但是如如果一个真人老师把激励给到学生，",
+      "parts": [
+        {
+          "zh": "你知道AI它是一个假的东西，",
+          "vi": "Bạn biết AI là một thứ giả,"
+        },
+        {
+          "zh": "但是如如果一个真人老师",
+          "vi": "nhưng nếu, nếu một giáo viên thật"
+        },
+        {
+          "zh": "把激励给到学生，",
+          "vi": "động viên học viên,"
+        }
+      ]
+    },
+    "46": {
+      "zh": "这个学生是可以感受到的。",
+      "vi": "thì học viên đó cảm nhận được."
+    },
+    "47": {
+      "zh": "对，所以所以我是这么觉得：百分之九十老师做的事情AI可以做，",
+      "parts": [
+        {
+          "zh": "对，所以所以我是这么觉得：",
+          "vi": "Đúng, nên, nên tôi nghĩ thế này:"
+        },
+        {
+          "zh": "百分之九十老师做的事情",
+          "vi": "90% việc giáo viên làm"
+        },
+        {
+          "zh": "AI可以做，",
+          "vi": "AI làm được,"
+        }
+      ]
+    },
+    "48": {
+      "zh": "但是那百分之十人的那种从人性角度对嗯出发的东西是取代不了的。",
+      "parts": [
+        {
+          "zh": "但是那百分之十人的那种",
+          "vi": "nhưng 10% còn lại, cái chất con người,"
+        },
+        {
+          "zh": "从人性角度对嗯出发的东西",
+          "vi": "những thứ xuất phát từ góc độ nhân tính, ừm,"
+        },
+        {
+          "zh": "是取代不了的。",
+          "vi": "thì không thay thế được."
+        }
+      ]
+    },
+    "49": {
+      "zh": "嗯，对，这是看我说完你们还还能补充吗？",
+      "parts": [
+        {
+          "zh": "嗯，对，这是看我说完",
+          "vi": "Ừm, đúng, đó, tôi nói xong rồi,"
+        },
+        {
+          "zh": "你们还还能补充吗？",
+          "vi": "các anh còn, còn bổ sung gì không?"
+        }
+      ]
+    },
+    "50": {
+      "zh": "其实呃，其实Ben叔Ben叔聊到这里，我就真的觉得现在的AI真的是超级无敌厉害。",
+      "parts": [
+        {
+          "zh": "其实呃，其实Ben叔Ben叔",
+          "vi": "Thật ra ờ, thật ra chú Ben, chú Ben"
+        },
+        {
+          "zh": "聊到这里，我就真的觉得",
+          "vi": "nói tới đây, tôi thật sự thấy"
+        },
+        {
+          "zh": "现在的AI真的是超级无敌厉害。",
+          "vi": "AI bây giờ đúng là đỉnh, không ai bằng."
+        }
+      ]
+    },
+    "51": {
+      "zh": "对，嗯，就是我上次推荐我的学生跟豆包聊天。",
+      "parts": [
+        {
+          "zh": "对，嗯，就是我上次推荐我的学生",
+          "vi": "Đúng, ừm, lần trước tôi giới thiệu học viên của mình"
+        },
+        {
+          "zh": "跟豆包聊天。",
+          "vi": "trò chuyện với Doubao."
+        }
+      ]
+    },
+    "52": {
+      "zh": "嗯嗯哇，他说老师跟豆包聊天比跟你聊天还好，因为他跟豆包可以聊三个小时。",
+      "parts": [
+        {
+          "zh": "嗯嗯哇，他说老师跟豆包聊天",
+          "vi": "Ừm ừm, oa, học viên đó bảo thầy ơi, nói chuyện với Doubao"
+        },
+        {
+          "zh": "比跟你聊天还好，",
+          "vi": "còn hay hơn nói chuyện với thầy,"
+        },
+        {
+          "zh": "因为他跟豆包可以聊三个小时。",
+          "vi": "vì em có thể nói chuyện với Doubao ba tiếng liền."
+        }
+      ]
+    },
+    "53": {
+      "zh": "是老师如果我跟你聊三个小时，哇那个学费好贵哦。",
+      "parts": [
+        {
+          "zh": "是老师如果我跟你聊三个小时，",
+          "vi": "Phải đó thầy, nếu em nói chuyện với thầy ba tiếng,"
+        },
+        {
+          "zh": "哇那个学费好贵哦。",
+          "vi": "oa, học phí đắt lắm."
+        }
+      ]
+    },
+    "54": {
+      "zh": "嗯，所以我觉得就是那个AI的第一个优势就是免费，嗯，",
+      "parts": [
+        {
+          "zh": "嗯，所以我觉得就是",
+          "vi": "Ừm, nên tôi thấy"
+        },
+        {
+          "zh": "那个AI的第一个优势就是免费，嗯，",
+          "vi": "ưu thế đầu tiên của AI là miễn phí, ừm,"
+        }
+      ]
+    },
+    "55": {
+      "zh": "然后随时随地你不需要去配合老师的时时间表，嗯，然后还有就是像Ben叔刚刚说的那个效率。",
+      "parts": [
+        {
+          "zh": "然后随时随地你不需要",
+          "vi": "rồi lúc nào ở đâu cũng được, bạn không cần"
+        },
+        {
+          "zh": "去配合老师的时时间表，嗯，",
+          "vi": "chiều theo thời gian biểu của giáo viên, ừm,"
+        },
+        {
+          "zh": "然后还有就是",
+          "vi": "rồi còn nữa là"
+        },
+        {
+          "zh": "像Ben叔刚刚说的那个效率。",
+          "vi": "cái hiệu quả như chú Ben vừa nói."
+        }
+      ]
+    },
+    "56": {
+      "zh": "比如说，学生可能会有问题，呃，请问突然跟忽然有什么不同？",
+      "parts": [
+        {
+          "zh": "比如说，学生可能会有问题，呃，",
+          "vi": "Ví dụ, học viên có thể có câu hỏi, ờ,"
+        },
+        {
+          "zh": "请问突然跟忽然有什么不同？",
+          "vi": "xin hỏi 突然 với 忽然 khác nhau thế nào?"
+        }
+      ]
+    },
+    "57": {
+      "zh": "可能我们身为不不是那么足够专业的中文老师的时候，你可能还会吓呆了，答不出来。",
+      "parts": [
+        {
+          "zh": "可能我们身为不不是那么",
+          "vi": "Có khi tụi mình là giáo viên tiếng Trung không, không"
+        },
+        {
+          "zh": "足够专业的中文老师的时候，",
+          "vi": "đủ chuyên môn lắm, thì"
+        },
+        {
+          "zh": "你可能还会吓呆了，答不出来。",
+          "vi": "có khi bạn còn đứng hình, không trả lời được."
+        }
+      ]
+    },
+    "58": {
+      "zh": "但是，嗯，AI可以在可能十秒内给你非常好的答案，还加例句、拼音还有英文翻译。",
+      "parts": [
+        {
+          "zh": "但是，嗯，AI可以在可能十秒内",
+          "vi": "Nhưng mà, ừm, AI có thể trong khoảng 10 giây"
+        },
+        {
+          "zh": "给你非常好的答案，",
+          "vi": "cho bạn câu trả lời rất hay,"
+        },
+        {
+          "zh": "还加例句、拼音还有英文翻译。",
+          "vi": "còn kèm câu ví dụ, pinyin và bản dịch tiếng Anh."
+        }
+      ]
+    },
+    "59": {
+      "zh": "啥用？",
+      "vi": "Để làm gì?"
+    },
+    "60": {
+      "zh": "对，中文老师可以这么快给你拼音例句还有英文翻译吗？",
+      "parts": [
+        {
+          "zh": "对，中文老师可以这么快",
+          "vi": "Đúng, giáo viên tiếng Trung có thể nhanh như thế"
+        },
+        {
+          "zh": "给你拼音例句还有英文翻译吗？",
+          "vi": "đưa cho bạn pinyin, câu ví dụ với bản dịch tiếng Anh không?"
+        }
+      ]
+    },
+    "61": {
+      "zh": "是不太可能的，甚至他没有办法，不够专业的中文老师没有办法告诉你某些词汇的差异跟不同。",
+      "parts": [
+        {
+          "zh": "是不太可能的，甚至他没有办法，",
+          "vi": "Khó mà được, thậm chí họ còn không có cách,"
+        },
+        {
+          "zh": "不够专业的中文老师没有办法告诉你某些词汇的差异跟不同。",
+          "vi": "giáo viên tiếng Trung không đủ chuyên môn thì không cách nào chỉ cho bạn sự khác biệt giữa một số từ."
+        }
+      ]
+    },
+    "62": {
+      "zh": "嗯嗯，所以在这点方面，我觉得AI真的是完全胜出。",
+      "parts": [
+        {
+          "zh": "嗯嗯，所以在这点方面，",
+          "vi": "Ừm ừm, nên ở điểm này,"
+        },
+        {
+          "zh": "我觉得AI真的是完全胜出。",
+          "vi": "tôi thấy AI thật sự thắng tuyệt đối."
+        }
+      ]
+    },
+    "63": {
+      "zh": "更何况现在的AI，我认为还没有发展到顶点。",
+      "parts": [
+        {
+          "zh": "更何况现在的AI，",
+          "vi": "Huống chi AI bây giờ,"
+        },
+        {
+          "zh": "我认为还没有发展到顶点。",
+          "vi": "tôi nghĩ vẫn chưa phát triển tới đỉnh."
+        }
+      ]
+    },
+    "64": {
+      "zh": "对，嗯，所以它可能有些表达还不够母语化，不够可能还有一些语法错误什么的。",
+      "parts": [
+        {
+          "zh": "对，嗯，所以它可能有些表达",
+          "vi": "Đúng, ừm, nên có thể một số cách diễn đạt của nó"
+        },
+        {
+          "zh": "还不够母语化，",
+          "vi": "chưa tự nhiên như người bản ngữ,"
+        },
+        {
+          "zh": "不够可能还有一些语法错误什么的。",
+          "vi": "chưa đủ, có thể còn vài lỗi ngữ pháp gì đó."
+        }
+      ]
+    },
+    "65": {
+      "zh": "但是基本上我们都可以接受了哦。",
+      "vi": "Nhưng về cơ bản tụi mình đều chấp nhận được rồi."
+    },
+    "66": {
+      "zh": "所以我觉得现在的AI，你你把你给AI一千个就是中文老师上课的那个。录播课的视频，我觉得AI自己也也会学习和把自己训练成就是那个真人老师的样子。",
+      "parts": [
+        {
+          "zh": "所以我觉得现在的AI，",
+          "vi": "Nên tôi thấy AI bây giờ,"
+        },
+        {
+          "zh": "你你把你给AI一千个就是",
+          "vi": "bạn, bạn đưa cho AI một nghìn cái"
+        },
+        {
+          "zh": "中文老师上课的那个。录播课的视频，",
+          "vi": "video bài giảng quay sẵn của giáo viên tiếng Trung,"
+        },
+        {
+          "zh": "我觉得AI自己也也会学习",
+          "vi": "tôi thấy AI tự nó cũng, cũng sẽ học"
+        },
+        {
+          "zh": "和把自己训练成就是",
+          "vi": "và tự luyện mình thành"
+        },
+        {
+          "zh": "那个真人老师的样子。",
+          "vi": "đúng dáng vẻ của giáo viên thật ấy."
+        }
+      ]
+    },
+    "68": {
+      "zh": "我觉得这个，我觉得现在AI越来越厉害了，甚至我最近啊可能在写些文章，",
+      "parts": [
+        {
+          "zh": "我觉得这个，我觉得现在AI",
+          "vi": "Tôi thấy cái này, tôi thấy AI bây giờ"
+        },
+        {
+          "zh": "越来越厉害了，",
+          "vi": "ngày càng lợi hại,"
+        },
+        {
+          "zh": "甚至我最近啊可能在写些文章，",
+          "vi": "thậm chí dạo này tôi có viết vài bài,"
+        }
+      ]
+    },
+    "69": {
+      "zh": "我需要一些灵感，嗯，我就请那个DeepSeek给我一些灵感。",
+      "parts": [
+        {
+          "zh": "我需要一些灵感，嗯，我就请那个",
+          "vi": "tôi cần chút cảm hứng, ừm, nên tôi nhờ"
+        },
+        {
+          "zh": "DeepSeek给我一些灵感。",
+          "vi": "DeepSeek cho tôi ít cảm hứng."
+        }
+      ]
+    },
+    "70": {
+      "zh": "哇，他写的那个文句之之美啊，有些那个表达我自己都没有想到，所以我就会觉得说天哪！",
+      "parts": [
+        {
+          "zh": "哇，他写的那个文句之之美啊，",
+          "vi": "Oa, câu chữ nó viết đẹp lắm,"
+        },
+        {
+          "zh": "有些那个表达我自己都没有想到，",
+          "vi": "có những cách diễn đạt chính tôi còn không nghĩ ra,"
+        },
+        {
+          "zh": "所以我就会觉得说天哪！",
+          "vi": "nên tôi thấy, trời ơi!"
+        }
+      ]
+    },
+    "71": {
+      "zh": "那以后它不要说取代中文老师而已，它可以取代作家，",
+      "parts": [
+        {
+          "zh": "那以后它不要说取代中文老师而已，",
+          "vi": "Vậy sau này nó đâu chỉ thay giáo viên tiếng Trung,"
+        },
+        {
+          "zh": "它可以取代作家，",
+          "vi": "nó còn thay được nhà văn,"
+        }
+      ]
+    },
+    "72": {
+      "zh": "它可以变成AI界的莎士比亚或AI界的鲁迅哦，因为它的文字也很优美，",
+      "parts": [
+        {
+          "zh": "它可以变成AI界的莎士比亚",
+          "vi": "nó có thể thành Shakespeare của giới AI"
+        },
+        {
+          "zh": "或AI界的鲁迅哦，",
+          "vi": "hay Lỗ Tấn của giới AI đấy,"
+        },
+        {
+          "zh": "因为它的文字也很优美，",
+          "vi": "vì văn của nó cũng rất đẹp,"
+        }
+      ]
+    },
+    "73": {
+      "zh": "我都不晓得它怎么来的。",
+      "vi": "tôi cũng chẳng biết nó lấy đâu ra."
+    },
+    "74": {
+      "zh": "对这个这点我也考虑过了，因为就是像你说，我们想写东西，",
+      "parts": [
+        {
+          "zh": "对这个这点我也考虑过了，",
+          "vi": "Đúng, điểm này tôi cũng nghĩ tới rồi,"
+        },
+        {
+          "zh": "因为就是像你说，我们想写东西，",
+          "vi": "vì như anh nói, tụi mình muốn viết gì đó,"
+        }
+      ]
+    },
+    "75": {
+      "zh": "有时候也想试一下AI能不能写出那种状态来。",
+      "parts": [
+        {
+          "zh": "有时候也想试一下",
+          "vi": "có lúc cũng muốn thử xem"
+        },
+        {
+          "zh": "AI能不能写出那种状态来。",
+          "vi": "AI có viết ra được cái trạng thái đó không."
+        }
+      ]
+    },
+    "76": {
+      "zh": "能不能写？",
+      "vi": "Viết được không?"
+    },
+    "77": {
+      "zh": "但说实话，就是我也会考虑另外一个问题，要假如AI因为AI它是通过学习。",
+      "parts": [
+        {
+          "zh": "但说实话，就是我也会考虑",
+          "vi": "Nhưng nói thật, tôi cũng nghĩ tới"
+        },
+        {
+          "zh": "另外一个问题，",
+          "vi": "một vấn đề khác,"
+        },
+        {
+          "zh": "要假如AI因为AI它是通过学习。",
+          "vi": "nếu AI, vì AI là học"
+        }
+      ]
+    },
+    "78": {
+      "zh": "然后总结出一些东西，但是假如我只是通过我把所有既往的东西学来，",
+      "parts": [
+        {
+          "zh": "然后总结出一些东西，",
+          "vi": "rồi đúc kết ra một số thứ,"
+        },
+        {
+          "zh": "但是假如我只是通过",
+          "vi": "nhưng nếu tôi chỉ cần"
+        },
+        {
+          "zh": "我把所有既往的东西学来，",
+          "vi": "học hết mọi thứ đã có từ trước,"
+        }
+      ]
+    },
+    "79": {
+      "zh": "我就能成为一个很好的一个作家的话，那说实话，为什么历史上作家真正有名的、",
+      "parts": [
+        {
+          "zh": "我就能成为一个很好的",
+          "vi": "là tôi đã có thể thành một"
+        },
+        {
+          "zh": "一个作家的话，那说实话，",
+          "vi": "nhà văn rất giỏi, thì nói thật,"
+        },
+        {
+          "zh": "为什么历史上作家真正有名的、",
+          "vi": "sao trong lịch sử những nhà văn thật sự nổi tiếng,"
+        }
+      ]
+    },
+    "80": {
+      "zh": "真正厉害的这么少？",
+      "vi": "thật sự giỏi lại ít như vậy?"
+    },
+    "81": {
+      "zh": "嗯，说实话，很多人的阅读量并不少，很多人都特别喜欢阅读，吸收能力也很强，",
+      "parts": [
+        {
+          "zh": "嗯，说实话，很多人的阅读量并不少，",
+          "vi": "Ừm, nói thật, nhiều người đọc không ít,"
+        },
+        {
+          "zh": "很多人都特别喜欢阅读，",
+          "vi": "nhiều người rất thích đọc,"
+        },
+        {
+          "zh": "吸收能力也很强，",
+          "vi": "khả năng tiếp thu cũng rất mạnh,"
+        }
+      ]
+    },
+    "82": {
+      "zh": "但真正让他区别于他人之处的地方肯定在哪里呢？",
+      "parts": [
+        {
+          "zh": "但真正让他区别于他人之处的地方",
+          "vi": "nhưng điều thật sự khiến họ khác người khác"
+        },
+        {
+          "zh": "肯定在哪里呢？",
+          "vi": "chắc chắn nằm ở đâu?"
+        }
+      ]
+    },
+    "83": {
+      "zh": "为什么这个世界上只有一个莎士比亚，只有一个托尔斯泰？",
+      "parts": [
+        {
+          "zh": "为什么这个世界上",
+          "vi": "Tại sao thế giới này"
+        },
+        {
+          "zh": "只有一个莎士比亚，",
+          "vi": "chỉ có một Shakespeare,"
+        },
+        {
+          "zh": "只有一个托尔斯泰？",
+          "vi": "chỉ có một Tolstoy?"
+        }
+      ]
+    },
+    "84": {
+      "zh": "那么说实话，同一代的有那么多人，那么多很厉害的人也学习，",
+      "parts": [
+        {
+          "zh": "那么说实话，同一代的有那么多人，",
+          "vi": "Thì nói thật, cùng một thế hệ có biết bao người,"
+        },
+        {
+          "zh": "那么多很厉害的人也学习，",
+          "vi": "biết bao người rất giỏi cũng học,"
+        }
+      ]
+    },
+    "85": {
+      "zh": "他们可能学习效率未必有AI那么好。",
+      "parts": [
+        {
+          "zh": "他们可能学习效率",
+          "vi": "hiệu quả học của họ có thể"
+        },
+        {
+          "zh": "未必有AI那么好。",
+          "vi": "chưa chắc bằng AI."
+        }
+      ]
+    },
+    "86": {
+      "zh": "但说实话，从小到大也看了非常非常多的书，嗯，也吸收了非常多的写作技巧，",
+      "parts": [
+        {
+          "zh": "但说实话，从小到大",
+          "vi": "Nhưng nói thật, từ nhỏ đến lớn"
+        },
+        {
+          "zh": "也看了非常非常多的书，嗯，",
+          "vi": "họ cũng đọc rất rất nhiều sách, ừm,"
+        },
+        {
+          "zh": "也吸收了非常多的写作技巧，",
+          "vi": "cũng hấp thu rất nhiều kỹ năng viết,"
+        }
+      ]
+    },
+    "87": {
+      "zh": "也有很多人生经历。",
+      "vi": "cũng có nhiều trải nghiệm sống."
+    },
+    "88": {
+      "zh": "为什么没有达到那种程度呢？",
+      "vi": "Sao lại không đạt tới trình độ đó?"
+    },
+    "89": {
+      "zh": "AI我觉得它其实在很多方面我是觉得能取代，而且特别是在理工理工科的方面，",
+      "parts": [
+        {
+          "zh": "AI我觉得它其实在很多方面",
+          "vi": "AI thì tôi thấy thật ra ở nhiều mặt"
+        },
+        {
+          "zh": "我是觉得能取代，",
+          "vi": "tôi thấy nó thay được,"
+        },
+        {
+          "zh": "而且特别是在理工理工科的方面，",
+          "vi": "nhất là về mảng khoa học kỹ thuật,"
+        }
+      ]
+    },
+    "90": {
+      "zh": "会做这种东西，我觉得真的它。",
+      "vi": "làm những thứ này, tôi thấy nó thật sự."
+    },
+    "91": {
+      "zh": "可以做的越来越好。",
+      "vi": "có thể làm ngày càng tốt."
+    },
+    "92": {
+      "zh": "今天中午的时候，我老婆还在看一个一个韩国的医疗剧，",
+      "parts": [
+        {
+          "zh": "今天中午的时候，我老婆",
+          "vi": "Trưa nay, vợ tôi"
+        },
+        {
+          "zh": "还在看一个一个韩国的医疗剧，",
+          "vi": "còn đang xem một bộ phim y khoa Hàn Quốc,"
+        }
+      ]
+    },
+    "93": {
+      "zh": "就是很很好看的一个叫什么《机智的医生生活》什么的，因为也挺有意思的。",
+      "parts": [
+        {
+          "zh": "就是很很好看的一个",
+          "vi": "là một phim rất hay"
+        },
+        {
+          "zh": "叫什么《机智的医生生活》什么的，",
+          "vi": "tên gì nhỉ, \"Những bác sĩ tài hoa\" gì đó,"
+        },
+        {
+          "zh": "因为也挺有意思的。",
+          "vi": "vì cũng khá thú vị."
+        }
+      ]
+    },
+    "94": {
+      "zh": "我当时突然就想到，真的AI现在这个发展起来，可能真的里头很多这些病真的都能治愈了啊！",
+      "parts": [
+        {
+          "zh": "我当时突然就想到，",
+          "vi": "Lúc đó tôi chợt nghĩ,"
+        },
+        {
+          "zh": "真的AI现在这个发展起来，",
+          "vi": "AI bây giờ phát triển như vậy,"
+        },
+        {
+          "zh": "可能真的里头很多这些病",
+          "vi": "có khi nhiều bệnh trong đó"
+        },
+        {
+          "zh": "真的都能治愈了啊！",
+          "vi": "đều chữa khỏi được thật!"
+        }
+      ]
+    },
+    "95": {
+      "zh": "就是它在很短的时间内能自，因为现在AI是相对是一个初级的阶段，",
+      "parts": [
+        {
+          "zh": "就是它在很短的时间内能自，",
+          "vi": "Tức là trong thời gian rất ngắn nó có thể tự,"
+        },
+        {
+          "zh": "因为现在AI是相对",
+          "vi": "vì AI bây giờ tương đối"
+        },
+        {
+          "zh": "是一个初级的阶段，",
+          "vi": "còn ở giai đoạn sơ khai,"
+        }
+      ]
+    },
+    "96": {
+      "zh": "对后面一个阶段就是AI可以自主的去研究、去突破各种能力。",
+      "parts": [
+        {
+          "zh": "对后面一个阶段就是AI可以",
+          "vi": "giai đoạn sau là AI có thể"
+        },
+        {
+          "zh": "自主的去研究、去突破各种能力。",
+          "vi": "tự nghiên cứu, tự đột phá đủ loại năng lực."
+        }
+      ]
+    },
+    "97": {
+      "zh": "怎么去治疗这个癌症？",
+      "vi": "Chữa căn bệnh ung thư này thế nào?"
+    },
+    "98": {
+      "zh": "他肯定也能做到。",
+      "vi": "Nó chắc chắn cũng làm được."
+    },
+    "99": {
+      "zh": "说不来人类因为这些方面的东西，我是觉得科学方面发展的东西，",
+      "parts": [
+        {
+          "zh": "说不来人类因为这些方面的东西，",
+          "vi": "Biết đâu loài người nhờ những thứ này,"
+        },
+        {
+          "zh": "我是觉得科学方面发展的东西，",
+          "vi": "tôi thấy là những thứ phát triển về khoa học,"
+        }
+      ]
+    },
+    "100": {
+      "zh": "它真的到时候可能寿命也会变长。",
+      "vi": "tới lúc đó tuổi thọ có khi cũng dài ra."
+    },
+    "101": {
+      "zh": "而且说实话，真的到时候什么所谓什么星辰大海也不是梦想。",
+      "parts": [
+        {
+          "zh": "而且说实话，真的到时候",
+          "vi": "Mà nói thật, đến lúc đó"
+        },
+        {
+          "zh": "什么所谓什么星辰大海也不是梦想。",
+          "vi": "cái gọi là biển sao vũ trụ cũng chẳng còn là mơ."
+        }
+      ]
+    },
+    "102": {
+      "zh": "我真的相信这个东西会更快的来临。",
+      "vi": "Tôi tin chuyện này sẽ đến nhanh hơn."
+    },
+    "103": {
+      "zh": "那天我还看到有这个汽马斯克已经研究出来那种飞天汽车了吗？",
+      "parts": [
+        {
+          "zh": "那天我还看到有这个汽马斯克",
+          "vi": "Hôm trước tôi còn thấy cái ông Musk"
+        },
+        {
+          "zh": "已经研究出来那种飞天汽车了吗？",
+          "vi": "đã nghiên cứu ra ô tô bay rồi phải không?"
+        }
+      ]
+    },
+    "104": {
+      "zh": "飞天汽车都出来了，就是。",
+      "vi": "Ô tô bay cũng ra đời rồi, đó."
+    },
+    "105": {
+      "zh": "我那天看，就是深圳市政府他们好像也准备弄这种东西，类似于这种有这种规划。",
+      "parts": [
+        {
+          "zh": "我那天看，就是深圳市政府",
+          "vi": "Hôm trước tôi xem, chính quyền Thâm Quyến"
+        },
+        {
+          "zh": "他们好像也准备弄这种东西，",
+          "vi": "hình như cũng chuẩn bị làm mấy thứ này,"
+        },
+        {
+          "zh": "类似于这种有这种规划。",
+          "vi": "kiểu như có quy hoạch như vậy."
+        }
+      ]
+    },
+    "106": {
+      "zh": "其实以前总觉得这些东西好像都是科幻电影里头才会有的，",
+      "parts": [
+        {
+          "zh": "其实以前总觉得这些东西",
+          "vi": "Thật ra trước đây cứ nghĩ những thứ này"
+        },
+        {
+          "zh": "好像都是科幻电影里头才会有的，",
+          "vi": "chỉ có trong phim khoa học viễn tưởng,"
+        }
+      ]
+    },
+    "107": {
+      "zh": "像今年春晚的时候那机器人在甩甩甩，那个那个公司叫宇树科技，我后来刷到很多视频，",
+      "parts": [
+        {
+          "zh": "像今年春晚的时候",
+          "vi": "như Gala Xuân năm nay"
+        },
+        {
+          "zh": "那机器人在甩甩甩，",
+          "vi": "mấy con robot cứ vung vung vung,"
+        },
+        {
+          "zh": "那个那个公司叫宇树科技，",
+          "vi": "công ty đó tên là Unitree (宇树科技),"
+        },
+        {
+          "zh": "我后来刷到很多视频，",
+          "vi": "sau đó tôi lướt thấy rất nhiều video,"
+        }
+      ]
+    },
+    "108": {
+      "zh": "现在跳舞跳的比真人跳的还好。",
+      "vi": "giờ nhảy còn giỏi hơn người thật."
+    },
+    "109": {
+      "zh": "前一段时间还有出了一个功夫的，就是他们已经能够这种东西这么灵活的状态，就说说明他在生活。",
+      "parts": [
+        {
+          "zh": "前一段时间还有出了一个功夫的，",
+          "vi": "Thời gian trước còn ra một con biết kung fu,"
+        },
+        {
+          "zh": "就是他们已经能够",
+          "vi": "tức là chúng đã có thể"
+        },
+        {
+          "zh": "这种东西这么灵活的状态，",
+          "vi": "linh hoạt đến mức này,"
+        },
+        {
+          "zh": "就说说明他在生活。",
+          "vi": "điều đó cho thấy trong đời sống,"
+        }
+      ]
+    },
+    "110": {
+      "zh": "就是场景里头，任何场景都能应用了，就是和人没有任何区别，甚至比人更强大。",
+      "parts": [
+        {
+          "zh": "就是场景里头，任何场景都能应用了，",
+          "vi": "ở mọi tình huống đều ứng dụng được rồi,"
+        },
+        {
+          "zh": "就是和人没有任何区别，",
+          "vi": "chẳng khác gì con người,"
+        },
+        {
+          "zh": "甚至比人更强大。",
+          "vi": "thậm chí còn mạnh hơn con người."
+        }
+      ]
+    },
+    "111": {
+      "zh": "这些方面我觉得都能把人取代掉，甚至给人其实提供一个非常非常好的一个科技的远景。",
+      "parts": [
+        {
+          "zh": "这些方面我觉得都能把人取代掉，",
+          "vi": "Những mặt này tôi thấy đều có thể thay con người,"
+        },
+        {
+          "zh": "甚至给人其实提供一个",
+          "vi": "thậm chí còn mang lại cho con người"
+        },
+        {
+          "zh": "非常非常好的一个科技的远景。",
+          "vi": "một viễn cảnh công nghệ cực kỳ tốt đẹp."
+        }
+      ]
+    },
+    "112": {
+      "zh": "但是刚才Ben Ben提到，我怎么回事？",
+      "parts": [
+        {
+          "zh": "但是刚才Ben Ben提到，",
+          "vi": "Nhưng lúc nãy Ben, Ben có nói,"
+        },
+        {
+          "zh": "我怎么回事？",
+          "vi": "tôi bị sao thế này?"
+        }
+      ]
+    },
+    "113": {
+      "zh": "Ben Ben，刚才刚才Ben",
+      "vi": "Ben, Ben, lúc nãy lúc nãy chú Ben"
+    },
+    "114": {
+      "zh": "叔一直咬舌头，怎么了？",
+      "vi": "…cứ líu lưỡi mãi, sao thế?"
+    },
+    "115": {
+      "zh": "刚才Ben叔提到，其实就是情绪价值的一些东西。",
+      "parts": [
+        {
+          "zh": "刚才Ben叔提到，",
+          "vi": "Lúc nãy chú Ben có nói,"
+        },
+        {
+          "zh": "其实就是情绪价值的一些东西。",
+          "vi": "thật ra là những thứ thuộc về giá trị cảm xúc."
+        }
+      ]
+    },
+    "116": {
+      "zh": "这其实你说这个题目，我那天我在自己的频道也做过一期。",
+      "parts": [
+        {
+          "zh": "这其实你说这个题目，",
+          "vi": "Chủ đề anh nói này thật ra"
+        },
+        {
+          "zh": "我那天我在自己的频道也做过一期。",
+          "vi": "hôm trước tôi cũng làm một tập trên kênh của mình."
+        }
+      ]
+    },
+    "117": {
+      "zh": "我觉得其实有一个地方无可取代，就是我们老师作为人的能提供给学生的一个情绪的价值的东西。",
+      "parts": [
+        {
+          "zh": "我觉得其实有一个地方无可取代，",
+          "vi": "Tôi thấy thật ra có một chỗ không gì thay được,"
+        },
+        {
+          "zh": "就是我们老师作为人的",
+          "vi": "đó là tụi mình, giáo viên, với tư cách con người"
+        },
+        {
+          "zh": "能提供给学生的",
+          "vi": "có thể mang lại cho học viên"
+        },
+        {
+          "zh": "一个情绪的价值的东西。",
+          "vi": "những giá trị cảm xúc."
+        }
+      ]
+    },
+    "118": {
+      "zh": "就是AI的话，其实你看不到一个真人在对面的。",
+      "parts": [
+        {
+          "zh": "就是AI的话，",
+          "vi": "Với AI thì,"
+        },
+        {
+          "zh": "其实你看不到一个真人在对面的。",
+          "vi": "thật ra bạn không thấy một người thật ngồi đối diện."
+        }
+      ]
+    },
+    "119": {
+      "zh": "其实我也试过，我现在就是那天我用ChatGPT就是练英语，我发现它也有这个功能，",
+      "parts": [
+        {
+          "zh": "其实我也试过，我现在就是那天",
+          "vi": "Thật ra tôi cũng thử rồi, hôm trước"
+        },
+        {
+          "zh": "我用ChatGPT就是练英语，",
+          "vi": "tôi dùng ChatGPT để luyện tiếng Anh,"
+        },
+        {
+          "zh": "我发现它也有这个功能，",
+          "vi": "tôi phát hiện nó cũng có chức năng này,"
+        }
+      ]
+    },
+    "120": {
+      "zh": "就是和真人一模一样，而且它会不断引导你。",
+      "parts": [
+        {
+          "zh": "就是和真人一模一样，",
+          "vi": "giống hệt người thật,"
+        },
+        {
+          "zh": "而且它会不断引导你。",
+          "vi": "mà nó còn liên tục dẫn dắt bạn."
+        }
+      ]
+    },
+    "121": {
+      "zh": "就是他那种积极倾听的能力令人发指，你知道吗？",
+      "parts": [
+        {
+          "zh": "就是他那种积极倾听的能力",
+          "vi": "Khả năng lắng nghe chủ động của nó"
+        },
+        {
+          "zh": "令人发指，你知道吗？",
+          "vi": "giỏi đến phát sợ, anh biết không?"
+        }
+      ]
+    },
+    "122": {
+      "zh": "就是，就是只要你聊一句，他马上给你抛出一一句，你就会顺着这个话题聊下去。",
+      "parts": [
+        {
+          "zh": "就是，就是只要你聊一句，",
+          "vi": "Tức là, chỉ cần bạn nói một câu,"
+        },
+        {
+          "zh": "他马上给你抛出一一句，",
+          "vi": "nó lập tức ném lại cho bạn một câu,"
+        },
+        {
+          "zh": "你就会顺着这个话题聊下去。",
+          "vi": "bạn sẽ cứ thế nói tiếp theo chủ đề đó."
+        }
+      ]
+    },
+    "123": {
+      "zh": "然后你说出你可能可能感觉自己说的比较简单，他给你回馈的东西是比较复杂一些的，",
+      "parts": [
+        {
+          "zh": "然后你说出你可能可能",
+          "vi": "Rồi bạn nói ra, bạn có thể"
+        },
+        {
+          "zh": "感觉自己说的比较简单，",
+          "vi": "cảm thấy mình nói khá đơn giản,"
+        },
+        {
+          "zh": "他给你回馈的东西",
+          "vi": "những gì nó đáp lại cho bạn"
+        },
+        {
+          "zh": "是比较复杂一些的，",
+          "vi": "thì phức tạp hơn một chút,"
+        }
+      ]
+    },
+    "124": {
+      "zh": "更好更地道的东西，你确实能学得很很好。",
+      "parts": [
+        {
+          "zh": "更好更地道的东西，",
+          "vi": "hay hơn, chuẩn bản xứ hơn,"
+        },
+        {
+          "zh": "你确实能学得很很好。",
+          "vi": "bạn đúng là học được rất tốt."
+        }
+      ]
+    },
+    "125": {
+      "zh": "假如你每天都花一点时间去这样去做的话，但是说实话，在我内心深处我会觉得。",
+      "parts": [
+        {
+          "zh": "假如你每天都花一点时间",
+          "vi": "Nếu mỗi ngày bạn dành ra một chút thời gian"
+        },
+        {
+          "zh": "去这样去做的话，",
+          "vi": "làm như vậy,"
+        },
+        {
+          "zh": "但是说实话，在我内心深处我会觉得。",
+          "vi": "nhưng nói thật, sâu trong lòng tôi thấy."
+        }
+      ]
+    },
+    "126": {
+      "zh": "我会把它当做一个学习的一个小习惯，或者是一个任务。",
+      "parts": [
+        {
+          "zh": "我会把它当做一个学习的",
+          "vi": "tôi sẽ coi nó là một"
+        },
+        {
+          "zh": "一个小习惯，或者是一个任务。",
+          "vi": "thói quen học nhỏ, hoặc là một nhiệm vụ."
+        }
+      ]
+    },
+    "127": {
+      "zh": "要是我逼自己去做，我和AI每天练一下，我把它当做一个学习的一个项目。",
+      "parts": [
+        {
+          "zh": "要是我逼自己去做，",
+          "vi": "Nếu tôi ép mình làm,"
+        },
+        {
+          "zh": "我和AI每天练一下，",
+          "vi": "mỗi ngày luyện với AI một chút,"
+        },
+        {
+          "zh": "我把它当做一个学习的一个项目。",
+          "vi": "tôi coi nó là một hạng mục học tập."
+        }
+      ]
+    },
+    "128": {
+      "zh": "但是我不会有那种期待的感觉，就是我觉得真正好的老师会让学生去有这种期待的感觉。",
+      "parts": [
+        {
+          "zh": "但是我不会有那种期待的感觉，",
+          "vi": "Nhưng tôi sẽ không có cảm giác mong chờ,"
+        },
+        {
+          "zh": "就是我觉得真正好的老师",
+          "vi": "tôi thấy một giáo viên thật sự giỏi"
+        },
+        {
+          "zh": "会让学生去有这种期待的感觉。",
+          "vi": "sẽ khiến học viên có cảm giác mong chờ đó."
+        }
+      ]
+    },
+    "129": {
+      "zh": "真正好的老师他是能和学生像Ben说的是交心的这种感觉。",
+      "parts": [
+        {
+          "zh": "真正好的老师他是能和学生",
+          "vi": "Giáo viên thật sự giỏi có thể với học viên"
+        },
+        {
+          "zh": "像Ben说的是交心的这种感觉。",
+          "vi": "như Ben nói, là có cảm giác trải lòng với nhau."
+        }
+      ]
+    },
+    "130": {
+      "zh": "尤其我现在有时候教学生，我就希望首先是真的了解他。",
+      "parts": [
+        {
+          "zh": "尤其我现在有时候教学生，",
+          "vi": "Nhất là bây giờ đôi khi tôi dạy học viên,"
+        },
+        {
+          "zh": "我就希望首先是真的了解他。",
+          "vi": "tôi mong trước hết là thật sự hiểu họ."
+        }
+      ]
+    },
+    "131": {
+      "zh": "他的所思所想是怎么样的？",
+      "vi": "Họ nghĩ gì, suy tính thế nào?"
+    },
+    "132": {
+      "zh": "然后我是真的感觉是和他们在，就是因因为我是一个老师，他是学生，这个东西其实不是那么重要。",
+      "parts": [
+        {
+          "zh": "然后我是真的感觉是和他们在，",
+          "vi": "Rồi tôi thật sự cảm thấy là ở cùng họ,"
+        },
+        {
+          "zh": "就是因因为我是一个老师，他是学生，",
+          "vi": "chuyện vì, vì tôi là giáo viên, họ là học viên,"
+        },
+        {
+          "zh": "这个东西其实不是那么重要。",
+          "vi": "thật ra không quan trọng lắm."
+        }
+      ]
+    },
+    "133": {
+      "zh": "因为我们都是在中文交流，我们是在认识彼此的这个世界，认认识彼此的这些想法。",
+      "parts": [
+        {
+          "zh": "因为我们都是在中文交流，",
+          "vi": "Vì tụi mình đều đang giao tiếp bằng tiếng Trung,"
+        },
+        {
+          "zh": "我们是在认识彼此的这个世界，",
+          "vi": "tụi mình đang tìm hiểu thế giới của nhau,"
+        },
+        {
+          "zh": "认认识彼此的这些想法。",
+          "vi": "tìm, tìm hiểu suy nghĩ của nhau."
+        }
+      ]
+    },
+    "134": {
+      "zh": "那我现在有一个场景设计设定啊，那希望各位大叔回答我一下。",
+      "parts": [
+        {
+          "zh": "那我现在有一个场景设计设定啊，",
+          "vi": "Vậy giờ tôi có một tình huống đặt ra nè,"
+        },
+        {
+          "zh": "那希望各位大叔回答我一下。",
+          "vi": "mong các chú trả lời giúp tôi."
+        }
+      ]
+    },
+    "135": {
+      "zh": "这个场我有两个场景设计啊，第一个场景就是。",
+      "parts": [
+        {
+          "zh": "这个场我有两个场景设计啊，",
+          "vi": "Tôi có hai tình huống,"
+        },
+        {
+          "zh": "第一个场景就是。",
+          "vi": "tình huống thứ nhất là."
+        }
+      ]
+    },
+    "136": {
+      "zh": "学校开始不再用老师了，嗯，他们都用AI当老师，然后在课堂上教学生，",
+      "parts": [
+        {
+          "zh": "学校开始不再用老师了，嗯，",
+          "vi": "trường học bắt đầu không dùng giáo viên nữa, ừm,"
+        },
+        {
+          "zh": "他们都用AI当老师，",
+          "vi": "họ đều dùng AI làm giáo viên,"
+        },
+        {
+          "zh": "然后在课堂上教学生，",
+          "vi": "rồi dạy học sinh trên lớp,"
+        }
+      ]
+    },
+    "137": {
+      "zh": "这样的场景可能发生在未来的四五年，或许哦，嗯，因为学校可以省聘老师的钱了，",
+      "parts": [
+        {
+          "zh": "这样的场景可能发生在",
+          "vi": "tình huống này có thể xảy ra"
+        },
+        {
+          "zh": "未来的四五年，或许哦，嗯，",
+          "vi": "trong bốn năm năm tới, biết đâu đó, ừm,"
+        },
+        {
+          "zh": "因为学校可以省聘老师的钱了，",
+          "vi": "vì trường đỡ được tiền thuê giáo viên,"
+        }
+      ]
+    },
+    "138": {
+      "zh": "AI教的也很好啊，然后学生怎么可能去跟AI耍脾气或什么？",
+      "parts": [
+        {
+          "zh": "AI教的也很好啊，",
+          "vi": "AI dạy cũng rất tốt,"
+        },
+        {
+          "zh": "然后学生怎么可能",
+          "vi": "rồi học sinh sao có thể"
+        },
+        {
+          "zh": "去跟AI耍脾气或什么？",
+          "vi": "đi giận dỗi với AI hay gì?"
+        }
+      ]
+    },
+    "139": {
+      "zh": "或许秩序也会很好。",
+      "vi": "Có khi trật tự cũng sẽ rất tốt."
+    },
+    "140": {
+      "zh": "那你这种状态就甚至都不需要去学校了呀？",
+      "parts": [
+        {
+          "zh": "那你这种状态就",
+          "vi": "Vậy thì tình trạng như anh nói"
+        },
+        {
+          "zh": "甚至都不需要去学校了呀？",
+          "vi": "thậm chí chẳng cần đến trường nữa nhỉ?"
+        }
+      ]
+    },
+    "141": {
+      "zh": "嗯，对啊。",
+      "vi": "Ừm, đúng vậy."
+    },
+    "142": {
+      "zh": "但是，嗯，学校家长或学校希望学生能够适应团体生活，嗯，所以还是要到学校去。",
+      "parts": [
+        {
+          "zh": "但是，嗯，学校家长或学校",
+          "vi": "Nhưng mà, ừm, phụ huynh hay nhà trường"
+        },
+        {
+          "zh": "希望学生能够适应团体生活，嗯，",
+          "vi": "muốn học sinh thích nghi với đời sống tập thể, ừm,"
+        },
+        {
+          "zh": "所以还是要到学校去。",
+          "vi": "nên vẫn phải đến trường."
+        }
+      ]
+    },
+    "143": {
+      "zh": "但是在成本的节省下，在这个AI也更方便嘛，对不对？",
+      "parts": [
+        {
+          "zh": "但是在成本的节省下，",
+          "vi": "Nhưng để tiết kiệm chi phí,"
+        },
+        {
+          "zh": "在这个AI也更方便嘛，对不对？",
+          "vi": "AI cũng tiện hơn mà, đúng không?"
+        }
+      ]
+    },
+    "144": {
+      "zh": "然后它的主题性天宽地阔，没有限制。",
+      "vi": "Rồi chủ đề của nó thì bao la, không giới hạn."
+    },
+    "145": {
+      "zh": "你们可以接受这样的学校吗？",
+      "vi": "Các anh chấp nhận được ngôi trường như vậy không?"
+    },
+    "146": {
+      "zh": "你们会把小孩送到这样的学校吗？",
+      "vi": "Các anh có gửi con đến trường như vậy không?"
+    },
+    "147": {
+      "zh": "就是AI教学学校，AI",
+      "vi": "Tức là trường học dạy bằng AI, AI"
+    },
+    "148": {
+      "zh": "能教的东西那就全都AI做了呀，那就不需要再教学生了。",
+      "parts": [
+        {
+          "zh": "能教的东西那就全都AI做了呀，",
+          "vi": "Những gì dạy được thì AI làm hết rồi,"
+        },
+        {
+          "zh": "那就不需要再教学生了。",
+          "vi": "vậy thì cần gì dạy học sinh nữa."
+        }
+      ]
+    },
+    "149": {
+      "zh": "反正AI都已经会了。",
+      "vi": "Dù sao AI cũng đã biết hết rồi."
+    },
+    "150": {
+      "zh": "家长肯定家长肯定会希望自己的孩子一样还是去适应学校的生活、团体生活也好啊，",
+      "parts": [
+        {
+          "zh": "家长肯定家长肯定会希望",
+          "vi": "Phụ huynh chắc chắn, phụ huynh chắc chắn mong"
+        },
+        {
+          "zh": "自己的孩子一样还是去适应",
+          "vi": "con mình vẫn đi thích nghi với"
+        },
+        {
+          "zh": "学校的生活、团体生活也好啊，",
+          "vi": "cuộc sống ở trường, đời sống tập thể cũng được,"
+        }
+      ]
+    },
+    "151": {
+      "zh": "包括在学校怎么学习。",
+      "vi": "kể cả cách học ở trường."
+    },
+    "152": {
+      "zh": "我的意思是他们毕业之后可能赶不上AI啊，那。",
+      "parts": [
+        {
+          "zh": "我的意思是他们毕业之后",
+          "vi": "Ý tôi là sau khi chúng tốt nghiệp"
+        },
+        {
+          "zh": "可能赶不上AI啊，那。",
+          "vi": "có khi không theo kịp AI, thế thì."
+        }
+      ]
+    },
+    "153": {
+      "zh": "那就其实AI可以批量生产去做这个学校里教育的这个毕业",
+      "parts": [
+        {
+          "zh": "那就其实AI可以批量生产",
+          "vi": "Thì thật ra AI có thể sản xuất hàng loạt"
+        },
+        {
+          "zh": "去做这个学校里教育的这个毕业",
+          "vi": "đi làm những việc mà người học xong ở trường"
+        }
+      ]
+    },
+    "154": {
+      "zh": "后的工作我的问题就是如果现在的学校不再用人当老师了而是用AI当老师了你们会把小孩送到那里去上课吗这是我的问题而且这个很有可能发生因为现在学校经费普遍很少嘛或许啊，嗯，",
+      "parts": [
+        {
+          "zh": "后的工作我的问题就是",
+          "vi": "sẽ làm. Câu hỏi của tôi là"
+        },
+        {
+          "zh": "如果现在的学校不再用人当老师了",
+          "vi": "nếu trường học bây giờ không dùng người làm giáo viên nữa"
+        },
+        {
+          "zh": "而是用AI当老师了",
+          "vi": "mà dùng AI làm giáo viên,"
+        },
+        {
+          "zh": "你们会把小孩送到那里去上课吗",
+          "vi": "các anh có gửi con đến đó học không?"
+        },
+        {
+          "zh": "这是我的问题",
+          "vi": "đó là câu hỏi của tôi,"
+        },
+        {
+          "zh": "而且这个很有可能发生",
+          "vi": "mà chuyện này rất có thể xảy ra,"
+        },
+        {
+          "zh": "因为现在学校经费",
+          "vi": "vì bây giờ kinh phí của trường"
+        },
+        {
+          "zh": "普遍很少嘛或许啊，嗯，",
+          "vi": "nhìn chung rất ít, hoặc là, ừm,"
+        }
+      ]
+    },
+    "156": {
+      "zh": "或许他觉得更更有效率。",
+      "vi": "biết đâu họ thấy hiệu quả hơn, hơn."
+    },
+    "157": {
+      "zh": "呃，璨叔怎么觉得？",
+      "vi": "Ờ, chú Xán thấy sao?"
+    },
+    "158": {
+      "zh": "你有小孩吗？",
+      "vi": "Anh có con không?"
+    },
+    "159": {
+      "zh": "你会把瑶瑶送到那样的学校吗？",
+      "vi": "Anh có gửi Dao Dao đến ngôi trường như vậy không?"
+    },
+    "160": {
+      "zh": "我就是话很难想象，你说四五年之后能达到这种状态，",
+      "parts": [
+        {
+          "zh": "我就是话很难想象，",
+          "vi": "Tôi thấy khó tưởng tượng lắm,"
+        },
+        {
+          "zh": "你说四五年之后能达到这种状态，",
+          "vi": "anh nói bốn năm năm nữa đạt tới tình trạng đó,"
+        }
+      ]
+    },
+    "161": {
+      "zh": "因为首先我会觉得AI现在更多形式是存在这个屏幕里头的，",
+      "parts": [
+        {
+          "zh": "因为首先我会觉得",
+          "vi": "vì trước hết tôi thấy"
+        },
+        {
+          "zh": "AI现在更多形式是",
+          "vi": "AI bây giờ phần nhiều là"
+        },
+        {
+          "zh": "存在这个屏幕里头的，",
+          "vi": "tồn tại trong màn hình,"
+        }
+      ]
+    },
+    "162": {
+      "zh": "它还没有一个实体化的一个展现，除非你是和机器人就是进行一个结合。",
+      "parts": [
+        {
+          "zh": "它还没有一个实体化的一个展现，",
+          "vi": "nó chưa có một hình hài thật,"
+        },
+        {
+          "zh": "除非你是和机器人",
+          "vi": "trừ khi bạn đem nó với robot"
+        },
+        {
+          "zh": "就是进行一个结合。",
+          "vi": "mà kết hợp lại."
+        }
+      ]
+    },
+    "163": {
+      "zh": "呃，就是学生进教室就是一个屏幕跟他说话。",
+      "parts": [
+        {
+          "zh": "呃，就是学生进教室",
+          "vi": "Ờ, tức là học sinh vào lớp"
+        },
+        {
+          "zh": "就是一个屏幕跟他说话。",
+          "vi": "thì có một cái màn hình nói chuyện với chúng."
+        }
+      ]
+    },
+    "164": {
+      "zh": "好，各位同学上课了。",
+      "vi": "Được rồi, các em, vào học nào."
+    },
+    "165": {
+      "zh": "我们今天要上这样的话说",
+      "vi": "Hôm nay chúng ta học… Nói như vậy"
+    },
+    "166": {
+      "zh": "出来，就是我我会觉得我不",
+      "vi": "thì tôi, tôi sẽ thấy là tôi không"
+    },
+    "167": {
+      "zh": "想不用去学校了吧，在",
+      "vi": "muốn, khỏi đi học luôn nhỉ, ở"
+    },
+    "168": {
+      "zh": "家对，按照这样状态何必去学校？",
+      "vi": "nhà. Đúng, như thế thì cần gì đến trường?"
+    },
+    "169": {
+      "zh": "对啊，我的意思是，家家长还是希望学生要有",
+      "parts": [
+        {
+          "zh": "对啊，我的意思是，",
+          "vi": "Đúng vậy, ý tôi là,"
+        },
+        {
+          "zh": "家家长还是希望学生要有",
+          "vi": "phụ huynh, phụ huynh vẫn muốn học sinh có"
+        }
+      ]
+    },
+    "170": {
+      "zh": "团体学生之间的",
+      "vi": "giữa các học sinh trong tập thể"
+    },
+    "171": {
+      "zh": "经验嘛，还有人跟人的互动还是要有嘛，",
+      "parts": [
+        {
+          "zh": "经验嘛，还有人跟人的互动",
+          "vi": "trải nghiệm mà, còn sự tương tác giữa người với người"
+        },
+        {
+          "zh": "还是要有嘛，",
+          "vi": "thì vẫn phải có chứ,"
+        }
+      ]
+    },
+    "172": {
+      "zh": "所以送到学校的目的是为了学习团体生活跟人跟人之间的互动，但是。",
+      "parts": [
+        {
+          "zh": "所以送到学校的目的是",
+          "vi": "nên mục đích gửi đến trường là"
+        },
+        {
+          "zh": "为了学习团体生活",
+          "vi": "để học đời sống tập thể"
+        },
+        {
+          "zh": "跟人跟人之间的互动，但是。",
+          "vi": "và tương tác giữa người với người, nhưng mà."
+        }
+      ]
+    },
+    "173": {
+      "zh": "上课是跟AI上课。",
+      "vi": "học thì học với AI."
+    },
+    "174": {
+      "zh": "说实话，我是觉得孩子们不会把AI当做一个真的人去对待，那他就是很难会尊重这个老师的。",
+      "parts": [
+        {
+          "zh": "说实话，我是觉得孩子们",
+          "vi": "Nói thật, tôi thấy bọn trẻ"
+        },
+        {
+          "zh": "不会把AI当做一个真的人去对待，",
+          "vi": "sẽ không coi AI như một con người thật mà đối xử,"
+        },
+        {
+          "zh": "那他就是很难会尊重这个老师的。",
+          "vi": "thì chúng sẽ khó mà tôn trọng giáo viên này."
+        }
+      ]
+    },
+    "175": {
+      "zh": "我觉得这个场景有点诡异，说实话，就是就是会少，真的是就少一点温度的感觉。",
+      "parts": [
+        {
+          "zh": "我觉得这个场景有点诡异，说实话，",
+          "vi": "Tôi thấy cảnh này hơi quái, nói thật,"
+        },
+        {
+          "zh": "就是就是会少，",
+          "vi": "kiểu sẽ thiếu đi,"
+        },
+        {
+          "zh": "真的是就少一点温度的感觉。",
+          "vi": "thật sự là thiếu đi chút hơi ấm."
+        }
+      ]
+    },
+    "176": {
+      "zh": "我们认为在学校里，他纯就是学习知识的这么一个地方，",
+      "parts": [
+        {
+          "zh": "我们认为在学校里，",
+          "vi": "Tụi mình cho rằng ở trường học,"
+        },
+        {
+          "zh": "他纯就是学习知识的这么一个地方，",
+          "vi": "nó đơn thuần là nơi học kiến thức,"
+        }
+      ]
+    },
+    "177": {
+      "zh": "他其实也是学习做人的这么一个地方，嗯，就不纯粹只是学习知识。",
+      "parts": [
+        {
+          "zh": "他其实也是学习做人的",
+          "vi": "thật ra học làm người"
+        },
+        {
+          "zh": "这么一个地方，嗯，",
+          "vi": "cũng là ở nơi đó, ừm,"
+        },
+        {
+          "zh": "就不纯粹只是学习知识。",
+          "vi": "chứ không đơn thuần chỉ học kiến thức."
+        }
+      ]
+    },
+    "178": {
+      "zh": "那我觉得其实AI的话，你让他承担去。教育里面的育这一方面，其实我是对他不抱指望的。",
+      "parts": [
+        {
+          "zh": "那我觉得其实AI的话，",
+          "vi": "Nên tôi thấy, với AI thì,"
+        },
+        {
+          "zh": "你让他承担去。教育里面的育",
+          "vi": "bạn để nó gánh chữ \"dục\" (育) trong \"giáo dục\""
+        },
+        {
+          "zh": "这一方面，其实我是对他不抱指望的。",
+          "vi": "về mặt này thì thật ra tôi không trông mong gì ở nó."
+        }
+      ]
+    },
+    "180": {
+      "zh": "说实话，我觉得这方面还是得向一个人去学习。",
+      "parts": [
+        {
+          "zh": "说实话，我觉得这方面",
+          "vi": "Nói thật, tôi thấy mặt này"
+        },
+        {
+          "zh": "还是得向一个人去学习。",
+          "vi": "vẫn phải học từ một con người."
+        }
+      ]
+    },
+    "181": {
+      "zh": "老师有严的，有温柔的，各方面都有，但他是一个实实在在的人，也有自己的缺点，",
+      "parts": [
+        {
+          "zh": "老师有严的，有温柔的，各方面都有，",
+          "vi": "Giáo viên có người nghiêm, có người dịu dàng, đủ kiểu,"
+        },
+        {
+          "zh": "但他是一个实实在在的人，",
+          "vi": "nhưng họ là một con người thật sự,"
+        },
+        {
+          "zh": "也有自己的缺点，",
+          "vi": "cũng có khuyết điểm của mình,"
+        }
+      ]
+    },
+    "182": {
+      "zh": "也有自己的优点，和学生们是能真正产生一种连接感的。",
+      "parts": [
+        {
+          "zh": "也有自己的优点，和学生们",
+          "vi": "cũng có ưu điểm của mình, với học sinh"
+        },
+        {
+          "zh": "是能真正产生一种连接感的。",
+          "vi": "thì có thể thật sự tạo ra một sự gắn kết."
+        }
+      ]
+    },
+    "183": {
+      "zh": "那你说实话，就是好的老师，其实等到孩子长大以后，都会怀念这个老师。",
+      "parts": [
+        {
+          "zh": "那你说实话，就是好的老师，",
+          "vi": "Thì nói thật, giáo viên giỏi,"
+        },
+        {
+          "zh": "其实等到孩子长大以后，",
+          "vi": "thật ra đợi đến khi bọn trẻ lớn lên,"
+        },
+        {
+          "zh": "都会怀念这个老师。",
+          "vi": "chúng đều sẽ nhớ thầy cô đó."
+        }
+      ]
+    },
+    "184": {
+      "zh": "因为它是作为一个人而存在，它不是只是做一个知识的载体而存在的。",
+      "parts": [
+        {
+          "zh": "因为它是作为一个人而存在，",
+          "vi": "Vì thầy cô tồn tại như một con người,"
+        },
+        {
+          "zh": "它不是只是做一个",
+          "vi": "chứ không phải chỉ làm một"
+        },
+        {
+          "zh": "知识的载体而存在的。",
+          "vi": "cái vật chứa kiến thức."
+        }
+      ]
+    },
+    "185": {
+      "zh": "我们人说实话，我我是一直坚信，就算科技如何发展，人和人之间这种连接感的东西，",
+      "parts": [
+        {
+          "zh": "我们人说实话，我我是一直坚信，",
+          "vi": "Con người tụi mình, nói thật, tôi, tôi luôn tin chắc,"
+        },
+        {
+          "zh": "就算科技如何发展，",
+          "vi": "dù công nghệ phát triển thế nào,"
+        },
+        {
+          "zh": "人和人之间这种连接感的东西，",
+          "vi": "sự gắn kết giữa người với người,"
+        }
+      ]
+    },
+    "186": {
+      "zh": "它不会被取代，不会被AI和机器人所取代。",
+      "parts": [
+        {
+          "zh": "它不会被取代，",
+          "vi": "nó sẽ không bị thay thế,"
+        },
+        {
+          "zh": "不会被AI和机器人所取代。",
+          "vi": "không bị AI hay robot thay thế."
+        }
+      ]
+    },
+    "187": {
+      "zh": "所以我不相信到一个学校以后，一个AI老师上课，那真的老师就不需要了。",
+      "parts": [
+        {
+          "zh": "所以我不相信到一个学校以后，",
+          "vi": "Nên tôi không tin đến một ngôi trường,"
+        },
+        {
+          "zh": "一个AI老师上课，",
+          "vi": "một giáo viên AI đứng lớp,"
+        },
+        {
+          "zh": "那真的老师就不需要了。",
+          "vi": "rồi giáo viên thật không cần nữa."
+        }
+      ]
+    },
+    "188": {
+      "zh": "我不相信这么一个未来。",
+      "vi": "Tôi không tin một tương lai như vậy."
+    },
+    "189": {
+      "zh": "嗯，这个。",
+      "vi": "Ừm, cái này."
+    },
+    "190": {
+      "zh": "在三十年前哦，台湾还没有流行用信用卡刷卡。",
+      "parts": [
+        {
+          "zh": "在三十年前哦，",
+          "vi": "Ba mươi năm trước,"
+        },
+        {
+          "zh": "台湾还没有流行用信用卡刷卡。",
+          "vi": "ở Đài Loan việc quẹt thẻ tín dụng chưa phổ biến."
+        }
+      ]
+    },
+    "191": {
+      "zh": "嗯嗯，很多专家说信用卡在台湾是不可能流行的。",
+      "parts": [
+        {
+          "zh": "嗯嗯，很多专家说",
+          "vi": "Ừm ừm, nhiều chuyên gia nói"
+        },
+        {
+          "zh": "信用卡在台湾是不可能流行的。",
+          "vi": "thẻ tín dụng ở Đài Loan không thể phổ biến được."
+        }
+      ]
+    },
+    "192": {
+      "zh": "嗯，是不可行的，一定会有一些诈骗或什么的案例。",
+      "parts": [
+        {
+          "zh": "嗯，是不可行的，",
+          "vi": "Ừm, là không khả thi,"
+        },
+        {
+          "zh": "一定会有一些诈骗或什么的案例。",
+          "vi": "chắc chắn sẽ có những vụ lừa đảo hay gì đó."
+        }
+      ]
+    },
+    "193": {
+      "zh": "嗯嗯嗯，没有想到十年后，那个那些专家三十年前的预言，隔了十年之后，",
+      "parts": [
+        {
+          "zh": "嗯嗯嗯，没有想到十年后，",
+          "vi": "Ừm ừm ừm, không ngờ mười năm sau,"
+        },
+        {
+          "zh": "那个那些专家三十年前的预言，",
+          "vi": "lời tiên đoán ba mươi năm trước của mấy chuyên gia đó,"
+        },
+        {
+          "zh": "隔了十年之后，",
+          "vi": "mười năm sau,"
+        }
+      ]
+    },
+    "194": {
+      "zh": "信用卡几乎在各家店面都广为使用。",
+      "vi": "thẻ tín dụng gần như được dùng rộng rãi ở mọi cửa hàng."
+    },
+    "195": {
+      "zh": "我的意思是说。",
+      "vi": "Ý tôi là."
+    },
+    "196": {
+      "zh": "或许在十年后，瑶瑶会跟璨叔说：“哎呀，老爸，我很怀念那个AI的Annie老师，",
+      "parts": [
+        {
+          "zh": "或许在十年后，瑶瑶会跟璨叔说：",
+          "vi": "Có khi mười năm nữa, Dao Dao sẽ nói với chú Xán:"
+        },
+        {
+          "zh": "“哎呀，老爸，我很怀念",
+          "vi": "\"Ôi bố ơi, con nhớ"
+        },
+        {
+          "zh": "那个AI的Annie老师，",
+          "vi": "cô giáo AI Annie quá,"
+        }
+      ]
+    },
+    "197": {
+      "zh": "我他教的好好，我很怀念他。",
+      "vi": "cô ấy dạy hay lắm, con nhớ cô ấy lắm."
+    },
+    "198": {
+      "zh": "我希望啊，真的再去那个学校找那个AI的Annie老师，或许会有这样的场景出现嘞。",
+      "parts": [
+        {
+          "zh": "我希望啊，真的再去那个学校",
+          "vi": "Con mong được quay lại ngôi trường đó"
+        },
+        {
+          "zh": "找那个AI的Annie老师，",
+          "vi": "tìm cô giáo AI Annie\","
+        },
+        {
+          "zh": "或许会有这样的场景出现嘞。",
+          "vi": "biết đâu sẽ có cảnh như thế đấy."
+        }
+      ]
+    },
+    "199": {
+      "zh": "就是以后的AI可能会有温度啊，只是你摸不到它而已啊，但是它的说话。”",
+      "parts": [
+        {
+          "zh": "就是以后的AI可能会有温度啊，",
+          "vi": "Tức là AI sau này có thể có hơi ấm đấy,"
+        },
+        {
+          "zh": "只是你摸不到它而已啊，",
+          "vi": "chỉ là bạn không chạm vào được thôi,"
+        },
+        {
+          "zh": "但是它的说话。”",
+          "vi": "nhưng lời nói của nó."
+        }
+      ]
+    },
+    "200": {
+      "zh": "它的内核是有温度的，也不一定，对不对？",
+      "parts": [
+        {
+          "zh": "它的内核是有温度的，",
+          "vi": "cốt lõi của nó là có hơi ấm,"
+        },
+        {
+          "zh": "也不一定，对不对？",
+          "vi": "cũng không chừng, đúng không?"
+        }
+      ]
+    },
+    "201": {
+      "zh": "对",
+      "vi": "Đúng"
+    },
+    "202": {
+      "zh": "你其实你这个举的例子我是能理解。",
+      "vi": "Anh, thật ra ví dụ anh đưa ra tôi hiểu được."
+    },
+    "203": {
+      "zh": "说实话，就是谁能想到，比如说现在中国完全的不用现金呢？",
+      "parts": [
+        {
+          "zh": "说实话，就是谁能想到，",
+          "vi": "Nói thật, ai mà ngờ được,"
+        },
+        {
+          "zh": "比如说现在中国完全的不用现金呢？",
+          "vi": "ví dụ như bây giờ Trung Quốc hoàn toàn không dùng tiền mặt?"
+        }
+      ]
+    },
+    "204": {
+      "zh": "这个东西发展如此之快，对，现在AI发展也很快。",
+      "parts": [
+        {
+          "zh": "这个东西发展如此之快，",
+          "vi": "Thứ này phát triển nhanh như thế,"
+        },
+        {
+          "zh": "对，现在AI发展也很快。",
+          "vi": "đúng, giờ AI cũng phát triển rất nhanh."
+        }
+      ]
+    },
+    "205": {
+      "zh": "它假以时日，我们不知道它会发展到什么一个程度。",
+      "parts": [
+        {
+          "zh": "它假以时日，我们不知道",
+          "vi": "Cho nó thêm thời gian, tụi mình không biết"
+        },
+        {
+          "zh": "它会发展到什么一个程度。",
+          "vi": "nó sẽ phát triển tới mức nào."
+        }
+      ]
+    },
+    "206": {
+      "zh": "可能",
+      "vi": "Có thể"
+    },
+    "207": {
+      "zh": "嗯，瑶瑶的孙子，嗯，小瑶瑶，嗯，不是是你的孙子不是，就是哎，可能瑶瑶的小孩小瑶瑶，",
+      "parts": [
+        {
+          "zh": "嗯，瑶瑶的孙子，嗯，小瑶瑶，嗯，",
+          "vi": "Ừm, cháu của Dao Dao, ừm, bé Dao Dao, ừm,"
+        },
+        {
+          "zh": "不是是你的孙子不是，就是哎，",
+          "vi": "à không, là cháu của anh, không phải, ơ,"
+        },
+        {
+          "zh": "可能瑶瑶的小孩小瑶瑶，",
+          "vi": "có thể là con của Dao Dao, Dao Dao nhỏ,"
+        }
+      ]
+    },
+    "208": {
+      "zh": "他可能就是以后被AI老师教啊。",
+      "vi": "có khi sau này được giáo viên AI dạy đấy."
+    },
+    "209": {
+      "zh": "嗯，",
+      "vi": "Ừm,"
+    },
+    "210": {
+      "zh": "对呀，我是觉得其实AI它肯定能作为一个更好的一个工具，",
+      "parts": [
+        {
+          "zh": "对呀，我是觉得其实AI它肯定能",
+          "vi": "Đúng vậy, tôi thấy thật ra AI chắc chắn có thể"
+        },
+        {
+          "zh": "作为一个更好的一个工具，",
+          "vi": "là một công cụ tốt hơn,"
+        }
+      ]
+    },
+    "211": {
+      "zh": "在教学上领域上作为一个工具存在，甚至它取代现在百分之老，就像Ben叔说的，",
+      "parts": [
+        {
+          "zh": "在教学上领域上作为一个工具存在，",
+          "vi": "tồn tại như một công cụ trong lĩnh vực dạy học,"
+        },
+        {
+          "zh": "甚至它取代现在百分之老，",
+          "vi": "thậm chí nó thay thế bây giờ bao nhiêu phần trăm giáo…"
+        },
+        {
+          "zh": "就像Ben叔说的，",
+          "vi": "như chú Ben nói,"
+        }
+      ]
+    },
+    "212": {
+      "zh": "取代现在百分之九十老师的工作，我都相信。",
+      "parts": [
+        {
+          "zh": "取代现在百分之九十老师的工作，",
+          "vi": "thay thế 90% công việc của giáo viên bây giờ,"
+        },
+        {
+          "zh": "我都相信。",
+          "vi": "tôi cũng tin."
+        }
+      ]
+    },
+    "213": {
+      "zh": "就是作为一个老师，他取代了他百分之九十一些繁琐琐碎的，甚至一些传达知识的这些东西，",
+      "parts": [
+        {
+          "zh": "就是作为一个老师，",
+          "vi": "Tức là với một giáo viên,"
+        },
+        {
+          "zh": "他取代了他百分之九十",
+          "vi": "nó thay 90% công việc của họ,"
+        },
+        {
+          "zh": "一些繁琐琐碎的，",
+          "vi": "những thứ rườm rà vụn vặt,"
+        },
+        {
+          "zh": "甚至一些传达知识的这些东西，",
+          "vi": "thậm chí cả việc truyền đạt kiến thức,"
+        }
+      ]
+    },
+    "214": {
+      "zh": "我都相信。",
+      "vi": "tôi đều tin."
+    },
+    "215": {
+      "zh": "但我觉得我还是坚信人和人。",
+      "vi": "Nhưng tôi thấy tôi vẫn tin chắc vào con người."
+    },
+    "216": {
+      "zh": "就是在学校这个地方，他需要有一个活生生的人和学生们打交道。",
+      "parts": [
+        {
+          "zh": "就是在学校这个地方，",
+          "vi": "Tức là ở nơi như trường học,"
+        },
+        {
+          "zh": "他需要有一个活生生的人",
+          "vi": "cần có một con người bằng xương bằng thịt"
+        },
+        {
+          "zh": "和学生们打交道。",
+          "vi": "tiếp xúc với học sinh."
+        }
+      ]
+    },
+    "217": {
+      "zh": "我不相信",
+      "vi": "Tôi không tin"
+    },
+    "218": {
+      "zh": "纯粹别的场景的话，璨叔是相信的。",
+      "vi": "Còn ở những nơi khác thì chú Xán tin."
+    },
+    "219": {
+      "zh": "但是在别",
+      "vi": "Nhưng ở những"
+    },
+    "220": {
+      "zh": "的场景，我像比如说这个公司里头，它都没有人，不需要人，我会相信。",
+      "parts": [
+        {
+          "zh": "的场景，我像比如说这个公司里头，",
+          "vi": "nơi khác, tôi, ví dụ như trong công ty,"
+        },
+        {
+          "zh": "它都没有人，不需要人，我会相信。",
+          "vi": "không có người, không cần người, tôi sẽ tin."
+        }
+      ]
+    },
+    "221": {
+      "zh": "现在很多这个工厂里头也不需要人，它黑灯工厂都是机器人，我相信。",
+      "parts": [
+        {
+          "zh": "现在很多这个工厂里头也不需要人，",
+          "vi": "Bây giờ nhiều nhà máy cũng không cần người,"
+        },
+        {
+          "zh": "它黑灯工厂都是机器人，我相信。",
+          "vi": "nhà máy tắt đèn toàn là robot, tôi tin."
+        }
+      ]
+    },
+    "222": {
+      "zh": "但是当涉及到一旦涉及到和人和人交往的接触，这么特别是养育一个人、",
+      "parts": [
+        {
+          "zh": "但是当涉及到一旦涉及到",
+          "vi": "Nhưng khi đụng tới, một khi đụng tới"
+        },
+        {
+          "zh": "和人和人交往的接触，",
+          "vi": "việc tiếp xúc giao lưu giữa người với người,"
+        },
+        {
+          "zh": "这么特别是养育一个人、",
+          "vi": "đặc biệt là nuôi dạy một con người,"
+        }
+      ]
+    },
+    "223": {
+      "zh": "养育一个人成长这么一个过程。",
+      "vi": "quá trình nuôi dạy một con người trưởng thành."
+    },
+    "224": {
+      "zh": "我是觉得作为一个人的存在是非常非常重要的，我而且特特别是因为我做一个爸爸，",
+      "parts": [
+        {
+          "zh": "我是觉得作为一个人的存在",
+          "vi": "Tôi thấy sự hiện diện của một con người"
+        },
+        {
+          "zh": "是非常非常重要的，",
+          "vi": "là cực kỳ quan trọng,"
+        },
+        {
+          "zh": "我而且特特别是因为我做一个爸爸，",
+          "vi": "mà đặc, đặc biệt là vì tôi làm bố,"
+        }
+      ]
+    },
+    "225": {
+      "zh": "我会知道就是养育孩子的过程中，就是嗯或者爸爸或者妈妈对孩子有多么的重要。",
+      "parts": [
+        {
+          "zh": "我会知道就是养育孩子的过程中，",
+          "vi": "tôi biết là trong quá trình nuôi con,"
+        },
+        {
+          "zh": "就是嗯或者爸爸或者妈妈",
+          "vi": "ừm, bố hoặc mẹ"
+        },
+        {
+          "zh": "对孩子有多么的重要。",
+          "vi": "quan trọng với con đến mức nào."
+        }
+      ]
+    },
+    "226": {
+      "zh": "重要，不管你多大，",
+      "vi": "quan trọng, dù bạn bao nhiêu tuổi,"
+    },
+    "227": {
+      "zh": "其实很多时候你很多问题都是小时候可能会被忽视或者没有得到足够的照顾等等，",
+      "parts": [
+        {
+          "zh": "其实很多时候你很多问题",
+          "vi": "Thật ra rất nhiều lúc, nhiều vấn đề của bạn"
+        },
+        {
+          "zh": "都是小时候可能会被忽视",
+          "vi": "là hồi nhỏ có thể bị phớt lờ"
+        },
+        {
+          "zh": "或者没有得到足够的照顾等等，",
+          "vi": "hoặc không được chăm sóc đủ, vân vân,"
+        }
+      ]
+    },
+    "228": {
+      "zh": "甚至在你成年成年之后还会产生很很不好的影响。",
+      "parts": [
+        {
+          "zh": "甚至在你成年成年之后",
+          "vi": "thậm chí sau khi bạn trưởng thành"
+        },
+        {
+          "zh": "还会产生很很不好的影响。",
+          "vi": "vẫn để lại ảnh hưởng rất không tốt."
+        }
+      ]
+    },
+    "229": {
+      "zh": "就说实话，这个人和人之间这种情感的连接，我是觉得无可取代的。",
+      "parts": [
+        {
+          "zh": "就说实话，这个人和人之间",
+          "vi": "Nói thật, giữa người với người,"
+        },
+        {
+          "zh": "这种情感的连接，",
+          "vi": "sợi dây tình cảm này,"
+        },
+        {
+          "zh": "我是觉得无可取代的。",
+          "vi": "tôi thấy là không gì thay được."
+        }
+      ]
+    },
+    "230": {
+      "zh": "老师其实也会有这种状态，对对，我们不可能对老师只是当做一个我只是和他学习而已。",
+      "parts": [
+        {
+          "zh": "老师其实也会有这种状态，对对，",
+          "vi": "Với giáo viên thật ra cũng vậy, đúng đúng,"
+        },
+        {
+          "zh": "我们不可能对老师只是当做一个",
+          "vi": "tụi mình không thể coi giáo viên chỉ là"
+        },
+        {
+          "zh": "我只是和他学习而已。",
+          "vi": "tôi chỉ học với họ mà thôi."
+        }
+      ]
+    },
+    "231": {
+      "zh": "嗯嗯，好，",
+      "vi": "Ừm ừm, được,"
+    },
+    "232": {
+      "zh": "嗯嗯，很好的想法。",
+      "vi": "Ừm ừm, ý kiến hay lắm."
+    },
+    "233": {
+      "zh": "以后可能会有AI父母、机器人了，机器人父母养育一些孤儿有可能啊啊对。",
+      "parts": [
+        {
+          "zh": "以后可能会有AI父母、机器人了，",
+          "vi": "Sau này có thể có bố mẹ AI, robot rồi,"
+        },
+        {
+          "zh": "机器人父母养育一些孤儿",
+          "vi": "bố mẹ robot nuôi dạy những trẻ mồ côi"
+        },
+        {
+          "zh": "有可能啊啊对。",
+          "vi": "cũng có thể lắm, à à đúng."
+        }
+      ]
+    },
+    "234": {
+      "zh": "那我有另外一个场景要问Ben叔。",
+      "vi": "Vậy tôi có một tình huống khác muốn hỏi chú Ben."
+    },
+    "235": {
+      "zh": "嗯嗯，就是可能我们大叔中文很火，嗯嗯哦流量很高，订阅是AI大叔。",
+      "parts": [
+        {
+          "zh": "嗯嗯，就是可能我们大叔中文很火，",
+          "vi": "Ừm ừm, tức là có thể Dashu Mandarin của tụi mình rất nổi,"
+        },
+        {
+          "zh": "嗯嗯哦流量很高，订阅是AI大叔。",
+          "vi": "ừm ừm ồ, lượt xem rất cao, lượt đăng ký…"
+        }
+      ]
+    },
+    "236": {
+      "zh": "结果隔了两年之后出现了三位AI大叔，都不用出",
+      "parts": [
+        {
+          "zh": "结果隔了两年之后",
+          "vi": "Kết quả hai năm sau"
+        },
+        {
+          "zh": "出现了三位AI大叔，都不用出",
+          "vi": "xuất hiện ba ông chú AI, khỏi cần xuất"
+        }
+      ]
+    },
+    "237": {
+      "zh": "现AI大叔啊！",
+      "vi": "hiện, ông chú AI luôn!"
+    },
+    "238": {
+      "zh": "现在中国的AI就是你卖带货的时候，嗯，你一般你他自己",
+      "parts": [
+        {
+          "zh": "现在中国的AI",
+          "vi": "Bây giờ AI ở Trung Quốc"
+        },
+        {
+          "zh": "就是你卖带货的时候，嗯，",
+          "vi": "là lúc bạn bán hàng livestream, ừm,"
+        },
+        {
+          "zh": "你一般你他自己",
+          "vi": "bạn thường thì bạn, nó tự"
+        }
+      ]
+    },
+    "239": {
+      "zh": "就自己生成那个，你不",
+      "vi": "tự tạo ra cái đó, bạn không"
+    },
+    "240": {
+      "zh": "说话，你不说话就拿着那个东西这样对着屏幕，然后很火。",
+      "parts": [
+        {
+          "zh": "说话，你不说话就拿着那个东西",
+          "vi": "nói gì, bạn không nói gì, chỉ cầm món đồ đó"
+        },
+        {
+          "zh": "这样对着屏幕，然后很火。",
+          "vi": "chĩa vào màn hình như thế, rồi rất nổi."
+        }
+      ]
+    },
+    "241": {
+      "zh": "然后AI就可以生成出来你的那个卖东西的那个sales pitch啊，就全都说出来了。",
+      "parts": [
+        {
+          "zh": "然后AI就可以生成出来",
+          "vi": "Rồi AI có thể tạo ra"
+        },
+        {
+          "zh": "你的那个卖东西的",
+          "vi": "cái phần bán hàng của bạn,"
+        },
+        {
+          "zh": "那个sales pitch啊，",
+          "vi": "lời chào hàng (sales pitch) ấy,"
+        },
+        {
+          "zh": "就全都说出来了。",
+          "vi": "nói ra hết luôn."
+        }
+      ]
+    },
+    "242": {
+      "zh": "真的，现在不是",
+      "vi": "Thật đó, bây giờ không phải"
+    },
+    "243": {
+      "zh": "别人的嘴型？",
+      "vi": "khẩu hình của người khác à?"
+    },
+    "244": {
+      "zh": "对对对，我看到这个了。",
+      "vi": "Đúng đúng đúng, tôi có thấy cái này."
+    },
+    "245": {
+      "zh": "现在DeepSeek也是有这个功能，像很多义乌的老板，他们就卖货给全世界嘛，",
+      "parts": [
+        {
+          "zh": "现在DeepSeek",
+          "vi": "Bây giờ DeepSeek"
+        },
+        {
+          "zh": "也是有这个功能，",
+          "vi": "cũng có chức năng này,"
+        },
+        {
+          "zh": "像很多义乌的老板，",
+          "vi": "như nhiều ông chủ ở Nghĩa Ô,"
+        },
+        {
+          "zh": "他们就卖货给全世界嘛，",
+          "vi": "họ bán hàng cho cả thế giới mà,"
+        }
+      ]
+    },
+    "246": {
+      "zh": "需要各种语言去卖货，但是他们只是在镜头面前说一二三四，然后生成了各种语",
+      "parts": [
+        {
+          "zh": "需要各种语言去卖货，",
+          "vi": "cần đủ thứ tiếng để bán hàng,"
+        },
+        {
+          "zh": "但是他们只是在镜头面前",
+          "vi": "nhưng họ chỉ đứng trước ống kính"
+        },
+        {
+          "zh": "说一二三四，然后生成了各种语",
+          "vi": "nói một hai ba bốn, rồi tạo ra đủ thứ"
+        }
+      ]
+    },
+    "247": {
+      "zh": "言直接出去了。",
+      "vi": "tiếng, đưa ra luôn."
+    },
+    "248": {
+      "zh": "对对对，",
+      "vi": "Đúng đúng đúng,"
+    },
+    "249": {
+      "zh": "视频就各种语言就出去了，真的。",
+      "vi": "video bằng đủ thứ tiếng là ra luôn, thật đấy."
+    },
+    "250": {
+      "zh": "所以查叔都你都不用说别的频道，就我们的频道。",
+      "parts": [
+        {
+          "zh": "所以查叔都你都不用说别的频道，",
+          "vi": "Nên chú Tra ơi, anh khỏi nói kênh khác,"
+        },
+        {
+          "zh": "就我们的频道。",
+          "vi": "kênh của tụi mình thôi."
+        }
+      ]
+    },
+    "251": {
+      "zh": "就我们三张脸，你放到AI里边，你就说现在我们要做今天的主题就是自学中文，",
+      "parts": [
+        {
+          "zh": "就我们三张脸，你放到AI里边，",
+          "vi": "Ba khuôn mặt tụi mình, anh bỏ vào AI,"
+        },
+        {
+          "zh": "你就说现在我们要做今天的主题",
+          "vi": "anh bảo bây giờ tụi mình làm chủ đề hôm nay"
+        },
+        {
+          "zh": "就是自学中文，",
+          "vi": "là tự học tiếng Trung,"
+        }
+      ]
+    },
+    "252": {
+      "zh": "然后四十五分钟，然后你给我做一期大叔，他应该",
+      "parts": [
+        {
+          "zh": "然后四十五分钟，",
+          "vi": "rồi 45 phút,"
+        },
+        {
+          "zh": "然后你给我做一期大叔，他应该",
+          "vi": "rồi anh làm cho tôi một tập Dashu, nó chắc là"
+        }
+      ]
+    },
+    "253": {
+      "zh": "就能他们就可以过几年就能出来了。",
+      "vi": "là được, mấy năm nữa là chúng làm được rồi."
+    },
+    "254": {
+      "zh": "他们就自己互聊，就聊个出发来。",
+      "vi": "Chúng tự nói chuyện với nhau, cứ thế mà nói."
+    },
+    "255": {
+      "zh": "他你",
+      "vi": "Nó, anh"
+    },
+    "256": {
+      "zh": "把前一百期大叔视频就是传进去，然后现在就以这个三个大叔的风格，",
+      "parts": [
+        {
+          "zh": "把前一百期大叔视频就是传进去，",
+          "vi": "đưa một trăm tập Dashu trước đó vào,"
+        },
+        {
+          "zh": "然后现在就以这个三个大叔的风格，",
+          "vi": "rồi giờ theo phong cách của ba ông chú này,"
+        }
+      ]
+    },
+    "257": {
+      "zh": "然后你给我做一期自学中文的主题。",
+      "vi": "rồi anh làm cho tôi một tập chủ đề tự học tiếng Trung."
+    },
+    "258": {
+      "zh": "播客就出来了，所以",
+      "vi": "thế là podcast ra lò, nên"
+    },
+    "259": {
+      "zh": "如果真的有AI厂商要跟大叔中文竞争的话，我们可能会被干掉，",
+      "parts": [
+        {
+          "zh": "如果真的有AI厂商",
+          "vi": "Nếu thật sự có hãng AI"
+        },
+        {
+          "zh": "要跟大叔中文竞争的话，",
+          "vi": "cạnh tranh với Dashu Mandarin,"
+        },
+        {
+          "zh": "我们可能会被干掉，",
+          "vi": "tụi mình có khi bị loại luôn,"
+        }
+      ]
+    },
+    "260": {
+      "zh": "对不对？",
+      "vi": "đúng không?"
+    },
+    "261": {
+      "zh": "呃，但是前期他干不掉，因为前期他必须学习一些东西，对吧？",
+      "parts": [
+        {
+          "zh": "呃，但是前期他干不掉，",
+          "vi": "Ờ, nhưng lúc đầu nó không hạ được tụi mình đâu,"
+        },
+        {
+          "zh": "因为前期他必须学习一些东西，对吧？",
+          "vi": "vì lúc đầu nó phải học một số thứ, đúng không?"
+        }
+      ]
+    },
+    "262": {
+      "zh": "啊，像我们现在前期",
+      "vi": "À, như tụi mình bây giờ giai đoạn đầu"
+    },
+    "263": {
+      "zh": "有了累积，还有我们呃前期积累的这个学生粉丝啊跟流量啊，但难保他出来的是三个帅哥就很难",
+      "parts": [
+        {
+          "zh": "有了累积，还有我们呃前期积累的",
+          "vi": "đã có tích lũy, rồi tụi mình ờ đã tích lũy"
+        },
+        {
+          "zh": "这个学生粉丝啊跟流量啊，",
+          "vi": "học viên, fan và lượt xem,"
+        },
+        {
+          "zh": "但难保他出来的是三个帅哥就很难",
+          "vi": "nhưng khó nói trước, nó mà ra ba anh đẹp trai thì khó"
+        }
+      ]
+    },
+    "264": {
+      "zh": "讲。",
+      "vi": "nói."
+    },
+    "265": {
+      "zh": "对不对？",
+      "vi": "Đúng không?"
+    },
+    "266": {
+      "zh": "现在AI太厉害了，因为以前AI做的一些视频，你一看就知道是AI做的。",
+      "parts": [
+        {
+          "zh": "现在AI太厉害了，",
+          "vi": "Giờ AI giỏi quá rồi,"
+        },
+        {
+          "zh": "因为以前AI做的一些视频，",
+          "vi": "vì trước đây một số video AI làm,"
+        },
+        {
+          "zh": "你一看就知道是AI做的。",
+          "vi": "bạn nhìn cái là biết AI làm."
+        }
+      ]
+    },
+    "267": {
+      "zh": "你就看细节的部分就很模糊，手指可能变成六个七个。",
+      "parts": [
+        {
+          "zh": "你就看细节的部分就很模糊，",
+          "vi": "Bạn nhìn mấy chi tiết là thấy mờ mờ,"
+        },
+        {
+          "zh": "手指可能变成六个七个。",
+          "vi": "ngón tay có khi thành sáu ngón bảy ngón."
+        }
+      ]
+    },
+    "268": {
+      "zh": "嗯，但是这两天我发现有的视频把我骗过去了，AI生成的视频。",
+      "parts": [
+        {
+          "zh": "嗯，但是这两天我发现",
+          "vi": "Ừm, nhưng mấy hôm nay tôi phát hiện"
+        },
+        {
+          "zh": "有的视频把我骗过去了，",
+          "vi": "có video lừa được tôi luôn,"
+        },
+        {
+          "zh": "AI生成的视频。",
+          "vi": "video do AI tạo ra."
+        }
+      ]
+    },
+    "269": {
+      "zh": "嗯，而且它也会加一些那个让你真的呼唤你人性的那种东西，比如说那个一个鸟妈妈，",
+      "parts": [
+        {
+          "zh": "嗯，而且它也会加一些那个",
+          "vi": "Ừm, mà nó còn thêm vào mấy thứ"
+        },
+        {
+          "zh": "让你真的呼唤你人性的那种东西，",
+          "vi": "đánh thức tính người trong bạn,"
+        },
+        {
+          "zh": "比如说那个一个鸟妈妈，",
+          "vi": "ví dụ như một con chim mẹ,"
+        }
+      ]
+    },
+    "270": {
+      "zh": "一个鸟妈妈喂鸟吃的东西。",
+      "vi": "một con chim mẹ mớm mồi cho chim con."
+    },
+    "271": {
+      "zh": "然后他喂别的鸟就不喂一只鸟，然后我当时就很气愤。",
+      "parts": [
+        {
+          "zh": "然后他喂别的鸟就不喂一只鸟，",
+          "vi": "Rồi nó mớm cho con khác mà không mớm cho một con,"
+        },
+        {
+          "zh": "然后我当时就很气愤。",
+          "vi": "rồi lúc đó tôi tức lắm."
+        }
+      ]
+    },
+    "272": {
+      "zh": "然后后来一看评论，他说是AI生成的，但是那个场景就非常的真实，就把我骗过去了。",
+      "parts": [
+        {
+          "zh": "然后后来一看评论，",
+          "vi": "Rồi sau đó xem bình luận,"
+        },
+        {
+          "zh": "他说是AI生成的，",
+          "vi": "người ta nói là AI tạo ra,"
+        },
+        {
+          "zh": "但是那个场景就非常的真实，",
+          "vi": "nhưng cảnh đó cực kỳ chân thực,"
+        },
+        {
+          "zh": "就把我骗过去了。",
+          "vi": "lừa được tôi luôn."
+        }
+      ]
+    },
+    "273": {
+      "zh": "就以前我还一看你就知道啊，这AI做的，但这次就是我看评论才发现，然后回去再看，",
+      "parts": [
+        {
+          "zh": "就以前我还一看",
+          "vi": "Trước đây tôi nhìn một cái"
+        },
+        {
+          "zh": "你就知道啊，这AI做的，",
+          "vi": "là biết ngay, cái này AI làm,"
+        },
+        {
+          "zh": "但这次就是我看评论才发现，",
+          "vi": "nhưng lần này tôi xem bình luận mới phát hiện,"
+        },
+        {
+          "zh": "然后回去再看，",
+          "vi": "rồi quay lại xem,"
+        }
+      ]
+    },
+    "274": {
+      "zh": "然后再仔细看，非常仔细看，然后发现确实有一",
+      "parts": [
+        {
+          "zh": "然后再仔细看，非常仔细看，",
+          "vi": "rồi xem kỹ, xem thật kỹ,"
+        },
+        {
+          "zh": "然后发现确实有一",
+          "vi": "rồi phát hiện đúng là có một"
+        }
+      ]
+    },
+    "275": {
+      "zh": "些。",
+      "vi": "ít."
+    },
+    "276": {
+      "zh": "痕迹这个这这个让我想起台湾现在有一些趋势了，",
+      "parts": [
+        {
+          "zh": "痕迹这个这这个让我想起",
+          "vi": "dấu vết. Cái này, cái này làm tôi nhớ tới"
+        },
+        {
+          "zh": "台湾现在有一些趋势了，",
+          "vi": "ở Đài Loan bây giờ có vài xu hướng,"
+        }
+      ]
+    },
+    "277": {
+      "zh": "就是新闻台嗯新闻台要聘一个主播气象主播运动主播你每一个项目都要聘一个新的主播嗯现在呃电视台干脆用AI主播那有AI省了很多省了很多人事成本你只要把资料给AI他就可以念的又标准哦然后那个AI做的这个。主播又漂亮，说话谈吐又大方啊！",
+      "parts": [
+        {
+          "zh": "就是新闻台嗯新闻台要聘一个主播",
+          "vi": "là đài tin tức, ừm, đài tin tức phải thuê một người dẫn,"
+        },
+        {
+          "zh": "气象主播运动主播",
+          "vi": "người dẫn thời tiết, người dẫn thể thao,"
+        },
+        {
+          "zh": "你每一个项目都要聘一个新的主播",
+          "vi": "mỗi mảng đều phải thuê một người dẫn mới, ừm,"
+        },
+        {
+          "zh": "嗯现在呃电视台干脆用AI主播",
+          "vi": "giờ thì ờ đài truyền hình dùng luôn người dẫn AI,"
+        },
+        {
+          "zh": "那有AI省了很多",
+          "vi": "thì có AI đỡ được nhiều,"
+        },
+        {
+          "zh": "省了很多人事成本",
+          "vi": "đỡ được nhiều chi phí nhân sự,"
+        },
+        {
+          "zh": "你只要把资料给AI",
+          "vi": "bạn chỉ cần đưa tài liệu cho AI"
+        },
+        {
+          "zh": "他就可以念的又标准哦",
+          "vi": "là nó đọc chuẩn lắm,"
+        },
+        {
+          "zh": "然后那个AI做的这个。主播又漂亮，",
+          "vi": "rồi người dẫn AI làm ra đó lại xinh,"
+        },
+        {
+          "zh": "说话谈吐又大方啊！",
+          "vi": "ăn nói lại đường hoàng nữa!"
+        }
+      ]
+    },
+    "281": {
+      "zh": "所以这个台湾第一个就是很多电视台已经在用AI主播了。",
+      "parts": [
+        {
+          "zh": "所以这个台湾第一个就是",
+          "vi": "Nên ở Đài Loan, thứ nhất là"
+        },
+        {
+          "zh": "很多电视台已经在用AI主播了。",
+          "vi": "nhiều đài truyền hình đã dùng người dẫn AI rồi."
+        }
+      ]
+    },
+    "282": {
+      "zh": "然后第二个就是现在台湾有个音乐人，我忘记他的名字了啊，但是他现在在捧红一个AI歌手。",
+      "parts": [
+        {
+          "zh": "然后第二个就是",
+          "vi": "Rồi thứ hai là"
+        },
+        {
+          "zh": "现在台湾有个音乐人，",
+          "vi": "bây giờ ở Đài Loan có một người làm nhạc,"
+        },
+        {
+          "zh": "我忘记他的名字了啊，",
+          "vi": "tôi quên tên người đó rồi,"
+        },
+        {
+          "zh": "但是他现在在捧红一个AI歌手。",
+          "vi": "nhưng giờ người đó đang lăng xê một ca sĩ AI."
+        }
+      ]
+    },
+    "283": {
+      "zh": "嗯嗯，他现在他说现在他要做真人的歌手太难了，因为太竞争了。",
+      "parts": [
+        {
+          "zh": "嗯嗯，他现在他说",
+          "vi": "Ừm ừm, giờ người đó nói"
+        },
+        {
+          "zh": "现在他要做真人的歌手太难了，",
+          "vi": "bây giờ lăng xê ca sĩ người thật khó quá,"
+        },
+        {
+          "zh": "因为太竞争了。",
+          "vi": "vì cạnh tranh quá."
+        }
+      ]
+    },
+    "284": {
+      "zh": "然后呢，他觉得现在AI是趋势，所以他现在想要捧红AI歌手。",
+      "parts": [
+        {
+          "zh": "然后呢，他觉得现在AI是趋势，",
+          "vi": "Rồi thì người đó thấy giờ AI là xu hướng,"
+        },
+        {
+          "zh": "所以他现在想要捧红AI歌手。",
+          "vi": "nên muốn lăng xê ca sĩ AI."
+        }
+      ]
+    },
+    "285": {
+      "zh": "嗯，所以我觉得这个在台湾好像有些音乐制作人也想要朝这个方向去做啊，做一个AI明星哦。",
+      "parts": [
+        {
+          "zh": "嗯，所以我觉得这个在台湾",
+          "vi": "Ừm, nên tôi thấy ở Đài Loan"
+        },
+        {
+          "zh": "好像有些音乐制作人",
+          "vi": "hình như có vài nhà sản xuất âm nhạc"
+        },
+        {
+          "zh": "也想要朝这个方向去做啊，",
+          "vi": "cũng muốn đi theo hướng này,"
+        },
+        {
+          "zh": "做一个AI明星哦。",
+          "vi": "làm một ngôi sao AI."
+        }
+      ]
+    },
+    "286": {
+      "zh": "然后像刚刚Ben叔说的这个，我就很气愤，就是说我们三位大叔做那个短视频做的半死不活的，",
+      "parts": [
+        {
+          "zh": "然后像刚刚Ben叔说的这个，",
+          "vi": "Rồi như chú Ben vừa nói,"
+        },
+        {
+          "zh": "我就很气愤，就是说我们三位大叔",
+          "vi": "tôi tức lắm, tức là ba ông chú tụi mình"
+        },
+        {
+          "zh": "做那个短视频做的半死不活的，",
+          "vi": "làm video ngắn dở sống dở chết,"
+        }
+      ]
+    },
+    "287": {
+      "zh": "那个按赞的哦可能才十几二十个。",
+      "vi": "lượt like có khi chỉ mười mấy hai mươi."
+    },
+    "288": {
+      "zh": "没人要看，我看到有人用AI做两只小猫在那边摸来摸去的AI做的哦，但是很可爱，几万个赞。",
+      "parts": [
+        {
+          "zh": "没人要看，我看到有人用AI",
+          "vi": "Chẳng ai xem, tôi thấy có người dùng AI"
+        },
+        {
+          "zh": "做两只小猫在那边摸来摸去的",
+          "vi": "làm hai con mèo con vờn qua vờn lại,"
+        },
+        {
+          "zh": "AI做的哦，但是很可爱，几万个赞。",
+          "vi": "AI làm đấy, nhưng dễ thương lắm, mấy chục nghìn like."
+        }
+      ]
+    },
+    "289": {
+      "zh": "所以你可以用AI做各式各样的短视频，然后去收割流量。",
+      "parts": [
+        {
+          "zh": "所以你可以用AI",
+          "vi": "Nên bạn có thể dùng AI"
+        },
+        {
+          "zh": "做各式各样的短视频，",
+          "vi": "làm đủ loại video ngắn,"
+        },
+        {
+          "zh": "然后去收割流量。",
+          "vi": "rồi đi gom lượt xem."
+        }
+      ]
+    },
+    "290": {
+      "zh": "我觉得现在这个也是一个很很大的趋势哎，所以我觉得未来的世界真的不是我们能想象的。",
+      "parts": [
+        {
+          "zh": "我觉得现在这个",
+          "vi": "Tôi thấy bây giờ cái này"
+        },
+        {
+          "zh": "也是一个很很大的趋势哎，",
+          "vi": "cũng là một xu hướng rất, rất lớn,"
+        },
+        {
+          "zh": "所以我觉得未来的世界",
+          "vi": "nên tôi thấy thế giới tương lai"
+        },
+        {
+          "zh": "真的不是我们能想象的。",
+          "vi": "thật sự không phải thứ tụi mình tưởng tượng được."
+        }
+      ]
+    },
+    "291": {
+      "zh": "我五年以",
+      "vi": "Năm năm nữa"
+    },
+    "292": {
+      "zh": "后再录一期好了。",
+      "vi": "rồi thu lại một tập nhé."
+    },
+    "293": {
+      "zh": "我",
+      "vi": "Tôi"
+    },
+    "294": {
+      "zh": "真的，我真的，我跟你们的想法可能不太一样，我真的深深觉。",
+      "vi": "Thật đấy, tôi thật sự, ý tôi có lẽ khác các anh, tôi thật sự thấy rõ."
+    },
+    "295": {
+      "zh": "的AI是可以取代中文老师的，嗯。",
+      "vi": "rằng AI có thể thay thế giáo viên tiếng Trung, ừm."
+    },
+    "296": {
+      "zh": "当然你们有聊到情绪价值，嗯。",
+      "vi": "Tất nhiên các anh có nói tới giá trị cảm xúc, ừm."
+    },
+    "297": {
+      "zh": "但是情绪价值有时候在学校经营的成本，",
+      "parts": [
+        {
+          "zh": "但是情绪价值有时候",
+          "vi": "Nhưng giá trị cảm xúc đôi khi"
+        },
+        {
+          "zh": "在学校经营的成本，",
+          "vi": "trong chi phí vận hành của trường,"
+        }
+      ]
+    },
+    "298": {
+      "zh": "然后在很多这个我们可能人跟人之间又有一些什么利益啦，",
+      "parts": [
+        {
+          "zh": "然后在很多这个我们可能",
+          "vi": "rồi trong nhiều chuyện, tụi mình có khi"
+        },
+        {
+          "zh": "人跟人之间又有一些什么利益啦，",
+          "vi": "giữa người với người lại có lợi ích gì đó,"
+        }
+      ]
+    },
+    "299": {
+      "zh": "或者你要呃反正就是有很多经营上的考量，嗯，人事管理的考量，嗯，",
+      "parts": [
+        {
+          "zh": "或者你要呃反正就是",
+          "vi": "hoặc anh phải, ờ, dù sao thì"
+        },
+        {
+          "zh": "有很多经营上的考量，嗯，",
+          "vi": "có nhiều tính toán về kinh doanh, ừm,"
+        },
+        {
+          "zh": "人事管理的考量，嗯，",
+          "vi": "tính toán về quản lý nhân sự, ừm,"
+        }
+      ]
+    },
+    "300": {
+      "zh": "那可能会考虑用AI或AI机器人。",
+      "vi": "thì có thể sẽ cân nhắc dùng AI hoặc robot AI."
+    },
+    "301": {
+      "zh": "可能学校会觉得更简单、更省成本，然后家长可能也会觉得哦，这也好啊。",
+      "parts": [
+        {
+          "zh": "可能学校会觉得更简单、更省成本，",
+          "vi": "Có thể trường sẽ thấy đơn giản hơn, đỡ tốn hơn,"
+        },
+        {
+          "zh": "然后家长可能也会觉得哦，这也好啊。",
+          "vi": "rồi phụ huynh có thể cũng thấy, ồ, thế cũng hay."
+        }
+      ]
+    },
+    "302": {
+      "zh": "AI AI的知识也很丰富哦，所以我真的觉得以后很有可能会有AI学校或AI的老师。",
+      "parts": [
+        {
+          "zh": "AI AI的知识也很丰富哦，",
+          "vi": "AI, kiến thức của AI cũng rất phong phú,"
+        },
+        {
+          "zh": "所以我真的觉得以后很有可能",
+          "vi": "nên tôi thật sự thấy sau này rất có thể"
+        },
+        {
+          "zh": "会有AI学校或AI的老师。",
+          "vi": "sẽ có trường AI hoặc giáo viên AI."
+        }
+      ]
+    },
+    "303": {
+      "zh": "我觉得AI可以取代大部分的工作，这是我的感觉。",
+      "parts": [
+        {
+          "zh": "我觉得AI可以取代大部分的工作，",
+          "vi": "Tôi thấy AI có thể thay phần lớn công việc,"
+        },
+        {
+          "zh": "这是我的感觉。",
+          "vi": "đó là cảm nhận của tôi."
+        }
+      ]
+    },
+    "304": {
+      "zh": "所以我们三位可能要考虑一下啊，要找一个AI无法取代的工作了。",
+      "parts": [
+        {
+          "zh": "所以我们三位可能要考虑一下啊，",
+          "vi": "Nên ba tụi mình có lẽ phải tính toán chút,"
+        },
+        {
+          "zh": "要找一个AI无法取代的工作了。",
+          "vi": "tìm một công việc AI không thay được."
+        }
+      ]
+    },
+    "305": {
+      "zh": "不然我们很容易就要失业了啊！",
+      "vi": "Không thì tụi mình dễ thất nghiệp lắm!"
+    },
+    "306": {
+      "zh": "嗯，对啊。",
+      "vi": "Ừm, đúng vậy."
+    },
+    "307": {
+      "zh": "好，OK。",
+      "vi": "Được, OK."
+    },
+    "308": {
+      "zh": "那不晓得大家对AI这么进步有什么看法？",
+      "parts": [
+        {
+          "zh": "那不晓得大家对AI这么进步",
+          "vi": "Không biết mọi người thấy AI tiến bộ thế này"
+        },
+        {
+          "zh": "有什么看法？",
+          "vi": "thì có suy nghĩ gì?"
+        }
+      ]
+    },
+    "309": {
+      "zh": "你觉得AI可以取代中文老师吗？",
+      "vi": "Bạn thấy AI có thay được giáo viên tiếng Trung không?"
+    },
+    "310": {
+      "zh": "还是你觉得三位大叔呢是AI永远无法取代的？",
+      "parts": [
+        {
+          "zh": "还是你觉得三位大叔呢",
+          "vi": "Hay bạn thấy ba ông chú"
+        },
+        {
+          "zh": "是AI永远无法取代的？",
+          "vi": "là thứ AI mãi mãi không thay được?"
+        }
+      ]
+    },
+    "311": {
+      "zh": "请你们留言告诉我们哦。",
+      "vi": "Hãy để lại bình luận cho tụi mình nhé."
+    },
+    "312": {
+      "zh": "我们希望你们的回答是：我们三位是无法被取代的啊，因为我们给大家很多的情绪价值，",
+      "parts": [
+        {
+          "zh": "我们希望你们的回答是：",
+          "vi": "Tụi mình mong câu trả lời của các bạn là:"
+        },
+        {
+          "zh": "我们三位是无法被取代的啊，",
+          "vi": "ba tụi mình là không thể bị thay thế,"
+        },
+        {
+          "zh": "因为我们给大家很多的情绪价值，",
+          "vi": "vì tụi mình mang đến cho mọi người rất nhiều giá trị cảm xúc,"
+        }
+      ]
+    },
+    "313": {
+      "zh": "很多的美好。",
+      "vi": "rất nhiều điều tốt đẹp."
+    },
+    "314": {
+      "zh": "看到三位大叔的脸胜过小鲜肉，嗯，胜过那些。偶像啊，因为",
+      "vi": "Nhìn mặt ba ông chú còn hơn mấy cậu trai trẻ đẹp, ừm, hơn mấy thần tượng kia, vì"
+    },
+    "316": {
+      "zh": "你要说的话要自己首先要有信念感才行哦。",
+      "parts": [
+        {
+          "zh": "你要说的话",
+          "vi": "Muốn nói câu đó thì"
+        },
+        {
+          "zh": "要自己首先要有信念感才行哦。",
+          "vi": "bản thân phải tin vào nó trước mới được."
+        }
+      ]
+    },
+    "317": {
+      "zh": "对，我完全没有信念感，完全很心虚的讲这些话啊。",
+      "parts": [
+        {
+          "zh": "对，我完全没有信念感，",
+          "vi": "Đúng, tôi chẳng tin chút nào,"
+        },
+        {
+          "zh": "完全很心虚的讲这些话啊。",
+          "vi": "nói mấy câu này mà chột dạ quá."
+        }
+      ]
+    },
+    "318": {
+      "zh": "好，那我们今天就聊到这了，希望大家喜欢这一期的播客。",
+      "parts": [
+        {
+          "zh": "好，那我们今天就聊到这了，",
+          "vi": "Được rồi, hôm nay tụi mình nói tới đây,"
+        },
+        {
+          "zh": "希望大家喜欢这一期的播客。",
+          "vi": "mong mọi người thích tập podcast này."
+        }
+      ]
+    },
+    "319": {
+      "zh": "嗯，那下次见，大家拜拜，拜拜。",
+      "vi": "Ừm, hẹn gặp lại lần sau, bye bye mọi người, bye bye."
+    }
+  }
+}

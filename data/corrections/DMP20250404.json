@@ -1,0 +1,292 @@
+{
+  "episode": "DMP20250404",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-09",
+  "fixes": [
+    {
+      "cueIndex": 4,
+      "before": "Deep Se",
+      "after": "DeepSe",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 23,
+      "before": "You Tube",
+      "after": "YouTube",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 196,
+      "before": "An nie",
+      "after": "Annie",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 198,
+      "before": "An nie",
+      "after": "Annie",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 241,
+      "before": "s ales",
+      "after": "sales",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 241,
+      "before": "ales pitch",
+      "after": "alespitch",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 302,
+      "before": "AI AI",
+      "after": "AIAI",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 4,
+      "before": "DeepSe ek",
+      "after": "DeepSeek",
+      "source": "llm-review",
+      "reason": "The Chinese AI model DeepSeek; the glue pass joined only part of it.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 69,
+      "before": "De ep Se ek",
+      "after": "DeepSeek",
+      "source": "llm-review",
+      "reason": "The Chinese AI model DeepSeek, split into fragments.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 245,
+      "before": "De ep Se ek",
+      "after": "DeepSeek",
+      "source": "llm-review",
+      "reason": "The Chinese AI model DeepSeek, split into fragments.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 119,
+      "before": "Chat G P T",
+      "after": "ChatGPT",
+      "source": "llm-review",
+      "reason": "ChatGPT, split into fragments.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 241,
+      "before": "salespitch",
+      "after": "sales pitch",
+      "source": "llm-review",
+      "reason": "Two English words (sales pitch); the glue pass joined them.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 302,
+      "before": "AIAI",
+      "after": "AI AI",
+      "source": "llm-review",
+      "reason": "AI said twice; the glue pass joined the repeat into one word.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 16,
+      "before": "笨叔",
+      "after": "Ben叔",
+      "source": "llm-review",
+      "reason": "The host is Ben叔 (Uncle Ben): the show notes write Ben叔 13 times, and whisper hears \"Ben叔\" unprompted; 笨叔 (\"stupid uncle\") is the ASR's homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 19,
+      "before": "笨叔",
+      "after": "Ben叔",
+      "source": "llm-review",
+      "reason": "The host is Ben叔 (Uncle Ben): the show notes write Ben叔 13 times, and whisper hears \"Ben叔\" unprompted; 笨叔 (\"stupid uncle\") is the ASR's homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 55,
+      "before": "笨叔",
+      "after": "Ben叔",
+      "source": "llm-review",
+      "reason": "The host is Ben叔 (Uncle Ben): the show notes write Ben叔 13 times, and whisper hears \"Ben叔\" unprompted; 笨叔 (\"stupid uncle\") is the ASR's homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 115,
+      "before": "笨叔",
+      "after": "Ben叔",
+      "source": "llm-review",
+      "reason": "The host is Ben叔 (Uncle Ben): the show notes write Ben叔 13 times, and whisper hears \"Ben叔\" unprompted; 笨叔 (\"stupid uncle\") is the ASR's homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 211,
+      "before": "笨叔",
+      "after": "Ben叔",
+      "source": "llm-review",
+      "reason": "The host is Ben叔 (Uncle Ben): the show notes write Ben叔 13 times, and whisper hears \"Ben叔\" unprompted; 笨叔 (\"stupid uncle\") is the ASR's homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 234,
+      "before": "笨叔",
+      "after": "Ben叔",
+      "source": "llm-review",
+      "reason": "The host is Ben叔 (Uncle Ben): the show notes write Ben叔 13 times, and whisper hears \"Ben叔\" unprompted; 笨叔 (\"stupid uncle\") is the ASR's homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 50,
+      "before": "背书背书",
+      "after": "Ben叔Ben叔",
+      "source": "llm-review",
+      "reason": "B answers Ben叔 here; whisper hears \"其实Ben叔聊到这里\" unprompted. 背书 (recite) fits nothing.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 286,
+      "before": "辩叔",
+      "after": "Ben叔",
+      "source": "llm-review",
+      "reason": "Ben叔 told the bird story B refers to; whisper hears 边叔 for the same name.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 112,
+      "before": "笨笨",
+      "after": "Ben Ben",
+      "source": "llm-review",
+      "reason": "C stumbling over the name Ben叔.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 113,
+      "before": "笨笨，刚才刚才笨",
+      "after": "Ben Ben，刚才刚才Ben",
+      "source": "llm-review",
+      "reason": "C stumbling over the name Ben叔 (its 叔 is read at the start of the next line).",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 129,
+      "before": "像笨说的",
+      "after": "像Ben说的",
+      "source": "llm-review",
+      "reason": "The host Ben叔, as in the lines around it.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 157,
+      "before": "灿叔",
+      "after": "璨叔",
+      "source": "llm-review",
+      "reason": "The host is 璨叔 (Uncle Can, 李璨), as the show notes write it 6 times; 灿 is the ASR's homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 196,
+      "before": "灿叔",
+      "after": "璨叔",
+      "source": "llm-review",
+      "reason": "The host is 璨叔 (Uncle Can, 李璨), as the show notes write it 6 times; 灿 is the ASR's homophone.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 218,
+      "before": "参数",
+      "after": "璨叔",
+      "source": "llm-review",
+      "reason": "参数 (parameter) is the name 璨叔: Ben叔 says C believes it in other settings, and whisper writes the same 参数 for the name in sentences 157 and 196.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 30,
+      "before": "大树",
+      "after": "大叔",
+      "source": "llm-review",
+      "reason": "The show is 大叔中文; whisper hears 跟大叔上课 unprompted.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 107,
+      "before": "雨树科技",
+      "after": "宇树科技",
+      "source": "llm-review",
+      "reason": "Unitree (宇树科技) made the robots dancing 扭秧歌 at the 2025 春晚 (Sina, Xinhua).",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 258,
+      "before": "博客",
+      "after": "播客",
+      "source": "llm-review",
+      "reason": "The AI makes a podcast episode of the show; whisper hears 播客, and the ASR writes 播客 at the end.",
+      "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 312,
+      "before": "情感价值",
+      "after": "情绪价值",
+      "source": "llm-review",
+      "reason": "The episode says 情绪价值 throughout; AssemblyAI is 0.22 on 感, whisper hears 情绪价值 unprompted.",
+      "appliedAt": "2026-10-09"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 0,
+      "text": "大家好，我们是大大叔中文文哦。",
+      "reason": "Intro in a robot-voice effect; whisper hears 大叔中文 once, the doubled 大/文 may be the effect or the ASR."
+    },
+    {
+      "cueIndex": 2,
+      "text": "大叔中文文聊跟",
+      "reason": "Same robot-voice intro; 聊 is 0.29 and whisper hears something else around it."
+    },
+    {
+      "cueIndex": 103,
+      "text": "有这个汽马斯克",
+      "reason": "Whisper hears only 看到马斯克; 汽 is a mumble or a wrong character."
+    },
+    {
+      "cueIndex": 114,
+      "text": "叔一直咬舌头，怎么了？",
+      "reason": "Cross-talk: 叔 ends C's Ben叔; whisper hears B say 你今天一直咬舌头."
+    },
+    {
+      "cueIndex": 160,
+      "text": "我就是话很难想象",
+      "reason": "Not grammatical; whisper hears 我其实说很难想象. Unresolved."
+    },
+    {
+      "cueIndex": 235,
+      "text": "订阅是AI大叔",
+      "reason": "Unclear; whisper hears 订阅时光. Unresolved."
+    },
+    {
+      "cueIndex": 254,
+      "text": "就聊个出发来",
+      "reason": "出发 fits nothing; whisper hears 聊个粗话来, possibly 聊出个花来. Unresolved."
+    }
+  ]
+}

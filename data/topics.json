@@ -55,6 +55,13 @@
       "zh": "城市 · 美食",
       "about": "Quê hương, thành phố, món ăn",
       "episodes": ["CC2"]
+    },
+    {
+      "id": "ai",
+      "vi": "AI",
+      "zh": "人工智能",
+      "about": "Chatbot, robot, AI thay con người và giáo viên",
+      "episodes": ["CC75", "SCN20251002", "DMP20250404", "DMP20260117"]
     }
   ]
 }

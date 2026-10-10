@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "episodes": [
     {
       "id": "E757",
@@ -140,6 +140,14 @@
       "owner": "瞎扯学中文 Convo Chinese"
     },
     {
+      "id": "CC19",
+      "title": "EPISODE 19 | 中国外国”职场文化“大不同 Huge difference in \"work place\" culture",
+      "pubDate": "2021-08-30",
+      "duration": 1199,
+      "source": "podcast",
+      "owner": "瞎扯学中文 Convo Chinese"
+    },
+    {
       "id": "CC7",
       "title": "EPISODE 7 | 淘宝京东拼多多  Everything about Chinese E-commerce",
       "pubDate": "2021-06-06",
@@ -212,6 +220,14 @@
       "owner": "Speak Chinese Naturally -Learn Chinese (Mandarin)"
     },
     {
+      "id": "DMP20250404",
+      "title": "Chinese Podcast EP142: AI vs Human Teachers: Who Teaches Chinese Better?",
+      "pubDate": "2025-04-04",
+      "duration": 1483,
+      "source": "podcast",
+      "owner": "Dashu Mandarin Podcast"
+    },
+    {
       "id": "UI1",
       "title": "设置 · iOS 26",
       "pubDate": "2026-10-03",
@@ -259,6 +275,37 @@
         {
           "id": "CC13",
           "title": "EPISODE 13 | 小时候超级讨厌的体育课 We hated PE (physical education) classes!"
+        }
+      ]
+    },
+    {
+      "id": "cong-viec",
+      "vi": "Công việc",
+      "zh": "职场",
+      "about": "Văn hoá công sở, phỏng vấn, sếp, ý nghĩa của công việc",
+      "episodes": [
+        "CC19"
+      ],
+      "planned": [
+        {
+          "id": "CC46",
+          "title": "Episode 46 | 传说中的互联网大厂 The mysterious Chinese Internet Unicorns"
+        },
+        {
+          "id": "CC58",
+          "title": "Episode 58 |  你最讨厌什么样的老板？What type of boss is the worst?"
+        },
+        {
+          "id": "CC105",
+          "title": "Episode 105 | 搞笑或是惨痛的面试经历 Funny or upsetting interview stories"
+        },
+        {
+          "id": "CC107",
+          "title": "Episode 107 | 不想工作的社畜们 Corporate slave's burning out"
+        },
+        {
+          "id": "CC90",
+          "title": "Episode 90 | 工作的意义是什么  What’s the point of work, really?"
         }
       ]
     },
@@ -333,6 +380,29 @@
         "CC2"
       ],
       "planned": []
+    },
+    {
+      "id": "ai",
+      "vi": "AI",
+      "zh": "人工智能",
+      "about": "Chatbot, robot, AI thay con người và giáo viên",
+      "episodes": [
+        "DMP20250404"
+      ],
+      "planned": [
+        {
+          "id": "CC75",
+          "title": "Episode 75 | ChatGPT和我聊哈利波特？Chatting with AI about Harry Potter!"
+        },
+        {
+          "id": "SCN20251002",
+          "title": "【和佳佳一起阅读】唯一一个永不会消失的职业——根据人工智能的预测"
+        },
+        {
+          "id": "DMP20260117",
+          "title": "Chinese Podcast EP184: Will AI Replace Chinese Teachers?"
+        }
+      ]
     }
   ]
 }

@@ -967,7 +967,8 @@
           "mp3": "https://m.cdn.firstory.me/track/cko0g8j5m1toy0984t6s7mqtk/cksz34jidr0vg08754ihygg8e/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fcko0g8j5m1toy0984t6s7mqtk%2F1630354748984.mp3?v=1630354754198",
           "link": "https://open.firstory.fm/story/cksz34jidr0vg08754ihygg8e",
           "pubDate": "2021-08-30",
-          "duration": 1199
+          "duration": 1199,
+          "m4a": "https://storyfm-audio.luanphungba.workers.dev/CC19.m4a"
         },
         {
           "id": "CC18",
@@ -5959,6 +5960,1949 @@
           "link": "https://podcasters.spotify.com/pod/show/speakchinesenaturally/episodes/ep-ecv1bk",
           "pubDate": "2019-04-10",
           "duration": 609
+        }
+      ]
+    },
+    {
+      "prefix": "DMP",
+      "title": "Dashu Mandarin Podcast",
+      "feed": "https://anchor.fm/s/88ca316c/podcast/rss",
+      "episodes": [
+        {
+          "id": "DMP20261006",
+          "title": "Chinese Podcast EP221: Busted! Talking Behind His Back... And HE JOINED THE CALL?!",
+          "guid": "a6c3370f-a463-418f-8168-1110396416b3",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/126923007/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F89150d66-2be6-d66d-5efe-508b5ccd058f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP221-Busted--Talking-Behind-His-Back----And-HE-JOINED-THE-CALL-e3pvspv",
+          "pubDate": "2026-10-06",
+          "duration": 3501
+        },
+        {
+          "id": "DMP20260926",
+          "title": "Chinese Podcast EP220: Meeting Online Friends in Real Life: Crazy Stories & Awkward Moments!",
+          "guid": "93e55f91-9a41-473d-aa8e-7124e11ae479",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/126337571/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-26%2Fbef9769a-12c3-364e-7523-27c1ee790ea3.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP220-Meeting-Online-Friends-in-Real-Life-Crazy-Stories--Awkward-Moments-e3pe133",
+          "pubDate": "2026-09-26",
+          "duration": 3105
+        },
+        {
+          "id": "DMP20260923",
+          "title": "Chinese Podcast EP219: I'll Never Be a Teacher!\" ...10 Years Later, Meet Teacher Yunyun!",
+          "guid": "aa7bef44-8241-401f-82fd-535bb0d18f06",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/126177529/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-23%2Ffab18e1d-525f-85d5-979e-96569b09bc77.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP219-Ill-Never-Be-a-Teacher-----10-Years-Later--Meet-Teacher-Yunyun-e3p94pp",
+          "pubDate": "2026-09-23",
+          "duration": 3233
+        },
+        {
+          "id": "DMP20260913",
+          "title": "Chinese Podcast EP218: I Got Permanent Residency! ...Now I Want to Leave?! (Life in Spain)",
+          "guid": "c61e9aad-78f2-4257-8aff-67ecde18f719",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/125662817/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-13%2F6da3d407-37c1-8450-e1bb-5c852d4dc78b.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP218-I-Got-Permanent-Residency-----Now-I-Want-to-Leave---Life-in-Spain-e3ope51",
+          "pubDate": "2026-09-13",
+          "duration": 2499
+        },
+        {
+          "id": "DMP20260905",
+          "title": "Chinese Podcast EP217: Teaching Chinese in Japanese? Meet the Most Energetic Teacher in China!",
+          "guid": "723053e0-ae6c-46d4-9901-66e61c0c737e",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/125229356/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-5%2F1a8289f2-a78d-d10c-029f-5a7f46880c7f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP217-Teaching-Chinese-in-Japanese--Meet-the-Most-Energetic-Teacher-in-China-e3oc6rc",
+          "pubDate": "2026-09-05",
+          "duration": 3367
+        },
+        {
+          "id": "DMP20260831",
+          "title": "Chinese Podcast 216: Why Did China’s Worst Animated Movie Make Millions? | The \"Niu Lai\" Phenomenon",
+          "guid": "53ce55b4-8956-4d0e-936b-f41555c6c4c7",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/124968089/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-31%2F2440c85d-ff66-5118-34e3-b3a9d5f7bc7e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-216-Why-Did-Chinas-Worst-Animated-Movie-Make-Millions---The-Niu-Lai-Phenomenon-e3o47mp",
+          "pubDate": "2026-08-31",
+          "duration": 1629
+        },
+        {
+          "id": "DMP20260831-2",
+          "title": "Chinese Podcast EP215: Do Chinese Men Sit Down to Pee? A Hilariously Honest Confession",
+          "guid": "e9f5dfa3-65c1-40e5-bf8a-742799c5d19a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/124968035/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-31%2F84fc2c54-2463-cd05-e0f0-6bf7a324cdb0.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP215-Do-Chinese-Men-Sit-Down-to-Pee--A-Hilariously-Honest-Confession-e3o47l3",
+          "pubDate": "2026-08-31",
+          "duration": 2676
+        },
+        {
+          "id": "DMP20260818",
+          "title": "Chinese Podcast Ep214: What Being a Father in China Really Means?",
+          "guid": "8f242cc3-309e-4ea6-9702-42338e2622a7",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/124367402/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-18%2F631647ed-876e-9f67-cafa-b3c72743d562.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep214-What-Being-a-Father-in-China-Really-Means-e3nht3a",
+          "pubDate": "2026-08-18",
+          "duration": 3126
+        },
+        {
+          "id": "DMP20260811",
+          "title": "Chinese Podcast EP213: From Hotel Manager in Macau to Chinese Teacher in Portugal!",
+          "guid": "bd0f94af-043b-45b2-8e6c-df511950b810",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/124051436/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-11%2Fbbbb383d-970f-7988-e1ab-aaef08ecb8da.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP213-From-Hotel-Manager-in-Macau-to-Chinese-Teacher-in-Portugal-e3n88hc",
+          "pubDate": "2026-08-11",
+          "duration": 2706
+        },
+        {
+          "id": "DMP20260811-2",
+          "title": "Chinese Podcast EP212: We Asked Each Other Deep Questions... and Things Got Emotional!",
+          "guid": "5fbf43ca-2a55-4826-8e53-a691d4de7d24",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/124051390/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-11%2F4144f208-7251-b57a-e16a-ef8741ac1c05.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP212-We-Asked-Each-Other-Deep-Questions----and-Things-Got-Emotional-e3n88fu",
+          "pubDate": "2026-08-11",
+          "duration": 3326
+        },
+        {
+          "id": "DMP20260725",
+          "title": "Chinese Podcast EP211: Culture Shock: Why is Life in Europe So Slow Compared to Asia?",
+          "guid": "62be4416-42c7-4650-9186-c0a1d9f428c3",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/123295084/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-25%2Fcde3fa59-8deb-7f81-1a27-cc0a7485896f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP211-Culture-Shock-Why-is-Life-in-Europe-So-Slow-Compared-to-Asia-e3mh5tc",
+          "pubDate": "2026-07-25",
+          "duration": 3629
+        },
+        {
+          "id": "DMP20260717",
+          "title": "Chinese Podcast EP210: The Reality of Being a Beijing Wife in the UK: No Mother-in-Law Drama?",
+          "guid": "cdbf2abc-a0d3-421d-b30f-1c44efec2cb1",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/122960572/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-17%2Fbd09670c-b968-1c62-d83b-b706b429e417.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP210-The-Reality-of-Being-a-Beijing-Wife-in-the-UK-No-Mother-in-Law-Drama-e3m6v7s",
+          "pubDate": "2026-07-17",
+          "duration": 2193
+        },
+        {
+          "id": "DMP20260713",
+          "title": "Chinese Podcast EP209: Confessions of Chinese Teachers: Why We’re Suddenly So Obsessed with Money",
+          "guid": "ee9f5251-0f5a-49fc-89e9-0b5fc52a0b56",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/122758421/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-13%2Fbf125bff-85f1-c7c7-7b72-b2679361afb1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP209-Confessions-of-Chinese-Teachers-Why-Were-Suddenly-So-Obsessed-with-Money-e3m0pql",
+          "pubDate": "2026-07-13",
+          "duration": 3195
+        },
+        {
+          "id": "DMP20260704",
+          "title": "Chinese Podcast EP208: 4 Years of Dashu Mandarin: How This Podcast Saved Us (Literally)",
+          "guid": "6d1791b9-7a5b-4229-aa95-613ae0d5e385",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/122366202/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-4%2F7d90afda-9618-4d07-eaaa-89147fc9a5a6.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP208-4-Years-of-Dashu-Mandarin-How-This-Podcast-Saved-Us-Literally-e3lkqpq",
+          "pubDate": "2026-07-04",
+          "duration": 3259
+        },
+        {
+          "id": "DMP20260626",
+          "title": "Chinese Podcast EP207: \"Adding\" My Way to Burnout: Why I Can't Stop Working",
+          "guid": "b8f3a9f2-deba-4b91-8440-3418e3033682",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/122029363/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-26%2F99b6644e-086e-75ff-cf54-d90f6fb9be81.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP207-Adding-My-Way-to-Burnout-Why-I-Cant-Stop-Working-e3lahrj",
+          "pubDate": "2026-06-26",
+          "duration": 3140
+        },
+        {
+          "id": "DMP20260620",
+          "title": "Chinese Podcast EP206: Don’t Start with a Chinese Book: Chinese Reading Tips",
+          "guid": "913c3d6f-1639-4d7a-a185-30855b7549ca",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/121738104/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-20%2F4c0235e0-ded3-7001-bb24-7f86405cbab0.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP206-Dont-Start-with-a-Chinese-Book-Chinese-Reading-Tips-e3l1ldo",
+          "pubDate": "2026-06-20",
+          "duration": 2274
+        },
+        {
+          "id": "DMP20260612",
+          "title": "Chinese Podcast EP205: We’re in Our 40s and Still Don’t Know What We Want",
+          "guid": "c3cd893e-dd97-4778-a7bc-4678f187a766",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/121385244/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-12%2Fad21089b-4399-1b0e-9052-436aa389989f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP205-Were-in-Our-40s-and-Still-Dont-Know-What-We-Want-e3kmsqs",
+          "pubDate": "2026-06-12",
+          "duration": 3736
+        },
+        {
+          "id": "DMP20260607",
+          "title": "Chinese Podcast EP204: How to Learn Chinese with Mandarin Teacher",
+          "guid": "f6268a7a-501a-4225-83bf-cf959cc30c25",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/121113314/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-7%2F5a40be88-6ec1-035d-d655-7aabe3151922.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP204-How-to-Learn-Chinese-with-Mandarin-Teacher-e3kej92",
+          "pubDate": "2026-06-07",
+          "duration": 2560
+        },
+        {
+          "id": "DMP20260529",
+          "title": "Chinese Podcast Ep203: The \"Typical Chinese Auntie\": Uncle Ben's 30 Days with His Mom in Europe",
+          "guid": "f976c00f-202a-4156-b22e-9689c805947d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/120715862/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-29%2F82f48016-64f2-1f33-ff2a-b317014b5939.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep203-The-Typical-Chinese-Auntie-Uncle-Bens-30-Days-with-His-Mom-in-Europe-e3k2f4m",
+          "pubDate": "2026-05-29",
+          "duration": 2895
+        },
+        {
+          "id": "DMP20260522",
+          "title": "Chinese Podcast Ep202: Uncle Can is Finally Back!",
+          "guid": "18918e86-129d-4c9d-9268-04a580418325",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/120381815/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-22%2Fdc27c836-0570-c273-c570-f5e59956a232.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep202-Uncle-Can-is-Finally-Back-e3jo8tn",
+          "pubDate": "2026-05-22",
+          "duration": 2908
+        },
+        {
+          "id": "DMP20260515",
+          "title": "Chinese Podcast EP201: Why Young Chinese People Are Leaving Big Cities for Small Towns in China",
+          "guid": "be94a528-7262-4eeb-8b5e-03d583a84a4d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/120035314/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2Fb5f02482-3f49-79d5-1e63-bd90812c83de.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP201-Why-Young-Chinese-People-Are-Leaving-Big-Cities-for-Small-Towns-in-China-e3jdmhi",
+          "pubDate": "2026-05-15",
+          "duration": 2748
+        },
+        {
+          "id": "DMP20260515-2",
+          "title": "Chinese Podcast EP200: You Can Rap Chinese Today",
+          "guid": "0bf2e569-44db-49a8-998b-814f733961f1",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/120035272/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2Fadc7bfdb-0581-77ef-cce8-ed88418fc214.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP200-You-Can-Rap-Chinese-Today-e3jdmg8",
+          "pubDate": "2026-05-15",
+          "duration": 2576
+        },
+        {
+          "id": "DMP20260515-3",
+          "title": "Chinese Podcast EP199: Chinese Wife in a Spanish Family…Survive or Not?",
+          "guid": "117eb2a7-f998-450e-bf86-93f80f2557c8",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/120035183/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F3db95f12-b56a-cf3f-13bd-89d03d0445ec.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP199-Chinese-Wife-in-a-Spanish-FamilySurvive-or-Not-e3jdmdf",
+          "pubDate": "2026-05-15",
+          "duration": 2868
+        },
+        {
+          "id": "DMP20260515-4",
+          "title": "Chinese Podcast EP198: Class Reunions in China vs. Taiwan: Networking, Boasting, or Healing?",
+          "guid": "2f90c547-d61f-4351-8293-54a9b2b733fb",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/120035138/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2Fcb9ddf11-9aa5-8609-980d-97e5ddd61cac.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP198-Class-Reunions-in-China-vs--Taiwan-Networking--Boasting--or-Healing-e3jdmc2",
+          "pubDate": "2026-05-15",
+          "duration": 3249
+        },
+        {
+          "id": "DMP20260515-5",
+          "title": "Chinese Podcast EP197: Funny & Tragic True Pet Stories",
+          "guid": "0801b25d-cf20-412b-b5e9-5cea5bc14221",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/120035011/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F043af9eb-733f-0d91-c040-c48d829154a4.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP197-Funny--Tragic-True-Pet-Stories-e3jdm83",
+          "pubDate": "2026-05-15",
+          "duration": 2842
+        },
+        {
+          "id": "DMP20260410",
+          "title": "Chinese Podcast EP196: How Chinese People Learn English | Chinese teachers with Chinese conversation",
+          "guid": "234f5034-4d2e-4fcb-9a69-38d401aa8ce6",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/118270506/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-10%2F2d45d9de-ec7f-da25-de6a-c9e4f99f9f31.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP196-How-Chinese-People-Learn-English--Chinese-teachers-with-Chinese-conversation-e3hnr3a",
+          "pubDate": "2026-04-10",
+          "duration": 2389
+        },
+        {
+          "id": "DMP20260403",
+          "title": "Chinese Podcast EP195: Why Do We Have Fewer Friends as Adults? | Honest Conversation in Chinese",
+          "guid": "55864fc4-ef2c-4ef8-aee1-0a1084b310c6",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/117930255/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-3%2Fac7ff5e1-734b-8cf4-40db-aaf6f01cbcfc.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP195-Why-Do-We-Have-Fewer-Friends-as-Adults---Honest-Conversation-in-Chinese-e3hdeqf",
+          "pubDate": "2026-04-03",
+          "duration": 2383
+        },
+        {
+          "id": "DMP20260327",
+          "title": "Chinese Podcast EP194: Why We Feel Misunderstood: A Deep Talk Between 3 Chinese Teachers",
+          "guid": "72877e44-b8e4-45b7-84d8-0fe933b5cf88",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/117564160/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-27%2F4e218272-3ec9-b605-54c2-368703722904.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP194-Why-We-Feel-Misunderstood-A-Deep-Talk-Between-3-Chinese-Teachers-e3h29a0",
+          "pubDate": "2026-03-27",
+          "duration": 3389
+        },
+        {
+          "id": "DMP20260321",
+          "title": "Chinese Podcast EP193: Chinese Stomachs & Beauty Apps: The Truth About How We Travel.",
+          "guid": "a4c67d43-8956-4686-8de5-19bfa3ebac46",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/117263099/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-21%2Fc639e61b-6901-ff5a-5f63-7645d43f6c7d.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP193-Chinese-Stomachs--Beauty-Apps-The-Truth-About-How-We-Travel-e3gp39r",
+          "pubDate": "2026-03-21",
+          "duration": 2331
+        },
+        {
+          "id": "DMP20260313",
+          "title": "Chinese Podcast EP192: Stop Using English to Learn Chinese! Immersion Secrets with Teacher Lin.",
+          "guid": "60a0a55c-fc1d-4025-92b0-1e6e300c72a4",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/116858613/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-13%2Fa5df2dbb-ce74-4af3-31b7-71a57845c49b.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP192-Stop-Using-English-to-Learn-Chinese--Immersion-Secrets-with-Teacher-Lin-e3gco9l",
+          "pubDate": "2026-03-13",
+          "duration": 3084
+        },
+        {
+          "id": "DMP20260308",
+          "title": "Chinese Podcast EP191: Organized Freak vs. Total Chaos: Which Type Are You?",
+          "guid": "0f92a033-8c9f-4d37-943e-e24990b52e63",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/116574868/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-8%2F8ba380b3-6664-9deb-2eec-e7b9d7496db6.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP191-Organized-Freak-vs--Total-Chaos-Which-Type-Are-You-e3g436k",
+          "pubDate": "2026-03-08",
+          "duration": 2613
+        },
+        {
+          "id": "DMP20260306",
+          "title": "Chinese Podcast #190: China’s Kung Fu Robots: Are They Replacing Humans Already?|",
+          "guid": "a67842e0-9c39-404b-b896-4471e1a0dab8",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/116477106/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-6%2F419405748-44100-2-7f925c1dc38eb.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-190-Chinas-Kung-Fu-Robots-Are-They-Replacing-Humans-Already-e3g13ni",
+          "pubDate": "2026-03-06",
+          "duration": 2649
+        },
+        {
+          "id": "DMP20260222",
+          "title": "Chinese Podcast EP189: What Types of Women Do Chinese Men Really Like?",
+          "guid": "1a8267d2-d69a-498f-8e3b-d7ab61e2b9a3",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/115849438/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-22%2F418563419-44100-2-58a63b79e2906.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP189-What-Types-of-Women-Do-Chinese-Men-Really-Like-e3fduou",
+          "pubDate": "2026-02-22",
+          "duration": 2601
+        },
+        {
+          "id": "DMP20260206",
+          "title": "Chinese Podcast EP187: The Invisible Wall Between Chinese Parents and Adult Children",
+          "guid": "724abd7b-0020-4d0e-a215-67aff48333d7",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/115114481/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-6%2F417581363-44100-2-d4759b6045057.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP187-The-Invisible-Wall-Between-Chinese-Parents-and-Adult-Children-e3enh1h",
+          "pubDate": "2026-02-06",
+          "duration": 2894
+        },
+        {
+          "id": "DMP20260202",
+          "title": "Chinese Podcast EP186: The Funniest Episode! Why the Uncles Lost Their Cool?",
+          "guid": "ff22606b-a7fa-4195-93d4-0669edfffd3c",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/114899071/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-2%2F417293711-44100-2-98671cd17b5dc.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP186-The-Funniest-Episode--Why-the-Uncles-Lost-Their-Cool-e3egulv",
+          "pubDate": "2026-02-02",
+          "duration": 3485
+        },
+        {
+          "id": "DMP20260123",
+          "title": "Chinese Podcast EP185: Are We Failing? The Brutal Truth About Our Declining Views",
+          "guid": "0f3afdef-6249-4240-bb74-ee638b0f0a9a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/114439017/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-23%2F416685045-44100-2-f563af193a5f9.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP185-Are-We-Failing--The-Brutal-Truth-About-Our-Declining-Views-e3e2td9",
+          "pubDate": "2026-01-23",
+          "duration": 2170
+        },
+        {
+          "id": "DMP20260117",
+          "title": "Chinese Podcast EP184: Will AI Replace Chinese Teachers?",
+          "guid": "bfc0bb53-f3d9-4b1d-8f6f-f439472dc444",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/114121323/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-17%2F416277625-44100-2-d2eed3973f4fb.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP184-Will-AI-Replace-Chinese-Teachers-e3dp75b",
+          "pubDate": "2026-01-17",
+          "duration": 3456
+        },
+        {
+          "id": "DMP20260109",
+          "title": "Chinese Podcast EP183: Do Your Love Yourself?",
+          "guid": "42d9cae2-9fb9-4e8e-a118-c55b528bb929",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/113741032/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-9%2F415793861-44100-2-25f1046ea4501.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP183-Do-Your-Love-Yourself-e3ddjp8",
+          "pubDate": "2026-01-09",
+          "duration": 3395
+        },
+        {
+          "id": "DMP20260104",
+          "title": "Chinese Podcast EP182: 2026 Special: The Uncles’ Hidden Talents & Our Life-Long Promise",
+          "guid": "adb66005-8c50-4e56-9350-4675295e7520",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/113468748/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-4%2F415449262-44100-2-cf9fa23c4e233.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP182-2026-Special-The-Uncles-Hidden-Talents--Our-Life-Long-Promise-e3d59sc",
+          "pubDate": "2026-01-04",
+          "duration": 2355
+        },
+        {
+          "id": "DMP20251226",
+          "title": "Chinese Podcast EP181: The Raw Truth: Why We Almost Quit Dashu Mandarin",
+          "guid": "65359e84-0cb2-40e2-afaa-326f29e6deaf",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/113132518/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-26%2F415023181-44100-2-d43b6e88ed622.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP181-The-Raw-Truth-Why-We-Almost-Quit-Dashu-Mandarin-e3cr1h6",
+          "pubDate": "2025-12-26",
+          "duration": 3814
+        },
+        {
+          "id": "DMP20251219",
+          "title": "Chinese Podcast EP180: My Journey from China to Freedom",
+          "guid": "b8ccda38-c4f4-4af8-91b2-f61e6f548cf4",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/112873304/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-19%2F414691937-44100-2-590d0522d7abe.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP180-My-Journey-from-China-to-Freedom-e3cj4co",
+          "pubDate": "2025-12-19",
+          "duration": 3545
+        },
+        {
+          "id": "DMP20251213",
+          "title": "Chinese Podcast EP179: Toxic Chinese Teachers & Bosses",
+          "guid": "cb5f3ce1-1675-48b6-bcca-2950daa122cf",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/112567353/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-13%2F414300506-44100-2-023711550ed83.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP179-Toxic-Chinese-Teachers--Bosses-e3c9pjp",
+          "pubDate": "2025-12-13",
+          "duration": 2695
+        },
+        {
+          "id": "DMP20251206",
+          "title": "Chinese Podcast EP178: From Chinese Teacher to CEO: Building a Real-World Chinese Platform",
+          "guid": "6a29fadd-1a8b-4f7f-adf8-c18eabeee619",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/112215824/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-6%2F413848471-44100-2-9c57a0503f923.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP178-From-Chinese-Teacher-to-CEO-Building-a-Real-World-Chinese-Platform-e3bv2ag",
+          "pubDate": "2025-12-06",
+          "duration": 3541
+        },
+        {
+          "id": "DMP20251129",
+          "title": "Chinese Podcast EP177: Chinese Dating Secrets: What You Didn’t Know About Dating in China!",
+          "guid": "77a036b3-771d-4e8e-8bcb-e2d3114e0b37",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/111869368/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-29%2F413397553-44100-2-db4b8e22c0b5e.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP177-Chinese-Dating-Secrets-What-You-Didnt-Know-About-Dating-in-China-e3bkfvo",
+          "pubDate": "2025-11-29",
+          "duration": 3089
+        },
+        {
+          "id": "DMP20251122",
+          "title": "Chinese Podcast EP 176: How racist is china？Chinese culture insight",
+          "guid": "8cac1b0f-739c-4059-9395-931c319964c3",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/111537607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-22%2F412944613-44100-2-25d5a64bc6a3.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP-176-How-racist-is-chinaChinese-culture-insight-e3bac07",
+          "pubDate": "2025-11-22",
+          "duration": 3045
+        },
+        {
+          "id": "DMP20251117",
+          "title": "Chinese Podcast EP175: How Chinese Love Story Became a Nightmare",
+          "guid": "57162be9-f376-4058-9d37-7d474285d214",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/111279087/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-17%2F412605264-44100-2-286770ed051be.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP175-How-Chinese-Love-Story-Became-a-Nightmare-e3b2fhf",
+          "pubDate": "2025-11-17",
+          "duration": 3294
+        },
+        {
+          "id": "DMP20251108",
+          "title": "Chinese Podcast EP174: What Chinese People Really Think About Looks",
+          "guid": "37e41b63-4c73-43f1-bbde-0c33f94916dd",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/110873242/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-8%2F411756537-44100-2-b83f628a97dc5.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP174-What-Chinese-People-Really-Think-About-Looks-e3am36q",
+          "pubDate": "2025-11-08",
+          "duration": 2881
+        },
+        {
+          "id": "DMP20251103",
+          "title": "Chinese Podcast EP173: Beyond the Textbook: Real Talk on Dating, Marriage, and Being Single in China",
+          "guid": "dfefa689-be00-4bbd-bd92-5d3187a8fca5",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/110618432/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-3%2F410500615-44100-2-3b45df05af568.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP173-Beyond-the-Textbook-Real-Talk-on-Dating--Marriage--and-Being-Single-in-China-e3aeac0",
+          "pubDate": "2025-11-03",
+          "duration": 3990
+        },
+        {
+          "id": "DMP20251025",
+          "title": "Chinese Podcast EP172: Chinese City Life Is Not What You Think",
+          "guid": "5567c539-d4e0-4669-a707-0f561c3fdf6f",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/110183348/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-25%2F409932451-44100-2-7c34a28b36631.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP172-Chinese-City-Life-Is-Not-What-You-Think-e3a11fk",
+          "pubDate": "2025-10-25",
+          "duration": 3607
+        },
+        {
+          "id": "DMP20251017",
+          "title": "Chinese Podcast EP171: Uncle Richard's Forbidden Chinese Love Story",
+          "guid": "3b96d5c9-fa4a-45fe-b246-cef1b266f53a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/109809939/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-17%2F409441911-44100-2-f17fcb59d1e9d.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP171-Uncle-Richards-Forbidden-Chinese-Love-Story-e39lkqj",
+          "pubDate": "2025-10-17",
+          "duration": 4444
+        },
+        {
+          "id": "DMP20251010",
+          "title": "Chinese Podcast EP170: Chinese Culture Values Emotions More Than You Think",
+          "guid": "42f9ec9c-d109-4157-8c8b-e4c1cdfbfd45",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/109480079/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-10%2F409010584-44100-2-2379501af1f04.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP170-Chinese-Culture-Values-Emotions-More-Than-You-Think-e39bimf",
+          "pubDate": "2025-10-10",
+          "duration": 2975
+        },
+        {
+          "id": "DMP20251007",
+          "title": "Chinese Podcast EP169: How I Make Money Live Streaming to Chinese Audiences",
+          "guid": "2952b3b3-ff42-498e-8d90-d10ac0f48189",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/109322137/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-7%2F408804599-44100-2-f42aae4366fe3.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP169-How-I-Make-Money-Live-Streaming-to-Chinese-Audiences-e396oep",
+          "pubDate": "2025-10-07",
+          "duration": 3079
+        },
+        {
+          "id": "DMP20250927",
+          "title": "Chinese Podcast EP168: What We Don't Like in China?",
+          "guid": "2a21223a-a328-4a7d-a848-14abf77ce851",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/108875606/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-27%2F408225887-44100-2-4cecf40962c6a.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP168-What-We-Dont-Like-in-China-e38p4cm",
+          "pubDate": "2025-09-27",
+          "duration": 3098
+        },
+        {
+          "id": "DMP20250920",
+          "title": "Chinese Podcast EP167: The KTV Culture in China You Haven’t Heard About! |",
+          "guid": "a5d07430-f9df-4cd6-9f29-cb40791e4515",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/108566226/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-20%2F407825007-44100-2-c8b813bc7c4dd.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP167-The-KTV-Culture-in-China-You-Havent-Heard-About-e38fm8i",
+          "pubDate": "2025-09-20",
+          "duration": 2887
+        },
+        {
+          "id": "DMP20250912",
+          "title": "Chinese Podcast EP166: Why Do Chinese People Face So Much Pressure?",
+          "guid": "4535bcd7-9fe2-4879-87f5-1e71a89090a0",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/108209140/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-12%2F407366282-44100-2-c877708eff1ad.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP166-Why-Do-Chinese-People-Face-So-Much-Pressure-e384phk",
+          "pubDate": "2025-09-12",
+          "duration": 3451
+        },
+        {
+          "id": "DMP20250905",
+          "title": "Chinese Podcast Ep165: Who’s Your Best Friend?",
+          "guid": "949721c8-a7a5-4990-b2a4-7953a8b2654f",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/107888764/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-5%2F406961050-44100-2-08be147ff5ba2.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep165-Whos-Your-Best-Friend-e37r0ls",
+          "pubDate": "2025-09-05",
+          "duration": 3513
+        },
+        {
+          "id": "DMP20250905-2",
+          "title": "Chinese Podcast Ep164: If We Were Not Mandarin Teachers",
+          "guid": "84e0b2df-ede9-4d00-89a0-0698a76e00a0",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/107888621/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-5%2F406960864-44100-2-c26978f84599a.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep164-If-We-Were-Not-Mandarin-Teachers-e37r0hd",
+          "pubDate": "2025-09-05",
+          "duration": 1795
+        },
+        {
+          "id": "DMP20250905-3",
+          "title": "Chinese Podcast Ep163: Sexual Harassment In China",
+          "guid": "19dad8fc-72c4-4dce-8375-86c79c4e41b2",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/107888398/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-5%2F406960594-44100-2-f3e5b347ca50a.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep163-Sexual-Harassment-In-China-e37r0ae",
+          "pubDate": "2025-09-05",
+          "duration": 4034
+        },
+        {
+          "id": "DMP20250905-4",
+          "title": "Chinese Podcast Ep162: Why Surrogacy Is So Controversial in China?",
+          "guid": "4d3f3b48-814d-4941-aa08-192a450b7d94",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/107888222/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-5%2F406960372-44100-2-86e40bd9a9bc.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep162-Why-Surrogacy-Is-So-Controversial-in-China-e37r04u",
+          "pubDate": "2025-09-05",
+          "duration": 3188
+        },
+        {
+          "id": "DMP20250905-5",
+          "title": "Chinese Podcast EP161: Time for Change | Honest Words from Our Hearts",
+          "guid": "4ac07421-f4e7-4305-8988-6ee97d21f8ce",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/107887958/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-5%2F406960032-44100-2-7721cc2f0aefd.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP161-Time-for-Change--Honest-Words-from-Our-Hearts-e37qvsm",
+          "pubDate": "2025-09-05",
+          "duration": 2918
+        },
+        {
+          "id": "DMP20250905-6",
+          "title": "Chinese Podcast Ep160: Zero to Fluent Chinese: A Chinese Adoptee’s Journey to Rediscover His Roots",
+          "guid": "c1560fe4-01f6-42b1-bd98-a2122fc53d9a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/107887835/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-5%2F406959900-44100-2-798e4204d548a.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep160-Zero-to-Fluent-Chinese-A-Chinese-Adoptees-Journey-to-Rediscover-His-Roots-e37qvor",
+          "pubDate": "2025-09-05",
+          "duration": 2307
+        },
+        {
+          "id": "DMP20250729",
+          "title": "Chinese Podcast Ep159: Sister Hong or Uncle Red? Chinese Reaction to the wild real life C-Drama",
+          "guid": "8e418251-bc0a-4aa4-a6f6-24e3dcfe1d1d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/106149099/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-29%2F404741930-44100-2-60cea4e0d87fc.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep159-Sister-Hong-or-Uncle-Red--Chinese-Reaction-to-the-wild-real-life-C-Drama-e365tpb",
+          "pubDate": "2025-07-29",
+          "duration": 2021
+        },
+        {
+          "id": "DMP20250722",
+          "title": "Chinese Podcast Ep158: Why Chinese Women Choose Not to Marry?",
+          "guid": "7a4a6ddc-db22-47b8-a081-79e9e998c567",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/105816681/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-22%2F404316158-44100-2-b4c07227775d7.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep158-Why-Chinese-Women-Choose-Not-to-Marry-e35rp59",
+          "pubDate": "2025-07-22",
+          "duration": 2447
+        },
+        {
+          "id": "DMP20250704",
+          "title": "Chinese Podcast EP156: How to Master Chinese as an Adult: Tips from a Polyglot Expert成人如何学习掌握中文？",
+          "guid": "f08602f6-9976-4ae7-a044-8af332468f4d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/105026685/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-4%2F403306258-44100-2-48477985af7ef.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP156-How-to-Master-Chinese-as-an-Adult-Tips-from-a-Polyglot-Expert-e353llt",
+          "pubDate": "2025-07-04",
+          "duration": 2554
+        },
+        {
+          "id": "DMP20250701",
+          "title": "Chinese Podcast EP155:Learn Chinese Through Inspiring Stories: A Canadian’s Journey in Taiwan",
+          "guid": "74297d23-a5d0-4a17-bbe0-3450ceab06c0",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/104882180/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-1%2F403119220-44100-2-9e45225899be7.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP155Learn-Chinese-Through-Inspiring-Stories-A-Canadians-Journey-in-Taiwan-e34v8i4",
+          "pubDate": "2025-07-01",
+          "duration": 3346
+        },
+        {
+          "id": "DMP20250523",
+          "title": "Chinese Podcast EP150: Learn Chinese Fluently: Native-Like Immersion Tips沉浸式学习中文",
+          "guid": "fcd12125-6c7f-438d-9440-380e62df1d3d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/103098914/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-23%2F400865330-44100-2-dcd786a1d663a.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP150-Learn-Chinese-Fluently-Native-Like-Immersion-Tips-e338r32",
+          "pubDate": "2025-05-23",
+          "duration": 3135
+        },
+        {
+          "id": "DMP20250523-2",
+          "title": "Chinese Podcast EP149: Life without phone, internet and electricity 没有手机，电和互联网的生活",
+          "guid": "2b844b2e-7a90-4555-9265-19a6042a5e93",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/103098887/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-23%2F400865295-44100-2-c4948d7679821.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP149-Life-without-phone--internet-and-electricity-e338r27",
+          "pubDate": "2025-05-23",
+          "duration": 1875
+        },
+        {
+          "id": "DMP20250523-3",
+          "title": "Chinese Podcast EP148: Learn Chinese Faster : Motivation to learn Chinese 学习中文的动力",
+          "guid": "3eea8599-ce67-4b62-a2a8-b2e190ee795a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/103098836/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-23%2F400865228-44100-2-19e69d4c1bfb5.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP148-Learn-Chinese-Faster--Motivation-to-learn-Chinese-e338r0k",
+          "pubDate": "2025-05-23",
+          "duration": 2846
+        },
+        {
+          "id": "DMP20250523-4",
+          "title": "Chinese Podcast EP147: Chinese Teachers’ Honest Chat: From Childhood to Life Planning大叔真心话",
+          "guid": "674c9687-e8eb-44cd-9dde-e1249ff2f1d2",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/103098765/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-23%2F400865146-44100-2-c966748cd5d02.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP147-Chinese-Teachers-Honest-Chat-From-Childhood-to-Life-Planning-e338qud",
+          "pubDate": "2025-05-23",
+          "duration": 3219
+        },
+        {
+          "id": "DMP20250523-5",
+          "title": "Chinese Podcast EP146: A Gen Z Chinese Vlog Teacher’s Life and Love Story 零零后中文老师的爱情观与中文Vlog",
+          "guid": "afdec9f9-7b8b-4d99-b751-7bc8c97a363c",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/103098684/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-23%2F400865031-44100-2-f6b1056a1668c.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP146-A-Gen-Z-Chinese-Vlog-Teachers-Life-and-Love-Story-Vlog-e338qrs",
+          "pubDate": "2025-05-23",
+          "duration": 2275
+        },
+        {
+          "id": "DMP20250508",
+          "title": "Chinese Podcast EP145: Speaking fluent chinese in one year? 一年达到流利说中文？",
+          "guid": "aff4ef32-bb32-4f8e-a2b8-ea7d76c46a8a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/102392563/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-8%2F399891673-44100-2-136051e34a118.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP145-Speaking-fluent-chinese-in-one-year-e32j99j",
+          "pubDate": "2025-05-08",
+          "duration": 2635
+        },
+        {
+          "id": "DMP20250422",
+          "title": "Chinese Podcast EP144: Secrets to Mastering Chinese Tones and Vocabulary Fast!掌握中文声调和词汇的秘密",
+          "guid": "5519081a-2ec4-4970-ae2a-d46aa8ba920f",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/101596703/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-22%2F398787826-44100-2-b4baa06df0e58.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP144-Secrets-to-Mastering-Chinese-Tones-and-Vocabulary-Fast-e31r02v",
+          "pubDate": "2025-04-22",
+          "duration": 2231
+        },
+        {
+          "id": "DMP20250411",
+          "title": "Chinese Podcast EP143: Can You Really Learn Chinese in 6 Months? 你真的能在6个月内学会中文吗？",
+          "guid": "289bac95-46e0-40b0-b186-7d7873645e13",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/101144549/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-11%2F398211802-44100-2-629f0fac6a893.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP143-Can-You-Really-Learn-Chinese-in-6-Months--6-e31d6h5",
+          "pubDate": "2025-04-11",
+          "duration": 2410
+        },
+        {
+          "id": "DMP20250404",
+          "title": "Chinese Podcast EP142: AI vs Human Teachers: Who Teaches Chinese Better?",
+          "guid": "f37889f2-2736-4b80-bd5b-c1c722f2c23f",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/100814610/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-4%2F397791158-44100-2-d8773ca20d3c3.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP142-AI-vs-Human-Teachers-Who-Teaches-Chinese-Better-e3134ai",
+          "pubDate": "2025-04-04",
+          "duration": 1483,
+          "m4a": "https://storyfm-audio.luanphungba.workers.dev/DMP20250404.m4a"
+        },
+        {
+          "id": "DMP20250324",
+          "title": "Chinese Podcast EP 141: How to Self-Study Chinese: Must-Know Tips for Chinese Learners in 2025",
+          "guid": "671d9087-059d-4db0-a1b2-a87adae3585a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/100298563/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-24%2F397135377-44100-2-af4f250aea69e.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP-141-How-to-Self-Study-Chinese-Must-Know-Tips-for-Chinese-Learners-in-2025-e30jcc3",
+          "pubDate": "2025-03-24",
+          "duration": 3509
+        },
+        {
+          "id": "DMP20250324-2",
+          "title": "Chinese Podcast EP140: Chinese Boy's First Love 中国男孩的初恋 |",
+          "guid": "94ec409f-839b-40d5-888b-cb474db1a8ab",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/100298361/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-24%2F397135096-44100-2-111563e0db9ab.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP140-Chinese-Boys-First-Love-e30jc5p",
+          "pubDate": "2025-03-24",
+          "duration": 2238
+        },
+        {
+          "id": "DMP20250311",
+          "title": "Chinese Podcast EP139: Which is Best for Learning Chinese: Podcast, Vlog or Book? 播客书Vlog学习中文哪个好？",
+          "guid": "25a4a0fd-8fbc-456f-8d8e-b7774b8d80d2",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/99674253/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-11%2F396345902-44100-2-46746a9483f01.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP139-Which-is-Best-for-Learning-Chinese-Podcast--Vlog-or-Book--Vlog-e300amd",
+          "pubDate": "2025-03-11",
+          "duration": 3567
+        },
+        {
+          "id": "DMP20250301",
+          "title": "Chinese Podcast EP138: How Do Chinese People View International Marriages in China? | 中国人如何看待跨国婚姻？",
+          "guid": "3a3df5b7-3be0-4238-ac0a-a936657a2c94",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/99210169/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-1%2F395764984-44100-2-9dd13ab5de33a.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP138-How-Do-Chinese-People-View-International-Marriages-in-China-e2vi5fp",
+          "pubDate": "2025-03-01",
+          "duration": 2098
+        },
+        {
+          "id": "DMP20250224",
+          "title": "Chinese Podcast EP137: Uncle Ben Almost Died Because of...Ben叔的濒死体验",
+          "guid": "6e467ee5-9ab8-4f1d-bcac-59c9d9be49a9",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/98927714/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-24%2F395413405-44100-2-a38f59ce3ac4c.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP137-Uncle-Ben-Almost-Died-Because-of---Ben-e2v9hl2",
+          "pubDate": "2025-02-24",
+          "duration": 2028
+        },
+        {
+          "id": "DMP20250215",
+          "title": "Chinese Podcast Ep136: The Person We Are Most Grateful For in Life | 大叔生命中最感谢的人 |",
+          "guid": "3d3b700b-7725-4114-a43e-d9e6e5dd0075",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/98526220/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-15%2F394912937-44100-2-35e93fcdfd844.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep136-The-Person-We-Are-Most-Grateful-For-in-Life-e2ut9ic",
+          "pubDate": "2025-02-15",
+          "duration": 1443
+        },
+        {
+          "id": "DMP20250210",
+          "title": "Chinese Podcast EP135: Key to Mastering \"Perfect\" Chinese | \"完美\"中文的养成 | Jin老师采访",
+          "guid": "77c0eb26-6544-454f-8834-9c57b1158e5b",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/98283970/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-10%2F394609196-44100-2-f4becb52adb41.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP135-Key-to-Mastering-Perfect-Chinese----Jin-e2ult02",
+          "pubDate": "2025-02-10",
+          "duration": 3088
+        },
+        {
+          "id": "DMP20250210-2",
+          "title": "Chinese Podcast EP134: Chinese New Year Special Show | 大叔新春特别节目",
+          "guid": "3c40e86c-cda8-4539-aad6-23a0aa5d8c27",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/98283917/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-10%2F394609121-44100-2-6eae33c7379f8.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP134-Chinese-New-Year-Special-Show-e2ulsud",
+          "pubDate": "2025-02-10",
+          "duration": 2554
+        },
+        {
+          "id": "DMP20250130",
+          "title": "Chinese Podcast Ep133: 5 Things You Seriously Shouldn't Say to Chinese 不能和中国人说的5件事",
+          "guid": "8859ab4d-ec89-49fd-8fb7-2f2cae562d1b",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/97780028/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-30%2F393982644-44100-2-c87ed6e517da5.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep133-5-Things-You-Seriously-Shouldnt-Say-to-Chinese-5-e2u6grs",
+          "pubDate": "2025-01-30",
+          "duration": 1854
+        },
+        {
+          "id": "DMP20250130-2",
+          "title": "Chinese Podcast Ep.132 Can You Learn Chinese Faster with Anki? 闪卡真是学习中文的好方法吗？",
+          "guid": "c35dd522-f981-4df1-afed-ffe61d573afb",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/97779963/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-30%2F393982561-44100-2-7ce02dc2e0257.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep-132-Can-You-Learn-Chinese-Faster-with-Anki-e2u6gpr",
+          "pubDate": "2025-01-30",
+          "duration": 1856
+        },
+        {
+          "id": "DMP20250112",
+          "title": "Chinese Podcast Ep131: Top 3 Trend Words in China for 2024 2024年中国3大流行词",
+          "guid": "0170a71e-a57a-4112-b996-fdda249fe92f",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/96926930/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-11%2F392920526-44100-2-b7ef40a1771cf.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep131-Top-3-Trend-Words-in-China-for-2024-20243-e2tcfoi",
+          "pubDate": "2025-01-12",
+          "duration": 2131
+        },
+        {
+          "id": "DMP20250104",
+          "title": "Chinese Podcast EP130: Why We Still Fail on YouTube after 2 Years of Trying? 大叔中文的观众为什么还是那么少？",
+          "guid": "51399a7c-cedc-4a4b-9a83-d4eb3cc64189",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/96581589/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-4%2F392495013-44100-2-23c28119c697e.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP130-Why-We-Still-Fail-on-YouTube-after-2-Years-of-Trying-e2t1ugl",
+          "pubDate": "2025-01-04",
+          "duration": 3168
+        },
+        {
+          "id": "DMP20241227",
+          "title": "Chinese Podcast Ep129: How to Learn Chinese with C-Drama? 怎样通过电视剧学习中文？",
+          "guid": "dee4d996-4dea-485c-befe-ed0c3498696b",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/96331749/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-27%2F392184520-44100-2-b2f8d95e6da17.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep129-How-to-Learn-Chinese-with-C-Drama-e2sqah5",
+          "pubDate": "2024-12-27",
+          "duration": 2845
+        },
+        {
+          "id": "DMP20241220",
+          "title": "Chinese Podcast Ep128: Are We Typical Chinese?我们是典型的中国人吗？",
+          "guid": "081085c4-1539-4361-bfe6-31b88953653a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/96080754/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-20%2F391871654-44100-2-108c4e7d9f39b.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep128-Are-We-Typical-Chinese-e2sildi",
+          "pubDate": "2024-12-20",
+          "duration": 2709
+        },
+        {
+          "id": "DMP20241216",
+          "title": "Chinese Podcast EP 127: Chinese Gift Giving Culture 中国人是怎么送礼的？",
+          "guid": "7e48b007-734e-41af-b503-39276c60133a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/95873954/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-16%2F391610459-44100-2-985f9c68f4f7e.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP-127-Chinese-Gift-Giving-Culture-e2scbf2",
+          "pubDate": "2024-12-16",
+          "duration": 2315
+        },
+        {
+          "id": "DMP20241208",
+          "title": "Chinese Podcast EP126: What do the Chinese Men Think of Romantic? 中国男人是如何看待“浪漫”的？",
+          "guid": "0d41b713-3a09-47c3-9a21-5b5f16819d20",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/95551553/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-8%2F391209965-44100-2-89265852a80a7.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP126-What-do-the-Chinese-Men-Think-of-Romantic-e2s2gk1",
+          "pubDate": "2024-12-08",
+          "duration": 2291
+        },
+        {
+          "id": "DMP20241130",
+          "title": "Chinese Podcast EP125: Chinese girlfriend / Chinese boyfriend = Learn Chinese Faster? 有中国伴侣就能学会中文吗？",
+          "guid": "6d5b33ad-cb2d-4fcb-8321-622afbea5ae0",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/95180217/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-30%2F390753475-44100-2-0fdd66175bfcf.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP125-Chinese-girlfriend--Chinese-boyfriend--Learn-Chinese-Faster-e2rn5vp",
+          "pubDate": "2024-11-30",
+          "duration": 3617
+        },
+        {
+          "id": "DMP20241122",
+          "title": "Chinese Podcast EP124: The Best and Worst Teachers We've Ever Had 大叔们遇到过最好和最不好的老师",
+          "guid": "2c4338ad-195f-466e-99bf-ffbbf861ebef",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/94806909/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-22%2F390288023-44100-2-c0ebdcedafdbd.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP124-The-Best-and-Worst-Teachers-Weve-Ever-Had-e2rbpdt",
+          "pubDate": "2024-11-22",
+          "duration": 2905
+        },
+        {
+          "id": "DMP20241116",
+          "title": "Chinese Podcast EP123: Which Dashu Understands Woman Better? 哪个大叔更了解女人?",
+          "guid": "6fa5a273-4567-43f9-b1ef-754f8c5c29ac",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/94526080/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-16%2F389942166-44100-2-2d72adaee0eb9.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP123-Which-Dashu-Understands-Woman-Better-e2r3760",
+          "pubDate": "2024-11-16",
+          "duration": 2064
+        },
+        {
+          "id": "DMP20241112",
+          "title": "Chinese Podcast EP122: The Extreme Work Culture in China 中国人工作的“内卷”",
+          "guid": "77827dd8-fd51-40a9-9188-9c7c23ce8c6a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/94287169/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-12%2F389647543-44100-2-4924b6d1dca8e.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP122-The-Extreme-Work-Culture-in-China-e2qrts1",
+          "pubDate": "2024-11-12",
+          "duration": 2065
+        },
+        {
+          "id": "DMP20241101",
+          "title": "Chinese Podcast EP121:We Humans Have Become Pets to Our Cell Phones 我们人类已经变成手机的“宠物”了",
+          "guid": "a96e923c-583e-4ba7-bcc9-b7e9d5e1b707",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/93825877/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-1%2F389075105-44100-2-c59a22be810f6.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP121We-Humans-Have-Become-Pets-to-Our-Cell-Phones-e2qdrcl",
+          "pubDate": "2024-11-01",
+          "duration": 1714
+        },
+        {
+          "id": "DMP20241025",
+          "title": "Chinese Podcast EP120: Chinese Study Advice From World Champion of Chinese Bridge 汉语桥世界冠军的建议",
+          "guid": "2a5e1c11-8635-48a5-9fbe-b0961ca0ead1",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/93505979/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-25%2F388678558-44100-2-916c04b8b11d7.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP120-Chinese-Study-Advice-From-World-Champion-of-Chinese-Bridge-e2q42vr",
+          "pubDate": "2024-10-25",
+          "duration": 2375
+        },
+        {
+          "id": "DMP20241017",
+          "title": "Chinese Podcast EP119: So, You Think Chinese Men Don't Like Shopping Online? 中国男人真的不喜欢网上购物吗？",
+          "guid": "f71cd701-46dc-4ac1-9f88-cdaec0a28d77",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/93154987/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-17%2F388240100-44100-2-6c8decb9bfc01.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP119-So--You-Think-Chinese-Men-Dont-Like-Shopping-Online-e2ppc7b",
+          "pubDate": "2024-10-17",
+          "duration": 2739
+        },
+        {
+          "id": "DMP20241010",
+          "title": "Chinese Podcast EP118: Dashu's 16 personalities test result 十六型人格测试",
+          "guid": "7220c554-aa3f-40c3-8f6e-6d4665ed2fdb",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/92829009/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-10%2F387843383-44100-2-931a9bd37734.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP118-Dashus-16-personalities-test-result-e2pfdsh",
+          "pubDate": "2024-10-10",
+          "duration": 3229
+        },
+        {
+          "id": "DMP20241003",
+          "title": "Chinese Podcast EP117: Ben is making a big change in life ! Ben叔的人生抉择!",
+          "guid": "bfafd80b-6567-49fe-b7d8-03cee73faeae",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/92520654/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-3%2F387456994-44100-2-91fd6f325f751.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP117-Ben-is-making-a-big-change-in-life---Ben-e2p60oe",
+          "pubDate": "2024-10-03",
+          "duration": 2872
+        },
+        {
+          "id": "DMP20240925",
+          "title": "Chinese Podcast EP116: Are Chinese Children Really not Happy? 中国孩子过得真的不开心吗？",
+          "guid": "731449dc-be15-41a9-9155-2044bba3d5af",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/92202158/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-25%2F387058933-44100-2-c30cc7b639074.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP116-Are-Chinese-Children-Really-not-Happy-e2os9ne",
+          "pubDate": "2024-09-25",
+          "duration": 2978
+        },
+        {
+          "id": "DMP20240919",
+          "title": "Chinese Podcast EP115: What do You Consider Cheating? 什么才算是出轨？",
+          "guid": "075c6096-dd1b-4072-915d-54c35b9ba880",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/91910744/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-19%2F386630081-44100-2-1e3131c01d6f1.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP115-What-do-You-Consider-Cheating-e2ojd4o",
+          "pubDate": "2024-09-19",
+          "duration": 2753
+        },
+        {
+          "id": "DMP20240912",
+          "title": "Chinese Podcast EP114: What Scares You the Most? 你最害怕什么？",
+          "guid": "969307e5-ca21-4b0f-9886-c667ddc7f1e3",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/91607941/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-12%2F386217051-44100-2-493ad7d040356.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP114-What-Scares-You-the-Most-e2oa5e5",
+          "pubDate": "2024-09-12",
+          "duration": 2650
+        },
+        {
+          "id": "DMP20240905",
+          "title": "Chinese Podcast EP113: From Zero to Intermediate Chine Only with Dashu Mandarin?! 只听大叔中文中文从零到中级！",
+          "guid": "a956ca04-a1a6-44b2-b374-8110cdf0578d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/91319377/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-5%2F385855264-44100-2-3fb64d886c59d.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP113-From-Zero-to-Intermediate-Chine-Only-with-Dashu-Mandarin-e2o1bkh",
+          "pubDate": "2024-09-05",
+          "duration": 2460
+        },
+        {
+          "id": "DMP20240828",
+          "title": "Chinese Podcast EP112: The Chinese Story That Changed Your Life 改变你人生的中文故事",
+          "guid": "888af8c9-8987-4177-8bb6-450389a0b42d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/91013009/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-28%2F385480490-44100-2-f23f056a8a05.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP112-The-Chinese-Story-That-Changed-Your-Life-e2no0eh",
+          "pubDate": "2024-08-28",
+          "duration": 2658
+        },
+        {
+          "id": "DMP20240821",
+          "title": "Chinese Podcast EP111: Chinese Uncles Turn into Chinese Aunties 大叔们变成大妈会怎样？",
+          "guid": "98592f26-cebd-4cb5-aa84-f302be810b85",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/90732506/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-21%2F385138112-44100-2-3565c06c801ad.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP111-Chinese-Uncles-Turn-into-Chinese-Aunties-e2nfegq",
+          "pubDate": "2024-08-21",
+          "duration": 2802
+        },
+        {
+          "id": "DMP20240814",
+          "title": "Chinese Podcast EP110: Do you have middle age crisis?丨中国人的中年危机",
+          "guid": "8e06fd6e-40e6-4999-8397-0398662d68a2",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/90450582/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-14%2F384788771-44100-2-f89c3acee333b.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP110-Do-you-have-middle-age-crisis-e2n6r6m",
+          "pubDate": "2024-08-14",
+          "duration": 3005
+        },
+        {
+          "id": "DMP20240807",
+          "title": "Chinese Podcast EP109: What if You Lived a Different Life丨平行空间的第二人生",
+          "guid": "ebd67a9b-4e2d-4053-aa97-a911bcbea584",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/90177955/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-7%2F384455278-44100-2-489c375601afc.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP109-What-if-You-Lived-a-Different-Life-e2mugv3",
+          "pubDate": "2024-08-07",
+          "duration": 2780
+        },
+        {
+          "id": "DMP20240801",
+          "title": "Chinese Podcast Ep108: What is your most awkward moment?丨你最尴尬的时刻是什么?丨",
+          "guid": "9fbe1e99-dc85-4c3c-aae0-9e26daac3f97",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/89931053/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-1%2F384150946-44100-2-438759f0fd1f7.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep108-What-is-your-most-awkward-moment-e2mmvrd",
+          "pubDate": "2024-08-01",
+          "duration": 2551
+        },
+        {
+          "id": "DMP20240724",
+          "title": "Chinese Podcast EP107: Chinese boys are horrible丨可怕又糟糕的中国男人丨",
+          "guid": "9edc22b7-ec2c-4a8b-9dbf-4e99afc8a338",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/89613682/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-24%2F383757978-44100-2-f8a219566de42.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP107-Chinese-boys-are-horrible-e2md9ti",
+          "pubDate": "2024-07-24",
+          "duration": 2560
+        },
+        {
+          "id": "DMP20240718",
+          "title": "Chinese Podcast EP106:Chinese Girl Lifestyle丨Chinese Gen Z living abroad 中国的零零后女生出乎你的想象",
+          "guid": "76b3617e-5733-4928-a80c-436afd90c368",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/89365113/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-18%2F383404166-44100-2-72f45f259703d.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP106Chinese-Girl-LifestyleChinese-Gen-Z-living-abroad-e2m5n5p",
+          "pubDate": "2024-07-18",
+          "duration": 3101
+        },
+        {
+          "id": "DMP20240711",
+          "title": "Chinese Podcast EP105: Learn Chinese with StoryTelling丨Comprehensible input chinese丨Good chinese teacher丨",
+          "guid": "aa385cdf-67d6-4387-b4bf-122967cd1eb7",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/89096223/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-11%2F382973335-44100-2-bb70cdf34478b.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP105-Learn-Chinese-with-StoryTellingComprehensible-input-chineseGood-chinese-teacher-e2ltgiv",
+          "pubDate": "2024-07-11",
+          "duration": 2900
+        },
+        {
+          "id": "DMP20240706",
+          "title": "Chinese Podcast EP104: How to study in China in 2025? 2025年如何去中国留学？",
+          "guid": "26b49174-5f64-4620-82c3-aabc15deed89",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/88888370/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-6%2F382548613-44100-2-6d9a099a4561f.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP104-How-to-study-in-China-in-2025--2025-e2ln5ji",
+          "pubDate": "2024-07-06",
+          "duration": 2695
+        },
+        {
+          "id": "DMP20240629",
+          "title": "Chinese Podcast EP103: How do Chinese Think of the Netherlands 中国人对荷兰的刻板印象",
+          "guid": "f23d3c8d-e37a-4cb8-8185-0df3b409879b",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/88617952/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-29%2F381978783-44100-2-09261151314a.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP103-How-do-Chinese-Think-of-the-Netherlands-e2leth0",
+          "pubDate": "2024-06-29",
+          "duration": 2415
+        },
+        {
+          "id": "DMP20240620",
+          "title": "Chinese Podcast EP102: Fun Facts about Chinese Culture and Chinese language 中国文化和汉语的有趣现象",
+          "guid": "f74b1da9-12c6-46f9-9061-48b6862dd192",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/88250361/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-20%2F381178003-44100-2-1e0a4f4f8b8ef.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP102-Fun-Facts-about-Chinese-Culture-and-Chinese-language-e2l3mhp",
+          "pubDate": "2024-06-20",
+          "duration": 2097
+        },
+        {
+          "id": "DMP20240612",
+          "title": "Chinese Podcast EP101: Can You Learn Chinese Better in China? 在中国就一定能学好中文吗？",
+          "guid": "a833c2f9-052b-43ae-bfc0-fd6811ef767d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/87933036/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-12%2F380459228-44100-2-890e8875a06dc.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP101-Can-You-Learn-Chinese-Better-in-China-e2kq0lc",
+          "pubDate": "2024-06-12",
+          "duration": 2812
+        },
+        {
+          "id": "DMP20240605",
+          "title": "Chinese Podcast EP100： 100th Episode Q&A 大叔中文第100期！",
+          "guid": "9e847065-3ba3-4b1e-8130-25f1abf35a9f",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/87668248/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-5%2F379850642-44100-2-eaedad630a314.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP100-100th-Episode-QA-100-e2khu2o",
+          "pubDate": "2024-06-05",
+          "duration": 2360
+        },
+        {
+          "id": "DMP20240529",
+          "title": "Chinese Podcast EP99: Chinese Input VS Output, Which is More Important? 输入输出哪个更重要?",
+          "guid": "237a42f2-18d2-4362-be72-6794f47a86eb",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/87357671/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-29%2F379120636-44100-2-d1e186a8dcbdd.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP99-Chinese-Input-VS-Output--Which-is-More-Important-e2k8ep7",
+          "pubDate": "2024-05-29",
+          "duration": 2081
+        },
+        {
+          "id": "DMP20240523",
+          "title": "Chinese podcast EP98: Can you understand mandarin with beijing accent? 北京口音",
+          "guid": "7a30b118-f244-47df-b35c-ed4fe657858a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/87100668/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-23%2F378489781-44100-2-630fdc4f8369f.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-podcast-EP98-Can-you-understand-mandarin-with-beijing-accent-e2k0jps",
+          "pubDate": "2024-05-23",
+          "duration": 2147
+        },
+        {
+          "id": "DMP20240516",
+          "title": "Chinese Podcast 97: 6 Places to Travel in Mainland China and Taiwan | 6个旅行目的地 | places to visit 2024",
+          "guid": "fd7652e2-6b01-4410-bfe2-2b25d9134c14",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/86809725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-16%2F377780423-44100-2-a6c3c53bf108b.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-97-6-Places-to-Travel-in-Mainland-China-and-Taiwan--6--places-to-visit-2024-e2jnnlt",
+          "pubDate": "2024-05-16",
+          "duration": 2321
+        },
+        {
+          "id": "DMP20240508",
+          "title": "Chinese Podcast EP96: Indonesian Guy Speaks Chinese Better Than Most Chinese 印尼小伙的中文简直太完美了",
+          "guid": "090972ce-63d2-4ea4-9b3b-7fe984f07238",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/86497094/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-8%2F377003514-44100-2-a10f8ace5ab7f.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP96-Indonesian-Guy-Speaks-Chinese-Better-Than-Most-Chinese-e2je6c6",
+          "pubDate": "2024-05-08",
+          "duration": 2351
+        },
+        {
+          "id": "DMP20240505",
+          "title": "Chinese Podcast EP95: This Chinese Teacher Deserves an Oscar 角色扮演语境教学法",
+          "guid": "dcdb2252-71de-45b8-a42f-24efe90bc5db",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/86349617/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-5%2F376644995-44100-2-7978ad0205588.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP95-This-Chinese-Teacher-Deserves-an-Oscar-e2j9mbh",
+          "pubDate": "2024-05-05",
+          "duration": 2043
+        },
+        {
+          "id": "DMP20240428",
+          "title": "Chinese Podcast EP94: Will you quit job and travel the world? 你会辞去工作去环游世界吗？",
+          "guid": "2680f33a-80de-4bf9-bd54-e4cf96c4ec83",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/86023005/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-28%2F375836967-44100-2-941fb1a3e141d.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP94-Will-you-quit-job-and-travel-the-world-e2ivnct",
+          "pubDate": "2024-04-28",
+          "duration": 2621
+        },
+        {
+          "id": "DMP20240417",
+          "title": "Chinese Podcast EP93: How to Stay Motivated to Study Chinese 学习中文如何保持动力",
+          "guid": "e38b727d-f1d7-4aaf-bc70-5fccd71f634b",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/85565866/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-17%2F374690433-44100-2-f3fcfd8d223d3.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP93-How-to-Stay-Motivated-to-Study-Chinese-e2ihova",
+          "pubDate": "2024-04-17",
+          "duration": 2586
+        },
+        {
+          "id": "DMP20240414",
+          "title": "Chinese Podcast EP92: Chinese Influencer Teachers Behind the Scene | 你不知道的中文老师的趣事",
+          "guid": "649ca814-cd6f-4964-aa17-52a849c8c14d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/85392306/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-14%2F374252512-44100-2-05a558175a4cf.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP92-Chinese-Influencer-Teachers-Behind-the-Scene-e2icffi",
+          "pubDate": "2024-04-14",
+          "duration": 2007
+        },
+        {
+          "id": "DMP20240404",
+          "title": "Chinese Podcast EP91: Chinese Gen Z is Crazy? 中国的零零后是怎么想的？",
+          "guid": "b077fb80-99cb-4a14-9cec-17c77ed26746",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/84961313/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-4%2F373197934-44100-2-c82d375b41d97.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP91-Chinese-Gen-Z-is-Crazy-e2hvaj1",
+          "pubDate": "2024-04-04",
+          "duration": 1926
+        },
+        {
+          "id": "DMP20240329",
+          "title": "Chinese Podcast EP90: How to Find Good Chinese Teacher? 如何找到好的中文老师？",
+          "guid": "4bf52a81-3dd4-4c09-a1b8-99aab4927b32",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/84709963/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-29%2F372592820-44100-2-e430a4475df35.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP90-How-to-Find-Good-Chinese-Teacher-e2hnl4b",
+          "pubDate": "2024-03-29",
+          "duration": 2338
+        },
+        {
+          "id": "DMP20240322",
+          "title": "Chinese Podcast EP89: Japanese Manga in China 日本动漫在中国流行吗？",
+          "guid": "e0faf117-b904-4324-98fd-defd70d16b6d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/84400568/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-22%2F371840121-44100-2-c26f916493234.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP89-Japanese-Manga-in-China-e2he6vo",
+          "pubDate": "2024-03-22",
+          "duration": 1595
+        },
+        {
+          "id": "DMP20240314",
+          "title": "Chinese Podcast EP88: Polyglot speaking Chinese 会说中文的意大利多语者",
+          "guid": "1f38220c-16e7-4bd4-aaaa-849b954d7f3a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/84011372/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-14%2F370847359-44100-2-c1008e4f1f706.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP88-Polyglot-speaking-Chinese-e2h2atc",
+          "pubDate": "2024-03-14",
+          "duration": 1937
+        },
+        {
+          "id": "DMP20240306",
+          "title": "Chinese Podcast EP87: What is Like Being Latino Asian? 拉美华人 - 阿根廷华裔小伙的生活",
+          "guid": "cf8f9df2-4626-401e-b0e3-989614431a8b",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/83674887/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-6%2F369989657-44100-2-706b4f794c83b.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP87-What-is-Like-Being-Latino-Asian-----e2go2a7",
+          "pubDate": "2024-03-06",
+          "duration": 1817
+        },
+        {
+          "id": "DMP20240228",
+          "title": "Chinese Podcast EP86 Can You Learn a Language with Duolingo? 你真的能用多邻国学中文吗？",
+          "guid": "d8ef0996-22ed-42a9-8f14-02d749c28d82",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/83308982/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-1-28%2F369075098-44100-2-3f555544b3be7.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP86-Can-You-Learn-a-Language-with-Duolingo-e2gcsvm",
+          "pubDate": "2024-02-28",
+          "duration": 1835
+        },
+        {
+          "id": "DMP20240222",
+          "title": "Chinese Podcast EP85: 6 famous chinese people You Need to Know. 六位中国名人",
+          "guid": "f448e470-1f97-451e-aa78-a38d447770c3",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/83024390/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-1-22%2F368338111-44100-2-6dcbe91817697.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP85-6-famous-chinese-people-You-Need-to-Know-e2g4726",
+          "pubDate": "2024-02-22",
+          "duration": 2074
+        },
+        {
+          "id": "DMP20240204",
+          "title": "Chinese Podcast EP84: How to Learn Chinese with Comprehensible Input? 如何用可理解性输入法学习中文？",
+          "guid": "89685904-1c39-49a3-a7b2-f2f51ed6d038",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/82203695/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-1-4%2F366160669-44100-2-6adf802082663.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP84-How-to-Learn-Chinese-with-Comprehensible-Input-e2fb5jf",
+          "pubDate": "2024-02-04",
+          "duration": 1995
+        },
+        {
+          "id": "DMP20240131",
+          "title": "Chinese Podcast EP83: Learn Mandarin with 6 Chinese Songs!六首中文歌教你学中文!",
+          "guid": "3af3edc4-b96d-4404-b2f8-cd3724417e9d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/82037684/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-31%2F365678793-44100-2-33886c5c6ec83.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP83-Learn-Mandarin-with-6-Chinese-Songs-e2f63fk",
+          "pubDate": "2024-01-31",
+          "duration": 2203
+        },
+        {
+          "id": "DMP20240119",
+          "title": "Chinese Podcast #82: How to Learn Chinese Better in 2024?2024年如何更好地学习中文？",
+          "guid": "d91176e8-16b0-41e4-b9b5-ab01d8ff5774",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/81515783/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-19%2F364141398-44100-2-6b1a59ba7ba9c.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-82-How-to-Learn-Chinese-Better-in-2024-2024-e2em5q7",
+          "pubDate": "2024-01-19",
+          "duration": 2272
+        },
+        {
+          "id": "DMP20240114",
+          "title": "Chinese Podcast EP81: Things You Don't Know about Chinese Funeral你不知道的中国葬礼的细节",
+          "guid": "e2100a6b-d617-447f-ad8f-379c4529c8d0",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/81253207/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-14%2F363395176-44100-2-81327291c06e6.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP81-Things-You-Dont-Know-about-Chinese-Funeral-e2ee5cn",
+          "pubDate": "2024-01-14",
+          "duration": 1874
+        },
+        {
+          "id": "DMP20240107",
+          "title": "Chinese Podcast EP80: Mandarin VS Cantonese Speaking 普通话VS粤语/广东话",
+          "guid": "2e6efc0c-e761-4c95-a7df-c0f1b00f1e66",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/80879659/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-7%2F362461094-44100-2-1708ab5afe8ba.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP80-Mandarin-VS-Cantonese-Speaking-VS-e2e2ojb",
+          "pubDate": "2024-01-07",
+          "duration": 1937
+        },
+        {
+          "id": "DMP20240101",
+          "title": "Chinese Podcast EP79: How to study chinese in 2024 with Dashu Mandarin 大叔中文2024年展望:跟大叔们学中文学汉语",
+          "guid": "717dc9a8-18ae-450e-8259-010a66d2e517",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/80672866/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-0-1%2F361813935-44100-2-51cc348664346.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP79-How-to-study-chinese-in-2024-with-Dashu-Mandarin-2024-e2dsel2",
+          "pubDate": "2024-01-01",
+          "duration": 2380
+        },
+        {
+          "id": "DMP20231222",
+          "title": "Chinese Podcast EP78: How to Teach Chinese in a Creative Way?如何用戏剧化教学法有创意地教中文？",
+          "guid": "c34cb93a-da2e-4ec8-a08d-a98214f55573",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/80349159/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-22%2F360915218-44100-2-6f89a00a736c5.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP78-How-to-Teach-Chinese-in-a-Creative-Way-e2diih7",
+          "pubDate": "2023-12-22",
+          "duration": 2829
+        },
+        {
+          "id": "DMP20231215",
+          "title": "Chinese Podcast EP77: Does the Chinese Have Sex Education?中国人从小接受性教育吗？",
+          "guid": "b48acb49-9478-4820-b9b4-4dda823c06bb",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/80058119/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-15%2F360053600-44100-2-d19860fb86fea.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP77-Does-the-Chinese-Have-Sex-Education-e2d9ma7",
+          "pubDate": "2023-12-15",
+          "duration": 1412
+        },
+        {
+          "id": "DMP20231208",
+          "title": "Chinese Podcast EP76: This American Guy Speaks Perfect Chinese! 这个美国小伙的中文简直太惊人了！",
+          "guid": "2b78a12e-6ea6-4986-8e25-c2a4749cd0fc",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/79732136/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-8%2F359016473-44100-2-850f66bd73015.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP76-This-American-Guy-Speaks-Perfect-Chinese-e2cvnv8",
+          "pubDate": "2023-12-08",
+          "duration": 1268
+        },
+        {
+          "id": "DMP20231201",
+          "title": "Chinese Podcast EP75: Chinese Teacher's Life in Yunnan is Insane! 中文老师在云南的生活如此疯狂！",
+          "guid": "f919b0b8-2651-4f61-ae2b-bc4e2051fd60",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/79411396/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-1%2F358011406-44100-2-0bfec9ac0c4e.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP75-Chinese-Teachers-Life-in-Yunnan-is-Insane-e2cluo4",
+          "pubDate": "2023-12-01",
+          "duration": 1496
+        },
+        {
+          "id": "DMP20231124",
+          "title": "Chinese Podcast EP74: Why Chinese Student so Shy and Lacking Confidence? 为什么中国学生这么害羞没自信？",
+          "guid": "dc8b2934-521f-4bcc-a2c8-acf245c706ea",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/79077841/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-10-24%2F356989309-44100-2-0cea1289a5be2.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP74-Why-Chinese-Student-so-Shy-and-Lacking-Confidence-e2cbp0h",
+          "pubDate": "2023-11-24",
+          "duration": 1569
+        },
+        {
+          "id": "DMP20231117",
+          "title": "Chinese Podcast EP73: Are They Really Learning Chinese Language? 他们真的是在学中文吗？",
+          "guid": "ccbdeca0-23e6-4697-901e-8a91cffb22ee",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/78753131/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-10-17%2F355957678-44100-2-47ef4374d707f.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP73-Are-They-Really-Learning-Chinese-Language-e2c1rtb",
+          "pubDate": "2023-11-17",
+          "duration": 2037
+        },
+        {
+          "id": "DMP20231111",
+          "title": "Chinese Podcast EP72: Why do Chinese drink so much? 中国人为什么喝那么多酒？",
+          "guid": "c46737e4-96d0-455d-9871-6e414ed1f730",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/78479169/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-10-11%2F355079754-44100-2-8f6e88cf45f95.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP72-Why-do-Chinese-drink-so-much-e2bpgc1",
+          "pubDate": "2023-11-11",
+          "duration": 3562
+        },
+        {
+          "id": "DMP20231103",
+          "title": "Chinese Podcast EP71: She is the Chinese Interpreter of the First Lady of Indonesia 她是印尼第一夫人的翻译",
+          "guid": "9dfe5e49-3f21-486c-bb89-62c5be6f2076",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/78118242/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-10-3%2F353940691-44100-2-324a407995686.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP71-She-is-the-Chinese-Interpreter-of-the-First-Lady-of-Indonesia-e2beft2",
+          "pubDate": "2023-11-03",
+          "duration": 3335
+        },
+        {
+          "id": "DMP20231027",
+          "title": "Chinese Podcast EP70: Why are Chinese so Obsessed with Beauty APPs and Filters? 中国人为什么对美颜和滤镜着迷？",
+          "guid": "1f94b645-342d-4ee2-8a4b-2722af820a96",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/77792198/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-27%2F352945618-44100-2-dac7e701ff3af.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP70-Why-are-Chinese-so-Obsessed-with-Beauty-APPs-and-Filters-e2b4hg6",
+          "pubDate": "2023-10-27",
+          "duration": 3144
+        },
+        {
+          "id": "DMP20231020",
+          "title": "Chinese Podcast EP69: Why don't chinese want to get married? 中国人为什么不愿意结婚了？",
+          "guid": "dcce4789-6dc4-435b-a0c1-0646d08a3f30",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/77478976/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-20%2F351969098-44100-2-bb94252b9a30e.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP69-Why-dont-chinese-want-to-get-married-e2aqvk0",
+          "pubDate": "2023-10-20",
+          "duration": 3263
+        },
+        {
+          "id": "DMP20231013",
+          "title": "Chinese Podcast EP68: He Learned to Speak Chinese by Translating Chinese Novels. 他翻译中国小说学会说流利中文",
+          "guid": "a787d2db-4c35-453b-b92c-7039122511c3",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/77149974/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-13%2F350932274-44100-2-43db39c95e389.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP68-He-Learned-to-Speak-Chinese-by-Translating-Chinese-Novels-e2aguam",
+          "pubDate": "2023-10-13",
+          "duration": 3277
+        },
+        {
+          "id": "DMP20231006",
+          "title": "Chinese Podcast EP67: Why the Chinese Think Work is More Important Than Health? 为什么中国人不重视健康？",
+          "guid": "cbe7c64e-1b1e-407f-9324-882420930c56",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/76843620/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-6%2Fc59ccdc9-77c0-b77b-51ad-1250c0c3d51d.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP67-Why-the-Chinese-Think-Work-is-More-Important-Than-Health-e2a7j54",
+          "pubDate": "2023-10-06",
+          "duration": 3649
+        },
+        {
+          "id": "DMP20230929",
+          "title": "Chinese Podcast EP66: Why Chinese Speak so Indirectly? 中国人为什么有话不直说？",
+          "guid": "70516d16-3a51-4d79-9719-f06ed6b56b3e",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/76534882/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-29%2F348998176-44100-2-f198f3b45a403.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP66-Why-Chinese-Speak-so-Indirectly-e29u5l2",
+          "pubDate": "2023-09-29",
+          "duration": 3111
+        },
+        {
+          "id": "DMP20230922",
+          "title": "Chinese Podcast EP65: What Makes Chinese So Difficult to Learn? 中国学习上最大的困难有哪些？",
+          "guid": "6051474c-2f62-4360-93e7-05f295c0d4c9",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/76224220/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-22%2F348052244-44100-2-ab8ab876449ed.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP65-What-Makes-Chinese-So-Difficult-to-Learn-e29km8s",
+          "pubDate": "2023-09-22",
+          "duration": 4110
+        },
+        {
+          "id": "DMP20230915",
+          "title": "Chinese Podcast EP64: How to Improve Your Chinese Speaking Skills?如何提高你的中文口语水平？",
+          "guid": "76989bbb-d745-44d6-b431-7cd0c674728e",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/75923370/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-15%2F347099287-44100-2-c0615466f8a69.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP64-How-to-Improve-Your-Chinese-Speaking-Skills-e29bgfa",
+          "pubDate": "2023-09-15",
+          "duration": 4113
+        },
+        {
+          "id": "DMP20230908",
+          "title": "Chinese Podcast EP63: How to Speak Standard Chinese as a Native Speaker? 如何说一口标准普通话？",
+          "guid": "86f0b56d-522c-46d9-9f56-7dca7f69fa08",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/75621115/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-8%2F346172377-44100-2-c48bee4d60809.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP63-How-to-Speak-Standard-Chinese-as-a-Native-Speaker-e29299r",
+          "pubDate": "2023-09-08",
+          "duration": 5488
+        },
+        {
+          "id": "DMP20230901",
+          "title": "Chinese Podcast EP62: Why Did This Chinese Guy Go to Mexico During the Pandemic? 中国小伙为什么疫情期间去墨西哥？",
+          "guid": "291bd105-88ba-46af-a97d-00c6b69627b5",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/75350497/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-1%2F345386536-44100-2-324f0c8bc4674.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP62-Why-Did-This-Chinese-Guy-Go-to-Mexico-During-the-Pandemic-e28q111",
+          "pubDate": "2023-09-01",
+          "duration": 4317
+        },
+        {
+          "id": "DMP20230825",
+          "title": "Chinese Podcast EP61: What do the Chinese Girls Value the Most in a Relationship? 中国姑娘最看重伴侣什么品质？",
+          "guid": "ff109c4d-d866-4c17-bdc3-dee321e742ef",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/75058283/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-25%2F344416277-44100-2-15b666fd07a37.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP61-What-do-the-Chinese-Girls-Value-the-Most-in-a-Relationship-e28h3lb",
+          "pubDate": "2023-08-25",
+          "duration": 4910
+        },
+        {
+          "id": "DMP20230818",
+          "title": "Chinese Podcast EP60: Is it Really Difficult to Marry a Chinese Girl?娶中国姑娘真的那么难吗？",
+          "guid": "418fe124-362f-4e16-9f60-3c77f86c3a80",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/74761958/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-18%2F73bd80ab-2c14-97d9-1132-106e175f2c06.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP60-Is-it-Really-Difficult-to-Marry-a-Chinese-Girl-e288296",
+          "pubDate": "2023-08-18",
+          "duration": 3912
+        },
+        {
+          "id": "DMP20230811",
+          "title": "Chinese Podcast EP59: Study Chinese in China VS Study Chinese Online.在中国学习中文VS在网上学中文",
+          "guid": "b40f7ae2-6d52-4880-9ac9-71c158af4537",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/74514464/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-11%2F342714541-44100-2-f0401f647c566.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP59-Study-Chinese-in-China-VS-Study-Chinese-Online-VS-e280gj0",
+          "pubDate": "2023-08-11",
+          "duration": 3997
+        },
+        {
+          "id": "DMP20230803",
+          "title": "Chinese Podcast EP58: Work Culture Differences between China and Germany? 中国和德国工作文化的区别？",
+          "guid": "deaaf959-36fe-47c5-aa2e-001a2eef2d9b",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/74195866/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-3%2F341736149-44100-2-9e85c335bb188.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP58-Work-Culture-Differences-between-China-and-Germany-e27mpeq",
+          "pubDate": "2023-08-03",
+          "duration": 3696
+        },
+        {
+          "id": "DMP20230802",
+          "title": "Chinese Podcast EP57: What do Indians Think of China in 2023? 2023年印度人如何看待中国？",
+          "guid": "944d3cf8-f785-41f4-b514-899ba46918de",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/74147555/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-7-2%2F341586403-44100-2-c7c533a2e1fec.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP57-What-do-Indians-Think-of-China-in-2023--2023-e27la93",
+          "pubDate": "2023-08-02",
+          "duration": 3180
+        },
+        {
+          "id": "DMP20230723",
+          "title": "Chinese Podcast EP56: Is China Really that Safe for Foreigners? 中国对于外国人真的那么安全吗？",
+          "guid": "589cca50-9f89-4062-a4ec-36c4bf4f9def",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/73732152/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-6-23%2F340308049-44100-2-b3c938bbfdbb6.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP56-Is-China-Really-that-Safe-for-Foreigners-e278kjo",
+          "pubDate": "2023-07-23",
+          "duration": 4477
+        },
+        {
+          "id": "DMP20230714",
+          "title": "Chinese Podcast EP55: One Trick to Speak Chinese Fluently 学会流利说中文的一个秘诀",
+          "guid": "2f06c220-f81e-4ad2-aab6-abc24f4ac491",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/73395833/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-6-14%2F339249714-44100-2-0b437562d2aef.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP55-One-Trick-to-Speak-Chinese-Fluently-e26uc5p",
+          "pubDate": "2023-07-14",
+          "duration": 3254
+        },
+        {
+          "id": "DMP20230706",
+          "title": "Chinese Podcast EP54: How to Learn Chinese By Yourself At Home? 在家如何一个人自学中文？",
+          "guid": "62048c45-fa0a-4984-abaa-9a6f6b481b83",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/73075693/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-6-6%2F338241037-44100-2-caa582aaf7caf.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP54-How-to-Learn-Chinese-By-Yourself-At-Home-e26kjhd",
+          "pubDate": "2023-07-06",
+          "duration": 3198
+        },
+        {
+          "id": "DMP20230630",
+          "title": "Chinese Podcast EP53: How to Sound Like a Chinese Native Speaker ? 怎么像中文母语者一样说话？",
+          "guid": "c739e79a-0396-4913-991e-8738b09a6507",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/72806427/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-30%2F337427167-44100-2-3134475e9cc52.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP53-How-to-Sound-Like-a-Chinese-Native-Speaker-e26ccir",
+          "pubDate": "2023-06-30",
+          "duration": 3580
+        },
+        {
+          "id": "DMP20230623",
+          "title": "Chinese Podcast EP52: Do Hong Kong People Consider Themselves Chinese? 香港人觉得自己是中国人吗?",
+          "guid": "5e69ffc7-8db5-408a-8692-9f5349023cd8",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/72501392/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-23%2F336419005-44100-2-343d3b79e4387.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP52-Do-Hong-Kong-People-Consider-Themselves-Chinese-e2632mg",
+          "pubDate": "2023-06-23",
+          "duration": 4782
+        },
+        {
+          "id": "DMP20230617",
+          "title": "Chinese Podcast EP51: The LGBTQ Awakening of a Chinese Girl. 中国女孩的酷儿觉醒之旅",
+          "guid": "d9a070e9-3323-466d-82e5-2d2021300baa",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/72240051/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-17%2F335493787-44100-2-634d1ce5217f5.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP51-The-LGBTQ-Awakening-of-a-Chinese-Girl-e25r3fj",
+          "pubDate": "2023-06-17",
+          "duration": 3690
+        },
+        {
+          "id": "DMP20230608",
+          "title": "Chinese Podcast Ep50: Can You Really Learn Chinese Better in China? 在中国就一定能学好中文吗？",
+          "guid": "7f5314ee-ff3a-4d71-9c4f-1fb5b62659fc",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/71838828/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-8%2F334087444-44100-2-1438988362c39.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep50-Can-You-Really-Learn-Chinese-Better-in-China-e25erlc",
+          "pubDate": "2023-06-08",
+          "duration": 3653
+        },
+        {
+          "id": "DMP20230601",
+          "title": "Chinese Podcast Ep49: This Chinese American Self-studied Chinese to Speak within 8 months 华裔朋友八个月学会中文",
+          "guid": "4b590f6b-2f40-4a69-bdcc-104dcda5c522",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/71424318/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-1%2F332844972-44100-2-c3b3aefc6d74c.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep49-This-Chinese-American-Self-studied-Chinese-to-Speak-within-8-months-e2526ru",
+          "pubDate": "2023-06-01",
+          "duration": 3563
+        },
+        {
+          "id": "DMP20230526",
+          "title": "Chinese Podcast Ep48: This Turkish Guy Learned Chinese Because of a Japanese Girl 土耳其小伙为了日本姑娘学中文",
+          "guid": "02b92c4d-3ab8-4cec-a36b-50263e37d605",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/71075904/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-26%2F331748132-44100-2-2ab2b94069661.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep48-This-Turkish-Guy-Learned-Chinese-Because-of-a-Japanese-Girl-e24nik0",
+          "pubDate": "2023-05-26",
+          "duration": 3020
+        },
+        {
+          "id": "DMP20230518",
+          "title": "Chinese Podcast Ep47: Fluency VS Accuracy when Learning Chinese- Which is More Important?流利度VS准确度",
+          "guid": "26f8c99e-104d-43c5-b2de-ca1e0abcf4a5",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/70643587/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-18%2F330359016-44100-2-277a0fb206662.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep47-Fluency-VS-Accuracy-when-Learning-Chinese--Which-is-More-Important-VS-e24ace3",
+          "pubDate": "2023-05-18",
+          "duration": 4438
+        },
+        {
+          "id": "DMP20230511",
+          "title": "Chinese Podcast Ep46: This Chinese Girl Sold Her House to Travel Around the World 中国女孩卖房环游世界",
+          "guid": "7599e37c-7072-4a19-8d65-544df66cbf81",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/70186735/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-11%2F328927621-44100-2-c78df791bec2a.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep46-This-Chinese-Girl-Sold-Her-House-to-Travel-Around-the-World-e23se9f",
+          "pubDate": "2023-05-11",
+          "duration": 5185
+        },
+        {
+          "id": "DMP20230505",
+          "title": "Chinese Podcast Ep45: This Spanish Lady Learned to Speak Chinese Fluently in 3 Months. 西班牙女士三个月学会中文",
+          "guid": "b93d3533-7a26-4a19-9479-52fad6ab5e7a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/69832716/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-5%2F327805451-44100-2-d607dd5e479d7.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep45-This-Spanish-Lady-Learned-to-Speak-Chinese-Fluently-in-3-Months-e23hkic",
+          "pubDate": "2023-05-05",
+          "duration": 5571
+        },
+        {
+          "id": "DMP20230426",
+          "title": "Chinese Podcast Ep44: This American Guy Hosts a Chinese Podcast 这个美国小伙开了一个中文播客",
+          "guid": "da5949ad-b2e8-4fea-8915-e4b34da74dd0",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/69304219/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-26%2F326069687-44100-2-80ae7ad48b5a8.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep44-This-American-Guy-Hosts-a-Chinese-Podcast-e231ger",
+          "pubDate": "2023-04-26",
+          "duration": 4834
+        },
+        {
+          "id": "DMP20230420",
+          "title": "Chinese Podcast Ep43: This Nigerian Girl Speaks Perfect Chinese. 这个尼日利亚姑娘的中文简直是母语者的水平。",
+          "guid": "66489c21-601a-4665-8c3d-81aab092d157",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/68975049/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-20%2F325034404-44100-2-0720dee1782c7.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep43-This-Nigerian-Girl-Speaks-Perfect-Chinese-e22nf09",
+          "pubDate": "2023-04-20",
+          "duration": 4706
+        },
+        {
+          "id": "DMP20230413",
+          "title": "Chinese Podcast Ep42:This American Guy Married a Chinese Girl in China. 美国小伙在中国娶了个中国姑娘",
+          "guid": "0e0e2d82-1603-4324-892c-3db09e4db13d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/68578914/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-13%2F323830153-44100-2-6387d23ef2571.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep42This-American-Guy-Married-a-Chinese-Girl-in-China-e22bc52",
+          "pubDate": "2023-04-13",
+          "duration": 4718
+        },
+        {
+          "id": "DMP20230406",
+          "title": "Chinese Podcast Ep41: This Chinese Teacher Has Another Mother in Egypt 这位中文老师在埃及也有一个妈妈",
+          "guid": "0ed6d910-f5f1-4466-9767-b859de2f9352",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/68076724/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-3-6%2F322485594-44100-2-193813d32835.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep41-This-Chinese-Teacher-Has-Another-Mother-in-Egypt-e21s1nk",
+          "pubDate": "2023-04-06",
+          "duration": 4930
+        },
+        {
+          "id": "DMP20230331",
+          "title": "Chinese Podcast Ep40: A Muslim's Insights on Misunderstandings Surrounding Islam and Muslim Culture.",
+          "guid": "dc5bd623-5b9a-4488-9e2c-c1b9a2cdf8a6",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/67628411/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-2-31%2F321309797-44100-2-6b5a7089e744d.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep40-A-Muslims-Insights-on-Misunderstandings-Surrounding-Islam-and-Muslim-Culture-e21ebtr",
+          "pubDate": "2023-03-31",
+          "duration": 4200
+        },
+        {
+          "id": "DMP20230324",
+          "title": "Chinese Podcast Ep39: This Spanish Guy Knows China Better Than Most Chinese. 来自西班牙的中国通",
+          "guid": "b12c8e52-afef-4dae-acc7-36aa969c2f2d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/67199220/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-2-24%2F319967114-44100-2-9970caf69e357.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep39-This-Spanish-Guy-Knows-China-Better-Than-Most-Chinese-e2118pk",
+          "pubDate": "2023-03-24",
+          "duration": 3516
+        },
+        {
+          "id": "DMP20230316",
+          "title": "Chinese Podcast Ep38: Chinese Teacher was almost Scammed by a German Guy on Internet. 中文老师经历网络诈骗。",
+          "guid": "d60dd579-923e-43fa-b6ef-010d17d83255",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/66683970/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-2-16%2F318395510-44100-2-1fd0d1c9bacad.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-Ep38-Chinese-Teacher-was-almost-Scammed-by-a-German-Guy-on-Internet-e20hhk2",
+          "pubDate": "2023-03-16",
+          "duration": 4882
+        },
+        {
+          "id": "DMP20230309",
+          "title": "Dashu Mandarin Ep37： Chinese Girl Traveled to Afghanistan All By Herself.中国女孩勇闯阿富汗",
+          "guid": "5fe1e7c7-f55d-49fb-b4d0-e50d7b63be7b",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/66266165/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-2-9%2F317118024-44100-2-e0ad7481f4d51.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep37-Chinese-Girl-Traveled-to-Afghanistan-All-By-Herself-e204pjl",
+          "pubDate": "2023-03-09",
+          "duration": 4433
+        },
+        {
+          "id": "DMP20230303",
+          "title": "Dashu Mandarin Ep36: Why is Pronunciation so important in Chinese Learning?为什么中文发音这么重要？",
+          "guid": "f9ff56d1-5aef-465a-8455-382369c10b89",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/65946050/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-2-3%2F315999888-44100-2-44826c851fde3.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep36-Why-is-Pronunciation-so-important-in-Chinese-Learning-e1vr102",
+          "pubDate": "2023-03-03",
+          "duration": 4602
+        },
+        {
+          "id": "DMP20230223",
+          "title": "Dashu Mandarin Ep35: Why You Understand Chinese but Can't Speak Fluently? 为什么你能懂中文去不会说？",
+          "guid": "1363709a-e253-4314-81de-f1eb0180e405",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/65535636/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-1-23%2F314478312-44100-2-2cdf87c401e84.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep35-Why-You-Understand-Chinese-but-Cant-Speak-Fluently-e1veg6k",
+          "pubDate": "2023-02-23",
+          "duration": 4439
+        },
+        {
+          "id": "DMP20230216",
+          "title": "Dashu Mandarin Ep34: What do the Chinese think of South Korea in 2023? 中国人2023年如何看待韩国？",
+          "guid": "8df468ba-96a0-4f8c-b578-5b0977b689bc",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/65137684/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-1-16%2F313117298-44100-2-1a014c6501475.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep34-What-do-the-Chinese-think-of-South-Korea-in-2023--2023-e1v2bik",
+          "pubDate": "2023-02-16",
+          "duration": 3773
+        },
+        {
+          "id": "DMP20230209",
+          "title": "Dashu Mandarin Ep33: Differences between Chinese Teachers from Mainland China and Taiwan大陆和台湾中文老师的区别",
+          "guid": "e1320fff-bf8b-48b2-b01c-49b69c458d87",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/64767919/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-1-9%2F311896885-44100-2-5717d12f7bcd.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep33-Differences-between-Chinese-Teachers-from-Mainland-China-and-Taiwan-e1un2ff",
+          "pubDate": "2023-02-09",
+          "duration": 4990
+        },
+        {
+          "id": "DMP20230202",
+          "title": "Dashu Mandarin Ep32: Chinese Teacher Uncle Ben's Trip to Egypt. Ben叔的埃及之旅",
+          "guid": "60f3ab0f-65c8-4513-83f4-a7b3ff5e9b94",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/64400725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-1-2%2F310685403-44100-2-eed634cec3303.m4a",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep32-Chinese-Teacher-Uncle-Bens-Trip-to-Egypt--Ben-e1ubrsl",
+          "pubDate": "2023-02-02",
+          "duration": 4639
+        },
+        {
+          "id": "DMP20230126",
+          "title": "Dashu Mandarin Ep31: Crazy Things Chinese Teachers did in Youth 大叔们年轻时候做的傻事",
+          "guid": "f48dd787-cd53-4a35-b626-2410b270e3e0",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/64044484/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-26%2F93404a6e-dcec-601c-8954-b0d265518cd8.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep31-Crazy-Things-Chinese-Teachers-did-in-Youth-e1u1004",
+          "pubDate": "2023-01-26",
+          "duration": 5110
+        },
+        {
+          "id": "DMP20230118",
+          "title": "Dashu Mandarin Ep30: What do the Chinese think of Crouching Tiger, Hidden Dragon and Kung Fu?卧虎藏龙和功夫",
+          "guid": "c1147b26-7acc-4d60-916b-96becc6a07ee",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/63698760/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-18%2F9fdf1a68-352a-2523-a0a0-5de6db9fb7bb.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep30-What-do-the-Chinese-think-of-Crouching-Tiger--Hidden-Dragon-and-Kung-Fu-e1tmec8",
+          "pubDate": "2023-01-18",
+          "duration": 3914
+        },
+        {
+          "id": "DMP20230112",
+          "title": "Dashu Mandarin Ep29: When Dashu Gets Old...当大叔们变成大爷的时候……",
+          "guid": "d86ac42d-a06f-4a68-bb6b-f84bade39f36",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/63376407/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-12%2F52d19f56-f089-87ef-9c5f-45c6fa5827e1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep29-When-Dashu-Gets-Old-e1tcjin",
+          "pubDate": "2023-01-12",
+          "duration": 4032
+        },
+        {
+          "id": "DMP20230105",
+          "title": "Dashu Mandarin Ep 28: Chinese Teacher's Spiritual Journey 中文老师给的心灵之旅",
+          "guid": "b9d1b82e-177d-4600-bad6-f47af415b45d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/63090884/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-5%2F9300fcd0-566d-36e1-8ceb-f8a940483dc5.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-28-Chinese-Teachers-Spiritual-Journey-e1t3so4",
+          "pubDate": "2023-01-05",
+          "duration": 4094
+        },
+        {
+          "id": "DMP20221229",
+          "title": "Dashu Mandarin Ep 27：Dashu Mandarin's New Plan in 2023 大叔中文2023年的新计划",
+          "guid": "3a7a977c-4f9b-4bcc-ae7a-1f62a168e007",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/62808197/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-29%2Fecadff55-69ce-c2d9-5444-7262f4e32c06.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-27Dashu-Mandarins-New-Plan-in-2023-2023-e1sr8m5",
+          "pubDate": "2022-12-29",
+          "duration": 4353
+        },
+        {
+          "id": "DMP20221222",
+          "title": "Dashu Mandarin Ep 26：How do the Chinese Teachers Deal with Negative Emotions? 中文老师如何处理不好的情绪？",
+          "guid": "af1ed06c-59ea-41a9-a48b-c24929b996dd",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/62547208/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-22%2F4fd5643c-2683-4583-ecae-5e65b38cbcf3.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-26How-do-the-Chinese-Teachers-Deal-with-Negative-Emotions-e1sj9q8",
+          "pubDate": "2022-12-22",
+          "duration": 4418
+        },
+        {
+          "id": "DMP20221215",
+          "title": "Dashu Mandarin Ep 25: Chinese Teacher's Self-discovery Journey中文老师如何寻找自我",
+          "guid": "b040bc6f-d5cb-4617-9f02-4c7eb6549f3b",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/62230264/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-15%2Fc7e177cc-0c22-414b-8969-6ddc210c33ef.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-25-Chinese-Teachers-Self-discovery-Journey-e1s9k9o",
+          "pubDate": "2022-12-15",
+          "duration": 4419
+        },
+        {
+          "id": "DMP20221208",
+          "title": "Dashu Mandarin Ep 24: The Untranslatable Chinese Words没法翻译的中文词汇",
+          "guid": "d36e5b1b-3eaf-4de7-afc2-f87610240aa5",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/61874984/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-8%2F02ebff58-b648-9b78-6ec6-0cdaaded348f.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-24-The-Untranslatable-Chinese-Words-e1rupb8",
+          "pubDate": "2022-12-08",
+          "duration": 3718
+        },
+        {
+          "id": "DMP20221201",
+          "title": "Dashu Mandarin Ep 23:What do the Chinese Really think of Germany?中国人如何看待德国？",
+          "guid": "27b39118-4436-4f84-9be8-99e7486fa816",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/61496266/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-1%2F15fbd696-ca1c-1b4c-1722-8aef57250e56.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-23What-do-the-Chinese-Really-think-of-Germany-e1rj7ga",
+          "pubDate": "2022-12-01",
+          "duration": 4313
+        },
+        {
+          "id": "DMP20221124",
+          "title": "Dashu Mandarin Ep 22: Why do the Chinese Like to Save Money?中国人为什么那么爱存钱？",
+          "guid": "0b413f57-8185-4ef4-bb67-27c064967a56",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/61132276/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-24%2Fa00c1c83-8b50-f130-ba13-bc7f19aeaeb9.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-22-Why-do-the-Chinese-Like-to-Save-Money-e1r841k",
+          "pubDate": "2022-11-24",
+          "duration": 4113
+        },
+        {
+          "id": "DMP20221117",
+          "title": "Dashu Mandarin Ep 21: Why did this Chinese Teacher Move to the US?为什么这位中文老师会去美国？",
+          "guid": "c86ff5eb-2e7b-4541-ba27-dc3a9ce91eaa",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/60779824/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-17%2F1d9f40c4-6a03-82ac-48b2-87337061f9e7.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-21-Why-did-this-Chinese-Teacher-Move-to-the-US-e1qtbrg",
+          "pubDate": "2022-11-17",
+          "duration": 4204
+        },
+        {
+          "id": "DMP20221110",
+          "title": "Dashu Mandarin Ep 20: Silicon Valley job cuts got Chinese Teacher fired.硅谷裁员波及中文老师.",
+          "guid": "0b92ea65-5d5c-49fe-be4f-5fad63cefc5e",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/60402817/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-10%2Fa0f682b2-16f7-d906-9135-efa871ce5a3b.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-20-Silicon-Valley-job-cuts-got-Chinese-Teacher-fired-e1qhrm1",
+          "pubDate": "2022-11-10",
+          "duration": 3647
+        },
+        {
+          "id": "DMP20221103",
+          "title": "Dashu Mandarin Ep 19: Which Country do the Chinese Love the Most? 中国人最喜欢的国家是哪一个？",
+          "guid": "88b3b980-3af4-4d8f-9469-be535afafcc7",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/60015868/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-3%2F29553350-987f-57af-7024-5fc19c05ef19.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-19-Which-Country-do-the-Chinese-Love-the-Most-e1q61ps",
+          "pubDate": "2022-11-03",
+          "duration": 3838
+        },
+        {
+          "id": "DMP20221027",
+          "title": "Dashu Mandarin Ep 18: Do the Chinese Celebrate Halloween? 中国人过万圣节吗？",
+          "guid": "254a1cc2-eb77-4cd0-a62a-a3d096d84884",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/59658320/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-9-27%2F4fbb34df-9099-1059-2f5a-23d4359b21ab.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-18-Do-the-Chinese-Celebrate-Halloween-e1pr4kg",
+          "pubDate": "2022-10-27",
+          "duration": 3495
+        },
+        {
+          "id": "DMP20221020",
+          "title": "Dashu Mandarin Ep 17: What do the Chinese think of Death? 中国人如何看待死亡？",
+          "guid": "2bdb9e5d-c84c-433c-9ebd-1bbdf131cc96",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/59338577/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-9-20%2F8f962a01-f236-22e6-66d6-46d8701bf47d.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-17-What-do-the-Chinese-think-of-Death-e1phcch",
+          "pubDate": "2022-10-20",
+          "duration": 3982
+        },
+        {
+          "id": "DMP20221013",
+          "title": "Dashu Mandarin Ep 16:Things not to Do in China. 在中国不能做的事情。",
+          "guid": "19e22c1c-e716-40b7-a7d9-619ce15f290a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/58986444/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-9-13%2Ffb051ec1-eef1-0ef8-3520-57bd9a07e9cb.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-16Things-not-to-Do-in-China-e1p6kgc",
+          "pubDate": "2022-10-13",
+          "duration": 2384
+        },
+        {
+          "id": "DMP20221006",
+          "title": "Dashu Mandarin Ep 15: Chinese Teacher was almost Sexually Assaulted by His Student. 中文老师被学生性侵未遂",
+          "guid": "b279c405-c7e7-4277-ab98-95d688e77089",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/58639755/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-9-6%2F6539b989-c4ee-6c68-7045-5b16e0f0a848.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-15-Chinese-Teacher-was-almost-Sexually-Assaulted-by-His-Student-e1os1ub",
+          "pubDate": "2022-10-06",
+          "duration": 4084
+        },
+        {
+          "id": "DMP20220929",
+          "title": "Dashu Mandarin Ep 14: Do the Chinese and Taiwanese Really Hate Each Other?中国人和台湾人真的讨厌彼此吗？",
+          "guid": "b0a6d1c8-65f6-4da6-81df-bf2aaa25c725",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/58295158/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-29%2F4e3e202e-97e7-fbab-1927-775ec356b078.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-14-Do-the-Chinese-and-Taiwanese-Really-Hate-Each-Other-e1ohhdm",
+          "pubDate": "2022-09-29",
+          "duration": 3602
+        },
+        {
+          "id": "DMP20220922",
+          "title": "Dashu Mandarin Ep 13: Do All Chinese Really Eat Dogs? 中国人真的吃狗肉吗？",
+          "guid": "a621b520-3a97-4044-8d46-617bd67a70d6",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/57946252/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-22%2F8a204b03-aff4-c80d-cc09-38dff565d9a1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-13-Do-All-Chinese-Really-Eat-Dogs-e1o6smc",
+          "pubDate": "2022-09-22",
+          "duration": 3373
+        },
+        {
+          "id": "DMP20220915",
+          "title": "Dashu Mandarin Ep 12: What do the Chinese Women Think of Chinese Men?中国女人如何看待中国男人？",
+          "guid": "5f579911-b182-45a6-bc28-e0d21f8515b0",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/57592599/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-15%2Fe0d46b1a-f04a-20ee-d452-40a1f028cca1.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-12-What-do-the-Chinese-Women-Think-of-Chinese-Men-e1ns3an",
+          "pubDate": "2022-09-15",
+          "duration": 4294
+        },
+        {
+          "id": "DMP20220908",
+          "title": "Dashu Mandarin Ep 11: What is Like to Work in China?在中国工作是什么样的体验？",
+          "guid": "4171bafd-3666-4ea4-a33e-cb2dbf026f7d",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/57253840/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-8%2F7460fb6b-e60b-12e9-01f3-b92695ac8d08.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Ep-11-What-is-Like-to-Work-in-China-e1nhogg",
+          "pubDate": "2022-09-08",
+          "duration": 4343
+        },
+        {
+          "id": "DMP20220901",
+          "title": "Dashu Mandarin Podcast Ep 10: British Guy Wins a Chinese Girl's Heart with Perfect Chinese英国小伙用母语级中文交到中国女朋友",
+          "guid": "0c8d2ea6-f51f-477d-b51a-ee40efae3414",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/56936469/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-1%2Fc7e7b62e-fa71-3a95-c238-d8b21b6b7813.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Podcast-Ep-10-British-Guy-Wins-a-Chinese-Girls-Heart-with-Perfect-Chinese-e1n82il",
+          "pubDate": "2022-09-01",
+          "duration": 3348
+        },
+        {
+          "id": "DMP20220825",
+          "title": "Dashu Mandarin Podcast Ep 09: How to Make Friends in China? 如何交中国朋友？",
+          "guid": "70807a58-5d4a-439a-998a-dd77d09413ea",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/56625061/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-25%2F26a9e150-0c0b-a590-4421-bc1629a6a941.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Podcast-Ep-09-How-to-Make-Friends-in-China-e1muif5",
+          "pubDate": "2022-08-25",
+          "duration": 3096
+        },
+        {
+          "id": "DMP20220818",
+          "title": "Dashu Mandarin Podcast Ep 08: What Chinese Parents are Really Like?中国式父母究竟是怎么样的？",
+          "guid": "bd4b4e6a-aa0e-45a8-a232-54693236c8e5",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/56318929/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-18%2Fc01febf3-63c4-11c1-75bb-c06ea9383165.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Podcast-Ep-08-What-Chinese-Parents-are-Really-Like-e1ml7gh",
+          "pubDate": "2022-08-18",
+          "duration": 3262
+        },
+        {
+          "id": "DMP20220811",
+          "title": "Dashu Mandarin Podcast Ep 07: What Chinese Universities are Really Like?真实的中国大学究竟什么样？",
+          "guid": "62e3885a-31a2-4dae-90e3-796d71273673",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/56022912/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-11%2F65208d46-42d3-3083-d316-4ec99e584834.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Dashu-Mandarin-Podcast-Ep-07-What-Chinese-Universities-are-Really-Like-e1mc6e0",
+          "pubDate": "2022-08-11",
+          "duration": 2992
+        },
+        {
+          "id": "DMP20220804",
+          "title": "DashuMandarin Podcast Ep06: What is Childhood in China Like?中国人的童年是怎么样的？",
+          "guid": "e6a693f9-5e6f-42eb-ab6d-647c1f70d31a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/55669372/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-3%2F21e85893-9541-13bd-e285-49b7637bfaea.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/DashuMandarin-Podcast-Ep06-What-is-Childhood-in-China-Like-e1m1d5s",
+          "pubDate": "2022-08-04",
+          "duration": 3308
+        },
+        {
+          "id": "DMP20220727",
+          "title": "DashuMandarin Podcast Ep05: How a Super Star Chinese Teacher is Formed? 中文明星老师是如何炼成的？",
+          "guid": "779fb3cc-4cbe-4703-856b-52d852bed64a",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/55409126/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-27%2F68fd8b6d-f01e-e02d-0c50-cc0570a8bf48.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/DashuMandarin-Podcast-Ep05-How-a-Super-Star-Chinese-Teacher-is-Formed-e1lpf16",
+          "pubDate": "2022-07-27",
+          "duration": 2572
+        },
+        {
+          "id": "DMP20220721",
+          "title": "DashuMandarin Podcast Ep04: Love Stories in Chinese Universities.大叔们的大学爱情故事",
+          "guid": "152feac2-2953-4781-8995-a8f0c3ddb653",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/55111918/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-21%2F3908477e-a44e-b9b3-5c95-80cafe014d58.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/DashuMandarin-Podcast-Ep04-Love-Stories-in-Chinese-Universities-e1lgcpe",
+          "pubDate": "2022-07-21",
+          "duration": 2958
+        },
+        {
+          "id": "DMP20220714",
+          "title": "DashuMandarin Podcast Ep03: What is the Chinese Wedding Like?中国式婚礼",
+          "guid": "53202814-2386-4171-8c78-70d38880f0b3",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/54816516/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-14%2F83391527-78d9-259d-c358-7e332275bd72.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/DashuMandarin-Podcast-Ep03-What-is-the-Chinese-Wedding-Like-e1l7ca4",
+          "pubDate": "2022-07-14",
+          "duration": 2841
+        },
+        {
+          "id": "DMP20220707",
+          "title": "DashuMandarin Podcast Ep02: What is like to be a Soldier in Taiwan?在台湾当兵的体验",
+          "guid": "bd225a04-0890-49db-b619-e4f900021578",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/54497446/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-7%2F4cc89883-cf8b-8018-b634-77e3e7ec886b.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/DashuMandarin-Podcast-Ep02-What-is-like-to-be-a-Soldier-in-Taiwan-e1ktkn6",
+          "pubDate": "2022-07-07",
+          "duration": 2477
+        },
+        {
+          "id": "DMP20220630",
+          "title": "DashuMandarin Podcast Ep01: What the Chinese Public Bath is Like?中国式澡堂",
+          "guid": "1fd1a8aa-de33-4cc7-ba02-4056c54ebf32",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/54203169/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-30%2F99f7de7c-23b3-2339-bfae-50bf06f9590e.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/DashuMandarin-Podcast-Ep01-What-the-Chinese-Public-Bath-is-Like-e1kklb1",
+          "pubDate": "2022-06-30",
+          "duration": 2325
         }
       ]
     }

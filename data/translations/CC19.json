@@ -1,0 +1,2535 @@
+{
+  "episode": "CC19",
+  "summary": [
+    "Trong tập 19 của 瞎扯学中文 Convo Chinese, host Joanne mời lại Cameron — khách mời \"nguyên lão\" từ tập đầu tiên — để so sánh văn hóa công sở (职场文化) ở Trung Quốc và ở nước ngoài. Joanne từng đi làm ở Trung Quốc 3 năm, phần lớn ở công ty nước ngoài; Cameron đang học tiến sĩ và từ trước tới giờ chỉ đi dạy. Trước tiên họ phân loại doanh nghiệp ở Trung Quốc: 国企 nhà nước, 私企 tư nhân, 外企 nước ngoài, và 事业单位 — đơn vị sự nghiệp như trường học, bệnh viện.",
+    "Khác biệt thứ nhất là thứ bậc: ở công ty nước ngoài người ta gọi thẳng tên hoặc tên tiếng Anh, các 大厂 công nghệ như Tencent, Alibaba còn bắt nhân viên đặt 花名 (biệt danh, ở Alibaba theo kiểu kiếm hiệp), còn ở doanh nghiệp nhà nước thì gọi \"họ + chức danh\" như trưởng ban Lý, bí thư Lưu. Thứ hai là áp lực: tăng ca, 996, cạnh tranh lên chức — dù Joanne nhắc là không thể 一概而论, vì nhiều doanh nghiệp nhà nước vẫn tan làm đúng giờ. Rồi Joanne kể chuyện phép năm: công ty nước ngoài cho 20–25 ngày, HR còn giục nhân viên nghỉ, công ty mới của cô ở Thụy Sĩ có cả một ngày phép để chuyển nhà; còn nhiều nơi ở Trung Quốc chỉ có 5 ngày, mà có phép cũng không dám xin nghỉ.",
+    "Cameron giải thích vì sao ai cũng \"chen vỡ đầu\" vào công ty internet: lương cao, mà người có bằng thạc sĩ, tiến sĩ, du học về ngày càng đông, nên anh lo hai năm nữa học xong thì cạnh tranh còn gắt hơn. Cuối cùng họ bàn chuyện uống rượu khi tiếp khách: trước kia hay ép rượu (\"感情深，一口闷\"), giờ người trẻ tôn trọng người không uống hơn. Hai người thừa nhận những gì mình nói phần nhiều là định kiến, và Cameron nói anh nghiêng về tìm việc ở một trường đại học nước ngoài, vì anh cần môi trường ít áp lực."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "Hello，大家好，欢迎大家来到我们的第十九期瞎扯学中文。",
+      "parts": [
+        {
+          "zh": "Hello，大家好，欢迎大家",
+          "vi": "Hello, chào mọi người, chào mừng mọi người"
+        },
+        {
+          "zh": "来到我们的第十九期瞎扯学中文。",
+          "vi": "đến với tập 19 của 瞎扯学中文 chúng mình."
+        }
+      ]
+    },
+    "1": {
+      "zh": "今天呢，邀请到了一位老朋友，他是和我们录了第第几期？",
+      "parts": [
+        {
+          "zh": "今天呢，邀请到了一位老朋友，",
+          "vi": "Hôm nay, chúng mình mời được một người bạn cũ,"
+        },
+        {
+          "zh": "他是和我们录了第第几期？",
+          "vi": "cậu ấy đã cùng chúng mình ghi tập… tập thứ mấy nhỉ?"
+        }
+      ]
+    },
+    "2": {
+      "zh": "第二期还是第三第三期吧？",
+      "vi": "Tập hai hay tập ba… tập ba nhỉ?"
+    },
+    "3": {
+      "zh": "第一期吧，最早的一期节目。",
+      "vi": "Tập một chứ, tập sớm nhất của chương trình."
+    },
+    "4": {
+      "zh": "我应该是创始创",
+      "vi": "Mình chắc là người sáng… sáng"
+    },
+    "5": {
+      "zh": "始人，元老级嘉宾啊！",
+      "vi": "lập, khách mời cấp nguyên lão đấy!"
+    },
+    "6": {
+      "zh": "大家好，我是Cameron，很高兴又回来了。",
+      "parts": [
+        {
+          "zh": "大家好，我是Cameron，",
+          "vi": "Chào mọi người, mình là Cameron,"
+        },
+        {
+          "zh": "很高兴又回来了。",
+          "vi": "rất vui lại được quay lại."
+        }
+      ]
+    },
+    "7": {
+      "zh": "那今天呢，我们想要跟大家聊一聊关于职场文化。",
+      "parts": [
+        {
+          "zh": "那今天呢，我们想要跟大家聊一聊",
+          "vi": "Vậy hôm nay, chúng mình muốn trò chuyện với mọi người"
+        },
+        {
+          "zh": "关于职场文化。",
+          "vi": "về văn hóa công sở."
+        }
+      ]
+    },
+    "8": {
+      "zh": "所谓的职场其实就是工作的场合。",
+      "vi": "Cái gọi là 职场 thật ra chính là môi trường làm việc."
+    },
+    "9": {
+      "zh": "那在中文里面把这个叫做职场职业的职，嗯，因为呢我。其实在中国工作过三年，但大多数都是在外企，就是外国的企业。",
+      "parts": [
+        {
+          "zh": "那在中文里面把这个叫做职场",
+          "vi": "Trong tiếng Trung gọi cái này là 职场,"
+        },
+        {
+          "zh": "职业的职，嗯，",
+          "vi": "chữ 职 trong 职业 (nghề nghiệp), ừm,"
+        },
+        {
+          "zh": "因为呢我。其实在中国工作过三年，",
+          "vi": "vì mình ấy, thật ra đã làm việc ở Trung Quốc 3 năm,"
+        },
+        {
+          "zh": "但大多数都是在外企，",
+          "vi": "nhưng phần lớn là ở 外企,"
+        },
+        {
+          "zh": "就是外国的企业。",
+          "vi": "tức là doanh nghiệp nước ngoài."
+        }
+      ]
+    },
+    "11": {
+      "zh": "其实没有在国企工作过，",
+      "vi": "thật ra chưa từng làm ở doanh nghiệp nhà nước,"
+    },
+    "12": {
+      "zh": "所以我也不太好说像职场文化在中国和西方或者在中国和外国有什么区别。",
+      "parts": [
+        {
+          "zh": "所以我也不太好说",
+          "vi": "nên mình cũng khó mà nói"
+        },
+        {
+          "zh": "像职场文化在中国和西方",
+          "vi": "văn hóa công sở ở Trung Quốc với phương Tây"
+        },
+        {
+          "zh": "或者在中国和外国有什么区别。",
+          "vi": "hay giữa Trung Quốc với nước ngoài khác nhau thế nào."
+        }
+      ]
+    },
+    "13": {
+      "zh": "但是我觉得，就算在中国的外企、外国企业，在中国。",
+      "parts": [
+        {
+          "zh": "但是我觉得，就算在中国的外企、",
+          "vi": "Nhưng mình thấy, kể cả ở 外企 tại Trung Quốc,"
+        },
+        {
+          "zh": "外国企业，在中国。",
+          "vi": "tức doanh nghiệp nước ngoài, ở Trung Quốc,"
+        }
+      ]
+    },
+    "14": {
+      "zh": "你工作的方式可能还是和国外会有不一样。",
+      "parts": [
+        {
+          "zh": "你工作的方式",
+          "vi": "thì cách bạn làm việc"
+        },
+        {
+          "zh": "可能还是和国外会有不一样。",
+          "vi": "có lẽ vẫn sẽ khác với ở nước ngoài."
+        }
+      ]
+    },
+    "15": {
+      "zh": "我觉得可以先跟大家说一下，在中国的话，说啊不同的企业可能是不是大概分这么几种？",
+      "parts": [
+        {
+          "zh": "我觉得可以先跟大家说一下，",
+          "vi": "Mình nghĩ có thể nói trước với mọi người là,"
+        },
+        {
+          "zh": "在中国的话，说啊不同的企业",
+          "vi": "ở Trung Quốc thì, các doanh nghiệp khác nhau"
+        },
+        {
+          "zh": "可能是不是大概分这么几种？",
+          "vi": "có phải đại khái chia thành mấy loại không?"
+        }
+      ]
+    },
+    "16": {
+      "zh": "大家一般会说国企、私企、外企。",
+      "vi": "Mọi người thường nói: doanh nghiệp nhà nước, tư nhân, nước ngoài — 国企, 私企, 外企."
+    },
+    "17": {
+      "zh": "嗯，差不多对，国企就是国有企业，对吧？",
+      "vi": "Ừm, gần đúng vậy, 国企 chính là 国有企业, doanh nghiệp nhà nước, đúng không?"
+    },
+    "18": {
+      "zh": "然后而且现在我觉得越来越多的人。",
+      "vi": "Rồi với lại bây giờ mình thấy ngày càng nhiều người"
+    },
+    "19": {
+      "zh": "想要去国企，嗯，其实",
+      "vi": "muốn vào doanh nghiệp nhà nước, ừm, thật ra"
+    },
+    "20": {
+      "zh": "我也不是特别的清楚的一点是，国企和所谓的事业单位就是中间的区别是什么？",
+      "parts": [
+        {
+          "zh": "我也不是特别的清楚的一点是，",
+          "vi": "Một điểm mà mình cũng không rõ lắm là,"
+        },
+        {
+          "zh": "国企和所谓的事业单位",
+          "vi": "doanh nghiệp nhà nước và cái gọi là 事业单位"
+        },
+        {
+          "zh": "就是中间的区别是什么？",
+          "vi": "thì khác nhau ở chỗ nào?"
+        }
+      ]
+    },
+    "21": {
+      "zh": "事业单位我的了解不一定正确，但是我觉得事业单位是那种有点像非营利组织，",
+      "parts": [
+        {
+          "zh": "事业单位我的了解不一定正确，",
+          "vi": "事业单位 thì hiểu biết của mình chưa chắc đúng,"
+        },
+        {
+          "zh": "但是我觉得事业单位是那种",
+          "vi": "nhưng mình thấy 事业单位 là kiểu"
+        },
+        {
+          "zh": "有点像非营利组织，",
+          "vi": "hơi giống tổ chức phi lợi nhuận,"
+        }
+      ]
+    },
+    "22": {
+      "zh": "他们是非盈利性质的，也就是说他们是为了社会的某一个。啊，功能而创造的，",
+      "parts": [
+        {
+          "zh": "他们是非盈利性质的，",
+          "vi": "họ mang tính phi lợi nhuận,"
+        },
+        {
+          "zh": "也就是说他们是为了",
+          "vi": "tức là họ được lập ra vì"
+        },
+        {
+          "zh": "社会的某一个。啊，功能而创造的，",
+          "vi": "một… à, chức năng nào đó của xã hội,"
+        }
+      ]
+    },
+    "24": {
+      "zh": "比如说，嗯，啊，大学呀、医院呐这些是不是算事业单位？",
+      "parts": [
+        {
+          "zh": "比如说，嗯，啊，大学呀、医院呐",
+          "vi": "Ví dụ, ừm, à, trường đại học, bệnh viện"
+        },
+        {
+          "zh": "这些是不是算事业单位？",
+          "vi": "những nơi này có tính là 事业单位 không?"
+        }
+      ]
+    },
+    "25": {
+      "zh": "但就不算是对对",
+      "vi": "Nhưng lại không tính là… đúng đúng"
+    },
+    "26": {
+      "zh": "应该是的，就是他们是为了某种社会功能。",
+      "parts": [
+        {
+          "zh": "应该是的，",
+          "vi": "Chắc là vậy,"
+        },
+        {
+          "zh": "就是他们是为了某种社会功能。",
+          "vi": "tức là họ phục vụ một chức năng xã hội nào đó."
+        }
+      ]
+    },
+    "27": {
+      "zh": "那如果我要说回来，嗯，在中国的职场和国外的企业或者说是中国的外企有什么最大的区别？",
+      "parts": [
+        {
+          "zh": "那如果我要说回来，嗯，",
+          "vi": "Vậy nếu quay lại chuyện chính, ừm,"
+        },
+        {
+          "zh": "在中国的职场和国外的企业",
+          "vi": "công sở ở Trung Quốc và doanh nghiệp nước ngoài,"
+        },
+        {
+          "zh": "或者说是中国的外企",
+          "vi": "hay nói cách khác là công ty nước ngoài ở Trung Quốc,"
+        },
+        {
+          "zh": "有什么最大的区别？",
+          "vi": "khác nhau lớn nhất ở điểm nào?"
+        }
+      ]
+    },
+    "28": {
+      "zh": "我想到的第一条可能是关于hierarchy吧，我不知道这个中文怎么翻译。",
+      "parts": [
+        {
+          "zh": "我想到的第一条",
+          "vi": "Điều đầu tiên mình nghĩ tới"
+        },
+        {
+          "zh": "可能是关于hierarchy吧，",
+          "vi": "có lẽ là về hierarchy,"
+        },
+        {
+          "zh": "我不知道这个中文怎么翻译。",
+          "vi": "mình không biết tiếng Trung dịch cái này thế nào."
+        }
+      ]
+    },
+    "29": {
+      "zh": "职场阶级。",
+      "vi": "Thứ bậc nơi công sở (职场阶级)."
+    },
+    "30": {
+      "zh": "对，就是阶级。",
+      "vi": "Đúng, chính là thứ bậc (阶级)."
+    },
+    "31": {
+      "zh": "就比如说有一个很直观的例子，在外企的话，大家一般都会直接用名字来称呼对方，呃，",
+      "parts": [
+        {
+          "zh": "就比如说有一个很直观的例子，",
+          "vi": "Lấy một ví dụ rất trực quan nhé,"
+        },
+        {
+          "zh": "在外企的话，大家一般都会",
+          "vi": "ở công ty nước ngoài, mọi người thường sẽ"
+        },
+        {
+          "zh": "直接用名字来称呼对方，呃，",
+          "vi": "gọi thẳng tên nhau, ờ,"
+        }
+      ]
+    },
+    "32": {
+      "zh": "或者很常见的是很多人会取一个英语名字，而且还蛮好笑的一点是现在很多的。所谓的大厂，大厂的话，在中文的意思就是那些科技企业啊，比如说像腾讯啊、阿里巴巴呀，",
+      "parts": [
+        {
+          "zh": "或者很常见的是",
+          "vi": "hoặc rất thường thấy là"
+        },
+        {
+          "zh": "很多人会取一个英语名字，",
+          "vi": "nhiều người đặt một cái tên tiếng Anh,"
+        },
+        {
+          "zh": "而且还蛮好笑的一点是",
+          "vi": "mà còn một điều khá buồn cười là"
+        },
+        {
+          "zh": "现在很多的。所谓的大厂，",
+          "vi": "bây giờ nhiều cái gọi là 大厂,"
+        },
+        {
+          "zh": "大厂的话，在中文的意思",
+          "vi": "大厂 thì, nghĩa trong tiếng Trung"
+        },
+        {
+          "zh": "就是那些科技企业啊，",
+          "vi": "chính là mấy công ty công nghệ đó,"
+        },
+        {
+          "zh": "比如说像腾讯啊、阿里巴巴呀，",
+          "vi": "ví dụ như Tencent, Alibaba,"
+        }
+      ]
+    },
+    "34": {
+      "zh": "或者是快手。",
+      "vi": "hoặc là Kuaishou."
+    },
+    "35": {
+      "zh": "那在这些大厂现在有一些新的文化是要给每个员工取一个花名，",
+      "parts": [
+        {
+          "zh": "那在这些大厂现在有一些新的文化",
+          "vi": "Thì ở mấy 大厂 này bây giờ có một văn hóa mới"
+        },
+        {
+          "zh": "是要给每个员工取一个花名，",
+          "vi": "là phải đặt cho mỗi nhân viên một 花名,"
+        }
+      ]
+    },
+    "36": {
+      "zh": "然后花名其实就有一点像昵称，对不对？",
+      "parts": [
+        {
+          "zh": "然后花名",
+          "vi": "mà 花名"
+        },
+        {
+          "zh": "其实就有一点像昵称，对不对？",
+          "vi": "thật ra hơi giống biệt danh, đúng không?"
+        }
+      ]
+    },
+    "37": {
+      "zh": "对。",
+      "vi": "Đúng."
+    },
+    "38": {
+      "zh": "然后我也知道，像阿里他们的花名也都是。这种武侠风格，所以也也还挺有意思的。",
+      "parts": [
+        {
+          "zh": "然后我也知道，像阿里",
+          "vi": "Rồi mình cũng biết, như Alibaba"
+        },
+        {
+          "zh": "他们的花名也都是。这种武侠风格，",
+          "vi": "thì 花名 của họ đều theo kiểu kiếm hiệp,"
+        },
+        {
+          "zh": "所以也也还挺有意思的。",
+          "vi": "nên cũng… cũng khá thú vị."
+        }
+      ]
+    },
+    "40": {
+      "zh": "对，对，但我觉得可能他的目的就是，嗯，这样会称呼起来比较直接哈，就没有特别多的阶级。",
+      "parts": [
+        {
+          "zh": "对，对，但我觉得可能他的目的就是，嗯，",
+          "vi": "Ừ, ừ, nhưng mình nghĩ có lẽ mục đích của nó là, ừm,"
+        },
+        {
+          "zh": "这样会称呼起来比较直接哈，",
+          "vi": "gọi như vậy sẽ thẳng hơn,"
+        },
+        {
+          "zh": "就没有特别多的阶级。",
+          "vi": "không có nhiều thứ bậc lắm."
+        }
+      ]
+    },
+    "41": {
+      "zh": "那比如说像国企里面，就比较会常听到要叫什么什么总、什么什么哥之类的啊，",
+      "parts": [
+        {
+          "zh": "那比如说像国企里面，",
+          "vi": "Còn như trong doanh nghiệp nhà nước,"
+        },
+        {
+          "zh": "就比较会常听到要叫什么什么总、",
+          "vi": "thì hay nghe phải gọi là \"giám đốc\" gì gì đó,"
+        },
+        {
+          "zh": "什么什么哥之类的啊，",
+          "vi": "\"anh\" gì gì đó các kiểu,"
+        }
+      ]
+    },
+    "42": {
+      "zh": "比如说一般是姓后面加上你的职称。",
+      "vi": "Ví dụ thường là sau họ thì thêm chức danh của bạn."
+    },
+    "43": {
+      "zh": "比如说，对啊，李科长，比如说张处长这些之类的。",
+      "parts": [
+        {
+          "zh": "比如说，对啊，李科长，",
+          "vi": "Ví dụ, đúng rồi, trưởng ban Lý,"
+        },
+        {
+          "zh": "比如说张处长这些之类的。",
+          "vi": "ví dụ trưởng phòng Trương, những kiểu như thế."
+        }
+      ]
+    },
+    "44": {
+      "zh": "对，或者是刘老板、刘书记，或者是刘哥，那你不会说直接把这个人的名字，",
+      "parts": [
+        {
+          "zh": "对，或者是刘老板、刘书记，或者是刘哥，",
+          "vi": "Đúng, hoặc là sếp Lưu, bí thư Lưu, hoặc anh Lưu,"
+        },
+        {
+          "zh": "那你不会说直接把这个人的名字，",
+          "vi": "chứ bạn sẽ không gọi thẳng tên người đó,"
+        }
+      ]
+    },
+    "45": {
+      "zh": "或者说呃给他取个英文名字这样子。",
+      "vi": "hay là, ờ, đặt cho người ta một cái tên tiếng Anh như vậy."
+    },
+    "46": {
+      "zh": "所以我觉得这个虽然从小的地方来说只是称呼上的不同，但我觉得背后反映的其实是。",
+      "parts": [
+        {
+          "zh": "所以我觉得",
+          "vi": "Nên mình thấy"
+        },
+        {
+          "zh": "这个虽然从小的地方来说",
+          "vi": "cái này tuy xét ở điểm nhỏ"
+        },
+        {
+          "zh": "只是称呼上的不同，",
+          "vi": "chỉ là khác nhau ở cách xưng hô,"
+        },
+        {
+          "zh": "但我觉得背后反映的其实是。",
+          "vi": "nhưng mình nghĩ đằng sau nó phản ánh thật ra là"
+        }
+      ]
+    },
+    "47": {
+      "zh": "这种等级啊阶级制度不太一样对",
+      "vi": "chế độ đẳng cấp, thứ bậc kiểu này không giống nhau, đúng vậy."
+    },
+    "48": {
+      "zh": "可能是在国有企业或者这种事业单位其实我觉得在事业单位就相当于是公务员了就是为了政府工作的人员在这两种情况里面可能的确这个阶级还是比较重要的是你需要去注意的而且短期之内我也不认为他们会有什么改变就是一直会保持这个样子。",
+      "parts": [
+        {
+          "zh": "可能是在国有企业",
+          "vi": "Có lẽ là ở doanh nghiệp nhà nước"
+        },
+        {
+          "zh": "或者这种事业单位",
+          "vi": "hoặc kiểu đơn vị sự nghiệp này,"
+        },
+        {
+          "zh": "其实我觉得在事业单位",
+          "vi": "thật ra mình thấy ở đơn vị sự nghiệp"
+        },
+        {
+          "zh": "就相当于是公务员了",
+          "vi": "thì tương đương với công chức rồi,"
+        },
+        {
+          "zh": "就是为了政府工作的人员",
+          "vi": "tức là người làm việc cho chính phủ,"
+        },
+        {
+          "zh": "在这两种情况里面",
+          "vi": "trong hai trường hợp này"
+        },
+        {
+          "zh": "可能的确这个阶级还是比较重要的",
+          "vi": "có lẽ thứ bậc đúng là vẫn khá quan trọng,"
+        },
+        {
+          "zh": "是你需要去注意的",
+          "vi": "là thứ bạn cần phải để ý,"
+        },
+        {
+          "zh": "而且短期之内我也不认为",
+          "vi": "và trong ngắn hạn mình cũng không nghĩ"
+        },
+        {
+          "zh": "他们会有什么改变",
+          "vi": "họ sẽ có thay đổi gì,"
+        },
+        {
+          "zh": "就是一直会保持这个样子。",
+          "vi": "mà sẽ cứ giữ nguyên như vậy."
+        }
+      ]
+    },
+    "51": {
+      "zh": "那你觉得，就是为什么现在的互联网企业或者科技企业要给员工取花名呢？",
+      "parts": [
+        {
+          "zh": "那你觉得，就是为什么",
+          "vi": "Vậy cậu thấy, tại sao"
+        },
+        {
+          "zh": "现在的互联网企业或者科技企业",
+          "vi": "các công ty internet hay công ty công nghệ bây giờ"
+        },
+        {
+          "zh": "要给员工取花名呢？",
+          "vi": "lại đặt 花名 cho nhân viên?"
+        }
+      ]
+    },
+    "52": {
+      "zh": "我觉得就像你说的，他们其实就是啊，可能不太想要有这种阶级，",
+      "parts": [
+        {
+          "zh": "我觉得就像你说的，他们其实就是啊，",
+          "vi": "Mình nghĩ giống như cậu nói, thật ra họ, à,"
+        },
+        {
+          "zh": "可能不太想要有这种阶级，",
+          "vi": "có lẽ không muốn lắm có kiểu thứ bậc này,"
+        }
+      ]
+    },
+    "53": {
+      "zh": "然后可以这样可以更加的激发员工的创造性啊等等，然后。啊，各个团队之间的合作可能也会更加顺利，也就是其实也就是更加现代的一种管理方式吧。",
+      "parts": [
+        {
+          "zh": "然后可以这样",
+          "vi": "rồi làm vậy có thể"
+        },
+        {
+          "zh": "可以更加的激发员工的创造性",
+          "vi": "khơi dậy sự sáng tạo của nhân viên hơn,"
+        },
+        {
+          "zh": "啊等等，然后。啊，各个团队之间的合作",
+          "vi": "à, vân vân, rồi thì, à, sự hợp tác giữa các nhóm"
+        },
+        {
+          "zh": "可能也会更加顺利，也就是其实",
+          "vi": "có lẽ cũng sẽ suôn sẻ hơn, tức là thật ra"
+        },
+        {
+          "zh": "也就是更加现代的一种管理方式吧。",
+          "vi": "cũng là một cách quản lý hiện đại hơn thôi."
+        }
+      ]
+    },
+    "55": {
+      "zh": "比如说，我都不知道它的中文叫什么，flat扁平化的这种职场啊，",
+      "parts": [
+        {
+          "zh": "比如说，我都不知道它的中文叫什么，",
+          "vi": "Ví dụ, mình cũng không biết tiếng Trung gọi là gì,"
+        },
+        {
+          "zh": "flat扁平化的这种职场啊，",
+          "vi": "kiểu công sở flat, 扁平化 ấy,"
+        }
+      ]
+    },
+    "56": {
+      "zh": "或者根本就呃不是职场呃扁平化的阶级啊这些之类的，对对。",
+      "parts": [
+        {
+          "zh": "或者根本就呃不是职场",
+          "vi": "hay là căn bản, ờ, không phải công sở, ờ,"
+        },
+        {
+          "zh": "呃扁平化的阶级啊这些之类的，对对。",
+          "vi": "mà là thứ bậc phẳng (扁平化) các kiểu, đúng đúng."
+        }
+      ]
+    },
+    "57": {
+      "zh": "但说到这个，其实。也挺好笑的，因为我有一个好朋友最近也是加入了一个所谓的互联网企业，然后呢，他们也有这个文化哈，说你刚入职的时候就要取一个花名，取一个昵称。",
+      "parts": [
+        {
+          "zh": "但说到这个，其实。也挺好笑的，",
+          "vi": "Nhưng nói đến đây thì, thật ra cũng khá buồn cười,"
+        },
+        {
+          "zh": "因为我有一个好朋友最近",
+          "vi": "vì mình có một người bạn thân gần đây"
+        },
+        {
+          "zh": "也是加入了一个所谓的互联网企业，",
+          "vi": "cũng vào một công ty gọi là công ty internet,"
+        },
+        {
+          "zh": "然后呢，他们也有这个文化哈，",
+          "vi": "rồi thì, ở đó họ cũng có văn hóa này,"
+        },
+        {
+          "zh": "说你刚入职的时候",
+          "vi": "nói là lúc bạn mới vào làm"
+        },
+        {
+          "zh": "就要取一个花名，取一个昵称。",
+          "vi": "là phải đặt một 花名, đặt một biệt danh."
+        }
+      ]
+    },
+    "60": {
+      "zh": "但是呢，这个企业就是已经挺大的了，",
+      "vi": "Nhưng mà công ty này đã khá lớn rồi,"
+    },
+    "61": {
+      "zh": "所以我这个朋友他想要取的名字基本上都已经被取掉了，就是一些比较好听的，嗯，",
+      "parts": [
+        {
+          "zh": "所以我这个朋友他想要取的名字",
+          "vi": "nên những cái tên mà bạn mình muốn đặt"
+        },
+        {
+          "zh": "基本上都已经被取掉了，",
+          "vi": "về cơ bản đều đã có người lấy mất rồi,"
+        },
+        {
+          "zh": "就是一些比较好听的，嗯，",
+          "vi": "tức là những cái tên khá hay, ừm,"
+        }
+      ]
+    },
+    "62": {
+      "zh": "跟武侠有关的名字啊等等。",
+      "vi": "liên quan tới kiếm hiệp các thứ."
+    },
+    "63": {
+      "zh": "然后呢，我们他还在群里面，就是我们有一个微信群，问我们说：“哎呀，我应该叫什么名字？",
+      "parts": [
+        {
+          "zh": "然后呢，我们他还在群里面，",
+          "vi": "Rồi thì, bạn ấy còn hỏi trong nhóm,"
+        },
+        {
+          "zh": "就是我们有一个微信群，",
+          "vi": "tức là bọn mình có một nhóm WeChat,"
+        },
+        {
+          "zh": "问我们说：“哎呀，我应该叫什么名字？",
+          "vi": "hỏi bọn mình: \"Ôi, mình nên lấy tên gì đây?"
+        }
+      ]
+    },
+    "64": {
+      "zh": "如比如说我叫自己肉包或者烧麦，会不会太搞笑了？”",
+      "parts": [
+        {
+          "zh": "如比如说我叫自己肉包或者烧麦，",
+          "vi": "Ví dụ mình tự gọi là Bánh Bao Thịt hay Xíu Mại,"
+        },
+        {
+          "zh": "会不会太搞笑了？”",
+          "vi": "có buồn cười quá không?\""
+        }
+      ]
+    },
+    "65": {
+      "zh": "就是就是你有一个分寸，你的花名呢也不能太搞笑，对吧？",
+      "parts": [
+        {
+          "zh": "就是就是你有一个分寸，",
+          "vi": "Tức là bạn phải có chừng mực,"
+        },
+        {
+          "zh": "你的花名呢也不能太搞笑，对吧？",
+          "vi": "花名 của bạn không được buồn cười quá, đúng không?"
+        }
+      ]
+    },
+    "66": {
+      "zh": "但也不能太正经。",
+      "vi": "Mà cũng không được nghiêm túc quá."
+    },
+    "67": {
+      "zh": "对",
+      "vi": "Ừ"
+    },
+    "68": {
+      "zh": "对，其实挺难的。",
+      "vi": "Ừ, thật ra khá khó đấy."
+    },
+    "69": {
+      "zh": "你想一个那种公司都是几万人，你要取一个新的名字。",
+      "parts": [
+        {
+          "zh": "你想一个那种公司都是几万人，",
+          "vi": "Cậu nghĩ xem, một công ty kiểu đó có mấy chục nghìn người,"
+        },
+        {
+          "zh": "你要取一个新的名字。",
+          "vi": "cậu phải đặt một cái tên mới."
+        }
+      ]
+    },
+    "70": {
+      "zh": "确实要花一番脑筋，对。",
+      "vi": "Đúng là phải nghĩ nát óc, ừ."
+    },
+    "71": {
+      "zh": "嗯，",
+      "vi": "Ừm,"
+    },
+    "72": {
+      "zh": "那你觉得除了刚才我们说的这个以外，你觉得还有什么区别？",
+      "parts": [
+        {
+          "zh": "那你觉得",
+          "vi": "Vậy cậu thấy"
+        },
+        {
+          "zh": "除了刚才我们说的这个以外，",
+          "vi": "ngoài cái chúng mình vừa nói ra,"
+        },
+        {
+          "zh": "你觉得还有什么区别？",
+          "vi": "cậu thấy còn khác biệt gì nữa?"
+        }
+      ]
+    },
+    "73": {
+      "zh": "我其实",
+      "vi": "Mình thật ra"
+    },
+    "74": {
+      "zh": "觉得最大的区别还是工作压力上，但是一说到工作压力，又要说到老话题加班九九六等等。",
+      "parts": [
+        {
+          "zh": "觉得最大的区别还是工作压力上，",
+          "vi": "thấy khác biệt lớn nhất vẫn là ở áp lực công việc,"
+        },
+        {
+          "zh": "但是一说到工作压力，",
+          "vi": "nhưng hễ nói đến áp lực công việc,"
+        },
+        {
+          "zh": "又要说到老话题加班九九六等等。",
+          "vi": "lại phải nói đến chủ đề cũ: tăng ca, 996 các thứ."
+        }
+      ]
+    },
+    "75": {
+      "zh": "但是我觉得就除了加班这些之外，呃，还是会压力就会感觉很大。",
+      "parts": [
+        {
+          "zh": "但是我觉得就除了加班这些之外，呃，",
+          "vi": "Nhưng mình thấy ngoài tăng ca các thứ ra, ờ,"
+        },
+        {
+          "zh": "还是会压力就会感觉很大。",
+          "vi": "thì vẫn sẽ thấy áp lực rất lớn."
+        }
+      ]
+    },
+    "76": {
+      "zh": "比如说一种去啊升迁的压力，你要去升职的压力，然后同事之间的竞争啊等等，",
+      "parts": [
+        {
+          "zh": "比如说一种去啊升迁的压力，",
+          "vi": "Ví dụ một kiểu áp lực, à, thăng tiến,"
+        },
+        {
+          "zh": "你要去升职的压力，",
+          "vi": "áp lực bạn phải lên chức,"
+        },
+        {
+          "zh": "然后同事之间的竞争啊等等，",
+          "vi": "rồi cạnh tranh giữa đồng nghiệp các thứ,"
+        }
+      ]
+    },
+    "77": {
+      "zh": "我感觉可能国内都会比国外更加的激烈一些。",
+      "parts": [
+        {
+          "zh": "我感觉可能",
+          "vi": "mình cảm thấy có lẽ"
+        },
+        {
+          "zh": "国内都会比国外更加的激烈一些。",
+          "vi": "ở trong nước đều sẽ gay gắt hơn ở nước ngoài một chút."
+        }
+      ]
+    },
+    "78": {
+      "zh": "但是这只是我自己的感觉，因为我说实话，我自己从来没有在一个真正的公司里面工作过，",
+      "parts": [
+        {
+          "zh": "但是这只是我自己的感觉，",
+          "vi": "Nhưng đây chỉ là cảm giác của riêng mình,"
+        },
+        {
+          "zh": "因为我说实话，我自己从来没有",
+          "vi": "vì nói thật, bản thân mình chưa từng"
+        },
+        {
+          "zh": "在一个真正的公司里面工作过，",
+          "vi": "làm việc trong một công ty thực thụ nào,"
+        }
+      ]
+    },
+    "79": {
+      "zh": "因为我是属于这种。教育教育类的从来都是在当老师，所以说啊，老师可能呃其实也跟职场有点像了，对吧？",
+      "parts": [
+        {
+          "zh": "因为我是属于这种。教育教育类的",
+          "vi": "vì mình thuộc kiểu… ngành giáo dục, giáo dục,"
+        },
+        {
+          "zh": "从来都是在当老师，",
+          "vi": "từ trước tới giờ toàn đi dạy,"
+        },
+        {
+          "zh": "所以说啊，老师可能呃",
+          "vi": "nên là, à, giáo viên có lẽ, ờ,"
+        },
+        {
+          "zh": "其实也跟职场有点像了，对吧？",
+          "vi": "thật ra cũng hơi giống công sở, đúng không?"
+        }
+      ]
+    },
+    "81": {
+      "zh": "你想一群老师在一起，然后你有一个管的什么主管，然后要升职，但是可能还是跟那些有些不同。",
+      "parts": [
+        {
+          "zh": "你想一群老师在一起，",
+          "vi": "Cậu nghĩ xem, một đám giáo viên ở với nhau,"
+        },
+        {
+          "zh": "然后你有一个管的什么主管，",
+          "vi": "rồi cậu có một người quản lý, chủ quản gì đó,"
+        },
+        {
+          "zh": "然后要升职，",
+          "vi": "rồi phải lên chức,"
+        },
+        {
+          "zh": "但是可能还是跟那些有些不同。",
+          "vi": "nhưng có lẽ vẫn có chỗ khác với mấy nơi kia."
+        }
+      ]
+    },
+    "82": {
+      "zh": "但是就是从我个人的想法来说，我认为竞争等等会更加激烈。",
+      "parts": [
+        {
+          "zh": "但是就是从我个人的想法来说，",
+          "vi": "Nhưng mà theo suy nghĩ cá nhân mình,"
+        },
+        {
+          "zh": "我认为竞争等等会更加激烈。",
+          "vi": "mình nghĩ cạnh tranh các thứ sẽ gay gắt hơn."
+        }
+      ]
+    },
+    "83": {
+      "zh": "你觉得呢？",
+      "vi": "Cậu thấy sao?"
+    },
+    "84": {
+      "zh": "但我觉得你刚才说的这个工作压力或者工作时间，在国内也不能一概而论吧？",
+      "parts": [
+        {
+          "zh": "但我觉得你刚才说的",
+          "vi": "Nhưng mình thấy cái cậu vừa nói,"
+        },
+        {
+          "zh": "这个工作压力或者工作时间，",
+          "vi": "áp lực công việc hay thời gian làm việc này,"
+        },
+        {
+          "zh": "在国内也不能一概而论吧？",
+          "vi": "thì ở trong nước cũng không thể 一概而论 được nhỉ?"
+        }
+      ]
+    },
+    "85": {
+      "zh": "就是一概而论的意思，",
+      "vi": "Ý của 一概而论 là,"
+    },
+    "86": {
+      "zh": "就是不能把这些都嗯怎么说呢统称起来或者用一个概念来generalize。",
+      "parts": [
+        {
+          "zh": "就是不能把这些都嗯怎么说呢",
+          "vi": "không thể đem hết những thứ này, ừm, nói sao nhỉ,"
+        },
+        {
+          "zh": "统称起来或者用一个概念",
+          "vi": "gọi chung lại, hay dùng một khái niệm"
+        },
+        {
+          "zh": "来generalize。",
+          "vi": "để generalize."
+        }
+      ]
+    },
+    "87": {
+      "zh": "那比如说，我觉得像在中国的互联网企业，现在在网上面大家争论的讨论的比较多，",
+      "parts": [
+        {
+          "zh": "那比如说，我觉得",
+          "vi": "Ví dụ, mình thấy"
+        },
+        {
+          "zh": "像在中国的互联网企业，",
+          "vi": "như các công ty internet ở Trung Quốc,"
+        },
+        {
+          "zh": "现在在网上面",
+          "vi": "bây giờ trên mạng"
+        },
+        {
+          "zh": "大家争论的讨论的比较多，",
+          "vi": "mọi người tranh luận, bàn tán khá nhiều,"
+        }
+      ]
+    },
+    "88": {
+      "zh": "就说互联网企业的工作压力很大。",
+      "vi": "nói là áp lực công việc ở công ty internet rất lớn."
+    },
+    "89": {
+      "zh": "但是中国也有很多的像刚才说的事业单位啊、国企啊，",
+      "parts": [
+        {
+          "zh": "但是中国也有很多的",
+          "vi": "Nhưng Trung Quốc cũng có rất nhiều"
+        },
+        {
+          "zh": "像刚才说的事业单位啊、国企啊，",
+          "vi": "đơn vị sự nghiệp, doanh nghiệp nhà nước như vừa nói,"
+        }
+      ]
+    },
+    "90": {
+      "zh": "比如说我有一些朋友在国开行国家开发银行啊，或者是这些大的央企中央企业，",
+      "parts": [
+        {
+          "zh": "比如说我有一些朋友",
+          "vi": "ví dụ mình có mấy người bạn"
+        },
+        {
+          "zh": "在国开行国家开发银行啊，",
+          "vi": "ở 国开行, Ngân hàng Phát triển Trung Quốc,"
+        },
+        {
+          "zh": "或者是这些大的央企中央企业，",
+          "vi": "hoặc mấy tập đoàn trung ương lớn (央企, 中央企业),"
+        }
+      ]
+    },
+    "91": {
+      "zh": "其实压力就不是很大。",
+      "vi": "thật ra áp lực không lớn lắm."
+    },
+    "92": {
+      "zh": "他们的话可能每天工作到六点七点，最多七点吧也是可以准时下班的。",
+      "parts": [
+        {
+          "zh": "他们的话可能每天工作到六点七点，",
+          "vi": "Họ thì có lẽ mỗi ngày làm đến 6, 7 giờ,"
+        },
+        {
+          "zh": "最多七点吧也是可以准时下班的。",
+          "vi": "muộn nhất 7 giờ là cũng có thể tan làm đúng giờ."
+        }
+      ]
+    },
+    "93": {
+      "zh": "所以我觉得这个可能是因为最近在网上面讨论的互联网企业的。工作压力特别多，所以给我们造成这么一",
+      "parts": [
+        {
+          "zh": "所以我觉得这个可能是因为",
+          "vi": "Nên mình nghĩ cái này có lẽ là vì"
+        },
+        {
+          "zh": "最近在网上面讨论的",
+          "vi": "gần đây trên mạng bàn tán về"
+        },
+        {
+          "zh": "互联网企业的。工作压力特别多，",
+          "vi": "áp lực công việc ở các công ty internet quá nhiều,"
+        },
+        {
+          "zh": "所以给我们造成这么一",
+          "vi": "nên khiến chúng ta có một"
+        }
+      ]
+    },
+    "95": {
+      "zh": "种有一点偏见。",
+      "vi": "kiểu định kiến."
+    },
+    "96": {
+      "zh": "其实我觉得不光是互联网企业啊，私人的企业、私企都存在这个现象。",
+      "parts": [
+        {
+          "zh": "其实我觉得不光是互联网企业啊，",
+          "vi": "Thật ra mình thấy không chỉ công ty internet đâu,"
+        },
+        {
+          "zh": "私人的企业、私企都存在这个现象。",
+          "vi": "doanh nghiệp tư nhân, 私企, đều có hiện tượng này."
+        }
+      ]
+    },
+    "97": {
+      "zh": "所以说这也是为什么很多人现在想去当公务员，很多人现在想去国企，",
+      "parts": [
+        {
+          "zh": "所以说这也是为什么",
+          "vi": "Nên đây cũng là lý do vì sao"
+        },
+        {
+          "zh": "很多人现在想去当公务员，",
+          "vi": "bây giờ nhiều người muốn làm công chức,"
+        },
+        {
+          "zh": "很多人现在想去国企，",
+          "vi": "nhiều người muốn vào doanh nghiệp nhà nước,"
+        }
+      ]
+    },
+    "98": {
+      "zh": "就是因为起码在呃这些企业，你的加班啊这些可能会少一点，然后各种福利也会更好一点。",
+      "parts": [
+        {
+          "zh": "就是因为起码在呃这些企业，",
+          "vi": "chính là vì ít nhất ở, ờ, những nơi này,"
+        },
+        {
+          "zh": "你的加班啊这些可能会少一点，",
+          "vi": "việc tăng ca các thứ có lẽ sẽ ít hơn một chút,"
+        },
+        {
+          "zh": "然后各种福利也会更好一点。",
+          "vi": "rồi các loại phúc lợi cũng sẽ tốt hơn một chút."
+        }
+      ]
+    },
+    "99": {
+      "zh": "这就是这些私企做的不太好的地方，就是会让人经常加班，",
+      "parts": [
+        {
+          "zh": "这就是这些私企做的不太好的地方，",
+          "vi": "Đây chính là chỗ mà các doanh nghiệp tư nhân làm chưa tốt,"
+        },
+        {
+          "zh": "就是会让人经常加班，",
+          "vi": "là hay bắt người ta tăng ca,"
+        }
+      ]
+    },
+    "100": {
+      "zh": "然后可能这个加班还没有加班工资啊等等，然后这种竞竞争更激烈。",
+      "parts": [
+        {
+          "zh": "然后可能这个加班",
+          "vi": "rồi có khi tăng ca"
+        },
+        {
+          "zh": "还没有加班工资啊等等，",
+          "vi": "còn không có lương tăng ca các thứ,"
+        },
+        {
+          "zh": "然后这种竞竞争更激烈。",
+          "vi": "rồi kiểu cạnh… cạnh tranh gay gắt hơn."
+        }
+      ]
+    },
+    "101": {
+      "zh": "所以说你说的肯定是对的，并不一定所有在中国的工作都比国外压力更大，但是我还是觉得，",
+      "parts": [
+        {
+          "zh": "所以说你说的肯定是对的，",
+          "vi": "Nên là cậu nói chắc chắn là đúng,"
+        },
+        {
+          "zh": "并不一定所有在中国的工作",
+          "vi": "chưa chắc mọi công việc ở Trung Quốc"
+        },
+        {
+          "zh": "都比国外压力更大，",
+          "vi": "đều áp lực hơn ở nước ngoài,"
+        },
+        {
+          "zh": "但是我还是觉得，",
+          "vi": "nhưng mình vẫn thấy,"
+        }
+      ]
+    },
+    "102": {
+      "zh": "在中国的私人企业、私企里面，这个还是一个非常普遍的现象。",
+      "parts": [
+        {
+          "zh": "在中国的私人企业、私企里面，",
+          "vi": "trong các doanh nghiệp tư nhân ở Trung Quốc,"
+        },
+        {
+          "zh": "这个还是一个非常普遍的现象。",
+          "vi": "đây vẫn là một hiện tượng rất phổ biến."
+        }
+      ]
+    },
+    "103": {
+      "zh": "对，就是说到工作压力，我觉得另外一个点啊，我感触很深的是关于年假的问题。",
+      "parts": [
+        {
+          "zh": "对，就是说到工作压力，",
+          "vi": "Đúng, nói đến áp lực công việc,"
+        },
+        {
+          "zh": "我觉得另外一个点啊，",
+          "vi": "mình thấy còn một điểm nữa,"
+        },
+        {
+          "zh": "我感触很深的是关于年假的问题。",
+          "vi": "mà mình cảm nhận rất sâu sắc là chuyện phép năm."
+        }
+      ]
+    },
+    "104": {
+      "zh": "就是比如说在外企，哪怕是在中国的外企，基本上哪怕你刚刚入职，也会有比如说二十天啊、十五天，或者甚至像我刚刚开始工作的时候就有二十五天的年假。",
+      "parts": [
+        {
+          "zh": "就是比如说在外企，",
+          "vi": "Ví dụ như ở công ty nước ngoài,"
+        },
+        {
+          "zh": "哪怕是在中国的外企，",
+          "vi": "kể cả công ty nước ngoài ở Trung Quốc,"
+        },
+        {
+          "zh": "基本上哪怕你刚刚入职，",
+          "vi": "về cơ bản dù bạn mới vào làm,"
+        },
+        {
+          "zh": "也会有比如说二十天啊、十五天，",
+          "vi": "cũng sẽ có chẳng hạn 20 ngày, 15 ngày,"
+        },
+        {
+          "zh": "或者甚至像我刚刚开始工作的时候",
+          "vi": "hay thậm chí như lúc mình mới đi làm"
+        },
+        {
+          "zh": "就有二十五天的年假。",
+          "vi": "là đã có 25 ngày phép năm rồi."
+        }
+      ]
+    },
+    "106": {
+      "zh": "但是就从我和我其他的朋友聊天看起来，中国的国企、私企很多都是只有五天的年假，",
+      "parts": [
+        {
+          "zh": "但是就从我和我其他的朋友聊天",
+          "vi": "Nhưng mà qua nói chuyện với mấy người bạn khác của mình"
+        },
+        {
+          "zh": "看起来，中国的国企、私企",
+          "vi": "thì thấy, doanh nghiệp nhà nước, tư nhân ở Trung Quốc"
+        },
+        {
+          "zh": "很多都是只有五天的年假，",
+          "vi": "nhiều nơi chỉ có 5 ngày phép năm,"
+        }
+      ]
+    },
+    "107": {
+      "zh": "就是说除了五天年假以外，就只有像国庆节或者是五一劳动节可以放一个假。",
+      "parts": [
+        {
+          "zh": "就是说除了五天年假以外，",
+          "vi": "tức là ngoài 5 ngày phép năm ra,"
+        },
+        {
+          "zh": "就只有像国庆节或者是五一劳动节",
+          "vi": "thì chỉ có những dịp như Quốc khánh hay lễ Lao động 1/5"
+        },
+        {
+          "zh": "可以放一个假。",
+          "vi": "mới được nghỉ một đợt."
+        }
+      ]
+    },
+    "108": {
+      "zh": "但是在那些公共假日呢，你就要跟其他的人一起竞争，一起挤挤着出国旅游啊，",
+      "parts": [
+        {
+          "zh": "但是在那些公共假日呢，",
+          "vi": "Mà vào những ngày lễ chung đó,"
+        },
+        {
+          "zh": "你就要跟其他的人一起竞争，",
+          "vi": "bạn phải cạnh tranh cùng những người khác,"
+        },
+        {
+          "zh": "一起挤挤着出国旅游啊，",
+          "vi": "cùng chen chúc đi du lịch nước ngoài,"
+        }
+      ]
+    },
+    "109": {
+      "zh": "或者去国内旅游啊等等。",
+      "vi": "hoặc du lịch trong nước các thứ."
+    },
+    "110": {
+      "zh": "所以我觉得，因为对我个人来说呢，我是可以OK接受每天工作时间长一点。",
+      "parts": [
+        {
+          "zh": "所以我觉得，因为对我个人来说呢，",
+          "vi": "Nên mình thấy, vì với cá nhân mình thì,"
+        },
+        {
+          "zh": "我是可以OK接受",
+          "vi": "mình có thể OK chấp nhận"
+        },
+        {
+          "zh": "每天工作时间长一点。",
+          "vi": "mỗi ngày làm việc lâu hơn một chút."
+        }
+      ]
+    },
+    "111": {
+      "zh": "但我非常的需要一个就是年假，让我能够说有一整段的时间两个星期啊，我可以出去玩，",
+      "parts": [
+        {
+          "zh": "但我非常的需要一个就是年假，",
+          "vi": "Nhưng mình rất cần phép năm,"
+        },
+        {
+          "zh": "让我能够说有一整段的时间",
+          "vi": "để mình có thể có một khoảng thời gian liền"
+        },
+        {
+          "zh": "两个星期啊，我可以出去玩，",
+          "vi": "hai tuần, để mình đi chơi,"
+        }
+      ]
+    },
+    "112": {
+      "zh": "然后放松一下。",
+      "vi": "rồi thư giãn một chút."
+    },
+    "113": {
+      "zh": "所以这个是我我觉得我无法接受在国内工作的一件很重要的事情。",
+      "parts": [
+        {
+          "zh": "所以这个是我我觉得我无法接受",
+          "vi": "Nên đây là điều mà mình… mình thấy mình không chấp nhận được,"
+        },
+        {
+          "zh": "在国内工作的一件很重要的事情。",
+          "vi": "một điều rất quan trọng khi làm việc ở trong nước."
+        }
+      ]
+    },
+    "114": {
+      "zh": "对，就是我觉得在国内，而且就算你有假，有的时候你不敢请假，你有这个压力，",
+      "parts": [
+        {
+          "zh": "对，就是我觉得在国内，",
+          "vi": "Đúng, mình thấy ở trong nước,"
+        },
+        {
+          "zh": "而且就算你有假，",
+          "vi": "mà kể cả bạn có phép,"
+        },
+        {
+          "zh": "有的时候你不敢请假，你有这个压力，",
+          "vi": "có lúc bạn cũng không dám xin nghỉ, bạn có áp lực đó,"
+        }
+      ]
+    },
+    "115": {
+      "zh": "就是你会觉得我请假了，我的老板会觉得我工作不努力啊，或者怎么怎么样。",
+      "parts": [
+        {
+          "zh": "就是你会觉得我请假了，",
+          "vi": "tức là bạn sẽ nghĩ mình mà xin nghỉ,"
+        },
+        {
+          "zh": "我的老板会觉得我工作不努力啊，",
+          "vi": "sếp sẽ thấy mình làm việc không chăm chỉ,"
+        },
+        {
+          "zh": "或者怎么怎么样。",
+          "vi": "hay gì gì đó."
+        }
+      ]
+    },
+    "116": {
+      "zh": "可是我认为在国外这个就是请假是很正常的事情，就是我有假，",
+      "parts": [
+        {
+          "zh": "可是我认为在国外",
+          "vi": "Nhưng mình nghĩ ở nước ngoài"
+        },
+        {
+          "zh": "这个就是请假是很正常的事情，",
+          "vi": "thì xin nghỉ là chuyện rất bình thường,"
+        },
+        {
+          "zh": "就是我有假，",
+          "vi": "tức là mình có phép,"
+        }
+      ]
+    },
+    "117": {
+      "zh": "然后我现在我有了这样一个旅行计划，我就要去做，然后我其他的工作安排我就绕着来就行了。",
+      "parts": [
+        {
+          "zh": "然后我现在我有了",
+          "vi": "rồi bây giờ mình có"
+        },
+        {
+          "zh": "这样一个旅行计划，我就要去做，",
+          "vi": "một kế hoạch du lịch như thế này, mình sẽ đi,"
+        },
+        {
+          "zh": "然后我其他的工作安排",
+          "vi": "rồi các việc khác của mình"
+        },
+        {
+          "zh": "我就绕着来就行了。",
+          "vi": "mình xếp xoay quanh nó là được."
+        }
+      ]
+    },
+    "118": {
+      "zh": "但是国内是我的请假是要根据我的工作安排来进行，也要根据我的老板的安排来进行。",
+      "parts": [
+        {
+          "zh": "但是国内是我的请假",
+          "vi": "Nhưng ở trong nước thì việc xin nghỉ của mình"
+        },
+        {
+          "zh": "是要根据我的工作安排来进行，",
+          "vi": "phải dựa vào lịch công việc của mình,"
+        },
+        {
+          "zh": "也要根据我的老板的安排来进行。",
+          "vi": "cũng phải dựa vào sắp xếp của sếp."
+        }
+      ]
+    },
+    "119": {
+      "zh": "对对对。",
+      "vi": "Đúng đúng đúng."
+    },
+    "120": {
+      "zh": "而且我觉得像国外的一些大的企业啊，比如说HR或者是就是职场文化比较好的企业，",
+      "parts": [
+        {
+          "zh": "而且我觉得",
+          "vi": "Hơn nữa mình thấy"
+        },
+        {
+          "zh": "像国外的一些大的企业啊，",
+          "vi": "như một số công ty lớn ở nước ngoài,"
+        },
+        {
+          "zh": "比如说HR或者是",
+          "vi": "ví dụ HR, hoặc là"
+        },
+        {
+          "zh": "就是职场文化比较好的企业，",
+          "vi": "những công ty có văn hóa công sở khá tốt,"
+        }
+      ]
+    },
+    "121": {
+      "zh": "HR都会催员工去请假的。",
+      "vi": "HR còn giục nhân viên đi nghỉ phép."
+    },
+    "122": {
+      "zh": "比如说像嗯我之前工作的一个一个国外的公司，它的话每年到十二月份，",
+      "parts": [
+        {
+          "zh": "比如说像嗯我之前工作的",
+          "vi": "Ví dụ như, ừm, mình trước đây làm ở"
+        },
+        {
+          "zh": "一个一个国外的公司，",
+          "vi": "một… một công ty nước ngoài,"
+        },
+        {
+          "zh": "它的话每年到十二月份，",
+          "vi": "ở đó cứ mỗi năm đến tháng 12,"
+        }
+      ]
+    },
+    "123": {
+      "zh": "如果你的就是balance你的这个系统里面发现还有几天的年假没有请，",
+      "parts": [
+        {
+          "zh": "如果你的就是balance",
+          "vi": "nếu cái balance của bạn,"
+        },
+        {
+          "zh": "你的这个系统里面",
+          "vi": "trong hệ thống của bạn"
+        },
+        {
+          "zh": "发现还有几天的年假没有请，",
+          "vi": "thấy còn mấy ngày phép năm chưa nghỉ,"
+        }
+      ]
+    },
+    "124": {
+      "zh": "HR都会发邮件说啊你要记得把这个假请掉。",
+      "parts": [
+        {
+          "zh": "HR都会发邮件说啊",
+          "vi": "HR sẽ gửi email nói là"
+        },
+        {
+          "zh": "你要记得把这个假请掉。",
+          "vi": "bạn nhớ dùng hết số ngày phép này nhé."
+        }
+      ]
+    },
+    "125": {
+      "zh": "要不然的话，明年可能这个假就没有办法累计到你明年的年假里面。",
+      "parts": [
+        {
+          "zh": "要不然的话，明年可能这个假",
+          "vi": "Nếu không thì, năm sau có khi số phép này"
+        },
+        {
+          "zh": "就没有办法累计到",
+          "vi": "sẽ không cộng dồn được"
+        },
+        {
+          "zh": "你明年的年假里面。",
+          "vi": "vào phép năm của năm sau."
+        }
+      ]
+    },
+    "126": {
+      "zh": "然后，而且就举一个例子哈，今天嘛，嗯，因为我刚刚入职，我现在搬到了瑞士，",
+      "parts": [
+        {
+          "zh": "然后，而且就举一个例子哈，",
+          "vi": "Rồi, lấy thêm một ví dụ nhé,"
+        },
+        {
+          "zh": "今天嘛，嗯，因为我刚刚入职，",
+          "vi": "hôm nay ấy, ừm, vì mình mới vào làm,"
+        },
+        {
+          "zh": "我现在搬到了瑞士，",
+          "vi": "giờ mình chuyển sang Thụy Sĩ,"
+        }
+      ]
+    },
+    "127": {
+      "zh": "刚刚加入了一个新的公司。",
+      "vi": "vừa vào một công ty mới."
+    },
+    "128": {
+      "zh": "然后今天老板问我说啊最近怎么样？",
+      "vi": "Rồi hôm nay sếp hỏi mình là dạo này thế nào?"
+    },
+    "129": {
+      "zh": "我说我刚刚过来要搬家，然后他就跟我说，",
+      "parts": [
+        {
+          "zh": "我说我刚刚过来要搬家，",
+          "vi": "Mình bảo mình mới sang, phải chuyển nhà,"
+        },
+        {
+          "zh": "然后他就跟我说，",
+          "vi": "thế là sếp nói với mình,"
+        }
+      ]
+    },
+    "130": {
+      "zh": "哎你知不知道我们公司有没有可以请一天的搬家的年假，就是有一天的假期是专门用来搬家的。",
+      "parts": [
+        {
+          "zh": "哎你知不知道我们公司有没有",
+          "vi": "\"Này, bạn có biết là công ty mình có"
+        },
+        {
+          "zh": "可以请一天的搬家的年假，",
+          "vi": "phép chuyển nhà, được nghỉ một ngày không,"
+        },
+        {
+          "zh": "就是有一天的假期",
+          "vi": "tức là có một ngày nghỉ"
+        },
+        {
+          "zh": "是专门用来搬家的。",
+          "vi": "dành riêng để chuyển nhà.\""
+        }
+      ]
+    },
+    "131": {
+      "zh": "然后我还有点不好意思，我说我刚刚来，我也不太好意思请这一天的假。",
+      "parts": [
+        {
+          "zh": "然后我还有点不好意思，",
+          "vi": "Rồi mình còn hơi ngại,"
+        },
+        {
+          "zh": "我说我刚刚来，",
+          "vi": "mình bảo mình mới tới,"
+        },
+        {
+          "zh": "我也不太好意思请这一天的假。",
+          "vi": "mình cũng hơi ngại xin nghỉ ngày này."
+        }
+      ]
+    },
+    "132": {
+      "zh": "但是他就是特别的无所谓，他特别坦率的就说无所谓的这个假放在那里就是给你请的。",
+      "parts": [
+        {
+          "zh": "但是他就是特别的无所谓，",
+          "vi": "Nhưng sếp thì hoàn toàn thoải mái,"
+        },
+        {
+          "zh": "他特别坦率的就说无所谓的",
+          "vi": "sếp nói rất thẳng là không sao đâu,"
+        },
+        {
+          "zh": "这个假放在那里就是给你请的。",
+          "vi": "ngày phép này để đó là để bạn nghỉ mà."
+        }
+      ]
+    },
+    "133": {
+      "zh": "那你搬家肯定是有很多事情要做，所以你要请的话就请没有关系。",
+      "parts": [
+        {
+          "zh": "那你搬家肯定是有很多事情要做，",
+          "vi": "Bạn chuyển nhà chắc chắn có nhiều việc phải làm,"
+        },
+        {
+          "zh": "所以你要请的话就请没有关系。",
+          "vi": "nên muốn nghỉ thì cứ nghỉ, không sao cả."
+        }
+      ]
+    },
+    "134": {
+      "zh": "所以我觉得这个对我来说其实文化上是很不",
+      "parts": [
+        {
+          "zh": "所以我觉得这个对我来说",
+          "vi": "Nên mình thấy cái này với mình"
+        },
+        {
+          "zh": "其实文化上是很不",
+          "vi": "thật ra về mặt văn hóa là rất"
+        }
+      ]
+    },
+    "135": {
+      "zh": "一样的。",
+      "vi": "khác biệt."
+    },
+    "136": {
+      "zh": "对对，所以就是我觉得。",
+      "vi": "Đúng đúng, nên là mình thấy."
+    },
+    "137": {
+      "zh": "可能是劳工权益的保护吧，可能啊，我觉得在国外这方面啊的确更加重视一点。",
+      "parts": [
+        {
+          "zh": "可能是劳工权益的保护吧，可能啊，",
+          "vi": "Có lẽ là chuyện bảo vệ quyền lợi người lao động, có lẽ vậy,"
+        },
+        {
+          "zh": "我觉得在国外这方面啊",
+          "vi": "mình thấy ở nước ngoài mặt này"
+        },
+        {
+          "zh": "的确更加重视一点。",
+          "vi": "đúng là được coi trọng hơn."
+        }
+      ]
+    },
+    "138": {
+      "zh": "我个人的感觉来说，",
+      "vi": "Theo cảm nhận cá nhân mình,"
+    },
+    "139": {
+      "zh": "嗯，对。",
+      "vi": "Ừm, đúng."
+    },
+    "140": {
+      "zh": "但是你觉得为什么在国内就是大家虽然工作压力这么大，工作时间也很长，还是怎么说呢？",
+      "parts": [
+        {
+          "zh": "但是你觉得为什么在国内",
+          "vi": "Nhưng cậu thấy vì sao ở trong nước"
+        },
+        {
+          "zh": "就是大家虽然工作压力这么大，",
+          "vi": "mọi người tuy áp lực công việc lớn như vậy,"
+        },
+        {
+          "zh": "工作时间也很长，还是怎么说呢？",
+          "vi": "thời gian làm việc cũng rất dài, mà vẫn, nói sao nhỉ,"
+        }
+      ]
+    },
+    "141": {
+      "zh": "用中文一句话说挤破了脑袋也要进这些私企",
+      "parts": [
+        {
+          "zh": "用中文一句话说",
+          "vi": "nói bằng một câu tiếng Trung là"
+        },
+        {
+          "zh": "挤破了脑袋也要进这些私企",
+          "vi": "chen vỡ đầu (挤破了脑袋) cũng phải vào mấy công ty tư nhân này"
+        }
+      ]
+    },
+    "143": {
+      "zh": "呢？",
+      "vi": "vậy?"
+    },
+    "144": {
+      "zh": "嗯，我觉得其实这个也是另外一点。",
+      "vi": "Ừm, mình thấy thật ra cái này cũng là một điểm khác."
+    },
+    "145": {
+      "zh": "我想，我觉得的另外一点，在中国工作的一个特点就是，咱们刚刚说竞争很大，",
+      "parts": [
+        {
+          "zh": "我想，我觉得的另外一点，",
+          "vi": "Mình nghĩ, một điểm khác mà mình thấy,"
+        },
+        {
+          "zh": "在中国工作的一个特点就是，",
+          "vi": "một đặc điểm khi làm việc ở Trung Quốc là,"
+        },
+        {
+          "zh": "咱们刚刚说竞争很大，",
+          "vi": "chúng ta vừa nói cạnh tranh rất lớn,"
+        }
+      ]
+    },
+    "146": {
+      "zh": "然后我现在想说的第三个点，其实跟可能是第二点五个点，因为不是跟第二点完全不一样。",
+      "parts": [
+        {
+          "zh": "然后我现在想说的第三个点，",
+          "vi": "rồi điểm thứ ba mình muốn nói bây giờ,"
+        },
+        {
+          "zh": "其实跟可能是第二点五个点，",
+          "vi": "thật ra có lẽ là điểm thứ 2,5,"
+        },
+        {
+          "zh": "因为不是跟第二点完全不一样。",
+          "vi": "vì nó không hoàn toàn khác điểm thứ hai."
+        }
+      ]
+    },
+    "147": {
+      "zh": "这个点就是，我觉得这竞争是越来越大。",
+      "parts": [
+        {
+          "zh": "这个点就是，我觉得",
+          "vi": "Điểm này là, mình thấy"
+        },
+        {
+          "zh": "这竞争是越来越大。",
+          "vi": "cạnh tranh ngày càng lớn."
+        }
+      ]
+    },
+    "148": {
+      "zh": "就是它是在往上走的趋势，啊，也因为呃中国，嗯研究生越来越多，硕士越来越多，博士也越来越多，然后中国出国留学的然后回来的人也越来越多，所以就是有更多的人，越来越多的人进入到了这个职场里面，想要寻找一个岗位。",
+      "parts": [
+        {
+          "zh": "就是它是在往上走的趋势，啊，",
+          "vi": "Tức là nó đang có xu hướng đi lên, à,"
+        },
+        {
+          "zh": "也因为呃中国，嗯研究生越来越多，",
+          "vi": "cũng vì, ờ, ở Trung Quốc, ừm, học viên cao học ngày càng nhiều,"
+        },
+        {
+          "zh": "硕士越来越多，博士也越来越多，",
+          "vi": "thạc sĩ ngày càng nhiều, tiến sĩ cũng ngày càng nhiều,"
+        },
+        {
+          "zh": "然后中国出国留学的",
+          "vi": "rồi người Trung Quốc đi du học"
+        },
+        {
+          "zh": "然后回来的人也越来越多，",
+          "vi": "rồi về nước cũng ngày càng nhiều,"
+        },
+        {
+          "zh": "所以就是有更多的人，越来越多的人",
+          "vi": "nên là có nhiều người hơn, ngày càng nhiều người"
+        },
+        {
+          "zh": "进入到了这个职场里面，",
+          "vi": "bước vào thị trường việc làm này,"
+        },
+        {
+          "zh": "想要寻找一个岗位。",
+          "vi": "muốn tìm một vị trí việc làm."
+        }
+      ]
+    },
+    "151": {
+      "zh": "那么这就会使得寻找一个岗位变得更加的困难，因为会有更多的人来和你抢这个位置，对吧？",
+      "parts": [
+        {
+          "zh": "那么这就会使得",
+          "vi": "Thế thì điều này sẽ khiến"
+        },
+        {
+          "zh": "寻找一个岗位变得更加的困难，",
+          "vi": "việc tìm một vị trí trở nên khó khăn hơn,"
+        },
+        {
+          "zh": "因为会有更多的人",
+          "vi": "vì sẽ có nhiều người hơn"
+        },
+        {
+          "zh": "来和你抢这个位置，对吧？",
+          "vi": "giành vị trí này với bạn, đúng không?"
+        }
+      ]
+    },
+    "152": {
+      "zh": "所以说为什么大家都挤破了头想去这些互联网公司？",
+      "parts": [
+        {
+          "zh": "所以说为什么大家都挤破了头",
+          "vi": "Nên vì sao mọi người đều chen vỡ đầu"
+        },
+        {
+          "zh": "想去这些互联网公司？",
+          "vi": "muốn vào mấy công ty internet này?"
+        }
+      ]
+    },
+    "153": {
+      "zh": "第一点当然是因为他们工资比较高；第二点也是就是因为人很多，",
+      "parts": [
+        {
+          "zh": "第一点当然是因为他们工资比较高；",
+          "vi": "Thứ nhất đương nhiên là vì lương ở đó khá cao;"
+        },
+        {
+          "zh": "第二点也是就是因为人很多，",
+          "vi": "thứ hai cũng là vì người đông,"
+        }
+      ]
+    },
+    "154": {
+      "zh": "所以随便一个职位都会有很多的人去申请。",
+      "parts": [
+        {
+          "zh": "所以随便一个职位",
+          "vi": "nên bất kỳ vị trí nào"
+        },
+        {
+          "zh": "都会有很多的人去申请。",
+          "vi": "cũng sẽ có rất nhiều người nộp đơn."
+        }
+      ]
+    },
+    "155": {
+      "zh": "而且这也是我比较担忧的问题，比如说我自己的学业，我的博士还有两年才结束，",
+      "parts": [
+        {
+          "zh": "而且这也是我比较担忧的问题，",
+          "vi": "Mà đây cũng là vấn đề mình khá lo,"
+        },
+        {
+          "zh": "比如说我自己的学业，",
+          "vi": "ví dụ việc học của chính mình,"
+        },
+        {
+          "zh": "我的博士还有两年才结束，",
+          "vi": "tiến sĩ của mình còn hai năm nữa mới xong,"
+        }
+      ]
+    },
+    "156": {
+      "zh": "两年之后到时候在中国的竞争又会比现在更加激烈，",
+      "parts": [
+        {
+          "zh": "两年之后到时候在中国的竞争",
+          "vi": "hai năm nữa, đến lúc đó cạnh tranh ở Trung Quốc"
+        },
+        {
+          "zh": "又会比现在更加激烈，",
+          "vi": "lại sẽ gay gắt hơn bây giờ,"
+        }
+      ]
+    },
+    "157": {
+      "zh": "我就经常会担心自己以后的竞争力会不会受到影响啊等等。",
+      "parts": [
+        {
+          "zh": "我就经常会担心自己以后的竞争力",
+          "vi": "mình hay lo sức cạnh tranh của mình sau này"
+        },
+        {
+          "zh": "会不会受到影响啊等等。",
+          "vi": "có bị ảnh hưởng không các thứ."
+        }
+      ]
+    },
+    "158": {
+      "zh": "我我想到另外一个点，我们也可以讨论一下，就是你觉得现在在中国？",
+      "parts": [
+        {
+          "zh": "我我想到另外一个点，",
+          "vi": "Mình… mình nghĩ ra một điểm khác,"
+        },
+        {
+          "zh": "我们也可以讨论一下，",
+          "vi": "chúng mình cũng có thể bàn một chút,"
+        },
+        {
+          "zh": "就是你觉得现在在中国？",
+          "vi": "là cậu thấy bây giờ ở Trung Quốc"
+        }
+      ]
+    },
+    "159": {
+      "zh": "喝酒就是这个，嗯，喝酒的文化现在有没有什么改变呢？",
+      "parts": [
+        {
+          "zh": "喝酒就是这个，嗯，",
+          "vi": "uống rượu, tức là cái này, ừm,"
+        },
+        {
+          "zh": "喝酒的文化现在有没有什么改变呢？",
+          "vi": "văn hóa uống rượu bây giờ có thay đổi gì không?"
+        }
+      ]
+    },
+    "160": {
+      "zh": "因为就给大家交代一个前提哈，我呢我是上海人，而且我是完全不能喝酒，",
+      "parts": [
+        {
+          "zh": "因为就给大家交代一个前提哈，",
+          "vi": "Vì nói trước với mọi người một điều nhé,"
+        },
+        {
+          "zh": "我呢我是上海人，",
+          "vi": "mình là người Thượng Hải,"
+        },
+        {
+          "zh": "而且我是完全不能喝酒，",
+          "vi": "mà mình hoàn toàn không uống được rượu,"
+        }
+      ]
+    },
+    "161": {
+      "zh": "所以我在中国工作的时候呢，嗯，一开始我会觉得还挺尴尬的，",
+      "parts": [
+        {
+          "zh": "所以我在中国工作的时候呢，嗯，",
+          "vi": "nên hồi mình đi làm ở Trung Quốc, ừm,"
+        },
+        {
+          "zh": "一开始我会觉得还挺尴尬的，",
+          "vi": "lúc đầu mình thấy khá ngượng,"
+        }
+      ]
+    },
+    "162": {
+      "zh": "因为经常需要出去跟客户应酬，然后那个时候，嗯，还没有特别多喝红酒，就是有白酒、红酒。",
+      "parts": [
+        {
+          "zh": "因为经常需要出去跟客户应酬，",
+          "vi": "vì hay phải đi tiếp khách hàng,"
+        },
+        {
+          "zh": "然后那个时候，",
+          "vi": "mà hồi đó,"
+        },
+        {
+          "zh": "嗯，还没有特别多喝红酒，",
+          "vi": "ừm, chưa uống vang đỏ nhiều lắm,"
+        },
+        {
+          "zh": "就是有白酒、红酒。",
+          "vi": "tức là có rượu trắng, vang đỏ."
+        }
+      ]
+    },
+    "163": {
+      "zh": "我就一律都说，哎，我不能喝酒。",
+      "vi": "Mình thì nhất loạt đều nói: \"Ôi, mình không uống được rượu.\""
+    },
+    "164": {
+      "zh": "我不知道你觉得现在这个整",
+      "vi": "Mình không biết cậu thấy xu hướng chung bây giờ"
+    },
+    "165": {
+      "zh": "体的趋势是什么样子？",
+      "vi": "là như thế nào?"
+    },
+    "166": {
+      "zh": "我觉得首先啊，这个事实确实是在中国文化里面吃饭非常重要，",
+      "parts": [
+        {
+          "zh": "我觉得首先啊，这个事实确实是",
+          "vi": "Mình thấy trước hết, sự thật đúng là"
+        },
+        {
+          "zh": "在中国文化里面吃饭非常重要，",
+          "vi": "trong văn hóa Trung Quốc ăn uống rất quan trọng,"
+        }
+      ]
+    },
+    "167": {
+      "zh": "很多事情是要大家去吃一顿饭，然后再来谈事情，然后很多事情也是在饭桌上谈事情，",
+      "parts": [
+        {
+          "zh": "很多事情是要大家去吃一顿饭，",
+          "vi": "nhiều việc phải cùng nhau đi ăn một bữa,"
+        },
+        {
+          "zh": "然后再来谈事情，",
+          "vi": "rồi mới bàn chuyện,"
+        },
+        {
+          "zh": "然后很多事情也是在饭桌上谈事情，",
+          "vi": "rồi nhiều việc cũng được bàn trên bàn ăn,"
+        }
+      ]
+    },
+    "168": {
+      "zh": "所以这也是为什么，尤其是在过去。",
+      "vi": "nên đây cũng là lý do vì sao, nhất là trong quá khứ."
+    },
+    "169": {
+      "zh": "啊，职场的一部分可能的确就是饭桌，你需要在饭桌上有很多应酬，",
+      "parts": [
+        {
+          "zh": "啊，职场的一部分可能的确就是饭桌，",
+          "vi": "À, một phần của công sở có lẽ đúng là bàn ăn,"
+        },
+        {
+          "zh": "你需要在饭桌上有很多应酬，",
+          "vi": "bạn cần tiếp khách nhiều trên bàn ăn,"
+        }
+      ]
+    },
+    "170": {
+      "zh": "然后在这个吃饭的过程中就必不可少的有喝酒这个问题。",
+      "parts": [
+        {
+          "zh": "然后在这个吃饭的过程中",
+          "vi": "rồi trong lúc ăn uống này"
+        },
+        {
+          "zh": "就必不可少的有喝酒这个问题。",
+          "vi": "thì không thể thiếu chuyện uống rượu."
+        }
+      ]
+    },
+    "171": {
+      "zh": "然后在以前也是有听说很多这种所谓的劝酒，就是说你必须把这酒喝了，你如果不喝，你就是不尊重我，你就是瞧不起我。",
+      "parts": [
+        {
+          "zh": "然后在以前也是有听说",
+          "vi": "Rồi trước đây cũng hay nghe"
+        },
+        {
+          "zh": "很多这种所谓的劝酒，",
+          "vi": "nhiều kiểu cái gọi là ép rượu,"
+        },
+        {
+          "zh": "就是说你必须把这酒喝了，",
+          "vi": "tức là bạn phải uống chỗ rượu này,"
+        },
+        {
+          "zh": "你如果不喝，你就是不尊重我，",
+          "vi": "nếu bạn không uống thì là bạn không tôn trọng tôi,"
+        },
+        {
+          "zh": "你就是瞧不起我。",
+          "vi": "bạn coi thường tôi."
+        }
+      ]
+    },
+    "173": {
+      "zh": "然后，如果你喝了，OK，那你尊重我，那么我们可以来谈生意。",
+      "parts": [
+        {
+          "zh": "然后，如果你喝了，OK，那你尊重我，",
+          "vi": "Rồi, nếu bạn uống, OK, thế là bạn tôn trọng tôi,"
+        },
+        {
+          "zh": "那么我们可以来谈生意。",
+          "vi": "vậy thì chúng ta có thể bàn chuyện làm ăn."
+        }
+      ]
+    },
+    "174": {
+      "zh": "我认为在以前确实是这样，但是现在我认为啊，这个现象会比较少",
+      "parts": [
+        {
+          "zh": "我认为在以前确实是这样，",
+          "vi": "Mình nghĩ trước đây đúng là như vậy,"
+        },
+        {
+          "zh": "但是现在我认为啊，",
+          "vi": "nhưng bây giờ mình nghĩ, à,"
+        },
+        {
+          "zh": "这个现象会比较少",
+          "vi": "hiện tượng này sẽ ít đi"
+        }
+      ]
+    },
+    "175": {
+      "zh": "一点。",
+      "vi": "một chút."
+    },
+    "176": {
+      "zh": "以前有很多的所谓的劝酒词哈，比如说感情深一口闷，你听说过吗？",
+      "parts": [
+        {
+          "zh": "以前有很多的所谓的劝酒词哈，",
+          "vi": "Trước đây có nhiều câu ép rượu lắm,"
+        },
+        {
+          "zh": "比如说感情深一口闷，你听说过吗？",
+          "vi": "ví dụ \"tình sâu thì cạn một hơi\" (感情深一口闷), cậu nghe bao giờ chưa?"
+        }
+      ]
+    },
+    "177": {
+      "zh": "意思就是说，如果我跟你感情深，我跟你交情比较好的话。",
+      "parts": [
+        {
+          "zh": "意思就是说，如果我跟你感情深，",
+          "vi": "Ý là, nếu tôi với anh tình cảm sâu đậm,"
+        },
+        {
+          "zh": "我跟你交情比较好的话。",
+          "vi": "tôi với anh giao tình tốt,"
+        }
+      ]
+    },
+    "178": {
+      "zh": "你就要一口把这个酒给喝完，然后经常就会在酒桌上听到说啊，你跟我是不是兄弟？",
+      "parts": [
+        {
+          "zh": "你就要一口把这个酒给喝完，",
+          "vi": "thì anh phải uống cạn chỗ rượu này một hơi,"
+        },
+        {
+          "zh": "然后经常就会在酒桌上听到说啊，",
+          "vi": "rồi thường sẽ nghe trên bàn nhậu câu, à,"
+        },
+        {
+          "zh": "你跟我是不是兄弟？",
+          "vi": "\"Anh với tôi có phải anh em không?\""
+        }
+      ]
+    },
+    "179": {
+      "zh": "所以我觉得这种劝酒文化真的是挺很难避免的。",
+      "parts": [
+        {
+          "zh": "所以我觉得这种劝酒文化",
+          "vi": "Nên mình thấy văn hóa ép rượu này"
+        },
+        {
+          "zh": "真的是挺很难避免的。",
+          "vi": "thật sự rất khó tránh."
+        }
+      ]
+    },
+    "180": {
+      "zh": "但像你说的，我觉得现在的改变可能是从白酒变成了红酒，",
+      "parts": [
+        {
+          "zh": "但像你说的，我觉得现在的改变",
+          "vi": "Nhưng như cậu nói, mình thấy thay đổi bây giờ"
+        },
+        {
+          "zh": "可能是从白酒变成了红酒，",
+          "vi": "có lẽ là từ rượu trắng chuyển sang vang đỏ,"
+        }
+      ]
+    },
+    "181": {
+      "zh": "但这个也是一个会被可能会对身身体更加好一点吧，",
+      "parts": [
+        {
+          "zh": "但这个也是一个会被",
+          "vi": "nhưng cái này cũng là một… sẽ bị…"
+        },
+        {
+          "zh": "可能会对身身体更加好一点吧，",
+          "vi": "có lẽ sẽ tốt cho sức… sức khỏe hơn một chút,"
+        }
+      ]
+    },
+    "182": {
+      "zh": "至少。",
+      "vi": "ít nhất là vậy."
+    },
+    "183": {
+      "zh": "我觉得不光是酒的改变，我觉得是人的观念的改变。",
+      "parts": [
+        {
+          "zh": "我觉得不光是酒的改变，",
+          "vi": "Mình thấy không chỉ là thay đổi về rượu,"
+        },
+        {
+          "zh": "我觉得是人的观念的改变。",
+          "vi": "mà là thay đổi quan niệm của con người."
+        }
+      ]
+    },
+    "184": {
+      "zh": "尤其是现在年轻人，我觉得更多的啊会尊重别人。",
+      "parts": [
+        {
+          "zh": "尤其是现在年轻人，",
+          "vi": "Nhất là người trẻ bây giờ,"
+        },
+        {
+          "zh": "我觉得更多的啊会尊重别人。",
+          "vi": "mình thấy nhiều người hơn, à, biết tôn trọng người khác."
+        }
+      ]
+    },
+    "185": {
+      "zh": "就是比如说，如果呃对方他不喜欢喝酒，或者他不太能喝酒，并不会去强迫人家，",
+      "parts": [
+        {
+          "zh": "就是比如说，如果呃对方",
+          "vi": "Ví dụ, nếu, ờ, người kia"
+        },
+        {
+          "zh": "他不喜欢喝酒，或者他不太能喝酒，",
+          "vi": "không thích uống rượu, hoặc không uống được mấy,"
+        },
+        {
+          "zh": "并不会去强迫人家，",
+          "vi": "thì sẽ không ép người ta,"
+        }
+      ]
+    },
+    "186": {
+      "zh": "也不会把喝酒啊喝不喝酒这个事情看作是一个什么天大的事情，你尊不尊重我？",
+      "parts": [
+        {
+          "zh": "也不会把喝酒啊喝不喝酒这个事情",
+          "vi": "cũng sẽ không coi chuyện uống rượu, uống hay không uống"
+        },
+        {
+          "zh": "看作是一个什么天大的事情，",
+          "vi": "là một chuyện tày trời gì đó,"
+        },
+        {
+          "zh": "你尊不尊重我？",
+          "vi": "kiểu \"anh có tôn trọng tôi không?\""
+        }
+      ]
+    },
+    "187": {
+      "zh": "我觉得这也是因为在以前啊就有这种新闻出来，比如说什么劝酒。",
+      "parts": [
+        {
+          "zh": "我觉得这也是因为",
+          "vi": "Mình nghĩ cái này cũng là vì"
+        },
+        {
+          "zh": "在以前啊就有这种新闻出来，",
+          "vi": "trước đây có những tin tức kiểu này,"
+        },
+        {
+          "zh": "比如说什么劝酒。",
+          "vi": "ví dụ ép rượu gì đó."
+        }
+      ]
+    },
+    "188": {
+      "zh": "然后那个人一直喝一直喝，最后喝死了啊！",
+      "parts": [
+        {
+          "zh": "然后那个人一直喝一直喝，",
+          "vi": "Rồi người kia cứ uống, cứ uống,"
+        },
+        {
+          "zh": "最后喝死了啊！",
+          "vi": "cuối cùng uống đến chết!"
+        }
+      ]
+    },
+    "189": {
+      "zh": "出了这些事情，我觉得也是经过了很多这种事情，然后整个社会上，尤其是年轻人对于这样的现象有一个新的看",
+      "parts": [
+        {
+          "zh": "出了这些事情，",
+          "vi": "Xảy ra những chuyện này,"
+        },
+        {
+          "zh": "我觉得也是经过了很多这种事情，",
+          "vi": "mình nghĩ cũng là sau rất nhiều chuyện như thế,"
+        },
+        {
+          "zh": "然后整个社会上，尤其是年轻人",
+          "vi": "rồi cả xã hội, nhất là người trẻ,"
+        },
+        {
+          "zh": "对于这样的现象有一个新的看",
+          "vi": "đối với hiện tượng này đã có một cái nhìn"
+        }
+      ]
+    },
+    "191": {
+      "zh": "法。",
+      "vi": "mới."
+    },
+    "192": {
+      "zh": "那我们今天就先聊到这儿吧。",
+      "vi": "Vậy hôm nay chúng mình nói đến đây thôi nhé."
+    },
+    "193": {
+      "zh": "我觉得，因为Cameron和我都蛮久没有在国内工作了，",
+      "parts": [
+        {
+          "zh": "我觉得，因为Cameron和我",
+          "vi": "Mình thấy, vì Cameron và mình"
+        },
+        {
+          "zh": "都蛮久没有在国内工作了，",
+          "vi": "đều đã khá lâu không làm việc ở trong nước,"
+        }
+      ]
+    },
+    "194": {
+      "zh": "所以我们说的其实都是可能对国内的所谓的职场文化。",
+      "parts": [
+        {
+          "zh": "所以我们说的其实都是",
+          "vi": "nên những gì chúng mình nói thật ra có lẽ đều là"
+        },
+        {
+          "zh": "可能对国内的所谓的职场文化。",
+          "vi": "về cái gọi là văn hóa công sở trong nước,"
+        }
+      ]
+    },
+    "195": {
+      "zh": "一些想象和刻板",
+      "vi": "một chút tưởng tượng và định"
+    },
+    "196": {
+      "zh": "印象，可能算刻板印",
+      "vi": "kiến, có lẽ tính là định"
+    },
+    "197": {
+      "zh": "象。",
+      "vi": "kiến."
+    },
+    "198": {
+      "zh": "对，或者是从一些新闻啊网上面听到的道听途说，不能代表中国的可能真实的一些一些现在的情况。",
+      "parts": [
+        {
+          "zh": "对，或者是从一些新闻啊",
+          "vi": "Đúng, hoặc là từ tin tức này nọ,"
+        },
+        {
+          "zh": "网上面听到的道听途说，",
+          "vi": "những lời đồn nghe được trên mạng,"
+        },
+        {
+          "zh": "不能代表中国的可能真实的",
+          "vi": "không thể đại diện cho cái có thể là thật ở Trung Quốc,"
+        },
+        {
+          "zh": "一些一些现在的情况。",
+          "vi": "một vài… một vài tình hình hiện nay."
+        }
+      ]
+    },
+    "199": {
+      "zh": "但是",
+      "vi": "Nhưng mà"
+    },
+    "200": {
+      "zh": "我认为大概可以代表，大概可以代表刻板印象还是有它的根源，还是有它的根据的。",
+      "parts": [
+        {
+          "zh": "我认为大概可以代表，",
+          "vi": "Mình nghĩ đại khái có thể đại diện,"
+        },
+        {
+          "zh": "大概可以代表刻板印象",
+          "vi": "đại khái có thể đại diện, định kiến thì"
+        },
+        {
+          "zh": "还是有它的根源，还是有它的根据的。",
+          "vi": "vẫn có gốc rễ của nó, vẫn có căn cứ của nó."
+        }
+      ]
+    },
+    "201": {
+      "zh": "那我最",
+      "vi": "Vậy mình hỏi câu"
+    },
+    "202": {
+      "zh": "后一个问题吧。",
+      "vi": "cuối cùng nhé."
+    },
+    "203": {
+      "zh": "你会不会考虑回国工作呢？",
+      "vi": "Cậu có tính về nước làm việc không?"
+    },
+    "204": {
+      "zh": "在",
+      "vi": "Xét"
+    },
+    "205": {
+      "zh": "我的这个自己的这个行业来说，我可能现在会更倾向在国外，",
+      "parts": [
+        {
+          "zh": "我的这个自己的这个行业来说，",
+          "vi": "trong ngành của chính mình thì,"
+        },
+        {
+          "zh": "我可能现在会更倾向在国外，",
+          "vi": "có lẽ bây giờ mình sẽ nghiêng về ở nước ngoài hơn,"
+        }
+      ]
+    },
+    "206": {
+      "zh": "因为我以后最有可能的工作的场所就是大学啊。",
+      "parts": [
+        {
+          "zh": "因为我以后最有可能的工作的场所",
+          "vi": "vì nơi làm việc có khả năng nhất của mình sau này"
+        },
+        {
+          "zh": "就是大学啊。",
+          "vi": "chính là trường đại học."
+        }
+      ]
+    },
+    "207": {
+      "zh": "然后国内的大学现在也是就是我们刚刚说的问题，竞争越来越激烈。",
+      "parts": [
+        {
+          "zh": "然后国内的大学现在也是",
+          "vi": "Mà đại học trong nước bây giờ cũng"
+        },
+        {
+          "zh": "就是我们刚刚说的问题，",
+          "vi": "chính là vấn đề chúng ta vừa nói,"
+        },
+        {
+          "zh": "竞争越来越激烈。",
+          "vi": "cạnh tranh ngày càng gay gắt."
+        }
+      ]
+    },
+    "208": {
+      "zh": "我认为大学可能比普通的这种公司。这一点还更严重，尤其是因为出国留学的人越来越多，高学历的人越来越多，",
+      "parts": [
+        {
+          "zh": "我认为大学可能",
+          "vi": "Mình nghĩ đại học có lẽ"
+        },
+        {
+          "zh": "比普通的这种公司。这一点还更严重，",
+          "vi": "so với kiểu công ty bình thường, điểm này còn nghiêm trọng hơn,"
+        },
+        {
+          "zh": "尤其是因为出国留学的人越来越多，",
+          "vi": "nhất là vì người đi du học ngày càng nhiều,"
+        },
+        {
+          "zh": "高学历的人越来越多，",
+          "vi": "người có bằng cấp cao ngày càng nhiều,"
+        }
+      ]
+    },
+    "210": {
+      "zh": "然后大学就是很看重你的学历和你的学校这种，所以第一竞争很大，第二压力也很大啊。",
+      "parts": [
+        {
+          "zh": "然后大学就是很看重",
+          "vi": "mà đại học thì rất coi trọng"
+        },
+        {
+          "zh": "你的学历和你的学校这种，",
+          "vi": "bằng cấp và trường của bạn các kiểu,"
+        },
+        {
+          "zh": "所以第一竞争很大，",
+          "vi": "nên thứ nhất cạnh tranh rất lớn,"
+        },
+        {
+          "zh": "第二压力也很大啊。",
+          "vi": "thứ hai áp lực cũng rất lớn."
+        }
+      ]
+    },
+    "211": {
+      "zh": "然后我这个人是很看重压力大不大的，我需要一个压力不大的环境，所以我个人还是更偏向于。",
+      "parts": [
+        {
+          "zh": "然后我这个人",
+          "vi": "Mà con người mình"
+        },
+        {
+          "zh": "是很看重压力大不大的，",
+          "vi": "rất coi trọng áp lực có lớn hay không,"
+        },
+        {
+          "zh": "我需要一个压力不大的环境，",
+          "vi": "mình cần một môi trường không nhiều áp lực,"
+        },
+        {
+          "zh": "所以我个人还是更偏向于。",
+          "vi": "nên cá nhân mình vẫn nghiêng về"
+        }
+      ]
+    },
+    "212": {
+      "zh": "以后可能在啊国外寻找到一个职位，不过那也还是过后毕业了之后才能确定的",
+      "parts": [
+        {
+          "zh": "以后可能在啊国外寻找到一个职位，",
+          "vi": "sau này có lẽ, à, tìm một vị trí ở nước ngoài,"
+        },
+        {
+          "zh": "不过那也还是过后",
+          "vi": "nhưng cái đó cũng phải để sau,"
+        },
+        {
+          "zh": "毕业了之后才能确定的",
+          "vi": "tốt nghiệp xong mới quyết được"
+        }
+      ]
+    },
+    "213": {
+      "zh": "事情。",
+      "vi": "chuyện đó."
+    },
+    "214": {
+      "zh": "嗯，好好好，好的，那谢谢你，那我们下次再见，拜拜，拜拜。",
+      "parts": [
+        {
+          "zh": "嗯，好好好，好的，那谢谢你，",
+          "vi": "Ừm, được được được, được rồi, vậy cảm ơn cậu,"
+        },
+        {
+          "zh": "那我们下次再见，拜拜，拜拜。",
+          "vi": "hẹn gặp lại lần sau, bye bye, bye bye."
+        }
+      ]
+    }
+  }
+}
