@@ -1,0 +1,20 @@
+{
+  "channels": [
+    {
+      "prefix": "MC",
+      "title": "Mandarin Corner",
+      "channelId": "UC2fAiRQHRQT9aj9P_ijYeow",
+      "videos": [
+        {
+          "id": "MC20200914",
+          "title": "6 Cultural Aspects You Must Consider When Doing Business In China - Intermediate Chinese",
+          "guid": "G2oPClnoJpg",
+          "link": "https://www.youtube.com/watch?v=G2oPClnoJpg",
+          "pubDate": "2020-09-14",
+          "duration": 2758,
+          "m4a": "https://storyfm-audio.luanphungba.workers.dev/MC20200914.m4a"
+        }
+      ]
+    }
+  ]
+}

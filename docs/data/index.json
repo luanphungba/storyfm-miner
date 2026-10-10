@@ -228,6 +228,14 @@
       "owner": "Dashu Mandarin Podcast"
     },
     {
+      "id": "MC20200914",
+      "title": "6 Cultural Aspects You Must Consider When Doing Business In China - Intermediate Chinese",
+      "pubDate": "2020-09-14",
+      "duration": 2758,
+      "source": "podcast",
+      "owner": "Mandarin Corner"
+    },
+    {
       "id": "UI1",
       "title": "设置 · iOS 26",
       "pubDate": "2026-10-03",
@@ -284,7 +292,8 @@
       "zh": "职场",
       "about": "Văn hoá công sở, phỏng vấn, sếp, ý nghĩa của công việc",
       "episodes": [
-        "CC19"
+        "CC19",
+        "MC20200914"
       ],
       "planned": [
         {

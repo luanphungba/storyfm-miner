@@ -1,0 +1,148 @@
+{
+  "episode": "MC20200914",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-10",
+  "fixes": [
+    {
+      "cueIndex": 28,
+      "before": "Be ck",
+      "after": "Beck",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 28,
+      "before": "ck y",
+      "after": "cky",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 182,
+      "before": "CE O",
+      "after": "CEO",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 690,
+      "before": "Be ck",
+      "after": "Beck",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 690,
+      "before": "ck y",
+      "after": "cky",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 692,
+      "before": "V icky",
+      "after": "Vicky",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 2,
+      "before": "mandar inc or ner. org",
+      "after": "mandarincorner.org",
+      "source": "llm-review",
+      "reason": "The show's site, as the video description gives it; the ASR (set to zh) split the English address into fragments.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 3,
+      "before": "video 's",
+      "after": "video's",
+      "source": "llm-review",
+      "reason": "Possessive split off its word by the zh ASR.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 59,
+      "before": "共棒之下出孝子",
+      "after": "棍棒之下出孝子",
+      "source": "llm-review",
+      "reason": "共棒 isn't a word; follows 孩子不打不成才 — the idiom 棍棒之下出孝子. 共 at 0.23 confidence.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 278,
+      "before": "因为我们结婚嘛",
+      "after": "因为我没结婚嘛",
+      "source": "llm-review",
+      "reason": "She enjoys the custom because married colleagues give the unmarried red envelopes (next sentence: 收好多红包); whisper medium hears 因为我没有结婚.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 388,
+      "before": "花城北",
+      "after": "华强北",
+      "source": "llm-review",
+      "reason": "Same visit as sentence 382, which names 深圳华强北; whisper hears 华…北.",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 682,
+      "before": "徐怀玉",
+      "after": "徐怀钰",
+      "source": "llm-review",
+      "reason": "《向前冲》 is 徐怀钰's 1998 dance hit (Baidu Baike, NetEase Music).",
+      "appliedAt": "2026-10-10"
+    },
+    {
+      "cueIndex": 692,
+      "before": "Vicky",
+      "after": "Becky",
+      "source": "llm-review",
+      "reason": "The guest is Becky throughout (27, 690); whisper hears Beggy, V at 0.26 confidence.",
+      "appliedAt": "2026-10-10"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 79,
+      "text": "租车可以开出哦，对，",
+      "reason": "Eileen's quip that a car can be driven out (unlike a house); 租车 and 出哦 read wrong but whisper only paraphrases (我们可以开车,但我们不能开房子). Left as heard."
+    },
+    {
+      "cueIndex": 80,
+      "text": "房子对客车可以开出去啊，但房子我们开不出去嘛，搬过去呃，对啊，",
+      "reason": "Likely 对，车可以开出去啊，但房子我们开不出去嘛，搬不过去; 房子对客 and 搬过去 uncertain."
+    },
+    {
+      "cueIndex": 216,
+      "text": "他也他也不会当面去呃申请，呃不会",
+      "reason": "申请 does not fit (当面去…拒绝/生气?) but ASR and whisper both hear 申请."
+    },
+    {
+      "cueIndex": 233,
+      "text": "在德国留学的中学生画的一本书叫叫《东西差异》",
+      "reason": "Probably 刘扬's pictogram book 《东西相遇》 (Ost trifft West), but the speaker may have named it 东西差异 herself."
+    },
+    {
+      "cueIndex": 282,
+      "text": "为什么我没有碰到这么好的礼品？",
+      "reason": "whisper hears 立派 — possibly 利是 (Cantonese red envelope) or 礼节; unresolved."
+    },
+    {
+      "cueIndex": 320,
+      "text": "然后我们这个礼物才会进来给他。",
+      "reason": "进来 reads wrong (寄过去? 送过去?); whisper hears 订了这个礼物给他."
+    },
+    {
+      "cueIndex": 680,
+      "text": "上的时候跳舞出班。",
+      "reason": "出班 is not a word (上班?); whisper drops it."
+    }
+  ]
+}
