@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parsePodcastFeed, defaultPrefix, keepHosted } from '../src/podcasts.js';
+import { parsePodcastFeed, defaultPrefix, checkPrefix, keepHosted } from '../src/podcasts.js';
 
 const item = (title, date, duration = '120') => `<item><title><![CDATA[${title}]]></title>
 <link>https://open.firstory.fm/story/x</link><guid isPermaLink="false">g-${title}</guid>
@@ -25,6 +25,13 @@ ${item('EPISODE 1 | Trailer', 'Tue, 27 Apr 2021 20:51:29 GMT', '1:00:05')}
 test('the default prefix is the initials of the Latin words', () => {
   assert.equal(defaultPrefix('瞎扯学中文 Convo Chinese'), 'CC');
   assert.equal(defaultPrefix('故事FM'), 'F'); // too short: syncShow then asks for --prefix
+});
+
+test("a prefix is 2–4 letters, never 故事FM's E or Bilibili's BV, and no other show's", () => {
+  const others = [{ prefix: 'CC', title: '瞎扯学中文 Convo Chinese' }];
+  assert.equal(checkPrefix('dmp', others), 'DMP');
+  for (const prefix of ['F', 'ABCDE', 'C1', 'E', 'bv']) assert.throws(() => checkPrefix(prefix, others), /2–4 chữ cái/, prefix);
+  assert.throws(() => checkPrefix('cc', others), /CC đã dùng cho "瞎扯学中文 Convo Chinese"/);
 });
 
 test('a re-synced feed keeps the copies already hosted', () => {

@@ -12,6 +12,7 @@ import { paths } from './paths.js';
 import { loadFeed } from './feed.js';
 import { loadBilibiliEpisodes } from './bilibili.js';
 import { loadPodcastEpisodes } from './podcasts.js';
+import { loadYoutubeEpisodes } from './youtube.js';
 import { loadUiEpisodes } from './ui.js';
 import { transcribe } from './asr.js';
 import { toSentences, punctuationRate } from './segment.js';
@@ -41,19 +42,24 @@ const formatDuration = (/** @type {number} */ seconds) =>
 
 /**
  * A 故事FM episode from the feed, a Bilibili video from data/bilibili.json, another podcast's
- * episode from data/podcasts.json, or an app interface from data/ui.json.
+ * episode from data/podcasts.json, a YouTube video from data/youtube.json — heard as a podcast
+ * episode — or an app interface from data/ui.json.
  * @typedef {import('./feed.js').Episode
  *   | (import('./bilibili.js').Video & { guid: string, source: 'bilibili' })
  *   | (import('./podcasts.js').PodcastEpisode & { source: 'podcast', owner: string })
+ *   | (import('./youtube.js').YoutubeVideo & { source: 'podcast', owner: string })
  *   | (import('./ui.js').UiEpisode & { guid: string, source: 'ui' })} Source
  */
 
 /** The audio URL AssemblyAI fetches and the player plays. */
 const audioUrl = (/** @type {Source} */ episode) => ('m4a' in episode ? episode.m4a : episode.mp3);
 
-/** Every episode that can be built, 故事FM's, Bilibili's, the other podcasts' and the app interfaces alike. */
+/** Every episode that can be built, 故事FM's, Bilibili's, the other podcasts', YouTube's and the app interfaces alike. */
 export async function loadEpisodes() {
-  return [...(await loadFeed()), ...(await loadBilibiliEpisodes()), ...(await loadPodcastEpisodes()), ...(await loadUiEpisodes())];
+  return [
+    ...(await loadFeed()), ...(await loadBilibiliEpisodes()), ...(await loadPodcastEpisodes()),
+    ...(await loadYoutubeEpisodes()), ...(await loadUiEpisodes()),
+  ];
 }
 
 /**
@@ -259,7 +265,7 @@ function report(id, cues) {
   console.log(`\nXem thử:  npm run serve  →  http://localhost:8080/player.html?ep=${id}`);
 }
 
-/** The index is derived from the feed, data/bilibili.json, data/podcasts.json and data/ui.json so titles and dates have exactly one source;
+/** The index is derived from the feed, data/bilibili.json, data/podcasts.json, data/youtube.json and data/ui.json so titles and dates have exactly one source;
  * its topics from data/topics.json. */
 export async function rebuildIndex() {
   const episodes = await loadEpisodes();

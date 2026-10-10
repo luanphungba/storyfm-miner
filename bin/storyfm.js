@@ -89,6 +89,21 @@ async function bili(/** @type {string[]} */ argv) {
   await buildEpisode(episode, { force: values.force, narrator: values.narrator });
 }
 
+async function youtube(/** @type {string[]} */ argv) {
+  const { values, positionals } = parseArgs({
+    args: argv,
+    allowPositionals: true,
+    options: { prefix: { type: 'string' }, narrator: { type: 'string' } },
+  });
+  const [link] = positionals;
+  if (!link) throw new Error('Thiếu link. Ví dụ: storyfm youtube https://www.youtube.com/watch?v=G2oPClnoJpg');
+
+  const { importVideo } = await import('../src/youtube.js');
+  const { buildEpisode, loadEpisodes } = await import('../src/build.js');
+  const video = await importVideo(link, values.prefix);
+  await buildEpisode(findEpisode(await loadEpisodes(), video.id), { narrator: values.narrator });
+}
+
 async function podcast(/** @type {string[]} */ argv) {
   const { values, positionals } = parseArgs({
     args: argv,
@@ -164,7 +179,7 @@ async function models() {
   }
 }
 
-const COMMANDS = { sync, list, add, bili, podcast, topics, models };
+const COMMANDS = { sync, list, add, bili, youtube, podcast, topics, models };
 
 const USAGE = `storyfm — transcript cho 故事FM
 
@@ -178,6 +193,10 @@ const USAGE = `storyfm — transcript cho 故事FM
   storyfm bili <link|BV…>       tải audio Bilibili, đẩy lên Pages, transcribe
                                 video nhiều phần: mỗi phần một tập, BV…-p2 (hoặc link có ?p=2)
                                 (sau đó dùng add BV… --resegment như tập thường)
+
+  storyfm youtube <link>        chỉ lấy audio một video YouTube, nghe như một tập podcast của kênh đó
+    --prefix MC                 mã đầu cho video đầu tiên của kênh mới (mặc định: chữ đầu tên kênh)
+                                mã tập là prefix + ngày đăng: MC20200914 (sau đó dùng add như tập thường)
 
   storyfm podcast <link>        thêm một podcast khác (link Spotify / Apple / Firstory / RSS);
                                 audio được nén lại và đẩy lên Cloudflare trước khi transcribe

@@ -33,6 +33,25 @@ export async function assertFits(/** @type {string} */ file) {
 }
 
 /**
+ * Re-encodes `source` into `file`, an m4a the Worker takes. 64k mono AAC is plenty for two people
+ * talking, and 15 MB for 30 minutes. An episode too long for that to fit (TW20200703, 54 minutes, is
+ * 25.4 MiB) gets the highest of 56k, 48k or 32k that does, read off the file, since AAC runs a few
+ * percent over its rate: measured on that episode, 56k and 48k keep every band 64k does, up to the 15 kHz
+ * the feed's mp3 stops at.
+ * @param {string} source  Any audio ffmpeg reads.
+ * @param {string} file
+ */
+export async function compressAudio(source, file) {
+  for (const kbps of [64, 56, 48, 32]) {
+    await promisify(execFile)('ffmpeg', ['-v', 'error', '-y', '-i', source, '-vn', '-ac', '1', '-c:a', 'aac', '-b:a', `${kbps}k`, '-movflags', '+faststart', `${file}.tmp.m4a`]);
+    if (await fits(`${file}.tmp.m4a`)) break;
+    console.log(`  ${kbps}k vượt 25 MiB của Cloudflare, nén lại nhỏ hơn…`);
+  }
+  await rename(`${file}.tmp.m4a`, file);
+  await assertFits(file);
+}
+
+/**
  * Makes data/audio/<id>.mp3 from the m4a, unless one at least as new is already there. CBR, whose
  * header lets Chrome compute where a time lies, unlike the VBR mp3s of podcast feeds (up to 6s off
  * in Anki); and without the bit reservoir, since a frame that borrows bits from earlier ones cannot

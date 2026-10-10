@@ -26,6 +26,8 @@ export const paths = {
   bilibili: join(ROOT, 'data', 'bilibili.json'),
   /** The other podcasts added and a snapshot of each one's episodes — see src/podcasts.js. */
   podcasts: join(ROOT, 'data', 'podcasts.json'),
+  /** The YouTube channels added and the videos added from each — see src/youtube.js. */
+  youtube: join(ROOT, 'data', 'youtube.json'),
   /** The app interfaces added as episodes — see src/ui.js. */
   ui: join(ROOT, 'data', 'ui.json'),
   /** The episodes of each topic, in the order to study them — see src/topics.js. */
@@ -38,7 +40,7 @@ export const paths = {
   shotImages: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.shots`),
   /** Each piece of an interface episode as the voice read it, kept so a rebuild never pays twice. */
   tts: join(ROOT, 'tools', '.cache', 'tts'),
-  /** Audio hosted on the storyfm-audio Worker (Bilibili's, other podcasts'), kept out of git. */
+  /** Audio hosted on the storyfm-audio Worker (Bilibili's, YouTube's, other podcasts'), kept out of git. */
   audio: (/** @type {string} */ id) => join(ROOT, 'data', 'audio', `${id}.m4a`),
   episode: (/** @type {string} */ id) => join(ROOT, 'docs', 'data', `${id}.json`),
   /** What the page loads of the translation — see src/translations.js. */

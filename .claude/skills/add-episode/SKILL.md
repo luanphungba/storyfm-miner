@@ -15,7 +15,7 @@ description: >
   link and asks for it to be added — even if they don't spell out the steps.
   Also covers other podcasts (瞎扯学中文 Convo Chinese and any show with an
   RSS feed): a Spotify, Apple Podcasts or Firstory episode/show link, or an
-  id like CC119.
+  id like CC119. And a YouTube video link added as audio only, "như podcast".
   Do not just run `storyfm add` directly for a xiaoyuzhoufm link without this
   skill's id-resolution and quality-check steps.
 ---
@@ -59,6 +59,15 @@ URL — there's no code in this repo that talks to xiaoyuzhoufm directly, and �
    directory (`https://itunes.apple.com/search?media=podcast&term=<show>` → `feedUrl`, for these
    usually `feed.xyzfm.space/…`), check the episode's `<guid>` in that feed is the id in the link,
    and run `storyfm podcast <feed>`. An unnumbered episode's id is the prefix plus its pubDate.
+   **A YouTube link** (watch, youtu.be, shorts) is heard as audio only, as an episode of its
+   channel's show: first look the channel up in Apple's directory, and if it has an RSS feed with
+   this episode, use `storyfm podcast` as above. If not (Mandarin Corner has none), run
+   `storyfm youtube <link>`: it reads the video with the latest yt-dlp (`uvx yt-dlp@latest`; an
+   installed copy goes stale within months), hosts the audio like a podcast's, and transcribes it.
+   The id is the channel's prefix plus the upload date (MC20200914); a channel's first video takes
+   `--prefix XX` when its name has no Latin initials. It replaces step 2's `add`; carry on from
+   "Put back the words". A channel's own spoken intro or ad in English is transcribed too —
+   cut it by phrase, leave it out of the 15-character rule, and give it its own first chapter.
 4. If nothing matches — the episode isn't in 故事FM's feed yet, or the titles disagree enough that
    you're not sure — **stop and ask the user** rather than guessing an id. A wrong id transcribes
    the wrong episode and costs real AssemblyAI money to undo.

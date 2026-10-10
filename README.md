@@ -28,6 +28,8 @@ storyfm add E077 --resegment  # rebuild from data/raw + onsets + corrections + c
 storyfm add E077 --narrator B # override which speaker is the host
 storyfm podcast <link>        # add another podcast from a Spotify / Apple / Firstory / RSS link and list its
                               # episodes (ids like CC119); a link to one episode transcribes it
+storyfm youtube <link>        # a YouTube video's audio only, heard as an episode of its channel's show
+                              # (ids like MC20200914: prefix + upload date); needs uv and ffmpeg
 
 npm test                      # unit tests
 npm run serve                 # http://localhost:8080
@@ -63,6 +65,7 @@ RSS (data/feed.xml)
 |---|---|
 | `src/feed.js` | Fetch and parse the RSS feed — the source of truth for ids, titles and audio URLs |
 | `src/podcasts.js` | Other podcasts: turn a Spotify / Apple / Firstory link into the show's RSS, snapshot its episodes into `data/podcasts.json`, id them `<prefix><number>` (CC119) |
+| `src/youtube.js` | YouTube videos as podcast episodes: fetch the audio with the latest yt-dlp (via uvx), host it like a podcast's, record the channel and video in `data/youtube.json`, id it `<prefix><upload date>` (MC20200914) |
 | `src/cdn.js` | The `storyfm-audio` Worker (`cdn/`) that serves audio we host: Bilibili's, and every other podcast's re-encoded to m4a — Firstory's mp3s have a VBR Xing header that Chrome seeks up to 4s off |
 | `src/asr.js` | AssemblyAI: submit `audio_url`, poll until done |
 | `src/onsets.js` | AssemblyAI gives some words no length and parks them on the next word, so a line starting on one skips its first syllable (就是装修… plays as 装修…). Moves each such word back to the end of the pause before it, as `data/onsets/` says. Pure, tested |

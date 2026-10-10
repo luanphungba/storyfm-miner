@@ -19,13 +19,11 @@
 // Convo Chinese) and none of that is used. Episode ids are the show's prefix plus the number in the
 // title ("Episode 119 | …" → CC119); an unnumbered one falls back to the date, as in 故事FM.
 
-import { readFile, writeFile, mkdir, rename, rm } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { execFile } from 'node:child_process';
 import { dirname } from 'node:path';
-import { promisify } from 'node:util';
 import { paths } from './paths.js';
-import { publishAudio, assertFits, fits } from './cdn.js';
+import { publishAudio, compressAudio } from './cdn.js';
 
 /** Spotify answers a full browser user agent with an empty web-player shell; this gets the real page. */
 const UA = 'Mozilla/5.0';
@@ -160,6 +158,22 @@ export function defaultPrefix(/** @type {string} */ title) {
   return (title.match(/\b[A-Za-z]/g) ?? []).join('').toUpperCase().slice(0, 4);
 }
 
+/**
+ * The prefix in capitals, once it is sure to start ids no other show's can: 2–4 letters, not 故事FM's E
+ * or Bilibili's BV, and not one of `others`'.
+ * @param {string} prefix
+ * @param {{ prefix: string, title: string }[]} others
+ */
+export function checkPrefix(prefix, others) {
+  const chosen = prefix.toUpperCase();
+  if (!/^[A-Z]{2,4}$/.test(chosen) || chosen === 'BV' || chosen === 'E') {
+    throw new Error(`Cần một prefix 2–4 chữ cái cho show này (khác E, BV): --prefix XX`);
+  }
+  const clash = others.find((other) => other.prefix === chosen);
+  if (clash) throw new Error(`Prefix ${chosen} đã dùng cho "${clash.title}". Chọn prefix khác: --prefix XX`);
+  return chosen;
+}
+
 /** @returns {Promise<Show[]>} */
 export async function loadShows() {
   if (!existsSync(paths.podcasts)) return [];
@@ -185,12 +199,7 @@ export async function syncShow(feed, prefix) {
   const xml = await response.text();
   if (!/<rss[\s>]/.test(xml)) throw new Error(`${feed} không phải RSS.`);
 
-  const chosen = (known?.prefix ?? prefix ?? defaultPrefix(parsePodcastFeed(xml, '').title)).toUpperCase();
-  if (!/^[A-Z]{2,4}$/.test(chosen) || chosen === 'BV' || chosen === 'E') {
-    throw new Error(`Cần một prefix 2–4 chữ cái cho show này (khác E, BV): --prefix XX`);
-  }
-  const clash = shows.find((show) => show.prefix === chosen && show.feed !== feed);
-  if (clash) throw new Error(`Prefix ${chosen} đã dùng cho "${clash.title}". Chọn prefix khác: --prefix XX`);
+  const chosen = checkPrefix(known?.prefix ?? prefix ?? defaultPrefix(parsePodcastFeed(xml, '').title), shows.filter((show) => show.feed !== feed));
 
   const { title, episodes } = parsePodcastFeed(xml, chosen);
   const show = { prefix: chosen, title, feed, episodes: keepHosted(known?.episodes ?? [], episodes) };
@@ -221,12 +230,9 @@ export function keepHosted(known, fresh) {
  * URL in data/podcasts.json. Returns that URL.
  *
  * A remux that only dropped the Xing header would seek exactly too (the stream itself is CBR), but at
- * 128k stereo most episodes are over Cloudflare's 25 MiB. 64k mono AAC is plenty for two people
- * talking, and 15 MB for 30 minutes. An episode too long for that to fit (TW20200703, 54 minutes, is
- * 25.4 MiB) gets the highest of 56k, 48k or 32k that does, read off the file, since AAC runs a few
- * percent over its rate: measured on that episode, 56k and 48k keep every band 64k does, up to the 15 kHz
- * the feed's mp3 stops at. The re-encode keeps the mp3's timeline — the transcript's timestamps —
- * to within 15ms, measured by seeking the copy in Chrome and matching what it played to the mp3.
+ * 128k stereo most episodes are over Cloudflare's 25 MiB, so it is re-encoded (compressAudio). The
+ * re-encode keeps the mp3's timeline — the transcript's timestamps — to within 15ms, measured by
+ * seeking the copy in Chrome and matching what it played to the mp3.
  * @param {PodcastEpisode} episode
  */
 export async function hostAudio(episode) {
@@ -238,16 +244,10 @@ export async function hostAudio(episode) {
   const mp3 = `${file}.mp3`;
   await writeFile(mp3, Buffer.from(await response.arrayBuffer()));
   try {
-    for (const kbps of [64, 56, 48, 32]) {
-      await promisify(execFile)('ffmpeg', ['-v', 'error', '-y', '-i', mp3, '-vn', '-ac', '1', '-c:a', 'aac', '-b:a', `${kbps}k`, '-movflags', '+faststart', `${file}.tmp.m4a`]);
-      if (await fits(`${file}.tmp.m4a`)) break;
-      console.log(`  ${kbps}k vượt 25 MiB của Cloudflare, nén lại nhỏ hơn…`);
-    }
-    await rename(`${file}.tmp.m4a`, file);
+    await compressAudio(mp3, file);
   } finally {
     await rm(mp3, { force: true });
   }
-  await assertFits(file);
 
   const m4a = await publishAudio(episode.id);
   const shows = await loadShows();
