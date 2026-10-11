@@ -17,6 +17,7 @@ import { dirname } from 'node:path';
 import { paths } from '../src/paths.js';
 import { toSentences, joinWords } from '../src/segment.js';
 import { applyFixes, planFromMarks, splitSentence } from '../src/cuts.js';
+import { withOnsets } from '../src/build.js';
 
 /** A line past this many characters (punctuation not counted) is still too long to mine. */
 const LONG = 15;
@@ -42,7 +43,8 @@ async function load(/** @type {string} */ id) {
   for (const fix of ledger.fixes) fixes.set(fix.cueIndex, [...(fixes.get(fix.cueIndex) ?? []), fix]);
   const plan = await readJson(paths.cuts(id), { episode: id, cuts: {}, joins: [] });
   plan.joins ??= [];
-  return { sentences: toSentences(raw.words ?? []), fixes, plan };
+  // The words as the build times them: a run data/onsets/ spread out has audio to cut in.
+  return { sentences: toSentences(await withOnsets(id, raw.words ?? [])), fixes, plan };
 }
 
 /** The fixed sentence with "/" where the saved plan cuts it. */
