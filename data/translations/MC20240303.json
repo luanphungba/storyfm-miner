@@ -1,0 +1,5313 @@
+{
+  "episode": "MC20240303",
+  "summary": [
+    "Đây là một video của kênh Mandarin Corner, ở đây chỉ lấy phần âm thanh. Người dẫn Eileen trò chuyện với Jonas về văn hóa bàn nhậu (酒桌文化) của người Trung Quốc. Gần một phút đầu là lời giới thiệu bằng tiếng Anh của kênh.",
+    "Jonas kể người Trung Quốc chủ yếu uống rượu trắng (白酒), loại 53 độ nổi tiếng nhờ Mao Đài Phi Thiên, và lần đầu anh uống rượu trắng là ở đám cưới một bạn học hồi cấp ba, say đến mức mẹ hỏi rốt cuộc là ai cưới. Hai người bàn vì sao rượu quan trọng: đàn ông nhờ rượu mà giãi bày được lòng mình, đồng nghiệp nhờ rượu mà kể chuyện nội bộ công ty, sếp dùng tiệc rượu để thử lòng cấp dưới (như tích Triệu Khuông Dận \"nâng chén rượu tước binh quyền\"), và nhiều khi chén rượu quyết định cả một đơn hàng.",
+    "Rồi họ nói về các quy tắc: ghế chủ đối diện cửa, rót rượu tám phần, gõ hai ngón tay lên bàn để cảm ơn (tích vua Càn Long vi hành), hạ ly thấp hơn khi chạm cốc, thứ tự mời rượu, và chuyện một nữ minh tinh mời rượu mà không uống. Tiếp đó là dịch vụ uống thuê, luật buộc người cùng bàn đưa người say về nhà, văn hóa ép rượu mà Eileen ghét nhất cùng mẹo né rượu, khác biệt Bắc – Nam, cách uống ở Hàn Quốc và Nhật Bản. Cuối cùng, nhắc lại vụ bê bối ở Alibaba, họ bàn xem thế hệ trẻ có làm văn hóa bàn nhậu phai nhạt dần không."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "Welcome to another Mandarin Corner video. For more",
+      "vi": "Chào mừng các bạn đến với một video nữa của Mandarin Corner. Với các bạn"
+    },
+    "1": {
+      "zh": "advanced students,",
+      "vi": "trình độ cao hơn,"
+    },
+    "2": {
+      "zh": "you can watch this video without English subtitles",
+      "parts": [
+        {
+          "zh": "you can watch this video ",
+          "vi": "các bạn có thể xem video này"
+        },
+        {
+          "zh": "without English subtitles",
+          "vi": "mà không có phụ đề tiếng Anh"
+        }
+      ]
+    },
+    "3": {
+      "zh": "at mandarincorner",
+      "vi": "tại mandarincorner"
+    },
+    "4": {
+      "zh": ".org.",
+      "vi": ".org."
+    },
+    "5": {
+      "zh": "To access our premium content,",
+      "vi": "Để truy cập nội dung trả phí của chúng tôi,"
+    },
+    "6": {
+      "zh": "which includes downloads of all our videos,",
+      "vi": "gồm cả tải về tất cả video,"
+    },
+    "7": {
+      "zh": "audio files, PDFs,",
+      "vi": "file âm thanh, PDF,"
+    },
+    "8": {
+      "zh": "and transcripts in different versions such as with",
+      "vi": "và bản chép lời ở nhiều phiên bản, như có"
+    },
+    "9": {
+      "zh": "English, without English, Hanzi only,",
+      "parts": [
+        {
+          "zh": "English, without English, ",
+          "vi": "tiếng Anh, không có tiếng Anh,"
+        },
+        {
+          "zh": "Hanzi only,",
+          "vi": "chỉ có chữ Hán,"
+        }
+      ]
+    },
+    "10": {
+      "zh": "and with traditional characters,",
+      "vi": "và có chữ phồn thể,"
+    },
+    "11": {
+      "zh": "as well as being able to drill our content with flash cards, including our HSK sentences,",
+      "parts": [
+        {
+          "zh": "as well as being able to drill ",
+          "vi": "cũng như được luyện"
+        },
+        {
+          "zh": "our content with flash cards, ",
+          "vi": "nội dung của chúng tôi bằng flashcard,"
+        },
+        {
+          "zh": "including our HSK sentences,",
+          "vi": "gồm cả các câu HSK,"
+        }
+      ]
+    },
+    "13": {
+      "zh": "survival Chinese sentences,",
+      "vi": "các câu tiếng Trung sinh tồn,"
+    },
+    "14": {
+      "zh": "and Chinese characters. Consider becoming a lifetime",
+      "parts": [
+        {
+          "zh": "and Chinese characters. ",
+          "vi": "và chữ Hán."
+        },
+        {
+          "zh": "Consider becoming a lifetime",
+          "vi": "Hãy cân nhắc trở thành"
+        }
+      ]
+    },
+    "15": {
+      "zh": "member with just a one time donation. Links to donate",
+      "vi": "thành viên trọn đời chỉ với một lần ủng hộ. Link ủng hộ"
+    },
+    "16": {
+      "zh": "are below.",
+      "vi": "ở bên dưới."
+    },
+    "17": {
+      "zh": "大家好，欢迎来到Mandarin Corner的播客节目。",
+      "parts": [
+        {
+          "zh": "大家好，欢迎来到",
+          "vi": "Chào mọi người, chào mừng đến với"
+        },
+        {
+          "zh": "Mandarin Corner的播客节目。",
+          "vi": "chương trình podcast của Mandarin Corner."
+        }
+      ]
+    },
+    "18": {
+      "zh": "我是艾琳。",
+      "vi": "Mình là Eileen."
+    },
+    "19": {
+      "zh": "大家好，我是Jonas。",
+      "vi": "Chào mọi người, mình là Jonas."
+    },
+    "20": {
+      "zh": "今天呢，我们要来聊的是酒桌文化啊。",
+      "vi": "Hôm nay, chúng mình sẽ nói về văn hóa bàn nhậu nhé."
+    },
+    "21": {
+      "zh": "呃，那说到酒桌文化呢，肯定就是呃关于喝酒的。",
+      "parts": [
+        {
+          "zh": "呃，那说到酒桌文化呢，",
+          "vi": "Ờ, nói đến văn hóa bàn nhậu,"
+        },
+        {
+          "zh": "肯定就是呃关于喝酒的。",
+          "vi": "thì chắc chắn là, ờ, chuyện uống rượu rồi."
+        }
+      ]
+    },
+    "22": {
+      "zh": "那像我们中国人在酒桌上一般喝什么样的酒呢？",
+      "parts": [
+        {
+          "zh": "那像我们中国人在酒桌上",
+          "vi": "Vậy người Trung Quốc chúng mình trên bàn nhậu"
+        },
+        {
+          "zh": "一般喝什么样的酒呢？",
+          "vi": "thường uống loại rượu gì?"
+        }
+      ]
+    },
+    "23": {
+      "zh": "嗯，我们经常喝的是白酒。",
+      "vi": "Ừm, bọn mình hay uống rượu trắng."
+    },
+    "24": {
+      "zh": "然后啤酒喝的就比较少了，喝白酒的都会说：“那啤酒是啥？",
+      "parts": [
+        {
+          "zh": "然后啤酒喝的就比较少了，",
+          "vi": "Còn bia thì uống ít hơn,"
+        },
+        {
+          "zh": "喝白酒的都会说：“那啤酒是啥？",
+          "vi": "dân uống rượu trắng sẽ bảo: \"Bia là cái gì chứ?"
+        }
+      ]
+    },
+    "25": {
+      "zh": "啤酒不就是小麦汁饮料啊？”",
+      "vi": "Bia chẳng phải chỉ là nước lúa mì thôi à?\""
+    },
+    "26": {
+      "zh": "这个也是我们中国人一个鄙视链吧，就是喝白酒的他看不上喝啤酒的，",
+      "parts": [
+        {
+          "zh": "这个也是我们中国人一个鄙视链吧，",
+          "vi": "Đây cũng là một kiểu \"chuỗi coi thường\" của người Trung Quốc,"
+        },
+        {
+          "zh": "就是喝白酒的他看不上喝啤酒的，",
+          "vi": "tức là dân uống rượu trắng coi thường dân uống bia,"
+        }
+      ]
+    },
+    "27": {
+      "zh": "然后喝啤酒的他看不上喝果酒的，但是可能喝果酒的他能管得住喝白",
+      "parts": [
+        {
+          "zh": "然后喝啤酒的他看不上喝果酒的，",
+          "vi": "rồi dân uống bia coi thường dân uống rượu trái cây,"
+        },
+        {
+          "zh": "但是可能喝果酒的他能管得住喝白",
+          "vi": "nhưng có khi dân uống rượu trái cây lại trị được dân uống rượu"
+        }
+      ]
+    },
+    "28": {
+      "zh": "酒的啊？",
+      "vi": "trắng đấy?"
+    },
+    "29": {
+      "zh": "为什么这么说？",
+      "vi": "Sao lại nói vậy?"
+    },
+    "30": {
+      "zh": "因为喝",
+      "vi": "Vì người uống"
+    },
+    "31": {
+      "zh": "果酒的可能是喝白酒的老婆，然后。",
+      "vi": "rượu trái cây có khi là vợ của người uống rượu trắng, thế là."
+    },
+    "32": {
+      "zh": "因为中国嘛，可能老婆当家做主的比较多一点。",
+      "parts": [
+        {
+          "zh": "因为中国嘛，",
+          "vi": "Vì ở Trung Quốc mà,"
+        },
+        {
+          "zh": "可能老婆当家做主的比较多一点。",
+          "vi": "có khi vợ làm chủ trong nhà thì nhiều hơn một chút."
+        }
+      ]
+    },
+    "33": {
+      "zh": "那白酒一般是多少度的呀？",
+      "vi": "Thế rượu trắng thường bao nhiêu độ?"
+    },
+    "34": {
+      "zh": "大概就是在一十八度到七十八度嘛。",
+      "vi": "Khoảng từ 18 độ đến 78 độ."
+    },
+    "35": {
+      "zh": "然后平常我们喝的最多的也就是五十三度的白",
+      "parts": [
+        {
+          "zh": "然后平常我们喝的最多的",
+          "vi": "Rồi bình thường loại bọn mình uống nhiều nhất"
+        },
+        {
+          "zh": "也就是五十三度的白",
+          "vi": "cũng chính là loại 53 độ"
+        }
+      ]
+    },
+    "36": {
+      "zh": "酒。",
+      "vi": "rượu trắng."
+    },
+    "37": {
+      "zh": "你第一次喝白酒是什么感觉？",
+      "vi": "Lần đầu uống rượu trắng bạn thấy thế nào?"
+    },
+    "38": {
+      "zh": "就火辣辣的嘛，就比较冲喉咙。",
+      "vi": "Thì nóng rát ấy, khá là sộc lên cổ họng."
+    },
+    "39": {
+      "zh": "当时觉得这个东西呃很难喝，然后咽不下去那种。",
+      "parts": [
+        {
+          "zh": "当时觉得这个东西呃很难喝，",
+          "vi": "Lúc đó thấy thứ này, ờ, khó uống lắm,"
+        },
+        {
+          "zh": "然后咽不下去那种。",
+          "vi": "kiểu nuốt không trôi ấy."
+        }
+      ]
+    },
+    "40": {
+      "zh": "最高的也",
+      "vi": "Cao nhất cũng"
+    },
+    "41": {
+      "zh": "有七十八度嘛，你喝过七十八度的",
+      "vi": "tới 78 độ cơ mà, bạn uống loại 78 độ"
+    },
+    "42": {
+      "zh": "吗？",
+      "vi": "bao giờ chưa?"
+    },
+    "43": {
+      "zh": "呃，我没喝过。",
+      "vi": "Ờ, mình chưa uống."
+    },
+    "44": {
+      "zh": "我一般可能喝的就是五十来度的白酒。",
+      "parts": [
+        {
+          "zh": "我一般可能喝的",
+          "vi": "Mình thường thì chắc uống"
+        },
+        {
+          "zh": "就是五十来度的白酒。",
+          "vi": "rượu trắng khoảng 50 độ thôi."
+        }
+      ]
+    },
+    "45": {
+      "zh": "嗯。",
+      "vi": "Ừm."
+    },
+    "46": {
+      "zh": "呃，五五十三度的其实在中国是比较紧俏的一个度数吧？",
+      "parts": [
+        {
+          "zh": "呃，五五十三度的其实在中国",
+          "vi": "Ờ, loại 53 độ thật ra ở Trung Quốc"
+        },
+        {
+          "zh": "是比较紧俏的一个度数吧？",
+          "vi": "là mức độ cồn khá được săn lùng nhỉ?"
+        }
+      ]
+    },
+    "47": {
+      "zh": "嗯，比较普遍。",
+      "vi": "Ừm, khá phổ biến."
+    },
+    "48": {
+      "zh": "不是普遍，它是比较有知名度的一个度数。",
+      "parts": [
+        {
+          "zh": "不是普遍，",
+          "vi": "Không phải phổ biến,"
+        },
+        {
+          "zh": "它是比较有知名度的一个度数。",
+          "vi": "mà là mức độ cồn khá nổi tiếng."
+        }
+      ]
+    },
+    "49": {
+      "zh": "为为什么嘞？",
+      "vi": "Sao vậy?"
+    },
+    "50": {
+      "zh": "有一个品牌的酒，它这个把五十三度给带火了——飞天茅台，你听过吗？",
+      "parts": [
+        {
+          "zh": "有一个品牌的酒，",
+          "vi": "Có một hãng rượu,"
+        },
+        {
+          "zh": "它这个把五十三度给带火了——",
+          "vi": "đã làm cho mức 53 độ nổi đình nổi đám —"
+        },
+        {
+          "zh": "飞天茅台，你听过吗？",
+          "vi": "Mao Đài Phi Thiên, bạn nghe qua chưa?"
+        }
+      ]
+    },
+    "51": {
+      "zh": "我只听过茅台，因为因为老是听到那个",
+      "parts": [
+        {
+          "zh": "我只听过茅台，",
+          "vi": "Mình chỉ nghe nói Mao Đài thôi,"
+        },
+        {
+          "zh": "因为因为老是听到那个",
+          "vi": "vì vì hay nghe cái"
+        }
+      ]
+    },
+    "52": {
+      "zh": "广告。",
+      "vi": "quảng cáo đó."
+    },
+    "53": {
+      "zh": "最经典的一款那个飞天茅台嘛，它就是五十三度的。",
+      "parts": [
+        {
+          "zh": "最经典的一款那个飞天茅台嘛，",
+          "vi": "Dòng kinh điển nhất là Mao Đài Phi Thiên,"
+        },
+        {
+          "zh": "它就是五十三度的。",
+          "vi": "chính là loại 53 độ."
+        }
+      ]
+    },
+    "54": {
+      "zh": "你也",
+      "vi": "Bạn cũng"
+    },
+    "55": {
+      "zh": "经常喝酒吗？",
+      "vi": "hay uống rượu à?"
+    },
+    "56": {
+      "zh": "那你第一次喝白酒",
+      "vi": "Thế lần đầu bạn uống rượu trắng"
+    },
+    "57": {
+      "zh": "是什么时候？",
+      "vi": "là khi nào?"
+    },
+    "58": {
+      "zh": "呃，我第一次喝白酒的时候，在高中的时候，那个时候参加同学的婚礼嘛，",
+      "parts": [
+        {
+          "zh": "呃，我第一次喝白酒的时候，",
+          "vi": "Ờ, lần đầu mình uống rượu trắng,"
+        },
+        {
+          "zh": "在高中的时候，",
+          "vi": "là hồi cấp ba,"
+        },
+        {
+          "zh": "那个时候参加同学的婚礼嘛，",
+          "vi": "lúc đó đi dự đám cưới của một bạn học,"
+        }
+      ]
+    },
+    "59": {
+      "zh": "几个同学也是刚开始就接触到这种酒，然后喝的喝的比较尽兴了，当时也是都是会摇摇晃晃、",
+      "parts": [
+        {
+          "zh": "几个同学也是刚开始",
+          "vi": "mấy đứa bạn cũng vừa mới bắt đầu"
+        },
+        {
+          "zh": "就接触到这种酒，",
+          "vi": "tiếp xúc với loại rượu này,"
+        },
+        {
+          "zh": "然后喝的喝的比较尽兴了，",
+          "vi": "rồi uống uống khá là tận hứng,"
+        },
+        {
+          "zh": "当时也是都是会摇摇晃晃、",
+          "vi": "lúc đó đứa nào cũng lảo đảo,"
+        }
+      ]
+    },
+    "60": {
+      "zh": "摇摇晃晃的，然后说话也也不是很利索，就是你自己都不知道你讲了什么，就脱脱口出的那种。",
+      "parts": [
+        {
+          "zh": "摇摇晃晃的，",
+          "vi": "lảo đảo,"
+        },
+        {
+          "zh": "然后说话也也不是很利索，",
+          "vi": "rồi nói năng cũng không được trôi chảy lắm,"
+        },
+        {
+          "zh": "就是你自己都不知道你讲了什么，",
+          "vi": "kiểu bản thân cũng không biết mình đã nói gì,"
+        },
+        {
+          "zh": "就脱脱口出的那种。",
+          "vi": "cứ buột miệng nói ra ấy."
+        }
+      ]
+    },
+    "61": {
+      "zh": "最后醒过来的时候也不知道，耶，我怎么到家了？",
+      "parts": [
+        {
+          "zh": "最后醒过来的时候也不知道，",
+          "vi": "Cuối cùng lúc tỉnh lại cũng chẳng biết gì,"
+        },
+        {
+          "zh": "耶，我怎么到家了？",
+          "vi": "ơ, sao mình lại về đến nhà rồi?"
+        }
+      ]
+    },
+    "62": {
+      "zh": "然后醒来之后我妈都说，哎，你到底是你同学结婚还是你结婚了？",
+      "parts": [
+        {
+          "zh": "然后醒来之后我妈都说，哎，",
+          "vi": "Rồi tỉnh dậy mẹ mình còn bảo: này,"
+        },
+        {
+          "zh": "你到底是你同学结婚",
+          "vi": "rốt cuộc là bạn con cưới"
+        },
+        {
+          "zh": "还是你结婚了？",
+          "vi": "hay là con cưới thế?"
+        }
+      ]
+    },
+    "63": {
+      "zh": "把自己喝成这个样",
+      "vi": "Uống đến nỗi thành ra bộ dạng"
+    },
+    "64": {
+      "zh": "子。",
+      "vi": "này."
+    },
+    "65": {
+      "zh": "哎，你你为什么会",
+      "vi": "Ơ, sao bạn lại"
+    },
+    "66": {
+      "zh": "喝那么多酒嘞？",
+      "vi": "uống nhiều rượu thế?"
+    },
+    "67": {
+      "zh": "因为那个时候酒桌上就是你劝我，我劝你，呃，我敬他，他敬你，就是来来回回这个时候啊，",
+      "parts": [
+        {
+          "zh": "因为那个时候酒桌上",
+          "vi": "Vì lúc đó trên bàn nhậu"
+        },
+        {
+          "zh": "就是你劝我，我劝你，",
+          "vi": "thì kiểu bạn nài tôi uống, tôi nài bạn uống,"
+        },
+        {
+          "zh": "呃，我敬他，他敬你，",
+          "vi": "ờ, tôi chúc anh kia, anh kia chúc bạn,"
+        },
+        {
+          "zh": "就是来来回回这个时候啊，",
+          "vi": "cứ qua qua lại lại lúc đó ấy,"
+        }
+      ]
+    },
+    "68": {
+      "zh": "你就不知不觉，哎，我我怎么喝了那么",
+      "vi": "là cứ thế không hay biết gì, ơ, sao mình uống nhiều"
+    },
+    "69": {
+      "zh": "多？",
+      "vi": "thế này?"
+    },
+    "70": {
+      "zh": "嗯，而且白酒也容易醉吧，五十多度，像我估计一杯就直接倒地了。",
+      "parts": [
+        {
+          "zh": "嗯，而且白酒也容易醉吧，五十多度，",
+          "vi": "Ừm, mà rượu trắng cũng dễ say nhỉ, hơn 50 độ cơ,"
+        },
+        {
+          "zh": "像我估计一杯就直接倒地了。",
+          "vi": "như mình chắc một ly là gục luôn."
+        }
+      ]
+    },
+    "71": {
+      "zh": "嗯，有喝过一次，嗯，也不算是醉，就是有一点点醉意了。",
+      "parts": [
+        {
+          "zh": "嗯，有喝过一次，嗯，也不算是醉，",
+          "vi": "Ừm, mình có uống một lần, ừm, cũng không hẳn là say,"
+        },
+        {
+          "zh": "就是有一点点醉意了。",
+          "vi": "chỉ là hơi ngà ngà chút thôi."
+        }
+      ]
+    },
+    "72": {
+      "zh": "然后就是感觉脑袋有一点晕晕的，然后说话的时候有点口不遮拦，",
+      "parts": [
+        {
+          "zh": "然后就是感觉脑袋有一点晕晕的，",
+          "vi": "Rồi thì thấy đầu hơi choáng choáng,"
+        },
+        {
+          "zh": "然后说话的时候有点口不遮拦，",
+          "vi": "rồi lúc nói chuyện thì hơi không giữ mồm,"
+        }
+      ]
+    },
+    "73": {
+      "zh": "就是想说什么就说什么那种感觉。",
+      "vi": "kiểu muốn nói gì thì nói ấy."
+    },
+    "74": {
+      "zh": "就人家不都说嘛，“酒后吐真言”嘛，所以还真的是有一点，就是你喝醉了之后，",
+      "parts": [
+        {
+          "zh": "就人家不都说嘛，“酒后吐真言”嘛，",
+          "vi": "Người ta chẳng bảo \"rượu vào lời ra\" đó sao,"
+        },
+        {
+          "zh": "所以还真的是有一点，",
+          "vi": "nên đúng là có chút như vậy thật,"
+        },
+        {
+          "zh": "就是你喝醉了之后，",
+          "vi": "là khi bạn say rồi,"
+        }
+      ]
+    },
+    "75": {
+      "zh": "你想说什么你都你不会有控制的。",
+      "vi": "muốn nói gì thì bạn không kiểm soát được."
+    },
+    "76": {
+      "zh": "对，但是还没有到那个失去意识的情况下，真正的。失去意识，那么可能就是你喝完酒之后，你就倒在外面睡，在地上能睡，",
+      "parts": [
+        {
+          "zh": "对，但是还没有到",
+          "vi": "Đúng, nhưng vẫn chưa tới"
+        },
+        {
+          "zh": "那个失去意识的情况下，",
+          "vi": "mức mất ý thức"
+        },
+        {
+          "zh": "真正的。失去意识，",
+          "vi": "thật sự. Mất ý thức ấy,"
+        },
+        {
+          "zh": "那么可能就是你喝完酒之后，",
+          "vi": "thì có khi là uống xong,"
+        },
+        {
+          "zh": "你就倒在外面睡，在地上能睡，",
+          "vi": "bạn nằm ra ngoài ngủ luôn, nằm đất cũng ngủ được,"
+        }
+      ]
+    },
+    "78": {
+      "zh": "在电线杆子上也能睡，在绿化带也能睡，然后抱着人家车也能睡。",
+      "parts": [
+        {
+          "zh": "在电线杆子上也能睡，",
+          "vi": "ở cột điện cũng ngủ được,"
+        },
+        {
+          "zh": "在绿化带也能睡，",
+          "vi": "ở dải cây xanh cũng ngủ được,"
+        },
+        {
+          "zh": "然后抱着人家车也能睡。",
+          "vi": "rồi ôm xe nhà người ta cũng ngủ được."
+        }
+      ]
+    },
+    "79": {
+      "zh": "电线杆子怎么睡？",
+      "vi": "Cột điện thì ngủ kiểu gì?"
+    },
+    "80": {
+      "zh": "就是直接",
+      "vi": "Thì cứ thế"
+    },
+    "81": {
+      "zh": "抱着电线杆子，就是就就睡着啦，就就这种的。",
+      "parts": [
+        {
+          "zh": "抱着电线杆子，",
+          "vi": "ôm cột điện,"
+        },
+        {
+          "zh": "就是就就睡着啦，就就这种的。",
+          "vi": "là ngủ thiếp đi luôn, kiểu vậy đó."
+        }
+      ]
+    },
+    "82": {
+      "zh": "这就是喝完酒真正喝醉酒的一个状态，丑态百出，就是各种稀奇古怪的动作都会被暴露出来，",
+      "parts": [
+        {
+          "zh": "这就是喝完酒真正喝醉酒的",
+          "vi": "Đó chính là trạng thái thật sự say rượu"
+        },
+        {
+          "zh": "一个状态，丑态百出，",
+          "vi": "sau khi uống, đủ trò xấu mặt,"
+        },
+        {
+          "zh": "就是各种稀奇古怪的动作",
+          "vi": "đủ kiểu động tác kỳ quặc"
+        },
+        {
+          "zh": "都会被暴露出来，",
+          "vi": "đều bị lộ ra hết,"
+        }
+      ]
+    },
+    "83": {
+      "zh": "所以说会看到很多这种。",
+      "vi": "nên sẽ thấy rất nhiều cảnh kiểu này."
+    },
+    "84": {
+      "zh": "呃，你不知道不认识的人，然后把你给拍到发到网上去火了，",
+      "parts": [
+        {
+          "zh": "呃，你不知道不认识的人，",
+          "vi": "Ờ, những người bạn không quen biết,"
+        },
+        {
+          "zh": "然后把你给拍到发到网上去火了，",
+          "vi": "rồi quay bạn lại đăng lên mạng thế là nổi luôn,"
+        }
+      ]
+    },
+    "85": {
+      "zh": "所以说你可能喝个酒喝个酒你就喝的全国都知道了啊！",
+      "parts": [
+        {
+          "zh": "所以说你可能喝个酒喝个酒",
+          "vi": "nên có khi bạn chỉ đi uống chút rượu"
+        },
+        {
+          "zh": "你就喝的全国都知道了啊！",
+          "vi": "mà uống đến cả nước đều biết!"
+        }
+      ]
+    },
+    "86": {
+      "zh": "你你喝酒喝成这个样子了。",
+      "vi": "Bạn uống rượu mà thành ra bộ dạng này."
+    },
+    "87": {
+      "zh": "啊，",
+      "vi": "À,"
+    },
+    "88": {
+      "zh": "开头的时候我们也讲到这个酒桌文化在中国很重要嘛？",
+      "parts": [
+        {
+          "zh": "开头的时候我们也讲到",
+          "vi": "Lúc đầu chúng mình cũng có nói"
+        },
+        {
+          "zh": "这个酒桌文化在中国很重要嘛？",
+          "vi": "văn hóa bàn nhậu rất quan trọng ở Trung Quốc mà?"
+        }
+      ]
+    },
+    "89": {
+      "zh": "那到底为什么重要呢？",
+      "vi": "Vậy rốt cuộc vì sao lại quan trọng?"
+    },
+    "90": {
+      "zh": "它的重要",
+      "vi": "Tầm quan trọng của nó"
+    },
+    "91": {
+      "zh": "性是方方面面的，然后那我们就从日常人际交往、职场还有商场。这三个方面来讲，嗯，人际交往并不是说一定要去喝酒，呃，",
+      "parts": [
+        {
+          "zh": "性是方方面面的，",
+          "vi": "là ở mọi mặt,"
+        },
+        {
+          "zh": "然后那我们就从日常人际交往、",
+          "vi": "rồi thì mình nói từ giao tiếp thường ngày,"
+        },
+        {
+          "zh": "职场还有商场。这三个方面来讲，嗯，",
+          "vi": "chốn công sở và thương trường. Ba khía cạnh này, ừm,"
+        },
+        {
+          "zh": "人际交往并不是说一定要去喝酒，呃，",
+          "vi": "giao tiếp thì không phải nói là nhất định phải uống rượu, ờ,"
+        }
+      ]
+    },
+    "93": {
+      "zh": "大部分是呃朋友之间有很多事情是不好意思说出来的，就是一些憋在心里面的一些问题，",
+      "parts": [
+        {
+          "zh": "大部分是呃朋友之间",
+          "vi": "phần lớn là, ờ, giữa bạn bè với nhau"
+        },
+        {
+          "zh": "有很多事情是不好意思说出来的，",
+          "vi": "có nhiều chuyện ngại nói ra,"
+        },
+        {
+          "zh": "就是一些憋在心里面的一些问题，",
+          "vi": "tức là những chuyện dồn nén trong lòng,"
+        }
+      ]
+    },
+    "94": {
+      "zh": "然后可能借这个时候找个朋友，然后喝喝酒聊聊天。",
+      "parts": [
+        {
+          "zh": "然后可能借这个时候找个朋友，",
+          "vi": "rồi có khi nhân lúc này tìm một người bạn,"
+        },
+        {
+          "zh": "然后喝喝酒聊聊天。",
+          "vi": "rồi uống chút rượu, tâm sự đôi câu."
+        }
+      ]
+    },
+    "95": {
+      "zh": "通过",
+      "vi": "Thông qua"
+    },
+    "96": {
+      "zh": "喝酒交朋友的男的比较多是吧？",
+      "vi": "uống rượu mà kết bạn thì đàn ông nhiều hơn nhỉ?"
+    },
+    "97": {
+      "zh": "女的好像不太会说通过喝酒来交朋友。",
+      "parts": [
+        {
+          "zh": "女的好像不太会说",
+          "vi": "Con gái hình như không hay nói là"
+        },
+        {
+          "zh": "通过喝酒来交朋友。",
+          "vi": "kết bạn thông qua uống rượu."
+        }
+      ]
+    },
+    "98": {
+      "zh": "嗯，男的一般也不会聚在一起聊心事嘛。",
+      "parts": [
+        {
+          "zh": "嗯，男的一般也不会",
+          "vi": "Ừm, đàn ông thường cũng không"
+        },
+        {
+          "zh": "聚在一起聊心事嘛。",
+          "vi": "tụ tập lại tâm sự chuyện lòng."
+        }
+      ]
+    },
+    "99": {
+      "zh": "他不像是女孩子坐在一起就可以倾诉自己的一些心事嘛，然后就可以释放一些压力。",
+      "parts": [
+        {
+          "zh": "他不像是女孩子坐在一起",
+          "vi": "Không giống con gái ngồi với nhau"
+        },
+        {
+          "zh": "就可以倾诉自己的一些心事嘛，",
+          "vi": "là có thể giãi bày nỗi lòng,"
+        },
+        {
+          "zh": "然后就可以释放一些压力。",
+          "vi": "rồi giải tỏa được chút áp lực."
+        }
+      ]
+    },
+    "100": {
+      "zh": "但是男的好像坐在一起讲心事有点怪怪的哦，有点就是显得自己",
+      "parts": [
+        {
+          "zh": "但是男的好像坐在一起讲心事",
+          "vi": "Nhưng đàn ông mà ngồi với nhau kể chuyện lòng"
+        },
+        {
+          "zh": "有点怪怪的哦，有点就是显得自己",
+          "vi": "thì có vẻ hơi kỳ kỳ, kiểu như tỏ ra mình"
+        }
+      ]
+    },
+    "101": {
+      "zh": "很弱。",
+      "vi": "yếu đuối."
+    },
+    "102": {
+      "zh": "所以大部分男孩子他他也需要去有这个倾诉的一个环境吧。",
+      "parts": [
+        {
+          "zh": "所以大部分男孩子他他",
+          "vi": "Nên phần lớn con trai"
+        },
+        {
+          "zh": "也需要去有这个倾诉的一个环境吧。",
+          "vi": "cũng cần có một môi trường để giãi bày."
+        }
+      ]
+    },
+    "103": {
+      "zh": "嗯，因为你事情压在心里面，你不吐出来，你不说出来。",
+      "parts": [
+        {
+          "zh": "嗯，因为你事情压在心里面，",
+          "vi": "Ừm, vì chuyện đè nén trong lòng,"
+        },
+        {
+          "zh": "你不吐出来，你不说出来。",
+          "vi": "bạn không trút ra, không nói ra,"
+        }
+      ]
+    },
+    "104": {
+      "zh": "对自己的身心健康是不利的，所以说，呃，大部分男孩子会通过喝酒的这个方式，",
+      "parts": [
+        {
+          "zh": "对自己的身心健康是不利的，",
+          "vi": "thì có hại cho sức khỏe thể chất lẫn tinh thần,"
+        },
+        {
+          "zh": "所以说，呃，大部分男孩子",
+          "vi": "nên, ờ, phần lớn con trai"
+        },
+        {
+          "zh": "会通过喝酒的这个方式，",
+          "vi": "sẽ thông qua cách uống rượu,"
+        }
+      ]
+    },
+    "105": {
+      "zh": "然后去就自己无意识或者是根本不知情的情况下就把这些话说出来。",
+      "parts": [
+        {
+          "zh": "然后去就自己无意识",
+          "vi": "rồi trong lúc vô thức"
+        },
+        {
+          "zh": "或者是根本不知情的情况下",
+          "vi": "hoặc hoàn toàn không hay biết"
+        },
+        {
+          "zh": "就把这些话说出来。",
+          "vi": "mà nói hết những lời đó ra."
+        }
+      ]
+    },
+    "106": {
+      "zh": "比有句话叫什么？",
+      "vi": "Có câu nói thế nào nhỉ?"
+    },
+    "107": {
+      "zh": "男跟男的跟男的才叫真爱，女的跟男的在一起那才叫繁衍后代",
+      "parts": [
+        {
+          "zh": "男跟男的跟男的才叫真爱，",
+          "vi": "Nam với nam mới gọi là tình yêu đích thực,"
+        },
+        {
+          "zh": "女的跟男的在一起那才叫繁衍后代",
+          "vi": "nữ với nam ở bên nhau thì chỉ gọi là duy trì nòi giống"
+        }
+      ]
+    },
+    "108": {
+      "zh": "啊？",
+      "vi": "Hả?"
+    },
+    "109": {
+      "zh": "这样子吗？",
+      "vi": "Thế à?"
+    },
+    "110": {
+      "zh": "我怎么没听过这句话？",
+      "vi": "Sao mình chưa nghe câu này bao giờ?"
+    },
+    "111": {
+      "zh": "对，嗯，不过确实就是，嗯，很多人嘛喝完酒就会比较话多。",
+      "parts": [
+        {
+          "zh": "对，嗯，不过确实就是，",
+          "vi": "Ừ, ừm, nhưng đúng là thật,"
+        },
+        {
+          "zh": "嗯，很多人嘛喝完酒就会比较话多。",
+          "vi": "ừm, nhiều người uống rượu xong là nói nhiều hơn."
+        }
+      ]
+    },
+    "112": {
+      "zh": "因为平常可能不太说话的人，或者是不敢说一些话的人，他在喝完酒之后就变得变，",
+      "parts": [
+        {
+          "zh": "因为平常可能不太说话的人，",
+          "vi": "Vì những người bình thường ít nói,"
+        },
+        {
+          "zh": "或者是不敢说一些话的人，",
+          "vi": "hoặc những người không dám nói một số điều,"
+        },
+        {
+          "zh": "他在喝完酒之后就变得变，",
+          "vi": "uống rượu xong là trở nên,"
+        }
+      ]
+    },
+    "113": {
+      "zh": "就是从社恐变成了社牛。",
+      "vi": "từ sợ giao tiếp thành ra dạn dĩ hết cỡ."
+    },
+    "114": {
+      "zh": "所以我觉得这个也是为什么有很多男的喜欢聚在一起喝酒的原因。",
+      "parts": [
+        {
+          "zh": "所以我觉得",
+          "vi": "Nên mình thấy"
+        },
+        {
+          "zh": "这个也是为什么有很多男的",
+          "vi": "đây cũng là lý do vì sao nhiều đàn ông"
+        },
+        {
+          "zh": "喜欢聚在一起喝酒的原因。",
+          "vi": "thích tụ tập với nhau uống rượu."
+        }
+      ]
+    },
+    "115": {
+      "zh": "就是平",
+      "vi": "Kiểu bình"
+    },
+    "116": {
+      "zh": "常很内向、很内向的男孩子，喝完酒之后是最好玩的时候，他什么话都讲，什么事",
+      "parts": [
+        {
+          "zh": "常很内向、很内向的男孩子，",
+          "vi": "thường rất hướng nội, rất hướng nội, mấy cậu ấy,"
+        },
+        {
+          "zh": "喝完酒之后是最好玩的时候，",
+          "vi": "uống rượu xong là lúc vui nhất,"
+        },
+        {
+          "zh": "他什么话都讲，什么事",
+          "vi": "nói gì cũng nói, việc gì"
+        }
+      ]
+    },
+    "117": {
+      "zh": "都做。",
+      "vi": "cũng làm."
+    },
+    "118": {
+      "zh": "嗯，还有喜欢吹牛，就是感觉男的喝完酒之后，就是变得特别爱吹牛。",
+      "parts": [
+        {
+          "zh": "嗯，还有喜欢吹牛，",
+          "vi": "Ừm, còn thích khoác lác nữa,"
+        },
+        {
+          "zh": "就是感觉男的喝完酒之后，",
+          "vi": "kiểu cảm giác đàn ông uống rượu xong,"
+        },
+        {
+          "zh": "就是变得特别爱吹牛。",
+          "vi": "là trở nên cực kỳ thích chém gió."
+        }
+      ]
+    },
+    "119": {
+      "zh": "就人家不说酒壮怂人胆吗然后比较怂的人在喝完酒之后就是胆子特别大说什么都敢说你让他去跟一个陌生的女孩子搭讪他",
+      "parts": [
+        {
+          "zh": "就人家不说酒壮怂人胆吗",
+          "vi": "Người ta chẳng nói rượu vào thì kẻ nhát cũng hóa gan sao,"
+        },
+        {
+          "zh": "然后比较怂的人在喝完酒之后",
+          "vi": "rồi người nhát gan sau khi uống rượu"
+        },
+        {
+          "zh": "就是胆子特别大说什么都敢说",
+          "vi": "thì gan to lắm, gì cũng dám nói,"
+        },
+        {
+          "zh": "你让他去跟一个陌生的女孩子",
+          "vi": "bạn bảo anh ta tới chỗ một cô gái lạ"
+        },
+        {
+          "zh": "搭讪他",
+          "vi": "bắt chuyện làm quen"
+        }
+      ]
+    },
+    "121": {
+      "zh": "都敢喝酒前我是江西的但喝完酒那江西是我的这种时候大家说出来的话呀其实多多少少还是有意思的因为我喝这个我也知道就这个时候听着也有意思然后讲着也有意思，所以说",
+      "parts": [
+        {
+          "zh": "都敢喝酒前我是江西的",
+          "vi": "anh ta cũng dám. Trước khi uống thì tôi là người Giang Tây,"
+        },
+        {
+          "zh": "但喝完酒那江西是我的",
+          "vi": "nhưng uống xong thì Giang Tây là của tôi."
+        },
+        {
+          "zh": "这种时候大家说出来的话呀",
+          "vi": "Lúc này những lời mọi người nói ra"
+        },
+        {
+          "zh": "其实多多少少还是有意思的",
+          "vi": "thật ra ít nhiều cũng thú vị,"
+        },
+        {
+          "zh": "因为我喝这个我也知道",
+          "vi": "vì mình có uống nên mình cũng biết,"
+        },
+        {
+          "zh": "就这个时候听着也有意思",
+          "vi": "lúc này nghe cũng thú vị,"
+        },
+        {
+          "zh": "然后讲着也有意思，所以说",
+          "vi": "rồi nói cũng thú vị, nên là"
+        }
+      ]
+    },
+    "123": {
+      "zh": "你说男的如果不喝酒是不是很难交到朋友？",
+      "parts": [
+        {
+          "zh": "你说男的如果不喝酒",
+          "vi": "Bạn nói xem đàn ông nếu không uống rượu"
+        },
+        {
+          "zh": "是不是很难交到朋友？",
+          "vi": "có phải khó kết được bạn không?"
+        }
+      ]
+    },
+    "124": {
+      "zh": "嗯，",
+      "vi": "Ừm,"
+    },
+    "125": {
+      "zh": "这个也不好说。",
+      "vi": "cái này cũng khó nói."
+    },
+    "126": {
+      "zh": "但是你可能同事之间，你喝完酒之后，公司内部的一些不可公开的秘密，嗯，",
+      "parts": [
+        {
+          "zh": "但是你可能同事之间，你喝完酒之后，",
+          "vi": "Nhưng giữa đồng nghiệp chẳng hạn, sau khi uống rượu,"
+        },
+        {
+          "zh": "公司内部的一些不可公开的秘密，嗯，",
+          "vi": "những bí mật nội bộ công ty không thể công khai, ừm,"
+        }
+      ]
+    },
+    "127": {
+      "zh": "你跟那些什么老员工、呃师傅之类的，然后你跟他喝喝酒，然后聊聊天，",
+      "parts": [
+        {
+          "zh": "你跟那些什么老员工、呃师傅之类的，",
+          "vi": "bạn với mấy nhân viên lâu năm, ờ, mấy bậc đàn anh,"
+        },
+        {
+          "zh": "然后你跟他喝喝酒，然后聊聊天，",
+          "vi": "rồi bạn uống chút rượu với họ, rồi trò chuyện,"
+        }
+      ]
+    },
+    "128": {
+      "zh": "大大家也就是顺当的把这些东西当做八卦，然后跟你聊聊，",
+      "parts": [
+        {
+          "zh": "大大家也就是顺当的",
+          "vi": "mọi người cũng thuận miệng"
+        },
+        {
+          "zh": "把这些东西当做八卦，然后跟你聊聊，",
+          "vi": "coi mấy chuyện đó như chuyện phiếm, rồi kể cho bạn,"
+        }
+      ]
+    },
+    "129": {
+      "zh": "你也就慢慢获取到了你想要的一些信息。",
+      "parts": [
+        {
+          "zh": "你也就慢慢获取到了",
+          "vi": "bạn cũng dần dần nắm được"
+        },
+        {
+          "zh": "你想要的一些信息。",
+          "vi": "những thông tin mình muốn."
+        }
+      ]
+    },
+    "130": {
+      "zh": "那么对于日后你上班在这个岗位上上班也是一个好",
+      "parts": [
+        {
+          "zh": "那么对于日后你上班",
+          "vi": "Thế thì sau này bạn đi làm"
+        },
+        {
+          "zh": "在这个岗位上上班也是一个好",
+          "vi": "ở vị trí này cũng là một điều có"
+        }
+      ]
+    },
+    "131": {
+      "zh": "处吧那你平常会跟同事去喝酒然后听到什么什么你你本",
+      "parts": [
+        {
+          "zh": "处吧",
+          "vi": "lợi nhỉ."
+        },
+        {
+          "zh": "那你平常会跟同事去喝酒",
+          "vi": "Thế bình thường bạn có hay đi uống với đồng nghiệp"
+        },
+        {
+          "zh": "然后听到什么什么你你本",
+          "vi": "rồi nghe được những chuyện mà bạn vốn"
+        }
+      ]
+    },
+    "132": {
+      "zh": "来不知道的事呃听肯定会听得到但是这种话都说了听到了都是秘密那我嘴巴要严一点不然下次谁跟我讲啊是吧那倒",
+      "parts": [
+        {
+          "zh": "来不知道的事",
+          "vi": "không biết không?"
+        },
+        {
+          "zh": "呃听肯定会听得到",
+          "vi": "Ờ, nghe thì chắc chắn là nghe được,"
+        },
+        {
+          "zh": "但是这种话都说了听到了都是秘密",
+          "vi": "nhưng những lời đó nói ra, nghe được đều là bí mật,"
+        },
+        {
+          "zh": "那我嘴巴要严一点",
+          "vi": "nên mình phải kín miệng chút,"
+        },
+        {
+          "zh": "不然下次谁跟我讲啊是吧那倒",
+          "vi": "không thì lần sau ai kể cho mình nữa, đúng không? Thế thì"
+        }
+      ]
+    },
+    "134": {
+      "zh": "也是啊呃我前面我们也说那个喝酒人际交往可能更多的就是用来拉近人与人之间的这个距离啊，",
+      "parts": [
+        {
+          "zh": "也是啊呃",
+          "vi": "cũng phải ha, ờ,"
+        },
+        {
+          "zh": "我前面我们也说那个喝酒人际交往",
+          "vi": "lúc nãy mình cũng nói, uống rượu trong giao tiếp"
+        },
+        {
+          "zh": "可能更多的就是用来拉近",
+          "vi": "có lẽ chủ yếu là để kéo gần"
+        },
+        {
+          "zh": "人与人之间的这个距离啊，",
+          "vi": "khoảng cách giữa người với người,"
+        }
+      ]
+    },
+    "135": {
+      "zh": "特别是男性之间可以可以呃这个感情迅速升温是吧？",
+      "parts": [
+        {
+          "zh": "特别是男性之间可以可以",
+          "vi": "nhất là giữa đàn ông với nhau,"
+        },
+        {
+          "zh": "呃这个感情迅速升温是吧？",
+          "vi": "ờ, tình cảm có thể nóng lên nhanh chóng nhỉ?"
+        }
+      ]
+    },
+    "136": {
+      "zh": "变成了真爱。",
+      "vi": "Thành tình yêu đích thực luôn."
+    },
+    "137": {
+      "zh": "那呃在职场上其实可能又又不一样，它又更多了一点这个利益了，是不是？",
+      "parts": [
+        {
+          "zh": "那呃在职场上其实可能又又不一样，",
+          "vi": "Thế, ờ, ở chốn công sở thì có lẽ lại khác,"
+        },
+        {
+          "zh": "它又更多了一点这个利益了，是不是？",
+          "vi": "nó có thêm chút yếu tố lợi ích, phải không?"
+        }
+      ]
+    },
+    "138": {
+      "zh": "对，职",
+      "vi": "Đúng, bàn nhậu"
+    },
+    "139": {
+      "zh": "场的酒桌基本上它的这个属性是比较严谨的，嗯，因为有一些是你的同事，",
+      "parts": [
+        {
+          "zh": "场的酒桌基本上",
+          "vi": "nơi công sở về cơ bản"
+        },
+        {
+          "zh": "它的这个属性是比较严谨的，",
+          "vi": "có tính chất khá nghiêm túc,"
+        },
+        {
+          "zh": "嗯，因为有一些是你的同事，",
+          "vi": "ừm, vì có những người là đồng nghiệp của bạn,"
+        }
+      ]
+    },
+    "140": {
+      "zh": "有一些是你的领头上司啊。",
+      "vi": "có những người là sếp của bạn."
+    },
+    "141": {
+      "zh": "那么在酒桌上的一个表现，它其实是能间接的去反映你在职场上的一个工作状态的。",
+      "parts": [
+        {
+          "zh": "那么在酒桌上的一个表现，",
+          "vi": "Thế nên cách bạn thể hiện trên bàn nhậu"
+        },
+        {
+          "zh": "它其实是能间接的去反映",
+          "vi": "thật ra có thể gián tiếp phản ánh"
+        },
+        {
+          "zh": "你在职场上的一个工作状态的。",
+          "vi": "trạng thái làm việc của bạn nơi công sở."
+        }
+      ]
+    },
+    "142": {
+      "zh": "就像我们前面讲的，如果你是口无遮拦的人，或者是你喜欢添油加醋、喜欢说别人八卦，",
+      "parts": [
+        {
+          "zh": "就像我们前面讲的，",
+          "vi": "Như chúng mình đã nói lúc nãy,"
+        },
+        {
+          "zh": "如果你是口无遮拦的人，",
+          "vi": "nếu bạn là người ăn nói không giữ mồm,"
+        },
+        {
+          "zh": "或者是你喜欢添油加醋、",
+          "vi": "hoặc bạn thích thêm mắm thêm muối,"
+        },
+        {
+          "zh": "喜欢说别人八卦，",
+          "vi": "thích nói chuyện phiếm về người khác,"
+        }
+      ]
+    },
+    "143": {
+      "zh": "那么在往后的工作上你是很难去得到一个晋升的机会的。",
+      "parts": [
+        {
+          "zh": "那么在往后的工作上",
+          "vi": "thì trong công việc sau này"
+        },
+        {
+          "zh": "你是很难去得到一个晋升的机会的。",
+          "vi": "bạn sẽ rất khó có cơ hội thăng chức."
+        }
+      ]
+    },
+    "144": {
+      "zh": "你如果是这样闭口不言的，然后尽量能做好自己的事情的，",
+      "parts": [
+        {
+          "zh": "你如果是这样闭口不言的，",
+          "vi": "Nếu bạn là người kín miệng như vậy,"
+        },
+        {
+          "zh": "然后尽量能做好自己的事情的，",
+          "vi": "rồi cố gắng làm tốt việc của mình,"
+        }
+      ]
+    },
+    "145": {
+      "zh": "在酒桌上给别人的印象就是你这个人很稳重、很靠谱。",
+      "parts": [
+        {
+          "zh": "在酒桌上给别人的印象就是",
+          "vi": "thì ấn tượng bạn để lại cho người khác trên bàn nhậu"
+        },
+        {
+          "zh": "你这个人很稳重、很靠谱。",
+          "vi": "là người rất chín chắn, rất đáng tin."
+        }
+      ]
+    },
+    "146": {
+      "zh": "嗯，哎，那有没有一种可能，就是比如说上上司请请下属们去吃饭喝酒，",
+      "parts": [
+        {
+          "zh": "嗯，哎，那有没有一种可能，",
+          "vi": "Ừm, ơ, vậy có khả năng nào,"
+        },
+        {
+          "zh": "就是比如说上上司",
+          "vi": "kiểu như sếp"
+        },
+        {
+          "zh": "请请下属们去吃饭喝酒，",
+          "vi": "mời cấp dưới đi ăn uống,"
+        }
+      ]
+    },
+    "147": {
+      "zh": "是不是为了就是看他们喝完酒之后会不会展现出真实的自己，然后看看哎这个人怎么样，",
+      "parts": [
+        {
+          "zh": "是不是为了就是看他们喝完酒之后",
+          "vi": "là để xem sau khi uống rượu họ"
+        },
+        {
+          "zh": "会不会展现出真实的自己，",
+          "vi": "có để lộ con người thật hay không,"
+        },
+        {
+          "zh": "然后看看哎这个人怎么样，",
+          "vi": "rồi xem thử, ơ, người này thế nào,"
+        }
+      ]
+    },
+    "148": {
+      "zh": "或者说是不是一个可以信任的人？",
+      "vi": "hay có phải là người đáng tin không?"
+    },
+    "149": {
+      "zh": "就是",
+      "vi": "Thì là"
+    },
+    "150": {
+      "zh": "不仅是在我们现在呀，在宋朝的时候，那个宋朝开国皇帝赵匡胤，",
+      "parts": [
+        {
+          "zh": "不仅是在我们现在呀，在宋朝的时候，",
+          "vi": "không chỉ bây giờ đâu, từ thời nhà Tống,"
+        },
+        {
+          "zh": "那个宋朝开国皇帝赵匡胤，",
+          "vi": "vị hoàng đế khai quốc nhà Tống là Triệu Khuông Dận"
+        }
+      ]
+    },
+    "151": {
+      "zh": "他就有过一个比较经典的一个事情，叫什么“杯酒释兵权”。",
+      "parts": [
+        {
+          "zh": "他就有过一个比较经典的一个事情，",
+          "vi": "đã có một chuyện khá kinh điển,"
+        },
+        {
+          "zh": "叫什么“杯酒释兵权”。",
+          "vi": "gọi là \"nâng chén rượu tước binh quyền\"."
+        }
+      ]
+    },
+    "152": {
+      "zh": "他就是领导试探手下，利用一场那个酒席，",
+      "parts": [
+        {
+          "zh": "他就是领导试探手下，",
+          "vi": "Tức là lãnh đạo thử lòng thuộc hạ,"
+        },
+        {
+          "zh": "利用一场那个酒席，",
+          "vi": "dùng một bữa tiệc rượu"
+        }
+      ]
+    },
+    "153": {
+      "zh": "然后来试探一下那个下属到底会不会给自己带来一个威胁。",
+      "parts": [
+        {
+          "zh": "然后来试探一下那个下属",
+          "vi": "để thăm dò xem thuộc hạ"
+        },
+        {
+          "zh": "到底会不会给自己带来一个威胁。",
+          "vi": "rốt cuộc có trở thành mối đe dọa cho mình không."
+        }
+      ]
+    },
+    "154": {
+      "zh": "如果是属下造反嘛，他就可以利用酒宴就拿下他；如果那些属下想把自己的兵权给交出来，",
+      "parts": [
+        {
+          "zh": "如果是属下造反嘛，",
+          "vi": "Nếu thuộc hạ làm phản,"
+        },
+        {
+          "zh": "他就可以利用酒宴就拿下他；",
+          "vi": "thì ông ấy có thể nhân bữa tiệc mà bắt luôn;"
+        },
+        {
+          "zh": "如果那些属下",
+          "vi": "nếu những thuộc hạ đó"
+        },
+        {
+          "zh": "想把自己的兵权给交出来，",
+          "vi": "muốn giao nộp binh quyền của mình,"
+        }
+      ]
+    },
+    "155": {
+      "zh": "那么这个时候属于主动的，那么他就可以让他养老。",
+      "parts": [
+        {
+          "zh": "那么这个时候属于主动的，",
+          "vi": "thì lúc này là chủ động,"
+        },
+        {
+          "zh": "那么他就可以让他养老。",
+          "vi": "ông ấy có thể cho họ về dưỡng già."
+        }
+      ]
+    },
+    "156": {
+      "zh": "嗯，所以",
+      "vi": "Ừm, nên"
+    },
+    "157": {
+      "zh": "我感觉跟跟领导出去吃饭，他们说什么话，字里行间他都是嗯有埋伏的。",
+      "parts": [
+        {
+          "zh": "我感觉跟跟领导出去吃饭，",
+          "vi": "mình thấy đi ăn với sếp,"
+        },
+        {
+          "zh": "他们说什么话，",
+          "vi": "họ nói câu gì,"
+        },
+        {
+          "zh": "字里行间他都是嗯有埋伏的。",
+          "vi": "thì giữa các dòng chữ, ừm, đều có cài bẫy cả."
+        }
+      ]
+    },
+    "158": {
+      "zh": "就是你，你不能光是听表面上的，你还得要听他那个呃言外之意是什么，是",
+      "parts": [
+        {
+          "zh": "就是你，你不能光是听表面上的，",
+          "vi": "Tức là bạn không thể chỉ nghe bề mặt,"
+        },
+        {
+          "zh": "你还得要听他那个",
+          "vi": "mà còn phải nghe xem cái"
+        },
+        {
+          "zh": "呃言外之意是什么，是",
+          "vi": "ờ, ẩn ý của họ là gì, đúng"
+        }
+      ]
+    },
+    "159": {
+      "zh": "吧？",
+      "vi": "không?"
+    },
+    "160": {
+      "zh": "对，就是双方的领导去吃饭，然后带着一个部下去吃饭嘛。",
+      "parts": [
+        {
+          "zh": "对，就是双方的领导去吃饭，",
+          "vi": "Đúng, kiểu như lãnh đạo hai bên đi ăn,"
+        },
+        {
+          "zh": "然后带着一个部下去吃饭嘛。",
+          "vi": "rồi dẫn theo một cấp dưới đi ăn cùng."
+        }
+      ]
+    },
+    "161": {
+      "zh": "那么这个时候，领导叫你去点菜嘛，嗯，他可能是叫你去回避一下，",
+      "parts": [
+        {
+          "zh": "那么这个时候，领导叫你去点菜嘛，",
+          "vi": "Thế lúc này, sếp bảo bạn đi gọi món,"
+        },
+        {
+          "zh": "嗯，他可能是叫你去回避一下，",
+          "vi": "ừm, có khi là bảo bạn tránh đi một lát,"
+        }
+      ]
+    },
+    "162": {
+      "zh": "他他们之间有一些话题你是不想让你听到的哦，",
+      "parts": [
+        {
+          "zh": "他他们之间有一些话题",
+          "vi": "vì giữa họ có những chuyện"
+        },
+        {
+          "zh": "你是不想让你听到的哦，",
+          "vi": "họ không muốn để bạn nghe đâu,"
+        }
+      ]
+    },
+    "163": {
+      "zh": "这样子吗？",
+      "vi": "Thế à?"
+    },
+    "164": {
+      "zh": "哇，感觉好多好多规矩。",
+      "vi": "Oa, nhiều quy tắc thật."
+    },
+    "165": {
+      "zh": "那你要是不懂的话，你要你要没有去点菜，那领导肯定认为你这个人不懂事儿。",
+      "parts": [
+        {
+          "zh": "那你要是不懂的话，",
+          "vi": "Thế nếu bạn không hiểu,"
+        },
+        {
+          "zh": "你要你要没有去点菜，",
+          "vi": "bạn không đi gọi món,"
+        },
+        {
+          "zh": "那领导肯定认为你这个人不懂事儿。",
+          "vi": "thì sếp chắc chắn cho là bạn không biết điều."
+        }
+      ]
+    },
+    "166": {
+      "zh": "哎，那那你说这个不会喝酒在职场上会不会呃缺乏优势？",
+      "parts": [
+        {
+          "zh": "哎，那那你说这个不会喝酒",
+          "vi": "Ơ, thế bạn nói xem không biết uống rượu"
+        },
+        {
+          "zh": "在职场上会不会呃缺乏优势？",
+          "vi": "thì ở chốn công sở có bị, ờ, thiệt thòi không?"
+        }
+      ]
+    },
+    "167": {
+      "zh": "那肯定会有的。",
+      "vi": "Thế thì chắc chắn là có rồi."
+    },
+    "168": {
+      "zh": "你跟领导吃饭，你不喝酒，你觉得你下次还有这个机会来吃饭了吗？",
+      "parts": [
+        {
+          "zh": "你跟领导吃饭，你不喝酒，你觉得",
+          "vi": "Bạn đi ăn với sếp, bạn không uống rượu, bạn nghĩ"
+        },
+        {
+          "zh": "你下次还有这个机会来吃饭了吗？",
+          "vi": "lần sau bạn còn cơ hội đi ăn nữa không?"
+        }
+      ]
+    },
+    "169": {
+      "zh": "那么你会，那么领导是不是下次得经常带着你？",
+      "parts": [
+        {
+          "zh": "那么你会，那么领导是不是",
+          "vi": "Thế bạn biết uống, thì có phải sếp"
+        },
+        {
+          "zh": "下次得经常带着你？",
+          "vi": "lần sau sẽ hay dẫn bạn theo không?"
+        }
+      ]
+    },
+    "170": {
+      "zh": "而且你这个人酒品也挺好的，也会来事。",
+      "parts": [
+        {
+          "zh": "而且你这个人",
+          "vi": "Mà bạn lại là người"
+        },
+        {
+          "zh": "酒品也挺好的，也会来事。",
+          "vi": "say vẫn đàng hoàng, lại khéo léo nữa."
+        }
+      ]
+    },
+    "171": {
+      "zh": "那么领导带着你光是图一乐子，领导都觉得开心。",
+      "parts": [
+        {
+          "zh": "那么领导带着你光是图一乐子，",
+          "vi": "Thì sếp dẫn bạn theo dù chỉ để cho vui,"
+        },
+        {
+          "zh": "领导都觉得开心。",
+          "vi": "sếp cũng thấy vui rồi."
+        }
+      ]
+    },
+    "172": {
+      "zh": "我听过一",
+      "vi": "Mình từng nghe một"
+    },
+    "173": {
+      "zh": "句话说啊，就是现在不是行业之间的这个竞争很大嘛，其实大家的产品都是大同小异的或者。说价格也差不了多少的，那至于这个订单能不能拿到，这个喝酒就是临门一脚",
+      "parts": [
+        {
+          "zh": "句话说啊，就是现在",
+          "vi": "câu nói, là bây giờ"
+        },
+        {
+          "zh": "不是行业之间的这个竞争很大嘛，",
+          "vi": "chẳng phải cạnh tranh giữa các ngành rất lớn sao,"
+        },
+        {
+          "zh": "其实大家的产品都是大同小异的",
+          "vi": "thật ra sản phẩm các bên đều na ná nhau"
+        },
+        {
+          "zh": "或者。说价格也差不了多少的，",
+          "vi": "hoặc là. Giá cả cũng chẳng chênh bao nhiêu,"
+        },
+        {
+          "zh": "那至于这个订单能不能拿到，",
+          "vi": "thế nên đơn hàng có lấy được hay không,"
+        },
+        {
+          "zh": "这个喝酒就是临门一脚",
+          "vi": "thì uống rượu chính là cú sút quyết định"
+        }
+      ]
+    },
+    "175": {
+      "zh": "了。",
+      "vi": "cuối cùng."
+    },
+    "176": {
+      "zh": "对，人家可能是喝完酒稀里糊涂的一拍脑袋，跟你称兄道弟的，",
+      "parts": [
+        {
+          "zh": "对，人家可能是喝完酒稀里糊涂的",
+          "vi": "Đúng, người ta có khi uống xong say lơ mơ,"
+        },
+        {
+          "zh": "一拍脑袋，跟你称兄道弟的，",
+          "vi": "vỗ trán một cái, anh anh em em với bạn,"
+        }
+      ]
+    },
+    "177": {
+      "zh": "然后说他说在这的在这里没有我解决不了的事情，这个地方都是我的。",
+      "parts": [
+        {
+          "zh": "然后说他说在这的在这里",
+          "vi": "rồi bảo, ông ta bảo ở đây"
+        },
+        {
+          "zh": "没有我解决不了的事情，",
+          "vi": "không có chuyện gì tôi không giải quyết được,"
+        },
+        {
+          "zh": "这个地方都是我的。",
+          "vi": "chỗ này là của tôi hết."
+        }
+      ]
+    },
+    "178": {
+      "zh": "那销售就说哎呀最近工作压力大呀，然后可能呃家庭压力也大呀，",
+      "parts": [
+        {
+          "zh": "那销售就说哎呀最近工作压力大呀，",
+          "vi": "Thì người bán hàng nói ôi dạo này áp lực công việc lớn quá,"
+        },
+        {
+          "zh": "然后可能呃家庭压力也大呀，",
+          "vi": "rồi, ờ, áp lực gia đình cũng lớn,"
+        }
+      ]
+    },
+    "179": {
+      "zh": "然后一直这个单子也拿不下来，可能如果再拿不下来，我可能就要滚蛋了。",
+      "parts": [
+        {
+          "zh": "然后一直这个单子也拿不下来，",
+          "vi": "rồi đơn này mãi không chốt được,"
+        },
+        {
+          "zh": "可能如果再拿不下来，",
+          "vi": "nếu lần này mà vẫn không chốt được,"
+        },
+        {
+          "zh": "我可能就要滚蛋了。",
+          "vi": "chắc tôi bị cho nghỉ việc mất."
+        }
+      ]
+    },
+    "180": {
+      "zh": "那么喝完酒的那人就说哎这不是小问题吗？",
+      "parts": [
+        {
+          "zh": "那么喝完酒的那人就说",
+          "vi": "Thế là người đã uống say kia nói"
+        },
+        {
+          "zh": "哎这不是小问题吗？",
+          "vi": "ơ, đây chẳng phải chuyện nhỏ sao?"
+        }
+      ]
+    },
+    "181": {
+      "zh": "啊，直接直接签了。",
+      "vi": "À, ký luôn, ký luôn."
+    },
+    "182": {
+      "zh": "就说白了啊，就是喝酒这个事儿吧，他真的就是呃，看你俩有没有这个做朋友的缘分。",
+      "parts": [
+        {
+          "zh": "就说白了啊，就是喝酒这个事儿吧，",
+          "vi": "Nói trắng ra thì, chuyện uống rượu ấy,"
+        },
+        {
+          "zh": "他真的就是呃，",
+          "vi": "thật ra là, ờ,"
+        },
+        {
+          "zh": "看你俩有没有这个做朋友的缘分。",
+          "vi": "xem hai người có duyên làm bạn hay không."
+        }
+      ]
+    },
+    "183": {
+      "zh": "就是如果说你跟这个客户出去喝酒，在在喝酒的过程中，他喜不喜欢你这个人，",
+      "parts": [
+        {
+          "zh": "就是如果说你跟这个客户出去喝酒，",
+          "vi": "Nếu bạn đi uống rượu với khách hàng này,"
+        },
+        {
+          "zh": "在在喝酒的过程中，",
+          "vi": "trong lúc uống,"
+        },
+        {
+          "zh": "他喜不喜欢你这个人，",
+          "vi": "họ có thích con người bạn hay không,"
+        }
+      ]
+    },
+    "184": {
+      "zh": "他能够看得出来，他肯定是会更愿意去跟跟自己聊得来的，然后能喝酒喝到一块儿去的啊，",
+      "parts": [
+        {
+          "zh": "他能够看得出来，他肯定是会更愿意",
+          "vi": "họ nhìn ra được, chắc chắn họ sẽ muốn"
+        },
+        {
+          "zh": "去跟跟自己聊得来的，",
+          "vi": "làm với người nói chuyện hợp với mình,"
+        },
+        {
+          "zh": "然后能喝酒喝到一块儿去的啊，",
+          "vi": "rồi uống rượu cũng hợp nhau,"
+        }
+      ]
+    },
+    "185": {
+      "zh": "做生意对吧？",
+      "vi": "làm ăn, đúng không?"
+    },
+    "186": {
+      "zh": "按道理啊，销售的去拉动客户。",
+      "vi": "Theo lý thì người bán hàng phải khuấy động khách hàng."
+    },
+    "187": {
+      "zh": "因为客户很有可能是内向的人，让他喝喝尽兴之后，那么内向的人他也变成外向的人，",
+      "parts": [
+        {
+          "zh": "因为客户很有可能是内向的人，",
+          "vi": "Vì khách hàng rất có thể là người hướng nội,"
+        },
+        {
+          "zh": "让他喝喝尽兴之后，",
+          "vi": "cho họ uống tận hứng rồi,"
+        },
+        {
+          "zh": "那么内向的人他也变成外向的人，",
+          "vi": "thì người hướng nội cũng thành hướng ngoại,"
+        }
+      ]
+    },
+    "188": {
+      "zh": "那么大家在这个酒桌上就会变得开心了，然后氛围就会变得更好，什么话都能谈了。",
+      "parts": [
+        {
+          "zh": "那么大家在这个酒桌上",
+          "vi": "thế là mọi người trên bàn nhậu"
+        },
+        {
+          "zh": "就会变得开心了，",
+          "vi": "sẽ vui vẻ hẳn,"
+        },
+        {
+          "zh": "然后氛围就会变得更好，",
+          "vi": "bầu không khí cũng tốt hơn,"
+        },
+        {
+          "zh": "什么话都能谈了。",
+          "vi": "chuyện gì cũng bàn được."
+        }
+      ]
+    },
+    "189": {
+      "zh": "你你不知道就怎么开口，或者你你根本不知道就有什么节目，那么客户就觉得没什么意思了，",
+      "parts": [
+        {
+          "zh": "你你不知道就怎么开口，",
+          "vi": "Bạn mà không biết mở lời thế nào,"
+        },
+        {
+          "zh": "或者你你根本不知道就有什么节目，",
+          "vi": "hoặc hoàn toàn không biết bày trò vui gì,"
+        },
+        {
+          "zh": "那么客户就觉得没什么意思了，",
+          "vi": "thì khách sẽ thấy chẳng có gì thú vị,"
+        }
+      ]
+    },
+    "190": {
+      "zh": "他可能会找个幌子、找个理由说：“哎呦，公司有点事情很急，那我可能要先撤了。”",
+      "parts": [
+        {
+          "zh": "他可能会找个幌子、找个理由说：",
+          "vi": "họ có thể kiếm cớ, kiếm lý do nói:"
+        },
+        {
+          "zh": "“哎呦，公司有点事情很急，",
+          "vi": "\"Ôi, công ty có chút việc gấp,"
+        },
+        {
+          "zh": "那我可能要先撤了。”",
+          "vi": "chắc tôi phải về trước.\""
+        }
+      ]
+    },
+    "191": {
+      "zh": "那么你既然留不住客户，那就。",
+      "vi": "Thế bạn đã không giữ được khách, thì."
+    },
+    "192": {
+      "zh": "那就完了，那那这个生意就没得谈。",
+      "vi": "Thì xong, vụ làm ăn này khỏi bàn."
+    },
+    "193": {
+      "zh": "人家真的是过来吃顿饭嘛，是吧？",
+      "vi": "Người ta đúng là chỉ đến ăn một bữa cơm thôi, phải không?"
+    },
+    "194": {
+      "zh": "就是说到喝酒啊，就是我感觉在酒桌上，如果是比较正式的场合的话，还是有挺多规矩的。",
+      "parts": [
+        {
+          "zh": "就是说到喝酒啊，",
+          "vi": "Nói đến uống rượu,"
+        },
+        {
+          "zh": "就是我感觉在酒桌上，",
+          "vi": "mình thấy trên bàn nhậu,"
+        },
+        {
+          "zh": "如果是比较正式的场合的话，",
+          "vi": "nếu là dịp khá trang trọng,"
+        },
+        {
+          "zh": "还是有挺多规矩的。",
+          "vi": "thì vẫn có khá nhiều quy tắc."
+        }
+      ]
+    },
+    "195": {
+      "zh": "那我们酒桌上都有哪些规矩呢？",
+      "vi": "Vậy trên bàn nhậu của bọn mình có những quy tắc nào?"
+    },
+    "196": {
+      "zh": "你来跟大家",
+      "vi": "Bạn kể cho mọi người"
+    },
+    "197": {
+      "zh": "讲一讲。",
+      "vi": "nghe với."
+    },
+    "198": {
+      "zh": "呃，酒桌上的规矩，座位上它就已经有一个呃很明确的规定了，就是左尊右次，上尊下次。",
+      "parts": [
+        {
+          "zh": "呃，酒桌上的规矩，",
+          "vi": "Ờ, quy tắc trên bàn nhậu,"
+        },
+        {
+          "zh": "座位上它就已经有一个",
+          "vi": "chỗ ngồi đã có một"
+        },
+        {
+          "zh": "呃很明确的规定了，",
+          "vi": "ờ, quy định rất rõ ràng,"
+        },
+        {
+          "zh": "就是左尊右次，上尊下次。",
+          "vi": "là bên trái trên bên phải, phía trên trên phía dưới."
+        }
+      ]
+    },
+    "199": {
+      "zh": "那么门对应的位置，它就也是主位，也是上位，所以这个位置是给最尊敬的人坐的。",
+      "parts": [
+        {
+          "zh": "那么门对应的位置，",
+          "vi": "Vị trí đối diện cửa"
+        },
+        {
+          "zh": "它就也是主位，也是上位，",
+          "vi": "là ghế chủ, cũng là ghế trên,"
+        },
+        {
+          "zh": "所以这个位置是给最尊敬的人坐的。",
+          "vi": "nên chỗ này dành cho người được tôn kính nhất."
+        }
+      ]
+    },
+    "200": {
+      "zh": "那如果说我不知道",
+      "vi": "Thế nếu mình không biết"
+    },
+    "201": {
+      "zh": "呢？",
+      "vi": "thì sao?"
+    },
+    "202": {
+      "zh": "那我不就坐错了吗？",
+      "vi": "Thế chẳng phải mình ngồi nhầm à?"
+    },
+    "203": {
+      "zh": "坐错了会怎么怎么办？",
+      "vi": "Ngồi nhầm thì làm sao?"
+    },
+    "204": {
+      "zh": "坐错位",
+      "vi": "Ngồi nhầm chỗ"
+    },
+    "205": {
+      "zh": "置是个大不敬的事情嘛！",
+      "vi": "là chuyện cực kỳ bất kính!"
+    },
+    "206": {
+      "zh": "就假设你是一个小职员，呃，那么你你如果坐了领导的位置，",
+      "parts": [
+        {
+          "zh": "就假设你是一个小职员，",
+          "vi": "Giả sử bạn là một nhân viên quèn,"
+        },
+        {
+          "zh": "呃，那么你你如果坐了领导的位置，",
+          "vi": "ờ, nếu bạn ngồi vào chỗ của sếp,"
+        }
+      ]
+    },
+    "207": {
+      "zh": "那么人家就就会觉得你这个人可能不懂事啊！",
+      "parts": [
+        {
+          "zh": "那么人家就就会觉得",
+          "vi": "thì người ta sẽ cảm thấy"
+        },
+        {
+          "zh": "你这个人可能不懂事啊！",
+          "vi": "bạn là người không biết điều!"
+        }
+      ]
+    },
+    "208": {
+      "zh": "你连自己坐什么位置你都不知道。",
+      "vi": "Đến chỗ mình nên ngồi mà bạn cũng không biết."
+    },
+    "209": {
+      "zh": "不",
+      "vi": "Nhưng"
+    },
+    "210": {
+      "zh": "过不过你有没有经常看到这这种的？",
+      "vi": "mà bạn có hay gặp cảnh này không?"
+    },
+    "211": {
+      "zh": "就是领导人之间如果一起去吃饭喝酒就会为了谁坐位置",
+      "parts": [
+        {
+          "zh": "就是领导人之间",
+          "vi": "Kiểu giữa các vị lãnh đạo,"
+        },
+        {
+          "zh": "如果一起去吃饭喝酒",
+          "vi": "nếu cùng đi ăn uống"
+        },
+        {
+          "zh": "就会为了谁坐位置",
+          "vi": "thì sẽ vì chuyện ai ngồi chỗ nào"
+        }
+      ]
+    },
+    "212": {
+      "zh": "互相来推乙方请甲方吃饭那乙方就老板请甲方老板你来坐他说你是贵宾你是贵客然后你来做主位",
+      "parts": [
+        {
+          "zh": "互相来推",
+          "vi": "mà nhường qua nhường lại."
+        },
+        {
+          "zh": "乙方请甲方吃饭",
+          "vi": "Bên B mời bên A đi ăn,"
+        },
+        {
+          "zh": "那乙方就老板请甲方老板你来坐",
+          "vi": "thì sếp bên B mời sếp bên A: anh ngồi đi,"
+        },
+        {
+          "zh": "他说你是贵宾你是贵客",
+          "vi": "anh là khách quý, anh là thượng khách,"
+        },
+        {
+          "zh": "然后你来做主位",
+          "vi": "anh ngồi ghế chủ đi."
+        }
+      ]
+    },
+    "213": {
+      "zh": "那么甲方的老板又不好意思去坐这个位置因为他说你是东家你坐其实这个位置早已经定下来是谁坐",
+      "parts": [
+        {
+          "zh": "那么甲方的老板",
+          "vi": "Thế là sếp bên A"
+        },
+        {
+          "zh": "又不好意思去坐这个位置",
+          "vi": "lại ngại ngồi vào chỗ đó,"
+        },
+        {
+          "zh": "因为他说你是东家你坐",
+          "vi": "vì ông ấy bảo anh là chủ nhà, anh ngồi đi."
+        },
+        {
+          "zh": "其实这个位置早已经定下来是谁坐",
+          "vi": "Thật ra chỗ này ai ngồi đã định sẵn từ lâu rồi,"
+        }
+      ]
+    },
+    "215": {
+      "zh": "的只是说要客气一下嗯，我感觉中国人就喜欢，特别是那种正式的场合，就喜欢假客气，",
+      "parts": [
+        {
+          "zh": "的只是说要客气一下",
+          "vi": "chỉ là phải khách sáo một chút."
+        },
+        {
+          "zh": "嗯，我感觉中国人就喜欢，",
+          "vi": "Ừm, mình thấy người Trung Quốc thích,"
+        },
+        {
+          "zh": "特别是那种正式的场合，",
+          "vi": "nhất là ở những dịp trang trọng,"
+        },
+        {
+          "zh": "就喜欢假客气，",
+          "vi": "thích khách sáo giả,"
+        }
+      ]
+    },
+    "216": {
+      "zh": "然后显显得都有点虚伪。",
+      "vi": "rồi trông ai cũng có vẻ hơi giả tạo."
+    },
+    "217": {
+      "zh": "就比如说我要真不让你坐主位的话，你肯定就不高",
+      "parts": [
+        {
+          "zh": "就比如说我要真不让你坐主位的话，",
+          "vi": "Ví dụ nếu mình thật sự không cho bạn ngồi ghế chủ,"
+        },
+        {
+          "zh": "你肯定就不高",
+          "vi": "thì chắc chắn bạn không"
+        }
+      ]
+    },
+    "218": {
+      "zh": "兴了。",
+      "vi": "vui rồi."
+    },
+    "219": {
+      "zh": "那肯定的。",
+      "vi": "Chắc chắn rồi."
+    },
+    "220": {
+      "zh": "所以所以",
+      "vi": "Nên nên"
+    },
+    "221": {
+      "zh": "所以我们有我们很多时候是口是心非。",
+      "parts": [
+        {
+          "zh": "所以我们有我们很多时候",
+          "vi": "Nên bọn mình nhiều lúc"
+        },
+        {
+          "zh": "是口是心非。",
+          "vi": "là nói một đằng nghĩ một nẻo."
+        }
+      ]
+    },
+    "222": {
+      "zh": "比如说你问朋友，哎，你你要不要呃吃呃什么水果，或者你要不要喝饮料？",
+      "parts": [
+        {
+          "zh": "比如说你问朋友，",
+          "vi": "Ví dụ bạn hỏi một người bạn,"
+        },
+        {
+          "zh": "哎，你你要不要呃吃呃什么水果，",
+          "vi": "ơ, cậu có muốn, ờ, ăn, ờ, trái cây gì không,"
+        },
+        {
+          "zh": "或者你要不要喝饮料？",
+          "vi": "hay có muốn uống nước gì không?"
+        }
+      ]
+    },
+    "223": {
+      "zh": "可能你那个朋友说哦不用了，就是跟你客气一下。",
+      "parts": [
+        {
+          "zh": "可能你那个朋友说哦不用了，",
+          "vi": "Có khi người bạn đó nói ồ không cần đâu,"
+        },
+        {
+          "zh": "就是跟你客气一下。",
+          "vi": "là chỉ khách sáo với bạn thôi."
+        }
+      ]
+    },
+    "224": {
+      "zh": "你要真不给人家拿的话，他可能觉得你这个人怎么这么不懂礼貌？",
+      "parts": [
+        {
+          "zh": "你要真不给人家拿的话，他可能觉得",
+          "vi": "Nếu bạn thật sự không lấy cho người ta, thì họ có khi nghĩ"
+        },
+        {
+          "zh": "你这个人怎么这么不懂礼貌？",
+          "vi": "sao người này bất lịch sự thế?"
+        }
+      ]
+    },
+    "225": {
+      "zh": "我又不是真的不喝。",
+      "vi": "Tôi đâu phải thật sự không uống."
+    },
+    "226": {
+      "zh": "这个就是有一点中西方的文化差异，就是感觉西方人可能有会这样子，你要你要说不喝的话，",
+      "parts": [
+        {
+          "zh": "这个就是有一点中西方的文化差异，",
+          "vi": "Đây là chút khác biệt văn hóa Đông – Tây,"
+        },
+        {
+          "zh": "就是感觉西方人可能有会这样子，",
+          "vi": "kiểu cảm giác người phương Tây có thể sẽ thế này,"
+        },
+        {
+          "zh": "你要你要说不喝的话，",
+          "vi": "nếu bạn nói không uống,"
+        }
+      ]
+    },
+    "227": {
+      "zh": "他就真的不给你拿了，因为他觉得你都说了不喝，我再给你拿，那我不是不尊重你的意愿了吗？",
+      "parts": [
+        {
+          "zh": "他就真的不给你拿了，",
+          "vi": "thì họ thật sự sẽ không lấy cho bạn,"
+        },
+        {
+          "zh": "因为他觉得你都说了不喝，",
+          "vi": "vì họ nghĩ bạn đã nói không uống rồi,"
+        },
+        {
+          "zh": "我再给你拿，",
+          "vi": "tôi lại lấy cho bạn,"
+        },
+        {
+          "zh": "那我不是不尊重你的意愿了吗？",
+          "vi": "chẳng phải là không tôn trọng ý muốn của bạn sao?"
+        }
+      ]
+    },
+    "228": {
+      "zh": "但是中国人不是，中国人",
+      "vi": "Nhưng người Trung Quốc thì không, người Trung Quốc"
+    },
+    "229": {
+      "zh": "是客气。",
+      "vi": "là khách sáo."
+    },
+    "230": {
+      "zh": "中国人就这样的，我可以不喝这杯水，但是你不能不叫我，你不能不给我端。",
+      "parts": [
+        {
+          "zh": "中国人就这样的，我可以不喝这杯水，",
+          "vi": "Người Trung Quốc là vậy, tôi có thể không uống ly nước này,"
+        },
+        {
+          "zh": "但是你不能不叫我，你不能不给我端。",
+          "vi": "nhưng bạn không thể không mời tôi, không thể không bưng cho tôi."
+        }
+      ]
+    },
+    "231": {
+      "zh": "哎，对",
+      "vi": "Ơ, đúng"
+    },
+    "232": {
+      "zh": "对对，嗯，还有什么规矩",
+      "vi": "đúng đúng, ừm, còn quy tắc gì"
+    },
+    "233": {
+      "zh": "呢？",
+      "vi": "nữa?"
+    },
+    "234": {
+      "zh": "还有一个就比较一个重要的嘛，就是说还有一个倒酒啊。",
+      "parts": [
+        {
+          "zh": "还有一个就比较一个重要的嘛，",
+          "vi": "Còn một cái khá quan trọng,"
+        },
+        {
+          "zh": "就是说还有一个倒酒啊。",
+          "vi": "là chuyện rót rượu."
+        }
+      ]
+    },
+    "235": {
+      "zh": "我们倒酒不能倒到满，也不能倒得溢。",
+      "vi": "Bọn mình rót rượu không được rót đầy, cũng không được rót tràn."
+    },
+    "236": {
+      "zh": "就是你那个酒，呃，倒的八分满。",
+      "vi": "Tức là ly rượu ấy, ờ, rót tám phần thôi."
+    },
+    "237": {
+      "zh": "因为我们在接酒的时候，我们手是双手的，双手扶杯的。",
+      "parts": [
+        {
+          "zh": "因为我们在接酒的时候，",
+          "vi": "Vì lúc nhận rượu,"
+        },
+        {
+          "zh": "我们手是双手的，双手扶杯的。",
+          "vi": "bọn mình dùng hai tay, hai tay đỡ ly."
+        }
+      ]
+    },
+    "238": {
+      "zh": "那么这个时候，如果呃别人给你倒酒，那么这个酒溢出来了，那可能打湿到你的手指头，",
+      "parts": [
+        {
+          "zh": "那么这个时候，如果呃别人给你倒酒，",
+          "vi": "Thế nên lúc này, nếu, ờ, người khác rót rượu cho bạn,"
+        },
+        {
+          "zh": "那么这个酒溢出来了，",
+          "vi": "mà rượu tràn ra,"
+        },
+        {
+          "zh": "那可能打湿到你的手指头，",
+          "vi": "thì có thể làm ướt ngón tay bạn,"
+        }
+      ]
+    },
+    "239": {
+      "zh": "就会显得很很不",
+      "vi": "trông sẽ rất, rất thiếu"
+    },
+    "240": {
+      "zh": "雅。",
+      "vi": "tế nhị."
+    },
+    "241": {
+      "zh": "我我以前就是以前在呃我老板教我的，就别人在给你倒酒的时候，你得要。呃，叩两下桌",
+      "parts": [
+        {
+          "zh": "我我以前就是以前在",
+          "vi": "Mình hồi trước, hồi trước ở"
+        },
+        {
+          "zh": "呃我老板教我的，",
+          "vi": "ờ, sếp mình dạy mình,"
+        },
+        {
+          "zh": "就别人在给你倒酒的时候，",
+          "vi": "là khi người khác rót rượu cho bạn,"
+        },
+        {
+          "zh": "你得要。呃，叩两下桌",
+          "vi": "bạn phải. Ờ, gõ hai cái lên"
+        }
+      ]
+    },
+    "243": {
+      "zh": "子。",
+      "vi": "bàn."
+    },
+    "244": {
+      "zh": "对我我了解过，他是秦始一个叩礼清朝的一个皇帝嘛，他叫乾隆。",
+      "parts": [
+        {
+          "zh": "对我我了解过，",
+          "vi": "Đúng, mình có tìm hiểu,"
+        },
+        {
+          "zh": "他是秦始一个叩礼",
+          "vi": "chuyện là về một"
+        },
+        {
+          "zh": "清朝的一个皇帝嘛，他叫乾隆。",
+          "vi": "vị hoàng đế nhà Thanh, tên là Càn Long."
+        }
+      ]
+    },
+    "245": {
+      "zh": "然后他微服私访的时候，跟大臣们一起在民间的餐馆吃饭。",
+      "parts": [
+        {
+          "zh": "然后他微服私访的时候，",
+          "vi": "Ông ấy lúc cải trang vi hành,"
+        },
+        {
+          "zh": "跟大臣们一起在民间的餐馆吃饭。",
+          "vi": "cùng các đại thần ăn ở một quán ăn trong dân gian."
+        }
+      ]
+    },
+    "246": {
+      "zh": "嗯。",
+      "vi": "Ừm."
+    },
+    "247": {
+      "zh": "那皇帝说：“哎呀，天天待在皇宫，你们终于出来吃饭了，不用去在乎一些繁文缛节了。”",
+      "parts": [
+        {
+          "zh": "那皇帝说：“哎呀，天天待在皇宫，",
+          "vi": "Hoàng đế nói: \"Chà, ngày nào cũng ở trong cung,"
+        },
+        {
+          "zh": "你们终于出来吃饭了，",
+          "vi": "cuối cùng các khanh cũng được ra ngoài ăn,"
+        },
+        {
+          "zh": "不用去在乎一些繁文缛节了。”",
+          "vi": "không phải bận tâm mấy lễ nghi rườm rà nữa.\""
+        }
+      ]
+    },
+    "248": {
+      "zh": "然后就兴致来了，那么给大家那些大臣，然后倒茶。",
+      "parts": [
+        {
+          "zh": "然后就兴致来了，",
+          "vi": "Rồi hứng lên,"
+        },
+        {
+          "zh": "那么给大家那些大臣，然后倒茶。",
+          "vi": "thế là rót trà cho mấy vị đại thần."
+        }
+      ]
+    },
+    "249": {
+      "zh": "大臣们哪受到过这种待遇啊？",
+      "vi": "Các đại thần đã bao giờ được đối đãi thế này đâu?"
+    },
+    "250": {
+      "zh": "立马就吓坏了，不知道怎么办。",
+      "vi": "Lập tức sợ chết khiếp, không biết làm sao."
+    },
+    "251": {
+      "zh": "因为按照规矩，他们是要跪下来，然后叩头，然后表示这个感谢的嘛。",
+      "parts": [
+        {
+          "zh": "因为按照规矩，他们是要跪下来，",
+          "vi": "Vì theo phép tắc, họ phải quỳ xuống,"
+        },
+        {
+          "zh": "然后叩头，然后表示这个感谢的嘛。",
+          "vi": "rồi dập đầu, để tỏ lòng cảm tạ."
+        }
+      ]
+    },
+    "252": {
+      "zh": "但这个时候，他们叩也不行，不叩也不行，因为皇帝在微服私访，",
+      "parts": [
+        {
+          "zh": "但这个时候，",
+          "vi": "Nhưng lúc này,"
+        },
+        {
+          "zh": "他们叩也不行，不叩也不行，",
+          "vi": "họ dập đầu cũng không được, không dập đầu cũng không xong,"
+        },
+        {
+          "zh": "因为皇帝在微服私访，",
+          "vi": "vì hoàng đế đang vi hành,"
+        }
+      ]
+    },
+    "253": {
+      "zh": "大臣们叩头就会暴露皇帝的身份；不叩头又害怕会被治一个不敬之罪。",
+      "parts": [
+        {
+          "zh": "大臣们叩头就会暴露皇帝的身份；",
+          "vi": "các đại thần dập đầu là sẽ lộ thân phận hoàng đế;"
+        },
+        {
+          "zh": "不叩头又害怕会被治一个不敬之罪。",
+          "vi": "không dập đầu lại sợ bị khép tội bất kính."
+        }
+      ]
+    },
+    "254": {
+      "zh": "然后就有一个反应的很快的那个大臣，他脑袋里面的灯泡灯亮了一下，",
+      "parts": [
+        {
+          "zh": "然后就有一个",
+          "vi": "Rồi có một"
+        },
+        {
+          "zh": "反应的很快的那个大臣，",
+          "vi": "vị đại thần phản ứng rất nhanh,"
+        },
+        {
+          "zh": "他脑袋里面的灯泡灯亮了一下，",
+          "vi": "trong đầu bỗng lóe lên một bóng đèn,"
+        }
+      ]
+    },
+    "255": {
+      "zh": "然后就在那个皇帝倒茶的时候，他用自己的食指跟中指在桌子上。叩了几下，嗯，然后用用这个叩首的谐音“叩手”来代替。",
+      "parts": [
+        {
+          "zh": "然后就在那个皇帝倒茶的时候，",
+          "vi": "đúng lúc hoàng đế rót trà,"
+        },
+        {
+          "zh": "他用自己的食指跟中指",
+          "vi": "ông ta dùng ngón trỏ với ngón giữa của mình"
+        },
+        {
+          "zh": "在桌子上。叩了几下，嗯，",
+          "vi": "gõ lên bàn. Gõ mấy cái, ừm,"
+        },
+        {
+          "zh": "然后用用这个",
+          "vi": "rồi dùng"
+        },
+        {
+          "zh": "叩首的谐音“叩手”来代替。",
+          "vi": "\"叩手\" (gõ tay), đồng âm với \"叩首\" (dập đầu), để thay thế."
+        }
+      ]
+    },
+    "257": {
+      "zh": "对对，首跟手。",
+      "vi": "Đúng đúng, 首 (đầu) với 手 (tay) đọc giống nhau."
+    },
+    "258": {
+      "zh": "那有有有一些可能不知道这个中国古代历史的外国人就会问了：那不叩首会怎么样",
+      "parts": [
+        {
+          "zh": "那有有有一些可能不知道",
+          "vi": "Thế thì có, có, có một số"
+        },
+        {
+          "zh": "这个中国古代历史的外国人",
+          "vi": "người nước ngoài không biết lịch sử cổ đại Trung Quốc"
+        },
+        {
+          "zh": "就会问了：那不叩首会怎么样",
+          "vi": "sẽ hỏi: thế không dập đầu thì sao"
+        }
+      ]
+    },
+    "259": {
+      "zh": "呢？",
+      "vi": "chứ?"
+    },
+    "260": {
+      "zh": "那得看皇帝的心情啦。",
+      "vi": "Thì phải xem tâm trạng hoàng đế thôi."
+    },
+    "261": {
+      "zh": "就是如果皇帝心情不好，你不叩可以啊。",
+      "parts": [
+        {
+          "zh": "就是如果皇帝心情不好，",
+          "vi": "Nếu tâm trạng hoàng đế không tốt,"
+        },
+        {
+          "zh": "你不叩可以啊。",
+          "vi": "bạn cứ thử không dập đầu xem."
+        }
+      ]
+    },
+    "262": {
+      "zh": "那直接就是大不敬砍头啊！",
+      "vi": "Thì đó là tội đại bất kính, chém đầu luôn đấy!"
+    },
+    "263": {
+      "zh": "嗯，伴君如伴虎啊，就是你在皇帝身边。",
+      "vi": "Ừm, gần vua như gần cọp mà, tức là bạn ở bên cạnh hoàng đế,"
+    },
+    "264": {
+      "zh": "说错了一句话，那么就可能有大不敬之罪，或者有一些什么呃乱七八糟的罪名就直接安在你头上。",
+      "parts": [
+        {
+          "zh": "说错了一句话，",
+          "vi": "lỡ nói sai một câu,"
+        },
+        {
+          "zh": "那么就可能有大不敬之罪，",
+          "vi": "là có thể bị tội đại bất kính,"
+        },
+        {
+          "zh": "或者有一些什么呃乱七八糟的罪名",
+          "vi": "hoặc mấy cái tội danh, ờ, lung tung gì đó"
+        },
+        {
+          "zh": "就直接安在你头上。",
+          "vi": "bị gán thẳng lên đầu bạn."
+        }
+      ]
+    },
+    "265": {
+      "zh": "所以说，大臣呢，他在陪伴皇帝的时候啊，都是很小心翼翼的。",
+      "parts": [
+        {
+          "zh": "所以说，大臣呢，",
+          "vi": "Nên các đại thần"
+        },
+        {
+          "zh": "他在陪伴皇帝的时候啊，",
+          "vi": "khi ở bên hoàng đế,"
+        },
+        {
+          "zh": "都是很小心翼翼的。",
+          "vi": "ai cũng hết sức thận trọng."
+        }
+      ]
+    },
+    "266": {
+      "zh": "但是就这个这个一个故事嘛，民间故事嘛，也就是慢慢的把这个传统给延续下来了。",
+      "parts": [
+        {
+          "zh": "但是就这个这个一个故事嘛，",
+          "vi": "Nhưng câu chuyện này,"
+        },
+        {
+          "zh": "民间故事嘛，也就是慢慢的",
+          "vi": "là truyện dân gian thôi, rồi dần dần"
+        },
+        {
+          "zh": "把这个传统给延续下来了。",
+          "vi": "cái truyền thống này được giữ đến nay."
+        }
+      ]
+    },
+    "267": {
+      "zh": "就大家也都在学习这个大臣来表示感谢",
+      "parts": [
+        {
+          "zh": "就大家也都在学习",
+          "vi": "Mọi người cũng đều học theo"
+        },
+        {
+          "zh": "这个大臣来表示感谢",
+          "vi": "vị đại thần này để tỏ lòng cảm ơn"
+        }
+      ]
+    },
+    "268": {
+      "zh": "嘛。",
+      "vi": "đấy."
+    },
+    "269": {
+      "zh": "嗯，比如说你同事给你倒酒，或者你朋友给我。",
+      "parts": [
+        {
+          "zh": "嗯，比如说你同事给你倒酒，",
+          "vi": "Ừm, ví dụ đồng nghiệp rót rượu cho bạn,"
+        },
+        {
+          "zh": "或者你朋友给我。",
+          "vi": "hoặc bạn bè của bạn"
+        }
+      ]
+    },
+    "270": {
+      "zh": "跟你倒酒，你会行这个叩首礼",
+      "vi": "rót rượu cho bạn, bạn có làm cái lễ khấu tạ này"
+    },
+    "271": {
+      "zh": "吗？",
+      "vi": "không?"
+    },
+    "272": {
+      "zh": "呃，别人可能倒茶倒酒，我看到有的人会行叩首礼，但是我更多的是双手扶杯，",
+      "parts": [
+        {
+          "zh": "呃，别人可能倒茶倒酒，",
+          "vi": "Ờ, người khác rót trà rót rượu thì,"
+        },
+        {
+          "zh": "我看到有的人会行叩首礼，",
+          "vi": "mình thấy có người làm lễ khấu tạ này,"
+        },
+        {
+          "zh": "但是我更多的是双手扶杯，",
+          "vi": "nhưng mình thì thường đỡ ly bằng hai tay,"
+        }
+      ]
+    },
+    "273": {
+      "zh": "然后我可能说呃谢谢谢谢。",
+      "vi": "rồi có khi nói, ờ, cảm ơn cảm ơn."
+    },
+    "274": {
+      "zh": "哎，对，我觉得是一样的，就不一定要就大家都做一",
+      "parts": [
+        {
+          "zh": "哎，对，我觉得是一样的，",
+          "vi": "Ơ, đúng, mình thấy cũng như nhau,"
+        },
+        {
+          "zh": "就不一定要就大家都做一",
+          "vi": "không nhất định ai cũng phải làm"
+        }
+      ]
+    },
+    "275": {
+      "zh": "样的啊。",
+      "vi": "giống nhau."
+    },
+    "276": {
+      "zh": "之前有一个网友会讲嘛，就是微博上的网友会讲，呃中国嘛，知道吗？",
+      "parts": [
+        {
+          "zh": "之前有一个网友会讲嘛，",
+          "vi": "Trước có một cư dân mạng nói,"
+        },
+        {
+          "zh": "就是微博上的网友会讲，",
+          "vi": "là cư dân mạng trên Weibo nói,"
+        },
+        {
+          "zh": "呃中国嘛，知道吗？",
+          "vi": "ờ, Trung Quốc ấy, biết không?"
+        }
+      ]
+    },
+    "277": {
+      "zh": "就算爱因斯坦他要经费也一样，你也要搞清楚主陪副陪啥的。",
+      "parts": [
+        {
+          "zh": "就算爱因斯坦他要经费也一样，",
+          "vi": "Dù là Einstein muốn xin kinh phí cũng vậy,"
+        },
+        {
+          "zh": "你也要搞清楚主陪副陪啥的。",
+          "vi": "cũng phải nắm rõ ai là chủ tiệc, ai là phó tiệc."
+        }
+      ]
+    },
+    "278": {
+      "zh": "光这个他都得研究三年，他哪有时间去写那个相对论呢？",
+      "parts": [
+        {
+          "zh": "光这个他都得研究三年，",
+          "vi": "Riêng chuyện này ông ấy cũng phải nghiên cứu mất ba năm,"
+        },
+        {
+          "zh": "他哪有时间去写那个相对论呢？",
+          "vi": "thì còn đâu thời gian mà viết thuyết tương đối?"
+        }
+      ]
+    },
+    "279": {
+      "zh": "对，所以我觉得",
+      "vi": "Đúng, nên mình thấy"
+    },
+    "280": {
+      "zh": "中国人就就喜欢，就是感觉规矩很多。",
+      "vi": "người Trung Quốc cứ thích, kiểu cảm giác quy tắc nhiều lắm."
+    },
+    "281": {
+      "zh": "其实敬酒也是有很多规矩的，我以前也是不知道的。",
+      "parts": [
+        {
+          "zh": "其实敬酒也是有很多规矩的，",
+          "vi": "Thật ra mời rượu cũng có rất nhiều quy tắc,"
+        },
+        {
+          "zh": "我以前也是不知道的。",
+          "vi": "trước đây mình cũng không biết."
+        }
+      ]
+    },
+    "282": {
+      "zh": "就比如说这是客户的杯子，这是我的杯子，那我要放低一点，表示我把自己的身份拉低来尊敬他。",
+      "parts": [
+        {
+          "zh": "就比如说这是客户的杯子，",
+          "vi": "Ví dụ đây là ly của khách hàng,"
+        },
+        {
+          "zh": "这是我的杯子，那我要放低一点，",
+          "vi": "đây là ly của mình, thì mình phải hạ thấp hơn một chút,"
+        },
+        {
+          "zh": "表示我把自己的身份拉低来尊敬他。",
+          "vi": "thể hiện mình hạ thấp thân phận mình để tôn trọng họ."
+        }
+      ]
+    },
+    "283": {
+      "zh": "对，然后有的人",
+      "vi": "Đúng, rồi có người"
+    },
+    "284": {
+      "zh": "可能会速度比较快，他会扶住你的手，让你的杯子不要压低，然后自己压低一点。",
+      "parts": [
+        {
+          "zh": "可能会速度比较快，他会扶住你的手，",
+          "vi": "có khi nhanh tay hơn, họ sẽ giữ tay bạn lại,"
+        },
+        {
+          "zh": "让你的杯子不要压低，",
+          "vi": "không cho ly của bạn hạ thấp,"
+        },
+        {
+          "zh": "然后自己压低一点。",
+          "vi": "rồi tự mình hạ thấp hơn một chút."
+        }
+      ]
+    },
+    "285": {
+      "zh": "就是都在争这个压低一点，不知道吧？",
+      "vi": "Tức là ai cũng tranh hạ thấp ly, bạn không biết nhỉ?"
+    },
+    "286": {
+      "zh": "但是如果",
+      "vi": "Nhưng nếu"
+    },
+    "287": {
+      "zh": "呃，就如果说是领导敬你酒的话，你是非喝不可的。",
+      "parts": [
+        {
+          "zh": "呃，就如果说是领导敬你酒的话，",
+          "vi": "Ờ, nếu là sếp mời rượu bạn,"
+        },
+        {
+          "zh": "你是非喝不可的。",
+          "vi": "thì bạn bắt buộc phải uống."
+        }
+      ]
+    },
+    "288": {
+      "zh": "你要不喝的话，那领导就会觉得很没面子，你不给领导面子。",
+      "parts": [
+        {
+          "zh": "你要不喝的话，",
+          "vi": "Nếu bạn không uống,"
+        },
+        {
+          "zh": "那领导就会觉得很没面子，",
+          "vi": "thì sếp sẽ thấy rất mất mặt,"
+        },
+        {
+          "zh": "你不给领导面子。",
+          "vi": "bạn không nể mặt sếp."
+        }
+      ]
+    },
+    "289": {
+      "zh": "所以不管这个你平常喝不喝酒，他要敬了你的话，你就",
+      "parts": [
+        {
+          "zh": "所以不管这个你平常喝不喝酒，",
+          "vi": "Nên bất kể bình thường bạn có uống rượu hay không,"
+        },
+        {
+          "zh": "他要敬了你的话，你就",
+          "vi": "sếp đã mời bạn rồi thì bạn"
+        }
+      ]
+    },
+    "290": {
+      "zh": "得喝。",
+      "vi": "phải uống."
+    },
+    "291": {
+      "zh": "喝不下你得得吞。",
+      "vi": "Uống không nổi thì bạn cũng phải nuốt."
+    },
+    "292": {
+      "zh": "就是敬酒的时候，你的顺序也很重要，哪些身份珍贵的先敬，哪些身份就是。相对差点的往后敬，哇！",
+      "parts": [
+        {
+          "zh": "就是敬酒的时候，你的顺序也很重要，",
+          "vi": "Khi mời rượu, thứ tự cũng rất quan trọng,"
+        },
+        {
+          "zh": "哪些身份珍贵的先敬，",
+          "vi": "người nào địa vị cao quý thì mời trước,"
+        },
+        {
+          "zh": "哪些身份就是。相对差点的往后敬，哇！",
+          "vi": "người nào địa vị kiểu. Thấp hơn chút thì mời sau, oa!"
+        }
+      ]
+    },
+    "294": {
+      "zh": "那那万一你敬错了人家的那个职位，那不是很尴尬？",
+      "parts": [
+        {
+          "zh": "那那万一你敬错了人家的那个职位，",
+          "vi": "Thế lỡ bạn mời nhầm thứ tự chức vụ của người ta,"
+        },
+        {
+          "zh": "那不是很尴尬？",
+          "vi": "chẳng phải ngượng lắm sao?"
+        }
+      ]
+    },
+    "295": {
+      "zh": "敬错了，",
+      "vi": "Mời nhầm rồi,"
+    },
+    "296": {
+      "zh": "你把人家的位置放低了，你相当于是贬低人家。",
+      "parts": [
+        {
+          "zh": "你把人家的位置放低了，",
+          "vi": "là bạn hạ thấp vị trí của người ta,"
+        },
+        {
+          "zh": "你相当于是贬低人家。",
+          "vi": "tương đương với coi thường người ta."
+        }
+      ]
+    },
+    "297": {
+      "zh": "那可以可不",
+      "vi": "Thế có thể, có"
+    },
+    "298": {
+      "zh": "可以就是直接端一杯酒，然后敬所有的人来？",
+      "parts": [
+        {
+          "zh": "可以就是直接端一杯酒，",
+          "vi": "thể bưng thẳng một ly rượu"
+        },
+        {
+          "zh": "然后敬所有的人来？",
+          "vi": "rồi mời tất cả mọi người không?"
+        }
+      ]
+    },
+    "299": {
+      "zh": "我敬大家",
+      "vi": "Tôi kính mọi người"
+    },
+    "300": {
+      "zh": "一杯。",
+      "vi": "một ly."
+    },
+    "301": {
+      "zh": "不可以，你是什么身份你就敬所有人，除非你是他们的领导，你才能这样",
+      "parts": [
+        {
+          "zh": "不可以，你是什么身份你就敬所有人，",
+          "vi": "Không được, bạn là ai mà mời tất cả mọi người,"
+        },
+        {
+          "zh": "除非你是他们的领导，你才能这样",
+          "vi": "trừ khi bạn là lãnh đạo của họ thì mới được làm"
+        }
+      ]
+    },
+    "302": {
+      "zh": "做。",
+      "vi": "vậy."
+    },
+    "303": {
+      "zh": "哎，我之前看到过一个新闻啊，就说当时是在一个比较比较重大的一个场合吧。",
+      "parts": [
+        {
+          "zh": "哎，我之前看到过一个新闻啊，",
+          "vi": "Ơ, trước mình có đọc một tin,"
+        },
+        {
+          "zh": "就说当时是在一个",
+          "vi": "nói là lúc đó ở một"
+        },
+        {
+          "zh": "比较比较重大的一个场合吧。",
+          "vi": "dịp khá là quan trọng."
+        }
+      ]
+    },
+    "304": {
+      "zh": "然后其中的一个女明星呢就去敬另外一个歌手因为她的地位比较高一点或者说比较有名气她就说我来敬你一杯酒但是这个人呢他可能不是特别懂北方的这个喝酒的规矩他敬酒了敬完酒之后呢然后",
+      "parts": [
+        {
+          "zh": "然后其中的一个女明星呢",
+          "vi": "Rồi có một nữ minh tinh"
+        },
+        {
+          "zh": "就去敬另外一个歌手",
+          "vi": "đi mời rượu một ca sĩ khác,"
+        },
+        {
+          "zh": "因为她的地位比较高一点",
+          "vi": "vì địa vị cô ca sĩ cao hơn một chút,"
+        },
+        {
+          "zh": "或者说比较有名气",
+          "vi": "hay nói là nổi tiếng hơn,"
+        },
+        {
+          "zh": "她就说我来敬你一杯酒",
+          "vi": "cô ấy nói: em mời chị một ly,"
+        },
+        {
+          "zh": "但是这个人呢他可能不是特别懂",
+          "vi": "nhưng người này có lẽ không rành lắm"
+        },
+        {
+          "zh": "北方的这个喝酒的规矩",
+          "vi": "quy tắc uống rượu của miền Bắc,"
+        },
+        {
+          "zh": "他敬酒了敬完酒之后呢然后",
+          "vi": "cô ấy mời rượu, mời xong thì"
+        }
+      ]
+    },
+    "306": {
+      "zh": "那个歌手就说好既然你来敬我酒的话我就先干为敬他就很豪爽的把这个酒给干了结果呢，这个敬酒的这个女明星她没有喝，她就很不高兴了。",
+      "parts": [
+        {
+          "zh": "那个歌手就说好",
+          "vi": "cô ca sĩ kia nói: được,"
+        },
+        {
+          "zh": "既然你来敬我酒的话我就先干为敬",
+          "vi": "đã là em mời chị thì chị cạn trước để tỏ lòng kính,"
+        },
+        {
+          "zh": "他就很豪爽的把这个酒给干了",
+          "vi": "rồi rất hào sảng uống cạn ly đó,"
+        },
+        {
+          "zh": "结果呢，这个敬酒的这个女明星",
+          "vi": "kết quả là, cô minh tinh mời rượu"
+        },
+        {
+          "zh": "她没有喝，她就很不高兴了。",
+          "vi": "lại không uống, thế là cô ca sĩ rất không vui."
+        }
+      ]
+    },
+    "308": {
+      "zh": "那个歌手就很不高兴，他说：“哎，你这个人有意思啊！",
+      "parts": [
+        {
+          "zh": "那个歌手就很不高兴，",
+          "vi": "Cô ca sĩ rất không vui,"
+        },
+        {
+          "zh": "他说：“哎，你这个人有意思啊！",
+          "vi": "nói: \"Này, em hay nhỉ!"
+        }
+      ]
+    },
+    "309": {
+      "zh": "你来敬我酒，你自己不干，我干了。”",
+      "vi": "Em đến mời chị, em không cạn, chị thì cạn rồi.\""
+    },
+    "310": {
+      "zh": "然后他说：“你今你今天你不干的话，你就是不给我面子。”",
+      "parts": [
+        {
+          "zh": "然后他说：“你今你今天你不干的话，",
+          "vi": "Rồi cô ấy nói: \"Hôm nay em mà không cạn,"
+        },
+        {
+          "zh": "你就是不给我面子。”",
+          "vi": "là em không nể mặt chị.\""
+        }
+      ]
+    },
+    "311": {
+      "zh": "结果呢，这个这个女明星没有办法，她就喝了。",
+      "parts": [
+        {
+          "zh": "结果呢，这个这个女明星没有办法，",
+          "vi": "Kết quả là cô minh tinh hết cách,"
+        },
+        {
+          "zh": "她就喝了。",
+          "vi": "đành uống."
+        }
+      ]
+    },
+    "312": {
+      "zh": "喝了之后，当场这个脸上就出了疹子。",
+      "vi": "Uống xong, mặt nổi mẩn ngay tại chỗ."
+    },
+    "313": {
+      "zh": "他说他他喝酒会会过敏，就是身上会起疹子。",
+      "parts": [
+        {
+          "zh": "他说他他喝酒会会过敏，",
+          "vi": "Cô ấy nói mình uống rượu là bị dị ứng,"
+        },
+        {
+          "zh": "就是身上会起疹子。",
+          "vi": "người nổi mẩn."
+        }
+      ]
+    },
+    "314": {
+      "zh": "然后这个女歌手后面向他道歉嘛，向这个女明星。",
+      "parts": [
+        {
+          "zh": "然后这个女歌手后面向他道歉嘛，",
+          "vi": "Sau đó cô ca sĩ có xin lỗi,"
+        },
+        {
+          "zh": "向这个女明星。",
+          "vi": "xin lỗi cô minh tinh,"
+        }
+      ]
+    },
+    "315": {
+      "zh": "但是还是觉得有点不满说你不能喝为什么还要敬我酒他就觉得莫名其妙然后搞得他自己还要去给他道歉所以这个也是一个因为不懂酒桌规矩而把这个关系闹掰的一个例子吧对你",
+      "parts": [
+        {
+          "zh": "但是还是觉得有点不满",
+          "vi": "nhưng vẫn hơi bực,"
+        },
+        {
+          "zh": "说你不能喝为什么还要敬我酒",
+          "vi": "nói không uống được thì sao còn mời tôi,"
+        },
+        {
+          "zh": "他就觉得莫名其妙",
+          "vi": "cô minh tinh thấy thật khó hiểu,"
+        },
+        {
+          "zh": "然后搞得他自己还要去给他道歉",
+          "vi": "rốt cuộc chính mình lại phải đi xin lỗi cô ca sĩ."
+        },
+        {
+          "zh": "所以这个也是一个",
+          "vi": "Nên đây cũng là một"
+        },
+        {
+          "zh": "因为不懂酒桌规矩",
+          "vi": "ví dụ vì không hiểu quy tắc bàn nhậu"
+        },
+        {
+          "zh": "而把这个关系闹掰的一个例子吧",
+          "vi": "mà làm hai bên cạch mặt nhau."
+        },
+        {
+          "zh": "对你",
+          "vi": "Đúng, bạn"
+        }
+      ]
+    },
+    "317": {
+      "zh": "敬之前你可以先讲清楚你说我以茶代酒我进去你也以茶代酒你说我们俩互相碰一下就表示一下敬意但是你上来的时候我敬你一杯那你不喝，你不是少老六吗？",
+      "parts": [
+        {
+          "zh": "敬之前你可以先讲清楚",
+          "vi": "trước khi mời thì có thể nói rõ trước,"
+        },
+        {
+          "zh": "你说我以茶代酒",
+          "vi": "bạn nói tôi lấy trà thay rượu,"
+        },
+        {
+          "zh": "我进去你也以茶代酒",
+          "vi": "tôi mời bạn, bạn cũng lấy trà thay rượu,"
+        },
+        {
+          "zh": "你说我们俩互相碰一下",
+          "vi": "bạn bảo hai ta chạm ly một cái"
+        },
+        {
+          "zh": "就表示一下敬意",
+          "vi": "để tỏ chút lòng kính trọng,"
+        },
+        {
+          "zh": "但是你上来的时候我敬你一杯",
+          "vi": "chứ bạn vừa tới đã bảo tôi mời bạn một ly"
+        },
+        {
+          "zh": "那你不喝，你不是少老六吗？",
+          "vi": "mà rồi bạn không uống, thế chẳng phải chơi kiểu \"老六\" sao?"
+        }
+      ]
+    },
+    "319": {
+      "zh": "是吧？",
+      "vi": "Đúng không?"
+    },
+    "320": {
+      "zh": "你这不是老六行为吗？",
+      "vi": "Thế chẳng phải là hành vi \"老六\" sao?"
+    },
+    "321": {
+      "zh": "是吧？",
+      "vi": "Phải không?"
+    },
+    "322": {
+      "zh": "什么是老六行为？",
+      "vi": "Hành vi \"老六\" là gì?"
+    },
+    "323": {
+      "zh": "耍无赖呀！",
+      "vi": "Là giở trò vô lại đó!"
+    },
+    "324": {
+      "zh": "就是。",
+      "vi": "Đúng vậy."
+    },
+    "325": {
+      "zh": "我感觉一般领导在请客户吃饭的时候，都会带两三个能喝的男同事，",
+      "parts": [
+        {
+          "zh": "我感觉一般领导",
+          "vi": "Mình thấy thường thì sếp"
+        },
+        {
+          "zh": "在请客户吃饭的时候，",
+          "vi": "khi mời khách hàng đi ăn,"
+        },
+        {
+          "zh": "都会带两三个能喝的男同事，",
+          "vi": "đều dẫn theo hai ba anh đồng nghiệp uống giỏi,"
+        }
+      ]
+    },
+    "326": {
+      "zh": "这样子可能就首先一个是不会冷场，大家就有话题可以聊，然后也热闹嘛。",
+      "parts": [
+        {
+          "zh": "这样子可能就首先一个是不会冷场，",
+          "vi": "như vậy thứ nhất là không bị lặng ngắt,"
+        },
+        {
+          "zh": "大家就有话题可以聊，然后也热闹嘛。",
+          "vi": "mọi người có chuyện để nói, lại còn náo nhiệt."
+        }
+      ]
+    },
+    "327": {
+      "zh": "中国人都比较喜欢热闹。",
+      "vi": "Người Trung Quốc đều khá thích náo nhiệt."
+    },
+    "328": {
+      "zh": "然后第二个就是领导不会喝的时候，这个同事可以帮忙代喝，对吧？",
+      "parts": [
+        {
+          "zh": "然后第二个就是领导不会喝的时候，",
+          "vi": "Rồi thứ hai là khi sếp không uống được,"
+        },
+        {
+          "zh": "这个同事可以帮忙代喝，对吧？",
+          "vi": "anh đồng nghiệp này có thể uống thay, đúng không?"
+        }
+      ]
+    },
+    "329": {
+      "zh": "对，",
+      "vi": "Đúng,"
+    },
+    "330": {
+      "zh": "其实同时你不会喝的情况下，也可以去，就是打开手机里面的APP，",
+      "parts": [
+        {
+          "zh": "其实同时你不会喝的情况下，",
+          "vi": "thật ra nếu bạn không biết uống,"
+        },
+        {
+          "zh": "也可以去，",
+          "vi": "bạn cũng có thể,"
+        },
+        {
+          "zh": "就是打开手机里面的APP，",
+          "vi": "mở app trên điện thoại,"
+        }
+      ]
+    },
+    "331": {
+      "zh": "然后直接点击下单代喝，也可以解决这个问题。",
+      "parts": [
+        {
+          "zh": "然后直接点击下单代喝，",
+          "vi": "rồi bấm đặt dịch vụ uống thuê luôn,"
+        },
+        {
+          "zh": "也可以解决这个问题。",
+          "vi": "cũng giải quyết được chuyện này."
+        }
+      ]
+    },
+    "332": {
+      "zh": "还有",
+      "vi": "Còn có"
+    },
+    "333": {
+      "zh": "这样子的职业？",
+      "vi": "nghề như vậy à?"
+    },
+    "334": {
+      "zh": "对，啤酒一升一百块，然后红酒一升一百五啊。",
+      "parts": [
+        {
+          "zh": "对，啤酒一升一百块，",
+          "vi": "Có, bia một lít 100 tệ,"
+        },
+        {
+          "zh": "然后红酒一升一百五啊。",
+          "vi": "rồi rượu vang một lít 150."
+        }
+      ]
+    },
+    "335": {
+      "zh": "但是也有按时间算的，啤酒的价格可能是一小时一百块钱，",
+      "parts": [
+        {
+          "zh": "但是也有按时间算的，",
+          "vi": "Nhưng cũng có loại tính theo giờ,"
+        },
+        {
+          "zh": "啤酒的价格可能是一小时一百块钱，",
+          "vi": "giá bia có thể là 100 tệ một tiếng,"
+        }
+      ]
+    },
+    "336": {
+      "zh": "然后红酒的价格是一小时一百五十块钱，白酒的价格是一小时两百块钱。",
+      "parts": [
+        {
+          "zh": "然后红酒的价格是",
+          "vi": "rồi giá rượu vang là"
+        },
+        {
+          "zh": "一小时一百五十块钱，",
+          "vi": "150 tệ một tiếng,"
+        },
+        {
+          "zh": "白酒的价格是一小时两百块钱。",
+          "vi": "rượu trắng thì 200 tệ một tiếng."
+        }
+      ]
+    },
+    "337": {
+      "zh": "因为根据酒精度数不一样，然后定的价格也不一",
+      "parts": [
+        {
+          "zh": "因为根据酒精度数不一样，",
+          "vi": "Vì độ cồn khác nhau,"
+        },
+        {
+          "zh": "然后定的价格也不一",
+          "vi": "nên giá đặt ra cũng khác"
+        }
+      ]
+    },
+    "338": {
+      "zh": "样。",
+      "vi": "nhau."
+    },
+    "339": {
+      "zh": "哇，那喝两小时那人不喝趴下了。",
+      "vi": "Oa, thế uống hai tiếng chẳng phải người đó gục luôn à."
+    },
+    "340": {
+      "zh": "就之前有过一个事情嘛，就是就是陈先生他在他代替客户以亲戚的身份参加一场聚会，",
+      "parts": [
+        {
+          "zh": "就之前有过一个事情嘛，",
+          "vi": "Trước đây có một chuyện,"
+        },
+        {
+          "zh": "就是就是陈先生他在他代替客户",
+          "vi": "là anh Trần thay mặt khách hàng"
+        },
+        {
+          "zh": "以亲戚的身份参加一场聚会，",
+          "vi": "đi dự một bữa tiệc với tư cách họ hàng,"
+        }
+      ]
+    },
+    "341": {
+      "zh": "然后当时对方就是说好了的，只要不喝醉嘛，那么事后就给五百块钱。",
+      "parts": [
+        {
+          "zh": "然后当时对方就是说好了的，",
+          "vi": "lúc đó bên kia đã thỏa thuận rồi,"
+        },
+        {
+          "zh": "只要不喝醉嘛，",
+          "vi": "chỉ cần không say,"
+        },
+        {
+          "zh": "那么事后就给五百块钱。",
+          "vi": "thì xong việc sẽ trả 500 tệ."
+        }
+      ]
+    },
+    "342": {
+      "zh": "那么最后喝的时候不小心，然后说漏了嘴。",
+      "parts": [
+        {
+          "zh": "那么最后喝的时候不小心，",
+          "vi": "Cuối cùng lúc uống lại sơ ý,"
+        },
+        {
+          "zh": "然后说漏了嘴。",
+          "vi": "lỡ miệng nói ra."
+        }
+      ]
+    },
+    "343": {
+      "zh": "然后大家也就将那个陈先生的那个代喝身份给揭穿了嘛，",
+      "parts": [
+        {
+          "zh": "然后大家也就将那个陈先生的",
+          "vi": "Thế là mọi người vạch trần luôn anh Trần"
+        },
+        {
+          "zh": "那个代喝身份给揭穿了嘛，",
+          "vi": "là người uống thuê,"
+        }
+      ]
+    },
+    "344": {
+      "zh": "然后酒桌上其他人就开始疯狂的对他劝酒，那么陈陈先生没办法，呃就酒醉嘛，",
+      "parts": [
+        {
+          "zh": "然后酒桌上其他人",
+          "vi": "rồi những người khác trên bàn nhậu"
+        },
+        {
+          "zh": "就开始疯狂的对他劝酒，",
+          "vi": "bắt đầu điên cuồng ép anh ấy uống,"
+        },
+        {
+          "zh": "那么陈陈先生没办法，呃就酒醉嘛，",
+          "vi": "anh Trần hết cách, ờ, thế là say,"
+        }
+      ]
+    },
+    "345": {
+      "zh": "然后导致自己的呃胃病。",
+      "vi": "rồi bị, ờ, đau dạ dày."
+    },
+    "346": {
+      "zh": "所以所以这",
+      "vi": "Nên nên cái"
+    },
+    "347": {
+      "zh": "这个我感觉这个职业不可行，就是你你要天天这样的喝，那那是拿自己的生命开玩",
+      "parts": [
+        {
+          "zh": "这个我感觉这个职业不可行，",
+          "vi": "này mình thấy nghề này không ổn,"
+        },
+        {
+          "zh": "就是你你要天天这样的喝，",
+          "vi": "bạn mà ngày nào cũng uống kiểu này,"
+        },
+        {
+          "zh": "那那是拿自己的生命开玩",
+          "vi": "thì đúng là lấy tính mạng ra đùa"
+        }
+      ]
+    },
+    "348": {
+      "zh": "笑啊！",
+      "vi": "rồi!"
+    },
+    "349": {
+      "zh": "对呀，你被发现了代喝，那么酒桌上的人会。还会疯狂的灌你，疯狂的就让你喝喝的更多，不仅会被喝到医院去，喝伤身体，",
+      "parts": [
+        {
+          "zh": "对呀，你被发现了代喝，",
+          "vi": "Đúng vậy, bạn bị phát hiện là uống thuê,"
+        },
+        {
+          "zh": "那么酒桌上的人会。还会疯狂的灌你，",
+          "vi": "thì người trên bàn nhậu sẽ. Còn điên cuồng chuốc bạn,"
+        },
+        {
+          "zh": "疯狂的就让你喝喝的更多，",
+          "vi": "điên cuồng bắt bạn uống nhiều hơn,"
+        },
+        {
+          "zh": "不仅会被喝到医院去，喝伤身体，",
+          "vi": "không chỉ bị uống đến phải vào viện, hại sức khỏe,"
+        }
+      ]
+    },
+    "351": {
+      "zh": "而且还拿不到这个奖，呃，拿不到这个钱。",
+      "parts": [
+        {
+          "zh": "而且还拿不到这个奖，",
+          "vi": "mà còn không nhận được thưởng,"
+        },
+        {
+          "zh": "呃，拿不到这个钱。",
+          "vi": "ờ, không nhận được tiền."
+        }
+      ]
+    },
+    "352": {
+      "zh": "嗯，哎，不",
+      "vi": "Ừm, ơ, nhưng"
+    },
+    "353": {
+      "zh": "过这个其实其实喝酒也也是很危险的。",
+      "parts": [
+        {
+          "zh": "过这个其实其实喝酒",
+          "vi": "mà thật ra uống rượu"
+        },
+        {
+          "zh": "也也是很危险的。",
+          "vi": "cũng nguy hiểm lắm."
+        }
+      ]
+    },
+    "354": {
+      "zh": "就是我听说，如果说酒桌上有一个人喝醉了，然后回家的路上出现了什么事故，",
+      "parts": [
+        {
+          "zh": "就是我听说，",
+          "vi": "Mình nghe nói,"
+        },
+        {
+          "zh": "如果说酒桌上有一个人喝醉了，",
+          "vi": "nếu trên bàn nhậu có một người say,"
+        },
+        {
+          "zh": "然后回家的路上出现了什么事故，",
+          "vi": "rồi trên đường về nhà gặp tai nạn gì,"
+        }
+      ]
+    },
+    "355": {
+      "zh": "或者是因为喝醉了喝酒而导致了嗯什么什么人人身的安全问题啊，这个。同行的人就是在酒桌上的其他的人是有责任保护这个人安全到家的。",
+      "parts": [
+        {
+          "zh": "或者是因为喝醉了喝酒",
+          "vi": "hoặc vì uống say"
+        },
+        {
+          "zh": "而导致了嗯什么什么",
+          "vi": "mà gây ra, ừm, mấy chuyện"
+        },
+        {
+          "zh": "人人身的安全问题啊，",
+          "vi": "về an toàn tính mạng,"
+        },
+        {
+          "zh": "这个。同行的人",
+          "vi": "thì những người đi cùng,"
+        },
+        {
+          "zh": "就是在酒桌上的其他的人",
+          "vi": "tức là những người khác trên bàn nhậu,"
+        },
+        {
+          "zh": "是有责任保护这个人安全到家的。",
+          "vi": "có trách nhiệm đưa người đó về nhà an toàn."
+        }
+      ]
+    },
+    "357": {
+      "zh": "如果说这个人没有安全到家，其他的人是要赔偿的。",
+      "parts": [
+        {
+          "zh": "如果说这个人没有安全到家，",
+          "vi": "Nếu người đó không về nhà an toàn,"
+        },
+        {
+          "zh": "其他的人是要赔偿的。",
+          "vi": "thì những người khác phải bồi thường."
+        }
+      ]
+    },
+    "358": {
+      "zh": "是有",
+      "vi": "Có"
+    },
+    "359": {
+      "zh": "这个法律，就是我们喝酒会有义务去送别人回家，去保障他人",
+      "parts": [
+        {
+          "zh": "这个法律，就是我们喝酒",
+          "vi": "luật này, kiểu uống rượu với nhau"
+        },
+        {
+          "zh": "会有义务去送别人回家，去保障他人",
+          "vi": "thì có nghĩa vụ đưa người khác về nhà, bảo đảm"
+        }
+      ]
+    },
+    "360": {
+      "zh": "的安全。",
+      "vi": "an toàn cho người đó."
+    },
+    "361": {
+      "zh": "其实我我有一个朋友，他告诉我嘛，",
+      "vi": "Thật ra mình có một người bạn kể với mình,"
+    },
+    "362": {
+      "zh": "他的一个男同事跟供应商啊还有一些同事一起去吃饭喝酒，然后结果这个。这个同事呢，啊就喝醉了，然后喝醉了，他一个人在路上就就摔倒了，摔到一个沟里去了，",
+      "parts": [
+        {
+          "zh": "他的一个男同事跟供应商啊",
+          "vi": "một anh đồng nghiệp của bạn ấy cùng nhà cung cấp"
+        },
+        {
+          "zh": "还有一些同事一起去吃饭喝酒，",
+          "vi": "và mấy đồng nghiệp đi ăn uống,"
+        },
+        {
+          "zh": "然后结果这个。这个同事呢，",
+          "vi": "rồi kết quả là. Anh đồng nghiệp này,"
+        },
+        {
+          "zh": "啊就喝醉了，然后喝醉了，",
+          "vi": "à, say rồi, say xong,"
+        },
+        {
+          "zh": "他一个人在路上就就摔倒了，",
+          "vi": "một mình đi trên đường thì bị ngã,"
+        },
+        {
+          "zh": "摔到一个沟里去了，",
+          "vi": "ngã xuống một con mương,"
+        }
+      ]
+    },
+    "364": {
+      "zh": "然后可能就睡过去了吧。",
+      "vi": "rồi chắc là thiếp đi luôn."
+    },
+    "365": {
+      "zh": "嗯，不过因为北方冬天比较冷嘛，如果他真的在那里躺了一夜的话，",
+      "parts": [
+        {
+          "zh": "嗯，不过因为北方冬天比较冷嘛，",
+          "vi": "Ừm, mà vì mùa đông miền Bắc khá lạnh,"
+        },
+        {
+          "zh": "如果他真的在那里躺了一夜的话，",
+          "vi": "nếu anh ấy thật sự nằm đó cả đêm"
+        }
+      ]
+    },
+    "366": {
+      "zh": "可能就可能就就会有生命危险。",
+      "vi": "thì có thể nguy hiểm đến tính mạng."
+    },
+    "367": {
+      "zh": "不过好在呢，他当时那个掉的那个沟啊离医院比较近，被护士发现了，被救出来了，",
+      "parts": [
+        {
+          "zh": "不过好在呢，他当时",
+          "vi": "Nhưng may là, lúc đó"
+        },
+        {
+          "zh": "那个掉的那个沟啊离医院比较近，",
+          "vi": "cái mương anh ấy ngã xuống ở gần bệnh viện,"
+        },
+        {
+          "zh": "被护士发现了，被救出来了，",
+          "vi": "được y tá phát hiện, cứu ra,"
+        }
+      ]
+    },
+    "368": {
+      "zh": "才没有啊才没有说有有生命危险。",
+      "vi": "nên mới không nguy hiểm đến tính mạng."
+    },
+    "369": {
+      "zh": "然后其他的这些酒桌上的人听到这个消息哇都吓得吓得。",
+      "parts": [
+        {
+          "zh": "然后其他的这些酒桌上的人",
+          "vi": "Rồi những người khác trên bàn nhậu"
+        },
+        {
+          "zh": "听到这个消息哇都吓得吓得。",
+          "vi": "nghe tin này, oa, sợ đến nỗi,"
+        }
+      ]
+    },
+    "370": {
+      "zh": "吓得半死，都跑到医院来，就是很担心他出了什么问题。",
+      "parts": [
+        {
+          "zh": "吓得半死，都跑到医院来，",
+          "vi": "sợ chết khiếp, chạy hết đến bệnh viện,"
+        },
+        {
+          "zh": "就是很担心他出了什么问题。",
+          "vi": "lo anh ấy có chuyện gì."
+        }
+      ]
+    },
+    "371": {
+      "zh": "因为",
+      "vi": "Vì"
+    },
+    "372": {
+      "zh": "你是跟他们在一起喝酒，如果你是清醒的，你应该送他回家的。",
+      "parts": [
+        {
+          "zh": "你是跟他们在一起喝酒，",
+          "vi": "bạn uống rượu cùng họ,"
+        },
+        {
+          "zh": "如果你是清醒的，你应该送他回家的。",
+          "vi": "nếu bạn tỉnh táo thì bạn phải đưa anh ấy về nhà."
+        }
+      ]
+    },
+    "373": {
+      "zh": "我我看了",
+      "vi": "Mình mình đọc"
+    },
+    "374": {
+      "zh": "我看了这个法律，我觉得挺有意思的。",
+      "vi": "Mình đọc luật này rồi, thấy khá thú vị."
+    },
+    "375": {
+      "zh": "它有一条说是同在酒桌上的人是有劝对方不喝酒的这个责任的。",
+      "parts": [
+        {
+          "zh": "它有一条说是同在酒桌上的人",
+          "vi": "Nó có một điều nói những người cùng bàn nhậu"
+        },
+        {
+          "zh": "是有劝对方不喝酒的这个责任的。",
+          "vi": "có trách nhiệm khuyên người kia đừng uống."
+        }
+      ]
+    },
+    "376": {
+      "zh": "如果你劝了，然后这个人他还继续喝，最后喝醉了，然后出了问题，你劝了的人不负责了，",
+      "parts": [
+        {
+          "zh": "如果你劝了，然后这个人他还继续喝，",
+          "vi": "Nếu bạn khuyên rồi, mà người đó vẫn uống tiếp,"
+        },
+        {
+          "zh": "最后喝醉了，然后出了问题，",
+          "vi": "cuối cùng say, rồi xảy ra chuyện,"
+        },
+        {
+          "zh": "你劝了的人不负责了，",
+          "vi": "thì người đã khuyên không phải chịu,"
+        }
+      ]
+    },
+    "377": {
+      "zh": "就不用负责任。",
+      "vi": "không cần chịu trách nhiệm."
+    },
+    "378": {
+      "zh": "但是你如果说真的出了事情，你怎么证明你你劝了还是",
+      "parts": [
+        {
+          "zh": "但是你如果说真的出了事情，",
+          "vi": "Nhưng nếu thật sự xảy ra chuyện,"
+        },
+        {
+          "zh": "你怎么证明你你劝了还是",
+          "vi": "bạn chứng minh thế nào là bạn đã khuyên hay"
+        }
+      ]
+    },
+    "379": {
+      "zh": "没劝呢？",
+      "vi": "chưa khuyên?"
+    },
+    "380": {
+      "zh": "你看的有一张那个喝酒前会签那个协议嘛，就说呃我们喝酒出了事情，呃概不负责，然后互相没有责任，然后大家一起按手印这种的，你看到过",
+      "parts": [
+        {
+          "zh": "你看的有一张",
+          "vi": "Bạn có thấy có một tờ"
+        },
+        {
+          "zh": "那个喝酒前会签那个协议嘛，",
+          "vi": "thỏa thuận ký trước khi uống không,"
+        },
+        {
+          "zh": "就说呃我们喝酒出了事情，",
+          "vi": "kiểu như, ờ, chúng tôi uống mà có chuyện gì,"
+        },
+        {
+          "zh": "呃概不负责，然后互相没有责任，",
+          "vi": "ờ, thì hoàn toàn không chịu trách nhiệm, không ai có trách nhiệm với ai,"
+        },
+        {
+          "zh": "然后大家一起按手印",
+          "vi": "rồi mọi người cùng điểm chỉ,"
+        },
+        {
+          "zh": "这种的，你看到过",
+          "vi": "kiểu vậy, bạn thấy bao giờ"
+        }
+      ]
+    },
+    "382": {
+      "zh": "吗？",
+      "vi": "chưa?"
+    },
+    "383": {
+      "zh": "我我刚好在看这个法律的时候就看到过有一条说什么责免责书吧，哎我自愿去喝酒。",
+      "parts": [
+        {
+          "zh": "我我刚好在看这个法律的时候",
+          "vi": "Lúc mình đọc luật này"
+        },
+        {
+          "zh": "就看到过有一条说什么责免责书吧，",
+          "vi": "đúng là có thấy một điều nói về giấy miễn trách nhiệm,"
+        },
+        {
+          "zh": "哎我自愿去喝酒。",
+          "vi": "kiểu: tôi tự nguyện uống rượu."
+        }
+      ]
+    },
+    "384": {
+      "zh": "那如果说出了什么问题的话呢，就跟呃跟这个组织者还有嗯一起喝酒的人没有什么关系。",
+      "parts": [
+        {
+          "zh": "那如果说出了什么问题的话呢，",
+          "vi": "Thế nếu có chuyện gì"
+        },
+        {
+          "zh": "就跟呃跟这个组织者",
+          "vi": "thì chẳng liên quan gì đến, ờ, người tổ chức"
+        },
+        {
+          "zh": "还有嗯一起喝酒的人没有什么关系。",
+          "vi": "hay, ừm, những người uống cùng."
+        }
+      ]
+    },
+    "385": {
+      "zh": "但是如果说真的出了事情，嗯，他们还是有责任的。",
+      "parts": [
+        {
+          "zh": "但是如果说真的出了事情，",
+          "vi": "Nhưng nếu thật sự xảy ra chuyện,"
+        },
+        {
+          "zh": "嗯，他们还是有责任的。",
+          "vi": "ừm, họ vẫn có trách nhiệm."
+        }
+      ]
+    },
+    "386": {
+      "zh": "嗯，对。",
+      "vi": "Ừm, đúng."
+    },
+    "387": {
+      "zh": "还有一个我最最最讨厌的就是劝酒文化，感觉中国人老老喜欢让就是让你喝，",
+      "parts": [
+        {
+          "zh": "还有一个我最最最讨厌的",
+          "vi": "Còn một cái mình ghét nhất nhất"
+        },
+        {
+          "zh": "就是劝酒文化，",
+          "vi": "là văn hóa ép rượu,"
+        },
+        {
+          "zh": "感觉中国人老老喜欢让就是让你喝，",
+          "vi": "cảm giác người Trung Quốc cứ thích bắt bạn uống,"
+        }
+      ]
+    },
+    "388": {
+      "zh": "就是感觉到如果说我让你喝的多的话，我就很有",
+      "parts": [
+        {
+          "zh": "就是感觉到如果说",
+          "vi": "kiểu cảm thấy nếu"
+        },
+        {
+          "zh": "我让你喝的多的话，我就很有",
+          "vi": "tôi bắt bạn uống nhiều thì tôi rất có"
+        }
+      ]
+    },
+    "389": {
+      "zh": "面子，彰显他的一个地位跟权力嘛。",
+      "vi": "thể diện, thể hiện địa vị và quyền lực của mình."
+    },
+    "390": {
+      "zh": "然后通常都是地位比较高的人让地位比较低的人喝酒，对于劝酒啊有各种招数，",
+      "parts": [
+        {
+          "zh": "然后通常都是地位比较高的人",
+          "vi": "Mà thường là người địa vị cao"
+        },
+        {
+          "zh": "让地位比较低的人喝酒，",
+          "vi": "bắt người địa vị thấp hơn uống,"
+        },
+        {
+          "zh": "对于劝酒啊有各种招数，",
+          "vi": "ép rượu thì có đủ thứ chiêu,"
+        }
+      ]
+    },
+    "391": {
+      "zh": "像生意场上你把这杯白的给干了，这个合同我就给你签了。",
+      "parts": [
+        {
+          "zh": "像生意场上你把这杯白的给干了，",
+          "vi": "như trên thương trường: anh cạn ly rượu trắng này,"
+        },
+        {
+          "zh": "这个合同我就给你签了。",
+          "vi": "hợp đồng này tôi ký cho anh."
+        }
+      ]
+    },
+    "392": {
+      "zh": "然后还有你不喝那可不够朋友啊！",
+      "vi": "Rồi còn: không uống là không ra bạn bè đâu nhé!"
+    },
+    "393": {
+      "zh": "我感觉听",
+      "vi": "Mình thấy câu nghe"
+    },
+    "394": {
+      "zh": "的最多的就是感情",
+      "vi": "nhiều nhất là tình"
+    },
+    "395": {
+      "zh": "深一口闷，哎感情浅舔一舔嘛。",
+      "vi": "sâu thì nốc cạn một hơi, ơ, tình cạn thì nhấp môi thôi."
+    },
+    "396": {
+      "zh": "然后什么酒逢知己千杯少啊，再喝一杯好不好啊？",
+      "parts": [
+        {
+          "zh": "然后什么酒逢知己千杯少啊，",
+          "vi": "Rồi gì mà gặp tri kỷ nghìn chén cũng ít,"
+        },
+        {
+          "zh": "再喝一杯好不好啊？",
+          "vi": "uống thêm một ly nữa nhé?"
+        }
+      ]
+    },
+    "397": {
+      "zh": "还有",
+      "vi": "Còn"
+    },
+    "398": {
+      "zh": "什么男人不喝酒啊是交不到好朋友。",
+      "vi": "gì mà đàn ông không uống rượu thì không kết được bạn tốt."
+    },
+    "399": {
+      "zh": "呃，你不喝我不喝，中国好酒哪里搁？",
+      "vi": "Ờ, anh không uống, tôi không uống, rượu ngon Trung Quốc để vào đâu?"
+    },
+    "400": {
+      "zh": "你不醉我不醉，马路牙子谁来睡？",
+      "vi": "Anh không say, tôi không say, thì ai ra bó vỉa nằm ngủ?"
+    },
+    "401": {
+      "zh": "就是我之前有看过一个新闻，就是一个领导强迫他的司机去喝酒，然后司机是拒绝的，",
+      "parts": [
+        {
+          "zh": "就是我之前有看过一个新闻，",
+          "vi": "Trước mình có đọc một tin,"
+        },
+        {
+          "zh": "就是一个领导强迫他的司机去喝酒，",
+          "vi": "một ông sếp ép tài xế của mình uống rượu,"
+        },
+        {
+          "zh": "然后司机是拒绝的，",
+          "vi": "tài xế từ chối,"
+        }
+      ]
+    },
+    "402": {
+      "zh": "因为他明白，呃，开车不喝酒，喝酒不开车。",
+      "parts": [
+        {
+          "zh": "因为他明白，",
+          "vi": "vì anh ta hiểu,"
+        },
+        {
+          "zh": "呃，开车不喝酒，喝酒不开车。",
+          "vi": "ờ, đã lái xe thì không uống rượu, đã uống rượu thì không lái xe."
+        }
+      ]
+    },
+    "403": {
+      "zh": "但是领导差点因为这个事情动了手，然后没办法就喝了，然后开车回去嘛，",
+      "parts": [
+        {
+          "zh": "但是领导差点因为这个事情动了手，",
+          "vi": "Nhưng ông sếp suýt nữa vì chuyện này mà động tay,"
+        },
+        {
+          "zh": "然后没办法就喝了，然后开车回去嘛，",
+          "vi": "anh ta hết cách nên uống, rồi lái xe về,"
+        }
+      ]
+    },
+    "404": {
+      "zh": "然后这个时候出了车祸，领导因为因为这个车祸飞出去了挂了，就司机。呃，被领导的家人告上法庭，但是司机以被强迫喝酒为辩护，然后有证据，最后没有赔领导一分钱。",
+      "parts": [
+        {
+          "zh": "然后这个时候出了车祸，",
+          "vi": "đúng lúc đó gặp tai nạn,"
+        },
+        {
+          "zh": "领导因为因为这个车祸",
+          "vi": "ông sếp vì tai nạn này"
+        },
+        {
+          "zh": "飞出去了挂了，",
+          "vi": "văng ra ngoài mà chết,"
+        },
+        {
+          "zh": "就司机。呃，被领导的家人告上法庭，",
+          "vi": "còn tài xế. Ờ, bị gia đình ông sếp kiện ra tòa,"
+        },
+        {
+          "zh": "但是司机以被强迫喝酒为辩护，",
+          "vi": "nhưng tài xế bào chữa là bị ép uống rượu,"
+        },
+        {
+          "zh": "然后有证据，最后没有赔领导一分钱。",
+          "vi": "lại có bằng chứng, cuối cùng không phải đền ông sếp đồng nào."
+        }
+      ]
+    },
+    "407": {
+      "zh": "这个也在讲一个问题，就是说你不要去劝酒，不要去过分的劝酒。",
+      "parts": [
+        {
+          "zh": "这个也在讲一个问题，就是说",
+          "vi": "Chuyện này cũng nói lên một điều, là"
+        },
+        {
+          "zh": "你不要去劝酒，不要去过分的劝酒。",
+          "vi": "đừng ép rượu, đừng ép rượu quá đà."
+        }
+      ]
+    },
+    "408": {
+      "zh": "其实真正的出了问题，还是你自己去承担这个责",
+      "parts": [
+        {
+          "zh": "其实真正的出了问题，",
+          "vi": "Thật ra khi có chuyện thật,"
+        },
+        {
+          "zh": "还是你自己去承担这个责",
+          "vi": "thì vẫn là bạn phải gánh trách"
+        }
+      ]
+    },
+    "409": {
+      "zh": "任。",
+      "vi": "nhiệm."
+    },
+    "410": {
+      "zh": "他之所以这么规定，肯定是因为这个现象就很普遍。",
+      "parts": [
+        {
+          "zh": "他之所以这么规定，",
+          "vi": "Sở dĩ có quy định như vậy,"
+        },
+        {
+          "zh": "肯定是因为这个现象就很普遍。",
+          "vi": "chắc chắn là vì hiện tượng này rất phổ biến."
+        }
+      ]
+    },
+    "411": {
+      "zh": "对，是因为没有出这个规定前，中国这种现象特别多，所以说。慢慢的，慢慢的，这个规定也就慢慢的落实下来了。",
+      "parts": [
+        {
+          "zh": "对，是因为没有出这个规定前，",
+          "vi": "Đúng, là vì trước khi có quy định này,"
+        },
+        {
+          "zh": "中国这种现象特别多，",
+          "vi": "ở Trung Quốc chuyện này rất nhiều,"
+        },
+        {
+          "zh": "所以说。慢慢的，慢慢的，",
+          "vi": "nên là. Dần dần, dần dần,"
+        },
+        {
+          "zh": "这个规定也就慢慢的落实下来了。",
+          "vi": "quy định này mới được thực thi."
+        }
+      ]
+    },
+    "413": {
+      "zh": "但现在",
+      "vi": "Nhưng bây giờ"
+    },
+    "414": {
+      "zh": "还是有人会劝的，就是有可能有一部分人是不知道这一条法律。",
+      "parts": [
+        {
+          "zh": "还是有人会劝的，",
+          "vi": "vẫn có người ép uống,"
+        },
+        {
+          "zh": "就是有可能有一部分人",
+          "vi": "có thể là có một bộ phận người"
+        },
+        {
+          "zh": "是不知道这一条法律。",
+          "vi": "không biết điều luật này."
+        }
+      ]
+    },
+    "415": {
+      "zh": "其实我之前",
+      "vi": "Thật ra trước đây mình"
+    },
+    "416": {
+      "zh": "也不知道的，就跟酒驾一样的嘛。",
+      "vi": "cũng không biết, giống như lái xe khi say ấy."
+    },
+    "417": {
+      "zh": "你之前都知道，哎呀，喝酒有啥的？",
+      "vi": "Trước đây ai cũng nghĩ, ôi dào, uống rượu thì có sao?"
+    },
+    "418": {
+      "zh": "到现在都都知道，就是去别人家吃饭或啥的，",
+      "parts": [
+        {
+          "zh": "到现在都都知道，",
+          "vi": "Đến giờ thì ai cũng biết,"
+        },
+        {
+          "zh": "就是去别人家吃饭或啥的，",
+          "vi": "kiểu đi ăn ở nhà người ta hay đâu đó,"
+        }
+      ]
+    },
+    "419": {
+      "zh": "人家家里面的亲戚或者是一些呃一些大人们都会讲，哎，不要喝酒，喝了酒就不要开车，",
+      "parts": [
+        {
+          "zh": "人家家里面的亲戚",
+          "vi": "họ hàng nhà người ta"
+        },
+        {
+          "zh": "或者是一些呃一些大人们都会讲，",
+          "vi": "hoặc, ờ, người lớn đều sẽ nói,"
+        },
+        {
+          "zh": "哎，不要喝酒，喝了酒就不要开车，",
+          "vi": "này, đừng uống rượu, uống rượu rồi thì đừng lái xe,"
+        }
+      ]
+    },
+    "420": {
+      "zh": "都会讲这句话。",
+      "vi": "ai cũng nói câu này."
+    },
+    "421": {
+      "zh": "这个也是因为，呃，大家传的多了，听得多了，也就知道了这个法",
+      "parts": [
+        {
+          "zh": "这个也是因为，呃，",
+          "vi": "Cái này cũng là vì, ờ,"
+        },
+        {
+          "zh": "大家传的多了，听得多了，",
+          "vi": "mọi người truyền tai nhau nhiều, nghe nhiều,"
+        },
+        {
+          "zh": "也就知道了这个法",
+          "vi": "nên mới biết điều"
+        }
+      ]
+    },
+    "422": {
+      "zh": "律。",
+      "vi": "luật này."
+    },
+    "423": {
+      "zh": "但是很多人喝醉了之后，他肯定也啊就不会去想这条法律吧？",
+      "parts": [
+        {
+          "zh": "但是很多人喝醉了之后，",
+          "vi": "Nhưng nhiều người say rồi,"
+        },
+        {
+          "zh": "他肯定也啊就不会去想这条法律吧？",
+          "vi": "chắc chắn cũng chẳng nghĩ đến điều luật này đâu nhỉ?"
+        }
+      ]
+    },
+    "424": {
+      "zh": "可能该劝的还是劝。",
+      "vi": "Có khi lúc cần ép thì vẫn ép."
+    },
+    "425": {
+      "zh": "嗯，所以还是得想办法去躲这个酒，就是躲酒也是有一门艺术的，看你会不会说话了就。",
+      "parts": [
+        {
+          "zh": "嗯，所以还是得想办法去躲这个酒，",
+          "vi": "Ừm, nên vẫn phải tìm cách né rượu,"
+        },
+        {
+          "zh": "就是躲酒也是有一门艺术的，",
+          "vi": "né rượu cũng là một môn nghệ thuật đấy,"
+        },
+        {
+          "zh": "看你会不会说话了就。",
+          "vi": "tùy bạn có khéo ăn nói không thôi."
+        }
+      ]
+    },
+    "426": {
+      "zh": "我觉得开车是一个好理由，就像你刚刚说的，喝酒不开车嘛。",
+      "parts": [
+        {
+          "zh": "我觉得开车是一个好理由，",
+          "vi": "Mình thấy lái xe là một lý do hay,"
+        },
+        {
+          "zh": "就像你刚刚说的，喝酒不开车嘛。",
+          "vi": "như bạn vừa nói đó, đã uống rượu thì không lái xe."
+        }
+      ]
+    },
+    "427": {
+      "zh": "现在大家",
+      "vi": "Giờ người ta"
+    },
+    "428": {
+      "zh": "会讲不要紧，他说我帮你叫代驾。",
+      "vi": "sẽ bảo không sao, tôi gọi tài xế lái hộ cho anh."
+    },
+    "429": {
+      "zh": "哦。",
+      "vi": "Ồ."
+    },
+    "430": {
+      "zh": "好吧，呃，用一些感冒或者备孕这些词会好一点，",
+      "parts": [
+        {
+          "zh": "好吧，呃，用一些感冒或者备孕",
+          "vi": "Thôi được, ờ, dùng mấy từ như bị cảm hay chuẩn bị mang thai"
+        },
+        {
+          "zh": "这些词会好一点，",
+          "vi": "sẽ tốt hơn,"
+        }
+      ]
+    },
+    "431": {
+      "zh": "因为大家都知道备孕的时候是不能去喝酒的，因为会影响一个宝宝发育嘛。",
+      "parts": [
+        {
+          "zh": "因为大家都知道",
+          "vi": "vì ai cũng biết"
+        },
+        {
+          "zh": "备孕的时候是不能去喝酒的，",
+          "vi": "lúc chuẩn bị mang thai thì không được uống rượu,"
+        },
+        {
+          "zh": "因为会影响一个宝宝发育嘛。",
+          "vi": "vì sẽ ảnh hưởng đến sự phát triển của em bé."
+        }
+      ]
+    },
+    "432": {
+      "zh": "那也不能",
+      "vi": "Thế cũng không thể"
+    },
+    "433": {
+      "zh": "总总是用这个理由",
+      "vi": "lúc nào cũng dùng lý do này"
+    },
+    "434": {
+      "zh": "啊。",
+      "vi": "được."
+    },
+    "435": {
+      "zh": "那么如果是你实在不想喝，你用感冒这个词也是可以的。",
+      "parts": [
+        {
+          "zh": "那么如果是你实在不想喝，",
+          "vi": "Thế nếu bạn thật sự không muốn uống,"
+        },
+        {
+          "zh": "你用感冒这个词也是可以的。",
+          "vi": "dùng từ \"bị cảm\" cũng được."
+        }
+      ]
+    },
+    "436": {
+      "zh": "你说你感冒吃了头孢，那谁谁没没事找事啊？",
+      "parts": [
+        {
+          "zh": "你说你感冒吃了头孢，",
+          "vi": "Bạn nói bạn bị cảm, vừa uống thuốc kháng sinh,"
+        },
+        {
+          "zh": "那谁谁没没事找事啊？",
+          "vi": "thì ai lại rảnh mà rước họa vào thân?"
+        }
+      ]
+    },
+    "437": {
+      "zh": "把把你喝到医院去了，那自己还得负责任了。",
+      "parts": [
+        {
+          "zh": "把把你喝到医院去了，",
+          "vi": "Ép bạn uống đến phải vào viện,"
+        },
+        {
+          "zh": "那自己还得负责任了。",
+          "vi": "thì chính mình lại phải chịu trách nhiệm."
+        }
+      ]
+    },
+    "438": {
+      "zh": "人家都说了，对吗？",
+      "vi": "Người ta đều nói rồi, đúng không?"
+    },
+    "439": {
+      "zh": "头孢配酒。",
+      "vi": "Kháng sinh mà uống với rượu,"
+    },
+    "440": {
+      "zh": "阎王那里走一走，这么严重的吗？",
+      "vi": "là đi gặp Diêm Vương đấy. Nghiêm trọng vậy sao?"
+    },
+    "441": {
+      "zh": "呃，头孢配酒是好严重，就这个会有化学反应",
+      "parts": [
+        {
+          "zh": "呃，头孢配酒是好严重，",
+          "vi": "Ờ, kháng sinh với rượu là nghiêm trọng lắm,"
+        },
+        {
+          "zh": "就这个会有化学反应",
+          "vi": "cái này sẽ có phản ứng hóa học"
+        }
+      ]
+    },
+    "442": {
+      "zh": "的嘛。",
+      "vi": "mà."
+    },
+    "443": {
+      "zh": "哦，我感觉北方跟南方喝酒的文化是有一点点不一样的，对不对？",
+      "parts": [
+        {
+          "zh": "哦，我感觉北方跟南方喝酒的文化",
+          "vi": "Ồ, mình thấy văn hóa uống rượu miền Bắc với miền Nam"
+        },
+        {
+          "zh": "是有一点点不一样的，对不对？",
+          "vi": "có hơi khác nhau, đúng không?"
+        }
+      ]
+    },
+    "444": {
+      "zh": "对北方人其实更能喝酒，更会喝酒；南方人可能就是什么喜欢喝，",
+      "parts": [
+        {
+          "zh": "对北方人其实更能喝酒，更会喝酒；",
+          "vi": "Đúng, người miền Bắc thật ra uống khỏe hơn, uống giỏi hơn;"
+        },
+        {
+          "zh": "南方人可能就是什么喜欢喝，",
+          "vi": "người miền Nam thì có khi kiểu thích uống,"
+        }
+      ]
+    },
+    "445": {
+      "zh": "喝不多。",
+      "vi": "nhưng uống không nhiều."
+    },
+    "446": {
+      "zh": "对啊，像郭云都会喝酒，你知道吧？",
+      "vi": "Đúng rồi, như Quách Vân uống giỏi lắm, bạn biết không?"
+    },
+    "447": {
+      "zh": "对，我",
+      "vi": "Ừ, mình"
+    },
+    "448": {
+      "zh": "看得出来啊！",
+      "vi": "nhìn là biết!"
+    },
+    "449": {
+      "zh": "你看得出来呀？",
+      "vi": "Bạn nhìn mà biết à?"
+    },
+    "450": {
+      "zh": "看得出来，感觉他小脸那个红红的那个样子，好像会喝酒的",
+      "parts": [
+        {
+          "zh": "看得出来，",
+          "vi": "Nhìn là biết,"
+        },
+        {
+          "zh": "感觉他小脸那个红红的那个样子，",
+          "vi": "thấy khuôn mặt nhỏ đỏ đỏ của bạn ấy,"
+        },
+        {
+          "zh": "好像会喝酒的",
+          "vi": "trông như người uống được rượu"
+        }
+      ]
+    },
+    "451": {
+      "zh": "样子。",
+      "vi": "ấy."
+    },
+    "452": {
+      "zh": "哎，会喝，在会喝里有一次他喝了一点点，然后也没有醉，就是微醺的。",
+      "parts": [
+        {
+          "zh": "哎，会喝，在会喝里",
+          "vi": "Ừ, uống được, …"
+        },
+        {
+          "zh": "有一次他喝了一点点，",
+          "vi": "có lần bạn ấy uống một chút,"
+        },
+        {
+          "zh": "然后也没有醉，就是微醺的。",
+          "vi": "rồi cũng không say, chỉ ngà ngà thôi."
+        }
+      ]
+    },
+    "453": {
+      "zh": "然后他说话就特别搞笑，本来东北人说话就就挺幽默的，然后他喝了点小酒之后就更幽",
+      "parts": [
+        {
+          "zh": "然后他说话就特别搞笑，",
+          "vi": "Thế là bạn ấy nói chuyện cực kỳ hài,"
+        },
+        {
+          "zh": "本来东北人说话就就挺幽默的，",
+          "vi": "người Đông Bắc vốn nói chuyện đã khá hài hước,"
+        },
+        {
+          "zh": "然后他喝了点小酒之后就更幽",
+          "vi": "uống chút rượu vào lại càng hài"
+        }
+      ]
+    },
+    "454": {
+      "zh": "默了。",
+      "vi": "hơn."
+    },
+    "455": {
+      "zh": "我记得之前他有讲过嘛，他说喝完酒他才能放得开的那种",
+      "parts": [
+        {
+          "zh": "我记得之前他有讲过嘛，",
+          "vi": "Mình nhớ trước đây bạn ấy có nói,"
+        },
+        {
+          "zh": "他说喝完酒他才能放得开的那种",
+          "vi": "bạn ấy bảo uống rượu xong mới thoải mái được, kiểu"
+        }
+      ]
+    },
+    "456": {
+      "zh": "状态。",
+      "vi": "trạng thái như vậy."
+    },
+    "457": {
+      "zh": "嗯，对，所以我感觉整体来说北方人是比南方人会",
+      "parts": [
+        {
+          "zh": "嗯，对，所以我感觉",
+          "vi": "Ừm, đúng, nên mình thấy"
+        },
+        {
+          "zh": "整体来说北方人是比南方人会",
+          "vi": "nhìn chung người miền Bắc giỏi hơn người miền Nam"
+        }
+      ]
+    },
+    "458": {
+      "zh": "喝的。",
+      "vi": "khoản uống."
+    },
+    "459": {
+      "zh": "对，还有一个就是我们在南方可能先喝酒再吃饭。",
+      "parts": [
+        {
+          "zh": "对，还有一个就是",
+          "vi": "Đúng, còn một điều nữa là"
+        },
+        {
+          "zh": "我们在南方可能先喝酒再吃饭。",
+          "vi": "ở miền Nam bọn mình có khi uống rượu trước rồi mới ăn."
+        }
+      ]
+    },
+    "460": {
+      "zh": "那么北方人是先吃饭再喝酒吃饱了饭",
+      "parts": [
+        {
+          "zh": "那么北方人是先吃饭再喝酒",
+          "vi": "Còn người miền Bắc thì ăn trước rồi mới uống,"
+        },
+        {
+          "zh": "吃饱了饭",
+          "vi": "ăn no rồi"
+        }
+      ]
+    },
+    "461": {
+      "zh": "你还喝得下去吗对",
+      "vi": "thì còn uống nổi không? Đúng"
+    },
+    "462": {
+      "zh": "这就是我们南方人跟他们的那个想法不一样的嘛我们南方人觉得你吃饱了饭就不能喝了你再喝就喝不下去了所以说在我们南方如果你喝不下了酒那么这个时候你只要默默地去拿你的碗筷去打一碗饭吃人家就再也不会劝你喝酒了我",
+      "parts": [
+        {
+          "zh": "这就是我们南方人",
+          "vi": "Đây chính là chỗ người miền Nam bọn mình"
+        },
+        {
+          "zh": "跟他们的那个想法不一样的嘛",
+          "vi": "nghĩ khác với họ,"
+        },
+        {
+          "zh": "我们南方人觉得",
+          "vi": "người miền Nam bọn mình cho rằng"
+        },
+        {
+          "zh": "你吃饱了饭就不能喝了",
+          "vi": "ăn no rồi thì không uống được nữa,"
+        },
+        {
+          "zh": "你再喝就喝不下去了",
+          "vi": "uống nữa là uống không trôi,"
+        },
+        {
+          "zh": "所以说在我们南方",
+          "vi": "nên ở miền Nam bọn mình,"
+        },
+        {
+          "zh": "如果你喝不下了酒",
+          "vi": "nếu bạn không uống nổi nữa"
+        },
+        {
+          "zh": "那么这个时候你只要",
+          "vi": "thì lúc này bạn chỉ cần"
+        },
+        {
+          "zh": "默默地去拿你的碗筷去打一碗饭吃",
+          "vi": "lặng lẽ cầm bát đũa đi xới một bát cơm ăn,"
+        },
+        {
+          "zh": "人家就再也不会劝你喝酒了我",
+          "vi": "là người ta sẽ không ép bạn uống nữa. Mình"
+        }
+      ]
+    },
+    "465": {
+      "zh": "感觉南方人就是胃比较小个子也小是吧就你喝不了那么多你的体格就在那",
+      "parts": [
+        {
+          "zh": "感觉南方人就是胃比较小",
+          "vi": "thấy người miền Nam dạ dày nhỏ hơn,"
+        },
+        {
+          "zh": "个子也小是吧就你喝不了那么多",
+          "vi": "người cũng nhỏ con hơn nhỉ, kiểu bạn không uống nhiều được,"
+        },
+        {
+          "zh": "你的体格就在那",
+          "vi": "thể trạng bạn chỉ có vậy."
+        }
+      ]
+    },
+    "466": {
+      "zh": "对北方能把人给喝的桌子底下去的，就之前呃有参加过一个婚宴嘛，那个女主人是北方人嘛，",
+      "parts": [
+        {
+          "zh": "对北方能把人给喝的桌子底下去的，",
+          "vi": "Đúng, miền Bắc có thể uống đến mức người ta chui xuống gầm bàn,"
+        },
+        {
+          "zh": "就之前呃有参加过一个婚宴嘛，",
+          "vi": "trước mình có đi một tiệc cưới,"
+        },
+        {
+          "zh": "那个女主人是北方人嘛，",
+          "vi": "cô chủ nhà là người miền Bắc,"
+        }
+      ]
+    },
+    "467": {
+      "zh": "她可以跟我们一些南方的一些男孩子一起喝，一个一个的喝，跟你喝白的，她喝多少你喝多少。",
+      "parts": [
+        {
+          "zh": "她可以跟我们一些南方的",
+          "vi": "cô ấy có thể cùng mấy"
+        },
+        {
+          "zh": "一些男孩子一起喝，",
+          "vi": "cậu con trai miền Nam bọn mình uống,"
+        },
+        {
+          "zh": "一个一个的喝，跟你喝白的，",
+          "vi": "uống từng người một, uống rượu trắng với bạn,"
+        },
+        {
+          "zh": "她喝多少你喝多少。",
+          "vi": "cô ấy uống bao nhiêu bạn uống bấy nhiêu."
+        }
+      ]
+    },
+    "468": {
+      "zh": "感觉",
+      "vi": "Cảm giác"
+    },
+    "469": {
+      "zh": "南方的女孩子不太喝酒，喝酒的比较",
+      "vi": "con gái miền Nam không mấy khi uống, người uống thì khá"
+    },
+    "470": {
+      "zh": "少。",
+      "vi": "ít."
+    },
+    "471": {
+      "zh": "对，南方好多喝了一点点，可能喝果酒或者是喝一些呃什么葡萄酒这种酒，他可能就有点。醉了就醉",
+      "parts": [
+        {
+          "zh": "对，南方好多喝了一点点，",
+          "vi": "Đúng, ở miền Nam nhiều người uống một chút,"
+        },
+        {
+          "zh": "可能喝果酒或者是",
+          "vi": "có thể là rượu trái cây hoặc"
+        },
+        {
+          "zh": "喝一些呃什么葡萄酒这种酒，",
+          "vi": "uống ít, ờ, rượu vang kiểu vậy,"
+        },
+        {
+          "zh": "他可能就有点。醉了就醉",
+          "vi": "là có khi đã hơi. Say rồi là say"
+        }
+      ]
+    },
+    "473": {
+      "zh": "酒了。",
+      "vi": "luôn."
+    },
+    "474": {
+      "zh": "这个酒文化，我感觉在亚洲国家都比较呃比较普遍啊，就像在日本跟韩国、东亚这几个",
+      "parts": [
+        {
+          "zh": "这个酒文化，我感觉",
+          "vi": "Văn hóa rượu này, mình thấy"
+        },
+        {
+          "zh": "在亚洲国家都比较呃比较普遍啊，",
+          "vi": "ở các nước châu Á đều khá, ờ, khá phổ biến,"
+        },
+        {
+          "zh": "就像在日本跟韩国、东亚这几个",
+          "vi": "như Nhật Bản với Hàn Quốc, mấy nước Đông Á"
+        }
+      ]
+    },
+    "475": {
+      "zh": "国家嘛，都喜欢喝酒，也也有各自的一个白酒文化。",
+      "parts": [
+        {
+          "zh": "国家嘛，都喜欢喝酒，",
+          "vi": "này đó, đều thích uống rượu,"
+        },
+        {
+          "zh": "也也有各自的一个白酒文化。",
+          "vi": "cũng đều có văn hóa rượu mạnh riêng."
+        }
+      ]
+    },
+    "476": {
+      "zh": "韩国人他喝酒其实跟日本人也像，他们比较喜欢多场的，也是前面小酌一杯，",
+      "parts": [
+        {
+          "zh": "韩国人他喝酒其实跟日本人也像，",
+          "vi": "Người Hàn uống rượu thật ra cũng giống người Nhật,"
+        },
+        {
+          "zh": "他们比较喜欢多场的，",
+          "vi": "họ thích nhậu nhiều tăng,"
+        },
+        {
+          "zh": "也是前面小酌一杯，",
+          "vi": "cũng là trước tiên nhâm nhi một ly,"
+        }
+      ]
+    },
+    "477": {
+      "zh": "然后换个地方再去喝点酒，然后最后的可能到KTV一边K歌一边喝酒，然后最后可能到凌晨的时候。",
+      "parts": [
+        {
+          "zh": "然后换个地方再去喝点酒，",
+          "vi": "rồi đổi chỗ khác uống tiếp,"
+        },
+        {
+          "zh": "然后最后的可能到KTV",
+          "vi": "cuối cùng có khi đến KTV"
+        },
+        {
+          "zh": "一边K歌一边喝酒，",
+          "vi": "vừa hát karaoke vừa uống,"
+        },
+        {
+          "zh": "然后最后可能到凌晨的时候。",
+          "vi": "rồi cuối cùng có khi tới rạng sáng."
+        }
+      ]
+    },
+    "478": {
+      "zh": "到了三三点多钟再去喝个醒酒汤，他们可能就是下了班一直喝喝到喝到凌晨三四点，",
+      "parts": [
+        {
+          "zh": "到了三三点多钟再去喝个醒酒汤，",
+          "vi": "Đến hơn 3 giờ lại đi ăn bát canh giải rượu,"
+        },
+        {
+          "zh": "他们可能就是下了班一直喝",
+          "vi": "họ có khi tan làm là uống một mạch"
+        },
+        {
+          "zh": "喝到喝到凌晨三四点，",
+          "vi": "đến 3–4 giờ sáng,"
+        }
+      ]
+    },
+    "479": {
+      "zh": "然后再回家换个衣服随便休息一两个小时再去上班。",
+      "parts": [
+        {
+          "zh": "然后再回家换个衣服",
+          "vi": "rồi về nhà thay bộ đồ,"
+        },
+        {
+          "zh": "随便休息一两个小时再去上班。",
+          "vi": "nghỉ đại một hai tiếng rồi lại đi làm."
+        }
+      ]
+    },
+    "480": {
+      "zh": "哎，日本人也是",
+      "vi": "Ơ, người Nhật cũng"
+    },
+    "481": {
+      "zh": "吧？",
+      "vi": "vậy nhỉ?"
+    },
+    "482": {
+      "zh": "好像也听说也是说喝到凌晨，然后第二天直接又去上班了。",
+      "parts": [
+        {
+          "zh": "好像也听说也是说喝到凌晨，",
+          "vi": "Hình như cũng nghe nói là uống đến rạng sáng,"
+        },
+        {
+          "zh": "然后第二天直接又去上班了。",
+          "vi": "rồi hôm sau đi làm luôn."
+        }
+      ]
+    },
+    "483": {
+      "zh": "对他随便找个地方住就直接去上班了嘛。",
+      "parts": [
+        {
+          "zh": "对他随便找个地方住",
+          "vi": "Đúng, họ tìm đại chỗ nào ngủ"
+        },
+        {
+          "zh": "就直接去上班了嘛。",
+          "vi": "rồi đi làm luôn."
+        }
+      ]
+    },
+    "484": {
+      "zh": "然后韩国人喝酒还有一些就什么呃一些规矩嘛。",
+      "parts": [
+        {
+          "zh": "然后韩国人喝酒",
+          "vi": "Rồi người Hàn uống rượu"
+        },
+        {
+          "zh": "还有一些就什么呃一些规矩嘛。",
+          "vi": "còn có một vài, ờ, quy tắc nữa."
+        }
+      ]
+    },
+    "485": {
+      "zh": "你第一个给别人倒酒的时候也要两只手。",
+      "parts": [
+        {
+          "zh": "你第一个给别人倒酒的时候",
+          "vi": "Khi bạn rót rượu cho người khác lần đầu"
+        },
+        {
+          "zh": "也要两只手。",
+          "vi": "cũng phải dùng hai tay."
+        }
+      ]
+    },
+    "486": {
+      "zh": "然后接酒的时候也同样同时是两只手去去扶杯子嘛，这个跟中国有点像嘛，就表示一个珍重。",
+      "parts": [
+        {
+          "zh": "然后接酒的时候",
+          "vi": "Rồi khi nhận rượu"
+        },
+        {
+          "zh": "也同样同时是两只手去去扶杯子嘛，",
+          "vi": "cũng đồng thời dùng hai tay đỡ ly,"
+        },
+        {
+          "zh": "这个跟中国有点像嘛，",
+          "vi": "cái này hơi giống Trung Quốc,"
+        },
+        {
+          "zh": "就表示一个珍重。",
+          "vi": "để thể hiện sự trân trọng."
+        }
+      ]
+    },
+    "487": {
+      "zh": "然后还有喝酒的时候，你就是你在跟别人喝酒对喝的时候，你不能去就是正对着别人，",
+      "parts": [
+        {
+          "zh": "然后还有喝酒的时候，",
+          "vi": "Rồi còn lúc uống,"
+        },
+        {
+          "zh": "你就是你在跟别人喝酒对喝的时候，",
+          "vi": "khi bạn uống đối ẩm với người khác,"
+        },
+        {
+          "zh": "你不能去就是正对着别人，",
+          "vi": "bạn không được nhìn thẳng vào người ta,"
+        }
+      ]
+    },
+    "488": {
+      "zh": "你要把你的脸侧过来，就是侧着脸，知道为什么吗？",
+      "parts": [
+        {
+          "zh": "你要把你的脸侧过来，",
+          "vi": "bạn phải nghiêng mặt đi,"
+        },
+        {
+          "zh": "就是侧着脸，知道为什么吗？",
+          "vi": "nghiêng mặt, biết vì sao không?"
+        }
+      ]
+    },
+    "489": {
+      "zh": "为什么呢？",
+      "vi": "Vì sao vậy?"
+    },
+    "490": {
+      "zh": "因为我们正对着你脸喝酒的时候，我们我们这样把杯子提起来往往这样抬，",
+      "parts": [
+        {
+          "zh": "因为我们正对着你脸喝酒的时候，",
+          "vi": "Vì khi uống mà nhìn thẳng vào mặt bạn,"
+        },
+        {
+          "zh": "我们我们这样把杯子提起来",
+          "vi": "bọn mình nhấc ly lên như thế này"
+        },
+        {
+          "zh": "往往这样抬，",
+          "vi": "rồi nâng lên thế này,"
+        }
+      ]
+    },
+    "491": {
+      "zh": "但你的眼睛是往下看的。",
+      "vi": "nhưng mắt bạn lại nhìn xuống."
+    },
+    "492": {
+      "zh": "就会给别人感觉是你在瞧不起我，感觉总是",
+      "parts": [
+        {
+          "zh": "就会给别人感觉是你在瞧不起我，",
+          "vi": "Sẽ khiến người ta cảm thấy bạn coi thường họ,"
+        },
+        {
+          "zh": "感觉总是",
+          "vi": "cảm giác lúc nào cũng"
+        }
+      ]
+    },
+    "493": {
+      "zh": "瞧不起你。",
+      "vi": "coi thường bạn."
+    },
+    "494": {
+      "zh": "我做什么都是",
+      "vi": "Mình làm gì cũng là"
+    },
+    "495": {
+      "zh": "瞧不起你，对，都在乎就怎么东亚人可能比较在乎面子这种东西。",
+      "parts": [
+        {
+          "zh": "瞧不起你，",
+          "vi": "coi thường bạn,"
+        },
+        {
+          "zh": "对，都在乎就怎么东亚人",
+          "vi": "đúng, ai cũng để ý, kiểu người Đông Á"
+        },
+        {
+          "zh": "可能比较在乎面子这种东西。",
+          "vi": "có lẽ khá coi trọng thể diện."
+        }
+      ]
+    },
+    "496": {
+      "zh": "之前不是有一个关于阿里的酒桌文化的一个丑闻嘛？",
+      "parts": [
+        {
+          "zh": "之前不是有一个关于阿里的",
+          "vi": "Trước đây chẳng phải có một vụ bê bối"
+        },
+        {
+          "zh": "酒桌文化的一个丑闻嘛？",
+          "vi": "về văn hóa bàn nhậu ở Alibaba sao?"
+        }
+      ]
+    },
+    "497": {
+      "zh": "就是说有一个女性的员工说是在酒桌上然后喝醉了被人性侵了，",
+      "parts": [
+        {
+          "zh": "就是说有一个女性的员工",
+          "vi": "Là có một nữ nhân viên"
+        },
+        {
+          "zh": "说是在酒桌上",
+          "vi": "kể rằng trên bàn nhậu"
+        },
+        {
+          "zh": "然后喝醉了被人性侵了，",
+          "vi": "bị say rồi bị xâm hại tình dục,"
+        }
+      ]
+    },
+    "498": {
+      "zh": "被领导还是客户应该是被领导，然后这个事情不就闹了挺大的争议了吗？",
+      "parts": [
+        {
+          "zh": "被领导还是客户应该是被领导，",
+          "vi": "bởi sếp hay khách hàng, chắc là sếp,"
+        },
+        {
+          "zh": "然后这个事情",
+          "vi": "rồi chuyện này"
+        },
+        {
+          "zh": "不就闹了挺大的争议了吗？",
+          "vi": "chẳng phải gây tranh cãi lớn sao?"
+        }
+      ]
+    },
+    "499": {
+      "zh": "当时网上就有很多年轻人。讨论嘛，就说啊，这个酒桌文化也不算是什么文化，就是糟粕，我们应该摒弃的。",
+      "parts": [
+        {
+          "zh": "当时网上就有很多年轻人。讨论嘛，",
+          "vi": "Lúc đó trên mạng có rất nhiều người trẻ. Bàn luận,"
+        },
+        {
+          "zh": "就说啊，这个酒桌文化",
+          "vi": "nói là, văn hóa bàn nhậu này"
+        },
+        {
+          "zh": "也不算是什么文化，",
+          "vi": "chẳng phải văn hóa gì cả,"
+        },
+        {
+          "zh": "就是糟粕，我们应该摒弃的。",
+          "vi": "mà là cặn bã, chúng ta nên vứt bỏ."
+        }
+      ]
+    },
+    "501": {
+      "zh": "所以你觉得现在的就是九九五后和零零后对于酒桌文化的这个看法是怎么样的？",
+      "parts": [
+        {
+          "zh": "所以你觉得现在的",
+          "vi": "Vậy bạn thấy hiện nay"
+        },
+        {
+          "zh": "就是九九五后和零零后",
+          "vi": "những người sinh sau 1995 và sau 2000"
+        },
+        {
+          "zh": "对于酒桌文化的",
+          "vi": "đối với văn hóa bàn nhậu"
+        },
+        {
+          "zh": "这个看法是怎么样的？",
+          "vi": "có cách nhìn thế nào?"
+        }
+      ]
+    },
+    "502": {
+      "zh": "他们你说未来会不会酒桌文化越来越嗯淡了，就是没有那么没有那么",
+      "parts": [
+        {
+          "zh": "他们你说未来会不会",
+          "vi": "Họ, bạn nói xem tương lai liệu"
+        },
+        {
+          "zh": "酒桌文化越来越嗯淡了，",
+          "vi": "văn hóa bàn nhậu có ngày càng, ừm, phai nhạt không,"
+        },
+        {
+          "zh": "就是没有那么没有那么",
+          "vi": "kiểu không còn quan trọng như"
+        }
+      ]
+    },
+    "503": {
+      "zh": "重要了？",
+      "vi": "vậy nữa?"
+    },
+    "504": {
+      "zh": "就是在职场上呢，他喝酒不是唯一的一个方式。",
+      "parts": [
+        {
+          "zh": "就是在职场上呢，",
+          "vi": "Ở chốn công sở ấy,"
+        },
+        {
+          "zh": "他喝酒不是唯一的一个方式。",
+          "vi": "uống rượu không phải là cách duy nhất."
+        }
+      ]
+    },
+    "505": {
+      "zh": "呃，不仅是年轻人，包括一些年长的人或者是。领导嘛，他们比起喝酒，可能现在更多的就选择了一个健康一些的活动，比如说钓鱼啊，",
+      "parts": [
+        {
+          "zh": "呃，不仅是年轻人，",
+          "vi": "Ờ, không chỉ người trẻ,"
+        },
+        {
+          "zh": "包括一些年长的人或者是。领导嘛，",
+          "vi": "kể cả một số người lớn tuổi hay là. Lãnh đạo,"
+        },
+        {
+          "zh": "他们比起喝酒，",
+          "vi": "so với uống rượu,"
+        },
+        {
+          "zh": "可能现在更多的就选择了",
+          "vi": "có lẽ giờ họ chọn nhiều hơn"
+        },
+        {
+          "zh": "一个健康一些的活动，比如说钓鱼啊，",
+          "vi": "những hoạt động lành mạnh hơn, như câu cá,"
+        }
+      ]
+    },
+    "507": {
+      "zh": "然后农家乐呀，然后然后徒步行走啊，然后环城市骑行呐。",
+      "parts": [
+        {
+          "zh": "然后农家乐呀，然后然后徒步行走啊，",
+          "vi": "rồi du lịch nông trại, rồi đi bộ đường dài,"
+        },
+        {
+          "zh": "然后环城市骑行呐。",
+          "vi": "rồi đạp xe vòng quanh thành phố."
+        }
+      ]
+    },
+    "508": {
+      "zh": "其实这些新的一个中国社交方式啊，它慢慢的会取代我们的一个酒桌的社交方式，",
+      "parts": [
+        {
+          "zh": "其实这些新的一个中国社交方式啊，",
+          "vi": "Thật ra những cách giao tiếp mới này ở Trung Quốc"
+        },
+        {
+          "zh": "它慢慢的会取代",
+          "vi": "sẽ dần dần thay thế"
+        },
+        {
+          "zh": "我们的一个酒桌的社交方式，",
+          "vi": "cách giao tiếp trên bàn nhậu của chúng ta,"
+        }
+      ]
+    },
+    "509": {
+      "zh": "但是它也是不可避免，也不可能把它直接淘汰掉的。",
+      "parts": [
+        {
+          "zh": "但是它也是不可避免，",
+          "vi": "nhưng bàn nhậu cũng là thứ không tránh được,"
+        },
+        {
+          "zh": "也不可能把它直接淘汰掉的。",
+          "vi": "không thể loại bỏ hẳn được."
+        }
+      ]
+    },
+    "510": {
+      "zh": "会不会有一",
+      "vi": "Liệu có"
+    },
+    "511": {
+      "zh": "些从事销售的人他没有办法呢就是你不",
+      "parts": [
+        {
+          "zh": "些从事销售的人他没有办法呢",
+          "vi": "những người làm bán hàng không còn cách nào,"
+        },
+        {
+          "zh": "就是你不",
+          "vi": "kiểu bạn không"
+        }
+      ]
+    },
+    "512": {
+      "zh": "喝也得喝我在抖音里面看到过有一个00后的一个厂长他说后备箱一定要放茅台的并且是时刻准备着的因为有很多客户喜欢并不是他喜欢现在的那个00后啊90后啊其实更多的酒桌文化已经",
+      "parts": [
+        {
+          "zh": "喝也得喝",
+          "vi": "uống cũng phải uống."
+        },
+        {
+          "zh": "我在抖音里面看到过",
+          "vi": "Mình thấy trên Douyin"
+        },
+        {
+          "zh": "有一个00后的一个厂长",
+          "vi": "có một xưởng trưởng thế hệ 2000"
+        },
+        {
+          "zh": "他说后备箱一定要放茅台的",
+          "vi": "nói cốp xe nhất định phải để Mao Đài,"
+        },
+        {
+          "zh": "并且是时刻准备着的",
+          "vi": "mà phải luôn sẵn sàng,"
+        },
+        {
+          "zh": "因为有很多客户喜欢并不是他喜欢",
+          "vi": "vì nhiều khách hàng thích, chứ không phải anh ấy thích."
+        },
+        {
+          "zh": "现在的那个00后啊90后啊",
+          "vi": "Bây giờ thế hệ 2000, thế hệ 9x ấy,"
+        },
+        {
+          "zh": "其实更多的酒桌文化已经",
+          "vi": "thật ra văn hóa rượu phần nhiều đã"
+        }
+      ]
+    },
+    "514": {
+      "zh": "从酒宴上面搬到酒馆上面了，然后他们更多喝喝酒都是为了自己开心、自己放松，",
+      "parts": [
+        {
+          "zh": "从酒宴上面搬到酒馆上面了，",
+          "vi": "chuyển từ tiệc rượu sang quán bar rồi,"
+        },
+        {
+          "zh": "然后他们更多喝喝酒",
+          "vi": "họ uống rượu phần nhiều"
+        },
+        {
+          "zh": "都是为了自己开心、自己放松，",
+          "vi": "là để bản thân vui, bản thân thư giãn,"
+        }
+      ]
+    },
+    "515": {
+      "zh": "并不是为了所谓的一些讨好或者一些一些人际人人际交往。",
+      "parts": [
+        {
+          "zh": "并不是为了所谓的一些讨好",
+          "vi": "chứ không phải vì cái gọi là lấy lòng"
+        },
+        {
+          "zh": "或者一些一些人际人人际交往。",
+          "vi": "hay, ờ, quan hệ xã giao."
+        }
+      ]
+    },
+    "516": {
+      "zh": "所以说今天这个酒桌文化会随着时代的改变而改",
+      "parts": [
+        {
+          "zh": "所以说今天这个酒桌文化",
+          "vi": "Nên văn hóa bàn nhậu ngày nay"
+        },
+        {
+          "zh": "会随着时代的改变而改",
+          "vi": "sẽ theo thời đại mà thay"
+        }
+      ]
+    },
+    "517": {
+      "zh": "变。",
+      "vi": "đổi."
+    },
+    "518": {
+      "zh": "好，那今天的播客到这里就结束了啊！",
+      "vi": "Được rồi, podcast hôm nay đến đây là kết thúc!"
+    },
+    "519": {
+      "zh": "在你们国家有没有酒桌文化呢？",
+      "vi": "Ở nước các bạn có văn hóa bàn nhậu không?"
+    },
+    "520": {
+      "zh": "如果有的话是什么样的？",
+      "vi": "Nếu có thì nó như thế nào?"
+    },
+    "521": {
+      "zh": "可以在下面留言讨论。",
+      "vi": "Các bạn có thể để lại bình luận bên dưới để cùng thảo luận."
+    },
+    "522": {
+      "zh": "如果你喜欢这个视频的话，那就请点赞、转发并订阅我们的频道。",
+      "parts": [
+        {
+          "zh": "如果你喜欢这个视频的话，",
+          "vi": "Nếu bạn thích video này,"
+        },
+        {
+          "zh": "那就请点赞、转发并订阅我们的频道。",
+          "vi": "thì hãy bấm thích, chia sẻ và đăng ký kênh của chúng mình."
+        }
+      ]
+    },
+    "523": {
+      "zh": "我们下期再见，拜拜，",
+      "vi": "Hẹn gặp lại ở tập sau, tạm biệt,"
+    },
+    "524": {
+      "zh": "拜拜，Jonas，拜拜，拜拜。",
+      "vi": "Tạm biệt, Jonas, bye bye, bye bye."
+    }
+  }
+}

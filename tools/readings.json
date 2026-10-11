@@ -147,5 +147,20 @@
     "干一件": ["gàn yí jiàn","部门合作干一件事情: các phòng cùng làm một việc — 干 (làm) là gàn; gān là khô"],
     "为有酒窝": ["wéi yǒu jiǔ wō","他们认 / 为有酒窝的人: 认为 bị tách qua hai người nói — 为 trong 认为 là wéi"],
     "低一级": ["dī yì jí","你比我低一级: thấp hơn tôi một cấp — 一 trước thanh 2 đọc yì"]
+  },
+  "MC20240303": {
+    "我只听过": ["wǒ zhǐ tīng guò", "我只听过茅台: tôi chỉ nghe nói Mao Đài — 只 là zhǐ (chỉ), không phải lượng từ zhī"],
+    "教我": ["jiāo wǒ", "我老板教我的: sếp dạy tôi — 教 động từ là jiāo"],
+    "兴了": ["xìng le", "cắt từ 高兴了 (đổi người nói giữa từ) — 兴 trong 高兴 là xìng"],
+    "同行的人": ["tóng xíng de rén", "những người đi cùng trên bàn rượu — tóng xíng, không phải tóng háng (cùng nghề)"],
+    "先干为敬": ["xiān gān wéi jìng", "cạn trước để tỏ lòng kính — 为 là wéi"],
+    "倒酒": ["dào jiǔ", "rót rượu — 倒 là dào, không phải dǎo (ngã)"],
+    "倒到满": ["dào dào mǎn", "rót đến đầy — 倒 là dào"],
+    "倒得溢": ["dào de yì", "rót đến tràn — 倒 là dào"],
+    "得喝": ["děi hē", "你就得喝 / 喝也得喝: phải uống — 得 là děi"],
+    "得得吞": ["děi děi tūn", "喝不下你得得吞: uống không nổi cũng phải nuốt — 得 (nói lắp) là děi"],
+    "管得住": ["guǎn de zhù", "quản được — 得 bổ ngữ khả năng là de, không phải dé (đạt được)"],
+    "听得到": ["tīng de dào", "nghe được — 得 bổ ngữ khả năng là de"],
+    "默默地": ["mò mò de", "lặng lẽ — 地 trạng ngữ là de, không phải dì (đất)"]
   }
 }

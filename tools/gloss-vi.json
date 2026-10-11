@@ -3705,7 +3705,7 @@
  ],
  "掰": [
   "",
-  "bẻ ra, tách ra"
+  "bẻ ra, tách ra; (闹掰: cạch mặt, cắt đứt quan hệ)"
  ],
  "门帘": [
   "MÔN LIÊM",
@@ -6841,7 +6841,7 @@
  ],
  "图": [
   "ĐỒ",
-  "hình, ảnh"
+  "hình, ảnh; mưu cầu, cốt để (图一乐子: cốt cho vui)"
  ],
  "买票": [
   "MÃI PHIẾU",
@@ -6889,7 +6889,7 @@
  ],
  "说好": [
   "THUYẾT HẢO",
-  "hẹn trước, thống nhất"
+  "hẹn trước, thống nhất; (说 + 好: nói 'được')"
  ],
  "那里": [
   "NA LÝ",
@@ -7105,7 +7105,7 @@
  ],
  "冲": [
   "XUNG",
-  "lao tới, xông vào"
+  "lao tới, xông vào; (mùi, vị) gắt, sộc (冲喉咙: sộc lên cổ họng)"
  ],
  "肩膀": [
   "KIÊN BẢNG",
@@ -7605,7 +7605,7 @@
  ],
  "抖": [
   "ĐẨU",
-  "run"
+  "run; (抖音: Douyin, TikTok Trung Quốc)"
  ],
  "差": [
   "SAI",
@@ -7757,7 +7757,7 @@
  ],
  "法": [
   "PHÁP",
-  "luật; cách; (看法 bị cắt dòng) cách nhìn"
+  "luật; cách; (看法 bị cắt dòng) cách nhìn; (cắt từ 法律: pháp luật, vì cắt dòng)"
  ],
  "鬼": [
   "QUỶ",
@@ -10549,7 +10549,7 @@
  ],
  "音": [
   "ÂM",
-  "âm"
+  "âm; (抖音: Douyin, TikTok Trung Quốc)"
  ],
  "代表": [
   "ĐẠI BIỂU",
@@ -15797,7 +15797,7 @@
  ],
  "人性": [
   "NHÂN TÍNH",
-  "nhân tính, bản chất con người"
+  "nhân tính, bản chất con người; (cắt từ chưa chuẩn của 被人性侵: bị người khác xâm hại tình dục)"
  ],
  "物体": [
   "VẬT THỂ",
@@ -16457,7 +16457,7 @@
  ],
  "是非": [
   "THỊ PHI",
-  "phải trái, đúng sai"
+  "phải trái, đúng sai; (cắt từ chưa chuẩn của 是非喝不可: là buộc phải uống)"
  ],
  "调调": [
   "",
@@ -23041,7 +23041,7 @@
  ],
  "躲": [
   "",
-  "trốn, nấp"
+  "trốn, nấp; né (躲酒: né uống rượu)"
  ],
  "书桌": [
   "THƯ TRÁC",
@@ -24329,7 +24329,7 @@
  ],
  "零零": [
   "LINH LINH",
-  "(đọc số) không không (二零零七年: năm 2007)"
+  "(đọc số) không không (二零零七年: năm 2007); (零零后: thế hệ sinh sau năm 2000)"
  ],
  "实行": [
   "THỰC HÀNH",
@@ -26133,7 +26133,7 @@
  ],
  "光": [
   "QUANG",
-  "ánh sáng; trần, để trần (光着膀子: cởi trần); hết sạch (喝光: uống cạn)"
+  "ánh sáng; trần, để trần (光着膀子: cởi trần); hết sạch (喝光: uống cạn); chỉ, chỉ riêng (光这个: chỉ riêng việc này)"
  ],
  "膀子": [
   "BẢNG TỬ",
@@ -26309,7 +26309,7 @@
  ],
  "了酒": [
   "LIỄU TỬU",
-  "(cắt từ chưa chuẩn của 喝醉了 + 酒: say rượu)"
+  "(cắt từ chưa chuẩn của 喝醉了 + 酒: say rượu); (喝不下了酒: uống không nổi rượu nữa)"
  ],
  "传遍": [
   "TRUYỀN BIẾN",
@@ -27949,7 +27949,7 @@
  ],
  "劝": [
   "KHUYẾN",
-  "khuyên, khuyên nhủ"
+  "khuyên, khuyên nhủ; nài, mời (uống rượu)"
  ],
  "小雨": [
   "TIỂU VŨ",
@@ -32141,7 +32141,7 @@
  ],
  "飞天": [
   "PHI THIÊN",
-  "bay lên trời (飞天汽车: ô tô bay)"
+  "bay lên trời (飞天汽车: ô tô bay); (飞天茅台: Mao Đài Phi Thiên, dòng Mao Đài nổi tiếng nhất)"
  ],
  "无可取代": [
   "VÔ KHẢ THỦ ĐẠI",
@@ -34626,5 +34626,1377 @@
  "财": [
   "TÀI",
   "tiền của; (恭喜发财) chúc phát tài"
+ ],
+ "酒桌": [
+  "TỬU TRÁC",
+  "bàn rượu, bàn nhậu (酒桌文化: văn hóa bàn nhậu)"
+ ],
+ "醉": [
+  "TÚY",
+  "say (rượu)"
+ ],
+ "南方人": [
+  "NAM PHƯƠNG NHÂN",
+  "người miền Nam (Trung Quốc)"
+ ],
+ "果酒": [
+  "QUẢ TỬU",
+  "rượu trái cây"
+ ],
+ "五十三": [
+  "NGŨ THẬP TAM",
+  "53"
+ ],
+ "人际交往": [
+  "NHÂN TẾ GIAO VÃNG",
+  "giao tiếp giữa người với người, quan hệ xã giao"
+ ],
+ "客气": [
+  "KHÁCH KHÍ",
+  "khách sáo, lịch sự (客气一下: khách sáo cho phải phép)"
+ ],
+ "叩首": [
+  "KHẤU THỦ",
+  "dập đầu lạy, khấu đầu"
+ ],
+ "女明星": [
+  "NỮ MINH TINH",
+  "nữ minh tinh, nữ ngôi sao"
+ ],
+ "代": [
+  "ĐẠI",
+  "thay, thay mặt (代喝: uống thay); đời, thế hệ"
+ ],
+ "七十八": [
+  "THẤT THẬP BÁT",
+  "78"
+ ],
+ "样": [
+  "DẠNG",
+  "dáng, kiểu; (cắt từ 这个样子: bộ dạng này)"
+ ],
+ "电线杆": [
+  "ĐIỆN TUYẾN CAN",
+  "cột điện"
+ ],
+ "双手": [
+  "SONG THỦ",
+  "hai tay"
+ ],
+ "叩头": [
+  "KHẤU ĐẦU",
+  "dập đầu lạy"
+ ],
+ "压低": [
+  "ÁP ĐÊ",
+  "hạ thấp, hạ xuống (hạ ly thấp hơn khi chạm cốc)"
+ ],
+ "陈先生": [
+  "TRẦN TIÊN SINH",
+  "ông Trần, anh Trần"
+ ],
+ "任": [
+  "NHIỆM",
+  "đảm nhận, nhiệm vụ; (cắt từ 责任: trách nhiệm)"
+ ],
+ "感冒": [
+  "CẢM MẠO",
+  "cảm cúm, bị cảm"
+ ],
+ "头孢": [
+  "ĐẦU BÀO",
+  "kháng sinh nhóm cephalosporin"
+ ],
+ "饮料": [
+  "ẨM LIỆU",
+  "đồ uống, nước giải khát"
+ ],
+ "看不上": [
+  "KHÁN BẤT THƯỢNG",
+  "coi thường, chê, không vừa mắt"
+ ],
+ "喝过": [
+  "HÁT QUÁ",
+  "đã từng uống"
+ ],
+ "经典": [
+  "KINH ĐIỂN",
+  "kinh điển, tiêu biểu"
+ ],
+ "尽兴": [
+  "TẬN HỨNG",
+  "tận hứng, thỏa thích"
+ ],
+ "摇摇晃晃": [
+  "DAO DAO HOẢNG HOẢNG",
+  "lảo đảo, chao đảo"
+ ],
+ "喝成": [
+  "HÁT THÀNH",
+  "uống đến thành ra (喝成这个样子: uống thành ra bộ dạng này)"
+ ],
+ "遮拦": [
+  "GIÀ LAN",
+  "ngăn, che chắn (口无遮拦: ăn nói không giữ mồm)"
+ ],
+ "交朋友": [
+  "GIAO BẰNG HỮU",
+  "kết bạn"
+ ],
+ "聚在一起": [
+  "TỤ TẠI NHẤT KHỞI",
+  "tụ tập lại với nhau"
+ ],
+ "吹牛": [
+  "XUY NGƯU",
+  "khoác lác, chém gió"
+ ],
+ "怂": [
+  "TÚNG",
+  "nhát gan, hèn (khẩu ngữ)"
+ ],
+ "敢": [
+  "CẢM",
+  "dám"
+ ],
+ "江西": [
+  "GIANG TÂY",
+  "Giang Tây (tỉnh)"
+ ],
+ "秘密": [
+  "BÍ MẬT",
+  "bí mật"
+ ],
+ "八卦": [
+  "BÁT QUÁI",
+  "chuyện phiếm, chuyện tầm phào; bát quái"
+ ],
+ "上司": [
+  "THƯỢNG TY",
+  "cấp trên, sếp"
+ ],
+ "宋朝": [
+  "TỐNG TRIỀU",
+  "nhà Tống"
+ ],
+ "属下": [
+  "THUỘC HẠ",
+  "thuộc hạ, cấp dưới"
+ ],
+ "酒宴": [
+  "TỬU YẾN",
+  "tiệc rượu"
+ ],
+ "光是": [
+  "QUANG THỊ",
+  "chỉ riêng, chỉ là"
+ ],
+ "点菜": [
+  "ĐIỂM THÁI",
+  "gọi món"
+ ],
+ "不懂事": [
+  "BẤT ĐỔNG SỰ",
+  "không hiểu chuyện, không biết điều"
+ ],
+ "那人": [
+  "NA NHÂN",
+  "người đó"
+ ],
+ "主位": [
+  "CHỦ VỊ",
+  "ghế chủ (chỗ ngồi của người quan trọng nhất trên bàn tiệc)"
+ ],
+ "坐错": [
+  "TỌA THÁC",
+  "ngồi nhầm chỗ"
+ ],
+ "大不敬": [
+  "ĐẠI BẤT KÍNH",
+  "đại bất kính, cực kỳ vô lễ"
+ ],
+ "乙方": [
+  "ẤT PHƯƠNG",
+  "bên B (trong hợp đồng), phía nhận làm"
+ ],
+ "不能不": [
+  "BẤT NĂNG BẤT",
+  "không thể không, buộc phải"
+ ],
+ "满": [
+  "MÃN",
+  "đầy"
+ ],
+ "接酒": [
+  "TIẾP TỬU",
+  "nhận rượu (khi được rót)"
+ ],
+ "罪": [
+  "TỘI",
+  "tội"
+ ],
+ "礼": [
+  "LỄ",
+  "lễ, nghi lễ (叩首礼: lễ khấu đầu)"
+ ],
+ "扶": [
+  "PHÙ",
+  "đỡ, vịn"
+ ],
+ "杯": [
+  "BÔI",
+  "cốc, ly; lượng từ: ly, chén"
+ ],
+ "网友会": [
+  "VÕNG HỮU HỘI",
+  "(cắt từ chưa chuẩn của 网友会讲: cư dân mạng hay nói)"
+ ],
+ "放低": [
+  "PHÓNG ĐÊ",
+  "hạ thấp, để thấp xuống"
+ ],
+ "不下": [
+  "BẤT HẠ",
+  "(sau động từ) không nổi, không vào (喝不下: uống không nổi nữa); không dưới (số lượng)"
+ ],
+ "差点": [
+  "SAI ĐIỂM",
+  "suýt nữa; kém hơn một chút (相对差点的: kém hơn một chút)"
+ ],
+ "敬错": [
+  "KÍNH THÁC",
+  "mời rượu nhầm (người, thứ tự)"
+ ],
+ "可不": [
+  "KHẢ BẤT",
+  "đúng thế chứ còn gì (= 可不是); (那可不够朋友: thế thì đúng là không ra bạn bè)"
+ ],
+ "杯酒": [
+  "BÔI TỬU",
+  "chén rượu, ly rượu"
+ ],
+ "疹子": [
+  "CHẨN TỬ",
+  "mẩn ngứa, phát ban"
+ ],
+ "茶代": [
+  "TRÀ ĐẠI",
+  "(cắt từ chưa chuẩn của 以茶代酒: lấy trà thay rượu)"
+ ],
+ "一升": [
+  "NHẤT THĂNG",
+  "một lít"
+ ],
+ "一百块": [
+  "NHẤT BÁCH KHỐI",
+  "một trăm tệ"
+ ],
+ "喝到": [
+  "HÁT ĐÁO",
+  "uống đến (喝到医院去: uống đến phải vào viện)"
+ ],
+ "生命危险": [
+  "SINH MỆNH NGUY HIỂM",
+  "nguy hiểm đến tính mạng"
+ ],
+ "责": [
+  "TRÁCH",
+  "trách nhiệm; trách móc"
+ ],
+ "备孕": [
+  "BỊ DỰNG",
+  "chuẩn bị mang thai"
+ ],
+ "配酒": [
+  "PHỐI TỬU",
+  "uống kèm với rượu (头孢配酒: uống kháng sinh với rượu)"
+ ],
+ "了饭": [
+  "LIỄU PHẠN",
+  "(cắt từ chưa chuẩn của 吃饱了饭: ăn no cơm rồi)"
+ ],
+ "两只手": [
+  "LƯỠNG CHÍCH THỦ",
+  "hai tay"
+ ],
+ "侧": [
+  "TRẮC",
+  "nghiêng sang một bên; bên cạnh"
+ ],
+ "小麦": [
+  "TIỂU MẠCH",
+  "lúa mì"
+ ],
+ "汁": [
+  "TRẤP",
+  "nước ép, dịch"
+ ],
+ "鄙视": [
+  "BỈ THỊ",
+  "khinh thường, coi khinh (鄙视链: chuỗi coi thường, ai cũng chê người \"dưới\" mình)"
+ ],
+ "当家做主": [
+  "ĐƯƠNG GIA TỐ CHỦ",
+  "làm chủ gia đình, nắm quyền quyết định"
+ ],
+ "多少度": [
+  "ĐA THIỂU ĐỘ",
+  "bao nhiêu độ"
+ ],
+ "一十八": [
+  "NHẤT THẬP BÁT",
+  "18 (cách đọc một mười tám)"
+ ],
+ "度到": [
+  "ĐỘ ĐÁO",
+  "(cắt từ chưa chuẩn của 十八度到七十八度: từ 18 độ đến 78 độ)"
+ ],
+ "火辣辣": [
+  "HỎA LẠT LẠT",
+  "nóng rát, cay xé"
+ ],
+ "喉咙": [
+  "HẦU LUNG",
+  "cổ họng"
+ ],
+ "咽不下": [
+  "YẾT BẤT HẠ",
+  "nuốt không trôi"
+ ],
+ "来度": [
+  "LAI ĐỘ",
+  "(cắt từ chưa chuẩn của 五十来度: khoảng 50 độ)"
+ ],
+ "紧俏": [
+  "KHẨN TIẾU",
+  "đắt hàng, được săn lùng"
+ ],
+ "知名度": [
+  "TRI DANH ĐỘ",
+  "độ nổi tiếng"
+ ],
+ "带火": [
+  "ĐỚI HỎA",
+  "làm cho nổi đình đám, kéo theo cơn sốt"
+ ],
+ "婚礼": [
+  "HÔN LỄ",
+  "đám cưới, hôn lễ"
+ ],
+ "利索": [
+  "LỢI SÁCH",
+  "nhanh nhẹn, trôi chảy (说话不利索: nói líu lưỡi)"
+ ],
+ "脱": [
+  "THOÁT",
+  "cởi, thoát ra (脱口而出: buột miệng nói ra)"
+ ],
+ "脱口": [
+  "THOÁT KHẨU",
+  "buột miệng (脱口而出: buột miệng nói ra)"
+ ],
+ "醒过来": [
+  "TỈNH QUÁ LAI",
+  "tỉnh lại"
+ ],
+ "耶": [
+  "DA",
+  "ơ, ủa (thán từ ngạc nhiên)"
+ ],
+ "醒来": [
+  "TỈNH LAI",
+  "tỉnh dậy"
+ ],
+ "来来回回": [
+  "LAI LAI HỒI HỒI",
+  "qua qua lại lại"
+ ],
+ "倒地": [
+  "ĐẢO ĐỊA",
+  "ngã lăn ra đất"
+ ],
+ "醉意": [
+  "TÚY Ý",
+  "hơi men, ngà ngà say"
+ ],
+ "晕晕": [
+  "VỰNG VỰNG",
+  "choáng choáng, lâng lâng"
+ ],
+ "绿化带": [
+  "LỤC HÓA ĐỚI",
+  "dải cây xanh (ven đường)"
+ ],
+ "喝醉酒": [
+  "HÁT TÚY TỬU",
+  "uống say rượu"
+ ],
+ "丑态百出": [
+  "XÚ THÁI BÁCH XUẤT",
+  "làm đủ trò xấu mặt, lố bịch đủ kiểu"
+ ],
+ "稀奇古怪": [
+  "HI KỲ CỔ QUÁI",
+  "kỳ quặc, quái gở"
+ ],
+ "借": [
+  "TÁ",
+  "mượn; nhân (dịp) (借这个时候: nhân lúc này)"
+ ],
+ "不太会": [
+  "BẤT THÁI HỘI",
+  "không mấy khi, không hay (làm gì)"
+ ],
+ "怪怪的": [
+  "QUÁI QUÁI ĐÍCH",
+  "là lạ, kỳ kỳ"
+ ],
+ "吐出来": [
+  "THỔ XUẤT LAI",
+  "nhả ra; (bóng) nói ra, trút ra"
+ ],
+ "身心健康": [
+  "THÂN TÂM KIỆN KHANG",
+  "sức khỏe thể chất và tinh thần"
+ ],
+ "不利": [
+  "BẤT LỢI",
+  "bất lợi, có hại"
+ ],
+ "无意识": [
+  "VÔ Ý THỨC",
+  "vô thức, không ý thức được"
+ ],
+ "繁衍": [
+  "PHỒN DIỄN",
+  "sinh sôi, duy trì nòi giống"
+ ],
+ "后代": [
+  "HẬU ĐẠI",
+  "con cháu, thế hệ sau (繁衍后代: duy trì nòi giống)"
+ ],
+ "社恐": [
+  "XÃ KHỦNG",
+  "người sợ giao tiếp (viết tắt của 社交恐惧症)"
+ ],
+ "社牛": [
+  "XÃ NGƯU",
+  "(tiếng lóng) người cực kỳ dạn dĩ khi giao tiếp, ngược với 社恐"
+ ],
+ "平": [
+  "BÌNH",
+  "bằng, phẳng; (cắt từ 平常: bình thường)"
+ ],
+ "壮": [
+  "TRÁNG",
+  "khỏe; làm mạnh thêm (酒壮怂人胆: rượu vào kẻ nhát cũng hóa gan)"
+ ],
+ "胆": [
+  "ĐẢM",
+  "mật; lá gan, can đảm"
+ ],
+ "胆子": [
+  "ĐẢM TỬ",
+  "lá gan, can đảm (胆子大: to gan)"
+ ],
+ "搭讪": [
+  "ĐÁP SAN",
+  "bắt chuyện (làm quen)"
+ ],
+ "交到": [
+  "GIAO ĐÁO",
+  "kết được (交到朋友: kết được bạn)"
+ ],
+ "公开": [
+  "CÔNG KHAI",
+  "công khai"
+ ],
+ "顺当": [
+  "THUẬN ĐƯƠNG",
+  "suôn sẻ, thuận lợi"
+ ],
+ "日后": [
+  "NHẬT HẬU",
+  "sau này, mai sau"
+ ],
+ "严": [
+  "NGHIÊM",
+  "nghiêm, chặt (嘴巴要严: phải kín miệng)"
+ ],
+ "迅速": [
+  "TẤN TỐC",
+  "nhanh chóng"
+ ],
+ "升温": [
+  "THĂNG ÔN",
+  "tăng nhiệt; (bóng) nóng lên, thân thiết nhanh"
+ ],
+ "严谨": [
+  "NGHIÊM CẨN",
+  "nghiêm túc, chặt chẽ, cẩn trọng"
+ ],
+ "领头": [
+  "LĨNH ĐẦU",
+  "dẫn đầu, cầm đầu (领头上司: sếp, cấp trên)"
+ ],
+ "晋升": [
+  "TẤN THĂNG",
+  "thăng chức"
+ ],
+ "闭口不言": [
+  "BẾ KHẨU BẤT NGÔN",
+  "ngậm miệng không nói, kín miệng"
+ ],
+ "稳重": [
+  "ỔN TRỌNG",
+  "điềm đạm, chín chắn"
+ ],
+ "开国": [
+  "KHAI QUỐC",
+  "lập nước (开国皇帝: hoàng đế khai quốc)"
+ ],
+ "赵匡胤": [
+  "TRIỆU KHUÔNG DẬN",
+  "Triệu Khuông Dận (Tống Thái Tổ, hoàng đế khai quốc nhà Tống)"
+ ],
+ "杯酒释兵权": [
+  "BÔI TỬU THÍCH BINH QUYỀN",
+  "nâng chén rượu tước binh quyền (Triệu Khuông Dận mở tiệc để các tướng giao lại binh quyền)"
+ ],
+ "手下": [
+  "THỦ HẠ",
+  "thuộc hạ, cấp dưới"
+ ],
+ "酒席": [
+  "TỬU TỊCH",
+  "tiệc rượu"
+ ],
+ "造反": [
+  "TẠO PHẢN",
+  "tạo phản, làm phản"
+ ],
+ "拿下": [
+  "NÃ HẠ",
+  "bắt giữ; giành được"
+ ],
+ "兵权": [
+  "BINH QUYỀN",
+  "binh quyền, quyền chỉ huy quân đội"
+ ],
+ "养老": [
+  "DƯỠNG LÃO",
+  "dưỡng già, về hưu an nhàn"
+ ],
+ "埋伏": [
+  "MAI PHỤC",
+  "mai phục; (bóng) ẩn ý, cài bẫy (字里行间都有埋伏)"
+ ],
+ "言外之意": [
+  "NGÔN NGOẠI CHI Ý",
+  "ý ngoài lời, hàm ý"
+ ],
+ "双方": [
+  "SONG PHƯƠNG",
+  "hai bên, song phương"
+ ],
+ "部": [
+  "BỘ",
+  "bộ, bộ phận; (cắt từ chưa chuẩn của 部下: cấp dưới)"
+ ],
+ "酒品": [
+  "TỬU PHẨM",
+  "tư cách khi uống rượu (酒品好: say vẫn đàng hoàng)"
+ ],
+ "乐子": [
+  "LẠC TỬ",
+  "trò vui, niềm vui (图一乐子: cho vui)"
+ ],
+ "大同小异": [
+  "ĐẠI ĐỒNG TIỂU DỊ",
+  "đại đồng tiểu dị, gần như giống nhau"
+ ],
+ "至于": [
+  "CHÍ Ư",
+  "còn về, đến mức"
+ ],
+ "临门一脚": [
+  "LÂM MÔN NHẤT CƯỚC",
+  "cú sút trước khung thành; (bóng) bước quyết định cuối cùng"
+ ],
+ "稀里糊涂": [
+  "HI LÝ HỒ ĐỒ",
+  "mơ mơ hồ hồ, lơ mơ"
+ ],
+ "称兄道弟": [
+  "XƯNG HUYNH ĐẠO ĐỆ",
+  "xưng huynh gọi đệ, anh anh em em"
+ ],
+ "这的": [
+  "GIÁ ĐÍCH",
+  "(cắt từ chưa chuẩn của 在这的: ở đây)"
+ ],
+ "滚蛋": [
+  "CỔN ĐẢN",
+  "cút đi; (bị) đuổi việc (我就要滚蛋了: tôi sắp bị cho nghỉ việc)"
+ ],
+ "你俩": [
+  "NHĨ LƯỠNG",
+  "hai người các bạn"
+ ],
+ "聊得": [
+  "LIÊU ĐẮC",
+  "(cắt từ chưa chuẩn của 聊得来: nói chuyện hợp nhau)"
+ ],
+ "拉动": [
+  "LẠP ĐỘNG",
+  "kéo, thúc đẩy (拉动客户: khuấy động, kéo khách vào cuộc)"
+ ],
+ "外向": [
+  "NGOẠI HƯỚNG",
+  "hướng ngoại"
+ ],
+ "开口": [
+  "KHAI KHẨU",
+  "mở miệng, lên tiếng"
+ ],
+ "幌子": [
+  "HOẢNG TỬ",
+  "biển hiệu; cái cớ"
+ ],
+ "呦": [
+  "U",
+  "ôi (哎呦: ối, ôi chao)"
+ ],
+ "急": [
+  "CẤP",
+  "gấp, khẩn cấp; sốt ruột"
+ ],
+ "留不住": [
+  "LƯU BẤT TRÚ",
+  "không giữ lại được"
+ ],
+ "没得": [
+  "MỘT ĐẮC",
+  "không có (没得谈: chẳng còn gì để bàn)"
+ ],
+ "左尊": [
+  "TẢ TÔN",
+  "bên trái là trên (左尊右次: bên trái tôn hơn bên phải)"
+ ],
+ "右次": [
+  "HỮU THỨ",
+  "bên phải là dưới (左尊右次: bên trái tôn hơn bên phải)"
+ ],
+ "错位": [
+  "THÁC VỊ",
+  "sai vị trí, lệch chỗ; (cắt từ 坐错位置: ngồi nhầm chỗ)"
+ ],
+ "置": [
+  "TRÍ",
+  "đặt, để; (cắt từ 位置: vị trí)"
+ ],
+ "职员": [
+  "CHỨC VIÊN",
+  "nhân viên, viên chức"
+ ],
+ "贵宾": [
+  "QUÝ TÂN",
+  "khách quý, VIP"
+ ],
+ "贵客": [
+  "QUÝ KHÁCH",
+  "khách quý"
+ ],
+ "做主": [
+  "TỐ CHỦ",
+  "làm chủ, tự quyết (你来做主位: anh ngồi ghế chủ đi)"
+ ],
+ "东家": [
+  "ĐÔNG GIA",
+  "chủ nhà, người mời (chủ bữa tiệc)"
+ ],
+ "显": [
+  "HIỂN",
+  "hiện ra, tỏ ra (显得: tỏ ra, có vẻ)"
+ ],
+ "兴": [
+  "HỨNG",
+  "hứng thú; (cắt từ 高兴: vui)"
+ ],
+ "口是心非": [
+  "KHẨU THỊ TÂM PHI",
+  "khẩu thị tâm phi, nói một đằng nghĩ một nẻo"
+ ],
+ "水果": [
+  "THỦY QUẢ",
+  "trái cây, hoa quả"
+ ],
+ "真不": [
+  "CHÂN BẤT",
+  "thật sự không (cụm hai từ)"
+ ],
+ "杯水": [
+  "BÔI THỦY",
+  "(cắt từ 这杯水: ly nước này)"
+ ],
+ "倒到": [
+  "ĐẢO ĐÁO",
+  "rót đến (倒到满: rót đầy)"
+ ],
+ "倒得": [
+  "ĐẢO ĐẮC",
+  "rót đến mức (倒得溢: rót tràn)"
+ ],
+ "溢": [
+  "DẬT",
+  "tràn ra"
+ ],
+ "八分": [
+  "BÁT PHÂN",
+  "tám phần (八分满: đầy tám phần, khoảng 80%)"
+ ],
+ "扶杯": [
+  "PHÙ BÔI",
+  "đỡ ly (bằng tay khi được rót rượu)"
+ ],
+ "打湿": [
+  "ĐẢ THẤP",
+  "làm ướt"
+ ],
+ "手指头": [
+  "THỦ CHỈ ĐẦU",
+  "ngón tay"
+ ],
+ "雅": [
+  "NHÃ",
+  "nhã nhặn, thanh lịch (不雅: khó coi, thiếu tế nhị)"
+ ],
+ "桌": [
+  "TRÁC",
+  "bàn; (cắt từ 桌子: cái bàn)"
+ ],
+ "秦始": [
+  "TẦN THỦY",
+  "(chỗ ASR nghe không rõ, không phải từ có nghĩa)"
+ ],
+ "叩礼": [
+  "KHẤU LỄ",
+  "lễ khấu, cúi lạy hoặc gõ tay để tạ ơn"
+ ],
+ "乾隆": [
+  "CÀN LONG",
+  "Càn Long (hoàng đế nhà Thanh)"
+ ],
+ "民间": [
+  "DÂN GIAN",
+  "dân gian, trong dân chúng"
+ ],
+ "餐馆": [
+  "XAN QUÁN",
+  "quán ăn, nhà hàng"
+ ],
+ "皇宫": [
+  "HOÀNG CUNG",
+  "hoàng cung"
+ ],
+ "繁文缛节": [
+  "PHỒN VĂN NHỤC TIẾT",
+  "lễ nghi rườm rà"
+ ],
+ "兴致": [
+  "HỨNG TRÍ",
+  "hứng thú, hứng"
+ ],
+ "吓坏": [
+  "HÁCH HOẠI",
+  "sợ chết khiếp"
+ ],
+ "治": [
+  "TRỊ",
+  "trị, chữa; (治罪: khép tội)"
+ ],
+ "不敬": [
+  "BẤT KÍNH",
+  "bất kính, vô lễ"
+ ],
+ "灯泡": [
+  "ĐĂNG PHAO",
+  "bóng đèn"
+ ],
+ "灯亮了": [
+  "ĐĂNG LƯỢNG LIỄU",
+  "đèn sáng lên"
+ ],
+ "食指": [
+  "THỰC CHỈ",
+  "ngón trỏ"
+ ],
+ "中指": [
+  "TRUNG CHỈ",
+  "ngón giữa"
+ ],
+ "几下": [
+  "KỶ HẠ",
+  "vài cái, vài lần"
+ ],
+ "谐音": [
+  "HÀI ÂM",
+  "đồng âm, cách đọc gần giống"
+ ],
+ "叩手": [
+  "KHẤU THỦ",
+  "gõ tay (lên bàn để tạ ơn; đồng âm với 叩首)"
+ ],
+ "首": [
+  "THỦ",
+  "đầu; đứng đầu; lượng từ: bài (thơ, hát)"
+ ],
+ "砍头": [
+  "KHẢM ĐẦU",
+  "chém đầu"
+ ],
+ "虎": [
+  "HỔ",
+  "con hổ (伴君如伴虎: gần vua như gần cọp)"
+ ],
+ "罪名": [
+  "TỘI DANH",
+  "tội danh"
+ ],
+ "安": [
+  "AN",
+  "an; gán, gắn (安在你头上: gán lên đầu bạn)"
+ ],
+ "头上": [
+  "ĐẦU THƯỢNG",
+  "trên đầu"
+ ],
+ "民间故事": [
+  "DÂN GIAN CỐ SỰ",
+  "truyện dân gian"
+ ],
+ "微": [
+  "VI",
+  "nhỏ, vi; (cắt từ 微博: Weibo)"
+ ],
+ "博": [
+  "BÁC",
+  "rộng; (cắt từ 微博: Weibo)"
+ ],
+ "爱因斯坦": [
+  "ÁI NHÂN TƯ THẢN",
+  "Einstein (nhà vật lý)"
+ ],
+ "搞清楚": [
+  "CẢO THANH SỞ",
+  "làm cho rõ, tìm hiểu rõ"
+ ],
+ "副": [
+  "PHÓ",
+  "phó; (主陪副陪: người tiếp khách chính và phụ trên bàn tiệc)"
+ ],
+ "相对论": [
+  "TƯƠNG ĐỐI LUẬN",
+  "thuyết tương đối"
+ ],
+ "低来": [
+  "ĐÊ LAI",
+  "(cắt từ chưa chuẩn của 拉低来: hạ thấp xuống)"
+ ],
+ "扶住": [
+  "PHÙ TRÚ",
+  "đỡ lấy, giữ lấy"
+ ],
+ "争": [
+  "TRANH",
+  "tranh, giành"
+ ],
+ "觉得很没": [
+  "GIÁC ĐẮC NGẬN MỘT",
+  "(cắt từ chưa chuẩn của 觉得很没面子: thấy rất mất mặt)"
+ ],
+ "得得": [
+  "ĐẮC ĐẮC",
+  "(nói lắp 得 děi: phải; 你得得吞: bạn phải nuốt)"
+ ],
+ "先敬": [
+  "TIÊN KÍNH",
+  "mời rượu trước"
+ ],
+ "贬低": [
+  "BIẾM ĐÊ",
+  "hạ thấp, xem nhẹ"
+ ],
+ "有名气": [
+  "HỮU DANH KHÍ",
+  "có tiếng tăm, nổi tiếng"
+ ],
+ "了敬": [
+  "LIỄU KÍNH",
+  "(cắt từ chưa chuẩn của 敬酒了敬完酒: mời rượu rồi, mời xong)"
+ ],
+ "完酒": [
+  "HOÀN TỬU",
+  "(cắt từ chưa chuẩn của 敬完酒: mời rượu xong)"
+ ],
+ "干为": [
+  "CAN VI",
+  "(cắt từ chưa chuẩn của 先干为敬: cạn trước để tỏ lòng kính)"
+ ],
+ "豪爽": [
+  "HÀO SẢNG",
+  "hào sảng, phóng khoáng"
+ ],
+ "今": [
+  "KIM",
+  "nay, hiện nay (今天: hôm nay)"
+ ],
+ "过敏": [
+  "QUÁ MẪN",
+  "dị ứng"
+ ],
+ "女歌手": [
+  "NỮ CA THỦ",
+  "nữ ca sĩ"
+ ],
+ "讲清楚": [
+  "GIẢNG THANH SỞ",
+  "nói rõ ràng"
+ ],
+ "敬意": [
+  "KÍNH Ý",
+  "lòng kính trọng"
+ ],
+ "耍无赖": [
+  "SÁI VÔ LẠI",
+  "giở trò vô lại, chơi xấu"
+ ],
+ "冷场": [
+  "LÃNH TRƯỜNG",
+  "lặng ngắt, ngượng ngập (không ai nói gì)"
+ ],
+ "一百五十块": [
+  "NHẤT BÁCH NGŨ THẬP KHỐI",
+  "150 tệ"
+ ],
+ "两百块": [
+  "LƯỠNG BÁCH KHỐI",
+  "200 tệ"
+ ],
+ "酒精度": [
+  "TỬU TINH ĐỘ",
+  "nồng độ cồn"
+ ],
+ "趴下": [
+  "",
+  "nằm bò xuống, gục xuống (喝趴下: uống đến gục)"
+ ],
+ "五百块": [
+  "NGŨ BÁCH KHỐI",
+  "500 tệ"
+ ],
+ "漏": [
+  "LẬU",
+  "rò rỉ; lỡ (说漏了嘴: lỡ miệng nói ra)"
+ ],
+ "揭穿": [
+  "YẾT XUYÊN",
+  "vạch trần"
+ ],
+ "陈": [
+  "TRẦN",
+  "họ Trần"
+ ],
+ "酒醉": [
+  "TỬU TÚY",
+  "say rượu"
+ ],
+ "胃病": [
+  "VỊ BỆNH",
+  "bệnh dạ dày"
+ ],
+ "开玩": [
+  "KHAI NGOẠN",
+  "(cắt từ 开玩笑: đùa, vì đổi người nói giữa từ)"
+ ],
+ "灌": [
+  "QUÁN",
+  "rót vào; ép uống, chuốc (灌酒: chuốc rượu)"
+ ],
+ "喝伤": [
+  "HÁT THƯƠNG",
+  "uống đến hại (喝伤身体: uống hại sức khỏe)"
+ ],
+ "事故": [
+  "SỰ CỐ",
+  "tai nạn, sự cố"
+ ],
+ "人身": [
+  "NHÂN THÂN",
+  "thân thể con người (人身安全: an toàn tính mạng)"
+ ],
+ "同行": [
+  "ĐỒNG HÀNH",
+  "đi cùng nhau (tóng xíng); người cùng nghề (tóng háng)"
+ ],
+ "赔偿": [
+  "BỒI THƯỜNG",
+  "bồi thường"
+ ],
+ "义务": [
+  "NGHĨA VỤ",
+  "nghĩa vụ"
+ ],
+ "摔倒": [
+  "SUẤT ĐẢO",
+  "ngã"
+ ],
+ "沟里": [
+  "CÂU LÝ",
+  "trong rãnh, dưới mương"
+ ],
+ "睡过去": [
+  "THỤY QUÁ KHỨ",
+  "thiếp đi, ngủ lịm đi"
+ ],
+ "冬天": [
+  "ĐÔNG THIÊN",
+  "mùa đông"
+ ],
+ "沟": [
+  "CÂU",
+  "mương, rãnh"
+ ],
+ "救": [
+  "CỨU",
+  "cứu"
+ ],
+ "半死": [
+  "BÁN TỬ",
+  "gần chết (吓得半死: sợ chết khiếp)"
+ ],
+ "会签": [
+  "HỘI THIÊM",
+  "cùng ký; (ở đây là 会 + 签: sẽ ký)"
+ ],
+ "概不负责": [
+  "KHÁI BẤT PHỤ TRÁCH",
+  "hoàn toàn không chịu trách nhiệm"
+ ],
+ "手印": [
+  "THỦ ẤN",
+  "dấu tay (按手印: điểm chỉ)"
+ ],
+ "过有": [
+  "QUÁ HỮU",
+  "(cắt từ chưa chuẩn của 看到过有一条: đã thấy có một điều)"
+ ],
+ "免责": [
+  "MIỄN TRÁCH",
+  "miễn trách nhiệm"
+ ],
+ "书吧": [
+  "THƯ BA",
+  "(cắt từ chưa chuẩn của 免责书吧: giấy miễn trách nhiệm ấy)"
+ ],
+ "自愿": [
+  "TỰ NGUYỆN",
+  "tự nguyện"
+ ],
+ "最最": [
+  "TỐI TỐI",
+  "nhất nhất (nhấn mạnh: 最最最讨厌: ghét nhất)"
+ ],
+ "彰显": [
+  "CHƯƠNG HIỂN",
+  "thể hiện rõ, phô bày"
+ ],
+ "权力": [
+  "QUYỀN LỰC",
+  "quyền lực"
+ ],
+ "招数": [
+  "CHIÊU SỐ",
+  "chiêu, mánh"
+ ],
+ "够朋友": [
+  "CẤU BẰNG HỮU",
+  "ra dáng bạn bè, đủ tình bạn"
+ ],
+ "酒逢知己千杯少": [
+  "TỬU PHÙNG TRI KỶ THIÊN BÔI THIỂU",
+  "gặp tri kỷ thì nghìn chén cũng ít"
+ ],
+ "喝一杯": [
+  "HÁT NHẤT BÔI",
+  "uống một ly"
+ ],
+ "好不好": [
+  "HẢO BẤT HẢO",
+  "được không?"
+ ],
+ "搁": [
+  "CÁC",
+  "đặt, để"
+ ],
+ "牙子": [
+  "NHA TỬ",
+  "mép, viền (马路牙子: bó vỉa, mép vỉa hè)"
+ ],
+ "飞出去": [
+  "PHI XUẤT KHỨ",
+  "văng ra ngoài, bay ra"
+ ],
+ "了挂": [
+  "LIỄU QUẢI",
+  "(cắt từ chưa chuẩn của 飞出去了挂了: văng ra ngoài rồi chết)"
+ ],
+ "告上": [
+  "CÁO THƯỢNG",
+  "kiện lên (告上法庭: kiện ra tòa)"
+ ],
+ "法庭": [
+  "PHÁP ĐÌNH",
+  "tòa án"
+ ],
+ "辩护": [
+  "BIỆN HỘ",
+  "biện hộ, bào chữa"
+ ],
+ "赔": [
+  "BỒI",
+  "đền, bồi thường"
+ ],
+ "落实": [
+  "LẠC THỰC",
+  "thực hiện, thực thi"
+ ],
+ "驾": [
+  "GIÁ",
+  "lái (xe) (酒驾: lái xe khi say)"
+ ],
+ "有啥": [
+  "",
+  "có gì (有啥的: có gì đâu)"
+ ],
+ "律": [
+  "LUẬT",
+  "luật; (cắt từ 法律 vì đổi người nói)"
+ ],
+ "不要紧": [
+  "BẤT YẾU KHẨN",
+  "không sao, không hề gì"
+ ],
+ "代驾": [
+  "ĐẠI GIÁ",
+  "lái xe hộ (dịch vụ lái xe thuê cho người đã uống rượu)"
+ ],
+ "宝宝": [
+  "BẢO BẢO",
+  "em bé"
+ ],
+ "发育": [
+  "PHÁT DỤC",
+  "phát triển, phát dục"
+ ],
+ "没事找事": [
+  "MỘT SỰ TRẢO SỰ",
+  "tự rước chuyện vào thân, kiếm chuyện"
+ ],
+ "阎王": [
+  "DIÊM VƯƠNG",
+  "Diêm Vương"
+ ],
+ "化学反应": [
+  "HÓA HỌC PHẢN ỨNG",
+  "phản ứng hóa học"
+ ],
+ "郭云": [
+  "QUÁCH VÂN",
+  "Quách Vân (tên người, ASR nghe chưa chắc)"
+ ],
+ "红红的": [
+  "HỒNG HỒNG ĐÍCH",
+  "đỏ đỏ, ửng đỏ"
+ ],
+ "东北": [
+  "ĐÔNG BẮC",
+  "Đông Bắc (Trung Quốc); hướng đông bắc"
+ ],
+ "幽默": [
+  "U MẶC",
+  "hài hước"
+ ],
+ "幽": [
+  "U",
+  "u tịch; (cắt từ 幽默: hài hước, vì đổi người nói)"
+ ],
+ "默": [
+  "MẶC",
+  "im lặng; (cắt từ 幽默: hài hước)"
+ ],
+ "放得开": [
+  "PHÓNG ĐẮC KHAI",
+  "thoải mái, không gò bó"
+ ],
+ "默默地": [
+  "MẶC MẶC ĐỊA",
+  "lặng lẽ"
+ ],
+ "碗筷": [
+  "OẢN KHOÁI",
+  "bát đũa"
+ ],
+ "一碗": [
+  "NHẤT OẢN",
+  "một bát"
+ ],
+ "再也不会": [
+  "TÁI DÃ BẤT HỘI",
+  "sẽ không bao giờ … nữa"
+ ],
+ "胃": [
+  "VỊ",
+  "dạ dày"
+ ],
+ "个子": [
+  "CÁ TỬ",
+  "vóc người, dáng người"
+ ],
+ "体格": [
+  "THỂ CÁCH",
+  "thể chất, vóc dáng"
+ ],
+ "底下": [
+  "ĐỂ HẠ",
+  "bên dưới (桌子底下: gầm bàn)"
+ ],
+ "婚宴": [
+  "HÔN YẾN",
+  "tiệc cưới"
+ ],
+ "喝白": [
+  "HÁT BẠCH",
+  "(cắt từ chưa chuẩn của 喝白的: uống rượu trắng)"
+ ],
+ "葡萄酒": [
+  "BỒ ĐÀO TỬU",
+  "rượu vang (nho)"
+ ],
+ "东亚": [
+  "ĐÔNG Á",
+  "Đông Á"
+ ],
+ "多场": [
+  "ĐA TRƯỜNG",
+  "nhiều tăng (nhậu liền mấy chỗ)"
+ ],
+ "小酌": [
+  "TIỂU CHƯỚC",
+  "nhâm nhi vài ly"
+ ],
+ "多钟": [
+  "ĐA CHUNG",
+  "(cắt từ chưa chuẩn của 三点多钟: hơn 3 giờ)"
+ ],
+ "醒酒": [
+  "TỈNH TỬU",
+  "giã rượu, cho tỉnh rượu (醒酒汤: canh giải rượu)"
+ ],
+ "汤": [
+  "THANG",
+  "canh, súp"
+ ],
+ "三四点": [
+  "TAM TỨ ĐIỂM",
+  "3–4 giờ"
+ ],
+ "珍重": [
+  "TRÂN TRỌNG",
+  "trân trọng, quý trọng"
+ ],
+ "下看": [
+  "HẠ KHÁN",
+  "(cắt từ chưa chuẩn của 往下看: nhìn xuống)"
+ ],
+ "东亚人": [
+  "ĐÔNG Á NHÂN",
+  "người Đông Á"
+ ],
+ "侵": [
+  "XÂM",
+  "xâm phạm; (cắt từ 性侵: xâm hại tình dục)"
+ ],
+ "争议": [
+  "TRANH NGHỊ",
+  "tranh cãi, tranh luận"
+ ],
+ "糟粕": [
+  "TAO PHÁCH",
+  "cặn bã"
+ ],
+ "摒弃": [
+  "BÍNH KHÍ",
+  "vứt bỏ, gạt bỏ"
+ ],
+ "九五": [
+  "CỬU NGŨ",
+  "(cắt từ 九五后: thế hệ sinh sau năm 1995)"
+ ],
+ "淡": [
+  "ĐẠM",
+  "nhạt; phai nhạt"
+ ],
+ "比起": [
+  "TỶ KHỞI",
+  "so với"
+ ],
+ "钓鱼": [
+  "ĐIẾU NGƯ",
+  "câu cá"
+ ],
+ "农家乐": [
+  "NÔNG GIA LẠC",
+  "du lịch nông trại (ăn ở, vui chơi ở nhà nông)"
+ ],
+ "徒步": [
+  "ĐỒ BỘ",
+  "đi bộ (đường dài)"
+ ],
+ "行走": [
+  "HÀNH TẨU",
+  "đi bộ, đi lại"
+ ],
+ "环": [
+  "HOÀN",
+  "vòng; vòng quanh (环城市骑行: đạp xe vòng quanh thành phố)"
+ ],
+ "骑行": [
+  "KỴ HÀNH",
+  "đạp xe, đi xe"
+ ],
+ "不可避免": [
+  "BẤT KHẢ TỴ MIỄN",
+  "không thể tránh khỏi"
+ ],
+ "厂长": [
+  "XƯỞNG TRƯỞNG",
+  "giám đốc nhà máy, xưởng trưởng"
+ ],
+ "后备箱": [
+  "HẬU BỊ TƯƠNG",
+  "cốp xe"
+ ],
+ "要放": [
+  "YẾU PHÓNG",
+  "phải để (cụm hai từ)"
+ ],
+ "酒馆": [
+  "TỬU QUÁN",
+  "quán rượu, quán bar"
+ ],
+ "吞": [
+  "THÔN",
+  "nuốt"
  ]
 }

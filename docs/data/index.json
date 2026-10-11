@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "episodes": [
     {
       "id": "E757",
@@ -228,6 +228,14 @@
       "owner": "Dashu Mandarin Podcast"
     },
     {
+      "id": "MC20240303",
+      "title": "Chinese Alcohol Drinking Culture - Intermediate Chinese - Chinese Audio Podcast",
+      "pubDate": "2024-03-03",
+      "duration": 1973,
+      "source": "podcast",
+      "owner": "Mandarin Corner"
+    },
+    {
       "id": "MC20200914",
       "title": "6 Cultural Aspects You Must Consider When Doing Business In China - Intermediate Chinese",
       "pubDate": "2020-09-14",
@@ -293,7 +301,8 @@
       "about": "Văn hoá công sở, phỏng vấn, sếp, ý nghĩa của công việc",
       "episodes": [
         "CC19",
-        "MC20200914"
+        "MC20200914",
+        "MC20240303"
       ],
       "planned": [
         {

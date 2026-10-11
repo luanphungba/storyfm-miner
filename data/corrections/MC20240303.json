@@ -1,0 +1,306 @@
+{
+  "episode": "MC20240303",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-11",
+  "fixes": [
+    {
+      "cueIndex": 0,
+      "before": "Mandarin Corner",
+      "after": "MandarinCorner",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 17,
+      "before": "Mandarin Corner",
+      "after": "MandarinCorner",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 477,
+      "before": "K TV",
+      "after": "KTV",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 0,
+      "before": "MandarinCorner",
+      "after": "Mandarin Corner",
+      "source": "llm-review",
+      "reason": "The show is Mandarin Corner, two words; the glue pass joined it.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 3,
+      "before": "mandar inc or ner.",
+      "after": "mandarincorner",
+      "source": "llm-review",
+      "reason": "The show site mandarincorner.org, split by the zh ASR; its .org is the next sentence.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 4,
+      "before": "org.",
+      "after": ".org.",
+      "source": "llm-review",
+      "reason": "Rest of mandarincorner.org, split off into its own sentence.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 7,
+      "before": "PDF s",
+      "after": "PDFs",
+      "source": "llm-review",
+      "reason": "Plural split off its word by the zh ASR.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 8,
+      "before": "transcript s",
+      "after": "transcripts",
+      "source": "llm-review",
+      "reason": "Plural split off its word by the zh ASR.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 9,
+      "before": "H anz i",
+      "after": "Hanzi",
+      "source": "llm-review",
+      "reason": "One English word split into three tokens.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 12,
+      "before": "HS K",
+      "after": "HSK",
+      "source": "llm-review",
+      "reason": "One acronym split into two tokens.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 17,
+      "before": "MandarinCorner",
+      "after": "Mandarin Corner",
+      "source": "llm-review",
+      "reason": "The show is Mandarin Corner, two words; the glue pass joined it.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 27,
+      "before": "看不上喝国酒的",
+      "after": "看不上喝果酒的",
+      "source": "llm-review",
+      "reason": "Beer drinkers look down on 果酒 (fruit wine), drunk by the baijiu drinker's wife in 31; 国酒 breaks the chain. whisper medium hears 果酒.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 27,
+      "before": "喝国酒的他能",
+      "after": "喝果酒的他能",
+      "source": "llm-review",
+      "reason": "Same chain as above; whisper medium hears 果酒.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 31,
+      "before": "国酒",
+      "after": "果酒",
+      "source": "llm-review",
+      "reason": "喝果酒的可能是喝白酒的老婆: fruit wine. whisper medium hears 果酒.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 82,
+      "before": "球态百出",
+      "after": "丑态百出",
+      "source": "llm-review",
+      "reason": "球态 is not a word; the idiom 丑态百出 fits (各种稀奇古怪的动作). 球 at 0.49 confidence.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 257,
+      "before": "手跟手",
+      "after": "首跟手",
+      "source": "llm-review",
+      "reason": "Answers the pun just told (叩首 → 叩手): 首 and 手 sound alike; 手跟手 says nothing.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 317,
+      "before": "进之前",
+      "after": "敬之前",
+      "source": "llm-review",
+      "reason": "About toasting (以茶代酒, 敬意); whisper medium hears 敬之前.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 323,
+      "before": "少无赖",
+      "after": "耍无赖",
+      "source": "llm-review",
+      "reason": "耍无赖 is the set phrase explaining 老六行为; 少无赖 is not one. The speaker drops the medial (whisper: 手赖).",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 331,
+      "before": "带喝",
+      "after": "代喝",
+      "source": "llm-review",
+      "reason": "The drinking-for-hire service, 代喝 as in 343; whisper hears 代贺.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 350,
+      "before": "逛你",
+      "after": "灌你",
+      "source": "llm-review",
+      "reason": "疯狂地灌你，让你喝得更多; 逛 makes no sense. The speaker merges -n/-ng (进/敬 in 317).",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 390,
+      "before": "欠酒",
+      "after": "劝酒",
+      "source": "llm-review",
+      "reason": "The topic is 劝酒文化 (387); 欠酒 is not a word.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 396,
+      "before": "酒分自己签杯少",
+      "after": "酒逢知己千杯少",
+      "source": "llm-review",
+      "reason": "The saying 酒逢知己千杯少; whisper hears 九分自己千杯少. 签 at 0.38.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 428,
+      "before": "交代价",
+      "after": "叫代驾",
+      "source": "llm-review",
+      "reason": "Answer to driving as an excuse: 不要紧，我帮你叫代驾 (call a designated driver). Same syllables bar a tone.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 440,
+      "before": "沿湾",
+      "after": "阎王",
+      "source": "llm-review",
+      "reason": "头孢配酒，阎王那里走一走: a trip to King Yama, hence 这么严重的吗. 沿湾 is not a word; 湾 at 0.31.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 466,
+      "before": "桌子挤下去",
+      "after": "桌子底下去",
+      "source": "llm-review",
+      "reason": "把人喝到桌子底下去, drink someone under the table; 挤下去 does not parse. whisper large-v3 and turbo hear 洗下去: only the first initial differs from 底下去.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 500,
+      "before": "九州文化",
+      "after": "酒桌文化",
+      "source": "llm-review",
+      "reason": "The episode's subject 酒桌文化; 九州 is the near-homophone.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 501,
+      "before": "九州文化",
+      "after": "酒桌文化",
+      "source": "llm-review",
+      "reason": "The episode's subject 酒桌文化; 九州 is the near-homophone.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 502,
+      "before": "九州文化",
+      "after": "酒桌文化",
+      "source": "llm-review",
+      "reason": "The episode's subject 酒桌文化; 九州 is the near-homophone.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 513,
+      "before": "九州文化",
+      "after": "酒桌文化",
+      "source": "llm-review",
+      "reason": "The episode's subject 酒桌文化; 九州 is the near-homophone.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 524,
+      "before": "Jon as",
+      "after": "Jonas",
+      "source": "llm-review",
+      "reason": "The co-host Jonas (19).",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 180,
+      "before": "这么小问题",
+      "after": "这不是小问题",
+      "source": "llm-review",
+      "reason": "whisper large-v3, large-v3-turbo and medium all hear 这不是小问题吗; 这么 at 0.40 confidence.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 181,
+      "before": "切了",
+      "after": "签了",
+      "source": "llm-review",
+      "reason": "The salesman's order (179) gets signed; whisper large-v3 and turbo both hear 直接签了.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 262,
+      "before": "大步进",
+      "after": "大不敬",
+      "source": "llm-review",
+      "reason": "大不敬 as in 205 and 264; whisper large-v3 hears 大不敬砍头 with and without a prompt. The speaker merges -n/-ng (进/敬).",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 291,
+      "before": "疼",
+      "after": "吞",
+      "source": "llm-review",
+      "reason": "喝不下你得得吞: if you can't drink it, swallow it anyway; whisper large-v3 and turbo both hear 吞, 疼 makes no sense here.",
+      "appliedAt": "2026-10-11"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 244,
+      "text": "对我我了解过，他是秦始一个叩礼清朝的一个皇帝嘛，他叫乾隆。",
+      "reason": "秦始一个叩礼 is garbled (起始于…? 叩礼); whisper medium, large-v3 and turbo hear 行使一个寇里/寇侣/寇女. Left as heard."
+    },
+    {
+      "cueIndex": 317,
+      "text": "我进去你也以茶代酒",
+      "reason": "Probably 我敬你/我敬一下，你也以茶代酒; whisper medium hears 我敬讲你, large-v3 我进一下. Only 敬之前 fixed."
+    },
+    {
+      "cueIndex": 318,
+      "text": "那你不喝，你不是少老六吗？",
+      "reason": "少 may be 耍 (as 耍无赖 in 323), or a filler; ASR and medium hear 少, turbo 扫老溜."
+    },
+    {
+      "cueIndex": 446,
+      "text": "对啊，像郭云都会喝酒，你知道吧？",
+      "reason": "A Northeastern acquaintance; 郭云 at 0.28, whisper medium hears 滚, large-v3 顾问, turbo 姑娘. Name unverified."
+    },
+    {
+      "cueIndex": 452,
+      "text": "哎，会喝，在会喝里有一次他喝了一点点",
+      "reason": "在会喝里 reads wrong (在聚会里?); whisper medium and large-v3 drop it, turbo hears 在会喝."
+    }
+  ]
+}

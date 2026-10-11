@@ -1,0 +1,8902 @@
+{
+  "id": "MC20240303",
+  "title": "Chinese Alcohol Drinking Culture - Intermediate Chinese - Chinese Audio Podcast",
+  "guid": "x8tXfenpcr0",
+  "pubDate": "2024-03-03",
+  "duration": 1973,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/MC20240303.m4a"
+  },
+  "source": "podcast",
+  "owner": "Mandarin Corner",
+  "link": "https://www.youtube.com/watch?v=x8tXfenpcr0",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 5.9,
+      "end": 10.74,
+      "text": "Welcome to another Mandarin Corner video. For more",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 1,
+      "s": 1,
+      "start": 10.74,
+      "end": 12.18,
+      "text": "advanced students,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 2,
+      "s": 2,
+      "start": 12.18,
+      "end": 13.4,
+      "text": "you can watch this video ",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 3,
+      "s": 2,
+      "start": 13.4,
+      "end": 15,
+      "text": "without English subtitles",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 4,
+      "s": 3,
+      "start": 15,
+      "end": 16.78,
+      "text": "at mandarincorner",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 5,
+      "s": 4,
+      "start": 16.78,
+      "end": 17.98,
+      "text": ".org.",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 6,
+      "s": 5,
+      "start": 18.24,
+      "end": 20.56,
+      "text": "To access our premium content,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 7,
+      "s": 6,
+      "start": 20.56,
+      "end": 24.32,
+      "text": "which includes downloads of all our videos,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 8,
+      "s": 7,
+      "start": 24.32,
+      "end": 27.28,
+      "text": "audio files, PDFs,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 9,
+      "s": 8,
+      "start": 27.28,
+      "end": 31.18,
+      "text": "and transcripts in different versions such as with",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 10,
+      "s": 9,
+      "start": 31.18,
+      "end": 33.18,
+      "text": "English, without English, ",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 11,
+      "s": 9,
+      "start": 34.66,
+      "end": 36.66,
+      "text": "Hanzi only,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 12,
+      "s": 10,
+      "start": 36.9,
+      "end": 39,
+      "text": "and with traditional characters,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 13,
+      "s": 11,
+      "start": 39.16,
+      "end": 41.12,
+      "text": "as well as being able to drill ",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 14,
+      "s": 11,
+      "start": 41.12,
+      "end": 43.56,
+      "text": "our content with flash cards, ",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 15,
+      "s": 12,
+      "start": 43.92,
+      "end": 46.36,
+      "text": "including our HSK sentences,",
+      "speaker": "A",
+      "u": 11,
+      "role": "narrator"
+    },
+    {
+      "i": 16,
+      "s": 13,
+      "start": 47.32,
+      "end": 49.6,
+      "text": "survival Chinese sentences,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 17,
+      "s": 14,
+      "start": 50.58,
+      "end": 52.66,
+      "text": "and Chinese characters. ",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 18,
+      "s": 14,
+      "start": 53.8,
+      "end": 55.52,
+      "text": "Consider becoming a lifetime",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 19,
+      "s": 15,
+      "start": 55.52,
+      "end": 60.7,
+      "text": "member with just a one time donation. Links to donate",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 20,
+      "s": 16,
+      "start": 60.7,
+      "end": 61.88,
+      "text": "are below.",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 21,
+      "s": 17,
+      "start": 66.36,
+      "end": 68,
+      "text": "大家好，欢迎来到",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 17,
+      "start": 68,
+      "end": 70.1,
+      "text": "Mandarin Corner的播客节目。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 18,
+      "start": 70.1,
+      "end": 71.18,
+      "text": "我是艾琳。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 19,
+      "start": 71.18,
+      "end": 73.2,
+      "text": "大家好，我是Jonas。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 20,
+      "start": 73.24,
+      "end": 77.42,
+      "text": "今天呢，我们要来聊的是酒桌文化啊。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 21,
+      "start": 77.42,
+      "end": 78.76,
+      "text": "呃，那说到酒桌文化呢，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 21,
+      "start": 78.76,
+      "end": 81.43,
+      "text": "肯定就是呃关于喝酒的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 22,
+      "start": 81.68,
+      "end": 84.6,
+      "text": "那像我们中国人在酒桌上",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 22,
+      "start": 84.6,
+      "end": 86.15,
+      "text": "一般喝什么样的酒呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 23,
+      "start": 86.44,
+      "end": 89.3,
+      "text": "嗯，我们经常喝的是白酒。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 24,
+      "start": 89.89,
+      "end": 91.94,
+      "text": "然后啤酒喝的就比较少了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 24,
+      "start": 92.07,
+      "end": 94.45,
+      "text": "喝白酒的都会说：“那啤酒是啥？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 25,
+      "start": 94.53,
+      "end": 97.25,
+      "text": "啤酒不就是小麦汁饮料啊？”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 26,
+      "start": 97.25,
+      "end": 101.51,
+      "text": "这个也是我们中国人一个鄙视链吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 26,
+      "start": 101.63,
+      "end": 104.33,
+      "text": "就是喝白酒的他看不上喝啤酒的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 27,
+      "start": 104.51,
+      "end": 106.91,
+      "text": "然后喝啤酒的他看不上喝果酒的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 27,
+      "start": 107.05,
+      "end": 110.25,
+      "text": "但是可能喝果酒的他能管得住喝白",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 28,
+      "start": 110.25,
+      "end": 111.41,
+      "text": "酒的啊？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 29,
+      "start": 111.55,
+      "end": 112.64,
+      "text": "为什么这么说？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 30,
+      "start": 113.23,
+      "end": 113.81,
+      "text": "因为喝",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 31,
+      "start": 113.81,
+      "end": 116.83,
+      "text": "果酒的可能是喝白酒的老婆，然后。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 32,
+      "start": 117.2,
+      "end": 118.65,
+      "text": "因为中国嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 32,
+      "start": 118.65,
+      "end": 121.17,
+      "text": "可能老婆当家做主的比较多一点。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 33,
+      "start": 121.83,
+      "end": 123.83,
+      "text": "那白酒一般是多少度的呀？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 34,
+      "start": 123.83,
+      "end": 127.07,
+      "text": "大概就是在一十八度到七十八度嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 35,
+      "start": 127.07,
+      "end": 128.63,
+      "text": "然后平常我们喝的最多的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 35,
+      "start": 128.63,
+      "end": 130.23,
+      "text": "也就是五十三度的白",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 36,
+      "start": 130.23,
+      "end": 130.63,
+      "text": "酒。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 37,
+      "start": 131.23,
+      "end": 134.02,
+      "text": "你第一次喝白酒是什么感觉？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 38,
+      "start": 134.45,
+      "end": 136.59,
+      "text": "就火辣辣的嘛，就比较冲喉咙。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "s": 39,
+      "start": 136.59,
+      "end": 139.93,
+      "text": "当时觉得这个东西呃很难喝，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "s": 39,
+      "start": 139.93,
+      "end": 141.3,
+      "text": "然后咽不下去那种。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 40,
+      "start": 141.75,
+      "end": 142.27,
+      "text": "最高的也",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 41,
+      "start": 142.27,
+      "end": 144.25,
+      "text": "有七十八度嘛，你喝过七十八度的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 42,
+      "start": 144.25,
+      "end": 144.59,
+      "text": "吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 43,
+      "start": 144.81,
+      "end": 145.83,
+      "text": "呃，我没喝过。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 44,
+      "start": 145.83,
+      "end": 147.29,
+      "text": "我一般可能喝的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 44,
+      "start": 147.29,
+      "end": 149.01,
+      "text": "就是五十来度的白酒。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "s": 45,
+      "start": 149.29,
+      "end": 149.91,
+      "text": "嗯。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 46,
+      "start": 150.36,
+      "end": 152.17,
+      "text": "呃，五五十三度的其实在中国",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 46,
+      "start": 152.17,
+      "end": 154.82,
+      "text": "是比较紧俏的一个度数吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 47,
+      "start": 155.12,
+      "end": 156.08,
+      "text": "嗯，比较普遍。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 48,
+      "start": 156.87,
+      "end": 157.51,
+      "text": "不是普遍，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 48,
+      "start": 157.51,
+      "end": 159.38,
+      "text": "它是比较有知名度的一个度数。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 49,
+      "start": 159.61,
+      "end": 160.89,
+      "text": "为为什么嘞？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 50,
+      "start": 161.17,
+      "end": 162.71,
+      "text": "有一个品牌的酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 50,
+      "start": 162.71,
+      "end": 165.43,
+      "text": "它这个把五十三度给带火了——",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 50,
+      "start": 165.43,
+      "end": 166.86,
+      "text": "飞天茅台，你听过吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 51,
+      "start": 167.17,
+      "end": 168.37,
+      "text": "我只听过茅台，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 51,
+      "start": 168.37,
+      "end": 170.15,
+      "text": "因为因为老是听到那个",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 52,
+      "start": 170.15,
+      "end": 170.73,
+      "text": "广告。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 53,
+      "start": 170.92,
+      "end": 173.05,
+      "text": "最经典的一款那个飞天茅台嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 53,
+      "start": 173.05,
+      "end": 174.03,
+      "text": "它就是五十三度的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 54,
+      "start": 174.03,
+      "end": 174.43,
+      "text": "你也",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 55,
+      "start": 174.43,
+      "end": 175.19,
+      "text": "经常喝酒吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "s": 56,
+      "start": 175.19,
+      "end": 177.09,
+      "text": "那你第一次喝白酒",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 77,
+      "s": 57,
+      "start": 177.09,
+      "end": 177.96,
+      "text": "是什么时候？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 58,
+      "start": 178.13,
+      "end": 179.51,
+      "text": "呃，我第一次喝白酒的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 79,
+      "s": 58,
+      "start": 179.51,
+      "end": 180.43,
+      "text": "在高中的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 80,
+      "s": 58,
+      "start": 180.45,
+      "end": 183.03,
+      "text": "那个时候参加同学的婚礼嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 59,
+      "start": 183.03,
+      "end": 184.51,
+      "text": "几个同学也是刚开始",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 59,
+      "start": 184.51,
+      "end": 185.86,
+      "text": "就接触到这种酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 59,
+      "start": 186.23,
+      "end": 187.96,
+      "text": "然后喝的喝的比较尽兴了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 59,
+      "start": 188.25,
+      "end": 189.67,
+      "text": "当时也是都是会摇摇晃晃、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "s": 60,
+      "start": 189.67,
+      "end": 190.62,
+      "text": "摇摇晃晃的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 86,
+      "s": 60,
+      "start": 190.89,
+      "end": 192.71,
+      "text": "然后说话也也不是很利索，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 87,
+      "s": 60,
+      "start": 192.71,
+      "end": 194.83,
+      "text": "就是你自己都不知道你讲了什么，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 60,
+      "start": 194.83,
+      "end": 196.55,
+      "text": "就脱脱口出的那种。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 89,
+      "s": 61,
+      "start": 196.57,
+      "end": 198.23,
+      "text": "最后醒过来的时候也不知道，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 90,
+      "s": 61,
+      "start": 198.23,
+      "end": 199.45,
+      "text": "耶，我怎么到家了？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 91,
+      "s": 62,
+      "start": 200.29,
+      "end": 201.85,
+      "text": "然后醒来之后我妈都说，哎，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 92,
+      "s": 62,
+      "start": 201.85,
+      "end": 203.89,
+      "text": "你到底是你同学结婚",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "s": 62,
+      "start": 203.89,
+      "end": 205.05,
+      "text": "还是你结婚了？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 94,
+      "s": 63,
+      "start": 205.05,
+      "end": 205.99,
+      "text": "把自己喝成这个样",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 95,
+      "s": 64,
+      "start": 205.99,
+      "end": 206.39,
+      "text": "子。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 96,
+      "s": 65,
+      "start": 206.93,
+      "end": 207.97,
+      "text": "哎，你你为什么会",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 97,
+      "s": 66,
+      "start": 207.97,
+      "end": 209.09,
+      "text": "喝那么多酒嘞？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 98,
+      "s": 67,
+      "start": 209.23,
+      "end": 209.97,
+      "text": "因为那个时候酒桌上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 99,
+      "s": 67,
+      "start": 209.97,
+      "end": 211.41,
+      "text": "就是你劝我，我劝你，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 100,
+      "s": 67,
+      "start": 211.55,
+      "end": 212.98,
+      "text": "呃，我敬他，他敬你，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 101,
+      "s": 67,
+      "start": 213.01,
+      "end": 214.51,
+      "text": "就是来来回回这个时候啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 102,
+      "s": 68,
+      "start": 214.51,
+      "end": 216.43,
+      "text": "你就不知不觉，哎，我我怎么喝了那么",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 103,
+      "s": 69,
+      "start": 216.43,
+      "end": 216.78,
+      "text": "多？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 104,
+      "s": 70,
+      "start": 217.17,
+      "end": 219.95,
+      "text": "嗯，而且白酒也容易醉吧，五十多度，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 105,
+      "s": 70,
+      "start": 219.95,
+      "end": 221.97,
+      "text": "像我估计一杯就直接倒地了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 106,
+      "s": 71,
+      "start": 222.6,
+      "end": 226.71,
+      "text": "嗯，有喝过一次，嗯，也不算是醉，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 107,
+      "s": 71,
+      "start": 226.71,
+      "end": 228.39,
+      "text": "就是有一点点醉意了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 108,
+      "s": 72,
+      "start": 228.39,
+      "end": 232.55,
+      "text": "然后就是感觉脑袋有一点晕晕的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 109,
+      "s": 72,
+      "start": 232.55,
+      "end": 235.09,
+      "text": "然后说话的时候有点口不遮拦，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 110,
+      "s": 73,
+      "start": 235.09,
+      "end": 237.33,
+      "text": "就是想说什么就说什么那种感觉。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 111,
+      "s": 74,
+      "start": 237.33,
+      "end": 239.77,
+      "text": "就人家不都说嘛，“酒后吐真言”嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 112,
+      "s": 74,
+      "start": 239.77,
+      "end": 241.11,
+      "text": "所以还真的是有一点，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 113,
+      "s": 74,
+      "start": 241.11,
+      "end": 242.53,
+      "text": "就是你喝醉了之后，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 114,
+      "s": 75,
+      "start": 242.53,
+      "end": 245.08,
+      "text": "你想说什么你都你不会有控制的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 115,
+      "s": 76,
+      "start": 245.87,
+      "end": 247.17,
+      "text": "对，但是还没有到",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 116,
+      "s": 76,
+      "start": 247.17,
+      "end": 248.87,
+      "text": "那个失去意识的情况下，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 117,
+      "s": 76,
+      "start": 248.87,
+      "end": 250.81,
+      "text": "真正的。失去意识，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 118,
+      "s": 77,
+      "start": 250.81,
+      "end": 253.02,
+      "text": "那么可能就是你喝完酒之后，",
+      "speaker": "B",
+      "u": 76,
+      "role": "storyteller"
+    },
+    {
+      "i": 119,
+      "s": 77,
+      "start": 253.09,
+      "end": 255.59,
+      "text": "你就倒在外面睡，在地上能睡，",
+      "speaker": "B",
+      "u": 76,
+      "role": "storyteller"
+    },
+    {
+      "i": 120,
+      "s": 78,
+      "start": 255.89,
+      "end": 257.26,
+      "text": "在电线杆子上也能睡，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 121,
+      "s": 78,
+      "start": 257.41,
+      "end": 258.51,
+      "text": "在绿化带也能睡，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 122,
+      "s": 78,
+      "start": 258.61,
+      "end": 259.89,
+      "text": "然后抱着人家车也能睡。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 123,
+      "s": 79,
+      "start": 259.89,
+      "end": 261.18,
+      "text": "电线杆子怎么睡？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 124,
+      "s": 80,
+      "start": 261.39,
+      "end": 261.87,
+      "text": "就是直接",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 125,
+      "s": 81,
+      "start": 261.87,
+      "end": 262.97,
+      "text": "抱着电线杆子，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 126,
+      "s": 81,
+      "start": 262.97,
+      "end": 264.98,
+      "text": "就是就就睡着啦，就就这种的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 127,
+      "s": 82,
+      "start": 264.99,
+      "end": 267.09,
+      "text": "这就是喝完酒真正喝醉酒的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 128,
+      "s": 82,
+      "start": 267.09,
+      "end": 269.51,
+      "text": "一个状态，丑态百出，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 129,
+      "s": 82,
+      "start": 269.51,
+      "end": 271.47,
+      "text": "就是各种稀奇古怪的动作",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 130,
+      "s": 82,
+      "start": 271.47,
+      "end": 273.77,
+      "text": "都会被暴露出来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 131,
+      "s": 83,
+      "start": 273.77,
+      "end": 275.83,
+      "text": "所以说会看到很多这种。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 132,
+      "s": 84,
+      "start": 276.24,
+      "end": 278.54,
+      "text": "呃，你不知道不认识的人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 133,
+      "s": 84,
+      "start": 278.54,
+      "end": 280.61,
+      "text": "然后把你给拍到发到网上去火了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 134,
+      "s": 85,
+      "start": 280.89,
+      "end": 282.36,
+      "text": "所以说你可能喝个酒喝个酒",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 135,
+      "s": 85,
+      "start": 282.36,
+      "end": 284.66,
+      "text": "你就喝的全国都知道了啊！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 136,
+      "s": 86,
+      "start": 284.66,
+      "end": 286.24,
+      "text": "你你喝酒喝成这个样子了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 137,
+      "s": 87,
+      "start": 286.32,
+      "end": 286.5,
+      "text": "啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "s": 88,
+      "start": 286.5,
+      "end": 287.78,
+      "text": "开头的时候我们也讲到",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 88,
+      "start": 287.78,
+      "end": 290.6,
+      "text": "这个酒桌文化在中国很重要嘛？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "s": 89,
+      "start": 290.82,
+      "end": 293.2,
+      "text": "那到底为什么重要呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "s": 90,
+      "start": 293.2,
+      "end": 293.76,
+      "text": "它的重要",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "s": 91,
+      "start": 293.76,
+      "end": 295.88,
+      "text": "性是方方面面的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 143,
+      "s": 91,
+      "start": 295.88,
+      "end": 299.24,
+      "text": "然后那我们就从日常人际交往、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 144,
+      "s": 91,
+      "start": 299.24,
+      "end": 303.95,
+      "text": "职场还有商场。这三个方面来讲，嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 145,
+      "s": 92,
+      "start": 303.95,
+      "end": 306.58,
+      "text": "人际交往并不是说一定要去喝酒，呃，",
+      "speaker": "B",
+      "u": 91,
+      "role": "storyteller"
+    },
+    {
+      "i": 146,
+      "s": 93,
+      "start": 306.66,
+      "end": 308.71,
+      "text": "大部分是呃朋友之间",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 147,
+      "s": 93,
+      "start": 308.71,
+      "end": 311.43,
+      "text": "有很多事情是不好意思说出来的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "s": 93,
+      "start": 311.45,
+      "end": 314.17,
+      "text": "就是一些憋在心里面的一些问题，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 149,
+      "s": 94,
+      "start": 314.91,
+      "end": 317.55,
+      "text": "然后可能借这个时候找个朋友，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 150,
+      "s": 94,
+      "start": 317.55,
+      "end": 319.24,
+      "text": "然后喝喝酒聊聊天。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 151,
+      "s": 95,
+      "start": 319.41,
+      "end": 319.77,
+      "text": "通过",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 152,
+      "s": 96,
+      "start": 319.77,
+      "end": 322.65,
+      "text": "喝酒交朋友的男的比较多是吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 153,
+      "s": 97,
+      "start": 322.65,
+      "end": 325.15,
+      "text": "女的好像不太会说",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 154,
+      "s": 97,
+      "start": 325.15,
+      "end": 326.67,
+      "text": "通过喝酒来交朋友。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 155,
+      "s": 98,
+      "start": 327.8,
+      "end": 329.08,
+      "text": "嗯，男的一般也不会",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 156,
+      "s": 98,
+      "start": 329.08,
+      "end": 330.98,
+      "text": "聚在一起聊心事嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 157,
+      "s": 99,
+      "start": 330.98,
+      "end": 332.92,
+      "text": "他不像是女孩子坐在一起",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "s": 99,
+      "start": 332.92,
+      "end": 335.5,
+      "text": "就可以倾诉自己的一些心事嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 159,
+      "s": 99,
+      "start": 335.5,
+      "end": 337.12,
+      "text": "然后就可以释放一些压力。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 160,
+      "s": 100,
+      "start": 337.12,
+      "end": 340.38,
+      "text": "但是男的好像坐在一起讲心事",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 161,
+      "s": 100,
+      "start": 340.38,
+      "end": 343.78,
+      "text": "有点怪怪的哦，有点就是显得自己",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 162,
+      "s": 101,
+      "start": 343.78,
+      "end": 344.53,
+      "text": "很弱。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 163,
+      "s": 102,
+      "start": 345,
+      "end": 346.84,
+      "text": "所以大部分男孩子他他",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 164,
+      "s": 102,
+      "start": 346.84,
+      "end": 350.06,
+      "text": "也需要去有这个倾诉的一个环境吧。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 165,
+      "s": 103,
+      "start": 350.6,
+      "end": 352.28,
+      "text": "嗯，因为你事情压在心里面，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 166,
+      "s": 103,
+      "start": 352.28,
+      "end": 353.72,
+      "text": "你不吐出来，你不说出来。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 167,
+      "s": 104,
+      "start": 353.83,
+      "end": 355.57,
+      "text": "对自己的身心健康是不利的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 168,
+      "s": 104,
+      "start": 355.57,
+      "end": 357.35,
+      "text": "所以说，呃，大部分男孩子",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 169,
+      "s": 104,
+      "start": 357.35,
+      "end": 359.59,
+      "text": "会通过喝酒的这个方式，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "s": 105,
+      "start": 359.69,
+      "end": 361.69,
+      "text": "然后去就自己无意识",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 171,
+      "s": 105,
+      "start": 361.69,
+      "end": 363.49,
+      "text": "或者是根本不知情的情况下",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 172,
+      "s": 105,
+      "start": 363.49,
+      "end": 364.61,
+      "text": "就把这些话说出来。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 173,
+      "s": 106,
+      "start": 364.85,
+      "end": 365.65,
+      "text": "比有句话叫什么？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 174,
+      "s": 107,
+      "start": 365.73,
+      "end": 367.43,
+      "text": "男跟男的跟男的才叫真爱，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 175,
+      "s": 107,
+      "start": 367.43,
+      "end": 370.31,
+      "text": "女的跟男的在一起那才叫繁衍后代",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 176,
+      "s": 108,
+      "start": 370.31,
+      "end": 370.71,
+      "text": "啊？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 177,
+      "s": 109,
+      "start": 371.63,
+      "end": 372.53,
+      "text": "这样子吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 178,
+      "s": 110,
+      "start": 372.53,
+      "end": 373.74,
+      "text": "我怎么没听过这句话？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 179,
+      "s": 111,
+      "start": 374.32,
+      "end": 376.21,
+      "text": "对，嗯，不过确实就是，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 180,
+      "s": 111,
+      "start": 376.21,
+      "end": 379.77,
+      "text": "嗯，很多人嘛喝完酒就会比较话多。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 181,
+      "s": 112,
+      "start": 380.41,
+      "end": 382.62,
+      "text": "因为平常可能不太说话的人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 182,
+      "s": 112,
+      "start": 382.62,
+      "end": 384.34,
+      "text": "或者是不敢说一些话的人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 183,
+      "s": 112,
+      "start": 384.34,
+      "end": 386.48,
+      "text": "他在喝完酒之后就变得变，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 184,
+      "s": 113,
+      "start": 386.48,
+      "end": 388.49,
+      "text": "就是从社恐变成了社牛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 185,
+      "s": 114,
+      "start": 389.12,
+      "end": 389.64,
+      "text": "所以我觉得",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 186,
+      "s": 114,
+      "start": 389.64,
+      "end": 391.56,
+      "text": "这个也是为什么有很多男的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 187,
+      "s": 114,
+      "start": 391.56,
+      "end": 393.42,
+      "text": "喜欢聚在一起喝酒的原因。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 188,
+      "s": 115,
+      "start": 393.78,
+      "end": 394.1,
+      "text": "就是平",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 189,
+      "s": 116,
+      "start": 394.1,
+      "end": 396.3,
+      "text": "常很内向、很内向的男孩子，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 190,
+      "s": 116,
+      "start": 396.3,
+      "end": 399.1,
+      "text": "喝完酒之后是最好玩的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 191,
+      "s": 116,
+      "start": 399.1,
+      "end": 400.3,
+      "text": "他什么话都讲，什么事",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 192,
+      "s": 117,
+      "start": 400.3,
+      "end": 400.85,
+      "text": "都做。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 193,
+      "s": 118,
+      "start": 401.26,
+      "end": 402.52,
+      "text": "嗯，还有喜欢吹牛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 194,
+      "s": 118,
+      "start": 402.52,
+      "end": 404.44,
+      "text": "就是感觉男的喝完酒之后，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 195,
+      "s": 118,
+      "start": 404.44,
+      "end": 405.8,
+      "text": "就是变得特别爱吹牛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 196,
+      "s": 119,
+      "start": 406.06,
+      "end": 408.86,
+      "text": "就人家不说酒壮怂人胆吗",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 197,
+      "s": 119,
+      "start": 408.86,
+      "end": 411.46,
+      "text": "然后比较怂的人在喝完酒之后",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 198,
+      "s": 119,
+      "start": 411.46,
+      "end": 413.26,
+      "text": "就是胆子特别大说什么都敢说",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 199,
+      "s": 119,
+      "start": 413.26,
+      "end": 417,
+      "text": "你让他去跟一个陌生的女孩子",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 200,
+      "s": 120,
+      "start": 417,
+      "end": 417.52,
+      "text": "搭讪他",
+      "speaker": "C",
+      "u": 119,
+      "role": "storyteller"
+    },
+    {
+      "i": 201,
+      "s": 121,
+      "start": 417.52,
+      "end": 420.86,
+      "text": "都敢喝酒前我是江西的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 202,
+      "s": 121,
+      "start": 420.86,
+      "end": 423.2,
+      "text": "但喝完酒那江西是我的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 203,
+      "s": 121,
+      "start": 423.2,
+      "end": 426.28,
+      "text": "这种时候大家说出来的话呀",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 204,
+      "s": 121,
+      "start": 426.28,
+      "end": 427.76,
+      "text": "其实多多少少还是有意思的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 205,
+      "s": 122,
+      "start": 427.76,
+      "end": 429.48,
+      "text": "因为我喝这个我也知道",
+      "speaker": "B",
+      "u": 121,
+      "role": "storyteller"
+    },
+    {
+      "i": 206,
+      "s": 122,
+      "start": 429.48,
+      "end": 431.72,
+      "text": "就这个时候听着也有意思",
+      "speaker": "B",
+      "u": 121,
+      "role": "storyteller"
+    },
+    {
+      "i": 207,
+      "s": 122,
+      "start": 431.93,
+      "end": 435.02,
+      "text": "然后讲着也有意思，所以说",
+      "speaker": "B",
+      "u": 121,
+      "role": "storyteller"
+    },
+    {
+      "i": 208,
+      "s": 123,
+      "start": 435.02,
+      "end": 436,
+      "text": "你说男的如果不喝酒",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 209,
+      "s": 123,
+      "start": 436,
+      "end": 437.33,
+      "text": "是不是很难交到朋友？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 210,
+      "s": 124,
+      "start": 438.68,
+      "end": 438.68,
+      "text": "嗯，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 211,
+      "s": 125,
+      "start": 438.68,
+      "end": 439.66,
+      "text": "这个也不好说。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 212,
+      "s": 126,
+      "start": 439.66,
+      "end": 442.67,
+      "text": "但是你可能同事之间，你喝完酒之后，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 213,
+      "s": 126,
+      "start": 442.96,
+      "end": 446.3,
+      "text": "公司内部的一些不可公开的秘密，嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 214,
+      "s": 127,
+      "start": 446.3,
+      "end": 449.58,
+      "text": "你跟那些什么老员工、呃师傅之类的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 215,
+      "s": 127,
+      "start": 449.58,
+      "end": 451.7,
+      "text": "然后你跟他喝喝酒，然后聊聊天，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 216,
+      "s": 128,
+      "start": 451.7,
+      "end": 453.48,
+      "text": "大大家也就是顺当的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 217,
+      "s": 128,
+      "start": 453.48,
+      "end": 456.42,
+      "text": "把这些东西当做八卦，然后跟你聊聊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 218,
+      "s": 129,
+      "start": 456.56,
+      "end": 458.24,
+      "text": "你也就慢慢获取到了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 219,
+      "s": 129,
+      "start": 458.24,
+      "end": 459.54,
+      "text": "你想要的一些信息。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 220,
+      "s": 130,
+      "start": 459.73,
+      "end": 461.23,
+      "text": "那么对于日后你上班",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 221,
+      "s": 130,
+      "start": 461.23,
+      "end": 463.45,
+      "text": "在这个岗位上上班也是一个好",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 222,
+      "s": 131,
+      "start": 463.45,
+      "end": 464.49,
+      "text": "处吧",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 223,
+      "s": 131,
+      "start": 464.49,
+      "end": 466.39,
+      "text": "那你平常会跟同事去喝酒",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 224,
+      "s": 131,
+      "start": 466.39,
+      "end": 468.87,
+      "text": "然后听到什么什么你你本",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 225,
+      "s": 132,
+      "start": 468.87,
+      "end": 470.43,
+      "text": "来不知道的事",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 226,
+      "s": 132,
+      "start": 470.43,
+      "end": 472.21,
+      "text": "呃听肯定会听得到",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 227,
+      "s": 132,
+      "start": 472.5,
+      "end": 475.19,
+      "text": "但是这种话都说了听到了都是秘密",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 228,
+      "s": 132,
+      "start": 475.19,
+      "end": 476.43,
+      "text": "那我嘴巴要严一点",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 229,
+      "s": 132,
+      "start": 476.43,
+      "end": 478.79,
+      "text": "不然下次谁跟我讲啊是吧那倒",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 230,
+      "s": 134,
+      "start": 478.79,
+      "end": 480.47,
+      "text": "也是啊呃",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 231,
+      "s": 134,
+      "start": 480.47,
+      "end": 483.09,
+      "text": "我前面我们也说那个喝酒人际交往",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 232,
+      "s": 134,
+      "start": 483.09,
+      "end": 486.54,
+      "text": "可能更多的就是用来拉近",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 233,
+      "s": 134,
+      "start": 486.54,
+      "end": 488.26,
+      "text": "人与人之间的这个距离啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 234,
+      "s": 135,
+      "start": 488.26,
+      "end": 489.86,
+      "text": "特别是男性之间可以可以",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 235,
+      "s": 135,
+      "start": 489.86,
+      "end": 492.95,
+      "text": "呃这个感情迅速升温是吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 236,
+      "s": 136,
+      "start": 492.98,
+      "end": 494.09,
+      "text": "变成了真爱。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 237,
+      "s": 137,
+      "start": 494.38,
+      "end": 497.42,
+      "text": "那呃在职场上其实可能又又不一样，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 238,
+      "s": 137,
+      "start": 497.42,
+      "end": 500.74,
+      "text": "它又更多了一点这个利益了，是不是？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 239,
+      "s": 138,
+      "start": 500.74,
+      "end": 501.22,
+      "text": "对，职",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 240,
+      "s": 139,
+      "start": 501.22,
+      "end": 503.04,
+      "text": "场的酒桌基本上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 241,
+      "s": 139,
+      "start": 503.04,
+      "end": 506.36,
+      "text": "它的这个属性是比较严谨的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 242,
+      "s": 139,
+      "start": 506.36,
+      "end": 508.74,
+      "text": "嗯，因为有一些是你的同事，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 243,
+      "s": 140,
+      "start": 508.74,
+      "end": 510.82,
+      "text": "有一些是你的领头上司啊。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 244,
+      "s": 141,
+      "start": 510.88,
+      "end": 512.58,
+      "text": "那么在酒桌上的一个表现，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 245,
+      "s": 141,
+      "start": 512.58,
+      "end": 515.34,
+      "text": "它其实是能间接的去反映",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 246,
+      "s": 141,
+      "start": 515.34,
+      "end": 518.1,
+      "text": "你在职场上的一个工作状态的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 247,
+      "s": 142,
+      "start": 518.1,
+      "end": 519.04,
+      "text": "就像我们前面讲的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 248,
+      "s": 142,
+      "start": 519.04,
+      "end": 520.66,
+      "text": "如果你是口无遮拦的人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 249,
+      "s": 142,
+      "start": 520.72,
+      "end": 522.48,
+      "text": "或者是你喜欢添油加醋、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 250,
+      "s": 142,
+      "start": 522.48,
+      "end": 523.9,
+      "text": "喜欢说别人八卦，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 251,
+      "s": 143,
+      "start": 524.02,
+      "end": 525.86,
+      "text": "那么在往后的工作上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 252,
+      "s": 143,
+      "start": 525.86,
+      "end": 528.38,
+      "text": "你是很难去得到一个晋升的机会的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 253,
+      "s": 144,
+      "start": 528.94,
+      "end": 531.32,
+      "text": "你如果是这样闭口不言的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 254,
+      "s": 144,
+      "start": 531.32,
+      "end": 533.77,
+      "text": "然后尽量能做好自己的事情的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 255,
+      "s": 145,
+      "start": 533.78,
+      "end": 535.38,
+      "text": "在酒桌上给别人的印象就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 256,
+      "s": 145,
+      "start": 535.38,
+      "end": 536.98,
+      "text": "你这个人很稳重、很靠谱。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 257,
+      "s": 146,
+      "start": 537.69,
+      "end": 539.18,
+      "text": "嗯，哎，那有没有一种可能，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 258,
+      "s": 146,
+      "start": 539.23,
+      "end": 540.69,
+      "text": "就是比如说上上司",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 259,
+      "s": 146,
+      "start": 540.69,
+      "end": 544.17,
+      "text": "请请下属们去吃饭喝酒，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 260,
+      "s": 147,
+      "start": 544.19,
+      "end": 546.89,
+      "text": "是不是为了就是看他们喝完酒之后",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 261,
+      "s": 147,
+      "start": 546.89,
+      "end": 548.77,
+      "text": "会不会展现出真实的自己，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 262,
+      "s": 147,
+      "start": 548.77,
+      "end": 550.23,
+      "text": "然后看看哎这个人怎么样，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 263,
+      "s": 148,
+      "start": 550.23,
+      "end": 552.45,
+      "text": "或者说是不是一个可以信任的人？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 264,
+      "s": 149,
+      "start": 552.45,
+      "end": 552.65,
+      "text": "就是",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 265,
+      "s": 150,
+      "start": 552.65,
+      "end": 555.87,
+      "text": "不仅是在我们现在呀，在宋朝的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 266,
+      "s": 150,
+      "start": 556.11,
+      "end": 558.8,
+      "text": "那个宋朝开国皇帝赵匡胤，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 267,
+      "s": 151,
+      "start": 559.09,
+      "end": 561.64,
+      "text": "他就有过一个比较经典的一个事情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 268,
+      "s": 151,
+      "start": 561.81,
+      "end": 563.65,
+      "text": "叫什么“杯酒释兵权”。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 269,
+      "s": 152,
+      "start": 563.74,
+      "end": 566.01,
+      "text": "他就是领导试探手下，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 270,
+      "s": 152,
+      "start": 566.16,
+      "end": 567.84,
+      "text": "利用一场那个酒席，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 271,
+      "s": 153,
+      "start": 567.84,
+      "end": 569.52,
+      "text": "然后来试探一下那个下属",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 272,
+      "s": 153,
+      "start": 569.52,
+      "end": 572.04,
+      "text": "到底会不会给自己带来一个威胁。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 273,
+      "s": 154,
+      "start": 572.04,
+      "end": 573.6,
+      "text": "如果是属下造反嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 274,
+      "s": 154,
+      "start": 573.6,
+      "end": 577,
+      "text": "他就可以利用酒宴就拿下他；",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 275,
+      "s": 154,
+      "start": 577,
+      "end": 577.94,
+      "text": "如果那些属下",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 276,
+      "s": 154,
+      "start": 577.94,
+      "end": 579.67,
+      "text": "想把自己的兵权给交出来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 277,
+      "s": 155,
+      "start": 579.94,
+      "end": 581.52,
+      "text": "那么这个时候属于主动的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 278,
+      "s": 155,
+      "start": 581.52,
+      "end": 584.29,
+      "text": "那么他就可以让他养老。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 279,
+      "s": 156,
+      "start": 584.32,
+      "end": 584.6,
+      "text": "嗯，所以",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 280,
+      "s": 157,
+      "start": 584.6,
+      "end": 586.28,
+      "text": "我感觉跟跟领导出去吃饭，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 281,
+      "s": 157,
+      "start": 586.28,
+      "end": 587.74,
+      "text": "他们说什么话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 282,
+      "s": 157,
+      "start": 587.74,
+      "end": 591.32,
+      "text": "字里行间他都是嗯有埋伏的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 283,
+      "s": 158,
+      "start": 591.58,
+      "end": 594.2,
+      "text": "就是你，你不能光是听表面上的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 284,
+      "s": 158,
+      "start": 594.2,
+      "end": 596.04,
+      "text": "你还得要听他那个",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 285,
+      "s": 158,
+      "start": 596.04,
+      "end": 597.56,
+      "text": "呃言外之意是什么，是",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 286,
+      "s": 159,
+      "start": 597.56,
+      "end": 597.96,
+      "text": "吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 287,
+      "s": 160,
+      "start": 598.38,
+      "end": 600.12,
+      "text": "对，就是双方的领导去吃饭，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 288,
+      "s": 160,
+      "start": 600.12,
+      "end": 602.56,
+      "text": "然后带着一个部下去吃饭嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 289,
+      "s": 161,
+      "start": 602.56,
+      "end": 605.22,
+      "text": "那么这个时候，领导叫你去点菜嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 290,
+      "s": 161,
+      "start": 605.26,
+      "end": 607.26,
+      "text": "嗯，他可能是叫你去回避一下，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 291,
+      "s": 162,
+      "start": 607.42,
+      "end": 609.04,
+      "text": "他他们之间有一些话题",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 292,
+      "s": 162,
+      "start": 609.04,
+      "end": 611.44,
+      "text": "你是不想让你听到的哦，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 293,
+      "s": 163,
+      "start": 611.94,
+      "end": 612.94,
+      "text": "这样子吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 294,
+      "s": 164,
+      "start": 612.94,
+      "end": 614.28,
+      "text": "哇，感觉好多好多规矩。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 295,
+      "s": 165,
+      "start": 614.28,
+      "end": 615.36,
+      "text": "那你要是不懂的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 296,
+      "s": 165,
+      "start": 615.36,
+      "end": 616.58,
+      "text": "你要你要没有去点菜，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 297,
+      "s": 165,
+      "start": 616.58,
+      "end": 618.8,
+      "text": "那领导肯定认为你这个人不懂事儿。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 298,
+      "s": 166,
+      "start": 619.5,
+      "end": 621.98,
+      "text": "哎，那那你说这个不会喝酒",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 299,
+      "s": 166,
+      "start": 621.98,
+      "end": 625.4,
+      "text": "在职场上会不会呃缺乏优势？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 300,
+      "s": 167,
+      "start": 626,
+      "end": 627.42,
+      "text": "那肯定会有的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 301,
+      "s": 168,
+      "start": 627.48,
+      "end": 629.98,
+      "text": "你跟领导吃饭，你不喝酒，你觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 302,
+      "s": 168,
+      "start": 629.98,
+      "end": 632.61,
+      "text": "你下次还有这个机会来吃饭了吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 303,
+      "s": 169,
+      "start": 632.72,
+      "end": 634.5,
+      "text": "那么你会，那么领导是不是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 304,
+      "s": 169,
+      "start": 634.5,
+      "end": 636.22,
+      "text": "下次得经常带着你？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 305,
+      "s": 170,
+      "start": 636.22,
+      "end": 637.44,
+      "text": "而且你这个人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 306,
+      "s": 170,
+      "start": 637.44,
+      "end": 639.47,
+      "text": "酒品也挺好的，也会来事。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 307,
+      "s": 171,
+      "start": 639.64,
+      "end": 642.12,
+      "text": "那么领导带着你光是图一乐子，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 308,
+      "s": 171,
+      "start": 642.12,
+      "end": 643.4,
+      "text": "领导都觉得开心。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 309,
+      "s": 172,
+      "start": 643.46,
+      "end": 644.16,
+      "text": "我听过一",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 310,
+      "s": 173,
+      "start": 644.16,
+      "end": 645.18,
+      "text": "句话说啊，就是现在",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 311,
+      "s": 173,
+      "start": 645.18,
+      "end": 647.88,
+      "text": "不是行业之间的这个竞争很大嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 312,
+      "s": 173,
+      "start": 647.88,
+      "end": 650.29,
+      "text": "其实大家的产品都是大同小异的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 313,
+      "s": 173,
+      "start": 650.29,
+      "end": 653.07,
+      "text": "或者。说价格也差不了多少的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 314,
+      "s": 174,
+      "start": 653.19,
+      "end": 655.06,
+      "text": "那至于这个订单能不能拿到，",
+      "speaker": "C",
+      "u": 173,
+      "role": "storyteller"
+    },
+    {
+      "i": 315,
+      "s": 174,
+      "start": 655.06,
+      "end": 656.62,
+      "text": "这个喝酒就是临门一脚",
+      "speaker": "C",
+      "u": 173,
+      "role": "storyteller"
+    },
+    {
+      "i": 316,
+      "s": 175,
+      "start": 656.62,
+      "end": 657.07,
+      "text": "了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 317,
+      "s": 176,
+      "start": 657.5,
+      "end": 659.46,
+      "text": "对，人家可能是喝完酒稀里糊涂的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 318,
+      "s": 176,
+      "start": 659.46,
+      "end": 661.26,
+      "text": "一拍脑袋，跟你称兄道弟的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 319,
+      "s": 177,
+      "start": 661.26,
+      "end": 663.28,
+      "text": "然后说他说在这的在这里",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 320,
+      "s": 177,
+      "start": 663.28,
+      "end": 664.58,
+      "text": "没有我解决不了的事情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 321,
+      "s": 177,
+      "start": 664.58,
+      "end": 665.75,
+      "text": "这个地方都是我的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 322,
+      "s": 178,
+      "start": 666.04,
+      "end": 668.52,
+      "text": "那销售就说哎呀最近工作压力大呀，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 323,
+      "s": 178,
+      "start": 668.52,
+      "end": 671.12,
+      "text": "然后可能呃家庭压力也大呀，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 324,
+      "s": 179,
+      "start": 671.16,
+      "end": 673.52,
+      "text": "然后一直这个单子也拿不下来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 325,
+      "s": 179,
+      "start": 673.66,
+      "end": 674.64,
+      "text": "可能如果再拿不下来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 326,
+      "s": 179,
+      "start": 674.64,
+      "end": 675.84,
+      "text": "我可能就要滚蛋了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 327,
+      "s": 180,
+      "start": 676.04,
+      "end": 677.24,
+      "text": "那么喝完酒的那人就说",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 328,
+      "s": 180,
+      "start": 677.24,
+      "end": 678.32,
+      "text": "哎这不是小问题吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 329,
+      "s": 181,
+      "start": 678.45,
+      "end": 680.27,
+      "text": "啊，直接直接签了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 330,
+      "s": 182,
+      "start": 680.27,
+      "end": 682.99,
+      "text": "就说白了啊，就是喝酒这个事儿吧，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 331,
+      "s": 182,
+      "start": 682.99,
+      "end": 685.23,
+      "text": "他真的就是呃，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 332,
+      "s": 182,
+      "start": 685.23,
+      "end": 687.45,
+      "text": "看你俩有没有这个做朋友的缘分。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 333,
+      "s": 183,
+      "start": 687.45,
+      "end": 689.72,
+      "text": "就是如果说你跟这个客户出去喝酒，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 334,
+      "s": 183,
+      "start": 689.97,
+      "end": 691.35,
+      "text": "在在喝酒的过程中，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 335,
+      "s": 183,
+      "start": 691.35,
+      "end": 692.45,
+      "text": "他喜不喜欢你这个人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 336,
+      "s": 184,
+      "start": 692.45,
+      "end": 695.65,
+      "text": "他能够看得出来，他肯定是会更愿意",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 337,
+      "s": 184,
+      "start": 695.65,
+      "end": 697.67,
+      "text": "去跟跟自己聊得来的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 338,
+      "s": 184,
+      "start": 697.67,
+      "end": 700.2,
+      "text": "然后能喝酒喝到一块儿去的啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 339,
+      "s": 185,
+      "start": 700.21,
+      "end": 701.24,
+      "text": "做生意对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 340,
+      "s": 186,
+      "start": 701.29,
+      "end": 704.45,
+      "text": "按道理啊，销售的去拉动客户。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 341,
+      "s": 187,
+      "start": 704.53,
+      "end": 707.79,
+      "text": "因为客户很有可能是内向的人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 342,
+      "s": 187,
+      "start": 707.96,
+      "end": 709.77,
+      "text": "让他喝喝尽兴之后，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 343,
+      "s": 187,
+      "start": 709.77,
+      "end": 711.74,
+      "text": "那么内向的人他也变成外向的人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 344,
+      "s": 188,
+      "start": 711.89,
+      "end": 713.17,
+      "text": "那么大家在这个酒桌上",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 345,
+      "s": 188,
+      "start": 713.17,
+      "end": 714.68,
+      "text": "就会变得开心了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 346,
+      "s": 188,
+      "start": 714.95,
+      "end": 716.21,
+      "text": "然后氛围就会变得更好，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 347,
+      "s": 188,
+      "start": 716.21,
+      "end": 717.44,
+      "text": "什么话都能谈了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 348,
+      "s": 189,
+      "start": 718.05,
+      "end": 719.17,
+      "text": "你你不知道就怎么开口，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 349,
+      "s": 189,
+      "start": 719.17,
+      "end": 721.11,
+      "text": "或者你你根本不知道就有什么节目，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 350,
+      "s": 189,
+      "start": 721.11,
+      "end": 723.01,
+      "text": "那么客户就觉得没什么意思了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 351,
+      "s": 190,
+      "start": 723.01,
+      "end": 725.49,
+      "text": "他可能会找个幌子、找个理由说：",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 352,
+      "s": 190,
+      "start": 725.49,
+      "end": 727.13,
+      "text": "“哎呦，公司有点事情很急，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 353,
+      "s": 190,
+      "start": 727.13,
+      "end": 728.55,
+      "text": "那我可能要先撤了。”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 354,
+      "s": 191,
+      "start": 728.55,
+      "end": 731.02,
+      "text": "那么你既然留不住客户，那就。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 355,
+      "s": 192,
+      "start": 731.06,
+      "end": 732.82,
+      "text": "那就完了，那那这个生意就没得谈。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 356,
+      "s": 193,
+      "start": 732.82,
+      "end": 735.25,
+      "text": "人家真的是过来吃顿饭嘛，是吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 357,
+      "s": 194,
+      "start": 735.9,
+      "end": 737.12,
+      "text": "就是说到喝酒啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 358,
+      "s": 194,
+      "start": 737.12,
+      "end": 739.2,
+      "text": "就是我感觉在酒桌上，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 359,
+      "s": 194,
+      "start": 739.2,
+      "end": 740.88,
+      "text": "如果是比较正式的场合的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 360,
+      "s": 194,
+      "start": 740.88,
+      "end": 742.35,
+      "text": "还是有挺多规矩的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 361,
+      "s": 195,
+      "start": 742.42,
+      "end": 744.6,
+      "text": "那我们酒桌上都有哪些规矩呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 362,
+      "s": 196,
+      "start": 744.6,
+      "end": 745.3,
+      "text": "你来跟大家",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 363,
+      "s": 197,
+      "start": 745.3,
+      "end": 746.2,
+      "text": "讲一讲。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 364,
+      "s": 198,
+      "start": 746.72,
+      "end": 748.48,
+      "text": "呃，酒桌上的规矩，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 365,
+      "s": 198,
+      "start": 748.48,
+      "end": 750.14,
+      "text": "座位上它就已经有一个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 366,
+      "s": 198,
+      "start": 750.14,
+      "end": 751.9,
+      "text": "呃很明确的规定了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 367,
+      "s": 198,
+      "start": 751.9,
+      "end": 756.03,
+      "text": "就是左尊右次，上尊下次。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 368,
+      "s": 199,
+      "start": 756.59,
+      "end": 758.25,
+      "text": "那么门对应的位置，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 369,
+      "s": 199,
+      "start": 758.25,
+      "end": 760.63,
+      "text": "它就也是主位，也是上位，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 370,
+      "s": 199,
+      "start": 760.63,
+      "end": 763.25,
+      "text": "所以这个位置是给最尊敬的人坐的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 371,
+      "s": 200,
+      "start": 763.29,
+      "end": 764.61,
+      "text": "那如果说我不知道",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 372,
+      "s": 201,
+      "start": 764.61,
+      "end": 765.11,
+      "text": "呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 373,
+      "s": 202,
+      "start": 765.11,
+      "end": 766.31,
+      "text": "那我不就坐错了吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 374,
+      "s": 203,
+      "start": 766.31,
+      "end": 767.68,
+      "text": "坐错了会怎么怎么办？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 375,
+      "s": 204,
+      "start": 768.45,
+      "end": 768.77,
+      "text": "坐错位",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 376,
+      "s": 205,
+      "start": 768.77,
+      "end": 770.61,
+      "text": "置是个大不敬的事情嘛！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 377,
+      "s": 206,
+      "start": 770.61,
+      "end": 773.18,
+      "text": "就假设你是一个小职员，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 378,
+      "s": 206,
+      "start": 773.26,
+      "end": 775.68,
+      "text": "呃，那么你你如果坐了领导的位置，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 379,
+      "s": 207,
+      "start": 776.09,
+      "end": 777.23,
+      "text": "那么人家就就会觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 380,
+      "s": 207,
+      "start": 777.23,
+      "end": 779.29,
+      "text": "你这个人可能不懂事啊！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 381,
+      "s": 208,
+      "start": 779.29,
+      "end": 781.46,
+      "text": "你连自己坐什么位置你都不知道。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 382,
+      "s": 209,
+      "start": 782.1,
+      "end": 782.23,
+      "text": "不",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 383,
+      "s": 210,
+      "start": 782.23,
+      "end": 785.05,
+      "text": "过不过你有没有经常看到这这种的？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 384,
+      "s": 211,
+      "start": 785.29,
+      "end": 787.08,
+      "text": "就是领导人之间",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 385,
+      "s": 211,
+      "start": 787.08,
+      "end": 789.5,
+      "text": "如果一起去吃饭喝酒",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 386,
+      "s": 211,
+      "start": 789.5,
+      "end": 792.64,
+      "text": "就会为了谁坐位置",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 387,
+      "s": 212,
+      "start": 792.64,
+      "end": 794.34,
+      "text": "互相来推",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 388,
+      "s": 212,
+      "start": 794.34,
+      "end": 796.44,
+      "text": "乙方请甲方吃饭",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 389,
+      "s": 212,
+      "start": 796.44,
+      "end": 798.82,
+      "text": "那乙方就老板请甲方老板你来坐",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 390,
+      "s": 212,
+      "start": 798.82,
+      "end": 800.8,
+      "text": "他说你是贵宾你是贵客",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 391,
+      "s": 212,
+      "start": 800.8,
+      "end": 801.88,
+      "text": "然后你来做主位",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 392,
+      "s": 213,
+      "start": 801.88,
+      "end": 802.88,
+      "text": "那么甲方的老板",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 393,
+      "s": 213,
+      "start": 802.88,
+      "end": 804.18,
+      "text": "又不好意思去坐这个位置",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 394,
+      "s": 213,
+      "start": 804.18,
+      "end": 806.52,
+      "text": "因为他说你是东家你坐",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 395,
+      "s": 213,
+      "start": 806.52,
+      "end": 808.74,
+      "text": "其实这个位置早已经定下来是谁坐",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 396,
+      "s": 215,
+      "start": 808.74,
+      "end": 810.48,
+      "text": "的只是说要客气一下",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 397,
+      "s": 215,
+      "start": 811.17,
+      "end": 812.77,
+      "text": "嗯，我感觉中国人就喜欢，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 398,
+      "s": 215,
+      "start": 812.77,
+      "end": 814.05,
+      "text": "特别是那种正式的场合，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 399,
+      "s": 215,
+      "start": 814.05,
+      "end": 815.87,
+      "text": "就喜欢假客气，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 400,
+      "s": 216,
+      "start": 815.87,
+      "end": 817.63,
+      "text": "然后显显得都有点虚伪。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 401,
+      "s": 217,
+      "start": 817.63,
+      "end": 819.69,
+      "text": "就比如说我要真不让你坐主位的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 402,
+      "s": 217,
+      "start": 819.69,
+      "end": 820.45,
+      "text": "你肯定就不高",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 403,
+      "s": 218,
+      "start": 820.45,
+      "end": 820.93,
+      "text": "兴了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 404,
+      "s": 219,
+      "start": 821.67,
+      "end": 822.63,
+      "text": "那肯定的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 405,
+      "s": 220,
+      "start": 822.63,
+      "end": 822.97,
+      "text": "所以所以",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 406,
+      "s": 221,
+      "start": 822.97,
+      "end": 824.67,
+      "text": "所以我们有我们很多时候",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 407,
+      "s": 221,
+      "start": 824.67,
+      "end": 825.99,
+      "text": "是口是心非。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 408,
+      "s": 222,
+      "start": 825.99,
+      "end": 827.13,
+      "text": "比如说你问朋友，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 409,
+      "s": 222,
+      "start": 827.13,
+      "end": 830.59,
+      "text": "哎，你你要不要呃吃呃什么水果，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 410,
+      "s": 222,
+      "start": 830.59,
+      "end": 831.67,
+      "text": "或者你要不要喝饮料？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 411,
+      "s": 223,
+      "start": 831.67,
+      "end": 833.21,
+      "text": "可能你那个朋友说哦不用了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 412,
+      "s": 223,
+      "start": 833.21,
+      "end": 834.45,
+      "text": "就是跟你客气一下。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 413,
+      "s": 224,
+      "start": 834.47,
+      "end": 836.51,
+      "text": "你要真不给人家拿的话，他可能觉得",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 414,
+      "s": 224,
+      "start": 836.51,
+      "end": 838.17,
+      "text": "你这个人怎么这么不懂礼貌？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 415,
+      "s": 225,
+      "start": 838.17,
+      "end": 839.37,
+      "text": "我又不是真的不喝。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 416,
+      "s": 226,
+      "start": 839.52,
+      "end": 841.97,
+      "text": "这个就是有一点中西方的文化差异，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 417,
+      "s": 226,
+      "start": 841.97,
+      "end": 844.65,
+      "text": "就是感觉西方人可能有会这样子，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 418,
+      "s": 226,
+      "start": 844.65,
+      "end": 846.11,
+      "text": "你要你要说不喝的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 419,
+      "s": 227,
+      "start": 846.39,
+      "end": 847.83,
+      "text": "他就真的不给你拿了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 420,
+      "s": 227,
+      "start": 847.91,
+      "end": 849.31,
+      "text": "因为他觉得你都说了不喝，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 421,
+      "s": 227,
+      "start": 849.31,
+      "end": 849.99,
+      "text": "我再给你拿，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 422,
+      "s": 227,
+      "start": 849.99,
+      "end": 851.83,
+      "text": "那我不是不尊重你的意愿了吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 423,
+      "s": 228,
+      "start": 851.83,
+      "end": 853.23,
+      "text": "但是中国人不是，中国人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 424,
+      "s": 229,
+      "start": 853.23,
+      "end": 854.3,
+      "text": "是客气。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 425,
+      "s": 230,
+      "start": 854.31,
+      "end": 857.85,
+      "text": "中国人就这样的，我可以不喝这杯水，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 426,
+      "s": 230,
+      "start": 857.85,
+      "end": 861.45,
+      "text": "但是你不能不叫我，你不能不给我端。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 427,
+      "s": 231,
+      "start": 861.99,
+      "end": 862.19,
+      "text": "哎，对",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 428,
+      "s": 232,
+      "start": 862.19,
+      "end": 863.99,
+      "text": "对对，嗯，还有什么规矩",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 429,
+      "s": 233,
+      "start": 863.99,
+      "end": 864.49,
+      "text": "呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 430,
+      "s": 234,
+      "start": 864.69,
+      "end": 866.21,
+      "text": "还有一个就比较一个重要的嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 431,
+      "s": 234,
+      "start": 866.21,
+      "end": 867.81,
+      "text": "就是说还有一个倒酒啊。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 432,
+      "s": 235,
+      "start": 867.83,
+      "end": 871.73,
+      "text": "我们倒酒不能倒到满，也不能倒得溢。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 433,
+      "s": 236,
+      "start": 872.02,
+      "end": 874.81,
+      "text": "就是你那个酒，呃，倒的八分满。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 434,
+      "s": 237,
+      "start": 875.07,
+      "end": 876.93,
+      "text": "因为我们在接酒的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 435,
+      "s": 237,
+      "start": 876.93,
+      "end": 879.67,
+      "text": "我们手是双手的，双手扶杯的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 436,
+      "s": 238,
+      "start": 879.67,
+      "end": 882.45,
+      "text": "那么这个时候，如果呃别人给你倒酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 437,
+      "s": 238,
+      "start": 882.45,
+      "end": 883.61,
+      "text": "那么这个酒溢出来了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 438,
+      "s": 238,
+      "start": 883.61,
+      "end": 885.35,
+      "text": "那可能打湿到你的手指头，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 439,
+      "s": 239,
+      "start": 885.35,
+      "end": 886.79,
+      "text": "就会显得很很不",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 440,
+      "s": 240,
+      "start": 886.79,
+      "end": 887.17,
+      "text": "雅。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 441,
+      "s": 241,
+      "start": 887.17,
+      "end": 889.11,
+      "text": "我我以前就是以前在",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 442,
+      "s": 241,
+      "start": 889.11,
+      "end": 891.17,
+      "text": "呃我老板教我的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 443,
+      "s": 241,
+      "start": 891.17,
+      "end": 892.87,
+      "text": "就别人在给你倒酒的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 444,
+      "s": 241,
+      "start": 892.87,
+      "end": 895.08,
+      "text": "你得要。呃，叩两下桌",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 445,
+      "s": 243,
+      "start": 895.08,
+      "end": 895.62,
+      "text": "子。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 446,
+      "s": 244,
+      "start": 895.78,
+      "end": 896.9,
+      "text": "对我我了解过，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 447,
+      "s": 244,
+      "start": 896.9,
+      "end": 898.36,
+      "text": "他是秦始一个叩礼",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 448,
+      "s": 244,
+      "start": 898.36,
+      "end": 901.29,
+      "text": "清朝的一个皇帝嘛，他叫乾隆。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 449,
+      "s": 245,
+      "start": 901.58,
+      "end": 903.84,
+      "text": "然后他微服私访的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 450,
+      "s": 245,
+      "start": 903.84,
+      "end": 906.34,
+      "text": "跟大臣们一起在民间的餐馆吃饭。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 451,
+      "s": 246,
+      "start": 906.58,
+      "end": 906.86,
+      "text": "嗯。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 452,
+      "s": 247,
+      "start": 906.86,
+      "end": 908.2,
+      "text": "那皇帝说：“哎呀，天天待在皇宫，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 453,
+      "s": 247,
+      "start": 908.2,
+      "end": 909.64,
+      "text": "你们终于出来吃饭了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 454,
+      "s": 247,
+      "start": 909.64,
+      "end": 911.6,
+      "text": "不用去在乎一些繁文缛节了。”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 455,
+      "s": 248,
+      "start": 911.6,
+      "end": 913.38,
+      "text": "然后就兴致来了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 456,
+      "s": 248,
+      "start": 913.38,
+      "end": 916.44,
+      "text": "那么给大家那些大臣，然后倒茶。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 457,
+      "s": 249,
+      "start": 916.72,
+      "end": 918.67,
+      "text": "大臣们哪受到过这种待遇啊？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 458,
+      "s": 250,
+      "start": 919.19,
+      "end": 921.11,
+      "text": "立马就吓坏了，不知道怎么办。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 459,
+      "s": 251,
+      "start": 921.67,
+      "end": 923.47,
+      "text": "因为按照规矩，他们是要跪下来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 460,
+      "s": 251,
+      "start": 923.47,
+      "end": 926.21,
+      "text": "然后叩头，然后表示这个感谢的嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 461,
+      "s": 252,
+      "start": 926.21,
+      "end": 927.01,
+      "text": "但这个时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 462,
+      "s": 252,
+      "start": 927.01,
+      "end": 929.43,
+      "text": "他们叩也不行，不叩也不行，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 463,
+      "s": 252,
+      "start": 929.71,
+      "end": 931.75,
+      "text": "因为皇帝在微服私访，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 464,
+      "s": 253,
+      "start": 931.75,
+      "end": 934.47,
+      "text": "大臣们叩头就会暴露皇帝的身份；",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 465,
+      "s": 253,
+      "start": 934.47,
+      "end": 937.55,
+      "text": "不叩头又害怕会被治一个不敬之罪。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 466,
+      "s": 254,
+      "start": 937.55,
+      "end": 938.17,
+      "text": "然后就有一个",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 467,
+      "s": 254,
+      "start": 938.17,
+      "end": 940.27,
+      "text": "反应的很快的那个大臣，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 468,
+      "s": 254,
+      "start": 940.27,
+      "end": 942.86,
+      "text": "他脑袋里面的灯泡灯亮了一下，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 469,
+      "s": 255,
+      "start": 943.49,
+      "end": 945.45,
+      "text": "然后就在那个皇帝倒茶的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 470,
+      "s": 255,
+      "start": 945.45,
+      "end": 947.11,
+      "text": "他用自己的食指跟中指",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 471,
+      "s": 255,
+      "start": 947.11,
+      "end": 949.34,
+      "text": "在桌子上。叩了几下，嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 472,
+      "s": 256,
+      "start": 949.34,
+      "end": 950.48,
+      "text": "然后用用这个",
+      "speaker": "B",
+      "u": 255,
+      "role": "storyteller"
+    },
+    {
+      "i": 473,
+      "s": 256,
+      "start": 950.48,
+      "end": 953.84,
+      "text": "叩首的谐音“叩手”来代替。",
+      "speaker": "B",
+      "u": 255,
+      "role": "storyteller"
+    },
+    {
+      "i": 474,
+      "s": 257,
+      "start": 953.84,
+      "end": 955.33,
+      "text": "对对，首跟手。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 475,
+      "s": 258,
+      "start": 955.82,
+      "end": 957.82,
+      "text": "那有有有一些可能不知道",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 476,
+      "s": 258,
+      "start": 957.82,
+      "end": 960.66,
+      "text": "这个中国古代历史的外国人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 477,
+      "s": 258,
+      "start": 960.66,
+      "end": 962.66,
+      "text": "就会问了：那不叩首会怎么样",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 478,
+      "s": 259,
+      "start": 962.66,
+      "end": 963.11,
+      "text": "呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 479,
+      "s": 260,
+      "start": 963.52,
+      "end": 965.18,
+      "text": "那得看皇帝的心情啦。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 480,
+      "s": 261,
+      "start": 965.3,
+      "end": 967.3,
+      "text": "就是如果皇帝心情不好，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 481,
+      "s": 261,
+      "start": 967.3,
+      "end": 968.3,
+      "text": "你不叩可以啊。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 482,
+      "s": 262,
+      "start": 968.42,
+      "end": 970.78,
+      "text": "那直接就是大不敬砍头啊！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 483,
+      "s": 263,
+      "start": 970.78,
+      "end": 974.98,
+      "text": "嗯，伴君如伴虎啊，就是你在皇帝身边。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 484,
+      "s": 264,
+      "start": 975.05,
+      "end": 976.41,
+      "text": "说错了一句话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 485,
+      "s": 264,
+      "start": 976.52,
+      "end": 978.63,
+      "text": "那么就可能有大不敬之罪，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 486,
+      "s": 264,
+      "start": 978.63,
+      "end": 980.95,
+      "text": "或者有一些什么呃乱七八糟的罪名",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 487,
+      "s": 264,
+      "start": 980.95,
+      "end": 981.95,
+      "text": "就直接安在你头上。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 488,
+      "s": 265,
+      "start": 981.95,
+      "end": 983.71,
+      "text": "所以说，大臣呢，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 489,
+      "s": 265,
+      "start": 983.71,
+      "end": 985.89,
+      "text": "他在陪伴皇帝的时候啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 490,
+      "s": 265,
+      "start": 985.89,
+      "end": 987.44,
+      "text": "都是很小心翼翼的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 491,
+      "s": 266,
+      "start": 987.59,
+      "end": 990.11,
+      "text": "但是就这个这个一个故事嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 492,
+      "s": 266,
+      "start": 990.11,
+      "end": 992.27,
+      "text": "民间故事嘛，也就是慢慢的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 493,
+      "s": 266,
+      "start": 992.27,
+      "end": 993.81,
+      "text": "把这个传统给延续下来了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 494,
+      "s": 267,
+      "start": 993.81,
+      "end": 995.55,
+      "text": "就大家也都在学习",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 495,
+      "s": 267,
+      "start": 995.55,
+      "end": 997.93,
+      "text": "这个大臣来表示感谢",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 496,
+      "s": 268,
+      "start": 997.93,
+      "end": 998.63,
+      "text": "嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 497,
+      "s": 269,
+      "start": 998.77,
+      "end": 1000.13,
+      "text": "嗯，比如说你同事给你倒酒，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 498,
+      "s": 269,
+      "start": 1000.13,
+      "end": 1000.89,
+      "text": "或者你朋友给我。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 499,
+      "s": 270,
+      "start": 1001.03,
+      "end": 1003.19,
+      "text": "跟你倒酒，你会行这个叩首礼",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 500,
+      "s": 271,
+      "start": 1003.19,
+      "end": 1003.69,
+      "text": "吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 501,
+      "s": 272,
+      "start": 1003.82,
+      "end": 1005.55,
+      "text": "呃，别人可能倒茶倒酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 502,
+      "s": 272,
+      "start": 1005.55,
+      "end": 1007.61,
+      "text": "我看到有的人会行叩首礼，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 503,
+      "s": 272,
+      "start": 1007.61,
+      "end": 1009.69,
+      "text": "但是我更多的是双手扶杯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 504,
+      "s": 273,
+      "start": 1009.69,
+      "end": 1011.32,
+      "text": "然后我可能说呃谢谢谢谢。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 505,
+      "s": 274,
+      "start": 1011.75,
+      "end": 1013.17,
+      "text": "哎，对，我觉得是一样的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 506,
+      "s": 274,
+      "start": 1013.17,
+      "end": 1015.21,
+      "text": "就不一定要就大家都做一",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 507,
+      "s": 275,
+      "start": 1015.21,
+      "end": 1016.13,
+      "text": "样的啊。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 508,
+      "s": 276,
+      "start": 1016.13,
+      "end": 1018.77,
+      "text": "之前有一个网友会讲嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 509,
+      "s": 276,
+      "start": 1018.77,
+      "end": 1020.51,
+      "text": "就是微博上的网友会讲，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 510,
+      "s": 276,
+      "start": 1020.51,
+      "end": 1021.95,
+      "text": "呃中国嘛，知道吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 511,
+      "s": 277,
+      "start": 1021.95,
+      "end": 1024.99,
+      "text": "就算爱因斯坦他要经费也一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 512,
+      "s": 277,
+      "start": 1024.99,
+      "end": 1027.69,
+      "text": "你也要搞清楚主陪副陪啥的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 513,
+      "s": 278,
+      "start": 1028.11,
+      "end": 1030.71,
+      "text": "光这个他都得研究三年，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 514,
+      "s": 278,
+      "start": 1030.71,
+      "end": 1032.71,
+      "text": "他哪有时间去写那个相对论呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 515,
+      "s": 279,
+      "start": 1033.59,
+      "end": 1034.37,
+      "text": "对，所以我觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 516,
+      "s": 280,
+      "start": 1034.37,
+      "end": 1037.23,
+      "text": "中国人就就喜欢，就是感觉规矩很多。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 517,
+      "s": 281,
+      "start": 1037.35,
+      "end": 1039.37,
+      "text": "其实敬酒也是有很多规矩的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 518,
+      "s": 281,
+      "start": 1039.37,
+      "end": 1040.85,
+      "text": "我以前也是不知道的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 519,
+      "s": 282,
+      "start": 1040.85,
+      "end": 1042.07,
+      "text": "就比如说这是客户的杯子，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 520,
+      "s": 282,
+      "start": 1042.07,
+      "end": 1043.99,
+      "text": "这是我的杯子，那我要放低一点，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 521,
+      "s": 282,
+      "start": 1043.99,
+      "end": 1048.65,
+      "text": "表示我把自己的身份拉低来尊敬他。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 522,
+      "s": 283,
+      "start": 1049.08,
+      "end": 1050.09,
+      "text": "对，然后有的人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 523,
+      "s": 284,
+      "start": 1050.09,
+      "end": 1052.25,
+      "text": "可能会速度比较快，他会扶住你的手，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 524,
+      "s": 284,
+      "start": 1052.25,
+      "end": 1053.49,
+      "text": "让你的杯子不要压低，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 525,
+      "s": 284,
+      "start": 1053.49,
+      "end": 1054.55,
+      "text": "然后自己压低一点。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 526,
+      "s": 285,
+      "start": 1054.58,
+      "end": 1056.79,
+      "text": "就是都在争这个压低一点，不知道吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 527,
+      "s": 286,
+      "start": 1057.36,
+      "end": 1058.02,
+      "text": "但是如果",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 528,
+      "s": 287,
+      "start": 1058.02,
+      "end": 1061.24,
+      "text": "呃，就如果说是领导敬你酒的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 529,
+      "s": 287,
+      "start": 1061.24,
+      "end": 1062.3,
+      "text": "你是非喝不可的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 530,
+      "s": 288,
+      "start": 1062.3,
+      "end": 1063.28,
+      "text": "你要不喝的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 531,
+      "s": 288,
+      "start": 1063.28,
+      "end": 1065.92,
+      "text": "那领导就会觉得很没面子，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 532,
+      "s": 288,
+      "start": 1065.92,
+      "end": 1067.36,
+      "text": "你不给领导面子。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 533,
+      "s": 289,
+      "start": 1067.66,
+      "end": 1070.34,
+      "text": "所以不管这个你平常喝不喝酒，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 534,
+      "s": 289,
+      "start": 1070.34,
+      "end": 1071.7,
+      "text": "他要敬了你的话，你就",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 535,
+      "s": 290,
+      "start": 1071.7,
+      "end": 1072.3,
+      "text": "得喝。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 536,
+      "s": 291,
+      "start": 1072.65,
+      "end": 1073.97,
+      "text": "喝不下你得得吞。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 537,
+      "s": 292,
+      "start": 1074.2,
+      "end": 1076.84,
+      "text": "就是敬酒的时候，你的顺序也很重要，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 538,
+      "s": 292,
+      "start": 1076.84,
+      "end": 1078.9,
+      "text": "哪些身份珍贵的先敬，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 539,
+      "s": 292,
+      "start": 1078.9,
+      "end": 1082.76,
+      "text": "哪些身份就是。相对差点的往后敬，哇！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 540,
+      "s": 294,
+      "start": 1082.76,
+      "end": 1084.84,
+      "text": "那那万一你敬错了人家的那个职位，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 541,
+      "s": 294,
+      "start": 1084.84,
+      "end": 1086.49,
+      "text": "那不是很尴尬？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 542,
+      "s": 295,
+      "start": 1086.8,
+      "end": 1087.46,
+      "text": "敬错了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 543,
+      "s": 296,
+      "start": 1087.46,
+      "end": 1088.7,
+      "text": "你把人家的位置放低了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 544,
+      "s": 296,
+      "start": 1088.7,
+      "end": 1089.87,
+      "text": "你相当于是贬低人家。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 545,
+      "s": 297,
+      "start": 1090.06,
+      "end": 1090.6,
+      "text": "那可以可不",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 546,
+      "s": 298,
+      "start": 1090.6,
+      "end": 1092.4,
+      "text": "可以就是直接端一杯酒，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 547,
+      "s": 298,
+      "start": 1092.4,
+      "end": 1093.56,
+      "text": "然后敬所有的人来？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 548,
+      "s": 299,
+      "start": 1093.56,
+      "end": 1094.16,
+      "text": "我敬大家",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 549,
+      "s": 300,
+      "start": 1094.16,
+      "end": 1094.56,
+      "text": "一杯。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 550,
+      "s": 301,
+      "start": 1094.56,
+      "end": 1098.24,
+      "text": "不可以，你是什么身份你就敬所有人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 551,
+      "s": 301,
+      "start": 1098.24,
+      "end": 1100.34,
+      "text": "除非你是他们的领导，你才能这样",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 552,
+      "s": 302,
+      "start": 1100.34,
+      "end": 1100.84,
+      "text": "做。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 553,
+      "s": 303,
+      "start": 1101.26,
+      "end": 1103.08,
+      "text": "哎，我之前看到过一个新闻啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 554,
+      "s": 303,
+      "start": 1103.08,
+      "end": 1104.44,
+      "text": "就说当时是在一个",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 555,
+      "s": 303,
+      "start": 1104.44,
+      "end": 1107.16,
+      "text": "比较比较重大的一个场合吧。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 556,
+      "s": 304,
+      "start": 1107.24,
+      "end": 1109.39,
+      "text": "然后其中的一个女明星呢",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 557,
+      "s": 304,
+      "start": 1109.39,
+      "end": 1111.69,
+      "text": "就去敬另外一个歌手",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 558,
+      "s": 304,
+      "start": 1111.69,
+      "end": 1113.61,
+      "text": "因为她的地位比较高一点",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 559,
+      "s": 304,
+      "start": 1113.61,
+      "end": 1114.93,
+      "text": "或者说比较有名气",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 560,
+      "s": 304,
+      "start": 1114.93,
+      "end": 1118.19,
+      "text": "她就说我来敬你一杯酒",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 561,
+      "s": 305,
+      "start": 1118.19,
+      "end": 1120.79,
+      "text": "但是这个人呢他可能不是特别懂",
+      "speaker": "C",
+      "u": 304,
+      "role": "storyteller"
+    },
+    {
+      "i": 562,
+      "s": 305,
+      "start": 1120.79,
+      "end": 1123.73,
+      "text": "北方的这个喝酒的规矩",
+      "speaker": "C",
+      "u": 304,
+      "role": "storyteller"
+    },
+    {
+      "i": 563,
+      "s": 305,
+      "start": 1123.73,
+      "end": 1126.21,
+      "text": "他敬酒了敬完酒之后呢然后",
+      "speaker": "C",
+      "u": 304,
+      "role": "storyteller"
+    },
+    {
+      "i": 564,
+      "s": 306,
+      "start": 1126.21,
+      "end": 1128.01,
+      "text": "那个歌手就说好",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 565,
+      "s": 306,
+      "start": 1128.01,
+      "end": 1130.61,
+      "text": "既然你来敬我酒的话我就先干为敬",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 566,
+      "s": 306,
+      "start": 1130.61,
+      "end": 1132.43,
+      "text": "他就很豪爽的把这个酒给干了",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 567,
+      "s": 306,
+      "start": 1132.7,
+      "end": 1134.98,
+      "text": "结果呢，这个敬酒的这个女明星",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 568,
+      "s": 307,
+      "start": 1134.98,
+      "end": 1137.8,
+      "text": "她没有喝，她就很不高兴了。",
+      "speaker": "C",
+      "u": 306,
+      "role": "storyteller"
+    },
+    {
+      "i": 569,
+      "s": 308,
+      "start": 1137.8,
+      "end": 1139.06,
+      "text": "那个歌手就很不高兴，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 570,
+      "s": 308,
+      "start": 1139.06,
+      "end": 1141.08,
+      "text": "他说：“哎，你这个人有意思啊！",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 571,
+      "s": 309,
+      "start": 1141.08,
+      "end": 1143.48,
+      "text": "你来敬我酒，你自己不干，我干了。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 572,
+      "s": 310,
+      "start": 1143.48,
+      "end": 1145.82,
+      "text": "然后他说：“你今你今天你不干的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 573,
+      "s": 310,
+      "start": 1145.82,
+      "end": 1147.05,
+      "text": "你就是不给我面子。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 574,
+      "s": 311,
+      "start": 1147.22,
+      "end": 1149.36,
+      "text": "结果呢，这个这个女明星没有办法，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 575,
+      "s": 311,
+      "start": 1149.36,
+      "end": 1150.41,
+      "text": "她就喝了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 576,
+      "s": 312,
+      "start": 1150.48,
+      "end": 1153.36,
+      "text": "喝了之后，当场这个脸上就出了疹子。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 577,
+      "s": 313,
+      "start": 1153.5,
+      "end": 1156.1,
+      "text": "他说他他喝酒会会过敏，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 578,
+      "s": 313,
+      "start": 1156.1,
+      "end": 1157.58,
+      "text": "就是身上会起疹子。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 579,
+      "s": 314,
+      "start": 1157.7,
+      "end": 1160.5,
+      "text": "然后这个女歌手后面向他道歉嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 580,
+      "s": 314,
+      "start": 1160.5,
+      "end": 1161.46,
+      "text": "向这个女明星。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 581,
+      "s": 315,
+      "start": 1161.86,
+      "end": 1165.3,
+      "text": "但是还是觉得有点不满",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 582,
+      "s": 315,
+      "start": 1165.3,
+      "end": 1167.12,
+      "text": "说你不能喝为什么还要敬我酒",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 583,
+      "s": 315,
+      "start": 1167.12,
+      "end": 1168.26,
+      "text": "他就觉得莫名其妙",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 584,
+      "s": 315,
+      "start": 1168.26,
+      "end": 1171.3,
+      "text": "然后搞得他自己还要去给他道歉",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 585,
+      "s": 316,
+      "start": 1171.3,
+      "end": 1172.82,
+      "text": "所以这个也是一个",
+      "speaker": "C",
+      "u": 315,
+      "role": "storyteller"
+    },
+    {
+      "i": 586,
+      "s": 316,
+      "start": 1172.82,
+      "end": 1174.12,
+      "text": "因为不懂酒桌规矩",
+      "speaker": "C",
+      "u": 315,
+      "role": "storyteller"
+    },
+    {
+      "i": 587,
+      "s": 316,
+      "start": 1174.12,
+      "end": 1178.32,
+      "text": "而把这个关系闹掰的一个例子吧",
+      "speaker": "C",
+      "u": 315,
+      "role": "storyteller"
+    },
+    {
+      "i": 588,
+      "s": 316,
+      "start": 1178.32,
+      "end": 1178.62,
+      "text": "对你",
+      "speaker": "C",
+      "u": 315,
+      "role": "storyteller"
+    },
+    {
+      "i": 589,
+      "s": 317,
+      "start": 1178.62,
+      "end": 1180.1,
+      "text": "敬之前你可以先讲清楚",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 590,
+      "s": 317,
+      "start": 1180.1,
+      "end": 1181.98,
+      "text": "你说我以茶代酒",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 591,
+      "s": 317,
+      "start": 1181.98,
+      "end": 1184.3,
+      "text": "我进去你也以茶代酒",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 592,
+      "s": 317,
+      "start": 1184.3,
+      "end": 1185.74,
+      "text": "你说我们俩互相碰一下",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 593,
+      "s": 317,
+      "start": 1185.74,
+      "end": 1187.02,
+      "text": "就表示一下敬意",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 594,
+      "s": 318,
+      "start": 1187.02,
+      "end": 1188.52,
+      "text": "但是你上来的时候我敬你一杯",
+      "speaker": "B",
+      "u": 317,
+      "role": "storyteller"
+    },
+    {
+      "i": 595,
+      "s": 318,
+      "start": 1189.07,
+      "end": 1190.88,
+      "text": "那你不喝，你不是少老六吗？",
+      "speaker": "B",
+      "u": 317,
+      "role": "storyteller"
+    },
+    {
+      "i": 596,
+      "s": 319,
+      "start": 1190.89,
+      "end": 1191.58,
+      "text": "是吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 597,
+      "s": 320,
+      "start": 1191.75,
+      "end": 1192.87,
+      "text": "你这不是老六行为吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 598,
+      "s": 321,
+      "start": 1192.87,
+      "end": 1193.14,
+      "text": "是吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 599,
+      "s": 322,
+      "start": 1193.29,
+      "end": 1194.56,
+      "text": "什么是老六行为？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 600,
+      "s": 323,
+      "start": 1195.85,
+      "end": 1197.17,
+      "text": "耍无赖呀！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 601,
+      "s": 324,
+      "start": 1197.17,
+      "end": 1197.72,
+      "text": "就是。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 602,
+      "s": 325,
+      "start": 1198.07,
+      "end": 1199.13,
+      "text": "我感觉一般领导",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 603,
+      "s": 325,
+      "start": 1199.13,
+      "end": 1200.33,
+      "text": "在请客户吃饭的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 604,
+      "s": 325,
+      "start": 1200.33,
+      "end": 1203.66,
+      "text": "都会带两三个能喝的男同事，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 605,
+      "s": 326,
+      "start": 1203.71,
+      "end": 1206.01,
+      "text": "这样子可能就首先一个是不会冷场，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 606,
+      "s": 326,
+      "start": 1206.01,
+      "end": 1208.23,
+      "text": "大家就有话题可以聊，然后也热闹嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 607,
+      "s": 327,
+      "start": 1208.23,
+      "end": 1209.74,
+      "text": "中国人都比较喜欢热闹。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 608,
+      "s": 328,
+      "start": 1209.85,
+      "end": 1212.19,
+      "text": "然后第二个就是领导不会喝的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 609,
+      "s": 328,
+      "start": 1212.19,
+      "end": 1214.97,
+      "text": "这个同事可以帮忙代喝，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 610,
+      "s": 329,
+      "start": 1215.3,
+      "end": 1215.75,
+      "text": "对，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 611,
+      "s": 330,
+      "start": 1215.87,
+      "end": 1218.23,
+      "text": "其实同时你不会喝的情况下，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 612,
+      "s": 330,
+      "start": 1218.37,
+      "end": 1219.41,
+      "text": "也可以去，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 613,
+      "s": 330,
+      "start": 1219.41,
+      "end": 1220.99,
+      "text": "就是打开手机里面的APP，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 614,
+      "s": 331,
+      "start": 1221.63,
+      "end": 1223.52,
+      "text": "然后直接点击下单代喝，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 615,
+      "s": 331,
+      "start": 1223.67,
+      "end": 1224.94,
+      "text": "也可以解决这个问题。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 616,
+      "s": 332,
+      "start": 1225.31,
+      "end": 1225.81,
+      "text": "还有",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 617,
+      "s": 333,
+      "start": 1225.81,
+      "end": 1226.93,
+      "text": "这样子的职业？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 618,
+      "s": 334,
+      "start": 1227.4,
+      "end": 1229.61,
+      "text": "对，啤酒一升一百块，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 619,
+      "s": 334,
+      "start": 1229.61,
+      "end": 1231.33,
+      "text": "然后红酒一升一百五啊。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 620,
+      "s": 335,
+      "start": 1231.33,
+      "end": 1233.1,
+      "text": "但是也有按时间算的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 621,
+      "s": 335,
+      "start": 1233.25,
+      "end": 1235.3,
+      "text": "啤酒的价格可能是一小时一百块钱，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 622,
+      "s": 336,
+      "start": 1235.41,
+      "end": 1236.65,
+      "text": "然后红酒的价格是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 623,
+      "s": 336,
+      "start": 1236.65,
+      "end": 1237.87,
+      "text": "一小时一百五十块钱，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 624,
+      "s": 336,
+      "start": 1237.93,
+      "end": 1240.49,
+      "text": "白酒的价格是一小时两百块钱。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 625,
+      "s": 337,
+      "start": 1240.77,
+      "end": 1243.14,
+      "text": "因为根据酒精度数不一样，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 626,
+      "s": 337,
+      "start": 1243.14,
+      "end": 1243.94,
+      "text": "然后定的价格也不一",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 627,
+      "s": 338,
+      "start": 1243.94,
+      "end": 1244.29,
+      "text": "样。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 628,
+      "s": 339,
+      "start": 1244.4,
+      "end": 1246.8,
+      "text": "哇，那喝两小时那人不喝趴下了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 629,
+      "s": 340,
+      "start": 1246.8,
+      "end": 1249.44,
+      "text": "就之前有过一个事情嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 630,
+      "s": 340,
+      "start": 1249.5,
+      "end": 1252.56,
+      "text": "就是就是陈先生他在他代替客户",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 631,
+      "s": 340,
+      "start": 1252.56,
+      "end": 1255.24,
+      "text": "以亲戚的身份参加一场聚会，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 632,
+      "s": 341,
+      "start": 1255.4,
+      "end": 1259.14,
+      "text": "然后当时对方就是说好了的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 633,
+      "s": 341,
+      "start": 1259.14,
+      "end": 1260.27,
+      "text": "只要不喝醉嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 634,
+      "s": 341,
+      "start": 1260.52,
+      "end": 1262.42,
+      "text": "那么事后就给五百块钱。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 635,
+      "s": 342,
+      "start": 1262.6,
+      "end": 1264.42,
+      "text": "那么最后喝的时候不小心，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 636,
+      "s": 342,
+      "start": 1264.42,
+      "end": 1265.49,
+      "text": "然后说漏了嘴。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 637,
+      "s": 343,
+      "start": 1266.12,
+      "end": 1268.75,
+      "text": "然后大家也就将那个陈先生的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 638,
+      "s": 343,
+      "start": 1268.75,
+      "end": 1270.2,
+      "text": "那个代喝身份给揭穿了嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 639,
+      "s": 344,
+      "start": 1270.41,
+      "end": 1271.43,
+      "text": "然后酒桌上其他人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 640,
+      "s": 344,
+      "start": 1271.43,
+      "end": 1272.98,
+      "text": "就开始疯狂的对他劝酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 641,
+      "s": 344,
+      "start": 1273.31,
+      "end": 1276.79,
+      "text": "那么陈陈先生没办法，呃就酒醉嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 642,
+      "s": 345,
+      "start": 1276.79,
+      "end": 1278.64,
+      "text": "然后导致自己的呃胃病。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 643,
+      "s": 346,
+      "start": 1279.33,
+      "end": 1280.21,
+      "text": "所以所以这",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 644,
+      "s": 347,
+      "start": 1280.21,
+      "end": 1282.25,
+      "text": "这个我感觉这个职业不可行，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 645,
+      "s": 347,
+      "start": 1282.25,
+      "end": 1283.93,
+      "text": "就是你你要天天这样的喝，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 646,
+      "s": 347,
+      "start": 1283.93,
+      "end": 1285.71,
+      "text": "那那是拿自己的生命开玩",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 647,
+      "s": 348,
+      "start": 1285.71,
+      "end": 1286.93,
+      "text": "笑啊！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 648,
+      "s": 349,
+      "start": 1286.93,
+      "end": 1290.05,
+      "text": "对呀，你被发现了代喝，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 649,
+      "s": 349,
+      "start": 1290.09,
+      "end": 1293.56,
+      "text": "那么酒桌上的人会。还会疯狂的灌你，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 650,
+      "s": 350,
+      "start": 1293.56,
+      "end": 1295.53,
+      "text": "疯狂的就让你喝喝的更多，",
+      "speaker": "B",
+      "u": 349,
+      "role": "storyteller"
+    },
+    {
+      "i": 651,
+      "s": 350,
+      "start": 1295.88,
+      "end": 1298.44,
+      "text": "不仅会被喝到医院去，喝伤身体，",
+      "speaker": "B",
+      "u": 349,
+      "role": "storyteller"
+    },
+    {
+      "i": 652,
+      "s": 351,
+      "start": 1298.44,
+      "end": 1299.48,
+      "text": "而且还拿不到这个奖，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 653,
+      "s": 351,
+      "start": 1299.48,
+      "end": 1300.47,
+      "text": "呃，拿不到这个钱。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 654,
+      "s": 352,
+      "start": 1301.01,
+      "end": 1301.8,
+      "text": "嗯，哎，不",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 655,
+      "s": 353,
+      "start": 1301.8,
+      "end": 1303.24,
+      "text": "过这个其实其实喝酒",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 656,
+      "s": 353,
+      "start": 1303.24,
+      "end": 1304.46,
+      "text": "也也是很危险的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 657,
+      "s": 354,
+      "start": 1304.46,
+      "end": 1305.52,
+      "text": "就是我听说，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 658,
+      "s": 354,
+      "start": 1305.58,
+      "end": 1308.32,
+      "text": "如果说酒桌上有一个人喝醉了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 659,
+      "s": 354,
+      "start": 1308.35,
+      "end": 1310.84,
+      "text": "然后回家的路上出现了什么事故，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 660,
+      "s": 355,
+      "start": 1310.84,
+      "end": 1312.68,
+      "text": "或者是因为喝醉了喝酒",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 661,
+      "s": 355,
+      "start": 1312.68,
+      "end": 1315.16,
+      "text": "而导致了嗯什么什么",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 662,
+      "s": 355,
+      "start": 1315.16,
+      "end": 1317.24,
+      "text": "人人身的安全问题啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 663,
+      "s": 355,
+      "start": 1317.24,
+      "end": 1318.96,
+      "text": "这个。同行的人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 664,
+      "s": 356,
+      "start": 1318.96,
+      "end": 1320.7,
+      "text": "就是在酒桌上的其他的人",
+      "speaker": "C",
+      "u": 355,
+      "role": "storyteller"
+    },
+    {
+      "i": 665,
+      "s": 356,
+      "start": 1320.7,
+      "end": 1324.02,
+      "text": "是有责任保护这个人安全到家的。",
+      "speaker": "C",
+      "u": 355,
+      "role": "storyteller"
+    },
+    {
+      "i": 666,
+      "s": 357,
+      "start": 1324.02,
+      "end": 1325.6,
+      "text": "如果说这个人没有安全到家，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 667,
+      "s": 357,
+      "start": 1325.6,
+      "end": 1327.08,
+      "text": "其他的人是要赔偿的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 668,
+      "s": 358,
+      "start": 1327.6,
+      "end": 1327.94,
+      "text": "是有",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 669,
+      "s": 359,
+      "start": 1327.94,
+      "end": 1331.22,
+      "text": "这个法律，就是我们喝酒",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 670,
+      "s": 359,
+      "start": 1331.22,
+      "end": 1335.38,
+      "text": "会有义务去送别人回家，去保障他人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 671,
+      "s": 360,
+      "start": 1335.38,
+      "end": 1336.18,
+      "text": "的安全。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 672,
+      "s": 361,
+      "start": 1336.46,
+      "end": 1338.28,
+      "text": "其实我我有一个朋友，他告诉我嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 673,
+      "s": 362,
+      "start": 1338.28,
+      "end": 1342,
+      "text": "他的一个男同事跟供应商啊",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 674,
+      "s": 362,
+      "start": 1342,
+      "end": 1344.46,
+      "text": "还有一些同事一起去吃饭喝酒，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 675,
+      "s": 362,
+      "start": 1344.46,
+      "end": 1346.68,
+      "text": "然后结果这个。这个同事呢，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 676,
+      "s": 363,
+      "start": 1346.82,
+      "end": 1348.81,
+      "text": "啊就喝醉了，然后喝醉了，",
+      "speaker": "C",
+      "u": 362,
+      "role": "storyteller"
+    },
+    {
+      "i": 677,
+      "s": 363,
+      "start": 1348.81,
+      "end": 1351.49,
+      "text": "他一个人在路上就就摔倒了，",
+      "speaker": "C",
+      "u": 362,
+      "role": "storyteller"
+    },
+    {
+      "i": 678,
+      "s": 363,
+      "start": 1351.49,
+      "end": 1352.5,
+      "text": "摔到一个沟里去了，",
+      "speaker": "C",
+      "u": 362,
+      "role": "storyteller"
+    },
+    {
+      "i": 679,
+      "s": 364,
+      "start": 1352.91,
+      "end": 1355.11,
+      "text": "然后可能就睡过去了吧。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 680,
+      "s": 365,
+      "start": 1355.83,
+      "end": 1357.69,
+      "text": "嗯，不过因为北方冬天比较冷嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 681,
+      "s": 365,
+      "start": 1357.69,
+      "end": 1359.71,
+      "text": "如果他真的在那里躺了一夜的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 682,
+      "s": 366,
+      "start": 1359.71,
+      "end": 1362.77,
+      "text": "可能就可能就就会有生命危险。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 683,
+      "s": 367,
+      "start": 1362.77,
+      "end": 1364.41,
+      "text": "不过好在呢，他当时",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 684,
+      "s": 367,
+      "start": 1364.41,
+      "end": 1366.67,
+      "text": "那个掉的那个沟啊离医院比较近，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 685,
+      "s": 367,
+      "start": 1366.67,
+      "end": 1368.77,
+      "text": "被护士发现了，被救出来了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 686,
+      "s": 368,
+      "start": 1368.77,
+      "end": 1371.65,
+      "text": "才没有啊才没有说有有生命危险。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 687,
+      "s": 369,
+      "start": 1371.65,
+      "end": 1373.73,
+      "text": "然后其他的这些酒桌上的人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 688,
+      "s": 369,
+      "start": 1373.73,
+      "end": 1375.93,
+      "text": "听到这个消息哇都吓得吓得。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 689,
+      "s": 370,
+      "start": 1375.97,
+      "end": 1378.37,
+      "text": "吓得半死，都跑到医院来，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 690,
+      "s": 370,
+      "start": 1378.37,
+      "end": 1379.66,
+      "text": "就是很担心他出了什么问题。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 691,
+      "s": 371,
+      "start": 1380.69,
+      "end": 1380.77,
+      "text": "因为",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 692,
+      "s": 372,
+      "start": 1380.77,
+      "end": 1383.79,
+      "text": "你是跟他们在一起喝酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 693,
+      "s": 372,
+      "start": 1383.79,
+      "end": 1385.98,
+      "text": "如果你是清醒的，你应该送他回家的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 694,
+      "s": 373,
+      "start": 1386.11,
+      "end": 1386.71,
+      "text": "我我看了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 695,
+      "s": 374,
+      "start": 1386.71,
+      "end": 1388.51,
+      "text": "我看了这个法律，我觉得挺有意思的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 696,
+      "s": 375,
+      "start": 1388.51,
+      "end": 1390.97,
+      "text": "它有一条说是同在酒桌上的人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 697,
+      "s": 375,
+      "start": 1390.97,
+      "end": 1394.55,
+      "text": "是有劝对方不喝酒的这个责任的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 698,
+      "s": 376,
+      "start": 1394.55,
+      "end": 1397.85,
+      "text": "如果你劝了，然后这个人他还继续喝，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 699,
+      "s": 376,
+      "start": 1397.85,
+      "end": 1400.33,
+      "text": "最后喝醉了，然后出了问题，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 700,
+      "s": 376,
+      "start": 1400.43,
+      "end": 1401.81,
+      "text": "你劝了的人不负责了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 701,
+      "s": 377,
+      "start": 1401.81,
+      "end": 1402.83,
+      "text": "就不用负责任。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 702,
+      "s": 378,
+      "start": 1402.95,
+      "end": 1405.63,
+      "text": "但是你如果说真的出了事情，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 703,
+      "s": 378,
+      "start": 1405.63,
+      "end": 1407.17,
+      "text": "你怎么证明你你劝了还是",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 704,
+      "s": 379,
+      "start": 1407.17,
+      "end": 1408.13,
+      "text": "没劝呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 705,
+      "s": 380,
+      "start": 1408.45,
+      "end": 1410.05,
+      "text": "你看的有一张",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 706,
+      "s": 380,
+      "start": 1410.05,
+      "end": 1412.93,
+      "text": "那个喝酒前会签那个协议嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 707,
+      "s": 380,
+      "start": 1412.93,
+      "end": 1415.28,
+      "text": "就说呃我们喝酒出了事情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 708,
+      "s": 380,
+      "start": 1415.55,
+      "end": 1418.07,
+      "text": "呃概不负责，然后互相没有责任，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 709,
+      "s": 381,
+      "start": 1418.07,
+      "end": 1419.33,
+      "text": "然后大家一起按手印",
+      "speaker": "B",
+      "u": 380,
+      "role": "storyteller"
+    },
+    {
+      "i": 710,
+      "s": 381,
+      "start": 1419.33,
+      "end": 1420.27,
+      "text": "这种的，你看到过",
+      "speaker": "B",
+      "u": 380,
+      "role": "storyteller"
+    },
+    {
+      "i": 711,
+      "s": 382,
+      "start": 1420.27,
+      "end": 1420.72,
+      "text": "吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 712,
+      "s": 383,
+      "start": 1421.07,
+      "end": 1422.99,
+      "text": "我我刚好在看这个法律的时候",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 713,
+      "s": 383,
+      "start": 1422.99,
+      "end": 1426.93,
+      "text": "就看到过有一条说什么责免责书吧，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 714,
+      "s": 383,
+      "start": 1426.93,
+      "end": 1428.45,
+      "text": "哎我自愿去喝酒。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 715,
+      "s": 384,
+      "start": 1428.58,
+      "end": 1430.86,
+      "text": "那如果说出了什么问题的话呢，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 716,
+      "s": 384,
+      "start": 1430.86,
+      "end": 1433.38,
+      "text": "就跟呃跟这个组织者",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 717,
+      "s": 384,
+      "start": 1433.38,
+      "end": 1435.94,
+      "text": "还有嗯一起喝酒的人没有什么关系。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 718,
+      "s": 385,
+      "start": 1435.94,
+      "end": 1438.46,
+      "text": "但是如果说真的出了事情，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 719,
+      "s": 385,
+      "start": 1438.58,
+      "end": 1440.06,
+      "text": "嗯，他们还是有责任的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 720,
+      "s": 386,
+      "start": 1440.56,
+      "end": 1442.08,
+      "text": "嗯，对。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 721,
+      "s": 387,
+      "start": 1442.08,
+      "end": 1443.84,
+      "text": "还有一个我最最最讨厌的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 722,
+      "s": 387,
+      "start": 1443.84,
+      "end": 1445.13,
+      "text": "就是劝酒文化，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 723,
+      "s": 387,
+      "start": 1445.28,
+      "end": 1447.86,
+      "text": "感觉中国人老老喜欢让就是让你喝，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 724,
+      "s": 388,
+      "start": 1447.86,
+      "end": 1449.18,
+      "text": "就是感觉到如果说",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 725,
+      "s": 388,
+      "start": 1449.18,
+      "end": 1450.62,
+      "text": "我让你喝的多的话，我就很有",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 726,
+      "s": 389,
+      "start": 1450.62,
+      "end": 1453.9,
+      "text": "面子，彰显他的一个地位跟权力嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 727,
+      "s": 390,
+      "start": 1454.12,
+      "end": 1456.49,
+      "text": "然后通常都是地位比较高的人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 728,
+      "s": 390,
+      "start": 1456.49,
+      "end": 1458.36,
+      "text": "让地位比较低的人喝酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 729,
+      "s": 390,
+      "start": 1458.55,
+      "end": 1461,
+      "text": "对于劝酒啊有各种招数，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 730,
+      "s": 391,
+      "start": 1461.43,
+      "end": 1464.61,
+      "text": "像生意场上你把这杯白的给干了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 731,
+      "s": 391,
+      "start": 1464.69,
+      "end": 1466.14,
+      "text": "这个合同我就给你签了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 732,
+      "s": 392,
+      "start": 1466.45,
+      "end": 1470.15,
+      "text": "然后还有你不喝那可不够朋友啊！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 733,
+      "s": 393,
+      "start": 1470.15,
+      "end": 1470.83,
+      "text": "我感觉听",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 734,
+      "s": 394,
+      "start": 1470.83,
+      "end": 1472.03,
+      "text": "的最多的就是感情",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 735,
+      "s": 395,
+      "start": 1472.03,
+      "end": 1475,
+      "text": "深一口闷，哎感情浅舔一舔嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 736,
+      "s": 396,
+      "start": 1475.27,
+      "end": 1477.35,
+      "text": "然后什么酒逢知己千杯少啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 737,
+      "s": 396,
+      "start": 1477.35,
+      "end": 1479.11,
+      "text": "再喝一杯好不好啊？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 738,
+      "s": 397,
+      "start": 1479.29,
+      "end": 1479.61,
+      "text": "还有",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 739,
+      "s": 398,
+      "start": 1479.61,
+      "end": 1482.31,
+      "text": "什么男人不喝酒啊是交不到好朋友。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 740,
+      "s": 399,
+      "start": 1483.07,
+      "end": 1485.56,
+      "text": "呃，你不喝我不喝，中国好酒哪里搁？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 741,
+      "s": 400,
+      "start": 1485.91,
+      "end": 1488.09,
+      "text": "你不醉我不醉，马路牙子谁来睡？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 742,
+      "s": 401,
+      "start": 1488.75,
+      "end": 1490.53,
+      "text": "就是我之前有看过一个新闻，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 743,
+      "s": 401,
+      "start": 1490.65,
+      "end": 1493.93,
+      "text": "就是一个领导强迫他的司机去喝酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 744,
+      "s": 401,
+      "start": 1493.93,
+      "end": 1495.05,
+      "text": "然后司机是拒绝的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 745,
+      "s": 402,
+      "start": 1495.05,
+      "end": 1495.6,
+      "text": "因为他明白，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 746,
+      "s": 402,
+      "start": 1495.81,
+      "end": 1497.53,
+      "text": "呃，开车不喝酒，喝酒不开车。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 747,
+      "s": 403,
+      "start": 1497.75,
+      "end": 1500.23,
+      "text": "但是领导差点因为这个事情动了手，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 748,
+      "s": 403,
+      "start": 1500.23,
+      "end": 1502.95,
+      "text": "然后没办法就喝了，然后开车回去嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 749,
+      "s": 404,
+      "start": 1502.95,
+      "end": 1504.32,
+      "text": "然后这个时候出了车祸，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 750,
+      "s": 404,
+      "start": 1504.47,
+      "end": 1506.63,
+      "text": "领导因为因为这个车祸",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 751,
+      "s": 404,
+      "start": 1506.63,
+      "end": 1508.27,
+      "text": "飞出去了挂了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 752,
+      "s": 404,
+      "start": 1508.37,
+      "end": 1512.76,
+      "text": "就司机。呃，被领导的家人告上法庭，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 753,
+      "s": 405,
+      "start": 1512.95,
+      "end": 1517.22,
+      "text": "但是司机以被强迫喝酒为辩护，",
+      "speaker": "B",
+      "u": 404,
+      "role": "storyteller"
+    },
+    {
+      "i": 754,
+      "s": 405,
+      "start": 1517.37,
+      "end": 1520.44,
+      "text": "然后有证据，最后没有赔领导一分钱。",
+      "speaker": "B",
+      "u": 404,
+      "role": "storyteller"
+    },
+    {
+      "i": 755,
+      "s": 407,
+      "start": 1520.5,
+      "end": 1523,
+      "text": "这个也在讲一个问题，就是说",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 756,
+      "s": 407,
+      "start": 1523,
+      "end": 1525.28,
+      "text": "你不要去劝酒，不要去过分的劝酒。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 757,
+      "s": 408,
+      "start": 1525.28,
+      "end": 1526.82,
+      "text": "其实真正的出了问题，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 758,
+      "s": 408,
+      "start": 1526.82,
+      "end": 1528.28,
+      "text": "还是你自己去承担这个责",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 759,
+      "s": 409,
+      "start": 1528.28,
+      "end": 1528.54,
+      "text": "任。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 760,
+      "s": 410,
+      "start": 1528.54,
+      "end": 1529.66,
+      "text": "他之所以这么规定，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 761,
+      "s": 410,
+      "start": 1529.66,
+      "end": 1531.83,
+      "text": "肯定是因为这个现象就很普遍。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 762,
+      "s": 411,
+      "start": 1532.06,
+      "end": 1534.5,
+      "text": "对，是因为没有出这个规定前，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 763,
+      "s": 411,
+      "start": 1534.5,
+      "end": 1535.96,
+      "text": "中国这种现象特别多，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 764,
+      "s": 411,
+      "start": 1535.96,
+      "end": 1537.67,
+      "text": "所以说。慢慢的，慢慢的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 765,
+      "s": 412,
+      "start": 1537.67,
+      "end": 1539.43,
+      "text": "这个规定也就慢慢的落实下来了。",
+      "speaker": "B",
+      "u": 411,
+      "role": "storyteller"
+    },
+    {
+      "i": 766,
+      "s": 413,
+      "start": 1539.5,
+      "end": 1540.09,
+      "text": "但现在",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 767,
+      "s": 414,
+      "start": 1540.09,
+      "end": 1541.37,
+      "text": "还是有人会劝的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 768,
+      "s": 414,
+      "start": 1541.37,
+      "end": 1543.11,
+      "text": "就是有可能有一部分人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 769,
+      "s": 414,
+      "start": 1543.11,
+      "end": 1544.23,
+      "text": "是不知道这一条法律。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 770,
+      "s": 415,
+      "start": 1544.23,
+      "end": 1544.85,
+      "text": "其实我之前",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 771,
+      "s": 416,
+      "start": 1544.85,
+      "end": 1547.73,
+      "text": "也不知道的，就跟酒驾一样的嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 772,
+      "s": 417,
+      "start": 1547.83,
+      "end": 1550.51,
+      "text": "你之前都知道，哎呀，喝酒有啥的？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 773,
+      "s": 418,
+      "start": 1551.09,
+      "end": 1552.37,
+      "text": "到现在都都知道，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 774,
+      "s": 418,
+      "start": 1552.71,
+      "end": 1554.21,
+      "text": "就是去别人家吃饭或啥的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 775,
+      "s": 419,
+      "start": 1554.21,
+      "end": 1555.39,
+      "text": "人家家里面的亲戚",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 776,
+      "s": 419,
+      "start": 1555.39,
+      "end": 1558.23,
+      "text": "或者是一些呃一些大人们都会讲，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 777,
+      "s": 419,
+      "start": 1558.55,
+      "end": 1561.6,
+      "text": "哎，不要喝酒，喝了酒就不要开车，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 778,
+      "s": 420,
+      "start": 1561.91,
+      "end": 1562.83,
+      "text": "都会讲这句话。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 779,
+      "s": 421,
+      "start": 1562.96,
+      "end": 1564.5,
+      "text": "这个也是因为，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 780,
+      "s": 421,
+      "start": 1564.5,
+      "end": 1566.32,
+      "text": "大家传的多了，听得多了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 781,
+      "s": 421,
+      "start": 1566.32,
+      "end": 1567.28,
+      "text": "也就知道了这个法",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 782,
+      "s": 422,
+      "start": 1567.28,
+      "end": 1567.78,
+      "text": "律。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 783,
+      "s": 423,
+      "start": 1568.13,
+      "end": 1569.54,
+      "text": "但是很多人喝醉了之后，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 784,
+      "s": 423,
+      "start": 1569.54,
+      "end": 1572.34,
+      "text": "他肯定也啊就不会去想这条法律吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 785,
+      "s": 424,
+      "start": 1572.34,
+      "end": 1573.68,
+      "text": "可能该劝的还是劝。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 786,
+      "s": 425,
+      "start": 1574.54,
+      "end": 1577.74,
+      "text": "嗯，所以还是得想办法去躲这个酒，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 787,
+      "s": 425,
+      "start": 1577.74,
+      "end": 1579.66,
+      "text": "就是躲酒也是有一门艺术的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 788,
+      "s": 425,
+      "start": 1579.66,
+      "end": 1581.25,
+      "text": "看你会不会说话了就。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 789,
+      "s": 426,
+      "start": 1581.29,
+      "end": 1582.8,
+      "text": "我觉得开车是一个好理由，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 790,
+      "s": 426,
+      "start": 1582.8,
+      "end": 1585.03,
+      "text": "就像你刚刚说的，喝酒不开车嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 791,
+      "s": 427,
+      "start": 1585.12,
+      "end": 1585.64,
+      "text": "现在大家",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 792,
+      "s": 428,
+      "start": 1585.64,
+      "end": 1587.73,
+      "text": "会讲不要紧，他说我帮你叫代驾。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 793,
+      "s": 429,
+      "start": 1588.16,
+      "end": 1588.61,
+      "text": "哦。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 794,
+      "s": 430,
+      "start": 1588.85,
+      "end": 1592.35,
+      "text": "好吧，呃，用一些感冒或者备孕",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 795,
+      "s": 430,
+      "start": 1592.35,
+      "end": 1593.81,
+      "text": "这些词会好一点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 796,
+      "s": 431,
+      "start": 1593.97,
+      "end": 1594.89,
+      "text": "因为大家都知道",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 797,
+      "s": 431,
+      "start": 1594.89,
+      "end": 1596.87,
+      "text": "备孕的时候是不能去喝酒的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 798,
+      "s": 431,
+      "start": 1596.87,
+      "end": 1598.56,
+      "text": "因为会影响一个宝宝发育嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 799,
+      "s": 432,
+      "start": 1598.73,
+      "end": 1599.25,
+      "text": "那也不能",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 800,
+      "s": 433,
+      "start": 1599.25,
+      "end": 1600.45,
+      "text": "总总是用这个理由",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 801,
+      "s": 434,
+      "start": 1600.45,
+      "end": 1600.95,
+      "text": "啊。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 802,
+      "s": 435,
+      "start": 1601.45,
+      "end": 1603.45,
+      "text": "那么如果是你实在不想喝，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 803,
+      "s": 435,
+      "start": 1603.45,
+      "end": 1605.26,
+      "text": "你用感冒这个词也是可以的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 804,
+      "s": 436,
+      "start": 1605.31,
+      "end": 1607.15,
+      "text": "你说你感冒吃了头孢，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 805,
+      "s": 436,
+      "start": 1607.15,
+      "end": 1610.01,
+      "text": "那谁谁没没事找事啊？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 806,
+      "s": 437,
+      "start": 1610.13,
+      "end": 1611.21,
+      "text": "把把你喝到医院去了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 807,
+      "s": 437,
+      "start": 1611.21,
+      "end": 1612.43,
+      "text": "那自己还得负责任了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 808,
+      "s": 438,
+      "start": 1612.89,
+      "end": 1613.89,
+      "text": "人家都说了，对吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 809,
+      "s": 439,
+      "start": 1613.89,
+      "end": 1614.63,
+      "text": "头孢配酒。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 810,
+      "s": 440,
+      "start": 1614.77,
+      "end": 1617.72,
+      "text": "阎王那里走一走，这么严重的吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 811,
+      "s": 441,
+      "start": 1618.11,
+      "end": 1619.67,
+      "text": "呃，头孢配酒是好严重，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 812,
+      "s": 441,
+      "start": 1619.67,
+      "end": 1620.77,
+      "text": "就这个会有化学反应",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 813,
+      "s": 442,
+      "start": 1620.77,
+      "end": 1621.35,
+      "text": "的嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 814,
+      "s": 443,
+      "start": 1622.12,
+      "end": 1624.57,
+      "text": "哦，我感觉北方跟南方喝酒的文化",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 815,
+      "s": 443,
+      "start": 1624.57,
+      "end": 1626.1,
+      "text": "是有一点点不一样的，对不对？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 816,
+      "s": 444,
+      "start": 1626.41,
+      "end": 1630.43,
+      "text": "对北方人其实更能喝酒，更会喝酒；",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 817,
+      "s": 444,
+      "start": 1630.43,
+      "end": 1632.93,
+      "text": "南方人可能就是什么喜欢喝，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 818,
+      "s": 445,
+      "start": 1632.93,
+      "end": 1633.54,
+      "text": "喝不多。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 819,
+      "s": 446,
+      "start": 1633.85,
+      "end": 1635.73,
+      "text": "对啊，像郭云都会喝酒，你知道吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 820,
+      "s": 447,
+      "start": 1635.87,
+      "end": 1636.19,
+      "text": "对，我",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 821,
+      "s": 448,
+      "start": 1636.19,
+      "end": 1637.03,
+      "text": "看得出来啊！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 822,
+      "s": 449,
+      "start": 1637.03,
+      "end": 1638.83,
+      "text": "你看得出来呀？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 823,
+      "s": 450,
+      "start": 1639.53,
+      "end": 1640.21,
+      "text": "看得出来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 824,
+      "s": 450,
+      "start": 1640.21,
+      "end": 1642.33,
+      "text": "感觉他小脸那个红红的那个样子，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 825,
+      "s": 450,
+      "start": 1642.33,
+      "end": 1643.13,
+      "text": "好像会喝酒的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 826,
+      "s": 451,
+      "start": 1643.13,
+      "end": 1643.49,
+      "text": "样子。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 827,
+      "s": 452,
+      "start": 1643.54,
+      "end": 1644.82,
+      "text": "哎，会喝，在会喝里",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 828,
+      "s": 452,
+      "start": 1644.82,
+      "end": 1646.15,
+      "text": "有一次他喝了一点点，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 829,
+      "s": 452,
+      "start": 1646.21,
+      "end": 1648.36,
+      "text": "然后也没有醉，就是微醺的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 830,
+      "s": 453,
+      "start": 1648.58,
+      "end": 1649.86,
+      "text": "然后他说话就特别搞笑，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 831,
+      "s": 453,
+      "start": 1649.86,
+      "end": 1652.2,
+      "text": "本来东北人说话就就挺幽默的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 832,
+      "s": 453,
+      "start": 1652.2,
+      "end": 1654.04,
+      "text": "然后他喝了点小酒之后就更幽",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 833,
+      "s": 454,
+      "start": 1654.04,
+      "end": 1654.51,
+      "text": "默了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 834,
+      "s": 455,
+      "start": 1655.12,
+      "end": 1657.14,
+      "text": "我记得之前他有讲过嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 835,
+      "s": 455,
+      "start": 1657.14,
+      "end": 1659,
+      "text": "他说喝完酒他才能放得开的那种",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 836,
+      "s": 456,
+      "start": 1659,
+      "end": 1659.51,
+      "text": "状态。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 837,
+      "s": 457,
+      "start": 1660.12,
+      "end": 1661.5,
+      "text": "嗯，对，所以我感觉",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 838,
+      "s": 457,
+      "start": 1661.5,
+      "end": 1663.42,
+      "text": "整体来说北方人是比南方人会",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 839,
+      "s": 458,
+      "start": 1663.42,
+      "end": 1664,
+      "text": "喝的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 840,
+      "s": 459,
+      "start": 1664.42,
+      "end": 1665.68,
+      "text": "对，还有一个就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 841,
+      "s": 459,
+      "start": 1665.68,
+      "end": 1669.72,
+      "text": "我们在南方可能先喝酒再吃饭。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 842,
+      "s": 460,
+      "start": 1669.79,
+      "end": 1673.23,
+      "text": "那么北方人是先吃饭再喝酒",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 843,
+      "s": 460,
+      "start": 1673.23,
+      "end": 1673.83,
+      "text": "吃饱了饭",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 844,
+      "s": 461,
+      "start": 1673.83,
+      "end": 1675.67,
+      "text": "你还喝得下去吗对",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 845,
+      "s": 462,
+      "start": 1675.67,
+      "end": 1676.59,
+      "text": "这就是我们南方人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 846,
+      "s": 462,
+      "start": 1676.59,
+      "end": 1678.71,
+      "text": "跟他们的那个想法不一样的嘛",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 847,
+      "s": 462,
+      "start": 1678.71,
+      "end": 1679.49,
+      "text": "我们南方人觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 848,
+      "s": 462,
+      "start": 1679.56,
+      "end": 1681.45,
+      "text": "你吃饱了饭就不能喝了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 849,
+      "s": 462,
+      "start": 1681.45,
+      "end": 1683.03,
+      "text": "你再喝就喝不下去了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 850,
+      "s": 463,
+      "start": 1683.03,
+      "end": 1684.83,
+      "text": "所以说在我们南方",
+      "speaker": "B",
+      "u": 462,
+      "role": "storyteller"
+    },
+    {
+      "i": 851,
+      "s": 463,
+      "start": 1684.83,
+      "end": 1686.85,
+      "text": "如果你喝不下了酒",
+      "speaker": "B",
+      "u": 462,
+      "role": "storyteller"
+    },
+    {
+      "i": 852,
+      "s": 463,
+      "start": 1686.85,
+      "end": 1688.11,
+      "text": "那么这个时候你只要",
+      "speaker": "B",
+      "u": 462,
+      "role": "storyteller"
+    },
+    {
+      "i": 853,
+      "s": 463,
+      "start": 1688.11,
+      "end": 1690.99,
+      "text": "默默地去拿你的碗筷去打一碗饭吃",
+      "speaker": "B",
+      "u": 462,
+      "role": "storyteller"
+    },
+    {
+      "i": 854,
+      "s": 464,
+      "start": 1690.99,
+      "end": 1693.17,
+      "text": "人家就再也不会劝你喝酒了我",
+      "speaker": "B",
+      "u": 462,
+      "role": "storyteller"
+    },
+    {
+      "i": 855,
+      "s": 465,
+      "start": 1693.17,
+      "end": 1694.49,
+      "text": "感觉南方人就是胃比较小",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 856,
+      "s": 465,
+      "start": 1694.49,
+      "end": 1696.65,
+      "text": "个子也小是吧就你喝不了那么多",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 857,
+      "s": 465,
+      "start": 1696.65,
+      "end": 1697.79,
+      "text": "你的体格就在那",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 858,
+      "s": 466,
+      "start": 1698.28,
+      "end": 1701.06,
+      "text": "对北方能把人给喝的桌子底下去的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 859,
+      "s": 466,
+      "start": 1701.63,
+      "end": 1705.09,
+      "text": "就之前呃有参加过一个婚宴嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 860,
+      "s": 466,
+      "start": 1705.09,
+      "end": 1708.02,
+      "text": "那个女主人是北方人嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 861,
+      "s": 467,
+      "start": 1708.33,
+      "end": 1710.31,
+      "text": "她可以跟我们一些南方的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 862,
+      "s": 467,
+      "start": 1710.31,
+      "end": 1711.98,
+      "text": "一些男孩子一起喝，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 863,
+      "s": 467,
+      "start": 1712.13,
+      "end": 1713.67,
+      "text": "一个一个的喝，跟你喝白的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 864,
+      "s": 467,
+      "start": 1713.67,
+      "end": 1714.77,
+      "text": "她喝多少你喝多少。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 865,
+      "s": 468,
+      "start": 1715.12,
+      "end": 1715.59,
+      "text": "感觉",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 866,
+      "s": 469,
+      "start": 1715.59,
+      "end": 1717.65,
+      "text": "南方的女孩子不太喝酒，喝酒的比较",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 867,
+      "s": 470,
+      "start": 1717.65,
+      "end": 1718,
+      "text": "少。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 868,
+      "s": 471,
+      "start": 1718.39,
+      "end": 1720.01,
+      "text": "对，南方好多喝了一点点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 869,
+      "s": 471,
+      "start": 1720.01,
+      "end": 1721.25,
+      "text": "可能喝果酒或者是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 870,
+      "s": 471,
+      "start": 1721.25,
+      "end": 1723.79,
+      "text": "喝一些呃什么葡萄酒这种酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 871,
+      "s": 471,
+      "start": 1723.79,
+      "end": 1725.76,
+      "text": "他可能就有点。醉了就醉",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 872,
+      "s": 473,
+      "start": 1725.76,
+      "end": 1726.39,
+      "text": "酒了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 873,
+      "s": 474,
+      "start": 1726.72,
+      "end": 1727.7,
+      "text": "这个酒文化，我感觉",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 874,
+      "s": 474,
+      "start": 1727.7,
+      "end": 1731.8,
+      "text": "在亚洲国家都比较呃比较普遍啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 875,
+      "s": 474,
+      "start": 1731.8,
+      "end": 1734.5,
+      "text": "就像在日本跟韩国、东亚这几个",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 876,
+      "s": 475,
+      "start": 1734.5,
+      "end": 1736.28,
+      "text": "国家嘛，都喜欢喝酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 877,
+      "s": 475,
+      "start": 1736.28,
+      "end": 1738.66,
+      "text": "也也有各自的一个白酒文化。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 878,
+      "s": 476,
+      "start": 1738.66,
+      "end": 1741.22,
+      "text": "韩国人他喝酒其实跟日本人也像，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 879,
+      "s": 476,
+      "start": 1741.22,
+      "end": 1742.96,
+      "text": "他们比较喜欢多场的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 880,
+      "s": 476,
+      "start": 1743.14,
+      "end": 1744.56,
+      "text": "也是前面小酌一杯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 881,
+      "s": 477,
+      "start": 1744.56,
+      "end": 1746.24,
+      "text": "然后换个地方再去喝点酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 882,
+      "s": 477,
+      "start": 1746.36,
+      "end": 1747.74,
+      "text": "然后最后的可能到KTV",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 883,
+      "s": 477,
+      "start": 1747.74,
+      "end": 1749.22,
+      "text": "一边K歌一边喝酒，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 884,
+      "s": 477,
+      "start": 1749.22,
+      "end": 1751.05,
+      "text": "然后最后可能到凌晨的时候。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 885,
+      "s": 478,
+      "start": 1751.24,
+      "end": 1753.4,
+      "text": "到了三三点多钟再去喝个醒酒汤，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 886,
+      "s": 478,
+      "start": 1753.93,
+      "end": 1755.53,
+      "text": "他们可能就是下了班一直喝",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 887,
+      "s": 478,
+      "start": 1755.53,
+      "end": 1757.96,
+      "text": "喝到喝到凌晨三四点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 888,
+      "s": 479,
+      "start": 1758.77,
+      "end": 1760.81,
+      "text": "然后再回家换个衣服",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 889,
+      "s": 479,
+      "start": 1760.81,
+      "end": 1762.83,
+      "text": "随便休息一两个小时再去上班。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 890,
+      "s": 480,
+      "start": 1763.37,
+      "end": 1764.03,
+      "text": "哎，日本人也是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 891,
+      "s": 481,
+      "start": 1764.03,
+      "end": 1764.25,
+      "text": "吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 892,
+      "s": 482,
+      "start": 1764.25,
+      "end": 1766.59,
+      "text": "好像也听说也是说喝到凌晨，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 893,
+      "s": 482,
+      "start": 1766.59,
+      "end": 1768.51,
+      "text": "然后第二天直接又去上班了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 894,
+      "s": 483,
+      "start": 1768.71,
+      "end": 1769.95,
+      "text": "对他随便找个地方住",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 895,
+      "s": 483,
+      "start": 1769.95,
+      "end": 1771.31,
+      "text": "就直接去上班了嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 896,
+      "s": 484,
+      "start": 1771.31,
+      "end": 1772.77,
+      "text": "然后韩国人喝酒",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 897,
+      "s": 484,
+      "start": 1772.77,
+      "end": 1775.02,
+      "text": "还有一些就什么呃一些规矩嘛。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 898,
+      "s": 485,
+      "start": 1775.19,
+      "end": 1776.71,
+      "text": "你第一个给别人倒酒的时候",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 899,
+      "s": 485,
+      "start": 1776.71,
+      "end": 1777.81,
+      "text": "也要两只手。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 900,
+      "s": 486,
+      "start": 1778.03,
+      "end": 1778.98,
+      "text": "然后接酒的时候",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 901,
+      "s": 486,
+      "start": 1778.98,
+      "end": 1781.83,
+      "text": "也同样同时是两只手去去扶杯子嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 902,
+      "s": 486,
+      "start": 1781.9,
+      "end": 1783.56,
+      "text": "这个跟中国有点像嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 903,
+      "s": 486,
+      "start": 1783.56,
+      "end": 1784.65,
+      "text": "就表示一个珍重。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 904,
+      "s": 487,
+      "start": 1784.84,
+      "end": 1786.67,
+      "text": "然后还有喝酒的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 905,
+      "s": 487,
+      "start": 1786.7,
+      "end": 1789.24,
+      "text": "你就是你在跟别人喝酒对喝的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 906,
+      "s": 487,
+      "start": 1789.34,
+      "end": 1790.84,
+      "text": "你不能去就是正对着别人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 907,
+      "s": 488,
+      "start": 1790.84,
+      "end": 1792.38,
+      "text": "你要把你的脸侧过来，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 908,
+      "s": 488,
+      "start": 1792.38,
+      "end": 1795.46,
+      "text": "就是侧着脸，知道为什么吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 909,
+      "s": 489,
+      "start": 1795.46,
+      "end": 1796.42,
+      "text": "为什么呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 910,
+      "s": 490,
+      "start": 1796.42,
+      "end": 1798.7,
+      "text": "因为我们正对着你脸喝酒的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 911,
+      "s": 490,
+      "start": 1798.7,
+      "end": 1800.56,
+      "text": "我们我们这样把杯子提起来",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 912,
+      "s": 490,
+      "start": 1800.56,
+      "end": 1801.42,
+      "text": "往往这样抬，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 913,
+      "s": 491,
+      "start": 1801.42,
+      "end": 1803.18,
+      "text": "但你的眼睛是往下看的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 914,
+      "s": 492,
+      "start": 1803.47,
+      "end": 1806.15,
+      "text": "就会给别人感觉是你在瞧不起我，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 915,
+      "s": 492,
+      "start": 1806.3,
+      "end": 1806.83,
+      "text": "感觉总是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 916,
+      "s": 493,
+      "start": 1806.83,
+      "end": 1807.37,
+      "text": "瞧不起你。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 917,
+      "s": 494,
+      "start": 1807.37,
+      "end": 1807.89,
+      "text": "我做什么都是",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 918,
+      "s": 495,
+      "start": 1807.89,
+      "end": 1809.57,
+      "text": "瞧不起你，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 919,
+      "s": 495,
+      "start": 1809.77,
+      "end": 1811.15,
+      "text": "对，都在乎就怎么东亚人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 920,
+      "s": 495,
+      "start": 1811.15,
+      "end": 1813.25,
+      "text": "可能比较在乎面子这种东西。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 921,
+      "s": 496,
+      "start": 1813.33,
+      "end": 1815.79,
+      "text": "之前不是有一个关于阿里的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 922,
+      "s": 496,
+      "start": 1815.79,
+      "end": 1817.91,
+      "text": "酒桌文化的一个丑闻嘛？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 923,
+      "s": 497,
+      "start": 1817.91,
+      "end": 1820.53,
+      "text": "就是说有一个女性的员工",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 924,
+      "s": 497,
+      "start": 1820.53,
+      "end": 1822.35,
+      "text": "说是在酒桌上",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 925,
+      "s": 497,
+      "start": 1822.35,
+      "end": 1824.15,
+      "text": "然后喝醉了被人性侵了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 926,
+      "s": 498,
+      "start": 1824.15,
+      "end": 1827.25,
+      "text": "被领导还是客户应该是被领导，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 927,
+      "s": 498,
+      "start": 1827.91,
+      "end": 1828.93,
+      "text": "然后这个事情",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 928,
+      "s": 498,
+      "start": 1828.93,
+      "end": 1830.31,
+      "text": "不就闹了挺大的争议了吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 929,
+      "s": 499,
+      "start": 1830.31,
+      "end": 1832.83,
+      "text": "当时网上就有很多年轻人。讨论嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 930,
+      "s": 500,
+      "start": 1832.83,
+      "end": 1834.43,
+      "text": "就说啊，这个酒桌文化",
+      "speaker": "C",
+      "u": 499,
+      "role": "storyteller"
+    },
+    {
+      "i": 931,
+      "s": 500,
+      "start": 1834.43,
+      "end": 1835.73,
+      "text": "也不算是什么文化，",
+      "speaker": "C",
+      "u": 499,
+      "role": "storyteller"
+    },
+    {
+      "i": 932,
+      "s": 500,
+      "start": 1835.73,
+      "end": 1837.67,
+      "text": "就是糟粕，我们应该摒弃的。",
+      "speaker": "C",
+      "u": 499,
+      "role": "storyteller"
+    },
+    {
+      "i": 933,
+      "s": 501,
+      "start": 1838.07,
+      "end": 1839.53,
+      "text": "所以你觉得现在的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 934,
+      "s": 501,
+      "start": 1839.53,
+      "end": 1842.31,
+      "text": "就是九九五后和零零后",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 935,
+      "s": 501,
+      "start": 1842.31,
+      "end": 1844.17,
+      "text": "对于酒桌文化的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 936,
+      "s": 501,
+      "start": 1844.17,
+      "end": 1845.45,
+      "text": "这个看法是怎么样的？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 937,
+      "s": 502,
+      "start": 1845.45,
+      "end": 1846.83,
+      "text": "他们你说未来会不会",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 938,
+      "s": 502,
+      "start": 1846.83,
+      "end": 1849.27,
+      "text": "酒桌文化越来越嗯淡了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 939,
+      "s": 502,
+      "start": 1849.27,
+      "end": 1850.97,
+      "text": "就是没有那么没有那么",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 940,
+      "s": 503,
+      "start": 1850.97,
+      "end": 1851.86,
+      "text": "重要了？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 941,
+      "s": 504,
+      "start": 1851.93,
+      "end": 1852.93,
+      "text": "就是在职场上呢，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 942,
+      "s": 504,
+      "start": 1852.93,
+      "end": 1855.5,
+      "text": "他喝酒不是唯一的一个方式。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 943,
+      "s": 505,
+      "start": 1856.27,
+      "end": 1857.55,
+      "text": "呃，不仅是年轻人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 944,
+      "s": 505,
+      "start": 1857.55,
+      "end": 1860.58,
+      "text": "包括一些年长的人或者是。领导嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 945,
+      "s": 506,
+      "start": 1860.63,
+      "end": 1861.87,
+      "text": "他们比起喝酒，",
+      "speaker": "B",
+      "u": 505,
+      "role": "storyteller"
+    },
+    {
+      "i": 946,
+      "s": 506,
+      "start": 1861.87,
+      "end": 1863.79,
+      "text": "可能现在更多的就选择了",
+      "speaker": "B",
+      "u": 505,
+      "role": "storyteller"
+    },
+    {
+      "i": 947,
+      "s": 506,
+      "start": 1863.79,
+      "end": 1867.75,
+      "text": "一个健康一些的活动，比如说钓鱼啊，",
+      "speaker": "B",
+      "u": 505,
+      "role": "storyteller"
+    },
+    {
+      "i": 948,
+      "s": 507,
+      "start": 1867.75,
+      "end": 1872.53,
+      "text": "然后农家乐呀，然后然后徒步行走啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 949,
+      "s": 507,
+      "start": 1872.53,
+      "end": 1875.19,
+      "text": "然后环城市骑行呐。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 950,
+      "s": 508,
+      "start": 1875.19,
+      "end": 1878.31,
+      "text": "其实这些新的一个中国社交方式啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 951,
+      "s": 508,
+      "start": 1878.31,
+      "end": 1879.99,
+      "text": "它慢慢的会取代",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 952,
+      "s": 508,
+      "start": 1879.99,
+      "end": 1882.64,
+      "text": "我们的一个酒桌的社交方式，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 953,
+      "s": 509,
+      "start": 1882.93,
+      "end": 1885.43,
+      "text": "但是它也是不可避免，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 954,
+      "s": 509,
+      "start": 1885.43,
+      "end": 1887.45,
+      "text": "也不可能把它直接淘汰掉的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 955,
+      "s": 510,
+      "start": 1887.49,
+      "end": 1888.49,
+      "text": "会不会有一",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 956,
+      "s": 511,
+      "start": 1888.49,
+      "end": 1893.83,
+      "text": "些从事销售的人他没有办法呢",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 957,
+      "s": 511,
+      "start": 1893.83,
+      "end": 1894.31,
+      "text": "就是你不",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 958,
+      "s": 512,
+      "start": 1894.31,
+      "end": 1894.89,
+      "text": "喝也得喝",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 959,
+      "s": 512,
+      "start": 1894.89,
+      "end": 1897.75,
+      "text": "我在抖音里面看到过",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 960,
+      "s": 512,
+      "start": 1897.75,
+      "end": 1900.81,
+      "text": "有一个00后的一个厂长",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 961,
+      "s": 512,
+      "start": 1900.81,
+      "end": 1904.01,
+      "text": "他说后备箱一定要放茅台的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 962,
+      "s": 512,
+      "start": 1904.01,
+      "end": 1905.51,
+      "text": "并且是时刻准备着的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 963,
+      "s": 513,
+      "start": 1905.51,
+      "end": 1908.31,
+      "text": "因为有很多客户喜欢并不是他喜欢",
+      "speaker": "B",
+      "u": 512,
+      "role": "storyteller"
+    },
+    {
+      "i": 964,
+      "s": 513,
+      "start": 1908.31,
+      "end": 1911.19,
+      "text": "现在的那个00后啊90后啊",
+      "speaker": "B",
+      "u": 512,
+      "role": "storyteller"
+    },
+    {
+      "i": 965,
+      "s": 513,
+      "start": 1911.19,
+      "end": 1912.59,
+      "text": "其实更多的酒桌文化已经",
+      "speaker": "B",
+      "u": 512,
+      "role": "storyteller"
+    },
+    {
+      "i": 966,
+      "s": 514,
+      "start": 1913,
+      "end": 1915.53,
+      "text": "从酒宴上面搬到酒馆上面了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 967,
+      "s": 514,
+      "start": 1915.81,
+      "end": 1917.74,
+      "text": "然后他们更多喝喝酒",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 968,
+      "s": 514,
+      "start": 1917.74,
+      "end": 1919.81,
+      "text": "都是为了自己开心、自己放松，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 969,
+      "s": 515,
+      "start": 1919.98,
+      "end": 1921.7,
+      "text": "并不是为了所谓的一些讨好",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 970,
+      "s": 515,
+      "start": 1921.7,
+      "end": 1924.62,
+      "text": "或者一些一些人际人人际交往。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 971,
+      "s": 516,
+      "start": 1924.62,
+      "end": 1925.94,
+      "text": "所以说今天这个酒桌文化",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 972,
+      "s": 516,
+      "start": 1925.94,
+      "end": 1927.74,
+      "text": "会随着时代的改变而改",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 973,
+      "s": 517,
+      "start": 1927.74,
+      "end": 1928.24,
+      "text": "变。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 974,
+      "s": 518,
+      "start": 1929.1,
+      "end": 1931.7,
+      "text": "好，那今天的播客到这里就结束了啊！",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 975,
+      "s": 519,
+      "start": 1931.7,
+      "end": 1933.95,
+      "text": "在你们国家有没有酒桌文化呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 976,
+      "s": 520,
+      "start": 1933.96,
+      "end": 1935.48,
+      "text": "如果有的话是什么样的？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 977,
+      "s": 521,
+      "start": 1935.48,
+      "end": 1937.42,
+      "text": "可以在下面留言讨论。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 978,
+      "s": 522,
+      "start": 1937.42,
+      "end": 1938.92,
+      "text": "如果你喜欢这个视频的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 979,
+      "s": 522,
+      "start": 1938.92,
+      "end": 1942.04,
+      "text": "那就请点赞、转发并订阅我们的频道。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 980,
+      "s": 523,
+      "start": 1942.19,
+      "end": 1944.35,
+      "text": "我们下期再见，拜拜，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 981,
+      "s": 524,
+      "start": 1944.35,
+      "end": 1946.82,
+      "text": "拜拜，Jonas，拜拜，拜拜。",
+      "speaker": "B",
+      "role": "storyteller"
+    }
+  ]
+}
