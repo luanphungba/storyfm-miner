@@ -14,7 +14,7 @@ import {
 import { call, savedConnection } from './server.js';
 import { chapterLink, dayLabel } from './studied.js';
 import { tappedByDay, unknownWords } from './taps.js';
-import { GOAL_WORDS, formatChange, vocabularyByDay, vocabularyDays, wordTicks } from './vocab.js';
+import { GOAL_WORDS, fetchVocabulary, formatChange, vocabularyByDay, vocabularyDays, wordTicks } from './vocab.js';
 
 /** @typedef {import('./progress.js').Days} Days */
 /** @typedef {import('./progress.js').Heard} Heard */
@@ -105,15 +105,9 @@ async function load() {
 
 /** The vocabulary, from the words each studied episode counts as and every day each was tapped or known. */
 async function loadVocabulary(/** @type {Studied[]} */ studied, /** @type {TapHistory} */ history) {
-  const episodes = [...new Set(studied.map((s) => s.ep))];
   try {
-    const [vocab, lines] = await Promise.all([
-      fetch('data/vocab.json').then((r) => (r.ok ? r.json() : Promise.reject(new Error('vocab.json')))),
-      Promise.all(episodes.map((ep) => fetch(`data/${encodeURIComponent(ep)}.vocab.json`)
-        .then((r) => (r.ok ? r.json() : null)).catch(() => null))),
-    ]);
+    const { vocab, linesOf } = await fetchVocabulary([...new Set(studied.map((s) => s.ep))]);
     if (!stats) return;
-    const linesOf = Object.fromEntries(episodes.map((ep, i) => [ep, lines[i]?.cues ?? []]));
     stats.vocabulary = vocabularyByDay({ studied, linesOf, vocab, history }, vocabularyDays(studied, studyDay(new Date())));
   } catch {
     vocabularyPending = '—';

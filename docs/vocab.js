@@ -33,13 +33,29 @@ export const SOLID_DAYS = 2;
 /** @typedef {{ day: string, understood: number, solid: number, heard: number }} VocabDay
  *   `heard` is the words heard in the chapters studied by then, tapped or not. */
 
+/** @typedef {{ understood: Set<string>, solid: Set<string>, heard: Set<string> }} VocabWords */
+
 /**
  * The vocabulary as it stood on each day given.
  * @param {VocabInput} input
  * @param {string[]} days YYYY-MM-DD
  * @returns {VocabDay[]}
  */
-export function vocabularyByDay({ studied, linesOf, vocab, history }, days) {
+export function vocabularyByDay(input, days) {
+  const vocabularyOn = vocabularyWords(input);
+  return days.map((day) => {
+    const { understood, solid, heard } = vocabularyOn(day);
+    return { day, understood: understood.size, solid: solid.size, heard: heard.size };
+  });
+}
+
+/**
+ * The words themselves, for what needs more than their count: how much of a chapter they cover
+ * (coverage.js).
+ * @param {VocabInput} input
+ * @returns {(day: string) => VocabWords}  the vocabulary as it stood on the evening of a day, YYYY-MM-DD
+ */
+export function vocabularyWords({ studied, linesOf, vocab, history }) {
   const chapters = studied.map((chapter) => ({
     id: `${chapter.ep}@${chapter.start}`,
     first: chapter.dates.reduce((a, b) => (b < a ? b : a), chapter.dates[0] ?? ''),
@@ -58,7 +74,28 @@ export function vocabularyByDay({ studied, linesOf, vocab, history }, days) {
   };
   const tapped = byWord(history.tapped);
   const known = byWord(history.known);
-  return days.map((day) => ({ day, ...countOn(day, chapters, tapped, known, vocab.base) }));
+  /** @type {Map<string, VocabWords>} Each day asked for, as every chapter of a page asks for the same few. */
+  const asked = new Map();
+  return (day) => {
+    let words = asked.get(day);
+    if (!words) asked.set(day, (words = wordsOn(day, chapters, tapped, known, vocab.base)));
+    return words;
+  };
+}
+
+/**
+ * What the vocabulary is counted from, beside the page: vocab.json, and the words of each episode
+ * given, none for one whose file did not come.
+ * @param {string[]} episodes
+ * @returns {Promise<Pick<VocabInput, 'linesOf' | 'vocab'>>}
+ */
+export async function fetchVocabulary(episodes) {
+  const [vocab, lines] = await Promise.all([
+    fetch('data/vocab.json').then((r) => (r.ok ? r.json() : Promise.reject(new Error('vocab.json')))),
+    Promise.all(episodes.map((ep) => fetch(`data/${encodeURIComponent(ep)}.vocab.json`)
+      .then((r) => (r.ok ? r.json() : null)).catch(() => null))),
+  ]);
+  return { vocab, linesOf: Object.fromEntries(episodes.map((ep, i) => [ep, lines[i]?.cues ?? []])) };
 }
 
 /** The last of `days` on or before `day`, or '' for none. */
@@ -71,8 +108,9 @@ const lastBy = (/** @type {string[] | undefined} */ days, /** @type {string} */ 
  * @param {Map<string, string[]>} tapped
  * @param {Map<string, string[]>} known
  * @param {string[]} base
+ * @returns {VocabWords}
  */
-function countOn(day, chapters, tapped, known, base) {
+function wordsOn(day, chapters, tapped, known, base) {
   /** @type {Map<string, string>} */
   const lastTap = new Map();
   for (const [word, days] of tapped) {
@@ -104,9 +142,9 @@ function countOn(day, chapters, tapped, known, base) {
   const solid = [...clean].filter(([, seen]) => seen.chapters.size >= SOLID_CHAPTERS && seen.days.size >= SOLID_DAYS)
     .map(([word]) => word);
   return {
-    understood: new Set([...kept, ...marked, ...clean.keys()]).size,
-    solid: new Set([...kept, ...marked, ...solid]).size,
-    heard: heard.size,
+    understood: new Set([...kept, ...marked, ...clean.keys()]),
+    solid: new Set([...kept, ...marked, ...solid]),
+    heard,
   };
 }
 

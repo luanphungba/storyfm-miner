@@ -10,6 +10,7 @@
 
 import { CONTEXT_LINES, markLine } from './card.js';
 import { newWords } from './chapterwords.js';
+import { chapterCoverage, wordsSaid } from './coverage.js';
 import { initExamples } from './examples.js';
 import { levelLabel } from './hsk.js';
 import { chapterShots, framePercent } from './shots.js';
@@ -21,6 +22,7 @@ import { strokeToggle } from './strokes.js';
 import { ceilTenth, findStudied, floorTenth, heardAgain } from './studied.js';
 import { recordTap, tapNote } from './taps.js';
 import { TOPIC_KEY, nextEpisode, topicsOf } from './topics.js';
+import { fetchVocabulary, vocabularyWords } from './vocab.js';
 import { showWords } from './wordlist.js';
 
 const CUE_LANG = 'zh-Hans';
@@ -280,6 +282,7 @@ function decorate() {
     host.replaceChildren(...parts);
   });
   showNewWords();
+  showCoverage();
 }
 
 // ---------- Vietnamese translation ----------
@@ -379,7 +382,10 @@ async function loadChapters() {
     const titles = document.createElement('span');
     titles.className = 'ch-titles';
     titles.append(part('ch-zh', c.zh), part('ch-vi', c.vi, 'vi'));
-    button.append(part('ch-n', String(n + 1)), titles, part('ch-len', formatTime(c.end - c.start)));
+    // How much of it is understood goes beside its length, once there is a word to say it (showCoverage).
+    const end = part('ch-end', '');
+    end.append(part('ch-cover', ''), part('ch-len', formatTime(c.end - c.start)));
+    button.append(part('ch-n', String(n + 1)), titles, end);
     return button;
   };
 
@@ -613,7 +619,9 @@ async function loadStudied() {
     applyStudied(await call(connection, '/studied'));
   } catch {
     // No marks until the server answers; pressing the button says what is wrong.
+    return;
   }
+  loadVocabulary();
 }
 
 function applyStudied(/** @type {{ chapters: import('./studied.js').Studied[], today: string }} */ data) {
@@ -621,6 +629,7 @@ function applyStudied(/** @type {{ chapters: import('./studied.js').Studied[], t
   studied = data.chapters.filter((s) => s.ep === episode.id);
   studyDay = data.today;
   showStudied();
+  showCoverage();
 }
 
 const studyDialog = /** @type {HTMLDialogElement} */ ($('study-dialog'));
@@ -700,6 +709,9 @@ studyButton.addEventListener('click', toggleStudied);
  * is on it. Without a server there is no list. */
 /** @type {import('./taps.js').TappedWord[][]} */
 let tappedWords = [];
+/** The chapters as /tapped lists them, for what each one's day missed (showCoverage); null until the server answers. */
+/** @type {import('./spacing.js').Tapped[] | null} */
+let tappedChapters = null;
 
 async function loadTapped() {
   const connection = savedConnection();
@@ -710,10 +722,12 @@ async function loadTapped() {
       chapters: chapters.map((c) => ({ ep: episode.id, start: c.start, end: c.end })),
     });
     tappedWords = chapters.map((c) => tappedOf(data.chapters, { ep: episode.id, start: c.start })?.words ?? []);
+    tappedChapters = data.chapters;
   } catch {
     return; // No lists until the server answers.
   }
   showTapped();
+  showCoverage();
 }
 
 // A word known in a chapter's list leaves every chapter's count.
@@ -732,6 +746,58 @@ function showTapped() {
     button.textContent = `${words.length} từ đã tra`;
     button.title = 'Các từ đã tra trong chương này';
     rows[chapters[n].from]?.before(button);
+  });
+}
+
+// ---------- how much of each chapter is understood ----------
+
+/** Beside each chapter's length, how much of it is understood, in words said (coverage.js): foretold
+ * until it is studied, then measured by what was tapped in it that day, again after each tap. The
+ * words understood are taken as they stood when the page loaded, so a tap here leaves the foretold
+ * shares as they were. Without a server there is nothing to say. */
+/** @type {Omit<import('./vocab.js').VocabInput, 'studied'> | null} */
+let vocabulary = null;
+/** Each line's words, once the word spans and the vocabulary are in. */
+/** @type {import('./coverage.js').Said[][] | null} */
+let saidOn = null;
+
+/** Counted from every studied episode's words, so waits for the studied chapters. */
+async function loadVocabulary() {
+  const connection = savedConnection();
+  if (!connection || vocabulary) return;
+  try {
+    const [history, files] = await Promise.all([
+      call(connection, '/vocab'),
+      fetchVocabulary([...new Set([episode.id, ...studiedAnywhere.map((s) => s.ep)])]),
+    ]);
+    vocabulary = { ...files, history };
+  } catch {
+    return; // Nothing said until a later load.
+  }
+  showCoverage();
+}
+
+function showCoverage() {
+  if (!vocabulary || !tokens || !chapters.length) return;
+  const said = (saidOn ??= wordsSaid(cues, tokens, vocabulary.linesOf[episode.id] ?? []));
+  const wordsOn = vocabularyWords({ studied: studiedAnywhere, ...vocabulary });
+  const items = $('chapter-list').querySelectorAll('.toc-item');
+  chapters.forEach((c, n) => {
+    const taps = tappedChapters && tappedOf(tappedChapters, { ep: episode.id, start: c.start });
+    const coverage = chapterCoverage(said.slice(c.from, c.to + 1).flat(), {
+      dates: findStudied(studied, episode.id, c.start)?.dates ?? [],
+      // A chapter the server lists no taps for had none; one listed without its days, by an older server, cannot say.
+      tappedOn: tappedChapters && (taps ? taps.byDay ?? null : {}),
+      understoodOn: (day) => wordsOn(day).understood,
+      today: studyDay,
+    });
+    for (const box of [headings[n], items[n]]) {
+      const cover = /** @type {HTMLElement | null} */ (box?.querySelector('.ch-cover'));
+      if (!cover) continue;
+      cover.textContent = coverage?.text ?? '';
+      cover.title = coverage?.title ?? '';
+      cover.classList.toggle('is-measured', Boolean(coverage?.measured));
+    }
   });
 }
 

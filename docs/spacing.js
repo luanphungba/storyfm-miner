@@ -10,8 +10,10 @@ import { SAME_START_S, daysBetween, episodeStudied } from './studied.js';
 
 /** @typedef {import('./studied.js').Studied} Studied */
 /** @typedef {import('./progress.js').Heard} Heard */
-/** @typedef {{ ep: string, start: number, days: string[], words: import('./taps.js').TappedWord[] }} Tapped
- *   A chapter's taps as the server lists them: the days anything in it was tapped, and its words. */
+/** @typedef {{ ep: string, start: number, days: string[], words: import('./taps.js').TappedWord[],
+ *   byDay?: Record<string, string[]> }} Tapped
+ *   A chapter's taps as the server lists them: the days anything in it was tapped, its words, and the
+ *   words tapped in it each day, known since or not (none from a server older than coverage.js). */
 /** @typedef {{ due: string, interval: number }} Schedule  The day a chapter is next due, and the days it waits for it. */
 
 /** A day this share of a chapter's audio was heard counts as heard through: a pass, give or take the

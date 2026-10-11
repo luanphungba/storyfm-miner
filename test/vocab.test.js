@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { formatChange, vocabularyByDay, vocabularyDays, wordTicks } from '../docs/vocab.js';
+import { formatChange, vocabularyByDay, vocabularyDays, vocabularyWords, wordTicks } from '../docs/vocab.js';
 
 const chapter = (/** @type {number} */ start, /** @type {string[]} */ dates, ep = 'CC4') => ({ ep, start, end: start + 90, dates });
 /** One line per chapter's start, and one between them that no chapter has. */
@@ -97,6 +97,14 @@ test('each day counts what was studied and tapped by its evening', () => {
     ['2026-10-03', 2, 4], // 脏 known
     ['2026-10-04', 5, 6], // + 尴尬 学 法语 heard untapped; 很 still missed
   ]);
+});
+
+test('the words themselves are the ones counted, as they stood on each evening', () => {
+  const studied = [chapter(0, ['2026-10-01']), chapter(100, ['2026-10-02']), chapter(200, ['2026-10-04'])];
+  const history = { tapped: { 尴尬: ['2026-10-02'], 很脏: ['2026-10-02'] }, known: { 脏: ['2026-10-03'] } };
+  const wordsOn = vocabularyWords({ studied, linesOf, vocab, history });
+  assert.deepEqual([...wordsOn('2026-10-03').understood].sort(), ['我', '脏'].sort());
+  assert.deepEqual([...wordsOn('2026-10-04').understood].sort(), ['我', '脏', '尴尬', '学', '法语'].sort());
 });
 
 test('a word tapped twice is out from its first tap and back after its last', () => {

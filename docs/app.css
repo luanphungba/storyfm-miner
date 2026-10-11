@@ -339,6 +339,11 @@ h1 {
 }
 .ch-vi { color: var(--muted); font-size: 14px; }
 .ch-len { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+/* Beside the length, how much of the chapter is understood: "≈" foretold, plain once measured. */
+.ch-end { display: flex; align-items: baseline; justify-content: flex-end; gap: 8px; }
+.ch-cover { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ch-cover:empty { display: none; }
+.ch-cover.is-measured { color: var(--fg); font-weight: 600; }
 .chapter.is-current { border-top-color: var(--accent); }
 .chapter.is-current .ch-zh, .chapter.is-current .ch-n { color: var(--accent); }
 

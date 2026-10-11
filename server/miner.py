@@ -568,7 +568,8 @@ class TapLog:
         """For each chapter given ({ep, start, end}) that had anything tapped in it: the days it did, and
         each word tapped in it with the line it was first tapped in and the days it was tapped on
         anywhere, since a word missed in one story is as missed in the next. A word known since it was
-        last tapped is left out of the words, not the days."""
+        last tapped is left out of the words, not the days. And the words tapped in it each day, known
+        since or not: what hearing it that day missed (docs/coverage.js)."""
         with self.lock:
             word_days = dict(self.db.execute("SELECT word, COUNT(DISTINCT day) FROM tapped GROUP BY word"))
             last_tapped = self.last("tapped")
@@ -585,15 +586,18 @@ class TapLog:
             if not inside:
                 continue
             first = {}
-            for at, word, _day in inside:
+            by_day = {}
+            for at, word, day in inside:
                 first.setdefault(word, at)
+                by_day.setdefault(day, {})[word] = None
             found.append({
                 "ep": chapter["ep"],
                 "start": chapter["start"],
-                "days": sorted({day for _at, _word, day in inside}),
+                "days": sorted(by_day),
                 "words": [
                     {"word": word, "at": at, "days": word_days[word]} for word, at in first.items() if word not in known
                 ],
+                "byDay": {day: list(words) for day, words in sorted(by_day.items())},
             })
         return found
 

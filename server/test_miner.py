@@ -208,8 +208,10 @@ class TapLogTest(unittest.TestCase):
                   tap("清楚", day="2026-10-07", at=80.1), tap("哭", at=170), tap("别的", ep="E062", at=100))
         self.assertEqual(self.api.tapped({}), {"chapters": [
             {"ep": "E517", "start": 70.62, "days": ["2026-10-06", "2026-10-07"],
-             "words": [{"word": "清楚", "at": 70.62, "days": 2}, {"word": "尴尬", "at": 120.2, "days": 2}]},
-            {"ep": "E517", "start": 160.49, "days": ["2026-10-06"], "words": [{"word": "哭", "at": 170.0, "days": 1}]},
+             "words": [{"word": "清楚", "at": 70.62, "days": 2}, {"word": "尴尬", "at": 120.2, "days": 2}],
+             "byDay": {"2026-10-06": ["清楚", "尴尬"], "2026-10-07": ["清楚"]}},
+            {"ep": "E517", "start": 160.49, "days": ["2026-10-06"], "words": [{"word": "哭", "at": 170.0, "days": 1}],
+             "byDay": {"2026-10-06": ["哭"]}},
         ]})
 
     def test_a_chapter_takes_the_line_a_re_cut_nudged_before_its_start_and_no_line_past_its_end(self):
@@ -223,7 +225,8 @@ class TapLogTest(unittest.TestCase):
         asked = self.api.tapped({"chapters": [{"ep": "E517", "start": 160.49, "end": 251.83},
                                               {"ep": "E517", "start": 251.83, "end": 300}]})
         self.assertEqual(asked, {"chapters": [
-            {"ep": "E517", "start": 160.49, "days": ["2026-10-06"], "words": [{"word": "哭", "at": 170.0, "days": 1}]},
+            {"ep": "E517", "start": 160.49, "days": ["2026-10-06"], "words": [{"word": "哭", "at": 170.0, "days": 1}],
+             "byDay": {"2026-10-06": ["哭"]}},
         ]})
 
     def test_turns_away_chapters_no_page_sends(self):
@@ -264,6 +267,14 @@ class TapLogTest(unittest.TestCase):
         self.assertEqual(self.api.know({"word": "尴尬", "day": "2026-10-08"}), {})
         self.assertEqual(self.words_of(), [["清楚"], []])
         self.assertEqual([c["days"] for c in self.api.tapped({})["chapters"]], [["2026-10-06"], ["2026-10-07"]])
+
+    def test_a_word_known_since_still_says_what_its_day_missed(self):
+        self.study(70.62, 158.13)
+        self.send("", tap("尴尬", at=120.2), tap("清楚", at=90), tap("尴尬", at=80.1), tap("哭", day="2026-10-07", at=100))
+        self.api.know({"word": "尴尬", "day": "2026-10-08"})
+        self.assertEqual(self.words_of(), [["清楚", "哭"]])
+        self.assertEqual(self.api.tapped({})["chapters"][0]["byDay"],
+                         {"2026-10-06": ["尴尬", "清楚"], "2026-10-07": ["哭"]})
 
     def test_a_word_known_is_listed_again_once_tapped_after_even_that_day(self):
         self.study(70.62, 158.13)
