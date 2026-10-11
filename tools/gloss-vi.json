@@ -913,7 +913,7 @@
  ],
  "得到": [
   "ĐẮC ĐÁO",
-  "có được, nhận được"
+  "có được, nhận được; (看得到: thấy được — 得 là trợ từ de)"
  ],
  "确诊": [
   "XÁC CHẨN",
@@ -1193,7 +1193,7 @@
  ],
  "于是": [
   "VU THỊ",
-  "thế là, do đó; (cắt từ chưa chuẩn của 等于是: chẳng khác nào là)"
+  "thế là, do đó; (cắt từ chưa chuẩn của 等于是: chẳng khác nào là); (在于是: cắt từ chưa chuẩn của 在于 + 是)"
  ],
  "大学": [
   "ĐẠI HỌC",
@@ -1333,7 +1333,7 @@
  ],
  "期间": [
   "KỲ GIAN",
-  "trong thời gian"
+  "trong thời gian; (最大心率期间: ý là 区间, vùng nhịp tim)"
  ],
  "哪怕": [
   "NA PHẠ",
@@ -1969,7 +1969,7 @@
  ],
  "九年": [
   "CỬU NIÊN",
-  "chín năm"
+  "chín năm; (一九年: năm 2019)"
  ],
  "第一次": [
   "ĐỆ NHẤT THỨ",
@@ -2009,7 +2009,7 @@
  ],
  "下去": [
   "HẠ KHỨ",
-  "đi xuống; (bổ ngữ) tiếp tục"
+  "đi xuống; (bổ ngữ) tiếp tục; (线下去: cắt từ chưa chuẩn của 线下 + 去)"
  ],
  "演出": [
   "DIỄN XUẤT",
@@ -4449,7 +4449,7 @@
  ],
  "初": [
   "SƠ",
-  "đầu (tháng, năm)"
+  "đầu (tháng, năm); sơ bộ (非常初的了解: hiểu biết rất sơ bộ)"
  ],
  "体检": [
   "THỂ KIỂM",
@@ -4853,7 +4853,7 @@
  ],
  "两两": [
   "LƯỠNG LƯỠNG",
-  "từng đôi một"
+  "từng đôi một; (nói lặp 两)"
  ],
  "分组": [
   "PHÂN TỔ",
@@ -6301,7 +6301,7 @@
  ],
  "四年": [
   "TỨ NIÊN",
-  "bốn năm"
+  "bốn năm; (一四年: năm 2014)"
  ],
  "艺术系": [
   "NGHỆ THUẬT HỆ",
@@ -7105,7 +7105,7 @@
  ],
  "冲": [
   "XUNG",
-  "lao tới, xông vào; (mùi, vị) gắt, sộc (冲喉咙: sộc lên cổ họng)"
+  "lao tới, xông vào; (mùi, vị) gắt, sộc (冲喉咙: sộc lên cổ họng); (东西冲: bãi biển Đông Tây Xung ở Thâm Quyến)"
  ],
  "肩膀": [
   "KIÊN BẢNG",
@@ -8969,7 +8969,7 @@
  ],
  "线": [
   "TUYẾN",
-  "đường, tuyến; dây, sợi; (本科线) điểm chuẩn; hạng (二线, 十八线: hạng hai, hạng bét)"
+  "đường, tuyến; dây, sợi; (本科线) điểm chuẩn; hạng (二线, 十八线: hạng hai, hạng bét); (线上/线下) trực tuyến / ngoại tuyến"
  ],
  "经济": [
   "KINH TẾ",
@@ -9333,7 +9333,7 @@
  ],
  "主体": [
   "CHỦ THỂ",
-  "chủ thể (主体 = Juche, tư tưởng của Triều Tiên)"
+  "chủ thể (主体 = Juche, tư tưởng của Triều Tiên); pháp nhân, chủ thể kinh doanh (没有主体: không có pháp nhân)"
  ],
  "礼拜": [
   "LỄ BÁI",
@@ -9821,7 +9821,7 @@
  ],
  "清": [
   "THANH",
-  "rõ ràng (记不太清: không nhớ rõ)"
+  "rõ ràng (记不太清: không nhớ rõ); (正清/灰清) thông quan (清关)"
  ],
  "十三个": [
   "THẬP TAM CÁ",
@@ -10529,7 +10529,7 @@
  ],
  "朝": [
   "TRIỀU",
-  "(nói dở: 朝鲜) Triều Tiên; hướng về (朝远处: về phía xa)"
+  "(nói dở: 朝鲜) Triều Tiên; hướng về (朝远处: về phía xa); (百鸟朝凤: muôn chim chầu phượng)"
  ],
  "惯用": [
   "QUÁN DỤNG",
@@ -10541,7 +10541,7 @@
  ],
  "马": [
   "MÃ",
-  "ngựa; (马内: tên người)"
+  "ngựa; (马内: tên người); (半马, 全马) marathon"
  ],
  "千里马": [
   "THIÊN LÝ MÃ",
@@ -11125,7 +11125,7 @@
  ],
  "制": [
   "CHẾ",
-  "chế tạo (和制汉语: từ Hán do Nhật tạo ra)"
+  "chế tạo (和制汉语: từ Hán do Nhật tạo ra); chế độ (义务制教育: giáo dục bắt buộc)"
  ],
  "音节": [
   "ÂM TIẾT",
@@ -11165,7 +11165,7 @@
  ],
  "达": [
   "ĐẠT",
-  "đạt tới (长达: dài tới)"
+  "đạt tới (长达: dài tới); (达人) người giỏi, cao thủ"
  ],
  "奇幻": [
   "KỲ HUYỄN",
@@ -11953,7 +11953,7 @@
  ],
  "主": [
   "CHỦ",
-  "chủ; (UP主) người đăng video"
+  "chủ; (UP主) người đăng video; (主主要: nói lặp 主要)"
  ],
  "罗永浩": [
   "LA VĨNH HẠO",
@@ -12213,7 +12213,7 @@
  ],
  "打击": [
   "ĐẢ KÍCH",
-  "cú sốc, đả kích; chê bai, làm nhụt chí (打击文化: lối giáo dục bằng chê bai)"
+  "cú sốc, đả kích; chê bai, làm nhụt chí (打击文化: lối giáo dục bằng chê bai); đòn đánh (降维打击: đòn giáng chiều)"
  ],
  "进城": [
   "TIẾN THÀNH",
@@ -12281,7 +12281,7 @@
  ],
  "后期": [
   "HẬU KỲ",
-  "hậu kỳ (dựng phim)"
+  "hậu kỳ (dựng phim); giai đoạn sau, về sau"
  ],
  "拍过": [
   "PHÁCH QUÁ",
@@ -13213,7 +13213,7 @@
  ],
  "三块": [
   "TAM KHỐI",
-  "ba đồng (tệ)"
+  "ba đồng (tệ); ba mảng (做好三块的事情: làm tốt ba mảng việc)"
  ],
  "琳娜": [
   "LÂM NA",
@@ -13369,7 +13369,7 @@
  ],
  "三点": [
   "TAM ĐIỂM",
-  "ba chấm (3.8); ba giờ"
+  "ba chấm (3.8); ba giờ; ba điểm (这三点: ba điểm này)"
  ],
  "八": [
   "BÁT",
@@ -14333,7 +14333,7 @@
  ],
  "存": [
   "TỒN",
-  "để dành, gửi (tiền)"
+  "để dành, gửi (tiền); còn, có (海内存知己: trong bốn bể còn tri kỷ)"
  ],
  "南边": [
   "NAM BIÊN",
@@ -15713,7 +15713,7 @@
  ],
  "招": [
   "CHIÊU",
-  "tuyển, nhận (học sinh, nhân viên)"
+  "tuyển, nhận (học sinh, nhân viên); (店招) biển hiệu cửa hàng"
  ],
  "招生": [
   "CHIÊU SINH",
@@ -18101,7 +18101,7 @@
  ],
  "头部": [
   "ĐẦU BỘ",
-  "đầu (bộ phận cơ thể)"
+  "đầu (bộ phận cơ thể); (kinh doanh) nhóm dẫn đầu, top đầu"
  ],
  "遥控器": [
   "DAO KHỐNG KHÍ",
@@ -18613,7 +18613,7 @@
  ],
  "在线": [
   "TẠI TUYẾN",
-  "trực tuyến"
+  "trực tuyến; (在线下: cắt từ chưa chuẩn của 在 + 线下)"
  ],
  "免": [
   "MIỄN",
@@ -19625,7 +19625,7 @@
  ],
  "排排": [
   "BÀI BÀI",
-  "(nói lặp của 排队排排很长的队: xếp hàng dài)"
+  "(nói lặp của 排队排排很长的队: xếp hàng dài); (排排在: nói lặp 排在, xếp ở)"
  ],
  "蜂拥": [
   "PHONG ỦNG",
@@ -20485,7 +20485,7 @@
  ],
  "分配": [
   "PHÂN PHỐI",
-  "phân phối, phân bổ"
+  "phân phối, phân bổ; (五分配: cắt từ chưa chuẩn của 五分 + 配, pace 5 phút)"
  ],
  "偏远": [
   "THIÊN VIỄN",
@@ -21409,7 +21409,7 @@
  ],
  "这块": [
   "GIÁ KHỐI",
-  "cái này, chiếc này (块: lượng từ cho đồng hồ, miếng)"
+  "cái này, chiếc này (块: lượng từ cho đồng hồ, miếng); mảng này (这块业务: mảng việc này)"
  ],
  "首页": [
   "THỦ HIỆT",
@@ -26989,7 +26989,7 @@
  ],
  "的的": [
   "",
-  "(cắt từ chưa chuẩn của 什么的 + 的时候: lúc … các thứ)"
+  "(cắt từ chưa chuẩn của 什么的 + 的时候: lúc … các thứ); (nói lặp 的)"
  ],
  "怪": [
   "QUÁI",
@@ -28001,7 +28001,7 @@
  ],
  "投入": [
   "ĐẦU NHẬP",
-  "bỏ vào; dồn hết tâm trí, nhập tâm"
+  "bỏ vào; dồn hết tâm trí, nhập tâm; khoản đầu tư, chi phí bỏ ra"
  ],
  "重来": [
   "TRÙNG LAI",
@@ -28717,7 +28717,7 @@
  ],
  "钟": [
   "CHUNG",
-  "đồng hồ (treo tường); chuông"
+  "đồng hồ (treo tường); chuông; (三四点钟) giờ"
  ],
  "瘫掉": [
   "THAN ĐIỆU",
@@ -29969,7 +29969,7 @@
  ],
  "广": [
   "QUẢNG",
-  "rộng, rộng rãi"
+  "rộng, rộng rãi; (北上广) Quảng Châu"
  ],
  "门路": [
   "MÔN LỘ",
@@ -31025,7 +31025,7 @@
  ],
  "坑": [
   "KHANH",
-  "hố, hầm; (khẩu ngữ) lừa (有一个坑填不上: có một khoảng trống không lấp được)"
+  "hố, hầm; (khẩu ngữ) lừa (有一个坑填不上: có một khoảng trống không lấp được); bẫy, chỗ dễ sa chân (踩坑: mắc bẫy)"
  ],
  "缺掉": [
   "KHUYẾT ĐIỆU",
@@ -31461,7 +31461,7 @@
  ],
  "端": [
   "ĐOAN",
-  "đầu, đầu mút; bưng (后端: khâu sau)"
+  "đầu, đầu mút; bưng (后端: khâu sau); (端端午节: nói dở của 端午节)"
  ],
  "身为": [
   "THÂN VI",
@@ -33869,7 +33869,7 @@
  ],
  "合": [
   "HỢP",
-  "hợp; (cắt từ chưa chuẩn của 场合: hoàn cảnh, dịp)"
+  "hợp; (cắt từ chưa chuẩn của 场合: hoàn cảnh, dịp); (合折合: nói dở của 折合, quy đổi)"
  ],
  "两家": [
   "LƯỠNG GIA",
@@ -35477,7 +35477,7 @@
  ],
  "微": [
   "VI",
-  "nhỏ, vi; (cắt từ 微博: Weibo)"
+  "nhỏ, vi; (cắt từ 微博: Weibo); (微信群: nhóm WeChat)"
  ],
  "博": [
   "BÁC",
@@ -35998,5 +35998,2145 @@
  "吞": [
   "THÔN",
   "nuốt"
+ ],
+ "换句话": [
+  "HOÁN CÚ THOẠI",
+  "(换句话说) nói cách khác"
+ ],
+ "胡志明": [
+  "HỒ CHÍ MINH",
+  "TP. Hồ Chí Minh (Sài Gòn); Hồ Chí Minh"
+ ],
+ "跑步": [
+  "BÀO BỘ",
+  "chạy bộ"
+ ],
+ "出海": [
+  "XUẤT HẢI",
+  "ra khơi; (mới) vươn ra thị trường nước ngoài"
+ ],
+ "合规": [
+  "HỢP QUY",
+  "tuân thủ quy định, hợp quy"
+ ],
+ "签证": [
+  "THIÊM CHỨNG",
+  "thị thực, visa"
+ ],
+ "全马": [
+  "TOÀN MÃ",
+  "marathon toàn phần (42 km)"
+ ],
+ "河内": [
+  "HÀ NỘI",
+  "Hà Nội"
+ ],
+ "芹": [
+  "CẦN",
+  "rau cần (芹菜); chữ đầu của 芹苴 Cần Thơ"
+ ],
+ "二年": [
+  "NHỊ NIÊN",
+  "(cắt từ chưa chuẩn của 二二年: năm 2022)"
+ ],
+ "开放": [
+  "KHAI PHÓNG",
+  "mở cửa, mở ra; cởi mở; (sau dịch) mở cửa lại"
+ ],
+ "苴": [
+  "",
+  "chữ sau của 芹苴 (Cần Thơ)"
+ ],
+ "字节": [
+  "TỰ TIẾT",
+  "ByteDance (字节跳动); byte (tin học)"
+ ],
+ "语种": [
+  "NGỮ CHỦNG",
+  "loại ngôn ngữ (小语种: ngoại ngữ ít phổ biến)"
+ ],
+ "公益": [
+  "CÔNG ÍCH",
+  "công ích, việc thiện nguyện"
+ ],
+ "三十公里": [
+  "TAM THẬP CÔNG LÝ",
+  "30 km"
+ ],
+ "系": [
+  "HỆ",
+  "hệ; khoa (đại học); phe, nhóm (阿里系: nhóm Alibaba)"
+ ],
+ "制造业": [
+  "CHẾ TẠO NGHIỆP",
+  "ngành chế tạo, sản xuất"
+ ],
+ "供应链": [
+  "CUNG ỨNG LIÊN",
+  "chuỗi cung ứng"
+ ],
+ "越南语": [
+  "VIỆT NAM NGỮ",
+  "tiếng Việt"
+ ],
+ "折合": [
+  "CHIẾT HỢP",
+  "quy đổi ra, tương đương"
+ ],
+ "活跃": [
+  "HOẠT DƯỢC",
+  "sôi nổi, năng động, hoạt động mạnh"
+ ],
+ "主席": [
+  "CHỦ TỊCH",
+  "chủ tịch"
+ ],
+ "春节": [
+  "XUÂN TIẾT",
+  "Tết Nguyên Đán"
+ ],
+ "葡萄牙": [
+  "BỒ ĐÀO NHA",
+  "Bồ Đào Nha"
+ ],
+ "分成": [
+  "PHÂN THÀNH",
+  "chia thành"
+ ],
+ "越南人": [
+  "VIỆT NAM NHÂN",
+  "người Việt Nam"
+ ],
+ "仓储": [
+  "THƯƠNG TRỮ",
+  "kho bãi, lưu kho"
+ ],
+ "殖民": [
+  "THỰC DÂN",
+  "thực dân"
+ ],
+ "上化": [
+  "",
+  "(cắt từ chưa chuẩn của 线上化: đưa lên mạng, trực tuyến hoá)"
+ ],
+ "房东": [
+  "PHÒNG ĐÔNG",
+  "chủ nhà (cho thuê)"
+ ],
+ "动机": [
+  "ĐỘNG CƠ",
+  "động cơ, động lực"
+ ],
+ "周杰伦": [
+  "CHU KIỆT LUÂN",
+  "Châu Kiệt Luân (Jay Chou, ca sĩ Đài Loan)"
+ ],
+ "恰恰": [
+  "KHÁP KHÁP",
+  "đúng là, chính là"
+ ],
+ "七八": [
+  "THẤT BÁT",
+  "bảy tám (七八九: cấp 7-8-9)"
+ ],
+ "哈斯": [
+  "",
+  "(cắt từ chưa chuẩn của 哈斯卡: HSK, đọc theo kiểu người Việt)"
+ ],
+ "血": [
+  "HUYẾT",
+  "máu"
+ ],
+ "马来": [
+  "MÃ LAI",
+  "Malaysia (nói tắt), Mã Lai"
+ ],
+ "盲盒": [
+  "MANH HẠP",
+  "hộp mù, blind box"
+ ],
+ "抽到": [
+  "TRỪU ĐÁO",
+  "bốc trúng, rút được"
+ ],
+ "音箱": [
+  "ÂM TƯƠNG",
+  "loa"
+ ],
+ "槟城": [
+  "TÂN THÀNH",
+  "Penang (Malaysia)"
+ ],
+ "本土化": [
+  "BẢN THỔ HÓA",
+  "bản địa hoá"
+ ],
+ "十公里": [
+  "THẬP CÔNG LÝ",
+  "10 km"
+ ],
+ "配速": [
+  "PHỐI TỐC",
+  "pace, tốc độ chạy (phút/km)"
+ ],
+ "心跳": [
+  "TÂM KHIÊU",
+  "nhịp tim"
+ ],
+ "一个千年": [
+  "",
+  "(cắt từ chưa chuẩn của 一个 + 千年: một … nghìn năm)"
+ ],
+ "千丝万缕": [
+  "THIÊN TY VẠN LŨ",
+  "(thành ngữ) chằng chịt, gắn bó nhiều mối"
+ ],
+ "设想": [
+  "THIẾT TƯỞNG",
+  "hình dung, dự tính; ý tưởng"
+ ],
+ "贸易": [
+  "MẬU DỊCH",
+  "thương mại, mậu dịch"
+ ],
+ "内陆": [
+  "NỘI LỤC",
+  "nội địa, (đi) đường bộ"
+ ],
+ "物流": [
+  "VẬT LƯU",
+  "logistics, vận chuyển hàng hoá"
+ ],
+ "百分之三十": [
+  "BÁCH PHÂN CHI TAM THẬP",
+  "30%"
+ ],
+ "出口": [
+  "XUẤT KHẨU",
+  "xuất khẩu; lối ra"
+ ],
+ "依赖": [
+  "Y LẠI",
+  "phụ thuộc, dựa vào"
+ ],
+ "用用": [
+  "DỤNG DỤNG",
+  "(nói lặp) dùng"
+ ],
+ "落地": [
+  "LẠC ĐỊA",
+  "rơi xuống đất; (nghĩa bóng) sát thực tế, triển khai thực tế"
+ ],
+ "开展": [
+  "KHAI TRIỂN",
+  "triển khai, mở rộng"
+ ],
+ "二三年": [
+  "NHỊ TAM NIÊN",
+  "năm (20)23"
+ ],
+ "并不多": [
+  "TỊNH BẤT ĐA",
+  "không hề nhiều"
+ ],
+ "矩阵": [
+  "CỦ TRẬN",
+  "ma trận; (kinh doanh) cụm nhiều mảng kinh doanh"
+ ],
+ "分销": [
+  "PHÂN TIÊU",
+  "phân phối"
+ ],
+ "支出": [
+  "CHI XUẤT",
+  "chi tiêu, khoản chi"
+ ],
+ "辐射": [
+  "BỨC XẠ",
+  "bức xạ; (nghĩa bóng) lan toả ra vùng xung quanh"
+ ],
+ "聚集": [
+  "TỤ TẬP",
+  "tụ tập, tập trung"
+ ],
+ "中文系": [
+  "TRUNG VĂN HỆ",
+  "khoa tiếng Trung"
+ ],
+ "普及率": [
+  "PHỔ CẬP SUẤT",
+  "tỷ lệ phổ cập"
+ ],
+ "南越": [
+  "NAM VIỆT",
+  "miền Nam Việt Nam (trước 1975)"
+ ],
+ "郡": [
+  "QUẬN",
+  "quận (第五郡: Quận 5 ở TP.HCM)"
+ ],
+ "中式": [
+  "TRUNG THỨC",
+  "kiểu Trung Quốc"
+ ],
+ "港剧": [
+  "CẢNG KỊCH",
+  "phim truyền hình Hồng Kông"
+ ],
+ "体感": [
+  "THỂ CẢM",
+  "cảm nhận thực tế"
+ ],
+ "两千万": [
+  "LƯỠNG THIÊN VẠN",
+  "hai mươi triệu"
+ ],
+ "三四": [
+  "TAM TỨ",
+  "ba bốn"
+ ],
+ "十多万": [
+  "THẬP ĐA VẠN",
+  "hơn một trăm nghìn"
+ ],
+ "违规": [
+  "VI QUY",
+  "vi phạm quy định"
+ ],
+ "铅": [
+  "DUYÊN",
+  "chì (kim loại)"
+ ],
+ "政局": [
+  "CHÍNH CỤC",
+  "tình hình chính trị"
+ ],
+ "一任": [
+  "NHẤT NHIỆM",
+  "một nhiệm kỳ (新的一任: người nhiệm kỳ mới)"
+ ],
+ "贪腐": [
+  "THAM HỦ",
+  "tham nhũng"
+ ],
+ "虾皮": [
+  "HÀ BÌ",
+  "tép khô; Shopee (tên tiếng Trung)"
+ ],
+ "占比": [
+  "CHIẾM TỶ",
+  "tỷ trọng, chiếm tỷ lệ"
+ ],
+ "巴西": [
+  "BA TÂY",
+  "Brazil"
+ ],
+ "会花": [
+  "",
+  "(cắt từ chưa chuẩn của 会 + 花: sẽ dành, tiêu (thời gian))"
+ ],
+ "直播间": [
+  "TRỰC BÁ GIAN",
+  "phòng livestream"
+ ],
+ "活力": [
+  "HOẠT LỰC",
+  "sức sống, năng động"
+ ],
+ "面孔": [
+  "DIỆN KHỔNG",
+  "gương mặt"
+ ],
+ "过不去": [
+  "QUÁ BẤT KHỨ",
+  "không qua được; làm khó"
+ ],
+ "缝儿": [
+  "PHÙNG NHI",
+  "khe hở"
+ ],
+ "一百公里": [
+  "NHẤT BÁCH CÔNG LÝ",
+  "100 km"
+ ],
+ "集团": [
+  "TẬP ĐOÀN",
+  "tập đoàn"
+ ],
+ "扛下": [
+  "",
+  "vác xuống, khiêng xuống"
+ ],
+ "匹克球": [
+  "THẤT KHẮC CẦU",
+  "pickleball"
+ ],
+ "迁徙": [
+  "THIÊN TỈ",
+  "di cư, di trú"
+ ],
+ "游民": [
+  "DU DÂN",
+  "người lang thang (数字游民: dân du mục kỹ thuật số)"
+ ],
+ "触角": [
+  "XÚC GIÁC",
+  "râu (côn trùng); (nghĩa bóng) tầm với, phạm vi hoạt động"
+ ],
+ "伙伴": [
+  "HỎA BẠN",
+  "bạn đồng hành, đối tác"
+ ],
+ "的自": [
+  "",
+  "(cắt từ chưa chuẩn của 的 + 自雇: tự làm chủ)"
+ ],
+ "排期": [
+  "BÀI KỲ",
+  "xếp lịch, thời gian chờ đến lượt"
+ ],
+ "青田": [
+  "THANH ĐIỀN",
+  "Thanh Điền (huyện ở Chiết Giang)"
+ ],
+ "马德里": [
+  "MÃ ĐỨC LÝ",
+  "Madrid"
+ ],
+ "港口": [
+  "CẢNG KHẨU",
+  "cảng"
+ ],
+ "客": [
+  "KHÁCH",
+  "khách (客单价: giá trị đơn hàng bình quân)"
+ ],
+ "极限": [
+  "CỰC HẠN",
+  "giới hạn, cực hạn"
+ ],
+ "选手": [
+  "TUYỂN THỦ",
+  "tuyển thủ, vận động viên"
+ ],
+ "补给": [
+  "BỔ CẤP",
+  "tiếp tế (đồ ăn, nước dọc đường chạy)"
+ ],
+ "爬升": [
+  "BÀ THĂNG",
+  "leo lên; độ cao leo (elevation gain)"
+ ],
+ "算到": [
+  "TOÁN ĐÁO",
+  "tính đến, tính vào"
+ ],
+ "一百米": [
+  "NHẤT BÁCH MỄ",
+  "100 mét"
+ ],
+ "校友会": [
+  "HIỆU HỮU HỘI",
+  "hội cựu sinh viên"
+ ],
+ "五分": [
+  "NGŨ PHÂN",
+  "5 phút; 5 điểm"
+ ],
+ "一百八": [
+  "NHẤT BÁCH BÁT",
+  "180"
+ ],
+ "长距离": [
+  "TRƯỜNG CỰ LY",
+  "đường dài"
+ ],
+ "减去": [
+  "GIẢM KHỨ",
+  "trừ đi"
+ ],
+ "百鸟": [
+  "BÁCH ĐIỂU",
+  "trăm loài chim"
+ ],
+ "齐凤": [
+  "",
+  "(cắt từ chưa chuẩn của 百鸟齐凤: người nói lẫn 百鸟朝凤 với 百鸟齐鸣, muôn chim cùng hót)"
+ ],
+ "亦可": [
+  "DIỆC KHẢ",
+  "cũng có thể"
+ ],
+ "知己": [
+  "TRI KỶ",
+  "tri kỷ, bạn hiểu mình"
+ ],
+ "天涯比邻": [
+  "THIÊN NHAI TỶ LÂN",
+  "(thành ngữ) xa tận chân trời mà như hàng xóm"
+ ],
+ "宁波": [
+  "NINH BA",
+  "Ninh Ba (thành phố ở Chiết Giang)"
+ ],
+ "寺庙": [
+  "TỰ MIẾU",
+  "chùa chiền"
+ ],
+ "里灵修": [
+  "",
+  "(cắt từ chưa chuẩn của 寺庙里 + 灵修: tu tập tâm linh)"
+ ],
+ "不先": [
+  "",
+  "(cắt từ chưa chuẩn của 要不 + 先: hay là … trước)"
+ ],
+ "料": [
+  "LIỆU",
+  "nguyên liệu; (khẩu ngữ) chuyện hay, chất liệu để kể"
+ ],
+ "概括": [
+  "KHÁI QUÁT",
+  "tóm tắt, khái quát"
+ ],
+ "上个周": [
+  "THƯỢNG CÁ CHU",
+  "tuần trước"
+ ],
+ "上周": [
+  "THƯỢNG CHU",
+  "tuần trước"
+ ],
+ "赶回来": [
+  "CẢN HỒI LAI",
+  "vội trở về"
+ ],
+ "寺院": [
+  "TỰ VIỆN",
+  "chùa, tu viện"
+ ],
+ "周维": [
+  "CHU DUY",
+  "Chu Duy (tên khách mời Michael)"
+ ],
+ "早期": [
+  "TẢO KỲ",
+  "thời kỳ đầu"
+ ],
+ "十多年": [
+  "THẬP ĐA NIÊN",
+  "hơn mười năm"
+ ],
+ "经": [
+  "KINH",
+  "trải qua; kinh điển"
+ ],
+ "回归": [
+  "HỒI QUY",
+  "quay về"
+ ],
+ "突破点": [
+  "ĐỘT PHÁ ĐIỂM",
+  "điểm đột phá"
+ ],
+ "零售": [
+  "LINH THỤ",
+  "bán lẻ"
+ ],
+ "大陆": [
+  "ĐẠI LỤC",
+  "đại lục (Trung Quốc đại lục)"
+ ],
+ "开设": [
+  "KHAI THIẾT",
+  "mở (cửa hàng, nhà máy)"
+ ],
+ "全新": [
+  "TOÀN TÂN",
+  "hoàn toàn mới"
+ ],
+ "机缘巧合": [
+  "CƠ DUYÊN XẢO HỢP",
+  "cơ duyên tình cờ"
+ ],
+ "派到": [
+  "PHÁI ĐÁO",
+  "được cử đến"
+ ],
+ "放开": [
+  "PHÓNG KHAI",
+  "buông ra; mở cửa, bỏ hạn chế"
+ ],
+ "品类": [
+  "PHẨM LOẠI",
+  "ngành hàng, loại mặt hàng"
+ ],
+ "三轮": [
+  "TAM LUÂN",
+  "ba vòng (phỏng vấn); xe ba bánh"
+ ],
+ "直飞": [
+  "TRỰC PHI",
+  "bay thẳng"
+ ],
+ "热门": [
+  "NHIỆT MÔN",
+  "hot, được ưa chuộng"
+ ],
+ "目的地": [
+  "MỤC ĐÍCH ĐỊA",
+  "điểm đến"
+ ],
+ "铺开": [
+  "PHÔ KHAI",
+  "trải ra, mở rộng ra"
+ ],
+ "成衣": [
+  "THÀNH Y",
+  "quần áo may sẵn"
+ ],
+ "鞋": [
+  "HÀI",
+  "giày"
+ ],
+ "下游": [
+  "HẠ DU",
+  "hạ lưu; khâu sau (trong chuỗi cung ứng)"
+ ],
+ "一手": [
+  "NHẤT THỦ",
+  "trực tiếp, tận tay (一手的经验: kinh nghiệm thực tế); một tay nghề"
+ ],
+ "自负": [
+  "TỰ PHỤ",
+  "tự phụ, tự cao"
+ ],
+ "错误": [
+  "THÁC NGỘ",
+  "sai lầm"
+ ],
+ "第一站": [
+  "ĐỆ NHẤT TRẠM",
+  "điểm đến đầu tiên"
+ ],
+ "用降": [
+  "",
+  "(cắt từ chưa chuẩn của 用 + 降维: hạ chiều)"
+ ],
+ "维": [
+  "DUY",
+  "chiều (không gian) (降维打击: tấn công giáng chiều, đè bẹp đối thủ yếu hơn); duy trì"
+ ],
+ "傲慢": [
+  "NGẠO MẠN",
+  "ngạo mạn"
+ ],
+ "告终": [
+  "CÁO CHUNG",
+  "kết thúc (以失败为告终: kết cục là thất bại)"
+ ],
+ "门槛": [
+  "MÔN HẠM",
+  "ngưỡng cửa; rào cản gia nhập"
+ ],
+ "财税": [
+  "TÀI THUẾ",
+  "tài chính và thuế"
+ ],
+ "证件": [
+  "CHỨNG KIỆN",
+  "giấy tờ, giấy phép"
+ ],
+ "云南": [
+  "VÂN NAM",
+  "Vân Nam"
+ ],
+ "接壤": [
+  "TIẾP NHƯỠNG",
+  "giáp ranh"
+ ],
+ "灰清": [
+  "HÔI THANH",
+  "thông quan xám (灰色清关), đường không chính ngạch"
+ ],
+ "判断": [
+  "PHÁN ĐOÁN",
+  "phán đoán, đánh giá"
+ ],
+ "回款": [
+  "HỒI KHOẢN",
+  "thu hồi tiền hàng, dòng tiền về"
+ ],
+ "那然": [
+  "",
+  "(cắt từ chưa chuẩn của 那 + 然然后: rồi thì)"
+ ],
+ "感梦": [
+  "",
+  "(người nói phiên âm tiếng Việt “cảm ơn”)"
+ ],
+ "红盖": [
+  "",
+  "(người nói phiên âm một từ tiếng Việt nghĩa “xin lỗi”, ASR nghe chưa rõ)"
+ ],
+ "进口": [
+  "TIẾN KHẨU",
+  "nhập khẩu"
+ ],
+ "平和": [
+  "BÌNH HÒA",
+  "ôn hoà, điềm tĩnh"
+ ],
+ "领导力": [
+  "LÃNH ĐẠO LỰC",
+  "năng lực lãnh đạo"
+ ],
+ "九十": [
+  "CỬU THẬP",
+  "chín mươi (九十月份: tháng 9, tháng 10)"
+ ],
+ "月份": [
+  "NGUYỆT PHẦN",
+  "tháng"
+ ],
+ "时差": [
+  "THỜI SAI",
+  "chênh lệch múi giờ, độ vênh thời gian"
+ ],
+ "阳": [
+  "DƯƠNG",
+  "mặt trời; dương tính (阳了: bị dương tính Covid)"
+ ],
+ "几轮": [
+  "KỶ LUÂN",
+  "mấy đợt, mấy vòng"
+ ],
+ "观察者": [
+  "QUAN SÁT GIẢ",
+  "người quan sát"
+ ],
+ "形形色色": [
+  "HÌNH HÌNH SẮC SẮC",
+  "đủ loại, muôn hình muôn vẻ"
+ ],
+ "案": [
+  "ÁN",
+  "vụ án, hồ sơ; (成功案: nói vội của 成功案例, trường hợp thành công)"
+ ],
+ "老本行": [
+  "LÃO BẢN HÀNG",
+  "nghề cũ, nghề gốc"
+ ],
+ "现状": [
+  "HIỆN TRẠNG",
+  "hiện trạng, tình hình hiện tại"
+ ],
+ "全民": [
+  "TOÀN DÂN",
+  "toàn dân"
+ ],
+ "四万人": [
+  "TỨ VẠN NHÂN",
+  "bốn vạn người, 40.000 người"
+ ],
+ "体量": [
+  "THỂ LƯỢNG",
+  "quy mô"
+ ],
+ "繁体字": [
+  "PHỒN THỂ TỰ",
+  "chữ phồn thể"
+ ],
+ "三千": [
+  "TAM THIÊN",
+  "ba nghìn"
+ ],
+ "花销": [
+  "HOA TIÊU",
+  "chi tiêu, tiêu tiền"
+ ],
+ "无外乎": [
+  "VÔ NGOẠI HỒ",
+  "không ngoài, chẳng qua là"
+ ],
+ "两块": [
+  "LƯỠNG KHỐI",
+  "hai mảng; hai đồng (tệ)"
+ ],
+ "全球排名": [
+  "TOÀN CẦU BÀI DANH",
+  "xếp hạng toàn cầu"
+ ],
+ "水位": [
+  "THỦY VỊ",
+  "mực nước; (nghĩa bóng) mức, trình độ"
+ ],
+ "记错": [
+  "KÝ THÁC",
+  "nhớ nhầm"
+ ],
+ "位到": [
+  "",
+  "(cắt từ chưa chuẩn của 五十八位 + 到: từ hạng 58 đến)"
+ ],
+ "百": [
+  "BÁCH",
+  "trăm"
+ ],
+ "增长": [
+  "TĂNG TRƯỞNG",
+  "tăng trưởng"
+ ],
+ "百分之七": [
+  "BÁCH PHÂN CHI THẤT",
+  "7%"
+ ],
+ "芹菜": [
+  "CẦN THÁI",
+  "rau cần tây"
+ ],
+ "草字头": [
+  "THẢO TỰ ĐẦU",
+  "bộ thảo (艹) ở đầu chữ"
+ ],
+ "南": [
+  "NAM",
+  "phía nam"
+ ],
+ "一百六十": [
+  "NHẤT BÁCH LỤC THẬP",
+  "160"
+ ],
+ "高速": [
+  "CAO TỐC",
+  "cao tốc; đường cao tốc"
+ ],
+ "核心": [
+  "HẠCH TÂM",
+  "cốt lõi, trung tâm"
+ ],
+ "胡": [
+  "HỒ",
+  "họ Hồ; bừa bãi (胡说: nói bậy)"
+ ],
+ "堪比": [
+  "KHAM TỶ",
+  "sánh ngang với"
+ ],
+ "五八": [
+  "NGŨ BÁT",
+  "năm tám (ở đây ASR nghe chưa rõ)"
+ ],
+ "仓库": [
+  "THƯƠNG KHỐ",
+  "nhà kho"
+ ],
+ "创业者": [
+  "SÁNG NGHIỆP GIẢ",
+  "người khởi nghiệp"
+ ],
+ "初创": [
+  "SƠ SÁNG",
+  "mới thành lập, khởi nghiệp (初创者: người mới khởi nghiệp)"
+ ],
+ "包围": [
+  "BAO VI",
+  "bao vây (农村包围城市: lấy nông thôn bao vây thành thị)"
+ ],
+ "算不算": [
+  "TOÁN BẤT TOÁN",
+  "có tính là … không"
+ ],
+ "雇主": [
+  "CỐ CHỦ",
+  "chủ thuê lao động"
+ ],
+ "反之": [
+  "PHẢN CHI",
+  "ngược lại"
+ ],
+ "北越": [
+  "BẮC VIỆT",
+  "miền Bắc Việt Nam (trước 1975)"
+ ],
+ "欧美化": [
+  "ÂU MỸ HÓA",
+  "Âu Mỹ hoá, Tây hoá"
+ ],
+ "战争": [
+  "CHIẾN TRANH",
+  "chiến tranh"
+ ],
+ "华": [
+  "HOA",
+  "Hoa, Trung Hoa (华人: người Hoa)"
+ ],
+ "华文": [
+  "HOA VĂN",
+  "chữ Hoa, tiếng Hoa"
+ ],
+ "集聚": [
+  "TẬP TỤ",
+  "tập trung, tụ lại"
+ ],
+ "九郡": [
+  "CỬU QUẬN",
+  "quận 9 (TP.HCM)"
+ ],
+ "去更": [
+  "",
+  "(cắt từ chưa chuẩn của 去 + 更多: đi … nhiều hơn)"
+ ],
+ "可控": [
+  "KHẢ KHỐNG",
+  "kiểm soát được"
+ ],
+ "资产": [
+  "TƯ SẢN",
+  "tài sản (轻资产: mô hình ít tài sản, vốn nhẹ)"
+ ],
+ "控": [
+  "KHỐNG",
+  "kiểm soát, khống chế"
+ ],
+ "试听": [
+  "THÍ THÍNH",
+  "học thử, nghe thử"
+ ],
+ "培训中心": [
+  "BỒI HUẤN TRUNG TÂM",
+  "trung tâm đào tạo"
+ ],
+ "六所": [
+  "LỤC SỞ",
+  "sáu (trường) (所: lượng từ cho trường học)"
+ ],
+ "租": [
+  "TÔ",
+  "thuê; cho thuê"
+ ],
+ "口碑": [
+  "KHẨU BI",
+  "tiếng tăm, danh tiếng truyền miệng"
+ ],
+ "信心": [
+  "TÍN TÂM",
+  "lòng tin, tự tin"
+ ],
+ "人学": [
+  "",
+  "(cắt từ chưa chuẩn của 越南人 + 学: người Việt học)"
+ ],
+ "全奖": [
+  "TOÀN TƯỞNG",
+  "học bổng toàn phần"
+ ],
+ "交钱": [
+  "GIAO TIỀN",
+  "nộp tiền, trả tiền"
+ ],
+ "全额": [
+  "TOÀN NGẠCH",
+  "toàn bộ số tiền (全额奖学金: học bổng toàn phần)"
+ ],
+ "补贴": [
+  "BỔ THIẾP",
+  "trợ cấp"
+ ],
+ "宫廷": [
+  "CUNG ĐÌNH",
+  "cung đình (宫廷剧: phim cung đình)"
+ ],
+ "看宫": [
+  "",
+  "(cắt từ chưa chuẩn của 看 + 宫斗剧: xem phim cung đấu)"
+ ],
+ "宫斗剧": [
+  "CUNG ĐẤU KỊCH",
+  "phim cung đấu"
+ ],
+ "真对": [
+  "",
+  "(cắt từ chưa chuẩn của 真 + 对: thật … đúng)"
+ ],
+ "转播": [
+  "CHUYỂN BÁ",
+  "phát lại, tiếp sóng"
+ ],
+ "西游记": [
+  "TÂY DU KÝ",
+  "Tây Du Ký"
+ ],
+ "悟空": [
+  "NGỘ KHÔNG",
+  "Tôn Ngộ Không"
+ ],
+ "猪八戒": [
+  "TRƯ BÁT GIỚI",
+  "Trư Bát Giới"
+ ],
+ "孔庙": [
+  "KHỔNG MIẾU",
+  "Văn Miếu (miếu thờ Khổng Tử)"
+ ],
+ "果然": [
+  "QUẢ NHIÊN",
+  "quả nhiên"
+ ],
+ "文化交流": [
+  "VĂN HÓA GIAO LƯU",
+  "giao lưu văn hoá"
+ ],
+ "庙里": [
+  "MIẾU LÝ",
+  "trong miếu, trong đền"
+ ],
+ "横批": [
+  "HOÀNH PHÊ",
+  "hoành phi (bức chữ treo ngang trên câu đối)"
+ ],
+ "对联": [
+  "ĐỐI LIÊN",
+  "câu đối"
+ ],
+ "勾起": [
+  "CÂU KHỞI",
+  "gợi lên (勾起回忆: gợi lại kỷ niệm)"
+ ],
+ "一亿": [
+  "NHẤT ỨC",
+  "một trăm triệu"
+ ],
+ "大国": [
+  "ĐẠI QUỐC",
+  "nước lớn, cường quốc"
+ ],
+ "却是": [
+  "KHƯỚC THỊ",
+  "lại là, vậy mà là"
+ ],
+ "美金": [
+  "MỸ KIM",
+  "đô la Mỹ"
+ ],
+ "三分之一": [
+  "TAM PHÂN CHI NHẤT",
+  "một phần ba"
+ ],
+ "更偏": [
+  "",
+  "(cắt từ chưa chuẩn của 更 + 偏: nghiêng về … hơn)"
+ ],
+ "华族": [
+  "HOA TỘC",
+  "người Hoa, dân tộc Hoa"
+ ],
+ "遗留": [
+  "DI LƯU",
+  "để lại, sót lại"
+ ],
+ "多元化": [
+  "ĐA NGUYÊN HÓA",
+  "đa dạng hoá, đa nguyên"
+ ],
+ "印尼": [
+  "ẤN NI",
+  "Indonesia"
+ ],
+ "小伙子": [
+  "TIỂU HỎA TỬ",
+  "chàng trai trẻ"
+ ],
+ "论": [
+  "LUẬN",
+  "bàn về; xét về (论…来说: xét về … mà nói)"
+ ],
+ "新西兰": [
+  "TÂN TÂY LAN",
+  "New Zealand"
+ ],
+ "听的歌": [
+  "",
+  "bài hát (họ) nghe"
+ ],
+ "面向": [
+  "DIỆN HƯỚNG",
+  "hướng tới, dành cho"
+ ],
+ "人士": [
+  "NHÂN SĨ",
+  "người, nhân sĩ (职场人士: người đi làm)"
+ ],
+ "从业者": [
+  "TÒNG NGHIỆP GIẢ",
+  "người làm trong ngành"
+ ],
+ "考证": [
+  "KHẢO CHỨNG",
+  "khảo chứng; (khẩu ngữ) thi lấy chứng chỉ"
+ ],
+ "速成班": [
+  "TỐC THÀNH BAN",
+  "lớp cấp tốc"
+ ],
+ "基于": [
+  "CƠ VU",
+  "dựa trên"
+ ],
+ "评定": [
+  "BÌNH ĐỊNH",
+  "đánh giá xếp loại"
+ ],
+ "卡六": [
+  "",
+  "(cắt từ chưa chuẩn của 哈斯卡 + 六: HSK 6)"
+ ],
+ "三级": [
+  "TAM CẤP",
+  "cấp 3"
+ ],
+ "两千个": [
+  "LƯỠNG THIÊN CÁ",
+  "hai nghìn (cái)"
+ ],
+ "中级": [
+  "TRUNG CẤP",
+  "trung cấp"
+ ],
+ "水平线": [
+  "THỦY BÌNH TUYẾN",
+  "đường chân trời; (nghĩa bóng) cùng một mặt bằng trình độ"
+ ],
+ "五千": [
+  "NGŨ THIÊN",
+  "năm nghìn"
+ ],
+ "六千": [
+  "LỤC THIÊN",
+  "sáu nghìn"
+ ],
+ "工资水平": [
+  "CÔNG TƯ THỦY BÌNH",
+  "mức lương"
+ ],
+ "一千两": [
+  "",
+  "(cắt từ chưa chuẩn của 一千两百万: 12 triệu)"
+ ],
+ "一千五百万": [
+  "NHẤT THIÊN NGŨ BÁCH VẠN",
+  "15 triệu"
+ ],
+ "四千左右": [
+  "TỨ THIÊN TẢ HỮU",
+  "khoảng bốn nghìn"
+ ],
+ "硬核": [
+  "NGẠNH HẠCH",
+  "hardcore, chuyên sâu, khó nhằn"
+ ],
+ "抓紧": [
+  "TRẢO KHẨN",
+  "siết chặt; tranh thủ"
+ ],
+ "税收": [
+  "THUẾ THU",
+  "thu thuế, nguồn thu thuế"
+ ],
+ "激进": [
+  "KÍCH TIẾN",
+  "cấp tiến, hung hăng, mạo hiểm"
+ ],
+ "斡旋": [
+  "OÁT TOÀN",
+  "dàn xếp, xoay xở"
+ ],
+ "动态": [
+  "ĐỘNG THÁI",
+  "động thái, diễn biến"
+ ],
+ "迟迟": [
+  "TRÌ TRÌ",
+  "chậm trễ mãi, chần chừ"
+ ],
+ "纳税": [
+  "NẠP THUẾ",
+  "nộp thuế"
+ ],
+ "牌照": [
+  "BÀI CHIẾU",
+  "giấy phép kinh doanh; biển số xe"
+ ],
+ "越南盾": [
+  "VIỆT NAM THUẪN",
+  "đồng Việt Nam (VND)"
+ ],
+ "税务机关": [
+  "THUẾ VỤ CƠ QUAN",
+  "cơ quan thuế"
+ ],
+ "税务": [
+  "THUẾ VỤ",
+  "thuế vụ, cơ quan thuế"
+ ],
+ "进项": [
+  "TIẾN HẠNG",
+  "khoản thu vào; (thuế) đầu vào, hoá đơn đầu vào"
+ ],
+ "发票": [
+  "PHÁT PHIẾU",
+  "hoá đơn"
+ ],
+ "三倍": [
+  "TAM BỘI",
+  "gấp ba"
+ ],
+ "罚款": [
+  "PHẠT KHOẢN",
+  "tiền phạt; phạt tiền"
+ ],
+ "存款": [
+  "TỒN KHOẢN",
+  "tiền gửi, tiền tiết kiệm"
+ ],
+ "得赔": [
+  "",
+  "(cắt từ chưa chuẩn của 必须得 + 赔: phải bồi thường)"
+ ],
+ "起诉": [
+  "KHỞI TỐ",
+  "khởi tố, kiện"
+ ],
+ "坐牢": [
+  "TỌA LAO",
+  "ngồi tù"
+ ],
+ "逃税": [
+  "ĐÀO THUẾ",
+  "trốn thuế"
+ ],
+ "前段": [
+  "TIỀN ĐOẠN",
+  "đoạn trước (前段时间: thời gian trước)"
+ ],
+ "钱甘": [
+  "",
+  "(ASR nghe chưa rõ: … 甘肃, tỉnh Cam Túc)"
+ ],
+ "肃": [
+  "TÚC",
+  "(chữ sau của 甘肃: tỉnh Cam Túc); nghiêm túc"
+ ],
+ "天水": [
+  "THIÊN THỦY",
+  "Thiên Thuỷ (thành phố ở Cam Túc)"
+ ],
+ "超标": [
+  "SIÊU TIÊU",
+  "vượt tiêu chuẩn"
+ ],
+ "心痛": [
+  "TÂM THỐNG",
+  "đau lòng"
+ ],
+ "直觉": [
+  "TRỰC GIÁC",
+  "trực giác (反直觉: ngược với trực giác)"
+ ],
+ "中小": [
+  "TRUNG TIỂU",
+  "vừa và nhỏ"
+ ],
+ "睁一只眼": [
+  "TRANH NHẤT CHÍCH NHÃN",
+  "mở một mắt (睁一只眼闭一只眼: nhắm mắt làm ngơ)"
+ ],
+ "闭一只眼": [
+  "BẾ NHẤT CHÍCH NHÃN",
+  "nhắm một mắt (睁一只眼闭一只眼: nhắm mắt làm ngơ)"
+ ],
+ "为先": [
+  "VI TIÊN",
+  "đặt lên hàng đầu"
+ ],
+ "边境贸易": [
+  "BIÊN CẢNH MẬU DỊCH",
+  "thương mại biên giới, buôn bán tiểu ngạch"
+ ],
+ "更换": [
+  "CANH HOÁN",
+  "thay đổi, thay thế"
+ ],
+ "公安部长": [
+  "CÔNG AN BỘ TRƯỞNG",
+  "Bộ trưởng Bộ Công an"
+ ],
+ "顺位": [
+  "THUẬN VỊ",
+  "thứ tự, thứ hạng (第一顺位: hàng đầu tiên)"
+ ],
+ "第九位": [
+  "ĐỆ CỬU VỊ",
+  "vị trí thứ chín"
+ ],
+ "王岐山": [
+  "VƯƠNG KỲ SƠN",
+  "Vương Kỳ Sơn (chính khách Trung Quốc)"
+ ],
+ "第一位": [
+  "ĐỆ NHẤT VỊ",
+  "vị trí số một"
+ ],
+ "政": [
+  "CHÍNH",
+  "chính trị (政政局: nói lặp 政局)"
+ ],
+ "严厉": [
+  "NGHIÊM LỆ",
+  "nghiêm khắc, gắt gao"
+ ],
+ "社会主义": [
+  "XÃ HỘI CHỦ NGHĨA",
+  "chủ nghĩa xã hội"
+ ],
+ "腐败": [
+  "HỦ BẠI",
+  "tham nhũng, hủ bại"
+ ],
+ "怎我": [
+  "",
+  "(cắt từ chưa chuẩn: 怎 nói dở + 我)"
+ ],
+ "题外话": [
+  "ĐỀ NGOẠI THOẠI",
+  "chuyện ngoài lề"
+ ],
+ "驾照": [
+  "GIÁ CHIẾU",
+  "bằng lái xe"
+ ],
+ "拦": [
+  "LAN",
+  "chặn lại"
+ ],
+ "罚": [
+  "PHẠT",
+  "phạt"
+ ],
+ "口袋": [
+  "KHẨU ĐẠI",
+  "túi"
+ ],
+ "泰国": [
+  "THÁI QUỐC",
+  "Thái Lan"
+ ],
+ "外来": [
+  "NGOẠI LAI",
+  "từ bên ngoài, ngoại lai"
+ ],
+ "看刷": [
+  "",
+  "(cắt từ chưa chuẩn của 看 + 刷: xem, lướt (video))"
+ ],
+ "活跃度": [
+  "HOẠT DƯỢC ĐỘ",
+  "mức độ hoạt động, độ sôi nổi"
+ ],
+ "菲律宾": [
+  "PHI LUẬT TÂN",
+  "Philippines"
+ ],
+ "家庭主妇": [
+  "GIA ĐÌNH CHỦ PHỤ",
+  "bà nội trợ"
+ ],
+ "烧饭": [
+  "THIÊU PHẠN",
+  "nấu cơm"
+ ],
+ "支架": [
+  "CHI GIÁ",
+  "giá đỡ"
+ ],
+ "家务": [
+  "GIA VỤ",
+  "việc nhà"
+ ],
+ "泡泡": [
+  "PHAO PHAO",
+  "bong bóng (泡泡玛特: Pop Mart)"
+ ],
+ "玛特": [
+  "MÃ ĐẶC",
+  "(泡泡玛特: Pop Mart, hãng đồ chơi hộp mù)"
+ ],
+ "上千人": [
+  "THƯỢNG THIÊN NHÂN",
+  "hàng nghìn người"
+ ],
+ "舞": [
+  "VŨ",
+  "múa, nhảy"
+ ],
+ "能歌善舞": [
+  "NĂNG CA THIỆN VŨ",
+  "giỏi ca múa"
+ ],
+ "民族": [
+  "DÂN TỘC",
+  "dân tộc"
+ ],
+ "娱乐活动": [
+  "NGU LẠC HOẠT ĐỘNG",
+  "hoạt động giải trí"
+ ],
+ "每家每户": [
+  "MỖI GIA MỖI HỘ",
+  "nhà nhà, mọi hộ gia đình"
+ ],
+ "连着": [
+  "LIÊN TRƯỚC",
+  "nối với, kết nối với"
+ ],
+ "自娱自乐": [
+  "TỰ NGU TỰ LẠC",
+  "tự mua vui cho mình"
+ ],
+ "自发性": [
+  "TỰ PHÁT TÍNH",
+  "tính tự phát"
+ ],
+ "四十五岁": [
+  "TỨ THẬP NGŨ TUẾ",
+  "45 tuổi"
+ ],
+ "百分之七十": [
+  "BÁCH PHÂN CHI THẤT THẬP",
+  "70%"
+ ],
+ "难看": [
+  "NAN KHÁN",
+  "xấu xí; (很难看得到: khó mà thấy được)"
+ ],
+ "街头": [
+  "NHAI ĐẦU",
+  "đường phố"
+ ],
+ "三五分钟": [
+  "TAM NGŨ PHÂN CHUNG",
+  "dăm ba phút"
+ ],
+ "小姐姐": [
+  "TIỂU TỶ TỶ",
+  "chị gái trẻ, cô gái trẻ"
+ ],
+ "载": [
+  "TẢI",
+  "chở"
+ ],
+ "狭路相逢": [
+  "HIỆP LỘ TƯƠNG PHÙNG",
+  "(thành ngữ) gặp nhau nơi đường hẹp (…勇者胜: ai gan thì thắng)"
+ ],
+ "勇者胜": [
+  "DŨNG GIẢ THẮNG",
+  "kẻ dũng cảm thắng (狭路相逢勇者胜)"
+ ],
+ "玄妙": [
+  "HUYỀN DIỆU",
+  "huyền diệu, bí ẩn"
+ ],
+ "聊完": [
+  "LIÊU HOÀN",
+  "nói chuyện xong"
+ ],
+ "呃在": [
+  "",
+  "(cắt từ chưa chuẩn của 呃 + 在: ờ, ở)"
+ ],
+ "多重": [
+  "ĐA TRÙNG",
+  "nhiều tầng, nhiều (多重身份: nhiều vai trò)"
+ ],
+ "信群": [
+  "",
+  "(cắt từ chưa chuẩn của 微信群: nhóm WeChat)"
+ ],
+ "开拓": [
+  "KHAI THÁC",
+  "khai phá, mở ra (thị trường mới)"
+ ],
+ "古寺": [
+  "CỔ TỰ",
+  "chùa cổ"
+ ],
+ "先挑": [
+  "",
+  "(先 + 挑: chọn trước)"
+ ],
+ "动静": [
+  "ĐỘNG TĨNH",
+  "động và tĩnh; động tĩnh"
+ ],
+ "动如": [
+  "ĐỘNG NHƯ",
+  "khi động thì như (动如脱兔: nhanh như thỏ chạy)"
+ ],
+ "狡兔": [
+  "GIẢO THỐ",
+  "thỏ ranh (người nói nhầm 脱兔 thành 狡兔)"
+ ],
+ "那静如": [
+  "",
+  "(cắt từ chưa chuẩn của 那 + 静如: còn khi tĩnh thì như)"
+ ],
+ "静如处子": [
+  "TĨNH NHƯ XỬ TỬ",
+  "(thành ngữ) tĩnh như thiếu nữ, điềm đạm"
+ ],
+ "双鱼座": [
+  "SONG NGƯ TỌA",
+  "cung Song Ngư"
+ ],
+ "星座": [
+  "TINH TỌA",
+  "chòm sao; cung hoàng đạo"
+ ],
+ "独行侠": [
+  "ĐỘC HÀNH HIỆP",
+  "người hay đi một mình, kẻ một mình một ngựa"
+ ],
+ "跑遍": [
+  "BÀO BIẾN",
+  "đi khắp, chạy khắp"
+ ],
+ "威尔士": [
+  "UY NHĨ SĨ",
+  "xứ Wales"
+ ],
+ "爬山": [
+  "BÀ SƠN",
+  "leo núi"
+ ],
+ "怀特": [
+  "HOÀI ĐẶC",
+  "(怀特岛: đảo Wight, Anh)"
+ ],
+ "岛": [
+  "ĐẢO",
+  "đảo"
+ ],
+ "北爱": [
+  "BẮC ÁI",
+  "Bắc Ireland (nói tắt)"
+ ],
+ "冲突": [
+  "XUNG ĐỘT",
+  "xung đột"
+ ],
+ "十大": [
+  "THẬP ĐẠI",
+  "top 10, mười … hàng đầu"
+ ],
+ "星": [
+  "TINH",
+  "ngôi sao (公益之星: ngôi sao thiện nguyện)"
+ ],
+ "整是": [
+  "",
+  "(cắt từ chưa chuẩn: 整 nói dở + 是)"
+ ],
+ "日报": [
+  "NHẬT BÁO",
+  "nhật báo"
+ ],
+ "采访": [
+  "THÁI PHỎNG",
+  "phỏng vấn (báo chí)"
+ ],
+ "倡导": [
+  "XƯỚNG ĐẠO",
+  "khởi xướng, kêu gọi"
+ ],
+ "传过来": [
+  "TRUYỀN QUÁ LAI",
+  "truyền sang"
+ ],
+ "拾起": [
+  "THẬP KHỞI",
+  "nhặt lên"
+ ],
+ "群山": [
+  "QUẦN SƠN",
+  "dãy núi, núi non"
+ ],
+ "带领": [
+  "ĐỚI LĨNH",
+  "dẫn dắt"
+ ],
+ "人次": [
+  "NHÂN THỨ",
+  "lượt người"
+ ],
+ "五百公斤": [
+  "NGŨ BÁCH CÔNG CÂN",
+  "500 kg"
+ ],
+ "身体力行": [
+  "THÂN THỂ LỰC HÀNH",
+  "(thành ngữ) tự mình làm gương, nói đi đôi với làm"
+ ],
+ "希": [
+  "HY",
+  "mong (希希望: nói lặp 希望)"
+ ],
+ "打断": [
+  "ĐẢ ĐOẠN",
+  "ngắt lời; làm gãy"
+ ],
+ "马哥": [
+  "MÃ CA",
+  "anh Mã (cách gọi thân)"
+ ],
+ "两头跑": [
+  "LƯỠNG ĐẦU BÀO",
+  "chạy đi chạy lại hai nơi"
+ ],
+ "合作伙伴": [
+  "HỢP TÁC HỎA BẠN",
+  "đối tác"
+ ],
+ "皮克伯": [
+  "",
+  "(ASR nghe chưa rõ, có lẽ là pickleball)"
+ ],
+ "供货": [
+  "CUNG HÓA",
+  "cung cấp hàng"
+ ],
+ "后装": [
+  "HẬU TRANG",
+  "(ô tô) lắp thêm sau xuất xưởng, aftermarket"
+ ],
+ "改装": [
+  "CẢI TRANG",
+  "cải tạo, độ (xe)"
+ ],
+ "事物": [
+  "SỰ VẬT",
+  "sự vật"
+ ],
+ "匹克匹克球": [
+  "",
+  "(nói lặp) pickleball (匹克球)"
+ ],
+ "快快": [
+  "KHOÁI KHOÁI",
+  "(nói lặp 快要) sắp"
+ ],
+ "国球": [
+  "QUỐC CẦU",
+  "môn thể thao quốc dân"
+ ],
+ "群众": [
+  "QUẦN CHÚNG",
+  "quần chúng, người dân"
+ ],
+ "老百姓": [
+  "LÃO BÁCH TÍNH",
+  "dân thường"
+ ],
+ "乐于": [
+  "LẠC VU",
+  "vui lòng, thích (làm gì)"
+ ],
+ "球员": [
+  "CẦU VIÊN",
+  "cầu thủ, vận động viên (môn bóng)"
+ ],
+ "冠军": [
+  "QUÁN QUÂN",
+  "vô địch"
+ ],
+ "乒乓外交": [
+  "BINH BANG NGOẠI GIAO",
+  "ngoại giao bóng bàn"
+ ],
+ "匹克": [
+  "THẤT KHẮC",
+  "(匹克球: pickleball); hãng Peak"
+ ],
+ "候鸟": [
+  "HẬU ĐIỂU",
+  "chim di trú"
+ ],
+ "验": [
+  "NGHIỆM",
+  "kiểm tra; (chữ sau của 体验: trải nghiệm)"
+ ],
+ "游牧": [
+  "DU MỤC",
+  "du mục"
+ ],
+ "自雇": [
+  "TỰ CỐ",
+  "tự làm chủ, tự kinh doanh (自雇签证: visa tự làm chủ)"
+ ],
+ "视角": [
+  "THỊ GIÁC",
+  "góc nhìn"
+ ],
+ "支点": [
+  "CHI ĐIỂM",
+  "điểm tựa"
+ ],
+ "全球化": [
+  "TOÀN CẦU HÓA",
+  "toàn cầu hoá"
+ ],
+ "一轮": [
+  "NHẤT LUÂN",
+  "một vòng, một đợt"
+ ],
+ "热土": [
+  "NHIỆT THỔ",
+  "vùng đất sôi động, mảnh đất màu mỡ (để khởi nghiệp)"
+ ],
+ "西语": [
+  "TÂY NGỮ",
+  "tiếng Tây Ban Nha (西语区: vùng nói tiếng Tây Ban Nha)"
+ ],
+ "跳板": [
+  "KHIÊU BẢN",
+  "bàn đạp"
+ ],
+ "广泛": [
+  "QUẢNG PHIẾM",
+  "rộng rãi"
+ ],
+ "愿闻": [
+  "NGUYỆN VĂN",
+  "muốn được nghe (愿闻详情: xin nghe chi tiết)"
+ ],
+ "详情": [
+  "TƯỜNG TÌNH",
+  "chi tiết, tình hình cụ thể"
+ ],
+ "刚前": [
+  "",
+  "(cắt từ chưa chuẩn của 刚 + 前两周: vừa … hai tuần trước)"
+ ],
+ "百分之六十": [
+  "BÁCH PHÂN CHI LỤC THẬP",
+  "60%"
+ ],
+ "家园": [
+  "GIA VIÊN",
+  "quê nhà (第二家园: chương trình Malaysia My Second Home)"
+ ],
+ "有效": [
+  "HỮU HIỆU",
+  "có hiệu lực, có hiệu quả"
+ ],
+ "续签": [
+  "TỤC THIÊM",
+  "gia hạn (visa, hợp đồng)"
+ ],
+ "办公": [
+  "BIỆN CÔNG",
+  "làm việc văn phòng (线上化办公: làm việc online)"
+ ],
+ "永久": [
+  "VĨNH CỬU",
+  "vĩnh viễn (ở đây: thường trú vĩnh viễn)"
+ ],
+ "领馆": [
+  "LÃNH QUÁN",
+  "lãnh sự quán"
+ ],
+ "排号": [
+  "BÀI HIỆU",
+  "xếp hàng lấy số"
+ ],
+ "经济体": [
+  "KINH TẾ THỂ",
+  "nền kinh tế"
+ ],
+ "仅次于": [
+  "CẬN THỨ VU",
+  "chỉ đứng sau"
+ ],
+ "马德": [
+  "",
+  "(nói dở 马德里: Madrid)"
+ ],
+ "仓库区": [
+  "THƯƠNG KHỐ KHU",
+  "khu nhà kho"
+ ],
+ "转运": [
+  "CHUYỂN VẬN",
+  "trung chuyển hàng"
+ ],
+ "转到": [
+  "CHUYỂN ĐÁO",
+  "chuyển đến"
+ ],
+ "东欧": [
+  "ĐÔNG ÂU",
+  "Đông Âu"
+ ],
+ "货物": [
+  "HÓA VẬT",
+  "hàng hoá"
+ ],
+ "流转": [
+  "LƯU CHUYỂN",
+  "lưu chuyển, luân chuyển"
+ ],
+ "资讯": [
+  "TƯ TẤN",
+  "thông tin"
+ ],
+ "踩": [
+  "",
+  "giẫm (踩坑: giẫm phải hố, mắc bẫy)"
+ ],
+ "发掘": [
+  "PHÁT QUẬT",
+  "khai quật; tìm ra"
+ ],
+ "待待": [
+  "",
+  "(nói lặp 待: ở lại)"
+ ],
+ "反推": [
+  "PHẢN THÔI",
+  "suy ngược lại"
+ ],
+ "差异化": [
+  "SAI DỊ HÓA",
+  "khác biệt hoá"
+ ],
+ "单价": [
+  "ĐƠN GIÁ",
+  "đơn giá (客单价: giá trị trung bình mỗi đơn)"
+ ],
+ "消费者": [
+  "TIÊU PHÍ GIẢ",
+  "người tiêu dùng"
+ ],
+ "复购": [
+  "PHỤC CẤU",
+  "mua lại lần nữa"
+ ],
+ "粘性": [
+  "NIÊM TÍNH",
+  "độ dính; (nghĩa bóng) độ gắn bó của khách"
+ ],
+ "私域": [
+  "TƯ VỰC",
+  "kênh khách hàng riêng (tự quản lý, như nhóm chat, fanpage)"
+ ],
+ "本地化": [
+  "BẢN ĐỊA HÓA",
+  "bản địa hoá"
+ ],
+ "狼吞": [
+  "LANG THÔN",
+  "ăn ngấu nghiến (狼吞虎咽); (ở đây ASR nghe chưa rõ)"
+ ],
+ "受用": [
+  "THỤ DỤNG",
+  "có ích, được lợi"
+ ],
+ "师兄": [
+  "SƯ HUYNH",
+  "sư huynh, đàn anh cùng thầy/cùng trường"
+ ],
+ "一代人": [
+  "NHẤT ĐẠI NHÂN",
+  "một thế hệ"
+ ],
+ "抓到": [
+  "TRẢO ĐÁO",
+  "nắm được, bắt được"
+ ],
+ "红利": [
+  "HỒNG LỢI",
+  "cổ tức; (nghĩa bóng) lợi thế thời cơ"
+ ],
+ "但但": [
+  "",
+  "(nói lặp 但: nhưng)"
+ ],
+ "财富": [
+  "TÀI PHÚ",
+  "của cải"
+ ],
+ "发给": [
+  "PHÁT CẤP",
+  "gửi cho, phát cho"
+ ],
+ "遇见": [
+  "NGỘ KIẾN",
+  "gặp"
+ ],
+ "另一面": [
+  "LÁNH NHẤT DIỆN",
+  "mặt khác"
+ ],
+ "预见": [
+  "DỰ KIẾN",
+  "dự kiến, thấy trước"
+ ],
+ "当初": [
+  "ĐƯƠNG SƠ",
+  "lúc đầu, thuở ấy"
+ ],
+ "最初": [
+  "TỐI SƠ",
+  "ban đầu"
+ ],
+ "五公里": [
+  "NGŨ CÔNG LÝ",
+  "5 km"
+ ],
+ "九八": [
+  "CỬU BÁT",
+  "chín tám"
+ ],
+ "二十一": [
+  "NHỊ THẬP NHẤT",
+  "hai mươi mốt"
+ ],
+ "从零开始": [
+  "TÒNG LINH KHAI THỦY",
+  "bắt đầu lại từ số 0"
+ ],
+ "热爱": [
+  "NHIỆT ÁI",
+  "yêu thích say mê"
+ ],
+ "白跑": [
+  "BẠCH BÀO",
+  "chạy uổng công, chạy không"
+ ],
+ "发会": [
+  "",
+  "(cắt từ chưa chuẩn: 发 nói dở + 会发现)"
+ ],
+ "喜": [
+  "HỶ",
+  "vui; thích (不喜: nói dở)"
+ ],
+ "野": [
+  "DÃ",
+  "hoang dã, ngoài đồng (跑野跑: chạy địa hình)"
+ ],
+ "负重": [
+  "PHỤ TRỌNG",
+  "mang vác nặng"
+ ],
+ "扛下来": [
+  "",
+  "vác xuống (núi)"
+ ],
+ "分段": [
+  "PHÂN ĐOẠN",
+  "chia đoạn"
+ ],
+ "夜野": [
+  "",
+  "(ASR nghe chưa rõ: 越野 việt dã hoặc 夜跑 chạy đêm)"
+ ],
+ "十六个": [
+  "THẬP LỤC CÁ",
+  "mười sáu (cái)"
+ ],
+ "十八个": [
+  "THẬP BÁT CÁ",
+  "mười tám (cái)"
+ ],
+ "千米": [
+  "THIÊN MỄ",
+  "nghìn mét (四千米: 4000 m)"
+ ],
+ "增": [
+  "TĂNG",
+  "tăng"
+ ],
+ "四千多": [
+  "TỨ THIÊN ĐA",
+  "hơn bốn nghìn"
+ ],
+ "平路": [
+  "BÌNH LỘ",
+  "đường bằng"
+ ],
+ "一百四十": [
+  "NHẤT BÁCH TỨ THẬP",
+  "140"
+ ],
+ "国境线": [
+  "QUỐC CẢNH TUYẾN",
+  "đường biên giới quốc gia"
+ ],
+ "一百二十八": [
+  "NHẤT BÁCH NHỊ THẬP BÁT",
+  "128"
+ ],
+ "一百二十五": [
+  "NHẤT BÁCH NHỊ THẬP NGŨ",
+  "125"
+ ],
+ "周年": [
+  "CHU NIÊN",
+  "năm (kỷ niệm), chu niên"
+ ],
+ "全岛": [
+  "TOÀN ĐẢO",
+  "toàn đảo"
+ ],
+ "越野": [
+  "VIỆT DÃ",
+  "việt dã, chạy địa hình"
+ ],
+ "接力": [
+  "TIẾP LỰC",
+  "tiếp sức"
+ ],
+ "六公里": [
+  "LỤC CÔNG LÝ",
+  "6 km"
+ ],
+ "不敢相信": [
+  "BẤT CẢM TƯƠNG TÍN",
+  "không dám tin"
+ ],
+ "小白": [
+  "TIỂU BẠCH",
+  "người mới, tay mơ"
+ ],
+ "秒": [
+  "MIỂU",
+  "giây"
+ ],
+ "体力": [
+  "THỂ LỰC",
+  "thể lực"
+ ],
+ "听播": [
+  "",
+  "(cắt từ chưa chuẩn của 听 + 播客: nghe podcast)"
+ ],
+ "注意力": [
+  "CHÚ Ý LỰC",
+  "sự chú ý, khả năng tập trung"
+ ],
+ "半马": [
+  "BÁN MÃ",
+  "bán marathon (21 km)"
+ ],
+ "碰壁": [
+  "BÍNH BÍCH",
+  "đụng tường; (nghĩa bóng) gặp trở ngại"
+ ],
+ "慢跑": [
+  "MẠN BÀO",
+  "chạy chậm"
+ ],
+ "锻炼": [
+  "ĐOÁN LUYỆN",
+  "rèn luyện, tập luyện"
+ ],
+ "艰难": [
+  "GIAN NAN",
+  "gian nan"
+ ],
+ "煎熬": [
+  "TIỄN NGAO",
+  "dày vò, khổ sở"
+ ],
+ "二十公里": [
+  "NHỊ THẬP CÔNG LÝ",
+  "20 km"
+ ],
+ "三五": [
+  "TAM NGŨ",
+  "dăm ba; (一百三，五分配: 130, pace 5 phút)"
+ ],
+ "一百六十五": [
+  "NHẤT BÁCH LỤC THẬP NGŨ",
+  "165"
+ ],
+ "区间": [
+  "KHU GIAN",
+  "khoảng, vùng (giá trị)"
+ ],
+ "负荷": [
+  "PHỤ HÀ",
+  "tải, gánh nặng"
+ ],
+ "步频": [
+  "BỘ TẦN",
+  "nhịp bước chân (cadence)"
+ ],
+ "咬牙": [
+  "GIẢO NHA",
+  "nghiến răng"
+ ],
+ "马拉松": [
+  "MÃ LẠP TÙNG",
+  "marathon"
+ ],
+ "跑跑": [
+  "BÀO BÀO",
+  "(nói lặp 跑: chạy)"
+ ],
+ "早起": [
+  "TẢO KHỞI",
+  "dậy sớm"
+ ],
+ "日出": [
+  "NHẬT XUẤT",
+  "mặt trời mọc"
+ ],
+ "鸟声": [
+  "ĐIỂU THANH",
+  "tiếng chim"
+ ],
+ "漫山遍野": [
+  "MẠN SƠN BIẾN DÃ",
+  "(thành ngữ) khắp núi khắp đồng"
+ ],
+ "哪一天": [
+  "NA NHẤT THIÊN",
+  "một ngày nào đó"
+ ],
+ "西湖": [
+  "TÂY HỒ",
+  "Tây Hồ (Hàng Châu)"
+ ],
+ "争鸣": [
+  "TRANH MINH",
+  "đua tiếng (百鸟争鸣: muôn chim đua hót)"
+ ],
+ "狰狞": [
+  "TRANH NINH",
+  "dữ tợn"
+ ],
+ "不论是": [
+  "BẤT LUẬN THỊ",
+  "bất kể là"
+ ],
+ "快来": [
+  "KHOÁI LAI",
+  "mau đến"
+ ],
+ "迈出": [
+  "MẠI XUẤT",
+  "bước ra (迈出那一步: bước ra bước đó)"
  ]
 }

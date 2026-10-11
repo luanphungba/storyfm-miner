@@ -1,0 +1,949 @@
+{
+  "episode": "SW20250930",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-11",
+  "fixes": [
+    {
+      "cueIndex": 1,
+      "before": "Small World",
+      "after": "SmallWorld",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 3,
+      "before": "Small World",
+      "after": "SmallWorld",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 14,
+      "before": "New Jersey",
+      "after": "NewJersey",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 14,
+      "before": "Ed ison",
+      "after": "Edison",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 46,
+      "before": "T ik",
+      "after": "Tik",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 46,
+      "before": "ik Tok",
+      "after": "ikTok",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 158,
+      "before": "G DP",
+      "after": "GDP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 159,
+      "before": "G DP",
+      "after": "GDP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 163,
+      "before": "k ento",
+      "after": "kento",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 229,
+      "before": "C SI",
+      "after": "CSI",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 240,
+      "before": "F ace",
+      "after": "Face",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 240,
+      "before": "ace book",
+      "after": "acebook",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 241,
+      "before": "You Tube",
+      "after": "YouTube",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 252,
+      "before": "sm aller",
+      "after": "smaller",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 256,
+      "before": "G DP",
+      "after": "GDP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 282,
+      "before": "HS K",
+      "after": "HSK",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 282,
+      "before": "HS CA",
+      "after": "HSCA",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 299,
+      "before": "H us",
+      "after": "Hus",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 299,
+      "before": "us ka",
+      "after": "uska",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 300,
+      "before": "H us",
+      "after": "Hus",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 300,
+      "before": "us ka",
+      "after": "uska",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 338,
+      "before": "T ik",
+      "after": "Tik",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 338,
+      "before": "ik Tok",
+      "after": "ikTok",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 389,
+      "before": "T ik",
+      "after": "Tik",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 389,
+      "before": "ik Tok",
+      "after": "ikTok",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 397,
+      "before": "B to",
+      "after": "Bto",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 397,
+      "before": "to B",
+      "after": "toB",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 417,
+      "before": "F ace",
+      "after": "Face",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 417,
+      "before": "ace book",
+      "after": "acebook",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 418,
+      "before": "T ik",
+      "after": "Tik",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 418,
+      "before": "ik Tok",
+      "after": "ikTok",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 424,
+      "before": "Baby Three",
+      "after": "BabyThree",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 428,
+      "before": "spe cial",
+      "after": "special",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 433,
+      "before": "You Tube",
+      "after": "YouTube",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 480,
+      "before": "pl ug",
+      "after": "plug",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 480,
+      "before": "ug ging",
+      "after": "ugging",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 481,
+      "before": "pl og",
+      "after": "plog",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 481,
+      "before": "og ging",
+      "after": "ogging",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 492,
+      "before": "pl ug",
+      "after": "plug",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 492,
+      "before": "ug ging",
+      "after": "ugging",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 541,
+      "before": "Sm all",
+      "after": "Small",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 541,
+      "before": "all World",
+      "after": "allWorld",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 553,
+      "before": "US M",
+      "after": "USM",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 553,
+      "before": "MM U",
+      "after": "MMU",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 579,
+      "before": "ware house",
+      "after": "warehouse",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 604,
+      "before": "end ending",
+      "after": "endending",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 607,
+      "before": "F ace",
+      "after": "Face",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 607,
+      "before": "ace book",
+      "after": "acebook",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 608,
+      "before": "Y alo",
+      "after": "Yalo",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 621,
+      "before": "sm all",
+      "after": "small",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 621,
+      "before": "all world",
+      "after": "allworld",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 624,
+      "before": "ech o",
+      "after": "echo",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 625,
+      "before": "Sm all",
+      "after": "Small",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 625,
+      "before": "all World",
+      "after": "allWorld",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 667,
+      "before": "f ocus",
+      "after": "focus",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 715,
+      "before": "Sm all",
+      "after": "Small",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 715,
+      "before": "all World",
+      "after": "allWorld",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 717,
+      "before": "reach out",
+      "after": "reachout",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 0,
+      "before": "一口",
+      "after": "亦可",
+      "source": "llm-review",
+      "reason": "whisper large-v3 and turbo both hear 海外亦可存知己 unprompted; a play on 海内存知己.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 1,
+      "before": "SmallWorld",
+      "after": "SmallWOD",
+      "source": "llm-review",
+      "reason": "The show and app are SmallWOD (from \"what a small world\"), said \"small world\"; written as the show spells it.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 3,
+      "before": "SmallWorld",
+      "after": "SmallWOD",
+      "source": "llm-review",
+      "reason": "The app SmallWOD, said \"small world\".",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 14,
+      "before": "NewJersey",
+      "after": "New Jersey",
+      "source": "llm-review",
+      "reason": "Two words; the glue pass joined them.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 40,
+      "before": "off er",
+      "after": "offer",
+      "source": "llm-review",
+      "reason": "English \"offer\" split into two tokens.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 46,
+      "before": "T TS",
+      "after": "TTS",
+      "source": "llm-review",
+      "reason": "TikTok Shop's abbreviation TTS, split by the ASR.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 92,
+      "before": "灰情",
+      "after": "灰清",
+      "source": "llm-review",
+      "reason": "灰色清关; the show notes write \"灰清\"与\"正清\".",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 93,
+      "before": "正情",
+      "after": "正清",
+      "source": "llm-review",
+      "reason": "正规清关; the show notes write \"灰清\"与\"正清\".",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 116,
+      "before": "养了几轮",
+      "after": "阳了几轮",
+      "source": "llm-review",
+      "reason": "Back in China in 2023, people around him had had COVID (阳了) several times; 养了几轮 makes no sense.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 128,
+      "before": "牛老本行",
+      "after": "你老本行",
+      "source": "llm-review",
+      "reason": "whisper large-v3 and turbo both hear 你(的)老本行 unprompted; e-commerce is his old line of work.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 163,
+      "before": "kento",
+      "after": "Cần Thơ",
+      "source": "llm-review",
+      "reason": "He gives the city's Vietnamese name, then spells its Chinese one 芹苴; Cần Thơ is that name.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 164,
+      "before": "秦举",
+      "after": "芹苴",
+      "source": "llm-review",
+      "reason": "He spells it: 芹菜的芹 and 草字头一个且 (苴). The city Cần Thơ, 芹苴.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 207,
+      "before": "秦曲",
+      "after": "芹苴",
+      "source": "llm-review",
+      "reason": "The city 芹苴 (Cần Thơ) he spelled out in sentence 164.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 215,
+      "before": "琴局",
+      "after": "芹苴",
+      "source": "llm-review",
+      "reason": "The city 芹苴 (Cần Thơ) he spelled out in sentence 164.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 216,
+      "before": "琴局大学",
+      "after": "芹苴大学",
+      "source": "llm-review",
+      "reason": "Can Tho University, 芹苴大学.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 218,
+      "before": "情绪大学",
+      "after": "芹苴大学",
+      "source": "llm-review",
+      "reason": "His landlord teaches at the university just named, 芹苴大学; whisper hears 情趣, the same blurred 芹苴.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 221,
+      "before": "神分",
+      "after": "省份",
+      "source": "llm-review",
+      "reason": "辐射到周边的其他一些省份、临近的一些省份; the speaker says sh-/-eng as shen-.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 235,
+      "before": "TV B",
+      "after": "TVB",
+      "source": "llm-review",
+      "reason": "The Hong Kong broadcaster TVB, split by the ASR.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 236,
+      "before": "TV B",
+      "after": "TVB",
+      "source": "llm-review",
+      "reason": "The Hong Kong broadcaster TVB, split by the ASR.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 252,
+      "before": "smaller",
+      "after": "SmallWOD",
+      "source": "llm-review",
+      "reason": "SmallWOD很多用户啊，或者我们的听众朋友们: the app's users, then the podcast's listeners; whisper hears \"small\".",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 327,
+      "before": "特木",
+      "after": "Temu",
+      "source": "llm-review",
+      "reason": "Temu tried to enter Vietnam last year and was suspended for not registering (Dec 2024); 特木 is the ASR's spelling of the name.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 354,
+      "before": "血钱血钱",
+      "after": "血铅血铅",
+      "source": "llm-review",
+      "reason": "The 2025 Gansu Tianshui kindergarten 血铅超标 case; whisper hears 血线/血泉超标.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 386,
+      "before": "下皮",
+      "after": "虾皮",
+      "source": "llm-review",
+      "reason": "虾皮 is Shopee's Chinese name; the show notes say Shopee is still the leader.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 387,
+      "before": "下皮",
+      "after": "虾皮",
+      "source": "llm-review",
+      "reason": "虾皮 is Shopee's Chinese name.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 389,
+      "before": "拉扎达",
+      "after": "Lazada",
+      "source": "llm-review",
+      "reason": "The platform Lazada (show notes: Lazada 下滑), said in English.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 391,
+      "before": "拉扎大",
+      "after": "Lazada",
+      "source": "llm-review",
+      "reason": "The platform Lazada, said in English.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 424,
+      "before": "BabyThree",
+      "after": "Baby Three",
+      "source": "llm-review",
+      "reason": "The blind-box brand Baby Three, two words; the glue pass joined them.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 426,
+      "before": "K OL",
+      "after": "KOL",
+      "source": "llm-review",
+      "reason": "KOL, split by the ASR.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 426,
+      "before": "K OC",
+      "after": "KOC",
+      "source": "llm-review",
+      "reason": "KOC, split by the ASR.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 469,
+      "before": "Skype",
+      "after": "Skye",
+      "source": "llm-review",
+      "reason": "A place in the north of Britain beside Wales, the Isle of Wight and Northern Ireland: the Isle of Skye.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 480,
+      "before": "plugging",
+      "after": "plogging",
+      "source": "llm-review",
+      "reason": "He is naming the activity he then defines: plogging, from Europe, picking up litter while running.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 482,
+      "before": "工艺",
+      "after": "公益",
+      "source": "llm-review",
+      "reason": "Plogging is volunteer work (公益; show notes: 公益捡跑); same sound as 工艺.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 492,
+      "before": "plugging",
+      "after": "plogging",
+      "source": "llm-review",
+      "reason": "The plogging 公益 events he led.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 493,
+      "before": "三上",
+      "after": "山上",
+      "source": "llm-review",
+      "reason": "杭州的山上 (he just said 杭州的群山); the speaker says sh- as s-.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 498,
+      "before": "不能垃圾",
+      "after": "不扔垃圾",
+      "source": "llm-review",
+      "reason": "不扔垃圾、少扔垃圾; whisper large-v3 hears 不扔垃圾 unprompted and prompted.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 515,
+      "before": "皮克皮克球",
+      "after": "匹克匹克球",
+      "source": "llm-review",
+      "reason": "Pickleball is 匹克球; 皮/匹 differ only in tone.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 516,
+      "before": "皮克球",
+      "after": "匹克球",
+      "source": "llm-review",
+      "reason": "Pickleball is 匹克球.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 520,
+      "before": "皮克球",
+      "after": "匹克球",
+      "source": "llm-review",
+      "reason": "Pickleball is 匹克球.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 521,
+      "before": "皮克球",
+      "after": "匹克球",
+      "source": "llm-review",
+      "reason": "Pickleball is 匹克球.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 536,
+      "before": "区域区",
+      "after": "西语区",
+      "source": "llm-review",
+      "reason": "Spain and Latin America share a language; whisper large-v3 and turbo hear 西语区/西域区.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 541,
+      "before": "SmallWorld",
+      "after": "SmallWOD",
+      "source": "llm-review",
+      "reason": "The app SmallWOD, said \"small world\".",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 563,
+      "before": "第七的签证它的第七的签证",
+      "after": "D7的签证它的D7的签证",
+      "source": "llm-review",
+      "reason": "Portugal's D7 passive-income visa (show notes: 葡萄牙 D7); D七 sounds as 第七.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 604,
+      "before": "endending",
+      "after": "end ending",
+      "source": "llm-review",
+      "reason": "Two words, a false start on \"end user\"; the glue pass joined them.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 608,
+      "before": "Yalo",
+      "after": "Zalo",
+      "source": "llm-review",
+      "reason": "Zalo, Vietnam's chat app, named with Facebook as local chat tools.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 621,
+      "before": "smallworld",
+      "after": "SmallWOD",
+      "source": "llm-review",
+      "reason": "我们SmallWOD背后的价值观; said \"small world\".",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 625,
+      "before": "SmallWorld",
+      "after": "SmallWOD",
+      "source": "llm-review",
+      "reason": "The app SmallWOD, said \"small world\".",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 637,
+      "before": "工艺",
+      "after": "公益",
+      "source": "llm-review",
+      "reason": "His volunteer work (plogging, carrying litter down mountains); same sound as 工艺.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 674,
+      "before": "L L S D",
+      "after": "LSD",
+      "source": "llm-review",
+      "reason": "whisper large-v3 and turbo hear LSD (long slow distance, the next words); the second L is a 40ms token.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 712,
+      "before": "狰狞",
+      "after": "争鸣",
+      "source": "llm-review",
+      "reason": "Dawn birdsong, 百鸟争鸣; whisper large-v3 and turbo hear 真名 (zhen-ming), not -ning.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 715,
+      "before": "SmallWorld",
+      "after": "SmallWOD",
+      "source": "llm-review",
+      "reason": "The app SmallWOD, said \"small world\".",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 717,
+      "before": "reachout",
+      "after": "reach out",
+      "source": "llm-review",
+      "reason": "Two words; the glue pass joined them.",
+      "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 718,
+      "before": "Bren",
+      "after": "Brian",
+      "source": "llm-review",
+      "reason": "Thanking her co-host Brian (show notes: 主持人 Brian & Debbie), said quickly.",
+      "appliedAt": "2026-10-11"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 10,
+      "text": "算是一个比较老的一个学同学吧",
+      "reason": "学同学: whisper hears only 同学 (it drops stutters); left as heard."
+    },
+    {
+      "cueIndex": 64,
+      "text": "比如说系啊阿里系、腾讯系和字节系",
+      "reason": "系啊 may be \"Sea\" (Shopee's parent); turbo hears C, large-v3 drops it."
+    },
+    {
+      "cueIndex": 108,
+      "text": "业务的领导力以及一到十",
+      "reason": "Garbled; whisper hears 领导意以及一道石/一道士. Maybe 零到一以及一到十."
+    },
+    {
+      "cueIndex": 173,
+      "text": "哦，五八就是今天国内的仓库",
+      "reason": "五八 unclear; turbo +prompt hears 无法想象, the others drop it."
+    },
+    {
+      "cueIndex": 209,
+      "text": "越大的地方才有大雨",
+      "reason": "大雨 doesn't fit; large-v3 hears 大用, turbo 大运; probably 大鱼 (bigger ponds, bigger fish)."
+    },
+    {
+      "cueIndex": 353,
+      "text": "那个血那个钱甘",
+      "reason": "The Tianshui 血铅 case; 钱 may be 铅 or a stutter on 甘(肃); whisper hears only 那个甘肃天水."
+    },
+    {
+      "cueIndex": 503,
+      "text": "但是马哥",
+      "reason": "马哥 unclear; whisper hears 但是包括 or nothing."
+    },
+    {
+      "cueIndex": 504,
+      "text": "可能有的什么味儿的听众朋友",
+      "reason": "Probably SmallWOD的听众朋友; whisper hears 怎么玩的/什么话的."
+    },
+    {
+      "cueIndex": 512,
+      "text": "像皮克伯的一些工厂",
+      "reason": "皮克伯 is probably pickleball (factories supplying brands), but unconfirmed; whisper hears 皮克博/Pickboard."
+    },
+    {
+      "cueIndex": 610,
+      "text": "更好的去狼吞的去做",
+      "reason": "狼吞 doesn't fit; whisper hears the same 狼吞/狼腾."
+    },
+    {
+      "cueIndex": 642,
+      "text": "会去做夜野跑嘛",
+      "reason": "夜野跑: 越野跑 or 夜跑? whisper hears 夜野跑/夜夜跑/夜约跑."
+    },
+    {
+      "cueIndex": 713,
+      "text": "一样，狰狞。",
+      "reason": "Brian echoing 争鸣 (sentence 712) or 狰狞 as a joke; whisper does not hear it apart."
+    }
+  ]
+}

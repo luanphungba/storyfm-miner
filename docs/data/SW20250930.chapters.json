@@ -1,0 +1,340 @@
+{
+  "chapters": [
+    {
+      "zh": "开场：Michael的海外经历",
+      "vi": "Mở đầu: những năm Michael ở nước ngoài",
+      "from": 0,
+      "to": 42,
+      "start": 2.36,
+      "end": 100.24
+    },
+    {
+      "zh": "从阿里、字节到越南",
+      "vi": "Từ Alibaba, ByteDance sang Việt Nam",
+      "from": 43,
+      "to": 86,
+      "start": 100.44,
+      "end": 210.5
+    },
+    {
+      "zh": "被派去还是主动选择",
+      "vi": "Được cử sang hay tự chọn",
+      "from": 87,
+      "to": 119,
+      "start": 210.71,
+      "end": 274.54
+    },
+    {
+      "zh": "为什么选了越南",
+      "vi": "Vì sao chọn Việt Nam",
+      "from": 120,
+      "to": 153,
+      "start": 274.67,
+      "end": 345.06
+    },
+    {
+      "zh": "别用\"降维打击\"看越南",
+      "vi": "Đừng nhìn Việt Nam bằng \"đòn giáng chiều\"",
+      "from": 154,
+      "to": 191,
+      "start": 345.06,
+      "end": 432.88
+    },
+    {
+      "zh": "第一道坎：财税合规",
+      "vi": "Rào cản đầu tiên: thuế và tuân thủ quy định",
+      "from": 192,
+      "to": 234,
+      "start": 432.88,
+      "end": 532.29
+    },
+    {
+      "zh": "越南语和越南经济",
+      "vi": "Tiếng Việt và kinh tế Việt Nam",
+      "from": 235,
+      "to": 266,
+      "start": 532.9,
+      "end": 613.7
+    },
+    {
+      "zh": "开放的时差",
+      "vi": "Độ vênh khi mở cửa sau dịch",
+      "from": 267,
+      "to": 304,
+      "start": 614.23,
+      "end": 712.48
+    },
+    {
+      "zh": "越南人越来越重视教育",
+      "vi": "Người Việt ngày càng coi trọng giáo dục",
+      "from": 305,
+      "to": 351,
+      "start": 712.94,
+      "end": 804.08
+    },
+    {
+      "zh": "家庭教育投入和英语",
+      "vi": "Tiền cho con học và tiếng Anh",
+      "from": 352,
+      "to": 390,
+      "start": 805.09,
+      "end": 895.18
+    },
+    {
+      "zh": "农村包围城市：选择芹苴",
+      "vi": "Lấy nông thôn bao vây thành thị: chọn Cần Thơ",
+      "from": 391,
+      "to": 438,
+      "start": 895.48,
+      "end": 1010.08
+    },
+    {
+      "zh": "中文是小语种吗",
+      "vi": "Tiếng Trung có phải ngoại ngữ ít người học?",
+      "from": 439,
+      "to": 470,
+      "start": 1010.31,
+      "end": 1084.41
+    },
+    {
+      "zh": "南北差异：南方更欧美化",
+      "vi": "Khác biệt Nam Bắc: miền Nam Tây hoá hơn",
+      "from": 471,
+      "to": 496,
+      "start": 1084.41,
+      "end": 1154.74
+    },
+    {
+      "zh": "为什么选择芹苴",
+      "vi": "Vì sao chọn Cần Thơ",
+      "from": 497,
+      "to": 536,
+      "start": 1154.74,
+      "end": 1263.72
+    },
+    {
+      "zh": "学中文的动机：去中国留学",
+      "vi": "Động cơ học tiếng Trung: du học Trung Quốc",
+      "from": 537,
+      "to": 566,
+      "start": 1263.78,
+      "end": 1322.19
+    },
+    {
+      "zh": "港剧、周杰伦和西游记",
+      "vi": "Phim Hồng Kông, Châu Kiệt Luân và Tây Du Ký",
+      "from": 567,
+      "to": 599,
+      "start": 1322.19,
+      "end": 1397.64
+    },
+    {
+      "zh": "Brian眼中的越南",
+      "vi": "Việt Nam trong mắt Brian",
+      "from": 600,
+      "to": 648,
+      "start": 1398.12,
+      "end": 1493.45
+    },
+    {
+      "zh": "两种课程和HSK新等级",
+      "vi": "Hai loại khoá học và HSK cấp mới",
+      "from": 649,
+      "to": 684,
+      "start": 1493.45,
+      "end": 1580.37
+    },
+    {
+      "zh": "HSK分级与薪资差距",
+      "vi": "Phân cấp HSK và chênh lệch lương",
+      "from": 685,
+      "to": 715,
+      "start": 1580.86,
+      "end": 1646.24
+    },
+    {
+      "zh": "会中文，月薪两千万",
+      "vi": "Biết tiếng Trung, lương 20 triệu",
+      "from": 716,
+      "to": 752,
+      "start": 1647.28,
+      "end": 1719.37
+    },
+    {
+      "zh": "Temu为什么进不来",
+      "vi": "Vì sao Temu chưa vào được",
+      "from": 753,
+      "to": 792,
+      "start": 1724.69,
+      "end": 1817.36
+    },
+    {
+      "zh": "没有进项发票，罚三倍",
+      "vi": "Không có hoá đơn đầu vào, phạt gấp ba",
+      "from": 793,
+      "to": 835,
+      "start": 1817.83,
+      "end": 1921.64
+    },
+    {
+      "zh": "越南为什么监管这么严",
+      "vi": "Vì sao Việt Nam quản lý chặt thế",
+      "from": 836,
+      "to": 876,
+      "start": 1922.23,
+      "end": 2021.51
+    },
+    {
+      "zh": "罚款和电商平台格局",
+      "vi": "Tiền phạt và thế trận các sàn TMĐT",
+      "from": 877,
+      "to": 912,
+      "start": 2021.51,
+      "end": 2103.59
+    },
+    {
+      "zh": "线下仍占八成",
+      "vi": "Offline vẫn chiếm 80%",
+      "from": 913,
+      "to": 957,
+      "start": 2103.7,
+      "end": 2213.74
+    },
+    {
+      "zh": "凌晨三点看抽盲盒",
+      "vi": "3 giờ sáng xem bóc hộp mù",
+      "from": 958,
+      "to": 1003,
+      "start": 2213.74,
+      "end": 2323.76
+    },
+    {
+      "zh": "满街的年轻人和摩托车",
+      "vi": "Phố xá đầy người trẻ và xe máy",
+      "from": 1004,
+      "to": 1044,
+      "start": 2323.86,
+      "end": 2412.49
+    },
+    {
+      "zh": "动静结合的双鱼座",
+      "vi": "Chàng Song Ngư vừa động vừa tĩnh",
+      "from": 1045,
+      "to": 1086,
+      "start": 2413.04,
+      "end": 2503.99
+    },
+    {
+      "zh": "什么是plogging",
+      "vi": "Plogging là gì",
+      "from": 1087,
+      "to": 1122,
+      "start": 2504.17,
+      "end": 2593.03
+    },
+    {
+      "zh": "扛下五百公斤垃圾",
+      "vi": "Vác 500 kg rác xuống núi",
+      "from": 1123,
+      "to": 1163,
+      "start": 2593.15,
+      "end": 2687.94
+    },
+    {
+      "zh": "匹克球外交",
+      "vi": "Ngoại giao pickleball",
+      "from": 1164,
+      "to": 1213,
+      "start": 2687.94,
+      "end": 2793.86
+    },
+    {
+      "zh": "像候鸟一样迁徙",
+      "vi": "Di trú như chim",
+      "from": 1214,
+      "to": 1256,
+      "start": 2793.86,
+      "end": 2889.97
+    },
+    {
+      "zh": "马来西亚最适合华人",
+      "vi": "Malaysia hợp nhất với người Hoa",
+      "from": 1257,
+      "to": 1315,
+      "start": 2889.97,
+      "end": 2999.41
+    },
+    {
+      "zh": "葡萄牙排不上，转去西班牙",
+      "vi": "Bồ Đào Nha chờ quá lâu, chuyển sang Tây Ban Nha",
+      "from": 1316,
+      "to": 1358,
+      "start": 2999.84,
+      "end": 3097.01
+    },
+    {
+      "zh": "马德里的仓库区",
+      "vi": "Khu nhà kho ở Madrid",
+      "from": 1359,
+      "to": 1389,
+      "start": 3097.01,
+      "end": 3158.37
+    },
+    {
+      "zh": "出海三原则",
+      "vi": "Ba nguyên tắc khi ra nước ngoài",
+      "from": 1390,
+      "to": 1439,
+      "start": 3158.49,
+      "end": 3276.57
+    },
+    {
+      "zh": "跟着你的心走",
+      "vi": "Hãy đi theo trái tim mình",
+      "from": 1440,
+      "to": 1478,
+      "start": 3276.57,
+      "end": 3352.15
+    },
+    {
+      "zh": "三十公里才刚刚开始",
+      "vi": "30 km mới chỉ là bắt đầu",
+      "from": 1479,
+      "to": 1520,
+      "start": 3352.27,
+      "end": 3439.35
+    },
+    {
+      "zh": "百公里越野要跑多久",
+      "vi": "Chạy 100 km địa hình mất bao lâu",
+      "from": 1521,
+      "to": 1560,
+      "start": 3439.35,
+      "end": 3516.92
+    },
+    {
+      "zh": "全马的\"碰壁\"",
+      "vi": "\"Đụng tường\" khi chạy marathon",
+      "from": 1561,
+      "to": 1599,
+      "start": 3516.92,
+      "end": 3601.04
+    },
+    {
+      "zh": "心率决定你能跑多远",
+      "vi": "Nhịp tim quyết định bạn chạy được bao xa",
+      "from": 1600,
+      "to": 1649,
+      "start": 3601.84,
+      "end": 3701.45
+    },
+    {
+      "zh": "清晨的百鸟争鸣",
+      "vi": "Muôn chim đua hót lúc rạng sáng",
+      "from": 1650,
+      "to": 1694,
+      "start": 3703.1,
+      "end": 3810.9
+    }
+  ]
+}

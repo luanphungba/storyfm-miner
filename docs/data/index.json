@@ -228,6 +228,14 @@
       "owner": "Dashu Mandarin Podcast"
     },
     {
+      "id": "SW20250930",
+      "title": "Vol. 31 在越南做不好电商可能坐牢？中文薪资红利与电商合规陷阱",
+      "pubDate": "2025-09-30",
+      "duration": 3816,
+      "source": "podcast",
+      "owner": "SmallWOD时差同频"
+    },
+    {
       "id": "MC20240303",
       "title": "Chinese Alcohol Drinking Culture - Intermediate Chinese - Chinese Audio Podcast",
       "pubDate": "2024-03-03",
@@ -302,7 +310,8 @@
       "episodes": [
         "CC19",
         "MC20200914",
-        "MC20240303"
+        "MC20240303",
+        "SW20250930"
       ],
       "planned": [
         {
