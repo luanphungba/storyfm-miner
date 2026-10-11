@@ -11,7 +11,8 @@ the time — but it makes two kinds of mistakes worth catching:
 1. **A mechanical bug**: AssemblyAI sometimes splits one Latin word or acronym into fragment
    tokens with a 0ms gap between them ("F"+"M", "W"+"ord"). `src/segment.js`'s `glue()` then
    inserts a space between any two Latin tokens it sees, producing "F M", "W ord" in the
-   transcript. This is 100% mechanical and safe to auto-fix — see `scripts/find-candidates.js`.
+   transcript. This is mechanical and auto-fixed — see `scripts/find-candidates.js` — but check
+   what it joined: a two-word name the ASR also abutted gets fused too (step 1).
 2. **Genuine mis-hearings**: a character or phrase that sounds similar to the right one but changes
    the meaning — e.g. an entire episode about 植发 (hair transplant) where the ASR heard 执法 (law
    enforcement) several times, or the host's own name (爱哲) coming out as 艾哲.
@@ -37,6 +38,11 @@ This always runs the free, deterministic part first: it auto-fixes the Latin-glu
 known recurring boilerplate mistake (the show's fixed intro/outro script — its own name, the
 host's name, its tagline — repeats verbatim every episode, so `scripts/known-fixes.json` catches
 those for free once they're in the list).
+
+Read the glue fixes it reports. A name of two words fuses as readily as a split one (MC20240303's
+"Mandarin Corner" came out "MandarinCorner", like "iPad Pro" before it). Write such a pair apart
+again with an `llm-review` fix (`"before": "MandarinCorner", "after": "Mandarin Corner"`); the next
+run sees it and leaves the pair apart.
 
 Then:
 - If this episode has never had a full read (`data/corrections/<id>.json`'s `fullyReviewed` is not
@@ -73,8 +79,35 @@ Stop and think when something doesn't fit:
   name, a term, an English word the ASR split — that is a fix. **It is edited, not verbatim**: the
   host drops 嗯/呃 and repeats and sometimes rewords (CC1's sentence 15 adds 能够能够学习到, which
   neither AssemblyAI nor whisper hears). The page must match the audio, so never copy it over
-  wholesale; where the two differ by more than a mis-heard word, listen (whisper on an ffmpeg slice
-  of `tools/.cache/audio/<id>.mp3`) and keep what was said.
+  wholesale; where the two differ by more than a mis-heard word, listen (next point) and keep what
+  was said.
+- **What the audio says.** Whenever a spot is still in doubt after reading — a word that does not
+  fit, a string one sound away from the word that would — listen before deciding whether to fix it
+  or flag it. Collect every doubtful sentence and hear them in one run, since loading the models is
+  most of the time:
+  ```bash
+  python3 .claude/skills/verify-transcript/scripts/listen.py <id> <s> [<s> ...]
+  ```
+  Each sentence is sliced with a second or so of context either side and heard by whisper
+  large-v3 and large-v3-turbo, each without and with a prompt (medium is not good enough here: on
+  MC20240303 the large models settled four spots it could not). The hearings are evidence, not the
+  answer:
+  - **Fix** when both large models, at least one of them unprompted, hear the same other word, and
+    that word fits the sentence and the episode while the ASR's does not (or the ASR was unsure of
+    it). MC20240303: both heard 签了 for 切了, a salesman's order getting signed; 大不敬 for 大步进,
+    a phrase the episode says twice more; 吞 for 疼 in 喝不下你得得吞.
+  - **Let the sentence decide where the audio cannot**: homophones (首/手, 代/带) sound the same, and
+    a speaker's accent moves a word onto its neighbour (one Mandarin Corner speaker says 敬 as jìn,
+    so turbo wrote 大不进 where large-v3 heard 大不敬).
+  - **Ignore what whisper adds or drops** around the disputed word: it removes stutters and fillers
+    (得得 → 得, 直接直接 → 直接), smooths an unfinished sentence into a finished one, and fills audio
+    it cannot parse with a stock phrase nobody said (large-v3 heard 请不吝点赞订阅转发 in
+    MC20240303's sentence 318).
+  - **Flag** when the models disagree or both stay garbled, and write what each one heard into the
+    flag's `reason`, so the user knows the spot is worth listening to.
+
+  Name the models in a fix's `reason` too (`whisper large-v3 and turbo both hear 签了`), so the call
+  can be checked again later.
 
 **Fix it** when one of these gets you to real confidence. **Leave it and note it** when you can't —
 an unverifiable name, a low-confidence function word that reads fine either way, a producer credit
