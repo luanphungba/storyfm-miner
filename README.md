@@ -206,8 +206,9 @@ counted: `build_tokens.py` writes the words each line counts as to `EXXX.vocab.j
 CC-CEDICT and the HSK list lack is split into the dictionary words it is made of (学法语 → 学 法语,
 五十万 → 五 十 万), and a name counts as none — and `docs/data/vocab.json` holds HSK 1-2, taken as
 known, and those splits, so a tap on 很脏 is a tap on 很 and 脏. `docs/vocab.js` counts a word
-understood once heard untapped in a studied chapter, and solid once heard so in three chapters over
-two days; a tap takes it out until it is heard untapped on a later day or said to be known.
+understood once heard untapped in a chapter studied for the first time, and solid once heard so in
+three chapters over two days; a chapter studied again counts for nothing, as its lines are remembered.
+A tap takes a word out until it is heard untapped in a new chapter on a later day or said to be known.
 
 `tools/audit.mjs` re-derives each field from a direction other than the one that built it and prints
 the disagreements. It has caught, in order: the pinyin taken from CC-CEDICT's first entry (说 as

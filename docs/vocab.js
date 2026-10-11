@@ -3,11 +3,15 @@
 // tools/build_tokens.py writes the words each line counts as (EXXX.vocab.json), and the server
 // (server/miner.py) every day each word was tapped and said to be known. Two numbers:
 //
-// - understood: heard in a studied chapter without being tapped, as nothing needed looking up;
-// - solid: heard so in SOLID_CHAPTERS chapters over SOLID_DAYS days, as once can be a good guess.
+// - understood: heard in a chapter studied for the first time without being tapped, as nothing needed
+//   looking up;
+// - solid: heard so in SOLID_CHAPTERS chapters first studied over SOLID_DAYS days, as once can be a
+//   good guess.
 //
-// A tap takes a word out of both until it is heard untapped on a later day, or said to be known. Both
-// start from HSK 1-2, taken as known before listening, less any of it tapped and not caught since.
+// A chapter speaks for its words only on the day it is first studied: studied again, its lines are
+// remembered, so a word not tapped there says little. A tap takes a word out of both until it is heard
+// untapped in a chapter first studied on a later day, or said to be known. Both start from HSK 1-2,
+// taken as known before listening, less any of it tapped and not caught since.
 // Each day is counted as it stood that evening, from what had been studied and tapped by then.
 
 import { SAME_START_S } from './studied.js';
@@ -38,7 +42,7 @@ export const SOLID_DAYS = 2;
 export function vocabularyByDay({ studied, linesOf, vocab, history }, days) {
   const chapters = studied.map((chapter) => ({
     id: `${chapter.ep}@${chapter.start}`,
-    dates: chapter.dates,
+    first: chapter.dates.reduce((a, b) => (b < a ? b : a), chapter.dates[0] ?? ''),
     words: new Set((linesOf[chapter.ep] ?? [])
       .filter(([start]) => chapter.start - SAME_START_S <= start && start < chapter.end)
       .flatMap(([, line]) => line.split(' '))),
@@ -63,7 +67,7 @@ const lastBy = (/** @type {string[] | undefined} */ days, /** @type {string} */ 
 
 /**
  * @param {string} day
- * @param {{ id: string, dates: string[], words: Set<string> }[]} chapters
+ * @param {{ id: string, first: string, words: Set<string> }[]} chapters
  * @param {Map<string, string[]>} tapped
  * @param {Map<string, string[]>} known
  * @param {string[]} base
@@ -84,16 +88,14 @@ function countOn(day, chapters, tapped, known, base) {
   /** @type {Map<string, { chapters: Set<string>, days: Set<string> }>} */
   const clean = new Map();
   for (const chapter of chapters) {
-    const dates = chapter.dates.filter((d) => d <= day);
-    if (!dates.length) continue;
+    if (!chapter.first || chapter.first > day) continue;
     for (const word of chapter.words) {
       heard.add(word);
-      const untapped = dates.filter((d) => d > (lastTap.get(word) ?? ''));
-      if (!untapped.length) continue;
+      if (chapter.first <= (lastTap.get(word) ?? '')) continue;
       let seen = clean.get(word);
       if (!seen) clean.set(word, (seen = { chapters: new Set(), days: new Set() }));
       seen.chapters.add(chapter.id);
-      for (const d of untapped) seen.days.add(d);
+      seen.days.add(chapter.first);
     }
   }
 

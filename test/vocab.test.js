@@ -43,6 +43,19 @@ test('a tapped word counts again only once heard untapped on a later day', () =>
   assert.equal(vocabulary({ studied: later, linesOf, vocab, latest: tapped }).understood, 6); // and 尴尬 学 法语
 });
 
+test('a chapter studied again does not bring back a word tapped in it', () => {
+  const tapped = latest({ 尴尬: '2026-10-01' });
+  const again = [chapter(0, ['2026-10-01', '2026-10-03'])];
+  assert.equal(vocabulary({ studied: again, linesOf, vocab, latest: tapped }).understood, 2); // 我 很, not 尴尬
+  const fresh = [...again, chapter(100, ['2026-10-03'])];
+  assert.equal(vocabulary({ studied: fresh, linesOf, vocab, latest: tapped }).understood, 4); // and 尴尬 脏
+});
+
+test('a chapter studied again adds no day toward solid', () => {
+  const studied = [chapter(0, ['2026-10-01', '2026-10-02']), chapter(100, ['2026-10-01']), chapter(0, ['2026-10-01'], 'CC5')];
+  assert.equal(vocabulary({ studied, linesOf, vocab, latest: latest() }).solid, 2); // 我 很: 尴尬 in three chapters, one day
+});
+
 test('only the chapters heard after a tap make a tapped word solid', () => {
   const studied = [chapter(0, ['2026-10-01']), chapter(100, ['2026-10-01']), chapter(200, ['2026-10-03']),
     chapter(0, ['2026-10-04'], 'CC5')];
