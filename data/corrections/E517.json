@@ -98,6 +98,14 @@
       "source": "llm-review",
       "reason": "The narrator independently confirms the real name at i:269 (\"哈哈就读的这所学校叫北京城市学院\") and its nickname 海跑 at i:270-271 (formerly 海淀走读大学) — matching \"就是海跑嘛\" right after the storyteller's line. 成人 vs 城市 is a near-homophone (chéngrén vs chéngshì).",
       "appliedAt": "2026-09-22"
+    },
+    {
+      "cueIndex": 5,
+      "before": "参加高，",
+      "after": "参加高",
+      "source": "llm-review",
+      "reason": "The ASR put a comma inside 高考: the next sentence starts 考的话, so 参加高考的话 is one phrase.",
+      "appliedAt": "2026-10-12"
     }
   ],
   "flagged": [

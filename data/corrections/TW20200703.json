@@ -538,6 +538,14 @@
       "source": "llm-review",
       "reason": "Addressing co-host 王磬 by her given name; homophone.",
       "appliedAt": "2026-10-09"
+    },
+    {
+      "cueIndex": 9,
+      "before": "山东的学。",
+      "after": "山东的学",
+      "source": "llm-review",
+      "reason": "The ASR put a full stop inside 学生: the next sentence starts 生很有可能, so it is 山东的学生.",
+      "appliedAt": "2026-10-12"
     }
   ],
   "flagged": [

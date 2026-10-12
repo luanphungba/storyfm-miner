@@ -130,9 +130,14 @@ for (const file of episodes) {
 // The authored half: Hán Việt is per character, so the same character should read the same way
 // everywhere it was written by hand. Where it does not, either one of them is a slip or the
 // character genuinely has two readings — both worth looking at.
+// A meaning that says its word is a piece of another (双十, "cắt từ chưa chuẩn của 双十一") is a card
+// teaching a word nobody said. The cut gets fixed instead: in tools/segmentation.json, or, where the
+// ASR broke the word across two sentences, by a split-cues `+` join.
+const MIS_CUT = /cắt từ|cắt dòng|(phần|nửa) (đầu|sau) của/;
 const perChar = new Map();
 for (const [word, [hanviet, meaning]] of Object.entries(AUTHORED)) {
   if (!seen.has(word)) note('đã viết nghĩa nhưng từ không xuất hiện trong tập nào', word);
+  else if (MIS_CUT.test(meaning)) note('nghĩa nói từ bị cắt sai — sửa chỗ cắt thay vì ghi chú', `${word}: ${meaning}`);
   if (!meaning || !meaning.trim()) note('mục không có nghĩa tiếng Việt', word);
   if (meaning !== meaning?.trim()) note('nghĩa thừa khoảng trắng', word);
   if (!hanviet) continue;

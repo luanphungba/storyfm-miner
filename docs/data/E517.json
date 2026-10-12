@@ -103,18 +103,19 @@
       "i": 10,
       "s": 5,
       "start": 29.62,
-      "end": 31.9,
-      "text": "如果你是多年以前参加高，",
+      "end": 32.22,
+      "text": "如果你是多年以前参加高考的话",
       "speaker": "B",
       "role": "storyteller"
     },
     {
       "i": 11,
       "s": 6,
-      "start": 31.9,
+      "start": 32.22,
       "end": 33.56,
-      "text": "考的话可能会注意到，",
+      "text": "可能会注意到，",
       "speaker": "A",
+      "u": 5,
       "role": "narrator"
     },
     {
@@ -124,6 +125,7 @@
       "end": 34.86,
       "text": "全国绝大多数省市",
       "speaker": "A",
+      "u": 5,
       "role": "narrator"
     },
     {
@@ -133,6 +135,7 @@
       "end": 37.98,
       "text": "已经取消了本科第三批次的招生，",
       "speaker": "A",
+      "u": 5,
       "role": "narrator"
     },
     {
@@ -142,6 +145,7 @@
       "end": 39.74,
       "text": "把它和二本合并。",
       "speaker": "A",
+      "u": 5,
       "role": "narrator"
     },
     {

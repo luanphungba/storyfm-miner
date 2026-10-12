@@ -116,3 +116,14 @@ test('never joins two speakers into one line', () => {
   ];
   assert.throws(() => joinSentences(lines, [0]), /người nói/);
 });
+
+test('mends a word the ASR split between two speakers, keeping the first one', () => {
+  const lines = [
+    { s: 0, start: 0, end: 2, text: '带来一些不方便甚至是麻', speaker: 'C' },
+    { s: 1, start: 2, end: 3, text: '烦。', speaker: 'B' },
+    { s: 2, start: 3, end: 5, text: '他也不会当面去', speaker: 'B' },
+  ];
+  const joined = joinSentences(lines, [0], [0]);
+  assert.deepEqual(texts(joined), ['带来一些不方便甚至是麻烦。', '他也不会当面去']);
+  assert.deepEqual([joined[0].speaker, joined[0].end], ['C', 3]);
+});

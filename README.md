@@ -185,7 +185,7 @@ Each field comes from wherever it can be looked up, and only the last two are wr
 
 | Field | Source |
 |---|---|
-| word boundaries | jieba, offline — browsers cut 互联网 into 互/联/网 |
+| word boundaries | jieba, offline — browsers cut 互联网 into 互/联/网; where jieba cuts wrong too (双十/一 for 双十一), `tools/segmentation.json`, each fix with the line it was seen in, which the build checks it still matches |
 | HSK band | `tools/hsk-bands.json`, the 2021 syllabus |
 | proper noun | jieba's tag, minus anything the HSK list or CC-CEDICT calls an ordinary word |
 | times said | counted across every episode present |

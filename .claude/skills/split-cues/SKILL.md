@@ -67,7 +67,17 @@ Rules, in order of how often they matter:
   50 他说一会儿说镇江一会儿说丹阳/然后我就问他/我现在已经在常州/你到底要我去哪里/后来他迷迷糊+
   51 糊的就是说丹阳就这样子/然后我就说好吧那我去丹阳/…
   ```
-  gives the line `后来他迷迷糊糊的就是说丹阳就这样子`. A join never crosses a change of speaker.
+  gives the line `后来他迷迷糊糊的就是说丹阳就这样子`. A join never puts two speakers on one line,
+  with one exception: where the ASR changed speaker **in the middle of a word** (`…甚至是麻` +
+  `烦。`, `…饭局文` + `化是什么呢？`). Nobody says half a word, so the speaker change is the ASR's;
+  mark it `++` and the joined line keeps the first sentence's speaker, whose sentence the word
+  finishes. If the next sentence's first line goes on past the word into what really is the other
+  person's turn (`目呀，不是还有买单呢？`), cut it there first (`目呀，/不是还有买单呢？`) so only the
+  word's end moves. A podcast with two hosts can have dozens of these (MC20200914 had 37).
+  `build_tokens.py` names every one: `⚠ <ID>: ASR ngắt giữa từ 麻烦 (…甚至是麻 | 烦。) — nối câu 214…`;
+  none may be left. It cannot see a break the ASR also punctuated (`后来第二次吸。` + `入性肺炎…`),
+  so read the line ends for a lone half-word too; there the stray `。` comes out with a
+  `data/corrections/` fix, and then the join.
 - **Don't add punctuation** or change any character. The extension's model punctuates the card
   sentence itself.
 - A sentence left out of the file keeps its current cuts. A line without any `/` removes its cuts.
@@ -107,10 +117,11 @@ node tools/todo_gloss.mjs <ID>
 
 This costs no tokens. Words are cut over the whole sentence, not per line, so re-cutting lines
 never changes the word list and never turns up a word that needs a meaning written. The only
-exception is a `+` join, which hands jieba a sentence it never saw whole (迷迷糊 + 糊 →
+exception is a `+` or `++` join, which hands jieba a sentence it never saw whole (迷迷糊 + 糊 →
 迷迷糊糊). Gloss such a word by the add-episode skill's rules. If `build_tokens.py` says a cut split
 a word (`chỗ cắt tách 是因为`), look at it: usually jieba glued two words across a clause and the
-cut is right, but if it really is one word, move the cut.
+cut is right, but if it really is one word, move the cut. Its `ASR ngắt giữa từ` warnings are never
+right to leave: join each one, as in step 2.
 
 If the episode is already translated, the translation is written one per line
 (`data/translations/<ID>.json`), so a re-cut moves line ends out from under it. `--resegment` then

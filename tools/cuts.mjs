@@ -6,7 +6,8 @@
 //   node tools/cuts.mjs show E757 [--over 15] [--all]   sentences to cut, one per line: "<s> <text>"
 //   node tools/cuts.mjs apply E757 marked.txt           "<s> <text with / at each cut>" per line;
 //                                                       a trailing + joins its last line onto the
-//                                                       next sentence's first
+//                                                       next sentence's first, and ++ does so where
+//                                                       the ASR changed speaker mid-word (麻 | 烦)
 //   node tools/cuts.mjs report E757                     line lengths as built, and what is still long
 //
 // After apply, rebuild: node bin/storyfm.js add E757 --resegment
@@ -41,8 +42,9 @@ async function load(/** @type {string} */ id) {
   /** @type {Map<number, {before: string, after: string}[]>} */
   const fixes = new Map();
   for (const fix of ledger.fixes) fixes.set(fix.cueIndex, [...(fixes.get(fix.cueIndex) ?? []), fix]);
-  const plan = await readJson(paths.cuts(id), { episode: id, cuts: {}, joins: [] });
+  const plan = await readJson(paths.cuts(id), { episode: id, cuts: {}, joins: [], mends: [] });
   plan.joins ??= [];
+  plan.mends ??= [];
   // The words as the build times them: a run data/onsets/ spread out has audio to cut in.
   return { sentences: toSentences(await withOnsets(id, raw.words ?? [])), fixes, plan };
 }
@@ -59,9 +61,10 @@ async function show(/** @type {string} */ id, /** @type {string[]} */ flags) {
   const all = flags.includes('--all');
   const { sentences, fixes, plan } = await load(id);
   for (const [s, words] of sentences.entries()) {
-    const text = marked(words, fixes.get(s) ?? [], plan.cuts[s]) + (plan.joins.includes(s) ? '+' : '');
+    const join = plan.mends.includes(s) ? '++' : plan.joins.includes(s) ? '+' : '';
+    const text = marked(words, fixes.get(s) ?? [], plan.cuts[s]) + join;
     // --all: every sentence with a line still too long, cut or not. Without it: only uncut ones.
-    const tooLong = text.replace(/\+$/, '').split('/').some((line) => length(line) > over);
+    const tooLong = text.replace(/\+*$/, '').split('/').some((line) => length(line) > over);
     if (all ? tooLong : !plan.cuts[s] && length(text) > over) console.log(`${s} ${text}`);
   }
 }
@@ -78,22 +81,27 @@ async function apply(/** @type {string} */ id, /** @type {string} */ file) {
       continue;
     }
     const s = Number(match[1]);
+    const mendsNext = match[2].trim().endsWith('++');
     const joinsNext = match[2].trim().endsWith('+');
-    const text = match[2].trim().replace(/\+$/, '');
+    const text = match[2].trim().replace(/\+*$/, '');
     const words = sentences[s];
     if (!words) {
       errors.push(`câu ${s}: không có câu này`);
       continue;
     }
     try {
-      if (joinsNext && sentences[s + 1]?.[0].speaker !== words[0].speaker) {
-        throw new Error(`không nối được sang câu ${s + 1}: khác người nói`);
+      const otherSpeaker = sentences[s + 1]?.[0].speaker !== words[0].speaker;
+      if (joinsNext && !mendsNext && otherSpeaker) {
+        throw new Error(`không nối được sang câu ${s + 1}: khác người nói — nếu ASR đổi người giữa một từ (麻 | 烦), đánh dấu ++`);
       }
+      if (mendsNext && !otherSpeaker) throw new Error(`câu ${s + 1} cùng người nói — nối bằng +, không phải ++`);
       const at = planFromMarks(words, fixes.get(s) ?? [], text);
       if (at.length) plan.cuts[s] = at;
       else delete plan.cuts[s];
       plan.joins = plan.joins.filter((/** @type {number} */ j) => j !== s);
+      plan.mends = plan.mends.filter((/** @type {number} */ j) => j !== s);
       if (joinsNext) plan.joins.push(s);
+      if (mendsNext) plan.mends.push(s);
       saved += 1;
     } catch (error) {
       errors.push(`câu ${s}: ${/** @type {Error} */ (error).message}`);
@@ -101,7 +109,9 @@ async function apply(/** @type {string} */ id, /** @type {string} */ file) {
   }
   plan.cuts = Object.fromEntries(Object.entries(plan.cuts).sort(([a], [b]) => Number(a) - Number(b)));
   plan.joins.sort((/** @type {number} */ a, /** @type {number} */ b) => a - b);
-  await writeJson(paths.cuts(id), { episode: id, cuts: plan.cuts, joins: plan.joins });
+  plan.mends.sort((/** @type {number} */ a, /** @type {number} */ b) => a - b);
+  const mends = plan.mends.length ? { mends: plan.mends } : {};
+  await writeJson(paths.cuts(id), { episode: id, cuts: plan.cuts, joins: plan.joins, ...mends });
   console.log(`✓ lưu ${saved} câu vào data/cuts/${id}.json`);
   if (errors.length) {
     console.log(`✗ ${errors.length} câu bị từ chối, chưa lưu — cắt lại rồi apply lại:\n${errors.join('\n')}`);

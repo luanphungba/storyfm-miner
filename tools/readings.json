@@ -161,7 +161,8 @@
     "得得吞": ["děi děi tūn", "喝不下你得得吞: uống không nổi cũng phải nuốt — 得 (nói lắp) là děi"],
     "管得住": ["guǎn de zhù", "quản được — 得 bổ ngữ khả năng là de, không phải dé (đạt được)"],
     "听得到": ["tīng de dào", "nghe được — 得 bổ ngữ khả năng là de"],
-    "默默地": ["mò mò de", "lặng lẽ — 地 trạng ngữ là de, không phải dì (đất)"]
+    "默默地": ["mò mò de", "lặng lẽ — 地 trạng ngữ là de, không phải dì (đất)"],
+    "聊得来": ["liáo de lái", "跟自己聊得来的: người nói chuyện hợp mình — 得 bổ ngữ khả năng là de, như 谈得来"]
   },
   "SW20250930": {
     "以失败为告终": ["yǐ shī bài wéi gào zhōng", "以…为告终: kết cục là thất bại — 为 trong 以…为… là wéi, không phải wèi"],
@@ -173,5 +174,8 @@
     "连着手机": ["lián zhe shǒu jī", "音箱是连着手机: loa nối với điện thoại — 着 là trợ từ zhe"],
     "监管为先": ["jiān guǎn wéi xiān", "监管为先: lấy quản lý làm đầu — 为 là wéi (làm, coi là)"],
     "看得到": ["kàn de dào", "很难看得到: khó mà thấy được — 得 là trợ từ de, không phải dé"]
+  },
+  "BV1f9t86REx8": {
+    "供我参考": ["gōng wǒ cān kǎo", "来供我参考: để tôi tham khảo — 供 (cung cấp) là gōng; gòng là cúng"]
   }
 }

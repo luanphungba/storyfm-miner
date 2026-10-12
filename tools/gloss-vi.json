@@ -1193,7 +1193,7 @@
  ],
  "于是": [
   "VU THỊ",
-  "thế là, do đó; (cắt từ chưa chuẩn của 等于是: chẳng khác nào là); (在于是: cắt từ chưa chuẩn của 在于 + 是)"
+  "thế là, do đó"
  ],
  "大学": [
   "ĐẠI HỌC",
@@ -2009,7 +2009,7 @@
  ],
  "下去": [
   "HẠ KHỨ",
-  "đi xuống; (bổ ngữ) tiếp tục; (线下去: cắt từ chưa chuẩn của 线下 + 去)"
+  "đi xuống; (bổ ngữ) tiếp tục"
  ],
  "演出": [
   "DIỄN XUẤT",
@@ -2609,15 +2609,11 @@
  ],
  "你好": [
   "NHĨ HẢO",
-  "xin chào; (cắt từ chưa chuẩn của 你 + 好在乎: bạn rất để tâm)"
+  "xin chào"
  ],
  "欢迎": [
   "HOAN NGHÊNH",
   "chào mừng, hoan nghênh"
- ],
- "哲": [
-  "TRIẾT",
-  "sáng suốt; (tên) Triết"
  ],
  "收集": [
   "THU TẬP",
@@ -3849,7 +3845,7 @@
  ],
  "挂": [
   "QUẢI",
-  "treo; gác máy"
+  "treo; gác máy; (khẩu ngữ) chết, toi (挂了)"
  ],
  "考察": [
   "KHẢO SÁT",
@@ -4034,14 +4030,6 @@
  "掀": [
   "HIÊN",
   "lật, vén"
- ],
- "了看": [
-  "LIỄU KHÁN",
-  "(cắt từ chưa chuẩn của 掀了看: lật lên xem)"
- ],
- "看没": [
-  "KHÁN MỘT",
-  "(cắt từ chưa chuẩn của 一看没啥: xem thấy không có gì)"
  ],
  "粘": [
   "NIÊM",
@@ -4615,10 +4603,6 @@
   "TƯỞNG TƯỢNG",
   "tưởng tượng"
  ],
- "着会": [
-  "TRƯỚC HỘI",
-  "(cắt từ chưa chuẩn của 想象着会不会: tưởng tượng xem liệu có)"
- ],
  "窗台上": [
   "SONG ĐÀI THƯỢNG",
   "trên bệ cửa sổ"
@@ -4835,10 +4819,6 @@
   "ĐỔ",
   "bịt, tắc; nghẹn lòng"
  ],
- "等说": [
-  "ĐẲNG THUYẾT",
-  "(cắt từ chưa chuẩn của 还没等说: chưa kịp nói)"
- ],
  "绝对": [
   "TUYỆT ĐỐI",
   "tuyệt đối"
@@ -4973,7 +4953,7 @@
  ],
  "所": [
   "SỞ",
-  "chỗ; (lượng từ cho trường, viện); (所 + động từ, 所需) cái được…, điều mà; (cắt từ chưa chuẩn của 所谓: cái gọi là)"
+  "chỗ; (lượng từ cho trường, viện); (所 + động từ, 所需) cái được…, điều mà"
  ],
  "角度": [
   "GIÁC ĐỘ",
@@ -5175,10 +5155,6 @@
   "HIỆP TRỢ",
   "hỗ trợ"
  ],
- "的未": [
-  "ĐÍCH VỊ",
-  "(cắt từ chưa chuẩn của 的 + 未完成: … chưa hoàn thành)"
- ],
  "绿色": [
   "LỤC SẮC",
   "màu xanh lá"
@@ -5238,10 +5214,6 @@
  "招募": [
   "CHIÊU MỘ",
   "tuyển mộ"
- ],
- "心想": [
-  "TÂM TƯỞNG",
-  "trong bụng nghĩ; (cắt từ chưa chuẩn của 爱心 + 想: có lòng yêu thương, muốn…)"
  ],
  "黄": [
   "HOÀNG",
@@ -5549,7 +5521,7 @@
  ],
  "一场": [
   "NHẤT TRƯỜNG",
-  "một trận, một buổi; (cắt từ chưa chuẩn của 这一场合: dịp này)"
+  "một trận, một buổi"
  ],
  "相安": [
   "TƯƠNG AN",
@@ -5619,14 +5591,6 @@
   "ỨC UẤT CHỨNG",
   "bệnh trầm cảm"
  ],
- "阿兹海": [
-  "A TƯ HẢI",
-  "(phần đầu của 阿兹海默症: bệnh Alzheimer)"
- ],
- "默症": [
-  "MẶC CHỨNG",
-  "(phần sau của 阿兹海默症: bệnh Alzheimer)"
- ],
  "经常出现": [
   "KINH THƯỜNG XUẤT HIỆN",
   "thường xuyên xuất hiện"
@@ -5695,10 +5659,6 @@
   "TÁI TÁI",
   "(nói lắp của 再)"
  ],
- "性肺炎": [
-  "TÍNH PHẾ VIÊM",
-  "(phần sau của 吸入性肺炎)"
- ],
  "延庆": [
   "DIÊN KHÁNH",
   "Diên Khánh (quận ở Bắc Kinh)"
@@ -5738,10 +5698,6 @@
  "洋": [
   "DƯƠNG",
   "biển lớn; (tên người) Dương"
- ],
- "叫护": [
-  "KHIẾU HỘ",
-  "(cắt từ chưa chuẩn của 叫护士: gọi y tá)"
  ],
  "救护车": [
   "CỨU HỘ XA",
@@ -5850,10 +5806,6 @@
  "疲惫不堪": [
   "BÌ BỆ BẤT KHAM",
   "mệt lả không chịu nổi"
- ],
- "下好": [
-  "HẠ HẢO",
-  "(cắt từ chưa chuẩn: 下 + 好了, sốt hạ là khỏi)"
  ],
  "很快": [
   "NGẬN KHOÁI",
@@ -6129,7 +6081,7 @@
  ],
  "到别": [
   "ĐÁO BIỆT",
-  "(cắt từ chưa chuẩn)"
+  "(có lẽ ASR nghe nhầm 道别: nói lời từ biệt)"
  ],
  "位": [
   "VỊ",
@@ -6407,10 +6359,6 @@
   "THỪA ĐẢM",
   "gánh vác"
  ],
- "活一": [
-  "HOẠT NHẤT",
-  "(cắt từ chưa chuẩn của 活一活: sống cho mình một lần)"
- ],
  "这份": [
   "GIÁ PHẬN",
   "cái này, phần này"
@@ -6599,10 +6547,6 @@
   "ĐÍNH DUYỆT",
   "đăng ký theo dõi"
  ],
- "九零": [
-  "CỬU LINH",
-  "chín mươi (九零后: thế hệ 9x)"
- ],
  "二十三岁": [
   "NHỊ THẬP TAM TUẾ",
   "hai mươi ba tuổi"
@@ -6646,10 +6590,6 @@
  "知心朋友": [
   "TRI TÂM BẰNG HỮU",
   "bạn tri kỷ"
- ],
- "诉一": [
-  "TỐ NHẤT",
-  "(cắt từ chưa chuẩn của 诉一诉: kể lể, giãi bày)"
  ],
  "诉": [
   "TỐ",
@@ -7757,7 +7697,7 @@
  ],
  "法": [
   "PHÁP",
-  "luật; cách; (看法 bị cắt dòng) cách nhìn; (cắt từ 法律: pháp luật, vì cắt dòng)"
+  "luật; cách"
  ],
  "鬼": [
   "QUỶ",
@@ -8003,14 +7943,6 @@
   "DẠ",
   "đêm"
  ],
- "今晚": [
-  "KIM VÃN",
-  "tối nay"
- ],
- "上要": [
-  "THƯỢNG YẾU",
-  "(cắt từ chưa chuẩn của 今晚上要: tối nay sẽ)"
- ],
  "火车站": [
   "HỎA XA TRẠM",
   "ga tàu hỏa"
@@ -8158,10 +8090,6 @@
  "化成灰": [
   "HÓA THÀNH HÔI",
   "hóa thành tro (化成灰我都认得: cháy thành tro tôi cũng nhận ra)"
- ],
- "认不": [
-  "NHẬN BẤT",
-  "(cắt từ chưa chuẩn của 认不认识 / 认不认可: có quen không / có đồng ý không)"
  ],
  "抬起头来": [
   "ĐÀI KHỞI ĐẦU LAI",
@@ -8315,14 +8243,6 @@
   "BÀNH HÀM",
   "Bành Hàm (tên người)"
  ],
- "到微": [
-  "ĐÁO VI",
-  "(cắt từ chưa chuẩn của 到微信)"
- ],
- "公众": [
-  "CÔNG CHÚNG",
-  "công chúng (公众号: tài khoản công khai WeChat)"
- ],
  "联系方式": [
   "LIÊN HỆ PHƯƠNG THỨC",
   "cách thức liên lạc"
@@ -8450,10 +8370,6 @@
  "标语": [
   "TIÊU NGỮ",
   "khẩu hiệu, biểu ngữ"
- ],
- "史祥": [
-  "SỬ TƯỜNG",
-  "(cắt từ chưa chuẩn của tên 史祥莆: Sử Tường Bồ, người kể chuyện)"
  ],
  "研究": [
   "NGHIÊN CỨU",
@@ -8715,10 +8631,6 @@
   "AI NHẠC",
   "nhạc tang, nhạc ai điếu"
  ],
- "莆": [
-  "BỒ",
-  "chữ trong tên 史祥莆 (Sử Tường Bồ)"
- ],
  "创始人": [
   "SÁNG THỦY NHÂN",
   "người sáng lập"
@@ -8754,10 +8666,6 @@
  "公司": [
   "CÔNG TY",
   "công ty"
- ],
- "封电子邮件": [
-  "PHONG ĐIỆN TỬ BƯU KIỆN",
-  "(cắt từ chưa chuẩn của 一封电子邮件: một bức email)"
  ],
  "三百五十": [
   "TAM BÁCH NGŨ THẬP",
@@ -8958,10 +8866,6 @@
  "北京站": [
   "BẮC KINH TRẠM",
   "ga Bắc Kinh"
- ],
- "次列车": [
-  "THỨ LIỆT XA",
-  "(cắt từ chưa chuẩn của K27次列车: chuyến tàu K27)"
  ],
  "博士": [
   "BÁC SĨ",
@@ -9243,10 +9147,6 @@
   "LIÊN TẢI",
   "đăng nhiều kỳ"
  ],
- "莆的": [
-  "BỒ ĐÍCH",
-  "(cắt từ chưa chuẩn của 史祥莆的: của Sử Tường Bồ)"
- ],
  "三月份": [
   "TAM NGUYỆT PHẬN",
   "tháng Ba"
@@ -9275,10 +9175,6 @@
   "ÂU NGUYÊN",
   "đồng euro"
  ],
- "前在": [
-  "TIỀN TẠI",
-  "(cắt từ chưa chuẩn của 睡觉前在: trước khi ngủ đang…)"
- ],
  "刷": [
   "LOÁT",
   "lướt (điện thoại), luyện (đề); chải, quét; (被刷) bị loại; (刷单) tạo đơn hàng ảo để đẩy doanh số, đánh giá"
@@ -9286,10 +9182,6 @@
  "心动": [
   "TÂM ĐỘNG",
   "rung động, động lòng"
- ],
- "马上发": [
-  "MÃ THƯỢNG PHÁT",
-  "(cắt từ chưa chuẩn của 马上发信息: lập tức nhắn tin)"
  ],
  "信息": [
   "TÍN TỨC",
@@ -9567,10 +9459,6 @@
   "ĐIỂM SAO CƠ",
   "máy đếm tiền"
  ],
- "俩一": [
-  "LƯỠNG NHẤT",
-  "(cắt từ chưa chuẩn của 我们俩一人: hai chúng tôi mỗi người)"
- ],
  "七百": [
   "THẤT BÁCH",
   "bảy trăm"
@@ -9830,10 +9718,6 @@
  "一员": [
   "NHẤT VIÊN",
   "một thành viên"
- ],
- "正困": [
-  "CHÍNH KHỐN",
-  "(cắt từ chưa chuẩn của 正困在: đang bị kẹt ở)"
  ],
  "晚点": [
   "VÃN ĐIỂM",
@@ -10095,10 +9979,6 @@
   "XA ĐỘI",
   "đoàn xe"
  ],
- "那他": [
-  "NA THA",
-  "(cắt từ chưa chuẩn: 那 + 他, thì anh ta)"
- ],
  "往前": [
   "VÃNG TIỀN",
   "về phía trước"
@@ -10138,14 +10018,6 @@
  "收完": [
   "THU HOÀN",
   "thu xong"
- ],
- "顿饭": [
-  "ĐỐN PHẠN",
-  "(cắt từ chưa chuẩn của 这顿饭: bữa cơm này)"
- ],
- "从朝阳": [
-  "TÒNG TRIỀU DƯƠNG",
-  "(cắt từ chưa chuẩn của 从朝阳公园: từ công viên Triều Dương)"
  ],
  "可不可以": [
   "KHẢ BẤT KHẢ DĨ",
@@ -10247,10 +10119,6 @@
   "THỜI TỐC",
   "tốc độ theo giờ"
  ],
- "上在": [
-  "THƯỢNG TẠI",
-  "(cắt từ chưa chuẩn của 时速上在跑: chạy ở tốc độ…)"
- ],
  "新鲜感": [
   "TÂN TIÊN CẢM",
   "cảm giác mới lạ"
@@ -10339,10 +10207,6 @@
   "TIẾP ĐÁO",
   "đón được; nhận được"
  ],
- "马上会": [
-  "MÃ THƯỢNG HỘI",
-  "(cắt từ chưa chuẩn: 马上 + 会, sẽ ngay lập tức)"
- ],
  "上车": [
   "THƯỢNG XA",
   "lên xe/tàu"
@@ -10410,10 +10274,6 @@
  "外语水平": [
   "NGOẠI NGỮ THỦY BÌNH",
   "trình độ ngoại ngữ"
- ],
- "本书": [
-  "BẢN THƯ",
-  "(cắt từ chưa chuẩn của 一本书/这本书: một quyển sách / quyển sách này)"
  ],
  "一本": [
   "NHẤT BẢN",
@@ -10557,7 +10417,7 @@
  ],
  "认": [
   "NHẬN",
-  "nhận biết; (cắt từ chưa chuẩn của 认为: cho rằng)"
+  "nhận biết, quen biết (认不认识: có quen không)"
  ],
  "韩文": [
   "HÀN VĂN",
@@ -10595,10 +10455,6 @@
   "CANH ĐIỀN",
   "cày ruộng"
  ],
- "人能": [
-  "NHÂN NĂNG",
-  "(cắt từ chưa chuẩn: 人 + 能, người có thể)"
- ],
  "吃饱": [
   "NGẬT BÃO",
   "ăn no"
@@ -10622,10 +10478,6 @@
  "破败": [
   "PHÁ BẠI",
   "đổ nát, tàn tạ"
- ],
- "这他": [
-  "GIÁ THA",
-  "(cắt từ chưa chuẩn của 在这他这里: ở chỗ anh ta)"
  ],
  "合理": [
   "HỢP LÝ",
@@ -10925,7 +10777,7 @@
  ],
  "酒吧": [
   "TỬU BA",
-  "quán bar; (cắt từ chưa chuẩn của 讲讲酒 + 吧: nói về rượu nhé)"
+  "quán bar"
  ],
  "游戏": [
   "DU HÍ",
@@ -11111,10 +10963,6 @@
   "HỒI HƯƠNG ĐẬU",
   "đậu tằm hồi hương"
  ],
- "茴有": [
-  "HỒI HỮU",
-  "(cắt từ chưa chuẩn của 茴有几种写法: chữ 茴 có mấy cách viết)"
- ],
  "现实生活": [
   "HIỆN THỰC SINH HOẠT",
   "đời sống thực tế"
@@ -11151,17 +10999,9 @@
   "THÁC LOẠN",
   "rối loạn"
  ],
- "莆和": [
-  "BỒ HÒA",
-  "(cắt từ chưa chuẩn của 史祥莆和: Sử Tường Bồ và)"
- ],
  "抵达": [
   "ĐỂ ĐẠT",
   "đến nơi"
- ],
- "了长": [
-  "LIỄU TRƯỜNG",
-  "(cắt từ chưa chuẩn của 开始了长达: bắt đầu … kéo dài tới)"
  ],
  "达": [
   "ĐẠT",
@@ -11170,10 +11010,6 @@
  "奇幻": [
   "KỲ HUYỄN",
   "kỳ ảo"
- ],
- "故事会": [
-  "CỐ SỰ HỘI",
-  "(cắt từ chưa chuẩn của 故事会有: câu chuyện sẽ có)"
  ],
  "集": [
   "TẬP",
@@ -11198,10 +11034,6 @@
  "紧接着": [
   "KHẨN TIẾP TRƯỚC",
   "ngay sau đó"
- ],
- "的点": [
-  "ĐÍCH ĐIỂM",
-  "(cắt từ chưa chuẩn của 震惊的点: điểm gây sốc)"
  ],
  "站台": [
   "TRẠM ĐÀI",
@@ -11230,10 +11062,6 @@
  "诡异": [
   "QUỶ DỊ",
   "quái dị, kỳ lạ"
- ],
- "主播爱": [
-  "CHỦ BÁ ÁI",
-  "(cắt từ chưa chuẩn của 主播爱哲: người dẫn chương trình Ái Triết)"
  ],
  "杨帆": [
   "DƯƠNG PHÀM",
@@ -11274,10 +11102,6 @@
  "复制": [
   "PHỤC CHẾ",
   "sao chép, nhân bản"
- ],
- "在用": [
-  "TẠI DỤNG",
-  "(cắt từ chưa chuẩn của 正在用: đang dùng)"
  ],
  "省": [
   "TỈNH",
@@ -11335,10 +11159,6 @@
   "NHẤT BỘ",
   "một bước"
  ],
- "人用": [
-  "NHÂN DỤNG",
-  "(cắt từ chưa chuẩn của 很多人用AI: nhiều người dùng AI)"
- ],
  "单": [
   "ĐƠN",
   "đơn (hàng); 第一单 = đơn đầu tiên; lẻ (送双不送单: tặng chẵn không tặng lẻ)"
@@ -11395,17 +11215,9 @@
   "PHÂN SỐ",
   "điểm số"
  ],
- "来供": [
-  "LAI CUNG",
-  "(cắt từ chưa chuẩn của 来供我参考: để tôi tham khảo)"
- ],
  "参考": [
   "THAM KHẢO",
   "tham khảo"
- ],
- "我省": [
-  "NGÃ TỈNH",
-  "(cắt từ chưa chuẩn của 帮我省去: giúp tôi bớt được)"
  ],
  "选题": [
   "TUYỂN ĐỀ",
@@ -11518,10 +11330,6 @@
  "购买": [
   "CẤU MÃI",
   "mua"
- ],
- "他省": [
-  "THA TỈNH",
-  "(cắt từ chưa chuẩn của 替他省下来: giúp họ tiết kiệm được)"
  ],
  "试错": [
   "THÍ THÁC",
@@ -11735,10 +11543,6 @@
   "CHÍNH THỨC",
   "chính thức"
  ],
- "八年": [
-  "BÁT NIÊN",
-  "(cắt từ chưa chuẩn của 二零一八年: năm 2018)"
- ],
  "体验": [
   "THỂ NGHIỆM",
   "trải nghiệm"
@@ -11805,7 +11609,7 @@
  ],
  "之家": [
   "CHI GIA",
-  "(cắt từ chưa chuẩn của IT之家: trang tin IT之家)"
+  "(IT之家: trang tin công nghệ IT Home)"
  ],
  "十九岁": [
   "THẬP CỬU TUẾ",
@@ -11999,10 +11803,6 @@
   "TRƯỚNG ĐÁO",
   "tăng lên đến"
  ],
- "我何": [
-  "NGÃ HÀ",
-  "(cắt từ chưa chuẩn của 叫我何同学: gọi tôi là bạn Hà)"
- ],
  "自习室": [
   "TỰ TẬP THẤT",
   "phòng tự học"
@@ -12083,10 +11883,6 @@
   "GIÁ THIÊN",
   "ngày hôm đó"
  ],
- "何是": [
-  "HÀ THỊ",
-  "(cắt từ chưa chuẩn của 小何是: cậu Hà là)"
- ],
  "分手": [
   "PHÂN THỦ",
   "chia tay"
@@ -12142,10 +11938,6 @@
  "发呆": [
   "PHÁT NGAI",
   "ngẩn người, thẫn thờ"
- ],
- "看起": [
-  "KHÁN KHỞI",
-  "(cắt từ chưa chuẩn của 看起了: bắt đầu đọc)"
  ],
  "近代史": [
   "CẬN ĐẠI SỬ",
@@ -12222,10 +12014,6 @@
  "大街": [
   "ĐẠI NHAI",
   "đường phố lớn"
- ],
- "上瞎晃": [
-  "THƯỢNG HẠT HOẢNG",
-  "(cắt từ chưa chuẩn của 大街上瞎晃: lang thang ngoài phố)"
  ],
  "尼康": [
   "NI KHANG",
@@ -12447,10 +12235,6 @@
   "PHÁCH HOÀN",
   "quay xong"
  ],
- "条路": [
-  "ĐIỀU LỘ",
-  "(cắt từ chưa chuẩn của 这条路: con đường này)"
- ],
  "大多数": [
   "ĐẠI ĐA SỐ",
   "đại đa số"
@@ -12506,10 +12290,6 @@
  "那年": [
   "NA NIÊN",
   "năm ấy"
- ],
- "圈有": [
-  "QUYỂN HỮU",
-  "(cắt từ chưa chuẩn của 数码圈有: giới công nghệ có)"
  ],
  "大事": [
   "ĐẠI SỰ",
@@ -12719,10 +12499,6 @@
   "NHỊ THẬP NGŨ",
   "25"
  ],
- "世杰": [
-  "THẾ KIỆT",
-  "Thế Kiệt (tên)"
- ],
  "尽头": [
   "TẬN ĐẦU",
   "cuối, tận cùng"
@@ -12834,10 +12610,6 @@
  "缓缓": [
   "HOÃN HOÃN",
   "từ từ"
- ],
- "地向": [
-  "ĐỊA HƯỚNG",
-  "(cắt từ chưa chuẩn của 缓缓地向: từ từ về phía)"
  ],
  "向往": [
   "HƯỚNG VÃNG",
@@ -12979,10 +12751,6 @@
   "TỔNG HỘI",
   "lúc nào cũng"
  ],
- "发赛": [
-  "PHÁT TÁI",
-  "(cắt từ chưa chuẩn của 发赛不过: đăng \"không đọ nổi\")"
- ],
  "丁丁": [
   "ĐINH ĐINH",
   "(ASR nghe vậy, trong 丁丁真; có thể là 丁真)"
@@ -12998,10 +12766,6 @@
  "同事": [
   "ĐỒNG SỰ",
   "đồng nghiệp"
- ],
- "我话": [
-  "NGÃ THOẠI",
-  "(cắt từ chưa chuẩn của 说我话说: chê tôi nói)"
  ],
  "不够": [
   "BẤT CẤU",
@@ -13030,10 +12794,6 @@
  "娱乐": [
   "NGU LẠC",
   "giải trí"
- ],
- "搜榜": [
-  "SƯU BẢNG",
-  "(cắt từ chưa chuẩn của 热搜榜: bảng tìm kiếm hot)"
  ],
  "标点符号": [
   "TIÊU ĐIỂM PHÙ HIỆU",
@@ -13215,17 +12975,9 @@
   "TAM KHỐI",
   "ba đồng (tệ); ba mảng (做好三块的事情: làm tốt ba mảng việc)"
  ],
- "琳娜": [
-  "LÂM NA",
-  "(tên) Lâm Na, phần sau của 瑟琳娜 Selina"
- ],
  "五分钟": [
   "NGŨ PHÂN CHUNG",
   "năm phút"
- ],
- "在来": [
-  "TẠI LAI",
-  "(cắt từ chưa chuẩn của 在来的路上: đang trên đường tới)"
  ],
  "总比": [
   "TỔNG TỶ",
@@ -13271,17 +13023,9 @@
   "TẨU LỘ",
   "đi bộ"
  ],
- "瑟": [
-  "SẮT",
-  "(chữ trong tên 瑟琳娜 Selina) đàn sắt"
- ],
  "权利": [
   "QUYỀN LỢI",
   "quyền"
- ],
- "辆车": [
-  "LƯỢNG XA",
-  "(cắt từ chưa chuẩn của 一辆车: một chiếc xe)"
  ],
  "辆": [
   "LƯỢNG",
@@ -13355,17 +13099,9 @@
   "KHẤU",
   "trừ (tiền); cài (khuy)"
  ],
- "不别": [
-  "BẤT BIỆT",
-  "(cắt từ chưa chuẩn của 要不/别取消: hay là đừng hủy)"
- ],
  "三辆": [
   "TAM LƯỢNG",
   "ba chiếc (xe)"
- ],
- "得换": [
-  "ĐẮC HOÁN",
-  "(cắt từ chưa chuẩn của 就得换: thì phải đổi)"
  ],
  "三点": [
   "TAM ĐIỂM",
@@ -13406,10 +13142,6 @@
  "敢坐": [
   "CẢM TỌA",
   "dám ngồi (xe)"
- ],
- "艾瑟": [
-  "",
-  "(ASR cắt tên: 哎 + 瑟 của 瑟琳娜 Selina)"
  ],
  "万一": [
   "VẠN NHẤT",
@@ -13570,10 +13302,6 @@
  "西班牙语": [
   "TÂY BAN NHA NGỮ",
   "tiếng Tây Ban Nha"
- ],
- "学法语": [
-  "HỌC PHÁP NGỮ",
-  "(cắt từ chưa chuẩn của 学 + 法语: học tiếng Pháp)"
  ],
  "心得": [
   "TÂM ĐẮC",
@@ -13927,10 +13655,6 @@
   "SINH",
   "sinh ra; sống"
  ],
- "小杨生": [
-  "TIỂU DƯƠNG SINH",
-  "(cắt từ chưa chuẩn của 小杨生煎: tên chuỗi bánh áp chảo Tiểu Dương)"
- ],
  "糖": [
   "ĐƯỜNG",
   "đường; kẹo"
@@ -14143,10 +13867,6 @@
   "SINH TIỄN BAO",
   "bánh bao áp chảo"
  ],
- "杨生": [
-  "DƯƠNG SINH",
-  "(cắt từ chưa chuẩn của 小杨生煎: tên chuỗi bánh áp chảo Tiểu Dương)"
- ],
  "传统": [
   "TRUYỀN THỐNG",
   "truyền thống"
@@ -14235,10 +13955,6 @@
   "KHẮC BẢN",
   "cứng nhắc, rập khuôn (刻板印象: định kiến, khuôn mẫu)"
  ],
- "人会": [
-  "NHÂN HỘI",
-  "(cắt từ chưa chuẩn của 人+会: người … sẽ)"
- ],
  "过滤": [
   "QUÁ LỰ",
   "lọc"
@@ -14263,10 +13979,6 @@
   "KÝ",
   "gửi (thư, hàng)"
  ],
- "我他": [
-  "NGÃ THA",
-  "(cắt từ chưa chuẩn của 我+他: tôi … anh ấy)"
- ],
  "邮政": [
   "BƯU CHÍNH",
   "bưu chính"
@@ -14285,7 +13997,7 @@
  ],
  "百度": [
   "BÁCH ĐỘ",
-  "Baidu (công cụ tìm kiếm); (cắt từ chưa chuẩn của 两百度: hai trăm độ)"
+  "Baidu (công cụ tìm kiếm)"
  ],
  "查": [
   "TRA",
@@ -14603,10 +14315,6 @@
   "NHẤT TẦNG",
   "một lớp"
  ],
- "搜在": [
-  "SƯU TẠI",
-  "(cắt từ chưa chuẩn của 搜+在: tìm trên…)"
- ],
  "搜": [
   "SƯU",
   "tìm kiếm; (热搜: top tìm kiếm, trending)"
@@ -14767,17 +14475,9 @@
   "BÁT CỬU",
   "tám chín"
  ],
- "表在": [
-  "BIỂU TẠI",
-  "(cắt từ chưa chuẩn của 表+在: bảng … trên)"
- ],
  "对着": [
   "ĐỐI TRƯỚC",
   "nhìn vào, hướng vào"
- ],
- "表去": [
-  "BIỂU KHỨ",
-  "(cắt từ chưa chuẩn của 对着表去看: nhìn bảng mà xem)"
  ],
  "几": [
   "KỶ",
@@ -14895,21 +14595,9 @@
   "SINH SƠ",
   "xa lạ, xa cách"
  ],
- "二零二": [
-  "NHỊ LINH NHỊ",
-  "(cắt từ chưa chuẩn của 二零二一年: năm 2021)"
- ],
  "比较复杂": [
   "TỶ GIẢO PHỨC TẠP",
   "khá phức tạp"
- ],
- "最一": [
-  "TỐI NHẤT",
-  "(cắt từ chưa chuẩn của 最一开始: lúc đầu tiên nhất)"
- ],
- "词会": [
-  "TỪ HỘI",
-  "(cắt từ chưa chuẩn của 词+会: từ này sẽ)"
  ],
  "拉美": [
   "LẠP MỸ",
@@ -14995,10 +14683,6 @@
   "PHÂN VI",
   "bầu không khí"
  ],
- "和聊": [
-  "HÒA LIÊU",
-  "(cắt từ chưa chuẩn của 和+聊的话题: và chủ đề nói chuyện)"
- ],
  "些": [
   "TA",
   "một số, vài"
@@ -15022,18 +14706,6 @@
  "蒸一蒸": [
   "CHƯNG NHẤT CHƯNG",
   "hấp một chút"
- ],
- "包生": [
-  "BAO SINH",
-  "(cắt từ chưa chuẩn của 生煎包+生煎包: bánh bao áp chảo)"
- ],
- "煎包": [
-  "TIỄN BAO",
-  "bánh bao áp chảo"
- ],
- "包有": [
-  "BAO HỮU",
-  "(cắt từ chưa chuẩn của 生煎包+有: bánh bao áp chảo có)"
  ],
  "很脆": [
   "NGẬN THÚY",
@@ -15094,10 +14766,6 @@
  "辣椒": [
   "LẠT TIÊU",
   "ớt"
- ],
- "一玩": [
-  "NHẤT NGOẠN",
-  "(cắt từ chưa chuẩn của 玩一玩: chơi một chút)"
  ],
  "说不过去": [
   "THUYẾT BẤT QUÁ KHỨ",
@@ -15311,10 +14979,6 @@
   "ĐẢN",
   "trứng"
  ],
- "炒在": [
-  "SAO TẠI",
-  "(cắt từ chưa chuẩn của 炒在一起: xào chung với nhau)"
- ],
  "第一道": [
   "ĐỆ NHẤT ĐẠO",
   "món đầu tiên; (第一道题) câu đầu tiên"
@@ -15382,10 +15046,6 @@
  "不懂": [
   "BẤT ĐỔNG",
   "không hiểu"
- ],
- "区里": [
-  "KHU LÝ",
-  "(cắt từ chưa chuẩn của 留言区里: trong khu bình luận)"
  ],
  "会计": [
   "HỘI KẾ",
@@ -15733,7 +15393,7 @@
  ],
  "同": [
   "ĐỒNG",
-  "cùng, giống; (cắt từ chưa chuẩn của 同传: phiên dịch song song)"
+  "cùng, giống"
  ],
  "同声": [
   "ĐỒNG THANH",
@@ -15797,7 +15457,7 @@
  ],
  "人性": [
   "NHÂN TÍNH",
-  "nhân tính, bản chất con người; (cắt từ chưa chuẩn của 被人性侵: bị người khác xâm hại tình dục)"
+  "nhân tính, bản chất con người"
  ],
  "物体": [
   "VẬT THỂ",
@@ -15846,10 +15506,6 @@
  "两句话": [
   "LƯỠNG CÚ THOẠI",
   "hai câu (nói)"
- ],
- "猜一": [
-  "SAI NHẤT",
-  "(cắt từ chưa chuẩn của 猜一猜: đoán thử)"
  ],
  "上次": [
   "THƯỢNG THỨ",
@@ -15995,10 +15651,6 @@
   "LƯỠNG THỨ",
   "hai lần"
  ],
- "发就": [
-  "PHÁT TỰU",
-  "(cắt từ chưa chuẩn của 理两次发就可以: cắt tóc hai lần là được)"
- ],
  "策略": [
   "SÁCH LƯỢC",
   "sách lược, chiến lược"
@@ -16062,10 +15714,6 @@
  "领到": [
   "LĨNH ĐÁO",
   "dẫn đến (领到同一个团队: đưa về cùng một nhóm)"
- ],
- "里哈": [
-  "",
-  "(cắt từ chưa chuẩn của 大学里哈: ở đại học ấy — 哈 là tiếng đệm)"
  ],
  "有的是": [
   "HỮU ĐÍCH THỊ",
@@ -16139,10 +15787,6 @@
   "ĐÔ HÀNH",
   "cái nào cũng được"
  ],
- "分考": [
-  "PHÂN KHẢO",
-  "(cắt từ chưa chuẩn của 分考得比较低: điểm thi khá thấp)"
- ],
  "够呛": [
   "",
   "gay go, khó mà được"
@@ -16175,10 +15819,6 @@
   "CẬN THỊ",
   "cận thị"
  ],
- "做用": [
-  "TỐ DỤNG",
-  "(cắt từ chưa chuẩn của 做用眼强度…的工作: làm việc phải dùng mắt nhiều)"
- ],
  "强度": [
   "CƯỜNG ĐỘ",
   "cường độ"
@@ -16201,7 +15841,7 @@
  ],
  "接地": [
   "TIẾP ĐỊA",
-  "nối đất (mạch điện); (cắt từ chưa chuẩn của 接地气: gần gũi, thực tế)"
+  "nối đất (mạch điện)"
  ],
  "就是指": [
   "TỰU THỊ CHỈ",
@@ -16457,15 +16097,11 @@
  ],
  "是非": [
   "THỊ PHI",
-  "phải trái, đúng sai; (cắt từ chưa chuẩn của 是非喝不可: là buộc phải uống)"
+  "phải trái, đúng sai"
  ],
  "调调": [
   "",
   "giọng điệu, luận điệu (ở đây có vẻ là nói vấp)"
- ],
- "一聊": [
-  "NHẤT LIÊU",
-  "(cắt từ chưa chuẩn của 聊一聊: trò chuyện một chút)"
  ],
  "高考制度": [
   "CAO KHẢO CHẾ ĐỘ",
@@ -16563,10 +16199,6 @@
   "TƯƠNG CẬN",
   "gần giống, gần gũi"
  ],
- "讲学": [
-  "GIẢNG HỌC",
-  "(cắt từ chưa chuẩn của 讲学会计: nói về việc học kế toán)"
- ],
  "多多少少": [
   "ĐA ĐA THIỂU THIỂU",
   "ít nhiều"
@@ -16574,10 +16206,6 @@
  "同传": [
   "ĐỒNG TRUYỀN",
   "phiên dịch song song, phiên dịch cabin"
- ],
- "传是": [
-  "TRUYỀN THỊ",
-  "(cắt từ chưa chuẩn của 同传是: phiên dịch song song là)"
  ],
  "模式": [
   "MÔ THỨC",
@@ -16589,11 +16217,7 @@
  ],
  "传": [
   "TRUYỀN",
-  "truyền; (cắt từ chưa chuẩn của 同传: phiên dịch song song); tải lên (传进去)"
- ],
- "上用": [
-  "THƯỢNG DỤNG",
-  "(cắt từ chưa chuẩn của 会计上用的: về mặt kế toán thì dùng)"
+  "truyền; tải lên (传进去)"
  ],
  "绝大多数": [
   "TUYỆT ĐẠI ĐA SỐ",
@@ -16955,13 +16579,9 @@
   "ĐẢ TẠO",
   "xây dựng, tạo dựng"
  ],
- "禅": [
-  "THIỀN",
-  "thiền (禅修: tu thiền)"
- ],
  "修": [
   "TU",
-  "(cắt từ chưa chuẩn của 禅修: tu thiền); sửa chữa, tu sửa (修下水道: sửa cống); tu dưỡng, học"
+  "sửa chữa, tu sửa (修下水道: sửa cống); tu dưỡng, học"
  ],
  "冷冰冰": [
   "LÃNH BĂNG BĂNG",
@@ -17007,10 +16627,6 @@
   "LỆNH NHÂN",
   "khiến người ta"
  ],
- "舍": [
-  "XẢ",
-  "(cắt từ chưa chuẩn của 不舍: không nỡ rời)"
- ],
  "可爱": [
   "KHẢ ÁI",
   "đáng yêu"
@@ -17021,7 +16637,7 @@
  ],
  "约": [
   "ƯỚC",
-  "hẹn; (cắt từ chưa chuẩn của 契约: khế ước)"
+  "hẹn"
  ],
  "联系人": [
   "LIÊN HỆ NHÂN",
@@ -18611,10 +18227,6 @@
   "MẶC NHẬN THIẾT TRÍ",
   "cài đặt mặc định"
  ],
- "在线": [
-  "TẠI TUYẾN",
-  "trực tuyến; (在线下: cắt từ chưa chuẩn của 在 + 线下)"
- ],
  "免": [
   "MIỄN",
   "miễn, không cần (免接触: không chạm)"
@@ -18673,7 +18285,7 @@
  ],
  "成就": [
   "THÀNH TỰU",
-  "thành tích; (cắt từ chưa chuẩn của 训练成 + 就是: luyện thành)"
+  "thành tích"
  ],
  "方案": [
   "PHƯƠNG ÁN",
@@ -19319,10 +18931,6 @@
   "CHỨNG",
   "giấy chứng nhận; chứng minh (证证据: nói lặp 证据)"
  ],
- "呃来": [
-  "",
-  "(cắt từ chưa chuẩn của 证据呃来利用: ờ + để mà)"
- ],
  "利用": [
   "LỢI DỤNG",
   "tận dụng, sử dụng"
@@ -19394,10 +19002,6 @@
  "所说": [
   "SỞ THUYẾT",
   "điều đã nói (如刚刚所说: như vừa nói)"
- ],
- "让你在": [
-  "NHƯỢNG NHĨ TẠI",
-  "(cắt từ chưa chuẩn của 让你在未来: để bạn trong tương lai)"
  ],
  "纳入": [
   "NẠP NHẬP",
@@ -19566,10 +19170,6 @@
  "变革": [
   "BIẾN CÁCH",
   "biến đổi, cải cách"
- ],
- "快的": [
-  "KHOÁI ĐÍCH",
-  "(cắt từ chưa chuẩn của 那么快的的发生: nhanh đến thế)"
  ],
  "转型": [
   "CHUYỂN HÌNH",
@@ -19806,10 +19406,6 @@
  "鱼贯而入": [
   "NGƯ QUÁN NHI NHẬP",
   "nối đuôi nhau đi vào"
- ],
- "看同": [
-  "KHÁN ĐỒNG",
-  "(cắt từ chưa chuẩn của 看同一部电影: xem cùng một bộ phim)"
  ],
  "等待": [
   "ĐẲNG ĐÃI",
@@ -20107,10 +19703,6 @@
   "TRÙNG KHÁNH ĐẠI HỌC",
   "Đại học Trùng Khánh"
  ],
- "八五": [
-  "BÁT NGŨ",
-  "(đọc số) tám năm, 85; (cắt từ chưa chuẩn của 九八五: nhóm trường top 985)"
- ],
  "一批": [
   "NHẤT PHÊ",
   "một nhóm, một loạt"
@@ -20323,10 +19915,6 @@
   "LỤC HOÀN",
   "ghi âm xong"
  ],
- "看有": [
-  "KHÁN HỮU",
-  "(cắt từ chưa chuẩn của 去看有我的东西: xem thứ có mình trong đó)"
- ],
  "尴尬": [
   "GIAM GIỚI",
   "ngượng, khó xử"
@@ -20443,10 +20031,6 @@
   "DÃ HỘI BIẾN ĐA",
   "cũng sẽ nhiều lên"
  ],
- "像有": [
-  "TƯỢNG HỮU",
-  "(cắt từ chưa chuẩn của 有点像有点像: hơi giống như)"
- ],
  "河南省": [
   "HÀ NAM TỈNH",
   "tỉnh Hà Nam"
@@ -20458,10 +20042,6 @@
  "郑州大学": [
   "TRỊNH CHÂU ĐẠI HỌC",
   "Đại học Trịnh Châu"
- ],
- "数最多": [
-  "SỐ TỐI ĐA",
-  "(cắt từ chưa chuẩn của 人数最多: số người đông nhất)"
  ],
  "交大": [
   "GIAO ĐẠI",
@@ -20485,7 +20065,7 @@
  ],
  "分配": [
   "PHÂN PHỐI",
-  "phân phối, phân bổ; (五分配: cắt từ chưa chuẩn của 五分 + 配, pace 5 phút)"
+  "phân phối, phân bổ"
  ],
  "偏远": [
   "THIÊN VIỄN",
@@ -20501,7 +20081,7 @@
  ],
  "文": [
   "VĂN",
-  "văn, chữ; (nói dở 文科: khối xã hội); (中文文: nói lặp 中文); (cắt từ chưa chuẩn của 文化: văn hóa)"
+  "văn, chữ; (nói dở 文科: khối xã hội); (中文文: nói lặp 中文)"
  ],
  "二年级": [
   "NHỊ NIÊN CẤP",
@@ -20566,10 +20146,6 @@
  "区域": [
   "KHU VỰC",
   "khu vực"
- ],
- "有加": [
-  "HỮU GIA",
-  "(cắt từ chưa chuẩn của 也有加分: cũng có cộng điểm)"
  ],
  "政策": [
   "CHÍNH SÁCH",
@@ -20643,17 +20219,13 @@
   "NHÂN",
   "vì, nguyên nhân; (nói dở 因为)"
  ],
- "呃像": [
-  "",
-  "(cắt từ chưa chuẩn: 呃 ờ + 像 như là)"
- ],
  "科学学": [
   "KHOA HỌC HỌC",
   "(nói nhịu 科学学目, ý là 科目/学科: môn học)"
  ],
  "目": [
   "MỤC",
-  "mắt; mục (nói nhịu 学目, ý là 科目: môn học); (cắt từ chưa chuẩn của 项目: hạng mục)"
+  "mắt; mục (nói nhịu 学目, ý là 科目: môn học)"
  ],
  "好好学": [
   "HẢO HẢO HỌC",
@@ -20755,17 +20327,9 @@
   "QUAN PHƯƠNG",
   "chính thức, phía nhà nước"
  ],
- "比学": [
-  "TỶ HỌC",
-  "(cắt từ chưa chuẩn của 要比学文科: so với học khối xã hội)"
- ],
  "学者": [
   "HỌC GIẢ",
   "học giả"
- ],
- "变太": [
-  "BIẾN THÁI",
-  "(cắt từ chưa chuẩn của 变太多: trở nên quá nhiều)"
  ],
  "要不然": [
   "YẾU BẤT NHIÊN",
@@ -20794,10 +20358,6 @@
  "政治经济": [
   "CHÍNH TRỊ KINH TẾ",
   "chính trị, kinh tế"
- ],
- "的对": [
-  "ĐÍCH ĐỐI",
-  "(cắt từ chưa chuẩn của 出身的对吗: xuất thân… đúng không)"
  ],
  "言论": [
   "NGÔN LUẬN",
@@ -20935,10 +20495,6 @@
   "BỐ LỖ TẮC NHĨ",
   "Brussels (thủ đô nước Bỉ)"
  ],
- "一个三天": [
-  "NHẤT CÁ TAM THIÊN",
-  "(cắt từ chưa chuẩn của 一个三天的自驾游: một chuyến tự lái ba ngày)"
- ],
  "自驾游": [
   "TỰ GIÁ DU",
   "du lịch tự lái xe"
@@ -20947,17 +20503,9 @@
   "GIÁ CHU",
   "tuần này"
  ],
- "来录": [
-  "LAI LỤC",
-  "(cắt từ chưa chuẩn: 来 + 录, đến thu âm)"
- ],
  "光荣传统": [
   "QUANG VINH TRUYỀN THỐNG",
   "truyền thống vẻ vang"
- ],
- "人录": [
-  "NHÂN LỤC",
-  "(cắt từ chưa chuẩn của 一个人录: một mình thu âm)"
  ],
  "一小": [
   "NHẤT TIỂU",
@@ -20982,10 +20530,6 @@
  "第二点": [
   "ĐỆ NHỊ ĐIỂM",
   "điểm thứ hai"
- ],
- "来用": [
-  "LAI DỤNG",
-  "(cắt từ chưa chuẩn: 来 + 用, đến dùng / dùng để)"
  ],
  "东南亚": [
   "ĐÔNG NAM Á",
@@ -21187,10 +20731,6 @@
   "HIỆP ĐIỀU",
   "điều phối, phối hợp"
  ],
- "物": [
-  "VẬT",
-  "vật, đồ vật (cắt từ chưa chuẩn của 物联网: Internet vạn vật, IoT); (cắt từ chưa chuẩn của 食物: đồ ăn)"
- ],
  "编写": [
   "BIÊN TẢ",
   "biên soạn, viết (code, tài liệu)"
@@ -21198,10 +20738,6 @@
  "控制面板": [
   "KHỐNG CHẾ DIỆN BẢN",
   "bảng điều khiển"
- ],
- "官": [
-  "QUAN",
-  "quan chức (cắt từ chưa chuẩn của 官网: trang web chính thức)"
  ],
  "电源线": [
   "ĐIỆN NGUYÊN TUYẾN",
@@ -21359,10 +20895,6 @@
   "KẾT CẤU",
   "cấu trúc (结构体: struct)"
  ],
- "体": [
-  "THỂ",
-  "thân thể; thể (结构体: struct trong lập trình); (整体 bị cắt dòng) tổng thể"
- ],
  "用法": [
   "DỤNG PHÁP",
   "cách dùng"
@@ -21487,10 +21019,6 @@
   "TẤT NGHIỆP THIẾT KẾ",
   "đồ án tốt nghiệp"
  ],
- "表有": [
-  "BIỂU HỮU",
-  "(cắt từ chưa chuẩn của 这块表有: chiếc đồng hồ này có)"
- ],
  "菜单": [
   "THÁI ĐƠN",
   "menu, thực đơn"
@@ -21554,10 +21082,6 @@
  "电子名片": [
   "ĐIỆN TỬ DANH PHIẾN",
   "danh thiếp điện tử"
- ],
- "赞量": [
-  "TÁN LƯỢNG",
-  "(cắt từ chưa chuẩn của 点赞量: số lượt thích)"
  ],
  "主页": [
   "CHỦ HIỆT",
@@ -21679,10 +21203,6 @@
   "KHU ĐỘNG",
   "thúc đẩy, dẫn động; driver (硬件驱动: driver phần cứng)"
  ],
- "耦": [
-  "NGẪU",
-  "cặp, ghép đôi (解耦: tách rời, decouple)"
- ],
  "便于": [
   "TIỆN VU",
   "tiện cho, dễ (làm gì)"
@@ -21774,14 +21294,6 @@
  "压缩包": [
   "ÁP SÚC BAO",
   "file nén (zip, rar)"
- ],
- "嘉立": [
-  "GIA LẬP",
-  "(cắt từ 嘉立创: Gia Lập Sáng, hãng JLC làm mạch in)"
- ],
- "创": [
-  "SÁNG",
-  "sáng tạo, mở ra (chữ cuối của 嘉立创 / 立创); (创始创…) nói lặp của 创始人 người sáng lập"
  ],
  "电阻": [
   "ĐIỆN TRỞ",
@@ -21915,10 +21427,6 @@
   "TRIỆU HÁCH TƯ",
   "megahertz (MHz)"
  ],
- "下时": [
-  "HẠ THỜI",
-  "(cắt từ chưa chuẩn của 按下时: khi nhấn xuống)"
- ],
  "外设": [
   "NGOẠI THIẾT",
   "thiết bị ngoại vi"
@@ -21970,10 +21478,6 @@
  "顶层": [
   "ĐỈNH TẦNG",
   "lớp trên cùng (mặt trên PCB); tầng thượng"
- ],
- "创下": [
-  "SÁNG HẠ",
-  "lập (kỷ lục) (ở đây cắt từ chưa chuẩn của 嘉立创下单: đặt hàng ở JLC)"
  ],
  "助手": [
   "TRỢ THỦ",
@@ -22135,10 +21639,6 @@
   "NẠP PHÁP",
   "nanofara (nF)"
  ],
- "前要": [
-  "TIỀN YẾU",
-  "(cắt từ chưa chuẩn của 代码前要用到: trước khi … thì cần dùng)"
- ],
  "用到": [
   "DỤNG ĐÁO",
   "dùng đến"
@@ -22146,10 +21646,6 @@
  "名": [
   "DANH",
   "tên (网络名: tên net)"
- ],
- "上有": [
-  "THƯỢNG HỮU",
-  "(cắt từ chưa chuẩn của 总线上有: trên bus có)"
  ],
  "千欧": [
   "THIÊN ÂU",
@@ -22174,10 +21670,6 @@
  "电量计": [
   "ĐIỆN LƯỢNG KẾ",
   "chip đo dung lượng pin (fuel gauge)"
- ],
- "八八": [
-  "BÁT BÁT",
-  "(cắt từ 五八八三: QMC5883)"
  ],
  "磁力计": [
   "TỪ LỰC KẾ",
@@ -22217,19 +21709,7 @@
  ],
  "十二点": [
   "THẬP NHỊ ĐIỂM",
-  "12 giờ (半夜十二点: 12 giờ đêm); (cắt từ 三十二点七六八: 32,768)"
- ],
- "七六": [
-  "THẤT LỤC",
-  "(cắt từ 三十二点七六八: 32,768)"
- ],
- "八千": [
-  "BÁT THIÊN",
-  "(cắt từ 七六八千赫兹: …768 kHz)"
- ],
- "赫兹": [
-  "HÁCH TƯ",
-  "hertz (Hz)"
+  "12 giờ (半夜十二点: 12 giờ đêm)"
  ],
  "休眠": [
   "HƯU MIÊN",
@@ -22257,7 +21737,7 @@
  ],
  "波": [
   "BA",
-  "sóng (PWM波: sóng PWM)"
+  "sóng (PWM波: sóng PWM); đợt, lứa (这波人: nhóm người này)"
  ],
  "占空比": [
   "CHIẾM KHÔNG TỶ",
@@ -22279,17 +21759,9 @@
   "NHẤT PHIẾN",
   "một miếng, một con (chip); cả một vùng (一片黑: đen kịt một màu)"
  ],
- "三伏": [
-  "TAM PHỤC",
-  "tam phục, những ngày nóng nhất (ở đây cắt từ 三点三伏: 3,3 vôn)"
- ],
  "开关机": [
   "KHAI QUAN CƠ",
   "bật tắt máy"
- ],
- "管导": [
-  "QUẢN ĐẠO",
-  "(cắt từ chưa chuẩn của 三极管导通 / PMOS管导通: transistor dẫn)"
  ],
  "拉高": [
   "LẠP CAO",
@@ -22302,14 +21774,6 @@
  "十七": [
   "THẬP THẤT",
   "17 (R十七: điện trở R17)"
- ],
- "十千": [
-  "THẬP THIÊN",
-  "(cắt từ 十千欧: 10 kΩ)"
- ],
- "欧": [
-  "ÂU",
-  "ôm (Ω); châu Âu"
  ],
  "充电电流": [
   "SUNG ĐIỆN ĐIỆN LƯU",
@@ -22399,10 +21863,6 @@
   "TUYỂN HẠNG",
   "tùy chọn"
  ],
- "和钢网": [
-  "HÒA CƯƠNG VÕNG",
-  "(cắt từ chưa chuẩn của PCB和钢网: PCB và stencil)"
- ],
  "打样": [
   "ĐẢ DẠNG",
   "làm mẫu, sản xuất thử"
@@ -22442,14 +21902,6 @@
  "五十": [
   "NGŨ THẬP",
   "50"
- ],
- "立": [
-  "LẬP",
-  "đứng; lập (chữ giữa của 嘉立创 / 立创); (cắt từ chưa chuẩn của 建立: xây dựng)"
- ],
- "在立": [
-  "TẠI LẬP",
-  "(cắt từ chưa chuẩn của 在立创商城: ở trang LCSC)"
  ],
  "标": [
   "TIÊU",
@@ -22511,14 +21963,6 @@
   "ĐÁI TẨU",
   "mang đi, kéo đi"
  ],
- "用吸": [
-  "DỤNG HẤP",
-  "(cắt từ chưa chuẩn của 用吸锡带: dùng dây hút thiếc)"
- ],
- "锡带": [
-  "TÍCH ĐÁI",
-  "(cắt từ 吸锡带: dây hút thiếc)"
- ],
  "接口": [
   "TIẾP KHẨU",
   "cổng kết nối; giao diện"
@@ -22543,14 +21987,6 @@
   "TÁ TRỢ",
   "nhờ vào, với sự trợ giúp của"
  ],
- "四零": [
-  "TỨ LINH",
-  "(cắt từ 四零五六: TP4056)"
- ],
- "五六": [
-  "NGŨ LỤC",
-  "(cắt từ 四零五六: TP4056)"
- ],
  "万用表": [
   "VẠN DỤNG BIỂU",
   "đồng hồ vạn năng"
@@ -22558,10 +21994,6 @@
  "测": [
   "TRẮC",
   "đo"
- ],
- "要测": [
-  "YẾU TRẮC",
-  "(cắt từ chưa chuẩn của 分别要测: cần đo lần lượt)"
  ],
  "此时": [
   "THỬ THỜI",
@@ -22598,10 +22030,6 @@
  "经纬度": [
   "KINH VĨ ĐỘ",
   "kinh độ và vĩ độ"
- ],
- "四乘": [
-  "TỨ THỪA",
-  "(cắt từ 二百四乘二百四: 240×240)"
  ],
  "封面": [
   "PHONG DIỆN",
@@ -22650,10 +22078,6 @@
  "塞": [
   "TẮC",
   "nhét vào; bịt lại"
- ],
- "孔中": [
-  "KHỔNG TRUNG",
-  "(cắt từ chưa chuẩn của 固定孔中: vào lỗ cố định)"
  ],
  "槽口": [
   "TÀO KHẨU",
@@ -23229,7 +22653,7 @@
  ],
  "困": [
   "KHỐN",
-  "buồn ngủ; khốn khó"
+  "buồn ngủ; khốn khó; bị kẹt (困在: kẹt ở)"
  ],
  "永远都是": [
   "VĨNH VIỄN ĐÔ THỊ",
@@ -23681,7 +23105,7 @@
  ],
  "好听": [
   "HẢO THÍNH",
-  "dễ nghe; (cắt từ chưa chuẩn của 不好好听: không chịu nghe giảng)"
+  "dễ nghe"
  ],
  "预设": [
   "DỰ THIẾT",
@@ -24043,10 +23467,6 @@
   "HOÀI DỰNG",
   "mang thai"
  ],
- "了要": [
-  "LIỄU YẾU",
-  "(cắt từ chưa chuẩn của 怀孕了 + 要: mang thai rồi, phải…)"
- ],
  "休": [
   "HƯU",
   "nghỉ (休产假: nghỉ thai sản)"
@@ -24066,10 +23486,6 @@
  "同意": [
   "ĐỒNG Ý",
   "đồng ý"
- ],
- "来给": [
-  "LAI CẤP",
-  "(cắt từ chưa chuẩn: 不来 + 给的分数, không đến lớp mà được cho điểm)"
  ],
  "初勤": [
   "",
@@ -24167,10 +23583,6 @@
   "NHẤT MIỂU",
   "một giây"
  ],
- "了校": [
-  "",
-  "(cắt từ chưa chuẩn của 经历了 + 校招: trải qua đợt tuyển dụng ở trường)"
- ],
  "好看": [
   "HẢO KHÁN",
   "đẹp, dễ nhìn"
@@ -24206,10 +23618,6 @@
  "唉": [
   "AI",
   "haizz (thở dài); à, ờ (khi nhớ lại)"
- ],
- "来校": [
-  "",
-  "(cắt từ chưa chuẩn của 来 + 校招: đến tuyển dụng tại trường)"
  ],
  "应聘": [
   "ỨNG SÍNH",
@@ -24254,10 +23662,6 @@
  "耻辱柱": [
   "SỈ NHỤC TRỤ",
   "cột ô nhục"
- ],
- "高手": [
-  "CAO THỦ",
-  "cao thủ; (cắt từ chưa chuẩn của 小高 + 手上: trong tay Tiểu Cao)"
  ],
  "几份": [
   "KỶ PHẦN",
@@ -24329,7 +23733,7 @@
  ],
  "零零": [
   "LINH LINH",
-  "(đọc số) không không (二零零七年: năm 2007); (零零后: thế hệ sinh sau năm 2000)"
+  "(đọc số) không không (二零零七年: năm 2007)"
  ],
  "实行": [
   "THỰC HÀNH",
@@ -24531,10 +23935,6 @@
   "NGÃ MUỘI",
   "em gái tôi"
  ],
- "台演": [
-  "ĐÀI DIỄN",
-  "(cắt từ chưa chuẩn của 哪个台 + 演什么: kênh nào chiếu gì)"
- ],
  "演": [
   "DIỄN",
   "diễn, chiếu"
@@ -24546,18 +23946,6 @@
  "列出来": [
   "LIỆT XUẤT LAI",
   "liệt kê ra"
- ],
- "天演": [
-  "THIÊN DIỄN",
-  "(cắt từ chưa chuẩn của 哪天 + 演: hôm nào chiếu)"
- ],
- "记不清": [
-  "KÝ BẤT THANH",
-  "không nhớ rõ"
- ],
- "楚": [
-  "SỞ",
-  "(cắt từ chưa chuẩn của 记不清楚: không nhớ rõ)"
  ],
  "具体内容": [
   "CỤ THỂ NỘI DUNG",
@@ -24823,10 +24211,6 @@
   "GIẢM KHINH PHỤ ĐẢM",
   "giảm bớt gánh nặng"
  ],
- "人向": [
-  "NHÂN HƯỚNG",
-  "(cắt từ chưa chuẩn: 人 + 向, (không) ai … với)"
- ],
  "提起过": [
   "ĐỀ KHỞI QUÁ",
   "từng nhắc đến"
@@ -25014,10 +24398,6 @@
  "停止": [
   "ĐÌNH CHỈ",
   "dừng lại"
- ],
- "场上": [
-  "TRƯỜNG THƯỢNG",
-  "(cắt từ chưa chuẩn của 职场上: nơi công sở)"
  ],
  "敲门砖": [
   "XAO MÔN CHUYÊN",
@@ -25447,14 +24827,6 @@
   "MỸ DUNG",
   "làm đẹp, thẩm mỹ"
  ],
- "刀削": [
-  "ĐAO TƯỚC",
-  "dao gọt (动刀削骨: dùng dao gọt xương)"
- ],
- "骨哈": [
-  "CỐT CÁP",
-  "(cắt từ chưa chuẩn của 削骨 + 哈: gọt xương à)"
- ],
  "双眼皮": [
   "SONG NHÃN BÌ",
   "mắt hai mí (拉双眼皮: cắt mí)"
@@ -25663,10 +25035,6 @@
   "THẬP NGŨ VẠN",
   "mười lăm vạn (150.000)"
  ],
- "条线": [
-  "ĐIỀU TUYẾN",
-  "(cắt từ chưa chuẩn của 整齐 + 条线: đường (chân tóc) đều)"
- ],
  "刀": [
   "ĐAO",
   "dao (刀斧的痕迹: dấu vết dao kéo)"
@@ -25786,10 +25154,6 @@
  "腻": [
   "NỊ",
   "ngấy, ngán; (ASR, chỗ 培养腻 có lẽ là 培养皿: đĩa nuôi cấy)"
- ],
- "差不": [
-  "SAI BẤT",
-  "(cắt từ chưa chuẩn của 差不多: gần như)"
  ],
  "六个": [
   "LỤC CÁ",
@@ -25911,10 +25275,6 @@
   "HỮU ĐỒNG",
   "(nói vấp, ý là 有朋友: có bạn)"
  ],
- "人眼": [
-  "NHÂN NHÃN",
-  "(cắt từ chưa chuẩn của 那人 + 眼: người đó … mắt)"
- ],
  "一紧": [
   "NHẤT KHẨN",
   "thắt lại (心里一紧: chột dạ)"
@@ -25922,10 +25282,6 @@
  "打哈哈": [
   "ĐẢ CÁP CÁP",
   "cười trừ, đánh trống lảng"
- ],
- "就别": [
-  "TỰU BIỆT",
-  "(cắt từ chưa chuẩn: 就 + 别…, nói vấp)"
  ],
  "心事": [
   "TÂM SỰ",
@@ -26034,10 +25390,6 @@
  "六": [
   "LỤC",
   "sáu"
- ],
- "四十一个": [
-  "TỨ THẬP NHẤT CÁ",
-  "(cắt từ chưa chuẩn của 四十 + 一个: bốn mươi (tệ) một con)"
  ],
  "末尾": [
   "MẠT VĨ",
@@ -26163,17 +25515,9 @@
   "TẠI THỬ CHI HẬU",
   "sau đó"
  ],
- "篇文章": [
-  "THIÊN VĂN CHƯƠNG",
-  "(cắt từ chưa chuẩn của 那篇文章: bài viết đó)"
- ],
  "顺": [
   "THUẬN",
   "thuận, trôi chảy"
- ],
- "下写": [
-  "HẠ TẢ",
-  "(cắt từ chưa chuẩn của 情况下 + 写: viết trong tình trạng…)"
  ],
  "写出": [
   "TẢ XUẤT",
@@ -26306,10 +25650,6 @@
  "喝醉": [
   "HÁT TÚY",
   "say rượu"
- ],
- "了酒": [
-  "LIỄU TỬU",
-  "(cắt từ chưa chuẩn của 喝醉了 + 酒: say rượu); (喝不下了酒: uống không nổi rượu nữa)"
  ],
  "传遍": [
   "TRUYỀN BIẾN",
@@ -26542,18 +25882,6 @@
  "安检": [
   "AN KIỂM",
   "kiểm tra an ninh"
- ],
- "从优": [
-  "TÒNG ƯU",
-  "ưu đãi; (cắt từ chưa chuẩn của 从 + 优衣库: từ Uniqlo)"
- ],
- "衣": [
-  "Y",
-  "áo (优衣库: Uniqlo)"
- ],
- "库里": [
-  "KHỐ LÝ",
-  "(cắt từ chưa chuẩn của 优衣库 + 里: trong Uniqlo)"
  ],
  "上船": [
   "THƯỢNG THUYỀN",
@@ -26799,17 +26127,9 @@
   "DI ĐÁO",
   "chuyển đến"
  ],
- "的学": [
-  "",
-  "(cắt từ chưa chuẩn của 真正的 + 学: việc học thật sự)"
- ],
  "嘈杂": [
   "TÀO TẠP",
   "ồn ào, ầm ĩ"
- ],
- "文学": [
-  "VĂN HỌC",
-  "văn học; (cắt từ chưa chuẩn của 中文 + 学: học tiếng Trung)"
  ],
  "第一年": [
   "ĐỆ NHẤT NIÊN",
@@ -26843,10 +26163,6 @@
   "TIẾT TẤU",
   "nhịp, nhịp độ"
  ],
- "但一": [
-  "",
-  "(cắt từ chưa chuẩn của 但 + 一开始: nhưng lúc đầu)"
- ],
  "字典": [
   "TỰ ĐIỂN",
   "từ điển (tra chữ)"
@@ -26874,10 +26190,6 @@
  "名词": [
   "DANH TỪ",
   "danh từ; thuật ngữ"
- ],
- "字合": [
-  "",
-  "(cắt từ chưa chuẩn của 四个字 + 合起来: bốn chữ ghép lại)"
  ],
  "爱情": [
   "ÁI TÌNH",
@@ -26987,10 +26299,6 @@
   "THUYẾT THÀNH",
   "nói thành"
  ],
- "的的": [
-  "",
-  "(cắt từ chưa chuẩn của 什么的 + 的时候: lúc … các thứ); (nói lặp 的)"
- ],
  "怪": [
   "QUÁI",
   "lạ, kỳ quặc; trách"
@@ -26998,10 +26306,6 @@
  "很怪": [
   "NGẬN QUÁI",
   "rất lạ, rất kỳ"
- ],
- "很蛮": [
-  "",
-  "(cắt từ chưa chuẩn của 很多/蛮多: người nói vấp, ý là khá nhiều)"
  ],
  "流畅": [
   "LƯU SƯỚNG",
@@ -27038,10 +26342,6 @@
  "录到": [
   "LỤC ĐÁO",
   "ghi (âm) đến (录到这里: thu đến đây)"
- ],
- "双十": [
-  "SONG THẬP",
-  "(cắt từ chưa chuẩn của 双十一: ngày 11/11, lễ hội mua sắm)"
  ],
  "一线": [
   "NHẤT TUYẾN",
@@ -27114,10 +26414,6 @@
  "杭州": [
   "HÀNG CHÂU",
   "Hàng Châu (thủ phủ tỉnh Chiết Giang)"
- ],
- "邮区": [
-  "BƯU KHU",
-  "(cắt từ chưa chuẩn của 包邮区: vùng được miễn phí ship)"
  ],
  "包邮": [
   "BAO BƯU",
@@ -27307,10 +26603,6 @@
   "Á MÃ TỐN",
   "Amazon"
  ],
- "呃用": [
-  "",
-  "(cắt từ chưa chuẩn: 呃 ờ + 用 dùng — 最呃用的人: người dùng nhiều nhất)"
- ],
  "星期五": [
   "TINH KỲ NGŨ",
   "thứ sáu"
@@ -27439,10 +26731,6 @@
   "LẬU ĐIỆU",
   "bỏ sót, lỡ quên"
  ],
- "上大": [
-  "THƯỢNG ĐẠI",
-  "(cắt từ chưa chuẩn của 上大一: học năm nhất đại học)"
- ],
  "兴起": [
   "HƯNG KHỞI",
   "nổi lên, bắt đầu thịnh hành"
@@ -27498,10 +26786,6 @@
  "文科学生": [
   "VĂN KHOA HỌC SINH",
   "sinh viên khối xã hội"
- ],
- "上买": [
-  "THƯỢNG MÃI",
-  "(cắt từ chưa chuẩn: 在淘宝上买: mua trên Taobao)"
  ],
  "主打": [
   "CHỦ ĐẢ",
@@ -27855,10 +27139,6 @@
   "ÂM NHẠC TIẾT",
   "lễ hội âm nhạc"
  ],
- "综": [
-  "TỔNG",
-  "tổng hợp (cắt từ chưa chuẩn của 理综: bài thi tổ hợp Lý-Hóa-Sinh)"
- ],
  "重点班": [
   "TRỌNG ĐIỂM BAN",
   "lớp chọn, lớp trọng điểm"
@@ -27870,10 +27150,6 @@
  "选择题": [
   "TUYỂN TRẠCH ĐỀ",
   "câu hỏi trắc nghiệm"
- ],
- "做理": [
-  "TỐ LÝ",
-  "(cắt từ chưa chuẩn của 做理综: làm đề tổ hợp Lý-Hóa-Sinh)"
  ],
  "大题": [
   "ĐẠI ĐỀ",
@@ -27975,10 +27251,6 @@
   "LÝ TỔNG",
   "bài thi tổ hợp tự nhiên (Lý, Hóa, Sinh)"
  ],
- "我心": [
-  "NGÃ TÂM",
-  "(cắt từ chưa chuẩn của 我心里面: trong lòng tôi)"
- ],
  "摔": [
   "SUẤT",
   "quăng, ném mạnh; ngã"
@@ -28011,17 +27283,9 @@
   "THẬP ĐA PHÂN CHUNG",
   "hơn mười phút"
  ],
- "考查": [
-  "KHẢO TRA",
-  "kiểm tra, khảo sát (cắt từ chưa chuẩn của 高考查成绩: tra điểm thi đại học)"
- ],
- "二零": [
-  "NHỊ LINH",
-  "hai không (đọc số năm: 二零一二年 = năm 2012)"
- ],
  "一二年": [
   "NHẤT NHỊ NIÊN",
-  "(cắt từ chưa chuẩn của 二零一二年: năm 2012)"
+  "năm (20)12"
  ],
  "总之": [
   "TỔNG CHI",
@@ -28067,13 +27331,9 @@
   "VIÊN KHU",
   "khu, khuôn viên (khu công nghiệp; khu tổ chức lễ hội)"
  ],
- "柴金": [
-  "SÀI KIM",
-  "(cắt từ chưa chuẩn của 柴金优: tên người, Sài Kim Ưu)"
- ],
  "优": [
   "ƯU",
-  "tốt, ưu tú; (柴金优: tên người)"
+  "tốt, ưu tú"
  ],
  "二零一零年": [
   "NHỊ LINH NHẤT LINH NIÊN",
@@ -28221,7 +27481,7 @@
  ],
  "十分": [
   "THẬP PHÂN",
-  "rất, hết sức; (cắt từ chưa chuẩn trong 八十分: tám mươi điểm)"
+  "rất, hết sức"
  ],
  "一年到头": [
   "NHẤT NIÊN ĐÁO ĐẦU",
@@ -28250,14 +27510,6 @@
  "大考": [
   "ĐẠI KHẢO",
   "kỳ thi lớn (thi định kỳ, cuối kỳ)"
- ],
- "全年": [
-  "TOÀN NIÊN",
-  "cả năm (cắt từ chưa chuẩn của 全年级: cả khối lớp)"
- ],
- "级": [
-  "CẤP",
-  "cấp, bậc; khối lớp (年级)"
  ],
  "一百九十": [
   "NHẤT BÁCH CỬU THẬP",
@@ -28555,10 +27807,6 @@
   "LOÁT NHA",
   "đánh răng"
  ],
- "半左右": [
-  "BÁN TẢ HỮU",
-  "(cắt từ chưa chuẩn của 七点半左右: khoảng 7 giờ rưỡi)"
- ],
  "抛到": [
   "PHAO ĐÁO",
   "ném tới (抛到脑后: quên béng đi)"
@@ -28675,10 +27923,6 @@
   "TAM BIẾN",
   "ba lượt, ba lần"
  ],
- "考理": [
-  "KHẢO LÝ",
-  "(cắt từ chưa chuẩn của 考理综: thi môn tổ hợp tự nhiên)"
- ],
  "压轴": [
   "ÁP TRỤC",
   "tiết mục cuối quan trọng nhất; (câu) cuối cùng khó nhất"
@@ -28794,10 +28038,6 @@
  "张震岳": [
   "TRƯƠNG CHẤN NHẠC",
   "Trương Chấn Nhạc (ca sĩ Đài Loan)"
- ],
- "咖都": [
-  "",
-  "(cắt từ chưa chuẩn của 大咖都来了: các ngôi sao lớn đều đến)"
  ],
  "难忘": [
   "NAN VONG",
@@ -28995,10 +28235,6 @@
   "TY",
   "tơ, sợi; (兔玛丽丝: tên người)"
  ],
- "八届": [
-  "BÁT GIỚI",
-  "(cắt từ chưa chuẩn của 二零一八届: khóa 2018)"
- ],
  "新疆省": [
   "TÂN CƯƠNG TỈNH",
   "Tân Cương (người nói gọi là 'tỉnh', thật ra là khu tự trị)"
@@ -29006,10 +28242,6 @@
  "七天": [
   "THẤT THIÊN",
   "bảy ngày"
- ],
- "马利斯": [
-  "MÃ LỢI TƯ",
-  "(吐马利斯: tên người, Tumaris)"
  ],
  "祝你们": [
   "CHÚC NHĨ MÔN",
@@ -29107,10 +28339,6 @@
   "THÁC QUÁ",
   "bỏ lỡ"
  ],
- "进与": [
-  "TIẾN DỮ",
-  "(cắt từ chưa chuẩn của 进与退: tiến và lùi)"
- ],
  "川流不息": [
   "XUYÊN LƯU BẤT TỨC",
   "dòng chảy không ngừng, nườm nượp không dứt"
@@ -29150,10 +28378,6 @@
  "批判": [
   "PHÊ PHÁN",
   "phê phán"
- ],
- "题家": [
-  "",
-  "(cắt từ chưa chuẩn của 做题家: dân cày đề; 小镇做题家: người từ thị trấn nhỏ chỉ giỏi làm đề thi)"
  ],
  "擅长": [
   "THIỆN TRƯỜNG",
@@ -29635,10 +28859,6 @@
   "TRẠNG NGUYÊN",
   "trạng nguyên; thủ khoa (kỳ thi đại học)"
  ],
- "环套": [
-  "",
-  "(cắt từ chưa chuẩn của 一环套一环: khâu này móc khâu kia, nối tiếp nhau)"
- ],
  "一环": [
   "NHẤT HOÀN",
   "một mắt xích, một khâu (一环套一环: khâu này nối khâu kia)"
@@ -29650,10 +28870,6 @@
  "饭局": [
   "PHẠN CỤC",
   "bữa tiệc, bữa ăn xã giao"
- ],
- "波人": [
-  "",
-  "(cắt từ chưa chuẩn của 这波人: nhóm người này, đám người này)"
  ],
  "创业": [
   "SÁNG NGHIỆP",
@@ -29779,10 +28995,6 @@
   "PHÁT GIẾU",
   "lên men; (nghĩa bóng) sự việc lan rộng, âm ỉ lớn dần"
  ],
- "由头来": [
-  "",
-  "(cắt từ chưa chuẩn: 由头 + 来: nhân cớ, nhân dịp (cái gì) để)"
- ],
  "二零零二年": [
   "NHỊ LINH LINH NHỊ NIÊN",
   "(đọc số) năm 2002"
@@ -29839,10 +29051,6 @@
   "CÔNG CÁO",
   "thông báo, công bố"
  ],
- "得选": [
-  "",
-  "(cắt từ chưa chuẩn: 得 děi + 选: phải chọn)"
- ],
  "武术": [
   "VÕ THUẬT",
   "võ thuật"
@@ -29879,14 +29087,6 @@
   "VÃN TỰ TẬP",
   "giờ tự học buổi tối"
  ],
- "去在": [
-  "",
-  "(cắt từ chưa chuẩn: 去 + 在…: đi (làm gì) ở…)"
- ],
- "中多得": [
-  "",
-  "(cắt từ chưa chuẩn: 高考中 + 多得: trong kỳ thi được thêm (điểm))"
- ],
  "一分": [
   "NHẤT PHÂN",
   "một điểm; một phút; một phần"
@@ -29898,14 +29098,6 @@
  "画风": [
   "HỌA PHONG",
   "phong cách vẽ; (khẩu ngữ) không khí, cục diện (画风变了: mọi thứ đổi hẳn)"
- ],
- "中去": [
-  "",
-  "(cắt từ chưa chuẩn: 高考中 + 去…: trong kỳ thi mà…)"
- ],
- "中加": [
-  "",
-  "(cắt từ chưa chuẩn: 高考中 + 加: được cộng (điểm) trong kỳ thi)"
  ],
  "湖南大学": [
   "HỒ NAM ĐẠI HỌC",
@@ -29983,10 +29175,6 @@
   "HỮU QUYỀN HỮU THẾ",
   "có quyền có thế"
  ],
- "比去": [
-  "",
-  "(cắt từ chưa chuẩn: 比 + 去…: so với việc đi…)"
- ],
  "极度": [
   "CỰC ĐỘ",
   "cực độ, cực kỳ"
@@ -30063,10 +29251,6 @@
   "BẤT NGÔN TỰ MINH",
   "không nói cũng rõ"
  ],
- "优不": [
-  "",
-  "(cắt từ chưa chuẩn của 优不优秀: có giỏi hay không)"
- ],
  "不差": [
   "BẤT SAI",
   "không tệ, khá; không thiếu"
@@ -30103,17 +29287,9 @@
   "HỒ TÍCH TIẾN",
   "Hồ Tích Tiến (cựu tổng biên tập Hoàn Cầu Thời Báo)"
  ],
- "上说": [
-  "",
-  "(cắt từ chưa chuẩn: 微博上 + 说: nói trên Weibo)"
- ],
  "几十年": [
   "KỶ THẬP NIÊN",
   "mấy chục năm"
- ],
- "手把": [
-  "THỦ BẢ",
-  "tay cầm; (cắt từ chưa chuẩn của 一翻手 + 把: trở bàn tay một cái đã…)"
  ],
  "强力": [
   "CƯỜNG LỰC",
@@ -30138,10 +29314,6 @@
  "拥有": [
   "ỦNG HỮU",
   "có, sở hữu"
- ],
- "手所": [
-  "",
-  "(cắt từ chưa chuẩn: 手 + 所…: bàn tay (vô hình) đã…)"
  ],
  "摆弄": [
   "BÃI LỘNG",
@@ -30329,7 +29501,7 @@
  ],
  "省去": [
   "TỈNH KHỨ",
-  "bỏ bớt, đỡ được (thời gian, công sức); (cắt từ chưa chuẩn của 弱省 + 去: tới tỉnh yếu)"
+  "bỏ bớt, đỡ được (thời gian, công sức)"
  ],
  "爆": [
   "BẠO",
@@ -30491,10 +29663,6 @@
   "TỐI THƯỢNG",
   "trên cùng, cao nhất"
  ],
- "替上": [
-  "",
-  "(cắt từ chưa chuẩn của 顶替上大学: mạo danh để vào đại học)"
- ],
  "送出去": [
   "TỐNG XUẤT KHỨ",
   "gửi đi, đưa ra (nước ngoài)"
@@ -30506,10 +29674,6 @@
  "光谱": [
   "QUANG PHỔ",
   "quang phổ; (nghĩa bóng) dải, phổ (阶层光谱: các nấc tầng lớp)"
- ],
- "最在": [
-  "",
-  "(cắt từ chưa chuẩn: 最 + 在高位: ở vị trí cao nhất)"
  ],
  "高位": [
   "CAO VỊ",
@@ -30571,10 +29735,6 @@
   "ĐỒ CẢNH",
   "bức tranh, viễn cảnh"
  ],
- "来教": [
-  "",
-  "(cắt từ chưa chuẩn: 十年来 + 教: mười năm qua đã dạy)"
- ],
  "附录": [
   "PHỤ LỤC",
   "phụ lục"
@@ -30606,10 +29766,6 @@
  "视野": [
   "THỊ DÃ",
   "tầm nhìn"
- ],
- "那老罗": [
-  "",
-  "(cắt từ chưa chuẩn: 那 + 老罗: thì anh La (La Vĩnh Hạo))"
  ],
  "十五年": [
   "THẬP NGŨ NIÊN",
@@ -30855,10 +30011,6 @@
   "YÊU MA HÓA",
   "bôi đen, ma quỷ hóa"
  ],
- "说艺考": [
-  "",
-  "(cắt từ chưa chuẩn: 说 + 艺考: nói rằng kỳ thi năng khiếu nghệ thuật)"
- ],
  "很多年": [
   "NGẬN ĐA NIÊN",
   "nhiều năm"
@@ -31007,10 +30159,6 @@
   "XUẤT TỨC",
   "tiền đồ, nên người (有出息: có tương lai)"
  ],
- "符合中国": [
-  "",
-  "(cắt từ chưa chuẩn: 符合 + 中国…: phù hợp với (xã hội) Trung Quốc)"
- ],
  "预期": [
   "DỰ KỲ",
   "dự kiến, kỳ vọng"
@@ -31038,10 +30186,6 @@
  "看不出来": [
   "KHÁN BẤT XUẤT LAI",
   "không nhìn ra được"
- ],
- "人想": [
-  "",
-  "(cắt từ chưa chuẩn: 很多人 + 想: nhiều người muốn)"
  ],
  "安稳": [
   "AN ỔN",
@@ -31167,10 +30311,6 @@
   "AN THÂN LẬP MỆNH",
   "an cư lập nghiệp"
  ],
- "那它": [
-  "",
-  "(cắt từ chưa chuẩn: 那 + 它: thì nó)"
- ],
  "兜住": [
   "ĐÂU TRÚ",
   "đỡ lấy, giữ được (兜住底线: giữ được mức sàn)"
@@ -31254,10 +30394,6 @@
  "同龄": [
   "ĐỒNG LINH",
   "cùng tuổi"
- ],
- "读高": [
-  "",
-  "(cắt từ chưa chuẩn của 读高二: học lớp 11)"
  ],
  "备考": [
   "BỊ KHẢO",
@@ -32223,17 +31359,9 @@
   "",
   "mồ hôi đầm đìa (vì lo sợ)"
  ],
- "觉得很有": [
-  "GIÁC ĐẮC NGẬN HỮU",
-  "(cắt từ chưa chuẩn của 觉得 + 很有: thấy rất…)"
- ],
  "正确": [
   "CHÍNH XÁC",
   "đúng, chính xác"
- ],
- "中来": [
-  "TRUNG LAI",
-  "(cắt từ chưa chuẩn của 感觉中 + 来: trong cảm giác đó mà…)"
  ],
  "真真": [
   "CHÂN CHÂN",
@@ -32271,10 +31399,6 @@
   "NGẬN NAN THUYẾT",
   "khó nói, khó mà biết"
  ],
- "给得": [
-  "CẤP ĐẮC",
-  "(cắt từ chưa chuẩn của 给得了: cho được)"
- ],
  "产生共鸣": [
   "SẢN SINH CỘNG MINH",
   "tạo được sự đồng cảm"
@@ -32302,10 +31426,6 @@
  "吓呆了": [
   "HÁCH NGAI LIỄU",
   "sợ đờ người"
- ],
- "答不": [
-  "ĐÁP BẤT",
-  "(cắt từ chưa chuẩn của 答不出来: không trả lời được)"
  ],
  "十秒": [
   "THẬP MIỂU",
@@ -32398,10 +31518,6 @@
  "机智": [
   "CƠ TRÍ",
   "nhanh trí, lanh lợi (《机智的医生生活》: phim Những bác sĩ tài hoa)"
- ],
- "内能": [
-  "NỘI NĂNG",
-  "nội năng (vật lý); (cắt từ chưa chuẩn của 时间内 + 能: trong thời gian… có thể)"
  ],
  "初级": [
   "SƠ CẤP",
@@ -32503,10 +31619,6 @@
   "TRƯỜNG",
   "bãi, sân; nơi, cảnh; (lượng từ) trận, buổi"
  ],
- "上教": [
-  "THƯỢNG GIÁO",
-  "(cắt từ chưa chuẩn của 课堂上 + 教: dạy trên lớp)"
- ],
  "聘": [
   "SÍNH",
   "thuê, mời làm (聘老师: thuê giáo viên)"
@@ -32582,14 +31694,6 @@
  "指望": [
   "CHỈ VỌNG",
   "trông mong, kỳ vọng"
- ],
- "得向": [
-  "ĐẮC HƯỚNG",
-  "(cắt từ chưa chuẩn của 得 + 向: phải… theo, phải học từ)"
- ],
- "有严": [
-  "HỮU NGHIÊM",
-  "(cắt từ chưa chuẩn của 有严的: có người nghiêm khắc)"
  ],
  "实实在在": [
   "THỰC THỰC TẠI TẠI",
@@ -32679,10 +31783,6 @@
   "CÔ NHI",
   "trẻ mồ côi"
  ],
- "现": [
-  "HIỆN",
-  "hiện ra; hiện nay; (cắt từ chưa chuẩn của 出现: xuất hiện)"
- ],
  "带货": [
   "ĐỚI HÓA",
   "bán hàng qua livestream, video"
@@ -32694,10 +31794,6 @@
  "义乌": [
   "NGHĨA Ô",
   "Nghĩa Ô (thành phố chợ đầu mối ở Chiết Giang)"
- ],
- "言": [
-  "NGÔN",
-  "lời nói; (cắt từ chưa chuẩn của 语言: ngôn ngữ)"
  ],
  "查叔": [
   "TRA THÚC",
@@ -32927,17 +32023,9 @@
   "LÃO BẰNG HỮU",
   "bạn cũ, bạn lâu năm"
  ],
- "第第": [
-  "",
-  "(cắt từ chưa chuẩn của 第第几期: nói lặp chữ 第, \"số thứ mấy\")"
- ],
  "创始": [
   "SÁNG THỦY",
   "sáng lập (创始人: người sáng lập)"
- ],
- "始": [
-  "THỦY",
-  "bắt đầu; (始人: nửa sau của 创始人 người sáng lập, bị cắt dòng)"
  ],
  "元老级": [
   "NGUYÊN LÃO CẤP",
@@ -33015,10 +32103,6 @@
   "KÍCH PHÁT",
   "khơi dậy, kích thích"
  ],
- "但说": [
-  "ĐÃN THUYẾT",
-  "(cắt từ chưa chuẩn của 但 + 说到: nhưng nói đến)"
- ],
  "取掉": [
   "THỦ ĐIỆU",
   "bị lấy mất (tên đã có người đặt)"
@@ -33054,10 +32138,6 @@
  "一说到": [
   "NHẤT THUYẾT ĐÁO",
   "hễ nói đến"
- ],
- "九九": [
-  "CỬU CỬU",
-  "(cắt từ chưa chuẩn của 九九六: 996, làm 9 giờ sáng đến 9 giờ tối, 6 ngày/tuần)"
  ],
  "统称": [
   "THỐNG XƯNG",
@@ -33163,10 +32243,6 @@
   "QUYỀN ÍCH",
   "quyền lợi"
  ],
- "了头": [
-  "LIỄU ĐẦU",
-  "(cắt từ chưa chuẩn của 挤破了头: chen vỡ đầu, giành giật bằng được)"
- ],
  "第一点": [
   "ĐỆ NHẤT ĐIỂM",
   "điểm thứ nhất"
@@ -33185,15 +32261,11 @@
  ],
  "整": [
   "CHỈNH",
-  "cả, nguyên; (整体 bị cắt dòng: tổng thể)"
+  "cả, nguyên"
  ],
  "一顿饭": [
   "NHẤT ĐỐN PHẠN",
   "một bữa cơm"
- ],
- "上谈": [
-  "THƯỢNG ĐÀM",
-  "(cắt từ chưa chuẩn của 饭桌上 + 谈: bàn chuyện trên bàn ăn)"
  ],
  "必不可少": [
   "TẤT BẤT KHẢ THIỂU",
@@ -33246,14 +32318,6 @@
  "尊": [
   "TÔN",
   "tôn kính (尊不尊重: có tôn trọng không)"
- ],
- "印": [
-  "ẤN",
-  "in; con dấu; (刻板印象 bị cắt dòng: định kiến)"
- ],
- "象": [
-  "TƯỢNG",
-  "con voi; hình tượng; (印象 bị cắt dòng: ấn tượng)"
  ],
  "道听途说": [
   "ĐẠO THÍNH ĐỒ THUYẾT",
@@ -33511,10 +32575,6 @@
   "KẾT HÔN ĐÍCH NHÂN",
   "người đã kết hôn"
  ],
- "在职": [
-  "TẠI CHỨC",
-  "đang tại chức; (cắt từ chưa chuẩn của 在职场上: ở chốn công sở)"
- ],
  "甲方": [
   "GIÁP PHƯƠNG",
   "bên A (trong hợp đồng), phía khách hàng"
@@ -33525,7 +32585,7 @@
  ],
  "面谈": [
   "DIỆN ĐÀM",
-  "gặp mặt nói chuyện; (cắt từ chưa chuẩn của 上面谈的: bàn ở trên đó)"
+  "gặp mặt nói chuyện"
  ],
  "华人": [
   "HOA NHÂN",
@@ -33566,10 +32626,6 @@
  "吃了饭": [
   "NGẬT LIỄU PHẠN",
   "ăn cơm xong"
- ],
- "脉": [
-  "MẠCH",
-  "mạch; (cắt từ chưa chuẩn của 人脉: mạng lưới quan hệ)"
  ],
  "转盘": [
   "CHUYỂN BÀN",
@@ -33695,10 +32751,6 @@
   "QUẾ LÂM",
   "Quế Lâm (thành phố ở Quảng Tây)"
  ],
- "呃能": [
-  "",
-  "(cắt từ chưa chuẩn của 呃 + 能不能: ờ… có thể không)"
- ],
  "兼职": [
   "KIÊM CHỨC",
   "làm thêm, bán thời gian"
@@ -33714,10 +32766,6 @@
  "得不到": [
   "ĐẮC BẤT ĐÁO",
   "không có được, không nhận được"
- ],
- "泼冷": [
-  "BÁT LÃNH",
-  "(cắt từ chưa chuẩn của 泼冷水: dội nước lạnh, làm cụt hứng)"
  ],
  "不成才": [
   "BẤT THÀNH TÀI",
@@ -33763,10 +32811,6 @@
   "KHÁCH XA",
   "xe khách"
  ],
- "开不": [
-  "KHAI BẤT",
-  "(cắt từ chưa chuẩn của 开不出去: không lái ra được)"
- ],
  "男同学": [
   "NAM ĐỒNG HỌC",
   "bạn học nam"
@@ -33811,10 +32855,6 @@
   "ANH NGỮ LỤC CẤP",
   "chứng chỉ tiếng Anh bậc 6 (CET-6 của sinh viên)"
  ],
- "单嘛": [
-  "ĐƠN MA",
-  "(cắt từ chưa chuẩn của 快递单嘛: phiếu chuyển phát mà)"
- ],
  "当着": [
   "ĐƯƠNG TRƯỚC",
   "trước mặt (ai)"
@@ -33834,10 +32874,6 @@
  "布置": [
   "BỐ TRÍ",
   "giao (việc); bố trí, sắp xếp"
- ],
- "会感": [
-  "HỘI CẢM",
-  "(cắt từ chưa chuẩn của 会感觉, nói dở: sẽ cảm thấy)"
  ],
  "懂得": [
   "ĐỔNG ĐẮC",
@@ -33869,7 +32905,7 @@
  ],
  "合": [
   "HỢP",
-  "hợp; (cắt từ chưa chuẩn của 场合: hoàn cảnh, dịp); (合折合: nói dở của 折合, quy đổi)"
+  "hợp; (合折合: nói dở của 折合, quy đổi)"
  ],
  "两家": [
   "LƯỠNG GIA",
@@ -33939,14 +32975,6 @@
   "TIỂU HÀI",
   "giày chật; (穿小鞋) bị gây khó dễ, trù dập"
  ],
- "麻": [
-  "MA",
-  "gai, đay; tê; (cắt từ chưa chuẩn của 麻烦: phiền phức)"
- ],
- "烦": [
-  "PHIỀN",
-  "phiền; (cắt từ chưa chuẩn của 麻烦: phiền phức)"
- ],
  "得罪": [
   "ĐẮC TỘI",
   "đắc tội, làm mất lòng"
@@ -33954,10 +32982,6 @@
  "第三点": [
   "ĐỆ TAM ĐIỂM",
   "điểm thứ ba"
- ],
- "契": [
-  "KHẾ",
-  "khế ước; (cắt từ chưa chuẩn của 契约: hợp đồng)"
  ],
  "旗鼓相当": [
   "KỲ CỔ TƯƠNG ĐƯƠNG",
@@ -33998,14 +33022,6 @@
  "关系网": [
   "QUAN HỆ VÕNG",
   "mạng lưới quan hệ"
- ],
- "润滑": [
-  "NHUẬN HOẠT",
-  "bôi trơn; trơn tru"
- ],
- "剂": [
-  "TỄ",
-  "thuốc, chất; (润滑剂) chất bôi trơn"
  ],
  "三大": [
   "TAM ĐẠI",
@@ -34107,10 +33123,6 @@
   "TẢN CÁ",
   "(散个步) đi dạo một chút"
  ],
- "探": [
-  "THÁM",
-  "dò; (cắt từ chưa chuẩn của 打探: dò hỏi)"
- ],
  "提提": [
   "ĐỀ ĐỀ",
   "xách (lặp khi nói)"
@@ -34122,10 +33134,6 @@
  "受贿": [
   "THỤ HỐI",
   "nhận hối lộ"
- ],
- "能面": [
-  "NĂNG DIỆN",
-  "(cắt từ chưa chuẩn của 能面送: tặng tận tay được)"
  ],
  "面送": [
   "DIỆN TỐNG",
@@ -34139,17 +33147,9 @@
   "CẤP TIỀN",
   "đưa tiền, trả tiền"
  ],
- "情": [
-  "TÌNH",
-  "tình; (cắt từ chưa chuẩn của 人情: ân tình)"
- ],
  "扬州": [
   "DƯƠNG CHÂU",
   "Dương Châu (thành phố ở Giang Tô)"
- ],
- "开花": [
-  "KHAI HOA",
-  "nở hoa; (cắt từ chưa chuẩn của 开花店: mở tiệm hoa)"
  ],
  "来办": [
   "LAI BIỆN",
@@ -34163,17 +33163,9 @@
   "",
   "hạt cà phê"
  ],
- "谓": [
-  "VỊ",
-  "nói, gọi là; (cắt từ chưa chuẩn của 所谓: cái gọi là)"
- ],
  "报答": [
   "BÁO ĐÁP",
   "đền đáp, báo đáp"
- ],
- "事花": [
-  "SỰ HOA",
-  "(cắt từ chưa chuẩn của 事 + 花多少时间: việc tốn bao nhiêu thời gian)"
  ],
  "重要性": [
   "TRỌNG YẾU TÍNH",
@@ -34182,14 +33174,6 @@
  "门店": [
   "MÔN ĐIẾM",
   "cửa hàng, cửa tiệm"
- ],
- "深圳华强": [
-  "THÂM QUYẾN HOA CƯỜNG",
-  "(cắt từ chưa chuẩn của 深圳华强北: phố điện tử Hoa Cường Bắc ở Thâm Quyến)"
- ],
- "北": [
-  "BẮC",
-  "phía bắc; (华强北) phố điện tử Hoa Cường Bắc"
  ],
  "电子市场": [
   "ĐIỆN TỬ THỊ TRƯỜNG",
@@ -34227,10 +33211,6 @@
   "THUẬN SƯỚNG",
   "suôn sẻ, trôi chảy"
  ],
- "化是": [
-  "HÓA THỊ",
-  "(cắt từ chưa chuẩn của 饭局文化是: văn hóa tiệc tùng là)"
- ],
  "局": [
   "CỤC",
   "cục, cuộc; (饭局) cuộc gặp, bữa tiệc"
@@ -34246,10 +33226,6 @@
  "人脉": [
   "NHÂN MẠCH",
   "mạng lưới quan hệ, các mối quen biết"
- ],
- "作": [
-  "TÁC",
-  "làm; (cắt từ chưa chuẩn của 作用: tác dụng)"
  ],
  "常": [
   "THƯỜNG",
@@ -34283,14 +33259,6 @@
   "MỖI NHÂN",
   "mỗi người"
  ],
- "盘": [
-  "BÀN",
-  "cái đĩa; (cắt từ chưa chuẩn của 一盘食物: một đĩa đồ ăn)"
- ],
- "食": [
-  "THỰC",
-  "ăn; đồ ăn (食物)"
- ],
  "一桌": [
   "NHẤT TRÁC",
   "một bàn"
@@ -34302,10 +33270,6 @@
  "整盘": [
   "CHỈNH BÀN",
   "cả đĩa"
- ],
- "点到": [
-  "ĐIỂM ĐÁO",
-  "(cắt từ chưa chuẩn của 搞点 + 到: lấy một ít vào)"
  ],
  "绅士": [
   "THÂN SĨ",
@@ -34371,14 +33335,6 @@
   "CHỦ CỤC",
   "đứng ra làm chủ bữa tiệc, người mời"
  ],
- "单买": [
-  "ĐƠN MÃI",
-  "(cắt từ chưa chuẩn của 把单买了: trả tiền hóa đơn)"
- ],
- "该轮": [
-  "CAI LUÂN",
-  "(cắt từ chưa chuẩn của 该轮到: đến lượt)"
- ],
  "伴": [
   "BẠN",
   "bạn; (伴随) đi kèm (nói lắp ở đây)"
@@ -34434,10 +33390,6 @@
  "一面": [
   "NHẤT DIỆN",
   "một mặt"
- ],
- "建": [
-  "KIẾN",
-  "xây; (cắt từ chưa chuẩn của 建立: xây dựng)"
  ],
  "倒酒": [
   "ĐẢO TỬU",
@@ -34531,10 +33483,6 @@
   "NHẠ",
   "gây ra, chuốc lấy (phiền phức)"
  ],
- "来满": [
-  "LAI MÃN",
-  "(cắt từ chưa chuẩn của 来，满上: nào, rót đầy)"
- ],
  "咱俩": [
   "",
   "hai đứa mình"
@@ -34623,10 +33571,6 @@
   "TRI THỨC ĐIỂM",
   "điểm kiến thức"
  ],
- "财": [
-  "TÀI",
-  "tiền của; (恭喜发财) chúc phát tài"
- ],
  "酒桌": [
   "TỬU TRÁC",
   "bàn rượu, bàn nhậu (酒桌文化: văn hóa bàn nhậu)"
@@ -34671,10 +33615,6 @@
   "THẤT THẬP BÁT",
   "78"
  ],
- "样": [
-  "DẠNG",
-  "dáng, kiểu; (cắt từ 这个样子: bộ dạng này)"
- ],
  "电线杆": [
   "ĐIỆN TUYẾN CAN",
   "cột điện"
@@ -34694,10 +33634,6 @@
  "陈先生": [
   "TRẦN TIÊN SINH",
   "ông Trần, anh Trần"
- ],
- "任": [
-  "NHIỆM",
-  "đảm nhận, nhiệm vụ; (cắt từ 责任: trách nhiệm)"
  ],
  "感冒": [
   "CẢM MẠO",
@@ -34847,10 +33783,6 @@
   "BÔI",
   "cốc, ly; lượng từ: ly, chén"
  ],
- "网友会": [
-  "VÕNG HỮU HỘI",
-  "(cắt từ chưa chuẩn của 网友会讲: cư dân mạng hay nói)"
- ],
  "放低": [
   "PHÓNG ĐÊ",
   "hạ thấp, để thấp xuống"
@@ -34879,10 +33811,6 @@
   "CHẨN TỬ",
   "mẩn ngứa, phát ban"
  ],
- "茶代": [
-  "TRÀ ĐẠI",
-  "(cắt từ chưa chuẩn của 以茶代酒: lấy trà thay rượu)"
- ],
  "一升": [
   "NHẤT THĂNG",
   "một lít"
@@ -34910,10 +33838,6 @@
  "配酒": [
   "PHỐI TỬU",
   "uống kèm với rượu (头孢配酒: uống kháng sinh với rượu)"
- ],
- "了饭": [
-  "LIỄU PHẠN",
-  "(cắt từ chưa chuẩn của 吃饱了饭: ăn no cơm rồi)"
  ],
  "两只手": [
   "LƯỠNG CHÍCH THỦ",
@@ -34947,10 +33871,6 @@
   "NHẤT THẬP BÁT",
   "18 (cách đọc một mười tám)"
  ],
- "度到": [
-  "ĐỘ ĐÁO",
-  "(cắt từ chưa chuẩn của 十八度到七十八度: từ 18 độ đến 78 độ)"
- ],
  "火辣辣": [
   "HỎA LẠT LẠT",
   "nóng rát, cay xé"
@@ -34962,10 +33882,6 @@
  "咽不下": [
   "YẾT BẤT HẠ",
   "nuốt không trôi"
- ],
- "来度": [
-  "LAI ĐỘ",
-  "(cắt từ chưa chuẩn của 五十来度: khoảng 50 độ)"
  ],
  "紧俏": [
   "KHẨN TIẾU",
@@ -35083,10 +33999,6 @@
   "XÃ NGƯU",
   "(tiếng lóng) người cực kỳ dạn dĩ khi giao tiếp, ngược với 社恐"
  ],
- "平": [
-  "BÌNH",
-  "bằng, phẳng; (cắt từ 平常: bình thường)"
- ],
  "壮": [
   "TRÁNG",
   "khỏe; làm mạnh thêm (酒壮怂人胆: rượu vào kẻ nhát cũng hóa gan)"
@@ -35199,10 +34111,6 @@
   "SONG PHƯƠNG",
   "hai bên, song phương"
  ],
- "部": [
-  "BỘ",
-  "bộ, bộ phận; (cắt từ chưa chuẩn của 部下: cấp dưới)"
- ],
  "酒品": [
   "TỬU PHẨM",
   "tư cách khi uống rượu (酒品好: say vẫn đàng hoàng)"
@@ -35231,10 +34139,6 @@
   "XƯNG HUYNH ĐẠO ĐỆ",
   "xưng huynh gọi đệ, anh anh em em"
  ],
- "这的": [
-  "GIÁ ĐÍCH",
-  "(cắt từ chưa chuẩn của 在这的: ở đây)"
- ],
  "滚蛋": [
   "CỔN ĐẢN",
   "cút đi; (bị) đuổi việc (我就要滚蛋了: tôi sắp bị cho nghỉ việc)"
@@ -35242,10 +34146,6 @@
  "你俩": [
   "NHĨ LƯỠNG",
   "hai người các bạn"
- ],
- "聊得": [
-  "LIÊU ĐẮC",
-  "(cắt từ chưa chuẩn của 聊得来: nói chuyện hợp nhau)"
  ],
  "拉动": [
   "LẠP ĐỘNG",
@@ -35287,14 +34187,6 @@
   "HỮU THỨ",
   "bên phải là dưới (左尊右次: bên trái tôn hơn bên phải)"
  ],
- "错位": [
-  "THÁC VỊ",
-  "sai vị trí, lệch chỗ; (cắt từ 坐错位置: ngồi nhầm chỗ)"
- ],
- "置": [
-  "TRÍ",
-  "đặt, để; (cắt từ 位置: vị trí)"
- ],
  "职员": [
   "CHỨC VIÊN",
   "nhân viên, viên chức"
@@ -35319,10 +34211,6 @@
   "HIỂN",
   "hiện ra, tỏ ra (显得: tỏ ra, có vẻ)"
  ],
- "兴": [
-  "HỨNG",
-  "hứng thú; (cắt từ 高兴: vui)"
- ],
  "口是心非": [
   "KHẨU THỊ TÂM PHI",
   "khẩu thị tâm phi, nói một đằng nghĩ một nẻo"
@@ -35334,10 +34222,6 @@
  "真不": [
   "CHÂN BẤT",
   "thật sự không (cụm hai từ)"
- ],
- "杯水": [
-  "BÔI THỦY",
-  "(cắt từ 这杯水: ly nước này)"
  ],
  "倒到": [
   "ĐẢO ĐÁO",
@@ -35366,14 +34250,6 @@
  "手指头": [
   "THỦ CHỈ ĐẦU",
   "ngón tay"
- ],
- "雅": [
-  "NHÃ",
-  "nhã nhặn, thanh lịch (不雅: khó coi, thiếu tế nhị)"
- ],
- "桌": [
-  "TRÁC",
-  "bàn; (cắt từ 桌子: cái bàn)"
  ],
  "秦始": [
   "TẦN THỦY",
@@ -35475,14 +34351,6 @@
   "DÂN GIAN CỐ SỰ",
   "truyện dân gian"
  ],
- "微": [
-  "VI",
-  "nhỏ, vi; (cắt từ 微博: Weibo); (微信群: nhóm WeChat)"
- ],
- "博": [
-  "BÁC",
-  "rộng; (cắt từ 微博: Weibo)"
- ],
  "爱因斯坦": [
   "ÁI NHÂN TƯ THẢN",
   "Einstein (nhà vật lý)"
@@ -35499,10 +34367,6 @@
   "TƯƠNG ĐỐI LUẬN",
   "thuyết tương đối"
  ],
- "低来": [
-  "ĐÊ LAI",
-  "(cắt từ chưa chuẩn của 拉低来: hạ thấp xuống)"
- ],
  "扶住": [
   "PHÙ TRÚ",
   "đỡ lấy, giữ lấy"
@@ -35510,10 +34374,6 @@
  "争": [
   "TRANH",
   "tranh, giành"
- ],
- "觉得很没": [
-  "GIÁC ĐẮC NGẬN MỘT",
-  "(cắt từ chưa chuẩn của 觉得很没面子: thấy rất mất mặt)"
  ],
  "得得": [
   "ĐẮC ĐẮC",
@@ -35530,18 +34390,6 @@
  "有名气": [
   "HỮU DANH KHÍ",
   "có tiếng tăm, nổi tiếng"
- ],
- "了敬": [
-  "LIỄU KÍNH",
-  "(cắt từ chưa chuẩn của 敬酒了敬完酒: mời rượu rồi, mời xong)"
- ],
- "完酒": [
-  "HOÀN TỬU",
-  "(cắt từ chưa chuẩn của 敬完酒: mời rượu xong)"
- ],
- "干为": [
-  "CAN VI",
-  "(cắt từ chưa chuẩn của 先干为敬: cạn trước để tỏ lòng kính)"
  ],
  "豪爽": [
   "HÀO SẢNG",
@@ -35615,10 +34463,6 @@
   "VỊ BỆNH",
   "bệnh dạ dày"
  ],
- "开玩": [
-  "KHAI NGOẠN",
-  "(cắt từ 开玩笑: đùa, vì đổi người nói giữa từ)"
- ],
  "灌": [
   "QUÁN",
   "rót vào; ép uống, chuốc (灌酒: chuốc rượu)"
@@ -35687,17 +34531,9 @@
   "THỦ ẤN",
   "dấu tay (按手印: điểm chỉ)"
  ],
- "过有": [
-  "QUÁ HỮU",
-  "(cắt từ chưa chuẩn của 看到过有一条: đã thấy có một điều)"
- ],
  "免责": [
   "MIỄN TRÁCH",
   "miễn trách nhiệm"
- ],
- "书吧": [
-  "THƯ BA",
-  "(cắt từ chưa chuẩn của 免责书吧: giấy miễn trách nhiệm ấy)"
  ],
  "自愿": [
   "TỰ NGUYỆN",
@@ -35747,10 +34583,6 @@
   "PHI XUẤT KHỨ",
   "văng ra ngoài, bay ra"
  ],
- "了挂": [
-  "LIỄU QUẢI",
-  "(cắt từ chưa chuẩn của 飞出去了挂了: văng ra ngoài rồi chết)"
- ],
  "告上": [
   "CÁO THƯỢNG",
   "kiện lên (告上法庭: kiện ra tòa)"
@@ -35778,10 +34610,6 @@
  "有啥": [
   "",
   "có gì (有啥的: có gì đâu)"
- ],
- "律": [
-  "LUẬT",
-  "luật; (cắt từ 法律 vì đổi người nói)"
  ],
  "不要紧": [
   "BẤT YẾU KHẨN",
@@ -35827,14 +34655,6 @@
   "U MẶC",
   "hài hước"
  ],
- "幽": [
-  "U",
-  "u tịch; (cắt từ 幽默: hài hước, vì đổi người nói)"
- ],
- "默": [
-  "MẶC",
-  "im lặng; (cắt từ 幽默: hài hước)"
- ],
  "放得开": [
   "PHÓNG ĐẮC KHAI",
   "thoải mái, không gò bó"
@@ -35875,10 +34695,6 @@
   "HÔN YẾN",
   "tiệc cưới"
  ],
- "喝白": [
-  "HÁT BẠCH",
-  "(cắt từ chưa chuẩn của 喝白的: uống rượu trắng)"
- ],
  "葡萄酒": [
   "BỒ ĐÀO TỬU",
   "rượu vang (nho)"
@@ -35894,10 +34710,6 @@
  "小酌": [
   "TIỂU CHƯỚC",
   "nhâm nhi vài ly"
- ],
- "多钟": [
-  "ĐA CHUNG",
-  "(cắt từ chưa chuẩn của 三点多钟: hơn 3 giờ)"
  ],
  "醒酒": [
   "TỈNH TỬU",
@@ -35915,17 +34727,9 @@
   "TRÂN TRỌNG",
   "trân trọng, quý trọng"
  ],
- "下看": [
-  "HẠ KHÁN",
-  "(cắt từ chưa chuẩn của 往下看: nhìn xuống)"
- ],
  "东亚人": [
   "ĐÔNG Á NHÂN",
   "người Đông Á"
- ],
- "侵": [
-  "XÂM",
-  "xâm phạm; (cắt từ 性侵: xâm hại tình dục)"
  ],
  "争议": [
   "TRANH NGHỊ",
@@ -35938,10 +34742,6 @@
  "摒弃": [
   "BÍNH KHÍ",
   "vứt bỏ, gạt bỏ"
- ],
- "九五": [
-  "CỬU NGŨ",
-  "(cắt từ 九五后: thế hệ sinh sau năm 1995)"
  ],
  "淡": [
   "ĐẠM",
@@ -36033,19 +34833,11 @@
  ],
  "芹": [
   "CẦN",
-  "rau cần (芹菜); chữ đầu của 芹苴 Cần Thơ"
- ],
- "二年": [
-  "NHỊ NIÊN",
-  "(cắt từ chưa chuẩn của 二二年: năm 2022)"
+  "rau cần (芹菜)"
  ],
  "开放": [
   "KHAI PHÓNG",
   "mở cửa, mở ra; cởi mở; (sau dịch) mở cửa lại"
- ],
- "苴": [
-  "",
-  "chữ sau của 芹苴 (Cần Thơ)"
  ],
  "字节": [
   "TỰ TIẾT",
@@ -36115,10 +34907,6 @@
   "THỰC DÂN",
   "thực dân"
  ],
- "上化": [
-  "",
-  "(cắt từ chưa chuẩn của 线上化: đưa lên mạng, trực tuyến hoá)"
- ],
  "房东": [
   "PHÒNG ĐÔNG",
   "chủ nhà (cho thuê)"
@@ -36138,10 +34926,6 @@
  "七八": [
   "THẤT BÁT",
   "bảy tám (七八九: cấp 7-8-9)"
- ],
- "哈斯": [
-  "",
-  "(cắt từ chưa chuẩn của 哈斯卡: HSK, đọc theo kiểu người Việt)"
  ],
  "血": [
   "HUYẾT",
@@ -36182,10 +34966,6 @@
  "心跳": [
   "TÂM KHIÊU",
   "nhịp tim"
- ],
- "一个千年": [
-  "",
-  "(cắt từ chưa chuẩn của 一个 + 千年: một … nghìn năm)"
  ],
  "千丝万缕": [
   "THIÊN TY VẠN LŨ",
@@ -36331,10 +35111,6 @@
   "BA TÂY",
   "Brazil"
  ],
- "会花": [
-  "",
-  "(cắt từ chưa chuẩn của 会 + 花: sẽ dành, tiêu (thời gian))"
- ],
  "直播间": [
   "TRỰC BÁ GIAN",
   "phòng livestream"
@@ -36386,10 +35162,6 @@
  "伙伴": [
   "HỎA BẠN",
   "bạn đồng hành, đối tác"
- ],
- "的自": [
-  "",
-  "(cắt từ chưa chuẩn của 的 + 自雇: tự làm chủ)"
  ],
  "排期": [
   "BÀI KỲ",
@@ -36459,10 +35231,6 @@
   "BÁCH ĐIỂU",
   "trăm loài chim"
  ],
- "齐凤": [
-  "",
-  "(cắt từ chưa chuẩn của 百鸟齐凤: người nói lẫn 百鸟朝凤 với 百鸟齐鸣, muôn chim cùng hót)"
- ],
  "亦可": [
   "DIỆC KHẢ",
   "cũng có thể"
@@ -36482,14 +35250,6 @@
  "寺庙": [
   "TỰ MIẾU",
   "chùa chiền"
- ],
- "里灵修": [
-  "",
-  "(cắt từ chưa chuẩn của 寺庙里 + 灵修: tu tập tâm linh)"
- ],
- "不先": [
-  "",
-  "(cắt từ chưa chuẩn của 要不 + 先: hay là … trước)"
  ],
  "料": [
   "LIỆU",
@@ -36619,14 +35379,6 @@
   "ĐỆ NHẤT TRẠM",
   "điểm đến đầu tiên"
  ],
- "用降": [
-  "",
-  "(cắt từ chưa chuẩn của 用 + 降维: hạ chiều)"
- ],
- "维": [
-  "DUY",
-  "chiều (không gian) (降维打击: tấn công giáng chiều, đè bẹp đối thủ yếu hơn); duy trì"
- ],
  "傲慢": [
   "NGẠO MẠN",
   "ngạo mạn"
@@ -36666,10 +35418,6 @@
  "回款": [
   "HỒI KHOẢN",
   "thu hồi tiền hàng, dòng tiền về"
- ],
- "那然": [
-  "",
-  "(cắt từ chưa chuẩn của 那 + 然然后: rồi thì)"
  ],
  "感梦": [
   "",
@@ -36775,10 +35523,6 @@
   "KÝ THÁC",
   "nhớ nhầm"
  ],
- "位到": [
-  "",
-  "(cắt từ chưa chuẩn của 五十八位 + 到: từ hạng 58 đến)"
- ],
  "百": [
   "BÁCH",
   "trăm"
@@ -36883,10 +35627,6 @@
   "CỬU QUẬN",
   "quận 9 (TP.HCM)"
  ],
- "去更": [
-  "",
-  "(cắt từ chưa chuẩn của 去 + 更多: đi … nhiều hơn)"
- ],
  "可控": [
   "KHẢ KHỐNG",
   "kiểm soát được"
@@ -36923,10 +35663,6 @@
   "TÍN TÂM",
   "lòng tin, tự tin"
  ],
- "人学": [
-  "",
-  "(cắt từ chưa chuẩn của 越南人 + 学: người Việt học)"
- ],
  "全奖": [
   "TOÀN TƯỞNG",
   "học bổng toàn phần"
@@ -36947,17 +35683,9 @@
   "CUNG ĐÌNH",
   "cung đình (宫廷剧: phim cung đình)"
  ],
- "看宫": [
-  "",
-  "(cắt từ chưa chuẩn của 看 + 宫斗剧: xem phim cung đấu)"
- ],
  "宫斗剧": [
   "CUNG ĐẤU KỊCH",
   "phim cung đấu"
- ],
- "真对": [
-  "",
-  "(cắt từ chưa chuẩn của 真 + 对: thật … đúng)"
  ],
  "转播": [
   "CHUYỂN BÁ",
@@ -37023,10 +35751,6 @@
   "TAM PHÂN CHI NHẤT",
   "một phần ba"
  ],
- "更偏": [
-  "",
-  "(cắt từ chưa chuẩn của 更 + 偏: nghiêng về … hơn)"
- ],
  "华族": [
   "HOA TỘC",
   "người Hoa, dân tộc Hoa"
@@ -37087,10 +35811,6 @@
   "BÌNH ĐỊNH",
   "đánh giá xếp loại"
  ],
- "卡六": [
-  "",
-  "(cắt từ chưa chuẩn của 哈斯卡 + 六: HSK 6)"
- ],
  "三级": [
   "TAM CẤP",
   "cấp 3"
@@ -37118,10 +35838,6 @@
  "工资水平": [
   "CÔNG TƯ THỦY BÌNH",
   "mức lương"
- ],
- "一千两": [
-  "",
-  "(cắt từ chưa chuẩn của 一千两百万: 12 triệu)"
  ],
  "一千五百万": [
   "NHẤT THIÊN NGŨ BÁCH VẠN",
@@ -37199,10 +35915,6 @@
   "TỒN KHOẢN",
   "tiền gửi, tiền tiết kiệm"
  ],
- "得赔": [
-  "",
-  "(cắt từ chưa chuẩn của 必须得 + 赔: phải bồi thường)"
- ],
  "起诉": [
   "KHỞI TỐ",
   "khởi tố, kiện"
@@ -37218,14 +35930,6 @@
  "前段": [
   "TIỀN ĐOẠN",
   "đoạn trước (前段时间: thời gian trước)"
- ],
- "钱甘": [
-  "",
-  "(ASR nghe chưa rõ: … 甘肃, tỉnh Cam Túc)"
- ],
- "肃": [
-  "TÚC",
-  "(chữ sau của 甘肃: tỉnh Cam Túc); nghiêm túc"
  ],
  "天水": [
   "THIÊN THỦY",
@@ -37303,10 +36007,6 @@
   "HỦ BẠI",
   "tham nhũng, hủ bại"
  ],
- "怎我": [
-  "",
-  "(cắt từ chưa chuẩn: 怎 nói dở + 我)"
- ],
  "题外话": [
   "ĐỀ NGOẠI THOẠI",
   "chuyện ngoài lề"
@@ -37334,10 +36034,6 @@
  "外来": [
   "NGOẠI LAI",
   "từ bên ngoài, ngoại lai"
- ],
- "看刷": [
-  "",
-  "(cắt từ chưa chuẩn của 看 + 刷: xem, lướt (video))"
  ],
  "活跃度": [
   "HOẠT DƯỢC ĐỘ",
@@ -37451,17 +36147,9 @@
   "LIÊU HOÀN",
   "nói chuyện xong"
  ],
- "呃在": [
-  "",
-  "(cắt từ chưa chuẩn của 呃 + 在: ờ, ở)"
- ],
  "多重": [
   "ĐA TRÙNG",
   "nhiều tầng, nhiều (多重身份: nhiều vai trò)"
- ],
- "信群": [
-  "",
-  "(cắt từ chưa chuẩn của 微信群: nhóm WeChat)"
  ],
  "开拓": [
   "KHAI THÁC",
@@ -37486,10 +36174,6 @@
  "狡兔": [
   "GIẢO THỐ",
   "thỏ ranh (người nói nhầm 脱兔 thành 狡兔)"
- ],
- "那静如": [
-  "",
-  "(cắt từ chưa chuẩn của 那 + 静如: còn khi tĩnh thì như)"
  ],
  "静如处子": [
   "TĨNH NHƯ XỬ TỬ",
@@ -37542,10 +36226,6 @@
  "星": [
   "TINH",
   "ngôi sao (公益之星: ngôi sao thiện nguyện)"
- ],
- "整是": [
-  "",
-  "(cắt từ chưa chuẩn: 整 nói dở + 是)"
  ],
  "日报": [
   "NHẬT BÁO",
@@ -37671,10 +36351,6 @@
   "HẬU ĐIỂU",
   "chim di trú"
  ],
- "验": [
-  "NGHIỆM",
-  "kiểm tra; (chữ sau của 体验: trải nghiệm)"
- ],
  "游牧": [
   "DU MỤC",
   "du mục"
@@ -37722,10 +36398,6 @@
  "详情": [
   "TƯỜNG TÌNH",
   "chi tiết, tình hình cụ thể"
- ],
- "刚前": [
-  "",
-  "(cắt từ chưa chuẩn của 刚 + 前两周: vừa … hai tuần trước)"
  ],
  "百分之六十": [
   "BÁCH PHÂN CHI LỤC THẬP",
@@ -37923,10 +36595,6 @@
   "BẠCH BÀO",
   "chạy uổng công, chạy không"
  ],
- "发会": [
-  "",
-  "(cắt từ chưa chuẩn: 发 nói dở + 会发现)"
- ],
  "喜": [
   "HỶ",
   "vui; thích (不喜: nói dở)"
@@ -38027,10 +36695,6 @@
   "THỂ LỰC",
   "thể lực"
  ],
- "听播": [
-  "",
-  "(cắt từ chưa chuẩn của 听 + 播客: nghe podcast)"
- ],
  "注意力": [
   "CHÚ Ý LỰC",
   "sự chú ý, khả năng tập trung"
@@ -38062,10 +36726,6 @@
  "二十公里": [
   "NHỊ THẬP CÔNG LÝ",
   "20 km"
- ],
- "三五": [
-  "TAM NGŨ",
-  "dăm ba; (一百三，五分配: 130, pace 5 phút)"
  ],
  "一百六十五": [
   "NHẤT BÁCH LỤC THẬP NGŨ",
@@ -38138,5 +36798,365 @@
  "迈出": [
   "MẠI XUẤT",
   "bước ra (迈出那一步: bước ra bước đó)"
+ ],
+ "爱哲": [
+  "ÁI TRIẾT",
+  "Ái Triết, người dẫn chương trình 故事FM"
+ ],
+ "阿兹海默症": [
+  "A TƯ HẢI MẶC CHỨNG",
+  "bệnh Alzheimer (sa sút trí tuệ)"
+ ],
+ "二幺幺": [
+  "NHỊ YÊU YÊU",
+  "211 (Đề án 211: khoảng 100 trường đại học trọng điểm)"
+ ],
+ "九八五": [
+  "CỬU BÁT NGŨ",
+  "985 (Đề án 985: khoảng 40 trường đại học hàng đầu)"
+ ],
+ "二零一八年": [
+  "NHỊ LINH NHẤT BÁT NIÊN",
+  "năm 2018"
+ ],
+ "哪天": [
+  "NA THIÊN",
+  "hôm nào, ngày nào"
+ ],
+ "史祥莆": [
+  "SỬ TƯỜNG BỒ",
+  "Sử Tường Bồ (người kể chuyện, nghiên cứu về Triều Tiên)"
+ ],
+ "封": [
+  "PHONG",
+  "lượng từ cho thư, email (一封电子邮件: một bức email); niêm phong"
+ ],
+ "顿": [
+  "ĐỐN",
+  "lượng từ cho bữa ăn, trận (这顿饭: bữa cơm này)"
+ ],
+ "茴": [
+  "HỒI",
+  "hồi hương, thì là (茴香豆: đậu hồi hương)"
+ ],
+ "长达": [
+  "TRƯỜNG ĐẠT",
+  "dài tới, kéo dài đến (长达一个月: kéo dài tới một tháng)"
+ ],
+ "公众号": [
+  "CÔNG CHÚNG HIỆU",
+  "tài khoản chính thức (official account) trên WeChat"
+ ],
+ "二零一二年": [
+  "NHỊ LINH NHẤT NHỊ NIÊN",
+  "năm 2012"
+ ],
+ "大咖": [
+  "",
+  "người nổi tiếng, nhân vật tầm cỡ"
+ ],
+ "柴金优": [
+  "SÀI KIM ƯU",
+  "Sài Kim Ưu (tên một thí sinh thi đại học)"
+ ],
+ "二零一八": [
+  "NHỊ LINH NHẤT BÁT",
+  "2018 (二零一八届: khóa 2018)"
+ ],
+ "届": [
+  "GIỚI",
+  "khóa, kỳ, lần (二零一八届: khóa 2018)"
+ ],
+ "吐马利斯": [
+  "THỔ MÃ LỢI TƯ",
+  "(tên người) một thí sinh người Tân Cương"
+ ],
+ "九零后": [
+  "CỬU LINH HẬU",
+  "thế hệ 9x (sinh những năm 1990)"
+ ],
+ "动刀": [
+  "ĐỘNG ĐAO",
+  "động dao kéo, phẫu thuật"
+ ],
+ "削骨": [
+  "TƯỚC CỐT",
+  "gọt xương (phẫu thuật thẩm mỹ)"
+ ],
+ "篇": [
+  "THIÊN",
+  "lượng từ cho bài viết (那篇文章: bài viết đó)"
+ ],
+ "优衣库": [
+  "ƯU Y KHỐ",
+  "Uniqlo (hãng thời trang Nhật)"
+ ],
+ "点赞": [
+  "ĐIỂM TÁN",
+  "bấm thích, thả like"
+ ],
+ "解耦": [
+  "GIẢI NGẪU",
+  "tách rời (decouple), để hai phần không phụ thuộc nhau"
+ ],
+ "嘉立创": [
+  "GIA LẬP SÁNG",
+  "JLC (JLCPCB), hãng làm mạch in ở Thâm Quyến"
+ ],
+ "五八八三": [
+  "NGŨ BÁT BÁT TAM",
+  "5883 (QMC5883: chip cảm biến từ trường)"
+ ],
+ "八五零六三": [
+  "BÁT NGŨ LINH LỤC TAM",
+  "85063 (PCF85063: chip đồng hồ thời gian thực)"
+ ],
+ "三十二点七六八": [
+  "TAM THẬP NHỊ ĐIỂM THẤT LỤC BÁT",
+  "32,768 (三十二点七六八千赫兹: 32,768 kHz)"
+ ],
+ "千赫兹": [
+  "THIÊN HÁCH TƯ",
+  "kilohertz (kHz)"
+ ],
+ "三点三": [
+  "TAM ĐIỂM TAM",
+  "3,3 (三点三伏: 3,3 vôn)"
+ ],
+ "立创": [
+  "LẬP SÁNG",
+  "LCSC (立创商城: chợ linh kiện điện tử trực tuyến của JLC)"
+ ],
+ "两百": [
+  "LƯỠNG BÁCH",
+  "hai trăm"
+ ],
+ "吸锡带": [
+  "HẤP TÍCH ĐỚI",
+  "dây hút thiếc (dùng khi hàn)"
+ ],
+ "四零五六": [
+  "TỨ LINH NGŨ LỤC",
+  "4056 (TP4056: chip sạc pin)"
+ ],
+ "二百四": [
+  "NHỊ BÁCH TỨ",
+  "240 (二百四乘二百四: 240×240)"
+ ],
+ "物联网": [
+  "VẬT LIÊN VÕNG",
+  "Internet vạn vật (IoT)"
+ ],
+ "结构体": [
+  "KẾT CẤU THỂ",
+  "struct, kiểu cấu trúc (trong lập trình)"
+ ],
+ "瑟琳娜": [
+  "SẮT LÂM NA",
+  "Selina (tên người)"
+ ],
+ "要不": [
+  "YẾU BẤT",
+  "hay là (để đề nghị); nếu không thì"
+ ],
+ "艾": [
+  "NGẢI",
+  "ngải (cây ngải cứu); (艾瑟琳娜: có lẽ là 哎 \"ê, này\" gọi Selina)"
+ ],
+ "瞎": [
+  "HẠT",
+  "mù; bừa, lung tung (瞎晃: đi lang thang vô định)"
+ ],
+ "一八年": [
+  "NHẤT BÁT NIÊN",
+  "năm (20)18"
+ ],
+ "赛": [
+  "TÁI",
+  "thi đấu; bì kịp (赛不过: không bì được)"
+ ],
+ "热搜": [
+  "NHIỆT SƯU",
+  "tìm kiếm hot, chủ đề đang nóng trên mạng"
+ ],
+ "榜": [
+  "BẢNG",
+  "bảng xếp hạng (热搜榜: bảng tìm kiếm hot)"
+ ],
+ "接地气": [
+  "TIẾP ĐỊA KHÍ",
+  "gần gũi đời thường, sát thực tế"
+ ],
+ "禅修": [
+  "THIỀN TU",
+  "tu thiền, thiền tập"
+ ],
+ "不舍": [
+  "BẤT XẢ",
+  "không nỡ rời, luyến tiếc"
+ ],
+ "九九六": [
+  "CỬU CỬU LỤC",
+  "996: làm từ 9 giờ sáng đến 9 giờ tối, 6 ngày một tuần"
+ ],
+ "双十一": [
+  "SONG THẬP NHẤT",
+  "ngày 11/11, lễ hội mua sắm trực tuyến (Ngày Độc thân)"
+ ],
+ "二零二一年": [
+  "NHỊ LINH NHỊ NHẤT NIÊN",
+  "năm 2021"
+ ],
+ "小杨生煎": [
+  "TIỂU DƯƠNG SINH TIỄN",
+  "Xiao Yang (小杨生煎), chuỗi quán bánh bao áp chảo nổi tiếng ở Thượng Hải"
+ ],
+ "由头": [
+  "DO ĐẦU",
+  "cớ, cái cớ (để bắt đầu nói chuyện gì)"
+ ],
+ "二零零九年": [
+  "NHỊ LINH LINH CỬU NIÊN",
+  "năm 2009"
+ ],
+ "八十": [
+  "BÁT THẬP",
+  "tám mươi"
+ ],
+ "做题家": [
+  "TỐ ĐỀ GIA",
+  "dân cày đề (小镇做题家: người từ thị trấn nhỏ chỉ giỏi làm đề thi)"
+ ],
+ "艺考": [
+  "NGHỆ KHẢO",
+  "kỳ thi năng khiếu nghệ thuật (khi tuyển sinh đại học)"
+ ],
+ "高二": [
+  "CAO NHỊ",
+  "lớp 11 (năm hai cấp ba)"
+ ],
+ "八零后": [
+  "BÁT LINH HẬU",
+  "thế hệ 8x (sinh những năm 1980)"
+ ],
+ "答": [
+  "ĐÁP",
+  "trả lời, đáp (答不出来: không trả lời được)"
+ ],
+ "灵修": [
+  "LINH TU",
+  "tu tập tâm linh"
+ ],
+ "千年": [
+  "THIÊN NIÊN",
+  "nghìn năm"
+ ],
+ "二二年": [
+  "NHỊ NHỊ NIÊN",
+  "năm (20)22"
+ ],
+ "线上": [
+  "TUYẾN THƯỢNG",
+  "trực tuyến, online"
+ ],
+ "降维": [
+  "GIÁNG DUY",
+  "hạ chiều (降维打击: áp đảo đối thủ bằng ưu thế vượt hẳn một tầm)"
+ ],
+ "芹苴": [
+  "CẦN THƠ",
+  "Cần Thơ (thành phố ở Việt Nam)"
+ ],
+ "宫": [
+  "CUNG",
+  "cung điện (宫斗剧: phim cung đấu)"
+ ],
+ "哈斯卡": [
+  "",
+  "HSK, đọc theo cách người Việt"
+ ],
+ "一千两百万": [
+  "NHẤT THIÊN LƯỠNG BÁCH VẠN",
+  "12 triệu"
+ ],
+ "静如": [
+  "TĨNH NHƯ",
+  "khi tĩnh thì như (静如处子: tĩnh như thiếu nữ)"
+ ],
+ "二零二六年": [
+  "NHỊ LINH NHỊ LỤC NIÊN",
+  "năm 2026"
+ ],
+ "齐": [
+  "TỀ",
+  "đều, cùng nhau (百鸟齐鸣: trăm chim cùng hót)"
+ ],
+ "凤": [
+  "PHƯỢNG",
+  "chim phượng (百鸟朝凤: trăm chim chầu phượng)"
+ ],
+ "部下": [
+  "BỘ HẠ",
+  "cấp dưới, thuộc hạ"
+ ],
+ "聊得来": [
+  "LIÊU ĐẮC LAI",
+  "nói chuyện hợp nhau, hợp cạ"
+ ],
+ "以茶代酒": [
+  "DĨ TRÀ ĐẠI TỬU",
+  "lấy trà thay rượu"
+ ],
+ "负责任": [
+  "PHỤ TRÁCH NHIỆM",
+  "có trách nhiệm, chịu trách nhiệm"
+ ],
+ "性侵": [
+  "TÍNH XÂM",
+  "xâm hại tình dục"
+ ],
+ "九五后": [
+  "CỬU NGŨ HẬU",
+  "thế hệ sinh sau năm 1995"
+ ],
+ "零零后": [
+  "LINH LINH HẬU",
+  "thế hệ sinh sau năm 2000"
+ ],
+ "花店": [
+  "HOA ĐIẾM",
+  "tiệm hoa"
+ ],
+ "满上": [
+  "MÃN THƯỢNG",
+  "rót đầy (ly rượu)"
+ ],
+ "甘肃": [
+  "CAM TÚC",
+  "Cam Túc (tỉnh ở Tây Bắc Trung Quốc)"
+ ],
+ "不雅": [
+  "BẤT NHÃ",
+  "khiếm nhã, thiếu tế nhị"
+ ],
+ "醉酒": [
+  "TÚY TỬU",
+  "say rượu"
+ ],
+ "泼冷水": [
+  "BÁT LÃNH THỦY",
+  "dội nước lạnh, làm cụt hứng"
+ ],
+ "润滑剂": [
+  "NHUẬN HOẠT TỄ",
+  "chất bôi trơn"
+ ],
+ "一盘": [
+  "NHẤT BÀN",
+  "một đĩa"
+ ],
+ "恭喜发财": [
+  "CUNG HỶ PHÁT TÀI",
+  "chúc phát tài (lời chúc Tết)"
  ]
 }

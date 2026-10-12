@@ -146,18 +146,26 @@ export function splitSentence(words, fixes, plan = []) {
 
 /**
  * Joins the last line of each listed sentence onto the first line of the one after it.
+ *
+ * A join never puts two speakers on one line, except where the ASR changed speaker in the middle of
+ * a word (…甚至是麻 | 烦。): nobody says half a word, so the change is the ASR's, not the speakers'.
+ * Those are listed again in `mends`, and the joined line keeps the first sentence's speaker, whose
+ * sentence the word finishes.
  * @template {{ s: number, start: number, end: number, text: string, speaker: string }} Line
  * @param {Line[]} lines  In order, every line carrying the sentence it came from.
  * @param {number[]} joins
+ * @param {number[]} [mends]  The joins that cross a speaker change the ASR made mid-word.
  * @returns {Line[]}
  */
-export function joinSentences(lines, joins) {
+export function joinSentences(lines, joins, mends = []) {
   const joined = [...lines];
   for (const s of [...joins].sort((a, b) => b - a)) {
     const at = joined.findLastIndex((line) => line.s === s);
     const next = joined[at + 1];
     if (at === -1 || next?.s !== s + 1) throw new Error(`không có câu ${s + 1} ngay sau câu ${s} để nối`);
-    if (next.speaker !== joined[at].speaker) throw new Error(`câu ${s} và ${s + 1} là hai người nói khác nhau`);
+    if (next.speaker !== joined[at].speaker && !mends.includes(s)) {
+      throw new Error(`câu ${s} và ${s + 1} là hai người nói khác nhau`);
+    }
     joined.splice(at, 2, { ...joined[at], end: next.end, text: glue(joined[at].text, next.text) });
   }
   return joined;

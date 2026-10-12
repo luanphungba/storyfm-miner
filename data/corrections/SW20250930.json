@@ -882,6 +882,14 @@
       "source": "llm-review",
       "reason": "Thanking her co-host Brian (show notes: 主持人 Brian & Debbie), said quickly.",
       "appliedAt": "2026-10-11"
+    },
+    {
+      "cueIndex": 701,
+      "before": "我觉得不。",
+      "after": "我觉得不",
+      "source": "llm-review",
+      "reason": "The ASR put a full stop inside 不是: the next sentence starts 是说要跑跑多少, so it is 我觉得不是说.",
+      "appliedAt": "2026-10-12"
     }
   ],
   "flagged": [

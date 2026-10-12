@@ -31,28 +31,32 @@ from collections import Counter
 import jieba
 import jieba.posseg as pseg
 
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+
 # Where jieba joins two words across their boundary, the card would gloss a word that is not there.
 # The dictionary can be talked out of some (上将 "general" in 在此设备上将其打开, 会调 in 会调暗)...
 jieba.suggest_freq(("上", "将"), tune=True)
 for word in ("调暗", "轻扫", "墙纸"):
     jieba.suggest_freq(word, tune=True)
-# A name its dictionary lacks is scattered too (奥/朗德 for Hollande); added as one, tagged a name.
-jieba.add_word("奥朗德", tag="nr")
-# ...the rest its HMM puts back together whatever the dictionary says (中和 "neutralize" in App中和任何,
-# 上向 in 屏幕上向左轻扫, 隔/空投/送 for 隔空投送), so they are cut again after it, token by token. The
-# same table puts back words it scatters (小组/件 for 小组件 "widget", 帧/率 for 帧率, 本/机 for 本机), and
-# takes the Latin off a word jieba glued it to (SIM卡), since only Chinese is tapped. From SCN20200604:
-# 在教育上花血本, 在幼儿园里学, 还得到处托关系 (得 děi "must" + 到处, not 得到 "obtain") and 五十六十个 "fifty or sixty".
-RECUT = {
-    "中和": ("中", "和"), "上向": ("上", "向"), "隔空投送": ("隔空", "投送"), "已连": ("已", "连"),
-    "存至": ("存", "至"), "可让": ("可", "让"), "天前": ("天", "前"), "周后": ("周", "后"), "屏幕墙纸": ("屏幕", "墙纸"),
-    "访问控制中心": ("访问", "控制中心"), "更大字体": ("更大", "字体"),
-    "上花": ("上", "花"), "里学": ("里", "学"), "得到处": ("得", "到处"), "五十六十个": ("五十", "六十", "个"),
-    "小组件": ("小组件",), "锁屏": ("锁屏",), "帧率": ("帧率",), "本机": ("本机",), "内建": ("内建",),
-    "调高": ("调高",), "连拍": ("连拍",), "SIM卡": ("SIM", "卡"),
-}
+# ...and the rest are written down in tools/segmentation.json, each with the episode and the line it
+# was seen in, since a mis-cut fragment on the card (双十 out of 双十一) teaches a word nobody said. A
+# name its dictionary lacks, which it scatters (史祥/莆, 奥/朗德), is added to it as one, tagged as the
+# name it is. Every other mis-cut is cut again after jieba, token by token: its HMM puts some words back
+# together whatever the dictionary says (中和 "neutralize" in App中和任何), and most cuts depend on the
+# words around them (等/于是 is 等于/是, but 于是 alone is right), which a run of tokens spells out
+# and a dictionary weight does not. The same table puts back words it scatters (小组/件 for 小组件
+# "widget"), and takes the Latin off a word jieba glued it to (SIM卡), since only Chinese is tapped.
+SEGMENTATION = json.loads((ROOT / "tools" / "segmentation.json").read_text(encoding="utf-8"))
+for name, (tag, _episode, _seen) in SEGMENTATION["names"].items():
+    jieba.add_word(name, tag=tag)
+for run, (cut, _episode, seen) in SEGMENTATION["recut"].items():
+    if cut.replace("/", "") != run or run not in seen:
+        sys.exit(f"tools/segmentation.json: {run} → {cut} ({seen}) — bỏ dấu / phải ra đúng {run}, và câu phải có {run}")
+RECUT = {run: tuple(cut.split("/")) for run, (cut, _episode, _seen) in SEGMENTATION["recut"].items()}
+# The most tokens a RECUT key is spelled over: a number read out digit by digit is cut into many
+# (三/十二点/七六/八千/赫兹 for 三十二点七六八千赫兹, 32.768 kHz).
+LONGEST_RUN = 5
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
 BANDS = json.loads((ROOT / "tools" / "hsk-bands.json").read_text())
 # The lines a word is said in, split over this many files by the sum of the word's code points
@@ -68,11 +72,11 @@ LINES_PER_WORD = 20
 NAME_TAGS = {"nr", "ns", "nt"}
 # Words jieba calls names often enough to win the vote that neither the syllabus nor CC-CEDICT can
 # overrule. Electronics jargon from BV1HQTs6FEos: 连锡 a solder bridge, 上锡 to tin a pad, 千欧
-# kiloohm, 上拉 pull-up (resistor), and 孔中 cut out of 固定孔中 "into the mounting holes". From E080:
-# 高三 the last year of high school, and 祝你们 "wishing you". From SCN20200604: 二本 and 三本 the second
-# and third tier of universities, 托关系 "pull strings", 鸭嘴 a duck's bill. From DMP20250404: 新闻台 a news
-# channel. From CC19: 扁平化 "flattening", of a company with few levels of hierarchy.
-NOT_NAMES = {"连锡", "上锡", "千欧", "上拉", "孔中", "高三", "祝你们", "二本", "三本", "托关系", "鸭嘴", "新闻台", "扁平化"}
+# kiloohm, 上拉 pull-up (resistor). From E080: 高三 the last year of high school, and 祝你们 "wishing
+# you". From SCN20200604: 二本 and 三本 the second and third tier of universities, 托关系 "pull strings",
+# 鸭嘴 a duck's bill. From DMP20250404: 新闻台 a news channel. From CC19: 扁平化 "flattening", of a
+# company with few levels of hierarchy.
+NOT_NAMES = {"连锡", "上锡", "千欧", "上拉", "高三", "祝你们", "二本", "三本", "托关系", "鸭嘴", "新闻台", "扁平化"}
 # A number spelled out (三十, 十四) is not a word to learn once its digits are known, so a word of
 # these alone counts as none, unless the syllabus teaches it (万一 "in case").
 NUMERALS = set("零〇一二三四五六七八九十百千万亿两几")
@@ -80,6 +84,8 @@ NUMERALS = set("零〇一二三四五六七八九十百千万亿两几")
 BASE_BANDS = {1, 2}
 # The longest dictionary word a phrase is split into.
 LONGEST_PART = 6
+# Where a sentence that stops on one of these ends, the next one starts a word of its own.
+SENTENCE_END = re.compile(r"[。，、？！：；…—”\"》）),.?!]\s*$")
 def HAN(text):
     """Does this piece contain Chinese at all? Punctuation and digits are not tap targets."""
     return any("\u3400" <= character <= "\u9fff" for character in text)
@@ -113,7 +119,8 @@ def units(cues):
 
 
 def cut(text):
-    """[(word, pos, offset)] for the word-like pieces of one cue, in order."""
+    """[(word, pos, offset)] for the word-like pieces of one cue, in order, and the RECUT runs cut
+    again in it."""
     out, at = [], 0
     for word, pos in pseg.cut(text):
         start = text.index(word, at)
@@ -124,10 +131,11 @@ def cut(text):
 
 
 def recut(tokens):
-    """RECUT applied: a run of up to three adjacent tokens spelling a key becomes its parts."""
-    out, k = [], 0
+    """RECUT applied: a run of up to LONGEST_RUN adjacent tokens spelling a key becomes its parts.
+    Also returns the keys that matched."""
+    out, matched, k = [], set(), 0
     while k < len(tokens):
-        for span in (3, 2, 1):
+        for span in range(LONGEST_RUN, 0, -1):
             run = tokens[k:k + span]
             joined = "".join(word for word, _, _ in run)
             adjacent = all(run[j + 1][2] == run[j][2] + len(run[j][0]) for j in range(len(run) - 1))
@@ -137,12 +145,43 @@ def recut(tokens):
                     if HAN(part):   # SIM in SIM卡 is not a tap target
                         out.append((part, "x", at))
                     at += len(part)
+                matched.add(joined)
                 k += span
                 break
         else:
             out.append(tokens[k])
             k += 1
-    return out
+    return out, matched
+
+
+def broken_words(episode, known):
+    """Words the ASR broke across two sentences (…甚至是麻 | 烦。), often where it heard the speaker
+    change in the wrong place: jieba, given the two run together, cuts a word some dictionary has
+    across the boundary, and the first does not end in punctuation. Cut apart, the card would gloss
+    two halves. Returns (word, the sentence to join onto the next, the text either side)."""
+    found = []
+    pairs = list(units(episode["cues"]))
+    for (before, _), (after, lines) in zip(pairs, pairs[1:]):
+        if SENTENCE_END.search(before):
+            continue
+        # The sentence just before the one the next unit starts with, which a join of its own may
+        # have folded into an earlier sentence's line.
+        first = episode["cues"][lines[0][0]]
+        last = first.get("u", first["s"]) - 1
+        words, _ = cut(before + after)
+        for word, _, start in words:
+            if start < len(before) < start + len(word) and word in known:
+                found.append((word, last, f"{before[-8:]} | {after[:8]}"))
+    return found
+
+
+def unmatched(episode, cues, matched):
+    """The fixes tools/segmentation.json says were seen in this episode that are not on its page: a
+    run jieba no longer cuts the way its key spells, or a name it still scatters."""
+    words = {word for word, _, _ in said(episode, cues)}
+    names = [name for name, (_, seen_in, _) in SEGMENTATION["names"].items() if seen_in == episode["id"] and name not in words]
+    runs = [run for run, (_, seen_in, _) in SEGMENTATION["recut"].items() if seen_in == episode["id"] and run not in matched]
+    return names + runs
 
 
 def cedict_proper():
@@ -201,12 +240,15 @@ def names(paths):
 
 def tokenize(episode, proper):
     """Each cue's word spans, [start, length, band, count, is name], with the count left at 0 for
-    main() to fill in once every episode is cut. Also returns the words a line cut runs through."""
+    main() to fill in once every episode is cut. Also returns the words a line cut runs through, and
+    the RECUT runs cut again."""
     cues = [[] for _ in episode["cues"]]
-    straddling = []
+    straddling, matched = [], set()
     for text, lines in units(episode["cues"]):
         bounds = [offset for _, offset in lines] + [len(text)]
-        for word, pos, start in cut(text):
+        words, recut_here = cut(text)
+        matched |= recut_here
+        for word, pos, start in words:
             end = start + len(word)
             # A word the cut runs through is split at it. Usually jieba is the one that erred —
             # it glued 是因为 or 心理师王洋 across a clause — and the pieces are the real words.
@@ -222,7 +264,7 @@ def tokenize(episode, proper):
                     0,                             # occurrences across every episode, filled in by main()
                     1 if piece in proper else 0,   # a name is worth reading, rarely worth a card
                 ])
-    return cues, straddling
+    return cues, straddling, matched
 
 
 def said(episode, cues):
@@ -351,15 +393,20 @@ def main(ids):
     paths = listed + [DATA / f"{i}.json" for i in ids if DATA / f"{i}.json" not in listed]
     rebuild = {DATA / f"{i}.json" for i in ids} if ids else set(paths)
     proper = names(paths)
+    known = set().union(*cedict_proper(), BANDS)
 
     built = []
     for path in paths:
         episode = json.loads(path.read_text())
         out = path.with_suffix(".tok.json")
         if path in rebuild or not out.exists():
-            cues, straddling = tokenize(episode, proper)
+            cues, straddling, matched = tokenize(episode, proper)
             for straddled in straddling:
                 print(f"  · {episode['id']}: chỗ cắt tách {straddled} — thường là jieba ghép sai; nếu đó thật là một từ thì dời chỗ cắt")
+            for fix in unmatched(episode, cues, matched):
+                print(f"  ⚠ {episode['id']}: {fix} trong tools/segmentation.json không khớp chỗ nào — viết lại khoá theo đúng cách jieba cắt")
+            for word, s, around in broken_words(episode, known):
+                print(f"  ⚠ {episode['id']}: ASR ngắt giữa từ {word} ({around}) — nối câu {s} sang câu sau bằng split-cues: + nếu cùng người nói, ++ nếu khác")
         else:
             # An episode not asked for keeps its words: cut again, it could turn up a word its gloss
             # was never written for. Only its counts are brought up to date, below.

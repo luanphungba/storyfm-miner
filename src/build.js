@@ -147,7 +147,7 @@ export async function rebuildChapters(id, lines, { capped = true } = {}) {
  */
 async function toLines(id, words) {
   const ledger = await readJsonOr(paths.corrections(id), { fixes: [] });
-  const plan = await readJsonOr(paths.cuts(id), { cuts: {}, joins: [] });
+  const plan = await readJsonOr(paths.cuts(id), { cuts: {}, joins: [], mends: [] });
 
   /** @type {Map<number, {before: string, after: string}[]>} */
   const fixes = new Map();
@@ -166,7 +166,7 @@ async function toLines(id, words) {
   if (errors.length) {
     throw new Error(`Không dựng được ${id} — sửa data/corrections/ hoặc data/cuts/:\n${errors.join('\n')}`);
   }
-  return withUnits(joinSentences(lines, plan.joins ?? []), plan.joins ?? []).map((line, i) => ({ i, ...line }));
+  return withUnits(joinSentences(lines, plan.joins ?? [], plan.mends ?? []), plan.joins ?? []).map((line, i) => ({ i, ...line }));
 }
 
 /**

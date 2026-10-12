@@ -175,7 +175,7 @@ meaning written for one episode is not yet known to fit this one's sentences (CC
 week's work"). HSK 1-2 words with a meaning are not listed: the reader knows them.
 
 Write entries into `tools/gloss-vi.json` as `"词": ["HÁN VIỆT", "nghĩa tiếng Việt"]`, in batches of
-~350, rebuilding after each. Five rules, all of them learned the hard way:
+~350, rebuilding after each. Six rules, all of them learned the hard way:
 
 - **Only those two fields are written by hand.** The reading, the HSK band and the name tag are
   looked up by the tools. Never type a pinyin or a band from memory — that is precisely the mistake
@@ -199,9 +199,31 @@ Write entries into `tools/gloss-vi.json` as `"词": ["HÁN VIỆT", "nghĩa ti�
 - **Leave the Hán Việt as `""` rather than guess.** Interjections and rare colloquialisms often
   have no settled reading; a blank line is harmless, a confident wrong one teaches the user an error.
   Same bar as the transcript: certain, or say nothing.
-- **Mis-segmented fragments still get an entry.** jieba sometimes cuts a phrase oddly (了看, 我会);
-  gloss it as what it is, e.g. `"(cắt từ chưa chuẩn của 掀了看: lật lên xem)"`, so the card is never
-  blank.
+- **A word jieba cut wrong gets its cut fixed, never a note.** jieba splits words its dictionary
+  half-knows (双十/一 for 双十一, because it has 双十 "10/10"), glues neighbours into a non-word
+  (那他, 人会, 了看) and scatters names (史祥/莆). A card that glosses such a piece teaches a word
+  nobody said, so never write `"(cắt từ chưa chuẩn của …)"` or any other "this is a piece of X"
+  meaning — the user found 双十 on a card, a sweep found some 340 more, and `audit.mjs` now flags
+  every one. Fix the cut in `tools/segmentation.json`, giving the episode and a line it is said in:
+  - a name, under `names`, with jieba's tag (`nr` person, `ns` place, `nt` organisation):
+    `"史祥莆": ["nr", "E081", "史祥莆今年二十六岁"]`. It goes into jieba's dictionary, so the card
+    can say it is a name.
+  - anything else, under `recut`: jieba's tokens exactly as it cut them, run together, mapped to the
+    right cut with `/` — `"双十一": ["双十一", "CC7", "淘宝它有一个节日叫双十一"]`,
+    `"等于是": ["等于/是", "E757", "生死教育课等于是给我一个救赎"]`. The key must hold enough of
+    its neighbours to be wrong wherever it occurs: 于是 alone is right, so the key is 等于是; 成就是
+    is right in 他的成就是…, so the key is 训练成就是. Prefer parts a dictionary has (我/心/里面 over
+    我/心里面); a year stays whole the way jieba keeps 二零二零年 (二零一八年).
+
+  A rule applies to every episode, so rebuild every one whose transcript has the key
+  (`grep -l KEY docs/data/*.json`, ignoring the sidecars), read each changed line, and write meanings
+  for the words it makes. `build_tokens.py` warns `⚠ <ID>: <key> … không khớp chỗ nào` when a fix
+  never matched in the episode it names: the key does not spell jieba's tokens, so write it again.
+  The one mis-cut this cannot reach is a word the ASR broke across two sentences (`…甚至是麻` +
+  `烦。`), which jieba never sees whole. `build_tokens.py` names each as `⚠ … ASR ngắt giữa từ`;
+  join those two lines with split-cues' `+`, or `++` where the ASR changed speaker mid-word, before
+  glossing. A word with no CC-CEDICT senses in `todo_gloss` is the usual sign of a mis-cut (了看,
+  主播爱, 双十), so look at its sentence before writing anything for it.
 
 Then run `node tools/audit.mjs` and read what it prints **before** reporting anything. It re-derives
 every mechanical field from a source other than the one that built it. Leftover items are normally
@@ -338,7 +360,7 @@ Then run `node bin/storyfm.js topics` again; it stops on an id that does not exi
 
 These steps together touch: `data/raw/<id>.json`, `docs/data/<id>.json`, `docs/data/index.json`,
 `data/onsets/<id>.json`, `data/corrections/<id>.json`, `data/cuts/<id>.json`, the sidecars `docs/data/<id>.tok.json`,
-`docs/data/<id>.gloss.json` and `docs/data/<id>.vocab.json`, `tools/gloss-vi.json`, `tools/gloss-checked.json`, and the translation `data/translations/<id>.json`
+`docs/data/<id>.gloss.json` and `docs/data/<id>.vocab.json`, `tools/gloss-vi.json`, `tools/gloss-checked.json`, `tools/segmentation.json` (with the other episodes a new fix was rebuilt in), and the translation `data/translations/<id>.json`
 with what the page loads of it, `docs/data/<id>.vi.json`; the chapters `data/chapters/<id>.json` and
 `docs/data/<id>.chapters.json`; `data/topics.json` if the episode went into a topic; for a podcast episode also
 `data/podcasts.json`, which records the hosted `m4a` (the file itself lives on the Worker, not in
@@ -356,6 +378,8 @@ what changed, then give the user a short summary:
   by name, since those are the spots where the transcript might not match the audio
 - how many words were glossed, how many already-written meanings gained this episode's sense, that
   `todo_gloss` now reports 0 left, and what `audit.mjs` printed
+- every cut fixed in `tools/segmentation.json`, as `before → after` (双十/一 → 双十一), and which
+  other episodes it changed
 - how many sentences were translated, the summary, and any spot where the ASR was too garbled to
   translate with certainty
 - how many chapters, their range of lengths, and the list of titles
