@@ -995,8 +995,58 @@ h1 {
   max-width: 720px;
   margin: 0 auto 8px;
 }
+/* The titles are the handle that folds the lines under them away and back. */
+.now-row {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
 .now-titles { flex: 1; min-width: 0; }
-.now-zh, .now-sub { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.now-zh, .now-sub { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.now-fold {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--muted);
+}
+/* Drawn rather than a glyph, which each font sizes its own way: up opens the lines, down folds them. */
+.now-fold::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border: solid currentColor;
+  border-width: 0 2px 2px 0;
+  transform: translateY(2px) rotate(-135deg);
+}
+.now-row[aria-expanded="true"] .now-fold::before { transform: translateY(-2px) rotate(45deg); }
+
+/* The chapter's lines, between its titles and the controls: a fixed height, so the bar does not jump
+   from chapter to chapter, scrolled within itself. The player's lines without their time and ↻. */
+.now-lines {
+  position: relative;
+  max-width: 720px;
+  height: min(45dvh, 520px);
+  margin: 0 auto 8px;
+  padding: 4px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+}
+.now-lines[hidden] { display: none; }
+.now-lines .cue { padding-right: 8px; }
+.now-lines .cue.has-vi { grid-template-columns: minmax(0, 1fr) auto; }
+.now-lines .cue .vi { grid-column: 1 / -1; }
+.now-lines .note { margin: 8px; }
 .now-zh {
   color: var(--accent);
   font-size: 17px;
@@ -1005,7 +1055,9 @@ h1 {
 }
 .now-sub { color: var(--muted); font-size: 13px; }
 .now-time { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
-.now-controls .chip { min-width: 52px; height: 40px; font-size: 16px; }
+/* Four buttons, the words and the way to the episode on one row of a phone, wrapping only on the narrowest. */
+.now-controls { flex-wrap: wrap; gap: 6px; }
+.now-controls .chip { min-width: 46px; height: 40px; font-size: 16px; }
 .now-controls #now-words { font-size: 13px; }
 .now-controls #open-chapter {
   display: inline-flex;

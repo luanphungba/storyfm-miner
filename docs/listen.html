@@ -37,19 +37,22 @@
 </div>
 
 <div class="player now-playing" id="now" hidden>
-  <div class="now-row">
-    <div class="now-titles">
-      <div class="now-zh" id="now-zh"></div>
-      <div class="now-sub" id="now-sub"></div>
-    </div>
+  <button class="now-row" id="now-head" type="button" aria-expanded="true" aria-controls="now-lines" title="Hiện / ẩn lời của chương">
+    <span class="now-titles">
+      <span class="now-zh" id="now-zh"></span>
+      <span class="now-sub" id="now-sub"></span>
+    </span>
     <span class="now-time" id="now-time"></span>
-  </div>
+    <span class="now-fold" aria-hidden="true"></span>
+  </button>
+  <div class="now-lines" id="now-lines" lang="zh-Hans"></div>
   <div class="now-controls">
     <button class="chip" id="prev" type="button" aria-label="Đoạn trước">⏮</button>
     <button class="chip is-primary" id="toggle" type="button" aria-label="Phát / tạm dừng">⏸</button>
     <button class="chip" id="next" type="button" aria-label="Đoạn sau">⏭</button>
+    <button class="chip" id="loop" type="button" aria-pressed="false" aria-label="Lặp chương này" title="Lặp chương đang nghe tới khi tắt">↻</button>
     <button class="chip" id="now-words" type="button" title="Các từ đã tra trong chương này" hidden></button>
-    <a class="chip" id="open-chapter" href="#" title="Mở chương này trong player để học lại">Mở trong tập ↗</a>
+    <a class="chip" id="open-chapter" href="#" title="Mở chương này trong tập để học lại">Tập ↗</a>
   </div>
   <audio id="audio" preload="metadata"></audio>
 </div>

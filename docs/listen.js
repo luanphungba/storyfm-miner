@@ -9,6 +9,11 @@
 // Each chapter lists the words tapped in it, the lowest HSK level first, to read through before hearing
 // it again. Reading the list is not a tap: only a word tapped in the player says it was not caught.
 //
+// The chapter playing shows its lines under its titles in the bar, the one being heard lit and kept
+// in view, so a line not caught is read without opening the episode; a tap on a line plays from it.
+// The titles fold the lines away for listening with the eyes elsewhere, and stay as left. ↻ keeps the
+// chapter playing round, for one to be heard closely.
+//
 // One audio element plays everything. A chapter of another episode swaps its source rather than
 // start a second player, so a phone with its screen off keeps a single media session going.
 
@@ -17,16 +22,18 @@ import { meterListening, showHours } from './meter.js';
 import { formatPasses, heardTotals, passes } from './progress.js';
 import { call, savedConnection } from './server.js';
 import { dueLabel, heardThrough, schedule, spacedPlaylist, tappedOf } from './spacing.js';
-import { ceilTenth, chapterLink, dayLabel, floorTenth, lastStudied, playlist, shuffledByEpisode } from './studied.js';
+import { ceilTenth, chapterLink, dayLabel, floorTenth, lastStudied, linesOf, playlist, shuffledByEpisode } from './studied.js';
 import { showWords } from './wordlist.js';
 
 /** @typedef {import('./studied.js').Studied} Studied */
 /** @typedef {import('./progress.js').Heard} Heard */
 /** @typedef {import('./spacing.js').Tapped} Tapped */
 /** @typedef {import('./topics.js').Topic} Topic */
-/** @typedef {{ due: boolean, days: number | null, ep: string, topic: string, shuffle: boolean, times: number }} Settings
+/** @typedef {{ due: boolean, days: number | null, ep: string, topic: string, shuffle: boolean, times: number, lines: boolean }} Settings
  *   `due` plays by the schedule; otherwise `days` filters by the day studied. `ep` or `topic`, at most
- *   one of them, keeps it to one episode or one topic's. */
+ *   one of them, keeps it to one episode or one topic's. `lines` shows the lines of the chapter playing. */
+/** @typedef {{ start: number, end: number, text: string, role: string }} Cue  A line, as the episode file has it. */
+/** @typedef {{ cues: Cue[], vi: Record<string, string> }} Text  An episode's lines, and their translations by index. */
 
 const RECENT_DAYS = 7;
 /** The filter, shuffle and repeats chosen last time, remembered in this browser. */
@@ -37,6 +44,8 @@ const SPEED_STORAGE_KEY = 'ci-playback-rate';
 const FONT_STORAGE_KEY = 'ci-zh-font-size';
 /** ⏮ this soon after a chapter starts goes to the one before; later, back to its start. */
 const RESTART_WINDOW_S = 3;
+/** How long the lines stop following the one heard after they are scrolled by hand, as in the player. */
+const MANUAL_SCROLL_GRACE_MS = 5_000;
 
 const $ = (/** @type {string} */ id) => /** @type {HTMLElement} */ (document.getElementById(id));
 
@@ -61,7 +70,7 @@ let dueDays = new Map();
 /** Today as the server counts it: Anki's day, turning at 4:00. */
 let today = '';
 /** @type {Settings} */
-let settings = { due: true, days: RECENT_DAYS, ep: '', topic: '', shuffle: false, times: 1 };
+let settings = { due: true, days: RECENT_DAYS, ep: '', topic: '', shuffle: false, times: 1, lines: true };
 /** Every topic, from the index. */
 /** @type {Topic[]} */
 let topics = [];
@@ -76,6 +85,9 @@ let sections = [];
 let queue = [];
 let index = -1;
 let pass = 1;
+/** Whether the chapter playing starts over at its end, however many times each is set to play: for one
+ * heard closely. Off on every load, as it is for this sitting. */
+let looping = false;
 /** Bumped on every chapter change, so a source still loading for an earlier one is ignored. */
 let ticket = 0;
 
@@ -337,6 +349,7 @@ function showNow(/** @type {Studied} */ chapter) {
   $('now-sub').textContent = `${chapter.vi} · ${chapter.ep}`;
   /** @type {HTMLAnchorElement} */ ($('open-chapter')).href = chapterLink(chapter);
   showNowWords(chapter);
+  showLines(chapter);
   showTime();
   markPlaying();
   if ('mediaSession' in navigator) {
@@ -352,14 +365,14 @@ function showTime() {
   const chapter = queue[index];
   if (!chapter) return;
   const at = loaded() ? Math.max(0, Math.min(audio.currentTime, chapter.end) - chapter.start) : 0;
-  const round = settings.times > 1 ? ` · lượt ${pass}/${settings.times}` : '';
+  const round = looping ? ` · lượt ${pass}` : settings.times > 1 ? ` · lượt ${pass}/${settings.times}` : '';
   $('now-time').textContent = `${index + 1}/${queue.length} · ${formatTime(at)}/${formatTime(chapter.end - chapter.start)}${round}`;
 }
 
 audio.addEventListener('timeupdate', () => {
   const chapter = queue[index];
   if (chapter && loaded() && audio.currentTime >= chapter.end) {
-    if (pass < settings.times) {
+    if (looping || pass < settings.times) {
       pass += 1;
       audio.currentTime = chapter.start;
     } else {
@@ -368,10 +381,121 @@ audio.addEventListener('timeupdate', () => {
     }
   }
   showTime();
+  lightLine();
 });
 
 for (const event of ['play', 'pause']) {
   audio.addEventListener(event, () => { $('toggle').textContent = audio.paused ? '▶' : '⏸'; });
+}
+
+// ---------- the lines of the chapter playing ----------
+
+const linesBox = $('now-lines');
+/** The chapter whose lines are shown, its lines, a row for each, and the one lit. */
+/** @type {{ chapter: Studied, lines: Cue[], rows: HTMLElement[], lit: number } | null} */
+let shownLines = null;
+let lastManualScrollAt = 0;
+
+/** Each episode's lines and their translations, fetched once: an episode's chapters play in a row. */
+/** @type {Map<string, Promise<Text | null>>} */
+const texts = new Map();
+
+function textOf(/** @type {string} */ ep) {
+  const file = (/** @type {string} */ name) =>
+    fetch(`data/${encodeURIComponent(ep)}${name}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  if (!texts.has(ep)) {
+    texts.set(ep, Promise.all([file('.json'), file('.vi.json')]).then(([episode, translation]) =>
+      (episode ? { cues: episode.cues, vi: translation?.lines ?? {} } : null)));
+  }
+  return /** @type {Promise<Text | null>} */ (texts.get(ep));
+}
+
+/** Puts the chapter's lines under its titles, each with its translation behind a VI as in the player. */
+async function showLines(/** @type {Studied} */ chapter) {
+  if (shownLines?.chapter === chapter) return;
+  const mine = ticket;
+  shownLines = null;
+  linesBox.replaceChildren();
+  const text = await textOf(chapter.ep);
+  if (mine !== ticket) return;
+  if (!text) {
+    linesBox.replaceChildren(element('p', 'note', 'Không tải được lời của chương này.'));
+    return;
+  }
+  const [from, to] = linesOf(text.cues, chapter);
+  const lines = text.cues.slice(from, to + 1);
+  const rows = lines.map((cue, k) => lineRow(cue, text.vi[from + k]));
+  linesBox.replaceChildren(...rows);
+  linesBox.scrollTop = 0;
+  shownLines = { chapter, lines, rows, lit: -1 };
+  lightLine();
+}
+
+function element(/** @type {string} */ tag, /** @type {string} */ className, /** @type {string} */ text) {
+  const made = document.createElement(tag);
+  made.className = className;
+  made.textContent = text;
+  return made;
+}
+
+/** The player's line, without its time and ↻: here the chapter is what is played and looped. */
+function lineRow(/** @type {Cue} */ cue, /** @type {string | undefined} */ vi) {
+  const row = element('div', cue.role === 'narrator' ? 'cue is-narrator' : 'cue', '');
+  row.append(element('span', 'zh', cue.text));
+  if (vi) {
+    const toggle = element('button', 'vi-toggle', 'VI');
+    toggle.setAttribute('type', 'button');
+    toggle.title = 'Hiện bản dịch dòng này';
+    toggle.setAttribute('aria-pressed', 'false');
+    const line = element('div', 'vi', vi);
+    line.lang = 'vi';
+    row.classList.add('has-vi');
+    row.append(toggle, line);
+  }
+  return row;
+}
+
+/** Lights the line being heard, the last one started (a pause between two keeps the one before lit),
+ * and brings it to the middle unless the lines were just scrolled by hand. */
+function lightLine() {
+  if (!shownLines || !loaded()) return;
+  const k = shownLines.lines.findLastIndex((line) => line.start <= audio.currentTime);
+  if (k === shownLines.lit) return;
+  shownLines.rows[shownLines.lit]?.classList.remove('is-now');
+  shownLines.lit = k;
+  shownLines.rows[k]?.classList.add('is-now');
+  if (Date.now() - lastManualScrollAt > MANUAL_SCROLL_GRACE_MS) centerLine('smooth');
+}
+
+function centerLine(/** @type {ScrollBehavior} */ behavior) {
+  const row = shownLines?.rows[shownLines.lit];
+  if (!row || linesBox.hidden) return;
+  linesBox.scrollTo({ top: row.offsetTop - (linesBox.clientHeight - row.offsetHeight) / 2, behavior });
+}
+
+function showFold() {
+  linesBox.hidden = !settings.lines;
+  $('now-head').setAttribute('aria-expanded', String(settings.lines));
+}
+
+linesBox.addEventListener('click', (event) => {
+  const target = /** @type {HTMLElement} */ (event.target);
+  const row = /** @type {HTMLElement | null} */ (target.closest('.cue'));
+  const k = row && shownLines ? shownLines.rows.indexOf(row) : -1;
+  if (!row || !shownLines || k < 0) return;
+  if (target.classList.contains('vi-toggle')) {
+    target.setAttribute('aria-pressed', String(row.classList.toggle('vi-open')));
+    return;
+  }
+  // The translation is for reading, and selecting a phrase of it should not jump the audio.
+  if (target.closest('.vi')) return;
+  audio.currentTime = shownLines.lines[k].start;
+  audio.play().catch(() => {});
+});
+
+// Only a finger or a wheel: the lines' own smooth scrolling fires scroll events too.
+for (const event of ['touchmove', 'wheel']) {
+  linesBox.addEventListener(event, () => { lastManualScrollAt = Date.now(); }, { passive: true });
 }
 
 // ---------- controls ----------
@@ -428,6 +552,17 @@ $('shuffle').addEventListener('click', () => {
 });
 
 $('play-all').addEventListener('click', () => play(undefined));
+$('now-head').addEventListener('click', () => {
+  settings.lines = !settings.lines;
+  saveSettings();
+  showFold();
+  centerLine('auto');
+});
+$('loop').addEventListener('click', () => {
+  looping = !looping;
+  $('loop').setAttribute('aria-pressed', String(looping));
+  showTime();
+});
 $('now-words').addEventListener('click', () => { if (queue[index]) showWords(queue[index], wordsOf(queue[index])); });
 // A word known in a chapter's list leaves every chapter's count.
 $('words-dialog').addEventListener('known', (event) => {
@@ -470,4 +605,5 @@ meterListening(audio, 'listen', {
 loadSettings();
 openedOnTopic();
 applyReadingSize();
+showFold();
 await load();

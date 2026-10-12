@@ -1,7 +1,8 @@
 // @ts-check
 // The studied chapters as the pages use them: which one a chapter on the page is, which ones are
-// recent, in what order they play, how long ago each was studied, and the link back to it in the
-// player. Pure, so the player and the "Nghe lại" page share it and test/studied.test.js covers it.
+// recent, in what order they play, how long ago each was studied, the lines it plays, and the link
+// back to it in the player. Pure, so the player and the "Nghe lại" page share it and
+// test/studied.test.js covers it.
 // The list itself lives on the server (server/miner.py), so every device sees the same one.
 
 /**
@@ -110,6 +111,23 @@ export function shuffledByEpisode(chapters, first, random = Math.random) {
   }
   const groups = [...episodes.values()];
   return shuffled(groups, groups.find((episode) => first !== undefined && episode.includes(first)), random).flat();
+}
+
+/**
+ * The lines of its episode a studied chapter plays, as the indices of the first and last; -1 for both
+ * when none. Taken by its own start and end rather than the episode's chapters, as those are what
+ * play: a line is in it when the middle of it is, so one a re-cut left straddling either end goes
+ * where most of it is heard.
+ * @param {{ start: number, end: number }[]} cues  the episode's
+ * @param {Pick<Studied, 'start' | 'end'>} s
+ * @returns {[number, number]}
+ */
+export function linesOf(cues, s) {
+  const inside = (/** @type {{ start: number, end: number }} */ cue) => {
+    const middle = (cue.start + cue.end) / 2;
+    return middle >= s.start && middle < s.end;
+  };
+  return [cues.findIndex(inside), cues.findLastIndex(inside)];
 }
 
 /** The player opened on the chapter, looped: rounded as the loop bar holds a chapter, so the player

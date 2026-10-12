@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { chapterLink, dayLabel, findStudied, heardAgain, playlist, shuffled, shuffledByEpisode } from '../docs/studied.js';
+import { chapterLink, dayLabel, findStudied, heardAgain, linesOf, playlist, shuffled, shuffledByEpisode } from '../docs/studied.js';
 
 const studied = (ep, start, dates) => ({ ep, episode: '', audio: 'https://a/x.m4a', n: 0, zh: '', vi: '', start, end: start + 90, dates });
 
@@ -93,4 +93,16 @@ test('a shuffle moves whole episodes, each still in story order, the tapped one 
 
 test('links the chapter rounded the way the loop bar holds a chapter', () => {
   assert.equal(chapterLink(studied('E001-2', 607.01, [])), 'player.html?ep=E001-2&start=607&end=697.1');
+});
+
+test('a chapter plays the lines whose middle falls inside it', () => {
+  const cues = [
+    { start: 0, end: 9.5 },
+    { start: 9.5, end: 12.4 }, // a re-cut left it straddling the start, most of it inside
+    { start: 12.4, end: 15 },
+    { start: 15, end: 20.6 }, // straddling the end, most of it inside
+    { start: 20.6, end: 30 }, // straddling the end, most of it after
+  ];
+  assert.deepEqual(linesOf(cues, { start: 10, end: 21 }), [1, 3]);
+  assert.deepEqual(linesOf(cues, { start: 31, end: 40 }), [-1, -1], 'none when it plays past the last line');
 });
