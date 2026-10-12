@@ -1,7 +1,7 @@
 // @ts-check
-// The words tapped in the player for their meaning, kept by the server (server/miner.py) by day. A
-// word that needs its meaning on three different days has not stuck from listening and is worth a
-// card; a chapter with a word tapped in it comes back the next day in Nghe lại (see spacing.js).
+// The words tapped in a line for their meaning, in the player or Nghe lại, kept by the server
+// (server/miner.py) by day. A word that needs its meaning on three different days has not stuck from
+// listening and is worth a card; a word tapped in two chapters brings them back in Nghe lại (see spacing.js).
 //
 // A tap waits in this browser until the server has it, so one made with the network down still
 // counts, with the next tap. The server keeps a tap sent twice once.

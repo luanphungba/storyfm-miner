@@ -59,16 +59,13 @@ export function vocabularyWords({ studied, linesOf, vocab, history }) {
   const chapters = studied.map((chapter) => ({
     id: `${chapter.ep}@${chapter.start}`,
     first: chapter.dates.reduce((a, b) => (b < a ? b : a), chapter.dates[0] ?? ''),
-    words: new Set((linesOf[chapter.ep] ?? [])
-      .filter(([start]) => chapter.start - SAME_START_S <= start && start < chapter.end)
-      .flatMap(([, line]) => line.split(' '))),
+    words: chapterWords(linesOf[chapter.ep] ?? [], chapter),
   }));
-  // The server keeps what was touched: a tap on 很脏 is a tap on 很 and 脏.
   const byWord = (/** @type {Record<string, string[]>} */ daysOf) => {
     /** @type {Map<string, string[]>} */
     const words = new Map();
     for (const [span, spanDays] of Object.entries(daysOf)) {
-      for (const word of vocab.splits[span] ?? [span]) words.set(word, [...(words.get(word) ?? []), ...spanDays]);
+      for (const word of spanWords(vocab, span)) words.set(word, [...(words.get(word) ?? []), ...spanDays]);
     }
     return words;
   };
@@ -82,6 +79,13 @@ export function vocabularyWords({ studied, linesOf, vocab, history }) {
     return words;
   };
 }
+
+/** The words a tapped span counts as. The server keeps what was touched: a tap on 很脏 is a tap on 很 and 脏. */
+export const spanWords = (/** @type {Pick<VocabBase, 'splits'>} */ vocab, /** @type {string} */ span) => vocab.splits[span] ?? [span];
+
+/** The words said in a chapter, from its episode's lines. */
+export const chapterWords = (/** @type {VocabLines} */ lines, /** @type {{ start: number, end: number }} */ chapter) =>
+  new Set(lines.filter(([start]) => chapter.start - SAME_START_S <= start && start < chapter.end).flatMap(([, line]) => line.split(' ')));
 
 /**
  * What the vocabulary is counted from, beside the page: vocab.json, and the words of each episode

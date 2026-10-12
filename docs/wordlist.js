@@ -3,8 +3,8 @@
 // first, as the most of speech it buys (taps.js), each with its level, reading, Hán Việt and meaning as
 // the player's word card gives them, the line it was tapped in, and its stroke order a tap away. Opened
 // from Nghe lại and from the player's chapter headings, each page carrying the dialog's markup
-// (#words-dialog) and its audio (#audio). Reading the list is not a tap: only a word tapped in the
-// player says it was not caught.
+// (#words-dialog) and its audio (#audio). Reading the list is not a tap: only a word tapped in a line,
+// in the player or Nghe lại, says it was not caught.
 //
 // ▶ Nghe plays the lines one after another and round again (wordplay.js), the word playing lit and
 // kept in view; a tap on a word plays on from its line. A line's ↻ loops it, to hear it again while its

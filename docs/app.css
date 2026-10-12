@@ -974,6 +974,8 @@ h1 {
 .pl-item[aria-current] .pl-zh { color: var(--accent); }
 .pl-vi { font-size: 14px; }
 .pl-sub { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+/* The words a due chapter is played for today (spacing.js). */
+.pl-check { color: var(--accent); font-size: 13px; }
 .pl-episode { margin: 18px 0 8px; color: var(--muted); font-size: 13px; font-weight: 600; }
 .pl-episode:first-child { margin-top: 4px; }
 .pl-section { margin: 22px 0 4px; font-size: 15px; font-weight: 650; }
@@ -1047,6 +1049,8 @@ h1 {
 .now-lines .cue.has-vi { grid-template-columns: minmax(0, 1fr) auto; }
 .now-lines .cue .vi { grid-column: 1 / -1; }
 .now-lines .note { margin: 8px; }
+/* The same words in the lines, the ones to listen for: a chapter has a few, so a mark still says something. */
+.now-lines .w.is-check { text-decoration: underline 2px var(--accent); text-underline-offset: 4px; }
 .now-zh {
   color: var(--accent);
   font-size: 17px;

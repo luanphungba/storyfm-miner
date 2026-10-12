@@ -12,18 +12,16 @@ import { CONTEXT_LINES, markLine } from './card.js';
 import { newWords } from './chapterwords.js';
 import { chapterCoverage, wordsSaid } from './coverage.js';
 import { initExamples } from './examples.js';
-import { levelLabel } from './hsk.js';
 import { chapterShots, framePercent } from './shots.js';
 import { meterListening } from './meter.js';
 import { initMiner } from './miner.js';
 import { call, savedConnection } from './server.js';
 import { tappedOf } from './spacing.js';
-import { strokeToggle } from './strokes.js';
 import { ceilTenth, findStudied, floorTenth, heardAgain } from './studied.js';
-import { recordTap, tapNote } from './taps.js';
 import { TOPIC_KEY, nextEpisode, topicsOf } from './topics.js';
 import { fetchVocabulary, vocabularyWords } from './vocab.js';
 import { showWords } from './wordlist.js';
+import { countedTap, fillCard, wordSpans } from './wordcard.js';
 
 const CUE_LANG = 'zh-Hans';
 const CHANNEL = 'ci-timedtext';
@@ -240,9 +238,7 @@ function render() {
 
 // ---------- words ----------
 
-/** Chinese runs together, so a tap has to know where the word it landed in begins and ends. The
- * browser cannot work that out: its own segmenter splits 互联网 into 互/联/网 and 面试官 into
- * 面试/官. The spans are therefore cut offline by jieba and only rendered here. */
+/** The word spans a tap lands in (wordcard.js), and what the card says of each. */
 async function loadWords() {
   const [tok, gl] = await Promise.all([
     fetch(`data/${episodeId}.tok.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null),
@@ -263,23 +259,7 @@ function decorate() {
     const spans = tokens[index];
     const host = rows[index]?.querySelector('.zh');
     if (!spans || !host) return;
-    const parts = [];
-    let at = 0;
-    for (const [start, length, band, count, isName] of spans) {
-      if (start > at) parts.push(cue.text.slice(at, start));
-      const word = document.createElement('span');
-      word.className = 'w';
-      word.textContent = cue.text.slice(start, start + length);
-      // Carried on the span so the card can answer "how common is this, and is it worth a card?"
-      // without going back to the token file for every tap.
-      if (band) word.dataset.band = String(band);
-      if (isName) word.dataset.name = '1';
-      word.dataset.count = String(count);
-      parts.push(word);
-      at = start + length;
-    }
-    if (at < cue.text.length) parts.push(cue.text.slice(at));
-    host.replaceChildren(...parts);
+    host.replaceChildren(...wordSpans(cue.text, spans));
   });
   showNewWords();
   showCoverage();
@@ -804,85 +784,30 @@ function showCoverage() {
 const card = $('gloss');
 let openWord = null;
 
-/** The card sits above the audio bar rather than floating by the word: on a phone a tooltip next to
- * the text either covers the line being read or lands off-screen, and the reader is looking down at
- * the controls anyway. */
+/** The tapped word's card (wordcard.js), with ＋ Anki beside it. */
 function showGloss(/** @type {HTMLElement} */ span) {
-  const word = span.textContent ?? '';
-  const entry = gloss?.[word];
-  const [reading, hanviet, meaning] = entry ?? [];
   openWord?.classList.remove('is-open');
   span.classList.add('is-open');
   openWord = span;
-
-  card.classList.remove('is-mining');
-  card.innerHTML = '';
-  const line = (className, text) => {
-    if (!text) return;
-    const element = document.createElement('div');
-    element.className = className;
-    element.textContent = text;
-    card.append(element);
-  };
-  line('g-word', word);
-  const strokes = strokeToggle(word);
-  if (strokes) card.lastElementChild?.append(strokes.button);
-  line('g-reading', [reading, hanviet?.toUpperCase()].filter(Boolean).join('   ·   '));
-  // An unauthored word says so. A guess here would be worse than a blank: the reader cannot tell a
-  // wrong meaning from a right one, and a wrong one is what ends up on a flashcard.
-  line('g-meaning', meaning || 'chưa có nghĩa');
-  if (!meaning) card.lastElementChild?.classList.add('is-empty');
-  // Strokes open under the meaning, not after the lines below it: those can run a screen long.
-  if (strokes) card.append(strokes.panel);
-
-  // How much of spoken Chinese this word buys (hsk.js).
-  const level = levelLabel(Number(span.dataset.band ?? 0), Boolean(span.dataset.name));
   const here = { ep: episode.id, cue: rows.indexOf(/** @type {HTMLElement} */ (span.closest('.cue'))) };
-  const seen = examples.toggle(word, Number(span.dataset.count), here);
-  line('g-meta', `${level} · `);
-  card.lastElementChild?.append(seen?.button ?? 'chỉ gặp ở câu này');
-  const taps = countTap(span, word, here.cue);
-  if (taps) card.append(taps);
-  if (seen) card.append(seen.panel);
-  const actions = document.createElement('div');
-  actions.className = 'g-actions';
-  const close = document.createElement('button');
-  close.className = 'g-close';
-  close.type = 'button';
-  close.textContent = '✕';
-  close.setAttribute('aria-label', 'Đóng và nghe tiếp');
-  close.onclick = hideGloss;
-  actions.append(miner.button(wordContext(span)), close);
-  // The word and the way out share a row that stays put while the rest of the card scrolls.
-  const head = document.createElement('div');
-  head.className = 'g-head';
-  head.append(/** @type {HTMLElement} */ (card.firstElementChild), actions);
-  card.prepend(head);
-  card.hidden = false;
-  card.scrollTop = 0;
+  fillCard(card, span, {
+    gloss,
+    here,
+    examples,
+    countTap: () => countTap(span, here.cue),
+    actions: () => [miner.button(wordContext(span))],
+    close: hideGloss,
+  });
 }
 
-/** Every tap is a lookup the server keeps: the card says on how many days the word has needed one,
- * and from the third that it may be worth a card. Without a server there is no line. */
-function countTap(/** @type {HTMLElement} */ span, /** @type {string} */ word, /** @type {number} */ index) {
-  const connection = savedConnection();
-  if (!connection || !cues[index]) return null;
-  const note = document.createElement('div');
-  note.className = 'g-taps';
-  note.hidden = true;
-  recordTap(connection, { word, ep: episode.id, at: cues[index].start })
-    .then((count) => {
-      if (count) loadTapped();
-      if (!count || openWord !== span) return;
-      const { text, stubborn } = tapNote(count, episode.source !== 'ui');
-      note.textContent = text;
-      note.classList.toggle('is-stubborn', stubborn);
-      note.hidden = false;
-    })
-    .catch(() => {
-      // Kept unsent; the next tap sends it.
-    });
-  return note;
+/** The tap sent, its line on the card; a word of an app's interface is never worth a card. */
+function countTap(/** @type {HTMLElement} */ span, /** @type {number} */ index) {
+  if (!cues[index]) return null;
+  return countedTap({ word: span.textContent ?? '', ep: episode.id, at: cues[index].start }, {
+    cardsWanted: episode.source !== 'ui',
+    showing: () => openWord === span,
+    counted: loadTapped,
+  });
 }
 
 /** The tapped word as the miner needs it: its line with the word marked, and the lines around it. */

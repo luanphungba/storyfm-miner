@@ -99,9 +99,10 @@ function wasOpen() {
 /**
  * The lines play on an audio element of their own, never the page's: the page keeps its place in
  * the episode, and closing the card carries on listening from where the word was tapped.
- * @param {{ audio: HTMLAudioElement, openChapter: (n: number) => void, studied: () => Studied[] }} options
+ * @param {{ audio: HTMLAudioElement, openChapter?: (n: number) => void, studied: () => Studied[] }} options
  *   audio — the page's, paused while a line plays and read for the speed it is set to;
- *   openChapter — loops a chapter of the episode already on the page;
+ *   openChapter — loops a chapter of the episode already on the page; without it, a page that does
+ *     not show the episode whole (Nghe lại), its chapters open in the player like any other's;
  *   studied — the chapters studied so far, none without a server
  */
 export function initExamples({ audio, openChapter, studied }) {
@@ -242,7 +243,7 @@ export function initExamples({ audio, openChapter, studied }) {
   /** The chapter a run of lines is in, as a way into it: looped right here for the episode on the
    * page, in a tab of its own for another, so the chapter being studied here keeps its place. */
   function chapterLine(/** @type {string} */ ep, /** @type {number} */ n, /** @type {Chapter} */ chapter, /** @type {boolean} */ isHere) {
-    const link = document.createElement(isHere ? 'button' : 'a');
+    const link = document.createElement(isHere && openChapter ? 'button' : 'a');
     link.className = 'x-ch';
     link.textContent = `§${n + 1} ${chapter.zh}`;
     if (link instanceof HTMLAnchorElement) {
@@ -254,7 +255,7 @@ export function initExamples({ audio, openChapter, studied }) {
     } else {
       link.type = 'button';
       link.title = 'Lặp chương này';
-      link.onclick = () => openChapter(n);
+      link.onclick = () => openChapter?.(n);
     }
     return link;
   }

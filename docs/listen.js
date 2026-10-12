@@ -1,16 +1,20 @@
 // @ts-check
 // "Nghe lại": the chapters marked studied in the player, played one after another for passive
 // listening. By default they play by their schedule (spacing.js): the ones due today first, each
-// episode's together and in story order, then the ones due soonest. "7 ngày" and "Tất cả" play each
-// episode whole instead, the one studied latest first. The list lives on the server (server/miner.py),
+// episode's together and in story order, then the ones due soonest. A chapter is due the day after it
+// was studied, and then for the words tapped in more than one chapter and still missed: the list names
+// them under its titles, and its lines mark them, as the ones to listen for. "7 ngày" and "Tất cả" play
+// each episode whole instead, the one studied latest first. The list lives on the server (server/miner.py),
 // so a chapter studied on the laptop plays on the phone. Any of these can be kept to one episode, or to
 // one topic's (topics.js): a subject heard again chapter after chapter, its words coming back each time.
 //
 // Each chapter lists the words tapped in it, the lowest HSK level first, to read through before hearing
-// it again. Reading the list is not a tap: only a word tapped in the player says it was not caught.
+// it again. Reading the list is not a tap: only a word tapped in a line says it was not caught.
 //
 // The chapter playing shows its lines under its titles in the bar, the one being heard lit and kept
 // in view, so a line not caught is read without opening the episode; a tap on a line plays from it.
+// A tap on a word in it opens the player's card (wordcard.js) and counts as a tap there does, the
+// audio waiting while the card is read.
 // The titles fold the lines away for listening with the eyes elsewhere, and stay as left. ↻ keeps the
 // chapter playing round, for one to be heard closely.
 //
@@ -18,11 +22,14 @@
 // start a second player, so a phone with its screen off keeps a single media session going.
 
 import { formatTime } from './card.js';
+import { initExamples } from './examples.js';
 import { meterListening, showHours } from './meter.js';
 import { formatPasses, heardTotals, passes } from './progress.js';
 import { call, savedConnection } from './server.js';
-import { dueLabel, heardThrough, schedule, spacedPlaylist, tappedOf } from './spacing.js';
+import { dueLabel, heardThrough, planDay, recurringWords, spacedPlaylist, tappedOf } from './spacing.js';
 import { ceilTenth, chapterLink, dayLabel, floorTenth, lastStudied, linesOf, playlist, shuffledByEpisode } from './studied.js';
+import { chapterWords, fetchVocabulary, spanWords } from './vocab.js';
+import { countedTap, fillCard, wordSpans } from './wordcard.js';
 import { showWords } from './wordlist.js';
 
 /** @typedef {import('./studied.js').Studied} Studied */
@@ -33,7 +40,9 @@ import { showWords } from './wordlist.js';
  *   `due` plays by the schedule; otherwise `days` filters by the day studied. `ep` or `topic`, at most
  *   one of them, keeps it to one episode or one topic's. `lines` shows the lines of the chapter playing. */
 /** @typedef {{ start: number, end: number, text: string, role: string }} Cue  A line, as the episode file has it. */
-/** @typedef {{ cues: Cue[], vi: Record<string, string> }} Text  An episode's lines, and their translations by index. */
+/** @typedef {{ cues: Cue[], vi: Record<string, string>, tokens: number[][][] | null, gloss: Record<string, string[]> | null }} Text
+ *   An episode's lines, their translations by index, and the word spans a tap lands in with what the
+ *   card says of each (none for an episode without them: its lines read as plain text). */
 
 const RECENT_DAYS = 7;
 /** The filter, shuffle and repeats chosen last time, remembered in this browser. */
@@ -64,9 +73,13 @@ let heard = [];
 /** The words tapped in each chapter, for its schedule and its list of words. */
 /** @type {Tapped[]} */
 let tapped = [];
-/** The day each chapter is next due. */
-/** @type {Map<Studied, string>} */
-let dueDays = new Map();
+/** The day each chapter is next due, and the words each one due today is played for. Made once, as
+ * the page loads: a tap while listening counts tomorrow, and today's list holds still while it plays. */
+/** @type {{ due: Map<Studied, string>, checks: Map<Studied, string[]> }} */
+let plan = { due: new Map(), checks: new Map() };
+/** The words a tapped span counts as, from vocab.json; each span as itself until it comes. */
+/** @type {(span: string) => string[]} */
+let wordsOfSpan = (span) => [span];
 /** Today as the server counts it: Anki's day, turning at 4:00. */
 let today = '';
 /** @type {Settings} */
@@ -152,9 +165,19 @@ async function load() {
   }
   heard = (await listened)?.chapters ?? [];
   tapped = (await taps)?.chapters ?? [];
-  dueDays = new Map(all.map((s) => [s, schedule({
-    studied: s.dates, heard: heardThrough(heard, s), tapped: tappedOf(tapped, s)?.days ?? [],
-  }).due]));
+  // The words each chapter says, which it is spaced by. Without them, a chapter is due only the day
+  // after it was studied.
+  const files = await fetchVocabulary([...new Set(all.map((s) => s.ep))]).catch(() => null);
+  if (files) wordsOfSpan = (span) => spanWords(files.vocab, span);
+  const heardDays = new Map(all.map((s) => [s, heardThrough(heard, s)]));
+  const said = new Map(all.map((s) => [s, chapterWords(files?.linesOf[s.ep] ?? [], s)]));
+  plan = planDay({
+    chapters: all,
+    heardOf: (s) => heardDays.get(s) ?? [],
+    words: recurringWords(tapped, wordsOfSpan),
+    wordsIn: (s) => said.get(s) ?? new Set(),
+    today,
+  });
   topics = (await index)?.topics ?? [];
   const episodes = new Map(all.map((s) => [s.ep, s.episode]));
   const option = (/** @type {string} */ value, /** @type {string} */ text) => {
@@ -183,7 +206,7 @@ async function load() {
 const NOTHING_STUDIED = 'Chưa có chương nào. Học xong một chương trong player thì bấm "✓ Học xong".';
 const NOTHING_IN_TOPIC = 'Chưa học chương nào trong chủ đề này. Học xong một chương của nó trong player thì bấm "✓ Học xong".';
 const inTopic = (/** @type {Topic} */ t) => all.filter((s) => t.episodes.includes(s.ep));
-const dueOf = (/** @type {Studied} */ s) => dueDays.get(s) ?? today;
+const dueOf = (/** @type {Studied} */ s) => plan.due.get(s);
 const minutesOf = (/** @type {Studied[]} */ chapters) => Math.round(chapters.reduce((sum, s) => sum + s.end - s.start, 0) / 60);
 const wordsOf = (/** @type {Studied} */ s) => tappedOf(tapped, s)?.words ?? [];
 
@@ -196,7 +219,8 @@ function render() {
     sections = [due, upcoming];
     meta.textContent = due.length ? `${due.length} đoạn đến hạn · ${minutesOf(due)} phút`
       : upcoming.length ? 'Hôm nay không còn đoạn nào đến hạn. Phát thì nghe trước những đoạn sắp đến hạn.'
-        : nothing;
+        : pool.length ? 'Không còn đoạn nào hẹn nghe lại. Muốn nghe thêm thì chọn 7 ngày hoặc Tất cả.'
+          : nothing;
   } else {
     sections = [playlist(pool, { today, days: settings.days, ep: settings.ep })];
     const [chapters] = sections;
@@ -259,15 +283,18 @@ function chapterItem(/** @type {Studied} */ s, /** @type {number} */ i) {
     span.textContent = text;
     return span;
   };
+  const due = dueOf(s);
   button.append(
     line('pl-zh', s.zh),
     line('pl-vi', s.vi),
     line('pl-sub', [
       `chương ${s.n + 1}`, formatTime(s.end - s.start),
-      settings.due ? dueLabel(dueOf(s), today) : dayLabel(lastStudied(s), today),
+      settings.due && due ? dueLabel(due, today) : dayLabel(lastStudied(s), today),
       formatPasses(passes(heardTotals(heard, s.ep, s.start).audio, s.end - s.start)),
     ].join(' · ')),
   );
+  const checks = plan.checks.get(s);
+  if (checks?.length) button.append(line('pl-check', `kiểm tra: ${checks.join(' · ')}`));
   item.append(button);
   const count = wordsOf(s).length;
   if (count) {
@@ -305,6 +332,8 @@ async function start() {
   const chapter = queue[index];
   const mine = ++ticket;
   pass = 1;
+  resumeOnClose = false; // another chapter plays instead
+  hideCard();
   showNow(chapter);
   if (audio.src !== chapter.audio) {
     audio.src = chapter.audio;
@@ -391,12 +420,13 @@ for (const event of ['play', 'pause']) {
 // ---------- the lines of the chapter playing ----------
 
 const linesBox = $('now-lines');
-/** The chapter whose lines are shown, its lines, a row for each, and the one lit. */
-/** @type {{ chapter: Studied, lines: Cue[], rows: HTMLElement[], lit: number } | null} */
+/** The chapter whose lines are shown, its lines, a row for each, and the one lit; where its lines
+ * start in the episode, and what the card says of its words. */
+/** @type {{ chapter: Studied, lines: Cue[], rows: HTMLElement[], lit: number, from: number, gloss: Record<string, string[]> | null } | null} */
 let shownLines = null;
 let lastManualScrollAt = 0;
 
-/** Each episode's lines and their translations, fetched once: an episode's chapters play in a row. */
+/** Each episode's lines, their translations and word spans, fetched once: an episode's chapters play in a row. */
 /** @type {Map<string, Promise<Text | null>>} */
 const texts = new Map();
 
@@ -404,8 +434,13 @@ function textOf(/** @type {string} */ ep) {
   const file = (/** @type {string} */ name) =>
     fetch(`data/${encodeURIComponent(ep)}${name}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
   if (!texts.has(ep)) {
-    texts.set(ep, Promise.all([file('.json'), file('.vi.json')]).then(([episode, translation]) =>
-      (episode ? { cues: episode.cues, vi: translation?.lines ?? {} } : null)));
+    texts.set(ep, Promise.all([file('.json'), file('.vi.json'), file('.tok.json'), file('.gloss.json')])
+      .then(([episode, translation, tok, gloss]) => (episode ? {
+        cues: episode.cues,
+        vi: translation?.lines ?? {},
+        tokens: tok && gloss ? tok.cues : null,
+        gloss: tok && gloss ? gloss : null,
+      } : null)));
   }
   return /** @type {Promise<Text | null>} */ (texts.get(ep));
 }
@@ -424,10 +459,11 @@ async function showLines(/** @type {Studied} */ chapter) {
   }
   const [from, to] = linesOf(text.cues, chapter);
   const lines = text.cues.slice(from, to + 1);
-  const rows = lines.map((cue, k) => lineRow(cue, text.vi[from + k]));
+  const checks = new Set(plan.checks.get(chapter));
+  const rows = lines.map((cue, k) => lineRow(cue, text.vi[from + k], text.tokens?.[from + k], checks));
   linesBox.replaceChildren(...rows);
   linesBox.scrollTop = 0;
-  shownLines = { chapter, lines, rows, lit: -1 };
+  shownLines = { chapter, lines, rows, lit: -1, from, gloss: text.gloss };
   lightLine();
 }
 
@@ -438,10 +474,23 @@ function element(/** @type {string} */ tag, /** @type {string} */ className, /**
   return made;
 }
 
-/** The player's line, without its time and ↻: here the chapter is what is played and looped. */
-function lineRow(/** @type {Cue} */ cue, /** @type {string | undefined} */ vi) {
+/** The player's line, without its time and ↻: here the chapter is what is played and looped. Its
+ * words are spans to tap, the ones the chapter is played for today marked. */
+function lineRow(
+  /** @type {Cue} */ cue,
+  /** @type {string | undefined} */ vi,
+  /** @type {number[][] | undefined} */ tokens,
+  /** @type {Set<string>} */ checks,
+) {
   const row = element('div', cue.role === 'narrator' ? 'cue is-narrator' : 'cue', '');
-  row.append(element('span', 'zh', cue.text));
+  const zh = element('span', 'zh', tokens ? '' : cue.text);
+  if (tokens) {
+    const parts = wordSpans(cue.text, tokens);
+    const isCheck = (/** @type {string} */ span) => wordsOfSpan(span).some((word) => checks.has(word));
+    for (const part of parts) if (typeof part !== 'string' && isCheck(part.textContent ?? '')) part.classList.add('is-check');
+    zh.append(...parts);
+  }
+  row.append(zh);
   if (vi) {
     const toggle = element('button', 'vi-toggle', 'VI');
     toggle.setAttribute('type', 'button');
@@ -489,6 +538,17 @@ linesBox.addEventListener('click', (event) => {
   }
   // The translation is for reading, and selecting a phrase of it should not jump the audio.
   if (target.closest('.vi')) return;
+  // A word is read, not heard: the audio waits while its card is open, and closing the card carries on
+  // from the same place, as in the player. The rest of the line plays from its start.
+  if (target.classList.contains('w')) {
+    const wasPlaying = !audio.paused;
+    showCard(target, k);
+    audio.pause();
+    resumeOnClose ||= wasPlaying;
+    return;
+  }
+  resumeOnClose = false; // this line plays instead
+  hideCard();
   audio.currentTime = shownLines.lines[k].start;
   audio.play().catch(() => {});
 });
@@ -496,6 +556,63 @@ linesBox.addEventListener('click', (event) => {
 // Only a finger or a wheel: the lines' own smooth scrolling fires scroll events too.
 for (const event of ['touchmove', 'wheel']) {
   linesBox.addEventListener(event, () => { lastManualScrollAt = Date.now(); }, { passive: true });
+}
+
+// ---------- a word tapped in a line ----------
+
+const card = $('gloss');
+/** The word whose card is open, lit in its line. */
+/** @type {HTMLElement | null} */
+let openWord = null;
+/** Set when a tapped word paused the audio, so closing its card picks the listening back up. */
+let resumeOnClose = false;
+const examples = initExamples({ audio, studied: () => all });
+
+/** The card of a word tapped in the `k`th line shown. There is no ＋ Anki here, so no word is said to be
+ * worth a card either. */
+function showCard(/** @type {HTMLElement} */ span, /** @type {number} */ k) {
+  if (!shownLines) return;
+  const { chapter, lines, from, gloss } = shownLines;
+  openWord?.classList.remove('is-open');
+  span.classList.add('is-open');
+  openWord = span;
+  fillCard(card, span, {
+    gloss,
+    here: { ep: chapter.ep, cue: from + k },
+    examples,
+    countTap: () => countedTap({ word: span.textContent ?? '', ep: chapter.ep, at: lines[k].start }, {
+      cardsWanted: false,
+      showing: () => openWord === span,
+      counted: refreshTapped,
+    }),
+    actions: () => [],
+    close: hideCard,
+  });
+}
+
+function hideCard() {
+  examples.stop();
+  card.hidden = true;
+  openWord?.classList.remove('is-open');
+  openWord = null;
+  if (resumeOnClose) audio.play().catch(() => {});
+  resumeOnClose = false;
+}
+
+// Pressing play by hand has already resumed; closing the card later must not replay anything.
+audio.addEventListener('play', () => { resumeOnClose = false; });
+
+/** A word just tapped joins its chapter's list of words. */
+async function refreshTapped() {
+  const connection = savedConnection();
+  if (!connection) return;
+  try {
+    tapped = (await call(connection, '/tapped')).chapters;
+  } catch {
+    return; // The list catches up on the next tap or load.
+  }
+  render();
+  if (queue[index]) showNowWords(queue[index]);
 }
 
 // ---------- controls ----------

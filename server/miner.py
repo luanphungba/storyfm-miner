@@ -494,10 +494,10 @@ def listened_entry(entry):
 # ---------- words tapped ----------
 
 class TapLog:
-    """The words tapped in the player for their meaning, by day and line. A word tapped on three
-    different days has not stuck from listening and is worth a card; a chapter with a word tapped in it
-    comes back the next day in Nghe lại. Only ever added to: a tap sent twice, or the same one from two
-    devices, is one row, so a page resends whatever it is unsure went through.
+    """The words tapped in a line for their meaning, in the player or Nghe lại, by day and line. A word
+    tapped on three different days has not stuck from listening and is worth a card; a word tapped in
+    two chapters brings them back in Nghe lại (docs/spacing.js). Only ever added to: a tap sent twice,
+    or the same one from two devices, is one row, so a page resends whatever it is unsure went through.
 
     A word said to be known is listed under no chapter until it is tapped again, that day or later: a
     tap says it was not caught after all. Its taps stay, and so do the days its chapters were tapped
