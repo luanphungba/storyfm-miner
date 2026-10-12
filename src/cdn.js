@@ -1,9 +1,9 @@
 // @ts-check
-// The storyfm-audio Worker (cdn/): audio this project hosts itself, served from data/audio/ (not in
-// git) as the Worker's static assets — free, 25 MiB a file, asset requests not billed. Bilibili's
-// links expire, so its audio has to live here; other podcasts' audio lives here too, because the
-// mp3 in their feed may not seek where the player asks it to (see src/podcasts.js). Each m4a has an
-// mp3 made next to it (makeMp3), which only Anki's desktop app is served — see cdn/worker.js.
+// The storyfm-audio Worker (cdn/) and the R2 bucket it serves: audio this project hosts itself,
+// uploaded from data/audio/ (not in git). R2 is free up to 10 GB and takes files of any size; the
+// Worker's own static assets, used before it, refused one over 25 MiB. Bilibili's links expire, so
+// its audio has to live here; other podcasts' audio lives here too, because the mp3 in their feed may
+// not seek where the player asks it to (see src/podcasts.js).
 
 import { execFile } from 'node:child_process';
 import { stat, rename } from 'node:fs/promises';
@@ -11,94 +11,46 @@ import { basename, join } from 'node:path';
 import { promisify } from 'node:util';
 import { paths } from './paths.js';
 
-/** Pinned rather than `npx wrangler`, so a deploy never runs whatever version npm serves that day. */
+/** Pinned rather than `npx wrangler`, so an upload never runs whatever version npm serves that day. */
 const WRANGLER = 'wrangler@4.142.0';
-/** Must match the name in cdn/wrangler.jsonc. */
-export const AUDIO_WORKER = 'storyfm-audio';
-
-/** Cloudflare refuses static assets over 25 MiB. */
-const ASSET_FILE_LIMIT = 25 * 1024 * 1024;
-
-/** Whether Cloudflare takes the file as a static asset. */
-export async function fits(/** @type {string} */ file) {
-  return (await stat(file)).size <= ASSET_FILE_LIMIT;
-}
-
-/** Throws before a deploy that Cloudflare would refuse. */
-export async function assertFits(/** @type {string} */ file) {
-  const { size } = await stat(file);
-  if (size > ASSET_FILE_LIMIT) {
-    throw new Error(`Audio ${basename(file)} ${Math.round(size / 1e6)}MB vượt giới hạn 25MB của Cloudflare — cần nén lại.`);
-  }
-}
+/** Must match bucket_name in cdn/wrangler.jsonc. */
+const AUDIO_BUCKET = 'storyfm-audio';
+/** Where the Worker answers. Every hosted episode's audio URL starts with it. */
+const AUDIO_ORIGIN = 'https://storyfm-audio.luanphungba.workers.dev';
 
 /**
- * Re-encodes `source` into `file`, an m4a the Worker takes. 64k mono AAC is plenty for two people
- * talking, and 15 MB for 30 minutes. An episode too long for that to fit (TW20200703, 54 minutes, is
- * 25.4 MiB) gets the highest of 56k, 48k or 32k that does, read off the file, since AAC runs a few
- * percent over its rate: measured on that episode, 56k and 48k keep every band 64k does, up to the 15 kHz
- * the feed's mp3 stops at.
+ * Re-encodes `source` into `file`, an m4a of 128k mono AAC, 58 MB an hour. Measured against three
+ * feeds' originals, its error from 4 kHz up is 8–14 dB below 64k's; the two whose stereo was one
+ * channel twice lose nothing to mono.
  * @param {string} source  Any audio ffmpeg reads.
  * @param {string} file
  */
 export async function compressAudio(source, file) {
-  for (const kbps of [64, 56, 48, 32]) {
-    await promisify(execFile)('ffmpeg', ['-v', 'error', '-y', '-i', source, '-vn', '-ac', '1', '-c:a', 'aac', '-b:a', `${kbps}k`, '-movflags', '+faststart', `${file}.tmp.m4a`]);
-    if (await fits(`${file}.tmp.m4a`)) break;
-    console.log(`  ${kbps}k vượt 25 MiB của Cloudflare, nén lại nhỏ hơn…`);
-  }
+  await promisify(execFile)('ffmpeg', ['-v', 'error', '-y', '-i', source, '-vn', '-ac', '1', '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', `${file}.tmp.m4a`]);
   await rename(`${file}.tmp.m4a`, file);
-  await assertFits(file);
 }
 
 /**
- * Makes data/audio/<id>.mp3 from the m4a, unless one at least as new is already there. CBR, whose
- * header lets Chrome compute where a time lies, unlike the VBR mp3s of podcast feeds (up to 6s off
- * in Anki); and without the bit reservoir, since a frame that borrows bits from earlier ones cannot
- * be decoded right after a seek — with it, lines started up to 100ms late. Made from the m4a, it
- * keeps the transcript's timeline: measured in Anki's engine a seek lands 0–31ms early, never late.
- * @param {string} id
- */
-export async function makeMp3(id) {
-  const m4a = paths.audio(id);
-  const mp3 = m4a.replace(/\.m4a$/, '.mp3');
-  const [source, made] = await Promise.all([stat(m4a), stat(mp3).catch(() => null)]);
-  if (made && made.mtimeMs >= source.mtimeMs) return;
-  const run = promisify(execFile);
-  const { stdout } = await run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', m4a]);
-  // 64k like the m4a; a long video steps down so the file stays under Cloudflare's limit.
-  const kbps = [64, 48, 32].find((k) => Number(stdout) * k * 125 < ASSET_FILE_LIMIT * 0.98) ?? 32;
-  console.log(`  làm bản mp3 ${kbps}k cho Anki desktop → data/audio/${basename(mp3)}`);
-  await run('ffmpeg', ['-v', 'error', '-y', '-i', m4a, '-vn', '-ac', '1', '-c:a', 'libmp3lame', '-b:a', `${kbps}k`, '-reservoir', '0', '-f', 'mp3', `${mp3}.tmp`]);
-  await rename(`${mp3}.tmp`, mp3);
-  await assertFits(mp3);
-}
-
-/**
- * Deploys cdn/ — only files Cloudflare does not already hold are uploaded — and returns the URL the
- * episode's audio is served at, once it answers.
+ * Uploads data/audio/<id>.m4a to R2 and returns the URL it is served at, once it answers with the
+ * file uploaded.
  * @param {string} id
  */
 export async function publishAudio(id) {
-  await makeMp3(id);
-  console.log(`  đẩy data/audio/ lên Cloudflare (${AUDIO_WORKER})…`);
-  const { stdout } = await promisify(execFile)('npx', ['--yes', WRANGLER, 'deploy'], {
+  const file = paths.audio(id);
+  console.log(`  đẩy ${basename(file)} lên Cloudflare R2 (${AUDIO_BUCKET})…`);
+  await promisify(execFile)('npx', ['--yes', WRANGLER, 'r2', 'object', 'put', `${AUDIO_BUCKET}/${basename(file)}`, '--file', file, '--content-type', 'audio/mp4', '--remote'], {
     cwd: join(paths.root, 'cdn'),
-    maxBuffer: 16 * 1024 * 1024,
   });
-  const origin = stdout.match(/https:\/\/[\w.-]+\.workers\.dev/)?.[0];
-  if (!origin) throw new Error(`Deploy xong nhưng không thấy địa chỉ workers.dev trong output:\n${stdout}`);
-  const url = `${origin}/${basename(paths.audio(id))}`;
-  await assertServed(url);
+  const url = `${AUDIO_ORIGIN}/${basename(file)}`;
+  await assertServed(url, (await stat(file)).size);
   return url;
 }
 
-/** A fresh Worker can take a moment to answer on its domain; AssemblyAI must not get a 404. */
-async function assertServed(/** @type {string} */ url) {
-  for (let attempt = 0; attempt < 12; attempt += 1) {
-    const response = await fetch(url, { method: 'HEAD' }).catch(() => null);
-    if (response?.ok) return;
-    await new Promise((resolve) => setTimeout(resolve, 5_000));
+/** AssemblyAI must not get a 404, nor an older file left under the same name. */
+async function assertServed(/** @type {string} */ url, /** @type {number} */ size) {
+  const response = await fetch(url, { method: 'HEAD' });
+  const served = Number(response.headers.get('Content-Length'));
+  if (!response.ok || served !== size) {
+    throw new Error(`Đã đẩy lên nhưng ${url} trả về ${response.status}, ${served} byte (file có ${size}).`);
   }
-  throw new Error(`Đã deploy nhưng ${url} chưa trả về file.`);
 }

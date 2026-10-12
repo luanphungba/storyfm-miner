@@ -1,47 +1,57 @@
-// Serves data/audio/ with byte ranges. Cloudflare's static assets always answer a Range request
-// with the whole file and a 200, and Safari on iOS will not seek (nor, sometimes, play) a media
-// file served that way — so this answers ranges itself. Files are at most 25 MiB, so slicing the
-// whole file in memory is fine.
-//
-// Anki's desktop app renders cards in Qt WebEngine, which is built without AAC: an m4a fails there
-// with error 4 on every file, whatever the Anki version. It is handed the CBR mp3 made next to each
-// m4a (src/cdn.js) at the m4a's own URL instead, so cards already in a collection play as they are,
-// with no template or link to change. Chrome, phones and AssemblyAI still get the m4a, which seeks
-// more exactly (0–6ms against the mp3's 0–31ms early).
+// Serves the audio in the storyfm-audio R2 bucket, which src/cdn.js uploads from data/audio/. R2
+// holds files of any size and streams them, where the Worker's static assets refused one over 25 MiB.
+// A Range request gets a 206 and only those bytes: Safari on iOS will not seek (nor, sometimes, play)
+// a media file served whole with a 200.
 
-const QT_WEBENGINE = /QtWebEngine\//;
+/** What R2's get throws for a range that starts at or past the end of the file. */
+const UNSATISFIABLE = /\(10039\)$/;
 
 export default {
   async fetch(request, env) {
-    const url = new URL(request.url);
-    if (url.pathname.endsWith('.m4a') && QT_WEBENGINE.test(request.headers.get('User-Agent') ?? '')) {
-      url.pathname = url.pathname.replace(/\.m4a$/, '.mp3');
-    }
-    const asset = await env.ASSETS.fetch(new Request(url, { method: 'GET' }));
-    const range = request.headers.get('Range')?.match(/^bytes=(\d*)-(\d*)$/);
-    if (!asset.ok || !range) return withRanges(asset);
+    const key = new URL(request.url).pathname.slice(1);
+    if (!key) return notFound();
+    // HTTP defines Range for GET only; a HEAD gets the whole file's headers.
+    const head = request.method === 'HEAD';
+    const range = head ? null : parseRange(request.headers.get('Range'));
 
-    const body = await asset.arrayBuffer();
-    const size = body.byteLength;
-    let start = range[1] === '' ? size - Number(range[2]) : Number(range[1]);
-    let end = range[1] === '' || range[2] === '' ? size - 1 : Math.min(Number(range[2]), size - 1);
-    start = Math.max(0, start);
-    if (start > end || start >= size) {
-      return new Response(null, { status: 416, headers: { 'Content-Range': `bytes */${size}`, Vary: 'User-Agent' } });
+    let object;
+    try {
+      object = head ? await env.AUDIO.head(key) : await env.AUDIO.get(key, range ? { range } : {});
+    } catch (error) {
+      if (!UNSATISFIABLE.test(error.message)) throw error;
+      const { size } = await env.AUDIO.head(key);
+      return new Response(null, { status: 416, headers: { 'Content-Range': `bytes */${size}` } });
     }
+    if (!object) return notFound();
 
-    const headers = new Headers(asset.headers);
-    headers.set('Content-Range', `bytes ${start}-${end}/${size}`);
-    headers.set('Content-Length', String(end - start + 1));
-    headers.set('Accept-Ranges', 'bytes');
-    headers.set('Vary', 'User-Agent');
-    return new Response(request.method === 'HEAD' ? null : body.slice(start, end + 1), { status: 206, headers });
+    const headers = new Headers({ 'Accept-Ranges': 'bytes', ETag: object.httpEtag });
+    object.writeHttpMetadata(headers);
+    if (!range) {
+      headers.set('Content-Length', String(object.size));
+      return new Response(head ? null : object.body, { headers });
+    }
+    // R2 clamps a range that runs past the end, and says which bytes it sent.
+    const { offset, length } = object.range;
+    headers.set('Content-Range', `bytes ${offset}-${offset + length - 1}/${object.size}`);
+    headers.set('Content-Length', String(length));
+    return new Response(object.body, { status: 206, headers });
   },
 };
 
-function withRanges(response) {
-  const headers = new Headers(response.headers);
-  headers.set('Accept-Ranges', 'bytes');
-  headers.set('Vary', 'User-Agent');
-  return new Response(response.body, { status: response.status, headers });
+/**
+ * The one byte range a Range header asks for, as R2 takes it; null sends the whole file, for no
+ * header, several ranges or a malformed one, which HTTP says to ignore.
+ * @param {string | null} header
+ */
+function parseRange(header) {
+  const [, first, last] = header?.match(/^bytes=(\d*)-(\d*)$/) ?? [];
+  if (first === undefined || (first === '' && last === '')) return null;
+  if (first === '') return { suffix: Number(last) };
+  if (last === '') return { offset: Number(first) };
+  if (Number(last) < Number(first)) return null;
+  return { offset: Number(first), length: Number(last) - Number(first) + 1 };
+}
+
+function notFound() {
+  return new Response('Not found', { status: 404 });
 }

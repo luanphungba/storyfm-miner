@@ -7,8 +7,8 @@
 //   which keeps this project free of dependencies.
 // - Its audio links expire within hours and demand a bilibili.com Referer, so neither AssemblyAI
 //   nor the player can stream them. The audio is downloaded once into data/audio/ (not in git) and
-//   published as the static assets of a Cloudflare Worker (what Pages became: free, 25 MiB a file,
-//   asset requests not billed); that stable URL is the episode's audio from then on.
+//   published on the storyfm-audio Worker (src/cdn.js); that stable URL is the episode's audio from
+//   then on.
 //
 // data/bilibili.json is the catalogue of videos added, the counterpart of 故事FM's feed snapshot.
 
@@ -19,7 +19,7 @@ import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
 import { promisify } from 'node:util';
 import { paths } from './paths.js';
-import { publishAudio, assertFits } from './cdn.js';
+import { publishAudio } from './cdn.js';
 
 const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 
@@ -152,7 +152,8 @@ async function readVideoPage(bvid, page) {
       const part = v.pages[${page - 1}];
       if (!part) return { title: v.title, pages };
       const play = await (await fetch('https://api.bilibili.com/x/player/wbi/playurl?bvid=' + v.bvid + '&cid=' + part.cid + '&fnval=16', { credentials: 'include' })).json();
-      const audio = (play.data?.dash?.audio ?? []).sort((a, b) => a.bandwidth - b.bandwidth)[0];
+      // The best of the streams offered: it is kept as it comes, and R2 takes any size.
+      const audio = (play.data?.dash?.audio ?? []).sort((a, b) => b.bandwidth - a.bandwidth)[0];
       return { title: v.title, owner: v.owner.name, pubdate: v.pubdate, pages, audioUrl: audio?.baseUrl, playError: play.message };
     })()`;
     const { result, exceptionDetails } = await send('Runtime.evaluate', { expression, awaitPromise: true, returnByValue: true });
@@ -259,8 +260,6 @@ async function downloadAudio(/** @type {string} */ url, /** @type {string} */ fi
   } finally {
     await rm(dash, { force: true });
   }
-
-  await assertFits(file);
 }
 
 /**

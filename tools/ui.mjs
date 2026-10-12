@@ -154,7 +154,7 @@ async function build() {
   await out.close();
   if (drift > 0.02) throw new Error(`Audio lệch ${Math.round(drift * 1000)}ms so với mốc của các dòng.`);
 
-  // 48k mono is plenty for one voice, and keeps an hour and a half well under Cloudflare's 25 MiB a file.
+  // 48k mono is plenty for one voice.
   await mkdir(join(paths.root, 'data', 'audio'), { recursive: true });
   await run('ffmpeg', ['-v', 'error', '-y', '-i', wavFile, '-c:a', 'aac', '-b:a', '48k', '-ac', '1', paths.audio(id)]);
   await rm(wavFile);

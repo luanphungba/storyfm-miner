@@ -229,10 +229,10 @@ export function keepHosted(known, fresh) {
  * Downloads the episode's mp3, re-encodes it into data/audio/<id>.m4a, publishes it and records the
  * URL in data/podcasts.json. Returns that URL.
  *
- * A remux that only dropped the Xing header would seek exactly too (the stream itself is CBR), but at
- * 128k stereo most episodes are over Cloudflare's 25 MiB, so it is re-encoded (compressAudio). The
- * re-encode keeps the mp3's timeline — the transcript's timestamps — to within 15ms, measured by
- * seeking the copy in Chrome and matching what it played to the mp3.
+ * A remux that only dropped the Xing header would seek exactly too when the stream itself is CBR, but
+ * a feed's mp3 need not be; an m4a seeks exactly either way, so it is re-encoded (compressAudio). That
+ * keeps the mp3's timeline — the transcript's timestamps — to within 15ms, measured by seeking the
+ * copy in Chrome and matching what it played to the mp3.
  * @param {PodcastEpisode} episode
  */
 export async function hostAudio(episode) {

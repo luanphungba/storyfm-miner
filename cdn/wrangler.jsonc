@@ -1,12 +1,8 @@
-// The storyfm-audio Worker: Bilibili audio from data/audio/, deployed by src/bilibili.js.
+// The storyfm-audio Worker: serves the audio src/cdn.js uploads to the storyfm-audio R2 bucket.
+// Deployed by hand (`npx wrangler@4.142.0 deploy` here) only when worker.js changes.
 {
   "name": "storyfm-audio",
   "main": "worker.js",
   "compatibility_date": "2026-09-01",
-  "assets": {
-    "directory": "../data/audio",
-    "binding": "ASSETS",
-    // Every request goes through worker.js, which answers Range requests the assets alone do not.
-    "run_worker_first": true
-  }
+  "r2_buckets": [{ "binding": "AUDIO", "bucket_name": "storyfm-audio" }]
 }
