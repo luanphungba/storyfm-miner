@@ -211,6 +211,14 @@ understood once heard untapped in a chapter studied for the first time, and soli
 three chapters over two days; a chapter studied again counts for nothing, as its lines are remembered.
 A tap takes a word out until it is heard untapped in a new chapter on a later day or said to be known.
 
+It also estimates the HSK level that vocabulary reaches (`docs/level.js`). Listening never brings a
+whole band (the podcasts say about half of HSK 4 at all), so a word heard counts as it stands, and one
+not heard yet is guessed at the rate the band's words were understood untapped the first time they
+were heard. `build_tokens.py` writes `docs/data/hsk.json`, each band split into its common and rare
+half by jieba's dictionary counts, and the rate is taken per half: the words heard are mostly the
+common ones, and one rate for the band read 2-12 points high in a simulated learner, against 1-5 per
+half. A band is reached at 80% of its words known, with every band under it.
+
 `tools/audit.mjs` re-derives each field from a direction other than the one that built it and prints
 the disagreements. It has caught, in order: the pinyin taken from CC-CEDICT's first entry (说 as
 *shuì*), 124 lines whose readings were shifted by a run of digits, 168 ordinary words tagged proper

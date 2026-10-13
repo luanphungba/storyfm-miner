@@ -56,21 +56,9 @@ export function vocabularyByDay(input, days) {
  * @returns {(day: string) => VocabWords}  the vocabulary as it stood on the evening of a day, YYYY-MM-DD
  */
 export function vocabularyWords({ studied, linesOf, vocab, history }) {
-  const chapters = studied.map((chapter) => ({
-    id: `${chapter.ep}@${chapter.start}`,
-    first: chapter.dates.reduce((a, b) => (b < a ? b : a), chapter.dates[0] ?? ''),
-    words: chapterWords(linesOf[chapter.ep] ?? [], chapter),
-  }));
-  const byWord = (/** @type {Record<string, string[]>} */ daysOf) => {
-    /** @type {Map<string, string[]>} */
-    const words = new Map();
-    for (const [span, spanDays] of Object.entries(daysOf)) {
-      for (const word of spanWords(vocab, span)) words.set(word, [...(words.get(word) ?? []), ...spanDays]);
-    }
-    return words;
-  };
-  const tapped = byWord(history.tapped);
-  const known = byWord(history.known);
+  const chapters = studiedChapters(studied, linesOf);
+  const tapped = wordDays(vocab, history.tapped);
+  const known = wordDays(vocab, history.known);
   /** @type {Map<string, VocabWords>} Each day asked for, as every chapter of a page asks for the same few. */
   const asked = new Map();
   return (day) => {
@@ -78,6 +66,47 @@ export function vocabularyWords({ studied, linesOf, vocab, history }) {
     if (!words) asked.set(day, (words = wordsOn(day, chapters, tapped, known, vocab.base)));
     return words;
   };
+}
+
+/** @typedef {Map<string, { day: string, tapped: boolean }>} Hearings */
+
+/**
+ * Every word heard in a chapter studied for the first time: the first day it was, and whether it was
+ * tapped that day. Heard untapped then, it was known before the app could teach it, which is what
+ * says how many of the words not heard yet are known already (level.js).
+ * @param {VocabInput} input
+ * @returns {Hearings}
+ */
+export function firstHearings({ studied, linesOf, vocab, history }) {
+  const tapped = wordDays(vocab, history.tapped);
+  /** @type {Map<string, string>} */
+  const first = new Map();
+  for (const chapter of studiedChapters(studied, linesOf)) {
+    if (!chapter.first) continue;
+    for (const word of chapter.words) {
+      const seen = first.get(word);
+      if (!seen || chapter.first < seen) first.set(word, chapter.first);
+    }
+  }
+  return new Map([...first].map(([word, day]) => [word, { day, tapped: tapped.get(word)?.includes(day) ?? false }]));
+}
+
+/** Each chapter studied, by the first day it was and the words said in it. */
+const studiedChapters = (/** @type {VocabInput['studied']} */ studied, /** @type {VocabInput['linesOf']} */ linesOf) =>
+  studied.map((chapter) => ({
+    id: `${chapter.ep}@${chapter.start}`,
+    first: chapter.dates.reduce((a, b) => (b < a ? b : a), chapter.dates[0] ?? ''),
+    words: chapterWords(linesOf[chapter.ep] ?? [], chapter),
+  }));
+
+/** Every day each word was tapped, or said to be known, from the days of each span. */
+function wordDays(/** @type {Pick<VocabBase, 'splits'>} */ vocab, /** @type {Record<string, string[]>} */ daysOf) {
+  /** @type {Map<string, string[]>} */
+  const words = new Map();
+  for (const [span, spanDays] of Object.entries(daysOf)) {
+    for (const word of spanWords(vocab, span)) words.set(word, [...(words.get(word) ?? []), ...spanDays]);
+  }
+  return words;
 }
 
 /** The words a tapped span counts as. The server keeps what was touched: a tap on 很脏 is a tap on 很 and 脏. */

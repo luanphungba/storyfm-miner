@@ -435,6 +435,26 @@ def main(ids):
             print(f"{episode['id']}: {len(words)} từ, {out.name} {size:.0f} KB")
     file_lines(built)
     count_words(built)
+    write_syllabus()
+
+
+def write_syllabus():
+    """docs/data/hsk.json, the syllabus the stats page estimates the HSK level against (docs/level.js):
+    each band's words, as its more common half and its rarer half by jieba's own dictionary counts
+    (read from its file, so the counts tuned above change nothing). A word not heard yet is guessed at
+    from the words of its band heard so far, and those are mostly the common ones: a podcast says a
+    band's common half far more than its rare one, so the rare half is guessed at from its own."""
+    counts = {}
+    with open(pathlib.Path(jieba.__file__).parent / "dict.txt", encoding="utf-8") as dictionary:
+        for line in dictionary:
+            word, count, *_ = line.split()
+            counts[word] = int(count)
+    syllabus = {}
+    for band in sorted(set(BANDS.values())):
+        words = sorted((w for w, b in BANDS.items() if b == band), key=lambda w: (-counts.get(w, 0), w))
+        half = (len(words) + 1) // 2
+        syllabus[band] = {"common": words[:half], "rare": words[half:]}
+    (DATA / "hsk.json").write_text(json.dumps(syllabus, ensure_ascii=False, separators=(",", ":")))
 
 
 if __name__ == "__main__":

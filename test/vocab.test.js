@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { formatChange, vocabularyByDay, vocabularyDays, vocabularyWords, wordTicks } from '../docs/vocab.js';
+import { firstHearings, formatChange, vocabularyByDay, vocabularyDays, vocabularyWords, wordTicks } from '../docs/vocab.js';
 
 const chapter = (/** @type {number} */ start, /** @type {string[]} */ dates, ep = 'CC4') => ({ ep, start, end: start + 90, dates });
 /** One line per chapter's start, and one between them that no chapter has. */
@@ -112,6 +112,19 @@ test('a word tapped twice is out from its first tap and back after its last', ()
   const history = { tapped: { 尴尬: ['2026-10-01', '2026-10-03'] }, known: {} };
   const days = vocabularyByDay({ studied, linesOf, vocab, history }, ['2026-10-01', '2026-10-03', '2026-10-05']);
   assert.deepEqual(days.map((d) => d.understood), [2, 3, 6]); // 我 很 · + 脏 · + 尴尬 学 法语
+});
+
+test('a word is first heard in the earliest chapter studied with it, tapped there or not', () => {
+  const studied = [chapter(100, ['2026-10-03']), chapter(0, ['2026-10-04', '2026-10-01']), chapter(200, ['2026-10-03'])];
+  const history = { tapped: { 很脏: ['2026-10-03'], 尴尬: ['2026-10-04'] }, known: {} };
+  assert.deepEqual(Object.fromEntries(firstHearings({ studied, linesOf, vocab, history })), {
+    我: { day: '2026-10-01', tapped: false },
+    尴尬: { day: '2026-10-01', tapped: false }, // tapped only later
+    很: { day: '2026-10-03', tapped: true }, // a tap on 很脏
+    脏: { day: '2026-10-03', tapped: true },
+    学: { day: '2026-10-03', tapped: false },
+    法语: { day: '2026-10-03', tapped: false },
+  });
 });
 
 test('the chart runs from the first day studied through today, across a month', () => {

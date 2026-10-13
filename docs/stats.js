@@ -1,14 +1,16 @@
 // @ts-check
 // "Thống kê": today's listening, the way to a thousand hours, each day's hours, chapters and words
-// tapped, the words tapped and not known yet, and every chapter heard or studied with how many
-// times. The numbers come from the server (server/miner.py) and the episodes' own chapter files;
-// progress.js does the sums.
+// tapped, the words tapped and not known yet, the HSK level the vocabulary reaches, and every chapter
+// heard or studied with how many times. The numbers come from the server (server/miner.py) and the
+// episodes' own chapter files; progress.js does the sums.
 
 import { formatTime } from './card.js';
+import { levelLabel } from './hsk.js';
+import { LEVEL_SHARE, fetchSyllabus, levelOn } from './level.js';
 import { studyDay } from './listening.js';
 import { report } from './meter.js';
 import {
-  GOAL_HOURS, chapterRows, dayRows, episodeRows, formatDuration, formatHours, formatPasses, formatTick,
+  GOAL_HOURS, addDays, chapterRows, dayRows, episodeRows, formatDuration, formatHours, formatPasses, formatTick,
   hourTicks, listenedDays, progress, reachLabel, shortDay, sortChapters, streak, weekday,
 } from './progress.js';
 import { call, savedConnection } from './server.js';
@@ -24,13 +26,15 @@ import { GOAL_WORDS, fetchVocabulary, formatChange, vocabularyByDay, vocabularyD
 /** @typedef {import('./studied.js').Studied} Studied */
 /** @typedef {import('./vocab.js').VocabDay} VocabDay */
 /** @typedef {import('./vocab.js').TapHistory} TapHistory */
+/** @typedef {import('./level.js').Level} Level */
+/** @typedef {import('./level.js').BandLevel} BandLevel */
 /**
  * @typedef {{ days: Days, heard: Heard[], studied: Studied[], chaptersOf: Record<string, Chapter[]>,
  *   titles: Record<string, string>, tapped: Record<string, number>, unknown: number,
- *   vocabulary: VocabDay[] | null }} Stats
+ *   vocabulary: VocabDay[] | null, level: { now: Level, weekAgo: Level } | null }} Stats
  *   `tapped` is the words tapped each day; `unknown`, the words tapped in a studied chapter and not
  *   known since. The vocabulary, a row per day from the first studied, stays null until each studied
- *   episode's words are in.
+ *   episode's words are in; the HSK level, today and a week ago, until the syllabus is in too.
  */
 /** @typedef {{ range: number, order: ChapterOrder, ep: string }} Settings */
 
@@ -90,6 +94,7 @@ async function load() {
     stats = {
       days: listened.days, heard: listened.chapters, studied: studied.chapters, chaptersOf, titles,
       tapped: tappedByDay(history.tapped), unknown: unknownWords(taps.chapters), vocabulary: stats?.vocabulary ?? null,
+      level: stats?.level ?? null,
     };
     // Last in, as it fetches every studied episode's words; it draws when they are.
     loadVocabulary(studied.chapters, history);
@@ -103,12 +108,19 @@ async function load() {
   render();
 }
 
-/** The vocabulary, from the words each studied episode counts as and every day each was tapped or known. */
+/** The vocabulary, from the words each studied episode counts as and every day each was tapped or
+ * known; and the HSK level it reaches, unless the syllabus did not come. */
 async function loadVocabulary(/** @type {Studied[]} */ studied, /** @type {TapHistory} */ history) {
   try {
-    const { vocab, linesOf } = await fetchVocabulary([...new Set(studied.map((s) => s.ep))]);
+    const [{ vocab, linesOf }, syllabus] = await Promise.all([
+      fetchVocabulary([...new Set(studied.map((s) => s.ep))]), fetchSyllabus().catch(() => null),
+    ]);
     if (!stats) return;
-    stats.vocabulary = vocabularyByDay({ studied, linesOf, vocab, history }, vocabularyDays(studied, studyDay(new Date())));
+    const input = { studied, linesOf, vocab, history };
+    const today = studyDay(new Date());
+    stats.vocabulary = vocabularyByDay(input, vocabularyDays(studied, today));
+    const on = syllabus && levelOn(input, syllabus);
+    stats.level = on && { now: on(today), weekAgo: on(addDays(today, -7), today) };
   } catch {
     vocabularyPending = '—';
   }
@@ -135,6 +147,7 @@ function render() {
   renderToday(stats, today);
   renderGoal(stats, today);
   renderVocabulary(stats, today);
+  renderLevel(stats);
   renderDays(stats, today);
   renderChapters(stats, today);
 }
@@ -185,6 +198,57 @@ function renderVocabulary(/** @type {Stats} */ { vocabulary }, /** @type {string
   $('vocab-solid').textContent = count(now.solid);
   $('vocab-heard').textContent = count(now.heard);
   drawVocabChart(vocabulary, today);
+}
+
+/** How much of a band is known, rounded down as a chapter's share is. */
+const bandShare = (/** @type {BandLevel} */ b) => Math.floor((b.estimate / b.size) * 100);
+const bandName = (/** @type {number} */ band) => levelLabel(band, false);
+
+/** The HSK level, the band being worked toward and how it moved in a week, and every band's words known. */
+function renderLevel(/** @type {Stats} */ { level, vocabulary }) {
+  const mark = `${LEVEL_SHARE * 100}%`;
+  $('level-share').textContent = mark;
+  $('level-share-note').textContent = mark;
+  if (!level) {
+    $('level-value').textContent = vocabulary ? '—' : vocabularyPending;
+    return;
+  }
+  const { now, weekAgo } = level;
+  const next = now.bands.find((b) => b.band > now.level);
+  const before = next && weekAgo.bands.find((b) => b.band === next.band);
+  $('level-value').textContent = now.level ? bandName(now.level) : 'Chưa tới HSK 1';
+  $('level-next').textContent = next ? `· đang lên ${bandName(next.band)}: ≈${bandShare(next)}%` : '· đủ mọi cấp';
+  $('level-week').textContent = weekAgo.level < now.level ? `7 ngày qua: lên ${bandName(now.level)}, từ ${weekAgo.level ? bandName(weekAgo.level) : 'dưới HSK 1'}.`
+    : next && before ? `7 ngày qua: ${bandName(next.band)} ${formatChange(bandShare(next) - bandShare(before))} điểm, từ ≈${bandShare(before)}%.` : '';
+  $('level-bands').replaceChildren(...now.bands.map(bandRow));
+}
+
+/** A band: its share known as a bar, the words understood solid and the guessed hatched beside them, and the mark to reach. */
+function bandRow(/** @type {BandLevel} */ b) {
+  const count = (/** @type {number} */ n) => n.toLocaleString('vi-VN');
+  const element = (/** @type {string} */ className, text = '') => {
+    const node = document.createElement('div');
+    node.className = className;
+    node.textContent = text;
+    return node;
+  };
+  const row = document.createElement('li');
+  const head = element('band-head');
+  head.append(element('band-name', bandName(b.band)), element('band-share', `≈${bandShare(b)}% · ${count(b.estimate)}/${count(b.size)}`));
+  const bar = element('band-bar');
+  bar.setAttribute('aria-hidden', 'true');
+  const known = element('band-known');
+  known.style.width = `${(b.known / b.size) * 100}%`;
+  const guessed = element('band-guess');
+  guessed.style.width = `${((b.estimate - b.known) / b.size) * 100}%`;
+  guessed.hidden = b.estimate === b.known;
+  const mark = element('band-mark');
+  mark.style.left = `${LEVEL_SHARE * 100}%`;
+  bar.append(known, guessed, mark);
+  const unheard = b.size - b.heard;
+  const sub = element('band-sub', `hiểu ${count(b.known)} từ${unheard ? ` · chưa gặp ${count(unheard)}, ước biết ≈${count(b.estimate - b.known)}` : ''}`);
+  row.append(head, bar, sub);
+  return row;
 }
 
 /** The two counts day by day as lines, each ending in a dot and its value, from the first day studied. */

@@ -1143,6 +1143,23 @@ h1 {
 .key-player { background: var(--series-player); }
 .key-listen { background: var(--series-listen); }
 
+/* The HSK level: each band's words known, the ones understood solid and the ones guessed hatched in
+   the same hue (one thing, at two certainties), against a mark at the share that reaches the band. */
+:root { --guessed: repeating-linear-gradient(135deg, var(--series-understood) 0 2px, transparent 2px 5px); }
+.level-legend { flex-wrap: wrap; margin-top: 16px; }
+.key-known { background: var(--series-understood); }
+.key-guess { background: var(--guessed); box-shadow: inset 0 0 0 1px var(--series-understood); }
+.key-mark { width: 2px; border-radius: 0; background: var(--fg); }
+.level-bands { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; }
+.band-head { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; }
+.band-name { font-weight: 600; }
+.band-share { font-variant-numeric: tabular-nums; }
+.band-bar { position: relative; display: flex; gap: 2px; height: 10px; margin-top: 4px; border-radius: 999px; background: var(--line); overflow: hidden; }
+.band-known { background: var(--series-understood); }
+.band-guess { background: var(--guessed); }
+.band-mark { position: absolute; top: 0; bottom: 0; width: 2px; margin-left: -1px; background: var(--fg); }
+.band-sub { margin-top: 4px; color: var(--muted); font-size: 12px; }
+
 .tooltip {
   position: absolute;
   z-index: 1;
