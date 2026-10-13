@@ -106,23 +106,20 @@ async function load() {
   if (data.source === 'ui') loadShots();
 }
 
-/** A Bilibili video is heard here but watched there: the meta line links the original under the
- * title, the toolbar link opens it at the second being heard, and the narrator filter has nothing
- * to split, so it goes. A multi-part video's later part carries its own link (…/?p=2); a video's
- * first part is its id alone. */
-function showBilibili(/** @type {{ id: string, owner?: string, link?: string }} */ data) {
-  const page = data.link ?? `https://www.bilibili.com/video/${data.id}/`;
+/** A video heard here but watched there: the meta line links the original under the title, and the
+ * toolbar link opens it at the second being heard — Bilibili and YouTube both read that second from
+ * `t`. */
+function linkVideo(/** @type {string} */ page, /** @type {string} */ site) {
   const original = document.createElement('a');
   original.href = page;
   original.target = '_blank';
   original.rel = 'noopener';
-  original.textContent = 'Xem video gốc trên Bilibili ↗';
-  $('meta').prepend(data.owner ? `${data.owner} · ` : '');
+  original.textContent = `Xem video gốc trên ${site} ↗`;
   $('meta').append(' · ', original);
 
-  $('filter-all').hidden = true;
-  $('filter-storyteller').hidden = true;
-  const link = /** @type {HTMLAnchorElement} */ ($('open-bilibili'));
+  const link = /** @type {HTMLAnchorElement} */ ($('open-video'));
+  link.textContent = `${site} ↗`;
+  link.title = `Mở video trên ${site}, đúng chỗ đang nghe`;
   link.hidden = false;
   const point = () => {
     const at = new URL(page);
@@ -134,12 +131,25 @@ function showBilibili(/** @type {{ id: string, owner?: string, link?: string }} 
   link.addEventListener('focus', point);
 }
 
+/** A Bilibili video: linked as a video, and the narrator filter has nothing to split, so it goes. A
+ * multi-part video's later part carries its own link (…/?p=2); a video's first part is its id
+ * alone. */
+function showBilibili(/** @type {{ id: string, owner?: string, link?: string }} */ data) {
+  $('meta').prepend(data.owner ? `${data.owner} · ` : '');
+  linkVideo(data.link ?? `https://www.bilibili.com/video/${data.id}/`, 'Bilibili');
+  $('filter-all').hidden = true;
+  $('filter-storyteller').hidden = true;
+}
+
 /** Another podcast: the meta line names the show and links the episode's page, whose show notes
- * carry the host's own vocabulary list and transcript. Two people talking have no narrator and
- * storyteller to filter between, so the filter goes; the colours still tell the voices apart. */
+ * carry the host's own vocabulary list and transcript — or, for a show put out on YouTube, links the
+ * video, at the second being heard too. Two people talking have no narrator and storyteller to
+ * filter between, so the filter goes; the colours still tell the voices apart. */
 function showPodcast(/** @type {{ owner?: string, link?: string }} */ data) {
   $('meta').prepend(data.owner ? `${data.owner} · ` : '');
-  if (data.link) {
+  if (data.link && new URL(data.link).hostname.endsWith('youtube.com')) {
+    linkVideo(data.link, 'YouTube');
+  } else if (data.link) {
     const notes = document.createElement('a');
     notes.href = data.link;
     notes.target = '_blank';
