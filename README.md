@@ -189,6 +189,7 @@ Each field comes from wherever it can be looked up, and only the last two are wr
 | HSK band | `tools/hsk-bands.json`, the 2021 syllabus |
 | proper noun | jieba's tag, minus anything the HSK list or CC-CEDICT calls an ordinary word |
 | times said | counted across every episode present |
+| episodes said in | the same, by episode: Nghe lại brings old chapters back only for words that are common (HSK 1-6) or said in 3+ episodes (`docs/spacing.js`) |
 | pinyin | pinyin-pro reading the line, with CC-CEDICT's neutral tones merged in; where both read a polyphone in the wrong sense, `tools/readings.json` by phrase, each syllable checked against CC-CEDICT |
 | Hán Việt, meaning | `tools/gloss-vi.json`, written by hand, shared by every episode |
 

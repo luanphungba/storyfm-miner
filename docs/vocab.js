@@ -81,10 +81,10 @@ export function vocabularyWords({ studied, linesOf, vocab, history }) {
 }
 
 /** The words a tapped span counts as. The server keeps what was touched: a tap on 很脏 is a tap on 很 and 脏. */
-export const spanWords = (/** @type {Pick<VocabBase, 'splits'>} */ vocab, /** @type {string} */ span) => vocab.splits[span] ?? [span];
+const spanWords = (/** @type {Pick<VocabBase, 'splits'>} */ vocab, /** @type {string} */ span) => vocab.splits[span] ?? [span];
 
 /** The words said in a chapter, from its episode's lines. */
-export const chapterWords = (/** @type {VocabLines} */ lines, /** @type {{ start: number, end: number }} */ chapter) =>
+const chapterWords = (/** @type {VocabLines} */ lines, /** @type {{ start: number, end: number }} */ chapter) =>
   new Set(lines.filter(([start]) => chapter.start - SAME_START_S <= start && start < chapter.end).flatMap(([, line]) => line.split(' ')));
 
 /**

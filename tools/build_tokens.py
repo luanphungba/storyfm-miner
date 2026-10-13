@@ -6,9 +6,10 @@ phone to redo the same work on every page load would be wasteful. So the cutting
 and the player only reads spans.
 
 Each token also carries what the card shows under the meaning: the word's HSK band, whether it is a
-proper noun, and how often it is said across every episode we have. The transcript itself stays
-unmarked — colouring words by band was tried and measured, and marking every word at HSK 1-3 lit up
-three quarters of the page, because almost everything spoken is common vocabulary.
+proper noun, and how often it is said across every episode we have; and in how many of them, which
+Nghe lại weighs a word by (docs/spacing.js). The transcript itself stays unmarked — colouring words
+by band was tried and measured, and marking every word at HSK 1-3 lit up three quarters of the page,
+because almost everything spoken is common vocabulary.
 
 It also files every line a word is said in under that word (docs/data/words/), for the card's list of
 them: a word the ear keeps missing is easier to catch heard in other sentences and other voices.
@@ -239,9 +240,9 @@ def names(paths):
 
 
 def tokenize(episode, proper):
-    """Each cue's word spans, [start, length, band, count, is name], with the count left at 0 for
-    main() to fill in once every episode is cut. Also returns the words a line cut runs through, and
-    the RECUT runs cut again."""
+    """Each cue's word spans, [start, length, band, count, is name, episodes], with the count and the
+    episodes left at 0 for main() to fill in once every episode is cut. Also returns the words a line
+    cut runs through, and the RECUT runs cut again."""
     cues = [[] for _ in episode["cues"]]
     straddling, matched = [], set()
     for text, lines in units(episode["cues"]):
@@ -263,6 +264,7 @@ def tokenize(episode, proper):
                     BANDS.get(piece, 0),          # 0 = not on the HSK list at all
                     0,                             # occurrences across every episode, filled in by main()
                     1 if piece in proper else 0,   # a name is worth reading, rarely worth a card
+                    0,                             # the episodes it is said in, filled in by main()
                 ])
     return cues, straddling, matched
 
@@ -372,7 +374,7 @@ def count_words(built):
         lines = []
         for cue, spans in zip(episode["cues"], cues):
             words = []
-            for start, length, _band, _count, is_name in spans:
+            for start, length, _band, _count, is_name, _episodes in spans:
                 span = cue["text"][start:start + length]
                 parts = [] if is_name else counted_parts(span, common, known)
                 if parts != [span]:
@@ -416,11 +418,15 @@ def main(ids):
     # Frequency is counted over every episode we have, not just the ones being rebuilt: a word is
     # worth learning because it keeps coming back across the show, not because it repeats in one
     # story. It counts the words as tapped, so it is the same number as the lines the card lists.
+    # The episodes a word is said in tell the two apart: twenty lines of one story are one story.
     counts = Counter(word for episode, cues in built for word, _, _ in said(episode, cues))
+    episode_counts = Counter(word for episode, cues in built for word in {word for word, _, _ in said(episode, cues)})
     for (episode, cues), path in zip(built, paths):
         for cue, spans in zip(episode["cues"], cues):
             for span in spans:
-                span[3] = counts[cue["text"][span[0]:span[0] + span[1]]]
+                word = cue["text"][span[0]:span[0] + span[1]]
+                span[3] = counts[word]
+                span[5:] = [episode_counts[word]]   # a file cut before episodes were counted has no slot yet
         out = path.with_suffix(".tok.json")
         out.write_text(json.dumps({"id": episode["id"], "cues": cues}, separators=(",", ":")))
         if path in rebuild:

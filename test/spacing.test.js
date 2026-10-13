@@ -1,13 +1,18 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { dueLabel, freshDue, heardThrough, planDay, recurringWords, schedule, spacedPlaylist, tappedOf } from '../docs/spacing.js';
+import {
+  dueLabel, easierFirst, freshDue, heardThrough, planDay, pullsBack, recurringWords, schedule, spacedPlaylist, tappedOf, wordsSaid,
+} from '../docs/spacing.js';
 
 const studied = (ep, start, dates, end = start + 100) => ({ ep, episode: '', audio: 'https://a/x.m4a', n: 0, zh: '', vi: '', start, end, dates });
 const heard = (ep, start, byDay) => ({ ep, start, seconds: 0, audio: 0, days: 0, last: '', byDay });
 const tappedIn = (ep, start, byDay, words = Object.values(byDay).flat()) =>
   ({ ep, start, days: Object.keys(byDay), words: words.map((word) => ({ word, at: start, days: 1 })), byDay });
-const asIs = (/** @type {string} */ span) => [span];
+/** Each word's HSK band (0 off the list) and the episodes of the library it is said in. */
+const reaches = (/** @type {Record<string, [number, number]>} */ table) => (/** @type {string} */ word) =>
+  (table[word] ? { band: table[word][0], isName: false, episodes: table[word][1] } : undefined);
+const noReach = () => undefined;
 
 test('a word is due the day after it recurred', () => {
   assert.deepEqual(schedule({ from: '2026-10-06', heard: ['2026-10-06'], tapped: ['2026-10-06'] }), { due: '2026-10-07', interval: 1 });
@@ -56,7 +61,7 @@ test('a word recurs once tapped in two chapters, from the day it was tapped in t
     tappedIn('CC4', 100, { '2026-10-04': ['户籍'], '2026-10-07': ['尴尬'] }),
     tappedIn('CC5', 0, { '2026-10-06': ['政治'] }),
   ];
-  assert.deepEqual([...recurringWords(tapped, asIs)], [
+  assert.deepEqual([...recurringWords(tapped)], [
     ['尴尬', { from: '2026-10-07', tapped: ['2026-10-03', '2026-10-05', '2026-10-07'] }],
     ['户籍', { from: '2026-10-04', tapped: ['2026-10-03', '2026-10-04'] }],
   ]);
@@ -65,13 +70,49 @@ test('a word recurs once tapped in two chapters, from the day it was tapped in t
 test('a word said to be known since its last tap brings nothing back', () => {
   // The server lists such a word under no chapter's words, only under the days it was tapped on.
   const tapped = [tappedIn('CC4', 0, { '2026-10-03': ['户籍'] }, []), tappedIn('CC4', 100, { '2026-10-04': ['户籍'] }, [])];
-  assert.equal(recurringWords(tapped, asIs).size, 0);
+  assert.equal(recurringWords(tapped).size, 0);
 });
 
-test('a tap on a span is a tap on each word it counts as', () => {
-  const splits = /** @type {Record<string, string[]>} */ ({ 很脏: ['很', '脏'] });
-  const tapped = [tappedIn('CC4', 0, { '2026-10-03': ['很脏'] }), tappedIn('CC5', 0, { '2026-10-04': ['脏'] })];
-  assert.deepEqual([...recurringWords(tapped, (span) => splits[span] ?? [span]).keys()], ['脏']);
+test('a tap is on the span tapped, not on the words it is made of', () => {
+  // The user's case: 段 tapped alone in CC5, then 整段 in CC19, underlined 整段 the next day as 段.
+  const tapped = [tappedIn('CC5', 64.84, { '2026-10-06': ['段'] }), tappedIn('CC19', 589.37, { '2026-10-11': ['整段'] })];
+  assert.equal(recurringWords(tapped).size, 0);
+});
+
+test('a chapter says the words on the lines it plays, each as its line is cut', () => {
+  const cues = [
+    { start: 0, end: 4, text: '有一整段的时间' },
+    { start: 4, end: 9, text: '然后放松一下。' },
+    { start: 9, end: 12, text: '无法接受' },
+  ];
+  const tokens = [
+    [[0, 1, 2, 900, 0, 30], [1, 1, 1, 5000, 0, 34], [2, 2, 0, 1, 0, 1], [4, 1, 1, 7000, 0, 34], [5, 2, 1, 800, 0, 33]],
+    [[0, 2, 2, 400, 0, 30], [2, 2, 4, 60, 0, 20], [4, 2, 2, 300, 0, 31]],
+    [[0, 2, 4, 16, 0, 8], [2, 2, 3, 40, 0, 15]],
+  ];
+  const first = studied('CC19', 0, ['2026-10-11'], 9);
+  const last = studied('CC19', 9, ['2026-10-11'], 12);
+  const later = studied('CC19', 20, ['2026-10-11'], 30);
+  const { said, reach } = wordsSaid(cues, tokens, [first, last, later]);
+  assert.deepEqual([...(said.get(first) ?? [])], ['有', '一', '整段', '的', '时间', '然后', '放松', '一下']);
+  assert.deepEqual([...(said.get(last) ?? [])], ['无法', '接受']);
+  assert.equal(said.get(later)?.size, 0);
+  assert.deepEqual(reach.get('整段'), { band: 0, isName: false, episodes: 1 });
+  assert.deepEqual(reach.get('无法'), { band: 4, isName: false, episodes: 8 });
+});
+
+test('a word brings chapters back if common, or said across more than two episodes', () => {
+  const reachOf = reaches({ 段: [2, 1], 薄弱: [5, 1], 概率: [7, 1], 昵称: [0, 2], 淘宝: [0, 3], 有所不同: [7, 3] });
+  assert.deepEqual(
+    ['段', '薄弱', '概率', '昵称', '淘宝', '有所不同', '没见过'].map((word) => pullsBack(reachOf(word))),
+    [true, true, false, false, true, true, true],
+  );
+  assert.equal(pullsBack({ band: 0, isName: true, episodes: 2 }), false); // a name, heard in two stories
+});
+
+test('words go easiest first: the lowest HSK band, then the one said in the most episodes', () => {
+  const reachOf = reaches({ 反正: [3, 11], 适应: [3, 4], 无法: [4, 8], 甚至: [4, 19], 淘宝: [0, 3], 概率: [7, 1] });
+  assert.deepEqual(['淘宝', '无法', '概率', '适应', '甚至', '反正'].sort(easierFirst(reachOf)), ['反正', '适应', '甚至', '无法', '概率', '淘宝']);
 });
 
 test("a day's plan: chapters studied yesterday, then the fewest that hold the words due", () => {
@@ -91,6 +132,7 @@ test("a day's plan: chapters studied yesterday, then the fewest that hold the wo
     heardOf: (s) => (s === fresh ? [] : ['2026-10-02']),
     words,
     wordsIn: (s) => new Set(said.get(s)),
+    reachOf: noReach,
     today: '2026-10-12',
   });
   // Both CC4 chapters hold 户籍 and 政治; the shorter is fewer minutes for them.
@@ -109,6 +151,7 @@ test('a chapter studied today waits for tomorrow, and a word in no chapter bring
     heardOf: () => ['2026-10-12'],
     words: new Map([['户籍', { from: '2026-10-01', tapped: ['2026-10-01'] }]]),
     wordsIn: () => new Set(['竞争']),
+    reachOf: noReach,
     today: '2026-10-12',
   });
   assert.equal(due.get(s), '2026-10-13');
@@ -124,9 +167,35 @@ test('a word heard in any chapter since it was due counts, wherever it was heard
     heardOf: (s) => (s === b ? ['2026-10-02', '2026-10-11'] : ['2026-10-02']),
     words: new Map([['户籍', { from: '2026-10-09', tapped: ['2026-10-09'] }]]),
     wordsIn: () => new Set(['户籍']),
+    reachOf: noReach,
     today: '2026-10-12',
   });
   assert.equal(checks.size, 0);
+});
+
+test('a rare word brings no chapter back, but is listened for, last, in one played anyway', () => {
+  const rareOnly = studied('CC4', 0, ['2026-10-01'], 60);
+  const both = studied('CC4', 100, ['2026-10-01']);
+  const fresh = studied('CC19', 0, ['2026-10-11']);
+  const said = new Map([[rareOnly, ['概率']], [both, ['无法', '概率']], [fresh, ['昵称', '反正']]]);
+  const { due, checks, ease } = planDay({
+    chapters: [rareOnly, both, fresh],
+    heardOf: (s) => (s === fresh ? [] : ['2026-10-02']),
+    words: new Map([
+      ['概率', { from: '2026-10-10', tapped: ['2026-10-10'] }], // due 10-11, HSK 7-9 in one episode
+      ['无法', { from: '2026-10-11', tapped: ['2026-10-11'] }],
+      ['昵称', { from: '2026-10-11', tapped: ['2026-10-11'] }], // off HSK, in two episodes
+      ['反正', { from: '2026-10-11', tapped: ['2026-10-11'] }],
+    ]),
+    wordsIn: (s) => new Set(said.get(s)),
+    reachOf: reaches({ 概率: [7, 1], 无法: [4, 8], 昵称: [0, 2], 反正: [3, 11] }),
+    today: '2026-10-12',
+  });
+  assert.deepEqual([...checks].map(([s, w]) => [`${s.ep}@${s.start}`, w]), [['CC4@100', ['无法', '概率']], ['CC19@0', ['反正', '昵称']]]);
+  // The day's words go 反正 无法 概率 昵称: CC19 holds the easiest, CC4 the next.
+  assert.deepEqual([ease.get(fresh), ease.get(both)], [0, 1]);
+  assert.deepEqual([due.get(both), due.get(fresh)], ['2026-10-12', '2026-10-12']);
+  assert.equal(due.has(rareOnly), false);
 });
 
 test('a day counts as heard through from nine tenths of the chapter, its rows and pages added up', () => {
@@ -167,6 +236,21 @@ test('plays the due chapters first, each episode together in story order, the on
   const keys = (/** @type {any[]} */ chapters) => chapters.map((s) => `${s.ep}@${s.start}`);
   assert.deepEqual(keys(now), ['CC1@6', 'CC1@60', 'CC2@9']);
   assert.deepEqual(keys(upcoming), ['E062@0', 'CC1@121', 'E062@90', 'CC2@190']);
+});
+
+test('the episode holding the easiest word plays first, in story order; one back only as studied plays after', () => {
+  const at = {
+    'CC4@0': ['2026-10-04', 2], 'CC4@100': ['2026-10-06', 5],
+    'CC19@0': ['2026-10-06', 3], 'CC19@100': ['2026-10-06', 0],
+    'CC118@0': ['2026-10-06', 6], 'CC7@0': ['2026-10-05', 6],
+  };
+  const list = Object.keys(at).map((key) => {
+    const [ep, start] = key.split('@');
+    return studied(ep, Number(start), ['2026-10-01']);
+  });
+  const key = (/** @type {any} */ s) => `${s.ep}@${s.start}`;
+  const { due } = spacedPlaylist(list, { today: '2026-10-06', dueOf: (s) => at[key(s)][0], easeOf: (s) => at[key(s)][1] });
+  assert.deepEqual(due.map(key), ['CC19@0', 'CC19@100', 'CC4@0', 'CC4@100', 'CC7@0', 'CC118@0']);
 });
 
 test('a chapter nothing brings back is neither due nor coming', () => {

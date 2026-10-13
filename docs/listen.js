@@ -2,10 +2,11 @@
 // "Nghe lại": the chapters marked studied in the player, played one after another for passive
 // listening. By default they play by their schedule (spacing.js): the ones due today first, each
 // episode's together and in story order, then the ones due soonest. A chapter is due the day after it
-// was studied, and then for the words tapped in more than one chapter and still missed: the list names
-// them under its titles, and its lines mark them, as the ones to listen for. "7 ngày" and "Tất cả" play
-// each episode whole instead, the one studied latest first. The list lives on the server (server/miner.py),
-// so a chapter studied on the laptop plays on the phone. Any of these can be kept to one episode, or to
+// was studied, and then for the words tapped in more than one chapter and still missed, the episodes
+// holding the easiest of them first: the list names them under its titles, and its lines mark them,
+// as the ones to listen for. "7 ngày" and "Tất cả" play each episode whole instead, the one studied
+// latest first. The list lives on the server (server/miner.py), so a chapter studied on the laptop
+// plays on the phone. Any of these can be kept to one episode, or to
 // one topic's (topics.js): a subject heard again chapter after chapter, its words coming back each time.
 //
 // Each chapter lists the words tapped in it, the lowest HSK level first, to read through before hearing
@@ -26,9 +27,8 @@ import { initExamples } from './examples.js';
 import { meterListening, showHours } from './meter.js';
 import { formatPasses, heardTotals, passes } from './progress.js';
 import { call, savedConnection } from './server.js';
-import { dueLabel, heardThrough, planDay, recurringWords, spacedPlaylist, tappedOf } from './spacing.js';
+import { dueLabel, heardThrough, planDay, recurringWords, spacedPlaylist, tappedOf, wordsSaid } from './spacing.js';
 import { ceilTenth, chapterLink, dayLabel, floorTenth, lastStudied, linesOf, playlist, shuffledByEpisode } from './studied.js';
-import { chapterWords, fetchVocabulary, spanWords } from './vocab.js';
 import { countedTap, fillCard, wordSpans } from './wordcard.js';
 import { showWords } from './wordlist.js';
 
@@ -73,13 +73,11 @@ let heard = [];
 /** The words tapped in each chapter, for its schedule and its list of words. */
 /** @type {Tapped[]} */
 let tapped = [];
-/** The day each chapter is next due, and the words each one due today is played for. Made once, as
- * the page loads: a tap while listening counts tomorrow, and today's list holds still while it plays. */
-/** @type {{ due: Map<Studied, string>, checks: Map<Studied, string[]> }} */
-let plan = { due: new Map(), checks: new Map() };
-/** The words a tapped span counts as, from vocab.json; each span as itself until it comes. */
-/** @type {(span: string) => string[]} */
-let wordsOfSpan = (span) => [span];
+/** The day each chapter is next due, the words each one due today is played for, and how easy the
+ * easiest of them is. Made once, as the page loads: a tap while listening counts tomorrow, and today's
+ * list holds still while it plays. */
+/** @type {ReturnType<typeof planDay>} */
+let plan = { due: new Map(), checks: new Map(), ease: new Map() };
 /** Today as the server counts it: Anki's day, turning at 4:00. */
 let today = '';
 /** @type {Settings} */
@@ -148,6 +146,33 @@ function openedOnTopic() {
 const TITLE_LENGTH = 20;
 const shorten = (/** @type {string} */ title) => (title.length > TITLE_LENGTH ? `${title.slice(0, TITLE_LENGTH)}…` : title);
 
+/** Each episode's files, fetched once: the plan reads every studied episode's lines and word spans as
+ * the page loads, and an episode's chapters play in a row. */
+/** @type {Map<string, Promise<any>>} */
+const files = new Map();
+
+function fileOf(/** @type {string} */ ep, /** @type {string} */ name) {
+  const url = `data/${encodeURIComponent(ep)}${name}`;
+  if (!files.has(url)) files.set(url, fetch(url).then((r) => (r.ok ? r.json() : null)).catch(() => null));
+  return files.get(url);
+}
+
+/** What the studied episodes say, chapter by chapter, and how far each word in them reaches. */
+async function spokenWords() {
+  /** @type {Map<Studied, Set<string>>} */
+  const said = new Map();
+  /** @type {Map<string, import('./spacing.js').Reach>} */
+  const reach = new Map();
+  await Promise.all([...new Set(all.map((s) => s.ep))].map(async (ep) => {
+    const [episode, tok] = await Promise.all([fileOf(ep, '.json'), fileOf(ep, '.tok.json')]);
+    if (!episode || !tok) return;
+    const inEpisode = wordsSaid(episode.cues, tok.cues, all.filter((s) => s.ep === ep));
+    for (const [s, words] of inEpisode.said) said.set(s, words);
+    for (const [word, far] of inEpisode.reach) reach.set(word, far);
+  }));
+  return { said, reach };
+}
+
 async function load() {
   const connection = savedConnection();
   if (!connection) {
@@ -167,15 +192,14 @@ async function load() {
   tapped = (await taps)?.chapters ?? [];
   // The words each chapter says, which it is spaced by. Without them, a chapter is due only the day
   // after it was studied.
-  const files = await fetchVocabulary([...new Set(all.map((s) => s.ep))]).catch(() => null);
-  if (files) wordsOfSpan = (span) => spanWords(files.vocab, span);
+  const { said, reach } = await spokenWords();
   const heardDays = new Map(all.map((s) => [s, heardThrough(heard, s)]));
-  const said = new Map(all.map((s) => [s, chapterWords(files?.linesOf[s.ep] ?? [], s)]));
   plan = planDay({
     chapters: all,
     heardOf: (s) => heardDays.get(s) ?? [],
-    words: recurringWords(tapped, wordsOfSpan),
+    words: recurringWords(tapped),
     wordsIn: (s) => said.get(s) ?? new Set(),
+    reachOf: (word) => reach.get(word),
     today,
   });
   topics = (await index)?.topics ?? [];
@@ -215,7 +239,7 @@ function render() {
   const pool = topic ? inTopic(topic) : all;
   const nothing = topic ? NOTHING_IN_TOPIC : NOTHING_STUDIED;
   if (settings.due) {
-    const { due, upcoming } = spacedPlaylist(pool, { today, ep: settings.ep, dueOf });
+    const { due, upcoming } = spacedPlaylist(pool, { today, ep: settings.ep, dueOf, easeOf: (s) => plan.ease.get(s) ?? 0 });
     sections = [due, upcoming];
     meta.textContent = due.length ? `${due.length} đoạn đến hạn · ${minutesOf(due)} phút`
       : upcoming.length ? 'Hôm nay không còn đoạn nào đến hạn. Phát thì nghe trước những đoạn sắp đến hạn.'
@@ -426,13 +450,12 @@ const linesBox = $('now-lines');
 let shownLines = null;
 let lastManualScrollAt = 0;
 
-/** Each episode's lines, their translations and word spans, fetched once: an episode's chapters play in a row. */
+/** Each episode's lines, their translations and word spans, put together once. */
 /** @type {Map<string, Promise<Text | null>>} */
 const texts = new Map();
 
 function textOf(/** @type {string} */ ep) {
-  const file = (/** @type {string} */ name) =>
-    fetch(`data/${encodeURIComponent(ep)}${name}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const file = (/** @type {string} */ name) => fileOf(ep, name);
   if (!texts.has(ep)) {
     texts.set(ep, Promise.all([file('.json'), file('.vi.json'), file('.tok.json'), file('.gloss.json')])
       .then(([episode, translation, tok, gloss]) => (episode ? {
@@ -486,8 +509,7 @@ function lineRow(
   const zh = element('span', 'zh', tokens ? '' : cue.text);
   if (tokens) {
     const parts = wordSpans(cue.text, tokens);
-    const isCheck = (/** @type {string} */ span) => wordsOfSpan(span).some((word) => checks.has(word));
-    for (const part of parts) if (typeof part !== 'string' && isCheck(part.textContent ?? '')) part.classList.add('is-check');
+    for (const part of parts) if (typeof part !== 'string' && checks.has(part.textContent ?? '')) part.classList.add('is-check');
     zh.append(...parts);
   }
   row.append(zh);

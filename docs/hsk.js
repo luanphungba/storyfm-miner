@@ -6,8 +6,8 @@
 
 /** @typedef {{ band: number, isName: boolean }} Level  `band` 0 for a word the syllabus does not have. */
 
-/** The band the syllabus files 7, 8 and 9 under together. */
-const ADVANCED = 7;
+/** The band the syllabus files 7, 8 and 9 under together: from it on, by levelRank, the long tail. */
+export const ADVANCED = 7;
 /** Where a word the syllabus does not cover sorts, after its last band; a name sorts after that. */
 const NO_BAND_RANK = ADVANCED + 1;
 const NAME_RANK = NO_BAND_RANK + 1;
