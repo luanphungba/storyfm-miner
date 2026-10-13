@@ -1,10 +1,10 @@
 // @ts-check
 // A chapter's tapped words in a dialog, to read through before hearing it again: the lowest HSK level
-// first, as the most of speech it buys (taps.js), each with its level, reading, Hán Việt and meaning as
-// the player's word card gives them, the line it was tapped in, and its stroke order a tap away. Opened
-// from Nghe lại and from the player's chapter headings, each page carrying the dialog's markup
-// (#words-dialog) and its audio (#audio). Reading the list is not a tap: only a word tapped in a line,
-// in the player or Nghe lại, says it was not caught.
+// first, as the most of speech it buys (taps.js), each with its level, how often the episodes say it,
+// reading, Hán Việt and meaning as the player's word card gives them, the line it was tapped in, and its
+// stroke order a tap away. Opened from Nghe lại and from the player's chapter headings, each page
+// carrying the dialog's markup (#words-dialog) and its audio (#audio). Reading the list is not a tap:
+// only a word tapped in a line, in the player or Nghe lại, says it was not caught.
 //
 // ▶ Nghe plays the lines one after another and round again (wordplay.js), the word playing lit and
 // kept in view; a tap on a word plays on from its line. A line's ↻ loops it, to hear it again while its
@@ -107,6 +107,7 @@ export async function showWords(/** @type {Chapter} */ chapter, /** @type {Tappe
     if (strokes) head.append(strokes.button);
     const level = levels.get(word);
     if (level) head.append(element('span', 'wd-level', levelLabel(level.band, level.isName)));
+    if (level?.said) head.append(element('span', 'wd-seen', `gặp ${level.said} lần`));
     head.append(element('span', days >= STUBBORN_DAYS ? 'wd-days is-stubborn' : 'wd-days', `${days} ngày`));
     item.append(head);
     if (reading || hanviet) item.append(element('div', 'wd-reading', [reading, hanviet?.toUpperCase()].filter(Boolean).join('   ·   ')));

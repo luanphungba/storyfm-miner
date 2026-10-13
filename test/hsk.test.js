@@ -24,10 +24,10 @@ const tokens = [
   [[0, 1, 1, 900, 0], [1, 1, 1, 300, 0], [2, 2, 0, 1, 1]],
 ];
 
-test('a word takes the level its span is filed with, wherever in the episode it is', () => {
-  assert.deepEqual(levelOf(texts, tokens, '邀请'), { band: 4, isName: false });
-  assert.deepEqual(levelOf(texts, tokens, '嘉宾'), { band: 7, isName: false });
-  assert.deepEqual(levelOf(texts, tokens, '小王'), { band: 0, isName: true });
+test('a word takes the level and count its span is filed with, wherever in the episode it is', () => {
+  assert.deepEqual(levelOf(texts, tokens, '邀请'), { band: 4, isName: false, said: 5 });
+  assert.deepEqual(levelOf(texts, tokens, '嘉宾'), { band: 7, isName: false, said: 2 });
+  assert.deepEqual(levelOf(texts, tokens, '小王'), { band: 0, isName: true, said: 1 });
 });
 
 test('only a whole span is the word: one inside a longer span, or none at all, has no level', () => {

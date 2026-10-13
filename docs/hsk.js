@@ -25,16 +25,17 @@ export const levelLabel = (/** @type {number} */ band, /** @type {boolean} */ is
 export const levelRank = (level) => (level?.isName ? NAME_RANK : level?.band || NO_BAND_RANK);
 
 /**
- * The level of `word` as an episode's spans file it, from the first span of it; null when no span is it.
+ * The level of `word` as an episode's spans file it, from the first span of it, and how many times every
+ * episode says it, as the word card counts it; null when no span is it.
  * @param {string[]} texts each line's Chinese
  * @param {(number[])[][]} tokens each line's word spans, `[start, length, band, count, isName]` as the .tok.json sidecar has them
  * @param {string} word
- * @returns {Level | null}
+ * @returns {(Level & { said: number }) | null}
  */
 export function levelOf(texts, tokens, word) {
   for (const [line, spans] of tokens.entries()) {
-    for (const [start, length, band = 0, , isName = 0] of spans ?? []) {
-      if (length === word.length && texts[line]?.startsWith(word, start)) return { band, isName: Boolean(isName) };
+    for (const [start, length, band = 0, said = 0, isName = 0] of spans ?? []) {
+      if (length === word.length && texts[line]?.startsWith(word, start)) return { band, isName: Boolean(isName), said };
     }
   }
   return null;
