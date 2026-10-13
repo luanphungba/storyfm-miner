@@ -2,12 +2,12 @@
 // "Nghe lại": the chapters marked studied in the player, played one after another for passive
 // listening. By default they play by their schedule (spacing.js): the ones due today first, each
 // episode's together and in story order, then the ones due soonest. A chapter is due the day after it
-// was studied, and then for the words tapped in more than one chapter and still missed, the episodes
-// holding the easiest of them first: the list names them under its titles, and its lines mark them,
-// as the ones to listen for. "7 ngày" and "Tất cả" play each episode whole instead, the one studied
-// latest first. The list lives on the server (server/miner.py), so a chapter studied on the laptop
-// plays on the phone. Any of these can be kept to one episode, or to
-// one topic's (topics.js): a subject heard again chapter after chapter, its words coming back each time.
+// was studied, and then for a few of the words tapped and still missed, the common ones first, the
+// episodes holding the worthiest of them first: the list names them under its titles, and its lines
+// mark them, as the ones to listen for. "7 ngày" and "Tất cả" play each episode whole instead, the one
+// studied latest first. The list lives on the server (server/miner.py), so a chapter studied on the
+// laptop plays on the phone. Any of these can be kept to one episode, or to one topic's (topics.js): a
+// subject heard again chapter after chapter, its words coming back each time.
 //
 // Each chapter lists the words tapped in it, the lowest HSK level first, to read through before hearing
 // it again. Reading the list is not a tap: only a word tapped in a line says it was not caught.
@@ -27,7 +27,7 @@ import { initExamples } from './examples.js';
 import { meterListening, showHours } from './meter.js';
 import { formatPasses, heardTotals, passes } from './progress.js';
 import { call, savedConnection } from './server.js';
-import { dueLabel, heardThrough, planDay, recurringWords, spacedPlaylist, tappedOf, wordsSaid } from './spacing.js';
+import { dueLabel, heardThrough, missedWords, planDay, spacedPlaylist, tappedOf, wordsSaid } from './spacing.js';
 import { ceilTenth, chapterLink, dayLabel, floorTenth, lastStudied, linesOf, playlist, shuffledByEpisode } from './studied.js';
 import { countedTap, fillCard, wordSpans } from './wordcard.js';
 import { showWords } from './wordlist.js';
@@ -73,11 +73,11 @@ let heard = [];
 /** The words tapped in each chapter, for its schedule and its list of words. */
 /** @type {Tapped[]} */
 let tapped = [];
-/** The day each chapter is next due, the words each one due today is played for, and how easy the
- * easiest of them is. Made once, as the page loads: a tap while listening counts tomorrow, and today's
- * list holds still while it plays. */
+/** The day each chapter is next due, the words each one due today is played for, and where the
+ * worthiest of them stands. Made once, as the page loads: a tap while listening counts tomorrow, and
+ * today's list holds still while it plays. */
 /** @type {ReturnType<typeof planDay>} */
-let plan = { due: new Map(), checks: new Map(), ease: new Map() };
+let plan = { due: new Map(), checks: new Map(), rank: new Map() };
 /** Today as the server counts it: Anki's day, turning at 4:00. */
 let today = '';
 /** @type {Settings} */
@@ -197,9 +197,9 @@ async function load() {
   plan = planDay({
     chapters: all,
     heardOf: (s) => heardDays.get(s) ?? [],
-    words: recurringWords(tapped),
+    words: missedWords(tapped),
     wordsIn: (s) => said.get(s) ?? new Set(),
-    reachOf: (word) => reach.get(word),
+    reach,
     today,
   });
   topics = (await index)?.topics ?? [];
@@ -239,7 +239,7 @@ function render() {
   const pool = topic ? inTopic(topic) : all;
   const nothing = topic ? NOTHING_IN_TOPIC : NOTHING_STUDIED;
   if (settings.due) {
-    const { due, upcoming } = spacedPlaylist(pool, { today, ep: settings.ep, dueOf, easeOf: (s) => plan.ease.get(s) ?? 0 });
+    const { due, upcoming } = spacedPlaylist(pool, { today, ep: settings.ep, dueOf, rankOf: (s) => plan.rank.get(s) ?? 0 });
     sections = [due, upcoming];
     meta.textContent = due.length ? `${due.length} đoạn đến hạn · ${minutesOf(due)} phút`
       : upcoming.length ? 'Hôm nay không còn đoạn nào đến hạn. Phát thì nghe trước những đoạn sắp đến hạn.'
