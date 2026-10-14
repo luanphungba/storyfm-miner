@@ -10,19 +10,17 @@
 //
 // A chapter speaks for its words only on the day it is first studied: studied again, its lines are
 // remembered, so a word not tapped there says little. A tap takes a word out of both until it is heard
-// untapped in a chapter first studied on a later day. Said to be known (✓ Thuộc), it is understood
-// again at once, but solid only once heard so: a word just looped in its line is known for now, not
-// yet heard to stick. Both start from HSK 1-2, taken as known before listening, less any of it tapped
-// and not caught since.
+// untapped in a chapter first studied on a later day, or said to be known. Both start from HSK 1-2,
+// taken as known before listening, less any of it tapped and not caught since.
 // Each day is counted as it stood that evening, from what had been studied and tapped by then.
 
 import { SAME_START_S } from './studied.js';
 
 export const GOAL_WORDS = 10_000;
-/** What study aims for: words understood a day, and words made solid a week. A solid word comes
- * only when a word recurs, about one for every four understood, so it is judged over a week. */
+/** What study aims for: words understood a day, and words made solid a week. Most words made solid
+ * are said to be known on the day, the rest heard in three chapters, so it is judged over a week. */
 export const DAY_UNDERSTOOD = 65;
-export const WEEK_SOLID = 100;
+export const WEEK_SOLID = 200;
 /** The studied chapters, and the days among theirs, a word is heard untapped in to be solid. */
 export const SOLID_CHAPTERS = 3;
 export const SOLID_DAYS = 2;
@@ -199,13 +197,13 @@ function wordsOn(day, chapters, tapped, known, base) {
     }
   }
 
-  const missed = new Set([...lastTap.keys()].filter((word) => !clean.has(word)));
+  const missed = new Set([...lastTap.keys()].filter((word) => !clean.has(word) && !marked.includes(word)));
   const kept = base.filter((word) => !missed.has(word));
   const solid = [...clean].filter(([, seen]) => seen.chapters.size >= SOLID_CHAPTERS && seen.days.size >= SOLID_DAYS)
     .map(([word]) => word);
   return {
     understood: new Set([...kept, ...marked, ...clean.keys()]),
-    solid: new Set([...kept, ...solid]),
+    solid: new Set([...kept, ...marked, ...solid]),
     heard,
   };
 }

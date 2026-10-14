@@ -70,23 +70,12 @@ test('a tap on a phrase is a tap on each word it counts as, HSK 1-2 too', () => 
   assert.deepEqual(v, { understood: 2, solid: 1, heard: 3 }); // 我, and 尴尬 understood; 很 and 脏 missed
 });
 
-test('a word said to be known is understood, until it is tapped again later, and never solid by it', () => {
+test('a word said to be known counts in both, until it is tapped again later', () => {
   const studied = [chapter(300, ['2026-10-01'])];
   const known = vocabulary({ studied, linesOf, vocab, latest: latest({ 脏: '2026-10-01' }, { 脏: '2026-10-01' }) });
-  assert.deepEqual(known, { understood: 3, solid: 2, heard: 1 }); // 我 很 solid; 脏 understood alone
+  assert.deepEqual(known, { understood: 3, solid: 3, heard: 1 });
   const again = vocabulary({ studied, linesOf, vocab, latest: latest({ 脏: '2026-10-02' }, { 脏: '2026-10-01' }) });
   assert.deepEqual(again, { understood: 2, solid: 2, heard: 1 });
-});
-
-test('HSK 1-2 tapped and said to be known is understood, and solid only once heard untapped again', () => {
-  const tapped = latest({ 很脏: '2026-10-01' }, { 很: '2026-10-01' });
-  const known = vocabulary({ studied: [chapter(100, ['2026-10-01'])], linesOf, vocab, latest: tapped });
-  assert.deepEqual(known, { understood: 3, solid: 1, heard: 3 }); // 我 很 尴尬 understood; 我 solid
-  const heard = vocabulary({ studied: [chapter(100, ['2026-10-01']), chapter(0, ['2026-10-02'])], linesOf, vocab, latest: tapped });
-  assert.equal(heard.solid, 1); // 很 is not said in the later chapter
-  const caught = { CC4: /** @type {[number, string][]} */ ([...linesOf.CC4, [400, '很']]) };
-  const again = vocabulary({ studied: [chapter(100, ['2026-10-01']), chapter(400, ['2026-10-02'])], linesOf: caught, vocab, latest: tapped });
-  assert.equal(again.solid, 2); // 很 heard untapped the next day: HSK 1-2 is solid again
 });
 
 test('a chapter takes the line a re-cut nudged before its start and no line past its end', () => {
