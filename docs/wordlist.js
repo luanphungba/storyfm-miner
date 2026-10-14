@@ -6,6 +6,10 @@
 // carrying the dialog's markup (#words-dialog) and its audio (#audio). Reading the list is not a tap:
 // only a word tapped in a line, in the player or Nghe lại, says it was not caught.
 //
+// Under them, the words tapped in other chapters that this one says too (taps.js), each with where it
+// was tapped and the line here saying it, so a word is learned in whichever story comes next. The
+// words Nghe lại plays the chapter for come first in each part, underlined as in its lines.
+//
 // ▶ Nghe plays the lines one after another and round again (wordplay.js), the word playing lit and
 // kept in view; a tap on a word plays on from its line. A line's ↻ loops it, to hear it again while its
 // word is read; ↻ again plays on.
@@ -26,6 +30,7 @@ import { STUBBORN_DAYS, forStudy } from './taps.js';
 import { lineOf, nextWithLine } from './wordplay.js';
 
 /** @typedef {import('./taps.js').TappedWord} TappedWord */
+/** @typedef {import('./taps.js').ElsewhereWord} ElsewhereWord */
 /** @typedef {import('./wordplay.js').Line} Line */
 /** @typedef {{ ep: string, episode: string, n: number, zh: string }} Chapter  As a studied chapter carries it. */
 /** @typedef {{ audio: { m4a?: string, mp3?: string }, cues: Line[] }} Episode  As its file has it, what the lines need. */
@@ -47,9 +52,10 @@ lineAudio.preload = 'none';
 /** The chapter the dialog shows, so files arriving after another was opened are dropped. */
 /** @type {Chapter | null} */
 let open = null;
-/** The open list, once its files are in: its words in order, each one's item and line (none once it is
- * known), and the audio the lines are in. */
-/** @type {{ words: TappedWord[], items: HTMLElement[], lines: (Line | null)[], src: string } | null} */
+/** The open list, once its files are in: its words in order, the ones tapped in the chapter first and
+ * `own` of them, each one's item and line (none once it is known), the audio the lines are in, and
+ * whether any is listened for. */
+/** @type {{ words: TappedWord[], own: number, items: HTMLElement[], lines: (Line | null)[], src: string, checked: boolean } | null} */
 let shown = null;
 /** The word whose line is playing, that line, and what follows it: the line again, the next word's, or nothing. */
 /** @type {{ k: number, line: Line, then: 'loop' | 'next' | 'stop' } | null} */
@@ -72,35 +78,50 @@ const episodeOf = (/** @type {string} */ ep) =>
 const tokensOf = (/** @type {string} */ ep) =>
   /** @type {Promise<{ cues: (number[])[][] } | null>} */ (fetchOnce(`data/${encodeURIComponent(ep)}.tok.json`, null));
 
-const note = (/** @type {Chapter} */ chapter, /** @type {number} */ count) =>
-  `${chapter.episode || chapter.ep} · chương ${chapter.n + 1} · ${count} từ, HSK thấp ở trên`;
+/** What the list holds: its chapter, how many words were tapped in it and elsewhere, and their order. */
+function note(/** @type {Chapter} */ chapter, /** @type {number} */ own, /** @type {number} */ elsewhere, /** @type {boolean} */ checked) {
+  const count = !elsewhere ? `${own} từ` : own ? `${own} từ + ${elsewhere} tra ở chỗ khác` : `${elsewhere} từ tra ở chỗ khác`;
+  return `${chapter.episode || chapter.ep} · chương ${chapter.n + 1} · ${count}, ${checked ? 'từ kiểm tra rồi ' : ''}HSK thấp ở trên`;
+}
 
-/** Opens the dialog on `tapped`, the words tapped in `chapter`. */
-export async function showWords(/** @type {Chapter} */ chapter, /** @type {TappedWord[]} */ tapped) {
+/**
+ * Opens the dialog on `tapped`, the words tapped in `chapter`, and `elsewhere`, the ones tapped in other
+ * chapters it says; `checks`, the ones Nghe lại plays it for, go first.
+ * @param {Chapter} chapter
+ * @param {TappedWord[]} tapped
+ * @param {{ elsewhere?: ElsewhereWord[], checks?: string[] }} [more]
+ */
+export async function showWords(chapter, tapped, { elsewhere = [], checks = [] } = {}) {
   stop();
   open = chapter;
   shown = null;
   showPlaying();
+  const checked = [...tapped, ...elsewhere].some(({ word }) => checks.includes(word));
   $('words-title').textContent = chapter.zh;
-  $('words-note').textContent = note(chapter, tapped.length);
+  $('words-note').textContent = note(chapter, tapped.length, elsewhere.length, checked);
   wordsList.replaceChildren();
   showGist(false);
   dialog.showModal();
   const [gloss, episode, tok] = await Promise.all([glossOf(chapter.ep), episodeOf(chapter.ep), tokensOf(chapter.ep)]);
   if (!dialog.open || open !== chapter) return;
   const texts = episode?.cues.map((cue) => cue.text) ?? [];
-  const levels = new Map(tapped.map(({ word }) => [word, levelOf(texts, tok?.cues ?? [], word)]));
-  const words = forStudy(tapped, (word) => levelRank(levels.get(word) ?? null));
+  const levels = new Map([...tapped, ...elsewhere].map(({ word }) => [word, levelOf(texts, tok?.cues ?? [], word)]));
+  /** Lowest level first, the ones listened for before them. */
+  const ordered = (/** @type {TappedWord[]} */ list) => forStudy(list, (word) => levelRank(levels.get(word) ?? null))
+    .sort((a, b) => Number(checks.includes(b.word)) - Number(checks.includes(a.word)));
+  /** @type {(TappedWord | ElsewhereWord)[]} */
+  const words = [...ordered(tapped), ...ordered(elsewhere)];
   // The audio the player plays, as it picks it.
   const src = episode?.audio.m4a ?? episode?.audio.mp3 ?? '';
   const lines = words.map(({ word, at }) => (episode && src ? lineOf(episode.cues, word, at) : null));
-  const items = words.map(({ word, days }, k) => {
+  const items = words.map((entry, k) => {
+    const { word, days } = entry;
     const [reading, hanviet, meaning] = gloss[word] ?? [];
     const item = document.createElement('li');
     item.className = 'wd-item';
     const head = document.createElement('div');
     head.className = 'wd-head';
-    const zh = element('span', 'wd-word', word);
+    const zh = element('span', checks.includes(word) ? 'wd-word is-check' : 'wd-word', word);
     zh.lang = 'zh-Hans';
     head.append(zh);
     const strokes = strokeToggle(word, { remember: false });
@@ -110,6 +131,7 @@ export async function showWords(/** @type {Chapter} */ chapter, /** @type {Tappe
     if (level?.said) head.append(element('span', 'wd-seen', `gặp ${level.said} lần`));
     head.append(element('span', days >= STUBBORN_DAYS ? 'wd-days is-stubborn' : 'wd-days', `${days} ngày`));
     item.append(head);
+    if ('from' in entry) item.append(element('div', 'wd-from', `tra ở ${entry.from[0]}${entry.from.length > 1 ? ` +${entry.from.length - 1}` : ''}`));
     if (reading || hanviet) item.append(element('div', 'wd-reading', [reading, hanviet?.toUpperCase()].filter(Boolean).join('   ·   ')));
     const gist = document.createElement('div');
     gist.className = 'wd-gist';
@@ -123,8 +145,9 @@ export async function showWords(/** @type {Chapter} */ chapter, /** @type {Tappe
     if (strokes) item.append(strokes.panel);
     return item;
   });
-  wordsList.replaceChildren(...items);
-  shown = { words, items, lines, src };
+  const heading = element('li', 'wd-section', 'Tra ở chỗ khác, chương này cũng nói');
+  wordsList.replaceChildren(...items.slice(0, tapped.length), ...(elsewhere.length ? [heading] : []), ...items.slice(tapped.length));
+  shown = { words, own: tapped.length, items, lines, src, checked };
   showPlaying();
 }
 
@@ -181,7 +204,8 @@ async function know(/** @type {number} */ k) {
   if (playing?.k === k && playing.then === 'loop') playing.then = 'next';
   item.classList.add('is-known');
   /** @type {HTMLElement} */ (item.querySelector('.wd-days')).textContent = 'đã thuộc';
-  $('words-note').textContent = note(chapter, list.items.filter((i) => !i.classList.contains('is-known')).length);
+  const left = (/** @type {HTMLElement[]} */ items) => items.filter((i) => !i.classList.contains('is-known')).length;
+  $('words-note').textContent = note(chapter, left(list.items.slice(0, list.own)), left(list.items.slice(list.own)), list.checked);
   showPlaying();
 }
 

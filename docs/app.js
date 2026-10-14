@@ -16,8 +16,9 @@ import { chapterShots, framePercent } from './shots.js';
 import { meterListening } from './meter.js';
 import { initMiner } from './miner.js';
 import { call, savedConnection } from './server.js';
-import { tappedOf } from './spacing.js';
-import { ceilTenth, findStudied, floorTenth, heardAgain } from './studied.js';
+import { tappedOf, wordsSaid as chapterWords } from './spacing.js';
+import { SAME_START_S, ceilTenth, chapterName, findStudied, floorTenth, heardAgain } from './studied.js';
+import { tappedElsewhere, wordsLabel } from './taps.js';
 import { TOPIC_KEY, nextEpisode, topicsOf } from './topics.js';
 import { fetchVocabulary, vocabularyWords } from './vocab.js';
 import { showWords } from './wordlist.js';
@@ -258,6 +259,7 @@ async function loadWords() {
   tokens = tok.cues;
   gloss = gl;
   decorate();
+  showTapped(); // the words tapped elsewhere a chapter says are found by its spans
 }
 
 /** Rewrites each line as word spans plus the punctuation between them. The cue order and the
@@ -695,29 +697,50 @@ studyButton.addEventListener('click', toggleStudied);
 // ---------- words tapped ----------
 
 /** Under each chapter's heading, the words tapped in it: the list Nghe lại gives a studied chapter,
- * to read through before hearing it again. Asked for again after each tap, so a word just looked up
- * is on it. Without a server there is no list. */
+ * to read through before hearing it again, with the words tapped in other chapters that it says too.
+ * Asked for again after each tap, so a word just looked up is on it. Without a server there is no list. */
 /** @type {import('./taps.js').TappedWord[][]} */
 let tappedWords = [];
 /** The chapters as /tapped lists them, for what each one's day missed (showCoverage); null until the server answers. */
 /** @type {import('./spacing.js').Tapped[] | null} */
 let tappedChapters = null;
+/** Every chapter of this episode with a tap, and every other episode's studied one: where the words a
+ * chapter says were tapped elsewhere. */
+/** @type {import('./spacing.js').Tapped[]} */
+let tappedAnywhere = [];
+/** The words each chapter says, each with the start of its first line saying it, once the spans are in. */
+/** @type {Map<typeof chapters[number], Map<string, number>> | null} */
+let chapterSaid = null;
 
 async function loadTapped() {
   const connection = savedConnection();
   if (!connection || !chapters.length) return;
   try {
-    /** @type {{ chapters: import('./spacing.js').Tapped[] }} */
-    const data = await call(connection, '/tapped', {
-      chapters: chapters.map((c) => ({ ep: episode.id, start: c.start, end: c.end })),
-    });
+    /** @type {[{ chapters: import('./spacing.js').Tapped[] }, { chapters: import('./spacing.js').Tapped[] } | null]} */
+    const [data, studiedTaps] = await Promise.all([
+      call(connection, '/tapped', { chapters: chapters.map((c) => ({ ep: episode.id, start: c.start, end: c.end })) }),
+      call(connection, '/tapped').catch(() => null), // every studied chapter's; without them, only this episode's
+    ]);
     tappedWords = chapters.map((c) => tappedOf(data.chapters, { ep: episode.id, start: c.start })?.words ?? []);
     tappedChapters = data.chapters;
+    tappedAnywhere = [...data.chapters, ...(studiedTaps?.chapters ?? []).filter((c) => c.ep !== episode.id)];
   } catch {
     return; // No lists until the server answers.
   }
   showTapped();
   showCoverage();
+}
+
+/** The words tapped in other chapters that chapter `n` says, each named by where. */
+function elsewhereOf(/** @type {number} */ n) {
+  if (!tokens) return [];
+  chapterSaid ??= chapterWords(cues, tokens, chapters).said;
+  return tappedElsewhere(tappedAnywhere, tappedWords[n] ?? [], chapterSaid.get(chapters[n]) ?? new Map(), ({ ep, start }) => {
+    const from = ep === episode.id
+      ? chapters.findIndex((c) => Math.abs(c.start - start) < SAME_START_S)
+      : findStudied(studiedAnywhere, ep, start)?.n ?? -1;
+    return from < 0 ? ep : chapterName(episode.id, ep, from);
+  });
 }
 
 // A word known in a chapter's list leaves every chapter's count.
@@ -726,16 +749,17 @@ $('words-dialog').addEventListener('known', loadTapped);
 /** A button per chapter with a word tapped in it, last under its heading: below its screens and new words. */
 function showTapped() {
   for (const old of cueBox.querySelectorAll('.ch-tapped')) old.remove();
-  tappedWords.forEach((words, n) => {
-    if (!words.length) return;
+  chapters.forEach((c, n) => {
+    const label = wordsLabel(tappedWords[n]?.length ?? 0, elsewhereOf(n).length, 'từ đã tra');
+    if (!label) return;
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'chip ch-tapped';
     button.classList.toggle('is-current', n === chapter?.n);
     button.dataset.n = String(n);
-    button.textContent = `${words.length} từ đã tra`;
-    button.title = 'Các từ đã tra trong chương này';
-    rows[chapters[n].from]?.before(button);
+    button.textContent = label;
+    button.title = 'Các từ đã tra trong chương này, + các từ đã tra ở chỗ khác mà chương này cũng nói';
+    rows[c.from]?.before(button);
   });
 }
 
@@ -969,7 +993,7 @@ cueBox.addEventListener('click', (event) => {
   const tappedList = /** @type {HTMLElement | null} */ (target.closest('.ch-tapped'));
   if (tappedList) {
     const n = Number(tappedList.dataset.n);
-    showWords({ ep: episode.id, episode: episode.title, n, zh: chapters[n].zh }, tappedWords[n] ?? []);
+    showWords({ ep: episode.id, episode: episode.title, n, zh: chapters[n].zh }, tappedWords[n] ?? [], { elsewhere: elsewhereOf(n) });
     return;
   }
   const heading = /** @type {HTMLElement | null} */ (target.closest('.chapter'));

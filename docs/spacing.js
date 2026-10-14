@@ -96,21 +96,23 @@ export function freshDue(/** @type {Studied} */ s, /** @type {string[]} */ heard
 
 /**
  * What an episode's lines say, as they are cut into word spans (.tok.json): the words each chapter
- * says, on the lines it plays, and how far each word reaches.
+ * says, on the lines it plays, each with the start of the first of them saying it, and how far each
+ * word reaches.
+ * @template {{ start: number, end: number }} C
  * @param {{ start: number, end: number, text: string }[]} cues  the episode's lines
  * @param {number[][][]} tokens  each line's spans, [start, length, band, count, isName, episodes]
- * @param {Studied[]} chapters  the episode's studied chapters
- * @returns {{ said: Map<Studied, Set<string>>, reach: Map<string, Reach> }}
+ * @param {C[]} chapters  the episode's chapters: its studied ones, or in the player all of them
+ * @returns {{ said: Map<C, Map<string, number>>, reach: Map<string, Reach> }}
  */
 export function wordsSaid(cues, tokens, chapters) {
-  const inChapter = chapters.map((s) => ({ s, lines: linesOf(cues, s), words: /** @type {Set<string>} */ (new Set()) }));
+  const inChapter = chapters.map((s) => ({ s, lines: linesOf(cues, s), words: /** @type {Map<string, number>} */ (new Map()) }));
   /** @type {Map<string, Reach>} */
   const reach = new Map();
   for (const [k, cue] of cues.entries()) {
     for (const [start, length, band, , isName, episodes] of tokens[k] ?? []) {
       const word = cue.text.slice(start, start + length);
       reach.set(word, { band, isName: Boolean(isName), episodes });
-      for (const { lines: [from, to], words } of inChapter) if (from <= k && k <= to) words.add(word);
+      for (const { lines: [from, to], words } of inChapter) if (from <= k && k <= to && !words.has(word)) words.set(word, cue.start);
     }
   }
   return { said: new Map(inChapter.map(({ s, words }) => [s, words])), reach };
@@ -176,7 +178,8 @@ export function missedWords(tapped) {
  * Nghe lại's day: the chapters due today, each with the words it is played for, and the day each other
  * chapter next falls due, for the ones anything brings back.
  * @param {{ chapters: Studied[], heardOf: (s: Studied) => string[], words: Map<string, Missed>,
- *   wordsIn: (s: Studied) => Set<string>, reach: Map<string, Reach>, today: string }} input
+ *   wordsIn: (s: Studied) => { has: (word: string) => boolean }, reach: Map<string, Reach>, today: string }} input
+ *   `wordsIn`, the words a chapter says, as wordsSaid finds them
  * @returns {{ due: Map<Studied, string>, checks: Map<Studied, string[]>, rank: Map<Studied, number> }}
  *   `checks`, for each chapter played today, the words it is played for: its FOCUS_WORDS worthiest due
  *   words not listened for in a chapter before it, the ones that bring chapters back first; `rank`,

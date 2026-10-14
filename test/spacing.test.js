@@ -100,8 +100,8 @@ test('a chapter says the words on the lines it plays, each as its line is cut', 
   const last = studied('CC19', 9, ['2026-10-11'], 12);
   const later = studied('CC19', 20, ['2026-10-11'], 30);
   const { said, reach } = wordsSaid(cues, tokens, [first, last, later]);
-  assert.deepEqual([...(said.get(first) ?? [])], ['有', '一', '整段', '的', '时间', '然后', '放松', '一下']);
-  assert.deepEqual([...(said.get(last) ?? [])], ['无法', '接受']);
+  assert.deepEqual([...(said.get(first) ?? [])], [['有', 0], ['一', 0], ['整段', 0], ['的', 0], ['时间', 0], ['然后', 4], ['放松', 4], ['一下', 4]]);
+  assert.deepEqual([...(said.get(last) ?? [])], [['无法', 9], ['接受', 9]]);
   assert.equal(said.get(later)?.size, 0);
   assert.deepEqual(reach.get('整段'), { band: 0, isName: false, episodes: 1 });
   assert.deepEqual(reach.get('无法'), { band: 4, isName: false, episodes: 8 });

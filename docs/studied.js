@@ -26,6 +26,10 @@ export function findStudied(/** @type {Studied[]} */ list, /** @type {string} */
   return list.find((s) => s.ep === ep && Math.abs(s.start - start) < SAME_START_S);
 }
 
+/** A chapter as another names it: its number, after its episode when that is another one. */
+export const chapterName = (/** @type {string} */ here, /** @type {string} */ ep, /** @type {number} */ n) =>
+  ep === here ? `chương ${n + 1}` : `${ep} · chương ${n + 1}`;
+
 /** A chapter is heard again, not studied, on a day after the first one it was studied on: listening to
  * it then counts as "Nghe lại" whichever page plays it. */
 export function heardAgain(/** @type {Studied[]} */ list, /** @type {string} */ ep, /** @type {number} */ start, /** @type {string} */ day) {

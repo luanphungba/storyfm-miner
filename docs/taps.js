@@ -23,6 +23,8 @@ const MAX_UNSENT = 500;
  *   before it that day. A tap kept unsent by an older page has none. */
 /** @typedef {{ days: number, inAnki: boolean }} TapCount */
 /** @typedef {{ word: string, at: number, days: number }} TappedWord  As the server lists a chapter's. */
+/** @typedef {TappedWord & { from: string[] }} ElsewhereWord  A word a chapter says that was tapped in other
+ *   chapters, named in `from`: `at` is the start of the chapter's first line saying it, so it is heard there. */
 
 /** @returns {Tap[]} */
 function readUnsent() {
@@ -87,6 +89,46 @@ export function tapNote({ days, inAnki }, cardsWanted) {
  */
 export const forStudy = (words, rank) =>
   [...words].sort((a, b) => rank(a.word) - rank(b.word) || b.days - a.days || a.at - b.at);
+
+/**
+ * The words a chapter says that are being learned from other chapters: each tapped in one of `tapped`
+ * and not said to be known since, and not tapped in this one. A word is the span tapped, as the line is
+ * cut, the way `said` has them. Read in every chapter that says it, a word is learned in whichever
+ * story comes next, not only in the one it was tapped in.
+ * @param {{ ep: string, start: number, words: TappedWord[] }[]} tapped  the chapters whose taps count, as /tapped lists them
+ * @param {TappedWord[]} own  the words tapped in this chapter
+ * @param {Map<string, number>} said  each word this chapter says, and the start of its first line saying it
+ * @param {(chapter: { ep: string, start: number }) => string} name  what a chapter tapped in is called
+ * @returns {ElsewhereWord[]}  in the order the chapters tapped in are listed
+ */
+export function tappedElsewhere(tapped, own, said, name) {
+  const mine = new Set(own.map((w) => w.word));
+  /** @type {Map<string, ElsewhereWord>} */
+  const found = new Map();
+  for (const chapter of tapped) {
+    for (const { word, days } of chapter.words) {
+      const at = said.get(word);
+      if (at === undefined || mine.has(word)) continue;
+      let entry = found.get(word);
+      if (!entry) found.set(word, (entry = { word, at, days, from: [] }));
+      const where = name(chapter);
+      if (!entry.from.includes(where)) entry.from.push(where);
+    }
+  }
+  return [...found.values()];
+}
+
+/**
+ * What a chapter's button says of its words: how many were tapped in it, then + how many tapped
+ * elsewhere it says; '' for none, when it has no button.
+ * @param {number} own
+ * @param {number} elsewhere
+ * @param {string} noun  'từ', or 'từ đã tra' where nothing else on the page says they were tapped
+ */
+export function wordsLabel(own, elsewhere, noun) {
+  if (!elsewhere) return own ? `${own} ${noun}` : '';
+  return own ? `${own} ${noun} · +${elsewhere}` : `+${elsewhere} ${noun}`;
+}
 
 /**
  * How many words were tapped on each day, from every day each word was tapped on, as the server

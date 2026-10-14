@@ -10,7 +10,8 @@
 // subject heard again chapter after chapter, its words coming back each time.
 //
 // Each chapter lists the words tapped in it, the lowest HSK level first, to read through before hearing
-// it again. Reading the list is not a tap: only a word tapped in a line says it was not caught.
+// it again, and under them the words tapped in other chapters that it says too: "11 từ · +8". Reading
+// the list is not a tap: only a word tapped in a line says it was not caught.
 //
 // The chapter playing shows its lines under its titles in the bar, the one being heard lit and kept
 // in view, so a line not caught is read without opening the episode; a tap on a line plays from it.
@@ -28,7 +29,10 @@ import { meterListening, showHours } from './meter.js';
 import { formatPasses, heardTotals, passes } from './progress.js';
 import { call, savedConnection } from './server.js';
 import { dueLabel, heardThrough, missedWords, planDay, spacedPlaylist, tappedOf, wordsSaid } from './spacing.js';
-import { ceilTenth, chapterLink, dayLabel, floorTenth, lastStudied, linesOf, playlist, shuffledByEpisode } from './studied.js';
+import {
+  ceilTenth, chapterLink, chapterName, dayLabel, findStudied, floorTenth, lastStudied, linesOf, playlist, shuffledByEpisode,
+} from './studied.js';
+import { tappedElsewhere, wordsLabel } from './taps.js';
 import { countedTap, fillCard, wordSpans } from './wordcard.js';
 import { showWords } from './wordlist.js';
 
@@ -73,6 +77,10 @@ let heard = [];
 /** The words tapped in each chapter, for its schedule and its list of words. */
 /** @type {Tapped[]} */
 let tapped = [];
+/** The words each chapter says, each with the start of its first line saying it: what it is spaced by,
+ * and the words tapped elsewhere its list takes in. */
+/** @type {Map<Studied, Map<string, number>>} */
+let said = new Map();
 /** The day each chapter is next due, the words each one due today is played for, and where the
  * worthiest of them stands. Made once, as the page loads: a tap while listening counts tomorrow, and
  * today's list holds still while it plays. */
@@ -159,18 +167,18 @@ function fileOf(/** @type {string} */ ep, /** @type {string} */ name) {
 
 /** What the studied episodes say, chapter by chapter, and how far each word in them reaches. */
 async function spokenWords() {
-  /** @type {Map<Studied, Set<string>>} */
-  const said = new Map();
+  /** @type {typeof said} */
+  const inChapters = new Map();
   /** @type {Map<string, import('./spacing.js').Reach>} */
   const reach = new Map();
   await Promise.all([...new Set(all.map((s) => s.ep))].map(async (ep) => {
     const [episode, tok] = await Promise.all([fileOf(ep, '.json'), fileOf(ep, '.tok.json')]);
     if (!episode || !tok) return;
     const inEpisode = wordsSaid(episode.cues, tok.cues, all.filter((s) => s.ep === ep));
-    for (const [s, words] of inEpisode.said) said.set(s, words);
+    for (const [s, words] of inEpisode.said) inChapters.set(s, words);
     for (const [word, far] of inEpisode.reach) reach.set(word, far);
   }));
-  return { said, reach };
+  return { said: inChapters, reach };
 }
 
 async function load() {
@@ -192,14 +200,15 @@ async function load() {
   tapped = (await taps)?.chapters ?? [];
   // The words each chapter says, which it is spaced by. Without them, a chapter is due only the day
   // after it was studied.
-  const { said, reach } = await spokenWords();
+  const spoken = await spokenWords();
+  said = spoken.said;
   const heardDays = new Map(all.map((s) => [s, heardThrough(heard, s)]));
   plan = planDay({
     chapters: all,
     heardOf: (s) => heardDays.get(s) ?? [],
     words: missedWords(tapped),
-    wordsIn: (s) => said.get(s) ?? new Set(),
-    reach,
+    wordsIn: (s) => said.get(s) ?? new Map(),
+    reach: spoken.reach,
     today,
   });
   topics = (await index)?.topics ?? [];
@@ -233,6 +242,13 @@ const inTopic = (/** @type {Topic} */ t) => all.filter((s) => t.episodes.include
 const dueOf = (/** @type {Studied} */ s) => plan.due.get(s);
 const minutesOf = (/** @type {Studied[]} */ chapters) => Math.round(chapters.reduce((sum, s) => sum + s.end - s.start, 0) / 60);
 const wordsOf = (/** @type {Studied} */ s) => tappedOf(tapped, s)?.words ?? [];
+/** The words tapped in other studied chapters that `s` says, each named by where. */
+const elsewhereOf = (/** @type {Studied} */ s) => tappedElsewhere(tapped, wordsOf(s), said.get(s) ?? new Map(), ({ ep, start }) => {
+  const from = findStudied(all, ep, start);
+  return from ? chapterName(s.ep, ep, from.n) : ep;
+});
+const wordsButton = (/** @type {Studied} */ s) => wordsLabel(wordsOf(s).length, elsewhereOf(s).length, 'từ');
+const showWordsOf = (/** @type {Studied} */ s) => showWords(s, wordsOf(s), { elsewhere: elsewhereOf(s), checks: plan.checks.get(s) });
 
 function render() {
   const topic = topics.find((t) => t.id === settings.topic);
@@ -320,14 +336,14 @@ function chapterItem(/** @type {Studied} */ s, /** @type {number} */ i) {
   const checks = plan.checks.get(s);
   if (checks?.length) button.append(line('pl-check', `kiểm tra: ${checks.join(' · ')}`));
   item.append(button);
-  const count = wordsOf(s).length;
-  if (count) {
+  const label = wordsButton(s);
+  if (label) {
     const words = document.createElement('button');
     words.className = 'chip pl-words';
     words.type = 'button';
     words.dataset.i = String(i);
-    words.textContent = `${count} từ`;
-    words.title = 'Các từ đã tra trong chương này';
+    words.textContent = label;
+    words.title = 'Các từ đã tra trong chương này, + các từ đã tra ở chỗ khác mà chương này cũng nói';
     item.append(words);
   }
   return item;
@@ -391,9 +407,9 @@ function previous() {
 }
 
 function showNowWords(/** @type {Studied} */ chapter) {
-  const count = wordsOf(chapter).length;
-  $('now-words').hidden = !count;
-  $('now-words').textContent = `${count} từ`;
+  const label = wordsButton(chapter);
+  $('now-words').hidden = !label;
+  $('now-words').textContent = label;
 }
 
 function showNow(/** @type {Studied} */ chapter) {
@@ -643,8 +659,7 @@ list.addEventListener('click', (event) => {
   const target = /** @type {HTMLElement} */ (event.target);
   const words = /** @type {HTMLElement | null} */ (target.closest('.pl-words'));
   if (words) {
-    const s = shown[Number(words.dataset.i)];
-    showWords(s, wordsOf(s));
+    showWordsOf(shown[Number(words.dataset.i)]);
     return;
   }
   const button = /** @type {HTMLElement | null} */ (target.closest('.pl-item'));
@@ -702,7 +717,7 @@ $('loop').addEventListener('click', () => {
   $('loop').setAttribute('aria-pressed', String(looping));
   showTime();
 });
-$('now-words').addEventListener('click', () => { if (queue[index]) showWords(queue[index], wordsOf(queue[index])); });
+$('now-words').addEventListener('click', () => { if (queue[index]) showWordsOf(queue[index]); });
 // A word known in a chapter's list leaves every chapter's count.
 $('words-dialog').addEventListener('known', (event) => {
   const word = /** @type {CustomEvent<string>} */ (event).detail;

@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { chapterLink, dayLabel, findStudied, heardAgain, linesOf, playlist, shuffled, shuffledByEpisode } from '../docs/studied.js';
+import { chapterLink, chapterName, dayLabel, findStudied, heardAgain, linesOf, playlist, shuffled, shuffledByEpisode } from '../docs/studied.js';
 
 const studied = (ep, start, dates) => ({ ep, episode: '', audio: 'https://a/x.m4a', n: 0, zh: '', vi: '', start, end: start + 90, dates });
 
@@ -105,4 +105,9 @@ test('a chapter plays the lines whose middle falls inside it', () => {
   ];
   assert.deepEqual(linesOf(cues, { start: 10, end: 21 }), [1, 3]);
   assert.deepEqual(linesOf(cues, { start: 31, end: 40 }), [-1, -1], 'none when it plays past the last line');
+});
+
+test('a chapter of the same episode goes by its number, one of another by its episode too', () => {
+  assert.equal(chapterName('CC4', 'CC4', 4), 'chương 5');
+  assert.equal(chapterName('CC4', 'CC2', 0), 'CC2 · chương 1');
 });
