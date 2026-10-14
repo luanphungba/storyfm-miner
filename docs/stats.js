@@ -6,7 +6,7 @@
 
 import { formatTime } from './card.js';
 import { levelLabel } from './hsk.js';
-import { LEVEL_SHARE, fetchSyllabus, levelOn } from './level.js';
+import { LEVEL_SHARE, fetchSyllabus, levelOn, speechShares } from './level.js';
 import { studyDay } from './listening.js';
 import { report } from './meter.js';
 import {
@@ -16,7 +16,7 @@ import {
 import { call, savedConnection } from './server.js';
 import { chapterLink, dayLabel } from './studied.js';
 import { tappedByDay, unknownWords } from './taps.js';
-import { GOAL_WORDS, fetchVocabulary, formatChange, vocabularyByDay, vocabularyDays, wordTicks } from './vocab.js';
+import { GOAL_WORDS, fetchVocabulary, formatChange, timesSaid, vocabularyByDay, vocabularyDays, wordTicks } from './vocab.js';
 
 /** @typedef {import('./progress.js').Days} Days */
 /** @typedef {import('./progress.js').Heard} Heard */
@@ -28,13 +28,15 @@ import { GOAL_WORDS, fetchVocabulary, formatChange, vocabularyByDay, vocabularyD
 /** @typedef {import('./vocab.js').TapHistory} TapHistory */
 /** @typedef {import('./level.js').Level} Level */
 /** @typedef {import('./level.js').BandLevel} BandLevel */
+/** @typedef {ReturnType<typeof speechShares>} Speech */
 /**
  * @typedef {{ days: Days, heard: Heard[], studied: Studied[], chaptersOf: Record<string, Chapter[]>,
  *   titles: Record<string, string>, tapped: Record<string, number>, unknown: number,
- *   vocabulary: VocabDay[] | null, level: { now: Level, weekAgo: Level } | null }} Stats
+ *   vocabulary: VocabDay[] | null, level: { now: Level, weekAgo: Level, speech: Speech } | null }} Stats
  *   `tapped` is the words tapped each day; `unknown`, the words tapped in a studied chapter and not
  *   known since. The vocabulary, a row per day from the first studied, stays null until each studied
- *   episode's words are in; the HSK level, today and a week ago, until the syllabus is in too.
+ *   episode's words are in; the HSK level, today and a week ago, and each band's share of the words
+ *   said in the chapters studied, until the syllabus is in too.
  */
 /** @typedef {{ range: number, order: ChapterOrder, ep: string }} Settings */
 
@@ -45,6 +47,15 @@ const SVG = 'http://www.w3.org/2000/svg';
 const GAP = 2;
 
 const $ = (/** @type {string} */ id) => /** @type {HTMLElement} */ (document.getElementById(id));
+/** A count as Vietnamese writes it: 1.058. */
+const count = (/** @type {number} */ n) => n.toLocaleString('vi-VN');
+/** A div of a class, with its text. */
+const div = (/** @type {string} */ className, text = '') => {
+  const node = document.createElement('div');
+  node.className = className;
+  node.textContent = text;
+  return node;
+};
 
 /** @type {Stats | null} */
 let stats = null;
@@ -120,7 +131,7 @@ async function loadVocabulary(/** @type {Studied[]} */ studied, /** @type {TapHi
     const today = studyDay(new Date());
     stats.vocabulary = vocabularyByDay(input, vocabularyDays(studied, today));
     const on = syllabus && levelOn(input, syllabus);
-    stats.level = on && { now: on(today), weekAgo: on(addDays(today, -7), today) };
+    stats.level = on && { now: on(today), weekAgo: on(addDays(today, -7), today), speech: speechShares(timesSaid(input, today), syllabus) };
   } catch {
     vocabularyPending = '—';
   }
@@ -179,7 +190,6 @@ function renderGoal(/** @type {Stats} */ { days, studied, unknown }, /** @type {
 }
 
 function renderVocabulary(/** @type {Stats} */ { vocabulary }, /** @type {string} */ today) {
-  const count = (/** @type {number} */ n) => n.toLocaleString('vi-VN');
   $('vocab-goal').textContent = count(GOAL_WORDS);
   $('vocab-meter').setAttribute('aria-valuemax', String(GOAL_WORDS));
   const now = vocabulary?.at(-1);
@@ -204,7 +214,8 @@ function renderVocabulary(/** @type {Stats} */ { vocabulary }, /** @type {string
 const bandShare = (/** @type {BandLevel} */ b) => Math.floor((b.estimate / b.size) * 100);
 const bandName = (/** @type {number} */ band) => levelLabel(band, false);
 
-/** The HSK level, the band being worked toward and how it moved in a week, and every band's words known. */
+/** The HSK level, the band being worked toward and how it moved in a week, every band's words known,
+ * and the words of none. */
 function renderLevel(/** @type {Stats} */ { level, vocabulary }) {
   const mark = `${LEVEL_SHARE * 100}%`;
   $('level-share').textContent = mark;
@@ -213,41 +224,56 @@ function renderLevel(/** @type {Stats} */ { level, vocabulary }) {
     $('level-value').textContent = vocabulary ? '—' : vocabularyPending;
     return;
   }
-  const { now, weekAgo } = level;
+  const { now, weekAgo, speech } = level;
   const next = now.bands.find((b) => b.band > now.level);
   const before = next && weekAgo.bands.find((b) => b.band === next.band);
   $('level-value').textContent = now.level ? bandName(now.level) : 'Chưa tới HSK 1';
   $('level-next').textContent = next ? `· đang lên ${bandName(next.band)}: ≈${bandShare(next)}%` : '· đủ mọi cấp';
   $('level-week').textContent = weekAgo.level < now.level ? `7 ngày qua: lên ${bandName(now.level)}, từ ${weekAgo.level ? bandName(weekAgo.level) : 'dưới HSK 1'}.`
     : next && before ? `7 ngày qua: ${bandName(next.band)} ${formatChange(bandShare(next) - bandShare(before))} điểm, từ ≈${bandShare(before)}%.` : '';
-  $('level-bands').replaceChildren(...now.bands.map(bandRow));
+  $('level-bands').replaceChildren(...now.bands.map((b) => bandRow(b, speech.bands.get(b.band) ?? 0)),
+    outsideRow(now.outside, speech.outside));
 }
 
-/** A band: its share known as a bar, the words understood solid and the guessed hatched beside them, and the mark to reach. */
-function bandRow(/** @type {BandLevel} */ b) {
-  const count = (/** @type {number} */ n) => n.toLocaleString('vi-VN');
-  const element = (/** @type {string} */ className, text = '') => {
-    const node = document.createElement('div');
-    node.className = className;
-    node.textContent = text;
-    return node;
-  };
+/** A band's name, and how much of what is said its words are. */
+function bandLabel(/** @type {string} */ name, /** @type {number} */ speech) {
+  const label = div('band-name', name);
+  const share = document.createElement('span');
+  share.className = 'band-speech';
+  const percent = Math.round(speech * 100);
+  share.textContent = ` · ${percent || !speech ? percent : '<1'}% lời nói`;
+  label.append(share);
+  return label;
+}
+
+/** A band: its share of speech by its name, its share known as a bar, the words understood solid
+ * and the guessed hatched beside them, and the mark to reach. */
+function bandRow(/** @type {BandLevel} */ b, /** @type {number} */ speech) {
   const row = document.createElement('li');
-  const head = element('band-head');
-  head.append(element('band-name', bandName(b.band)), element('band-share', `≈${bandShare(b)}% · ${count(b.estimate)}/${count(b.size)}`));
-  const bar = element('band-bar');
+  const head = div('band-head');
+  head.append(bandLabel(bandName(b.band), speech), div('band-share', `≈${bandShare(b)}% · ${count(b.estimate)}/${count(b.size)}`));
+  const bar = div('band-bar');
   bar.setAttribute('aria-hidden', 'true');
-  const known = element('band-known');
+  const known = div('band-known');
   known.style.width = `${(b.known / b.size) * 100}%`;
-  const guessed = element('band-guess');
+  const guessed = div('band-guess');
   guessed.style.width = `${((b.estimate - b.known) / b.size) * 100}%`;
   guessed.hidden = b.estimate === b.known;
-  const mark = element('band-mark');
+  const mark = div('band-mark');
   mark.style.left = `${LEVEL_SHARE * 100}%`;
   bar.append(known, guessed, mark);
   const unheard = b.size - b.heard;
-  const sub = element('band-sub', `hiểu ${count(b.known)} từ${unheard ? ` · chưa gặp ${count(unheard)}, ước biết ≈${count(b.estimate - b.known)}` : ''}`);
+  const sub = div('band-sub', `hiểu ${count(b.known)} từ${unheard ? ` · chưa gặp ${count(unheard)}, ước biết ≈${count(b.estimate - b.known)}` : ''}`);
   row.append(head, bar, sub);
+  return row;
+}
+
+/** The words of no band: those understood of those heard, with no bar, as there is no whole to fill. */
+function outsideRow(/** @type {Level['outside']} */ { heard, known }, /** @type {number} */ speech) {
+  const row = document.createElement('li');
+  const head = div('band-head');
+  head.append(bandLabel('Ngoài HSK', speech), div('band-share', `hiểu ${count(known)} từ`));
+  row.append(head, div('band-sub', `trong ${count(heard)} từ đã gặp · không tính vào cấp`));
   return row;
 }
 

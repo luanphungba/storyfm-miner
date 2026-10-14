@@ -91,6 +91,25 @@ export function firstHearings({ studied, linesOf, vocab, history }) {
   return new Map([...first].map(([word, day]) => [word, { day, tapped: tapped.get(word)?.includes(day) ?? false }]));
 }
 
+/**
+ * Each word said in the chapters studied by the evening of `day`, with the times it was said in them:
+ * a word said nine times is nine of the words heard (level.js, a band's share of speech).
+ * @param {Pick<VocabInput, 'studied' | 'linesOf'>} input
+ * @param {string} day YYYY-MM-DD
+ * @returns {Map<string, number>}
+ */
+export function timesSaid({ studied, linesOf }, day) {
+  /** @type {Map<string, number>} */
+  const times = new Map();
+  for (const chapter of studied) {
+    if (!chapter.dates.some((d) => d <= day)) continue;
+    for (const [, line] of chapterLines(linesOf[chapter.ep] ?? [], chapter)) {
+      for (const word of line.split(' ')) times.set(word, (times.get(word) ?? 0) + 1);
+    }
+  }
+  return times;
+}
+
 /** Each chapter studied, by the first day it was and the words said in it. */
 const studiedChapters = (/** @type {VocabInput['studied']} */ studied, /** @type {VocabInput['linesOf']} */ linesOf) =>
   studied.map((chapter) => ({
@@ -112,9 +131,13 @@ function wordDays(/** @type {Pick<VocabBase, 'splits'>} */ vocab, /** @type {Rec
 /** The words a tapped span counts as. The server keeps what was touched: a tap on 很脏 is a tap on 很 and 脏. */
 const spanWords = (/** @type {Pick<VocabBase, 'splits'>} */ vocab, /** @type {string} */ span) => vocab.splits[span] ?? [span];
 
+/** A chapter's lines, of its episode's. */
+const chapterLines = (/** @type {VocabLines} */ lines, /** @type {{ start: number, end: number }} */ chapter) =>
+  lines.filter(([start]) => chapter.start - SAME_START_S <= start && start < chapter.end);
+
 /** The words said in a chapter, from its episode's lines. */
 const chapterWords = (/** @type {VocabLines} */ lines, /** @type {{ start: number, end: number }} */ chapter) =>
-  new Set(lines.filter(([start]) => chapter.start - SAME_START_S <= start && start < chapter.end).flatMap(([, line]) => line.split(' ')));
+  new Set(chapterLines(lines, chapter).flatMap(([, line]) => line.split(' ')));
 
 /**
  * What the vocabulary is counted from, beside the page: vocab.json, and the words of each episode

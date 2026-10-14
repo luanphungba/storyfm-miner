@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { LEVEL_SHARE, MIN_HEARINGS, hskLevel, levelOn } from '../docs/level.js';
+import { LEVEL_SHARE, MIN_HEARINGS, hskLevel, levelOn, speechShares } from '../docs/level.js';
 
 const DAY = '2026-10-13';
 /** `n` made-up words, a band's half. */
@@ -96,4 +96,19 @@ test('a day before is guessed at a later day\'s rates, so a week\'s change is th
   }).bands[0].estimate;
   assert.equal(level(undefined), 100); // 20 of 20 untapped so far
   assert.equal(level('2026-10-12'), 20 + 80 * (30 / 60));
+});
+
+test('the words of no band are counted beside the bands, heard by the day or understood unheard', () => {
+  const syllabus = { 1: { common: ['我'], rare: [] } };
+  const heard = new Map([...hearings(['我', '职场', '播客'], 1), ...hearings(['电商'], 0, '2026-10-20')]);
+  const level = hskLevel({ syllabus, understood: new Set(['我', '播客', '一个']), hearings: heard, day: DAY });
+  assert.deepEqual(level.outside, { heard: 3, known: 2 }); // 职场 播客 一个, of which 播客 一个
+  assert.equal(level.level, 1);
+});
+
+test('a band\'s share of speech counts each time its words are said', () => {
+  const syllabus = { 1: { common: ['我'], rare: ['很'] }, 3: { common: ['尴尬'], rare: [] }, 4: { common: ['脏'], rare: [] } };
+  const said = new Map([['我', 5], ['很', 1], ['尴尬', 2], ['职场', 2]]);
+  assert.deepEqual(speechShares(said, syllabus), { bands: new Map([[1, 0.6], [3, 0.2], [4, 0]]), outside: 0.2 });
+  assert.deepEqual(speechShares(new Map(), syllabus), { bands: new Map([[1, 0], [3, 0], [4, 0]]), outside: 0 });
 });

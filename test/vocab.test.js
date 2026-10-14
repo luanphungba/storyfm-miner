@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { firstHearings, formatChange, vocabularyByDay, vocabularyDays, vocabularyWords, wordTicks } from '../docs/vocab.js';
+import { firstHearings, formatChange, timesSaid, vocabularyByDay, vocabularyDays, vocabularyWords, wordTicks } from '../docs/vocab.js';
 
 const chapter = (/** @type {number} */ start, /** @type {string[]} */ dates, ep = 'CC4') => ({ ep, start, end: start + 90, dates });
 /** One line per chapter's start, and one between them that no chapter has. */
@@ -125,6 +125,12 @@ test('a word is first heard in the earliest chapter studied with it, tapped ther
     学: { day: '2026-10-03', tapped: false },
     法语: { day: '2026-10-03', tapped: false },
   });
+});
+
+test('each word is counted as often as it is said in the chapters studied by the day', () => {
+  const studied = [chapter(0, ['2026-10-01']), chapter(100, ['2026-10-03', '2026-10-01']), chapter(200, ['2026-10-05'])];
+  assert.deepEqual(Object.fromEntries(timesSaid({ studied, linesOf }, '2026-10-03')), { 我: 1, 尴尬: 2, 很: 1, 脏: 1 });
+  assert.equal(timesSaid({ studied, linesOf }, '2026-09-30').size, 0);
 });
 
 test('the chart runs from the first day studied through today, across a month', () => {

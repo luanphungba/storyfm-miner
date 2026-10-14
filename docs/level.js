@@ -11,7 +11,10 @@
 // fewer hearings rather than the words learned.
 //
 // A band is reached when LEVEL_SHARE of its words are known, and the level is the highest band
-// reached with every band under it. hskLevel is pure, so test/level.test.js covers it.
+// reached with every band under it. Words of no band (一个, 职场, 播客) are counted beside the bands,
+// not toward the level, as they have no size to be a share of; and how much of what is said each band
+// is shows what its words are worth to the ear: HSK 1-2 alone are about three words in four.
+// hskLevel and speechShares are pure, so test/level.test.js covers them.
 
 import { TAPS_FROM } from './coverage.js';
 import { firstHearings, vocabularyWords } from './vocab.js';
@@ -29,7 +32,10 @@ export const MIN_HEARINGS = 20;
  *   heard — the band's words whose state is known: heard, or understood unheard (HSK 1-2, words said
  *   to be known); known — those understood; estimate — known, and the share guessed of the rest
  */
-/** @typedef {{ level: number, bands: BandLevel[] }} Level  level — the highest band reached, 0 for none */
+/**
+ * @typedef {{ level: number, bands: BandLevel[], outside: { heard: number, known: number } }} Level
+ *   level — the highest band reached, 0 for none; outside — the words of no band heard and understood
+ */
 
 /**
  * The HSK level on the evening of `day`.
@@ -69,8 +75,37 @@ export function hskLevel({ syllabus, understood, hearings, day, rateDay = day })
 
   const short = bands.findIndex((b) => b.estimate < LEVEL_SHARE * b.size);
   const level = short < 0 ? bands.at(-1)?.band ?? 0 : short > 0 ? bands[short - 1].band : 0;
-  return { level, bands };
+  const listed = bandsOf(syllabus);
+  const outside = (/** @type {string[]} */ words) => new Set(words.filter((w) => !listed.has(w))).size;
+  const heard = [...hearings.keys()].filter((w) => heardBy(w, day));
+  return { level, bands, outside: { heard: outside([...understood, ...heard]), known: outside([...understood]) } };
 }
+
+/**
+ * The share of the words said that each band's words are, and words of no band: each time a word is
+ * said counts, as it does in a chapter's share (coverage.js).
+ * @param {Map<string, number>} said  each word said, and the times it was (vocab.js timesSaid)
+ * @param {Syllabus} syllabus
+ * @returns {{ bands: Map<number, number>, outside: number }}  shares from 0 to 1, all 0 with nothing said
+ */
+export function speechShares(said, syllabus) {
+  const bandOf = bandsOf(syllabus);
+  const times = new Map(Object.keys(syllabus).map((band) => [Number(band), 0]));
+  let outside = 0;
+  let total = 0;
+  for (const [word, n] of said) {
+    const band = bandOf.get(word);
+    if (band === undefined) outside += n;
+    else times.set(band, (times.get(band) ?? 0) + n);
+    total += n;
+  }
+  const share = (/** @type {number} */ n) => (total ? n / total : 0);
+  return { bands: new Map([...times].map(([band, n]) => [band, share(n)])), outside: share(outside) };
+}
+
+/** Each word of the syllabus, and its band. */
+const bandsOf = (/** @type {Syllabus} */ syllabus) => new Map(Object.entries(syllabus)
+  .flatMap(([band, { common, rare }]) => [...common, ...rare].map((word) => /** @type {[string, number]} */ ([word, Number(band)]))));
 
 /**
  * The HSK level as it stood on the evening of any day, from what the vocabulary is counted from: by

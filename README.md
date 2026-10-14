@@ -217,7 +217,10 @@ not heard yet is guessed at the rate the band's words were understood untapped t
 were heard. `build_tokens.py` writes `docs/data/hsk.json`, each band split into its common and rare
 half by jieba's dictionary counts, and the rate is taken per half: the words heard are mostly the
 common ones, and one rate for the band read 2-12 points high in a simulated learner, against 1-5 per
-half. A band is reached at 80% of its words known, with every band under it.
+half. A band is reached at 80% of its words known, with every band under it. Beside each band is the
+share of the words said in the chapters studied that are its words, each time a word is said counting
+once: HSK 1-2 are about three words in four, which is why a learner short of HSK 3 follows a native
+podcast. Words of no band (一个, 职场, 播客) are counted under the bands, not toward the level.
 
 `tools/audit.mjs` re-derives each field from a direction other than the one that built it and prints
 the disagreements. It has caught, in order: the pinyin taken from CC-CEDICT's first entry (说 as

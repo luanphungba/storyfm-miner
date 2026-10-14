@@ -1153,6 +1153,7 @@ h1 {
 .level-bands { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; }
 .band-head { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; }
 .band-name { font-weight: 600; }
+.band-speech { color: var(--muted); font-weight: 400; }
 .band-share { font-variant-numeric: tabular-nums; }
 .band-bar { position: relative; display: flex; gap: 2px; height: 10px; margin-top: 4px; border-radius: 999px; background: var(--line); overflow: hidden; }
 .band-known { background: var(--series-understood); }
