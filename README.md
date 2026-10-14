@@ -217,7 +217,13 @@ not heard yet is guessed at the rate the band's words were understood untapped t
 were heard. `build_tokens.py` writes `docs/data/hsk.json`, each band split into its common and rare
 half by jieba's dictionary counts, and the rate is taken per half: the words heard are mostly the
 common ones, and one rate for the band read 2-12 points high in a simulated learner, against 1-5 per
-half. A band is reached at 80% of its words known, with every band under it. Beside each band is the
+half. A half heard fewer than 20 times in a band, or understood more often than the same half of the
+band below, is pooled with its neighbours (pool adjacent violators), since a harder band is not known
+better: borrowing the band's whole rate instead had a rare half heard 18 times guessed at its common
+half's rate. Over 300 simulated learners heard through the 57 chapters studied by 2026-10-14, pooling
+took the mean error of HSK 5 from 6.9 points to 4.4 and of HSK 6 from 8.5 to 7.1, and of a learner
+whose words follow only how common they are, from 11 and 15 points to 4 and 5. A band is reached at
+80% of its words known, with every band under it. Beside each band is the
 share of the words said in the chapters studied that are its words, each time a word is said counting
 once: HSK 1-2 are about three words in four, which is why a learner short of HSK 3 follows a native
 podcast. Words of no band (一个, 职场, 播客) are counted under the bands, not toward the level.

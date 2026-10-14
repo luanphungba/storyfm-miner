@@ -4,7 +4,10 @@
 // heard counts as it stands in the vocabulary (vocab.js: understood, or not), and one not heard yet is
 // guessed at: as known at the rate the band's words were understood the first time they were heard,
 // before the app could teach them. The rate is taken for the band's common and rare halves apart
-// (hsk.json), as the words heard are mostly the common ones, which are known more often.
+// (hsk.json), as the words heard are mostly the common ones, which are known more often. A band's half
+// heard too little, or that would be guessed better known than the band's below, is pooled with the
+// same half of the bands beside it: a harder band is not known better, and a rare half heard 18 times
+// is told more by the rare halves around it than by its own band's common half.
 //
 // The rate is what was known before the app, so it holds for any day; the latest first hearings say
 // it best. A day before is guessed at today's rate, or a week's change would be the rate's noise from
@@ -14,15 +17,16 @@
 // reached with every band under it. Words of no band (一个, 职场, 播客) are counted beside the bands,
 // not toward the level, as they have no size to be a share of; and how much of what is said each band
 // is shows what its words are worth to the ear: HSK 1-2 alone are about three words in four.
-// hskLevel and speechShares are pure, so test/level.test.js covers them.
+// hskLevel, pooledRates and speechShares are pure, so test/level.test.js covers them.
 
 import { TAPS_FROM } from './coverage.js';
 import { firstHearings, vocabularyWords } from './vocab.js';
 
 /** The share of a band's words known for the band to be reached. */
 export const LEVEL_SHARE = 0.8;
-/** The first hearings a rate is taken from, at the fewest: with fewer in a half, the band's whole
- * rate is used, and with fewer in the band, no word of it not heard yet counts as known. */
+/** The first hearings a rate is taken from, at the fewest: a band's half heard fewer times is pooled
+ * with the bands beside it, and with fewer in the half of every band, no word of it not heard yet
+ * counts as known. */
 export const MIN_HEARINGS = 20;
 
 /** @typedef {Record<string, { common: string[], rare: string[] }>} Syllabus  hsk.json: each band's words, its common half and its rare half */
@@ -54,24 +58,24 @@ export function hskLevel({ syllabus, understood, hearings, day, rateDay = day })
     const sample = words.map((w) => heardBy(w, rateDay)).filter((h) => h && h.day >= TAPS_FROM);
     return { heard: sample.length, understood: sample.filter((h) => !h?.tapped).length };
   };
-  const rate = (/** @type {{ heard: number, understood: number }} */ s) => s.understood / s.heard;
 
-  const bands = Object.entries(syllabus).map(([band, { common, rare }]) => {
-    const whole = firstTimes([...common, ...rare]);
+  const ordered = Object.entries(syllabus).map(([band, halves]) => ({ band: Number(band), ...halves }))
+    .sort((a, b) => a.band - b.band);
+  const commonGuesses = pooledRates(ordered.map((b) => firstTimes(b.common)));
+  const rareGuesses = pooledRates(ordered.map((b) => firstTimes(b.rare)));
+  const bands = ordered.map(({ band, common, rare }, k) => {
     let heard = 0;
     let known = 0;
     let estimate = 0;
-    for (const words of [common, rare]) {
-      const half = firstTimes(words);
-      const guess = half.heard >= MIN_HEARINGS ? rate(half) : whole.heard >= MIN_HEARINGS ? rate(whole) : 0;
+    for (const [words, guess] of /** @type {[string[], number][]} */ ([[common, commonGuesses[k]], [rare, rareGuesses[k]]])) {
       const halfHeard = words.filter((w) => understood.has(w) || heardBy(w, day)).length;
       const halfKnown = words.filter((w) => understood.has(w)).length;
       heard += halfHeard;
       known += halfKnown;
       estimate += halfKnown + (words.length - halfHeard) * guess;
     }
-    return { band: Number(band), size: common.length + rare.length, heard, known, estimate: Math.round(estimate) };
-  }).sort((a, b) => a.band - b.band);
+    return { band, size: common.length + rare.length, heard, known, estimate: Math.round(estimate) };
+  });
 
   const short = bands.findIndex((b) => b.estimate < LEVEL_SHARE * b.size);
   const level = short < 0 ? bands.at(-1)?.band ?? 0 : short > 0 ? bands[short - 1].band : 0;
@@ -79,6 +83,28 @@ export function hskLevel({ syllabus, understood, hearings, day, rateDay = day })
   const outside = (/** @type {string[]} */ words) => new Set(words.filter((w) => !listed.has(w))).size;
   const heard = [...hearings.keys()].filter((w) => heardBy(w, day));
   return { level, bands, outside: { heard: outside([...understood, ...heard]), known: outside([...understood]) } };
+}
+
+/**
+ * The rate each band's words not heard yet are guessed at, for one half: the share of its first
+ * hearings untapped, with a band heard fewer than MIN_HEARINGS times, or understood more often than
+ * the band below, pooled with its neighbours until neither is so (pool adjacent violators).
+ * @param {{ heard: number, understood: number }[]} samples  a half's first hearings, band by band from the lowest
+ * @returns {number[]}  each band's rate, 0 for every band if the half is heard too little in all of them
+ */
+export function pooledRates(samples) {
+  /** @type {{ heard: number, understood: number, bands: number }[]} */
+  const pools = [];
+  const rate = (/** @type {{ heard: number, understood: number }} */ s) => s.understood / s.heard;
+  for (const sample of samples) {
+    pools.push({ ...sample, bands: 1 });
+    while (pools.length > 1) {
+      const [lower, upper] = pools.slice(-2);
+      if (lower.heard >= MIN_HEARINGS && upper.heard >= MIN_HEARINGS && rate(upper) <= rate(lower)) break;
+      pools.splice(-2, 2, { heard: lower.heard + upper.heard, understood: lower.understood + upper.understood, bands: lower.bands + upper.bands });
+    }
+  }
+  return pools.flatMap((pool) => Array(pool.bands).fill(pool.heard >= MIN_HEARINGS ? rate(pool) : 0));
 }
 
 /**

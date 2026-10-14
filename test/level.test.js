@@ -1,7 +1,7 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { LEVEL_SHARE, MIN_HEARINGS, hskLevel, levelOn, speechShares } from '../docs/level.js';
+import { LEVEL_SHARE, MIN_HEARINGS, hskLevel, levelOn, pooledRates, speechShares } from '../docs/level.js';
 
 const DAY = '2026-10-13';
 /** `n` made-up words, a band's half. */
@@ -21,18 +21,41 @@ test('a word heard counts as it stands, and one not heard yet at its half\'s fir
   assert.deepEqual(band, { band: 3, size: 200, heard: 60, known: 35, estimate: Math.round(30 + 60 * 0.75 + 5 + 80 * 0.25) });
 });
 
-test('a half heard too little is guessed at the whole band\'s rate, and a band heard too little not at all', () => {
-  const common = words('c', 100);
-  const rare = words('r', 100);
+test('a band\'s half heard too little is guessed with the same half of the band below, and a half heard too little in every band not at all', () => {
+  const half = (/** @type {string} */ prefix) => words(prefix, 100);
+  const syllabus = { 3: { common: half('c3'), rare: half('r3') }, 4: { common: half('c4'), rare: half('r4') } };
   const few = MIN_HEARINGS - 1;
-  const heard = [...hearings(common.slice(0, 30), 0), ...hearings(rare.slice(0, few), few)];
-  const { bands: [band] } = hskLevel({ syllabus: { 3: { common, rare } }, understood: new Set(untapped(heard)), hearings: new Map(heard), day: DAY });
-  const whole = 30 / (30 + few);
-  assert.equal(band.estimate, Math.round(30 + 70 * 1 + 0 + (100 - few) * whole));
+  const heard = [
+    ...hearings(syllabus[3].common.slice(0, 40), 10), ...hearings(syllabus[4].common.slice(0, 40), 30),
+    ...hearings(syllabus[3].rare.slice(0, 30), 20), ...hearings(syllabus[4].rare.slice(0, few), few - 2),
+  ];
+  const level = hskLevel({ syllabus, understood: new Set(untapped(heard)), hearings: new Map(heard), day: DAY });
+  const rare = (10 + 2) / (30 + few); // HSK 4's rare half, 2 of 19, pooled with HSK 3's, 10 of 30
+  assert.deepEqual(level.bands.map((b) => b.estimate), [
+    Math.round(30 + 60 * 0.75 + 10 + 70 * rare),
+    Math.round(10 + 60 * 0.25 + 2 + (100 - few) * rare),
+  ]);
 
-  const little = hearings(common.slice(0, few), 0);
-  const unheard = hskLevel({ syllabus: { 3: { common, rare } }, understood: new Set(untapped(little)), hearings: new Map(little), day: DAY });
-  assert.equal(unheard.bands[0].estimate, few);
+  const little = hearings(syllabus[3].common.slice(0, few), 0);
+  const unheard = hskLevel({ syllabus, understood: new Set(untapped(little)), hearings: new Map(little), day: DAY });
+  assert.deepEqual(unheard.bands.map((b) => b.estimate), [few, 0]);
+});
+
+test('a harder band is never guessed better known: one that would be is pooled with the band below', () => {
+  const n = MIN_HEARINGS * 2;
+  const of = (/** @type {number[]} */ ...understood) => understood.map((u) => ({ heard: n, understood: u }));
+  assert.deepEqual(pooledRates(of(30, 20, 10)), [0.75, 0.5, 0.25]);
+  assert.deepEqual(pooledRates(of(20, 30, 10)), [0.625, 0.625, 0.25]);
+  // Pooled, the two can then be above the band below them, and are pooled with it in turn.
+  assert.deepEqual(pooledRates([{ heard: n, understood: 20 }, { heard: n, understood: 10 }, { heard: n, understood: 38 }]), Array(3).fill(68 / 120));
+});
+
+test('a band heard too little is pooled with the band beside it, the lowest with the one above', () => {
+  const few = MIN_HEARINGS - 1;
+  assert.deepEqual(pooledRates([{ heard: few, understood: few }, { heard: 41, understood: 21 }]), Array(2).fill((few + 21) / (few + 41)));
+  assert.deepEqual(pooledRates([{ heard: 40, understood: 30 }, { heard: 10, understood: 0 }, { heard: 40, understood: 10 }]), [0.6, 0.6, 0.25]);
+  assert.deepEqual(pooledRates([{ heard: 5, understood: 5 }, { heard: 5, understood: 0 }]), [0, 0]);
+  assert.deepEqual(pooledRates([]), []);
 });
 
 test('a word first heard before taps were logged counts as it stands, but says nothing of the rate', () => {
