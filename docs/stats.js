@@ -16,7 +16,10 @@ import {
 import { call, savedConnection } from './server.js';
 import { chapterLink, dayLabel } from './studied.js';
 import { tappedByDay, unknownWords } from './taps.js';
-import { GOAL_WORDS, fetchVocabulary, formatChange, timesSaid, vocabularyByDay, vocabularyDays, wordTicks } from './vocab.js';
+import {
+  DAY_UNDERSTOOD, GOAL_WORDS, WEEK_SOLID, fetchVocabulary, formatChange, gained, timesSaid, vocabularyByDay,
+  vocabularyDays, vocabularyWords, wordTicks,
+} from './vocab.js';
 
 /** @typedef {import('./progress.js').Days} Days */
 /** @typedef {import('./progress.js').Heard} Heard */
@@ -26,13 +29,15 @@ import { GOAL_WORDS, fetchVocabulary, formatChange, timesSaid, vocabularyByDay, 
 /** @typedef {import('./studied.js').Studied} Studied */
 /** @typedef {import('./vocab.js').VocabDay} VocabDay */
 /** @typedef {import('./vocab.js').TapHistory} TapHistory */
+/** @typedef {import('./vocab.js').Gain} Gain */
 /** @typedef {import('./level.js').Level} Level */
 /** @typedef {import('./level.js').BandLevel} BandLevel */
 /** @typedef {ReturnType<typeof speechShares>} Speech */
 /**
  * @typedef {{ days: Days, heard: Heard[], studied: Studied[], chaptersOf: Record<string, Chapter[]>,
  *   titles: Record<string, string>, tapped: Record<string, number>, unknown: number,
- *   vocabulary: VocabDay[] | null, level: { now: Level, weekAgo: Level, speech: Speech } | null }} Stats
+ *   vocabulary: VocabDay[] | null, gained: { day: Gain, week: Gain } | null,
+ *   level: { now: Level, weekAgo: Level, speech: Speech } | null }} Stats
  *   `tapped` is the words tapped each day; `unknown`, the words tapped in a studied chapter and not
  *   known since. The vocabulary, a row per day from the first studied, stays null until each studied
  *   episode's words are in; the HSK level, today and a week ago, and each band's share of the words
@@ -105,7 +110,7 @@ async function load() {
     stats = {
       days: listened.days, heard: listened.chapters, studied: studied.chapters, chaptersOf, titles,
       tapped: tappedByDay(history.tapped), unknown: unknownWords(taps.chapters), vocabulary: stats?.vocabulary ?? null,
-      level: stats?.level ?? null,
+      gained: stats?.gained ?? null, level: stats?.level ?? null,
     };
     // Last in, as it fetches every studied episode's words; it draws when they are.
     loadVocabulary(studied.chapters, history);
@@ -130,6 +135,8 @@ async function loadVocabulary(/** @type {Studied[]} */ studied, /** @type {TapHi
     const input = { studied, linesOf, vocab, history };
     const today = studyDay(new Date());
     stats.vocabulary = vocabularyByDay(input, vocabularyDays(studied, today));
+    const wordsOn = vocabularyWords(input);
+    stats.gained = { day: gained(wordsOn, addDays(today, -1), today), week: gained(wordsOn, addDays(today, -7), today) };
     const on = syllabus && levelOn(input, syllabus);
     stats.level = on && { now: on(today), weekAgo: on(addDays(today, -7), today), speech: speechShares(timesSaid(input, today), syllabus) };
   } catch {
@@ -189,7 +196,7 @@ function renderGoal(/** @type {Stats} */ { days, studied, unknown }, /** @type {
   $('total-days').textContent = String(listenedDays(days));
 }
 
-function renderVocabulary(/** @type {Stats} */ { vocabulary }, /** @type {string} */ today) {
+function renderVocabulary(/** @type {Stats} */ { vocabulary, gained }, /** @type {string} */ today) {
   $('vocab-goal').textContent = count(GOAL_WORDS);
   $('vocab-meter').setAttribute('aria-valuemax', String(GOAL_WORDS));
   const now = vocabulary?.at(-1);
@@ -202,8 +209,11 @@ function renderVocabulary(/** @type {Stats} */ { vocabulary }, /** @type {string
   $('vocab-share').textContent = `/ ${count(GOAL_WORDS)} · ${(share * 100).toLocaleString('vi-VN', { maximumFractionDigits: 1 })}%`;
   $('vocab-fill').style.width = meterWidth(share);
   $('vocab-meter').setAttribute('aria-valuenow', String(now.understood));
-  const before = vocabulary.at(-2) ?? now;
-  $('vocab-today').textContent = `Hôm nay ${formatChange(now.understood - before.understood)} từ hiểu khi nghe · ${formatChange(now.solid - before.solid)} từ đã vững.`;
+  if (gained) {
+    const { day, week } = gained;
+    $('vocab-today').textContent = `Hôm nay ${formatChange(day.understood)} / ${DAY_UNDERSTOOD} từ hiểu khi nghe · ${day.solid} từ mới vững.`;
+    $('vocab-week').textContent = `7 ngày qua ${formatChange(week.understood)} / ${count(7 * DAY_UNDERSTOOD)} từ hiểu khi nghe · ${week.solid} / ${WEEK_SOLID} từ mới vững.`;
+  }
   $('vocab-understood-tile').textContent = count(now.understood);
   $('vocab-solid').textContent = count(now.solid);
   $('vocab-heard').textContent = count(now.heard);

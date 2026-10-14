@@ -209,7 +209,11 @@ CC-CEDICT and the HSK list lack is split into the dictionary words it is made of
 known, and those splits, so a tap on 很脏 is a tap on 很 and 脏. `docs/vocab.js` counts a word
 understood once heard untapped in a chapter studied for the first time, and solid once heard so in
 three chapters over two days; a chapter studied again counts for nothing, as its lines are remembered.
-A tap takes a word out until it is heard untapped in a new chapter on a later day or said to be known.
+A tap takes a word out until it is heard untapped in a new chapter on a later day; ✓ Thuộc brings it
+back into the words understood at once, but not into the solid ones, which only hearing it again
+makes. The page holds study to 65 words understood a day and 100 made solid a week: about one word in
+four understood recurs enough to turn solid, so solid is judged over the week, by the words made
+solid in it rather than the change in the count, which HSK 1-2 tapped in a phrase pulls down.
 
 It also estimates the HSK level that vocabulary reaches (`docs/level.js`). Listening never brings a
 whole band (the podcasts say about half of HSK 4 at all), so a word heard counts as it stands, and one

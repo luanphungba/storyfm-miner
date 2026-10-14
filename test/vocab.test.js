@@ -1,7 +1,9 @@
 // @ts-check
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { firstHearings, formatChange, timesSaid, vocabularyByDay, vocabularyDays, vocabularyWords, wordTicks } from '../docs/vocab.js';
+import {
+  firstHearings, formatChange, gained, timesSaid, vocabularyByDay, vocabularyDays, vocabularyWords, wordTicks,
+} from '../docs/vocab.js';
 
 const chapter = (/** @type {number} */ start, /** @type {string[]} */ dates, ep = 'CC4') => ({ ep, start, end: start + 90, dates });
 /** One line per chapter's start, and one between them that no chapter has. */
@@ -68,12 +70,23 @@ test('a tap on a phrase is a tap on each word it counts as, HSK 1-2 too', () => 
   assert.deepEqual(v, { understood: 2, solid: 1, heard: 3 }); // 我, and 尴尬 understood; 很 and 脏 missed
 });
 
-test('a word said to be known counts in both, until it is tapped again later', () => {
+test('a word said to be known is understood, until it is tapped again later, and never solid by it', () => {
   const studied = [chapter(300, ['2026-10-01'])];
   const known = vocabulary({ studied, linesOf, vocab, latest: latest({ 脏: '2026-10-01' }, { 脏: '2026-10-01' }) });
-  assert.deepEqual(known, { understood: 3, solid: 3, heard: 1 });
+  assert.deepEqual(known, { understood: 3, solid: 2, heard: 1 }); // 我 很 solid; 脏 understood alone
   const again = vocabulary({ studied, linesOf, vocab, latest: latest({ 脏: '2026-10-02' }, { 脏: '2026-10-01' }) });
   assert.deepEqual(again, { understood: 2, solid: 2, heard: 1 });
+});
+
+test('HSK 1-2 tapped and said to be known is understood, and solid only once heard untapped again', () => {
+  const tapped = latest({ 很脏: '2026-10-01' }, { 很: '2026-10-01' });
+  const known = vocabulary({ studied: [chapter(100, ['2026-10-01'])], linesOf, vocab, latest: tapped });
+  assert.deepEqual(known, { understood: 3, solid: 1, heard: 3 }); // 我 很 尴尬 understood; 我 solid
+  const heard = vocabulary({ studied: [chapter(100, ['2026-10-01']), chapter(0, ['2026-10-02'])], linesOf, vocab, latest: tapped });
+  assert.equal(heard.solid, 1); // 很 is not said in the later chapter
+  const caught = { CC4: /** @type {[number, string][]} */ ([...linesOf.CC4, [400, '很']]) };
+  const again = vocabulary({ studied: [chapter(100, ['2026-10-01']), chapter(400, ['2026-10-02'])], linesOf: caught, vocab, latest: tapped });
+  assert.equal(again.solid, 2); // 很 heard untapped the next day: HSK 1-2 is solid again
 });
 
 test('a chapter takes the line a re-cut nudged before its start and no line past its end', () => {
@@ -143,6 +156,14 @@ test('the axis steps roundly from at or under the lowest count', () => {
   assert.deepEqual(wordTicks(1232, 1556), [1200, 1300, 1400, 1500, 1600]);
   assert.deepEqual(wordTicks(1256, 1260), [1250, 1260]);
   assert.deepEqual(wordTicks(1256, 1256), [1250, 1260]);
+});
+
+test('a gain counts the change in words understood, and the words made solid, not the change in solid', () => {
+  const studied = [chapter(0, ['2026-10-01']), chapter(100, ['2026-10-02']), chapter(0, ['2026-10-03'], 'CC5')];
+  const wordsOn = vocabularyWords({ studied, linesOf, vocab, history: latest({ 很脏: '2026-10-03' }) });
+  // 尴尬 is solid on the 3rd, heard in three chapters over three days; 很 and 脏, tapped as 很脏, are out
+  assert.deepEqual(gained(wordsOn, '2026-10-02', '2026-10-03'), { understood: -2, solid: 1 });
+  assert.deepEqual(gained(wordsOn, '2026-09-30', '2026-10-01'), { understood: 1, solid: 0 }); // 尴尬 heard once
 });
 
 test('a change says its sign', () => {
