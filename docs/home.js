@@ -8,12 +8,16 @@
 import { report, showHours } from './meter.js';
 import { call, savedConnection } from './server.js';
 import { chapterLink } from './studied.js';
-import { TOPIC_KEY, nextChapter, topicProgress, topicsOf } from './topics.js';
+import { TOPIC_KEY, byStudied, nextChapter, studiedCounts, topicProgress, topicsOf } from './topics.js';
 
 /** @typedef {{ id: string, title: string, pubDate: string, duration: number, source?: string, owner?: string }} Entry */
 /** @typedef {import('./topics.js').Topic} Topic */
 /** @typedef {import('./topics.js').Chapter} Chapter */
 /** @typedef {import('./studied.js').Studied} Studied */
+
+/** Each topic's chapters studied, as the server last said: the chips keep that order until it answers
+ * again, rather than jumping on every load. */
+const COUNTS_KEY = 'ci-topic-studied';
 
 const $ = (/** @type {string} */ id) => /** @type {HTMLElement} */ (document.getElementById(id));
 
@@ -130,10 +134,19 @@ function renderChips() {
     button.addEventListener('click', () => choose(t));
     return button;
   };
-  $('topics').replaceChildren(chip(undefined), ...topics.map(chip));
+  const counts = studied ? studiedCounts(topics, studied) : storedCounts();
+  $('topics').replaceChildren(chip(undefined), ...byStudied(topics, counts).map(chip));
   $('topics').hidden = !topics.length;
   // On a phone the row scrolls sideways; the topic chosen is kept in sight.
   $('topics').querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+}
+
+function storedCounts() {
+  try {
+    return JSON.parse(localStorage.getItem(COUNTS_KEY) ?? '{}');
+  } catch {
+    return {};
+  }
 }
 
 /** Fetches the chapters of the topic's episodes not fetched yet; an episode not cut into chapters has none. */
@@ -233,7 +246,13 @@ async function loadStudied() {
   const connection = savedConnection();
   if (!connection) return;
   ({ chapters: studied } = await call(connection, '/studied').catch(() => ({ chapters: null })));
-  if (studied) render();
+  if (!studied) return;
+  try {
+    localStorage.setItem(COUNTS_KEY, JSON.stringify(studiedCounts(topics, studied)));
+  } catch {
+    // The chips start in the written order next time, until the server answers.
+  }
+  render();
 }
 
 /** Today's listening and the way to a thousand hours, sending first what a page left unsent. */

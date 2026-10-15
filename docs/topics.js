@@ -1,6 +1,6 @@
 // @ts-check
-// Topics as the pages use them: which topics an episode is in, how far into a topic the chapters
-// studied go, and the chapter to study next. Pure, so test/topics.test.js covers it. The topics are
+// Topics as the pages use them: which topics an episode is in, the order the list shows them in, how
+// far into a topic the chapters studied go, and the chapter to study next. Pure, so test/topics.test.js covers it. The topics are
 // written in data/topics.json and reach the pages through data/index.json (src/topics.js).
 
 import { findStudied, lastStudied } from './studied.js';
@@ -17,6 +17,15 @@ export const TOPIC_KEY = 'ci-topic';
 /** The topics an episode is in. */
 export const topicsOf = (/** @type {Topic[]} */ topics, /** @type {string} */ ep) =>
   topics.filter((topic) => topic.episodes.includes(ep));
+
+/** How many chapters studied each topic has, by its id: a chapter in two topics counts in both. */
+export const studiedCounts = (/** @type {Topic[]} */ topics, /** @type {Studied[]} */ studied) =>
+  Object.fromEntries(topics.map((topic) => [topic.id, studied.filter((s) => topic.episodes.includes(s.ep)).length]));
+
+/** The topics, the one with the most chapters studied first: the topics gone into most are the ones
+ * opened most. Ties, and topics not started, keep the order data/topics.json gives them. */
+export const byStudied = (/** @type {Topic[]} */ topics, /** @type {Record<string, number>} */ counts) =>
+  topics.toSorted((a, b) => (counts[b.id] ?? 0) - (counts[a.id] ?? 0));
 
 /** The episode after `ep` in the topic's order, if there is one. */
 export function nextEpisode(/** @type {Topic} */ topic, /** @type {string} */ ep) {

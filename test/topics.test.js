@@ -2,7 +2,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { indexTopics } from '../src/topics.js';
-import { nextChapter, nextEpisode, topicProgress, topicsOf } from '../docs/topics.js';
+import { byStudied, nextChapter, nextEpisode, studiedCounts, topicProgress, topicsOf } from '../docs/topics.js';
 
 const episodes = ['CC4', 'CC118', 'CC39', 'E080', 'CC2'].map((id) => ({ id, title: `title ${id}` }));
 const topic = (id, ids) => ({ id, vi: id, zh: '', about: '', episodes: ids });
@@ -43,6 +43,17 @@ test('an episode is in the topics that list it, and the next one is the one afte
   assert.equal(nextEpisode(education, 'CC4'), 'CC118');
   assert.equal(nextEpisode(education, 'E080'), undefined);
   assert.equal(nextEpisode(education, 'CC2'), undefined);
+});
+
+test('lists the topic with the most chapters studied first, ties and topics not started as written', () => {
+  const work = { ...topic('cong-viec', ['CC2', 'CC4']), planned: [] };
+  const health = { ...topic('suc-khoe', ['E517']), planned: [] };
+  const city = { ...topic('thanh-pho', ['CC39']), planned: [] };
+  const list = [studied('CC2', 0, ['2026-10-06']), studied('CC2', 90, ['2026-10-06']), studied('CC4', 0, ['2026-10-07']), studied('E517', 0, ['2026-10-07'])];
+  const counts = studiedCounts([education, work, health, city], list);
+  assert.deepEqual(counts, { 'giao-duc': 1, 'cong-viec': 3, 'suc-khoe': 1, 'thanh-pho': 0 });
+  assert.deepEqual(byStudied([education, work, health, city], counts).map((t) => t.id), ['cong-viec', 'giao-duc', 'suc-khoe', 'thanh-pho']);
+  assert.deepEqual(byStudied([education, work], {}).map((t) => t.id), ['giao-duc', 'cong-viec']);
 });
 
 test('counts each episode\'s chapters and those studied, by the chapter\'s start', () => {
