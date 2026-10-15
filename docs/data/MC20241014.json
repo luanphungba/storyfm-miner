@@ -1,0 +1,9275 @@
+{
+  "id": "MC20241014",
+  "title": "Why Chinese and Foreigners View Friendship Differently? - Intermediate Chinese - Chinese Podcast",
+  "guid": "2idX7w0gs4k",
+  "pubDate": "2024-10-14",
+  "duration": 2292,
+  "audio": {
+    "m4a": "https://storyfm-audio.luanphungba.workers.dev/MC20241014.m4a"
+  },
+  "source": "podcast",
+  "owner": "Mandarin Corner",
+  "link": "https://www.youtube.com/watch?v=2idX7w0gs4k",
+  "engine": "assemblyai",
+  "cues": [
+    {
+      "i": 0,
+      "s": 0,
+      "start": 0.47,
+      "end": 4.1,
+      "text": "This video might feel difficult for some of you because",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 1,
+      "s": 1,
+      "start": 4.1,
+      "end": 5.92,
+      "text": "of the speed of the speech,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 2,
+      "s": 2,
+      "start": 6.28,
+      "end": 9.86,
+      "text": "so we suggest you use YouTube speed control to slow",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 3,
+      "s": 3,
+      "start": 9.86,
+      "end": 12.82,
+      "text": "it down. On your smartphone,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 4,
+      "s": 4,
+      "start": 13.22,
+      "end": 16.72,
+      "text": "lightly tap on the smartphone screen while you watch",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 5,
+      "s": 5,
+      "start": 16.72,
+      "end": 17.95,
+      "text": "a video,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 6,
+      "s": 6,
+      "start": 18.02,
+      "end": 22.04,
+      "text": "and the gear icon will appear on the upper right. Click",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 7,
+      "s": 7,
+      "start": 22.04,
+      "end": 27.97,
+      "text": "on this icon and then select playback speed. Not only",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 8,
+      "s": 8,
+      "start": 27.97,
+      "end": 30.79,
+      "text": "will this allow you to follow what is being said,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 9,
+      "s": 9,
+      "start": 30.79,
+      "end": 34.03,
+      "text": "but it will also give you more time to read the subtitles.",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 10,
+      "s": 10,
+      "start": 35.97,
+      "end": 38.27,
+      "text": "If you wish to study with transcripts,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 11,
+      "s": 11,
+      "start": 38.27,
+      "end": 41.61,
+      "text": "go to our website store to have access to our entire",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 12,
+      "s": 12,
+      "start": 41.61,
+      "end": 45.11,
+      "text": "PDF collection for one low price,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 13,
+      "s": 13,
+      "start": 46.29,
+      "end": 51.05,
+      "text": "as well as other inexpensive courses such as HSK 1 to",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 14,
+      "s": 14,
+      "start": 51.05,
+      "end": 56.19,
+      "text": "6. Anki flash cards,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 15,
+      "s": 15,
+      "start": 58.44,
+      "end": 63.21,
+      "text": "pocket sized posters to study Chinese characters,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 16,
+      "s": 16,
+      "start": 65.25,
+      "end": 71.27,
+      "text": "as well as audio podcasts, street interviews,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 17,
+      "s": 17,
+      "start": 71.81,
+      "end": 72.58,
+      "text": "in depth interviews,",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 18,
+      "s": 18,
+      "start": 73.39,
+      "end": 80.25,
+      "text": "and more. A link to our store is below.",
+      "speaker": "A",
+      "role": "narrator"
+    },
+    {
+      "i": 19,
+      "s": 19,
+      "start": 86.72,
+      "end": 88.12,
+      "text": "大家好，欢迎来到",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 20,
+      "s": 19,
+      "start": 88.12,
+      "end": 90.22,
+      "text": "Mandarin Corner的播客节目。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 21,
+      "s": 20,
+      "start": 90.22,
+      "end": 91.38,
+      "text": "我是艾琳。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 22,
+      "s": 21,
+      "start": 91.38,
+      "end": 92.86,
+      "text": "大家好，我是科尔。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 23,
+      "s": 22,
+      "start": 92.86,
+      "end": 94.16,
+      "text": "哎，你你说你去打篮球，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 24,
+      "s": 22,
+      "start": 94.16,
+      "end": 95.58,
+      "text": "我记得你之前跟我说，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 25,
+      "s": 22,
+      "start": 95.58,
+      "end": 96.48,
+      "text": "你打篮球的时候",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 26,
+      "s": 22,
+      "start": 96.48,
+      "end": 98.86,
+      "text": "也碰到许多外国人，是吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 27,
+      "s": 23,
+      "start": 99.12,
+      "end": 103.66,
+      "text": "我们小区里面来了很多巴基斯坦、",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 28,
+      "s": 23,
+      "start": 103.66,
+      "end": 106.26,
+      "text": "印度，然后孟加拉，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 29,
+      "s": 23,
+      "start": 106.26,
+      "end": 107.42,
+      "text": "然后斯里兰卡的人。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 30,
+      "s": 24,
+      "start": 107.91,
+      "end": 109.8,
+      "text": "好像有很多外国公司",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 31,
+      "s": 24,
+      "start": 109.8,
+      "end": 111.56,
+      "text": "现在都雇那边的人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 32,
+      "s": 24,
+      "start": 111.56,
+      "end": 113.2,
+      "text": "到我们这儿来工作，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 33,
+      "s": 24,
+      "start": 113.2,
+      "end": 115.38,
+      "text": "大概是因为他们薪水比较便宜吧。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 34,
+      "s": 25,
+      "start": 115.38,
+      "end": 116.78,
+      "text": "我猜中山也",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 35,
+      "s": 25,
+      "start": 116.78,
+      "end": 119.04,
+      "text": "怎么会有人知道中山这个小城市？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 36,
+      "s": 26,
+      "start": 119.32,
+      "end": 121.68,
+      "text": "中山有很多工业在这里，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 37,
+      "s": 26,
+      "start": 121.68,
+      "end": 123.14,
+      "text": "有很多外国公司在这里，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 38,
+      "s": 26,
+      "start": 123.14,
+      "end": 125,
+      "text": "尤其是那个轻工产业嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 39,
+      "s": 27,
+      "start": 125,
+      "end": 127.18,
+      "text": "他们在这做东西嘛，衣服什么的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 40,
+      "s": 28,
+      "start": 127.54,
+      "end": 130,
+      "text": "这些国家的人他普遍都会讲英文，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 41,
+      "s": 28,
+      "start": 130,
+      "end": 132.22,
+      "text": "然后他们薪水比较便宜，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 42,
+      "s": 28,
+      "start": 132.22,
+      "end": 133.36,
+      "text": "从他们国家来的话。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 43,
+      "s": 29,
+      "start": 133.71,
+      "end": 136.54,
+      "text": "那那那你跟他们算是篮球友吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 44,
+      "s": 30,
+      "start": 137.13,
+      "end": 139.13,
+      "text": "还是也后面慢慢成为朋友了？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 45,
+      "s": 31,
+      "start": 139.79,
+      "end": 140.97,
+      "text": "啊，算是朋友吧。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 46,
+      "s": 32,
+      "start": 141.01,
+      "end": 142.69,
+      "text": "就是像其他那些",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 47,
+      "s": 32,
+      "start": 142.69,
+      "end": 144.59,
+      "text": "我去打篮球遇到的朋友一样，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 48,
+      "s": 32,
+      "start": 145.53,
+      "end": 146.67,
+      "text": "就是去的时候",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 49,
+      "s": 32,
+      "start": 146.67,
+      "end": 148.87,
+      "text": "在球场打球的时候会聊几句，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 50,
+      "s": 33,
+      "start": 149.13,
+      "end": 151.02,
+      "text": "就是就这样的，也算是朋友吧。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 51,
+      "s": 34,
+      "start": 151.97,
+      "end": 154.78,
+      "text": "那你你外国的朋友多不多？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 52,
+      "s": 35,
+      "start": 155.68,
+      "end": 157.21,
+      "text": "不是不是很多哎，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 53,
+      "s": 35,
+      "start": 157.21,
+      "end": 159.05,
+      "text": "特别好的大概就一两个吧。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 54,
+      "s": 36,
+      "start": 159.43,
+      "end": 162.56,
+      "text": "嗯，那他们来自哪一些国家呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 55,
+      "s": 37,
+      "start": 163.12,
+      "end": 166.89,
+      "text": "有一个比利时的，有一个澳大利亚的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 56,
+      "s": 38,
+      "start": 167.24,
+      "end": 168.58,
+      "text": "比利时的那个朋友，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 57,
+      "s": 38,
+      "start": 168.58,
+      "end": 174.02,
+      "text": "他是啊我女朋友的同事的呃老公。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 58,
+      "s": 39,
+      "start": 174.02,
+      "end": 175.82,
+      "text": "我们有一次去那个",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 59,
+      "s": 39,
+      "start": 175.82,
+      "end": 177.18,
+      "text": "他们公司的活动嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 60,
+      "s": 39,
+      "start": 177.18,
+      "end": 179.74,
+      "text": "然后我们去吃烧烤，那个时候认识的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 61,
+      "s": 40,
+      "start": 179.74,
+      "end": 182.32,
+      "text": "然后我们就聊了一些话题，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 62,
+      "s": 40,
+      "start": 182.32,
+      "end": 184.18,
+      "text": "然后就慢慢慢慢就熟起来，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 63,
+      "s": 40,
+      "start": 184.18,
+      "end": 185.23,
+      "text": "然后就聊了很多，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 64,
+      "s": 41,
+      "start": 185.3,
+      "end": 187.06,
+      "text": "其实发现我们有很多共同点。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 65,
+      "s": 42,
+      "start": 187.54,
+      "end": 189.27,
+      "text": "就当时见面的时候",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 66,
+      "s": 42,
+      "start": 189.27,
+      "end": 190.62,
+      "text": "就聊了好几个小时，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 67,
+      "s": 42,
+      "start": 191.53,
+      "end": 192.59,
+      "text": "然后就活动结束了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 68,
+      "s": 42,
+      "start": 192.59,
+      "end": 193.51,
+      "text": "我们觉得还不过瘾，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 69,
+      "s": 43,
+      "start": 193.51,
+      "end": 194.65,
+      "text": "后来又约出来聊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 70,
+      "s": 43,
+      "start": 194.65,
+      "end": 196.23,
+      "text": "然后就慢慢就变成好朋友了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 71,
+      "s": 44,
+      "start": 196.23,
+      "end": 197.54,
+      "text": "他结婚也请我去。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 72,
+      "s": 45,
+      "start": 197.77,
+      "end": 200.31,
+      "text": "你有没有听过一些外国人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 73,
+      "s": 45,
+      "start": 200.31,
+      "end": 202.73,
+      "text": "来到中国之后，然后他们抱怨说",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 74,
+      "s": 45,
+      "start": 202.73,
+      "end": 205.21,
+      "text": "在中国很难交到中国朋友，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 75,
+      "s": 46,
+      "start": 205.21,
+      "end": 208.17,
+      "text": "或者说交朋友的过程中有一些障碍？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 76,
+      "s": 47,
+      "start": 208.17,
+      "end": 210.13,
+      "text": "其实我碰到的外国人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 77,
+      "s": 47,
+      "start": 210.13,
+      "end": 212.61,
+      "text": "很多都是在这儿工作的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 78,
+      "s": 47,
+      "start": 212.61,
+      "end": 213.59,
+      "text": "给我的印象是",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 79,
+      "s": 47,
+      "start": 213.59,
+      "end": 215.53,
+      "text": "他们有一个很封闭、很小的圈子。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 80,
+      "s": 48,
+      "start": 215.76,
+      "end": 218.8,
+      "text": "然后他们不大愿意跟中国人交流，啊？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 81,
+      "s": 49,
+      "start": 218.8,
+      "end": 219.58,
+      "text": "为什么呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 82,
+      "s": 50,
+      "start": 219.58,
+      "end": 222.1,
+      "text": "第一个问题我觉得是语言的障碍吧。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 83,
+      "s": 51,
+      "start": 222.1,
+      "end": 223.68,
+      "text": "大部分外国人他的中文",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 84,
+      "s": 51,
+      "start": 223.68,
+      "end": 225.28,
+      "text": "其实并不是太好。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 85,
+      "s": 52,
+      "start": 225.28,
+      "end": 227.5,
+      "text": "老实说，我碰到的外国人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 86,
+      "s": 52,
+      "start": 227.5,
+      "end": 230.83,
+      "text": "很少能够用流利的中文来交流的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 87,
+      "s": 53,
+      "start": 230.84,
+      "end": 232.24,
+      "text": "所以我觉得",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 88,
+      "s": 53,
+      "start": 232.24,
+      "end": 236.06,
+      "text": "首先他们得把中文掌握好了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 89,
+      "s": 53,
+      "start": 236.06,
+      "end": 238.28,
+      "text": "然后才能去更深一步的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 90,
+      "s": 53,
+      "start": 238.28,
+      "end": 239.24,
+      "text": "去结交中国朋友。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 91,
+      "s": 54,
+      "start": 239.24,
+      "end": 242.11,
+      "text": "要么就是呃这些中国人他本身就是。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 92,
+      "s": 55,
+      "start": 242.53,
+      "end": 243.85,
+      "text": "呃，英文讲得很好，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 93,
+      "s": 55,
+      "start": 243.85,
+      "end": 245.55,
+      "text": "然后也熟悉外国的文化，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 94,
+      "s": 55,
+      "start": 245.55,
+      "end": 247.65,
+      "text": "这样他们就可以聊到一块儿去。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 95,
+      "s": 56,
+      "start": 247.65,
+      "end": 250.92,
+      "text": "哎，你第一次交外国朋友是什么时候？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 96,
+      "s": 57,
+      "start": 251.97,
+      "end": 253.51,
+      "text": "我第一次交外国朋友",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 97,
+      "s": 57,
+      "start": 253.51,
+      "end": 256.39,
+      "text": "可能是啊高中的时候。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 98,
+      "s": 58,
+      "start": 256.39,
+      "end": 259.83,
+      "text": "高中的时候我们有一个外教课，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 99,
+      "s": 58,
+      "start": 259.83,
+      "end": 261.25,
+      "text": "就是外教老师。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 100,
+      "s": 59,
+      "start": 261.25,
+      "end": 263.77,
+      "text": "其实我我们认为他们是朋友，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 101,
+      "s": 59,
+      "start": 263.77,
+      "end": 265.77,
+      "text": "他们也给我们一个感觉，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 102,
+      "s": 59,
+      "start": 265.77,
+      "end": 267.29,
+      "text": "就是他们愿意来做我们的朋友，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 103,
+      "s": 59,
+      "start": 267.29,
+      "end": 269.08,
+      "text": "愿意跟我们。交流沟通，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 104,
+      "s": 60,
+      "start": 269.08,
+      "end": 271.93,
+      "text": "所以我就觉得这也算是朋友吧。",
+      "speaker": "C",
+      "u": 59,
+      "role": "storyteller"
+    },
+    {
+      "i": 105,
+      "s": 61,
+      "start": 272.7,
+      "end": 275.4,
+      "text": "然后我们学校换了好几个外教，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 106,
+      "s": 61,
+      "start": 275.4,
+      "end": 278.32,
+      "text": "有一个是从南斯拉夫来的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 107,
+      "s": 62,
+      "start": 278.32,
+      "end": 279.26,
+      "text": "原来的南斯拉夫",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 108,
+      "s": 62,
+      "start": 279.26,
+      "end": 281.19,
+      "text": "现在这个国家已经不存在了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 109,
+      "s": 63,
+      "start": 281.3,
+      "end": 283.34,
+      "text": "他来教我们英文，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 110,
+      "s": 63,
+      "start": 283.34,
+      "end": 286.06,
+      "text": "他就会比较侧重于语法，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 111,
+      "s": 63,
+      "start": 286.06,
+      "end": 287.36,
+      "text": "教我们一些基础的东西，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 112,
+      "s": 64,
+      "start": 287.36,
+      "end": 290.9,
+      "text": "就像那种苏联模式的学英文啊。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 113,
+      "s": 65,
+      "start": 290.9,
+      "end": 292.9,
+      "text": "那跟我们一样嘛，就很对我不会口。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 114,
+      "s": 66,
+      "start": 292.9,
+      "end": 293.5,
+      "text": "哎，对对对对。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 115,
+      "s": 67,
+      "start": 293.78,
+      "end": 296.68,
+      "text": "然后后来就有有美国的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 116,
+      "s": 67,
+      "start": 296.68,
+      "end": 300.44,
+      "text": "有加拿大的，然后有嗯新西兰的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 117,
+      "s": 68,
+      "start": 300.44,
+      "end": 302.1,
+      "text": "其中我记得很清楚，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 118,
+      "s": 68,
+      "start": 302.1,
+      "end": 303.66,
+      "text": "有一个加拿大的外教，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 119,
+      "s": 68,
+      "start": 303.66,
+      "end": 305.58,
+      "text": "然后他是一个年轻小伙子。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 120,
+      "s": 69,
+      "start": 305.58,
+      "end": 307.44,
+      "text": "我们那个时候温度很低，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 121,
+      "s": 69,
+      "start": 307.44,
+      "end": 310.32,
+      "text": "他穿了一个冰球短裤来，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 122,
+      "s": 69,
+      "start": 310.46,
+      "end": 312.26,
+      "text": "我们就觉得很震惊。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 123,
+      "s": 70,
+      "start": 312.56,
+      "end": 314.64,
+      "text": "哇哦，好好神奇！",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 124,
+      "s": 71,
+      "start": 314.64,
+      "end": 315.8,
+      "text": "这就是外国人吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 125,
+      "s": 72,
+      "start": 315.8,
+      "end": 317.66,
+      "text": "这就是电视上看到外国人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 126,
+      "s": 72,
+      "start": 317.66,
+      "end": 318.56,
+      "text": "真的不一样哎。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 127,
+      "s": 73,
+      "start": 318.56,
+      "end": 320.78,
+      "text": "然后你会对他的文化产生好奇，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 128,
+      "s": 73,
+      "start": 320.78,
+      "end": 323.08,
+      "text": "你会自然的想去了解他，你知道吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 129,
+      "s": 74,
+      "start": 323.25,
+      "end": 324.29,
+      "text": "我们有同学，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 130,
+      "s": 74,
+      "start": 324.29,
+      "end": 326.31,
+      "text": "因为我们当时很喜欢玩电脑游戏，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 131,
+      "s": 74,
+      "start": 326.31,
+      "end": 328.71,
+      "text": "有个游戏叫《星际争霸》，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 132,
+      "s": 75,
+      "start": 328.71,
+      "end": 332.43,
+      "text": "我们就约他说能不能够呃放学以后，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 133,
+      "s": 75,
+      "start": 332.43,
+      "end": 333.99,
+      "text": "然后我们去网吧，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 134,
+      "s": 75,
+      "start": 333.99,
+      "end": 335.85,
+      "text": "然后我们去联机游戏。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 135,
+      "s": 76,
+      "start": 335.85,
+      "end": 339.13,
+      "text": "其实就是想说通过跟他一起玩游戏，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 136,
+      "s": 76,
+      "start": 339.13,
+      "end": 341.38,
+      "text": "然后发展出一段友谊，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 137,
+      "s": 77,
+      "start": 341.61,
+      "end": 345.11,
+      "text": "还有一个就是美国来的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 138,
+      "s": 77,
+      "start": 345.11,
+      "end": 346.97,
+      "text": "我记得他名字叫Tony，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 139,
+      "s": 77,
+      "start": 346.97,
+      "end": 350.61,
+      "text": "大概五六十岁，然后他之前去过非洲。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 140,
+      "s": 78,
+      "start": 350.88,
+      "end": 353.2,
+      "text": "他喜欢一些户外运动，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 141,
+      "s": 78,
+      "start": 353.2,
+      "end": 354.84,
+      "text": "他喜欢攀岩什么的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 142,
+      "s": 79,
+      "start": 354.84,
+      "end": 355.68,
+      "text": "上课的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 143,
+      "s": 79,
+      "start": 356.04,
+      "end": 358.36,
+      "text": "他不会去按照课本来教我们，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 144,
+      "s": 79,
+      "start": 358.36,
+      "end": 360.02,
+      "text": "然后他就教我们一些别的东西，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 145,
+      "s": 80,
+      "start": 360.02,
+      "end": 362.3,
+      "text": "比如说问我们对攀岩感不感兴趣，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 146,
+      "s": 80,
+      "start": 362.3,
+      "end": 363.72,
+      "text": "对搭帐篷感不感兴趣。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 147,
+      "s": 81,
+      "start": 363.72,
+      "end": 366.34,
+      "text": "他就在教室里把那个帐篷搭起来，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 148,
+      "s": 81,
+      "start": 366.34,
+      "end": 369.24,
+      "text": "我们都觉得这些东西很很有趣。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 149,
+      "s": 82,
+      "start": 369.78,
+      "end": 371.83,
+      "text": "他还讲了一些圣经故事吧。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 150,
+      "s": 83,
+      "start": 371.86,
+      "end": 374.1,
+      "text": "当时班上没有人知道这是圣经故事，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 151,
+      "s": 83,
+      "start": 374.1,
+      "end": 376.06,
+      "text": "但是但是我读过，我就跟他说，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 152,
+      "s": 83,
+      "start": 376.06,
+      "end": 376.74,
+      "text": "然后他说：“哇哦，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 153,
+      "s": 84,
+      "start": 376.74,
+      "end": 379.48,
+      "text": "你居然知道这是圣经故事哎！”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 154,
+      "s": 85,
+      "start": 379.48,
+      "end": 381.14,
+      "text": "然后我觉得哇，好有成就感，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 155,
+      "s": 85,
+      "start": 381.14,
+      "end": 382.51,
+      "text": "我被表扬了，被老师。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 156,
+      "s": 86,
+      "start": 382.88,
+      "end": 384.66,
+      "text": "其实我跟他有一",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 157,
+      "s": 86,
+      "start": 384.66,
+      "end": 387.53,
+      "text": "就是有一段蛮长时间的交流，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 158,
+      "s": 86,
+      "start": 387.74,
+      "end": 390.42,
+      "text": "不能算是很深层次的友谊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 159,
+      "s": 87,
+      "start": 390.42,
+      "end": 392.64,
+      "text": "但是有一些话题我们是能够聊的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 160,
+      "s": 88,
+      "start": 392.64,
+      "end": 395.2,
+      "text": "再加上当时我的英文也不太好，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 161,
+      "s": 88,
+      "start": 395.2,
+      "end": 397.22,
+      "text": "我们能聊的话题都很有限。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 162,
+      "s": 89,
+      "start": 397.22,
+      "end": 399.98,
+      "text": "但是我还是觉得，呃，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 163,
+      "s": 89,
+      "start": 399.98,
+      "end": 402.44,
+      "text": "跟他们互动是一件很有趣的事情。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 164,
+      "s": 90,
+      "start": 402.64,
+      "end": 404.98,
+      "text": "就是你也也也碰到挺多外国人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 165,
+      "s": 90,
+      "start": 404.98,
+      "end": 407.28,
+      "text": "跟很多外国人啊交流过嘛？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 166,
+      "s": 91,
+      "start": 407.28,
+      "end": 407.92,
+      "text": "你觉得？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 167,
+      "s": 92,
+      "start": 408.36,
+      "end": 411.65,
+      "text": "在跟中国人交朋友的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 168,
+      "s": 92,
+      "start": 411.65,
+      "end": 414.88,
+      "text": "有什么是你注意到的最明显的不同？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 169,
+      "s": 93,
+      "start": 415.16,
+      "end": 417.87,
+      "text": "最明显的不同，我注意到的就是",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 170,
+      "s": 93,
+      "start": 417.87,
+      "end": 421.89,
+      "text": "我会更愿意跟外国人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 171,
+      "s": 93,
+      "start": 421.89,
+      "end": 423.95,
+      "text": "聊一些比较有深度的话题。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 172,
+      "s": 94,
+      "start": 424.41,
+      "end": 429.03,
+      "text": "跟中国人的话，好像除了一些很小的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 173,
+      "s": 94,
+      "start": 429.03,
+      "end": 431.99,
+      "text": "就是日常话题，天气呀，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 174,
+      "s": 94,
+      "start": 432.29,
+      "end": 435.37,
+      "text": "然后呃，你这你结婚没有啊？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 175,
+      "s": 95,
+      "start": 435.37,
+      "end": 437.29,
+      "text": "你你的工资多少呀？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 176,
+      "s": 96,
+      "start": 437.58,
+      "end": 440.04,
+      "text": "如果你结婚了，你有没有小孩？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 177,
+      "s": 97,
+      "start": 440.04,
+      "end": 441.98,
+      "text": "如果你有小孩，你有几个小孩？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 178,
+      "s": 98,
+      "start": 441.98,
+      "end": 443.14,
+      "text": "如果你有几个小孩，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 179,
+      "s": 98,
+      "start": 443.14,
+      "end": 445.2,
+      "text": "这些小孩是男孩还是女孩？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 180,
+      "s": 99,
+      "start": 445.52,
+      "end": 446.16,
+      "text": "如果上学了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 181,
+      "s": 99,
+      "start": 446.16,
+      "end": 448.16,
+      "text": "是上的小学、中学还是大学？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 182,
+      "s": 100,
+      "start": 448.42,
+      "end": 450.93,
+      "text": "还有就是他们会问你住在哪里啊？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 183,
+      "s": 101,
+      "start": 451.26,
+      "end": 454.38,
+      "text": "如果他知道你住在哪个小区哦，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 184,
+      "s": 101,
+      "start": 454.38,
+      "end": 457.72,
+      "text": "那个小区，那你住的房房子多大呀？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 185,
+      "s": 102,
+      "start": 457.72,
+      "end": 459.58,
+      "text": "几户户型是什么呀？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 186,
+      "s": 103,
+      "start": 459.58,
+      "end": 460.9,
+      "text": "他就会问这样的话题。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 187,
+      "s": 104,
+      "start": 460.9,
+      "end": 464.74,
+      "text": "其实我嗯不是很愿意去讲",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 188,
+      "s": 104,
+      "start": 464.74,
+      "end": 467.42,
+      "text": "这些属于个人隐私的话题，因为。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 189,
+      "s": 105,
+      "start": 468.55,
+      "end": 470.34,
+      "text": "你知道这些干什么呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 190,
+      "s": 106,
+      "start": 470.34,
+      "end": 474.3,
+      "text": "你知道我住两室一厅、三室一厅，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 191,
+      "s": 106,
+      "start": 474.3,
+      "end": 475.52,
+      "text": "一个厕所、两个厕所",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 192,
+      "s": 106,
+      "start": 475.52,
+      "end": 477.1,
+      "text": "跟你有什么关系吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 193,
+      "s": 107,
+      "start": 477.1,
+      "end": 478.84,
+      "text": "我觉得判断你有没有钱。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 194,
+      "s": 108,
+      "start": 479.53,
+      "end": 482.38,
+      "text": "那如果你知道我有钱了，那下一步呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 195,
+      "s": 109,
+      "start": 482.38,
+      "end": 483.84,
+      "text": "你又你又要做什么呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 196,
+      "s": 110,
+      "start": 483.84,
+      "end": 485.77,
+      "text": "我就觉得特别不理解。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 197,
+      "s": 111,
+      "start": 485.9,
+      "end": 487.96,
+      "text": "多跟你交流交流一下",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 198,
+      "s": 111,
+      "start": 487.96,
+      "end": 489.56,
+      "text": "你是怎么挣到这个钱的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 199,
+      "s": 111,
+      "start": 489.56,
+      "end": 490.78,
+      "text": "然后也教教我。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 200,
+      "s": 112,
+      "start": 491.34,
+      "end": 492.92,
+      "text": "嗯，如果我能挣到这个钱，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 201,
+      "s": 112,
+      "start": 492.92,
+      "end": 494.5,
+      "text": "我还要我还要教你吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 202,
+      "s": 113,
+      "start": 494.5,
+      "end": 496.73,
+      "text": "如果你都能自己挣到钱了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 203,
+      "s": 113,
+      "start": 496.73,
+      "end": 498.35,
+      "text": "你就不用请教我了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 204,
+      "s": 114,
+      "start": 498.35,
+      "end": 500.69,
+      "text": "关于问工资，他他很常见，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 205,
+      "s": 114,
+      "start": 500.69,
+      "end": 501.95,
+      "text": "常见到什么状态呢？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 206,
+      "s": 115,
+      "start": 501.95,
+      "end": 504.59,
+      "text": "就是有的时候我跟陌生人聊天，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 207,
+      "s": 115,
+      "start": 504.59,
+      "end": 505.81,
+      "text": "就比如说出租车司机，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 208,
+      "s": 115,
+      "start": 505.81,
+      "end": 508.37,
+      "text": "我特别喜欢跟出租车司机聊天，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 209,
+      "s": 116,
+      "start": 508.37,
+      "end": 509.61,
+      "text": "有的时候就会想问一下",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 210,
+      "s": 116,
+      "start": 509.61,
+      "end": 510.71,
+      "text": "行业的现状嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 211,
+      "s": 116,
+      "start": 510.71,
+      "end": 512.19,
+      "text": "就是现在生意怎么样啊？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 212,
+      "s": 117,
+      "start": 512.19,
+      "end": 513.59,
+      "text": "就是还不等我问他",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 213,
+      "s": 117,
+      "start": 513.59,
+      "end": 514.57,
+      "text": "你一个月挣多少钱，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 214,
+      "s": 117,
+      "start": 514.57,
+      "end": 515.61,
+      "text": "他直接就告诉我，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 215,
+      "s": 117,
+      "start": 515.61,
+      "end": 517.85,
+      "text": "我一天可能就是有三百的流水，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 216,
+      "s": 118,
+      "start": 517.85,
+      "end": 521.15,
+      "text": "然后除去油钱，除去这个这个这个的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 217,
+      "s": 118,
+      "start": 521.15,
+      "end": 523.03,
+      "text": "我大概就是能够挣个一百五啊、",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 218,
+      "s": 118,
+      "start": 523.03,
+      "end": 524.03,
+      "text": "两百啊这样子。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 219,
+      "s": 119,
+      "start": 524.11,
+      "end": 526.11,
+      "text": "他就已经跟我交代完了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 220,
+      "s": 120,
+      "start": 526.11,
+      "end": 530.43,
+      "text": "因为他尤其是出租车司机啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 221,
+      "s": 120,
+      "start": 530.43,
+      "end": 533.13,
+      "text": "因为他们是很喜欢抱怨的一个群体。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 222,
+      "s": 121,
+      "start": 533.13,
+      "end": 533.65,
+      "text": "为什么呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 223,
+      "s": 122,
+      "start": 533.65,
+      "end": 535.17,
+      "text": "因为他们的工作很辛苦，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 224,
+      "s": 122,
+      "start": 535.17,
+      "end": 537.09,
+      "text": "然后他们的收入很低，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 225,
+      "s": 122,
+      "start": 537.09,
+      "end": 539.17,
+      "text": "他没有什么好隐藏的嘛，对不对？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 226,
+      "s": 123,
+      "start": 539.23,
+      "end": 541.15,
+      "text": "在中国有一个有一个现象",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 227,
+      "s": 123,
+      "start": 541.15,
+      "end": 542.85,
+      "text": "就是说，有些人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 228,
+      "s": 123,
+      "start": 542.85,
+      "end": 545.51,
+      "text": "其实他没有他看上去这么有钱，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 229,
+      "s": 124,
+      "start": 545.51,
+      "end": 548.25,
+      "text": "就比如说有很多人谈生意，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 230,
+      "s": 125,
+      "start": 548.65,
+      "end": 550.97,
+      "text": "他可能分期付款买了一台豪车。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 231,
+      "s": 126,
+      "start": 551.82,
+      "end": 554.89,
+      "text": "OK，或者说他租了一辆豪车，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 232,
+      "s": 126,
+      "start": 554.89,
+      "end": 557.66,
+      "text": "然后他会营造一种他很有钱的感觉。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 233,
+      "s": 127,
+      "start": 557.97,
+      "end": 560.99,
+      "text": "就是这个社会从上从上层",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 234,
+      "s": 127,
+      "start": 560.99,
+      "end": 563.95,
+      "text": "到中层到下层都有这样的人。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 235,
+      "s": 128,
+      "start": 563.95,
+      "end": 566.23,
+      "text": "你可以看那个恒大嘛，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 236,
+      "s": 129,
+      "start": 566.71,
+      "end": 569.53,
+      "text": "恒大老板许家印嘛，他营造出他一",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 237,
+      "s": 129,
+      "start": 569.53,
+      "end": 571.25,
+      "text": "他有一副很有钱的样子，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 238,
+      "s": 129,
+      "start": 571.25,
+      "end": 573.51,
+      "text": "从他穿的衣服，然后他住的酒店，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 239,
+      "s": 130,
+      "start": 573.51,
+      "end": 575.81,
+      "text": "他吃的东西，所有的这些",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 240,
+      "s": 130,
+      "start": 575.81,
+      "end": 578.13,
+      "text": "看上去是一个很有钱的人，对不对？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 241,
+      "s": 131,
+      "start": 578.18,
+      "end": 580.32,
+      "text": "实际上他是负债的，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 242,
+      "s": 132,
+      "start": 580.96,
+      "end": 583.64,
+      "text": "但是他去找人家借钱",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 243,
+      "s": 132,
+      "start": 583.64,
+      "end": 585.32,
+      "text": "或者找银行贷款的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 244,
+      "s": 132,
+      "start": 585.32,
+      "end": 587.06,
+      "text": "或者跟别人谈生意的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 245,
+      "s": 133,
+      "start": 587.06,
+      "end": 589.86,
+      "text": "他永远显示出他很有实力的样子。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 246,
+      "s": 134,
+      "start": 590.14,
+      "end": 591.24,
+      "text": "你只有两块钱，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 247,
+      "s": 134,
+      "start": 591.24,
+      "end": 593.64,
+      "text": "但你要装出你有十五块钱的样子。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 248,
+      "s": 135,
+      "start": 594.12,
+      "end": 597.1,
+      "text": "呃，话说回来，到出租车司机那个地方，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 249,
+      "s": 135,
+      "start": 597.1,
+      "end": 598.98,
+      "text": "他是一个很实在的工作，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 250,
+      "s": 135,
+      "start": 598.98,
+      "end": 600.66,
+      "text": "他就不需要务虚的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 251,
+      "s": 136,
+      "start": 600.66,
+      "end": 602.57,
+      "text": "他不需要让别人去猜。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 252,
+      "s": 137,
+      "start": 602.62,
+      "end": 604.04,
+      "text": "就是我们的平均收入",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 253,
+      "s": 137,
+      "start": 604.04,
+      "end": 605.88,
+      "text": "其实不是很高的一个国家，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 254,
+      "s": 137,
+      "start": 605.88,
+      "end": 606.96,
+      "text": "虽然我们的GDP",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 255,
+      "s": 137,
+      "start": 606.96,
+      "end": 608.19,
+      "text": "已经世界第二了，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 256,
+      "s": 138,
+      "start": 608.41,
+      "end": 610.75,
+      "text": "社会是创造了很多财富，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 257,
+      "s": 138,
+      "start": 610.75,
+      "end": 613.05,
+      "text": "但是平均到个人头上就没有多少了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 258,
+      "s": 139,
+      "start": 613.05,
+      "end": 614.84,
+      "text": "所以每个人赚钱都很辛苦。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 259,
+      "s": 140,
+      "start": 615.25,
+      "end": 616.75,
+      "text": "我觉得这这也是一个",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 260,
+      "s": 140,
+      "start": 616.75,
+      "end": 618.51,
+      "text": "为什么中国人很喜欢问人家",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 261,
+      "s": 140,
+      "start": 618.51,
+      "end": 620.07,
+      "text": "有多少钱的原因，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 262,
+      "s": 141,
+      "start": 620.29,
+      "end": 623.83,
+      "text": "就是我们现在还处在一个",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 263,
+      "s": 141,
+      "start": 623.83,
+      "end": 627.69,
+      "text": "就是对对对呃钱感到饥渴的状态，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 264,
+      "s": 141,
+      "start": 627.69,
+      "end": 628.67,
+      "text": "你知道吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 265,
+      "s": 142,
+      "start": 628.67,
+      "end": 630.24,
+      "text": "比如说你买了房，对不对？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 266,
+      "s": 143,
+      "start": 630.35,
+      "end": 633.23,
+      "text": "你有了小孩，你结婚了，你有很多花销，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 267,
+      "s": 143,
+      "start": 633.23,
+      "end": 636.03,
+      "text": "然后这些小孩还要读书，读书要花钱。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 268,
+      "s": 144,
+      "start": 636.34,
+      "end": 638.64,
+      "text": "如果你是独生子女的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 269,
+      "s": 144,
+      "start": 638.64,
+      "end": 640.44,
+      "text": "你还要供养你的父母，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 270,
+      "s": 144,
+      "start": 640.44,
+      "end": 642,
+      "text": "然后还有你老婆的父母。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 271,
+      "s": 145,
+      "start": 642,
+      "end": 644.96,
+      "text": "我们已经没有多少时间去，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 272,
+      "s": 145,
+      "start": 644.96,
+      "end": 647.98,
+      "text": "就是在爱好方面花时间了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 273,
+      "s": 146,
+      "start": 647.98,
+      "end": 649.3,
+      "text": "我们觉得这是不务正业，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 274,
+      "s": 146,
+      "start": 649.3,
+      "end": 651.45,
+      "text": "就是这些是没有用的事情。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 275,
+      "s": 147,
+      "start": 651.58,
+      "end": 653.42,
+      "text": "你不要跟我聊这些没用的事情。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 276,
+      "s": 148,
+      "start": 653.9,
+      "end": 654.82,
+      "text": "什么叫有用？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 277,
+      "s": 149,
+      "start": 654.94,
+      "end": 656.46,
+      "text": "就是能挣钱的东西。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 278,
+      "s": 150,
+      "start": 656.98,
+      "end": 659.46,
+      "text": "你已经没有时间去研究爱好了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 279,
+      "s": 150,
+      "start": 659.46,
+      "end": 661.7,
+      "text": "所有的时间要么你在休息，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 280,
+      "s": 150,
+      "start": 661.7,
+      "end": 663.03,
+      "text": "要么你在赚钱。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 281,
+      "s": 151,
+      "start": 663.13,
+      "end": 665.83,
+      "text": "你休息也是为了更好的赚钱，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 282,
+      "s": 152,
+      "start": 665.83,
+      "end": 668.07,
+      "text": "但是从外国人来说，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 283,
+      "s": 152,
+      "start": 668.07,
+      "end": 670.43,
+      "text": "他的收入水平都是比中国人高很多。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 284,
+      "s": 153,
+      "start": 670.43,
+      "end": 672.74,
+      "text": "然后他能过了一个很体面的生活，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 285,
+      "s": 153,
+      "start": 673.27,
+      "end": 674.27,
+      "text": "就是工作之余",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 286,
+      "s": 153,
+      "start": 674.27,
+      "end": 677.14,
+      "text": "他还可以去发展他的兴趣爱好，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 287,
+      "s": 154,
+      "start": 677.19,
+      "end": 681.33,
+      "text": "所以他才呃在这些方面是有所造诣，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 288,
+      "s": 154,
+      "start": 681.33,
+      "end": 683.19,
+      "text": "他才能聊出东西来。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 289,
+      "s": 155,
+      "start": 683.37,
+      "end": 685.01,
+      "text": "我们我们中国中国家庭",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 290,
+      "s": 155,
+      "start": 685.01,
+      "end": 686.13,
+      "text": "根本没有时间，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 291,
+      "s": 155,
+      "start": 686.13,
+      "end": 688.55,
+      "text": "根本没有精力去做这些事情。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 292,
+      "s": 156,
+      "start": 688.66,
+      "end": 689.54,
+      "text": "其他的人呢，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 293,
+      "s": 156,
+      "start": 689.54,
+      "end": 692.32,
+      "text": "也有很多受过高等教育的年轻人呢。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 294,
+      "s": 157,
+      "start": 692.32,
+      "end": 695.44,
+      "text": "那这种年轻人朋友做朋友的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 295,
+      "s": 157,
+      "start": 695.44,
+      "end": 696.4,
+      "text": "应该还是可以",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 296,
+      "s": 157,
+      "start": 696.4,
+      "end": 698.67,
+      "text": "聊出一些深度的话题的吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 297,
+      "s": 158,
+      "start": 698.98,
+      "end": 701.7,
+      "text": "最有时间去发展个人爱好，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 298,
+      "s": 158,
+      "start": 701.7,
+      "end": 703.64,
+      "text": "最有精力去发展个人爱好，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 299,
+      "s": 159,
+      "start": 703.88,
+      "end": 705.56,
+      "text": "大概就是你说的那个",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 300,
+      "s": 159,
+      "start": 705.56,
+      "end": 707.54,
+      "text": "受过高等教育的那个等级，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 301,
+      "s": 159,
+      "start": 707.54,
+      "end": 710.46,
+      "text": "然后他们的工作比较工作比较好，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 302,
+      "s": 160,
+      "start": 710.46,
+      "end": 713.02,
+      "text": "然后有很多时间，有很多，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 303,
+      "s": 160,
+      "start": 713.22,
+      "end": 715.32,
+      "text": "然后他的经济状况也很好，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 304,
+      "s": 160,
+      "start": 715.32,
+      "end": 716.42,
+      "text": "可以支撑这样的爱好。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 305,
+      "s": 161,
+      "start": 716.42,
+      "end": 717.38,
+      "text": "还有就是学生。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 306,
+      "s": 162,
+      "start": 717.49,
+      "end": 720.17,
+      "text": "就像我说的，我在我们学生时代，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 307,
+      "s": 162,
+      "start": 720.17,
+      "end": 721.73,
+      "text": "我们有大把的时间，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 308,
+      "s": 162,
+      "start": 721.73,
+      "end": 723.07,
+      "text": "钱也不需要考虑，是吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 309,
+      "s": 163,
+      "start": 723.07,
+      "end": 724.05,
+      "text": "也没有压力，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 310,
+      "s": 163,
+      "start": 724.05,
+      "end": 726.96,
+      "text": "所以我们的精力都花在爱好上面。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 311,
+      "s": 164,
+      "start": 727.11,
+      "end": 730.96,
+      "text": "但是普遍来说，大部分人来说，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 312,
+      "s": 164,
+      "start": 731.01,
+      "end": 732.49,
+      "text": "他不是这样的一个状况，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 313,
+      "s": 165,
+      "start": 732.49,
+      "end": 734.19,
+      "text": "所以你很难找到那种",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 314,
+      "s": 165,
+      "start": 734.19,
+      "end": 736.43,
+      "text": "能跟你聊这些的、",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 315,
+      "s": 165,
+      "start": 736.43,
+      "end": 738.22,
+      "text": "聊一些比较深度话题的朋友。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 316,
+      "s": 166,
+      "start": 738.78,
+      "end": 739.65,
+      "text": "前面我们说到，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 317,
+      "s": 166,
+      "start": 739.65,
+      "end": 740.77,
+      "text": "就是中国人，中国人在一起",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 318,
+      "s": 166,
+      "start": 740.77,
+      "end": 743.04,
+      "text": "不是比较喜欢互相问。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 319,
+      "s": 167,
+      "start": 743.2,
+      "end": 745.96,
+      "text": "家庭背景可能再再深入一点，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 320,
+      "s": 167,
+      "start": 745.96,
+      "end": 748.43,
+      "text": "他会很直白的去问你挣了多少钱。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 321,
+      "s": 168,
+      "start": 749.2,
+      "end": 750.06,
+      "text": "你觉得这个话题",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 322,
+      "s": 168,
+      "start": 750.06,
+      "end": 753.92,
+      "text": "在外国人嗯之间他们会聊吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 323,
+      "s": 169,
+      "start": 754.77,
+      "end": 757.88,
+      "text": "不会不会，除非你们是想要说",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 324,
+      "s": 169,
+      "start": 757.88,
+      "end": 760.18,
+      "text": "在一起做一个什么事业，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 325,
+      "s": 169,
+      "start": 760.18,
+      "end": 761.4,
+      "text": "做一个什么工作，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 326,
+      "s": 170,
+      "start": 761.4,
+      "end": 763.92,
+      "text": "然后有必要去知道这些信息，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 327,
+      "s": 171,
+      "start": 763.92,
+      "end": 765.06,
+      "text": "但是在平时说",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 328,
+      "s": 171,
+      "start": 765.06,
+      "end": 768.98,
+      "text": "就是呃想通过这个询问",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 329,
+      "s": 171,
+      "start": 768.98,
+      "end": 771.2,
+      "text": "去掌握某种别人的某种情报。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 330,
+      "s": 172,
+      "start": 771.64,
+      "end": 773.8,
+      "text": "我觉得是不会聊的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 331,
+      "s": 173,
+      "start": 774.06,
+      "end": 775.22,
+      "text": "我的那些外国朋友，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 332,
+      "s": 173,
+      "start": 775.22,
+      "end": 778.28,
+      "text": "他们就很少去问我生活怎么样、",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 333,
+      "s": 173,
+      "start": 778.28,
+      "end": 779.9,
+      "text": "收入怎么样或者怎么样。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 334,
+      "s": 174,
+      "start": 780.02,
+      "end": 781.32,
+      "text": "他们一般打招呼就是说",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 335,
+      "s": 174,
+      "start": 781.32,
+      "end": 782.3,
+      "text": "你最近怎么样？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 336,
+      "s": 175,
+      "start": 782.66,
+      "end": 784.94,
+      "text": "这可能是一个很模糊的东西，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 337,
+      "s": 175,
+      "start": 784.94,
+      "end": 786.96,
+      "text": "就是说你开不开心啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 338,
+      "s": 175,
+      "start": 786.96,
+      "end": 787.78,
+      "text": "或者说你最近",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 339,
+      "s": 175,
+      "start": 787.78,
+      "end": 790.04,
+      "text": "你身上发生了什么有趣的事情？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 340,
+      "s": 176,
+      "start": 790.04,
+      "end": 791.3,
+      "text": "你看了一个什么电影啊？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 341,
+      "s": 177,
+      "start": 791.3,
+      "end": 792.95,
+      "text": "他们比较会聊这个东西。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 342,
+      "s": 178,
+      "start": 793.12,
+      "end": 794.92,
+      "text": "如果你跟中国的朋友聊天的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 343,
+      "s": 178,
+      "start": 794.92,
+      "end": 797.18,
+      "text": "他们很少会问你说哎。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 344,
+      "s": 179,
+      "start": 797.41,
+      "end": 799.91,
+      "text": "你最近看了一个什么电影没有啊？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 345,
+      "s": 180,
+      "start": 799.91,
+      "end": 801.33,
+      "text": "我认识的大部分人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 346,
+      "s": 180,
+      "start": 801.33,
+      "end": 804.11,
+      "text": "不会再对这些这些东西感兴趣，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 347,
+      "s": 180,
+      "start": 804.11,
+      "end": 806.5,
+      "text": "也不想跟其他人分享或者聊。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 348,
+      "s": 181,
+      "start": 807.47,
+      "end": 809.23,
+      "text": "你昨天晚上看了一个什么电影？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 349,
+      "s": 182,
+      "start": 809.79,
+      "end": 811.55,
+      "text": "前面我们讲中国朋友之间",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 350,
+      "s": 182,
+      "start": 811.55,
+      "end": 815.11,
+      "text": "会想要探清楚你你的经济状况。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 351,
+      "s": 183,
+      "start": 815.35,
+      "end": 817.55,
+      "text": "假设你在跟中国朋友聊天的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 352,
+      "s": 183,
+      "start": 817.55,
+      "end": 820.66,
+      "text": "你会防备心会强一点吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 353,
+      "s": 184,
+      "start": 820.77,
+      "end": 822.37,
+      "text": "就是可能不会那么诚实的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 354,
+      "s": 185,
+      "start": 822.37,
+      "end": 824.99,
+      "text": "跟他聊天，绝对不诚实。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 355,
+      "s": 186,
+      "start": 825.01,
+      "end": 827.28,
+      "text": "绝对不诚实，我没有一句诚实的话。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 356,
+      "s": 187,
+      "start": 827.54,
+      "end": 830.61,
+      "text": "比如说从篮球场上认识的朋友，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 357,
+      "s": 187,
+      "start": 830.61,
+      "end": 833.45,
+      "text": "我每次去他总是会问：",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 358,
+      "s": 187,
+      "start": 833.95,
+      "end": 835.77,
+      "text": "“呃，你有没有女朋友啊？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 359,
+      "s": 188,
+      "start": 835.77,
+      "end": 837.07,
+      "text": "结婚没有啊？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 360,
+      "s": 189,
+      "start": 837.07,
+      "end": 838.93,
+      "text": "然后我就我说我没有结婚。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 361,
+      "s": 190,
+      "start": 839.47,
+      "end": 840.77,
+      "text": "我说的没有其实是我",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 362,
+      "s": 190,
+      "start": 840.77,
+      "end": 843.13,
+      "text": "我我不想我不想再进行这个话题，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 363,
+      "s": 190,
+      "start": 843.13,
+      "end": 845.11,
+      "text": "我不想不想跟他聊这话题。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 364,
+      "s": 191,
+      "start": 845.11,
+      "end": 846.5,
+      "text": "我说打球吧，打球吧。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 365,
+      "s": 192,
+      "start": 846.64,
+      "end": 848.87,
+      "text": "后来他在我们住同一个小区，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 366,
+      "s": 192,
+      "start": 848.87,
+      "end": 850.79,
+      "text": "他就看到我跟我女朋友在一起了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 367,
+      "s": 192,
+      "start": 850.79,
+      "end": 851.21,
+      "text": "你知道吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 368,
+      "s": 193,
+      "start": 851.47,
+      "end": 854.4,
+      "text": "你知道我们打球有一个微信群, OK,",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 369,
+      "s": 193,
+      "start": 854.4,
+      "end": 856.18,
+      "text": "他就在微信群里就说",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 370,
+      "s": 193,
+      "start": 856.18,
+      "end": 858.68,
+      "text": "那天晚上看到那个女孩是谁呀,",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 371,
+      "s": 194,
+      "start": 858.68,
+      "end": 862.22,
+      "text": "他就问我,我就,啊,",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 372,
+      "s": 194,
+      "start": 862.22,
+      "end": 863.64,
+      "text": "我就我还是没有回答他,",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 373,
+      "s": 194,
+      "start": 863.64,
+      "end": 866.48,
+      "text": "我就说你在哪偷窥我呢,你为什么说,",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 374,
+      "s": 195,
+      "start": 866.48,
+      "end": 868.94,
+      "text": "他说没有,我就就看到你出来",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 375,
+      "s": 195,
+      "start": 868.94,
+      "end": 871.01,
+      "text": "你们两个在一起,我说那是我妹。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 376,
+      "s": 196,
+      "start": 871.46,
+      "end": 873.4,
+      "text": "呃,我感觉问婚姻状态",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 377,
+      "s": 196,
+      "start": 873.4,
+      "end": 875.3,
+      "text": "这个真的是太太太常见了,",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 378,
+      "s": 196,
+      "start": 875.3,
+      "end": 878.02,
+      "text": "就比问你工资还要常见,就比如说。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 379,
+      "s": 197,
+      "start": 878.17,
+      "end": 880.92,
+      "text": "我有一次就是经常去去散步的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 380,
+      "s": 197,
+      "start": 881.01,
+      "end": 883.37,
+      "text": "然后就就碰到一个店的老板娘，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 381,
+      "s": 198,
+      "start": 883.37,
+      "end": 884.51,
+      "text": "然后就每次见面的时候",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 382,
+      "s": 198,
+      "start": 884.51,
+      "end": 886,
+      "text": "就会打个招呼什么的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 383,
+      "s": 199,
+      "start": 886.15,
+      "end": 887.89,
+      "text": "然后在第三四次的时候呢，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 384,
+      "s": 199,
+      "start": 887.89,
+      "end": 889.11,
+      "text": "他就会开始跟你聊天，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 385,
+      "s": 199,
+      "start": 889.11,
+      "end": 892.19,
+      "text": "然后就会问：“哎，你你结婚了没有啊？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 386,
+      "s": 200,
+      "start": 892.19,
+      "end": 893.13,
+      "text": "你有没有小孩呀？”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 387,
+      "s": 201,
+      "start": 893.13,
+      "end": 895.39,
+      "text": "然后我就在想我要怎么回答他，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 388,
+      "s": 201,
+      "start": 895.39,
+      "end": 896.97,
+      "text": "因为如果说我没有结婚的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 389,
+      "s": 202,
+      "start": 896.97,
+      "end": 900.43,
+      "text": "他肯定要张罗着给我呃给我介绍",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 390,
+      "s": 202,
+      "start": 900.43,
+      "end": 901.95,
+      "text": "或者问啊这么大了",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 391,
+      "s": 202,
+      "start": 901.95,
+      "end": 902.91,
+      "text": "你怎么还不结婚啊？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 392,
+      "s": 203,
+      "start": 902.91,
+      "end": 904.51,
+      "text": "到时候你女人要结婚的呀！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 393,
+      "s": 204,
+      "start": 904.51,
+      "end": 906.03,
+      "text": "他后面真的跟我说过这个话。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 394,
+      "s": 205,
+      "start": 906.1,
+      "end": 908.02,
+      "text": "以至于后来他再问我的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 395,
+      "s": 205,
+      "start": 908.02,
+      "end": 909.93,
+      "text": "我说哦有了有了有了，孩子都有了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 396,
+      "s": 206,
+      "start": 910.25,
+      "end": 912.62,
+      "text": "啊，你说这个现象我还真经历过。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 397,
+      "s": 207,
+      "start": 912.62,
+      "end": 914.88,
+      "text": "零九年我在成都上班的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 398,
+      "s": 207,
+      "start": 915.48,
+      "end": 918,
+      "text": "就是我们公司跟另一个公司",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 399,
+      "s": 207,
+      "start": 918,
+      "end": 919.56,
+      "text": "是有合作关系的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 400,
+      "s": 208,
+      "start": 919.56,
+      "end": 922.42,
+      "text": "我负责就是跟进这个合作关系，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 401,
+      "s": 208,
+      "start": 922.42,
+      "end": 924.78,
+      "text": "我就会跟对面公司的人打交道。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 402,
+      "s": 209,
+      "start": 924.78,
+      "end": 927.66,
+      "text": "他们想跟你好像私底下交朋友，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 403,
+      "s": 209,
+      "start": 927.66,
+      "end": 929.66,
+      "text": "他们就给给我介绍女朋友。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 404,
+      "s": 210,
+      "start": 929.66,
+      "end": 932.12,
+      "text": "他说：“哎，我们认识一个女女生，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 405,
+      "s": 210,
+      "start": 932.12,
+      "end": 933.04,
+      "text": "你感不感兴趣？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 406,
+      "s": 211,
+      "start": 933.4,
+      "end": 935.71,
+      "text": "我不想回答这个东西，你知道吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 407,
+      "s": 212,
+      "start": 935.99,
+      "end": 938.09,
+      "text": "他们有一天，他们就把照片发过来了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 408,
+      "s": 212,
+      "start": 938.09,
+      "end": 941.33,
+      "text": "就说：“嘿，你你觉得这个女女生怎么样？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 409,
+      "s": 213,
+      "start": 941.33,
+      "end": 943.97,
+      "text": "我们给你推推荐了很久了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 410,
+      "s": 213,
+      "start": 943.97,
+      "end": 944.73,
+      "text": "你怎么没有反应？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 411,
+      "s": 214,
+      "start": 944.73,
+      "end": 946.37,
+      "text": "好热心啊！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 412,
+      "s": 215,
+      "start": 946.37,
+      "end": 947.69,
+      "text": "I was like, what the？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 413,
+      "s": 216,
+      "start": 948.25,
+      "end": 948.89,
+      "text": "干嘛呀？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 414,
+      "s": 217,
+      "start": 948.89,
+      "end": 950.47,
+      "text": "你们在干什么呀？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 415,
+      "s": 218,
+      "start": 950.47,
+      "end": 951.39,
+      "text": "拜托了，不要这样。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 416,
+      "s": 219,
+      "start": 952.21,
+      "end": 954.23,
+      "text": "我没有见到任何外国人说：",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 417,
+      "s": 219,
+      "start": 954.23,
+      "end": 956.73,
+      "text": "“嘿嘿，我给你介绍个女朋友，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 418,
+      "s": 219,
+      "start": 956.73,
+      "end": 959.85,
+      "text": "是我妹，要不要看看她的照片啊？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 419,
+      "s": 220,
+      "start": 960.15,
+      "end": 961.71,
+      "text": "在网上就有很多人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 420,
+      "s": 220,
+      "start": 961.71,
+      "end": 962.95,
+      "text": "也也有提到过这一点啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 421,
+      "s": 220,
+      "start": 962.95,
+      "end": 966.17,
+      "text": "就是中国人之间边界感很弱，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 422,
+      "s": 220,
+      "start": 966.57,
+      "end": 967.83,
+      "text": "哪怕是不熟的人，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 423,
+      "s": 221,
+      "start": 967.83,
+      "end": 973.19,
+      "text": "他也觉得他有这个权利去帮助你。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 424,
+      "s": 222,
+      "start": 973.19,
+      "end": 973.79,
+      "text": "我跟你说一个",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 425,
+      "s": 222,
+      "start": 973.79,
+      "end": 975.39,
+      "text": "什么边界感很弱的事情呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 426,
+      "s": 223,
+      "start": 975.5,
+      "end": 977.77,
+      "text": "就是我经常跟那些不熟的人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 427,
+      "s": 223,
+      "start": 977.77,
+      "end": 978.71,
+      "text": "我第一次见面，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 428,
+      "s": 223,
+      "start": 978.71,
+      "end": 981.27,
+      "text": "对方就开始评论我了，就说：“啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 429,
+      "s": 224,
+      "start": 981.27,
+      "end": 982.88,
+      "text": "你头发怎么这么长啊？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 430,
+      "s": 225,
+      "start": 982.93,
+      "end": 984.63,
+      "text": "你头发是不是烫的呀？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 431,
+      "s": 226,
+      "start": 984.63,
+      "end": 987.41,
+      "text": "我的头发什么发型关你什么事啊？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 432,
+      "s": 227,
+      "start": 987.41,
+      "end": 988.75,
+      "text": "你你这样问我，然后。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 433,
+      "s": 228,
+      "start": 988.93,
+      "end": 989.75,
+      "text": "打篮球的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 434,
+      "s": 228,
+      "start": 989.75,
+      "end": 991.21,
+      "text": "我喜欢穿的比较短的短裤。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 435,
+      "s": 229,
+      "start": 991.21,
+      "end": 991.99,
+      "text": "他就说：“喂，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 436,
+      "s": 229,
+      "start": 991.99,
+      "end": 994.63,
+      "text": "为什么你穿那么多很骚的短裤来？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 437,
+      "s": 230,
+      "start": 994.63,
+      "end": 1002.25,
+      "text": "你不觉得就是对别人的外貌评论，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 438,
+      "s": 230,
+      "start": 1002.25,
+      "end": 1004.61,
+      "text": "就是直接告诉别人评头论足，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 439,
+      "s": 230,
+      "start": 1004.61,
+      "end": 1006.11,
+      "text": "这很冒犯人吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 440,
+      "s": 231,
+      "start": 1006.11,
+      "end": 1008.19,
+      "text": "比如说他碰到碰到一个黑人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 441,
+      "s": 231,
+      "start": 1008.19,
+      "end": 1009.25,
+      "text": "他就盯着人家看，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 442,
+      "s": 231,
+      "start": 1009.25,
+      "end": 1011.57,
+      "text": "就说：“啊，你为什么这么黑呀？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 443,
+      "s": 232,
+      "start": 1011.57,
+      "end": 1013.47,
+      "text": "如果是小学生，他肯定会这样说；",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 444,
+      "s": 232,
+      "start": 1013.47,
+      "end": 1014.79,
+      "text": "如果是大人，他就说：",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 445,
+      "s": 232,
+      "start": 1014.79,
+      "end": 1016.29,
+      "text": "“你们黑人是不是鸡鸡都很大？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 446,
+      "s": 233,
+      "start": 1016.32,
+      "end": 1018.52,
+      "text": "他直接就问了，我的妈呀！",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 447,
+      "s": 234,
+      "start": 1018.52,
+      "end": 1019.58,
+      "text": "哇，有这样子问的人吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 448,
+      "s": 235,
+      "start": 1019.58,
+      "end": 1021.26,
+      "text": "我没听过，这太冒犯了吧！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 449,
+      "s": 236,
+      "start": 1021.37,
+      "end": 1023.27,
+      "text": "B站上有一个黑人博主，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 450,
+      "s": 236,
+      "start": 1023.44,
+      "end": 1026.6,
+      "text": "他会讲四川话，很多人问他：",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 451,
+      "s": 236,
+      "start": 1026.6,
+      "end": 1028.18,
+      "text": "“你们黑人鸡鸡是不是很大？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 452,
+      "s": 237,
+      "start": 1028.18,
+      "end": 1029.91,
+      "text": "就就没有任何掩饰的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 453,
+      "s": 238,
+      "start": 1030.42,
+      "end": 1032.44,
+      "text": "我被人家评论最多的就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 454,
+      "s": 238,
+      "start": 1032.44,
+      "end": 1034.22,
+      "text": "我最近皮肤又黑了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 455,
+      "s": 238,
+      "start": 1034.38,
+      "end": 1036.56,
+      "text": "因为我之前不是去东南亚嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 456,
+      "s": 239,
+      "start": 1036.56,
+      "end": 1039.83,
+      "text": "然后就就学游泳嘛，晒得很黑，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 457,
+      "s": 239,
+      "start": 1040.08,
+      "end": 1042.2,
+      "text": "然后每次回老家的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 458,
+      "s": 239,
+      "start": 1042.2,
+      "end": 1044.26,
+      "text": "或者是见到那种好久不见的朋友，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 459,
+      "s": 240,
+      "start": 1044.26,
+      "end": 1045.1,
+      "text": "他们一定会说。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 460,
+      "s": 241,
+      "start": 1046.23,
+      "end": 1048.76,
+      "text": "哇，你黑了好多！",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 461,
+      "s": 242,
+      "start": 1048.76,
+      "end": 1049.54,
+      "text": "就村里面的人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 462,
+      "s": 242,
+      "start": 1049.54,
+      "end": 1051.28,
+      "text": "不是疫情的时候我没有回家嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 463,
+      "s": 242,
+      "start": 1051.28,
+      "end": 1052.89,
+      "text": "然后有两三年没有见了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 464,
+      "s": 243,
+      "start": 1053.26,
+      "end": 1054.73,
+      "text": "就有一个大人他见到我说：",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 465,
+      "s": 243,
+      "start": 1054.79,
+      "end": 1056.34,
+      "text": "“哇，你怎么瘦成这样子了？”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 466,
+      "s": 244,
+      "start": 1056.34,
+      "end": 1057.56,
+      "text": "哇，他们就就好关心哦，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 467,
+      "s": 244,
+      "start": 1057.56,
+      "end": 1059.65,
+      "text": "就觉得你是不是病了呀，还是怎么样？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 468,
+      "s": 245,
+      "start": 1060.04,
+      "end": 1061.46,
+      "text": "就是看他的表情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 469,
+      "s": 245,
+      "start": 1061.46,
+      "end": 1063.34,
+      "text": "好像我生了很大的病一样的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 470,
+      "s": 246,
+      "start": 1063.81,
+      "end": 1066.3,
+      "text": "如果你留一个很奇怪的发型，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 471,
+      "s": 246,
+      "start": 1066.3,
+      "end": 1068.26,
+      "text": "或者说你留一个莫西干头，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 472,
+      "s": 246,
+      "start": 1068.26,
+      "end": 1071.6,
+      "text": "或者是你留一个黑人那种脏辫的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 473,
+      "s": 247,
+      "start": 1071.6,
+      "end": 1074.08,
+      "text": "别人就会觉得你这个好好奇怪哦。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 474,
+      "s": 248,
+      "start": 1074.33,
+      "end": 1076.35,
+      "text": "但在外国的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 475,
+      "s": 248,
+      "start": 1076.49,
+      "end": 1079.88,
+      "text": "我不是说在全部全部国家都一样，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 476,
+      "s": 248,
+      "start": 1079.88,
+      "end": 1081.04,
+      "text": "比如那些保守的国家",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 477,
+      "s": 248,
+      "start": 1081.04,
+      "end": 1083.37,
+      "text": "可能有比中国还严重的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 478,
+      "s": 249,
+      "start": 1083.42,
+      "end": 1086.26,
+      "text": "但是在一些比较国际化的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 479,
+      "s": 249,
+      "start": 1086.26,
+      "end": 1088.36,
+      "text": "我就说在都不说欧美，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 480,
+      "s": 249,
+      "start": 1088.36,
+      "end": 1090.41,
+      "text": "就在东南亚、在泰国、在日本，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 481,
+      "s": 250,
+      "start": 1091.12,
+      "end": 1093.67,
+      "text": "你看到一个留脏辫的人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 482,
+      "s": 250,
+      "start": 1094.58,
+      "end": 1096.24,
+      "text": "你不会觉得很奇怪，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 483,
+      "s": 251,
+      "start": 1096.24,
+      "end": 1098.52,
+      "text": "他喜欢那样的打扮是他的个性，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 484,
+      "s": 251,
+      "start": 1098.52,
+      "end": 1101.3,
+      "text": "是他自己的选择，他对时尚的理解。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 485,
+      "s": 252,
+      "start": 1101.87,
+      "end": 1103.7,
+      "text": "大家已经见怪不怪了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 486,
+      "s": 252,
+      "start": 1103.7,
+      "end": 1105.62,
+      "text": "没有人会觉得这是一个奇怪的事情。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 487,
+      "s": 253,
+      "start": 1105.62,
+      "end": 1108.65,
+      "text": "但中国就非得要说一下，就非常奇怪。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 488,
+      "s": 254,
+      "start": 1109,
+      "end": 1110.56,
+      "text": "就是，嗯，他当他们",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 489,
+      "s": 254,
+      "start": 1110.56,
+      "end": 1112.18,
+      "text": "交一个外国朋友的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 490,
+      "s": 255,
+      "start": 1112.18,
+      "end": 1114.08,
+      "text": "他们首先留意到的是",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 491,
+      "s": 255,
+      "start": 1114.08,
+      "end": 1117.24,
+      "text": "这些外国人跟他们身上",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 492,
+      "s": 255,
+      "start": 1117.24,
+      "end": 1119.34,
+      "text": "最大的不同在什么地方？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 493,
+      "s": 256,
+      "start": 1119.34,
+      "end": 1121.96,
+      "text": "他们为什么交朋友流于表面？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 494,
+      "s": 257,
+      "start": 1122,
+      "end": 1124.86,
+      "text": "就是他们首先是预设了一个环境，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 495,
+      "s": 257,
+      "start": 1124.86,
+      "end": 1127.04,
+      "text": "就是说外国人跟我有多不一样。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 496,
+      "s": 258,
+      "start": 1127.2,
+      "end": 1129.42,
+      "text": "从外表就不一样，你的思维",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 497,
+      "s": 258,
+      "start": 1129.42,
+      "end": 1132.04,
+      "text": "跟我有多么多么多么不一样，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 498,
+      "s": 258,
+      "start": 1132.04,
+      "end": 1133.94,
+      "text": "所以我们就不能聊到一起，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 499,
+      "s": 259,
+      "start": 1133.94,
+      "end": 1135.61,
+      "text": "我们不能聊深度话题。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 500,
+      "s": 260,
+      "start": 1135.74,
+      "end": 1138.92,
+      "text": "这这是我们中国的才会有的事情，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 501,
+      "s": 260,
+      "start": 1138.92,
+      "end": 1141.9,
+      "text": "这是我们中国的传统，你不懂的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 502,
+      "s": 261,
+      "start": 1141.9,
+      "end": 1144.03,
+      "text": "他就已经把外国人拒之门外了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 503,
+      "s": 262,
+      "start": 1144.15,
+      "end": 1145.65,
+      "text": "比如说别人问你一个问题，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 504,
+      "s": 262,
+      "start": 1146.02,
+      "end": 1148.04,
+      "text": "这件事情为什么会这个样子，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 505,
+      "s": 262,
+      "start": 1148.16,
+      "end": 1151.64,
+      "text": "他就会说这是我们中国的传统，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 506,
+      "s": 263,
+      "start": 1151.64,
+      "end": 1153.68,
+      "text": "这是我们中国特有的一个现象，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 507,
+      "s": 263,
+      "start": 1153.68,
+      "end": 1154.68,
+      "text": "你不懂的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 508,
+      "s": 264,
+      "start": 1154.86,
+      "end": 1158.06,
+      "text": "在这种情况下，你们怎么去发展",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 509,
+      "s": 264,
+      "start": 1158.06,
+      "end": 1161.36,
+      "text": "一个深度的呃友谊呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 510,
+      "s": 265,
+      "start": 1161.36,
+      "end": 1162.5,
+      "text": "你们怎么去交流",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 511,
+      "s": 265,
+      "start": 1162.5,
+      "end": 1164.62,
+      "text": "一个有深度的话题呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 512,
+      "s": 266,
+      "start": 1164.62,
+      "end": 1166.42,
+      "text": "而我跟呃外国人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 513,
+      "s": 266,
+      "start": 1166.42,
+      "end": 1168.8,
+      "text": "可以聊很多很各种各样不同的话题，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 514,
+      "s": 266,
+      "start": 1168.96,
+      "end": 1170.86,
+      "text": "有很多话题他们是不同意我的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 515,
+      "s": 267,
+      "start": 1170.98,
+      "end": 1173.12,
+      "text": "但我们还是可以聊，可以辩论，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 516,
+      "s": 268,
+      "start": 1173.12,
+      "end": 1174.76,
+      "text": "他们也认同我说的一些话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 517,
+      "s": 268,
+      "start": 1174.76,
+      "end": 1176.38,
+      "text": "他们也会去反思，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 518,
+      "s": 268,
+      "start": 1176.38,
+      "end": 1178.86,
+      "text": "也许他们从前的看法",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 519,
+      "s": 268,
+      "start": 1178.86,
+      "end": 1180.94,
+      "text": "有有哪一些地方他没有看到的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 520,
+      "s": 269,
+      "start": 1181.08,
+      "end": 1184.84,
+      "text": "但是在你跟中国人交流的时候，呃，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 521,
+      "s": 269,
+      "start": 1184.84,
+      "end": 1188.26,
+      "text": "一个一个话题就是已经定死了，呃，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 522,
+      "s": 270,
+      "start": 1188.26,
+      "end": 1190.46,
+      "text": "已经已经设定好了一个答案了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 523,
+      "s": 271,
+      "start": 1190.46,
+      "end": 1191.96,
+      "text": "我有个朋友叫白菜，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 524,
+      "s": 271,
+      "start": 1192,
+      "end": 1194.35,
+      "text": "然后我跟他聊一些游戏的话题，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 525,
+      "s": 271,
+      "start": 1194.36,
+      "end": 1196.68,
+      "text": "我们就聊呃动画，嗯，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 526,
+      "s": 272,
+      "start": 1196.68,
+      "end": 1197.88,
+      "text": "有一个动画叫高达，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 527,
+      "s": 272,
+      "start": 1197.88,
+      "end": 1200.36,
+      "text": "非常出名的大型机器人打架的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 528,
+      "s": 272,
+      "start": 1200.36,
+      "end": 1202.76,
+      "text": "一个科幻的一个呃一个动画，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 529,
+      "s": 273,
+      "start": 1202.76,
+      "end": 1206.16,
+      "text": "然后有两一两个国家两个政治势力。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 530,
+      "s": 274,
+      "start": 1206.61,
+      "end": 1209.77,
+      "text": "一个是吉翁，一个是联邦。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 531,
+      "s": 275,
+      "start": 1209.77,
+      "end": 1211.23,
+      "text": "然后我就跟白菜讲：",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 532,
+      "s": 275,
+      "start": 1211.23,
+      "end": 1213.95,
+      "text": "“我说我挺喜欢吉翁",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 533,
+      "s": 275,
+      "start": 1213.95,
+      "end": 1216.55,
+      "text": "和他们代表的那种价值的。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 534,
+      "s": 276,
+      "start": 1216.55,
+      "end": 1219.49,
+      "text": "但是从主流的观点来说，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 535,
+      "s": 276,
+      "start": 1219.49,
+      "end": 1221.81,
+      "text": "吉翁就是反派嘛，就是坏的嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 536,
+      "s": 276,
+      "start": 1221.81,
+      "end": 1223.38,
+      "text": "你就不应该去喜欢他。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 537,
+      "s": 277,
+      "start": 1223.57,
+      "end": 1226.47,
+      "text": "后来我们几个朋友又组织起来，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 538,
+      "s": 277,
+      "start": 1226.47,
+      "end": 1228.45,
+      "text": "我们又做了一次podcast。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 539,
+      "s": 278,
+      "start": 1228.55,
+      "end": 1229.61,
+      "text": "做这个podcast的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 540,
+      "s": 278,
+      "start": 1229.61,
+      "end": 1230.57,
+      "text": "他就提到了",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 541,
+      "s": 278,
+      "start": 1230.57,
+      "end": 1232.53,
+      "text": "我上次跟他讲这个话题的时候。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 542,
+      "s": 279,
+      "start": 1232.71,
+      "end": 1236.52,
+      "text": "他认为我支持吉翁会让他感到生气。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 543,
+      "s": 280,
+      "start": 1236.77,
+      "end": 1239.41,
+      "text": "你喜欢了他不喜欢的角色，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 544,
+      "s": 280,
+      "start": 1239.41,
+      "end": 1241.04,
+      "text": "他就觉得你这个人有问题。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 545,
+      "s": 281,
+      "start": 1241.25,
+      "end": 1242.65,
+      "text": "他就说没有办法聊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 546,
+      "s": 281,
+      "start": 1242.65,
+      "end": 1244.29,
+      "text": "他甚至觉得很生气，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 547,
+      "s": 281,
+      "start": 1244.29,
+      "end": 1245.79,
+      "text": "跟他会觉得跟你这个人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 548,
+      "s": 281,
+      "start": 1245.79,
+      "end": 1248.24,
+      "text": "没有办法共处，就到了那个地步。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 549,
+      "s": 282,
+      "start": 1248.51,
+      "end": 1250.41,
+      "text": "我有一次也是跟一个朋友，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 550,
+      "s": 282,
+      "start": 1250.41,
+      "end": 1253.11,
+      "text": "他不太关心国际时事吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 551,
+      "s": 283,
+      "start": 1253.11,
+      "end": 1256.39,
+      "text": "然后我们就聊这种比较算是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 552,
+      "s": 283,
+      "start": 1256.39,
+      "end": 1258.31,
+      "text": "大一点的国际时事的时候呢。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 553,
+      "s": 284,
+      "start": 1258.44,
+      "end": 1260.61,
+      "text": "我就跟他说了很多事情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 554,
+      "s": 284,
+      "start": 1260.61,
+      "end": 1262.89,
+      "text": "他原先是不知道的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 555,
+      "s": 284,
+      "start": 1263.01,
+      "end": 1264.87,
+      "text": "然后他觉得很震惊，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 556,
+      "s": 284,
+      "start": 1264.87,
+      "end": 1266.04,
+      "text": "并且他拒绝相信。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 557,
+      "s": 285,
+      "start": 1266.27,
+      "end": 1268.25,
+      "text": "就是后面聊到我们差点都吵起来了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 558,
+      "s": 285,
+      "start": 1268.25,
+      "end": 1269.49,
+      "text": "然后我当时就很后悔",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 559,
+      "s": 285,
+      "start": 1269.49,
+      "end": 1270.81,
+      "text": "我跟他聊这个话题。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 560,
+      "s": 286,
+      "start": 1271.33,
+      "end": 1272.81,
+      "text": "就对，反正到现在的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 561,
+      "s": 286,
+      "start": 1272.81,
+      "end": 1276.15,
+      "text": "我就很少跟朋友聊这种话题，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 562,
+      "s": 286,
+      "start": 1276.15,
+      "end": 1279.03,
+      "text": "因为我知道他最终是走不下去的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 563,
+      "s": 287,
+      "start": 1279.17,
+      "end": 1281.73,
+      "text": "如果你有不同的观点，呃，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 564,
+      "s": 287,
+      "start": 1281.73,
+      "end": 1283.53,
+      "text": "我觉得外国人最大的反应是。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 565,
+      "s": 288,
+      "start": 1283.86,
+      "end": 1286.14,
+      "text": "他会首先他问你为什么",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 566,
+      "s": 288,
+      "start": 1286.14,
+      "end": 1288.86,
+      "text": "你也提出你的观点他提出他的观点",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 567,
+      "s": 288,
+      "start": 1288.86,
+      "end": 1291.64,
+      "text": "你们这个辩论首先是不会破裂的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 568,
+      "s": 288,
+      "start": 1291.64,
+      "end": 1293.37,
+      "text": "不会变成一种仇恨的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 569,
+      "s": 289,
+      "start": 1293.52,
+      "end": 1296.32,
+      "text": "你们都可以提出各自的观点",
+      "speaker": "C",
+      "u": 288,
+      "role": "storyteller"
+    },
+    {
+      "i": 570,
+      "s": 289,
+      "start": 1296.32,
+      "end": 1298.66,
+      "text": "然后你们再进行讨论",
+      "speaker": "C",
+      "u": 288,
+      "role": "storyteller"
+    },
+    {
+      "i": 571,
+      "s": 289,
+      "start": 1298.66,
+      "end": 1300.9,
+      "text": "这是一件很有趣的事情",
+      "speaker": "C",
+      "u": 288,
+      "role": "storyteller"
+    },
+    {
+      "i": 572,
+      "s": 289,
+      "start": 1300.9,
+      "end": 1303.44,
+      "text": "尤其是当你们观点相反的时候",
+      "speaker": "C",
+      "u": 288,
+      "role": "storyteller"
+    },
+    {
+      "i": 573,
+      "s": 290,
+      "start": 1303.44,
+      "end": 1305.02,
+      "text": "如果你老是跟一些",
+      "speaker": "C",
+      "u": 288,
+      "role": "storyteller"
+    },
+    {
+      "i": 574,
+      "s": 290,
+      "start": 1305.02,
+      "end": 1307.06,
+      "text": "跟你观点一样的人对话的话",
+      "speaker": "C",
+      "u": 288,
+      "role": "storyteller"
+    },
+    {
+      "i": 575,
+      "s": 290,
+      "start": 1307.06,
+      "end": 1309.83,
+      "text": "那你们不是就是在一个呃，",
+      "speaker": "C",
+      "u": 288,
+      "role": "storyteller"
+    },
+    {
+      "i": 576,
+      "s": 291,
+      "start": 1309.83,
+      "end": 1310.81,
+      "text": "echo chamber里面嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 577,
+      "s": 291,
+      "start": 1310.81,
+      "end": 1312.61,
+      "text": "就是在一个回音室里面嘛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 578,
+      "s": 292,
+      "start": 1312.61,
+      "end": 1315.09,
+      "text": "你们说话都是自说自话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 579,
+      "s": 292,
+      "start": 1315.09,
+      "end": 1316.33,
+      "text": "但稍微有一点不同呢。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 580,
+      "s": 293,
+      "start": 1316.33,
+      "end": 1317.53,
+      "text": "你跟他交流的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 581,
+      "s": 293,
+      "start": 1317.53,
+      "end": 1319.74,
+      "text": "你反而觉得有意思，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 582,
+      "s": 294,
+      "start": 1319.87,
+      "end": 1321.13,
+      "text": "对，我觉得你也可以成长，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 583,
+      "s": 294,
+      "start": 1321.13,
+      "end": 1323.22,
+      "text": "因为你接受到了不同的观点。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 584,
+      "s": 295,
+      "start": 1323.41,
+      "end": 1324.03,
+      "text": "还有一个就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 585,
+      "s": 295,
+      "start": 1324.03,
+      "end": 1326.05,
+      "text": "中国人对外国人有一个刻板印象，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 586,
+      "s": 295,
+      "start": 1326.05,
+      "end": 1328.97,
+      "text": "就是觉得他们思想很开放。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 587,
+      "s": 296,
+      "start": 1329.61,
+      "end": 1331.19,
+      "text": "哎，你觉得是吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 588,
+      "s": 297,
+      "start": 1331.19,
+      "end": 1333.46,
+      "text": "或者说他们指的是什么开放？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 589,
+      "s": 298,
+      "start": 1334.13,
+      "end": 1336.65,
+      "text": "可能可能就像我们刚才聊的那话题，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 590,
+      "s": 298,
+      "start": 1336.65,
+      "end": 1338.5,
+      "text": "比如说他们说话的方式比较直接。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 591,
+      "s": 299,
+      "start": 1338.94,
+      "end": 1341.22,
+      "text": "可能这就是一个开放的表现，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 592,
+      "s": 299,
+      "start": 1341.22,
+      "end": 1343.2,
+      "text": "还有就是他们不大喜欢",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 593,
+      "s": 299,
+      "start": 1343.2,
+      "end": 1345.53,
+      "text": "掩饰自己的情感情绪，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 594,
+      "s": 299,
+      "start": 1345.69,
+      "end": 1346.88,
+      "text": "这就是一种开放。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 595,
+      "s": 300,
+      "start": 1346.88,
+      "end": 1351.62,
+      "text": "第二种很老旧的一个刻板印象",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 596,
+      "s": 300,
+      "start": 1351.62,
+      "end": 1354.3,
+      "text": "就是觉得外国人的性开放。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 597,
+      "s": 301,
+      "start": 1355.1,
+      "end": 1357.16,
+      "text": "奇怪的是，有很多外国人到中国来，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 598,
+      "s": 301,
+      "start": 1357.24,
+      "end": 1359.22,
+      "text": "他们的还真的是就",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 599,
+      "s": 301,
+      "start": 1359.22,
+      "end": 1360.89,
+      "text": "符合了这个刻板印象，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 600,
+      "s": 302,
+      "start": 1360.96,
+      "end": 1362.4,
+      "text": "他们真的就会变开放，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 601,
+      "s": 302,
+      "start": 1362.4,
+      "end": 1364.35,
+      "text": "就是变成了你中国人。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 602,
+      "s": 303,
+      "start": 1364.65,
+      "end": 1366.87,
+      "text": "设想的那种外国人的样子，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 603,
+      "s": 304,
+      "start": 1366.87,
+      "end": 1369.03,
+      "text": "比如说你经常在社交媒体上看到",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 604,
+      "s": 304,
+      "start": 1369.03,
+      "end": 1370.47,
+      "text": "有一些外国人喜欢炫耀",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 605,
+      "s": 304,
+      "start": 1370.47,
+      "end": 1372.38,
+      "text": "他们在中国交了多少女朋友，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 606,
+      "s": 305,
+      "start": 1372.54,
+      "end": 1375.09,
+      "text": "然后他可能会发床照啊、发小视频啊、",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 607,
+      "s": 305,
+      "start": 1375.09,
+      "end": 1379.25,
+      "text": "发那个什么呃OF的视频啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 608,
+      "s": 306,
+      "start": 1379.25,
+      "end": 1382.29,
+      "text": "然后再在网上网兜售这些东西啊。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 609,
+      "s": 307,
+      "start": 1382.29,
+      "end": 1383.59,
+      "text": "我我觉得这就很符合",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 610,
+      "s": 307,
+      "start": 1383.59,
+      "end": 1385.73,
+      "text": "中国人所说的那种刻板印象，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 611,
+      "s": 307,
+      "start": 1385.73,
+      "end": 1387.29,
+      "text": "但这不代表所有的外国人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 612,
+      "s": 307,
+      "start": 1387.29,
+      "end": 1388.45,
+      "text": "都是这个样子。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 613,
+      "s": 308,
+      "start": 1388.91,
+      "end": 1389.83,
+      "text": "那下面我们说一下",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 614,
+      "s": 308,
+      "start": 1389.83,
+      "end": 1392.05,
+      "text": "就是关于社交活动吧，呃，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 615,
+      "s": 308,
+      "start": 1392.05,
+      "end": 1394.21,
+      "text": "就是外国朋友跟中国朋友。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 616,
+      "s": 309,
+      "start": 1394.59,
+      "end": 1396.08,
+      "text": "出去玩的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 617,
+      "s": 309,
+      "start": 1396.08,
+      "end": 1397.79,
+      "text": "一般喜欢做什么样的活动？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 618,
+      "s": 310,
+      "start": 1399.49,
+      "end": 1401.56,
+      "text": "呃，你中国男生在一起喜欢干嘛？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 619,
+      "s": 311,
+      "start": 1401.56,
+      "end": 1402.49,
+      "text": "打游戏吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 620,
+      "s": 312,
+      "start": 1402.82,
+      "end": 1405.36,
+      "text": "最多就是饭局、喝酒，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 621,
+      "s": 312,
+      "start": 1405.36,
+      "end": 1407.29,
+      "text": "然后吃烧烤、KTV这些。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 622,
+      "s": 313,
+      "start": 1407.48,
+      "end": 1409.76,
+      "text": "其他就是有有兴趣的活动吧，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 623,
+      "s": 313,
+      "start": 1409.76,
+      "end": 1411.85,
+      "text": "兴趣的活动这个在中国比较少。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 624,
+      "s": 314,
+      "start": 1411.96,
+      "end": 1413.7,
+      "text": "我就很羡慕一些外国，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 625,
+      "s": 314,
+      "start": 1414.1,
+      "end": 1415.78,
+      "text": "比如说他们有一些gamer的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 626,
+      "s": 314,
+      "start": 1415.78,
+      "end": 1417.91,
+      "text": "大型的活动啊，就是玩游戏的人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 627,
+      "s": 315,
+      "start": 1417.94,
+      "end": 1419.84,
+      "text": "他们有一些很多各种各样的活动，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 628,
+      "s": 315,
+      "start": 1419.84,
+      "end": 1421.56,
+      "text": "然后他们有一些运动的活动。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 629,
+      "s": 316,
+      "start": 1421.65,
+      "end": 1422.57,
+      "text": "这些都很多，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 630,
+      "s": 316,
+      "start": 1422.57,
+      "end": 1424.19,
+      "text": "但在中国真的是很少很少。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 631,
+      "s": 317,
+      "start": 1424.41,
+      "end": 1426.63,
+      "text": "我我我经常约别人的一个事情就是，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 632,
+      "s": 318,
+      "start": 1426.65,
+      "end": 1427.55,
+      "text": "比如说我有一次",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 633,
+      "s": 318,
+      "start": 1427.55,
+      "end": 1429.57,
+      "text": "我在我的舞蹈课里面",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 634,
+      "s": 318,
+      "start": 1429.57,
+      "end": 1433.03,
+      "text": "认识了几个女生朋友，然后我就说：“哎，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 635,
+      "s": 319,
+      "start": 1433.03,
+      "end": 1434.79,
+      "text": "我们去约约爬山好不好？”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 636,
+      "s": 320,
+      "start": 1434.79,
+      "end": 1436.55,
+      "text": "然后她说：“哎，爬山我不感兴趣。”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 637,
+      "s": 321,
+      "start": 1436.55,
+      "end": 1438.51,
+      "text": "然后我就约他们，我说：“哎，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 638,
+      "s": 321,
+      "start": 1438.51,
+      "end": 1440.41,
+      "text": "我们早上早起来去散个步行不行？”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 639,
+      "s": 322,
+      "start": 1440.41,
+      "end": 1442.76,
+      "text": "哇，没有人跟我散步，他谁要跟你散步？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 640,
+      "s": 323,
+      "start": 1443.31,
+      "end": 1445.83,
+      "text": "我唯一碰到了一个很年轻的，就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 641,
+      "s": 323,
+      "start": 1445.83,
+      "end": 1449.28,
+      "text": "比我小大概是。快十岁的一个女孩子，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 642,
+      "s": 324,
+      "start": 1449.38,
+      "end": 1451.2,
+      "text": "呃，就是我们见面了三次之后，",
+      "speaker": "B",
+      "u": 323,
+      "role": "storyteller"
+    },
+    {
+      "i": 643,
+      "s": 324,
+      "start": 1451.2,
+      "end": 1454.04,
+      "text": "我就发现她很喜欢读书、读文学。",
+      "speaker": "B",
+      "u": 323,
+      "role": "storyteller"
+    },
+    {
+      "i": 644,
+      "s": 325,
+      "start": 1454.28,
+      "end": 1456.68,
+      "text": "然后就这个，我们就开始聊天。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 645,
+      "s": 326,
+      "start": 1456.68,
+      "end": 1458.7,
+      "text": "然后每一次我们见面就是聊文学，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 646,
+      "s": 326,
+      "start": 1458.7,
+      "end": 1460.48,
+      "text": "聊我们读过的书、看过的电影。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 647,
+      "s": 327,
+      "start": 1460.48,
+      "end": 1462.28,
+      "text": "我就觉得这种交友模式",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 648,
+      "s": 327,
+      "start": 1462.28,
+      "end": 1464.58,
+      "text": "是能够让我觉得很过瘾的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 649,
+      "s": 328,
+      "start": 1464.58,
+      "end": 1467.34,
+      "text": "我觉得现在中国人的业余爱好",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 650,
+      "s": 328,
+      "start": 1467.34,
+      "end": 1470.8,
+      "text": "可能呃也越来越多样化。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 651,
+      "s": 329,
+      "start": 1470.8,
+      "end": 1473.08,
+      "text": "呃，户外户外活动是真的很少。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 652,
+      "s": 330,
+      "start": 1473.08,
+      "end": 1474.96,
+      "text": "比如说我小时候我就经常抱怨说",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 653,
+      "s": 330,
+      "start": 1474.96,
+      "end": 1476.9,
+      "text": "我连打球的球场我都找不到。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 654,
+      "s": 331,
+      "start": 1477.12,
+      "end": 1477.98,
+      "text": "你知道吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 655,
+      "s": 332,
+      "start": 1477.98,
+      "end": 1479.36,
+      "text": "要找一个球场多难。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 656,
+      "s": 333,
+      "start": 1479.56,
+      "end": 1480.66,
+      "text": "当我到广东来的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 657,
+      "s": 333,
+      "start": 1480.66,
+      "end": 1483.04,
+      "text": "我就发现这边好多好多的球场。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 658,
+      "s": 334,
+      "start": 1483.38,
+      "end": 1484.94,
+      "text": "我我觉得吧，不管是外国人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 659,
+      "s": 334,
+      "start": 1484.94,
+      "end": 1488.16,
+      "text": "还是中国人，对那个运动啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 660,
+      "s": 334,
+      "start": 1488.16,
+      "end": 1490.36,
+      "text": "会对户外啊那种那种喜爱，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 661,
+      "s": 335,
+      "start": 1490.36,
+      "end": 1490.94,
+      "text": "其实我认为",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 662,
+      "s": 335,
+      "start": 1490.94,
+      "end": 1492.84,
+      "text": "那种情感情绪是差不多的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 663,
+      "s": 336,
+      "start": 1492.96,
+      "end": 1494.44,
+      "text": "只是只是有一个什么东西",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 664,
+      "s": 336,
+      "start": 1494.44,
+      "end": 1497.06,
+      "text": "阻止了中国人去进行这样的爱好呢？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 665,
+      "s": 337,
+      "start": 1497.06,
+      "end": 1499.32,
+      "text": "首先是我们时间真的好少啊；",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 666,
+      "s": 337,
+      "start": 1499.32,
+      "end": 1501.26,
+      "text": "第二就是我们真的工作太忙，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 667,
+      "s": 337,
+      "start": 1501.26,
+      "end": 1502.52,
+      "text": "然后我们收收入",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 668,
+      "s": 337,
+      "start": 1502.52,
+      "end": 1504.02,
+      "text": "相对来说比较少，然后。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 669,
+      "s": 338,
+      "start": 1504.44,
+      "end": 1507.76,
+      "text": "很难去维持一个那样那样的活动。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 670,
+      "s": 339,
+      "start": 1508.05,
+      "end": 1510.41,
+      "text": "呃，哦，忽然我忽然想到一个点啊，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 671,
+      "s": 339,
+      "start": 1510.41,
+      "end": 1514.76,
+      "text": "就是有一些我听过一个外国人说，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 672,
+      "s": 340,
+      "start": 1515.45,
+      "end": 1518.18,
+      "text": "在中国有些人想跟他们做朋友，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 673,
+      "s": 340,
+      "start": 1518.57,
+      "end": 1520.73,
+      "text": "但他们是很有目的性的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 674,
+      "s": 340,
+      "start": 1520.73,
+      "end": 1522.73,
+      "text": "就是想要跟他们练英文。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 675,
+      "s": 341,
+      "start": 1522.73,
+      "end": 1524.27,
+      "text": "你觉得是吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 676,
+      "s": 342,
+      "start": 1524.27,
+      "end": 1525.57,
+      "text": "呃，不敢说所有吧，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 677,
+      "s": 342,
+      "start": 1525.57,
+      "end": 1527.31,
+      "text": "但很多很大一部分中国人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 678,
+      "s": 342,
+      "start": 1527.31,
+      "end": 1529.69,
+      "text": "跟外国人交朋友的目的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 679,
+      "s": 342,
+      "start": 1529.69,
+      "end": 1530.91,
+      "text": "就是为了练习英文。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 680,
+      "s": 343,
+      "start": 1531.48,
+      "end": 1533.59,
+      "text": "我觉得对于外国人来说，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 681,
+      "s": 343,
+      "start": 1533.59,
+      "end": 1535.37,
+      "text": "他可能会觉得是个问题啊。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 682,
+      "s": 344,
+      "start": 1535.87,
+      "end": 1538.69,
+      "text": "就是，呃，他觉得这个友谊是不纯的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 683,
+      "s": 345,
+      "start": 1539.37,
+      "end": 1541.83,
+      "text": "友谊，我们虽然说的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 684,
+      "s": 345,
+      "start": 1541.83,
+      "end": 1543.15,
+      "text": "好像精神上很高尚，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 685,
+      "s": 345,
+      "start": 1543.15,
+      "end": 1545.33,
+      "text": "但实际上，就像你刚才说的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 686,
+      "s": 346,
+      "start": 1545.33,
+      "end": 1547.01,
+      "text": "你有一个朋友可以跟他聊电影，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 687,
+      "s": 346,
+      "start": 1547.01,
+      "end": 1548.52,
+      "text": "可以跟他聊文学，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 688,
+      "s": 346,
+      "start": 1548.57,
+      "end": 1550.97,
+      "text": "跟他的交流中你获得了东西，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 689,
+      "s": 347,
+      "start": 1550.97,
+      "end": 1552.48,
+      "text": "获得精神上的快感，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 690,
+      "s": 347,
+      "start": 1552.77,
+      "end": 1554.23,
+      "text": "其实是有来有往的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 691,
+      "s": 348,
+      "start": 1554.23,
+      "end": 1556.39,
+      "text": "你不可能只有一方输出，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 692,
+      "s": 348,
+      "start": 1556.39,
+      "end": 1558.13,
+      "text": "你没有输入，对吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 693,
+      "s": 349,
+      "start": 1558.15,
+      "end": 1561.01,
+      "text": "你这样的朋友就会关系是不健康的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 694,
+      "s": 349,
+      "start": 1561.01,
+      "end": 1563.42,
+      "text": "就让你觉得很疲劳。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 695,
+      "s": 350,
+      "start": 1563.42,
+      "end": 1566.03,
+      "text": "所以有一定的你来我往，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 696,
+      "s": 350,
+      "start": 1566.03,
+      "end": 1568.64,
+      "text": "我觉得是呃正常的有一些。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 697,
+      "s": 351,
+      "start": 1569.13,
+      "end": 1572.13,
+      "text": "但是如果说你只是为了学英语，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 698,
+      "s": 351,
+      "start": 1572.13,
+      "end": 1575.71,
+      "text": "然后你就不把别人当人看，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 699,
+      "s": 352,
+      "start": 1575.71,
+      "end": 1577.99,
+      "text": "只把别人当成一个哎呃",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 700,
+      "s": 352,
+      "start": 1577.99,
+      "end": 1581.09,
+      "text": "一个一个学习工具、一个复读机、",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 701,
+      "s": 352,
+      "start": 1581.09,
+      "end": 1582.65,
+      "text": "一个Duolingo一样的东西，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 702,
+      "s": 352,
+      "start": 1583.25,
+      "end": 1584.48,
+      "text": "确实很糟糕。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 703,
+      "s": 353,
+      "start": 1584.93,
+      "end": 1586.65,
+      "text": "我我那个朋友Russell嘛，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 704,
+      "s": 353,
+      "start": 1586.65,
+      "end": 1590.67,
+      "text": "他一直只找我帮他。在淘宝上买东西，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 705,
+      "s": 354,
+      "start": 1590.67,
+      "end": 1591.53,
+      "text": "你知道他拿护照",
+      "speaker": "C",
+      "u": 353,
+      "role": "storyteller"
+    },
+    {
+      "i": 706,
+      "s": 354,
+      "start": 1591.53,
+      "end": 1593.91,
+      "text": "是没有办法申请淘宝号的吗？",
+      "speaker": "C",
+      "u": 353,
+      "role": "storyteller"
+    },
+    {
+      "i": 707,
+      "s": 355,
+      "start": 1593.91,
+      "end": 1597.21,
+      "text": "到年底的时候，他又请我去唱K，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 708,
+      "s": 355,
+      "start": 1597.21,
+      "end": 1598.98,
+      "text": "虽然我不是很喜欢唱K。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 709,
+      "s": 356,
+      "start": 1598.99,
+      "end": 1601.17,
+      "text": "他认为哦，你要去感谢别人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 710,
+      "s": 356,
+      "start": 1601.17,
+      "end": 1602.77,
+      "text": "因为他在中国学到的经验",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 711,
+      "s": 356,
+      "start": 1602.77,
+      "end": 1604.77,
+      "text": "就是所有的人情",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 712,
+      "s": 356,
+      "start": 1604.77,
+      "end": 1606.57,
+      "text": "都在KTV里面还的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 713,
+      "s": 357,
+      "start": 1606.61,
+      "end": 1609.63,
+      "text": "我就直接跟他说：“我说别浪费钱了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 714,
+      "s": 357,
+      "start": 1609.63,
+      "end": 1610.57,
+      "text": "其实去KTV",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 715,
+      "s": 357,
+      "start": 1610.57,
+      "end": 1612.15,
+      "text": "我我也不是很喜欢去KTV，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 716,
+      "s": 358,
+      "start": 1612.15,
+      "end": 1613.75,
+      "text": "你直接给我现金好不好？”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 717,
+      "s": 359,
+      "start": 1613.75,
+      "end": 1616.89,
+      "text": "中国人肯定会说一句：“谈钱伤感情。”",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 718,
+      "s": 360,
+      "start": 1616.9,
+      "end": 1619.44,
+      "text": "我觉得中国人处事方式是这样子的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 719,
+      "s": 360,
+      "start": 1619.44,
+      "end": 1621.75,
+      "text": "就是假设我今天帮了你一个忙，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 720,
+      "s": 361,
+      "start": 1621.88,
+      "end": 1623.94,
+      "text": "你不会说直接给钱来给我，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 721,
+      "s": 361,
+      "start": 1624.18,
+      "end": 1627.32,
+      "text": "而是你会记下这个人情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 722,
+      "s": 361,
+      "start": 1627.32,
+      "end": 1628.56,
+      "text": "然后下一次的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 723,
+      "s": 362,
+      "start": 1628.56,
+      "end": 1630.22,
+      "text": "你可能我找你帮忙的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 724,
+      "s": 362,
+      "start": 1630.22,
+      "end": 1631.02,
+      "text": "你也会来帮我，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 725,
+      "s": 362,
+      "start": 1631.02,
+      "end": 1635.14,
+      "text": "或者说你会以请饭、请吃饭这个方式",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 726,
+      "s": 362,
+      "start": 1635.14,
+      "end": 1636.71,
+      "text": "来表达你的感谢。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 727,
+      "s": 363,
+      "start": 1636.84,
+      "end": 1638.72,
+      "text": "我就特别不喜欢这样的方式，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 728,
+      "s": 363,
+      "start": 1638.72,
+      "end": 1641.26,
+      "text": "因为这个账算的很不清楚、很模糊。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 729,
+      "s": 364,
+      "start": 1641.26,
+      "end": 1643.18,
+      "text": "如果你少算了一个的话，就特别。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 730,
+      "s": 365,
+      "start": 1643.71,
+      "end": 1646.2,
+      "text": "嗯，别人会记在心里面，知道吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 731,
+      "s": 366,
+      "start": 1646.2,
+      "end": 1648.42,
+      "text": "对你来讲，你只你只是一个疏忽。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 732,
+      "s": 367,
+      "start": 1648.42,
+      "end": 1651.14,
+      "text": "比如说，我经常去篮球场吧，呃，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 733,
+      "s": 367,
+      "start": 1651.14,
+      "end": 1652.88,
+      "text": "有朋友就会给我买水，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 734,
+      "s": 367,
+      "start": 1652.88,
+      "end": 1654.75,
+      "text": "我我实在不想接受这个。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 735,
+      "s": 368,
+      "start": 1654.88,
+      "end": 1655.66,
+      "text": "你喝了吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 736,
+      "s": 369,
+      "start": 1655.66,
+      "end": 1656.9,
+      "text": "你下次就要请回他们。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 737,
+      "s": 370,
+      "start": 1657.28,
+      "end": 1659.14,
+      "text": "如果你不请到某一些人的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 738,
+      "s": 370,
+      "start": 1659.14,
+      "end": 1660.36,
+      "text": "那个人又不开心了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 739,
+      "s": 371,
+      "start": 1660.4,
+      "end": 1661.62,
+      "text": "最好就是AA，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 740,
+      "s": 371,
+      "start": 1661.62,
+      "end": 1665.26,
+      "text": "你们可以找一个人去帮大家买饮料，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 741,
+      "s": 371,
+      "start": 1665.26,
+      "end": 1666.46,
+      "text": "但是每个人都应该付钱，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 742,
+      "s": 371,
+      "start": 1666.46,
+      "end": 1667.68,
+      "text": "这是最好的方式。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 743,
+      "s": 372,
+      "start": 1667.68,
+      "end": 1669.4,
+      "text": "但不是，他们经常就是",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 744,
+      "s": 372,
+      "start": 1669.4,
+      "end": 1670.96,
+      "text": "一个人就请所有人。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 745,
+      "s": 373,
+      "start": 1671.97,
+      "end": 1675.19,
+      "text": "还有就是中国的朋友吧，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 746,
+      "s": 373,
+      "start": 1675.19,
+      "end": 1676.51,
+      "text": "如果你跟他非常好的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 747,
+      "s": 373,
+      "start": 1676.51,
+      "end": 1677.81,
+      "text": "是可以互相借钱。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 748,
+      "s": 374,
+      "start": 1677.81,
+      "end": 1680.9,
+      "text": "那我觉得在外国应该不是很常见吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 749,
+      "s": 375,
+      "start": 1681.17,
+      "end": 1683.13,
+      "text": "我我的印象是，我觉得跟外国人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 750,
+      "s": 375,
+      "start": 1683.13,
+      "end": 1687.19,
+      "text": "就不太会去涉及到金钱方面，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 751,
+      "s": 375,
+      "start": 1687.19,
+      "end": 1688.51,
+      "text": "就是哪怕是涉及到金钱，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 752,
+      "s": 376,
+      "start": 1688.51,
+      "end": 1689.82,
+      "text": "他一定会算得很清楚。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 753,
+      "s": 377,
+      "start": 1690.29,
+      "end": 1691.67,
+      "text": "你一定要会写借条呀，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 754,
+      "s": 377,
+      "start": 1691.67,
+      "end": 1693.77,
+      "text": "或者是哦有一个书面的证据，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 755,
+      "s": 377,
+      "start": 1693.77,
+      "end": 1694.99,
+      "text": "我向你借了多少钱。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 756,
+      "s": 378,
+      "start": 1694.99,
+      "end": 1696.11,
+      "text": "但是中国人会。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 757,
+      "s": 379,
+      "start": 1696.98,
+      "end": 1699.08,
+      "text": "你如果是作为借的那一方，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 758,
+      "s": 379,
+      "start": 1699.08,
+      "end": 1702.14,
+      "text": "你提出来写借条，那个借你钱的人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 759,
+      "s": 379,
+      "start": 1702.14,
+      "end": 1703.84,
+      "text": "会有一点心里不舒服，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 760,
+      "s": 380,
+      "start": 1703.84,
+      "end": 1705.24,
+      "text": "觉得啊你不相信我？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 761,
+      "s": 381,
+      "start": 1705.24,
+      "end": 1707.34,
+      "text": "难道你以为我会不还你的钱吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 762,
+      "s": 382,
+      "start": 1707.64,
+      "end": 1710.44,
+      "text": "我就是一个借钱的受害者啊！",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 763,
+      "s": 383,
+      "start": 1710.44,
+      "end": 1713.37,
+      "text": "就是我原来借钱给一个同学，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 764,
+      "s": 383,
+      "start": 1713.46,
+      "end": 1715.42,
+      "text": "他找我借钱的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 765,
+      "s": 383,
+      "start": 1715.42,
+      "end": 1717.11,
+      "text": "我特别容易就借出去了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 766,
+      "s": 384,
+      "start": 1717.32,
+      "end": 1720.74,
+      "text": "我给他四五千块钱分很多次吧，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 767,
+      "s": 384,
+      "start": 1720.74,
+      "end": 1723.16,
+      "text": "他说什么时候什么时候就还给我，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 768,
+      "s": 384,
+      "start": 1723.16,
+      "end": 1724.44,
+      "text": "当然说的很模糊了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 769,
+      "s": 385,
+      "start": 1724.79,
+      "end": 1727.68,
+      "text": "这没有没有一次还给我的，呃，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 770,
+      "s": 385,
+      "start": 1727.68,
+      "end": 1731.02,
+      "text": "很多年以后吧，有一次我回老家，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 771,
+      "s": 385,
+      "start": 1731.02,
+      "end": 1733.11,
+      "text": "然后他又联系上我了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 772,
+      "s": 386,
+      "start": 1733.3,
+      "end": 1735.2,
+      "text": "然后第一件事又是找我借钱，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 773,
+      "s": 386,
+      "start": 1735.2,
+      "end": 1737.84,
+      "text": "说他现在陷入了什么困境里面",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 774,
+      "s": 386,
+      "start": 1737.84,
+      "end": 1738.76,
+      "text": "要找我借钱。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 775,
+      "s": 387,
+      "start": 1738.88,
+      "end": 1740.08,
+      "text": "我我认为他不觉得",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 776,
+      "s": 387,
+      "start": 1740.08,
+      "end": 1742.04,
+      "text": "我们这友谊值多少钱，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 777,
+      "s": 387,
+      "start": 1742.04,
+      "end": 1743.94,
+      "text": "他真的就是在完全的利用我。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 778,
+      "s": 388,
+      "start": 1743.94,
+      "end": 1745.24,
+      "text": "他觉得我就是这样一个人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 779,
+      "s": 388,
+      "start": 1745.24,
+      "end": 1747.6,
+      "text": "只要他说借钱，我就肯定会借给他。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 780,
+      "s": 389,
+      "start": 1747.9,
+      "end": 1749.84,
+      "text": "我明白，我看明白了是什么回事儿了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 781,
+      "s": 389,
+      "start": 1749.84,
+      "end": 1750.62,
+      "text": "我就说好。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 782,
+      "s": 390,
+      "start": 1751.82,
+      "end": 1753.13,
+      "text": "呃，只要一千块吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 783,
+      "s": 391,
+      "start": 1753.13,
+      "end": 1753.57,
+      "text": "够吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 784,
+      "s": 392,
+      "start": 1753.57,
+      "end": 1754.17,
+      "text": "这样够吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 785,
+      "s": 393,
+      "start": 1754.32,
+      "end": 1756.55,
+      "text": "我说要不多多给你打一点儿。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 786,
+      "s": 394,
+      "start": 1756.55,
+      "end": 1758.15,
+      "text": "他说啊好啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 787,
+      "s": 394,
+      "start": 1758.15,
+      "end": 1760.51,
+      "text": "如果你如果你有多钱当然很好喽。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 788,
+      "s": 395,
+      "start": 1760.51,
+      "end": 1762.59,
+      "text": "他就说那我去银行等你啊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 789,
+      "s": 395,
+      "start": 1762.59,
+      "end": 1765.09,
+      "text": "当时还要那个去银行转钱呢。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 790,
+      "s": 396,
+      "start": 1765.09,
+      "end": 1766.57,
+      "text": "我说好好好，你先去吧，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 791,
+      "s": 396,
+      "start": 1766.57,
+      "end": 1768.18,
+      "text": "然后我就我马上打给你。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 792,
+      "s": 397,
+      "start": 1768.97,
+      "end": 1771.11,
+      "text": "他后来给我打了很多电话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 793,
+      "s": 397,
+      "start": 1771.11,
+      "end": 1773.13,
+      "text": "发了很多短信，我都不回他了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 794,
+      "s": 398,
+      "start": 1773.29,
+      "end": 1774.71,
+      "text": "这个朋友我就没有了，算是",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 795,
+      "s": 399,
+      "start": 1774.71,
+      "end": 1775.86,
+      "text": "报复他了是吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 796,
+      "s": 400,
+      "start": 1776.73,
+      "end": 1779.2,
+      "text": "我我们我这个报复相当的轻微，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 797,
+      "s": 400,
+      "start": 1779.2,
+      "end": 1780.44,
+      "text": "都不算是什么报复。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 798,
+      "s": 401,
+      "start": 1780.44,
+      "end": 1784.36,
+      "text": "我就觉得，我已经看穿你了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 799,
+      "s": 401,
+      "start": 1784.42,
+      "end": 1787.77,
+      "text": "朋友、朋友兄弟，我看穿你了，别这样了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 800,
+      "s": 402,
+      "start": 1787.82,
+      "end": 1789.84,
+      "text": "嗯，我们不是有一句话说",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 801,
+      "s": 402,
+      "start": 1789.84,
+      "end": 1792.5,
+      "text": "“亲兄弟明算账”吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 802,
+      "s": 403,
+      "start": 1792.5,
+      "end": 1795.1,
+      "text": "但是很多是做不到的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 803,
+      "s": 403,
+      "start": 1795.1,
+      "end": 1798.78,
+      "text": "就是亲戚之间、朋友之间、家人之间，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 804,
+      "s": 403,
+      "start": 1798.78,
+      "end": 1801.08,
+      "text": "其实在金钱方面是非常模糊的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 805,
+      "s": 404,
+      "start": 1801.08,
+      "end": 1804.8,
+      "text": "当发生了一些，矛盾的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 806,
+      "s": 404,
+      "start": 1804.9,
+      "end": 1806.54,
+      "text": "算不清楚的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 807,
+      "s": 404,
+      "start": 1806.54,
+      "end": 1809,
+      "text": "他就会变成更大的矛盾，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 808,
+      "s": 405,
+      "start": 1809,
+      "end": 1810.82,
+      "text": "然后导致他们的关系破裂。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 809,
+      "s": 406,
+      "start": 1810.82,
+      "end": 1814.44,
+      "text": "我曾经也有过，就是借钱给亲戚。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 810,
+      "s": 407,
+      "start": 1814.44,
+      "end": 1816.4,
+      "text": "我借钱给他时候，他当然很感谢我，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 811,
+      "s": 407,
+      "start": 1816.4,
+      "end": 1817.42,
+      "text": "但是他过了很多年，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 812,
+      "s": 407,
+      "start": 1817.42,
+      "end": 1818.77,
+      "text": "他都没有还这个钱。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 813,
+      "s": 408,
+      "start": 1818.86,
+      "end": 1819.72,
+      "text": "然后到后面，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 814,
+      "s": 408,
+      "start": 1819.72,
+      "end": 1821.9,
+      "text": "他就开始你你要找他还钱的时候，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 815,
+      "s": 408,
+      "start": 1821.9,
+      "end": 1823.35,
+      "text": "他就开始憎恨你了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 816,
+      "s": 409,
+      "start": 1823.8,
+      "end": 1826.08,
+      "text": "所以我觉得亲兄弟明算账，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 817,
+      "s": 409,
+      "start": 1826.08,
+      "end": 1828.3,
+      "text": "这个这个呃老一辈留下来的古话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 818,
+      "s": 409,
+      "start": 1828.3,
+      "end": 1829.36,
+      "text": "我觉得是很有道理的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 819,
+      "s": 410,
+      "start": 1829.36,
+      "end": 1830.98,
+      "text": "这个就是外国人做的很。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 820,
+      "s": 411,
+      "start": 1831.33,
+      "end": 1834.08,
+      "text": "很自然，我们还没有到那个地步。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 821,
+      "s": 412,
+      "start": 1834.57,
+      "end": 1837.19,
+      "text": "我是我是从从一个很幼稚的阶段",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 822,
+      "s": 412,
+      "start": 1837.19,
+      "end": 1838.99,
+      "text": "学会了如何跟人打交道。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 823,
+      "s": 413,
+      "start": 1838.99,
+      "end": 1840.21,
+      "text": "我觉得跟中国人打交道",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 824,
+      "s": 413,
+      "start": 1840.21,
+      "end": 1841.83,
+      "text": "城府真的很多，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 825,
+      "s": 413,
+      "start": 1841.83,
+      "end": 1843.55,
+      "text": "没有那么多单纯的友谊的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 826,
+      "s": 414,
+      "start": 1843.55,
+      "end": 1845.21,
+      "text": "这是这是我的经验。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 827,
+      "s": 415,
+      "start": 1845.41,
+      "end": 1849.52,
+      "text": "我以前是一个很注重感情情感的人。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 828,
+      "s": 416,
+      "start": 1849.79,
+      "end": 1851.41,
+      "text": "我认为你这个人是朋友的话，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 829,
+      "s": 416,
+      "start": 1851.41,
+      "end": 1852.19,
+      "text": "我就会为你",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 830,
+      "s": 416,
+      "start": 1852.19,
+      "end": 1854.43,
+      "text": "虽然我没有什么资源，虽然我很穷，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 831,
+      "s": 417,
+      "start": 1854.43,
+      "end": 1856.87,
+      "text": "但是我还是尽我全能去帮你。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 832,
+      "s": 418,
+      "start": 1856.9,
+      "end": 1859.44,
+      "text": "我认为就是友谊的体现",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 833,
+      "s": 418,
+      "start": 1859.44,
+      "end": 1861.34,
+      "text": "但是我真的很幼稚了",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 834,
+      "s": 418,
+      "start": 1861.34,
+      "end": 1863.86,
+      "text": "那社会上很多人不是这么想的",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 835,
+      "s": 418,
+      "start": 1863.86,
+      "end": 1865.6,
+      "text": "他并不认为",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 836,
+      "s": 418,
+      "start": 1865.6,
+      "end": 1868.18,
+      "text": "你们之间有什么真正的友谊",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 837,
+      "s": 419,
+      "start": 1868.18,
+      "end": 1870.62,
+      "text": "那么他就会利用我这个属性",
+      "speaker": "C",
+      "u": 418,
+      "role": "storyteller"
+    },
+    {
+      "i": 838,
+      "s": 419,
+      "start": 1870.62,
+      "end": 1876.14,
+      "text": "去为他的利益着想去设计你",
+      "speaker": "C",
+      "u": 418,
+      "role": "storyteller"
+    },
+    {
+      "i": 839,
+      "s": 419,
+      "start": 1876.14,
+      "end": 1877.74,
+      "text": "我觉得这在外国的社会",
+      "speaker": "C",
+      "u": 418,
+      "role": "storyteller"
+    },
+    {
+      "i": 840,
+      "s": 419,
+      "start": 1877.74,
+      "end": 1879.16,
+      "text": "都很难出现的",
+      "speaker": "C",
+      "u": 418,
+      "role": "storyteller"
+    },
+    {
+      "i": 841,
+      "s": 420,
+      "start": 1879.16,
+      "end": 1881.14,
+      "text": "大家还是一个比较单纯的",
+      "speaker": "C",
+      "u": 418,
+      "role": "storyteller"
+    },
+    {
+      "i": 842,
+      "s": 420,
+      "start": 1881.14,
+      "end": 1882.18,
+      "text": "纯友谊的状态",
+      "speaker": "C",
+      "u": 418,
+      "role": "storyteller"
+    },
+    {
+      "i": 843,
+      "s": 420,
+      "start": 1882.18,
+      "end": 1883.58,
+      "text": "大概只有政治家",
+      "speaker": "C",
+      "u": 418,
+      "role": "storyteller"
+    },
+    {
+      "i": 844,
+      "s": 420,
+      "start": 1883.72,
+      "end": 1885.64,
+      "text": "才会这样去骗人，对吧？",
+      "speaker": "C",
+      "u": 418,
+      "role": "storyteller"
+    },
+    {
+      "i": 845,
+      "s": 421,
+      "start": 1885.82,
+      "end": 1886.86,
+      "text": "不是的，在中国，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 846,
+      "s": 421,
+      "start": 1886.86,
+      "end": 1888.62,
+      "text": "我觉得有很多人都是政治家。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 847,
+      "s": 422,
+      "start": 1888.94,
+      "end": 1891.34,
+      "text": "我我们有一句话说：",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 848,
+      "s": 422,
+      "start": 1891.34,
+      "end": 1893.22,
+      "text": "“多个朋友多条路嘛”，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 849,
+      "s": 422,
+      "start": 1893.22,
+      "end": 1895.92,
+      "text": "就是指朋友之间是可以互相帮忙的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 850,
+      "s": 423,
+      "start": 1896.94,
+      "end": 1898.94,
+      "text": "然后我们通常帮忙",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 851,
+      "s": 423,
+      "start": 1898.94,
+      "end": 1901.79,
+      "text": "是不太会去收钱的，对吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 852,
+      "s": 424,
+      "start": 1902.04,
+      "end": 1904.14,
+      "text": "但是西方人吧，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 853,
+      "s": 424,
+      "start": 1904.14,
+      "end": 1905.52,
+      "text": "就都不说所有的外国人嘛，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 854,
+      "s": 424,
+      "start": 1905.52,
+      "end": 1908.68,
+      "text": "可能他们会觉得，呃，工作是工作。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 855,
+      "s": 425,
+      "start": 1909.55,
+      "end": 1912.33,
+      "text": "呃，友情是友情，就是该收的钱还得收。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 856,
+      "s": 426,
+      "start": 1912.61,
+      "end": 1915.39,
+      "text": "就假设啊，你是一个设计师，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 857,
+      "s": 426,
+      "start": 1915.39,
+      "end": 1916.89,
+      "text": "然后我找你帮我设计个东西，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 858,
+      "s": 426,
+      "start": 1917.87,
+      "end": 1918.71,
+      "text": "作为中国朋友，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 859,
+      "s": 427,
+      "start": 1918.71,
+      "end": 1920.99,
+      "text": "你会说嗯没事包在我身上，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 860,
+      "s": 427,
+      "start": 1921.05,
+      "end": 1923.37,
+      "text": "哎呀不要谈钱，不需要钱，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 861,
+      "s": 427,
+      "start": 1923.75,
+      "end": 1925.03,
+      "text": "然后你可能就做了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 862,
+      "s": 428,
+      "start": 1925.03,
+      "end": 1926.41,
+      "text": "但我如果真的不给你钱，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 863,
+      "s": 428,
+      "start": 1926.41,
+      "end": 1928.09,
+      "text": "也不没有任何表示的话，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 864,
+      "s": 428,
+      "start": 1928.09,
+      "end": 1929.43,
+      "text": "你心里肯定不舒服，对吧？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 865,
+      "s": 429,
+      "start": 1929.43,
+      "end": 1930.7,
+      "text": "所以我得请你吃顿饭。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 866,
+      "s": 430,
+      "start": 1931.71,
+      "end": 1933.35,
+      "text": "这种事我碰到很多，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 867,
+      "s": 430,
+      "start": 1933.35,
+      "end": 1934.93,
+      "text": "我觉得这样拜托",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 868,
+      "s": 430,
+      "start": 1934.93,
+      "end": 1937.47,
+      "text": "最不好的一。一个点就是，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 869,
+      "s": 431,
+      "start": 1937.47,
+      "end": 1938.81,
+      "text": "首先你要做一件事情",
+      "speaker": "C",
+      "u": 430,
+      "role": "storyteller"
+    },
+    {
+      "i": 870,
+      "s": 431,
+      "start": 1938.81,
+      "end": 1940.25,
+      "text": "是跟工作有关的，",
+      "speaker": "C",
+      "u": 430,
+      "role": "storyteller"
+    },
+    {
+      "i": 871,
+      "s": 431,
+      "start": 1940.25,
+      "end": 1942.44,
+      "text": "然后你想通过一段友谊就来，",
+      "speaker": "C",
+      "u": 430,
+      "role": "storyteller"
+    },
+    {
+      "i": 872,
+      "s": 432,
+      "start": 1942.83,
+      "end": 1944.61,
+      "text": "呃换取他为你服务",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 873,
+      "s": 432,
+      "start": 1944.61,
+      "end": 1946.04,
+      "text": "或者帮你做一件事情。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 874,
+      "s": 433,
+      "start": 1946.07,
+      "end": 1947.35,
+      "text": "就像你刚才说的吧，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 875,
+      "s": 433,
+      "start": 1947.35,
+      "end": 1949.13,
+      "text": "你要做一个美术设计，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 876,
+      "s": 433,
+      "start": 1949.13,
+      "end": 1951.11,
+      "text": "然后你请这个设计师吃一顿饭，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 877,
+      "s": 434,
+      "start": 1951.11,
+      "end": 1952.01,
+      "text": "但他这个设计",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 878,
+      "s": 434,
+      "start": 1952.01,
+      "end": 1955.03,
+      "text": "可能就比你这顿饭贵很多哎。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 879,
+      "s": 435,
+      "start": 1955.23,
+      "end": 1958.51,
+      "text": "我女朋友他们公司OK，他们老板，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 880,
+      "s": 435,
+      "start": 1958.61,
+      "end": 1962.49,
+      "text": "呃是日语教师，他是一个教育机构，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 881,
+      "s": 435,
+      "start": 1962.49,
+      "end": 1964.07,
+      "text": "然后他有一些日本朋友。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 882,
+      "s": 436,
+      "start": 1964.24,
+      "end": 1966.38,
+      "text": "他们就来中国玩的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 883,
+      "s": 436,
+      "start": 1966.38,
+      "end": 1968.42,
+      "text": "这个老板请他们吃了一顿饭。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 884,
+      "s": 437,
+      "start": 1968.42,
+      "end": 1969.88,
+      "text": "从日本的文化来说，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 885,
+      "s": 437,
+      "start": 1969.88,
+      "end": 1972.26,
+      "text": "他们也是以不打扰朋友为主的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 886,
+      "s": 438,
+      "start": 1972.26,
+      "end": 1974.6,
+      "text": "OK，我不能让你帮我做什么事情，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 887,
+      "s": 438,
+      "start": 1974.6,
+      "end": 1976.38,
+      "text": "可是他就要拜托别人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 888,
+      "s": 438,
+      "start": 1976.38,
+      "end": 1977.6,
+      "text": "帮他做一个logo。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 889,
+      "s": 439,
+      "start": 1978.4,
+      "end": 1979.2,
+      "text": "你知道做logo",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 890,
+      "s": 439,
+      "start": 1979.2,
+      "end": 1981.16,
+      "text": "是一个很复杂的事情，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 891,
+      "s": 439,
+      "start": 1981.16,
+      "end": 1983.68,
+      "text": "别人其实就很委婉的拒绝了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 892,
+      "s": 440,
+      "start": 1983.68,
+      "end": 1986.58,
+      "text": "但是这个老板他是没有眼力见的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 893,
+      "s": 440,
+      "start": 1986.58,
+      "end": 1988.1,
+      "text": "他心里的内心独白",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 894,
+      "s": 440,
+      "start": 1988.1,
+      "end": 1989.28,
+      "text": "是我都请你吃饭了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 895,
+      "s": 440,
+      "start": 1989.28,
+      "end": 1990.4,
+      "text": "你为什么还不帮我做？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 896,
+      "s": 441,
+      "start": 1990.4,
+      "end": 1992.04,
+      "text": "难道我的友谊不值钱吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 897,
+      "s": 442,
+      "start": 1992.2,
+      "end": 1994.94,
+      "text": "他做事的方式啊，这个老板。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 898,
+      "s": 443,
+      "start": 1994.94,
+      "end": 1996.42,
+      "text": "其实很有代表性，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 899,
+      "s": 443,
+      "start": 1996.42,
+      "end": 1998.51,
+      "text": "跟很多中国的老板都一样。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 900,
+      "s": 444,
+      "start": 1998.84,
+      "end": 2000.02,
+      "text": "他们很喜欢说：",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 901,
+      "s": 444,
+      "start": 2000.02,
+      "end": 2002.28,
+      "text": "“我找熟人去做一个什么东西，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 902,
+      "s": 444,
+      "start": 2002.28,
+      "end": 2004.92,
+      "text": "我找朋友帮我做，然后多少钱？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 903,
+      "s": 445,
+      "start": 2004.92,
+      "end": 2007.32,
+      "text": "这个朋友少收钱给我友谊价。”",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 904,
+      "s": 446,
+      "start": 2007.32,
+      "end": 2008.44,
+      "text": "实际上这个事情",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 905,
+      "s": 446,
+      "start": 2008.44,
+      "end": 2011.04,
+      "text": "百分之九十九的情况都不会做好。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 906,
+      "s": 447,
+      "start": 2011.36,
+      "end": 2012.57,
+      "text": "他做不好你还不好说。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 907,
+      "s": 448,
+      "start": 2013.46,
+      "end": 2015.14,
+      "text": "对，但是他没有这个意识，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 908,
+      "s": 448,
+      "start": 2015.14,
+      "end": 2017.46,
+      "text": "他觉得自己特别聪明，他省钱了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 909,
+      "s": 448,
+      "start": 2017.46,
+      "end": 2019.07,
+      "text": "他觉得自己省钱了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 910,
+      "s": 449,
+      "start": 2019.16,
+      "end": 2021.54,
+      "text": "但是这是一个非常小老板的思维。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 911,
+      "s": 450,
+      "start": 2021.63,
+      "end": 2023.25,
+      "text": "他们不但没有省到钱，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 912,
+      "s": 450,
+      "start": 2023.25,
+      "end": 2024.73,
+      "text": "这个事情最后还要搞砸，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 913,
+      "s": 451,
+      "start": 2025.03,
+      "end": 2026.63,
+      "text": "然后你还要再花钱",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 914,
+      "s": 451,
+      "start": 2026.63,
+      "end": 2029.89,
+      "text": "去雇一群真正的专业人士再做一遍，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 915,
+      "s": 451,
+      "start": 2029.89,
+      "end": 2031.62,
+      "text": "就是你浪费时间、浪费钱。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 916,
+      "s": 452,
+      "start": 2031.77,
+      "end": 2034.33,
+      "text": "然后还有一点就是我有注意到的，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 917,
+      "s": 452,
+      "start": 2034.37,
+      "end": 2036.45,
+      "text": "中国人有一个思想，就是",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 918,
+      "s": 452,
+      "start": 2036.45,
+      "end": 2038.62,
+      "text": "在什么样的年龄做什么样的事情，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 919,
+      "s": 453,
+      "start": 2038.91,
+      "end": 2041.61,
+      "text": "这个就导致中国人很难",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 920,
+      "s": 453,
+      "start": 2041.61,
+      "end": 2045.67,
+      "text": "跟比自己年龄相差很大的人做朋友。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 921,
+      "s": 454,
+      "start": 2045.67,
+      "end": 2046.73,
+      "text": "我觉得第一个方面",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 922,
+      "s": 454,
+      "start": 2046.73,
+      "end": 2048.25,
+      "text": "就是外国人涉猎很广，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 923,
+      "s": 454,
+      "start": 2048.25,
+      "end": 2050.23,
+      "text": "他们的爱好兴趣爱好非常的广泛。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 924,
+      "s": 455,
+      "start": 2050.67,
+      "end": 2053.12,
+      "text": "然后他不会去盲目去拒绝一些东西，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 925,
+      "s": 455,
+      "start": 2053.12,
+      "end": 2054.56,
+      "text": "比如说，呃，中国人就说",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 926,
+      "s": 456,
+      "start": 2054.56,
+      "end": 2055.62,
+      "text": "我到了一定年龄",
+      "speaker": "C",
+      "u": 455,
+      "role": "storyteller"
+    },
+    {
+      "i": 927,
+      "s": 456,
+      "start": 2055.62,
+      "end": 2057.16,
+      "text": "我就不去接触这个东西了。",
+      "speaker": "C",
+      "u": 455,
+      "role": "storyteller"
+    },
+    {
+      "i": 928,
+      "s": 457,
+      "start": 2057.16,
+      "end": 2059.78,
+      "text": "比如说，呃，我我我我年龄大了",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 929,
+      "s": 457,
+      "start": 2059.78,
+      "end": 2061.33,
+      "text": "我就不打游戏了，跳广场舞了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 930,
+      "s": 458,
+      "start": 2061.98,
+      "end": 2064.16,
+      "text": "呃，对对对，我就该跳广广场舞了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 931,
+      "s": 458,
+      "start": 2064.16,
+      "end": 2065.98,
+      "text": "你就该进入那个老人圈子了。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 932,
+      "s": 459,
+      "start": 2065.98,
+      "end": 2066.42,
+      "text": "他们不是，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 933,
+      "s": 459,
+      "start": 2066.42,
+      "end": 2068.92,
+      "text": "他们有一些兴趣爱好是一辈子的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 934,
+      "s": 460,
+      "start": 2068.92,
+      "end": 2071.76,
+      "text": "我觉得我们对年纪是很敏感的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 935,
+      "s": 461,
+      "start": 2071.76,
+      "end": 2073.52,
+      "text": "是你没有发现，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 936,
+      "s": 461,
+      "start": 2073.58,
+      "end": 2075.8,
+      "text": "就是呃两个陌生人见面",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 937,
+      "s": 461,
+      "start": 2075.8,
+      "end": 2077.74,
+      "text": "很喜欢问的就是年纪。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 938,
+      "s": 462,
+      "start": 2077.82,
+      "end": 2079.34,
+      "text": "你是九几后的？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 939,
+      "s": 463,
+      "start": 2079.34,
+      "end": 2080.3,
+      "text": "你是九零后的吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 940,
+      "s": 464,
+      "start": 2080.3,
+      "end": 2081.28,
+      "text": "你是八零后的吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 941,
+      "s": 465,
+      "start": 2081.28,
+      "end": 2082.47,
+      "text": "你是六零后的吗？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 942,
+      "s": 466,
+      "start": 2082.58,
+      "end": 2084.82,
+      "text": "你是八零后的，我是九零后的。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 943,
+      "s": 467,
+      "start": 2084.82,
+      "end": 2085.9,
+      "text": "那我得叫你一声大哥。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 944,
+      "s": 468,
+      "start": 2086.3,
+      "end": 2088.04,
+      "text": "你如果是七零后或者六零后，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 945,
+      "s": 468,
+      "start": 2088.04,
+      "end": 2090.77,
+      "text": "我爸这个年纪的，我得叫你一声大叔。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 946,
+      "s": 469,
+      "start": 2091.12,
+      "end": 2092.08,
+      "text": "就这个称呼",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 947,
+      "s": 469,
+      "start": 2092.08,
+      "end": 2095.3,
+      "text": "已经把我们的距离拉开了，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 948,
+      "s": 469,
+      "start": 2095.3,
+      "end": 2096.08,
+      "text": "没有办法再去",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 949,
+      "s": 469,
+      "start": 2096.08,
+      "end": 2098.86,
+      "text": "以平等的地位来沟通了。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 950,
+      "s": 470,
+      "start": 2098.86,
+      "end": 2100.7,
+      "text": "就当你们俩的那个那个地位",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 951,
+      "s": 470,
+      "start": 2100.7,
+      "end": 2102.96,
+      "text": "是相差这么大的，你怎么沟通啊？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 952,
+      "s": 471,
+      "start": 2102.96,
+      "end": 2103.88,
+      "text": "你怎么去聊？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 953,
+      "s": 472,
+      "start": 2104.36,
+      "end": 2106.98,
+      "text": "我就不明白了，我就不明白了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 954,
+      "s": 472,
+      "start": 2106.98,
+      "end": 2108.56,
+      "text": "为什么现在一些比我小的人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 955,
+      "s": 472,
+      "start": 2108.56,
+      "end": 2109.58,
+      "text": "要叫我叔叔，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 956,
+      "s": 473,
+      "start": 2109.58,
+      "end": 2111.26,
+      "text": "而且叫我叔叔的人还不少。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 957,
+      "s": 474,
+      "start": 2111.78,
+      "end": 2113,
+      "text": "我跟九十后的人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 958,
+      "s": 474,
+      "start": 2113.52,
+      "end": 2116.97,
+      "text": "跟一些二K后的人打球的时候，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 959,
+      "s": 474,
+      "start": 2117.14,
+      "end": 2120.86,
+      "text": "他们就说跟我说不要丢九十后的脸，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 960,
+      "s": 475,
+      "start": 2121.32,
+      "end": 2123.07,
+      "text": "他们认为我也是九十后，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 961,
+      "s": 475,
+      "start": 2123.18,
+      "end": 2125.54,
+      "text": "我跟他们是一个集团的，呃，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 962,
+      "s": 475,
+      "start": 2125.54,
+      "end": 2128.56,
+      "text": "我要维护捍卫九十后的那个尊严，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 963,
+      "s": 476,
+      "start": 2128.74,
+      "end": 2130.74,
+      "text": "要分得这么清楚吗，大哥？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 964,
+      "s": 477,
+      "start": 2130.74,
+      "end": 2132.38,
+      "text": "然后你叫我叔叔是什么意思？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 965,
+      "s": 478,
+      "start": 2132.59,
+      "end": 2133.6,
+      "text": "人为的一下",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 966,
+      "s": 478,
+      "start": 2133.6,
+      "end": 2135.43,
+      "text": "那种距离感就来了，你知道吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 967,
+      "s": 479,
+      "start": 2136.16,
+      "end": 2138.66,
+      "text": "嗯，还有一种情况就是有很多外国人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 968,
+      "s": 479,
+      "start": 2138.66,
+      "end": 2139.84,
+      "text": "他对中国人就是",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 969,
+      "s": 479,
+      "start": 2139.84,
+      "end": 2141.5,
+      "text": "尤其是中国大陆的人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 970,
+      "s": 480,
+      "start": 2141.5,
+      "end": 2144.96,
+      "text": "他已经有一种先入为主的印象了，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 971,
+      "s": 480,
+      "start": 2144.96,
+      "end": 2146.66,
+      "text": "就是他认为你就是",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 972,
+      "s": 480,
+      "start": 2146.66,
+      "end": 2149.12,
+      "text": "某一种有集体思维的人，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 973,
+      "s": 481,
+      "start": 2149.12,
+      "end": 2150.55,
+      "text": "然后他没有办法跟你聊。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 974,
+      "s": 482,
+      "start": 2150.68,
+      "end": 2152.88,
+      "text": "其实这个门是关上的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 975,
+      "s": 482,
+      "start": 2152.88,
+      "end": 2154.25,
+      "text": "他不愿意跟你交流。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 976,
+      "s": 483,
+      "start": 2154.84,
+      "end": 2157.32,
+      "text": "哎，那你你最想要",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 977,
+      "s": 483,
+      "start": 2157.32,
+      "end": 2158.86,
+      "text": "跟哪个国家的人做朋友？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 978,
+      "s": 484,
+      "start": 2159.17,
+      "end": 2162.7,
+      "text": "有跟各个国家不同的人聊过吧？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 979,
+      "s": 485,
+      "start": 2162.7,
+      "end": 2165.7,
+      "text": "我觉得东南亚的朋友，我觉得很不错。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 980,
+      "s": 486,
+      "start": 2165.7,
+      "end": 2168.36,
+      "text": "我觉得他们的思维很国际化，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 981,
+      "s": 486,
+      "start": 2168.36,
+      "end": 2170.81,
+      "text": "然后他们也很开放的心态聊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 982,
+      "s": 486,
+      "start": 2170.92,
+      "end": 2176.06,
+      "text": "他们也也会讽刺，也会一些幽默，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 983,
+      "s": 487,
+      "start": 2176.06,
+      "end": 2177.24,
+      "text": "非常自我讽刺什么的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 984,
+      "s": 487,
+      "start": 2177.24,
+      "end": 2178.76,
+      "text": "我觉得非常有意思。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 985,
+      "s": 488,
+      "start": 2179.04,
+      "end": 2180.38,
+      "text": "然后互相之间这种幽默",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 986,
+      "s": 488,
+      "start": 2180.38,
+      "end": 2182.46,
+      "text": "都是可以都是可以理解的。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 987,
+      "s": 489,
+      "start": 2182.96,
+      "end": 2185.7,
+      "text": "然后嗯，我很享受跟他们聊天的过程。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 988,
+      "s": 490,
+      "start": 2186.29,
+      "end": 2190.81,
+      "text": "我很少跟美国人聊天嘛",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 989,
+      "s": 490,
+      "start": 2190.81,
+      "end": 2192.49,
+      "text": "我觉得美国人好像",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 990,
+      "s": 490,
+      "start": 2192.49,
+      "end": 2195.33,
+      "text": "没有什么耐心去听你讲话",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 991,
+      "s": 490,
+      "start": 2195.33,
+      "end": 2197.43,
+      "text": "而且他们对中国人",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 992,
+      "s": 490,
+      "start": 2197.43,
+      "end": 2201.51,
+      "text": "都是有种先入为主的那种感觉",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 993,
+      "s": 492,
+      "start": 2201.51,
+      "end": 2204.13,
+      "text": "吧我有碰到过美国人",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 994,
+      "s": 492,
+      "start": 2204.13,
+      "end": 2207.47,
+      "text": "他还比较有耐心的他会听你聊什么",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 995,
+      "s": 492,
+      "start": 2207.47,
+      "end": 2209.69,
+      "text": "然后你说的一些话他觉得很有意思",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 996,
+      "s": 492,
+      "start": 2209.69,
+      "end": 2214.01,
+      "text": "可能我碰到的都是那个样子吧",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 997,
+      "s": 495,
+      "start": 2214.01,
+      "end": 2215.79,
+      "text": "我不知道嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 998,
+      "s": 495,
+      "start": 2215.79,
+      "end": 2217.71,
+      "text": "但确实也碰到过像你说的那种，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 999,
+      "s": 495,
+      "start": 2217.71,
+      "end": 2219.25,
+      "text": "就是他他先天的",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1000,
+      "s": 495,
+      "start": 2219.25,
+      "end": 2221.15,
+      "text": "就就就觉得自己高人一等，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1001,
+      "s": 496,
+      "start": 2221.15,
+      "end": 2222.55,
+      "text": "因为觉因为他会觉得",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1002,
+      "s": 496,
+      "start": 2222.55,
+      "end": 2223.65,
+      "text": "你的英文不够好，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1003,
+      "s": 496,
+      "start": 2223.65,
+      "end": 2224.85,
+      "text": "或者是你的表达不够好，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1004,
+      "s": 496,
+      "start": 2224.85,
+      "end": 2226.13,
+      "text": "他就不想跟你聊天。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1005,
+      "s": 497,
+      "start": 2226.13,
+      "end": 2227.37,
+      "text": "这种的也碰到过。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1006,
+      "s": 498,
+      "start": 2227.83,
+      "end": 2230.15,
+      "text": "对他觉得你对这个事情的观点",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 1007,
+      "s": 498,
+      "start": 2230.15,
+      "end": 2231.83,
+      "text": "没有达到某种高度，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 1008,
+      "s": 498,
+      "start": 2231.83,
+      "end": 2233.45,
+      "text": "他就不想浪费时间跟你聊，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 1009,
+      "s": 499,
+      "start": 2233.45,
+      "end": 2236.09,
+      "text": "他就觉得你们不就是那样的思维吗？",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 1010,
+      "s": 500,
+      "start": 2236.09,
+      "end": 2237.27,
+      "text": "你们都是那样想的，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 1011,
+      "s": 500,
+      "start": 2237.27,
+      "end": 2240.01,
+      "text": "所以他他他已经闭上那个门，",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 1012,
+      "s": 500,
+      "start": 2240.01,
+      "end": 2240.75,
+      "text": "他不跟你聊。",
+      "speaker": "C",
+      "role": "storyteller"
+    },
+    {
+      "i": 1013,
+      "s": 501,
+      "start": 2241.15,
+      "end": 2242.32,
+      "text": "嗯嗯，嗯，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1014,
+      "s": 501,
+      "start": 2242.46,
+      "end": 2244.96,
+      "text": "今天的播客我们就到这里结束吧。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1015,
+      "s": 502,
+      "start": 2244.96,
+      "end": 2246.68,
+      "text": "坐在视频前面前的你们",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1016,
+      "s": 502,
+      "start": 2246.68,
+      "end": 2248.63,
+      "text": "都是来自不同的国家，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1017,
+      "s": 503,
+      "start": 2248.84,
+      "end": 2251.04,
+      "text": "那在你们国家交友方面",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1018,
+      "s": 503,
+      "start": 2251.04,
+      "end": 2253.5,
+      "text": "跟中国人在交友方面",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1019,
+      "s": 503,
+      "start": 2253.5,
+      "end": 2255.56,
+      "text": "有没有什么很不同的地方？",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1020,
+      "s": 504,
+      "start": 2255.56,
+      "end": 2257.42,
+      "text": "可以在下面留言讨论。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1021,
+      "s": 505,
+      "start": 2257.42,
+      "end": 2259.06,
+      "text": "如果你喜欢这个视频的话呢，",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1022,
+      "s": 505,
+      "start": 2259.06,
+      "end": 2260.86,
+      "text": "就请给我们点赞、转发",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1023,
+      "s": 505,
+      "start": 2260.86,
+      "end": 2262.46,
+      "text": "并订阅我们的频道。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1024,
+      "s": 506,
+      "start": 2262.46,
+      "end": 2266.34,
+      "text": "我们就下期再见吧，拜拜，拜拜，拜拜。",
+      "speaker": "B",
+      "role": "storyteller"
+    },
+    {
+      "i": 1025,
+      "s": 507,
+      "start": 2266.37,
+      "end": 2267.57,
+      "text": "嗯。",
+      "speaker": "C",
+      "role": "storyteller"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-15",
   "episodes": [
     {
       "id": "E757",
@@ -236,6 +236,14 @@
       "owner": "SmallWOD时差同频"
     },
     {
+      "id": "MC20241014",
+      "title": "Why Chinese and Foreigners View Friendship Differently? - Intermediate Chinese - Chinese Podcast",
+      "pubDate": "2024-10-14",
+      "duration": 2292,
+      "source": "podcast",
+      "owner": "Mandarin Corner"
+    },
+    {
       "id": "MC20240303",
       "title": "Chinese Alcohol Drinking Culture - Intermediate Chinese - Chinese Audio Podcast",
       "pubDate": "2024-03-03",
@@ -373,6 +381,18 @@
         "CC3",
         "CC5",
         "E081"
+      ],
+      "planned": []
+    },
+    {
+      "id": "van-hoa",
+      "vi": "Văn hoá Trung Quốc",
+      "zh": "中国文化",
+      "about": "Người Trung Quốc nghĩ và sống thế nào: tình bạn, ân tình, bàn nhậu, làm ăn",
+      "episodes": [
+        "MC20241014",
+        "MC20240303",
+        "MC20200914"
       ],
       "planned": []
     },

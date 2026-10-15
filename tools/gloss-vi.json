@@ -6493,7 +6493,7 @@
  ],
  "设计": [
   "THIẾT KẾ",
-  "thiết kế"
+  "thiết kế; (设计你) gài bẫy, tính kế"
  ],
  "桑泉": [
   "TANG TUYỀN",
@@ -22169,7 +22169,7 @@
  ],
  "角色": [
   "GIÁC SẮC",
-  "vai, vai diễn"
+  "vai, vai diễn; nhân vật"
  ],
  "剃": [
   "THẾ",
@@ -28529,7 +28529,7 @@
  ],
  "性": [
   "TÍNH",
-  "tính chất; giới tính; (hậu tố) mang tính (自保性: mang tính tự vệ)"
+  "tính chất; giới tính; tình dục (性开放: cởi mở về tình dục); (hậu tố) mang tính (自保性: mang tính tự vệ)"
  ],
  "性别": [
   "TÍNH BIỆT",
@@ -35137,7 +35137,7 @@
  ],
  "集团": [
   "TẬP ĐOÀN",
-  "tập đoàn"
+  "tập đoàn; phe nhóm"
  ],
  "扛下": [
   "",
@@ -37158,5 +37158,849 @@
  "恭喜发财": [
   "CUNG HỶ PHÁT TÀI",
   "chúc phát tài (lời chúc Tết)"
+ ],
+ "友谊": [
+  "HỮU NGHỊ",
+  "tình bạn, tình hữu nghị"
+ ],
+ "借钱": [
+  "TÁ TIỀN",
+  "vay tiền; cho vay tiền"
+ ],
+ "黑人": [
+  "HẮC NHÂN",
+  "người da đen"
+ ],
+ "外教": [
+  "NGOẠI GIÁO",
+  "giáo viên nước ngoài"
+ ],
+ "出租车": [
+  "XUẤT TÔ XA",
+  "xe taxi"
+ ],
+ "诚实": [
+  "THÀNH THỰC",
+  "thành thật, trung thực"
+ ],
+ "吉翁": [
+  "CÁT ÔNG",
+  "Zeon (phe Công quốc Zeon trong Gundam)"
+ ],
+ "九十后": [
+  "CỬU THẬP HẬU",
+  "thế hệ 9x (sinh những năm 1990)"
+ ],
+ "中山": [
+  "TRUNG SƠN",
+  "Trung Sơn (thành phố ở Quảng Đông)"
+ ],
+ "要么": [
+  "YẾU MA",
+  "hoặc là (要么…要么…: hoặc… hoặc…)"
+ ],
+ "圣经": [
+  "THÁNH KINH",
+  "Kinh Thánh"
+ ],
+ "兴趣爱好": [
+  "HỨNG THÚ ÁI HẢO",
+  "sở thích, thú vui"
+ ],
+ "拜托": [
+  "BÁI THÁC",
+  "nhờ vả; (拜托了) làm ơn đi, thôi xin"
+ ],
+ "动画": [
+  "ĐỘNG HỌA",
+  "phim hoạt hình, anime"
+ ],
+ "文学": [
+  "VĂN HỌC",
+  "văn học"
+ ],
+ "金钱": [
+  "KIM TIỀN",
+  "tiền bạc"
+ ],
+ "报复": [
+  "BÁO PHỤC",
+  "trả thù, trả đũa"
+ ],
+ "薪水": [
+  "TÂN THỦY",
+  "tiền lương"
+ ],
+ "烧烤": [
+  "THIÊU KHẢO",
+  "đồ nướng, tiệc nướng (BBQ)"
+ ],
+ "过瘾": [
+  "QUÁ ẨN",
+  "đã, thỏa thích, đã đời"
+ ],
+ "攀岩": [
+  "PHAN NHAM",
+  "leo núi đá, leo vách đá"
+ ],
+ "除去": [
+  "TRỪ KHỨ",
+  "trừ đi, ngoài ra"
+ ],
+ "豪车": [
+  "HÀO XA",
+  "xe sang"
+ ],
+ "营造": [
+  "DOANH TẠO",
+  "xây dựng; tạo ra (bầu không khí, cảm giác)"
+ ],
+ "恒大": [
+  "HẰNG ĐẠI",
+  "Evergrande (tập đoàn bất động sản Hằng Đại)"
+ ],
+ "个人爱好": [
+  "CÁ NHÂN ÁI HẢO",
+  "sở thích cá nhân"
+ ],
+ "篮球场": [
+  "LAM CẦU TRƯỜNG",
+  "sân bóng rổ"
+ ],
+ "妹": [
+  "MUỘI",
+  "em gái"
+ ],
+ "发型": [
+  "PHÁT HÌNH",
+  "kiểu tóc"
+ ],
+ "鸡鸡": [
+  "KÊ KÊ",
+  "chim, cu (của nam, cách nói trẻ con)"
+ ],
+ "掩饰": [
+  "YỂM SỨC",
+  "che giấu, che đậy"
+ ],
+ "脏辫": [
+  "TÁNG BIỆN",
+  "tóc tết dreadlocks"
+ ],
+ "白菜": [
+  "BẠCH THÁI",
+  "cải thảo (ở đây: Bạch Thái, biệt danh một người bạn)"
+ ],
+ "大型": [
+  "ĐẠI HÌNH",
+  "cỡ lớn, quy mô lớn"
+ ],
+ "地步": [
+  "ĐỊA BỘ",
+  "mức, nông nỗi (đến mức)"
+ ],
+ "户外": [
+  "HỘ NGOẠI",
+  "ngoài trời"
+ ],
+ "借条": [
+  "TÁ ĐIỀU",
+  "giấy vay nợ"
+ ],
+ "看穿": [
+  "KHÁN XUYÊN",
+  "nhìn thấu"
+ ],
+ "亲兄弟明算账": [
+  "THÂN HUYNH ĐỆ MINH TOÁN TRƯỚNG",
+  "anh em ruột cũng phải sòng phẳng tiền bạc (tục ngữ)"
+ ],
+ "矛盾": [
+  "MÂU THUẪN",
+  "mâu thuẫn"
+ ],
+ "政治家": [
+  "CHÍNH TRỊ GIA",
+  "chính trị gia"
+ ],
+ "收钱": [
+  "THU TIỀN",
+  "lấy tiền, thu tiền"
+ ],
+ "浪费时间": [
+  "LÃNG PHÍ THỜI GIAN",
+  "lãng phí thời gian"
+ ],
+ "相差": [
+  "TƯƠNG SAI",
+  "chênh lệch, cách nhau"
+ ],
+ "六零后": [
+  "LỤC LINH HẬU",
+  "thế hệ 6x (sinh những năm 1960)"
+ ],
+ "先入为主": [
+  "TIÊN NHẬP VI CHỦ",
+  "định kiến có sẵn, ấn tượng đầu tiên chi phối"
+ ],
+ "讽刺": [
+  "PHÚNG THÍCH",
+  "châm biếm, mỉa mai"
+ ],
+ "科尔": [
+  "KHOA NHĨ",
+  "Kirk (khách mời Mandarin Corner)"
+ ],
+ "巴基斯坦": [
+  "BA CƠ TƯ THẢN",
+  "Pakistan"
+ ],
+ "印度": [
+  "ẤN ĐỘ",
+  "Ấn Độ"
+ ],
+ "孟加拉": [
+  "MẠNH GIA LẠP",
+  "Bangladesh; Bengal"
+ ],
+ "斯里兰卡": [
+  "TƯ LÝ LAN CA",
+  "Sri Lanka"
+ ],
+ "工业": [
+  "CÔNG NGHIỆP",
+  "công nghiệp"
+ ],
+ "轻工": [
+  "KHINH CÔNG",
+  "công nghiệp nhẹ"
+ ],
+ "产业": [
+  "SẢN NGHIỆP",
+  "ngành, ngành công nghiệp; tài sản"
+ ],
+ "篮球": [
+  "LAM CẦU",
+  "bóng rổ"
+ ],
+ "友": [
+  "HỮU",
+  "bạn (篮球友: bạn chơi bóng rổ)"
+ ],
+ "几句": [
+  "KỶ CÚ",
+  "vài câu"
+ ],
+ "多不多": [
+  "ĐA BẤT ĐA",
+  "có nhiều không"
+ ],
+ "共同点": [
+  "CỘNG ĐỒNG ĐIỂM",
+  "điểm chung"
+ ],
+ "封闭": [
+  "PHONG BẾ",
+  "khép kín; phong tỏa"
+ ],
+ "结交": [
+  "KẾT GIAO",
+  "kết giao, kết bạn"
+ ],
+ "苏联": [
+  "TÔ LIÊN",
+  "Liên Xô"
+ ],
+ "冰球": [
+  "BĂNG CẦU",
+  "khúc côn cầu trên băng"
+ ],
+ "星际争霸": [
+  "TINH TẾ TRANH BÁ",
+  "StarCraft (trò chơi điện tử)"
+ ],
+ "能不能够": [
+  "NĂNG BẤT NĂNG CẤU",
+  "có thể… không"
+ ],
+ "网吧": [
+  "VÕNG BA",
+  "quán net"
+ ],
+ "联机": [
+  "LIÊN CƠ",
+  "chơi trực tuyến, kết nối mạng"
+ ],
+ "五六十岁": [
+  "NGŨ LỤC THẬP TUẾ",
+  "năm sáu mươi tuổi"
+ ],
+ "户外运动": [
+  "HỘ NGOẠI VẬN ĐỘNG",
+  "hoạt động thể thao ngoài trời"
+ ],
+ "课本": [
+  "KHÓA BẢN",
+  "sách giáo khoa"
+ ],
+ "搭帐篷": [
+  "ĐÁP TRƯỚNG BỒNG",
+  "dựng lều"
+ ],
+ "深层次": [
+  "THÂM TẦNG THỨ",
+  "tầng sâu, sâu sắc"
+ ],
+ "男孩": [
+  "NAM HÀI",
+  "con trai, bé trai"
+ ],
+ "户": [
+  "HỘ",
+  "hộ, nhà; cửa"
+ ],
+ "户型": [
+  "HỘ HÌNH",
+  "kiểu căn hộ (số phòng, cách bố trí)"
+ ],
+ "个人隐私": [
+  "CÁ NHÂN ẨN TƯ",
+  "đời tư, chuyện riêng tư"
+ ],
+ "两室一厅": [
+  "LƯỠNG THẤT NHẤT SẢNH",
+  "căn hộ hai phòng ngủ một phòng khách"
+ ],
+ "三室一厅": [
+  "TAM THẤT NHẤT SẢNH",
+  "căn hộ ba phòng ngủ một phòng khách"
+ ],
+ "教教": [
+  "GIÁO GIÁO",
+  "dạy (cho) một chút"
+ ],
+ "请教": [
+  "THỈNH GIÁO",
+  "thỉnh giáo, xin chỉ bảo"
+ ],
+ "流水": [
+  "LƯU THỦY",
+  "nước chảy; doanh thu, tiền thu vào"
+ ],
+ "分期付款": [
+  "PHÂN KỲ PHÓ KHOẢN",
+  "trả góp"
+ ],
+ "上层": [
+  "THƯỢNG TẦNG",
+  "tầng trên, tầng lớp trên"
+ ],
+ "中层": [
+  "TRUNG TẦNG",
+  "tầng giữa, tầng lớp giữa"
+ ],
+ "下层": [
+  "HẠ TẦNG",
+  "tầng dưới, tầng lớp dưới"
+ ],
+ "许家印": [
+  "HỨA GIA ẤN",
+  "Hứa Gia Ấn (ông chủ tập đoàn Evergrande)"
+ ],
+ "负债": [
+  "PHỤ TRÁI",
+  "mắc nợ; khoản nợ"
+ ],
+ "银行贷款": [
+  "NGÂN HÀNG THẢI KHOẢN",
+  "vay ngân hàng, khoản vay ngân hàng"
+ ],
+ "两块钱": [
+  "LƯỠNG KHỐI TIỀN",
+  "hai đồng (tệ)"
+ ],
+ "装出": [
+  "TRANG XUẤT",
+  "giả bộ ra vẻ"
+ ],
+ "十五块": [
+  "THẬP NGŨ KHỐI",
+  "mười lăm đồng (tệ)"
+ ],
+ "话说回来": [
+  "THOẠI THUYẾT HỒI LAI",
+  "nói đi cũng phải nói lại; quay lại chuyện"
+ ],
+ "务虚": [
+  "VỤ HƯ",
+  "bàn chuyện lý luận suông; (ở đây) làm màu, phô trương bề ngoài"
+ ],
+ "平均收入": [
+  "BÌNH QUÂN THU NHẬP",
+  "thu nhập bình quân"
+ ],
+ "饥渴": [
+  "CƠ KHÁT",
+  "đói khát; khao khát"
+ ],
+ "独生子女": [
+  "ĐỘC SINH TỬ NỮ",
+  "con một"
+ ],
+ "不务正业": [
+  "BẤT VỤ CHÍNH NGHIỆP",
+  "không lo làm việc chính đáng, lơ là việc chính"
+ ],
+ "没用": [
+  "MỘT DỤNG",
+  "vô dụng, không có ích"
+ ],
+ "收入水平": [
+  "THU NHẬP THỦY BÌNH",
+  "mức thu nhập"
+ ],
+ "之余": [
+  "CHI DƯ",
+  "ngoài (giờ…), lúc rảnh sau (công việc)"
+ ],
+ "造诣": [
+  "TẠO NGHỆ",
+  "trình độ, thành tựu (trong một lĩnh vực)"
+ ],
+ "支撑": [
+  "",
+  "chống đỡ; duy trì, gánh nổi"
+ ],
+ "大把": [
+  "ĐẠI BẢ",
+  "cả đống, rất nhiều (thời gian, tiền)"
+ ],
+ "直白": [
+  "TRỰC BẠCH",
+  "thẳng thắn, nói toạc ra"
+ ],
+ "情报": [
+  "TÌNH BÁO",
+  "thông tin, tình báo"
+ ],
+ "探": [
+  "THÁM",
+  "dò, thăm dò; thăm"
+ ],
+ "防备": [
+  "PHÒNG BỊ",
+  "đề phòng"
+ ],
+ "偷窥": [
+  "THÂU KHUY",
+  "nhìn trộm, rình"
+ ],
+ "老板娘": [
+  "LÃO BẢN NƯƠNG",
+  "bà chủ (quán); vợ ông chủ"
+ ],
+ "张罗": [
+  "TRƯƠNG LA",
+  "lo liệu, lo toan (việc cho ai)"
+ ],
+ "零九年": [
+  "LINH CỬU NIÊN",
+  "năm (20)09"
+ ],
+ "跟进": [
+  "CÂN TIẾN",
+  "theo sát, phụ trách theo dõi (công việc)"
+ ],
+ "发过来": [
+  "PHÁT QUÁ LAI",
+  "gửi sang, gửi qua (cho mình)"
+ ],
+ "热心": [
+  "NHIỆT TÂM",
+  "nhiệt tình, sốt sắng"
+ ],
+ "嘿嘿": [
+  "",
+  "hề hề, hì hì (tiếng cười)"
+ ],
+ "骚": [
+  "TAO",
+  "lẳng lơ, gợi tình; (khẩu ngữ) điệu, chất chơi"
+ ],
+ "外貌": [
+  "NGOẠI MẠO",
+  "dung mạo, vẻ ngoài"
+ ],
+ "评头论足": [
+  "BÌNH ĐẦU LUẬN TÚC",
+  "bình phẩm soi mói (ngoại hình người khác)"
+ ],
+ "妈呀": [
+  "",
+  "trời ơi, mẹ ơi (thán từ)"
+ ],
+ "村": [
+  "THÔN",
+  "làng, thôn"
+ ],
+ "莫西干头": [
+  "MẠC TÂY CAN ĐẦU",
+  "kiểu tóc mohican (mohawk)"
+ ],
+ "见怪不怪": [
+  "KIẾN QUÁI BẤT QUÁI",
+  "thấy lạ mãi thành quen"
+ ],
+ "非得": [
+  "PHI ĐẮC",
+  "nhất định phải, cứ phải"
+ ],
+ "留意到": [
+  "LƯU Ý ĐÁO",
+  "để ý thấy, chú ý đến"
+ ],
+ "流于": [
+  "LƯU Ư",
+  "sa vào, rơi vào (流于表面: hời hợt bề ngoài)"
+ ],
+ "拒之门外": [
+  "CỰ CHI MÔN NGOẠI",
+  "đóng cửa không tiếp, gạt ra ngoài"
+ ],
+ "特有": [
+  "ĐẶC HỮU",
+  "riêng có, đặc thù"
+ ],
+ "定死": [
+  "ĐỊNH TỬ",
+  "chốt cứng, định sẵn không đổi"
+ ],
+ "高达": [
+  "CAO ĐẠT",
+  "cao tới (con số); Gundam (phim hoạt hình robot Nhật)"
+ ],
+ "打架": [
+  "ĐẢ GIÁ",
+  "đánh nhau"
+ ],
+ "政治势力": [
+  "CHÍNH TRỊ THẾ LỰC",
+  "thế lực chính trị"
+ ],
+ "联邦": [
+  "LIÊN BANG",
+  "liên bang"
+ ],
+ "主流": [
+  "CHỦ LƯU",
+  "dòng chính, xu hướng chủ đạo"
+ ],
+ "坏": [
+  "HOẠI",
+  "xấu, hỏng"
+ ],
+ "共处": [
+  "CỘNG XỬ",
+  "chung sống, ở cùng nhau"
+ ],
+ "原先": [
+  "NGUYÊN TIÊN",
+  "ban đầu, trước kia"
+ ],
+ "吵起来": [
+  "SẢO KHỞI LAI",
+  "cãi nhau (nổ ra)"
+ ],
+ "仇恨": [
+  "CỪU HẬN",
+  "thù hận"
+ ],
+ "老是": [
+  "LÃO THỊ",
+  "lúc nào cũng, cứ hoài"
+ ],
+ "回音": [
+  "HỒI ÂM",
+  "tiếng vang, tiếng vọng; hồi âm"
+ ],
+ "室": [
+  "THẤT",
+  "phòng"
+ ],
+ "自说自话": [
+  "TỰ THUYẾT TỰ THOẠI",
+  "tự nói tự nghe, ai nói phần nấy"
+ ],
+ "第二种": [
+  "ĐỆ NHỊ CHỦNG",
+  "loại thứ hai"
+ ],
+ "奇怪的是": [
+  "KỲ QUÁI ĐÍCH THỊ",
+  "điều lạ là"
+ ],
+ "炫耀": [
+  "HUYỄN DIỆU",
+  "khoe khoang, phô trương"
+ ],
+ "床照": [
+  "SÀNG CHIẾU",
+  "ảnh chụp trên giường (ảnh nóng)"
+ ],
+ "小视频": [
+  "TIỂU THỊ TẦN",
+  "video ngắn"
+ ],
+ "兜售": [
+  "ĐÂU THỤ",
+  "rao bán, chào bán"
+ ],
+ "羡慕": [
+  "TIỆN MỘ",
+  "ngưỡng mộ, thèm được như"
+ ],
+ "业余爱好": [
+  "NGHIỆP DƯ ÁI HẢO",
+  "sở thích lúc rảnh rỗi"
+ ],
+ "多样化": [
+  "ĐA DẠNG HÓA",
+  "đa dạng hóa, đa dạng"
+ ],
+ "户外活动": [
+  "HỘ NGOẠI HOẠT ĐỘNG",
+  "hoạt động ngoài trời"
+ ],
+ "阻止": [
+  "TRỞ CHỈ",
+  "ngăn cản"
+ ],
+ "目的性": [
+  "MỤC ĐÍCH TÍNH",
+  "tính mục đích, có ý đồ"
+ ],
+ "练习": [
+  "LUYỆN TẬP",
+  "luyện tập; bài tập"
+ ],
+ "不纯": [
+  "BẤT THUẦN",
+  "không trong sáng, không thuần khiết"
+ ],
+ "高尚": [
+  "CAO THƯỢNG",
+  "cao thượng, cao quý"
+ ],
+ "快感": [
+  "KHOÁI CẢM",
+  "khoái cảm, cảm giác sướng"
+ ],
+ "有来有往": [
+  "HỮU LAI HỮU VÃNG",
+  "có qua có lại"
+ ],
+ "你来我往": [
+  "NHĨ LAI NGÃ VÃNG",
+  "qua qua lại lại, có đi có lại"
+ ],
+ "复读机": [
+  "PHỤC ĐỘC CƠ",
+  "máy nghe lặp lại (máy học ngoại ngữ)"
+ ],
+ "护照": [
+  "HỘ CHIẾU",
+  "hộ chiếu"
+ ],
+ "处事": [
+  "XỬ SỰ",
+  "xử sự, đối nhân xử thế"
+ ],
+ "记下": [
+  "KÝ HẠ",
+  "ghi lại, ghi nhớ"
+ ],
+ "请饭": [
+  "THỈNH PHẠN",
+  "mời cơm"
+ ],
+ "疏忽": [
+  "SƠ HỐT",
+  "sơ suất, lơ đễnh"
+ ],
+ "书面": [
+  "THƯ DIỆN",
+  "bằng văn bản"
+ ],
+ "借出去": [
+  "TÁ XUẤT KHỨ",
+  "cho vay đi, cho mượn đi"
+ ],
+ "四五千": [
+  "TỨ NGŨ THIÊN",
+  "bốn năm nghìn"
+ ],
+ "多次": [
+  "ĐA THỨ",
+  "nhiều lần"
+ ],
+ "陷入": [
+  "HÃM NHẬP",
+  "rơi vào, sa vào"
+ ],
+ "转钱": [
+  "CHUYỂN TIỀN",
+  "chuyển tiền"
+ ],
+ "打给": [
+  "ĐẢ CẤP",
+  "gọi (điện) cho; (打钱) chuyển tiền cho"
+ ],
+ "轻微": [
+  "KHINH VI",
+  "nhẹ, không đáng kể"
+ ],
+ "憎恨": [
+  "TĂNG HẬN",
+  "căm ghét, căm hận"
+ ],
+ "老一辈": [
+  "LÃO NHẤT BỐI",
+  "thế hệ trước, lớp người đi trước"
+ ],
+ "古话": [
+  "CỔ THOẠI",
+  "câu nói xưa, lời người xưa"
+ ],
+ "城府": [
+  "THÀNH PHỦ",
+  "thâm hiểm, toan tính (lòng dạ khó dò)"
+ ],
+ "穷": [
+  "CÙNG",
+  "nghèo"
+ ],
+ "全能": [
+  "TOÀN NĂNG",
+  "toàn năng; (尽我全能) hết sức mình"
+ ],
+ "并不认为": [
+  "TỊNH BẤT NHẬN VI",
+  "hoàn toàn không cho rằng"
+ ],
+ "着想": [
+  "",
+  "nghĩ cho, tính cho (lợi ích của ai)"
+ ],
+ "骗人": [
+  "PHIẾN NHÂN",
+  "lừa người, lừa đảo"
+ ],
+ "多个朋友多条路": [
+  "ĐA CÁ BẰNG HỮU ĐA ĐIỀU LỘ",
+  "thêm một người bạn là thêm một con đường (tục ngữ)"
+ ],
+ "换取": [
+  "HOÁN THỦ",
+  "đổi lấy"
+ ],
+ "美术设计": [
+  "MỸ THUẬT THIẾT KẾ",
+  "thiết kế mỹ thuật, thiết kế đồ họa"
+ ],
+ "日语": [
+  "NHẬT NGỮ",
+  "tiếng Nhật"
+ ],
+ "眼力见": [
+  "NHÃN LỰC KIẾN",
+  "biết nhìn sắc mặt, tinh ý (khẩu ngữ)"
+ ],
+ "内心独白": [
+  "NỘI TÂM ĐỘC BẠCH",
+  "độc thoại nội tâm"
+ ],
+ "不值钱": [
+  "BẤT TRỊ TIỀN",
+  "không đáng giá, rẻ mạt"
+ ],
+ "代表性": [
+  "ĐẠI BIỂU TÍNH",
+  "tính tiêu biểu"
+ ],
+ "价": [
+  "GIÁ",
+  "giá (友谊价: giá chỗ bạn bè)"
+ ],
+ "百分之九十九": [
+  "BÁCH PHÂN CHI CỬU THẬP CỬU",
+  "99%"
+ ],
+ "搞砸": [
+  "CẢO TẠP",
+  "làm hỏng, làm hư bét"
+ ],
+ "专业人士": [
+  "CHUYÊN NGHIỆP NHÂN SĨ",
+  "người làm chuyên nghiệp, dân chuyên"
+ ],
+ "涉猎": [
+  "THIỆP LIỆP",
+  "tìm hiểu rộng, dấn vào nhiều lĩnh vực"
+ ],
+ "盲目": [
+  "MANH MỤC",
+  "mù quáng"
+ ],
+ "一辈子": [
+  "NHẤT BỐI TỬ",
+  "cả đời, suốt đời"
+ ],
+ "九几后": [
+  "CỬU KỶ HẬU",
+  "thế hệ 9x mấy (sinh năm 199x)"
+ ],
+ "七零后": [
+  "THẤT LINH HẬU",
+  "thế hệ 7x (sinh những năm 1970)"
+ ],
+ "拉开": [
+  "LẠP KHAI",
+  "kéo ra, mở ra; nới rộng (khoảng cách)"
+ ],
+ "平等": [
+  "BÌNH ĐẲNG",
+  "bình đẳng"
+ ],
+ "人为": [
+  "NHÂN VI",
+  "do con người gây ra, nhân tạo"
+ ],
+ "距离感": [
+  "CỰ LY CẢM",
+  "cảm giác xa cách"
+ ],
+ "关上": [
+  "QUAN THƯỢNG",
+  "đóng lại, tắt"
+ ],
+ "讲话": [
+  "GIẢNG THOẠI",
+  "nói chuyện, phát biểu"
+ ],
+ "先天": [
+  "TIÊN THIÊN",
+  "bẩm sinh, trời sinh"
+ ],
+ "高人一等": [
+  "CAO NHÂN NHẤT ĐẲNG",
+  "hơn người một bậc"
+ ],
+ "闭上": [
+  "BẾ THƯỢNG",
+  "nhắm lại, đóng lại"
+ ],
+ "广场舞": [
+  "QUẢNG TRƯỜNG VŨ",
+  "nhảy quảng trường (các cô các bà nhảy tập thể ở công viên)"
  ]
 }

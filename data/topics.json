@@ -36,6 +36,13 @@
       "episodes": ["CC3", "CC5", "E081"]
     },
     {
+      "id": "van-hoa",
+      "vi": "Văn hoá Trung Quốc",
+      "zh": "中国文化",
+      "about": "Người Trung Quốc nghĩ và sống thế nào: tình bạn, ân tình, bàn nhậu, làm ăn",
+      "episodes": ["MC20241014", "MC20240303", "MC20200914"]
+    },
+    {
       "id": "mua-sam",
       "vi": "Tiền & mua sắm",
       "zh": "消费 · 网购",

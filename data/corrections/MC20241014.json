@@ -1,0 +1,214 @@
+{
+  "episode": "MC20241014",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-15",
+  "fixes": [
+    {
+      "cueIndex": 19,
+      "before": "Mandarin Corner",
+      "after": "MandarinCorner",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 137,
+      "before": "G DP",
+      "after": "GDP",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 277,
+      "before": "pod cast",
+      "after": "podcast",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 278,
+      "before": "pod cast",
+      "after": "podcast",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 291,
+      "before": "ech o",
+      "after": "echo",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 291,
+      "before": "o chamber",
+      "after": "ochamber",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 305,
+      "before": "O F",
+      "after": "OF",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 312,
+      "before": "K TV",
+      "after": "KTV",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 314,
+      "before": "g amer",
+      "after": "gamer",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 353,
+      "before": "R us",
+      "after": "Rus",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 353,
+      "before": "us sell",
+      "after": "ussell",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 356,
+      "before": "K TV",
+      "after": "KTV",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 357,
+      "before": "K TV",
+      "after": "KTV",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 10,
+      "before": "transcript s",
+      "after": "transcripts",
+      "source": "llm-review",
+      "reason": "Plural split off its word by the zh ASR.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 13,
+      "before": "HS K",
+      "after": "HSK",
+      "source": "llm-review",
+      "reason": "One acronym split into two tokens.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 14,
+      "before": "An ki",
+      "after": "Anki",
+      "source": "llm-review",
+      "reason": "One word split into two tokens: the Anki flash cards.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 19,
+      "before": "MandarinCorner",
+      "after": "Mandarin Corner",
+      "source": "llm-review",
+      "reason": "The show is Mandarin Corner, two words; the glue pass joined it.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 246,
+      "before": "墨西哥头",
+      "after": "莫西干头",
+      "source": "llm-review",
+      "reason": "莫西干头 is the mohawk, beside 脏辫 as an odd hairstyle; whisper large-v3 and turbo both hear 墨西干头 (gān, not gē).",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 291,
+      "before": "echochamber",
+      "after": "echo chamber",
+      "source": "llm-review",
+      "reason": "Two English words, glossed by 回音室 right after; the glue pass joined them.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 352,
+      "before": "多林格",
+      "after": "Duolingo",
+      "source": "llm-review",
+      "reason": "The language app, said in English beside 学习工具 and 复读机; whisper large-v3 and turbo both hear 多灵格.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 371,
+      "before": "A A",
+      "after": "AA",
+      "source": "llm-review",
+      "reason": "AA制, going Dutch: one term split into two tokens.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 425,
+      "before": "有情是有情",
+      "after": "友情是友情",
+      "source": "llm-review",
+      "reason": "工作是工作，友情是友情; 有情 is the homophone, 有 at 0.47. whisper large-v3 and turbo all hear 友情是友情.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 431,
+      "before": "一顿友谊",
+      "after": "一段友谊",
+      "source": "llm-review",
+      "reason": "whisper large-v3 and turbo, with and without a prompt, all hear 一段友谊; 一顿 goes with 饭, not 友谊.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 440,
+      "before": "眼力架",
+      "after": "眼力见",
+      "source": "llm-review",
+      "reason": "眼力见(儿), reading the room: the boss misses a polite refusal. Its erhua jiàr is what ASR (架) and whisper (嫁) wrote down.",
+      "appliedAt": "2026-10-15"
+    },
+    {
+      "cueIndex": 461,
+      "before": "你们有发现",
+      "after": "你没有发现",
+      "source": "llm-review",
+      "reason": "whisper large-v3 and turbo, with and without a prompt, all hear 你没有发现; 你们有发现 does not parse.",
+      "appliedAt": "2026-10-15"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 65,
+      "text": "那跟我们一样嘛，就很对我不会口。",
+      "reason": "Likely 对胃口 (to one’s taste), but the models disagree on the word before it: large-v3 hears 就很对我们胃口, turbo 就很对我不畏口. Left as the ASR wrote it."
+    }
+  ]
+}
