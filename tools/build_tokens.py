@@ -76,8 +76,9 @@ NAME_TAGS = {"nr", "ns", "nt"}
 # kiloohm, 上拉 pull-up (resistor). From E080: 高三 the last year of high school, and 祝你们 "wishing
 # you". From SCN20200604: 二本 and 三本 the second and third tier of universities, 托关系 "pull strings",
 # 鸭嘴 a duck's bill. From DMP20250404: 新闻台 a news channel. From CC19: 扁平化 "flattening", of a
-# company with few levels of hierarchy.
-NOT_NAMES = {"连锡", "上锡", "千欧", "上拉", "高三", "祝你们", "二本", "三本", "托关系", "鸭嘴", "新闻台", "扁平化"}
+# company with few levels of hierarchy. From DSL20240126: 夏校 a summer school, and 小姑娘 "little girl",
+# which jieba tags nr wherever it is said.
+NOT_NAMES = {"连锡", "上锡", "千欧", "上拉", "高三", "祝你们", "二本", "三本", "托关系", "鸭嘴", "新闻台", "扁平化", "夏校", "小姑娘"}
 # A number spelled out (三十, 十四) is not a word to learn once its digits are known, so a word of
 # these alone counts as none, unless the syllabus teaches it (万一 "in case").
 NUMERALS = set("零〇一二三四五六七八九十百千万亿两几")

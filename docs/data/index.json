@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "episodes": [
     {
       "id": "E757",
@@ -236,6 +236,14 @@
       "owner": "SmallWOD时差同频"
     },
     {
+      "id": "DSL20240126",
+      "title": "22-如何学习和维持外语？",
+      "pubDate": "2024-01-26",
+      "duration": 2656,
+      "source": "podcast",
+      "owner": "独树不成林"
+    },
+    {
       "id": "MC20241014",
       "title": "Why Chinese and Foreigners View Friendship Differently? - Intermediate Chinese - Chinese Podcast",
       "pubDate": "2024-10-14",
@@ -281,7 +289,8 @@
         "E080",
         "TW20200703",
         "E517",
-        "BV15b42177rL"
+        "BV15b42177rL",
+        "DSL20240126"
       ],
       "planned": [
         {

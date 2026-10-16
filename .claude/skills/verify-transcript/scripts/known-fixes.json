@@ -19,5 +19,10 @@
     "wrong": "主播王庆",
     "right": "主播王磬",
     "note": "不合时宜 (TW…) co-host 王磬 (show notes list 若含, 孟常, 王磬); ASR hears the homophone 庆 in her fixed self-introduction \"我是主播王磬\". Scoped to 主播 directly before it, so no other 王庆 is touched."
+  },
+  {
+    "wrong": "读书不成龄",
+    "right": "独树不成林",
+    "note": "The show 《独树不成林》 (DSL…, title in data/podcasts.json) opens \"大家好，欢迎来到独树不成林\"; ASR heard 读书不成龄 in DSL20240126's intro. 不成龄 is not a word, so the string is safe to replace anywhere."
   }
 ]

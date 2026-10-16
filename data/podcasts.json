@@ -6,6 +6,15 @@
       "feed": "https://feed.firstory.me/rss/user/cko0g8j5m1toy0984t6s7mqtk",
       "episodes": [
         {
+          "id": "CC121",
+          "title": "Episode 121 | 分享一个好消息！Spilling the tea!",
+          "guid": "cmud24m3r0b1801uydj3pfk3y",
+          "mp3": "https://m.cdn.firstory.me/track/cko0g8j5m1toy0984t6s7mqtk/cmud24m3r0b1801uydj3pfk3y/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fcko0g8j5m1toy0984t6s7mqtk%2Fcmud24m3r0b1901uy2ehy8prr.mp3?v=1790104798232",
+          "link": "https://open.firstory.fm/story/cmud24m3r0b1801uydj3pfk3y",
+          "pubDate": "2026-10-16",
+          "duration": 2200
+        },
+        {
           "id": "CC120",
           "title": "Episode 120 | 烧香拜佛 求个好运 Pray Pray Good Luck",
           "guid": "cmud1kxg90atu01s69qow9xex",
@@ -5969,6 +5978,15 @@
       "feed": "https://anchor.fm/s/88ca316c/podcast/rss",
       "episodes": [
         {
+          "id": "DMP20261012",
+          "title": "Chinese Podcast EP222: What Do Chinese Teachers Watch Before Bed? Guilty Pleasures Revealed!",
+          "guid": "e661016e-e9f1-4cc7-9cca-1c0f8e5f9cc9",
+          "mp3": "https://anchor.fm/s/88ca316c/podcast/play/127314065/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-12%2F834ffdc1-e448-07b4-64e4-c676221ea65a.mp3",
+          "link": "https://podcasters.spotify.com/pod/show/dashumandarin/episodes/Chinese-Podcast-EP222-What-Do-Chinese-Teachers-Watch-Before-Bed--Guilty-Pleasures-Revealed-e3qbqmh",
+          "pubDate": "2026-10-12",
+          "duration": 2741
+        },
+        {
           "id": "DMP20261006",
           "title": "Chinese Podcast EP221: Busted! Talking Behind His Back... And HE JOINED THE CALL?!",
           "guid": "a6c3370f-a463-418f-8168-1110396416b3",
@@ -7912,6 +7930,15 @@
       "feed": "https://www.ximalaya.com/album/100701610.xml",
       "episodes": [
         {
+          "id": "SW20261016",
+          "title": "AI短剧爆款是怎样炼成的？来自好莱坞影视制作团队的答案",
+          "guid": "xmly_track_1024663230",
+          "mp3": "https://jt.ximalaya.com//GKwRIUEOp0eYArM9EgTpc7fT.m4a?channel=rss&album_id=100701610&track_id=1024663230&uid=568177727&jt=https://aod.cos.tx.xmcdn.com/storages/2657-audiofreehighqps/98/CD/GKwRIUEOp0eYArM9EgTpc7fT.m4a",
+          "link": "https://www.ximalaya.com/sound/1024663230",
+          "pubDate": "2026-10-16",
+          "duration": 5596
+        },
+        {
           "id": "SW20260927",
           "title": "杨一：中文播客人的十年全球漂流",
           "guid": "xmly_track_1018583172",
@@ -8955,6 +8982,3479 @@
           "link": "https://www.ximalaya.com/sound/895493112",
           "pubDate": "2025-08-04",
           "duration": 982
+        }
+      ]
+    },
+    {
+      "prefix": "DSL",
+      "title": "独树不成林",
+      "feed": "https://feed.xyzfm.space/y9qnpfdrctnx",
+      "episodes": [
+        {
+          "id": "DSL20261015",
+          "title": "371-两千年前就有人想象出赛博格、男人独立生育、星际战争了吗？《真实的故事》",
+          "guid": "6ad1579e641ef406308c5821",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6ad1579e641ef406308c5821/media.xyzcdn.net/64acd33c7a3d479103fbd32d/liJE6fkMG3ilr65Bi-7ZOVbnS_R1.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6ad1579e641ef406308c5821?utm_source=rss",
+          "pubDate": "2026-10-15",
+          "duration": 2418
+        },
+        {
+          "id": "DSL20261015-2",
+          "title": "370- 技术给了人类盲目的希望吗？《被缚的普罗米修斯》",
+          "guid": "6ad02f65195d838e2af20c40",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6ad02f65195d838e2af20c40/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvEKu27UTlTlOyTQI8YcQ-nvUrhD.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6ad02f65195d838e2af20c40?utm_source=rss",
+          "pubDate": "2026-10-15",
+          "duration": 2456
+        },
+        {
+          "id": "DSL20261015-3",
+          "title": "369-潘多拉是人类最早的科技噩梦吗？赫西俄德《工作与时日》",
+          "guid": "6ad02ec0e742e36efcc325a5",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6ad02ec0e742e36efcc325a5/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lkr0IBzodEN-ip-eS5xPnHnBBvz7.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6ad02ec0e742e36efcc325a5?utm_source=rss",
+          "pubDate": "2026-10-15",
+          "duration": 2090
+        },
+        {
+          "id": "DSL20261005",
+          "title": "368-为什么每一个时代的文化精英都认为文化要完了？",
+          "guid": "6ac2ecb7195d838e2aed5610",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6ac2ecb7195d838e2aed5610/media.xyzcdn.net/64acd33c7a3d479103fbd32d/llloRcsr7zOZfRUHhDF766iqMNpe.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6ac2ecb7195d838e2aed5610?utm_source=rss",
+          "pubDate": "2026-10-05",
+          "duration": 1850
+        },
+        {
+          "id": "DSL20261003",
+          "title": "367-社会改革能带来性别和谐吗？",
+          "guid": "6abfecaae742e36efcbddcb4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6abfecaae742e36efcbddcb4/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lmXou4DGsNVKdwplHqGubtkMV7PL.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6abfecaae742e36efcbddcb4?utm_source=rss",
+          "pubDate": "2026-10-03",
+          "duration": 2041
+        },
+        {
+          "id": "DSL20260930",
+          "title": "作者对谈：朋友是否比真理更加重要？（Roger Berkowitz）",
+          "guid": "6abc1eba195d838e2aebc103",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6abc1eba195d838e2aebc103/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ln7i59HzHpigTIxKj-dvWMKQrrSf.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6abc1eba195d838e2aebc103?utm_source=rss",
+          "pubDate": "2026-09-30",
+          "duration": 4375
+        },
+        {
+          "id": "DSL20260817",
+          "title": "366-莎士比亚如何改编普鲁塔克？（《科利奥兰纳斯》3）",
+          "guid": "6a83091e8156bf336219bcf3",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a83091e8156bf336219bcf3/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lqdg1K9O7AktEL9zq3JGdeG2fmzH.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a83091e8156bf336219bcf3?utm_source=rss",
+          "pubDate": "2026-08-17",
+          "duration": 2045
+        },
+        {
+          "id": "DSL20260817-2",
+          "title": "365-莎士比亚为什么认为卓越必须接受政治的限度？（《科利奥兰纳斯》2））",
+          "guid": "6a82959136641f136d895f74",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a82959136641f136d895f74/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lmliAFhfWGXAciSTIvaR2yoNCeJN.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a82959136641f136d895f74?utm_source=rss",
+          "pubDate": "2026-08-17",
+          "duration": 2174
+        },
+        {
+          "id": "DSL20260817-3",
+          "title": "364-莎士比亚如何理解卓越与平等之间的冲突？《科利奥兰纳斯》1",
+          "guid": "6a82812936641f136d895430",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a82812936641f136d895430/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lgwB3vJgPT6QYG7sothtyUJ6rQj9.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a82812936641f136d895430?utm_source=rss",
+          "pubDate": "2026-08-17",
+          "duration": 2315
+        },
+        {
+          "id": "DSL20260811",
+          "title": "363-卢梭和休谟如何从“好想投入你的怀抱”走向震撼欧洲的世纪大绝交？",
+          "guid": "6a7ad3a736641f136d867f4a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a7ad3a736641f136d867f4a/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lmMNsGhqsOmbFjVV-8rU_4pI4mUh.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a7ad3a736641f136d867f4a?utm_source=rss",
+          "pubDate": "2026-08-11",
+          "duration": 3363
+        },
+        {
+          "id": "DSL20260810",
+          "title": "362-为什么身体越像橡皮筋一样柔软越需要钢筋铁骨般的肌肉？",
+          "guid": "6a797e0a36641f136d85deab",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a797e0a36641f136d85deab/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lrEXjYs_tUAeK3Pcm7mT6vAwJbzl.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a797e0a36641f136d85deab?utm_source=rss",
+          "pubDate": "2026-08-10",
+          "duration": 1639
+        },
+        {
+          "id": "DSL20260806",
+          "title": "361-我如何从英美两大主流保守杂志对我的反思反思媒体的庸俗？",
+          "guid": "6a7410b31b5e24969ce9c46e",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a7410b31b5e24969ce9c46e/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lrCmMlCqmMTvBKLzAxBYKkeTUS5M.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a7410b31b5e24969ce9c46e?utm_source=rss",
+          "pubDate": "2026-08-06",
+          "duration": 2104
+        },
+        {
+          "id": "DSL20260804",
+          "title": "360-贝多芬是歌颂法国大革命的音乐家吗？",
+          "guid": "6a71d6afab3a91c24a0fb8c4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a71d6afab3a91c24a0fb8c4/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lp57Be0F5RcQV9UqdqrJres1eK6O.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a71d6afab3a91c24a0fb8c4?utm_source=rss",
+          "pubDate": "2026-08-04",
+          "duration": 2289
+        },
+        {
+          "id": "DSL20260802",
+          "title": "359-我的诺兰采访为啥在西方连夜火遍全网",
+          "guid": "6a6ed39d1b5e24969ce78480",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a6ed39d1b5e24969ce78480/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lqBWg_TDPreP8YSgvTT8heTH_787.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a6ed39d1b5e24969ce78480?utm_source=rss",
+          "pubDate": "2026-08-02",
+          "duration": 1599
+        },
+        {
+          "id": "DSL20260731",
+          "title": "采访诺兰：你是西方文明黄昏时代的吟游诗人吗？",
+          "guid": "6a6c4be756a3f3491ba7f8af",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a6c4be756a3f3491ba7f8af/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lmYU8kW7v5eJVssxMMCQREg1nOyk.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a6c4be756a3f3491ba7f8af?utm_source=rss",
+          "pubDate": "2026-07-31",
+          "duration": 1201
+        },
+        {
+          "id": "DSL20260730",
+          "title": "358-阿伦特和卢梭如何吐槽现代社会？对谈赵宇飞ft.华贸",
+          "guid": "6a6b90f256a3f3491ba7b33d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a6b90f256a3f3491ba7b33d/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lv7FXPg_G7cUwoJ9tFqWVUuVxfXD.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a6b90f256a3f3491ba7b33d?utm_source=rss",
+          "pubDate": "2026-07-30",
+          "duration": 4091
+        },
+        {
+          "id": "DSL20260722",
+          "title": "357-美国社会主义者会像特朗普接管共和党一样接管民主党吗？",
+          "guid": "6a602410a3fec224d5a15437",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a602410a3fec224d5a15437/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lkrkSW-E7TlQk9yR_aEsvnipNCtv.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a602410a3fec224d5a15437?utm_source=rss",
+          "pubDate": "2026-07-22",
+          "duration": 2449
+        },
+        {
+          "id": "DSL20260721",
+          "title": "356-智能手机是否正在造成全球生育率断崖式下降",
+          "guid": "6a5f0a9ea3fec224d5a0e245",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a5f0a9ea3fec224d5a0e245/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvOxmRbR2csU2VL0NuueupzMnLDN.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a5f0a9ea3fec224d5a0e245?utm_source=rss",
+          "pubDate": "2026-07-21",
+          "duration": 2466
+        },
+        {
+          "id": "DSL20260721-2",
+          "title": "355-教皇如何因人工智能撕裂美国右翼？",
+          "guid": "6a5ed53b6356eb2d9be5c861",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a5ed53b6356eb2d9be5c861/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lviCZ3bm-V7apkwYCOwFSP-ZfjqV.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a5ed53b6356eb2d9be5c861?utm_source=rss",
+          "pubDate": "2026-07-21",
+          "duration": 2530
+        },
+        {
+          "id": "DSL20260720",
+          "title": "354-北美13个殖民地为什么能够战胜18世纪最强大的帝国？",
+          "guid": "6a5dd00ea3fec224d5a05bb3",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a5dd00ea3fec224d5a05bb3/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lkDpyorA7SjFREDZdnw67OV09knD.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a5dd00ea3fec224d5a05bb3?utm_source=rss",
+          "pubDate": "2026-07-20",
+          "duration": 2918
+        },
+        {
+          "id": "DSL20260716",
+          "title": "353-民主党建制派为何被一群纽约社会主义者打得节节败退？",
+          "guid": "6a584a68a4972c496dfc9610",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a584a68a4972c496dfc9610/media.xyzcdn.net/64acd33c7a3d479103fbd32d/llOzE6T0Tfv9pkaER3cNzfDa5DQj.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a584a68a4972c496dfc9610?utm_source=rss",
+          "pubDate": "2026-07-16",
+          "duration": 1997
+        },
+        {
+          "id": "DSL20260716-2",
+          "title": "352-美国对伊战争进入了什么阶段？",
+          "guid": "6a58286ca4972c496dfc8059",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a58286ca4972c496dfc8059/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lgJd14Q102Cg6dq3eN3673LQL9Gk.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a58286ca4972c496dfc8059?utm_source=rss",
+          "pubDate": "2026-07-16",
+          "duration": 2312
+        },
+        {
+          "id": "DSL20260715",
+          "title": "351-西方政府禁止青少年使用社交媒体走到哪步了？",
+          "guid": "6a57082727a4eec16c40e4d5",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a57082727a4eec16c40e4d5/media.xyzcdn.net/64acd33c7a3d479103fbd32d/luvc8M2kuqKYv2hddFCsE_6ogxym.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a57082727a4eec16c40e4d5?utm_source=rss",
+          "pubDate": "2026-07-15",
+          "duration": 2147
+        },
+        {
+          "id": "DSL20260715-2",
+          "title": "350-马基雅维利为何认为人民再蠢也比精英可靠？",
+          "guid": "6a56ec0a27a4eec16c40d0d4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a56ec0a27a4eec16c40d0d4/media.xyzcdn.net/FqgvBt9nAq3U9DkDAbVCzVW-3-u5.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a56ec0a27a4eec16c40d0d4?utm_source=rss",
+          "pubDate": "2026-07-15",
+          "duration": 180
+        },
+        {
+          "id": "DSL20260714",
+          "title": "349-刚刚死光的美国自由国际主义三剑客代表了怎样的美国外交传统？",
+          "guid": "6a55ba2527a4eec16c4056ed",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a55ba2527a4eec16c4056ed/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lkZCZRRz2qZtVmQkTxobYCa8hWuC.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a55ba2527a4eec16c4056ed?utm_source=rss",
+          "pubDate": "2026-07-14",
+          "duration": 2202
+        },
+        {
+          "id": "DSL20260625",
+          "title": "348-真男人为什么应该练翘臀？",
+          "guid": "6a3cdd3a2e335a35a809346f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a3cdd3a2e335a35a809346f/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lisVx-gJlNMvam5AyDBZLrl9p_xt.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a3cdd3a2e335a35a809346f?utm_source=rss",
+          "pubDate": "2026-06-25",
+          "duration": 1645
+        },
+        {
+          "id": "DSL20260623",
+          "title": "347-到底为啥有些傻蛋只会以说教的方式沟通",
+          "guid": "6a39f61f2e335a35a807c565",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a39f61f2e335a35a807c565/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhHioZCEulxPeYcZobGjAOLyyMmt.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a39f61f2e335a35a807c565?utm_source=rss",
+          "pubDate": "2026-06-23",
+          "duration": 1775
+        },
+        {
+          "id": "DSL20260618",
+          "title": "346-柏拉图如何评价妈宝男和粉丝对偶像以爱为名的占有？",
+          "guid": "6a3398e643a22a695585d5c3",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a3398e643a22a695585d5c3/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lpI1Wb2LhxC1kw8KhZXEpMjbk2_t.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a3398e643a22a695585d5c3?utm_source=rss",
+          "pubDate": "2026-06-18",
+          "duration": 2369
+        },
+        {
+          "id": "DSL20260617",
+          "title": "对话财新：MAGA之后，美国还能回到建制政治吗？",
+          "guid": "6a32b60243a22a69558581e0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a32b60243a22a69558581e0/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lstZeipsHpCU5En6cPRXtTGRa7uU.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a32b60243a22a69558581e0?utm_source=rss",
+          "pubDate": "2026-06-17",
+          "duration": 6689
+        },
+        {
+          "id": "DSL20260611",
+          "title": "345-如何让你小孩愿意跟你讲话？",
+          "guid": "6a2aa8b50a34cf8ce5a7762f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a2aa8b50a34cf8ce5a7762f/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lt12K1jaPzdwfy5cKCCw4ElLjaWF.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a2aa8b50a34cf8ce5a7762f?utm_source=rss",
+          "pubDate": "2026-06-11",
+          "duration": 1664
+        },
+        {
+          "id": "DSL20260611-2",
+          "title": "344-如何嘻皮笑脸地应对打着我为你好的旗号来管管你的家人？",
+          "guid": "6a2a16463eedf1f4b268c4cd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a2a16463eedf1f4b268c4cd/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ljg7gU3yY_y6x-0Od_tcgCXr23u0.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a2a16463eedf1f4b268c4cd?utm_source=rss",
+          "pubDate": "2026-06-11",
+          "duration": 1850
+        },
+        {
+          "id": "DSL20260610",
+          "title": "343-阿伦特还写诗？（介绍《阿伦特诗集》）",
+          "guid": "6a28de20dbccffcfa9c68aca",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a28de20dbccffcfa9c68aca/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lsgSRHsa_oSgoVfODPBvfe97mBs_.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a28de20dbccffcfa9c68aca?utm_source=rss",
+          "pubDate": "2026-06-10",
+          "duration": 2196
+        },
+        {
+          "id": "DSL20260531",
+          "title": "342-知识分子属于上流社会还是下流社会？",
+          "guid": "6a1bd33a7460cabdeb589827",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a1bd33a7460cabdeb589827/media.xyzcdn.net/64acd33c7a3d479103fbd32d/loHCBHIIB2cF0ov_2AZE5m4u9NBb.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a1bd33a7460cabdeb589827?utm_source=rss",
+          "pubDate": "2026-05-31",
+          "duration": 2178
+        },
+        {
+          "id": "DSL20260528",
+          "title": "341-如何爱上跑步？",
+          "guid": "6a17ab417460cabdeb5703ee",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a17ab417460cabdeb5703ee/media.xyzcdn.net/64acd33c7a3d479103fbd32d/li2c-lE7DhEu0-cJUw0rJaZDbDC0.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a17ab417460cabdeb5703ee?utm_source=rss",
+          "pubDate": "2026-05-28",
+          "duration": 1911
+        },
+        {
+          "id": "DSL20260526",
+          "title": "柏拉图、卢梭、哈耶克、阿伦特如何解释算法时代？（对话大卫翁）",
+          "guid": "6a0e0d241b7bd5029589e473",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a0e0d241b7bd5029589e473/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lriSTsIlzNHMcF74AhXy1k5B_EMt.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a0e0d241b7bd5029589e473?utm_source=rss",
+          "pubDate": "2026-05-26",
+          "duration": 8661
+        },
+        {
+          "id": "DSL20260516",
+          "title": "这就是卢梭：我抛弃孩子，爱上妈妈，被全欧洲封杀，但我是个好人",
+          "guid": "6a08e1b6e1eb34a9398856a6",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a08e1b6e1eb34a9398856a6/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lg3tSXzvGxp7yJZ1Cn2O2cjRMTBI.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a08e1b6e1eb34a9398856a6?utm_source=rss",
+          "pubDate": "2026-05-16",
+          "duration": 3818
+        },
+        {
+          "id": "DSL20260512",
+          "title": "340-思考是一种政治能力吗？（介绍阿伦特《心智生活》）",
+          "guid": "6a038b211b7bd5029506b23f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a038b211b7bd5029506b23f/media.xyzcdn.net/64acd33c7a3d479103fbd32d/luFjFyWnWZgut0wLWelzuICcJ-UO.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a038b211b7bd5029506b23f?utm_source=rss",
+          "pubDate": "2026-05-12",
+          "duration": 2467
+        },
+        {
+          "id": "DSL20260510",
+          "title": "339-如何让成年后的孩子依然和你亲近？",
+          "guid": "6a00a7a1e1eb34a939204ad1",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6a00a7a1e1eb34a939204ad1/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lp9j-B4uWpi9XYtkpNAHf-jw3311.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a00a7a1e1eb34a939204ad1?utm_source=rss",
+          "pubDate": "2026-05-10",
+          "duration": 1924
+        },
+        {
+          "id": "DSL20260508",
+          "title": "作者对谈：什么是西方？（Georgios Varouxakis）",
+          "guid": "69fd365fe1eb34a939f2066a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69fd365fe1eb34a939f2066a/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvLQLXSUY7il4vJLQKhBYxFrT1C7.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69fd365fe1eb34a939f2066a?utm_source=rss",
+          "pubDate": "2026-05-08",
+          "duration": 4485
+        },
+        {
+          "id": "DSL20260505",
+          "title": "338-当反复无常的自恋狂掌握世界强权会发生什么？（德皇威廉二世）",
+          "guid": "69f95c97e05c0efcd6e2de65",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69f95c97e05c0efcd6e2de65/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lrCsKuuxr6SHys5gAExhEZA3Etbc.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69f95c97e05c0efcd6e2de65?utm_source=rss",
+          "pubDate": "2026-05-05",
+          "duration": 2419
+        },
+        {
+          "id": "DSL20260430",
+          "title": "337-冷战后福山、亨廷顿、哈贝马斯如何重新界定“西方”",
+          "guid": "69f2c939fbed7ba941277882",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69f2c939fbed7ba941277882/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lr-OcaayXiCtyD_DACY-Wzyh0x8H.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69f2c939fbed7ba941277882?utm_source=rss",
+          "pubDate": "2026-04-30",
+          "duration": 2180
+        },
+        {
+          "id": "DSL20260429",
+          "title": "336-冷战是西方阵营对战东方阵营吗？",
+          "guid": "69f289676c3b65cb7d667299",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69f289676c3b65cb7d667299/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lpgPk0XHJ52ezoOegwZdluFIHAmR.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69f289676c3b65cb7d667299?utm_source=rss",
+          "pubDate": "2026-04-29",
+          "duration": 2447
+        },
+        {
+          "id": "DSL20260429-2",
+          "title": "335-德国人是西方人吗？",
+          "guid": "69f197e598fa520797d80ea7",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69f197e598fa520797d80ea7/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lpJa3jvCcoJiOrgObtLGbcBiqYRS.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69f197e598fa520797d80ea7?utm_source=rss",
+          "pubDate": "2026-04-29",
+          "duration": 2087
+        },
+        {
+          "id": "DSL20260426",
+          "title": "334-俄罗斯如何逼迫欧洲人开始把自己定义成“西方人”？",
+          "guid": "69ee9c281d989496e793aeb2",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69ee9c281d989496e793aeb2/media.xyzcdn.net/64acd33c7a3d479103fbd32d/loaPCfgzyEPw0d4q31C_OCd3yBOa.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69ee9c281d989496e793aeb2?utm_source=rss",
+          "pubDate": "2026-04-26",
+          "duration": 2244
+        },
+        {
+          "id": "DSL20260424",
+          "title": "333-如何像照顾一条狗一样照顾自己？",
+          "guid": "69ebc9631d989496e7720c24",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69ebc9631d989496e7720c24/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lpNP3jhiN-psi1UO63-cRgNmTvbZ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69ebc9631d989496e7720c24?utm_source=rss",
+          "pubDate": "2026-04-24",
+          "duration": 1979
+        },
+        {
+          "id": "DSL20260417",
+          "title": "332-阿伦特会如何理解社交媒体时代的青少年教育困境？",
+          "guid": "69e285321d989496e7e0c8c9",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69e285321d989496e7e0c8c9/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lpMfg4YRrCCE3zUWt0Dc1IqXUXCq.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69e285321d989496e7e0c8c9?utm_source=rss",
+          "pubDate": "2026-04-17",
+          "duration": 2148
+        },
+        {
+          "id": "DSL20260415",
+          "title": "331-少男少女为何喜欢读金庸？",
+          "guid": "69ded5a5e2c8be31553a4d76",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69ded5a5e2c8be31553a4d76/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lueEahQjYyg5cZtjzNvnhQfR2-WF.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69ded5a5e2c8be31553a4d76?utm_source=rss",
+          "pubDate": "2026-04-15",
+          "duration": 4007
+        },
+        {
+          "id": "DSL20260413",
+          "title": "330-阿伦特如何理解现代儿童教育的危机？",
+          "guid": "69dd72e1b977fb2c47dbc671",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69dd72e1b977fb2c47dbc671/media.xyzcdn.net/Fn875gpQ5vU0QP5mZaV4X9fTkdeQ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69dd72e1b977fb2c47dbc671?utm_source=rss",
+          "pubDate": "2026-04-13",
+          "duration": 180
+        },
+        {
+          "id": "DSL20260411",
+          "title": "329-20世纪美国托洛茨基派怎么都变成了保守派？",
+          "guid": "69daa633b977fb2c47af7233",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69daa633b977fb2c47af7233/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lmffOZwjqRaShJjnXzVbZyYM2PZa.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69daa633b977fb2c47af7233?utm_source=rss",
+          "pubDate": "2026-04-11",
+          "duration": 2641
+        },
+        {
+          "id": "DSL20260409",
+          "title": "328-如何贪生怕死地运动",
+          "guid": "69d7a50fe2c8be3155cb0652",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69d7a50fe2c8be3155cb0652/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lsFh5ssBWov2QqtfjFzGrlJkqq6v.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69d7a50fe2c8be3155cb0652?utm_source=rss",
+          "pubDate": "2026-04-09",
+          "duration": 2091
+        },
+        {
+          "id": "DSL20260408",
+          "title": "327-卢梭如何影响了中国现代化进程？",
+          "guid": "69d5a9bce2c8be3155a1a676",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69d5a9bce2c8be3155a1a676/media.xyzcdn.net/64acd33c7a3d479103fbd32d/loye1g91VZtH-bwKvNH2avsLBhVW.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69d5a9bce2c8be3155a1a676?utm_source=rss",
+          "pubDate": "2026-04-08",
+          "duration": 4036
+        },
+        {
+          "id": "DSL20260405",
+          "title": "326-名气为何使人无趣",
+          "guid": "69d2c9e5b977fb2c472c55b0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69d2c9e5b977fb2c472c55b0/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lkoD-LHo0ra5rIRnwp-DvTrWEGhA.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69d2c9e5b977fb2c472c55b0?utm_source=rss",
+          "pubDate": "2026-04-05",
+          "duration": 1680
+        },
+        {
+          "id": "DSL20260401",
+          "title": "325-《洛丽塔》应该被禁吗？",
+          "guid": "69cd3206e2c8be3155236692",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69cd3206e2c8be3155236692/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lslphFwgWtpDpiZC3G-dbpuVlL4f.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69cd3206e2c8be3155236692?utm_source=rss",
+          "pubDate": "2026-04-01",
+          "duration": 2192
+        },
+        {
+          "id": "DSL20260331",
+          "title": "324-为什么美国会出现3K党这样的组织？",
+          "guid": "69cc1a0ce2c8be31550c581f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69cc1a0ce2c8be31550c581f/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhn7Gabj6_JkSzE2YveCtd3BTgsG.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69cc1a0ce2c8be31550c581f?utm_source=rss",
+          "pubDate": "2026-03-31",
+          "duration": 2630
+        },
+        {
+          "id": "DSL20260331-2",
+          "title": "作者对谈：美国新右翼的崛起（Laura Field）",
+          "guid": "69cb3572b977fb2c47b01e24",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69cb3572b977fb2c47b01e24/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhDbsg-kj0CO3x9MsOnRvKX9GhqG.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69cb3572b977fb2c47b01e24?utm_source=rss",
+          "pubDate": "2026-03-31",
+          "duration": 4571
+        },
+        {
+          "id": "DSL20260328",
+          "title": "323-AI是否可以取代翻译？错误的翻译如何塑造现实？",
+          "guid": "69c72415b977fb2c4768b70b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69c72415b977fb2c4768b70b/media.xyzcdn.net/64acd33c7a3d479103fbd32d/luW-Q1sjEF4UtTaO4gHe1yX7RKyf.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69c72415b977fb2c4768b70b?utm_source=rss",
+          "pubDate": "2026-03-28",
+          "duration": 3759
+        },
+        {
+          "id": "DSL20260324",
+          "title": "322-文科生陀思妥耶夫斯基如何反思理科？",
+          "guid": "69c2e131a514d3ecc7c5a984",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69c2e131a514d3ecc7c5a984/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvvDAHtEcNki0tHe5r-jhhW6s2kN.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69c2e131a514d3ecc7c5a984?utm_source=rss",
+          "pubDate": "2026-03-24",
+          "duration": 2352
+        },
+        {
+          "id": "DSL20260320",
+          "title": "321-陀思妥耶夫斯基如何刻画女性？",
+          "guid": "69bcc1e52d318777c9d3f87d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69bcc1e52d318777c9d3f87d/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lmGDxK1wRHrn9X0_FjRRDQrmE-GV.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69bcc1e52d318777c9d3f87d?utm_source=rss",
+          "pubDate": "2026-03-20",
+          "duration": 2520
+        },
+        {
+          "id": "DSL20260317",
+          "title": "320-阿伦特如何评价犹太复国主义",
+          "guid": "69b8cd34caaea1fb3bab2bf5",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69b8cd34caaea1fb3bab2bf5/media.xyzcdn.net/FpOdc4vbDnu_vJQk5UFcUTW8KOlt.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69b8cd34caaea1fb3bab2bf5?utm_source=rss",
+          "pubDate": "2026-03-17",
+          "duration": 180
+        },
+        {
+          "id": "DSL20260315",
+          "title": "319-现代科学为什么通过老鼠研究人类而不是浣熊？",
+          "guid": "69b6f136f8b8079bfa811c35",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69b6f136f8b8079bfa811c35/media.xyzcdn.net/64acd33c7a3d479103fbd32d/llFA-iIpjHwCU3KgECJFjccx7S68.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69b6f136f8b8079bfa811c35?utm_source=rss",
+          "pubDate": "2026-03-15",
+          "duration": 2127
+        },
+        {
+          "id": "DSL20260314",
+          "title": "318-陀思妥耶夫斯基如何用《罪与罚》狂骂激进派知识分子？",
+          "guid": "69b5c6b0caaea1fb3b462c2c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69b5c6b0caaea1fb3b462c2c/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lqYqJB4gxb72SMicqL9P2wqyay-q.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69b5c6b0caaea1fb3b462c2c?utm_source=rss",
+          "pubDate": "2026-03-14",
+          "duration": 2157
+        },
+        {
+          "id": "DSL20260311",
+          "title": "317-如何鉴赏一只好鸡？",
+          "guid": "69b1bafb57ff1b9a5c3943f8",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69b1bafb57ff1b9a5c3943f8/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lp-6bEbAMkYs_iyUVWnG1Z6hOzVj.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69b1bafb57ff1b9a5c3943f8?utm_source=rss",
+          "pubDate": "2026-03-11",
+          "duration": 1713
+        },
+        {
+          "id": "DSL20260311-2",
+          "title": "316-陀思妥耶夫斯基如何成为俄国第一位职业作家？",
+          "guid": "69b0cbbf2a2882aae76ad2b9",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69b0cbbf2a2882aae76ad2b9/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lr_JLtn-Dw2WXwnDZ8ByKbZyi6N5.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69b0cbbf2a2882aae76ad2b9?utm_source=rss",
+          "pubDate": "2026-03-11",
+          "duration": 2253
+        },
+        {
+          "id": "DSL20260307",
+          "title": "315-擦马桶如何帮我维持学者风范",
+          "guid": "69ab81365b2d0ed069b63f7d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69ab81365b2d0ed069b63f7d/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lgFFLuyf9Hc8cbuguK9AbNtEIUun.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69ab81365b2d0ed069b63f7d?utm_source=rss",
+          "pubDate": "2026-03-07",
+          "duration": 1900
+        },
+        {
+          "id": "DSL20260305",
+          "title": "314-伊斯兰世界在过去百年面对强大的西方做出了怎样的反思",
+          "guid": "69a9ea19c8cdeb38c2020b01",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69a9ea19c8cdeb38c2020b01/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lphC0q-TMwGUoGuCyk3XPlegrCrB.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69a9ea19c8cdeb38c2020b01?utm_source=rss",
+          "pubDate": "2026-03-05",
+          "duration": 2222
+        },
+        {
+          "id": "DSL20260304",
+          "title": "313-如何学习快乐老女人运动法",
+          "guid": "69a84afae46749707ffdff3c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69a84afae46749707ffdff3c/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lkTER0H6UMEiXie_8QAxV-ShUnSb.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69a84afae46749707ffdff3c?utm_source=rss",
+          "pubDate": "2026-03-04",
+          "duration": 1920
+        },
+        {
+          "id": "DSL20260303",
+          "title": "312-MAGA阵营内部为何对特朗普袭击伊朗感到不满",
+          "guid": "69a62f1e66e2c303770d8b20",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69a62f1e66e2c303770d8b20/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lj7azH74atN8wuZL3gc7s0fFbrfZ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69a62f1e66e2c303770d8b20?utm_source=rss",
+          "pubDate": "2026-03-03",
+          "duration": 2038
+        },
+        {
+          "id": "DSL20260301",
+          "title": "311-西方年轻人如何在70年代发明了极端恐怖主义？",
+          "guid": "69a48f5e66e2c30377e72c66",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69a48f5e66e2c30377e72c66/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lsjqLizDwuAKn5DTxup-uBV1HSx-.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69a48f5e66e2c30377e72c66?utm_source=rss",
+          "pubDate": "2026-03-01",
+          "duration": 2561
+        },
+        {
+          "id": "DSL20260301-2",
+          "title": "310-刚被斩首的伊朗伊斯兰政权如何在1979年掌权？",
+          "guid": "69a3880766e2c30377cdb1fa",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69a3880766e2c30377cdb1fa/media.xyzcdn.net/64acd33c7a3d479103fbd32d/loLGTDec8XbPkp3jxYCg-d751tWm.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69a3880766e2c30377cdb1fa?utm_source=rss",
+          "pubDate": "2026-03-01",
+          "duration": 2435
+        },
+        {
+          "id": "DSL20260228",
+          "title": "309-美国为什么打伊朗？",
+          "guid": "69a34eaa66e2c30377cc4071",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69a34eaa66e2c30377cc4071/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lqJRU1R_oBBc4fmTMbBRl43I-g2k.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69a34eaa66e2c30377cc4071?utm_source=rss",
+          "pubDate": "2026-02-28",
+          "duration": 2130
+        },
+        {
+          "id": "DSL20260224",
+          "title": "308-女权是否意味着争取选择自由？",
+          "guid": "699e1a79a22480add6f62ed7",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/699e1a79a22480add6f62ed7/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lgesbS0Sd76Ciib1V1Fw8sZvulRT.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/699e1a79a22480add6f62ed7?utm_source=rss",
+          "pubDate": "2026-02-24",
+          "duration": 2482
+        },
+        {
+          "id": "DSL20260222",
+          "title": "307-为什么国内很多学术翻译质量这么差？",
+          "guid": "699a54f8de29766da91be5d5",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/699a54f8de29766da91be5d5/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lkbjMOjUQCOkbEe64H9HqvRzAF4r.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/699a54f8de29766da91be5d5?utm_source=rss",
+          "pubDate": "2026-02-22",
+          "duration": 3438
+        },
+        {
+          "id": "DSL20260219",
+          "title": "306-词典有什么用？",
+          "guid": "699775f7de29766da9f64ccd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/699775f7de29766da9f64ccd/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lj_xsJ_BvpmO0Imc3Qnv8NJlgZsO.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/699775f7de29766da9f64ccd?utm_source=rss",
+          "pubDate": "2026-02-19",
+          "duration": 1764
+        },
+        {
+          "id": "DSL20260218",
+          "title": "305-阿伦特《人的境况》如何思考人工智能",
+          "guid": "69960d4566e2c30377c0fbc5",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69960d4566e2c30377c0fbc5/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lo1y2Nbh25ENBhrnYCpp88RCL6oh.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69960d4566e2c30377c0fbc5?utm_source=rss",
+          "pubDate": "2026-02-18",
+          "duration": 1889
+        },
+        {
+          "id": "DSL20260216",
+          "title": "304-沙特阿拉伯过去十年在进行一场怎样的政治改革？",
+          "guid": "6993986566e2c30377a25159",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6993986566e2c30377a25159/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lsM0NzvIe2-H_SGbmHAVG7xbv74T.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6993986566e2c30377a25159?utm_source=rss",
+          "pubDate": "2026-02-16",
+          "duration": 2409
+        },
+        {
+          "id": "DSL20260213",
+          "title": "303-阿伦特如何阅读卡夫卡？",
+          "guid": "698f8e3566e2c3037762b807",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/698f8e3566e2c3037762b807/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhuFMsbCxalLf5gSYxRXIo6XDuJt.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/698f8e3566e2c3037762b807?utm_source=rss",
+          "pubDate": "2026-02-13",
+          "duration": 2614
+        },
+        {
+          "id": "DSL20260212",
+          "title": "302-国家应该立法禁止青少年使用社交媒体吗？",
+          "guid": "698d4f2666e2c3037721b330",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/698d4f2666e2c3037721b330/media.xyzcdn.net/64acd33c7a3d479103fbd32d/llJqs1XDdfAoUl1cD1eJVy-i2W3d.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/698d4f2666e2c3037721b330?utm_source=rss",
+          "pubDate": "2026-02-12",
+          "duration": 1941
+        },
+        {
+          "id": "DSL20260207",
+          "title": "301-阿伦特如何痛骂茨威格？",
+          "guid": "6987b026a22480add6080766",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6987b026a22480add6080766/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lomJMj7QRvoG9YlDxCMF3Rk3kePF.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6987b026a22480add6080766?utm_source=rss",
+          "pubDate": "2026-02-07",
+          "duration": 1903
+        },
+        {
+          "id": "DSL20260205",
+          "title": "300-尼采《查拉图斯特拉如是说》究竟是写给谁读的？",
+          "guid": "69850d3870aae7e967cc2b81",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69850d3870aae7e967cc2b81/media.xyzcdn.net/FrNOzhatALzm23K6UqFdA_jTAElD.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69850d3870aae7e967cc2b81?utm_source=rss",
+          "pubDate": "2026-02-05",
+          "duration": 180
+        },
+        {
+          "id": "DSL20260204",
+          "title": "299-哪个社交平台最烂？",
+          "guid": "6983a489c78b823892b31407",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6983a489c78b823892b31407/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lqH8pcpp387IlVL4HrcPQWUgUZVN.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6983a489c78b823892b31407?utm_source=rss",
+          "pubDate": "2026-02-04",
+          "duration": 2574
+        },
+        {
+          "id": "DSL20260201",
+          "title": "298-在东北冬跑如何帮我摆脱苦闷？",
+          "guid": "697f9103b4be4c149b84caab",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/697f9103b4be4c149b84caab/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lr9LBs6xFUJ6p3kylmp0eFpfGP1f.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/697f9103b4be4c149b84caab?utm_source=rss",
+          "pubDate": "2026-02-01",
+          "duration": 1952
+        },
+        {
+          "id": "DSL20260130",
+          "title": "297-喜剧演员为何比学者更为高尚",
+          "guid": "697c25f8073030367a6c3c4a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/697c25f8073030367a6c3c4a/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhgRGeNT7suxJt0jpePpPz_0MM24.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/697c25f8073030367a6c3c4a?utm_source=rss",
+          "pubDate": "2026-01-30",
+          "duration": 1965
+        },
+        {
+          "id": "DSL20260128",
+          "title": "296-练一千小时瑜伽给我生活带来什么改变",
+          "guid": "697a47e6fed1b9fd8d733544",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/697a47e6fed1b9fd8d733544/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ln0CbnR2ePeSjyhcUId3tzsOpS_K.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/697a47e6fed1b9fd8d733544?utm_source=rss",
+          "pubDate": "2026-01-28",
+          "duration": 2077
+        },
+        {
+          "id": "DSL20260127",
+          "title": "295-美国退群之后西方联盟的其他国家要咋办？",
+          "guid": "697916c53cf2b0c01cee4140",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/697916c53cf2b0c01cee4140/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lis1kiT8by6X4QmunjORGQaH_ATo.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/697916c53cf2b0c01cee4140?utm_source=rss",
+          "pubDate": "2026-01-27",
+          "duration": 2056
+        },
+        {
+          "id": "DSL20260127-2",
+          "title": "294-一个聪明的中年人如何向上管理长辈？",
+          "guid": "697832a20c314a9fed77cfe7",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/697832a20c314a9fed77cfe7/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lqVoWILN9PVBalzR5m_NPtgtofsj.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/697832a20c314a9fed77cfe7?utm_source=rss",
+          "pubDate": "2026-01-27",
+          "duration": 2174
+        },
+        {
+          "id": "DSL20260123",
+          "title": "293-现代哲学如何在重复中寻找意义？",
+          "guid": "6971e979ef1cf272a7d8e037",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6971e979ef1cf272a7d8e037/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lgu_2LxFIyYXvAhenIZX2TLg5O8a.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6971e979ef1cf272a7d8e037?utm_source=rss",
+          "pubDate": "2026-01-23",
+          "duration": 2308
+        },
+        {
+          "id": "DSL20260122",
+          "title": "对话刘擎：去美国学习政治哲学的两代留学生",
+          "guid": "696fc76a109824f9e19e136d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/696fc76a109824f9e19e136d/media.xyzcdn.net/64acd33c7a3d479103fbd32d/luLzs8KMqEyEeVYx6BBP9uC8Lnq7.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/696fc76a109824f9e19e136d?utm_source=rss",
+          "pubDate": "2026-01-22",
+          "duration": 6439
+        },
+        {
+          "id": "DSL20260119",
+          "title": "292-阿拉伯海湾局势发生了怎样的变动？",
+          "guid": "696eaecdef1cf272a750645c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/696eaecdef1cf272a750645c/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lq8VMAn2rF9wVk0klt9j_USLI0Ev.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/696eaecdef1cf272a750645c?utm_source=rss",
+          "pubDate": "2026-01-19",
+          "duration": 2568
+        },
+        {
+          "id": "DSL20260116",
+          "title": "291-委内瑞拉怎么变成了今天这个样子？",
+          "guid": "6969763f109824f9e1b79056",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6969763f109824f9e1b79056/media.xyzcdn.net/nlRIiNIyo9TdqUrWAiVyh8IMaWlI.mp3",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6969763f109824f9e1b79056?utm_source=rss",
+          "pubDate": "2026-01-16",
+          "duration": 3184
+        },
+        {
+          "id": "DSL20260115",
+          "title": "290-拍时尚大片如何让我意识到我有点外宾",
+          "guid": "69684e07109824f9e188fdcd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69684e07109824f9e188fdcd/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvu30cHqb6BnusDFxRFFKjJnS9wo.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69684e07109824f9e188fdcd?utm_source=rss",
+          "pubDate": "2026-01-15",
+          "duration": 1734
+        },
+        {
+          "id": "DSL20260109",
+          "title": "289-我在童年如何与权威周旋？",
+          "guid": "69604c478f388c61e1ed0daf",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69604c478f388c61e1ed0daf/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lgeGBK84I1McuI3eOxBqOwNIYBs4.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69604c478f388c61e1ed0daf?utm_source=rss",
+          "pubDate": "2026-01-09",
+          "duration": 2415
+        },
+        {
+          "id": "DSL20260103",
+          "title": "288-伊朗老百姓为什么这么讨厌伊斯兰共和国？",
+          "guid": "69586ee02db086f8975d44ce",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69586ee02db086f8975d44ce/media.xyzcdn.net/64acd33c7a3d479103fbd32d/llYu0zxqiIRRUhKqhesrAAm2kDdi.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69586ee02db086f8975d44ce?utm_source=rss",
+          "pubDate": "2026-01-03",
+          "duration": 2349
+        },
+        {
+          "id": "DSL20260101",
+          "title": "287-2025年美国政府呈现出什么总体大趋势？",
+          "guid": "6956e2682db086f8973c0cdb",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6956e2682db086f8973c0cdb/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lotc7vEDOhwWfFmviN0jEJ99UyvL.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6956e2682db086f8973c0cdb?utm_source=rss",
+          "pubDate": "2026-01-01",
+          "duration": 2069
+        },
+        {
+          "id": "DSL20251231",
+          "title": "286-贝多芬如何用第九交响曲强迫人类望向康德的星空",
+          "guid": "69547bd02db086f897ece45c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69547bd02db086f897ece45c/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lkvF_qCZdHEgr1rOGYqa01BFTGq1.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69547bd02db086f897ece45c?utm_source=rss",
+          "pubDate": "2025-12-31",
+          "duration": 2191
+        },
+        {
+          "id": "DSL20251230",
+          "title": "285-斯多葛主义有什么好的",
+          "guid": "6953329d14db1df9ef6f487b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6953329d14db1df9ef6f487b/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lqPXARBnSiWVXkeUQgQtuu4wmNCh.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6953329d14db1df9ef6f487b?utm_source=rss",
+          "pubDate": "2025-12-30",
+          "duration": 4887
+        },
+        {
+          "id": "DSL20251227",
+          "title": "284-如何像女人一样运动？",
+          "guid": "695013702db086f8974b0b42",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/695013702db086f8974b0b42/media.xyzcdn.net/64acd33c7a3d479103fbd32d/luhxSiJrCrX99WqN12FsDeozkDUN.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/695013702db086f8974b0b42?utm_source=rss",
+          "pubDate": "2025-12-27",
+          "duration": 2153
+        },
+        {
+          "id": "DSL20251225",
+          "title": "283-美国为何把支持以色列作为一种政策立场？",
+          "guid": "694d99dd63a654fa60de418e",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/694d99dd63a654fa60de418e/media.xyzcdn.net/nm-uAU_VU2W3T4qPAZHP2qpwlauz.mp3",
+          "link": "https://www.xiaoyuzhoufm.com/episode/694d99dd63a654fa60de418e?utm_source=rss",
+          "pubDate": "2025-12-25",
+          "duration": 2283
+        },
+        {
+          "id": "DSL20251223",
+          "title": "282-极右白人民族主义正如何撕裂共和党的后特朗普转型？",
+          "guid": "694b15260b60b7bf751a222c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/694b15260b60b7bf751a222c/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lm7zbn7cGNiwxow3HWmOGgZJ9KyB.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/694b15260b60b7bf751a222c?utm_source=rss",
+          "pubDate": "2025-12-23",
+          "duration": 1980
+        },
+        {
+          "id": "DSL20251223-2",
+          "title": "281-为什么名人会发疯？",
+          "guid": "694ac4240b60b7bf7516c8de",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/694ac4240b60b7bf7516c8de/media.xyzcdn.net/64acd33c7a3d479103fbd32d/llTHecJWF138Bet2g0Rc65S8HIxG.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/694ac4240b60b7bf7516c8de?utm_source=rss",
+          "pubDate": "2025-12-23",
+          "duration": 1884
+        },
+        {
+          "id": "DSL20251215",
+          "title": "280-莫扎特如何以一己之力重塑古典歌剧审美？",
+          "guid": "693edbb037f52a644ee9374b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/693edbb037f52a644ee9374b/media.xyzcdn.net/nrCncUYYjGEBa3JDEjUQ_q9Oj92X.mp3",
+          "link": "https://www.xiaoyuzhoufm.com/episode/693edbb037f52a644ee9374b?utm_source=rss",
+          "pubDate": "2025-12-15",
+          "duration": 2496
+        },
+        {
+          "id": "DSL20251127",
+          "title": "279-美国有可能民主选出一个独裁者吗？",
+          "guid": "69277ae50084e2631deb56e0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69277ae50084e2631deb56e0/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ll1J8SXlm2jpwNtXXuS_0oPe115_.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69277ae50084e2631deb56e0?utm_source=rss",
+          "pubDate": "2025-11-27",
+          "duration": 2567
+        },
+        {
+          "id": "DSL20251117",
+          "title": "278-学外语和锻炼身体为什么是相似的训练？",
+          "guid": "691b8b42cbba038b4205c284",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/691b8b42cbba038b4205c284/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvRu2DZRaMmTqALXEi2ZCQzCJEtX.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/691b8b42cbba038b4205c284?utm_source=rss",
+          "pubDate": "2025-11-17",
+          "duration": 2038
+        },
+        {
+          "id": "DSL20251115",
+          "title": "277-如何成为全能吵架王？",
+          "guid": "6918d089cbba038b42b59a3e",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6918d089cbba038b42b59a3e/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvA3gIdNQXxAYQ9tjte4XqCcgnqL.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6918d089cbba038b42b59a3e?utm_source=rss",
+          "pubDate": "2025-11-15",
+          "duration": 2061
+        },
+        {
+          "id": "DSL20251113",
+          "title": "276-美国出版界如何审核书籍？",
+          "guid": "6915363ccbba038b424b3a38",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6915363ccbba038b424b3a38/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lgoyHOhFbtgpcn0q1K4jBi1APJHN.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6915363ccbba038b424b3a38?utm_source=rss",
+          "pubDate": "2025-11-13",
+          "duration": 2031
+        },
+        {
+          "id": "DSL20251108",
+          "title": "275-哈姆雷特为什么是第一个现代人？",
+          "guid": "690f9993af4fc00da7c943fa",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/690f9993af4fc00da7c943fa/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lnQKTpDk8lf-70RE9mtWQpNv8i12.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/690f9993af4fc00da7c943fa?utm_source=rss",
+          "pubDate": "2025-11-08",
+          "duration": 2199
+        },
+        {
+          "id": "DSL20251106",
+          "title": "274-纽约如何选出了一个社会主义穆斯林做市长？",
+          "guid": "690c045622132f77184bbf4c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/690c045622132f77184bbf4c/media.xyzcdn.net/64acd33c7a3d479103fbd32d/li15O07Lz17FDC7hwBx64mOvRWwO.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/690c045622132f77184bbf4c?utm_source=rss",
+          "pubDate": "2025-11-06",
+          "duration": 2137
+        },
+        {
+          "id": "DSL20251103",
+          "title": "273-如何变软？",
+          "guid": "69092345916b26deb677fdcd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69092345916b26deb677fdcd/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lk6D7r58tRrf2dNKTL4RfOw7mdeF.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69092345916b26deb677fdcd?utm_source=rss",
+          "pubDate": "2025-11-03",
+          "duration": 2274
+        },
+        {
+          "id": "DSL20251101",
+          "title": "272-最优秀的学生为何失去了读书的能力？",
+          "guid": "690675da48dbe0eb56f3f4f4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/690675da48dbe0eb56f3f4f4/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lulIQTZqaX_GEvhaUxNuWBFN6b2w.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/690675da48dbe0eb56f3f4f4?utm_source=rss",
+          "pubDate": "2025-11-01",
+          "duration": 2334
+        },
+        {
+          "id": "DSL20251029",
+          "title": "271-一场世纪大冤案如何重新洗牌法国政治？",
+          "guid": "6901219c740634ca477a8ec0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6901219c740634ca477a8ec0/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lu2F4qN51pbTmZUvIuM4zkAd6u5q.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6901219c740634ca477a8ec0?utm_source=rss",
+          "pubDate": "2025-10-29",
+          "duration": 2737
+        },
+        {
+          "id": "DSL20251029-2",
+          "title": "270-托克维尔为何认为美国民主若无宗教则无自由？",
+          "guid": "69003a505ef42c227bffed80",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/69003a505ef42c227bffed80/media.xyzcdn.net/FlqE9jWsI_pxejIYHhApudAvMcO9.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69003a505ef42c227bffed80?utm_source=rss",
+          "pubDate": "2025-10-29",
+          "duration": 180
+        },
+        {
+          "id": "DSL20251028",
+          "title": "269-如何预防运动损伤？",
+          "guid": "68ffbb0f0156720321527347",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68ffbb0f0156720321527347/media.xyzcdn.net/64acd33c7a3d479103fbd32d/luSJp6jIamZ5g5N7StCd5Y47vcjK.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68ffbb0f0156720321527347?utm_source=rss",
+          "pubDate": "2025-10-28",
+          "duration": 2314
+        },
+        {
+          "id": "DSL20251024",
+          "title": "268-故事和内容有什么区别",
+          "guid": "68fc06d30156720321ebf12f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68fc06d30156720321ebf12f/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lmQ-XV9j27MeLA11hkCb50_wvanC.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68fc06d30156720321ebf12f?utm_source=rss",
+          "pubDate": "2025-10-24",
+          "duration": 2183
+        },
+        {
+          "id": "DSL20251023",
+          "title": "267-罗尔斯式政治自由主义为啥谁都打不过？",
+          "guid": "68fa72990156720321c2f973",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68fa72990156720321c2f973/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lubmk9dp0HxQ0-HPxuXqhhvY3-6z.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68fa72990156720321c2f973?utm_source=rss",
+          "pubDate": "2025-10-23",
+          "duration": 2438
+        },
+        {
+          "id": "DSL20251022",
+          "title": "266-陀思妥耶夫斯基和托尔斯泰如何继承卢梭的儿童？",
+          "guid": "68f8536c456ffec65ef0663d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68f8536c456ffec65ef0663d/media.xyzcdn.net/64acd33c7a3d479103fbd32d/luNywfnfzLhDKRdTNEeayhc-_XNr.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68f8536c456ffec65ef0663d?utm_source=rss",
+          "pubDate": "2025-10-22",
+          "duration": 2901
+        },
+        {
+          "id": "DSL20251021",
+          "title": "265-古罗马名医如何讨论健康？",
+          "guid": "68f7c0a9456ffec65ee3d16a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68f7c0a9456ffec65ee3d16a/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lh62eBeR__MDRTfluc1gj3A9KRU1.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68f7c0a9456ffec65ee3d16a?utm_source=rss",
+          "pubDate": "2025-10-21",
+          "duration": 1946
+        },
+        {
+          "id": "DSL20251017",
+          "title": "264-听巴赫和吃好鸡有何相似之处？",
+          "guid": "68f27ff9226547302005a7ee",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68f27ff9226547302005a7ee/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lqE7DgNxQSl2cHKSnF0dc66sIIk8.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68f27ff9226547302005a7ee?utm_source=rss",
+          "pubDate": "2025-10-17",
+          "duration": 2009
+        },
+        {
+          "id": "DSL20251013",
+          "title": "263-如何养大一个跟自己生活方式有本质冲突的小孩？",
+          "guid": "68ed4150525f51df382af751",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68ed4150525f51df382af751/media.xyzcdn.net/64acd33c7a3d479103fbd32d/locsMGl5m6cCVn_plArkHCwyqKyo.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68ed4150525f51df382af751?utm_source=rss",
+          "pubDate": "2025-10-13",
+          "duration": 1987
+        },
+        {
+          "id": "DSL20251010",
+          "title": "262-过度自由和过度纪律如何正在让大学教育沦为笑话？",
+          "guid": "68e94528525f51df38af01d6",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68e94528525f51df38af01d6/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lnmZawG4WLdrbaz-npGsVmUfK58R.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68e94528525f51df38af01d6?utm_source=rss",
+          "pubDate": "2025-10-10",
+          "duration": 2156
+        },
+        {
+          "id": "DSL20251008",
+          "title": "261-成为现象级的播客如何威胁我的人格？",
+          "guid": "68e6d2df8bf86095c5405dbe",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68e6d2df8bf86095c5405dbe/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lqpvGoLqSsYuLdZWTvxLAcJceGa9.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68e6d2df8bf86095c5405dbe?utm_source=rss",
+          "pubDate": "2025-10-08",
+          "duration": 1977
+        },
+        {
+          "id": "DSL20251008-2",
+          "title": "260-阿伦特如何批评马克思？",
+          "guid": "68e5db2d8bf86095c5252a9f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68e5db2d8bf86095c5252a9f/media.xyzcdn.net/Fu1BORfKDel3BxDVY_5BEgcn9JbG.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68e5db2d8bf86095c5252a9f?utm_source=rss",
+          "pubDate": "2025-10-08",
+          "duration": 180
+        },
+        {
+          "id": "DSL20251004",
+          "title": "259-自由派什么时候出现在美国？",
+          "guid": "68e158808bf86095c5cf0b2e",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68e158808bf86095c5cf0b2e/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lv_FCv16Ggu7mAkFInY8u0GMat90.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68e158808bf86095c5cf0b2e?utm_source=rss",
+          "pubDate": "2025-10-04",
+          "duration": 2376
+        },
+        {
+          "id": "DSL20250930",
+          "title": "258-普鲁塔克会如何反驳施密特的敌友之分？",
+          "guid": "68db71dfae9d1455fbabb275",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68db71dfae9d1455fbabb275/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lprCn6OsTTOlr8hOrC114SIh_EPl.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68db71dfae9d1455fbabb275?utm_source=rss",
+          "pubDate": "2025-09-30",
+          "duration": 2298
+        },
+        {
+          "id": "DSL20250923",
+          "title": "257-当代伊朗如何颠覆什叶派伊斯兰？",
+          "guid": "68d2f8a9522b40626cf5fb6e",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68d2f8a9522b40626cf5fb6e/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ll3rQaS3hqVl52Q1kSEG7Q1QnFuw.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68d2f8a9522b40626cf5fb6e?utm_source=rss",
+          "pubDate": "2025-09-23",
+          "duration": 2850
+        },
+        {
+          "id": "DSL20250921",
+          "title": "256-如何退步?",
+          "guid": "68d057d52c82c9dcca84b72b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68d057d52c82c9dcca84b72b/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lmwGY7nhFWdmLv6U9h6Q20LF3nN3.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68d057d52c82c9dcca84b72b?utm_source=rss",
+          "pubDate": "2025-09-21",
+          "duration": 2347
+        },
+        {
+          "id": "DSL20250920",
+          "title": "255-进山采菌子如何帮我反思预制菜？",
+          "guid": "68ceefc3a56ca3e0c46e44ef",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68ceefc3a56ca3e0c46e44ef/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lt3p21Zi3sHYbZztTVC13tlSSvfq.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68ceefc3a56ca3e0c46e44ef?utm_source=rss",
+          "pubDate": "2025-09-20",
+          "duration": 2282
+        },
+        {
+          "id": "DSL20250917",
+          "title": "254-以色列袭击卡塔尔如何改变中东地缘秩序？",
+          "guid": "68caf35ba56ca3e0c4f7096d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68caf35ba56ca3e0c4f7096d/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lva0xmLctzAy6xKbweJwG4hle2QU.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68caf35ba56ca3e0c4f7096d?utm_source=rss",
+          "pubDate": "2025-09-17",
+          "duration": 2240
+        },
+        {
+          "id": "DSL20250913",
+          "title": "253-我的妈如何防止我走向变态？",
+          "guid": "68c4b2bea56ca3e0c4236718",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68c4b2bea56ca3e0c4236718/media.xyzcdn.net/64acd33c7a3d479103fbd32d/luyHxddS2LgsS_twIyz0deddLGyv.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68c4b2bea56ca3e0c4236718?utm_source=rss",
+          "pubDate": "2025-09-13",
+          "duration": 2240
+        },
+        {
+          "id": "DSL20250912",
+          "title": "252-查理·柯克的谋杀为何对当今美国右翼意义非凡？",
+          "guid": "68c32c912c82c9dccaec36dd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68c32c912c82c9dccaec36dd/media.xyzcdn.net/64acd33c7a3d479103fbd32d/llNo_Cpj1F8HMpQET5vrh-kz8eDs.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68c32c912c82c9dccaec36dd?utm_source=rss",
+          "pubDate": "2025-09-12",
+          "duration": 2458
+        },
+        {
+          "id": "DSL20250908",
+          "title": "251-谁开启了美国新保守主义运动？",
+          "guid": "68bf1bd5d644af9423203b22",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68bf1bd5d644af9423203b22/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ljJPDIKgiG4D8JnShsR22qWt1sPK.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68bf1bd5d644af9423203b22?utm_source=rss",
+          "pubDate": "2025-09-08",
+          "duration": 2214
+        },
+        {
+          "id": "DSL20250908-2",
+          "title": "250-黑格尔如何激进化康德的历史哲学？",
+          "guid": "68be48acd644af9423fc2d63",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68be48acd644af9423fc2d63/media.xyzcdn.net/FhLdzeNyc3B2_txapZyRzWlTscYx.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68be48acd644af9423fc2d63?utm_source=rss",
+          "pubDate": "2025-09-08",
+          "duration": 180
+        },
+        {
+          "id": "DSL20250906",
+          "title": "249-如何拥有强大的内核？",
+          "guid": "68bbb2fe97178f08ee86b0b5",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68bbb2fe97178f08ee86b0b5/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvs9u51Z_m7UkWvuJnwOKfrEvIaI.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68bbb2fe97178f08ee86b0b5?utm_source=rss",
+          "pubDate": "2025-09-06",
+          "duration": 1763
+        },
+        {
+          "id": "DSL20250903",
+          "title": "248-卢梭为何维护审查制度？",
+          "guid": "68b88ce897178f08ee2586d7",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68b88ce897178f08ee2586d7/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvyPPbnT2frXS2g5gv5TP-TZ2uec.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68b88ce897178f08ee2586d7?utm_source=rss",
+          "pubDate": "2025-09-03",
+          "duration": 2007
+        },
+        {
+          "id": "DSL20250831",
+          "title": "247-卢梭为何是靠人设和丑闻玩转舆论的流量鼻祖？",
+          "guid": "68b435065faf3686594b5c8e",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68b435065faf3686594b5c8e/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhFdsFGHiga5WoPT1R_Rz2BzgKcn.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68b435065faf3686594b5c8e?utm_source=rss",
+          "pubDate": "2025-08-31",
+          "duration": 1939
+        },
+        {
+          "id": "DSL20250827",
+          "title": "246-教上海阿姨挑梭子蟹如何帮我反思实践智慧",
+          "guid": "68af36e25faf368659bd3bcc",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68af36e25faf368659bd3bcc/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lr7kyu5PH-T_NFJIS6kfewIw9wX5.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68af36e25faf368659bd3bcc?utm_source=rss",
+          "pubDate": "2025-08-27",
+          "duration": 2572
+        },
+        {
+          "id": "DSL20250826",
+          "title": "245-美国左翼咋开始走向民粹、右翼走向觉醒？",
+          "guid": "68add01a293471fed49b2cc0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68add01a293471fed49b2cc0/media.xyzcdn.net/64acd33c7a3d479103fbd32d/loAfy6eytdlVtU64rCoOzVyDsioe.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68add01a293471fed49b2cc0?utm_source=rss",
+          "pubDate": "2025-08-26",
+          "duration": 2442
+        },
+        {
+          "id": "DSL20250821",
+          "title": "244-中美瑜伽天花板有何区别？",
+          "guid": "68a48bf942cc2798e763211b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68a48bf942cc2798e763211b/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lt-6PIlwbHSAxgrNwb6a9ufDfODy.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68a48bf942cc2798e763211b?utm_source=rss",
+          "pubDate": "2025-08-21",
+          "duration": 2847
+        },
+        {
+          "id": "DSL20250813",
+          "title": "如何面对人性中的非理性？（上海图书馆新书对谈）",
+          "guid": "689bded5032793b18a1ac352",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/689bded5032793b18a1ac352/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ltzRLJJiINNta_ZtYQRAgQx4smtu.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/689bded5032793b18a1ac352?utm_source=rss",
+          "pubDate": "2025-08-13",
+          "duration": 4152
+        },
+        {
+          "id": "DSL20250804",
+          "title": "243-什么是海王的素养？",
+          "guid": "6890568bedf3fa32d5033c8e",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6890568bedf3fa32d5033c8e/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ll0PIGBqKKwoHxCENP_MGnHNoOeC.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6890568bedf3fa32d5033c8e?utm_source=rss",
+          "pubDate": "2025-08-04",
+          "duration": 2714
+        },
+        {
+          "id": "DSL20250729",
+          "title": "242-托尔斯泰如何结合柏拉图和卢梭对抗黑格尔？",
+          "guid": "688824c38e06fe8de72ee474",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/688824c38e06fe8de72ee474/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lpCK_VhSQmaKwMh7Yq05kD7kGtja.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/688824c38e06fe8de72ee474?utm_source=rss",
+          "pubDate": "2025-07-29",
+          "duration": 2654
+        },
+        {
+          "id": "DSL20250724",
+          "title": "241-小县城出身如何塑造我的思考",
+          "guid": "6881aceaa12f9ff06ac181be",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6881aceaa12f9ff06ac181be/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lr0NOMkj1nfc1WJUg5V2bNeDI97f.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6881aceaa12f9ff06ac181be?utm_source=rss",
+          "pubDate": "2025-07-24",
+          "duration": 2051
+        },
+        {
+          "id": "DSL20250720",
+          "title": "240-什么塑造了阿伦特？",
+          "guid": "687c546da9dec9250027dc26",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/687c546da9dec9250027dc26/media.xyzcdn.net/FnbduJdwov_UoNowMpM-IQdx-q3-.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/687c546da9dec9250027dc26?utm_source=rss",
+          "pubDate": "2025-07-20",
+          "duration": 180
+        },
+        {
+          "id": "DSL20250719",
+          "title": "239-俄国文学中的哲学性究竟来自哪？",
+          "guid": "687b3685a9dec925000e0644",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/687b3685a9dec925000e0644/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ltK6ndeekwUdoOyEiFXOckwKxyZj.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/687b3685a9dec925000e0644?utm_source=rss",
+          "pubDate": "2025-07-19",
+          "duration": 2308
+        },
+        {
+          "id": "DSL20250715",
+          "title": "238-咋下决心每天出门去锻炼？",
+          "guid": "6875ab3793fd2d72b83540f4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6875ab3793fd2d72b83540f4/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lppPOBP2FujU6ODmk51cGX2jLQoo.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6875ab3793fd2d72b83540f4?utm_source=rss",
+          "pubDate": "2025-07-15",
+          "duration": 1887
+        },
+        {
+          "id": "DSL20250714",
+          "title": "237-陀思妥耶夫斯基会如何书写20世纪？",
+          "guid": "68749a8660f8f77d4063669f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68749a8660f8f77d4063669f/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhIBIqrSLBK9At1BRhFLy68xTZhT.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68749a8660f8f77d4063669f?utm_source=rss",
+          "pubDate": "2025-07-14",
+          "duration": 3594
+        },
+        {
+          "id": "DSL20250710",
+          "title": "236-我为何如此喜爱莫扎特？",
+          "guid": "6870381b93fd2d72b895aab8",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6870381b93fd2d72b895aab8/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lmtzFc2lFEHKC_5aXmfwUwb60CNC.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6870381b93fd2d72b895aab8?utm_source=rss",
+          "pubDate": "2025-07-10",
+          "duration": 3252
+        },
+        {
+          "id": "DSL20250708",
+          "title": "235-如何提升身体灵活性？",
+          "guid": "686d821593fd2d72b8367b40",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/686d821593fd2d72b8367b40/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lu0zQYFGJv8jTWEJY4v7SMgxwEAC.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/686d821593fd2d72b8367b40?utm_source=rss",
+          "pubDate": "2025-07-08",
+          "duration": 1917
+        },
+        {
+          "id": "DSL20250706",
+          "title": "234-让俄国成为世界强国的彼得大帝是一个怎样的统治者？",
+          "guid": "686ad83593fd2d72b8d5bd69",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/686ad83593fd2d72b8d5bd69/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ltuujs6N4c1RgdtTEBOaugHuWurQ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/686ad83593fd2d72b8d5bd69?utm_source=rss",
+          "pubDate": "2025-07-06",
+          "duration": 3020
+        },
+        {
+          "id": "DSL20250703",
+          "title": "233-如何共读一本书？",
+          "guid": "6866f3f893fd2d72b86b72be",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6866f3f893fd2d72b86b72be/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lorqkD-Os4f29siR7tneQTZXTtSx.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6866f3f893fd2d72b86b72be?utm_source=rss",
+          "pubDate": "2025-07-03",
+          "duration": 2269
+        },
+        {
+          "id": "DSL20250703-2",
+          "title": "232-如何像读八卦一样读政治学（看理想发刊词）",
+          "guid": "6865f18293fd2d72b845b4f0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6865f18293fd2d72b845b4f0/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ltpc1JDu0tI2c1WaFjbQnmN1VM8a.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6865f18293fd2d72b845b4f0?utm_source=rss",
+          "pubDate": "2025-07-03",
+          "duration": 1350
+        },
+        {
+          "id": "DSL20250701",
+          "title": "231-美国建国还能建成什么样？",
+          "guid": "68632b4008d8fd8586d2185b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68632b4008d8fd8586d2185b/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ljrdZyZ_1bFg9MFymSc0DhFG6RJD.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68632b4008d8fd8586d2185b?utm_source=rss",
+          "pubDate": "2025-07-01",
+          "duration": 2684
+        },
+        {
+          "id": "DSL20250627",
+          "title": "230-阿伦特如何评价海德格尔",
+          "guid": "685ee86f08d8fd85865cbd67",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/685ee86f08d8fd85865cbd67/media.xyzcdn.net/Fr6EXeICYq6O8yIyyu70sn_zmHIL.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/685ee86f08d8fd85865cbd67?utm_source=rss",
+          "pubDate": "2025-06-27",
+          "duration": 180
+        },
+        {
+          "id": "DSL20250625",
+          "title": "229-美国内部对伊朗是什么态度？",
+          "guid": "685b6ed52a38b4d97969e2b8",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/685b6ed52a38b4d97969e2b8/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lsKusXvIKRajW-CZmoplnDzp5QpE.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/685b6ed52a38b4d97969e2b8?utm_source=rss",
+          "pubDate": "2025-06-25",
+          "duration": 1922
+        },
+        {
+          "id": "DSL20250624",
+          "title": "228-莎士比亚、蒙田、卢梭为啥这么喜欢普鲁塔克?",
+          "guid": "685a16002a38b4d97934fbfd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/685a16002a38b4d97934fbfd/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lneja8CzsAEL8gxeAfqnvP0fmkwN.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/685a16002a38b4d97934fbfd?utm_source=rss",
+          "pubDate": "2025-06-24",
+          "duration": 2339
+        },
+        {
+          "id": "DSL20250619",
+          "title": "227-古希腊人如何谈恋爱和分手",
+          "guid": "6853893c4abe6e29cbe4bff9",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6853893c4abe6e29cbe4bff9/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lkZRv_A1AE9ULW2VFMHwRQ9NWYzA.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6853893c4abe6e29cbe4bff9?utm_source=rss",
+          "pubDate": "2025-06-19",
+          "duration": 3808
+        },
+        {
+          "id": "DSL20250614",
+          "title": "226-以色列为何要攻击伊朗？",
+          "guid": "684de7a72a38b4d979aadf78",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/684de7a72a38b4d979aadf78/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lsjyuZh0s2tgdO5ecFX_8naU2Fx_.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/684de7a72a38b4d979aadf78?utm_source=rss",
+          "pubDate": "2025-06-14",
+          "duration": 2285
+        },
+        {
+          "id": "DSL20250612",
+          "title": "225-墨索里尼是一个怎样的法西斯",
+          "guid": "684a2fb31c88ae1166be01f6",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/684a2fb31c88ae1166be01f6/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lkvHKIb49fAkeFjFbHWx-CNfZ6wj.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/684a2fb31c88ae1166be01f6?utm_source=rss",
+          "pubDate": "2025-06-12",
+          "duration": 4810
+        },
+        {
+          "id": "DSL20250611",
+          "title": "224-古罗马脱口秀大王如何搞笑？",
+          "guid": "6848fbe8b23ed76e607135c4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6848fbe8b23ed76e607135c4/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lozrt9aG1Fjv4jkhrniAsObx8TkS.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6848fbe8b23ed76e607135c4?utm_source=rss",
+          "pubDate": "2025-06-11",
+          "duration": 2033
+        },
+        {
+          "id": "DSL20250609",
+          "title": "223-弹丸小国喜提巨款后该如何增加自己影响力？",
+          "guid": "6847354c79e285b9b8173139",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6847354c79e285b9b8173139/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lpzJm-59pZR5QzeDgNr6tygqt81o.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6847354c79e285b9b8173139?utm_source=rss",
+          "pubDate": "2025-06-09",
+          "duration": 2589
+        },
+        {
+          "id": "DSL20250607",
+          "title": "222-罗莎卢森堡是一个怎样的马克思主义者",
+          "guid": "684495b279e285b9b8bf2916",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/684495b279e285b9b8bf2916/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lojFhUQqQVXGjwhGUKAeCAxS6FnI.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/684495b279e285b9b8bf2916?utm_source=rss",
+          "pubDate": "2025-06-07",
+          "duration": 3022
+        },
+        {
+          "id": "DSL20250605",
+          "title": "221-如何长期维持雕塑一般的好身材",
+          "guid": "68409a8638dcc57c6496acc0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68409a8638dcc57c6496acc0/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lkq1QElVdQ3RYVAImbq1o-91UAwc.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68409a8638dcc57c6496acc0?utm_source=rss",
+          "pubDate": "2025-06-05",
+          "duration": 1969
+        },
+        {
+          "id": "DSL20250601",
+          "title": "220-托克维尔如何锐评美国种族问题？",
+          "guid": "683ce61531215eb506d649c5",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/683ce61531215eb506d649c5/media.xyzcdn.net/Fm7zd_YbqvKwzjfzCZn-w7GOYC0V.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/683ce61531215eb506d649c5?utm_source=rss",
+          "pubDate": "2025-06-01",
+          "duration": 180
+        },
+        {
+          "id": "DSL20250530",
+          "title": "219-文艺青年为啥这么喜欢本雅明？",
+          "guid": "6839e8dc38dcc57c64d5d6f5",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6839e8dc38dcc57c64d5d6f5/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lr1p-IgcABZ9mYLlGfgJfln19uF3.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6839e8dc38dcc57c64d5d6f5?utm_source=rss",
+          "pubDate": "2025-05-30",
+          "duration": 2407
+        },
+        {
+          "id": "DSL20250529",
+          "title": "218-如何对抗失序？",
+          "guid": "6837f04c38dcc57c648c8b97",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6837f04c38dcc57c648c8b97/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lpXb3mLA8fdrIc-xiKiEelIqnCk7.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6837f04c38dcc57c648c8b97?utm_source=rss",
+          "pubDate": "2025-05-29",
+          "duration": 2123
+        },
+        {
+          "id": "DSL20250526",
+          "title": "217-如何逃离同温层",
+          "guid": "68340f9c31215eb506c22484",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68340f9c31215eb506c22484/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ln0Y5ZBHCamoJn5BYt83wEr94Unb.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68340f9c31215eb506c22484?utm_source=rss",
+          "pubDate": "2025-05-26",
+          "duration": 1786
+        },
+        {
+          "id": "DSL20250526-2",
+          "title": "216-笛卡尔和亚里士多德会分别如何做饭？",
+          "guid": "68338544dce640bfddc626c1",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68338544dce640bfddc626c1/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvte_XDUYtBOi7IgFEUGmaiWGywv.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68338544dce640bfddc626c1?utm_source=rss",
+          "pubDate": "2025-05-26",
+          "duration": 2359
+        },
+        {
+          "id": "DSL20250524",
+          "title": "共和已死？特朗普与古罗马政治的镜像",
+          "guid": "6831ea4adce640bfdda20be4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6831ea4adce640bfdda20be4/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhhzzbukX0lrl4DOY9tYZJlb6ZaO.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6831ea4adce640bfdda20be4?utm_source=rss",
+          "pubDate": "2025-05-24",
+          "duration": 8845
+        },
+        {
+          "id": "DSL20250520",
+          "title": "215-小孩为什么不是公民",
+          "guid": "682cbb67457b22ce0db3be25",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/682cbb67457b22ce0db3be25/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lp7xVdXvXwJNy6epqRaFrI9RTdab.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/682cbb67457b22ce0db3be25?utm_source=rss",
+          "pubDate": "2025-05-20",
+          "duration": 1835
+        },
+        {
+          "id": "DSL20250517",
+          "title": "214-古代农民如何教我做人",
+          "guid": "6828fee2457b22ce0d33748a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6828fee2457b22ce0d33748a/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lmyF-9sxFfcwgfqGUGQ3kNZxJoj4.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6828fee2457b22ce0d33748a?utm_source=rss",
+          "pubDate": "2025-05-17",
+          "duration": 1940
+        },
+        {
+          "id": "DSL20250515",
+          "title": "213-诗人和艺术家应该被世俗道德审判吗",
+          "guid": "682649df1ced30a2318cda2b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/682649df1ced30a2318cda2b/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lmskzZg-F0y1Zx7tQDOT_SHs4ZtA.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/682649df1ced30a2318cda2b?utm_source=rss",
+          "pubDate": "2025-05-15",
+          "duration": 2333
+        },
+        {
+          "id": "DSL20250511",
+          "title": "212-巴尔扎克如何用《高老头》讨论柏拉图正义观？",
+          "guid": "682101c9b7c8a9962c9385f0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/682101c9b7c8a9962c9385f0/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lv5TPwVU8zLcCqG1iES5IJRZ9uC8.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/682101c9b7c8a9962c9385f0?utm_source=rss",
+          "pubDate": "2025-05-11",
+          "duration": 2297
+        },
+        {
+          "id": "DSL20250508",
+          "title": "211-如何成为一只硬骨头的好鸡？",
+          "guid": "681c412adb57cd35f722b0a3",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/681c412adb57cd35f722b0a3/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lkgNcwpIW6ByUvPMDlco8TswEzkN.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/681c412adb57cd35f722b0a3?utm_source=rss",
+          "pubDate": "2025-05-08",
+          "duration": 1959
+        },
+        {
+          "id": "DSL20250504",
+          "title": "210-笛卡尔哲学有什么政治意义？",
+          "guid": "6817ea5c6970cc7b4daa401b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6817ea5c6970cc7b4daa401b/media.xyzcdn.net/Fleg3v9s5e9WsRzGEn0tXrY0kV71.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6817ea5c6970cc7b4daa401b?utm_source=rss",
+          "pubDate": "2025-05-04",
+          "duration": 180
+        },
+        {
+          "id": "DSL20250502",
+          "title": "209-如何倒立？",
+          "guid": "6814ecef6970cc7b4d683afd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6814ecef6970cc7b4d683afd/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvliEB-AD4pFfxox8qLfZTtTOC2W.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6814ecef6970cc7b4d683afd?utm_source=rss",
+          "pubDate": "2025-05-02",
+          "duration": 2155
+        },
+        {
+          "id": "DSL20250502-2",
+          "title": "208-是谁在支持自由贸易？",
+          "guid": "68142a0247ebeede7e6b4b63",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68142a0247ebeede7e6b4b63/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lt1BgTrD9K2vhE2mu-Ut9UfKEXV8.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68142a0247ebeede7e6b4b63?utm_source=rss",
+          "pubDate": "2025-05-02",
+          "duration": 1970
+        },
+        {
+          "id": "DSL20250429",
+          "title": "207-加拿大为何没有右转？（加拿大大选分析）",
+          "guid": "68106d0d7a449ae858582218",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/68106d0d7a449ae858582218/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lpcntWlZWkF4si7yCtRXEpY4TtRu.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/68106d0d7a449ae858582218?utm_source=rss",
+          "pubDate": "2025-04-29",
+          "duration": 1834
+        },
+        {
+          "id": "DSL20250426",
+          "title": "政治哲学圆桌：为孔圣之道护法？辜鸿铭的儒教辩护学",
+          "guid": "680d0f5d8aed253fa3ae79e0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/680d0f5d8aed253fa3ae79e0/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhTnEseKZeCBa__nMLs9h0pGfPXz.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/680d0f5d8aed253fa3ae79e0?utm_source=rss",
+          "pubDate": "2025-04-26",
+          "duration": 6279
+        },
+        {
+          "id": "DSL20250419",
+          "title": "206-法国现代小说为何如此缺德？",
+          "guid": "6803fe8d1f1db84a56590ecc",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6803fe8d1f1db84a56590ecc/media.xyzcdn.net/64acd33c7a3d479103fbd32d/locXok1MtawfHqT4FydGcUMmrEAK.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6803fe8d1f1db84a56590ecc?utm_source=rss",
+          "pubDate": "2025-04-19",
+          "duration": 2402
+        },
+        {
+          "id": "DSL20250416",
+          "title": "205-法国大革命如何从追求自由走向血腥恐怖统治？",
+          "guid": "67ffe1771f1db84a56bcd274",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67ffe1771f1db84a56bcd274/media.xyzcdn.net/64acd33c7a3d479103fbd32d/llE1pcQFGZ-bjboHALfLonkhBXHq.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67ffe1771f1db84a56bcd274?utm_source=rss",
+          "pubDate": "2025-04-16",
+          "duration": 2664
+        },
+        {
+          "id": "DSL20250412",
+          "title": "204-法西斯主义如何理解自由？",
+          "guid": "67f9d0ba59699d74dc2a34bd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67f9d0ba59699d74dc2a34bd/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lmFovGLZ6gfKrdDRGrAob4LU_Z5C.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67f9d0ba59699d74dc2a34bd?utm_source=rss",
+          "pubDate": "2025-04-12",
+          "duration": 2195
+        },
+        {
+          "id": "DSL20250411",
+          "title": "203-苏联知识分子索尔仁尼琴如何批评西方自由？",
+          "guid": "67f88b4b623bc78c39e950ae",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67f88b4b623bc78c39e950ae/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lllvq_9cwViwZPQj2er0E4nEj3GY.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67f88b4b623bc78c39e950ae?utm_source=rss",
+          "pubDate": "2025-04-11",
+          "duration": 2198
+        },
+        {
+          "id": "DSL20250410",
+          "title": "202-古罗马人如何理解自由？",
+          "guid": "67f714f759699d74dcb3f901",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67f714f759699d74dcb3f901/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lrxycnBFFf7PCFz-2sjDF_swJA88.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67f714f759699d74dcb3f901?utm_source=rss",
+          "pubDate": "2025-04-10",
+          "duration": 2562
+        },
+        {
+          "id": "DSL20250408",
+          "title": "201-英国人在什么契机下发明了言论自由？",
+          "guid": "67f49bcb0decaeb0949a93b3",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67f49bcb0decaeb0949a93b3/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lho_NLDwBsEHEmxLF9O6Cu6Hxojo.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67f49bcb0decaeb0949a93b3?utm_source=rss",
+          "pubDate": "2025-04-08",
+          "duration": 2503
+        },
+        {
+          "id": "DSL20250402",
+          "title": "200-如何阅读普鲁塔克？",
+          "guid": "67ed8af7f9578163d6ab22dd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67ed8af7f9578163d6ab22dd/media.xyzcdn.net/Fgpo4iH2o3Q9cRjzoYWxPSExnWqi.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67ed8af7f9578163d6ab22dd?utm_source=rss",
+          "pubDate": "2025-04-02",
+          "duration": 180
+        },
+        {
+          "id": "DSL20250401",
+          "title": "199-美国建制右派如何霸占司法体制？",
+          "guid": "67eb5fb80decaeb09424bcfb",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67eb5fb80decaeb09424bcfb/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ls9xF44HyZrQ9mSQmMC68e6FvC6k.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67eb5fb80decaeb09424bcfb?utm_source=rss",
+          "pubDate": "2025-04-01",
+          "duration": 2201
+        },
+        {
+          "id": "DSL20250329",
+          "title": "198-如何培养自然的食欲？",
+          "guid": "67e83d2c6ea60022359ddd33",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67e83d2c6ea60022359ddd33/media.xyzcdn.net/64acd33c7a3d479103fbd32d/llWIj0L3wumFVJgPnfv5uAZJKzAG.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67e83d2c6ea60022359ddd33?utm_source=rss",
+          "pubDate": "2025-03-29",
+          "duration": 2132
+        },
+        {
+          "id": "DSL20250327",
+          "title": "197-爱掉书袋的读书人为何使人忍俊不禁？",
+          "guid": "67e592158eecdbeb608f1d6b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67e592158eecdbeb608f1d6b/media.xyzcdn.net/64acd33c7a3d479103fbd32d/li4VLiSM0nCOuqWZXF-0RLx9A7GD.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67e592158eecdbeb608f1d6b?utm_source=rss",
+          "pubDate": "2025-03-27",
+          "duration": 2243
+        },
+        {
+          "id": "DSL20250326",
+          "title": "196-成为海王如何帮我反思自由市场的局限？",
+          "guid": "67e353a7af5840b33350a7fc",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67e353a7af5840b33350a7fc/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ljnOJ9UzNmVgtnR9SpDMLJPdjgtB.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67e353a7af5840b33350a7fc?utm_source=rss",
+          "pubDate": "2025-03-26",
+          "duration": 2013
+        },
+        {
+          "id": "DSL20250325",
+          "title": "195-科技发展能带来道德进步吗？",
+          "guid": "67e24263dd11f9c8c1f3425b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67e24263dd11f9c8c1f3425b/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lpLcw-PYxc26KCeXijkuGacIKXrc.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67e24263dd11f9c8c1f3425b?utm_source=rss",
+          "pubDate": "2025-03-25",
+          "duration": 2379
+        },
+        {
+          "id": "DSL20250320",
+          "title": "194-厨子和学者为何是相似的志业？",
+          "guid": "67dc65c878103db3bddad15b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67dc65c878103db3bddad15b/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lv28FEP2c1MIiNhdjCPSjmgSBp5t.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67dc65c878103db3bddad15b?utm_source=rss",
+          "pubDate": "2025-03-20",
+          "duration": 1873
+        },
+        {
+          "id": "DSL20250317",
+          "title": "波波头对话刘骁骞2：胡建伦和杰缸宁征服小语种血泪史",
+          "guid": "67d8600878103db3bd0d8001",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67d8600878103db3bd0d8001/media.xyzcdn.net/64acd33c7a3d479103fbd32d/luQJmHtFJrnHMwNtdVkKgCpwc_Rf.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67d8600878103db3bd0d8001?utm_source=rss",
+          "pubDate": "2025-03-17",
+          "duration": 3037
+        },
+        {
+          "id": "DSL20250316",
+          "title": "193-如何有品地饮酒？",
+          "guid": "67d6545a0766616acd40657a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67d6545a0766616acd40657a/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lowG0xSbAYiyfpbxmnmxDmtHAF9O.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67d6545a0766616acd40657a?utm_source=rss",
+          "pubDate": "2025-03-16",
+          "duration": 2140
+        },
+        {
+          "id": "DSL20250314",
+          "title": "192-如何不在人生低谷持续下滑？",
+          "guid": "67d48f33e924d4525ab33382",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67d48f33e924d4525ab33382/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lt8Amx9MABKHj4ESi7ji_FCm5Ahi.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67d48f33e924d4525ab33382?utm_source=rss",
+          "pubDate": "2025-03-14",
+          "duration": 1863
+        },
+        {
+          "id": "DSL20250309",
+          "title": "191-我是一个女权主义者吗？",
+          "guid": "67cd600e0766616acda83377",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67cd600e0766616acda83377/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ltBYXfANwF1fk8yYIVBL5kJPGWxU.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67cd600e0766616acda83377?utm_source=rss",
+          "pubDate": "2025-03-09",
+          "duration": 2013
+        },
+        {
+          "id": "DSL20250307",
+          "title": "波波头对话刘骁骞：两个务实冒险者的人生交集",
+          "guid": "67ca84a50766616acd3b1c4d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67ca84a50766616acd3b1c4d/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhw8FRdOoueewuvH9d7JVHuL_Kqv.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67ca84a50766616acd3b1c4d?utm_source=rss",
+          "pubDate": "2025-03-07",
+          "duration": 3318
+        },
+        {
+          "id": "DSL20250305",
+          "title": "190-斯宾诺莎如何在《神学政治论》中打响辩护自由民主第一炮？",
+          "guid": "67c8c039e924d4525a8eb44d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67c8c039e924d4525a8eb44d/media.xyzcdn.net/FmtfFLf23yjA5cxm6gGMk7tt-Yef.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67c8c039e924d4525a8eb44d?utm_source=rss",
+          "pubDate": "2025-03-05",
+          "duration": 180
+        },
+        {
+          "id": "DSL20250305-2",
+          "title": "189-特朗普阵营外交政策有什么内在分歧？",
+          "guid": "67c7c56543c75d16d63315d6",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67c7c56543c75d16d63315d6/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lsBSqiKNvrp4fdohvRaMJp-w2Bdd.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67c7c56543c75d16d63315d6?utm_source=rss",
+          "pubDate": "2025-03-05",
+          "duration": 2029
+        },
+        {
+          "id": "DSL20250227",
+          "title": "188-意大利为什么没有成为马克思主义国家？",
+          "guid": "67bfb0c3606e5c5940161698",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67bfb0c3606e5c5940161698/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lo8RbKJasxKRVk3icbVgSsKRXW9e.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67bfb0c3606e5c5940161698?utm_source=rss",
+          "pubDate": "2025-02-27",
+          "duration": 2546
+        },
+        {
+          "id": "DSL20250224",
+          "title": "187-俄罗斯柔术师如何帮我重新反思力量和柔韧？",
+          "guid": "67bc9d86606e5c594096287c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67bc9d86606e5c594096287c/media.xyzcdn.net/64acd33c7a3d479103fbd32d/luhBzNbAhP4Rwuwjk0m98bj8lpIZ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67bc9d86606e5c594096287c?utm_source=rss",
+          "pubDate": "2025-02-24",
+          "duration": 2340
+        },
+        {
+          "id": "DSL20250224-2",
+          "title": "186-德国绿党为何政策180度大转弯？",
+          "guid": "67bc02cd05a90dfd0d73ec67",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67bc02cd05a90dfd0d73ec67/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lgGTYJRvz39c75MAZWtxl3Ilf9Lq.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67bc02cd05a90dfd0d73ec67?utm_source=rss",
+          "pubDate": "2025-02-24",
+          "duration": 2332
+        },
+        {
+          "id": "DSL20250219",
+          "title": "185-《白鲸》为什么是美国文学的巅峰？",
+          "guid": "67b64e48606e5c594097554f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67b64e48606e5c594097554f/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhOjyYLoVIiGDIxHsLV6BuOTgqCS.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67b64e48606e5c594097554f?utm_source=rss",
+          "pubDate": "2025-02-19",
+          "duration": 2654
+        },
+        {
+          "id": "DSL20250215",
+          "title": "184-在美国忍受诬告是什么体验？",
+          "guid": "67b0eb90606e5c5940af5bbd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67b0eb90606e5c5940af5bbd/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lpswDL_OlXCuqackU9DJGbh_lLAw.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67b0eb90606e5c5940af5bbd?utm_source=rss",
+          "pubDate": "2025-02-15",
+          "duration": 3862
+        },
+        {
+          "id": "DSL20250214",
+          "title": "183-现代男人咋这么多没骨气的懦夫？《包法利夫人》5",
+          "guid": "67afad3805a90dfd0d8b8f40",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67afad3805a90dfd0d8b8f40/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ljqtuKlH7gseQuYNV5omaW05tm2-.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67afad3805a90dfd0d8b8f40?utm_source=rss",
+          "pubDate": "2025-02-14",
+          "duration": 2732
+        },
+        {
+          "id": "DSL20250212",
+          "title": "182-如何阅读一本小说？《包法利夫人》4",
+          "guid": "67ad02705e6f58876dfb6fbd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67ad02705e6f58876dfb6fbd/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lv2A3jQJDkGVsQax2NeJo_GjRu0m.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67ad02705e6f58876dfb6fbd?utm_source=rss",
+          "pubDate": "2025-02-12",
+          "duration": 2388
+        },
+        {
+          "id": "DSL20250208",
+          "title": "181-德国极右翼和极左翼这俩女人准备搞啥子名堂？",
+          "guid": "67a717ab247d51713c5ecf22",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67a717ab247d51713c5ecf22/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lsQSWUXwQnkikNSgHvr9d_G4287C.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67a717ab247d51713c5ecf22?utm_source=rss",
+          "pubDate": "2025-02-08",
+          "duration": 2366
+        },
+        {
+          "id": "DSL20250208-2",
+          "title": "180-托克维尔为什么说女人是美国精神的灵魂？《论美国的民主》",
+          "guid": "67a6b753d74435e4a3c5bc99",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67a6b753d74435e4a3c5bc99/media.xyzcdn.net/Fj0zs79UdqRSWCpC0dB58fFpuTlg.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67a6b753d74435e4a3c5bc99?utm_source=rss",
+          "pubDate": "2025-02-08",
+          "duration": 180
+        },
+        {
+          "id": "DSL20250206",
+          "title": "179-德国保守联盟代表什么政治立场？",
+          "guid": "67a52cbbd74435e4a3894c30",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67a52cbbd74435e4a3894c30/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ln7pe6YrKqfph-kn5jzAPHMizb_w.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67a52cbbd74435e4a3894c30?utm_source=rss",
+          "pubDate": "2025-02-06",
+          "duration": 1923
+        },
+        {
+          "id": "DSL20250206-2",
+          "title": "178-当今德国执政党为何如此不受欢迎？",
+          "guid": "67a447b4d74435e4a36300a6",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67a447b4d74435e4a36300a6/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvm3aoiiJlrOr4so0Ey9y3N_6OY2.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67a447b4d74435e4a36300a6?utm_source=rss",
+          "pubDate": "2025-02-06",
+          "duration": 2437
+        },
+        {
+          "id": "DSL20250205",
+          "title": "177-亚当斯密会如何批评特朗普关税政策？",
+          "guid": "67a306c3247d51713cb4f561",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67a306c3247d51713cb4f561/media.xyzcdn.net/64acd33c7a3d479103fbd32d/li9Vaeoe2TlG5tx0JW7wqUYCn8-T.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67a306c3247d51713cb4f561?utm_source=rss",
+          "pubDate": "2025-02-05",
+          "duration": 1778
+        },
+        {
+          "id": "DSL20250205-2",
+          "title": "176-恩格斯为当代社会男女性别对立做出了什么卓越的贡献？",
+          "guid": "67a2b8e8247d51713ca37dd4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67a2b8e8247d51713ca37dd4/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lr3tFZrWunoJNo3yJAy9leh2kWFR.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67a2b8e8247d51713ca37dd4?utm_source=rss",
+          "pubDate": "2025-02-05",
+          "duration": 1991
+        },
+        {
+          "id": "DSL20250203",
+          "title": "175-如何获得心灵的宁静？（普鲁塔克《道德论丛》）",
+          "guid": "67a0591ed74435e4a3dca165",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67a0591ed74435e4a3dca165/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lruxY5MGm0Ozw3LOvgHCJbo1pCWR.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67a0591ed74435e4a3dca165?utm_source=rss",
+          "pubDate": "2025-02-03",
+          "duration": 2130
+        },
+        {
+          "id": "DSL20250201",
+          "title": "174-陀思妥耶夫斯基和雨果的正义观有何不同",
+          "guid": "679d9c29d74435e4a398a489",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/679d9c29d74435e4a398a489/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lk0J6KVYQ65Axctteb5UOGhWp4Xr.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/679d9c29d74435e4a398a489?utm_source=rss",
+          "pubDate": "2025-02-01",
+          "duration": 3184
+        },
+        {
+          "id": "DSL20250130",
+          "title": "173-特朗普2.0会给美国政局带来怎样的变动？",
+          "guid": "679bd0a2d74435e4a37352de",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/679bd0a2d74435e4a37352de/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhF_nI_teaiIaw8KdPWUTbzq_e61.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/679bd0a2d74435e4a37352de?utm_source=rss",
+          "pubDate": "2025-01-30",
+          "duration": 2755
+        },
+        {
+          "id": "DSL20250127",
+          "title": "172-《包法利夫人》如何解剖卢梭哲学？（3）",
+          "guid": "67972648d74435e4a304f54f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67972648d74435e4a304f54f/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lpILMJEvNtPl7B9peI6Gyv5i0cbP.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67972648d74435e4a304f54f?utm_source=rss",
+          "pubDate": "2025-01-27",
+          "duration": 3252
+        },
+        {
+          "id": "DSL20250123",
+          "title": "171-福楼拜对现代人困境做出什么诊断？（包法利夫人2）",
+          "guid": "6791e63cd74435e4a3473fa3",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6791e63cd74435e4a3473fa3/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lu1RyXU1SYJmpCQOOHvddTwpG5sV.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6791e63cd74435e4a3473fa3?utm_source=rss",
+          "pubDate": "2025-01-23",
+          "duration": 2687
+        },
+        {
+          "id": "DSL20250122",
+          "title": "170-卢梭《爱弥儿》为何开创了现代儿童教育？",
+          "guid": "67908c6f9420ede9d1c62d6a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67908c6f9420ede9d1c62d6a/media.xyzcdn.net/FpKhMa-9y6BXY6cF4zhKa6PDcd6_.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67908c6f9420ede9d1c62d6a?utm_source=rss",
+          "pubDate": "2025-01-22",
+          "duration": 180
+        },
+        {
+          "id": "DSL20250120",
+          "title": "169-唠唠叨叨的人如何闭嘴？",
+          "guid": "678ecd439420ede9d172675c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/678ecd439420ede9d172675c/media.xyzcdn.net/64acd33c7a3d479103fbd32d/liFN6Cq6kQHFpRQVJaaKnL9gdzKV.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/678ecd439420ede9d172675c?utm_source=rss",
+          "pubDate": "2025-01-20",
+          "duration": 1970
+        },
+        {
+          "id": "DSL20250120-2",
+          "title": "168-东海海鲜女工如何反思普世性？",
+          "guid": "678dc23fc3617f02a4edc50b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/678dc23fc3617f02a4edc50b/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lvIStB9rgvlj8feUVCczKCsi7fEO.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/678dc23fc3617f02a4edc50b?utm_source=rss",
+          "pubDate": "2025-01-20",
+          "duration": 2645
+        },
+        {
+          "id": "DSL20250115",
+          "title": "167-黑格尔会如何嘲笑洋抖难民？",
+          "guid": "678810e0f787119b3d828ba7",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/678810e0f787119b3d828ba7/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lnR2O8-8IVz6bHZBGlzCSXDzrrTT.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/678810e0f787119b3d828ba7?utm_source=rss",
+          "pubDate": "2025-01-15",
+          "duration": 2475
+        },
+        {
+          "id": "DSL20250114",
+          "title": "166-如何像猫一样健康？",
+          "guid": "678606e7b21f1c0fb3c858d4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/678606e7b21f1c0fb3c858d4/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lhBpoOxDIuqzkl711jrU86ZDQqQI.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/678606e7b21f1c0fb3c858d4?utm_source=rss",
+          "pubDate": "2025-01-14",
+          "duration": 2164
+        },
+        {
+          "id": "DSL20250114-2",
+          "title": "165-中产阶级为何喜欢沉迷于不切实际的幻想？《包法利夫人》1",
+          "guid": "6785ebeeb21f1c0fb3c1d9f2",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6785ebeeb21f1c0fb3c1d9f2/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ltjdtRAyucNI4E9Ee5QCNpbC-Y4E.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6785ebeeb21f1c0fb3c1d9f2?utm_source=rss",
+          "pubDate": "2025-01-14",
+          "duration": 2403
+        },
+        {
+          "id": "DSL20250110",
+          "title": "164-古罗马老头如何指点听播客的年轻人？",
+          "guid": "67817132d6a4b57e144d8cd0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67817132d6a4b57e144d8cd0/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ln39566gZPFcjxBpZanjZhXWSSXR.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67817132d6a4b57e144d8cd0?utm_source=rss",
+          "pubDate": "2025-01-10",
+          "duration": 2618
+        },
+        {
+          "id": "DSL20250109",
+          "title": "163-加拿大为何即将右转？",
+          "guid": "677f5f8ecda04ef4c17d4bb4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/677f5f8ecda04ef4c17d4bb4/media.xyzcdn.net/64acd33c7a3d479103fbd32d/ltd8ShZLCJUzOlawwopyHE-S-sV7.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/677f5f8ecda04ef4c17d4bb4?utm_source=rss",
+          "pubDate": "2025-01-09",
+          "duration": 1667
+        },
+        {
+          "id": "DSL20250107",
+          "title": "162-如何欣赏古典音乐？",
+          "guid": "677d7e0dcda04ef4c1221d49",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/677d7e0dcda04ef4c1221d49/media.xyzcdn.net/lgzbgiW_HMebPql9fYKq_S8anBpF.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/677d7e0dcda04ef4c1221d49?utm_source=rss",
+          "pubDate": "2025-01-07",
+          "duration": 2260
+        },
+        {
+          "id": "DSL20250106",
+          "title": "161-陀思妥耶夫斯基如何用《罪与罚》嘲笑雨果《悲惨世界》？",
+          "guid": "677c4b2acda04ef4c1da53f4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/677c4b2acda04ef4c1da53f4/media.xyzcdn.net/lh7J-JfDK4W5dOYEC7J7NRx05k0g.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/677c4b2acda04ef4c1da53f4?utm_source=rss",
+          "pubDate": "2025-01-06",
+          "duration": 2378
+        },
+        {
+          "id": "DSL20250105",
+          "title": "160-如何阅读荷马史诗《奥德赛》？",
+          "guid": "677b073f15a5fd520e4242ee",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/677b073f15a5fd520e4242ee/media.xyzcdn.net/Fmlp2CSi7u9rxNszHtuXeQQ3cZiS.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/677b073f15a5fd520e4242ee?utm_source=rss",
+          "pubDate": "2025-01-05",
+          "duration": 180
+        },
+        {
+          "id": "DSL20250105-2",
+          "title": "159-如何从敌人身上获益",
+          "guid": "6779ce0b15a5fd520e0eef05",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6779ce0b15a5fd520e0eef05/media.xyzcdn.net/lh5M4bwBlyObLGp4M357xh6D33Xx.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6779ce0b15a5fd520e0eef05?utm_source=rss",
+          "pubDate": "2025-01-05",
+          "duration": 2094
+        },
+        {
+          "id": "DSL20250103",
+          "title": "158-如何面对拥有一切之后的空虚？（《红与黑》7）",
+          "guid": "6777852d1e823e72d3e6cc27",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6777852d1e823e72d3e6cc27/media.xyzcdn.net/lvdI0ii-CVE2IhdrrgeVSfm642SV.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6777852d1e823e72d3e6cc27?utm_source=rss",
+          "pubDate": "2025-01-03",
+          "duration": 3113
+        },
+        {
+          "id": "DSL20250101",
+          "title": "157-如何欣赏歌剧？",
+          "guid": "6774d8d71e823e72d3606c8c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6774d8d71e823e72d3606c8c/media.xyzcdn.net/ljm1CL66cREz_4CkjgtGpR71-7Qe.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6774d8d71e823e72d3606c8c?utm_source=rss",
+          "pubDate": "2025-01-01",
+          "duration": 2548
+        },
+        {
+          "id": "DSL20241229",
+          "title": "156-康德和亚里士多德分别会如何增肌",
+          "guid": "6771b96a1e823e72d3b9f322",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6771b96a1e823e72d3b9f322/media.xyzcdn.net/lvd68o61g273SR5UK8WP3h282f1A.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6771b96a1e823e72d3b9f322?utm_source=rss",
+          "pubDate": "2024-12-29",
+          "duration": 2089
+        },
+        {
+          "id": "DSL20241229-2",
+          "title": "155-现代人从何时开始感到无聊？（《红与黑》解析6）",
+          "guid": "6770dccc1e823e72d391b0a7",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6770dccc1e823e72d391b0a7/media.xyzcdn.net/ls5mjt1uowGhPwbgMAtjjpUktoPJ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6770dccc1e823e72d391b0a7?utm_source=rss",
+          "pubDate": "2024-12-29",
+          "duration": 3013
+        },
+        {
+          "id": "DSL20241225",
+          "title": "154-如何面对厚颜无耻的烦人精",
+          "guid": "676c3be015a5fd520e988e13",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/676c3be015a5fd520e988e13/media.xyzcdn.net/lrTwd4d1ANolMSGDi3XElYyZpDRl.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/676c3be015a5fd520e988e13?utm_source=rss",
+          "pubDate": "2024-12-25",
+          "duration": 2596
+        },
+        {
+          "id": "DSL20241224",
+          "title": "153-天才在哪个历史节点开始发疯？",
+          "guid": "676b41151e823e72d37ed037",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/676b41151e823e72d37ed037/media.xyzcdn.net/lgdFtKAnXByz4m70-oTHTAw4lxoe.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/676b41151e823e72d37ed037?utm_source=rss",
+          "pubDate": "2024-12-24",
+          "duration": 2854
+        },
+        {
+          "id": "DSL20241222",
+          "title": "152-柏林夜店文化为何世界第一？",
+          "guid": "67687de515a5fd520eb2df9b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67687de515a5fd520eb2df9b/media.xyzcdn.net/lprQjZp4AMHl-qxVx7A7YYxDDIHH.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67687de515a5fd520eb2df9b?utm_source=rss",
+          "pubDate": "2024-12-22",
+          "duration": 2965
+        },
+        {
+          "id": "DSL20241219",
+          "title": "151-美国左翼女权主义如何内部分裂？",
+          "guid": "676484be1e823e72d33ecd91",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/676484be1e823e72d33ecd91/media.xyzcdn.net/lju7ByKlGZNLgvgpyqp_-QS08r4B.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/676484be1e823e72d33ecd91?utm_source=rss",
+          "pubDate": "2024-12-19",
+          "duration": 2102
+        },
+        {
+          "id": "DSL20241218",
+          "title": "150-马克思主要继承了哪三个哲学传统",
+          "guid": "6763393dea209de68859fa49",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6763393dea209de68859fa49/media.xyzcdn.net/Fi-9Zq3W7cMw0uOXGSM87OOkZpZC.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6763393dea209de68859fa49?utm_source=rss",
+          "pubDate": "2024-12-18",
+          "duration": 180
+        },
+        {
+          "id": "DSL20241217",
+          "title": "149-90年代美国主流观点为何认为“历史已经终结”？",
+          "guid": "6761dbbc7d8426f692eb99ee",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6761dbbc7d8426f692eb99ee/media.xyzcdn.net/lnMr-0f_7ev74a316d7XMwfX5tsb.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6761dbbc7d8426f692eb99ee?utm_source=rss",
+          "pubDate": "2024-12-17",
+          "duration": 2562
+        },
+        {
+          "id": "DSL20241216",
+          "title": "148-一具健康的肉体除了力量为何还需要灵活和平衡？",
+          "guid": "675f8c8d84447b1bd027edfd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/675f8c8d84447b1bd027edfd/media.xyzcdn.net/lkK1NCKmlp2uZAtPnZbSn7VNRWNZ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/675f8c8d84447b1bd027edfd?utm_source=rss",
+          "pubDate": "2024-12-16",
+          "duration": 2993
+        },
+        {
+          "id": "DSL20241215",
+          "title": "147-德国为何没变成一个马克思主义国家",
+          "guid": "675f5cbc7d8426f69255c223",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/675f5cbc7d8426f69255c223/media.xyzcdn.net/lnSwPI45mLHY-_W9_5qWljVuiY2P.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/675f5cbc7d8426f69255c223?utm_source=rss",
+          "pubDate": "2024-12-15",
+          "duration": 2819
+        },
+        {
+          "id": "DSL20241212",
+          "title": "146-古罗马老头如何锐评吃瓜行为",
+          "guid": "675a27ca17cd5416ad621d97",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/675a27ca17cd5416ad621d97/media.xyzcdn.net/lmdkSqNafw4Kku8fmHlhIYopZV-A.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/675a27ca17cd5416ad621d97?utm_source=rss",
+          "pubDate": "2024-12-12",
+          "duration": 1906
+        },
+        {
+          "id": "DSL20241209",
+          "title": "145-19世纪法国考公进入体制是咋样滴（《红与黑》解析5）",
+          "guid": "675650bf17cd5416ad862b6d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/675650bf17cd5416ad862b6d/media.xyzcdn.net/lv6kXCim93z3yXOeeq4S5rCYAnkb.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/675650bf17cd5416ad862b6d?utm_source=rss",
+          "pubDate": "2024-12-09",
+          "duration": 2340
+        },
+        {
+          "id": "DSL20241208",
+          "title": "144-通过言情小说体会爱情的现代人还能体会真实爱情吗？（《红与黑》解析4）",
+          "guid": "675536b817cd5416ad5646e7",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/675536b817cd5416ad5646e7/media.xyzcdn.net/ltv_OqSdyLJpmvr9Rt9AKm35c4hx.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/675536b817cd5416ad5646e7?utm_source=rss",
+          "pubDate": "2024-12-08",
+          "duration": 2147
+        },
+        {
+          "id": "DSL20241205",
+          "title": "143-如何区分朋友和马屁精？",
+          "guid": "67516942a314b553c65d1509",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67516942a314b553c65d1509/media.xyzcdn.net/lgmeFKYAYLmGWXhQb5f45CD8pYF5.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67516942a314b553c65d1509?utm_source=rss",
+          "pubDate": "2024-12-05",
+          "duration": 2958
+        },
+        {
+          "id": "DSL20241201",
+          "title": "142-8090年代美国知识分子如何就人文精神开展大辩论？",
+          "guid": "674cb0040ed328720abcea7d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/674cb0040ed328720abcea7d/media.xyzcdn.net/lsjeQQcYpyhESYxzPTGc4AMgoE_s.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/674cb0040ed328720abcea7d?utm_source=rss",
+          "pubDate": "2024-12-01",
+          "duration": 2306
+        },
+        {
+          "id": "DSL20241129",
+          "title": "141-美国新右翼革命派为何想要烧毁现存体制？",
+          "guid": "67497f14c3b2a2f33461faf5",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67497f14c3b2a2f33461faf5/media.xyzcdn.net/lk1V3qX6MNLv33FEP1DccBKjuLSg.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67497f14c3b2a2f33461faf5?utm_source=rss",
+          "pubDate": "2024-11-29",
+          "duration": 2765
+        },
+        {
+          "id": "DSL20241127",
+          "title": "140-洛克为什么被称为自由主义之父?",
+          "guid": "6746be378d1233fb0d6fcbda",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6746be378d1233fb0d6fcbda/media.xyzcdn.net/FunLOAteJF9dSd2RPGTLP1A-FydH.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6746be378d1233fb0d6fcbda?utm_source=rss",
+          "pubDate": "2024-11-27",
+          "duration": 180
+        },
+        {
+          "id": "DSL20241126",
+          "title": "139-锻炼习惯会瓦解哪些虚假的沉沦？",
+          "guid": "67455ec28d1233fb0d1e55bd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67455ec28d1233fb0d1e55bd/media.xyzcdn.net/lvk2n6rBqE3l430D4B1oqPKWcfPB.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67455ec28d1233fb0d1e55bd?utm_source=rss",
+          "pubDate": "2024-11-26",
+          "duration": 2073
+        },
+        {
+          "id": "DSL20241123",
+          "title": "138-做大锅饭如何帮我反思民主政治?？",
+          "guid": "67414fab11045e78e5393564",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/67414fab11045e78e5393564/media.xyzcdn.net/lhoUX9tF4UnpIUZO_pbvrUL4gChN.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/67414fab11045e78e5393564?utm_source=rss",
+          "pubDate": "2024-11-23",
+          "duration": 2253
+        },
+        {
+          "id": "DSL20241121",
+          "title": "137-美国为什么没有成为一个马克思主义国家？",
+          "guid": "673eb4a111045e78e5bca9d8",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/673eb4a111045e78e5bca9d8/media.xyzcdn.net/luShePZTcC68Wq_4CRHmoXo13CX8.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/673eb4a111045e78e5bca9d8?utm_source=rss",
+          "pubDate": "2024-11-21",
+          "duration": 2265
+        },
+        {
+          "id": "DSL20241120",
+          "title": "136-什么是一颗完美的番茄？",
+          "guid": "673d5c2e11045e78e5725f59",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/673d5c2e11045e78e5725f59/media.xyzcdn.net/ln2R-dmpHsZY5u1_7aWAdAdkR7gc.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/673d5c2e11045e78e5725f59?utm_source=rss",
+          "pubDate": "2024-11-20",
+          "duration": 2121
+        },
+        {
+          "id": "DSL20241119",
+          "title": "135-如何不令人生厌地自我赞美？",
+          "guid": "673d06a68d1233fb0d7ed521",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/673d06a68d1233fb0d7ed521/media.xyzcdn.net/lvWpTZXVz6ucM9_tD0broV1b0kZU.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/673d06a68d1233fb0d7ed521?utm_source=rss",
+          "pubDate": "2024-11-19",
+          "duration": 2161
+        },
+        {
+          "id": "DSL20241117",
+          "title": "134-品鉴普洱如何帮我反思理性的局限？",
+          "guid": "673a431643dc3a43875f9fd4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/673a431643dc3a43875f9fd4/media.xyzcdn.net/lhg2gAVF1Uwv4jsNq7kjkiaG7fNB.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/673a431643dc3a43875f9fd4?utm_source=rss",
+          "pubDate": "2024-11-17",
+          "duration": 2287
+        },
+        {
+          "id": "DSL20241113",
+          "title": "133-民主党如何爬回权力巅峰？",
+          "guid": "6734609e43dc3a43874a6255",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6734609e43dc3a43874a6255/media.xyzcdn.net/lu4MsVHCd7ZjHHLUOhmxOQG1cYcU.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6734609e43dc3a43874a6255?utm_source=rss",
+          "pubDate": "2024-11-13",
+          "duration": 2010
+        },
+        {
+          "id": "DSL20241111",
+          "title": "132-做鸡如何帮我反思现代性？",
+          "guid": "673176a6f373fe5d4d44f6a7",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/673176a6f373fe5d4d44f6a7/media.xyzcdn.net/liGLIi1Nwq0NSkjPfYXjFCNUPzNq.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/673176a6f373fe5d4d44f6a7?utm_source=rss",
+          "pubDate": "2024-11-11",
+          "duration": 1926
+        },
+        {
+          "id": "DSL20241110",
+          "title": "131-当今美国民主党为何比共和党更加保守？",
+          "guid": "6730291ef373fe5d4d071eb1",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6730291ef373fe5d4d071eb1/media.xyzcdn.net/lrVOHM04k7Ua6QzBhiLXiY3hNJNz.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6730291ef373fe5d4d071eb1?utm_source=rss",
+          "pubDate": "2024-11-10",
+          "duration": 2147
+        },
+        {
+          "id": "DSL20241109",
+          "title": "130-亚里士多德为何认为政治是所有学科的女皇?",
+          "guid": "672fbe0ff373fe5d4dfcdfe3",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/672fbe0ff373fe5d4dfcdfe3/media.xyzcdn.net/FvjaNSgIKCDigzWlr-2_p9xuxMQs.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/672fbe0ff373fe5d4dfcdfe3?utm_source=rss",
+          "pubDate": "2024-11-09",
+          "duration": 180
+        },
+        {
+          "id": "DSL20241106",
+          "title": "129-哈里斯为何惨败？",
+          "guid": "672bafb36c53cd405a7d2725",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/672bafb36c53cd405a7d2725/media.xyzcdn.net/lvNNYrODzCGfHHeluY6jKLdlF9nM.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/672bafb36c53cd405a7d2725?utm_source=rss",
+          "pubDate": "2024-11-06",
+          "duration": 2291
+        },
+        {
+          "id": "DSL20241103",
+          "title": "128-托克维尔会如何评价抖音短剧？",
+          "guid": "6726d9cdcbe0e69c8ba8e3c5",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6726d9cdcbe0e69c8ba8e3c5/media.xyzcdn.net/lpG813nJtdjsarXsgllEH1XQu5xy.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6726d9cdcbe0e69c8ba8e3c5?utm_source=rss",
+          "pubDate": "2024-11-03",
+          "duration": 2310
+        },
+        {
+          "id": "DSL20241031",
+          "title": "127-保守主义之父柏克会如何评价预制菜",
+          "guid": "6723c4cdcbe0e69c8b3425cc",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6723c4cdcbe0e69c8b3425cc/media.xyzcdn.net/lpq96spNkf3n72ef5XRh5NSnzhVY.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6723c4cdcbe0e69c8b3425cc?utm_source=rss",
+          "pubDate": "2024-10-31",
+          "duration": 2309
+        },
+        {
+          "id": "DSL20241026",
+          "title": "126-美国大选为什么不是一人一票？",
+          "guid": "671d1c3feb46cd6655f13760",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/671d1c3feb46cd6655f13760/media.xyzcdn.net/lsLghzlzB6BaT8kdl9kAzlUDw20X.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/671d1c3feb46cd6655f13760?utm_source=rss",
+          "pubDate": "2024-10-26",
+          "duration": 2460
+        },
+        {
+          "id": "DSL20241024",
+          "title": "125-互联网政治现象和传统政治有什么不同",
+          "guid": "671a7a1cd68949d1b89a69a1",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/671a7a1cd68949d1b89a69a1/media.xyzcdn.net/lrb_JmBRMhh02bkFHH3gxaNBVoRg.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/671a7a1cd68949d1b89a69a1?utm_source=rss",
+          "pubDate": "2024-10-24",
+          "duration": 2370
+        },
+        {
+          "id": "DSL20241022",
+          "title": "124-每天运动如何帮我反思政治上的真理？",
+          "guid": "671709ee0d2f24f289dc79c2",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/671709ee0d2f24f289dc79c2/media.xyzcdn.net/liI1AxkHnxwd06yBDz9W5xTF0ivD.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/671709ee0d2f24f289dc79c2?utm_source=rss",
+          "pubDate": "2024-10-22",
+          "duration": 2300
+        },
+        {
+          "id": "DSL20241022-2",
+          "title": "123-断头台为何是平等和民主的象征？",
+          "guid": "6717056a0d2f24f289db23f7",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6717056a0d2f24f289db23f7/media.xyzcdn.net/lo0MkRk281wPJSQnSQBgIbYJGfQs.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6717056a0d2f24f289db23f7?utm_source=rss",
+          "pubDate": "2024-10-22",
+          "duration": 2184
+        },
+        {
+          "id": "DSL20241019",
+          "title": "122-性别分歧是美国大选的决定性因素吗？",
+          "guid": "6713ff8f0d2f24f2895592ac",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6713ff8f0d2f24f2895592ac/media.xyzcdn.net/lnMT1AYjxwugYiqu5wVHflgMRwnX.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6713ff8f0d2f24f2895592ac?utm_source=rss",
+          "pubDate": "2024-10-19",
+          "duration": 2086
+        },
+        {
+          "id": "DSL20241018",
+          "title": "121-什么是人文主义教育？",
+          "guid": "6711a5bd0d2f24f289f16377",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6711a5bd0d2f24f289f16377/media.xyzcdn.net/llNsscfOW2Cd_R4bK931m2Zf9hLB.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6711a5bd0d2f24f289f16377?utm_source=rss",
+          "pubDate": "2024-10-18",
+          "duration": 2468
+        },
+        {
+          "id": "DSL20241013",
+          "title": "120-卢梭为什么说现代人越文明越缺德？",
+          "guid": "670c4ca7db2cf82757f39573",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/670c4ca7db2cf82757f39573/media.xyzcdn.net/FnUYfi0ox-Tv5qtKVSX_eGkE5Q--.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/670c4ca7db2cf82757f39573?utm_source=rss",
+          "pubDate": "2024-10-13",
+          "duration": 180
+        },
+        {
+          "id": "DSL20241008",
+          "title": "119-如何批评不能批评的人群和事物",
+          "guid": "670595a181cdab3a939d057e",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/670595a181cdab3a939d057e/media.xyzcdn.net/lj7aA-B42yD96Xcip1yOLXFqEiCB.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/670595a181cdab3a939d057e?utm_source=rss",
+          "pubDate": "2024-10-08",
+          "duration": 2002
+        },
+        {
+          "id": "DSL20241006",
+          "title": "118-政治娱乐化会给现代社会带来怎样的后果？",
+          "guid": "6701f8f981cdab3a93fbba74",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6701f8f981cdab3a93fbba74/media.xyzcdn.net/lvjmmg3kG_CrHu6_rABeWz9Ts1CH.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6701f8f981cdab3a93fbba74?utm_source=rss",
+          "pubDate": "2024-10-06",
+          "duration": 1876
+        },
+        {
+          "id": "DSL20241003",
+          "title": "117-接受过西方教育的知识分子容易出现什么贻笑大方的态度？（陀思妥耶夫斯基）",
+          "guid": "66fee91d6c7f817786b18e67",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66fee91d6c7f817786b18e67/media.xyzcdn.net/ltEeh0AoQBDeXaHTXESnO9qqMOCJ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66fee91d6c7f817786b18e67?utm_source=rss",
+          "pubDate": "2024-10-03",
+          "duration": 1918
+        },
+        {
+          "id": "DSL20241001",
+          "title": "116-陀思妥耶夫斯基如何反驳中国人最奉为圭臬的真理？",
+          "guid": "66fba2c981cdab3a934c2918",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66fba2c981cdab3a934c2918/media.xyzcdn.net/lg0HjsDrk6F0HVQigXRs_2KeAfJz.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66fba2c981cdab3a934c2918?utm_source=rss",
+          "pubDate": "2024-10-01",
+          "duration": 2059
+        },
+        {
+          "id": "DSL20240929",
+          "title": "115-自私自利和承担责任之间有什么矛盾吗？",
+          "guid": "66f9a63881cdab3a93fd9318",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66f9a63881cdab3a93fd9318/media.xyzcdn.net/lns4fA8VFX33TX4iPAu_jFtEN1Ic.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66f9a63881cdab3a93fd9318?utm_source=rss",
+          "pubDate": "2024-09-29",
+          "duration": 2023
+        },
+        {
+          "id": "DSL20240927",
+          "title": "114-搞笑为什么越来越难？",
+          "guid": "66f6f82b81cdab3a9392d7a9",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66f6f82b81cdab3a9392d7a9/media.xyzcdn.net/lujZ39u4sUrl5hTFIAX_A7eYdrKq.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66f6f82b81cdab3a9392d7a9?utm_source=rss",
+          "pubDate": "2024-09-27",
+          "duration": 1958
+        },
+        {
+          "id": "DSL20240926",
+          "title": "113-《红与黑》解析3： 小市民社会会创造出哪三种自我折磨的人？",
+          "guid": "66f5ec7b69b6a485e833bdcd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66f5ec7b69b6a485e833bdcd/media.xyzcdn.net/lmgxaENtcgmi37LbrM2GsxtVF7pn.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66f5ec7b69b6a485e833bdcd?utm_source=rss",
+          "pubDate": "2024-09-26",
+          "duration": 2414
+        },
+        {
+          "id": "DSL20240922",
+          "title": "112-有没有什么应该阻挡你对自由的向往？",
+          "guid": "66f0838087a92427761a548e",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66f0838087a92427761a548e/media.xyzcdn.net/loyZ4tCBvBi7ehLsgp0N9KwLc9MZ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66f0838087a92427761a548e?utm_source=rss",
+          "pubDate": "2024-09-22",
+          "duration": 2330
+        },
+        {
+          "id": "DSL20240921",
+          "title": "111-尼采和亚里士多德分别会如何面对网上的傻哔？",
+          "guid": "66ee45d987a9242776c61763",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66ee45d987a9242776c61763/media.xyzcdn.net/luka7VsbkWX3DhfB47gdwCTyKVkK.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66ee45d987a9242776c61763?utm_source=rss",
+          "pubDate": "2024-09-21",
+          "duration": 1732
+        },
+        {
+          "id": "DSL20240921-2",
+          "title": "110-托克维尔如何解释当代中产阶级为什么越来越相似却越来越彼此孤立？",
+          "guid": "66ee212f6920a36bfc8b3433",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66ee212f6920a36bfc8b3433/media.xyzcdn.net/FjfII96wNkmjmYWQ6LCMrLkIIYVy.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66ee212f6920a36bfc8b3433?utm_source=rss",
+          "pubDate": "2024-09-21",
+          "duration": 180
+        },
+        {
+          "id": "DSL20240915",
+          "title": "109-运动如何帮我在低谷笑对生活往脸上呼的一个个大耳瓜子？",
+          "guid": "66e73a293a5ff0a0cab55d48",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66e73a293a5ff0a0cab55d48/media.xyzcdn.net/lkBbj98C3QRsbJrAbAoJr64m1wnZ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66e73a293a5ff0a0cab55d48?utm_source=rss",
+          "pubDate": "2024-09-15",
+          "duration": 1914
+        },
+        {
+          "id": "DSL20240914",
+          "title": "108-政治媒体能否、应否保持客观？",
+          "guid": "66e5fe043a5ff0a0ca89e634",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66e5fe043a5ff0a0ca89e634/media.xyzcdn.net/lvxKWzYuNhHWFfTHAwL0voCql7LS.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66e5fe043a5ff0a0ca89e634?utm_source=rss",
+          "pubDate": "2024-09-14",
+          "duration": 2806
+        },
+        {
+          "id": "DSL20240913",
+          "title": "107-哈耶克那套个人自由主义的局限性在哪？",
+          "guid": "66e3cc7d5ca6d0ace3a39c74",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66e3cc7d5ca6d0ace3a39c74/media.xyzcdn.net/loyPRHXQypwtUkkhViT36BldGJZY.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66e3cc7d5ca6d0ace3a39c74?utm_source=rss",
+          "pubDate": "2024-09-13",
+          "duration": 2482
+        },
+        {
+          "id": "DSL20240909",
+          "title": "106-“经济基础决定上层建筑”是什么意思啊？",
+          "guid": "66df70e2bfd7110df4770d73",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66df70e2bfd7110df4770d73/media.xyzcdn.net/lmV7N_GJyaEJBhmRl1U9C1x_MPQl.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66df70e2bfd7110df4770d73?utm_source=rss",
+          "pubDate": "2024-09-09",
+          "duration": 2553
+        },
+        {
+          "id": "DSL20240903",
+          "title": "105-DEI理论背后的新左翼如何颠覆并改造了当今美国大学？",
+          "guid": "66d7608b5a91beebb39ad6d4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66d7608b5a91beebb39ad6d4/media.xyzcdn.net/lrKKfeO9vAxJhEAefi_OsmFLVi37.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66d7608b5a91beebb39ad6d4?utm_source=rss",
+          "pubDate": "2024-09-03",
+          "duration": 2245
+        },
+        {
+          "id": "DSL20240902",
+          "title": "104-孟德斯鸠会如何评价中国老年人没苦硬吃？",
+          "guid": "66d60fc64a0f950f840dd661",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66d60fc64a0f950f840dd661/media.xyzcdn.net/lhjO86RorvCOAW96x9vDCRNelhTr.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66d60fc64a0f950f840dd661?utm_source=rss",
+          "pubDate": "2024-09-02",
+          "duration": 2206
+        },
+        {
+          "id": "DSL20240901",
+          "title": "103-黑格尔如何成为了集权专制的背锅侠？",
+          "guid": "66d3f38e5a91beebb3e9295d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66d3f38e5a91beebb3e9295d/media.xyzcdn.net/lt1mN0J_639oglNlyan_AvHuz3q9.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66d3f38e5a91beebb3e9295d?utm_source=rss",
+          "pubDate": "2024-09-01",
+          "duration": 2251
+        },
+        {
+          "id": "DSL20240828",
+          "title": "102-自由主义咋在赢了冷战后迅速变成了人人嫌的过街老鼠？",
+          "guid": "66ce84c856bfd3907a95f1bc",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66ce84c856bfd3907a95f1bc/media.xyzcdn.net/lhaN_mhmoK2m2NCUoe_9eqe3VJcZ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66ce84c856bfd3907a95f1bc?utm_source=rss",
+          "pubDate": "2024-08-28",
+          "duration": 1935
+        },
+        {
+          "id": "DSL20240826",
+          "title": "101-法国为什么没有成为一个马克思主义国家？",
+          "guid": "66cbe28bead5fc379266493a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66cbe28bead5fc379266493a/media.xyzcdn.net/lrL__Xv7k-oiTvDOkKRdes6aBQ7g.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66cbe28bead5fc379266493a?utm_source=rss",
+          "pubDate": "2024-08-26",
+          "duration": 2552
+        },
+        {
+          "id": "DSL20240825",
+          "title": "100-中国和美国为何仍活在霍布斯建构的世界里？",
+          "guid": "66cbaf11ead5fc37925cd71c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66cbaf11ead5fc37925cd71c/media.xyzcdn.net/FiEAKZ_ZDBd72kqYqmZB_Ky6LRt_.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66cbaf11ead5fc37925cd71c?utm_source=rss",
+          "pubDate": "2024-08-25",
+          "duration": 180
+        },
+        {
+          "id": "DSL20240821",
+          "title": "99-现代文明如何改变了中国古典书画？",
+          "guid": "66c608b8db5e6d6bf9fdf2de",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66c608b8db5e6d6bf9fdf2de/media.xyzcdn.net/lmQ0VDQsm867ZwgVelEV_BAg4SY5.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66c608b8db5e6d6bf9fdf2de?utm_source=rss",
+          "pubDate": "2024-08-21",
+          "duration": 2017
+        },
+        {
+          "id": "DSL20240820",
+          "title": "98-如何抵抗互联网上越来越重的戾气和恶意？",
+          "guid": "66c3e38adb5e6d6bf983d08b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66c3e38adb5e6d6bf983d08b/media.xyzcdn.net/lueTlSpeV5rH8GoDfFFK-GUXNoHZ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66c3e38adb5e6d6bf983d08b?utm_source=rss",
+          "pubDate": "2024-08-20",
+          "duration": 2738
+        },
+        {
+          "id": "DSL20240815",
+          "title": "97-三国演义和伯罗奔尼撒战争史有何相似之处",
+          "guid": "66be42a033591c27be68b04f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66be42a033591c27be68b04f/media.xyzcdn.net/lszm2K4RuqEmvCMKApTqXuqoRTsn.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66be42a033591c27be68b04f?utm_source=rss",
+          "pubDate": "2024-08-15",
+          "duration": 2235
+        },
+        {
+          "id": "DSL20240814",
+          "title": "96-为何法国文化如此进步、法国政治却如此保守？",
+          "guid": "66bbf911db5e6d6bf919b987",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66bbf911db5e6d6bf919b987/media.xyzcdn.net/lhz_SfrqxXJpFz1DDxIvDaQ6YSfC.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66bbf911db5e6d6bf919b987?utm_source=rss",
+          "pubDate": "2024-08-14",
+          "duration": 2296
+        },
+        {
+          "id": "DSL20240811",
+          "title": "95-胡适崇拜的杜威实验主义如何屠杀了当代美国的古典人文教育？",
+          "guid": "66b82a2e33591c27be2fe4a3",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66b82a2e33591c27be2fe4a3/media.xyzcdn.net/lgFDKMvHs0BzILWGvm11SlDJU_3e.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66b82a2e33591c27be2fe4a3?utm_source=rss",
+          "pubDate": "2024-08-11",
+          "duration": 2035
+        },
+        {
+          "id": "DSL20240808",
+          "title": "94-如何在这个泥沼一样的公共环境里进行文明对话？",
+          "guid": "66b5146d33591c27bebe1d8f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66b5146d33591c27bebe1d8f/media.xyzcdn.net/lgL2ALBJBB3SGQrrq6GbEfliibNZ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66b5146d33591c27bebe1d8f?utm_source=rss",
+          "pubDate": "2024-08-08",
+          "duration": 2184
+        },
+        {
+          "id": "DSL20240804",
+          "title": "93-运动习惯如何帮我克服焦虑？",
+          "guid": "66afa4347349f7a557b3aeac",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66afa4347349f7a557b3aeac/media.xyzcdn.net/liJAq_4FRcYF97ui-Kfv7m8-P4kG.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66afa4347349f7a557b3aeac?utm_source=rss",
+          "pubDate": "2024-08-04",
+          "duration": 2129
+        },
+        {
+          "id": "DSL20240802",
+          "title": "92-非洲人看待奴隶贸易和美国人有何不同？（回忆塞内加尔奴隶岛）",
+          "guid": "66ad16fe33ddcbb53cef8f51",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66ad16fe33ddcbb53cef8f51/media.xyzcdn.net/lsPbkV9LqykxddHjBc-a_wQ1YNy-.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66ad16fe33ddcbb53cef8f51?utm_source=rss",
+          "pubDate": "2024-08-02",
+          "duration": 2336
+        },
+        {
+          "id": "DSL20240801",
+          "title": "91-知识分子吵架喜欢使用什么下三滥的套路？",
+          "guid": "66abe67c7349f7a5572a79d7",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66abe67c7349f7a5572a79d7/media.xyzcdn.net/lmivMleTJhw8hveOE25pQm1eACJ1.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66abe67c7349f7a5572a79d7?utm_source=rss",
+          "pubDate": "2024-08-01",
+          "duration": 2511
+        },
+        {
+          "id": "DSL20240729",
+          "title": "90-马基雅维利会如何建议国家领导人巩固政权？",
+          "guid": "66a7d88a7349f7a5576a1e87",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66a7d88a7349f7a5576a1e87/media.xyzcdn.net/Fu1wfqvvcjLimDqjJp8_hC_BsxHh.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66a7d88a7349f7a5576a1e87?utm_source=rss",
+          "pubDate": "2024-07-29",
+          "duration": 180
+        },
+        {
+          "id": "DSL20240727",
+          "title": "89-零零后抽象文化如何影响美国政治？",
+          "guid": "66a45b297349f7a557d6699e",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66a45b297349f7a557d6699e/media.xyzcdn.net/lkyGUpogHEpWNQveDAhig9W7vdZn.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66a45b297349f7a557d6699e?utm_source=rss",
+          "pubDate": "2024-07-27",
+          "duration": 2237
+        },
+        {
+          "id": "DSL20240724",
+          "title": "88-如何给美国总统撰写演讲稿?",
+          "guid": "66a1637e7349f7a557521b9f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66a1637e7349f7a557521b9f/media.xyzcdn.net/lnjJ3IxEco6IUZp3IPSnZcF9lZuB.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66a1637e7349f7a557521b9f?utm_source=rss",
+          "pubDate": "2024-07-24",
+          "duration": 2216
+        },
+        {
+          "id": "DSL20240719",
+          "title": "87-美国新右派的政治诉求是什么？",
+          "guid": "669ad1a337236c546e64ef7a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/669ad1a337236c546e64ef7a/media.xyzcdn.net/ln0KDZ5Lkwu19P9mgq7OvhlP9-ej.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/669ad1a337236c546e64ef7a?utm_source=rss",
+          "pubDate": "2024-07-19",
+          "duration": 2952
+        },
+        {
+          "id": "DSL20240715",
+          "title": "86-特朗普会成为下一个里根吗？",
+          "guid": "66946db237236c546e21b9f1",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66946db237236c546e21b9f1/media.xyzcdn.net/lkLcMRog4a_W7jLwXL4hA0c-iivd.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66946db237236c546e21b9f1?utm_source=rss",
+          "pubDate": "2024-07-15",
+          "duration": 3634
+        },
+        {
+          "id": "DSL20240708",
+          "title": "85-男知识分子容易出现什么贻笑大方的态度？",
+          "guid": "668c072cae8e21859a6e9c9e",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/668c072cae8e21859a6e9c9e/media.xyzcdn.net/lvX7EAtVjpvRBSrHfbc0pVRSu3F-.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/668c072cae8e21859a6e9c9e?utm_source=rss",
+          "pubDate": "2024-07-08",
+          "duration": 2029
+        },
+        {
+          "id": "DSL20240708-2",
+          "title": "84-英国大选选了个啥？",
+          "guid": "668b5998ae8e21859a3eb84e",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/668b5998ae8e21859a3eb84e/media.xyzcdn.net/lqfgdyh7dS_a3zwiNxtGx460VVl4.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/668b5998ae8e21859a3eb84e?utm_source=rss",
+          "pubDate": "2024-07-08",
+          "duration": 2475
+        },
+        {
+          "id": "DSL20240706",
+          "title": "83-锻炼如何帮助我思考？",
+          "guid": "6688c3ea0bc5d7cc702ff802",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6688c3ea0bc5d7cc702ff802/media.xyzcdn.net/lkQzuTiCh1Z9aVhb30tDRAfz5FHL.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6688c3ea0bc5d7cc702ff802?utm_source=rss",
+          "pubDate": "2024-07-06",
+          "duration": 2208
+        },
+        {
+          "id": "DSL20240704",
+          "title": "82-人人质疑的在位总统应该放弃参选第二任吗？",
+          "guid": "6687189bae8e21859a9aa33f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6687189bae8e21859a9aa33f/media.xyzcdn.net/lmWztLyCN6fkEQdATq5N3t-0Unnc.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6687189bae8e21859a9aa33f?utm_source=rss",
+          "pubDate": "2024-07-04",
+          "duration": 3128
+        },
+        {
+          "id": "DSL20240702",
+          "title": "81-中国人的左右之分为何如此乱七八糟？",
+          "guid": "66837714cdd230b23b9d0812",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66837714cdd230b23b9d0812/media.xyzcdn.net/64acd33c7a3d479103fbd32d/lqnhTOarSk1tzvhIq4F0I-DFviJ6.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66837714cdd230b23b9d0812?utm_source=rss",
+          "pubDate": "2024-07-02",
+          "duration": 1371
+        },
+        {
+          "id": "DSL20240701",
+          "title": "80-康德认为世界会走向“永久和平”是他过于天真吗？",
+          "guid": "6682f24ccdd230b23b8b966a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6682f24ccdd230b23b8b966a/media.xyzcdn.net/Fh5B56-Hbyl33Drm-yshAgpuVGsD.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6682f24ccdd230b23b8b966a?utm_source=rss",
+          "pubDate": "2024-07-01",
+          "duration": 180
+        },
+        {
+          "id": "DSL20240627",
+          "title": "79-权利越多美国老百姓是不是越幸福？",
+          "guid": "667ce8f5c13b46d76c326465",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/667ce8f5c13b46d76c326465/media.xyzcdn.net/luqNK_ZtV-WQG8kF8po_cr8vyOM_.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/667ce8f5c13b46d76c326465?utm_source=rss",
+          "pubDate": "2024-06-27",
+          "duration": 3453
+        },
+        {
+          "id": "DSL20240625",
+          "title": "78-如何哗众取宠？",
+          "guid": "667adda9f0be212753407d71",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/667adda9f0be212753407d71/media.xyzcdn.net/ltvDWEnCYCK-87RKWo1mQPQtV-e-.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/667adda9f0be212753407d71?utm_source=rss",
+          "pubDate": "2024-06-25",
+          "duration": 1874
+        },
+        {
+          "id": "DSL20240623",
+          "title": "77-为何越来越多相信科学的年轻人开始热衷玄学？",
+          "guid": "66787779d3fc5dd6277f652d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66787779d3fc5dd6277f652d/media.xyzcdn.net/lsIDxB3n5RuHLG4TctEU2rnuh_Ut.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66787779d3fc5dd6277f652d?utm_source=rss",
+          "pubDate": "2024-06-23",
+          "duration": 2090
+        },
+        {
+          "id": "DSL20240618",
+          "title": "76-硅谷科技佬信奉什么哲学？",
+          "guid": "6671e813b6a8412729b8db29",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6671e813b6a8412729b8db29/media.xyzcdn.net/ltQljU4a-oA2p27CRw7tFK0bhpV5.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6671e813b6a8412729b8db29?utm_source=rss",
+          "pubDate": "2024-06-18",
+          "duration": 2791
+        },
+        {
+          "id": "DSL20240616",
+          "title": "75-严肃敏感的年轻人为何终日思考死亡？",
+          "guid": "666e44afb6a8412729082638",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/666e44afb6a8412729082638/media.xyzcdn.net/lgNizsEiTVSiuX_Cnz5jXond_va2.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/666e44afb6a8412729082638?utm_source=rss",
+          "pubDate": "2024-06-16",
+          "duration": 2098
+        },
+        {
+          "id": "DSL20240614",
+          "title": "74-现代年轻人尊重什么？",
+          "guid": "666ccc07b6a8412729d915c0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/666ccc07b6a8412729d915c0/media.xyzcdn.net/ltTD0fhViKks2a0rjDnTIwmrzOiX.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/666ccc07b6a8412729d915c0?utm_source=rss",
+          "pubDate": "2024-06-14",
+          "duration": 1953
+        },
+        {
+          "id": "DSL20240612",
+          "title": "73-特朗普定罪会如何影响美国大选？",
+          "guid": "66691a95c26e396a3629e540",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66691a95c26e396a3629e540/media.xyzcdn.net/ljoFNos3keMtM4x_1kJ5L3M3yE2F.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66691a95c26e396a3629e540?utm_source=rss",
+          "pubDate": "2024-06-12",
+          "duration": 2233
+        },
+        {
+          "id": "DSL20240610",
+          "title": "72-遵守规则和服从强权的区别在哪里？",
+          "guid": "66675a2d94977a26ef718788",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66675a2d94977a26ef718788/media.xyzcdn.net/lpZmi4aMPl-i-WtQEKkunlX1EG_s.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66675a2d94977a26ef718788?utm_source=rss",
+          "pubDate": "2024-06-10",
+          "duration": 2233
+        },
+        {
+          "id": "DSL20240606",
+          "title": "71-美国左派右派谁更厌女？",
+          "guid": "666238c494977a26efbd55db",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/666238c494977a26efbd55db/media.xyzcdn.net/lkUKhBlAy_x-GyazLMSA3fPdODyO.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/666238c494977a26efbd55db?utm_source=rss",
+          "pubDate": "2024-06-06",
+          "duration": 2385
+        },
+        {
+          "id": "DSL20240606-2",
+          "title": "70-《论美国民主》为何认为民主暴政比专制暴政更可怕？",
+          "guid": "6661ca0f63c334a2fbdb7a56",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6661ca0f63c334a2fbdb7a56/media.xyzcdn.net/FhJbHKc1PfPBnZvynKAJI_9z_t5R.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6661ca0f63c334a2fbdb7a56?utm_source=rss",
+          "pubDate": "2024-06-06",
+          "duration": 180
+        },
+        {
+          "id": "DSL20240603",
+          "title": "69-如何放下对父母的怨恨？",
+          "guid": "665e3c1c63c334a2fb23f7e6",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/665e3c1c63c334a2fb23f7e6/media.xyzcdn.net/llQZ7z0O8Osd6eBZcsPNppRIJRJC.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/665e3c1c63c334a2fb23f7e6?utm_source=rss",
+          "pubDate": "2024-06-03",
+          "duration": 1641
+        },
+        {
+          "id": "DSL20240602",
+          "title": "68-为何进步左翼（如鲁迅）喜欢把尼采视为精神偶像？",
+          "guid": "665bd2ed63c334a2fbb45084",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/665bd2ed63c334a2fbb45084/media.xyzcdn.net/luzRkS9fFyL0DUa2y_FYPHEWDTH_.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/665bd2ed63c334a2fbb45084?utm_source=rss",
+          "pubDate": "2024-06-02",
+          "duration": 2509
+        },
+        {
+          "id": "DSL20240531",
+          "title": "67-为何极端右翼喜欢把尼采视为精神偶像？",
+          "guid": "665a41afad5aa5d8c2d1a5e5",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/665a41afad5aa5d8c2d1a5e5/media.xyzcdn.net/ljTcZS0vskdciHpq0wxz-U-nhm-H.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/665a41afad5aa5d8c2d1a5e5?utm_source=rss",
+          "pubDate": "2024-05-31",
+          "duration": 2657
+        },
+        {
+          "id": "DSL20240528",
+          "title": "66-特朗普如何重塑美国政党布局？",
+          "guid": "6655e97d790e136fcb4fe36d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6655e97d790e136fcb4fe36d/media.xyzcdn.net/luscKNvnHTuGLgCFL3ko4Od8omtZ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6655e97d790e136fcb4fe36d?utm_source=rss",
+          "pubDate": "2024-05-28",
+          "duration": 2625
+        },
+        {
+          "id": "DSL20240526",
+          "title": "65-身体健康和灵魂健康有何相似之处？",
+          "guid": "6653a7a9c59d1e5757d6ad46",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6653a7a9c59d1e5757d6ad46/media.xyzcdn.net/ls5-4nz4QN6XBeKMsVgItLikpGZt.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6653a7a9c59d1e5757d6ad46?utm_source=rss",
+          "pubDate": "2024-05-26",
+          "duration": 2262
+        },
+        {
+          "id": "DSL20240524",
+          "title": "64-特朗普选民都是什么人啊？",
+          "guid": "665127834efbc0c3dce1ecf1",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/665127834efbc0c3dce1ecf1/media.xyzcdn.net/ln16uMVfjTETBEnPvcXTXoD78X3B.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/665127834efbc0c3dce1ecf1?utm_source=rss",
+          "pubDate": "2024-05-24",
+          "duration": 2846
+        },
+        {
+          "id": "DSL20240521",
+          "title": "63-美国左派是不是铁板一块？",
+          "guid": "664c0160251bd96e6cad2e35",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/664c0160251bd96e6cad2e35/media.xyzcdn.net/lpICmmUKMFLzoQuNM4fHUXARhrJe.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/664c0160251bd96e6cad2e35?utm_source=rss",
+          "pubDate": "2024-05-21",
+          "duration": 2291
+        },
+        {
+          "id": "DSL20240519",
+          "title": "62-大声思考的意义是什么",
+          "guid": "664a60ee251bd96e6c65013d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/664a60ee251bd96e6c65013d/media.xyzcdn.net/lt8YHQ7upzHxdQ1GzPc3Zz_4Iqlt.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/664a60ee251bd96e6c65013d?utm_source=rss",
+          "pubDate": "2024-05-19",
+          "duration": 2589
+        },
+        {
+          "id": "DSL20240515",
+          "title": "61-美国人为什么这么胖？糖尿病减肥药Ozempic真是神药吗？",
+          "guid": "6644231982b428eafdaa85ef",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6644231982b428eafdaa85ef/media.xyzcdn.net/llq0LJShbfcV-IfwCNzKNIzD2PNe.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6644231982b428eafdaa85ef?utm_source=rss",
+          "pubDate": "2024-05-15",
+          "duration": 3039
+        },
+        {
+          "id": "DSL20240514",
+          "title": "60-《论美国的民主》为什么和当代中国社会息息相关？",
+          "guid": "6643b9ba82b428eafd9cc74d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6643b9ba82b428eafd9cc74d/media.xyzcdn.net/Fm17WBjMFZLtnXv_VpgeV-bFGuu7.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6643b9ba82b428eafd9cc74d?utm_source=rss",
+          "pubDate": "2024-05-14",
+          "duration": 180
+        },
+        {
+          "id": "DSL20240510",
+          "title": "59-社交平台风气因何变差？审核、盈利还是用户下沉",
+          "guid": "663d9535eb5653e14a461b7c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/663d9535eb5653e14a461b7c/media.xyzcdn.net/ljAji1aYpgHGV6tqwDy6cg71RtOa.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/663d9535eb5653e14a461b7c?utm_source=rss",
+          "pubDate": "2024-05-10",
+          "duration": 3046
+        },
+        {
+          "id": "DSL20240508",
+          "title": "58-企业应该在政治问题上表态吗？",
+          "guid": "663be884eedd4434f40198f8",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/663be884eedd4434f40198f8/media.xyzcdn.net/liyGnqMIgzaf5QWRNoull_npYOjS.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/663be884eedd4434f40198f8?utm_source=rss",
+          "pubDate": "2024-05-08",
+          "duration": 2613
+        },
+        {
+          "id": "DSL20240503",
+          "title": "57-今年美国大学生游行会带来什么后果？",
+          "guid": "663551b603bcdd73a9574959",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/663551b603bcdd73a9574959/media.xyzcdn.net/ljxDjOlCBWLVcG9VxdvCLh_DAqk8.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/663551b603bcdd73a9574959?utm_source=rss",
+          "pubDate": "2024-05-03",
+          "duration": 2696
+        },
+        {
+          "id": "DSL20240502",
+          "title": "56-巴以问题有解吗？",
+          "guid": "6633d3f903bcdd73a934c9ad",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6633d3f903bcdd73a934c9ad/media.xyzcdn.net/ltYEKburdfQdJc6YhH4hgM8cxITv.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6633d3f903bcdd73a934c9ad?utm_source=rss",
+          "pubDate": "2024-05-02",
+          "duration": 2794
+        },
+        {
+          "id": "DSL20240426",
+          "title": "55-女权主义在美国发展成了什么鬼样子？",
+          "guid": "662b45508a089719b7ee21cd",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/662b45508a089719b7ee21cd/media.xyzcdn.net/lvxSsKJ1dYri7_SAH6c8Z_d5UcZg.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/662b45508a089719b7ee21cd?utm_source=rss",
+          "pubDate": "2024-04-26",
+          "duration": 2484
+        },
+        {
+          "id": "DSL20240422",
+          "title": "54-如何面对父母的死亡",
+          "guid": "6626bfcdc3e09d8f37c8a349",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6626bfcdc3e09d8f37c8a349/media.xyzcdn.net/li2TWQxSgSxR1-Zae8IwgUJxDFA1.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6626bfcdc3e09d8f37c8a349?utm_source=rss",
+          "pubDate": "2024-04-22",
+          "duration": 3988
+        },
+        {
+          "id": "DSL20240421",
+          "title": "53-弹好莫扎特和读懂柏拉图有什么相似之处？",
+          "guid": "6625a3bcc3e09d8f378af347",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6625a3bcc3e09d8f378af347/media.xyzcdn.net/lvOxDoNO5yqaI1UqMQb40wqE47Gu.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6625a3bcc3e09d8f378af347?utm_source=rss",
+          "pubDate": "2024-04-21",
+          "duration": 2292
+        },
+        {
+          "id": "DSL20240419",
+          "title": "52-当代美国语境下的自由派究竟代表了什么",
+          "guid": "6622db6f200abebe6e03bb4b",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6622db6f200abebe6e03bb4b/media.xyzcdn.net/lm6WAVfdWHtZFb_ia9mzj6Bh-1CU.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6622db6f200abebe6e03bb4b?utm_source=rss",
+          "pubDate": "2024-04-19",
+          "duration": 1777
+        },
+        {
+          "id": "DSL20240418",
+          "title": "51-为什么工作不再给予我们责任感和满足感？",
+          "guid": "66208eaf5dae7932c63d02cc",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66208eaf5dae7932c63d02cc/media.xyzcdn.net/lkIhNJw23HtdBBvi8PDbyYs9BTFE.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66208eaf5dae7932c63d02cc?utm_source=rss",
+          "pubDate": "2024-04-18",
+          "duration": 2083
+        },
+        {
+          "id": "DSL20240417",
+          "title": "50-《鲁滨逊漂游记》为什么是深奥的哲学小说？",
+          "guid": "662017ef5dae7932c62fbde0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/662017ef5dae7932c62fbde0/media.xyzcdn.net/FnDmigED5jK8BvuitUnswenqQjAN.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/662017ef5dae7932c62fbde0?utm_source=rss",
+          "pubDate": "2024-04-17",
+          "duration": 180
+        },
+        {
+          "id": "DSL20240412",
+          "title": "49-如何面对命运的不公？",
+          "guid": "6619be2948c40e2fb0fbdfd0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6619be2948c40e2fb0fbdfd0/media.xyzcdn.net/lolZhdQfRBig23er9SHMLJ4ZjvEY.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6619be2948c40e2fb0fbdfd0?utm_source=rss",
+          "pubDate": "2024-04-12",
+          "duration": 2814
+        },
+        {
+          "id": "DSL20240411",
+          "title": "48-如何面对语言上的冒犯？",
+          "guid": "66181c345dae7932c6ecd497",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66181c345dae7932c6ecd497/media.xyzcdn.net/lsoma5OUdxAObyeBp6hOY9dQHXy5.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66181c345dae7932c6ecd497?utm_source=rss",
+          "pubDate": "2024-04-11",
+          "duration": 2420
+        },
+        {
+          "id": "DSL20240408",
+          "title": "47-遗弃小孩的狗男人怎么能写出现代最有哲学性的教育小说？卢梭《爱弥儿》",
+          "guid": "66136b5a4f66d1c1dab2338c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66136b5a4f66d1c1dab2338c/media.xyzcdn.net/loEZUTDUIBR4d5iYVUPOaKa0fLKO.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66136b5a4f66d1c1dab2338c?utm_source=rss",
+          "pubDate": "2024-04-08",
+          "duration": 2372
+        },
+        {
+          "id": "DSL20240406",
+          "title": "46-为何当今美国左派右派都嫌弃自由主义？",
+          "guid": "6610cd68c891c06e7385f5a6",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6610cd68c891c06e7385f5a6/media.xyzcdn.net/lqdG5108tHyGlRgSpHZvEitni0bT.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6610cd68c891c06e7385f5a6?utm_source=rss",
+          "pubDate": "2024-04-06",
+          "duration": 2519
+        },
+        {
+          "id": "DSL20240404",
+          "title": "45-年轻人为什么失去了失败的勇气？",
+          "guid": "660e8d954f66d1c1da07e120",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/660e8d954f66d1c1da07e120/media.xyzcdn.net/lp5aaEJ3Yuw0d9cKqzR2XXejMTI8.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/660e8d954f66d1c1da07e120?utm_source=rss",
+          "pubDate": "2024-04-04",
+          "duration": 2319
+        },
+        {
+          "id": "DSL20240401",
+          "title": "44-智能手机如何影响青少年心理健康？",
+          "guid": "660b176f1519139e4f03f4f3",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/660b176f1519139e4f03f4f3/media.xyzcdn.net/lhPeKVL_cGD3AH7ssrcClYYdy21K.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/660b176f1519139e4f03f4f3?utm_source=rss",
+          "pubDate": "2024-04-01",
+          "duration": 2077
+        },
+        {
+          "id": "DSL20240331",
+          "title": "43-真正的精英有资格鄙视人民吗？莎士比亚《科利奥兰纳斯》解析",
+          "guid": "6609916e2d9eae5d0a36ad1d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6609916e2d9eae5d0a36ad1d/media.xyzcdn.net/lkb7C9l3_V8W2zLEFoy8BLfO5lU_.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6609916e2d9eae5d0a36ad1d?utm_source=rss",
+          "pubDate": "2024-03-31",
+          "duration": 2722
+        },
+        {
+          "id": "DSL20240328",
+          "title": "42-对世界祛魅是长大成熟的体现吗",
+          "guid": "6605cd7a2d9eae5d0ab0c264",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6605cd7a2d9eae5d0ab0c264/media.xyzcdn.net/lqhb5nqsSIi8WXCQpU1a1h4YTSBJ.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6605cd7a2d9eae5d0ab0c264?utm_source=rss",
+          "pubDate": "2024-03-28",
+          "duration": 2182
+        },
+        {
+          "id": "DSL20240327",
+          "title": "41-精英大学为什么变得越来越高中化？",
+          "guid": "660395a42d9eae5d0a4a47e6",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/660395a42d9eae5d0a4a47e6/media.xyzcdn.net/ljFSD7_oqm9FyK83Ej0EHFJWQpeG.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/660395a42d9eae5d0a4a47e6?utm_source=rss",
+          "pubDate": "2024-03-27",
+          "duration": 2283
+        },
+        {
+          "id": "DSL20240324",
+          "title": "40-如何像猫一样运动？",
+          "guid": "66002d651519139e4f48be03",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/66002d651519139e4f48be03/media.xyzcdn.net/lhYtDmBQAC84Xwig3Wk1U6DvtFo4.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/66002d651519139e4f48be03?utm_source=rss",
+          "pubDate": "2024-03-24",
+          "duration": 2012
+        },
+        {
+          "id": "DSL20240322",
+          "title": "39-《红与黑》解析2 为什么市长夫人要和穷小子出轨偷情？",
+          "guid": "65fdebe62d9eae5d0a79969c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65fdebe62d9eae5d0a79969c/media.xyzcdn.net/ljQJpVGmbqEnL2qaG6hY5vpgAL19.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65fdebe62d9eae5d0a79969c?utm_source=rss",
+          "pubDate": "2024-03-22",
+          "duration": 2392
+        },
+        {
+          "id": "DSL20240321",
+          "title": "38-西方人有可能真正理解中国问题吗？",
+          "guid": "65fc77d22d9eae5d0a445872",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65fc77d22d9eae5d0a445872/media.xyzcdn.net/ln5B9eksESbiBN0IA8X8nk0n7r4v.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65fc77d22d9eae5d0a445872?utm_source=rss",
+          "pubDate": "2024-03-21",
+          "duration": 2648
+        },
+        {
+          "id": "DSL20240316",
+          "title": "37-懒惰的人如何找到天天锻炼的动力？曼德维尔悖论",
+          "guid": "65f622c3696bd9a879995a2a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65f622c3696bd9a879995a2a/media.xyzcdn.net/luSyfW1Z8tw7TjMDrKKzQg2l7lAA.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65f622c3696bd9a879995a2a?utm_source=rss",
+          "pubDate": "2024-03-16",
+          "duration": 2103
+        },
+        {
+          "id": "DSL20240313",
+          "title": "36-女性议题在和谐管控之下还是在放任自由之下才可以得到更好的讨论？推特vs.小红书",
+          "guid": "65f218a767649570792cdcb4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65f218a767649570792cdcb4/media.xyzcdn.net/luVCTZjaNhH2egDb0c-WKlbFp43c.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65f218a767649570792cdcb4?utm_source=rss",
+          "pubDate": "2024-03-13",
+          "duration": 2376
+        },
+        {
+          "id": "DSL20240309",
+          "title": "35-底层草根通过努力改变命运的时代结束了吗？",
+          "guid": "65ecb30e2d96b6aa80c0ac84",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65ecb30e2d96b6aa80c0ac84/media.xyzcdn.net/lkbaW3ZEALcxiV5FBjQrIZjxSJM4.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65ecb30e2d96b6aa80c0ac84?utm_source=rss",
+          "pubDate": "2024-03-09",
+          "duration": 2185
+        },
+        {
+          "id": "DSL20240307",
+          "title": "34-《红与黑》解析1-心比天高的凤凰男可能拥有爱的能力吗？",
+          "guid": "65ea188d2d96b6aa806f48cb",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65ea188d2d96b6aa806f48cb/media.xyzcdn.net/liDvpA9TNQXwiSXEqbfMfFp4YuTb.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65ea188d2d96b6aa806f48cb?utm_source=rss",
+          "pubDate": "2024-03-07",
+          "duration": 2359
+        },
+        {
+          "id": "DSL20240305",
+          "title": "33-中美主旋律正剧如何体现两国不同的政治生态？",
+          "guid": "65e665d6da891a9cd9da8e95",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65e665d6da891a9cd9da8e95/media.xyzcdn.net/ljg5BfcmRG9CUFl8h_ic89_iMSzp.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65e665d6da891a9cd9da8e95?utm_source=rss",
+          "pubDate": "2024-03-05",
+          "duration": 2392
+        },
+        {
+          "id": "DSL20240303",
+          "title": "32-怎么停止焦虑的攀比？",
+          "guid": "65e405136144a933b1ed06be",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65e405136144a933b1ed06be/media.xyzcdn.net/lgzQBvff8i_LxNZvFt6KGzdlC7-U.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65e405136144a933b1ed06be?utm_source=rss",
+          "pubDate": "2024-03-03",
+          "duration": 2407
+        },
+        {
+          "id": "DSL20240224",
+          "title": "31-有文化又不能当饭吃，为什么要接受人文教育？",
+          "guid": "65da72a035dd8780ed2d4269",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65da72a035dd8780ed2d4269/media.xyzcdn.net/livjYPlpDWnMHLHCVUERsZzbNRAo.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65da72a035dd8780ed2d4269?utm_source=rss",
+          "pubDate": "2024-02-24",
+          "duration": 2273
+        },
+        {
+          "id": "DSL20240224-2",
+          "title": "30-陈佩斯喜剧反映出怎样的古典自由主义内核？",
+          "guid": "65d94f4adde969cfdcf88046",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65d94f4adde969cfdcf88046/media.xyzcdn.net/lq7k7nFaCxE5KKd7tKRS4LjoLDpt.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65d94f4adde969cfdcf88046?utm_source=rss",
+          "pubDate": "2024-02-24",
+          "duration": 2365
+        },
+        {
+          "id": "DSL20240218",
+          "title": "29-亚里士多德和康德分别会如何去减肥",
+          "guid": "65d1488bb6c9256aeeee435c",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65d1488bb6c9256aeeee435c/media.xyzcdn.net/lqDevwAvFrPar9zxrt-mUPuChtfg.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65d1488bb6c9256aeeee435c?utm_source=rss",
+          "pubDate": "2024-02-18",
+          "duration": 2812
+        },
+        {
+          "id": "DSL20240216",
+          "title": "28-如何面对和身边最亲密的人有些格格不入的失落感？",
+          "guid": "65cec9bbb6c9256aeee09460",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65cec9bbb6c9256aeee09460/media.xyzcdn.net/lqM3wdh0aLfeVQJn6WrcyHK6piGG.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65cec9bbb6c9256aeee09460?utm_source=rss",
+          "pubDate": "2024-02-16",
+          "duration": 2324
+        },
+        {
+          "id": "DSL20240215",
+          "title": "27-旅行有意义吗啊？",
+          "guid": "65c91e5ab6c9256aeec7a5aa",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65c91e5ab6c9256aeec7a5aa/media.xyzcdn.net/lu08OaA6jXkeM3BAJhPAs-HCWmTm.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65c91e5ab6c9256aeec7a5aa?utm_source=rss",
+          "pubDate": "2024-02-15",
+          "duration": 2127
+        },
+        {
+          "id": "DSL20240211",
+          "title": "26-对未来失去希望的年轻人要怎么平静地过好每一天？",
+          "guid": "65c8130fdde969cfdc87f876",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65c8130fdde969cfdc87f876/media.xyzcdn.net/ltcqy0IiD9Ag7oapsDQCTlsMJyAo.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65c8130fdde969cfdc87f876?utm_source=rss",
+          "pubDate": "2024-02-11",
+          "duration": 1725
+        },
+        {
+          "id": "DSL20240209",
+          "title": "25-直播这个现象在人类文明中代表了怎样的大趋势？",
+          "guid": "65c5bc04b6c9256aeeba179d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65c5bc04b6c9256aeeba179d/media.xyzcdn.net/lg_qlwW7c_GvAyP1hs8AgPIr4YWq.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65c5bc04b6c9256aeeba179d?utm_source=rss",
+          "pubDate": "2024-02-09",
+          "duration": 2408
+        },
+        {
+          "id": "DSL20240205",
+          "title": "24-现代社会为什么要惩罚坏人？",
+          "guid": "65c153cc0847349e0cfc1c90",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65c153cc0847349e0cfc1c90/media.xyzcdn.net/lgwnAyrvT6Ou9hGf0Yt7zIjkKHOy.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65c153cc0847349e0cfc1c90?utm_source=rss",
+          "pubDate": "2024-02-05",
+          "duration": 2654
+        },
+        {
+          "id": "DSL20240204",
+          "title": "23-如何面对至亲的背叛？",
+          "guid": "65bfbabecace72dff887f2d4",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65bfbabecace72dff887f2d4/media.xyzcdn.net/lme48ixdhM3dyRR-9xgTncNVItug.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65bfbabecace72dff887f2d4?utm_source=rss",
+          "pubDate": "2024-02-04",
+          "duration": 4048
+        },
+        {
+          "id": "DSL20240126",
+          "title": "22-如何学习和维持外语？",
+          "guid": "65b3ecdba5fe30bcbfbd5a5d",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65b3ecdba5fe30bcbfbd5a5d/media.xyzcdn.net/louCR89Dcj4sQ9LZ8SlceiqKPQ_z.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65b3ecdba5fe30bcbfbd5a5d?utm_source=rss",
+          "pubDate": "2024-01-26",
+          "duration": 2656,
+          "m4a": "https://storyfm-audio.luanphungba.workers.dev/DSL20240126.m4a"
+        },
+        {
+          "id": "DSL20240124",
+          "title": "21-言论自由是什么？学术自由是什么？美国有吗？",
+          "guid": "65b06595d77f0b0c95c5b0b6",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65b06595d77f0b0c95c5b0b6/media.xyzcdn.net/lq7SKicscOPMjqEcFtRaR7qBaXx6.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65b06595d77f0b0c95c5b0b6?utm_source=rss",
+          "pubDate": "2024-01-24",
+          "duration": 2359
+        },
+        {
+          "id": "DSL20240114",
+          "title": "20-历史宿命压到个人身上是怎样的感觉？（一个家族的故事）",
+          "guid": "65a34c94b5e4856c7082ca70",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65a34c94b5e4856c7082ca70/media.xyzcdn.net/lqPuOdzFWESBC9tA0JBFzSgSNqtp.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65a34c94b5e4856c7082ca70?utm_source=rss",
+          "pubDate": "2024-01-14",
+          "duration": 2630
+        },
+        {
+          "id": "DSL20240112",
+          "title": "19-服从性训练是什么",
+          "guid": "65a0dddd926ad7aad0d6c0a0",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65a0dddd926ad7aad0d6c0a0/media.xyzcdn.net/ls45-aNMRYun-hIScd4ivAEsAO2j.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65a0dddd926ad7aad0d6c0a0?utm_source=rss",
+          "pubDate": "2024-01-12",
+          "duration": 2031
+        },
+        {
+          "id": "DSL20231230",
+          "title": "18-苏格拉底会如何反驳哲学无用论？",
+          "guid": "65906a36cab6086ec1854ccb",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65906a36cab6086ec1854ccb/media.xyzcdn.net/ltwrf8ljJ-kUmYISKVkqvg59FQp8.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65906a36cab6086ec1854ccb?utm_source=rss",
+          "pubDate": "2023-12-30",
+          "duration": 2617
+        },
+        {
+          "id": "DSL20231222",
+          "title": "17-我们为什么向往小岛阳光？一次自我批评（巴厘岛下集）",
+          "guid": "6585fccc6396a4645a08e373",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6585fccc6396a4645a08e373/media.xyzcdn.net/lmFKZksw1oO6ffWAOLGsmlf20seu.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6585fccc6396a4645a08e373?utm_source=rss",
+          "pubDate": "2023-12-22",
+          "duration": 2500
+        },
+        {
+          "id": "DSL20231219",
+          "title": "16-年轻人为什么一边作死一边养生",
+          "guid": "65811944cab6086ec108a74f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65811944cab6086ec108a74f/media.xyzcdn.net/lteQN961pgOFM8ZGXon8GmAAGk97.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65811944cab6086ec108a74f?utm_source=rss",
+          "pubDate": "2023-12-19",
+          "duration": 2444
+        },
+        {
+          "id": "DSL20231213",
+          "title": "15-跳脱衣舞自由算是自由吗？",
+          "guid": "6579164d20d779b49d60d942",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6579164d20d779b49d60d942/media.xyzcdn.net/lthoCUltofk1OwtHiX26ARQTjZij.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6579164d20d779b49d60d942?utm_source=rss",
+          "pubDate": "2023-12-13",
+          "duration": 1717
+        },
+        {
+          "id": "DSL20231211",
+          "title": "14-哈耶克的政治思想对于我们的意义",
+          "guid": "657773bb53c6ec91342b5218",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/657773bb53c6ec91342b5218/media.xyzcdn.net/lumERX1eYtPLxLJChESz261ZEzxo.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/657773bb53c6ec91342b5218?utm_source=rss",
+          "pubDate": "2023-12-11",
+          "duration": 2201
+        },
+        {
+          "id": "DSL20231205",
+          "title": "13-海岛阳光下的阴影：谈一谈我认识的巴厘岛人",
+          "guid": "656e9521e555654ace464820",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/656e9521e555654ace464820/media.xyzcdn.net/lkBO2BsxRvsg5bGa4CZfuc4B6gYg.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/656e9521e555654ace464820?utm_source=rss",
+          "pubDate": "2023-12-05",
+          "duration": 2134
+        },
+        {
+          "id": "DSL20231117",
+          "title": "12-为什么上大学？大学教育应该是怎样的教育？",
+          "guid": "6556db5b0500be931cbbd4e1",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6556db5b0500be931cbbd4e1/media.xyzcdn.net/lgO8vfs3E4BlFth84eZmNRwvxcK_.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6556db5b0500be931cbbd4e1?utm_source=rss",
+          "pubDate": "2023-11-17",
+          "duration": 2159
+        },
+        {
+          "id": "DSL20231109",
+          "title": "11-为什么年轻人想要找搭子，不再渴望友谊",
+          "guid": "654d1798aa96f6e6426168ae",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/654d1798aa96f6e6426168ae/media.xyzcdn.net/lv1d6hvNWLgaEptwP1xU77QvZWqT.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/654d1798aa96f6e6426168ae?utm_source=rss",
+          "pubDate": "2023-11-09",
+          "duration": 1972
+        },
+        {
+          "id": "DSL20231102",
+          "title": "10- 为什么越来越多当代年轻人选择发疯",
+          "guid": "6543f8402e4c3cf8653c6745",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6543f8402e4c3cf8653c6745/media.xyzcdn.net/lhoFVp20p2Qq2wv9Z3rMruGvFnS_.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6543f8402e4c3cf8653c6745?utm_source=rss",
+          "pubDate": "2023-11-02",
+          "duration": 1660
+        },
+        {
+          "id": "DSL20231027",
+          "title": "9-简奥斯丁和张爱玲有什么异曲同工之处？",
+          "guid": "653bf7cd0dffd06a39436f00",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/653bf7cd0dffd06a39436f00/media.xyzcdn.net/lnvRKaJZ95NCz-pDGFcjub2wj6KR.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/653bf7cd0dffd06a39436f00?utm_source=rss",
+          "pubDate": "2023-10-27",
+          "duration": 2688
+        },
+        {
+          "id": "DSL20231022",
+          "title": "8-简奥斯丁难道不是土味言情小说吗？！",
+          "guid": "6534739cbfd0868f2b71cf6a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6534739cbfd0868f2b71cf6a/media.xyzcdn.net/lnhXNbMkc7ZGoKjs11rso7FS8tzo.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6534739cbfd0868f2b71cf6a?utm_source=rss",
+          "pubDate": "2023-10-22",
+          "duration": 1893
+        },
+        {
+          "id": "DSL20231009",
+          "title": "7-一个优秀的哲学播客应该是什么样的？",
+          "guid": "65235f8919dde7bf6a2dbccb",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/65235f8919dde7bf6a2dbccb/media.xyzcdn.net/lstF0CUO1BTiTmXmtPltPX04X_Qk.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/65235f8919dde7bf6a2dbccb?utm_source=rss",
+          "pubDate": "2023-10-09",
+          "duration": 1360
+        },
+        {
+          "id": "DSL20230927",
+          "title": "6-用钱能砸出怎样的艺术？本人在卡塔尔博物馆打工的经历",
+          "guid": "6513a96e50cf691d24c008bf",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/6513a96e50cf691d24c008bf/media.xyzcdn.net/lpxqPdyPrIV2llM6cvE3HVdhZAse.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6513a96e50cf691d24c008bf?utm_source=rss",
+          "pubDate": "2023-09-27",
+          "duration": 3066
+        },
+        {
+          "id": "DSL20230831",
+          "title": "5-现在还适合出国留学吗？",
+          "guid": "64f01805e490c5dee5f24ac1",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/64f01805e490c5dee5f24ac1/media.xyzcdn.net/ls_WYWrk92fFR7n7OvsfVqrQ-1qd.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/64f01805e490c5dee5f24ac1?utm_source=rss",
+          "pubDate": "2023-08-31",
+          "duration": 2415
+        },
+        {
+          "id": "DSL20230817",
+          "title": "4- 哲人与猫：猫咪在哲学思想中的意义",
+          "guid": "64de43523fa4090b748c1068",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/64de43523fa4090b748c1068/media.xyzcdn.net/lhyAhjxX7Ip_JFksM-zxZNc12Yaz.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/64de43523fa4090b748c1068?utm_source=rss",
+          "pubDate": "2023-08-17",
+          "duration": 2468
+        },
+        {
+          "id": "DSL20230804",
+          "title": "3- 成年人如何继续保持阅读和思考？我和犯人、军人和农民一起读哲学的经历",
+          "guid": "64cce01be490c5dee5911a75",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/64cce01be490c5dee5911a75/media.xyzcdn.net/ljcs_2FgquUCym5pYH5UFS5poyQ6.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/64cce01be490c5dee5911a75?utm_source=rss",
+          "pubDate": "2023-08-04",
+          "duration": 2604
+        },
+        {
+          "id": "DSL20230728",
+          "title": "2- 哲学家可以结婚生小孩吗？从芭比聊到尼采和苏格拉底",
+          "guid": "64c3c9b8e8176c3ff8eec9a6",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/64c3c9b8e8176c3ff8eec9a6/media.xyzcdn.net/lgrFci1JHsh1RYCx_YEp6fg3a7Mh.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/64c3c9b8e8176c3ff8eec9a6?utm_source=rss",
+          "pubDate": "2023-07-28",
+          "duration": 2399
+        },
+        {
+          "id": "DSL20230718",
+          "title": "1-我的政治启蒙：参加秘鲁总统宣誓典礼和亲身经历他的被弹劾、倒台和软禁",
+          "guid": "64b6980a32fb5cf4c94c775a",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/64b6980a32fb5cf4c94c775a/media.xyzcdn.net/lrqgVgQ_bOLfJMWPj77yu__RlHPG.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/64b6980a32fb5cf4c94c775a?utm_source=rss",
+          "pubDate": "2023-07-18",
+          "duration": 2281
+        },
+        {
+          "id": "DSL20230718-2",
+          "title": "0-播客介绍",
+          "guid": "64b69679d0844ea812ecd92f",
+          "mp3": "https://dts-api.xiaoyuzhoufm.com/track/64acd33c7a3d479103fbd32d/64b69679d0844ea812ecd92f/media.xyzcdn.net/lg1v6bS5rTx7RoYRQXwdZH4DAkKh.m4a",
+          "link": "https://www.xiaoyuzhoufm.com/episode/64b69679d0844ea812ecd92f?utm_source=rss",
+          "pubDate": "2023-07-18",
+          "duration": 448
         }
       ]
     }

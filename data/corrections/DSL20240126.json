@@ -1,0 +1,546 @@
+{
+  "episode": "DSL20240126",
+  "fullyReviewed": true,
+  "fullyReviewedAt": "2026-10-16",
+  "fixes": [
+    {
+      "cueIndex": 192,
+      "before": "P aris",
+      "after": "Paris",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 193,
+      "before": "P aris",
+      "after": "Paris",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 270,
+      "before": "Ac ad",
+      "after": "Acad",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 273,
+      "before": "Ac ad",
+      "after": "Acad",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 275,
+      "before": "Ac ad",
+      "after": "Acad",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 285,
+      "before": "ein w",
+      "after": "einw",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 285,
+      "before": "w ander",
+      "after": "wander",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 285,
+      "before": "ander ung",
+      "after": "anderung",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 286,
+      "before": "w ander",
+      "after": "wander",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 286,
+      "before": "e in",
+      "after": "ein",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 286,
+      "before": "ander ung",
+      "after": "anderung",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 287,
+      "before": "w ander",
+      "after": "wander",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 287,
+      "before": "ander ung",
+      "after": "anderung",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 288,
+      "before": "ein w",
+      "after": "einw",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 288,
+      "before": "w ander",
+      "after": "wander",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 290,
+      "before": "ein w",
+      "after": "einw",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 290,
+      "before": "w ander",
+      "after": "wander",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 303,
+      "before": "the the",
+      "after": "thethe",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 304,
+      "before": "J ob",
+      "after": "Job",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 308,
+      "before": "P oss",
+      "after": "Poss",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 308,
+      "before": "oss ibility",
+      "after": "ossibility",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 308,
+      "before": "oss ibil",
+      "after": "ossibil",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 317,
+      "before": "Ac ad",
+      "after": "Acad",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 356,
+      "before": "Cape C",
+      "after": "CapeC",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 356,
+      "before": "C od",
+      "after": "Cod",
+      "source": "glue-bug",
+      "reason": "AssemblyAI split one Latin word/acronym into fragments; joined back together.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 32,
+      "before": "明龙少年",
+      "after": "鸣龙少年",
+      "source": "llm-review",
+      "reason": "Show notes name the TV drama 《鸣龙少年》 (张若昀, 2023); 明 is a homophone mis-hearing.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 34,
+      "before": "明龙少年",
+      "after": "鸣龙少年",
+      "source": "llm-review",
+      "reason": "Show notes name the TV drama 《鸣龙少年》; homophone.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 40,
+      "before": "明龙少年",
+      "after": "鸣龙少年",
+      "source": "llm-review",
+      "reason": "Show notes name the TV drama 《鸣龙少年》; homophone.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 42,
+      "before": "插生",
+      "after": "差生",
+      "source": "llm-review",
+      "reason": "插生 is not a word; the drama is about 差生 (sentence 37), a phonetic step away.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 59,
+      "before": "还是有获得",
+      "after": "还是又获得",
+      "source": "llm-review",
+      "reason": "有/又 homophones; 有获得了 is ungrammatical, 又获得了 (also gained) fits; turbo hears 又.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 69,
+      "before": "明龙少年",
+      "after": "鸣龙少年",
+      "source": "llm-review",
+      "reason": "The TV drama 《鸣龙少年》 (show notes); homophone.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 88,
+      "before": "那边几个",
+      "after": "那么几个",
+      "source": "llm-review",
+      "reason": "Both large models hear na-me(n), not nàbiān (turbo 那么, v3 那们); 那么几个翻来覆去 is the idiom.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 99,
+      "before": "我懂个人",
+      "after": "某种个人",
+      "source": "llm-review",
+      "reason": "whisper large-v3 and turbo (unprompted) both hear 获得某种个人优越感; 我懂 does not fit.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 107,
+      "before": "带播客",
+      "after": "在播客",
+      "source": "llm-review",
+      "reason": "whisper large-v3 and turbo all hear 在播客的一开始; 带播客 does not parse.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 168,
+      "before": "像苦。",
+      "after": "像苦工。",
+      "source": "llm-review",
+      "reason": "whisper large-v3 and turbo all four runs hear 就是像苦工 (the ASR dropped 工); 苦工/苦功 sound alike, 像 + noun 苦工 is the reading that parses.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 171,
+      "before": "凿笔透光",
+      "after": "凿壁偷光",
+      "source": "llm-review",
+      "reason": "The idiom is 凿壁偷光 (studying by stolen light); exact homophone.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 211,
+      "before": "悬梁刺骨",
+      "after": "悬梁刺股",
+      "source": "llm-review",
+      "reason": "The idiom is 悬梁刺股; 刺骨 is a homophone.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 228,
+      "before": "M id dle bury",
+      "after": "Middlebury",
+      "source": "llm-review",
+      "reason": "One word split into 4 fragments (明德 = Middlebury College language schools).",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 228,
+      "before": "下校",
+      "after": "夏校",
+      "source": "llm-review",
+      "reason": "下校 is not a word; 夏校 (summer school) is the exact homophone and matches 暑期.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 231,
+      "before": "拜了三个月",
+      "after": "待了三个月",
+      "source": "llm-review",
+      "reason": "whisper large-v3 and turbo all hear 待了三个月; matches sentence 227 (学校待了三个月).",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 270,
+      "before": "Acad émie",
+      "after": "Académie",
+      "source": "llm-review",
+      "reason": "One word split into fragments (Académie).",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 273,
+      "before": "Acad émie",
+      "after": "Académie",
+      "source": "llm-review",
+      "reason": "One word split into fragments (Académie).",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 275,
+      "before": "Acad émie",
+      "after": "Académie",
+      "source": "llm-review",
+      "reason": "One word split into fragments (Académie).",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 288,
+      "before": "einwander er",
+      "after": "einwanderer",
+      "source": "llm-review",
+      "reason": "One German word split into fragments; joined as heard (see flag).",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 290,
+      "before": "einwander er",
+      "after": "einwanderer",
+      "source": "llm-review",
+      "reason": "One German word split into fragments; joined as heard (see flag).",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 295,
+      "before": "I 'm from the long",
+      "after": "einwanderung",
+      "source": "llm-review",
+      "reason": "Garbled German: parallel to sentence 290 (不说 einwander…，说 immigration); v3 hears Einfrauendung, turbo Iain von der Lund, i.e. Ein-…-ung.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 295,
+      "before": "I 'm a question",
+      "after": "immigration",
+      "source": "llm-review",
+      "reason": "whisper large-v3 and turbo (unprompted) both hear Immigration/Emigration; parallel to sentences 290-293.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 303,
+      "before": "thethe",
+      "after": "the the",
+      "source": "llm-review",
+      "reason": "The glue pass fused two separate words; kept apart.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 307,
+      "before": "M öglich keit",
+      "after": "Möglichkeit",
+      "source": "llm-review",
+      "reason": "One German word split into fragments.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 307,
+      "before": "可能性P",
+      "after": "可能性",
+      "source": "llm-review",
+      "reason": "Possibility was split across the sentence boundary (P | ossibility); the P moves to sentence 308.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 308,
+      "before": "ossibility用",
+      "after": "Possibility用",
+      "source": "llm-review",
+      "reason": "Possibility was split across the sentence boundary; P restored from sentence 307.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 308,
+      "before": "Possibil ität",
+      "after": "Possibilität",
+      "source": "llm-review",
+      "reason": "One word split into fragments.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 317,
+      "before": "Acad emy",
+      "after": "Academy",
+      "source": "llm-review",
+      "reason": "One word split into fragments.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 321,
+      "before": "悬梁刺骨",
+      "after": "悬梁刺股",
+      "source": "llm-review",
+      "reason": "The idiom is 悬梁刺股; 刺骨 is a homophone.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 335,
+      "before": "Let 's",
+      "after": "Let's",
+      "source": "llm-review",
+      "reason": "Contraction split into two tokens.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 339,
+      "before": "let 's",
+      "after": "let's",
+      "source": "llm-review",
+      "reason": "Contraction split into two tokens.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 352,
+      "before": "心里已经成熟",
+      "after": "心理已经成熟",
+      "source": "llm-review",
+      "reason": "心里/心理 homophones; 心理成熟 (psychologically mature) is the collocation.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 356,
+      "before": "CapeCod",
+      "after": "Cape Cod",
+      "source": "llm-review",
+      "reason": "The glue pass fused a two-word place name; kept apart.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 356,
+      "before": "N ant uck et",
+      "after": "Nantucket",
+      "source": "llm-review",
+      "reason": "One place name split into 4 fragments.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 377,
+      "before": "一国他乡",
+      "after": "异国他乡",
+      "source": "llm-review",
+      "reason": "The idiom is 异国他乡; 一国 is a near-homophone.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 438,
+      "before": "名龙少年",
+      "after": "鸣龙少年",
+      "source": "llm-review",
+      "reason": "The TV drama 《鸣龙少年》 (show notes); homophone.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 475,
+      "before": "公园前",
+      "after": "公元前",
+      "source": "llm-review",
+      "reason": "Exact homophone; the ancient-Greek world is 公元前 (BC), 公园前 makes no sense.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 482,
+      "before": "剧播",
+      "after": "这期播客",
+      "source": "llm-review",
+      "reason": "whisper large-v3 and turbo all hear 今天(的)这期播客就到这里吧; 剧播 is not a word.",
+      "appliedAt": "2026-10-16"
+    },
+    {
+      "cueIndex": 0,
+      "before": "读书不成龄",
+      "after": "独树不成林",
+      "source": "known-phrase",
+      "reason": "Matches a known recurring mistake in the show's fixed script (scripts/known-fixes.json).",
+      "appliedAt": "2026-10-16"
+    }
+  ],
+  "flagged": [
+    {
+      "cueIndex": 288,
+      "text": "那个你一听到这个einwanderer，你就会立刻在脑海中浮现出一幅画，",
+      "reason": "ASR hears einwander+er (Einwanderer, immigrant) here and in 290; large-v3 hears Einwanderung in 290 (the word of 285-287), turbo unclear (I'm wondering / 爱因防得罗). Kept the ASR ending."
+    },
+    {
+      "cueIndex": 302,
+      "text": "就比如说，当他们在说工作的时候，他们可以不说呃the Beruf、",
+      "reason": "ASR and whisper both write English \"the\" before Beruf, Arbeit (303) and Job (303); she likely says German der/die, but nothing settles which. Kept \"the\"."
+    },
+    {
+      "cueIndex": 343,
+      "text": "现在成熟了一点之后，就有点大不楞、大别扭的无所谓了。",
+      "reason": "Garbled: v3 hears 大别叠, turbo 大不能大别叠; the sense wants something like 大大咧咧 (carefree), but no hearing gives it."
+    },
+    {
+      "cueIndex": 462,
+      "text": "挪着挪着，就像延期熟练任何一门语言一样，你开始理解了。",
+      "reason": "延期 does not fit; v3 hears 演习, turbo 延期. Unresolved (she is reading her 2016 Zhihu answer; the text could not be found online)."
+    },
+    {
+      "cueIndex": 478,
+      "text": "你欲读就走的预言，在你学习这门语言的头五年里，",
+      "reason": "Garbled: v3 欲读/一读就走的预言, turbo 预读就走的预言. Unresolved."
+    }
+  ]
+}

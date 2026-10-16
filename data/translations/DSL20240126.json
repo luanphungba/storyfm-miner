@@ -1,0 +1,6387 @@
+{
+  "episode": "DSL20240126",
+  "summary": [
+    "Đây là một tập của podcast \"Độc Thụ Bất Thành Lâm\" (独树不成林), chỉ có một mình chủ kênh nói. Cô là nghiên cứu sinh tiến sĩ, đang dạy đại học ở Mỹ; năm 15 tuổi cô sang Mỹ học trường nội trú, tự học tiếng Anh tới mức giỏi hơn cả tiếng Trung, ngoài ra còn học tiếng Latin, Hy Lạp cổ, Pháp, Ả Rập và Đức. Ngay phút đầu cô nói luôn \"bí quyết\" duy nhất: tắt podcast đi và khổ luyện (下苦功). Rồi cô chê phim \"Minh Long Thiếu Niên\" và cảnh Đoàn Dự trong \"Thiên Long Bát Bộ\" tự dưng có võ công: học thật thì không có bí kíp, và học ngoại ngữ cũng theo logic như ôn thi đại học.",
+    "Cô chế giễu những dân mạng Trung Quốc hay cười giọng người khác khi nói ngoại ngữ, rồi kể chuyện học tiếng Anh hồi cấp hai: dậy 5 giờ sáng chép từ vựng ra giấy, nghe băng nhép miệng, tự nói bài văn với không khí, cuối tuần thuê một người Mỹ nói chuyện; sau này thi TOEFL được 106 rồi 115. Cô phê phán kiểu \"học vui\" (快乐学习) ở Mỹ: hai năm học tiếng Pháp hỏng, bạn cùng phòng giỏi tiếng Pháp nhờ nhà có nhà nghỉ dưỡng ở miền Nam nước Pháp, còn cô sau ba tháng ở trường hè Middlebury, mới học tiếng Ả Rập một năm đã nói giỏi hơn sinh viên chuyên ngành năm tư. Cô cũng tiếc rằng tiếng Đức bị tiếng Anh xâm thực vì không có cơ quan nào như Viện Hàn lâm Pháp giữ gìn.",
+    "Dù TOEFL cao, năm đầu ở Mỹ cô vẫn \"câm\" suốt một năm và cố hòa vào văn hóa người da trắng; cô cho rằng nói một ngoại ngữ là nói cả một nền văn hóa, còn có hòa vào hay không là lựa chọn của mỗi người. Phần sau nói về việc giữ ngôn ngữ: chính podcast này là cách cô giữ tiếng Trung, còn những học giả \"thạo bảy tám thứ tiếng\" phần lớn chỉ đọc được tài liệu. Cuối tập cô đọc lại câu trả lời mình viết trên Zhihu năm 2016, lúc 19 tuổi, về cảm giác đọc được tiếng Hy Lạp cổ."
+  ],
+  "sentences": {
+    "0": {
+      "zh": "大家好，欢迎来到独树不成林。",
+      "vi": "Chào mọi người, chào mừng đến với Độc Thụ Bất Thành Lâm."
+    },
+    "1": {
+      "zh": "今天我们讲的话题是我最不想讲的一个话题，但是又是被要求最多的一期。",
+      "parts": [
+        {
+          "zh": "今天我们讲的话题",
+          "vi": "Chủ đề hôm nay chúng ta nói"
+        },
+        {
+          "zh": "是我最不想讲的一个话题，",
+          "vi": "là chủ đề tôi ít muốn nói nhất,"
+        },
+        {
+          "zh": "但是又是被要求最多的一期。",
+          "vi": "nhưng lại là tập được yêu cầu nhiều nhất."
+        }
+      ]
+    },
+    "2": {
+      "zh": "之所以我不想讲，是因为对我来说这是最无聊的话题，我只能够给跟大家进行一个说教式的讨论。",
+      "parts": [
+        {
+          "zh": "之所以我不想讲，是因为对我来说",
+          "vi": "Sở dĩ tôi không muốn nói, là vì với tôi"
+        },
+        {
+          "zh": "这是最无聊的话题，",
+          "vi": "đây là chủ đề nhạt nhẽo nhất,"
+        },
+        {
+          "zh": "我只能够给跟大家",
+          "vi": "tôi chỉ có thể cùng mọi người"
+        },
+        {
+          "zh": "进行一个说教式的讨论。",
+          "vi": "thảo luận kiểu lên lớp dạy đời."
+        }
+      ]
+    },
+    "3": {
+      "zh": "我甚至直接很想直接给点开这期播客想要获得学习外语见解的人两个大耳瓜子，",
+      "parts": [
+        {
+          "zh": "我甚至直接很想直接给",
+          "vi": "Tôi thậm chí rất muốn thẳng tay tặng"
+        },
+        {
+          "zh": "点开这期播客",
+          "vi": "những ai bấm vào tập podcast này"
+        },
+        {
+          "zh": "想要获得学习外语见解的人",
+          "vi": "mong tìm cao kiến về học ngoại ngữ"
+        },
+        {
+          "zh": "两个大耳瓜子，",
+          "vi": "hai cái bạt tai thật kêu,"
+        }
+      ]
+    },
+    "4": {
+      "zh": "在你的内心深处，其实你一直都知道要如何学习外语。",
+      "parts": [
+        {
+          "zh": "在你的内心深处，",
+          "vi": "Tận sâu trong lòng,"
+        },
+        {
+          "zh": "其实你一直都知道要如何学习外语。",
+          "vi": "thật ra bạn vẫn luôn biết phải học ngoại ngữ thế nào."
+        }
+      ]
+    },
+    "5": {
+      "zh": "学习外语只有一个途径，那就是关掉这期播客，立刻打开你的单词书或者课本开始学习。",
+      "parts": [
+        {
+          "zh": "学习外语只有一个途径，",
+          "vi": "Học ngoại ngữ chỉ có một con đường,"
+        },
+        {
+          "zh": "那就是关掉这期播客，",
+          "vi": "đó là tắt tập podcast này đi,"
+        },
+        {
+          "zh": "立刻打开你的单词书",
+          "vi": "lập tức mở sổ từ vựng"
+        },
+        {
+          "zh": "或者课本开始学习。",
+          "vi": "hay sách giáo khoa ra mà học."
+        }
+      ]
+    },
+    "6": {
+      "zh": "下苦功是学习外语的唯一一个方法。",
+      "vi": "Khổ luyện (下苦功) là cách duy nhất để học ngoại ngữ."
+    },
+    "7": {
+      "zh": "也是唯一一条捷径。",
+      "vi": "Cũng là lối tắt duy nhất."
+    },
+    "8": {
+      "zh": "不管你是通过不花钱的方法下苦功，一个人关在房子里苦学，还是通过有钱人的方法下苦功，",
+      "parts": [
+        {
+          "zh": "不管你是通过不花钱的方法下苦功，",
+          "vi": "Dù bạn khổ luyện theo cách không tốn tiền,"
+        },
+        {
+          "zh": "一个人关在房子里苦学，",
+          "vi": "một mình nhốt mình trong phòng mà khổ học,"
+        },
+        {
+          "zh": "还是通过有钱人的方法下苦功，",
+          "vi": "hay khổ luyện theo cách của người giàu,"
+        }
+      ]
+    },
+    "9": {
+      "zh": "可以雇一个人来陪你苦学，你甚至可以飞到那个国家去进行沉浸式苦学。",
+      "parts": [
+        {
+          "zh": "可以雇一个人来陪你苦学，",
+          "vi": "có thể thuê một người ngồi khổ học cùng bạn,"
+        },
+        {
+          "zh": "你甚至可以飞到那个国家",
+          "vi": "thậm chí bạn có thể bay sang nước đó"
+        },
+        {
+          "zh": "去进行沉浸式苦学。",
+          "vi": "để khổ học kiểu ngâm mình trong môi trường."
+        }
+      ]
+    },
+    "10": {
+      "zh": "学习外语并且维持外语只有这一个途径。",
+      "parts": [
+        {
+          "zh": "学习外语并且维持外语",
+          "vi": "Học ngoại ngữ và giữ được ngoại ngữ"
+        },
+        {
+          "zh": "只有这一个途径。",
+          "vi": "chỉ có đúng con đường này."
+        }
+      ]
+    },
+    "11": {
+      "zh": "OK，这期播客的重要内容都已经讲完了，下面就是一个纯粹。唠嗑部分，很多人想要让我来讲这个话题，",
+      "parts": [
+        {
+          "zh": "OK，这期播客的重要内容",
+          "vi": "OK, nội dung quan trọng của tập này"
+        },
+        {
+          "zh": "都已经讲完了，",
+          "vi": "đã nói xong rồi,"
+        },
+        {
+          "zh": "下面就是一个纯粹。唠嗑部分，",
+          "vi": "phần sau hoàn toàn là tán gẫu thôi,"
+        },
+        {
+          "zh": "很多人想要让我来讲这个话题，",
+          "vi": "nhiều người muốn tôi nói về chủ đề này,"
+        }
+      ]
+    },
+    "13": {
+      "zh": "就是因为大家想要从一个真的学过很多外语的人身上获得一些秘籍。",
+      "parts": [
+        {
+          "zh": "就是因为大家想要",
+          "vi": "chính là vì mọi người muốn"
+        },
+        {
+          "zh": "从一个真的学过很多外语的人身上",
+          "vi": "từ một người thật sự đã học nhiều ngoại ngữ"
+        },
+        {
+          "zh": "获得一些秘籍。",
+          "vi": "lấy được vài bí kíp."
+        }
+      ]
+    },
+    "14": {
+      "zh": "我是通过纯自学的方式把英语学到了母语水平，我的英文程度水平其实已经超过了我的中文水平。",
+      "parts": [
+        {
+          "zh": "我是通过纯自学的方式",
+          "vi": "Tôi hoàn toàn tự học"
+        },
+        {
+          "zh": "把英语学到了母语水平，",
+          "vi": "mà đưa tiếng Anh lên trình độ bản ngữ,"
+        },
+        {
+          "zh": "我的英文程度水平",
+          "vi": "trình độ tiếng Anh của tôi"
+        },
+        {
+          "zh": "其实已经超过了我的中文水平。",
+          "vi": "thật ra đã vượt cả tiếng Trung của tôi."
+        }
+      ]
+    },
+    "15": {
+      "zh": "这件事情可以从两个方面体现：第一件事就是我用英语怼美国人的伶牙俐齿。",
+      "parts": [
+        {
+          "zh": "这件事情可以从两个方面体现：",
+          "vi": "Điều này thể hiện ở hai mặt:"
+        },
+        {
+          "zh": "第一件事就是",
+          "vi": "thứ nhất là"
+        },
+        {
+          "zh": "我用英语怼美国人的伶牙俐齿。",
+          "vi": "cái miệng lưỡi sắc bén khi tôi dùng tiếng Anh đốp lại người Mỹ"
+        }
+      ]
+    },
+    "16": {
+      "zh": "要远超过我用中文跟人吵架的伶牙俐齿。",
+      "parts": [
+        {
+          "zh": "要远超过我用中文",
+          "vi": "còn hơn xa lúc tôi dùng tiếng Trung"
+        },
+        {
+          "zh": "跟人吵架的伶牙俐齿。",
+          "vi": "cãi nhau với người ta."
+        }
+      ]
+    },
+    "17": {
+      "zh": "第二件事就是，我在大学课堂上是可以用英文去教书，来传达我的研究，",
+      "parts": [
+        {
+          "zh": "第二件事就是，我在大学课堂上",
+          "vi": "Thứ hai là, trên giảng đường đại học"
+        },
+        {
+          "zh": "是可以用英文去教书，",
+          "vi": "tôi có thể dùng tiếng Anh để dạy,"
+        },
+        {
+          "zh": "来传达我的研究，",
+          "vi": "để truyền đạt nghiên cứu của mình,"
+        }
+      ]
+    },
+    "18": {
+      "zh": "或者是在学术会议上用英文去阐释我的观点，但是我没有办法用中文去描述我的研究。",
+      "parts": [
+        {
+          "zh": "或者是在学术会议上",
+          "vi": "hoặc ở hội thảo học thuật"
+        },
+        {
+          "zh": "用英文去阐释我的观点，",
+          "vi": "dùng tiếng Anh trình bày quan điểm của mình,"
+        },
+        {
+          "zh": "但是我没有办法",
+          "vi": "nhưng tôi không có cách nào"
+        },
+        {
+          "zh": "用中文去描述我的研究。",
+          "vi": "dùng tiếng Trung để mô tả nghiên cứu của mình."
+        }
+      ]
+    },
+    "19": {
+      "zh": "我不知道你们听我讲播客的时候有没有发现我的一些语句的语序是。有一点奇怪，那是因为我的脑海中浮现的第一语言现在其实是英文，而不是中文。",
+      "parts": [
+        {
+          "zh": "我不知道你们听我讲播客的时候",
+          "vi": "Không biết lúc nghe tôi nói podcast"
+        },
+        {
+          "zh": "有没有发现",
+          "vi": "các bạn có nhận ra"
+        },
+        {
+          "zh": "我的一些语句的语序是。有一点奇怪，",
+          "vi": "trật tự câu của tôi đôi khi hơi kỳ lạ không,"
+        },
+        {
+          "zh": "那是因为我的脑海中",
+          "vi": "đó là vì trong đầu tôi"
+        },
+        {
+          "zh": "浮现的第一语言",
+          "vi": "ngôn ngữ hiện lên đầu tiên"
+        },
+        {
+          "zh": "现在其实是英文，而不是中文。",
+          "vi": "bây giờ thật ra là tiếng Anh, chứ không phải tiếng Trung."
+        }
+      ]
+    },
+    "21": {
+      "zh": "除了英文以外呢，大家知道，呃，美国的高中不是三年，而是四年。",
+      "parts": [
+        {
+          "zh": "除了英文以外呢，大家知道，",
+          "vi": "Ngoài tiếng Anh ra thì, mọi người biết đấy,"
+        },
+        {
+          "zh": "呃，美国的高中不是三年，而是四年。",
+          "vi": "ờ, cấp ba ở Mỹ không phải ba năm, mà là bốn năm."
+        }
+      ]
+    },
+    "22": {
+      "zh": "在高中四年里，我还学了四年的拉丁语和希腊语，学了两年的法语。",
+      "parts": [
+        {
+          "zh": "在高中四年里，",
+          "vi": "Trong bốn năm cấp ba,"
+        },
+        {
+          "zh": "我还学了四年的拉丁语和希腊语，",
+          "vi": "tôi còn học bốn năm tiếng Latin và tiếng Hy Lạp,"
+        },
+        {
+          "zh": "学了两年的法语。",
+          "vi": "học hai năm tiếng Pháp."
+        }
+      ]
+    },
+    "23": {
+      "zh": "我的拉丁语当时考的，在美国的那个大学入门考试（AP拉丁考试）是拿的满分。",
+      "parts": [
+        {
+          "zh": "我的拉丁语当时考的，",
+          "vi": "Tiếng Latin của tôi hồi đó thi,"
+        },
+        {
+          "zh": "在美国的那个大学入门考试",
+          "vi": "cái kỳ thi đầu vào đại học ở Mỹ ấy"
+        },
+        {
+          "zh": "（AP拉丁考试）是拿的满分。",
+          "vi": "(kỳ thi AP Latin), là được điểm tối đa."
+        }
+      ]
+    },
+    "24": {
+      "zh": "在大学期间，我学了四年的阿拉伯语。",
+      "vi": "Hồi đại học, tôi học bốn năm tiếng Ả Rập."
+    },
+    "25": {
+      "zh": "然后现在大学毕业开始读博士之后，我又学了三四年的法语哦，说错了德语。",
+      "parts": [
+        {
+          "zh": "然后现在大学毕业开始读博士之后，",
+          "vi": "Rồi giờ tốt nghiệp đại học, bắt đầu học tiến sĩ,"
+        },
+        {
+          "zh": "我又学了三四年的法语哦，",
+          "vi": "tôi lại học thêm ba bốn năm tiếng Pháp, ồ,"
+        },
+        {
+          "zh": "说错了德语。",
+          "vi": "nói nhầm, tiếng Đức."
+        }
+      ]
+    },
+    "26": {
+      "zh": "我现在的德语水平肯定有点退步了，但是在一年前是考了C一的水平，",
+      "parts": [
+        {
+          "zh": "我现在的德语水平肯定有点退步了，",
+          "vi": "Tiếng Đức của tôi bây giờ chắc chắn hơi đi xuống rồi,"
+        },
+        {
+          "zh": "但是在一年前是考了C一的水平，",
+          "vi": "nhưng một năm trước đã thi đạt trình độ C1,"
+        }
+      ]
+    },
+    "27": {
+      "zh": "因为C二就是接近母语了，所以说C一算是一个比较高的德语水平。",
+      "parts": [
+        {
+          "zh": "因为C二就是接近母语了，",
+          "vi": "vì C2 là gần như bản ngữ rồi,"
+        },
+        {
+          "zh": "所以说C一",
+          "vi": "nên C1"
+        },
+        {
+          "zh": "算是一个比较高的德语水平。",
+          "vi": "coi như là trình độ tiếng Đức khá cao."
+        }
+      ]
+    },
+    "28": {
+      "zh": "今天接下来这期播客，我更想。向大家分享的是语言学习过程中我的心得，我没有办法给大家提供任何秘籍。",
+      "parts": [
+        {
+          "zh": "今天接下来这期播客，",
+          "vi": "Tập podcast hôm nay, tiếp theo đây,"
+        },
+        {
+          "zh": "我更想。向大家分享的是",
+          "vi": "điều tôi muốn chia sẻ với mọi người hơn"
+        },
+        {
+          "zh": "语言学习过程中我的心得，",
+          "vi": "là những gì tôi rút ra trong quá trình học ngôn ngữ,"
+        },
+        {
+          "zh": "我没有办法给大家提供任何秘籍。",
+          "vi": "tôi không thể cho mọi người bí kíp nào cả."
+        }
+      ]
+    },
+    "30": {
+      "zh": "我甚至觉得，所以所有宣称能够给你提供秘籍的人，都只是为了赚钱在骗你。",
+      "parts": [
+        {
+          "zh": "我甚至觉得，所以",
+          "vi": "Tôi thậm chí thấy rằng, nên"
+        },
+        {
+          "zh": "所有宣称能够给你提供秘籍的人，",
+          "vi": "tất cả những ai tuyên bố có bí kíp cho bạn"
+        },
+        {
+          "zh": "都只是为了赚钱在骗你。",
+          "vi": "đều chỉ đang lừa bạn để kiếm tiền."
+        }
+      ]
+    },
+    "31": {
+      "zh": "学习就像我一开始说的一样，只有一个途径，那就是下苦功。",
+      "parts": [
+        {
+          "zh": "学习就像我一开始说的一样，",
+          "vi": "Học, như tôi nói từ đầu,"
+        },
+        {
+          "zh": "只有一个途径，那就是下苦功。",
+          "vi": "chỉ có một con đường, đó là khổ luyện."
+        }
+      ]
+    },
+    "32": {
+      "zh": "这件事儿让我想到了前不久有一个电视剧叫做《鸣龙少年》，在热播的时候。",
+      "parts": [
+        {
+          "zh": "这件事儿让我想到了",
+          "vi": "Chuyện này làm tôi nhớ tới"
+        },
+        {
+          "zh": "前不久有一个电视剧叫做《鸣龙少年》，",
+          "vi": "cách đây không lâu có bộ phim tên \"Minh Long Thiếu Niên\","
+        },
+        {
+          "zh": "在热播的时候。",
+          "vi": "lúc nó đang hot."
+        }
+      ]
+    },
+    "33": {
+      "zh": "我跟我的一个好哥们儿在一起追剧，我跟他吐槽说的一番话。",
+      "parts": [
+        {
+          "zh": "我跟我的一个好哥们儿在一起追剧，",
+          "vi": "Tôi với một ông bạn thân cùng cày phim,"
+        },
+        {
+          "zh": "我跟他吐槽说的一番话。",
+          "vi": "những lời tôi cằn nhằn với cậu ấy."
+        }
+      ]
+    },
+    "34": {
+      "zh": "我不知道大家有没有看过《鸣龙少年》啊？",
+      "parts": [
+        {
+          "zh": "我不知道大家",
+          "vi": "Không biết mọi người"
+        },
+        {
+          "zh": "有没有看过《鸣龙少年》啊？",
+          "vi": "đã xem \"Minh Long Thiếu Niên\" chưa nhỉ?"
+        }
+      ]
+    },
+    "35": {
+      "zh": "这个电视剧它是张若昀演的吧？",
+      "vi": "Phim này là Trương Nhược Quân đóng phải không?"
+    },
+    "36": {
+      "zh": "应该是在一个月之前完结。",
+      "vi": "Chắc là đã chiếu hết từ một tháng trước."
+    },
+    "37": {
+      "zh": "它的主要剧情就是说这个班主任张若昀演的这个班主任带着一帮差生要逆袭上清北这个故事，",
+      "parts": [
+        {
+          "zh": "它的主要剧情就是说",
+          "vi": "Cốt truyện chính là"
+        },
+        {
+          "zh": "这个班主任张若昀演的",
+          "vi": "ông giáo viên chủ nhiệm do Trương Nhược Quân đóng"
+        },
+        {
+          "zh": "这个班主任带着一帮差生",
+          "vi": "dẫn một đám học sinh kém"
+        },
+        {
+          "zh": "要逆袭上清北这个故事，",
+          "vi": "lội ngược dòng đỗ Thanh Hoa, Bắc Đại,"
+        }
+      ]
+    },
+    "38": {
+      "zh": "一年逆袭上清北。",
+      "vi": "Một năm lội ngược dòng đỗ Thanh Hoa, Bắc Đại."
+    },
+    "39": {
+      "zh": "呃，因为跟我一起追剧的那个好朋友他也是裸分上。的北大分数线最高的一个系之一吧，所以说，嗯，当时在《鸣龙少年》里面，",
+      "parts": [
+        {
+          "zh": "呃，因为跟我一起追剧的那个好朋友",
+          "vi": "Ờ, vì người bạn cùng xem phim với tôi"
+        },
+        {
+          "zh": "他也是裸分上。的北大",
+          "vi": "cũng thi bằng điểm thô, không cộng điểm, mà đỗ vào Bắc Đại,"
+        },
+        {
+          "zh": "分数线最高的一个系之一吧，",
+          "vi": "một trong những khoa có điểm chuẩn cao nhất ấy,"
+        },
+        {
+          "zh": "所以说，嗯，当时在《鸣龙少年》里面，",
+          "vi": "nên, ừm, lúc trong \"Minh Long Thiếu Niên\","
+        }
+      ]
+    },
+    "41": {
+      "zh": "他们在那里搞那些什么神神叨叨的什么围着树转啊，什么树状图思考啊，",
+      "parts": [
+        {
+          "zh": "他们在那里搞那些",
+          "vi": "họ bày ra mấy trò"
+        },
+        {
+          "zh": "什么神神叨叨的什么围着树转啊，",
+          "vi": "thần thần bí bí kiểu đi vòng quanh cái cây,"
+        },
+        {
+          "zh": "什么树状图思考啊，",
+          "vi": "kiểu tư duy bằng sơ đồ cây,"
+        }
+      ]
+    },
+    "42": {
+      "zh": "什么差生学习秘籍的时候，",
+      "vi": "kiểu bí kíp học tập cho học sinh kém,"
+    },
+    "43": {
+      "zh": "用一些用一些有意思的小故事来让知识偷偷进入你的大脑这种剧情的时候，我哥们儿跟我说，",
+      "parts": [
+        {
+          "zh": "用一些用一些有意思的小故事",
+          "vi": "dùng, dùng mấy câu chuyện nhỏ thú vị"
+        },
+        {
+          "zh": "来让知识偷偷进入你的大脑",
+          "vi": "để kiến thức lén lút chui vào đầu bạn,"
+        },
+        {
+          "zh": "这种剧情的时候，我哥们儿跟我说，",
+          "vi": "tới mấy cảnh như thế, ông bạn tôi bảo tôi:"
+        }
+      ]
+    },
+    "44": {
+      "zh": "这剧里面所谓的。创新教学法，比如说身体记忆法，其实效率都很低呀。",
+      "parts": [
+        {
+          "zh": "这剧里面所谓的。创新教学法，",
+          "vi": "Cái gọi là phương pháp dạy học sáng tạo trong phim,"
+        },
+        {
+          "zh": "比如说身体记忆法，",
+          "vi": "ví dụ phương pháp ghi nhớ bằng cơ thể,"
+        },
+        {
+          "zh": "其实效率都很低呀。",
+          "vi": "thật ra hiệu quả đều rất thấp."
+        }
+      ]
+    },
+    "46": {
+      "zh": "然后，嗯，他跟我说的时候，我就在跟他吐槽嘛，我就说看这个电视的时候，",
+      "parts": [
+        {
+          "zh": "然后，嗯，他跟我说的时候，",
+          "vi": "Rồi, ừm, lúc cậu ấy nói với tôi,"
+        },
+        {
+          "zh": "我就在跟他吐槽嘛，",
+          "vi": "tôi đang cằn nhằn với cậu ấy mà,"
+        },
+        {
+          "zh": "我就说看这个电视的时候，",
+          "vi": "tôi bảo xem phim này,"
+        }
+      ]
+    },
+    "47": {
+      "zh": "对我来说就好像看到一群不会学习的人在意淫学霸是怎么学习的，",
+      "parts": [
+        {
+          "zh": "对我来说就好像",
+          "vi": "với tôi cứ như là"
+        },
+        {
+          "zh": "看到一群不会学习的人",
+          "vi": "nhìn một đám người không biết cách học"
+        },
+        {
+          "zh": "在意淫学霸是怎么学习的，",
+          "vi": "đang tưởng tượng xem học bá học thế nào,"
+        }
+      ]
+    },
+    "48": {
+      "zh": "一定是有一个类似于什么葵花宝典这样的秘籍，就像是功夫那个电影里啊，",
+      "parts": [
+        {
+          "zh": "一定是有一个类似于",
+          "vi": "kiểu chắc chắn phải có một"
+        },
+        {
+          "zh": "什么葵花宝典这样的秘籍，",
+          "vi": "cuốn bí kíp như Quỳ Hoa Bảo Điển gì đó,"
+        },
+        {
+          "zh": "就像是功夫那个电影里啊，",
+          "vi": "như trong phim \"Tuyệt đỉnh Kung Fu\" ấy,"
+        }
+      ]
+    },
+    "49": {
+      "zh": "周星驰一个整天很弱的、老是被人欺负的人，他从乞丐手里面买到这个葵花宝典了，",
+      "parts": [
+        {
+          "zh": "周星驰一个整天很弱的、",
+          "vi": "Châu Tinh Trì, một người suốt ngày yếu ớt,"
+        },
+        {
+          "zh": "老是被人欺负的人，",
+          "vi": "lúc nào cũng bị bắt nạt,"
+        },
+        {
+          "zh": "他从乞丐手里面",
+          "vi": "từ tay một lão ăn mày"
+        },
+        {
+          "zh": "买到这个葵花宝典了，",
+          "vi": "mua được cuốn Quỳ Hoa Bảo Điển này,"
+        }
+      ]
+    },
+    "50": {
+      "zh": "他就可以改变人生。",
+      "vi": "thế là anh ta đổi đời."
+    },
+    "51": {
+      "zh": "就好像学习好的人，他一定是藏着什么秘密绝招，是学渣不知道的。",
+      "parts": [
+        {
+          "zh": "就好像学习好的人，",
+          "vi": "Cứ như người học giỏi"
+        },
+        {
+          "zh": "他一定是藏着什么秘密绝招，",
+          "vi": "chắc chắn đang giấu tuyệt chiêu bí mật gì đó,"
+        },
+        {
+          "zh": "是学渣不知道的。",
+          "vi": "mà đứa học dốt không biết."
+        }
+      ]
+    },
+    "52": {
+      "zh": "一旦这个学渣搞到了这个秘籍，知识就可以源源不断的挡都挡不住进入他们的大脑。",
+      "parts": [
+        {
+          "zh": "一旦这个学渣搞到了这个秘籍，",
+          "vi": "Một khi đứa học dốt kiếm được bí kíp đó,"
+        },
+        {
+          "zh": "知识就可以源源不断的",
+          "vi": "kiến thức sẽ cuồn cuộn không ngừng,"
+        },
+        {
+          "zh": "挡都挡不住进入他们的大脑。",
+          "vi": "cản cũng không nổi mà chui vào đầu chúng."
+        }
+      ]
+    },
+    "53": {
+      "zh": "好，就好像学习成绩不好的人和学习成绩好的人之间最大的区别就是这个秘籍。",
+      "parts": [
+        {
+          "zh": "好，就好像学习成绩不好的人",
+          "vi": "Rồi, cứ như giữa người học kém"
+        },
+        {
+          "zh": "和学习成绩好的人之间",
+          "vi": "và người học giỏi"
+        },
+        {
+          "zh": "最大的区别就是这个秘籍。",
+          "vi": "khác biệt lớn nhất chính là cuốn bí kíp này."
+        }
+      ]
+    },
+    "54": {
+      "zh": "这是一个很狭隘的对知识的理解，或者让我换一个更恰当的比喻，",
+      "parts": [
+        {
+          "zh": "这是一个很狭隘的对知识的理解，",
+          "vi": "Đây là một cách hiểu rất hạn hẹp về tri thức,"
+        },
+        {
+          "zh": "或者让我换一个更恰当的比喻，",
+          "vi": "hay để tôi đổi một phép so sánh đúng hơn,"
+        }
+      ]
+    },
+    "55": {
+      "zh": "它就好像是在《天龙八部》里面。",
+      "vi": "nó giống như trong \"Thiên Long Bát Bộ\"."
+    },
+    "56": {
+      "zh": "啊，一开始就是那个段誉，他躺在树下睡觉的时候张着嘴，",
+      "parts": [
+        {
+          "zh": "啊，一开始就是那个段誉，",
+          "vi": "À, đoạn đầu có Đoàn Dự,"
+        },
+        {
+          "zh": "他躺在树下睡觉的时候张着嘴，",
+          "vi": "chàng nằm ngủ dưới gốc cây, miệng há ra,"
+        }
+      ]
+    },
+    "57": {
+      "zh": "然后不小心有一个什么毒蛤蟆还是什么毒蝎子就爬到他的嘴巴里面了，",
+      "parts": [
+        {
+          "zh": "然后不小心有一个",
+          "vi": "rồi không may có một con"
+        },
+        {
+          "zh": "什么毒蛤蟆还是什么毒蝎子",
+          "vi": "cóc độc hay bọ cạp độc gì đó"
+        },
+        {
+          "zh": "就爬到他的嘴巴里面了，",
+          "vi": "bò vào trong miệng chàng,"
+        }
+      ]
+    },
+    "58": {
+      "zh": "在他的身体发生了化学变化，然后武功就挡也挡不住的进入了他的身体。",
+      "parts": [
+        {
+          "zh": "在他的身体发生了化学变化，",
+          "vi": "trong người chàng xảy ra biến đổi hóa học,"
+        },
+        {
+          "zh": "然后武功就挡也挡不住的",
+          "vi": "rồi võ công cứ thế không cản nổi"
+        },
+        {
+          "zh": "进入了他的身体。",
+          "vi": "mà tràn vào người chàng."
+        }
+      ]
+    },
+    "59": {
+      "zh": "从此段誉他就五毒不侵了，还是又获得了一个很牛的武功，叫做什么凌波微步什么的。",
+      "parts": [
+        {
+          "zh": "从此段誉他就五毒不侵了，",
+          "vi": "Từ đó Đoàn Dự bách độc bất xâm,"
+        },
+        {
+          "zh": "还是又获得了一个很牛的武功，",
+          "vi": "lại còn có được một môn võ rất đỉnh,"
+        },
+        {
+          "zh": "叫做什么凌波微步什么的。",
+          "vi": "gọi là Lăng Ba Vi Bộ gì đó."
+        }
+      ]
+    },
+    "60": {
+      "zh": "研究天龙八部的金庸粉千万不要来骂我，我我也是金庸粉，但是。",
+      "parts": [
+        {
+          "zh": "研究天龙八部的金庸粉",
+          "vi": "Fan Kim Dung nào nghiên cứu Thiên Long Bát Bộ"
+        },
+        {
+          "zh": "千万不要来骂我，",
+          "vi": "xin đừng vào chửi tôi nhé,"
+        },
+        {
+          "zh": "我我也是金庸粉，但是。",
+          "vi": "tôi, tôi cũng là fan Kim Dung, nhưng mà..."
+        }
+      ]
+    },
+    "61": {
+      "zh": "我现在我也不记得这个剧情了，",
+      "vi": "giờ tôi cũng không nhớ tình tiết này nữa,"
+    },
+    "62": {
+      "zh": "反正我当时的印象就是段誉获得武功的这个方式让我感到很愤怒，非常义愤填膺。",
+      "parts": [
+        {
+          "zh": "反正我当时的印象就是",
+          "vi": "dù sao ấn tượng của tôi hồi đó là"
+        },
+        {
+          "zh": "段誉获得武功的这个方式",
+          "vi": "cái cách Đoàn Dự có được võ công"
+        },
+        {
+          "zh": "让我感到很愤怒，非常义愤填膺。",
+          "vi": "làm tôi rất tức, vô cùng phẫn nộ."
+        }
+      ]
+    },
+    "63": {
+      "zh": "因为我是一个相信努力的人，我是一个相信苦功的人。",
+      "parts": [
+        {
+          "zh": "因为我是一个相信努力的人，",
+          "vi": "Vì tôi là người tin vào nỗ lực,"
+        },
+        {
+          "zh": "我是一个相信苦功的人。",
+          "vi": "tôi là người tin vào khổ luyện."
+        }
+      ]
+    },
+    "64": {
+      "zh": "大侠成为大侠，对我来说唯一的方式就是通过萧峰这样经历千辛万苦、千锤百炼，而且没有捷径。",
+      "parts": [
+        {
+          "zh": "大侠成为大侠，对我来说",
+          "vi": "Đại hiệp trở thành đại hiệp, với tôi"
+        },
+        {
+          "zh": "唯一的方式就是通过萧峰这样",
+          "vi": "cách duy nhất là như Tiêu Phong"
+        },
+        {
+          "zh": "经历千辛万苦、千锤百炼，",
+          "vi": "trải qua muôn vàn gian khổ, trăm lần tôi luyện,"
+        },
+        {
+          "zh": "而且没有捷径。",
+          "vi": "hơn nữa không có lối tắt."
+        }
+      ]
+    },
+    "65": {
+      "zh": "天下所有的捷径，在我的眼中都是歪路。",
+      "parts": [
+        {
+          "zh": "天下所有的捷径，",
+          "vi": "Mọi lối tắt trên đời,"
+        },
+        {
+          "zh": "在我的眼中都是歪路。",
+          "vi": "trong mắt tôi đều là đường tà."
+        }
+      ]
+    },
+    "66": {
+      "zh": "OK，不好意思，吐槽完毕。",
+      "vi": "OK, xin lỗi, cằn nhằn xong rồi."
+    },
+    "67": {
+      "zh": "呃，这是一期分享学习外语经验的播客。",
+      "parts": [
+        {
+          "zh": "呃，这是一期",
+          "vi": "Ờ, đây là một tập"
+        },
+        {
+          "zh": "分享学习外语经验的播客。",
+          "vi": "chia sẻ kinh nghiệm học ngoại ngữ."
+        }
+      ]
+    },
+    "68": {
+      "zh": "结果我觉得我说到现在都在一直嗯骂那些点进这期播客的人想要寻找捷径。",
+      "parts": [
+        {
+          "zh": "结果我觉得我说到现在",
+          "vi": "Kết quả tôi thấy từ đầu tới giờ"
+        },
+        {
+          "zh": "都在一直嗯骂那些",
+          "vi": "tôi cứ, ừm, mắng những người"
+        },
+        {
+          "zh": "点进这期播客的人想要寻找捷径。",
+          "vi": "bấm vào tập này mong tìm lối tắt."
+        }
+      ]
+    },
+    "69": {
+      "zh": "呃，我说鸣龙少年这个案例的意思就是，不光是我，",
+      "parts": [
+        {
+          "zh": "呃，我说鸣龙少年这个案例的意思",
+          "vi": "Ờ, ý tôi khi kể ví dụ \"Minh Long Thiếu Niên\""
+        },
+        {
+          "zh": "就是，不光是我，",
+          "vi": "là, không chỉ tôi,"
+        }
+      ]
+    },
+    "70": {
+      "zh": "就是包括我那个在传统高考体系里走出来的朋友，我们都认为真正的学习它是没有。所谓的秘诀，或者是嗯学渣不得学渣不得知的学习方法的学习外语，在某种程度上来说跟高考的逻辑是很像的。",
+      "parts": [
+        {
+          "zh": "就是包括我那个",
+          "vi": "mà cả cậu bạn tôi,"
+        },
+        {
+          "zh": "在传统高考体系里走出来的朋友，",
+          "vi": "người đi lên từ hệ thống thi đại học truyền thống,"
+        },
+        {
+          "zh": "我们都认为真正的学习",
+          "vi": "bọn tôi đều cho rằng học thật sự"
+        },
+        {
+          "zh": "它是没有。所谓的秘诀，",
+          "vi": "thì không có cái gọi là bí quyết,"
+        },
+        {
+          "zh": "或者是嗯学渣不得",
+          "vi": "hay là, ừm, đứa học dốt không được..."
+        },
+        {
+          "zh": "学渣不得知的学习方法的",
+          "vi": "phương pháp học mà đứa học dốt không được biết."
+        },
+        {
+          "zh": "学习外语，在某种程度上来说",
+          "vi": "Học ngoại ngữ, ở mức độ nào đó,"
+        },
+        {
+          "zh": "跟高考的逻辑是很像的。",
+          "vi": "rất giống logic của kỳ thi đại học."
+        }
+      ]
+    },
+    "73": {
+      "zh": "我那个朋友跟我说，他到高三的时候就没有怎么疯狂的学习了，",
+      "parts": [
+        {
+          "zh": "我那个朋友跟我说，",
+          "vi": "Bạn tôi kể với tôi,"
+        },
+        {
+          "zh": "他到高三的时候",
+          "vi": "tới năm lớp 12"
+        },
+        {
+          "zh": "就没有怎么疯狂的学习了，",
+          "vi": "cậu ấy không còn học điên cuồng nữa,"
+        }
+      ]
+    },
+    "74": {
+      "zh": "甚至也没有嗯老师布置的题他都不会完全做完。",
+      "parts": [
+        {
+          "zh": "甚至也没有嗯老师布置的题",
+          "vi": "thậm chí, ừm, bài tập thầy cô giao"
+        },
+        {
+          "zh": "他都不会完全做完。",
+          "vi": "cậu ấy cũng không làm hết."
+        }
+      ]
+    },
+    "75": {
+      "zh": "高考的时候也不是特别紧张，因为他说他高三做题的唯一目的就是去理解出题者背后的逻辑。",
+      "parts": [
+        {
+          "zh": "高考的时候也不是特别紧张，",
+          "vi": "Lúc thi đại học cũng không căng thẳng lắm,"
+        },
+        {
+          "zh": "因为他说他高三做题的唯一目的",
+          "vi": "vì cậu ấy nói mục đích duy nhất của việc làm đề năm lớp 12"
+        },
+        {
+          "zh": "就是去理解出题者背后的逻辑。",
+          "vi": "là hiểu logic đằng sau người ra đề."
+        }
+      ]
+    },
+    "76": {
+      "zh": "当你理解了出题者为什么会问出这个问题的时候，那你就知道要如何去回答这个问题了。",
+      "parts": [
+        {
+          "zh": "当你理解了出题者",
+          "vi": "Khi bạn hiểu được người ra đề"
+        },
+        {
+          "zh": "为什么会问出这个问题的时候，",
+          "vi": "vì sao lại hỏi câu này,"
+        },
+        {
+          "zh": "那你就知道",
+          "vi": "thì bạn sẽ biết"
+        },
+        {
+          "zh": "要如何去回答这个问题了。",
+          "vi": "phải trả lời câu đó thế nào."
+        }
+      ]
+    },
+    "77": {
+      "zh": "当然，我觉得我朋友能够说出这句话的前提就在于他之前已经积累了大量的经验和训练。",
+      "parts": [
+        {
+          "zh": "当然，我觉得我朋友",
+          "vi": "Tất nhiên, tôi thấy bạn tôi"
+        },
+        {
+          "zh": "能够说出这句话的前提",
+          "vi": "nói được câu này là có tiền đề:"
+        },
+        {
+          "zh": "就在于他之前已经积累了",
+          "vi": "trước đó cậu ấy đã tích lũy"
+        },
+        {
+          "zh": "大量的经验和训练。",
+          "vi": "rất nhiều kinh nghiệm và luyện tập."
+        }
+      ]
+    },
+    "78": {
+      "zh": "我们用学习外语的逻辑来描绘他刚才他说的这句话，",
+      "parts": [
+        {
+          "zh": "我们用学习外语的逻辑",
+          "vi": "Ta dùng logic học ngoại ngữ"
+        },
+        {
+          "zh": "来描绘他刚才他说的这句话，",
+          "vi": "để diễn giải câu cậu ấy vừa nói,"
+        }
+      ]
+    },
+    "79": {
+      "zh": "就是他之所以已经开始研究逻辑层面的嗯出题者的目的，",
+      "parts": [
+        {
+          "zh": "就是他之所以已经开始研究",
+          "vi": "tức là sở dĩ cậu ấy đã bắt đầu nghiên cứu"
+        },
+        {
+          "zh": "逻辑层面的嗯出题者的目的，",
+          "vi": "mục đích của người ra đề ở tầng logic,"
+        }
+      ]
+    },
+    "80": {
+      "zh": "就是因为他已经有足够多的跟高积累了足够多跟高考相关的题型。",
+      "parts": [
+        {
+          "zh": "就是因为他已经有足够多的跟高",
+          "vi": "là vì cậu ấy đã có đủ nhiều..."
+        },
+        {
+          "zh": "积累了足够多跟高考相关的题型。",
+          "vi": "đã tích lũy đủ nhiều dạng đề thi đại học."
+        }
+      ]
+    },
+    "81": {
+      "zh": "用学外语的逻辑，就是他已经有了足够多的词汇量。",
+      "parts": [
+        {
+          "zh": "用学外语的逻辑，",
+          "vi": "Theo logic học ngoại ngữ,"
+        },
+        {
+          "zh": "就是他已经有了足够多的词汇量。",
+          "vi": "tức là cậu ấy đã có đủ vốn từ vựng."
+        }
+      ]
+    },
+    "82": {
+      "zh": "那当他遇到一个陌生问题的时候，或者是一个他没有见过的对话方式的时候，他不会说：",
+      "parts": [
+        {
+          "zh": "那当他遇到一个陌生问题的时候，",
+          "vi": "Vậy khi gặp một câu hỏi lạ,"
+        },
+        {
+          "zh": "或者是一个他没有见过的",
+          "vi": "hoặc một kiểu hội thoại"
+        },
+        {
+          "zh": "对话方式的时候，他不会说：",
+          "vi": "chưa từng gặp, cậu ấy sẽ không nói:"
+        }
+      ]
+    },
+    "83": {
+      "zh": "“哦，这个词儿是什么？",
+      "vi": "\"Ồ, từ này là gì vậy?"
+    },
+    "84": {
+      "zh": "我都不知道什么意思。”",
+      "vi": "Mình chẳng biết nghĩa là gì.\""
+    },
+    "85": {
+      "zh": "当你开始理解了它每一个单词的意思的时候，或者是每一道题它基本的结构的时候，",
+      "parts": [
+        {
+          "zh": "当你开始理解了",
+          "vi": "Khi bạn bắt đầu hiểu"
+        },
+        {
+          "zh": "它每一个单词的意思的时候，",
+          "vi": "nghĩa của từng từ,"
+        },
+        {
+          "zh": "或者是每一道题",
+          "vi": "hoặc của mỗi đề bài"
+        },
+        {
+          "zh": "它基本的结构的时候，",
+          "vi": "cấu trúc cơ bản của nó,"
+        }
+      ]
+    },
+    "86": {
+      "zh": "他下一步就要开始思考的问题就是这个结构背后是什么逻辑。",
+      "parts": [
+        {
+          "zh": "他下一步就要开始思考的问题",
+          "vi": "thì câu hỏi tiếp theo bạn phải nghĩ"
+        },
+        {
+          "zh": "就是这个结构背后是什么逻辑。",
+          "vi": "là đằng sau cấu trúc này là logic gì."
+        }
+      ]
+    },
+    "87": {
+      "zh": "其实，当我们走到这一步的时候，当我们开始思考逻辑的时候，",
+      "parts": [
+        {
+          "zh": "其实，当我们走到这一步的时候，",
+          "vi": "Thật ra, khi chúng ta đi tới bước này,"
+        },
+        {
+          "zh": "当我们开始思考逻辑的时候，",
+          "vi": "khi chúng ta bắt đầu nghĩ về logic,"
+        }
+      ]
+    },
+    "88": {
+      "zh": "我们就会发现你能遇到的逻辑模式其实就是那么几个翻来覆去的。",
+      "parts": [
+        {
+          "zh": "我们就会发现你能遇到的逻辑模式",
+          "vi": "chúng ta sẽ thấy các kiểu logic bạn gặp được"
+        },
+        {
+          "zh": "其实就是那么几个翻来覆去的。",
+          "vi": "thật ra chỉ có mấy kiểu lặp đi lặp lại."
+        }
+      ]
+    },
+    "89": {
+      "zh": "OK，我不讲高考了，我不讲那些虚头巴脑的东西了。",
+      "parts": [
+        {
+          "zh": "OK，我不讲高考了，",
+          "vi": "OK, tôi không nói chuyện thi đại học nữa,"
+        },
+        {
+          "zh": "我不讲那些虚头巴脑的东西了。",
+          "vi": "không nói mấy thứ viển vông đó nữa."
+        }
+      ]
+    },
+    "90": {
+      "zh": "我们现在，我现在来真诚的分享一下我自己学习外语的经历。",
+      "parts": [
+        {
+          "zh": "我们现在，我现在来真诚的分享一下",
+          "vi": "Bây giờ, bây giờ tôi xin thật lòng chia sẻ"
+        },
+        {
+          "zh": "我自己学习外语的经历。",
+          "vi": "kinh nghiệm học ngoại ngữ của chính mình."
+        }
+      ]
+    },
+    "91": {
+      "zh": "在我分享经历之前，我想要再说一个题外话，那就是中国网民真的是我见到的一群，",
+      "parts": [
+        {
+          "zh": "在我分享经历之前，",
+          "vi": "Trước khi chia sẻ,"
+        },
+        {
+          "zh": "我想要再说一个题外话，",
+          "vi": "tôi muốn nói thêm một chuyện ngoài lề,"
+        },
+        {
+          "zh": "那就是中国网民",
+          "vi": "đó là cư dân mạng Trung Quốc"
+        },
+        {
+          "zh": "真的是我见到的一群，",
+          "vi": "thật sự là đám người duy nhất tôi từng thấy,"
+        }
+      ]
+    },
+    "92": {
+      "zh": "也是全世界唯一一群在乎别人外语口音的人。",
+      "parts": [
+        {
+          "zh": "也是全世界唯一一群",
+          "vi": "cũng là đám người duy nhất trên thế giới"
+        },
+        {
+          "zh": "在乎别人外语口音的人。",
+          "vi": "để ý giọng của người khác khi nói ngoại ngữ."
+        }
+      ]
+    },
+    "93": {
+      "zh": "我去过全世界很多国家，见过很多人讲外语，从来没有遇到过比中国网民还要在别人的口音上。更吹毛求疵的人，他们对于口音之吹毛求疵超过了母语者对于口音的吹毛求疵。",
+      "parts": [
+        {
+          "zh": "我去过全世界很多国家，",
+          "vi": "Tôi đã đi nhiều nước trên thế giới,"
+        },
+        {
+          "zh": "见过很多人讲外语，",
+          "vi": "gặp nhiều người nói ngoại ngữ,"
+        },
+        {
+          "zh": "从来没有遇到过比中国网民还要",
+          "vi": "chưa từng gặp ai hơn cả dân mạng Trung Quốc"
+        },
+        {
+          "zh": "在别人的口音上。更吹毛求疵的人，",
+          "vi": "bới lông tìm vết giọng nói của người khác,"
+        },
+        {
+          "zh": "他们对于口音之吹毛求疵",
+          "vi": "họ bới lông tìm vết về giọng"
+        },
+        {
+          "zh": "超过了母语者对于口音的吹毛求疵。",
+          "vi": "còn hơn cả người bản ngữ bới lông tìm vết về giọng."
+        }
+      ]
+    },
+    "95": {
+      "zh": "表达的意思难道不是被理解吗？",
+      "vi": "Nói ra chẳng phải là để được hiểu sao?"
+    },
+    "96": {
+      "zh": "所有因为别人中国人讲外语有口音而去嘲笑他们，或者是对他讲话内容吹毛求疵的人，",
+      "parts": [
+        {
+          "zh": "所有因为别人中国人",
+          "vi": "Tất cả những ai vì người khác, vì người Trung Quốc"
+        },
+        {
+          "zh": "讲外语有口音而去嘲笑他们，",
+          "vi": "nói ngoại ngữ có giọng mà chế giễu họ,"
+        },
+        {
+          "zh": "或者是对他讲话内容吹毛求疵的人，",
+          "vi": "hoặc bới lông tìm vết nội dung họ nói,"
+        }
+      ]
+    },
+    "97": {
+      "zh": "我只能把他们这种心态理解成他们肤浅到只能够把别人讲话内容中最微不足道的内容拎出来，",
+      "parts": [
+        {
+          "zh": "我只能把他们这种心态理解成",
+          "vi": "tôi chỉ có thể hiểu tâm lý đó là"
+        },
+        {
+          "zh": "他们肤浅到只能够",
+          "vi": "họ nông cạn tới mức chỉ biết"
+        },
+        {
+          "zh": "把别人讲话内容中",
+          "vi": "lôi trong lời người khác"
+        },
+        {
+          "zh": "最微不足道的内容拎出来，",
+          "vi": "ra phần vụn vặt nhất,"
+        }
+      ]
+    },
+    "98": {
+      "zh": "最微不足道那一部分拎出来获得。某种个人优越感。",
+      "parts": [
+        {
+          "zh": "最微不足道那一部分",
+          "vi": "lôi phần vụn vặt nhất đó ra"
+        },
+        {
+          "zh": "拎出来获得。某种个人优越感。",
+          "vi": "để có được chút cảm giác hơn người."
+        }
+      ]
+    },
+    "100": {
+      "zh": "我知道我德语口音肯定不好啊，因为。我也不是在德国学的德语，我也才学了三四年，对吧？",
+      "parts": [
+        {
+          "zh": "我知道我德语口音肯定不好啊，",
+          "vi": "Tôi biết giọng tiếng Đức của tôi chắc chắn không hay,"
+        },
+        {
+          "zh": "因为。我也不是在德国学的德语，",
+          "vi": "vì tôi cũng không học tiếng Đức ở Đức,"
+        },
+        {
+          "zh": "我也才学了三四年，对吧？",
+          "vi": "tôi cũng mới học có ba bốn năm, đúng không?"
+        }
+      ]
+    },
+    "102": {
+      "zh": "但是说句实话，我真的一点都不在乎。",
+      "vi": "Nhưng nói thật, tôi chẳng quan tâm chút nào."
+    },
+    "103": {
+      "zh": "对于我来说，我又不是要去应聘德国新闻电视台的主播。",
+      "parts": [
+        {
+          "zh": "对于我来说，我又不是要去应聘",
+          "vi": "Với tôi, tôi có phải đi ứng tuyển"
+        },
+        {
+          "zh": "德国新闻电视台的主播。",
+          "vi": "làm phát thanh viên đài truyền hình tin tức Đức đâu."
+        }
+      ]
+    },
+    "104": {
+      "zh": "咱们说德语的目的就是为了让别人听懂你在说什么。",
+      "parts": [
+        {
+          "zh": "咱们说德语的目的",
+          "vi": "Mục đích mình nói tiếng Đức"
+        },
+        {
+          "zh": "就是为了让别人听懂你在说什么。",
+          "vi": "là để người ta hiểu bạn đang nói gì."
+        }
+      ]
+    },
+    "105": {
+      "zh": "而且根据我在现实中遇到美国人和德国人自己讲话的方式，他们自己讲话语法都是不准确的。",
+      "parts": [
+        {
+          "zh": "而且根据我在现实中遇到",
+          "vi": "Hơn nữa, theo những gì tôi gặp ngoài đời,"
+        },
+        {
+          "zh": "美国人和德国人自己讲话的方式，",
+          "vi": "cách người Mỹ và người Đức tự nói chuyện,"
+        },
+        {
+          "zh": "他们自己讲话语法都是不准确的。",
+          "vi": "chính họ nói cũng sai ngữ pháp."
+        }
+      ]
+    },
+    "106": {
+      "zh": "只有中国人才会去苛刻的纠正一个外语学习者的口音还有语法错误。",
+      "parts": [
+        {
+          "zh": "只有中国人才会去苛刻的纠正",
+          "vi": "Chỉ có người Trung Quốc mới khắt khe sửa"
+        },
+        {
+          "zh": "一个外语学习者的口音",
+          "vi": "giọng của người học ngoại ngữ"
+        },
+        {
+          "zh": "还有语法错误。",
+          "vi": "và lỗi ngữ pháp."
+        }
+      ]
+    },
+    "107": {
+      "zh": "所以，在播客的一开始，我给大家的第一个建议就是：让我们把手指指向他人，不要责怪自己。",
+      "parts": [
+        {
+          "zh": "所以，在播客的一开始，",
+          "vi": "Nên, ngay đầu podcast,"
+        },
+        {
+          "zh": "我给大家的第一个建议就是：",
+          "vi": "lời khuyên đầu tiên của tôi là:"
+        },
+        {
+          "zh": "让我们把手指指向他人，",
+          "vi": "hãy chĩa ngón tay vào người khác,"
+        },
+        {
+          "zh": "不要责怪自己。",
+          "vi": "đừng tự trách mình."
+        }
+      ]
+    },
+    "108": {
+      "zh": "嗯，反着责怪他人，嘲笑那些反过来嘲笑那些会因为你的口音和语法不准确来嘲笑你的人，",
+      "parts": [
+        {
+          "zh": "嗯，反着责怪他人，",
+          "vi": "Ừm, quay lại trách người khác,"
+        },
+        {
+          "zh": "嘲笑那些反过来嘲笑那些",
+          "vi": "chế giễu những người, quay lại chế giễu những người"
+        },
+        {
+          "zh": "会因为你的口音和语法不准确",
+          "vi": "vì giọng và ngữ pháp bạn không chuẩn"
+        },
+        {
+          "zh": "来嘲笑你的人，",
+          "vi": "mà chế giễu bạn,"
+        }
+      ]
+    },
+    "109": {
+      "zh": "他们错了。",
+      "vi": "họ sai rồi."
+    },
+    "110": {
+      "zh": "加油，宝贝儿！",
+      "vi": "Cố lên, cưng ơi!"
+    },
+    "111": {
+      "zh": "只要你开口了，你就胜利了。",
+      "vi": "Chỉ cần bạn mở miệng là bạn đã thắng."
+    },
+    "112": {
+      "zh": "OK，这是播客想要发送的第一个重要信息。",
+      "parts": [
+        {
+          "zh": "OK，这是播客想要发送的",
+          "vi": "OK, đây là điều podcast muốn gửi gắm,"
+        },
+        {
+          "zh": "第一个重要信息。",
+          "vi": "thông điệp quan trọng thứ nhất."
+        }
+      ]
+    },
+    "113": {
+      "zh": "我觉得我对绝大多数人最有启发性的建议，应该是我自己学英语的经历。",
+      "parts": [
+        {
+          "zh": "我觉得我对绝大多数人",
+          "vi": "Tôi nghĩ với đa số mọi người"
+        },
+        {
+          "zh": "最有启发性的建议，",
+          "vi": "lời khuyên gợi mở nhất của tôi"
+        },
+        {
+          "zh": "应该是我自己学英语的经历。",
+          "vi": "chắc là chuyện tôi học tiếng Anh."
+        }
+      ]
+    },
+    "114": {
+      "zh": "因为我初中的时候其他科目非常好，但是英语反而是我最薄弱的科目。",
+      "parts": [
+        {
+          "zh": "因为我初中的时候其他科目非常好，",
+          "vi": "Vì hồi cấp hai tôi giỏi các môn khác,"
+        },
+        {
+          "zh": "但是英语反而是我最薄弱的科目。",
+          "vi": "nhưng tiếng Anh lại là môn yếu nhất."
+        }
+      ]
+    },
+    "115": {
+      "zh": "英语对我来说，在课内我也只能做到中上的水平，这个水平是完全考不了托福，",
+      "parts": [
+        {
+          "zh": "英语对我来说，在课内",
+          "vi": "Tiếng Anh với tôi, trên lớp"
+        },
+        {
+          "zh": "我也只能做到中上的水平，",
+          "vi": "tôi cũng chỉ được mức khá,"
+        },
+        {
+          "zh": "这个水平是完全考不了托福，",
+          "vi": "trình độ đó hoàn toàn không thi nổi TOEFL,"
+        }
+      ]
+    },
+    "116": {
+      "zh": "甚至比如说出国要去美国学习人文学科的。",
+      "parts": [
+        {
+          "zh": "甚至比如说出国",
+          "vi": "thậm chí như kiểu đi du học,"
+        },
+        {
+          "zh": "要去美国学习人文学科的。",
+          "vi": "sang Mỹ học ngành nhân văn."
+        }
+      ]
+    },
+    "117": {
+      "zh": "当时我是住在寄宿学校，我身边也没有很好的师资，我真的就是用了我播客一开始描述的那种。",
+      "parts": [
+        {
+          "zh": "当时我是住在寄宿学校，",
+          "vi": "Hồi đó tôi ở trường nội trú,"
+        },
+        {
+          "zh": "我身边也没有很好的师资，",
+          "vi": "quanh tôi cũng không có giáo viên giỏi,"
+        },
+        {
+          "zh": "我真的就是用了",
+          "vi": "tôi thật sự đã dùng"
+        },
+        {
+          "zh": "我播客一开始描述的那种。",
+          "vi": "đúng cái cách tôi tả ở đầu podcast:"
+        }
+      ]
+    },
+    "118": {
+      "zh": "不花钱的笨办法学的英语。",
+      "vi": "cách ngốc không tốn tiền để học tiếng Anh."
+    },
+    "119": {
+      "zh": "我们当时七点钟早上要去学校里早自习，于是我每天早上五点钟起床，五点到六点这个期间，",
+      "parts": [
+        {
+          "zh": "我们当时七点钟早上",
+          "vi": "Hồi đó 7 giờ sáng chúng tôi"
+        },
+        {
+          "zh": "要去学校里早自习，",
+          "vi": "phải đến trường tự học buổi sáng,"
+        },
+        {
+          "zh": "于是我每天早上五点钟起床，",
+          "vi": "thế là sáng nào tôi cũng dậy lúc 5 giờ,"
+        },
+        {
+          "zh": "五点到六点这个期间，",
+          "vi": "từ 5 tới 6 giờ,"
+        }
+      ]
+    },
+    "120": {
+      "zh": "我就是坐在卧室里背单词。",
+      "vi": "tôi ngồi trong phòng ngủ học thuộc từ vựng."
+    },
+    "121": {
+      "zh": "在那个小时，除了背单词，我什么都不做。",
+      "parts": [
+        {
+          "zh": "在那个小时，",
+          "vi": "Trong một tiếng đó,"
+        },
+        {
+          "zh": "除了背单词，我什么都不做。",
+          "vi": "ngoài học từ vựng ra, tôi không làm gì khác."
+        }
+      ]
+    },
+    "122": {
+      "zh": "背单词的方法是我之前在小红书上分享过的：拿一张白纸，把英文单词抄成一排竖着抄下去，",
+      "parts": [
+        {
+          "zh": "背单词的方法",
+          "vi": "Cách học từ vựng"
+        },
+        {
+          "zh": "是我之前在小红书上分享过的：",
+          "vi": "tôi từng chia sẻ trên Xiaohongshu:"
+        },
+        {
+          "zh": "拿一张白纸，",
+          "vi": "lấy một tờ giấy trắng,"
+        },
+        {
+          "zh": "把英文单词抄成一排竖着抄下去，",
+          "vi": "chép từ tiếng Anh thành một cột dọc xuống,"
+        }
+      ]
+    },
+    "123": {
+      "zh": "如果会了，就用铅笔把它划掉。",
+      "vi": "thuộc rồi thì lấy bút chì gạch đi."
+    },
+    "124": {
+      "zh": "而且我白天上学的时候会一直把这张纸带在身边，只要一有空我就把它拿出来放在桌子上，",
+      "parts": [
+        {
+          "zh": "而且我白天上学的时候",
+          "vi": "Hơn nữa ban ngày đi học"
+        },
+        {
+          "zh": "会一直把这张纸带在身边，",
+          "vi": "tôi luôn mang tờ giấy này theo người,"
+        },
+        {
+          "zh": "只要一有空",
+          "vi": "cứ hễ rảnh"
+        },
+        {
+          "zh": "我就把它拿出来放在桌子上，",
+          "vi": "là tôi lấy nó ra đặt lên bàn,"
+        }
+      ]
+    },
+    "125": {
+      "zh": "用眼睛的余余光瞄着这张纸，试图回忆早上背的单词。",
+      "parts": [
+        {
+          "zh": "用眼睛的余余光瞄着这张纸，",
+          "vi": "liếc khóe mắt nhìn tờ giấy,"
+        },
+        {
+          "zh": "试图回忆早上背的单词。",
+          "vi": "cố nhớ lại những từ đã học buổi sáng."
+        }
+      ]
+    },
+    "126": {
+      "zh": "然后第二天早上重新拿出一张新的白纸再抄一遍。",
+      "parts": [
+        {
+          "zh": "然后第二天早上",
+          "vi": "Rồi sáng hôm sau"
+        },
+        {
+          "zh": "重新拿出一张新的白纸再抄一遍。",
+          "vi": "lại lấy một tờ giấy trắng mới chép lại lần nữa."
+        }
+      ]
+    },
+    "127": {
+      "zh": "我觉得用其他方法也可以了，但是一定是最笨的方法，一定要这个过程就是极端的枯燥和乏味。",
+      "parts": [
+        {
+          "zh": "我觉得用其他方法也可以了，",
+          "vi": "Tôi nghĩ dùng cách khác cũng được,"
+        },
+        {
+          "zh": "但是一定是最笨的方法，",
+          "vi": "nhưng nhất định phải là cách ngốc nhất,"
+        },
+        {
+          "zh": "一定要这个过程",
+          "vi": "nhất định quá trình này"
+        },
+        {
+          "zh": "就是极端的枯燥和乏味。",
+          "vi": "phải cực kỳ khô khan và nhàm chán."
+        }
+      ]
+    },
+    "128": {
+      "zh": "然后每天晚上晚自习的时候，那个时候我们还在用录音机和磁带。",
+      "parts": [
+        {
+          "zh": "然后每天晚上晚自习的时候，",
+          "vi": "Rồi tối nào cũng vậy, giờ tự học buổi tối,"
+        },
+        {
+          "zh": "那个时候我们还在用录音机和磁带。",
+          "vi": "hồi đó chúng tôi còn dùng máy cát-sét và băng."
+        }
+      ]
+    },
+    "129": {
+      "zh": "我相信现在年轻人应该没有了。",
+      "vi": "Tôi nghĩ giới trẻ bây giờ chắc không còn dùng nữa."
+    },
+    "130": {
+      "zh": "我就拿着这个录音机一边听一边无声的对嘴型在那里默念，因为晚自修嘛不能大声的念出来。",
+      "parts": [
+        {
+          "zh": "我就拿着这个录音机一边听",
+          "vi": "Tôi cầm cái máy cát-sét, vừa nghe"
+        },
+        {
+          "zh": "一边无声的对嘴型在那里默念，",
+          "vi": "vừa nhép miệng đọc thầm không thành tiếng,"
+        },
+        {
+          "zh": "因为晚自修嘛不能大声的念出来。",
+          "vi": "vì giờ tự học buổi tối thì không được đọc to mà."
+        }
+      ]
+    },
+    "131": {
+      "zh": "下课期间呢，晚自修下课的时候，现在想起来真的挺傻的。",
+      "parts": [
+        {
+          "zh": "下课期间呢，晚自修下课的时候，",
+          "vi": "Lúc tan lớp thì, lúc tan giờ tự học buổi tối,"
+        },
+        {
+          "zh": "现在想起来真的挺傻的。",
+          "vi": "giờ nghĩ lại thấy ngốc thật."
+        }
+      ]
+    },
+    "132": {
+      "zh": "嗯，我会找一个安静的地方，对着空气给自己布置一个作文。题目，比如说冬天来了，然后我就在那里对着空气当场用嘴说写英语小作文。",
+      "parts": [
+        {
+          "zh": "嗯，我会找一个安静的地方，",
+          "vi": "Ừm, tôi sẽ tìm một chỗ yên tĩnh,"
+        },
+        {
+          "zh": "对着空气给自己布置一个作文。题目，",
+          "vi": "tự ra cho mình một đề bài làm văn với không khí,"
+        },
+        {
+          "zh": "比如说冬天来了，",
+          "vi": "ví dụ \"Mùa đông đến rồi\","
+        },
+        {
+          "zh": "然后我就在那里对着空气",
+          "vi": "rồi tôi đứng đó nói với không khí,"
+        },
+        {
+          "zh": "当场用嘴说写英语小作文。",
+          "vi": "tại chỗ nói miệng một bài văn ngắn tiếng Anh."
+        }
+      ]
+    },
+    "134": {
+      "zh": "唉，现在想想这个场景也挺心酸的，而且我初中那一会儿就是没有什么朋友，",
+      "parts": [
+        {
+          "zh": "唉，现在想想这个场景也挺心酸的，",
+          "vi": "Haizz, giờ nghĩ lại cảnh đó cũng chua xót ghê,"
+        },
+        {
+          "zh": "而且我初中那一会儿",
+          "vi": "hơn nữa hồi cấp hai"
+        },
+        {
+          "zh": "就是没有什么朋友，",
+          "vi": "tôi chẳng có mấy bạn bè,"
+        }
+      ]
+    },
+    "135": {
+      "zh": "牺牲了我所有的友谊就是为了学英语，因为当时非常想出国，所以说我相信在别人的眼中，",
+      "parts": [
+        {
+          "zh": "牺牲了我所有的友谊",
+          "vi": "hy sinh hết tình bạn"
+        },
+        {
+          "zh": "就是为了学英语，",
+          "vi": "chỉ để học tiếng Anh,"
+        },
+        {
+          "zh": "因为当时非常想出国，",
+          "vi": "vì hồi đó rất muốn đi nước ngoài,"
+        },
+        {
+          "zh": "所以说我相信在别人的眼中，",
+          "vi": "nên tôi tin rằng trong mắt người khác,"
+        }
+      ]
+    },
+    "136": {
+      "zh": "我那个时候应该是一个怪胎。",
+      "vi": "hồi đó tôi chắc là một đứa quái thai."
+    },
+    "137": {
+      "zh": "嗯，因为那个时候我在寄宿学校，其实也没有时间去私下补课。",
+      "parts": [
+        {
+          "zh": "嗯，因为那个时候我在寄宿学校，",
+          "vi": "Ừm, vì hồi đó tôi ở trường nội trú,"
+        },
+        {
+          "zh": "其实也没有时间去私下补课。",
+          "vi": "thật ra cũng không có thời gian học thêm riêng."
+        }
+      ]
+    },
+    "138": {
+      "zh": "我也没有上过任何的英语补课班，但是在周末的时候，我当时就是雇了一个老外美国人，",
+      "parts": [
+        {
+          "zh": "我也没有上过任何的英语补课班，",
+          "vi": "Tôi cũng chưa từng đi lớp học thêm tiếng Anh nào,"
+        },
+        {
+          "zh": "但是在周末的时候，",
+          "vi": "nhưng vào cuối tuần,"
+        },
+        {
+          "zh": "我当时就是雇了一个老外美国人，",
+          "vi": "hồi đó tôi thuê một người nước ngoài, người Mỹ,"
+        }
+      ]
+    },
+    "139": {
+      "zh": "付了他两百块钱一个小时，每周末让我跟他唠嗑一个半小时，没有课本也没有什么限制，",
+      "parts": [
+        {
+          "zh": "付了他两百块钱一个小时，",
+          "vi": "trả người đó 200 tệ một tiếng,"
+        },
+        {
+          "zh": "每周末让我跟他唠嗑一个半小时，",
+          "vi": "mỗi cuối tuần tôi tán gẫu với người đó một tiếng rưỡi,"
+        },
+        {
+          "zh": "没有课本也没有什么限制，",
+          "vi": "không sách giáo khoa, cũng không giới hạn gì,"
+        }
+      ]
+    },
+    "140": {
+      "zh": "就是闲话闲聊唠嗑，在一个咖啡馆里，呃什么讲什么都可以。",
+      "parts": [
+        {
+          "zh": "就是闲话闲聊唠嗑，在一个咖啡馆里，",
+          "vi": "chỉ tán chuyện phiếm, trong một quán cà phê,"
+        },
+        {
+          "zh": "呃什么讲什么都可以。",
+          "vi": "ờ, nói gì cũng được."
+        }
+      ]
+    },
+    "141": {
+      "zh": "说句实话，这个老外也挺没素质的，我现在回想出来，他就是一个很普通、",
+      "parts": [
+        {
+          "zh": "说句实话，这个老外也挺没素质的，",
+          "vi": "Nói thật, người Tây này cũng khá kém văn hóa,"
+        },
+        {
+          "zh": "我现在回想出来，",
+          "vi": "giờ tôi nghĩ lại,"
+        },
+        {
+          "zh": "他就是一个很普通、",
+          "vi": "người đó chỉ là một người rất bình thường,"
+        }
+      ]
+    },
+    "142": {
+      "zh": "没有受过很好的家教，甚至经常会教我一些不好的单词的来美来中国捞钱的美国人。",
+      "parts": [
+        {
+          "zh": "没有受过很好的家教，",
+          "vi": "không được giáo dục tử tế,"
+        },
+        {
+          "zh": "甚至经常会教我一些不好的单词的",
+          "vi": "thậm chí hay dạy tôi mấy từ bậy,"
+        },
+        {
+          "zh": "来美来中国捞钱的美国人。",
+          "vi": "một người Mỹ sang Mỹ... sang Trung Quốc kiếm tiền."
+        }
+      ]
+    },
+    "143": {
+      "zh": "但是我把我的经历跟大家讲出来的目的呢，就是想要告诉大家，",
+      "parts": [
+        {
+          "zh": "但是我把我的经历",
+          "vi": "Nhưng mục đích tôi kể"
+        },
+        {
+          "zh": "跟大家讲出来的目的呢，",
+          "vi": "trải nghiệm của mình với mọi người,"
+        },
+        {
+          "zh": "就是想要告诉大家，",
+          "vi": "là muốn nói với mọi người rằng,"
+        }
+      ]
+    },
+    "144": {
+      "zh": "我当时学英语的方法就是一个最典型的笨方法，没有走任何捷径，而且几乎没有花钱，",
+      "parts": [
+        {
+          "zh": "我当时学英语的方法",
+          "vi": "cách tôi học tiếng Anh hồi đó"
+        },
+        {
+          "zh": "就是一个最典型的笨方法，",
+          "vi": "là cách ngốc điển hình nhất,"
+        },
+        {
+          "zh": "没有走任何捷径，而且几乎没有花钱，",
+          "vi": "không đi lối tắt nào, mà gần như không tốn tiền,"
+        }
+      ]
+    },
+    "145": {
+      "zh": "除了每个星期给这个老外两百块钱让他陪我唠嗑。",
+      "parts": [
+        {
+          "zh": "除了每个星期给这个老外两百块钱",
+          "vi": "ngoài mỗi tuần trả người Tây này 200 tệ"
+        },
+        {
+          "zh": "让他陪我唠嗑。",
+          "vi": "để người đó tán gẫu với tôi."
+        }
+      ]
+    },
+    "146": {
+      "zh": "背单词是不用钱的，听磁带、对口型也是不用钱的，而且通过我这个方式，",
+      "parts": [
+        {
+          "zh": "背单词是不用钱的，",
+          "vi": "Học từ vựng thì không tốn tiền,"
+        },
+        {
+          "zh": "听磁带、对口型也是不用钱的，",
+          "vi": "nghe băng, nhép miệng cũng không tốn tiền,"
+        },
+        {
+          "zh": "而且通过我这个方式，",
+          "vi": "hơn nữa nhờ cách này,"
+        }
+      ]
+    },
+    "147": {
+      "zh": "我一个学期就从嗯，我们班的中上水平变成了英语考试之前完全不用复习的英语水平。",
+      "parts": [
+        {
+          "zh": "我一个学期就从嗯，",
+          "vi": "chỉ một học kỳ tôi đã từ, ừm,"
+        },
+        {
+          "zh": "我们班的中上水平",
+          "vi": "mức khá trong lớp"
+        },
+        {
+          "zh": "变成了英语考试之前",
+          "vi": "lên tới trình độ trước kỳ thi tiếng Anh"
+        },
+        {
+          "zh": "完全不用复习的英语水平。",
+          "vi": "hoàn toàn không cần ôn."
+        }
+      ]
+    },
+    "148": {
+      "zh": "那个时候，英语老师他看他看他早他意识到了我有自己的计划，并且正在高效的进行我的计划。",
+      "parts": [
+        {
+          "zh": "那个时候，英语老师他看他看他早",
+          "vi": "Lúc đó, giáo viên tiếng Anh thấy, thấy, sớm"
+        },
+        {
+          "zh": "他意识到了我有自己的计划，",
+          "vi": "đã nhận ra tôi có kế hoạch riêng,"
+        },
+        {
+          "zh": "并且正在高效的进行我的计划。",
+          "vi": "và đang thực hiện kế hoạch đó rất hiệu quả."
+        }
+      ]
+    },
+    "149": {
+      "zh": "一个学期之后，他就跟我说不用做英语作业了。",
+      "parts": [
+        {
+          "zh": "一个学期之后，",
+          "vi": "Sau một học kỳ,"
+        },
+        {
+          "zh": "他就跟我说不用做英语作业了。",
+          "vi": "giáo viên bảo tôi không cần làm bài tập tiếng Anh nữa."
+        }
+      ]
+    },
+    "150": {
+      "zh": "呃，在英语课上我开始做我自己的事情，",
+      "parts": [
+        {
+          "zh": "呃，在英语课上",
+          "vi": "Ờ, trong giờ tiếng Anh"
+        },
+        {
+          "zh": "我开始做我自己的事情，",
+          "vi": "tôi bắt đầu làm việc riêng của mình,"
+        }
+      ]
+    },
+    "151": {
+      "zh": "于是就是开始在英语课上背单词以及读国家地理杂志之类的。",
+      "parts": [
+        {
+          "zh": "于是就是开始在英语课上背单词",
+          "vi": "tức là bắt đầu học từ vựng trong giờ tiếng Anh"
+        },
+        {
+          "zh": "以及读国家地理杂志之类的。",
+          "vi": "và đọc tạp chí National Geographic các kiểu."
+        }
+      ]
+    },
+    "152": {
+      "zh": "嗯，也就是说，仅仅通过一个学期做这样子的学习方式，",
+      "parts": [
+        {
+          "zh": "嗯，也就是说，仅仅通过一个学期",
+          "vi": "Ừm, nghĩa là, chỉ trong một học kỳ"
+        },
+        {
+          "zh": "做这样子的学习方式，",
+          "vi": "học theo cách như vậy,"
+        }
+      ]
+    },
+    "153": {
+      "zh": "就可以把自己的英语水平进行一个突飞猛进的提升。",
+      "parts": [
+        {
+          "zh": "就可以把自己的英语水平",
+          "vi": "là có thể làm trình độ tiếng Anh của mình"
+        },
+        {
+          "zh": "进行一个突飞猛进的提升。",
+          "vi": "tiến bộ vượt bậc."
+        }
+      ]
+    },
+    "154": {
+      "zh": "而且这个是最笨的办法呀，就是无时无刻在所有场景见缝插针，给自己创造一切机会背单词、学英语，在公共场合甚至是以有点丢人的情况下，在朋友的不解中，自己找一个角落，",
+      "parts": [
+        {
+          "zh": "而且这个是最笨的办法呀，",
+          "vi": "Mà đây là cách ngốc nhất đấy,"
+        },
+        {
+          "zh": "就是无时无刻在所有场景见缝插针，",
+          "vi": "tức là lúc nào, ở đâu cũng tranh thủ từng chút,"
+        },
+        {
+          "zh": "给自己创造一切机会背单词、学英语，",
+          "vi": "tạo mọi cơ hội cho mình học từ, học tiếng Anh,"
+        },
+        {
+          "zh": "在公共场合甚至是",
+          "vi": "ở chỗ đông người, thậm chí là"
+        },
+        {
+          "zh": "以有点丢人的情况下，",
+          "vi": "trong tình cảnh hơi mất mặt,"
+        },
+        {
+          "zh": "在朋友的不解中，自己找一个角落，",
+          "vi": "giữa ánh mắt khó hiểu của bạn bè, tự tìm một góc,"
+        }
+      ]
+    },
+    "156": {
+      "zh": "然后练习英语演讲和英语发音。",
+      "vi": "rồi luyện thuyết trình và phát âm tiếng Anh."
+    },
+    "157": {
+      "zh": "就是非常笨的方法。",
+      "vi": "Là cách cực kỳ ngốc."
+    },
+    "158": {
+      "zh": "那我觉得一些应试的英语考试，比如说托福或者雅思，它的逻辑就更简单啦，",
+      "parts": [
+        {
+          "zh": "那我觉得一些应试的英语考试，",
+          "vi": "Còn tôi thấy mấy kỳ thi tiếng Anh kiểu luyện thi,"
+        },
+        {
+          "zh": "比如说托福或者雅思，",
+          "vi": "ví dụ TOEFL hay IELTS,"
+        },
+        {
+          "zh": "它的逻辑就更简单啦，",
+          "vi": "logic của nó còn đơn giản hơn,"
+        }
+      ]
+    },
+    "159": {
+      "zh": "完全可以利用高考的逻辑去看待所有的应试英语。",
+      "parts": [
+        {
+          "zh": "完全可以利用高考的逻辑",
+          "vi": "hoàn toàn có thể dùng logic thi đại học"
+        },
+        {
+          "zh": "去看待所有的应试英语。",
+          "vi": "để nhìn mọi thứ tiếng Anh luyện thi."
+        }
+      ]
+    },
+    "160": {
+      "zh": "它和你是否能真实跟老外对话的英语水平是没有任何连结的。",
+      "parts": [
+        {
+          "zh": "它和你是否能",
+          "vi": "Nó với việc bạn có thể"
+        },
+        {
+          "zh": "真实跟老外对话的英语水平",
+          "vi": "thật sự nói chuyện với người nước ngoài hay không"
+        },
+        {
+          "zh": "是没有任何连结的。",
+          "vi": "chẳng liên quan gì cả."
+        }
+      ]
+    },
+    "161": {
+      "zh": "我的第一次托福考了一百零六，第二次考了一百一十五，",
+      "parts": [
+        {
+          "zh": "我的第一次托福考了一百零六，",
+          "vi": "Lần đầu thi TOEFL tôi được 106,"
+        },
+        {
+          "zh": "第二次考了一百一十五，",
+          "vi": "lần hai được 115,"
+        }
+      ]
+    },
+    "162": {
+      "zh": "考完之后去了美国还是当了一年的哑巴，因为我在文化上没有跟他们进行流畅的。",
+      "parts": [
+        {
+          "zh": "考完之后去了美国",
+          "vi": "thi xong sang Mỹ"
+        },
+        {
+          "zh": "还是当了一年的哑巴，",
+          "vi": "vẫn làm người câm suốt một năm,"
+        },
+        {
+          "zh": "因为我在文化上",
+          "vi": "vì về mặt văn hóa tôi"
+        },
+        {
+          "zh": "没有跟他们进行流畅的。",
+          "vi": "không thể trôi chảy với họ."
+        }
+      ]
+    },
+    "163": {
+      "zh": "没有办法跟他们进行流畅的沟通，但是考托福也是通过笨办法。",
+      "parts": [
+        {
+          "zh": "没有办法跟他们进行流畅的沟通，",
+          "vi": "không thể giao tiếp trôi chảy với họ,"
+        },
+        {
+          "zh": "但是考托福也是通过笨办法。",
+          "vi": "nhưng thi TOEFL cũng là bằng cách ngốc."
+        }
+      ]
+    },
+    "164": {
+      "zh": "你去把你网上能够找到的所有托福真题都下载来，全部做一遍，给自己建立一个错题本，",
+      "parts": [
+        {
+          "zh": "你去把你网上能够找到的",
+          "vi": "Bạn tải về"
+        },
+        {
+          "zh": "所有托福真题都下载来，",
+          "vi": "tất cả đề TOEFL thật tìm được trên mạng,"
+        },
+        {
+          "zh": "全部做一遍，给自己建立一个错题本，",
+          "vi": "làm hết một lượt, lập cho mình một cuốn sổ câu sai,"
+        }
+      ]
+    },
+    "165": {
+      "zh": "把错掉的题目撕下来。",
+      "vi": "xé những câu làm sai ra."
+    },
+    "166": {
+      "zh": "呃，我我是这样子做的：撕下来粘到错题本上，然后一遍一遍的重做，直到错题本上不再有错题。",
+      "parts": [
+        {
+          "zh": "呃，我我是这样子做的：",
+          "vi": "Ờ, tôi, tôi đã làm thế này:"
+        },
+        {
+          "zh": "撕下来粘到错题本上，",
+          "vi": "xé ra dán vào sổ câu sai,"
+        },
+        {
+          "zh": "然后一遍一遍的重做，",
+          "vi": "rồi làm đi làm lại,"
+        },
+        {
+          "zh": "直到错题本上不再有错题。",
+          "vi": "cho tới khi trong sổ không còn câu nào sai."
+        }
+      ]
+    },
+    "167": {
+      "zh": "这就是高，这对我来说，这是我当时学习的逻辑啊！",
+      "parts": [
+        {
+          "zh": "这就是高，这对我来说，",
+          "vi": "Đây chính là thi đại... với tôi,"
+        },
+        {
+          "zh": "这是我当时学习的逻辑啊！",
+          "vi": "đây là logic học tập của tôi hồi đó!"
+        }
+      ]
+    },
+    "168": {
+      "zh": "我从小到大参加的所有考试，什么月考、期末考啊、中考，就是这个逻辑，就是像苦工。",
+      "parts": [
+        {
+          "zh": "我从小到大参加的所有考试，",
+          "vi": "Mọi kỳ thi tôi dự từ nhỏ tới lớn,"
+        },
+        {
+          "zh": "什么月考、期末考啊、中考，",
+          "vi": "nào thi tháng, thi cuối kỳ, thi vào cấp ba,"
+        },
+        {
+          "zh": "就是这个逻辑，就是像苦工。",
+          "vi": "đều là logic này, giống như khổ công vậy."
+        }
+      ]
+    },
+    "169": {
+      "zh": "然后确保自己理解了所有的错题。",
+      "vi": "Rồi đảm bảo mình hiểu hết mọi câu sai."
+    },
+    "170": {
+      "zh": "现在这句话说着很简单，当时也是很痛苦的，",
+      "parts": [
+        {
+          "zh": "现在这句话说着很简单，",
+          "vi": "Giờ nói câu này thì nghe đơn giản,"
+        },
+        {
+          "zh": "当时也是很痛苦的，",
+          "vi": "chứ hồi đó cũng khổ lắm,"
+        }
+      ]
+    },
+    "171": {
+      "zh": "因为没有人想把自己的屁股粘在座椅上凿壁偷光的学习。",
+      "parts": [
+        {
+          "zh": "因为没有人想把自己的屁股",
+          "vi": "vì chẳng ai muốn dán mông"
+        },
+        {
+          "zh": "粘在座椅上凿壁偷光的学习。",
+          "vi": "lên ghế mà đục vách mượn ánh sáng để học."
+        }
+      ]
+    },
+    "172": {
+      "zh": "嗯，但是应试的提升好像只有这一个途径，没有其他的捷径。",
+      "parts": [
+        {
+          "zh": "嗯，但是应试的提升",
+          "vi": "Ừm, nhưng muốn nâng điểm thi"
+        },
+        {
+          "zh": "好像只有这一个途径，",
+          "vi": "hình như chỉ có con đường này,"
+        },
+        {
+          "zh": "没有其他的捷径。",
+          "vi": "không có lối tắt nào khác."
+        }
+      ]
+    },
+    "173": {
+      "zh": "那这个时候你可能想问有没有什么快乐学习外语的办法？",
+      "parts": [
+        {
+          "zh": "那这个时候你可能想问",
+          "vi": "Thế thì lúc này có thể bạn muốn hỏi"
+        },
+        {
+          "zh": "有没有什么快乐学习外语的办法？",
+          "vi": "có cách nào học ngoại ngữ vui vẻ không?"
+        }
+      ]
+    },
+    "174": {
+      "zh": "作为一个在这件事情上自己坑过自己的人，我很想诚恳的告诉你：",
+      "parts": [
+        {
+          "zh": "作为一个在这件事情上",
+          "vi": "Là người từng"
+        },
+        {
+          "zh": "自己坑过自己的人，",
+          "vi": "tự hại mình trong chuyện này,"
+        },
+        {
+          "zh": "我很想诚恳的告诉你：",
+          "vi": "tôi rất muốn thành thật nói với bạn:"
+        }
+      ]
+    },
+    "175": {
+      "zh": "如果你想要快乐的学习外语，那你这门外语是学不好的。",
+      "parts": [
+        {
+          "zh": "如果你想要快乐的学习外语，",
+          "vi": "nếu bạn muốn học ngoại ngữ một cách vui vẻ,"
+        },
+        {
+          "zh": "那你这门外语是学不好的。",
+          "vi": "thì ngoại ngữ đó bạn sẽ không học giỏi được."
+        }
+      ]
+    },
+    "176": {
+      "zh": "法语是我目前学的最差的一门语言，我在高中时间整整浪费了两年在学习法语这件事情上，",
+      "parts": [
+        {
+          "zh": "法语是我目前学的最差的一门语言，",
+          "vi": "Tiếng Pháp là thứ tiếng tôi học kém nhất tới giờ,"
+        },
+        {
+          "zh": "我在高中时间整整浪费了两年",
+          "vi": "hồi cấp ba tôi phí trọn hai năm"
+        },
+        {
+          "zh": "在学习法语这件事情上，",
+          "vi": "vào chuyện học tiếng Pháp,"
+        }
+      ]
+    },
+    "177": {
+      "zh": "而且是通过美国人的方式学习法语。",
+      "vi": "mà lại học tiếng Pháp theo cách của người Mỹ."
+    },
+    "178": {
+      "zh": "美国人学习的方式就是一种快乐学习，我们课堂上是。甚至都不会让我们背太多词根背名词的性别要背的部分相对而言非常少而且美国人对于你的发音是完全不纠正的你知道为什么美国人在一整个西方世界会被人嘲笑说是外语懂得最少的白人就是美国人就是外语懂得最少的国家的人就是美国人作为一个经历了美国人自己的外语教学体系的人",
+      "parts": [
+        {
+          "zh": "美国人学习的方式",
+          "vi": "Cách người Mỹ học là"
+        },
+        {
+          "zh": "就是一种快乐学习，",
+          "vi": "một kiểu \"học vui\" (快乐学习),"
+        },
+        {
+          "zh": "我们课堂上是。甚至都不会让我们",
+          "vi": "trên lớp chúng tôi thì, thậm chí không bắt chúng tôi"
+        },
+        {
+          "zh": "背太多词根背名词的性别",
+          "vi": "học thuộc nhiều gốc từ, giống của danh từ,"
+        },
+        {
+          "zh": "要背的部分相对而言非常少",
+          "vi": "phần phải học thuộc tương đối rất ít,"
+        },
+        {
+          "zh": "而且美国人",
+          "vi": "hơn nữa người Mỹ"
+        },
+        {
+          "zh": "对于你的发音是完全不纠正的",
+          "vi": "hoàn toàn không sửa phát âm cho bạn."
+        },
+        {
+          "zh": "你知道为什么美国人",
+          "vi": "Bạn có biết vì sao người Mỹ"
+        },
+        {
+          "zh": "在一整个西方世界会被人嘲笑说",
+          "vi": "bị cả thế giới phương Tây chê cười rằng"
+        },
+        {
+          "zh": "是外语懂得最少的白人就是美国人",
+          "vi": "người da trắng biết ít ngoại ngữ nhất là người Mỹ,"
+        },
+        {
+          "zh": "就是外语懂得最少的国家的人",
+          "vi": "dân nước biết ít ngoại ngữ nhất"
+        },
+        {
+          "zh": "就是美国人",
+          "vi": "là người Mỹ?"
+        },
+        {
+          "zh": "作为一个经历了",
+          "vi": "Là một người đã trải qua"
+        },
+        {
+          "zh": "美国人自己的外语教学体系的人",
+          "vi": "chính hệ thống dạy ngoại ngữ của người Mỹ,"
+        }
+      ]
+    },
+    "182": {
+      "zh": "意识到美国校园里教学最大的问题就在于，他们想要用快乐的方式、寓教于乐的，",
+      "parts": [
+        {
+          "zh": "意识到美国校园里",
+          "vi": "tôi nhận ra ở trường học Mỹ"
+        },
+        {
+          "zh": "教学最大的问题就在于，",
+          "vi": "vấn đề lớn nhất của việc dạy là,"
+        },
+        {
+          "zh": "他们想要用快乐的方式、寓教于乐的，",
+          "vi": "họ muốn dùng cách vui vẻ, vừa học vừa chơi,"
+        }
+      ]
+    },
+    "183": {
+      "zh": "就这样把外语骗入你的脑子里了。",
+      "vi": "cứ thế lừa ngoại ngữ vào đầu bạn."
+    },
+    "184": {
+      "zh": "但是学外语的过程就是一个非常粗糙的背诵过程，你要是没有经历这种粗糙的鞭打，",
+      "parts": [
+        {
+          "zh": "但是学外语的过程",
+          "vi": "Nhưng học ngoại ngữ"
+        },
+        {
+          "zh": "就是一个非常粗糙的背诵过程，",
+          "vi": "là một quá trình học thuộc rất thô ráp,"
+        },
+        {
+          "zh": "你要是没有经历这种粗糙的鞭打，",
+          "vi": "nếu bạn chưa trải qua trận roi vọt thô ráp đó,"
+        }
+      ]
+    },
+    "185": {
+      "zh": "你是无法学会这门外语的。",
+      "vi": "thì bạn không học được ngoại ngữ đó đâu."
+    },
+    "186": {
+      "zh": "而且虽然说我刚才批评了网民对于别人口音的过度呃批评，但是。我觉得美国人他也走到了另外一个极端，那就是他们完全在美国课堂上不会对你的发音进行纠正。",
+      "parts": [
+        {
+          "zh": "而且虽然说我刚才批评了",
+          "vi": "Hơn nữa, tuy tôi vừa phê phán"
+        },
+        {
+          "zh": "网民对于别人口音的过度呃批评，",
+          "vi": "dân mạng quá, ờ, khắt khe với giọng người khác,"
+        },
+        {
+          "zh": "但是。我觉得美国人",
+          "vi": "nhưng tôi thấy người Mỹ"
+        },
+        {
+          "zh": "他也走到了另外一个极端，",
+          "vi": "cũng đi tới một thái cực khác,"
+        },
+        {
+          "zh": "那就是他们完全在美国课堂上",
+          "vi": "đó là trên lớp học ở Mỹ họ hoàn toàn"
+        },
+        {
+          "zh": "不会对你的发音进行纠正。",
+          "vi": "không sửa phát âm cho bạn."
+        }
+      ]
+    },
+    "188": {
+      "zh": "我在美国学了两年外语法法语的时候，大家知道法语的那个“ r”是一个小舌音，",
+      "parts": [
+        {
+          "zh": "我在美国学了两年",
+          "vi": "Lúc tôi học hai năm ở Mỹ"
+        },
+        {
+          "zh": "外语法法语的时候，",
+          "vi": "ngoại ngữ, tiếng Pháp, mọi người biết đấy,"
+        },
+        {
+          "zh": "大家知道法语的那个“ r”",
+          "vi": "âm \"r\" trong tiếng Pháp"
+        },
+        {
+          "zh": "是一个小舌音，",
+          "vi": "là âm lưỡi gà,"
+        }
+      ]
+    },
+    "189": {
+      "zh": "在课堂上几乎没有美国人会去主动发这个小舌音，老师也从来不纠正。",
+      "parts": [
+        {
+          "zh": "在课堂上几乎没有美国人",
+          "vi": "trên lớp gần như không có người Mỹ nào"
+        },
+        {
+          "zh": "会去主动发这个小舌音，",
+          "vi": "chủ động phát âm lưỡi gà này,"
+        },
+        {
+          "zh": "老师也从来不纠正。",
+          "vi": "giáo viên cũng chưa bao giờ sửa."
+        }
+      ]
+    },
+    "190": {
+      "zh": "就比如说，嗯，他们仍然会用美美语的呃英语美式英语的方式去发那个小舌音。",
+      "parts": [
+        {
+          "zh": "就比如说，嗯，他们仍然会用",
+          "vi": "Ví dụ, ừm, họ vẫn dùng"
+        },
+        {
+          "zh": "美美语的呃英语美式英语的方式",
+          "vi": "kiểu tiếng Mỹ, ờ, tiếng Anh, tiếng Anh-Mỹ"
+        },
+        {
+          "zh": "去发那个小舌音。",
+          "vi": "để phát cái âm lưỡi gà đó."
+        }
+      ]
+    },
+    "191": {
+      "zh": "比如说那个哲学家呃卢梭，但他们不会说胡索，他们会说卢梭。",
+      "parts": [
+        {
+          "zh": "比如说那个哲学家呃卢梭，",
+          "vi": "Ví dụ nhà triết học, ờ, Rousseau,"
+        },
+        {
+          "zh": "但他们不会说胡索，他们会说卢梭。",
+          "vi": "họ sẽ không nói \"Hu-xô\" kiểu Pháp, mà nói \"Ru-xô\" kiểu Mỹ."
+        }
+      ]
+    },
+    "192": {
+      "zh": "就所有人都会用美国的那个R，比如说比如说Paris，他们不会说，",
+      "parts": [
+        {
+          "zh": "就所有人都会用美国的那个R，",
+          "vi": "Tức là ai cũng dùng âm R kiểu Mỹ,"
+        },
+        {
+          "zh": "比如说比如说Paris，",
+          "vi": "ví dụ, ví dụ Paris,"
+        },
+        {
+          "zh": "他们不会说，",
+          "vi": "họ sẽ không nói,"
+        }
+      ]
+    },
+    "193": {
+      "zh": "他们会说Paris之类的，他们不会说Paris，他们不会这样子说。",
+      "parts": [
+        {
+          "zh": "他们会说Paris之类的，",
+          "vi": "họ sẽ nói \"Paris\" (giọng Mỹ) các kiểu,"
+        },
+        {
+          "zh": "他们不会说Paris，",
+          "vi": "họ không nói \"Paris\" (giọng Pháp),"
+        },
+        {
+          "zh": "他们不会这样子说。",
+          "vi": "họ không nói như thế."
+        }
+      ]
+    },
+    "194": {
+      "zh": "我跟大家就是有这样子一个很微妙的心态，嗯，我跟大家描绘一下，",
+      "parts": [
+        {
+          "zh": "我跟大家就是",
+          "vi": "Tôi với mọi người ấy,"
+        },
+        {
+          "zh": "有这样子一个很微妙的心态，",
+          "vi": "có một tâm lý rất tế nhị thế này,"
+        },
+        {
+          "zh": "嗯，我跟大家描绘一下，",
+          "vi": "ừm, để tôi tả cho mọi người nghe,"
+        }
+      ]
+    },
+    "195": {
+      "zh": "就是足够说明美国人对于发音这个方面有点不上心，有多么不上心。",
+      "parts": [
+        {
+          "zh": "就是足够说明美国人对于发音",
+          "vi": "đủ thấy người Mỹ với chuyện phát âm"
+        },
+        {
+          "zh": "这个方面有点不上心，有多么不上心。",
+          "vi": "hơi không để tâm, không để tâm đến mức nào."
+        }
+      ]
+    },
+    "196": {
+      "zh": "我自己发小舌音的时候。",
+      "vi": "Khi chính tôi phát âm lưỡi gà."
+    },
+    "197": {
+      "zh": "我甚至会感到有一种羞耻感，我会觉得全我们班同学感到我在装逼。",
+      "parts": [
+        {
+          "zh": "我甚至会感到有一种羞耻感，",
+          "vi": "Tôi thậm chí thấy xấu hổ,"
+        },
+        {
+          "zh": "我会觉得",
+          "vi": "tôi sẽ cảm thấy"
+        },
+        {
+          "zh": "全我们班同学感到我在装逼。",
+          "vi": "cả lớp nghĩ là tôi đang làm màu."
+        }
+      ]
+    },
+    "198": {
+      "zh": "我我甚至会有点不好意思去发小舌音，这就足以说明当时学校这种快乐学习，嗯，",
+      "parts": [
+        {
+          "zh": "我我甚至会有点不好意思",
+          "vi": "Tôi, tôi thậm chí hơi ngại"
+        },
+        {
+          "zh": "去发小舌音，",
+          "vi": "phát âm lưỡi gà,"
+        },
+        {
+          "zh": "这就足以说明",
+          "vi": "điều đó đủ thấy"
+        },
+        {
+          "zh": "当时学校这种快乐学习，嗯，",
+          "vi": "kiểu \"học vui\" ở trường hồi đó, ừm,"
+        }
+      ]
+    },
+    "199": {
+      "zh": "对于认真好学的人来说是一个具有一个摧毁性的打压的。",
+      "parts": [
+        {
+          "zh": "对于认真好学的人来说",
+          "vi": "đối với người nghiêm túc ham học"
+        },
+        {
+          "zh": "是一个具有一个摧毁性的打压的。",
+          "vi": "là một đòn dập tắt có sức hủy diệt."
+        }
+      ]
+    },
+    "200": {
+      "zh": "这是我个人的感受。",
+      "vi": "Đây là cảm nhận cá nhân tôi."
+    },
+    "201": {
+      "zh": "当然，我相信在美美国，嗯，真的是有很好的老师的。",
+      "parts": [
+        {
+          "zh": "当然，我相信在美美国，",
+          "vi": "Tất nhiên, tôi tin ở Mỹ,"
+        },
+        {
+          "zh": "嗯，真的是有很好的老师的。",
+          "vi": "ừm, thật sự có giáo viên rất giỏi."
+        }
+      ]
+    },
+    "202": {
+      "zh": "我只是我只是在描绘一个比较普遍的现象。",
+      "parts": [
+        {
+          "zh": "我只是我只是在描绘",
+          "vi": "Tôi chỉ, tôi chỉ đang mô tả"
+        },
+        {
+          "zh": "一个比较普遍的现象。",
+          "vi": "một hiện tượng khá phổ biến."
+        }
+      ]
+    },
+    "203": {
+      "zh": "所以就这样两年学习下来，我的法语水平是我所有外语中最薄弱的。",
+      "parts": [
+        {
+          "zh": "所以就这样两年学习下来，",
+          "vi": "Nên cứ thế học hai năm,"
+        },
+        {
+          "zh": "我的法语水平",
+          "vi": "tiếng Pháp của tôi"
+        },
+        {
+          "zh": "是我所有外语中最薄弱的。",
+          "vi": "là yếu nhất trong mọi ngoại ngữ của tôi."
+        }
+      ]
+    },
+    "204": {
+      "zh": "因为我除了在课堂里面进行快乐学习之外，我也没有在课外自己去学习法语。",
+      "parts": [
+        {
+          "zh": "因为我除了在课堂里面",
+          "vi": "Vì ngoài việc trên lớp"
+        },
+        {
+          "zh": "进行快乐学习之外，",
+          "vi": "\"học vui\" ra,"
+        },
+        {
+          "zh": "我也没有在课外自己去学习法语。",
+          "vi": "tôi cũng không tự học thêm tiếng Pháp ngoài giờ."
+        }
+      ]
+    },
+    "205": {
+      "zh": "那你可能会问：美国人难道没有把一门外语学得很好的人吗？",
+      "parts": [
+        {
+          "zh": "那你可能会问：美国人难道没有",
+          "vi": "Thế bạn có thể hỏi: người Mỹ chẳng lẽ không có"
+        },
+        {
+          "zh": "把一门外语学得很好的人吗？",
+          "vi": "ai học giỏi một ngoại ngữ sao?"
+        }
+      ]
+    },
+    "206": {
+      "zh": "当然有啊。",
+      "vi": "Có chứ."
+    },
+    "207": {
+      "zh": "那他们用这种快乐学习的方法怎么把外语学得很好呢？",
+      "parts": [
+        {
+          "zh": "那他们用这种快乐学习的方法",
+          "vi": "Vậy họ dùng cách \"học vui\" đó"
+        },
+        {
+          "zh": "怎么把外语学得很好呢？",
+          "vi": "mà học giỏi ngoại ngữ kiểu gì?"
+        }
+      ]
+    },
+    "208": {
+      "zh": "我觉得其实这个也就体现了美国的阶级差距吧。",
+      "parts": [
+        {
+          "zh": "我觉得其实这个",
+          "vi": "Tôi nghĩ thật ra chuyện này"
+        },
+        {
+          "zh": "也就体现了美国的阶级差距吧。",
+          "vi": "cũng phản ánh khoảng cách giai cấp ở Mỹ."
+        }
+      ]
+    },
+    "209": {
+      "zh": "比如说，我当时的高中室友，他跟我是一个法语班的，但是后来他的法语进步的飞快，",
+      "parts": [
+        {
+          "zh": "比如说，我当时的高中室友，",
+          "vi": "Ví dụ, bạn cùng phòng của tôi hồi cấp ba,"
+        },
+        {
+          "zh": "他跟我是一个法语班的，",
+          "vi": "học chung lớp tiếng Pháp với tôi,"
+        },
+        {
+          "zh": "但是后来他的法语进步的飞快，",
+          "vi": "nhưng sau đó tiếng Pháp của bạn ấy tiến bộ vù vù,"
+        }
+      ]
+    },
+    "210": {
+      "zh": "他也没有在额外上很多补习班。",
+      "vi": "bạn ấy cũng không đi học thêm nhiều."
+    },
+    "211": {
+      "zh": "那他也没有像我学英语那样悬梁刺股的去背法语单词，他的法语是怎么学的呢？",
+      "parts": [
+        {
+          "zh": "那他也没有像我学英语那样",
+          "vi": "Bạn ấy cũng không như tôi học tiếng Anh,"
+        },
+        {
+          "zh": "悬梁刺股的去背法语单词，",
+          "vi": "dùi mài khổ sở để học thuộc từ tiếng Pháp,"
+        },
+        {
+          "zh": "他的法语是怎么学的呢？",
+          "vi": "vậy tiếng Pháp của bạn ấy học thế nào?"
+        }
+      ]
+    },
+    "212": {
+      "zh": "后来我知道，原来他爸妈妈在南法有一个嗯就是度假度假房，他们每年都会去南法度假。",
+      "parts": [
+        {
+          "zh": "后来我知道，原来他爸妈妈在南法",
+          "vi": "Sau này tôi mới biết, hóa ra bố mẹ bạn ấy ở miền Nam nước Pháp"
+        },
+        {
+          "zh": "有一个嗯就是度假度假房，",
+          "vi": "có một, ừm, căn nhà nghỉ dưỡng,"
+        },
+        {
+          "zh": "他们每年都会去南法度假。",
+          "vi": "năm nào họ cũng sang miền Nam nước Pháp nghỉ."
+        }
+      ]
+    },
+    "213": {
+      "zh": "然后他每年暑假会在南法跟法国人一起生活，在法国还有厨师、保姆什么的。",
+      "parts": [
+        {
+          "zh": "然后他每年暑假会在南法",
+          "vi": "Rồi mỗi kỳ nghỉ hè bạn ấy ở miền Nam nước Pháp"
+        },
+        {
+          "zh": "跟法国人一起生活，",
+          "vi": "sống cùng người Pháp,"
+        },
+        {
+          "zh": "在法国还有厨师、保姆什么的。",
+          "vi": "ở Pháp còn có đầu bếp, bảo mẫu các kiểu."
+        }
+      ]
+    },
+    "214": {
+      "zh": "所以说你可以看到，我刚才分享的一个嗯，",
+      "parts": [
+        {
+          "zh": "所以说你可以看到，",
+          "vi": "Nên bạn có thể thấy,"
+        },
+        {
+          "zh": "我刚才分享的一个嗯，",
+          "vi": "cái mà tôi vừa chia sẻ, ừm,"
+        }
+      ]
+    },
+    "215": {
+      "zh": "就是我刚才分享的方法是每一个经济条件一般的人都可以学习外语的笨方法。",
+      "parts": [
+        {
+          "zh": "就是我刚才分享的方法",
+          "vi": "tức là cách tôi vừa chia sẻ"
+        },
+        {
+          "zh": "是每一个经济条件一般的人",
+          "vi": "là cách ngốc mà ai có điều kiện kinh tế bình thường"
+        },
+        {
+          "zh": "都可以学习外语的笨方法。",
+          "vi": "cũng có thể dùng để học ngoại ngữ."
+        }
+      ]
+    },
+    "216": {
+      "zh": "但是像我的高中室友，他的法语之所以可以学得这么好，",
+      "parts": [
+        {
+          "zh": "但是像我的高中室友，",
+          "vi": "Còn như bạn cùng phòng cấp ba của tôi,"
+        },
+        {
+          "zh": "他的法语之所以可以学得这么好，",
+          "vi": "sở dĩ tiếng Pháp giỏi như vậy,"
+        }
+      ]
+    },
+    "217": {
+      "zh": "就是因为他爸爸妈妈给他创造了一个优越的法语环境，他可以在这个法语环境里，",
+      "parts": [
+        {
+          "zh": "就是因为他爸爸妈妈",
+          "vi": "là vì bố mẹ đã"
+        },
+        {
+          "zh": "给他创造了一个优越的法语环境，",
+          "vi": "tạo cho bạn ấy một môi trường tiếng Pháp tuyệt vời,"
+        },
+        {
+          "zh": "他可以在这个法语环境里，",
+          "vi": "bạn ấy có thể ở trong môi trường đó,"
+        }
+      ]
+    },
+    "218": {
+      "zh": "就像那个法语就像细胞渗透一样。",
+      "vi": "tiếng Pháp cứ như thẩm thấu qua tế bào."
+    },
+    "219": {
+      "zh": "不知不觉的就渗透进来了，但是这是一个很奢侈的方法。",
+      "parts": [
+        {
+          "zh": "不知不觉的就渗透进来了，",
+          "vi": "Bất giác mà ngấm vào người,"
+        },
+        {
+          "zh": "但是这是一个很奢侈的方法。",
+          "vi": "nhưng đây là một cách rất xa xỉ."
+        }
+      ]
+    },
+    "220": {
+      "zh": "所以啊，啊对，再说一句，你不要以为我只是因为学法语没学好，我就以偏概全，",
+      "parts": [
+        {
+          "zh": "所以啊，啊对，再说一句，",
+          "vi": "Nên đó, à đúng, nói thêm một câu,"
+        },
+        {
+          "zh": "你不要以为我只是因为",
+          "vi": "bạn đừng tưởng tôi chỉ vì"
+        },
+        {
+          "zh": "学法语没学好，我就以偏概全，",
+          "vi": "học tiếng Pháp không tốt mà vơ đũa cả nắm,"
+        }
+      ]
+    },
+    "221": {
+      "zh": "就觉得美国都是快乐学习。",
+      "vi": "rồi cho rằng ở Mỹ toàn là \"học vui\"."
+    },
+    "222": {
+      "zh": "除了法语之外，我在阿拉伯语上我也看到了美国快乐学习的弊端，以及美国人为什么外语这么差。",
+      "parts": [
+        {
+          "zh": "除了法语之外，我在阿拉伯语上",
+          "vi": "Ngoài tiếng Pháp, ở tiếng Ả Rập"
+        },
+        {
+          "zh": "我也看到了美国快乐学习的弊端，",
+          "vi": "tôi cũng thấy mặt trái của \"học vui\" kiểu Mỹ,"
+        },
+        {
+          "zh": "以及美国人为什么外语这么差。",
+          "vi": "và vì sao ngoại ngữ của người Mỹ tệ như vậy."
+        }
+      ]
+    },
+    "223": {
+      "zh": "我当时好像是大二吧，我当时那一年也是有点像在疯了一样的学习阿拉伯语。",
+      "parts": [
+        {
+          "zh": "我当时好像是大二吧，",
+          "vi": "Hồi đó hình như là năm hai đại học,"
+        },
+        {
+          "zh": "我当时那一年也是",
+          "vi": "năm đó tôi cũng"
+        },
+        {
+          "zh": "有点像在疯了一样的学习阿拉伯语。",
+          "vi": "học tiếng Ả Rập như điên."
+        }
+      ]
+    },
+    "224": {
+      "zh": "因为我在高中的时候非常想学阿拉伯语，但是我们高中没有这门课，所以我就憋着一股子劲，",
+      "parts": [
+        {
+          "zh": "因为我在高中的时候",
+          "vi": "Vì hồi cấp ba"
+        },
+        {
+          "zh": "非常想学阿拉伯语，",
+          "vi": "tôi rất muốn học tiếng Ả Rập,"
+        },
+        {
+          "zh": "但是我们高中没有这门课，",
+          "vi": "nhưng trường cấp ba không có môn này,"
+        },
+        {
+          "zh": "所以我就憋着一股子劲，",
+          "vi": "nên tôi cứ nén một cục tức,"
+        }
+      ]
+    },
+    "225": {
+      "zh": "对吧？",
+      "vi": "đúng không?"
+    },
+    "226": {
+      "zh": "愤怒的进入了阿呃大学之后就开始报复性学习阿拉伯语。",
+      "parts": [
+        {
+          "zh": "愤怒的进入了阿呃大学之后",
+          "vi": "hậm hực vào đại... ờ, đại học,"
+        },
+        {
+          "zh": "就开始报复性学习阿拉伯语。",
+          "vi": "rồi bắt đầu học tiếng Ả Rập như trả thù."
+        }
+      ]
+    },
+    "227": {
+      "zh": "我当时在一个沉浸式的阿拉伯语学校待了三个月，那虽然说也是一个美国学校，",
+      "parts": [
+        {
+          "zh": "我当时在一个沉浸式的",
+          "vi": "Hồi đó tôi ở một trường tiếng Ả Rập"
+        },
+        {
+          "zh": "阿拉伯语学校待了三个月，",
+          "vi": "kiểu ngâm mình trong môi trường suốt ba tháng,"
+        },
+        {
+          "zh": "那虽然说也是一个美国学校，",
+          "vi": "tuy đó cũng là một trường của Mỹ,"
+        }
+      ]
+    },
+    "228": {
+      "zh": "但是它是美国最好的语言学校，就叫做明德Middlebury的嗯暑期夏校，",
+      "parts": [
+        {
+          "zh": "但是它是美国最好的语言学校，",
+          "vi": "nhưng nó là trường ngôn ngữ tốt nhất nước Mỹ,"
+        },
+        {
+          "zh": "就叫做明德Middlebury的嗯暑期夏校，",
+          "vi": "gọi là trường hè Middlebury (明德),"
+        }
+      ]
+    },
+    "229": {
+      "zh": "它有它有很多种语言。",
+      "vi": "nó, nó có rất nhiều thứ tiếng."
+    },
+    "230": {
+      "zh": "我当时是在它的阿拉伯语学校里。",
+      "vi": "Tôi học ở trường tiếng Ả Rập của nó."
+    },
+    "231": {
+      "zh": "待了三个月，然后我从那个学校出来的时候，我脑子里面下意识脱口而出的就是阿拉伯语了。",
+      "parts": [
+        {
+          "zh": "待了三个月，",
+          "vi": "Ở đó ba tháng,"
+        },
+        {
+          "zh": "然后我从那个学校出来的时候，",
+          "vi": "rồi khi tôi ra khỏi trường,"
+        },
+        {
+          "zh": "我脑子里面下意识脱口而出的",
+          "vi": "thứ bật ra khỏi miệng theo phản xạ trong đầu tôi"
+        },
+        {
+          "zh": "就是阿拉伯语了。",
+          "vi": "đã là tiếng Ả Rập rồi."
+        }
+      ]
+    },
+    "232": {
+      "zh": "当时也是挺疯狂的，就是我当时也是用学英语的方法背了很多很多单词，",
+      "parts": [
+        {
+          "zh": "当时也是挺疯狂的，",
+          "vi": "Hồi đó cũng điên lắm,"
+        },
+        {
+          "zh": "就是我当时也是用学英语的方法",
+          "vi": "tức là hồi đó tôi cũng dùng cách học tiếng Anh"
+        },
+        {
+          "zh": "背了很多很多单词，",
+          "vi": "học thuộc rất rất nhiều từ,"
+        }
+      ]
+    },
+    "233": {
+      "zh": "所以我在那个时候虽然说只学了一年的阿拉伯语，嗯，但是其实已经学的还不错了，",
+      "parts": [
+        {
+          "zh": "所以我在那个时候",
+          "vi": "nên lúc đó"
+        },
+        {
+          "zh": "虽然说只学了一年的阿拉伯语，",
+          "vi": "tuy mới học tiếng Ả Rập có một năm,"
+        },
+        {
+          "zh": "嗯，但是其实已经学的还不错了，",
+          "vi": "ừm, nhưng thật ra đã học khá ổn rồi,"
+        }
+      ]
+    },
+    "234": {
+      "zh": "一板有有一板有板有眼了。",
+      "vi": "nói năng đâu ra đấy rồi."
+    },
+    "235": {
+      "zh": "嗯，开学了之后呢，我就走直接走进我们学校那个阿拉伯语系主任的办公室，我。我就用阿拉伯语直接跟他对话我说大哥哈比比你觉得我这个水平应该去哪个阿拉伯语班呢我想要接着提升我的阿拉伯语然后这个教授大哥他就看着我的这个阿拉伯语水平他就愣了半天他说嗯我觉得没有适合你的阿拉伯语班但是你可以跟着我一起上最高级班然后我就跟着他在那个最高级的班上了一个学期的课那个时候我们班上除了我，其他都是阿拉伯语专业的美国同学。",
+      "parts": [
+        {
+          "zh": "嗯，开学了之后呢，",
+          "vi": "Ừm, vào năm học rồi thì,"
+        },
+        {
+          "zh": "我就走直接走进我们学校",
+          "vi": "tôi đi thẳng vào"
+        },
+        {
+          "zh": "那个阿拉伯语系主任的办公室，",
+          "vi": "văn phòng trưởng khoa tiếng Ả Rập của trường,"
+        },
+        {
+          "zh": "我。我就用阿拉伯语直接跟他对话",
+          "vi": "tôi... tôi nói chuyện thẳng với ông ấy bằng tiếng Ả Rập,"
+        },
+        {
+          "zh": "我说大哥哈比比",
+          "vi": "tôi nói: \"Đại ca habibi,"
+        },
+        {
+          "zh": "你觉得我这个水平",
+          "vi": "anh thấy với trình độ của tôi"
+        },
+        {
+          "zh": "应该去哪个阿拉伯语班呢",
+          "vi": "nên vào lớp tiếng Ả Rập nào?"
+        },
+        {
+          "zh": "我想要接着提升我的阿拉伯语",
+          "vi": "Tôi muốn nâng tiếng Ả Rập lên nữa.\""
+        },
+        {
+          "zh": "然后这个教授大哥",
+          "vi": "Rồi ông giáo sư đại ca này"
+        },
+        {
+          "zh": "他就看着我的这个阿拉伯语水平",
+          "vi": "nhìn trình độ tiếng Ả Rập của tôi"
+        },
+        {
+          "zh": "他就愣了半天",
+          "vi": "rồi đơ ra một lúc lâu,"
+        },
+        {
+          "zh": "他说嗯我觉得",
+          "vi": "ông ấy nói: \"Ừm, tôi thấy"
+        },
+        {
+          "zh": "没有适合你的阿拉伯语班",
+          "vi": "không có lớp tiếng Ả Rập nào hợp với em,"
+        },
+        {
+          "zh": "但是你可以跟着我一起上最高级班",
+          "vi": "nhưng em có thể học lớp cao nhất với tôi.\""
+        },
+        {
+          "zh": "然后我就跟着他在那个最高级的班",
+          "vi": "Thế là tôi theo ông ấy ở lớp cao nhất đó"
+        },
+        {
+          "zh": "上了一个学期的课",
+          "vi": "học một học kỳ,"
+        },
+        {
+          "zh": "那个时候我们班上除了我，",
+          "vi": "lúc đó lớp chúng tôi ngoài tôi ra,"
+        },
+        {
+          "zh": "其他都是阿拉伯语专业的美国同学。",
+          "vi": "toàn là sinh viên Mỹ chuyên ngành tiếng Ả Rập."
+        }
+      ]
+    },
+    "240": {
+      "zh": "大家知道那个时候我才学了一年的阿拉伯语，那个班上所有人都是大四的学生了，",
+      "parts": [
+        {
+          "zh": "大家知道那个时候",
+          "vi": "Mọi người biết không, lúc đó"
+        },
+        {
+          "zh": "我才学了一年的阿拉伯语，",
+          "vi": "tôi mới học tiếng Ả Rập có một năm,"
+        },
+        {
+          "zh": "那个班上所有人都是大四的学生了，",
+          "vi": "cả lớp đó đều là sinh viên năm tư rồi,"
+        }
+      ]
+    },
+    "241": {
+      "zh": "他们已经学了四年的阿拉伯语了，但是没有一个人有像我这样开口说话的能力，",
+      "parts": [
+        {
+          "zh": "他们已经学了四年的阿拉伯语了，",
+          "vi": "họ đã học tiếng Ả Rập bốn năm rồi,"
+        },
+        {
+          "zh": "但是没有一个人",
+          "vi": "nhưng không một ai"
+        },
+        {
+          "zh": "有像我这样开口说话的能力，",
+          "vi": "có khả năng mở miệng nói được như tôi,"
+        }
+      ]
+    },
+    "242": {
+      "zh": "除了几个本身就是阿拉伯裔，在家里面会跟他爸爸妈妈讲阿拉伯语的学生。",
+      "parts": [
+        {
+          "zh": "除了几个本身就是阿拉伯裔，",
+          "vi": "trừ vài người vốn gốc Ả Rập,"
+        },
+        {
+          "zh": "在家里面会跟他爸爸妈妈",
+          "vi": "ở nhà vẫn nói với bố mẹ"
+        },
+        {
+          "zh": "讲阿拉伯语的学生。",
+          "vi": "bằng tiếng Ả Rập."
+        }
+      ]
+    },
+    "243": {
+      "zh": "不过他们这种人就是跟咱中国人在美国上中文水课那个感觉是一样的嘛，所以咱们不跟这种人比。",
+      "parts": [
+        {
+          "zh": "不过他们这种人就是",
+          "vi": "Nhưng mấy người đó thì"
+        },
+        {
+          "zh": "跟咱中国人在美国上中文水课",
+          "vi": "giống người Trung Quốc mình ở Mỹ học lớp tiếng Trung lấy điểm,"
+        },
+        {
+          "zh": "那个感觉是一样的嘛，",
+          "vi": "cảm giác y như vậy mà,"
+        },
+        {
+          "zh": "所以咱们不跟这种人比。",
+          "vi": "nên mình không so với mấy người đó."
+        }
+      ]
+    },
+    "244": {
+      "zh": "那些学阿拉伯语的美国人，他们没有一个人有像我这样的词汇量，因为他们不会不会背，",
+      "parts": [
+        {
+          "zh": "那些学阿拉伯语的美国人，",
+          "vi": "Những người Mỹ học tiếng Ả Rập đó,"
+        },
+        {
+          "zh": "他们没有一个人",
+          "vi": "không một ai trong số họ"
+        },
+        {
+          "zh": "有像我这样的词汇量，",
+          "vi": "có vốn từ như tôi,"
+        },
+        {
+          "zh": "因为他们不会不会背，",
+          "vi": "vì họ không, không biết học thuộc,"
+        }
+      ]
+    },
+    "245": {
+      "zh": "你知道吗？",
+      "vi": "bạn biết không?"
+    },
+    "246": {
+      "zh": "他们不够狠。",
+      "vi": "Họ không đủ quyết liệt."
+    },
+    "247": {
+      "zh": "我觉得就是美国人生活太幸福了，没有挫折，缺乏咱们学习的那种悲愤的状态。",
+      "parts": [
+        {
+          "zh": "我觉得就是美国人生活太幸福了，",
+          "vi": "Tôi nghĩ là người Mỹ sống sướng quá,"
+        },
+        {
+          "zh": "没有挫折，",
+          "vi": "không có trắc trở,"
+        },
+        {
+          "zh": "缺乏咱们学习的那种悲愤的状态。",
+          "vi": "thiếu cái trạng thái uất ức khi học như chúng ta."
+        }
+      ]
+    },
+    "248": {
+      "zh": "就是我要是不把这个知识吸收进我的大脑，我就是一个精神残疾的人。",
+      "parts": [
+        {
+          "zh": "就是我要是不把这个知识",
+          "vi": "Tức là nếu tôi không nạp được kiến thức này"
+        },
+        {
+          "zh": "吸收进我的大脑，",
+          "vi": "vào đầu mình,"
+        },
+        {
+          "zh": "我就是一个精神残疾的人。",
+          "vi": "thì tôi là một kẻ tàn tật về tinh thần."
+        }
+      ]
+    },
+    "249": {
+      "zh": "我不知道大家。",
+      "vi": "Không biết mọi người."
+    },
+    "250": {
+      "zh": "我不知道大家可不可以引起共鸣啊？",
+      "vi": "Không biết mọi người có đồng cảm không?"
+    },
+    "251": {
+      "zh": "但是我经常我学习语言的时候，我就是会有这样子一个悲愤的心态，",
+      "parts": [
+        {
+          "zh": "但是我经常我学习语言的时候，",
+          "vi": "Nhưng khi học ngôn ngữ tôi thường,"
+        },
+        {
+          "zh": "我就是会有这样子一个悲愤的心态，",
+          "vi": "tôi hay có cái tâm thế uất ức như vậy,"
+        }
+      ]
+    },
+    "252": {
+      "zh": "就是我他妈必须要把这个知识吸收进我的大脑。",
+      "parts": [
+        {
+          "zh": "就是我他妈必须要",
+          "vi": "kiểu mẹ kiếp, tôi nhất định phải"
+        },
+        {
+          "zh": "把这个知识吸收进我的大脑。",
+          "vi": "nạp được kiến thức này vào đầu."
+        }
+      ]
+    },
+    "253": {
+      "zh": "我今天就跟你死磕到底了！",
+      "vi": "Hôm nay tao chơi tới cùng với mày!"
+    },
+    "254": {
+      "zh": "我要是我要是不学习这个单词，我就是一个精神上的哑巴。",
+      "parts": [
+        {
+          "zh": "我要是我要是不学习这个单词，",
+          "vi": "Nếu tôi, nếu tôi không học từ này,"
+        },
+        {
+          "zh": "我就是一个精神上的哑巴。",
+          "vi": "tôi sẽ là một kẻ câm về tinh thần."
+        }
+      ]
+    },
+    "255": {
+      "zh": "反正我从来没有在美国人身上见到这种心态，就导致我大二那年。",
+      "parts": [
+        {
+          "zh": "反正我从来没有",
+          "vi": "Dù sao tôi chưa từng"
+        },
+        {
+          "zh": "在美国人身上见到这种心态，",
+          "vi": "thấy tâm thế này ở người Mỹ,"
+        },
+        {
+          "zh": "就导致我大二那年。",
+          "vi": "nên mới dẫn tới năm hai đại học ấy."
+        }
+      ]
+    },
+    "256": {
+      "zh": "我在我们学校那个阿拉伯语最高班跟那群阿拉伯语专业的学生一起上课的时候，",
+      "parts": [
+        {
+          "zh": "我在我们学校那个阿拉伯语最高班",
+          "vi": "Lúc tôi ở lớp tiếng Ả Rập cao nhất trường"
+        },
+        {
+          "zh": "跟那群阿拉伯语专业的学生",
+          "vi": "cùng đám sinh viên chuyên ngành tiếng Ả Rập"
+        },
+        {
+          "zh": "一起上课的时候，",
+          "vi": "học chung với nhau,"
+        }
+      ]
+    },
+    "257": {
+      "zh": "就有一种瞠目结舌的失望吧。",
+      "vi": "thì có một nỗi thất vọng đến sững sờ."
+    },
+    "258": {
+      "zh": "就是有一种美国完了，你们这群人怪不得整天被欧洲人嘲笑说一个一句外语都不会。",
+      "parts": [
+        {
+          "zh": "就是有一种美国完了，",
+          "vi": "Kiểu như nước Mỹ toi rồi,"
+        },
+        {
+          "zh": "你们这群人怪不得",
+          "vi": "bảo sao các người"
+        },
+        {
+          "zh": "整天被欧洲人嘲笑说",
+          "vi": "suốt ngày bị người châu Âu chê cười là"
+        },
+        {
+          "zh": "一个一句外语都不会。",
+          "vi": "một câu ngoại ngữ cũng không biết."
+        }
+      ]
+    },
+    "259": {
+      "zh": "你们学了四年了还是这个水平？",
+      "vi": "Các người học bốn năm rồi mà vẫn trình độ này à?"
+    },
+    "260": {
+      "zh": "OK，我播客录了一半，看了一下手机，忽然发现有一个人私信我，叫我讨论如何学习德语。",
+      "parts": [
+        {
+          "zh": "OK，我播客录了一半，看了一下手机，",
+          "vi": "OK, tôi thu podcast được một nửa, liếc điện thoại,"
+        },
+        {
+          "zh": "忽然发现有一个人私信我，",
+          "vi": "bỗng thấy có người nhắn riêng,"
+        },
+        {
+          "zh": "叫我讨论如何学习德语。",
+          "vi": "bảo tôi nói về cách học tiếng Đức."
+        }
+      ]
+    },
+    "261": {
+      "zh": "嗯，这个时间点算的非常好，我正好在说话呢。",
+      "parts": [
+        {
+          "zh": "嗯，这个时间点算的非常好，",
+          "vi": "Ừm, thời điểm này canh chuẩn ghê,"
+        },
+        {
+          "zh": "我正好在说话呢。",
+          "vi": "đúng lúc tôi đang nói luôn."
+        }
+      ]
+    },
+    "262": {
+      "zh": "学习德语的逻辑对我来说跟学习英语没有任何区别，唯一更加烦人的是英语只需要背名词，",
+      "parts": [
+        {
+          "zh": "学习德语的逻辑对我来说",
+          "vi": "Logic học tiếng Đức với tôi"
+        },
+        {
+          "zh": "跟学习英语没有任何区别，",
+          "vi": "chẳng khác gì học tiếng Anh,"
+        },
+        {
+          "zh": "唯一更加烦人的是",
+          "vi": "cái phiền hơn duy nhất là"
+        },
+        {
+          "zh": "英语只需要背名词，",
+          "vi": "tiếng Anh chỉ cần học thuộc danh từ,"
+        }
+      ]
+    },
+    "263": {
+      "zh": "德语还需要背它是中性的还是雄性的还有雌性呢？",
+      "parts": [
+        {
+          "zh": "德语还需要背",
+          "vi": "còn tiếng Đức phải học thuộc thêm"
+        },
+        {
+          "zh": "它是中性的还是雄性的还有雌性呢？",
+          "vi": "nó là giống trung, giống đực hay giống cái nữa?"
+        }
+      ]
+    },
+    "264": {
+      "zh": "但是我想说的是，所有语言学习的逻辑都是通的。",
+      "parts": [
+        {
+          "zh": "但是我想说的是，",
+          "vi": "Nhưng điều tôi muốn nói là,"
+        },
+        {
+          "zh": "所有语言学习的逻辑都是通的。",
+          "vi": "logic học mọi ngôn ngữ đều thông nhau."
+        }
+      ]
+    },
+    "265": {
+      "zh": "在我被德语折磨之前，因为我已经被希腊语和拉丁语折磨过四年了。",
+      "parts": [
+        {
+          "zh": "在我被德语折磨之前，",
+          "vi": "Trước khi bị tiếng Đức hành,"
+        },
+        {
+          "zh": "因为我已经被希腊语和拉丁语",
+          "vi": "vì tôi đã bị tiếng Hy Lạp và tiếng Latin"
+        },
+        {
+          "zh": "折磨过四年了。",
+          "vi": "hành suốt bốn năm rồi."
+        }
+      ]
+    },
+    "266": {
+      "zh": "还学过两年德语，我说错了，学过还学过两年法语，所以说德语在我眼中它确实比英语要难呢。",
+      "parts": [
+        {
+          "zh": "还学过两年德语，我说错了，",
+          "vi": "Còn học hai năm tiếng Đức, tôi nói nhầm,"
+        },
+        {
+          "zh": "学过还学过两年法语，",
+          "vi": "học, còn học hai năm tiếng Pháp,"
+        },
+        {
+          "zh": "所以说德语在我眼中",
+          "vi": "nên tiếng Đức trong mắt tôi"
+        },
+        {
+          "zh": "它确实比英语要难呢。",
+          "vi": "đúng là khó hơn tiếng Anh."
+        }
+      ]
+    },
+    "267": {
+      "zh": "那些词根啊什么的，嗯，那些词的那个性别，但是跟希希腊语比起来只是它的小弟弟。",
+      "parts": [
+        {
+          "zh": "那些词根啊什么的，嗯，",
+          "vi": "Mấy cái gốc từ các thứ, ừm,"
+        },
+        {
+          "zh": "那些词的那个性别，",
+          "vi": "cái giống của mấy từ đó,"
+        },
+        {
+          "zh": "但是跟希希腊语比起来",
+          "vi": "nhưng so với tiếng Hy Lạp"
+        },
+        {
+          "zh": "只是它的小弟弟。",
+          "vi": "thì chỉ là em út của nó thôi."
+        }
+      ]
+    },
+    "268": {
+      "zh": "关于德语，我还想跟大家说一件事情，我个人的观点，嗯，",
+      "parts": [
+        {
+          "zh": "关于德语，我还想跟大家说一件事情，",
+          "vi": "Về tiếng Đức, tôi còn muốn nói với mọi người một chuyện,"
+        },
+        {
+          "zh": "我个人的观点，嗯，",
+          "vi": "quan điểm cá nhân tôi, ừm,"
+        }
+      ]
+    },
+    "269": {
+      "zh": "德语是现代欧洲语言中被英语腐蚀的最严重的一门语言，因为。德语不像法语，法国有一个机构叫做Académie de français，嗯，",
+      "parts": [
+        {
+          "zh": "德语是现代欧洲语言中",
+          "vi": "tiếng Đức là thứ tiếng trong các ngôn ngữ châu Âu hiện đại"
+        },
+        {
+          "zh": "被英语腐蚀的最严重的一门语言，",
+          "vi": "bị tiếng Anh ăn mòn nặng nhất,"
+        },
+        {
+          "zh": "因为。德语不像法语，",
+          "vi": "vì tiếng Đức không giống tiếng Pháp,"
+        },
+        {
+          "zh": "法国有一个机构",
+          "vi": "nước Pháp có một cơ quan"
+        },
+        {
+          "zh": "叫做Académie de français，嗯，",
+          "vi": "gọi là Académie de français, ừm,"
+        }
+      ]
+    },
+    "271": {
+      "zh": "这个机构的意思就是法国学术机构。",
+      "vi": "cơ quan này nghĩa là Viện Hàn lâm Pháp."
+    },
+    "272": {
+      "zh": "这个机构是隶属法国政府的，",
+      "vi": "Cơ quan này trực thuộc chính phủ Pháp,"
+    },
+    "273": {
+      "zh": "它每年Académie de français会嗯开会决定哪一些新词可以被加入法语，",
+      "parts": [
+        {
+          "zh": "它每年Académie de français",
+          "vi": "mỗi năm Académie de français"
+        },
+        {
+          "zh": "会嗯开会决定哪一些新词",
+          "vi": "sẽ, ừm, họp để quyết định từ mới nào"
+        },
+        {
+          "zh": "可以被加入法语，",
+          "vi": "được đưa vào tiếng Pháp,"
+        }
+      ]
+    },
+    "274": {
+      "zh": "成为法语中的一部分。",
+      "vi": "trở thành một phần của tiếng Pháp."
+    },
+    "275": {
+      "zh": "没有被Académie de français认证的词。",
+      "vi": "Từ nào chưa được Académie de français công nhận."
+    },
+    "276": {
+      "zh": "就不算是法语词，所以你不可以在互联网上就是随便发明一个新词，然后，",
+      "parts": [
+        {
+          "zh": "就不算是法语词，",
+          "vi": "thì không tính là từ tiếng Pháp,"
+        },
+        {
+          "zh": "所以你不可以在互联网上",
+          "vi": "nên bạn không thể trên mạng"
+        },
+        {
+          "zh": "就是随便发明一个新词，然后，",
+          "vi": "tùy tiện chế ra một từ mới, rồi,"
+        }
+      ]
+    },
+    "277": {
+      "zh": "然后这个词就是进入了法语这这门语言。",
+      "parts": [
+        {
+          "zh": "然后这个词就是",
+          "vi": "rồi từ đó cứ thế"
+        },
+        {
+          "zh": "进入了法语这这门语言。",
+          "vi": "đi vào tiếng Pháp, vào ngôn ngữ này."
+        }
+      ]
+    },
+    "278": {
+      "zh": "法国人对于他们语言的维护以及做他们作为法国人的骄傲，",
+      "parts": [
+        {
+          "zh": "法国人对于他们语言的维护",
+          "vi": "Người Pháp giữ gìn ngôn ngữ của họ,"
+        },
+        {
+          "zh": "以及做他们作为法国人的骄傲，",
+          "vi": "cũng như niềm tự hào làm người Pháp,"
+        }
+      ]
+    },
+    "279": {
+      "zh": "其实就是体现在法语这门语言的美妙里面。",
+      "parts": [
+        {
+          "zh": "其实就是体现在",
+          "vi": "thật ra thể hiện ngay"
+        },
+        {
+          "zh": "法语这门语言的美妙里面。",
+          "vi": "ở vẻ đẹp của tiếng Pháp."
+        }
+      ]
+    },
+    "280": {
+      "zh": "这种情况在德语中是不存在的，所以说现在很多纯正的德语词汇已经被英语给稀释了。",
+      "parts": [
+        {
+          "zh": "这种情况在德语中是不存在的，",
+          "vi": "Chuyện này không có trong tiếng Đức,"
+        },
+        {
+          "zh": "所以说现在很多纯正的德语词汇",
+          "vi": "nên bây giờ nhiều từ tiếng Đức thuần"
+        },
+        {
+          "zh": "已经被英语给稀释了。",
+          "vi": "đã bị tiếng Anh pha loãng rồi."
+        }
+      ]
+    },
+    "281": {
+      "zh": "我给大家举个例子啊，最简单的案例，比如说移民。",
+      "parts": [
+        {
+          "zh": "我给大家举个例子啊，",
+          "vi": "Tôi lấy một ví dụ nhé,"
+        },
+        {
+          "zh": "最简单的案例，比如说移民。",
+          "vi": "ví dụ đơn giản nhất, như \"nhập cư\"."
+        }
+      ]
+    },
+    "282": {
+      "zh": "移民这个词儿它的英文是什么啊？",
+      "vi": "Từ \"nhập cư\" tiếng Anh là gì nhỉ?"
+    },
+    "283": {
+      "zh": "说错了，它的法语是它又又又说错了。",
+      "vi": "Nói nhầm, tiếng Pháp của nó là... lại, lại, lại nói nhầm."
+    },
+    "284": {
+      "zh": "它的德语是什么？",
+      "vi": "Tiếng Đức của nó là gì?"
+    },
+    "285": {
+      "zh": "用纯正的德语来说，移民这个单词的德语是einwanderung。",
+      "parts": [
+        {
+          "zh": "用纯正的德语来说，",
+          "vi": "Nói bằng tiếng Đức thuần,"
+        },
+        {
+          "zh": "移民这个单词的德语是einwanderung。",
+          "vi": "từ \"nhập cư\" trong tiếng Đức là Einwanderung."
+        }
+      ]
+    },
+    "286": {
+      "zh": "ein就是进入的意思，wanderung就是走路散步的意思。",
+      "parts": [
+        {
+          "zh": "ein就是进入的意思，",
+          "vi": "\"ein\" nghĩa là đi vào,"
+        },
+        {
+          "zh": "wanderung就是走路散步的意思。",
+          "vi": "\"wanderung\" nghĩa là đi bộ, tản bộ."
+        }
+      ]
+    },
+    "287": {
+      "zh": "所以说这个词儿你当你理解ein是什么意思，wanderung是什么意思的时候。",
+      "parts": [
+        {
+          "zh": "所以说这个词儿",
+          "vi": "Nên từ này,"
+        },
+        {
+          "zh": "你当你理解ein是什么意思，",
+          "vi": "khi bạn hiểu \"ein\" nghĩa là gì,"
+        },
+        {
+          "zh": "wanderung是什么意思的时候。",
+          "vi": "\"wanderung\" nghĩa là gì."
+        }
+      ]
+    },
+    "288": {
+      "zh": "那个你一听到这个einwanderer，你就会立刻在脑海中浮现出一幅画，",
+      "parts": [
+        {
+          "zh": "那个你一听到这个einwanderer，",
+          "vi": "Thì khi bạn vừa nghe \"Einwanderer\","
+        },
+        {
+          "zh": "你就会立刻在脑海中浮现出一幅画，",
+          "vi": "trong đầu bạn sẽ hiện ngay ra một bức tranh,"
+        }
+      ]
+    },
+    "289": {
+      "zh": "就是一个人他走进了你的国家，对吧？",
+      "vi": "là một người đang đi vào đất nước bạn, đúng không?"
+    },
+    "290": {
+      "zh": "但是你现在在德语中，他们说移民，他们不光光可以说einwanderer，他们可以说immigration。",
+      "parts": [
+        {
+          "zh": "但是你现在在德语中，他们说移民，",
+          "vi": "Nhưng giờ trong tiếng Đức, nói \"nhập cư\","
+        },
+        {
+          "zh": "他们不光光可以说einwanderer，",
+          "vi": "họ không chỉ nói được Einwanderer,"
+        },
+        {
+          "zh": "他们可以说immigration。",
+          "vi": "họ có thể nói \"immigration\"."
+        }
+      ]
+    },
+    "291": {
+      "zh": "那immigration这个词儿是哪来的呢？",
+      "vi": "Thế từ \"immigration\" này ở đâu ra?"
+    },
+    "292": {
+      "zh": "英语immigration这个词儿，对吧？",
+      "vi": "Là từ \"immigration\" của tiếng Anh, đúng không?"
+    },
+    "293": {
+      "zh": "你就不用说，那immigration这个词儿它是不会在你的脑海中给你任何画面的。",
+      "parts": [
+        {
+          "zh": "你就不用说，那immigration这个词儿",
+          "vi": "Khỏi phải nói, cái từ \"immigration\" đó"
+        },
+        {
+          "zh": "它是不会在你的脑海中",
+          "vi": "sẽ không gợi trong đầu bạn"
+        },
+        {
+          "zh": "给你任何画面的。",
+          "vi": "bất kỳ hình ảnh nào."
+        }
+      ]
+    },
+    "294": {
+      "zh": "你现在在德国，你说。我要移民，你可以不说einwanderung，你可以说immigration。",
+      "parts": [
+        {
+          "zh": "你现在在德国，你说。我要移民，",
+          "vi": "Giờ bạn ở Đức, bạn nói \"tôi muốn nhập cư\","
+        },
+        {
+          "zh": "你可以不说einwanderung，你可以说immigration。",
+          "vi": "bạn có thể không nói Einwanderung, mà nói \"immigration\"."
+        }
+      ]
+    },
+    "296": {
+      "zh": "嗯，那嗯，那对于我来说，你要是一个德语的母语者，",
+      "parts": [
+        {
+          "zh": "嗯，那嗯，那对于我来说，",
+          "vi": "Ừm, thì, ừm, thì với tôi,"
+        },
+        {
+          "zh": "你要是一个德语的母语者，",
+          "vi": "nếu bạn là người bản ngữ tiếng Đức,"
+        }
+      ]
+    },
+    "297": {
+      "zh": "实际上你语言中的很多词就是在这样的转变中慢慢的被剥夺了它的诗意。",
+      "parts": [
+        {
+          "zh": "实际上你语言中的很多词",
+          "vi": "thật ra nhiều từ trong ngôn ngữ của bạn"
+        },
+        {
+          "zh": "就是在这样的转变中",
+          "vi": "chính trong những chuyển đổi như thế"
+        },
+        {
+          "zh": "慢慢的被剥夺了它的诗意。",
+          "vi": "dần dần bị tước mất chất thơ."
+        }
+      ]
+    },
+    "298": {
+      "zh": "我在学德语学校的时候是在也就发也发现了这个情况，让我感到嗯挺有意思的，",
+      "parts": [
+        {
+          "zh": "我在学德语学校的时候",
+          "vi": "Hồi học ở trường tiếng Đức"
+        },
+        {
+          "zh": "是在也就发也发现了这个情况，",
+          "vi": "tôi cũng đã phát hiện ra chuyện này,"
+        },
+        {
+          "zh": "让我感到嗯挺有意思的，",
+          "vi": "thấy, ừm, khá thú vị,"
+        }
+      ]
+    },
+    "299": {
+      "zh": "就是因为我身边的同学都是美国人。",
+      "vi": "là vì bạn học quanh tôi đều là người Mỹ."
+    },
+    "300": {
+      "zh": "有一些在我眼中德语水平嗯有点偷懒的美国同学，他们可以开口讲非常流利的德语，",
+      "parts": [
+        {
+          "zh": "有一些在我眼中",
+          "vi": "Có vài bạn học người Mỹ mà trong mắt tôi"
+        },
+        {
+          "zh": "德语水平嗯有点偷懒的美国同学，",
+          "vi": "học tiếng Đức, ừm, hơi lười biếng,"
+        },
+        {
+          "zh": "他们可以开口讲非常流利的德语，",
+          "vi": "họ mở miệng nói tiếng Đức rất trôi chảy,"
+        }
+      ]
+    },
+    "301": {
+      "zh": "但是他们会直接理直气壮的把一个英文单词转换成德语发音。",
+      "parts": [
+        {
+          "zh": "但是他们会直接理直气壮的",
+          "vi": "nhưng họ cứ thản nhiên"
+        },
+        {
+          "zh": "把一个英文单词转换成德语发音。",
+          "vi": "lấy một từ tiếng Anh đổi sang phát âm kiểu Đức."
+        }
+      ]
+    },
+    "302": {
+      "zh": "就比如说，当他们在说工作的时候，他们可以不说呃the Beruf、the the Arbeit，他们可以直接说the Job。",
+      "parts": [
+        {
+          "zh": "就比如说，当他们在说工作的时候，",
+          "vi": "Ví dụ, khi nói về công việc,"
+        },
+        {
+          "zh": "他们可以不说呃the Beruf、the the Arbeit，",
+          "vi": "họ có thể không nói, ờ, the Beruf, the the Arbeit,"
+        },
+        {
+          "zh": "他们可以直接说the Job。",
+          "vi": "mà nói thẳng \"the Job\"."
+        }
+      ]
+    },
+    "304": {
+      "zh": "就是虽然说Job也是一个。德语词但是它不是一个传统的德语词我给大家再想一个搞笑的例子就比如说可能性可能性的德语是什么? Möglichkeit我曾经听到一个美国人他在跟我聊天的时候他直接把英语中的可能性",
+      "parts": [
+        {
+          "zh": "就是虽然说Job也是一个。德语词",
+          "vi": "Tức là tuy Job cũng là một từ tiếng Đức"
+        },
+        {
+          "zh": "但是它不是一个传统的德语词",
+          "vi": "nhưng nó không phải từ tiếng Đức truyền thống."
+        },
+        {
+          "zh": "我给大家再想一个搞笑的例子",
+          "vi": "Để tôi nghĩ thêm một ví dụ buồn cười,"
+        },
+        {
+          "zh": "就比如说可能性",
+          "vi": "ví dụ \"khả năng\","
+        },
+        {
+          "zh": "可能性的德语是什么? Möglichkeit",
+          "vi": "\"khả năng\" tiếng Đức là gì? Möglichkeit."
+        },
+        {
+          "zh": "我曾经听到一个美国人",
+          "vi": "Tôi từng nghe một người Mỹ"
+        },
+        {
+          "zh": "他在跟我聊天的时候",
+          "vi": "lúc nói chuyện với tôi"
+        },
+        {
+          "zh": "他直接把英语中的可能性",
+          "vi": "lấy thẳng từ \"khả năng\" của tiếng Anh,"
+        }
+      ]
+    },
+    "308": {
+      "zh": "Possibility用德语的口音说出来就叫Possibilität你知道就是你跟美国人一起上德语学校就会发现美国人做这种事情真的很多很多他们理直气壮的用德语口音发嗯发音英文单词，一开始你还会愣一下。",
+      "parts": [
+        {
+          "zh": "Possibility用德语的口音说出来",
+          "vi": "Possibility, nói bằng giọng Đức"
+        },
+        {
+          "zh": "就叫Possibilität",
+          "vi": "thành Possibilität."
+        },
+        {
+          "zh": "你知道就是你跟美国人",
+          "vi": "Bạn biết đấy, khi bạn cùng người Mỹ"
+        },
+        {
+          "zh": "一起上德语学校就会发现",
+          "vi": "học trường tiếng Đức thì sẽ thấy"
+        },
+        {
+          "zh": "美国人做这种事情真的很多很多",
+          "vi": "người Mỹ làm chuyện này nhiều cực kỳ,"
+        },
+        {
+          "zh": "他们理直气壮的",
+          "vi": "họ thản nhiên"
+        },
+        {
+          "zh": "用德语口音发嗯发音英文单词，",
+          "vi": "dùng giọng Đức phát, ừm, phát âm từ tiếng Anh,"
+        },
+        {
+          "zh": "一开始你还会愣一下。",
+          "vi": "lúc đầu bạn còn khựng lại một chút."
+        }
+      ]
+    },
+    "311": {
+      "zh": "你说哎这个词究竟是不是德语？",
+      "vi": "Bạn nghĩ: Ơ, từ này rốt cuộc có phải tiếng Đức không?"
+    },
+    "312": {
+      "zh": "是不是我不知道的？",
+      "vi": "Có phải từ mình không biết không?"
+    },
+    "313": {
+      "zh": "但是因为很多德国人他们的英语水平好到他们可以听得懂这些词是什么意思，",
+      "parts": [
+        {
+          "zh": "但是因为很多德国人",
+          "vi": "Nhưng vì nhiều người Đức"
+        },
+        {
+          "zh": "他们的英语水平好到",
+          "vi": "giỏi tiếng Anh tới mức"
+        },
+        {
+          "zh": "他们可以听得懂这些词是什么意思，",
+          "vi": "hiểu được những từ đó nghĩa là gì,"
+        }
+      ]
+    },
+    "314": {
+      "zh": "所以说导致现在学德语的人中就是有很多人会拿英语来蒙混过关。",
+      "parts": [
+        {
+          "zh": "所以说导致现在学德语的人中",
+          "vi": "nên khiến bây giờ trong số người học tiếng Đức"
+        },
+        {
+          "zh": "就是有很多人会拿英语来蒙混过关。",
+          "vi": "có rất nhiều người lấy tiếng Anh ra để lấp liếm cho qua."
+        }
+      ]
+    },
+    "315": {
+      "zh": "作为一门语言来说，我觉得这不是一件好事。",
+      "parts": [
+        {
+          "zh": "作为一门语言来说，",
+          "vi": "Xét về một ngôn ngữ,"
+        },
+        {
+          "zh": "我觉得这不是一件好事。",
+          "vi": "tôi thấy đây không phải chuyện tốt."
+        }
+      ]
+    },
+    "316": {
+      "zh": "如果我是一个暴君的话，如果我是一个啊可以只手遮天的德语玉皇大帝，",
+      "parts": [
+        {
+          "zh": "如果我是一个暴君的话，",
+          "vi": "Nếu tôi là bạo chúa,"
+        },
+        {
+          "zh": "如果我是一个啊",
+          "vi": "nếu tôi là, à,"
+        },
+        {
+          "zh": "可以只手遮天的德语玉皇大帝，",
+          "vi": "Ngọc Hoàng của tiếng Đức, một tay che trời,"
+        }
+      ]
+    },
+    "317": {
+      "zh": "我会想办法给德国也搞一个类似于法国的那种Academy de Français这种语呃这种这种机构去维护一门语言的主体性。",
+      "parts": [
+        {
+          "zh": "我会想办法给德国也搞一个",
+          "vi": "tôi sẽ tìm cách làm cho nước Đức một"
+        },
+        {
+          "zh": "类似于法国的那种Academy de Français",
+          "vi": "cơ quan giống Academy de Français của Pháp,"
+        },
+        {
+          "zh": "这种语呃这种这种机构",
+          "vi": "một cơ quan như vậy, ờ, như vậy"
+        },
+        {
+          "zh": "去维护一门语言的主体性。",
+          "vi": "để giữ gìn tính chủ thể của một ngôn ngữ."
+        }
+      ]
+    },
+    "319": {
+      "zh": "对我来说就是维护一门语言的美。",
+      "vi": "Với tôi, tức là giữ gìn vẻ đẹp của một ngôn ngữ."
+    },
+    "320": {
+      "zh": "现在德语的美已经被英语给入侵的七七八八了。",
+      "parts": [
+        {
+          "zh": "现在德语的美",
+          "vi": "Giờ vẻ đẹp của tiếng Đức"
+        },
+        {
+          "zh": "已经被英语给入侵的七七八八了。",
+          "vi": "đã bị tiếng Anh xâm chiếm gần hết rồi."
+        }
+      ]
+    },
+    "321": {
+      "zh": "那我刚才还跟大家说了一嘴，就是我通过这种悬梁刺股学习英语的方法，",
+      "parts": [
+        {
+          "zh": "那我刚才还跟大家说了一嘴，",
+          "vi": "Thế tôi vừa nhắc qua với mọi người,"
+        },
+        {
+          "zh": "就是我通过这种悬梁刺股",
+          "vi": "là nhờ cách dùi mài kinh sử này"
+        },
+        {
+          "zh": "学习英语的方法，",
+          "vi": "để học tiếng Anh,"
+        }
+      ]
+    },
+    "322": {
+      "zh": "确实让自己的英语水平在客观程度上获得了很大的提升，",
+      "parts": [
+        {
+          "zh": "确实让自己的英语水平",
+          "vi": "tôi đúng là đã giúp trình độ tiếng Anh của mình"
+        },
+        {
+          "zh": "在客观程度上获得了很大的提升，",
+          "vi": "về mặt khách quan tiến bộ rất nhiều,"
+        }
+      ]
+    },
+    "323": {
+      "zh": "并且咱们说这个一百一十五的托福啊，确实也是很高了，对吧？",
+      "parts": [
+        {
+          "zh": "并且咱们说",
+          "vi": "hơn nữa phải nói là"
+        },
+        {
+          "zh": "这个一百一十五的托福啊，",
+          "vi": "TOEFL 115 điểm ấy,"
+        },
+        {
+          "zh": "确实也是很高了，对吧？",
+          "vi": "đúng là rất cao rồi, đúng không?"
+        }
+      ]
+    },
+    "324": {
+      "zh": "但是在我十五岁刚刚去美国的第一年那个过程中，我确实当了整整一年的哑巴，",
+      "parts": [
+        {
+          "zh": "但是在我十五岁",
+          "vi": "Nhưng năm 15 tuổi,"
+        },
+        {
+          "zh": "刚刚去美国的第一年那个过程中，",
+          "vi": "trong năm đầu tiên vừa sang Mỹ,"
+        },
+        {
+          "zh": "我确实当了整整一年的哑巴，",
+          "vi": "tôi đúng là đã làm người câm suốt cả năm,"
+        }
+      ]
+    },
+    "325": {
+      "zh": "我感觉我自己完全没有办法插话。",
+      "vi": "tôi thấy mình hoàn toàn không chen vào câu chuyện được."
+    },
+    "326": {
+      "zh": "跟美国人在餐桌上谈笑风生。",
+      "vi": "Cùng người Mỹ cười nói rôm rả bên bàn ăn."
+    },
+    "327": {
+      "zh": "我当年就虽然说我一直以来都是一个内向的人，",
+      "parts": [
+        {
+          "zh": "我当年就虽然说",
+          "vi": "Năm đó tôi, tuy nói là"
+        },
+        {
+          "zh": "我一直以来都是一个内向的人，",
+          "vi": "tôi trước giờ vẫn là người hướng nội,"
+        }
+      ]
+    },
+    "328": {
+      "zh": "但是我的内向仅仅体现在你很难把我叫出去跟你应酬，我宁愿一个人呆着。",
+      "parts": [
+        {
+          "zh": "但是我的内向仅仅体现在",
+          "vi": "nhưng cái hướng nội của tôi chỉ thể hiện ở chỗ"
+        },
+        {
+          "zh": "你很难把我叫出去跟你应酬，",
+          "vi": "rất khó rủ tôi ra ngoài xã giao với bạn,"
+        },
+        {
+          "zh": "我宁愿一个人呆着。",
+          "vi": "tôi thà ở một mình."
+        }
+      ]
+    },
+    "329": {
+      "zh": "但是如果你成功的把我叫出去了，你把我请到了你们家餐桌上，",
+      "parts": [
+        {
+          "zh": "但是如果你成功的把我叫出去了，",
+          "vi": "Nhưng nếu bạn rủ được tôi ra ngoài,"
+        },
+        {
+          "zh": "你把我请到了你们家餐桌上，",
+          "vi": "mời được tôi tới bàn ăn nhà bạn,"
+        }
+      ]
+    },
+    "330": {
+      "zh": "那我一定是一个看似有点聒噪、非常喜欢社交的人。",
+      "parts": [
+        {
+          "zh": "那我一定是一个看似有点聒噪、",
+          "vi": "thì tôi chắc chắn là người trông có vẻ hơi ồn ào,"
+        },
+        {
+          "zh": "非常喜欢社交的人。",
+          "vi": "rất thích giao lưu."
+        }
+      ]
+    },
+    "331": {
+      "zh": "但是我第一年去美国的时候。",
+      "vi": "Nhưng năm đầu tiên tôi sang Mỹ."
+    },
+    "332": {
+      "zh": "嗯，当我有可能我想要表达某一个看法的时候，美国人都可以听得懂。",
+      "parts": [
+        {
+          "zh": "嗯，当我有可能我想要",
+          "vi": "Ừm, khi tôi có lúc muốn"
+        },
+        {
+          "zh": "表达某一个看法的时候，",
+          "vi": "bày tỏ một quan điểm nào đó,"
+        },
+        {
+          "zh": "美国人都可以听得懂。",
+          "vi": "người Mỹ đều hiểu được."
+        }
+      ]
+    },
+    "333": {
+      "zh": "但是我没有办法跟大家谈笑风生，你知道吗？",
+      "parts": [
+        {
+          "zh": "但是我没有办法跟大家谈笑风生，",
+          "vi": "Nhưng tôi không thể cười nói rôm rả với mọi người,"
+        },
+        {
+          "zh": "你知道吗？",
+          "vi": "bạn hiểu không?"
+        }
+      ]
+    },
+    "334": {
+      "zh": "我当时也是个小姑娘，我就在那里观察为什么有一些女生她可以，比如说她站起来的时候，",
+      "parts": [
+        {
+          "zh": "我当时也是个小姑娘，",
+          "vi": "Hồi đó tôi cũng chỉ là một cô bé,"
+        },
+        {
+          "zh": "我就在那里观察",
+          "vi": "tôi cứ đứng đó quan sát"
+        },
+        {
+          "zh": "为什么有一些女生她可以，",
+          "vi": "vì sao có những bạn nữ có thể,"
+        },
+        {
+          "zh": "比如说她站起来的时候，",
+          "vi": "ví dụ lúc bạn ấy đứng dậy,"
+        }
+      ]
+    },
+    "335": {
+      "zh": "她就可以轻松的说：“ OK，我们走吧，Let's go。”",
+      "vi": "bạn ấy có thể thản nhiên nói: \"OK, mình đi thôi, Let's go.\""
+    },
+    "336": {
+      "zh": "然后所有人就会跟她一起走呢。",
+      "vi": "Rồi tất cả mọi người sẽ đi theo bạn ấy."
+    },
+    "337": {
+      "zh": "为什么我没有这种号召力？",
+      "vi": "Sao tôi không có sức hút đó?"
+    },
+    "338": {
+      "zh": "或者说，比如说我们要从食堂走到教室早餐之后，那这个走路的过程好漫长啊，要走整整五分钟。",
+      "parts": [
+        {
+          "zh": "或者说，比如说",
+          "vi": "Hoặc là, ví dụ"
+        },
+        {
+          "zh": "我们要从食堂走到教室早餐之后，",
+          "vi": "sau bữa sáng chúng tôi đi từ nhà ăn tới lớp,"
+        },
+        {
+          "zh": "那这个走路的过程好漫长啊，",
+          "vi": "quãng đường đi bộ đó dài lắm,"
+        },
+        {
+          "zh": "要走整整五分钟。",
+          "vi": "phải đi trọn năm phút."
+        }
+      ]
+    },
+    "339": {
+      "zh": "有时候你是不需要去邀请别人说哦我来let's go我们走吧我们一起从食堂走到教堂吧有时候它就是一个在餐桌上对话的延续那我要如何这种用外语非常微妙非常自然非常优雅的将我们的对话从餐桌上的唠嗑有一搭没一搭的唠嗑就好像润滑剂一样让它滑到下一个社交场景呢我当时这点让我感觉到很困惑，当然很大程度是因为当时我是一个敏感的年，就是青春期的少女。",
+      "parts": [
+        {
+          "zh": "有时候你是不需要去邀请别人说",
+          "vi": "Có khi bạn không cần mời người khác kiểu"
+        },
+        {
+          "zh": "哦我来let's go我们走吧",
+          "vi": "\"Ồ, để mình, let's go, đi thôi,"
+        },
+        {
+          "zh": "我们一起从食堂走到教堂吧",
+          "vi": "cùng đi từ nhà ăn tới nhà thờ nào\","
+        },
+        {
+          "zh": "有时候它就是",
+          "vi": "có khi nó chỉ là"
+        },
+        {
+          "zh": "一个在餐桌上对话的延续",
+          "vi": "sự tiếp nối của câu chuyện bên bàn ăn."
+        },
+        {
+          "zh": "那我要如何这种用外语",
+          "vi": "Vậy tôi phải làm sao, bằng ngoại ngữ,"
+        },
+        {
+          "zh": "非常微妙非常自然非常优雅的",
+          "vi": "một cách thật tinh tế, tự nhiên, thanh lịch,"
+        },
+        {
+          "zh": "将我们的对话从餐桌上的唠嗑",
+          "vi": "đưa câu chuyện của chúng tôi từ mấy câu tán gẫu bên bàn ăn,"
+        },
+        {
+          "zh": "有一搭没一搭的唠嗑",
+          "vi": "mấy câu chuyện phiếm lúc có lúc không,"
+        },
+        {
+          "zh": "就好像润滑剂一样",
+          "vi": "như có chất bôi trơn,"
+        },
+        {
+          "zh": "让它滑到下一个社交场景呢",
+          "vi": "trượt sang tình huống xã giao tiếp theo?"
+        },
+        {
+          "zh": "我当时这点让我感觉到很困惑，",
+          "vi": "Hồi đó điều này làm tôi rất bối rối,"
+        },
+        {
+          "zh": "当然很大程度是因为",
+          "vi": "tất nhiên phần lớn là vì"
+        },
+        {
+          "zh": "当时我是一个敏感的年，",
+          "vi": "hồi đó tôi là một đứa nhạy cảm,"
+        },
+        {
+          "zh": "就是青春期的少女。",
+          "vi": "tức là một thiếu nữ tuổi dậy thì."
+        }
+      ]
+    },
+    "343": {
+      "zh": "现在成熟了一点之后，就有点大不楞、大别扭的无所谓了。",
+      "parts": [
+        {
+          "zh": "现在成熟了一点之后，",
+          "vi": "Giờ trưởng thành hơn chút rồi,"
+        },
+        {
+          "zh": "就有点大不楞、大别扭的无所谓了。",
+          "vi": "thì cũng kiểu chẳng để tâm nữa."
+        }
+      ]
+    },
+    "344": {
+      "zh": "当时但是对于一个敏感自卑的青春期少女来说，我曾经为我自己没有社交能力，",
+      "parts": [
+        {
+          "zh": "当时但是对于一个",
+          "vi": "Nhưng hồi đó, với một"
+        },
+        {
+          "zh": "敏感自卑的青春期少女来说，",
+          "vi": "thiếu nữ tuổi dậy thì nhạy cảm, tự ti,"
+        },
+        {
+          "zh": "我曾经为我自己没有社交能力，",
+          "vi": "tôi từng vì mình không có khả năng giao tiếp,"
+        }
+      ]
+    },
+    "345": {
+      "zh": "然后经常需要一个人从食堂走到教室。",
+      "parts": [
+        {
+          "zh": "然后经常需要一个人",
+          "vi": "rồi thường phải một mình"
+        },
+        {
+          "zh": "从食堂走到教室。",
+          "vi": "đi từ nhà ăn tới lớp."
+        }
+      ]
+    },
+    "346": {
+      "zh": "当我看到身边其他的女朋友都成双结对的时候，让我感到有一种。孤独，至少在第一年来美国的时候，我感到我没有我不知道如何融入他们这个社交社交圈子。",
+      "parts": [
+        {
+          "zh": "当我看到身边其他的女朋友",
+          "vi": "Khi thấy những cô bạn gái xung quanh"
+        },
+        {
+          "zh": "都成双结对的时候，",
+          "vi": "đều đi thành từng đôi,"
+        },
+        {
+          "zh": "让我感到有一种。孤独，",
+          "vi": "tôi thấy một nỗi cô đơn,"
+        },
+        {
+          "zh": "至少在第一年来美国的时候，",
+          "vi": "ít nhất là trong năm đầu sang Mỹ,"
+        },
+        {
+          "zh": "我感到我没有我不知道如何融入",
+          "vi": "tôi thấy mình không, không biết làm sao hòa vào"
+        },
+        {
+          "zh": "他们这个社交社交圈子。",
+          "vi": "vòng giao tiếp của họ."
+        }
+      ]
+    },
+    "348": {
+      "zh": "我在文化上跟美国有一个脱节。",
+      "vi": "Về văn hóa, tôi bị lệch nhịp với nước Mỹ."
+    },
+    "349": {
+      "zh": "现在回想起来，平心而论，我当时这个感受一定是跟嗯我的环境有关，",
+      "parts": [
+        {
+          "zh": "现在回想起来，平心而论，",
+          "vi": "Giờ nghĩ lại, công bằng mà nói,"
+        },
+        {
+          "zh": "我当时这个感受",
+          "vi": "cảm giác hồi đó của tôi"
+        },
+        {
+          "zh": "一定是跟嗯我的环境有关，",
+          "vi": "chắc chắn có liên quan tới, ừm, môi trường của tôi,"
+        }
+      ]
+    },
+    "350": {
+      "zh": "因为这是一个非常小的寄宿学校，而且我而且我当时还是一个青春期的高中生嘛，对吧？",
+      "parts": [
+        {
+          "zh": "因为这是一个非常小的寄宿学校，",
+          "vi": "vì đó là một trường nội trú rất nhỏ,"
+        },
+        {
+          "zh": "而且我而且我当时还是",
+          "vi": "mà tôi, mà hồi đó tôi còn là"
+        },
+        {
+          "zh": "一个青春期的高中生嘛，对吧？",
+          "vi": "một học sinh cấp ba tuổi dậy thì, đúng không?"
+        }
+      ]
+    },
+    "351": {
+      "zh": "我相信很多。在大学或者是本科，呃研研究生出国，心理已经成熟的同学不会有我当时那种寂寞的彷徨的感受。",
+      "parts": [
+        {
+          "zh": "我相信很多。在大学或者是本科，",
+          "vi": "Tôi tin nhiều bạn đi du học lúc đại học hay bậc cử nhân,"
+        },
+        {
+          "zh": "呃研研究生出国，",
+          "vi": "ờ, cao học,"
+        },
+        {
+          "zh": "心理已经成熟的同学不会有",
+          "vi": "tâm lý đã trưởng thành sẽ không có"
+        },
+        {
+          "zh": "我当时那种寂寞的彷徨的感受。",
+          "vi": "cái cảm giác cô đơn, hoang mang như tôi hồi đó."
+        }
+      ]
+    },
+    "353": {
+      "zh": "因为年龄小，所以，嗯也更加加强了我的困惑和孤独感，",
+      "parts": [
+        {
+          "zh": "因为年龄小，所以，",
+          "vi": "Vì còn nhỏ tuổi, nên,"
+        },
+        {
+          "zh": "嗯也更加加强了我的困惑和孤独感，",
+          "vi": "ừm, càng làm tôi thêm bối rối và cô đơn,"
+        }
+      ]
+    },
+    "354": {
+      "zh": "也让我更加想要尽快的去融入美国的主流文化，去学习并且模仿他们白人的主流文化，",
+      "parts": [
+        {
+          "zh": "也让我更加想要尽快的",
+          "vi": "cũng làm tôi càng muốn nhanh chóng"
+        },
+        {
+          "zh": "去融入美国的主流文化，",
+          "vi": "hòa vào văn hóa chính thống của Mỹ,"
+        },
+        {
+          "zh": "去学习并且模仿",
+          "vi": "học theo và bắt chước"
+        },
+        {
+          "zh": "他们白人的主流文化，",
+          "vi": "văn hóa chính thống của người da trắng,"
+        }
+      ]
+    },
+    "355": {
+      "zh": "假装自己对白人的牌子感兴趣，对白人的体育感兴趣，",
+      "parts": [
+        {
+          "zh": "假装自己对白人的牌子感兴趣，",
+          "vi": "giả vờ quan tâm tới nhãn hiệu của người da trắng,"
+        },
+        {
+          "zh": "对白人的体育感兴趣，",
+          "vi": "quan tâm tới thể thao của người da trắng,"
+        }
+      ]
+    },
+    "356": {
+      "zh": "对他们夏天度假的那个地方什么Cape Cod什么Nantucket感兴趣。",
+      "parts": [
+        {
+          "zh": "对他们夏天度假的那个地方",
+          "vi": "tới những nơi họ đi nghỉ hè,"
+        },
+        {
+          "zh": "什么Cape Cod",
+          "vi": "nào là Cape Cod,"
+        },
+        {
+          "zh": "什么Nantucket感兴趣。",
+          "vi": "nào là Nantucket."
+        }
+      ]
+    },
+    "357": {
+      "zh": "呃，毕竟我们学校只有六个中国人，我也没有办法融入中国人的社交圈，",
+      "parts": [
+        {
+          "zh": "呃，毕竟我们学校只有六个中国人，",
+          "vi": "Ờ, dù sao trường tôi chỉ có sáu người Trung Quốc,"
+        },
+        {
+          "zh": "我也没有办法融入中国人的社交圈，",
+          "vi": "tôi cũng không thể hòa vào vòng tròn của người Trung Quốc,"
+        }
+      ]
+    },
+    "358": {
+      "zh": "因为一共只有六个人，没有什么圈子可以谈。",
+      "parts": [
+        {
+          "zh": "因为一共只有六个人，",
+          "vi": "vì tổng cộng chỉ có sáu người,"
+        },
+        {
+          "zh": "没有什么圈子可以谈。",
+          "vi": "chẳng có vòng tròn nào để nói."
+        }
+      ]
+    },
+    "359": {
+      "zh": "嗯，所以说我当时的努力也确实成功了，对吧？",
+      "parts": [
+        {
+          "zh": "嗯，所以说我当时的努力",
+          "vi": "Ừm, nên nỗ lực của tôi hồi đó"
+        },
+        {
+          "zh": "也确实成功了，对吧？",
+          "vi": "cũng thành công thật, đúng không?"
+        }
+      ]
+    },
+    "360": {
+      "zh": "就是在第二年和第三年的时候，",
+      "vi": "Tức là tới năm thứ hai, năm thứ ba,"
+    },
+    "361": {
+      "zh": "确实给自己营造了一个在这种白人女生中也是比较受欢迎的一个人的假象。",
+      "parts": [
+        {
+          "zh": "确实给自己营造了一个",
+          "vi": "tôi đúng là đã tạo cho mình"
+        },
+        {
+          "zh": "在这种白人女生中",
+          "vi": "giữa đám nữ sinh da trắng đó"
+        },
+        {
+          "zh": "也是比较受欢迎的一个人的假象。",
+          "vi": "vẻ bề ngoài của một người khá được yêu thích."
+        }
+      ]
+    },
+    "362": {
+      "zh": "这个过程需要的就是伪装。",
+      "vi": "Quá trình này cần đến sự ngụy trang."
+    },
+    "363": {
+      "zh": "嗯，其实我想。",
+      "vi": "Ừm, thật ra tôi muốn."
+    },
+    "364": {
+      "zh": "最后，我想说，我们讲一门外语的时候，你不光在讲一门语言，你还在讲一一一门文化的语言。",
+      "parts": [
+        {
+          "zh": "最后，我想说，我们讲一门外语的时候，",
+          "vi": "Cuối cùng, tôi muốn nói, khi nói một ngoại ngữ,"
+        },
+        {
+          "zh": "你不光在讲一门语言，",
+          "vi": "bạn không chỉ đang nói một ngôn ngữ,"
+        },
+        {
+          "zh": "你还在讲一一一门文化的语言。",
+          "vi": "bạn còn đang nói ngôn ngữ của một nền văn hóa."
+        }
+      ]
+    },
+    "365": {
+      "zh": "这点不光在英文中是这样，在任何语言中都是这样，包括在中文中也是这样。",
+      "parts": [
+        {
+          "zh": "这点不光在英文中是这样，",
+          "vi": "Điều này không chỉ đúng với tiếng Anh,"
+        },
+        {
+          "zh": "在任何语言中都是这样，",
+          "vi": "mà với mọi ngôn ngữ,"
+        },
+        {
+          "zh": "包括在中文中也是这样。",
+          "vi": "kể cả tiếng Trung cũng vậy."
+        }
+      ]
+    },
+    "366": {
+      "zh": "比如说，我们想跟一群爱打球的男生交朋友，你就是要学会篮球的语言啊！",
+      "parts": [
+        {
+          "zh": "比如说，",
+          "vi": "Ví dụ,"
+        },
+        {
+          "zh": "我们想跟一群爱打球的男生交朋友，",
+          "vi": "mình muốn kết bạn với một đám con trai mê chơi bóng,"
+        },
+        {
+          "zh": "你就是要学会篮球的语言啊！",
+          "vi": "thì phải học ngôn ngữ của bóng rổ!"
+        }
+      ]
+    },
+    "367": {
+      "zh": "作为一个呃中文讲的很流利的母语使用者，我不具备这些属于篮球爱好者的语言。",
+      "parts": [
+        {
+          "zh": "作为一个呃",
+          "vi": "Là một, ờ,"
+        },
+        {
+          "zh": "中文讲的很流利的母语使用者，",
+          "vi": "người bản ngữ nói tiếng Trung rất trôi chảy,"
+        },
+        {
+          "zh": "我不具备这些",
+          "vi": "tôi không có"
+        },
+        {
+          "zh": "属于篮球爱好者的语言。",
+          "vi": "cái ngôn ngữ của dân mê bóng rổ đó."
+        }
+      ]
+    },
+    "368": {
+      "zh": "我连什么三分球什么什么出界什么意思我都不知道是什么，",
+      "parts": [
+        {
+          "zh": "我连什么三分球什么什么出界",
+          "vi": "Tôi đến cái gì là ném ba điểm, cái gì là ra ngoài biên"
+        },
+        {
+          "zh": "什么意思我都不知道是什么，",
+          "vi": "nghĩa là gì cũng không biết,"
+        }
+      ]
+    },
+    "369": {
+      "zh": "我连一场篮球比赛最高分是几分我都不知道。",
+      "parts": [
+        {
+          "zh": "我连一场篮球比赛",
+          "vi": "đến một trận bóng rổ"
+        },
+        {
+          "zh": "最高分是几分我都不知道。",
+          "vi": "điểm cao nhất là mấy điểm tôi cũng không biết."
+        }
+      ]
+    },
+    "370": {
+      "zh": "你要是现在把我放到一群篮球小子面前吃饭，我也是会像外外国人一样尴尬的坐在那儿保持沉默。",
+      "parts": [
+        {
+          "zh": "你要是现在把我放到",
+          "vi": "Giờ mà bạn đặt tôi"
+        },
+        {
+          "zh": "一群篮球小子面前吃饭，",
+          "vi": "ngồi ăn trước một đám trai mê bóng rổ,"
+        },
+        {
+          "zh": "我也是会像外外国人一样",
+          "vi": "tôi cũng sẽ như người nước ngoài"
+        },
+        {
+          "zh": "尴尬的坐在那儿保持沉默。",
+          "vi": "ngượng ngùng ngồi đó im lặng."
+        }
+      ]
+    },
+    "371": {
+      "zh": "所以说，嗯，我想我们学习一门语言是一种选择，",
+      "parts": [
+        {
+          "zh": "所以说，嗯，我想",
+          "vi": "Nên, ừm, tôi nghĩ"
+        },
+        {
+          "zh": "我们学习一门语言是一种选择，",
+          "vi": "học một ngôn ngữ là một lựa chọn,"
+        }
+      ]
+    },
+    "372": {
+      "zh": "但是学习完了之后你是否愿意加入它的文化也是一种选择。",
+      "parts": [
+        {
+          "zh": "但是学习完了之后",
+          "vi": "nhưng học xong rồi"
+        },
+        {
+          "zh": "你是否愿意加入它的文化",
+          "vi": "bạn có muốn hòa vào văn hóa đó không"
+        },
+        {
+          "zh": "也是一种选择。",
+          "vi": "cũng là một lựa chọn."
+        }
+      ]
+    },
+    "373": {
+      "zh": "十五岁在美国读寄宿高中的我，因为我们学校几乎没有中国人，而且我年纪也很小，心智不成熟，所以那个时候我感到我没有选择。",
+      "parts": [
+        {
+          "zh": "十五岁在美国读寄宿高中的我，",
+          "vi": "Tôi năm 15 tuổi học cấp ba nội trú ở Mỹ,"
+        },
+        {
+          "zh": "因为我们学校几乎没有中国人，",
+          "vi": "vì trường gần như không có người Trung Quốc,"
+        },
+        {
+          "zh": "而且我年纪也很小，心智不成熟，",
+          "vi": "mà tôi cũng còn nhỏ, tâm trí chưa chín chắn,"
+        },
+        {
+          "zh": "所以那个时候我感到我没有选择。",
+          "vi": "nên hồi đó tôi thấy mình không có lựa chọn."
+        }
+      ]
+    },
+    "375": {
+      "zh": "我拼了命的学习美国文化，选择加入白人主流文化。",
+      "parts": [
+        {
+          "zh": "我拼了命的学习美国文化，",
+          "vi": "Tôi liều mạng học văn hóa Mỹ,"
+        },
+        {
+          "zh": "选择加入白人主流文化。",
+          "vi": "chọn hòa vào văn hóa chính thống của người da trắng."
+        }
+      ]
+    },
+    "376": {
+      "zh": "但是如今的我可能不会做这个选择。",
+      "vi": "Nhưng tôi bây giờ có lẽ sẽ không chọn như vậy."
+    },
+    "377": {
+      "zh": "来到了异国他乡的你，你也不需要选择加入主流文化。",
+      "parts": [
+        {
+          "zh": "来到了异国他乡的你，",
+          "vi": "Bạn, người đã đến xứ người,"
+        },
+        {
+          "zh": "你也不需要选择加入主流文化。",
+          "vi": "cũng không cần chọn hòa vào văn hóa chính thống."
+        }
+      ]
+    },
+    "378": {
+      "zh": "如果没有共同语言，那就算了吧，话不投机半句多嘛。",
+      "parts": [
+        {
+          "zh": "如果没有共同语言，那就算了吧，",
+          "vi": "Nếu không có tiếng nói chung thì thôi,"
+        },
+        {
+          "zh": "话不投机半句多嘛。",
+          "vi": "nói chuyện không hợp thì nửa câu cũng thừa mà."
+        }
+      ]
+    },
+    "379": {
+      "zh": "你要是真的喜欢棒球，那你自然而然的可以跟其他喜欢棒球的美国人聊起来。",
+      "parts": [
+        {
+          "zh": "你要是真的喜欢棒球，",
+          "vi": "Nếu bạn thật sự thích bóng chày,"
+        },
+        {
+          "zh": "那你自然而然的可以",
+          "vi": "thì tự nhiên bạn có thể"
+        },
+        {
+          "zh": "跟其他喜欢棒球的美国人聊起来。",
+          "vi": "nói chuyện được với những người Mỹ thích bóng chày khác."
+        }
+      ]
+    },
+    "380": {
+      "zh": "要是不喜欢，那也没有必要为了讨好他们专门去研究棒球规则，对吧？",
+      "parts": [
+        {
+          "zh": "要是不喜欢，那也没有必要",
+          "vi": "Còn nếu không thích, thì cũng chẳng cần"
+        },
+        {
+          "zh": "为了讨好他们",
+          "vi": "vì muốn lấy lòng họ"
+        },
+        {
+          "zh": "专门去研究棒球规则，对吧？",
+          "vi": "mà đi nghiên cứu luật bóng chày, đúng không?"
+        }
+      ]
+    },
+    "381": {
+      "zh": "所以说，我刚才播客的前半段讲的是学习语言的基础建构问题，",
+      "parts": [
+        {
+          "zh": "所以说，我刚才播客的前半段讲的是",
+          "vi": "Nên, nửa đầu podcast tôi vừa nói"
+        },
+        {
+          "zh": "学习语言的基础建构问题，",
+          "vi": "là chuyện xây nền móng khi học ngôn ngữ,"
+        }
+      ]
+    },
+    "382": {
+      "zh": "但是学习语言不光光是在学习语言本身的结构，我们也在学习一个文化的结构。",
+      "parts": [
+        {
+          "zh": "但是学习语言",
+          "vi": "nhưng học ngôn ngữ"
+        },
+        {
+          "zh": "不光光是在学习语言本身的结构，",
+          "vi": "không chỉ là học cấu trúc của bản thân ngôn ngữ,"
+        },
+        {
+          "zh": "我们也在学习一个文化的结构。",
+          "vi": "mà chúng ta còn đang học cấu trúc của một nền văn hóa."
+        }
+      ]
+    },
+    "383": {
+      "zh": "因为语言只是一个框架，但是填充语言内容的是文文化是文明。",
+      "parts": [
+        {
+          "zh": "因为语言只是一个框架，但是",
+          "vi": "Vì ngôn ngữ chỉ là cái khung, còn"
+        },
+        {
+          "zh": "填充语言内容的是文文化是文明。",
+          "vi": "thứ lấp đầy ngôn ngữ là văn hóa, là văn minh."
+        }
+      ]
+    },
+    "384": {
+      "zh": "那我们是否选择全盘接受这个文明，或者是了解这个文明？",
+      "parts": [
+        {
+          "zh": "那我们是否选择全盘接受这个文明，",
+          "vi": "Vậy chúng ta có chọn tiếp nhận trọn vẹn nền văn minh đó,"
+        },
+        {
+          "zh": "或者是了解这个文明？",
+          "vi": "hay chỉ tìm hiểu nó?"
+        }
+      ]
+    },
+    "385": {
+      "zh": "嗯，这最终也是一个在学习语言之外要做的选择。",
+      "parts": [
+        {
+          "zh": "嗯，这最终也是一个",
+          "vi": "Ừm, rốt cuộc đây cũng là"
+        },
+        {
+          "zh": "在学习语言之外要做的选择。",
+          "vi": "một lựa chọn ngoài chuyện học ngôn ngữ."
+        }
+      ]
+    },
+    "386": {
+      "zh": "在播客的后半段，我想要分享一件我觉得学习语言最难的事情，那就是维持语言的水平。",
+      "parts": [
+        {
+          "zh": "在播客的后半段，我想要分享一件",
+          "vi": "Nửa sau podcast, tôi muốn chia sẻ một điều"
+        },
+        {
+          "zh": "我觉得学习语言最难的事情，",
+          "vi": "mà tôi thấy khó nhất khi học ngôn ngữ,"
+        },
+        {
+          "zh": "那就是维持语言的水平。",
+          "vi": "đó là giữ trình độ ngôn ngữ."
+        }
+      ]
+    },
+    "387": {
+      "zh": "维持语言其实，在我来说。",
+      "vi": "Giữ một ngôn ngữ, thật ra, với tôi."
+    },
+    "388": {
+      "zh": "难度要远高于学习一门语言。",
+      "vi": "Khó hơn nhiều so với học một ngôn ngữ."
+    },
+    "389": {
+      "zh": "维持语言最简单的方式当然是每天去使用它，但是我们知道，除非你真的生活在这个国家，",
+      "parts": [
+        {
+          "zh": "维持语言最简单的方式",
+          "vi": "Cách đơn giản nhất để giữ ngôn ngữ"
+        },
+        {
+          "zh": "当然是每天去使用它，",
+          "vi": "tất nhiên là ngày nào cũng dùng nó,"
+        },
+        {
+          "zh": "但是我们知道，",
+          "vi": "nhưng chúng ta đều biết,"
+        },
+        {
+          "zh": "除非你真的生活在这个国家，",
+          "vi": "trừ khi bạn thật sự sống ở nước đó,"
+        }
+      ]
+    },
+    "390": {
+      "zh": "不然真的很难维持一门语言的水平啊！",
+      "parts": [
+        {
+          "zh": "不然真的很难",
+          "vi": "không thì thật sự rất khó"
+        },
+        {
+          "zh": "维持一门语言的水平啊！",
+          "vi": "giữ được trình độ một ngôn ngữ!"
+        }
+      ]
+    },
+    "391": {
+      "zh": "我不知道有没有听播客的朋友意识到，我刚刚开始录这这个播客的时候，",
+      "parts": [
+        {
+          "zh": "我不知道有没有",
+          "vi": "Không biết có bạn nghe podcast nào"
+        },
+        {
+          "zh": "听播客的朋友意识到，",
+          "vi": "để ý không,"
+        },
+        {
+          "zh": "我刚刚开始录这这个播客的时候，",
+          "vi": "hồi tôi mới bắt đầu thu podcast này,"
+        }
+      ]
+    },
+    "392": {
+      "zh": "我的中文水平其实没有我现在要好。",
+      "vi": "tiếng Trung của tôi thật ra không tốt bằng bây giờ."
+    },
+    "393": {
+      "zh": "我刚我一开始那几期播客超紧张，讲话字正腔圆。",
+      "parts": [
+        {
+          "zh": "我刚我一开始那几期播客超紧张，",
+          "vi": "Mấy tập đầu tôi siêu căng thẳng,"
+        },
+        {
+          "zh": "讲话字正腔圆。",
+          "vi": "nói năng tròn vành rõ chữ."
+        }
+      ]
+    },
+    "394": {
+      "zh": "可能逻辑也没有现在，就是没有现在这么放松吧。",
+      "parts": [
+        {
+          "zh": "可能逻辑也没有现在，",
+          "vi": "Có lẽ logic cũng không như bây giờ,"
+        },
+        {
+          "zh": "就是没有现在这么放松吧。",
+          "vi": "tức là không thoải mái như bây giờ."
+        }
+      ]
+    },
+    "395": {
+      "zh": "这个播客如果能够给你带来一些精神上的价值，对我来说是莫大的幸事。",
+      "parts": [
+        {
+          "zh": "这个播客如果能够",
+          "vi": "Podcast này nếu có thể"
+        },
+        {
+          "zh": "给你带来一些精神上的价值，",
+          "vi": "mang lại cho bạn chút giá trị tinh thần,"
+        },
+        {
+          "zh": "对我来说是莫大的幸事。",
+          "vi": "thì với tôi là điều may mắn vô cùng."
+        }
+      ]
+    },
+    "396": {
+      "zh": "但是它对于我来说最重要的价值是，它可以让我在离开祖国十几年，",
+      "parts": [
+        {
+          "zh": "但是它对于我来说最重要的价值是，",
+          "vi": "Nhưng giá trị lớn nhất của nó với tôi là,"
+        },
+        {
+          "zh": "它可以让我在离开祖国十几年，",
+          "vi": "nó giúp tôi, dù xa tổ quốc mười mấy năm,"
+        }
+      ]
+    },
+    "397": {
+      "zh": "每天基本没有任何用中文跟人交流的机会这个情况下，仍然维持一个讲中文的生活习惯。",
+      "parts": [
+        {
+          "zh": "每天基本没有任何",
+          "vi": "mỗi ngày gần như không có"
+        },
+        {
+          "zh": "用中文跟人交流的机会这个情况下，",
+          "vi": "cơ hội nói tiếng Trung với ai,"
+        },
+        {
+          "zh": "仍然维持一个讲中文的生活习惯。",
+          "vi": "vẫn giữ được thói quen sống nói tiếng Trung."
+        }
+      ]
+    },
+    "398": {
+      "zh": "所以这个播客对我来说就是维持语言的一种方式。",
+      "parts": [
+        {
+          "zh": "所以这个播客对我来说",
+          "vi": "Nên podcast này với tôi"
+        },
+        {
+          "zh": "就是维持语言的一种方式。",
+          "vi": "là một cách để giữ ngôn ngữ."
+        }
+      ]
+    },
+    "399": {
+      "zh": "你看，我为了维持语言，维持我的母语，我都要做这么多的努力，",
+      "parts": [
+        {
+          "zh": "你看，我为了维持语言，维持我的母语，",
+          "vi": "Bạn xem, để giữ ngôn ngữ, giữ tiếng mẹ đẻ,"
+        },
+        {
+          "zh": "我都要做这么多的努力，",
+          "vi": "tôi còn phải nỗ lực nhiều như vậy,"
+        }
+      ]
+    },
+    "400": {
+      "zh": "更何况是维持一门后来再学的、本来就根基不是很深的语言呢？",
+      "parts": [
+        {
+          "zh": "更何况是维持一门后来再学的、",
+          "vi": "huống chi là giữ một ngôn ngữ học sau này,"
+        },
+        {
+          "zh": "本来就根基不是很深的语言呢？",
+          "vi": "vốn đã không có gốc rễ sâu?"
+        }
+      ]
+    },
+    "401": {
+      "zh": "在这件事情上，我想要跟大家揭露一些。",
+      "parts": [
+        {
+          "zh": "在这件事情上，",
+          "vi": "Về chuyện này,"
+        },
+        {
+          "zh": "我想要跟大家揭露一些。",
+          "vi": "tôi muốn vạch trần với mọi người vài điều."
+        }
+      ]
+    },
+    "402": {
+      "zh": "嗯，我们可能平时看到那些像我这样读博士的人，或者是已经有了博士学位的教授，",
+      "parts": [
+        {
+          "zh": "嗯，我们可能平时看到",
+          "vi": "Ừm, chúng ta có lẽ thường thấy"
+        },
+        {
+          "zh": "那些像我这样读博士的人，",
+          "vi": "những người học tiến sĩ như tôi,"
+        },
+        {
+          "zh": "或者是已经有了博士学位的教授，",
+          "vi": "hay những giáo sư đã có bằng tiến sĩ,"
+        }
+      ]
+    },
+    "403": {
+      "zh": "都说自己啊什么精通七八门语言，可能真的有这样的人吧。",
+      "parts": [
+        {
+          "zh": "都说自己啊什么精通七八门语言，",
+          "vi": "đều nói mình, à, thạo bảy tám thứ tiếng,"
+        },
+        {
+          "zh": "可能真的有这样的人吧。",
+          "vi": "có lẽ thật sự có người như vậy."
+        }
+      ]
+    },
+    "404": {
+      "zh": "但是我的社交圈里面基本上每一个人都宣称自己。精通七八门语言，他们是什么水平？",
+      "parts": [
+        {
+          "zh": "但是我的社交圈里面",
+          "vi": "Nhưng trong vòng quen biết của tôi"
+        },
+        {
+          "zh": "基本上每一个人",
+          "vi": "gần như ai cũng"
+        },
+        {
+          "zh": "都宣称自己。精通七八门语言，",
+          "vi": "tuyên bố mình thạo bảy tám thứ tiếng,"
+        },
+        {
+          "zh": "他们是什么水平？",
+          "vi": "họ trình độ thế nào?"
+        }
+      ]
+    },
+    "406": {
+      "zh": "我还能不知道吗？",
+      "vi": "Tôi lại không biết sao?"
+    },
+    "407": {
+      "zh": "他们可能在人生的某一个时刻确实精通了这些语言，",
+      "parts": [
+        {
+          "zh": "他们可能在人生的某一个时刻",
+          "vi": "Có thể vào một thời điểm nào đó trong đời"
+        },
+        {
+          "zh": "确实精通了这些语言，",
+          "vi": "họ đúng là đã thạo những thứ tiếng đó,"
+        }
+      ]
+    },
+    "408": {
+      "zh": "但是没有人有那么多精力去保持和维护这些语言的水平。",
+      "parts": [
+        {
+          "zh": "但是没有人有那么多精力",
+          "vi": "nhưng chẳng ai có đủ sức lực"
+        },
+        {
+          "zh": "去保持和维护这些语言的水平。",
+          "vi": "để giữ gìn trình độ những thứ tiếng đó."
+        }
+      ]
+    },
+    "409": {
+      "zh": "最终，你要是没有花大量的时间和精力去维持这些语言，防止它们退化的话，",
+      "parts": [
+        {
+          "zh": "最终，你要是没有花",
+          "vi": "Rốt cuộc, nếu bạn không bỏ ra"
+        },
+        {
+          "zh": "大量的时间和精力",
+          "vi": "thật nhiều thời gian và công sức"
+        },
+        {
+          "zh": "去维持这些语言，防止它们退化的话，",
+          "vi": "để giữ những ngôn ngữ đó, không cho chúng thoái hóa,"
+        }
+      ]
+    },
+    "410": {
+      "zh": "这些语言你当然不会完全忘记掉它。",
+      "vi": "thì tất nhiên bạn sẽ không quên sạch chúng."
+    },
+    "411": {
+      "zh": "毕竟，失去的知识的幻影仍然会以某种方式存在在我们。脑海里保护着我们，但是我们要是不花大量的精力去维持，",
+      "parts": [
+        {
+          "zh": "毕竟，失去的知识的幻影",
+          "vi": "Dù sao, cái bóng của kiến thức đã mất"
+        },
+        {
+          "zh": "仍然会以某种方式",
+          "vi": "vẫn sẽ theo cách nào đó"
+        },
+        {
+          "zh": "存在在我们。脑海里保护着我们，",
+          "vi": "tồn tại trong đầu chúng ta, che chở chúng ta,"
+        },
+        {
+          "zh": "但是我们要是不花",
+          "vi": "nhưng nếu chúng ta không bỏ"
+        },
+        {
+          "zh": "大量的精力去维持，",
+          "vi": "nhiều công sức ra giữ,"
+        }
+      ]
+    },
+    "413": {
+      "zh": "最终这些语言其实是没有办法维持在一个可以让你交用它来交流的水平的。",
+      "parts": [
+        {
+          "zh": "最终这些语言其实",
+          "vi": "thì rốt cuộc những ngôn ngữ đó"
+        },
+        {
+          "zh": "是没有办法维持在一个",
+          "vi": "không thể giữ được ở mức"
+        },
+        {
+          "zh": "可以让你交用它来交流的水平的。",
+          "vi": "để bạn dùng nó giao tiếp."
+        }
+      ]
+    },
+    "414": {
+      "zh": "我记得我们系里面有个系主任算是教授吧，他整天跟我说他会德语，",
+      "parts": [
+        {
+          "zh": "我记得我们系里面",
+          "vi": "Tôi nhớ trong khoa tôi"
+        },
+        {
+          "zh": "有个系主任算是教授吧，",
+          "vi": "có một ông trưởng khoa, coi như giáo sư đi,"
+        },
+        {
+          "zh": "他整天跟我说他会德语，",
+          "vi": "suốt ngày nói với tôi là ông ấy biết tiếng Đức,"
+        }
+      ]
+    },
+    "415": {
+      "zh": "结果我德语学校回来的时候就测了他几句，我就用德语跟他聊了几句，我就发现哎，这个大哥完全没有德语的对话水平哦。",
+      "parts": [
+        {
+          "zh": "结果我德语学校回来的时候",
+          "vi": "kết quả lúc tôi từ trường tiếng Đức về"
+        },
+        {
+          "zh": "就测了他几句，",
+          "vi": "bèn thử ông ấy vài câu,"
+        },
+        {
+          "zh": "我就用德语跟他聊了几句，",
+          "vi": "tôi nói với ông ấy vài câu tiếng Đức,"
+        },
+        {
+          "zh": "我就发现哎，这个大哥",
+          "vi": "thì phát hiện ra, ơ, ông anh này"
+        },
+        {
+          "zh": "完全没有德语的对话水平哦。",
+          "vi": "hoàn toàn không có trình độ hội thoại tiếng Đức."
+        }
+      ]
+    },
+    "417": {
+      "zh": "其实，在学术界，嗯，学者不需要有任何语言的口语水平，",
+      "parts": [
+        {
+          "zh": "其实，在学术界，嗯，",
+          "vi": "Thật ra, trong giới học thuật, ừm,"
+        },
+        {
+          "zh": "学者不需要有任何语言的口语水平，",
+          "vi": "học giả không cần trình độ nói của bất kỳ ngôn ngữ nào,"
+        }
+      ]
+    },
+    "418": {
+      "zh": "因为一门语言的学术水平只是他的阅读水平。",
+      "parts": [
+        {
+          "zh": "因为一门语言的学术水平",
+          "vi": "vì trình độ học thuật của một ngôn ngữ"
+        },
+        {
+          "zh": "只是他的阅读水平。",
+          "vi": "chỉ là trình độ đọc."
+        }
+      ]
+    },
+    "419": {
+      "zh": "我们看到那些说自己会很多门语言的学者，",
+      "parts": [
+        {
+          "zh": "我们看到那些",
+          "vi": "Chúng ta thấy những"
+        },
+        {
+          "zh": "说自己会很多门语言的学者，",
+          "vi": "học giả nói mình biết nhiều thứ tiếng,"
+        }
+      ]
+    },
+    "420": {
+      "zh": "其实他们中间绝大多数人是没有办法用这个语言进行交流的，因为作为学者，他们需要的仅仅只是用这门语言读文献而已。",
+      "parts": [
+        {
+          "zh": "其实他们中间绝大多数人",
+          "vi": "thật ra đa số họ"
+        },
+        {
+          "zh": "是没有办法用这个语言进行交流的，",
+          "vi": "không thể giao tiếp bằng ngôn ngữ đó,"
+        },
+        {
+          "zh": "因为作为学者，他们需要的仅仅只是",
+          "vi": "vì là học giả, thứ họ cần chỉ là"
+        },
+        {
+          "zh": "用这门语言读文献而已。",
+          "vi": "dùng ngôn ngữ đó để đọc tài liệu mà thôi."
+        }
+      ]
+    },
+    "422": {
+      "zh": "确实有很多文献，它可能只是那个语言才有的。",
+      "parts": [
+        {
+          "zh": "确实有很多文献，",
+          "vi": "Đúng là có nhiều tài liệu,"
+        },
+        {
+          "zh": "它可能只是那个语言才有的。",
+          "vi": "có thể chỉ ngôn ngữ đó mới có."
+        }
+      ]
+    },
+    "423": {
+      "zh": "嗯，学者不需要用这门语言来进行任何写作，甚至出呃输出。",
+      "parts": [
+        {
+          "zh": "嗯，学者不需要用这门语言",
+          "vi": "Ừm, học giả không cần dùng ngôn ngữ đó"
+        },
+        {
+          "zh": "来进行任何写作，甚至出呃输出。",
+          "vi": "để viết gì cả, thậm chí là, ờ, đầu ra gì."
+        }
+      ]
+    },
+    "424": {
+      "zh": "我不知道我的听众有没有很多在中文学术界工作的朋友啊？",
+      "parts": [
+        {
+          "zh": "我不知道我的听众有没有很多",
+          "vi": "Không biết trong số người nghe có nhiều bạn"
+        },
+        {
+          "zh": "在中文学术界工作的朋友啊？",
+          "vi": "làm việc trong giới học thuật Trung Quốc không?"
+        }
+      ]
+    },
+    "425": {
+      "zh": "大家应该知道，你在中文学术界不懂英语的话是完全不行的，",
+      "parts": [
+        {
+          "zh": "大家应该知道，你在中文学术界",
+          "vi": "Mọi người chắc biết, trong giới học thuật Trung Quốc"
+        },
+        {
+          "zh": "不懂英语的话是完全不行的，",
+          "vi": "không biết tiếng Anh là hoàn toàn không được,"
+        }
+      ]
+    },
+    "426": {
+      "zh": "因为现在有太多的文献是用英文来发布的。",
+      "parts": [
+        {
+          "zh": "因为现在有太多的文献",
+          "vi": "vì bây giờ có quá nhiều tài liệu"
+        },
+        {
+          "zh": "是用英文来发布的。",
+          "vi": "được công bố bằng tiếng Anh."
+        }
+      ]
+    },
+    "427": {
+      "zh": "但是在美国也是这样，有很多十九世纪的德国学者做出了非常宝贵的研究。",
+      "parts": [
+        {
+          "zh": "但是在美国也是这样，",
+          "vi": "Nhưng ở Mỹ cũng vậy,"
+        },
+        {
+          "zh": "有很多十九世纪的德国学者",
+          "vi": "có nhiều học giả Đức thế kỷ 19"
+        },
+        {
+          "zh": "做出了非常宝贵的研究。",
+          "vi": "đã làm ra những nghiên cứu rất quý giá."
+        }
+      ]
+    },
+    "428": {
+      "zh": "比如说，在三十年前，你要是在美国想要获得一门博士学位，不管你是在哪一个人文领域，",
+      "parts": [
+        {
+          "zh": "比如说，在三十年前，你要是在美国",
+          "vi": "Ví dụ, 30 năm trước, nếu bạn ở Mỹ"
+        },
+        {
+          "zh": "想要获得一门博士学位，",
+          "vi": "muốn lấy bằng tiến sĩ,"
+        },
+        {
+          "zh": "不管你是在哪一个人文领域，",
+          "vi": "dù bạn ở lĩnh vực nhân văn nào,"
+        }
+      ]
+    },
+    "429": {
+      "zh": "你只要是想要获得人文领域方面的博士学位，你就一定要会德语。",
+      "parts": [
+        {
+          "zh": "你只要是想要获得",
+          "vi": "chỉ cần bạn muốn lấy"
+        },
+        {
+          "zh": "人文领域方面的博士学位，",
+          "vi": "bằng tiến sĩ ngành nhân văn,"
+        },
+        {
+          "zh": "你就一定要会德语。",
+          "vi": "bạn nhất định phải biết tiếng Đức."
+        }
+      ]
+    },
+    "430": {
+      "zh": "因为十九世纪的德国学者对于人文领域的做出的贡献实在是太多了，",
+      "parts": [
+        {
+          "zh": "因为十九世纪的德国学者",
+          "vi": "Vì học giả Đức thế kỷ 19"
+        },
+        {
+          "zh": "对于人文领域的做出的贡献",
+          "vi": "đóng góp cho ngành nhân văn"
+        },
+        {
+          "zh": "实在是太多了，",
+          "vi": "thật sự quá nhiều,"
+        }
+      ]
+    },
+    "431": {
+      "zh": "而且这些文献是没有被完全翻译成英文的，我们只能用德语去读。",
+      "parts": [
+        {
+          "zh": "而且这些文献是没有被",
+          "vi": "hơn nữa những tài liệu này chưa được"
+        },
+        {
+          "zh": "完全翻译成英文的，",
+          "vi": "dịch hết sang tiếng Anh,"
+        },
+        {
+          "zh": "我们只能用德语去读。",
+          "vi": "chúng ta chỉ có thể đọc bằng tiếng Đức."
+        }
+      ]
+    },
+    "432": {
+      "zh": "但是我们用德语去读文献，完全不需要嗯，你对是否会说德语这个事情有任何的。挂钩对吧？",
+      "parts": [
+        {
+          "zh": "但是我们用德语去读文献，",
+          "vi": "Nhưng chúng ta đọc tài liệu bằng tiếng Đức,"
+        },
+        {
+          "zh": "完全不需要嗯，",
+          "vi": "hoàn toàn không cần, ừm,"
+        },
+        {
+          "zh": "你对是否会说德语这个事情",
+          "vi": "chuyện bạn có nói được tiếng Đức hay không"
+        },
+        {
+          "zh": "有任何的。挂钩对吧？",
+          "vi": "phải dính dáng gì cả, đúng không?"
+        }
+      ]
+    },
+    "434": {
+      "zh": "而且我认识很多在中国高校工作的博士中国人，嗯，他们去翻译，",
+      "parts": [
+        {
+          "zh": "而且我认识很多",
+          "vi": "Hơn nữa tôi quen nhiều người Trung Quốc"
+        },
+        {
+          "zh": "在中国高校工作的博士中国人，",
+          "vi": "có bằng tiến sĩ làm ở các trường đại học Trung Quốc,"
+        },
+        {
+          "zh": "嗯，他们去翻译，",
+          "vi": "ừm, họ đi dịch,"
+        }
+      ]
+    },
+    "435": {
+      "zh": "他们去跟出版社合作去翻译一些学术书籍的时候，嗯，他们会先，",
+      "parts": [
+        {
+          "zh": "他们去跟出版社合作",
+          "vi": "khi họ hợp tác với nhà xuất bản"
+        },
+        {
+          "zh": "去翻译一些学术书籍的时候，",
+          "vi": "để dịch sách học thuật,"
+        },
+        {
+          "zh": "嗯，他们会先，",
+          "vi": "ừm, họ sẽ trước hết,"
+        }
+      ]
+    },
+    "436": {
+      "zh": "他们甚至会先把这个德语或者是法语的文本放到翻译器里面，先搞出一个大概的翻译，",
+      "parts": [
+        {
+          "zh": "他们甚至会先把这个德语",
+          "vi": "thậm chí họ còn đem văn bản tiếng Đức"
+        },
+        {
+          "zh": "或者是法语的文本放到翻译器里面，",
+          "vi": "hay tiếng Pháp bỏ vào máy dịch trước,"
+        },
+        {
+          "zh": "先搞出一个大概的翻译，",
+          "vi": "làm ra một bản dịch đại khái,"
+        }
+      ]
+    },
+    "437": {
+      "zh": "然后再进行一些精准度和语言上的修改。",
+      "parts": [
+        {
+          "zh": "然后再进行一些",
+          "vi": "rồi mới chỉnh sửa"
+        },
+        {
+          "zh": "精准度和语言上的修改。",
+          "vi": "về độ chính xác và câu chữ."
+        }
+      ]
+    },
+    "438": {
+      "zh": "所以说，我们绕七绕八又回到了播客一开始那个“鸣龙少年”那个主题啊。",
+      "parts": [
+        {
+          "zh": "所以说，我们绕七绕八",
+          "vi": "Thế là, chúng ta lòng vòng một hồi"
+        },
+        {
+          "zh": "又回到了播客一开始",
+          "vi": "lại quay về đầu podcast,"
+        },
+        {
+          "zh": "那个“鸣龙少年”那个主题啊。",
+          "vi": "cái chủ đề \"Minh Long Thiếu Niên\" ấy."
+        }
+      ]
+    },
+    "439": {
+      "zh": "很多时候我自己身处在这个环境中，",
+      "vi": "Nhiều khi chính tôi ở trong môi trường này,"
+    },
+    "440": {
+      "zh": "所以我没有对一些号称自己会很多语言的朋友有任何的崇拜之情。",
+      "parts": [
+        {
+          "zh": "所以我没有对一些",
+          "vi": "nên tôi không hề"
+        },
+        {
+          "zh": "号称自己会很多语言的朋友",
+          "vi": "với mấy người bạn tự xưng biết nhiều thứ tiếng"
+        },
+        {
+          "zh": "有任何的崇拜之情。",
+          "vi": "có chút sùng bái nào."
+        }
+      ]
+    },
+    "441": {
+      "zh": "但是我意识到，很多人可能会对像我这种号称自己会很多语言的人有一种神秘莫测的好奇吧。",
+      "parts": [
+        {
+          "zh": "但是我意识到，",
+          "vi": "Nhưng tôi nhận ra,"
+        },
+        {
+          "zh": "很多人可能会对像我这种",
+          "vi": "nhiều người có thể với những người như tôi,"
+        },
+        {
+          "zh": "号称自己会很多语言的人",
+          "vi": "tự xưng biết nhiều thứ tiếng,"
+        },
+        {
+          "zh": "有一种神秘莫测的好奇吧。",
+          "vi": "có một sự tò mò đầy bí ẩn."
+        }
+      ]
+    },
+    "442": {
+      "zh": "实际上，学语言的方法只有一种。",
+      "vi": "Thật ra, cách học ngôn ngữ chỉ có một."
+    },
+    "443": {
+      "zh": "那就是关掉这个播客，开始背单词下苦功。",
+      "parts": [
+        {
+          "zh": "那就是关掉这个播客，",
+          "vi": "Đó là tắt podcast này đi,"
+        },
+        {
+          "zh": "开始背单词下苦功。",
+          "vi": "bắt đầu học thuộc từ, khổ luyện."
+        }
+      ]
+    },
+    "444": {
+      "zh": "再聪明的人也没有很好的维持一门外语的方式，唯一的方式就是下苦功。",
+      "parts": [
+        {
+          "zh": "再聪明的人也没有",
+          "vi": "Người thông minh mấy cũng không có"
+        },
+        {
+          "zh": "很好的维持一门外语的方式，",
+          "vi": "cách nào hay để giữ một ngoại ngữ,"
+        },
+        {
+          "zh": "唯一的方式就是下苦功。",
+          "vi": "cách duy nhất là khổ luyện."
+        }
+      ]
+    },
+    "445": {
+      "zh": "嗯，每天把自己放在这个语境之中。",
+      "vi": "Ừm, ngày nào cũng đặt mình vào ngữ cảnh đó."
+    },
+    "446": {
+      "zh": "播客的最后，我想跟大家分享：二零一六年十九岁的我在知乎上写了一个答案，有一个人问。",
+      "parts": [
+        {
+          "zh": "播客的最后，我想跟大家分享：",
+          "vi": "Cuối podcast, tôi muốn chia sẻ với mọi người:"
+        },
+        {
+          "zh": "二零一六年十九岁的我在知乎上",
+          "vi": "năm 2016, lúc 19 tuổi, tôi đã viết trên Zhihu"
+        },
+        {
+          "zh": "写了一个答案，有一个人问。",
+          "vi": "một câu trả lời, có người hỏi."
+        }
+      ]
+    },
+    "447": {
+      "zh": "能够使用古希腊语是怎样的体验？",
+      "vi": "Có thể dùng tiếng Hy Lạp cổ là trải nghiệm thế nào?"
+    },
+    "448": {
+      "zh": "我当时的回答仍然让我现在感到有点感动。",
+      "parts": [
+        {
+          "zh": "我当时的回答",
+          "vi": "Câu trả lời hồi đó của tôi"
+        },
+        {
+          "zh": "仍然让我现在感到有点感动。",
+          "vi": "đến giờ vẫn làm tôi hơi xúc động."
+        }
+      ]
+    },
+    "449": {
+      "zh": "这个回答虽然说是有关古希腊语的，但是对我来说，它代表了学习所有外语的意义。",
+      "parts": [
+        {
+          "zh": "这个回答虽然说是有关古希腊语的，",
+          "vi": "Câu trả lời này tuy nói về tiếng Hy Lạp cổ,"
+        },
+        {
+          "zh": "但是对我来说，",
+          "vi": "nhưng với tôi,"
+        },
+        {
+          "zh": "它代表了学习所有外语的意义。",
+          "vi": "nó tượng trưng cho ý nghĩa của việc học mọi ngoại ngữ."
+        }
+      ]
+    },
+    "450": {
+      "zh": "在这期播客的最后，我重新念给大家听。",
+      "parts": [
+        {
+          "zh": "在这期播客的最后，",
+          "vi": "Ở cuối tập podcast này,"
+        },
+        {
+          "zh": "我重新念给大家听。",
+          "vi": "tôi đọc lại cho mọi người nghe."
+        }
+      ]
+    },
+    "451": {
+      "zh": "我当时是学了九年的啊，说错了，我当时是十九岁，学了四年的古希腊语了。",
+      "parts": [
+        {
+          "zh": "我当时是学了九年的啊，说错了，",
+          "vi": "Hồi đó tôi đã học chín năm, à, nói nhầm,"
+        },
+        {
+          "zh": "我当时是十九岁，",
+          "vi": "hồi đó tôi 19 tuổi,"
+        },
+        {
+          "zh": "学了四年的古希腊语了。",
+          "vi": "đã học tiếng Hy Lạp cổ bốn năm."
+        }
+      ]
+    },
+    "452": {
+      "zh": "有人问，能够使用古希腊语是一种怎样的体验？",
+      "parts": [
+        {
+          "zh": "有人问，能够使用古希腊语",
+          "vi": "Có người hỏi, có thể dùng tiếng Hy Lạp cổ"
+        },
+        {
+          "zh": "是一种怎样的体验？",
+          "vi": "là một trải nghiệm thế nào?"
+        }
+      ]
+    },
+    "453": {
+      "zh": "我说，嗯，从九年级走进第一节古希腊语课，一直拖到最近才感觉有感而发。",
+      "parts": [
+        {
+          "zh": "我说，嗯，从九年级",
+          "vi": "Tôi viết, ừm: từ lớp 9"
+        },
+        {
+          "zh": "走进第一节古希腊语课，",
+          "vi": "bước vào tiết tiếng Hy Lạp cổ đầu tiên,"
+        },
+        {
+          "zh": "一直拖到最近才感觉有感而发。",
+          "vi": "lần lữa mãi tới gần đây mới thấy có cảm xúc muốn viết."
+        }
+      ]
+    },
+    "454": {
+      "zh": "会悄无声息地衍生一种失落感，一种错觉。",
+      "parts": [
+        {
+          "zh": "会悄无声息地",
+          "vi": "Sẽ lặng lẽ nảy sinh"
+        },
+        {
+          "zh": "衍生一种失落感，一种错觉。",
+          "vi": "một cảm giác mất mát, một ảo giác."
+        }
+      ]
+    },
+    "455": {
+      "zh": "学古希腊语的第一两年是毫无头绪的，全凭满腔热血、无头苍蝇似的希望。",
+      "parts": [
+        {
+          "zh": "学古希腊语的第一两年",
+          "vi": "Một hai năm đầu học tiếng Hy Lạp cổ"
+        },
+        {
+          "zh": "是毫无头绪的，",
+          "vi": "là hoàn toàn mù mịt,"
+        },
+        {
+          "zh": "全凭满腔热血、无头苍蝇似的希望。",
+          "vi": "chỉ dựa vào bầu nhiệt huyết và niềm hy vọng loạn xạ như ruồi mất đầu."
+        }
+      ]
+    },
+    "456": {
+      "zh": "连个曙光都看不到，满头满脑都装着凌乱的语法，一次一次撞在南墙上。",
+      "parts": [
+        {
+          "zh": "连个曙光都看不到，",
+          "vi": "Đến một tia sáng le lói cũng không thấy,"
+        },
+        {
+          "zh": "满头满脑都装着凌乱的语法，",
+          "vi": "đầu óc đầy ắp ngữ pháp lộn xộn,"
+        },
+        {
+          "zh": "一次一次撞在南墙上。",
+          "vi": "hết lần này tới lần khác đâm vào bức tường."
+        }
+      ]
+    },
+    "457": {
+      "zh": "南墙巍然矗立，对他脚下这帮连动词变位都不会的菜鸟们冷笑。",
+      "parts": [
+        {
+          "zh": "南墙巍然矗立，对他脚下这帮",
+          "vi": "Bức tường sừng sững, cười lạnh với đám"
+        },
+        {
+          "zh": "连动词变位都不会的菜鸟们冷笑。",
+          "vi": "gà mờ dưới chân nó, đến chia động từ cũng không biết."
+        }
+      ]
+    },
+    "458": {
+      "zh": "古典世界的大门纹丝不动，帕特农神庙与你的距离是两千五百年。",
+      "parts": [
+        {
+          "zh": "古典世界的大门纹丝不动，",
+          "vi": "Cánh cửa thế giới cổ điển không hề nhúc nhích,"
+        },
+        {
+          "zh": "帕特农神庙与你的距离",
+          "vi": "khoảng cách giữa đền Parthenon và bạn"
+        },
+        {
+          "zh": "是两千五百年。",
+          "vi": "là 2.500 năm."
+        }
+      ]
+    },
+    "459": {
+      "zh": "一眨眼。",
+      "vi": "Chớp mắt một cái."
+    },
+    "460": {
+      "zh": "两年过去，语法学的差不多了，终于开始读书。",
+      "parts": [
+        {
+          "zh": "两年过去，语法学的差不多了，",
+          "vi": "Hai năm trôi qua, ngữ pháp học gần xong,"
+        },
+        {
+          "zh": "终于开始读书。",
+          "vi": "cuối cùng bắt đầu đọc sách."
+        }
+      ]
+    },
+    "461": {
+      "zh": "以九牛二虎之力，一寸一寸，一个词一个词，一本一本往前挪。",
+      "parts": [
+        {
+          "zh": "以九牛二虎之力，一寸一寸，",
+          "vi": "Dốc sức chín trâu hai hổ, từng tấc một,"
+        },
+        {
+          "zh": "一个词一个词，一本一本往前挪。",
+          "vi": "từng chữ một, từng cuốn một nhích về phía trước."
+        }
+      ]
+    },
+    "462": {
+      "zh": "挪着挪着，就像延期熟练任何一门语言一样，你开始理解了。",
+      "parts": [
+        {
+          "zh": "挪着挪着，",
+          "vi": "Nhích mãi nhích mãi,"
+        },
+        {
+          "zh": "就像延期熟练任何一门语言一样，",
+          "vi": "cũng như khi dần thạo bất kỳ ngôn ngữ nào,"
+        },
+        {
+          "zh": "你开始理解了。",
+          "vi": "bạn bắt đầu hiểu."
+        }
+      ]
+    },
+    "463": {
+      "zh": "你看得到作者的神态，听得见作者的声音，触摸得到作者的表情。",
+      "parts": [
+        {
+          "zh": "你看得到作者的神态，",
+          "vi": "Bạn thấy được thần thái của tác giả,"
+        },
+        {
+          "zh": "听得见作者的声音，",
+          "vi": "nghe được giọng của tác giả,"
+        },
+        {
+          "zh": "触摸得到作者的表情。",
+          "vi": "chạm được vào nét mặt của tác giả."
+        }
+      ]
+    },
+    "464": {
+      "zh": "不同的古希腊人开始活过来，你赋予了他们生命。",
+      "parts": [
+        {
+          "zh": "不同的古希腊人开始活过来，",
+          "vi": "Những người Hy Lạp cổ khác nhau bắt đầu sống lại,"
+        },
+        {
+          "zh": "你赋予了他们生命。",
+          "vi": "bạn đã thổi hồn cho họ."
+        }
+      ]
+    },
+    "465": {
+      "zh": "你开始觉得苏格拉底是一个傲慢之徒，荷马是一个神秘莫测的组织虚构的网红。",
+      "parts": [
+        {
+          "zh": "你开始觉得",
+          "vi": "Bạn bắt đầu thấy"
+        },
+        {
+          "zh": "苏格拉底是一个傲慢之徒，",
+          "vi": "Socrates là một kẻ ngạo mạn,"
+        },
+        {
+          "zh": "荷马是一个",
+          "vi": "Homer là một"
+        },
+        {
+          "zh": "神秘莫测的组织虚构的网红。",
+          "vi": "người nổi tiếng trên mạng do một tổ chức bí ẩn dựng nên."
+        }
+      ]
+    },
+    "466": {
+      "zh": "这其实没什么大不了的。",
+      "vi": "Thật ra chuyện này cũng chẳng có gì to tát."
+    },
+    "467": {
+      "zh": "古希腊语虽然比较小众，也没有什么人学，说白了不过是一门语言。",
+      "parts": [
+        {
+          "zh": "古希腊语虽然比较小众，",
+          "vi": "Tiếng Hy Lạp cổ tuy khá kén người,"
+        },
+        {
+          "zh": "也没有什么人学，",
+          "vi": "cũng chẳng mấy ai học,"
+        },
+        {
+          "zh": "说白了不过是一门语言。",
+          "vi": "nói trắng ra chẳng qua cũng chỉ là một ngôn ngữ."
+        }
+      ]
+    },
+    "468": {
+      "zh": "语言本身是空壳，只是一个承载思。思想的媒体，但一种莫名其妙的失落感，正是在这个时候开始滋生。",
+      "parts": [
+        {
+          "zh": "语言本身是空壳，",
+          "vi": "Ngôn ngữ tự thân là cái vỏ rỗng,"
+        },
+        {
+          "zh": "只是一个承载思。思想的媒体，",
+          "vi": "chỉ là phương tiện chở tư... tư tưởng,"
+        },
+        {
+          "zh": "但一种莫名其妙的失落感，",
+          "vi": "nhưng một cảm giác mất mát khó hiểu,"
+        },
+        {
+          "zh": "正是在这个时候开始滋生。",
+          "vi": "lại bắt đầu nảy nở đúng lúc này."
+        }
+      ]
+    },
+    "470": {
+      "zh": "有可能是你一个人坐着读了很久的古书，突然抬起头的那一瞬间；有可能在你失眠的时候，",
+      "parts": [
+        {
+          "zh": "有可能是你一个人坐着",
+          "vi": "Có thể là lúc bạn ngồi một mình"
+        },
+        {
+          "zh": "读了很久的古书，",
+          "vi": "đọc sách cổ rất lâu,"
+        },
+        {
+          "zh": "突然抬起头的那一瞬间；",
+          "vi": "khoảnh khắc chợt ngẩng đầu lên;"
+        },
+        {
+          "zh": "有可能在你失眠的时候，",
+          "vi": "có thể là lúc bạn mất ngủ,"
+        }
+      ]
+    },
+    "471": {
+      "zh": "开始在脑袋里随机分解英文单词，企图揪出它们词源的时候；",
+      "parts": [
+        {
+          "zh": "开始在脑袋里随机分解英文单词，",
+          "vi": "bắt đầu tách ngẫu nhiên từ tiếng Anh trong đầu,"
+        },
+        {
+          "zh": "企图揪出它们词源的时候；",
+          "vi": "cố lôi ra gốc từ của chúng;"
+        }
+      ]
+    },
+    "472": {
+      "zh": "有可能在你和朋友咋咋呼呼地走进博物馆，看到一座希腊铜雕或。",
+      "parts": [
+        {
+          "zh": "有可能在你和朋友",
+          "vi": "có thể là lúc bạn cùng bạn bè"
+        },
+        {
+          "zh": "咋咋呼呼地走进博物馆，",
+          "vi": "ồn ào bước vào bảo tàng,"
+        },
+        {
+          "zh": "看到一座希腊铜雕或。",
+          "vi": "nhìn thấy một tượng đồng Hy Lạp hoặc..."
+        }
+      ]
+    },
+    "473": {
+      "zh": "或者是罗马大理石雕塑的时候，有的每一瞬间，你好像掉进了时空的缝隙中，",
+      "parts": [
+        {
+          "zh": "或者是罗马大理石雕塑的时候，",
+          "vi": "hoặc tượng cẩm thạch La Mã,"
+        },
+        {
+          "zh": "有的每一瞬间，",
+          "vi": "có những khoảnh khắc,"
+        },
+        {
+          "zh": "你好像掉进了时空的缝隙中，",
+          "vi": "bạn như rơi vào khe hở của thời không,"
+        }
+      ]
+    },
+    "474": {
+      "zh": "好像不再属于现实世界。",
+      "vi": "như không còn thuộc về thế giới thực."
+    },
+    "475": {
+      "zh": "因为这个金黄的、遍布尘埃的公元前的世界变得无比亲切。",
+      "parts": [
+        {
+          "zh": "因为这个金黄的、遍布尘埃的",
+          "vi": "Vì cái thế giới vàng óng, phủ đầy bụi"
+        },
+        {
+          "zh": "公元前的世界变得无比亲切。",
+          "vi": "trước Công nguyên ấy trở nên thân thuộc vô cùng."
+        }
+      ]
+    },
+    "476": {
+      "zh": "正是因为古希腊语是一门死掉的语言，所以它代表的这个世界只属于你。",
+      "parts": [
+        {
+          "zh": "正是因为古希腊语",
+          "vi": "Chính vì tiếng Hy Lạp cổ"
+        },
+        {
+          "zh": "是一门死掉的语言，",
+          "vi": "là một ngôn ngữ đã chết,"
+        },
+        {
+          "zh": "所以它代表的这个世界只属于你。",
+          "vi": "nên thế giới nó đại diện chỉ thuộc về bạn."
+        }
+      ]
+    },
+    "477": {
+      "zh": "这个世界的钥匙只握在你一个人的手中。",
+      "parts": [
+        {
+          "zh": "这个世界的钥匙",
+          "vi": "Chiếc chìa khóa của thế giới ấy"
+        },
+        {
+          "zh": "只握在你一个人的手中。",
+          "vi": "chỉ nằm trong tay một mình bạn."
+        }
+      ]
+    },
+    "478": {
+      "zh": "你欲读就走的预言，在你学习这门语言的头五年里，",
+      "parts": [
+        {
+          "zh": "你欲读就走的预言，",
+          "vi": "(câu này nghe không rõ, không dịch chắc được),"
+        },
+        {
+          "zh": "在你学习这门语言的头五年里，",
+          "vi": "trong năm năm đầu học ngôn ngữ này,"
+        }
+      ]
+    },
+    "479": {
+      "zh": "你一直都以为自己是这个古典世界的过客，是一个好奇的探访者。",
+      "parts": [
+        {
+          "zh": "你一直都以为自己是",
+          "vi": "bạn vẫn luôn nghĩ mình là"
+        },
+        {
+          "zh": "这个古典世界的过客，",
+          "vi": "khách qua đường của thế giới cổ điển này,"
+        },
+        {
+          "zh": "是一个好奇的探访者。",
+          "vi": "là một vị khách tò mò ghé thăm."
+        }
+      ]
+    },
+    "480": {
+      "zh": "然而，在某一个悄无声息的瞬间，你恍惚地觉得自己可以在这个世界里安稳地定居下来。",
+      "parts": [
+        {
+          "zh": "然而，在某一个悄无声息的瞬间，",
+          "vi": "Thế nhưng, vào một khoảnh khắc lặng lẽ nào đó,"
+        },
+        {
+          "zh": "你恍惚地觉得自己",
+          "vi": "bạn mơ hồ cảm thấy mình"
+        },
+        {
+          "zh": "可以在这个世界里安稳地定居下来。",
+          "vi": "có thể yên ổn định cư trong thế giới này."
+        }
+      ]
+    },
+    "481": {
+      "zh": "至少在那一瞬间，非常短暂的一个片刻，你恍惚的觉得现实世界已不再是你的家。",
+      "parts": [
+        {
+          "zh": "至少在那一瞬间，",
+          "vi": "Ít nhất là trong khoảnh khắc ấy,"
+        },
+        {
+          "zh": "非常短暂的一个片刻，",
+          "vi": "một khoảnh khắc rất ngắn ngủi,"
+        },
+        {
+          "zh": "你恍惚的觉得",
+          "vi": "bạn mơ hồ cảm thấy"
+        },
+        {
+          "zh": "现实世界已不再是你的家。",
+          "vi": "thế giới thực không còn là nhà của bạn nữa."
+        }
+      ]
+    },
+    "482": {
+      "zh": "OK，今天的这期播客就到这里吧，我们下一期再见，拜拜。",
+      "parts": [
+        {
+          "zh": "OK，今天的这期播客就到这里吧，",
+          "vi": "OK, tập podcast hôm nay đến đây thôi,"
+        },
+        {
+          "zh": "我们下一期再见，拜拜。",
+          "vi": "hẹn gặp lại ở tập sau, bye bye."
+        }
+      ]
+    },
+    "483": {
+      "zh": "嗯。",
+      "vi": "Ừm."
+    },
+    "484": {
+      "zh": "嗯。",
+      "vi": "Ừm."
+    },
+    "485": {
+      "zh": "嗯。",
+      "vi": "Ừm."
+    }
+  }
+}
