@@ -17,9 +17,9 @@
 import { SAME_START_S } from './studied.js';
 
 export const GOAL_WORDS = 10_000;
-/** What study aims for: words understood a day, and words made solid a week. Most words made solid
- * are said to be known on the day, the rest heard in three chapters, so it is judged over a week. */
-export const DAY_UNDERSTOOD = 65;
+/** What study aims for: words made solid a week. Most words made solid are said to be known on the
+ * day, the rest heard in three chapters, so it is judged over a week. Words understood have no
+ * target: new chapters are a daily habit of listening for what they tell, and that count follows. */
 export const WEEK_SOLID = 200;
 /** The studied chapters, and the days among theirs, a word is heard untapped in to be solid. */
 export const SOLID_CHAPTERS = 3;

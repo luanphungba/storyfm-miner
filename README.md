@@ -210,9 +210,10 @@ known, and those splits, so a tap on 很脏 is a tap on 很 and 脏. `docs/vocab
 understood once heard untapped in a chapter studied for the first time, and solid once heard so in
 three chapters over two days; a chapter studied again counts for nothing, as its lines are remembered.
 A tap takes a word out until it is heard untapped in a new chapter on a later day or said to be known.
-The page holds study to 65 words understood a day and 200 made solid a week, judged over the week as
-most words are said to be known on one day and the rest come when a word recurs; and by the words
-made solid in it rather than the change in the count, which HSK 1-2 tapped in a phrase pulls down.
+The page holds study to 200 words made solid a week, judged over the week as most words are said to
+be known on one day and the rest come when a word recurs; and by the words made solid in it rather
+than the change in the count, which HSK 1-2 tapped in a phrase pulls down. Words understood carry no
+target: new chapters are a daily habit of listening for what they tell, and that count follows.
 
 It also estimates the HSK level that vocabulary reaches (`docs/level.js`). Listening never brings a
 whole band (the podcasts say about half of HSK 4 at all), so a word heard counts as it stands, and one

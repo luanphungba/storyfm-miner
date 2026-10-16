@@ -17,7 +17,7 @@ import { call, savedConnection } from './server.js';
 import { chapterLink, dayLabel } from './studied.js';
 import { tappedByDay, unknownWords } from './taps.js';
 import {
-  DAY_UNDERSTOOD, GOAL_WORDS, WEEK_SOLID, fetchVocabulary, formatChange, gained, timesSaid, vocabularyByDay,
+  GOAL_WORDS, WEEK_SOLID, fetchVocabulary, formatChange, gained, timesSaid, vocabularyByDay,
   vocabularyDays, vocabularyWords, wordTicks,
 } from './vocab.js';
 
@@ -211,8 +211,8 @@ function renderVocabulary(/** @type {Stats} */ { vocabulary, gained }, /** @type
   $('vocab-meter').setAttribute('aria-valuenow', String(now.understood));
   if (gained) {
     const { day, week } = gained;
-    $('vocab-today').textContent = `Hôm nay ${formatChange(day.understood)} / ${DAY_UNDERSTOOD} từ hiểu khi nghe · ${day.solid} từ mới vững.`;
-    $('vocab-week').textContent = `7 ngày qua ${formatChange(week.understood)} / ${count(7 * DAY_UNDERSTOOD)} từ hiểu khi nghe · ${week.solid} / ${WEEK_SOLID} từ mới vững.`;
+    $('vocab-today').textContent = `Hôm nay ${formatChange(day.understood)} từ hiểu khi nghe · ${day.solid} từ mới vững.`;
+    $('vocab-week').textContent = `7 ngày qua ${formatChange(week.understood)} từ hiểu khi nghe · ${week.solid} / ${WEEK_SOLID} từ mới vững.`;
   }
   $('vocab-understood-tile').textContent = count(now.understood);
   $('vocab-solid').textContent = count(now.solid);
